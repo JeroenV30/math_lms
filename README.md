@@ -11,7 +11,7 @@ de geschiedenis van het wiskundige denken als leidraad. Gebouwd volgens
 
 | Onderdeel | Status |
 |---|---|
-| Deel I – Fundamenten (modules 1–6) | Volledig: 47 lessen, 216 oefeningen, 6 toetsen (90 vragen) |
+| Deel I – Fundamenten (modules 1–6) | Volledig: 43 lessen, 216 oefeningen, 6 toetsen (90 vragen) |
 | Modules 7–42 | Metadata en opzet; inhoud volgt |
 | Historische tijdlijn | 60 gebeurtenissen |
 | Wiskundigenbibliotheek | 23 profielen |
