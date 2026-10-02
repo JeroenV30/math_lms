@@ -5,6 +5,9 @@ import exercise from './exercises/exercise';
 import { numberLine, tally } from './visualisations/counting';
 import { babylonian, placeValue, roman } from './visualisations/numeral-systems';
 import { areaModel, columnArithmetic, egyptianMultiplication, sharing, sieve, unitLadder } from './visualisations/arithmetic';
+import { fraction, percentGrid, ratioTable } from './visualisations/fractions';
+import { angle, pythagoras, shapeArea } from './visualisations/geometry';
+import { powers, stats } from './visualisations/data';
 
 Alpine.data('exercise', exercise);
 
@@ -19,6 +22,14 @@ Alpine.data('egyptianMultiplication', egyptianMultiplication);
 Alpine.data('sharing', sharing);
 Alpine.data('sieve', sieve);
 Alpine.data('unitLadder', unitLadder);
+Alpine.data('fraction', fraction);
+Alpine.data('percentGrid', percentGrid);
+Alpine.data('ratioTable', ratioTable);
+Alpine.data('angle', angle);
+Alpine.data('shapeArea', shapeArea);
+Alpine.data('pythagoras', pythagoras);
+Alpine.data('stats', stats);
+Alpine.data('powers', powers);
 
 /**
  * x-katex="expressie": render een reactieve formule, bijv. in een visualisatie.
