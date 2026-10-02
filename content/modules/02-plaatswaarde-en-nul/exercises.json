@@ -328,7 +328,7 @@
     },
     {
       "id": "02-012",
-      "type": "numeric",
+      "type": "decimal",
       "mode": "guided",
       "difficulty": 2,
       "question": "Een erfenis van € 0 wordt eerlijk verdeeld over 8 erfgenamen. Hoeveel euro krijgt elke erfgenaam? Bereken dus $0 \\div 8$.",
@@ -522,7 +522,7 @@
         },
         {
           "answer": 51,
-          "message": "XL is 40, niet 60 of 50 + 1. Een kleiner teken vóór een groter wordt afgetrokken."
+          "message": "XL = 40 heb je goed, maar IX is 9, niet 11. Ook hier staat een kleiner teken (I) vóór een groter (X) en wordt het afgetrokken: $10 - 1 = 9$."
         }
       ],
       "topics": [
@@ -1017,7 +1017,7 @@
         },
         {
           "answer": 2892,
-          "message": "Let op het aantal getallen van 100 t/m 999: dat zijn er $999 - 100 + 1 = 900$. En vergeet de 4 cijfers van 1.000 niet."
+          "message": "Bijna goed. Je hebt 1.000 waarschijnlijk als drie cijfers geteld, maar 1.000 bestaat uit vier cijfers: 1, 0, 0 en 0."
         }
       ],
       "topics": [

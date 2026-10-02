@@ -1,7 +1,7 @@
 # Afronden, schatten en een uitdaging
 
 :::question Denk eerst zelf na
-Een krant meldt: "Ruim 2.500 bezoekers op de veiling." In werkelijkheid waren het er 2.487. Liegt de krant? En hoe zou de krant het getal hebben gemeld als het om 2.449 bezoekers ging?
+Een krant meldt: "Zo'n 2.500 bezoekers op de veiling." In werkelijkheid waren het er 2.487. Liegt de krant? En hoe zou de krant het getal hebben gemeld als het om 2.449 bezoekers ging?
 :::
 
 ## Waarom afronden?
