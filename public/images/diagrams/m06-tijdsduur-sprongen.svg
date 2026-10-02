@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" font-family="sans-serif" role="img" aria-label="Tijdsduur van 08:47 tot 11:23 berekenen door aan te vullen">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3b5bdb"/></marker></defs>
+<rect x="0" y="0" width="760" height="260" fill="#ffffff"/>
+<text x="380" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2933">Aanvullen: van 08:47 tot 11:23</text>
+<line x1="40" y1="170" x2="730" y2="170" stroke="#1f2933" stroke-width="2"/>
+<line x1="60" y1="160" x2="60" y2="180" stroke="#1f2933" stroke-width="2"/><text x="60" y="205" text-anchor="middle" font-size="16" fill="#1f2933">08:47</text>
+<line x1="150" y1="160" x2="150" y2="180" stroke="#1f2933" stroke-width="2"/><text x="150" y="205" text-anchor="middle" font-size="16" fill="#1f2933">09:00</text>
+<line x1="560" y1="160" x2="560" y2="180" stroke="#1f2933" stroke-width="2"/><text x="560" y="205" text-anchor="middle" font-size="16" fill="#1f2933">11:00</text>
+<line x1="700" y1="160" x2="700" y2="180" stroke="#1f2933" stroke-width="2"/><text x="700" y="205" text-anchor="middle" font-size="16" fill="#1f2933">11:23</text>
+<path d="M60,165 Q105.0,63.400000000000006 150,165" fill="none" stroke="#3b5bdb" stroke-width="2.5" marker-end="url(#ah)"/>
+<text x="105.0" y="104.2" text-anchor="middle" font-size="15" font-weight="bold" fill="#3b5bdb">+ 13 min</text>
+<path d="M150,165 Q355.0,-13.399999999999977 560,165" fill="none" stroke="#3b5bdb" stroke-width="2.5" marker-end="url(#ah)"/>
+<text x="355.0" y="65.80000000000001" text-anchor="middle" font-size="15" font-weight="bold" fill="#3b5bdb">+ 2 uur = 120 min</text>
+<path d="M560,165 Q630.0,51.400000000000006 700,165" fill="none" stroke="#3b5bdb" stroke-width="2.5" marker-end="url(#ah)"/>
+<text x="630.0" y="98.2" text-anchor="middle" font-size="15" font-weight="bold" fill="#3b5bdb">+ 23 min</text>
+<rect x="200" y="220" width="360" height="30" rx="6" fill="#f1f3f5" stroke="#1f2933"/>
+<text x="380" y="241" text-anchor="middle" font-size="15" fill="#1f2933">13 + 120 + 23 = 156 minuten</text>
+</svg>

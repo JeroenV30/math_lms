@@ -1,0 +1,999 @@
+{
+  "exercises": [
+    {
+      "id": "05-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een bakker verdeelt 24 broden eerlijk over 6 arbeiders. Hoeveel broden krijgt elke arbeider?",
+      "answer": 4,
+      "unit": "broden",
+      "hints": [
+        "Dit is eerlijk verdelen: je kent het aantal groepen (6) en zoekt de grootte van een groep.",
+        "Zoek het getal dat maal 6 gelijk is aan 24: $\\ldots \\times 6 = 24$."
+      ],
+      "solution": [
+        "Gevraagd: $24 : 6$.",
+        "$4 \\times 6 = 24$, dus $24 : 6 = 4$.",
+        "Elke arbeider krijgt 4 broden."
+      ],
+      "topics": [
+        "division"
+      ]
+    },
+    {
+      "id": "05-002",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een touw van 35 el wordt in stukken van 5 el geknipt. Hoeveel stukken krijg je?",
+      "answer": 7,
+      "unit": "stukken",
+      "hints": [
+        "Dit is opdelen: je kent de lengte van een stuk en zoekt hoe vaak dat past.",
+        "Hoe vaak past 5 in 35? Gebruik de tafel van 5."
+      ],
+      "solution": [
+        "Gevraagd: $35 : 5$.",
+        "$7 \\times 5 = 35$, dus $35 : 5 = 7$.",
+        "Je krijgt 7 stukken."
+      ],
+      "feedback": [
+        {
+          "answer": 175,
+          "message": "Je hebt vermenigvuldigd ($35 \\times 5$). Je moet juist uitzoeken hoe vaak 5 in 35 past."
+        }
+      ],
+      "topics": [
+        "division"
+      ]
+    },
+    {
+      "id": "05-003",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welk getal vul je in? $\\ldots \\times 8 = 56$",
+      "answer": 7,
+      "hints": [
+        "Een vermenigvuldiging met een gat is een deling: $56 : 8$.",
+        "Loop de tafel van 8 af tot je 56 tegenkomt."
+      ],
+      "solution": [
+        "$\\ldots \\times 8 = 56$ betekent $56 : 8$.",
+        "$7 \\times 8 = 56$.",
+        "Het ontbrekende getal is 7."
+      ],
+      "feedback": [
+        {
+          "answer": 48,
+          "message": "Je hebt $56 - 8$ uitgerekend. Er staat een vermenigvuldiging: zoek het getal dat **maal** 8 gelijk is aan 56."
+        },
+        {
+          "answer": 448,
+          "message": "Je hebt $56 \\times 8$ uitgerekend. Zoek juist het getal dat maal 8 de uitkomst 56 geeft."
+        }
+      ],
+      "topics": [
+        "division",
+        "multiplication",
+        "tables"
+      ]
+    },
+    {
+      "id": "05-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $0 : 9$.",
+      "answer": 0,
+      "hints": [
+        "Schrijf de deling als vermenigvuldigvraag: $\\ldots \\times 9 = 0$.",
+        "Als er niets te verdelen is, hoeveel krijgt dan elk van de negen personen?"
+      ],
+      "solution": [
+        "$0 : 9$ betekent: welk getal maal 9 is 0?",
+        "$0 \\times 9 = 0$.",
+        "Dus $0 : 9 = 0$. (Andersom, $9 : 0$, heeft géén antwoord.)"
+      ],
+      "feedback": [
+        {
+          "answer": 9,
+          "message": "Dan zou $9 \\times 9 = 0$ moeten zijn. Controleer met de vermenigvuldiging: welk getal maal 9 geeft 0?"
+        }
+      ],
+      "topics": [
+        "division",
+        "zero"
+      ]
+    },
+    {
+      "id": "05-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een handelaar ruilt zout tegen graan in de verhouding 2 : 5: voor elke 2 zakken zout krijgt hij 5 zakken graan. Hoeveel zakken graan krijgt hij voor 8 zakken zout?",
+      "answer": 20,
+      "unit": "zakken",
+      "hints": [
+        "Hoeveel groepjes van 2 zakken zout zitten er in 8 zakken?",
+        "Voor elk groepje zout krijgt hij 5 zakken graan."
+      ],
+      "solution": [
+        "8 zakken zout zijn $8 : 2 = 4$ groepjes van 2.",
+        "Per groepje 5 zakken graan: $4 \\times 5 = 20$.",
+        "Hij krijgt 20 zakken graan."
+      ],
+      "feedback": [
+        {
+          "answer": 11,
+          "message": "Je hebt het verschil gebruikt: $8 + 3 = 11$. Een verhouding gaat over **keer**, niet over plus. Twee keer zoveel zout hoort bij twee keer zoveel graan."
+        }
+      ],
+      "topics": [
+        "ratios",
+        "division"
+      ]
+    },
+    {
+      "id": "05-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bij de deling $47 : 6$: wat is het quotiënt?",
+      "answer": 7,
+      "hints": [
+        "Zoek het grootste veelvoud van 6 dat niet groter is dan 47.",
+        "$7 \\times 6 = 42$ en $8 \\times 6 = 48$."
+      ],
+      "solution": [
+        "$7 \\times 6 = 42 \\le 47$ en $8 \\times 6 = 48 > 47$.",
+        "Dus $47 = 7 \\cdot 6 + 5$.",
+        "Het quotiënt is 7."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "$8 \\times 6 = 48$ is groter dan 47. Het quotiënt telt alleen **volledige** groepen van 6."
+        }
+      ],
+      "topics": [
+        "division",
+        "remainders"
+      ]
+    },
+    {
+      "id": "05-007",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bij de deling $47 : 6$: wat is de rest?",
+      "answer": 5,
+      "hints": [
+        "Het quotiënt is 7. Hoeveel is $7 \\times 6$?",
+        "De rest is het verschil tussen 47 en dat veelvoud."
+      ],
+      "solution": [
+        "$7 \\times 6 = 42$.",
+        "$47 - 42 = 5$.",
+        "Controle: $7 \\cdot 6 + 5 = 47$ en $5 < 6$. De rest is 5."
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Je hebt $48 - 47$ berekend: hoeveel er tekort is voor een achtste groep. De rest is wat er **over**blijft na 7 volle groepen: $47 - 42$."
+        }
+      ],
+      "topics": [
+        "division",
+        "remainders"
+      ]
+    },
+    {
+      "id": "05-008",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je deelt een geheel getal door 7. Wat is de grootst mogelijke rest?",
+      "answer": 6,
+      "hints": [
+        "De rest moet altijd kleiner zijn dan de deler.",
+        "Wat gebeurt er als de rest 7 zou zijn?"
+      ],
+      "solution": [
+        "Voor de rest geldt $0 \\le r < 7$.",
+        "Bij een rest van 7 kun je nog een volle groep van 7 vormen, dan was het quotiënt te klein.",
+        "De mogelijke resten zijn 0 t/m 6; de grootste is 6."
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Bij een rest van 7 past de deler er nog één keer in. De rest is altijd **kleiner** dan de deler."
+        }
+      ],
+      "topics": [
+        "remainders"
+      ]
+    },
+    {
+      "id": "05-009",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een getal gedeeld door 9 geeft quotiënt 12 en rest 4. Welk getal is het?",
+      "answer": 112,
+      "hints": [
+        "Gebruik $a = q \\cdot b + r$.",
+        "Bereken eerst $12 \\times 9$ en tel dan de rest erbij op."
+      ],
+      "solution": [
+        "$a = 12 \\cdot 9 + 4$.",
+        "$12 \\cdot 9 = 108$.",
+        "$108 + 4 = 112$.",
+        "Controle: $112 : 9 = 12$ rest $4$."
+      ],
+      "feedback": [
+        {
+          "answer": 108,
+          "message": "Je bent de rest vergeten. Na 12 volle groepen van 9 blijven er nog 4 over: tel die erbij op."
+        },
+        {
+          "answer": 25,
+          "message": "Je hebt opgeteld ($12 + 9 + 4$). Het deeltal is $12 \\times 9 + 4$."
+        }
+      ],
+      "topics": [
+        "remainders",
+        "multiplication"
+      ]
+    },
+    {
+      "id": "05-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een groep van 50 personen gaat op excursie. Een busje heeft 8 zitplaatsen. Hoeveel busjes zijn er minstens nodig?",
+      "answer": 7,
+      "unit": "busjes",
+      "hints": [
+        "Schrijf de deling met rest: $50 = \\ldots \\cdot 8 + \\ldots$",
+        "Wat gebeurt er met de personen die na de volle busjes overblijven?"
+      ],
+      "solution": [
+        "$6 \\times 8 = 48$ en $7 \\times 8 = 56$, dus $50 = 6 \\cdot 8 + 2$.",
+        "Zes volle busjes vervoeren 48 personen; 2 personen blijven over.",
+        "Ook zij moeten mee, dus je rondt naar boven af: 7 busjes."
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Met 6 busjes kunnen maar 48 mensen mee; er blijven er 2 achter. Hier moet iedereen mee, dus rond je naar **boven** af."
+        }
+      ],
+      "topics": [
+        "division",
+        "remainders"
+      ]
+    },
+    {
+      "id": "05-011",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een wever heeft een rol stof van 250 el. Voor één kleed is 8 el nodig. Hoeveel volledige kleden kan hij maken?",
+      "answer": 31,
+      "unit": "kleden",
+      "hints": [
+        "Hoe vaak past 8 in 250?",
+        "Kan het overgebleven stuk stof nog een heel kleed worden?"
+      ],
+      "solution": [
+        "$31 \\times 8 = 248$ en $32 \\times 8 = 256$, dus $250 = 31 \\cdot 8 + 2$.",
+        "Er blijft 2 el over; dat is te weinig voor een kleed.",
+        "Hier tel je alleen volledige kleden: naar beneden afronden. Antwoord: 31 kleden."
+      ],
+      "feedback": [
+        {
+          "answer": 32,
+          "message": "Voor 32 kleden is $32 \\times 8 = 256$ el nodig, meer dan er is. Een half kleed telt niet: hier rond je naar **beneden** af."
+        }
+      ],
+      "topics": [
+        "division",
+        "remainders"
+      ]
+    },
+    {
+      "id": "05-012",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $96 : 4$.",
+      "answer": 24,
+      "hints": [
+        "Splits 96 in 80 en 16.",
+        "$80 : 4 = 20$; hoeveel is $16 : 4$?"
+      ],
+      "solution": [
+        "$96 = 80 + 16$.",
+        "$80 : 4 = 20$ en $16 : 4 = 4$.",
+        "$96 : 4 = 20 + 4 = 24$.",
+        "Controle: $24 \\times 4 = 96$."
+      ],
+      "feedback": [
+        {
+          "answer": 21,
+          "message": "Je hebt waarschijnlijk alleen 9 tientallen gedeeld (2 rest 1) en de 6 los gedeeld (1 rest 2). Het overgebleven tiental moet je omwisselen: 16 eenheden."
+        }
+      ],
+      "topics": [
+        "division",
+        "column-arithmetic"
+      ]
+    },
+    {
+      "id": "05-013",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Maak de staartdeling $5.237 : 6$. Wat is het quotiënt?",
+      "answer": 872,
+      "hints": [
+        "6 past niet in 5, wel in 52. Hoe vaak?",
+        "$8 \\times 6 = 48$, dus $52 - 48 = 4$. Haal de 3 bij: 43."
+      ],
+      "solution": [
+        "$52 : 6 = 8$ (want $48$), rest $4$; haal 3 bij: 43.",
+        "$43 : 6 = 7$ (want $42$), rest $1$; haal 7 bij: 17.",
+        "$17 : 6 = 2$ (want $12$), rest $5$.",
+        "Quotiënt 872, rest 5. Controle: $872 \\times 6 + 5 = 5.232 + 5 = 5.237$."
+      ],
+      "feedback": [
+        {
+          "answer": 873,
+          "message": "Je hebt naar boven afgerond. Het quotiënt telt alleen volledige keren; de 5 die overblijft is de rest."
+        }
+      ],
+      "topics": [
+        "division",
+        "column-arithmetic",
+        "remainders"
+      ]
+    },
+    {
+      "id": "05-014",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Bij dezelfde staartdeling $5.237 : 6$: wat is de rest?",
+      "answer": 5,
+      "hints": [
+        "Het quotiënt is 872. Wat is $872 \\times 6$?",
+        "Of: kijk wat er in de laatste ronde van je staartdeling overbleef."
+      ],
+      "solution": [
+        "$872 \\times 6 = 5.232$.",
+        "$5.237 - 5.232 = 5$.",
+        "De rest is 5 (en $5 < 6$)."
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Dat is de rest uit een tussenstap (43 − 42). De rest van de hele deling is wat er na de **laatste** ronde overblijft."
+        }
+      ],
+      "topics": [
+        "remainders",
+        "column-arithmetic"
+      ]
+    },
+    {
+      "id": "05-015",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $912 : 3$.",
+      "answer": 304,
+      "hints": [
+        "Schat eerst: $900 : 3 = 300$. Je antwoord moet dus iets boven de 300 liggen.",
+        "Na de eerste ronde houd je 1 over. Hoe vaak past 3 in 1? Vergeet die 0 niet op te schrijven."
+      ],
+      "solution": [
+        "$9 : 3 = 3$, rest 0. Haal 1 bij: 1.",
+        "$1 : 3 = 0$, rest 1. Schrijf **0** in het quotiënt. Haal 2 bij: 12.",
+        "$12 : 3 = 4$, rest 0.",
+        "Quotiënt 304. Controle: $304 \\times 3 = 912$."
+      ],
+      "feedback": [
+        {
+          "answer": 34,
+          "message": "Je bent de 0 in het quotiënt vergeten. Schatting: $900 : 3 = 300$, dus 34 kan niet kloppen. Ook als de deler 0 keer past, schrijf je een cijfer op."
+        }
+      ],
+      "topics": [
+        "division",
+        "column-arithmetic",
+        "zero"
+      ]
+    },
+    {
+      "id": "05-016",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Bereken $7.344 : 24$.",
+      "answer": 306,
+      "hints": [
+        "Maak eerst een tafeltje: 24, 48, 72, 96, 120, 144, ...",
+        "Na de eerste ronde houd je 14 over; 24 past daar 0 keer in."
+      ],
+      "solution": [
+        "$73 : 24 = 3$ (want $72$), rest 1. Haal 4 bij: 14.",
+        "$14 : 24 = 0$, rest 14. Schrijf 0. Haal 4 bij: 144.",
+        "$144 : 24 = 6$ (want $6 \\times 24 = 144$), rest 0.",
+        "Quotiënt 306. Controle: $306 \\times 24 = 6.120 + 1.224 = 7.344$."
+      ],
+      "feedback": [
+        {
+          "answer": 36,
+          "message": "Je bent de 0 in het quotiënt vergeten. Schatting: $7.200 : 24 = 300$, dus het antwoord moet rond de 300 liggen."
+        }
+      ],
+      "topics": [
+        "division",
+        "column-arithmetic"
+      ]
+    },
+    {
+      "id": "05-017",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Schat eerst en bereken dan precies: $2.394 : 6$.",
+      "answer": 399,
+      "hints": [
+        "Schatting: $2.400 : 6 = 400$. Het antwoord ligt net onder de 400.",
+        "Hoeveel is $2.400 - 2.394$? Wat betekent dat voor het quotiënt?"
+      ],
+      "solution": [
+        "Schatting: $2.400 : 6 = 400$.",
+        "Staartdeling: $23 : 6 = 3$ rest 5; $59 : 6 = 9$ rest 5; $54 : 6 = 9$ rest 0.",
+        "Quotiënt 399. Controle: $399 \\times 6 = 2.400 - 6 = 2.394$."
+      ],
+      "topics": [
+        "division",
+        "column-arithmetic",
+        "estimation"
+      ]
+    },
+    {
+      "id": "05-018",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "In het getal $4.7\\square2$ ontbreekt één cijfer. Welk cijfer moet op de open plek staan zodat het getal deelbaar is door 9?",
+      "answer": 5,
+      "hints": [
+        "Een getal is deelbaar door 9 als de cijfersom deelbaar is door 9.",
+        "De bekende cijfers geven $4 + 7 + 2 = 13$. Welk cijfer brengt je op een veelvoud van 9?"
+      ],
+      "solution": [
+        "Cijfersom van de bekende cijfers: $4 + 7 + 2 = 13$.",
+        "Het eerstvolgende veelvoud van 9 is 18: $18 - 13 = 5$. (Het volgende, 27, zou een cijfer 14 vragen.)",
+        "Het cijfer is 5: $4.752$, met cijfersom 18. Controle: $4.752 = 528 \\times 9$."
+      ],
+      "topics": [
+        "divisibility"
+      ]
+    },
+    {
+      "id": "05-019",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat is de rest van $2.358 : 5$?",
+      "answer": 3,
+      "hints": [
+        "Bij deling door 5 hangt de rest alleen af van het laatste cijfer.",
+        "Wat is de rest van $8 : 5$?"
+      ],
+      "solution": [
+        "$2.358 = 235 \\times 10 + 8$, en $235 \\times 10$ is deelbaar door 5.",
+        "De rest is dus de rest van $8 : 5$, en dat is 3.",
+        "Controle: $471 \\times 5 = 2.355$ en $2.358 - 2.355 = 3$."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "8 is groter dan de deler 5, dus dat kan geen rest zijn. Deel het laatste cijfer nog door 5."
+        }
+      ],
+      "topics": [
+        "divisibility",
+        "remainders"
+      ]
+    },
+    {
+      "id": "05-020",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is de rest van $31.718 : 4$?",
+      "answer": 2,
+      "hints": [
+        "Bij deling door 4 kijk je naar het getal van de laatste twee cijfers.",
+        "Wat is de rest van $18 : 4$?"
+      ],
+      "solution": [
+        "$31.718 = 317 \\times 100 + 18$, en 100 is deelbaar door 4.",
+        "De rest is de rest van $18 : 4$: $18 = 4 \\cdot 4 + 2$.",
+        "De rest is 2."
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "Je hebt alleen naar het laatste cijfer (8) gekeken. Voor 4 moet je de laatste **twee** cijfers bekijken, omdat 10 niet deelbaar is door 4: $18 : 4$ geeft rest 2."
+        }
+      ],
+      "topics": [
+        "divisibility",
+        "remainders"
+      ]
+    },
+    {
+      "id": "05-021",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Gebruik de cijfersom: wat is de rest van $7.426 : 9$?",
+      "answer": 1,
+      "hints": [
+        "Een getal en zijn cijfersom hebben dezelfde rest bij deling door 9.",
+        "Is de cijfersom nog groter dan 9, neem dan opnieuw de cijfersom."
+      ],
+      "solution": [
+        "Cijfersom: $7 + 4 + 2 + 6 = 19$.",
+        "Opnieuw: $1 + 9 = 10$, en nog eens: $1 + 0 = 1$.",
+        "De rest is 1. Controle: $825 \\times 9 = 7.425$ en $7.426 - 7.425 = 1$."
+      ],
+      "feedback": [
+        {
+          "answer": 19,
+          "message": "19 is de cijfersom, maar een rest bij deling door 9 moet kleiner zijn dan 9. Ga verder: $19 = 2 \\cdot 9 + 1$."
+        }
+      ],
+      "topics": [
+        "divisibility",
+        "remainders"
+      ]
+    },
+    {
+      "id": "05-022",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Hoeveel priemgetallen liggen er tussen 1 en 30?",
+      "answer": 10,
+      "hints": [
+        "Gebruik de zeef: streep de veelvouden van 2, 3 en 5 door (behalve 2, 3 en 5 zelf).",
+        "Vergeet 2 niet, en tel 1 niet mee."
+      ],
+      "solution": [
+        "Na het zeven blijven over: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.",
+        "Zeven met 7 is niet nodig, want $7 \\times 7 = 49 > 30$.",
+        "Dat zijn 10 priemgetallen."
+      ],
+      "feedback": [
+        {
+          "answer": 11,
+          "message": "Je hebt waarschijnlijk 1 meegeteld. 1 heeft maar één deler en is geen priemgetal."
+        },
+        {
+          "answer": 9,
+          "message": "Je bent er één vergeten. Heb je 2 meegeteld? 2 is het enige even priemgetal."
+        }
+      ],
+      "topics": [
+        "primes"
+      ]
+    },
+    {
+      "id": "05-023",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is de kleinste priemfactor van 91?",
+      "answer": 7,
+      "hints": [
+        "Probeer de priemgetallen 2, 3, 5, 7 op volgorde.",
+        "91 is oneven, de cijfersom is 10 en het eindigt niet op 0 of 5. Probeer 7."
+      ],
+      "solution": [
+        "91 is oneven: niet deelbaar door 2.",
+        "Cijfersom $9 + 1 = 10$: niet deelbaar door 3.",
+        "Eindigt niet op 0 of 5: niet deelbaar door 5.",
+        "$7 \\times 13 = 91$. De kleinste priemfactor is 7."
+      ],
+      "feedback": [
+        {
+          "answer": 91,
+          "message": "91 lijkt een priemgetal, maar is het niet: $91 = 7 \\times 13$."
+        },
+        {
+          "answer": 13,
+          "message": "13 is wel een priemfactor van 91, maar niet de kleinste: $91 = 7 \\times 13$."
+        }
+      ],
+      "topics": [
+        "primes",
+        "divisibility"
+      ]
+    },
+    {
+      "id": "05-024",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welk getal vul je in? $84 = 2 \\times 2 \\times 3 \\times \\ldots$",
+      "answer": 7,
+      "hints": [
+        "Bereken eerst $2 \\times 2 \\times 3$.",
+        "Welk getal maal 12 is 84?"
+      ],
+      "solution": [
+        "$2 \\times 2 \\times 3 = 12$.",
+        "$84 : 12 = 7$.",
+        "Dus $84 = 2 \\times 2 \\times 3 \\times 7$, en 7 is priem."
+      ],
+      "feedback": [
+        {
+          "answer": 72,
+          "message": "Je hebt $84 - 12$ uitgerekend. Het gaat om een vermenigvuldiging: welk getal maal 12 geeft 84?"
+        }
+      ],
+      "topics": [
+        "primes",
+        "division"
+      ]
+    },
+    {
+      "id": "05-025",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de grootste priemfactor van 1.001?",
+      "answer": 13,
+      "hints": [
+        "Test de priemgetallen op volgorde: 2, 3, 5, 7, ...",
+        "$1.001 : 7 = 143$. Ontbind 143 verder."
+      ],
+      "solution": [
+        "1.001 is niet deelbaar door 2, 3 (cijfersom 2) of 5.",
+        "$1.001 = 7 \\times 143$.",
+        "$143 = 11 \\times 13$.",
+        "Dus $1.001 = 7 \\times 11 \\times 13$; de grootste priemfactor is 13."
+      ],
+      "feedback": [
+        {
+          "answer": 143,
+          "message": "143 is geen priemgetal: $143 = 11 \\times 13$. Ontbind door tot je alleen priemgetallen hebt."
+        }
+      ],
+      "topics": [
+        "primes",
+        "divisibility"
+      ]
+    },
+    {
+      "id": "05-026",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bepaal met het algoritme van Euclides de grootste gemene deler van 252 en 105.",
+      "answer": 21,
+      "hints": [
+        "Begin met $252 = \\ldots \\cdot 105 + \\ldots$",
+        "Ga verder met 105 en de rest, tot de rest 0 is."
+      ],
+      "solution": [
+        "$252 = 2 \\cdot 105 + 42$.",
+        "$105 = 2 \\cdot 42 + 21$.",
+        "$42 = 2 \\cdot 21 + 0$.",
+        "De laatste deler is 21: $\\operatorname{ggd}(252, 105) = 21$. Controle: $252 = 12 \\times 21$, $105 = 5 \\times 21$."
+      ],
+      "feedback": [
+        {
+          "answer": 42,
+          "message": "Je bent een stap te vroeg gestopt. Ga door tot de rest 0 is; de ggd is de laatste deler."
+        },
+        {
+          "answer": 1260,
+          "message": "Dat is het kleinste gemeenschappelijke veelvoud. Gevraagd is de grootste gemene **deler**."
+        }
+      ],
+      "topics": [
+        "divisibility",
+        "remainders"
+      ]
+    },
+    {
+      "id": "05-027",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een Sumerisch tempelmagazijn bevat 4.500 sila gerst. Een volwassen arbeider krijgt een maandrantsoen van 60 sila. Hoeveel arbeiders kunnen een maand lang een volledig rantsoen krijgen?",
+      "answer": 75,
+      "unit": "arbeiders",
+      "hints": [
+        "Dit is opdelen: hoe vaak past 60 in 4.500?",
+        "Deel eerst beide getallen door 10: $450 : 6$."
+      ],
+      "solution": [
+        "$4.500 : 60 = 450 : 6$.",
+        "$450 : 6 = 75$, want $75 \\times 6 = 450$.",
+        "Controle: $75 \\times 60 = 4.500$. Er kunnen 75 arbeiders een rantsoen krijgen."
+      ],
+      "topics": [
+        "division"
+      ]
+    },
+    {
+      "id": "05-028",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een veerboot kan per overtocht 45 auto's meenemen. Op een drukke dag staan er 400 auto's te wachten. Hoeveel overtochten zijn er minstens nodig om alle auto's over te zetten?",
+      "answer": 9,
+      "unit": "overtochten",
+      "hints": [
+        "Hoe vaak past 45 in 400?",
+        "Moeten de auto's die overblijven ook mee?"
+      ],
+      "solution": [
+        "$8 \\times 45 = 360$ en $9 \\times 45 = 405$, dus $400 = 8 \\cdot 45 + 40$.",
+        "Na 8 volle overtochten staan er nog 40 auto's.",
+        "Die moeten ook mee: naar boven afronden. Er zijn 9 overtochten nodig."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Na 8 overtochten staan er nog 40 auto's op de kade. Alle auto's moeten mee, dus rond je naar **boven** af."
+        }
+      ],
+      "topics": [
+        "division",
+        "remainders"
+      ]
+    },
+    {
+      "id": "05-029",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "1.000 soldaten stellen zich op in rijen van 12. Alle rijen worden zo vol mogelijk gemaakt. Hoeveel soldaten staan er in de laatste, onvolledige rij?",
+      "answer": 4,
+      "unit": "soldaten",
+      "hints": [
+        "Zoek het grootste veelvoud van 12 onder de 1.000.",
+        "$12 \\times 80 = 960$. Hoeveel rijen van 12 passen er nog bij?"
+      ],
+      "solution": [
+        "$12 \\times 83 = 996$ en $12 \\times 84 = 1.008$.",
+        "Dus $1.000 = 83 \\cdot 12 + 4$.",
+        "Er zijn 83 volle rijen en in de laatste rij staan 4 soldaten."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "8 is het aantal soldaten dat **ontbreekt** om de laatste rij vol te maken. Gevraagd is hoeveel er wél in die rij staan."
+        },
+        {
+          "answer": 83,
+          "message": "83 is het aantal volle rijen (het quotiënt). Gevraagd is de rest: hoeveel soldaten staan er in de onvolledige rij?"
+        }
+      ],
+      "topics": [
+        "division",
+        "remainders"
+      ]
+    },
+    {
+      "id": "05-030",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Naar probleem 65 van de Rhind-papyrus, met aangepaste getallen: 130 broden worden verdeeld over 10 mannen. Zeven mannen krijgen een enkel deel; de schipper, de opzichter en de poortwachter krijgen elk een dubbel deel. Hoeveel broden krijgt een man met een dubbel deel?",
+      "answer": 20,
+      "unit": "broden",
+      "hints": [
+        "Tel eerst hoeveel gelijke delen er in totaal zijn.",
+        "Zeven enkele delen en drie dubbele delen: $7 + 3 \\times 2$ delen."
+      ],
+      "solution": [
+        "Aantal delen: $7 \\times 1 + 3 \\times 2 = 13$.",
+        "Eén deel: $130 : 13 = 10$ broden.",
+        "Een dubbel deel is 20 broden.",
+        "Controle: $7 \\times 10 + 3 \\times 20 = 70 + 60 = 130$."
+      ],
+      "feedback": [
+        {
+          "answer": 13,
+          "message": "Je hebt $130 : 10$ gedaan alsof ieder evenveel krijgt. Tel eerst de **delen**: drie mannen tellen dubbel, dus er zijn 13 delen."
+        },
+        {
+          "answer": 10,
+          "message": "10 broden is één enkel deel. Een man met een dubbel deel krijgt twee keer zoveel."
+        }
+      ],
+      "topics": [
+        "ratios",
+        "division"
+      ]
+    },
+    {
+      "id": "05-031",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is het kleinste getal groter dan 100 dat deelbaar is door 2, door 3 én door 5?",
+      "answer": 120,
+      "hints": [
+        "Een getal deelbaar door 2, 3 en 5 is een veelvoud van $2 \\times 3 \\times 5$.",
+        "Welke veelvouden van 30 liggen rond de 100?"
+      ],
+      "solution": [
+        "Deelbaar door 2, 3 en 5 betekent: een veelvoud van $2 \\cdot 3 \\cdot 5 = 30$ (2, 3 en 5 zijn verschillende priemgetallen).",
+        "Veelvouden van 30: 30, 60, 90, 120, ...",
+        "90 is kleiner dan 100; het eerste veelvoud boven 100 is 120."
+      ],
+      "feedback": [
+        {
+          "answer": 90,
+          "message": "90 is deelbaar door 2, 3 en 5, maar is kleiner dan 100. Zoek het eerstvolgende veelvoud van 30."
+        },
+        {
+          "answer": 102,
+          "message": "102 is deelbaar door 2 en 3, maar niet door 5: het eindigt niet op 0 of 5."
+        }
+      ],
+      "topics": [
+        "divisibility",
+        "primes"
+      ]
+    },
+    {
+      "id": "05-032",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Vandaag is het maandag. Over 100 dagen valt een feestdag. Om de weekdag te bepalen, deel je 100 door 7. Wat is de rest van die deling?",
+      "answer": 2,
+      "hints": [
+        "Een week heeft 7 dagen: na elk veelvoud van 7 dagen is het weer maandag.",
+        "$14 \\times 7 = 98$."
+      ],
+      "solution": [
+        "$14 \\times 7 = 98$, dus $100 = 14 \\cdot 7 + 2$.",
+        "De rest is 2.",
+        "Na 98 dagen is het weer maandag; 2 dagen later is het woensdag."
+      ],
+      "feedback": [
+        {
+          "answer": 14,
+          "message": "14 is het quotiënt: het aantal hele weken. Gevraagd is de rest, het aantal dagen dat overblijft."
+        },
+        {
+          "answer": 5,
+          "message": "Je hebt $7 - 2$ berekend. De rest is wat er na 14 hele weken **over**blijft: $100 - 98$."
+        }
+      ],
+      "topics": [
+        "remainders",
+        "time"
+      ]
+    },
+    {
+      "id": "05-033",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een boer telt zijn eieren. Als hij ze in groepjes van 2, 3, 4, 5 of 6 legt, blijft er steeds precies 1 ei over. Wat is het kleinste aantal eieren (meer dan 1) waarvoor dat klopt?",
+      "answer": 61,
+      "unit": "eieren",
+      "hints": [
+        "Als je 1 ei weghaalt, gaat de deling door 2, 3, 4, 5 en 6 telkens op.",
+        "Zoek het kleinste getal dat deelbaar is door 2, 3, 4, 5 en 6. Let op: 4 bevat 2 twee keer."
+      ],
+      "solution": [
+        "Haal het ene overgebleven ei weg. Het aantal dat overblijft is deelbaar door 2, 3, 4, 5 en 6.",
+        "Priemfactoren: $4 = 2 \\cdot 2$ en $6 = 2 \\cdot 3$. Het kleinste getal deelbaar door alle vijf is $2 \\cdot 2 \\cdot 3 \\cdot 5 = 60$.",
+        "Tel het ene ei weer op: $60 + 1 = 61$.",
+        "Controle: $61 = 30 \\cdot 2 + 1 = 20 \\cdot 3 + 1 = 15 \\cdot 4 + 1 = 12 \\cdot 5 + 1 = 10 \\cdot 6 + 1$."
+      ],
+      "feedback": [
+        {
+          "answer": 31,
+          "message": "$31 = 7 \\cdot 4 + 3$: bij groepjes van 4 blijven er 3 over. Je hebt $2 \\cdot 3 \\cdot 5 + 1$ genomen, maar een veelvoud van 4 moet de factor 2 **twee** keer bevatten."
+        },
+        {
+          "answer": 721,
+          "message": "Je hebt $2 \\cdot 3 \\cdot 4 \\cdot 5 \\cdot 6 + 1$ genomen. Dat klopt wel, maar het kan veel kleiner: je hoeft niet alle getallen met elkaar te vermenigvuldigen, alleen de benodigde priemfactoren."
+        },
+        {
+          "answer": 60,
+          "message": "60 is deelbaar door al deze getallen, dus dan blijft er niets over. Er moet steeds 1 ei overblijven."
+        }
+      ],
+      "topics": [
+        "remainders",
+        "divisibility",
+        "primes"
+      ]
+    },
+    {
+      "id": "05-034",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Hoeveel delers heeft 360? (Tel 1 en 360 zelf mee.)",
+      "answer": 24,
+      "hints": [
+        "Ontbind eerst: $360 = 2^3 \\cdot 3^2 \\cdot 5$.",
+        "Een deler bevat de factor 2 nul, één, twee of drie keer: vier keuzes. Hoeveel keuzes heb je voor de factor 3, en voor de factor 5?"
+      ],
+      "solution": [
+        "$360 = 2^3 \\cdot 3^2 \\cdot 5^1$.",
+        "Elke deler is van de vorm (macht van 2) · (macht van 3) · (macht van 5), met hoogstens de exponenten van 360.",
+        "Keuzes: voor 2 zijn er 4 (0, 1, 2 of 3 keer), voor 3 zijn er 3 (0, 1 of 2 keer), voor 5 zijn er 2 (0 of 1 keer).",
+        "Aantal delers: $4 \\times 3 \\times 2 = 24$."
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Dat is het aantal priemfactoren (met herhaling), niet het aantal delers. Combineer de factoren op alle mogelijke manieren."
+        },
+        {
+          "answer": 12,
+          "message": "Je hebt waarschijnlijk $3 \\times 2 \\times 2$ gerekend. Vergeet niet dat een factor ook **nul** keer mag voorkomen: voor 2 zijn er 4 keuzes, voor 3 zijn er 3 en voor 5 zijn er 2."
+        }
+      ],
+      "topics": [
+        "divisibility",
+        "primes"
+      ]
+    },
+    {
+      "id": "05-035",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Volg Euclides' redenering met de lijst 2, 3, 5, 7, 11, 13. Het getal $N = 2 \\cdot 3 \\cdot 5 \\cdot 7 \\cdot 11 \\cdot 13 + 1 = 30.031$ is géén priemgetal. Wat is de kleinste priemfactor van $N$?",
+      "answer": 59,
+      "hints": [
+        "Volgens Euclides geeft $N$ bij deling door 2, 3, 5, 7, 11 en 13 telkens rest 1. Begin dus met testen bij 17.",
+        "Test de priemgetallen 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59 op volgorde. Een rekenmachine mag."
+      ],
+      "solution": [
+        "$2 \\cdot 3 \\cdot 5 \\cdot 7 \\cdot 11 \\cdot 13 = 30.030$, dus $N = 30.031$ geeft bij deling door elk van deze zes priemgetallen rest 1.",
+        "Test verder: 17, 19, 23, 29, 31, 37, 41, 43, 47 en 53 delen 30.031 niet.",
+        "$59 \\times 509 = 30.031$. De kleinste priemfactor is 59.",
+        "Precies zoals Euclides voorspelt: $N$ is niet zelf priem, maar zijn priemfactoren (59 en 509) staan niet in de oorspronkelijke lijst."
+      ],
+      "feedback": [
+        {
+          "answer": 30031,
+          "message": "30.031 is geen priemgetal; de opgave zegt dat al. Het product-plus-één hoeft niet priem te zijn: $30.031 = 59 \\times 509$."
+        },
+        {
+          "answer": 509,
+          "message": "509 is een priemfactor van $N$, maar niet de kleinste: $30.031 = 59 \\times 509$."
+        }
+      ],
+      "topics": [
+        "primes",
+        "divisibility",
+        "remainders"
+      ]
+    }
+  ]
+}

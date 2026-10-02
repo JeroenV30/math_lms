@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" font-family="sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Plaatswaardetabel voor 4.732</title>
+  <desc id="d">Het getal 4.732 in vier kolommen: duizendtallen 4, honderdtallen 7, tientallen 3, eenheden 2. Daaronder de plaatswaarden en de waarden 4000, 700, 30 en 2.</desc>
+  <rect x="0" y="0" width="640" height="330" fill="#ffffff"/>
+  <!-- kolomkoppen -->
+  <g font-size="15" fill="#1f2933" text-anchor="middle">
+    <rect x="120" y="20" width="120" height="44" fill="#f1f3f5" stroke="#1f2933"/>
+    <rect x="240" y="20" width="120" height="44" fill="#f1f3f5" stroke="#1f2933"/>
+    <rect x="360" y="20" width="120" height="44" fill="#f1f3f5" stroke="#1f2933"/>
+    <rect x="480" y="20" width="120" height="44" fill="#f1f3f5" stroke="#1f2933"/>
+    <text x="180" y="40" font-weight="bold">D</text><text x="180" y="57" font-size="12">duizendtallen</text>
+    <text x="300" y="40" font-weight="bold">H</text><text x="300" y="57" font-size="12">honderdtallen</text>
+    <text x="420" y="40" font-weight="bold">T</text><text x="420" y="57" font-size="12">tientallen</text>
+    <text x="540" y="40" font-weight="bold">E</text><text x="540" y="57" font-size="12">eenheden</text>
+  </g>
+  <!-- cijfers -->
+  <g stroke="#1f2933" fill="none">
+    <rect x="120" y="64" width="120" height="70"/><rect x="240" y="64" width="120" height="70"/>
+    <rect x="360" y="64" width="120" height="70"/><rect x="480" y="64" width="120" height="70"/>
+  </g>
+  <g font-size="44" fill="#1f2933" text-anchor="middle" font-weight="bold">
+    <text x="180" y="115">4</text><text x="300" y="115" fill="#3b5bdb">7</text><text x="420" y="115">3</text><text x="540" y="115">2</text>
+  </g>
+  <text x="105" y="106" font-size="14" fill="#1f2933" text-anchor="end">cijfer</text>
+  <!-- plaatswaarde -->
+  <g font-size="18" fill="#1f2933" text-anchor="middle">
+    <text x="180" y="170">× 1000</text><text x="300" y="170">× 100</text><text x="420" y="170">× 10</text><text x="540" y="170">× 1</text>
+  </g>
+  <text x="105" y="170" font-size="14" fill="#1f2933" text-anchor="end">plaatswaarde</text>
+  <g stroke="#1f2933" stroke-width="1.5">
+    <line x1="180" y1="180" x2="180" y2="200"/><line x1="300" y1="180" x2="300" y2="200"/>
+    <line x1="420" y1="180" x2="420" y2="200"/><line x1="540" y1="180" x2="540" y2="200"/>
+  </g>
+  <!-- waarden -->
+  <g font-size="24" fill="#1f2933" text-anchor="middle">
+    <text x="180" y="230">4000</text><text x="300" y="230" fill="#3b5bdb" font-weight="bold">700</text><text x="420" y="230">30</text><text x="540" y="230">2</text>
+    <text x="240" y="230" font-size="20">+</text><text x="360" y="230" font-size="20">+</text><text x="480" y="230" font-size="20">+</text>
+  </g>
+  <text x="105" y="230" font-size="14" fill="#1f2933" text-anchor="end">waarde</text>
+  <line x1="120" y1="250" x2="600" y2="250" stroke="#1f2933" stroke-width="1.5"/>
+  <text x="360" y="285" font-size="22" fill="#1f2933" text-anchor="middle">4000 + 700 + 30 + 2 = <tspan font-weight="bold">4.732</tspan></text>
+  <text x="360" y="315" font-size="13" fill="#3b5bdb" text-anchor="middle">De 7 is geen zeven, maar zeven honderdtallen: 700.</text>
+</svg>

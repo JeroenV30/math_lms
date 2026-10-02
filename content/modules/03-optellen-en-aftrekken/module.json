@@ -1,0 +1,103 @@
+{
+  "id": 3,
+  "slug": "optellen-en-aftrekken",
+  "title": "Optellen en aftrekken",
+  "part": 1,
+  "level": "fundamenten",
+  "status": "available",
+  "historical_period": "Mesopotamië tot de 17e eeuw",
+  "estimated_difficulty": 1,
+  "estimated_minutes": 150,
+  "prerequisites": [
+    2
+  ],
+  "topics": [
+    "addition",
+    "subtraction",
+    "mental-math",
+    "column-arithmetic",
+    "estimation",
+    "checking"
+  ],
+  "core_question": "Hoe hield een schrijver met duizenden schapen, of een stad met duizenden belastingbetalers, foutloos bij wat er binnenkwam en wat er weer uitging?",
+  "summary": "Optellen en aftrekken als het rekenwerk van handel, voorraadbeheer en belasting: van Sumerische kleitabletten en het rekenbord tot het cijferen op papier. Je leert handig hoofdrekenen, kolomsgewijs rekenen met onthouden en lenen, schatten en je uitkomst controleren.",
+  "learning_goals": [
+    "Je begrijpt optellen als samenvoegen of erbij doen, en aftrekken als weghalen of als het verschil bepalen.",
+    "Je weet dat optellen en aftrekken elkaars omgekeerde zijn en gebruikt dat om ontbrekende getallen te vinden en uitkomsten te controleren.",
+    "Je gebruikt bij hoofdrekenen bewust een strategie: splitsen, rijgen, compenseren of aanvullen.",
+    "Je kunt grote getallen kolomsgewijs optellen en aftrekken, inclusief onthouden en lenen over nullen heen.",
+    "Je herkent typische fouten, zoals vergeten te lenen of het kleinste cijfer van het grootste aftrekken.",
+    "Je kunt een uitkomst schatten door eerst af te ronden, en beoordelen of een antwoord redelijk is.",
+    "Je kent de negenproef als historische controlemethode en weet wat die wel en niet kan aantonen.",
+    "Je kunt voorraad-, kas- en belastingproblemen met meerdere stappen ordenen en uitrekenen.",
+    "Je kunt uitleggen hoe rekenborden, rekenstaafjes en het cijferen met Hindoe-Arabische cijfers elkaar in de geschiedenis hebben afgewisseld."
+  ],
+  "glossary": [
+    { "term": "Som", "definition": "De uitkomst van een optelling. In $27 + 15 = 42$ is 42 de som; 27 en 15 heten de termen." },
+    { "term": "Verschil", "definition": "De uitkomst van een aftrekking: hoeveel het ene getal groter is dan het andere. In $42 - 15 = 27$ is 27 het verschil." },
+    { "term": "Omgekeerde bewerking", "definition": "Een bewerking die een andere ongedaan maakt. Aftrekken is de omgekeerde bewerking van optellen, en andersom." },
+    { "term": "Splitsen", "definition": "Hoofdrekenstrategie waarbij je beide getallen in tientallen en eenheden (enz.) opdeelt en die delen apart optelt of aftrekt." },
+    { "term": "Rijgen", "definition": "Hoofdrekenstrategie waarbij je het eerste getal heel laat en het tweede getal er in stukjes bij doet of vanaf haalt, als sprongen op een getallenlijn." },
+    { "term": "Compenseren", "definition": "Hoofdrekenstrategie waarbij je met een handig rond getal rekent en het verschil achteraf weer rechtzet, bijvoorbeeld $+\\,299$ als $+\\,300 - 1$." },
+    { "term": "Aanvullen", "definition": "Een aftrekking oplossen door te tellen hoeveel je bij het kleinere getal moet doen om het grotere te bereiken." },
+    { "term": "Onthouden", "definition": "Bij kolomsgewijs optellen: tien eenheden van een kolom bundelen tot één eenheid van de kolom links ervan (ook: 'overdragen')." },
+    { "term": "Lenen (inwisselen)", "definition": "Bij kolomsgewijs aftrekken: één eenheid van de kolom links omwisselen voor tien eenheden van de eigen kolom." },
+    { "term": "Schatten", "definition": "Een uitkomst bij benadering bepalen, meestal door de getallen eerst af te ronden, om te zien welke orde van grootte het antwoord moet hebben." },
+    { "term": "Negenproef", "definition": "Historische controlemethode die met de rest bij deling door 9 (de 'negenrest') werkt. Een fout in de negenrest bewijst een rekenfout; een kloppende negenrest bewijst niet dat de uitkomst goed is." },
+    { "term": "Rekenbord", "definition": "Bord of tafel met lijnen of vakken waarop men met losse fiches (rekenpenningen) rekende; elke lijn stelt een plaatswaarde voor." },
+    { "term": "Abacist en algorist", "definition": "Middeleeuwse namen voor wie rekende met het rekenbord (abacus) en wie rekende met pen en Hindoe-Arabische cijfers (algorisme)." }
+  ],
+  "formulas": [
+    {
+      "name": "Wisseleigenschap van optellen",
+      "latex": "a + b = b + a",
+      "usage": "De volgorde van de termen maakt niet uit; begin met het getal waarmee je het handigst verder rekent. Geldt níet voor aftrekken.",
+      "origin": "Al eeuwenlang stilzwijgend gebruikt; de naam 'commutatief' kwam pas in de 19e eeuw in gebruik."
+    },
+    {
+      "name": "Schakeleigenschap van optellen",
+      "latex": "(a + b) + c = a + (b + c)",
+      "usage": "Je mag termen in elke groepering optellen, bijvoorbeeld eerst de twee getallen die samen een rond getal geven.",
+      "origin": "Idem; de naam 'associatief' stamt uit de 19e eeuw."
+    },
+    {
+      "name": "Aftrekken en optellen zijn elkaars omgekeerde",
+      "latex": "a - b = c \\iff c + b = a",
+      "usage": "Om een aftrekking te controleren, tel je het verschil op bij wat je aftrok; je moet dan het beginbedrag terugkrijgen.",
+      "origin": "Oude rekenboeken sloten een aftrekking vaak af met een 'proef' door optellen."
+    },
+    {
+      "name": "Compenseren bij optellen",
+      "latex": "a + b = (a + k) + (b - k)",
+      "usage": "Wat je bij de ene term erbij doet, haal je bij de andere eraf: $298 + 457 = 300 + 455$.",
+      "origin": "Klassieke hoofdrekenregel."
+    },
+    {
+      "name": "Gelijk verschuiven bij aftrekken",
+      "latex": "a - b = (a + k) - (b + k)",
+      "usage": "Een verschil verandert niet als je beide getallen evenveel verschuift: $612 - 399 = 613 - 400$.",
+      "origin": "Klassieke hoofdrekenregel; zo zie je ook waarom aanvullen werkt."
+    }
+  ],
+  "lessons": [
+    { "slug": "introductie", "title": "De schapen van Puzrish-Dagan", "file": "01-introductie.md", "kind": "intro" },
+    { "slug": "hoofdrekenen", "title": "Optellen en aftrekken begrijpen en uit het hoofd", "file": "02-theorie-a.md", "kind": "theory" },
+    { "slug": "kolomsgewijs-rekenen", "title": "Kolomsgewijs rekenen: onthouden en lenen", "file": "03-theorie-b.md", "kind": "theory" },
+    { "slug": "schatten-en-controleren", "title": "Schatten en controleren", "file": "03b-theorie-c.md", "kind": "theory" },
+    { "slug": "rekenen-op-de-lijnen", "title": "Rekenen op de lijnen: abacisten en algoristen", "file": "04-historisch-intermezzo.md", "kind": "history" },
+    { "slug": "praktijk-en-uitdaging", "title": "Voorraad, kasboek en belasting", "file": "05-praktijk-en-uitdaging.md", "kind": "practice" },
+    { "slug": "samenvatting", "title": "Samenvatting", "file": "06-samenvatting.md", "kind": "summary" }
+  ],
+  "timeline": [
+    "kleitokens",
+    "mesopotamische-getallen",
+    "romeinse-cijfers",
+    "chinese-rekenstaafjes",
+    "al-khwarizmi",
+    "fibonacci-liber-abaci"
+  ],
+  "mathematicians": [
+    "al-khwarizmi",
+    "fibonacci"
+  ]
+}

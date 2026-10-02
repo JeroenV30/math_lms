@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="sans-serif" role="img" aria-label="Metriek trapje van kilometer tot millimeter">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3b5bdb"/></marker>
+<marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9c6b30"/></marker></defs>
+<rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+<text x="380" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2933">Het metrieke trapje (lengte)</text>
+<rect x="40" y="70" width="96" height="260" fill="#f1f3f5" stroke="#1f2933" stroke-width="1.5"/>
+<text x="88.0" y="96" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2933">km</text>
+<rect x="136" y="108" width="96" height="222" fill="#f1f3f5" stroke="#1f2933" stroke-width="1.5"/>
+<text x="184.0" y="134" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2933">hm</text>
+<rect x="232" y="146" width="96" height="184" fill="#f1f3f5" stroke="#1f2933" stroke-width="1.5"/>
+<text x="280.0" y="172" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2933">dam</text>
+<rect x="328" y="184" width="96" height="146" fill="#dbe4ff" stroke="#1f2933" stroke-width="1.5"/>
+<text x="376.0" y="210" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2933">m</text>
+<rect x="424" y="222" width="96" height="108" fill="#f1f3f5" stroke="#1f2933" stroke-width="1.5"/>
+<text x="472.0" y="248" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2933">dm</text>
+<rect x="520" y="260" width="96" height="70" fill="#f1f3f5" stroke="#1f2933" stroke-width="1.5"/>
+<text x="568.0" y="286" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2933">cm</text>
+<rect x="616" y="298" width="96" height="32" fill="#f1f3f5" stroke="#1f2933" stroke-width="1.5"/>
+<text x="664.0" y="324" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2933">mm</text>
+<text x="88.0" y="350" text-anchor="middle" font-size="12" fill="#1f2933">kilometer</text>
+<text x="184.0" y="350" text-anchor="middle" font-size="12" fill="#1f2933">hectometer</text>
+<text x="280.0" y="350" text-anchor="middle" font-size="12" fill="#1f2933">decameter</text>
+<text x="376.0" y="350" text-anchor="middle" font-size="12" fill="#1f2933">meter</text>
+<text x="472.0" y="350" text-anchor="middle" font-size="12" fill="#1f2933">decimeter</text>
+<text x="568.0" y="350" text-anchor="middle" font-size="12" fill="#1f2933">centimeter</text>
+<text x="664.0" y="350" text-anchor="middle" font-size="12" fill="#1f2933">millimeter</text>
+<path d="M92.80000000000001,52 Q136.0,32 179.20000000000002,86" fill="none" stroke="#3b5bdb" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M188.8,90 Q232.0,70 275.20000000000005,124" fill="none" stroke="#3b5bdb" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M284.8,128 Q328.0,108 371.20000000000005,162" fill="none" stroke="#3b5bdb" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M380.8,166 Q424.0,146 467.20000000000005,200" fill="none" stroke="#3b5bdb" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M476.8,204 Q520.0,184 563.2,238" fill="none" stroke="#3b5bdb" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M572.8,242 Q616.0,222 659.1999999999999,276" fill="none" stroke="#3b5bdb" stroke-width="2" marker-end="url(#ah)"/>
+<text x="560" y="95" font-size="15" fill="#3b5bdb" font-weight="bold">trede omlaag: × 10</text>
+<text x="560" y="118" font-size="15" fill="#9c6b30" font-weight="bold">trede omhoog: : 10</text>
+<text x="560" y="140" font-size="13" fill="#1f2933">(komma één plaats</text><text x="560" y="157" font-size="13" fill="#1f2933">naar rechts of links)</text>
+<text x="380" y="385" text-anchor="middle" font-size="14" fill="#1f2933">1 km = 1000 m   ·   1 m = 10 dm = 100 cm = 1000 mm</text>
+<path d="M153.28,132 L118.72,100" fill="none" stroke="#9c6b30" stroke-width="2" marker-end="url(#ah2)"/>
+<path d="M249.28,170 L214.72,138" fill="none" stroke="#9c6b30" stroke-width="2" marker-end="url(#ah2)"/>
+<path d="M345.28,208 L310.72,176" fill="none" stroke="#9c6b30" stroke-width="2" marker-end="url(#ah2)"/>
+<path d="M441.28,246 L406.72,214" fill="none" stroke="#9c6b30" stroke-width="2" marker-end="url(#ah2)"/>
+<path d="M537.28,284 L502.72,252" fill="none" stroke="#9c6b30" stroke-width="2" marker-end="url(#ah2)"/>
+<path d="M633.28,322 L598.72,290" fill="none" stroke="#9c6b30" stroke-width="2" marker-end="url(#ah2)"/>
+</svg>

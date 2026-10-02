@@ -1,0 +1,357 @@
+{
+  "title": "Hoofdstuktoets – Optellen en aftrekken",
+  "intro": "15 vragen, oplopend in moeilijkheid. Geen hints tijdens de toets; na het inleveren zie je de uitgewerkte oplossingen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'. Houd pen en papier bij de hand.",
+  "questions": [
+    {
+      "id": "03-T01",
+      "type": "numeric",
+      "difficulty": 1,
+      "question": "Bereken uit je hoofd: $57 + 38$.",
+      "answer": 95,
+      "hints": [],
+      "solution": [
+        "Splitsen: $50 + 30 = 80$ en $7 + 8 = 15$.",
+        "$80 + 15 = 95$."
+      ],
+      "feedback": [
+        {
+          "answer": 85,
+          "message": "Je bent het tiental van $7 + 8 = 15$ vergeten."
+        }
+      ],
+      "topics": [
+        "addition",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "03-T02",
+      "type": "numeric",
+      "difficulty": 1,
+      "question": "Bereken uit je hoofd: $92 - 46$.",
+      "answer": 46,
+      "hints": [],
+      "solution": [
+        "Rijgen: $92 - 40 = 52$.",
+        "$52 - 6 = 46$.",
+        "Controle: $46 + 46 = 92$."
+      ],
+      "feedback": [
+        {
+          "answer": 54,
+          "message": "Je hebt in de eenheden $6 - 2$ gedaan in plaats van $2 - 6$. Rijg: $92 - 40 = 52$, $52 - 6 = 46$."
+        }
+      ],
+      "topics": [
+        "subtraction",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "03-T03",
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bereken handig: $503 + 299$.",
+      "answer": 802,
+      "hints": [],
+      "solution": [
+        "Compenseren: $503 + 300 = 803$.",
+        "Je telde 1 te veel op: $803 - 1 = 802$."
+      ],
+      "feedback": [
+        {
+          "answer": 804,
+          "message": "De correctie ging de verkeerde kant op: na $+\\,300$ moet er 1 áf."
+        }
+      ],
+      "topics": [
+        "addition",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "03-T04",
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bereken: $2\\,001 - 1\\,994$.",
+      "answer": 7,
+      "hints": [],
+      "solution": [
+        "Aanvullen: van 1.994 naar 2.000 is 6.",
+        "Van 2.000 naar 2.001 is 1.",
+        "Samen: $6 + 1 = 7$."
+      ],
+      "topics": [
+        "subtraction",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "03-T05",
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bereken kolomsgewijs: $6\\,758 + 2\\,496$.",
+      "answer": 9254,
+      "hints": [],
+      "solution": [
+        "Eenheden: $8 + 6 = 14$ → 4, onthoud 1.",
+        "Tientallen: $5 + 9 + 1 = 15$ → 5, onthoud 1.",
+        "Honderdtallen: $7 + 4 + 1 = 12$ → 2, onthoud 1.",
+        "Duizendtallen: $6 + 2 + 1 = 9$.",
+        "Uitkomst: $9\\,254$."
+      ],
+      "feedback": [
+        {
+          "answer": 8144,
+          "message": "Je bent het onthouden steeds vergeten."
+        }
+      ],
+      "topics": [
+        "addition",
+        "column-arithmetic"
+      ]
+    },
+    {
+      "id": "03-T06",
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bereken kolomsgewijs: $8\\,003 - 4\\,567$.",
+      "answer": 3436,
+      "hints": [],
+      "solution": [
+        "Lenen over twee nullen: $8\\,003 = 7\\,000 + 900 + 90 + 13$.",
+        "Eenheden: $13 - 7 = 6$. Tientallen: $9 - 6 = 3$. Honderdtallen: $9 - 5 = 4$. Duizendtallen: $7 - 4 = 3$.",
+        "Uitkomst: $3\\,436$. Controle: $3\\,436 + 4\\,567 = 8\\,003$."
+      ],
+      "feedback": [
+        {
+          "answer": 4564,
+          "message": "Je hebt het kleinste van het grootste cijfer afgetrokken. Bij $3 - 7$ moet je lenen."
+        },
+        {
+          "answer": 4546,
+          "message": "Je hebt geleend zonder de buurcijfers te verlagen."
+        },
+        {
+          "answer": 3546,
+          "message": "De nullen worden na het lenen 9, niet 10."
+        }
+      ],
+      "topics": [
+        "subtraction",
+        "column-arithmetic"
+      ]
+    },
+    {
+      "id": "03-T07",
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Welk getal hoort op de puntjes? $\\ldots + 4\\,286 = 10\\,000$",
+      "answer": 5714,
+      "hints": [],
+      "solution": [
+        "Het ontbrekende getal is $10\\,000 - 4\\,286$.",
+        "Aanvullen: eenheden tot 10 ($6 + 4$), de rest tot 9 ($8 + 1$, $2 + 7$, $4 + 5$): $5\\,714$.",
+        "Controle: $5\\,714 + 4\\,286 = 10\\,000$."
+      ],
+      "feedback": [
+        {
+          "answer": 6824,
+          "message": "Je hebt elk cijfer aangevuld tot 10. Alleen de eenheden vul je aan tot 10, de andere cijfers tot 9."
+        }
+      ],
+      "topics": [
+        "subtraction",
+        "checking"
+      ]
+    },
+    {
+      "id": "03-T08",
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Rond 7.451 af op **duizendtallen**.",
+      "answer": 7000,
+      "hints": [],
+      "solution": [
+        "Kijk naar het honderdtallencijfer: 4.",
+        "Dat is kleiner dan 5, dus naar beneden: 7.000."
+      ],
+      "feedback": [
+        {
+          "answer": 8000,
+          "message": "Het honderdtallencijfer is 4, dus je rondt naar beneden af. (Eerst op honderdtallen afronden naar 7.500 en dan naar 8.000 is een bekende valkuil.)"
+        }
+      ],
+      "topics": [
+        "estimation"
+      ]
+    },
+    {
+      "id": "03-T09",
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "**Schat** $4\\,890 + 3\\,120 + 1\\,985$ door elk getal op duizendtallen af te ronden.",
+      "answer": 10000,
+      "hints": [],
+      "solution": [
+        "$4\\,890 \\approx 5\\,000$, $3\\,120 \\approx 3\\,000$, $1\\,985 \\approx 2\\,000$.",
+        "Schatting: $5\\,000 + 3\\,000 + 2\\,000 = 10\\,000$."
+      ],
+      "feedback": [
+        {
+          "answer": 9995,
+          "message": "Dat is de exacte som. Gevraagd is de schatting."
+        }
+      ],
+      "topics": [
+        "estimation",
+        "addition"
+      ]
+    },
+    {
+      "id": "03-T10",
+      "type": "numeric",
+      "difficulty": 3,
+      "question": "Bepaal de negenrest van 7.346.",
+      "answer": 2,
+      "hints": [],
+      "solution": [
+        "Cijfersom: $7 + 3 + 4 + 6 = 20$.",
+        "$2 + 0 = 2$.",
+        "De negenrest is 2."
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Dat is de cijfersom; neem daarvan nog een keer de cijfersom."
+        }
+      ],
+      "topics": [
+        "checking"
+      ]
+    },
+    {
+      "id": "03-T11",
+      "type": "numeric",
+      "difficulty": 3,
+      "question": "Een graanschuur bevat 2.750 zakken. Er worden 1.380 en 945 zakken geleverd, en er worden 1.625 en 2.090 zakken uitgedeeld. Hoeveel zakken liggen er daarna?",
+      "answer": 1360,
+      "unit": "zakken",
+      "hints": [],
+      "solution": [
+        "Ontvangsten: $1\\,380 + 945 = 2\\,325$; $2\\,750 + 2\\,325 = 5\\,075$.",
+        "Uitgaven: $1\\,625 + 2\\,090 = 3\\,715$.",
+        "$5\\,075 - 3\\,715 = 1\\,360$."
+      ],
+      "feedback": [
+        {
+          "answer": 8790,
+          "message": "Je hebt de uitgedeelde zakken opgeteld in plaats van afgetrokken."
+        }
+      ],
+      "topics": [
+        "addition",
+        "subtraction"
+      ]
+    },
+    {
+      "id": "03-T12",
+      "type": "numeric",
+      "difficulty": 3,
+      "question": "Een leerling rekent $702 - 358 = 456$. Dat is fout. Wat is het juiste verschil?",
+      "answer": 344,
+      "hints": [],
+      "solution": [
+        "De leerling trok in elke kolom het kleinste van het grootste cijfer af.",
+        "Juist: $702 = 600 + 90 + 12$. Eenheden $12 - 8 = 4$, tientallen $9 - 5 = 4$, honderdtallen $6 - 3 = 3$.",
+        "Uitkomst: $344$. Controle: $344 + 358 = 702$."
+      ],
+      "feedback": [
+        {
+          "answer": 456,
+          "message": "Dat is het foute antwoord van de leerling: het kleinste van het grootste cijfer aftrekken. Bij $2 - 8$ moet je lenen."
+        },
+        {
+          "answer": 454,
+          "message": "Je hebt geleend zonder de buurcijfers te verlagen."
+        }
+      ],
+      "topics": [
+        "subtraction",
+        "column-arithmetic",
+        "checking"
+      ]
+    },
+    {
+      "id": "03-T13",
+      "type": "numeric",
+      "difficulty": 3,
+      "question": "In de aftrekking $5\\,?62 - 2\\,875 = 2\\,787$ is één cijfer weggevallen. Welk cijfer hoort op de plaats van het vraagteken?",
+      "answer": 6,
+      "hints": [],
+      "solution": [
+        "Omgekeerde bewerking: het eerste getal is $2\\,787 + 2\\,875$.",
+        "$2\\,787 + 2\\,875 = 5\\,662$.",
+        "Het ontbrekende cijfer is 6."
+      ],
+      "topics": [
+        "checking",
+        "addition",
+        "column-arithmetic"
+      ]
+    },
+    {
+      "id": "03-T14",
+      "type": "numeric",
+      "difficulty": 3,
+      "question": "In 1299 verbood de Florentijnse geldwisselaarsgilde de nieuwe cijfers in de boekhouding. Adam Ries publiceerde zijn *Rechnung auff der linihen* in 1518. Hoeveel jaar zit daartussen?",
+      "answer": 219,
+      "unit": "jaar",
+      "hints": [],
+      "solution": [
+        "$1\\,518 - 1\\,299$.",
+        "Compenseren: $1\\,518 - 1\\,300 = 218$, en je trok 1 te veel af: $218 + 1 = 219$."
+      ],
+      "feedback": [
+        {
+          "answer": 217,
+          "message": "De correctie ging de verkeerde kant op: je trok 1 te veel af, dus moet je er 1 bij doen."
+        },
+        {
+          "answer": 220,
+          "message": "Je hebt beide jaartallen meegeteld."
+        }
+      ],
+      "topics": [
+        "subtraction",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "03-T15",
+      "type": "numeric",
+      "difficulty": 4,
+      "question": "Een kasboek begint met € 3.405. Er komt € 1.278 en € 2.650 binnen. Er gaat € 1.996, € 845 en € 3.107 uit. Wat is de kasstand aan het eind?",
+      "answer": 1385,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "Ontvangsten: $1\\,278 + 2\\,650 = 3\\,928$; $3\\,405 + 3\\,928 = 7\\,333$.",
+        "Uitgaven: $1\\,996 + 845 + 3\\,107 = 5\\,948$.",
+        "Eindstand: $7\\,333 - 5\\,948 = 1\\,385$.",
+        "Controle per stap: $7\\,333 - 1\\,996 = 5\\,337$; $5\\,337 - 845 = 4\\,492$; $4\\,492 - 3\\,107 = 1\\,385$."
+      ],
+      "feedback": [
+        {
+          "answer": 13281,
+          "message": "Je hebt de uitgaven opgeteld in plaats van afgetrokken."
+        }
+      ],
+      "topics": [
+        "addition",
+        "subtraction",
+        "checking"
+      ]
+    }
+  ]
+}

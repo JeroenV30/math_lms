@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 230" font-family="sans-serif" role="img" aria-labelledby="t2 d2">
+  <title id="t2">Afronden op honderdtallen</title>
+  <desc id="d2">Getallenlijn van 4.700 tot 4.800 met streepjes per 10. 4.732 ligt dichter bij 4.700 en wordt dus 4.700. Het midden 4.750 wordt volgens afspraak naar boven afgerond: 4.800.</desc>
+  <rect x="0" y="0" width="720" height="230" fill="#ffffff"/>
+  <rect x="60.0" y="70" width="300.0" height="16" fill="#f1f3f5"/>
+  <rect x="360.0" y="70" width="300.0" height="16" fill="#e7ecfb"/>
+  <line x1="60" y1="100" x2="660" y2="100" stroke="#1f2933" stroke-width="2"/>
+  <line x1="60.0" y1="86" x2="60.0" y2="114" stroke="#1f2933" stroke-width="2"/>
+  <text x="60.0" y="132" text-anchor="middle" font-size="15" fill="#1f2933">4.700</text>
+  <line x1="120.0" y1="93" x2="120.0" y2="107" stroke="#1f2933" stroke-width="1"/>
+  <text x="120.0" y="125" text-anchor="middle" font-size="11" fill="#1f2933">4.710</text>
+  <line x1="180.0" y1="93" x2="180.0" y2="107" stroke="#1f2933" stroke-width="1"/>
+  <text x="180.0" y="125" text-anchor="middle" font-size="11" fill="#1f2933">4.720</text>
+  <line x1="240.0" y1="93" x2="240.0" y2="107" stroke="#1f2933" stroke-width="1"/>
+  
+  <line x1="300.0" y1="93" x2="300.0" y2="107" stroke="#1f2933" stroke-width="1"/>
+  <text x="300.0" y="125" text-anchor="middle" font-size="11" fill="#1f2933">4.740</text>
+  <line x1="360.0" y1="86" x2="360.0" y2="114" stroke="#1f2933" stroke-width="2"/>
+  <text x="360.0" y="132" text-anchor="middle" font-size="15" fill="#1f2933">4.750</text>
+  <line x1="420.0" y1="93" x2="420.0" y2="107" stroke="#1f2933" stroke-width="1"/>
+  <text x="420.0" y="125" text-anchor="middle" font-size="11" fill="#1f2933">4.760</text>
+  <line x1="480.0" y1="93" x2="480.0" y2="107" stroke="#1f2933" stroke-width="1"/>
+  <text x="480.0" y="125" text-anchor="middle" font-size="11" fill="#1f2933">4.770</text>
+  <line x1="540.0" y1="93" x2="540.0" y2="107" stroke="#1f2933" stroke-width="1"/>
+  <text x="540.0" y="125" text-anchor="middle" font-size="11" fill="#1f2933">4.780</text>
+  <line x1="600.0" y1="93" x2="600.0" y2="107" stroke="#1f2933" stroke-width="1"/>
+  <text x="600.0" y="125" text-anchor="middle" font-size="11" fill="#1f2933">4.790</text>
+  <line x1="660.0" y1="86" x2="660.0" y2="114" stroke="#1f2933" stroke-width="2"/>
+  <text x="660.0" y="132" text-anchor="middle" font-size="15" fill="#1f2933">4.800</text>
+  <text x="210.0" y="62" text-anchor="middle" font-size="13" fill="#1f2933">hier wordt alles 4.700</text>
+  <text x="510.0" y="62" text-anchor="middle" font-size="13" fill="#3b5bdb">hier (vanaf 4.750) wordt alles 4.800</text>
+  <circle cx="252.0" cy="100" r="7" fill="#3b5bdb"/>
+  <text x="252.0" y="170" text-anchor="middle" font-size="16" font-weight="bold" fill="#3b5bdb">4.732</text>
+  <line x1="252.0" y1="152" x2="252.0" y2="112" stroke="#3b5bdb" stroke-width="1.5"/>
+  <path d="M 242.0 190 Q 156.0 215 64.0 192" fill="none" stroke="#3b5bdb" stroke-width="2"/>
+  <polygon points="64.0,192 76.0,190 70.0,200" fill="#3b5bdb"/>
+  <text x="216.0" y="222" font-size="13" fill="#1f2933">afstand 32 tot 4.700, 68 tot 4.800</text>
+  <text x="60" y="30" font-size="16" font-weight="bold" fill="#1f2933">Afronden op honderdtallen: kijk naar het tientallencijfer</text>
+  </svg>

@@ -1,0 +1,340 @@
+{
+  "title": "Hoofdstuktoets – Plaatswaarde en nul",
+  "intro": "15 vragen over plaatswaarde, de nul, Babylonische, Egyptische en Romeinse getallen, afronden en de geschiedenis van de nul. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "02-T01",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat is de waarde van het cijfer 3 in het getal 8.351?",
+      "answer": 300,
+      "hints": [],
+      "solution": [
+        "De 3 staat op de honderdtallenpositie (van rechts: 1, 5, 3, 8).",
+        "Waarde: $3 \\times 100 = 300$."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Dat is het cijfer zelf; de waarde hangt af van de positie: drie honderdtallen."
+        }
+      ],
+      "topics": [
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-T02",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Schrijf als getal: 5 duizendtallen + 7 tientallen + 3 eenheden.",
+      "answer": 5073,
+      "hints": [],
+      "solution": [
+        "D = 5, H = 0 (niet genoemd), T = 7, E = 3.",
+        "Het getal is 5.073."
+      ],
+      "feedback": [
+        {
+          "answer": 573,
+          "message": "De lege honderdtallenpositie moet een 0 krijgen."
+        }
+      ],
+      "topics": [
+        "place-value",
+        "zero"
+      ]
+    },
+    {
+      "id": "02-T03",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel tientallen zitten er in totaal in 6.200?",
+      "answer": 620,
+      "hints": [],
+      "solution": [
+        "6 duizendtallen $= 600$ tientallen; 2 honderdtallen $= 20$ tientallen.",
+        "Samen: $600 + 20 = 620$.",
+        "Controle: $620 \\times 10 = 6200$."
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "0 is het tientallencijfer. Gevraagd is het totale aantal tientallen."
+        }
+      ],
+      "topics": [
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-T04",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welk getal is 4 duizendtallen + 12 honderdtallen + 6 eenheden?",
+      "answer": 5206,
+      "hints": [],
+      "solution": [
+        "Waarden: $4000 + 1200 + 6$.",
+        "$4000 + 1200 = 5200$; $5200 + 6 = 5206$.",
+        "(12 honderdtallen = 1 duizendtal + 2 honderdtallen.)"
+      ],
+      "feedback": [
+        {
+          "answer": 41206,
+          "message": "Je hebt de aantallen achter elkaar gezet. 12 honderdtallen moet je eerst inwisselen."
+        },
+        {
+          "answer": 4206,
+          "message": "Je bent het duizendtal uit de 12 honderdtallen vergeten."
+        }
+      ],
+      "topics": [
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-T05",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $(15 - 15) \\times 8 + 6$.",
+      "answer": 6,
+      "hints": [],
+      "solution": [
+        "$15 - 15 = 0$.",
+        "$0 \\times 8 = 0$.",
+        "$0 + 6 = 6$."
+      ],
+      "topics": [
+        "zero"
+      ]
+    },
+    {
+      "id": "02-T06",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Schrijf **negenduizend zeventig** in cijfers.",
+      "answer": 9070,
+      "hints": [],
+      "solution": [
+        "D = 9, H = 0, T = 7, E = 0.",
+        "In cijfers: 9.070."
+      ],
+      "feedback": [
+        {
+          "answer": 970,
+          "message": "De lege honderdtallenpositie ontbreekt."
+        },
+        {
+          "answer": 9700,
+          "message": "Dat is negenduizend zevenhonderd. Zeventig is 7 tientallen."
+        }
+      ],
+      "topics": [
+        "zero",
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-T07",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $0 \\div 25 + 25 \\times 0 + 25 - 0$.",
+      "answer": 25,
+      "hints": [],
+      "solution": [
+        "$0 \\div 25 = 0$.",
+        "$25 \\times 0 = 0$.",
+        "$25 - 0 = 25$.",
+        "Samen: $0 + 0 + 25 = 25$."
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "De eerste twee termen zijn 0, maar $25 - 0 = 25$."
+        }
+      ],
+      "topics": [
+        "zero"
+      ]
+    },
+    {
+      "id": "02-T08",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Zet het Romeinse getal **MMXXVI** om naar ons stelsel.",
+      "answer": 2026,
+      "hints": [],
+      "solution": [
+        "$1000 + 1000 + 10 + 10 + 5 + 1 = 2026$."
+      ],
+      "topics": [
+        "number-systems"
+      ]
+    },
+    {
+      "id": "02-T09",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet het Romeinse getal **CDXLIV** om naar ons stelsel.",
+      "answer": 444,
+      "hints": [],
+      "solution": [
+        "Knip: CD · XL · IV.",
+        "CD $= 400$, XL $= 40$, IV $= 4$.",
+        "$400 + 40 + 4 = 444$."
+      ],
+      "feedback": [
+        {
+          "answer": 666,
+          "message": "Je hebt alle letters opgeteld. In CD, XL en IV wordt het kleinere teken afgetrokken."
+        }
+      ],
+      "topics": [
+        "number-systems"
+      ]
+    },
+    {
+      "id": "02-T10",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet het Babylonische getal $2 \\mid 5$ om naar ons stelsel.",
+      "answer": 125,
+      "hints": [],
+      "solution": [
+        "$2 \\times 60 = 120$.",
+        "$120 + 5 = 125$."
+      ],
+      "feedback": [
+        {
+          "answer": 25,
+          "message": "Je leest het als tientallig getal. De linker positie is 60 waard."
+        },
+        {
+          "answer": 7,
+          "message": "Je hebt de cijfers opgeteld; de linker 2 staat op de zestigtallenpositie."
+        }
+      ],
+      "topics": [
+        "number-systems"
+      ]
+    },
+    {
+      "id": "02-T11",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet het Babylonische getal $1 \\mid 0 \\mid 12$ om naar ons stelsel (de middelste positie is leeg).",
+      "answer": 3612,
+      "hints": [],
+      "solution": [
+        "$1 \\times 3600 = 3600$.",
+        "$0 \\times 60 = 0$.",
+        "$12 \\times 1 = 12$.",
+        "Samen: $3612$."
+      ],
+      "feedback": [
+        {
+          "answer": 72,
+          "message": "Je hebt de lege positie genegeerd en $1 \\mid 12$ berekend. De 1 staat op de 3600-positie."
+        }
+      ],
+      "topics": [
+        "number-systems",
+        "zero"
+      ]
+    },
+    {
+      "id": "02-T12",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel tekens heeft een Egyptische schrijver nodig voor het getal 3.125, als hij voor elk duizendtal, honderdtal, tiental en elke eenheid één teken gebruikt?",
+      "answer": 11,
+      "unit": "tekens",
+      "hints": [],
+      "solution": [
+        "3 lelies, 1 touwrol, 2 hielbeugels, 5 streepjes.",
+        "$3 + 1 + 2 + 5 = 11$ tekens."
+      ],
+      "topics": [
+        "number-systems"
+      ]
+    },
+    {
+      "id": "02-T13",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Rond 6.849 af op honderdtallen.",
+      "answer": 6800,
+      "hints": [],
+      "solution": [
+        "Honderdtallencijfer 8; rechts daarvan een 4.",
+        "4 is kleiner dan 5: naar beneden.",
+        "Antwoord: 6.800."
+      ],
+      "feedback": [
+        {
+          "answer": 6900,
+          "message": "Kijk alleen naar het tientallencijfer (4), niet naar de 9 daarachter. Niet trapsgewijs afronden!"
+        }
+      ],
+      "topics": [
+        "estimation"
+      ]
+    },
+    {
+      "id": "02-T14",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Rond 2.995 af op tientallen.",
+      "answer": 3000,
+      "hints": [],
+      "solution": [
+        "Eenhedencijfer 5: naar boven.",
+        "Het tiental 9 wordt 10: inwisselen, en het honderdtal 9 wordt ook 10: weer inwisselen.",
+        "Antwoord: 3.000."
+      ],
+      "feedback": [
+        {
+          "answer": 2990,
+          "message": "Bij een 5 rond je naar boven af."
+        }
+      ],
+      "topics": [
+        "estimation",
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-T15",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Brahmagupta voltooide zijn *Brahmasphutasiddhanta* in 628; Fibonacci's *Liber Abaci* verscheen in 1202. Hoeveel jaar zit daartussen?",
+      "answer": 574,
+      "unit": "jaar",
+      "hints": [],
+      "solution": [
+        "$1202 - 628 = 574$.",
+        "Controle: $628 + 574 = 1202$."
+      ],
+      "topics": [
+        "zero",
+        "subtraction"
+      ]
+    }
+  ]
+}

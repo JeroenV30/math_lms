@@ -1,0 +1,836 @@
+{
+  "exercises": [
+    {
+      "id": "06-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een film duurt 3 uur. Hoeveel minuten is dat?",
+      "answer": 180,
+      "unit": "min",
+      "hints": [
+        "Eén uur heeft 60 minuten, niet 100.",
+        "Je hebt drie keer een uur, dus drie keer 60 minuten."
+      ],
+      "solution": [
+        "1 uur = 60 minuten.",
+        "$3 \\times 60 = 180$.",
+        "De film duurt 180 minuten."
+      ],
+      "feedback": [
+        { "answer": 300, "message": "Je hebt met 100 vermenigvuldigd, alsof een uur 100 minuten heeft. Tijd is zestigtallig: 1 uur = 60 minuten." }
+      ],
+      "topics": ["time", "unit-conversion"]
+    },
+    {
+      "id": "06-002",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een hardloper doet 4 minuten en 15 seconden over een ronde. Hoeveel seconden is dat in totaal?",
+      "answer": 255,
+      "unit": "s",
+      "hints": [
+        "Reken eerst de 4 minuten om naar seconden.",
+        "Eén minuut is 60 seconden. Tel daarna de 15 losse seconden erbij op."
+      ],
+      "solution": [
+        "4 minuten = $4 \\times 60 = 240$ seconden.",
+        "$240 + 15 = 255$.",
+        "De ronde duurt 255 seconden."
+      ],
+      "feedback": [
+        { "answer": 415, "message": "Je hebt '4 min 15 s' gelezen als het getal 415, alsof er 100 seconden in een minuut gaan. Een minuut heeft 60 seconden: 4 × 60 + 15." }
+      ],
+      "topics": ["time", "unit-conversion"]
+    },
+    {
+      "id": "06-003",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een busrit duurt 1 uur en 45 minuten. Hoeveel minuten duurt de busrit?",
+      "answer": 105,
+      "unit": "min",
+      "hints": [
+        "Zet het hele uur eerst om in minuten.",
+        "1 uur = 60 minuten; tel daar 45 minuten bij op."
+      ],
+      "solution": [
+        "1 uur = 60 minuten.",
+        "$60 + 45 = 105$.",
+        "De busrit duurt 105 minuten."
+      ],
+      "feedback": [
+        { "answer": 145, "message": "Je hebt '1 uur 45' gelezen als 145 minuten, alsof een uur 100 minuten heeft. Het uur telt maar voor 60 minuten: 60 + 45 = 105." }
+      ],
+      "topics": ["time", "unit-conversion"]
+    },
+    {
+      "id": "06-004",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een werkdag aan een klus kost 2 uur en 15 minuten. Schrijf deze tijdsduur als een decimaal getal in uren (bijvoorbeeld 3,5 uur).",
+      "answer": 2.25,
+      "tolerance": 0.001,
+      "unit": "uur",
+      "hints": [
+        "Welk deel van een uur is 15 minuten? Denk aan 15 van de 60.",
+        "$\\frac{15}{60} = \\frac{1}{4}$ uur, en een kwart is als decimaal getal 0,25."
+      ],
+      "solution": [
+        "De 2 hele uren blijven 2.",
+        "15 minuten is $\\frac{15}{60} = \\frac{1}{4}$ uur $= 0{,}25$ uur.",
+        "$2 + 0{,}25 = 2{,}25$ uur."
+      ],
+      "feedback": [
+        { "answer": 2.15, "message": "Dit is de klassieke fout: 2 uur 15 minuten is níet 2,15 uur. Achter de komma staan honderdsten van een uur, geen minuten. 15 minuten is een kwart uur, dus 0,25 uur." }
+      ],
+      "topics": ["time", "decimals", "unit-conversion"]
+    },
+    {
+      "id": "06-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een routeplanner zegt dat een rit 0,4 uur duurt. Hoeveel minuten is dat?",
+      "answer": 24,
+      "unit": "min",
+      "hints": [
+        "0,4 uur betekent 0,4 keer 60 minuten.",
+        "Bereken eerst 0,1 uur: dat is 6 minuten."
+      ],
+      "solution": [
+        "0,1 uur = $60 : 10 = 6$ minuten.",
+        "0,4 uur = $4 \\times 6 = 24$ minuten.",
+        "Ofwel in één keer: $0{,}4 \\times 60 = 24$."
+      ],
+      "feedback": [
+        { "answer": 40, "message": "Je hebt de cijfers achter de komma gelezen als minuten. 0,4 uur is vier tiende van een uur, en een tiende van 60 minuten is 6 minuten: 0,4 uur = 24 minuten." }
+      ],
+      "topics": ["time", "decimals", "unit-conversion"]
+    },
+    {
+      "id": "06-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een trein vertrekt om 08:47 en komt aan om 11:23. Hoeveel minuten duurt de reis?",
+      "answer": 156,
+      "unit": "min",
+      "hints": [
+        "Vul aan tot een heel uur: van 08:47 naar 09:00.",
+        "Spring daarna in hele uren naar 11:00 en tel de laatste minuten tot 11:23 erbij."
+      ],
+      "solution": [
+        "Van 08:47 tot 09:00 is 13 minuten.",
+        "Van 09:00 tot 11:00 is 2 uur = 120 minuten.",
+        "Van 11:00 tot 11:23 is 23 minuten.",
+        "$13 + 120 + 23 = 156$ minuten."
+      ],
+      "feedback": [
+        { "answer": 276, "message": "Je hebt de tijden afgetrokken als gewone getallen (1123 − 847 = 276). Dat werkt niet, omdat een uur 60 en geen 100 minuten heeft. Vul liever aan: 13 + 120 + 23." },
+        { "answer": 236, "message": "Je rekent met 100 minuten per uur. Controleer de stap van 08:47 naar 09:00: dat is 13 minuten, niet 53." }
+      ],
+      "topics": ["time"]
+    },
+    {
+      "id": "06-007",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een nachttrein vertrekt om 22:38 en komt de volgende ochtend om 01:12 aan. Hoeveel minuten duurt de reis?",
+      "answer": 154,
+      "unit": "min",
+      "hints": [
+        "Vul eerst aan tot 23:00 en daarna tot middernacht (00:00).",
+        "Na middernacht tel je gewoon verder: van 00:00 tot 01:12."
+      ],
+      "solution": [
+        "Van 22:38 tot 23:00 is 22 minuten.",
+        "Van 23:00 tot 00:00 is 60 minuten.",
+        "Van 00:00 tot 01:12 is 72 minuten.",
+        "$22 + 60 + 72 = 154$ minuten."
+      ],
+      "feedback": [
+        { "answer": 1286, "message": "Je hebt het kleinste tijdstip van het grootste afgetrokken (22:38 − 01:12 = 21 uur 26 min). Maar de trein rijdt over middernacht heen, niet terug in de tijd. Vul aan via 00:00." }
+      ],
+      "topics": ["time"]
+    },
+    {
+      "id": "06-008",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel seconden heeft één etmaal van 24 uur?",
+      "answer": 86400,
+      "unit": "s",
+      "hints": [
+        "Bereken eerst hoeveel seconden er in één uur zitten.",
+        "1 uur = 60 × 60 = 3600 seconden. Vermenigvuldig daarna met 24."
+      ],
+      "solution": [
+        "1 uur = $60 \\times 60 = 3600$ seconden.",
+        "$24 \\times 3600 = 86\\,400$ seconden.",
+        "Controle: $24 \\times 60 = 1440$ minuten, en $1440 \\times 60 = 86\\,400$."
+      ],
+      "feedback": [
+        { "answer": 1440, "message": "Dat is het aantal minuten in een etmaal. Je moet nog één keer met 60 vermenigvuldigen om seconden te krijgen." }
+      ],
+      "topics": ["time", "multiplication"]
+    },
+    {
+      "id": "06-009",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een vergadering begint om kwart over vier 's middags en eindigt om tien voor zes 's avonds. Schrijf beide tijdstippen in 24-uursnotatie en bereken hoeveel minuten de vergadering duurt.",
+      "answer": 95,
+      "unit": "min",
+      "hints": [
+        "Kwart over vier 's middags is 16:15; tien voor zes 's avonds is 17:50.",
+        "Vul aan van 16:15 naar 17:00 en daarna naar 17:50."
+      ],
+      "solution": [
+        "Begin: 16:15. Einde: 17:50.",
+        "Van 16:15 tot 17:00 is 45 minuten.",
+        "Van 17:00 tot 17:50 is 50 minuten.",
+        "$45 + 50 = 95$ minuten."
+      ],
+      "feedback": [
+        { "answer": 135, "message": "Je hebt 1750 − 1615 = 135 gerekend alsof het gewone getallen zijn. Een uur heeft 60 minuten; vul liever aan via 17:00." }
+      ],
+      "topics": ["time"]
+    },
+    {
+      "id": "06-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een wandelroute is 3,5 km lang. Hoeveel meter is dat?",
+      "answer": 3500,
+      "unit": "m",
+      "hints": [
+        "1 km = 1000 m.",
+        "Van km naar m ga je drie treden omlaag op het trapje: × 10 × 10 × 10 = × 1000."
+      ],
+      "solution": [
+        "1 km = 1000 m.",
+        "$3{,}5 \\times 1000 = 3500$.",
+        "De route is 3500 m lang."
+      ],
+      "feedback": [
+        { "answer": 350, "message": "Je hebt met 100 vermenigvuldigd. Tussen km en m zitten drie treden (hm, dam, m), dus × 1000." }
+      ],
+      "topics": ["length", "unit-conversion"]
+    },
+    {
+      "id": "06-011",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een plank is 2,5 m lang. Hoeveel centimeter is dat?",
+      "answer": 250,
+      "unit": "cm",
+      "hints": [
+        "1 m = 100 cm.",
+        "Van m naar cm zijn het twee treden omlaag: × 100. De komma schuift twee plaatsen naar rechts."
+      ],
+      "solution": [
+        "1 m = 100 cm.",
+        "$2{,}5 \\times 100 = 250$.",
+        "De plank is 250 cm lang."
+      ],
+      "feedback": [
+        { "answer": 25, "message": "Je hebt de komma maar één plaats verschoven (dat is decimeter: 2,5 m = 25 dm). Een meter is 100 cm, dus 2,5 m = 250 cm. Controle: een plank van 25 cm zou korter zijn dan een liniaal." }
+      ],
+      "topics": ["length", "unit-conversion", "decimals"]
+    },
+    {
+      "id": "06-012",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een schroef is 45 mm lang. Hoeveel centimeter is dat?",
+      "answer": 4.5,
+      "tolerance": 0.0001,
+      "unit": "cm",
+      "hints": [
+        "Je gaat van een kleine eenheid (mm) naar een grotere (cm): het getal wordt kleiner.",
+        "1 cm = 10 mm, dus deel door 10."
+      ],
+      "solution": [
+        "10 mm = 1 cm, dus van mm naar cm deel je door 10.",
+        "$45 : 10 = 4{,}5$.",
+        "De schroef is 4,5 cm lang."
+      ],
+      "feedback": [
+        { "answer": 450, "message": "Je hebt vermenigvuldigd in plaats van gedeeld. Een centimeter is groter dan een millimeter, dus je hebt er minder van nodig: 45 : 10 = 4,5." },
+        { "answer": 0.45, "message": "Je hebt door 100 gedeeld. Tussen mm en cm zit maar één trede: 45 mm = 4,5 cm." }
+      ],
+      "topics": ["length", "unit-conversion", "decimals"]
+    },
+    {
+      "id": "06-013",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een zak aardappelen weegt 1,2 kg. Hoeveel gram is dat?",
+      "answer": 1200,
+      "unit": "g",
+      "hints": [
+        "Kilo betekent 1000: 1 kg = 1000 g.",
+        "Vermenigvuldig 1,2 met 1000: de komma schuift drie plaatsen naar rechts."
+      ],
+      "solution": [
+        "1 kg = 1000 g.",
+        "$1{,}2 \\times 1000 = 1200$.",
+        "De zak weegt 1200 g."
+      ],
+      "feedback": [
+        { "answer": 120, "message": "Je hebt met 100 vermenigvuldigd. Kilo betekent duizend: 1,2 kg = 1200 g." }
+      ],
+      "topics": ["weight", "unit-conversion", "decimals"]
+    },
+    {
+      "id": "06-014",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een fles bevat 750 ml. Hoeveel liter is dat?",
+      "answer": 0.75,
+      "tolerance": 0.0001,
+      "unit": "l",
+      "hints": [
+        "1 l = 1000 ml. Een milliliter is dus een duizendste liter.",
+        "Deel 750 door 1000."
+      ],
+      "solution": [
+        "1 l = 1000 ml, dus van ml naar l deel je door 1000.",
+        "$750 : 1000 = 0{,}75$.",
+        "De fles bevat 0,75 l (driekwart liter)."
+      ],
+      "feedback": [
+        { "answer": 7.5, "message": "Je hebt door 100 gedeeld. Dat geeft deciliter (750 ml = 7,5 dl). Naar liter moet je door 1000 delen: 0,75 l." },
+        { "answer": 75, "message": "75 is het aantal centiliter (750 ml = 75 cl). In liter is het 0,75 l." }
+      ],
+      "topics": ["volume", "unit-conversion", "decimals"]
+    },
+    {
+      "id": "06-015",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een pak melk bevat 1,5 liter. Hoeveel kubieke centimeter (cm³) is dat?",
+      "answer": 1500,
+      "unit": "cm³",
+      "hints": [
+        "1 l = 1 dm³, en een kubus van 1 dm bevat 10 × 10 × 10 blokjes van 1 cm³.",
+        "Dus 1 l = 1000 cm³ (= 1000 ml)."
+      ],
+      "solution": [
+        "1 l = 1 dm³ = $10 \\times 10 \\times 10 = 1000$ cm³.",
+        "$1{,}5 \\times 1000 = 1500$.",
+        "Het pak bevat 1500 cm³."
+      ],
+      "feedback": [
+        { "answer": 150, "message": "Je hebt met 100 vermenigvuldigd. Bij inhoud zit tussen dm³ en cm³ een factor 1000, omdat een kubus in drie richtingen 10 keer zo groot is." },
+        { "answer": 15, "message": "Je hebt met 10 vermenigvuldigd, zoals bij lengte van dm naar cm. Maar bij inhoud tel je kubusjes: 10 × 10 × 10 = 1000." }
+      ],
+      "topics": ["volume", "unit-conversion"]
+    },
+    {
+      "id": "06-016",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een timmerman meet een balk: 3 m, 45 cm en 8 mm. Schrijf de lengte van de balk als één getal in meter.",
+      "answer": 3.458,
+      "tolerance": 0.0001,
+      "unit": "m",
+      "hints": [
+        "Zet alle delen om naar meter: 45 cm is 0,45 m.",
+        "8 mm is 8 duizendste meter, dus 0,008 m."
+      ],
+      "solution": [
+        "45 cm = $45 : 100 = 0{,}45$ m.",
+        "8 mm = $8 : 1000 = 0{,}008$ m.",
+        "$3 + 0{,}45 + 0{,}008 = 3{,}458$ m.",
+        "Controle in mm: 3000 + 450 + 8 = 3458 mm = 3,458 m."
+      ],
+      "feedback": [
+        { "answer": 345.8, "message": "Dat is de lengte in centimeter (345,8 cm). Gevraagd wordt meter: deel nog door 100." },
+        { "answer": 3.548, "message": "Je hebt de cijfers verkeerd geplaatst. 45 cm = 0,45 m en 8 mm = 0,008 m; samen 3,458 m." }
+      ],
+      "topics": ["length", "unit-conversion", "decimals"]
+    },
+    {
+      "id": "06-017",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een doos met 12 eieren weegt zonder verpakking 0,72 kg. Hoeveel gram weegt één ei gemiddeld?",
+      "answer": 60,
+      "unit": "g",
+      "hints": [
+        "Reken eerst 0,72 kg om naar gram.",
+        "Deel daarna het totaal door 12."
+      ],
+      "solution": [
+        "0,72 kg = $0{,}72 \\times 1000 = 720$ g.",
+        "$720 : 12 = 60$.",
+        "Eén ei weegt gemiddeld 60 g."
+      ],
+      "feedback": [
+        { "answer": 6, "message": "Je hebt 0,72 kg omgerekend naar 72 g in plaats van 720 g. Kilo = 1000: 0,72 kg = 720 g, en 720 : 12 = 60 g. Een ei van 6 gram zou ook wel erg licht zijn." }
+      ],
+      "topics": ["weight", "unit-conversion", "division"]
+    },
+    {
+      "id": "06-018",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Uit een lat van 2,8 m zaag je stukken van 35 cm. Hoeveel stukken krijg je (zaagsnede verwaarloosbaar)?",
+      "answer": 8,
+      "unit": "stukken",
+      "hints": [
+        "Zorg dat beide lengtes in dezelfde eenheid staan. Zet 2,8 m om naar centimeter.",
+        "Deel daarna 280 door 35."
+      ],
+      "solution": [
+        "2,8 m = $2{,}8 \\times 100 = 280$ cm.",
+        "$280 : 35 = 8$, want $8 \\times 35 = 280$.",
+        "Je krijgt 8 stukken."
+      ],
+      "topics": ["length", "unit-conversion", "division"]
+    },
+    {
+      "id": "06-019",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Je weegt drie pakketten: 1,2 kg, 850 g en 0,45 kg. Hoeveel kilogram is dat samen?",
+      "answer": 2.5,
+      "tolerance": 0.0001,
+      "unit": "kg",
+      "hints": [
+        "Tel alleen getallen op die in dezelfde eenheid staan.",
+        "850 g = 0,85 kg."
+      ],
+      "solution": [
+        "850 g = $850 : 1000 = 0{,}85$ kg.",
+        "$1{,}2 + 0{,}85 + 0{,}45 = 2{,}5$ kg.",
+        "Controle in gram: 1200 + 850 + 450 = 2500 g = 2,5 kg."
+      ],
+      "feedback": [
+        { "answer": 851.65, "message": "Je hebt kilogrammen en grammen zomaar bij elkaar opgeteld. Zet eerst alles in dezelfde eenheid: 850 g = 0,85 kg." }
+      ],
+      "topics": ["weight", "unit-conversion", "decimals"]
+    },
+    {
+      "id": "06-020",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een aquarium is binnenin 40 cm lang, 25 cm breed en 30 cm hoog. Hoeveel liter water past erin als het tot de rand gevuld wordt?",
+      "answer": 30,
+      "unit": "l",
+      "hints": [
+        "Bereken de inhoud in cm³: lengte × breedte × hoogte.",
+        "1 l = 1000 cm³. Of: reken eerst alle maten om naar dm, dan krijg je direct dm³ = liter."
+      ],
+      "solution": [
+        "In decimeter: 4 dm × 2,5 dm × 3 dm.",
+        "$4 \\times 2{,}5 = 10$, en $10 \\times 3 = 30$ dm³.",
+        "30 dm³ = 30 l.",
+        "Controle in cm³: $40 \\times 25 \\times 30 = 30\\,000$ cm³, en $30\\,000 : 1000 = 30$ l."
+      ],
+      "feedback": [
+        { "answer": 30000, "message": "Dat is de inhoud in cm³ (milliliter). Een liter is 1000 cm³, dus deel nog door 1000." },
+        { "answer": 3000, "message": "Je hebt door 10 gedeeld in plaats van door 1000. Een liter is 1000 cm³." }
+      ],
+      "topics": ["volume", "unit-conversion", "multiplication"]
+    },
+    {
+      "id": "06-021",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Op de markt koop je bloemkool voor € 3,45, kaas voor € 12,80 en peterselie voor € 0,95. Hoeveel betaal je samen?",
+      "answer": 17.2,
+      "tolerance": 0.001,
+      "unit": "€",
+      "hints": [
+        "Tel eerst de hele euro's op en daarna de centen.",
+        "45 + 80 + 95 cent = 220 cent = € 2,20."
+      ],
+      "solution": [
+        "Euro's: $3 + 12 + 0 = 15$.",
+        "Centen: $45 + 80 + 95 = 220$ cent $=$ € 2,20.",
+        "Samen: € 15 + € 2,20 = € 17,20."
+      ],
+      "feedback": [
+        { "answer": 15.22, "message": "Je hebt 220 cent als 22 cent opgeschreven. 220 cent is € 2,20; het totaal wordt € 17,20." }
+      ],
+      "topics": ["money", "addition", "decimals"]
+    },
+    {
+      "id": "06-022",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je boodschappen kosten € 13,65. Je betaalt met een briefje van € 20. Hoeveel wisselgeld krijg je terug?",
+      "answer": 6.35,
+      "tolerance": 0.001,
+      "unit": "€",
+      "hints": [
+        "Vul aan vanaf € 13,65: eerst naar € 14,00.",
+        "Van € 14 naar € 15 is € 1, en van € 15 naar € 20 is € 5. Tel de sprongen op."
+      ],
+      "solution": [
+        "€ 13,65 → € 14,00: € 0,35.",
+        "€ 14,00 → € 15,00: € 1,00.",
+        "€ 15,00 → € 20,00: € 5,00.",
+        "Samen: € 0,35 + € 1,00 + € 5,00 = € 6,35."
+      ],
+      "feedback": [
+        { "answer": 7.35, "message": "Je hebt € 20 − € 13 = € 7 gerekend en daarna nog eens € 1 − € 0,65 = € 0,35. Maar die ene euro voor de centen heb je al uit de 7 gehaald: het is € 6 + € 0,35 = € 6,35." },
+        { "answer": 7.45, "message": "Bij het aftrekken van de centen is het lenen misgegaan. Controleer: € 13,65 + € 6,35 = € 20,00." }
+      ],
+      "topics": ["money", "subtraction"]
+    },
+    {
+      "id": "06-023",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bij de bakker kost een zak met 6 croissants € 7,50. Wat is de prijs per croissant?",
+      "answer": 1.25,
+      "tolerance": 0.001,
+      "unit": "€",
+      "hints": [
+        "Prijs per stuk = totaalprijs : aantal stuks.",
+        "Reken in centen: 750 cent : 6."
+      ],
+      "solution": [
+        "€ 7,50 = 750 cent.",
+        "$750 : 6 = 125$ cent, want $6 \\times 125 = 750$.",
+        "125 cent = € 1,25 per croissant."
+      ],
+      "topics": ["money", "division"]
+    },
+    {
+      "id": "06-024",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Oude kaas kost € 18,80 per kilogram. Je koopt een stuk van 350 gram. Hoeveel moet je betalen?",
+      "answer": 6.58,
+      "tolerance": 0.001,
+      "unit": "€",
+      "hints": [
+        "Zet 350 g om naar kilogram: 0,35 kg.",
+        "Bereken $0{,}35 \\times 18{,}80$. Of: 100 g kost € 1,88, dus 350 g kost 3,5 keer zoveel."
+      ],
+      "solution": [
+        "100 g is een tiende kilogram, dus 100 g kost € 18,80 : 10 = € 1,88.",
+        "300 g kost $3 \\times 1{,}88 =$ € 5,64.",
+        "50 g kost de helft van € 1,88 = € 0,94.",
+        "350 g kost € 5,64 + € 0,94 = € 6,58."
+      ],
+      "feedback": [
+        { "answer": 65.8, "message": "Je hebt 350 g als 3,5 kg genomen. 350 g is 0,35 kg (een kilo is 1000 g). Schat ook even: een flink stuk kaas kost geen € 65." }
+      ],
+      "topics": ["money", "weight", "decimals"]
+    },
+    {
+      "id": "06-025",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Muesli in pak A: 750 g voor € 2,40. Muesli in pak B: 1,2 kg voor € 3,60. Bereken voor beide pakken de prijs per kilogram. Hoeveel euro per kilogram kost het voordeligste pak?",
+      "answer": 3,
+      "tolerance": 0.001,
+      "unit": "€",
+      "hints": [
+        "Pak A: 750 g is driekwart kilo. Wat kost dan 250 g, en dus 1000 g?",
+        "Pak B: 1,2 kg voor € 3,60. Deel € 3,60 door 1,2."
+      ],
+      "solution": [
+        "Pak A: 250 g kost € 2,40 : 3 = € 0,80, dus 1 kg kost $4 \\times 0{,}80 =$ € 3,20.",
+        "Pak B: € 3,60 : 1,2 = € 3,00 per kg (controle: $1{,}2 \\times 3 = 3{,}6$).",
+        "Pak B is voordeliger: € 3,00 per kilogram."
+      ],
+      "feedback": [
+        { "answer": 3.2, "message": "€ 3,20 per kg is de prijs van pak A. Pak B is per kilo goedkoper, ook al kost het pak zelf meer." },
+        { "answer": 2.4, "message": "€ 2,40 is de prijs van pak A, maar niet per kilogram. Vergelijk altijd per dezelfde hoeveelheid." }
+      ],
+      "topics": ["money", "weight", "division"]
+    },
+    {
+      "id": "06-026",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Iemand vindt in 2025 een oud spaarpotje met ƒ 100 (honderd gulden). De vaste omrekenkoers is € 1 = ƒ 2,20371. Hoeveel euro was dat bedrag waard? Rond af op hele centen.",
+      "answer": 45.38,
+      "tolerance": 0.001,
+      "unit": "€",
+      "hints": [
+        "Voor één euro moest je 2,20371 gulden betalen. Hoeveel keer past 2,20371 in 100?",
+        "Bereken $100 : 2{,}20371$ en rond af op twee decimalen. Schatting vooraf: ongeveer 100 : 2,2 ≈ 45."
+      ],
+      "solution": [
+        "Van gulden naar euro deel je door 2,20371.",
+        "$100 : 2{,}20371 \\approx 45{,}378$.",
+        "Afgerond op centen: € 45,38.",
+        "Schatting ter controle: een euro is iets meer dan 2 gulden, dus ƒ 100 is iets minder dan € 50. Klopt."
+      ],
+      "feedback": [
+        { "answer": 220.37, "message": "Je hebt vermenigvuldigd in plaats van gedeeld. Een euro is méér waard dan een gulden, dus je krijgt minder euro's dan je guldens had." },
+        { "answer": 45.37, "message": "Bijna goed, maar je hebt afgekapt in plaats van afgerond. 45,378 rond je af naar 45,38." }
+      ],
+      "topics": ["money", "unit-conversion", "decimals"]
+    },
+    {
+      "id": "06-027",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De aarde draait in 24 uur één keer rond: 360 lengtegraden. Daardoor staat de zon in een plaats die 1 lengtegraad oostelijker ligt iets eerder op haar hoogste punt. Hoeveel minuten scheelt dat per lengtegraad?",
+      "answer": 4,
+      "unit": "min",
+      "hints": [
+        "Zet 24 uur om in minuten.",
+        "Deel het aantal minuten door 360 graden."
+      ],
+      "solution": [
+        "24 uur = $24 \\times 60 = 1440$ minuten.",
+        "$1440 : 360 = 4$ minuten per graad.",
+        "Andere route: $360 : 24 = 15$ graden per uur, en $60 : 15 = 4$ minuten per graad."
+      ],
+      "feedback": [
+        { "answer": 15, "message": "15 is het aantal graden per uur. De vraag is hoeveel minuten er bij één graad horen: 60 : 15 = 4." }
+      ],
+      "topics": ["time", "division"]
+    },
+    {
+      "id": "06-028",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "In 1791 besloot de Franse Academie van Wetenschappen dat de meter het tienmiljoenste deel moest zijn van de afstand van de Noordpool tot de evenaar, gemeten langs de meridiaan door Parijs. Hoeveel kilometer is dan volgens deze definitie de omtrek van de aarde langs een volledige meridiaan (via beide polen)?",
+      "answer": 40000,
+      "unit": "km",
+      "hints": [
+        "Volgens de definitie is de afstand pool–evenaar 10.000.000 m.",
+        "Een volledige rondgang over beide polen bestaat uit vier keer zo'n stuk: pool → evenaar → andere pool → evenaar → terug."
+      ],
+      "solution": [
+        "Pool tot evenaar = 10.000.000 m = $10\\,000\\,000 : 1000 = 10\\,000$ km.",
+        "Een volledige meridiaancirkel bestaat uit 4 van zulke kwarten.",
+        "$4 \\times 10\\,000 = 40\\,000$ km.",
+        "De werkelijke omtrek via de polen is ongeveer 40.008 km: de meting van Delambre en Méchain zat er dus maar weinig naast."
+      ],
+      "feedback": [
+        { "answer": 10000, "message": "10.000 km is de afstand van pool tot evenaar: een kwart van de omtrek. Een hele cirkel is vier van die kwarten." },
+        { "answer": 20000, "message": "20.000 km is een halve omtrek (van pool tot pool). Ga ook nog terug over de andere kant van de aarde." }
+      ],
+      "topics": ["length", "unit-conversion"]
+    },
+    {
+      "id": "06-029",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je reist met de trein. De eerste trein vertrekt om 09:52 en komt om 11:17 aan op het overstapstation. Daar wacht je 9 minuten op de tweede trein, die 47 minuten rijdt. Hoeveel minuten duurt de hele reis, van vertrek tot aankomst?",
+      "answer": 141,
+      "unit": "min",
+      "hints": [
+        "Bereken eerst de rijtijd van de eerste trein door aan te vullen: 09:52 → 10:00 → 11:00 → 11:17.",
+        "Tel daarna de overstaptijd en de rijtijd van de tweede trein erbij op."
+      ],
+      "solution": [
+        "Eerste trein: 09:52 → 10:00 is 8 min; 10:00 → 11:00 is 60 min; 11:00 → 11:17 is 17 min. Samen 85 min.",
+        "Overstap: 9 min.",
+        "Tweede trein: 47 min.",
+        "$85 + 9 + 47 = 141$ minuten (dat is 2 uur en 21 minuten; je komt aan om 12:13)."
+      ],
+      "feedback": [
+        { "answer": 132, "message": "Je bent de overstaptijd van 9 minuten vergeten. Ook het wachten hoort bij de reisduur." },
+        { "answer": 221, "message": "Je hebt de eerste rit berekend als 1117 − 952 = 165, alsof een uur 100 minuten heeft. Vul liever aan: 8 + 60 + 17 = 85 minuten." }
+      ],
+      "topics": ["time"]
+    },
+    {
+      "id": "06-030",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een recept voor soep voor 4 personen vraagt om 0,6 liter bouillon. Je kookt voor 6 personen. Hoeveel milliliter bouillon heb je nodig?",
+      "answer": 900,
+      "unit": "ml",
+      "hints": [
+        "Reken eerst uit hoeveel bouillon er per persoon nodig is, of hoeveel er voor 2 personen nodig is.",
+        "0,6 l = 600 ml. Voor 2 personen is dat de helft."
+      ],
+      "solution": [
+        "0,6 l = $0{,}6 \\times 1000 = 600$ ml voor 4 personen.",
+        "Voor 2 personen: $600 : 2 = 300$ ml.",
+        "Voor 6 personen: $600 + 300 = 900$ ml."
+      ],
+      "feedback": [
+        { "answer": 0.9, "message": "0,9 is het juiste aantal liter, maar de vraag is in milliliter: 0,9 l = 900 ml." },
+        { "answer": 600, "message": "Dat is de hoeveelheid voor 4 personen. Je kookt voor 6, dus 1,5 keer zoveel." }
+      ],
+      "topics": ["volume", "unit-conversion", "multiplication"]
+    },
+    {
+      "id": "06-031",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een Amsterdamse lakenkoopman verkocht vóór 1820 een stuk laken van 40 Amsterdamse ellen. Een Amsterdamse el was ongeveer 68,8 cm. Hoeveel meter laken was dat?",
+      "answer": 27.52,
+      "tolerance": 0.001,
+      "unit": "m",
+      "hints": [
+        "Bereken eerst de lengte in centimeter: 40 × 68,8.",
+        "Zet daarna centimeter om in meter: deel door 100."
+      ],
+      "solution": [
+        "$40 \\times 68{,}8 = 2752$ cm (want $4 \\times 68{,}8 = 275{,}2$, en dat maal 10).",
+        "$2752 : 100 = 27{,}52$ m.",
+        "Het stuk laken was ongeveer 27,52 m lang."
+      ],
+      "feedback": [
+        { "answer": 2752, "message": "Dat is de lengte in centimeter. Gevraagd wordt meter: 2752 cm = 27,52 m." },
+        { "answer": 40, "message": "Je hebt aangenomen dat een el een meter is. Dat gold pas voor de 'Nederlandse el' na 1820. De Amsterdamse el was korter: ongeveer 68,8 cm." }
+      ],
+      "topics": ["length", "unit-conversion", "decimals"]
+    },
+    {
+      "id": "06-032",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een sloot in Holland was volgens een oude akte 15 Rijnlandse roeden lang. Eén Rijnlandse roede is 3,767 m. Hoeveel meter was de sloot lang?",
+      "answer": 56.505,
+      "tolerance": 0.001,
+      "unit": "m",
+      "hints": [
+        "Vermenigvuldig het aantal roeden met de lengte van één roede.",
+        "Splits: $10 \\times 3{,}767$ en $5 \\times 3{,}767$."
+      ],
+      "solution": [
+        "$10 \\times 3{,}767 = 37{,}67$ m.",
+        "$5 \\times 3{,}767 = 18{,}835$ m (de helft van 37,67).",
+        "$37{,}67 + 18{,}835 = 56{,}505$ m."
+      ],
+      "feedback": [
+        { "answer": 150, "message": "Je hebt de 'Nederlandse roede' van na 1820 gebruikt (10 m). De Rijnlandse roede van vóór 1820 was 3,767 m." }
+      ],
+      "topics": ["length", "unit-conversion", "decimals"]
+    },
+    {
+      "id": "06-033",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een koffiehandelaar had in 1815 een voorraad van 50 Amsterdamse ponden koffie. Een Amsterdams pond woog ongeveer 494 gram. Hoeveel kilogram koffie was dat?",
+      "answer": 24.7,
+      "tolerance": 0.001,
+      "unit": "kg",
+      "hints": [
+        "Bereken het gewicht eerst in gram: 50 × 494.",
+        "Zet het resultaat om naar kilogram: deel door 1000."
+      ],
+      "solution": [
+        "$50 \\times 494 = 24\\,700$ g (want $100 \\times 494 = 49\\,400$, en de helft daarvan).",
+        "$24\\,700 : 1000 = 24{,}7$ kg."
+      ],
+      "feedback": [
+        { "answer": 24700, "message": "Dat is het gewicht in gram. Deel door 1000 voor kilogram." },
+        { "answer": 50, "message": "Je hebt het 'Nederlandse pond' van 1 kg gebruikt dat in 1820 werd ingevoerd. Het oude Amsterdamse pond woog maar ongeveer 494 g." },
+        { "answer": 25, "message": "Je hebt het huidige spreektaal-pond van 500 g gebruikt. Het Amsterdamse pond was iets lichter: 494 g." }
+      ],
+      "topics": ["weight", "unit-conversion", "decimals"]
+    },
+    {
+      "id": "06-034",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Amsterdam ligt ongeveer 4,9 graden ten oosten van de meridiaan van Greenwich. Per lengtegraad staat de zon 4 minuten eerder op haar hoogste punt. Hoeveel minuten liep de plaatselijke zonnetijd van Amsterdam ongeveer vóór op die van Greenwich? Geef je antwoord als decimaal getal.",
+      "answer": 19.6,
+      "tolerance": 0.001,
+      "unit": "min",
+      "hints": [
+        "Vermenigvuldig het aantal graden met 4 minuten.",
+        "$4{,}9 \\times 4 = 5 \\times 4 - 0{,}1 \\times 4$."
+      ],
+      "solution": [
+        "Per graad: 4 minuten.",
+        "$4{,}9 \\times 4 = 20 - 0{,}4 = 19{,}6$ minuten.",
+        "Ter vergelijking: de wettelijke Amsterdamse tijd (1909–1937) liep 19 minuten en 32,13 seconden voor, dat is ongeveer 19,54 minuten. Het verschil komt doordat Amsterdam (de Westertoren) op iets minder dan 4,9° ligt."
+      ],
+      "feedback": [
+        { "answer": 4.9, "message": "Je hebt alleen het aantal graden overgenomen. Elke graad is 4 minuten: vermenigvuldig met 4." },
+        { "answer": 73.5, "message": "Je hebt met 15 vermenigvuldigd. 15 is het aantal graden per uur; per graad hoort 4 minuten." }
+      ],
+      "topics": ["time", "decimals", "multiplication"]
+    },
+    {
+      "id": "06-035",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "De Romeinse mijl (*mille passus*) bestond uit 1000 passen. Eén pas (*passus*) telde 5 Romeinse voeten (*pedes*), en een Romeinse voet was ongeveer 29,6 cm. Hoeveel meter was een Romeinse mijl ongeveer?",
+      "answer": 1480,
+      "unit": "m",
+      "hints": [
+        "Bereken eerst hoeveel voet er in een mijl gaan: 1000 × 5.",
+        "Vermenigvuldig dat aantal voeten met 29,6 cm en zet het resultaat om naar meter."
+      ],
+      "solution": [
+        "1 mijl = $1000 \\times 5 = 5000$ voet.",
+        "$5000 \\times 29{,}6 = 148\\,000$ cm.",
+        "$148\\,000 : 100 = 1480$ m.",
+        "Een Romeinse mijl was dus ongeveer 1,48 km: duidelijk korter dan de Engelse mijl (ongeveer 1,6 km) die er later uit voortkwam."
+      ],
+      "feedback": [
+        { "answer": 148, "message": "Je hebt door 1000 gedeeld in plaats van door 100. 148.000 cm = 1480 m." },
+        { "answer": 296, "message": "Je bent vergeten dat een pas uit 5 voeten bestaat. 1000 passen = 5000 voet." },
+        { "answer": 148000, "message": "Dat is de lengte in centimeter. Deel door 100 voor meter." }
+      ],
+      "topics": ["length", "unit-conversion", "multiplication"]
+    },
+    {
+      "id": "06-036",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Stel: een koopman kocht vóór 1820 60 Amsterdamse ellen laken (1 Amsterdamse el = 68,8 cm) voor in totaal ƒ 82,56. Na de invoering van het metrieke stelsel rekent hij in 'Nederlandse ellen', en een Nederlandse el is precies 1 meter. Wat betaalde hij per Nederlandse el, in gulden?",
+      "answer": 2,
+      "tolerance": 0.001,
+      "unit": "ƒ",
+      "hints": [
+        "Reken eerst uit hoeveel meter (= Nederlandse ellen) laken hij had: 60 × 68,8 cm.",
+        "Deel daarna de totaalprijs door het aantal meters."
+      ],
+      "solution": [
+        "Lengte: $60 \\times 68{,}8 = 4128$ cm $= 41{,}28$ m, dus 41,28 Nederlandse ellen.",
+        "Prijs per Nederlandse el: ƒ 82,56 : 41,28.",
+        "$41{,}28 \\times 2 = 82{,}56$, dus de prijs is ƒ 2,00 per Nederlandse el.",
+        "Ter vergelijking: per Amsterdamse el was het ƒ 82,56 : 60 = ƒ 1,376. Dezelfde stof lijkt per 'el' duurder, maar alleen doordat de el langer is geworden."
+      ],
+      "feedback": [
+        { "answer": 1.376, "message": "Dat is de prijs per Amsterdamse el (82,56 : 60). De vraag is per Nederlandse el van 1 meter, en die is langer. Reken eerst om naar meters." },
+        { "answer": 0.5, "message": "Je hebt de breuk omgedraaid (meters gedeeld door guldens). Prijs per el = guldens : ellen." }
+      ],
+      "topics": ["money", "length", "unit-conversion", "division"]
+    }
+  ]
+}

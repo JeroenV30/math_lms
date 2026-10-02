@@ -1,0 +1,100 @@
+{
+  "id": 2,
+  "slug": "plaatswaarde-en-nul",
+  "title": "Plaatswaarde en nul",
+  "part": 1,
+  "level": "fundamenten",
+  "status": "available",
+  "historical_period": "Oudheid en vroege middeleeuwen",
+  "estimated_difficulty": 1,
+  "estimated_minutes": 120,
+  "prerequisites": [
+    1
+  ],
+  "topics": [
+    "place-value",
+    "number-systems",
+    "zero",
+    "estimation"
+  ],
+  "core_question": "Waarom is de 7 in 4.732 eigenlijk zevenhonderd, en waarom hebben we een teken voor 'niets' nodig om dat te kunnen opschrijven?",
+  "summary": "Hoe tien cijfers en hun positie elk getal kunnen schrijven: eenheden tot duizendtallen, de nul als plaatshouder en als getal, het Babylonische zestigtallige stelsel, Romeinse en Egyptische cijfers, en de reis van de nul van India via Bagdad naar Europa.",
+  "learning_goals": [
+    "Je kunt van elk cijfer in een getal de plaatswaarde en de waarde bepalen (eenheden, tientallen, honderdtallen, duizendtallen en verder).",
+    "Je kunt een getal uitsplitsen in duizendtallen, honderdtallen, tientallen en eenheden, en een getal samenstellen uit zo'n uitsplitsing, ook als je eerst moet inwisselen (bijvoorbeeld 13 honderdtallen = 1 duizendtal en 3 honderdtallen).",
+    "Je kent het verschil tussen 'het tientallencijfer' en 'het aantal tientallen' in een getal.",
+    "Je begrijpt de dubbele rol van nul: als plaatshouder (305 is iets anders dan 35) en als getal waarmee je rekent.",
+    "Je kent de rekenregels voor nul zoals Brahmagupta ze in 628 opschreef, en je kunt uitleggen waarom delen door nul geen uitkomst heeft.",
+    "Je kunt Babylonische zestigtallige getallen en Romeinse cijfers omrekenen naar ons stelsel.",
+    "Je kunt uitleggen waarom een plaatswaardesysteem krachtiger is dan een additief systeem zoals het Egyptische of het Romeinse.",
+    "Je kunt een getal afronden op tientallen, honderdtallen en duizendtallen, en afronden gebruiken om te schatten.",
+    "Je kunt in hoofdlijnen vertellen hoe de nul en de Indiase cijfers via Bagdad en Pisa in Europa terechtkwamen."
+  ],
+  "glossary": [
+    { "term": "Cijfer", "definition": "Een schrijfteken voor een getal. Ons stelsel heeft tien cijfers: 0, 1, 2, 3, 4, 5, 6, 7, 8 en 9. Het woord komt via het Latijn van het Arabische sifr, 'leeg' of 'nul'." },
+    { "term": "Getal", "definition": "Een hoeveelheid of grootte zelf, los van hoe je die opschrijft. Het getal 4.732 wordt geschreven met vier cijfers." },
+    { "term": "Positie", "definition": "De plek van een cijfer in een getal, geteld van rechts: eenheden, tientallen, honderdtallen, duizendtallen, enzovoort." },
+    { "term": "Plaatswaarde", "definition": "De waarde die een positie aan een cijfer geeft. In ons stelsel is elke positie tien keer zoveel waard als de positie rechts ervan." },
+    { "term": "Waarde van een cijfer", "definition": "Het cijfer maal de plaatswaarde van zijn positie. In 4.732 is de waarde van de 7 gelijk aan 7 × 100 = 700." },
+    { "term": "Grondtal (basis)", "definition": "Het aantal eenheden dat samen één eenheid van de volgende positie vormt: 10 in ons stelsel, 60 in het Babylonische." },
+    { "term": "Tientallig (decimaal) stelsel", "definition": "Plaatswaardesysteem met grondtal 10 en tien cijfers 0 tot en met 9." },
+    { "term": "Zestigtallig (sexagesimaal) stelsel", "definition": "Plaatswaardesysteem met grondtal 60, ontwikkeld in Mesopotamië. Het leeft voort in uren, minuten en seconden en in graden." },
+    { "term": "Additief stelsel", "definition": "Getalschrift waarin je de waarden van de tekens optelt, zonder dat de plek van een teken de waarde bepaalt, zoals de Egyptische hiërogliefencijfers." },
+    { "term": "Subtractieve notatie", "definition": "Romeinse afspraak waarbij een kleiner teken vóór een groter teken wordt afgetrokken: IV = 4, XC = 90, CM = 900." },
+    { "term": "Plaatshouder", "definition": "Een teken dat aangeeft dat een positie leeg is, zodat de andere cijfers op hun plek blijven. Onze 0 in 305 is een plaatshouder." },
+    { "term": "Uitsplitsen", "definition": "Een getal schrijven als som van de waarden van zijn cijfers: 4.732 = 4000 + 700 + 30 + 2." },
+    { "term": "Inwisselen", "definition": "Tien eenheden van een positie omzetten in één eenheid van de volgende positie (of andersom): 10 tientallen = 1 honderdtal." },
+    { "term": "Afronden", "definition": "Een getal vervangen door het dichtstbijzijnde 'ronde' getal op een gekozen positie, bijvoorbeeld 4.732 ≈ 4.700 op honderdtallen." }
+  ],
+  "formulas": [
+    {
+      "name": "Waarde van een cijfer",
+      "latex": "\\text{waarde} = \\text{cijfer} \\times \\text{plaatswaarde}",
+      "usage": "Om te bepalen hoeveel een cijfer op een bepaalde positie waard is, bijvoorbeeld 7 op de honderdtallenpositie: 7 × 100 = 700.",
+      "origin": "De kern van elk plaatswaardesysteem; in Mesopotamië met grondtal 60, in India met grondtal 10."
+    },
+    {
+      "name": "Uitgeschreven vorm (tientallig)",
+      "latex": "4732 = 4 \\cdot 1000 + 7 \\cdot 100 + 3 \\cdot 10 + 2 \\cdot 1",
+      "usage": "Om een getal uit te splitsen of uit een uitsplitsing samen te stellen.",
+      "origin": "Indiase decimale positienotatie, via al-Khwarizmi en Fibonacci in Europa verspreid."
+    },
+    {
+      "name": "Zestigtallig omrekenen",
+      "latex": "a \\mid b \\mid c = a \\cdot 3600 + b \\cdot 60 + c",
+      "usage": "Om een Babylonisch getal met drie posities om te rekenen naar ons stelsel; elke positie is 60 keer zoveel waard als de positie rechts ervan.",
+      "origin": "Babylonisch rekenen, ca. 1900–1600 v.Chr. en later."
+    },
+    {
+      "name": "Rekenregels voor nul",
+      "latex": "a + 0 = a, \\quad a - 0 = a, \\quad a - a = 0, \\quad a \\times 0 = 0, \\quad 0 \\div a = 0 \\ (a \\neq 0)",
+      "usage": "Bij elk rekenwerk waarin nul voorkomt. Delen dóór nul ($a \\div 0$) heeft geen uitkomst.",
+      "origin": "Voor het eerst systematisch opgeschreven door Brahmagupta in de Brahmasphutasiddhanta (628)."
+    }
+  ],
+  "lessons": [
+    { "slug": "introductie", "title": "Een getal op een kleitablet", "file": "01-introductie.md", "kind": "intro" },
+    { "slug": "plaatswaarde", "title": "Eenheden, tientallen, honderdtallen, duizendtallen", "file": "02-theorie-a.md", "kind": "theory" },
+    { "slug": "de-nul", "title": "Nul: plaatshouder en getal", "file": "03-theorie-b.md", "kind": "theory" },
+    { "slug": "andere-getalsystemen", "title": "Babylonisch, Egyptisch en Romeins", "file": "03b-theorie-c.md", "kind": "theory" },
+    { "slug": "de-reis-van-de-nul", "title": "De reis van de nul", "file": "04-historisch-intermezzo.md", "kind": "history" },
+    { "slug": "afronden-en-uitdaging", "title": "Afronden, schatten en een uitdaging", "file": "05-praktijk-en-uitdaging.md", "kind": "practice" },
+    { "slug": "samenvatting", "title": "Samenvatting", "file": "06-samenvatting.md", "kind": "summary" }
+  ],
+  "timeline": [
+    "mesopotamische-getallen",
+    "babylonisch-plaatshouder",
+    "egyptische-cijfers",
+    "romeinse-cijfers",
+    "bakhshali-manuscript",
+    "brahmagupta",
+    "al-khwarizmi",
+    "gwalior-nul",
+    "fibonacci-liber-abaci"
+  ],
+  "mathematicians": [
+    "brahmagupta",
+    "al-khwarizmi",
+    "fibonacci"
+  ]
+}

@@ -7,10 +7,20 @@ export default defineConfig({
     plugins: [
         laravel({
             input: ['resources/css/app.css', 'resources/js/app.js'],
-            refresh: true,
+            refresh: ['resources/views/**', 'content/**', 'routes/**'],
             fonts: [
-                bunny('Instrument Sans', {
-                    weights: [400, 500, 600],
+                // Interface
+                bunny('Inter', {
+                    alias: 'inter',
+                    variable: '--font-inter',
+                    weights: [400, 500, 600, 700],
+                }),
+                // Leestekst: rustige boektypografie
+                bunny('Source Serif 4', {
+                    alias: 'source-serif',
+                    variable: '--font-source-serif',
+                    weights: [400, 600],
+                    styles: ['normal', 'italic'],
                 }),
             ],
         }),

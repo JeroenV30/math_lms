@@ -1,0 +1,292 @@
+{
+  "title": "Hoofdstuktoets – Geld, tijd en maten",
+  "intro": "15 vragen over tijd, lengte, gewicht, inhoud, geld en oude maten. Werk met pen en papier en noteer bij elke vraag de eenheid. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "06-T01",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Hoeveel minuten is 2,5 uur?",
+      "answer": 150,
+      "unit": "min",
+      "hints": [],
+      "solution": [
+        "2 uur = $2 \\times 60 = 120$ minuten.",
+        "0,5 uur = een half uur = 30 minuten.",
+        "$120 + 30 = 150$ minuten."
+      ],
+      "feedback": [
+        { "answer": 250, "message": "Je hebt met 100 vermenigvuldigd. Een uur heeft 60 minuten: 2,5 × 60 = 150." },
+        { "answer": 170, "message": "Je hebt 2,5 uur gelezen als 2 uur en 50 minuten. Maar 0,5 uur is een half uur: 30 minuten." }
+      ],
+      "topics": ["time", "decimals", "unit-conversion"]
+    },
+    {
+      "id": "06-T02",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Hoeveel seconden is 5 minuten en 20 seconden?",
+      "answer": 320,
+      "unit": "s",
+      "hints": [],
+      "solution": [
+        "5 minuten = $5 \\times 60 = 300$ seconden.",
+        "$300 + 20 = 320$ seconden."
+      ],
+      "feedback": [
+        { "answer": 520, "message": "Je hebt met 100 seconden per minuut gerekend. Een minuut heeft 60 seconden." }
+      ],
+      "topics": ["time", "unit-conversion"]
+    },
+    {
+      "id": "06-T03",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een trein vertrekt om 07:48 en komt aan om 10:15. Hoeveel minuten duurt de reis?",
+      "answer": 147,
+      "unit": "min",
+      "hints": [],
+      "solution": [
+        "07:48 → 08:00: 12 minuten.",
+        "08:00 → 10:00: 120 minuten.",
+        "10:00 → 10:15: 15 minuten.",
+        "$12 + 120 + 15 = 147$ minuten."
+      ],
+      "feedback": [
+        { "answer": 267, "message": "Je hebt 1015 − 748 gerekend alsof het gewone getallen zijn. Een uur heeft 60 minuten; vul aan via 08:00 en 10:00." }
+      ],
+      "topics": ["time"]
+    },
+    {
+      "id": "06-T04",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Schrijf 1 uur en 12 minuten als decimaal getal in uren.",
+      "answer": 1.2,
+      "tolerance": 0.001,
+      "unit": "uur",
+      "hints": [],
+      "solution": [
+        "12 minuten = $\\frac{12}{60} = \\frac{1}{5}$ uur $= 0{,}2$ uur.",
+        "$1 + 0{,}2 = 1{,}2$ uur."
+      ],
+      "feedback": [
+        { "answer": 1.12, "message": "1 uur 12 minuten is niet 1,12 uur: achter de komma staan honderdsten van een uur, geen minuten. 12 minuten is 12/60 = 0,2 uur." }
+      ],
+      "topics": ["time", "decimals"]
+    },
+    {
+      "id": "06-T05",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een nachtbus vertrekt om 23:50 en komt om 00:35 aan. Hoeveel minuten duurt de rit?",
+      "answer": 45,
+      "unit": "min",
+      "hints": [],
+      "solution": [
+        "23:50 → 00:00: 10 minuten.",
+        "00:00 → 00:35: 35 minuten.",
+        "$10 + 35 = 45$ minuten."
+      ],
+      "topics": ["time"]
+    },
+    {
+      "id": "06-T06",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Hoeveel meter is 4,2 km?",
+      "answer": 4200,
+      "unit": "m",
+      "hints": [],
+      "solution": [
+        "1 km = 1000 m.",
+        "$4{,}2 \\times 1000 = 4200$ m."
+      ],
+      "feedback": [
+        { "answer": 420, "message": "Je hebt met 100 vermenigvuldigd. Van km naar m zijn het drie treden: × 1000." }
+      ],
+      "topics": ["length", "unit-conversion"]
+    },
+    {
+      "id": "06-T07",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel millimeter is 0,65 m?",
+      "answer": 650,
+      "unit": "mm",
+      "hints": [],
+      "solution": [
+        "1 m = 1000 mm.",
+        "$0{,}65 \\times 1000 = 650$ mm."
+      ],
+      "feedback": [
+        { "answer": 65, "message": "65 is het aantal centimeter. Naar millimeter moet nog een trede verder: × 10." }
+      ],
+      "topics": ["length", "unit-conversion", "decimals"]
+    },
+    {
+      "id": "06-T08",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel kilogram is 380 g?",
+      "answer": 0.38,
+      "tolerance": 0.0001,
+      "unit": "kg",
+      "hints": [],
+      "solution": [
+        "1 kg = 1000 g, dus van g naar kg deel je door 1000.",
+        "$380 : 1000 = 0{,}38$ kg."
+      ],
+      "feedback": [
+        { "answer": 3.8, "message": "Je hebt door 100 gedeeld. Een kilogram is 1000 gram: 380 g = 0,38 kg." }
+      ],
+      "topics": ["weight", "unit-conversion", "decimals"]
+    },
+    {
+      "id": "06-T09",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een Amsterdamse el was ongeveer 68,8 cm. Hoeveel meter is 25 Amsterdamse ellen?",
+      "answer": 17.2,
+      "tolerance": 0.001,
+      "unit": "m",
+      "hints": [],
+      "solution": [
+        "$25 \\times 68{,}8 = 1720$ cm (want $100 \\times 68{,}8 = 6880$ en een kwart daarvan is 1720).",
+        "$1720 : 100 = 17{,}2$ m."
+      ],
+      "feedback": [
+        { "answer": 1720, "message": "Dat is de lengte in centimeter. Deel door 100 voor meter." },
+        { "answer": 25, "message": "Je rekent met de Nederlandse el van 1 meter (na 1820). De oudere Amsterdamse el was korter." }
+      ],
+      "topics": ["length", "unit-conversion", "decimals"]
+    },
+    {
+      "id": "06-T10",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een regenton heeft de vorm van een rechthoekige bak van 50 cm lang, 30 cm breed en 40 cm hoog. Hoeveel liter water past erin?",
+      "answer": 60,
+      "unit": "l",
+      "hints": [],
+      "solution": [
+        "In decimeter: 5 dm × 3 dm × 4 dm.",
+        "$5 \\times 3 \\times 4 = 60$ dm³.",
+        "60 dm³ = 60 l."
+      ],
+      "feedback": [
+        { "answer": 60000, "message": "Dat is de inhoud in cm³. Een liter is 1000 cm³, dus deel door 1000." }
+      ],
+      "topics": ["volume", "unit-conversion"]
+    },
+    {
+      "id": "06-T11",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Je betaalt een rekening van € 23,85 met een briefje van € 50. Hoeveel wisselgeld krijg je?",
+      "answer": 26.15,
+      "tolerance": 0.001,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "€ 23,85 → € 24,00: € 0,15.",
+        "€ 24,00 → € 50,00: € 26,00.",
+        "Samen € 26,15."
+      ],
+      "feedback": [
+        { "answer": 27.15, "message": "Je hebt € 50 − € 23 = € 27 gerekend en daar € 0,15 bij gedaan. De euro voor de centen telt dan dubbel. Vul aan: € 0,15 + € 26 = € 26,15." }
+      ],
+      "topics": ["money", "subtraction"]
+    },
+    {
+      "id": "06-T12",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een krat met 8 flessen sap kost € 11,60. Wat is de prijs per fles?",
+      "answer": 1.45,
+      "tolerance": 0.001,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "€ 11,60 = 1160 cent.",
+        "$1160 : 8 = 145$ cent (controle: $8 \\times 145 = 1160$).",
+        "Prijs per fles: € 1,45."
+      ],
+      "topics": ["money", "division"]
+    },
+    {
+      "id": "06-T13",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Ham kost € 24,50 per kilogram. Hoeveel betaal je voor 200 gram?",
+      "answer": 4.9,
+      "tolerance": 0.001,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "200 g = 0,2 kg, een vijfde kilogram.",
+        "€ 24,50 : 5 = € 4,90."
+      ],
+      "feedback": [
+        { "answer": 49, "message": "Je hebt 200 g als 2 kg genomen. 200 g = 0,2 kg." }
+      ],
+      "topics": ["money", "weight", "decimals"]
+    },
+    {
+      "id": "06-T14",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een oud prijskaartje vermeldt ƒ 50. Hoeveel euro is dat volgens de vaste koers € 1 = ƒ 2,20371? Rond af op hele centen.",
+      "answer": 22.69,
+      "tolerance": 0.001,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "Van gulden naar euro deel je door 2,20371.",
+        "$50 : 2{,}20371 \\approx 22{,}689$.",
+        "Afgerond: € 22,69."
+      ],
+      "feedback": [
+        { "answer": 110.19, "message": "Je hebt vermenigvuldigd. Een euro is meer waard dan een gulden, dus het aantal euro's moet kleiner zijn dan 50." },
+        { "answer": 22.68, "message": "Je hebt afgekapt in plaats van afgerond: 22,689 wordt € 22,69." }
+      ],
+      "topics": ["money", "unit-conversion", "decimals"]
+    },
+    {
+      "id": "06-T15",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een monteur rekent € 48 per uur arbeidsloon. Hij werkt van 13:40 tot 15:25. Hoeveel euro arbeidsloon kost dat?",
+      "answer": 84,
+      "tolerance": 0.001,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "Tijdsduur: 13:40 → 14:00 is 20 min; 14:00 → 15:00 is 60 min; 15:00 → 15:25 is 25 min. Samen 105 minuten.",
+        "105 minuten = 1 uur en 45 minuten = 1,75 uur (45 minuten is driekwart uur).",
+        "$1{,}75 \\times 48 = 48 + 36 = 84$.",
+        "Het arbeidsloon is € 84,00."
+      ],
+      "feedback": [
+        { "answer": 69.6, "message": "Je hebt 1 uur 45 minuten als 1,45 uur genomen. Maar 45 minuten is 0,75 uur: 1,75 × 48 = € 84." },
+        { "answer": 88.8, "message": "Je hebt 1,85 uur gebruikt (15:25 − 13:40 als gewone getallen). De werktijd is 105 minuten = 1,75 uur." }
+      ],
+      "topics": ["time", "money", "decimals"]
+    }
+  ]
+}

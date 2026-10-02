@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" font-family="sans-serif" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Babylonische zestigtallige cijfers</title>
+  <desc id="d1">Boven: de spijker (1) en de hoek (10) en de samengestelde cijfers 23 en 59. Midden: het getal 1 | 15 = 75. Onder: zonder nul kan hetzelfde schrift 61, 3601 of 3660 betekenen; het latere plaatshouder-teken (twee schuine wiggen) haalt de dubbelzinnigheid weg.</desc>
+  <defs>
+    <polygon id="u" points="-7,0 7,0 1.6,11 1,34 -1,34 -1.6,11" fill="#9c6b30"/>
+    <polygon id="us" points="-5,0 5,0 1.2,7 0.8,20 -0.8,20 -1.2,7" fill="#9c6b30"/>
+    <polygon id="t" points="0,0 20,-12 14,0 20,12" fill="#9c6b30"/>
+    <g id="ph"><polygon points="-7,0 7,0 1.6,9 1,22 -1,22 -1.6,9" fill="#3b5bdb" transform="rotate(-40)"/><polygon points="-7,0 7,0 1.6,9 1,22 -1,22 -1.6,9" fill="#3b5bdb" transform="translate(0,16) rotate(-40)"/></g>
+  </defs>
+  <rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+  <rect x="10" y="10" width="700" height="140" rx="8" fill="#f1f3f5"/>
+  <rect x="10" y="165" width="700" height="130" rx="8" fill="#f1f3f5"/>
+  <rect x="10" y="310" width="700" height="180" rx="8" fill="#f1f3f5"/>
+  <g fill="#1f2933" font-size="15">
+    <text x="24" y="34" font-weight="bold">1. Twee tekens: de spijker en de hoek</text>
+    <text x="24" y="189" font-weight="bold">2. Posities: elke stap naar links is 60 keer zoveel waard</text>
+    <text x="24" y="334" font-weight="bold">3. Het probleem zonder nul — en de oplossing</text>
+  </g>
+  <use href="#u" x="70" y="60"/>
+  <text x="70" y="128" text-anchor="middle" font-size="16" fill="#1f2933">1</text>
+  <use href="#t" x="170" y="77"/>
+  <text x="180" y="128" text-anchor="middle" font-size="16" fill="#1f2933">10</text>
+  <use href="#t" x="290" y="77"/>
+  <use href="#t" x="303" y="77"/>
+  <use href="#u" x="326" y="60"/>
+  <use href="#u" x="341" y="60"/>
+  <use href="#u" x="356" y="60"/>
+  <text x="320" y="128" text-anchor="middle" font-size="16" fill="#1f2933">23 = 10 + 10 + 3</text>
+  <use href="#t" x="470" y="77"/>
+  <use href="#t" x="483" y="77"/>
+  <use href="#t" x="496" y="77"/>
+  <use href="#t" x="509" y="77"/>
+  <use href="#t" x="522" y="77"/>
+  <use href="#us" x="545" y="54"/>
+  <use href="#us" x="557" y="54"/>
+  <use href="#us" x="569" y="54"/>
+  <use href="#us" x="545" y="70"/>
+  <use href="#us" x="557" y="70"/>
+  <use href="#us" x="569" y="70"/>
+  <use href="#us" x="545" y="86"/>
+  <use href="#us" x="557" y="86"/>
+  <use href="#us" x="569" y="86"/>
+  <text x="530" y="128" text-anchor="middle" font-size="16" fill="#1f2933">59 = 5 × 10 + 9</text>
+  <use href="#u" x="80" y="210"/>
+  <use href="#t" x="140" y="227"/>
+  <use href="#us" x="163" y="204"/>
+  <use href="#us" x="175" y="204"/>
+  <use href="#us" x="187" y="204"/>
+  <use href="#us" x="163" y="220"/>
+  <use href="#us" x="175" y="220"/>
+  <line x1="113" y1="205" x2="113" y2="250" stroke="#1f2933" stroke-dasharray="3 3"/>
+  <text x="80" y="270" text-anchor="middle" font-size="14" fill="#1f2933">1 × 60</text>
+  <text x="170" y="270" text-anchor="middle" font-size="14" fill="#1f2933">15 × 1</text>
+  <text x="300" y="238" font-size="20" fill="#1f2933">1 ∣ 15  =  1 × 60 + 15  =  <tspan font-weight="bold" fill="#3b5bdb">75</tspan></text>
+  <use href="#u" x="60" y="355"/><use href="#u" x="74" y="355"/>
+  <text x="67" y="410" text-anchor="middle" font-size="14" fill="#1f2933">tegen elkaar: 2</text>
+  <use href="#u" x="190" y="355"/><use href="#u" x="230" y="355"/>
+  <text x="210" y="410" text-anchor="middle" font-size="14" fill="#1f2933">met ruimte: 1 ∣ 1 = 61?</text>
+  <text x="210" y="430" text-anchor="middle" font-size="14" fill="#1f2933">of 1 ∣ 0 ∣ 1 = 3601?</text>
+  <text x="210" y="450" text-anchor="middle" font-size="14" fill="#1f2933">of 1 ∣ 1 ∣ 0 = 3660?</text>
+  <line x1="330" y1="350" x2="330" y2="470" stroke="#1f2933" stroke-width="1"/>
+  <use href="#u" x="470" y="355"/><use href="#ph" x="518" y="359"/><use href="#u" x="570" y="355"/>
+  <text x="520" y="410" text-anchor="middle" font-size="14" fill="#1f2933">met plaatshouder (vanaf ca. 300 v.Chr.):</text>
+  <text x="520" y="430" text-anchor="middle" font-size="14" fill="#1f2933">1 ∣ 0 ∣ 1 = 3600 + 0 + 1 = <tspan font-weight="bold" fill="#3b5bdb">3601</tspan></text>
+  <text x="520" y="452" text-anchor="middle" font-size="12" fill="#3b5bdb">blauw: het plaatshouder-teken (twee schuine wiggen)</text>
+  <text x="520" y="472" text-anchor="middle" font-size="12" fill="#1f2933">Aan het eind van een getal werd het niet gebruikt.</text>
+</svg>

@@ -1,0 +1,178 @@
+{
+  "id": 6,
+  "slug": "geld-tijd-en-maten",
+  "title": "Geld, tijd en maten",
+  "part": 1,
+  "level": "fundamenten",
+  "status": "available",
+  "historical_period": "Oudheid tot 19e eeuw",
+  "estimated_difficulty": 1,
+  "estimated_minutes": 150,
+  "prerequisites": [
+    3,
+    4,
+    5
+  ],
+  "topics": [
+    "time",
+    "length",
+    "weight",
+    "volume",
+    "money",
+    "unit-conversion",
+    "decimals"
+  ],
+  "core_question": "Waarom tellen we tijd in zestigen, maar lengte, gewicht en geld in tientallen – en hoe reken je veilig tussen al die eenheden om?",
+  "summary": "Rekenen met tijd, lengte, gewicht, inhoud en geld. Je leert het zestigtallige stelsel van uren en minuten, het metrieke trapje en rekenen met euro's, en ziet hoe de wereld van ellen, voeten en ponden die per stad verschilden naar één gestandaardiseerd stelsel ging.",
+  "learning_goals": [
+    "Je kunt uren, minuten en seconden in elkaar omrekenen en begrijpt waarom daarbij 60 en niet 10 de stapgrootte is.",
+    "Je kunt een tijdsduur berekenen tussen twee tijdstippen in 24-uursnotatie, ook over middernacht heen, door aan te vullen.",
+    "Je herkent de fout '1 uur 45 minuten = 1,45 uur' en kunt een tijdsduur correct als decimaal aantal uren schrijven.",
+    "Je kunt met het metrieke trapje lengte (km tot mm), gewicht (kg en g) en inhoud (l tot ml) omrekenen, ook met kommagetallen.",
+    "Je weet dat 1 dm³ gelijk is aan 1 liter en kunt de inhoud van een rechthoekige bak in liters berekenen.",
+    "Je kunt rekenen met euro's en centen: optellen, wisselgeld bepalen, prijs per stuk en prijs per kilogram.",
+    "Je kunt oude maten (el, voet, roede, pond, gulden) met een gegeven omrekenfactor omzetten naar moderne eenheden.",
+    "Je kunt uitleggen waarom maten en tijd gestandaardiseerd werden: het metrieke stelsel (1795–1799, in Nederland 1820), de standaardtijd (1884) en de euro (2002)."
+  ],
+  "glossary": [
+    {
+      "term": "Eenheid",
+      "definition": "Een afgesproken hoeveelheid waarmee je meet, zoals de meter, de kilogram, de liter, de minuut of de euro. Een meting is altijd een getal maal een eenheid: 3 m betekent 3 keer een meter."
+    },
+    {
+      "term": "Zestigtallig",
+      "definition": "Met 60 als stapgrootte: 60 seconden vormen een minuut, 60 minuten een uur. Dit gebruik gaat terug op het getalsysteem van Mesopotamië."
+    },
+    {
+      "term": "Tijdstip en tijdsduur",
+      "definition": "Een tijdstip is een moment op de klok (14:35). Een tijdsduur is hoeveel tijd er tussen twee momenten verstrijkt (bijvoorbeeld 85 minuten)."
+    },
+    {
+      "term": "24-uursnotatie",
+      "definition": "Schrijfwijze waarin de uren van de dag doorlopen van 00 tot en met 23, zodat 'kwart over vier 's middags' 16:15 is. Dienstregelingen gebruiken deze notatie."
+    },
+    {
+      "term": "Metriek stelsel",
+      "definition": "Het maatstelsel dat in Frankrijk na de Revolutie werd ontworpen, met de meter, de kilogram en de liter als basis en stappen van 10, 100 en 1000 tussen de eenheden."
+    },
+    {
+      "term": "Voorvoegsel",
+      "definition": "Het eerste deel van een eenheidsnaam dat een factor aangeeft: kilo = 1000, hecto = 100, deca = 10, deci = 1/10, centi = 1/100, milli = 1/1000."
+    },
+    {
+      "term": "Kubieke decimeter (dm³)",
+      "definition": "De inhoud van een kubus van 1 dm bij 1 dm bij 1 dm (10 cm bij 10 cm bij 10 cm). Precies gelijk aan 1 liter."
+    },
+    {
+      "term": "Omrekenfactor",
+      "definition": "Het getal waarmee je vermenigvuldigt of deelt om van de ene eenheid naar de andere te gaan, zoals 1000 van kilogram naar gram of 2,20371 van euro naar gulden."
+    },
+    {
+      "term": "Wisselgeld",
+      "definition": "Het bedrag dat je terugkrijgt als je met meer geld betaalt dan de prijs: betaald bedrag min prijs."
+    },
+    {
+      "term": "Prijs per eenheid",
+      "definition": "Wat één stuk, één kilogram of één liter kost. Je vindt hem door de totaalprijs te delen door het aantal eenheden; zo kun je verpakkingen eerlijk vergelijken."
+    },
+    {
+      "term": "Standaardtijd",
+      "definition": "Een afgesproken kloktijd die voor een heel land of een hele zone geldt, in plaats van de plaatselijke zonnetijd die per stad verschilt."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Tijdseenheden",
+      "latex": "1\\ \\text{uur} = 60\\ \\text{min} = 3600\\ \\text{s}",
+      "usage": "Van uren naar minuten vermenigvuldig je met 60; van minuten naar uren deel je door 60.",
+      "origin": "De verdeling in zestigen gaat terug op het zestigtallige rekenen van Mesopotamië, via de Griekse en Arabische sterrenkunde."
+    },
+    {
+      "name": "Metriek trapje",
+      "latex": "1\\ \\text{km} = 1000\\ \\text{m},\\quad 1\\ \\text{m} = 10\\ \\text{dm} = 100\\ \\text{cm} = 1000\\ \\text{mm}",
+      "usage": "Elke trede omlaag op het trapje: × 10. Elke trede omhoog: : 10.",
+      "origin": "Frankrijk, jaren 1790; in Nederland ingevoerd per 1 januari 1820."
+    },
+    {
+      "name": "Gewicht",
+      "latex": "1\\ \\text{kg} = 1000\\ \\text{g},\\quad 1\\ \\text{g} = 1000\\ \\text{mg}",
+      "usage": "Van kilogram naar gram: × 1000.",
+      "origin": "De gram werd in 1795 gedefinieerd als de massa van 1 cm³ water bij de temperatuur van smeltend ijs."
+    },
+    {
+      "name": "Inhoud",
+      "latex": "1\\ \\text{l} = 1\\ \\text{dm}^3 = 10\\ \\text{dl} = 100\\ \\text{cl} = 1000\\ \\text{ml} = 1000\\ \\text{cm}^3",
+      "usage": "Een liter is precies de inhoud van een kubus van 10 cm bij 10 cm bij 10 cm; 1 ml = 1 cm³.",
+      "origin": "De liter werd in 1795 ingevoerd als kubieke decimeter."
+    },
+    {
+      "name": "Prijs per eenheid",
+      "latex": "\\text{prijs per eenheid} = \\dfrac{\\text{totaalprijs}}{\\text{aantal eenheden}}",
+      "usage": "Om verpakkingen te vergelijken of de prijs van een andere hoeveelheid te berekenen.",
+      "origin": "Al zo oud als de handel zelf."
+    },
+    {
+      "name": "Gulden en euro",
+      "latex": "1\\ \\text{euro} = 2{,}20371\\ \\text{gulden}",
+      "usage": "Van gulden naar euro deel je door 2,20371; van euro naar gulden vermenigvuldig je ermee.",
+      "origin": "Onherroepelijk vastgelegd op 31 december 1998 (Verordening (EG) nr. 2866/98)."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Veertig ellen laken",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "tijd",
+      "title": "Tijd: rekenen in zestigen",
+      "file": "02-theorie-a.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "metrieke-maten",
+      "title": "Lengte, gewicht en inhoud: het metrieke trapje",
+      "file": "03-theorie-b.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "geld",
+      "title": "Rekenen met geld",
+      "file": "03b-theorie-c.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Van el en roede naar meter en standaardtijd",
+      "file": "04-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Treinen, recepten, markten en oude maten",
+      "file": "05-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "06-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "egyptische-el",
+    "mesopotamische-getallen",
+    "romeinse-cijfers",
+    "stevin-de-thiende",
+    "metriek-stelsel",
+    "greenwich-tijd",
+    "euro"
+  ],
+  "mathematicians": [
+    "hipparchus",
+    "simon-stevin"
+  ]
+}

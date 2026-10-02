@@ -1,0 +1,187 @@
+{
+  "title": "Rekenen & Wiskunde door de Eeuwen",
+  "subtitle": "Van kerfstok tot Bayes: rekenen en wiskunde opnieuw opgebouwd, met de geschiedenis als leidraad.",
+  "parts": [
+    {
+      "number": 1,
+      "roman": "I",
+      "title": "Fundamenten",
+      "level": "fundamenten",
+      "modules": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "number": 2,
+      "roman": "II",
+      "title": "Basisschool bovenbouw",
+      "level": "basisschool",
+      "modules": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "number": 3,
+      "roman": "III",
+      "title": "VMBO / basis middelbaar",
+      "level": "vmbo",
+      "modules": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "number": 4,
+      "roman": "IV",
+      "title": "HAVO",
+      "level": "havo",
+      "modules": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "number": 5,
+      "roman": "V",
+      "title": "VWO",
+      "level": "vwo",
+      "modules": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "number": 6,
+      "roman": "VI",
+      "title": "Toegepaste wiskunde (MBO/HBO)",
+      "level": "hbo",
+      "modules": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "number": 7,
+      "roman": "VII",
+      "title": "Statistische wiskunde (HBO/WO)",
+      "level": "wo",
+      "modules": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ]
+    }
+  ],
+  "topics": {
+    "counting": "Tellen",
+    "number-sense": "Getalbegrip",
+    "number-line": "Getallenlijn",
+    "comparing": "Vergelijken",
+    "even-odd": "Even en oneven",
+    "patterns": "Patronen",
+    "number-systems": "Getalsystemen",
+    "place-value": "Plaatswaarde",
+    "zero": "Het getal nul",
+    "addition": "Optellen",
+    "subtraction": "Aftrekken",
+    "mental-math": "Hoofdrekenen",
+    "column-arithmetic": "Kolomsgewijs rekenen",
+    "estimation": "Schatten",
+    "checking": "Controleren",
+    "multiplication": "Vermenigvuldigen",
+    "tables": "Tafels",
+    "distributive": "Distributieve eigenschap",
+    "division": "Delen",
+    "remainders": "Rest",
+    "divisibility": "Deelbaarheid",
+    "primes": "Priemgetallen",
+    "time": "Tijd",
+    "length": "Lengte",
+    "weight": "Gewicht",
+    "volume": "Inhoud",
+    "money": "Geld",
+    "unit-conversion": "Omrekenen",
+    "fractions": "Breuken",
+    "decimals": "Decimale getallen",
+    "percentages": "Procenten",
+    "ratios": "Verhoudingen",
+    "proportions": "Evenredigheid",
+    "speed": "Snelheid",
+    "geometry": "Meetkunde",
+    "angles": "Hoeken",
+    "area": "Oppervlakte",
+    "perimeter": "Omtrek",
+    "circles": "Cirkels",
+    "data": "Tabellen en grafieken",
+    "averages": "Gemiddelde, mediaan en modus",
+    "negative-numbers": "Negatieve getallen",
+    "powers": "Machten",
+    "roots": "Wortels",
+    "algebra": "Algebra",
+    "expressions": "Expressies",
+    "equations": "Vergelijkingen",
+    "coordinates": "Coördinaten",
+    "graphs": "Grafieken",
+    "pythagoras": "Pythagoras",
+    "linear-functions": "Lineaire functies",
+    "systems": "Stelsels",
+    "quadratic-functions": "Kwadratische functies",
+    "trigonometry": "Goniometrie",
+    "probability": "Kansrekening",
+    "combinatorics": "Combinatoriek",
+    "descriptive-statistics": "Beschrijvende statistiek",
+    "dispersion": "Spreiding",
+    "exponential": "Exponentiële groei",
+    "logarithms": "Logaritmen",
+    "trig-functions": "Goniometrische functies",
+    "sequences": "Rijen en reeksen",
+    "derivatives": "Differentiaalrekening",
+    "integrals": "Integraalrekening",
+    "vectors": "Vectoren",
+    "matrices": "Matrices",
+    "finance": "Financiële wiskunde",
+    "modelling": "Modelleren",
+    "data-analysis": "Data-analyse",
+    "correlation": "Correlatie",
+    "random-variables": "Kansvariabelen",
+    "distributions": "Kansverdelingen",
+    "sampling": "Steekproeven",
+    "hypothesis-testing": "Hypothesetoetsing",
+    "regression": "Regressie",
+    "bayes": "Bayesiaanse statistiek",
+    "research": "Statistisch onderzoek"
+  },
+  "assessment": {
+    "completed_score": 70,
+    "mastered_score": 85
+  }
+}

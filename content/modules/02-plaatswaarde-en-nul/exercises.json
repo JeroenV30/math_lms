@@ -1,0 +1,1063 @@
+{
+  "exercises": [
+    {
+      "id": "02-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat is de waarde van het cijfer 7 in het getal 4.732?",
+      "answer": 700,
+      "hints": [
+        "Op welke positie staat de 7? Tel van rechts: eenheden, tientallen, honderdtallen.",
+        "De waarde is het cijfer maal de plaatswaarde van zijn positie."
+      ],
+      "solution": [
+        "De posities van rechts naar links: 2 (eenheden), 3 (tientallen), 7 (honderdtallen), 4 (duizendtallen).",
+        "De 7 staat op de honderdtallenpositie; de plaatswaarde is 100.",
+        "Waarde: $7 \\times 100 = 700$."
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je geeft het cijfer zelf. De vraag is wat de 7 *waard* is op zijn positie: zeven honderdtallen."
+        },
+        {
+          "answer": 70,
+          "message": "Dan zou de 7 op de tientallenpositie staan. Tel de posities nog eens van rechts: 2, 3, 7."
+        }
+      ],
+      "topics": [
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-002",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Schrijf als getal: 3 duizendtallen + 5 tientallen + 2 eenheden.",
+      "answer": 3052,
+      "hints": [
+        "Zet vier posities klaar: D, H, T, E.",
+        "Er worden geen honderdtallen genoemd. Wat zet je dan op de H-positie?"
+      ],
+      "solution": [
+        "D = 3, H = 0 (niet genoemd), T = 5, E = 2.",
+        "Het getal is 3.052.",
+        "Controle: $3000 + 0 + 50 + 2 = 3052$."
+      ],
+      "feedback": [
+        {
+          "answer": 352,
+          "message": "Je bent de lege honderdtallenpositie vergeten. Zonder 0 schuift de 3 naar de honderdtallen en is hij nog maar 300 waard."
+        },
+        {
+          "answer": 3520,
+          "message": "Je hebt de 0 achteraan gezet. Er zijn geen honderdtallen; de 0 hoort dus op de honderdtallenpositie, tussen de 3 en de 5."
+        }
+      ],
+      "topics": [
+        "place-value",
+        "zero"
+      ]
+    },
+    {
+      "id": "02-003",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Schrijf als getal: 6 duizendtallen + 4 honderdtallen + 9 eenheden.",
+      "answer": 6409,
+      "hints": [
+        "Welke positie wordt niet genoemd?",
+        "Een lege positie vul je met een 0."
+      ],
+      "solution": [
+        "D = 6, H = 4, T = 0 (niet genoemd), E = 9.",
+        "Het getal is 6.409.",
+        "Controle: $6000 + 400 + 0 + 9 = 6409$."
+      ],
+      "feedback": [
+        {
+          "answer": 649,
+          "message": "De tientallenpositie is leeg en moet een 0 krijgen. Nu staat de 6 op de honderdtallenpositie in plaats van de duizendtallenpositie."
+        },
+        {
+          "answer": 6490,
+          "message": "De 9 staat nu op de tientallenpositie. Er zijn 9 *eenheden*, dus de 9 hoort helemaal rechts."
+        }
+      ],
+      "topics": [
+        "place-value",
+        "zero"
+      ]
+    },
+    {
+      "id": "02-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Hoeveel tientallen zitten er in totaal in 4.500?",
+      "answer": 450,
+      "hints": [
+        "Een duizendtal bestaat uit 100 tientallen, een honderdtal uit 10 tientallen.",
+        "Snelle route: laat het eenhedencijfer weg."
+      ],
+      "solution": [
+        "$4500 = 4000 + 500$.",
+        "4 duizendtallen $= 4 \\times 100 = 400$ tientallen; 5 honderdtallen $= 5 \\times 10 = 50$ tientallen.",
+        "Samen: $400 + 50 = 450$ tientallen.",
+        "Controle: $450 \\times 10 = 4500$."
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "0 is het *tientallencijfer*. De vraag is hoeveel tientallen er in totaal in 4.500 passen, dus ook de tientallen die in de duizendtallen en honderdtallen 'verstopt' zitten."
+        },
+        {
+          "answer": 45,
+          "message": "45 is het aantal honderdtallen. Elk honderdtal bevat nog eens 10 tientallen."
+        }
+      ],
+      "topics": [
+        "place-value",
+        "number-sense"
+      ]
+    },
+    {
+      "id": "02-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een bank wil € 4.500 uitbetalen in biljetten van € 100. Hoeveel biljetten zijn dat?",
+      "answer": 45,
+      "unit": "biljetten",
+      "hints": [
+        "Je zoekt het aantal honderdtallen in 4.500.",
+        "Hoeveel honderdtallen zitten er in één duizendtal?"
+      ],
+      "solution": [
+        "Elk duizendtal is 10 honderdtallen: 4 duizendtallen zijn $4 \\times 10 = 40$ honderdtallen.",
+        "Daar komen de 5 honderdtallen bij: $40 + 5 = 45$.",
+        "Controle: $45 \\times 100 = 4500$. Dus 45 biljetten."
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "5 is het honderdtallencijfer. Maar ook de 4 duizendtallen moeten in biljetten van € 100 worden uitbetaald: elk duizendtal is 10 biljetten."
+        },
+        {
+          "answer": 450,
+          "message": "Dat is het aantal tientallen, dus het aantal biljetten van € 10."
+        }
+      ],
+      "topics": [
+        "place-value",
+        "money"
+      ]
+    },
+    {
+      "id": "02-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Welk getal is 2 duizendtallen + 13 honderdtallen + 4 tientallen + 15 eenheden?",
+      "answer": 3355,
+      "hints": [
+        "Reken elk deel om naar zijn waarde: 13 honderdtallen zijn 1300.",
+        "Tel daarna de waarden op, of wissel per positie in van rechts naar links."
+      ],
+      "solution": [
+        "Waarden: $2000 + 1300 + 40 + 15$.",
+        "$2000 + 1300 = 3300$; $3300 + 40 = 3340$; $3340 + 15 = 3355$.",
+        "Via inwisselen: 15 eenheden = 1 tiental + 5 eenheden; 13 honderdtallen = 1 duizendtal + 3 honderdtallen. Dan D = 3, H = 3, T = 4 + 1 = 5, E = 5.",
+        "Het getal is 3.355."
+      ],
+      "feedback": [
+        {
+          "answer": 213415,
+          "message": "Je hebt de aantallen achter elkaar gezet. Op elke positie mag maar één cijfer (0–9) staan; 13 honderdtallen en 15 eenheden moet je eerst inwisselen."
+        },
+        {
+          "answer": 2355,
+          "message": "Je bent het duizendtal vergeten dat uit de 13 honderdtallen ontstaat: 13 honderdtallen = 1 duizendtal + 3 honderdtallen."
+        }
+      ],
+      "topics": [
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-007",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "In een magazijn liggen 7 pallets met elk 1.000 schroeven, 3 dozen met elk 100 schroeven, 8 zakjes met elk 10 schroeven en nog 6 losse schroeven. Hoeveel schroeven zijn er in totaal?",
+      "answer": 7386,
+      "unit": "schroeven",
+      "hints": [
+        "Elke verpakking hoort bij een positie: pallet = duizendtal, doos = honderdtal, zakje = tiental.",
+        "Zet de aantallen op de juiste posities."
+      ],
+      "solution": [
+        "Pallets: $7 \\times 1000 = 7000$. Dozen: $3 \\times 100 = 300$. Zakjes: $8 \\times 10 = 80$. Los: 6.",
+        "Samen: $7000 + 300 + 80 + 6 = 7386$.",
+        "Er zijn 7.386 schroeven."
+      ],
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Je hebt het aantal verpakkingen opgeteld ($7 + 3 + 8 + 6$). Elke verpakking bevat een ander aantal schroeven."
+        }
+      ],
+      "topics": [
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-008",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In het getal 5.250 komt het cijfer 5 twee keer voor. Hoeveel groter is de waarde van de linker 5 dan de waarde van de rechter 5?",
+      "answer": 4950,
+      "hints": [
+        "Bepaal voor elke 5 de positie: de linker staat op de duizendtallen, de rechter op de tientallen.",
+        "Bereken beide waarden en trek ze van elkaar af."
+      ],
+      "solution": [
+        "Linker 5: duizendtallenpositie, waarde $5 \\times 1000 = 5000$.",
+        "Rechter 5: tientallenpositie, waarde $5 \\times 10 = 50$.",
+        "Verschil: $5000 - 50 = 4950$.",
+        "(De linker 5 is dus 100 keer zoveel waard als de rechter 5: twee posities verschil.)"
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "Het *cijfer* is wel gelijk, maar de *waarde* hangt af van de positie. De linker 5 is 5000 waard, de rechter 5 maar 50."
+        },
+        {
+          "answer": 100,
+          "message": "De linker 5 is inderdaad 100 keer zoveel waard. Maar de vraag is hoeveel groter: bereken het verschil $5000 - 50$."
+        }
+      ],
+      "topics": [
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-009",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Met de cijfers 3, 0, 8 en 5 (elk precies één keer) maak je getallen van vier cijfers. Wat is het kleinste getal van vier cijfers dat je zo kunt maken?",
+      "answer": 3058,
+      "hints": [
+        "Het kleinste getal krijg je door het kleinste cijfer zo ver mogelijk links te zetten.",
+        "Maar mag een getal van vier cijfers met 0 beginnen?"
+      ],
+      "solution": [
+        "Begin je met 0, dan is 0358 eigenlijk het getal 358: dat heeft maar drie cijfers.",
+        "Het eerste cijfer moet dus het kleinste cijfer zijn dat geen 0 is: 3.",
+        "Daarna de overige cijfers van klein naar groot: 0, 5, 8.",
+        "Het kleinste getal is 3.058."
+      ],
+      "feedback": [
+        {
+          "answer": 358,
+          "message": "0358 is het getal 358, en dat heeft maar drie cijfers. Een nul vooraan telt niet als positie."
+        },
+        {
+          "answer": 8530,
+          "message": "Dat is het grootste getal. De vraag is naar het kleinste."
+        }
+      ],
+      "topics": [
+        "place-value",
+        "zero",
+        "comparing"
+      ]
+    },
+    {
+      "id": "02-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $7 - 7$.",
+      "answer": 0,
+      "hints": [
+        "Je haalt alles weg wat er was.",
+        "Brahmagupta: een getal min zichzelf geeft nul."
+      ],
+      "solution": [
+        "Je begint met 7 en haalt 7 weg.",
+        "Er blijft niets over: $7 - 7 = 0$.",
+        "Algemeen: $a - a = 0$."
+      ],
+      "topics": [
+        "zero",
+        "subtraction"
+      ]
+    },
+    {
+      "id": "02-011",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $0 \\times 12$.",
+      "answer": 0,
+      "hints": [
+        "$0 \\times 12$ betekent: nul groepjes van twaalf.",
+        "Hoeveel heb je als je geen enkel groepje hebt?"
+      ],
+      "solution": [
+        "$0 \\times 12$ betekent nul groepjes van 12.",
+        "Zonder groepjes heb je niets: $0 \\times 12 = 0$.",
+        "Algemeen: $a \\times 0 = 0 \\times a = 0$."
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je behandelt vermenigvuldigen met 0 als vermenigvuldigen met 1. Maar nul groepjes van twaalf is niets."
+        }
+      ],
+      "topics": [
+        "zero",
+        "multiplication"
+      ]
+    },
+    {
+      "id": "02-012",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een erfenis van € 0 wordt eerlijk verdeeld over 8 erfgenamen. Hoeveel euro krijgt elke erfgenaam? Bereken dus $0 \\div 8$.",
+      "answer": 0,
+      "unit": "€",
+      "hints": [
+        "Als er niets te verdelen is, wat krijgt ieder dan?",
+        "Controleer met vermenigvuldigen: welk getal maal 8 geeft 0?"
+      ],
+      "solution": [
+        "Er valt niets te verdelen, dus ieder krijgt € 0.",
+        "Controle: $0 \\times 8 = 0$. Klopt.",
+        "Algemeen: $0 \\div a = 0$ als $a \\neq 0$. (Let op: andersom, $8 \\div 0$, heeft géén uitkomst.)"
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Je hebt het aantal erfgenamen gegeven. Er wordt € 0 verdeeld; ieder krijgt dus niets."
+        }
+      ],
+      "topics": [
+        "zero",
+        "division"
+      ]
+    },
+    {
+      "id": "02-013",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Schrijf het getal **zevenduizend vijf** in cijfers.",
+      "answer": 7005,
+      "hints": [
+        "Welke posities worden genoemd? Welke niet?",
+        "Lege posities vul je met een 0."
+      ],
+      "solution": [
+        "\"Zevenduizend\": D = 7. \"Vijf\": E = 5.",
+        "Honderdtallen en tientallen worden niet genoemd: H = 0, T = 0.",
+        "Het getal is 7.005. Controle: $7000 + 5 = 7005$."
+      ],
+      "feedback": [
+        {
+          "answer": 75,
+          "message": "Je bent beide lege posities vergeten. Zonder nullen is de 7 nog maar zeven tientallen."
+        },
+        {
+          "answer": 705,
+          "message": "Je hebt één nul te weinig. Zevenduizend heeft vier posities nodig: 7 _ _ _."
+        },
+        {
+          "answer": 7500,
+          "message": "Dat is zevenduizend vijfhonderd. De 5 zijn eenheden en hoort dus helemaal rechts."
+        }
+      ],
+      "topics": [
+        "zero",
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-014",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Op een pakbon staat in woorden: *drieduizend negentig artikelen*. Schrijf dit aantal in cijfers.",
+      "answer": 3090,
+      "unit": "artikelen",
+      "hints": [
+        "\"Negentig\" is 9 tientallen.",
+        "Hoeveel honderdtallen worden er genoemd?"
+      ],
+      "solution": [
+        "\"Drieduizend\": D = 3. \"Negentig\": T = 9.",
+        "Geen honderdtallen en geen eenheden: H = 0, E = 0.",
+        "In cijfers: 3.090."
+      ],
+      "feedback": [
+        {
+          "answer": 390,
+          "message": "De lege honderdtallenpositie ontbreekt. Nu staat de 3 op de honderdtallen in plaats van de duizendtallen."
+        },
+        {
+          "answer": 3900,
+          "message": "Dat is drieduizend negenhonderd. Negentig is 9 *tientallen*."
+        }
+      ],
+      "topics": [
+        "zero",
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-015",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $(48 - 48) \\times 365 + 17$.",
+      "answer": 17,
+      "hints": [
+        "Begin met wat tussen de haakjes staat.",
+        "Wat is elk getal maal 0?"
+      ],
+      "solution": [
+        "Haakjes eerst: $48 - 48 = 0$.",
+        "Dan $0 \\times 365 = 0$.",
+        "Tot slot $0 + 17 = 17$."
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "Het product $0 \\times 365$ is inderdaad 0, maar daarna moet je er nog 17 bij optellen."
+        }
+      ],
+      "topics": [
+        "zero"
+      ]
+    },
+    {
+      "id": "02-016",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $305 \\times 100$.",
+      "answer": 30500,
+      "hints": [
+        "Vermenigvuldigen met 100 schuift elk cijfer twee posities naar links.",
+        "De 0 die al in 305 staat, schuift gewoon mee."
+      ],
+      "solution": [
+        "De 3 gaat van honderdtallen naar tienduizendtallen, de 0 van tientallen naar duizendtallen, de 5 van eenheden naar honderdtallen.",
+        "De twee lege posities rechts worden 0.",
+        "$305 \\times 100 = 30.500$."
+      ],
+      "feedback": [
+        {
+          "answer": 3500,
+          "message": "Je bent de 0 in het midden van 305 kwijtgeraakt. Die schuift mee: 305 wordt 30.500."
+        },
+        {
+          "answer": 3050,
+          "message": "Dat is $305 \\times 10$. Bij $\\times 100$ schuift alles twee posities op."
+        }
+      ],
+      "topics": [
+        "zero",
+        "place-value",
+        "multiplication"
+      ]
+    },
+    {
+      "id": "02-017",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Zet het Romeinse getal **MDCCLXVI** om naar ons stelsel.",
+      "answer": 1766,
+      "hints": [
+        "M = 1000, D = 500, C = 100, L = 50, X = 10, V = 5, I = 1.",
+        "Hier staat nergens een kleiner teken vóór een groter; je mag dus gewoon optellen."
+      ],
+      "solution": [
+        "M + D + C + C + L + X + V + I",
+        "$= 1000 + 500 + 100 + 100 + 50 + 10 + 5 + 1$",
+        "$= 1766$."
+      ],
+      "topics": [
+        "number-systems"
+      ]
+    },
+    {
+      "id": "02-018",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet het Romeinse getal **XLIX** om naar ons stelsel.",
+      "answer": 49,
+      "hints": [
+        "Zoek de paren waarin een kleiner teken vóór een groter staat.",
+        "XL = 40 en IX = 9."
+      ],
+      "solution": [
+        "Knip in stukken: XL · IX.",
+        "XL $= 50 - 10 = 40$; IX $= 10 - 1 = 9$.",
+        "$40 + 9 = 49$."
+      ],
+      "feedback": [
+        {
+          "answer": 71,
+          "message": "Je hebt alle letters opgeteld ($10 + 50 + 1 + 10$). Een X vóór een L en een I vóór een X worden afgetrokken."
+        },
+        {
+          "answer": 51,
+          "message": "XL is 40, niet 60 of 50 + 1. Een kleiner teken vóór een groter wordt afgetrokken."
+        }
+      ],
+      "topics": [
+        "number-systems"
+      ]
+    },
+    {
+      "id": "02-019",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet het Romeinse getal **MCMXCIV** om naar ons stelsel.",
+      "answer": 1994,
+      "hints": [
+        "Knip in stukken: M · CM · XC · IV.",
+        "CM = 900, XC = 90, IV = 4."
+      ],
+      "solution": [
+        "M = 1000.",
+        "CM $= 1000 - 100 = 900$; XC $= 100 - 10 = 90$; IV $= 5 - 1 = 4$.",
+        "$1000 + 900 + 90 + 4 = 1994$."
+      ],
+      "feedback": [
+        {
+          "answer": 2216,
+          "message": "Je hebt alle letters opgeteld. In CM, XC en IV staat een kleiner teken vóór een groter; dat kleinere teken moet je aftrekken."
+        }
+      ],
+      "topics": [
+        "number-systems"
+      ]
+    },
+    {
+      "id": "02-020",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "In Egyptische hiërogliefen schrijf je een getal door het teken voor 1.000 (lelie), 100 (touwrol), 10 (hielbeugel) en 1 (streepje) zo vaak te herhalen als nodig. Hoeveel tekens heb je in totaal nodig voor het getal 4.622?",
+      "answer": 14,
+      "unit": "tekens",
+      "hints": [
+        "Splits uit: 4 duizendtallen, 6 honderdtallen, 2 tientallen, 2 eenheden.",
+        "Elk duizendtal is één lelie, elk honderdtal één touwrol, enzovoort."
+      ],
+      "solution": [
+        "4 lelies (4 × 1000), 6 touwrollen (6 × 100), 2 hielbeugels (2 × 10), 2 streepjes (2 × 1).",
+        "Totaal: $4 + 6 + 2 + 2 = 14$ tekens.",
+        "(Ons stelsel heeft er 4 nodig.)"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Dat is het aantal cijfers in ons stelsel. In het Egyptisch herhaal je elk teken: 6 honderdtallen zijn 6 touwrollen."
+        }
+      ],
+      "topics": [
+        "number-systems",
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-021",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een Babylonisch getal heeft twee posities: $1 \\mid 15$. Wat is dit getal in ons stelsel?",
+      "answer": 75,
+      "hints": [
+        "De linker positie telt zestigtallen, de rechter eenheden.",
+        "$1 \\mid 15 = 1 \\cdot 60 + 15$."
+      ],
+      "solution": [
+        "Linker positie: $1 \\times 60 = 60$.",
+        "Rechter positie: $15 \\times 1 = 15$.",
+        "Samen: $60 + 15 = 75$."
+      ],
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Je hebt de cijfers gewoon opgeteld. De linker 1 staat op de zestigtallenpositie en is dus 60 waard."
+        },
+        {
+          "answer": 115,
+          "message": "Je leest het als een tientallig getal. In het Babylonische stelsel is de linker positie 60 waard, niet 100."
+        },
+        {
+          "answer": 25,
+          "message": "Je hebt de linker positie als een tiental gelezen. In het zestigtallig stelsel is die positie 60 waard."
+        }
+      ],
+      "topics": [
+        "number-systems",
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-022",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Op een laat-Babylonisch tablet staat een getal met drie posities: links 2, in het midden het plaatshouder-teken, rechts 30. Dus $2 \\mid 0 \\mid 30$. Wat is dit getal in ons stelsel?",
+      "answer": 7230,
+      "hints": [
+        "De plaatswaarden van rechts naar links zijn 1, 60 en $60 \\times 60 = 3600$.",
+        "De middelste positie is leeg en draagt dus 0 bij."
+      ],
+      "solution": [
+        "Linker positie: $2 \\times 3600 = 7200$.",
+        "Middelste positie: $0 \\times 60 = 0$.",
+        "Rechter positie: $30 \\times 1 = 30$.",
+        "Samen: $7200 + 0 + 30 = 7230$."
+      ],
+      "feedback": [
+        {
+          "answer": 150,
+          "message": "Je hebt de plaatshouder genegeerd en $2 \\mid 30 = 2 \\cdot 60 + 30$ berekend. Precies dat misverstand moest het plaatshouder-teken voorkomen: de 2 staat op de 3600-positie."
+        },
+        {
+          "answer": 230,
+          "message": "Je leest het als een tientallig getal. De posities zijn hier 3600, 60 en 1 waard."
+        }
+      ],
+      "topics": [
+        "number-systems",
+        "zero",
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-023",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een astronoom meet een duur van 2 uur, 5 minuten en 30 seconden. In zestigtallige notatie is dat $2 \\mid 5 \\mid 30$ seconden. Hoeveel seconden is dat in totaal?",
+      "answer": 7530,
+      "unit": "s",
+      "hints": [
+        "1 uur = 60 minuten = 3600 seconden.",
+        "Reken uren en minuten apart om naar seconden en tel op."
+      ],
+      "solution": [
+        "2 uur $= 2 \\times 3600 = 7200$ seconden.",
+        "5 minuten $= 5 \\times 60 = 300$ seconden.",
+        "Samen met 30 seconden: $7200 + 300 + 30 = 7530$ seconden."
+      ],
+      "feedback": [
+        {
+          "answer": 37,
+          "message": "Je hebt de getallen gewoon opgeteld. Uren en minuten moeten eerst naar seconden worden omgerekend."
+        },
+        {
+          "answer": 2530,
+          "message": "Je hebt een uur als 1000 seconden gerekend, alsof het tientallig is. Een uur is $60 \\times 60 = 3600$ seconden."
+        },
+        {
+          "answer": 450,
+          "message": "Je hebt de uren als minuten gerekend ($2 \\times 60$). Een uur is 3600 seconden."
+        }
+      ],
+      "topics": [
+        "number-systems",
+        "time"
+      ]
+    },
+    {
+      "id": "02-024",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een van de verklaringen voor het Babylonische grondtal 60 is dat 60 zoveel delers heeft. Hoeveel delers heeft 60? (Tel 1 en 60 zelf ook mee.)",
+      "answer": 12,
+      "unit": "delers",
+      "hints": [
+        "Zoek delers in paren: $1 \\times 60$, $2 \\times 30$, ...",
+        "Ga door tot de paren zich gaan herhalen."
+      ],
+      "solution": [
+        "Paren: $1 \\times 60$, $2 \\times 30$, $3 \\times 20$, $4 \\times 15$, $5 \\times 12$, $6 \\times 10$.",
+        "Na 6 en 10 herhalen de paren zich (7, 8 en 9 zijn geen delers).",
+        "De delers zijn 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60: in totaal 12.",
+        "(Ter vergelijking: 10 heeft er maar 4: 1, 2, 5 en 10.)"
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Vergeet 1 en 60 zelf niet; die tellen ook als deler."
+        },
+        {
+          "answer": 6,
+          "message": "Je hebt waarschijnlijk alleen de paren geteld. Elk paar levert twee delers op."
+        }
+      ],
+      "topics": [
+        "number-systems",
+        "divisibility"
+      ]
+    },
+    {
+      "id": "02-025",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je wilt het getal 4.000 in het Babylonische stelsel schrijven als $a \\mid b \\mid c$ (posities van 3600, 60 en 1; elk 'cijfer' van 0 tot en met 59). Welk getal staat er op de middelste positie, dus wat is $b$?",
+      "answer": 6,
+      "hints": [
+        "Bepaal eerst hoe vaak 3600 in 4.000 past, en wat er overblijft.",
+        "Hoe vaak past 60 in die rest?"
+      ],
+      "solution": [
+        "3600 past 1 keer in 4.000: $a = 1$. Rest: $4000 - 3600 = 400$.",
+        "60 past 6 keer in 400 ($6 \\times 60 = 360$): $b = 6$. Rest: $400 - 360 = 40$, dus $c = 40$.",
+        "$4000 = 1 \\mid 6 \\mid 40$. Controle: $3600 + 360 + 40 = 4000$.",
+        "Het middelste cijfer is 6."
+      ],
+      "feedback": [
+        {
+          "answer": 66,
+          "message": "4.000 is inderdaad 66 zestigtallen en 40 eenheden. Maar 66 is groter dan 59 en past niet op één positie: 60 van die zestigtallen vormen samen 1 op de 3600-positie. Er blijven er 6 over."
+        },
+        {
+          "answer": 40,
+          "message": "40 is het cijfer op de rechter positie (de eenheden). Gevraagd is de middelste positie, de zestigtallen."
+        }
+      ],
+      "topics": [
+        "number-systems",
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-026",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Rond 4.732 af op honderdtallen.",
+      "answer": 4700,
+      "hints": [
+        "Kijk naar het cijfer direct rechts van de honderdtallen: het tientallencijfer.",
+        "Is dat 0–4, dan rond je naar beneden af."
+      ],
+      "solution": [
+        "Honderdtallencijfer: 7. Rechts daarvan: 3.",
+        "3 is kleiner dan 5, dus naar beneden: de 7 blijft 7.",
+        "Alles rechts wordt 0: 4.700."
+      ],
+      "feedback": [
+        {
+          "answer": 4800,
+          "message": "Het tientallencijfer is 3, dus je rondt naar beneden af. 4.732 ligt dichter bij 4.700 (32 verschil) dan bij 4.800 (68 verschil)."
+        },
+        {
+          "answer": 4730,
+          "message": "Dat is afgerond op tientallen. Op honderdtallen worden ook de tientallen 0."
+        }
+      ],
+      "topics": [
+        "estimation",
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-027",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Rond 4.750 af op honderdtallen.",
+      "answer": 4800,
+      "hints": [
+        "4.750 ligt precies midden tussen 4.700 en 4.800.",
+        "Wat is de afspraak voor het midden?"
+      ],
+      "solution": [
+        "Rechts van de honderdtallen staat een 5.",
+        "Bij 5 (en hoger) rond je naar boven af: de 7 wordt een 8.",
+        "Antwoord: 4.800."
+      ],
+      "feedback": [
+        {
+          "answer": 4700,
+          "message": "4.750 ligt precies in het midden. De afspraak is dat je het midden naar boven afrondt: bij een 5 ga je omhoog."
+        }
+      ],
+      "topics": [
+        "estimation"
+      ]
+    },
+    {
+      "id": "02-028",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Rond 3.996 af op tientallen.",
+      "answer": 4000,
+      "hints": [
+        "Het eenhedencijfer is 6: naar boven afronden.",
+        "Het tientallencijfer 9 wordt dan 10. Wat moet je dan doen?"
+      ],
+      "solution": [
+        "Rechts van de tientallen staat een 6: naar boven afronden.",
+        "Het tiental 9 wordt 10: inwisselen naar 1 honderdtal. Het honderdtal 9 wordt dan ook 10: inwisselen naar 1 duizendtal.",
+        "Resultaat: 4.000.",
+        "Controle op de getallenlijn: 3.996 ligt tussen 3.990 en 4.000, dichter bij 4.000."
+      ],
+      "feedback": [
+        {
+          "answer": 3990,
+          "message": "Je hebt naar beneden afgerond, maar het eenhedencijfer is 6. Dat betekent naar boven, naar 4.000."
+        },
+        {
+          "answer": 39100,
+          "message": "Je hebt '9 + 1 = 10' als twee cijfers op één positie gezet. 10 tientallen moet je inwisselen voor 1 honderdtal."
+        }
+      ],
+      "topics": [
+        "estimation",
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-029",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Op een veiling waren 2.487 bezoekers. Een journalist rondt het aantal af op honderdtallen. Welk getal schrijft hij op?",
+      "answer": 2500,
+      "unit": "bezoekers",
+      "hints": [
+        "Kijk naar het tientallencijfer.",
+        "Het tientallencijfer is 8: naar boven of naar beneden?"
+      ],
+      "solution": [
+        "Honderdtallencijfer: 4. Rechts daarvan: 8.",
+        "8 is 5 of meer: naar boven, de 4 wordt een 5.",
+        "Afgerond: 2.500."
+      ],
+      "feedback": [
+        {
+          "answer": 2400,
+          "message": "Je hebt naar beneden afgerond. Het tientallencijfer is 8, dus je rondt naar boven af."
+        },
+        {
+          "answer": 2490,
+          "message": "Dat is afgerond op tientallen. Gevraagd is honderdtallen."
+        }
+      ],
+      "topics": [
+        "estimation"
+      ]
+    },
+    {
+      "id": "02-030",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is het **grootste** gehele getal dat, afgerond op honderdtallen, 3.500 oplevert?",
+      "answer": 3549,
+      "hints": [
+        "Vanaf welk getal rond je af naar 3.600?",
+        "Het grootste getal ligt daar net onder."
+      ],
+      "solution": [
+        "Getallen vanaf 3.550 worden op honderdtallen 3.600 (het tientallencijfer is dan 5 of meer).",
+        "Getallen van 3.450 tot en met 3.549 worden 3.500.",
+        "Het grootste daarvan is 3.549."
+      ],
+      "feedback": [
+        {
+          "answer": 3550,
+          "message": "3.550 ligt precies in het midden en wordt naar boven afgerond: 3.600. Het grootste getal dat 3.500 oplevert ligt één lager."
+        },
+        {
+          "answer": 3599,
+          "message": "Het tientallencijfer van 3.599 is 9, dus dat wordt 3.600."
+        }
+      ],
+      "topics": [
+        "estimation",
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-031",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een graanhandelaar heeft 3.987 zakken in de ene schuur en 2.041 in de andere. Rond beide aantallen eerst af op duizendtallen en tel dan op. Wat is je schatting?",
+      "answer": 6000,
+      "unit": "zakken",
+      "hints": [
+        "Rond 3.987 en 2.041 elk af op duizendtallen.",
+        "Tel de afgeronde getallen op."
+      ],
+      "solution": [
+        "$3987 \\approx 4000$ (het honderdtallencijfer is 9).",
+        "$2041 \\approx 2000$ (het honderdtallencijfer is 0).",
+        "Schatting: $4000 + 2000 = 6000$.",
+        "(Exact: $3987 + 2041 = 6028$; de schatting is dus goed.)"
+      ],
+      "feedback": [
+        {
+          "answer": 6028,
+          "message": "Dat is de exacte som. Gevraagd is de schatting met afgeronde getallen."
+        },
+        {
+          "answer": 5000,
+          "message": "Je hebt 3.987 naar beneden afgerond tot 3.000. Het honderdtallencijfer is 9, dus 3.987 wordt 4.000."
+        }
+      ],
+      "topics": [
+        "estimation"
+      ]
+    },
+    {
+      "id": "02-032",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een Babylonische schrijver wil $1 \\mid 0 \\mid 1$ noteren, maar vergeet de lege middelste positie aan te geven. Een lezer ziet daardoor $1 \\mid 1$. Hoeveel is de waarde die de lezer leest kleiner dan de waarde die de schrijver bedoelde?",
+      "answer": 3540,
+      "hints": [
+        "Reken beide getallen om naar ons stelsel.",
+        "$1 \\mid 0 \\mid 1 = 1 \\cdot 3600 + 0 \\cdot 60 + 1$ en $1 \\mid 1 = 1 \\cdot 60 + 1$."
+      ],
+      "solution": [
+        "Bedoeld: $1 \\mid 0 \\mid 1 = 3600 + 0 + 1 = 3601$.",
+        "Gelezen: $1 \\mid 1 = 60 + 1 = 61$.",
+        "Verschil: $3601 - 61 = 3540$.",
+        "Een vergeten plaatshouder maakt het getal hier bijna zestig keer zo klein."
+      ],
+      "feedback": [
+        {
+          "answer": 90,
+          "message": "Je hebt beide getallen als tientallige getallen gelezen ($101 - 11$). In het Babylonische stelsel zijn de posities 3600, 60 en 1 waard."
+        }
+      ],
+      "topics": [
+        "number-systems",
+        "zero",
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-033",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Met de standaardregels (I, V, X, L, C, D, M en de subtractieve paren IV, IX, XL, XC, CD, CM) kun je de getallen 1 tot en met 3.999 in Romeinse cijfers schrijven. Welk getal in dat bereik heeft de **langste** Romeinse schrijfwijze?",
+      "answer": 3888,
+      "hints": [
+        "Een Romeins getal bestaat uit losse stukken voor duizendtallen, honderdtallen, tientallen en eenheden. Je kunt elke positie apart bekijken.",
+        "Welk cijfer van 0 tot en met 9 geeft per positie de meeste letters? Vergelijk bijvoorbeeld III, IV, VIII en IX."
+      ],
+      "solution": [
+        "Per positie werkt het Romeinse schrift zoals ons stelsel: duizendtallen, honderdtallen, tientallen en eenheden worden apart geschreven.",
+        "Eenheden: VIII (8) heeft 4 letters, meer dan elk ander cijfer (III en VII hebben er 3, IX 2). Net zo bij de tientallen (LXXX = 80) en honderdtallen (DCCC = 800).",
+        "Duizendtallen: maximaal MMM (3000), 3 letters.",
+        "Het langste getal is dus MMMDCCCLXXXVIII $= 3000 + 800 + 80 + 8 = 3888$, met $3 + 4 + 4 + 4 = 15$ letters."
+      ],
+      "feedback": [
+        {
+          "answer": 3999,
+          "message": "MMMCMXCIX is het grootste getal, maar niet het langste: het heeft maar 9 letters dankzij de subtractieve paren. Zoek per positie het cijfer met de meeste letters."
+        }
+      ],
+      "topics": [
+        "number-systems",
+        "place-value"
+      ]
+    },
+    {
+      "id": "02-034",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Je schrijft alle getallen van 1 tot en met 1.000 achter elkaar op, in ons gewone stelsel. Hoeveel cijfers (tekens 0–9) schrijf je in totaal?",
+      "answer": 2893,
+      "hints": [
+        "Verdeel de getallen in groepen naar aantal cijfers: 1 t/m 9, 10 t/m 99, 100 t/m 999, en 1.000.",
+        "Hoeveel getallen zitten er in elke groep? Van 10 t/m 99 zijn dat er $99 - 10 + 1 = 90$."
+      ],
+      "solution": [
+        "1 t/m 9: 9 getallen van 1 cijfer → 9 cijfers.",
+        "10 t/m 99: 90 getallen van 2 cijfers → $90 \\times 2 = 180$ cijfers.",
+        "100 t/m 999: 900 getallen van 3 cijfers → $900 \\times 3 = 2700$ cijfers.",
+        "1.000: 4 cijfers.",
+        "Totaal: $9 + 180 + 2700 + 4 = 2893$."
+      ],
+      "feedback": [
+        {
+          "answer": 2889,
+          "message": "Je bent het getal 1.000 zelf vergeten; dat heeft 4 cijfers."
+        },
+        {
+          "answer": 2892,
+          "message": "Let op het aantal getallen van 100 t/m 999: dat zijn er $999 - 100 + 1 = 900$. En vergeet de 4 cijfers van 1.000 niet."
+        }
+      ],
+      "topics": [
+        "place-value",
+        "patterns"
+      ]
+    },
+    {
+      "id": "02-035",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Je schrijft opnieuw alle getallen van 1 tot en met 1.000 op. Hoe vaak schrijf je daarbij het cijfer **0**?",
+      "answer": 192,
+      "hints": [
+        "Een getal begint nooit met 0. Nullen kunnen dus alleen op de tientallen- of eenhedenpositie staan (en in 1.000).",
+        "Tel per groep: 2-cijferige getallen, 3-cijferige getallen (nul op de tientallen, nul op de eenheden), en 1.000."
+      ],
+      "solution": [
+        "2 cijfers (10 t/m 99): een 0 alleen als eenhedencijfer: 10, 20, ..., 90 → 9 nullen.",
+        "3 cijfers (100 t/m 999), 0 op de eenhedenpositie: 9 keuzes voor de honderdtallen × 10 keuzes voor de tientallen = 90 nullen.",
+        "3 cijfers, 0 op de tientallenpositie: 9 × 10 (eenheden) = 90 nullen.",
+        "1.000: 3 nullen.",
+        "Totaal: $9 + 90 + 90 + 3 = 192$."
+      ],
+      "feedback": [
+        {
+          "answer": 189,
+          "message": "Je bent de drie nullen van 1.000 vergeten."
+        },
+        {
+          "answer": 180,
+          "message": "Je hebt de 3-cijferige getallen goed geteld, maar 10, 20, ..., 90 en 1.000 vergeten."
+        }
+      ],
+      "topics": [
+        "zero",
+        "place-value",
+        "patterns"
+      ]
+    }
+  ]
+}

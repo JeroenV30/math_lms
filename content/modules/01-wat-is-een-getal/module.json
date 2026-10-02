@@ -1,0 +1,105 @@
+{
+  "id": 1,
+  "slug": "wat-is-een-getal",
+  "title": "Wat is een getal?",
+  "part": 1,
+  "level": "fundamenten",
+  "status": "available",
+  "historical_period": "Prehistorie",
+  "estimated_difficulty": 1,
+  "estimated_minutes": 150,
+  "prerequisites": [],
+  "topics": [
+    "counting",
+    "number-sense",
+    "number-line",
+    "comparing",
+    "even-odd",
+    "patterns",
+    "number-systems"
+  ],
+  "core_question": "Wat betekent het eigenlijk dat acht appels en acht schapen allebei \"acht\" zijn?",
+  "summary": "Van kerfstok en kleifiche naar het abstracte getal: hoeveelheid, tellen, de getallenlijn, vergelijken, even en oneven, patronen en de eerste getalsymbolen van Egypte, Mesopotamië en Rome.",
+  "learning_goals": [
+    "Je kunt uitleggen wat het betekent dat twee verzamelingen even groot zijn, met behulp van één-op-één-correspondentie.",
+    "Je begrijpt dat een getal een abstractie is: wat alle verzamelingen van dezelfde grootte gemeen hebben, los van wat er geteld wordt.",
+    "Je kunt het verschil uitleggen tussen een getal als hoeveelheid (kardinaal) en een getal als plaats in een rij (ordinaal).",
+    "Je kunt turven lezen en schrijven, tellen in groepjes en correct tellen 'van … tot en met …'.",
+    "Je kunt getallen plaatsen op een getallenlijn en het getal halverwege en de afstand tussen twee getallen bepalen.",
+    "Je kunt getallen vergelijken en ordenen en daarbij de tekens < en > correct gebruiken.",
+    "Je kunt even en oneven getallen herkennen en het n-de even of oneven getal bepalen.",
+    "Je kunt eenvoudige getal- en figuurpatronen herkennen, beschrijven en voortzetten.",
+    "Je kunt getallen lezen die geschreven zijn met Egyptische hiërogliefen, Babylonisch spijkerschrift (tot 59) en Romeinse cijfers.",
+    "Je kunt in grote lijnen vertellen hoe getallen historisch zijn ontstaan: van kerven en telfiches naar abstracte getalsymbolen."
+  ],
+  "glossary": [
+    { "term": "Hoeveelheid", "definition": "Hoeveel dingen er zijn, los van wat die dingen zijn of in welke volgorde ze liggen." },
+    { "term": "Verzameling", "definition": "Een groep dingen die je als één geheel bekijkt, zoals 'de schapen in deze kudde' of 'de steentjes in deze zak'." },
+    { "term": "Eén-op-één-correspondentie", "definition": "Een koppeling waarbij elk ding uit de ene verzameling precies één partner krijgt in de andere, en omgekeerd. Lukt dat zonder rest, dan zijn de verzamelingen even groot." },
+    { "term": "Tellen", "definition": "Een één-op-één-koppeling maken tussen de dingen die je telt en de telwoorden één, twee, drie, …; het laatste telwoord geeft de hoeveelheid." },
+    { "term": "Kardinaal getal", "definition": "Een getal dat een hoeveelheid aangeeft (hoofdtelwoord): vijf schapen, 34 pagina's." },
+    { "term": "Ordinaal getal", "definition": "Een getal dat een plaats in een volgorde aangeeft (rangtelwoord): de vijfde, pagina 34, nummer 87." },
+    { "term": "Abstractie", "definition": "Het weglaten van bijzaken om het gemeenschappelijke te zien. Het getal acht is wat acht appels, acht schapen en acht kerven gemeen hebben." },
+    { "term": "Turven", "definition": "Tellen met streepjes in groepjes van vijf: vier rechte streepjes en een vijfde die er schuin doorheen gaat." },
+    { "term": "Kerfstok", "definition": "Een stok of been waarin kerven zijn gesneden om een aantal vast te leggen, bijvoorbeeld een schuld of een voorraad." },
+    { "term": "Telfiche (token)", "definition": "Een klein kleivoorwerp met een vaste vorm dat in het oude Nabije Oosten een bepaalde hoeveelheid van een product voorstelde, bijvoorbeeld één kruik olie." },
+    { "term": "Getalsymbool", "definition": "Een teken dat voor een getal staat, zoals 7, VII of een Egyptische lotusbloem voor 1.000." },
+    { "term": "Additief getalsysteem", "definition": "Een systeem waarin je de waarden van de tekens gewoon optelt, ongeacht hun plaats, zoals bij de Egyptische hiërogliefencijfers." },
+    { "term": "Getallenlijn", "definition": "Een rechte lijn waarop getallen op gelijke afstanden geordend zijn: hoe verder naar rechts, hoe groter." },
+    { "term": "Even getal", "definition": "Een geheel getal dat je precies in paren kunt verdelen, zonder rest: 0, 2, 4, 6, …" },
+    { "term": "Oneven getal", "definition": "Een geheel getal waarbij bij het verdelen in paren er één overblijft: 1, 3, 5, 7, …" },
+    { "term": "Patroon (rij)", "definition": "Een reeks getallen of figuren die volgens een vaste regel verder gaat. Elk getal in de rij heet een term." }
+  ],
+  "formulas": [
+    {
+      "name": "Aantal getallen van a tot en met b",
+      "latex": "\\text{aantal} = b - a + 1",
+      "usage": "Hoeveel hele getallen tel je als je van a tot en met b telt? Bijvoorbeeld de pagina's 34 tot en met 52: 52 − 34 + 1 = 19.",
+      "origin": "Volgt uit één-op-één-correspondentie met de telrij; de '+ 1' voorkomt de klassieke 'paaltjesfout'."
+    },
+    {
+      "name": "Afstand op de getallenlijn",
+      "latex": "\\text{afstand} = b - a \\quad (b \\geq a)",
+      "usage": "Het aantal stappen van a naar b, bijvoorbeeld van 17 naar 45: 45 − 17 = 28.",
+      "origin": "Tellen van stappen in plaats van tellen van getallen."
+    },
+    {
+      "name": "Getal halverwege",
+      "latex": "m = a + \\frac{b - a}{2} = \\frac{a + b}{2}",
+      "usage": "Het getal dat even ver van a als van b ligt, bijvoorbeeld halverwege 20 en 40: (20 + 40) : 2 = 30.",
+      "origin": "Halveer de afstand en zet die stap vanaf a."
+    },
+    {
+      "name": "Het n-de even getal",
+      "latex": "2n",
+      "usage": "Als 2 het eerste even getal is, dan is het 9e even getal 2 × 9 = 18.",
+      "origin": "Even getallen zijn precies de getallen die uit volledige paren bestaan: n paren is 2n."
+    },
+    {
+      "name": "Het n-de oneven getal",
+      "latex": "2n - 1",
+      "usage": "Het 15e oneven getal is 2 × 15 − 1 = 29.",
+      "origin": "Elk oneven getal ligt precies één onder het bijbehorende even getal."
+    }
+  ],
+  "lessons": [
+    { "slug": "introductie", "title": "De herder en de steentjes", "file": "01-introductie.md", "kind": "intro" },
+    { "slug": "hoeveelheid-en-tellen", "title": "Hoeveelheid en tellen", "file": "02-theorie-a.md", "kind": "theory" },
+    { "slug": "de-getallenlijn", "title": "De getallenlijn: ordenen en vergelijken", "file": "03-theorie-b.md", "kind": "theory" },
+    { "slug": "even-oneven-en-patronen", "title": "Even, oneven en patronen", "file": "03b-theorie-c.md", "kind": "theory" },
+    { "slug": "getalsymbolen", "title": "Getalsymbolen in oude culturen", "file": "03c-theorie-d.md", "kind": "theory" },
+    { "slug": "historisch-intermezzo", "title": "Van kerf tot cijfer", "file": "04-historisch-intermezzo.md", "kind": "history" },
+    { "slug": "praktijk-en-uitdaging", "title": "Tellen in de praktijk", "file": "05-praktijk-en-uitdaging.md", "kind": "practice" },
+    { "slug": "samenvatting", "title": "Samenvatting", "file": "06-samenvatting.md", "kind": "summary" }
+  ],
+  "timeline": [
+    "lebombo-been",
+    "kerfstokken",
+    "ishango-been",
+    "kleitokens",
+    "egyptische-cijfers",
+    "mesopotamische-getallen",
+    "romeinse-cijfers"
+  ],
+  "mathematicians": []
+}

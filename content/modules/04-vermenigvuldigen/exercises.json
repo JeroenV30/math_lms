@@ -1,0 +1,1034 @@
+{
+  "exercises": [
+    {
+      "id": "04-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een metselaar legt 6 rijen stenen. In elke rij liggen 8 stenen. Hoeveel stenen zijn dat samen?",
+      "answer": 48,
+      "hints": [
+        "Dit zijn 6 groepen van 8. Schrijf het als vermenigvuldiging.",
+        "Tel eventueel: $8, 16, 24, \\dots$ (zes stappen)."
+      ],
+      "solution": [
+        "Er zijn 6 groepen van 8 stenen: $6 \\times 8$.",
+        "$8 + 8 + 8 + 8 + 8 + 8 = 48$, dus $6 \\times 8 = 48$.",
+        "Antwoord: 48 stenen."
+      ],
+      "feedback": [
+        {
+          "answer": 14,
+          "message": "Je hebt 6 en 8 opgeteld. Er zijn 6 rijen van elk 8 stenen; dat is zes keer 8, dus vermenigvuldigen."
+        }
+      ],
+      "unit": "stenen",
+      "topics": [
+        "multiplication",
+        "tables"
+      ]
+    },
+    {
+      "id": "04-002",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $8 \\times 7$ door te verdubbelen.",
+      "answer": 56,
+      "hints": [
+        "$8 \\times 7$ is 7 drie keer verdubbeld: $2 \\times 7$, dan $4 \\times 7$, dan $8 \\times 7$.",
+        "$7 \\to 14 \\to 28 \\to \\dots$"
+      ],
+      "solution": [
+        "$2 \\times 7 = 14$",
+        "$4 \\times 7 = 28$",
+        "$8 \\times 7 = 2 \\times 28 = 56$"
+      ],
+      "feedback": [
+        {
+          "answer": 54,
+          "message": "54 is $6 \\times 9$. Die twee worden vaak verwisseld. Verdubbel 7 drie keer: 14, 28, 56."
+        },
+        {
+          "answer": 28,
+          "message": "Je bent één verdubbeling te vroeg gestopt: 28 is $4 \\times 7$. Verdubbel nog één keer."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "tables",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "04-003",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $9 \\times 7$ met de strategie *tien keer min één keer*.",
+      "answer": 63,
+      "hints": [
+        "Bereken eerst $10 \\times 7$.",
+        "Negen groepen is tien groepen min één groep van 7."
+      ],
+      "solution": [
+        "$10 \\times 7 = 70$",
+        "$9 \\times 7 = 10 \\times 7 - 7 = 70 - 7 = 63$"
+      ],
+      "feedback": [
+        {
+          "answer": 69,
+          "message": "Je hebt 1 afgetrokken in plaats van 7. Je hebt tien groepen van 7 genomen; er moet één *groep* af, dus 7."
+        },
+        {
+          "answer": 70,
+          "message": "Dat is $10 \\times 7$. Er zijn maar 9 groepen; trek er één groep van 7 af."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "tables",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "04-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $5 \\times 14$ door te halveren.",
+      "answer": 70,
+      "hints": [
+        "$5 \\times 14$ is de helft van $10 \\times 14$.",
+        "$10 \\times 14 = 140$."
+      ],
+      "solution": [
+        "$10 \\times 14 = 140$",
+        "$5 \\times 14 = 140 : 2 = 70$"
+      ],
+      "feedback": [
+        {
+          "answer": 140,
+          "message": "Dat is $10 \\times 14$. Vijf keer is de helft van tien keer: halveer nog."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "tables",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "04-005",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Welk getal moet je met 7 vermenigvuldigen om 42 te krijgen?",
+      "answer": 6,
+      "hints": [
+        "Zeg de tafel van 7 op tot je bij 42 komt.",
+        "$7, 14, 21, 28, 35, 42$: de hoeveelste is 42?"
+      ],
+      "solution": [
+        "De tafel van 7: $1 \\times 7 = 7$, $2 \\times 7 = 14$, ..., $6 \\times 7 = 42$.",
+        "Het gezochte getal is 6, want $6 \\times 7 = 42$."
+      ],
+      "feedback": [
+        {
+          "answer": 35,
+          "message": "Je hebt 7 van 42 afgetrokken. De vraag is: hoeveel groepen van 7 passen er in 42?"
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "tables"
+      ]
+    },
+    {
+      "id": "04-006",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Bereken $8 \\times 0 + 8 \\times 1$.",
+      "answer": 8,
+      "hints": [
+        "Nul groepen van 8 is niets.",
+        "Eén groep van 8 is gewoon 8."
+      ],
+      "solution": [
+        "$8 \\times 0 = 0$",
+        "$8 \\times 1 = 8$",
+        "$0 + 8 = 8$"
+      ],
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Je hebt $8 \\times 0$ als 8 gerekend. Maar nul groepen van 8 is 0; alleen bij optellen geldt $8 + 0 = 8$."
+        },
+        {
+          "answer": 0,
+          "message": "$8 \\times 0 = 0$ klopt, maar $8 \\times 1$ is niet 0: één groep van 8 is 8."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "zero"
+      ]
+    },
+    {
+      "id": "04-007",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $4 \\times 7 \\times 25$ zo handig mogelijk.",
+      "answer": 700,
+      "hints": [
+        "Je mag de volgorde van de factoren kiezen (wissel- en schakeleigenschap).",
+        "Welke twee factoren geven samen een rond getal?"
+      ],
+      "solution": [
+        "Herschik: $4 \\times 7 \\times 25 = 7 \\times (4 \\times 25)$.",
+        "$4 \\times 25 = 100$",
+        "$7 \\times 100 = 700$"
+      ],
+      "feedback": [
+        {
+          "answer": 70,
+          "message": "Je bent een nul kwijtgeraakt: $4 \\times 25 = 100$, dus $7 \\times 100 = 700$."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "04-008",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je weet dat $12 \\times 12 = 144$. Bereken nu $11 \\times 13$ met behulp van dat gegeven.",
+      "answer": 143,
+      "hints": [
+        "Vergelijk dit met $6 \\times 6 = 36$ en $5 \\times 7 = 35$, of $7 \\times 7 = 49$ en $6 \\times 8 = 48$.",
+        "Het product van de twee buren van een getal is één minder dan het kwadraat."
+      ],
+      "solution": [
+        "11 en 13 zijn de buren van 12.",
+        "Patroon: het product van de buren is één minder dan het kwadraat.",
+        "$11 \\times 13 = 144 - 1 = 143$",
+        "Controle: $11 \\times 13 = 130 + 13 = 143$."
+      ],
+      "feedback": [
+        {
+          "answer": 144,
+          "message": "Dat is $12 \\times 12$. Het product van de buren 11 en 13 is net iets kleiner. Reken na: $11 \\times 13 = 130 + 13$."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "patterns",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "04-009",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $46 \\times 100$.",
+      "answer": 4600,
+      "hints": [
+        "Bij vermenigvuldigen met 100 schuift elk cijfer twee plaatsen naar links.",
+        "De 6 eenheden worden 6 honderdtallen."
+      ],
+      "solution": [
+        "6 eenheden worden 6 honderdtallen; 4 tientallen worden 4 duizendtallen.",
+        "Op de plaatsen van de tientallen en eenheden komen nullen.",
+        "$46 \\times 100 = 4600$"
+      ],
+      "feedback": [
+        {
+          "answer": 460,
+          "message": "Dat is $46 \\times 10$. Bij $\\times 100$ schuiven de cijfers twee plaatsen op: twee nullen."
+        },
+        {
+          "answer": 46100,
+          "message": "Je hebt 100 achter 46 geplakt. Vermenigvuldigen met 100 geeft twee nullen erachter: 4600."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "place-value"
+      ]
+    },
+    {
+      "id": "04-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $30 \\times 70$.",
+      "answer": 2100,
+      "hints": [
+        "Schrijf $30 = 3 \\times 10$ en $70 = 7 \\times 10$.",
+        "Bereken $3 \\times 7$ en zet daarachter het totale aantal nullen."
+      ],
+      "solution": [
+        "$30 \\times 70 = (3 \\times 7) \\times (10 \\times 10)$",
+        "$3 \\times 7 = 21$",
+        "$21 \\times 100 = 2100$"
+      ],
+      "feedback": [
+        {
+          "answer": 210,
+          "message": "Je hebt maar één nul meegenomen. Beide factoren hebben een nul, dus er komen er twee bij: 2100."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "place-value",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "04-011",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $37 \\times 14$.",
+      "answer": 518,
+      "hints": [
+        "Splits 14 in 10 en 4.",
+        "Bereken eerst $37 \\times 10$."
+      ],
+      "solution": [
+        "$37 \\times 10 = 370$",
+        "$37 \\times 4 = 148$",
+        "$370 + 148 = 518$"
+      ],
+      "feedback": [
+        {
+          "answer": 407,
+          "message": "Je hebt 37 × 11 berekend. Controleer hoe je 14 hebt gesplitst."
+        },
+        {
+          "answer": 374,
+          "message": "Je hebt $37 \\times 10 + 4$ uitgerekend. Ook de 4 moet met 37 vermenigvuldigd worden: $37 \\times 4 = 148$."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "distributive",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "04-012",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $6 \\times 48$ door 48 te splitsen in tientallen en eenheden.",
+      "answer": 288,
+      "hints": [
+        "$48 = 40 + 8$.",
+        "Bereken $6 \\times 40$ en $6 \\times 8$, en tel op."
+      ],
+      "solution": [
+        "$6 \\times 48 = 6 \\times 40 + 6 \\times 8$",
+        "$6 \\times 40 = 240$",
+        "$6 \\times 8 = 48$",
+        "$240 + 48 = 288$"
+      ],
+      "feedback": [
+        {
+          "answer": 248,
+          "message": "Je hebt $6 \\times 40 + 8$ gerekend. Elk deel krijgt de factor: ook de 8 moet maal 6, dat is 48."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "distributive",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "04-013",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Bereken $49 \\times 6$ door te compenseren.",
+      "answer": 294,
+      "hints": [
+        "Reken eerst met 50 in plaats van 49.",
+        "$50 \\times 6 = 300$. Hoeveel heb je daarmee te veel genomen?"
+      ],
+      "solution": [
+        "$50 \\times 6 = 300$",
+        "Je hebt één groep van 6 te veel genomen.",
+        "$49 \\times 6 = 300 - 6 = 294$"
+      ],
+      "feedback": [
+        {
+          "answer": 299,
+          "message": "Je hebt 1 afgetrokken. Maar je hebt 50 groepen van 6 genomen in plaats van 49: er moet één *groep* af, dus 6."
+        },
+        {
+          "answer": 300,
+          "message": "Dat is $50 \\times 6$. Je moet nog compenseren: trek één groep van 6 af."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "distributive",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "04-014",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $400 \\times 500$.",
+      "answer": 200000,
+      "hints": [
+        "Vermenigvuldig eerst de getallen zonder nullen: $4 \\times 5$.",
+        "Tel daarna hoeveel nullen de twee factoren samen hebben."
+      ],
+      "solution": [
+        "$4 \\times 5 = 20$",
+        "400 en 500 hebben samen vier nullen.",
+        "$20$ met vier nullen erachter: $200\\,000$."
+      ],
+      "feedback": [
+        {
+          "answer": 20000,
+          "message": "De nul van $4 \\times 5 = 20$ hoort bij de 20 zelf. Daarachter komen nog vier nullen: 200.000."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "place-value",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "04-015",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $23 \\times 12$ met het rechthoekmodel.",
+      "answer": 276,
+      "hints": [
+        "Splits $23 = 20 + 3$ en $12 = 10 + 2$. Dat geeft vier deelrechthoeken.",
+        "Bereken $20 \\times 10$, $3 \\times 10$, $20 \\times 2$ en $3 \\times 2$."
+      ],
+      "solution": [
+        "$20 \\times 10 = 200$",
+        "$3 \\times 10 = 30$",
+        "$20 \\times 2 = 40$",
+        "$3 \\times 2 = 6$",
+        "$200 + 30 + 40 + 6 = 276$"
+      ],
+      "feedback": [
+        {
+          "answer": 206,
+          "message": "Je hebt alleen $20 \\times 10$ en $3 \\times 2$ gerekend. Er zijn vier deelrechthoeken: vergeet $3 \\times 10$ en $20 \\times 2$ niet."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "distributive"
+      ]
+    },
+    {
+      "id": "04-016",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $99 \\times 35$ uit het hoofd.",
+      "answer": 3465,
+      "hints": [
+        "99 ligt vlak onder 100. Compenseer.",
+        "$100 \\times 35 = 3500$; hoeveel groepen van 35 heb je te veel?"
+      ],
+      "solution": [
+        "$100 \\times 35 = 3500$",
+        "Dat is één groep van 35 te veel.",
+        "$99 \\times 35 = 3500 - 35 = 3465$"
+      ],
+      "feedback": [
+        {
+          "answer": 3401,
+          "message": "Je hebt 99 afgetrokken in plaats van 35. Je nam 100 groepen van 35; er moet één groep van 35 af."
+        },
+        {
+          "answer": 3499,
+          "message": "Je hebt 1 afgetrokken. Je nam 100 groepen van 35 in plaats van 99: trek één groep (35) af."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "distributive",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "04-017",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Schat $48 \\times 31$ door beide factoren af te ronden op tientallen. Welke schatting krijg je?",
+      "answer": 1500,
+      "hints": [
+        "48 rond je af op 50, 31 op 30.",
+        "Bereken $50 \\times 30$."
+      ],
+      "solution": [
+        "$48 \\approx 50$ en $31 \\approx 30$",
+        "$50 \\times 30 = 15 \\times 100 = 1500$",
+        "De schatting is 1500 (de exacte uitkomst is 1488)."
+      ],
+      "feedback": [
+        {
+          "answer": 150,
+          "message": "Je bent een nul kwijt: $5 \\times 3 = 15$ en daarachter komen twee nullen."
+        },
+        {
+          "answer": 1488,
+          "message": "Dat is de exacte uitkomst. De vraag is naar de schatting $50 \\times 30$."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "estimation"
+      ]
+    },
+    {
+      "id": "04-018",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $128 \\times 6$ cijferend.",
+      "answer": 768,
+      "hints": [
+        "Begin rechts: $6 \\times 8 = 48$. Schrijf 8 en onthoud 4.",
+        "Tel bij elke volgende kolom het onthouden getal op."
+      ],
+      "solution": [
+        "Eenheden: $6 \\times 8 = 48$; schrijf 8, onthoud 4.",
+        "Tientallen: $6 \\times 2 = 12$, plus 4 is 16; schrijf 6, onthoud 1.",
+        "Honderdtallen: $6 \\times 1 = 6$, plus 1 is 7; schrijf 7.",
+        "Uitkomst: 768."
+      ],
+      "feedback": [
+        {
+          "answer": 628,
+          "message": "Je bent het onthouden vergeten: je hebt van 48, 12 en 6 alleen de laatste cijfers opgeschreven. Tel de onthouden 4 en 1 bij de volgende kolom op."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "column-arithmetic"
+      ]
+    },
+    {
+      "id": "04-019",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $23 \\times 45$ cijferend.",
+      "answer": 1035,
+      "hints": [
+        "Eerste rij: $23 \\times 5$.",
+        "Tweede rij: $23 \\times 40$. Vergeet de nul niet."
+      ],
+      "solution": [
+        "Eerste rij: $23 \\times 5 = 115$.",
+        "Tweede rij: $23 \\times 40 = 920$ (eerst een 0, dan $23 \\times 4 = 92$).",
+        "$115 + 920 = 1035$"
+      ],
+      "feedback": [
+        {
+          "answer": 207,
+          "message": "Je bent de nul in de tweede rij vergeten: je hebt $115 + 92$ opgeteld. De 4 in 45 staat voor 4 tientallen, dus de tweede rij is $23 \\times 40 = 920$."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "column-arithmetic"
+      ]
+    },
+    {
+      "id": "04-020",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Bereken $64 \\times 37$ cijferend.",
+      "answer": 2368,
+      "hints": [
+        "Schat eerst: $60 \\times 40$.",
+        "Eerste rij $64 \\times 7$, tweede rij $64 \\times 30$."
+      ],
+      "solution": [
+        "Schatting: $60 \\times 40 = 2400$.",
+        "Eerste rij: $64 \\times 7 = 448$.",
+        "Tweede rij: $64 \\times 30 = 1920$.",
+        "$448 + 1920 = 2368$; dat ligt dicht bij de schatting."
+      ],
+      "feedback": [
+        {
+          "answer": 640,
+          "message": "Je hebt $448 + 192$ opgeteld: de nul in de tweede rij ontbreekt. $64 \\times 30 = 1920$."
+        },
+        {
+          "answer": 2268,
+          "message": "Kijk de tweede rij na: $64 \\times 3 = 192$ (met onthouden: $3 \\times 4 = 12$, schrijf 2, onthoud 1; $3 \\times 6 + 1 = 19$). De rij is 1920 en het totaal $448 + 1920$."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "column-arithmetic",
+        "estimation"
+      ]
+    },
+    {
+      "id": "04-021",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $236 \\times 54$ cijferend.",
+      "answer": 12744,
+      "hints": [
+        "Eerste rij: $236 \\times 4$.",
+        "Tweede rij: $236 \\times 50$, dus beginnen met een 0."
+      ],
+      "solution": [
+        "Schatting: $200 \\times 50 = 10\\,000$ (iets te laag, want 236 is groter dan 200).",
+        "Eerste rij: $236 \\times 4 = 944$.",
+        "Tweede rij: $236 \\times 50 = 11\\,800$.",
+        "$944 + 11\\,800 = 12\\,744$"
+      ],
+      "feedback": [
+        {
+          "answer": 2124,
+          "message": "Je bent de nul in de tweede rij vergeten: $944 + 1180$. De tweede rij is $236 \\times 50 = 11\\,800$."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "column-arithmetic"
+      ]
+    },
+    {
+      "id": "04-022",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $305 \\times 24$.",
+      "answer": 7320,
+      "hints": [
+        "De 0 in 305 betekent: geen tientallen. Sla die plaats niet over.",
+        "Eerste rij $305 \\times 4$, tweede rij $305 \\times 20$."
+      ],
+      "solution": [
+        "Eerste rij: $305 \\times 4 = 1220$.",
+        "Tweede rij: $305 \\times 20 = 6100$.",
+        "$1220 + 6100 = 7320$",
+        "Schatting ter controle: $300 \\times 24 = 7200$."
+      ],
+      "feedback": [
+        {
+          "answer": 840,
+          "message": "Je hebt eigenlijk $35 \\times 24$ uitgerekend. De nul in 305 houdt de plaats van de tientallen vrij; 305 is driehonderd en vijf."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "column-arithmetic",
+        "zero"
+      ]
+    },
+    {
+      "id": "04-023",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $47 \\times 36$ met de tralievermenigvuldiging (of controleer je antwoord daarmee).",
+      "answer": 1692,
+      "hints": [
+        "De vier vakjes bevatten $4 \\times 3$, $7 \\times 3$, $4 \\times 6$ en $7 \\times 6$, elk gesplitst in tientallen en eenheden.",
+        "Tel langs de schuine banen op, te beginnen rechtsonder."
+      ],
+      "solution": [
+        "Vakjes: $4 \\times 3 = 12$, $7 \\times 3 = 21$, $4 \\times 6 = 24$, $7 \\times 6 = 42$.",
+        "Eenhedenbaan: 2.",
+        "Tientallenbaan: $4 + 1 + 4 = 9$.",
+        "Honderdtallenbaan: $2 + 2 + 2 = 6$.",
+        "Duizendtallenbaan: 1.",
+        "Uitkomst: 1692. Controle: $47 \\times 36 = 47 \\times 30 + 47 \\times 6 = 1410 + 282 = 1692$."
+      ],
+      "topics": [
+        "multiplication",
+        "column-arithmetic"
+      ]
+    },
+    {
+      "id": "04-024",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Sanne berekent $38 \\times 52$ en vindt 1876. Het laatste cijfer klopt, en de uitkomst ligt in de buurt van $40 \\times 50 = 2000$. Toch is het antwoord fout. Wat is het juiste product?",
+      "answer": 1976,
+      "hints": [
+        "Reken het product zelf uit, bijvoorbeeld met $38 \\times 50 + 38 \\times 2$.",
+        "$38 \\times 50 = 1900$."
+      ],
+      "solution": [
+        "$38 \\times 52 = 38 \\times 50 + 38 \\times 2$",
+        "$38 \\times 50 = 1900$",
+        "$38 \\times 2 = 76$",
+        "$1900 + 76 = 1976$",
+        "Sanne zat er precies 100 naast: een fout bij het optellen van de rijen. Schatten en het laatste cijfer vangen zo'n fout niet."
+      ],
+      "feedback": [
+        {
+          "answer": 1876,
+          "message": "Dat is Sannes antwoord. Reken zelf na: $38 \\times 50 = 1900$, plus $38 \\times 2 = 76$."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "column-arithmetic",
+        "checking"
+      ]
+    },
+    {
+      "id": "04-025",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $13 \\times 12$ met de Egyptische verdubbelmethode.",
+      "answer": 156,
+      "hints": [
+        "Verdubbeltabel: $1 \\to 12$, $2 \\to 24$, $4 \\to 48$, $8 \\to 96$.",
+        "Welke getallen uit de linkerkolom geven samen 13?"
+      ],
+      "solution": [
+        "Verdubbel: 1 → 12, 2 → 24, 4 → 48, 8 → 96.",
+        "$13 = 8 + 4 + 1$.",
+        "Tel de bijbehorende getallen rechts op: $96 + 48 + 12 = 156$."
+      ],
+      "feedback": [
+        {
+          "answer": 180,
+          "message": "Je hebt alle rijen opgeteld ($12 + 24 + 48 + 96$). Dat is $15 \\times 12$. Neem alleen de rijen waarvan de linkergetallen samen 13 zijn: 8, 4 en 1."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "number-systems"
+      ]
+    },
+    {
+      "id": "04-026",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een Egyptische schrijver berekent $25 \\times 7$. Hij verdubbelt 7 en vinkt de rijen 1, 8 en 16 aan. Welk getal staat in de rechterkolom bij de rij **16**?",
+      "answer": 112,
+      "hints": [
+        "Verdubbel 7 vier keer: $7 \\to 14 \\to \\dots$",
+        "De rij 16 bevat $16 \\times 7$."
+      ],
+      "solution": [
+        "Verdubbeltabel: 1 → 7, 2 → 14, 4 → 28, 8 → 56, 16 → 112.",
+        "In de rij 16 staat dus 112.",
+        "Ter controle: $25 \\times 7 = 112 + 56 + 7 = 175$."
+      ],
+      "feedback": [
+        {
+          "answer": 175,
+          "message": "Dat is het eindantwoord $25 \\times 7$. De vraag is naar de rij 16 alleen: $16 \\times 7$."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "number-systems"
+      ]
+    },
+    {
+      "id": "04-027",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In het binaire (tweetallige) stelsel betekent $10110_{\\text{twee}}$: van rechts naar links de posities 1, 2, 4, 8 en 16, en een 1 betekent dat die macht van twee meedoet. Welk getal is $10110_{\\text{twee}}$?",
+      "answer": 22,
+      "hints": [
+        "Lees van rechts naar links: de posities hebben waarde 1, 2, 4, 8, 16.",
+        "Tel de waarden op waar een 1 staat."
+      ],
+      "solution": [
+        "Van rechts naar links: $0 \\cdot 1$, $1 \\cdot 2$, $1 \\cdot 4$, $0 \\cdot 8$, $1 \\cdot 16$.",
+        "$16 + 4 + 2 = 22$"
+      ],
+      "feedback": [
+        {
+          "answer": 13,
+          "message": "Je hebt van links naar rechts gelezen. De meest rechtse positie heeft waarde 1, de meest linkse 16."
+        },
+        {
+          "answer": 10110,
+          "message": "Dit getal is in het tweetallige stelsel geschreven. Reken het om: tel de machten van twee op waar een 1 staat."
+        }
+      ],
+      "topics": [
+        "number-systems",
+        "patterns"
+      ]
+    },
+    {
+      "id": "04-028",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In opgave 79 van de Rhind-papyrus staat de berekening $2801 \\times 7$. Voer die uit met verdubbelen: welke uitkomst krijg je?",
+      "answer": 19607,
+      "hints": [
+        "$7 = 4 + 2 + 1$.",
+        "Verdubbel 2801 twee keer en tel de juiste rijen op."
+      ],
+      "solution": [
+        "Verdubbeltabel: 1 → 2801, 2 → 5602, 4 → 11.204.",
+        "$7 = 1 + 2 + 4$, dus alle drie de rijen tellen mee.",
+        "$2801 + 5602 + 11\\,204 = 19\\,607$",
+        "Controle: $7 + 49 + 343 + 2401 + 16\\,807 = 19\\,607$."
+      ],
+      "feedback": [
+        {
+          "answer": 16807,
+          "message": "16.807 is $7^5$, het laatste getal uit de lijst. De vraag is $2801 \\times 7$: tel 2801, 5602 en 11.204 op."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "number-systems"
+      ]
+    },
+    {
+      "id": "04-029",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $18 \\times 27$ met de Russische boerenmethode: halveer links (zonder rest), verdubbel rechts, schrap de rijen met een even getal links en tel de rest op.",
+      "answer": 486,
+      "hints": [
+        "Links: 18, 9, 4, 2, 1. Rechts: 27, 54, 108, 216, 432.",
+        "Alleen de rijen met 9 en 1 links blijven over."
+      ],
+      "solution": [
+        "Halveer en verdubbel: (18, 27), (9, 54), (4, 108), (2, 216), (1, 432).",
+        "Schrap de rijen met een even getal links: 18, 4 en 2.",
+        "Over blijven 54 en 432.",
+        "$54 + 432 = 486$"
+      ],
+      "feedback": [
+        {
+          "answer": 513,
+          "message": "Je hebt de eerste rij (18 en 27) niet geschrapt. 18 is even, dus die rij valt weg."
+        },
+        {
+          "answer": 837,
+          "message": "Je hebt alle rijen opgeteld. Schrap de rijen met een even getal links (18, 4 en 2)."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "number-systems"
+      ]
+    },
+    {
+      "id": "04-030",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een rechthoekige akker is 120 m lang en 30 m breed. Hoe groot is de oppervlakte?",
+      "answer": 3600,
+      "hints": [
+        "Oppervlakte van een rechthoek is lengte maal breedte.",
+        "$12 \\times 3 = 36$; tel daarna de nullen."
+      ],
+      "solution": [
+        "Oppervlakte $= 120 \\times 30$.",
+        "$12 \\times 3 = 36$, en er komen twee nullen bij.",
+        "$120 \\times 30 = 3600$ m²."
+      ],
+      "feedback": [
+        {
+          "answer": 150,
+          "message": "Je hebt lengte en breedte opgeteld. Voor de oppervlakte vermenigvuldig je: $120 \\times 30$."
+        },
+        {
+          "answer": 300,
+          "message": "Je hebt de omtrek berekend ($2 \\times 120 + 2 \\times 30$). Oppervlakte is lengte maal breedte."
+        },
+        {
+          "answer": 360,
+          "message": "Je bent een nul kwijt: $120 \\times 30$ heeft twee nullen in de factoren."
+        }
+      ],
+      "unit": "m²",
+      "topics": [
+        "multiplication",
+        "area",
+        "place-value"
+      ]
+    },
+    {
+      "id": "04-031",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een handelaar koopt 36 kruiken olie van € 15 per kruik. Hoeveel betaalt hij in totaal?",
+      "answer": 540,
+      "hints": [
+        "Splits 15 in 10 en 5, of 36 in 30 en 6.",
+        "$36 \\times 10 = 360$ en $36 \\times 5$ is de helft daarvan."
+      ],
+      "solution": [
+        "$36 \\times 15 = 36 \\times 10 + 36 \\times 5$",
+        "$36 \\times 10 = 360$",
+        "$36 \\times 5 = 180$",
+        "$360 + 180 = 540$, dus € 540."
+      ],
+      "unit": "€",
+      "topics": [
+        "multiplication",
+        "distributive",
+        "money"
+      ]
+    },
+    {
+      "id": "04-032",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Op een bouwplaats werken 24 arbeiders. Elke arbeider krijgt 10 broden per dag. Hoeveel broden zijn er nodig voor 7 dagen?",
+      "answer": 1680,
+      "hints": [
+        "Dit zijn drie factoren: $24 \\times 10 \\times 7$.",
+        "Reken eerst $24 \\times 7$ en vermenigvuldig dan met 10."
+      ],
+      "solution": [
+        "Totaal $= 24 \\times 10 \\times 7$.",
+        "$24 \\times 7 = 140 + 28 = 168$",
+        "$168 \\times 10 = 1680$ broden."
+      ],
+      "feedback": [
+        {
+          "answer": 240,
+          "message": "Dat is de hoeveelheid voor één dag. Vermenigvuldig nog met 7 dagen."
+        },
+        {
+          "answer": 168,
+          "message": "Je bent de 10 broden per arbeider vergeten: $168 \\times 10$."
+        }
+      ],
+      "unit": "broden",
+      "topics": [
+        "multiplication",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "04-033",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Op een piramide-bouwplaats wordt een vierkante laag kalksteenblokken gelegd: 45 rijen van 45 blokken. Hoeveel blokken bevat de laag?",
+      "answer": 2025,
+      "hints": [
+        "Bereken $45 \\times 45$. Splits bijvoorbeeld $45 = 40 + 5$.",
+        "$45 \\times 40 = 1800$."
+      ],
+      "solution": [
+        "$45 \\times 45 = 45 \\times 40 + 45 \\times 5$",
+        "$45 \\times 40 = 1800$",
+        "$45 \\times 5 = 225$",
+        "$1800 + 225 = 2025$ blokken."
+      ],
+      "feedback": [
+        {
+          "answer": 90,
+          "message": "Je hebt 45 en 45 opgeteld. Er zijn 45 rijen van elk 45 blokken: dat is $45 \\times 45$."
+        }
+      ],
+      "unit": "blokken",
+      "topics": [
+        "multiplication",
+        "distributive",
+        "column-arithmetic"
+      ]
+    },
+    {
+      "id": "04-034",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een snelle manier om een getal van twee cijfers met 11 te vermenigvuldigen: tel de cijfers op en zet de som in het midden (bijvoorbeeld $11 \\times 34 = 374$). Bereken op deze manier, of op een andere, $11 \\times 87$.",
+      "answer": 957,
+      "hints": [
+        "$11 \\times 87 = 10 \\times 87 + 87$.",
+        "$8 + 7 = 15$: dat is meer dan 9. Wat gebeurt er met het tiental?"
+      ],
+      "solution": [
+        "$11 \\times 87 = 870 + 87 = 957$.",
+        "Met de truc: $8 + 7 = 15$. Zet de 5 in het midden en tel het tiental (1) bij het eerste cijfer op: $8 + 1 = 9$.",
+        "Uitkomst: 957."
+      ],
+      "feedback": [
+        {
+          "answer": 8157,
+          "message": "Je hebt 15 in het midden gezet. Dat kan niet: op die plaats past maar één cijfer. Het tiental van 15 schuift door naar het eerste cijfer: $8 + 1 = 9$, dus 957."
+        },
+        {
+          "answer": 857,
+          "message": "Je hebt het tiental van $8 + 7 = 15$ weggelaten. Dat tiental moet bij de 8 worden opgeteld: 957."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "distributive",
+        "mental-math",
+        "patterns"
+      ]
+    },
+    {
+      "id": "04-035",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Bereken $999 \\times 999$ zonder rekenmachine.",
+      "answer": 998001,
+      "hints": [
+        "Schrijf $999 = 1000 - 1$ en compenseer.",
+        "$1000 \\times 999 = 999\\,000$. Hoeveel groepen van 999 moet je er weer af halen?"
+      ],
+      "solution": [
+        "$999 \\times 999 = 1000 \\times 999 - 1 \\times 999$",
+        "$1000 \\times 999 = 999\\,000$",
+        "$999\\,000 - 999 = 998\\,001$"
+      ],
+      "feedback": [
+        {
+          "answer": 998999,
+          "message": "Je hebt 1 afgetrokken in plaats van één groep van 999. Je nam 1000 groepen van 999; trek één groep (999) af."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "distributive",
+        "mental-math"
+      ]
+    }
+  ]
+}

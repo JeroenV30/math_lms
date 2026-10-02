@@ -1,0 +1,93 @@
+{
+  "id": 5,
+  "slug": "delen",
+  "title": "Delen",
+  "part": 1,
+  "level": "fundamenten",
+  "status": "available",
+  "historical_period": "Oudheid",
+  "estimated_difficulty": 2,
+  "estimated_minutes": 150,
+  "prerequisites": [
+    4
+  ],
+  "topics": [
+    "division",
+    "remainders",
+    "divisibility",
+    "primes",
+    "ratios",
+    "multiplication"
+  ],
+  "core_question": "Hoe verdeel je een graanschuur eerlijk over honderdduizend arbeiders, en wat doe je met wat er overblijft?",
+  "summary": "Van Sumerische graanrantsoenen en Egyptische broodverdelingen tot de priemgetallen van Euclides en Eratosthenes: je leert eerlijk verdelen en opdelen, rekenen met de rest, staartdelen, deelbaarheidskenmerken en ontbinden in priemfactoren.",
+  "learning_goals": [
+    "Je herkent de twee betekenissen van delen (eerlijk verdelen en opdelen) en kiest in een context de juiste.",
+    "Je begrijpt delen als de omgekeerde bewerking van vermenigvuldigen en controleert elke deling met een vermenigvuldiging.",
+    "Je schrijft een deling met rest als $a = q \\cdot b + r$ met $0 \\le r < b$ en weet in een context of je naar boven of naar beneden moet afronden.",
+    "Je kunt uitleggen waarom delen door 0 geen betekenis heeft, terwijl $0 : b = 0$ gewoon klopt.",
+    "Je voert een staartdeling uit, ook met een nul in het quotiënt en met een deler van twee cijfers.",
+    "Je kent de deelbaarheidskenmerken voor 2, 3, 4, 5, 9 en 10 en kunt uitleggen waarom ze werken.",
+    "Je vindt priemgetallen met de zeef van Eratosthenes en ontbindt een getal in priemfactoren.",
+    "Je kunt in eigen woorden navertellen waarom er volgens Euclides oneindig veel priemgetallen zijn.",
+    "Je hebt een eerste gevoel voor verhoudingen: verdelen in ongelijke maar vaste delen."
+  ],
+  "glossary": [
+    { "term": "Deeltal", "definition": "Het getal dat gedeeld wordt. In $47 : 6$ is 47 het deeltal." },
+    { "term": "Deler", "definition": "Het getal waardoor je deelt. In $47 : 6$ is 6 de deler. Ook: een getal dat precies 'past' in een ander getal (3 is een deler van 12)." },
+    { "term": "Quotiënt", "definition": "De uitkomst van een deling: hoeveel ieder krijgt, of hoe vaak de deler in het deeltal past." },
+    { "term": "Rest", "definition": "Wat overblijft als de deler niet nog een keer in het deeltal past. De rest is altijd kleiner dan de deler." },
+    { "term": "Eerlijk verdelen", "definition": "Delen als 'hoeveel krijgt ieder?': je kent het aantal groepen en zoekt de grootte van een groep." },
+    { "term": "Opdelen", "definition": "Delen als 'hoe vaak past het?': je kent de grootte van een groep en zoekt het aantal groepen." },
+    { "term": "Verhouding", "definition": "Een vaste verdeelsleutel, zoals 1 : 2. Bij een verdeling in de verhouding 1 : 2 krijgt de één steeds één deel en de ander twee delen." },
+    { "term": "Deelbaar", "definition": "Een getal $a$ is deelbaar door $b$ als de deling $a : b$ opgaat, dus met rest 0." },
+    { "term": "Veelvoud", "definition": "Een uitkomst van de tafel van een getal. 35 is een veelvoud van 7, want $35 = 5 \\times 7$." },
+    { "term": "Priemgetal", "definition": "Een getal groter dan 1 met precies twee delers: 1 en zichzelf. Bijvoorbeeld 2, 3, 5, 7, 11." },
+    { "term": "Samengesteld getal", "definition": "Een getal groter dan 1 dat geen priemgetal is; het is te schrijven als product van kleinere getallen, zoals $12 = 3 \\times 4$." },
+    { "term": "Priemfactorontbinding", "definition": "Een getal geschreven als product van priemgetallen, zoals $60 = 2 \\times 2 \\times 3 \\times 5$. Op de volgorde na is die schrijfwijze uniek." },
+    { "term": "Staartdeling", "definition": "Een schriftelijke methode om kolom voor kolom te delen: deel, vermenigvuldig, trek af, haal het volgende cijfer bij." },
+    { "term": "Grootste gemene deler (ggd)", "definition": "Het grootste getal dat twee getallen allebei deelt. De ggd van 84 en 36 is 12." }
+  ],
+  "formulas": [
+    {
+      "name": "Deling met rest",
+      "latex": "a = q \\cdot b + r, \\qquad 0 \\le r < b",
+      "usage": "Elke deling van een geheel getal $a$ door een positief geheel getal $b$ levert precies één quotiënt $q$ en één rest $r$ op. Gebruik de formule om een deling met rest te controleren of om het deeltal terug te rekenen.",
+      "origin": "Het idee zit al in Sumerische schoolopgaven (ca. 2600 v.Chr.), waar de schrijver noteert hoeveel gerst er overblijft. In Euclides' Elementen (boek VII, ca. 300 v.Chr.) is het herhaald wegnemen van de kleinere grootheid de basis van het algoritme voor de grootste gemene deler."
+    },
+    {
+      "name": "Controle van een deling",
+      "latex": "a : b = q \\iff q \\times b = a \\quad (b \\neq 0)",
+      "usage": "Delen is de omgekeerde bewerking van vermenigvuldigen. Je controleert een deling door het quotiënt met de deler te vermenigvuldigen.",
+      "origin": "Egyptische schrijvers formuleerden een deling al als een vermenigvuldigvraag: 'reken met 8 tot je 56 vindt'."
+    },
+    {
+      "name": "Algoritme van Euclides",
+      "latex": "\\operatorname{ggd}(a, b) = \\operatorname{ggd}(b, r) \\quad \\text{met } a = q \\cdot b + r",
+      "usage": "Herhaal de deling met rest tot de rest 0 is; de laatste deler die niet 0 is, is de grootste gemene deler.",
+      "origin": "Euclides, Elementen, boek VII, proposities 1 en 2 (ca. 300 v.Chr.)."
+    }
+  ],
+  "lessons": [
+    { "slug": "introductie", "title": "Een graanschuur vol gerst", "file": "01-introductie.md", "kind": "intro" },
+    { "slug": "verdelen-opdelen-rest", "title": "Verdelen, opdelen en de rest", "file": "02-theorie-a.md", "kind": "theory" },
+    { "slug": "staartdeling", "title": "Staartdelen: delen in kolommen", "file": "03-theorie-b.md", "kind": "theory" },
+    { "slug": "deelbaarheid-en-priemgetallen", "title": "Deelbaarheid en priemgetallen", "file": "03b-theorie-c.md", "kind": "theory" },
+    { "slug": "historisch-intermezzo", "title": "Van graanrantsoen tot priemgetal", "file": "04-historisch-intermezzo.md", "kind": "history" },
+    { "slug": "praktijk-en-uitdaging", "title": "Magazijn, veerdienst en legioen", "file": "05-praktijk-en-uitdaging.md", "kind": "practice" },
+    { "slug": "samenvatting", "title": "Samenvatting", "file": "06-samenvatting.md", "kind": "summary" }
+  ],
+  "timeline": [
+    "mesopotamische-getallen",
+    "rhind-papyrus",
+    "euclides-elementen",
+    "eratosthenes",
+    "al-khwarizmi"
+  ],
+  "mathematicians": [
+    "ahmes",
+    "euclides",
+    "eratosthenes",
+    "al-khwarizmi"
+  ]
+}

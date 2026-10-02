@@ -1,0 +1,353 @@
+{
+  "title": "Hoofdstuktoets – Vermenigvuldigen",
+  "intro": "15 vragen over tafels, vermenigvuldigen met nullen, splitsen, cijferen, schatten en de Egyptische methode. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "04-T01",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Bereken $8 \\times 7$.",
+      "answer": 56,
+      "hints": [],
+      "solution": [
+        "$8 \\times 7$: verdubbel 7 drie keer: $14, 28, 56$.",
+        "Of: $5 \\times 7 + 3 \\times 7 = 35 + 21 = 56$."
+      ],
+      "feedback": [
+        {
+          "answer": 54,
+          "message": "54 is $6 \\times 9$. $8 \\times 7 = 56$."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "tables"
+      ]
+    },
+    {
+      "id": "04-T02",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Bereken $9 \\times 6$.",
+      "answer": 54,
+      "hints": [],
+      "solution": [
+        "$9 \\times 6 = 10 \\times 6 - 6$",
+        "$60 - 6 = 54$"
+      ],
+      "feedback": [
+        {
+          "answer": 59,
+          "message": "Bij *tien keer min één keer* trek je één groep (6) af, niet 1."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "tables"
+      ]
+    },
+    {
+      "id": "04-T03",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Bereken $74 \\times 100$.",
+      "answer": 7400,
+      "hints": [],
+      "solution": [
+        "Bij $\\times 100$ schuift elk cijfer twee plaatsen naar links.",
+        "$74 \\times 100 = 7400$"
+      ],
+      "feedback": [
+        {
+          "answer": 740,
+          "message": "Dat is $74 \\times 10$. Bij $\\times 100$ komen er twee nullen bij."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "place-value"
+      ]
+    },
+    {
+      "id": "04-T04",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $40 \\times 60$.",
+      "answer": 2400,
+      "hints": [],
+      "solution": [
+        "$4 \\times 6 = 24$",
+        "Samen twee nullen: $2400$."
+      ],
+      "feedback": [
+        {
+          "answer": 240,
+          "message": "Beide factoren hebben een nul, dus er komen twee nullen achter 24."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "place-value",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "04-T05",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $5 \\times 86$.",
+      "answer": 430,
+      "hints": [],
+      "solution": [
+        "$10 \\times 86 = 860$",
+        "$5 \\times 86$ is de helft: $860 : 2 = 430$."
+      ],
+      "topics": [
+        "multiplication",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "04-T06",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $8 \\times 57$ door 57 te splitsen.",
+      "answer": 456,
+      "hints": [],
+      "solution": [
+        "$8 \\times 57 = 8 \\times 50 + 8 \\times 7$",
+        "$400 + 56 = 456$"
+      ],
+      "feedback": [
+        {
+          "answer": 407,
+          "message": "Je hebt $8 \\times 50 + 7$ gerekend. Ook de 7 moet maal 8: $8 \\times 7 = 56$."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "distributive"
+      ]
+    },
+    {
+      "id": "04-T07",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $25 \\times 36$ zo handig mogelijk.",
+      "answer": 900,
+      "hints": [],
+      "solution": [
+        "$36 = 4 \\times 9$",
+        "$25 \\times 4 \\times 9 = 100 \\times 9 = 900$"
+      ],
+      "topics": [
+        "multiplication",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "04-T08",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $19 \\times 8$ door te compenseren.",
+      "answer": 152,
+      "hints": [],
+      "solution": [
+        "$20 \\times 8 = 160$",
+        "Eén groep van 8 te veel: $160 - 8 = 152$."
+      ],
+      "feedback": [
+        {
+          "answer": 159,
+          "message": "Je hebt 1 afgetrokken. Er moet één groep van 8 af: $160 - 8 = 152$."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "distributive",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "04-T09",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $34 \\times 26$.",
+      "answer": 884,
+      "hints": [],
+      "solution": [
+        "$34 \\times 26 = 34 \\times 20 + 34 \\times 6$",
+        "$34 \\times 20 = 680$",
+        "$34 \\times 6 = 204$",
+        "$680 + 204 = 884$"
+      ],
+      "feedback": [
+        {
+          "answer": 272,
+          "message": "Je bent de nul in de tweede rij vergeten: $204 + 68$. De tweede rij is $34 \\times 20 = 680$."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "distributive",
+        "column-arithmetic"
+      ]
+    },
+    {
+      "id": "04-T10",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $127 \\times 43$ cijferend.",
+      "answer": 5461,
+      "hints": [],
+      "solution": [
+        "Eerste rij: $127 \\times 3 = 381$.",
+        "Tweede rij: $127 \\times 40 = 5080$.",
+        "$381 + 5080 = 5461$",
+        "Schatting: $130 \\times 40 = 5200$; aannemelijk."
+      ],
+      "feedback": [
+        {
+          "answer": 889,
+          "message": "De nul in de tweede rij ontbreekt: $381 + 508$. De tweede rij is $127 \\times 40 = 5080$."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "column-arithmetic"
+      ]
+    },
+    {
+      "id": "04-T11",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Iemand berekent $36 \\times 24$ cijferend en schrijft als rijen 144 en 72 op. Zo komt hij op 216. Wat is het juiste antwoord?",
+      "answer": 864,
+      "hints": [],
+      "solution": [
+        "Eerste rij: $36 \\times 4 = 144$ (klopt).",
+        "Tweede rij: $36 \\times 20 = 720$, niet 72: de nul ontbreekt.",
+        "$144 + 720 = 864$"
+      ],
+      "feedback": [
+        {
+          "answer": 216,
+          "message": "Dat is het foute antwoord uit de opgave. De tweede rij moet $36 \\times 20 = 720$ zijn."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "column-arithmetic",
+        "checking"
+      ]
+    },
+    {
+      "id": "04-T12",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $21 \\times 15$ met de Egyptische verdubbelmethode (verdubbel 15).",
+      "answer": 315,
+      "hints": [],
+      "solution": [
+        "Verdubbeltabel: 1 → 15, 2 → 30, 4 → 60, 8 → 120, 16 → 240.",
+        "$21 = 16 + 4 + 1$",
+        "$240 + 60 + 15 = 315$"
+      ],
+      "feedback": [
+        {
+          "answer": 465,
+          "message": "Je hebt alle rijen opgeteld. Neem alleen de rijen 16, 4 en 1, want $16 + 4 + 1 = 21$."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "number-systems"
+      ]
+    },
+    {
+      "id": "04-T13",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Schat $62 \\times 49$ door beide factoren af te ronden op tientallen. Welke schatting krijg je?",
+      "answer": 3000,
+      "hints": [],
+      "solution": [
+        "$62 \\approx 60$ en $49 \\approx 50$",
+        "$60 \\times 50 = 3000$"
+      ],
+      "feedback": [
+        {
+          "answer": 300,
+          "message": "Je bent een nul kwijt: $6 \\times 5 = 30$, met twee nullen erachter."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "estimation"
+      ]
+    },
+    {
+      "id": "04-T14",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Op een piramide-bouwplaats werken 18 ploegen van 25 man. Elke man krijgt 10 broden per dag. Hoeveel broden zijn er per dag nodig?",
+      "answer": 4500,
+      "hints": [],
+      "solution": [
+        "Aantal mannen: $18 \\times 25 = 450$ (bijvoorbeeld $18 \\times 100 : 4$).",
+        "Broden: $450 \\times 10 = 4500$."
+      ],
+      "feedback": [
+        {
+          "answer": 450,
+          "message": "Dat is het aantal mannen. Elke man krijgt 10 broden: vermenigvuldig nog met 10."
+        }
+      ],
+      "unit": "broden",
+      "topics": [
+        "multiplication",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "04-T15",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Bereken $205 \\times 48$.",
+      "answer": 9840,
+      "hints": [],
+      "solution": [
+        "$205 \\times 48 = 200 \\times 48 + 5 \\times 48$",
+        "$200 \\times 48 = 9600$",
+        "$5 \\times 48 = 240$",
+        "$9600 + 240 = 9840$"
+      ],
+      "feedback": [
+        {
+          "answer": 1200,
+          "message": "Je hebt eigenlijk $25 \\times 48$ uitgerekend. De nul in 205 houdt de plaats van de tientallen vrij."
+        }
+      ],
+      "topics": [
+        "multiplication",
+        "distributive",
+        "column-arithmetic"
+      ]
+    }
+  ]
+}

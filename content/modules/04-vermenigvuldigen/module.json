@@ -1,0 +1,173 @@
+{
+  "id": 4,
+  "slug": "vermenigvuldigen",
+  "title": "Vermenigvuldigen",
+  "part": 1,
+  "level": "fundamenten",
+  "status": "available",
+  "historical_period": "Oud-Egypte",
+  "estimated_difficulty": 1,
+  "estimated_minutes": 90,
+  "prerequisites": [
+    3
+  ],
+  "topics": [
+    "multiplication",
+    "tables",
+    "distributive",
+    "mental-math",
+    "column-arithmetic",
+    "estimation",
+    "place-value"
+  ],
+  "core_question": "Een Egyptische schrijver kende geen tafels van vermenigvuldiging. Hoe rekende hij dan toch uit hoeveel broden dertien arbeiders in twaalf dagen nodig hadden?",
+  "summary": "Vermenigvuldigen als herhaald optellen, als rooster en als rechthoek. Je leert tafels met slimme strategieën, splitst getallen met de distributieve eigenschap, rekent uit het hoofd en cijferend, en ontdekt hoe de Egyptenaren vermenigvuldigden door alleen te verdubbelen.",
+  "learning_goals": [
+    "Je kunt uitleggen wat vermenigvuldigen betekent: herhaald optellen van gelijke groepen, en de oppervlakte van een rechthoek.",
+    "Je kent de tafels van 1 tot en met 10 en kunt ze afleiden met strategieën zoals verdubbelen, halveren en 'tien keer min één keer'.",
+    "Je gebruikt de wisseleigenschap en de schakeleigenschap om slim te rekenen.",
+    "Je kunt vermenigvuldigen met 10, 100 en 1000 en legt met plaatswaarde uit waarom er nullen bij komen.",
+    "Je past de distributieve eigenschap toe: je splitst een factor en vermenigvuldigt de delen afzonderlijk.",
+    "Je rekent producten uit het hoofd uit met splitsen en compenseren, en je schat een product door af te ronden.",
+    "Je kunt kolomsgewijs vermenigvuldigen (cijferen) en begrijpt waar elke rij en elke nul vandaan komt.",
+    "Je kunt vermenigvuldigen met de Egyptische verdubbelmethode en weet hoe die samenhangt met binaire getallen."
+  ],
+  "glossary": [
+    {
+      "term": "Vermenigvuldigen",
+      "definition": "Een aantal gelijke groepen samen nemen. $a \\times b$ betekent: $a$ groepen van $b$, ofwel $b + b + \\dots + b$ met $a$ termen."
+    },
+    {
+      "term": "Factor",
+      "definition": "Elk van de getallen die met elkaar vermenigvuldigd worden. In $6 \\times 8$ zijn 6 en 8 de factoren."
+    },
+    {
+      "term": "Product",
+      "definition": "De uitkomst van een vermenigvuldiging. Het product van 6 en 8 is 48."
+    },
+    {
+      "term": "Tafel",
+      "definition": "Het rijtje veelvouden van een getal: de tafel van 7 is 7, 14, 21, 28, ..."
+    },
+    {
+      "term": "Veelvoud",
+      "definition": "Een getal dat je krijgt door een gegeven getal met een geheel getal te vermenigvuldigen. 35 is een veelvoud van 7."
+    },
+    {
+      "term": "Wisseleigenschap (commutativiteit)",
+      "definition": "De volgorde van de factoren maakt niet uit: $a \\times b = b \\times a$."
+    },
+    {
+      "term": "Schakeleigenschap (associativiteit)",
+      "definition": "Bij drie of meer factoren maakt het niet uit welke je eerst vermenigvuldigt: $(a \\times b) \\times c = a \\times (b \\times c)$."
+    },
+    {
+      "term": "Distributieve eigenschap (verdeeleigenschap)",
+      "definition": "Een factor mag je splitsen; je vermenigvuldigt elk deel en telt op: $a \\times (b + c) = a \\times b + a \\times c$."
+    },
+    {
+      "term": "Compenseren",
+      "definition": "Een factor afronden naar een makkelijk getal en het teveel of tekort daarna weer corrigeren, bijvoorbeeld $49 \\times 6 = 50 \\times 6 - 6$."
+    },
+    {
+      "term": "Cijferen",
+      "definition": "Rekenen met een vast schema op papier, cijfer voor cijfer, met onthouden. Bij vermenigvuldigen heet dit ook de staartvermenigvuldiging."
+    },
+    {
+      "term": "Egyptische vermenigvuldiging",
+      "definition": "Vermenigvuldigen door herhaald te verdubbelen en een geschikte selectie van de verdubbelingen op te tellen."
+    },
+    {
+      "term": "Gelosia (tralievermenigvuldiging)",
+      "definition": "Een middeleeuwse schrijfwijze waarbij je de deelproducten in een rooster met schuine lijnen zet en langs de diagonalen optelt."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Wisseleigenschap",
+      "latex": "a \\times b = b \\times a",
+      "usage": "Je hoeft maar de helft van de tafels te leren; kies de volgorde die het makkelijkst rekent.",
+      "origin": "Al in de Rhind-papyrus (ca. 1650–1550 v.Chr.) wordt de volgorde van de factoren vrij gekozen; als algemene regel geformuleerd in de moderne algebra."
+    },
+    {
+      "name": "Schakeleigenschap",
+      "latex": "(a \\times b) \\times c = a \\times (b \\times c)",
+      "usage": "Combineer factoren die samen een rond getal geven, zoals $4 \\times 25 = 100$.",
+      "origin": "Algemene rekenregel; de naam en de algebraïsche schrijfwijze stammen uit de 19e eeuw."
+    },
+    {
+      "name": "Distributieve eigenschap",
+      "latex": "a \\times (b + c) = a \\times b + a \\times c",
+      "usage": "Splits een lastige factor in tientallen en eenheden: $37 \\times 14 = 37 \\times 10 + 37 \\times 4$. De basis van hoofdrekenen, het rechthoekmodel en het cijferen.",
+      "origin": "Meetkundig al bij Euclides (Elementen, boek II); als rekenregel in alle oude rekenmethoden aanwezig."
+    },
+    {
+      "name": "Vermenigvuldigen met 10, 100, 1000",
+      "latex": "37 \\times 10 = 370, \\quad 37 \\times 100 = 3700, \\quad 37 \\times 1000 = 37\\,000",
+      "usage": "Elk cijfer schuift één (of twee, drie) plaatsen naar links; de lege plaatsen vul je met nullen.",
+      "origin": "Gevolg van het tientallige plaatswaardesysteem dat uit India via de Arabische wereld naar Europa kwam."
+    },
+    {
+      "name": "Nul en één",
+      "latex": "a \\times 1 = a, \\quad a \\times 0 = 0",
+      "usage": "Eén groep van $a$ is $a$; nul groepen is niets.",
+      "origin": "Expliciet als rekenregels voor de nul bij Brahmagupta (628)."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Broden voor dertien arbeiders",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "betekenis-en-tafels",
+      "title": "Wat vermenigvuldigen is, en hoe je tafels slim leert",
+      "file": "02-theorie-a.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "plaatswaarde-en-splitsen",
+      "title": "Nullen, splitsen en hoofdrekenen",
+      "file": "03-theorie-b.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "cijferen",
+      "title": "Kolomsgewijs vermenigvuldigen",
+      "file": "03b-theorie-c.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Ahmes en de kunst van het verdubbelen",
+      "file": "04-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Rantsoenen, stenen en akkers",
+      "file": "05-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "06-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "egyptische-cijfers",
+    "rhind-papyrus",
+    "al-khwarizmi",
+    "fibonacci-liber-abaci"
+  ],
+  "mathematicians": [
+    "ahmes",
+    "al-khwarizmi",
+    "fibonacci",
+    "napier"
+  ]
+}

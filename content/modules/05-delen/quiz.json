@@ -1,0 +1,346 @@
+{
+  "title": "Hoofdstuktoets – Delen",
+  "intro": "15 vragen over verdelen, rest, staartdelen, deelbaarheid, priemgetallen en verhoudingen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "05-T01",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Bereken $63 : 9$.",
+      "answer": 7,
+      "hints": [],
+      "solution": [
+        "$7 \\times 9 = 63$, dus $63 : 9 = 7$."
+      ],
+      "topics": [
+        "division",
+        "tables"
+      ]
+    },
+    {
+      "id": "05-T02",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Welk getal vul je in? $6 \\times \\ldots = 54$",
+      "answer": 9,
+      "hints": [],
+      "solution": [
+        "$6 \\times \\ldots = 54$ betekent $54 : 6$.",
+        "$6 \\times 9 = 54$, dus het getal is 9."
+      ],
+      "feedback": [
+        {
+          "answer": 48,
+          "message": "Je hebt $54 - 6$ uitgerekend; zoek het getal dat **maal** 6 gelijk is aan 54."
+        }
+      ],
+      "topics": [
+        "division",
+        "multiplication"
+      ]
+    },
+    {
+      "id": "05-T03",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Bij de deling $58 : 8$: wat is het quotiënt?",
+      "answer": 7,
+      "hints": [],
+      "solution": [
+        "$7 \\times 8 = 56$ en $8 \\times 8 = 64 > 58$.",
+        "Dus $58 = 7 \\cdot 8 + 2$; het quotiënt is 7."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "$8 \\times 8 = 64$ is meer dan 58; het quotiënt telt alleen volledige groepen."
+        }
+      ],
+      "topics": [
+        "division",
+        "remainders"
+      ]
+    },
+    {
+      "id": "05-T04",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bij de deling $58 : 8$: wat is de rest?",
+      "answer": 2,
+      "hints": [],
+      "solution": [
+        "$7 \\times 8 = 56$.",
+        "$58 - 56 = 2$. De rest is 2."
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Je hebt $64 - 58$ berekend: wat er tekort is voor nog een groep. De rest is wat er overblijft: $58 - 56$."
+        }
+      ],
+      "topics": [
+        "remainders"
+      ]
+    },
+    {
+      "id": "05-T05",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken met een staartdeling: $2.814 : 6$.",
+      "answer": 469,
+      "hints": [],
+      "solution": [
+        "$28 : 6 = 4$ (want 24), rest 4; haal 1 bij: 41.",
+        "$41 : 6 = 6$ (want 36), rest 5; haal 4 bij: 54.",
+        "$54 : 6 = 9$, rest 0.",
+        "Quotiënt 469. Controle: $469 \\times 6 = 2.814$."
+      ],
+      "topics": [
+        "division",
+        "column-arithmetic"
+      ]
+    },
+    {
+      "id": "05-T06",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken met een staartdeling: $8.256 : 16$.",
+      "answer": 516,
+      "hints": [],
+      "solution": [
+        "$82 : 16 = 5$ (want 80), rest 2; haal 5 bij: 25.",
+        "$25 : 16 = 1$, rest 9; haal 6 bij: 96.",
+        "$96 : 16 = 6$, rest 0.",
+        "Quotiënt 516. Controle: $516 \\times 16 = 5.160 + 3.096 = 8.256$."
+      ],
+      "topics": [
+        "division",
+        "column-arithmetic"
+      ]
+    },
+    {
+      "id": "05-T07",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een getal gedeeld door 11 geeft quotiënt 15 en rest 3. Welk getal is het?",
+      "answer": 168,
+      "hints": [],
+      "solution": [
+        "$a = q \\cdot b + r = 15 \\cdot 11 + 3$.",
+        "$15 \\cdot 11 = 165$, en $165 + 3 = 168$."
+      ],
+      "feedback": [
+        {
+          "answer": 165,
+          "message": "Je bent de rest vergeten: tel er nog 3 bij op."
+        }
+      ],
+      "topics": [
+        "remainders",
+        "multiplication"
+      ]
+    },
+    {
+      "id": "05-T08",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "65 reizigers worden met sloepen naar een schip gebracht. In elke sloep passen 12 reizigers. Hoeveel sloepen zijn er minstens nodig?",
+      "answer": 6,
+      "unit": "sloepen",
+      "hints": [],
+      "solution": [
+        "$5 \\times 12 = 60$ en $6 \\times 12 = 72$, dus $65 = 5 \\cdot 12 + 5$.",
+        "Na 5 volle sloepen blijven er 5 reizigers over; die moeten ook mee.",
+        "Naar boven afronden: 6 sloepen."
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Met 5 sloepen blijven er 5 reizigers achter. Iedereen moet mee: rond naar boven af."
+        }
+      ],
+      "topics": [
+        "division",
+        "remainders"
+      ]
+    },
+    {
+      "id": "05-T09",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "In het getal $38\\square4$ ontbreekt één cijfer. Welk cijfer moet er staan zodat het getal deelbaar is door 9?",
+      "answer": 3,
+      "hints": [],
+      "solution": [
+        "Cijfersom van de bekende cijfers: $3 + 8 + 4 = 15$.",
+        "Het eerstvolgende veelvoud van 9 is 18: $18 - 15 = 3$.",
+        "Het getal wordt 3.834, met cijfersom 18. Controle: $3.834 = 426 \\times 9$."
+      ],
+      "topics": [
+        "divisibility"
+      ]
+    },
+    {
+      "id": "05-T10",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is de rest van $4.738 : 9$?",
+      "answer": 4,
+      "hints": [],
+      "solution": [
+        "Cijfersom: $4 + 7 + 3 + 8 = 22$; opnieuw: $2 + 2 = 4$.",
+        "Een getal en zijn cijfersom hebben dezelfde rest bij deling door 9: de rest is 4.",
+        "Controle: $526 \\times 9 = 4.734$ en $4.738 - 4.734 = 4$."
+      ],
+      "feedback": [
+        {
+          "answer": 22,
+          "message": "22 is de cijfersom, maar de rest moet kleiner zijn dan 9. Neem nog een keer de cijfersom."
+        }
+      ],
+      "topics": [
+        "divisibility",
+        "remainders"
+      ]
+    },
+    {
+      "id": "05-T11",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel priemgetallen liggen er tussen 30 en 50?",
+      "answer": 5,
+      "hints": [],
+      "solution": [
+        "Kandidaten zijn de oneven getallen die niet op 5 eindigen.",
+        "Schrap 33, 39 en 45 (deelbaar door 3) en 49 (= 7 × 7).",
+        "Over blijven 31, 37, 41, 43 en 47: dat zijn er 5."
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Heb je 49 meegeteld? $49 = 7 \\times 7$ is geen priemgetal."
+        }
+      ],
+      "topics": [
+        "primes"
+      ]
+    },
+    {
+      "id": "05-T12",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de kleinste priemfactor van 221?",
+      "answer": 13,
+      "hints": [],
+      "solution": [
+        "221 is oneven, cijfersom 5 (niet deelbaar door 3) en eindigt niet op 0 of 5.",
+        "$7 \\times 31 = 217$, dus niet deelbaar door 7. $11 \\times 20 = 220$, dus niet deelbaar door 11.",
+        "$13 \\times 17 = 221$. De kleinste priemfactor is 13."
+      ],
+      "feedback": [
+        {
+          "answer": 221,
+          "message": "221 is geen priemgetal: $221 = 13 \\times 17$."
+        },
+        {
+          "answer": 17,
+          "message": "17 is een priemfactor, maar niet de kleinste: $221 = 13 \\times 17$."
+        }
+      ],
+      "topics": [
+        "primes",
+        "divisibility"
+      ]
+    },
+    {
+      "id": "05-T13",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welk getal vul je in? $180 = 2 \\times 2 \\times 3 \\times 3 \\times \\ldots$",
+      "answer": 5,
+      "hints": [],
+      "solution": [
+        "$2 \\times 2 \\times 3 \\times 3 = 36$.",
+        "$180 : 36 = 5$.",
+        "Dus $180 = 2 \\times 2 \\times 3 \\times 3 \\times 5$."
+      ],
+      "topics": [
+        "primes",
+        "division"
+      ]
+    },
+    {
+      "id": "05-T14",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bepaal de grootste gemene deler van 126 en 48.",
+      "answer": 6,
+      "hints": [],
+      "solution": [
+        "$126 = 2 \\cdot 48 + 30$.",
+        "$48 = 1 \\cdot 30 + 18$.",
+        "$30 = 1 \\cdot 18 + 12$.",
+        "$18 = 1 \\cdot 12 + 6$.",
+        "$12 = 2 \\cdot 6 + 0$. De ggd is 6."
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "2 is een gemeenschappelijke deler, maar niet de grootste. Ook 3 deelt beide getallen."
+        },
+        {
+          "answer": 12,
+          "message": "Je bent een stap te vroeg gestopt: 12 is geen deler van 126."
+        }
+      ],
+      "topics": [
+        "divisibility",
+        "remainders"
+      ]
+    },
+    {
+      "id": "05-T15",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een erfenis van 72 kamelen wordt verdeeld over drie erfgenamen in de verhouding 1 : 2 : 3. Hoeveel kamelen krijgt de erfgenaam met het grootste deel?",
+      "answer": 36,
+      "unit": "kamelen",
+      "hints": [],
+      "solution": [
+        "Aantal delen: $1 + 2 + 3 = 6$.",
+        "Eén deel: $72 : 6 = 12$ kamelen.",
+        "Het grootste deel is 3 delen: $3 \\times 12 = 36$.",
+        "Controle: $12 + 24 + 36 = 72$."
+      ],
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Je hebt $72 : 3$ gedaan alsof ieder evenveel krijgt. Tel eerst de delen: $1 + 2 + 3 = 6$."
+        },
+        {
+          "answer": 12,
+          "message": "12 kamelen is één deel. De grootste erfgenaam krijgt 3 delen."
+        }
+      ],
+      "topics": [
+        "ratios",
+        "division"
+      ]
+    }
+  ]
+}
