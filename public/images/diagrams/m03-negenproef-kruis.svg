@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" font-family="sans-serif" role="img" aria-labelledby="t">
+  <title id="t">Negenproefkruis voor 7.869 + 8.796 = 16.665</title>
+  <rect x="0" y="0" width="600" height="320" fill="#ffffff"/>
+  <!-- kruis -->
+  <g stroke="#9c6b30" stroke-width="3">
+    <line x1="80" y1="60" x2="240" y2="220"/>
+    <line x1="240" y1="60" x2="80" y2="220"/>
+  </g>
+  <g font-size="34" text-anchor="middle" font-weight="bold">
+    <text x="160" y="95" fill="#3b5bdb">6</text>
+    <text x="100" y="152" fill="#1f2933">3</text>
+    <text x="220" y="152" fill="#1f2933">3</text>
+    <text x="160" y="210" fill="#3b5bdb">6</text>
+  </g>
+  <g font-size="12" fill="#9c6b30" text-anchor="middle">
+    <text x="160" y="45">boven: negenrest uitkomst</text>
+    <text x="160" y="245">onder: som van links en rechts</text>
+  </g>
+  <!-- uitleg -->
+  <g font-size="15" fill="#1f2933">
+    <text x="290" y="80">links: 7.869 → 7+8+6+9 = 30 → 3</text>
+    <text x="290" y="112">rechts: 8.796 → 8+7+9+6 = 30 → 3</text>
+    <text x="290" y="144">onder: 3 + 3 = 6</text>
+    <text x="290" y="176">boven: 16.665 → 1+6+6+6+5 = 24 → 6</text>
+    <text x="290" y="216" fill="#3b5bdb" font-weight="bold">boven = onder: geen fout gevonden</text>
+  </g>
+  <text x="300" y="295" font-size="13" fill="#1f2933" text-anchor="middle">Een verschil tussen boven en onder bewijst een fout; gelijkheid bewijst geen juistheid.</text>
+</svg>

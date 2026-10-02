@@ -1,0 +1,42 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $37 \\times 14$.",
+      "answer": 518,
+      "hints": ["Splits 14 in 10 en 4.", "Bereken eerst $37 \\times 10$."],
+      "solution": ["$37 \\times 10 = 370$", "$37 \\times 4 = 148$", "$370 + 148 = 518$"],
+      "feedback": [{ "answer": 407, "message": "Je hebt 37 × 11 berekend." }],
+      "topics": ["multiplication"]
+    },
+    {
+      "id": "01-002",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat kost één brood als vier broden € 10,00 kosten?",
+      "answer": 2.5,
+      "unit": "€",
+      "tolerance": 0.001,
+      "hints": ["Deel door 4."],
+      "solution": ["10 : 4 = 2,50"],
+      "topics": ["decimals"]
+    },
+    {
+      "id": "01-003",
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welk deel van de 8 schapen is wit als er 6 wit zijn? Vereenvoudig.",
+      "answer": "3/4",
+      "require_simplified": true,
+      "hints": ["Begin met 6/8."],
+      "solution": ["6/8 = 3/4"],
+      "feedback": [{ "answer": "6/14", "message": "Je telde de schapen dubbel." }],
+      "topics": ["fractions", "counting"]
+    }
+  ]
+}

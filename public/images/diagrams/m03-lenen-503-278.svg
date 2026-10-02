@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" font-family="sans-serif" role="img" aria-labelledby="t">
+  <title id="t">Kolomsgewijs aftrekken met lenen over een nul: 503 − 278 = 225</title>
+  <rect x="0" y="0" width="560" height="300" fill="#ffffff"/>
+  <!-- kolomkoppen -->
+  <g font-size="15" fill="#1f2933" text-anchor="middle" font-weight="bold">
+    <text x="120" y="30">H</text>
+    <text x="180" y="30">T</text>
+    <text x="240" y="30">E</text>
+  </g>
+  <!-- na inwisselen -->
+  <g font-size="18" fill="#3b5bdb" text-anchor="middle">
+    <text x="120" y="75">4</text>
+    <text x="180" y="62" font-size="14" fill="#9c6b30">10</text>
+    <line x1="170" y1="58" x2="190" y2="52" stroke="#9c6b30" stroke-width="1.5"/>
+    <text x="180" y="82">9</text>
+    <text x="240" y="75">13</text>
+  </g>
+  <!-- bovenste getal -->
+  <g font-size="30" fill="#1f2933" text-anchor="middle">
+    <text x="120" y="122">5</text>
+    <text x="180" y="122">0</text>
+    <text x="240" y="122">3</text>
+  </g>
+  <g stroke="#3b5bdb" stroke-width="2">
+    <line x1="106" y1="120" x2="134" y2="96"/>
+    <line x1="166" y1="120" x2="194" y2="96"/>
+    <line x1="226" y1="120" x2="254" y2="96"/>
+  </g>
+  <!-- onderste getal -->
+  <g font-size="30" fill="#1f2933" text-anchor="middle">
+    <text x="64" y="172">−</text>
+    <text x="120" y="172">2</text>
+    <text x="180" y="172">7</text>
+    <text x="240" y="172">8</text>
+  </g>
+  <line x1="50" y1="188" x2="270" y2="188" stroke="#1f2933" stroke-width="2"/>
+  <!-- uitkomst -->
+  <g font-size="30" fill="#3b5bdb" text-anchor="middle" font-weight="bold">
+    <text x="120" y="230">2</text>
+    <text x="180" y="230">2</text>
+    <text x="240" y="230">5</text>
+  </g>
+  <!-- toelichting -->
+  <g font-size="14" fill="#1f2933">
+    <text x="300" y="66">1. 1 honderdtal → 10 tientallen</text>
+    <text x="300" y="88">2. 1 tiental → 10 eenheden</text>
+    <text x="300" y="118">503 = 4 H + 9 T + 13 E</text>
+    <text x="300" y="160">13 − 8 = 5</text>
+    <text x="300" y="182">9 − 7 = 2</text>
+    <text x="300" y="204">4 − 2 = 2</text>
+    <text x="300" y="236" fill="#3b5bdb">controle: 225 + 278 = 503</text>
+  </g>
+  <text x="280" y="280" font-size="13" fill="#9c6b30" text-anchor="middle">Lenen verandert de waarde niet: 400 + 90 + 13 = 503</text>
+</svg>

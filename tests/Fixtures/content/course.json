@@ -1,0 +1,13 @@
+{
+  "title": "Testcursus",
+  "subtitle": "Een kleine cursus voor de tests.",
+  "parts": [
+    { "number": 1, "roman": "I", "title": "Fundamenten", "level": "fundamenten", "modules": [1, 2] }
+  ],
+  "topics": {
+    "counting": "Tellen",
+    "multiplication": "Vermenigvuldigen",
+    "fractions": "Breuken",
+    "decimals": "Decimale getallen"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "slug": "tellen",
+  "title": "Tellen",
+  "part": 1,
+  "level": "fundamenten",
+  "status": "available",
+  "historical_period": "Prehistorie",
+  "estimated_difficulty": 1,
+  "estimated_minutes": 60,
+  "prerequisites": [],
+  "topics": ["counting", "multiplication"],
+  "core_question": "Wat is acht?",
+  "summary": "Testmodule.",
+  "learning_goals": ["Je kunt tellen."],
+  "glossary": [{ "term": "Hoeveelheid", "definition": "Hoeveel dingen er zijn." }],
+  "formulas": [{ "name": "Distributief", "latex": "a(b+c) = ab + ac", "usage": "Splitsen.", "origin": "Oudheid." }],
+  "lessons": [
+    { "slug": "introductie", "title": "Acht schapen", "file": "01-introductie.md", "kind": "intro" },
+    { "slug": "theorie", "title": "Vermenigvuldigen", "file": "02-theorie.md", "kind": "theory" }
+  ],
+  "timeline": ["ishango-been"],
+  "mathematicians": ["euclides"]
+}

@@ -43,7 +43,7 @@ Bij kleine getallen zie je meteen welke het grootst is. Bij grotere getallen wer
 **Antwoord.** $56 < 65 < 506 < 560 < 605$.
 :::
 
-{{ exercises: 01-012, 01-013 }}
+{{ exercises: 01-009, 01-010 }}
 
 ## Afstand en halverwege
 
@@ -80,7 +80,7 @@ Probeer het met de interactieve getallenlijn. Sleep het punt naar de plek die vo
 
 {{ widget: number-line min=20 max=40 value=30 }}
 
-{{ exercises: 01-009, 01-011, 01-014 }}
+{{ exercises: 01-011, 01-012, 01-013 }}
 
 ## Een schaalverdeling lezen
 
@@ -98,7 +98,7 @@ Niet elke getallenlijn heeft een streepje bij elk getal. Bij een liniaal, een th
 
 Soms zijn er helemaal geen tussenstreepjes en moet je **schatten**. Daarbij helpt het om de lijn in gedachten te halveren en nog eens te halveren: het midden van een lijn van 0 tot 1000 is 500, het midden tussen 500 en 1000 is 750. Een punt dat iets links van die 750 ligt, is dus ongeveer 700.
 
-{{ exercise: 01-010 }}
+{{ exercise: 01-014 }}
 
 ## Zelfstandig oefenen
 

@@ -71,7 +71,7 @@ Deze vergissing is zo bekend dat ze een eigen naam heeft: de *paaltjesfout* (in 
 **Controle.** Wie $7 + 6 = 13$ rekent, telt Anna twee keer: ze zit in de 7 én in de 6. Daarom: $7 + 6 - 1 = 12$.
 :::
 
-{{ exercises: 01-002, 01-003, 01-004, 01-005 }}
+{{ exercises: 01-001, 01-002, 01-003, 01-004 }}
 
 ## Turven: tellen in groepjes van vijf
 
@@ -101,7 +101,7 @@ Probeer het zelf met de interactieve turfteller. Kies een getal en kijk hoe het 
 
 Groeperen per vijf is niet de enige mogelijkheid. In China, Japan en Korea turft men vaak met het karakter 正, dat uit precies vijf penseelstreken bestaat. Op de oudste prehistorische kerfbeenderen is het niet altijd duidelijk of er gegroepeerd werd; daarover meer in het historisch intermezzo. Dat vijf zo'n populaire groepsgrootte is, ligt voor de hand: je hebt vijf vingers aan een hand.
 
-{{ exercise: 01-001 }}
+{{ exercise: 01-005 }}
 
 ## Tellen in sprongen
 

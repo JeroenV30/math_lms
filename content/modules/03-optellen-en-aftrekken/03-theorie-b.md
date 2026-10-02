@@ -17,14 +17,16 @@ Het cijferen op papier is dus geen nieuw idee, maar een manier om het werk van h
 ## Kolomsgewijs optellen
 
 :::theory De drie spelregels
+
 1. **Zet de getallen recht onder elkaar, rechts uitgelijnd.** Eenheden onder eenheden, tientallen onder tientallen. Een getal met minder cijfers schuift dus naar rechts.
 2. **Begin rechts**, bij de eenheden, en werk naar links.
 3. **Is een kolomsom 10 of meer**, schrijf dan alleen het eenhedencijfer van die kolomsom op en **onthoud** het tiental: dat telt mee in de volgende kolom links.
+
 :::
 
 Waarom rechts beginnen? Omdat het onthouden altijd naar *links* gaat. Begin je links, dan moet je later teruggaan om cijfers te verbeteren.
 
-:::example $4.586 + 3.237$
+:::example $4\,586 + 3\,237$
 Schrijf de getallen onder elkaar. Boven de kolommen noteer je klein wat je onthoudt.
 
 $$
@@ -40,8 +42,9 @@ $$
 - **Tientallen:** $8 + 3 + 1 = 12$. Schrijf 2, onthoud 1 (één honderdtal).
 - **Honderdtallen:** $5 + 2 + 1 = 8$. Schrijf 8, niets te onthouden.
 - **Duizendtallen:** $4 + 3 = 7$. Schrijf 7.
-- Uitkomst: $4.586 + 3.237 = 7.823$.
-- **Even schatten:** ongeveer $4.600 + 3.200 = 7.800$. De uitkomst is dus redelijk.
+- Uitkomst: $4\,586 + 3\,237 = 7\,823$.
+- **Even schatten:** ongeveer $4\,600 + 3\,200 = 7\,800$. De uitkomst is dus redelijk.
+
 :::
 
 Met de widget hieronder kun je deze som stap voor stap volgen. Let op het moment waarop het onthouden cijfer naar de volgende kolom gaat.
@@ -50,7 +53,7 @@ Met de widget hieronder kun je deze som stap voor stap volgen. Let op het moment
 
 Bij **drie of meer termen** werk je precies zo. Het enige verschil: een kolomsom kan nu 20 of meer zijn, en dan onthoud je 2 (of meer).
 
-:::example $1.248 + 3.976 + 587$
+:::example $1\,248 + 3\,976 + 587$
 $$
 \begin{array}{ccccc}
  & {\scriptstyle 1} & {\scriptstyle 2} & {\scriptstyle 2} & \\
@@ -65,7 +68,7 @@ $$
 - **Tientallen:** $4 + 7 + 8 + 2 = 21$. Schrijf 1, onthoud 2.
 - **Honderdtallen:** $2 + 9 + 5 + 2 = 18$. Schrijf 8, onthoud 1.
 - **Duizendtallen:** $1 + 3 + 1 = 5$. Schrijf 5.
-- Uitkomst: $5.811$. Schatting: $1.200 + 4.000 + 600 = 5.800$. Redelijk.
+- Uitkomst: $5\,811$. Schatting: $1\,200 + 4\,000 + 600 = 5\,800$. Redelijk.
 
 Let op: 587 heeft maar drie cijfers en staat daarom één plaats naar rechts. Wie hem links uitlijnt, telt 587 als 5.870.
 :::
@@ -79,6 +82,7 @@ Is in een kolom het bovenste cijfer te klein, dan **wissel je één eenheid van 
 :::
 
 :::example $503 - 278$
+
 - **Eenheden:** $3 - 8$ kan niet. Leen bij de tientallen. Maar daar staat 0: er zijn geen tientallen om in te wisselen.
 - Dus ga eerst naar de honderdtallen: wissel 1 honderdtal in voor 10 tientallen. De 5 wordt 4, de 0 wordt 10.
 - Wissel nu 1 van die 10 tientallen in voor 10 eenheden. De 10 tientallen worden 9, de 3 eenheden worden 13.
@@ -88,6 +92,7 @@ Is in een kolom het bovenste cijfer te klein, dan **wissel je één eenheid van 
 - **Honderdtallen:** $4 - 2 = 2$.
 - Uitkomst: $503 - 278 = 225$.
 - **Controle:** $225 + 278 = 503$. Klopt.
+
 :::
 
 ![Kolomsgewijze aftrekking 503 min 278 met doorgestreepte cijfers: 5 wordt 4, 0 wordt 9, 3 wordt 13](/images/diagrams/m03-lenen-503-278.svg "Lenen over een nul: 503 wordt ingewisseld tot 4 honderdtallen, 9 tientallen en 13 eenheden. Eigen diagram.")
@@ -100,8 +105,8 @@ Volg dezelfde aftrekking in de widget:
 
 Bij getallen als 2.000 of 10.000 moet je over een hele rij nullen heen lenen. Het patroon is altijd hetzelfde: het eerste cijfer dat geen nul is wordt 1 kleiner, alle nullen ertussen worden 9, en de eenheden krijgen er 10 bij.
 
-:::example $2.000 - 764$
-**Methode 1: lenen.** Wissel 1 duizendtal in. Er blijft 1 duizendtal over, en de 1.000 die je ingewisseld hebt, schrijf je als 9 honderdtallen, 9 tientallen en 10 eenheden ($900 + 90 + 10 = 1.000$).
+:::example $2\,000 - 764$
+**Methode 1: lenen.** Wissel 1 duizendtal in. Er blijft 1 duizendtal over, en de 1.000 die je ingewisseld hebt, schrijf je als 9 honderdtallen, 9 tientallen en 10 eenheden ($900 + 90 + 10 = 1\,000$).
 
 $$
 \begin{array}{ccccc}
@@ -113,7 +118,7 @@ $$
 $$
 
 - Eenheden: $10 - 4 = 6$. Tientallen: $9 - 6 = 3$. Honderdtallen: $9 - 7 = 2$. Duizendtallen: $1 - 0 = 1$.
-- Uitkomst: $1.236$.
+- Uitkomst: $1\,236$.
 
 **Methode 2: eerst gelijk verschuiven.** Trek van beide getallen 1 af. Het verschil blijft gelijk, maar nu hoef je helemaal niet meer te lenen:
 $$
@@ -127,10 +132,11 @@ Met 1.999 kan elk cijfer van 763 er direct vanaf: $9 - 3 = 6$, $9 - 6 = 3$, $9 -
 Bijna alle fouten bij kolomsgewijs rekenen zijn systematisch: wie ze maakt, maakt ze steeds weer op dezelfde manier. Daardoor kun je ze herkennen aan de uitkomst. In de oefeningen krijg je gerichte feedback als je in een van deze valkuilen stapt.
 
 :::warning Vijf klassieke fouten
+
 1. **Het kleinste van het grootste cijfer aftrekken.** Bij $503 - 278$ in de eenheden '$8 - 3 = 5$' doen in plaats van te lenen. In elke kolom wordt dan het kleinste cijfer van het grootste afgetrokken en komt er $375$ uit. Het verraderlijke: het ziet eruit als een nette berekening.
 2. **Wel lenen, maar het buurcijfer niet verlagen.** Bij $503 - 278$ wel $13 - 8 = 5$ en $10 - 7 = 3$ doen, maar vergeten dat de 5 een 4 had moeten worden: dan krijg je $335$ in plaats van $225$.
-3. **Fout lenen over nullen.** Bij $2.000 - 764$ elke nul als 10 behandelen in plaats van als 9: $10 - 4 = 6$, $10 - 6 = 4$, $10 - 7 = 3$, en dan $1.346$ in plaats van $1.236$.
-4. **Het onthouden vergeten.** Bij $4.586 + 3.237$ in elke kolom alleen het eenhedencijfer opschrijven: $7.713$ in plaats van $7.823$.
+3. **Fout lenen over nullen.** Bij $2\,000 - 764$ elke nul als 10 behandelen in plaats van als 9: $10 - 4 = 6$, $10 - 6 = 4$, $10 - 7 = 3$, en dan $1\,346$ in plaats van $1\,236$.
+4. **Het onthouden vergeten.** Bij $4\,586 + 3\,237$ in elke kolom alleen het eenhedencijfer opschrijven: $7\,713$ in plaats van $7\,823$.
 5. **Verkeerd uitlijnen.** Getallen links in plaats van rechts onder elkaar zetten, zodat eenheden bij tientallen worden opgeteld.
 
 De beste verdediging tegen al deze fouten is dezelfde: **schat vooraf** en **controleer achteraf met de omgekeerde bewerking**. Daarover gaat de volgende les.

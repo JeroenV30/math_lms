@@ -1,0 +1,359 @@
+{
+  "title": "Hoofdstuktoets – Wat is een getal?",
+  "intro": "15 vragen over hoeveelheid, tellen, de getallenlijn, vergelijken, even en oneven, patronen en oude getalsymbolen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "01-T01",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Hoeveel stellen deze turfstreepjes voor?",
+      "answer": 29,
+      "hints": [],
+      "solution": [
+        "Er zijn 5 volle groepjes van 5 en 4 losse streepjes.",
+        "In sprongen van vijf: 5, 10, 15, 20, 25.",
+        "Plus 4 losse streepjes: $25 + 4 = 29$."
+      ],
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Je hebt elk groepje als 4 geteld. De schuine streep is het vijfde streepje: elk groepje is 5."
+        }
+      ],
+      "topics": [
+        "counting"
+      ],
+      "context": "![Vijf volle turfgroepjes en vier losse streepjes](/images/diagrams/m01-turven-29.svg)"
+    },
+    {
+      "id": "01-T02",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Welk getal is $\\text{XXVIII}$?",
+      "answer": 28,
+      "hints": [],
+      "solution": [
+        "$\\text{XX} = 20$, $\\text{V} = 5$, $\\text{III} = 3$.",
+        "$20 + 5 + 3 = 28$."
+      ],
+      "topics": [
+        "number-systems"
+      ]
+    },
+    {
+      "id": "01-T03",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Welk getal is het grootst? 4.012, 4.102, 4.021, 4.201",
+      "answer": 4201,
+      "hints": [],
+      "solution": [
+        "Alle getallen hebben vier cijfers en beginnen met 4.",
+        "Vergelijk het tweede cijfer: 0, 1, 0, 2. Het grootste is 2.",
+        "Het grootste getal is **4.201**."
+      ],
+      "topics": [
+        "comparing"
+      ]
+    },
+    {
+      "id": "01-T04",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Welk getal ligt halverwege 50 en 90?",
+      "answer": 70,
+      "hints": [],
+      "solution": [
+        "De afstand is $90 - 50 = 40$; de helft is $20$.",
+        "$50 + 20 = 70$.",
+        "Controle: $(50 + 90) : 2 = 140 : 2 = 70$."
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "20 is de halve afstand. Zet die nog vanaf 50."
+        }
+      ],
+      "topics": [
+        "number-line"
+      ]
+    },
+    {
+      "id": "01-T05",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een herder legt 's ochtends voor elk schaap dat vertrekt één steentje in een bakje: 36 steentjes. 's Avonds haalt hij voor elk schaap dat terugkomt één steentje weg. Er komen 31 schapen terug. Hoeveel steentjes liggen er dan nog in het bakje?",
+      "answer": 5,
+      "hints": [],
+      "solution": [
+        "Voor elk van de 31 teruggekomen schapen is één steentje weggehaald.",
+        "Er blijven $36 - 31 = 5$ steentjes over: die horen bij de 5 schapen die nog ontbreken."
+      ],
+      "feedback": [
+        {
+          "answer": 67,
+          "message": "Je hebt 36 en 31 opgeteld. Voor elk teruggekomen schaap gaat er juist een steentje *weg*."
+        }
+      ],
+      "topics": [
+        "counting",
+        "number-sense"
+      ]
+    },
+    {
+      "id": "01-T06",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel getallen noem je als je telt van 25 tot en met 40?",
+      "answer": 16,
+      "hints": [],
+      "solution": [
+        "Van $a$ tot en met $b$ zijn er $b - a + 1$ getallen.",
+        "$40 - 25 + 1 = 16$."
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "$40 - 25 = 15$ is het aantal stappen. Het aantal getallen is één meer."
+        }
+      ],
+      "topics": [
+        "counting"
+      ]
+    },
+    {
+      "id": "01-T07",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De positieve even getallen zijn 2, 4, 6, … (2 is het eerste). Wat is het 12e even getal?",
+      "answer": 24,
+      "hints": [],
+      "solution": [
+        "Het $n$-de even getal is $2n$.",
+        "$2 \\times 12 = 24$."
+      ],
+      "feedback": [
+        {
+          "answer": 22,
+          "message": "22 is het 11e even getal. Het $n$-de even getal is $2n$."
+        },
+        {
+          "answer": 23,
+          "message": "23 is oneven."
+        }
+      ],
+      "topics": [
+        "even-odd"
+      ]
+    },
+    {
+      "id": "01-T08",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welk getal staat hieronder in Egyptische hiërogliefen? (Lotusbloem = 1.000, opgerold touw = 100, boog = 10, streep = 1.)",
+      "answer": 1352,
+      "hints": [],
+      "solution": [
+        "Er staan 1 lotusbloem, 3 touwrollen, 5 bogen en 2 streepjes.",
+        "$1\\,000 + 300 + 50 + 2 = 1\\,352$."
+      ],
+      "feedback": [
+        {
+          "answer": 11,
+          "message": "11 is het aantal tekens, niet de waarde."
+        }
+      ],
+      "topics": [
+        "number-systems"
+      ],
+      "context": "![Eén lotusbloem, drie touwrollen, vijf bogen en twee streepjes](/images/diagrams/m01-egyptisch-getal-b.svg)"
+    },
+    {
+      "id": "01-T09",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welk getal staat hieronder in Babylonisch spijkerschrift? (Een winkelhaak is 10, een verticale spijker is 1.)",
+      "answer": 25,
+      "hints": [],
+      "solution": [
+        "Er staan 2 winkelhaken en 5 spijkers.",
+        "$2 \\times 10 + 5 = 25$."
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "7 is het aantal tekens. Een winkelhaak is 10 waard."
+        }
+      ],
+      "topics": [
+        "number-systems"
+      ],
+      "context": "![Twee winkelhaken en vijf spijkers in spijkerschrift](/images/diagrams/m01-babylonisch-25.svg)"
+    },
+    {
+      "id": "01-T10",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bram staat in een rij. Hij is de 5e van voren en de 9e van achteren. Hoeveel mensen staan er in de rij?",
+      "answer": 13,
+      "hints": [],
+      "solution": [
+        "Vóór Bram staan 4 mensen, achter hem 8.",
+        "$4 + 1 + 8 = 13$. Ofwel: $5 + 9 - 1 = 13$."
+      ],
+      "feedback": [
+        {
+          "answer": 14,
+          "message": "Je hebt Bram twee keer geteld: $5 + 9$ bevat hem in beide getallen."
+        }
+      ],
+      "topics": [
+        "counting",
+        "number-sense"
+      ]
+    },
+    {
+      "id": "01-T11",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de afstand tussen 38 en 91 op de getallenlijn?",
+      "answer": 53,
+      "hints": [],
+      "solution": [
+        "Van 38 naar 40 zijn 2 stappen, van 40 naar 91 zijn 51 stappen.",
+        "$2 + 51 = 53$, ofwel $91 - 38 = 53$."
+      ],
+      "feedback": [
+        {
+          "answer": 129,
+          "message": "Je hebt de getallen opgeteld. De afstand is het verschil."
+        },
+        {
+          "answer": 54,
+          "message": "54 is het aantal getallen van 38 tot en met 91. De afstand (in stappen) is één minder."
+        }
+      ],
+      "topics": [
+        "number-line"
+      ]
+    },
+    {
+      "id": "01-T12",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welk jaartal is $\\text{MCDXCII}$?",
+      "answer": 1492,
+      "hints": [],
+      "solution": [
+        "Splits in blokken: $\\text{M} \\cdot \\text{CD} \\cdot \\text{XC} \\cdot \\text{II}$.",
+        "$\\text{M} = 1000$, $\\text{CD} = 500 - 100 = 400$, $\\text{XC} = 100 - 10 = 90$, $\\text{II} = 2$.",
+        "$1000 + 400 + 90 + 2 = 1492$."
+      ],
+      "feedback": [
+        {
+          "answer": 1712,
+          "message": "Je hebt alle tekens opgeteld. C vóór D en X vóór C worden afgetrokken."
+        }
+      ],
+      "topics": [
+        "number-systems"
+      ]
+    },
+    {
+      "id": "01-T13",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de 10e term van het patroon $5, 9, 13, 17, \\ldots$? (5 is de 1e term.)",
+      "answer": 41,
+      "hints": [],
+      "solution": [
+        "Er komt steeds 4 bij.",
+        "Van de 1e naar de 10e term zet je 9 stappen van 4: dat is 36.",
+        "$5 + 36 = 41$.",
+        "Controle door door te tellen: 5, 9, 13, 17, 21, 25, 29, 33, 37, 41."
+      ],
+      "feedback": [
+        {
+          "answer": 45,
+          "message": "Je hebt 10 stappen van 4 gezet. Van de 1e naar de 10e term zijn het er maar 9."
+        },
+        {
+          "answer": 21,
+          "message": "21 is de volgende (5e) term, niet de 10e."
+        }
+      ],
+      "topics": [
+        "patterns"
+      ]
+    },
+    {
+      "id": "01-T14",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Iemand legt lucifers als driehoeken op een rij, waarbij naast elkaar liggende driehoeken een lucifer delen: 1 driehoek kost 3 lucifers, 2 driehoeken kosten 5 lucifers, 3 driehoeken kosten 7 lucifers. Hoeveel lucifers zijn er nodig voor 12 driehoeken?",
+      "answer": 25,
+      "hints": [],
+      "solution": [
+        "Elke extra driehoek kost 2 lucifers, omdat hij een lucifer deelt met de vorige.",
+        "De eerste driehoek kost 3 lucifers; de volgende 11 driehoeken kosten elk 2 lucifers, samen 22.",
+        "$3 + 22 = 25$ lucifers."
+      ],
+      "feedback": [
+        {
+          "answer": 36,
+          "message": "Je hebt elke driehoek als 3 lucifers geteld, maar naast elkaar liggende driehoeken delen een lucifer."
+        },
+        {
+          "answer": 24,
+          "message": "Je hebt 12 keer 2 gerekend. De eerste driehoek kost 3 lucifers."
+        }
+      ],
+      "topics": [
+        "patterns"
+      ]
+    },
+    {
+      "id": "01-T15",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Hoeveel oneven getallen liggen er tussen 100 en 200?",
+      "answer": 50,
+      "hints": [],
+      "solution": [
+        "100 en 200 zijn even en tellen dus niet mee. Het eerste oneven getal is 101, het laatste 199.",
+        "Van 101 tot en met 199 zijn $199 - 101 + 1 = 99$ getallen. Ze beginnen en eindigen met een oneven getal en wisselen af: oneven, even, oneven, …",
+        "Van 99 afwisselende getallen die oneven beginnen en eindigen, zijn er 50 oneven en 49 even.",
+        "Andere manier: 199 is het 100e oneven getal en 99 het 50e, dus er liggen $100 - 50 = 50$ oneven getallen tussen 100 en 200."
+      ],
+      "feedback": [
+        {
+          "answer": 49,
+          "message": "Controleer de uiteinden: zowel 101 als 199 is oneven en ligt tussen 100 en 200."
+        },
+        {
+          "answer": 100,
+          "message": "Tussen 100 en 200 liggen 99 getallen, en daarvan is ongeveer de helft oneven."
+        }
+      ],
+      "topics": [
+        "even-odd",
+        "counting"
+      ]
+    }
+  ]
+}

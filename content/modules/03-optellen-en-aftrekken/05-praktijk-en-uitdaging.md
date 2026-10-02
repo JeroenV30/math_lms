@@ -50,14 +50,17 @@ Een stad begroot voor een jaar 15.000 gulden aan tolontvangsten. Over de vier kw
 - Tekort ten opzichte van de begroting: $15\,000 - 14\,547 = 453$ gulden.
 - Snelle berekening van het tekort door aanvullen: van 14.547 naar 14.550 is 3, naar 14.600 nog 50, naar 15.000 nog 400. Samen $3 + 50 + 400 = 453$.
 - Controle met de omgekeerde bewerking: $14\,547 + 453 = 15\,000$. Klopt.
+
 :::
 
 :::tip Een stappenplan voor contextopgaven
+
 1. **Lees** en zet de gegevens in een rijtje of tabel: wat is de beginstand, wat komt erbij, wat gaat eraf?
 2. **Schat** de uitkomst met afgeronde getallen.
 3. **Reken** exact, per stap of per soort.
 4. **Controleer** met de andere route, of met de omgekeerde bewerking.
 5. **Beoordeel**: past het antwoord bij je schatting en bij de situatie? Een voorraad van −200 zakken of een kasstand van een miljoen in een dorpskas zijn verdacht.
+
 :::
 
 ## Zelfstandig oefenen

@@ -28,7 +28,7 @@ Het voordeel van dit systeem is dat het heel doorzichtig is: wat je ziet, tel je
 
 Er is nog een interessant verschil. Om 21.507 te schrijven, zet een Egyptenaar 2 vingers, 1 lotus, 5 touwrollen en 7 streepjes. Dat er geen tientallen zijn, zie je simpelweg doordat er geen bogen staan. Wij moeten in 21.507 juist een **0** schrijven om de lege plek aan te geven. Waarom dat zo is, en hoe lang het duurde voordat de nul bestond, is het onderwerp van module 2.
 
-{{ exercises: 01-029, 01-030 }}
+{{ exercises: 01-027, 01-028 }}
 
 ## Babylonisch spijkerschrift (kort)
 
@@ -77,9 +77,8 @@ De aftrekregel was in de Oudheid lang niet zo vast als nu. Op de genummerde toeg
 :::
 
 ![Ingang LII van het Colosseum met het getal boven de boog](/images/history/m01-colosseum-ingang-lii.jpg "Ingang LII (52) van het Colosseum in Rome. Foto: WarpFlyght, Wikimedia Commons, CC BY-SA 3.0.")
-:::
 
-{{ exercises: 01-027, 01-028 }}
+{{ exercises: 01-029, 01-030 }}
 
 ## Wat maakt een getalsysteem goed?
 

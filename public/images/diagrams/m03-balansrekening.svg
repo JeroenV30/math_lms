@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 240" font-family="sans-serif" role="img" aria-labelledby="t">
+  <title id="t">Opbouw van een Sumerische balansrekening</title>
+  <defs>
+    <marker id="pijl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f2933"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="240" fill="#ffffff"/>
+  <!-- blok 1 -->
+  <rect x="20" y="50" width="190" height="120" rx="8" fill="#f1f3f5" stroke="#9c6b30" stroke-width="2"/>
+  <text x="115" y="82" text-anchor="middle" font-size="16" font-weight="bold" fill="#1f2933">Beginbestand</text>
+  <text x="115" y="104" text-anchor="middle" font-size="16" font-weight="bold" fill="#1f2933">+ ontvangsten</text>
+  <text x="115" y="132" text-anchor="middle" font-size="13" font-style="italic" fill="#9c6b30">sag-nig₂-ga-ra</text>
+  <text x="115" y="152" text-anchor="middle" font-size="12" fill="#1f2933">('kapitaal')</text>
+  <!-- blok 2 -->
+  <rect x="255" y="50" width="190" height="120" rx="8" fill="#f1f3f5" stroke="#9c6b30" stroke-width="2"/>
+  <text x="350" y="92" text-anchor="middle" font-size="16" font-weight="bold" fill="#1f2933">− uitgaven</text>
+  <text x="350" y="122" text-anchor="middle" font-size="13" font-style="italic" fill="#9c6b30">zi-ga</text>
+  <text x="350" y="142" text-anchor="middle" font-size="12" fill="#1f2933">('uitgegeven')</text>
+  <!-- blok 3 -->
+  <rect x="490" y="50" width="190" height="120" rx="8" fill="#f1f3f5" stroke="#3b5bdb" stroke-width="2"/>
+  <text x="585" y="92" text-anchor="middle" font-size="16" font-weight="bold" fill="#3b5bdb">= saldo</text>
+  <text x="585" y="122" text-anchor="middle" font-size="13" fill="#1f2933">tekort of overschot</text>
+  <text x="585" y="142" text-anchor="middle" font-size="12" fill="#1f2933">van de ambtenaar</text>
+  <line x1="212" y1="110" x2="250" y2="110" stroke="#1f2933" stroke-width="2" marker-end="url(#pijl)"/>
+  <line x1="447" y1="110" x2="485" y2="110" stroke="#1f2933" stroke-width="2" marker-end="url(#pijl)"/>
+  <text x="350" y="210" text-anchor="middle" font-size="15" fill="#1f2933">eindstand = beginstand + ontvangsten − uitgaven</text>
+</svg>

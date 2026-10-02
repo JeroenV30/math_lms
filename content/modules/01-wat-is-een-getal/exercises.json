@@ -1,0 +1,1235 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een herder stopt 's ochtends voor elk schaap dat de wei in gaat één steentje in een zak. Er gaan 48 schapen naar buiten. 's Avonds haalt hij voor elk schaap dat terugkomt één steentje uit de zak. Als het laatste schaap binnen is, zitten er nog 3 steentjes in de zak. Hoeveel schapen zijn er teruggekomen?",
+      "answer": 45,
+      "hints": [
+        "Elk steentje dat er nog in zit, hoort bij een schaap dat níét is teruggekomen.",
+        "Er waren 48 steentjes. Hoeveel zijn er 's avonds uitgehaald?"
+      ],
+      "solution": [
+        "Elk teruggekomen schaap heeft één steentje uit de zak 'gehaald'.",
+        "Er bleven 3 steentjes over: die horen bij 3 schapen die ontbreken.",
+        "Teruggekomen: $48 - 3 = 45$ schapen."
+      ],
+      "feedback": [
+        {
+          "answer": 51,
+          "message": "Je hebt de 3 overgebleven steentjes erbij opgeteld. Maar die steentjes horen bij schapen die *ontbreken*, dus je moet ze ervan aftrekken."
+        },
+        {
+          "answer": 3,
+          "message": "3 is het aantal schapen dat ontbreekt. De vraag is hoeveel er wél zijn teruggekomen."
+        }
+      ],
+      "topics": [
+        "counting",
+        "number-sense"
+      ]
+    },
+    {
+      "id": "01-002",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bij een hardloopwedstrijd komt Ahmed als 4e over de finish. Hoeveel lopers waren er vóór hem binnen?",
+      "answer": 3,
+      "hints": [
+        "'De 4e' is een plaats (ordinaal). Welke plaatsen komen ervoor?",
+        "Noem de plaatsen op: 1e, 2e, 3e, …"
+      ],
+      "solution": [
+        "Vóór Ahmed eindigden de lopers op de 1e, 2e en 3e plaats.",
+        "Dat zijn **3** lopers."
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "4 is Ahmeds eigen plaats. Vóór hem eindigden alleen de nummers 1, 2 en 3."
+        }
+      ],
+      "topics": [
+        "counting",
+        "number-sense"
+      ]
+    },
+    {
+      "id": "01-003",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Anna staat in een rij voor de kassa. Ze is de 7e van voren en de 6e van achteren. Hoeveel mensen staan er in de rij?",
+      "answer": 12,
+      "hints": [
+        "Hoeveel mensen staan er vóór Anna? En hoeveel achter haar?",
+        "Vergeet Anna zelf niet, maar tel haar ook niet twee keer."
+      ],
+      "solution": [
+        "De 7e van voren: er staan 6 mensen vóór Anna.",
+        "De 6e van achteren: er staan 5 mensen achter Anna.",
+        "Samen met Anna: $6 + 1 + 5 = 12$ mensen.",
+        "Controle: $7 + 6 - 1 = 12$, omdat Anna zowel in de 7 als in de 6 is meegeteld."
+      ],
+      "feedback": [
+        {
+          "answer": 13,
+          "message": "Je hebt $7 + 6$ gerekend. Daarmee tel je Anna twee keer: ze zit in 'de 7e van voren' én in 'de 6e van achteren'."
+        },
+        {
+          "answer": 11,
+          "message": "Je bent Anna zelf vergeten. Zij staat ook in de rij."
+        }
+      ],
+      "topics": [
+        "counting",
+        "number-sense"
+      ]
+    },
+    {
+      "id": "01-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Hoeveel getallen noem je als je telt van 13 tot en met 21?",
+      "answer": 9,
+      "hints": [
+        "Schrijf ze uit en tel ze, of gebruik de regel voor 'van … tot en met …'.",
+        "Het verschil $21 - 13$ geeft het aantal *stappen*, niet het aantal getallen."
+      ],
+      "solution": [
+        "De getallen zijn 13, 14, 15, 16, 17, 18, 19, 20, 21.",
+        "Met de regel: $21 - 13 + 1 = 9$.",
+        "Het zijn er **9**."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Je hebt $21 - 13 = 8$ gerekend: dat is het aantal stappen van 13 naar 21. Het aantal getallen is één meer (de paaltjesfout)."
+        }
+      ],
+      "topics": [
+        "counting"
+      ]
+    },
+    {
+      "id": "01-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Hoeveel stellen deze turfstreepjes voor?",
+      "answer": 17,
+      "hints": [
+        "Tel eerst de volle groepjes. Eén groepje (vier rechte streepjes met een schuine erdoor) is 5.",
+        "Tel in sprongen van vijf en tel daarna de losse streepjes erbij."
+      ],
+      "solution": [
+        "Er zijn 3 volle groepjes en 2 losse streepjes.",
+        "In sprongen van vijf: 5, 10, 15.",
+        "Daarna de losse streepjes: 16, 17.",
+        "Het antwoord is **17**."
+      ],
+      "feedback": [
+        {
+          "answer": 14,
+          "message": "Je hebt elk groepje als 4 geteld. De schuine streep is het vijfde streepje van het groepje: elk groepje is 5."
+        },
+        {
+          "answer": 15,
+          "message": "Je hebt de volle groepjes goed geteld, maar de twee losse streepjes vergeten."
+        }
+      ],
+      "topics": [
+        "counting"
+      ],
+      "context": "![Drie volle turfgroepjes en twee losse streepjes](/images/diagrams/m01-turven-17.svg)"
+    },
+    {
+      "id": "01-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je telt in sprongen van 5, te beginnen bij 0: 5, 10, 15, … Welk getal noem je bij de 12e sprong?",
+      "answer": 60,
+      "hints": [
+        "Na 1 sprong ben je bij 5, na 2 sprongen bij 10.",
+        "Elke sprong brengt je 5 verder. Tel door tot de 12e sprong, of tel 12 keer 5."
+      ],
+      "solution": [
+        "Sprongen: 5 (1), 10 (2), 15 (3), 20 (4), 25 (5), 30 (6), 35 (7), 40 (8), 45 (9), 50 (10), 55 (11), 60 (12).",
+        "Bij de 12e sprong noem je **60** (dat is $12 \\times 5$)."
+      ],
+      "feedback": [
+        {
+          "answer": 55,
+          "message": "Dat is de 11e sprong. Controleer of je de eerste sprong (naar 5) hebt meegeteld."
+        },
+        {
+          "answer": 17,
+          "message": "Je hebt 12 en 5 opgeteld. Maar je zet 12 sprongen van elk 5."
+        }
+      ],
+      "topics": [
+        "counting",
+        "patterns"
+      ]
+    },
+    {
+      "id": "01-007",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een bakker turft op een dag de verkochte broden. Aan het eind van de dag staan er 12 volle groepjes en 3 losse streepjes. Hoeveel broden heeft hij verkocht?",
+      "answer": 63,
+      "hints": [
+        "Elk vol groepje is 5 broden.",
+        "Tel 12 groepjes in sprongen van vijf: 5, 10, …, en tel dan de losse streepjes erbij."
+      ],
+      "solution": [
+        "12 volle groepjes van 5 zijn samen 60 (tel maar: 5, 10, 15, …, 60).",
+        "Daarbij komen 3 losse streepjes: $60 + 3 = 63$.",
+        "De bakker heeft **63** broden verkocht."
+      ],
+      "feedback": [
+        {
+          "answer": 51,
+          "message": "Je hebt elk groepje als 4 geteld. Elk groepje heeft vier rechte en één schuine streep: dat is 5."
+        },
+        {
+          "answer": 15,
+          "message": "Je hebt de groepjes en de losse streepjes bij elkaar opgeteld, maar elk groepje telt voor 5 broden."
+        }
+      ],
+      "topics": [
+        "counting"
+      ]
+    },
+    {
+      "id": "01-008",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Je turft het getal 23. Hoeveel **schuine** streepjes zet je?",
+      "answer": 4,
+      "hints": [
+        "Elk vol groepje van vijf heeft precies één schuine streep.",
+        "Hoeveel volle groepjes van vijf passen er in 23?"
+      ],
+      "solution": [
+        "$23 = 5 + 5 + 5 + 5 + 3$: vier volle groepjes en 3 losse streepjes.",
+        "Alleen volle groepjes krijgen een schuine streep.",
+        "Je zet **4** schuine streepjes."
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je hebt naar boven afgerond. De laatste 3 streepjes vormen geen vol groepje en krijgen dus geen schuine streep."
+        },
+        {
+          "answer": 23,
+          "message": "23 is het totale aantal streepjes. De vraag is hoeveel daarvan schuin zijn."
+        }
+      ],
+      "topics": [
+        "counting"
+      ]
+    },
+    {
+      "id": "01-009",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welk getal is het grootst? 389, 398, 93, 3.089, 938",
+      "answer": 3089,
+      "hints": [
+        "Kijk eerst naar het aantal cijfers.",
+        "Een getal met vier cijfers is altijd groter dan een getal met drie cijfers."
+      ],
+      "solution": [
+        "93 heeft twee cijfers; 389, 398 en 938 hebben er drie; 3.089 heeft er vier.",
+        "Het getal met de meeste cijfers is het grootst: **3.089**."
+      ],
+      "feedback": [
+        {
+          "answer": 938,
+          "message": "938 begint met het grootste cijfer, maar 3.089 heeft meer cijfers. Vergelijk eerst het aantal cijfers."
+        }
+      ],
+      "topics": [
+        "comparing"
+      ]
+    },
+    {
+      "id": "01-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welk getal is het kleinst? 506, 560, 65, 605, 56",
+      "answer": 56,
+      "hints": [
+        "Begin bij de getallen met de minste cijfers.",
+        "Van 65 en 56: welke heeft het kleinste eerste cijfer?"
+      ],
+      "solution": [
+        "De getallen met twee cijfers zijn 65 en 56; die zijn kleiner dan alle getallen met drie cijfers.",
+        "Vergelijk 56 en 65: het eerste cijfer is 5 tegen 6, en $5 < 6$.",
+        "Het kleinste getal is **56**."
+      ],
+      "feedback": [
+        {
+          "answer": 65,
+          "message": "65 en 56 hebben allebei twee cijfers. Vergelijk het eerste cijfer: 5 is kleiner dan 6."
+        },
+        {
+          "answer": 506,
+          "message": "506 is het kleinste getal van drie cijfers, maar er zijn ook getallen met maar twee cijfers."
+        }
+      ],
+      "topics": [
+        "comparing"
+      ]
+    },
+    {
+      "id": "01-011",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welk getal ligt op de getallenlijn precies halverwege 20 en 40?",
+      "answer": 30,
+      "hints": [
+        "Hoe groot is de afstand van 20 naar 40?",
+        "Neem de helft van die afstand en zet die stap vanaf 20."
+      ],
+      "solution": [
+        "De afstand is $40 - 20 = 20$.",
+        "De helft daarvan is $10$.",
+        "$20 + 10 = 30$. Halverwege ligt **30**.",
+        "Controle: $(20 + 40) : 2 = 60 : 2 = 30$."
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "10 is de *halve afstand*. Je moet die nog vanaf 20 zetten."
+        },
+        {
+          "answer": 60,
+          "message": "Je hebt 20 en 40 opgeteld, maar nog niet door 2 gedeeld."
+        }
+      ],
+      "topics": [
+        "number-line"
+      ]
+    },
+    {
+      "id": "01-012",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Hoeveel stappen van 1 liggen er op de getallenlijn tussen 17 en 45? (Met andere woorden: wat is de afstand tussen 17 en 45?)",
+      "answer": 28,
+      "hints": [
+        "De afstand is het verschil tussen het grootste en het kleinste getal.",
+        "Reken $45 - 17$. Splits eventueel: van 17 naar 20, en van 20 naar 45."
+      ],
+      "solution": [
+        "Van 17 naar 20 zijn 3 stappen.",
+        "Van 20 naar 45 zijn 25 stappen.",
+        "Samen: $3 + 25 = 28$. Dat is hetzelfde als $45 - 17 = 28$."
+      ],
+      "feedback": [
+        {
+          "answer": 62,
+          "message": "Je hebt 17 en 45 opgeteld. De afstand is het *verschil*: $45 - 17$."
+        },
+        {
+          "answer": 29,
+          "message": "29 is het aantal *getallen* van 17 tot en met 45. De vraag gaat over het aantal *stappen*, en dat is één minder."
+        }
+      ],
+      "topics": [
+        "number-line"
+      ]
+    },
+    {
+      "id": "01-013",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Hoeveel gehele getallen liggen er **tussen** 12 en 20? (12 en 20 zelf tellen niet mee.)",
+      "answer": 7,
+      "hints": [
+        "Schrijf de getallen tussen 12 en 20 op.",
+        "Of: van 13 tot en met 19 zijn $19 - 13 + 1$ getallen."
+      ],
+      "solution": [
+        "De getallen strikt tussen 12 en 20 zijn 13, 14, 15, 16, 17, 18, 19.",
+        "Met de regel: van 13 tot en met 19 zijn $19 - 13 + 1 = 7$ getallen.",
+        "Het antwoord is **7**."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "$20 - 12 = 8$ is het aantal stappen. De getallen *ertussen* zijn er één minder dan de stappen."
+        },
+        {
+          "answer": 9,
+          "message": "Je hebt 12 en 20 zelf meegeteld. De vraag gaat over de getallen die er strikt tussen liggen."
+        }
+      ],
+      "topics": [
+        "number-line",
+        "counting"
+      ]
+    },
+    {
+      "id": "01-014",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een getallenlijn loopt van 0 tot 50 en is met streepjes verdeeld in 10 gelijke stukken. Welk getal hoort bij het 3e streepje na 0?",
+      "answer": 15,
+      "hints": [
+        "Bepaal eerst hoeveel één stuk waard is: 10 gelijke stukken samen zijn 50.",
+        "Het 3e streepje ligt drie stukken na 0."
+      ],
+      "solution": [
+        "10 gelijke stukken maken samen 50, dus één stuk is 5 waard (want $10$ keer $5$ is $50$).",
+        "Drie stukken na 0: 5, 10, 15.",
+        "Bij het 3e streepje hoort **15**."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Je hebt aangenomen dat elk streepje 1 verder is. Op deze lijn is één stuk 5 waard."
+        },
+        {
+          "answer": 30,
+          "message": "Je hebt elk stuk als 10 geteld. Controleer: 10 stukken van 10 zou 100 zijn, niet 50."
+        }
+      ],
+      "topics": [
+        "number-line"
+      ]
+    },
+    {
+      "id": "01-015",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welk getal ligt halverwege 37 en 83?",
+      "answer": 60,
+      "hints": [
+        "Bereken de afstand van 37 naar 83 en neem daarvan de helft.",
+        "Of tel de twee getallen op en deel door 2."
+      ],
+      "solution": [
+        "De afstand is $83 - 37 = 46$.",
+        "De helft daarvan is $23$.",
+        "$37 + 23 = 60$.",
+        "Controle: $(37 + 83) : 2 = 120 : 2 = 60$."
+      ],
+      "feedback": [
+        {
+          "answer": 23,
+          "message": "23 is de halve afstand. Zet die stap nog vanaf 37."
+        },
+        {
+          "answer": 46,
+          "message": "46 is de hele afstand tussen de twee getallen, niet het getal halverwege."
+        },
+        {
+          "answer": 120,
+          "message": "Je hebt 37 en 83 opgeteld. Deel de som nog door 2."
+        }
+      ],
+      "topics": [
+        "number-line"
+      ]
+    },
+    {
+      "id": "01-016",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Op een getallenlijn ligt punt $A$ bij 34. Punt $B$ ligt 18 stappen rechts van $A$. Welk getal ligt precies halverwege $A$ en $B$?",
+      "answer": 43,
+      "hints": [
+        "Je hoeft $B$ niet eens uit te rekenen: halverwege ligt op de helft van de 18 stappen.",
+        "De helft van 18 stappen is 9 stappen. Zet die vanaf $A$."
+      ],
+      "solution": [
+        "De afstand van $A$ naar $B$ is 18 stappen, dus halverwege ligt 9 stappen rechts van $A$.",
+        "$34 + 9 = 43$.",
+        "Controle: $B$ ligt bij $34 + 18 = 52$, en $(34 + 52) : 2 = 86 : 2 = 43$."
+      ],
+      "feedback": [
+        {
+          "answer": 52,
+          "message": "52 is de plaats van punt $B$. Gevraagd is het getal halverwege $A$ en $B$."
+        },
+        {
+          "answer": 9,
+          "message": "9 is de halve afstand. Zet die nog vanaf 34."
+        }
+      ],
+      "topics": [
+        "number-line"
+      ]
+    },
+    {
+      "id": "01-017",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De getallenlijn hieronder loopt van 0 tot 1000, zonder tussenstreepjes. Schat bij welk getal punt $P$ ligt. Geef je schatting in hele honderdtallen; antwoorden die hooguit 50 afwijken, worden goed gerekend.",
+      "answer": 700,
+      "hints": [
+        "Halveer de lijn in gedachten: waar ligt 500?",
+        "Halveer het rechterstuk nog een keer: waar ligt 750? Ligt $P$ daar links of rechts van?"
+      ],
+      "solution": [
+        "Het midden van de lijn is 500; $P$ ligt rechts daarvan.",
+        "Het midden tussen 500 en 1000 is 750; $P$ ligt iets links daarvan.",
+        "$P$ ligt dus tussen 500 en 750, dicht bij 750: ongeveer **700**."
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je hebt de lijn gelezen alsof hij tot 10 loopt. Kijk naar het getal aan het rechteruiteinde: 1000."
+        }
+      ],
+      "topics": [
+        "number-line",
+        "number-sense"
+      ],
+      "tolerance": 50,
+      "context": "![Getallenlijn van 0 tot 1000 met een punt P](/images/diagrams/m01-schatten-getallenlijn.svg)"
+    },
+    {
+      "id": "01-018",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de getallen 47, 74, 407, 470 en 44 op volgorde van klein naar groot. Welk getal staat dan op de **derde** plaats?",
+      "answer": 74,
+      "hints": [
+        "Sorteer eerst op aantal cijfers.",
+        "Binnen de getallen met twee cijfers: vergelijk het eerste cijfer, en bij gelijke eerste cijfers het tweede."
+      ],
+      "solution": [
+        "Twee cijfers: 44, 47, 74. Drie cijfers: 407, 470.",
+        "Van klein naar groot: $44 < 47 < 74 < 407 < 470$.",
+        "Op de derde plaats staat **74**."
+      ],
+      "feedback": [
+        {
+          "answer": 407,
+          "message": "407 staat op de vierde plaats. Je bent waarschijnlijk 44 vergeten."
+        },
+        {
+          "answer": 47,
+          "message": "47 staat op de tweede plaats. Vergeet 44 niet: dat is het kleinste getal."
+        }
+      ],
+      "topics": [
+        "comparing",
+        "number-sense"
+      ]
+    },
+    {
+      "id": "01-019",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "De positieve even getallen zijn 2, 4, 6, 8, … Daarbij is 2 het eerste even getal. Het hoeveelste even getal is 18?",
+      "answer": 9,
+      "hints": [
+        "Het $n$-de even getal is $2n$.",
+        "Welk getal moet je verdubbelen om 18 te krijgen?"
+      ],
+      "solution": [
+        "Het $n$-de even getal is $2n$, dus $2n = 18$.",
+        "De helft van 18 is 9, dus $n = 9$.",
+        "Controle door te tellen: 2, 4, 6, 8, 10, 12, 14, 16, 18: dat is het **9e** even getal."
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Je hebt 0 als eerste even getal meegeteld. In deze opgave is 2 het eerste even getal."
+        },
+        {
+          "answer": 36,
+          "message": "Je hebt 18 verdubbeld. Het omgekeerde is nodig: welk getal levert verdubbeld 18 op?"
+        }
+      ],
+      "topics": [
+        "even-odd"
+      ]
+    },
+    {
+      "id": "01-020",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "De oneven getallen zijn 1, 3, 5, 7, … Wat is het 15e oneven getal?",
+      "answer": 29,
+      "hints": [
+        "Het $n$-de oneven getal is $2n - 1$.",
+        "Het 15e even getal is $2 \\times 15 = 30$. Het 15e oneven getal ligt daar één onder."
+      ],
+      "solution": [
+        "Het $n$-de oneven getal is $2n - 1$.",
+        "Voor $n = 15$: $2 \\times 15 - 1 = 30 - 1 = 29$.",
+        "Controle met kleine gevallen: het 1e oneven getal is $2 - 1 = 1$, het 3e is $6 - 1 = 5$. Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": 30,
+          "message": "30 is het 15e *even* getal. Het 15e oneven getal ligt één lager."
+        },
+        {
+          "answer": 31,
+          "message": "31 is het 16e oneven getal. Gebruik $2n - 1$ en niet $2n + 1$."
+        },
+        {
+          "answer": 15,
+          "message": "15 is zelf oneven, maar het is het 8e oneven getal, niet het 15e."
+        }
+      ],
+      "topics": [
+        "even-odd"
+      ]
+    },
+    {
+      "id": "01-021",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat is de volgende term in het patroon $3, 7, 11, 15, \\ldots$?",
+      "answer": 19,
+      "hints": [
+        "Bereken de verschillen tussen opeenvolgende termen.",
+        "Er komt steeds hetzelfde getal bij."
+      ],
+      "solution": [
+        "Verschillen: $7 - 3 = 4$, $11 - 7 = 4$, $15 - 11 = 4$.",
+        "Er komt steeds 4 bij.",
+        "Volgende term: $15 + 4 = 19$."
+      ],
+      "feedback": [
+        {
+          "answer": 18,
+          "message": "Kijk nog eens naar de verschillen: die zijn steeds 4, niet 3."
+        },
+        {
+          "answer": 17,
+          "message": "Je hebt er 2 bij geteld. Het verschil tussen de termen is 4."
+        }
+      ],
+      "topics": [
+        "patterns"
+      ]
+    },
+    {
+      "id": "01-022",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is de volgende term in het patroon $1, 2, 4, 7, 11, \\ldots$?",
+      "answer": 16,
+      "hints": [
+        "Schrijf de verschillen tussen de termen op.",
+        "De verschillen vormen zelf ook een patroon."
+      ],
+      "solution": [
+        "Verschillen: $1, 2, 3, 4$.",
+        "Het verschil wordt telkens één groter, dus het volgende verschil is 5.",
+        "Volgende term: $11 + 5 = 16$."
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Je hebt er weer 4 bij geteld. Maar de verschillen worden steeds één groter: 1, 2, 3, 4, en dan 5."
+        },
+        {
+          "answer": 22,
+          "message": "Je hebt de laatste term verdubbeld. Dat klopt bij 1, 2, 4, maar niet bij 4, 7, 11. Kijk naar de verschillen."
+        }
+      ],
+      "topics": [
+        "patterns"
+      ]
+    },
+    {
+      "id": "01-023",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel **oneven** getallen liggen er tussen 10 en 30?",
+      "answer": 10,
+      "hints": [
+        "10 en 30 zijn zelf even, dus die tellen sowieso niet mee.",
+        "Het eerste oneven getal na 10 is 11, het laatste vóór 30 is 29. Tel in sprongen van 2."
+      ],
+      "solution": [
+        "De oneven getallen zijn 11, 13, 15, 17, 19, 21, 23, 25, 27, 29.",
+        "Dat zijn er **10**.",
+        "Andere manier: van 1 tot en met 29 zijn er 15 oneven getallen (29 is het 15e), en van 1 tot en met 9 zijn er 5. Dus $15 - 5 = 10$."
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Tussen 10 en 30 liggen 19 getallen, maar maar ongeveer de helft daarvan is oneven."
+        },
+        {
+          "answer": 9,
+          "message": "Controleer of je 29 hebt meegeteld; 29 ligt nog vóór 30."
+        }
+      ],
+      "topics": [
+        "even-odd",
+        "counting"
+      ]
+    },
+    {
+      "id": "01-024",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de volgende term in het patroon $2, 6, 18, 54, \\ldots$?",
+      "answer": 162,
+      "hints": [
+        "De verschillen (4, 12, 36) zijn niet gelijk. Kijk daarom naar de termen zelf.",
+        "Met welk getal vermenigvuldig je 2 om 6 te krijgen? En 6 om 18 te krijgen?"
+      ],
+      "solution": [
+        "$2 \\times 3 = 6$, $6 \\times 3 = 18$, $18 \\times 3 = 54$: elke term is drie keer de vorige.",
+        "Volgende term: $54 \\times 3 = 162$.",
+        "Controle via de verschillen: 4, 12, 36 worden ook steeds drie keer zo groot; het volgende verschil is 108, en $54 + 108 = 162$."
+      ],
+      "feedback": [
+        {
+          "answer": 90,
+          "message": "Je hebt het laatste verschil (36) nog een keer opgeteld. Maar de verschillen zijn niet gelijk: ze worden steeds drie keer zo groot."
+        },
+        {
+          "answer": 108,
+          "message": "Je hebt de laatste term verdubbeld. Het patroon is 'keer 3', niet 'keer 2'."
+        }
+      ],
+      "topics": [
+        "patterns"
+      ]
+    },
+    {
+      "id": "01-025",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Iemand legt lucifers als vierkanten op een rij: 1 vierkant kost 4 lucifers, 2 vierkanten kosten 7 lucifers, 3 vierkanten kosten 10 lucifers. Hoeveel lucifers zijn er nodig voor 10 vierkanten op een rij?",
+      "answer": 31,
+      "hints": [
+        "Hoeveel lucifers komen er bij als je één vierkant toevoegt? Waarom niet 4?",
+        "Het eerste vierkant kost 4 lucifers; elk van de volgende 9 vierkanten kost 3 extra lucifers."
+      ],
+      "solution": [
+        "Elk nieuw vierkant deelt een zijkant met het vorige, dus er komen steeds 3 lucifers bij: 4, 7, 10, 13, …",
+        "Het eerste vierkant kost 4 lucifers. Daarna komen er nog 9 vierkanten bij, elk met 3 lucifers.",
+        "9 keer 3 lucifers is 27 lucifers (tel in sprongen: 3, 6, 9, …, 27).",
+        "Totaal: $4 + 27 = 31$ lucifers.",
+        "Controle met de rij: 4, 7, 10, 13, 16, 19, 22, 25, 28, **31** (de 10e term)."
+      ],
+      "feedback": [
+        {
+          "answer": 40,
+          "message": "Je hebt elk vierkant als 4 lucifers geteld. Maar naast elkaar liggende vierkanten delen een lucifer."
+        },
+        {
+          "answer": 30,
+          "message": "Je hebt 10 keer 3 gerekend. Het eerste vierkant kost 4 lucifers, niet 3."
+        },
+        {
+          "answer": 34,
+          "message": "Dat is de 11e figuur. Controleer of je de eerste figuur (4 lucifers) als 1e term hebt geteld."
+        }
+      ],
+      "topics": [
+        "patterns"
+      ],
+      "context": "![Lucifers als 1, 2 en 3 vierkanten op een rij](/images/diagrams/m01-lucifers-vierkanten.svg)"
+    },
+    {
+      "id": "01-026",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een stapel munten bevat meer dan 20 en minder dan 30 munten. Als je de munten in paren legt, blijft er één over. Als je ze in groepjes van vijf legt, blijft er niets over. Hoeveel munten zijn het?",
+      "answer": 25,
+      "hints": [
+        "'In paren blijft er één over' betekent: het aantal is oneven.",
+        "Welke getallen tussen 20 en 30 kun je precies in vijftallen verdelen?"
+      ],
+      "solution": [
+        "In vijftallen zonder rest: de getallen 5, 10, 15, 20, 25, 30, … Tussen 20 en 30 (die zelf niet meetellen) is dat alleen **25**.",
+        "Controle: 25 is oneven (12 paren en 1 over). Het voldoet aan beide voorwaarden."
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "20 ligt niet *tussen* 20 en 30, en 20 is bovendien even: in paren blijft er niets over."
+        },
+        {
+          "answer": 30,
+          "message": "30 is even, en ligt niet strikt tussen 20 en 30."
+        }
+      ],
+      "topics": [
+        "even-odd",
+        "number-sense"
+      ]
+    },
+    {
+      "id": "01-027",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welk getal staat hieronder in Egyptische hiërogliefen? (Lotusbloem = 1.000, opgerold touw = 100, boog = 10, streep = 1.)",
+      "answer": 3246,
+      "hints": [
+        "Tel per soort teken hoe vaak het voorkomt.",
+        "Vermenigvuldig elk aantal met de waarde van het teken en tel alles op."
+      ],
+      "solution": [
+        "Er staan 3 lotusbloemen, 2 touwrollen, 4 bogen en 6 streepjes.",
+        "$3 \\times 1\\,000 = 3\\,000$, $2 \\times 100 = 200$, $4 \\times 10 = 40$, $6 \\times 1 = 6$.",
+        "$3\\,000 + 200 + 40 + 6 = 3\\,246$."
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "15 is het aantal tekens. Elk teken heeft een eigen waarde: tel die waarden op."
+        },
+        {
+          "answer": 6423,
+          "message": "Je hebt de getallen in omgekeerde volgorde gezet. Er staan 3 lotusbloemen (duizendtallen) en 6 streepjes (eenheden)."
+        }
+      ],
+      "topics": [
+        "number-systems"
+      ],
+      "context": "![Drie lotusbloemen, twee touwrollen, vier bogen en zes streepjes](/images/diagrams/m01-egyptisch-getal-a.svg)"
+    },
+    {
+      "id": "01-028",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Hoeveel hiërogliefen heeft een Egyptenaar nodig om het getal 276 te schrijven?",
+      "answer": 15,
+      "hints": [
+        "Splits 276 in honderdtallen, tientallen en eenheden.",
+        "Voor elke honderd is er één touwrol, voor elke tien één boog, voor elke eenheid één streep."
+      ],
+      "solution": [
+        "$276 = 200 + 70 + 6$.",
+        "Dat zijn 2 touwrollen, 7 bogen en 6 streepjes.",
+        "Samen: $2 + 7 + 6 = 15$ tekens."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Wij hebben drie cijfers nodig, maar de Egyptenaren hadden geen plaatswaarde. Ze herhaalden elk teken zo vaak als nodig."
+        },
+        {
+          "answer": 276,
+          "message": "Je hoeft het getal niet over te schrijven: de vraag is hoeveel *tekens* het kost."
+        }
+      ],
+      "topics": [
+        "number-systems"
+      ]
+    },
+    {
+      "id": "01-029",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welk getal is $\\text{XVII}$?",
+      "answer": 17,
+      "hints": [
+        "$\\text{X} = 10$, $\\text{V} = 5$, $\\text{I} = 1$.",
+        "De tekens staan van groot naar klein, dus je mag alles optellen."
+      ],
+      "solution": [
+        "$\\text{X} = 10$, $\\text{V} = 5$, $\\text{II} = 2$.",
+        "$10 + 5 + 2 = 17$."
+      ],
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Er staan twee keer een I aan het eind. Tel ze allebei mee."
+        }
+      ],
+      "topics": [
+        "number-systems"
+      ]
+    },
+    {
+      "id": "01-030",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welk getal is $\\text{XLIX}$?",
+      "answer": 49,
+      "hints": [
+        "Een kleiner teken direct vóór een groter teken wordt afgetrokken.",
+        "Splits in twee blokken: $\\text{XL}$ en $\\text{IX}$."
+      ],
+      "solution": [
+        "$\\text{XL}$: X staat vóór L, dus $50 - 10 = 40$.",
+        "$\\text{IX}$: I staat vóór X, dus $10 - 1 = 9$.",
+        "$40 + 9 = 49$."
+      ],
+      "feedback": [
+        {
+          "answer": 71,
+          "message": "Je hebt alle tekens opgeteld: $10 + 50 + 1 + 10 = 71$. Maar X vóór L en I vóór X moeten worden afgetrokken."
+        },
+        {
+          "answer": 51,
+          "message": "$\\text{XL}$ heb je goed gelezen als 40, maar $\\text{IX}$ is $10 - 1 = 9$, niet 11."
+        }
+      ],
+      "topics": [
+        "number-systems"
+      ]
+    },
+    {
+      "id": "01-031",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welk jaartal is $\\text{MCMLXXXIV}$?",
+      "answer": 1984,
+      "hints": [
+        "Zoek eerst de plaatsen waar een kleiner teken vóór een groter teken staat.",
+        "Splits in blokken: $\\text{M} \\cdot \\text{CM} \\cdot \\text{L} \\cdot \\text{XXX} \\cdot \\text{IV}$."
+      ],
+      "solution": [
+        "$\\text{M} = 1000$.",
+        "$\\text{CM} = 1000 - 100 = 900$.",
+        "$\\text{L} = 50$, $\\text{XXX} = 30$.",
+        "$\\text{IV} = 5 - 1 = 4$.",
+        "$1000 + 900 + 50 + 30 + 4 = 1984$."
+      ],
+      "feedback": [
+        {
+          "answer": 2186,
+          "message": "Je hebt alle tekens opgeteld. Maar C vóór M betekent $1000 - 100$, en I vóór V betekent $5 - 1$."
+        },
+        {
+          "answer": 1986,
+          "message": "$\\text{IV}$ is $5 - 1 = 4$, niet $5 + 1$."
+        }
+      ],
+      "topics": [
+        "number-systems"
+      ]
+    },
+    {
+      "id": "01-032",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Op de toegangspoorten van het Colosseum in Rome schreven de Romeinen 4 als IIII in plaats van IV. Welk getal staat er op een poort met het opschrift $\\text{XLIIII}$?",
+      "answer": 44,
+      "hints": [
+        "Splits in $\\text{XL}$ en $\\text{IIII}$.",
+        "$\\text{XL}$ volgt de aftrekregel, $\\text{IIII}$ niet."
+      ],
+      "solution": [
+        "$\\text{XL} = 50 - 10 = 40$.",
+        "$\\text{IIII} = 1 + 1 + 1 + 1 = 4$.",
+        "$40 + 4 = 44$. In moderne notatie zou dat $\\text{XLIV}$ zijn."
+      ],
+      "feedback": [
+        {
+          "answer": 64,
+          "message": "Je hebt X en L opgeteld ($10 + 50$). Omdat X vóór L staat, wordt het afgetrokken: $\\text{XL} = 40$."
+        },
+        {
+          "answer": 42,
+          "message": "Er staan vier I's aan het eind, niet twee."
+        }
+      ],
+      "topics": [
+        "number-systems"
+      ]
+    },
+    {
+      "id": "01-033",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welk getal staat hieronder in Babylonisch spijkerschrift? (Een winkelhaak is 10, een verticale spijker is 1.)",
+      "answer": 47,
+      "hints": [
+        "Tel de winkelhaken en de spijkers apart.",
+        "Elke winkelhaak is 10 waard, elke spijker 1."
+      ],
+      "solution": [
+        "Er staan 4 winkelhaken en 7 spijkers.",
+        "$4 \\times 10 = 40$ en $7 \\times 1 = 7$.",
+        "$40 + 7 = 47$."
+      ],
+      "feedback": [
+        {
+          "answer": 11,
+          "message": "11 is het aantal tekens. Een winkelhaak is 10 waard, niet 1."
+        },
+        {
+          "answer": 74,
+          "message": "Je hebt de spijkers als tientallen gelezen. De winkelhaken zijn de tientallen."
+        }
+      ],
+      "topics": [
+        "number-systems"
+      ],
+      "context": "![Vier winkelhaken en zeven spijkers in spijkerschrift](/images/diagrams/m01-babylonisch-47.svg)"
+    },
+    {
+      "id": "01-034",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welk getal staat hieronder in Egyptische hiërogliefen? (Vinger = 10.000, lotusbloem = 1.000, opgerold touw = 100, boog = 10, streep = 1.)",
+      "answer": 21507,
+      "hints": [
+        "Tel per soort teken hoe vaak het voorkomt. Let op: niet elk teken komt voor.",
+        "Als we dit getal in onze cijfers schrijven, moet er op de plaats van een ontbrekend teken een 0 komen."
+      ],
+      "solution": [
+        "Er staan 2 vingers, 1 lotusbloem, 5 touwrollen, geen bogen en 7 streepjes.",
+        "$2 \\times 10\\,000 + 1 \\times 1\\,000 + 5 \\times 100 + 7 = 20\\,000 + 1\\,000 + 500 + 7 = 21\\,507$.",
+        "In onze notatie staat op de plaats van de tientallen een 0: 21.507."
+      ],
+      "feedback": [
+        {
+          "answer": 2157,
+          "message": "Je hebt de aantallen achter elkaar gezet, maar de tientallen ontbreken: daar moet een 0 komen. De Egyptenaren hadden geen nul nodig; wij wel."
+        },
+        {
+          "answer": 15,
+          "message": "15 is het aantal tekens, niet de waarde."
+        }
+      ],
+      "topics": [
+        "number-systems"
+      ],
+      "context": "![Twee vingers, één lotusbloem, vijf touwrollen en zeven streepjes](/images/diagrams/m01-egyptisch-getal-c.svg)"
+    },
+    {
+      "id": "01-035",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bij de bakker trek je volgnummer 87. Op het scherm staat 79: die klant wordt nu geholpen. Hoeveel klanten wachten er nog tussen die klant en jou?",
+      "answer": 7,
+      "hints": [
+        "Welke nummers zitten er precies tussen 79 en 87? Tel 79 en 87 zelf niet mee.",
+        "Van 80 tot en met 86: gebruik de regel $b - a + 1$."
+      ],
+      "solution": [
+        "Tussen jou en de klant die geholpen wordt, zitten de nummers 80, 81, 82, 83, 84, 85, 86.",
+        "Van 80 tot en met 86 zijn $86 - 80 + 1 = 7$ nummers.",
+        "Er wachten nog **7** klanten tussen."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "$87 - 79 = 8$ is het aantal stappen van 79 naar 87. De nummers *ertussen* zijn er één minder."
+        }
+      ],
+      "topics": [
+        "counting",
+        "number-sense"
+      ]
+    },
+    {
+      "id": "01-036",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Voor een cursus moet je de pagina's 34 tot en met 52 van een boek lezen. Hoeveel pagina's zijn dat?",
+      "answer": 19,
+      "hints": [
+        "Hier tel je pagina's (dingen), geen stappen.",
+        "Gebruik de regel voor 'van $a$ tot en met $b$'."
+      ],
+      "solution": [
+        "Van 34 tot en met 52 zijn er $52 - 34 + 1$ pagina's.",
+        "$52 - 34 = 18$, en daar komt nog 1 bij: $18 + 1 = 19$.",
+        "Controle met een klein voorbeeld: pagina 34 tot en met 35 zijn 2 pagina's, en $35 - 34 + 1 = 2$. Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": 18,
+          "message": "$52 - 34 = 18$ is het aantal stappen. Pagina 34 zelf moet je ook lezen: het zijn er één meer (de paaltjesfout)."
+        }
+      ],
+      "topics": [
+        "counting"
+      ]
+    },
+    {
+      "id": "01-037",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je zet een recht hek van 40 meter. Om de 5 meter komt een paal, ook aan beide uiteinden. Hoeveel palen heb je nodig?",
+      "answer": 9,
+      "hints": [
+        "Hoeveel stukken hek van 5 meter zijn er?",
+        "Teken een klein hek van 10 meter: hoeveel stukken en hoeveel palen?"
+      ],
+      "solution": [
+        "40 meter in stukken van 5 meter: dat zijn 8 stukken (5, 10, 15, 20, 25, 30, 35, 40).",
+        "Bij een recht hek met palen aan beide uiteinden is er één paal meer dan er stukken zijn.",
+        "$8 + 1 = 9$ palen.",
+        "Controle: de palen staan bij 0, 5, 10, 15, 20, 25, 30, 35 en 40 meter: dat zijn er 9."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "8 is het aantal stukken hek. Er komt ook een paal bij het begin (bij 0 meter), dus er zijn er één meer."
+        },
+        {
+          "answer": 7,
+          "message": "Je hebt de palen aan de uiteinden weggelaten. De opgave zegt dat daar ook een paal komt."
+        }
+      ],
+      "topics": [
+        "counting",
+        "patterns"
+      ]
+    },
+    {
+      "id": "01-038",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Aan de even kant van een straat lopen de huisnummers van 2 tot en met 64, zonder overgeslagen nummers. Hoeveel huizen staan er aan die kant?",
+      "answer": 32,
+      "hints": [
+        "De huisnummers zijn de even getallen 2, 4, 6, …, 64.",
+        "Het hoeveelste even getal is 64?"
+      ],
+      "solution": [
+        "De huisnummers zijn 2, 4, 6, …, 64.",
+        "Het $n$-de even getal is $2n$. Als $2n = 64$, dan is $n = 32$.",
+        "Er staan **32** huizen."
+      ],
+      "feedback": [
+        {
+          "answer": 64,
+          "message": "64 is het hoogste huisnummer, niet het aantal huizen. Aan deze kant staan alleen de even nummers."
+        },
+        {
+          "answer": 63,
+          "message": "$64 - 2 + 1 = 63$ is het aantal *alle* getallen van 2 tot en met 64. Aan deze kant staan alleen de even getallen."
+        },
+        {
+          "answer": 31,
+          "message": "Je bent één huis vergeten. Controleer met een klein voorbeeld: de nummers 2, 4, 6 zijn 3 huizen, en 6 is het 3e even getal."
+        }
+      ],
+      "topics": [
+        "even-odd",
+        "counting"
+      ]
+    },
+    {
+      "id": "01-039",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Bekijk de sommen van de eerste oneven getallen: $1 = 1$, $1 + 3 = 4$, $1 + 3 + 5 = 9$, $1 + 3 + 5 + 7 = 16$. Wat is de som van de eerste **20** oneven getallen, dus $1 + 3 + 5 + \\ldots + 39$?",
+      "answer": 400,
+      "hints": [
+        "Kijk naar de uitkomsten 1, 4, 9, 16. Welk verband hebben ze met het aantal oneven getallen dat je optelt (1, 2, 3, 4)?",
+        "$4 = 2 \\times 2$, $9 = 3 \\times 3$, $16 = 4 \\times 4$. Wat verwacht je bij 20 oneven getallen?",
+        "Teken stippen: een vierkant van $3 \\times 3$ stippen kun je opbouwen uit 1, 3 en 5 stippen (steeds een 'hoek' eromheen)."
+      ],
+      "solution": [
+        "De sommen zijn 1, 4, 9, 16: dat is $1 \\times 1$, $2 \\times 2$, $3 \\times 3$, $4 \\times 4$.",
+        "Waarom? Een vierkant van stippen groeit van $n \\times n$ naar $(n+1) \\times (n+1)$ door er een hoek van $2n + 1$ stippen omheen te leggen: precies het volgende oneven getal.",
+        "Het 20e oneven getal is $2 \\times 20 - 1 = 39$; de som loopt dus inderdaad tot en met 39.",
+        "De som van de eerste 20 oneven getallen is $20 \\times 20 = 400$.",
+        "Controle op een andere manier: koppel de getallen in paren van buiten naar binnen: $1 + 39 = 40$, $3 + 37 = 40$, …, $19 + 21 = 40$. Dat zijn 10 paren van 40, samen $400$."
+      ],
+      "feedback": [
+        {
+          "answer": 39,
+          "message": "39 is het 20e oneven getal zelf. De vraag is wat de som van alle twintig is."
+        },
+        {
+          "answer": 361,
+          "message": "$361 = 19 \\times 19$: dat is de som van de eerste 19 oneven getallen. Controleer of 39 het 19e of het 20e oneven getal is."
+        },
+        {
+          "answer": 420,
+          "message": "$420 = 20 \\times 21$ is de som van de eerste 20 *even* getallen (2 + 4 + … + 40). Elk oneven getal is 1 kleiner, dus de som is 20 kleiner."
+        }
+      ],
+      "topics": [
+        "patterns",
+        "even-odd"
+      ]
+    },
+    {
+      "id": "01-040",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Je typt alle paginanummers van een boek, van 1 tot en met 120. Hoeveel cijfers typ je in totaal? (Voor pagina 7 typ je 1 cijfer, voor pagina 45 typ je 2 cijfers, voor pagina 103 typ je 3 cijfers.)",
+      "answer": 252,
+      "hints": [
+        "Verdeel de pagina's in groepen: met 1 cijfer, met 2 cijfers en met 3 cijfers.",
+        "Hoeveel pagina's zijn er van 10 tot en met 99? Gebruik $b - a + 1$.",
+        "En van 100 tot en met 120?"
+      ],
+      "solution": [
+        "Pagina's met 1 cijfer: 1 tot en met 9, dat zijn $9 - 1 + 1 = 9$ pagina's, samen 9 cijfers.",
+        "Pagina's met 2 cijfers: 10 tot en met 99, dat zijn $99 - 10 + 1 = 90$ pagina's, samen $90 \\times 2 = 180$ cijfers.",
+        "Pagina's met 3 cijfers: 100 tot en met 120, dat zijn $120 - 100 + 1 = 21$ pagina's, samen $21 \\times 3 = 63$ cijfers.",
+        "Totaal: $9 + 180 + 63 = 252$ cijfers.",
+        "Controle: $9 + 90 + 21 = 120$ pagina's. Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": 120,
+          "message": "120 is het aantal pagina's. Veel paginanummers bestaan uit meer dan één cijfer."
+        },
+        {
+          "answer": 249,
+          "message": "Je hebt waarschijnlijk 20 pagina's met drie cijfers geteld ($120 - 100 = 20$). Van 100 tot en met 120 zijn het er $120 - 100 + 1 = 21$: vergeet pagina 100 niet."
+        },
+        {
+          "answer": 250,
+          "message": "Je hebt waarschijnlijk 89 pagina's met twee cijfers geteld ($99 - 10 = 89$). Van 10 tot en met 99 zijn het er $99 - 10 + 1 = 90$."
+        },
+        {
+          "answer": 360,
+          "message": "Je hebt elk paginanummer als 3 cijfers geteld. Pagina 1 tot en met 99 hebben minder cijfers."
+        }
+      ],
+      "topics": [
+        "counting",
+        "number-sense"
+      ]
+    }
+  ]
+}

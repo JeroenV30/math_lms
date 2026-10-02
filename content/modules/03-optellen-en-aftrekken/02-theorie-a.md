@@ -95,6 +95,7 @@ Hoofdrekenen is geen kunstje van mensen met een 'rekenknobbel'. Het is het bewus
 Je splitst *beide* getallen in tientallen en eenheden (of honderdtallen, tientallen en eenheden) en rekent elke soort apart uit. Dat is de hoofdrekenvariant van het kolomsgewijs rekenen.
 
 :::example Splitsen: $46 + 37$
+
 - Splits: $46 = 40 + 6$ en $37 = 30 + 7$.
 - Tientallen samen: $40 + 30 = 70$.
 - Eenheden samen: $6 + 7 = 13$.
@@ -108,11 +109,13 @@ Splitsen werkt prettig bij optellen. Bij aftrekken is het riskant: bij $83 - 47$
 Je laat het eerste getal heel en doet het tweede getal er in stukken bij of vanaf: eerst de tientallen, dan de eenheden. Op een (lege) getallenlijn zie je dat als twee sprongen achter elkaar.
 
 :::example Rijgen: $83 - 47$
+
 - Begin bij 83. Je moet 47 terug: dat is 40 en nog 7.
 - Eerst 40 terug: $83 - 40 = 43$.
 - Dan 7 terug: $43 - 7 = 36$. Dit kun je eventueel ook in twee stapjes doen, via het tiental: $43 - 3 = 40$ en $40 - 4 = 36$.
 - Dus $83 - 47 = 36$.
 - **Controle** met de omgekeerde bewerking: $36 + 47 = 83$. Klopt.
+
 :::
 
 ![Een lege getallenlijn met een sprong van 83 naar 43 (min 40) en van 43 naar 36 (min 7)](/images/diagrams/m03-rijgen-getallenlijn.svg "Rijgen op de lege getallenlijn: 83 − 47 als eerst 40 terug en dan 7 terug. Eigen diagram.")
@@ -122,6 +125,7 @@ Je laat het eerste getal heel en doet het tweede getal er in stukken bij of vana
 Ligt een getal vlak bij een rond getal, reken dan met het ronde getal en zet het verschil achteraf recht.
 
 :::example Compenseren bij optellen: $298 + 457$
+
 - 298 ligt vlak bij 300: $298 = 300 - 2$.
 - Tel eerst 300 op: $457 + 300 = 757$.
 - Je hebt nu 2 te veel opgeteld, dus haal er 2 af: $757 - 2 = 755$.
@@ -131,6 +135,7 @@ Je kunt het ook zien als 'verschuiven tussen de termen': geef 2 van de 457 aan d
 :::
 
 :::example Compenseren bij aftrekken: $612 - 399$
+
 - 399 ligt vlak bij 400: $399 = 400 - 1$.
 - Trek eerst 400 af: $612 - 400 = 212$.
 - Je hebt nu 1 te veel *afgetrokken*, dus tel die 1 er weer bij: $212 + 1 = 213$.
@@ -151,16 +156,19 @@ $$
 
 Liggen de twee getallen van een aftrekking dicht bij elkaar, dan is 'weghalen' onhandig. Denk dan aan de derde betekenis van aftrekken: *hoeveel moet ik bij het kleine getal doen om het grote te krijgen?* Dit is ook de manier waarop een marktkoopman van oudsher wisselgeld teruggeeft: hij telt op vanaf de prijs tot het bedrag dat hij ontving.
 
-:::example Aanvullen: $1.003 - 996$
+:::example Aanvullen: $1\,003 - 996$
+
 - Weghalen ('996 terugspringen vanaf 1.003') is veel werk. Vergelijk liever.
 - Van 996 naar 1.000 is 4.
 - Van 1.000 naar 1.003 is 3.
-- In totaal: $4 + 3 = 7$. Dus $1.003 - 996 = 7$.
+- In totaal: $4 + 3 = 7$. Dus $1\,003 - 996 = 7$.
+
 :::
 
 ![Een getallenlijn van 996 naar 1.000 (plus 4) en van 1.000 naar 1.003 (plus 3)](/images/diagrams/m03-aanvullen-getallenlijn.svg "Aanvullen: het verschil tussen 996 en 1.003 als twee sprongen via het ronde getal 1.000. Eigen diagram.")
 
 :::tip Welke strategie kies je?
+
 - Twee 'gewone' getallen optellen: **splitsen** of **rijgen**.
 - Aftrekken: meestal **rijgen**.
 - Een van de getallen ligt vlak bij een rond getal (99, 298, 1.999): **compenseren**.

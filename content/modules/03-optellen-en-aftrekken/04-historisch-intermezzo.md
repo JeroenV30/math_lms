@@ -60,31 +60,31 @@ Het rekenbord was snel en, in geoefende handen, betrouwbaar. Waarom verdween het
 
 ## Bronnen
 
-- Wikipedia, *Puzrish-Dagan*: https://en.wikipedia.org/wiki/Puzrish-Dagan
-- Toledo Museum of Art, *Sumerian Clay Tablet with Receipt for Deliveries of Animals*: https://emuseum.toledomuseum.org/objects/56395/sumerian-clay-tablet-with-receipt-for-deliveries-of-animals
-- Wikipedia, *Proto-cuneiform*: https://en.wikipedia.org/wiki/Proto-cuneiform
-- Wikipedia, *Kushim (Uruk period)*: https://en.wikipedia.org/wiki/Kushim_(Uruk_period)
-- F. D'Agostino & F. Pomponio, 'At the Origin of Balanced Accounting: State Bookkeeping of the Sumerians during the Ur III Dynasty' (2007): https://rivisteweb.it/doi/10.1410/24582
-- Wikipedia, *Salamis Tablet*: https://en.wikipedia.org/wiki/Salamis_Tablet
-- Wikipedia, *Abacus*: https://en.wikipedia.org/wiki/Abacus
-- Wikipedia, *Roman abacus*: https://en.wikipedia.org/wiki/Roman_abacus
-- Wikipedia, *Counting rods*: https://en.wikipedia.org/wiki/Counting_rods
-- Wikipedia, *Suanfa tongzong*: https://en.wikipedia.org/wiki/Suanfa_tongzong
-- MacTutor, *Gerbert of Aurillac*: https://mathshistory.st-andrews.ac.uk/Biographies/Gerbert/
-- Wikipedia, *Exchequer*: https://en.wikipedia.org/wiki/Exchequer
-- Wikipedia, *Dialogus de Scaccario*: https://en.wikipedia.org/wiki/Dialogus_de_Scaccario
-- The National Archives (UK), *The Exchequer: a chequered history*: https://history.blog.gov.uk/2013/08/14/the-exchequer-a-chequered-history/
-- R. Wise, 'Reckoning the Revolt on Rekenpenningen', *The Rijksmuseum Bulletin* 67 (2019): https://bulletin.rijksmuseum.nl/article/view/9725
-- Jaarboek voor Munt- en Penningkunde (2012): https://jaarboekvoormuntenpenningkunde.nl/jaarboek/2012/2012a.pdf
-- MacTutor, *Al-Khwarizmi*: https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/
-- MacTutor, *Leonardo Pisano Fibonacci*: https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci/
-- A. Bogomolny, recensie van K. Devlin, *The Man of Numbers* (Florence 1299): https://www.cut-the-knot.org/books/Reviews/DevlinsFibonacci.shtml
-- York University, MATH 1700 aantekeningen, *Renaissance mathematics*: https://yorku.ca/bwall/math1700/bw-notes/math1700-11-renaissancemath.pdf
-- Wikimedia Commons, *Gregor Reisch – Margarita Philosophica – Arithmetica*: https://commons.wikimedia.org/wiki/File:Gregor_Reisch_-_Margarita_Philosophica_-_Arithmetica.jpg
-- Ut pictura18, *Typus Arithmeticae* (Reisch, Margarita philosophica nova, 1508): https://utpictura18.univ-amu.fr/en/notice/9769-typus-arithmeticae-gregor-reisch-margarita-philosophica-nova-strasbourg-1508
-- MacTutor, *Adam Ries*: https://mathshistory.st-andrews.ac.uk/Biographies/Ries/
-- Wikipedia (Duits), *Rechenbrett*: https://de.wikipedia.org/wiki/Rechenbrett
-- Universiteit Halle, werkblad *Die Neuner-Probe* (voorbeeld van Ries): https://disk.mathematik.uni-halle.de/mitarbeiter/richter/public_html/pdf/arbeitsauftrag3.pdf
-- Wikipedia, *Casting out nines*: https://en.wikipedia.org/wiki/Casting_out_nines
-- DBNL, Willem Bartjens, *De Cijfferinghe* (1604): https://dbnl.org/tekst/bart001cijf02_01/colofon.php
-- DBNL, *Het Boek*, jaargang 1 (1912), over Bartjens: https://www.dbnl.org/tekst/_boe031191201_01/_boe031191201_01_0052.php
+- Wikipedia, *Puzrish-Dagan*: <https://en.wikipedia.org/wiki/Puzrish-Dagan>
+- Toledo Museum of Art, *Sumerian Clay Tablet with Receipt for Deliveries of Animals*: <https://emuseum.toledomuseum.org/objects/56395/sumerian-clay-tablet-with-receipt-for-deliveries-of-animals>
+- Wikipedia, *Proto-cuneiform*: <https://en.wikipedia.org/wiki/Proto-cuneiform>
+- Wikipedia, *Kushim (Uruk period)*: <https://en.wikipedia.org/wiki/Kushim_(Uruk_period)>
+- F. D'Agostino & F. Pomponio, 'At the Origin of Balanced Accounting: State Bookkeeping of the Sumerians during the Ur III Dynasty' (2007): <https://rivisteweb.it/doi/10.1410/24582>
+- Wikipedia, *Salamis Tablet*: <https://en.wikipedia.org/wiki/Salamis_Tablet>
+- Wikipedia, *Abacus*: <https://en.wikipedia.org/wiki/Abacus>
+- Wikipedia, *Roman abacus*: <https://en.wikipedia.org/wiki/Roman_abacus>
+- Wikipedia, *Counting rods*: <https://en.wikipedia.org/wiki/Counting_rods>
+- Wikipedia, *Suanfa tongzong*: <https://en.wikipedia.org/wiki/Suanfa_tongzong>
+- MacTutor, *Gerbert of Aurillac*: <https://mathshistory.st-andrews.ac.uk/Biographies/Gerbert/>
+- Wikipedia, *Exchequer*: <https://en.wikipedia.org/wiki/Exchequer>
+- Wikipedia, *Dialogus de Scaccario*: <https://en.wikipedia.org/wiki/Dialogus_de_Scaccario>
+- The National Archives (UK), *The Exchequer: a chequered history*: <https://history.blog.gov.uk/2013/08/14/the-exchequer-a-chequered-history/>
+- R. Wise, 'Reckoning the Revolt on Rekenpenningen', *The Rijksmuseum Bulletin* 67 (2019): <https://bulletin.rijksmuseum.nl/article/view/9725>
+- Jaarboek voor Munt- en Penningkunde (2012): <https://jaarboekvoormuntenpenningkunde.nl/jaarboek/2012/2012a.pdf>
+- MacTutor, *Al-Khwarizmi*: <https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/>
+- MacTutor, *Leonardo Pisano Fibonacci*: <https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci/>
+- A. Bogomolny, recensie van K. Devlin, *The Man of Numbers* (Florence 1299): <https://www.cut-the-knot.org/books/Reviews/DevlinsFibonacci.shtml>
+- York University, MATH 1700 aantekeningen, *Renaissance mathematics*: <https://yorku.ca/bwall/math1700/bw-notes/math1700-11-renaissancemath.pdf>
+- Wikimedia Commons, *Gregor Reisch – Margarita Philosophica – Arithmetica*: <https://commons.wikimedia.org/wiki/File:Gregor_Reisch_-_Margarita_Philosophica_-_Arithmetica.jpg>
+- Ut pictura18, *Typus Arithmeticae* (Reisch, Margarita philosophica nova, 1508): <https://utpictura18.univ-amu.fr/en/notice/9769-typus-arithmeticae-gregor-reisch-margarita-philosophica-nova-strasbourg-1508>
+- MacTutor, *Adam Ries*: <https://mathshistory.st-andrews.ac.uk/Biographies/Ries/>
+- Wikipedia (Duits), *Rechenbrett*: <https://de.wikipedia.org/wiki/Rechenbrett>
+- Universiteit Halle, werkblad *Die Neuner-Probe* (voorbeeld van Ries): <https://disk.mathematik.uni-halle.de/mitarbeiter/richter/public_html/pdf/arbeitsauftrag3.pdf>
+- Wikipedia, *Casting out nines*: <https://en.wikipedia.org/wiki/Casting_out_nines>
+- DBNL, Willem Bartjens, *De Cijfferinghe* (1604): <https://dbnl.org/tekst/bart001cijf02_01/colofon.php>
+- DBNL, *Het Boek*, jaargang 1 (1912), over Bartjens: <https://www.dbnl.org/tekst/_boe031191201_01/_boe031191201_01_0052.php>

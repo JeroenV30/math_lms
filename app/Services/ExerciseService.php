@@ -100,7 +100,8 @@ class ExerciseService
     {
         return match ($exercise->unit) {
             null, '' => $value,
-            '€' => '€ '.$value,
+            // Geldbedragen altijd met twee decimalen: € 2,50.
+            '€' => '€ '.number_format($this->numbers->parse($value) ?? 0, 2, ',', '.'),
             default => $value.' '.$exercise->unit,
         };
     }
