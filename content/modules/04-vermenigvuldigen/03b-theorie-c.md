@@ -91,7 +91,7 @@ Het schema werkt voor getallen van elke lengte. Bij $236 \times 54$ krijg je:
 
 Heeft de tweede factor drie cijfers, dan krijg je drie rijen, en de derde rij begint met **twee** nullen (want je vermenigvuldigt met honderdtallen).
 
-Pas op bij een **nul binnen een factor**, zoals in 305. Die nul betekent "geen tientallen", maar hij houdt wel de plaats vrij. Bij $305 \times 4$ krijg je: $4 \times 5 = 20$, schrijf 0, onthoud 2; $4 \times 0 = 0$, plus 2 is 2; $4 \times 3 = 12$. Rij: 1220. Wie de nul overslaat en eigenlijk $35 \times 4$ uitrekent, krijgt 140, een factor tien te klein.
+Pas op bij een **nul binnen een factor**, zoals in 305. Die nul betekent "geen tientallen", maar hij houdt wel de plaats vrij. Bij $305 \times 4$ krijg je: $4 \times 5 = 20$, schrijf 0, onthoud 2; $4 \times 0 = 0$, plus 2 is 2; $4 \times 3 = 12$. Rij: 1220. Wie de nul overslaat en eigenlijk $35 \times 4$ uitrekent, krijgt 140, bijna een factor tien te klein.
 
 :::tip Altijd eerst schatten
 Een schatting kost je vijf seconden en vangt de twee grootste fouten op: een vergeten nul en een verkeerd uitgelijnde rij. Bij cijferen geldt: **schat, reken, vergelijk.**

@@ -42,3 +42,8 @@ Route::get('/search', [LibraryController::class, 'search'])->name('search');
 Route::get('/settings', [SettingsController::class, 'edit'])->name('settings.edit');
 Route::post('/settings', [SettingsController::class, 'update'])->name('settings.update');
 Route::post('/settings/reset', [SettingsController::class, 'reset'])->name('settings.reset');
+
+// Overzicht van alle visualisaties, voor wie content schrijft (alleen lokaal).
+if (app()->isLocal()) {
+    Route::view('/dev/widgets', 'dev.widgets')->name('dev.widgets');
+}

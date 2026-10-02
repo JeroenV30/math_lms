@@ -99,7 +99,7 @@
       "feedback": [
         {
           "answer": 9,
-          "message": "Dan zou $9 \\times 9 = 0$ moeten zijn. Controleer met de vermenigvuldiging: welk getal maal 9 geeft 0?"
+          "message": "Dan zou $9 \\times 9$ gelijk moeten zijn aan 0, maar $9 \\times 9 = 81$. Controleer met de vermenigvuldiging: welk getal maal 9 geeft 0?"
         }
       ],
       "topics": [
@@ -954,7 +954,7 @@
         },
         {
           "answer": 12,
-          "message": "Je hebt waarschijnlijk $3 \\times 2 \\times 2$ gerekend. Vergeet niet dat een factor ook **nul** keer mag voorkomen: voor 2 zijn er 4 keuzes, voor 3 zijn er 3 en voor 5 zijn er 2."
+          "message": "Je hebt waarschijnlijk alleen $4 \\times 3$ gerekend en de factor 5 vergeten. Ook voor 5 is er een keuze: 0 of 1 keer. Voor 2 zijn er 4 keuzes, voor 3 zijn er 3 en voor 5 zijn er 2."
         }
       ],
       "topics": [

@@ -16,7 +16,7 @@ Stel: je kent maar één regel van dit schrift. Een spijker die verder naar link
 Schrijf je antwoorden op voordat je verder leest. Aan het eind van deze module weet je precies hoe het zit.
 :::
 
-De Babylonische schrijver gebruikte iets wat we vandaag vanzelfsprekend vinden: de **plek** van een teken bepaalt wat het waard is. Twee spijkers met ruimte ertussen lees je als "1 zestigtal en 1 eenheid", dus $60 + 1 = 61$. Maar als er tussen die twee spijkers een hele positie leeg is, betekent hetzelfde beeld $1 \cdot 3600 + 0 \cdot 60 + 1 = 3601$. Zonder een teken voor "hier staat niets" kun je die twee niet uit elkaar houden. Pas veel later, in elk geval rond 300 v.Chr., kregen Babylonische schrijvers zo'n teken: een **plaatshouder**.
+De Babylonische schrijver gebruikte iets wat we vandaag vanzelfsprekend vinden: de **plek** van een teken bepaalt wat het waard is. Twee spijkers met ruimte ertussen lees je als "1 zestigtal en 1 eenheid", dus $60 + 1 = 61$. Maar als er tussen die twee spijkers een hele positie leeg is, betekent hetzelfde beeld $1 \cdot 3600 + 0 \cdot 60 + 1 = 3601$. Zonder een teken voor "hier staat niets" kun je die twee niet uit elkaar houden. Pas veel later, uiterlijk rond 300 v.Chr. (en mogelijk al eerder), kregen Babylonische schrijvers zo'n teken: een **plaatshouder**.
 
 Dat is het verhaal van deze module. We onderzoeken hoe het idee van **plaatswaarde** werkt, waarom het zoveel krachtiger is dan andere manieren om getallen te schrijven, en hoe een teken voor "niets" uitgroeide tot een volwaardig getal: de **nul**.
 

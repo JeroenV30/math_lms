@@ -168,7 +168,7 @@ export function ratioTable({ a = 3, b = 12, labelA = 'aantal', labelB = 'prijs',
         labelB,
         unitA,
         unitB,
-        columns: [1, 2, 0.5, 10].map((f) => ({ top: (Number(a) || 3) * f })),
+        columns: [1, 2, 0.5, 10].map((f) => ({ top: formatNumber((Number(a) || 3) * f, 4) })),
 
         bottom(top) {
             const v = Number(String(top).replace(',', '.'));
@@ -187,7 +187,7 @@ export function ratioTable({ a = 3, b = 12, labelA = 'aantal', labelB = 'prijs',
         },
 
         add() {
-            if (this.columns.length < 6) this.columns.push({ top: this.a * 3 });
+            if (this.columns.length < 6) this.columns.push({ top: formatNumber(this.a * 3, 4) });
         },
     };
 }

@@ -124,19 +124,19 @@ $$
 
 ### Het probleem van de lege positie
 
-Hoe schrijf je in dit systeem 3.601? Dat is $1 \cdot 3600 + 0 \cdot 60 + 1$, dus $1 \mid 0 \mid 1$. Maar wat zet je op die lege middelste positie? Lange tijd lieten schrijvers daar alleen wat ruimte open, en die ruimte is op een kleitablet lastig te meten. Pas later, uiterlijk rond 300 v.Chr. in de Seleucidische periode, kwam er een apart teken voor: twee schuine wiggen. Dit **plaatshouder-teken** werd alleen tussen andere cijfers gebruikt, nooit aan het eind. Of $1 \mid 15$ dus 75 betekende, of $1 \mid 15 \mid 0 = 4500$, moest de lezer nog altijd uit de context halen.
+Hoe schrijf je in dit systeem 3.601? Dat is $1 \cdot 3600 + 0 \cdot 60 + 1$, dus $1 \mid 0 \mid 1$. Maar wat zet je op die lege middelste positie? Lange tijd lieten schrijvers daar alleen wat ruimte open, en die ruimte is op een kleitablet lastig te meten. Pas later, uiterlijk rond 300 v.Chr. in de Seleucidische periode, kwam er een apart teken voor: twee schuine wiggen. Dit **plaatshouder-teken** werd in wiskundige teksten alleen tussen andere cijfers gebruikt, niet aan het eind; alleen sommige astronomen zetten het soms ook achteraan. Of $1 \mid 15$ dus 75 betekende, of $1 \mid 15 \mid 0 = 4500$, moest de lezer nog altijd uit de context halen.
 
 Ook een "zestigtallige komma" ontbrak: hetzelfde schrift kon een geheel getal of een getal met een gebroken deel voorstellen. De Babyloniërs rekenden er toch mee, en met verbluffende precisie.
 
-![Kleitablet YBC 7289 met een benadering van de wortel uit 2](/images/history/m02-ybc7289.jpg "Kleitablet YBC 7289 (Oudbabylonisch, ca. 1800–1600 v.Chr.), Yale Babylonian Collection. Langs de diagonaal van het vierkant staat zestigtallig 1;24,51,10, een benadering van de wortel uit 2 die in zes decimalen klopt. Foto: A. Urcia, Yale Peabody Museum; bewerking: Theodor Langhorne Franklin. CC0, via Wikimedia Commons.")
+![Kleitablet YBC 7289 met een benadering van de wortel uit 2](/images/history/m02-ybc7289.jpg "Kleitablet YBC 7289 (Oudbabylonisch, ca. 1800–1600 v.Chr.), Yale Babylonian Collection. Langs de diagonaal van het vierkant staat zestigtallig 1;24,51,10, een benadering van de wortel uit 2 die minder dan een miljoenste afwijkt. Foto: A. Urcia, Yale Peabody Museum; bewerking: Theodor Langhorne Franklin. CC0, via Wikimedia Commons.")
 
 Op dit beroemde tablet staat langs de diagonaal van een vierkant het getal dat historici schrijven als 1;24,51,10. De puntkomma is hier een moderne toevoeging die het gehele deel scheidt van het gebroken deel. In ons stelsel is dat
 
 $$
-1 + \frac{24}{60} + \frac{51}{3600} + \frac{10}{216\,000} \approx 1{,}414213
+1 + \frac{24}{60} + \frac{51}{3600} + \frac{10}{216\,000} \approx 1{,}4142130
 $$
 
-en dat is $\sqrt{2} = 1{,}414213\ldots$ tot op zes decimalen nauwkeurig. Breuken en wortels komen in latere modules aan bod; hier gaat het om het idee dat posities ook ná het gehele deel doorlopen.
+Vergelijk dat met $\sqrt{2} = 1{,}4142136\ldots$: het verschil is nog geen miljoenste. Breuken en wortels komen in latere modules aan bod; hier gaat het om het idee dat posities ook ná het gehele deel doorlopen.
 
 {{ exercises: 02-021, 02-022 }}
 

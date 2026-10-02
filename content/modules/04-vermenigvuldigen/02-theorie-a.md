@@ -22,7 +22,7 @@ $$
 De getallen $a$ en $b$ heten de **factoren**, de uitkomst heet het **product**.
 :::
 
-Het woord "keer" verraadt de herkomst: je doet iets een aantal *keren*. In het Engels zeg je *times*, in het Latijn *multiplicare*, "veelvoudig maken". Het teken $\times$ is betrekkelijk jong: het verschijnt voor het eerst in een anonieme bijlage bij een boek van John Napier uit 1618, waarschijnlijk geschreven door de Engelse wiskundige William Oughtred, die het in 1631 ook in zijn eigen algebraboek gebruikte. Je komt ook de punt tegen, $6 \cdot 8$, vooral in de algebra later in deze cursus.
+Het woord "keer" verraadt de herkomst: je doet iets een aantal *keren*. In het Engels zeg je *times*, in het Latijn *multiplicare*, "veelvoudig maken". Het teken $\times$ is betrekkelijk jong: het verschijnt voor het eerst in een anonieme bijlage bij de uitgave uit 1618 van een boek van John Napier over logaritmen, waarschijnlijk geschreven door de Engelse wiskundige William Oughtred, die het in 1631 ook in zijn eigen algebraboek gebruikte. Je komt ook de punt tegen, $6 \cdot 8$, vooral in de algebra later in deze cursus.
 
 ## 2. Vermenigvuldigen als rooster
 

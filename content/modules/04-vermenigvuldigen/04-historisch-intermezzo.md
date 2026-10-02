@@ -4,7 +4,7 @@
 
 Van de meeste wiskundigen uit de oudheid weten we niets. Van de schrijver die de **Rhind-papyrus** kopieerde, weten we in elk geval zijn naam: **Ahmes** (ook gespeld als Ahmose). Hij vermeldt in de tekst dat hij een ouder werk overschreef. Zijn kopie dateert uit het 33e regeringsjaar van de Hyksos-koning Apophis; de meeste bronnen plaatsen dat ergens tussen ongeveer 1650 en 1550 v.Chr. Het origineel dat Ahmes kopieerde, stamde volgens hemzelf uit de tijd van koning Amenemhat III van de 12e dynastie, rond 1850 v.Chr. Verder is er over Ahmes als persoon niets bekend.
 
-De papyrus is geschreven in het **hiëratisch**, het lopende handschrift dat Egyptische schrijvers gebruikten in plaats van de hiërogliefen op tempelmuren. De rol is ruim vijf meter lang en ongeveer 32 cm hoog. De Schotse oudheidkundige Alexander Henry Rhind kocht hem in 1858 in Luxor (het oude Thebe); sinds 1865 is hij in het bezit van het British Museum in Londen. Het document bevat een kleine negentig opgaven met uitwerkingen; het precieze aantal hangt af van hoe je telt (bronnen noemen 84, 87 of 91). Het gaat over het verdelen van broden, het rekenen met breuken, de inhoud van graanschuren, oppervlakten van akkers en de helling van piramiden.
+De papyrus is geschreven in het **hiëratisch**, het lopende handschrift dat Egyptische schrijvers gebruikten in plaats van de hiërogliefen op tempelmuren. De twee delen die het British Museum bewaart (EA 10057 en EA 10058), zijn samen bijna vijf meter lang en ongeveer 32 cm hoog; enkele kleine fragmenten van het tussenstuk liggen in het Brooklyn Museum in New York. De Schotse oudheidkundige Alexander Henry Rhind kocht hem in 1858 in Luxor (het oude Thebe); sinds 1865 is hij in het bezit van het British Museum in Londen. Het document bevat een kleine negentig opgaven met uitwerkingen; het precieze aantal hangt af van hoe je telt (bronnen noemen 84, 87 of 91). Het gaat over het verdelen van broden, het rekenen met breuken, de inhoud van graanschuren, oppervlakten van akkers en de helling van piramiden.
 
 ![Detail van de Rhind-papyrus](/images/history/m04-rhind-papyrus.jpg "Detail van de Rhind Mathematical Papyrus, British Museum. Foto via Wikimedia Commons, publiek domein.")
 
@@ -46,7 +46,7 @@ Welke getallen links geven samen 25? Begin bij het grootste: $25 - 16 = 9$, dan 
 
 Tel rechts op: $112 + 56 + 7 = 175$. Dus $25 \times 7 = 175$.
 
-**Tip:** de verdubbelingen worden snel groot. Daarom kun je het beste het **kleinste** getal links zetten... of juist het getal waarvan de splitsing in verdubbelingen het eenvoudigst is. De wisseleigenschap geeft je die vrijheid, en Ahmes maakte daar ook gebruik van.
+**Tip:** het getal links bepaalt hoeveel rijen je nodig hebt. Met 7 links ($25 \times 7 = 7 \times 25$) was je na drie rijen klaar geweest: $7 = 4 + 2 + 1$, dus $100 + 50 + 25 = 175$. Zet dus meestal het **kleinste** getal links, of het getal dat zich het makkelijkst in verdubbelingen laat splitsen. De wisseleigenschap geeft je die vrijheid, en de Egyptische schrijvers maakten daar ook gebruik van.
 :::
 
 {{ exercises: 04-025, 04-026 }}
@@ -117,7 +117,7 @@ De methoden die wij nu gebruiken, vereisen een **plaatswaardesysteem** met een n
 
 - **Bagdad, ca. 825.** De geleerde **al-Khwarizmi** schreef een boek over het rekenen met de Indiase cijfers. Het Arabische origineel is niet teruggevonden; de tekst is bekend uit een Latijnse bewerking, waarschijnlijk uit de 12e eeuw, die begint met de woorden *Dixit Algorizmi*: "al-Khwarizmi zegt". Uit zijn gelatiniseerde naam ontstond ons woord **algoritme**: een vast stappenplan, zoals het cijferen.
 - **Pisa, 1202.** **Leonardo van Pisa**, later bekend als **Fibonacci**, groeide deels op in Bugia (het huidige Béjaïa in Algerije), waar zijn vader voor Pisaanse kooplieden werkte. Daar leerde hij rekenen met "de negen Indiase figuren". In zijn *Liber Abaci* (1202, herziene versie 1228) legde hij Europese kooplieden uit hoe je met deze cijfers optelt, aftrekt, vermenigvuldigt en deelt, met talloze handelsvoorbeelden. Een volledig hoofdstuk gaat over het vermenigvuldigen van gehele getallen, inclusief manieren om de uitkomst te controleren.
-- **De tralie.** De tralievermenigvuldiging uit les 3 wordt vaak aan Fibonacci toegeschreven, maar dat is omstreden: volgens verschillende historici gebruikte hij die methode zelf niet. Zeker is dat ze aan het eind van de 13e eeuw voorkomt in het werk van de Marokkaanse wiskundige **Ibn al-Banna** en rond 1300 in een Latijnse tekst uit Engeland. In het eerste gedrukte Europese rekenboek, de *Arithmetica van Treviso* (1478), staat ze ook.
+- **De tralie.** De tralievermenigvuldiging uit les 3 wordt vaak aan Fibonacci toegeschreven, maar dat is omstreden: in zijn *Liber Abaci* is de methode volgens verschillende historici niet te vinden. Waar ze het eerst ontstond, is onbekend. De oudste Arabische vermelding is van het eind van de 13e eeuw, in het werk van de Marokkaanse wiskundige **Ibn al-Banna**; de oudste Europese rond 1300, in een anonieme Latijnse tekst uit Engeland. Ook in het oudst bekende gedrukte rekenboek van Europa, de *Arithmetica van Treviso* (1478), staat ze.
 - **Edinburgh, 1617.** De Schotse landheer en wiskundige **John Napier** publiceerde in zijn boek *Rabdologia* een set rekenstaafjes: op elk staafje staat de tafel van één cijfer, in vakjes met een schuine streep, precies als in de tralie. Door de staafjes van de cijfers van een getal naast elkaar te leggen, kun je de tralie aflezen in plaats van tekenen. Deze *Napier's bones* werden in de 17e en 18e eeuw veel gebruikt. Napier is vooral beroemd om een andere uitvinding, de **logaritmen** (1614), die vermenigvuldigen terugbrengen tot optellen. Die komen in module 26 aan bod.
 
 ![Rekenstaafjes van Napier](/images/history/m04-napier-rekenstaafjes.jpg "Een set rekenstaafjes van Napier, ca. 1700, Computer History Museum. Foto: The wub, via Wikimedia Commons, CC BY-SA 4.0.")
@@ -129,6 +129,7 @@ Vier millennia, vier technieken: verdubbelen, tralie, rekenstaafjes, cijferen. Z
 ## Bronnen
 
 - Wikipedia (EN), *Rhind Mathematical Papyrus*: https://en.wikipedia.org/wiki/Rhind_Mathematical_Papyrus
+- British Museum, collectie-database, *EA 10057* en *EA 10058* (Rhind-papyrus): https://www.britishmuseum.org/collection/object/Y_EA10057
 - Wikipedia (NL), *Papyrus Rhind*: https://nl.wikipedia.org/wiki/Papyrus_Rhind
 - MacTutor History of Mathematics, *Ahmes*: https://mathshistory.st-andrews.ac.uk/Biographies/Ahmes/
 - MacTutor, *Mathematics in Egyptian Papyri*: https://mathshistory.st-andrews.ac.uk/HistTopics/Egyptian_papyri/

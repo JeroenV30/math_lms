@@ -688,7 +688,7 @@
         "$38 \\times 50 = 1900$",
         "$38 \\times 2 = 76$",
         "$1900 + 76 = 1976$",
-        "Sanne zat er precies 100 naast: een fout bij het optellen van de rijen. Schatten en het laatste cijfer vangen zo'n fout niet."
+        "Sanne zat er precies 100 naast, bijvoorbeeld door een fout in de tweede rij of bij het optellen van de rijen. Schatten en het laatste cijfer vangen zo'n fout niet."
       ],
       "feedback": [
         {
@@ -885,7 +885,8 @@
     },
     {
       "id": "04-031",
-      "type": "numeric",
+      "type": "decimal",
+      "tolerance": 0.001,
       "mode": "independent",
       "difficulty": 2,
       "question": "Een handelaar koopt 36 kruiken olie van € 15 per kruik. Hoeveel betaalt hij in totaal?",

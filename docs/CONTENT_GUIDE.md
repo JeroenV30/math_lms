@@ -221,6 +221,17 @@ Alleen gebruiken waar ze begrip toevoegen.
 | `sharing` | `total`, `groups` | Eerlijk verdelen met rest |
 | `sieve` | `max` | Zeef van Eratosthenes |
 | `unit-ladder` | `quantity` (`length`, `weight`, `volume`) | Metriek trapje + omrekenen |
+| `fraction` | `numerator`, `denominator`, `shape` (`bar`/`circle`), `compare` (bv. `6/8`) | Breuk als balk of cirkel; vereenvoudigd, kommagetal, procent; optioneel vergelijken |
+| `percent-grid` | `value` | Honderdveld 10 × 10: procent ⇄ breuk ⇄ kommagetal |
+| `ratio-table` | `a`, `b`, `labelA`, `labelB` (tekst met spaties tussen "…") | Verhoudingstabel die evenredig meerekent, met factor per kolom |
+| `angle` | `value` | Hoek slepen op een gradenboog; soort hoek |
+| `shape-area` | `shape` (`rectangle`, `triangle`, `parallelogram`, `circle`) | Oppervlakte en omtrek op een rooster, met formule |
+| `pythagoras` | `a`, `b` | Rechthoekige driehoek met vierkanten op de zijden; c wordt berekend |
+| `stats` | `values` (bv. `"4; 6; 6; 7; 9"`) | Stippendiagram met gemiddelde, mediaan, modus en spreidingsbreedte; waarden toevoegen/verwijderen |
+| `powers` | `base`, `max` | Tabel van machten met groeibalken |
+
+Alle widgets met een voorbeelddirectief zijn te zien op `/dev/widgets` (alleen lokaal).
+`number-line` werkt ook met negatieve getallen (`min=-10`).
 
 ## 7. Tijdlijn en wiskundigen
 

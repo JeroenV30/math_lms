@@ -27,7 +27,7 @@ De 0 voegt zelf niets toe aan de som. Toch is hij onmisbaar: hij **duwt** de 3 n
 Een **plaatshouder** is een teken dat een lege positie markeert. In ons stelsel is dat de 0. Een plaatshouder zegt niet "hier is een hoeveelheid", maar "hier is een positie, en die is leeg".
 :::
 
-Een nul **vooraan** een getal is overbodig: 0305 is gewoon 305. Er staat links van de 3 niets meer dat op zijn plek gehouden moet worden. Nullen **binnenin** en **achteraan** zijn wel belangrijk. Let op dat het Babylonische plaatshouder-teken (voor zover we weten) alleen *binnenin* een getal werd gebruikt, niet achteraan. Het verschil tussen 1 en 60, of tussen 2 en 120, moest de lezer daar dus nog steeds uit de context halen.
+Een nul **vooraan** een getal is overbodig: 0305 is gewoon 305. Er staat links van de 3 niets meer dat op zijn plek gehouden moet worden. Nullen **binnenin** en **achteraan** zijn wel belangrijk. Let op dat het Babylonische plaatshouder-teken in wiskundige teksten alleen *binnenin* een getal werd gebruikt, niet achteraan (alleen in sommige late astronomische teksten staat het af en toe ook aan het eind). Het verschil tussen 1 en 60, of tussen 2 en 120, moest de lezer daar dus nog steeds uit de context halen.
 
 ### Van woorden naar cijfers
 

@@ -39,7 +39,7 @@ Controleer voor jezelf of je het volgende kunt, zonder hulp en zonder rekenmachi
 | ca. 825 | Bagdad | Al-Khwarizmi schrijft over het rekenen met Indiase cijfers |
 | 1202 | Pisa | Fibonacci's *Liber Abaci* brengt het cijferrekenen naar Europese kooplieden |
 | eind 13e eeuw | Maghreb | Ibn al-Banna beschrijft de tralievermenigvuldiging |
-| 1478 | Treviso | Eerste gedrukte Europese rekenboek, met onder meer de tralie |
+| 1478 | Treviso | Oudst bekende gedrukte Europese rekenboek, met onder meer de tralie |
 | 1617 | Edinburgh | Napier publiceert zijn rekenstaafjes (*Rabdologia*) |
 
 ## Vooruitblik

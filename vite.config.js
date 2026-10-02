@@ -14,6 +14,7 @@ export default defineConfig({
                     alias: 'inter',
                     variable: '--font-inter',
                     weights: [400, 500, 600, 700],
+                    preload: false,
                 }),
                 // Leestekst: rustige boektypografie
                 bunny('Source Serif 4', {
@@ -21,6 +22,7 @@ export default defineConfig({
                     variable: '--font-source-serif',
                     weights: [400, 600],
                     styles: ['normal', 'italic'],
+                    preload: false,
                 }),
             ],
         }),
