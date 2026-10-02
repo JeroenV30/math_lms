@@ -8,12 +8,7 @@
 
     <div class="mt-5 flex min-h-16 flex-wrap items-end gap-x-5 gap-y-3" role="img" :aria-label="value + ' turfstreepjes'">
         <template x-for="(count, g) in groups" :key="g">
-            <svg :width="count === 5 ? 46 : count * 9 + 4" height="48" viewBox="0 0 46 48" class="overflow-visible">
-                <template x-for="i in Math.min(count, 4)" :key="i">
-                    <line :x1="i * 9" :x2="i * 9" y1="6" y2="42" stroke="#1f2933" stroke-width="2.5" stroke-linecap="round" />
-                </template>
-                <line x-show="count === 5" x1="2" y1="34" x2="44" y2="12" stroke="#3b5bdb" stroke-width="2.5" stroke-linecap="round" />
-            </svg>
+            <svg :width="count === 5 ? 46 : count * 9 + 4" height="48" :view-box.camel="`0 0 ${count === 5 ? 46 : count * 9 + 4} 48`" class="overflow-visible" x-html="groupSvg(count)"></svg>
         </template>
     </div>
 

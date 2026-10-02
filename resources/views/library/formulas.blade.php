@@ -16,7 +16,7 @@
             @php $module = $content->getModule($moduleId); @endphp
             <section class="mt-12">
                 <h2 class="eyebrow"><a href="{{ route('module.show', $module->slug) }}" class="hover:text-ink">Module {{ $module->id }} – {{ $module->title }}</a></h2>
-                <div class="mt-4 grid gap-4">
+                <div class="mt-4 grid grid-cols-[minmax(0,1fr)] gap-4">
                     @foreach ($items as $formula)
                         <article class="card p-5 sm:p-6">
                             <h3 class="font-serif text-lg font-semibold text-ink">{{ $formula['name'] }}</h3>

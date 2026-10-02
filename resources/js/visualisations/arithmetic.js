@@ -207,6 +207,27 @@ export function areaModel({ a = 37, b = 14 } = {}) {
             return this.cells.filter((c) => c.x === 0).map((c) => ({ y: c.y + c.h / 2, label: formatNumber(c.b) }));
         },
 
+        /** Volledige SVG-inhoud (Alpine-templates werken niet binnen <svg>). */
+        get svg() {
+            const font = 'font-family="Inter, sans-serif"';
+            const fills = ['#eef2ff', '#dfe6fd', '#e9ecf5', '#f5f7fa', '#e3e9fe', '#eef0f6'];
+            let svg = '';
+            this.columnLabels.forEach((l) => {
+                svg += `<text x="${l.x}" y="-10" text-anchor="middle" font-size="15" fill="#3e4c59" ${font}>${l.label}</text>`;
+            });
+            this.rowLabels.forEach((l) => {
+                svg += `<text x="-10" y="${l.y + 5}" text-anchor="end" font-size="15" fill="#3e4c59" ${font}>${l.label}</text>`;
+            });
+            this.cells.forEach((c, i) => {
+                const cx = c.x + c.w / 2;
+                const cy = c.y + c.h / 2;
+                svg += `<rect x="${c.x}" y="${c.y}" width="${c.w}" height="${c.h}" fill="${fills[i % fills.length]}" stroke="#3b5bdb" stroke-width="1.5"/>`
+                    + `<text x="${cx}" y="${cy - 2}" text-anchor="middle" font-size="13" fill="#616e7c" ${font}>${formatNumber(c.a)} × ${formatNumber(c.b)}</text>`
+                    + `<text x="${cx}" y="${cy + 17}" text-anchor="middle" font-size="17" font-weight="600" fill="#1f2933" ${font}>${formatNumber(c.product)}</text>`;
+            });
+            return svg;
+        },
+
         get sum() {
             return this.cells.map((c) => formatNumber(c.product)).join(' + ');
         },

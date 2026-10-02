@@ -9,18 +9,8 @@
     <div class="mt-6 flex flex-wrap items-end gap-4 rounded-lg bg-history-soft px-4 py-5" role="img" :aria-label="'Spijkerschrift voor ' + value + ': ' + notation">
         <template x-for="(digit, d) in digits" :key="d">
             <div class="flex flex-col items-center gap-2">
-                <svg :width="groupWidth(digit)" height="66" :viewBox="`-4 -4 ${groupWidth(digit) + 8} 70`">
-                    {{-- Lege plaats: de vroege Babylonische schrijvers lieten hier alleen ruimte open --}}
-                    <rect x-show="digit === 0" x="2" y="8" :width="groupWidth(digit) - 4" height="44" rx="4" fill="none" stroke="#c9b48f" stroke-dasharray="4 3" />
-                    {{-- Winkelhaak = 10 --}}
-                    <template x-for="t in tens(digit)" :key="'t' + t">
-                        <path :transform="`translate(${t * 22} ${t % 2 === 0 ? 6 : 26})`" d="M18 2 L2 12 L18 22 L12 12 Z" fill="#8a5a24" />
-                    </template>
-                    {{-- Spijker = 1 --}}
-                    <template x-for="u in units(digit)" :key="'u' + u">
-                        <path :transform="`translate(${unitPos(u, digit).x} ${unitPos(u, digit).y})`" d="M0 0 H12 L7 7 V20 H5 V7 Z" fill="#8a5a24" />
-                    </template>
-                </svg>
+                {{-- Lege plaats (gestippeld): de vroege Babylonische schrijvers lieten hier alleen ruimte open --}}
+                <svg :width="groupWidth(digit)" height="66" :view-box.camel="`-4 -4 ${groupWidth(digit) + 8} 70`" x-html="digitSvg(digit)"></svg>
                 <span class="text-xs font-semibold text-history tabular-nums" x-text="digit"></span>
             </div>
         </template>

@@ -25,6 +25,18 @@ export function tally({ value = 8 } = {}) {
             return `${parts.join(' en ')} = ${this.value}`;
         },
 
+        /** SVG-inhoud voor één groepje (Alpine-templates werken niet binnen <svg>). */
+        groupSvg(count) {
+            let svg = '';
+            for (let i = 1; i <= Math.min(count, 4); i++) {
+                svg += `<line x1="${i * 9}" x2="${i * 9}" y1="6" y2="42" stroke="#1f2933" stroke-width="2.5" stroke-linecap="round"/>`;
+            }
+            if (count === 5) {
+                svg += '<line x1="2" y1="34" x2="44" y2="12" stroke="#3b5bdb" stroke-width="2.5" stroke-linecap="round"/>';
+            }
+            return svg;
+        },
+
         change(delta) {
             this.value = clampInt(this.value + delta, 0, 100);
         },
@@ -61,6 +73,13 @@ export function numberLine({ min = 0, max = 20, value = null } = {}) {
                 }
             }
             return ticks;
+        },
+
+        get ticksSvg() {
+            return this.ticks
+                .map((t) => `<line x1="${t.x}" x2="${t.x}" y1="${t.major ? 42 : 45}" y2="${t.major ? 58 : 55}" stroke="#616e7c" stroke-width="1"/>`
+                    + (t.label ? `<text x="${t.x}" y="76" text-anchor="middle" font-size="12" fill="#616e7c" font-family="Inter, sans-serif">${t.n}</text>` : ''))
+                .join('');
         },
 
         x(n) {

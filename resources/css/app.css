@@ -163,6 +163,7 @@
     }
 
     .prose-content a:not(.btn) {
+        overflow-wrap: anywhere;
         @apply text-accent underline decoration-accent-line underline-offset-2 hover:decoration-accent;
     }
 
@@ -244,8 +245,9 @@
         @apply my-6 overflow-x-auto overflow-y-hidden py-1 text-center;
     }
 
-    .math-inline {
-        white-space: nowrap;
+    /* KaTeX mag lange inline formules na een operator afbreken. */
+    .math-inline .katex {
+        white-space: normal;
     }
 
     .math:not(.math-rendered) {

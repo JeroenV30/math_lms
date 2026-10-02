@@ -91,6 +91,22 @@ export function babylonian({ value = 75 } = {}) {
             return { x: x0 + (i % perRow) * 15, y: Math.floor(i / perRow) * 22 };
         },
 
+        /** SVG-inhoud voor één zestigtallig cijfer: winkelhaken (10) en spijkers (1). */
+        digitSvg(digit) {
+            const width = this.groupWidth(digit);
+            let svg = digit === 0
+                ? `<rect x="2" y="8" width="${width - 4}" height="44" rx="4" fill="none" stroke="#c9b48f" stroke-dasharray="4 3"/>`
+                : '';
+            this.tens(digit).forEach((t) => {
+                svg += `<path transform="translate(${t * 22} ${t % 2 === 0 ? 6 : 26})" d="M18 2 L2 12 L18 22 L12 12 Z" fill="#8a5a24"/>`;
+            });
+            this.units(digit).forEach((u) => {
+                const p = this.unitPos(u, digit);
+                svg += `<path transform="translate(${p.x} ${p.y})" d="M0 0 H12 L7 7 V20 H5 V7 Z" fill="#8a5a24"/>`;
+            });
+            return svg;
+        },
+
         groupWidth(digit) {
             const tensCount = Math.floor(digit / 10);
             const units = digit % 10;

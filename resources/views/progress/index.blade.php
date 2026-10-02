@@ -9,7 +9,7 @@
         </p>
     </div>
 
-    <div class="container-page grid gap-6 lg:grid-cols-4">
+    <div class="container-page grid grid-cols-[minmax(0,1fr)] gap-6 lg:grid-cols-4">
         <div class="card p-5">
             <p class="eyebrow">Totaal gemaakte sommen</p>
             <p class="mt-2 font-serif text-3xl font-semibold text-ink tabular-nums">{{ number_format($stats['total_attempts'], 0, ',', '.') }}</p>
