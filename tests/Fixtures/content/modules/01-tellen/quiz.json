@@ -2,9 +2,81 @@
   "title": "Hoofdstuktoets – Tellen",
   "intro": "Vier vragen.",
   "questions": [
-    { "id": "01-T01", "type": "numeric", "difficulty": 1, "question": "Hoeveel is $5 + 3$?", "answer": 8, "solution": ["5 + 3 = 8"], "topics": ["counting"] },
-    { "id": "01-T02", "type": "numeric", "difficulty": 1, "question": "Hoeveel is $6 \\times 7$?", "answer": 42, "solution": ["6 × 7 = 42"], "topics": ["multiplication"] },
-    { "id": "01-T03", "type": "fraction", "difficulty": 2, "question": "Schrijf 2/4 vereenvoudigd.", "answer": "1/2", "solution": ["2/4 = 1/2"], "topics": ["fractions"] },
-    { "id": "01-T04", "type": "decimal", "difficulty": 2, "question": "Hoeveel is de helft van 5?", "answer": 2.5, "solution": ["5 : 2 = 2,5"], "topics": ["decimals"] }
+    {
+      "id": "01-T01",
+      "type": "numeric",
+      "difficulty": 1,
+      "question": "Hoeveel is $5 + 3$?",
+      "answer": 8,
+      "solution": [
+        "5 + 3 = 8"
+      ],
+      "topics": [
+        "counting"
+      ]
+    },
+    {
+      "id": "01-T02",
+      "type": "numeric",
+      "difficulty": 1,
+      "question": "Hoeveel is $6 \\times 7$?",
+      "answer": 42,
+      "solution": [
+        "6 × 7 = 42"
+      ],
+      "topics": [
+        "multiplication"
+      ]
+    },
+    {
+      "id": "01-T03",
+      "type": "fraction",
+      "difficulty": 2,
+      "question": "Schrijf 2/4 vereenvoudigd.",
+      "answer": "1/2",
+      "solution": [
+        "2/4 = 1/2"
+      ],
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "01-T04",
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Hoeveel is de helft van 5?",
+      "answer": 2.5,
+      "solution": [
+        "5 : 2 = 2,5"
+      ],
+      "topics": [
+        "decimals"
+      ]
+    },
+    {
+      "id": "01-T05",
+      "type": "multiple",
+      "difficulty": 3,
+      "question": "Los op: $x + y = 5$ en $x - y = 1$.",
+      "parts": [
+        {
+          "label": "x",
+          "answer": 3,
+          "type": "numeric"
+        },
+        {
+          "label": "y",
+          "answer": 2,
+          "type": "numeric"
+        }
+      ],
+      "solution": [
+        "$x = 3$, $y = 2$"
+      ],
+      "topics": [
+        "counting"
+      ]
+    }
   ]
 }

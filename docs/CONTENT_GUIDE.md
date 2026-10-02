@@ -179,17 +179,35 @@ overschrijven. Houd afbeeldingen klein (max. ~1200 px breed, < 400 kB).
 - `unit` (optioneel): eenheid achter het invoerveld, bv. `"cm"`, `"€"`, `"min"`.
 - Optioneel `context`: korte Markdown boven de vraag (bv. een tabel).
 
-### Antwoordtypen (versie 1)
+### Antwoordtypen
 
 | type | `answer` | Opties | Geaccepteerde invoer |
 |---|---|---|---|
-| `numeric` | geheel getal `518` | – | `518`, `1.000`, `1 000`, `-12` |
+| `numeric` | geheel getal `518` | – | `518`, `1.000`, `1 000`, `-12`, `x = 4` |
 | `decimal` | getal `3.1416` | `tolerance` (standaard 0,000001) | `3,1416`, `3.1416`, `€ 4,50` |
 | `fraction` | string `"3/4"` | `require_simplified` (bool), `allow_decimal` (bool) | `3/4`, `6/8`, `1 1/2`, `2` |
+| `expression` | string `"2x + 4"` | `form`: `"expanded"` (geen haakjes) of `"factored"` (als product) | `4 + 2x`, `2(x+2)`, `x^2`, `x²`, `3xy`, `√(x+1)`, `y = 2x + 3` |
+| `coordinate` | string `"(3; 7)"` | `tolerance` | `(3; 7)`, `(3, 7)`, `(3,5; -2)` |
+| `interval` | string `"[2; 8⟩"` | `tolerance` | `[2; 8]`, `⟨2; 8]`, `<2, 8]`, `(2, 8)`, `[3; ∞⟩` |
+| `multiple` | – (gebruik `parts`) | per deel de opties van zijn type | één invoerveld per deel |
 
-Andere typen (expression, coordinate, interval, text) komen pas bij algebra.
-Formuleer oefeningen dus zo dat het antwoord één getal of één breuk is.
-Bij deling met rest: vraag quotiënt en rest als aparte oefeningen.
+Bij `multiple` staat in plaats van `answer` een lijst `parts`:
+
+```json
+"type": "multiple",
+"parts": [
+  { "label": "x", "answer": 7, "type": "numeric" },
+  { "label": "y", "answer": 3, "type": "numeric" }
+]
+```
+
+Een `expression` wordt gecontroleerd door beide expressies op een reeks punten
+uit te rekenen: elke gelijkwaardige schrijfwijze is goed, tenzij `form` iets
+anders eist. Gebruik in de vraag letters als variabelen (x, y, a, …) en geen `e`
+als variabele. `feedback`-regels werken niet bij `multiple`.
+
+Voor interpretatievragen (`text`) is nog geen type: formuleer die als denkvraag
+in een `:::question`-kader in de les.
 
 ## 5. quiz.json
 

@@ -20,7 +20,7 @@ class QuizService
     ) {}
 
     /**
-     * @param  array<string, string|null>  $answers  vraag-id => antwoord
+     * @param  array<string, string|array|null>  $answers  vraag-id => antwoord (array bij meerdere velden)
      */
     public function grade(Module $module, array $answers): QuizAttempt
     {
@@ -28,12 +28,15 @@ class QuizService
 
         return DB::transaction(function () use ($module, $quiz, $answers) {
             $results = $quiz['questions']->map(function (Exercise $question) use ($answers) {
-                $answer = trim((string) ($answers[$question->id] ?? ''));
+                $raw = $answers[$question->id] ?? '';
+                $answer = $question->isMultiple()
+                    ? array_map(fn ($v) => trim((string) $v), (array) $raw)
+                    : trim(is_array($raw) ? '' : (string) $raw);
                 $outcome = $this->exercises->submit($question, $answer, ['context' => 'quiz']);
 
                 return [
                     'id' => $question->id,
-                    'answer' => $answer,
+                    'answer' => $this->exercises->answerText($question, $answer),
                     'correct' => $outcome['correct'],
                     'valid' => $outcome['valid'],
                     'message' => $outcome['correct'] ? null : ($outcome['valid'] ? $outcome['message'] : 'Geen geldig antwoord.'),

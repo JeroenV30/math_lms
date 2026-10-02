@@ -14,6 +14,7 @@
         'checkUrl' => route('exercise.check', $exercise->id),
         'hintsTotal' => count($exercise->hints),
         'state' => $state,
+        'parts' => array_map(fn ($part) => $part['label'], $exercise->parts()),
     ];
     $module = $showModule ? $content->getModule($exercise->moduleId) : null;
 @endphp
@@ -45,19 +46,34 @@
         <div class="exercise-question">{!! $markdown->render($exercise->question) !!}</div>
 
         <form class="mt-4 flex flex-wrap items-center gap-2" @submit.prevent="check()" novalidate>
-            <label for="{{ $uid }}-input" class="sr-only">Jouw antwoord</label>
-            <div class="flex items-center gap-2">
-                @if ($exercise->unit === '€')
-                    <span class="text-muted">€</span>
-                @endif
-                <input id="{{ $uid }}-input" type="text" inputmode="{{ $exercise->inputMode() }}" autocomplete="off" spellcheck="false"
-                       class="input w-40 font-sans tabular-nums" placeholder="{{ $exercise->placeholder() }}"
-                       x-model="answer" @focus="start()" @input="edited()" :disabled="isCorrect"
-                       :class="{ 'border-success bg-success-soft': isCorrect, 'border-danger': status === 'incorrect' }">
-                @if ($exercise->unit && $exercise->unit !== '€')
-                    <span class="text-sm text-muted">{{ $exercise->unit }}</span>
-                @endif
-            </div>
+            @if ($exercise->isMultiple())
+                @foreach ($exercise->parts() as $i => $part)
+                    <div class="flex items-center gap-2">
+                        <label for="{{ $uid }}-input-{{ $i }}" class="font-serif text-ink">{{ $part['label'] }} =</label>
+                        <input id="{{ $uid }}-input-{{ $i }}" type="text" inputmode="{{ $exercise->inputMode($part['type'] ?? 'numeric') }}" autocomplete="off" spellcheck="false"
+                               class="input {{ $exercise->inputWidth($part['type'] ?? 'numeric') === 'w-56' ? 'w-44' : 'w-28' }} font-sans tabular-nums" placeholder="{{ $exercise->placeholder($part['type'] ?? 'numeric') }}"
+                               x-model="answer[@js($part['label'])]" @focus="start()" @input="edited()" :disabled="isCorrect"
+                               :class="{ 'border-success bg-success-soft': isCorrect, 'border-danger': status === 'incorrect' }">
+                        @if (! empty($part['unit']))
+                            <span class="text-sm text-muted">{{ $part['unit'] }}</span>
+                        @endif
+                    </div>
+                @endforeach
+            @else
+                <label for="{{ $uid }}-input" class="sr-only">Jouw antwoord</label>
+                <div class="flex items-center gap-2">
+                    @if ($exercise->unit === '€')
+                        <span class="text-muted">€</span>
+                    @endif
+                    <input id="{{ $uid }}-input" type="text" inputmode="{{ $exercise->inputMode() }}" autocomplete="off" spellcheck="false"
+                           class="input {{ $exercise->inputWidth() }} font-sans tabular-nums" placeholder="{{ $exercise->placeholder() }}"
+                           x-model="answer" @focus="start()" @input="edited()" :disabled="isCorrect"
+                           :class="{ 'border-success bg-success-soft': isCorrect, 'border-danger': status === 'incorrect' }">
+                    @if ($exercise->unit && $exercise->unit !== '€')
+                        <span class="text-sm text-muted">{{ $exercise->unit }}</span>
+                    @endif
+                </div>
+            @endif
             <button type="submit" class="btn btn-primary" :disabled="busy || isCorrect">
                 <span x-show="!busy">Controleer</span>
                 <span x-cloak x-show="busy">Bezig…</span>

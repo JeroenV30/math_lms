@@ -24,6 +24,9 @@ class NumberParser
             $value = preg_replace('/^'.$quoted.'\s*/iu', '', $value);
         }
 
+        // "x = 4" → "4": een antwoord als oplossing van een vergelijking.
+        $value = preg_replace('/^[a-z]\s*=\s*/i', '', trim($value));
+
         // "- 12" → "-12"
         return preg_replace('/^-\s+/', '-', trim($value));
     }

@@ -127,6 +127,22 @@ class CourseFlowTest extends TestCase
         $this->postJson('/exercise/01-003/check', ['answer' => '3/4'])->assertJson(['correct' => true]);
     }
 
+    public function test_expression_and_multi_part_exercises(): void
+    {
+        $this->get('/course/tellen/lesson/theorie')->assertOk()->assertSee('bijv. 2x + 4')->assertSee('x =');
+
+        $this->postJson('/exercise/01-004/check', ['answer' => '4 + 2x'])->assertJson(['correct' => true]);
+        $this->postJson('/exercise/01-004/check', ['answer' => '2(x+2)'])->assertJson(['correct' => false, 'code' => 'not_expanded']);
+
+        $this->postJson('/exercise/01-005/check', ['answer' => ['x' => '7', 'y' => '4']])
+            ->assertJson(['valid' => true, 'correct' => false, 'message' => 'Nog niet goed: y. De rest klopt.']);
+        $this->postJson('/exercise/01-005/check', ['answer' => ['x' => '7', 'y' => '3']])
+            ->assertJson(['correct' => true, 'message' => 'Correct. Het antwoord is x = 7; y = 3.']);
+        $this->postJson('/exercise/01-005/check', ['answer' => '7'])->assertUnprocessable();
+
+        $this->assertSame('x = 7; y = 3', ExerciseAttempt::query()->where('exercise_id', '01-005')->latest('id')->value('answer'));
+    }
+
     public function test_unknown_exercises_and_quiz_questions_cannot_be_checked(): void
     {
         $this->postJson('/exercise/99-001/check', ['answer' => '1'])->assertNotFound();
@@ -145,24 +161,25 @@ class CourseFlowTest extends TestCase
     {
         $this->get('/course/tellen/quiz')->assertOk()->assertSee('Hoofdstuktoets – Tellen');
 
-        // 3 van 4 goed = 75%: afgerond.
+        // 4 van 5 goed = 80%: afgerond.
         $response = $this->post('/course/tellen/quiz', ['answers' => [
-            '01-T01' => '8', '01-T02' => '42', '01-T03' => '1/2', '01-T04' => '3',
+            '01-T01' => '8', '01-T02' => '42', '01-T03' => '1/2', '01-T04' => '3', '01-T05' => ['x' => '3', 'y' => '2'],
         ]]);
         $attempt = QuizAttempt::query()->latest('id')->first();
         $response->assertRedirect("/course/tellen/quiz/{$attempt->id}");
 
-        $this->assertSame(75, $attempt->score);
+        $this->assertSame(80, $attempt->score);
         $this->assertSame(ModuleProgress::COMPLETED, ModuleProgress::query()->where('module_id', 1)->value('status'));
 
         $this->get("/course/tellen/quiz/{$attempt->id}")
             ->assertOk()
-            ->assertSee('75%')
+            ->assertSee('80%')
             ->assertSee('De module is afgerond.')
-            ->assertSee('2,5');
+            ->assertSee('2,5')
+            ->assertSee('x = 3; y = 2');
 
-        // 4 van 4: beheerst. Een slechtere poging zet de status niet terug.
-        $this->post('/course/tellen/quiz', ['answers' => ['01-T01' => '8', '01-T02' => '42', '01-T03' => '2/4', '01-T04' => '2,5']]);
+        // Alles goed: beheerst. Een slechtere poging zet de status niet terug.
+        $this->post('/course/tellen/quiz', ['answers' => ['01-T01' => '8', '01-T02' => '42', '01-T03' => '2/4', '01-T04' => '2,5', '01-T05' => ['x' => '3', 'y' => '2']]]);
         $this->post('/course/tellen/quiz', ['answers' => []]);
 
         $progress = ModuleProgress::query()->where('module_id', 1)->first();
@@ -174,7 +191,7 @@ class CourseFlowTest extends TestCase
 
     public function test_dashboard_shows_new_progress(): void
     {
-        $this->post('/course/tellen/quiz', ['answers' => ['01-T01' => '8', '01-T02' => '42', '01-T03' => '1/2', '01-T04' => '2,5']]);
+        $this->post('/course/tellen/quiz', ['answers' => ['01-T01' => '8', '01-T02' => '42', '01-T03' => '1/2', '01-T04' => '2,5', '01-T05' => ['3', '2']]]);
 
         $this->get('/')
             ->assertOk()
@@ -205,7 +222,9 @@ class CourseFlowTest extends TestCase
         // Goed beantwoorde herhalingsvragen verdwijnen voor vandaag.
         foreach ($session as $item) {
             $this->postJson("/exercise/{$item['exercise']->id}/check", [
-                'answer' => (string) $item['exercise']->answer,
+                'answer' => $item['exercise']->isMultiple()
+                    ? collect($item['exercise']->parts())->mapWithKeys(fn ($p) => [$p['label'] => (string) $p['answer']])->all()
+                    : (string) $item['exercise']->answer,
                 'context' => 'review',
             ])->assertJson(['correct' => true]);
         }

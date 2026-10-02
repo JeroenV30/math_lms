@@ -13,7 +13,8 @@ export default function exercise(config) {
         context: config.context ?? 'lesson',
         checkUrl: config.checkUrl,
         hintsTotal: config.hintsTotal ?? 0,
-        answer: '',
+        // Eén tekstveld, of bij meerdere invoervelden een object label → antwoord.
+        answer: config.parts?.length ? Object.fromEntries(config.parts.map((label) => [label, ''])) : '',
         status: config.state === 'solved' ? 'previously-solved' : null,
         message: '',
         feedback: '',
@@ -40,7 +41,11 @@ export default function exercise(config) {
         async check() {
             if (this.busy) return;
 
-            if (this.answer.trim() === '') {
+            const empty = typeof this.answer === 'string'
+                ? this.answer.trim() === ''
+                : Object.values(this.answer).every((v) => String(v).trim() === '');
+
+            if (empty) {
                 this.status = 'invalid';
                 this.message = 'Vul eerst een antwoord in.';
                 this.feedback = '';

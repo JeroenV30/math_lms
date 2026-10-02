@@ -33,7 +33,8 @@ class QuizController extends Controller
 
         $validated = $request->validate([
             'answers' => ['array'],
-            'answers.*' => ['nullable', 'string', 'max:255'],
+            'answers.*' => ['nullable'],
+            'answers.*.*' => ['nullable', 'string', 'max:255'],
         ]);
 
         $attempt = $quizzes->grade($module, $validated['answers'] ?? []);

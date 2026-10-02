@@ -8,6 +8,8 @@ $$
 
 {{ exercises: 01-002, 01-003 }}
 
+{{ exercises: 01-004, 01-005 }}
+
 {{ widget: tally value=8 }}
 
 {{ quiz }}

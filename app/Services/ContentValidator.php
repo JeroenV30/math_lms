@@ -170,10 +170,28 @@ class ContentValidator
 
         // Het opgegeven antwoord moet door zijn eigen checker als goed worden herkend.
         $checker = $this->checkers->for($exercise->type);
-        $answer = is_float($exercise->answer) ? str_replace('.', ',', (string) $exercise->answer) : (string) $exercise->answer;
-        $this->expect($checker->check($answer, $exercise->answer, $exercise->options)->correct, "{$id}: het antwoord '{$answer}' wordt door de checker niet als goed herkend.");
+        $answer = match (true) {
+            $exercise->isMultiple() => array_map(fn (array $part) => (string) ($part['answer'] ?? ''), $exercise->parts()),
+            is_float($exercise->answer) => str_replace('.', ',', (string) $exercise->answer),
+            default => (string) $exercise->answer,
+        };
 
-        foreach ($exercise->feedback as $rule) {
+        if ($exercise->isMultiple()) {
+            foreach ($exercise->parts() as $i => $part) {
+                $this->expect(isset($part['label'], $part['answer']), "{$id}: deel ".($i + 1).' mist label of answer.');
+                $this->expect($this->checkers->supports($part['type'] ?? 'numeric') && ($part['type'] ?? '') !== 'multiple', "{$id}: deel ".($i + 1).' heeft een onbekend type.');
+            }
+        }
+
+        try {
+            $ok = $checker->check($answer, $exercise->answer, $exercise->options)->correct;
+        } catch (Throwable) {
+            $ok = false;
+        }
+        $shown = is_array($answer) ? implode('; ', $answer) : $answer;
+        $this->expect($ok, "{$id}: het antwoord '{$shown}' wordt door de checker niet als goed herkend.");
+
+        foreach ($exercise->isMultiple() ? [] : $exercise->feedback as $rule) {
             if (! isset($rule['answer'], $rule['message'])) {
                 $this->errors[] = "{$id}: feedback-regel zonder answer of message.";
 

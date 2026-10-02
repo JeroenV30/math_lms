@@ -8,13 +8,16 @@ use InvalidArgumentException;
 class AnswerCheckerFactory
 {
     /**
-     * Antwoordtype → checker. Expression-, coordinate- en intervalcheckers
-     * komen hier pas bij wanneer algebra in de cursus verschijnt.
+     * Antwoordtype → checker.
      */
     private const CHECKERS = [
         'numeric' => NumericChecker::class,
         'decimal' => DecimalChecker::class,
         'fraction' => FractionChecker::class,
+        'expression' => ExpressionChecker::class,
+        'coordinate' => CoordinateChecker::class,
+        'interval' => IntervalChecker::class,
+        'multiple' => MultipleChecker::class,
     ];
 
     public function __construct(private readonly Container $container) {}

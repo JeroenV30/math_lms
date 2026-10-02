@@ -20,7 +20,7 @@
         </p>
 
         <form method="post" action="{{ route('quiz.submit', $module->slug) }}" class="mt-10 space-y-5"
-              x-data="{ submitting: false, answered: 0, count() { this.answered = [...$el.querySelectorAll('input[type=text]')].filter(i => i.value.trim() !== '').length } }"
+              x-data="{ submitting: false, answered: 0, count() { this.answered = [...$el.querySelectorAll('.exercise')].filter(q => [...q.querySelectorAll('input[type=text]')].some(i => i.value.trim() !== '')).length } }"
               @input="count()" @submit="submitting = true">
             @csrf
             @foreach ($quiz['questions'] as $question)
@@ -38,6 +38,21 @@
                             <div class="exercise-question mb-3 text-ink-soft">{!! $markdown->render($question->context) !!}</div>
                         @endif
                         <div class="exercise-question">{!! $markdown->render($question->question) !!}</div>
+                        @if ($question->isMultiple())
+                            <div class="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2">
+                                @foreach ($question->parts() as $i => $part)
+                                    <div class="flex items-center gap-2">
+                                        <label for="q-{{ $question->id }}-{{ $i }}" class="font-serif text-ink">{{ $part['label'] }} =</label>
+                                        <input id="q-{{ $question->id }}-{{ $i }}" type="text" name="answers[{{ $question->id }}][{{ $part['label'] }}]"
+                                               inputmode="{{ $question->inputMode($part['type'] ?? 'numeric') }}" autocomplete="off" spellcheck="false"
+                                               class="input w-32 tabular-nums" placeholder="{{ $question->placeholder($part['type'] ?? 'numeric') }}">
+                                        @if (! empty($part['unit']))
+                                            <span class="text-sm text-muted">{{ $part['unit'] }}</span>
+                                        @endif
+                                    </div>
+                                @endforeach
+                            </div>
+                        @else
                         <div class="mt-4 flex items-center gap-2">
                             @if ($question->unit === '€')
                                 <span class="text-muted">€</span>
@@ -45,11 +60,12 @@
                             <label for="q-{{ $question->id }}" class="sr-only">Antwoord op vraag {{ $loop->iteration }}</label>
                             <input id="q-{{ $question->id }}" type="text" name="answers[{{ $question->id }}]" value="{{ old('answers.'.$question->id) }}"
                                    inputmode="{{ $question->inputMode() }}" autocomplete="off" spellcheck="false"
-                                   class="input w-44 tabular-nums" placeholder="{{ $question->placeholder() }}">
+                                   class="input {{ $question->inputWidth() === 'w-56' ? 'w-56' : 'w-44' }} tabular-nums" placeholder="{{ $question->placeholder() }}">
                             @if ($question->unit && $question->unit !== '€')
                                 <span class="text-sm text-muted">{{ $question->unit }}</span>
                             @endif
                         </div>
+                        @endif
                     </div>
                 </section>
             @endforeach
