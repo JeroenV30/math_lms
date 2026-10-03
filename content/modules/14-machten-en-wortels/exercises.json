@@ -2,264 +2,787 @@
   "exercises": [
     {
       "id": "14-001",
-      "question": "Bereken $2^5$.",
-      "answer": 32,
-      "solution": [
-        "$2\\times2\\times2\\times2\\times2=32$."
-      ],
-      "hints": [
-        "Vijf factoren 2, niet vijf keer 2."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $2^5$.",
+      "answer": 32,
+      "hints": [
+        "$2^5$ betekent vijf factoren 2: $2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2$.",
+        "Reken van links naar rechts: 2, 4, 8, …"
+      ],
+      "solution": [
+        "$2^5 = 2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2$.",
+        "$2 \\cdot 2 = 4$, $4 \\cdot 2 = 8$, $8 \\cdot 2 = 16$, $16 \\cdot 2 = 32$.",
+        "Dus $2^5 = 32$."
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Je hebt $5 \\cdot 2$ berekend: vijf keer 2 **optellen**. Een macht is herhaald **vermenigvuldigen**: $2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2$."
+        },
+        {
+          "answer": 25,
+          "message": "Je hebt $5^2$ berekend. Grondtal en exponent mag je niet omwisselen: hier is 2 het grondtal en 5 het aantal factoren."
+        }
+      ],
       "topics": [
         "powers"
       ]
     },
     {
       "id": "14-002",
-      "question": "Een vierkant heeft oppervlakte 49 cm². Wat is de zijde?",
-      "answer": 7,
-      "solution": [
-        "$7^2=49$; de zijde is 7 cm."
-      ],
-      "hints": [
-        "Zoek een getal dat maal zichzelf 49 is."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
-      "topics": [
-        "powers"
+      "question": "Een vierkant heeft een oppervlakte van 49 cm². Hoe lang is een zijde?",
+      "answer": 7,
+      "unit": "cm",
+      "hints": [
+        "Zoek een getal dat met zichzelf vermenigvuldigd 49 oplevert.",
+        "Probeer $6 \\cdot 6$ en $7 \\cdot 7$."
       ],
-      "unit": "cm"
+      "solution": [
+        "De oppervlakte van een vierkant is zijde maal zijde.",
+        "$7 \\cdot 7 = 49$, dus de zijde is $\\sqrt{49} = 7$ cm."
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je hebt de oppervlakte door 4 gedeeld, alsof 49 de omtrek is. Bij oppervlakte zoek je een getal dat **met zichzelf vermenigvuldigd** 49 geeft."
+        },
+        {
+          "answer": 24,
+          "message": "Je hebt de oppervlakte gehalveerd. Een wortel is niet de helft: zoek het getal dat met zichzelf vermenigvuldigd 49 geeft."
+        }
+      ],
+      "topics": [
+        "powers",
+        "roots",
+        "area"
+      ]
     },
     {
       "id": "14-003",
-      "question": "Wat is de exponent in $3^4$?",
-      "answer": 4,
-      "solution": [
-        "Het cijfer rechtsboven is de exponent: 4."
-      ],
-      "hints": [
-        "Het grondtal is 3."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Wat is de exponent in $3^4$?",
+      "answer": 4,
+      "hints": [
+        "De exponent is het kleine getal rechtsboven.",
+        "Het grondtal is het getal dat herhaald wordt vermenigvuldigd."
+      ],
+      "solution": [
+        "In $3^4$ is 3 het grondtal en 4 de exponent.",
+        "$3^4 = 3 \\cdot 3 \\cdot 3 \\cdot 3$: de exponent telt de factoren."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Dat is het grondtal: het getal dat herhaald wordt vermenigvuldigd. De exponent is het kleine getal rechtsboven."
+        }
+      ],
       "topics": [
         "powers"
       ]
     },
     {
       "id": "14-004",
-      "question": "Bereken $3^4$.",
-      "answer": 81,
-      "solution": [
-        "$3\\times3\\times3\\times3=81$."
-      ],
-      "hints": [
-        "Reken stapsgewijs."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $3^4$.",
+      "answer": 81,
+      "hints": [
+        "Schrijf vier factoren 3 uit.",
+        "$3 \\cdot 3 = 9$; vermenigvuldig daarna nog twee keer met 3."
+      ],
+      "solution": [
+        "$3^4 = 3 \\cdot 3 \\cdot 3 \\cdot 3$.",
+        "$3 \\cdot 3 = 9$, $9 \\cdot 3 = 27$, $27 \\cdot 3 = 81$."
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je hebt $3 \\cdot 4$ berekend. De exponent 4 betekent vier **factoren** 3, niet keer 4."
+        },
+        {
+          "answer": 64,
+          "message": "Je hebt $4^3$ berekend. Het grondtal is 3, de exponent 4."
+        },
+        {
+          "answer": 27,
+          "message": "Dat is $3^3$: je bent één factor 3 vergeten. Er moeten vier factoren zijn."
+        }
+      ],
       "topics": [
         "powers"
       ]
     },
     {
       "id": "14-005",
-      "question": "Bereken $(-2)^3$.",
-      "answer": -8,
-      "solution": [
-        "Drie negatieve factoren geven min; $2^3=8$."
-      ],
-      "hints": [
-        "Een oneven exponent houdt een negatief teken."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $(-2)^3$.",
+      "answer": -8,
+      "hints": [
+        "Schrijf uit: $(-2) \\cdot (-2) \\cdot (-2)$.",
+        "Min maal min is plus; plus maal min is min."
+      ],
+      "solution": [
+        "$(-2) \\cdot (-2) = 4$.",
+        "$4 \\cdot (-2) = -8$.",
+        "Een oneven aantal negatieve factoren geeft een negatief resultaat."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "De grootte klopt, maar het teken niet. Drie negatieve factoren: $(-2)\\cdot(-2) = 4$ en $4 \\cdot (-2) = -8$."
+        },
+        {
+          "answer": -6,
+          "message": "Je hebt $-2 \\cdot 3$ berekend. Een macht is herhaald vermenigvuldigen: drie factoren $-2$."
+        }
+      ],
       "topics": [
-        "powers"
+        "powers",
+        "negative-numbers"
       ]
     },
     {
       "id": "14-006",
-      "question": "Bereken $(-2)^4$.",
-      "answer": 16,
-      "solution": [
-        "Vier negatieve factoren geven plus; $2^4=16$."
-      ],
-      "hints": [
-        "Een even exponent geeft hier positief."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $(-2)^4$.",
+      "answer": 16,
+      "hints": [
+        "Er zijn vier factoren $-2$.",
+        "Tel het aantal mintekens: even of oneven?"
+      ],
+      "solution": [
+        "$(-2)^4 = (-2)\\cdot(-2)\\cdot(-2)\\cdot(-2)$.",
+        "Twee paren: $4 \\cdot 4 = 16$.",
+        "Een even aantal negatieve factoren geeft een positief resultaat."
+      ],
+      "feedback": [
+        {
+          "answer": -16,
+          "message": "Door de haakjes is het hele getal $-2$ het grondtal. Vier mintekens heffen elkaar paarsgewijs op, dus het resultaat is positief. ($-2^4$ zonder haakjes zou wél $-16$ zijn.)"
+        },
+        {
+          "answer": -8,
+          "message": "Je hebt $-2 \\cdot 4$ berekend. Een macht is herhaald vermenigvuldigen: vier factoren $-2$."
+        }
+      ],
       "topics": [
-        "powers"
+        "powers",
+        "negative-numbers"
       ]
     },
     {
       "id": "14-007",
-      "question": "Bereken $(2/3)^3$.",
-      "answer": "8/27",
-      "solution": [
-        "Teller: $2^3=8$; noemer: $3^3=27$."
-      ],
-      "hints": [
-        "Verhef teller en noemer tot de derde macht."
-      ],
       "type": "fraction",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $\\left(\\frac{2}{3}\\right)^3$. Geef je antwoord als breuk.",
+      "answer": "8/27",
+      "hints": [
+        "Vermenigvuldig drie keer de breuk met zichzelf.",
+        "Teller maal teller, noemer maal noemer."
+      ],
+      "solution": [
+        "$\\left(\\frac23\\right)^3 = \\frac23 \\cdot \\frac23 \\cdot \\frac23$.",
+        "Teller: $2^3 = 8$. Noemer: $3^3 = 27$.",
+        "Dus $\\frac{8}{27}$."
+      ],
+      "feedback": [
+        {
+          "answer": "8/3",
+          "message": "Je hebt alleen de teller tot de derde macht verheven. Door de haakjes hoort de exponent bij de hele breuk: ook de noemer wordt $3^3 = 27$."
+        },
+        {
+          "answer": "2/27",
+          "message": "Je hebt alleen de noemer tot de derde macht verheven. Ook de teller wordt $2^3 = 8$."
+        }
+      ],
+      "topics": [
+        "powers",
+        "fractions"
+      ]
+    },
+    {
+      "id": "14-031",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $-2^2 + (-2)^2$.",
+      "answer": 0,
+      "hints": [
+        "Bij $-2^2$ hoort de exponent alleen bij de 2; het minteken komt er daarna voor.",
+        "Bij $(-2)^2$ is $-2$ het grondtal."
+      ],
+      "solution": [
+        "$-2^2 = -(2^2) = -4$.",
+        "$(-2)^2 = (-2)\\cdot(-2) = 4$.",
+        "$-4 + 4 = 0$."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Je hebt $-2^2$ gelezen als $(-2)^2 = 4$. Zonder haakjes hoort de exponent alleen bij de 2: $-2^2 = -(2^2) = -4$."
+        },
+        {
+          "answer": -8,
+          "message": "Je hebt $(-2)^2$ gelezen als $-4$. Met haakjes is $-2$ het grondtal en geeft min maal min plus: $(-2)^2 = 4$."
+        }
+      ],
+      "topics": [
+        "powers",
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "14-032",
+      "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Een kubusvormige doos heeft een ribbe van 5 cm. Wat is de inhoud van de doos?",
+      "answer": 125,
+      "unit": "cm³",
+      "hints": [
+        "De inhoud van een kubus is ribbe maal ribbe maal ribbe: $5^3$.",
+        "$5 \\cdot 5 = 25$."
+      ],
+      "solution": [
+        "Inhoud $= 5^3 = 5 \\cdot 5 \\cdot 5$.",
+        "$5 \\cdot 5 = 25$ en $25 \\cdot 5 = 125$.",
+        "De inhoud is 125 cm³."
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Je hebt $5 \\cdot 3$ berekend. $5^3$ betekent drie **factoren** 5: $5 \\cdot 5 \\cdot 5$."
+        },
+        {
+          "answer": 25,
+          "message": "Dat is $5^2$, de oppervlakte van één zijvlak. Een kubus heeft drie richtingen: lengte, breedte én hoogte."
+        }
+      ],
       "topics": [
-        "powers"
+        "powers",
+        "volume"
+      ]
+    },
+    {
+      "id": "14-033",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $5 + 2 \\cdot 4^2 - (1+2)^3$.",
+      "answer": 10,
+      "hints": [
+        "Volgorde: haakjes, machten, vermenigvuldigen, optellen en aftrekken.",
+        "$4^2 = 16$ en $(1+2)^3 = 3^3 = 27$."
+      ],
+      "solution": [
+        "Haakjes: $1 + 2 = 3$.",
+        "Machten: $4^2 = 16$ en $3^3 = 27$.",
+        "Vermenigvuldigen: $2 \\cdot 16 = 32$.",
+        "Optellen en aftrekken: $5 + 32 - 27 = 10$."
+      ],
+      "feedback": [
+        {
+          "answer": 42,
+          "message": "Je hebt eerst $2 \\cdot 4 = 8$ berekend en daarna gekwadrateerd. De exponent hoort alleen bij de 4: eerst $4^2 = 16$, dan $2 \\cdot 16 = 32$."
+        },
+        {
+          "answer": 85,
+          "message": "Je hebt $5 + 2$ eerst opgeteld. Vermenigvuldigen gaat voor optellen: $5 + 2 \\cdot 16 = 5 + 32$."
+        },
+        {
+          "answer": 28,
+          "message": "Je hebt voor $(1+2)^3$ het getal 9 gebruikt, bijvoorbeeld door $3 \\cdot 3$ of $1 + 2^3$ te rekenen. Eerst de haakjes ($3$), dan de derde macht: $3^3 = 27$."
+        }
+      ],
+      "topics": [
+        "powers",
+        "mental-math"
       ]
     },
     {
       "id": "14-008",
-      "question": "Vul de exponent in: $2^3\\times2^4=2^{\\ldots}$.",
-      "answer": 7,
-      "solution": [
-        "Er zijn $3+4=7$ factoren 2."
-      ],
-      "hints": [
-        "Bij een product met hetzelfde grondtal tel je exponenten op."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Vul de exponent in: $2^3 \\cdot 2^4 = 2^{\\ldots}$",
+      "answer": 7,
+      "hints": [
+        "Schrijf beide machten uit als factoren 2 en tel ze.",
+        "Bij vermenigvuldigen met hetzelfde grondtal tel je de exponenten op."
+      ],
+      "solution": [
+        "$2^3 \\cdot 2^4 = (2\\cdot2\\cdot2)\\cdot(2\\cdot2\\cdot2\\cdot2)$.",
+        "Dat zijn $3 + 4 = 7$ factoren 2, dus $2^7$.",
+        "Controle: $8 \\cdot 16 = 128 = 2^7$."
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je hebt de exponenten vermenigvuldigd. Drie factoren naast vier factoren zijn samen **zeven** factoren. Twaalf krijg je pas bij $(2^3)^4$."
+        }
+      ],
       "topics": [
         "powers"
       ]
     },
     {
-      "id": "14-009",
-      "question": "Vul de exponent in: $3^5:3^2=3^{\\ldots}$.",
-      "answer": 3,
-      "solution": [
-        "Na wegdelen blijven $5-2=3$ factoren over."
-      ],
+      "id": "14-034",
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Vereenvoudig $a^3 \\cdot a^4$ tot één macht van $a$.",
+      "answer": "a^7",
       "hints": [
-        "Trek de exponenten af."
+        "Tel het aantal factoren $a$.",
+        "Productregel: exponenten optellen."
       ],
+      "solution": [
+        "$a^3 \\cdot a^4 = (a \\cdot a \\cdot a)(a \\cdot a \\cdot a \\cdot a)$.",
+        "Dat zijn $3 + 4 = 7$ factoren: $a^7$."
+      ],
+      "feedback": [
+        {
+          "answer": "a^12",
+          "message": "Je hebt de exponenten vermenigvuldigd. Bij een **product** van machten tel je ze op: $a^{3+4} = a^7$. Vermenigvuldigen doe je bij een macht van een macht, $(a^3)^4$."
+        },
+        {
+          "answer": "2a^7",
+          "message": "De exponent klopt, maar er hoort geen factor 2 voor. Er staan alleen factoren $a$."
+        }
+      ],
+      "topics": [
+        "powers",
+        "algebra"
+      ]
+    },
+    {
+      "id": "14-009",
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Vul de exponent in: $3^5 : 3^2 = 3^{\\ldots}$",
+      "answer": 3,
+      "hints": [
+        "Schrijf als breuk $\\frac{3^5}{3^2}$ en streep gelijke factoren weg.",
+        "Bij delen met hetzelfde grondtal trek je de exponenten af."
+      ],
+      "solution": [
+        "$\\frac{3 \\cdot 3 \\cdot 3 \\cdot 3 \\cdot 3}{3 \\cdot 3}$: twee factoren vallen weg.",
+        "Er blijven $5 - 2 = 3$ factoren over: $3^3$.",
+        "Controle: $243 : 9 = 27 = 3^3$."
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je hebt de exponenten opgeteld. Bij **delen** vallen factoren weg, dus je trekt af: $5 - 2 = 3$."
+        },
+        {
+          "answer": 10,
+          "message": "Je hebt de exponenten vermenigvuldigd. Bij delen trek je ze af: $5 - 2 = 3$."
+        }
+      ],
       "topics": [
         "powers"
       ]
     },
     {
       "id": "14-010",
-      "question": "Vul de exponent in: $(2^3)^4=2^{\\ldots}$.",
-      "answer": 12,
-      "solution": [
-        "Vier groepjes van drie factoren: $3\\times4=12$."
-      ],
-      "hints": [
-        "Een macht van een macht vermenigvuldigt exponenten."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Vul de exponent in: $(2^3)^4 = 2^{\\ldots}$",
+      "answer": 12,
+      "hints": [
+        "$(2^3)^4 = 2^3 \\cdot 2^3 \\cdot 2^3 \\cdot 2^3$.",
+        "Een macht van een macht: exponenten vermenigvuldigen."
+      ],
+      "solution": [
+        "Vier groepjes van drie factoren 2.",
+        "$4 \\cdot 3 = 12$ factoren, dus $2^{12}$."
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je hebt de exponenten opgeteld. Dat is de regel voor $2^3 \\cdot 2^4$. Hier staat $2^3$ vier keer als factor: $3+3+3+3 = 12$."
+        },
+        {
+          "answer": 81,
+          "message": "Je hebt $3^4$ uitgerekend, alsof er $2^{3^4}$ stond. De haakjes betekenen: $2^3$ vier keer als factor."
+        }
+      ],
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-035",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Werk de haakjes weg en vereenvoudig: $(2a^3)^2$.",
+      "answer": "4a^6",
+      "hints": [
+        "Elke factor binnen de haakjes krijgt de exponent: $2^2 \\cdot (a^3)^2$.",
+        "Bij een macht van een macht vermenigvuldig je de exponenten."
+      ],
+      "solution": [
+        "$(2a^3)^2 = 2^2 \\cdot (a^3)^2$.",
+        "$2^2 = 4$ en $(a^3)^2 = a^{3 \\cdot 2} = a^6$.",
+        "Dus $(2a^3)^2 = 4a^6$."
+      ],
+      "feedback": [
+        {
+          "answer": "2a^6",
+          "message": "Je bent vergeten de factor 2 te kwadrateren. De exponent geldt voor **elke** factor binnen de haakjes: $2^2 = 4$."
+        },
+        {
+          "answer": "4a^5",
+          "message": "Je hebt de exponenten 3 en 2 opgeteld. Bij een macht van een macht vermenigvuldig je: $(a^3)^2 = a^6$."
+        },
+        {
+          "answer": "2a^5",
+          "message": "Twee fouten tegelijk: de 2 moet ook gekwadrateerd worden, en bij $(a^3)^2$ vermenigvuldig je de exponenten."
+        }
+      ],
+      "topics": [
+        "powers",
+        "algebra"
+      ]
+    },
+    {
+      "id": "14-013",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $(2+3)^2$.",
+      "answer": 25,
+      "hints": [
+        "Volg de rekenvolgorde: eerst de haakjes.",
+        "Een macht mag je niet over een optelling verdelen."
+      ],
+      "solution": [
+        "Haakjes eerst: $2 + 3 = 5$.",
+        "Dan de macht: $5^2 = 25$.",
+        "Ter vergelijking: $2^2 + 3^2 = 13$ is iets anders; het verschil is $2 \\cdot 2 \\cdot 3 = 12$."
+      ],
+      "feedback": [
+        {
+          "answer": 13,
+          "message": "Je hebt $2^2$ en $3^2$ los opgeteld. Een macht verdeel je niet over een som: eerst $2 + 3 = 5$, dan $5^2 = 25$."
+        },
+        {
+          "answer": 10,
+          "message": "Je hebt $5 \\cdot 2$ berekend in plaats van $5^2 = 5 \\cdot 5$."
+        }
+      ],
       "topics": [
         "powers"
       ]
     },
     {
       "id": "14-011",
-      "question": "Bereken $7^0$.",
-      "answer": 1,
-      "solution": [
-        "Voor een niet-nulgrondtal is de nulde macht 1."
-      ],
-      "hints": [
-        "Vergelijk $7^3:7^3$."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $7^0$.",
+      "answer": 1,
+      "hints": [
+        "Vergelijk met $\\frac{7^3}{7^3}$.",
+        "Ga in het patroon $7^2 = 49$, $7^1 = 7$ nog één stap terug: deel door 7."
+      ],
+      "solution": [
+        "Quotiëntregel: $\\frac{7^3}{7^3} = 7^{3-3} = 7^0$.",
+        "Een getal gedeeld door zichzelf is 1.",
+        "Dus $7^0 = 1$."
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "Een product van nul factoren is niet 0 maar 1, het beginpunt van elk product. Controleer met het patroon: $7^1 = 7$, en één stap terug is $7 : 7 = 1$."
+        },
+        {
+          "answer": 7,
+          "message": "Dat is $7^1$. Bij exponent 0 deel je nog één keer door 7: $7 : 7 = 1$."
+        }
+      ],
       "topics": [
         "powers"
       ]
     },
     {
       "id": "14-012",
-      "question": "Bereken $2^{-3}$ als breuk.",
-      "answer": "1/8",
-      "solution": [
-        "$2^{-3}=1/2^3=1/8$."
-      ],
-      "hints": [
-        "Een negatieve exponent geeft de omgekeerde."
-      ],
       "type": "fraction",
-      "mode": "guided",
-      "difficulty": 1,
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $2^{-3}$. Geef je antwoord als breuk.",
+      "answer": "1/8",
+      "hints": [
+        "Een negatieve exponent betekent: het omgekeerde van de macht.",
+        "$2^{-3} = \\frac{1}{2^3}$."
+      ],
+      "solution": [
+        "$2^{-3} = \\frac{1}{2^3}$.",
+        "$2^3 = 8$, dus $2^{-3} = \\frac18$.",
+        "Controle met het patroon: $2^0 = 1$, $2^{-1} = \\frac12$, $2^{-2} = \\frac14$, $2^{-3} = \\frac18$."
+      ],
+      "feedback": [
+        {
+          "answer": "-8",
+          "message": "Een negatieve exponent maakt het getal niet negatief, maar geeft het **omgekeerde**: $2^{-3} = \\frac{1}{8}$."
+        },
+        {
+          "answer": "-6",
+          "message": "Je hebt $2 \\cdot (-3)$ berekend. Een negatieve exponent betekent het omgekeerde van de macht: $\\frac{1}{2^3}$."
+        }
+      ],
       "topics": [
         "powers"
       ]
     },
     {
-      "id": "14-013",
-      "question": "Bereken $(2+3)^2$.",
-      "answer": 25,
-      "solution": [
-        "Eerst $2+3=5$, daarna $5^2=25$."
-      ],
-      "hints": [
-        "Een macht verdeel je niet over een optelling."
-      ],
-      "type": "numeric",
+      "id": "14-036",
+      "type": "fraction",
       "mode": "guided",
       "difficulty": 1,
-      "topics": [
-        "powers"
+      "question": "Schrijf $10^{-2}$ als breuk.",
+      "answer": "1/100",
+      "hints": [
+        "$a^{-n} = \\frac{1}{a^n}$.",
+        "$10^2 = 100$."
+      ],
+      "solution": [
+        "$10^{-2} = \\frac{1}{10^2} = \\frac{1}{100}$.",
+        "Als kommagetal: $0{,}01$."
       ],
       "feedback": [
         {
-          "answer": 13,
-          "message": "Je hebt 2² en 3² los opgeteld. Eerst de som binnen de haakjes berekenen."
+          "answer": "-100",
+          "message": "Een negatieve exponent geeft geen negatief getal. $10^{-2}$ is het **omgekeerde** van $10^2$: $\\frac{1}{100}$."
+        },
+        {
+          "answer": "-20",
+          "message": "Je hebt $10 \\cdot (-2)$ berekend. $10^{-2}$ betekent $\\frac{1}{10 \\cdot 10}$."
+        },
+        {
+          "answer": "1/20",
+          "message": "De noemer is $10^2 = 10 \\cdot 10 = 100$, niet $10 \\cdot 2$."
         }
+      ],
+      "topics": [
+        "powers",
+        "decimals"
+      ]
+    },
+    {
+      "id": "14-023",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Schrijf 3.200.000 als $3{,}2 \\times 10^n$. Wat is $n$?",
+      "answer": 6,
+      "hints": [
+        "Tel hoeveel plaatsen de komma naar links moet om 3,2 te krijgen.",
+        "$10^6$ is een miljoen."
+      ],
+      "solution": [
+        "Van $3\\,200\\,000$ naar $3{,}2$ schuift de komma 6 plaatsen naar links.",
+        "Dus $3\\,200\\,000 = 3{,}2 \\times 10^6$: $n = 6$.",
+        "Controle: 3,2 miljoen."
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je hebt de nullen geteld (vijf), maar de 2 telt ook mee als plaats. De komma schuift 6 plaatsen: $3{,}2 \\times 10^6$."
+        },
+        {
+          "answer": 7,
+          "message": "Je hebt alle cijfers geteld. De komma komt achter de 3, dus schuift hij 6 plaatsen."
+        }
+      ],
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-024",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Schrijf 0,00045 als $4{,}5 \\times 10^n$. Wat is $n$?",
+      "answer": -4,
+      "hints": [
+        "Een getal tussen 0 en 1 krijgt een negatieve exponent.",
+        "Tel hoeveel plaatsen de komma naar rechts moet om 4,5 te krijgen."
+      ],
+      "solution": [
+        "Van $0{,}00045$ naar $4{,}5$ schuift de komma 4 plaatsen naar rechts.",
+        "Om dat te compenseren vermenigvuldig je met $10^{-4}$.",
+        "$0{,}00045 = 4{,}5 \\times 10^{-4}$, dus $n = -4$."
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Het aantal plaatsen klopt, maar een getal kleiner dan 1 krijgt een **negatieve** exponent: $4{,}5 \\times 10^{4} = 45\\,000$."
+        },
+        {
+          "answer": -3,
+          "message": "Je hebt de nullen na de komma geteld (drie). Tel de plaatsen tot en met de 4: dat zijn er vier."
+        },
+        {
+          "answer": -5,
+          "message": "Je hebt één plaats te veel geteld. De komma moet achter de 4 komen: 4 plaatsen."
+        }
+      ],
+      "topics": [
+        "powers",
+        "decimals"
+      ]
+    },
+    {
+      "id": "14-025",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $(3 \\times 10^4) \\times (2 \\times 10^3)$ en geef het antwoord als gewoon getal.",
+      "answer": 60000000,
+      "hints": [
+        "Vermenigvuldig de mantissen en de machten van tien apart.",
+        "Productregel: exponenten optellen."
+      ],
+      "solution": [
+        "Mantissen: $3 \\times 2 = 6$.",
+        "Machten: $10^4 \\times 10^3 = 10^{4+3} = 10^7$.",
+        "$6 \\times 10^7 = 60\\,000\\,000$."
+      ],
+      "feedback": [
+        {
+          "answer": 6000000000000,
+          "message": "Je hebt de exponenten vermenigvuldigd ($10^{12}$). Bij een product tel je ze op: $10^{4+3} = 10^7$."
+        },
+        {
+          "answer": 6000000,
+          "message": "Je hebt één nul te weinig: $10^7$ is een 1 met zeven nullen, dus $6 \\times 10^7 = 60\\,000\\,000$."
+        }
+      ],
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-037",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De afstand van de zon tot de aarde is ongeveer $1{,}5 \\times 10^{11}$ m. Licht legt ongeveer $3 \\times 10^{8}$ m per seconde af. Hoeveel seconden doet het zonlicht over die afstand?",
+      "answer": 500,
+      "unit": "s",
+      "hints": [
+        "Tijd = afstand : snelheid.",
+        "Deel de mantissen en trek de exponenten af; normaliseer daarna."
+      ],
+      "solution": [
+        "$\\frac{1{,}5 \\times 10^{11}}{3 \\times 10^8}$.",
+        "Mantissen: $1{,}5 : 3 = 0{,}5$.",
+        "Machten: $10^{11-8} = 10^3$.",
+        "$0{,}5 \\times 10^3 = 500$ seconden, ruim 8 minuten."
+      ],
+      "feedback": [
+        {
+          "answer": 50,
+          "message": "Je bent een factor 10 kwijtgeraakt. $10^{11} : 10^8 = 10^3 = 1000$, en $0{,}5 \\times 1000 = 500$."
+        },
+        {
+          "answer": 5000,
+          "message": "Controleer de deling van de mantissen: $1{,}5 : 3 = 0{,}5$, niet 5. Dus $0{,}5 \\times 10^3 = 500$."
+        }
+      ],
+      "topics": [
+        "powers",
+        "speed"
+      ]
+    },
+    {
+      "id": "14-038",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $4 \\times 10^5 + 3 \\times 10^4$ en geef het antwoord als gewoon getal.",
+      "answer": 430000,
+      "hints": [
+        "Bij optellen helpen de machtsregels niet. Maak eerst dezelfde macht van tien.",
+        "$4 \\times 10^5 = 40 \\times 10^4$."
+      ],
+      "solution": [
+        "$4 \\times 10^5 = 40 \\times 10^4$.",
+        "$40 \\times 10^4 + 3 \\times 10^4 = 43 \\times 10^4$.",
+        "$43 \\times 10^4 = 430\\,000$ (in wetenschappelijke notatie $4{,}3 \\times 10^5$)."
+      ],
+      "feedback": [
+        {
+          "answer": 700000,
+          "message": "Je hebt de mantissen 4 en 3 opgeteld zonder op de exponenten te letten. $3 \\times 10^4 = 30\\,000$, geen $300\\,000$."
+        },
+        {
+          "answer": 7000000000,
+          "message": "Je hebt de exponenten opgeteld zoals bij vermenigvuldigen. Bij een **som** maak je eerst gelijke machten: $400\\,000 + 30\\,000$."
+        },
+        {
+          "answer": 12000000000,
+          "message": "Je hebt vermenigvuldigd in plaats van opgeteld."
+        }
+      ],
+      "topics": [
+        "powers"
       ]
     },
     {
       "id": "14-014",
-      "question": "Bereken $\\sqrt{64}$.",
-      "answer": 8,
-      "solution": [
-        "De niet-negatieve waarde met kwadraat 64 is 8."
-      ],
-      "hints": [
-        "Het wortelteken geeft de hoofdwortel."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $\\sqrt{64}$.",
+      "answer": 8,
+      "hints": [
+        "Zoek het niet-negatieve getal dat met zichzelf vermenigvuldigd 64 geeft.",
+        "Het wortelteken geeft altijd de niet-negatieve waarde."
+      ],
+      "solution": [
+        "$8 \\cdot 8 = 64$ en $8 \\geq 0$.",
+        "Dus $\\sqrt{64} = 8$."
+      ],
+      "feedback": [
+        {
+          "answer": 32,
+          "message": "Je hebt 64 gehalveerd. Worteltrekken is terugrekenen van kwadraat naar zijde: welk getal maal **zichzelf** is 64?"
+        },
+        {
+          "answer": -8,
+          "message": "Ook $(-8)^2 = 64$, maar het wortelteken geeft per afspraak de **niet-negatieve** waarde: $\\sqrt{64} = 8$."
+        }
+      ],
       "topics": [
-        "powers"
+        "roots"
       ]
     },
     {
       "id": "14-015",
-      "question": "Vul alle reële oplossingen van $x^2=64$ in, in oplopende volgorde.",
-      "solution": [
-        "Zowel $(-8)^2$ als $8^2$ is 64."
-      ],
-      "hints": [
-        "Een kwadraatvergelijking vraagt iets anders dan de hoofdwortel."
-      ],
       "type": "multiple",
       "mode": "guided",
       "difficulty": 2,
-      "topics": [
-        "powers"
-      ],
+      "question": "Geef alle reële oplossingen van $x^2 = 64$, van klein naar groot.",
       "parts": [
         {
           "label": "kleinste oplossing",
@@ -271,97 +794,55 @@
           "answer": 8,
           "type": "numeric"
         }
+      ],
+      "hints": [
+        "Welke getallen hebben kwadraat 64? Denk ook aan negatieve getallen.",
+        "Een vergelijking vraagt naar **alle** oplossingen, het wortelteken naar één hoofdwaarde."
+      ],
+      "solution": [
+        "$8^2 = 64$.",
+        "$(-8)^2 = 64$.",
+        "De oplossingen zijn $x = -8$ en $x = 8$, kort $x = \\pm\\sqrt{64}$."
+      ],
+      "topics": [
+        "powers",
+        "roots",
+        "equations"
       ]
     },
     {
       "id": "14-016",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
       "question": "Bereken $\\sqrt{(-5)^2}$.",
       "answer": 5,
-      "solution": [
-        "$(-5)^2=25$; $\\sqrt{25}=5$."
-      ],
       "hints": [
-        "De hoofdwortel is niet-negatief."
+        "Werk van binnen naar buiten: eerst het kwadraat.",
+        "De hoofdwortel is nooit negatief."
       ],
-      "type": "numeric",
-      "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "powers"
-      ]
-    },
-    {
-      "id": "14-017",
-      "question": "Bereken $\\sqrt{9/16}$.",
-      "answer": "3/4",
       "solution": [
-        "$(3/4)^2=9/16$ en $3/4$ is positief."
-      ],
-      "hints": [
-        "Neem de wortel van teller en noemer."
-      ],
-      "type": "fraction",
-      "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "powers"
-      ]
-    },
-    {
-      "id": "14-018",
-      "question": "Bereken $\\sqrt{0{,}81}$.",
-      "answer": 0.9,
-      "solution": [
-        "$0{,}9^2=0{,}81$."
-      ],
-      "hints": [
-        "Controleer je antwoord door het te kwadrateren."
-      ],
-      "type": "decimal",
-      "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "powers"
-      ]
-    },
-    {
-      "id": "14-019",
-      "question": "Bereken $\\sqrt{9+16}$.",
-      "answer": 5,
-      "solution": [
-        "$9+16=25$, dus wortel 5."
-      ],
-      "hints": [
-        "Eerst de som, dan de wortel."
-      ],
-      "type": "numeric",
-      "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "powers"
+        "$(-5)^2 = 25$.",
+        "$\\sqrt{25} = 5$.",
+        "Algemeen: $\\sqrt{a^2} = |a|$."
       ],
       "feedback": [
         {
-          "answer": 7,
-          "message": "Je hebt de wortel over de som verdeeld. Dat is geen geldige regel: eerst 9+16 berekenen."
+          "answer": -5,
+          "message": "Kwadrateren en worteltrekken heffen elkaar alleen op bij niet-negatieve getallen. Hier is $(-5)^2 = 25$, en $\\sqrt{25} = 5$: de hoofdwortel is niet-negatief."
         }
+      ],
+      "topics": [
+        "roots",
+        "negative-numbers"
       ]
     },
     {
       "id": "14-020",
-      "question": "Tussen welke twee opeenvolgende gehele getallen ligt $\\sqrt{20}$?",
-      "solution": [
-        "$4^2=16<20<25=5^2$."
-      ],
-      "hints": [
-        "Zoek het kwadraat eronder en erboven."
-      ],
       "type": "multiple",
       "mode": "guided",
       "difficulty": 1,
-      "topics": [
-        "powers"
-      ],
+      "question": "Tussen welke twee opeenvolgende gehele getallen ligt $\\sqrt{20}$?",
       "parts": [
         {
           "label": "ondergrens",
@@ -373,184 +854,500 @@
           "answer": 5,
           "type": "numeric"
         }
+      ],
+      "hints": [
+        "Zoek het grootste kwadraat onder 20 en het kleinste erboven.",
+        "$4^2 = 16$ en $5^2 = 25$."
+      ],
+      "solution": [
+        "$4^2 = 16 < 20 < 25 = 5^2$.",
+        "Kwadrateren bewaart de volgorde bij niet-negatieve getallen, dus $4 < \\sqrt{20} < 5$."
+      ],
+      "topics": [
+        "roots",
+        "estimation"
       ]
     },
     {
       "id": "14-021",
-      "question": "Bereken $\\sqrt{20}$ op twee decimalen.",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $\\sqrt{20}$ en rond af op twee decimalen.",
       "answer": 4.47,
-      "solution": [
-        "$\\sqrt{20}\\approx4{,}4721$, dus 4,47."
-      ],
+      "tolerance": 0.001,
       "hints": [
-        "Gebruik een rekenmachine en rond pas het eindantwoord af."
+        "$\\sqrt{20}$ ligt tussen 4 en 5.",
+        "Controleer met kwadrateren: $4{,}47^2$ en $4{,}48^2$."
       ],
+      "solution": [
+        "$4{,}47^2 = 19{,}9809 < 20$ en $4{,}48^2 = 20{,}0704 > 20$.",
+        "$4{,}475^2 = 20{,}025625 > 20$, dus de wortel ligt onder $4{,}475$.",
+        "Een rekenmachine geeft $4{,}4721\\ldots$; afgerond $4{,}47$."
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Je hebt 20 gehalveerd. De wortel is het getal dat met zichzelf vermenigvuldigd 20 geeft; dat ligt tussen 4 en 5."
+        },
+        {
+          "answer": 4.48,
+          "message": "$4{,}48^2 = 20{,}07$, dat is al meer dan 20. De wortel is $4{,}4721\\ldots$, dus afgerond $4{,}47$."
+        }
+      ],
+      "topics": [
+        "roots",
+        "estimation"
+      ]
+    },
+    {
+      "id": "14-041",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welk geheel getal ligt het dichtst bij $\\sqrt{90}$?",
+      "answer": 9,
+      "hints": [
+        "$9^2 = 81$ en $10^2 = 100$. Het midden tussen 9 en 10 is 9,5.",
+        "Bereken $9{,}5^2$ en vergelijk met 90."
+      ],
+      "solution": [
+        "$81 < 90 < 100$, dus $9 < \\sqrt{90} < 10$.",
+        "Het midden is $9{,}5$ en $9{,}5^2 = 90{,}25$.",
+        "$90 < 90{,}25$, dus $\\sqrt{90} < 9{,}5$: het dichtstbijzijnde gehele getal is 9.",
+        "Controle: $\\sqrt{90} \\approx 9{,}487$."
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "90 ligt bijna midden tussen 81 en 100, maar dat zegt niet genoeg. Kwadrateer het midden tussen 9 en 10: $9{,}5^2 = 90{,}25 > 90$, dus $\\sqrt{90}$ ligt dichter bij 9."
+        }
+      ],
+      "topics": [
+        "roots",
+        "estimation"
+      ]
+    },
+    {
+      "id": "14-017",
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $\\sqrt{\\frac{9}{16}}$. Geef je antwoord als breuk.",
+      "answer": "3/4",
+      "hints": [
+        "Neem de wortel van de teller en van de noemer.",
+        "Controleer door je antwoord te kwadrateren."
+      ],
+      "solution": [
+        "$\\sqrt{\\frac{9}{16}} = \\frac{\\sqrt9}{\\sqrt{16}} = \\frac34$.",
+        "Controle: $\\left(\\frac34\\right)^2 = \\frac{9}{16}$."
+      ],
+      "feedback": [
+        {
+          "answer": "3/16",
+          "message": "Je hebt alleen van de teller de wortel genomen. Ook de noemer: $\\sqrt{16} = 4$."
+        },
+        {
+          "answer": "9/4",
+          "message": "Je hebt alleen van de noemer de wortel genomen. Ook de teller: $\\sqrt9 = 3$."
+        },
+        {
+          "answer": "9/32",
+          "message": "Je hebt de breuk gehalveerd. Worteltrekken is terugrekenen van een kwadraat: welke breuk maal zichzelf is $\\frac{9}{16}$?"
+        }
+      ],
+      "topics": [
+        "roots",
+        "fractions"
+      ]
+    },
+    {
+      "id": "14-018",
       "type": "decimal",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $\\sqrt{0{,}81}$.",
+      "answer": 0.9,
+      "tolerance": 1e-06,
+      "hints": [
+        "Schrijf $0{,}81$ als $\\frac{81}{100}$.",
+        "Controleer je antwoord door het te kwadrateren."
+      ],
+      "solution": [
+        "$0{,}81 = \\frac{81}{100}$.",
+        "$\\sqrt{\\frac{81}{100}} = \\frac{9}{10} = 0{,}9$.",
+        "Controle: $0{,}9^2 = 0{,}81$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.09,
+          "message": "Controleer: $0{,}09^2 = 0{,}0081$, niet $0{,}81$. Een getal met één decimaal heeft een kwadraat met twee decimalen, dus $\\sqrt{0{,}81} = 0{,}9$."
+        }
+      ],
       "topics": [
-        "powers"
+        "roots",
+        "decimals"
+      ]
+    },
+    {
+      "id": "14-019",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $\\sqrt{9 + 16}$.",
+      "answer": 5,
+      "hints": [
+        "Het wortelteken werkt als haakjes: eerst uitrekenen wat eronder staat.",
+        "$9 + 16 = 25$."
+      ],
+      "solution": [
+        "$9 + 16 = 25$.",
+        "$\\sqrt{25} = 5$.",
+        "Let op: $\\sqrt9 + \\sqrt{16} = 7$ is iets anders."
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je hebt de wortel over de som verdeeld: $\\sqrt9 + \\sqrt{16} = 3 + 4$. Dat mag niet. Reken eerst uit wat onder het wortelteken staat: $\\sqrt{25} = 5$."
+        }
+      ],
+      "topics": [
+        "roots"
       ]
     },
     {
       "id": "14-022",
-      "question": "Schrijf $\\sqrt{72}=a\\sqrt2$. Wat is a?",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Schrijf $\\sqrt{72}$ in de vorm $a\\sqrt{2}$. Wat is $a$?",
       "answer": 6,
-      "solution": [
-        "$72=36\\times2$.",
-        "$\\sqrt{72}=6\\sqrt2$."
-      ],
       "hints": [
-        "Zoek de grootste kwadraatfactor in 72."
+        "Zoek het grootste kwadraat dat een deler is van 72.",
+        "$72 = 36 \\cdot 2$."
       ],
+      "solution": [
+        "$72 = 36 \\cdot 2$, en 36 is een kwadraat.",
+        "$\\sqrt{72} = \\sqrt{36} \\cdot \\sqrt{2} = 6\\sqrt2$.",
+        "Controle: $(6\\sqrt2)^2 = 36 \\cdot 2 = 72$."
+      ],
+      "feedback": [
+        {
+          "answer": 36,
+          "message": "Je hebt 36 uit de wortel gehaald, maar vergeten er de wortel van te nemen: $\\sqrt{36} = 6$."
+        },
+        {
+          "answer": 2,
+          "message": "Je hebt $\\sqrt{72} = 2\\sqrt{18}$ gevonden, maar 18 bevat nog het kwadraat 9. In de vorm $a\\sqrt2$ is $\\sqrt{72} = 6\\sqrt2$."
+        }
+      ],
+      "topics": [
+        "roots"
+      ]
+    },
+    {
+      "id": "14-039",
       "type": "numeric",
       "mode": "guided",
       "difficulty": 2,
+      "question": "Schrijf $\\sqrt{12}$ in de vorm $a\\sqrt{3}$. Wat is $a$?",
+      "answer": 2,
+      "hints": [
+        "Splits 12 in een kwadraat maal 3.",
+        "$12 = 4 \\cdot 3$."
+      ],
+      "solution": [
+        "$12 = 4 \\cdot 3$.",
+        "$\\sqrt{12} = \\sqrt4 \\cdot \\sqrt3 = 2\\sqrt3$.",
+        "Controle: $(2\\sqrt3)^2 = 4 \\cdot 3 = 12$."
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Je hebt de 4 uit de wortel gehaald zonder er de wortel van te nemen. $\\sqrt4 = 2$, dus $\\sqrt{12} = 2\\sqrt3$. Controle: $(4\\sqrt3)^2 = 48$."
+        },
+        {
+          "answer": 9,
+          "message": "$9 \\cdot 3 = 27$, niet 12. Zoek een kwadraat dat 12 deelt: $12 = 4 \\cdot 3$."
+        }
+      ],
       "topics": [
-        "powers"
+        "roots"
       ]
     },
     {
-      "id": "14-023",
-      "question": "Schrijf 3.200.000 als $3{,}2\\times10^n$. Wat is n?",
-      "answer": 6,
-      "solution": [
-        "$10^6=1\\,000\\,000$."
-      ],
-      "hints": [
-        "Tel de positieverplaatsingen."
-      ],
+      "id": "14-040",
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $\\sqrt[3]{64}$.",
+      "answer": 4,
+      "hints": [
+        "Zoek het getal dat met zichzelf vermenigvuldigd én nog eens vermenigvuldigd 64 geeft.",
+        "Probeer $3^3$ en $4^3$."
+      ],
+      "solution": [
+        "$4 \\cdot 4 \\cdot 4 = 16 \\cdot 4 = 64$.",
+        "Dus $\\sqrt[3]{64} = 4$."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Dat is de **vierkants**wortel: $8^2 = 64$. De derdemachtswortel vraagt een getal met derde macht 64; $8^3 = 512$. Probeer 4."
+        },
+        {
+          "answer": 21,
+          "message": "Je hebt ongeveer door 3 gedeeld. Een derdemachtswortel is geen deling: zoek het getal $b$ met $b \\cdot b \\cdot b = 64$."
+        }
+      ],
       "topics": [
-        "powers"
+        "roots"
       ]
     },
     {
-      "id": "14-024",
-      "question": "Schrijf 0,00045 als $4{,}5\\times10^n$. Wat is n?",
-      "answer": -4,
-      "solution": [
-        "$4{,}5\\times10^{-4}=0{,}00045$."
-      ],
-      "hints": [
-        "Een klein getal gebruikt een negatieve exponent."
-      ],
+      "id": "14-042",
       "type": "numeric",
-      "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "powers"
-      ]
-    },
-    {
-      "id": "14-025",
-      "question": "Bereken $(3\\times10^4)(2\\times10^3)$ als gewoon getal.",
-      "answer": 60000000,
-      "solution": [
-        "$3\\times2=6$ en $10^4\\times10^3=10^7$.",
-        "Dus 60.000.000."
-      ],
-      "hints": [
-        "Vermenigvuldig factoren en tel exponenten op."
-      ],
-      "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
+      "question": "De rechthoekszijden van een rechthoekige driehoek zijn 6 cm en 8 cm. Hoe lang is de schuine zijde? Gebruik $c = \\sqrt{a^2 + b^2}$.",
+      "answer": 10,
+      "unit": "cm",
+      "hints": [
+        "Kwadrateer eerst beide zijden en tel ze op.",
+        "$6^2 + 8^2 = 36 + 64$."
+      ],
+      "solution": [
+        "$6^2 + 8^2 = 36 + 64 = 100$.",
+        "$c = \\sqrt{100} = 10$ cm.",
+        "Controle: $10^2 = 100 = 36 + 64$."
+      ],
+      "feedback": [
+        {
+          "answer": 14,
+          "message": "Je hebt $6 + 8$ opgeteld. De schuine zijde is $\\sqrt{6^2 + 8^2}$, en de wortel verdeelt niet over de som: $\\sqrt{100} = 10$."
+        },
+        {
+          "answer": 100,
+          "message": "Je bent de wortel vergeten. $100$ is $c^2$; de zijde zelf is $\\sqrt{100} = 10$."
+        }
+      ],
       "topics": [
-        "powers"
+        "roots",
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "14-044",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een Babylonische schrijver gebruikt de regel $a \\cdot b = \\frac{(a+b)^2 - (a-b)^2}{4}$ en een kwadratentabel. Bereken zo $13 \\cdot 7$. Welk getal vindt hij?",
+      "answer": 91,
+      "hints": [
+        "$a + b = 20$ en $a - b = 6$.",
+        "Zoek op: $20^2 = 400$ en $6^2 = 36$."
+      ],
+      "solution": [
+        "$a + b = 13 + 7 = 20$, $a - b = 13 - 7 = 6$.",
+        "$20^2 = 400$ en $6^2 = 36$.",
+        "$\\frac{400 - 36}{4} = \\frac{364}{4} = 91$.",
+        "Controle: $13 \\cdot 7 = 91$."
+      ],
+      "feedback": [
+        {
+          "answer": 364,
+          "message": "Je bent vergeten door 4 te delen. Het verschil van de kwadraten is $4ab$, dus $364 : 4 = 91$."
+        },
+        {
+          "answer": 100,
+          "message": "Je hebt $\\frac{400}{4}$ genomen en het tweede kwadraat vergeten. Trek eerst $6^2 = 36$ af."
+        }
+      ],
+      "topics": [
+        "powers",
+        "multiplication"
       ]
     },
     {
       "id": "14-026",
-      "question": "Bereken $1{,}4^2$.",
-      "answer": 1.96,
-      "solution": [
-        "$1{,}4\\times1{,}4=1{,}96$.",
-        "Dat is kleiner dan 2; 1,4 is dus een te kleine benadering van de wortel van 2."
-      ],
-      "hints": [
-        "Herstel de decimale plaatsen."
-      ],
       "type": "decimal",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $1{,}4^2$. Is 1,4 een te kleine of een te grote benadering van $\\sqrt2$?",
+      "answer": 1.96,
+      "tolerance": 1e-06,
+      "hints": [
+        "Reken $14 \\cdot 14$ en herstel daarna de decimalen.",
+        "Twee factoren met elk één decimaal geven twee decimalen."
+      ],
+      "solution": [
+        "$14 \\cdot 14 = 196$.",
+        "Twee decimalen: $1{,}4^2 = 1{,}96$.",
+        "$1{,}96 < 2$, dus 1,4 is een te kleine benadering van $\\sqrt2$."
+      ],
+      "feedback": [
+        {
+          "answer": 2.8,
+          "message": "Je hebt $1{,}4 \\cdot 2$ berekend. Kwadrateren is met **zichzelf** vermenigvuldigen: $1{,}4 \\cdot 1{,}4$."
+        },
+        {
+          "answer": 19.6,
+          "message": "De cijfers kloppen, maar de komma niet. Twee factoren met elk één decimaal geven een antwoord met twee decimalen: $1{,}96$."
+        },
+        {
+          "answer": 1.16,
+          "message": "Kommagetallen kwadrateer je niet door het gehele deel en de decimalen apart te kwadrateren. Reken $14 \\cdot 14 = 196$ en zet twee decimalen: $1{,}96$."
+        }
+      ],
       "topics": [
-        "powers"
+        "powers",
+        "roots",
+        "decimals"
+      ]
+    },
+    {
+      "id": "14-043",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Op YBC 7289 staat de waarde $1;24,51,10$. Reken die om naar een kommagetal: $1 + \\frac{24}{60} + \\frac{51}{60^2} + \\frac{10}{60^3}$. Rond af op zes decimalen.",
+      "answer": 1.414213,
+      "tolerance": 6e-07,
+      "hints": [
+        "$60^2 = 3600$ en $60^3 = 216\\,000$.",
+        "Bereken elke term apart: $\\frac{24}{60} = 0{,}4$."
+      ],
+      "solution": [
+        "$\\frac{24}{60} = 0{,}4$.",
+        "$\\frac{51}{3600} = 0{,}0141666\\ldots$",
+        "$\\frac{10}{216\\,000} = 0{,}0000462\\ldots$",
+        "Samen: $1 + 0{,}4 + 0{,}0141667 + 0{,}0000463 = 1{,}4142130\\ldots$, afgerond $1{,}414213$.",
+        "Ter vergelijking: $\\sqrt2 = 1{,}4142136\\ldots$"
+      ],
+      "feedback": [
+        {
+          "answer": 1.24511,
+          "message": "Je hebt de zestigtallige posities gelezen als decimalen. 24 betekent hier $\\frac{24}{60}$, niet $\\frac{24}{100}$."
+        },
+        {
+          "answer": 1.416944,
+          "message": "Je hebt $\\frac{10}{60^2}$ gebruikt voor de laatste positie. De derde positie na de puntkomma is $\\frac{1}{60^3}$."
+        }
+      ],
+      "topics": [
+        "roots",
+        "number-systems"
       ]
     },
     {
       "id": "14-027",
-      "question": "Een vierkant heeft oppervlakte 225 m². Wat is zijn omtrek?",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een vierkant plein heeft een oppervlakte van 225 m². Hoe lang is de omtrek?",
       "answer": 60,
-      "solution": [
-        "Zijde $\\sqrt{225}=15$ m.",
-        "Omtrek $4\\times15=60$ m."
-      ],
+      "unit": "m",
       "hints": [
-        "Zoek eerst de zijde."
+        "Bepaal eerst de zijde met een wortel.",
+        "De omtrek is vier keer de zijde."
       ],
-      "type": "numeric",
-      "mode": "independent",
-      "difficulty": 2,
-      "topics": [
-        "powers"
-      ],
-      "unit": "m"
-    },
-    {
-      "id": "14-028",
-      "question": "Een hoeveelheid begint bij 5 en wordt zes keer verdubbeld. Wat is de eindwaarde?",
-      "answer": 320,
       "solution": [
-        "$5\\times2^6=5\\times64=320$."
+        "Zijde: $\\sqrt{225} = 15$ m, want $15^2 = 225$.",
+        "Omtrek: $4 \\cdot 15 = 60$ m."
       ],
-      "hints": [
-        "De startwaarde is geen extra verdubbeling."
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Dat is de zijde. De vraag is de omtrek: vier zijden."
+        },
+        {
+          "answer": 900,
+          "message": "Je hebt de oppervlakte met 4 vermenigvuldigd. Oppervlakte en omtrek zijn verschillende grootheden: bepaal eerst de zijde."
+        }
       ],
-      "type": "numeric",
-      "mode": "independent",
-      "difficulty": 2,
       "topics": [
-        "powers"
+        "roots",
+        "area",
+        "perimeter"
       ]
     },
     {
       "id": "14-029",
-      "question": "Alle lengtes worden met factor 4 vergroot. Met welke factor groeit de inhoud?",
-      "answer": 64,
-      "solution": [
-        "De inhoudsfactor is $4^3=64$."
-      ],
-      "hints": [
-        "Er veranderen drie lengterichtingen."
-      ],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Alle lengtes van een kubusvormige doos worden 4 keer zo groot. Hoeveel keer zo groot wordt de inhoud?",
+      "answer": 64,
+      "hints": [
+        "Lengte, breedte en hoogte worden allemaal 4 keer zo groot.",
+        "Inhoudsfactor $= k^3$."
+      ],
+      "solution": [
+        "De inhoud is lengte maal breedte maal hoogte; elk wordt maal 4.",
+        "Inhoudsfactor: $4 \\cdot 4 \\cdot 4 = 4^3 = 64$."
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "De lengtes worden 4 keer zo groot, maar de inhoud hangt van drie lengtes af: $4 \\cdot 4 \\cdot 4$."
+        },
+        {
+          "answer": 12,
+          "message": "Je hebt $4 \\cdot 3$ berekend. De inhoudsfactor is $4^3 = 4 \\cdot 4 \\cdot 4$."
+        },
+        {
+          "answer": 16,
+          "message": "Dat is de oppervlaktefactor $4^2$. Voor inhoud tellen drie richtingen: $4^3$."
+        }
+      ],
       "topics": [
-        "powers"
+        "powers",
+        "volume",
+        "ratios"
+      ]
+    },
+    {
+      "id": "14-028",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een hoeveelheid begint bij 5 en wordt zes keer na elkaar verdubbeld. Wat is de eindwaarde?",
+      "answer": 320,
+      "hints": [
+        "Zes verdubbelingen: vermenigvuldig met $2^6$.",
+        "De startwaarde is geen verdubbeling."
+      ],
+      "solution": [
+        "Eindwaarde $= 5 \\cdot 2^6$.",
+        "$2^6 = 64$.",
+        "$5 \\cdot 64 = 320$."
+      ],
+      "feedback": [
+        {
+          "answer": 640,
+          "message": "Je hebt zeven keer verdubbeld. Bij zes verdubbelingen is de factor $2^6 = 64$, en $5 \\cdot 64 = 320$."
+        },
+        {
+          "answer": 60,
+          "message": "Je hebt $5 \\cdot 2 \\cdot 6$ berekend: zes keer 10 erbij. Verdubbelen is steeds met 2 **vermenigvuldigen**: $5 \\cdot 2^6$."
+        },
+        {
+          "answer": 15625,
+          "message": "Je hebt $5^6$ berekend. Het grondtal is de groeifactor 2; de 5 is de startwaarde."
+        }
+      ],
+      "topics": [
+        "powers",
+        "patterns"
       ]
     },
     {
       "id": "14-030",
-      "question": "Een vierkante plaat heeft eerst zijde 4 cm en na vergroting oppervlakte 144 cm². Geef de nieuwe zijde en de lengtefactor.",
-      "solution": [
-        "Nieuwe zijde $\\sqrt{144}=12$ cm.",
-        "Lengtefactor $12:4=3$.",
-        "Oppervlaktefactor $144:16=9=3^2$."
-      ],
-      "hints": [
-        "Neem de wortel van de nieuwe oppervlakte.",
-        "Vergelijk daarna de zijden."
-      ],
       "type": "multiple",
       "mode": "challenge",
       "difficulty": 3,
-      "topics": [
-        "powers"
-      ],
+      "question": "Een vierkante plaat met zijde 4 cm wordt vergroot totdat de oppervlakte 144 cm² is. Geef de nieuwe zijde en de lengtefactor.",
       "parts": [
         {
           "label": "nieuwe zijde (cm)",
@@ -562,6 +1359,89 @@
           "answer": 3,
           "type": "numeric"
         }
+      ],
+      "hints": [
+        "Neem de wortel van de nieuwe oppervlakte.",
+        "Vergelijk daarna de nieuwe zijde met de oude."
+      ],
+      "solution": [
+        "Nieuwe zijde: $\\sqrt{144} = 12$ cm.",
+        "Lengtefactor: $12 : 4 = 3$.",
+        "Controle: oude oppervlakte $4^2 = 16$ cm², en $144 : 16 = 9 = 3^2$. De oppervlaktefactor is het kwadraat van de lengtefactor."
+      ],
+      "topics": [
+        "roots",
+        "area",
+        "ratios"
+      ]
+    },
+    {
+      "id": "14-045",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Van een vierkant weet je alleen dat de diagonaal 10 cm lang is. Wat is de oppervlakte van het vierkant?",
+      "answer": 50,
+      "unit": "cm²",
+      "hints": [
+        "Het vierkant op de diagonaal heeft twee keer de oppervlakte van het vierkant zelf.",
+        "Of: als de zijde $z$ is, dan is $z^2 + z^2 = 10^2$."
+      ],
+      "solution": [
+        "Het vierkant op de diagonaal heeft oppervlakte $10^2 = 100$ cm².",
+        "Dat is twee keer de oppervlakte van het oorspronkelijke vierkant (historisch intermezzo).",
+        "Oppervlakte $= 100 : 2 = 50$ cm².",
+        "Controle: zijde $z = \\sqrt{50} = 5\\sqrt2 \\approx 7{,}07$ cm, en $z \\cdot \\sqrt2 = 5 \\cdot 2 = 10$ cm. Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": 100,
+          "message": "Dat is de oppervlakte van het vierkant **op de diagonaal**. Het oorspronkelijke vierkant is half zo groot."
+        },
+        {
+          "answer": 25,
+          "message": "Je hebt de diagonaal als dubbele zijde genomen. De diagonaal is $\\sqrt2$ keer de zijde, niet 2 keer."
+        }
+      ],
+      "topics": [
+        "roots",
+        "area",
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "14-046",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Hoeveel cijfers heeft het getal $2^{10} \\cdot 5^{12}$?",
+      "answer": 12,
+      "hints": [
+        "Schrijf $5^{12} = 5^{10} \\cdot 5^2$.",
+        "$2^{10} \\cdot 5^{10} = (2 \\cdot 5)^{10} = 10^{10}$."
+      ],
+      "solution": [
+        "$2^{10} \\cdot 5^{12} = 2^{10} \\cdot 5^{10} \\cdot 5^2$.",
+        "$2^{10} \\cdot 5^{10} = 10^{10}$.",
+        "Dus het getal is $25 \\cdot 10^{10} = 250\\,000\\,000\\,000$.",
+        "Dat is 25 gevolgd door tien nullen: $2 + 10 = 12$ cijfers."
+      ],
+      "feedback": [
+        {
+          "answer": 11,
+          "message": "$10^{10}$ zelf heeft 11 cijfers, maar het getal is $25 \\cdot 10^{10}$: de 25 levert twee cijfers, plus tien nullen, samen 12."
+        },
+        {
+          "answer": 10,
+          "message": "Tien nullen is niet het aantal cijfers: er staat ook nog 25 voor. Samen $2 + 10 = 12$ cijfers."
+        },
+        {
+          "answer": 22,
+          "message": "Je hebt de exponenten opgeteld. Combineer eerst $2^{10} \\cdot 5^{10} = 10^{10}$; er blijft $5^2 = 25$ over."
+        }
+      ],
+      "topics": [
+        "powers"
       ]
     }
   ]

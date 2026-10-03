@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="sans-serif">
+  <title>Het vierkant op de diagonaal heeft twee keer de oppervlakte</title>
+  <!-- 2x2 raster van eenheidsvierkanten -->
+  <g transform="translate(60,30)">
+    <g fill="#f1f3f5" stroke="#1f2933" stroke-width="1.5">
+      <rect x="0" y="0" width="110" height="110"/>
+      <rect x="110" y="0" width="110" height="110"/>
+      <rect x="0" y="110" width="110" height="110"/>
+      <rect x="110" y="110" width="110" height="110"/>
+    </g>
+    <!-- gekanteld vierkant op de diagonalen -->
+    <polygon points="110,0 220,110 110,220 0,110" fill="#3b5bdb" fill-opacity="0.18" stroke="#3b5bdb" stroke-width="3"/>
+    <!-- eenheidsvierkant gemarkeerd -->
+    <rect x="0" y="0" width="110" height="110" fill="none" stroke="#1f2933" stroke-width="3"/>
+    <text x="55" y="-8" text-anchor="middle" font-size="14" fill="#1f2933">1</text>
+    <text x="-10" y="60" text-anchor="end" font-size="14" fill="#1f2933">1</text>
+    <text x="40" y="45" font-size="13" fill="#3b5bdb" transform="rotate(-45 40 45)">d</text>
+  </g>
+  <g font-size="15" fill="#1f2933">
+    <text x="330" y="70">Het blauwe vierkant heeft de</text>
+    <text x="330" y="92">diagonaal d als zijde.</text>
+    <text x="330" y="130">Het bestaat uit 4 halve</text>
+    <text x="330" y="152">eenheidsvierkanten: oppervlakte 2.</text>
+    <text x="330" y="196" fill="#3b5bdb">d · d = 2, dus d = √2 ≈ 1,414</text>
+  </g>
+</svg>

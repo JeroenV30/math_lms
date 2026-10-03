@@ -1,155 +1,214 @@
 {
   "title": "Hoofdstuktoets – Machten en wortels",
-  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "intro": "15 vragen over de hele module: machten, rekenregels, wetenschappelijke notatie en wortels. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
   "questions": [
     {
       "id": "14-T01",
-      "question": "Bereken $5^3$.",
-      "answer": 125,
-      "solution": [
-        "$5\\times5\\times5=125$."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Bereken $5^3$.",
+      "answer": 125,
+      "hints": [],
+      "solution": [
+        "$5^3 = 5 \\cdot 5 \\cdot 5$.",
+        "$5 \\cdot 5 = 25$ en $25 \\cdot 5 = 125$."
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "$5^3$ is niet $5 \\cdot 3$, maar drie factoren 5: $5 \\cdot 5 \\cdot 5 = 125$."
+        }
+      ],
       "topics": [
         "powers"
       ]
     },
     {
       "id": "14-T02",
-      "question": "Bereken $(-3)^3$.",
-      "answer": -27,
-      "solution": [
-        "Een oneven aantal negatieve factoren geeft -27."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Bereken $(-3)^3$.",
+      "answer": -27,
+      "hints": [],
+      "solution": [
+        "$(-3)\\cdot(-3) = 9$.",
+        "$9 \\cdot (-3) = -27$.",
+        "Een oneven aantal negatieve factoren geeft een negatief resultaat."
+      ],
+      "feedback": [
+        {
+          "answer": 27,
+          "message": "Drie negatieve factoren geven een negatief resultaat: $-27$."
+        }
+      ],
       "topics": [
-        "powers"
+        "powers",
+        "negative-numbers"
       ]
     },
     {
       "id": "14-T03",
-      "question": "Bereken $-4^2$.",
-      "answer": -16,
-      "solution": [
-        "Eerst kwadrateren: 16. Dan het losse minteken."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Bereken $-4^2$.",
+      "answer": -16,
+      "hints": [],
+      "solution": [
+        "De exponent hoort alleen bij de 4: eerst $4^2 = 16$.",
+        "Daarna het minteken: $-4^2 = -(4^2) = -16$."
+      ],
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Zonder haakjes is alleen 4 het grondtal: $-4^2 = -(4^2) = -16$. Het antwoord 16 hoort bij $(-4)^2$."
+        }
+      ],
       "topics": [
-        "powers"
+        "powers",
+        "negative-numbers"
       ]
     },
     {
       "id": "14-T04",
-      "question": "Vul n in: $7^2\\times7^5=7^n$.",
-      "answer": 7,
-      "solution": [
-        "$2+5=7$."
-      ],
-      "hints": [],
-      "type": "numeric",
+      "type": "expression",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Vereenvoudig $x^2 \\cdot x^5$ tot één macht van $x$.",
+      "answer": "x^7",
+      "hints": [],
+      "solution": [
+        "Productregel: $x^2 \\cdot x^5 = x^{2+5}$.",
+        "$= x^7$."
+      ],
+      "feedback": [
+        {
+          "answer": "x^10",
+          "message": "Bij een product van machten met hetzelfde grondtal tel je de exponenten op, je vermenigvuldigt ze niet."
+        }
+      ],
       "topics": [
-        "powers"
+        "powers",
+        "algebra"
       ]
     },
     {
       "id": "14-T05",
-      "question": "Vul n in: $5^6:5^4=5^n$.",
-      "answer": 2,
-      "solution": [
-        "$6-4=2$."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Vul $n$ in: $5^6 : 5^4 = 5^n$.",
+      "answer": 2,
+      "hints": [],
+      "solution": [
+        "Quotiëntregel: $5^{6-4}$.",
+        "$n = 2$. Controle: $15\\,625 : 625 = 25 = 5^2$."
+      ],
       "topics": [
         "powers"
       ]
     },
     {
       "id": "14-T06",
-      "question": "Vul n in: $(3^2)^5=3^n$.",
-      "answer": 10,
-      "solution": [
-        "$2\\times5=10$."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Vul $n$ in: $(3^2)^5 = 3^n$.",
+      "answer": 10,
+      "hints": [],
+      "solution": [
+        "Macht van een macht: exponenten vermenigvuldigen.",
+        "$2 \\cdot 5 = 10$, dus $n = 10$."
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je hebt de exponenten opgeteld. Bij een macht van een macht vermenigvuldig je ze: vijf groepjes van twee factoren."
+        }
+      ],
       "topics": [
         "powers"
       ]
     },
     {
       "id": "14-T07",
-      "question": "Bereken $12^0$.",
-      "answer": 1,
-      "solution": [
-        "Een niet-nulgetal tot de nulde macht is 1."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Bereken $12^0$.",
+      "answer": 1,
+      "hints": [],
+      "solution": [
+        "Voor elk grondtal ongelijk aan 0 is de nulde macht 1.",
+        "Bijvoorbeeld: $\\frac{12^3}{12^3} = 12^0 = 1$."
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "Een product van nul factoren is 1, niet 0: $12^0 = 12^3 : 12^3 = 1$."
+        }
+      ],
       "topics": [
         "powers"
       ]
     },
     {
       "id": "14-T08",
-      "question": "Bereken $3^{-2}$ als breuk.",
-      "answer": "1/9",
-      "solution": [
-        "$1/3^2=1/9$."
-      ],
-      "hints": [],
       "type": "fraction",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Bereken $3^{-2}$. Geef je antwoord als breuk.",
+      "answer": "1/9",
+      "hints": [],
+      "solution": [
+        "$3^{-2} = \\frac{1}{3^2}$.",
+        "$= \\frac19$."
+      ],
+      "feedback": [
+        {
+          "answer": "-9",
+          "message": "Een negatieve exponent geeft het omgekeerde, geen negatief getal: $3^{-2} = \\frac{1}{9}$."
+        },
+        {
+          "answer": "-6",
+          "message": "Je hebt $3 \\cdot (-2)$ berekend. $3^{-2} = \\frac{1}{3^2} = \\frac19$."
+        }
+      ],
       "topics": [
         "powers"
       ]
     },
     {
       "id": "14-T09",
-      "question": "Bereken $\\sqrt{121}$.",
-      "answer": 11,
-      "solution": [
-        "$11^2=121$."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Schrijf $\\sqrt{75}$ in de vorm $a\\sqrt{3}$. Wat is $a$?",
+      "answer": 5,
+      "hints": [],
+      "solution": [
+        "$75 = 25 \\cdot 3$.",
+        "$\\sqrt{75} = \\sqrt{25} \\cdot \\sqrt3 = 5\\sqrt3$.",
+        "Controle: $(5\\sqrt3)^2 = 25 \\cdot 3 = 75$."
+      ],
+      "feedback": [
+        {
+          "answer": 25,
+          "message": "Je hebt 25 uit de wortel gehaald zonder er de wortel van te nemen: $\\sqrt{25} = 5$."
+        }
+      ],
       "topics": [
-        "powers"
+        "roots"
       ]
     },
     {
       "id": "14-T10",
-      "question": "Geef alle reële oplossingen van $x^2=25$, in oplopende volgorde.",
-      "solution": [
-        "Beide kwadraten zijn 25."
-      ],
-      "hints": [],
       "type": "multiple",
       "mode": "independent",
-      "difficulty": 1,
-      "topics": [
-        "powers"
-      ],
+      "difficulty": 2,
+      "question": "Geef alle reële oplossingen van $x^2 = 25$, van klein naar groot.",
       "parts": [
         {
           "label": "kleinste oplossing",
@@ -161,83 +220,143 @@
           "answer": 5,
           "type": "numeric"
         }
+      ],
+      "hints": [],
+      "solution": [
+        "$5^2 = 25$ en $(-5)^2 = 25$.",
+        "De oplossingen zijn $x = -5$ en $x = 5$."
+      ],
+      "topics": [
+        "powers",
+        "roots",
+        "equations"
       ]
     },
     {
       "id": "14-T11",
-      "question": "Bereken $\\sqrt{(-9)^2}$.",
-      "answer": 9,
-      "solution": [
-        "Wortel van 81 is 9."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Bereken $\\sqrt{(-9)^2}$.",
+      "answer": 9,
+      "hints": [],
+      "solution": [
+        "$(-9)^2 = 81$.",
+        "$\\sqrt{81} = 9$: de hoofdwortel is niet-negatief, en $\\sqrt{a^2} = |a|$."
+      ],
+      "feedback": [
+        {
+          "answer": -9,
+          "message": "De hoofdwortel is nooit negatief. $(-9)^2 = 81$ en $\\sqrt{81} = 9$."
+        }
+      ],
       "topics": [
-        "powers"
+        "roots",
+        "negative-numbers"
       ]
     },
     {
       "id": "14-T12",
-      "question": "Bereken $\\sqrt{50}$ op twee decimalen.",
-      "answer": 7.07,
-      "solution": [
-        "$\\sqrt{50}\\approx7{,}0711$."
-      ],
-      "hints": [],
       "type": "decimal",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Bereken $\\sqrt{50}$ en rond af op twee decimalen.",
+      "answer": 7.07,
+      "tolerance": 0.001,
+      "hints": [],
+      "solution": [
+        "$7^2 = 49$, dus $\\sqrt{50}$ ligt net boven 7.",
+        "Rekenmachine: $\\sqrt{50} = 7{,}0710\\ldots$, afgerond $7{,}07$."
+      ],
+      "feedback": [
+        {
+          "answer": 25,
+          "message": "Je hebt 50 gehalveerd. De wortel is het getal dat met zichzelf vermenigvuldigd 50 geeft; dat ligt net boven 7."
+        }
+      ],
       "topics": [
-        "powers"
+        "roots",
+        "estimation"
       ]
     },
     {
       "id": "14-T13",
-      "question": "Schrijf 0,0062 als $6{,}2\\times10^n$. Wat is n?",
-      "answer": -3,
-      "solution": [
-        "$6{,}2\\times10^{-3}=0{,}0062$."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Schrijf 0,0062 als $6{,}2 \\times 10^n$. Wat is $n$?",
+      "answer": -3,
+      "hints": [],
+      "solution": [
+        "Van $0{,}0062$ naar $6{,}2$ schuift de komma 3 plaatsen naar rechts.",
+        "Dus $0{,}0062 = 6{,}2 \\times 10^{-3}$: $n = -3$."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Een getal tussen 0 en 1 krijgt een negatieve exponent."
+        },
+        {
+          "answer": -2,
+          "message": "Tel de plaatsen tot en met de 6: dat zijn er drie."
+        }
+      ],
       "topics": [
-        "powers"
+        "powers",
+        "decimals"
       ]
     },
     {
       "id": "14-T14",
-      "question": "Bereken $(2+4)^2-2^2-4^2$.",
-      "answer": 16,
-      "solution": [
-        "$36-4-16=16$."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 2,
+      "difficulty": 3,
+      "question": "Bereken $(2+4)^2 - 2^2 - 4^2$.",
+      "answer": 16,
+      "hints": [],
+      "solution": [
+        "Haakjes eerst: $(2+4)^2 = 6^2 = 36$.",
+        "$36 - 4 - 16 = 16$.",
+        "Dit is precies $2 \\cdot 2 \\cdot 4$: de twee rechthoeken in $(a+b)^2 = a^2 + 2ab + b^2$."
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "Je hebt $(2+4)^2$ gelezen als $2^2 + 4^2$. Een macht verdeel je niet over een som: $(2+4)^2 = 36$."
+        }
+      ],
       "topics": [
         "powers"
       ]
     },
     {
       "id": "14-T15",
-      "question": "Een vierkant heeft oppervlakte 400 cm². Wat is zijn omtrek?",
-      "answer": 80,
-      "solution": [
-        "Zijde 20 cm; omtrek 80 cm."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 2,
-      "topics": [
-        "powers"
+      "difficulty": 3,
+      "question": "Een vierkant heeft een oppervlakte van 400 cm². Hoe lang is de omtrek?",
+      "answer": 80,
+      "unit": "cm",
+      "hints": [],
+      "solution": [
+        "Zijde: $\\sqrt{400} = 20$ cm.",
+        "Omtrek: $4 \\cdot 20 = 80$ cm."
       ],
-      "unit": "cm"
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Dat is de zijde. De omtrek is vier zijden."
+        },
+        {
+          "answer": 100,
+          "message": "Je hebt de oppervlakte door 4 gedeeld. Bepaal eerst de zijde met een wortel: 20 cm."
+        }
+      ],
+      "topics": [
+        "roots",
+        "area",
+        "perimeter"
+      ]
     }
   ]
 }

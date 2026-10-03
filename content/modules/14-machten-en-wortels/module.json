@@ -7,112 +7,168 @@
   "status": "available",
   "historical_period": "Oudheid",
   "estimated_difficulty": 2,
-  "estimated_minutes": 160,
+  "estimated_minutes": 240,
   "prerequisites": [
     13
   ],
   "topics": [
     "powers",
-    "roots"
+    "roots",
+    "area",
+    "volume",
+    "estimation"
   ],
-  "core_question": "Hoe beschrijf je herhaalde vermenigvuldiging, en hoe vind je de zijde terug als je een vierkante oppervlakte kent?",
-  "summary": "Machten, exponenten en vierkantswortels; rekenregels, negatieve grondtallen en wetenschappelijke notatie. Je onderscheidt een exacte wortel van een benadering.",
+  "core_question": "Hoe beschrijf je herhaald vermenigvuldigen kort en precies, en hoe reken je terug van een vierkante oppervlakte naar de zijde?",
+  "summary": "Kwadraat en kubus als oppervlakte en inhoud, machten als herhaald vermenigvuldigen en de rekenregels die daaruit volgen (met uitleg waarom a⁰ = 1). Machten van tien en wetenschappelijke notatie voor heel grote en heel kleine getallen. De vierkantswortel: terugrekenen, schatten, vereenvoudigen en het bewijs dat √2 geen breuk is, van Babylonische kleitabletten tot het wortelteken van Rudolff en de exponent van Descartes.",
   "learning_goals": [
-    "Je leest een macht als herhaalde vermenigvuldiging en benoemt grondtal en exponent.",
-    "Je rekent met machten, inclusief negatieve grondtallen en haakjes.",
-    "Je gebruikt product-, quotiënt- en machtregels onder de juiste voorwaarden.",
-    "Je verklaart exponent nul en negatieve gehele exponenten voor een niet-nulgrondtal.",
-    "Je berekent vierkantswortels en onderscheidt de hoofdwortel van oplossingen van een kwadraatvergelijking.",
-    "Je schat wortels tussen twee kwadraten en vereenvoudigt eenvoudige wortelvormen.",
-    "Je leest en schrijft wetenschappelijke notatie."
+    "Je leest een macht als herhaald vermenigvuldigen, benoemt grondtal en exponent, en verbindt kwadraat en derde macht met oppervlakte en inhoud.",
+    "Je rekent machten uit met positieve en negatieve grondtallen, breuken en kommagetallen, en onderscheidt $(-2)^2$ van $-2^2$.",
+    "Je past de rekenvolgorde toe op uitdrukkingen met haakjes, machten en de vier hoofdbewerkingen.",
+    "Je gebruikt de product-, quotiënt- en machtsregel en de regel $(ab)^n = a^nb^n$, ook met letters, en je legt uit waarom ze gelden en waarom ze niet voor sommen gelden.",
+    "Je legt uit waarom $a^0 = 1$ en wat een negatieve exponent betekent.",
+    "Je schrijft grote en kleine getallen in wetenschappelijke notatie en rekent ermee.",
+    "Je berekent vierkantswortels, onderscheidt de hoofdwortel van de oplossingen van $x^2 = c$ en weet dat $\\sqrt{a^2} = |a|$.",
+    "Je schat een wortel tussen twee opeenvolgende kwadraten, vereenvoudigt wortels zoals $\\sqrt{12} = 2\\sqrt3$ en berekent eenvoudige derdemachtswortels.",
+    "Je kunt het bewijs navertellen dat $\\sqrt2$ geen breuk is, en je plaatst YBC 7289, de ontdekking van de onmeetbaarheid, Archimedes' Zandrekenaar, Rudolff en Descartes in de tijd."
   ],
   "glossary": [
     {
+      "term": "Macht",
+      "definition": "Een product van gelijke factoren, kort geschreven als $a^n$: $n$ factoren $a$."
+    },
+    {
       "term": "Grondtal",
-      "definition": "Het getal dat herhaald wordt vermenigvuldigd."
+      "definition": "Het getal dat herhaald wordt vermenigvuldigd; in $a^n$ is dat $a$."
     },
     {
       "term": "Exponent",
-      "definition": "Het getal rechtsboven dat bij positieve gehele exponenten het aantal factoren telt."
+      "definition": "Het kleine getal rechtsboven in een macht; bij een positieve gehele exponent het aantal factoren."
     },
     {
       "term": "Kwadraat",
-      "definition": "Een tweede macht: het product van een getal met zichzelf."
+      "definition": "De tweede macht $a^2 = a \\cdot a$; meetkundig de oppervlakte van een vierkant met zijde $a$."
     },
     {
-      "term": "Vierkantswortel",
-      "definition": "De niet-negatieve waarde waarvan het kwadraat het gegeven niet-negatieve getal is."
+      "term": "Derde macht",
+      "definition": "De macht $a^3 = a \\cdot a \\cdot a$; meetkundig de inhoud van een kubus met ribbe $a$."
     },
     {
       "term": "Volkomen kwadraat",
-      "definition": "Het kwadraat van een geheel getal, zoals 49."
+      "definition": "Het kwadraat van een geheel getal, zoals 49 of 144. De wortel ervan is een geheel getal."
+    },
+    {
+      "term": "Vierkantswortel",
+      "definition": "Voor $a \\geq 0$ het niet-negatieve getal $\\sqrt{a}$ waarvan het kwadraat $a$ is. Ook hoofdwortel genoemd."
+    },
+    {
+      "term": "Derdemachtswortel",
+      "definition": "Het getal $\\sqrt[3]{a}$ waarvan de derde macht $a$ is; bestaat ook voor negatieve $a$."
     },
     {
       "term": "Wetenschappelijke notatie",
-      "definition": "Schrijfwijze $a\\times10^n$ met $1\\leq|a|<10$ en een gehele exponent n, voor een niet-nulgetal."
+      "definition": "Schrijfwijze $a \\times 10^n$ met $1 \\leq |a| < 10$ en $n$ geheel, voor zeer grote en zeer kleine getallen."
+    },
+    {
+      "term": "Orde van grootte",
+      "definition": "De exponent van 10 in wetenschappelijke notatie; twee ordes van grootte verschil is ongeveer een factor 100."
+    },
+    {
+      "term": "Irrationaal getal",
+      "definition": "Een getal dat niet als breuk van twee gehele getallen te schrijven is, zoals $\\sqrt2$."
+    },
+    {
+      "term": "Onmeetbaar (incommensurabel)",
+      "definition": "Twee lengtes zonder gemeenschappelijke maat die in beide een geheel aantal keer past, zoals de zijde en de diagonaal van een vierkant."
+    },
+    {
+      "term": "Bewijs uit het ongerijmde",
+      "definition": "Een bewijs dat aanneemt dat de bewering onwaar is en daaruit een tegenspraak afleidt."
     }
   ],
   "formulas": [
     {
-      "name": "Product van machten",
-      "latex": "a^m a^n=a^{m+n}",
-      "usage": "Het grondtal moet hetzelfde zijn."
+      "name": "Macht",
+      "latex": "a^n = \\underbrace{a \\cdot a \\cdot \\ldots \\cdot a}_{n}",
+      "usage": "Een macht is herhaald vermenigvuldigen; de exponent telt de factoren.",
+      "origin": "Het idee is Babylonisch en Grieks; de notatie met een exponent rechtsboven komt uit Descartes' La Géométrie (1637)."
     },
     {
-      "name": "Quotiënt van machten",
-      "latex": "\\frac{a^m}{a^n}=a^{m-n}",
-      "usage": "Het grondtal is niet nul."
+      "name": "Productregel",
+      "latex": "a^m \\cdot a^n = a^{m+n}",
+      "usage": "Alleen bij hetzelfde grondtal: factoren naast elkaar tellen. Dus $2^3 \\cdot 2^4 = 2^7$, niet $2^{12}$.",
+      "origin": "Voor machten van tien al bewezen door Archimedes in de Zandrekenaar (3e eeuw v.Chr.)."
+    },
+    {
+      "name": "Quotiëntregel",
+      "latex": "\\frac{a^m}{a^n} = a^{m-n} \\quad (a \\neq 0)",
+      "usage": "Gelijke factoren in teller en noemer vallen tegen elkaar weg."
     },
     {
       "name": "Macht van een macht",
-      "latex": "(a^m)^n=a^{mn}",
-      "usage": "Vermenigvuldig de exponenten."
+      "latex": "(a^m)^n = a^{mn}",
+      "usage": "$n$ groepjes van $m$ factoren: exponenten vermenigvuldigen."
+    },
+    {
+      "name": "Macht van een product",
+      "latex": "(ab)^n = a^n b^n",
+      "usage": "Elke factor krijgt de exponent. Geldt niet voor sommen: $(a+b)^2 \\neq a^2 + b^2$."
     },
     {
       "name": "Nul en negatieve exponent",
-      "latex": "a^0=1,\\qquad a^{-n}=\\frac1{a^n}",
-      "usage": "Voor a niet nul en positieve gehele n."
+      "latex": "a^0 = 1, \\qquad a^{-n} = \\frac{1}{a^n} \\quad (a \\neq 0)",
+      "usage": "De enige keuze waarbij het patroon en de rekenregels blijven kloppen. Een negatieve exponent geeft het omgekeerde, geen negatief getal."
+    },
+    {
+      "name": "Wetenschappelijke notatie",
+      "latex": "a \\times 10^n, \\quad 1 \\leq |a| < 10",
+      "usage": "Vermenigvuldigen: mantissen vermenigvuldigen, exponenten optellen. Optellen: eerst gelijke machten van tien."
     },
     {
       "name": "Wortel van een kwadraat",
-      "latex": "\\sqrt{a^2}=|a|",
-      "usage": "De hoofdwortel is niet-negatief."
+      "latex": "\\sqrt{a^2} = |a|",
+      "usage": "De hoofdwortel is niet-negatief; $x^2 = c$ (met $c > 0$) heeft de twee oplossingen $\\pm\\sqrt{c}$."
+    },
+    {
+      "name": "Wortel van een product",
+      "latex": "\\sqrt{ab} = \\sqrt{a}\\,\\sqrt{b} \\quad (a, b \\geq 0)",
+      "usage": "Gebruik je om wortels te vereenvoudigen: $\\sqrt{12} = \\sqrt{4}\\sqrt{3} = 2\\sqrt3$. Geldt niet voor sommen.",
+      "origin": "Het wortelteken verscheen in druk in Rudolffs Die Coss (1525)."
     }
   ],
   "lessons": [
     {
       "slug": "introductie",
-      "title": "Verdubbelen en terugrekenen",
+      "title": "Kleitabletten vol kwadraten",
       "kind": "intro",
       "file": "01-introductie.md"
     },
     {
       "slug": "machten",
-      "title": "Grondtal en exponent",
+      "title": "Kwadraat, kubus en macht",
       "kind": "theory",
       "file": "02-machten.md"
     },
     {
       "slug": "machtsregels",
-      "title": "Rekenregels uit factoren",
+      "title": "Rekenregels voor machten",
       "kind": "theory",
       "file": "03-machtsregels.md"
     },
     {
-      "slug": "vierkantswortels",
-      "title": "De hoofdwortel en twee oplossingen",
+      "slug": "schatten-en-notatie",
+      "title": "Machten van tien: heel groot en heel klein",
       "kind": "theory",
-      "file": "04-vierkantswortels.md"
+      "file": "04-machten-van-tien.md"
     },
     {
-      "slug": "schatten-en-notatie",
-      "title": "Wortels schatten en getallen compact schrijven",
+      "slug": "vierkantswortels",
+      "title": "De vierkantswortel",
       "kind": "theory",
-      "file": "05-schatten-en-notatie.md"
+      "file": "05-vierkantswortels.md"
     },
     {
       "slug": "historisch-intermezzo",
-      "title": "Een benadering op een kleitablet",
+      "title": "Van kleitablet tot wortelteken",
       "kind": "history",
       "file": "06-historisch-intermezzo.md"
     },
@@ -130,7 +186,15 @@
     }
   ],
   "timeline": [
-    "plimpton-322"
+    "mesopotamische-getallen",
+    "plimpton-322",
+    "pythagoras",
+    "euclides-elementen",
+    "descartes-geometrie"
   ],
-  "mathematicians": []
+  "mathematicians": [
+    "pythagoras",
+    "euclides",
+    "descartes"
+  ]
 }

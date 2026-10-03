@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" font-family="sans-serif">
+  <title>Schematische weergave van het tablet YBC 7289</title>
+  <!-- tablet -->
+  <circle cx="200" cy="170" r="150" fill="#f4ecdf" stroke="#9c6b30" stroke-width="3"/>
+  <!-- vierkant gedraaid 45 graden -->
+  <polygon points="200,60 310,170 200,280 90,170" fill="none" stroke="#9c6b30" stroke-width="2.5"/>
+  <line x1="90" y1="170" x2="310" y2="170" stroke="#9c6b30" stroke-width="2.5"/>
+  <line x1="200" y1="60" x2="200" y2="280" stroke="#9c6b30" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <!-- labels -->
+  <text x="132" y="104" font-size="16" fill="#1f2933" text-anchor="middle" transform="rotate(-45 132 104)">30</text>
+  <text x="200" y="160" font-size="14" fill="#3b5bdb" text-anchor="middle">1;24,51,10</text>
+  <text x="200" y="192" font-size="14" fill="#3b5bdb" text-anchor="middle">42;25,35</text>
+  <!-- uitleg rechts -->
+  <g font-size="14" fill="#1f2933">
+    <text x="380" y="80" font-weight="bold">Lezing in modern schrift</text>
+    <text x="380" y="110">zijde: 30</text>
+    <text x="380" y="140" fill="#3b5bdb">1;24,51,10</text>
+    <text x="380" y="160">= 1 + 24/60 + 51/60² + 10/60³</text>
+    <text x="380" y="180">≈ 1,414213 (≈ √2)</text>
+    <text x="380" y="210" fill="#3b5bdb">42;25,35</text>
+    <text x="380" y="230">= 42 + 25/60 + 35/60²</text>
+    <text x="380" y="250">≈ 42,4264 (≈ 30 · √2)</text>
+    <text x="380" y="290" font-size="12" fill="#616e7c">Schets, geen foto: de getallen staan</text>
+    <text x="380" y="306" font-size="12" fill="#616e7c">op het tablet in spijkerschrift.</text>
+  </g>
+</svg>
