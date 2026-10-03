@@ -4,22 +4,189 @@
   "title": "Vectoren",
   "part": 6,
   "level": "hbo",
-  "status": "planned",
-  "historical_period": "19e eeuw",
+  "status": "available",
+  "historical_period": "1586–1901: van Stevin tot Gibbs",
   "estimated_difficulty": 4,
-  "estimated_minutes": 90,
+  "estimated_minutes": 120,
   "prerequisites": [
-    30
+    17,
+    18,
+    22
   ],
   "topics": [
-    "vectors"
+    "vectors",
+    "coordinates",
+    "pythagoras",
+    "trigonometry"
   ],
-  "core_question": null,
-  "summary": "Grootte, richting en componenten.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Een paard trekt een trekschuit schuin vanaf het jaagpad, de wind duwt een vliegtuig opzij: hoe reken je met grootheden die niet alleen een grootte maar ook een richting hebben?",
+  "summary": "Vectoren als pijlen met grootte en richting. Je rekent met componenten, bepaalt lengte en richtingshoek, telt vectoren op met de kop-staartmethode en het parallellogram, en gebruikt het inproduct voor hoeken en loodrechte stand. Toepassingen: verplaatsingen, krachten in evenwicht en vliegen met zijwind.",
+  "learning_goals": [
+    "Je onderscheidt scalaire grootheden (alleen een getal) van vectoriële grootheden (getal én richting).",
+    "Je beschrijft een vector als pijl met staart en kop, en met componenten in kolomnotatie of als $(x; y)$.",
+    "Je berekent de vector tussen twee punten als 'kop min staart' en de lengte van een vector met Pythagoras.",
+    "Je bepaalt de richtingshoek van een vector met de arctangens en corrigeert voor het kwadrant; omgekeerd bereken je componenten uit lengte en hoek.",
+    "Je telt vectoren op en trekt ze af, meetkundig (kop-staart, parallellogram) en met componenten, en je vermenigvuldigt een vector met een getal.",
+    "Je maakt een eenheidsvector bij een gegeven vector.",
+    "Je berekent het inproduct, gebruikt het om de hoek tussen twee vectoren te vinden en herkent loodrechte vectoren aan inproduct 0.",
+    "Je lost toepassingen op met verplaatsingen, krachten in evenwicht en snelheden met wind of stroming."
+  ],
+  "glossary": [
+    {
+      "term": "Scalar (scalaire grootheid)",
+      "definition": "Een grootheid die met één getal (en een eenheid) volledig beschreven is, zoals temperatuur, massa of tijdsduur."
+    },
+    {
+      "term": "Vector",
+      "definition": "Een grootheid met een grootte én een richting, zoals een verplaatsing, een kracht of een windsnelheid. Je tekent hem als pijl."
+    },
+    {
+      "term": "Staart en kop",
+      "definition": "Het beginpunt (staart) en het eindpunt met de punt van de pijl (kop) van een getekende vector."
+    },
+    {
+      "term": "Componenten",
+      "definition": "De horizontale en verticale verplaatsing die samen de vector vormen: $\\vec v = \\begin{pmatrix} x \\\\ y \\end{pmatrix}$, ook geschreven als $(x; y)$."
+    },
+    {
+      "term": "Lengte (norm)",
+      "definition": "De grootte van een vector: $|\\vec v| = \\sqrt{x^2 + y^2}$."
+    },
+    {
+      "term": "Richtingshoek",
+      "definition": "De hoek die een vector maakt met de positieve x-as, tegen de klok in gemeten, tussen $0^\\circ$ en $360^\\circ$."
+    },
+    {
+      "term": "Nulvector",
+      "definition": "De vector $\\vec 0 = (0; 0)$: lengte 0 en geen richting."
+    },
+    {
+      "term": "Tegengestelde vector",
+      "definition": "De vector $-\\vec v$: even lang als $\\vec v$, maar precies de andere kant op."
+    },
+    {
+      "term": "Resultante (somvector)",
+      "definition": "De som van twee of meer vectoren; bij krachten de ene kracht die hetzelfde effect heeft als alle krachten samen."
+    },
+    {
+      "term": "Eenheidsvector",
+      "definition": "Een vector met lengte 1. Bij $\\vec v$ hoort de eenheidsvector $\\dfrac{1}{|\\vec v|}\\vec v$ met dezelfde richting."
+    },
+    {
+      "term": "Inproduct (scalair product)",
+      "definition": "$\\vec a \\cdot \\vec b = a_1 b_1 + a_2 b_2 = |\\vec a|\\,|\\vec b| \\cos\\theta$. De uitkomst is een getal, geen vector."
+    },
+    {
+      "term": "Loodrecht (orthogonaal)",
+      "definition": "Twee vectoren (niet de nulvector) staan loodrecht op elkaar precies als hun inproduct 0 is."
+    },
+    {
+      "term": "Evenwicht",
+      "definition": "Een voorwerp is in (statisch) evenwicht als de som van alle krachten erop de nulvector is."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Vector tussen twee punten",
+      "latex": "\\overrightarrow{AB} = \\begin{pmatrix} x_B - x_A \\\\ y_B - y_A \\end{pmatrix}",
+      "usage": "Kop min staart: de verplaatsing van A naar B.",
+      "origin": "Steunt op het assenstelsel van Descartes en Fermat (17e eeuw); de pijlnotatie is 19e-eeuws."
+    },
+    {
+      "name": "Lengte van een vector",
+      "latex": "|\\vec v| = \\sqrt{x^2 + y^2}",
+      "usage": "De componenten zijn de rechthoekszijden, de vector is de schuine zijde.",
+      "origin": "De stelling van Pythagoras, toegepast op de componentendriehoek."
+    },
+    {
+      "name": "Componenten uit lengte en richting",
+      "latex": "x = r\\cos\\alpha, \\quad y = r\\sin\\alpha",
+      "usage": "Van 'hoe lang en welke kant op' naar componenten; $\\alpha$ is de richtingshoek vanaf de positieve x-as.",
+      "origin": "Goniometrie in het assenstelsel; zo ontbonden ook Stevin en Newton krachten in twee richtingen."
+    },
+    {
+      "name": "Richtingshoek",
+      "latex": "\\tan\\alpha = \\frac{y}{x}",
+      "usage": "Bereken $\\arctan(y/x)$ en corrigeer met een schets: tel $180^\\circ$ op als $x < 0$, en $360^\\circ$ als $x > 0$ en $y < 0$.",
+      "origin": "Inverse goniometrie (module 22)."
+    },
+    {
+      "name": "Optellen en vermenigvuldigen met een getal",
+      "latex": "\\begin{pmatrix} a_1 \\\\ a_2 \\end{pmatrix} + \\begin{pmatrix} b_1 \\\\ b_2 \\end{pmatrix} = \\begin{pmatrix} a_1 + b_1 \\\\ a_2 + b_2 \\end{pmatrix}, \\quad k\\begin{pmatrix} a_1 \\\\ a_2 \\end{pmatrix} = \\begin{pmatrix} k a_1 \\\\ k a_2 \\end{pmatrix}",
+      "usage": "Component voor component; meetkundig de kop-staartmethode of het parallellogram.",
+      "origin": "Het parallellogram van krachten: Stevin (1586), Newton (Principia, 1687)."
+    },
+    {
+      "name": "Eenheidsvector",
+      "latex": "\\vec e = \\frac{1}{|\\vec v|}\\,\\vec v",
+      "usage": "Dezelfde richting, lengte 1. Handig om een richting los van een grootte te beschrijven.",
+      "origin": "Moderne vectoranalyse (Gibbs, Heaviside, ca. 1880–1900)."
+    },
+    {
+      "name": "Inproduct",
+      "latex": "\\vec a \\cdot \\vec b = a_1 b_1 + a_2 b_2 = |\\vec a|\\,|\\vec b|\\cos\\theta",
+      "usage": "Hoek tussen vectoren: $\\cos\\theta = \\dfrac{\\vec a \\cdot \\vec b}{|\\vec a|\\,|\\vec b|}$. Inproduct 0 betekent loodrecht.",
+      "origin": "Als deel van het quaternionproduct bij Hamilton (1843); als zelfstandige bewerking met de punt-notatie bij Gibbs (vanaf 1881)."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een trekschuit en een kogelketting",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "pijlen-en-componenten",
+      "title": "Pijlen, componenten en lengte",
+      "file": "02-theorie-a.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "richting-als-hoek",
+      "title": "Richting als hoek",
+      "file": "03-theorie-b.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "rekenen-met-vectoren",
+      "title": "Optellen, aftrekken en schalen",
+      "file": "03b-theorie-c.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "inproduct",
+      "title": "Het inproduct en de hoek tussen vectoren",
+      "file": "03c-theorie-d.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Van krachtenparallellogram tot quaternion",
+      "file": "04-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Wind, stroming en evenwicht",
+      "file": "05-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "06-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "stevin-de-thiende",
+    "descartes-geometrie",
+    "newton-leibniz"
+  ],
+  "mathematicians": [
+    "simon-stevin",
+    "descartes",
+    "newton"
+  ]
 }

@@ -1,0 +1,1227 @@
+{
+  "exercises": [
+    {
+      "id": "31-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Hoeveel van de volgende acht grootheden zijn **vectoren**? Een temperatuur van $18^\\circ$C; een wind van 30 km/u uit het westen; een massa van 5 kg; een trekkracht van 200 N schuin omhoog; een verplaatsing van 3 km naar het noorden; een tijdsduur van 40 minuten; een vliegtuig dat met 800 km/u op koers $270^\\circ$ vliegt; een prijs van € 2,50.",
+      "answer": 4,
+      "hints": [
+        "Stel bij elke grootheid de vraag: \"...en in welke richting?\" Is die vraag zinnig?",
+        "Temperatuur, massa, tijdsduur en prijs hebben geen richting."
+      ],
+      "solution": [
+        "Scalars (alleen een getal): temperatuur, massa, tijdsduur, prijs.",
+        "Vectoren (grootte én richting): wind uit het westen, trekkracht schuin omhoog, verplaatsing naar het noorden, vliegtuig op koers $270^\\circ$.",
+        "Antwoord: 4 vectoren."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Niet elke grootheid met een getal is een vector. Bij temperatuur, massa, tijdsduur en prijs is de vraag \"in welke richting?\" zinloos: dat zijn scalars."
+        },
+        {
+          "answer": 3,
+          "message": "Je hebt er één gemist. Ook het vliegtuig op koers $270^\\circ$ heeft een grootte (800 km/u) én een richting (west)."
+        }
+      ],
+      "topics": [
+        "vectors"
+      ]
+    },
+    {
+      "id": "31-002",
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Gegeven $A(2; -1)$ en $B(7; 3)$. Bereken de vector $\\overrightarrow{AB}$. Schrijf je antwoord als $(x; y)$.",
+      "answer": "(5; 4)",
+      "hints": [
+        "Reken kop min staart: de kop is $B$, de staart is $A$.",
+        "x-component: $7 - 2$. y-component: $3 - (-1)$."
+      ],
+      "solution": [
+        "Staart $A(2; -1)$, kop $B(7; 3)$.",
+        "x-component: $7 - 2 = 5$.",
+        "y-component: $3 - (-1) = 3 + 1 = 4$.",
+        "$\\overrightarrow{AB} = (5; 4)$."
+      ],
+      "feedback": [
+        {
+          "answer": "(-5; -4)",
+          "message": "Je hebt staart min kop gerekend; dat geeft $\\overrightarrow{BA}$. Voor $\\overrightarrow{AB}$ reken je kop ($B$) min staart ($A$)."
+        },
+        {
+          "answer": "(5; 2)",
+          "message": "Let op het minteken: $3 - (-1) = 3 + 1 = 4$, niet 2."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "31-003",
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Gegeven $P(4; -2)$ en $Q(-3; 5)$. Bereken $\\overrightarrow{PQ}$.",
+      "answer": "(-7; 7)",
+      "hints": [
+        "Kop min staart: $Q - P$, voor elke coördinaat apart.",
+        "Maak een schets: $Q$ ligt links boven $P$. Welke tekens verwacht je dus?"
+      ],
+      "solution": [
+        "x-component: $-3 - 4 = -7$.",
+        "y-component: $5 - (-2) = 7$.",
+        "$\\overrightarrow{PQ} = (-7; 7)$: zeven naar links en zeven omhoog, zoals de schets voorspelt."
+      ],
+      "feedback": [
+        {
+          "answer": "(7; -7)",
+          "message": "Dit is $\\overrightarrow{QP}$: je hebt staart min kop gerekend. Van $P$ naar $Q$ ga je naar links (negatief) en omhoog (positief)."
+        },
+        {
+          "answer": "(1; 3)",
+          "message": "Je hebt de coördinaten opgeteld. Een vector tussen twee punten is het **verschil**: kop min staart."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "31-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken de lengte van de vector $\\vec v = (-8; 15)$.",
+      "answer": 17,
+      "hints": [
+        "Gebruik $|\\vec v| = \\sqrt{x^2 + y^2}$.",
+        "$(-8)^2 = 64$ en $15^2 = 225$."
+      ],
+      "solution": [
+        "$(-8)^2 + 15^2 = 64 + 225 = 289$.",
+        "$|\\vec v| = \\sqrt{289} = 17$."
+      ],
+      "feedback": [
+        {
+          "answer": 23,
+          "message": "Je hebt $8 + 15$ opgeteld. De vector loopt langs de schuine zijde: gebruik Pythagoras, $\\sqrt{64 + 225}$."
+        },
+        {
+          "answer": 7,
+          "message": "Je hebt $15 - 8$ gerekend. Het minteken verdwijnt bij het kwadrateren: $(-8)^2 = +64$."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "31-005",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken de lengte van $\\vec w = (4; -6)$. Rond af op twee decimalen.",
+      "answer": 7.21,
+      "tolerance": 0.005,
+      "hints": [
+        "Kwadrateer beide componenten en tel ze op.",
+        "$\\sqrt{52}$ ligt tussen 7 en 8."
+      ],
+      "solution": [
+        "$4^2 + (-6)^2 = 16 + 36 = 52$.",
+        "$|\\vec w| = \\sqrt{52} \\approx 7{,}211$.",
+        "Afgerond: $7{,}21$."
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Je hebt $4 + 6$ gerekend. De lengte is de schuine zijde: $\\sqrt{16 + 36}$."
+        },
+        {
+          "answer": 4.47,
+          "message": "Je hebt $\\sqrt{36 - 16}$ berekend. Ook een negatieve component levert een positief kwadraat op: tel $16 + 36$ op."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "31-006",
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Je vertrekt in het punt $P(-2; 5)$ en verplaatst over de vector $\\vec v = (4; -7)$. In welk punt kom je uit?",
+      "answer": "(2; -2)",
+      "hints": [
+        "Eindpunt = beginpunt + vector, coördinaat voor coördinaat.",
+        "$-2 + 4$ en $5 + (-7)$."
+      ],
+      "solution": [
+        "x: $-2 + 4 = 2$.",
+        "y: $5 + (-7) = -2$.",
+        "Je komt uit in $(2; -2)$."
+      ],
+      "feedback": [
+        {
+          "answer": "(-6; 12)",
+          "message": "Je hebt de vector van het beginpunt afgetrokken. Bij verplaatsen **tel je de vector op** bij het beginpunt."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "31-007",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een wandelaar loopt 2 km naar het oosten, daarna 6 km naar het noorden en tot slot 5 km naar het westen. Hoe ver staat hij hemelsbreed van zijn vertrekpunt? Rond af op twee decimalen.",
+      "answer": 6.71,
+      "tolerance": 0.005,
+      "unit": "km",
+      "hints": [
+        "Leg oost langs de x-as en noord langs de y-as en schrijf elke etappe als vector.",
+        "Tel de x-componenten op en de y-componenten op; bereken daarna de lengte."
+      ],
+      "solution": [
+        "Etappes: $(2; 0)$, $(0; 6)$ en $(-5; 0)$.",
+        "Netto verplaatsing: $(2 + 0 - 5;\\ 0 + 6 + 0) = (-3; 6)$.",
+        "Afstand: $\\sqrt{(-3)^2 + 6^2} = \\sqrt{9 + 36} = \\sqrt{45} \\approx 6{,}708$.",
+        "Afgerond: $6{,}71$ km."
+      ],
+      "feedback": [
+        {
+          "answer": 13,
+          "message": "Dat is de afgelegde weg ($2 + 6 + 5$). Gevraagd is de afstand hemelsbreed: de lengte van de netto verplaatsing."
+        },
+        {
+          "answer": 9,
+          "message": "Je hebt $3 + 6$ opgeteld. De netto verplaatsing $(-3; 6)$ heeft lengte $\\sqrt{9 + 36}$."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "31-008",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De vector $(a; 12)$ heeft lengte 13, met $a > 0$. Bereken $a$.",
+      "answer": 5,
+      "hints": [
+        "Schrijf de lengteformule op: $\\sqrt{a^2 + 12^2} = 13$.",
+        "Kwadrateer beide kanten: $a^2 + 144 = 169$."
+      ],
+      "solution": [
+        "$\\sqrt{a^2 + 144} = 13$, dus $a^2 + 144 = 169$.",
+        "$a^2 = 25$, dus $a = 5$ of $a = -5$.",
+        "Omdat $a > 0$ is $a = 5$. Controle: $\\sqrt{25 + 144} = 13$."
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Je hebt $13 - 12$ gerekend. Lengtes tel je niet zomaar af; werk met kwadraten: $a^2 = 169 - 144$."
+        },
+        {
+          "answer": 25,
+          "message": "Dat is $a^2$. Trek nog de wortel: $a = 5$."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "31-009",
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Van parallellogram $ABCD$ (hoekpunten in deze volgorde rondom) zijn $A(-2; 0)$, $B(3; -1)$ en $C(5; 3)$ gegeven. Bereken de coördinaten van $D$.",
+      "answer": "(0; 4)",
+      "hints": [
+        "In parallellogram $ABCD$ is $\\overrightarrow{AD} = \\overrightarrow{BC}$.",
+        "Bereken $\\overrightarrow{BC}$ en verplaats $A$ over die vector."
+      ],
+      "solution": [
+        "$\\overrightarrow{BC} = (5 - 3;\\ 3 - (-1)) = (2; 4)$.",
+        "$D = A + \\overrightarrow{BC} = (-2 + 2;\\ 0 + 4) = (0; 4)$.",
+        "Controle: $\\overrightarrow{AB} = (5; -1)$ en $\\overrightarrow{DC} = (5 - 0;\\ 3 - 4) = (5; -1)$. Gelijk."
+      ],
+      "feedback": [
+        {
+          "answer": "(10; 2)",
+          "message": "Dit punt hoort bij een parallellogram met de hoekpunten in een andere volgorde ($B + C - A$). In $ABCD$ ligt $D$ tegenover $B$: $\\overrightarrow{AD} = \\overrightarrow{BC}$."
+        },
+        {
+          "answer": "(-4; -4)",
+          "message": "Dit is $A + B - C$; dan ligt $D$ tegenover $C$. In $ABCD$ geldt $\\overrightarrow{AD} = \\overrightarrow{BC}$."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "31-010",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken de richtingshoek van $\\vec v = (6; 5)$ (vanaf de positieve x-as, tegen de klok in). Rond af op één decimaal.",
+      "answer": 39.8,
+      "tolerance": 0.05,
+      "unit": "°",
+      "hints": [
+        "De vector ligt in het eerste kwadrant. Gebruik $\\tan\\alpha = \\dfrac{y}{x}$.",
+        "$\\alpha = \\arctan\\left(\\tfrac{5}{6}\\right)$, rekenmachine in graden."
+      ],
+      "solution": [
+        "$\\tan\\alpha = \\tfrac{5}{6} \\approx 0{,}8333$.",
+        "$\\alpha = \\arctan(0{,}8333) \\approx 39{,}81^\\circ$.",
+        "Controle: $x > y$, dus de hoek moet kleiner zijn dan $45^\\circ$. Afgerond: $39{,}8^\\circ$."
+      ],
+      "feedback": [
+        {
+          "answer": 50.2,
+          "message": "Je hebt $\\arctan\\left(\\tfrac{6}{5}\\right)$ berekend: de hoek met de y-as. De richtingshoek gebruikt $\\tan\\alpha = y/x = 5/6$."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "31-011",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken de richtingshoek van $\\vec v = (-5; 2)$, tussen $0^\\circ$ en $360^\\circ$. Rond af op één decimaal.",
+      "answer": 158.2,
+      "tolerance": 0.05,
+      "unit": "°",
+      "hints": [
+        "Maak eerst een schets: in welk kwadrant ligt de vector? Tussen welke hoeken moet het antwoord dus liggen?",
+        "De rekenmachine geeft $\\arctan\\left(\\tfrac{2}{-5}\\right) \\approx -21{,}8^\\circ$. Omdat $x < 0$ tel je $180^\\circ$ op."
+      ],
+      "solution": [
+        "Schets: $x < 0$, $y > 0$, dus linksboven: $90^\\circ < \\alpha < 180^\\circ$.",
+        "$\\arctan\\left(\\tfrac{2}{-5}\\right) \\approx -21{,}80^\\circ$.",
+        "$x < 0$, dus $\\alpha = -21{,}80^\\circ + 180^\\circ = 158{,}20^\\circ$.",
+        "Afgerond: $158{,}2^\\circ$."
+      ],
+      "feedback": [
+        {
+          "answer": -21.8,
+          "message": "Dit is wat de rekenmachine geeft, maar $-21{,}8^\\circ$ wijst naar rechtsonder. De vector wijst naar linksboven: tel $180^\\circ$ op."
+        },
+        {
+          "answer": 21.8,
+          "message": "Dit is de hoek met de **negatieve** x-as. De richtingshoek meet je vanaf de positieve x-as: $180^\\circ - 21{,}8^\\circ$."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "31-012",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een vector heeft lengte 6 en richtingshoek $50^\\circ$. Bereken de x- en de y-component, elk afgerond op twee decimalen.",
+      "parts": [
+        {
+          "label": "x",
+          "answer": 3.86,
+          "type": "decimal",
+          "tolerance": 0.005
+        },
+        {
+          "label": "y",
+          "answer": 4.6,
+          "type": "decimal",
+          "tolerance": 0.005
+        }
+      ],
+      "hints": [
+        "$x = r\\cos\\alpha$ en $y = r\\sin\\alpha$.",
+        "Zet je rekenmachine in de gradenstand: $\\cos 50^\\circ \\approx 0{,}6428$."
+      ],
+      "solution": [
+        "$x = 6\\cos 50^\\circ \\approx 6 \\cdot 0{,}64279 \\approx 3{,}857$, afgerond $3{,}86$.",
+        "$y = 6\\sin 50^\\circ \\approx 6 \\cdot 0{,}76604 \\approx 4{,}596$, afgerond $4{,}60$.",
+        "Controle: $\\sqrt{3{,}857^2 + 4{,}596^2} \\approx \\sqrt{14{,}88 + 21{,}12} = \\sqrt{36} = 6$."
+      ],
+      "topics": [
+        "vectors",
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "31-013",
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een vector heeft lengte 8 en richtingshoek $150^\\circ$. Bereken de componenten, afgerond op twee decimalen. Schrijf je antwoord als $(x; y)$.",
+      "answer": "(-6.93; 4)",
+      "tolerance": 0.005,
+      "hints": [
+        "Gebruik $x = 8\\cos 150^\\circ$ en $y = 8\\sin 150^\\circ$.",
+        "$150^\\circ$ ligt in het tweede kwadrant: de x-component is negatief."
+      ],
+      "solution": [
+        "$x = 8\\cos 150^\\circ \\approx 8 \\cdot (-0{,}8660) \\approx -6{,}93$.",
+        "$y = 8\\sin 150^\\circ = 8 \\cdot 0{,}5 = 4$.",
+        "De vector is $(-6{,}93; 4)$: naar linksboven, zoals bij $150^\\circ$ hoort."
+      ],
+      "feedback": [
+        {
+          "answer": "(6.93; 4)",
+          "message": "Je bent het minteken kwijtgeraakt. Een richtingshoek van $150^\\circ$ wijst naar linksboven, dus de x-component is negatief: $\\cos 150^\\circ < 0$."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "31-014",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Iemand trekt een slee met een touw. De trekkracht is 200 N en het touw maakt een hoek van $25^\\circ$ met de grond. Hoe groot is de horizontale component van de kracht? Rond af op één decimaal.",
+      "answer": 181.3,
+      "tolerance": 0.05,
+      "unit": "N",
+      "hints": [
+        "De kracht is de schuine zijde van de componentendriehoek; de horizontale component is de aanliggende zijde.",
+        "Horizontaal $= 200\\cos 25^\\circ$."
+      ],
+      "solution": [
+        "Horizontale component $= 200\\cos 25^\\circ \\approx 200 \\cdot 0{,}90631 \\approx 181{,}26$ N.",
+        "Afgerond: $181{,}3$ N.",
+        "De verticale component, $200\\sin 25^\\circ \\approx 84{,}5$ N, tilt de slee een beetje op."
+      ],
+      "feedback": [
+        {
+          "answer": 84.5,
+          "message": "Dit is de **verticale** component ($200\\sin 25^\\circ$). De horizontale component ligt aan de hoek van $25^\\circ$: gebruik de cosinus."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "31-015",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een schip vaart 12 km op koers $060^\\circ$ (gemeten vanaf het noorden, met de klok mee). Hoeveel km is het schip naar het **oosten** verplaatst? Rond af op twee decimalen.",
+      "answer": 10.39,
+      "tolerance": 0.005,
+      "unit": "km",
+      "hints": [
+        "Bij een kompaskoers $\\beta$ is de oostcomponent $r\\sin\\beta$ en de noordcomponent $r\\cos\\beta$.",
+        "Schets: koers $060^\\circ$ ligt dichter bij oost dan bij noord, dus de oostcomponent is de grootste."
+      ],
+      "solution": [
+        "Oostcomponent $= 12\\sin 60^\\circ \\approx 12 \\cdot 0{,}86603 \\approx 10{,}392$ km.",
+        "Afgerond: $10{,}39$ km.",
+        "Ter controle: de noordcomponent is $12\\cos 60^\\circ = 6$ km, en $\\sqrt{10{,}392^2 + 6^2} \\approx 12$."
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Dit is de **noord**component. Een koers meet je vanaf het noorden, dus de oostcomponent hoort bij de sinus: $12\\sin 60^\\circ$."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "31-016",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een boot verplaatst zich 3 km naar het oosten en tegelijk 4 km naar het zuiden. Welke **kompaskoers** (vanaf het noorden, met de klok mee, tussen $0^\\circ$ en $360^\\circ$) heeft deze verplaatsing? Rond af op één decimaal.",
+      "answer": 143.1,
+      "tolerance": 0.05,
+      "unit": "°",
+      "hints": [
+        "Schets: oost en zuid, dus de koers ligt tussen $090^\\circ$ en $180^\\circ$.",
+        "Bepaal de hoek tussen de zuidrichting en de verplaatsing met $\\tan = \\tfrac{3}{4}$, en reken die om naar een koers."
+      ],
+      "solution": [
+        "De verplaatsing $(3; -4)$ wijst naar het zuidoosten, iets meer zuid dan oost.",
+        "Hoek vanaf het zuiden naar het oosten toe: $\\arctan\\left(\\tfrac{3}{4}\\right) \\approx 36{,}87^\\circ$.",
+        "Koers $= 180^\\circ - 36{,}87^\\circ = 143{,}13^\\circ$.",
+        "Controle via de richtingshoek: $\\alpha = \\arctan\\left(\\tfrac{-4}{3}\\right) + 360^\\circ \\approx 306{,}87^\\circ$, en koers $= 90^\\circ - \\alpha + 360^\\circ = 143{,}13^\\circ$. Afgerond: $143{,}1^\\circ$."
+      ],
+      "feedback": [
+        {
+          "answer": 306.9,
+          "message": "Dit is de wiskundige richtingshoek (vanaf de x-as, tegen de klok in). Een kompaskoers meet je vanaf het noorden, met de klok mee."
+        },
+        {
+          "answer": 36.9,
+          "message": "Dit is de hoek tussen de zuidrichting en de verplaatsing. Een koers meet je vanaf het noorden: $180^\\circ - 36{,}9^\\circ$."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "31-017",
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $\\begin{pmatrix} 3 \\\\ -1 \\end{pmatrix} + \\begin{pmatrix} -5 \\\\ 4 \\end{pmatrix}$. Schrijf je antwoord als $(x; y)$.",
+      "answer": "(-2; 3)",
+      "hints": [
+        "Tel de x-componenten bij elkaar op en de y-componenten bij elkaar op.",
+        "$3 + (-5)$ en $-1 + 4$."
+      ],
+      "solution": [
+        "x: $3 + (-5) = -2$.",
+        "y: $-1 + 4 = 3$.",
+        "Som: $(-2; 3)$."
+      ],
+      "feedback": [
+        {
+          "answer": "(8; -5)",
+          "message": "Je hebt de tweede vector afgetrokken in plaats van opgeteld. $3 + (-5) = -2$."
+        }
+      ],
+      "topics": [
+        "vectors"
+      ]
+    },
+    {
+      "id": "31-018",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een drone maakt drie verplaatsingen (in meter): $(2; 7)$, $(-3; 4)$ en $(6; 1)$. Hoe ver is de drone na afloop van zijn startpunt verwijderd?",
+      "answer": 13,
+      "unit": "m",
+      "hints": [
+        "Tel eerst de drie vectoren op tot één resultante.",
+        "Bereken daarna de lengte van de resultante."
+      ],
+      "solution": [
+        "Resultante: $(2 - 3 + 6;\\ 7 + 4 + 1) = (5; 12)$.",
+        "Lengte: $\\sqrt{5^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$.",
+        "De drone is 13 m van het startpunt."
+      ],
+      "feedback": [
+        {
+          "answer": 17,
+          "message": "Je hebt de componenten van de resultante opgeteld ($5 + 12$). De afstand is de lengte: $\\sqrt{25 + 144}$."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "31-019",
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Gegeven $\\vec a = (4; 1)$ en $\\vec b = (1; 3)$. Bereken $2\\vec a - \\vec b$.",
+      "answer": "(7; -1)",
+      "hints": [
+        "Bereken eerst $2\\vec a$.",
+        "Trek daarna $\\vec b$ af, component voor component."
+      ],
+      "solution": [
+        "$2\\vec a = (8; 2)$.",
+        "$2\\vec a - \\vec b = (8 - 1;\\ 2 - 3) = (7; -1)$."
+      ],
+      "feedback": [
+        {
+          "answer": "(9; 5)",
+          "message": "Je hebt $2\\vec a + \\vec b$ berekend. Trek $\\vec b$ af: $(8 - 1;\\ 2 - 3)$."
+        },
+        {
+          "answer": "(3; -2)",
+          "message": "Je bent vergeten $\\vec a$ met 2 te vermenigvuldigen. $2\\vec a = (8; 2)$."
+        }
+      ],
+      "topics": [
+        "vectors"
+      ]
+    },
+    {
+      "id": "31-020",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Voor welk getal $k$ geldt $k \\cdot \\begin{pmatrix} 3 \\\\ -2 \\end{pmatrix} = \\begin{pmatrix} -12 \\\\ 8 \\end{pmatrix}$?",
+      "answer": -4,
+      "hints": [
+        "Vergelijk de x-componenten: $3k = -12$.",
+        "Controleer met de y-componenten."
+      ],
+      "solution": [
+        "x: $3k = -12$, dus $k = -4$.",
+        "Controle y: $-2 \\cdot (-4) = 8$. Klopt.",
+        "De vector wordt vier keer zo lang én omgedraaid."
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Let op het teken: $3 \\cdot 4 = 12$, niet $-12$. De vector wijst de andere kant op, dus $k$ is negatief."
+        }
+      ],
+      "topics": [
+        "vectors"
+      ]
+    },
+    {
+      "id": "31-021",
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bepaal de vector $\\vec x$ waarvoor $\\begin{pmatrix} 2 \\\\ -1 \\end{pmatrix} + 2\\vec x = \\begin{pmatrix} 8 \\\\ 5 \\end{pmatrix}$.",
+      "answer": "(3; 3)",
+      "hints": [
+        "Los op zoals een gewone vergelijking: breng $(2; -1)$ naar de andere kant.",
+        "$2\\vec x = (8 - 2;\\ 5 - (-1))$. Deel daarna door 2."
+      ],
+      "solution": [
+        "$2\\vec x = (8; 5) - (2; -1) = (6; 6)$.",
+        "$\\vec x = \\tfrac{1}{2}(6; 6) = (3; 3)$.",
+        "Controle: $(2; -1) + (6; 6) = (8; 5)$."
+      ],
+      "feedback": [
+        {
+          "answer": "(6; 6)",
+          "message": "Dat is $2\\vec x$. Deel nog door 2."
+        },
+        {
+          "answer": "(3; 2)",
+          "message": "Let op: $5 - (-1) = 6$, niet 4."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "equations"
+      ]
+    },
+    {
+      "id": "31-022",
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bepaal de eenheidsvector met dezelfde richting als $\\vec v = (6; 8)$. Geef de componenten als kommagetal.",
+      "answer": "(0.6; 0.8)",
+      "tolerance": 0.001,
+      "hints": [
+        "Bereken eerst de lengte van $\\vec v$.",
+        "Deel beide componenten door die lengte."
+      ],
+      "solution": [
+        "$|\\vec v| = \\sqrt{36 + 64} = 10$.",
+        "$\\vec e = \\tfrac{1}{10}(6; 8) = (0{,}6; 0{,}8)$.",
+        "Controle: $0{,}6^2 + 0{,}8^2 = 0{,}36 + 0{,}64 = 1$."
+      ],
+      "feedback": [
+        {
+          "answer": "(3; 4)",
+          "message": "Je hebt door 2 gedeeld. Dezelfde richting klopt, maar de lengte is 5, niet 1. Deel door de lengte, 10."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "31-023",
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een kracht van 39 N werkt in de richting van $\\vec u = (12; -5)$. Schrijf de kracht met componenten.",
+      "answer": "(36; -15)",
+      "unit": "N",
+      "hints": [
+        "Maak eerst een eenheidsvector bij $\\vec u$.",
+        "$|\\vec u| = 13$. Vermenigvuldig de eenheidsvector met 39."
+      ],
+      "solution": [
+        "$|\\vec u| = \\sqrt{144 + 25} = 13$, dus $\\vec e = \\left(\\tfrac{12}{13}; -\\tfrac{5}{13}\\right)$.",
+        "$\\vec F = 39\\vec e = (3 \\cdot 12;\\ 3 \\cdot (-5)) = (36; -15)$.",
+        "Controle: $\\sqrt{36^2 + 15^2} = \\sqrt{1296 + 225} = \\sqrt{1521} = 39$."
+      ],
+      "feedback": [
+        {
+          "answer": "(468; -195)",
+          "message": "Je hebt $\\vec u$ zelf met 39 vermenigvuldigd. Maar $\\vec u$ is al 13 lang; maak er eerst een eenheidsvector van."
+        }
+      ],
+      "topics": [
+        "vectors"
+      ]
+    },
+    {
+      "id": "31-024",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Twee krachten van 30 N en 40 N werken op hetzelfde punt en maken een hoek van $60^\\circ$ met elkaar. Bereken de grootte van de resultante. Rond af op één decimaal.",
+      "answer": 60.8,
+      "tolerance": 0.05,
+      "unit": "N",
+      "hints": [
+        "Leg de x-as langs de kracht van 30 N. Schrijf beide krachten met componenten.",
+        "$\\vec F_2 = (40\\cos 60^\\circ;\\ 40\\sin 60^\\circ) = (20;\\ 34{,}64)$."
+      ],
+      "solution": [
+        "$\\vec F_1 = (30; 0)$ en $\\vec F_2 = (40\\cos 60^\\circ;\\ 40\\sin 60^\\circ) \\approx (20;\\ 34{,}641)$.",
+        "$\\vec R \\approx (50;\\ 34{,}641)$.",
+        "$|\\vec R| \\approx \\sqrt{2500 + 1200} = \\sqrt{3700} \\approx 60{,}83$ N.",
+        "Afgerond: $60{,}8$ N. Controle: tussen $40 - 30 = 10$ en $40 + 30 = 70$."
+      ],
+      "feedback": [
+        {
+          "answer": 70,
+          "message": "Je hebt de grootten opgeteld. Dat klopt alleen als de krachten dezelfde kant op wijzen; hier maken ze $60^\\circ$ met elkaar."
+        },
+        {
+          "answer": 50,
+          "message": "Dit is $\\sqrt{30^2 + 40^2}$: dat geldt alleen bij een hoek van $90^\\circ$. Werk met componenten."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "31-025",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken het inproduct $\\begin{pmatrix} 5 \\\\ -2 \\end{pmatrix} \\cdot \\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix}$.",
+      "answer": 7,
+      "hints": [
+        "Vermenigvuldig de x-componenten en de y-componenten, en tel op.",
+        "$5 \\cdot 3$ en $(-2) \\cdot 4$."
+      ],
+      "solution": [
+        "$5 \\cdot 3 = 15$.",
+        "$(-2) \\cdot 4 = -8$.",
+        "$15 + (-8) = 7$."
+      ],
+      "feedback": [
+        {
+          "answer": 23,
+          "message": "Let op het teken: $(-2) \\cdot 4 = -8$, dus $15 - 8 = 7$."
+        }
+      ],
+      "topics": [
+        "vectors"
+      ]
+    },
+    {
+      "id": "31-026",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken de hoek tussen $\\vec a = (4; 2)$ en $\\vec b = (1; 3)$ in graden. Rond af op één decimaal.",
+      "answer": 45.0,
+      "tolerance": 0.05,
+      "unit": "°",
+      "hints": [
+        "Bereken $\\vec a \\cdot \\vec b$, $|\\vec a|$ en $|\\vec b|$.",
+        "$\\cos\\theta = \\dfrac{\\vec a \\cdot \\vec b}{|\\vec a|\\,|\\vec b|}$, daarna $\\theta = \\arccos(\\ldots)$."
+      ],
+      "solution": [
+        "$\\vec a \\cdot \\vec b = 4 \\cdot 1 + 2 \\cdot 3 = 10$.",
+        "$|\\vec a| = \\sqrt{20}$ en $|\\vec b| = \\sqrt{10}$.",
+        "$\\cos\\theta = \\dfrac{10}{\\sqrt{20}\\,\\sqrt{10}} = \\dfrac{10}{\\sqrt{200}} \\approx 0{,}7071$.",
+        "$\\theta = \\arccos(0{,}7071) = 45{,}0^\\circ$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.71,
+          "message": "Dit is $\\cos\\theta$. Gevraagd is de hoek zelf: $\\theta = \\arccos(0{,}7071)$."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "31-027",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Twee vectoren hebben lengte 5 en 4 en maken een hoek van $60^\\circ$ met elkaar. Bereken hun inproduct.",
+      "answer": 10,
+      "hints": [
+        "Gebruik $\\vec a \\cdot \\vec b = |\\vec a|\\,|\\vec b|\\cos\\theta$.",
+        "$\\cos 60^\\circ = 0{,}5$."
+      ],
+      "solution": [
+        "$\\vec a \\cdot \\vec b = 5 \\cdot 4 \\cdot \\cos 60^\\circ = 20 \\cdot 0{,}5 = 10$."
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Je bent de factor $\\cos 60^\\circ = 0{,}5$ vergeten. Alleen bij vectoren in dezelfde richting is het inproduct $|\\vec a|\\,|\\vec b|$."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "31-028",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken de hoek tussen $\\vec a = (2; -1)$ en $\\vec b = (-3; 4)$. Rond af op één decimaal.",
+      "answer": 153.4,
+      "tolerance": 0.05,
+      "unit": "°",
+      "hints": [
+        "Het inproduct is negatief. Wat zegt dat over de hoek?",
+        "$|\\vec a| = \\sqrt 5$ en $|\\vec b| = 5$."
+      ],
+      "solution": [
+        "$\\vec a \\cdot \\vec b = 2 \\cdot (-3) + (-1) \\cdot 4 = -6 - 4 = -10$: negatief, dus een stompe hoek.",
+        "$|\\vec a| = \\sqrt{5}$, $|\\vec b| = \\sqrt{25} = 5$.",
+        "$\\cos\\theta = \\dfrac{-10}{5\\sqrt{5}} \\approx -0{,}8944$.",
+        "$\\theta = \\arccos(-0{,}8944) \\approx 153{,}43^\\circ$, afgerond $153{,}4^\\circ$."
+      ],
+      "feedback": [
+        {
+          "answer": 26.6,
+          "message": "Je bent het minteken van het inproduct kwijtgeraakt. Een negatief inproduct betekent een stompe hoek: $\\arccos(-0{,}8944) \\approx 153{,}4^\\circ$."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "31-029",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Voor welke waarde van $p$ staat $\\vec a = (p; 3)$ loodrecht op $\\vec b = (6; -4)$?",
+      "answer": 2,
+      "hints": [
+        "Loodrecht betekent: inproduct 0.",
+        "$6p + 3 \\cdot (-4) = 0$."
+      ],
+      "solution": [
+        "$\\vec a \\cdot \\vec b = 6p - 12$.",
+        "$6p - 12 = 0$, dus $p = 2$.",
+        "Controle: $(2; 3) \\cdot (6; -4) = 12 - 12 = 0$."
+      ],
+      "feedback": [
+        {
+          "answer": -2,
+          "message": "Controleer: $(-2; 3) \\cdot (6; -4) = -12 - 12 = -24 \\neq 0$. Los $6p - 12 = 0$ op: $p = 2$."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "equations"
+      ]
+    },
+    {
+      "id": "31-030",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Gegeven driehoek $ABC$ met $A(1; 1)$, $B(5; 3)$ en $C(3; 7)$. Bereken bij elk hoekpunt het inproduct van de twee vectoren die vanuit dat hoekpunt naar de andere hoekpunten wijzen (bij $A$: $\\overrightarrow{AB} \\cdot \\overrightarrow{AC}$, enzovoort). Bij welk hoekpunt is de hoek recht?",
+      "parts": [
+        {
+          "label": "bij A",
+          "answer": 20,
+          "type": "numeric"
+        },
+        {
+          "label": "bij B",
+          "answer": 0,
+          "type": "numeric"
+        },
+        {
+          "label": "bij C",
+          "answer": 20,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Bij $B$ gebruik je $\\overrightarrow{BA}$ en $\\overrightarrow{BC}$.",
+        "Een rechte hoek herken je aan inproduct 0."
+      ],
+      "solution": [
+        "Bij $A$: $\\overrightarrow{AB} = (4; 2)$, $\\overrightarrow{AC} = (2; 6)$, inproduct $8 + 12 = 20$.",
+        "Bij $B$: $\\overrightarrow{BA} = (-4; -2)$, $\\overrightarrow{BC} = (-2; 4)$, inproduct $8 - 8 = 0$.",
+        "Bij $C$: $\\overrightarrow{CA} = (-2; -6)$, $\\overrightarrow{CB} = (2; -4)$, inproduct $-4 + 24 = 20$.",
+        "De hoek bij $B$ is recht. Controle met Pythagoras: $|AB|^2 + |BC|^2 = 20 + 20 = 40 = |AC|^2$."
+      ],
+      "topics": [
+        "vectors",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "31-031",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een weg loopt in de richting $\\vec u = (4; 3)$. Op een auto werkt een kracht $\\vec F = (30; 40)$ (in newton). Hoe groot is de component van $\\vec F$ in de richting van de weg?",
+      "answer": 48,
+      "unit": "N",
+      "hints": [
+        "Maak eerst een eenheidsvector langs de weg: $|\\vec u| = 5$.",
+        "Bereken $\\vec F \\cdot \\vec e$."
+      ],
+      "solution": [
+        "$\\vec e = \\tfrac{1}{5}(4; 3) = (0{,}8; 0{,}6)$.",
+        "$\\vec F \\cdot \\vec e = 30 \\cdot 0{,}8 + 40 \\cdot 0{,}6 = 24 + 24 = 48$ N.",
+        "Ter vergelijking: $|\\vec F| = 50$ N; bijna alles werkt langs de weg."
+      ],
+      "feedback": [
+        {
+          "answer": 50,
+          "message": "Dat is de totale kracht $|\\vec F|$. Gevraagd is alleen het deel langs de weg: $\\vec F \\cdot \\vec e$."
+        },
+        {
+          "answer": 240,
+          "message": "Je hebt $\\vec F \\cdot \\vec u$ berekend zonder door $|\\vec u| = 5$ te delen. Gebruik een eenheidsvector."
+        }
+      ],
+      "topics": [
+        "vectors"
+      ]
+    },
+    {
+      "id": "31-032",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een krat wordt 8 m horizontaal verschoven: $\\vec s = (8; 0)$ (in meter). De kracht is $\\vec F = (20; 15)$ (in newton). Bereken de verrichte arbeid $W = \\vec F \\cdot \\vec s$ in joule.",
+      "answer": 160,
+      "unit": "J",
+      "hints": [
+        "Inproduct: $20 \\cdot 8 + 15 \\cdot 0$.",
+        "Alleen de horizontale component van de kracht verricht arbeid."
+      ],
+      "solution": [
+        "$W = 20 \\cdot 8 + 15 \\cdot 0 = 160$ J.",
+        "De verticale component (15 N) staat loodrecht op de verplaatsing en levert geen arbeid."
+      ],
+      "feedback": [
+        {
+          "answer": 200,
+          "message": "Dat is $|\\vec F| \\cdot |\\vec s| = 25 \\cdot 8$. Maar de kracht staat schuin; alleen de horizontale component (20 N) verricht arbeid."
+        }
+      ],
+      "topics": [
+        "vectors"
+      ]
+    },
+    {
+      "id": "31-033",
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Op een ring werken drie krachten (in newton): $\\vec F_1 = (120; 50)$, $\\vec F_2 = (-80; 90)$ en een onbekende $\\vec F_3$. De ring is in evenwicht. Bepaal $\\vec F_3$.",
+      "answer": "(-40; -140)",
+      "unit": "N",
+      "hints": [
+        "Evenwicht: $\\vec F_1 + \\vec F_2 + \\vec F_3 = \\vec 0$.",
+        "Bereken $\\vec F_1 + \\vec F_2$; $\\vec F_3$ is daar het tegengestelde van."
+      ],
+      "solution": [
+        "$\\vec F_1 + \\vec F_2 = (120 - 80;\\ 50 + 90) = (40; 140)$.",
+        "$\\vec F_3 = -(40; 140) = (-40; -140)$.",
+        "Controle: $(120 - 80 - 40;\\ 50 + 90 - 140) = (0; 0)$."
+      ],
+      "feedback": [
+        {
+          "answer": "(40; 140)",
+          "message": "Dit is de som van $\\vec F_1$ en $\\vec F_2$. De derde kracht moet die som juist opheffen: neem het tegengestelde."
+        }
+      ],
+      "topics": [
+        "vectors"
+      ]
+    },
+    {
+      "id": "31-034",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een verkeerslicht van 120 N hangt in het midden van een kabel. Beide helften van de kabel maken een hoek van $25^\\circ$ met de horizontaal. Bereken de spankracht in elke helft. Rond af op één decimaal.",
+      "answer": 142.0,
+      "tolerance": 0.05,
+      "unit": "N",
+      "hints": [
+        "Door de symmetrie zijn beide spankrachten even groot, zeg $T$. Hun horizontale componenten heffen elkaar op.",
+        "Verticaal: $2T\\sin 25^\\circ = 120$."
+      ],
+      "solution": [
+        "Elke helft trekt met verticale component $T\\sin 25^\\circ$ omhoog.",
+        "Evenwicht verticaal: $2T\\sin 25^\\circ = 120$, dus $T = \\dfrac{120}{2\\sin 25^\\circ} \\approx \\dfrac{120}{0{,}84524} \\approx 141{,}97$ N.",
+        "Afgerond: $142{,}0$ N, meer dan het gewicht zelf, omdat de kabel vrij vlak hangt."
+      ],
+      "feedback": [
+        {
+          "answer": 60,
+          "message": "Je hebt het gewicht eerlijk verdeeld (60 N per helft). Maar de kabels trekken schuin; alleen hun verticale component draagt het gewicht."
+        },
+        {
+          "answer": 66.2,
+          "message": "Je hebt de cosinus gebruikt. De hoek van $25^\\circ$ is met de horizontaal; de verticale component is dan $T\\sin 25^\\circ$."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "31-035",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een rivier is 60 m breed en stroomt met 1,5 m/s. Een boot vaart met 4 m/s ten opzichte van het water, met de neus recht naar de overkant. Hoeveel meter drijft de boot stroomafwaarts af tijdens de oversteek?",
+      "answer": 22.5,
+      "tolerance": 0.01,
+      "unit": "m",
+      "hints": [
+        "Bereken eerst hoe lang de oversteek duurt: alleen de dwarssnelheid van 4 m/s telt.",
+        "Afdrijven $=$ stroomsnelheid $\\times$ oversteektijd."
+      ],
+      "solution": [
+        "Oversteektijd: $60 : 4 = 15$ s.",
+        "Afdrijven: $1{,}5 \\cdot 15 = 22{,}5$ m."
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Dat is de oversteektijd in seconden. Vermenigvuldig die nog met de stroomsnelheid."
+        },
+        {
+          "answer": 40,
+          "message": "Je hebt de breedte door de stroomsnelheid gedeeld. Bereken eerst de oversteektijd met de dwarssnelheid (4 m/s) en vermenigvuldig die met de stroomsnelheid."
+        }
+      ],
+      "topics": [
+        "vectors"
+      ]
+    },
+    {
+      "id": "31-036",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Dezelfde boot (4 m/s t.o.v. het water, stroming 1,5 m/s) wil precies recht tegenover het vertrekpunt aankomen. Onder welke hoek met de dwarsrichting moet hij stroomopwaarts sturen? Rond af op één decimaal.",
+      "answer": 22.0,
+      "tolerance": 0.05,
+      "unit": "°",
+      "hints": [
+        "De stroomopwaartse component van de bootsnelheid moet precies 1,5 m/s zijn.",
+        "De bootsnelheid (4 m/s) is de schuine zijde: $\\sin\\varphi = \\dfrac{1{,}5}{4}$."
+      ],
+      "solution": [
+        "Stroomopwaartse component: $4\\sin\\varphi = 1{,}5$.",
+        "$\\sin\\varphi = 0{,}375$, dus $\\varphi = \\arcsin(0{,}375) \\approx 22{,}02^\\circ$.",
+        "Afgerond: $22{,}0^\\circ$."
+      ],
+      "feedback": [
+        {
+          "answer": 20.6,
+          "message": "Je hebt $\\arctan\\left(\\tfrac{1{,}5}{4}\\right)$ gebruikt. Maar 4 m/s is de lengte van de bootvector, dus de schuine zijde: gebruik de sinus."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "31-037",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een vliegtuig heeft een luchtsnelheid van 240 km/u en vliegt met de neus recht naar het noorden. Er staat een westenwind van 70 km/u. Bereken de grondsnelheid (in km/u) en de hoek tussen de grondkoers en het noorden (in graden), beide afgerond op één decimaal.",
+      "parts": [
+        {
+          "label": "grondsnelheid",
+          "answer": 250.0,
+          "type": "decimal",
+          "tolerance": 0.05,
+          "unit": "km/u"
+        },
+        {
+          "label": "hoek",
+          "answer": 16.3,
+          "type": "decimal",
+          "tolerance": 0.05,
+          "unit": "°"
+        }
+      ],
+      "hints": [
+        "Westenwind waait **naar het oosten**: $\\vec w = (70; 0)$. Luchtsnelheid: $(0; 240)$.",
+        "Grondsnelheid $= (70; 240)$. Lengte met Pythagoras, hoek met $\\arctan\\left(\\tfrac{70}{240}\\right)$."
+      ],
+      "solution": [
+        "Grondsnelheidsvector: $(0; 240) + (70; 0) = (70; 240)$.",
+        "Grootte: $\\sqrt{70^2 + 240^2} = \\sqrt{4900 + 57\\,600} = \\sqrt{62\\,500} = 250{,}0$ km/u.",
+        "Hoek met het noorden: $\\arctan\\left(\\tfrac{70}{240}\\right) \\approx 16{,}26^\\circ$, afgerond $16{,}3^\\circ$ (naar het oosten)."
+      ],
+      "topics": [
+        "vectors",
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "31-038",
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een piloot wil over de grond precies naar het noorden vliegen. Zijn luchtsnelheid is 180 km/u en er staat een westenwind van 40 km/u. Hoeveel graden moet hij de neus ten westen van het noorden richten (de koerscorrectie), en wat wordt dan zijn grondsnelheid? Rond beide af op één decimaal.",
+      "parts": [
+        {
+          "label": "koerscorrectie",
+          "answer": 12.8,
+          "type": "decimal",
+          "tolerance": 0.05,
+          "unit": "°"
+        },
+        {
+          "label": "grondsnelheid",
+          "answer": 175.5,
+          "type": "decimal",
+          "tolerance": 0.05,
+          "unit": "km/u"
+        }
+      ],
+      "hints": [
+        "De westwaartse component van de luchtsnelheid moet de wind (40 km/u naar het oosten) precies opheffen.",
+        "Luchtsnelheid $(-180\\sin\\varphi;\\ 180\\cos\\varphi)$; eis $-180\\sin\\varphi + 40 = 0$. De grondsnelheid is dan de noordcomponent."
+      ],
+      "solution": [
+        "Laat de neus een hoek $\\varphi$ ten westen van het noorden wijzen: luchtsnelheid $(-180\\sin\\varphi;\\ 180\\cos\\varphi)$.",
+        "Grondsnelheid $= (-180\\sin\\varphi + 40;\\ 180\\cos\\varphi)$. Over de grond noordwaarts: x-component 0.",
+        "$180\\sin\\varphi = 40$, dus $\\sin\\varphi = \\tfrac{2}{9}$ en $\\varphi \\approx 12{,}84^\\circ$, afgerond $12{,}8^\\circ$.",
+        "Grondsnelheid $= 180\\cos\\varphi = \\sqrt{180^2 - 40^2} = \\sqrt{30\\,800} \\approx 175{,}50$ km/u, afgerond $175{,}5$ km/u.",
+        "Inzicht: een deel van de luchtsnelheid gaat op aan het tegenhouden van de wind, dus de grondsnelheid is lager dan 180."
+      ],
+      "topics": [
+        "vectors",
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "31-039",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een rechthoek $ABCD$ is 8 lang en 4 breed. Bereken met het inproduct de **scherpe** hoek tussen de twee diagonalen. Rond af op één decimaal.",
+      "answer": 53.1,
+      "tolerance": 0.05,
+      "unit": "°",
+      "hints": [
+        "Leg $A$ in de oorsprong: $A(0; 0)$, $B(8; 0)$, $C(8; 4)$, $D(0; 4)$. De diagonalen zijn $\\overrightarrow{AC}$ en $\\overrightarrow{BD}$.",
+        "Krijg je een stompe hoek, dan is de scherpe hoek $180^\\circ$ min die hoek."
+      ],
+      "solution": [
+        "$\\overrightarrow{AC} = (8; 4)$ en $\\overrightarrow{BD} = (-8; 4)$.",
+        "Inproduct: $-64 + 16 = -48$. Lengtes: allebei $\\sqrt{80}$.",
+        "$\\cos\\theta = \\dfrac{-48}{80} = -0{,}6$, dus $\\theta \\approx 126{,}87^\\circ$ (stomp).",
+        "De scherpe hoek tussen de diagonalen is $180^\\circ - 126{,}87^\\circ = 53{,}13^\\circ$, afgerond $53{,}1^\\circ$."
+      ],
+      "feedback": [
+        {
+          "answer": 126.9,
+          "message": "Dit is de stompe hoek tussen de diagonalen. Gevraagd is de scherpe hoek: $180^\\circ - 126{,}9^\\circ$."
+        },
+        {
+          "answer": 26.6,
+          "message": "Dit is de hoek tussen een diagonaal en de lange zijde. De hoek tussen de twee diagonalen is twee keer zo groot (of $180^\\circ$ min dat)."
+        }
+      ],
+      "topics": [
+        "vectors",
+        "geometry"
+      ]
+    },
+    {
+      "id": "31-040",
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Een vliegtuig vliegt met de neus op koers $090^\\circ$ (oost) met een luchtsnelheid van 250 km/u. Er staat een wind van 60 km/u **uit het noordwesten**. Bereken de grondsnelheid (km/u) en de grondkoers (kompaskoers in graden), beide afgerond op één decimaal.",
+      "parts": [
+        {
+          "label": "grondsnelheid",
+          "answer": 295.5,
+          "type": "decimal",
+          "tolerance": 0.05,
+          "unit": "km/u"
+        },
+        {
+          "label": "grondkoers",
+          "answer": 98.3,
+          "type": "decimal",
+          "tolerance": 0.05,
+          "unit": "°"
+        }
+      ],
+      "hints": [
+        "Wind uit het noordwesten waait naar het zuidoosten. Met x naar het oosten en y naar het noorden: $\\vec w = (60\\cos 45^\\circ;\\ -60\\sin 45^\\circ)$.",
+        "Tel op bij $(250; 0)$, bereken de lengte, en bepaal de hoek onder de oostrichting. Koers $= 90^\\circ +$ die hoek."
+      ],
+      "solution": [
+        "Luchtsnelheid: $(250; 0)$.",
+        "Wind naar het zuidoosten: $\\vec w \\approx (42{,}43;\\ -42{,}43)$.",
+        "Grondsnelheid: $(292{,}43;\\ -42{,}43)$, grootte $\\sqrt{292{,}43^2 + 42{,}43^2} \\approx \\sqrt{85\\,513 + 1\\,800} \\approx 295{,}49$ km/u, afgerond $295{,}5$ km/u.",
+        "Hoek onder de oostrichting: $\\arctan\\left(\\tfrac{42{,}43}{292{,}43}\\right) \\approx 8{,}26^\\circ$.",
+        "Grondkoers: $90^\\circ + 8{,}26^\\circ \\approx 98{,}3^\\circ$."
+      ],
+      "topics": [
+        "vectors",
+        "trigonometry"
+      ]
+    }
+  ]
+}
