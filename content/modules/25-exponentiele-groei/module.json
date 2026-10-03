@@ -4,10 +4,10 @@
   "title": "Exponentiële groei",
   "part": 5,
   "level": "vwo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "18e eeuw",
   "estimated_difficulty": 3,
-  "estimated_minutes": 90,
+  "estimated_minutes": 150,
   "prerequisites": [
     24
   ],
@@ -15,12 +15,125 @@
     "exponential",
     "finance"
   ],
-  "core_question": null,
-  "summary": "Groeifactor, rente-op-rente en populatiemodellen.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
+  "core_question": "Wat betekent een vaste procentuele verandering, en hoe vertaal je die naar een model met de juiste tijdseenheid?",
+  "summary": "Groeifactoren, exponentiële functies, tijdseenheden, verdubbeling en halvering. Je vergelijkt lineaire en exponentiële modellen en beoordeelt hun grenzen.",
+  "learning_goals": [
+    "Je onderscheidt een vast verschil van een vaste verhouding.",
+    "Je zet procentuele verandering om in een positieve groeifactor.",
+    "Je stelt N(t) = N₀gᵗ op en bepaalt parameters uit waarnemingen.",
+    "Je rekent een groeifactor om naar een andere tijdseenheid.",
+    "Je berekent verdubbelings- en halveringstijden in eenvoudige exacte situaties.",
+    "Je onderscheidt een continu model van uitsluitend gehele meetmomenten.",
+    "Je gebruikt samengestelde groei in hypothetische rekenvoorbeelden.",
+    "Je beoordeelt constantheid van groei en grenzen aan extrapolatie."
+  ],
+  "glossary": [
+    {
+      "term": "Groeifactor",
+      "definition": "De factor waarmee de hoeveelheid per gekozen tijdseenheid wordt vermenigvuldigd."
+    },
+    {
+      "term": "Exponentiële groei",
+      "definition": "Een model met dezelfde positieve factor bij gelijke tijdstappen."
+    },
+    {
+      "term": "Beginwaarde",
+      "definition": "De hoeveelheid bij t = 0."
+    },
+    {
+      "term": "Verdubbelingstijd",
+      "definition": "De tijd waarin een positief exponentieel model tweemaal zo groot wordt."
+    },
+    {
+      "term": "Halveringstijd",
+      "definition": "De tijd waarin een positief exponentieel vervalmodel halveert."
+    },
+    {
+      "term": "Extrapolatie",
+      "definition": "Een model gebruiken buiten het gebied waarvoor gegevens beschikbaar zijn."
+    },
+    {
+      "term": "Samengestelde groei",
+      "definition": "Groei berekenen over de al gegroeide hoeveelheid."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Exponentieel model",
+      "latex": "N(t)=N_0g^t\\quad(N_0>0,\\ g>0)",
+      "usage": "t is gemeten in de tijdseenheid van g."
+    },
+    {
+      "name": "Percentage naar factor",
+      "latex": "g=1+\\frac{p}{100}",
+      "usage": "p is een getekend veranderingspercentage; daling heeft p < 0."
+    },
+    {
+      "name": "Andere tijdseenheid",
+      "latex": "g_{\\Delta t}=g^{\\Delta t}",
+      "usage": "Δt is uitgedrukt in de oorspronkelijke tijdseenheid."
+    },
+    {
+      "name": "Factor uit twee metingen",
+      "latex": "g=\\left(\\frac{N(t_2)}{N(t_1)}\\right)^{1/(t_2-t_1)}",
+      "usage": "Positieve hoeveelheden en verschillende tijden zijn vereist."
+    },
+    {
+      "name": "Verdubbeling en halvering",
+      "latex": "g^{T_d}=2,\\qquad g^{T_h}=\\frac12",
+      "usage": "Verdubbeling bij g > 1, halvering bij 0 < g < 1."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Steeds hetzelfde erbij of steeds dezelfde factor?",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "groeifactor",
+      "title": "Percentage en factor",
+      "kind": "theory",
+      "file": "02-groeifactor.md"
+    },
+    {
+      "slug": "model",
+      "title": "Een formule opstellen",
+      "kind": "theory",
+      "file": "03-model.md"
+    },
+    {
+      "slug": "tijdseenheden",
+      "title": "De tijdseenheid verandert de factor",
+      "kind": "theory",
+      "file": "04-tijdseenheden.md"
+    },
+    {
+      "slug": "verdubbelen",
+      "title": "Verdubbelen, halveren en grenzen passeren",
+      "kind": "theory",
+      "file": "05-verdubbelen.md"
+    },
+    {
+      "slug": "geschiedenis",
+      "title": "Groei als model en als historische aanname",
+      "kind": "history",
+      "file": "06-geschiedenis.md"
+    },
+    {
+      "slug": "toepassingen",
+      "title": "Samengestelde groei en modelcontrole",
+      "kind": "practice",
+      "file": "07-toepassingen.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
   "timeline": [],
   "mathematicians": []
 }

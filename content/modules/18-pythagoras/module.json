@@ -4,10 +4,10 @@
   "title": "De stelling van Pythagoras",
   "part": 3,
   "level": "vmbo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Oudheid",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 160,
   "prerequisites": [
     17
   ],
@@ -16,12 +16,125 @@
     "geometry",
     "powers"
   ],
-  "core_question": null,
-  "summary": "Babylonische kennis, Griekse wiskunde en Pythagoras.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Hoe vind je een schuine afstand als je alleen de twee loodrechte afstanden kent?",
+  "summary": "De stelling van Pythagoras en haar omkering: rechthoekige driehoeken, bewijzen, ontbrekende zijden en afstanden in het vlak en in de ruimte.",
+  "learning_goals": [
+    "Je herkent de rechthoekszijden en de schuine zijde van een rechthoekige driehoek.",
+    "Je legt de stelling van Pythagoras uit met de oppervlakten van vierkanten.",
+    "Je berekent een ontbrekende schuine zijde of rechthoekszijde en geeft exacte of afgeronde antwoorden.",
+    "Je controleert met de omkering of een driehoek rechthoekig is.",
+    "Je volgt een bewijs door dezelfde oppervlakte op twee manieren te berekenen.",
+    "Je berekent afstanden tussen coördinaatpunten en eenvoudige ruimtediagonalen.",
+    "Je herkent wanneer de stelling niet direct mag worden toegepast."
+  ],
+  "glossary": [
+    {
+      "term": "Rechthoekszijden",
+      "definition": "De twee zijden die samen de rechte hoek vormen."
+    },
+    {
+      "term": "Schuine zijde",
+      "definition": "De zijde tegenover de rechte hoek; ook hypotenusa genoemd en altijd de langste zijde."
+    },
+    {
+      "term": "Pythagoreïsch drietal",
+      "definition": "Drie positieve gehele lengtes met $a^2+b^2=c^2$."
+    },
+    {
+      "term": "Omkering",
+      "definition": "De uitspraak in de andere richting: de kwadraatrelatie garandeert een rechte hoek bij een geldige driehoek."
+    },
+    {
+      "term": "Diagonaal",
+      "definition": "Een lijnstuk dat twee niet-aangrenzende hoekpunten verbindt."
+    },
+    {
+      "term": "Exact antwoord",
+      "definition": "Een vorm zonder afrondingsverlies, bijvoorbeeld $\\sqrt{13}$."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Pythagoras",
+      "latex": "a^2+b^2=c^2",
+      "usage": "a en b sluiten de rechte hoek in; c ligt ertegenover."
+    },
+    {
+      "name": "Schuine zijde",
+      "latex": "c=\\sqrt{a^2+b^2}",
+      "usage": "Neem de positieve lengte."
+    },
+    {
+      "name": "Rechthoekszijde",
+      "latex": "a=\\sqrt{c^2-b^2}",
+      "usage": "Trek het kwadraat van de bekende rechthoekszijde af."
+    },
+    {
+      "name": "Afstand in het vlak",
+      "latex": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}",
+      "usage": "Gebruik een loodrecht assenstelsel met dezelfde lengteschaal op beide assen."
+    },
+    {
+      "name": "Ruimtediagonaal van een balk",
+      "latex": "d=\\sqrt{l^2+b^2+h^2}",
+      "usage": "Pas Pythagoras tweemaal toe."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "De kortste weg over een rechthoek",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "stelling",
+      "title": "Drie zijden en drie vierkanten",
+      "kind": "theory",
+      "file": "02-stelling.md"
+    },
+    {
+      "slug": "ontbrekende-zijden",
+      "title": "Optellen of aftrekken van kwadraten",
+      "kind": "theory",
+      "file": "03-ontbrekende-zijden.md"
+    },
+    {
+      "slug": "bewijs-en-omkering",
+      "title": "Een oppervlaktebewijs",
+      "kind": "theory",
+      "file": "04-bewijs-en-omkering.md"
+    },
+    {
+      "slug": "coordinaten-en-ruimte",
+      "title": "Afstanden uit coördinaten",
+      "kind": "theory",
+      "file": "05-coordinaten-en-ruimte.md"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Drietallen en algemene regels",
+      "kind": "history",
+      "file": "06-historisch-intermezzo.md"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Ladders, kabels en rechthoeken",
+      "kind": "practice",
+      "file": "07-praktijk-en-uitdaging.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
+  "timeline": [
+    "plimpton-322",
+    "pythagoras"
+  ],
+  "mathematicians": [
+    "pythagoras"
+  ]
 }

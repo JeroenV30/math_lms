@@ -4,10 +4,10 @@
   "title": "Meetkunde",
   "part": 2,
   "level": "basisschool",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Oud-Egypte en Mesopotamië",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 180,
   "prerequisites": [
     10
   ],
@@ -16,14 +16,152 @@
     "angles",
     "perimeter",
     "area",
-    "circles"
+    "circles",
+    "volume",
+    "unit-conversion"
   ],
-  "core_question": null,
-  "summary": "Landmeting in Egypte en Mesopotamië.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Hoe bepaal je hoeveel grond een perceel bevat, zonder oppervlakte met omtrek te verwarren?",
+  "summary": "Lijnen, hoeken en vlakke figuren; omtrek, oppervlakte en inhoud. Je leidt formules af uit verdelen en herschikken en bewaakt de eenheden.",
+  "learning_goals": [
+    "Je onderscheidt punten, lijnen, lijnstukken, evenwijdige lijnen en loodrechte lijnen.",
+    "Je meet en benoemt hoeken en gebruikt de hoekensommen van driehoeken en vierhoeken.",
+    "Je herkent driehoeken, vierhoeken en cirkels aan hun eigenschappen.",
+    "Je berekent omtrekken en onderscheidt omtrek van oppervlakte.",
+    "Je berekent oppervlakten van rechthoeken, driehoeken, parallellogrammen en cirkels.",
+    "Je berekent de inhoud van een balk en een cilinder.",
+    "Je rekent lengtematen, oppervlaktematen en inhoudsmaten met de juiste factoren om.",
+    "Je deelt samengestelde figuren op en controleert of maten en aannames voldoende zijn."
+  ],
+  "glossary": [
+    {
+      "term": "Lijnstuk",
+      "definition": "Het rechte stuk tussen twee eindpunten; het heeft een lengte."
+    },
+    {
+      "term": "Evenwijdig",
+      "definition": "Lijnen in hetzelfde vlak die elkaar niet snijden."
+    },
+    {
+      "term": "Loodrecht",
+      "definition": "Lijnen die elkaar onder een hoek van 90° snijden."
+    },
+    {
+      "term": "Hoek",
+      "definition": "De draaiing tussen twee benen met hetzelfde hoekpunt."
+    },
+    {
+      "term": "Omtrek",
+      "definition": "De totale lengte van de grens van een figuur."
+    },
+    {
+      "term": "Oppervlakte",
+      "definition": "De grootte van een vlak, gemeten in vierkante eenheden."
+    },
+    {
+      "term": "Hoogte",
+      "definition": "De loodrechte afstand van een punt of tegenoverliggende zijde tot de gekozen basis."
+    },
+    {
+      "term": "Straal",
+      "definition": "De afstand van het middelpunt tot de cirkel."
+    },
+    {
+      "term": "Diameter",
+      "definition": "Een lijnstuk door het middelpunt tussen twee punten op de cirkel; tweemaal de straal."
+    },
+    {
+      "term": "Inhoud",
+      "definition": "De grootte van een ruimte, gemeten in kubieke eenheden."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Rechthoek",
+      "latex": "O=2(l+b),\\qquad A=l\\cdot b",
+      "usage": "O is omtrek, A oppervlakte."
+    },
+    {
+      "name": "Driehoek",
+      "latex": "A=\\frac12 b h",
+      "usage": "Gebruik de loodrechte hoogte bij de gekozen basis."
+    },
+    {
+      "name": "Parallellogram",
+      "latex": "A=b h",
+      "usage": "Schuif de afgesneden driehoek om tot een rechthoek."
+    },
+    {
+      "name": "Cirkel",
+      "latex": "O=2\\pi r,\\qquad A=\\pi r^2",
+      "usage": "De diameter is 2r; rond pas het eindantwoord af."
+    },
+    {
+      "name": "Balk",
+      "latex": "V=l b h",
+      "usage": "V is inhoud; gebruik dezelfde lengte-eenheid."
+    },
+    {
+      "name": "Cilinder",
+      "latex": "V=\\pi r^2 h",
+      "usage": "Oppervlakte van het grondvlak maal loodrechte hoogte."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een perceel opnieuw meten",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "lijnen-en-hoeken",
+      "title": "Lijnen en hoeken",
+      "kind": "theory",
+      "file": "02-lijnen-en-hoeken.md"
+    },
+    {
+      "slug": "driehoeken-en-vierhoeken",
+      "title": "Eigenschappen van figuren",
+      "kind": "theory",
+      "file": "03-driehoeken-en-vierhoeken.md"
+    },
+    {
+      "slug": "omtrek-en-oppervlakte",
+      "title": "Van grens naar vlak",
+      "kind": "theory",
+      "file": "04-omtrek-en-oppervlakte.md"
+    },
+    {
+      "slug": "cirkels-en-inhoud",
+      "title": "Cirkels en ruimte",
+      "kind": "theory",
+      "file": "05-cirkels-en-inhoud.md"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Van meetregel naar bewijs",
+      "kind": "history",
+      "file": "06-historisch-intermezzo.md"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Vloeren, hekken en reservoirs",
+      "kind": "practice",
+      "file": "07-praktijk-en-uitdaging.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
+  "timeline": [
+    "rhind-papyrus",
+    "euclides-elementen"
+  ],
+  "mathematicians": [
+    "ahmes",
+    "euclides"
+  ]
 }

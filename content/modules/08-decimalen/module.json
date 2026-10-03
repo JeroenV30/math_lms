@@ -4,10 +4,10 @@
   "title": "Decimalen",
   "part": 2,
   "level": "basisschool",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Renaissance",
   "estimated_difficulty": 1,
-  "estimated_minutes": 90,
+  "estimated_minutes": 150,
   "prerequisites": [
     7
   ],
@@ -15,12 +15,114 @@
     "decimals",
     "fractions"
   ],
-  "core_question": null,
-  "summary": "Kommagetallen, breuk en decimaal, rekenen met decimalen.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Hoe schrijf je een hoeveelheid kleiner dan één zo op dat je ermee kunt rekenen als met hele getallen?",
+  "summary": "Plaatswaarde achter de komma, breuken omzetten, afronden en rekenen met decimalen. Met Simon Stevins pleidooi voor tienden.",
+  "learning_goals": [
+    "Je benoemt tienden, honderdsten en duizendsten en vergelijkt decimalen.",
+    "Je zet eindige decimalen om in breuken en breuken om in decimalen.",
+    "Je onderscheidt een exacte waarde van een afgeronde benadering en herkent repeterende decimalen.",
+    "Je rondt af op een aangegeven aantal decimalen.",
+    "Je telt decimalen op en trekt ze af door gelijke plaatswaarden onder elkaar te zetten.",
+    "Je vermenigvuldigt en deelt decimalen, ook door een getal kleiner dan één.",
+    "Je controleert een uitkomst met een schatting en gebruikt passende eenheden."
+  ],
+  "glossary": [
+    {
+      "term": "Tiende",
+      "definition": "Een van tien gelijke delen: $0{,}1=1/10$."
+    },
+    {
+      "term": "Honderdste",
+      "definition": "Een van honderd gelijke delen: $0{,}01=1/100$."
+    },
+    {
+      "term": "Decimaal",
+      "definition": "Een cijfer achter de komma; ook een verkorte naam voor een getal met een komma."
+    },
+    {
+      "term": "Repeterend",
+      "definition": "Een decimale ontwikkeling waarin dezelfde cijfergroep oneindig terugkeert."
+    },
+    {
+      "term": "Afronden",
+      "definition": "Een waarde vervangen door een nabije waarde met de gewenste precisie."
+    },
+    {
+      "term": "Benadering",
+      "definition": "Een waarde die dichtbij de bedoelde waarde ligt, maar er niet noodzakelijk exact aan gelijk is."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Plaatswaarde",
+      "latex": "2{,}375=2+\\frac3{10}+\\frac7{100}+\\frac5{1000}",
+      "usage": "Lees elke positie als een macht van tien."
+    },
+    {
+      "name": "Breuk naar decimaal",
+      "latex": "\\frac{a}{b}=a:b",
+      "usage": "Deel de teller door de niet-nulnoemer."
+    },
+    {
+      "name": "Gelijkwaardige delingen",
+      "latex": "a:b=(10a):(10b)",
+      "usage": "Vergroot deeltal en deler met dezelfde factor om de deler geheel te maken."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Rekenen in tienden",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "plaatswaarde",
+      "title": "Cijfers achter de komma",
+      "kind": "theory",
+      "file": "02-plaatswaarde.md"
+    },
+    {
+      "slug": "breuk-en-decimaal",
+      "title": "Tussen breuken en decimalen",
+      "kind": "theory",
+      "file": "03-breuk-en-decimaal.md"
+    },
+    {
+      "slug": "afronden",
+      "title": "Afronden en precisie",
+      "kind": "theory",
+      "file": "04-afronden.md"
+    },
+    {
+      "slug": "rekenbewerkingen",
+      "title": "Rekenen met decimalen",
+      "kind": "theory",
+      "file": "05-rekenbewerkingen.md"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "De notatie van Stevin",
+      "kind": "history",
+      "file": "06-historisch-intermezzo.md"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Meten, inkopen en plannen",
+      "kind": "practice",
+      "file": "07-praktijk-en-uitdaging.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
+  "timeline": [
+    "stevin-de-thiende"
+  ],
+  "mathematicians": [
+    "simon-stevin"
+  ]
 }

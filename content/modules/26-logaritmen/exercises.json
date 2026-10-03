@@ -1,0 +1,532 @@
+{
+  "exercises": [
+    {
+      "id": "26-001",
+      "question": "Los 2ᵗ = 8 op.",
+      "answer": 3,
+      "solution": [
+        "2³ = 8."
+      ],
+      "hints": [
+        "Zoek de exponent."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-002",
+      "question": "Los x³ = 8 op over de reële getallen.",
+      "answer": 2,
+      "solution": [
+        "De derdemachtswortel van 8 is 2."
+      ],
+      "hints": [
+        "Hier is de basis onbekend."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-003",
+      "question": "Bereken log₃ 81.",
+      "answer": 4,
+      "solution": [
+        "3⁴ = 81."
+      ],
+      "hints": [
+        "Vertaal naar een macht."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-004",
+      "question": "Bereken log₂ 1.",
+      "answer": 0,
+      "solution": [
+        "2⁰ = 1."
+      ],
+      "hints": [
+        "Elke geldige basis tot nul geeft één."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-005",
+      "question": "Bereken log₂(1/8).",
+      "answer": -3,
+      "solution": [
+        "2⁻³ = 1/8."
+      ],
+      "hints": [
+        "Een negatieve uitkomst is toegestaan."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-006",
+      "question": "Bereken log_(1/2) 8.",
+      "answer": -3,
+      "solution": [
+        "(1/2)⁻³ = 8."
+      ],
+      "hints": [
+        "De basis is kleiner dan één."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-007",
+      "question": "Bestaat log₂ 0 als reëel getal? Geef 1 voor ja, 0 voor nee.",
+      "answer": 0,
+      "solution": [
+        "Positieve machten leveren nooit nul."
+      ],
+      "hints": [
+        "Controleer het argument."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-008",
+      "question": "Is grondtal 1 geldig voor een logaritme? Geef 1 voor ja, 0 voor nee.",
+      "answer": 0,
+      "solution": [
+        "1ʸ geeft steeds dezelfde uitvoer."
+      ],
+      "hints": [
+        "Een inverse vereist dat de exponent terug te vinden is."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-009",
+      "question": "Bereken log₂ 8 + log₂ 4.",
+      "answer": 5,
+      "solution": [
+        "3 + 2 = 5, of log₂ 32."
+      ],
+      "hints": [
+        "Een som van logaritmen hoort bij een product."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-010",
+      "question": "Bereken log₂ 32 − log₂ 4.",
+      "answer": 3,
+      "solution": [
+        "5 − 2 = 3, of log₂ 8."
+      ],
+      "hints": [
+        "Gebruik de quotiëntregel."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-011",
+      "question": "Bereken log₂(8²).",
+      "answer": 6,
+      "solution": [
+        "2 log₂ 8 = 2×3 = 6."
+      ],
+      "hints": [
+        "Gebruik de machtsregel."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-012",
+      "question": "Is ln(x²) = 2 ln x geldig bij x = −2 als vergelijking van reële expressies? Geef 1 voor ja, 0 voor nee.",
+      "answer": 0,
+      "solution": [
+        "De rechterkant bevat ln(−2), dat niet reëel gedefinieerd is."
+      ],
+      "hints": [
+        "Controleer beide oorspronkelijke expressies."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-013",
+      "question": "Combineer ln x + ln 3 voor x > 0 tot één logaritme.",
+      "answer": "ln(3*x)",
+      "solution": [
+        "Productregel: ln(3x)."
+      ],
+      "hints": [
+        "De argumenten worden vermenigvuldigd."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-014",
+      "question": "Bereken ln(e³).",
+      "answer": 3,
+      "solution": [
+        "ln en de macht met basis e heffen elkaar op."
+      ],
+      "hints": [
+        "De exponent is 3."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-015",
+      "question": "Bereken log 1000, met basis 10.",
+      "answer": 3,
+      "solution": [
+        "10³ = 1000."
+      ],
+      "hints": [
+        "In deze cursus betekent log basis 10."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-016",
+      "question": "Geef log₂ 10 exact met natuurlijke logaritmen.",
+      "answer": "ln(10)/ln(2)",
+      "solution": [
+        "Basisverandering: ln 10 / ln 2."
+      ],
+      "hints": [
+        "Gebruik dezelfde basis in teller en noemer."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-017",
+      "question": "Bereken log₂ 10 op twee decimalen.",
+      "answer": 3.32,
+      "solution": [
+        "ln 10 / ln 2 ≈ 3,32."
+      ],
+      "hints": [
+        "Behoud tussencijfers."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "26-018",
+      "question": "Geef het domein van ln(x − 2) als interval.",
+      "answer": "(2;inf)",
+      "solution": [
+        "x − 2 > 0, dus x > 2."
+      ],
+      "hints": [
+        "Het argument moet strikt positief zijn."
+      ],
+      "type": "interval",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-019",
+      "question": "Geef het nulpunt van ln(x − 2).",
+      "answer": 3,
+      "solution": [
+        "ln 1 = 0, dus x − 2 = 1."
+      ],
+      "hints": [
+        "Bij een nulpunt is het argument één."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-020",
+      "question": "Bij y = 2ˣ hoort punt (3; 8). Geef het bijbehorende punt op y = log₂ x.",
+      "answer": "(8;3)",
+      "solution": [
+        "Een inverse verwisselt invoer en uitvoer."
+      ],
+      "hints": [
+        "Spiegel in y = x."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-021",
+      "question": "Is log_(1/2) x stijgend? Geef 1 voor ja, 0 voor nee.",
+      "answer": 0,
+      "solution": [
+        "Bij basis tussen 0 en 1 is de logaritme dalend."
+      ],
+      "hints": [
+        "Denk aan de inverse van een vervalfunctie."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-022",
+      "question": "Bereken log 100 + log 1000 in basis 10.",
+      "answer": 5,
+      "solution": [
+        "2 + 3 = 5."
+      ],
+      "hints": [
+        "Het product is 100 000."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-023",
+      "question": "Een getal heeft tiendelige logaritme 5. Wat is dat getal?",
+      "answer": 100000,
+      "solution": [
+        "10⁵ = 100 000."
+      ],
+      "hints": [
+        "Keer terug naar de macht."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-024",
+      "question": "Los log₂(x − 1) = 3 op.",
+      "answer": 9,
+      "solution": [
+        "x − 1 = 8, dus x = 9; x > 1."
+      ],
+      "hints": [
+        "Vertaal naar 2³."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-025",
+      "question": "Los 100×1,2ᵗ = 500 op. Rond t op twee decimalen af.",
+      "answer": 8.83,
+      "solution": [
+        "t = ln5/ln1,2 ≈ 8,83."
+      ],
+      "hints": [
+        "Deel eerst door de beginwaarde."
+      ],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "26-026",
+      "question": "In hetzelfde model zijn alleen gehele meetmomenten toegestaan. Geef de eerste gehele t met minstens 500.",
+      "answer": 9,
+      "solution": [
+        "Continue grens ≈ 8,827; N(8)<500 en N(9)>500."
+      ],
+      "hints": [
+        "Kies het eerste toegestane moment boven de grens."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-027",
+      "question": "Bereken de verdubbelingstijd bij factor 1,08 per jaar op twee decimalen.",
+      "answer": 9.01,
+      "solution": [
+        "ln2/ln1,08 ≈ 9,01 jaar."
+      ],
+      "hints": [
+        "De totale factor moet 2 zijn."
+      ],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "26-028",
+      "question": "Bereken de halveringstijd bij factor 0,9 per uur op twee decimalen.",
+      "answer": 6.58,
+      "solution": [
+        "ln0,5/ln0,9 ≈ 6,58 uur."
+      ],
+      "hints": [
+        "Beide logaritmen zijn negatief."
+      ],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "26-029",
+      "question": "Los ln x + ln(x − 2) = ln 3 op over de reële getallen.",
+      "answer": 3,
+      "solution": [
+        "Domein x > 2.",
+        "x(x−2)=3 geeft kandidaten 3 en −1; alleen 3 is geldig."
+      ],
+      "hints": [
+        "Controleer het oorspronkelijke domein vóór combineren."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-030",
+      "question": "N(t)=200×1,08ᵗ, t in jaren. Geef het continue verdubbelingsmoment op twee decimalen en het eerste gehele jaar met minstens 400.",
+      "solution": [
+        "t=ln2/ln1,08≈9,0065.",
+        "N(9)≈399,80 <400; N(10)≈431,78 >400."
+      ],
+      "hints": [
+        "Rond de continue grens niet eerst af tot een geheel getal."
+      ],
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "topics": [
+        "logarithms"
+      ],
+      "parts": [
+        {
+          "label": "continu tijdstip",
+          "type": "decimal",
+          "answer": 9.01,
+          "tolerance": 0.005
+        },
+        {
+          "label": "eerste gehele jaar",
+          "type": "numeric",
+          "answer": 10
+        }
+      ]
+    }
+  ]
+}

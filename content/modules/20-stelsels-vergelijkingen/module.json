@@ -4,10 +4,10 @@
   "title": "Stelsels vergelijkingen",
   "part": 4,
   "level": "havo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Oud-China",
   "estimated_difficulty": 3,
-  "estimated_minutes": 90,
+  "estimated_minutes": 170,
   "prerequisites": [
     19
   ],
@@ -15,12 +15,112 @@
     "systems",
     "equations"
   ],
-  "core_question": null,
-  "summary": "Twee onbekenden: substitutie, eliminatie en grafisch oplossen.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
+  "core_question": "Hoe vind je twee onbekenden wanneer één vergelijking nog meerdere mogelijkheden overlaat?",
+  "summary": "Stelsels met twee onbekenden: substitutie, eliminatie en snijpunten. Je controleert een oplossing in beide vergelijkingen en herkent bijzondere gevallen.",
+  "learning_goals": [
+    "Je interpreteert een stelsel als voorwaarden die tegelijk moeten gelden.",
+    "Je lost een lineair stelsel op met substitutie of eliminatie.",
+    "Je kiest een handige methode op basis van de coëfficiënten.",
+    "Je ziet oplossingen als snijpunten van rechte lijnen.",
+    "Je onderscheidt één oplossing, geen oplossing en oneindig veel oplossingen.",
+    "Je vertaalt een context naar twee onbekenden en twee onafhankelijke voorwaarden.",
+    "Je controleert beide vergelijkingen en de contextbeperkingen."
+  ],
+  "glossary": [
+    {
+      "term": "Stelsel",
+      "definition": "Een verzameling vergelijkingen die tegelijk waar moeten zijn."
+    },
+    {
+      "term": "Substitutie",
+      "definition": "Een expressie voor een onbekende invullen op elke plek van die onbekende in een andere vergelijking."
+    },
+    {
+      "term": "Eliminatie",
+      "definition": "Een onbekende laten verdwijnen door geldige combinaties van vergelijkingen."
+    },
+    {
+      "term": "Onafhankelijk",
+      "definition": "Een voorwaarde die niet alleen dezelfde informatie in een andere vorm herhaalt."
+    },
+    {
+      "term": "Strijdig",
+      "definition": "Voorwaarden die niet tegelijk waar kunnen zijn."
+    },
+    {
+      "term": "Parameter",
+      "definition": "Een vrij te kiezen waarde waarmee je een hele verzameling oplossingen beschrijft."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Substitutie",
+      "latex": "y=ax+b\\implies cx+dy=cx+d(ax+b)",
+      "usage": "Vervang de hele expressie voor y, met haakjes."
+    },
+    {
+      "name": "Eliminatie",
+      "latex": "A=B,\\ C=D\\implies A+C=B+D",
+      "usage": "Behoud naast de nieuwe vergelijking een oorspronkelijke vergelijking."
+    },
+    {
+      "name": "Unieke oplossing",
+      "latex": "a_1b_2-a_2b_1\\ne0",
+      "usage": "Bij twee lineaire vergelijkingen aᵢx+bᵢy=cᵢ garandeert dit een uniek paar."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Twee aankopen, twee prijzen",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "substitutie",
+      "title": "Een onbekende vervangen",
+      "kind": "theory",
+      "file": "02-substitutie.md"
+    },
+    {
+      "slug": "eliminatie",
+      "title": "Een onbekende laten verdwijnen",
+      "kind": "theory",
+      "file": "03-eliminatie.md"
+    },
+    {
+      "slug": "grafische-oplossing",
+      "title": "Lijnen die elkaar ontmoeten",
+      "kind": "theory",
+      "file": "04-grafische-oplossing.md"
+    },
+    {
+      "slug": "bijzondere-stelsels",
+      "title": "Onafhankelijke, herhaalde en strijdige voorwaarden",
+      "kind": "theory",
+      "file": "05-bijzondere-stelsels.md"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Elimineren vóór de moderne lettertaal",
+      "kind": "history",
+      "file": "06-historisch-intermezzo.md"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Mengsels, aantallen en twee onbekenden",
+      "kind": "practice",
+      "file": "07-praktijk-en-uitdaging.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
+  "timeline": [
+    "negen-hoofdstukken"
+  ],
   "mathematicians": []
 }

@@ -1,0 +1,554 @@
+{
+  "exercises": [
+    {
+      "id": "11-001",
+      "question": "Een rechthoekig perceel is 30 m bij 20 m. Wat is de omtrek?",
+      "answer": 100,
+      "solution": [
+        "$2\\times(30+20)=100$ m."
+      ],
+      "hints": [
+        "Tel de vier zijden op."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "perimeter"
+      ],
+      "unit": "m"
+    },
+    {
+      "id": "11-002",
+      "question": "Hetzelfde perceel is 30 m bij 20 m. Wat is de oppervlakte?",
+      "answer": 600,
+      "solution": [
+        "$30\\times20=600$ m²."
+      ],
+      "hints": [
+        "Rijen maal kolommen."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "area"
+      ],
+      "unit": "m²"
+    },
+    {
+      "id": "11-003",
+      "question": "Twee lijnen staan loodrecht op elkaar. Hoeveel graden is de kleinste hoek?",
+      "answer": 90,
+      "solution": [
+        "Loodrecht betekent een rechte hoek van 90°."
+      ],
+      "hints": [
+        "Gebruik de definitie."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "angles"
+      ],
+      "unit": "°"
+    },
+    {
+      "id": "11-004",
+      "question": "Twee hoeken vormen samen 180°. De eerste is 65°. Hoe groot is de tweede?",
+      "answer": 115,
+      "solution": [
+        "$180-65=115$°."
+      ],
+      "hints": [
+        "Trek de gegeven hoek van 180 af."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "angles"
+      ],
+      "unit": "°"
+    },
+    {
+      "id": "11-005",
+      "question": "Rond één punt zijn drie aangrenzende hoeken: 80°, 125° en een onbekende. Hoe groot is de onbekende?",
+      "answer": 155,
+      "solution": [
+        "$360-80-125=155$°."
+      ],
+      "hints": [
+        "Een volle draai is 360°."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "angles"
+      ],
+      "unit": "°"
+    },
+    {
+      "id": "11-006",
+      "question": "Twee lijnen snijden elkaar. Een hoek is 47°. Hoe groot is de overstaande hoek?",
+      "answer": 47,
+      "solution": [
+        "Overstaande hoeken zijn gelijk."
+      ],
+      "hints": [
+        "Overstaand is niet aangrenzend."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "angles"
+      ],
+      "unit": "°"
+    },
+    {
+      "id": "11-007",
+      "question": "Een driehoek heeft hoeken 50° en 60°. Hoe groot is de derde?",
+      "answer": 70,
+      "solution": [
+        "$180-50-60=70$°."
+      ],
+      "hints": [
+        "De drie hoeken tellen op tot 180°."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "geometry"
+      ],
+      "unit": "°"
+    },
+    {
+      "id": "11-008",
+      "question": "Een gelijkbenige driehoek heeft een tophoek van 40°. Hoe groot is elk van de twee gelijke basishoeken?",
+      "answer": 70,
+      "solution": [
+        "Er blijft $180-40=140$° over.",
+        "Verdeel dat gelijk: $140:2=70$°."
+      ],
+      "hints": [
+        "De twee basishoeken zijn gelijk."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "geometry"
+      ],
+      "unit": "°"
+    },
+    {
+      "id": "11-009",
+      "question": "Een vierhoek heeft drie hoeken van 80°, 95° en 110°. Hoe groot is de vierde?",
+      "answer": 75,
+      "solution": [
+        "$360-80-95-110=75$°."
+      ],
+      "hints": [
+        "Een vierhoek kun je in twee driehoeken verdelen."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "geometry"
+      ],
+      "unit": "°"
+    },
+    {
+      "id": "11-010",
+      "question": "Een gelijkzijdige driehoek heeft zijden van 7 cm. Wat is de omtrek?",
+      "answer": 21,
+      "solution": [
+        "$3\\times7=21$ cm."
+      ],
+      "hints": [
+        "Alle drie zijden zijn gelijk."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "perimeter"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "11-011",
+      "question": "Een rechthoek is 6 cm bij 4 cm. Wat is de omtrek?",
+      "answer": 20,
+      "solution": [
+        "$2(6+4)=20$ cm."
+      ],
+      "hints": [
+        "Tel niet alleen twee zijden."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "perimeter"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "11-012",
+      "question": "Een rechthoek is 6 cm bij 4 cm. Wat is de oppervlakte?",
+      "answer": 24,
+      "solution": [
+        "$6\\times4=24$ cm²."
+      ],
+      "hints": [
+        "Vermenigvuldig lengte en breedte."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "area"
+      ],
+      "unit": "cm²"
+    },
+    {
+      "id": "11-013",
+      "question": "Een driehoek heeft basis 8 cm en loodrechte hoogte 5 cm. Wat is de oppervlakte?",
+      "answer": 20,
+      "solution": [
+        "$8\\times5:2=20$ cm²."
+      ],
+      "hints": [
+        "De helft van de bijbehorende parallellogramoppervlakte."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "area"
+      ],
+      "unit": "cm²"
+    },
+    {
+      "id": "11-014",
+      "question": "Een parallellogram heeft basis 9 cm en loodrechte hoogte 4 cm. Wat is de oppervlakte?",
+      "answer": 36,
+      "solution": [
+        "$9\\times4=36$ cm²."
+      ],
+      "hints": [
+        "Gebruik basis maal loodrechte hoogte."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "area"
+      ],
+      "unit": "cm²"
+    },
+    {
+      "id": "11-015",
+      "question": "Een rechthoek van 8 m bij 6 m mist een hoek van 3 m bij 2 m. Wat is de resterende oppervlakte?",
+      "answer": 42,
+      "solution": [
+        "$8\\times6-3\\times2=48-6=42$ m²."
+      ],
+      "hints": [
+        "Trek de uitsnijding van de hele rechthoek af."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "area"
+      ],
+      "unit": "m²"
+    },
+    {
+      "id": "11-016",
+      "question": "Hoeveel cm² is 2,5 m²?",
+      "answer": 25000,
+      "solution": [
+        "1 m² is 10.000 cm².",
+        "$2{,}5\\times10\\,000=25\\,000$."
+      ],
+      "hints": [
+        "Een vierkante meter is 100 bij 100 centimeter."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "unit-conversion"
+      ],
+      "unit": "cm²"
+    },
+    {
+      "id": "11-017",
+      "question": "Hoeveel m² is 0,8 hectare?",
+      "answer": 8000,
+      "solution": [
+        "$0{,}8\\times10\\,000=8000$ m²."
+      ],
+      "hints": [
+        "Een hectare is 10.000 m²."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "unit-conversion"
+      ],
+      "unit": "m²"
+    },
+    {
+      "id": "11-018",
+      "question": "Een cirkel heeft diameter 12 cm. Wat is de straal?",
+      "answer": 6,
+      "solution": [
+        "De straal is de helft van de diameter: 6 cm."
+      ],
+      "hints": [
+        "De diameter loopt van rand tot rand door het midden."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "circles"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "11-019",
+      "question": "Een cirkel heeft straal 3 cm. Bereken de omtrek op twee decimalen.",
+      "answer": 18.85,
+      "solution": [
+        "$2\\pi\\times3=6\\pi\\approx18{,}85$ cm."
+      ],
+      "hints": [
+        "Gebruik $2\\pi r$."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "circles"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "11-020",
+      "question": "Een cirkel heeft straal 3 cm. Bereken de oppervlakte op twee decimalen.",
+      "answer": 28.27,
+      "solution": [
+        "$\\pi\\times3^2=9\\pi\\approx28{,}27$ cm²."
+      ],
+      "hints": [
+        "Kwadreer de straal."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "circles"
+      ],
+      "unit": "cm²"
+    },
+    {
+      "id": "11-021",
+      "question": "Een balk is 3 cm bij 2 cm bij 4 cm. Wat is de inhoud?",
+      "answer": 24,
+      "solution": [
+        "$3\\times2\\times4=24$ cm³."
+      ],
+      "hints": [
+        "Vermenigvuldig alle drie afmetingen."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "volume"
+      ],
+      "unit": "cm³"
+    },
+    {
+      "id": "11-022",
+      "question": "Een cilinder heeft straal 2 cm en hoogte 5 cm. Bereken de inhoud op twee decimalen.",
+      "answer": 62.83,
+      "solution": [
+        "$\\pi\\times2^2\\times5=20\\pi\\approx62{,}83$ cm³."
+      ],
+      "hints": [
+        "Bereken het ronde grondvlak en vermenigvuldig met de hoogte."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "volume"
+      ],
+      "unit": "cm³"
+    },
+    {
+      "id": "11-023",
+      "question": "Hoeveel liter is 0,75 m³?",
+      "answer": 750,
+      "solution": [
+        "1 m³ is 1000 liter.",
+        "$0{,}75\\times1000=750$."
+      ],
+      "hints": [
+        "Reken eerst naar dm³."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "unit-conversion"
+      ],
+      "unit": "liter"
+    },
+    {
+      "id": "11-024",
+      "question": "Hoeveel milliliter is 45 cm³?",
+      "answer": 45,
+      "solution": [
+        "1 cm³ is 1 ml."
+      ],
+      "hints": [
+        "Gebruik de gelijkheid van de eenheden."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "unit-conversion"
+      ],
+      "unit": "ml"
+    },
+    {
+      "id": "11-025",
+      "question": "Gebruik de oude benadering $A=(8d/9)^2$ voor een cirkel met diameter 9. Welke oppervlakte geeft die regel?",
+      "answer": 64,
+      "solution": [
+        "$8\\times9/9=8$.",
+        "$8^2=64$."
+      ],
+      "hints": [
+        "Bereken eerst acht negende van de diameter."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "area"
+      ]
+    },
+    {
+      "id": "11-026",
+      "question": "Een driehoek heeft oppervlakte 30 cm² en basis 10 cm. Wat is de loodrechte hoogte?",
+      "answer": 6,
+      "solution": [
+        "$30=10h/2=5h$.",
+        "$h=30:5=6$ cm."
+      ],
+      "hints": [
+        "De oppervlakte is de helft van basis maal hoogte."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "area"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "11-027",
+      "question": "Een bak heeft binnenmaten 50 cm bij 30 cm bij 20 cm. Hoeveel liter kan erin?",
+      "answer": 30,
+      "solution": [
+        "$50\\times30\\times20=30\\,000$ cm³.",
+        "Dat is 30.000 ml = 30 liter."
+      ],
+      "hints": [
+        "Bereken eerst de inhoud in cm³."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "volume"
+      ],
+      "unit": "liter"
+    },
+    {
+      "id": "11-028",
+      "question": "Een vloer van 4 m bij 3 m krijgt tegels van 0,5 m bij 0,5 m. Zonder snijverlies: hoeveel tegels zijn nodig?",
+      "answer": 48,
+      "solution": [
+        "Vloer: 12 m².",
+        "Eén tegel: 0,25 m².",
+        "$12:0{,}25=48$."
+      ],
+      "hints": [
+        "Deel de vloeroppervlakte door de tegeloppervlakte."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "area"
+      ]
+    },
+    {
+      "id": "11-029",
+      "question": "Een vierkant heeft oppervlakte 49 cm². Wat is zijn omtrek?",
+      "answer": 28,
+      "solution": [
+        "De zijde is 7 cm, want $7\\times7=49$.",
+        "Omtrek: $4\\times7=28$ cm."
+      ],
+      "hints": [
+        "Zoek eerst de zijde."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "perimeter"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "11-030",
+      "question": "Een tuin is 8 m bij 5 m. Buitenom komt aan alle kanten een pad van 1 m breed. Wat is de oppervlakte van het pad?",
+      "answer": 30,
+      "solution": [
+        "De buitenmaten zijn $8+2=10$ en $5+2=7$ m.",
+        "Buitenoppervlakte 70 m², tuin 40 m².",
+        "Pad: $70-40=30$ m²."
+      ],
+      "hints": [
+        "Beide maten groeien aan twee kanten.",
+        "Trek de tuin van de buitenste rechthoek af."
+      ],
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "topics": [
+        "area"
+      ],
+      "unit": "m²"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "title": "Hoofdstuktoets – Machten en wortels",
+  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "questions": [
+    {
+      "id": "14-T01",
+      "question": "Bereken $5^3$.",
+      "answer": 125,
+      "solution": [
+        "$5\\times5\\times5=125$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-T02",
+      "question": "Bereken $(-3)^3$.",
+      "answer": -27,
+      "solution": [
+        "Een oneven aantal negatieve factoren geeft -27."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-T03",
+      "question": "Bereken $-4^2$.",
+      "answer": -16,
+      "solution": [
+        "Eerst kwadrateren: 16. Dan het losse minteken."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-T04",
+      "question": "Vul n in: $7^2\\times7^5=7^n$.",
+      "answer": 7,
+      "solution": [
+        "$2+5=7$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-T05",
+      "question": "Vul n in: $5^6:5^4=5^n$.",
+      "answer": 2,
+      "solution": [
+        "$6-4=2$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-T06",
+      "question": "Vul n in: $(3^2)^5=3^n$.",
+      "answer": 10,
+      "solution": [
+        "$2\\times5=10$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-T07",
+      "question": "Bereken $12^0$.",
+      "answer": 1,
+      "solution": [
+        "Een niet-nulgetal tot de nulde macht is 1."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-T08",
+      "question": "Bereken $3^{-2}$ als breuk.",
+      "answer": "1/9",
+      "solution": [
+        "$1/3^2=1/9$."
+      ],
+      "hints": [],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-T09",
+      "question": "Bereken $\\sqrt{121}$.",
+      "answer": 11,
+      "solution": [
+        "$11^2=121$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-T10",
+      "question": "Geef alle reële oplossingen van $x^2=25$, in oplopende volgorde.",
+      "solution": [
+        "Beide kwadraten zijn 25."
+      ],
+      "hints": [],
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ],
+      "parts": [
+        {
+          "label": "kleinste oplossing",
+          "answer": -5,
+          "type": "numeric"
+        },
+        {
+          "label": "grootste oplossing",
+          "answer": 5,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "14-T11",
+      "question": "Bereken $\\sqrt{(-9)^2}$.",
+      "answer": 9,
+      "solution": [
+        "Wortel van 81 is 9."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-T12",
+      "question": "Bereken $\\sqrt{50}$ op twee decimalen.",
+      "answer": 7.07,
+      "solution": [
+        "$\\sqrt{50}\\approx7{,}0711$."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-T13",
+      "question": "Schrijf 0,0062 als $6{,}2\\times10^n$. Wat is n?",
+      "answer": -3,
+      "solution": [
+        "$6{,}2\\times10^{-3}=0{,}0062$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-T14",
+      "question": "Bereken $(2+4)^2-2^2-4^2$.",
+      "answer": 16,
+      "solution": [
+        "$36-4-16=16$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-T15",
+      "question": "Een vierkant heeft oppervlakte 400 cm². Wat is zijn omtrek?",
+      "answer": 80,
+      "solution": [
+        "Zijde 20 cm; omtrek 80 cm."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "powers"
+      ],
+      "unit": "cm"
+    }
+  ]
+}

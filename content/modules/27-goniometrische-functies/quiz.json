@@ -1,0 +1,231 @@
+{
+  "title": "Hoofdstuktoets – Goniometrische functies",
+  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "questions": [
+    {
+      "id": "27-T01",
+      "question": "Zet 45° om in radialen.",
+      "answer": "pi/4",
+      "solution": [
+        "45π/180."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-T02",
+      "question": "Zet 5π/3 radialen om in graden.",
+      "answer": 300,
+      "solution": [
+        "5×180/3."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-T03",
+      "question": "Bereken sin π.",
+      "answer": 0,
+      "solution": [
+        "Punt (−1;0)."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-T04",
+      "question": "Bereken cos(2π).",
+      "answer": 1,
+      "solution": [
+        "Volledige omwenteling."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-T05",
+      "question": "Bereken sin(7π/6).",
+      "answer": "-1/2",
+      "solution": [
+        "Kwadrant III, referentiehoek π/6."
+      ],
+      "hints": [],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-T06",
+      "question": "Bereken cos(π/4) exact.",
+      "answer": "sqrt(2)/2",
+      "solution": [
+        "Gelijkbenige rechthoekige driehoek."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-T07",
+      "question": "Bereken tan(π/4).",
+      "answer": 1,
+      "solution": [
+        "Sin en cos zijn gelijk."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-T08",
+      "question": "Geef de periode van cos(3t).",
+      "answer": "2*pi/3",
+      "solution": [
+        "2π/3."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-T09",
+      "question": "y=4−2sin(πt/5). Geef de amplitude.",
+      "answer": 2,
+      "solution": [
+        "Amplitude |−2|."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-T10",
+      "question": "Hetzelfde model: geef de periode.",
+      "answer": 10,
+      "solution": [
+        "2π/(π/5)=10."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-T11",
+      "question": "Hetzelfde model: geef het bereik.",
+      "answer": "[2;6]",
+      "solution": [
+        "4±2."
+      ],
+      "hints": [],
+      "type": "interval",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-T12",
+      "question": "Hoeveel oplossingen heeft cos x = 1 op [0;2π)?",
+      "answer": 1,
+      "solution": [
+        "Alleen x=0; 2π is uitgesloten."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-T13",
+      "question": "Geef de kleinste positieve oplossing van sin x=0.",
+      "answer": "pi",
+      "solution": [
+        "Nulpunten zijn gehele veelvouden van π."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-T14",
+      "question": "Geef de grootste oplossing van cos x=1/2 op [0;2π).",
+      "answer": "5*pi/3",
+      "solution": [
+        "π/3 en 5π/3."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-T15",
+      "question": "Geef de kleinste oplossing van sin(3t)=1 op [0;2π/3).",
+      "answer": "pi/6",
+      "solution": [
+        "3t=π/2, dus t=π/6."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "trig-functions"
+      ]
+    }
+  ]
+}

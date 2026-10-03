@@ -1,0 +1,234 @@
+{
+  "title": "Hoofdstuktoets – Exponentiële groei",
+  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "questions": [
+    {
+      "id": "25-T01",
+      "question": "Geef de factor bij 12% groei.",
+      "answer": 1.12,
+      "solution": [
+        "1 + 0,12."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "25-T02",
+      "question": "Geef de factor bij 12% daling.",
+      "answer": 0.88,
+      "solution": [
+        "1 − 0,12."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "25-T03",
+      "question": "Factor 1,04: hoeveel procent groei?",
+      "answer": 4,
+      "solution": [
+        "(1,04−1)×100."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-T04",
+      "question": "Start 50, factor 3 per stap. Hoeveel na 3 stappen?",
+      "answer": 1350,
+      "solution": [
+        "50×27."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-T05",
+      "question": "Start 200, factor 0,5 per stap. Hoeveel na 3 stappen?",
+      "answer": 25,
+      "solution": [
+        "200/8."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-T06",
+      "question": "Na 2 stappen is N = 242 bij factor 1,1. Bereken N₀.",
+      "answer": 200,
+      "solution": [
+        "242/1,21."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-T07",
+      "question": "Een hoeveelheid gaat van 100 naar 144 in twee gelijke stappen. Geef het groeipercentage per stap.",
+      "answer": 20,
+      "solution": [
+        "g=√1,44=1,2."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-T08",
+      "question": "Factor 2 per uur: factor per 4 uur?",
+      "answer": 16,
+      "solution": [
+        "2⁴."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-T09",
+      "question": "Factor 4 per uur: factor per halfuur?",
+      "answer": 2,
+      "solution": [
+        "√4."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-T10",
+      "question": "N(t)=30×2^(t/5). Wat is de verdubbelingstijd?",
+      "answer": 5,
+      "solution": [
+        "De exponent neemt in 5 tijdseenheden met één toe."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-T11",
+      "question": "N(t)=120×(1/2)^(t/3). Bereken N(6).",
+      "answer": 30,
+      "solution": [
+        "Twee halveringen."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-T12",
+      "question": "20% groei en daarna 20% daling. Geef de netto daling in procent.",
+      "answer": 4,
+      "solution": [
+        "1,2×0,8=0,96."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-T13",
+      "question": "Een hypothetisch bedrag 500 groeit tweemaal met 10%. Bereken de eindwaarde.",
+      "answer": 605,
+      "solution": [
+        "500×1,1²."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "25-T14",
+      "question": "Start 40, factor 2 per heel uur. Wat is het eerste gehele uur met meer dan 300?",
+      "answer": 3,
+      "solution": [
+        "N(2)=160, N(3)=320."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-T15",
+      "question": "Een hoeveelheid halveert elke 3 uur. Na hoeveel uur is nog 1/8 over?",
+      "answer": 9,
+      "solution": [
+        "Drie halveringen × 3 uur."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "exponential"
+      ]
+    }
+  ]
+}

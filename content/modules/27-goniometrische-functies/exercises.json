@@ -1,0 +1,532 @@
+{
+  "exercises": [
+    {
+      "id": "27-001",
+      "question": "Geef sin 0.",
+      "answer": 0,
+      "solution": [
+        "Het punt is (1;0), dus de y-coördinaat is nul."
+      ],
+      "hints": [
+        "Sinus is de hoogte."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-002",
+      "question": "Geef cos 0.",
+      "answer": 1,
+      "solution": [
+        "De x-coördinaat is 1."
+      ],
+      "hints": [
+        "Begin op de positieve x-as."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-003",
+      "question": "Geef het cirkelpunt bij 90° als coördinatenpaar.",
+      "answer": "(0;1)",
+      "solution": [
+        "Een kwartslag tegen de klok in geeft (0;1)."
+      ],
+      "hints": [
+        "Gebruik de positieve y-as."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-004",
+      "question": "Zet 180° om in exact aantal radialen.",
+      "answer": "pi",
+      "solution": [
+        "Een halve omwenteling is π."
+      ],
+      "hints": [
+        "Vermenigvuldig met π/180."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-005",
+      "question": "Zet 60° om in exact aantal radialen.",
+      "answer": "pi/3",
+      "solution": [
+        "60π/180 = π/3."
+      ],
+      "hints": [
+        "Vereenvoudig de breuk."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-006",
+      "question": "Zet 3π/2 radialen om in graden.",
+      "answer": 270,
+      "solution": [
+        "(3π/2)×180/π = 270."
+      ],
+      "hints": [
+        "Gebruik 180/π."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-007",
+      "question": "Een cirkel heeft straal 3 en hoek π/2 radialen. Geef de exacte booglengte.",
+      "answer": "3*pi/2",
+      "solution": [
+        "s = rθ = 3π/2."
+      ],
+      "hints": [
+        "Deze formule gebruikt radialen."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-008",
+      "question": "Bereken sin(π/2).",
+      "answer": 1,
+      "solution": [
+        "Het punt is (0;1)."
+      ],
+      "hints": [
+        "Lees de y-coördinaat."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-009",
+      "question": "Bereken cos π.",
+      "answer": -1,
+      "solution": [
+        "Het punt is (−1;0)."
+      ],
+      "hints": [
+        "Een halve omwenteling."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-010",
+      "question": "Bereken sin(5π/6) exact.",
+      "answer": "1/2",
+      "solution": [
+        "De hoek spiegelt π/6 in de y-as; de hoogte blijft 1/2."
+      ],
+      "hints": [
+        "Gebruik symmetrie."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-011",
+      "question": "Bereken cos(5π/6) exact.",
+      "answer": "-sqrt(3)/2",
+      "solution": [
+        "Cosinus is negatief in kwadrant II."
+      ],
+      "hints": [
+        "Gebruik de referentiehoek π/6."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-012",
+      "question": "Bereken sin(−π/6) exact.",
+      "answer": "-1/2",
+      "solution": [
+        "Sinus verandert van teken bij spiegelen in de x-as."
+      ],
+      "hints": [
+        "Sinus is oneven."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-013",
+      "question": "Geef de periode van sin t.",
+      "answer": "2*pi",
+      "solution": [
+        "Een volledige omwenteling."
+      ],
+      "hints": [
+        "Sinus herhaalt na 2π."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-014",
+      "question": "Geef de periode van tan t.",
+      "answer": "pi",
+      "solution": [
+        "Een halve omwenteling geeft dezelfde verhouding."
+      ],
+      "hints": [
+        "Tangens heeft een kortere periode."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-015",
+      "question": "Geef de periode van sin(2t).",
+      "answer": "pi",
+      "solution": [
+        "2π/2 = π."
+      ],
+      "hints": [
+        "De binnenste factor versnelt de cyclus."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-016",
+      "question": "Is tan(π/2) gedefinieerd? Geef 1 voor ja, 0 voor nee.",
+      "answer": 0,
+      "solution": [
+        "Cos(π/2)=0, dus sin/cos is niet gedefinieerd."
+      ],
+      "hints": [
+        "Controleer de noemer."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-017",
+      "question": "h(t)=10+3sin((π/6)(t−2)). Wat is de amplitude?",
+      "answer": 3,
+      "solution": [
+        "De amplitude is |3|."
+      ],
+      "hints": [
+        "Afstand tot de middenhoogte."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-018",
+      "question": "Hetzelfde model: wat is de evenwichtsstand?",
+      "answer": 10,
+      "solution": [
+        "De verticale verschuiving is 10."
+      ],
+      "hints": [
+        "Lees d."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-019",
+      "question": "Hetzelfde model: wat is de periode?",
+      "answer": 12,
+      "solution": [
+        "2π/(π/6)=12."
+      ],
+      "hints": [
+        "Gebruik de binnenste hoekfactor."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-020",
+      "question": "Geef het bereik van hetzelfde model als interval.",
+      "answer": "[7;13]",
+      "solution": [
+        "10−3=7 en 10+3=13."
+      ],
+      "hints": [
+        "Middenhoogte plus/min amplitude."
+      ],
+      "type": "interval",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-021",
+      "question": "Geef de horizontale verschuiving c in sin(2t−4), geschreven als sin(2(t−c)).",
+      "answer": 2,
+      "solution": [
+        "2t−4 = 2(t−2)."
+      ],
+      "hints": [
+        "Factoriseer de binnenste expressie."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-022",
+      "question": "Bereken sin²(π/4)+cos²(π/4).",
+      "answer": 1,
+      "solution": [
+        "De identiteit geldt voor elke hoek."
+      ],
+      "hints": [
+        "Pythagoras op de eenheidscirkel."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-023",
+      "question": "Een patroon herhaalt elke 12 uur. Hoeveel volledige cycli zijn er in 48 uur?",
+      "answer": 4,
+      "solution": [
+        "48/12 = 4."
+      ],
+      "hints": [
+        "Tijd gedeeld door periode."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-024",
+      "question": "Hoeveel verschillende oplossingen heeft sin x = 1/2 op [0;2π)?",
+      "answer": 2,
+      "solution": [
+        "π/6 en 5π/6."
+      ],
+      "hints": [
+        "Er zijn twee punten met die hoogte."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-025",
+      "question": "Geef de kleinste oplossing van sin x = 1/2 op [0;2π).",
+      "answer": "pi/6",
+      "solution": [
+        "De eerste oplossing is π/6."
+      ],
+      "hints": [
+        "Gebruik de bekende scherpe hoek."
+      ],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-026",
+      "question": "Geef de grootste oplossing van sin x = 1/2 op [0;2π).",
+      "answer": "5*pi/6",
+      "solution": [
+        "De tweede oplossing is π−π/6."
+      ],
+      "hints": [
+        "Spiegel in de y-as."
+      ],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-027",
+      "question": "Geef de kleinste niet-negatieve oplossing van cos x = 0.",
+      "answer": "pi/2",
+      "solution": [
+        "De positieve y-as geeft de eerste nulcoördinaat x."
+      ],
+      "hints": [
+        "Cosinus is de x-coördinaat."
+      ],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-028",
+      "question": "Geef de kleinste oplossing van sin(2t)=1/2 op [0;π).",
+      "answer": "pi/12",
+      "solution": [
+        "2t=π/6, dus t=π/12."
+      ],
+      "hints": [
+        "Los eerst voor de binnenste hoek op."
+      ],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-029",
+      "question": "Hoeveel verschillende oplossingen heeft sin x = 1 op [0;2π)?",
+      "answer": 1,
+      "solution": [
+        "Alleen π/2; de twee algemene takken vallen samen."
+      ],
+      "hints": [
+        "Een maximum komt eenmaal per cyclus voor."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-030",
+      "question": "h(t)=10+3sin((π/6)(t−2)). Geef het eerste maximum voor t≥0 en de twee tijden met h=10 op [2;14), in stijgende volgorde.",
+      "solution": [
+        "Een maximum heeft binnenhoek π/2: t−2=3, dus t=5.",
+        "Binnenhoeken 0 en π geven t=2 en t=8.",
+        "t=14 ligt buiten het halfopen interval."
+      ],
+      "hints": [
+        "Vertaal de gewenste hoogte naar een sinuswaarde."
+      ],
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "topics": [
+        "trig-functions"
+      ],
+      "parts": [
+        {
+          "label": "eerste maximum",
+          "answer": 5,
+          "type": "numeric"
+        },
+        {
+          "label": "eerste middenpassage",
+          "answer": 2,
+          "type": "numeric"
+        },
+        {
+          "label": "tweede middenpassage",
+          "answer": 8,
+          "type": "numeric"
+        }
+      ]
+    }
+  ]
+}

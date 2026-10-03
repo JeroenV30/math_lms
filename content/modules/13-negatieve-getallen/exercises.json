@@ -1,0 +1,540 @@
+{
+  "exercises": [
+    {
+      "id": "13-001",
+      "question": "Je hebt € 12 en een schuld van € 20. Noteer je saldo met bezit positief.",
+      "answer": -8,
+      "solution": [
+        "$12-20=-8$."
+      ],
+      "hints": [
+        "Het tekort krijgt een minteken."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ],
+      "unit": "€"
+    },
+    {
+      "id": "13-002",
+      "question": "De temperatuur is 3 °C en daalt 7 graden. Wat is de nieuwe temperatuur?",
+      "answer": -4,
+      "solution": [
+        "$3-7=-4$."
+      ],
+      "hints": [
+        "Ga zeven stappen naar links."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ],
+      "unit": "°C"
+    },
+    {
+      "id": "13-003",
+      "question": "Welk getal is groter: -2 of -7?",
+      "answer": -2,
+      "solution": [
+        "-2 ligt rechts van -7."
+      ],
+      "hints": [
+        "Groter is verder naar rechts."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-004",
+      "question": "Wat is de tegengestelde van -9?",
+      "answer": 9,
+      "solution": [
+        "$-9+9=0$."
+      ],
+      "hints": [
+        "De tegengestelde ligt even ver aan de andere kant van nul."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-005",
+      "question": "Bereken $|-12|$.",
+      "answer": 12,
+      "solution": [
+        "De afstand van -12 tot nul is 12."
+      ],
+      "hints": [
+        "Een afstand is niet negatief."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-006",
+      "question": "Wat is de afstand tussen -3 en 5?",
+      "answer": 8,
+      "solution": [
+        "$|5-(-3)|=8$."
+      ],
+      "hints": [
+        "Je gaat drie stappen naar nul en vijf verder."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-007",
+      "question": "Wat is de afstand tussen -8 en -2?",
+      "answer": 6,
+      "solution": [
+        "$|-2-(-8)|=6$."
+      ],
+      "hints": [
+        "Beide posities liggen links van nul."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-008",
+      "question": "Bereken $-3+5$.",
+      "answer": 2,
+      "solution": [
+        "Vijf naar rechts vanaf -3 geeft 2."
+      ],
+      "hints": [
+        "De positieve bijdrage is groter."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-009",
+      "question": "Bereken $-3+(-5)$.",
+      "answer": -8,
+      "solution": [
+        "Twee negatieve bijdragen: $-(3+5)=-8$."
+      ],
+      "hints": [
+        "Ga nog vijf naar links."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-010",
+      "question": "Bereken $7+(-11)$.",
+      "answer": -4,
+      "solution": [
+        "Elf negatief en zeven positief laten vier negatief over."
+      ],
+      "hints": [
+        "Vergelijk de absolute waarden."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-011",
+      "question": "Bereken $5-8$.",
+      "answer": -3,
+      "solution": [
+        "$5+(-8)=-3$."
+      ],
+      "hints": [
+        "Aftrekken is de tegengestelde optellen."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-012",
+      "question": "Bereken $5-(-8)$.",
+      "answer": 13,
+      "solution": [
+        "$5+8=13$."
+      ],
+      "hints": [
+        "De tegengestelde van -8 is 8."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ],
+      "feedback": [
+        {
+          "answer": -3,
+          "message": "Je hebt 8 afgetrokken. Je trekt -8 af, dus telt de tegengestelde +8 op."
+        }
+      ]
+    },
+    {
+      "id": "13-013",
+      "question": "Bereken $-6-(-4)$.",
+      "answer": -2,
+      "solution": [
+        "$-6+4=-2$."
+      ],
+      "hints": [
+        "De schuldpost verwijderen verhoogt het saldo."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-014",
+      "question": "Bereken $-9-7$.",
+      "answer": -16,
+      "solution": [
+        "$-9+(-7)=-16$."
+      ],
+      "hints": [
+        "Beide bijdragen zijn negatief."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-015",
+      "question": "Bereken $3\\times(-4)$.",
+      "answer": -12,
+      "solution": [
+        "Drie negatieve groepen van vier geven -12."
+      ],
+      "hints": [
+        "Positief maal negatief geeft negatief."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-016",
+      "question": "Bereken $(-3)\\times(-4)$.",
+      "answer": 12,
+      "solution": [
+        "Twee negatieve factoren geven positief.",
+        "$3\\times4=12$."
+      ],
+      "hints": [
+        "Bepaal eerst het teken."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-017",
+      "question": "Bereken $(-7)\\times5$.",
+      "answer": -35,
+      "solution": [
+        "Verschillende tekens geven min; $7\\times5=35$."
+      ],
+      "hints": [
+        "Eén factor is negatief."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-018",
+      "question": "Bereken $-12:3$.",
+      "answer": -4,
+      "solution": [
+        "$3\\times(-4)=-12$."
+      ],
+      "hints": [
+        "Zoek de ontbrekende factor."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-019",
+      "question": "Bereken $-12:(-3)$.",
+      "answer": 4,
+      "solution": [
+        "$(-3)\\times4=-12$."
+      ],
+      "hints": [
+        "Gelijke tekens bij delen geven plus."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-020",
+      "question": "Bereken $(-2)\\times(-3)\\times(-4)$.",
+      "answer": -24,
+      "solution": [
+        "Drie negatieve factoren geven min.",
+        "$2\\times3\\times4=24$."
+      ],
+      "hints": [
+        "Een oneven aantal mintekens geeft min."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-021",
+      "question": "Bereken $0:(-5)$.",
+      "answer": 0,
+      "solution": [
+        "Nul verdeeld over een niet-nuldeler blijft nul."
+      ],
+      "hints": [
+        "Dit is niet delen door nul."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-022",
+      "question": "Bereken $-2+3\\times(-4)$.",
+      "answer": -14,
+      "solution": [
+        "Eerst $3\\times(-4)=-12$.",
+        "Dan $-2-12=-14$."
+      ],
+      "hints": [
+        "Vermenigvuldigen gaat vóór optellen."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-023",
+      "question": "Bereken $(-2+3)\\times(-4)$.",
+      "answer": -4,
+      "solution": [
+        "Eerst de haakjes: $-2+3=1$.",
+        "Dan $1\\times(-4)=-4$."
+      ],
+      "hints": [
+        "De haakjes komen eerst."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-024",
+      "question": "Bereken $(-3)^2$.",
+      "answer": 9,
+      "solution": [
+        "$(-3)\\times(-3)=9$."
+      ],
+      "hints": [
+        "De hele -3 wordt gekwadrateerd."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-025",
+      "question": "Bereken $-3^2$.",
+      "answer": -9,
+      "solution": [
+        "Eerst $3^2=9$, dan de tegengestelde: -9."
+      ],
+      "hints": [
+        "Het losse minteken hoort niet bij het grondtal."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ],
+      "feedback": [
+        {
+          "answer": 9,
+          "message": "Zonder haakjes hoort de macht alleen bij 3. Eerst 3², daarna het minteken."
+        }
+      ]
+    },
+    {
+      "id": "13-026",
+      "question": "Een saldo is -€ 15. Een schuldpost van -€ 9 wordt verwijderd. Wat is het nieuwe saldo?",
+      "answer": -6,
+      "solution": [
+        "$-15-(-9)=-15+9=-6$."
+      ],
+      "hints": [
+        "Een negatieve post aftrekken is positief toevoegen."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "negative-numbers"
+      ],
+      "unit": "€"
+    },
+    {
+      "id": "13-027",
+      "question": "Een saldo begint bij € 15. Je neemt € 28 op en stort € 9. Wat is het eindsaldo?",
+      "answer": -4,
+      "solution": [
+        "$15-28+9=-4$."
+      ],
+      "hints": [
+        "Schrijf elke verandering met haar teken."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ],
+      "unit": "€"
+    },
+    {
+      "id": "13-028",
+      "question": "Een temperatuur stijgt van -5 °C naar 3 °C. Hoeveel graden stijgt ze?",
+      "answer": 8,
+      "solution": [
+        "$3-(-5)=8$."
+      ],
+      "hints": [
+        "De stijging is de eindtemperatuur min de begintemperatuur."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ],
+      "unit": "graden"
+    },
+    {
+      "id": "13-029",
+      "question": "Bereken $18:(-3)-(-4)$.",
+      "answer": -2,
+      "solution": [
+        "$18:(-3)=-6$.",
+        "$-6+4=-2$."
+      ],
+      "hints": [
+        "Eerst delen, daarna aftrekken."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-030",
+      "question": "Een temperatuur begint op -3 °C, daalt 4 graden en stijgt daarna tot 6 °C. Hoeveel graden is de laatste stijging?",
+      "answer": 13,
+      "solution": [
+        "Na de daling is de temperatuur -7 °C.",
+        "$6-(-7)=13$ graden.",
+        "Controle: $-3-4+13=6$."
+      ],
+      "hints": [
+        "Bereken de tussenwaarde.",
+        "Het verschil van -7 naar 6 passeert nul."
+      ],
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 3,
+      "topics": [
+        "negative-numbers"
+      ],
+      "unit": "graden"
+    }
+  ]
+}

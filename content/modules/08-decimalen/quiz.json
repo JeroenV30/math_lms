@@ -1,0 +1,234 @@
+{
+  "title": "Hoofdstuktoets – Decimalen",
+  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "questions": [
+    {
+      "id": "08-T01",
+      "question": "Wat is het cijfer op de duizendstenpositie in 3,047?",
+      "answer": 7,
+      "solution": [
+        "De derde positie achter de komma is 7."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "decimals"
+      ]
+    },
+    {
+      "id": "08-T02",
+      "question": "Welk getal is kleiner: 0,56 of 0,6?",
+      "answer": 0.56,
+      "solution": [
+        "$0{,}56<0{,}60$."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "decimals"
+      ]
+    },
+    {
+      "id": "08-T03",
+      "question": "Bereken $0{,}483\\times100$.",
+      "answer": 48.3,
+      "solution": [
+        "Elke positie krijgt honderd keer zoveel waarde."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "decimals"
+      ]
+    },
+    {
+      "id": "08-T04",
+      "question": "Bereken $72:1000$.",
+      "answer": 0.072,
+      "solution": [
+        "72 duizendsten is 0,072."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "decimals"
+      ]
+    },
+    {
+      "id": "08-T05",
+      "question": "Schrijf 0,45 als volledig vereenvoudigde breuk.",
+      "answer": "9/20",
+      "solution": [
+        "$45/100=9/20$."
+      ],
+      "hints": [],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "decimals"
+      ],
+      "require_simplified": true
+    },
+    {
+      "id": "08-T06",
+      "question": "Schrijf $11/25$ als decimaal.",
+      "answer": 0.44,
+      "solution": [
+        "$11/25=44/100=0{,}44$."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "decimals"
+      ]
+    },
+    {
+      "id": "08-T07",
+      "question": "Schrijf $2/3$ als decimaal, afgerond op twee decimalen.",
+      "answer": 0.67,
+      "solution": [
+        "$2/3=0{,}666\\ldots\\approx0{,}67$."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "decimals"
+      ]
+    },
+    {
+      "id": "08-T08",
+      "question": "Rond 12,746 af op één decimaal.",
+      "answer": 12.7,
+      "solution": [
+        "De honderdsten zijn 4; behoud 12,7."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "decimals"
+      ]
+    },
+    {
+      "id": "08-T09",
+      "question": "Rond 6,985 af op twee decimalen.",
+      "answer": 6.99,
+      "solution": [
+        "Het derde cijfer is 5, dus verhoog de honderdsten."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "decimals"
+      ]
+    },
+    {
+      "id": "08-T10",
+      "question": "Bereken $2{,}08+0{,}7$.",
+      "answer": 2.78,
+      "solution": [
+        "$2{,}08+0{,}70=2{,}78$."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "decimals"
+      ]
+    },
+    {
+      "id": "08-T11",
+      "question": "Bereken $8-3{,}46$.",
+      "answer": 4.54,
+      "solution": [
+        "$8{,}00-3{,}46=4{,}54$."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "decimals"
+      ]
+    },
+    {
+      "id": "08-T12",
+      "question": "Bereken $0{,}24\\times1{,}5$.",
+      "answer": 0.36,
+      "solution": [
+        "$24\\times15=360$, gedeeld door 1000 geeft 0,36."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "decimals"
+      ]
+    },
+    {
+      "id": "08-T13",
+      "question": "Bereken $6{,}3:0{,}09$.",
+      "answer": 70,
+      "solution": [
+        "$630:9=70$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "decimals"
+      ]
+    },
+    {
+      "id": "08-T14",
+      "question": "Schrijf 2 uur en 24 minuten als decimaal aantal uren.",
+      "answer": 2.4,
+      "solution": [
+        "$24/60=0{,}4$; totaal 2,4 uur."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "decimals"
+      ],
+      "unit": "uur"
+    },
+    {
+      "id": "08-T15",
+      "question": "Een plank van 4,7 m wordt in stukken van 0,45 m gezaagd. De zaagsnede wordt verwaarloosd. Hoeveel volledige stukken passen?",
+      "answer": 10,
+      "solution": [
+        "Tien stukken gebruiken 4,5 m.",
+        "Elf stukken vragen 4,95 m; dat past niet."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "decimals"
+      ]
+    }
+  ]
+}

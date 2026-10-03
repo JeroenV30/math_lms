@@ -1,0 +1,550 @@
+{
+  "exercises": [
+    {
+      "id": "07-001",
+      "question": "Negen even grote broden worden eerlijk over tien mensen verdeeld. Hoeveel brood krijgt ieder?",
+      "answer": "9/10",
+      "solution": [
+        "Elke persoon krijgt $9:10=9/10$ brood."
+      ],
+      "hints": [
+        "Een deling mag je als breuk schrijven."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-002",
+      "question": "Bij de breuk $7/12$: wat is de noemer?",
+      "answer": 12,
+      "solution": [
+        "De noemer staat onder de breukstreep: 12."
+      ],
+      "hints": [
+        "De noemer vertelt in hoeveel gelijke delen het geheel verdeeld is."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-003",
+      "question": "Je neemt vijf van acht gelijke stukken van één brood. Welk deel neem je?",
+      "answer": "5/8",
+      "solution": [
+        "Acht gelijke delen: noemer 8. Vijf genomen delen: teller 5."
+      ],
+      "hints": [
+        "Schrijf genomen delen boven alle delen."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-004",
+      "question": "Schrijf $2\\frac13$ als één breuk.",
+      "answer": "7/3",
+      "solution": [
+        "Twee gehelen zijn $6/3$.",
+        "$6/3+1/3=7/3$."
+      ],
+      "hints": [
+        "Vermenigvuldig het gehele getal met de noemer."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-005",
+      "question": "Hoeveel volledige gehelen bevat $17/5$?",
+      "answer": 3,
+      "solution": [
+        "$17:5=3$ met rest 2.",
+        "Dus $17/5=3\\frac25$."
+      ],
+      "hints": [
+        "Zoek het grootste veelvoud van 5 dat niet boven 17 komt."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-006",
+      "question": "Bereken $0/9$.",
+      "answer": "0/1",
+      "solution": [
+        "Nul delen nemen geeft 0."
+      ],
+      "hints": [
+        "Er zijn geen gekozen delen."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-007",
+      "question": "Vereenvoudig $18/24$ volledig.",
+      "answer": "3/4",
+      "solution": [
+        "Deel teller en noemer door 6: $18/24=3/4$."
+      ],
+      "hints": [
+        "Zoek de grootste gemene deler."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ],
+      "require_simplified": true
+    },
+    {
+      "id": "07-008",
+      "question": "Vul de teller in: $3/5=\\ldots/20$.",
+      "answer": 12,
+      "solution": [
+        "De noemer gaat maal 4.",
+        "De teller gaat ook maal 4: $3\\times4=12$."
+      ],
+      "hints": [
+        "Wat is de factor van 5 naar 20?"
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-009",
+      "question": "Welke breuk is groter: $2/3$ of $3/4$? Vul de grootste breuk in.",
+      "answer": "3/4",
+      "solution": [
+        "$2/3=8/12$ en $3/4=9/12$.",
+        "Negen twaalfden is groter."
+      ],
+      "hints": [
+        "Maak de breuken gelijknamig."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-010",
+      "question": "Schrijf $5/6$ met noemer 24. Wat is de teller?",
+      "answer": 20,
+      "solution": [
+        "$24:6=4$.",
+        "$5\\times4=20$."
+      ],
+      "hints": [
+        "Vermenigvuldig teller en noemer met dezelfde factor."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-011",
+      "question": "Welke breuk is kleiner: $1/7$ of $1/4$?",
+      "answer": "1/7",
+      "solution": [
+        "Bij één geheel zijn zevenden kleiner dan kwarten.",
+        "Dus $1/7<1/4$."
+      ],
+      "hints": [
+        "Meer gelijke stukken maakt elk stuk kleiner."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-012",
+      "question": "Bereken $3/8+2/8$.",
+      "answer": "5/8",
+      "solution": [
+        "De noemers zijn gelijk.",
+        "Tel tellers op: $(3+2)/8=5/8$."
+      ],
+      "hints": [
+        "De deelgrootte blijft een achtste."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ],
+      "feedback": [
+        {
+          "answer": "5/16",
+          "message": "Je hebt de noemers opgeteld. Vijf stukken van een achtste blijven vijf achtsten."
+        }
+      ]
+    },
+    {
+      "id": "07-013",
+      "question": "Bereken $1/2+1/3$.",
+      "answer": "5/6",
+      "solution": [
+        "$1/2=3/6$ en $1/3=2/6$.",
+        "$3/6+2/6=5/6$."
+      ],
+      "hints": [
+        "Gebruik zesden."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ],
+      "feedback": [
+        {
+          "answer": "2/5",
+          "message": "Maak eerst de deelgrootte gelijk. Tellers én noemers optellen bewaart de hoeveelheid niet."
+        }
+      ]
+    },
+    {
+      "id": "07-014",
+      "question": "Bereken $3/4-1/6$.",
+      "answer": "7/12",
+      "solution": [
+        "$3/4=9/12$ en $1/6=2/12$.",
+        "$9/12-2/12=7/12$."
+      ],
+      "hints": [
+        "Gebruik twaalfden."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-015",
+      "question": "Bereken $2\\frac14-1\\frac23$.",
+      "answer": "7/12",
+      "solution": [
+        "$2\\frac14=9/4$ en $1\\frac23=5/3$.",
+        "$27/12-20/12=7/12$."
+      ],
+      "hints": [
+        "Schrijf de gemengde getallen eerst als breuken."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-016",
+      "question": "Bereken $5/6+7/12$.",
+      "answer": "17/12",
+      "solution": [
+        "$5/6=10/12$.",
+        "$10/12+7/12=17/12=1\\frac5{12}$."
+      ],
+      "hints": [
+        "Het antwoord mag boven één liggen."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-017",
+      "question": "Bereken $1/2\\times3/4$.",
+      "answer": "3/8",
+      "solution": [
+        "De helft van drie kwart is drie achtste.",
+        "$(1\\times3)/(2\\times4)=3/8$."
+      ],
+      "hints": [
+        "Vermenigvuldig tellers en noemers."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-018",
+      "question": "Bereken $2/3\\times9/10$.",
+      "answer": "3/5",
+      "solution": [
+        "$18/30=3/5$."
+      ],
+      "hints": [
+        "Je kunt vóór of na het vermenigvuldigen vereenvoudigen."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ],
+      "require_simplified": true
+    },
+    {
+      "id": "07-019",
+      "question": "Bereken $3/8$ van 240.",
+      "answer": 90,
+      "solution": [
+        "$240:8=30$.",
+        "$3\\times30=90$."
+      ],
+      "hints": [
+        "Bereken eerst één achtste."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-020",
+      "question": "Drie achtste van een voorraad is 90 kg. Hoeveel kilogram is de hele voorraad?",
+      "answer": 240,
+      "solution": [
+        "Eén achtste is $90:3=30$ kg.",
+        "Acht achtsten zijn $8\\times30=240$ kg."
+      ],
+      "hints": [
+        "90 is drie delen, niet één deel."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "fractions"
+      ],
+      "unit": "kg"
+    },
+    {
+      "id": "07-021",
+      "question": "Hoeveel porties van $1/4$ liter passen in $3/4$ liter?",
+      "answer": 3,
+      "solution": [
+        "$3/4:1/4=3$."
+      ],
+      "hints": [
+        "Tel hoeveel kwarten je hebt."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-022",
+      "question": "Bereken $2/3:4/5$.",
+      "answer": "5/6",
+      "solution": [
+        "Vermenigvuldig met de omgekeerde van de deler.",
+        "$2/3\\times5/4=10/12=5/6$."
+      ],
+      "hints": [
+        "Keer alleen $4/5$ om."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-023",
+      "question": "Bereken $5/6:2$.",
+      "answer": "5/12",
+      "solution": [
+        "Delen door 2 is vermenigvuldigen met $1/2$.",
+        "$5/6\\times1/2=5/12$."
+      ],
+      "hints": [
+        "De helft van vijf zesden."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-024",
+      "question": "Hoeveel stukken van $3/8$ meter kun je precies uit 3 meter halen?",
+      "answer": 8,
+      "solution": [
+        "$3:3/8=3\\times8/3=8$."
+      ],
+      "hints": [
+        "Deel de totale lengte door de lengte van één stuk."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-025",
+      "question": "Vul de ontbrekende noemer in: $2/5=1/3+1/\\ldots$.",
+      "answer": 15,
+      "solution": [
+        "$2/5-1/3=6/15-5/15=1/15$."
+      ],
+      "hints": [
+        "Trek één derde af van twee vijfde."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-026",
+      "question": "Bereken $1/4+1/6+1/12$.",
+      "answer": "1/2",
+      "solution": [
+        "$3/12+2/12+1/12=6/12=1/2$."
+      ],
+      "hints": [
+        "Gebruik twaalfden."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-027",
+      "question": "Een recept gebruikt $3/4$ liter bouillon. Hoeveel liter gebruik je voor een halve hoeveelheid?",
+      "answer": "3/8",
+      "solution": [
+        "$1/2\\times3/4=3/8$ liter."
+      ],
+      "hints": [
+        "Neem de helft van drie kwart."
+      ],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "fractions"
+      ],
+      "unit": "liter"
+    },
+    {
+      "id": "07-028",
+      "question": "Van een voorraad gebruik je eerst $1/3$. Daarna gebruik je de helft van wat overblijft. Welk deel van de oorspronkelijke voorraad blijft?",
+      "answer": "1/3",
+      "solution": [
+        "Na de eerste stap blijft $2/3$.",
+        "De helft daarvan blijft: $1/2\\times2/3=1/3$."
+      ],
+      "hints": [
+        "De tweede helft verwijst naar de resterende voorraad."
+      ],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-029",
+      "question": "Bereken $1\\frac12:3/4$.",
+      "answer": "2/1",
+      "solution": [
+        "$3/2:3/4=3/2\\times4/3=2$."
+      ],
+      "hints": [
+        "Schrijf het gemengde getal als breuk."
+      ],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-030",
+      "question": "Een tank is $3/4$ gevuld. Je gebruikt $2/5$ van het aanwezige water en voegt daarna $1/10$ van de totale tankinhoud toe. Welk deel is gevuld?",
+      "answer": "11/20",
+      "solution": [
+        "Er blijft $3/5$ van $3/4$: $9/20$.",
+        "Je voegt $1/10=2/20$ toe.",
+        "$9/20+2/20=11/20$."
+      ],
+      "hints": [
+        "Na het gebruik blijft drie vijfde van het aanwezige water.",
+        "De toevoeging verwijst naar de hele tank."
+      ],
+      "type": "fraction",
+      "mode": "challenge",
+      "difficulty": 4,
+      "topics": [
+        "fractions"
+      ]
+    }
+  ]
+}

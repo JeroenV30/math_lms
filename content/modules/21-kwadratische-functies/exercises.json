@@ -1,0 +1,644 @@
+{
+  "exercises": [
+    {
+      "id": "21-001",
+      "question": "Een vierkant heeft zijde 4. Wat is zijn oppervlakte?",
+      "answer": 16,
+      "solution": [
+        "$4^2=16$."
+      ],
+      "hints": [
+        "Kwadreer de zijde."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-002",
+      "question": "De zijde van een vierkant wordt verdubbeld. Met welke factor groeit de oppervlakte?",
+      "answer": 4,
+      "solution": [
+        "$2^2=4$."
+      ],
+      "hints": [
+        "Een kwadraat volgt twee lengterichtingen."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-003",
+      "question": "Bereken f(2) bij f(x)=x²-3x+1.",
+      "answer": -1,
+      "solution": [
+        "4-6+1 = -1."
+      ],
+      "hints": [
+        "Vul alle x-waarden in."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-004",
+      "question": "Geef de top van f(x)=2(x-3)²-5.",
+      "answer": "(3;-5)",
+      "solution": [
+        "Het kwadraat is nul bij x = 3.",
+        "De uitvoer is dan -5."
+      ],
+      "hints": [
+        "Lees h en k in topvorm."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-005",
+      "question": "Geef de top van f(x)=-(x+2)²+4.",
+      "answer": "(-2;4)",
+      "solution": [
+        "x+2 = 0 bij x = -2."
+      ],
+      "hints": [
+        "Let op het teken binnen de haakjes."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-006",
+      "question": "Wat is de maximale waarde van f(x)=-(x+2)²+4?",
+      "answer": 4,
+      "solution": [
+        "Het negatieve kwadraat is maximaal nul, dus f maximaal 4."
+      ],
+      "hints": [
+        "De parabool opent omlaag."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-007",
+      "question": "Een parabool heeft symmetrieas x = 3. Welke x is het spiegelbeeld van x = 1?",
+      "answer": 5,
+      "solution": [
+        "Beide liggen twee eenheden van 3."
+      ],
+      "hints": [
+        "Ga even ver aan de andere kant."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-008",
+      "question": "Werk uit: $(x-3)^2-1$.",
+      "answer": "x^2-6x+8",
+      "solution": [
+        "x²-6x+9-1 = x²-6x+8."
+      ],
+      "hints": [
+        "Werk het kwadraat als product uit."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "form": "expanded"
+    },
+    {
+      "id": "21-009",
+      "question": "Voor f(x)=x²-6x+8: bereken de x-coördinaat van de top.",
+      "answer": 3,
+      "solution": [
+        "$-b/(2a)=6/2=3$."
+      ],
+      "hints": [
+        "a = 1, b = -6."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-010",
+      "question": "Voor dezelfde functie: bereken de minimale functiewaarde.",
+      "answer": -1,
+      "solution": [
+        "f(3)=9-18+8=-1."
+      ],
+      "hints": [
+        "Vul de topinvoer in."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-011",
+      "question": "Geef de top van f(x)=2x²+8x+3.",
+      "answer": "(-2;-5)",
+      "solution": [
+        "Topinvoer -8/4 = -2.",
+        "f(-2)=8-16+3=-5."
+      ],
+      "hints": [
+        "Gebruik h en vervolgens f(h)."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-012",
+      "question": "Ontbind $x^2-6x+8$ in lineaire factoren.",
+      "answer": "(x-2)(x-4)",
+      "solution": [
+        "-2 en -4 hebben som -6 en product 8."
+      ],
+      "hints": [
+        "Zoek twee getallen met de juiste som en product."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "form": "factored"
+    },
+    {
+      "id": "21-013",
+      "question": "Los $(x-2)(x-4)=0$ op. Geef de wortels in oplopende volgorde.",
+      "solution": [
+        "Elke factor kan nul zijn."
+      ],
+      "hints": [
+        "Gebruik de nulproductregel."
+      ],
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "parts": [
+        {
+          "label": "kleinste wortel",
+          "answer": 2,
+          "type": "numeric"
+        },
+        {
+          "label": "grootste wortel",
+          "answer": 4,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "21-014",
+      "question": "Los $x^2-5x=0$ op. Geef de wortels in oplopende volgorde.",
+      "solution": [
+        "x(x-5)=0 geeft 0 en 5."
+      ],
+      "hints": [
+        "Deel niet door x: nul kan een oplossing zijn."
+      ],
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "parts": [
+        {
+          "label": "kleinste wortel",
+          "answer": 0,
+          "type": "numeric"
+        },
+        {
+          "label": "grootste wortel",
+          "answer": 5,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "21-015",
+      "question": "Los $x^2=9$ op. Geef alle reële wortels oplopend.",
+      "solution": [
+        "Beide tekens hebben kwadraat 9."
+      ],
+      "hints": [
+        "Een vergelijking vraagt beide tekens."
+      ],
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "parts": [
+        {
+          "label": "kleinste wortel",
+          "answer": -3,
+          "type": "numeric"
+        },
+        {
+          "label": "grootste wortel",
+          "answer": 3,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "21-016",
+      "question": "Los $(x-2)^2=9$ op. Geef alle reële wortels oplopend.",
+      "solution": [
+        "x-2 is -3 of 3.",
+        "Dus x is -1 of 5."
+      ],
+      "hints": [
+        "Neem eerst beide worteltekens."
+      ],
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "parts": [
+        {
+          "label": "kleinste wortel",
+          "answer": -1,
+          "type": "numeric"
+        },
+        {
+          "label": "grootste wortel",
+          "answer": 5,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "21-017",
+      "question": "Los $x^2+2x=8$ op. Geef alle reële wortels oplopend.",
+      "solution": [
+        "x²+2x-8 = (x+4)(x-2)."
+      ],
+      "hints": [
+        "Breng eerst alles naar nul."
+      ],
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "parts": [
+        {
+          "label": "kleinste wortel",
+          "answer": -4,
+          "type": "numeric"
+        },
+        {
+          "label": "grootste wortel",
+          "answer": 2,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "21-018",
+      "question": "Bereken de discriminant van $x^2-2x-1=0$.",
+      "answer": 8,
+      "solution": [
+        "b²-4ac = 4-4(-1)=8."
+      ],
+      "hints": [
+        "Gebruik b = -2 en c = -1."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-019",
+      "question": "Geef de exacte reële wortels van $x^2-2x-1=0$, in oplopende volgorde.",
+      "solution": [
+        "Abc-formule: $(2\\pm\\sqrt8)/2=1\\pm\\sqrt2$."
+      ],
+      "hints": [
+        "Gebruik de discriminant 8.",
+        "Vereenvoudig de wortel."
+      ],
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 3,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "parts": [
+        {
+          "label": "kleinste wortel",
+          "answer": "1-sqrt(2)",
+          "type": "expression"
+        },
+        {
+          "label": "grootste wortel",
+          "answer": "1+sqrt(2)",
+          "type": "expression"
+        }
+      ]
+    },
+    {
+      "id": "21-020",
+      "question": "Hoeveel verschillende reële wortels heeft $x^2+4=0$?",
+      "answer": 0,
+      "solution": [
+        "D = -16, dus geen reële wortels."
+      ],
+      "hints": [
+        "Een reëel kwadraat kan niet -4 zijn."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-021",
+      "question": "Los $x^2-6x+9=0$ op. Geef de ene verschillende wortel.",
+      "answer": 3,
+      "solution": [
+        "(x-3)² = 0 geeft x = 3."
+      ],
+      "hints": [
+        "De discriminant is nul."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-022",
+      "question": "Bereken de discriminant van $2x^2-3x-5=0$.",
+      "answer": 49,
+      "solution": [
+        "9-4×2×(-5)=49."
+      ],
+      "hints": [
+        "c is negatief."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-023",
+      "question": "Los $2x^2-3x-5=0$ op; geef de wortels oplopend, met een exacte breuk waar nodig.",
+      "solution": [
+        "$(3\\pm7)/4$ geeft -1 en 5/2."
+      ],
+      "hints": [
+        "Gebruik D = 49."
+      ],
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "parts": [
+        {
+          "label": "kleinste wortel",
+          "answer": "-1/1",
+          "type": "fraction"
+        },
+        {
+          "label": "grootste wortel",
+          "answer": "5/2",
+          "type": "fraction"
+        }
+      ]
+    },
+    {
+      "id": "21-024",
+      "question": "Los $x^2+6x=16$ op. Geef alle reële wortels oplopend.",
+      "solution": [
+        "(x+3)² = 25.",
+        "x+3 = ±5 geeft -8 en 2."
+      ],
+      "hints": [
+        "Vul aan met 9."
+      ],
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "parts": [
+        {
+          "label": "kleinste wortel",
+          "answer": -8,
+          "type": "numeric"
+        },
+        {
+          "label": "grootste wortel",
+          "answer": 2,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "21-025",
+      "question": "Geef de snijpunten van y = x² en y = x+2 in oplopende x-volgorde.",
+      "solution": [
+        "x²-x-2 = 0 geeft -1 en 2.",
+        "Invullen in y = x² geeft 1 en 4."
+      ],
+      "hints": [
+        "Los eerst de gelijkheid van de y-waarden op."
+      ],
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "parts": [
+        {
+          "label": "eerste punt",
+          "answer": "(-1;1)",
+          "type": "coordinate"
+        },
+        {
+          "label": "tweede punt",
+          "answer": "(2;4)",
+          "type": "coordinate"
+        }
+      ]
+    },
+    {
+      "id": "21-026",
+      "question": "A(x)=-(x-5)²+25 geeft een rechthoekoppervlakte. Wat is de maximale oppervlakte?",
+      "answer": 25,
+      "solution": [
+        "Bij x = 5 is het negatieve kwadraat nul."
+      ],
+      "hints": [
+        "Lees de topwaarde."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "unit": "m²"
+    },
+    {
+      "id": "21-027",
+      "question": "Een rechthoek heeft omtrek 20 m. Bij welke breedte is de oppervlakte maximaal?",
+      "answer": 5,
+      "solution": [
+        "A(x)=x(10-x)=-(x-5)²+25.",
+        "Maximum bij x = 5."
+      ],
+      "hints": [
+        "De andere zijde is 10-x."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "unit": "m"
+    },
+    {
+      "id": "21-028",
+      "question": "Bereken de minimale waarde van f(x)=(x-4)²+7.",
+      "answer": 7,
+      "solution": [
+        "Het kwadraat is minimaal nul."
+      ],
+      "hints": [
+        "Lees k in topvorm."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-029",
+      "question": "Een vierkant heeft zijde x+2 en oppervlakte 49. x is niet-negatief. Wat is x?",
+      "answer": 5,
+      "solution": [
+        "(x+2)² = 49; positieve zijde x+2 = 7.",
+        "x = 5; x = -9 past niet bij het domein."
+      ],
+      "hints": [
+        "Gebruik de contextbeperking."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-030",
+      "question": "24 m hek vormt drie zijden tegen een muur: twee zijden x en één zijde 24-2x. Geef x, de derde zijde en de maximale oppervlakte.",
+      "solution": [
+        "A(x)=24x-2x²=-2(x-6)²+72.",
+        "Maximum bij x = 6.",
+        "Derde zijde 12, oppervlakte 72."
+      ],
+      "hints": [
+        "Schrijf de oppervlakte als functie van x.",
+        "Bepaal de top."
+      ],
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "parts": [
+        {
+          "label": "x (m)",
+          "answer": 6,
+          "type": "numeric"
+        },
+        {
+          "label": "derde zijde (m)",
+          "answer": 12,
+          "type": "numeric"
+        },
+        {
+          "label": "oppervlakte (m²)",
+          "answer": 72,
+          "type": "numeric"
+        }
+      ]
+    }
+  ]
+}

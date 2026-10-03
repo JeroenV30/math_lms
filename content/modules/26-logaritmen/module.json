@@ -4,10 +4,10 @@
   "title": "Logaritmen",
   "part": 5,
   "level": "vwo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "17e eeuw",
   "estimated_difficulty": 3,
-  "estimated_minutes": 90,
+  "estimated_minutes": 150,
   "prerequisites": [
     25
   ],
@@ -15,12 +15,124 @@
     "logarithms",
     "exponential"
   ],
-  "core_question": null,
-  "summary": "John Napier.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
+  "core_question": "Welke exponent maakt een macht gelijk aan een gegeven positief getal?",
+  "summary": "Logaritmen als inverse van machten, rekenregels met domeinvoorwaarden, grafieken en exponentiële vergelijkingen.",
+  "learning_goals": [
+    "Je vertaalt tussen bʸ = x en log_b(x) = y met de juiste voorwaarden.",
+    "Je berekent exacte logaritmen via bekende machten.",
+    "Je gebruikt product-, quotiënt- en machtsregels voor positieve argumenten.",
+    "Je rekent om naar een andere basis met een quotiënt van logaritmen.",
+    "Je beschrijft domein en grafiek van een logaritmische functie.",
+    "Je lost exponentiële en logaritmische vergelijkingen op en controleert hun domein.",
+    "Je berekent verdubbelings- en halveringstijden en interpreteert discrete drempels."
+  ],
+  "glossary": [
+    {
+      "term": "Logaritme",
+      "definition": "De exponent die bij een gegeven grondtal een positief getal oplevert."
+    },
+    {
+      "term": "Grondtal",
+      "definition": "De positieve basis b van een logaritme, met b ≠ 1."
+    },
+    {
+      "term": "Argument",
+      "definition": "De invoer van de logaritme; bij reële logaritmen moet die positief zijn."
+    },
+    {
+      "term": "Natuurlijke logaritme",
+      "definition": "Logaritme met grondtal e, geschreven ln."
+    },
+    {
+      "term": "Tiendelige logaritme",
+      "definition": "Logaritme met grondtal 10, hier geschreven log."
+    },
+    {
+      "term": "Inverse functie",
+      "definition": "Een functie die de oorspronkelijke invoer uit de uitvoer terugvindt op een passend domein."
+    },
+    {
+      "term": "Verticale asymptoot",
+      "definition": "Een verticale lijn waar de grafiek bij een domeingrens onbegrensd langs loopt."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Definitie",
+      "latex": "\\log_b x=y\\iff b^y=x\\quad(b>0,\\ b\\ne1,\\ x>0)",
+      "usage": "Vertaal een logaritme naar een exponent."
+    },
+    {
+      "name": "Product en quotiënt",
+      "latex": "\\log_b(uv)=\\log_b u+\\log_b v,\\quad\\log_b(u/v)=\\log_b u-\\log_b v",
+      "usage": "u en v zijn positief."
+    },
+    {
+      "name": "Machtsregel",
+      "latex": "\\log_b(u^r)=r\\log_b u\\quad(u>0)",
+      "usage": "Voor een reële exponent r."
+    },
+    {
+      "name": "Basis veranderen",
+      "latex": "\\log_b x=\\frac{\\ln x}{\\ln b}",
+      "usage": "De noemer is niet nul omdat b ≠ 1."
+    },
+    {
+      "name": "Exponentiële vergelijking",
+      "latex": "N_0g^t=M\\implies t=\\frac{\\ln(M/N_0)}{\\ln g}",
+      "usage": "Positieve N₀, M en g; g ≠ 1."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een onbekende exponent",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "definitie",
+      "title": "Definitie en domein",
+      "kind": "theory",
+      "file": "02-definitie.md"
+    },
+    {
+      "slug": "regels",
+      "title": "Rekenregels en hun voorwaarden",
+      "kind": "theory",
+      "file": "03-regels.md"
+    },
+    {
+      "slug": "basis",
+      "title": "ln, log en basisverandering",
+      "kind": "theory",
+      "file": "04-basis.md"
+    },
+    {
+      "slug": "grafiek",
+      "title": "Grafiek en inverse",
+      "kind": "theory",
+      "file": "05-grafiek.md"
+    },
+    {
+      "slug": "geschiedenis",
+      "title": "Napier en rekenen met tabellen",
+      "kind": "history",
+      "file": "06-geschiedenis.md"
+    },
+    {
+      "slug": "vergelijkingen",
+      "title": "Vergelijkingen en tijdsdrempels",
+      "kind": "practice",
+      "file": "07-vergelijkingen.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
   "timeline": [],
   "mathematicians": []
 }

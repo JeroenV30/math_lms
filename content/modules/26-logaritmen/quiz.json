@@ -1,0 +1,234 @@
+{
+  "title": "Hoofdstuktoets – Logaritmen",
+  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "questions": [
+    {
+      "id": "26-T01",
+      "question": "Bereken log₅ 125.",
+      "answer": 3,
+      "solution": [
+        "5³ = 125."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-T02",
+      "question": "Bereken log₃(1/27).",
+      "answer": -3,
+      "solution": [
+        "3⁻³ = 1/27."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-T03",
+      "question": "Bereken log₇ 1.",
+      "answer": 0,
+      "solution": [
+        "7⁰ = 1."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-T04",
+      "question": "Bereken log₂ 16 + log₂ 2.",
+      "answer": 5,
+      "solution": [
+        "4 + 1."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-T05",
+      "question": "Bereken log₃ 81 − log₃ 3.",
+      "answer": 3,
+      "solution": [
+        "4 − 1."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-T06",
+      "question": "Bereken log₅(25³).",
+      "answer": 6,
+      "solution": [
+        "3 log₅ 25 = 3×2."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-T07",
+      "question": "Bereken ln(e⁴).",
+      "answer": 4,
+      "solution": [
+        "ln is inverse van exp."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-T08",
+      "question": "Bereken log 0,01 in basis 10.",
+      "answer": -2,
+      "solution": [
+        "10⁻² = 0,01."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-T09",
+      "question": "Geef het domein van ln(x + 3) als interval.",
+      "answer": "(-3;inf)",
+      "solution": [
+        "x + 3 > 0."
+      ],
+      "hints": [],
+      "type": "interval",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-T10",
+      "question": "Los log₃(x + 1) = 2 op.",
+      "answer": 8,
+      "solution": [
+        "x + 1 = 9; x = 8 voldoet aan x > −1."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-T11",
+      "question": "Los 5ˣ = 125 op.",
+      "answer": 3,
+      "solution": [
+        "5³ = 125."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-T12",
+      "question": "Los 2ˣ = 7 op, op twee decimalen.",
+      "answer": 2.81,
+      "solution": [
+        "ln7/ln2 ≈ 2,81."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "26-T13",
+      "question": "Een model groeit met factor 1,1 per jaar. Geef de verdubbelingstijd op twee decimalen.",
+      "answer": 7.27,
+      "solution": [
+        "ln2/ln1,1 ≈ 7,27."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "26-T14",
+      "question": "Hetzelfde model begint bij 100. Geef het eerste gehele jaar met minstens 200.",
+      "answer": 8,
+      "solution": [
+        "Continue grens ≈ 7,273; jaar 7 is te vroeg."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "26-T15",
+      "question": "Los ln x + ln(x − 3) = ln 4 op.",
+      "answer": 4,
+      "solution": [
+        "Domein x > 3.",
+        "x²−3x−4=0 geeft 4 en −1; alleen 4 voldoet."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "logarithms"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "title": "Hoofdstuktoets – Introductie algebra",
+  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "questions": [
+    {
+      "id": "15-T01",
+      "question": "Schrijf: vijf keer x, daarna twee eraf.",
+      "answer": "5x-2",
+      "solution": [
+        "De volgorde geeft $5x-2$."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-T02",
+      "question": "Schrijf: vijf keer de som van x en twee.",
+      "answer": "5(x+2)",
+      "solution": [
+        "De som wordt samen vermenigvuldigd."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-T03",
+      "question": "Wat is de coëfficiënt van x in $-7x$?",
+      "answer": -7,
+      "solution": [
+        "Het teken hoort bij de coëfficiënt."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "algebra"
+      ]
+    },
+    {
+      "id": "15-T04",
+      "question": "Bereken $4x-3$ bij x = 5.",
+      "answer": 17,
+      "solution": [
+        "$20-3=17$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "algebra"
+      ]
+    },
+    {
+      "id": "15-T05",
+      "question": "Bereken $x^2+2x$ bij x = -3.",
+      "answer": 3,
+      "solution": [
+        "$9-6=3$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "algebra"
+      ]
+    },
+    {
+      "id": "15-T06",
+      "question": "Bereken $ab+2$ bij a = 4 en b = -2.",
+      "answer": -6,
+      "solution": [
+        "$-8+2=-6$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "algebra"
+      ]
+    },
+    {
+      "id": "15-T07",
+      "question": "Vereenvoudig $7x-3x$.",
+      "answer": "4x",
+      "solution": [
+        "Coëfficiënten $7-3=4$."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-T08",
+      "question": "Vereenvoudig $2a+3b+5a-b$.",
+      "answer": "7a+2b",
+      "solution": [
+        "Combineer de a-termen en de b-termen."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-T09",
+      "question": "Bereken $4x\\times3x$.",
+      "answer": "12x^2",
+      "solution": [
+        "Getalsfactor 12, letterfactor x²."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-T10",
+      "question": "Werk uit: $4(x-2)$.",
+      "answer": "4x-8",
+      "solution": [
+        "Vermenigvuldig elke term met 4."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ],
+      "form": "expanded"
+    },
+    {
+      "id": "15-T11",
+      "question": "Werk uit: $-3(x+4)$.",
+      "answer": "-3x-12",
+      "solution": [
+        "Beide termen krijgen factor -3."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ],
+      "form": "expanded"
+    },
+    {
+      "id": "15-T12",
+      "question": "Werk uit en vereenvoudig: $7-(3x-2)$.",
+      "answer": "9-3x",
+      "solution": [
+        "$7-3x+2=9-3x$."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ],
+      "form": "expanded"
+    },
+    {
+      "id": "15-T13",
+      "question": "Werk uit: $(x+1)(x+4)$.",
+      "answer": "x^2+5x+4",
+      "solution": [
+        "$x^2+4x+x+4$."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ],
+      "form": "expanded"
+    },
+    {
+      "id": "15-T14",
+      "question": "Haal factor 4 buiten haakjes: $8x+12$.",
+      "answer": "4(2x+3)",
+      "solution": [
+        "De overblijvende termen zijn 2x en 3."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ],
+      "form": "factored"
+    },
+    {
+      "id": "15-T15",
+      "question": "Een rechthoek heeft lengte x+5 en breedte 2x. Geef de oppervlakte zonder haakjes.",
+      "answer": "2x^2+10x",
+      "solution": [
+        "$2x(x+5)=2x^2+10x$."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "expressions"
+      ],
+      "form": "expanded"
+    }
+  ]
+}

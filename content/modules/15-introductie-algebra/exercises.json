@@ -1,0 +1,531 @@
+{
+  "exercises": [
+    {
+      "id": "15-001",
+      "question": "Een drukker rekent € 8 vast en € 3 per exemplaar. Wat kosten vijf exemplaren?",
+      "answer": 23,
+      "solution": [
+        "$8+3\\times5=23$."
+      ],
+      "hints": [
+        "Tel de vaste kosten één keer mee."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "algebra"
+      ],
+      "unit": "€"
+    },
+    {
+      "id": "15-002",
+      "question": "Schrijf de prijsregel voor n exemplaren: € 8 vast en € 3 per exemplaar. Geef een expressie zonder prijsvariabele.",
+      "answer": "8+3n",
+      "solution": [
+        "Exemplaren kosten $3n$, plus 8 vaste euro."
+      ],
+      "hints": [
+        "Gebruik n voor het aantal."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-003",
+      "question": "Schrijf: drie keer een getal x en daarna vijf erbij.",
+      "answer": "3x+5",
+      "solution": [
+        "Eerst $3x$, daarna $+5$."
+      ],
+      "hints": [
+        "De vijf wordt niet met drie vermenigvuldigd."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-004",
+      "question": "Schrijf: drie keer de som van x en vijf.",
+      "answer": "3(x+5)",
+      "solution": [
+        "De hele som komt in haakjes."
+      ],
+      "hints": [
+        "De drie hoort bij beide delen van de som."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-005",
+      "question": "Wat is de coëfficiënt van y in $-3y$?",
+      "answer": -3,
+      "solution": [
+        "De getalsfactor inclusief het teken is -3."
+      ],
+      "hints": [
+        "Het teken hoort bij de term."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "algebra"
+      ]
+    },
+    {
+      "id": "15-006",
+      "question": "Schrijf de omtrek van een rechthoek met lengte l en breedte b.",
+      "answer": "2l+2b",
+      "solution": [
+        "Twee lengtes en twee breedtes: $2l+2b$."
+      ],
+      "hints": [
+        "Tel de vier zijden."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-007",
+      "question": "Schrijf het product van x met zichzelf als een macht.",
+      "answer": "x^2",
+      "solution": [
+        "$x\\times x=x^2$."
+      ],
+      "hints": [
+        "Een product is geen optelling."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-008",
+      "question": "Bereken $3x+5$ bij x = 4.",
+      "answer": 17,
+      "solution": [
+        "$3\\times4+5=17$."
+      ],
+      "hints": [
+        "Vul 4 in voor x."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "algebra"
+      ]
+    },
+    {
+      "id": "15-009",
+      "question": "Bereken $x^2-3x$ bij x = -2.",
+      "answer": 10,
+      "solution": [
+        "$(-2)^2-3(-2)=4+6=10$."
+      ],
+      "hints": [
+        "Gebruik haakjes voor de negatieve ingevulde waarde."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "algebra"
+      ]
+    },
+    {
+      "id": "15-010",
+      "question": "Bereken $2a+3b$ bij a = 4 en b = -1.",
+      "answer": 5,
+      "solution": [
+        "$8+(-3)=5$."
+      ],
+      "hints": [
+        "Vul beide waarden in."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "algebra"
+      ]
+    },
+    {
+      "id": "15-011",
+      "question": "Bereken $5/x$ bij x = 2.",
+      "answer": 2.5,
+      "solution": [
+        "$5:2=2{,}5$."
+      ],
+      "hints": [
+        "De waarde van de deler is 2."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "algebra"
+      ]
+    },
+    {
+      "id": "15-012",
+      "question": "Bereken $x^2$ bij x = 3.",
+      "answer": 9,
+      "solution": [
+        "$3^2=9$."
+      ],
+      "hints": [
+        "Twee factoren 3."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "algebra"
+      ]
+    },
+    {
+      "id": "15-013",
+      "question": "Voeg gelijksoortige termen samen: $3x+5x$.",
+      "answer": "8x",
+      "solution": [
+        "$(3+5)x=8x$."
+      ],
+      "hints": [
+        "Tel de coëfficiënten."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-014",
+      "question": "Voeg gelijksoortige termen samen: $3x-2x$.",
+      "answer": "x",
+      "solution": [
+        "$(3-2)x=x$."
+      ],
+      "hints": [
+        "Een coëfficiënt 1 mag onzichtbaar blijven."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-015",
+      "question": "Vereenvoudig $3x+2y+4x-y$.",
+      "answer": "7x+y",
+      "solution": [
+        "x-termen: $3x+4x=7x$.",
+        "y-termen: $2y-y=y$."
+      ],
+      "hints": [
+        "Groepeer elk soort letterdeel."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-016",
+      "question": "Vereenvoudig $3x^2+5x^2$.",
+      "answer": "8x^2",
+      "solution": [
+        "De letterdelen x² zijn gelijk; tel 3 en 5 op."
+      ],
+      "hints": [
+        "De exponent blijft 2."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-017",
+      "question": "Bereken het product $3x\\times2x$.",
+      "answer": "6x^2",
+      "solution": [
+        "Getalsfactoren: $3\\times2=6$.",
+        "Letterfactoren: $x\\times x=x^2$."
+      ],
+      "hints": [
+        "Dit is een product, geen som."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-018",
+      "question": "Vereenvoudig $6x/3$.",
+      "answer": "2x",
+      "solution": [
+        "De getalsfactor wordt $6/3=2$."
+      ],
+      "hints": [
+        "Deel de coëfficiënt door 3."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-019",
+      "question": "Werk haakjes weg: $3(x+4)$.",
+      "answer": "3x+12",
+      "solution": [
+        "$3x+3\\times4=3x+12$."
+      ],
+      "hints": [
+        "Vermenigvuldig met beide termen."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ],
+      "form": "expanded"
+    },
+    {
+      "id": "15-020",
+      "question": "Werk haakjes weg: $-2(x-5)$.",
+      "answer": "-2x+10",
+      "solution": [
+        "$-2x+(-2)(-5)=-2x+10$."
+      ],
+      "hints": [
+        "Let op min maal min."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ],
+      "form": "expanded"
+    },
+    {
+      "id": "15-021",
+      "question": "Werk uit en vereenvoudig: $5-(2x-3)$.",
+      "answer": "8-2x",
+      "solution": [
+        "$5-2x+3=8-2x$."
+      ],
+      "hints": [
+        "Het minteken verandert beide tekens binnen de haakjes."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ],
+      "form": "expanded"
+    },
+    {
+      "id": "15-022",
+      "question": "Werk uit: $(x+2)(x+3)$.",
+      "answer": "x^2+5x+6",
+      "solution": [
+        "Producten: $x^2+3x+2x+6$.",
+        "Combineer de x-termen."
+      ],
+      "hints": [
+        "Elke term uit het eerste haakje krijgt elke term uit het tweede."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ],
+      "form": "expanded"
+    },
+    {
+      "id": "15-023",
+      "question": "Haal factor 3 buiten haakjes: $6x+9$.",
+      "answer": "3(2x+3)",
+      "solution": [
+        "$6x/3=2x$ en $9/3=3$."
+      ],
+      "hints": [
+        "Controleer door terug uit te werken."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ],
+      "form": "factored"
+    },
+    {
+      "id": "15-024",
+      "question": "Haal factor 2x buiten haakjes: $4x^2+6x$.",
+      "answer": "2x(2x+3)",
+      "solution": [
+        "De overblijvende factoren zijn 2x en 3."
+      ],
+      "hints": [
+        "Deel elke term door 2x."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ],
+      "form": "factored"
+    },
+    {
+      "id": "15-025",
+      "question": "Werk uit en vereenvoudig: $2(x+3)+4(x-1)$.",
+      "answer": "6x+2",
+      "solution": [
+        "$2x+6+4x-4=6x+2$."
+      ],
+      "hints": [
+        "Werk beide haakjes apart uit."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ],
+      "form": "expanded"
+    },
+    {
+      "id": "15-026",
+      "question": "Bij x = 3: bereken het verschil $x^2-2x$.",
+      "answer": 3,
+      "solution": [
+        "$9-6=3$.",
+        "Dus x² en 2x zijn niet voor elke x gelijk."
+      ],
+      "hints": [
+        "Een gelijkheid bij x = 2 geldt niet automatisch overal."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "algebra"
+      ]
+    },
+    {
+      "id": "15-027",
+      "question": "Een rechthoek heeft lengte x+2 en breedte 3. Schrijf de omtrek zonder haakjes.",
+      "answer": "2x+10",
+      "solution": [
+        "$2(x+2)+6=2x+10$."
+      ],
+      "hints": [
+        "Er zijn twee zijden van elke lengte."
+      ],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ],
+      "form": "expanded"
+    },
+    {
+      "id": "15-028",
+      "question": "Bereken de omtrek $2x+10$ bij x = 4.",
+      "answer": 18,
+      "solution": [
+        "$8+10=18$."
+      ],
+      "hints": [
+        "Vul x = 4 in."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "algebra"
+      ]
+    },
+    {
+      "id": "15-029",
+      "question": "Schrijf een totale prijs: n producten van p euro per stuk, plus 7 euro verzendkosten.",
+      "answer": "np+7",
+      "solution": [
+        "Productkosten np; vaste kosten 7."
+      ],
+      "hints": [
+        "Beide n en p zijn variabelen."
+      ],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-030",
+      "question": "Een rechthoek heeft zijden x+3 en x+2. Schrijf de oppervlakte zonder haakjes.",
+      "answer": "x^2+5x+6",
+      "solution": [
+        "$(x+3)(x+2)=x^2+2x+3x+6$.",
+        "Samen $x^2+5x+6$.",
+        "Bij x = 4 is dit 42, net als $7\\times6$."
+      ],
+      "hints": [
+        "Vermenigvuldig alle vier de termparen.",
+        "Combineer de gelijksoortige termen."
+      ],
+      "type": "expression",
+      "mode": "challenge",
+      "difficulty": 3,
+      "topics": [
+        "expressions"
+      ],
+      "form": "expanded"
+    }
+  ]
+}

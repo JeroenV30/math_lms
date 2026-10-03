@@ -1,0 +1,559 @@
+{
+  "exercises": [
+    {
+      "id": "24-001",
+      "question": "Bereken het gemiddelde van 4, 5, 6.",
+      "answer": 5,
+      "solution": [
+        "15/3 = 5."
+      ],
+      "hints": [
+        "Som gedeeld door aantal."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-002",
+      "question": "Bereken het gemiddelde van 0, 5, 10.",
+      "answer": 5,
+      "solution": [
+        "15/3 = 5."
+      ],
+      "hints": [
+        "Een gelijk gemiddelde garandeert geen gelijke spreiding."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-003",
+      "question": "Bereken de spreidingsbreedte van 0, 5, 10.",
+      "answer": 10,
+      "solution": [
+        "10 − 0 = 10."
+      ],
+      "hints": [
+        "Maximum minus minimum."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-004",
+      "question": "Bereken de mediaan van 1, 2, 2, 3, 12.",
+      "answer": 2,
+      "solution": [
+        "De derde van vijf gesorteerde waarden is 2."
+      ],
+      "hints": [
+        "Zoek de middelste positie."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-005",
+      "question": "Bereken het gemiddelde van 1, 2, 2, 3, 12.",
+      "answer": 4,
+      "solution": [
+        "20/5 = 4."
+      ],
+      "hints": [
+        "Gebruik ook de hoge waarde."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-006",
+      "question": "Wat is de modus van 1, 2, 2, 3, 12?",
+      "answer": 2,
+      "solution": [
+        "2 komt tweemaal voor; de rest eenmaal."
+      ],
+      "hints": [
+        "Zoek de hoogste frequentie."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-007",
+      "question": "Waarde 2 komt driemaal voor; 6 eenmaal. Bereken het gemiddelde.",
+      "answer": 3,
+      "solution": [
+        "(3×2 + 6)/4 = 3."
+      ],
+      "hints": [
+        "Frequenties zijn gewichten."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-008",
+      "question": "Groep A: 10 waarden met gemiddelde 6. Groep B: 30 waarden met gemiddelde 8. Bereken het gezamenlijke gemiddelde.",
+      "answer": 7.5,
+      "solution": [
+        "(10×6 + 30×8)/40 = 7,5."
+      ],
+      "hints": [
+        "Weeg met de groepsaantallen."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "24-009",
+      "question": "Bij 1, 3, 5, 7, 9: geef Q₁ en Q₃. Sluit de middelste observatie uit de helften.",
+      "solution": [
+        "Onderste helft 1, 3 geeft 2.",
+        "Bovenste helft 7, 9 geeft 8."
+      ],
+      "hints": [
+        "Neem de mediaan van elke helft."
+      ],
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "parts": [
+        {
+          "label": "Q₁",
+          "answer": 2,
+          "type": "numeric"
+        },
+        {
+          "label": "Q₃",
+          "answer": 8,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "24-010",
+      "question": "Bij Q₁ = 2 en Q₃ = 8: bereken de IQR.",
+      "answer": 6,
+      "solution": [
+        "8 − 2 = 6."
+      ],
+      "hints": [
+        "Bovenste minus onderste kwartiel."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-011",
+      "question": "Bereken de mediaan van 2, 4, 4, 4, 5, 5, 7, 9.",
+      "answer": 4.5,
+      "solution": [
+        "(4 + 5)/2 = 4,5."
+      ],
+      "hints": [
+        "Gemiddelde van de vierde en vijfde waarde."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "24-012",
+      "question": "Bij 2, 4, 4, 4, 5, 5, 7, 9: geef Q₁ en Q₃ volgens de mediaan-van-helftenconventie.",
+      "solution": [
+        "Onderste helft 2,4,4,4 geeft 4.",
+        "Bovenste helft 5,5,7,9 geeft 6."
+      ],
+      "hints": [
+        "Er zijn twee helften van vier waarden."
+      ],
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "parts": [
+        {
+          "label": "Q₁",
+          "answer": 4,
+          "type": "numeric"
+        },
+        {
+          "label": "Q₃",
+          "answer": 6,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "24-013",
+      "question": "Een boxplot gebruikt minimum/maximumsnorren. De waarden lopen van 2 tot 9. Wat is het rechter snoruiteinde?",
+      "answer": 9,
+      "solution": [
+        "De rechter snor gaat naar maximum 9."
+      ],
+      "hints": [
+        "Controleer de aangegeven boxplotvariant."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-014",
+      "question": "Populatie 2, 4, 4, 4, 5, 5, 7, 9: bereken μ.",
+      "answer": 5,
+      "solution": [
+        "Som 40, aantal 8."
+      ],
+      "hints": [
+        "Bereken eerst het centrum."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-015",
+      "question": "Dezelfde populatie heeft μ = 5. Wat is de gekwadrateerde afwijking van de waarde 2?",
+      "answer": 9,
+      "solution": [
+        "(2 − 5)² = 9."
+      ],
+      "hints": [
+        "Kwadreer de volledige afwijking."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-016",
+      "question": "Bij n = 8 is de som van gekwadrateerde afwijkingen 32. Bereken de populatievariantie.",
+      "answer": 4,
+      "solution": [
+        "32/8 = 4."
+      ],
+      "hints": [
+        "Deel door n."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-017",
+      "question": "Een populatievariantie is 4. Bereken de populatiestandaardafwijking.",
+      "answer": 2,
+      "solution": [
+        "√4 = 2."
+      ],
+      "hints": [
+        "Neem de niet-negatieve wortel."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-018",
+      "question": "Alle vijf populatiewaarden zijn 7. Bereken de populatiestandaardafwijking.",
+      "answer": 0,
+      "solution": [
+        "Alle afwijkingen van μ = 7 zijn nul."
+      ],
+      "hints": [
+        "Er is geen spreiding."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-019",
+      "question": "n = 8, som gekwadrateerde afwijkingen 32. Geef de gecorrigeerde steekproefvariantie als breuk.",
+      "answer": "32/7",
+      "solution": [
+        "Deel door n − 1 = 7."
+      ],
+      "hints": [
+        "Dit is geen populatievariantie."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-020",
+      "question": "n = 8, som gekwadrateerde afwijkingen 32. Bereken de steekproefstandaardafwijking op twee decimalen.",
+      "answer": 2.14,
+      "solution": [
+        "√(32/7) ≈ 2,14."
+      ],
+      "hints": [
+        "Neem de wortel na de n − 1-correctie."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "24-021",
+      "question": "Is de gecorrigeerde steekproefstandaardafwijking gedefinieerd bij n = 1? Geef 1 voor ja, 0 voor nee.",
+      "answer": 0,
+      "solution": [
+        "n − 1 = 0; delen door nul is niet gedefinieerd."
+      ],
+      "hints": [
+        "Controleer de noemer."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-022",
+      "question": "Bereken de spreidingsbreedte van 4, 5, 6.",
+      "answer": 2,
+      "solution": [
+        "6 − 4 = 2."
+      ],
+      "hints": [
+        "Vergelijk met 0,5,10."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-023",
+      "question": "Twee datasets hebben hetzelfde gemiddelde. Moeten ze dezelfde standaardafwijking hebben? Geef 1 voor ja, 0 voor nee.",
+      "answer": 0,
+      "solution": [
+        "Centrum bepaalt spreiding niet."
+      ],
+      "hints": [
+        "Denk aan 4,5,6 en 0,5,10."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-024",
+      "question": "Een dataset heeft gemiddelde 5. Bij elke waarde wordt 10 opgeteld. Wat is het nieuwe gemiddelde?",
+      "answer": 15,
+      "solution": [
+        "5 + 10 = 15."
+      ],
+      "hints": [
+        "Het centrum schuift mee."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-025",
+      "question": "Een dataset heeft standaardafwijking 2. Bij elke waarde wordt 10 opgeteld. Wat is de nieuwe standaardafwijking?",
+      "answer": 2,
+      "solution": [
+        "Afwijkingen onderling blijven gelijk."
+      ],
+      "hints": [
+        "Verschuiven verandert geen spreiding."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-026",
+      "question": "Een dataset heeft standaardafwijking 2. Elke waarde wordt maal 3 genomen. Wat is de nieuwe standaardafwijking?",
+      "answer": 6,
+      "solution": [
+        "|3| × 2 = 6."
+      ],
+      "hints": [
+        "Spreiding schaalt met de absolute factor."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-027",
+      "question": "Een dataset heeft variantie 4. Elke waarde wordt maal 3 genomen. Wat is de nieuwe variantie?",
+      "answer": 36,
+      "solution": [
+        "3² × 4 = 36."
+      ],
+      "hints": [
+        "Variantie gebruikt gekwadrateerde afwijkingen."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-028",
+      "question": "Een dataset heeft standaardafwijking 2. Elke waarde wordt maal −3 genomen. Wat is de nieuwe standaardafwijking?",
+      "answer": 6,
+      "solution": [
+        "|−3| × 2 = 6."
+      ],
+      "hints": [
+        "Spreiding kan niet negatief worden."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-029",
+      "question": "Q₁ = 4 en Q₃ = 6. Volgens de 1,5-IQR-regel: wat is de bovenste uitschietergrens?",
+      "answer": 9,
+      "solution": [
+        "IQR = 2. Grens = 6 + 1,5×2 = 9."
+      ],
+      "hints": [
+        "Dit is een grens, niet automatisch een geobserveerde snorwaarde."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "id": "24-030",
+      "question": "Een volledige populatie heeft gemiddelde 5, variantie 4 en standaardafwijking 2. Elke waarde wordt 3x + 10. Geef het nieuwe gemiddelde, variantie en standaardafwijking.",
+      "solution": [
+        "Centrum 3×5 + 10 = 25.",
+        "Variantie 9×4 = 36.",
+        "Standaardafwijking 3×2 = 6."
+      ],
+      "hints": [
+        "Behandel verschuiven en schalen apart."
+      ],
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "parts": [
+        {
+          "label": "gemiddelde",
+          "answer": 25,
+          "type": "numeric"
+        },
+        {
+          "label": "variantie",
+          "answer": 36,
+          "type": "numeric"
+        },
+        {
+          "label": "standaardafwijking",
+          "answer": 6,
+          "type": "numeric"
+        }
+      ]
+    }
+  ]
+}

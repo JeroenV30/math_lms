@@ -1,0 +1,548 @@
+{
+  "exercises": [
+    {
+      "id": "22-001",
+      "question": "Een rechthoekige driehoek heeft scherpe hoeken 35° en θ. Bereken θ in graden.",
+      "answer": 55,
+      "solution": [
+        "$90-35=55$."
+      ],
+      "hints": [
+        "De twee scherpe hoeken tellen op tot 90°."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-002",
+      "question": "Een driehoek met zijden 3, 4 en 5 wordt vergroot met factor 2. Hoe lang wordt de schuine zijde?",
+      "answer": 10,
+      "solution": [
+        "$2\\times5=10$."
+      ],
+      "hints": [
+        "Alle lengten schalen met dezelfde factor."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-003",
+      "question": "De gekozen hoek ligt tegenover de zijde 3 in een 3–4–5-driehoek. Hoe lang is de aanliggende rechthoekszijde?",
+      "answer": 4,
+      "solution": [
+        "S = 5 en O = 3, dus A = 4."
+      ],
+      "hints": [
+        "De schuine zijde is niet de aanliggende rechthoekszijde."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-004",
+      "question": "De gekozen hoek ligt tegenover de zijde 4 in een 3–4–5-driehoek. Hoe lang is de overstaande zijde?",
+      "answer": 4,
+      "solution": [
+        "De zijde tegenover de gekozen hoek is O = 4."
+      ],
+      "hints": [
+        "Lees de definitie van overstaand."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-005",
+      "question": "Een rechthoekige driehoek heeft rechthoekszijden 6 en 8. Bereken S.",
+      "answer": 10,
+      "solution": [
+        "$S=\\sqrt{36+64}=10$."
+      ],
+      "hints": [
+        "Gebruik Pythagoras."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-006",
+      "question": "O = 6 en S = 10. Geef O/S als vereenvoudigde breuk.",
+      "answer": "3/5",
+      "solution": [
+        "6/10 = 3/5."
+      ],
+      "hints": [
+        "Deel teller en noemer door 2."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "require_simplified": true
+    },
+    {
+      "id": "22-007",
+      "question": "O = 3, A = 4, S = 5. Bereken sin θ.",
+      "answer": 0.6,
+      "solution": [
+        "O/S = 3/5 = 0,6."
+      ],
+      "hints": [
+        "Sinus gebruikt de schuine zijde."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "22-008",
+      "question": "O = 3, A = 4, S = 5. Bereken cos θ.",
+      "answer": 0.8,
+      "solution": [
+        "A/S = 4/5 = 0,8."
+      ],
+      "hints": [
+        "Cosinus gebruikt de aanliggende rechthoekszijde."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "22-009",
+      "question": "O = 3, A = 4, S = 5. Bereken tan θ.",
+      "answer": 0.75,
+      "solution": [
+        "O/A = 3/4 = 0,75."
+      ],
+      "hints": [
+        "Tangens gebruikt de rechthoekszijden."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "22-010",
+      "question": "Is sin θ = 1,2 mogelijk voor een scherpe hoek? Geef 1 voor ja, 0 voor nee.",
+      "answer": 0,
+      "solution": [
+        "O < S, dus O/S < 1."
+      ],
+      "hints": [
+        "Vergelijk een rechthoekszijde met S."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-011",
+      "question": "Bij θ = 45° geldt O = A. Wat is tan θ?",
+      "answer": 1,
+      "solution": [
+        "O/A = 1."
+      ],
+      "hints": [
+        "Gelijke lengten geven verhouding 1."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-012",
+      "question": "Sin θ = 0,6 en cos θ = 0,8. Bereken sin² θ + cos² θ.",
+      "answer": 1,
+      "solution": [
+        "0,36 + 0,64 = 1."
+      ],
+      "hints": [
+        "Kwadreer beide waarden."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "22-013",
+      "question": "S = 10 en θ = 30°. Bereken O, met sin 30° = 0,5.",
+      "answer": 5,
+      "solution": [
+        "O = S sin θ = 5."
+      ],
+      "hints": [
+        "Maak O vrij."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-014",
+      "question": "S = 10 en θ = 60°. Bereken A, met cos 60° = 0,5.",
+      "answer": 5,
+      "solution": [
+        "A = S cos θ = 5."
+      ],
+      "hints": [
+        "Gebruik A/S."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-015",
+      "question": "O = 3 en θ = 30°. Bereken S, met sin 30° = 0,5.",
+      "answer": 6,
+      "solution": [
+        "S = 3/0,5 = 6."
+      ],
+      "hints": [
+        "Deel de bekende O door de sinus."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-016",
+      "question": "A = 7 en θ = 45°. Bereken O.",
+      "answer": 7,
+      "solution": [
+        "tan 45° = 1, dus O = 7."
+      ],
+      "hints": [
+        "Gebruik tangens."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-017",
+      "question": "Een ladder van 5 m staat onder 60° met de vloer. Bereken de hoogte op twee decimalen.",
+      "answer": 4.33,
+      "solution": [
+        "O = 5 sin 60° ≈ 4,33 m."
+      ],
+      "hints": [
+        "De ladder is S."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "tolerance": 0.005,
+      "unit": "m"
+    },
+    {
+      "id": "22-018",
+      "question": "S = 12 en θ = 40°. Bereken A op twee decimalen.",
+      "answer": 9.19,
+      "solution": [
+        "A = 12 cos 40° ≈ 9,19."
+      ],
+      "hints": [
+        "Reken in graden."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "22-019",
+      "question": "O/S = 0,5. Bereken θ in graden.",
+      "answer": 30,
+      "solution": [
+        "arcsin(0,5) = 30°."
+      ],
+      "hints": [
+        "Gebruik inverse sinus in DEG."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-020",
+      "question": "A/S = 0,5. Bereken θ in graden.",
+      "answer": 60,
+      "solution": [
+        "arccos(0,5) = 60°."
+      ],
+      "hints": [
+        "Gebruik inverse cosinus."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-021",
+      "question": "O = 3 en A = 4. Bereken θ in graden op twee decimalen.",
+      "answer": 36.87,
+      "solution": [
+        "arctan(3/4) ≈ 36,87°."
+      ],
+      "hints": [
+        "Gebruik de twee rechthoekszijden."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "22-022",
+      "question": "Een helling stijgt 2 m over 5 m horizontaal. Bereken de hoek in graden op twee decimalen.",
+      "answer": 21.8,
+      "solution": [
+        "arctan(2/5) ≈ 21,80°."
+      ],
+      "hints": [
+        "Een verhouding is geen hoek."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "22-023",
+      "question": "Een cirkel heeft R = 10 en middelpuntshoek 60°. Bereken de koorde, met sin 30° = 0,5.",
+      "answer": 10,
+      "solution": [
+        "2R sin(α/2) = 20 × 0,5 = 10."
+      ],
+      "hints": [
+        "Halveer de hoek."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-024",
+      "question": "Een koorde wordt gehalveerd door een straal loodrecht op de koorde. De middelpuntshoek was 80°. Welke scherpe hoek bij het middelpunt gebruik je in de halve driehoek?",
+      "answer": 40,
+      "solution": [
+        "80/2 = 40°."
+      ],
+      "hints": [
+        "De twee halve driehoeken zijn gelijk."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-025",
+      "question": "Je kijkt onder 35° naar een toren op 20 m horizontale afstand. Je ooghoogte is 1,60 m. Bereken de torenhoogte op twee decimalen.",
+      "answer": 15.6,
+      "solution": [
+        "20 tan 35° + 1,60 ≈ 15,60 m."
+      ],
+      "hints": [
+        "Tel ooghoogte bij het hoogteverschil op."
+      ],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "tolerance": 0.005,
+      "unit": "m"
+    },
+    {
+      "id": "22-026",
+      "question": "Een kabel van 10 m maakt 30° met de horizontaal. Bereken de horizontale projectie op twee decimalen.",
+      "answer": 8.66,
+      "solution": [
+        "10 cos 30° ≈ 8,66 m."
+      ],
+      "hints": [
+        "De kabel is S."
+      ],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "tolerance": 0.005,
+      "unit": "m"
+    },
+    {
+      "id": "22-027",
+      "question": "Een helling stijgt 3 m over 4 m horizontaal. Bereken de schuine lengte op twee decimalen.",
+      "answer": 5,
+      "solution": [
+        "Pythagoras: √(9+16) = 5 m."
+      ],
+      "hints": [
+        "Beide rechthoekszijden zijn bekend."
+      ],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "tolerance": 0.005,
+      "unit": "m"
+    },
+    {
+      "id": "22-028",
+      "question": "Bij θ = 50° is O = 6. Bereken S op twee decimalen.",
+      "answer": 7.83,
+      "solution": [
+        "S = 6/sin 50° ≈ 7,83."
+      ],
+      "hints": [
+        "Controleer dat S > 6."
+      ],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "22-029",
+      "question": "Een weg heeft 10% helling, dus stijging/horizontale afstand = 0,10. Bereken de hellingshoek in graden op twee decimalen.",
+      "answer": 5.71,
+      "solution": [
+        "arctan(0,10) ≈ 5,71°."
+      ],
+      "hints": [
+        "Gebruik de verhouding 0,10."
+      ],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "22-030",
+      "question": "Een ladder van 10 m staat onder 60°. Geef horizontale afstand en hoogte, beide op twee decimalen.",
+      "solution": [
+        "A = 10 cos 60° = 5 m.",
+        "O = 10 sin 60° ≈ 8,66 m.",
+        "O² + A² = 100 met ongeronde waarden."
+      ],
+      "hints": [
+        "De ladder is S.",
+        "Bereken beide projecties."
+      ],
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "topics": [
+        "trigonometry"
+      ],
+      "parts": [
+        {
+          "label": "horizontale afstand (m)",
+          "type": "decimal",
+          "answer": 5,
+          "tolerance": 0.005
+        },
+        {
+          "label": "hoogte (m)",
+          "type": "decimal",
+          "answer": 8.66,
+          "tolerance": 0.005
+        }
+      ]
+    }
+  ]
+}

@@ -4,10 +4,10 @@
   "title": "Lineaire functies",
   "part": 4,
   "level": "havo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "17e eeuw",
   "estimated_difficulty": 3,
-  "estimated_minutes": 90,
+  "estimated_minutes": 170,
   "prerequisites": [
     18
   ],
@@ -15,12 +15,132 @@
     "linear-functions",
     "graphs"
   ],
-  "core_question": null,
-  "summary": "Functies, helling en startwaarde.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Hoe beschrijf je een constante verandering en bepaal je uit gegevens de bijbehorende functie?",
+  "summary": "Lineaire functies in tabel, formule en grafiek: helling, startwaarde, nulpunten, domein en inverse. Je beoordeelt ook wanneer een lineair model passend is.",
+  "learning_goals": [
+    "Je legt uit wat een functie is en onderscheidt invoer, uitvoer en domein.",
+    "Je leest helling en startwaarde uit een lineaire formule en herkent recht evenredige gevallen.",
+    "Je bepaalt een lineaire functie uit twee verschillende punten.",
+    "Je berekent nulpunten en snijpunten en interpreteert die in een model.",
+    "Je beperkt domein en bereik tot de situatie en gebruikt intervalnotatie.",
+    "Je maakt de invoer vrij en vindt een inverse bij een niet-nulhelling.",
+    "Je controleert met verschillen of een lineair model door gegevens wordt ondersteund."
+  ],
+  "glossary": [
+    {
+      "term": "Functie",
+      "definition": "Een regel die aan iedere toegestane invoer precies één uitvoer toekent."
+    },
+    {
+      "term": "Domein",
+      "definition": "De verzameling toegestane invoerwaarden."
+    },
+    {
+      "term": "Bereik",
+      "definition": "De verzameling uitvoerwaarden die werkelijk worden aangenomen."
+    },
+    {
+      "term": "Startwaarde",
+      "definition": "De uitvoer bij invoer nul; in y = ax+b is dat b, wanneer nul is toegestaan."
+    },
+    {
+      "term": "Nulpunt",
+      "definition": "Een invoerwaarde waarvoor de functiewaarde nul is."
+    },
+    {
+      "term": "Inverse functie",
+      "definition": "Een regel die uitvoer terugvertaalt naar de unieke oorspronkelijke invoer, wanneer dat mogelijk is."
+    },
+    {
+      "term": "Interpoleren",
+      "definition": "Een waarde schatten binnen het gebied van de gegeven waarnemingen."
+    },
+    {
+      "term": "Extrapoleren",
+      "definition": "Een model gebruiken buiten het gebied van de waarnemingen."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Lineaire functie",
+      "latex": "f(x)=ax+b",
+      "usage": "a is verandering per invoereenheid, b de uitvoer bij nul."
+    },
+    {
+      "name": "Helling uit twee punten",
+      "latex": "a=\\frac{y_2-y_1}{x_2-x_1}",
+      "usage": "De x-waarden moeten verschillend zijn."
+    },
+    {
+      "name": "Startwaarde",
+      "latex": "b=y_1-ax_1",
+      "usage": "Gebruik één van de bekende punten nadat a is bepaald."
+    },
+    {
+      "name": "Nulpunt",
+      "latex": "x=-\\frac{b}{a}\\quad(a\\ne0)",
+      "usage": "Los ax+b=0 op."
+    },
+    {
+      "name": "Inverse",
+      "latex": "f^{-1}(y)=\\frac{y-b}{a}\\quad(a\\ne0)",
+      "usage": "Het domein van de inverse volgt uit het bereik van de oorspronkelijke functie."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een regel die verandert met een vaste stap",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "functie-en-formule",
+      "title": "Invoer, uitvoer en een rechte lijn",
+      "kind": "theory",
+      "file": "02-functie-en-formule.md"
+    },
+    {
+      "slug": "functie-bepalen",
+      "title": "Van twee punten naar een regel",
+      "kind": "theory",
+      "file": "03-functie-bepalen.md"
+    },
+    {
+      "slug": "nulpunten-en-snijden",
+      "title": "Waar een functie een grens bereikt",
+      "kind": "theory",
+      "file": "04-nulpunten-en-snijden.md"
+    },
+    {
+      "slug": "domein-en-inverse",
+      "title": "Een beperkt gebied en de terugweg",
+      "kind": "theory",
+      "file": "05-domein-en-inverse.md"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Een grafiek als denkmodel",
+      "kind": "history",
+      "file": "06-historisch-intermezzo.md"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Tarieven en veranderende voorraden",
+      "kind": "practice",
+      "file": "07-praktijk-en-uitdaging.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
+  "timeline": [
+    "descartes-geometrie"
+  ],
+  "mathematicians": [
+    "descartes"
+  ]
 }

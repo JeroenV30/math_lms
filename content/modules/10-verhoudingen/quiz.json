@@ -1,0 +1,292 @@
+{
+  "title": "Hoofdstuktoets – Verhoudingen",
+  "intro": "15 vragen over verhoudingen, verdelen, evenredigheid, schaal, snelheid en eenheidswaarden. Vul zelf je antwoorden in; de uitwerkingen verschijnen na het inleveren.",
+  "questions": [
+    {
+      "id": "10-T01",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Vereenvoudig $42 : 56$ tot de kleinste gehele getallen.",
+      "hints": [],
+      "solution": [
+        "De grootste gemene deler is 14.",
+        "Deel beide getallen door 14: $42 : 56=3 : 4$."
+      ],
+      "topics": [
+        "ratios"
+      ],
+      "parts": [
+        {
+          "label": "eerste getal",
+          "answer": 3,
+          "type": "numeric"
+        },
+        {
+          "label": "tweede getal",
+          "answer": 4,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "10-T02",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Vul aan: $4 : 9 = 12 : \\ldots$.",
+      "answer": 27,
+      "hints": [],
+      "solution": [
+        "Van 4 naar 12 is maal 3.",
+        "Ook 9 gaat maal 3: 27."
+      ],
+      "topics": [
+        "ratios"
+      ]
+    },
+    {
+      "id": "10-T03",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Siroop : water = $2 : 7$. Welk deel van het hele mengsel is siroop? Geef een breuk.",
+      "answer": "2/9",
+      "hints": [],
+      "solution": [
+        "Er zijn $2+7=9$ delen.",
+        "Siroop is $2/9$ van het geheel."
+      ],
+      "topics": [
+        "ratios"
+      ]
+    },
+    {
+      "id": "10-T04",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "5 m stof kost € 17,50 bij een vaste meterprijs. Wat kost 8 m?",
+      "answer": 28,
+      "hints": [],
+      "solution": [
+        "Per meter: $17{,}50 : 5=3{,}50$ euro.",
+        "$8 \\times 3{,}50=28$ euro."
+      ],
+      "topics": [
+        "proportions"
+      ],
+      "unit": "€"
+    },
+    {
+      "id": "10-T05",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Verdeel € 360 in de verhouding $2 : 3 : 4$. Vul de drie bedragen in.",
+      "hints": [],
+      "solution": [
+        "Samen negen delen; één deel is $360 : 9=40$ euro.",
+        "De bedragen zijn 80, 120 en 160 euro."
+      ],
+      "topics": [
+        "ratios"
+      ],
+      "parts": [
+        {
+          "label": "eerste bedrag",
+          "answer": 80,
+          "type": "numeric"
+        },
+        {
+          "label": "tweede bedrag",
+          "answer": 120,
+          "type": "numeric"
+        },
+        {
+          "label": "derde bedrag",
+          "answer": 160,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "10-T06",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Twee lengtes staan in de verhouding $4 : 7$. De tweede is 18 cm langer. Hoe lang is de eerste?",
+      "answer": 24,
+      "hints": [],
+      "solution": [
+        "Het verschil is drie delen; één deel is $18 : 3=6$ cm.",
+        "De eerste lengte is $4 \\times 6=24$ cm."
+      ],
+      "topics": [
+        "ratios"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "10-T07",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een koerier rekent € 4 starttarief en € 1,50 per kilometer. Wat kost 8 km?",
+      "answer": 16,
+      "hints": [],
+      "solution": [
+        "De kilometerkosten zijn $8 \\times 1{,}50=12$ euro.",
+        "Met starttarief: $12+4=16$ euro."
+      ],
+      "topics": [
+        "proportions"
+      ],
+      "unit": "€"
+    },
+    {
+      "id": "10-T08",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een route van 7 cm op een kaart met schaal $1 : 20\\,000$ is hoeveel kilometer in werkelijkheid?",
+      "answer": 1.4,
+      "hints": [],
+      "solution": [
+        "$7 \\times 20\\,000=140\\,000$ cm.",
+        "Dat is 1400 m, of 1,4 km."
+      ],
+      "topics": [
+        "unit-conversion"
+      ],
+      "unit": "km"
+    },
+    {
+      "id": "10-T09",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Een tafel is 180 cm lang. Hoeveel centimeter is ze op een tekening met schaal $1 : 20$?",
+      "answer": 9,
+      "hints": [],
+      "solution": [
+        "Van werkelijkheid naar tekening deel je door 20.",
+        "$180 : 20=9$ cm."
+      ],
+      "topics": [
+        "unit-conversion"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "10-T10",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een weg van 1,2 km meet 6 cm op de kaart. De schaal is $1 : n$. Wat is $n$?",
+      "answer": 20000,
+      "hints": [],
+      "solution": [
+        "1,2 km is 120.000 cm.",
+        "$6 : 120\\,000 = 1 : 20\\,000$."
+      ],
+      "topics": [
+        "unit-conversion"
+      ]
+    },
+    {
+      "id": "10-T11",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Alle lengtes van een model worden verdubbeld. Met welke factor wordt zijn oppervlakte vermenigvuldigd?",
+      "answer": 4,
+      "hints": [],
+      "solution": [
+        "Lengte en breedte worden elk maal 2.",
+        "De oppervlaktefactor is $2^2=4$."
+      ],
+      "topics": [
+        "proportions"
+      ]
+    },
+    {
+      "id": "10-T12",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Je fietst 50 minuten met een constante snelheid van 18 km/u. Hoe ver kom je?",
+      "answer": 15,
+      "hints": [],
+      "solution": [
+        "50 minuten is $50/60=5/6$ uur.",
+        "$18 \\times 5/6=15$ km."
+      ],
+      "topics": [
+        "speed"
+      ],
+      "unit": "km"
+    },
+    {
+      "id": "10-T13",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Reken 90 km/u om naar m/s.",
+      "answer": 25,
+      "hints": [],
+      "solution": [
+        "Van km/u naar m/s deel je door 3,6.",
+        "$90 : 3{,}6=25$ m/s."
+      ],
+      "topics": [
+        "speed"
+      ],
+      "unit": "m/s"
+    },
+    {
+      "id": "10-T14",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je rijdt 60 km met 40 km/u en daarna 60 km met 60 km/u, zonder pauze. Wat is de gemiddelde snelheid?",
+      "answer": 48,
+      "hints": [],
+      "solution": [
+        "Reistijden: $60 : 40=1{,}5$ uur en $60 : 60=1$ uur.",
+        "Totaal 120 km in 2,5 uur: $120 : 2{,}5=48$ km/u."
+      ],
+      "topics": [
+        "speed"
+      ],
+      "unit": "km/u"
+    },
+    {
+      "id": "10-T15",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken beide eenheidswaarden: 1,5 kg rijst kost € 4,20; een blok van 80 cm³ heeft massa 216 g.",
+      "hints": [],
+      "solution": [
+        "Prijs per kilogram: $4{,}20 : 1{,}5=2{,}80$ euro.",
+        "Dichtheid: $216 : 80=2{,}7$ g/cm³."
+      ],
+      "topics": [
+        "proportions"
+      ],
+      "parts": [
+        {
+          "label": "prijs (€/kg)",
+          "type": "decimal",
+          "answer": 2.8
+        },
+        {
+          "label": "dichtheid (g/cm³)",
+          "type": "decimal",
+          "answer": 2.7
+        }
+      ]
+    }
+  ]
+}

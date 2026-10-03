@@ -1,0 +1,235 @@
+{
+  "title": "Hoofdstuktoets – Goniometrie",
+  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "questions": [
+    {
+      "id": "22-T01",
+      "question": "Een scherpe hoek van een rechthoekige driehoek is 28°. Bereken de andere.",
+      "answer": 62,
+      "solution": [
+        "90 − 28 = 62°."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-T02",
+      "question": "O = 5 en S = 13. Geef sin θ als breuk.",
+      "answer": "5/13",
+      "solution": [
+        "Sin θ = O/S = 5/13."
+      ],
+      "hints": [],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-T03",
+      "question": "A = 12 en S = 13. Geef cos θ als breuk.",
+      "answer": "12/13",
+      "solution": [
+        "Cos θ = A/S = 12/13."
+      ],
+      "hints": [],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-T04",
+      "question": "O = 5 en A = 12. Geef tan θ als breuk.",
+      "answer": "5/12",
+      "solution": [
+        "Tan θ = O/A = 5/12."
+      ],
+      "hints": [],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-T05",
+      "question": "S = 16 en θ = 30°. Bereken O.",
+      "answer": 8,
+      "solution": [
+        "16 sin 30° = 8."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-T06",
+      "question": "S = 18 en θ = 60°. Bereken A.",
+      "answer": 9,
+      "solution": [
+        "18 cos 60° = 9."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-T07",
+      "question": "O = 4 en θ = 30°. Bereken S.",
+      "answer": 8,
+      "solution": [
+        "4/sin 30° = 8."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-T08",
+      "question": "A = 9 en θ = 45°. Bereken O.",
+      "answer": 9,
+      "solution": [
+        "9 tan 45° = 9."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-T09",
+      "question": "O/A = 1. Bereken de scherpe hoek θ in graden.",
+      "answer": 45,
+      "solution": [
+        "Arctan 1 = 45°."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-T10",
+      "question": "O = 5 en A = 12. Bereken θ in graden op twee decimalen.",
+      "answer": 22.62,
+      "solution": [
+        "arctan(5/12) ≈ 22,62°."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "22-T11",
+      "question": "S = 8 en θ = 40°. Bereken O op twee decimalen.",
+      "answer": 5.14,
+      "solution": [
+        "8 sin 40° ≈ 5,14."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "22-T12",
+      "question": "O = 7 en θ = 50°. Bereken S op twee decimalen.",
+      "answer": 9.14,
+      "solution": [
+        "7/sin 50° ≈ 9,14."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "22-T13",
+      "question": "Een toren staat op 15 m horizontale afstand. De kijkhoek is 40°, ooghoogte 1,70 m. Bereken de hoogte op twee decimalen.",
+      "answer": 14.29,
+      "solution": [
+        "15 tan 40° + 1,70 ≈ 14,29 m."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "22-T14",
+      "question": "Een cirkel met R = 6 heeft een koorde met middelpuntshoek 60°. Bereken de koorde.",
+      "answer": 6,
+      "solution": [
+        "2 × 6 × sin 30° = 6."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-T15",
+      "question": "Kan een scherpe hoek in een rechthoekige driehoek tangens 2 hebben? Geef 1 voor ja, 0 voor nee.",
+      "answer": 1,
+      "solution": [
+        "Ja: O kan tweemaal A zijn; θ = arctan 2 is scherp."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "trigonometry"
+      ]
+    }
+  ]
+}

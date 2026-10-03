@@ -4,10 +4,10 @@
   "title": "Introductie algebra",
   "part": 3,
   "level": "vmbo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Islamitische gouden eeuw",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 170,
   "prerequisites": [
     14
   ],
@@ -15,12 +15,131 @@
     "algebra",
     "expressions"
   ],
-  "core_question": null,
-  "summary": "Al-Khwarizmi.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Hoe schrijf je één rekenregel die voor elke toegestane hoeveelheid werkt?",
+  "summary": "Letters als variabelen en onbekenden: expressies lezen, waarden invullen, gelijksoortige termen samenvoegen, haakjes wegwerken en factoren buiten haakjes halen.",
+  "learning_goals": [
+    "Je vertaalt een rekenbeschrijving naar een expressie met letters.",
+    "Je onderscheidt variabelen, constanten, termen, factoren en coëfficiënten.",
+    "Je berekent de waarde van een expressie door getallen in te vullen.",
+    "Je voegt gelijksoortige termen samen en onderscheidt een som van een product.",
+    "Je werkt haakjes weg met de distributieve eigenschap en bewaakt mintekens.",
+    "Je haalt een gemeenschappelijke factor buiten haakjes.",
+    "Je onderscheidt een expressie van een vergelijking en controleert een omzetting."
+  ],
+  "glossary": [
+    {
+      "term": "Variabele",
+      "definition": "Een letter die verschillende toegestane waarden kan aannemen."
+    },
+    {
+      "term": "Onbekende",
+      "definition": "Een waarde die je in een concrete vraag nog moet bepalen."
+    },
+    {
+      "term": "Expressie",
+      "definition": "Een rekenvorm met getallen, letters en bewerkingen; zonder uitspraak dat twee kanten gelijk zijn."
+    },
+    {
+      "term": "Term",
+      "definition": "Een onderdeel van een som, inclusief zijn teken."
+    },
+    {
+      "term": "Factor",
+      "definition": "Een onderdeel van een product."
+    },
+    {
+      "term": "Coëfficiënt",
+      "definition": "De getalsfactor bij een letterdeel; in $-3x$ is dat -3."
+    },
+    {
+      "term": "Gelijksoortig",
+      "definition": "Termen met hetzelfde letterdeel en dezelfde exponenten."
+    },
+    {
+      "term": "Ontbinden in factoren",
+      "definition": "Een expressie als product schrijven."
+    },
+    {
+      "term": "Identiteit",
+      "definition": "Een gelijkheid die voor alle toegestane waarden geldt."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Gelijksoortige termen",
+      "latex": "ax+bx=(a+b)x",
+      "usage": "Tel coëfficiënten op; het letterdeel blijft gelijk."
+    },
+    {
+      "name": "Distributieve eigenschap",
+      "latex": "a(b+c)=ab+ac",
+      "usage": "Vermenigvuldig de factor met iedere term."
+    },
+    {
+      "name": "Min voor haakjes",
+      "latex": "-(a+b)=-a-b",
+      "usage": "Neem de tegengestelde van elke term."
+    },
+    {
+      "name": "Gemeenschappelijke factor",
+      "latex": "ab+ac=a(b+c)",
+      "usage": "De distributieve eigenschap in omgekeerde richting."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een regel voor elke bestelling",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "letters-en-termen",
+      "title": "Expressies lezen en bouwen",
+      "kind": "theory",
+      "file": "02-letters-en-termen.md"
+    },
+    {
+      "slug": "invullen",
+      "title": "Getallen voor letters invullen",
+      "kind": "theory",
+      "file": "03-invullen.md"
+    },
+    {
+      "slug": "gelijksoortige-termen",
+      "title": "Som en product onderscheiden",
+      "kind": "theory",
+      "file": "04-gelijksoortige-termen.md"
+    },
+    {
+      "slug": "haakjes-en-factoren",
+      "title": "Uitwerken en terugpakken",
+      "kind": "theory",
+      "file": "05-haakjes-en-factoren.md"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Een methode los van de getallen",
+      "kind": "history",
+      "file": "06-historisch-intermezzo.md"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Een model schrijven en controleren",
+      "kind": "practice",
+      "file": "07-praktijk-en-uitdaging.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
+  "timeline": [
+    "al-khwarizmi"
+  ],
+  "mathematicians": [
+    "al-khwarizmi"
+  ]
 }

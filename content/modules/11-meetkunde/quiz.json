@@ -1,0 +1,248 @@
+{
+  "title": "Hoofdstuktoets – Meetkunde",
+  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "questions": [
+    {
+      "id": "11-T01",
+      "question": "Hoeveel graden is een gestrekte hoek?",
+      "answer": 180,
+      "solution": [
+        "Een halve draai is 180°."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "geometry"
+      ],
+      "unit": "°"
+    },
+    {
+      "id": "11-T02",
+      "question": "Een hoek van 38° en een onbekende vormen samen 180°. Bereken de onbekende.",
+      "answer": 142,
+      "solution": [
+        "$180-38=142$°."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "geometry"
+      ],
+      "unit": "°"
+    },
+    {
+      "id": "11-T03",
+      "question": "Een driehoek heeft hoeken 35° en 85°. Bereken de derde.",
+      "answer": 60,
+      "solution": [
+        "$180-35-85=60$°."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "geometry"
+      ],
+      "unit": "°"
+    },
+    {
+      "id": "11-T04",
+      "question": "Een gelijkbenige driehoek heeft basishoeken van 55°. Bereken de tophoek.",
+      "answer": 70,
+      "solution": [
+        "$180-2\\times55=70$°."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "geometry"
+      ],
+      "unit": "°"
+    },
+    {
+      "id": "11-T05",
+      "question": "Een rechthoek is 9 m bij 4 m. Bereken de omtrek.",
+      "answer": 26,
+      "solution": [
+        "$2(9+4)=26$ m."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "perimeter"
+      ],
+      "unit": "m"
+    },
+    {
+      "id": "11-T06",
+      "question": "Een rechthoek is 9 m bij 4 m. Bereken de oppervlakte.",
+      "answer": 36,
+      "solution": [
+        "$9\\times4=36$ m²."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "area"
+      ],
+      "unit": "m²"
+    },
+    {
+      "id": "11-T07",
+      "question": "Een driehoek heeft basis 12 cm en loodrechte hoogte 7 cm. Bereken de oppervlakte.",
+      "answer": 42,
+      "solution": [
+        "$12\\times7/2=42$ cm²."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "area"
+      ],
+      "unit": "cm²"
+    },
+    {
+      "id": "11-T08",
+      "question": "Een parallellogram heeft basis 6 cm en loodrechte hoogte 8 cm. Bereken de oppervlakte.",
+      "answer": 48,
+      "solution": [
+        "$6\\times8=48$ cm²."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "area"
+      ],
+      "unit": "cm²"
+    },
+    {
+      "id": "11-T09",
+      "question": "Een cirkel heeft diameter 10 cm. Bereken zijn oppervlakte op twee decimalen.",
+      "answer": 78.54,
+      "solution": [
+        "Straal 5 cm.",
+        "$25\\pi\\approx78{,}54$ cm²."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "circles"
+      ],
+      "unit": "cm²"
+    },
+    {
+      "id": "11-T10",
+      "question": "Een cirkel heeft straal 4 cm. Bereken zijn omtrek op twee decimalen.",
+      "answer": 25.13,
+      "solution": [
+        "$8\\pi\\approx25{,}13$ cm."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "circles"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "11-T11",
+      "question": "Hoeveel cm² is 0,6 m²?",
+      "answer": 6000,
+      "solution": [
+        "$0{,}6\\times10\\,000=6000$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "unit-conversion"
+      ],
+      "unit": "cm²"
+    },
+    {
+      "id": "11-T12",
+      "question": "Een balk heeft binnenmaten 4 dm bij 3 dm bij 2 dm. Wat is de inhoud in liter?",
+      "answer": 24,
+      "solution": [
+        "$4\\times3\\times2=24$ dm³ = 24 liter."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "volume"
+      ],
+      "unit": "liter"
+    },
+    {
+      "id": "11-T13",
+      "question": "Een cilinder heeft straal 3 cm en hoogte 4 cm. Bereken de inhoud op twee decimalen.",
+      "answer": 113.1,
+      "solution": [
+        "$\\pi\\times9\\times4=36\\pi\\approx113{,}10$ cm³."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "volume"
+      ],
+      "unit": "cm³"
+    },
+    {
+      "id": "11-T14",
+      "question": "Een rechthoek van 10 m bij 7 m mist een hoek van 4 m bij 3 m. Wat is de oppervlakte?",
+      "answer": 58,
+      "solution": [
+        "$70-12=58$ m²."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "area"
+      ],
+      "unit": "m²"
+    },
+    {
+      "id": "11-T15",
+      "question": "Een tuin is 6 m bij 4 m. Buitenom komt aan alle kanten een pad van 0,5 m breed. Wat is de oppervlakte van het pad?",
+      "answer": 11,
+      "solution": [
+        "Buitenmaten 7 bij 5 m.",
+        "$35-24=11$ m²."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "area"
+      ],
+      "unit": "m²"
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "title": "Hoofdstuktoets – Kwadratische functies",
+  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "questions": [
+    {
+      "id": "21-T01",
+      "question": "Bereken f(3) bij f(x)=2x²-x+1.",
+      "answer": 16,
+      "solution": [
+        "18-3+1 = 16."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-T02",
+      "question": "Geef de top van f(x)=3(x-2)²+1.",
+      "answer": "(2;1)",
+      "solution": [
+        "Lees h = 2, k = 1."
+      ],
+      "hints": [],
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-T03",
+      "question": "Wat is de maximale waarde van f(x)=-2(x+1)²+9?",
+      "answer": 9,
+      "solution": [
+        "Het negatieve kwadraat is maximaal nul."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-T04",
+      "question": "Bereken de topinvoer van f(x)=x²-8x+3.",
+      "answer": 4,
+      "solution": [
+        "-b/(2a) = 8/2 = 4."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-T05",
+      "question": "Werk uit: $(x+2)^2-3$.",
+      "answer": "x^2+4x+1",
+      "solution": [
+        "x²+4x+4-3."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "form": "expanded"
+    },
+    {
+      "id": "21-T06",
+      "question": "Ontbind $x^2-5x+6$.",
+      "answer": "(x-2)(x-3)",
+      "solution": [
+        "Som -5, product 6."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "form": "factored"
+    },
+    {
+      "id": "21-T07",
+      "question": "Los x²-5x+6 = 0 op. Geef wortels oplopend.",
+      "solution": [
+        "Factoren x-2 en x-3."
+      ],
+      "hints": [],
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "parts": [
+        {
+          "label": "kleinste wortel",
+          "answer": 2,
+          "type": "numeric"
+        },
+        {
+          "label": "grootste wortel",
+          "answer": 3,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "21-T08",
+      "question": "Los x²-4x = 0 op. Geef wortels oplopend.",
+      "solution": [
+        "x(x-4)=0."
+      ],
+      "hints": [],
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "parts": [
+        {
+          "label": "kleinste wortel",
+          "answer": 0,
+          "type": "numeric"
+        },
+        {
+          "label": "grootste wortel",
+          "answer": 4,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "21-T09",
+      "question": "Los (x-1)² = 16 op. Geef wortels oplopend.",
+      "solution": [
+        "x-1 = ±4."
+      ],
+      "hints": [],
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "parts": [
+        {
+          "label": "kleinste wortel",
+          "answer": -3,
+          "type": "numeric"
+        },
+        {
+          "label": "grootste wortel",
+          "answer": 5,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "21-T10",
+      "question": "Bereken de discriminant van x²+2x-3 = 0.",
+      "answer": 16,
+      "solution": [
+        "4+12 = 16."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-T11",
+      "question": "Hoeveel verschillende reële wortels heeft x²+2x+5 = 0?",
+      "answer": 0,
+      "solution": [
+        "D = 4-20 = -16."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-T12",
+      "question": "Geef de ene verschillende wortel van x²+4x+4 = 0.",
+      "answer": -2,
+      "solution": [
+        "(x+2)² = 0."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-T13",
+      "question": "Los 2x²-8 = 0 op. Geef wortels oplopend.",
+      "solution": [
+        "x² = 4."
+      ],
+      "hints": [],
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "parts": [
+        {
+          "label": "kleinste wortel",
+          "answer": -2,
+          "type": "numeric"
+        },
+        {
+          "label": "grootste wortel",
+          "answer": 2,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "21-T14",
+      "question": "Geef de top van f(x)=x²-4x+7.",
+      "answer": "(2;3)",
+      "solution": [
+        "(x-2)²+3."
+      ],
+      "hints": [],
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "21-T15",
+      "question": "Een rechthoek heeft omtrek 24 m. Wat is de maximaal mogelijke oppervlakte?",
+      "answer": 36,
+      "solution": [
+        "De oppervlakte is -(x-6)²+36.",
+        "Een vierkant van 6 bij 6 m geeft het maximum."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "quadratic-functions"
+      ],
+      "unit": "m²"
+    }
+  ]
+}

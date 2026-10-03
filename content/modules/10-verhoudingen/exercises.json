@@ -1,0 +1,844 @@
+{
+  "exercises": [
+    {
+      "id": "10-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een stok van 2 m heeft een schaduw van 3 m. Tegelijk heeft een toren op dezelfde vlakke grond een schaduw van 18 m. Hoe hoog is de toren?",
+      "hints": [
+        "Vergelijk eerst de twee schaduwlengtes.",
+        "Vermenigvuldig de hoogte van de stok met $18 : 3$."
+      ],
+      "solution": [
+        "De schaduwlengte wordt $18 : 3 = 6$ keer zo groot.",
+        "De hoogte verandert met dezelfde factor: $2 \\times 6 = 12$ m."
+      ],
+      "topics": [
+        "ratios"
+      ],
+      "answer": 12,
+      "unit": "m",
+      "feedback": [
+        {
+          "answer": 17,
+          "message": "Je hebt het verschil van de schaduwlengtes bij de hoogte opgeteld. Gebruik de factor $18 : 3$, niet het verschil $18 - 3$."
+        }
+      ]
+    },
+    {
+      "id": "10-002",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Vereenvoudig $45 : 60$ tot de kleinste gehele getallen. Vul beide getallen in de oorspronkelijke volgorde in.",
+      "hints": [
+        "Zoek een getal waardoor zowel 45 als 60 deelbaar is.",
+        "Beide getallen zijn deelbaar door 15."
+      ],
+      "solution": [
+        "De grootste gemene deler is 15.",
+        "$45 : 15 = 3$ en $60 : 15 = 4$; de verhouding is $3 : 4$."
+      ],
+      "topics": [
+        "ratios"
+      ],
+      "parts": [
+        {
+          "label": "eerste getal",
+          "answer": 3,
+          "type": "numeric"
+        },
+        {
+          "label": "tweede getal",
+          "answer": 4,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "10-003",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Je mengt siroop en water in de verhouding $2 : 7$. Hoeveel dl water hoort bij 6 dl siroop?",
+      "hints": [
+        "Hoeveel keer zo groot wordt de hoeveelheid siroop?",
+        "Pas dezelfde factor op 7 toe."
+      ],
+      "solution": [
+        "Van 2 naar 6 is maal 3.",
+        "Ook het water gaat maal 3: $7 \\times 3 = 21$ dl."
+      ],
+      "topics": [
+        "ratios"
+      ],
+      "answer": 21,
+      "unit": "dl",
+      "feedback": [
+        {
+          "answer": 11,
+          "message": "Je hebt bij beide hoeveelheden 4 opgeteld. Voor dezelfde smaak moet je beide met 3 vermenigvuldigen."
+        }
+      ]
+    },
+    {
+      "id": "10-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Maak de verhouding gelijkwaardig: $5 : 8 = 20 : \\ldots$.",
+      "hints": [
+        "Zoek de factor van 5 naar 20.",
+        "Vermenigvuldig 8 met die factor."
+      ],
+      "solution": [
+        "Van 5 naar 20 is maal 4.",
+        "$8 \\times 4 = 32$."
+      ],
+      "topics": [
+        "ratios"
+      ],
+      "answer": 32
+    },
+    {
+      "id": "10-005",
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Siroop : water = $1 : 4$. Welk deel van alle limonade is siroop? Geef een breuk.",
+      "hints": [
+        "Tel de delen siroop en water op.",
+        "De noemer telt alle delen, inclusief de siroop."
+      ],
+      "solution": [
+        "Het geheel bestaat uit $1+4=5$ delen.",
+        "Daarvan is één deel siroop: $1/5$."
+      ],
+      "topics": [
+        "ratios"
+      ],
+      "answer": "1/5",
+      "feedback": [
+        {
+          "answer": "1/4",
+          "message": "Je vergelijkt siroop met alleen het water. Alle limonade bestaat uit $1+4=5$ delen."
+        }
+      ]
+    },
+    {
+      "id": "10-006",
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Rode : blauwe kralen = $3 : 5$. Welk deel van alle kralen is blauw? Geef een breuk.",
+      "hints": [
+        "Hoeveel delen zijn er samen?",
+        "Vijf van die delen zijn blauw."
+      ],
+      "solution": [
+        "Er zijn $3+5=8$ verhoudingsdelen.",
+        "Blauw is $5/8$ van alle kralen."
+      ],
+      "topics": [
+        "ratios"
+      ],
+      "answer": "5/8"
+    },
+    {
+      "id": "10-007",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "3 meter stof kost € 12 bij een vaste meterprijs. Wat kost 7,5 meter?",
+      "hints": [
+        "Reken eerst de prijs per meter uit.",
+        "Vermenigvuldig de meterprijs met 7,5."
+      ],
+      "solution": [
+        "Per meter betaal je $12 : 3 = 4$ euro.",
+        "$7{,}5 \\times 4 = 30$ euro."
+      ],
+      "topics": [
+        "proportions"
+      ],
+      "answer": 30,
+      "unit": "€"
+    },
+    {
+      "id": "10-008",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "4 kilogram appels kost € 10. De kilogramprijs is vast. Wat kost 7 kilogram?",
+      "hints": [
+        "Gebruik de tussenstap per 1.",
+        "Reken eerst $10 : 4$ en dan maal 7."
+      ],
+      "solution": [
+        "Eén kilogram kost $10 : 4 = 2{,}50$ euro.",
+        "Zeven kilogram kost $7 \\times 2{,}50 = 17{,}50$ euro."
+      ],
+      "topics": [
+        "proportions"
+      ],
+      "answer": 17.5,
+      "unit": "€"
+    },
+    {
+      "id": "10-009",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Voor 6 personen is 450 gram rijst nodig. Hoeveel gram heb je bij hetzelfde recept nodig voor 10 personen?",
+      "hints": [
+        "Hoeveel rijst hoort bij één persoon?",
+        "Vermenigvuldig dat met 10."
+      ],
+      "solution": [
+        "Per persoon is dat $450 : 6 = 75$ g.",
+        "$10 \\times 75 = 750$ g."
+      ],
+      "topics": [
+        "proportions"
+      ],
+      "answer": 750,
+      "unit": "g"
+    },
+    {
+      "id": "10-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bij $3 : 5$ hoort een gelijkwaardige verhouding met 6 als eerste getal. Wat is het tweede getal?",
+      "hints": [
+        "Verhoudingen veranderen met een factor, niet met een verschil.",
+        "Van 3 naar 6 is maal 2."
+      ],
+      "solution": [
+        "Het eerste getal is verdubbeld.",
+        "Verdubbel het tweede ook: $5 \\times 2 = 10$."
+      ],
+      "topics": [
+        "ratios"
+      ],
+      "answer": 10,
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Je hebt bij beide getallen 3 opgeteld. $6/8$ is niet gelijk aan $3/5$; verdubbel beide getallen."
+        }
+      ]
+    },
+    {
+      "id": "10-011",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Verdeel € 240 in de verhouding $2 : 3$. Vul het eerste en tweede bedrag in.",
+      "hints": [
+        "Tel eerst het aantal delen op.",
+        "Deel 240 door 5 en bereken daarna twee en drie delen."
+      ],
+      "solution": [
+        "Samen zijn er $2+3=5$ delen.",
+        "Eén deel is $240 : 5 = 48$ euro.",
+        "De bedragen zijn $2 \\times 48 = 96$ en $3 \\times 48 = 144$ euro."
+      ],
+      "topics": [
+        "ratios"
+      ],
+      "parts": [
+        {
+          "label": "eerste bedrag",
+          "answer": 96,
+          "type": "numeric"
+        },
+        {
+          "label": "tweede bedrag",
+          "answer": 144,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "10-012",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Verdeel 500 gram in de verhouding $2 : 3 : 5$. Vul de drie hoeveelheden in gram in.",
+      "hints": [
+        "Ook bij drie delen tel je alle verhoudingsgetallen op.",
+        "Bereken eerst de massa van één deel."
+      ],
+      "solution": [
+        "Samen zijn er $2+3+5=10$ delen.",
+        "Eén deel is $500 : 10 = 50$ g.",
+        "De hoeveelheden zijn 100 g, 150 g en 250 g; samen 500 g."
+      ],
+      "topics": [
+        "ratios"
+      ],
+      "parts": [
+        {
+          "label": "eerste hoeveelheid",
+          "answer": 100,
+          "type": "numeric"
+        },
+        {
+          "label": "tweede hoeveelheid",
+          "answer": 150,
+          "type": "numeric"
+        },
+        {
+          "label": "derde hoeveelheid",
+          "answer": 250,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "10-013",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Twee bedragen staan in de verhouding $3 : 5$. Het tweede is € 40 groter. Wat is het eerste bedrag?",
+      "hints": [
+        "40 euro is het verschil, niet het totaal.",
+        "Hoeveel verhoudingsdelen is het verschil?"
+      ],
+      "solution": [
+        "Het verschil is $5-3=2$ delen.",
+        "Eén deel is $40 : 2 = 20$ euro.",
+        "Het eerste bedrag is $3 \\times 20 = 60$ euro."
+      ],
+      "topics": [
+        "ratios"
+      ],
+      "answer": 60,
+      "unit": "€"
+    },
+    {
+      "id": "10-014",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een tabel bevat de paren (2 kg, € 7), (4 kg, € 14) en (6 kg, € 21). Wat is de vaste prijs per kilogram?",
+      "hints": [
+        "Deel in elke kolom de prijs door de massa.",
+        "Bereken $7 : 2$."
+      ],
+      "solution": [
+        "De quotiënten zijn $7/2=14/4=21/6=3{,}5$.",
+        "De prijs is € 3,50 per kg."
+      ],
+      "topics": [
+        "proportions"
+      ],
+      "answer": 3.5,
+      "unit": "€/kg"
+    },
+    {
+      "id": "10-015",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een bezorgdienst rekent € 5 starttarief en € 2 per kilometer. Hoeveel kost een rit van 6 km?",
+      "hints": [
+        "Dit is geen recht evenredig verband.",
+        "Tel bij de kilometerkosten nog één keer € 5 op."
+      ],
+      "solution": [
+        "De kilometerkosten zijn $6 \\times 2 = 12$ euro.",
+        "Tel het starttarief één keer op: $12+5=17$ euro."
+      ],
+      "topics": [
+        "proportions"
+      ],
+      "answer": 17,
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 22,
+          "message": "Een rit van 3 km kost € 11, maar verdubbelen verdubbelt ook het starttarief. Dat betaal je slechts één keer."
+        },
+        {
+          "answer": 12,
+          "message": "Je hebt alleen de kilometerkosten berekend. Het starttarief van € 5 komt erbij."
+        }
+      ]
+    },
+    {
+      "id": "10-016",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Zoek het ontbrekende getal: $4 : 7 = \\ldots : 21$.",
+      "hints": [
+        "Van 7 naar 21 is maal 3.",
+        "Pas die factor ook op 4 toe."
+      ],
+      "solution": [
+        "$4 \\times 21 = 7 \\times x$.",
+        "$x=84 : 7=12$; ook zichtbaar met de factor 3."
+      ],
+      "topics": [
+        "proportions"
+      ],
+      "answer": 12
+    },
+    {
+      "id": "10-017",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een route is 6 cm op een kaart met schaal $1 : 25\\,000$. Hoeveel kilometer is dat in werkelijkheid?",
+      "hints": [
+        "Bereken eerst de werkelijke afstand in centimeters.",
+        "Eén kilometer is 100.000 cm."
+      ],
+      "solution": [
+        "$6 \\times 25\\,000 = 150\\,000$ cm.",
+        "$150\\,000 : 100 = 1500$ m, dus 1,5 km."
+      ],
+      "topics": [
+        "unit-conversion"
+      ],
+      "answer": 1.5,
+      "unit": "km",
+      "feedback": [
+        {
+          "answer": 1500,
+          "message": "1500 is de afstand in meters. De vraag vraagt kilometers; deel nog door 1000."
+        }
+      ]
+    },
+    {
+      "id": "10-018",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Op een kaart met schaal $1 : 50\\,000$ meet je 4 cm. Hoeveel meter is dat in werkelijkheid?",
+      "hints": [
+        "Vermenigvuldig de kaartlengte met de schaalnoemer.",
+        "Reken daarna centimeters om naar meters."
+      ],
+      "solution": [
+        "$4 \\times 50\\,000=200\\,000$ cm.",
+        "$200\\,000 : 100=2000$ m."
+      ],
+      "topics": [
+        "unit-conversion"
+      ],
+      "answer": 2000,
+      "unit": "m"
+    },
+    {
+      "id": "10-019",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een kamer is 4 m lang. Hoeveel centimeter wordt dat op een plattegrond met schaal $1 : 50$?",
+      "hints": [
+        "Zet meters eerst om naar centimeters.",
+        "Van werkelijkheid naar tekening deel je door 50."
+      ],
+      "solution": [
+        "4 m is 400 cm.",
+        "De tekening wordt $400 : 50=8$ cm lang."
+      ],
+      "topics": [
+        "unit-conversion"
+      ],
+      "answer": 8,
+      "unit": "cm"
+    },
+    {
+      "id": "10-020",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een weg van 600 m is 3 cm op een kaart. De schaal is $1 : n$. Wat is $n$?",
+      "hints": [
+        "Gebruik voor beide lengtes centimeters.",
+        "Deel beide getallen van de verhouding door 3."
+      ],
+      "solution": [
+        "600 m is 60.000 cm.",
+        "$3 : 60\\,000 = 1 : 20\\,000$."
+      ],
+      "topics": [
+        "unit-conversion"
+      ],
+      "answer": 20000,
+      "feedback": [
+        {
+          "answer": 200,
+          "message": "Je hebt meters en centimeters rechtstreeks vergeleken. Zet 600 m eerst om naar 60.000 cm."
+        }
+      ]
+    },
+    {
+      "id": "10-021",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een rechthoek heeft een oppervlakte van 6 cm². Alle lengtes worden met factor 4 vergroot. Wat is de nieuwe oppervlakte?",
+      "hints": [
+        "Oppervlakte heeft twee lengterichtingen.",
+        "Gebruik de factor $4 \\times 4$."
+      ],
+      "solution": [
+        "De lengte en breedte worden elk maal 4.",
+        "De oppervlakte wordt maal $4^2=16$: $6 \\times 16=96$ cm²."
+      ],
+      "topics": [
+        "proportions"
+      ],
+      "answer": 96,
+      "unit": "cm²",
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Je hebt alleen de lengtefactor gebruikt. Zowel lengte als breedte worden vier keer zo groot; de oppervlaktefactor is 16."
+        }
+      ]
+    },
+    {
+      "id": "10-022",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Je legt 90 km af in 1,5 uur. Wat is je gemiddelde snelheid?",
+      "hints": [
+        "Gebruik $v=s/t$.",
+        "De tijd staat al in uren."
+      ],
+      "solution": [
+        "Gemiddelde snelheid is totale afstand gedeeld door totale tijd.",
+        "$90 : 1{,}5=60$ km/u."
+      ],
+      "topics": [
+        "speed"
+      ],
+      "answer": 60,
+      "unit": "km/u"
+    },
+    {
+      "id": "10-023",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je fietst 45 minuten met 18 km/u. Hoeveel kilometer leg je af?",
+      "hints": [
+        "Reken minuten eerst om naar uren.",
+        "Vermenigvuldig snelheid met tijd in uren."
+      ],
+      "solution": [
+        "$45 : 60 = 0{,}75$ uur.",
+        "$18 \\times 0{,}75=13{,}5$ km."
+      ],
+      "topics": [
+        "speed"
+      ],
+      "answer": 13.5,
+      "unit": "km",
+      "feedback": [
+        {
+          "answer": 8.1,
+          "message": "45 minuten is niet 0,45 uur. Deel 45 door 60 om 0,75 uur te krijgen."
+        }
+      ]
+    },
+    {
+      "id": "10-024",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Je rijdt 150 km met een constante snelheid van 75 km/u. Hoeveel uur duurt de rit?",
+      "hints": [
+        "Gebruik $t=s/v$.",
+        "Hoe vaak past 75 km in 150 km?"
+      ],
+      "solution": [
+        "Tijd is afstand gedeeld door snelheid.",
+        "$150 : 75=2$ uur."
+      ],
+      "topics": [
+        "speed"
+      ],
+      "answer": 2,
+      "unit": "uur"
+    },
+    {
+      "id": "10-025",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Reken 72 km/u om naar m/s.",
+      "hints": [
+        "Het getal bij m/s wordt kleiner.",
+        "Deel door 3,6."
+      ],
+      "solution": [
+        "Van km/u naar m/s deel je door 3,6.",
+        "$72 : 3{,}6=20$ m/s."
+      ],
+      "topics": [
+        "speed"
+      ],
+      "answer": 20,
+      "unit": "m/s"
+    },
+    {
+      "id": "10-026",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Reken 15 m/s om naar km/u.",
+      "hints": [
+        "Het getal bij km/u wordt groter.",
+        "Vermenigvuldig met 3,6."
+      ],
+      "solution": [
+        "Van m/s naar km/u vermenigvuldig je met 3,6.",
+        "$15 \\times 3{,}6=54$ km/u."
+      ],
+      "topics": [
+        "speed"
+      ],
+      "answer": 54,
+      "unit": "km/u"
+    },
+    {
+      "id": "10-027",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Je rijdt 30 km met 30 km/u en daarna 30 km met 60 km/u, zonder pauze. Wat is je gemiddelde snelheid over de hele rit?",
+      "hints": [
+        "Bereken eerst de reistijd van elk stuk.",
+        "Deel de totale afstand door de totale tijd."
+      ],
+      "solution": [
+        "Het eerste deel duurt $30 : 30=1$ uur.",
+        "Het tweede duurt $30 : 60=0{,}5$ uur.",
+        "Totaal: 60 km in 1,5 uur, dus $60 : 1{,}5=40$ km/u."
+      ],
+      "topics": [
+        "speed"
+      ],
+      "answer": 40,
+      "unit": "km/u",
+      "feedback": [
+        {
+          "answer": 45,
+          "message": "Je hebt de twee snelheden gewoon gemiddeld. Je rijdt langer met 30 km/u; gebruik totale afstand gedeeld door totale tijd."
+        }
+      ]
+    },
+    {
+      "id": "10-028",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "750 g koffie kost € 3,60. Wat is de prijs per kilogram?",
+      "hints": [
+        "Zet gram om naar kilogram.",
+        "Deel de prijs door de massa in kilogram."
+      ],
+      "solution": [
+        "750 g is 0,75 kg.",
+        "$3{,}60 : 0{,}75=4{,}80$ euro per kilogram."
+      ],
+      "topics": [
+        "unit-conversion"
+      ],
+      "answer": 4.8,
+      "unit": "€/kg"
+    },
+    {
+      "id": "10-029",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een homogeen blok heeft massa 160 g en volume 20 cm³. Wat is de dichtheid?",
+      "hints": [
+        "Hoeveel gram hoort bij één cm³?",
+        "Deel 160 door 20."
+      ],
+      "solution": [
+        "Dichtheid is massa gedeeld door volume.",
+        "$160 : 20=8$ g/cm³."
+      ],
+      "topics": [
+        "proportions"
+      ],
+      "answer": 8,
+      "unit": "g/cm³"
+    },
+    {
+      "id": "10-030",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een materiaal heeft een dichtheid van 2,7 g/cm³. Wat is de massa van 50 cm³ van dit materiaal?",
+      "hints": [
+        "Bij elke cm³ hoort 2,7 gram.",
+        "Vermenigvuldig 2,7 met 50."
+      ],
+      "solution": [
+        "Massa is dichtheid maal volume.",
+        "$2{,}7 \\times 50=135$ g."
+      ],
+      "topics": [
+        "proportions"
+      ],
+      "answer": 135,
+      "unit": "g"
+    },
+    {
+      "id": "10-031",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bij een ideale snaar blijven spanning en massa per lengte gelijk. Je verkort de trillende lengte van 60 naar 30 cm. Met welke factor wordt de frequentie vermenigvuldigd?",
+      "hints": [
+        "Korter geeft hier een hogere toon.",
+        "Halve lengte betekent dubbele frequentie."
+      ],
+      "solution": [
+        "De trillende lengte halveert.",
+        "Bij deze voorwaarden is frequentie omgekeerd evenredig met lengte; de frequentie verdubbelt."
+      ],
+      "topics": [
+        "ratios"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "10-032",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken de verhouding $13/8$ als decimaal. Rond af op drie cijfers na de komma.",
+      "hints": [
+        "Deel 13 door 8.",
+        "Je kunt 13 splitsen in 8 en 5."
+      ],
+      "solution": [
+        "$13 : 8=1{,}625$.",
+        "Dit benadert de gulden snede, maar is er niet exact aan gelijk."
+      ],
+      "topics": [
+        "ratios"
+      ],
+      "answer": 1.625
+    },
+    {
+      "id": "10-033",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een recept gebruikt voor 4 personen 300 g rijst en 600 ml bouillon. Hoeveel heb je nodig voor 6 personen? Vul gram en milliliter in.",
+      "hints": [
+        "Dezelfde factor geldt voor beide ingrediënten.",
+        "Vermenigvuldig beide hoeveelheden met 1,5."
+      ],
+      "solution": [
+        "De factor is $6 : 4=1{,}5$.",
+        "Rijst: $300 \\times 1{,}5=450$ g.",
+        "Bouillon: $600 \\times 1{,}5=900$ ml."
+      ],
+      "topics": [
+        "proportions"
+      ],
+      "parts": [
+        {
+          "label": "rijst (g)",
+          "answer": 450,
+          "type": "numeric"
+        },
+        {
+          "label": "bouillon (ml)",
+          "answer": 900,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "10-034",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een wandeling van 8 km is 4 cm op de kaart. De schaal is $1 : n$. Wat is $n$?",
+      "hints": [
+        "Gebruik dezelfde eenheid voor beide afstanden.",
+        "Eén kilometer is 100.000 cm."
+      ],
+      "solution": [
+        "8 km is 800.000 cm.",
+        "$4 : 800\\,000 = 1 : 200\\,000$."
+      ],
+      "topics": [
+        "unit-conversion"
+      ],
+      "answer": 200000
+    },
+    {
+      "id": "10-035",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Voor deze rekenopgave geldt een vaste koers: € 1 = 1,20 dollar. Wisselen kost een vaste € 3; die wordt eerst van je € 80 afgehaald. Hoeveel dollar ontvang je?",
+      "hints": [
+        "Trek de vaste kosten eerst af.",
+        "Pas daarna de koers op het overgebleven bedrag toe."
+      ],
+      "solution": [
+        "Na aftrek blijft $80-3=77$ euro over.",
+        "$77 \\times 1{,}20=92{,}40$ dollar."
+      ],
+      "topics": [
+        "proportions"
+      ],
+      "answer": 92.4,
+      "unit": "dollar",
+      "feedback": [
+        {
+          "answer": 96,
+          "message": "Je hebt de vaste kosten vergeten. Alleen de overgebleven € 77 wordt omgewisseld."
+        }
+      ]
+    },
+    {
+      "id": "10-036",
+      "type": "fraction",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Je hebt 3 liter limonade met siroop : water = $1 : 5$. Je voegt alleen siroop toe tot de verhouding $1 : 3$ is. Hoeveel liter siroop voeg je toe? Geef een exacte breuk.",
+      "hints": [
+        "Bereken eerst hoeveel siroop en water er in 3 liter zitten.",
+        "Het water blijft 2,5 liter. Dat moet drie verhoudingsdelen worden."
+      ],
+      "solution": [
+        "Het mengsel heeft zes delen: één deel is $3 : 6=1/2$ liter.",
+        "Er is $1/2$ liter siroop en $5/2$ liter water.",
+        "Het water blijft gelijk. Voor $1 : 3$ moet de siroop $(5/2) : 3=5/6$ liter zijn.",
+        "Toevoegen: $5/6-1/2=5/6-3/6=1/3$ liter.",
+        "Controle: $(5/6) : (5/2) = 1 : 3$."
+      ],
+      "topics": [
+        "ratios"
+      ],
+      "answer": "1/3",
+      "unit": "liter",
+      "feedback": [
+        {
+          "answer": "5/6",
+          "message": "Dat is de nieuwe totale hoeveelheid siroop. Trek de al aanwezige halve liter nog af."
+        }
+      ]
+    }
+  ]
+}

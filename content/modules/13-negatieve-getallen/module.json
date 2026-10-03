@@ -4,10 +4,10 @@
   "title": "Negatieve getallen",
   "part": 3,
   "level": "vmbo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Oud-China en India",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 150,
   "prerequisites": [
     12
   ],
@@ -15,12 +15,112 @@
     "negative-numbers",
     "number-line"
   ],
-  "core_question": null,
-  "summary": "Chinese en Indiase wiskunde.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Hoe reken je met een tekort, een temperatuur onder nul of een positie links van het nulpunt?",
+  "summary": "De getallenlijn voorbij nul: vergelijken, absolute waarde en rekenen met tekens. Met schuld en bezit als model en de Chinese en Indiase rekenkunde als context.",
+  "learning_goals": [
+    "Je plaatst positieve en negatieve getallen op de getallenlijn en vergelijkt ze.",
+    "Je onderscheidt een negatief getal, aftrekken en het nemen van een tegengestelde.",
+    "Je berekent absolute waarden en afstanden tussen getallen.",
+    "Je telt getallen met verschillende tekens op en trekt negatieve getallen af.",
+    "Je vermenigvuldigt en deelt getallen met tekens en verklaart de tekenregels.",
+    "Je gebruikt haakjes en de volgorde van bewerkingen correct.",
+    "Je interpreteert negatieve uitkomsten in een concrete situatie."
+  ],
+  "glossary": [
+    {
+      "term": "Negatief getal",
+      "definition": "Een getal kleiner dan nul, links van nul op de getallenlijn."
+    },
+    {
+      "term": "Tegengestelde",
+      "definition": "Van a is -a de tegengestelde: samen tellen ze op tot nul."
+    },
+    {
+      "term": "Absolute waarde",
+      "definition": "De afstand tot nul, genoteerd als $|a|$; deze is nooit negatief."
+    },
+    {
+      "term": "Saldo",
+      "definition": "Het verschil tussen wat beschikbaar is en wat verschuldigd is, volgens een gekozen tekenafspraak."
+    },
+    {
+      "term": "Tekenregel",
+      "definition": "Een regel voor het positieve of negatieve teken van een product of quotiënt."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Aftrekken",
+      "latex": "a-b=a+(-b)",
+      "usage": "Trek af door de tegengestelde op te tellen."
+    },
+    {
+      "name": "Tegengestelde van een tegengestelde",
+      "latex": "-(-a)=a",
+      "usage": "Tweemaal de richting omkeren herstelt het oorspronkelijke getal."
+    },
+    {
+      "name": "Afstand",
+      "latex": "\\text{afstand tussen }a\\text{ en }b=|a-b|",
+      "usage": "Een afstand is niet-negatief."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een tekort is ook een getal",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "getallenlijn",
+      "title": "Volgorde en afstand",
+      "kind": "theory",
+      "file": "02-getallenlijn.md"
+    },
+    {
+      "slug": "optellen-en-aftrekken",
+      "title": "Veranderen in twee richtingen",
+      "kind": "theory",
+      "file": "03-optellen-en-aftrekken.md"
+    },
+    {
+      "slug": "vermenigvuldigen-en-delen",
+      "title": "Waarom min maal min plus is",
+      "kind": "theory",
+      "file": "04-vermenigvuldigen-en-delen.md"
+    },
+    {
+      "slug": "rekenvolgorde",
+      "title": "Haakjes en rekenvolgorde",
+      "kind": "theory",
+      "file": "05-rekenvolgorde.md"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Bezittingen en schulden als rekenmodel",
+      "kind": "history",
+      "file": "06-historisch-intermezzo.md"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Veranderingen bijhouden",
+      "kind": "practice",
+      "file": "07-praktijk-en-uitdaging.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
+  "timeline": [
+    "chinese-rekenstaafjes",
+    "negen-hoofdstukken",
+    "brahmagupta"
+  ],
+  "mathematicians": [
+    "brahmagupta"
+  ]
 }

@@ -4,10 +4,10 @@
   "title": "Machten en wortels",
   "part": 3,
   "level": "vmbo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Oudheid",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 160,
   "prerequisites": [
     13
   ],
@@ -15,12 +15,122 @@
     "powers",
     "roots"
   ],
-  "core_question": null,
-  "summary": "Kwadraat, machten, exponent en vierkantswortel.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
+  "core_question": "Hoe beschrijf je herhaalde vermenigvuldiging, en hoe vind je de zijde terug als je een vierkante oppervlakte kent?",
+  "summary": "Machten, exponenten en vierkantswortels; rekenregels, negatieve grondtallen en wetenschappelijke notatie. Je onderscheidt een exacte wortel van een benadering.",
+  "learning_goals": [
+    "Je leest een macht als herhaalde vermenigvuldiging en benoemt grondtal en exponent.",
+    "Je rekent met machten, inclusief negatieve grondtallen en haakjes.",
+    "Je gebruikt product-, quotiënt- en machtregels onder de juiste voorwaarden.",
+    "Je verklaart exponent nul en negatieve gehele exponenten voor een niet-nulgrondtal.",
+    "Je berekent vierkantswortels en onderscheidt de hoofdwortel van oplossingen van een kwadraatvergelijking.",
+    "Je schat wortels tussen twee kwadraten en vereenvoudigt eenvoudige wortelvormen.",
+    "Je leest en schrijft wetenschappelijke notatie."
+  ],
+  "glossary": [
+    {
+      "term": "Grondtal",
+      "definition": "Het getal dat herhaald wordt vermenigvuldigd."
+    },
+    {
+      "term": "Exponent",
+      "definition": "Het getal rechtsboven dat bij positieve gehele exponenten het aantal factoren telt."
+    },
+    {
+      "term": "Kwadraat",
+      "definition": "Een tweede macht: het product van een getal met zichzelf."
+    },
+    {
+      "term": "Vierkantswortel",
+      "definition": "De niet-negatieve waarde waarvan het kwadraat het gegeven niet-negatieve getal is."
+    },
+    {
+      "term": "Volkomen kwadraat",
+      "definition": "Het kwadraat van een geheel getal, zoals 49."
+    },
+    {
+      "term": "Wetenschappelijke notatie",
+      "definition": "Schrijfwijze $a\\times10^n$ met $1\\leq|a|<10$ en een gehele exponent n, voor een niet-nulgetal."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Product van machten",
+      "latex": "a^m a^n=a^{m+n}",
+      "usage": "Het grondtal moet hetzelfde zijn."
+    },
+    {
+      "name": "Quotiënt van machten",
+      "latex": "\\frac{a^m}{a^n}=a^{m-n}",
+      "usage": "Het grondtal is niet nul."
+    },
+    {
+      "name": "Macht van een macht",
+      "latex": "(a^m)^n=a^{mn}",
+      "usage": "Vermenigvuldig de exponenten."
+    },
+    {
+      "name": "Nul en negatieve exponent",
+      "latex": "a^0=1,\\qquad a^{-n}=\\frac1{a^n}",
+      "usage": "Voor a niet nul en positieve gehele n."
+    },
+    {
+      "name": "Wortel van een kwadraat",
+      "latex": "\\sqrt{a^2}=|a|",
+      "usage": "De hoofdwortel is niet-negatief."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Verdubbelen en terugrekenen",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "machten",
+      "title": "Grondtal en exponent",
+      "kind": "theory",
+      "file": "02-machten.md"
+    },
+    {
+      "slug": "machtsregels",
+      "title": "Rekenregels uit factoren",
+      "kind": "theory",
+      "file": "03-machtsregels.md"
+    },
+    {
+      "slug": "vierkantswortels",
+      "title": "De hoofdwortel en twee oplossingen",
+      "kind": "theory",
+      "file": "04-vierkantswortels.md"
+    },
+    {
+      "slug": "schatten-en-notatie",
+      "title": "Wortels schatten en getallen compact schrijven",
+      "kind": "theory",
+      "file": "05-schatten-en-notatie.md"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Een benadering op een kleitablet",
+      "kind": "history",
+      "file": "06-historisch-intermezzo.md"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Schaal, oppervlakten en snelle groei",
+      "kind": "practice",
+      "file": "07-praktijk-en-uitdaging.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
+  "timeline": [
+    "plimpton-322"
+  ],
   "mathematicians": []
 }

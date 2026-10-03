@@ -1,0 +1,551 @@
+{
+  "exercises": [
+    {
+      "id": "16-001",
+      "question": "Los op: $2x+6=18$.",
+      "answer": 6,
+      "solution": [
+        "Trek 6 af: $2x=12$.",
+        "Deel door 2: x = 6."
+      ],
+      "hints": [
+        "Verwijder eerst de vaste 6."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-002",
+      "question": "Los op: $x+7=19$.",
+      "answer": 12,
+      "solution": [
+        "Trek 7 van beide kanten af: x = 12."
+      ],
+      "hints": [
+        "Welke bewerking maakt +7 ongedaan?"
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-003",
+      "question": "Los op: $4x=28$.",
+      "answer": 7,
+      "solution": [
+        "Deel beide kanten door 4."
+      ],
+      "hints": [
+        "x is de ontbrekende factor."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-004",
+      "question": "Los op: $3x-5=16$.",
+      "answer": 7,
+      "solution": [
+        "Tel 5 op: $3x=21$.",
+        "Deel door 3: x = 7."
+      ],
+      "hints": [
+        "Eerst de aftrekking ongedaan maken."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-005",
+      "question": "Los op: $x-9=-4$.",
+      "answer": 5,
+      "solution": [
+        "Tel 9 op: $x=5$."
+      ],
+      "hints": [
+        "Doe hetzelfde aan beide kanten."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-006",
+      "question": "Los op: $-3x=18$.",
+      "answer": -6,
+      "solution": [
+        "Deel door -3: x = -6."
+      ],
+      "hints": [
+        "De coëfficiënt is negatief."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-007",
+      "question": "Los op: $4x=10$. Geef een exacte breuk.",
+      "answer": "5/2",
+      "solution": [
+        "$x=10/4=5/2$."
+      ],
+      "hints": [
+        "Deel door 4 en vereenvoudig."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-008",
+      "question": "Los op: $5x+2=2x+17$.",
+      "answer": 5,
+      "solution": [
+        "Trek 2x af: $3x+2=17$.",
+        "Trek 2 af; deel door 3."
+      ],
+      "hints": [
+        "Verzamel x-termen aan één kant."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-009",
+      "question": "Los op: $2(x+3)=3x-4$.",
+      "answer": 10,
+      "solution": [
+        "$2x+6=3x-4$.",
+        "Trek 2x af en tel 4 op: x = 10."
+      ],
+      "hints": [
+        "Werk eerst de haakjes weg."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-010",
+      "question": "Los op: $4x+10=2$.",
+      "answer": -2,
+      "solution": [
+        "$4x=-8$.",
+        "$x=-2$."
+      ],
+      "hints": [
+        "Een negatieve oplossing mag."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-011",
+      "question": "Los op: $3(x-2)=12$.",
+      "answer": 6,
+      "solution": [
+        "Deel door 3: $x-2=4$.",
+        "Tel 2 op: x = 6."
+      ],
+      "hints": [
+        "Hier kun je ook eerst de hele kant door 3 delen."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-012",
+      "question": "Los op: $5-(x-2)=1$.",
+      "answer": 6,
+      "solution": [
+        "Links wordt $7-x$.",
+        "$7-x=1$ geeft $-x=-6$, dus x = 6."
+      ],
+      "hints": [
+        "Het minteken verandert beide termen in de haakjes."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-013",
+      "question": "Los op: $7x-4=3x+20$.",
+      "answer": 6,
+      "solution": [
+        "$4x-4=20$.",
+        "$4x=24$, dus x = 6."
+      ],
+      "hints": [
+        "Trek 3x af."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-014",
+      "question": "Los op: $x/3+2=7$.",
+      "answer": 15,
+      "solution": [
+        "$x/3=5$.",
+        "Vermenigvuldig met 3: x = 15."
+      ],
+      "hints": [
+        "Trek eerst 2 af."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-015",
+      "question": "Los op: $(x+2)/3=5$.",
+      "answer": 13,
+      "solution": [
+        "Vermenigvuldig met 3: $x+2=15$.",
+        "Trek 2 af."
+      ],
+      "hints": [
+        "De hele som wordt door 3 gedeeld."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-016",
+      "question": "Los op: $x/2+x/3=5$.",
+      "answer": 6,
+      "solution": [
+        "Maal 6: $3x+2x=30$.",
+        "$5x=30$, dus x = 6."
+      ],
+      "hints": [
+        "Een gemeenschappelijke noemer is 6."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-017",
+      "question": "Los op: $x/2+3=8$.",
+      "answer": 10,
+      "solution": [
+        "Maal 2: $x+6=16$.",
+        "Dus x = 10."
+      ],
+      "hints": [
+        "Elke term krijgt de factor 2."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-018",
+      "question": "Los op: $1/x=2$, met x ≠ 0. Geef een breuk.",
+      "answer": "1/2",
+      "solution": [
+        "Maal x: $1=2x$.",
+        "Dus x = 1/2, en die is niet nul."
+      ],
+      "hints": [
+        "Bewaar de voorwaarde x ≠ 0."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-019",
+      "question": "Voor hoeveel reële waarden is $2x+3=2x+5$ waar? Geef het aantal.",
+      "answer": 0,
+      "solution": [
+        "Na aftrekken van 2x staat $3=5$.",
+        "Dat is altijd onwaar; nul oplossingen."
+      ],
+      "hints": [
+        "Laat de x-termen verdwijnen."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-020",
+      "question": "Is x = 4 een oplossing van $2(x+3)=2x+6$? Geef de gemeenschappelijke waarde van beide kanten.",
+      "answer": 14,
+      "solution": [
+        "Links $2\\times7=14$; rechts $8+6=14$."
+      ],
+      "hints": [
+        "Deze vergelijking is een identiteit."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-021",
+      "question": "Maak l vrij in $P=2l+2b$. Geef de expressie voor l.",
+      "answer": "(P-2b)/2",
+      "solution": [
+        "Trek 2b af: $P-2b=2l$.",
+        "Deel door 2."
+      ],
+      "hints": [
+        "Behandel P en b als gegeven letters."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "16-022",
+      "question": "Maak t vrij in $s=vt$, met v ≠ 0. Geef de expressie voor t.",
+      "answer": "s/v",
+      "solution": [
+        "Deel door v: $t=s/v$."
+      ],
+      "hints": [
+        "Deel alleen omdat v niet nul is."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "16-023",
+      "question": "De kandidaat x = -3 wordt gecontroleerd in $x^2=9$. Bereken het linker lid.",
+      "answer": 9,
+      "solution": [
+        "$(-3)^2=9$.",
+        "De kandidaat voldoet ook, naast x = 3."
+      ],
+      "hints": [
+        "Een kwadraat kan het teken verliezen."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-024",
+      "question": "Een prijsregel is $8+3n$. Bij een totaal van € 44: hoeveel exemplaren n zijn besteld?",
+      "answer": 12,
+      "solution": [
+        "$8+3n=44$.",
+        "$3n=36$, dus n = 12."
+      ],
+      "hints": [
+        "Stel de expressie gelijk aan het totaal."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-025",
+      "question": "Een rechthoek heeft lengte x+3 en breedte x. De omtrek is 26 cm. Bereken x in cm.",
+      "answer": 5,
+      "solution": [
+        "$2(x+3)+2x=26$.",
+        "$4x+6=26$, dus x = 5."
+      ],
+      "hints": [
+        "Schrijf eerst de omtrek in x."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "equations"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "16-026",
+      "question": "Een getal wordt verdubbeld en daarna met 7 verhoogd. De uitkomst is 25. Wat is het getal?",
+      "answer": 9,
+      "solution": [
+        "$2x+7=25$.",
+        "$2x=18$, dus x = 9."
+      ],
+      "hints": [
+        "Vertaal de twee bewerkingen."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-027",
+      "question": "Drie opeenvolgende gehele getallen hebben som 36. Wat is het kleinste?",
+      "answer": 11,
+      "solution": [
+        "$x+(x+1)+(x+2)=36$.",
+        "$3x+3=36$, dus x = 11."
+      ],
+      "hints": [
+        "Noem het kleinste x."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-028",
+      "question": "Los op: $(3x-1)/4=2$. Geef een exacte breuk.",
+      "answer": "3/1",
+      "solution": [
+        "Maal 4: $3x-1=8$.",
+        "$3x=9$, dus x = 3."
+      ],
+      "hints": [
+        "Werk de deling eerst weg."
+      ],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-029",
+      "question": "Los op: $0{,}5x+3=8$.",
+      "answer": 10,
+      "solution": [
+        "$0{,}5x=5$.",
+        "$x=5:0{,}5=10$."
+      ],
+      "hints": [
+        "Een halve keer x moet 5 zijn."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-030",
+      "question": "Tarief A: € 12 vast + € 2 per gebruik. Tarief B: € 4 vast + € 3 per gebruik. Geef het aantal gebruiken waarbij ze gelijk zijn en de gemeenschappelijke prijs.",
+      "solution": [
+        "$12+2n=4+3n$.",
+        "Trek 2n en 4 af: n = 8.",
+        "Prijs $12+16=28$ euro."
+      ],
+      "hints": [
+        "Stel de twee prijsregels gelijk.",
+        "Vul het gevonden aantal in beide tarieven in."
+      ],
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 3,
+      "topics": [
+        "equations"
+      ],
+      "parts": [
+        {
+          "label": "aantal gebruiken",
+          "answer": 8,
+          "type": "numeric"
+        },
+        {
+          "label": "prijs (€)",
+          "answer": 28,
+          "type": "numeric"
+        }
+      ]
+    }
+  ]
+}

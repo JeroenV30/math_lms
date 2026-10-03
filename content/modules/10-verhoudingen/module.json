@@ -4,24 +4,197 @@
   "title": "Verhoudingen",
   "part": 2,
   "level": "basisschool",
-  "status": "planned",
-  "historical_period": "Klassiek Griekenland",
+  "status": "available",
+  "historical_period": "Klassiek Griekenland tot de handelsrekenkunde",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 150,
   "prerequisites": [
     9
   ],
   "topics": [
     "ratios",
     "proportions",
-    "speed"
+    "speed",
+    "unit-conversion"
   ],
-  "core_question": null,
-  "summary": "De Griekse proportieleer.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Hoe kon Thales de hoogte van een piramide bepalen zonder erop te klimmen – en waarom is twee keer zoveel siroop niet hetzelfde als twee scheutjes extra?",
+  "summary": "Verhoudingen, verhoudingstabellen en evenredigheid; schaal op kaarten en plattegronden; delen in een gegeven verhouding; snelheid, dichtheid en prijs per eenheid. Met de Griekse proportieleer van Pythagoras en Euclides, de gulden snede zonder mythes en de regel van drieën uit de handelsrekenkunde.",
+  "learning_goals": [
+    "Je kunt een verhouding als $a : b$ opschrijven, vereenvoudigen en herkennen wanneer twee verhoudingen gelijk zijn.",
+    "Je onderscheidt deel-deelverhoudingen (siroop : water) van deel-geheelverhoudingen (siroop als deel van de limonade) en kunt een verhouding omzetten in een breuk van het geheel.",
+    "Je gebruikt een verhoudingstabel om evenredig door te rekenen, ook via de tussenstap 'per 1' (de regel van drieën).",
+    "Je herkent de fout van het 'additief denken' ($3 : 5$ wordt níét $6 : 8$) en kunt uitleggen waarom verhoudingen over keer gaan en niet over plus.",
+    "Je kunt een hoeveelheid verdelen in een gegeven verhouding, ook met drie delen of als alleen het verschil gegeven is.",
+    "Je herkent of twee grootheden recht evenredig zijn (vaste factor, grafiek door de oorsprong) en wanneer niet (bijvoorbeeld door een vast starttarief).",
+    "Je rekent met schaal: van kaart naar werkelijkheid, van werkelijkheid naar kaart, en je bepaalt zelf de schaal van een kaart.",
+    "Je rekent met snelheid, afstand en tijd, en rekent km/u om naar m/s en omgekeerd met de factor 3,6.",
+    "Je gebruikt prijs per eenheid en dichtheid om hoeveelheden eerlijk te vergelijken.",
+    "Je kunt vertellen hoe de Pythagoreeërs verhoudingen in de muziek zagen, wat Eudoxus en boek V van Euclides' Elementen bijdroegen, wat er wel en niet klopt van de verhalen over de gulden snede, en hoe de regel van drieën via India, de Arabische wereld en Fibonacci de Europese handel bereikte."
+  ],
+  "glossary": [
+    {
+      "term": "Verhouding",
+      "definition": "Een vergelijking van twee (of meer) hoeveelheden door te kijken hoe vaak de ene in de andere past. Je schrijft $3 : 5$ en leest 'drie staat tot vijf'."
+    },
+    {
+      "term": "Gelijkwaardige verhoudingen",
+      "definition": "Verhoudingen die hetzelfde uitdrukken, zoals $3 : 5$, $6 : 10$ en $30 : 50$. Je krijgt ze door beide getallen met hetzelfde getal te vermenigvuldigen of door hetzelfde getal te delen."
+    },
+    {
+      "term": "Vereenvoudigen",
+      "definition": "Beide getallen van een verhouding delen door hun grootste gemene deler, zodat je de kleinste hele getallen overhoudt: $45 : 60 = 3 : 4$."
+    },
+    {
+      "term": "Deel-deelverhouding",
+      "definition": "Een verhouding tussen twee delen van een geheel, zoals siroop : water = $1 : 4$."
+    },
+    {
+      "term": "Deel-geheelverhouding",
+      "definition": "Een verhouding tussen een deel en het geheel. Bij siroop : water = $1 : 4$ is de siroop $\\frac{1}{5}$ van de limonade."
+    },
+    {
+      "term": "Verhoudingstabel",
+      "definition": "Een tabel met twee rijen waarin elke kolom dezelfde verhouding heeft. Wat je in de ene rij doet (× of :), doe je ook in de andere."
+    },
+    {
+      "term": "Recht evenredig",
+      "definition": "Twee grootheden zijn recht evenredig als het quotiënt steeds hetzelfde is: twee keer zoveel van het een geeft twee keer zoveel van het ander. De grafiek is een rechte lijn door de oorsprong."
+    },
+    {
+      "term": "Evenredigheidsfactor",
+      "definition": "Het vaste getal waarmee je de ene grootheid vermenigvuldigt om de andere te krijgen, bijvoorbeeld de prijs per liter of de snelheid."
+    },
+    {
+      "term": "Evenredigheid",
+      "definition": "Een gelijkheid van twee verhoudingen: $a : b = c : d$. Dan geldt ook de productregel $a \\times d = b \\times c$ ('kruislings vermenigvuldigen')."
+    },
+    {
+      "term": "Regel van drieën",
+      "definition": "De oude handelsregel om bij drie bekende getallen van een evenredigheid het vierde te vinden: 'als 2 pond 7 stuivers kost, wat kost 10 pond?' Latijn: *regula de tri*."
+    },
+    {
+      "term": "Schaal",
+      "definition": "De verhouding tussen een lengte op een kaart, tekening of maquette en de echte lengte. Bij $1 : 25\\,000$ is 1 cm op de kaart 25.000 cm (250 m) in werkelijkheid."
+    },
+    {
+      "term": "Snelheid",
+      "definition": "Afgelegde afstand per tijdseenheid, bijvoorbeeld kilometer per uur (km/u) of meter per seconde (m/s). Gemiddelde snelheid = totale afstand : totale tijd."
+    },
+    {
+      "term": "Dichtheid",
+      "definition": "Massa per volume-eenheid, bijvoorbeeld gram per kubieke centimeter (g/cm³). IJzer heeft een dichtheid van ongeveer 7,9 g/cm³."
+    },
+    {
+      "term": "Gulden snede",
+      "definition": "De verdeling van een lijnstuk in twee stukken zodat het geheel zich tot het grote stuk verhoudt als het grote stuk tot het kleine. De verhouding is ongeveer $1{,}618 : 1$."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Gelijkwaardige verhoudingen",
+      "latex": "a : b = (k \\cdot a) : (k \\cdot b)",
+      "usage": "Beide getallen met hetzelfde getal $k$ vermenigvuldigen (of erdoor delen) verandert de verhouding niet. Optellen of aftrekken wel.",
+      "origin": "De Griekse proportieleer; bij Euclides voor getallen in boek VII van de Elementen."
+    },
+    {
+      "name": "Productregel (kruislings vermenigvuldigen)",
+      "latex": "\\frac{a}{b} = \\frac{c}{d} \\iff a \\cdot d = b \\cdot c",
+      "usage": "Om bij drie bekende getallen van een evenredigheid het vierde te vinden.",
+      "origin": "Euclides, Elementen VII (getallen) en VI (lijnstukken); in de middeleeuwse handelsrekenkunde de basis van de regel van drieën."
+    },
+    {
+      "name": "Verdelen in een verhouding",
+      "latex": "\\text{deel} = \\frac{\\text{aantal delen}}{\\text{totaal aantal delen}} \\times \\text{totaal}",
+      "usage": "Tel eerst alle delen op, bereken de waarde van één deel en vermenigvuldig.",
+      "origin": "Al in de Rhind-papyrus en bij de verdeling van erfenissen en handelswinsten."
+    },
+    {
+      "name": "Schaal",
+      "latex": "\\text{werkelijke lengte} = \\text{kaartlengte} \\times n \\quad \\text{bij schaal } 1 : n",
+      "usage": "Van kaart naar werkelijkheid vermenigvuldig je met $n$; van werkelijkheid naar kaart deel je door $n$. Zet daarna de eenheid om.",
+      "origin": "Kaarten op een vaste schaal werden gangbaar met de landmeting van de 16e–19e eeuw."
+    },
+    {
+      "name": "Snelheid, afstand en tijd",
+      "latex": "v = \\frac{s}{t}, \\qquad s = v \\cdot t, \\qquad t = \\frac{s}{v}",
+      "usage": "$v$ is snelheid, $s$ afstand, $t$ tijd. Zorg dat de eenheden bij elkaar passen (km en uur, of m en s).",
+      "origin": "Snelheid als verhouding van afstand en tijd; als eigen grootheid uitgewerkt in de middeleeuwse en vroegmoderne natuurkunde."
+    },
+    {
+      "name": "Van km/u naar m/s",
+      "latex": "1\\ \\text{m/s} = 3{,}6\\ \\text{km/u}",
+      "usage": "Van m/s naar km/u: × 3,6. Van km/u naar m/s: : 3,6. Want 1 km/u = 1000 m per 3600 s.",
+      "origin": "Volgt direct uit 1 km = 1000 m en 1 uur = 3600 s."
+    },
+    {
+      "name": "Dichtheid",
+      "latex": "\\rho = \\frac{m}{V}",
+      "usage": "Dichtheid $\\rho$ (rho) is massa $m$ gedeeld door volume $V$, bijvoorbeeld in g/cm³.",
+      "origin": "Het idee gaat terug op de Griekse oudheid; de formule is de moderne schrijfwijze."
+    },
+    {
+      "name": "Gulden snede",
+      "latex": "\\frac{a + b}{a} = \\frac{a}{b} = \\varphi = \\frac{1 + \\sqrt{5}}{2} \\approx 1{,}618",
+      "usage": "Een lijnstuk in de gulden snede verdelen; de verhoudingen van opeenvolgende Fibonaccigetallen naderen $\\varphi$.",
+      "origin": "Euclides, Elementen VI, definitie 3 ('uiterste en middelste reden'); de naam 'gulden snede' is pas uit de 18e–19e eeuw."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "De schaduw van de piramide",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "verhoudingen-en-tabellen",
+      "title": "Verhoudingen en verhoudingstabellen",
+      "file": "02-theorie-a.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "evenredigheid-en-schaal",
+      "title": "Evenredigheid en schaal",
+      "file": "03-theorie-b.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "snelheid-en-per-eenheid",
+      "title": "Snelheid, dichtheid en prijs per eenheid",
+      "file": "03b-theorie-c.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Van de snaren van Pythagoras tot de regel van drieën",
+      "file": "04-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Recepten, routes, wisselkoersen en mengsels",
+      "file": "05-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "06-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "pythagoras",
+    "euclides-elementen",
+    "brahmagupta",
+    "al-khwarizmi",
+    "fibonacci-liber-abaci"
+  ],
+  "mathematicians": [
+    "pythagoras",
+    "euclides",
+    "brahmagupta",
+    "al-khwarizmi",
+    "fibonacci"
+  ]
 }

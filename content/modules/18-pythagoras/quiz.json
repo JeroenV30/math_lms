@@ -1,0 +1,248 @@
+{
+  "title": "Hoofdstuktoets – De stelling van Pythagoras",
+  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "questions": [
+    {
+      "id": "18-T01",
+      "question": "Een rechthoekige driehoek heeft zijden 5, 12, 13. Welke lengte is de schuine zijde?",
+      "answer": 13,
+      "solution": [
+        "De langste zijde ligt tegenover de rechte hoek."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-T02",
+      "question": "Rechthoekszijden zijn 9 en 12. Bereken de schuine zijde.",
+      "answer": 15,
+      "solution": [
+        "$81+144=225$; wortel 15."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-T03",
+      "question": "Schuine zijde 17, een rechthoekszijde 8. Bereken de andere.",
+      "answer": 15,
+      "solution": [
+        "$289-64=225$; wortel 15."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-T04",
+      "question": "Rechthoekszijden zijn 7 en 24. Bereken de schuine zijde.",
+      "answer": 25,
+      "solution": [
+        "$49+576=625$; wortel 25."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-T05",
+      "question": "Schuine zijde 25, een rechthoekszijde 15. Bereken de andere.",
+      "answer": 20,
+      "solution": [
+        "$625-225=400$; wortel 20."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-T06",
+      "question": "Rechthoekszijden zijn 3 en 5. Bereken de schuine zijde op twee decimalen.",
+      "answer": 5.83,
+      "solution": [
+        "$\\sqrt{34}\\approx5{,}83$."
+      ],
+      "hints": [],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-T07",
+      "question": "Rechthoekszijden zijn 60 cm en 0,8 m. Bereken de schuine zijde in cm.",
+      "answer": 100,
+      "solution": [
+        "60 en 80 cm geven 100 cm."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "18-T08",
+      "question": "Bereken voor zijden 8, 15, 17 de waarde $8^2+15^2-17^2$.",
+      "answer": 0,
+      "solution": [
+        "$64+225-289=0$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-T09",
+      "question": "Bereken de afstand tussen (0; 0) en (5; 12).",
+      "answer": 13,
+      "solution": [
+        "$\\sqrt{25+144}=13$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-T10",
+      "question": "Bereken de afstand tussen (-3; 1) en (3; 9).",
+      "answer": 10,
+      "solution": [
+        "Verschillen 6 en 8 geven 10."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-T11",
+      "question": "Een balk is 2 bij 3 bij 6 cm. Bereken de ruimtediagonaal.",
+      "answer": 7,
+      "solution": [
+        "$\\sqrt{4+9+36}=7$ cm."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "18-T12",
+      "question": "Een rechthoek is 5 bij 12 m. Bereken de diagonaal.",
+      "answer": 13,
+      "solution": [
+        "$\\sqrt{25+144}=13$ m."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "m"
+    },
+    {
+      "id": "18-T13",
+      "question": "Een ladder van 13 m staat 5 m van een verticale muur op vlakke grond. Bereken de hoogte.",
+      "answer": 12,
+      "solution": [
+        "$\\sqrt{169-25}=12$ m."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "m"
+    },
+    {
+      "id": "18-T14",
+      "question": "Een paal van 9 m met een horizontale kabelafstand van 12 m vormt een rechte hoek. Bereken de rechte kabelafstand.",
+      "answer": 15,
+      "solution": [
+        "$\\sqrt{81+144}=15$ m."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "m"
+    },
+    {
+      "id": "18-T15",
+      "question": "Een rechthoek heeft omtrek 34 cm en diagonaal 13 cm. De zijden zijn gehele centimeters. Geef ze in oplopende volgorde.",
+      "solution": [
+        "Som 17; kwadratensom 169.",
+        "5 en 12 voldoen."
+      ],
+      "hints": [],
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "pythagoras"
+      ],
+      "parts": [
+        {
+          "label": "kleinste zijde",
+          "answer": 5,
+          "type": "numeric"
+        },
+        {
+          "label": "grootste zijde",
+          "answer": 12,
+          "type": "numeric"
+        }
+      ]
+    }
+  ]
+}

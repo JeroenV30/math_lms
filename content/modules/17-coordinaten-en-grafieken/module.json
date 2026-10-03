@@ -4,10 +4,10 @@
   "title": "Coördinaten en grafieken",
   "part": 3,
   "level": "vmbo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "17e eeuw",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 160,
   "prerequisites": [
     16
   ],
@@ -15,12 +15,123 @@
     "coordinates",
     "graphs"
   ],
-  "core_question": null,
-  "summary": "René Descartes.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Hoe leg je een positie vast met twee getallen en maak je een rekenregel zichtbaar als grafiek?",
+  "summary": "Assenstelsels, coördinaten, kwadranten en grafieken. Je leest punten, verplaatsingen en rechte lijnen en verbindt een tabel met een formule.",
+  "learning_goals": [
+    "Je leest en tekent punten met een geordend coördinatenpaar.",
+    "Je gebruikt de oorsprong, assen en kwadranten en behandelt punten op een as apart.",
+    "Je berekent horizontale en verticale verplaatsingen en spiegelt punten in de assen.",
+    "Je maakt een tabel bij een eenvoudige regel en tekent de bijbehorende grafiek.",
+    "Je bepaalt of een punt op een lijn ligt en leest snijpunten met de assen.",
+    "Je berekent de helling van een niet-verticale rechte lijn uit twee punten.",
+    "Je leest schaal en eenheden en onderscheidt een puntcoördinaat van een afstand."
+  ],
+  "glossary": [
+    {
+      "term": "Assenstelsel",
+      "definition": "Twee assen die een vlak van een coördinatenafspraak voorzien."
+    },
+    {
+      "term": "Oorsprong",
+      "definition": "Het snijpunt van de assen, met coördinaten (0; 0)."
+    },
+    {
+      "term": "Coördinatenpaar",
+      "definition": "Een geordend paar (x; y): eerst horizontaal, daarna verticaal."
+    },
+    {
+      "term": "Kwadrant",
+      "definition": "Een van de vier open gebieden tussen de assen; punten op de assen horen er niet bij."
+    },
+    {
+      "term": "Grafiek",
+      "definition": "De punten die een verband tussen grootheden weergeven."
+    },
+    {
+      "term": "Helling",
+      "definition": "De verticale verandering gedeeld door de horizontale verandering; voor een verticale lijn niet gedefinieerd als een getal."
+    },
+    {
+      "term": "Snijpunt",
+      "definition": "Een punt dat op beide betreffende lijnen of grafieken ligt."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Een punt",
+      "latex": "P=(x;y)",
+      "usage": "Lees x eerst, daarna y."
+    },
+    {
+      "name": "Verplaatsing",
+      "latex": "\\Delta x=x_2-x_1,\\qquad\\Delta y=y_2-y_1",
+      "usage": "Het teken geeft de richting."
+    },
+    {
+      "name": "Helling",
+      "latex": "m=\\frac{y_2-y_1}{x_2-x_1}\\quad(x_2\\ne x_1)",
+      "usage": "Verticale verandering per horizontale eenheid."
+    },
+    {
+      "name": "Rechte lijn",
+      "latex": "y=mx+b",
+      "usage": "m is helling en b de y-waarde bij x = 0; deze vorm sluit verticale lijnen uit."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een adres in het vlak",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "punten-en-kwadranten",
+      "title": "Coördinaten lezen",
+      "kind": "theory",
+      "file": "02-punten-en-kwadranten.md"
+    },
+    {
+      "slug": "verplaatsen-en-spiegelen",
+      "title": "Positie, verandering en spiegeling",
+      "kind": "theory",
+      "file": "03-verplaatsen-en-spiegelen.md"
+    },
+    {
+      "slug": "tabel-naar-grafiek",
+      "title": "Een formule als verzameling punten",
+      "kind": "theory",
+      "file": "04-tabel-naar-grafiek.md"
+    },
+    {
+      "slug": "rechte-lijnen",
+      "title": "Helling en snijpunten",
+      "kind": "theory",
+      "file": "05-rechte-lijnen.md"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Een figuur door een vergelijking beschrijven",
+      "kind": "history",
+      "file": "06-historisch-intermezzo.md"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Routes en snijpunten",
+      "kind": "practice",
+      "file": "07-praktijk-en-uitdaging.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
+  "timeline": [
+    "descartes-geometrie"
+  ],
+  "mathematicians": [
+    "descartes"
+  ]
 }

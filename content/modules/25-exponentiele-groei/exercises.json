@@ -1,0 +1,540 @@
+{
+  "exercises": [
+    {
+      "id": "25-001",
+      "question": "Start 100, elk uur +20. Wat is de hoeveelheid na 3 uur?",
+      "answer": 160,
+      "solution": [
+        "100 + 3×20 = 160."
+      ],
+      "hints": [
+        "Dit is vaste absolute groei."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-002",
+      "question": "Start 100, elk uur factor 1,2. Wat is de hoeveelheid na 2 uur?",
+      "answer": 144,
+      "solution": [
+        "100×1,2² = 144."
+      ],
+      "hints": [
+        "Groei over de gegroeide hoeveelheid."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-003",
+      "question": "Start 100, elk uur factor 1,2. Wat is de hoeveelheid na 3 uur?",
+      "answer": 172.8,
+      "solution": [
+        "100×1,2³ = 172,8."
+      ],
+      "hints": [
+        "Vermenigvuldig driemaal."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "25-004",
+      "question": "Waarden 10, 20, 40, 80 bij gelijke stappen: vaste factor of vast verschil? Geef 1 voor vaste factor, 0 voor vast verschil.",
+      "answer": 1,
+      "solution": [
+        "Elke verhouding is 2; de verschillen veranderen."
+      ],
+      "hints": [
+        "Deel opeenvolgende waarden."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-005",
+      "question": "Geef de factor bij 8% groei.",
+      "answer": 1.08,
+      "solution": [
+        "1 + 8/100 = 1,08."
+      ],
+      "hints": [
+        "Er blijft 100% en komt 8% bij."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "25-006",
+      "question": "Geef de factor bij 8% daling.",
+      "answer": 0.92,
+      "solution": [
+        "1 − 8/100 = 0,92."
+      ],
+      "hints": [
+        "Hoeveel procent blijft over?"
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "25-007",
+      "question": "Een groeifactor is 1,15. Geef het groeipercentage.",
+      "answer": 15,
+      "solution": [
+        "(1,15 − 1)×100 = 15."
+      ],
+      "hints": [
+        "Trek eerst één af."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-008",
+      "question": "Een factor is 0,75. Geef het dalingspercentage als positief getal.",
+      "answer": 25,
+      "solution": [
+        "(1 − 0,75)×100 = 25."
+      ],
+      "hints": [
+        "75% blijft over."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-009",
+      "question": "Na 20% daling: met hoeveel procent moet de nieuwe waarde groeien om de oude terug te krijgen?",
+      "answer": 25,
+      "solution": [
+        "1/0,8 = 1,25, dus 25%."
+      ],
+      "hints": [
+        "De basis is nu kleiner."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-010",
+      "question": "Beginwaarde 100 en factor 1,2 per uur. Geef N(t) als expressie in t.",
+      "answer": "100*1.2^t",
+      "solution": [
+        "N(t)=100×1,2ᵗ."
+      ],
+      "hints": [
+        "De tijd staat in de exponent."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-011",
+      "question": "N(t)=100×2ᵗ. Bereken N(4).",
+      "answer": 1600,
+      "solution": [
+        "100×16 = 1600."
+      ],
+      "hints": [
+        "Vier verdubbelingen."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-012",
+      "question": "N(2)=144 en factor 1,2 per uur. Bereken N(0).",
+      "answer": 100,
+      "solution": [
+        "144/1,2² = 100."
+      ],
+      "hints": [
+        "Reken twee stappen terug."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-013",
+      "question": "N(1)=150 en N(3)=216. Bereken de positieve factor per uur.",
+      "answer": 1.2,
+      "solution": [
+        "g² = 216/150 = 1,44, dus g = 1,2."
+      ],
+      "hints": [
+        "De metingen liggen twee uur uit elkaar."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "25-014",
+      "question": "N(1)=150 en factor 1,2 per uur. Bereken de beginwaarde.",
+      "answer": 125,
+      "solution": [
+        "150/1,2 = 125."
+      ],
+      "hints": [
+        "Eén stap terug."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-015",
+      "question": "Een factor per uur is 2. Wat is de factor per 3 uur?",
+      "answer": 8,
+      "solution": [
+        "2³ = 8."
+      ],
+      "hints": [
+        "Combineer drie gelijke stappen."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-016",
+      "question": "Een factor per uur is 2. Geef de exacte factor per halfuur.",
+      "answer": "sqrt(2)",
+      "solution": [
+        "Twee halfuurfactoren moeten product 2 hebben."
+      ],
+      "hints": [
+        "Neem de positieve vierkantswortel."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-017",
+      "question": "De factor per jaar is 1,21. Bereken de factor per halfjaar.",
+      "answer": 1.1,
+      "solution": [
+        "√1,21 = 1,1."
+      ],
+      "hints": [
+        "Gebruik een halve exponent."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "25-018",
+      "question": "De factor per halfjaar is 1,1. Geef het groeipercentage per jaar.",
+      "answer": 21,
+      "solution": [
+        "1,1² = 1,21, dus 21%."
+      ],
+      "hints": [
+        "Combineer factoren, niet percentages."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-019",
+      "question": "N(t)=100×2^(t/3), t in uren. Wat is de verdubbelingstijd in uren?",
+      "answer": 3,
+      "solution": [
+        "Bij t = 3 is de exponent 1."
+      ],
+      "hints": [
+        "Zoek totale factor 2."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-020",
+      "question": "N(t)=80×(1/2)^(t/4), t in uren. Bereken N(8).",
+      "answer": 20,
+      "solution": [
+        "Exponent 2: 80×1/4 = 20."
+      ],
+      "hints": [
+        "Twee halveringen."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-021",
+      "question": "N(t)=80×(1/2)^(t/4). Geef de halveringstijd.",
+      "answer": 4,
+      "solution": [
+        "Elke 4 tijdseenheden halveert de hoeveelheid."
+      ],
+      "hints": [
+        "Lees de tijdschaal."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-022",
+      "question": "Start 100, factor 1,5 per heel uur. Wat is het eerste gehele uur met minstens 500?",
+      "answer": 4,
+      "solution": [
+        "N(3)=337,5 en N(4)=506,25."
+      ],
+      "hints": [
+        "Controleer de grens en het voorgaande uur."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-023",
+      "question": "Start 1000, factor 2 per dag. Bereken de modelwaarde na 10 dagen.",
+      "answer": 1024000,
+      "solution": [
+        "1000×2¹⁰ = 1 024 000."
+      ],
+      "hints": [
+        "Een voorspelling is afhankelijk van aannames."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-024",
+      "question": "Bereikt N(t)=100×0,5ᵗ de waarde nul op een eindig tijdstip? Geef 1 voor ja, 0 voor nee.",
+      "answer": 0,
+      "solution": [
+        "Een positieve factor tot een eindige macht blijft positief."
+      ],
+      "hints": [
+        "Naderen is niet bereiken."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-025",
+      "question": "Een hypothetisch bedrag 1000 groeit tweemaal met 5%, zonder kosten of transacties. Geef de eindwaarde op twee decimalen.",
+      "answer": 1102.5,
+      "solution": [
+        "1000×1,05² = 1102,50."
+      ],
+      "hints": [
+        "Samengestelde groei."
+      ],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "25-026",
+      "question": "10% groei en daarna 20% daling. Geef de netto daling in procent als positief getal.",
+      "answer": 12,
+      "solution": [
+        "1,1×0,8 = 0,88: 12% daling."
+      ],
+      "hints": [
+        "Elke stap heeft haar eigen basis."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-027",
+      "question": "Een hoeveelheid daalt van 200 naar 162 in twee gelijke tijdstappen bij vaste factor. Geef het dalingspercentage per stap.",
+      "answer": 10,
+      "solution": [
+        "g = √(162/200) = 0,9."
+      ],
+      "hints": [
+        "Neem de positieve wortel van de totale factor."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-028",
+      "question": "Start 64, halveringstijd 2 uur. Na hoeveel uur is er 8 over?",
+      "answer": 6,
+      "solution": [
+        "64 → 32 → 16 → 8: drie halveringen van 2 uur."
+      ],
+      "hints": [
+        "Tel de halveringen."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-029",
+      "question": "Een model begint bij 64 en halveert elke 2 uur. Geef N(t) als expressie in uren t.",
+      "answer": "64*(1/2)^(t/2)",
+      "solution": [
+        "Elke 2 uur stijgt de exponent met 1."
+      ],
+      "hints": [
+        "Verbind tijd en aantal halveringen."
+      ],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "25-030",
+      "question": "N(1)=150 en N(3)=216. Geef factor per uur, beginwaarde en N(4).",
+      "solution": [
+        "g=√(216/150)=1,2.",
+        "N₀=150/1,2=125.",
+        "N(4)=216×1,2=259,2."
+      ],
+      "hints": [
+        "Gebruik het tijdsverschil van twee uur."
+      ],
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "topics": [
+        "exponential"
+      ],
+      "parts": [
+        {
+          "label": "factor per uur",
+          "type": "decimal",
+          "answer": 1.2,
+          "tolerance": 0.005
+        },
+        {
+          "label": "beginwaarde",
+          "type": "numeric",
+          "answer": 125
+        },
+        {
+          "label": "N(4)",
+          "type": "decimal",
+          "answer": 259.2,
+          "tolerance": 0.005
+        }
+      ]
+    }
+  ]
+}

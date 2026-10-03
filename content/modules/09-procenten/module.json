@@ -4,10 +4,10 @@
   "title": "Procenten",
   "part": 2,
   "level": "basisschool",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Middeleeuwen",
   "estimated_difficulty": 1,
-  "estimated_minutes": 90,
+  "estimated_minutes": 160,
   "prerequisites": [
     8
   ],
@@ -15,12 +15,128 @@
     "percentages",
     "finance"
   ],
-  "core_question": null,
-  "summary": "Handel en financiële administratie.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Waarom heffen een prijsverhoging van 20% en een korting van 20% elkaar niet op?",
+  "summary": "Procenten als delen van honderd: percentages, verandering, terugrekenen en groeifactoren. Je bewaakt steeds welke hoeveelheid 100% is.",
+  "learning_goals": [
+    "Je zet procenten om in breuken en decimalen en omgekeerd.",
+    "Je berekent een percentage van een hoeveelheid en het percentage dat een deel van een geheel vormt.",
+    "Je vindt het geheel als een deel en het percentage bekend zijn.",
+    "Je berekent procentuele stijgingen en dalingen met de oorspronkelijke hoeveelheid als basis.",
+    "Je gebruikt groeifactoren bij opeenvolgende veranderingen en rekent terug naar de oorspronkelijke waarde.",
+    "Je onderscheidt procent van procentpunt.",
+    "Je rekent met fictieve korting-, belasting- en rentemodellen en benoemt hun aannames."
+  ],
+  "glossary": [
+    {
+      "term": "Procent",
+      "definition": "Eén honderdste. Het teken % betekent per honderd."
+    },
+    {
+      "term": "Basis",
+      "definition": "De hoeveelheid die in een berekening als 100% geldt."
+    },
+    {
+      "term": "Groeifactor",
+      "definition": "De factor waarmee je een hoeveelheid vermenigvuldigt bij een procentuele verandering."
+    },
+    {
+      "term": "Procentuele verandering",
+      "definition": "Het verschil gedeeld door de oorspronkelijke waarde, maal 100%."
+    },
+    {
+      "term": "Procentpunt",
+      "definition": "Een verschil tussen twee percentages, gemeten door ze af te trekken."
+    },
+    {
+      "term": "Enkelvoudige rente",
+      "definition": "In het rekenmodel wordt rente steeds over dezelfde oorspronkelijke inleg berekend."
+    },
+    {
+      "term": "Samengestelde rente",
+      "definition": "In het rekenmodel telt eerdere rente bij de volgende renteberekening mee."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Een percentage van een geheel",
+      "latex": "\\text{deel}=\\frac{p}{100}\\cdot\\text{geheel}",
+      "usage": "Zet het percentage om in een factor."
+    },
+    {
+      "name": "Een deel als percentage",
+      "latex": "p=\\frac{\\text{deel}}{\\text{geheel}}\\cdot100",
+      "usage": "Het geheel is de basis en is niet nul."
+    },
+    {
+      "name": "Procentuele verandering",
+      "latex": "p=\\frac{\\text{nieuw}-\\text{oud}}{\\text{oud}}\\cdot100",
+      "usage": "Gebruik de oorspronkelijke positieve waarde als basis."
+    },
+    {
+      "name": "Groeifactor",
+      "latex": "g=1+\\frac{p}{100}",
+      "usage": "Gebruik een negatieve p voor een afname."
+    },
+    {
+      "name": "Terugrekenen",
+      "latex": "\\text{oud}=\\frac{\\text{nieuw}}{g}",
+      "usage": "Deel door de niet-nulgroeifactor."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een honderdste als gemeenschappelijke maat",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "procent-breuk-decimaal",
+      "title": "Van honderdveld naar factor",
+      "kind": "theory",
+      "file": "02-procent-breuk-decimaal.md"
+    },
+    {
+      "slug": "deel-en-geheel",
+      "title": "Drie soorten procentvragen",
+      "kind": "theory",
+      "file": "03-deel-en-geheel.md"
+    },
+    {
+      "slug": "verandering",
+      "title": "Stijging, daling en procentpunten",
+      "kind": "theory",
+      "file": "04-verandering.md"
+    },
+    {
+      "slug": "groeifactoren",
+      "title": "Groeifactoren en terugrekenen",
+      "kind": "theory",
+      "file": "05-groeifactoren.md"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Rente en de keuze van de basis",
+      "kind": "history",
+      "file": "06-historisch-intermezzo.md"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Aanbiedingen vergelijken",
+      "kind": "practice",
+      "file": "07-praktijk-en-uitdaging.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
+  "timeline": [
+    "fibonacci-liber-abaci"
+  ],
+  "mathematicians": [
+    "fibonacci"
+  ]
 }

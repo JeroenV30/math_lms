@@ -4,10 +4,10 @@
   "title": "Beschrijvende statistiek",
   "part": 4,
   "level": "havo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "19e eeuw",
   "estimated_difficulty": 3,
-  "estimated_minutes": 90,
+  "estimated_minutes": 150,
   "prerequisites": [
     23
   ],
@@ -16,12 +16,132 @@
     "averages",
     "dispersion"
   ],
-  "core_question": null,
-  "summary": "Gemiddelde, spreiding, standaardafwijking en boxplot.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
+  "core_question": "Welke kenmerken vatten een dataset samen, en welke informatie verdwijnt bij die samenvatting?",
+  "summary": "Centrum, kwartielen, boxplots, variantie en standaardafwijking. Je kiest maten passend bij de verdeling en houdt populatie en steekproef uit elkaar.",
+  "learning_goals": [
+    "Je berekent gemiddelde, mediaan en modus uit losse waarden of frequenties.",
+    "Je berekent kwartielen volgens een expliciete conventie.",
+    "Je leest een boxplot en onderscheidt minimum/maximumsnorren van uitschietersnorren.",
+    "Je berekent spreidingsbreedte, interkwartielafstand, variantie en standaardafwijking.",
+    "Je onderscheidt delen door n van de steekproefcorrectie n − 1.",
+    "Je verklaart hoe verschuiven en schalen centrum en spreiding veranderen.",
+    "Je beoordeelt de invloed van uitschieters en vergelijkt groepen zonder causaliteit te veronderstellen."
+  ],
+  "glossary": [
+    {
+      "term": "Centrummaat",
+      "definition": "Een getal dat het midden of een typische waarde beschrijft."
+    },
+    {
+      "term": "Spreidingsbreedte",
+      "definition": "Maximum minus minimum."
+    },
+    {
+      "term": "Kwartielen",
+      "definition": "Waarden die een geordende dataset volgens een gekozen conventie in vier delen samenvatten."
+    },
+    {
+      "term": "Interkwartielafstand",
+      "definition": "Q₃ − Q₁; spreiding van het middelste deel van de data."
+    },
+    {
+      "term": "Variantie",
+      "definition": "Het gemiddelde of gecorrigeerde gemiddelde van gekwadrateerde afwijkingen van het gemiddelde."
+    },
+    {
+      "term": "Standaardafwijking",
+      "definition": "De wortel uit de variantie, in dezelfde eenheid als de waarnemingen."
+    },
+    {
+      "term": "Populatie",
+      "definition": "De volledige verzameling waarover je uitspraken wilt doen."
+    },
+    {
+      "term": "Steekproef",
+      "definition": "Een onderzochte selectie uit een populatie."
+    },
+    {
+      "term": "Uitschieter",
+      "definition": "Een opvallend ver gelegen waarneming; een signaal om te onderzoeken, geen automatische verwijderreden."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Gemiddelde",
+      "latex": "\\bar{x}=\\frac{1}{n}\\sum_{i=1}^{n}x_i",
+      "usage": "Som van alle waarden gedeeld door aantal."
+    },
+    {
+      "name": "Interkwartielafstand",
+      "latex": "\\mathrm{IQR}=Q_3-Q_1",
+      "usage": "Gebruikt kwartielen volgens dezelfde afspraak."
+    },
+    {
+      "name": "Populatievariantie",
+      "latex": "\\sigma^2=\\frac{1}{n}\\sum_{i=1}^{n}(x_i-\\mu)^2",
+      "usage": "Als de data de volledige te beschrijven populatie vormen."
+    },
+    {
+      "name": "Steekproefvariantie",
+      "latex": "s^2=\\frac{1}{n-1}\\sum_{i=1}^{n}(x_i-\\bar{x})^2",
+      "usage": "Gecorrigeerde spreidingsschatter bij n > 1."
+    },
+    {
+      "name": "Standaardafwijking",
+      "latex": "\\sigma=\\sqrt{\\sigma^2},\\qquad s=\\sqrt{s^2}",
+      "usage": "De wortel brengt de oorspronkelijke eenheid terug."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Hetzelfde gemiddelde, andere gegevens",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "centrum",
+      "title": "Centrum en frequenties",
+      "kind": "theory",
+      "file": "02-centrum.md"
+    },
+    {
+      "slug": "kwartielen",
+      "title": "Kwartielen en boxplots",
+      "kind": "theory",
+      "file": "03-kwartielen.md"
+    },
+    {
+      "slug": "variantie",
+      "title": "Van afwijkingen naar spreiding",
+      "kind": "theory",
+      "file": "04-variantie.md"
+    },
+    {
+      "slug": "steekproef",
+      "title": "Populatie en steekproef",
+      "kind": "theory",
+      "file": "05-steekproef.md"
+    },
+    {
+      "slug": "geschiedenis",
+      "title": "Gegevens samenvatten en zichtbaar maken",
+      "kind": "history",
+      "file": "06-geschiedenis.md"
+    },
+    {
+      "slug": "vergelijken",
+      "title": "Verschuiven, schalen en vergelijken",
+      "kind": "practice",
+      "file": "07-vergelijken.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
   "timeline": [],
   "mathematicians": []
 }

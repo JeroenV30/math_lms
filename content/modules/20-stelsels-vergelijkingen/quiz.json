@@ -1,0 +1,334 @@
+{
+  "title": "Hoofdstuktoets – Stelsels vergelijkingen",
+  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "questions": [
+    {
+      "id": "20-T01",
+      "question": "Los op: $x+y=11$ en $x-y=3$.",
+      "solution": [
+        "Optellen geeft 2x = 14; daarna y = 4."
+      ],
+      "hints": [],
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "systems"
+      ],
+      "parts": [
+        {
+          "label": "x",
+          "answer": 7,
+          "type": "numeric"
+        },
+        {
+          "label": "y",
+          "answer": 4,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "20-T02",
+      "question": "Los op: $y=2x$ en $x+y=15$.",
+      "solution": [
+        "3x = 15, x = 5, y = 10."
+      ],
+      "hints": [],
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "systems"
+      ],
+      "parts": [
+        {
+          "label": "x",
+          "answer": 5,
+          "type": "numeric"
+        },
+        {
+          "label": "y",
+          "answer": 10,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "20-T03",
+      "question": "Los op: $2x+y=14$ en $x+y=9$.",
+      "solution": [
+        "Aftrekken geeft x = 5."
+      ],
+      "hints": [],
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "systems"
+      ],
+      "parts": [
+        {
+          "label": "x",
+          "answer": 5,
+          "type": "numeric"
+        },
+        {
+          "label": "y",
+          "answer": 4,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "20-T04",
+      "question": "Los op: $3x+y=17$ en $x-y=3$.",
+      "solution": [
+        "Optellen geeft 4x = 20."
+      ],
+      "hints": [],
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "systems"
+      ],
+      "parts": [
+        {
+          "label": "x",
+          "answer": 5,
+          "type": "numeric"
+        },
+        {
+          "label": "y",
+          "answer": 2,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "20-T05",
+      "question": "Los op: $x+2y=13$ en $2x-y=1$.",
+      "solution": [
+        "Eerste plus tweemaal tweede: 5x = 15.",
+        "x = 3, y = 5."
+      ],
+      "hints": [],
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "systems"
+      ],
+      "parts": [
+        {
+          "label": "x",
+          "answer": 3,
+          "type": "numeric"
+        },
+        {
+          "label": "y",
+          "answer": 5,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "20-T06",
+      "question": "Los op: $y=x+4$ en $2x+y=13$.",
+      "solution": [
+        "3x+4 = 13."
+      ],
+      "hints": [],
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "systems"
+      ],
+      "parts": [
+        {
+          "label": "x",
+          "answer": 3,
+          "type": "numeric"
+        },
+        {
+          "label": "y",
+          "answer": 7,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "20-T07",
+      "question": "Los op: $2x+3y=19$ en $3x+2y=21$.",
+      "solution": [
+        "Eliminatie geeft y = 3 en x = 5."
+      ],
+      "hints": [],
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "systems"
+      ],
+      "parts": [
+        {
+          "label": "x",
+          "answer": 5,
+          "type": "numeric"
+        },
+        {
+          "label": "y",
+          "answer": 3,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "20-T08",
+      "question": "Los op: $x+y=-1$ en $x-y=5$.",
+      "solution": [
+        "Optellen geeft x = 2; y = -3."
+      ],
+      "hints": [],
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "systems"
+      ],
+      "parts": [
+        {
+          "label": "x",
+          "answer": 2,
+          "type": "numeric"
+        },
+        {
+          "label": "y",
+          "answer": -3,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "20-T09",
+      "question": "Geef het snijpunt van y = 3x-1 en y = -x+7.",
+      "answer": "(2;5)",
+      "solution": [
+        "4x = 8, dus x = 2 en y = 5."
+      ],
+      "hints": [],
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "systems"
+      ]
+    },
+    {
+      "id": "20-T10",
+      "question": "Geef het snijpunt van x = -2 en y = 4x+3.",
+      "answer": "(-2;-5)",
+      "solution": [
+        "Vul x = -2 in."
+      ],
+      "hints": [],
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "systems"
+      ]
+    },
+    {
+      "id": "20-T11",
+      "question": "Hoeveel oplossingen heeft $x+y=4$ samen met $2x+2y=10$?",
+      "answer": 0,
+      "solution": [
+        "Rechterkanten zijn strijdig."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "systems"
+      ]
+    },
+    {
+      "id": "20-T12",
+      "question": "Bij $x+y=4$ en $2x+2y=8$ kies je x = 1. Wat is y?",
+      "answer": 3,
+      "solution": [
+        "De voorwaarden herhalen elkaar; y = 4-1."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "systems"
+      ]
+    },
+    {
+      "id": "20-T13",
+      "question": "Bereken de coëfficiëntencontrole voor $3x+y=5$, $x+2y=7$.",
+      "answer": 5,
+      "solution": [
+        "3×2-1×1 = 5."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "systems"
+      ]
+    },
+    {
+      "id": "20-T14",
+      "question": "x tickets kosten € 9, y tickets € 6. Er zijn 15 tickets en € 117 opbrengst. Vind x en y.",
+      "solution": [
+        "x+y = 15; 9x+6y = 117.",
+        "3x+90 = 117, dus x = 9."
+      ],
+      "hints": [],
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "systems"
+      ],
+      "parts": [
+        {
+          "label": "x",
+          "answer": 9,
+          "type": "numeric"
+        },
+        {
+          "label": "y",
+          "answer": 6,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "20-T15",
+      "question": "Meng 8 liter vloeistof tot 25% uit 10% en 40%. Hoeveel liter 40%-vloeistof is nodig?",
+      "answer": 4,
+      "solution": [
+        "0,1(8-y)+0,4y = 2.",
+        "0,8+0,3y = 2, dus y = 4."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "systems"
+      ],
+      "unit": "liter"
+    }
+  ]
+}

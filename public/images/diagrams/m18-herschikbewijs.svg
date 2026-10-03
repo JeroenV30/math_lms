@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 310" role="img" aria-labelledby="title desc">
+  <title id="title">Vier rechthoekige driehoeken rond een vierkant</title>
+  <desc id="desc">Een vierkant met zijde a plus b bestaat uit vier rechthoekige driehoeken met rechthoekszijden a en b, en een centraal vierkant met zijde c.</desc>
+  <rect width="560" height="310" fill="#fff"/>
+  <g font-family="sans-serif" fill="#1f2933">
+    <text x="280" y="24" text-anchor="middle" font-size="17" font-weight="bold">Dezelfde oppervlakte op twee manieren</text>
+    <rect x="40" y="55" width="200" height="200" fill="#f3e6d6" stroke="#1f2933" stroke-width="2"/>
+    <polygon points="160,55 240,175 120,255 40,135" fill="#dbe4ff" stroke="#3b5bdb" stroke-width="2"/>
+    <text x="100" y="47" text-anchor="middle">a</text>
+    <text x="200" y="47" text-anchor="middle">b</text>
+    <text x="250" y="119">a</text>
+    <text x="250" y="220">b</text>
+    <text x="190" y="110" font-size="16" fill="#3b5bdb">c</text>
+    <text x="140" y="165" text-anchor="middle" font-size="25">c²</text>
+    <text x="310" y="100" font-size="17">Buitenste vierkant: (a + b)²</text>
+    <text x="310" y="140" font-size="17">Vier driehoeken: 4 × ab/2</text>
+    <text x="310" y="180" font-size="17">Binnenste vierkant: c²</text>
+    <text x="310" y="225" font-size="21" font-weight="bold">a² + b² = c²</text>
+    <text x="280" y="290" text-anchor="middle" font-size="12" fill="#616e7c">Schematische verdeling; a en b zijn positieve lengtes.</text>
+  </g>
+</svg>

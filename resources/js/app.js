@@ -8,6 +8,10 @@ import { areaModel, columnArithmetic, egyptianMultiplication, sharing, sieve, un
 import { fraction, percentGrid, ratioTable } from './visualisations/fractions';
 import { angle, pythagoras, shapeArea } from './visualisations/geometry';
 import { powers, stats } from './visualisations/data';
+import { coordinateGrid, functionPlot } from './visualisations/plot';
+import { rightTriangle } from './visualisations/right-triangle';
+import { boxplot } from './visualisations/boxplot';
+import { unitCircle } from './visualisations/unit-circle';
 
 Alpine.data('exercise', exercise);
 
@@ -30,6 +34,11 @@ Alpine.data('shapeArea', shapeArea);
 Alpine.data('pythagoras', pythagoras);
 Alpine.data('stats', stats);
 Alpine.data('powers', powers);
+Alpine.data('functionPlot', functionPlot);
+Alpine.data('coordinateGrid', coordinateGrid);
+Alpine.data('rightTriangle', rightTriangle);
+Alpine.data('boxplot', boxplot);
+Alpine.data('unitCircle', unitCircle);
 
 /**
  * x-katex="expressie": render een reactieve formule, bijv. in een visualisatie.

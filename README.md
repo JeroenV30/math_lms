@@ -12,10 +12,13 @@ de geschiedenis van het wiskundige denken als leidraad. Gebouwd volgens
 | Onderdeel | Status |
 |---|---|
 | Deel I – Fundamenten (modules 1–6) | Volledig: 43 lessen, 216 oefeningen, 6 toetsen (90 vragen) |
-| Modules 7–42 | Metadata en opzet; inhoud volgt |
+| Deel II – Basisschool bovenbouw (modules 7–12) | Volledig: 47 lessen, 186 oefeningen, 6 toetsen (90 vragen) |
+| Deel III – VMBO / basis middelbaar (modules 13–18) | Volledig: 48 lessen, 180 oefeningen, 6 toetsen (90 vragen) |
+| Deel IV – HAVO (modules 19–24) | Volledig: 48 lessen, 180 oefeningen, 6 toetsen (90 vragen) |
+| Modules 25–42 | Metadata en opzet; inhoud volgt |
 | Historische tijdlijn | 60 gebeurtenissen |
 | Wiskundigenbibliotheek | 23 profielen |
-| Oefenengine | numeric, decimal, fraction (+ foutenanalyse) |
+| Oefenengine | numeric, decimal, fraction, expression, coordinate, interval, multiple (+ foutenanalyse) |
 | Voortgang, beheersing, spaced repetition | Werkend |
 
 ## Installatie
@@ -54,7 +57,7 @@ Content en applicatielogica zijn volledig gescheiden (bouwplan §4):
 ContentService ──► LessonRenderer / MarkdownRenderer ──► lessen, kaders, KaTeX, widgets
        │
        ▼
-ExerciseService ──► AnswerCheckerFactory ──► Numeric / Decimal / FractionChecker
+ExerciseService ──► AnswerCheckerFactory ──► zeven checkers, inclusief meerdere invoervelden
        │
        ├──► exercise_attempts
        ├──► MasteryService (topic_mastery: +3 goed, +1 met hint, −5 fout)

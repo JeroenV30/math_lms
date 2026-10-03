@@ -245,8 +245,13 @@ Alleen gebruiken waar ze begrip toevoegen.
 | `angle` | `value` | Hoek slepen op een gradenboog; soort hoek |
 | `shape-area` | `shape` (`rectangle`, `triangle`, `parallelogram`, `circle`) | Oppervlakte en omtrek op een rooster, met formule |
 | `pythagoras` | `a`, `b` | Rechthoekige driehoek met vierkanten op de zijden; c wordt berekend |
+| `right-triangle` | `angle` (1–89 graden), `hypotenuse` (1–20) | Rechthoekige driehoek met schuifregelaars; aanliggende en overstaande zijde, sinus, cosinus en tangens |
+| `boxplot` | `values` (getallen gescheiden door `;`) | Boxplot met minimum/maximumsnorren, kwartielen zonder de middelste observatie bij oneven n, populatie- en steekproefspreiding |
+| `unit-circle` | `angle` (−360 tot 720 graden) | Georiënteerde hoek, radialen en getekende sinus/cosinus; tangens is ongedefinieerd bij verticale richtingen |
 | `stats` | `values` (bv. `"4; 6; 6; 7; 9"`) | Stippendiagram met gemiddelde, mediaan, modus en spreidingsbreedte; waarden toevoegen/verwijderen |
 | `powers` | `base`, `max` | Tabel van machten met groeibalken |
+| `coordinate-grid` | `size` (3–10), `points` (bv. `"(2;3) (-4;1)"`), `connect` | Assenstelsel; punten aanklikken, kwadranten, helling tussen twee punten |
+| `function-plot` | `fn` (bv. `"a*x + b"`), optioneel `fn2`, `xmin`/`xmax`/`ymin`/`ymax`, startwaarden per parameter (`a=2`, en `amin`/`amax`/`astep`), `tangent=true` (+ `x0`), `area=true` (+ `lower`, `upper`), `roots=true`, `title` | Grafiek met schuifregelaar per parameter (elke letter behalve x en e); raaklijn met helling, oppervlakte onder de grafiek, nulpunten |
 
 Alle widgets met een voorbeelddirectief zijn te zien op `/dev/widgets` (alleen lokaal).
 `number-line` werkt ook met negatieve getallen (`min=-10`).

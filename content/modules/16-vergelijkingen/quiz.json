@@ -1,0 +1,233 @@
+{
+  "title": "Hoofdstuktoets – Vergelijkingen",
+  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "questions": [
+    {
+      "id": "16-T01",
+      "question": "Los op: $x+9=24$.",
+      "answer": 15,
+      "solution": [
+        "Trek 9 af."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-T02",
+      "question": "Los op: $5x=40$.",
+      "answer": 8,
+      "solution": [
+        "Deel door 5."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-T03",
+      "question": "Los op: $3x-4=17$.",
+      "answer": 7,
+      "solution": [
+        "Tel 4 op en deel door 3."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-T04",
+      "question": "Los op: $-2x=14$.",
+      "answer": -7,
+      "solution": [
+        "Deel door -2."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-T05",
+      "question": "Los op: $6x=15$. Geef een exacte breuk.",
+      "answer": "5/2",
+      "solution": [
+        "$15/6=5/2$."
+      ],
+      "hints": [],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-T06",
+      "question": "Los op: $4x+3=2x+19$.",
+      "answer": 8,
+      "solution": [
+        "$2x=16$, dus x = 8."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-T07",
+      "question": "Los op: $3(x+2)=21$.",
+      "answer": 5,
+      "solution": [
+        "$x+2=7$, dus x = 5."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-T08",
+      "question": "Los op: $2(x-1)=x+5$.",
+      "answer": 7,
+      "solution": [
+        "$2x-2=x+5$, dus x = 7."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-T09",
+      "question": "Los op: $7-(x-3)=4$.",
+      "answer": 6,
+      "solution": [
+        "$10-x=4$, dus x = 6."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-T10",
+      "question": "Los op: $x/4+2=5$.",
+      "answer": 12,
+      "solution": [
+        "$x/4=3$, dus x = 12."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-T11",
+      "question": "Los op: $(x+5)/2=8$.",
+      "answer": 11,
+      "solution": [
+        "$x+5=16$, dus x = 11."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-T12",
+      "question": "Los op: $x/2+x/4=9$.",
+      "answer": 12,
+      "solution": [
+        "Maal 4: $2x+x=36$, dus x = 12."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-T13",
+      "question": "Voor hoeveel reële waarden geldt $3x+1=3x-2$?",
+      "answer": 0,
+      "solution": [
+        "Na vereenvoudigen staat $1=-2$, dus geen oplossingen."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ]
+    },
+    {
+      "id": "16-T14",
+      "question": "Maak b vrij in $P=2l+2b$. Geef de expressie voor b.",
+      "answer": "(P-2l)/2",
+      "solution": [
+        "Trek 2l af en deel door 2."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "16-T15",
+      "question": "Een rechthoek heeft lengte x+4 en breedte x. De omtrek is 32 cm. Vind x.",
+      "answer": 6,
+      "solution": [
+        "$4x+8=32$.",
+        "$4x=24$, dus x = 6."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "equations"
+      ],
+      "unit": "cm"
+    }
+  ]
+}

@@ -1,0 +1,568 @@
+{
+  "exercises": [
+    {
+      "id": "14-001",
+      "question": "Bereken $2^5$.",
+      "answer": 32,
+      "solution": [
+        "$2\\times2\\times2\\times2\\times2=32$."
+      ],
+      "hints": [
+        "Vijf factoren 2, niet vijf keer 2."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-002",
+      "question": "Een vierkant heeft oppervlakte 49 cm². Wat is de zijde?",
+      "answer": 7,
+      "solution": [
+        "$7^2=49$; de zijde is 7 cm."
+      ],
+      "hints": [
+        "Zoek een getal dat maal zichzelf 49 is."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "14-003",
+      "question": "Wat is de exponent in $3^4$?",
+      "answer": 4,
+      "solution": [
+        "Het cijfer rechtsboven is de exponent: 4."
+      ],
+      "hints": [
+        "Het grondtal is 3."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-004",
+      "question": "Bereken $3^4$.",
+      "answer": 81,
+      "solution": [
+        "$3\\times3\\times3\\times3=81$."
+      ],
+      "hints": [
+        "Reken stapsgewijs."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-005",
+      "question": "Bereken $(-2)^3$.",
+      "answer": -8,
+      "solution": [
+        "Drie negatieve factoren geven min; $2^3=8$."
+      ],
+      "hints": [
+        "Een oneven exponent houdt een negatief teken."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-006",
+      "question": "Bereken $(-2)^4$.",
+      "answer": 16,
+      "solution": [
+        "Vier negatieve factoren geven plus; $2^4=16$."
+      ],
+      "hints": [
+        "Een even exponent geeft hier positief."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-007",
+      "question": "Bereken $(2/3)^3$.",
+      "answer": "8/27",
+      "solution": [
+        "Teller: $2^3=8$; noemer: $3^3=27$."
+      ],
+      "hints": [
+        "Verhef teller en noemer tot de derde macht."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-008",
+      "question": "Vul de exponent in: $2^3\\times2^4=2^{\\ldots}$.",
+      "answer": 7,
+      "solution": [
+        "Er zijn $3+4=7$ factoren 2."
+      ],
+      "hints": [
+        "Bij een product met hetzelfde grondtal tel je exponenten op."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-009",
+      "question": "Vul de exponent in: $3^5:3^2=3^{\\ldots}$.",
+      "answer": 3,
+      "solution": [
+        "Na wegdelen blijven $5-2=3$ factoren over."
+      ],
+      "hints": [
+        "Trek de exponenten af."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-010",
+      "question": "Vul de exponent in: $(2^3)^4=2^{\\ldots}$.",
+      "answer": 12,
+      "solution": [
+        "Vier groepjes van drie factoren: $3\\times4=12$."
+      ],
+      "hints": [
+        "Een macht van een macht vermenigvuldigt exponenten."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-011",
+      "question": "Bereken $7^0$.",
+      "answer": 1,
+      "solution": [
+        "Voor een niet-nulgrondtal is de nulde macht 1."
+      ],
+      "hints": [
+        "Vergelijk $7^3:7^3$."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-012",
+      "question": "Bereken $2^{-3}$ als breuk.",
+      "answer": "1/8",
+      "solution": [
+        "$2^{-3}=1/2^3=1/8$."
+      ],
+      "hints": [
+        "Een negatieve exponent geeft de omgekeerde."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-013",
+      "question": "Bereken $(2+3)^2$.",
+      "answer": 25,
+      "solution": [
+        "Eerst $2+3=5$, daarna $5^2=25$."
+      ],
+      "hints": [
+        "Een macht verdeel je niet over een optelling."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ],
+      "feedback": [
+        {
+          "answer": 13,
+          "message": "Je hebt 2² en 3² los opgeteld. Eerst de som binnen de haakjes berekenen."
+        }
+      ]
+    },
+    {
+      "id": "14-014",
+      "question": "Bereken $\\sqrt{64}$.",
+      "answer": 8,
+      "solution": [
+        "De niet-negatieve waarde met kwadraat 64 is 8."
+      ],
+      "hints": [
+        "Het wortelteken geeft de hoofdwortel."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-015",
+      "question": "Vul alle reële oplossingen van $x^2=64$ in, in oplopende volgorde.",
+      "solution": [
+        "Zowel $(-8)^2$ als $8^2$ is 64."
+      ],
+      "hints": [
+        "Een kwadraatvergelijking vraagt iets anders dan de hoofdwortel."
+      ],
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "powers"
+      ],
+      "parts": [
+        {
+          "label": "kleinste oplossing",
+          "answer": -8,
+          "type": "numeric"
+        },
+        {
+          "label": "grootste oplossing",
+          "answer": 8,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "14-016",
+      "question": "Bereken $\\sqrt{(-5)^2}$.",
+      "answer": 5,
+      "solution": [
+        "$(-5)^2=25$; $\\sqrt{25}=5$."
+      ],
+      "hints": [
+        "De hoofdwortel is niet-negatief."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-017",
+      "question": "Bereken $\\sqrt{9/16}$.",
+      "answer": "3/4",
+      "solution": [
+        "$(3/4)^2=9/16$ en $3/4$ is positief."
+      ],
+      "hints": [
+        "Neem de wortel van teller en noemer."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-018",
+      "question": "Bereken $\\sqrt{0{,}81}$.",
+      "answer": 0.9,
+      "solution": [
+        "$0{,}9^2=0{,}81$."
+      ],
+      "hints": [
+        "Controleer je antwoord door het te kwadrateren."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-019",
+      "question": "Bereken $\\sqrt{9+16}$.",
+      "answer": 5,
+      "solution": [
+        "$9+16=25$, dus wortel 5."
+      ],
+      "hints": [
+        "Eerst de som, dan de wortel."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je hebt de wortel over de som verdeeld. Dat is geen geldige regel: eerst 9+16 berekenen."
+        }
+      ]
+    },
+    {
+      "id": "14-020",
+      "question": "Tussen welke twee opeenvolgende gehele getallen ligt $\\sqrt{20}$?",
+      "solution": [
+        "$4^2=16<20<25=5^2$."
+      ],
+      "hints": [
+        "Zoek het kwadraat eronder en erboven."
+      ],
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ],
+      "parts": [
+        {
+          "label": "ondergrens",
+          "answer": 4,
+          "type": "numeric"
+        },
+        {
+          "label": "bovengrens",
+          "answer": 5,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "14-021",
+      "question": "Bereken $\\sqrt{20}$ op twee decimalen.",
+      "answer": 4.47,
+      "solution": [
+        "$\\sqrt{20}\\approx4{,}4721$, dus 4,47."
+      ],
+      "hints": [
+        "Gebruik een rekenmachine en rond pas het eindantwoord af."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-022",
+      "question": "Schrijf $\\sqrt{72}=a\\sqrt2$. Wat is a?",
+      "answer": 6,
+      "solution": [
+        "$72=36\\times2$.",
+        "$\\sqrt{72}=6\\sqrt2$."
+      ],
+      "hints": [
+        "Zoek de grootste kwadraatfactor in 72."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-023",
+      "question": "Schrijf 3.200.000 als $3{,}2\\times10^n$. Wat is n?",
+      "answer": 6,
+      "solution": [
+        "$10^6=1\\,000\\,000$."
+      ],
+      "hints": [
+        "Tel de positieverplaatsingen."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-024",
+      "question": "Schrijf 0,00045 als $4{,}5\\times10^n$. Wat is n?",
+      "answer": -4,
+      "solution": [
+        "$4{,}5\\times10^{-4}=0{,}00045$."
+      ],
+      "hints": [
+        "Een klein getal gebruikt een negatieve exponent."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-025",
+      "question": "Bereken $(3\\times10^4)(2\\times10^3)$ als gewoon getal.",
+      "answer": 60000000,
+      "solution": [
+        "$3\\times2=6$ en $10^4\\times10^3=10^7$.",
+        "Dus 60.000.000."
+      ],
+      "hints": [
+        "Vermenigvuldig factoren en tel exponenten op."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-026",
+      "question": "Bereken $1{,}4^2$.",
+      "answer": 1.96,
+      "solution": [
+        "$1{,}4\\times1{,}4=1{,}96$.",
+        "Dat is kleiner dan 2; 1,4 is dus een te kleine benadering van de wortel van 2."
+      ],
+      "hints": [
+        "Herstel de decimale plaatsen."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-027",
+      "question": "Een vierkant heeft oppervlakte 225 m². Wat is zijn omtrek?",
+      "answer": 60,
+      "solution": [
+        "Zijde $\\sqrt{225}=15$ m.",
+        "Omtrek $4\\times15=60$ m."
+      ],
+      "hints": [
+        "Zoek eerst de zijde."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "powers"
+      ],
+      "unit": "m"
+    },
+    {
+      "id": "14-028",
+      "question": "Een hoeveelheid begint bij 5 en wordt zes keer verdubbeld. Wat is de eindwaarde?",
+      "answer": 320,
+      "solution": [
+        "$5\\times2^6=5\\times64=320$."
+      ],
+      "hints": [
+        "De startwaarde is geen extra verdubbeling."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-029",
+      "question": "Alle lengtes worden met factor 4 vergroot. Met welke factor groeit de inhoud?",
+      "answer": 64,
+      "solution": [
+        "De inhoudsfactor is $4^3=64$."
+      ],
+      "hints": [
+        "Er veranderen drie lengterichtingen."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "powers"
+      ]
+    },
+    {
+      "id": "14-030",
+      "question": "Een vierkante plaat heeft eerst zijde 4 cm en na vergroting oppervlakte 144 cm². Geef de nieuwe zijde en de lengtefactor.",
+      "solution": [
+        "Nieuwe zijde $\\sqrt{144}=12$ cm.",
+        "Lengtefactor $12:4=3$.",
+        "Oppervlaktefactor $144:16=9=3^2$."
+      ],
+      "hints": [
+        "Neem de wortel van de nieuwe oppervlakte.",
+        "Vergelijk daarna de zijden."
+      ],
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 3,
+      "topics": [
+        "powers"
+      ],
+      "parts": [
+        {
+          "label": "nieuwe zijde (cm)",
+          "answer": 12,
+          "type": "numeric"
+        },
+        {
+          "label": "lengtefactor",
+          "answer": 3,
+          "type": "numeric"
+        }
+      ]
+    }
+  ]
+}

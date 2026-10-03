@@ -1,0 +1,232 @@
+{
+  "title": "Hoofdstuktoets – Negatieve getallen",
+  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "questions": [
+    {
+      "id": "13-T01",
+      "question": "Welk getal is kleiner: -4 of -9?",
+      "answer": -9,
+      "solution": [
+        "-9 ligt verder links."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-T02",
+      "question": "Wat is de tegengestelde van 13?",
+      "answer": -13,
+      "solution": [
+        "$13+(-13)=0$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-T03",
+      "question": "Bereken $|-7|$.",
+      "answer": 7,
+      "solution": [
+        "De afstand tot nul is 7."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-T04",
+      "question": "Wat is de afstand tussen -6 en 4?",
+      "answer": 10,
+      "solution": [
+        "$|4-(-6)|=10$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-T05",
+      "question": "Bereken $-8+3$.",
+      "answer": -5,
+      "solution": [
+        "Drie naar rechts vanaf -8 geeft -5."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-T06",
+      "question": "Bereken $-4+(-9)$.",
+      "answer": -13,
+      "solution": [
+        "De twee negatieve bijdragen tellen op tot -13."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-T07",
+      "question": "Bereken $6-(-7)$.",
+      "answer": 13,
+      "solution": [
+        "$6+7=13$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-T08",
+      "question": "Bereken $-5-8$.",
+      "answer": -13,
+      "solution": [
+        "$-5+(-8)=-13$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-T09",
+      "question": "Bereken $(-6)\\times(-4)$.",
+      "answer": 24,
+      "solution": [
+        "Gelijke tekens geven plus: 24."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-T10",
+      "question": "Bereken $(-8)\\times3$.",
+      "answer": -24,
+      "solution": [
+        "Verschillende tekens geven min."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-T11",
+      "question": "Bereken $-35:(-5)$.",
+      "answer": 7,
+      "solution": [
+        "$(-5)\\times7=-35$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-T12",
+      "question": "Bereken $-3+2\\times(-5)$.",
+      "answer": -13,
+      "solution": [
+        "Eerst -10; dan $-3-10=-13$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-T13",
+      "question": "Bereken $(-4)^2-4^2$.",
+      "answer": 0,
+      "solution": [
+        "Beide kwadraten zijn 16; verschil nul."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-T14",
+      "question": "Een temperatuur van -8 °C stijgt 11 graden. Wat is de nieuwe temperatuur?",
+      "answer": 3,
+      "solution": [
+        "$-8+11=3$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "negative-numbers"
+      ],
+      "unit": "°C"
+    },
+    {
+      "id": "13-T15",
+      "question": "Je begint op positie 2, gaat 9 naar links en daarna 4 naar rechts. Wat is je eindpositie?",
+      "answer": -3,
+      "solution": [
+        "$2-9+4=-3$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "negative-numbers"
+      ]
+    }
+  ]
+}

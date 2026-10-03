@@ -1,0 +1,577 @@
+{
+  "exercises": [
+    {
+      "id": "18-001",
+      "question": "Je loopt 3 m naar rechts en daarna 4 m loodrecht omhoog. Wat is de rechtstreekse afstand?",
+      "answer": 5,
+      "solution": [
+        "$3^2+4^2=25$; wortel 5."
+      ],
+      "hints": [
+        "Gebruik de twee loodrechte verplaatsingen."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "m"
+    },
+    {
+      "id": "18-002",
+      "question": "Een rechthoekige driehoek heeft zijden 3, 4 en 5 cm. Hoe lang is de schuine zijde?",
+      "answer": 5,
+      "solution": [
+        "De langste zijde, tegenover de rechte hoek, is 5 cm."
+      ],
+      "hints": [
+        "Herken eerst de rol van de zijden."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "18-003",
+      "question": "Bereken de oppervlakte van het vierkant op een zijde van 6 cm.",
+      "answer": 36,
+      "solution": [
+        "$6^2=36$ cm²."
+      ],
+      "hints": [
+        "De stelling gebruikt kwadraten van lengtes."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "cm²"
+    },
+    {
+      "id": "18-004",
+      "question": "Rechthoekszijden zijn 6 en 8 cm. Wat is het kwadraat van de schuine zijde?",
+      "answer": 100,
+      "solution": [
+        "$36+64=100$."
+      ],
+      "hints": [
+        "De vraag vraagt nog niet om de wortel."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "cm²"
+    },
+    {
+      "id": "18-005",
+      "question": "Rechthoekszijden zijn 6 en 8 cm. Wat is de schuine zijde?",
+      "answer": 10,
+      "solution": [
+        "$c=\\sqrt{100}=10$ cm."
+      ],
+      "hints": [
+        "Neem na het optellen de wortel."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "18-006",
+      "question": "Rechthoekszijden zijn 8 en 15 cm. Wat is de schuine zijde?",
+      "answer": 17,
+      "solution": [
+        "$64+225=289$; wortel 17."
+      ],
+      "hints": [
+        "Tel de kwadraten op."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "18-007",
+      "question": "Rechthoekszijden zijn 1 en 1. Bereken de schuine zijde op twee decimalen.",
+      "answer": 1.41,
+      "solution": [
+        "$c=\\sqrt2\\approx1{,}41$."
+      ],
+      "hints": [
+        "Een geheel antwoord is niet altijd mogelijk."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-008",
+      "question": "Rechthoekszijden zijn 5 en 12 cm. Bereken de schuine zijde.",
+      "answer": 13,
+      "solution": [
+        "$25+144=169$; wortel 13."
+      ],
+      "hints": [
+        "Gebruik de som van kwadraten."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "18-009",
+      "question": "Schuine zijde 13 cm, een rechthoekszijde 5 cm. Bereken de andere rechthoekszijde.",
+      "answer": 12,
+      "solution": [
+        "$a^2=169-25=144$; a = 12."
+      ],
+      "hints": [
+        "Je zoekt een kleinere zijde: trek kwadraten af."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 18,
+          "message": "Je hebt de lengtes opgeteld. Trek 5² af van 13² en neem daarna de wortel."
+        }
+      ]
+    },
+    {
+      "id": "18-010",
+      "question": "Schuine zijde 10 cm, een rechthoekszijde 6 cm. Bereken de andere zijde.",
+      "answer": 8,
+      "solution": [
+        "$100-36=64$; wortel 8."
+      ],
+      "hints": [
+        "De schuine zijde staat alleen aan één kant."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "18-011",
+      "question": "Rechthoekszijden zijn 2 en 3. Bereken de schuine zijde op twee decimalen.",
+      "answer": 3.61,
+      "solution": [
+        "$\\sqrt{4+9}=\\sqrt{13}\\approx3{,}61$."
+      ],
+      "hints": [
+        "Rond alleen de worteluitkomst af."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-012",
+      "question": "Schuine zijde 7 m, een rechthoekszijde 4 m. Bereken de andere zijde op twee decimalen.",
+      "answer": 5.74,
+      "solution": [
+        "$\\sqrt{49-16}=\\sqrt{33}\\approx5{,}74$ m."
+      ],
+      "hints": [
+        "Trek eerst de kwadraten af."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "m"
+    },
+    {
+      "id": "18-013",
+      "question": "Rechthoekszijden zijn 30 cm en 0,4 m. Bereken de schuine zijde in cm.",
+      "answer": 50,
+      "solution": [
+        "0,4 m is 40 cm.",
+        "$\\sqrt{900+1600}=50$ cm."
+      ],
+      "hints": [
+        "Gebruik eerst dezelfde eenheid."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "18-014",
+      "question": "Een vierkant met zijde a+b, bij a = 3 en b = 4: bereken de oppervlakte.",
+      "answer": 49,
+      "solution": [
+        "$(3+4)^2=49$."
+      ],
+      "hints": [
+        "Kwadrateer de hele som."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-015",
+      "question": "Vier rechthoekige driehoeken hebben elk basis 3 en hoogte 4. Wat is hun totale oppervlakte?",
+      "answer": 24,
+      "solution": [
+        "Elke oppervlakte is $3\\times4/2=6$.",
+        "Vier keer 6 is 24."
+      ],
+      "hints": [
+        "Dit is het driehoekdeel in het bewijs."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-016",
+      "question": "In de bewijsconstructie heeft het grote vierkant oppervlakte 49 en de vier driehoeken samen 24. Wat is de oppervlakte van het middelste vierkant?",
+      "answer": 25,
+      "solution": [
+        "$49-24=25$."
+      ],
+      "hints": [
+        "Trek de driehoeken af."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-017",
+      "question": "Voor zijden 7, 24, 25: bereken $7^2+24^2-25^2$.",
+      "answer": 0,
+      "solution": [
+        "$49+576-625=0$.",
+        "De kwadraatrelatie klopt; de driehoek is rechthoekig."
+      ],
+      "hints": [
+        "De grootste zijde staat als schuine kandidaat."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-018",
+      "question": "Bereken de afstand tussen (-1; 2) en (3; 5).",
+      "answer": 5,
+      "solution": [
+        "Verschillen 4 en 3.",
+        "$\\sqrt{16+9}=5$."
+      ],
+      "hints": [
+        "Gebruik verschillen, niet losse coördinaten."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-019",
+      "question": "Bereken de afstand tussen (1; 1) en (4; 5).",
+      "answer": 5,
+      "solution": [
+        "Verschillen 3 en 4 geven afstand 5."
+      ],
+      "hints": [
+        "Teken een horizontaal en verticaal hulpstuk."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-020",
+      "question": "Bereken de afstand tussen (-2; -3) en (4; 5).",
+      "answer": 10,
+      "solution": [
+        "Verschillen 6 en 8.",
+        "$\\sqrt{36+64}=10$."
+      ],
+      "hints": [
+        "Let op de negatieve beginwaarden."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-021",
+      "question": "Een balk heeft lengte 3 cm en breedte 4 cm. Bereken de diagonaal van het grondvlak.",
+      "answer": 5,
+      "solution": [
+        "$\\sqrt{3^2+4^2}=5$ cm."
+      ],
+      "hints": [
+        "De hoogte van de balk heb je nog niet nodig."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "18-022",
+      "question": "Een balk is 3 cm bij 4 cm bij 12 cm. Bereken de ruimtediagonaal.",
+      "answer": 13,
+      "solution": [
+        "Grondvlakdiagonaal 5 cm.",
+        "$\\sqrt{5^2+12^2}=13$ cm."
+      ],
+      "hints": [
+        "Gebruik Pythagoras tweemaal."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "18-023",
+      "question": "Een kubus heeft zijde 2 cm. Bereken de ruimtediagonaal op twee decimalen.",
+      "answer": 3.46,
+      "solution": [
+        "$d=\\sqrt{4+4+4}=\\sqrt{12}\\approx3{,}46$ cm."
+      ],
+      "hints": [
+        "Er zijn drie gelijke kwadraten."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "18-024",
+      "question": "Het drietal 3, 4, 5 wordt met factor 3 vermenigvuldigd. Wat is de nieuwe schuine zijde?",
+      "answer": 15,
+      "solution": [
+        "$5\\times3=15$.",
+        "De nieuwe rechthoekszijden zijn 9 en 12."
+      ],
+      "hints": [
+        "De lengtefactor geldt voor alle zijden."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-025",
+      "question": "Gebruik a = m²-n², b = 2mn, c = m²+n² bij m = 3 en n = 2. Geef a, b en c.",
+      "solution": [
+        "a = 9-4 = 5.",
+        "b = 2×3×2 = 12.",
+        "c = 9+4 = 13."
+      ],
+      "hints": [
+        "Vul de twee waarden in elke formule in."
+      ],
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "pythagoras"
+      ],
+      "parts": [
+        {
+          "label": "a",
+          "answer": 5,
+          "type": "numeric"
+        },
+        {
+          "label": "b",
+          "answer": 12,
+          "type": "numeric"
+        },
+        {
+          "label": "c",
+          "answer": 13,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "18-026",
+      "question": "Een ladder van 5 m heeft de voet 3 m van een verticale muur op horizontale grond. Bereken de hoogte tegen de muur.",
+      "answer": 4,
+      "solution": [
+        "$\\sqrt{25-9}=4$ m."
+      ],
+      "hints": [
+        "De ladder is de schuine zijde."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "m"
+    },
+    {
+      "id": "18-027",
+      "question": "Een paal is 6 m hoog en staat loodrecht op de grond. Een rechte kabel loopt van de top naar een punt 8 m van de voet. Bereken de kabelafstand.",
+      "answer": 10,
+      "solution": [
+        "$\\sqrt{36+64}=10$ m."
+      ],
+      "hints": [
+        "Paal en grondafstand zijn de rechthoekszijden."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "m"
+    },
+    {
+      "id": "18-028",
+      "question": "Een rechthoek is 12 cm bij 16 cm. Bereken de diagonaal.",
+      "answer": 20,
+      "solution": [
+        "$\\sqrt{144+256}=20$ cm."
+      ],
+      "hints": [
+        "De rechthoek bevat een rechthoekige driehoek."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "18-029",
+      "question": "Schuine zijde 15 cm, een rechthoekszijde 9 cm. Bereken de andere zijde.",
+      "answer": 12,
+      "solution": [
+        "$\\sqrt{225-81}=12$ cm."
+      ],
+      "hints": [
+        "Trek kwadraten af."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "pythagoras"
+      ],
+      "unit": "cm"
+    },
+    {
+      "id": "18-030",
+      "question": "Een rechthoek heeft omtrek 28 cm en diagonaal 10 cm. De zijden zijn positieve gehele centimeters. Geef de kleinste en grootste zijde.",
+      "solution": [
+        "a+b = 14 en a²+b² = 100.",
+        "6 en 8 geven $36+64=100$.",
+        "Controle: omtrek 28 en diagonaal 10."
+      ],
+      "hints": [
+        "Zoek getallen die samen 14 zijn.",
+        "Controleer de kwadraten van elk kandidatenpaar."
+      ],
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "topics": [
+        "pythagoras"
+      ],
+      "parts": [
+        {
+          "label": "kleinste zijde",
+          "answer": 6,
+          "type": "numeric"
+        },
+        {
+          "label": "grootste zijde",
+          "answer": 8,
+          "type": "numeric"
+        }
+      ]
+    }
+  ]
+}

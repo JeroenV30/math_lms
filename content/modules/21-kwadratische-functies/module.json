@@ -4,10 +4,10 @@
   "title": "Kwadratische functies",
   "part": 4,
   "level": "havo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Babylonië",
   "estimated_difficulty": 3,
-  "estimated_minutes": 90,
+  "estimated_minutes": 190,
   "prerequisites": [
     20
   ],
@@ -15,12 +15,129 @@
     "quadratic-functions",
     "equations"
   ],
-  "core_question": null,
-  "summary": "Babylonische algebra.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Hoe beschrijf je een verband waarvan de verandering zelf verandert, en hoe vind je zijn nulpunten en uiterste waarde?",
+  "summary": "Parabolen in standaard-, top- en productvorm. Je lost kwadratische vergelijkingen op met ontbinden, kwadraat afsplitsen en de abc-formule.",
+  "learning_goals": [
+    "Je herkent een kwadratische functie met niet-nulcoëfficiënt bij x².",
+    "Je leest richting, symmetrieas en top uit passende vormen van de formule.",
+    "Je zet standaardvorm, topvorm en productvorm in elkaar om.",
+    "Je lost kwadratische vergelijkingen op met de nulproductregel, worteltrekken of de abc-formule.",
+    "Je gebruikt de discriminant om het aantal verschillende reële oplossingen te bepalen.",
+    "Je berekent snijpunten met een lijn door een kwadratische vergelijking op te stellen.",
+    "Je interpreteert extrema en wortels binnen een contextdomein."
+  ],
+  "glossary": [
+    {
+      "term": "Parabool",
+      "definition": "De grafiek van een kwadratische functie y = ax²+bx+c met a ≠ 0."
+    },
+    {
+      "term": "Top",
+      "definition": "Het laagste punt bij a > 0 of het hoogste punt bij a < 0."
+    },
+    {
+      "term": "Symmetrieas",
+      "definition": "De verticale lijn door de top die de parabool in spiegelbeelden verdeelt."
+    },
+    {
+      "term": "Nulproductregel",
+      "definition": "Een product is nul dan en slechts dan als minstens één factor nul is."
+    },
+    {
+      "term": "Discriminant",
+      "definition": "Het getal D = b²-4ac dat bij de abc-formule het aantal reële wortels bepaalt."
+    },
+    {
+      "term": "Dubbele wortel",
+      "definition": "Een herhaald nulpunt: de parabool raakt de x-as in de top."
+    },
+    {
+      "term": "Kwadraat afsplitsen",
+      "definition": "Een kwadratische expressie herschrijven met een kwadraat van een som en een constante."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Standaardvorm",
+      "latex": "f(x)=ax^2+bx+c\\quad(a\\ne0)",
+      "usage": "Handig om coëfficiënten af te lezen."
+    },
+    {
+      "name": "Topvorm",
+      "latex": "f(x)=a(x-h)^2+k",
+      "usage": "Top (h; k), symmetrieas x = h."
+    },
+    {
+      "name": "Top in standaardvorm",
+      "latex": "h=-\\frac{b}{2a},\\qquad k=f(h)",
+      "usage": "Vul de topinvoer in om haar hoogte te bepalen."
+    },
+    {
+      "name": "Abc-formule",
+      "latex": "x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}",
+      "usage": "Voor ax²+bx+c=0 met a ≠ 0; reële wortels vragen D ≥ 0."
+    },
+    {
+      "name": "Productvorm",
+      "latex": "f(x)=a(x-r_1)(x-r_2)",
+      "usage": "Bij reële nulpunten r₁ en r₂; deze kunnen samenvallen."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een oppervlakte die niet rechtlijnig groeit",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "parabool",
+      "title": "De vorm en de top",
+      "kind": "theory",
+      "file": "02-parabool.md"
+    },
+    {
+      "slug": "drie-vormen",
+      "title": "Standaardvorm, topvorm en productvorm",
+      "kind": "theory",
+      "file": "03-drie-vormen.md"
+    },
+    {
+      "slug": "nulpunten",
+      "title": "Nulproductregel en worteltrekken",
+      "kind": "theory",
+      "file": "04-nulpunten.md"
+    },
+    {
+      "slug": "abc-formule",
+      "title": "Een algemene methode",
+      "kind": "theory",
+      "file": "05-abc-formule.md"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Een vierkant aanvullen",
+      "kind": "history",
+      "file": "06-historisch-intermezzo.md"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Snijpunten en maximale oppervlakte",
+      "kind": "practice",
+      "file": "07-praktijk-en-uitdaging.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
+  "timeline": [
+    "mesopotamische-getallen",
+    "al-khwarizmi"
+  ],
+  "mathematicians": [
+    "al-khwarizmi"
+  ]
 }

@@ -1,0 +1,238 @@
+{
+  "title": "Hoofdstuktoets – Tabellen en gegevens",
+  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "questions": [
+    {
+      "id": "12-T01",
+      "question": "Frequenties 7, 9 en 4: hoeveel waarnemingen zijn er totaal?",
+      "answer": 20,
+      "solution": [
+        "$7+9+4=20$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "data"
+      ]
+    },
+    {
+      "id": "12-T02",
+      "question": "9 van 20 waarnemingen vallen in categorie B. Wat is het percentage?",
+      "answer": 45,
+      "solution": [
+        "$9/20\\times100=45\\%$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "data"
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "12-T03",
+      "question": "Een cirkelsector stelt 30% voor. Hoeveel graden is de sectorhoek?",
+      "answer": 108,
+      "solution": [
+        "$0{,}3\\times360=108$°."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "data"
+      ],
+      "unit": "°"
+    },
+    {
+      "id": "12-T04",
+      "question": "Een sector van 90° stelt welk percentage voor?",
+      "answer": 25,
+      "solution": [
+        "$90/360=1/4=25\\%$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "data"
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "12-T05",
+      "question": "De waarden 3, 5, 7, 9 hebben welk gemiddelde?",
+      "answer": 6,
+      "solution": [
+        "Som 24, aantal 4; gemiddelde 6."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "averages"
+      ]
+    },
+    {
+      "id": "12-T06",
+      "question": "Bepaal de mediaan van 9, 3, 7, 5.",
+      "answer": 6,
+      "solution": [
+        "Gesorteerd 3, 5, 7, 9.",
+        "$(5+7)/2=6$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "averages"
+      ]
+    },
+    {
+      "id": "12-T07",
+      "question": "Bepaal de modus van 2, 4, 4, 5, 9.",
+      "answer": 4,
+      "solution": [
+        "4 heeft de hoogste frequentie."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "averages"
+      ]
+    },
+    {
+      "id": "12-T08",
+      "question": "Bepaal de spreidingsbreedte van 2, 4, 4, 5, 9.",
+      "answer": 7,
+      "solution": [
+        "$9-2=7$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "averages"
+      ]
+    },
+    {
+      "id": "12-T09",
+      "question": "Waarden 2, 5, 8 hebben frequenties 3, 2, 1. Bereken de totale som.",
+      "answer": 24,
+      "solution": [
+        "$3\\times2+2\\times5+1\\times8=24$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "averages"
+      ]
+    },
+    {
+      "id": "12-T10",
+      "question": "Waarden 2, 5, 8 hebben frequenties 3, 2, 1. Bereken het gemiddelde.",
+      "answer": 4,
+      "solution": [
+        "Som 24; aantal 6; gemiddelde 4."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "averages"
+      ]
+    },
+    {
+      "id": "12-T11",
+      "question": "5 personen hebben gemiddelde 4; 15 personen gemiddelde 8. Bereken het gezamenlijke gemiddelde.",
+      "answer": 7,
+      "solution": [
+        "Som $20+120=140$.",
+        "Aantal 20; gemiddelde 7."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "averages"
+      ]
+    },
+    {
+      "id": "12-T12",
+      "question": "Vijf waarden hebben gemiddelde 10. Vier bekende waarden zijn 6, 8, 11, 13. Vind de vijfde.",
+      "answer": 12,
+      "solution": [
+        "Totale som 50; bekende som 38.",
+        "Ontbrekend 12."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "averages"
+      ]
+    },
+    {
+      "id": "12-T13",
+      "question": "Bepaal de mediaan van 4, 5, 6, 7, 100.",
+      "answer": 6,
+      "solution": [
+        "De derde gesorteerde waarde is 6."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "averages"
+      ]
+    },
+    {
+      "id": "12-T14",
+      "question": "Een waarde stijgt van 80 naar 84. Hoeveel procent is de stijging?",
+      "answer": 5,
+      "solution": [
+        "$4/80\\times100=5\\%$."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "data"
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "12-T15",
+      "question": "Vier waarden zijn 5, 6, 9 en 12. Een vijfde meting ontbreekt. Wat is het gemiddelde van de vier bekende waarden?",
+      "answer": 8,
+      "solution": [
+        "Som 32; deel door vier, niet door vijf."
+      ],
+      "hints": [],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "averages"
+      ]
+    }
+  ]
+}

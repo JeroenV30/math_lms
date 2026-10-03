@@ -4,10 +4,10 @@
   "title": "Kansrekening",
   "part": 4,
   "level": "havo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "17e eeuw",
   "estimated_difficulty": 3,
-  "estimated_minutes": 90,
+  "estimated_minutes": 150,
   "prerequisites": [
     22
   ],
@@ -15,12 +15,125 @@
     "probability",
     "combinatorics"
   ],
-  "core_question": null,
-  "summary": "Pascal en Fermat.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
+  "core_question": "Hoe maak je onzekerheid berekenbaar zonder uitkomsten als zekerheden te behandelen?",
+  "summary": "Uitkomsten tellen, gebeurtenissen combineren, kansbomen en rekenen met en zonder terugleggen. Je onderscheidt onafhankelijkheid en uitsluiting.",
+  "learning_goals": [
+    "Je beschrijft een uitkomstenruimte en een gebeurtenis.",
+    "Je gebruikt gunstig gedeeld door totaal alleen bij even waarschijnlijke uitkomsten.",
+    "Je berekent complementen en kansen op verenigingen met overlap.",
+    "Je gebruikt de productregel om mogelijkheden te tellen.",
+    "Je tekent een kansboom met kansen die per splitsing optellen tot één.",
+    "Je berekent samengestelde kansen met en zonder terugleggen.",
+    "Je onderscheidt onafhankelijke gebeurtenissen van elkaar uitsluitende gebeurtenissen.",
+    "Je interpreteert theoretische kansen en relatieve frequenties."
+  ],
+  "glossary": [
+    {
+      "term": "Uitkomstenruimte",
+      "definition": "De verzameling mogelijke uitkomsten van het experiment."
+    },
+    {
+      "term": "Gebeurtenis",
+      "definition": "Een verzameling uitkomsten waarvan je de kans onderzoekt."
+    },
+    {
+      "term": "Complement",
+      "definition": "De gebeurtenis dat een gegeven gebeurtenis niet optreedt."
+    },
+    {
+      "term": "Onafhankelijk",
+      "definition": "Het optreden van de ene gebeurtenis verandert de kans op de andere niet."
+    },
+    {
+      "term": "Elkaar uitsluitend",
+      "definition": "Twee gebeurtenissen kunnen niet tegelijk optreden."
+    },
+    {
+      "term": "Kansboom",
+      "definition": "Een schema van opeenvolgende mogelijkheden, met kansen langs de takken."
+    },
+    {
+      "term": "Relatieve frequentie",
+      "definition": "Het aantal waarnemingen van een gebeurtenis gedeeld door het aantal proeven."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Gelijk waarschijnlijke uitkomsten",
+      "latex": "P(A)=\\frac{|A|}{|\\Omega|}",
+      "usage": "Alle afzonderlijke uitkomsten in Ω moeten even waarschijnlijk zijn."
+    },
+    {
+      "name": "Complement",
+      "latex": "P(A^c)=1-P(A)",
+      "usage": "Handig bij minstens één."
+    },
+    {
+      "name": "Vereniging",
+      "latex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)",
+      "usage": "Trek dubbel getelde overlap af."
+    },
+    {
+      "name": "Onafhankelijke gebeurtenissen",
+      "latex": "P(A\\cap B)=P(A)P(B)",
+      "usage": "Alleen als onafhankelijkheid gerechtvaardigd is."
+    },
+    {
+      "name": "Pad in een kansboom",
+      "latex": "P(\\text{pad})=p_1p_2\\cdots p_k",
+      "usage": "Elke takkans hoort bij de voorgeschiedenis van dat pad."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Van mogelijk naar waarschijnlijk",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "uitkomsten",
+      "title": "Uitkomsten en gebeurtenissen",
+      "kind": "theory",
+      "file": "02-uitkomsten.md"
+    },
+    {
+      "slug": "tellen",
+      "title": "De productregel voor aantallen",
+      "kind": "theory",
+      "file": "03-tellen.md"
+    },
+    {
+      "slug": "of-en-niet",
+      "title": "Of, en en niet",
+      "kind": "theory",
+      "file": "04-of-en-niet.md"
+    },
+    {
+      "slug": "kansbomen",
+      "title": "Kansbomen en terugleggen",
+      "kind": "theory",
+      "file": "05-kansbomen.md"
+    },
+    {
+      "slug": "geschiedenis",
+      "title": "Een afgebroken spel verdelen",
+      "kind": "history",
+      "file": "06-geschiedenis.md"
+    },
+    {
+      "slug": "toepassen",
+      "title": "Een model toetsen aan waarnemingen",
+      "kind": "practice",
+      "file": "07-toepassen.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
   "timeline": [],
   "mathematicians": []
 }

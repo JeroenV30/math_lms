@@ -4,10 +4,10 @@
   "title": "Goniometrische functies",
   "part": 5,
   "level": "vwo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "18e eeuw",
   "estimated_difficulty": 3,
-  "estimated_minutes": 90,
+  "estimated_minutes": 150,
   "prerequisites": [
     26
   ],
@@ -15,12 +15,125 @@
     "trig-functions",
     "trigonometry"
   ],
-  "core_question": null,
-  "summary": "Eenheidscirkel, radialen en periodiciteit.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
+  "core_question": "Hoe beschrijf je herhalende beweging met hoeken op een cirkel en functies van de tijd?",
+  "summary": "De eenheidscirkel breidt sinus en cosinus uit naar alle hoeken. Radialen, symmetrie, vergelijkingen en sinusmodellen verbinden meetkunde met functies.",
+  "learning_goals": [
+    "Je rekent graden om naar radialen en omgekeerd.",
+    "Je leest sinus en cosinus als coördinaten op de eenheidscirkel.",
+    "Je gebruikt tekens, symmetrie en periodiciteit om functiewaarden te bepalen.",
+    "Je bepaalt amplitude, evenwichtsstand, periode en faseverschuiving van een sinusmodel.",
+    "Je lost eenvoudige goniometrische vergelijkingen op op een gegeven interval.",
+    "Je beschrijft volledige oplossingsfamilies met een gehele periode-index.",
+    "Je onderscheidt de perioden en domeinen van sinus, cosinus en tangens.",
+    "Je beoordeelt sinusmodellen in een context met de juiste tijdseenheden."
+  ],
+  "glossary": [
+    {
+      "term": "Eenheidscirkel",
+      "definition": "Een cirkel met straal één en middelpunt in de oorsprong."
+    },
+    {
+      "term": "Radiaal",
+      "definition": "De middelpuntshoek waarvan de booglengte gelijk is aan de straal."
+    },
+    {
+      "term": "Periode",
+      "definition": "Een positieve verschuiving in de invoer waarna de functie zich herhaalt; hier bedoelen we de kleinste positieve periode."
+    },
+    {
+      "term": "Amplitude",
+      "definition": "De maximale afstand tot de evenwichtsstand in een sinusmodel."
+    },
+    {
+      "term": "Evenwichtsstand",
+      "definition": "De middenhoogte tussen maximum en minimum van een sinusmodel."
+    },
+    {
+      "term": "Faseverschuiving",
+      "definition": "Een horizontale verschuiving van het periodieke patroon."
+    },
+    {
+      "term": "Hoeksnelheid",
+      "definition": "De verandering van hoek in radialen per tijdseenheid bij een gelijkmatige draaiing."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Hoekeenheden",
+      "latex": "\\theta_{\\mathrm{rad}}=\\theta_{\\mathrm{graden}}\\frac{\\pi}{180}",
+      "usage": "Een hele omwenteling is 2π radialen."
+    },
+    {
+      "name": "Cirkelpunt",
+      "latex": "P=(\\cos\\theta,\\sin\\theta)",
+      "usage": "Cosinus is x, sinus is y."
+    },
+    {
+      "name": "Periodiciteit",
+      "latex": "\\sin(\\theta+2\\pi)=\\sin\\theta,\\quad\\cos(\\theta+2\\pi)=\\cos\\theta",
+      "usage": "Sinus en cosinus hebben periode 2π."
+    },
+    {
+      "name": "Sinusmodel",
+      "latex": "y=d+A\\sin(b(t-c))\\quad(A\\ne0,\\ b\\ne0)",
+      "usage": "Amplitude |A|, evenwichtsstand d en periode 2π/|b|."
+    },
+    {
+      "name": "Sinusvergelijking",
+      "latex": "\\sin x=\\sin\\alpha\\implies x=\\alpha+2k\\pi\\ \\text{of}\\ x=\\pi-\\alpha+2k\\pi",
+      "usage": "k is geheel; bij extrema kunnen de families samenvallen."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een draaiing wordt een golf",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "radialen",
+      "title": "Radialen en booglengte",
+      "kind": "theory",
+      "file": "02-radialen.md"
+    },
+    {
+      "slug": "cirkel",
+      "title": "Coördinaten, tekens en symmetrie",
+      "kind": "theory",
+      "file": "03-cirkel.md"
+    },
+    {
+      "slug": "grafieken",
+      "title": "Grafieken en perioden",
+      "kind": "theory",
+      "file": "04-grafieken.md"
+    },
+    {
+      "slug": "modellen",
+      "title": "Amplitude, middenhoogte en fase",
+      "kind": "theory",
+      "file": "05-modellen.md"
+    },
+    {
+      "slug": "geschiedenis",
+      "title": "Van hoeken naar analytische functies",
+      "kind": "history",
+      "file": "06-geschiedenis.md"
+    },
+    {
+      "slug": "vergelijkingen",
+      "title": "Alle oplossingen en contextgrenzen",
+      "kind": "practice",
+      "file": "07-vergelijkingen.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
   "timeline": [],
   "mathematicians": []
 }

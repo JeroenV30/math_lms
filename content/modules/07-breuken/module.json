@@ -4,22 +4,134 @@
   "title": "Breuken",
   "part": 2,
   "level": "basisschool",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Oud-Egypte",
   "estimated_difficulty": 1,
-  "estimated_minutes": 90,
+  "estimated_minutes": 180,
   "prerequisites": [
     6
   ],
   "topics": [
     "fractions"
   ],
-  "core_question": null,
-  "summary": "De Rhind Mathematical Papyrus en Egyptische breuken.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Hoe verdeel je negen broden eerlijk over tien mensen, als hele broden niet genoeg zijn?",
+  "summary": "Breuken als getal, deel en deling: gelijkwaardigheid, vergelijken en alle vier de rekenbewerkingen. Van broodverdeling tot Egyptische stambreuken.",
+  "learning_goals": [
+    "Je legt uit wat teller, noemer en breukstreep betekenen.",
+    "Je plaatst breuken op de getallenlijn, ook boven één, en schrijft gemengde getallen om.",
+    "Je maakt gelijkwaardige breuken en vereenvoudigt met een gemeenschappelijke deler.",
+    "Je vergelijkt breuken en maakt ze gelijknamig.",
+    "Je telt breuken op en trekt ze af met een gemeenschappelijke noemer.",
+    "Je vermenigvuldigt en deelt breuken en controleert de grootte van je antwoord.",
+    "Je berekent een breuk van een hoeveelheid en vindt het oorspronkelijke geheel.",
+    "Je herkent stambreuken en controleert een Egyptische ontbinding."
+  ],
+  "glossary": [
+    {
+      "term": "Teller",
+      "definition": "Het getal boven de breukstreep: het aantal gekozen gelijke delen."
+    },
+    {
+      "term": "Noemer",
+      "definition": "Het getal onder de breukstreep: in hoeveel gelijke delen één geheel is verdeeld. De noemer is nooit nul."
+    },
+    {
+      "term": "Gelijknamig",
+      "definition": "Breuken met dezelfde noemer, dus met dezelfde deelgrootte."
+    },
+    {
+      "term": "Gelijkwaardig",
+      "definition": "Breuken met dezelfde waarde, zoals $1/2$ en $3/6$."
+    },
+    {
+      "term": "Gemengd getal",
+      "definition": "Een geheel getal plus een echte breuk, zoals $2\\frac{1}{3}$."
+    },
+    {
+      "term": "Omgekeerde",
+      "definition": "Van een niet-nulbreuk $a/b$ is de omgekeerde $b/a$."
+    },
+    {
+      "term": "Stambreuk",
+      "definition": "Een breuk met teller 1, bijvoorbeeld $1/5$."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Gelijkwaardigheid",
+      "latex": "\\frac{a}{b}=\\frac{ka}{kb}",
+      "usage": "Vermenigvuldig teller en noemer met dezelfde niet-nulfactor."
+    },
+    {
+      "name": "Optellen",
+      "latex": "\\frac{a}{b}+\\frac{c}{b}=\\frac{a+c}{b}",
+      "usage": "Maak eerst de deelgrootte gelijk."
+    },
+    {
+      "name": "Vermenigvuldigen",
+      "latex": "\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}",
+      "usage": "Neem een deel van een deel."
+    },
+    {
+      "name": "Delen",
+      "latex": "\\frac{a}{b}:\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}",
+      "usage": "Vermenigvuldig met de omgekeerde; de deler is niet nul."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Negen broden, tien mensen",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "teller-en-noemer",
+      "title": "Breuken als getallen",
+      "kind": "theory",
+      "file": "02-teller-en-noemer.md"
+    },
+    {
+      "slug": "gelijkwaardigheid",
+      "title": "Vereenvoudigen en vergelijken",
+      "kind": "theory",
+      "file": "03-gelijkwaardigheid.md"
+    },
+    {
+      "slug": "optellen-en-aftrekken",
+      "title": "Optellen en aftrekken",
+      "kind": "theory",
+      "file": "04-optellen-en-aftrekken.md"
+    },
+    {
+      "slug": "vermenigvuldigen-en-delen",
+      "title": "Een deel van een deel",
+      "kind": "theory",
+      "file": "05-vermenigvuldigen-en-delen.md"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Rekenen met stambreuken",
+      "kind": "history",
+      "file": "06-historisch-intermezzo.md"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Recepten, porties en resterende voorraad",
+      "kind": "practice",
+      "file": "07-praktijk-en-uitdaging.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
+  "timeline": [
+    "rhind-papyrus"
+  ],
+  "mathematicians": [
+    "ahmes"
+  ]
 }

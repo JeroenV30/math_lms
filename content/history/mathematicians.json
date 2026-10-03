@@ -3,24 +3,28 @@
     {
       "id": "ahmes",
       "name": "Ahmes",
-      "full_name": "Ahmes (Ahmose), schrijver",
+      "full_name": "Ahmes (ook Ahmose), schrijver",
       "lived": "actief ca. 1550 v.Chr.",
       "sort_year": -1550,
-      "region": "Egypte",
-      "known_for": "De schrijver die de Rhind-papyrus kopieerde, onze rijkste bron over Egyptisch rekenen.",
-      "bio": "Ahmes is de oudste wiskundige 'auteur' van wie we de naam kennen — al was hij eerder een kopiist dan een uitvinder. In de inleiding van de papyrus die nu naar de Schotse verzamelaar Alexander Henry Rhind heet, vermeldt hij dat hij de tekst overschreef van een ouder origineel uit de tijd van koning Amenemhat III, enkele eeuwen eerder.\n\nDe papyrus bevat tientallen opgaven met uitwerkingen: verdelen van broden en bier, oppervlakten van akkers, inhouden van graanschuren en het rekenen met stambreuken. Daarmee laat Ahmes zien hoe Egyptische schrijvers vermenigvuldigden door te verdubbelen en hoe ze breuken schreven als sommen van stambreuken.\n\nOver Ahmes zelf weten we vrijwel niets. Zijn betekenis zit in de tekst: zonder deze kopie zouden we veel minder weten over hoe mensen in het oude Egypte dagelijks rekenden.",
+      "region": "Egypte (waarschijnlijk Thebe)",
+      "known_for": "De schrijver die de Rhind-papyrus overschreef, onze rijkste bron over Egyptisch rekenen.",
+      "bio": "Ahmes is de oudste persoon van wie we de naam kennen in verband met een wiskundige tekst – al was hij eerder een kopiist dan een uitvinder. In de inleiding van de papyrus die nu naar de Schotse verzamelaar Alexander Henry Rhind heet, vermeldt hij dat hij de tekst overschreef in het 33e regeringsjaar van koning Apophis (ca. 1550 v.Chr.), naar een ouder origineel uit de tijd van Amenemhat III, zo'n twee à drie eeuwen eerder.\n\nDe papyrus is een leerboek met uitgewerkte voorbeelden. Hij begint met een tabel die breuken als $\\tfrac{2}{n}$ schrijft als som van stambreuken, en bevat daarna zo'n 84 opgaven (afhankelijk van de telling iets meer): broden eerlijk verdelen, vermenigvuldigen door herhaald verdubbelen, 'aha'-problemen die wij met een vergelijking zouden oplossen, en de oppervlakte van akkers en de inhoud van graanschuren. Voor de oppervlakte van een cirkel neemt de schrijver het kwadraat van $\\tfrac{8}{9}$ van de middellijn, wat neerkomt op $\\pi \\approx 3{,}16$.\n\nOver Ahmes zelf weten we niets meer dan wat hij in de papyrus vertelt. Zijn betekenis zit in de tekst: zonder deze kopie – en de kleinere Moskou-papyrus – zouden we nauwelijks weten hoe in het oude Egypte dagelijks werd gerekend. Rhind kocht de rol in 1858 in Luxor; sinds 1865 is hij in het British Museum.",
       "contributions": [
-        "Kopie van de Rhind Mathematical Papyrus (84 opgaven)",
-        "Bewaarde de Egyptische methoden voor vermenigvuldigen en breuken"
+        "Kopie van de Rhind Mathematical Papyrus (ca. 1550 v.Chr.)",
+        "Tabel van $\\tfrac{2}{n}$ als som van stambreuken",
+        "Vermenigvuldigen door verdubbelen en eerlijk verdelen",
+        "Benadering van de oppervlakte van een cirkel ($\\pi \\approx 3{,}16$)"
       ],
       "modules": [
         4,
-        7
+        5,
+        7,
+        11
       ],
-      "image": null,
       "timeline": [
         "rhind-papyrus"
-      ]
+      ],
+      "image": null
     },
     {
       "id": "pythagoras",
@@ -28,22 +32,22 @@
       "full_name": "Pythagoras van Samos",
       "lived": "ca. 570 – ca. 495 v.Chr.",
       "sort_year": -530,
-      "region": "Samos en Kroton (Zuid-Italië)",
-      "known_for": "Naamgever van de beroemdste stelling uit de meetkunde en stichter van een filosofische school.",
-      "bio": "Pythagoras werd geboren op het Griekse eiland Samos en stichtte later in Kroton, in het zuiden van Italië, een gemeenschap van volgelingen. Die pythagoreeërs zagen getallen als de sleutel tot de werkelijkheid: harmonieën in muziek bleken bijvoorbeeld samen te hangen met eenvoudige verhoudingen van snaarlengtes.\n\nWat Pythagoras zelf heeft ontdekt, is grotendeels onzeker. Hij schreef niets op, en de verhalen over hem zijn vaak eeuwen later opgetekend. De stelling die zijn naam draagt, was bovendien veel eerder al bekend: Babylonische kleitabletten zoals Plimpton 322 laten zien dat schrijvers ruim duizend jaar eerder met zulke driehoeken rekenden.\n\nHet belang van de pythagoreïsche traditie ligt vooral in het idee dat wiskundige uitspraken bewezen moeten worden, en dat de wereld met getallen en verhoudingen te beschrijven is.",
+      "region": "Samos en Croton (Zuid-Italië)",
+      "known_for": "Naamgever van de beroemdste stelling uit de meetkunde en stichter van een school waarin getallen centraal stonden.",
+      "bio": "Pythagoras werd geboren op het Griekse eiland Samos en vestigde zich rond 530 v.Chr. in Croton, een Griekse stad in Zuid-Italië, waar hij een gemeenschap met eigen leefregels stichtte. De pythagoreeërs zagen getallen en hun verhoudingen als de sleutel tot de werkelijkheid. Bekend is het verband met muziek: een snaar die half zo lang is, klinkt een octaaf hoger (verhouding $2:1$), en ook de kwint ($3:2$) en de kwart ($4:3$) horen bij eenvoudige verhoudingen van gehele getallen.\n\nWat Pythagoras zelf heeft ontdekt, is grotendeels onzeker. Voor zover bekend schreef hij niets op, zijn volgelingen schreven ontdekkingen graag aan de meester toe, en de uitgebreide levensbeschrijvingen zijn pas eeuwen later opgetekend en vol legenden. Ook waar en wanneer hij stierf, is onzeker; volgens veel verhalen in Metapontum, na een opstand tegen de pythagoreeërs in Croton.\n\nDe stelling die zijn naam draagt, $a^2 + b^2 = c^2$, was al veel eerder bekend: Babylonische kleitabletten zoals Plimpton 322 laten zien dat schrijvers ruim duizend jaar eerder met zulke driehoeken rekenden. Of Pythagoras een bewijs gaf, weten we niet; het oudste bewaarde bewijs staat in Euclides' *Elementen* (I.47). Het is daarom zuiverder om te spreken over wat 'de pythagoreïsche school' deed dan over Pythagoras persoonlijk.",
       "contributions": [
-        "De pythagoreïsche school",
-        "Verhoudingen in muziek (snaarlengtes)",
-        "Traditioneel: het bewijs van de stelling van Pythagoras"
+        "De pythagoreïsche school in Croton",
+        "Verhoudingen in de muziek (octaaf, kwint en kwart)",
+        "Traditioneel toegeschreven: de stelling van Pythagoras (de stelling zelf was ouder)"
       ],
       "modules": [
         10,
         18
       ],
-      "image": null,
       "timeline": [
         "pythagoras"
-      ]
+      ],
+      "image": null
     },
     {
       "id": "euclides",
@@ -52,45 +56,47 @@
       "lived": "actief ca. 300 v.Chr.",
       "sort_year": -300,
       "region": "Alexandrië",
-      "known_for": "Schrijver van de Elementen, het invloedrijkste wiskundeboek ooit.",
-      "bio": "Over het leven van Euclides is bijna niets bekend; zelfs zijn geboorte- en sterfjaar zijn onzeker. Hij werkte rond 300 v.Chr. in Alexandrië, de stad die toen het wetenschappelijke centrum van de Griekse wereld was.\n\nZijn hoofdwerk, de *Elementen*, verzamelt de meetkunde en getaltheorie van zijn tijd in dertien boeken. Het bijzondere is de opbouw: uit een klein aantal definities en axioma's worden stap voor stap stellingen bewezen. Boek VII beschrijft de methode die we nu het algoritme van Euclides noemen, en in boek IX staat een kort en nog altijd geldig bewijs dat de rij priemgetallen nooit ophoudt.\n\nDe *Elementen* werden ruim tweeduizend jaar als leerboek gebruikt en behoren tot de meest gekopieerde en gedrukte boeken uit de geschiedenis.",
+      "known_for": "Schrijver van de Elementen, het invloedrijkste wiskundeboek uit de geschiedenis.",
+      "bio": "Over het leven van Euclides is bijna niets bekend; zelfs zijn geboorte- en sterfjaar zijn onbekend. De belangrijkste bron, de commentator Proclus (5e eeuw n.Chr.), plaatst hem in Alexandrië ten tijde van koning Ptolemaeus I, rond 300 v.Chr. – in de tijd dat die stad het wetenschappelijke centrum van de Griekse wereld werd.\n\nZijn hoofdwerk, de *Elementen*, verzamelt de meetkunde en getaltheorie van zijn tijd in dertien boeken. Veel van de inhoud was niet nieuw – Euclides verwerkte werk van onder anderen Eudoxus en Theaetetus – maar de opbouw wel: uit een klein aantal definities, postulaten en axioma's worden stap voor stap honderden stellingen bewezen. Boek I eindigt met de stelling van Pythagoras en haar omkering, boek V bevat de proportieleer, boek VII begint met de methode die we nu het algoritme van Euclides noemen, en in boek IX (stelling 20) staat het bewijs dat er oneindig veel priemgetallen zijn.\n\nEuclides schreef ook andere werken, zoals de *Data*, de *Optica* en de *Phaenomena* (over sterrenkunde). De *Elementen* werden ruim tweeduizend jaar als leerboek gebruikt; de eerste gedrukte uitgave verscheen in 1482 in Venetië, en sindsdien zijn er honderden edities verschenen. Het bekende verhaal dat hij tegen de koning zei dat er 'geen koninklijke weg' naar de meetkunde bestaat, staat pas bij Proclus en is vermoedelijk een anekdote.",
       "contributions": [
-        "De Elementen (13 boeken)",
-        "Het algoritme van Euclides voor de grootste gemene deler",
-        "Bewijs dat er oneindig veel priemgetallen zijn"
+        "De Elementen (13 boeken, ca. 300 v.Chr.)",
+        "Het algoritme van Euclides voor de grootste gemene deler (boek VII)",
+        "Bewijs dat er oneindig veel priemgetallen zijn (boek IX)",
+        "Andere werken: Data, Optica en Phaenomena"
       ],
       "modules": [
         5,
+        10,
         11,
         18
       ],
-      "image": null,
       "timeline": [
         "euclides-elementen"
-      ]
+      ],
+      "image": null
     },
     {
       "id": "eratosthenes",
       "name": "Eratosthenes",
       "full_name": "Eratosthenes van Cyrene",
-      "lived": "ca. 276 – ca. 194 v.Chr.",
+      "lived": "ca. 276 – ca. 195 v.Chr.",
       "sort_year": -240,
       "region": "Cyrene en Alexandrië",
-      "known_for": "Bedenker van de zeef voor priemgetallen en de eerste die de omtrek van de aarde berekende.",
-      "bio": "Eratosthenes kwam uit Cyrene (in het huidige Libië) en werd bibliothecaris van de beroemde bibliotheek van Alexandrië. Hij was een veelzijdig geleerde: wiskundige, geograaf, astronoom en dichter.\n\nIn de rekenkunde is hij bekend van de *zeef*: een eenvoudige methode om alle priemgetallen tot een bepaalde grens te vinden door steeds de veelvouden van een priemgetal weg te strepen.\n\nDaarnaast schatte hij de omtrek van de aarde. Hij vergeleek de stand van de zon in Syene (Aswan) en Alexandrië op dezelfde dag en gebruikte de afstand tussen de steden. Hoe nauwkeurig zijn uitkomst was, hangt af van de lengte van de stadion-eenheid die hij gebruikte, en die is niet precies bekend — maar de methode was briljant.",
+      "known_for": "Bibliothecaris van Alexandrië, bekend van de zeef voor priemgetallen en een meting van de omtrek van de aarde.",
+      "bio": "Eratosthenes kwam uit Cyrene (in het huidige Libië) en werd door koning Ptolemaeus III naar Alexandrië gehaald, waar hij rond 240 v.Chr. hoofd werd van de beroemde bibliotheek. Hij was een veelzijdig geleerde: wiskundige, geograaf, astronoom, chronoloog en dichter. Tijdgenoten gaven hem volgens de overlevering de bijnaam *Beta* ('nummer twee'), omdat hij op veel gebieden uitblonk maar op geen enkel de allerbeste was. Hij gebruikte als een van de eersten het woord *geografie*.\n\nIn de rekenkunde is hij bekend van de *zeef*: een eenvoudige methode om alle priemgetallen tot een bepaalde grens te vinden door steeds de veelvouden van een priemgetal weg te strepen. We kennen die methode via Nicomachus van Gerasa (ca. 100 n.Chr.); of Eratosthenes haar zelf bedacht of alleen de naam 'zeef' gaf, is niet zeker.\n\nDaarnaast bepaalde hij de omtrek van de aarde. Hij vergeleek de stand van de middagzon op de dag van de zomerzonnewende in Syene (Assoean) en Alexandrië, en combineerde het hoekverschil – $\\tfrac{1}{50}$ van een volle cirkel – met de afstand tussen de steden. Zo kwam hij op 250.000 stadiën (later vaak 252.000). Er waren al eerdere schattingen, maar van Eratosthenes is als eerste de methode bekend. Hoe nauwkeurig zijn uitkomst was, hangt af van de lengte van zijn stadion, en die is niet precies bekend; ook deze meting kennen we alleen uit latere bronnen. Volgens een late overlevering werd hij op hoge leeftijd blind en liet hij zich verhongeren.",
       "contributions": [
-        "De zeef van Eratosthenes",
-        "Schatting van de omtrek van de aarde",
-        "Aardrijkskunde en chronologie"
+        "De zeef van Eratosthenes (via Nicomachus overgeleverd)",
+        "Meting van de omtrek van de aarde",
+        "Aardrijkskunde, chronologie en een mechanische oplossing van de verdubbeling van de kubus"
       ],
       "modules": [
         5,
-        6
+        11
       ],
-      "image": null,
       "timeline": [
         "eratosthenes"
-      ]
+      ],
+      "image": null
     },
     {
       "id": "hipparchus",
@@ -99,44 +105,48 @@
       "lived": "ca. 190 – ca. 120 v.Chr.",
       "sort_year": -150,
       "region": "Nicaea en Rhodos",
-      "known_for": "Astronoom die als grondlegger van de goniometrie geldt.",
-      "bio": "Hipparchus werd geboren in Nicaea (in het huidige Turkije) en deed een groot deel van zijn waarnemingen op het eiland Rhodos. Hij wordt vaak de grootste astronoom van de oudheid genoemd.\n\nOm de bewegingen van zon en maan te berekenen, stelde hij een tabel op van koorden: lijnstukken in een cirkel bij een gegeven hoek. Die koordentabel is de voorloper van onze sinustabel, en daarom geldt Hipparchus als grondlegger van de goniometrie. Hij gebruikte daarbij de Babylonische indeling van de cirkel in 360 graden.\n\nVrijwel al zijn eigen geschriften zijn verloren gegaan. We kennen zijn werk vooral via Ptolemaeus, die er drie eeuwen later op voortbouwde.",
+      "known_for": "Astronoom die – voor zover bekend – de eerste koordentabel opstelde en daarom als grondlegger van de goniometrie geldt.",
+      "bio": "Hipparchus werd geboren in Nicaea (het huidige İznik in Turkije). Zijn waarnemingen dateren van ongeveer 162 tot 127 v.Chr.; de latere ervan deed hij op het eiland Rhodos. Hij wordt vaak tot de grootste astronomen van de oudheid gerekend.\n\nOm de bewegingen van zon en maan te berekenen, moest hij hoeken omzetten in lengtes. Daarvoor stelde hij – voor zover bekend als eerste – een tabel op van *koorden*: lijnstukken in een cirkel bij een gegeven middelpuntshoek. Omdat $\\operatorname{crd}(\\alpha) = 2R\\sin(\\tfrac{\\alpha}{2})$, is zo'n koordentabel in feite een sinustabel in vermomming; daarom geldt Hipparchus als grondlegger van de goniometrie. Hij bracht de Babylonische indeling van de cirkel in 360 graden in de Griekse wiskunde in en gebruikte Babylonische waarnemingen.\n\nOok de ontdekking van de precessie van de equinoxen en een sterrencatalogus met ongeveer 850 sterren worden aan hem toegeschreven. Van zijn eigen geschriften is alleen een commentaar op het sterrenkundige gedicht van Aratus bewaard; de rest – volgens Theon van Alexandrië onder meer een werk in twaalf boeken over koorden – is verloren. We kennen zijn werk vooral via de *Almagest* van Ptolemaeus, bijna drie eeuwen later. Hoe zijn koordentabel er precies uitzag, is een reconstructie van moderne historici.",
       "contributions": [
         "Een tabel van koorden in een cirkel (voorloper van de sinustabel)",
+        "Invoering van de 360 graden in de Griekse wiskunde",
         "Ontdekking van de precessie van de equinoxen",
-        "Een sterrencatalogus"
+        "Een sterrencatalogus (ca. 850 sterren)"
       ],
       "modules": [
         6,
-        22
+        22,
+        27
       ],
-      "image": null,
       "timeline": [
         "hipparchus-koordentabel"
-      ]
+      ],
+      "image": null
     },
     {
       "id": "brahmagupta",
       "name": "Brahmagupta",
       "full_name": "Brahmagupta",
-      "lived": "598 – na 665",
+      "lived": "ca. 598 – na 665",
       "sort_year": 628,
-      "region": "Bhillamala (India)",
-      "known_for": "Indiase wiskundige die als eerste rekenregels voor nul en negatieve getallen opschreef.",
-      "bio": "Brahmagupta was astronoom en wiskundige in Bhillamala, in het noordwesten van India. In 628 voltooide hij de *Brahmasphutasiddhanta*, een uitgebreid werk over astronomie met hoofdstukken over rekenkunde en algebra.\n\nDaarin behandelt hij nul voor het eerst als een getal waarmee je kunt rekenen, en niet alleen als lege plaats. Hij geeft regels als 'een getal min zichzelf is nul' en 'een getal maal nul is nul'. Ook formuleert hij regels voor rekenen met schulden en bezittingen — wat wij negatieve en positieve getallen noemen.\n\nNiet al zijn regels houden stand: over delen door nul gaf hij een uitspraak die we nu niet meer accepteren. Maar zijn werk was een cruciale stap op weg naar het getalsysteem dat we vandaag gebruiken.",
+      "region": "Bhillamala (Bhinmal) en Ujjain, India",
+      "known_for": "Indiase astronoom en wiskundige in wiens werk we voor het eerst rekenregels voor nul en negatieve getallen tegenkomen.",
+      "bio": "Brahmagupta was astronoom en wiskundige in het noordwesten van India. In 628, op dertigjarige leeftijd, voltooide hij in Bhillamala (nu Bhinmal, Rajasthan) de *Brahmasphutasiddhanta*, een groot astronomisch werk in Sanskrietverzen met twee hoofdstukken over wiskunde. Volgens de traditie was hij later verbonden aan het sterrenkundige centrum van Ujjain. In 665 schreef hij nog een praktisch handboek, de *Khandakhadyaka*.\n\nIn de *Brahmasphutasiddhanta* staat iets wat we nergens eerder tegenkomen: nul als **getal waarmee je rekent**, met expliciete regels. Een getal plus nul is dat getal, een getal min zichzelf is nul, een getal maal nul is nul. Even systematisch behandelt hij positieve en negatieve getallen, die hij 'bezittingen' en 'schulden' noemt: het product van twee schulden is een bezit, het product van een schuld en een bezit is een schuld – in moderne notatie $(-a)\\cdot(-b) = ab$.\n\nHij gaf ook een oplossingsregel voor kwadratische vergelijkingen, methoden voor vergelijkingen in gehele getallen en een formule voor de oppervlakte van een koordenvierhoek. Niet alles klopt naar moderne maatstaven: hij stelde dat $0 \\div 0 = 0$. Zijn werk werd in de 8e eeuw in het Arabisch vertaald en droeg zo bij aan de verspreiding van het Indiase rekenen via de islamitische wereld naar Europa.",
       "contributions": [
         "Brahmasphutasiddhanta (628)",
-        "Regels voor optellen en vermenigvuldigen met nul",
-        "Rekenregels voor 'schulden' en 'bezittingen' (negatieve en positieve getallen)"
+        "Rekenregels voor nul als getal",
+        "Rekenregels voor 'schulden' en 'bezittingen' (negatieve en positieve getallen)",
+        "Oplossing van kwadratische vergelijkingen; formule voor de koordenvierhoek"
       ],
       "modules": [
         2,
-        13
+        13,
+        21
       ],
-      "image": null,
       "timeline": [
         "brahmagupta"
-      ]
+      ],
+      "image": null
     },
     {
       "id": "al-khwarizmi",
@@ -145,23 +155,27 @@
       "lived": "ca. 780 – ca. 850",
       "sort_year": 820,
       "region": "Bagdad",
-      "known_for": "Geleerde in Bagdad wiens naam 'algoritme' werd en wiens boek 'algebra' zijn naam gaf.",
-      "bio": "Al-Khwarizmi werkte in Bagdad, waarschijnlijk verbonden aan het 'Huis van de Wijsheid', waar geleerden Griekse, Perzische en Indiase kennis vertaalden en verder ontwikkelden.\n\nHij schreef een boek over het rekenen met de Indiase cijfers, inclusief de nul. In Latijnse vertalingen begon dat werk met *Dixit Algorizmi* ('Zo sprak Al-Khwarizmi'); uit zijn naam ontstond het woord *algoritme*. Via zulke vertalingen leerde Europa het plaatswaardesysteem kennen.\n\nZijn bekendste werk gaat over *al-jabr* en *al-muqabala*: het aanvullen en wegstrepen van termen om vergelijkingen op te lossen. Uit *al-jabr* komt ons woord *algebra*. Hij werkte nog zonder letters als variabelen — alles werd in woorden beschreven — maar de systematische aanpak was nieuw.",
+      "known_for": "Geleerde in Bagdad wiens boek de algebra haar naam gaf en uit wiens naam het woord 'algoritme' ontstond.",
+      "bio": "Al-Khwarizmi werkte in Bagdad onder kalief al-Ma'mun (813–833), als geleerde verbonden aan het *Huis der Wijsheid*, waar Griekse, Perzische en Indiase kennis werd vertaald en verder ontwikkeld. Over zijn leven weten we weinig; zelfs zijn afkomst is onzeker. Zijn naam wijst op Khwarazm in Centraal-Azië, maar een vroege bron plaatst zijn familie in de omgeving van Bagdad.\n\nZijn bekendste werk, rond 820 opgedragen aan de kalief, is *al-Kitab al-mukhtasar fi hisab al-jabr wa'l-muqabala*: 'het beknopte boek over rekenen door aanvullen en vereffenen'. *Al-jabr* is het 'herstellen' van een vergelijking door een af te trekken term aan de andere kant op te tellen, *al-muqabala* het wegstrepen van gelijke termen aan beide kanten. Hij onderscheidt zes standaardvormen van lineaire en kwadratische vergelijkingen en geeft voor elk een oplosregel met een meetkundige onderbouwing. Uit *al-jabr* komt ons woord *algebra*. Alles staat in woorden; letters als variabelen kwamen pas eeuwen later.\n\nHij schreef ook een boek over het rekenen met de Indiase cijfers, inclusief de nul. Het Arabische origineel is verloren; Latijnse bewerkingen uit de 12e eeuw beginnen met *Dixit Algorizmi* ('zo sprak al-Khwarizmi'), en zo werd zijn naam het woord *algoritme*. Via zulke vertalingen – en de Latijnse vertaling van de *Algebra* door Robert van Chester (1145) – leerde Europa zijn werk kennen. Daarnaast maakte hij astronomische tabellen en een aardrijkskunde met de coördinaten van ruim tweeduizend plaatsen.",
       "contributions": [
-        "Een boek over rekenen met de Indiase cijfers",
-        "Al-kitab al-mukhtasar fi hisab al-jabr wa'l-muqabala (ca. 820)",
-        "Werk over astronomie en geografie"
+        "Al-Kitab al-mukhtasar fi hisab al-jabr wa'l-muqabala (ca. 820)",
+        "Zes standaardvormen van vergelijkingen met oplosregels",
+        "Een boek over rekenen met de Indiase cijfers (alleen in Latijnse bewerkingen bewaard)",
+        "Astronomische tabellen en een aardrijkskunde"
       ],
       "modules": [
         2,
         3,
+        4,
+        5,
         15,
-        16
+        16,
+        21
       ],
-      "image": null,
       "timeline": [
         "al-khwarizmi"
-      ]
+      ],
+      "image": null
     },
     {
       "id": "fibonacci",
@@ -169,12 +183,13 @@
       "full_name": "Leonardo van Pisa (Fibonacci)",
       "lived": "ca. 1170 – na 1240",
       "sort_year": 1202,
-      "region": "Pisa",
-      "known_for": "Bracht met zijn Liber Abaci de Indiaas-Arabische cijfers naar Europa.",
-      "bio": "Leonardo van Pisa, later Fibonacci genoemd, groeide deels op in Bugia (het huidige Béjaïa in Algerije), waar zijn vader werkte voor de Pisaanse handelaren. Daar leerde hij rekenen met de Indiaas-Arabische cijfers.\n\nIn 1202 schreef hij de *Liber Abaci*, het 'boek van het rekenen'. Hij liet zien hoe je met de cijfers 0 tot en met 9 en plaatswaarde kunt optellen, vermenigvuldigen, delen en rekenen met breuken, en paste dat toe op echte handelsproblemen: winsten, wisselkoersen, gewichten en maten.\n\nIn hetzelfde boek staat een opgave over konijnenparen die zich vermeerderen. Daaruit ontstaat de rij 1, 1, 2, 3, 5, 8, … die nu zijn naam draagt. Die rij was in India overigens al eerder bekend.",
+      "region": "Pisa en Bugia (Noord-Afrika)",
+      "known_for": "Maakte Europese kooplieden met zijn Liber Abaci vertrouwd met de Indiaas-Arabische cijfers.",
+      "bio": "Leonardo van Pisa groeide deels op in Bugia (het huidige Béjaïa in Algerije), waar zijn vader Guglielmo de Pisaanse kooplieden vertegenwoordigde. Daar leerde hij rekenen met de 'negen Indiase cijfers' en de nul. Op reizen langs de Middellandse Zee – onder meer naar Egypte, Syrië, Griekenland, Sicilië en de Provence – leerde hij andere rekenmethoden kennen. Rond 1200 keerde hij terug naar Pisa. De bijnaam 'Fibonacci' (zoon van Bonacci) is pas in de 19e eeuw gangbaar geworden.\n\nIn 1202 schreef hij de *Liber Abaci*, het 'boek van het rekenen'; de versie die bewaard is, is een herziening uit 1228. Hij laat zien hoe je in het tientallige plaatswaardesysteem getallen schrijft, optelt, vermenigvuldigt, deelt en met breuken rekent, en past dat uitgebreid toe op handelsproblemen: omrekenen van munten en maten, winstverdeling, rente en ruilhandel.\n\nIn het boek staat een opgave over konijnenparen die zich vermeerderen. Daaruit ontstaat de rij $1, 1, 2, 3, 5, 8, \\ldots$ die nu zijn naam draagt; Leonardo zelf besteedde er nauwelijks aandacht aan, en de rij was in India al eerder bekend. Hij schreef ook over meetkunde (*Practica geometriae*, 1220) en getaltheorie (*Liber quadratorum*, 1225), en kwam in contact met het hof van keizer Frederik II. In 1240 kende de stad Pisa hem een jaarlijkse vergoeding toe voor zijn diensten; daarna verdwijnt hij uit de bronnen.",
       "contributions": [
         "Liber Abaci (1202, herzien 1228)",
         "De rij van Fibonacci (het konijnenprobleem)",
+        "Practica geometriae (1220) en Liber quadratorum (1225)",
         "Toepassingen van rekenen in de handel"
       ],
       "modules": [
@@ -183,10 +198,10 @@
         4,
         28
       ],
-      "image": null,
       "timeline": [
         "fibonacci-liber-abaci"
-      ]
+      ],
+      "image": null
     },
     {
       "id": "simon-stevin",
@@ -194,23 +209,27 @@
       "full_name": "Simon Stevin",
       "lived": "1548 – 1620",
       "sort_year": 1585,
-      "region": "Brugge en de Republiek",
-      "known_for": "Vlaams-Nederlandse ingenieur die met De Thiende het rekenen met decimalen populair maakte.",
-      "bio": "Simon Stevin werd in Brugge geboren en werkte later in de Noordelijke Nederlanden, onder meer als adviseur van prins Maurits. Hij was boekhouder, ingenieur, natuurkundige en wiskundige.\n\nIn 1585 verscheen *De Thiende*, een kort boekje waarin hij uitlegde hoe je met tiendelige breuken — decimalen — net zo makkelijk rekent als met hele getallen. Zijn notatie zag er nog anders uit dan onze komma, maar het idee was hetzelfde. Hij pleitte er ook voor om munten en maten tiendelig in te delen; dat gebeurde pas twee eeuwen later met het metrieke stelsel.\n\nStevin schreef bewust in het Nederlands en bedacht daarvoor nieuwe woorden, zoals *wiskunde*, *evenwijdig* en *middellijn*.",
+      "region": "Brugge, Antwerpen, Leiden en Den Haag",
+      "known_for": "Vlaams-Nederlandse wiskundige en ingenieur die met De Thiende het rekenen met decimalen populair maakte.",
+      "bio": "Simon Stevin werd in 1548 in Brugge geboren als buitenechtelijk kind. Hij werkte als boekhouder en kassier in Antwerpen en bij de belastingdienst in Brugge, vertrok naar de Noordelijke Nederlanden en schreef zich in 1583, al vijfendertig, in aan de universiteit van Leiden. Later werd hij wiskundeleraar en adviseur van prins Maurits, legde hij de basis voor de ingenieursopleiding in Leiden (1600) en werd hij kwartiermeester van het Staatse leger. Hij overleed in 1620 in Den Haag.\n\nIn 1582 publiceerde hij bij Plantijn in Antwerpen zijn *Tafelen van Interest*, met rekenregels en tabellen voor enkelvoudige en samengestelde interest en contante waarde. In 1585 volgde *De Thiende*, een kort boekje (met tegelijk een Franse versie, *La Disme*) waarin hij uitlegde dat je met tiendelige breuken – decimalen – net zo makkelijk rekent als met hele getallen. Zijn notatie zag er nog anders uit: hij schreef bij elk cijfer een omcirkeld rangnummer. Aan het slot pleitte hij voor tiendelige munten, maten en gewichten; dat werd pas met het metrieke stelsel werkelijkheid. Decimale breuken waren al eerder gebruikt, onder anderen door al-Kashi; Stevins verdienste is de heldere, praktische uitleg voor een breed publiek.\n\nStevin schreef ook over statica en hydrostatica (1586) en bouwde een zeilwagen voor Maurits. Hij schreef bewust in het Nederlands en bracht daarbij vakwoorden in omloop of maakte ze gangbaar, zoals *wiskunde* (bij hem *wisconst*), *evenwijdig* en *middellijn* – niet al die woorden heeft hij zelf bedacht.",
       "contributions": [
-        "De Thiende (1585)",
+        "Tafelen van Interest (1582)",
+        "De Thiende / La Disme (1585)",
         "Pleidooi voor tiendelige munten en maten",
-        "Nederlandse wetenschappelijke woorden zoals 'wiskunde'"
+        "Statica en hydrostatica (1586)",
+        "Nederlandse vakwoorden zoals 'wiskunde' en 'evenwijdig'"
       ],
       "modules": [
         6,
-        8
+        8,
+        25,
+        33
       ],
-      "image": null,
       "timeline": [
         "stevin-interest",
         "stevin-de-thiende"
-      ]
+      ],
+      "image": "/images/mathematicians/h-simon-stevin.jpg"
     },
     {
       "id": "napier",
@@ -219,20 +238,23 @@
       "lived": "1550 – 1617",
       "sort_year": 1614,
       "region": "Edinburgh (Schotland)",
-      "known_for": "Schotse landheer die de logaritmen uitvond om rekenwerk te versnellen.",
-      "bio": "John Napier was een Schotse landheer die zich in zijn vrije tijd met wiskunde en astronomie bezighield. Astronomen moesten in die tijd eindeloos grote getallen met elkaar vermenigvuldigen, en dat was traag en foutgevoelig.\n\nIn 1614 publiceerde Napier tabellen van *logaritmen*. Met zulke tabellen kun je een vermenigvuldiging terugbrengen tot een optelling. Zijn logaritmen zagen er nog anders uit dan de onze; de bekende 'gewone' logaritmen met grondtal 10 werden kort daarna door Henry Briggs uitgewerkt, in overleg met Napier.\n\nIn 1617 beschreef hij ook de 'staafjes van Napier': genummerde staafjes waarmee je vermenigvuldigingen kon uitvoeren door af te lezen en op te tellen.",
+      "known_for": "Schotse landheer die de logaritmen bedacht om rekenwerk te versnellen.",
+      "bio": "John Napier werd in 1550 geboren op Merchiston Castle bij Edinburgh. Hij ging op dertienjarige leeftijd naar de universiteit van St Andrews, vertrok zonder graad en studeerde vermoedelijk verder op het Europese vasteland. Als Schotse landheer hield hij zich naast zijn landgoed bezig met theologie en wiskunde. Zelf hechtte hij veel waarde aan zijn protestantse uitleg van het bijbelboek Openbaring (1593), die in meerdere talen werd vertaald.\n\nAstronomen, zeevaarders en landmeters moesten in die tijd eindeloos grote getallen vermenigvuldigen. In 1614 publiceerde Napier de *Mirifici Logarithmorum Canonis Descriptio*, met tabellen van *logaritmen* waarmee je een vermenigvuldiging kunt terugbrengen tot een optelling. Zijn logaritmen zagen er nog anders uit dan de onze. Henry Briggs bezocht hem in 1615 en samen kwamen ze tot logaritmen met grondtal 10 en $\\log 1 = 0$, die Briggs daarna uitwerkte. De Zwitser Jost Bürgi had onafhankelijk een vergelijkbaar systeem bedacht, maar publiceerde later.\n\nIn 1617, het jaar van zijn dood, beschreef Napier in *Rabdologiae* de 'staafjes van Napier': genummerde staafjes waarmee je vermenigvuldigingen uitvoert door af te lezen en op te tellen. In dat boek en in het postuum verschenen *Constructio* (1619) gebruikte hij ook de decimale punt, wat bijdroeg aan de verspreiding van die notatie.",
       "contributions": [
         "Mirifici Logarithmorum Canonis Descriptio (1614)",
-        "Napiers rekenstaafjes (1617)"
+        "Rabdologiae met de staafjes van Napier (1617)",
+        "Mirifici Logarithmorum Canonis Constructio (1619, postuum)",
+        "Bijdrage aan de verspreiding van de decimale punt"
       ],
       "modules": [
         4,
+        8,
         26
       ],
-      "image": null,
       "timeline": [
         "napier-logaritmen"
-      ]
+      ],
+      "image": "/images/mathematicians/h-napier.jpg"
     },
     {
       "id": "descartes",
@@ -240,22 +262,24 @@
       "full_name": "René Descartes",
       "lived": "1596 – 1650",
       "sort_year": 1637,
-      "region": "Frankrijk en de Republiek",
-      "known_for": "Filosoof die meetkunde en algebra verbond via coördinaten.",
-      "bio": "René Descartes was een Franse filosoof en wiskundige die een groot deel van zijn werkzame leven in de Nederlandse Republiek woonde. Zijn *Discours de la méthode* verscheen in 1637 in Leiden, met als bijlage *La Géométrie*.\n\nDaarin laat hij zien hoe je meetkundige problemen kunt vertalen naar vergelijkingen, en vergelijkingen naar figuren. Dat idee — punten beschrijven met getallen ten opzichte van vaste lijnen — is de basis van het coördinatenstelsel dat we naar hem *cartesisch* noemen. Ook de gewoonte om onbekenden met x, y en z aan te duiden komt van hem.\n\nPierre de Fermat werkte in dezelfde tijd onafhankelijk aan vergelijkbare ideeën. Descartes overleed in 1650 in Stockholm.",
+      "region": "Frankrijk en de Nederlandse Republiek",
+      "known_for": "Filosoof die meetkunde en algebra verbond: krommen werden vergelijkingen en vergelijkingen krommen.",
+      "bio": "René Descartes werd in 1596 geboren in La Haye in Touraine (nu Descartes geheten) en ging naar het jezuïetencollege van La Flèche. In 1618 ontmoette hij in Breda de Nederlandse geleerde Isaac Beeckman, die zijn belangstelling voor wiskunde en natuurkunde aanwakkerde. Van 1628 tot 1649 woonde hij, op verschillende adressen, in de Nederlandse Republiek. In 1637 liet hij in Leiden zijn *Discours de la méthode* drukken, met drie bijlagen; de derde was *La Géométrie*.\n\nDaarin laat hij zien hoe je meetkundige problemen kunt vertalen naar vergelijkingen en die vervolgens kunt oplossen – en omgekeerd hoe een vergelijking in twee onbekenden een kromme beschrijft. Dat is de kern van de analytische meetkunde. Hij voerde ook notatie in die we nog steeds gebruiken: $a, b, c$ voor bekende grootheden, $x, y, z$ voor onbekenden, en exponenten zoals $x^3$.\n\nHet 'cartesisch assenstelsel' zoals we het nu tekenen, met twee loodrechte assen en negatieve coördinaten, staat níet als zodanig in *La Géométrie*; het ontstond geleidelijk, mede door de Latijnse uitgave met commentaar van de Leidse hoogleraar Frans van Schooten (1649). Pierre de Fermat werkte in dezelfde tijd onafhankelijk aan vergelijkbare ideeën. Descartes vertrok in 1649 op uitnodiging van koningin Christina naar Stockholm, waar hij in februari 1650 overleed, volgens de gangbare lezing aan een longontsteking.",
       "contributions": [
-        "La Géométrie (1637)",
-        "Gebruik van x, y en z voor onbekenden",
-        "Grondlegger van de analytische meetkunde"
+        "La Géométrie (1637), bijlage bij het Discours de la méthode",
+        "Grondlegger van de analytische meetkunde",
+        "Notatie: x, y en z voor onbekenden en exponenten zoals $x^3$"
       ],
       "modules": [
+        14,
+        15,
         17,
         19
       ],
-      "image": null,
       "timeline": [
         "descartes-geometrie"
-      ]
+      ],
+      "image": "/images/mathematicians/h-descartes.jpg"
     },
     {
       "id": "pascal",
@@ -263,67 +287,72 @@
       "full_name": "Blaise Pascal",
       "lived": "1623 – 1662",
       "sort_year": 1654,
-      "region": "Frankrijk",
-      "known_for": "Legde samen met Fermat de basis voor de kansrekening.",
-      "bio": "Blaise Pascal was een Franse wiskundige, natuurkundige en filosoof. Als tiener bouwde hij al een mechanische rekenmachine, de Pascaline, om zijn vader te helpen bij belastingberekeningen.\n\nIn 1654 schreef hij brieven met Pierre de Fermat over het 'probleem van de punten': hoe verdeel je de inzet eerlijk als een kansspel halverwege wordt afgebroken? Hun oplossingen worden gezien als het begin van de kansrekening.\n\nIn zijn verhandeling over de 'rekenkundige driehoek' gebruikte hij de getallendriehoek die nu naar hem heet, onder meer om combinaties te tellen. Die driehoek was in China, India en Perzië overigens al eeuwen eerder bekend.",
+      "region": "Clermont, Rouen en Parijs (Frankrijk)",
+      "known_for": "Legde in zijn briefwisseling met Fermat de basis voor de kansrekening; naamgever van de driehoek van Pascal.",
+      "bio": "Blaise Pascal werd in 1623 in Clermont (nu Clermont-Ferrand) geboren en was wiskundige, natuurkundige, uitvinder en religieus denker. Al op zestienjarige leeftijd publiceerde hij een stuk over kegelsneden (1640). Vanaf 1642, toen hij achttien was, ontwierp hij een mechanische rekenmachine, later de *Pascaline* genoemd, om zijn vader te helpen bij diens belastingwerk in Rouen; er werden er tientallen gebouwd, maar weinig verkocht. Hij deed ook beroemde proeven met luchtdruk en vacuüm (1647–1648).\n\nIn de zomer en herfst van 1654 schreef hij brieven met Pierre de Fermat over het 'probleem van de punten': hoe verdeel je de inzet eerlijk als een kansspel voortijdig wordt afgebroken? Het kerninzicht was dat de verdeling moet afhangen van de kansen op wat er nog had kunnen gebeuren. Hun brieven worden vaak gezien als het begin van de kansrekening.\n\nIn zijn *Traité du triangle arithmétique* (geschreven in 1654, gedrukt in 1665, na zijn dood) behandelde hij de getallendriehoek die nu naar hem heet, onder meer om combinaties te tellen en het puntenprobleem op te lossen. Die driehoek was in China, India en Perzië overigens al eeuwen eerder bekend. Na een religieuze ervaring in november 1654 richtte Pascal zich vooral op geloof en filosofie (*Lettres provinciales*, *Pensées*); hij overleed in 1662 in Parijs.",
       "contributions": [
-        "De Pascaline, een mechanische rekenmachine (1642)",
-        "Briefwisseling met Fermat over kansen (1654)",
-        "Traité du triangle arithmétique (de driehoek van Pascal)"
+        "De Pascaline, een mechanische rekenmachine (vanaf 1642)",
+        "Briefwisseling met Fermat over het probleem van de punten (1654)",
+        "Traité du triangle arithmétique (geschreven 1654, gedrukt 1665)",
+        "Proeven over luchtdruk en vacuüm"
       ],
       "modules": [
         23
       ],
-      "image": null,
       "timeline": [
         "pascal-fermat"
-      ]
+      ],
+      "image": "/images/mathematicians/h-pascal.jpg"
     },
     {
       "id": "fermat",
       "name": "Pierre de Fermat",
       "full_name": "Pierre de Fermat",
-      "lived": "1601 (of 1607) – 1665",
+      "lived": "1601 (volgens sommige bronnen 1607) – 1665",
       "sort_year": 1654,
-      "region": "Toulouse (Frankrijk)",
-      "known_for": "Jurist en amateurwiskundige: kansrekening, getaltheorie en analytische meetkunde.",
-      "bio": "Pierre de Fermat was jurist bij het parlement van Toulouse. Wiskunde deed hij in zijn vrije tijd, en hij publiceerde weinig: veel van zijn resultaten kennen we uit brieven en aantekeningen. Zijn geboortejaar is onzeker (1601 of 1607).\n\nMet Blaise Pascal legde hij in 1654 de basis van de kansrekening. Onafhankelijk van Descartes ontwikkelde hij ook het idee om krommen met vergelijkingen te beschrijven, en hij vond methoden om maxima en raaklijnen te bepalen die vooruitliepen op de differentiaalrekening.\n\nBeroemd is zijn notitie in de marge van een boek dat hij een 'wonderbaarlijk bewijs' had voor een stelling over machten, maar dat de marge te klein was. Die 'laatste stelling van Fermat' werd pas in 1994 door Andrew Wiles bewezen.",
+      "region": "Beaumont-de-Lomagne en Toulouse (Frankrijk)",
+      "known_for": "Jurist en amateurwiskundige: kansrekening, getaltheorie, analytische meetkunde en een voorloper van de differentiaalrekening.",
+      "bio": "Pierre de Fermat werd geboren in Beaumont-de-Lomagne; zijn geboortejaar is onzeker (meestal 1601, soms 1607). Vanaf 1631 was hij raadsheer bij het parlement (gerechtshof) van Toulouse. Wiskunde deed hij naast zijn werk, en hij publiceerde vrijwel niets: zijn resultaten kennen we vooral uit brieven, manuscripten en aantekeningen. Hij overleed in 1665 in Castres.\n\nOnafhankelijk van Descartes kwam hij op het idee om krommen met vergelijkingen te beschrijven; zijn manuscript daarover circuleerde al in 1636. Hij vond ook methoden om maxima, minima en raaklijnen te bepalen die vooruitliepen op de differentiaalrekening. In 1654 legde hij in zijn briefwisseling met Blaise Pascal de basis van de kansrekening; hij loste het probleem van de punten op door alle mogelijke voortzettingen van het spel op te sommen.\n\nIn de getaltheorie is hij onder meer bekend van de 'kleine stelling van Fermat'. Beroemd is zijn aantekening in de marge van zijn exemplaar van de *Arithmetica* van Diophantus: hij zou een wonderbaarlijk bewijs hebben gevonden dat $x^n + y^n = z^n$ voor $n > 2$ geen oplossingen in positieve gehele getallen heeft, maar de marge was te smal om het op te schrijven. Zijn zoon Samuel publiceerde de aantekeningen in 1670. Die 'laatste stelling van Fermat' werd pas in 1994 door Andrew Wiles bewezen.",
       "contributions": [
-        "Kansrekening (met Pascal, 1654)",
-        "Getaltheorie, waaronder de 'laatste stelling van Fermat'",
-        "Analytische meetkunde, onafhankelijk van Descartes"
+        "Kansrekening (briefwisseling met Pascal, 1654)",
+        "Analytische meetkunde, onafhankelijk van Descartes (manuscript ca. 1636)",
+        "Methoden voor maxima, minima en raaklijnen",
+        "Getaltheorie: de kleine stelling en de 'laatste stelling van Fermat'"
       ],
       "modules": [
         17,
-        23
+        23,
+        29
       ],
-      "image": null,
       "timeline": [
         "pascal-fermat"
-      ]
+      ],
+      "image": "/images/mathematicians/h-fermat.jpg"
     },
     {
       "id": "newton",
       "name": "Isaac Newton",
-      "full_name": "Isaac Newton",
+      "full_name": "Sir Isaac Newton",
       "lived": "1642 – 1727",
       "sort_year": 1666,
-      "region": "Engeland",
+      "region": "Woolsthorpe, Cambridge en Londen (Engeland)",
       "known_for": "Ontwikkelde de differentiaal- en integraalrekening en de klassieke mechanica.",
-      "bio": "Isaac Newton werd geboren in Woolsthorpe in Engeland. Toen de universiteit van Cambridge in 1665–1666 vanwege de pest sloot, werkte hij thuis aan ideeën die de wetenschap zouden veranderen, waaronder zijn methode van 'fluxies': de wiskunde van verandering die we nu differentiaal- en integraalrekening noemen.\n\nIn 1687 verscheen zijn *Principia*, waarin hij met wiskunde de bewegingswetten en de zwaartekracht beschreef. Zijn calculus publiceerde hij pas veel later.\n\nDaardoor ontstond een bittere strijd met Gottfried Wilhelm Leibniz over de vraag wie de calculus had uitgevonden. Tegenwoordig wordt aangenomen dat beiden onafhankelijk van elkaar tot hun resultaten kwamen.",
+      "bio": "Isaac Newton werd op eerste kerstdag 1642 (volgens de toen in Engeland gebruikte juliaanse kalender) geboren in Woolsthorpe in Lincolnshire. Hij studeerde aan Trinity College in Cambridge. Toen de universiteit in 1665–1666 vanwege de pest sloot, werkte hij thuis aan ideeën die de wetenschap zouden veranderen, waaronder zijn methode van 'fluxies': de wiskunde van verandering die we nu differentiaal- en integraalrekening noemen. Ook de binomiaalreeks en zijn eerste ideeën over licht en zwaartekracht stammen uit deze jaren.\n\nIn 1669 werd hij hoogleraar (Lucasian Professor) in Cambridge. Zijn calculus beschreef hij in manuscripten die hij aan collega's liet zien, zoals *De analysi* (1669), maar hij publiceerde er lange tijd niets over. In 1687 verscheen zijn *Principia*, waarin hij met wiskunde de bewegingswetten en de algemene zwaartekracht beschreef; in 1704 volgde de *Opticks*.\n\nLater werd hij directeur van de Munt in Londen en vanaf 1703 voorzitter van de Royal Society; in 1705 werd hij geridderd. Omdat hij zijn calculus zo laat publiceerde, ontstond een bittere strijd met Gottfried Wilhelm Leibniz over de vraag wie haar had uitgevonden. Tegenwoordig wordt aangenomen dat beiden onafhankelijk van elkaar tot hun resultaten kwamen: Newton eerder, Leibniz eerder in druk.",
       "contributions": [
         "De 'fluxierekening' (calculus), vanaf 1665–1666",
+        "De binomiaalreeks",
         "Philosophiae Naturalis Principia Mathematica (1687)",
-        "Binomiaalreeks, optica en zwaartekracht"
+        "Opticks (1704)"
       ],
       "modules": [
+        28,
         29,
         30
       ],
-      "image": null,
       "timeline": [
         "newton-leibniz"
-      ]
+      ],
+      "image": "/images/mathematicians/h-newton.jpg"
     },
     {
       "id": "leibniz",
@@ -331,22 +360,22 @@
       "full_name": "Gottfried Wilhelm Leibniz",
       "lived": "1646 – 1716",
       "sort_year": 1684,
-      "region": "Duitsland",
+      "region": "Leipzig, Parijs en Hannover",
       "known_for": "Ontwikkelde onafhankelijk van Newton de calculus, met de notatie die we nog steeds gebruiken.",
-      "bio": "Gottfried Wilhelm Leibniz was een Duitse filosoof, jurist, diplomaat en wiskundige. Rond 1675 ontwikkelde hij in Parijs zijn versie van de differentiaal- en integraalrekening, die hij in 1684 publiceerde.\n\nZijn grootste nalatenschap is waarschijnlijk de notatie: het teken $\\int$ voor de integraal en $dx$, $dy$ voor kleine veranderingen. Die notatie maakte de calculus veel gemakkelijker om mee te rekenen en wordt nog steeds gebruikt.\n\nLeibniz schreef ook over het binaire talstelsel met alleen 0 en 1 — de basis van moderne computers — en ontwierp een rekenmachine die kon vermenigvuldigen.",
+      "bio": "Gottfried Wilhelm Leibniz werd in 1646 in Leipzig geboren en was filosoof, jurist, diplomaat, historicus en wiskundige. Tijdens zijn verblijf in Parijs (1672–1676) leerde hij de nieuwste wiskunde kennen en ontwikkelde hij zijn versie van de differentiaal- en integraalrekening; in een manuscript uit 1675 gebruikte hij voor het eerst het integraalteken. Vanaf 1676 werkte hij tot zijn dood in 1716 in dienst van de hertogen van Hannover, als bibliothecaris, raadsheer en historicus.\n\nHij publiceerde zijn calculus als eerste: in 1684 (*Nova Methodus pro Maximis et Minimis*, over differentiëren) en in 1686 (over integreren), in het tijdschrift *Acta Eruditorum*. Zijn grootste nalatenschap is waarschijnlijk de notatie: $\\dfrac{dy}{dx}$ voor de afgeleide en $\\displaystyle\\int y\\,dx$ voor de integraal. Die notatie maakte de calculus veel gemakkelijker om mee te rekenen en wordt nog steeds gebruikt.\n\nLeibniz ontwierp een rekenmachine die ook kon vermenigvuldigen en toonde een onvoltooide versie in 1673 aan de Royal Society in Londen. Hij werkte ook het binaire talstelsel met alleen 0 en 1 uit, waarover hij in 1703 publiceerde, en was in 1700 de eerste voorzitter van de wetenschappelijke academie in Berlijn.",
       "contributions": [
-        "Calculus met de notatie dx en ∫ (publicatie 1684 en 1686)",
-        "Het binaire talstelsel",
-        "Een mechanische rekenmachine"
+        "Calculus met de notatie dx en ∫ (publicaties 1684 en 1686)",
+        "Een mechanische rekenmachine die kon vermenigvuldigen",
+        "Het binaire talstelsel (gepubliceerd 1703)"
       ],
       "modules": [
         29,
         30
       ],
-      "image": null,
       "timeline": [
         "newton-leibniz"
-      ]
+      ],
+      "image": "/images/mathematicians/h-leibniz.jpg"
     },
     {
       "id": "de-moivre",
@@ -354,21 +383,23 @@
       "full_name": "Abraham de Moivre",
       "lived": "1667 – 1754",
       "sort_year": 1733,
-      "region": "Frankrijk en Londen",
-      "known_for": "Ontdekte dat de binomiale verdeling benaderd kan worden door de normale kromme.",
-      "bio": "Abraham de Moivre was een Franse protestant die als jongeman naar Londen vluchtte. Hij verdiende zijn brood met bijles wiskunde en advies over kansspelen en levensverzekeringen.\n\nIn zijn boek *The Doctrine of Chances* (1718) behandelde hij de kansrekening systematisch. In 1733 liet hij zien dat de kansen bij veel worpen met een munt steeds beter beschreven worden door een klokvormige kromme. Dat is een vroege versie van wat we nu de normale verdeling en de centrale limietstelling noemen.\n\nZijn naam leeft ook voort in een formule voor machten van complexe getallen.",
+      "region": "Vitry-le-François (Frankrijk) en Londen",
+      "known_for": "Ontdekte dat de binomiale verdeling bij veel herhalingen benaderd wordt door een klokvormige kromme.",
+      "bio": "Abraham de Moivre werd in 1667 geboren in Vitry-le-François in Frankrijk, in een protestantse familie. Na de herroeping van het Edict van Nantes (1685) werd hij gevangengezet vanwege zijn geloof; daarna week hij uit naar Engeland, waar hij de rest van zijn leven in Londen woonde. Hij verdiende zijn brood met privéles wiskunde en met advies aan gokkers en verzekeraars, vaak vanuit een koffiehuis. In 1697 werd hij lid van de Royal Society, en hij was bevriend met Newton.\n\nIn zijn boek *The Doctrine of Chances* (1718; uitgebreide drukken in 1738 en 1756) behandelde hij de kansrekening systematisch, en in *Annuities upon Lives* (1725) paste hij haar toe op lijfrenten. In een Latijns stuk van november 1733 liet hij zien dat de kansen bij veel worpen met een munt steeds beter beschreven worden door een klokvormige kromme. Dat is de eerste verschijning van wat we nu de normale verdeling noemen; De Moivre zag haar zelf als rekenhulp voor de binomiale verdeling.\n\nZijn naam leeft ook voort in de formule van De Moivre, $(\\cos x + i \\sin x)^n = \\cos nx + i \\sin nx$, al schreef hij die zelf nooit in deze vorm op. Volgens een bekende anekdote voorspelde hij de datum van zijn eigen dood door op te merken dat hij elke dag een kwartier langer sliep; dat verhaal is niet goed te controleren.",
       "contributions": [
-        "The Doctrine of Chances (1718)",
+        "The Doctrine of Chances (1718; 2e druk 1738)",
+        "Annuities upon Lives (1725)",
         "Normale benadering van de binomiale verdeling (1733)",
-        "De formule van De Moivre voor complexe getallen"
+        "De formule van De Moivre (naar hem genoemd)"
       ],
       "modules": [
+        36,
         37
       ],
-      "image": null,
       "timeline": [
         "de-moivre"
-      ]
+      ],
+      "image": "/images/mathematicians/h-de-moivre.jpg"
     },
     {
       "id": "euler",
@@ -377,22 +408,24 @@
       "lived": "1707 – 1783",
       "sort_year": 1748,
       "region": "Bazel, Sint-Petersburg en Berlijn",
-      "known_for": "Een van de productiefste wiskundigen ooit; schiep veel van onze notatie.",
-      "bio": "Leonhard Euler werd geboren in Bazel en werkte aan de academies van Sint-Petersburg en Berlijn. Hij schreef over vrijwel elk deel van de wiskunde en natuurkunde van zijn tijd; zijn verzamelde werken beslaan tientallen delen.\n\nVeel van de notatie die je in deze cursus tegenkomt, gaat op Euler terug of werd door hem standaard: $f(x)$ voor een functie, $e$ voor het grondtal van de natuurlijke logaritme, $i$ voor de wortel uit $-1$ en $\\Sigma$ voor een som. Ook maakte hij het symbool $\\pi$ algemeen gebruikelijk.\n\nIn zijn *Introductio* (1748) behandelde hij exponentiële en goniometrische functies als één samenhangend geheel. Hij bleef werken toen hij op latere leeftijd vrijwel blind werd.",
+      "known_for": "Een van de productiefste wiskundigen ooit; schiep of verspreidde veel van onze notatie.",
+      "bio": "Leonhard Euler werd in 1707 in Bazel geboren en kreeg daar les van Johann Bernoulli. Hij werkte aan de academie van Sint-Petersburg (1727–1741), daarna aan die van Berlijn (1741–1766) en keerde vervolgens terug naar Sint-Petersburg, waar hij in 1783 overleed. Hij schreef over vrijwel elk deel van de wiskunde en haar toepassingen; zijn verzamelde werken beslaan meer dan zeventig delen.\n\nVeel van de notatie die je in deze leeromgeving tegenkomt, gaat op Euler terug of werd door hem standaard: $f(x)$ voor een functie, $e$ voor het grondtal van de natuurlijke logaritme, $i$ voor de wortel uit $-1$ en $\\Sigma$ voor een som. Het symbool $\\pi$ was al eerder gebruikt, maar Euler maakte het algemeen. In 1735 loste hij het 'Bazelse probleem' op: $1 + \\tfrac14 + \\tfrac19 + \\cdots = \\tfrac{\\pi^2}{6}$. Met zijn analyse van de zeven bruggen van Königsberg (1736) legde hij de basis voor de grafentheorie.\n\nIn zijn *Introductio in analysin infinitorum* (1748) behandelde hij exponentiële functies, logaritmen en goniometrische functies als één samenhangend geheel, met daarin de formule $e^{ix} = \\cos x + i \\sin x$. Al vanaf ongeveer 1738 kreeg hij problemen met zijn rechteroog, en na 1771 was hij vrijwel volledig blind. Toch bleef hij werken: met hulp van zijn zonen en assistenten, aan wie hij dicteerde, schreef hij in die jaren nog een groot deel van zijn werk.",
       "contributions": [
         "Introductio in analysin infinitorum (1748)",
-        "Notatie zoals f(x), e, i en Σ; populair maken van π",
-        "Grafentheorie (de bruggen van Königsberg)"
+        "Notatie zoals f(x), e, i en Σ; algemeen maken van π",
+        "Oplossing van het Bazelse probleem (1735)",
+        "Grafentheorie (de bruggen van Königsberg, 1736)"
       ],
       "modules": [
         25,
+        26,
         27,
         28
       ],
-      "image": null,
       "timeline": [
         "euler"
-      ]
+      ],
+      "image": "/images/mathematicians/h-euler.jpg"
     },
     {
       "id": "bayes",
@@ -400,20 +433,21 @@
       "full_name": "Thomas Bayes",
       "lived": "ca. 1701 – 1761",
       "sort_year": 1763,
-      "region": "Engeland",
+      "region": "Londen en Tunbridge Wells (Engeland)",
       "known_for": "Predikant wiens postuum gepubliceerde essay de basis legde voor de Bayesiaanse statistiek.",
-      "bio": "Thomas Bayes was een Engelse presbyteriaanse predikant in Tunbridge Wells. Tijdens zijn leven publiceerde hij weinig wiskunde.\n\nNa zijn dood vond zijn vriend Richard Price een essay in zijn papieren, dat in 1763 werd gepubliceerd. Daarin behandelde Bayes de vraag hoe je uit waarnemingen kunt afleiden hoe waarschijnlijk een onbekende kans is. Het idee — een voorlopige inschatting bijwerken met nieuwe gegevens — vormt de kern van wat we nu de regel van Bayes noemen.\n\nDe algemene vorm van de regel zoals we die nu gebruiken, werd vooral door Pierre-Simon Laplace uitgewerkt.",
+      "bio": "Thomas Bayes werd waarschijnlijk in 1701 in Londen geboren, als zoon van een presbyteriaanse predikant. Hij studeerde logica en theologie in Edinburgh en was tot 1752 predikant van de Mount Sion-kapel in Tunbridge Wells, waar hij in april 1761 overleed. Bij leven publiceerde hij maar twee boekjes: een theologisch werk (1731) en, anoniem, een verdediging van Newtons fluxierekening (1736). Toch werd hij in 1742 lid van de Royal Society.\n\nNa zijn dood vond zijn vriend Richard Price een verhandeling in zijn papieren, die hij bewerkte en in 1763 liet voorlezen in de Royal Society: *An Essay towards solving a Problem in the Doctrine of Chances*, gedrukt in de *Philosophical Transactions* (jaargang 1763, verschenen in 1764). Daarin behandelt Bayes een omgekeerde kansvraag: als een gebeurtenis met onbekende kans in een aantal pogingen een aantal keer is opgetreden, hoe waarschijnlijk is het dan dat die kans tussen twee gegeven grenzen ligt? Het idee – een voorlopige inschatting bijwerken met nieuwe gegevens – vormt de kern van wat we nu de regel van Bayes noemen.\n\nBayes schreef de regel niet in de algemene vorm op die we nu gebruiken; dat deed vooral Pierre-Simon Laplace, die het principe in 1774 onafhankelijk vond. Wat precies van Bayes is en wat van Price, is niet helemaal duidelijk. Van Bayes is geen betrouwbaar portret bekend: de afbeelding die vaak wordt gebruikt, stelt vermoedelijk iemand anders voor.",
       "contributions": [
-        "An Essay towards solving a Problem in the Doctrine of Chances (1763, postuum)",
-        "Het idee om kansen bij te werken met nieuwe gegevens"
+        "An Essay towards solving a Problem in the Doctrine of Chances (voorgelezen 1763, postuum)",
+        "Het idee om kansen bij te werken met nieuwe gegevens",
+        "Anonieme verdediging van Newtons fluxierekening (1736)"
       ],
       "modules": [
         41
       ],
-      "image": null,
       "timeline": [
         "bayes"
-      ]
+      ],
+      "image": null
     },
     {
       "id": "laplace",
@@ -421,23 +455,27 @@
       "full_name": "Pierre-Simon Laplace",
       "lived": "1749 – 1827",
       "sort_year": 1812,
-      "region": "Frankrijk",
-      "known_for": "Werkte de kansrekening uit tot een samenhangende theorie, inclusief de regel van Bayes.",
-      "bio": "Pierre-Simon Laplace was een Franse wiskundige en astronoom. Hij is bekend om zijn werk over de stabiliteit van het zonnestelsel, maar ook om zijn bijdragen aan de kansrekening.\n\nAl in 1774 formuleerde hij, onafhankelijk van Bayes, hoe je van waarnemingen terugredeneert naar oorzaken. In zijn *Théorie analytique des probabilités* (1812) bracht hij de kansrekening samen tot één theorie, met toepassingen op meetfouten, bevolkingscijfers en rechtspraak.\n\nZijn populaire *Essai philosophique* (1814) bevat de beroemde gedachte dat kansrekening 'in feite niets anders is dan gezond verstand, teruggebracht tot berekening'.",
+      "region": "Normandië en Parijs (Frankrijk)",
+      "known_for": "Werkte de kansrekening uit tot een samenhangende theorie, met de regel van Bayes en de centrale limietstelling.",
+      "bio": "Pierre-Simon Laplace werd in 1749 geboren in Beaumont-en-Auge in Normandië en maakte in Parijs carrière, eerst als docent aan de École Militaire en vanaf 1773 aan de Académie des sciences. Hij is bekend om zijn werk over de stabiliteit van het zonnestelsel, samengevat in de vijfdelige *Mécanique céleste* (1799–1825). Vanaf 1790 zat hij in de commissie die het metrieke stelsel ontwierp, en in 1799 was hij zes weken minister van Binnenlandse Zaken onder Napoleon.\n\nAl in 1774 publiceerde hij, onafhankelijk van Bayes, een verhandeling over de kans op oorzaken gegeven de waargenomen gebeurtenissen: de omgekeerde kansrekening. Hij paste die regel toe op concrete vragen, zoals of de verhouding jongens/meisjes bij geboorten in Parijs en Londen werkelijk verschilde. In 1810 formuleerde hij de centrale limietstelling, en in zijn *Théorie analytique des probabilités* (1812) bracht hij de kansrekening van zijn tijd samen tot één theorie, met toepassingen op meetfouten, bevolkingscijfers en rechtspraak.\n\nDe tweede druk (1814) kreeg een inleiding voor een breed publiek, die ook los verscheen als *Essai philosophique sur les probabilités*. Daarin staat zijn bekende uitspraak dat de kansrekening 'au fond, que le bon sens réduit au calcul' is: in wezen niets anders dan gezond verstand, teruggebracht tot berekening. Zijn bewijzen waren naar moderne maatstaven niet volledig streng; Laplace werd onder Napoleon graaf en na de terugkeer van de Bourbons markies.",
       "contributions": [
-        "Théorie analytique des probabilités (1812)",
-        "Essai philosophique sur les probabilités (1814)",
-        "Mécanique céleste (hemelmechanica)"
+        "Omgekeerde kansrekening (1774), onafhankelijk van Bayes",
+        "De centrale limietstelling (1810)",
+        "Théorie analytique des probabilités (1812) en Essai philosophique sur les probabilités (1814)",
+        "Mécanique céleste (hemelmechanica, 1799–1825)",
+        "Lid van de commissie voor het metrieke stelsel"
       ],
       "modules": [
+        6,
+        23,
         37,
         41
       ],
-      "image": null,
       "timeline": [
         "metriek-stelsel",
         "laplace"
-      ]
+      ],
+      "image": "/images/mathematicians/h-laplace.jpg"
     },
     {
       "id": "gauss",
@@ -445,24 +483,27 @@
       "full_name": "Carl Friedrich Gauss",
       "lived": "1777 – 1855",
       "sort_year": 1801,
-      "region": "Göttingen (Duitsland)",
-      "known_for": "'Prins van de wiskunde': getaltheorie, de normale verdeling en de kleinstekwadratenmethode.",
-      "bio": "Carl Friedrich Gauss groeide op in Braunschweig en werkte het grootste deel van zijn leven in Göttingen. Over zijn jeugd gaat het bekende verhaal dat hij als schooljongen in een oogwenk $1 + 2 + \\dots + 100$ uitrekende; dat verhaal is pas later opgeschreven en de details zijn onzeker.\n\nIn 1801 verscheen zijn *Disquisitiones Arithmeticae*, dat de getaltheorie op een nieuwe grondslag zette. In hetzelfde jaar berekende hij de baan van de pas ontdekte Ceres, zodat astronomen haar terugvonden.\n\nBij zulk rekenwerk gebruikte hij de methode van de kleinste kwadraten en de klokvormige verdeling van meetfouten, die nu vaak de Gauss-kromme of normale verdeling heet.",
+      "region": "Braunschweig en Göttingen (Duitsland)",
+      "known_for": "'Prins van de wiskunde': getaltheorie, de kleinste-kwadratenmethode en de normale foutenverdeling.",
+      "bio": "Carl Friedrich Gauss werd in 1777 in Braunschweig geboren in een eenvoudig gezin. Dankzij een beurs van de hertog van Braunschweig kon hij studeren, onder meer in Göttingen (1795–1798). Over zijn schooltijd gaat het bekende verhaal dat hij als jongen in een oogwenk $1 + 2 + \\dots + 100$ uitrekende door paren te vormen die samen 101 zijn. De oudste versie, opgeschreven na zijn dood (1856), vermeldt echter niet welke getallen het waren of hoe hij het deed; die details zijn later toegevoegd.\n\nAl in 1796 liet hij zien dat een regelmatige zeventienhoek met passer en liniaal te construeren is. In 1801 verscheen zijn *Disquisitiones Arithmeticae*, dat de getaltheorie op een nieuwe grondslag zette, met onder meer modulair rekenen. In hetzelfde jaar berekende hij uit een handvol waarnemingen de baan van de pas ontdekte dwergplaneet Ceres, zodat astronomen haar eind 1801 terugvonden. Vanaf 1807 was hij directeur van de sterrenwacht in Göttingen.\n\nBij zulk rekenwerk gebruikte hij de methode van de kleinste kwadraten. In zijn *Theoria motus* (1809) onderbouwde hij die door aan te nemen dat meetfouten verdeeld zijn volgens de klokvormige kromme die nu vaak de Gauss-kromme of normale verdeling heet. Legendre had de methode al in 1805 gepubliceerd; Gauss stelde dat hij haar al jaren gebruikte, wat tot een prioriteitsconflict leidde. Ook de eliminatiemethode voor stelsels lineaire vergelijkingen draagt zijn naam. Daarnaast leidde hij de landmeting van het koninkrijk Hannover en deed hij met Wilhelm Weber onderzoek naar magnetisme.",
       "contributions": [
         "Disquisitiones Arithmeticae (1801)",
-        "De methode van de kleinste kwadraten",
-        "De normale verdeling (de 'Gauss-kromme')",
-        "Baanberekening van de dwergplaneet Ceres"
+        "Baanberekening van de dwergplaneet Ceres (1801)",
+        "De methode van de kleinste kwadraten en de normale foutenverdeling (Theoria motus, 1809)",
+        "Gauss-eliminatie voor stelsels lineaire vergelijkingen",
+        "Constructie van de regelmatige zeventienhoek (1796)"
       ],
       "modules": [
-        24,
+        20,
         28,
-        37
+        32,
+        37,
+        40
       ],
-      "image": null,
       "timeline": [
         "gauss"
-      ]
+      ],
+      "image": "/images/mathematicians/h-gauss.jpg"
     },
     {
       "id": "karl-pearson",
@@ -470,23 +511,25 @@
       "full_name": "Karl Pearson",
       "lived": "1857 – 1936",
       "sort_year": 1896,
-      "region": "Londen",
-      "known_for": "Grondlegger van de moderne statistiek als vak, met onder meer de correlatiecoëfficiënt.",
-      "bio": "Karl Pearson was een Engelse wiskundige aan University College London, waar hij de eerste universitaire afdeling voor statistiek oprichtte.\n\nRond 1896 werkte hij de correlatiecoëfficiënt uit die nu zijn naam draagt: een getal tussen $-1$ en $1$ dat aangeeft hoe sterk twee variabelen lineair samenhangen. Hij bouwde daarbij voort op ideeën van Francis Galton. In 1900 introduceerde hij de chikwadraattoets.\n\nPearson zag statistiek als gereedschap voor biologie en erfelijkheid, en was, net als Galton, een overtuigd aanhanger van de eugenetica — opvattingen die nu sterk worden afgewezen.",
+      "region": "Londen (University College London)",
+      "known_for": "Grondlegger van de statistiek als universitair vak, met onder meer de correlatiecoëfficiënt en de chi-kwadraattoets.",
+      "bio": "Karl Pearson (geboren als Carl Pearson) was een Engelse wiskundige die vanaf het midden van de jaren 1880 hoogleraar toegepaste wiskunde was aan University College London (UCL). In de jaren 1890 raakte hij onder de indruk van het werk van Francis Galton en ging hij samen met de bioloog Walter Weldon de statistiek van erfelijkheid en evolutie wiskundig uitwerken.\n\nIn 1893–1894 voerde hij de term *standaardafwijking* in. In 1896 werkte hij de correlatiecoëfficiënt uit die nu zijn naam draagt: een getal tussen $-1$ en $1$ dat aangeeft hoe sterk twee variabelen lineair samenhangen. Het idee van correlatie kwam van Galton, en een vergelijkbare formule was al eerder opgeschreven door Auguste Bravais, maar Pearson maakte er een standaardinstrument van. In 1900 publiceerde hij de chi-kwadraattoets, om te beoordelen of waargenomen frequenties passen bij een verwachte verdeling.\n\nMet Weldon en Galton richtte hij in 1901 het tijdschrift *Biometrika* op, en rond 1911 bouwde hij aan UCL de eerste universitaire vakgroep statistiek ter wereld op. Pearson was, net als Galton, een overtuigd aanhanger van de eugenetica en bekleedde vanaf 1911 de Galton-leerstoel voor eugenetica; zijn opvattingen over ras en erfelijkheid worden nu als racistisch en wetenschappelijk onhoudbaar beschouwd. Zijn zoon Egon Pearson werd eveneens statisticus.",
       "contributions": [
-        "De correlatiecoëfficiënt van Pearson",
-        "De chikwadraattoets (1900)",
-        "Oprichter van het tijdschrift Biometrika (1901)"
+        "De term 'standaardafwijking' (1893–1894)",
+        "De correlatiecoëfficiënt van Pearson (1896)",
+        "De chi-kwadraattoets (1900)",
+        "Medeoprichter van het tijdschrift Biometrika (1901)"
       ],
       "modules": [
         24,
         35,
+        39,
         40
       ],
-      "image": null,
       "timeline": [
         "karl-pearson"
-      ]
+      ],
+      "image": "/images/mathematicians/h-karl-pearson.jpg"
     },
     {
       "id": "fisher",
@@ -494,23 +537,24 @@
       "full_name": "Sir Ronald Aylmer Fisher",
       "lived": "1890 – 1962",
       "sort_year": 1925,
-      "region": "Engeland",
+      "region": "Engeland en Adelaide (Australië)",
       "known_for": "Bedacht een groot deel van de moderne statistiek: significantietoetsen, variantieanalyse en proefopzet.",
-      "bio": "Ronald Fisher werkte jarenlang op het landbouwproefstation Rothamsted in Engeland. Daar analyseerde hij proeven met gewassen en kunstmest, en ontwikkelde hij methoden die nu in elk onderzoeksveld worden gebruikt.\n\nIn *Statistical Methods for Research Workers* (1925) maakte hij significantietoetsen en de p-waarde populair, met de gewoonte om 0,05 als grens te nemen. In *The Design of Experiments* (1935) legde hij uit waarom willekeurige toewijzing en herhaling nodig zijn voor betrouwbare conclusies.\n\nFisher was ook een vooraanstaand geneticus. Zijn uitgesproken opvattingen over eugenetica worden tegenwoordig scherp bekritiseerd.",
+      "bio": "Ronald Fisher werd in 1890 in Londen geboren en studeerde wiskunde in Cambridge. Van 1919 tot 1933 werkte hij op het landbouwproefstation Rothamsted, waar tientallen jaren aan gegevens over oogsten en bemesting op analyse lagen te wachten. Daar ontwikkelde hij methoden die nu in vrijwel elk onderzoeksveld worden gebruikt, zoals variantieanalyse en randomisatie. Hij begreep ook als een van de eersten het belang van Gossets t-verdeling ('Student') en gaf er een strenge afleiding van.\n\nIn *Statistical Methods for Research Workers* (1925) maakte hij significantietoetsen en de p-waarde populair, met de gewoonte om 5% als grens te nemen – volgens hem een handige grens, geen heilige drempel. In *The Design of Experiments* (1935) legde hij uit waarom willekeurige toewijzing en herhaling nodig zijn voor betrouwbare conclusies. Ook de methode van de grootste aannemelijkheid (*maximum likelihood*) is van hem. Zijn opvatting van toetsen botste met die van Neyman en Pearson.\n\nFisher was ook een vooraanstaand geneticus (*The Genetical Theory of Natural Selection*, 1930) en was later hoogleraar in Londen en Cambridge; in 1952 werd hij geridderd. Hij overleed in 1962 in Adelaide. Zijn uitgesproken steun voor de eugenetica wordt tegenwoordig scherp bekritiseerd.",
       "contributions": [
         "Statistical Methods for Research Workers (1925)",
-        "The Design of Experiments (1935)",
-        "Variantieanalyse en de methode van de grootste aannemelijkheid"
+        "Variantieanalyse en de methode van de grootste aannemelijkheid",
+        "The Design of Experiments (1935): randomisatie en proefopzet",
+        "Strenge onderbouwing en verspreiding van de t-toets"
       ],
       "modules": [
         38,
         39
       ],
-      "image": null,
       "timeline": [
         "gosset-student",
         "fisher"
-      ]
+      ],
+      "image": null
     },
     {
       "id": "neyman",
@@ -518,22 +562,23 @@
       "full_name": "Jerzy Neyman",
       "lived": "1894 – 1981",
       "sort_year": 1933,
-      "region": "Polen, Londen en Berkeley",
-      "known_for": "Ontwikkelde met Egon Pearson het kader van hypothesetoetsing en het betrouwbaarheidsinterval.",
-      "bio": "Jerzy Neyman groeide op in het Russische keizerrijk en werkte in Polen, Londen en vanaf 1938 in Berkeley, waar hij een invloedrijk statistiekcentrum opbouwde.\n\nSamen met Egon Pearson, de zoon van Karl Pearson, formuleerde hij rond 1933 een kader voor het toetsen van hypotheses: kies vooraf tussen een nulhypothese en een alternatieve hypothese, en houd rekening met twee soorten fouten — onterecht verwerpen en onterecht niet verwerpen.\n\nNeyman introduceerde ook het betrouwbaarheidsinterval. Zijn aanpak botste met die van Fisher, en de discussie tussen beide scholen klinkt nog steeds door in hoe statistiek wordt onderwezen.",
+      "region": "Bendery, Warschau, Londen en Berkeley",
+      "known_for": "Ontwikkelde met Egon Pearson het kader van hypothesetoetsing en bedacht het betrouwbaarheidsinterval.",
+      "bio": "Jerzy Neyman werd in 1894 geboren in Bendery in Bessarabië (toen in het Russische keizerrijk, nu Moldavië) in een Poolse familie. Hij studeerde in Charkov en verhuisde in 1921 naar Polen, waar hij in Warschau werkte en promoveerde. Met een Rockefeller-beurs werkte hij vanaf 1925 enige tijd in Londen bij Karl Pearson en daarna in Parijs. Van 1934 tot 1938 werkte hij aan University College London; daarna bouwde hij in Berkeley (Californië) een invloedrijk statistiekcentrum op. Hij overleed in 1981 in Oakland.\n\nVanaf 1926–1927 werkte hij samen met Egon Pearson, de zoon van Karl Pearson, aan de vraag wat een *goede* toets is. In hun artikel van 1933 zetten ze een nulhypothese tegenover een alternatieve hypothese en onderscheiden ze twee soorten fouten: onterecht verwerpen (eerste soort) en onterecht niet verwerpen (tweede soort). Het lemma van Neyman-Pearson laat zien welke toets bij een vastgelegd significantieniveau het grootste onderscheidingsvermogen heeft.\n\nNeyman ontwikkelde ook de theorie van betrouwbaarheidsintervallen (vooral in een artikel uit 1937) en werkte aan steekproeftrekking, waaronder gestratificeerde steekproeven (1934). Zijn aanpak botste met die van Fisher, en de discussie tussen beide scholen klinkt nog steeds door in hoe statistiek wordt onderwezen.",
       "contributions": [
         "Het Neyman-Pearson-lemma (1933)",
         "Fouten van de eerste en tweede soort",
-        "Het betrouwbaarheidsinterval (1937)"
+        "De theorie van het betrouwbaarheidsinterval (1937)",
+        "Gestratificeerde steekproeven (1934)"
       ],
       "modules": [
         38,
         39
       ],
-      "image": null,
       "timeline": [
         "neyman-pearson"
-      ]
+      ],
+      "image": null
     }
   ]
 }

@@ -4,23 +4,131 @@
   "title": "Vergelijkingen",
   "part": 3,
   "level": "vmbo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Islamitische gouden eeuw",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 170,
   "prerequisites": [
     15
   ],
   "topics": [
     "equations",
-    "algebra"
+    "algebra",
+    "expressions"
   ],
-  "core_question": null,
-  "summary": "Stap voor stap vergelijkingen oplossen.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Welke handelingen veranderen de vorm van een vergelijking zonder haar oplossingen te veranderen?",
+  "summary": "Vergelijkingen stap voor stap oplossen: de balansmethode, haakjes en breuken, controle door invullen en het vertalen van een situatie naar een onbekende.",
+  "learning_goals": [
+    "Je onderscheidt een vergelijking, een identiteit en een onmogelijke gelijkheid.",
+    "Je voert aan beide kanten dezelfde geldige bewerking uit en verantwoordt elke stap.",
+    "Je lost lineaire vergelijkingen op, ook met haakjes, breuken en de onbekende aan beide kanten.",
+    "Je controleert een oplossing in de oorspronkelijke vergelijking.",
+    "Je herkent geen oplossing en oneindig veel oplossingen.",
+    "Je stelt bij een contextvraag een vergelijking op en controleert of de oplossing past.",
+    "Je maakt een variabele vrij in eenvoudige formules met vermelding van beperkingen."
+  ],
+  "glossary": [
+    {
+      "term": "Vergelijking",
+      "definition": "Een uitspraak dat twee expressies gelijk zijn."
+    },
+    {
+      "term": "Oplossing",
+      "definition": "Een toegestane waarde die de oorspronkelijke vergelijking waar maakt."
+    },
+    {
+      "term": "Gelijkwaardig",
+      "definition": "Twee vergelijkingen met dezelfde verzameling oplossingen."
+    },
+    {
+      "term": "Balansmethode",
+      "definition": "Aan beide kanten dezelfde bewerking uitvoeren om de gelijkheid te behouden."
+    },
+    {
+      "term": "Lineaire vergelijking",
+      "definition": "Een vergelijking die na vereenvoudigen de vorm ax+b=cx+d heeft, zonder hogere machten van de onbekende."
+    },
+    {
+      "term": "Vrijmaken",
+      "definition": "Een formule zo herschrijven dat de gewenste variabele alleen aan één kant staat."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Dezelfde term optellen",
+      "latex": "A=B\\iff A+C=B+C",
+      "usage": "De bewerking is omkeerbaar."
+    },
+    {
+      "name": "Dezelfde factor",
+      "latex": "A=B\\iff kA=kB\\quad(k\\ne0)",
+      "usage": "Een niet-nulfactor voorkomt verlies van informatie."
+    },
+    {
+      "name": "Lineair oplossen",
+      "latex": "ax+b=c\\implies x=\\frac{c-b}{a}\\quad(a\\ne0)",
+      "usage": "Trek b af en deel door a."
+    },
+    {
+      "name": "Controle",
+      "latex": "\\text{vul de gevonden waarde in beide oorspronkelijke kanten in}",
+      "usage": "Een gelijke uitkomst controleert de kandidaat-oplossing."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "De onbekende aan een balans",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "balansmethode",
+      "title": "Omkeerbare bewerkingen",
+      "kind": "theory",
+      "file": "02-balansmethode.md"
+    },
+    {
+      "slug": "beide-kanten",
+      "title": "De onbekende aan beide kanten",
+      "kind": "theory",
+      "file": "03-beide-kanten.md"
+    },
+    {
+      "slug": "breuken",
+      "title": "Breuken in vergelijkingen",
+      "kind": "theory",
+      "file": "04-breuken.md"
+    },
+    {
+      "slug": "bijzondere-gevallen",
+      "title": "Geen oplossing of iedere waarde",
+      "kind": "theory",
+      "file": "05-bijzondere-gevallen.md"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Woorden, vormen en gelijkheden",
+      "kind": "history",
+      "file": "06-historisch-intermezzo.md"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Een verhaal in een vergelijking vertalen",
+      "kind": "practice",
+      "file": "07-praktijk-en-uitdaging.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
+  "timeline": [
+    "al-khwarizmi"
+  ],
+  "mathematicians": [
+    "al-khwarizmi"
+  ]
 }

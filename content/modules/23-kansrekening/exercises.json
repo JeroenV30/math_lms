@@ -1,0 +1,528 @@
+{
+  "exercises": [
+    {
+      "id": "23-001",
+      "question": "Een eerlijke dobbelsteen: kans op een even getal? Geef een breuk.",
+      "answer": "1/2",
+      "solution": [
+        "3 van de 6 uitkomsten zijn even."
+      ],
+      "hints": [
+        "Tel 2, 4 en 6."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-002",
+      "question": "Een eerlijke dobbelsteen: kans op zes?",
+      "answer": "1/6",
+      "solution": [
+        "Eén gunstige uitkomst van zes."
+      ],
+      "hints": [
+        "Gebruik elementaire uitkomsten."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-003",
+      "question": "Kan een kans gelijk zijn aan 1,2? Geef 1 voor ja, 0 voor nee.",
+      "answer": 0,
+      "solution": [
+        "Een kans ligt tussen 0 en 1."
+      ],
+      "hints": [
+        "Controleer de kansgrenzen."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-004",
+      "question": "Een eerlijke dobbelsteen: kans op groter dan 4?",
+      "answer": "1/3",
+      "solution": [
+        "5 en 6: 2/6 = 1/3."
+      ],
+      "hints": [
+        "Strikt groter dan 4."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-005",
+      "question": "Hoeveel geordende uitkomsten hebben twee dobbelsteenworpen?",
+      "answer": 36,
+      "solution": [
+        "6 × 6 = 36."
+      ],
+      "hints": [
+        "Elke eerste uitkomst heeft zes tweede uitkomsten."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-006",
+      "question": "Twee onafhankelijke eerlijke dobbelstenen: kans op som 2?",
+      "answer": "1/36",
+      "solution": [
+        "Alleen (1; 1)."
+      ],
+      "hints": [
+        "Sommen zijn niet even waarschijnlijk."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-007",
+      "question": "Twee onafhankelijke eerlijke dobbelstenen: kans op som 7?",
+      "answer": "1/6",
+      "solution": [
+        "Zes paren van 36."
+      ],
+      "hints": [
+        "Schrijf (1;6) tot (6;1)."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-008",
+      "question": "Twee onafhankelijke eerlijke dobbelstenen: kans op som 12?",
+      "answer": "1/36",
+      "solution": [
+        "Alleen (6; 6)."
+      ],
+      "hints": [
+        "Tel geordende paren."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-009",
+      "question": "Je kiest één van 4 hoofdgerechten en één van 3 desserts. Hoeveel menu’s zijn mogelijk?",
+      "answer": 12,
+      "solution": [
+        "4 × 3 = 12."
+      ],
+      "hints": [
+        "Alle combinaties zijn toegestaan."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-010",
+      "question": "Een code bestaat uit 3 cijfers, elk uit {0, 1, 2, 3}; herhaling en een begin-nul mogen. Hoeveel codes?",
+      "answer": 64,
+      "solution": [
+        "4³ = 64."
+      ],
+      "hints": [
+        "Vier keuzes per positie."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-011",
+      "question": "Een code bestaat uit 2 verschillende cijfers uit {1, 2, 3, 4}. Hoeveel codes?",
+      "answer": 12,
+      "solution": [
+        "4 × 3 = 12."
+      ],
+      "hints": [
+        "Na de eerste keuze blijft er één minder over."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-012",
+      "question": "Drie onafhankelijke eerlijke muntworpen: kans op precies twee keer kop?",
+      "answer": "3/8",
+      "solution": [
+        "KKM, KMK, MKK: 3 van 8."
+      ],
+      "hints": [
+        "De volgorde telt."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-013",
+      "question": "Een eerlijke dobbelsteen: kans op geen zes?",
+      "answer": "5/6",
+      "solution": [
+        "1 − 1/6 = 5/6."
+      ],
+      "hints": [
+        "Gebruik het complement."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-014",
+      "question": "Een eerlijke dobbelsteen: kans op even of groter dan 3?",
+      "answer": "2/3",
+      "solution": [
+        "Vereniging {2, 4, 5, 6}: 4/6."
+      ],
+      "hints": [
+        "Trek overlap af."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-015",
+      "question": "Een eerlijke dobbelsteen: kans op even én groter dan 3?",
+      "answer": "1/3",
+      "solution": [
+        "Overlap {4, 6}: 2/6."
+      ],
+      "hints": [
+        "Zoek uitkomsten die aan beide voldoen."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-016",
+      "question": "Drie onafhankelijke eerlijke muntworpen: kans op minstens één kop?",
+      "answer": "7/8",
+      "solution": [
+        "1 − (1/2)³ = 7/8."
+      ],
+      "hints": [
+        "Het complement is MMM."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-017",
+      "question": "Zijn “één” en “zes” bij dezelfde dobbelsteenworp onafhankelijk? Geef 1 voor ja, 0 voor nee.",
+      "answer": 0,
+      "solution": [
+        "Ze sluiten elkaar uit en hebben beide positieve kans."
+      ],
+      "hints": [
+        "Na één kan zes bij diezelfde worp niet meer optreden."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-018",
+      "question": "Zak met 3 rode en 2 blauwe ballen. Twee keer trekken met terugleggen en mengen: kans RR?",
+      "answer": "9/25",
+      "solution": [
+        "(3/5) × (3/5) = 9/25."
+      ],
+      "hints": [
+        "De samenstelling blijft gelijk."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-019",
+      "question": "Dezelfde zak, zonder terugleggen. Kans RR?",
+      "answer": "3/10",
+      "solution": [
+        "(3/5) × (2/4) = 3/10."
+      ],
+      "hints": [
+        "Er is na rood één rode bal minder."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-020",
+      "question": "Dezelfde zak, zonder terugleggen. Kans BB?",
+      "answer": "1/10",
+      "solution": [
+        "(2/5) × (1/4) = 1/10."
+      ],
+      "hints": [
+        "De tweede noemer is 4."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-021",
+      "question": "Dezelfde zak, zonder terugleggen. Kans precies één rood?",
+      "answer": "3/5",
+      "solution": [
+        "P(RB) + P(BR) = 3/10 + 3/10."
+      ],
+      "hints": [
+        "Tel twee verschillende paden op."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-022",
+      "question": "Dezelfde zak, met terugleggen en mengen. Kans precies één rood?",
+      "answer": "12/25",
+      "solution": [
+        "(3/5)(2/5) + (2/5)(3/5) = 12/25."
+      ],
+      "hints": [
+        "Er zijn twee volgordes."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-023",
+      "question": "Bij een kansboomsplitsing heeft één van twee takken kans 0,3. Geef de andere kans als breuk.",
+      "answer": "7/10",
+      "solution": [
+        "De uitgaande kansen tellen op tot één."
+      ],
+      "hints": [
+        "1 − 0,3."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-024",
+      "question": "A heeft nog één winst nodig, B twee. Rondekansen zijn onafhankelijk en eerlijk. Wat is de kans dat A het spel wint?",
+      "answer": "3/4",
+      "solution": [
+        "AA, AB en BA winnen voor A; BB voor B."
+      ],
+      "hints": [
+        "Denk twee vervolgrondes door."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-025",
+      "question": "Dezelfde situatie: een inzet van 80 wordt naar winstkansen verdeeld. Welk bedrag krijgt A?",
+      "answer": 60,
+      "solution": [
+        "80 × 3/4 = 60."
+      ],
+      "hints": [
+        "Gebruik de toekomstige winstkans."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-026",
+      "question": "In 200 worpen valt 38 keer zes. Geef de relatieve frequentie als vereenvoudigde breuk.",
+      "answer": "19/100",
+      "solution": [
+        "38/200 = 19/100."
+      ],
+      "hints": [
+        "Waargenomen aantal gedeeld door totaal."
+      ],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ],
+      "require_simplified": true
+    },
+    {
+      "id": "23-027",
+      "question": "Een onafhankelijke poging slaagt steeds met kans 1/5. Vier eerdere pogingen mislukten. Wat is de kans op succes bij de volgende?",
+      "answer": "1/5",
+      "solution": [
+        "Onafhankelijkheid houdt de kans gelijk."
+      ],
+      "hints": [
+        "Eerdere mislukkingen veranderen het model niet."
+      ],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-028",
+      "question": "Een zak bevat 4 rode en 2 blauwe ballen. Met terugleggen en mengen: kans twee keer blauw?",
+      "answer": "1/9",
+      "solution": [
+        "(2/6)² = 1/9."
+      ],
+      "hints": [
+        "Gebruik het blauw-blauwpad."
+      ],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-029",
+      "question": "Een zak bevat 4 rode en 2 blauwe ballen. Zonder terugleggen: kans twee keer blauw?",
+      "answer": "1/15",
+      "solution": [
+        "(2/6)(1/5) = 1/15."
+      ],
+      "hints": [
+        "De tweede kans verandert."
+      ],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ]
+    },
+    {
+      "id": "23-030",
+      "question": "Zak met 4 rode en 2 blauwe ballen: kans precies één rood bij twee trekkingen, met en zonder terugleggen? Geef beide als breuk.",
+      "solution": [
+        "Met: 2 × (4/6)(2/6) = 4/9.",
+        "Zonder: (4/6)(2/5) + (2/6)(4/5) = 8/15."
+      ],
+      "hints": [
+        "Tel RB en BR.",
+        "Controleer de noemers na de eerste trekking."
+      ],
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "topics": [
+        "probability"
+      ],
+      "parts": [
+        {
+          "label": "met terugleggen en mengen",
+          "type": "fraction",
+          "answer": "4/9"
+        },
+        {
+          "label": "zonder terugleggen",
+          "type": "fraction",
+          "answer": "8/15"
+        }
+      ]
+    }
+  ]
+}

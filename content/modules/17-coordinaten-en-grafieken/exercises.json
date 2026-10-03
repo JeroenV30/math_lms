@@ -1,0 +1,553 @@
+{
+  "exercises": [
+    {
+      "id": "17-001",
+      "question": "Een punt ligt drie eenheden rechts en twee omhoog vanaf de oorsprong. Geef zijn coördinaten.",
+      "answer": "(3;2)",
+      "solution": [
+        "Eerst x = 3, daarna y = 2."
+      ],
+      "hints": [
+        "De volgorde is horizontaal, verticaal."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-002",
+      "question": "Geef het punt twee eenheden rechts en drie omhoog.",
+      "answer": "(2;3)",
+      "solution": [
+        "De volgorde geeft (2; 3), niet (3; 2)."
+      ],
+      "hints": [
+        "Het paar is geordend."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-003",
+      "question": "Geef de coördinaten van de oorsprong.",
+      "answer": "(0;0)",
+      "solution": [
+        "Beide coördinaten zijn nul."
+      ],
+      "hints": [
+        "Het snijpunt van de assen."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-004",
+      "question": "Geef het punt vier links en één omhoog.",
+      "answer": "(-4;1)",
+      "solution": [
+        "Links geeft x = -4; boven y = 1."
+      ],
+      "hints": [
+        "Bepaal het teken per richting."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-005",
+      "question": "In welk kwadrant ligt (-2; -3)? Geef het Romeinse nummer als getal: I = 1, II = 2, III = 3, IV = 4.",
+      "answer": 3,
+      "solution": [
+        "Beide coördinaten zijn negatief: kwadrant III."
+      ],
+      "hints": [
+        "Kijk naar beide tekens."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-006",
+      "question": "Een punt ligt op de x-as en heeft x = 5. Geef zijn coördinaten.",
+      "answer": "(5;0)",
+      "solution": [
+        "Op de x-as is y = 0."
+      ],
+      "hints": [
+        "Welke coördinaat is nul?"
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-007",
+      "question": "Een punt ligt op de y-as en heeft y = -4. Geef zijn coördinaten.",
+      "answer": "(0;-4)",
+      "solution": [
+        "Op de y-as is x = 0."
+      ],
+      "hints": [
+        "De negatieve waarde blijft behouden."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-008",
+      "question": "Van A = (-2; 1) naar B = (4; 5): geef de horizontale en verticale verandering.",
+      "solution": [
+        "$4-(-2)=6$, $5-1=4$."
+      ],
+      "hints": [
+        "Eindcoördinaat min begincoördinaat."
+      ],
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ],
+      "parts": [
+        {
+          "label": "horizontaal",
+          "answer": 6,
+          "type": "numeric"
+        },
+        {
+          "label": "verticaal",
+          "answer": 4,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "17-009",
+      "question": "Wat is de afstand tussen (2; -3) en (2; 4)?",
+      "answer": 7,
+      "solution": [
+        "De x-waarden zijn gelijk; verticaal verschil $4-(-3)=7$."
+      ],
+      "hints": [
+        "Er is geen horizontale verandering."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-010",
+      "question": "Spiegel (3; 2) in de x-as. Geef het beeldpunt.",
+      "answer": "(3;-2)",
+      "solution": [
+        "x blijft 3; y verandert van teken."
+      ],
+      "hints": [
+        "De x-as is de horizontale spiegelas."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-011",
+      "question": "Spiegel (3; 2) in de y-as. Geef het beeldpunt.",
+      "answer": "(-3;2)",
+      "solution": [
+        "y blijft 2; x verandert van teken."
+      ],
+      "hints": [
+        "De y-as is verticaal."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-012",
+      "question": "Verplaats (-1; 4) twee naar rechts en vijf omlaag. Geef het nieuwe punt.",
+      "answer": "(1;-1)",
+      "solution": [
+        "x: $-1+2=1$.",
+        "y: $4-5=-1$."
+      ],
+      "hints": [
+        "Tel de veranderingen bij de juiste coördinaat op."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-013",
+      "question": "Bij $y=2x+1$: bereken y als x = -2.",
+      "answer": -3,
+      "solution": [
+        "$2(-2)+1=-3$."
+      ],
+      "hints": [
+        "Vul -2 in met haakjes."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-014",
+      "question": "Bij $y=2x+1$: geef het punt met x = 0.",
+      "answer": "(0;1)",
+      "solution": [
+        "y = 1 bij x = 0."
+      ],
+      "hints": [
+        "Dit is ook het y-assnijpunt."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-015",
+      "question": "Bij $y=2x+1$: geef het punt met x = 2.",
+      "answer": "(2;5)",
+      "solution": [
+        "$2\\times2+1=5$."
+      ],
+      "hints": [
+        "Bereken y en houd x als eerste getal."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-016",
+      "question": "Voor x = 3 op de lijn $y=2x+1$: welke y-waarde is nodig?",
+      "answer": 7,
+      "solution": [
+        "$2\\times3+1=7$."
+      ],
+      "hints": [
+        "Zo controleer je of (3; 7) op de lijn ligt."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-017",
+      "question": "Een punt ligt op $y=2x+1$ en heeft y = 9. Wat is x?",
+      "answer": 4,
+      "solution": [
+        "$9=2x+1$.",
+        "$2x=8$, dus x = 4."
+      ],
+      "hints": [
+        "Nu is y gegeven in plaats van x."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-018",
+      "question": "Bereken de helling door (1; 3) en (4; 9).",
+      "answer": 2,
+      "solution": [
+        "$\\Delta y=6$, $\\Delta x=3$.",
+        "$6:3=2$."
+      ],
+      "hints": [
+        "Deel verticaal verschil door horizontaal verschil."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-019",
+      "question": "Bereken de helling door (0; 5) en (2; 1).",
+      "answer": -2,
+      "solution": [
+        "$\\Delta y=-4$, $\\Delta x=2$.",
+        "Helling -2."
+      ],
+      "hints": [
+        "Een dalende lijn heeft negatieve helling."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-020",
+      "question": "Wat is de helling van een horizontale lijn?",
+      "answer": 0,
+      "solution": [
+        "De verticale verandering is nul."
+      ],
+      "hints": [
+        "Bij iedere horizontale stap blijft y gelijk."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-021",
+      "question": "Geef het snijpunt van $y=-x+4$ met de y-as.",
+      "answer": "(0;4)",
+      "solution": [
+        "Op de y-as x = 0, dus y = 4."
+      ],
+      "hints": [
+        "Stel x gelijk aan nul."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-022",
+      "question": "Geef het snijpunt van $y=-x+4$ met de x-as.",
+      "answer": "(4;0)",
+      "solution": [
+        "$0=-x+4$ geeft x = 4."
+      ],
+      "hints": [
+        "Op de x-as is y = 0."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-023",
+      "question": "Geef het snijpunt van $y=2x+1$ met de x-as.",
+      "answer": "(-0.5;0)",
+      "solution": [
+        "$0=2x+1$, dus x = -0,5."
+      ],
+      "hints": [
+        "Los de vergelijking met y = 0 op."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-024",
+      "question": "Een grafiek heeft tijd in uren op x en afstand in km op y. Van (1; 20) naar (3; 60): wat is de helling in km/u?",
+      "answer": 20,
+      "solution": [
+        "Afstandsverschil 40, tijdsverschil 2.",
+        "$40:2=20$ km/u."
+      ],
+      "hints": [
+        "Gebruik ook de eenheden."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ],
+      "unit": "km/u"
+    },
+    {
+      "id": "17-025",
+      "question": "Een punt heeft x = 3 op de verticale lijn x = 3. Kies y = -2 en geef het punt.",
+      "answer": "(3;-2)",
+      "solution": [
+        "Elk punt met x = 3 hoort bij deze lijn."
+      ],
+      "hints": [
+        "Er hoeft niet één vaste y te zijn."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-026",
+      "question": "Vind het snijpunt van $y=x+1$ en $y=-x+5$.",
+      "answer": "(2;3)",
+      "solution": [
+        "$x+1=-x+5$ geeft x = 2.",
+        "Beide regels geven y = 3."
+      ],
+      "hints": [
+        "Stel de twee y-expressies gelijk."
+      ],
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-027",
+      "question": "Spiegel (-4; -2) achtereenvolgens in de x-as en de y-as. Geef het eindpunt.",
+      "answer": "(4;2)",
+      "solution": [
+        "Beide tekens worden omgekeerd."
+      ],
+      "hints": [
+        "Voer de twee veranderingen apart uit."
+      ],
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-028",
+      "question": "Op een x-as stelt één hokje 2 uur voor. Een punt ligt drie hokjes rechts van nul. Wat is zijn x-waarde?",
+      "answer": 6,
+      "solution": [
+        "$3\\times2=6$ uur."
+      ],
+      "hints": [
+        "Een hokje is niet altijd één eenheid."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ],
+      "unit": "uur"
+    },
+    {
+      "id": "17-029",
+      "question": "Bereken de helling door (-2; -1) en (2; 5).",
+      "answer": 1.5,
+      "solution": [
+        "Verticaal verschil 6, horizontaal verschil 4.",
+        "$6:4=1{,}5$."
+      ],
+      "hints": [
+        "Gebruik verschillen, niet de losse coördinaten."
+      ],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "coordinates"
+      ]
+    },
+    {
+      "id": "17-030",
+      "question": "Verplaats A = (-2; 1), B = (3; 1), C = (0; 4) vier naar rechts en twee omlaag. Geef de drie nieuwe punten.",
+      "solution": [
+        "Tel bij elke x 4 op en trek van elke y 2 af.",
+        "A wordt (2; -1), B (7; -1), C (4; 2).",
+        "AB blijft horizontaal vijf eenheden lang."
+      ],
+      "hints": [
+        "Voer dezelfde verschuiving bij ieder punt uit.",
+        "Controleer het verschil tussen A en B."
+      ],
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 3,
+      "topics": [
+        "coordinates"
+      ],
+      "parts": [
+        {
+          "label": "A",
+          "answer": "(2;-1)",
+          "type": "coordinate"
+        },
+        {
+          "label": "B",
+          "answer": "(7;-1)",
+          "type": "coordinate"
+        },
+        {
+          "label": "C",
+          "answer": "(4;2)",
+          "type": "coordinate"
+        }
+      ]
+    }
+  ]
+}

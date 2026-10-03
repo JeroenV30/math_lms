@@ -4,10 +4,10 @@
   "title": "Tabellen en gegevens",
   "part": 2,
   "level": "basisschool",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Modern",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 160,
   "prerequisites": [
     11
   ],
@@ -15,12 +15,129 @@
     "data",
     "averages"
   ],
-  "core_question": null,
-  "summary": "De eerste brug naar statistiek.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
+  "core_question": "Hoe vat je een verzameling gegevens samen zonder belangrijke verschillen te verbergen?",
+  "summary": "Gegevens ordenen in tabellen en diagrammen; gemiddelde, mediaan en modus. Je leert ook lezen wat een grafiek of samenvatting niet vertelt.",
+  "learning_goals": [
+    "Je onderscheidt categorieën van numerieke waarden en kiest een passende weergave.",
+    "Je maakt en leest frequentietabellen, inclusief relatieve frequenties.",
+    "Je leest staaf-, lijn- en cirkeldiagrammen en controleert schaal en eenheden.",
+    "Je berekent gemiddelde, mediaan en modus en verklaart wanneer ze verschillen.",
+    "Je berekent een gemiddelde uit frequenties en combineert groepen met de juiste weging.",
+    "Je herkent de invloed van uitschieters, ontbrekende gegevens en een afgekapte as.",
+    "Je formuleert een conclusie die past bij de werkelijk verzamelde gegevens."
+  ],
+  "glossary": [
+    {
+      "term": "Waarneming",
+      "definition": "Eén geregistreerde meting, telling of categorie."
+    },
+    {
+      "term": "Variabele",
+      "definition": "De eigenschap die je per waarneming vastlegt."
+    },
+    {
+      "term": "Frequentie",
+      "definition": "Hoe vaak een waarde of categorie voorkomt."
+    },
+    {
+      "term": "Relatieve frequentie",
+      "definition": "Frequentie gedeeld door het totaal; vaak uitgedrukt als percentage."
+    },
+    {
+      "term": "Gemiddelde",
+      "definition": "De som van numerieke waarden gedeeld door hun aantal."
+    },
+    {
+      "term": "Mediaan",
+      "definition": "De middelste waarde na sorteren; bij een even aantal het gemiddelde van de twee middelste."
+    },
+    {
+      "term": "Modus",
+      "definition": "Een waarde of categorie met de hoogste frequentie. Er kan meer dan één zijn."
+    },
+    {
+      "term": "Uitschieter",
+      "definition": "Een waarneming die sterk afwijkt van de rest; een signaal om de context te onderzoeken."
+    },
+    {
+      "term": "Spreidingsbreedte",
+      "definition": "Het verschil tussen de grootste en kleinste waarneming."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Gemiddelde",
+      "latex": "\\bar{x}=\\frac{x_1+\\cdots+x_n}{n}",
+      "usage": "Alle waarnemingen tellen één keer mee."
+    },
+    {
+      "name": "Relatieve frequentie",
+      "latex": "\\text{aandeel}=\\frac{f}{n}",
+      "usage": "f is de frequentie, n het totaal."
+    },
+    {
+      "name": "Frequentiegemiddelde",
+      "latex": "\\bar{x}=\\frac{\\sum f_i x_i}{\\sum f_i}",
+      "usage": "Elke waarde telt mee volgens haar frequentie."
+    },
+    {
+      "name": "Sectorhoek",
+      "latex": "\\text{hoek}=\\text{aandeel}\\cdot360^\\circ",
+      "usage": "Een cirkel stelt het hele totaal voor."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Van losse tellingen naar overzicht",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "tabellen",
+      "title": "Waarden en frequenties",
+      "kind": "theory",
+      "file": "02-tabellen.md"
+    },
+    {
+      "slug": "diagrammen",
+      "title": "Een passende grafiek kiezen",
+      "kind": "theory",
+      "file": "03-diagrammen.md"
+    },
+    {
+      "slug": "gemiddelde",
+      "title": "Het gemiddelde als eerlijke verdeling",
+      "kind": "theory",
+      "file": "04-gemiddelde.md"
+    },
+    {
+      "slug": "mediaan-en-modus",
+      "title": "Het midden en de meest voorkomende waarde",
+      "kind": "theory",
+      "file": "05-mediaan-en-modus.md"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Getallen zichtbaar maken",
+      "kind": "history",
+      "file": "06-historisch-intermezzo.md"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Een conclusie onderbouwen",
+      "kind": "practice",
+      "file": "07-praktijk-en-uitdaging.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
+  "timeline": [
+    "data-science"
+  ],
   "mathematicians": []
 }

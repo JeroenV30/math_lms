@@ -4,10 +4,10 @@
   "title": "Goniometrie",
   "part": 4,
   "level": "havo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Hellenistische periode",
   "estimated_difficulty": 3,
-  "estimated_minutes": 90,
+  "estimated_minutes": 150,
   "prerequisites": [
     21
   ],
@@ -15,12 +15,128 @@
     "trigonometry",
     "geometry"
   ],
-  "core_question": null,
-  "summary": "Astronomie en Hipparchus.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
+  "core_question": "Hoe bereken je een onbekende zijde of hoek met de verhoudingen in een rechthoekige driehoek?",
+  "summary": "Sinus, cosinus en tangens verbinden scherpe hoeken met zijden. Je rekent met graden, inverse functies en meetkundige modellen.",
+  "learning_goals": [
+    "Je benoemt overstaande, aanliggende en schuine zijde bij een gekozen scherpe hoek.",
+    "Je verklaart waarom gelijkvormige driehoeken dezelfde goniometrische verhoudingen hebben.",
+    "Je kiest sinus, cosinus of tangens op basis van de bekende en gezochte gegevens.",
+    "Je berekent een scherpe hoek met een inverse goniometrische functie.",
+    "Je gebruikt de gradenstand en rondt pas het eindantwoord af.",
+    "Je controleert uitkomsten met Pythagoras en de grootte van een verhouding.",
+    "Je vertaalt hoogten en afstanden naar een meetkundig model en beoordeelt aannames."
+  ],
+  "glossary": [
+    {
+      "term": "Schuine zijde",
+      "definition": "De zijde tegenover de rechte hoek; de langste zijde."
+    },
+    {
+      "term": "Overstaande zijde",
+      "definition": "De zijde tegenover de gekozen scherpe hoek."
+    },
+    {
+      "term": "Aanliggende rechthoekszijde",
+      "definition": "De rechthoekszijde die aan de gekozen scherpe hoek ligt."
+    },
+    {
+      "term": "Sinus",
+      "definition": "De verhouding overstaande zijde gedeeld door schuine zijde."
+    },
+    {
+      "term": "Cosinus",
+      "definition": "De verhouding aanliggende rechthoekszijde gedeeld door schuine zijde."
+    },
+    {
+      "term": "Tangens",
+      "definition": "De verhouding overstaande zijde gedeeld door aanliggende rechthoekszijde."
+    },
+    {
+      "term": "Inverse sinus",
+      "definition": "De functie die uit een sinuswaarde een hoofdwaarde van een hoek terugvindt."
+    },
+    {
+      "term": "Hoek van elevatie",
+      "definition": "De hoek van een kijkrichting boven de horizontale lijn."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Sinus",
+      "latex": "\\sin\\theta=\\frac{O}{S}",
+      "usage": "O is overstaand, S is de schuine zijde."
+    },
+    {
+      "name": "Cosinus",
+      "latex": "\\cos\\theta=\\frac{A}{S}",
+      "usage": "A is de aanliggende rechthoekszijde."
+    },
+    {
+      "name": "Tangens",
+      "latex": "\\tan\\theta=\\frac{O}{A}",
+      "usage": "De verhouding tussen de twee rechthoekszijden."
+    },
+    {
+      "name": "Hoek terugvinden",
+      "latex": "\\theta=\\arcsin(O/S)=\\arccos(A/S)=\\arctan(O/A)",
+      "usage": "Gebruik de passende bekende verhouding en de gradenstand."
+    },
+    {
+      "name": "Controle",
+      "latex": "\\sin^2\\theta+\\cos^2\\theta=1",
+      "usage": "Dit volgt uit Pythagoras na delen door S²."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Hoogte meten zonder te klimmen",
+      "kind": "intro",
+      "file": "01-introductie.md"
+    },
+    {
+      "slug": "zijden",
+      "title": "De hoek bepaalt de namen",
+      "kind": "theory",
+      "file": "02-zijden.md"
+    },
+    {
+      "slug": "verhoudingen",
+      "title": "Sinus, cosinus en tangens",
+      "kind": "theory",
+      "file": "03-verhoudingen.md"
+    },
+    {
+      "slug": "zijden-berekenen",
+      "title": "Een onbekende zijde berekenen",
+      "kind": "theory",
+      "file": "04-zijden-berekenen.md"
+    },
+    {
+      "slug": "hoeken",
+      "title": "Een hoek terugvinden",
+      "kind": "theory",
+      "file": "05-hoeken.md"
+    },
+    {
+      "slug": "geschiedenis",
+      "title": "Van koorden naar hoekverhoudingen",
+      "kind": "history",
+      "file": "06-geschiedenis.md"
+    },
+    {
+      "slug": "toepassingen",
+      "title": "Meten, modelleren en controleren",
+      "kind": "practice",
+      "file": "07-toepassingen.md"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "kind": "summary",
+      "file": "08-samenvatting.md"
+    }
+  ],
   "timeline": [],
   "mathematicians": []
 }
