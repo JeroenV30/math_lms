@@ -1,0 +1,1274 @@
+{
+  "exercises": [
+    {
+      "id": "29-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Gegeven is $f(x) = x^2$. Bereken de gemiddelde verandering (het differentiequotiënt) van $f$ op het interval $[1; 4]$.",
+      "answer": 5,
+      "hints": [
+        "Bereken eerst $f(1)$ en $f(4)$.",
+        "Deel $\\Delta y = f(4) - f(1)$ door $\\Delta x = 4 - 1$."
+      ],
+      "solution": [
+        "$f(1) = 1$ en $f(4) = 16$.",
+        "$\\Delta y = 16 - 1 = 15$ en $\\Delta x = 4 - 1 = 3$.",
+        "$\\dfrac{\\Delta y}{\\Delta x} = \\dfrac{15}{3} = 5$."
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Dat is $\\Delta y$. Je moet nog delen door $\\Delta x = 3$."
+        },
+        {
+          "answer": 3,
+          "message": "Dat is $\\Delta x$. Het differentiequotiënt is $\\Delta y$ gedeeld door $\\Delta x$."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-002",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Om 8.00 uur is het buiten 12 °C, om 14.00 uur 21 °C. Bereken de gemiddelde temperatuurstijging in °C per uur tussen 8.00 en 14.00 uur. Geef het exacte antwoord.",
+      "answer": 1.5,
+      "hints": [
+        "Hoeveel graden is de temperatuur gestegen, en in hoeveel uur?",
+        "Deel de temperatuurstijging door het aantal uren."
+      ],
+      "solution": [
+        "$\\Delta T = 21 - 12 = 9$ °C.",
+        "$\\Delta t = 14 - 8 = 6$ uur.",
+        "$\\dfrac{9}{6} = 1{,}5$ °C per uur."
+      ],
+      "feedback": [
+        {
+          "answer": 9,
+          "message": "Dat is de totale stijging. Gevraagd is de stijging **per uur**: deel nog door 6 uur."
+        },
+        {
+          "answer": 6,
+          "message": "Dat is het aantal uren. Deel de temperatuurstijging (9 °C) door 6."
+        }
+      ],
+      "tolerance": 0.001,
+      "unit": "°C per uur",
+      "topics": [
+        "derivatives",
+        "speed"
+      ]
+    },
+    {
+      "id": "29-003",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Gegeven is $f(x) = x^2 - 6x$. Bereken het differentiequotiënt van $f$ op $[1; 4]$.",
+      "answer": -1,
+      "hints": [
+        "Bereken $f(1)$ en $f(4)$. Let op de mintekens.",
+        "$\\Delta x = 3$."
+      ],
+      "solution": [
+        "$f(1) = 1 - 6 = -5$ en $f(4) = 16 - 24 = -8$.",
+        "$\\Delta y = -8 - (-5) = -3$ en $\\Delta x = 4 - 1 = 3$.",
+        "$\\dfrac{\\Delta y}{\\Delta x} = \\dfrac{-3}{3} = -1$. De koorde daalt."
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Let op het teken: $f(4) - f(1) = -8 - (-5) = -3$, en dat is negatief."
+        },
+        {
+          "answer": -3,
+          "message": "Dat is $\\Delta y$. Deel nog door $\\Delta x = 3$."
+        }
+      ],
+      "topics": [
+        "derivatives",
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "29-004",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een steen valt volgens $s(t) = 5t^2$ ($s$ in meter, $t$ in seconden). Bereken de gemiddelde snelheid op het tijdsinterval $[2; 2{,}01]$ in m/s. Geef het exacte antwoord.",
+      "answer": 20.05,
+      "hints": [
+        "Bereken $s(2{,}01) = 5 \\cdot 2{,}01^2$.",
+        "Deel $s(2{,}01) - s(2)$ door $0{,}01$."
+      ],
+      "solution": [
+        "$s(2) = 20$ en $s(2{,}01) = 5 \\cdot 4{,}0401 = 20{,}2005$.",
+        "$\\Delta s = 0{,}2005$ m en $\\Delta t = 0{,}01$ s.",
+        "$\\dfrac{0{,}2005}{0{,}01} = 20{,}05$ m/s.",
+        "Controle met de formule uit les 2: $20 + 5h = 20 + 0{,}05 = 20{,}05$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.2005,
+          "message": "Dat is de afgelegde afstand $\\Delta s$. Deel nog door $\\Delta t = 0{,}01$ s."
+        },
+        {
+          "answer": 20,
+          "message": "Dat is de momentane snelheid op $t = 2$. Gevraagd is de gemiddelde snelheid op $[2; 2{,}01]$, die net iets groter is."
+        }
+      ],
+      "tolerance": 0.0001,
+      "unit": "m/s",
+      "topics": [
+        "derivatives",
+        "speed"
+      ]
+    },
+    {
+      "id": "29-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Voor $f(x) = x^3$ bereken je de differentiequotiënten $\\dfrac{f(2 + h) - f(2)}{h}$ voor $h = 0{,}1$; $h = 0{,}01$ en $h = 0{,}001$. Naar welk geheel getal gaan deze waarden? Dat getal is de helling van de grafiek in $(2; 8)$.",
+      "answer": 12,
+      "hints": [
+        "Voor $h = 0{,}1$: $2{,}1^3 = 9{,}261$, dus het differentiequotiënt is $\\frac{1{,}261}{0{,}1}$.",
+        "Bereken ook $h = 0{,}01$ en $h = 0{,}001$ en kijk naar welk getal de uitkomsten gaan."
+      ],
+      "solution": [
+        "$h = 0{,}1$: $\\frac{9{,}261 - 8}{0{,}1} = 12{,}61$.",
+        "$h = 0{,}01$: $\\frac{8{,}120601 - 8}{0{,}01} = 12{,}0601$.",
+        "$h = 0{,}001$: $\\frac{8{,}012006001 - 8}{0{,}001} = 12{,}006001$.",
+        "De waarden naderen 12. Algebraïsch: het differentiequotiënt is $12 + 6h + h^2$, en dat gaat naar 12."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "8 is de functiewaarde $f(2)$, de hoogte van het punt. Gevraagd is de helling."
+        },
+        {
+          "answer": 13,
+          "message": "De waarden worden kleiner naarmate $h$ kleiner wordt: 12,61; 12,06; 12,006. Ze naderen 12, niet 13."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-006",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Het aantal bacteriën in een kweek (in duizendtallen) is $t$ uur na de start $N(t) = 50 + 8t^2$. Bereken de gemiddelde groeisnelheid op $[1; 3]$, in duizend bacteriën per uur.",
+      "answer": 32,
+      "hints": [
+        "Bereken $N(1)$ en $N(3)$.",
+        "Deel de toename door het aantal uren."
+      ],
+      "solution": [
+        "$N(1) = 50 + 8 = 58$ en $N(3) = 50 + 72 = 122$.",
+        "$\\Delta N = 122 - 58 = 64$ en $\\Delta t = 2$ uur.",
+        "Gemiddelde groeisnelheid: $\\frac{64}{2} = 32$ duizend bacteriën per uur."
+      ],
+      "feedback": [
+        {
+          "answer": 64,
+          "message": "Dat is de totale toename in 2 uur. Per uur is het de helft."
+        },
+        {
+          "answer": 24,
+          "message": "Je hebt waarschijnlijk $\\Delta t = 3$ gebruikt. Het interval loopt van $t = 1$ tot $t = 3$: dat is 2 uur."
+        }
+      ],
+      "unit": "duizend per uur",
+      "topics": [
+        "derivatives",
+        "modelling"
+      ]
+    },
+    {
+      "id": "29-007",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De temperatuur in een kas (in °C) is $t$ uur na zonsopgang $T(t) = 20 + 6t - t^2$. Vereenvoudig het differentiequotiënt $\\dfrac{T(1 + h) - T(1)}{h}$ en bepaal daarmee hoe snel de temperatuur stijgt op het moment $t = 1$, in °C per uur.",
+      "answer": 4,
+      "hints": [
+        "$T(1) = 25$. Werk $T(1 + h) = 20 + 6(1 + h) - (1 + h)^2$ uit.",
+        "Je zou moeten vinden: $T(1 + h) - T(1) = 4h - h^2$."
+      ],
+      "solution": [
+        "$T(1) = 20 + 6 - 1 = 25$.",
+        "$T(1 + h) = 20 + 6 + 6h - (1 + 2h + h^2) = 25 + 4h - h^2$.",
+        "$\\dfrac{T(1 + h) - T(1)}{h} = \\dfrac{4h - h^2}{h} = 4 - h$.",
+        "Als $h \\to 0$, gaat dit naar 4. Op $t = 1$ stijgt de temperatuur met 4 °C per uur."
+      ],
+      "feedback": [
+        {
+          "answer": 25,
+          "message": "25 °C is de temperatuur zelf op $t = 1$. Gevraagd is hoe snel ze verandert."
+        },
+        {
+          "answer": 5,
+          "message": "Je hebt waarschijnlijk het differentiequotiënt op $[0; 1]$ berekend: $(25 - 20)/1 = 5$. Dat is een gemiddelde over het eerste uur, niet de snelheid op $t = 1$."
+        }
+      ],
+      "unit": "°C per uur",
+      "topics": [
+        "derivatives",
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "29-008",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Gegeven is $f(x) = x^2$ en het punt $P(1; 1)$. Bereken de helling van de koorde $PQ$ als $Q$ op de grafiek ligt bij $x = 1 + h$, voor $h = 0{,}5$ en voor $h = -0{,}5$. Geef exacte antwoorden.",
+      "parts": [
+        {
+          "label": "helling bij h = 0,5",
+          "answer": 2.5,
+          "type": "decimal",
+          "tolerance": 0.0001
+        },
+        {
+          "label": "helling bij h = −0,5",
+          "answer": 1.5,
+          "type": "decimal",
+          "tolerance": 0.0001
+        }
+      ],
+      "hints": [
+        "Bij $h = -0{,}5$ ligt $Q$ links van $P$, bij $x = 0{,}5$.",
+        "De helling van de koorde is $\\frac{f(1 + h) - f(1)}{h}$. Let op het teken van $h$ in de noemer."
+      ],
+      "solution": [
+        "$h = 0{,}5$: $Q(1{,}5; 2{,}25)$, helling $\\frac{2{,}25 - 1}{0{,}5} = \\frac{1{,}25}{0{,}5} = 2{,}5$.",
+        "$h = -0{,}5$: $Q(0{,}5; 0{,}25)$, helling $\\frac{0{,}25 - 1}{-0{,}5} = \\frac{-0{,}75}{-0{,}5} = 1{,}5$.",
+        "Controle met de formule $2 + h$: $2{,}5$ en $1{,}5$. De helling van de raaklijn, 2, ligt ertussen."
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-009",
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Voor $f(x) = x^2$ is het differentiequotiënt op $[x; x + h]$ gelijk aan $\\dfrac{(x + h)^2 - x^2}{h}$. Vereenvoudig deze uitdrukking (voor $h \\neq 0$). Je antwoord bevat $x$ en $h$.",
+      "answer": "2x + h",
+      "hints": [
+        "Werk $(x + h)^2$ uit: $x^2 + 2xh + h^2$.",
+        "Trek $x^2$ af en deel elke term door $h$."
+      ],
+      "solution": [
+        "$(x + h)^2 - x^2 = x^2 + 2xh + h^2 - x^2 = 2xh + h^2$.",
+        "$\\dfrac{2xh + h^2}{h} = 2x + h$.",
+        "Als $h \\to 0$, blijft $2x$ over: de afgeleide van $x^2$."
+      ],
+      "feedback": [
+        {
+          "answer": "2x",
+          "message": "Dat is de limiet voor $h \\to 0$. Gevraagd is het differentiequotiënt zelf, waarin $h$ nog staat."
+        },
+        {
+          "answer": "2x + h^2",
+          "message": "Bij het delen door $h$ wordt $h^2$ gelijk aan $h$: $\\frac{h^2}{h} = h$."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-010",
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bepaal met de definitie van de afgeleide de afgeleide van $f(x) = 3x^2$. Typ alleen het voorschrift, bijvoorbeeld `6x^2 - 4`.",
+      "answer": "6x",
+      "hints": [
+        "$f(x + h) = 3(x + h)^2 = 3x^2 + 6xh + 3h^2$.",
+        "Trek $f(x)$ af, deel door $h$ en laat $h$ naar 0 gaan."
+      ],
+      "solution": [
+        "$f(x + h) - f(x) = 3x^2 + 6xh + 3h^2 - 3x^2 = 6xh + 3h^2$.",
+        "Delen door $h$: $6x + 3h$.",
+        "Als $h \\to 0$: $f'(x) = 6x$."
+      ],
+      "feedback": [
+        {
+          "answer": "3x",
+          "message": "De factor 3 blijft staan, maar de afgeleide van $x^2$ is $2x$, niet $x$. Samen: $3 \\cdot 2x = 6x$."
+        },
+        {
+          "answer": "2x",
+          "message": "Je bent de factor 3 vergeten. Een grafiek die drie keer zo hoog is, is ook overal drie keer zo steil."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-011",
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Bepaal met de definitie van de afgeleide de afgeleide van $f(x) = x^3$. Gebruik $(x + h)^3 = x^3 + 3x^2h + 3xh^2 + h^3$. Typ alleen het voorschrift, bijvoorbeeld `6x^2 - 4`.",
+      "answer": "3x^2",
+      "hints": [
+        "$f(x + h) - f(x) = 3x^2h + 3xh^2 + h^3$.",
+        "Deel door $h$: $3x^2 + 3xh + h^2$. Wat blijft er over als $h \\to 0$?"
+      ],
+      "solution": [
+        "$f(x + h) - f(x) = 3x^2h + 3xh^2 + h^3$.",
+        "Delen door $h$: $3x^2 + 3xh + h^2$.",
+        "Als $h \\to 0$, verdwijnen $3xh$ en $h^2$: $f'(x) = 3x^2$."
+      ],
+      "feedback": [
+        {
+          "answer": "3x^2 + 3x + 1",
+          "message": "Je hebt $h = 1$ ingevuld in plaats van $h$ naar 0 te laten gaan."
+        },
+        {
+          "answer": "x^2",
+          "message": "Je bent de coëfficiënt 3 vergeten: er zijn drie termen $x^2 h$ in $(x + h)^3$."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-012",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Gegeven is $f(x) = x^2 + 6x$. Bepaal met de definitie $f'(x)$ en bereken daarmee de helling van de grafiek in het punt waar $x = 1$.",
+      "answer": 8,
+      "hints": [
+        "$f(x + h) - f(x) = 2xh + h^2 + 6h$.",
+        "Na delen door $h$ en de limiet: $f'(x) = 2x + 6$. Vul $x = 1$ in."
+      ],
+      "solution": [
+        "$f(x + h) = x^2 + 2xh + h^2 + 6x + 6h$.",
+        "$f(x + h) - f(x) = 2xh + h^2 + 6h$; delen door $h$: $2x + h + 6$.",
+        "Limiet: $f'(x) = 2x + 6$.",
+        "$f'(1) = 2 + 6 = 8$."
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "7 is $f(1) = 1 + 6$, de hoogte van het punt. Gevraagd is de helling $f'(1)$."
+        },
+        {
+          "answer": 6,
+          "message": "Je bent de bijdrage van $x^2$ vergeten: $f'(x) = 2x + 6$, dus $f'(1) = 8$."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-013",
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Op de grafiek van $f(x) = x^2$ ligt één punt waar de raaklijn helling 10 heeft. Geef de coördinaten van dat punt.",
+      "answer": "(5; 25)",
+      "hints": [
+        "De helling in het punt met eerste coördinaat $x$ is $f'(x) = 2x$.",
+        "Los $2x = 10$ op en bereken daarna de $y$-coördinaat met $f$."
+      ],
+      "solution": [
+        "$f'(x) = 2x$, dus $2x = 10$ geeft $x = 5$.",
+        "$f(5) = 25$.",
+        "Het punt is $(5; 25)$."
+      ],
+      "feedback": [
+        {
+          "answer": "(5; 10)",
+          "message": "De $y$-coördinaat is de hoogte $f(5) = 25$, niet de helling."
+        },
+        {
+          "answer": "(10; 100)",
+          "message": "In $x = 10$ is de helling $2 \\cdot 10 = 20$. Los $f'(x) = 10$ op."
+        }
+      ],
+      "topics": [
+        "derivatives",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "29-014",
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Differentieer $f(x) = x^5$. Typ alleen het voorschrift, bijvoorbeeld `6x^2 - 4`.",
+      "answer": "5x^4",
+      "hints": [
+        "Machtsregel: $(x^n)' = n x^{n-1}$.",
+        "De exponent 5 komt ervoor, de nieuwe exponent is $5 - 1$."
+      ],
+      "solution": [
+        "Machtsregel met $n = 5$: $f'(x) = 5x^{4}$."
+      ],
+      "feedback": [
+        {
+          "answer": "5x^5",
+          "message": "De exponent komt voor de macht, maar wordt ook één kleiner: $5x^4$."
+        },
+        {
+          "answer": "x^4",
+          "message": "De exponent moet als factor ervoor: $5x^4$."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-015",
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Differentieer $f(x) = 4x^3 - 3x^2 + 2x - 8$. Typ alleen het voorschrift, bijvoorbeeld `6x^2 - 4`.",
+      "answer": "12x^2 - 6x + 2",
+      "hints": [
+        "Differentieer term voor term.",
+        "$4x^3 \\to 12x^2$; wat wordt $-3x^2$, $2x$ en $-8$?"
+      ],
+      "solution": [
+        "$4x^3 \\to 4 \\cdot 3x^2 = 12x^2$.",
+        "$-3x^2 \\to -6x$.",
+        "$2x \\to 2$ en $-8 \\to 0$.",
+        "$f'(x) = 12x^2 - 6x + 2$."
+      ],
+      "feedback": [
+        {
+          "answer": "12x^2 - 6x + 2 - 8",
+          "message": "De afgeleide van een constante is 0: de $-8$ verdwijnt."
+        },
+        {
+          "answer": "12x^2 - 6x",
+          "message": "De afgeleide van $2x$ is 2, niet 0."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-016",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Differentieer $f(x) = (3x - 2)(x + 4)$. Typ alleen het voorschrift, bijvoorbeeld `6x^2 - 4`.",
+      "answer": "6x + 10",
+      "hints": [
+        "Werk eerst de haakjes weg.",
+        "$(3x - 2)(x + 4) = 3x^2 + 12x - 2x - 8$."
+      ],
+      "solution": [
+        "$(3x - 2)(x + 4) = 3x^2 + 10x - 8$.",
+        "$f'(x) = 6x + 10$.",
+        "Controle met de productregel: $3(x + 4) + (3x - 2) \\cdot 1 = 6x + 10$."
+      ],
+      "feedback": [
+        {
+          "answer": "3",
+          "message": "Je hebt de afgeleiden van de factoren vermenigvuldigd ($3 \\cdot 1$). Dat mag niet: werk eerst de haakjes weg."
+        },
+        {
+          "answer": "6x + 14",
+          "message": "Controleer het uitwerken: $12x - 2x = 10x$, dus $f(x) = 3x^2 + 10x - 8$."
+        }
+      ],
+      "topics": [
+        "derivatives",
+        "expressions"
+      ]
+    },
+    {
+      "id": "29-017",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Differentieer $f(t) = (t^2 - 2)^2$. Gebruik $t$ als variabele. Typ alleen het voorschrift, bijvoorbeeld `4t^3 + t`.",
+      "answer": "4t^3 - 8t",
+      "hints": [
+        "Werk het kwadraat uit: $(t^2 - 2)^2 = t^4 - 4t^2 + 4$.",
+        "Differentieer daarna term voor term."
+      ],
+      "solution": [
+        "$(t^2 - 2)^2 = t^4 - 4t^2 + 4$.",
+        "$f'(t) = 4t^3 - 8t$.",
+        "Controle met de kettingregel: $2(t^2 - 2) \\cdot 2t = 4t^3 - 8t$."
+      ],
+      "feedback": [
+        {
+          "answer": "2(t^2 - 2)",
+          "message": "Je hebt alleen het kwadraat gedifferentieerd en de afgeleide van de binnenkant ($2t$) vergeten. Werk de haakjes eerst uit."
+        },
+        {
+          "answer": "4t^3 - 4t",
+          "message": "Controleer het uitwerken: $(t^2 - 2)^2 = t^4 - 4t^2 + 4$, en $-4t^2$ wordt $-8t$."
+        }
+      ],
+      "topics": [
+        "derivatives",
+        "expressions"
+      ]
+    },
+    {
+      "id": "29-018",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Gegeven is $f(x) = x^3 - 2x$. Bereken de helling van de grafiek in het punt met $x = 2$.",
+      "answer": 10,
+      "hints": [
+        "Bereken eerst $f'(x)$.",
+        "$f'(x) = 3x^2 - 2$; vul $x = 2$ in."
+      ],
+      "solution": [
+        "$f'(x) = 3x^2 - 2$.",
+        "$f'(2) = 3 \\cdot 4 - 2 = 10$."
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "4 is $f(2) = 8 - 4$, de hoogte. De helling is $f'(2)$."
+        },
+        {
+          "answer": 12,
+          "message": "De afgeleide van $-2x$ is $-2$: $f'(2) = 12 - 2 = 10$."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-019",
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Stel de vergelijking op van de raaklijn aan de grafiek van $f(x) = x^2 + 3x$ in het punt met $x = 1$. Schrijf je antwoord als $y = ax + b$.",
+      "answer": "y = 5x - 1",
+      "hints": [
+        "Raakpunt: $f(1) = 4$. Helling: $f'(1)$.",
+        "$f'(x) = 2x + 3$, dus de helling is 5. Bepaal $b$ met het punt $(1; 4)$."
+      ],
+      "solution": [
+        "Raakpunt: $f(1) = 1 + 3 = 4$, dus $(1; 4)$.",
+        "$f'(x) = 2x + 3$, dus $a = f'(1) = 5$.",
+        "$4 = 5 \\cdot 1 + b$ geeft $b = -1$.",
+        "Raaklijn: $y = 5x - 1$."
+      ],
+      "feedback": [
+        {
+          "answer": "y = 5x + 4",
+          "message": "4 is de $y$-coördinaat van het raakpunt, niet het snijpunt met de $y$-as. Los $b$ op uit $4 = 5 \\cdot 1 + b$."
+        },
+        {
+          "answer": "y = 4x",
+          "message": "Je hebt $f(1) = 4$ als helling gebruikt. De helling is $f'(1) = 5$."
+        }
+      ],
+      "topics": [
+        "derivatives",
+        "linear-functions"
+      ]
+    },
+    {
+      "id": "29-020",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Stel de vergelijking op van de raaklijn aan de grafiek van $f(x) = x^2 - 4x + 1$ in het punt met $x = 3$. Schrijf je antwoord als $y = ax + b$.",
+      "answer": "y = 2x - 8",
+      "hints": [
+        "Bereken het raakpunt $(3; f(3))$ en de helling $f'(3)$.",
+        "$f(3) = -2$ en $f'(3) = 2$."
+      ],
+      "solution": [
+        "$f(3) = 9 - 12 + 1 = -2$, dus het raakpunt is $(3; -2)$.",
+        "$f'(x) = 2x - 4$, dus $a = f'(3) = 2$.",
+        "$-2 = 2 \\cdot 3 + b$ geeft $b = -8$.",
+        "Raaklijn: $y = 2x - 8$."
+      ],
+      "feedback": [
+        {
+          "answer": "y = 2x - 2",
+          "message": "$-2$ is de $y$-coördinaat van het raakpunt. Bereken $b$ uit $-2 = 2 \\cdot 3 + b$."
+        },
+        {
+          "answer": "y = -2x + 4",
+          "message": "Je hebt $a$ en het raakpunt verwisseld. De helling is $f'(3) = 2$; het punt is $(3; -2)$."
+        }
+      ],
+      "topics": [
+        "derivatives",
+        "linear-functions"
+      ]
+    },
+    {
+      "id": "29-021",
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "In welk punt van de grafiek van $f(x) = x^2 - 6x + 10$ is de raaklijn evenwijdig aan de lijn $y = 2x + 5$?",
+      "answer": "(4; 2)",
+      "hints": [
+        "Evenwijdig betekent: dezelfde helling, dus $f'(x) = 2$.",
+        "Los $2x - 6 = 2$ op en bereken daarna $f(x)$."
+      ],
+      "solution": [
+        "Evenwijdig aan $y = 2x + 5$: helling 2.",
+        "$f'(x) = 2x - 6 = 2$ geeft $x = 4$.",
+        "$f(4) = 16 - 24 + 10 = 2$.",
+        "Het punt is $(4; 2)$."
+      ],
+      "feedback": [
+        {
+          "answer": "(4; 13)",
+          "message": "Je hebt $x = 4$ in de lijn $y = 2x + 5$ ingevuld. Het punt ligt op de grafiek van $f$: bereken $f(4)$."
+        },
+        {
+          "answer": "(2; 2)",
+          "message": "Je hebt $f(x) = 2$ opgelost? Gevraagd is waar de **helling** 2 is: $f'(x) = 2$."
+        }
+      ],
+      "topics": [
+        "derivatives",
+        "linear-functions",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "29-022",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De raaklijn aan de grafiek van $f(x) = x^2$ in het punt $(3; 9)$ snijdt de $x$-as. Bereken de $x$-coördinaat van dat snijpunt. Geef het exacte antwoord.",
+      "answer": 1.5,
+      "hints": [
+        "Stel eerst de raaklijn op: helling $f'(3) = 6$.",
+        "De raaklijn is $y = 6x - 9$. Los $6x - 9 = 0$ op."
+      ],
+      "solution": [
+        "$f'(x) = 2x$, dus de helling in $(3; 9)$ is 6.",
+        "$9 = 6 \\cdot 3 + b$ geeft $b = -9$: raaklijn $y = 6x - 9$.",
+        "$6x - 9 = 0$ geeft $x = 1{,}5$."
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "Dat is het snijpunt van de **parabool** met de $x$-as. Gevraagd is het snijpunt van de raaklijn."
+        },
+        {
+          "answer": -9,
+          "message": "$-9$ is het snijpunt met de $y$-as. Los $6x - 9 = 0$ op voor het snijpunt met de $x$-as."
+        }
+      ],
+      "tolerance": 0.0001,
+      "topics": [
+        "derivatives",
+        "linear-functions"
+      ]
+    },
+    {
+      "id": "29-023",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bepaal met de afgeleide de $x$-coördinaat van de top van de parabool $f(x) = x^2 - 8x + 3$.",
+      "answer": 4,
+      "hints": [
+        "In de top is $f'(x) = 0$.",
+        "$f'(x) = 2x - 8$."
+      ],
+      "solution": [
+        "$f'(x) = 2x - 8$.",
+        "$2x - 8 = 0$ geeft $x = 4$.",
+        "Controle met module 21: $x = -\\frac{b}{2a} = \\frac{8}{2} = 4$."
+      ],
+      "feedback": [
+        {
+          "answer": -13,
+          "message": "$-13$ is $f(4)$, de $y$-coördinaat van de top. Gevraagd is de $x$-coördinaat."
+        },
+        {
+          "answer": 8,
+          "message": "Je hebt $2x - 8 = 0$ niet helemaal opgelost: deel nog door 2."
+        }
+      ],
+      "topics": [
+        "derivatives",
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "29-024",
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Bepaal de coördinaten van de top van $f(x) = -2x^2 + 12x - 5$.",
+      "answer": "(3; 13)",
+      "hints": [
+        "Los $f'(x) = 0$ op.",
+        "$f'(x) = -4x + 12$. Bereken daarna $f(3)$."
+      ],
+      "solution": [
+        "$f'(x) = -4x + 12 = 0$ geeft $x = 3$.",
+        "$f(3) = -18 + 36 - 5 = 13$.",
+        "De top is $(3; 13)$; omdat de coëfficiënt van $x^2$ negatief is, is het een maximum."
+      ],
+      "feedback": [
+        {
+          "answer": "(3; 0)",
+          "message": "In de top is de **afgeleide** 0, niet de functiewaarde. Bereken de hoogte met $f(3)$."
+        },
+        {
+          "answer": "(-3; -59)",
+          "message": "Let op het teken: $-4x + 12 = 0$ geeft $x = +3$."
+        }
+      ],
+      "topics": [
+        "derivatives",
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "29-025",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Gegeven is $f(x) = x^3 - 12x$. Bepaal met een tekenschema waar $f$ een maximum en waar $f$ een minimum heeft. Geef de $x$-coördinaten.",
+      "parts": [
+        {
+          "label": "x van het maximum",
+          "answer": -2,
+          "type": "numeric"
+        },
+        {
+          "label": "x van het minimum",
+          "answer": 2,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "$f'(x) = 3x^2 - 12 = 3(x - 2)(x + 2)$.",
+        "Testwaarden: $f'(-3) > 0$, $f'(0) < 0$, $f'(3) > 0$."
+      ],
+      "solution": [
+        "$f'(x) = 3x^2 - 12 = 0$ geeft $x^2 = 4$, dus $x = -2$ of $x = 2$.",
+        "Tekens: $f'(-3) = 15 > 0$, $f'(0) = -12 < 0$, $f'(3) = 15 > 0$.",
+        "Bij $x = -2$: van $+$ naar $-$, een maximum ($f(-2) = 16$).",
+        "Bij $x = 2$: van $-$ naar $+$, een minimum ($f(2) = -16$)."
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-026",
+      "type": "interval",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Gegeven is $f(x) = 2x^3 + 3x^2 - 12x$. Voor welke $x$ geldt $f'(x) < 0$? Geef je antwoord als interval.",
+      "answer": "⟨-2; 1⟩",
+      "hints": [
+        "$f'(x) = 6x^2 + 6x - 12 = 6(x^2 + x - 2)$.",
+        "Ontbind: $x^2 + x - 2 = (x + 2)(x - 1)$. Waar is dit product negatief?"
+      ],
+      "solution": [
+        "$f'(x) = 6x^2 + 6x - 12 = 6(x + 2)(x - 1)$.",
+        "Nulpunten: $x = -2$ en $x = 1$.",
+        "Testwaarde $x = 0$: $f'(0) = -12 < 0$. Buiten de nulpunten is $f'$ positief (bijv. $f'(2) = 24$).",
+        "$f'(x) < 0$ voor $-2 < x < 1$: het interval $\\langle -2; 1 \\rangle$. Op dat interval daalt $f$."
+      ],
+      "feedback": [
+        {
+          "answer": "[-2; 1]",
+          "message": "In $x = -2$ en $x = 1$ is $f'(x) = 0$, niet kleiner dan 0. Gebruik open grenzen: $\\langle -2; 1 \\rangle$."
+        },
+        {
+          "answer": "⟨-1; 2⟩",
+          "message": "Controleer de ontbinding: $(x + 2)(x - 1) = x^2 + x - 2$. De nulpunten zijn $-2$ en $1$."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-027",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Gegeven is $f(x) = x^3 - 6x^2 + 9x + 1$. Bereken de coördinaten van het maximum en van het minimum.",
+      "parts": [
+        {
+          "label": "maximum",
+          "answer": "(1; 5)",
+          "type": "coordinate"
+        },
+        {
+          "label": "minimum",
+          "answer": "(3; 1)",
+          "type": "coordinate"
+        }
+      ],
+      "hints": [
+        "$f'(x) = 3x^2 - 12x + 9 = 3(x^2 - 4x + 3)$.",
+        "Ontbind $x^2 - 4x + 3 = (x - 1)(x - 3)$ en maak een tekenschema."
+      ],
+      "solution": [
+        "$f'(x) = 3x^2 - 12x + 9 = 3(x - 1)(x - 3)$, nulpunten $x = 1$ en $x = 3$.",
+        "Tekens: $f'(0) = 9 > 0$, $f'(2) = -3 < 0$, $f'(4) = 9 > 0$.",
+        "Maximum bij $x = 1$: $f(1) = 1 - 6 + 9 + 1 = 5$, dus $(1; 5)$.",
+        "Minimum bij $x = 3$: $f(3) = 27 - 54 + 27 + 1 = 1$, dus $(3; 1)$."
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-028",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Gegeven is $f(x) = x^4 - 4x^3$. Bepaal de kleinste waarde die $f$ aanneemt. (Let op: $f'(x) = 0$ heeft twee oplossingen, maar niet allebei zijn het extremen.)",
+      "answer": -27,
+      "hints": [
+        "$f'(x) = 4x^3 - 12x^2 = 4x^2(x - 3)$.",
+        "De factor $4x^2$ is nooit negatief. Waar wisselt $f'$ dus van teken?"
+      ],
+      "solution": [
+        "$f'(x) = 4x^3 - 12x^2 = 4x^2(x - 3)$; nulpunten $x = 0$ en $x = 3$.",
+        "$4x^2 \\geq 0$, dus het teken van $f'$ is het teken van $x - 3$: negatief voor $x < 3$ (behalve in 0) en positief voor $x > 3$.",
+        "Bij $x = 0$ wisselt het teken niet: geen extreem. Bij $x = 3$ van $-$ naar $+$: minimum.",
+        "$f(3) = 81 - 108 = -27$. Omdat $f$ links van 3 daalt en rechts stijgt, is dit de kleinste waarde."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Dat is de $x$-coördinaat van het minimum. Gevraagd is de waarde $f(3)$."
+        },
+        {
+          "answer": 0,
+          "message": "In $x = 0$ is de raaklijn horizontaal, maar het teken van $f'$ wisselt daar niet: geen extreem. Kijk naar $x = 3$."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-029",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Hoeveel extremen (maxima en minima samen) heeft de functie $f(x) = x^3 - 3x^2 + 3x$?",
+      "answer": 0,
+      "hints": [
+        "$f'(x) = 3x^2 - 6x + 3 = 3(x^2 - 2x + 1)$.",
+        "$x^2 - 2x + 1 = (x - 1)^2$. Kan dat negatief worden?"
+      ],
+      "solution": [
+        "$f'(x) = 3x^2 - 6x + 3 = 3(x - 1)^2$.",
+        "$f'(x) = 0$ alleen voor $x = 1$.",
+        "Maar $3(x - 1)^2 \\geq 0$ overal: $f'$ wisselt niet van teken.",
+        "$f$ stijgt overal; in $x = 1$ is alleen een horizontale raaklijn. Aantal extremen: 0."
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "In $x = 1$ is $f'(x) = 0$, maar het teken van $f' = 3(x - 1)^2$ verandert daar niet. Zonder tekenwissel geen extreem."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-030",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bepaal de grootste waarde van $f(x) = x^3 - 6x^2$ op het interval $[-1; 7]$.",
+      "answer": 49,
+      "hints": [
+        "Bereken de extremen binnen het interval, en ook $f(-1)$ en $f(7)$.",
+        "$f'(x) = 3x^2 - 12x = 3x(x - 4)$."
+      ],
+      "solution": [
+        "$f'(x) = 3x(x - 4)$: nulpunten $x = 0$ (maximum) en $x = 4$ (minimum).",
+        "$f(0) = 0$ en $f(4) = 64 - 96 = -32$.",
+        "Randen: $f(-1) = -1 - 6 = -7$ en $f(7) = 343 - 294 = 49$.",
+        "De grootste waarde is 49, op de rand $x = 7$."
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "0 is het lokale maximum bij $x = 0$. Op de rand $x = 7$ is de functie hoger: $f(7) = 49$."
+        },
+        {
+          "answer": 7,
+          "message": "7 is de plaats ($x$) van de grootste waarde. Gevraagd is de waarde $f(7)$."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-031",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Fermats probleem: een lijnstuk van 10 eenheden wordt in twee stukken $x$ en $10 - x$ verdeeld. Volgens Fermats methode (of met de afgeleide van $P(x) = x(10 - x)$) is het product van de twee stukken maximaal als $x = 5$. Hoe groot is dat maximale product?",
+      "answer": 25,
+      "hints": [
+        "Controleer eerst: $P(x) = 10x - x^2$, dus $P'(x) = 10 - 2x = 0$ geeft $x = 5$.",
+        "Het maximale product is $P(5)$."
+      ],
+      "solution": [
+        "$P(x) = x(10 - x) = 10x - x^2$.",
+        "$P'(x) = 10 - 2x = 0$ geeft $x = 5$: beide stukken 5.",
+        "Maximaal product: $P(5) = 5 \\cdot 5 = 25$."
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "5 is de lengte van elk stuk. Gevraagd is het product $5 \\cdot 5$."
+        },
+        {
+          "answer": 24,
+          "message": "24 is bijvoorbeeld $4 \\cdot 6$: kleiner dan $5 \\cdot 5$. Het maximum ligt bij gelijke stukken."
+        }
+      ],
+      "topics": [
+        "derivatives",
+        "algebra"
+      ]
+    },
+    {
+      "id": "29-032",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Reken zoals Newton. Voor de fluent $y = t^2 + 3t$ neemt $t$ in een klein tijdje $o$ toe tot $t + o$. Bij $t = 4$ is de toename van $y$ gedeeld door $o$ gelijk aan $\\dfrac{(4 + o)^2 + 3(4 + o) - 28}{o}$. Vereenvoudig dit en laat $o$ wegvallen. Wat is de fluxie (de afgeleide) bij $t = 4$?",
+      "answer": 11,
+      "hints": [
+        "$(4 + o)^2 = 16 + 8o + o^2$ en $3(4 + o) = 12 + 3o$.",
+        "De teller wordt $11o + o^2$."
+      ],
+      "solution": [
+        "$(4 + o)^2 + 3(4 + o) = 16 + 8o + o^2 + 12 + 3o = 28 + 11o + o^2$.",
+        "Min 28 en gedeeld door $o$: $11 + o$.",
+        "Newton laat de oneindig kleine $o$ weg: de fluxie is 11.",
+        "Controle: $y' = 2t + 3$, bij $t = 4$ is dat 11."
+      ],
+      "feedback": [
+        {
+          "answer": 28,
+          "message": "28 is de waarde van $y$ bij $t = 4$. Gevraagd is de snelheid van verandering."
+        },
+        {
+          "answer": 8,
+          "message": "Je bent de bijdrage van $3t$ vergeten: die levert nog $3$ op."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-033",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bal wordt recht omhoog gegooid. De hoogte (in meter) na $t$ seconden is $s(t) = 30t - 5t^2$. Bereken de snelheid na 1 seconde (in m/s), het tijdstip waarop de bal het hoogst is (in s) en de maximale hoogte (in m).",
+      "parts": [
+        {
+          "label": "snelheid op t = 1 (m/s)",
+          "answer": 20,
+          "type": "numeric"
+        },
+        {
+          "label": "tijdstip hoogste punt (s)",
+          "answer": 3,
+          "type": "numeric"
+        },
+        {
+          "label": "maximale hoogte (m)",
+          "answer": 45,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "De snelheid is $v(t) = s'(t) = 30 - 10t$.",
+        "In het hoogste punt is $v(t) = 0$."
+      ],
+      "solution": [
+        "$v(t) = s'(t) = 30 - 10t$, dus $v(1) = 20$ m/s.",
+        "$30 - 10t = 0$ geeft $t = 3$ s.",
+        "$s(3) = 90 - 45 = 45$ m."
+      ],
+      "topics": [
+        "derivatives",
+        "speed"
+      ]
+    },
+    {
+      "id": "29-034",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De bal uit de vorige opgave, $s(t) = 30t - 5t^2$, komt na 6 seconden weer op de grond. Bereken zijn snelheid $v(6)$ op dat moment, in m/s, met teken.",
+      "answer": -30,
+      "hints": [
+        "$v(t) = 30 - 10t$.",
+        "Een negatieve snelheid betekent dat de bal naar beneden beweegt."
+      ],
+      "solution": [
+        "Controle: $s(6) = 180 - 180 = 0$; de bal is op de grond.",
+        "$v(6) = 30 - 60 = -30$ m/s.",
+        "Het minteken betekent: naar beneden. De bal komt even snel terug als hij werd weggegooid."
+      ],
+      "feedback": [
+        {
+          "answer": 30,
+          "message": "De grootte klopt, maar de bal beweegt naar beneden: de snelheid is negatief, $-30$ m/s."
+        },
+        {
+          "answer": 0,
+          "message": "0 is de hoogte op $t = 6$. De snelheid is $v(6) = s'(6)$."
+        }
+      ],
+      "unit": "m/s",
+      "topics": [
+        "derivatives",
+        "speed"
+      ]
+    },
+    {
+      "id": "29-035",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een boer heeft 60 meter hek en wil langs een lange muur een rechthoekige weide omheinen. Aan de muurkant is geen hek nodig (zie de figuur). Noem de twee zijden loodrecht op de muur $x$. Bij welke $x$ is de oppervlakte maximaal, en hoe groot is die oppervlakte?",
+      "parts": [
+        {
+          "label": "x (m)",
+          "answer": 15,
+          "type": "numeric"
+        },
+        {
+          "label": "maximale oppervlakte (m²)",
+          "answer": 450,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "De zijde evenwijdig aan de muur is $60 - 2x$. Dus $A(x) = x(60 - 2x) = 60x - 2x^2$.",
+        "Los $A'(x) = 60 - 4x = 0$ op."
+      ],
+      "solution": [
+        "Zijde langs de muur: $60 - 2x$. Oppervlakte: $A(x) = x(60 - 2x) = 60x - 2x^2$, met $0 < x < 30$.",
+        "$A'(x) = 60 - 4x = 0$ geeft $x = 15$.",
+        "Tekenschema: $A' > 0$ voor $x < 15$, $A' < 0$ voor $x > 15$: maximum.",
+        "De weide is 15 bij 30 meter: $A(15) = 15 \\cdot 30 = 450$ m². De kant langs de muur is twee keer zo lang als de andere kant."
+      ],
+      "topics": [
+        "derivatives",
+        "area",
+        "modelling"
+      ]
+    },
+    {
+      "id": "29-036",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Uit een rechthoekig stuk karton van 24 bij 15 cm knip je in elke hoek een vierkantje van $x$ bij $x$ cm weg, en je vouwt een open doos. Bij welke $x$ is de inhoud maximaal, en hoe groot is die inhoud?",
+      "parts": [
+        {
+          "label": "x (cm)",
+          "answer": 3,
+          "type": "numeric"
+        },
+        {
+          "label": "maximale inhoud (cm³)",
+          "answer": 486,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "$V(x) = x(24 - 2x)(15 - 2x) = 4x^3 - 78x^2 + 360x$. Wat is het domein?",
+        "$V'(x) = 12x^2 - 156x + 360 = 12(x^2 - 13x + 30)$. Ontbind en controleer welke oplossing in het domein ligt."
+      ],
+      "solution": [
+        "Bodem $(24 - 2x)$ bij $(15 - 2x)$, hoogte $x$; domein $0 < x < 7{,}5$.",
+        "$V(x) = x(24 - 2x)(15 - 2x) = 4x^3 - 78x^2 + 360x$.",
+        "$V'(x) = 12x^2 - 156x + 360 = 12(x - 3)(x - 10)$.",
+        "$x = 10$ valt buiten het domein; $x = 3$ blijft over. $V'(2) > 0$ en $V'(4) < 0$: maximum.",
+        "$V(3) = 3 \\cdot 18 \\cdot 9 = 486$ cm³."
+      ],
+      "topics": [
+        "derivatives",
+        "volume",
+        "modelling"
+      ]
+    },
+    {
+      "id": "29-037",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een webwinkel verkoopt bij een prijs van $p$ euro per stuk ongeveer $q = 1000 - 20p$ stuks per maand. Elk stuk kost de winkel € 10 aan inkoop en verzending. Bij welke prijs is de winst maximaal, en hoe groot is die winst per maand?",
+      "parts": [
+        {
+          "label": "prijs (€)",
+          "answer": 30,
+          "type": "decimal",
+          "tolerance": 0.001
+        },
+        {
+          "label": "maximale winst (€)",
+          "answer": 8000,
+          "type": "decimal",
+          "tolerance": 0.01
+        }
+      ],
+      "hints": [
+        "Winst = (winst per stuk) × (aantal) = $(p - 10)(1000 - 20p)$.",
+        "Werk uit tot $W(p) = -20p^2 + 1200p - 10\\,000$ en los $W'(p) = 0$ op."
+      ],
+      "solution": [
+        "$W(p) = (p - 10)(1000 - 20p) = 1000p - 20p^2 - 10\\,000 + 200p = -20p^2 + 1200p - 10\\,000$.",
+        "$W'(p) = -40p + 1200 = 0$ geeft $p = 30$.",
+        "Bergparabool, dus maximum.",
+        "Bij € 30 verkoop je $1000 - 600 = 400$ stuks met € 20 winst per stuk: $W(30) = 20 \\cdot 400 = 8000$, dus € 8.000 per maand."
+      ],
+      "topics": [
+        "derivatives",
+        "money",
+        "modelling"
+      ]
+    },
+    {
+      "id": "29-038",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Gegeven is $f(x) = x^3 - ax$, met $a$ een getal. Voor welke waarde van $a$ heeft $f$ een minimum bij $x = 2$?",
+      "answer": 12,
+      "hints": [
+        "In het minimum is $f'(2) = 0$.",
+        "$f'(x) = 3x^2 - a$. Vul $x = 2$ in en los op naar $a$; controleer daarna met een tekenschema dat het echt een minimum is."
+      ],
+      "solution": [
+        "$f'(x) = 3x^2 - a$.",
+        "$f'(2) = 12 - a = 0$ geeft $a = 12$.",
+        "Controle: $f'(x) = 3x^2 - 12 = 3(x - 2)(x + 2)$. Bij $x = 2$ wisselt het teken van $-$ naar $+$: inderdaad een minimum (en bij $x = -2$ een maximum)."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Je hebt de exponent vergeten bij het differentiëren: de afgeleide van $x^3$ is $3x^2$, en in $x = 2$ is dat 12. Dus $f'(2) = 12 - a = 0$."
+        },
+        {
+          "answer": 4,
+          "message": "Met $a = 4$ is $f(2) = 0$, maar de helling $f'(2) = 12 - 4 = 8$ is niet nul. Stel $f'(2) = 0$."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-039",
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Een open doos (zonder deksel) met een vierkante bodem van $x$ bij $x$ cm moet een inhoud van 500 cm³ hebben. Voor welke $x$ is de hoeveelheid karton (de oppervlakte van bodem en vier zijkanten) minimaal, en hoeveel cm² karton is dat?",
+      "parts": [
+        {
+          "label": "x (cm)",
+          "answer": 10,
+          "type": "numeric"
+        },
+        {
+          "label": "minimale oppervlakte (cm²)",
+          "answer": 300,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Noem de hoogte $h$. Uit $x^2 h = 500$ volgt $h = \\frac{500}{x^2}$.",
+        "Oppervlakte: $A = x^2 + 4xh = x^2 + \\frac{2000}{x} = x^2 + 2000x^{-1}$. Gebruik de machtsregel voor een negatieve exponent."
+      ],
+      "solution": [
+        "Inhoud: $x^2 h = 500$, dus $h = \\frac{500}{x^2}$.",
+        "Karton: bodem $x^2$ en vier zijkanten van $x$ bij $h$: $A(x) = x^2 + 4x \\cdot \\frac{500}{x^2} = x^2 + \\frac{2000}{x}$.",
+        "$A'(x) = 2x - 2000x^{-2} = 2x - \\frac{2000}{x^2}$.",
+        "$A'(x) = 0$ geeft $2x^3 = 2000$, dus $x^3 = 1000$ en $x = 10$. Voor $x < 10$ is $A' < 0$, voor $x > 10$ is $A' > 0$: minimum.",
+        "$h = 5$ cm, en $A(10) = 100 + 200 = 300$ cm²."
+      ],
+      "topics": [
+        "derivatives",
+        "area",
+        "volume",
+        "modelling"
+      ]
+    },
+    {
+      "id": "29-040",
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Door het punt $(1; -3)$, dat onder de parabool $y = x^2$ ligt, gaan twee raaklijnen aan die parabool. Stel van beide de vergelijking op, in de vorm $y = ax + b$.",
+      "parts": [
+        {
+          "label": "raaklijn met positieve helling",
+          "answer": "y = 6x - 9",
+          "type": "expression"
+        },
+        {
+          "label": "raaklijn met negatieve helling",
+          "answer": "y = -2x - 1",
+          "type": "expression"
+        }
+      ],
+      "hints": [
+        "Raakt de lijn in het punt $(p; p^2)$, dan is de helling $2p$ en de raaklijn $y = 2px - p^2$.",
+        "Eis dat $(1; -3)$ op die raaklijn ligt: $-3 = 2p - p^2$. Los op naar $p$."
+      ],
+      "solution": [
+        "Raaklijn in $(p; p^2)$: helling $2p$, dus $y = 2p x + b$ met $p^2 = 2p \\cdot p + b$, zodat $b = -p^2$: $y = 2px - p^2$.",
+        "Door $(1; -3)$: $-3 = 2p - p^2$, ofwel $p^2 - 2p - 3 = 0$, dus $(p - 3)(p + 1) = 0$.",
+        "$p = 3$: $y = 6x - 9$. $p = -1$: $y = -2x - 1$.",
+        "Controle: $6 \\cdot 1 - 9 = -3$ en $-2 \\cdot 1 - 1 = -3$. Beide lijnen gaan door $(1; -3)$."
+      ],
+      "topics": [
+        "derivatives",
+        "linear-functions",
+        "equations"
+      ]
+    }
+  ]
+}

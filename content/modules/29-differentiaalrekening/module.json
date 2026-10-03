@@ -4,22 +4,191 @@
   "title": "Differentiaalrekening",
   "part": 5,
   "level": "vwo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "17e eeuw",
   "estimated_difficulty": 4,
-  "estimated_minutes": 90,
+  "estimated_minutes": 150,
   "prerequisites": [
-    28
+    19,
+    21
   ],
   "topics": [
-    "derivatives"
+    "derivatives",
+    "linear-functions",
+    "quadratic-functions",
+    "speed",
+    "modelling"
   ],
-  "core_question": null,
-  "summary": "Newton en Leibniz.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Een vallende steen versnelt voortdurend. Hoe snel gaat hij op precies één moment, als er op dat moment geen tijd verstrijkt en geen afstand wordt afgelegd?",
+  "summary": "Van gemiddelde naar momentane verandering: het differentiequotiënt, de raaklijn als limiet van koorden en de afgeleide. Je leert de rekenregels, stelt raaklijnen op, vindt extremen met een tekenschema en lost snelheids- en optimaliseringsproblemen op, met de geschiedenis van Newton, Leibniz en hun prioriteitsstrijd.",
+  "learning_goals": [
+    "Je berekent het differentiequotiënt van een functie op een interval en interpreteert het als gemiddelde verandering en als helling van een koorde, met de juiste eenheid.",
+    "Je schat de helling in een punt met differentiequotiënten voor steeds kleinere h, en legt uit waarom de raaklijn de grensstand van koorden is.",
+    "Je leidt met de definitie de afgeleide van eenvoudige functies zoals x² en x³ af en kent de notaties f′(x) en dy/dx.",
+    "Je differentieert veeltermfuncties met de machtsregel, de somregel en de regel voor een constante factor, zo nodig na het wegwerken van haakjes.",
+    "Je stelt de vergelijking op van de raaklijn in een gegeven punt en vindt het punt waar een grafiek een gegeven helling heeft.",
+    "Je bepaalt met een tekenschema van de afgeleide waar een functie stijgt of daalt en berekent de coördinaten van maxima en minima.",
+    "Je lost optimaliseringsproblemen in een context op en berekent snelheid als afgeleide van afstand.",
+    "Je kunt de bijdragen van Fermat, Newton en Leibniz plaatsen en uitleggen waarom Berkeley de vroege calculus bekritiseerde."
+  ],
+  "glossary": [
+    {
+      "term": "Differentiequotiënt",
+      "definition": "De gemiddelde verandering $\\frac{f(b) - f(a)}{b - a}$ van een functie op het interval $[a; b]$; de helling van de koorde tussen twee punten van de grafiek."
+    },
+    {
+      "term": "Koorde",
+      "definition": "Een rechte lijn door twee punten van een grafiek."
+    },
+    {
+      "term": "Momentane verandering",
+      "definition": "De verandering op één moment of in één punt: het getal waar het differentiequotiënt $\\frac{f(a + h) - f(a)}{h}$ naartoe gaat als $h$ naar 0 gaat."
+    },
+    {
+      "term": "Limiet",
+      "definition": "De waarde die een uitdrukking nadert als een variabele steeds dichter bij een bepaalde waarde komt. Notatie: $\\lim_{h \\to 0}$."
+    },
+    {
+      "term": "Raaklijn",
+      "definition": "De rechte lijn die in een punt van een grafiek de grensstand is van de koorden door dat punt. Vlak bij het raakpunt valt ze bijna samen met de grafiek."
+    },
+    {
+      "term": "Afgeleide",
+      "definition": "De functie $f'$ die bij elke $x$ de helling van de grafiek van $f$ geeft: $f'(x) = \\lim_{h \\to 0} \\frac{f(x + h) - f(x)}{h}$. Ook geschreven als $\\frac{dy}{dx}$."
+    },
+    {
+      "term": "Differentiëren",
+      "definition": "Het berekenen van de afgeleide van een functie."
+    },
+    {
+      "term": "Machtsregel",
+      "definition": "De afgeleide van $x^n$ is $n x^{n-1}$."
+    },
+    {
+      "term": "Extreem (maximum, minimum)",
+      "definition": "Een punt waar een functie lokaal haar grootste (maximum) of kleinste (minimum) waarde heeft. Bij een gladde functie is daar $f'(x) = 0$."
+    },
+    {
+      "term": "Tekenschema",
+      "definition": "Een getallenlijn met de nulpunten van $f'$ en het teken van $f'$ in elk interval daartussen; daaruit lees je stijgen, dalen en extremen af."
+    },
+    {
+      "term": "Optimaliseren",
+      "definition": "Het zoeken naar de waarde van een variabele waarvoor een grootheid (oppervlakte, inhoud, winst, kosten) maximaal of minimaal is."
+    },
+    {
+      "term": "Fluxie",
+      "definition": "Newtons naam voor de snelheid waarmee een in de tijd veranderende grootheid (een fluent) verandert; genoteerd als $\\dot{y}$."
+    },
+    {
+      "term": "Marginale kosten",
+      "definition": "De afgeleide van de kostenfunctie: ongeveer de extra kosten van één product meer."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Differentiequotiënt",
+      "latex": "\\frac{\\Delta y}{\\Delta x} = \\frac{f(b) - f(a)}{b - a}",
+      "usage": "Gemiddelde verandering van $f$ op $[a; b]$; helling van de koorde.",
+      "origin": "Het idee van een verhouding van kleine toenamen komt al voor bij Fermat (ca. 1636) en Barrow (1670)."
+    },
+    {
+      "name": "Definitie van de afgeleide",
+      "latex": "f'(x) = \\lim_{h \\to 0} \\frac{f(x + h) - f(x)}{h}",
+      "usage": "De helling van de grafiek in elk punt; eerst vereenvoudigen, dan $h$ naar 0 laten gaan.",
+      "origin": "Newton (fluxies, 1665–1666) en Leibniz (differentialen, 1675); de strenge limietdefinitie is van Cauchy (1821) en Weierstrass (ca. 1861)."
+    },
+    {
+      "name": "Machtsregel",
+      "latex": "(x^n)' = n \\cdot x^{n-1}",
+      "usage": "Afgeleide van een macht; ook geldig voor negatieve en gebroken exponenten.",
+      "origin": "Bekend bij Newton en Leibniz; gepubliceerd in Leibniz' Nova methodus (1684)."
+    },
+    {
+      "name": "Constante factor en somregel",
+      "latex": "(c \\cdot f)' = c \\cdot f', \\quad (f + g)' = f' + g'",
+      "usage": "Een veelterm differentieer je term voor term.",
+      "origin": "Leibniz, Nova methodus (1684)."
+    },
+    {
+      "name": "Raaklijn",
+      "latex": "y = f'(p)\\,(x - p) + f(p)",
+      "usage": "Vergelijking van de raaklijn aan de grafiek van $f$ in het punt met $x = p$.",
+      "origin": "Raaklijnmethoden van Descartes (1637) en Fermat; in deze vorm met de afgeleide sinds Leibniz."
+    },
+    {
+      "name": "Extremen",
+      "latex": "f'(p) = 0 \\text{ en tekenwissel van } f' \\text{ in } p",
+      "usage": "Van $+$ naar $-$: maximum; van $-$ naar $+$: minimum.",
+      "origin": "Fermats methode voor maxima en minima (ca. 1636); Leibniz' voorwaarde $dy = 0$ (1684)."
+    },
+    {
+      "name": "Snelheid",
+      "latex": "v(t) = s'(t), \\quad a(t) = v'(t)",
+      "usage": "Snelheid is de afgeleide van de plaats, versnelling de afgeleide van de snelheid.",
+      "origin": "Newtons fluxies: grootheden die in de tijd veranderen."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een vallende steen en een pestjaar",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "gemiddelde-en-momentane-verandering",
+      "title": "Van gemiddelde naar momentane verandering",
+      "file": "02-theorie-a.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "de-afgeleide",
+      "title": "De afgeleide als functie",
+      "file": "03-theorie-b.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "rekenregels-en-raaklijn",
+      "title": "Rekenregels en de vergelijking van de raaklijn",
+      "file": "03b-theorie-c.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "extremen",
+      "title": "Stijgen, dalen en extremen",
+      "file": "03c-theorie-d.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Newton, Leibniz en de strijd om de calculus",
+      "file": "04-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Snelheid en optimaliseren",
+      "file": "05-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "06-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "descartes-geometrie",
+    "pascal-fermat",
+    "newton-leibniz"
+  ],
+  "mathematicians": [
+    "fermat",
+    "descartes",
+    "newton",
+    "leibniz",
+    "bayes"
+  ]
 }

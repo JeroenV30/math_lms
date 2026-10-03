@@ -1,0 +1,372 @@
+{
+  "title": "Hoofdstuktoets – Differentiaalrekening",
+  "intro": "15 vragen over het differentiequotiënt, de afgeleide en de rekenregels, raaklijnen, extremen, snelheid en optimaliseren. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "29-T01",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Bereken het differentiequotiënt van $f(x) = x^2 + 1$ op het interval $[2; 5]$.",
+      "answer": 7,
+      "hints": [],
+      "solution": [
+        "$f(2) = 5$ en $f(5) = 26$.",
+        "$\\frac{26 - 5}{5 - 2} = \\frac{21}{3} = 7$."
+      ],
+      "feedback": [
+        {
+          "answer": 21,
+          "message": "Dat is $\\Delta y$; deel nog door $\\Delta x = 3$."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-T02",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Een fietser passeert om 10.00 uur kilometerpaal 12 en om 10.30 uur kilometerpaal 21. Wat is zijn gemiddelde snelheid in km/u?",
+      "answer": 18,
+      "hints": [],
+      "solution": [
+        "Afstand: $21 - 12 = 9$ km. Tijd: 0,5 uur.",
+        "$\\frac{9}{0{,}5} = 18$ km/u."
+      ],
+      "feedback": [
+        {
+          "answer": 9,
+          "message": "9 km is de afstand, in een half uur. Per uur is dat twee keer zoveel."
+        }
+      ],
+      "unit": "km/u",
+      "topics": [
+        "derivatives",
+        "speed"
+      ]
+    },
+    {
+      "id": "29-T03",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken het differentiequotiënt van $f(x) = x^2$ op het interval $[5; 5{,}1]$. Geef het exacte antwoord.",
+      "answer": 10.1,
+      "hints": [],
+      "solution": [
+        "$f(5{,}1) = 26{,}01$ en $f(5) = 25$.",
+        "$\\frac{1{,}01}{0{,}1} = 10{,}1$."
+      ],
+      "feedback": [
+        {
+          "answer": 1.01,
+          "message": "Dat is $\\Delta y$; deel nog door $\\Delta x = 0{,}1$."
+        }
+      ],
+      "tolerance": 0.0001,
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-T04",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Voor $f(x) = x^2$ is $\\dfrac{f(-2 + h) - f(-2)}{h} = -4 + h$. Wat is de helling van de grafiek in het punt $(-2; 4)$?",
+      "answer": -4,
+      "hints": [],
+      "solution": [
+        "Als $h$ naar 0 gaat, gaat $-4 + h$ naar $-4$.",
+        "Controle: $f'(x) = 2x$, $f'(-2) = -4$."
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "4 is de hoogte $f(-2)$. De helling is negatief: links van de top daalt de parabool."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-T05",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Differentieer $f(x) = 3x^4$. Typ alleen het voorschrift, bijvoorbeeld `6x^2 - 4`.",
+      "answer": "12x^3",
+      "hints": [],
+      "solution": [
+        "Machtsregel met constante factor: $3 \\cdot 4x^3 = 12x^3$."
+      ],
+      "feedback": [
+        {
+          "answer": "12x^4",
+          "message": "De exponent wordt één kleiner: $12x^3$."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-T06",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Differentieer $f(x) = x^3 - 6x^2 + 4x - 1$. Typ alleen het voorschrift, bijvoorbeeld `6x^2 - 4`.",
+      "answer": "3x^2 - 12x + 4",
+      "hints": [],
+      "solution": [
+        "Term voor term: $3x^2$, $-12x$, $4$ en $0$.",
+        "$f'(x) = 3x^2 - 12x + 4$."
+      ],
+      "feedback": [
+        {
+          "answer": "3x^2 - 12x + 3",
+          "message": "De afgeleide van de constante $-1$ is 0; je hoeft die niet van 4 af te trekken."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-T07",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Differentieer $f(x) = x(x + 5)$. Typ alleen het voorschrift, bijvoorbeeld `6x^2 - 4`.",
+      "answer": "2x + 5",
+      "hints": [],
+      "solution": [
+        "Haakjes wegwerken: $f(x) = x^2 + 5x$.",
+        "$f'(x) = 2x + 5$."
+      ],
+      "feedback": [
+        {
+          "answer": "1",
+          "message": "De afgeleide van een product is niet het product van de afgeleiden ($1 \\cdot 1$). Werk eerst de haakjes weg."
+        }
+      ],
+      "topics": [
+        "derivatives",
+        "expressions"
+      ]
+    },
+    {
+      "id": "29-T08",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Gegeven is $f(x) = 2x^3 - x$. Bereken $f'(-1)$.",
+      "answer": 5,
+      "hints": [],
+      "solution": [
+        "$f'(x) = 6x^2 - 1$.",
+        "$f'(-1) = 6 \\cdot 1 - 1 = 5$."
+      ],
+      "feedback": [
+        {
+          "answer": -1,
+          "message": "$-1$ is $f(-1) = -2 + 1$. Gevraagd is de afgeleide."
+        },
+        {
+          "answer": -7,
+          "message": "Let op: $(-1)^2 = 1$, dus $6 \\cdot (-1)^2 = 6$."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-T09",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Stel de vergelijking op van de raaklijn aan de grafiek van $f(x) = x^2 + x$ in het punt met $x = 1$. Schrijf je antwoord als $y = ax + b$.",
+      "answer": "y = 3x - 1",
+      "hints": [],
+      "solution": [
+        "Raakpunt: $f(1) = 2$, dus $(1; 2)$.",
+        "$f'(x) = 2x + 1$, helling $f'(1) = 3$.",
+        "$2 = 3 + b$ geeft $b = -1$: $y = 3x - 1$."
+      ],
+      "feedback": [
+        {
+          "answer": "y = 3x + 2",
+          "message": "2 is de $y$-coördinaat van het raakpunt, niet het snijpunt met de $y$-as."
+        }
+      ],
+      "topics": [
+        "derivatives",
+        "linear-functions"
+      ]
+    },
+    {
+      "id": "29-T10",
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken de coördinaten van de top van $f(x) = x^2 - 10x + 21$.",
+      "answer": "(5; -4)",
+      "hints": [],
+      "solution": [
+        "$f'(x) = 2x - 10 = 0$ geeft $x = 5$.",
+        "$f(5) = 25 - 50 + 21 = -4$. Top: $(5; -4)$."
+      ],
+      "feedback": [
+        {
+          "answer": "(5; 0)",
+          "message": "In de top is de afgeleide 0, niet $f$. Bereken $f(5)$."
+        }
+      ],
+      "topics": [
+        "derivatives",
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "29-T11",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Gegeven is $f(x) = x^3 - 27x$. Bereken de coördinaten van het maximum en van het minimum.",
+      "parts": [
+        {
+          "label": "maximum",
+          "answer": "(-3; 54)",
+          "type": "coordinate"
+        },
+        {
+          "label": "minimum",
+          "answer": "(3; -54)",
+          "type": "coordinate"
+        }
+      ],
+      "hints": [],
+      "solution": [
+        "$f'(x) = 3x^2 - 27 = 3(x - 3)(x + 3)$; nulpunten $\\pm 3$.",
+        "Tekenschema: $+$, $-$, $+$. Maximum bij $x = -3$, minimum bij $x = 3$.",
+        "$f(-3) = -27 + 81 = 54$ en $f(3) = 27 - 81 = -54$."
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-T12",
+      "type": "interval",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Gegeven is $f(x) = x^3 - 3x^2$. Voor welke $x$ geldt $f'(x) < 0$? Geef je antwoord als interval.",
+      "answer": "⟨0; 2⟩",
+      "hints": [],
+      "solution": [
+        "$f'(x) = 3x^2 - 6x = 3x(x - 2)$; nulpunten 0 en 2.",
+        "Testwaarde $x = 1$: $f'(1) = -3 < 0$. Dus $f'(x) < 0$ op $\\langle 0; 2 \\rangle$."
+      ],
+      "feedback": [
+        {
+          "answer": "[0; 2]",
+          "message": "In 0 en 2 is $f'(x) = 0$, niet negatief: gebruik open grenzen."
+        }
+      ],
+      "topics": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "29-T13",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een auto trekt op; de afgelegde afstand (in meter) na $t$ seconden is $s(t) = 4t^2 + 2t$. Bereken de snelheid op $t = 3$ in m/s.",
+      "answer": 26,
+      "hints": [],
+      "solution": [
+        "$v(t) = s'(t) = 8t + 2$.",
+        "$v(3) = 24 + 2 = 26$ m/s."
+      ],
+      "feedback": [
+        {
+          "answer": 42,
+          "message": "42 m is de afgelegde afstand $s(3)$. De snelheid is $s'(3)$."
+        },
+        {
+          "answer": 14,
+          "message": "14 m/s is de gemiddelde snelheid over de eerste 3 seconden ($42/3$). Gevraagd is de snelheid op $t = 3$."
+        }
+      ],
+      "unit": "m/s",
+      "topics": [
+        "derivatives",
+        "speed"
+      ]
+    },
+    {
+      "id": "29-T14",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Met 80 meter hek wordt een rechthoekige tuin omheind (alle vier de zijden). Wat is de grootst mogelijke oppervlakte in m²?",
+      "answer": 400,
+      "hints": [],
+      "solution": [
+        "Breedte $x$, lengte $40 - x$: $A(x) = 40x - x^2$.",
+        "$A'(x) = 40 - 2x = 0$ geeft $x = 20$.",
+        "$A(20) = 20 \\cdot 20 = 400$ m²."
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "20 m is de lengte van een zijde. Gevraagd is de oppervlakte."
+        },
+        {
+          "answer": 1600,
+          "message": "Je hebt een vierkant met zijde 40 genomen; dat heeft omtrek 160 m. Met 80 m hek is de zijde 20 m."
+        }
+      ],
+      "unit": "m²",
+      "topics": [
+        "derivatives",
+        "area",
+        "modelling"
+      ]
+    },
+    {
+      "id": "29-T15",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 5,
+      "question": "Twee positieve getallen hebben samen de som 12. Het eerste getal heet $x$. Het product van het eerste getal en het **kwadraat** van het tweede getal moet zo groot mogelijk zijn. Hoe groot is dat maximale product?",
+      "answer": 256,
+      "hints": [],
+      "solution": [
+        "$P(x) = x(12 - x)^2 = x^3 - 24x^2 + 144x$, met $0 < x < 12$.",
+        "$P'(x) = 3x^2 - 48x + 144 = 3(x - 4)(x - 12)$, dus $x = 4$ (maximum).",
+        "$P(4) = 4 \\cdot 8^2 = 256$."
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "4 is de waarde van $x$. Gevraagd is het maximale product $4 \\cdot 8^2$."
+        },
+        {
+          "answer": 216,
+          "message": "216 hoort bij $x = 6$ ($6 \\cdot 36$). Het kwadraat maakt het tweede getal belangrijker: het optimum ligt bij $x = 4$."
+        }
+      ],
+      "topics": [
+        "derivatives",
+        "modelling"
+      ]
+    }
+  ]
+}

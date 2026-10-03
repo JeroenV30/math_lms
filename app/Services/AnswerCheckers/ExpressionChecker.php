@@ -17,14 +17,17 @@ class ExpressionChecker implements AnswerChecker
 {
     private const SAMPLES = 8;
 
+    /** Een linkerkant die we wegstrepen: "y =", "f(x) =", "f'(x) =", "y' =", "dy/dx =", "F(t) =". */
+    private const LEFT_SIDE = "/^\s*(?:d[a-z]\s*\/\s*d[a-z]|[a-z]['′]*(?:\s*\([a-z]\))?)\s*=\s*/iu";
+
     public function __construct(private readonly ExpressionParser $parser) {}
 
     public function check(mixed $givenAnswer, mixed $expectedAnswer, array $options = []): AnswerResult
     {
         $input = trim((string) $givenAnswer);
 
-        // "y = 2x + 3" of "f(x) = …": alleen de rechterkant telt.
-        $input = preg_replace('/^\s*[a-z](\([a-z]\))?\s*=\s*/i', '', $input);
+        // "y = 2x + 3", "f'(x) = …": alleen de rechterkant telt.
+        $input = preg_replace(self::LEFT_SIDE, '', $input);
 
         try {
             $given = $this->parser->parse($input);
@@ -32,7 +35,7 @@ class ExpressionChecker implements AnswerChecker
             return AnswerResult::invalid('Dit is geen geldige expressie. Schrijf bijvoorbeeld 2x + 4 of 3(x − 1).');
         }
 
-        $expected = $this->parser->parse(preg_replace('/^\s*[a-z](\([a-z]\))?\s*=\s*/i', '', (string) $expectedAnswer));
+        $expected = $this->parser->parse(preg_replace(self::LEFT_SIDE, '', (string) $expectedAnswer));
         $normalized = preg_replace('/\s+/', ' ', $input);
 
         $unknown = array_diff($given['variables'], $expected['variables']);
