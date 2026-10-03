@@ -1,233 +1,378 @@
 {
   "title": "Hoofdstuktoets – Decimalen",
-  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "intro": "15 vragen over plaatswaarde, vergelijken, breuken en decimalen, afronden en de vier rekenbewerkingen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
   "questions": [
     {
       "id": "08-T01",
-      "question": "Wat is het cijfer op de duizendstenpositie in 3,047?",
-      "answer": 7,
-      "solution": [
-        "De derde positie achter de komma is 7."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Welk cijfer staat op de plaats van de **duizendsten** in 3,047?",
+      "answer": 7,
+      "hints": [],
+      "solution": [
+        "Na de komma: 0 tienden, 4 honderdsten, 7 duizendsten.",
+        "De derde plaats na de komma is 7."
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "De 4 staat op de tweede plaats na de komma: de honderdsten. De duizendsten zijn de derde plaats."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "place-value"
       ]
     },
     {
       "id": "08-T02",
-      "question": "Welk getal is kleiner: 0,56 of 0,6?",
-      "answer": 0.56,
-      "solution": [
-        "$0{,}56<0{,}60$."
-      ],
-      "hints": [],
       "type": "decimal",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Welk getal is kleiner: 0,56 of 0,6? Typ het kleinste getal.",
+      "answer": 0.56,
+      "hints": [],
+      "solution": [
+        "Vul aan: $0{,}6 = 0{,}60$.",
+        "56 honderdsten is minder dan 60 honderdsten, dus $0{,}56 < 0{,}6$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.6,
+          "message": "0,6 = 0,60 is juist het grootste getal: 60 honderdsten tegen 56. Het aantal cijfers zegt niets over de grootte."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "comparing"
       ]
     },
     {
       "id": "08-T03",
-      "question": "Bereken $0{,}483\\times100$.",
-      "answer": 48.3,
-      "solution": [
-        "Elke positie krijgt honderd keer zoveel waarde."
-      ],
-      "hints": [],
       "type": "decimal",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Bereken $0{,}483 \\times 100$.",
+      "answer": 48.3,
+      "hints": [],
+      "solution": [
+        "Maal 100: elk cijfer schuift twee plaatsen naar links.",
+        "$0{,}483 \\times 100 = 48{,}3$."
+      ],
+      "feedback": [
+        {
+          "answer": 4.83,
+          "message": "Je schoof maar één plaats op (maal 10). Bij maal 100 zijn het er twee."
+        },
+        {
+          "answer": 0.00483,
+          "message": "De komma ging de verkeerde kant op: dat is delen door 100."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "place-value",
+        "multiplication"
       ]
     },
     {
       "id": "08-T04",
-      "question": "Bereken $72:1000$.",
-      "answer": 0.072,
-      "solution": [
-        "72 duizendsten is 0,072."
-      ],
-      "hints": [],
       "type": "decimal",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Bereken $72 : 1000$.",
+      "answer": 0.072,
+      "hints": [],
+      "solution": [
+        "Gedeeld door 1000: de komma schuift drie plaatsen naar links.",
+        "$72{,}0 \\to 0{,}072$: 72 duizendsten."
+      ],
+      "feedback": [
+        {
+          "answer": 0.72,
+          "message": "Je schoof maar twee plaatsen op (delen door 100). Bij delen door 1000 zijn het er drie; vul een nul aan: 0,072."
+        },
+        {
+          "answer": 72000,
+          "message": "De komma ging de verkeerde kant op: je hebt met 1000 vermenigvuldigd."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "place-value",
+        "division"
       ]
     },
     {
       "id": "08-T05",
-      "question": "Schrijf 0,45 als volledig vereenvoudigde breuk.",
-      "answer": "9/20",
-      "solution": [
-        "$45/100=9/20$."
-      ],
-      "hints": [],
       "type": "fraction",
       "mode": "independent",
       "difficulty": 1,
-      "topics": [
-        "decimals"
+      "question": "Schrijf 0,45 als volledig vereenvoudigde breuk.",
+      "answer": "9/20",
+      "require_simplified": true,
+      "hints": [],
+      "solution": [
+        "Twee decimalen: $0{,}45 = \\tfrac{45}{100}$.",
+        "Deel teller en noemer door 5: $\\tfrac{9}{20}$."
       ],
-      "require_simplified": true
+      "feedback": [
+        {
+          "answer": "45/10",
+          "message": "Met noemer 10 krijg je 4,5. Twee decimalen betekent noemer 100."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "fractions"
+      ]
     },
     {
       "id": "08-T06",
-      "question": "Schrijf $11/25$ als decimaal.",
-      "answer": 0.44,
-      "solution": [
-        "$11/25=44/100=0{,}44$."
-      ],
-      "hints": [],
       "type": "decimal",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Schrijf $\\tfrac{11}{25}$ als kommagetal.",
+      "answer": 0.44,
+      "hints": [],
+      "solution": [
+        "$25 \\times 4 = 100$, dus $\\tfrac{11}{25} = \\tfrac{44}{100}$.",
+        "$\\tfrac{44}{100} = 0{,}44$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.11,
+          "message": "Je hebt de teller zonder meer achter de komma gezet. Maak de noemer eerst 100: $\\tfrac{44}{100}$."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "fractions"
       ]
     },
     {
       "id": "08-T07",
-      "question": "Schrijf $2/3$ als decimaal, afgerond op twee decimalen.",
-      "answer": 0.67,
-      "solution": [
-        "$2/3=0{,}666\\ldots\\approx0{,}67$."
-      ],
-      "hints": [],
       "type": "decimal",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Schrijf $\\tfrac23$ als kommagetal, afgerond op twee decimalen.",
+      "answer": 0.67,
+      "hints": [],
+      "solution": [
+        "$2 : 3 = 0{,}666\\ldots$",
+        "Op twee decimalen: het eerste weggelaten cijfer is 6, dus naar boven: $0{,}67$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.66,
+          "message": "Je hebt afgekapt. Het eerste weggelaten cijfer is 6: rond naar boven af."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "fractions",
+        "estimation"
       ]
     },
     {
       "id": "08-T08",
-      "question": "Rond 12,746 af op één decimaal.",
-      "answer": 12.7,
-      "solution": [
-        "De honderdsten zijn 4; behoud 12,7."
-      ],
-      "hints": [],
       "type": "decimal",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Rond 12,746 af op één decimaal.",
+      "answer": 12.7,
+      "hints": [],
+      "solution": [
+        "Houd 12,7; het eerste weggelaten cijfer is 4.",
+        "4 is kleiner dan 5: de tienden blijven 7. Antwoord: 12,7."
+      ],
+      "feedback": [
+        {
+          "answer": 12.8,
+          "message": "Je hebt in twee stappen afgerond (12,746 → 12,75 → 12,8). Rond rechtstreeks af: het eerste weggelaten cijfer is 4."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "estimation"
       ]
     },
     {
       "id": "08-T09",
-      "question": "Rond 6,985 af op twee decimalen.",
-      "answer": 6.99,
-      "solution": [
-        "Het derde cijfer is 5, dus verhoog de honderdsten."
-      ],
-      "hints": [],
       "type": "decimal",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Rond 6,985 af op twee decimalen.",
+      "answer": 6.99,
+      "hints": [],
+      "solution": [
+        "Houd 6,98; het eerste weggelaten cijfer is 5.",
+        "5 betekent naar boven: $6{,}98 \\to 6{,}99$."
+      ],
+      "feedback": [
+        {
+          "answer": 6.98,
+          "message": "Bij een 5 als eerste weggelaten cijfer rond je volgens de schoolregel naar boven af."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "estimation"
       ]
     },
     {
       "id": "08-T10",
-      "question": "Bereken $2{,}08+0{,}7$.",
-      "answer": 2.78,
-      "solution": [
-        "$2{,}08+0{,}70=2{,}78$."
-      ],
-      "hints": [],
       "type": "decimal",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Bereken $2{,}08 + 0{,}7$.",
+      "answer": 2.78,
+      "hints": [],
+      "solution": [
+        "Komma onder komma: $2{,}08 + 0{,}70$.",
+        "Honderdsten $8 + 0 = 8$, tienden $0 + 7 = 7$, eenheden 2. Uitkomst: 2,78."
+      ],
+      "feedback": [
+        {
+          "answer": 2.15,
+          "message": "Je hebt de getallen rechts uitgelijnd en 0,7 als 0,07 behandeld. Zet de komma's onder elkaar: 0,7 = 0,70."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "addition"
       ]
     },
     {
       "id": "08-T11",
-      "question": "Bereken $8-3{,}46$.",
-      "answer": 4.54,
-      "solution": [
-        "$8{,}00-3{,}46=4{,}54$."
-      ],
-      "hints": [],
       "type": "decimal",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Bereken $8 - 3{,}46$.",
+      "answer": 4.54,
+      "hints": [],
+      "solution": [
+        "Schrijf $8{,}00 - 3{,}46$.",
+        "Lenen: 8,00 is 7 eenheden, 9 tienden en 10 honderdsten.",
+        "$10 - 6 = 4$, $9 - 4 = 5$, $7 - 3 = 4$. Uitkomst: 4,54. Controle: $4{,}54 + 3{,}46 = 8$."
+      ],
+      "feedback": [
+        {
+          "answer": 5.46,
+          "message": "Je hebt in elke kolom het kleinste cijfer van het grootste afgetrokken. Bij 0 − 6 moet je lenen: schrijf 8 als 8,00."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "subtraction"
       ]
     },
     {
       "id": "08-T12",
-      "question": "Bereken $0{,}24\\times1{,}5$.",
-      "answer": 0.36,
-      "solution": [
-        "$24\\times15=360$, gedeeld door 1000 geeft 0,36."
-      ],
-      "hints": [],
       "type": "decimal",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Bereken $0{,}24 \\times 1{,}5$.",
+      "answer": 0.36,
+      "hints": [],
+      "solution": [
+        "Hele getallen: $24 \\times 15 = 360$.",
+        "Decimalen: $2 + 1 = 3$. Dus $0{,}360 = 0{,}36$.",
+        "Schatting: $0{,}25 \\times 1{,}5 \\approx 0{,}4$. Klopt ongeveer."
+      ],
+      "feedback": [
+        {
+          "answer": 3.6,
+          "message": "Je hebt maar twee decimalen geteld. 0,24 heeft er twee en 1,5 één: samen drie, dus 0,360."
+        },
+        {
+          "answer": 0.036,
+          "message": "Je hebt een decimaal te veel: 360 met drie decimalen is 0,360 = 0,36."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "multiplication"
       ]
     },
     {
       "id": "08-T13",
-      "question": "Bereken $6{,}3:0{,}09$.",
-      "answer": 70,
-      "solution": [
-        "$630:9=70$."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Bereken $6{,}3 : 0{,}09$.",
+      "answer": 70,
+      "hints": [],
+      "solution": [
+        "Maak de deler geheel: beide getallen maal 100.",
+        "$6{,}3 : 0{,}09 = 630 : 9 = 70$.",
+        "Controle: $70 \\times 0{,}09 = 6{,}3$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.7,
+          "message": "Je hebt alleen de deler aangepast. Vermenigvuldig deeltal én deler met 100: $630 : 9$."
+        },
+        {
+          "answer": 7,
+          "message": "Je hebt het deeltal maar met 10 vermenigvuldigd. De deler 0,09 heeft twee decimalen: beide maal 100."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "division"
       ]
     },
     {
       "id": "08-T14",
-      "question": "Schrijf 2 uur en 24 minuten als decimaal aantal uren.",
-      "answer": 2.4,
-      "solution": [
-        "$24/60=0{,}4$; totaal 2,4 uur."
-      ],
-      "hints": [],
       "type": "decimal",
       "mode": "independent",
-      "difficulty": 1,
-      "topics": [
-        "decimals"
+      "difficulty": 2,
+      "question": "Schrijf 2 uur en 24 minuten als een decimaal aantal uren.",
+      "answer": 2.4,
+      "unit": "uur",
+      "hints": [],
+      "solution": [
+        "$24 : 60 = 0{,}4$ uur.",
+        "Totaal: 2,4 uur."
       ],
-      "unit": "uur"
+      "feedback": [
+        {
+          "answer": 2.24,
+          "message": "Je hebt de minuten direct achter de komma gezet. Een uur heeft 60 minuten: 24 minuten is $24 : 60 = 0{,}4$ uur."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "time",
+        "unit-conversion"
+      ]
     },
     {
       "id": "08-T15",
-      "question": "Een plank van 4,7 m wordt in stukken van 0,45 m gezaagd. De zaagsnede wordt verwaarloosd. Hoeveel volledige stukken passen?",
-      "answer": 10,
-      "solution": [
-        "Tien stukken gebruiken 4,5 m.",
-        "Elf stukken vragen 4,95 m; dat past niet."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 3,
+      "question": "Een plank van 4,7 m wordt in stukken van 0,45 m gezaagd. De zaagsnede wordt verwaarloosd. Hoeveel volledige stukken passen erin?",
+      "answer": 10,
+      "unit": "stukken",
+      "hints": [],
+      "solution": [
+        "$4{,}7 : 0{,}45 = 470 : 45 = 10{,}44\\ldots$",
+        "Tien stukken gebruiken $10 \\times 0{,}45 = 4{,}5$ m; er blijft 0,2 m over.",
+        "Elf stukken vragen 4,95 m; dat past niet. Antwoord: 10."
+      ],
+      "feedback": [
+        {
+          "answer": 11,
+          "message": "Elf stukken van 0,45 m vragen 4,95 m, meer dan de 4,7 m van de plank. Alleen volledige stukken tellen: naar beneden afronden."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "division",
+        "length"
       ]
     }
   ]

@@ -2,543 +2,1318 @@
   "exercises": [
     {
       "id": "08-001",
-      "question": "Hoeveel tienden bevat het decimale deel van 2,3?",
-      "answer": 3,
-      "solution": [
-        "Het eerste cijfer achter de komma is 3."
-      ],
-      "hints": [
-        "Lees de tiendenpositie."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Hoeveel tienden bevat het **decimale deel** van 2,3?",
+      "answer": 3,
+      "hints": [
+        "Het decimale deel is alles wat na de komma staat.",
+        "Het eerste cijfer na de komma geeft het aantal tienden."
+      ],
+      "solution": [
+        "Het decimale deel van 2,3 is 0,3.",
+        "$0{,}3 = \\tfrac{3}{10}$: drie tienden.",
+        "Antwoord: 3."
+      ],
+      "feedback": [
+        {
+          "answer": 23,
+          "message": "Dat is het aantal tienden in het **hele** getal: $2{,}3 = \\tfrac{23}{10}$. De vraag gaat alleen over het decimale deel, 0,3."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "place-value"
       ]
     },
     {
       "id": "08-002",
-      "question": "Wat is het cijfer op de honderdstenpositie in 2,037?",
-      "answer": 3,
-      "solution": [
-        "Na de komma staan 0 tienden, 3 honderdsten en 7 duizendsten."
-      ],
-      "hints": [
-        "De honderdsten zijn de tweede positie achter de komma."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Welk cijfer staat op de plaats van de **honderdsten** in 2,037?",
+      "answer": 3,
+      "hints": [
+        "De honderdsten zijn de tweede plaats na de komma.",
+        "Schrijf de posities uit: tienden, honderdsten, duizendsten."
+      ],
+      "solution": [
+        "Na de komma staan achtereenvolgens: 0 tienden, 3 honderdsten en 7 duizendsten.",
+        "Het cijfer op de honderdstenplaats is 3.",
+        "Controle: $2{,}037 = 2 + \\tfrac{0}{10} + \\tfrac{3}{100} + \\tfrac{7}{1000}$."
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "De 0 staat op de eerste plaats na de komma: dat zijn de tienden. De honderdsten komen één plaats verder."
+        },
+        {
+          "answer": 7,
+          "message": "De 7 staat op de derde plaats na de komma: dat zijn de duizendsten. Tel nog eens: tienden, honderdsten, duizendsten."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "place-value"
       ]
     },
     {
       "id": "08-003",
-      "question": "Wat is de waarde van het cijfer 6 in 0,406?",
-      "answer": 0.006,
-      "solution": [
-        "De 6 staat op de duizendstenpositie: 0,006."
-      ],
-      "hints": [
-        "Er staan twee cijfers vóór de 6 achter de komma."
-      ],
       "type": "decimal",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Wat is de waarde van het cijfer 6 in 0,406? Geef je antwoord als kommagetal.",
+      "answer": 0.006,
+      "hints": [
+        "Op welke plaats na de komma staat de 6?",
+        "De derde plaats na de komma is die van de duizendsten."
+      ],
+      "solution": [
+        "Na de komma staan 4 tienden, 0 honderdsten en 6 duizendsten.",
+        "De 6 staat dus op de duizendstenplaats en is $\\tfrac{6}{1000}$ waard.",
+        "Als kommagetal: 0,006."
+      ],
+      "feedback": [
+        {
+          "answer": 0.06,
+          "message": "Je hebt de nul in het midden overgeslagen. Die nul is een plaatshouder: de 6 staat op de **derde** plaats na de komma, de duizendsten."
+        },
+        {
+          "answer": 0.6,
+          "message": "0,6 zijn zes tienden. De 6 staat op de derde plaats na de komma en is dus zes duizendsten waard."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "place-value",
+        "zero"
       ]
     },
     {
       "id": "08-004",
-      "question": "Welk getal is groter: 0,8 of 0,75?",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welk getal is groter: 0,8 of 0,75? Typ het grootste getal.",
       "answer": 0.8,
-      "solution": [
-        "$0{,}8=0{,}80>0{,}75$."
-      ],
       "hints": [
-        "Schrijf beide met twee decimalen."
+        "Vul aan tot evenveel decimalen: $0{,}8 = 0{,}80$.",
+        "Vergelijk nu 80 honderdsten met 75 honderdsten."
       ],
-      "type": "decimal",
-      "mode": "guided",
-      "difficulty": 1,
+      "solution": [
+        "Vul aan: $0{,}8 = 0{,}80$.",
+        "Vergelijk de honderdsten: 80 is meer dan 75.",
+        "Dus $0{,}8 > 0{,}75$. Ook al zonder aanvullen: 8 tienden is meer dan 7 tienden."
+      ],
+      "feedback": [
+        {
+          "answer": 0.75,
+          "message": "Dit is de denkfout 'langer is groter': 75 lijkt meer dan 8. Maar 0,8 is acht **tienden** en 0,75 maar zeven tienden en vijf honderdsten. Vul aan tot 0,80 en vergelijk opnieuw."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "comparing"
       ]
     },
     {
-      "id": "08-005",
-      "question": "Bereken $2{,}37\\times10$.",
-      "answer": 23.7,
-      "solution": [
-        "Elk cijfer krijgt tien keer zoveel waarde: 23,7."
-      ],
-      "hints": [
-        "Controleer dat de uitkomst groter wordt."
-      ],
+      "id": "08-031",
       "type": "decimal",
       "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "decimals"
-      ]
-    },
-    {
-      "id": "08-006",
-      "question": "Bereken $237:100$.",
-      "answer": 2.37,
-      "solution": [
-        "Delen door 100 maakt het getal honderd keer zo klein."
-      ],
+      "difficulty": 2,
+      "question": "Zet de getallen 0,305; 0,35; 0,3 en 0,053 in volgorde van **klein naar groot**. Welk getal staat op de **tweede** plaats?",
+      "answer": 0.3,
       "hints": [
-        "237 honderdsten is 2,37."
+        "Vul alle getallen aan tot drie decimalen: 0,305; 0,350; 0,300; 0,053.",
+        "Vergelijk nu de duizendsten als hele getallen: 305, 350, 300 en 53."
       ],
-      "type": "decimal",
-      "mode": "guided",
-      "difficulty": 1,
+      "solution": [
+        "Aanvullen tot drie decimalen: 0,305; 0,350; 0,300; 0,053.",
+        "Als duizendsten: 305, 350, 300 en 53.",
+        "Van klein naar groot: 53 < 300 < 305 < 350, dus $0{,}053 < 0{,}3 < 0{,}305 < 0{,}35$.",
+        "Op de tweede plaats staat 0,3."
+      ],
+      "feedback": [
+        {
+          "answer": 0.35,
+          "message": "Je hebt de cijfers na de komma als hele getallen vergeleken (3 < 35 < 53 < 305). Dat is 'langer is groter'. Vul eerst aan tot drie decimalen: 0,300 en 0,350."
+        },
+        {
+          "answer": 0.053,
+          "message": "0,053 is inderdaad het kleinste getal, maar dat staat op de **eerste** plaats. Welk getal komt daarna?"
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "comparing"
       ]
     },
     {
       "id": "08-007",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
       "question": "Welk getal ligt precies halverwege 1,2 en 1,4?",
       "answer": 1.3,
-      "solution": [
-        "Het verschil is 0,2; de helft is 0,1.",
-        "$1{,}2+0{,}1=1{,}3$."
-      ],
       "hints": [
-        "Neem de helft van het verschil."
+        "Bereken het verschil tussen de twee getallen.",
+        "Tel de helft van het verschil op bij het kleinste getal."
       ],
+      "solution": [
+        "Het verschil is $1{,}4 - 1{,}2 = 0{,}2$.",
+        "De helft daarvan is 0,1.",
+        "$1{,}2 + 0{,}1 = 1{,}3$.",
+        "Controle met het gemiddelde: $(1{,}2 + 1{,}4) : 2 = 2{,}6 : 2 = 1{,}3$."
+      ],
+      "topics": [
+        "decimals",
+        "number-line"
+      ]
+    },
+    {
+      "id": "08-005",
       "type": "decimal",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $2{,}37 \\times 10$.",
+      "answer": 23.7,
+      "hints": [
+        "Bij maal 10 wordt elk cijfer tien keer zoveel waard en schuift het één plaats naar links.",
+        "Of: de komma schuift één plaats naar rechts."
+      ],
+      "solution": [
+        "De 2 eenheden worden 2 tientallen, de 3 tienden worden 3 eenheden, de 7 honderdsten worden 7 tienden.",
+        "$2{,}37 \\times 10 = 23{,}7$.",
+        "Controle: de uitkomst is groter geworden, zoals bij maal 10 hoort."
+      ],
+      "feedback": [
+        {
+          "answer": 2.37,
+          "message": "Een nul erachter zetten werkt alleen bij hele getallen. 2,370 is gewoon 2,37: de waarde is niet veranderd. Laat de cijfers één plaats naar links schuiven."
+        },
+        {
+          "answer": 237,
+          "message": "Je schoof twee plaatsen op; dat hoort bij maal 100. Bij maal 10 schuift elk cijfer één plaats."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "place-value",
+        "multiplication"
+      ]
+    },
+    {
+      "id": "08-006",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $237 : 100$.",
+      "answer": 2.37,
+      "hints": [
+        "Delen door 100 maakt het getal honderd keer zo klein: twee plaatsen naar rechts.",
+        "237 honderdsten is hoeveel als kommagetal?"
+      ],
+      "solution": [
+        "Een geheel getal heeft een onzichtbare komma achteraan: 237,0.",
+        "Delen door 100: de komma schuift twee plaatsen naar links. $237 : 100 = 2{,}37$.",
+        "Controle: 237 honderdsten is 2 gehelen en 37 honderdsten."
+      ],
+      "feedback": [
+        {
+          "answer": 23.7,
+          "message": "Je schoof maar één plaats op; dat is delen door 10. Delen door 100 betekent twee plaatsen."
+        },
+        {
+          "answer": 23700,
+          "message": "De komma ging de verkeerde kant op: je hebt met 100 vermenigvuldigd. Bij delen moet de uitkomst kleiner worden."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "place-value",
+        "division"
+      ]
+    },
+    {
+      "id": "08-032",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een plank is 375 cm lang. Hoeveel meter is dat?",
+      "answer": 3.75,
+      "unit": "m",
+      "hints": [
+        "Eén meter is 100 centimeter.",
+        "Van cm naar m ga je twee treden omhoog op het metrieke trapje: delen door 100."
+      ],
+      "solution": [
+        "1 m = 100 cm, dus van centimeter naar meter deel je door 100.",
+        "$375 : 100 = 3{,}75$.",
+        "Controle: meters zijn grotere eenheden, dus het getal moet kleiner worden. 3,75 m is drie meter en 75 centimeter."
+      ],
+      "feedback": [
+        {
+          "answer": 37.5,
+          "message": "Je hebt door 10 gedeeld; dat is de stap van millimeter naar centimeter. Van centimeter naar meter deel je door 100."
+        },
+        {
+          "answer": 37500,
+          "message": "Je hebt vermenigvuldigd in plaats van gedeeld. Meters zijn grotere eenheden, dus je hebt er **minder** van nodig: het getal moet kleiner worden."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "unit-conversion",
+        "length"
       ]
     },
     {
       "id": "08-008",
-      "question": "Schrijf 0,375 als volledig vereenvoudigde breuk.",
-      "answer": "3/8",
-      "solution": [
-        "$0{,}375=375/1000=3/8$."
-      ],
-      "hints": [
-        "Deel teller en noemer door 125."
-      ],
       "type": "fraction",
       "mode": "guided",
       "difficulty": 1,
-      "topics": [
-        "decimals"
-      ],
-      "require_simplified": true
-    },
-    {
-      "id": "08-009",
-      "question": "Schrijf $7/20$ als decimaal.",
-      "answer": 0.35,
-      "solution": [
-        "$7/20=35/100=0{,}35$."
-      ],
+      "question": "Schrijf 0,375 als volledig vereenvoudigde breuk.",
+      "answer": "3/8",
+      "require_simplified": true,
       "hints": [
-        "Maak de noemer 100."
+        "Drie decimalen: de noemer is 1000.",
+        "Deel teller en noemer door 125."
       ],
-      "type": "decimal",
-      "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "decimals"
-      ]
-    },
-    {
-      "id": "08-010",
-      "question": "Schrijf $3/8$ als decimaal.",
-      "answer": 0.375,
       "solution": [
-        "$3:8=0{,}375$."
+        "0,375 heeft drie decimalen: $0{,}375 = \\tfrac{375}{1000}$.",
+        "$375 = 3 \\times 125$ en $1000 = 8 \\times 125$.",
+        "Deel teller en noemer door 125: $\\tfrac{375}{1000} = \\tfrac{3}{8}$."
       ],
-      "hints": [
-        "Je kunt ook de noemer tot 1000 vergroten."
+      "feedback": [
+        {
+          "answer": "375/100",
+          "message": "Met noemer 100 krijg je 3,75. Het getal 0,375 heeft **drie** decimalen, dus de noemer is 1000."
+        }
       ],
-      "type": "decimal",
-      "mode": "guided",
-      "difficulty": 1,
       "topics": [
-        "decimals"
+        "decimals",
+        "fractions"
       ]
     },
     {
       "id": "08-011",
-      "question": "Schrijf 1,25 als volledig vereenvoudigde breuk.",
-      "answer": "5/4",
-      "solution": [
-        "$1{,}25=125/100=5/4$."
-      ],
-      "hints": [
-        "Neem ook het gehele deel mee."
-      ],
       "type": "fraction",
       "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "decimals"
+      "difficulty": 2,
+      "question": "Schrijf 1,25 als volledig vereenvoudigde breuk.",
+      "answer": "5/4",
+      "require_simplified": true,
+      "hints": [
+        "Twee decimalen: de noemer is 100. De teller is het getal zonder komma.",
+        "Neem het gehele deel mee: 1,25 is 125 honderdsten."
       ],
-      "require_simplified": true
+      "solution": [
+        "Twee decimalen: $1{,}25 = \\tfrac{125}{100}$.",
+        "Deel teller en noemer door 25: $\\tfrac{125}{100} = \\tfrac{5}{4}$.",
+        "Als gemengd getal is dat $1\\tfrac14$: één geheel en een kwart."
+      ],
+      "feedback": [
+        {
+          "answer": "1/4",
+          "message": "Dat is alleen het decimale deel, 0,25. Je bent het gehele deel vergeten: 1,25 is $1 + \\tfrac14 = \\tfrac54$."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "fractions"
+      ]
+    },
+    {
+      "id": "08-009",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Schrijf $\\tfrac{7}{20}$ als kommagetal.",
+      "answer": 0.35,
+      "hints": [
+        "Met welk getal moet je 20 vermenigvuldigen om 100 te krijgen?",
+        "Maak de noemer 100 en vermenigvuldig de teller met hetzelfde getal."
+      ],
+      "solution": [
+        "$20 \\times 5 = 100$.",
+        "$\\tfrac{7}{20} = \\tfrac{7 \\times 5}{20 \\times 5} = \\tfrac{35}{100}$.",
+        "35 honderdsten is 0,35."
+      ],
+      "feedback": [
+        {
+          "answer": 0.7,
+          "message": "Je hebt 7 door 10 gedeeld in plaats van door 20. De noemer is 20: maak er eerst 100 van."
+        },
+        {
+          "answer": 0.72,
+          "message": "Je hebt de cijfers 7 en 20 achter elkaar gezet. De breukstreep betekent delen: $7 : 20$."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "fractions"
+      ]
+    },
+    {
+      "id": "08-010",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Schrijf $\\tfrac{3}{8}$ als kommagetal.",
+      "answer": 0.375,
+      "hints": [
+        "De breukstreep betekent delen: $3 : 8$.",
+        "Of maak de noemer 1000: $8 \\times 125 = 1000$."
+      ],
+      "solution": [
+        "Staartdeling: 30 tienden : 8 = 3, rest 6; 60 honderdsten : 8 = 7, rest 4; 40 duizendsten : 8 = 5, rest 0.",
+        "$\\tfrac38 = 0{,}375$.",
+        "Controle via de noemer 1000: $\\tfrac{3 \\times 125}{8 \\times 125} = \\tfrac{375}{1000} = 0{,}375$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.38,
+          "message": "Dat is een afgeronde waarde. De deling $3 : 8$ gaat precies op na drie decimalen; geef de exacte uitkomst."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "fractions",
+        "division"
+      ]
     },
     {
       "id": "08-012",
-      "question": "Schrijf $1/6$ als decimaal, afgerond op drie decimalen.",
-      "answer": 0.167,
-      "solution": [
-        "$1/6=0{,}1666\\ldots$.",
-        "Het vierde cijfer is 6: 0,167."
-      ],
-      "hints": [
-        "De ontwikkeling blijft zesjes herhalen."
-      ],
       "type": "decimal",
-      "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "decimals"
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Schrijf $\\tfrac16$ als kommagetal, **afgerond op drie decimalen**.",
+      "answer": 0.167,
+      "tolerance": 1e-06,
+      "hints": [
+        "Deel 1 door 6 met een staartdeling en ga door tot de vierde decimaal.",
+        "Kijk naar de vierde decimaal om af te ronden."
       ],
-      "tolerance": 1e-06
+      "solution": [
+        "Staartdeling: $1 : 6 = 0{,}1666\\ldots$ (na de eerste decimaal blijft de rest steeds 4, en $40 : 6 = 6$ rest 4).",
+        "Op drie decimalen: houd 0,166; het eerste weggelaten cijfer is 6.",
+        "Naar boven: $\\tfrac16 \\approx 0{,}167$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.166,
+          "message": "Je hebt de cijfers na de derde decimaal weggelaten (afgekapt) in plaats van afgerond. Het vierde cijfer is 6, dus de derde decimaal gaat omhoog."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "fractions",
+        "estimation"
+      ]
+    },
+    {
+      "id": "08-033",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Schrijf het repeterende kommagetal $0{,}454545\\ldots = 0{,}\\overline{45}$ als volledig vereenvoudigde breuk.",
+      "answer": "5/11",
+      "require_simplified": true,
+      "hints": [
+        "Noem het getal $x$. De periode heeft twee cijfers: vermenigvuldig met 100.",
+        "Trek $x$ af van $100x$: de staarten na de komma vallen weg."
+      ],
+      "solution": [
+        "Stel $x = 0{,}4545\\ldots$, dan is $100x = 45{,}4545\\ldots$",
+        "Aftrekken: $100x - x = 99x = 45$.",
+        "$x = \\tfrac{45}{99}$. Deel teller en noemer door 9: $x = \\tfrac{5}{11}$.",
+        "Controle: $5 : 11 = 0{,}4545\\ldots$ Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": "45/100",
+          "message": "$\\tfrac{45}{100} = 0{,}45$ precies, maar het getal loopt eindeloos door. Gebruik de methode met $100x - x$; dan krijg je 99 in de noemer."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "fractions"
+      ]
     },
     {
       "id": "08-013",
-      "question": "Rond 4,376 af op twee decimalen.",
-      "answer": 4.38,
-      "solution": [
-        "Het derde cijfer is 6; verhoog de honderdsten."
-      ],
-      "hints": [
-        "Bewaar twee cijfers achter de komma."
-      ],
       "type": "decimal",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Rond 4,376 af op twee decimalen.",
+      "answer": 4.38,
+      "hints": [
+        "Houd twee cijfers na de komma: 4,37. Welk cijfer laat je als eerste weg?",
+        "Is het eerste weggelaten cijfer 5 of meer, dan gaat het laatste behouden cijfer omhoog."
+      ],
+      "solution": [
+        "Laatste behouden cijfer: de 7 (honderdsten). Eerste weggelaten cijfer: 6.",
+        "6 is 5 of meer: verhoog de 7 naar 8.",
+        "$4{,}376 \\approx 4{,}38$."
+      ],
+      "feedback": [
+        {
+          "answer": 4.37,
+          "message": "Je hebt de 6 alleen weggelaten (afgekapt). Omdat het eerste weggelaten cijfer 6 is, ligt 4,376 dichter bij 4,38 dan bij 4,37."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "estimation"
       ]
     },
     {
       "id": "08-014",
-      "question": "Rond 4,374 af op twee decimalen.",
-      "answer": 4.37,
-      "solution": [
-        "Het derde cijfer is 4; behoud 4,37."
-      ],
-      "hints": [
-        "Lees alleen het eerste weggelaten cijfer voor de afronding."
-      ],
       "type": "decimal",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Rond 4,374 af op twee decimalen.",
+      "answer": 4.37,
+      "hints": [
+        "Houd twee cijfers na de komma en kijk naar het eerste weggelaten cijfer.",
+        "0 tot en met 4: het laatste behouden cijfer blijft staan."
+      ],
+      "solution": [
+        "Eerste weggelaten cijfer: 4.",
+        "4 is kleiner dan 5: de 7 blijft staan.",
+        "$4{,}374 \\approx 4{,}37$."
+      ],
+      "feedback": [
+        {
+          "answer": 4.38,
+          "message": "Het eerste weggelaten cijfer is 4, en dat betekent naar beneden afronden. 4,374 ligt links van het midden 4,375 en dus dichter bij 4,37."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "estimation"
       ]
     },
     {
       "id": "08-015",
-      "question": "Rond 9,995 af op twee decimalen.",
-      "answer": 10,
-      "solution": [
-        "Het derde cijfer is 5; 9,99 wordt 10,00."
-      ],
-      "hints": [
-        "Let op de overdracht bij het verhogen van een 9."
-      ],
       "type": "decimal",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Rond 9,995 af op twee decimalen.",
+      "answer": 10,
+      "hints": [
+        "Het eerste weggelaten cijfer is 5: naar boven afronden.",
+        "Een 9 die je verhoogt, wordt 0 en schuift 1 door naar links, zoals bij onthouden."
+      ],
+      "solution": [
+        "Houd 9,99; het eerste weggelaten cijfer is 5, dus verhoog met één honderdste.",
+        "$9{,}99 + 0{,}01 = 10{,}00$.",
+        "Antwoord: 10,00 (of gewoon 10). De nullen tonen dat je op honderdsten hebt afgerond."
+      ],
+      "feedback": [
+        {
+          "answer": 9.99,
+          "message": "Je hebt afgekapt in plaats van afgerond. Het eerste weggelaten cijfer is 5, dus je moet naar boven: 9,99 wordt 10,00."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "estimation"
       ]
     },
     {
       "id": "08-016",
-      "question": "Rond 2,449 rechtstreeks af op één decimaal.",
-      "answer": 2.4,
-      "solution": [
-        "Het tweede cijfer is 4; behoud 2,4."
-      ],
-      "hints": [
-        "Rond niet eerst op twee decimalen af."
-      ],
       "type": "decimal",
-      "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "decimals"
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Rond 2,449 **rechtstreeks** af op één decimaal.",
+      "answer": 2.4,
+      "hints": [
+        "Rond niet eerst op twee decimalen af.",
+        "Kijk alleen naar het eerste cijfer na de tienden."
+      ],
+      "solution": [
+        "Houd 2,4; het eerste weggelaten cijfer is 4.",
+        "4 is kleiner dan 5: de tienden blijven 4.",
+        "$2{,}449 \\approx 2{,}4$. Op de getallenlijn: 2,449 ligt 0,049 van 2,4 en 0,051 van 2,5."
       ],
       "feedback": [
         {
           "answer": 2.5,
-          "message": "Je hebt waarschijnlijk tweemaal afgerond. Kijk voor één decimaal rechtstreeks naar de honderdsten van 2,449."
+          "message": "Je hebt waarschijnlijk in twee stappen afgerond: eerst 2,45 en daarna 2,5. Rond rechtstreeks af vanuit 2,449: het eerste weggelaten cijfer is 4."
         }
+      ],
+      "topics": [
+        "decimals",
+        "estimation"
+      ]
+    },
+    {
+      "id": "08-035",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Rond 0,0496 af op twee decimalen.",
+      "answer": 0.05,
+      "hints": [
+        "Houd twee cijfers na de komma: 0,04. Wat is het eerste weggelaten cijfer?",
+        "Als je de 4 verhoogt, wat wordt dan het getal?"
+      ],
+      "solution": [
+        "Twee decimalen houden: 0,04. Het eerste weggelaten cijfer is 9.",
+        "9 is 5 of meer: verhoog de 4 naar 5.",
+        "$0{,}0496 \\approx 0{,}05$ (of 0,05 met de eindnul weggelaten; 0,050 zou drie decimalen suggereren)."
+      ],
+      "feedback": [
+        {
+          "answer": 0.04,
+          "message": "Je hebt afgekapt. Het eerste weggelaten cijfer is 9, dus de honderdsten gaan omhoog: 0,05."
+        },
+        {
+          "answer": 0.1,
+          "message": "Je hebt op één decimaal afgerond. De vraag is twee decimalen: houd 0,04 en kijk naar de 9."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "estimation"
+      ]
+    },
+    {
+      "id": "08-034",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Schat $4{,}92 \\times 6{,}1$ door beide getallen eerst af te ronden op **gehelen**. Wat is je schatting?",
+      "answer": 30,
+      "hints": [
+        "4,92 is bijna 5; 6,1 is bijna 6.",
+        "Vermenigvuldig de afgeronde getallen."
+      ],
+      "solution": [
+        "4,92 rondt af op 5; 6,1 rondt af op 6.",
+        "Schatting: $5 \\times 6 = 30$.",
+        "Ter vergelijking: de exacte uitkomst is 30,012. De schatting zit er dicht bij."
+      ],
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Je hebt afgekapt: 4 en 6. Maar 4,92 ligt veel dichter bij 5 dan bij 4. Rond af in plaats van af te kappen."
+        },
+        {
+          "answer": 300,
+          "message": "Je schatting is tien keer te groot. Controleer: 5 keer 6 is 30."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "estimation",
+        "multiplication"
+      ]
+    },
+    {
+      "id": "08-036",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een getal met precies **twee** decimalen wordt afgerond op één decimaal. Het resultaat is 3,5. Wat is het **grootste** getal dat het oorspronkelijk kan zijn geweest?",
+      "answer": 3.54,
+      "hints": [
+        "Welke getallen ronden af op 3,5? Waar ligt de grens met 3,6?",
+        "Het midden tussen 3,5 en 3,6 is 3,55. Waarheen rondt 3,55 zelf af volgens de schoolregel?"
+      ],
+      "solution": [
+        "Getallen die op één decimaal afronden naar 3,5 liggen van 3,45 tot (maar niet met) 3,55.",
+        "3,55 zelf rondt volgens de schoolregel naar boven af: 3,6. Dat valt dus af.",
+        "Met twee decimalen is het grootste getal onder 3,55 het getal 3,54.",
+        "Controle: 3,54 heeft als eerste weggelaten cijfer 4, dus het wordt 3,5."
+      ],
+      "feedback": [
+        {
+          "answer": 3.55,
+          "message": "3,55 ligt precies op het midden tussen 3,5 en 3,6. Volgens de schoolregel ga je dan naar boven: 3,6. Het grootste getal is dus één honderdste kleiner."
+        },
+        {
+          "answer": 3.45,
+          "message": "3,45 is het **kleinste** getal met twee decimalen dat op 3,5 afrondt. De vraag is het grootste."
+        },
+        {
+          "answer": 3.59,
+          "message": "3,59 rondt af op 3,6, want het eerste weggelaten cijfer is 9."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "estimation",
+        "number-line"
       ]
     },
     {
       "id": "08-017",
-      "question": "Bereken $3{,}7+0{,}48$.",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $3{,}7 + 0{,}48$.",
       "answer": 4.18,
-      "solution": [
-        "$3{,}70+0{,}48=4{,}18$."
-      ],
       "hints": [
-        "Zet gelijke plaatswaarden onder elkaar."
+        "Zet de komma's onder elkaar en vul aan: $3{,}70 + 0{,}48$.",
+        "Tel op van rechts naar links, met onthouden."
       ],
+      "solution": [
+        "Komma onder komma: $3{,}70 + 0{,}48$.",
+        "Honderdsten: $0 + 8 = 8$. Tienden: $7 + 4 = 11$: schrijf 1, onthoud 1. Eenheden: $3 + 0 + 1 = 4$.",
+        "Uitkomst: 4,18. Schatting: $3{,}7 + 0{,}5 \\approx 4{,}2$. Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": 0.85,
+          "message": "Je hebt de getallen rechts uitgelijnd en 37 + 48 opgeteld. Zet de **komma's** onder elkaar: 3,70 + 0,48."
+        },
+        {
+          "answer": 3.55,
+          "message": "Je hebt 3,7 behandeld als 3,07. De 7 in 3,7 zijn zeven **tienden**; vul aan tot 3,70."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "addition",
+        "column-arithmetic"
+      ]
+    },
+    {
+      "id": "08-037",
       "type": "decimal",
       "mode": "guided",
       "difficulty": 1,
-      "topics": [
-        "decimals"
-      ]
-    },
-    {
-      "id": "08-018",
-      "question": "Bereken $5-2{,}375$.",
-      "answer": 2.625,
-      "solution": [
-        "$5{,}000-2{,}375=2{,}625$."
-      ],
+      "question": "Bereken $0{,}5 + 0{,}25$.",
+      "answer": 0.75,
       "hints": [
-        "Vul eindnullen bij 5 aan."
+        "Vul aan tot evenveel decimalen: $0{,}5 = 0{,}50$.",
+        "Denk aan geld: vijftig cent plus vijfentwintig cent."
       ],
-      "type": "decimal",
-      "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "decimals"
-      ]
-    },
-    {
-      "id": "08-019",
-      "question": "Bereken $1{,}2\\times0{,}35$.",
-      "answer": 0.42,
       "solution": [
-        "$12\\times35=420$.",
-        "Deel door $10\\times100=1000$: 0,42."
-      ],
-      "hints": [
-        "Herstel drie plaatsen achter de komma."
-      ],
-      "type": "decimal",
-      "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "decimals"
-      ]
-    },
-    {
-      "id": "08-020",
-      "question": "Bereken $6\\times0{,}5$.",
-      "answer": 3,
-      "solution": [
-        "Een halve van 6 is 3."
-      ],
-      "hints": [
-        "Vermenigvuldigen met een halve halveert."
-      ],
-      "type": "numeric",
-      "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "decimals"
-      ]
-    },
-    {
-      "id": "08-021",
-      "question": "Bereken $4{,}5:0{,}15$.",
-      "answer": 30,
-      "solution": [
-        "Vergroot beide getallen maal 100.",
-        "$450:15=30$."
-      ],
-      "hints": [
-        "Maak de deler geheel."
-      ],
-      "type": "numeric",
-      "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "decimals"
+        "Vul aan: $0{,}50 + 0{,}25$.",
+        "Honderdsten: $0 + 5 = 5$. Tienden: $5 + 2 = 7$.",
+        "$0{,}5 + 0{,}25 = 0{,}75$. In geld: € 0,50 + € 0,25 = € 0,75."
       ],
       "feedback": [
         {
           "answer": 0.3,
-          "message": "Je hebt de factor niet op beide getallen toegepast. Gebruik $450:15$, niet $4{,}5:15$."
+          "message": "Je hebt '5 + 25 = 30' gerekend. Maar de 5 in 0,5 zijn vijf **tienden** (50 honderdsten), en de 25 zijn honderdsten. Vul aan: 0,50 + 0,25."
         }
-      ]
-    },
-    {
-      "id": "08-022",
-      "question": "Uit 2,4 liter schenk je porties van 0,3 liter. Hoeveel porties krijg je?",
-      "answer": 8,
-      "solution": [
-        "$2{,}4:0{,}3=24:3=8$."
       ],
-      "hints": [
-        "Hoe vaak past 0,3 in 2,4?"
-      ],
-      "type": "numeric",
-      "mode": "guided",
-      "difficulty": 1,
       "topics": [
-        "decimals"
+        "decimals",
+        "addition"
       ]
     },
     {
-      "id": "08-023",
-      "question": "Bereken $0{,}072:0{,}6$.",
-      "answer": 0.12,
-      "solution": [
-        "Vergroot beide getallen maal 10.",
-        "$0{,}72:6=0{,}12$."
-      ],
-      "hints": [
-        "De deler wordt 6."
-      ],
+      "id": "08-018",
       "type": "decimal",
       "mode": "guided",
       "difficulty": 2,
+      "question": "Bereken $5 - 2{,}375$.",
+      "answer": 2.625,
+      "hints": [
+        "Schrijf 5 als 5,000, zodat beide getallen drie decimalen hebben.",
+        "Bij de duizendsten moet je lenen; dat leen je door tot aan de eenheden."
+      ],
+      "solution": [
+        "Schrijf $5{,}000 - 2{,}375$.",
+        "Lenen: 5,000 is 4 eenheden, 9 tienden, 9 honderdsten en 10 duizendsten.",
+        "Duizendsten: $10 - 5 = 5$. Honderdsten: $9 - 7 = 2$. Tienden: $9 - 3 = 6$. Eenheden: $4 - 2 = 2$.",
+        "Uitkomst: 2,625. Controle: $2{,}625 + 2{,}375 = 5$."
+      ],
+      "feedback": [
+        {
+          "answer": 3.375,
+          "message": "Je hebt in elke kolom het kleinste cijfer van het grootste afgetrokken (5 − 0, 7 − 0, 3 − 0). Bij 0 − 5 moet je **lenen**. Schrijf 5 als 5,000 en leen door."
+        },
+        {
+          "answer": 3.625,
+          "message": "Bij het lenen ben je vergeten dat de eenheden één minder worden: 5,000 = 4 eenheden + 10 tienden. Dan is het $4 - 2 = 2$ bij de eenheden."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "subtraction",
+        "column-arithmetic"
+      ]
+    },
+    {
+      "id": "08-019",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $1{,}2 \\times 0{,}35$.",
+      "answer": 0.42,
+      "hints": [
+        "Reken eerst met hele getallen: $12 \\times 35$.",
+        "Tel de decimalen van beide factoren: $1 + 2 = 3$."
+      ],
+      "solution": [
+        "Hele getallen: $12 \\times 35 = 420$.",
+        "Decimalen: 1,2 heeft er 1, 0,35 heeft er 2; samen 3. Deel dus door 1000.",
+        "$420 : 1000 = 0{,}420 = 0{,}42$.",
+        "Schatting: iets meer dan 0,35. Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": 4.2,
+          "message": "Je hebt maar twee decimalen gegeven. Tel ze op: 1,2 heeft één decimaal, 0,35 twee. Het product krijgt er drie: 0,420."
+        },
+        {
+          "answer": 0.042,
+          "message": "Je hebt een decimaal te veel. $420$ met drie decimalen is $0{,}420 = 0{,}42$. Haal de eindnul pas weg ná het tellen."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "multiplication"
+      ]
+    },
+    {
+      "id": "08-038",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $0{,}3 \\times 0{,}2$.",
+      "answer": 0.06,
+      "hints": [
+        "Denk aan een rechthoek van 0,3 bij 0,2 in een vierkant van 1 bij 1 met 100 hokjes.",
+        "Telregel: $3 \\times 2 = 6$, en samen hebben de factoren twee decimalen."
+      ],
+      "solution": [
+        "Hele getallen: $3 \\times 2 = 6$.",
+        "Decimalen: $1 + 1 = 2$. Dus 6 honderdsten: 0,06.",
+        "Met breuken: $\\tfrac{3}{10} \\times \\tfrac{2}{10} = \\tfrac{6}{100} = 0{,}06$.",
+        "Logisch: drie tienden **van** twee tienden is minder dan twee tienden."
+      ],
+      "feedback": [
+        {
+          "answer": 0.6,
+          "message": "Je hebt de komma uit de factoren overgenomen. Maar 0,3 × 0,2 betekent 'drie tienden van twee tienden': dat is minder dan 0,2. Tel de decimalen: één plus één is twee, dus 0,06."
+        },
+        {
+          "answer": 0.5,
+          "message": "Je hebt opgeteld in plaats van vermenigvuldigd: $0{,}3 + 0{,}2 = 0{,}5$."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "multiplication",
+        "area"
+      ]
+    },
+    {
+      "id": "08-020",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $6 \\times 0{,}5$.",
+      "answer": 3,
+      "hints": [
+        "Vermenigvuldigen met 0,5 is hetzelfde als de helft nemen.",
+        "Zes keer een halve: tel zes halven bij elkaar."
+      ],
+      "solution": [
+        "$0{,}5 = \\tfrac12$, dus $6 \\times 0{,}5$ is de helft van 6.",
+        "$6 \\times 0{,}5 = 3$.",
+        "Telregel ter controle: $6 \\times 5 = 30$, één decimaal: 3,0 = 3."
+      ],
+      "feedback": [
+        {
+          "answer": 30,
+          "message": "Je bent de komma vergeten: $6 \\times 5 = 30$, maar 0,5 heeft één decimaal. Het product is 3,0. Vermenigvuldigen met een getal kleiner dan 1 maakt kleiner."
+        },
+        {
+          "answer": 6.5,
+          "message": "Je hebt opgeteld in plaats van vermenigvuldigd."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "multiplication"
       ]
     },
     {
       "id": "08-024",
-      "question": "Bereken $0{,}04\\times0{,}07$.",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $0{,}04 \\times 0{,}07$.",
       "answer": 0.0028,
+      "hints": [
+        "$4 \\times 7 = 28$.",
+        "Samen hebben de factoren vier decimalen; vul vooraan nullen aan."
+      ],
       "solution": [
-        "$4\\times7=28$.",
-        "Deel door 10.000: 0,0028."
+        "Hele getallen: $4 \\times 7 = 28$.",
+        "Decimalen: $2 + 2 = 4$. Het getal 28 heeft maar twee cijfers, dus vul aan: 0,0028.",
+        "Met breuken: $\\tfrac{4}{100} \\times \\tfrac{7}{100} = \\tfrac{28}{10\\,000}$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.28,
+          "message": "Je gaf twee decimalen, maar de factoren hebben er samen vier. Vul vooraan nullen aan: 0,0028."
+        },
+        {
+          "answer": 0.028,
+          "message": "Je hebt één decimaal te weinig. Tel nog eens: 0,04 heeft twee decimalen en 0,07 ook. Samen vier."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "multiplication",
+        "zero"
+      ]
+    },
+    {
+      "id": "08-021",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $4{,}5 : 0{,}15$.",
+      "answer": 30,
+      "hints": [
+        "Maak de deler een geheel getal door deeltal én deler met 100 te vermenigvuldigen.",
+        "Dan krijg je $450 : 15$."
+      ],
+      "solution": [
+        "Vermenigvuldig beide getallen met 100: $4{,}5 : 0{,}15 = 450 : 15$.",
+        "$450 : 15 = 30$.",
+        "Controle: $30 \\times 0{,}15 = 4{,}50$. En logisch: 0,15 is klein, dus het past vaak in 4,5."
+      ],
+      "feedback": [
+        {
+          "answer": 0.3,
+          "message": "Je hebt alleen de deler met 100 vermenigvuldigd ($4{,}5 : 15$). Doe dat ook met het deeltal: $450 : 15$."
+        },
+        {
+          "answer": 3,
+          "message": "Je hebt het deeltal maar met 10 vermenigvuldigd ($45 : 15$). De deler 0,15 heeft twee decimalen: beide getallen moeten maal 100."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "division"
+      ]
+    },
+    {
+      "id": "08-022",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Uit een fles van 2,4 liter schenk je glazen van 0,3 liter. Hoeveel glazen kun je vullen?",
+      "answer": 8,
+      "unit": "glazen",
+      "hints": [
+        "Hoe vaak past 0,3 in 2,4?",
+        "Vermenigvuldig beide getallen met 10."
+      ],
+      "solution": [
+        "Je zoekt hoe vaak 0,3 in 2,4 past: $2{,}4 : 0{,}3$.",
+        "Beide maal 10: $24 : 3 = 8$.",
+        "Controle: $8 \\times 0{,}3 = 2{,}4$ liter."
+      ],
+      "feedback": [
+        {
+          "answer": 0.8,
+          "message": "Een aantal glazen kan geen 0,8 zijn. Je hebt alleen het deeltal of alleen de deler aangepast. Reken $24 : 3$."
+        },
+        {
+          "answer": 0.72,
+          "message": "Je hebt vermenigvuldigd. De vraag is hoe vaak 0,3 liter in 2,4 liter past: delen."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "division",
+        "volume"
+      ]
+    },
+    {
+      "id": "08-023",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $0{,}072 : 0{,}6$.",
+      "answer": 0.12,
+      "hints": [
+        "Vermenigvuldig beide getallen met 10, zodat de deler 6 wordt.",
+        "Reken dan $0{,}72 : 6$: 72 honderdsten gedeeld door 6."
+      ],
+      "solution": [
+        "Beide maal 10: $0{,}072 : 0{,}6 = 0{,}72 : 6$.",
+        "72 honderdsten gedeeld door 6 is 12 honderdsten: 0,12.",
+        "Controle: $0{,}12 \\times 0{,}6 = 0{,}072$ (telregel: $12 \\times 6 = 72$, drie decimalen)."
+      ],
+      "feedback": [
+        {
+          "answer": 1.2,
+          "message": "Te groot: je hebt de komma een plaats te ver geschoven. Na het vermenigvuldigen met 10 staat er $0{,}72 : 6$, en dat is 0,12."
+        },
+        {
+          "answer": 0.012,
+          "message": "Te klein: je hebt waarschijnlijk alleen de deler met 10 vermenigvuldigd. Doe het met beide getallen: $0{,}72 : 6 = 0{,}12$."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "division"
+      ]
+    },
+    {
+      "id": "08-039",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Gegeven is $27 \\times 43 = 1161$. Bereken zonder opnieuw te vermenigvuldigen:\n\na. $2{,}7 \\times 4{,}3$\n\nb. $0{,}27 \\times 0{,}43$\n\nc. $116{,}1 : 4{,}3$",
+      "parts": [
+        {
+          "label": "a",
+          "answer": 11.61,
+          "type": "decimal"
+        },
+        {
+          "label": "b",
+          "answer": 0.1161,
+          "type": "decimal"
+        },
+        {
+          "label": "c",
+          "answer": 27,
+          "type": "numeric"
+        }
       ],
       "hints": [
-        "Samen hebben de factoren vier decimalen."
+        "Tel bij a en b het aantal decimalen van de factoren op.",
+        "Bij c: vermenigvuldig deeltal en deler met 10, dan krijg je $1161 : 43$. Wat weet je daarover?"
       ],
+      "solution": [
+        "a. Eén plus één decimaal: $1161 \\to 11{,}61$. Schatting: $3 \\times 4 = 12$. Klopt.",
+        "b. Twee plus twee decimalen: $1161 \\to 0{,}1161$. Schatting: $0{,}3 \\times 0{,}4 = 0{,}12$. Klopt.",
+        "c. $116{,}1 : 4{,}3 = 1161 : 43$, en omdat $27 \\times 43 = 1161$ is dat 27. Schatting: $120 : 4 = 30$. Klopt."
+      ],
+      "topics": [
+        "decimals",
+        "multiplication",
+        "division",
+        "estimation"
+      ]
+    },
+    {
+      "id": "08-040",
       "type": "decimal",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Stevin telt in *De Thiende* op: 27⓪ 8① 4② 7③, 37⓪ 6① 7② 5③ en 875⓪ 7① 8② 2③. Schrijf de som als kommagetal.",
+      "answer": 941.304,
+      "hints": [
+        "Vertaal eerst: ⓪ markeert de gehelen, ① de tienden, ② de honderdsten, ③ de duizendsten.",
+        "De getallen zijn 27,847; 37,675 en 875,782. Tel op met komma onder komma."
+      ],
+      "solution": [
+        "In moderne notatie: $27{,}847 + 37{,}675 + 875{,}782$.",
+        "$27{,}847 + 37{,}675 = 65{,}522$.",
+        "$65{,}522 + 875{,}782 = 941{,}304$.",
+        "Stevin schreef de uitkomst als 941⓪ 3① 0② 4③."
+      ],
+      "feedback": [
+        {
+          "answer": 941304,
+          "message": "Je bent de rangtekens vergeten. Het laatste cijfer van de som hoort bij teken ③, de duizendsten: 941,304."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "addition",
+        "column-arithmetic"
       ]
     },
     {
       "id": "08-025",
-      "question": "Hoeveel minuten is 1,5 uur?",
-      "answer": 90,
-      "solution": [
-        "$1{,}5\\times60=90$ minuten."
-      ],
-      "hints": [
-        "Een halve uur is 30 minuten."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
-      "topics": [
-        "decimals"
+      "question": "Hoeveel minuten is 1,5 uur?",
+      "answer": 90,
+      "unit": "min",
+      "hints": [
+        "Een uur heeft 60 minuten, niet 100.",
+        "0,5 uur is een half uur."
       ],
-      "unit": "min"
+      "solution": [
+        "1 uur = 60 minuten; 0,5 uur = $0{,}5 \\times 60 = 30$ minuten.",
+        "Samen: $60 + 30 = 90$ minuten.",
+        "Of in één keer: $1{,}5 \\times 60 = 90$."
+      ],
+      "feedback": [
+        {
+          "answer": 110,
+          "message": "Je las 1,5 uur als '1 uur en 50 minuten'. Maar 0,5 uur is een half uur: 30 minuten."
+        },
+        {
+          "answer": 150,
+          "message": "Je hebt met 100 vermenigvuldigd. Een uur heeft 60 minuten: $1{,}5 \\times 60$."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "time",
+        "unit-conversion"
+      ]
     },
     {
       "id": "08-026",
-      "question": "Schrijf 1 uur en 15 minuten als een aantal uren in decimalen.",
-      "answer": 1.25,
-      "solution": [
-        "$15/60=0{,}25$ uur.",
-        "Samen 1,25 uur."
-      ],
-      "hints": [
-        "Een kwartier is een kwart uur."
-      ],
       "type": "decimal",
-      "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "decimals"
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Schrijf 1 uur en 15 minuten als een decimaal aantal uren.",
+      "answer": 1.25,
+      "unit": "uur",
+      "hints": [
+        "Welk deel van een uur is 15 minuten?",
+        "Deel het aantal minuten door 60."
       ],
-      "unit": "uur"
+      "solution": [
+        "$15 : 60 = 0{,}25$: een kwartier is een kwart uur.",
+        "Samen: $1 + 0{,}25 = 1{,}25$ uur."
+      ],
+      "feedback": [
+        {
+          "answer": 1.15,
+          "message": "Je hebt de minuten direct achter de komma gezet. Maar een uur heeft 60 minuten: 15 minuten is $15 : 60 = 0{,}25$ uur."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "time",
+        "unit-conversion"
+      ]
     },
     {
       "id": "08-027",
-      "question": "2,5 kg kost € 4,20 per kilogram. Wat betaal je?",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Je koopt 2,5 kg appels van € 4,20 per kilogram. Wat betaal je?",
       "answer": 10.5,
-      "solution": [
-        "$2{,}5\\times4{,}20=10{,}50$."
-      ],
+      "unit": "€",
       "hints": [
-        "Vermenigvuldig massa met kilogramprijs."
+        "Massa maal kiloprijs geeft het bedrag.",
+        "Reken $25 \\times 42$ en tel de decimalen."
       ],
+      "solution": [
+        "Bedrag = massa × prijs per kg: $2{,}5 \\times 4{,}20$.",
+        "Hele getallen: $25 \\times 42 = 1050$. Decimalen: $1 + 1 = 2$ (4,20 = 4,2). Dus 10,50.",
+        "Je betaalt € 10,50. Schatting: $2{,}5 \\times 4 = 10$. Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": 1.05,
+          "message": "Je hebt met $25 \\times 42 = 1050$ gerekend, maar voor 4,20 twee decimalen geteld. Laat je de eindnul van 4,20 weg, dan telt 4,2 maar één decimaal: 1050 met twee decimalen is 10,50. Schatting: ongeveer $2{,}5 \\times 4 = 10$ euro."
+        },
+        {
+          "answer": 105,
+          "message": "Je bent de komma vergeten. Schatting: 2,5 kg van ongeveer € 4 is ongeveer € 10."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "multiplication",
+        "money"
+      ]
+    },
+    {
+      "id": "08-041",
       "type": "decimal",
       "mode": "independent",
-      "difficulty": 1,
-      "topics": [
-        "decimals"
+      "difficulty": 2,
+      "question": "Je tankt 42,5 liter benzine van € 1,989 per liter. Wat betaal je? Rond af op hele centen.",
+      "answer": 84.53,
+      "tolerance": 0.0001,
+      "unit": "€",
+      "hints": [
+        "Schat eerst: ongeveer 40 liter van ongeveer € 2.",
+        "Reken $425 \\times 1989$ en tel de decimalen ($1 + 3$). Rond pas het eindbedrag af."
       ],
-      "unit": "€"
+      "solution": [
+        "Schatting: $40 \\times 2 = 80$ euro, iets meer.",
+        "Hele getallen: $425 \\times 1989 = 845\\,325$. Decimalen: $1 + 3 = 4$. Dus $84{,}5325$ euro.",
+        "Op centen: het derde cijfer na de komma is 2, dus naar beneden: € 84,53."
+      ],
+      "feedback": [
+        {
+          "answer": 845.33,
+          "message": "Je uitkomst is tien keer te groot: je hebt een decimaal te weinig geteld. 42,5 heeft één decimaal en 1,989 drie: samen vier. Vergelijk met de schatting van ongeveer € 80."
+        },
+        {
+          "answer": 84.54,
+          "message": "Je hebt naar boven afgerond. Het eerste weggelaten cijfer van 84,5325 is 2: naar beneden, dus € 84,53."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "multiplication",
+        "money",
+        "estimation"
+      ]
+    },
+    {
+      "id": "08-042",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Verpakking A: 0,75 kg voor € 2,85. Verpakking B: 1,2 kg voor € 4,38. Hoeveel euro **per kilogram** is B goedkoper dan A?",
+      "answer": 0.15,
+      "unit": "€",
+      "hints": [
+        "Bereken voor elke verpakking de prijs per kilogram: bedrag gedeeld door massa.",
+        "A: $2{,}85 : 0{,}75 = 285 : 75$. B: $4{,}38 : 1{,}2 = 43{,}8 : 12$."
+      ],
+      "solution": [
+        "A: $2{,}85 : 0{,}75 = 285 : 75 = 3{,}80$ euro per kg.",
+        "B: $4{,}38 : 1{,}2 = 43{,}8 : 12 = 3{,}65$ euro per kg.",
+        "Verschil: $3{,}80 - 3{,}65 = 0{,}15$. B is € 0,15 per kilogram goedkoper.",
+        "Controle: $1{,}2 \\times 3{,}65 = 4{,}38$ en $0{,}75 \\times 3{,}80 = 2{,}85$."
+      ],
+      "feedback": [
+        {
+          "answer": 1.53,
+          "message": "Je hebt de totaalprijzen van elkaar afgetrokken. Die zeggen niets, omdat de hoeveelheden verschillen. Vergelijk de prijs **per kilogram**."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "division",
+        "money",
+        "ratios"
+      ]
     },
     {
       "id": "08-028",
-      "question": "Een touw van 5 meter wordt in stukken van 0,6 meter geknipt. Hoeveel volledige stukken krijg je?",
-      "answer": 8,
-      "solution": [
-        "$5:0{,}6=8{,}333\\ldots$.",
-        "Acht stukken gebruiken 4,8 meter; een negende past niet."
-      ],
-      "hints": [
-        "Je zoekt hele stukken, geen afgeronde deling."
-      ],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 2,
+      "question": "Een touw van 5 meter wordt in stukken van 0,6 meter geknipt. Hoeveel **volledige** stukken krijg je?",
+      "answer": 8,
+      "unit": "stukken",
+      "hints": [
+        "Bereken $5 : 0{,}6$ en denk na over wat de rest betekent.",
+        "Je zoekt hele stukken; een gedeeltelijk stuk telt niet."
+      ],
+      "solution": [
+        "$5 : 0{,}6 = 50 : 6 = 8{,}333\\ldots$",
+        "Acht stukken gebruiken $8 \\times 0{,}6 = 4{,}8$ meter; er blijft 0,2 meter over.",
+        "Een negende stuk zou 5,4 meter vragen. Dat past niet: 8 volledige stukken."
+      ],
+      "feedback": [
+        {
+          "answer": 9,
+          "message": "Negen stukken van 0,6 m vragen 5,4 m touw, en je hebt maar 5 m. Hier rond je naar beneden af: alleen volledige stukken tellen."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "division",
+        "length"
       ]
     },
     {
       "id": "08-029",
-      "question": "Je hebt 2,3 verpakkingen nodig volgens een berekening. Hoeveel hele verpakkingen moet je minimaal kopen?",
-      "answer": 3,
-      "solution": [
-        "Twee is onvoldoende; drie is het minimum."
-      ],
-      "hints": [
-        "Rond bij minimaal inkopen naar boven."
-      ],
       "type": "numeric",
-      "mode": "independent",
+      "mode": "guided",
       "difficulty": 1,
+      "question": "Volgens een berekening heb je 2,3 bussen verf nodig. Hoeveel hele bussen moet je minimaal kopen?",
+      "answer": 3,
+      "unit": "bussen",
+      "hints": [
+        "Is 2 bussen genoeg?",
+        "Bij 'minimaal nodig' rond je altijd naar boven af."
+      ],
+      "solution": [
+        "Met 2 bussen kom je 0,3 bus tekort.",
+        "Je moet dus naar boven afronden: 3 bussen.",
+        "Gewoon afronden (2,3 wordt 2) beantwoordt hier de verkeerde vraag."
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "2,3 rondt volgens de regel af op 2, maar met 2 bussen heb je te weinig verf. Bij 'minimaal nodig' rond je naar boven af."
+        }
+      ],
       "topics": [
-        "decimals"
+        "decimals",
+        "estimation"
       ]
     },
     {
       "id": "08-030",
-      "question": "Drie stukken van 1,25 m en twee van 0,8 m kosten € 7,20 per meter. Hoeveel euro blijft over van € 40?",
-      "answer": 1.48,
-      "solution": [
-        "Totale lengte: $3\\times1{,}25+2\\times0{,}8=5{,}35$ m.",
-        "Prijs: $5{,}35\\times7{,}20=38{,}52$ euro.",
-        "Over: $40-38{,}52=1{,}48$ euro."
-      ],
-      "hints": [
-        "Tel eerst alle lengtes op.",
-        "Bereken de prijs en trek die van 40 af."
-      ],
       "type": "decimal",
       "mode": "challenge",
       "difficulty": 4,
-      "topics": [
-        "decimals"
+      "question": "Je koopt drie stukken stof van 1,25 m en twee stukken van 0,8 m. Stof kost € 7,20 per meter. Je betaalt met een tegoedbon van € 40. Hoeveel euro blijft er over van de bon?",
+      "answer": 1.48,
+      "unit": "€",
+      "hints": [
+        "Bereken eerst de totale lengte.",
+        "Bereken de prijs (lengte × prijs per meter) en trek die van 40 af."
       ],
-      "unit": "€"
+      "solution": [
+        "Totale lengte: $3 \\times 1{,}25 + 2 \\times 0{,}8 = 3{,}75 + 1{,}6 = 5{,}35$ m.",
+        "Prijs: $5{,}35 \\times 7{,}20$. Hele getallen: $535 \\times 72 = 38\\,520$; decimalen $2 + 1 = 3$. Dus € 38,52.",
+        "Over: $40 - 38{,}52 = 1{,}48$ euro.",
+        "Schatting: ruim 5 m van ruim € 7 is iets onder € 40. Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": 38.52,
+          "message": "Dat is de prijs van de stof. De vraag is hoeveel er van de bon van € 40 **overblijft**."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "multiplication",
+        "subtraction",
+        "money"
+      ]
+    },
+    {
+      "id": "08-043",
+      "type": "fraction",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Schrijf het repeterende kommagetal $0{,}1\\overline{36} = 0{,}13636\\ldots$ als volledig vereenvoudigde breuk.",
+      "answer": "3/22",
+      "require_simplified": true,
+      "hints": [
+        "Eerst staat er één cijfer (de 1) dat zich niet herhaalt, daarna een periode van twee cijfers.",
+        "Vergelijk $1000x = 136{,}3636\\ldots$ met $10x = 1{,}3636\\ldots$ en trek af."
+      ],
+      "solution": [
+        "Stel $x = 0{,}13636\\ldots$",
+        "$10x = 1{,}3636\\ldots$ (de niet-herhalende 1 staat vóór de komma).",
+        "$1000x = 136{,}3636\\ldots$ (nog een periode verder).",
+        "Aftrekken: $990x = 135$, dus $x = \\tfrac{135}{990}$.",
+        "Vereenvoudigen: deel door 45. $x = \\tfrac{3}{22}$.",
+        "Controle: $3 : 22 = 0{,}13636\\ldots$ Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": "136/1000",
+          "message": "Dat is 0,136 precies: je hebt het getal afgebroken. Het loopt eindeloos door; gebruik de methode met twee machten van tien."
+        },
+        {
+          "answer": "136/999",
+          "message": "$\\tfrac{136}{999} = 0{,}\\overline{136}$: dan zou de hele groep 136 zich herhalen. Hier herhaalt alleen 36. Gebruik $1000x - 10x$."
+        }
+      ],
+      "topics": [
+        "decimals",
+        "fractions"
+      ]
     }
   ]
 }

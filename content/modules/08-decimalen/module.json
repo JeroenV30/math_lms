@@ -7,66 +7,117 @@
   "status": "available",
   "historical_period": "Renaissance",
   "estimated_difficulty": 1,
-  "estimated_minutes": 150,
+  "estimated_minutes": 180,
   "prerequisites": [
     7
   ],
   "topics": [
     "decimals",
-    "fractions"
+    "fractions",
+    "place-value",
+    "comparing",
+    "estimation",
+    "unit-conversion"
   ],
   "core_question": "Hoe schrijf je een hoeveelheid kleiner dan één zo op dat je ermee kunt rekenen als met hele getallen?",
-  "summary": "Plaatswaarde achter de komma, breuken omzetten, afronden en rekenen met decimalen. Met Simon Stevins pleidooi voor tienden.",
+  "summary": "Plaatswaarde achter de komma, vergelijken en ordenen, breuken en (repeterende) decimalen, afronden en schatten, en de vier rekenbewerkingen met kommagetallen. Met de lange geschiedenis van de decimale breuk: van Chinese rekenstaafjes via al-Uqlidisi en al-Kashi naar Stevins De Thiende (1585) en de strijd tussen punt en komma.",
   "learning_goals": [
-    "Je benoemt tienden, honderdsten en duizendsten en vergelijkt decimalen.",
-    "Je zet eindige decimalen om in breuken en breuken om in decimalen.",
-    "Je onderscheidt een exacte waarde van een afgeronde benadering en herkent repeterende decimalen.",
-    "Je rondt af op een aangegeven aantal decimalen.",
-    "Je telt decimalen op en trekt ze af door gelijke plaatswaarden onder elkaar te zetten.",
-    "Je vermenigvuldigt en deelt decimalen, ook door een getal kleiner dan één.",
-    "Je controleert een uitkomst met een schatting en gebruikt passende eenheden."
+    "Je benoemt de plaatswaarde van elk cijfer in een kommagetal (tienden, honderdsten, duizendsten) en schrijft een kommagetal uit als som van breuken met noemer 10, 100, 1000.",
+    "Je vergelijkt en ordent kommagetallen positie voor positie en vermijdt de denkfout 'langer is groter'.",
+    "Je vermenigvuldigt en deelt met 10, 100 en 1000, legt met plaatswaarde uit waarom de cijfers verschuiven, en rekent om in het metrieke stelsel.",
+    "Je zet kommagetallen om in vereenvoudigde breuken en breuken in kommagetallen, en voorspelt aan de noemer of een breuk een eindig of repeterend kommagetal oplevert.",
+    "Je schrijft een repeterend kommagetal als breuk met de methode van machten van tien.",
+    "Je rondt af op een gegeven aantal decimalen, rondt rechtstreeks af vanuit het oorspronkelijke getal en kiest in een context bewust voor naar boven of naar beneden afronden.",
+    "Je telt kommagetallen op en trekt ze af met komma onder komma, en vermenigvuldigt en deelt ze, ook door een getal kleiner dan één.",
+    "Je controleert elke berekening met een schatting van de orde van grootte en met de omgekeerde bewerking.",
+    "Je kunt vertellen hoe decimale breuken en het decimaalteken zich ontwikkelden, van China en de islamitische wereld via Stevin naar Napier."
   ],
   "glossary": [
     {
-      "term": "Tiende",
-      "definition": "Een van tien gelijke delen: $0{,}1=1/10$."
-    },
-    {
-      "term": "Honderdste",
-      "definition": "Een van honderd gelijke delen: $0{,}01=1/100$."
+      "term": "Kommagetal (decimaal getal)",
+      "definition": "Een getal geschreven met cijfers vóór en na een decimaalteken, zoals 2,375. Vóór de komma staat het gehele deel, erna het decimale deel."
     },
     {
       "term": "Decimaal",
-      "definition": "Een cijfer achter de komma; ook een verkorte naam voor een getal met een komma."
+      "definition": "Een cijfer na de komma. 2,375 heeft drie decimalen. Ook gebruikt als korte naam voor een kommagetal."
     },
     {
-      "term": "Repeterend",
-      "definition": "Een decimale ontwikkeling waarin dezelfde cijfergroep oneindig terugkeert."
+      "term": "Decimaalteken",
+      "definition": "Het teken dat het gehele deel van het decimale deel scheidt: in Nederland de komma, in Engelstalige landen de punt."
+    },
+    {
+      "term": "Tiende",
+      "definition": "Een van tien gelijke delen van een geheel: $0{,}1 = \\tfrac{1}{10}$. De eerste plaats na de komma."
+    },
+    {
+      "term": "Honderdste",
+      "definition": "Een van honderd gelijke delen: $0{,}01 = \\tfrac{1}{100}$. De tweede plaats na de komma."
+    },
+    {
+      "term": "Duizendste",
+      "definition": "Een van duizend gelijke delen: $0{,}001 = \\tfrac{1}{1000}$. De derde plaats na de komma."
+    },
+    {
+      "term": "Plaatshouder",
+      "definition": "Een nul die een positie vrijhoudt, zodat de andere cijfers hun plaatswaarde behouden, zoals in 0,05 en 3,07."
+    },
+    {
+      "term": "Eindig kommagetal",
+      "definition": "Een kommagetal met een eindig aantal decimalen, zoals 0,375. Ontstaat uit een vereenvoudigde breuk waarvan de noemer alleen de factoren 2 en 5 bevat."
+    },
+    {
+      "term": "Repeterend kommagetal",
+      "definition": "Een kommagetal waarin vanaf een bepaalde plaats een cijfergroep zich eindeloos herhaalt, zoals $\\tfrac17 = 0{,}\\overline{142857}$."
+    },
+    {
+      "term": "Periode",
+      "definition": "De cijfergroep die zich in een repeterend kommagetal herhaalt; genoteerd met een streep erboven: $0{,}1\\overline{6}$."
     },
     {
       "term": "Afronden",
-      "definition": "Een waarde vervangen door een nabije waarde met de gewenste precisie."
+      "definition": "Een getal vervangen door het dichtstbijzijnde getal met de gewenste nauwkeurigheid, op basis van het eerste weg te laten cijfer."
     },
     {
       "term": "Benadering",
-      "definition": "Een waarde die dichtbij de bedoelde waarde ligt, maar er niet noodzakelijk exact aan gelijk is."
+      "definition": "Een waarde die dicht bij de bedoelde waarde ligt, maar er niet exact aan gelijk is. Je schrijft $\\approx$, bijvoorbeeld $\\tfrac13 \\approx 0{,}33$."
+    },
+    {
+      "term": "Schatten",
+      "definition": "Met afgeronde, vriendelijke getallen vooraf de orde van grootte van een uitkomst bepalen, om de exacte berekening te controleren."
     }
   ],
   "formulas": [
     {
-      "name": "Plaatswaarde",
-      "latex": "2{,}375=2+\\frac3{10}+\\frac7{100}+\\frac5{1000}",
-      "usage": "Lees elke positie als een macht van tien."
+      "name": "Plaatswaarde na de komma",
+      "latex": "2{,}375 = 2 + \\frac{3}{10} + \\frac{7}{100} + \\frac{5}{1000} = \\frac{2375}{1000}",
+      "usage": "Elke positie na de komma is een tiende van de positie links ervan. Elk eindig kommagetal is een geheel getal gedeeld door een macht van tien.",
+      "origin": "Voortzetting van het Indiase plaatswaardesysteem; als volledig rekensysteem bij al-Kashi (1427) en, voor een breed Europees publiek, bij Stevin (1585)."
     },
     {
-      "name": "Breuk naar decimaal",
-      "latex": "\\frac{a}{b}=a:b",
-      "usage": "Deel de teller door de niet-nulnoemer."
+      "name": "Vermenigvuldigen en delen met machten van tien",
+      "latex": "2{,}37 \\times 100 = 237, \\qquad 4{,}5 : 100 = 0{,}045",
+      "usage": "Bij maal $10^n$ schuift elk cijfer $n$ plaatsen naar links (de komma naar rechts), bij gedeeld door $10^n$ naar rechts. Vul ontbrekende plaatsen aan met nullen."
+    },
+    {
+      "name": "Breuk naar kommagetal",
+      "latex": "\\frac{a}{b} = a : b",
+      "usage": "Deel de teller door de noemer. Eindig als de vereenvoudigde noemer alleen factoren 2 en 5 heeft, anders repeterend."
+    },
+    {
+      "name": "Repeterend kommagetal naar breuk",
+      "latex": "x = 0{,}\\overline{27} \\;\\Rightarrow\\; 100x - x = 27 \\;\\Rightarrow\\; x = \\frac{27}{99} = \\frac{3}{11}",
+      "usage": "Vermenigvuldig met de macht van tien die de periode precies één keer opschuift en trek af: de oneindige staart valt weg."
+    },
+    {
+      "name": "Telregel bij vermenigvuldigen",
+      "latex": "1{,}2 \\times 0{,}35 = \\frac{12 \\times 35}{10 \\times 100} = \\frac{420}{1000} = 0{,}42",
+      "usage": "Vermenigvuldig als hele getallen; het aantal decimalen van het product is de som van de aantallen decimalen van de factoren.",
+      "origin": "Bij Stevin in De Thiende (1585): het rangteken van het laatste cijfer van het product is de som van de rangtekens van de factoren."
     },
     {
       "name": "Gelijkwaardige delingen",
-      "latex": "a:b=(10a):(10b)",
-      "usage": "Vergroot deeltal en deler met dezelfde factor om de deler geheel te maken."
+      "latex": "a : b = (10a) : (10b) = (100a) : (100b)",
+      "usage": "Vermenigvuldig deeltal én deler met dezelfde macht van tien om de deler geheel te maken; het quotiënt verandert niet."
     }
   ],
   "lessons": [
@@ -90,7 +141,7 @@
     },
     {
       "slug": "afronden",
-      "title": "Afronden en precisie",
+      "title": "Afronden, precisie en schatten",
       "kind": "theory",
       "file": "04-afronden.md"
     },
@@ -102,7 +153,7 @@
     },
     {
       "slug": "historisch-intermezzo",
-      "title": "De notatie van Stevin",
+      "title": "Van rekenstaafjes tot komma",
       "kind": "history",
       "file": "06-historisch-intermezzo.md"
     },
@@ -120,9 +171,14 @@
     }
   ],
   "timeline": [
-    "stevin-de-thiende"
+    "negen-hoofdstukken",
+    "chinese-rekenstaafjes",
+    "stevin-de-thiende",
+    "napier-logaritmen",
+    "metriek-stelsel"
   ],
   "mathematicians": [
-    "simon-stevin"
+    "simon-stevin",
+    "napier"
   ]
 }
