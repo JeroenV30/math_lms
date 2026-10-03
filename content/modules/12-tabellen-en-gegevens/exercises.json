@@ -2,357 +2,565 @@
   "exercises": [
     {
       "id": "12-001",
-      "question": "Bezoekersaantallen op drie dagen zijn 24, 31 en 25. Hoeveel bezoekers zijn dat samen?",
-      "answer": 80,
-      "solution": [
-        "$24+31+25=80$."
-      ],
-      "hints": [
-        "Tel de afzonderlijke dagtotalen op."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Een bibliotheek telt op drie opeenvolgende dagen 24, 31 en 25 bezoekers. Hoeveel bezoekers zijn dat samen?",
+      "answer": 80,
+      "hints": [
+        "Tel de drie dagtotalen bij elkaar op.",
+        "$24 + 31 = 55$."
+      ],
+      "solution": [
+        "$24 + 31 = 55$",
+        "$55 + 25 = 80$",
+        "Antwoord: 80 bezoekers."
+      ],
+      "feedback": [
+        {
+          "answer": 70,
+          "message": "Controleer je optelling: $24 + 31 + 25$. Tel eerst $24 + 31 = 55$ en daarna 25 erbij."
+        }
+      ],
       "topics": [
         "data"
       ]
     },
     {
       "id": "12-002",
-      "question": "Bezoekersaantallen op drie dagen zijn 24, 31 en 25. Hoeveel meer bezoeken waren er op de drukste dan op de rustigste dag?",
-      "answer": 7,
-      "solution": [
-        "$31-24=7$."
-      ],
-      "hints": [
-        "Zoek eerst maximum en minimum."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Een bibliotheek telt op drie opeenvolgende dagen 24, 31 en 25 bezoekers. Hoeveel bezoekers kwamen er op de drukste dag meer dan op de rustigste dag?",
+      "answer": 7,
+      "hints": [
+        "Zoek eerst de grootste en de kleinste waarde.",
+        "De drukste dag had 31 bezoekers, de rustigste 24."
+      ],
+      "solution": [
+        "Drukste dag: 31 bezoekers. Rustigste dag: 24 bezoekers.",
+        "Verschil: $31 - 24 = 7$.",
+        "Dit verschil tussen maximum en minimum heet later de spreidingsbreedte."
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Je hebt 31 met de laatste dag (25) vergeleken. De vraag gaat over de rustigste dag, en dat is de eerste dag met 24 bezoekers."
+        }
+      ],
       "topics": [
         "data"
       ]
     },
     {
       "id": "12-003",
-      "question": "Een groep heeft 8 fietsers, 5 automobilisten, 4 ov-reizigers en 3 wandelaars. Hoeveel personen zijn er?",
-      "answer": 20,
-      "solution": [
-        "$8+5+4+3=20$."
-      ],
-      "hints": [
-        "Elke persoon telt hier eenmaal mee."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Een turftabel van vervoermiddelen geeft 8 fietsers, 5 automobilisten, 4 ov-reizigers en 3 wandelaars. Iedere deelnemer gaf precies één antwoord. Hoeveel deelnemers zijn er?",
+      "answer": 20,
+      "hints": [
+        "Elke deelnemer telt precies één keer mee.",
+        "Tel de frequenties op."
+      ],
+      "solution": [
+        "Omdat iedereen één antwoord gaf, is het aantal deelnemers de som van de frequenties.",
+        "$8 + 5 + 4 + 3 = 20$ deelnemers."
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "4 is het aantal categorieën, niet het aantal deelnemers. Tel de frequenties bij elkaar op."
+        }
+      ],
       "topics": [
         "data"
       ]
     },
     {
       "id": "12-004",
-      "question": "8 van 20 mensen fietsen. Hoeveel procent is dat?",
-      "answer": 40,
-      "solution": [
-        "$8/20\\times100=40\\%$."
-      ],
-      "hints": [
-        "Deel frequentie door totaal."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "8 van de 20 deelnemers komen op de fiets. Hoeveel procent van de deelnemers fietst?",
+      "answer": 40,
+      "unit": "%",
+      "hints": [
+        "Deel de frequentie door het totaal.",
+        "$8/20 = 0{,}4$. Schrijf dat als percentage."
+      ],
+      "solution": [
+        "Relatieve frequentie: $8 : 20 = 0{,}4$.",
+        "Als percentage: $0{,}4 \\times 100 = 40\\%$."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "8 is de frequentie: het aantal fietsers. Gevraagd is het aandeel: deel door het totaal van 20 en vermenigvuldig met 100."
+        }
+      ],
       "topics": [
         "data"
-      ],
-      "unit": "%"
+      ]
     },
     {
       "id": "12-005",
-      "question": "Reistijden 5, 5, 10, 10, 10, 15 minuten: wat is de frequentie van 10 minuten?",
-      "answer": 3,
-      "solution": [
-        "De waarde 10 komt drie keer voor."
-      ],
-      "hints": [
-        "Tel de waarnemingen, niet de verschillende waarden."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Zes reistijden zijn 5, 5, 10, 10, 10 en 15 minuten. Wat is de frequentie van de reistijd 10 minuten?",
+      "answer": 3,
+      "hints": [
+        "De frequentie is hoe vaak een waarde voorkomt.",
+        "Tel hoe vaak 10 in de lijst staat."
+      ],
+      "solution": [
+        "De waarde 10 komt drie keer voor.",
+        "De frequentie van 10 minuten is dus 3."
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "10 is de waarde zelf. De frequentie is hoe vaak die waarde voorkomt."
+        },
+        {
+          "answer": 6,
+          "message": "6 is het totale aantal waarnemingen. Tel alleen de reistijden van precies 10 minuten."
+        }
+      ],
       "topics": [
         "data"
       ]
     },
     {
       "id": "12-006",
-      "question": "Klassen zijn 0 tot minder dan 10, 10 tot minder dan 20 en 20 tot minder dan 30 minuten. Wat is de ondergrens van de klasse waarin precies 10 minuten valt?",
-      "answer": 10,
-      "solution": [
-        "10 is niet minder dan 10 en hoort bij de klasse die begint op 10."
-      ],
-      "hints": [
-        "Controleer de grensafspraak."
-      ],
       "type": "numeric",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Reistijden zijn ingedeeld in de klassen '0 tot 10', '10 tot 20' en '20 tot 30' minuten, waarbij de ondergrens bij de klasse hoort en de bovengrens niet. Wat is de ondergrens van de klasse waarin een reistijd van precies 10 minuten valt?",
+      "answer": 10,
+      "hints": [
+        "Hoort 10 bij '0 tot 10'? Die klasse loopt tot 10, maar 10 zelf hoort er niet bij.",
+        "Bij welke klasse is 10 de ondergrens?"
+      ],
+      "solution": [
+        "De klasse '0 tot 10' bevat de waarden van 0 tot (maar niet met) 10.",
+        "Precies 10 hoort dus bij de klasse '10 tot 20'.",
+        "De ondergrens daarvan is 10."
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "Je hebt 10 in de klasse '0 tot 10' gezet. Volgens de afspraak hoort de bovengrens niet bij die klasse; 10 valt in '10 tot 20'."
+        }
+      ],
       "topics": [
         "data"
       ]
     },
     {
       "id": "12-007",
-      "question": "Een staafdiagram heeft schaalstappen van 20 bezoekers. Een staaf eindigt halverwege 60 en 80. Hoeveel bezoekers zijn dat?",
-      "answer": 70,
-      "solution": [
-        "Halverwege 60 en 80 ligt 70."
-      ],
-      "hints": [
-        "Lees eerst het schaalverschil."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Op de verticale as van een staafdiagram staan hulplijnen bij 0, 20, 40, 60, 80 en 100 bezoekers. Een staaf eindigt precies halverwege de hulplijnen van 60 en 80. Hoeveel bezoekers stelt die staaf voor?",
+      "answer": 70,
+      "hints": [
+        "Hoe groot is de stap tussen twee hulplijnen?",
+        "Halverwege een stap van 20 is 10 verder."
+      ],
+      "solution": [
+        "Eén stap is 20 bezoekers.",
+        "Halverwege 60 en 80 is $60 + 10 = 70$.",
+        "Antwoord: 70 bezoekers."
+      ],
+      "feedback": [
+        {
+          "answer": 60,
+          "message": "Je hebt de hulplijn onder de staaf afgelezen. De staaf steekt een halve stap (10 bezoekers) boven 60 uit."
+        },
+        {
+          "answer": 61,
+          "message": "Je hebt een halve stap als 1 geteld. Eén stap is 20 bezoekers, dus een halve stap is 10."
+        }
+      ],
       "topics": [
         "data"
       ]
     },
     {
       "id": "12-008",
-      "question": "Een lijn verbindt metingen van 12 om 9 uur en 18 om 12 uur. Wat is de toename tussen deze metingen?",
-      "answer": 6,
-      "solution": [
-        "$18-12=6$."
-      ],
-      "hints": [
-        "De lijn verbindt metingen; hier zoek je het verschil."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
+      "question": "Een lijndiagram verbindt een temperatuurmeting van 12 °C om 9 uur met een meting van 18 °C om 12 uur. Hoeveel graden is de temperatuur tussen deze twee metingen gestegen?",
+      "answer": 6,
+      "unit": "°C",
+      "hints": [
+        "Gevraagd is het verschil tussen de twee gemeten temperaturen.",
+        "Trek de eerste meting af van de tweede."
+      ],
+      "solution": [
+        "$18 - 12 = 6$ graden.",
+        "Let op: de lijn tussen 9 en 12 uur is een aanname; gemeten zijn alleen de twee eindpunten."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "3 is het aantal uren tussen de metingen. Gevraagd is de temperatuurstijging."
+        },
+        {
+          "answer": 2,
+          "message": "Je hebt de stijging per uur berekend ($6 : 3$). Gevraagd is de totale stijging tussen de twee metingen."
+        }
+      ],
       "topics": [
         "data"
       ]
     },
     {
       "id": "12-009",
-      "question": "Een cirkeldiagram toont een aandeel van 15%. Hoe groot is de sectorhoek?",
-      "answer": 54,
-      "solution": [
-        "$0{,}15\\times360=54$°."
-      ],
-      "hints": [
-        "Het hele rondje is 360°."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Een cirkeldiagram toont een aandeel van 15%. Hoe groot is de sectorhoek?",
+      "answer": 54,
+      "unit": "°",
+      "hints": [
+        "De hele cirkel is 100% en 360°.",
+        "Bereken 15% van 360°."
+      ],
+      "solution": [
+        "$15\\% = 0{,}15$.",
+        "$0{,}15 \\times 360 = 54$.",
+        "De sectorhoek is $54^\\circ$."
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "15 is het percentage. De sectorhoek is 15% van 360 graden."
+        },
+        {
+          "answer": 24,
+          "message": "Je hebt $360 : 15$ berekend. Vermenigvuldig in plaats daarvan $0{,}15$ met 360."
+        }
+      ],
       "topics": [
         "data"
-      ],
-      "unit": "°"
+      ]
     },
     {
       "id": "12-010",
-      "question": "Een budget is € 2000. Vervoer is 15%. Hoeveel euro is dat?",
-      "answer": 300,
-      "solution": [
-        "$0{,}15\\times2000=300$."
-      ],
-      "hints": [
-        "Het hele budget is 100%."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
+      "question": "Een maandbudget is € 2.000. In een cirkeldiagram heeft de post vervoer een aandeel van 15%. Hoeveel euro is er voor vervoer?",
+      "answer": 300,
+      "unit": "€",
+      "hints": [
+        "Het hele budget is 100%.",
+        "Bereken 15% van € 2.000."
+      ],
+      "solution": [
+        "$0{,}15 \\times 2000 = 300$.",
+        "Er is € 300 voor vervoer."
+      ],
+      "feedback": [
+        {
+          "answer": 1700,
+          "message": "€ 1.700 is wat er overblijft voor de andere posten. Gevraagd is het bedrag voor vervoer zelf."
+        },
+        {
+          "answer": 54,
+          "message": "54 is de sectorhoek in graden. Gevraagd is het bedrag in euro."
+        }
+      ],
       "topics": [
         "data"
-      ],
-      "unit": "€"
+      ]
     },
     {
       "id": "12-011",
-      "question": "Bereken het gemiddelde van 4, 6, 6, 7 en 12.",
-      "answer": 7,
-      "solution": [
-        "De som is 35.",
-        "$35:5=7$."
-      ],
-      "hints": [
-        "Deel de som door het aantal."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Vijf klanten wachten 4, 6, 6, 7 en 12 minuten. Bereken de gemiddelde wachttijd.",
+      "answer": 7,
+      "unit": "min",
+      "hints": [
+        "Tel eerst alle wachttijden op.",
+        "Deel de som door het aantal klanten."
+      ],
+      "solution": [
+        "Som: $4 + 6 + 6 + 7 + 12 = 35$.",
+        "Gemiddelde: $35 : 5 = 7$ minuten."
+      ],
+      "feedback": [
+        {
+          "answer": 35,
+          "message": "35 is de som. Deel die nog door het aantal klanten (5)."
+        },
+        {
+          "answer": 6,
+          "message": "6 is de mediaan en de modus. Het gemiddelde is de som gedeeld door het aantal."
+        }
+      ],
       "topics": [
         "averages"
       ]
     },
     {
       "id": "12-012",
-      "question": "Waarden 5, 10 en 15 hebben frequenties 2, 3 en 1. Wat is de som van alle waarnemingen?",
-      "answer": 55,
-      "solution": [
-        "$2\\times5+3\\times10+1\\times15=55$."
-      ],
-      "hints": [
-        "Elke waarde telt haar frequentie keer mee."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "De reistijden 5, 10 en 15 minuten hebben frequenties 2, 3 en 1. Wat is de som van alle reistijden samen?",
+      "answer": 55,
+      "unit": "min",
+      "hints": [
+        "Elke waarde telt zo vaak mee als haar frequentie.",
+        "Bereken $2 \\times 5$, $3 \\times 10$ en $1 \\times 15$."
+      ],
+      "solution": [
+        "$2 \\times 5 = 10$",
+        "$3 \\times 10 = 30$",
+        "$1 \\times 15 = 15$",
+        "Som: $10 + 30 + 15 = 55$ minuten."
+      ],
+      "feedback": [
+        {
+          "answer": 30,
+          "message": "Je hebt elke waarde één keer geteld ($5 + 10 + 15$). Vermenigvuldig elke waarde eerst met haar frequentie."
+        },
+        {
+          "answer": 6,
+          "message": "6 is het aantal waarnemingen ($2 + 3 + 1$), niet de som van de reistijden."
+        }
+      ],
       "topics": [
         "averages"
       ]
     },
     {
       "id": "12-013",
-      "question": "Waarden 5, 10 en 15 hebben frequenties 2, 3 en 1. Wat is het gemiddelde? Rond af op twee decimalen.",
-      "answer": 9.17,
-      "solution": [
-        "Som 55, aantal 6.",
-        "$55/6\\approx9{,}17$."
-      ],
-      "hints": [
-        "Gebruik de frequenties voor som én aantal."
-      ],
       "type": "decimal",
       "mode": "guided",
       "difficulty": 2,
+      "question": "De reistijden 5, 10 en 15 minuten hebben frequenties 2, 3 en 1. Bereken de gemiddelde reistijd. Rond af op twee decimalen.",
+      "answer": 9.17,
+      "tolerance": 0.005,
+      "unit": "min",
+      "hints": [
+        "Je hebt de som van alle waarnemingen nodig, en hun aantal.",
+        "Het aantal is de som van de frequenties."
+      ],
+      "solution": [
+        "Som: $2 \\times 5 + 3 \\times 10 + 1 \\times 15 = 55$.",
+        "Aantal: $2 + 3 + 1 = 6$.",
+        "Gemiddelde: $55 : 6 = 9{,}1666\\ldots \\approx 9{,}17$ minuten."
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Je hebt het gemiddelde van de drie verschillende waarden genomen ($30 : 3$). Maar 10 kwam drie keer voor en 15 maar één keer; weeg met de frequenties."
+        },
+        {
+          "answer": 18.33,
+          "message": "Je hebt 55 door 3 gedeeld. De noemer is het aantal waarnemingen (6), niet het aantal verschillende waarden."
+        }
+      ],
       "topics": [
         "averages"
       ]
     },
     {
       "id": "12-014",
-      "question": "10 personen hebben gemiddelde 6; 20 personen gemiddelde 9. Wat is het gezamenlijke gemiddelde?",
-      "answer": 8,
-      "solution": [
-        "Sommen zijn 60 en 180.",
-        "$240:30=8$."
-      ],
-      "hints": [
-        "Vermenigvuldig elk groepsgemiddelde met zijn groepsgrootte."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 2,
-      "topics": [
-        "averages"
+      "question": "In groep A zitten 10 personen met een gemiddelde score van 6. In groep B zitten 20 personen met een gemiddelde score van 9. Wat is de gemiddelde score van alle 30 personen samen?",
+      "answer": 8,
+      "hints": [
+        "Bereken per groep de totale score: gemiddelde maal aantal.",
+        "Tel de totalen op en deel door 30."
+      ],
+      "solution": [
+        "Totaal A: $10 \\times 6 = 60$.",
+        "Totaal B: $20 \\times 9 = 180$.",
+        "Samen: $240 : 30 = 8$."
       ],
       "feedback": [
         {
           "answer": 7.5,
-          "message": "Je hebt de gemiddelden gelijk gewogen. De groep van 20 personen telt tweemaal zo zwaar."
+          "message": "Je hebt de twee gemiddelden gelijk gewogen: $(6 + 9) : 2$. Groep B is twee keer zo groot en telt dus twee keer zo zwaar mee. Reken via de totalen."
         }
+      ],
+      "topics": [
+        "averages"
       ]
     },
     {
       "id": "12-015",
-      "question": "Vier waarden hebben gemiddelde 8. Wat is hun totale som?",
-      "answer": 32,
-      "solution": [
-        "$4\\times8=32$."
-      ],
-      "hints": [
-        "Gemiddelde maal aantal geeft de som."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Vier waarden hebben een gemiddelde van 8. Wat is de som van de vier waarden?",
+      "answer": 32,
+      "hints": [
+        "Gemiddelde = som : aantal. Draai dat om.",
+        "Som = gemiddelde × aantal."
+      ],
+      "solution": [
+        "$\\text{som} = \\bar{x} \\times n = 8 \\times 4 = 32$."
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je hebt 8 door 4 gedeeld. Het gemiddelde is al de som gedeeld door 4; de som is dus $8 \\times 4$."
+        },
+        {
+          "answer": 12,
+          "message": "Je hebt 8 en 4 opgeteld. Som = gemiddelde **maal** aantal."
+        }
+      ],
       "topics": [
         "averages"
       ]
     },
     {
       "id": "12-016",
-      "question": "De waarden 4, 6, 8 en een onbekende hebben gemiddelde 7. Wat is de onbekende?",
-      "answer": 10,
-      "solution": [
-        "Totale som: $4\\times7=28$.",
-        "Bekende som 18; ontbrekend $28-18=10$."
-      ],
-      "hints": [
-        "Reconstructeer de totale som."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
+      "question": "De waarden 4, 6, 8 en een onbekende vierde waarde hebben samen een gemiddelde van 7. Wat is de onbekende waarde?",
+      "answer": 10,
+      "hints": [
+        "Bereken eerst de som van alle vier de waarden.",
+        "Trek de som van de drie bekende waarden daarvan af."
+      ],
+      "solution": [
+        "Totale som: $4 \\times 7 = 28$.",
+        "Bekende som: $4 + 6 + 8 = 18$.",
+        "Ontbrekend: $28 - 18 = 10$.",
+        "Controle: $(4 + 6 + 8 + 10) : 4 = 7$."
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "6 is het gemiddelde van de drie bekende waarden. De vierde waarde moet het gemiddelde naar 7 trekken."
+        },
+        {
+          "answer": 7,
+          "message": "Je hebt aangenomen dat de onbekende waarde gelijk is aan het gemiddelde. Reken met totalen: $4 \\times 7 - 18$."
+        }
+      ],
       "topics": [
         "averages"
       ]
     },
     {
       "id": "12-017",
-      "question": "Bepaal de mediaan van 12, 4, 6, 7, 6.",
-      "answer": 6,
-      "solution": [
-        "Gesorteerd: 4, 6, 6, 7, 12.",
-        "De derde waarde is 6."
-      ],
-      "hints": [
-        "Sorteer eerst."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bepaal de mediaan van 12, 4, 9, 7, 6.",
+      "answer": 7,
+      "hints": [
+        "Sorteer eerst van klein naar groot.",
+        "Bij vijf waarden is de derde de middelste."
+      ],
+      "solution": [
+        "Gesorteerd: 4, 6, 7, 9, 12.",
+        "Vijf waarden: de mediaan staat op plaats $(5+1) : 2 = 3$.",
+        "De mediaan is 7."
+      ],
+      "feedback": [
+        {
+          "answer": 9,
+          "message": "9 is het middelste getal van de **ongesorteerde** lijst. Sorteer eerst: 4, 6, 7, 9, 12."
+        },
+        {
+          "answer": 3,
+          "message": "3 is de plaats van de mediaan, niet de mediaan zelf. Kijk welke waarde op plaats 3 staat na sorteren."
+        }
+      ],
       "topics": [
         "averages"
       ]
     },
     {
       "id": "12-018",
-      "question": "Bepaal de mediaan van 3, 5, 8, 12.",
-      "answer": 6.5,
-      "solution": [
-        "De middelste waarden zijn 5 en 8.",
-        "$(5+8)/2=6{,}5$."
-      ],
-      "hints": [
-        "Neem bij vier waarden het gemiddelde van de tweede en derde."
-      ],
       "type": "decimal",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Bepaal de mediaan van 3, 5, 8, 12.",
+      "answer": 6.5,
+      "hints": [
+        "Bij een even aantal zijn er twee middelste waarden.",
+        "Neem het gemiddelde van de tweede en de derde waarde."
+      ],
+      "solution": [
+        "De lijst is al gesorteerd.",
+        "Vier waarden: de mediaan ligt op plaats $(4+1) : 2 = 2{,}5$, tussen de tweede (5) en de derde (8).",
+        "Mediaan: $(5 + 8) : 2 = 6{,}5$."
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je hebt alleen de tweede waarde genomen. Bij een even aantal is de mediaan het gemiddelde van de twee middelste: 5 en 8."
+        },
+        {
+          "answer": 8,
+          "message": "Je hebt alleen de derde waarde genomen. Bij een even aantal is de mediaan het gemiddelde van de twee middelste: 5 en 8."
+        },
+        {
+          "answer": 7,
+          "message": "7 is het gemiddelde van alle vier de waarden ($28 : 4$). De mediaan gebruikt alleen de twee middelste."
+        },
+        {
+          "answer": 2.5,
+          "message": "2,5 is de plaats van de mediaan. De mediaan zelf is het gemiddelde van de waarden op plaats 2 en 3."
+        }
+      ],
       "topics": [
         "averages"
       ]
     },
     {
       "id": "12-019",
-      "question": "Bepaal de modus van 4, 6, 6, 7, 12.",
-      "answer": 6,
-      "solution": [
-        "6 komt tweemaal voor; de andere waarden eenmaal."
-      ],
-      "hints": [
-        "Zoek de hoogste frequentie."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bepaal de modus van 4, 6, 6, 7, 12.",
+      "answer": 6,
+      "hints": [
+        "De modus is de waarde die het vaakst voorkomt.",
+        "Tel per waarde hoe vaak ze voorkomt."
+      ],
+      "solution": [
+        "4, 7 en 12 komen elk één keer voor; 6 komt twee keer voor.",
+        "De modus is 6."
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "12 is de grootste waarde. De modus is de waarde die het **vaakst** voorkomt."
+        },
+        {
+          "answer": 2,
+          "message": "2 is de frequentie van de modus. De modus zelf is de waarde die twee keer voorkomt."
+        }
+      ],
       "topics": [
         "averages"
       ]
     },
     {
       "id": "12-020",
-      "question": "De waarden 2, 2, 5, 5, 7 hebben twee modale waarden. Vul ze in oplopende volgorde in.",
-      "solution": [
-        "2 en 5 komen beide tweemaal voor."
-      ],
-      "hints": [
-        "Twee waarden delen de hoogste frequentie."
-      ],
       "type": "multiple",
       "mode": "guided",
       "difficulty": 1,
-      "topics": [
-        "averages"
-      ],
+      "question": "De waarden 2, 2, 5, 5, 7 hebben twee modale waarden. Vul ze in oplopende volgorde in.",
       "parts": [
         {
           "label": "eerste modus",
@@ -364,187 +572,289 @@
           "answer": 5,
           "type": "numeric"
         }
+      ],
+      "hints": [
+        "Tel per waarde hoe vaak ze voorkomt.",
+        "Twee waarden delen de hoogste frequentie."
+      ],
+      "solution": [
+        "2 komt twee keer voor, 5 komt twee keer voor, 7 één keer.",
+        "De hoogste frequentie is 2, en die wordt door 2 en door 5 gehaald.",
+        "De modale waarden zijn 2 en 5."
+      ],
+      "topics": [
+        "averages"
       ]
     },
     {
       "id": "12-021",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
       "question": "Bereken het gemiddelde van 4, 6, 6, 7, 100.",
       "answer": 24.6,
-      "solution": [
-        "Som 123, aantal 5.",
-        "$123:5=24{,}6$."
-      ],
+      "tolerance": 0.001,
       "hints": [
-        "Ook de uitschieter telt mee."
+        "Ook de uitschieter telt mee in de som.",
+        "Deel de som door 5."
       ],
-      "type": "decimal",
-      "mode": "guided",
-      "difficulty": 1,
+      "solution": [
+        "Som: $4 + 6 + 6 + 7 + 100 = 123$.",
+        "Gemiddelde: $123 : 5 = 24{,}6$.",
+        "Vier van de vijf waarden liggen ver onder dit gemiddelde: één uitschieter trekt het omhoog."
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "6 is de mediaan (en de modus). Het gemiddelde gebruikt de grootte van elke waarde, ook van 100."
+        },
+        {
+          "answer": 5.75,
+          "message": "Je hebt de uitschieter weggelaten. De vraag gaat over alle vijf de waarden, inclusief 100."
+        }
+      ],
       "topics": [
         "averages"
       ]
     },
     {
       "id": "12-022",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
       "question": "Bereken de spreidingsbreedte van 4, 6, 6, 7, 100.",
       "answer": 96,
-      "solution": [
-        "$100-4=96$."
-      ],
       "hints": [
-        "Trek minimum van maximum af."
+        "Spreidingsbreedte = maximum − minimum.",
+        "Het maximum is hier de uitschieter."
       ],
-      "type": "numeric",
-      "mode": "guided",
-      "difficulty": 1,
+      "solution": [
+        "Maximum 100, minimum 4.",
+        "Spreidingsbreedte: $100 - 4 = 96$.",
+        "Eén uitschieter maakt de spreidingsbreedte enorm, terwijl vier waarden dicht bij elkaar liggen."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Je hebt de uitschieter weggelaten ($7 - 4$). De spreidingsbreedte gebruikt het echte maximum: 100."
+        },
+        {
+          "answer": 100,
+          "message": "100 is het maximum. Trek er het minimum (4) nog van af."
+        }
+      ],
       "topics": [
         "averages"
       ]
     },
     {
       "id": "12-023",
-      "question": "Waarden stijgen van 96 naar 99. Hoeveel procent is de toename? Geef het exacte percentage als decimaal.",
-      "answer": 3.125,
-      "solution": [
-        "$3/96\\times100=3{,}125\\%$."
-      ],
-      "hints": [
-        "De oude waarde 96 is de basis."
-      ],
       "type": "decimal",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Twee winkels scoren 96 en 99 punten. Met hoeveel procent is de score van de tweede hoger dan die van de eerste? Geef het exacte percentage als kommagetal.",
+      "answer": 3.125,
+      "tolerance": 0.0001,
+      "unit": "%",
+      "hints": [
+        "Het absolute verschil is 3 punten.",
+        "De basis is de score van de eerste winkel: 96."
+      ],
+      "solution": [
+        "Verschil: $99 - 96 = 3$.",
+        "Ten opzichte van 96: $3 : 96 = 0{,}03125$.",
+        "Als percentage: $3{,}125\\%$."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "3 is het verschil in punten. Gevraagd is het verschil in procenten van 96."
+        },
+        {
+          "answer": 300,
+          "message": "300% is de indruk die een as vanaf 95 wekt (zichtbare staafdelen 1 en 4). De werkelijke toename is veel kleiner."
+        }
+      ],
       "topics": [
         "data"
-      ],
-      "unit": "%"
+      ]
     },
     {
       "id": "12-024",
-      "question": "Een pictogram wordt tweemaal zo breed en tweemaal zo hoog. Met welke factor groeit zijn oppervlakte?",
-      "answer": 4,
-      "solution": [
-        "$2\\times2=4$."
-      ],
-      "hints": [
-        "Beide richtingen beïnvloeden de oppervlakte."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
+      "question": "In een beelddiagram wordt een pictogram twee keer zo breed én twee keer zo hoog getekend. Met welke factor groeit de oppervlakte van het pictogram?",
+      "answer": 4,
+      "hints": [
+        "De oppervlakte is breedte maal hoogte.",
+        "Beide factoren 2 werken mee."
+      ],
+      "solution": [
+        "Nieuwe oppervlakte: $(2 \\times \\text{breedte}) \\times (2 \\times \\text{hoogte})$.",
+        "Dat is $2 \\times 2 = 4$ keer de oude oppervlakte.",
+        "Een verdubbeling lijkt zo een verviervoudiging."
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Twee keer zo breed alleen zou de oppervlakte verdubbelen. Omdat ook de hoogte verdubbelt, wordt de oppervlakte $2 \\times 2 = 4$ keer zo groot."
+        }
+      ],
       "topics": [
         "data"
       ]
     },
     {
       "id": "12-025",
-      "question": "Je hebt vijf reistijden, maar één ontbreekt. Vier geregistreerde tijden zijn 6, 8, 9 en 13 minuten. Wat is het gemiddelde van de geregistreerde tijden?",
-      "answer": 9,
-      "solution": [
-        "Som 36, vier echte waarnemingen.",
-        "$36:4=9$."
-      ],
-      "hints": [
-        "Een ontbrekende tijd telt niet als nul."
-      ],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Van vijf reizigers is de reistijd gevraagd, maar bij één reiziger is niets geregistreerd. De vier geregistreerde reistijden zijn 6, 8, 9 en 13 minuten. Wat is de gemiddelde reistijd van de geregistreerde reizigers?",
+      "answer": 9,
+      "unit": "min",
+      "hints": [
+        "Een ontbrekende reistijd is geen reistijd van nul minuten.",
+        "Deel door het aantal echte waarnemingen."
+      ],
+      "solution": [
+        "Som van de geregistreerde tijden: $6 + 8 + 9 + 13 = 36$.",
+        "Aantal echte waarnemingen: 4.",
+        "Gemiddelde: $36 : 4 = 9$ minuten.",
+        "Vermeld bij de conclusie dat één waarde ontbreekt."
+      ],
+      "feedback": [
+        {
+          "answer": 7.2,
+          "message": "Je hebt door 5 gedeeld, alsof de ontbrekende reiziger 0 minuten reisde. Een ontbrekende waarde laat je weg: deel door 4."
+        }
+      ],
       "topics": [
         "averages"
       ]
     },
     {
       "id": "12-026",
-      "question": "Groep A heeft 4 personen met gemiddelde 5. Groep B heeft 6 personen met gemiddelde 10. Wat is het gezamenlijke gemiddelde?",
-      "answer": 8,
-      "solution": [
-        "Som $4\\times5+6\\times10=80$.",
-        "Aantal 10; gemiddelde 8."
-      ],
-      "hints": [
-        "Weeg met de aantallen."
-      ],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 2,
+      "question": "Groep A heeft 4 personen met een gemiddelde van 5. Groep B heeft 6 personen met een gemiddelde van 10. Wat is het gemiddelde van alle tien personen samen?",
+      "answer": 8,
+      "hints": [
+        "Bereken de totalen van beide groepen.",
+        "Deel het gezamenlijke totaal door 10."
+      ],
+      "solution": [
+        "Totaal A: $4 \\times 5 = 20$.",
+        "Totaal B: $6 \\times 10 = 60$.",
+        "Samen: $80 : 10 = 8$."
+      ],
+      "feedback": [
+        {
+          "answer": 7.5,
+          "message": "Je hebt het gemiddelde van de gemiddelden genomen. Groep B is groter en telt zwaarder mee: reken via de totalen."
+        }
+      ],
       "topics": [
         "averages"
       ]
     },
     {
       "id": "12-027",
-      "question": "Een dataset is 2, 3, 3, 4, 18. Bepaal de mediaan.",
-      "answer": 3,
-      "solution": [
-        "De lijst is al gesorteerd; de derde waarde is 3."
-      ],
-      "hints": [
-        "De mediaan reageert hier niet sterk op de hoogste waarde."
-      ],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Een dataset bestaat uit 2, 3, 3, 4, 18. Bepaal de mediaan.",
+      "answer": 3,
+      "hints": [
+        "Is de lijst gesorteerd?",
+        "Bij vijf waarden is de derde de middelste."
+      ],
+      "solution": [
+        "De lijst is al gesorteerd: 2, 3, 3, 4, 18.",
+        "De derde waarde is 3.",
+        "De mediaan reageert niet op de hoge waarde 18; het gemiddelde ($30 : 5 = 6$) wel."
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "6 is het gemiddelde. De uitschieter 18 trekt het gemiddelde omhoog; de mediaan is de middelste waarde na sorteren."
+        },
+        {
+          "answer": 16,
+          "message": "16 is de spreidingsbreedte ($18 - 2$). Gevraagd is de middelste waarde."
+        }
+      ],
       "topics": [
         "averages"
       ]
     },
     {
       "id": "12-028",
-      "question": "Een frequentietabel heeft 12 personen in categorie A en 18 in B. Wat is de relatieve frequentie van B als percentage?",
-      "answer": 60,
-      "solution": [
-        "Totaal 30.",
-        "$18/30\\times100=60\\%$."
-      ],
-      "hints": [
-        "Bereken het totaal voordat je deelt."
-      ],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 1,
+      "question": "In een frequentietabel vallen 12 waarnemingen in categorie A en 18 in categorie B; andere categorieën zijn er niet. Welk percentage van alle waarnemingen valt in categorie B?",
+      "answer": 60,
+      "unit": "%",
+      "hints": [
+        "Bereken eerst het totaal.",
+        "Deel de frequentie van B door het totaal."
+      ],
+      "solution": [
+        "Totaal: $12 + 18 = 30$.",
+        "Aandeel B: $18 : 30 = 0{,}6 = 60\\%$."
+      ],
+      "feedback": [
+        {
+          "answer": 150,
+          "message": "Je hebt B met A vergeleken ($18 : 12$). Gevraagd is het aandeel van B in het totaal van 30."
+        },
+        {
+          "answer": 18,
+          "message": "18 is de frequentie van B. Deel door het totaal en vermenigvuldig met 100."
+        }
+      ],
       "topics": [
         "data"
-      ],
-      "unit": "%"
+      ]
     },
     {
       "id": "12-029",
-      "question": "Een sectorhoek is 72°. Hoeveel procent van het geheel is dat?",
-      "answer": 20,
-      "solution": [
-        "$72/360\\times100=20\\%$."
-      ],
-      "hints": [
-        "Een volle cirkel is 360°."
-      ],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Een sector in een cirkeldiagram heeft een hoek van 72°. Hoeveel procent van het geheel stelt die sector voor?",
+      "answer": 20,
+      "unit": "%",
+      "hints": [
+        "Een volle cirkel is 360° en 100%.",
+        "Welk deel van 360 is 72?"
+      ],
+      "solution": [
+        "$72 : 360 = 0{,}2$.",
+        "$0{,}2 = 20\\%$."
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je hebt $360 : 72 = 5$ berekend: de sector past vijf keer in de cirkel. Dat betekent dat ze een vijfde is, dus 20%."
+        },
+        {
+          "answer": 72,
+          "message": "72 is de hoek in graden. Zet die om naar een deel van 360°."
+        }
+      ],
       "topics": [
         "data"
-      ],
-      "unit": "%"
+      ]
     },
     {
       "id": "12-030",
-      "question": "Zes wachttijden hebben gemiddelde 8 minuten. Vijf waarden zijn 4, 5, 7, 9 en 11. Vind de zesde waarde en de mediaan van alle zes.",
-      "solution": [
-        "Totale som $6\\times8=48$.",
-        "Bekende som 36; ontbrekend 12.",
-        "Gesorteerd 4, 5, 7, 9, 11, 12.",
-        "Mediaan $(7+9)/2=8$."
-      ],
-      "hints": [
-        "Reconstructeer eerst de totale som.",
-        "Sorteer daarna alle zes waarden."
-      ],
       "type": "multiple",
       "mode": "challenge",
       "difficulty": 4,
-      "topics": [
-        "averages"
-      ],
+      "question": "Zes wachttijden hebben een gemiddelde van 8 minuten. Vijf waarden zijn 4, 5, 7, 9 en 11. Vind de zesde waarde en de mediaan van alle zes waarden.",
       "parts": [
         {
           "label": "ontbrekende tijd",
@@ -556,6 +866,381 @@
           "answer": 8,
           "type": "decimal"
         }
+      ],
+      "hints": [
+        "Reconstrueer eerst de totale som: gemiddelde maal aantal.",
+        "Sorteer daarna alle zes waarden en neem het gemiddelde van de twee middelste."
+      ],
+      "solution": [
+        "Totale som: $6 \\times 8 = 48$.",
+        "Bekende som: $4 + 5 + 7 + 9 + 11 = 36$; de zesde waarde is $48 - 36 = 12$.",
+        "Gesorteerd: 4, 5, 7, 9, 11, 12.",
+        "Mediaan: $(7 + 9) : 2 = 8$.",
+        "Gemiddelde en mediaan zijn hier gelijk: de waarden liggen ongeveer symmetrisch."
+      ],
+      "topics": [
+        "averages"
+      ]
+    },
+    {
+      "id": "12-031",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "In een turftabel staan achter de categorie 'regen' vier volle bosjes en drie losse streepjes. Hoeveel regendagen zijn er geturfd?",
+      "answer": 23,
+      "hints": [
+        "Een vol bosje bestaat uit vier rechte streepjes en één schuine streep erdoorheen.",
+        "Hoeveel streepjes zitten er in vier volle bosjes?"
+      ],
+      "solution": [
+        "Een vol bosje is 5 streepjes.",
+        "Vier bosjes: $4 \\times 5 = 20$.",
+        "Met de drie losse streepjes: $20 + 3 = 23$ regendagen."
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je hebt elk bosje als één geteld. Een bosje staat voor vijf waarnemingen: vier rechte streepjes en de schuine streep."
+        },
+        {
+          "answer": 19,
+          "message": "Je hebt de schuine streep niet meegeteld. Die streep is zelf ook een waarneming: een vol bosje is 5, niet 4."
+        }
+      ],
+      "topics": [
+        "data"
+      ]
+    },
+    {
+      "id": "12-032",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Hoeveel cursisten zijn jonger dan 40 jaar?",
+      "context": "Leeftijden (in hele jaren) van twintig cursisten:\n\n| Leeftijd | 10–19 | 20–29 | 30–39 | 40–49 | 50–59 |\n|---|---|---|---|---|---|\n| Frequentie | 1 | 5 | 8 | 4 | 2 |",
+      "answer": 14,
+      "hints": [
+        "'Jonger dan 40' betekent: in een van de klassen 10–19, 20–29 of 30–39.",
+        "Tel die drie frequenties op, of gebruik de cumulatieve frequentie."
+      ],
+      "solution": [
+        "Cursisten jonger dan 40 vallen in de eerste drie klassen.",
+        "$1 + 5 + 8 = 14$.",
+        "Dat is de cumulatieve frequentie bij de klasse 30–39."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "8 is alleen de klasse 30–39. Ook de jongere cursisten (10–19 en 20–29) zijn jonger dan 40."
+        },
+        {
+          "answer": 6,
+          "message": "6 is het aantal cursisten jonger dan 30. De klasse 30–39 hoort er ook bij."
+        },
+        {
+          "answer": 18,
+          "message": "18 is het aantal tot en met de klasse 40–49. Cursisten van 40 tot en met 49 zijn niet jonger dan 40."
+        }
+      ],
+      "topics": [
+        "data"
+      ]
+    },
+    {
+      "id": "12-033",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Veertig deelnemers noemden hun vervoermiddel. In de frequentietabel is de frequentie bij 'auto' onleesbaar geworden. Welk percentage van de deelnemers komt met de auto?",
+      "context": "| Vervoermiddel | Fiets | Auto | Openbaar vervoer | Lopend | Totaal |\n|---|---|---|---|---|---|\n| Frequentie | 14 | ? | 9 | 5 | 40 |",
+      "answer": 30,
+      "unit": "%",
+      "hints": [
+        "Het totaal is 40. Hoeveel deelnemers blijven er over voor 'auto'?",
+        "Deel dat aantal door 40."
+      ],
+      "solution": [
+        "Bekend: $14 + 9 + 5 = 28$ deelnemers.",
+        "Auto: $40 - 28 = 12$ deelnemers.",
+        "Percentage: $12 : 40 = 0{,}30 = 30\\%$."
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "12 is het aantal automobilisten. Gevraagd is het percentage: deel door het totaal van 40."
+        },
+        {
+          "answer": 70,
+          "message": "70% is het aandeel van de drie bekende categorieën samen ($28/40$). Het aandeel van de auto is wat er van 100% overblijft."
+        }
+      ],
+      "topics": [
+        "data"
+      ]
+    },
+    {
+      "id": "12-034",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Gebruik het staafdiagram van de bibliotheek in deze les (ma 120, di 85, wo 150, do 95, vr 130, za 210 bezoekers). Hoeveel bezoekers kwamen er op zaterdag meer dan op dinsdag?",
+      "answer": 125,
+      "hints": [
+        "Zaterdag is de drukste dag, dinsdag de rustigste.",
+        "Trek de bezoekers op dinsdag af van die op zaterdag."
+      ],
+      "solution": [
+        "Zaterdag: 210 bezoekers. Dinsdag: 85 bezoekers.",
+        "Verschil: $210 - 85 = 125$ bezoekers."
+      ],
+      "feedback": [
+        {
+          "answer": 210,
+          "message": "Dat is het aantal op zaterdag zelf. Gevraagd is het verschil met dinsdag."
+        },
+        {
+          "answer": 115,
+          "message": "Je hebt donderdag (95) gebruikt in plaats van dinsdag (85). Dinsdag is de kortste staaf."
+        }
+      ],
+      "topics": [
+        "data"
+      ]
+    },
+    {
+      "id": "12-035",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "In een beelddiagram staat één fietssymbool voor 50 verkochte fietsen. Bij april staan vier hele symbolen en een half symbool. Hoeveel fietsen zijn er in april verkocht?",
+      "answer": 225,
+      "hints": [
+        "Een half symbool is de helft van 50.",
+        "Reken uit: $4 \\times 50 +$ een half symbool."
+      ],
+      "solution": [
+        "Vier hele symbolen: $4 \\times 50 = 200$ fietsen.",
+        "Een half symbool: $50 : 2 = 25$ fietsen.",
+        "Samen: $200 + 25 = 225$ fietsen."
+      ],
+      "feedback": [
+        {
+          "answer": 200,
+          "message": "Je hebt het halve symbool niet meegeteld. Het staat voor 25 fietsen."
+        },
+        {
+          "answer": 250,
+          "message": "Je hebt het halve symbool als een heel symbool geteld. Een half symbool is 25 fietsen, niet 50."
+        }
+      ],
+      "topics": [
+        "data"
+      ]
+    },
+    {
+      "id": "12-036",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Tussen welke twee opeenvolgende metingen stijgt de temperatuur het meest? Geef die stijging in graden.",
+      "context": "| Tijdstip | 0:00 | 3:00 | 6:00 | 9:00 | 12:00 | 15:00 | 18:00 | 21:00 | 24:00 |\n|---|---|---|---|---|---|---|---|---|---|\n| Temperatuur (°C) | 8 | 6 | 5 | 9 | 15 | 18 | 16 | 12 | 9 |",
+      "answer": 6,
+      "unit": "°C",
+      "hints": [
+        "Bereken voor elk paar opeenvolgende metingen het verschil.",
+        "Waar is het lijndiagram het steilst omhoog?"
+      ],
+      "solution": [
+        "Verschillen: $-2, -1, +4, +6, +3, -2, -4, -3$.",
+        "De grootste stijging is $15 - 9 = 6$ graden, tussen 9:00 en 12:00."
+      ],
+      "feedback": [
+        {
+          "answer": 13,
+          "message": "13 is het verschil tussen de hoogste (18) en de laagste (5) temperatuur van de hele dag. Gevraagd is de grootste stijging tussen twee opeenvolgende metingen."
+        },
+        {
+          "answer": 4,
+          "message": "Tussen 6:00 en 9:00 stijgt de temperatuur 4 graden, maar tussen 9:00 en 12:00 is de stijging groter."
+        }
+      ],
+      "topics": [
+        "data"
+      ]
+    },
+    {
+      "id": "12-037",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een staafdiagram toont de omzet van twee jaren: 60 en 80 duizend euro. De verticale as begint bij 50. (a) Hoeveel keer zo lang is de tweede staaf op de tekening? (b) Hoeveel keer zo groot is de tweede omzet werkelijk? Rond (b) af op twee decimalen.",
+      "parts": [
+        {
+          "label": "(a) getekende verhouding",
+          "answer": 3,
+          "type": "numeric"
+        },
+        {
+          "label": "(b) werkelijke verhouding",
+          "answer": 1.33,
+          "type": "decimal",
+          "tolerance": 0.005
+        }
+      ],
+      "hints": [
+        "Op de tekening begint elke staaf bij 50. Hoe lang zijn de staven dan?",
+        "Voor de werkelijke verhouding deel je de omzetten zelf door elkaar."
+      ],
+      "solution": [
+        "(a) Getekende lengtes: $60 - 50 = 10$ en $80 - 50 = 30$. Verhouding $30 : 10 = 3$.",
+        "(b) Werkelijk: $80 : 60 \\approx 1{,}33$.",
+        "De tekening wekt de indruk van een verdrievoudiging; in werkelijkheid groeide de omzet met een derde."
+      ],
+      "topics": [
+        "data"
+      ]
+    },
+    {
+      "id": "12-038",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In een straat is geteld hoeveel kinderen er in elk huishouden wonen. Bereken het gemiddelde aantal kinderen per huishouden. Geef het exacte antwoord.",
+      "context": "| Aantal kinderen | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| Aantal huishoudens | 4 | 6 | 7 | 3 |",
+      "answer": 1.45,
+      "tolerance": 0.001,
+      "hints": [
+        "Hoeveel huishoudens zijn er in totaal?",
+        "Hoeveel kinderen zijn er in totaal? Vermenigvuldig elk aantal kinderen met het aantal huishoudens."
+      ],
+      "solution": [
+        "Huishoudens: $4 + 6 + 7 + 3 = 20$.",
+        "Kinderen: $0 \\times 4 + 1 \\times 6 + 2 \\times 7 + 3 \\times 3 = 0 + 6 + 14 + 9 = 29$.",
+        "Gemiddelde: $29 : 20 = 1{,}45$ kind per huishouden.",
+        "Geen huishouden heeft 1,45 kind: het gemiddelde is een eerlijke verdeling, geen bestaande waarde."
+      ],
+      "feedback": [
+        {
+          "answer": 1.5,
+          "message": "Je hebt het gemiddelde van de waarden 0, 1, 2 en 3 genomen, zonder rekening te houden met hoeveel huishoudens elk aantal hebben."
+        },
+        {
+          "answer": 5,
+          "message": "Je hebt het aantal huishoudens (20) door het aantal kolommen (4) gedeeld. Bereken eerst het totale aantal kinderen."
+        },
+        {
+          "answer": 7.25,
+          "message": "Je hebt het totale aantal kinderen (29) door 4 gedeeld. Deel door het aantal huishoudens: 20."
+        }
+      ],
+      "topics": [
+        "averages"
+      ]
+    },
+    {
+      "id": "12-039",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Gebruik dezelfde telling van kinderen per huishouden. Bepaal de mediaan van het aantal kinderen per huishouden.",
+      "context": "| Aantal kinderen | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| Aantal huishoudens | 4 | 6 | 7 | 3 |",
+      "answer": 1.5,
+      "tolerance": 0.001,
+      "hints": [
+        "Er zijn 20 huishoudens. Op welke plaatsen staan de twee middelste?",
+        "Gebruik cumulatieve frequenties: 4, 10, 17, 20."
+      ],
+      "solution": [
+        "Twintig huishoudens: de mediaan ligt tussen plaats 10 en 11.",
+        "Cumulatief: plaatsen 1–4 hebben 0 kinderen, 5–10 hebben 1 kind, 11–17 hebben 2 kinderen, 18–20 hebben 3.",
+        "Plaats 10 heeft waarde 1, plaats 11 waarde 2.",
+        "Mediaan: $(1 + 2) : 2 = 1{,}5$."
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "2 is de modus (de hoogste frequentie, 7) en de waarde op plaats 11. Bij 20 waarnemingen neem je het gemiddelde van plaats 10 en 11."
+        },
+        {
+          "answer": 10.5,
+          "message": "10,5 is de plaats van de mediaan, niet de waarde. Zoek op welke waarden plaats 10 en 11 liggen."
+        },
+        {
+          "answer": 1,
+          "message": "1 is de waarde op plaats 10. Bij een even aantal neem je ook plaats 11 mee: die heeft waarde 2."
+        }
+      ],
+      "topics": [
+        "averages"
+      ]
+    },
+    {
+      "id": "12-040",
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Van vijf gehele getallen is bekend: er is precies één modus en die is 6, de mediaan is 8, het gemiddelde is 10 en de spreidingsbreedte is 14. Bepaal het op één na grootste en het grootste getal.",
+      "parts": [
+        {
+          "label": "op één na grootste getal",
+          "answer": 10,
+          "type": "numeric"
+        },
+        {
+          "label": "grootste getal",
+          "answer": 20,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Noem de gesorteerde getallen $a \\le b \\le c \\le d \\le e$. Welke volgt direct uit de mediaan?",
+        "De modus 6 moet minstens twee keer voorkomen, en 6 is kleiner dan de mediaan.",
+        "Gebruik daarna de spreidingsbreedte en de som $5 \\times 10$."
+      ],
+      "solution": [
+        "Mediaan: $c = 8$.",
+        "De modus 6 komt minstens twee keer voor. Omdat $6 < 8$, kunnen alleen $a$ en $b$ gelijk zijn aan 6: $a = b = 6$.",
+        "Spreidingsbreedte: $e - a = 14$, dus $e = 20$.",
+        "Som: $5 \\times 10 = 50$, dus $d = 50 - 6 - 6 - 8 - 20 = 10$.",
+        "Controle: 6, 6, 8, 10, 20. Modus 6 (alleen 6 komt twee keer voor), mediaan 8, gemiddelde $50 : 5 = 10$, spreidingsbreedte $20 - 6 = 14$."
+      ],
+      "topics": [
+        "averages"
+      ]
+    },
+    {
+      "id": "12-041",
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Volgens Graunts overlevingstabel bereiken van elke 100 geborenen er 40 de leeftijd van 16 jaar en 25 de leeftijd van 26 jaar. (a) Hoeveel van de oorspronkelijke 100 sterven er tussen hun 16e en 26e? (b) Welk percentage van degenen die 16 werden, sterft vóór hun 26e? Geef (b) exact.",
+      "parts": [
+        {
+          "label": "(a) aantal sterfgevallen",
+          "answer": 15,
+          "type": "numeric"
+        },
+        {
+          "label": "(b) percentage",
+          "answer": 37.5,
+          "type": "decimal",
+          "tolerance": 0.001
+        }
+      ],
+      "hints": [
+        "Het verschil tussen twee opeenvolgende getallen in de tabel is het aantal sterfgevallen.",
+        "Bij (b) is de basis niet 100, maar het aantal dat 16 werd."
+      ],
+      "solution": [
+        "(a) $40 - 25 = 15$ sterfgevallen tussen 16 en 26 jaar.",
+        "(b) De basis is de groep die 16 werd: 40 mensen.",
+        "$15 : 40 = 0{,}375 = 37{,}5\\%$.",
+        "Let op: als percentage van alle 100 geborenen is het 15%. Welke groep de basis is, verandert het antwoord."
+      ],
+      "topics": [
+        "data",
+        "percentages"
       ]
     }
   ]

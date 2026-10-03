@@ -5,9 +5,9 @@
   "part": 2,
   "level": "basisschool",
   "status": "available",
-  "historical_period": "Modern",
+  "historical_period": "Oudheid tot 19e eeuw",
   "estimated_difficulty": 2,
-  "estimated_minutes": 160,
+  "estimated_minutes": 240,
   "prerequisites": [
     11
   ],
@@ -16,24 +16,39 @@
     "averages"
   ],
   "core_question": "Hoe vat je een verzameling gegevens samen zonder belangrijke verschillen te verbergen?",
-  "summary": "Gegevens ordenen in tabellen en diagrammen; gemiddelde, mediaan en modus. Je leert ook lezen wat een grafiek of samenvatting niet vertelt.",
+  "summary": "Gegevens ordenen in turf- en frequentietabellen, staaf-, beeld-, lijn- en cirkeldiagrammen lezen en kritisch bekijken, en samenvatten met gemiddelde, mediaan, modus en spreidingsbreedte. Van Romeinse census en Domesday Book via Graunts sterftelijsten en Playfairs eerste diagrammen naar Nightingale en Quetelet.",
   "learning_goals": [
-    "Je onderscheidt categorieën van numerieke waarden en kiest een passende weergave.",
-    "Je maakt en leest frequentietabellen, inclusief relatieve frequenties.",
-    "Je leest staaf-, lijn- en cirkeldiagrammen en controleert schaal en eenheden.",
-    "Je berekent gemiddelde, mediaan en modus en verklaart wanneer ze verschillen.",
-    "Je berekent een gemiddelde uit frequenties en combineert groepen met de juiste weging.",
-    "Je herkent de invloed van uitschieters, ontbrekende gegevens en een afgekapte as.",
-    "Je formuleert een conclusie die past bij de werkelijk verzamelde gegevens."
+    "Je onderscheidt waarnemingen en variabelen, en categorische van numerieke (discrete en continue) variabelen.",
+    "Je turft waarnemingen en maakt en leest frequentietabellen, met relatieve en cumulatieve frequenties.",
+    "Je deelt numerieke gegevens in klassen in zonder overlap en zonder gaten, en weet welke informatie daarbij verloren gaat.",
+    "Je leest staaf-, beeld-, lijn- en cirkeldiagrammen af, berekent sectorhoeken en kiest een diagram dat bij de vraag past.",
+    "Je herkent misleidende weergaven: een afgekapte as, pictogrammen die in twee richtingen groeien, ongelijke tijdstappen en een gekozen periode.",
+    "Je berekent het gemiddelde, ook uit een frequentietabel, en gebruikt $\\text{totaal} = \\bar{x} \\times n$ om groepen te combineren en ontbrekende waarden te vinden.",
+    "Je bepaalt mediaan, modus en spreidingsbreedte en vermijdt de typische fouten (niet sorteren, het verkeerde midden, modus verwarren met frequentie of maximum).",
+    "Je legt uit wat een uitschieter met gemiddelde en mediaan doet en kiest de centrummaat die bij de vraag past.",
+    "Je formuleert een conclusie die past bij de werkelijk verzamelde gegevens, met aandacht voor ontbrekende waarden en voor wie er niet in de gegevens zit.",
+    "Je vertelt hoe het verzamelen en samenvatten van gegevens zich ontwikkelde: census en Domesday Book, Graunts sterftelijsten (1662), Playfairs diagrammen (1786, 1801), Nightingale en Quetelet."
   ],
   "glossary": [
     {
       "term": "Waarneming",
-      "definition": "Eén geregistreerde meting, telling of categorie."
+      "definition": "Eén geregistreerd geval in een dataset: één persoon, één dag, één meting. In een tabel is dat één rij."
     },
     {
       "term": "Variabele",
-      "definition": "De eigenschap die je per waarneming vastlegt."
+      "definition": "De eigenschap die je bij elke waarneming vastlegt. In een tabel is dat één kolom."
+    },
+    {
+      "term": "Categorische variabele",
+      "definition": "Een variabele die waarnemingen in groepen indeelt, zoals vervoermiddel of provincie. Je kunt tellen, maar niet middelen."
+    },
+    {
+      "term": "Numerieke variabele",
+      "definition": "Een variabele die een hoeveelheid is: discreet (losse waarden, zoals aantal kinderen) of continu (elke tussenwaarde mogelijk, zoals lengte)."
+    },
+    {
+      "term": "Turven",
+      "definition": "Tellen met streepjes in bosjes van vijf; het vijfde streepje gaat schuin door de vier vorige."
     },
     {
       "term": "Frequentie",
@@ -41,11 +56,31 @@
     },
     {
       "term": "Relatieve frequentie",
-      "definition": "Frequentie gedeeld door het totaal; vaak uitgedrukt als percentage."
+      "definition": "De frequentie gedeeld door het totale aantal waarnemingen, $f/n$; vaak als percentage."
+    },
+    {
+      "term": "Cumulatieve frequentie",
+      "definition": "Het aantal waarnemingen tot en met een bepaalde waarde of klasse."
+    },
+    {
+      "term": "Klasse",
+      "definition": "Een interval waarin numerieke waarnemingen worden samengenomen, zoals '10 tot 20 minuten'. Klassen hebben geen overlap en geen gaten."
+    },
+    {
+      "term": "Sectorhoek",
+      "definition": "De hoek van een sector in een cirkeldiagram: het aandeel maal $360^\\circ$."
+    },
+    {
+      "term": "Afgekapte as",
+      "definition": "Een verticale as die niet bij nul begint. Bij een staafdiagram overdrijft die verschillen."
     },
     {
       "term": "Gemiddelde",
-      "definition": "De som van numerieke waarden gedeeld door hun aantal."
+      "definition": "De som van de waarden gedeeld door hun aantal: de waarde die iedereen krijgt als je het totaal eerlijk verdeelt."
+    },
+    {
+      "term": "Gewogen gemiddelde",
+      "definition": "Een gemiddelde waarin waarden verschillend zwaar meetellen, bijvoorbeeld naar frequentie of groepsgrootte."
     },
     {
       "term": "Mediaan",
@@ -53,37 +88,64 @@
     },
     {
       "term": "Modus",
-      "definition": "Een waarde of categorie met de hoogste frequentie. Er kan meer dan één zijn."
-    },
-    {
-      "term": "Uitschieter",
-      "definition": "Een waarneming die sterk afwijkt van de rest; een signaal om de context te onderzoeken."
+      "definition": "De waarde of categorie met de hoogste frequentie. Er kunnen er meer zijn; als alle waarden één keer voorkomen, is er geen modus."
     },
     {
       "term": "Spreidingsbreedte",
-      "definition": "Het verschil tussen de grootste en kleinste waarneming."
+      "definition": "Het verschil tussen de grootste en de kleinste waarneming."
+    },
+    {
+      "term": "Uitschieter",
+      "definition": "Een waarneming die sterk afwijkt van de rest: een reden om de herkomst te onderzoeken, niet om haar zomaar te schrappen."
+    },
+    {
+      "term": "Centrummaat",
+      "definition": "Een getal dat aangeeft waar de gegevens ongeveer liggen: gemiddelde, mediaan of modus."
     }
   ],
   "formulas": [
     {
-      "name": "Gemiddelde",
-      "latex": "\\bar{x}=\\frac{x_1+\\cdots+x_n}{n}",
-      "usage": "Alle waarnemingen tellen één keer mee."
-    },
-    {
       "name": "Relatieve frequentie",
-      "latex": "\\text{aandeel}=\\frac{f}{n}",
-      "usage": "f is de frequentie, n het totaal."
-    },
-    {
-      "name": "Frequentiegemiddelde",
-      "latex": "\\bar{x}=\\frac{\\sum f_i x_i}{\\sum f_i}",
-      "usage": "Elke waarde telt mee volgens haar frequentie."
+      "latex": "\\text{relatieve frequentie}=\\frac{f}{n}",
+      "usage": "f is de frequentie, n het totale aantal waarnemingen; maal 100 voor een percentage.",
+      "origin": "Graunt vergeleek in 1662 al aantallen jongens en meisjes als verhouding."
     },
     {
       "name": "Sectorhoek",
-      "latex": "\\text{hoek}=\\text{aandeel}\\cdot360^\\circ",
-      "usage": "Een cirkel stelt het hele totaal voor."
+      "latex": "\\text{sectorhoek}=\\frac{p}{100}\\cdot 360^\\circ",
+      "usage": "p is het aandeel in procenten; 1% komt overeen met 3,6 graden.",
+      "origin": "Het cirkeldiagram verscheen voor het eerst in Playfairs Statistical Breviary (1801)."
+    },
+    {
+      "name": "Gemiddelde",
+      "latex": "\\bar{x}=\\frac{x_1+x_2+\\cdots+x_n}{n}",
+      "usage": "Elke waarneming telt één keer mee.",
+      "origin": "Middelen van metingen was gebruikelijk in de sterrenkunde; Quetelet paste het in de 19e eeuw toe op mensen."
+    },
+    {
+      "name": "Totaal uit gemiddelde",
+      "latex": "\\text{totaal}=\\bar{x}\\cdot n",
+      "usage": "Om groepen samen te voegen of een ontbrekende waarde terug te vinden."
+    },
+    {
+      "name": "Gemiddelde uit een frequentietabel",
+      "latex": "\\bar{x}=\\frac{\\sum f_i x_i}{\\sum f_i}",
+      "usage": "Elke waarde telt mee volgens haar frequentie; de noemer is het aantal waarnemingen."
+    },
+    {
+      "name": "Twee groepen samenvoegen",
+      "latex": "\\bar{x}_{\\text{samen}}=\\frac{n_A\\bar{x}_A+n_B\\bar{x}_B}{n_A+n_B}",
+      "usage": "Gewogen naar groepsgrootte; niet het gemiddelde van de gemiddelden."
+    },
+    {
+      "name": "Plaats van de mediaan",
+      "latex": "\\text{plaats}=\\frac{n+1}{2}",
+      "usage": "In de gesorteerde rij; bij een even aantal ligt de plaats halverwege twee waarden."
+    },
+    {
+      "name": "Spreidingsbreedte",
+      "latex": "R=x_{\\max}-x_{\\min}",
+      "usage": "Een eerste, gevoelige maat voor spreiding."
     }
   ],
   "lessons": [
@@ -119,7 +181,7 @@
     },
     {
       "slug": "historisch-intermezzo",
-      "title": "Getallen zichtbaar maken",
+      "title": "Getallen over mensen: van volkstelling tot diagram",
       "kind": "history",
       "file": "06-historisch-intermezzo.md"
     },
@@ -137,7 +199,8 @@
     }
   ],
   "timeline": [
-    "data-science"
+    "graunt-sterftetafels",
+    "nightingale-diagrammen"
   ],
   "mathematicians": []
 }
