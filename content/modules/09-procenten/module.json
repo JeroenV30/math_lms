@@ -5,94 +5,140 @@
   "part": 2,
   "level": "basisschool",
   "status": "available",
-  "historical_period": "Middeleeuwen",
+  "historical_period": "Romeinse tijd tot renaissance",
   "estimated_difficulty": 1,
-  "estimated_minutes": 160,
+  "estimated_minutes": 240,
   "prerequisites": [
     8
   ],
   "topics": [
     "percentages",
+    "fractions",
+    "decimals",
+    "mental-math",
     "finance"
   ],
   "core_question": "Waarom heffen een prijsverhoging van 20% en een korting van 20% elkaar niet op?",
-  "summary": "Procenten als delen van honderd: percentages, verandering, terugrekenen en groeifactoren. Je bewaakt steeds welke hoeveelheid 100% is.",
+  "summary": "Procenten als 'per honderd': omzetten tussen procent, breuk en kommagetal, de drie procentvragen, procentuele verandering, korting, procentpunten, groeifactoren, btw en enkelvoudige rente. Van de Romeinse centesima via de Italiaanse koopmansrekenkunde naar het teken %.",
   "learning_goals": [
-    "Je zet procenten om in breuken en decimalen en omgekeerd.",
-    "Je berekent een percentage van een hoeveelheid en het percentage dat een deel van een geheel vormt.",
-    "Je vindt het geheel als een deel en het percentage bekend zijn.",
-    "Je berekent procentuele stijgingen en dalingen met de oorspronkelijke hoeveelheid als basis.",
-    "Je gebruikt groeifactoren bij opeenvolgende veranderingen en rekent terug naar de oorspronkelijke waarde.",
-    "Je onderscheidt procent van procentpunt.",
-    "Je rekent met fictieve korting-, belasting- en rentemodellen en benoemt hun aannames."
+    "Je legt uit dat $p\\%$ betekent: $\\tfrac{p}{100}$, en je zet percentages, breuken en kommagetallen in elkaar om, ook boven 100% en onder 1%.",
+    "Je berekent een percentage van een hoeveelheid, uit het hoofd via 10%, 5% en 1% en met een factor.",
+    "Je berekent welk percentage een deel van een geheel is en vindt het geheel als het deel en het percentage bekend zijn.",
+    "Je benoemt bij elke procentvraag welke hoeveelheid 100% is, en herkent hoe de formulering de basis bepaalt.",
+    "Je berekent procentuele stijgingen, dalingen en kortingen met de oorspronkelijke waarde als basis.",
+    "Je onderscheidt procent van procentpunt en herkent misleidende formuleringen in berichten.",
+    "Je werkt met groeifactoren, vermenigvuldigt ze bij opeenvolgende veranderingen en rekent terug naar de oorspronkelijke waarde.",
+    "Je rekent prijzen om tussen exclusief en inclusief btw (21% en 9%) en haalt het btw-bedrag uit een prijs inclusief btw.",
+    "Je berekent enkelvoudige rente en legt uit waarin samengestelde rente verschilt.",
+    "Je vertelt hoe het rekenen per honderd zich ontwikkelde: de Romeinse centesima, de Italiaanse koopmansrekenkunde, het ontstaan van het teken % en rente in de Italiaanse bankwereld."
   ],
   "glossary": [
     {
       "term": "Procent",
-      "definition": "Eén honderdste. Het teken % betekent per honderd."
+      "definition": "Per honderd. $p\\%$ betekent $\\tfrac{p}{100}$; het teken % is af te lezen als 'gedeeld door honderd'."
+    },
+    {
+      "term": "Promille",
+      "definition": "Per duizend, met het teken ‰. Drie promille is $\\tfrac{3}{1000} = 0{,}3\\%$."
     },
     {
       "term": "Basis",
-      "definition": "De hoeveelheid die in een berekening als 100% geldt."
+      "definition": "De hoeveelheid die in een berekening als 100% geldt: het geheel, of bij een verandering de oorspronkelijke waarde."
     },
     {
-      "term": "Groeifactor",
-      "definition": "De factor waarmee je een hoeveelheid vermenigvuldigt bij een procentuele verandering."
+      "term": "Deel en geheel",
+      "definition": "Het deel is een gedeelte van het geheel; het percentage is $\\tfrac{\\text{deel}}{\\text{geheel}} \\times 100$."
     },
     {
       "term": "Procentuele verandering",
-      "definition": "Het verschil gedeeld door de oorspronkelijke waarde, maal 100%."
+      "definition": "Het verschil tussen nieuw en oud, gedeeld door de oude waarde, maal 100%."
+    },
+    {
+      "term": "Korting",
+      "definition": "Een vooraf vastgelegde procentuele daling van een prijs; na $p\\%$ korting betaal je $(100 - p)\\%$."
     },
     {
       "term": "Procentpunt",
-      "definition": "Een verschil tussen twee percentages, gemeten door ze af te trekken."
+      "definition": "De eenheid voor het verschil tussen twee percentages, gevonden door ze af te trekken. Van 20% naar 25% is 5 procentpunten (en een relatieve stijging van 25%)."
+    },
+    {
+      "term": "Groeifactor",
+      "definition": "Het getal waarmee je een hoeveelheid vermenigvuldigt bij een procentuele verandering: $g = 1 + \\tfrac{p}{100}$, met $p$ negatief bij een daling."
+    },
+    {
+      "term": "Terugrekenen",
+      "definition": "De oorspronkelijke waarde vinden uit de nieuwe waarde, door te delen door de groeifactor."
+    },
+    {
+      "term": "Btw",
+      "definition": "Belasting over de toegevoegde waarde. In Nederland sinds 1969; algemeen tarief 21%, verlaagd tarief 9%. De btw is een percentage van de prijs exclusief btw."
+    },
+    {
+      "term": "Exclusief en inclusief btw",
+      "definition": "De prijs zonder btw (de basis) en de prijs met btw. Bij 21% btw is inclusief $= 1{,}21 \\times$ exclusief."
     },
     {
       "term": "Enkelvoudige rente",
-      "definition": "In het rekenmodel wordt rente steeds over dezelfde oorspronkelijke inleg berekend."
+      "definition": "Rente die in elke periode over het oorspronkelijke kapitaal wordt berekend: $R = K \\times \\tfrac{p}{100} \\times t$."
     },
     {
       "term": "Samengestelde rente",
-      "definition": "In het rekenmodel telt eerdere rente bij de volgende renteberekening mee."
+      "definition": "Rente die bij het kapitaal wordt gevoegd, zodat in volgende perioden ook rente over rente wordt berekend."
+    },
+    {
+      "term": "Centesima",
+      "definition": "Latijn voor 'een honderdste'. De centesima rerum venalium was een Romeinse heffing van 1% op veilingverkopen."
     }
   ],
   "formulas": [
     {
-      "name": "Een percentage van een geheel",
-      "latex": "\\text{deel}=\\frac{p}{100}\\cdot\\text{geheel}",
-      "usage": "Zet het percentage om in een factor."
+      "name": "Procent als breuk",
+      "latex": "p\\% = \\frac{p}{100}",
+      "usage": "Van procent naar kommagetal: de komma twee plaatsen naar links. Terug: maal 100.",
+      "origin": "Het rekenen in honderdsten is al Romeins (centesima); het woord gaat terug op het Latijnse pro centum en het Italiaanse per cento."
     },
     {
-      "name": "Een deel als percentage",
-      "latex": "p=\\frac{\\text{deel}}{\\text{geheel}}\\cdot100",
-      "usage": "Het geheel is de basis en is niet nul."
+      "name": "Deel van een geheel",
+      "latex": "\\text{deel} = \\frac{p}{100} \\times \\text{geheel}",
+      "usage": "Ken je twee van de drie grootheden, dan vind je de derde. Het geheel is $\\text{deel} : \\tfrac{p}{100}$."
+    },
+    {
+      "name": "Percentage van een deel",
+      "latex": "p = \\frac{\\text{deel}}{\\text{geheel}} \\times 100",
+      "usage": "Deel het deel door het geheel, nooit andersom. Het geheel is niet nul."
     },
     {
       "name": "Procentuele verandering",
-      "latex": "p=\\frac{\\text{nieuw}-\\text{oud}}{\\text{oud}}\\cdot100",
-      "usage": "Gebruik de oorspronkelijke positieve waarde als basis."
+      "latex": "p = \\frac{\\text{nieuw} - \\text{oud}}{\\text{oud}} \\times 100",
+      "usage": "De oude, positieve waarde is de basis. Een negatieve uitkomst is een daling."
     },
     {
       "name": "Groeifactor",
-      "latex": "g=1+\\frac{p}{100}",
-      "usage": "Gebruik een negatieve p voor een afname."
+      "latex": "g = 1 + \\frac{p}{100}, \\qquad \\text{nieuw} = g \\times \\text{oud}",
+      "usage": "Bij veranderingen na elkaar vermenigvuldig je de groeifactoren. Terugrekenen: $\\text{oud} = \\text{nieuw} : g$."
     },
     {
-      "name": "Terugrekenen",
-      "latex": "\\text{oud}=\\frac{\\text{nieuw}}{g}",
-      "usage": "Deel door de niet-nulgroeifactor."
+      "name": "Btw",
+      "latex": "\\text{incl.} = 1{,}21 \\times \\text{excl.}, \\qquad \\text{btw} = \\frac{21}{121} \\times \\text{incl.}",
+      "usage": "Bij het verlaagde tarief: $1{,}09$ en $\\tfrac{9}{109}$. Trek nooit 21% van de prijs inclusief btw af."
+    },
+    {
+      "name": "Enkelvoudige rente",
+      "latex": "R = K \\times \\frac{p}{100} \\times t",
+      "usage": "K is het kapitaal, p het rentepercentage per periode, t het aantal perioden. Het eindbedrag is K + R.",
+      "origin": "Romeinse geldschieters rekenden met 1% per maand (centesimae usurae); Simon Stevin publiceerde in 1582 regels en tabellen voor enkelvoudige en samengestelde rente."
     }
   ],
   "lessons": [
     {
       "slug": "introductie",
-      "title": "Een honderdste als gemeenschappelijke maat",
+      "title": "Een honderdste voor de schatkist",
       "kind": "intro",
       "file": "01-introductie.md"
     },
     {
       "slug": "procent-breuk-decimaal",
-      "title": "Van honderdveld naar factor",
+      "title": "Per honderd: procent, breuk en kommagetal",
       "kind": "theory",
       "file": "02-procent-breuk-decimaal.md"
     },
@@ -104,25 +150,25 @@
     },
     {
       "slug": "verandering",
-      "title": "Stijging, daling en procentpunten",
+      "title": "Stijging, daling, korting en procentpunten",
       "kind": "theory",
       "file": "04-verandering.md"
     },
     {
       "slug": "groeifactoren",
-      "title": "Groeifactoren en terugrekenen",
+      "title": "Groeifactoren, btw en terugrekenen",
       "kind": "theory",
       "file": "05-groeifactoren.md"
     },
     {
       "slug": "historisch-intermezzo",
-      "title": "Rente en de keuze van de basis",
+      "title": "Per cento: van Romeinse veilingen tot Florentijnse banken",
       "kind": "history",
       "file": "06-historisch-intermezzo.md"
     },
     {
       "slug": "praktijk-en-uitdaging",
-      "title": "Aanbiedingen vergelijken",
+      "title": "Aanbiedingen, berichten en rekenvalkuilen",
       "kind": "practice",
       "file": "07-praktijk-en-uitdaging.md"
     },
@@ -134,9 +180,11 @@
     }
   ],
   "timeline": [
-    "fibonacci-liber-abaci"
+    "fibonacci-liber-abaci",
+    "stevin-de-thiende"
   ],
   "mathematicians": [
-    "fibonacci"
+    "fibonacci",
+    "simon-stevin"
   ]
 }

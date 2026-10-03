@@ -7,7 +7,7 @@
   "status": "available",
   "historical_period": "Oud-Egypte en Mesopotamië",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 240,
   "prerequisites": [
     10
   ],
@@ -20,96 +20,159 @@
     "volume",
     "unit-conversion"
   ],
-  "core_question": "Hoe bepaal je hoeveel grond een perceel bevat, zonder oppervlakte met omtrek te verwarren?",
-  "summary": "Lijnen, hoeken en vlakke figuren; omtrek, oppervlakte en inhoud. Je leidt formules af uit verdelen en herschikken en bewaakt de eenheden.",
+  "core_question": "Hoe bepaal je na een overstroming opnieuw hoeveel grond een akker bevat, zonder oppervlakte met omtrek te verwarren?",
+  "summary": "Lijnen, hoeken, driehoeken, vierhoeken en cirkels; omtrek, oppervlakte en inhoud. Je leidt formules af door figuren te verknippen, rekent vierkante en kubieke maten om, en volgt de weg van Egyptische landmeters en de Rhind-papyrus naar Euclides en Archimedes.",
   "learning_goals": [
-    "Je onderscheidt punten, lijnen, lijnstukken, evenwijdige lijnen en loodrechte lijnen.",
-    "Je meet en benoemt hoeken en gebruikt de hoekensommen van driehoeken en vierhoeken.",
-    "Je herkent driehoeken, vierhoeken en cirkels aan hun eigenschappen.",
-    "Je berekent omtrekken en onderscheidt omtrek van oppervlakte.",
-    "Je berekent oppervlakten van rechthoeken, driehoeken, parallellogrammen en cirkels.",
-    "Je berekent de inhoud van een balk en een cilinder.",
-    "Je rekent lengtematen, oppervlaktematen en inhoudsmaten met de juiste factoren om.",
-    "Je deelt samengestelde figuren op en controleert of maten en aannames voldoende zijn."
+    "Je onderscheidt punten, lijnen, lijnstukken en halfrechten, en herkent evenwijdige en loodrechte lijnen.",
+    "Je meet hoeken met een gradenboog, benoemt de soort hoek en berekent hoeken met nevenhoeken, overstaande hoeken en hoeken rond een punt.",
+    "Je gebruikt F- en Z-hoeken bij evenwijdige lijnen en een snijlijn, en weet dat die regels alleen bij evenwijdige lijnen gelden.",
+    "Je kent de hoekensom van driehoeken (180°), vierhoeken (360°) en veelhoeken, en kunt uitleggen waarom de hoekensom van een driehoek 180° is.",
+    "Je herkent soorten driehoeken en vierhoeken aan hun eigenschappen en onderscheidt wat gegeven is van wat een schets suggereert.",
+    "Je berekent omtrek en oppervlakte van rechthoeken, parallellogrammen, driehoeken, trapezia en samengestelde figuren, met de loodrechte hoogte.",
+    "Je gebruikt straal, middellijn en π om omtrek en oppervlakte van (halve) cirkels te berekenen.",
+    "Je berekent de inhoud van kubus, balk en cilinder als grondvlak maal hoogte en drukt die uit in liters.",
+    "Je rekent oppervlakte- en inhoudsmaten om met de factoren 100 en 1000 per tree, inclusief are en hectare.",
+    "Je kunt uitleggen hoe Egyptische en Babylonische rekenaars cirkels benaderden en wat Euclides en Archimedes daaraan toevoegden."
   ],
   "glossary": [
     {
       "term": "Lijnstuk",
-      "definition": "Het rechte stuk tussen twee eindpunten; het heeft een lengte."
+      "definition": "Het rechte stuk van een lijn tussen twee eindpunten; het heeft een lengte."
+    },
+    {
+      "term": "Halfrechte",
+      "definition": "Een recht stuk lijn met één beginpunt dat naar één kant onbeperkt doorloopt."
     },
     {
       "term": "Evenwijdig",
-      "definition": "Lijnen in hetzelfde vlak die elkaar niet snijden."
+      "definition": "Lijnen in hetzelfde vlak die elkaar nergens snijden, hoe ver je ze ook verlengt (notatie $\\parallel$)."
     },
     {
       "term": "Loodrecht",
-      "definition": "Lijnen die elkaar onder een hoek van 90° snijden."
+      "definition": "Lijnen die elkaar onder een hoek van 90° snijden (notatie $\\perp$)."
     },
     {
       "term": "Hoek",
-      "definition": "De draaiing tussen twee benen met hetzelfde hoekpunt."
+      "definition": "De draaiing tussen twee halfrechten (benen) met hetzelfde beginpunt (hoekpunt), gemeten in graden."
+    },
+    {
+      "term": "Nevenhoeken",
+      "definition": "Twee hoeken naast elkaar langs een rechte lijn; samen 180°."
+    },
+    {
+      "term": "Overstaande hoeken",
+      "definition": "De hoeken tegenover elkaar bij twee snijdende lijnen; ze zijn gelijk."
+    },
+    {
+      "term": "F- en Z-hoeken",
+      "definition": "Overeenkomstige en verwisselende hoeken bij twee evenwijdige lijnen en een snijlijn; ze zijn gelijk."
+    },
+    {
+      "term": "Gelijkbenige driehoek",
+      "definition": "Een driehoek met minstens twee gelijke zijden; de basishoeken zijn gelijk."
+    },
+    {
+      "term": "Parallellogram",
+      "definition": "Een vierhoek waarvan beide paren overstaande zijden evenwijdig zijn."
+    },
+    {
+      "term": "Trapezium",
+      "definition": "In deze cursus: een vierhoek met minstens één paar evenwijdige zijden."
     },
     {
       "term": "Omtrek",
-      "definition": "De totale lengte van de grens van een figuur."
+      "definition": "De totale lengte van de rand van een figuur, in lengte-eenheden."
     },
     {
       "term": "Oppervlakte",
-      "definition": "De grootte van een vlak, gemeten in vierkante eenheden."
+      "definition": "De grootte van een vlak: het aantal eenheidsvierkanten dat erin past, in m², cm² enzovoort."
     },
     {
       "term": "Hoogte",
-      "definition": "De loodrechte afstand van een punt of tegenoverliggende zijde tot de gekozen basis."
+      "definition": "De loodrechte afstand van een hoekpunt of overstaande zijde tot de gekozen basis (of het verlengde daarvan)."
     },
     {
       "term": "Straal",
       "definition": "De afstand van het middelpunt tot de cirkel."
     },
     {
-      "term": "Diameter",
-      "definition": "Een lijnstuk door het middelpunt tussen twee punten op de cirkel; tweemaal de straal."
+      "term": "Middellijn (diameter)",
+      "definition": "Een koorde door het middelpunt; twee keer de straal."
+    },
+    {
+      "term": "π (pi)",
+      "definition": "De vaste verhouding tussen omtrek en middellijn van elke cirkel, ongeveer 3,14159."
     },
     {
       "term": "Inhoud",
-      "definition": "De grootte van een ruimte, gemeten in kubieke eenheden."
+      "definition": "De grootte van een ruimte: het aantal eenheidskubussen dat erin past, in m³, dm³ (liter) enzovoort."
+    },
+    {
+      "term": "Hectare",
+      "definition": "Oppervlaktemaat voor land: een vierkant van 100 m bij 100 m, dus 10.000 m²."
+    },
+    {
+      "term": "Liter",
+      "definition": "Inhoudsmaat, exact gelijk aan 1 dm³ (een kubus van 10 cm bij 10 cm bij 10 cm)."
     }
   ],
   "formulas": [
     {
-      "name": "Rechthoek",
-      "latex": "O=2(l+b),\\qquad A=l\\cdot b",
-      "usage": "O is omtrek, A oppervlakte."
+      "name": "Hoeken",
+      "latex": "\\text{nevenhoeken: } \\alpha+\\beta=180^\\circ,\\qquad \\text{driehoek: } \\alpha+\\beta+\\gamma=180^\\circ",
+      "usage": "Ook: rond een punt 360°, vierhoek 360°, $n$-hoek $(n-2)\\times180^\\circ$.",
+      "origin": "Euclides, Elementen, boek I, proposities 13 en 32 (ca. 300 v.Chr.)."
     },
     {
-      "name": "Driehoek",
-      "latex": "A=\\frac12 b h",
-      "usage": "Gebruik de loodrechte hoogte bij de gekozen basis."
+      "name": "Rechthoek",
+      "latex": "O=2(l+b),\\qquad A=l\\cdot b",
+      "usage": "$O$ is de omtrek, $A$ de oppervlakte; beide maten in dezelfde eenheid.",
+      "origin": "Al gebruikt door Egyptische en Mesopotamische schrijvers voor akkers."
     },
     {
       "name": "Parallellogram",
-      "latex": "A=b h",
-      "usage": "Schuif de afgesneden driehoek om tot een rechthoek."
+      "latex": "A=b\\cdot h",
+      "usage": "Knip een driehoek af en schuif die op: een rechthoek van $b$ bij $h$. $h$ is de loodrechte hoogte.",
+      "origin": "Euclides, Elementen I.35."
+    },
+    {
+      "name": "Driehoek",
+      "latex": "A=\\tfrac12\\, b\\, h",
+      "usage": "De helft van het parallellogram met dezelfde basis en hoogte; vergeet de $\\tfrac12$ niet.",
+      "origin": "Rhind-papyrus, opgave 51; bewezen in Euclides, Elementen I.41."
+    },
+    {
+      "name": "Trapezium",
+      "latex": "A=\\frac{a+c}{2}\\cdot h",
+      "usage": "$a$ en $c$ zijn de evenwijdige zijden, $h$ de afstand ertussen."
     },
     {
       "name": "Cirkel",
-      "latex": "O=2\\pi r,\\qquad A=\\pi r^2",
-      "usage": "De diameter is 2r; rond pas het eindantwoord af."
+      "latex": "O=\\pi d=2\\pi r,\\qquad A=\\pi r^2",
+      "usage": "Gebruik bij de oppervlakte de straal, niet de middellijn; rond pas het eindantwoord af.",
+      "origin": "Rhind-papyrus: $A\\approx(\\tfrac89 d)^2$; Archimedes bewees $A=\\tfrac12 rO$ en $3\\tfrac{10}{71}<\\pi<3\\tfrac17$."
     },
     {
-      "name": "Balk",
-      "latex": "V=l b h",
-      "usage": "V is inhoud; gebruik dezelfde lengte-eenheid."
+      "name": "Balk en kubus",
+      "latex": "V=l\\cdot b\\cdot h,\\qquad V=z^3",
+      "usage": "Alle lengtes in dezelfde eenheid; in dm gerekend krijg je meteen liters."
     },
     {
       "name": "Cilinder",
       "latex": "V=\\pi r^2 h",
-      "usage": "Oppervlakte van het grondvlak maal loodrechte hoogte."
+      "usage": "Grondvlak maal hoogte.",
+      "origin": "Rhind-papyrus, opgave 41 (ronde graanschuur)."
+    },
+    {
+      "name": "Omrekenen",
+      "latex": "1\\text{ m}^2=10\\,000\\text{ cm}^2,\\qquad 1\\text{ dm}^3=1\\text{ liter}",
+      "usage": "Per tree van het trapje: lengte ×10, oppervlakte ×100, inhoud ×1000."
     }
   ],
   "lessons": [
     {
       "slug": "introductie",
-      "title": "Een perceel opnieuw meten",
+      "title": "Een akker na de overstroming",
       "kind": "intro",
       "file": "01-introductie.md"
     },
@@ -121,7 +184,7 @@
     },
     {
       "slug": "driehoeken-en-vierhoeken",
-      "title": "Eigenschappen van figuren",
+      "title": "Driehoeken en vierhoeken",
       "kind": "theory",
       "file": "03-driehoeken-en-vierhoeken.md"
     },
@@ -145,7 +208,7 @@
     },
     {
       "slug": "praktijk-en-uitdaging",
-      "title": "Vloeren, hekken en reservoirs",
+      "title": "Vloeren, verf en regentonnen",
       "kind": "practice",
       "file": "07-praktijk-en-uitdaging.md"
     },
@@ -157,8 +220,11 @@
     }
   ],
   "timeline": [
+    "egyptische-el",
     "rhind-papyrus",
-    "euclides-elementen"
+    "mesopotamische-getallen",
+    "euclides-elementen",
+    "metriek-stelsel"
   ],
   "mathematicians": [
     "ahmes",

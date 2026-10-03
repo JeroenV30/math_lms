@@ -70,7 +70,8 @@ class NumberParser
             }
             $value = str_replace(',', '.', $value);
         } elseif ($hasDot) {
-            $isThousands = preg_match('/^\d{1,3}(\.\d{3})+$/', $value)
+            // "1.000" is duizend, maar "0.045" nooit: een duizendtal begint niet met 0.
+            $isThousands = preg_match('/^[1-9]\d{0,2}(\.\d{3})+$/', $value)
                 && (substr_count($value, '.') > 1 || $integerContext);
 
             if ($isThousands) {

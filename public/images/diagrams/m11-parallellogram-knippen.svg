@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" font-family="sans-serif" role="img" aria-label="Een parallellogram met basis b en hoogte h; een driehoek wordt links afgeknipt en rechts aangelegd, zodat een rechthoek van b bij h ontstaat">
+<title>Een parallellogram met basis b en hoogte h; een driehoek wordt links afgeknipt en rechts aangelegd, zodat een rechthoek van b bij h ontstaat</title>
+<rect x="0" y="0" width="800" height="250" fill="#ffffff"/>
+<polygon points="40.0,200.0 260.0,200.0 320.0,80.0 100.0,80.0" fill="#f1f3f5" stroke="#1f2933" stroke-width="2"/>
+<polygon points="40.0,200.0 100.0,200.0 100.0,80.0" fill="#f3e6d3" stroke="#9c6b30" stroke-width="1.5"/>
+<line x1="100.0" y1="200.0" x2="100.0" y2="80.0" stroke="#9c6b30" stroke-width="1.5" stroke-dasharray="5 4"/>
+<path d="M 100.0 190.0 L 110.0 190.0 L 110.0 200.0" fill="none" stroke="#9c6b30" stroke-width="1.5"/>
+<text x="150.0" y="225.0" font-size="18" fill="#1f2933" text-anchor="middle" font-weight="normal" font-style="italic">b</text>
+<text x="112.0" y="140.0" font-size="18" fill="#9c6b30" text-anchor="start" font-weight="normal" font-style="italic">h</text>
+<text x="180.0" y="40.0" font-size="16" fill="#1f2933" text-anchor="middle" font-weight="bold" font-style="normal">parallellogram</text>
+<path d="M 360 140 L 420 140" stroke="#1f2933" stroke-width="2"/><path d="M 410.8 143.9 L 420.0 140.0 L 410.8 136.1" fill="none" stroke="#1f2933" stroke-width="2"/>
+<text x="390.0" y="125.0" font-size="13" fill="#9c6b30" text-anchor="middle" font-weight="normal" font-style="italic">schuif</text>
+<polygon points="520.0,200.0 740.0,200.0 740.0,80.0 520.0,80.0" fill="#f1f3f5" stroke="#1f2933" stroke-width="2"/>
+<polygon points="680.0,200.0 740.0,200.0 740.0,80.0" fill="#f3e6d3" stroke="#9c6b30" stroke-width="1.5"/>
+<path d="M 530.0 200.0 L 530.0 190.0 L 520.0 190.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+<text x="630.0" y="225.0" font-size="18" fill="#1f2933" text-anchor="middle" font-weight="normal" font-style="italic">b</text>
+<text x="506.0" y="145.0" font-size="18" fill="#1f2933" text-anchor="middle" font-weight="normal" font-style="italic">h</text>
+<text x="630.0" y="40.0" font-size="16" fill="#1f2933" text-anchor="middle" font-weight="bold" font-style="normal">rechthoek: A = b × h</text>
+
+</svg>

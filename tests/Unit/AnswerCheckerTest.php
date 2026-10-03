@@ -25,6 +25,7 @@ class AnswerCheckerTest extends TestCase
         return [
             'geheel' => ['518', 518.0, true],
             'duizendtal met punt' => ['1.000', 1000.0, true],
+            'nul komma met punt' => ['0.045', 0.045, true],
             'duizendtal met spatie' => ['1 000', 1000.0, true],
             'miljoen' => ['1.000.000', 1000000.0, false],
             'negatief' => ['-12', -12.0, false],

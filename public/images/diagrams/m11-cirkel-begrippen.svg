@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" font-family="sans-serif" role="img" aria-label="Een cirkel met middelpunt M, een straal r, een middellijn d en een koorde">
+<title>Een cirkel met middelpunt M, een straal r, een middellijn d en een koorde</title>
+<rect x="0" y="0" width="600" height="320" fill="#ffffff"/>
+<circle cx="200" cy="170" r="130" fill="#f1f3f5" stroke="#1f2933" stroke-width="2"/>
+<line x1="70.0" y1="170.0" x2="330.0" y2="170.0" stroke="#3b5bdb" stroke-width="2.5"/>
+<text x="135.0" y="192.0" font-size="15" fill="#3b5bdb" text-anchor="middle" font-weight="normal" font-style="normal">middellijn d</text>
+<line x1="200.0" y1="170.0" x2="265.0" y2="57.4" stroke="#9c6b30" stroke-width="2.5"/>
+<text x="262.5" y="117.7" font-size="15" fill="#9c6b30" text-anchor="middle" font-weight="normal" font-style="normal">straal r</text>
+<line x1="77.8" y1="214.5" x2="265.0" y2="282.6" stroke="#1f2933" stroke-width="2"/>
+<text x="166.4" y="238.5" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="normal" font-style="normal">koorde</text>
+<circle cx="200.0" cy="170.0" r="4" fill="#1f2933"/>
+<text x="188.0" y="162.0" font-size="15" fill="#1f2933" text-anchor="middle" font-weight="normal" font-style="normal">M</text>
+<text x="380.0" y="120.0" font-size="18" fill="#1f2933" text-anchor="start" font-weight="bold" font-style="normal">d = 2r</text>
+<text x="380.0" y="150.0" font-size="18" fill="#1f2933" text-anchor="start" font-weight="bold" font-style="normal">r = d : 2</text>
+<text x="380.0" y="200.0" font-size="16" fill="#1f2933" text-anchor="start" font-weight="normal" font-style="normal">omtrek O = πd = 2πr</text>
+<text x="380.0" y="228.0" font-size="16" fill="#1f2933" text-anchor="start" font-weight="normal" font-style="normal">oppervlakte A = πr²</text>
+
+</svg>

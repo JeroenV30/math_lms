@@ -2,18 +2,26 @@
   "exercises": [
     {
       "id": "09-001",
-      "question": "Een prijs stijgt van € 100 naar € 120. Hoeveel procent is de stijging?",
-      "answer": 20,
-      "solution": [
-        "Het verschil is 20.",
-        "$20/100\\times100=20\\%$."
-      ],
-      "hints": [
-        "Gebruik 100 als oorspronkelijke basis."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Een prijs stijgt van € 100 naar € 120. Met hoeveel procent stijgt de prijs?",
+      "answer": 20,
+      "hints": [
+        "Wat is hier 100%? De oorspronkelijke prijs.",
+        "De stijging is € 20. Hoeveel is dat per honderd euro?"
+      ],
+      "solution": [
+        "De oude prijs van € 100 is de basis (100%).",
+        "De stijging is $120 - 100 = 20$ euro.",
+        "$\\tfrac{20}{100} = 20\\%$."
+      ],
+      "feedback": [
+        {
+          "answer": 120,
+          "message": "Dat is de nieuwe prijs als percentage van de oude: 120%. Gevraagd is hoeveel procent er bij is gekomen: dat is 20%."
+        }
+      ],
       "topics": [
         "percentages"
       ],
@@ -21,142 +29,224 @@
     },
     {
       "id": "09-002",
-      "question": "Een prijs daalt van € 120 naar € 100. Hoeveel procent is de daling? Rond af op twee decimalen.",
-      "answer": 16.67,
-      "solution": [
-        "De daling is 20 euro.",
-        "$20/120\\times100=16{,}666\\ldots\\approx16{,}67\\%$."
-      ],
-      "hints": [
-        "Gebruik nu 120 als basis."
-      ],
       "type": "decimal",
       "mode": "guided",
       "difficulty": 2,
+      "question": "Een prijs daalt van € 120 naar € 100. Met hoeveel procent daalt de prijs? Rond af op twee decimalen.",
+      "answer": 16.67,
+      "hints": [
+        "Wat is nu 100%? De prijs vóór de daling.",
+        "De daling is weer € 20, maar de basis is € 120."
+      ],
+      "solution": [
+        "De daling is $120 - 100 = 20$ euro.",
+        "De basis is de prijs vóór de daling: € 120.",
+        "$\\tfrac{20}{120} = 0{,}1666\\ldots$, dus $16{,}666\\ldots\\% \\approx 16{,}67\\%$."
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "De daling is weer € 20, maar nu over een basis van € 120, niet € 100. $\\tfrac{20}{120} \\approx 16{,}67\\%$. Daarom heffen 20% erbij en 20% eraf elkaar niet op."
+        }
+      ],
       "topics": [
         "percentages"
       ],
-      "unit": "%"
+      "unit": "%",
+      "tolerance": 0.005
     },
     {
       "id": "09-003",
-      "question": "Schrijf 25% als volledig vereenvoudigde breuk.",
-      "answer": "1/4",
-      "solution": [
-        "$25/100=1/4$."
-      ],
-      "hints": [
-        "Procent betekent per honderd."
-      ],
       "type": "fraction",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Schrijf 25% als volledig vereenvoudigde breuk.",
+      "answer": "1/4",
+      "hints": [
+        "Procent betekent per honderd: schrijf eerst $\\tfrac{25}{100}$.",
+        "Teller en noemer zijn allebei deelbaar door 25."
+      ],
+      "solution": [
+        "$25\\% = \\tfrac{25}{100}$.",
+        "Deel teller en noemer door 25: $\\tfrac{25}{100} = \\tfrac{1}{4}$."
+      ],
       "topics": [
-        "percentages"
+        "percentages",
+        "fractions"
       ],
       "require_simplified": true
     },
     {
       "id": "09-004",
-      "question": "Schrijf 0,35 als percentage.",
-      "answer": 35,
-      "solution": [
-        "$0{,}35\\times100=35\\%$."
-      ],
-      "hints": [
-        "Vermenigvuldig het decimale getal met 100."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Schrijf het kommagetal 0,35 als percentage.",
+      "answer": 35,
+      "hints": [
+        "Vermenigvuldig met 100: de komma schuift twee plaatsen naar rechts.",
+        "Controle: $0{,}5 = 50\\%$, dus 0,35 ligt iets onder de 50%."
+      ],
+      "solution": [
+        "$0{,}35 \\times 100 = 35$.",
+        "Dus $0{,}35 = 35\\%$."
+      ],
+      "feedback": [
+        {
+          "answer": 3.5,
+          "message": "Je hebt de komma maar één plaats verschoven (maal 10). Voor procenten vermenigvuldig je met 100: $0{,}35 = 35\\%$."
+        },
+        {
+          "answer": 0.35,
+          "message": "Dat is het kommagetal zelf. Om er een percentage van te maken, vermenigvuldig je met 100."
+        }
+      ],
       "topics": [
-        "percentages"
+        "percentages",
+        "decimals"
       ],
       "unit": "%"
     },
     {
       "id": "09-005",
-      "question": "Schrijf 12,5% als decimaal.",
-      "answer": 0.125,
-      "solution": [
-        "$12{,}5:100=0{,}125$."
-      ],
-      "hints": [
-        "Deel het percentagegetal door 100."
-      ],
       "type": "decimal",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Schrijf 12,5% als kommagetal.",
+      "answer": 0.125,
+      "hints": [
+        "Deel door 100: de komma schuift twee plaatsen naar links.",
+        "Controle: $10\\% = 0{,}1$, dus het antwoord ligt iets boven 0,1."
+      ],
+      "solution": [
+        "$12{,}5 : 100 = 0{,}125$.",
+        "Dus $12{,}5\\% = 0{,}125$ (en dat is ook $\\tfrac18$)."
+      ],
+      "feedback": [
+        {
+          "answer": 1.25,
+          "message": "Je hebt door 10 gedeeld in plaats van door 100. $1{,}25$ zou 125% zijn. Schuif de komma twee plaatsen: $0{,}125$."
+        }
+      ],
       "topics": [
-        "percentages"
+        "percentages",
+        "decimals"
       ]
     },
     {
       "id": "09-006",
-      "question": "Schrijf 0,5% als decimaal.",
-      "answer": 0.005,
-      "solution": [
-        "$0{,}5:100=0{,}005$."
-      ],
-      "hints": [
-        "Een halve procent is een halve honderdste."
-      ],
       "type": "decimal",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Schrijf 0,5% als kommagetal.",
+      "answer": 0.005,
+      "hints": [
+        "Een halve procent is een half honderdste.",
+        "Deel 0,5 door 100."
+      ],
+      "solution": [
+        "$0{,}5 : 100 = 0{,}005$.",
+        "Controle: $1\\% = 0{,}01$ en een halve procent is de helft daarvan: $0{,}005$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.5,
+          "message": "Dat is een half, dus 50%. Het procentteken betekent 'gedeeld door 100': $0{,}5\\% = 0{,}005$."
+        },
+        {
+          "answer": 0.05,
+          "message": "Dat is 5%. Een halve procent is tien keer zo klein: $0{,}005$."
+        }
+      ],
       "topics": [
-        "percentages"
+        "percentages",
+        "decimals"
       ]
     },
     {
       "id": "09-007",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
       "question": "Bereken 150% van 80.",
       "answer": 120,
-      "solution": [
-        "$150\\%=1{,}5$.",
-        "$1{,}5\\times80=120$."
-      ],
       "hints": [
-        "Een percentage kan groter zijn dan 100."
+        "Een percentage kan groter zijn dan 100: $150\\% = 1{,}5$.",
+        "150% is het geheel plus nog de helft ervan."
       ],
-      "type": "numeric",
-      "mode": "guided",
-      "difficulty": 1,
+      "solution": [
+        "$150\\% = \\tfrac{150}{100} = 1{,}5$.",
+        "$1{,}5 \\times 80 = 120$.",
+        "Controle: 100% is 80 en 50% is 40; samen 120."
+      ],
+      "feedback": [
+        {
+          "answer": 40,
+          "message": "Dat is 50% van 80. 150% is het hele getal plus de helft: $80 + 40 = 120$."
+        },
+        {
+          "answer": 12000,
+          "message": "Je hebt 150 maal 80 gerekend en het procentteken vergeten. 150% is 1,5."
+        }
+      ],
       "topics": [
         "percentages"
       ]
     },
     {
       "id": "09-008",
-      "question": "Bereken 15% van 240.",
-      "answer": 36,
-      "solution": [
-        "10% is 24 en 5% is 12.",
-        "Samen 36."
-      ],
-      "hints": [
-        "Je kunt ook $0{,}15\\times240$ nemen."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken 15% van 240.",
+      "answer": 36,
+      "hints": [
+        "Bereken eerst 10% van 240, en dan 5%.",
+        "Je kunt ook $0{,}15 \\times 240$ uitrekenen."
+      ],
+      "solution": [
+        "$10\\%$ van 240 is 24.",
+        "$5\\%$ is de helft daarvan: 12.",
+        "$15\\% = 10\\% + 5\\%$, dus $24 + 12 = 36$.",
+        "Controle met de factor: $0{,}15 \\times 240 = 36$."
+      ],
+      "feedback": [
+        {
+          "answer": 3600,
+          "message": "Je hebt 15 maal 240 berekend en niet door 100 gedeeld. 15% betekent 15 honderdsten."
+        }
+      ],
       "topics": [
-        "percentages"
+        "percentages",
+        "mental-math"
       ]
     },
     {
       "id": "09-009",
-      "question": "28 van 80 deelnemers fietsen. Hoeveel procent is dat?",
-      "answer": 35,
-      "solution": [
-        "$28/80=0{,}35=35\\%$."
-      ],
-      "hints": [
-        "Deel het deel door het geheel."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Van de 80 deelnemers aan een cursus komen er 28 met de fiets. Hoeveel procent van de deelnemers fietst?",
+      "answer": 35,
+      "hints": [
+        "Wat is 100%? Alle deelnemers.",
+        "Deel het deel door het geheel en vermenigvuldig met 100."
+      ],
+      "solution": [
+        "De basis (100%) is het totaal: 80 deelnemers.",
+        "$\\tfrac{28}{80} = 0{,}35$.",
+        "$0{,}35 \\times 100 = 35\\%$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.35,
+          "message": "Dat is de verhouding als kommagetal. Vermenigvuldig met 100 voor het percentage: 35%."
+        },
+        {
+          "answer": 2.86,
+          "message": "Je hebt het geheel door het deel gedeeld ($80 : 28$). Deel het deel door het geheel: $28 : 80$."
+        }
+      ],
       "topics": [
         "percentages"
       ],
@@ -164,52 +254,79 @@
     },
     {
       "id": "09-010",
-      "question": "42 is 35% van een geheel. Wat is het geheel?",
-      "answer": 120,
-      "solution": [
-        "$42:0{,}35=120$."
-      ],
-      "hints": [
-        "42 is niet 100%, maar 35%."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 2,
+      "question": "42 is 35% van een onbekend getal. Wat is dat getal?",
+      "answer": 120,
+      "hints": [
+        "42 is niet 100%, maar 35%. Het gezochte getal is dus groter dan 42.",
+        "Bereken eerst hoeveel 1% is: $42 : 35$."
+      ],
+      "solution": [
+        "35% hoort bij 42, dus 1% hoort bij $42 : 35 = 1{,}2$.",
+        "100% hoort bij $100 \\times 1{,}2 = 120$.",
+        "Korter: $42 : 0{,}35 = 120$.",
+        "Controle: $0{,}35 \\times 120 = 42$."
+      ],
+      "feedback": [
+        {
+          "answer": 14.7,
+          "message": "Je hebt 35% van 42 berekend. Maar 42 is zelf het deel; het geheel is groter. Deel 42 door 0,35."
+        }
+      ],
       "topics": [
         "percentages"
       ]
     },
     {
       "id": "09-011",
-      "question": "60 beschadigde onderdelen vormen 12% van een voorraad. Hoeveel onderdelen bevat de voorraad?",
-      "answer": 500,
-      "solution": [
-        "$60:0{,}12=500$."
-      ],
-      "hints": [
-        "Vind eerst één procent of deel door 0,12."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
+      "question": "In een magazijn zijn 60 onderdelen beschadigd. Dat is 12% van de hele voorraad. Hoeveel onderdelen bevat de voorraad?",
+      "answer": 500,
+      "hints": [
+        "Vind eerst hoeveel onderdelen bij 1% horen.",
+        "Of deel 60 door 0,12."
+      ],
+      "solution": [
+        "12% hoort bij 60 onderdelen, dus 1% hoort bij $60 : 12 = 5$.",
+        "100% hoort bij $100 \\times 5 = 500$.",
+        "Controle: $0{,}12 \\times 500 = 60$."
+      ],
+      "feedback": [
+        {
+          "answer": 7.2,
+          "message": "Je hebt 12% van 60 berekend. De 60 onderdelen zíjn de 12%; het geheel is veel groter."
+        }
+      ],
       "topics": [
         "percentages"
       ]
     },
     {
       "id": "09-012",
-      "question": "Van 120 mensen zijn er 30 aanwezig. Hoeveel procent is afwezig?",
-      "answer": 75,
-      "solution": [
-        "Afwezig: $120-30=90$.",
-        "$90/120\\times100=75\\%$."
-      ],
-      "hints": [
-        "Bereken eerst hoeveel mensen afwezig zijn."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
+      "question": "Van een groep van 120 mensen zijn er 30 aanwezig. Hoeveel procent van de groep is afwezig?",
+      "answer": 75,
+      "hints": [
+        "Bereken eerst hoeveel mensen afwezig zijn.",
+        "De basis is de hele groep."
+      ],
+      "solution": [
+        "Afwezig: $120 - 30 = 90$ mensen.",
+        "$\\tfrac{90}{120} = 0{,}75 = 75\\%$.",
+        "Controle: 25% aanwezig plus 75% afwezig is 100%."
+      ],
+      "feedback": [
+        {
+          "answer": 25,
+          "message": "Dat is het percentage aanwezigen. Gevraagd wordt het percentage afwezigen: $100\\% - 25\\% = 75\\%$."
+        }
+      ],
       "topics": [
         "percentages"
       ],
@@ -217,18 +334,30 @@
     },
     {
       "id": "09-013",
-      "question": "Er zijn 90 afwezigen en 30 aanwezigen. Hoeveel procent vormen de afwezigen van het aantal aanwezigen?",
-      "answer": 300,
-      "solution": [
-        "De basis is nu 30.",
-        "$90/30\\times100=300\\%$."
-      ],
-      "hints": [
-        "De formulering geeft het aantal aanwezigen als 100%."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
+      "question": "In een groep zijn 90 mensen afwezig en 30 aanwezig. Hoeveel procent is het aantal afwezigen **van het aantal aanwezigen**?",
+      "answer": 300,
+      "hints": [
+        "Lees welke hoeveelheid nu 100% is: het getal na 'van'.",
+        "De basis is het aantal aanwezigen, 30."
+      ],
+      "solution": [
+        "De basis (100%) is nu het aantal aanwezigen: 30.",
+        "$\\tfrac{90}{30} = 3$.",
+        "$3 \\times 100\\% = 300\\%$."
+      ],
+      "feedback": [
+        {
+          "answer": 75,
+          "message": "Dat is het percentage afwezigen van de hele groep. Hier is het aantal aanwezigen (30) de basis."
+        },
+        {
+          "answer": 33.33,
+          "message": "Je hebt de aanwezigen als deel van de afwezigen genomen ($30 : 90$). Het omgekeerde wordt gevraagd: $90 : 30$."
+        }
+      ],
       "topics": [
         "percentages"
       ],
@@ -236,18 +365,26 @@
     },
     {
       "id": "09-014",
-      "question": "Een prijs stijgt van € 80 naar € 92. Hoeveel procent stijgt hij?",
-      "answer": 15,
-      "solution": [
-        "Verschil: 12 euro.",
-        "$12/80\\times100=15\\%$."
-      ],
-      "hints": [
-        "Gebruik de oude prijs in de noemer."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Een prijs stijgt van € 80 naar € 92. Met hoeveel procent stijgt de prijs?",
+      "answer": 15,
+      "hints": [
+        "Bereken eerst het verschil in euro's.",
+        "Deel het verschil door de oude prijs."
+      ],
+      "solution": [
+        "Verschil: $92 - 80 = 12$ euro.",
+        "Basis: de oude prijs, € 80.",
+        "$\\tfrac{12}{80} = 0{,}15 = 15\\%$."
+      ],
+      "feedback": [
+        {
+          "answer": 13.04,
+          "message": "Je hebt door de nieuwe prijs gedeeld. Een stijging bereken je ten opzichte van de oude prijs: $\\tfrac{12}{80}$."
+        }
+      ],
       "topics": [
         "percentages"
       ],
@@ -255,18 +392,25 @@
     },
     {
       "id": "09-015",
-      "question": "Een voorraad daalt van 250 naar 200. Hoeveel procent bedraagt de afname?",
-      "answer": 20,
-      "solution": [
-        "De afname is 50.",
-        "$50/250\\times100=20\\%$."
-      ],
-      "hints": [
-        "De oude hoeveelheid is 250."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
+      "question": "Een voorraad daalt van 250 naar 200 stuks. Met hoeveel procent neemt de voorraad af?",
+      "answer": 20,
+      "hints": [
+        "De oude hoeveelheid is de basis.",
+        "De afname is 50 stuks."
+      ],
+      "solution": [
+        "Afname: $250 - 200 = 50$ stuks.",
+        "$\\tfrac{50}{250} = 0{,}2 = 20\\%$."
+      ],
+      "feedback": [
+        {
+          "answer": 25,
+          "message": "Je hebt door de nieuwe voorraad (200) gedeeld. De basis is de voorraad vóór de daling: 250."
+        }
+      ],
       "topics": [
         "percentages"
       ],
@@ -274,17 +418,23 @@
     },
     {
       "id": "09-016",
-      "question": "Een aandeel stijgt van 20% naar 25%. Hoeveel procentpunten is dat?",
-      "answer": 5,
-      "solution": [
-        "$25-20=5$ procentpunten."
-      ],
-      "hints": [
-        "Een verschil in procentpunten is een aftrekking."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Het aandeel van een partij in een peiling stijgt van 20% naar 25%. Hoeveel procentpunten is die stijging?",
+      "answer": 5,
+      "hints": [
+        "Een verschil in procentpunten vind je door de percentages af te trekken."
+      ],
+      "solution": [
+        "$25 - 20 = 5$ procentpunten."
+      ],
+      "feedback": [
+        {
+          "answer": 25,
+          "message": "25% is de relatieve stijging ($\\tfrac{5}{20}$). In procentpunten trek je de percentages gewoon af: 5."
+        }
+      ],
       "topics": [
         "percentages"
       ],
@@ -292,43 +442,52 @@
     },
     {
       "id": "09-017",
-      "question": "Een aandeel stijgt van 20% naar 25%. Hoeveel procent is de relatieve stijging?",
-      "answer": 25,
-      "solution": [
-        "Het verschil is 5.",
-        "$5/20\\times100=25\\%$."
-      ],
-      "hints": [
-        "Neem 20 als basis voor de relatieve verandering."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 2,
-      "topics": [
-        "percentages"
+      "question": "Het aandeel van een partij in een peiling stijgt van 20% naar 25%. Met hoeveel procent is het aandeel relatief gestegen?",
+      "answer": 25,
+      "hints": [
+        "Behandel het oude percentage (20) als basis.",
+        "Het verschil is 5 procentpunten."
       ],
-      "unit": "%",
+      "solution": [
+        "Het verschil is $25 - 20 = 5$ procentpunten.",
+        "Ten opzichte van de oude 20: $\\tfrac{5}{20} = 0{,}25 = 25\\%$."
+      ],
       "feedback": [
         {
           "answer": 5,
           "message": "Vijf is het verschil in procentpunten. Voor de relatieve stijging deel je vijf ook door de oude twintig."
         }
-      ]
+      ],
+      "topics": [
+        "percentages"
+      ],
+      "unit": "%"
     },
     {
       "id": "09-018",
-      "question": "Een product van € 80 krijgt 15% korting. Wat betaal je?",
-      "answer": 68,
-      "solution": [
-        "Je betaalt 85% van 80.",
-        "$0{,}85\\times80=68$."
-      ],
-      "hints": [
-        "Trek het kortingspercentage van 100 af."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Een product van € 80 krijgt 15% korting. Hoeveel betaal je?",
+      "answer": 68,
+      "hints": [
+        "Na 15% korting betaal je $100\\% - 15\\% = 85\\%$.",
+        "Bereken $0{,}85 \\times 80$."
+      ],
+      "solution": [
+        "De korting is $0{,}15 \\times 80 = 12$ euro.",
+        "Je betaalt $80 - 12 = 68$ euro.",
+        "In één stap: $0{,}85 \\times 80 = 68$."
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Dat is het kortingsbedrag. Gevraagd is wat je betaalt: $80 - 12 = 68$ euro."
+        }
+      ],
       "topics": [
         "percentages"
       ],
@@ -336,76 +495,109 @@
     },
     {
       "id": "09-019",
-      "question": "Welke groeifactor hoort bij een stijging van 12%?",
-      "answer": 1.12,
-      "solution": [
-        "$1+0{,}12=1{,}12$."
-      ],
-      "hints": [
-        "De oorspronkelijke 100% blijft bestaan."
-      ],
       "type": "decimal",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Welke groeifactor hoort bij een stijging van 12%?",
+      "answer": 1.12,
+      "hints": [
+        "De oorspronkelijke 100% blijft bestaan en er komt 12% bij.",
+        "112% als kommagetal."
+      ],
+      "solution": [
+        "Na de stijging heb je $100\\% + 12\\% = 112\\%$.",
+        "$112\\% = 1{,}12$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.12,
+          "message": "0,12 is alleen het deel dat erbij komt. De groeifactor geeft de nieuwe waarde: $1 + 0{,}12 = 1{,}12$."
+        },
+        {
+          "answer": 12,
+          "message": "Gebruik een kommagetal, geen percentage: 112% is 1,12."
+        }
+      ],
       "topics": [
         "percentages"
       ]
     },
     {
       "id": "09-020",
-      "question": "Welke groeifactor hoort bij een daling van 12%?",
-      "answer": 0.88,
-      "solution": [
-        "$1-0{,}12=0{,}88$."
-      ],
-      "hints": [
-        "Hoeveel procent blijft over?"
-      ],
       "type": "decimal",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Welke groeifactor hoort bij een daling van 12%?",
+      "answer": 0.88,
+      "hints": [
+        "Hoeveel procent blijft er over?"
+      ],
+      "solution": [
+        "Er blijft $100\\% - 12\\% = 88\\%$ over.",
+        "$88\\% = 0{,}88$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.12,
+          "message": "0,12 is het deel dat verdwijnt. De groeifactor is wat er overblijft: $1 - 0{,}12 = 0{,}88$."
+        },
+        {
+          "answer": 1.12,
+          "message": "Dat is de groeifactor van een stijging van 12%. Bij een daling is de factor kleiner dan 1."
+        }
+      ],
       "topics": [
         "percentages"
       ]
     },
     {
       "id": "09-021",
-      "question": "Een prijs van € 100 stijgt 20% en daalt daarna 20%. Wat is de eindprijs?",
-      "answer": 96,
-      "solution": [
-        "$100\\times1{,}2\\times0{,}8=96$."
-      ],
-      "hints": [
-        "De tweede verandering heeft een nieuwe basis."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 2,
-      "topics": [
-        "percentages"
+      "question": "Een prijs van € 100 stijgt met 20% en daalt daarna met 20%. Wat is de eindprijs?",
+      "answer": 96,
+      "hints": [
+        "De tweede verandering heeft een nieuwe basis.",
+        "Vermenigvuldig met 1,2 en daarna met 0,8."
       ],
-      "unit": "€",
+      "solution": [
+        "Na de stijging: $1{,}2 \\times 100 = 120$ euro.",
+        "Na de daling: $0{,}8 \\times 120 = 96$ euro.",
+        "In één stap: $100 \\times 1{,}2 \\times 0{,}8 = 100 \\times 0{,}96 = 96$."
+      ],
       "feedback": [
         {
           "answer": 100,
-          "message": "De 20% stijging en daling hebben verschillende bases. Vermenigvuldig met 1,2 en daarna met 0,8."
+          "message": "De 20% stijging en de 20% daling hebben verschillende bases (€ 100 en € 120). Vermenigvuldig met 1,2 en daarna met 0,8."
         }
-      ]
+      ],
+      "topics": [
+        "percentages"
+      ],
+      "unit": "€"
     },
     {
       "id": "09-022",
-      "question": "Een bedrag stijgt tweemaal achter elkaar met 10%. Hoeveel procent is de totale stijging?",
-      "answer": 21,
-      "solution": [
-        "$1{,}1\\times1{,}1=1{,}21$.",
-        "Dat is 121% van oud, dus 21% groei."
-      ],
-      "hints": [
-        "Vermenigvuldig de factoren; tel de percentages niet op."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
+      "question": "Een huur stijgt twee jaar achter elkaar met 10%. Met hoeveel procent is de huur in totaal gestegen?",
+      "answer": 21,
+      "hints": [
+        "Vermenigvuldig de groeifactoren; tel de percentages niet op."
+      ],
+      "solution": [
+        "Groeifactor per jaar: 1,1.",
+        "Totaal: $1{,}1 \\times 1{,}1 = 1{,}21$.",
+        "De huur is nu 121% van de oude: een stijging van 21%."
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Je hebt de percentages opgeteld. De tweede verhoging wordt ook over de eerste berekend: $1{,}1 \\times 1{,}1 = 1{,}21$, dus 21%."
+        }
+      ],
       "topics": [
         "percentages"
       ],
@@ -413,18 +605,26 @@
     },
     {
       "id": "09-023",
-      "question": "Na 20% korting betaal je € 64. Wat was de oorspronkelijke prijs?",
-      "answer": 80,
-      "solution": [
-        "64 is 80% van de oude prijs.",
-        "$64:0{,}8=80$."
-      ],
-      "hints": [
-        "Deel door de kortingsfactor."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 2,
+      "question": "Na 20% korting betaal je € 64. Wat was de oorspronkelijke prijs?",
+      "answer": 80,
+      "hints": [
+        "€ 64 is 80% van de oorspronkelijke prijs.",
+        "Deel door de groeifactor 0,8."
+      ],
+      "solution": [
+        "Na 20% korting betaal je 80%: groeifactor 0,8.",
+        "$\\text{oud} = 64 : 0{,}8 = 80$ euro.",
+        "Controle: 20% van 80 is 16, en $80 - 16 = 64$."
+      ],
+      "feedback": [
+        {
+          "answer": 76.8,
+          "message": "Je hebt € 64 met 20% verhoogd. Maar de korting werd over de oude prijs berekend, niet over € 64. Deel door 0,8."
+        }
+      ],
       "topics": [
         "percentages"
       ],
@@ -432,73 +632,115 @@
     },
     {
       "id": "09-024",
-      "question": "Een prijs inclusief een fictieve belasting van 20% is € 60. Wat is de prijs zonder belasting?",
-      "answer": 50,
-      "solution": [
-        "Bruto is 1,2 maal netto.",
-        "$60:1{,}2=50$."
-      ],
-      "hints": [
-        "Bruto is 120% van netto, niet andersom."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
+      "question": "In Frankrijk is het algemene btw-tarief 20%. Een product kost daar € 60 inclusief btw. Wat is de prijs exclusief btw?",
+      "answer": 50,
+      "hints": [
+        "De prijs inclusief btw is 120% van de prijs exclusief btw.",
+        "Deel door de groeifactor 1,2."
+      ],
+      "solution": [
+        "Inclusief = $1{,}2 \\times$ exclusief.",
+        "Exclusief $= 60 : 1{,}2 = 50$ euro.",
+        "Het btw-bedrag is € 10: dat is 20% van € 50, niet 20% van € 60."
+      ],
+      "feedback": [
+        {
+          "answer": 48,
+          "message": "Je hebt 20% van € 60 afgetrokken. De btw is 20% van de prijs exclusief btw. Deel € 60 door 1,2."
+        }
+      ],
       "topics": [
-        "percentages"
+        "percentages",
+        "finance"
       ],
       "unit": "€"
     },
     {
       "id": "09-025",
-      "question": "Een inleg van € 1000 krijgt in een model 5% enkelvoudige rente per jaar. Wat is het bedrag na drie jaar?",
-      "answer": 1150,
-      "solution": [
-        "Jaarlijks $0{,}05\\times1000=50$ euro.",
-        "$1000+3\\times50=1150$."
-      ],
-      "hints": [
-        "De basis blijft elk jaar 1000."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 2,
+      "question": "Iemand zet € 1.000 uit tegen 5% enkelvoudige rente per jaar. Hoeveel euro is het bedrag na drie jaar?",
+      "answer": 1150,
+      "hints": [
+        "Bij enkelvoudige rente blijft de basis elk jaar € 1.000.",
+        "Bereken de rente per jaar en vermenigvuldig met 3."
+      ],
+      "solution": [
+        "Rente per jaar: $0{,}05 \\times 1000 = 50$ euro.",
+        "Rente over drie jaar: $3 \\times 50 = 150$ euro.",
+        "Eindbedrag: $1000 + 150 = 1150$ euro."
+      ],
+      "feedback": [
+        {
+          "answer": 1157.63,
+          "message": "Dat is het bedrag bij samengestelde rente. Bij enkelvoudige rente wordt de rente steeds over de oorspronkelijke € 1.000 berekend."
+        },
+        {
+          "answer": 150,
+          "message": "€ 150 is de rente. Gevraagd is het bedrag na drie jaar: $1000 + 150$."
+        }
+      ],
       "topics": [
-        "percentages"
+        "percentages",
+        "finance"
       ],
       "unit": "€"
     },
     {
       "id": "09-026",
-      "question": "Een inleg van € 1000 groeit in een model elk jaar 5% met samengestelde rente. Wat is het bedrag na twee jaar?",
-      "answer": 1102.5,
-      "solution": [
-        "$1000\\times1{,}05\\times1{,}05=1102{,}50$."
-      ],
-      "hints": [
-        "De eerdere rente telt het tweede jaar mee."
-      ],
       "type": "decimal",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
-      "topics": [
-        "percentages"
+      "question": "Een inleg van € 1.000 groeit elk jaar met 5% samengestelde rente. Hoeveel euro is het bedrag na twee jaar?",
+      "answer": 1102.5,
+      "hints": [
+        "Bij samengestelde rente vermenigvuldig je elk jaar met dezelfde groeifactor.",
+        "Bereken $1000 \\times 1{,}05 \\times 1{,}05$."
       ],
-      "unit": "€"
+      "solution": [
+        "Na één jaar: $1000 \\times 1{,}05 = 1050$ euro.",
+        "Na twee jaar: $1050 \\times 1{,}05 = 1102{,}50$ euro.",
+        "Het tweede jaar levert € 52,50 rente op: ook over de rente van het eerste jaar wordt rente berekend."
+      ],
+      "feedback": [
+        {
+          "answer": 1100,
+          "message": "Dat is het bedrag bij enkelvoudige rente. Bij samengestelde rente telt de rente van het eerste jaar mee in het tweede jaar: $1050 \\times 1{,}05$."
+        }
+      ],
+      "topics": [
+        "percentages",
+        "finance"
+      ],
+      "unit": "€",
+      "tolerance": 0.005
     },
     {
       "id": "09-027",
-      "question": "Een prijs van € 80 krijgt eerst 25% korting en dan nog 10% op de afgeprijsde prijs. Wat betaal je?",
-      "answer": 54,
-      "solution": [
-        "$80\\times0{,}75\\times0{,}9=54$."
-      ],
-      "hints": [
-        "Gebruik voor beide kortingen een aparte factor."
-      ],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 2,
+      "question": "Een product van € 80 krijgt eerst 25% korting en daarna nog 10% korting op de afgeprijsde prijs. Hoeveel betaal je?",
+      "answer": 54,
+      "hints": [
+        "Gebruik voor elke korting een eigen groeifactor.",
+        "$0{,}75$ en $0{,}9$."
+      ],
+      "solution": [
+        "Na 25% korting: $0{,}75 \\times 80 = 60$ euro.",
+        "Na nog 10% korting: $0{,}9 \\times 60 = 54$ euro.",
+        "Totale factor $0{,}75 \\times 0{,}9 = 0{,}675$: in totaal 32,5% korting, geen 35%."
+      ],
+      "feedback": [
+        {
+          "answer": 52,
+          "message": "Je hebt de kortingen opgeteld tot 35%. De tweede korting wordt over de afgeprijsde € 60 berekend: $0{,}9 \\times 60 = 54$."
+        }
+      ],
       "topics": [
         "percentages"
       ],
@@ -506,17 +748,26 @@
     },
     {
       "id": "09-028",
-      "question": "Na een stijging van 8% is een bedrag € 270. Wat was het oorspronkelijke bedrag?",
-      "answer": 250,
-      "solution": [
-        "$270:1{,}08=250$."
-      ],
-      "hints": [
-        "Deel door de groeifactor."
-      ],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 2,
+      "question": "Na een stijging van 8% is een bedrag € 270. Wat was het oorspronkelijke bedrag?",
+      "answer": 250,
+      "hints": [
+        "€ 270 is 108% van het oorspronkelijke bedrag.",
+        "Deel door de groeifactor."
+      ],
+      "solution": [
+        "Groeifactor: 1,08.",
+        "$\\text{oud} = 270 : 1{,}08 = 250$ euro.",
+        "Controle: $8\\%$ van 250 is 20, en $250 + 20 = 270$."
+      ],
+      "feedback": [
+        {
+          "answer": 248.4,
+          "message": "Je hebt 8% van € 270 afgetrokken. De stijging is berekend over het oude bedrag; deel daarom door 1,08."
+        }
+      ],
       "topics": [
         "percentages"
       ],
@@ -524,43 +775,434 @@
     },
     {
       "id": "09-029",
-      "question": "Een bedrag is van 40 naar 46 gestegen. Hoeveel procent is 40 kleiner dan 46? Rond af op twee decimalen.",
-      "answer": 13.04,
-      "solution": [
-        "Voor deze vraag is 46 de basis.",
-        "$6/46\\times100\\approx13{,}04\\%$."
-      ],
-      "hints": [
-        "Lees welke hoeveelheid nu als basis geldt."
-      ],
       "type": "decimal",
       "mode": "independent",
       "difficulty": 3,
+      "question": "Een bedrag is van 40 naar 46 gestegen. Hoeveel procent is 40 kleiner dan 46? Rond af op twee decimalen.",
+      "answer": 13.04,
+      "hints": [
+        "Het getal na 'dan' is de basis.",
+        "Hier is 46 dus 100%."
+      ],
+      "solution": [
+        "Het verschil is $46 - 40 = 6$.",
+        "Voor deze vraag is 46 de basis.",
+        "$\\tfrac{6}{46} = 0{,}13043\\ldots$, dus ongeveer $13{,}04\\%$."
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "15% is hoeveel 46 groter is dan 40 (basis 40). Bij 'hoeveel kleiner dan 46' is 46 de basis: $\\tfrac{6}{46}$."
+        }
+      ],
+      "topics": [
+        "percentages"
+      ],
+      "unit": "%",
+      "tolerance": 0.005
+    },
+    {
+      "id": "09-030",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een prijs stijgt eerst met 25%. Met hoeveel procent moet de nieuwe prijs vervolgens dalen om precies weer op de oorspronkelijke prijs uit te komen?",
+      "answer": 20,
+      "hints": [
+        "Je mag beginnen met een oorspronkelijke prijs van 100.",
+        "De daling gebruikt de nieuwe prijs als basis."
+      ],
+      "solution": [
+        "Neem een oude prijs van 100; de nieuwe prijs is 125.",
+        "Er moet 25 af, over een basis van 125: $\\tfrac{25}{125} = 20\\%$.",
+        "Algemeen: je zoekt $g$ met $1{,}25 \\times g = 1$, dus $g = 1 : 1{,}25 = 0{,}8$: een daling van 20%.",
+        "Omdat het om groeifactoren gaat, hangt het antwoord niet af van de beginprijs."
+      ],
+      "feedback": [
+        {
+          "answer": 25,
+          "message": "Een daling van 25% over de hogere prijs haalt meer weg dan er bijkwam: $1{,}25 \\times 0{,}75 = 0{,}9375$. Je zoekt de factor $g$ met $1{,}25 \\times g = 1$."
+        }
+      ],
       "topics": [
         "percentages"
       ],
       "unit": "%"
     },
     {
-      "id": "09-030",
-      "question": "Een prijs stijgt eerst 25%. Met hoeveel procent moet de nieuwe prijs dalen om weer op de oorspronkelijke prijs te komen?",
-      "answer": 20,
-      "solution": [
-        "Neem oud 100; nieuw wordt 125.",
-        "De benodigde daling is 25 van 125: $25/125=20\\%$.",
-        "Algemeen is de terugfactor $1:1{,}25=0{,}8$."
-      ],
-      "hints": [
-        "Je mag beginnen met een oorspronkelijke prijs van 100.",
-        "De daling gebruikt de nieuwe prijs als basis."
-      ],
+      "id": "09-031",
       "type": "numeric",
-      "mode": "challenge",
-      "difficulty": 4,
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een Romein koopt op een veiling een partij gereedschap voor 3.600 sestertiën. Hij betaalt de *centesima*: één honderdste van de prijs. Hoeveel sestertiën heffing betaalt hij?",
+      "answer": 36,
+      "hints": [
+        "Eén honderdste van een bedrag vind je door het bedrag door 100 te delen.",
+        "Een honderdste is hetzelfde als 1%."
+      ],
+      "solution": [
+        "De heffing is $\\tfrac{1}{100}$ van de prijs, dus 1%.",
+        "$3600 : 100 = 36$.",
+        "De koper betaalt 36 sestertiën heffing."
+      ],
+      "feedback": [
+        {
+          "answer": 360,
+          "message": "Dat is een tiende van 3.600, dus 10%. Een honderdste is tien keer zo klein: $3600 : 100 = 36$."
+        }
+      ],
+      "topics": [
+        "percentages",
+        "fractions"
+      ],
+      "unit": "sestertiën"
+    },
+    {
+      "id": "09-032",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Schrijf de breuk $\\tfrac{3}{8}$ als percentage.",
+      "answer": 37.5,
+      "hints": [
+        "De noemer 8 gaat niet in 100. Deel dus eerst 3 door 8.",
+        "Of gebruik $\\tfrac18 = 12{,}5\\%$."
+      ],
+      "solution": [
+        "$3 : 8 = 0{,}375$.",
+        "$0{,}375 \\times 100 = 37{,}5$, dus $\\tfrac38 = 37{,}5\\%$.",
+        "Controle: $\\tfrac18 = 12{,}5\\%$ en $3 \\times 12{,}5 = 37{,}5$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.375,
+          "message": "Dat is het kommagetal. Vermenigvuldig met 100 om het percentage te krijgen: 37,5%."
+        },
+        {
+          "answer": 38,
+          "message": "Je hebt afgerond, maar $\\tfrac38$ is precies 37,5%. Geef het exacte antwoord."
+        }
+      ],
+      "topics": [
+        "percentages",
+        "fractions"
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "09-033",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken zonder rekenmachine 35% van 860.",
+      "answer": 301,
+      "hints": [
+        "Splits 35% in $3 \\times 10\\%$ en $5\\%$.",
+        "10% van 860 is 86."
+      ],
+      "solution": [
+        "$10\\%$ van 860 is 86, dus $30\\%$ is $3 \\times 86 = 258$.",
+        "$5\\%$ is de helft van 10%: 43.",
+        "$35\\% = 30\\% + 5\\%$: $258 + 43 = 301$.",
+        "Controle: $0{,}35 \\times 860 = 301$."
+      ],
+      "feedback": [
+        {
+          "answer": 30.1,
+          "message": "Dat is 3,5% van 860, een factor tien te klein. 10% van 860 is 86, niet 8,6."
+        },
+        {
+          "answer": 258,
+          "message": "Dat is 30% van 860. Je moet er nog 5% (43) bij optellen."
+        }
+      ],
+      "topics": [
+        "percentages",
+        "mental-math"
+      ]
+    },
+    {
+      "id": "09-034",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een bank verhoogt de rente op een lening van 3,5% naar 4,2%. Met hoeveel procentpunt stijgt de rente?",
+      "answer": 0.7,
+      "hints": [
+        "Procentpunten: trek de percentages van elkaar af."
+      ],
+      "solution": [
+        "$4{,}2 - 3{,}5 = 0{,}7$ procentpunt.",
+        "Ter vergelijking: relatief is dat $\\tfrac{0{,}7}{3{,}5} = 20\\%$ hoger."
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "20% is de relatieve stijging. Het verschil in procentpunten vind je door af te trekken: $4{,}2 - 3{,}5 = 0{,}7$."
+        }
+      ],
+      "topics": [
+        "percentages",
+        "finance"
+      ],
+      "unit": "procentpunt"
+    },
+    {
+      "id": "09-035",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een jas van € 120 is afgeprijsd naar € 90. Hoeveel procent korting is dat?",
+      "answer": 25,
+      "hints": [
+        "De korting is het verschil tussen oude en nieuwe prijs.",
+        "Deel de korting door de oorspronkelijke prijs."
+      ],
+      "solution": [
+        "Korting: $120 - 90 = 30$ euro.",
+        "Basis: de oorspronkelijke prijs, € 120.",
+        "$\\tfrac{30}{120} = 0{,}25 = 25\\%$."
+      ],
+      "feedback": [
+        {
+          "answer": 30,
+          "message": "30 is de korting in euro's. Gevraagd wordt het percentage: $\\tfrac{30}{120} = 25\\%$."
+        },
+        {
+          "answer": 33.33,
+          "message": "Je hebt door de nieuwe prijs (€ 90) gedeeld. Een korting is een percentage van de oorspronkelijke prijs."
+        }
+      ],
       "topics": [
         "percentages"
       ],
       "unit": "%"
+    },
+    {
+      "id": "09-036",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een schilder rekent € 250 exclusief btw. Het btw-tarief is 21%. Wat is het bedrag inclusief btw?",
+      "answer": 302.5,
+      "hints": [
+        "De btw komt bovenop de prijs exclusief btw: groeifactor 1,21.",
+        "Of bereken eerst 21% van 250 en tel dat erbij op."
+      ],
+      "solution": [
+        "Btw: $0{,}21 \\times 250 = 52{,}50$ euro.",
+        "Inclusief btw: $250 + 52{,}50 = 302{,}50$ euro.",
+        "In één stap: $1{,}21 \\times 250 = 302{,}50$."
+      ],
+      "feedback": [
+        {
+          "answer": 52.5,
+          "message": "Dat is alleen het btw-bedrag. Tel het op bij de prijs exclusief btw: $250 + 52{,}50 = 302{,}50$."
+        }
+      ],
+      "topics": [
+        "percentages",
+        "finance"
+      ],
+      "unit": "€",
+      "tolerance": 0.005
+    },
+    {
+      "id": "09-037",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een laptop kost € 726 inclusief 21% btw. Wat is de prijs exclusief btw?",
+      "answer": 600,
+      "hints": [
+        "De prijs inclusief btw is 121% van de prijs exclusief btw.",
+        "Deel door 1,21."
+      ],
+      "solution": [
+        "Inclusief = $1{,}21 \\times$ exclusief.",
+        "Exclusief $= 726 : 1{,}21 = 600$ euro.",
+        "Controle: 21% van 600 is 126, en $600 + 126 = 726$."
+      ],
+      "feedback": [
+        {
+          "answer": 573.54,
+          "message": "Je hebt 21% van € 726 afgetrokken. De btw is 21% van de prijs exclusief btw, niet van de prijs inclusief btw. Deel door 1,21."
+        },
+        {
+          "answer": 126,
+          "message": "Dat is het btw-bedrag. Gevraagd is de prijs exclusief btw: $726 - 126 = 600$."
+        }
+      ],
+      "topics": [
+        "percentages",
+        "finance"
+      ],
+      "unit": "€"
+    },
+    {
+      "id": "09-038",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een kassabon voor boodschappen met 9% btw heeft een totaal van € 47,96. Hoeveel btw zit er in dit bedrag? Rond af op centen.",
+      "answer": 3.96,
+      "hints": [
+        "Bereken eerst het bedrag exclusief btw: deel door 1,09.",
+        "Of: de btw is $\\tfrac{9}{109}$ van het bedrag inclusief btw."
+      ],
+      "solution": [
+        "Exclusief btw: $47{,}96 : 1{,}09 = 44$ euro.",
+        "Btw: $47{,}96 - 44 = 3{,}96$ euro.",
+        "Direct: $\\tfrac{9}{109} \\times 47{,}96 = 3{,}96$."
+      ],
+      "feedback": [
+        {
+          "answer": 4.32,
+          "message": "Je hebt 9% van het bedrag inclusief btw genomen. De btw is 9% van het bedrag exclusief btw, dus $\\tfrac{9}{109}$ van € 47,96."
+        },
+        {
+          "answer": 44,
+          "message": "€ 44 is het bedrag exclusief btw. De btw is het verschil: $47{,}96 - 44 = 3{,}96$."
+        }
+      ],
+      "topics": [
+        "percentages",
+        "finance"
+      ],
+      "unit": "€",
+      "tolerance": 0.005
+    },
+    {
+      "id": "09-039",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een Romeinse geldschieter leent 5.000 sestertiën uit tegen de wettelijke *centesimae usurae*: 1% per maand, steeds berekend over het geleende bedrag. Hoeveel sestertiën rente ontvangt hij in totaal na één jaar?",
+      "answer": 600,
+      "hints": [
+        "Bereken eerst de rente in één maand.",
+        "Een jaar heeft twaalf maanden; de rente is elke maand even groot."
+      ],
+      "solution": [
+        "Rente per maand: $1\\%$ van 5000 $= 50$ sestertiën.",
+        "Na twaalf maanden: $12 \\times 50 = 600$ sestertiën.",
+        "Dat is 12% van het geleende bedrag: 1% per maand is bij deze berekening 12% per jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 50,
+          "message": "Dat is de rente over één maand. Over een jaar komt die rente twaalf keer: $12 \\times 50 = 600$."
+        },
+        {
+          "answer": 5600,
+          "message": "Dat is het totaal dat terugbetaald moet worden. Gevraagd is alleen de rente: 600 sestertiën."
+        }
+      ],
+      "topics": [
+        "percentages",
+        "finance"
+      ],
+      "unit": "sestertiën"
+    },
+    {
+      "id": "09-040",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een Florentijnse koopman leent in een rekenvoorbeeld 400 florijnen. Na drie jaar betaalt hij in totaal 484 florijnen terug, met enkelvoudige rente. Welk rentepercentage per jaar is gebruikt?",
+      "answer": 7,
+      "hints": [
+        "Bereken eerst de totale rente en daarna de rente per jaar.",
+        "Welk percentage van 400 is de rente per jaar?"
+      ],
+      "solution": [
+        "Totale rente: $484 - 400 = 84$ florijnen.",
+        "Rente per jaar: $84 : 3 = 28$ florijnen.",
+        "$\\tfrac{28}{400} = 0{,}07 = 7\\%$ per jaar.",
+        "Controle: $400 + 3 \\times 28 = 484$."
+      ],
+      "feedback": [
+        {
+          "answer": 21,
+          "message": "21% is de rente over drie jaar samen. Gevraagd is het percentage per jaar: $21 : 3 = 7$."
+        },
+        {
+          "answer": 84,
+          "message": "84 florijnen is de totale rente, geen percentage. Deel de rente per jaar door het kapitaal."
+        }
+      ],
+      "topics": [
+        "percentages",
+        "finance"
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "09-041",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Op 1 januari 2019 steeg het verlaagde btw-tarief in Nederland van 6% naar 9%. Met hoeveel procent stijgt de consumentenprijs van een product waarvan de prijs exclusief btw gelijk blijft? Rond af op twee decimalen.",
+      "answer": 2.83,
+      "hints": [
+        "Neem een prijs exclusief btw van € 100. Wat betaal je vóór en na de verhoging?",
+        "Vergelijk € 109 met € 106: de oude consumentenprijs is de basis."
+      ],
+      "solution": [
+        "Bij een prijs exclusief btw van € 100 kostte het product eerst € 106, daarna € 109.",
+        "De stijging is € 3 op een basis van € 106: $\\tfrac{3}{106} = 0{,}02830\\ldots$",
+        "In groeifactoren: $\\tfrac{1{,}09}{1{,}06} \\approx 1{,}0283$, dus een stijging van ongeveer $2{,}83\\%$.",
+        "Het tarief steeg 3 procentpunten (relatief $\\tfrac{3}{6} = 50\\%$), maar de consumentenprijs maar 2,83%."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "3 is het verschil in procentpunten tussen de tarieven. De consumentenprijs gaat van 106% naar 109% van de prijs exclusief btw: $\\tfrac{3}{106}$."
+        },
+        {
+          "answer": 50,
+          "message": "50% is de relatieve stijging van het tarief zelf ($\\tfrac{3}{6}$). Gevraagd wordt hoeveel de consumentenprijs stijgt."
+        }
+      ],
+      "topics": [
+        "percentages",
+        "finance"
+      ],
+      "unit": "%",
+      "tolerance": 0.005
+    },
+    {
+      "id": "09-042",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een supermarkt adverteert: “Drie halen, twee betalen.” Hoeveel procent korting krijg je per stuk ten opzichte van de normale prijs? Rond af op twee decimalen.",
+      "answer": 33.33,
+      "hints": [
+        "Neem een normale prijs van € 3 per stuk. Wat betaal je voor drie stuks?",
+        "Vergelijk de korting met de normale prijs van drie stuks."
+      ],
+      "solution": [
+        "Bij een prijs van € 3 per stuk kosten drie stuks normaal € 9.",
+        "Met de actie betaal je voor twee: € 6. De korting is € 3.",
+        "$\\tfrac{3}{9} = \\tfrac13 = 33{,}33\\ldots\\%$, afgerond $33{,}33\\%$.",
+        "Algemeen: je betaalt $\\tfrac23$ van de normale prijs; de korting is $\\tfrac13$, onafhankelijk van de prijs per stuk."
+      ],
+      "feedback": [
+        {
+          "answer": 50,
+          "message": "Je hebt het gratis exemplaar vergeleken met de twee die je betaalt. De korting moet je vergelijken met de normale prijs van alle drie: $\\tfrac13$."
+        },
+        {
+          "answer": 66.67,
+          "message": "66,67% is het deel van de normale prijs dat je betaalt. De korting is het deel dat je niet betaalt: 33,33%."
+        }
+      ],
+      "topics": [
+        "percentages"
+      ],
+      "unit": "%",
+      "tolerance": 0.005
     }
   ]
 }
