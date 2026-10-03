@@ -1,234 +1,343 @@
 {
   "title": "Hoofdstuktoets – Breuken",
-  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "intro": "15 vragen over betekenis, gelijkwaardigheid, vergelijken en de vier bewerkingen met breuken. Je hebt 70% nodig om de module af te ronden en 85% voor 'beheerst'. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
   "questions": [
     {
       "id": "07-T01",
-      "question": "Wat is de teller van $11/15$?",
-      "answer": 11,
-      "solution": [
-        "De teller staat bovenaan: 11."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Wat is de teller van de breuk $\\frac{11}{15}$?",
+      "answer": 11,
+      "hints": [],
+      "solution": [
+        "De teller staat boven de breukstreep: 11.",
+        "Hij telt hoeveel delen van een vijftiende je neemt."
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "15 is de noemer, onder de streep."
+        }
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-T02",
-      "question": "Zeven broden worden eerlijk over twaalf personen verdeeld. Hoeveel krijgt ieder?",
-      "answer": "7/12",
-      "solution": [
-        "$7:12=7/12$ brood."
-      ],
-      "hints": [],
       "type": "fraction",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Zeven broden worden eerlijk over twaalf personen verdeeld. Een Egyptische schrijver noteerde het aandeel per persoon als $\\frac12 + \\frac1{12}$. Hoeveel brood krijgt ieder, geschreven als één breuk?",
+      "answer": "7/12",
+      "hints": [],
+      "solution": [
+        "Eerlijk verdelen is delen: $7 : 12 = \\frac{7}{12}$.",
+        "Controle met de Egyptische schrijfwijze: $\\frac12 + \\frac1{12} = \\frac{6}{12} + \\frac{1}{12} = \\frac{7}{12}$."
+      ],
+      "feedback": [
+        {
+          "answer": "12/7",
+          "message": "Teller en noemer zijn verwisseld: er zijn minder broden dan personen, dus ieder krijgt minder dan één brood."
+        },
+        {
+          "answer": "2/14",
+          "message": "Je hebt $\\frac12 + \\frac1{12}$ opgeteld door tellers en noemers op te tellen. Maak gelijknamig: $\\frac{6}{12} + \\frac{1}{12}$."
+        }
+      ],
       "topics": [
-        "fractions"
+        "fractions",
+        "division"
       ]
     },
     {
       "id": "07-T03",
-      "question": "Schrijf $3\\frac25$ als één breuk.",
-      "answer": "17/5",
-      "solution": [
-        "$3=15/5$; samen $17/5$."
-      ],
-      "hints": [],
       "type": "fraction",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Schrijf $3\\frac25$ als één breuk.",
+      "answer": "17/5",
+      "hints": [],
+      "solution": [
+        "Drie gehelen zijn $3 \\times 5 = 15$ vijfden.",
+        "$\\frac{15}{5} + \\frac25 = \\frac{17}{5}$."
+      ],
+      "feedback": [
+        {
+          "answer": "5/5",
+          "message": "Je hebt $\\frac{3+2}{5}$ gerekend. Drie gehelen zijn vijftien vijfden."
+        }
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-T04",
-      "question": "Vereenvoudig $21/28$ volledig.",
-      "answer": "3/4",
-      "solution": [
-        "Deel beide getallen door 7."
-      ],
-      "hints": [],
       "type": "fraction",
       "mode": "independent",
       "difficulty": 1,
-      "topics": [
-        "fractions"
+      "question": "Vereenvoudig $\\frac{21}{28}$ volledig.",
+      "answer": "3/4",
+      "hints": [],
+      "solution": [
+        "De ggd van 21 en 28 is 7.",
+        "$\\frac{21 : 7}{28 : 7} = \\frac34$."
       ],
-      "require_simplified": true
+      "require_simplified": true,
+      "topics": [
+        "fractions",
+        "divisibility"
+      ]
     },
     {
       "id": "07-T05",
-      "question": "Vul in: $7/9=\\ldots/36$.",
-      "answer": 28,
-      "solution": [
-        "De factor is 4, dus $7\\times4=28$."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Vul in: $\\frac79 = \\frac{\\ldots}{36}$.",
+      "answer": 28,
+      "hints": [],
+      "solution": [
+        "Van 9 naar 36 is maal 4.",
+        "De teller ook maal 4: $7 \\times 4 = 28$."
+      ],
+      "feedback": [
+        {
+          "answer": 34,
+          "message": "Je hebt 27 opgeteld in plaats van met 4 vermenigvuldigd."
+        }
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-T06",
-      "question": "Welke is groter: $5/8$ of $2/3$?",
-      "answer": "2/3",
-      "solution": [
-        "$5/8=15/24$ en $2/3=16/24$."
-      ],
-      "hints": [],
       "type": "fraction",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Welke breuk is groter: $\\frac58$ of $\\frac23$? Vul de grootste in.",
+      "answer": "2/3",
+      "hints": [],
+      "solution": [
+        "Gelijknamig in vierentwintigsten: $\\frac58 = \\frac{15}{24}$ en $\\frac23 = \\frac{16}{24}$.",
+        "$16 > 15$, dus $\\frac23$ is groter."
+      ],
+      "feedback": [
+        {
+          "answer": "5/8",
+          "message": "Maak gelijknamig: $\\frac58 = \\frac{15}{24}$ is net iets kleiner dan $\\frac23 = \\frac{16}{24}$."
+        }
+      ],
       "topics": [
-        "fractions"
+        "fractions",
+        "comparing"
       ]
     },
     {
       "id": "07-T07",
-      "question": "Bereken $4/9+2/9$.",
-      "answer": "2/3",
-      "solution": [
-        "$6/9=2/3$."
-      ],
-      "hints": [],
       "type": "fraction",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Bereken $\\frac49 + \\frac29$ en vereenvoudig.",
+      "answer": "2/3",
+      "hints": [],
+      "solution": [
+        "Gelijke noemers: tel de tellers op. $\\frac{4+2}{9} = \\frac69$.",
+        "Vereenvoudig door 3: $\\frac69 = \\frac23$."
+      ],
+      "feedback": [
+        {
+          "answer": "6/18",
+          "message": "Je hebt ook de noemers opgeteld. De noemer (negenden) blijft gelijk."
+        }
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-T08",
-      "question": "Bereken $3/5+1/4$.",
-      "answer": "17/20",
-      "solution": [
-        "$12/20+5/20=17/20$."
-      ],
-      "hints": [],
       "type": "fraction",
       "mode": "independent",
       "difficulty": 2,
+      "question": "Bereken $\\frac35 + \\frac14$.",
+      "answer": "17/20",
+      "hints": [],
+      "solution": [
+        "Het kgv van 5 en 4 is 20.",
+        "$\\frac{12}{20} + \\frac{5}{20} = \\frac{17}{20}$."
+      ],
+      "feedback": [
+        {
+          "answer": "4/9",
+          "message": "Je hebt tellers en noemers opgeteld. Maak eerst gelijknamig in twintigsten."
+        }
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-T09",
-      "question": "Bereken $7/8-1/3$.",
-      "answer": "13/24",
-      "solution": [
-        "$21/24-8/24=13/24$."
-      ],
-      "hints": [],
       "type": "fraction",
       "mode": "independent",
       "difficulty": 2,
+      "question": "Bereken $\\frac78 - \\frac13$.",
+      "answer": "13/24",
+      "hints": [],
+      "solution": [
+        "Het kgv van 8 en 3 is 24.",
+        "$\\frac{21}{24} - \\frac{8}{24} = \\frac{13}{24}$."
+      ],
+      "feedback": [
+        {
+          "answer": "6/5",
+          "message": "Je hebt tellers en noemers afgetrokken. Maak eerst gelijknamig in vierentwintigsten."
+        }
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-T10",
-      "question": "Bereken $1\\frac16+2/3$.",
-      "answer": "11/6",
-      "solution": [
-        "$7/6+4/6=11/6$."
-      ],
-      "hints": [],
       "type": "fraction",
       "mode": "independent",
       "difficulty": 2,
+      "question": "Bereken $1\\frac16 + \\frac23$. Geef een breuk of een gemengd getal.",
+      "answer": "11/6",
+      "hints": [],
+      "solution": [
+        "$1\\frac16 = \\frac76$ en $\\frac23 = \\frac46$.",
+        "$\\frac76 + \\frac46 = \\frac{11}{6} = 1\\frac56$."
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-T11",
-      "question": "Bereken $3/7\\times14/15$.",
-      "answer": "2/5",
-      "solution": [
-        "$42/105=2/5$."
-      ],
-      "hints": [],
       "type": "fraction",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Bereken $\\frac37 \\times \\frac{14}{15}$ en vereenvoudig.",
+      "answer": "2/5",
+      "hints": [],
+      "solution": [
+        "Vereenvoudig vooraf: 3 met 15 (door 3) en 14 met 7 (door 7).",
+        "$\\frac{1 \\times 2}{1 \\times 5} = \\frac25$.",
+        "Controle: $\\frac{42}{105} = \\frac25$ (ggd 21)."
+      ],
       "topics": [
-        "fractions"
+        "fractions",
+        "multiplication"
       ]
     },
     {
       "id": "07-T12",
-      "question": "Bereken $5/12$ van 360.",
-      "answer": 150,
-      "solution": [
-        "Eén twaalfde is 30; vijf delen zijn 150."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Bereken $\\frac{5}{12}$ van 360.",
+      "answer": 150,
+      "hints": [],
+      "solution": [
+        "Eén twaalfde van 360 is $360 : 12 = 30$.",
+        "Vijf twaalfden: $5 \\times 30 = 150$."
+      ],
+      "feedback": [
+        {
+          "answer": 864,
+          "message": "Je hebt gedeeld door de teller en vermenigvuldigd met de noemer. Deel door 12 en vermenigvuldig met 5."
+        }
+      ],
       "topics": [
-        "fractions"
+        "fractions",
+        "multiplication"
       ]
     },
     {
       "id": "07-T13",
-      "question": "Twee vijfde van een bedrag is € 48. Hoeveel euro is het hele bedrag?",
-      "answer": 120,
-      "solution": [
-        "Eén deel is $48:2=24$.",
-        "Vijf delen zijn 120."
-      ],
-      "hints": [],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 2,
+      "question": "Twee vijfde van een bedrag is € 48. Hoeveel euro is het hele bedrag?",
+      "answer": 120,
+      "hints": [],
+      "solution": [
+        "Twee vijfden zijn € 48, dus één vijfde is $48 : 2 = 24$ euro.",
+        "Vijf vijfden: $5 \\times 24 = 120$ euro.",
+        "Controle: $\\frac25$ van € 120 is € 48."
+      ],
+      "feedback": [
+        {
+          "answer": 240,
+          "message": "Je hebt 48 als één vijfde behandeld. Het zijn **twee** vijfden: één vijfde is € 24."
+        },
+        {
+          "answer": 19,
+          "message": "Je hebt $\\frac25$ van 48 genomen. Het hele bedrag moet groter zijn dan een deel ervan."
+        }
+      ],
+      "unit": "€",
       "topics": [
-        "fractions"
+        "fractions",
+        "money"
       ]
     },
     {
       "id": "07-T14",
-      "question": "Bereken $3/5:9/10$.",
-      "answer": "2/3",
-      "solution": [
-        "$3/5\\times10/9=30/45=2/3$."
-      ],
-      "hints": [],
       "type": "fraction",
       "mode": "independent",
       "difficulty": 2,
+      "question": "Bereken $\\frac35 : \\frac{9}{10}$.",
+      "answer": "2/3",
+      "hints": [],
+      "solution": [
+        "Keer de deler om: $\\frac{10}{9}$.",
+        "$\\frac35 \\times \\frac{10}{9} = \\frac{30}{45} = \\frac23$.",
+        "Controle: $\\frac23 \\times \\frac{9}{10} = \\frac{18}{30} = \\frac35$."
+      ],
+      "feedback": [
+        {
+          "answer": "27/50",
+          "message": "Je hebt vermenigvuldigd in plaats van gedeeld. Keer de deler om."
+        },
+        {
+          "answer": "3/2",
+          "message": "Je hebt het deeltal omgekeerd. Alleen de deler $\\frac{9}{10}$ wordt omgekeerd."
+        }
+      ],
       "topics": [
-        "fractions"
+        "fractions",
+        "division"
       ]
     },
     {
       "id": "07-T15",
-      "question": "Je hebt $5/6$ liter. Je gebruikt $1/4$ van dit water. Hoeveel liter blijft?",
-      "answer": "5/8",
-      "solution": [
-        "Drie kwart blijft: $3/4\\times5/6=15/24=5/8$."
-      ],
-      "hints": [],
       "type": "fraction",
       "mode": "independent",
       "difficulty": 3,
+      "question": "Je hebt $\\frac56$ liter water. Je gebruikt $\\frac14$ van dit water. Hoeveel liter blijft er over?",
+      "answer": "5/8",
+      "hints": [],
+      "solution": [
+        "Gebruik je een kwart, dan blijft driekwart over.",
+        "$\\frac34 \\times \\frac56 = \\frac{15}{24} = \\frac58$ liter."
+      ],
+      "feedback": [
+        {
+          "answer": "7/12",
+          "message": "Je hebt $\\frac14$ liter afgetrokken ($\\frac56 - \\frac14$). Maar je gebruikt een kwart **van het water**, dus $\\frac14 \\times \\frac56$."
+        }
+      ],
+      "unit": "liter",
       "topics": [
         "fractions"
-      ],
-      "unit": "liter"
+      ]
     }
   ]
 }

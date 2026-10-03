@@ -7,26 +7,38 @@
   "status": "available",
   "historical_period": "Oud-Egypte",
   "estimated_difficulty": 1,
-  "estimated_minutes": 180,
+  "estimated_minutes": 240,
   "prerequisites": [
     6
   ],
   "topics": [
-    "fractions"
+    "fractions",
+    "number-line",
+    "comparing",
+    "divisibility",
+    "multiplication",
+    "division",
+    "remainders",
+    "checking",
+    "estimation"
   ],
-  "core_question": "Hoe verdeel je negen broden eerlijk over tien mensen, als hele broden niet genoeg zijn?",
-  "summary": "Breuken als getal, deel en deling: gelijkwaardigheid, vergelijken en alle vier de rekenbewerkingen. Van broodverdeling tot Egyptische stambreuken.",
+  "core_question": "Hoe verdeel je negen broden eerlijk over tien mensen, als hele broden niet genoeg zijn, en hoe reken je daarna verder met de stukken?",
+  "summary": "Breuken als deel, deling en getal: teller en noemer, de getallenlijn, gemengde getallen, vereenvoudigen, vergelijken en alle vier de rekenbewerkingen, met een systematische foutenanalyse. Van Ahmes' broodverdelingen en stambreuken via Babylonische zestigsten en het Horusoog-misverstand tot de breukstreep van al-Hassar en Fibonacci.",
   "learning_goals": [
-    "Je legt uit wat teller, noemer en breukstreep betekenen.",
-    "Je plaatst breuken op de getallenlijn, ook boven één, en schrijft gemengde getallen om.",
-    "Je maakt gelijkwaardige breuken en vereenvoudigt met een gemeenschappelijke deler.",
-    "Je vergelijkt breuken en maakt ze gelijknamig.",
-    "Je telt breuken op en trekt ze af met een gemeenschappelijke noemer.",
-    "Je vermenigvuldigt en deelt breuken en controleert de grootte van je antwoord.",
-    "Je berekent een breuk van een hoeveelheid en vindt het oorspronkelijke geheel.",
-    "Je herkent stambreuken en controleert een Egyptische ontbinding."
+    "Je legt uit wat teller, noemer en breukstreep betekenen, en waarom een noemer nooit nul is.",
+    "Je plaatst breuken op de getallenlijn, ook boven één, en schrijft onechte breuken en gemengde getallen in elkaar om.",
+    "Je maakt gelijkwaardige breuken en vereenvoudigt volledig met de grootste gemene deler.",
+    "Je vergelijkt en ordent breuken met referentiepunten, door gelijknamig te maken (kgv) of kruislings.",
+    "Je telt breuken en gemengde getallen op en trekt ze af, en herkent de fout 'tellers en noemers optellen'.",
+    "Je vermenigvuldigt en deelt breuken, legt uit waarom delen vermenigvuldigen met de omgekeerde is, en controleert de grootte van je antwoord.",
+    "Je berekent een breuk van een hoeveelheid, vindt vanuit een deel het geheel terug en bewaakt in contextopgaven welk geheel bedoeld is.",
+    "Je controleert een Egyptische ontbinding in stambreuken en schetst hoe de notatie van breuken zich historisch ontwikkelde."
   ],
   "glossary": [
+    {
+      "term": "Breuk",
+      "definition": "Een getal van de vorm $\\frac{a}{b}$ met $b \\neq 0$: een deel van een geheel, de uitkomst van de deling $a : b$ en een punt op de getallenlijn."
+    },
     {
       "term": "Teller",
       "definition": "Het getal boven de breukstreep: het aantal gekozen gelijke delen."
@@ -36,46 +48,88 @@
       "definition": "Het getal onder de breukstreep: in hoeveel gelijke delen één geheel is verdeeld. De noemer is nooit nul."
     },
     {
+      "term": "Breukstreep",
+      "definition": "De streep tussen teller en noemer; ze betekent 'gedeeld door'. In gebruik sinds al-Hassar (12e eeuw) en Fibonacci (1202)."
+    },
+    {
+      "term": "Stambreuk",
+      "definition": "Een breuk met teller 1, zoals $\\frac15$. De Egyptenaren schreven hoeveelheden als som van verschillende stambreuken."
+    },
+    {
+      "term": "Echte en onechte breuk",
+      "definition": "Een echte breuk heeft een teller kleiner dan de noemer (waarde tussen 0 en 1); bij een onechte breuk is de teller minstens zo groot als de noemer."
+    },
+    {
+      "term": "Gemengd getal",
+      "definition": "Een geheel getal plus een echte breuk, zoals $2\\frac{1}{3} = 2 + \\frac13$."
+    },
+    {
+      "term": "Gelijkwaardig",
+      "definition": "Breuken met dezelfde waarde, zoals $\\frac12$ en $\\frac36$. Je krijgt ze door teller en noemer met hetzelfde getal te vermenigvuldigen of erdoor te delen."
+    },
+    {
+      "term": "Vereenvoudigen",
+      "definition": "Teller en noemer door een gemeenschappelijke deler delen. Volledig vereenvoudigd is de breuk als die ggd 1 is."
+    },
+    {
       "term": "Gelijknamig",
       "definition": "Breuken met dezelfde noemer, dus met dezelfde deelgrootte."
     },
     {
-      "term": "Gelijkwaardig",
-      "definition": "Breuken met dezelfde waarde, zoals $1/2$ en $3/6$."
-    },
-    {
-      "term": "Gemengd getal",
-      "definition": "Een geheel getal plus een echte breuk, zoals $2\\frac{1}{3}$."
+      "term": "Kleinste gemene veelvoud (kgv)",
+      "definition": "Het kleinste getal dat een veelvoud is van twee of meer getallen; het kgv van de noemers is de kleinste gemeenschappelijke noemer."
     },
     {
       "term": "Omgekeerde",
-      "definition": "Van een niet-nulbreuk $a/b$ is de omgekeerde $b/a$."
+      "definition": "Van een breuk $\\frac{c}{d}$ met $c \\neq 0$ is de omgekeerde $\\frac{d}{c}$. Een getal maal zijn omgekeerde is 1."
     },
     {
-      "term": "Stambreuk",
-      "definition": "Een breuk met teller 1, bijvoorbeeld $1/5$."
+      "term": "Mediant",
+      "definition": "De breuk $\\frac{a+c}{b+d}$ bij $\\frac{a}{b}$ en $\\frac{c}{d}$. Ze ligt tussen beide in, maar is géén som; wie haar voor de som aanziet, maakt de bekendste breukfout."
+    },
+    {
+      "term": "Egyptische breuk",
+      "definition": "Een som van verschillende stambreuken, zoals $\\frac23 + \\frac15 + \\frac1{30}$ voor $\\frac{9}{10}$ (met $\\frac23$ als traditionele uitzondering)."
     }
   ],
   "formulas": [
     {
-      "name": "Gelijkwaardigheid",
-      "latex": "\\frac{a}{b}=\\frac{ka}{kb}",
-      "usage": "Vermenigvuldig teller en noemer met dezelfde niet-nulfactor."
+      "name": "Breuk als deling",
+      "latex": "\\frac{a}{b} = a : b \\quad (b \\neq 0)",
+      "usage": "Eerlijk verdelen van $a$ over $b$ geeft $\\frac{a}{b}$ per persoon.",
+      "origin": "Impliciet al in de broodopgaven van de Rhind-papyrus (ca. 1550 v.Chr.)."
     },
     {
-      "name": "Optellen",
-      "latex": "\\frac{a}{b}+\\frac{c}{b}=\\frac{a+c}{b}",
-      "usage": "Maak eerst de deelgrootte gelijk."
+      "name": "Gelijkwaardigheid",
+      "latex": "\\frac{a}{b}=\\frac{k \\cdot a}{k \\cdot b} \\quad (k \\neq 0)",
+      "usage": "Gelijknamig maken (vermenigvuldigen) en vereenvoudigen (delen door de ggd).",
+      "origin": "Vereenvoudigen met de 'gelijke getal'-methode staat in De Negen Hoofdstukken (ca. 200 v.Chr. – 50 n.Chr.)."
+    },
+    {
+      "name": "Gemengd getal",
+      "latex": "q\\tfrac{r}{b} = \\frac{q \\cdot b + r}{b}",
+      "usage": "Omzetten tussen gemengd getal en onechte breuk; andersom via de deling met rest $a = q \\cdot b + r$."
+    },
+    {
+      "name": "Optellen en aftrekken",
+      "latex": "\\frac{a}{n} \\pm \\frac{b}{n} = \\frac{a \\pm b}{n}",
+      "usage": "Maak eerst gelijknamig (kgv van de noemers); tel daarna alleen de tellers op of af."
     },
     {
       "name": "Vermenigvuldigen",
       "latex": "\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}",
-      "usage": "Neem een deel van een deel."
+      "usage": "Een deel van een deel; ook '$\\frac{a}{b}$ van $N$'. Vereenvoudig liefst vooraf."
     },
     {
       "name": "Delen",
-      "latex": "\\frac{a}{b}:\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}",
-      "usage": "Vermenigvuldig met de omgekeerde; de deler is niet nul."
+      "latex": "\\frac{a}{b}:\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c} \\quad (c \\neq 0)",
+      "usage": "Vermenigvuldig met de omgekeerde van de deler; delen door een getal tussen 0 en 1 maakt groter.",
+      "origin": "Babylonische schrijvers deelden al door te vermenigvuldigen met omgekeerden uit een tabel (ca. 1800–1600 v.Chr.)."
+    },
+    {
+      "name": "Kruislings vergelijken",
+      "latex": "\\frac{a}{b} < \\frac{c}{d} \\iff ad < bc \\quad (b, d > 0)",
+      "usage": "Verkorte vorm van gelijknamig maken met noemer $bd$."
     }
   ],
   "lessons": [
@@ -111,13 +165,13 @@
     },
     {
       "slug": "historisch-intermezzo",
-      "title": "Rekenen met stambreuken",
+      "title": "Van stambreuk tot breukstreep",
       "kind": "history",
       "file": "06-historisch-intermezzo.md"
     },
     {
       "slug": "praktijk-en-uitdaging",
-      "title": "Recepten, porties en resterende voorraad",
+      "title": "Recepten, voorraden en erfenissen",
       "kind": "practice",
       "file": "07-praktijk-en-uitdaging.md"
     },
@@ -129,9 +183,15 @@
     }
   ],
   "timeline": [
-    "rhind-papyrus"
+    "mesopotamische-getallen",
+    "rhind-papyrus",
+    "negen-hoofdstukken",
+    "brahmagupta",
+    "fibonacci-liber-abaci"
   ],
   "mathematicians": [
-    "ahmes"
+    "ahmes",
+    "brahmagupta",
+    "fibonacci"
   ]
 }

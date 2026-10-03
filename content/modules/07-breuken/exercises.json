@@ -2,546 +2,1162 @@
   "exercises": [
     {
       "id": "07-001",
-      "question": "Negen even grote broden worden eerlijk over tien mensen verdeeld. Hoeveel brood krijgt ieder?",
-      "answer": "9/10",
-      "solution": [
-        "Elke persoon krijgt $9:10=9/10$ brood."
-      ],
-      "hints": [
-        "Een deling mag je als breuk schrijven."
-      ],
       "type": "fraction",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Negen even grote broden worden eerlijk verdeeld over tien mensen. Welk deel van een brood krijgt ieder? Geef je antwoord als breuk.",
+      "answer": "9/10",
+      "hints": [
+        "Een eerlijke verdeling is een deling: $9 : 10$.",
+        "Een deling mag je als breuk schrijven: $a : b = \\frac{a}{b}$."
+      ],
+      "solution": [
+        "Ieder krijgt $9 : 10$ brood.",
+        "Als breuk: $9 : 10 = \\frac{9}{10}$.",
+        "Controle: tien porties van $\\frac{9}{10}$ zijn $\\frac{90}{10} = 9$ broden."
+      ],
+      "feedback": [
+        {
+          "answer": "10/9",
+          "message": "Je hebt de deling omgedraaid. Er zijn minder broden dan mensen, dus ieder krijgt **minder** dan één brood. Het aantal broden staat boven de streep, het aantal mensen eronder."
+        }
+      ],
       "topics": [
-        "fractions"
+        "fractions",
+        "division"
       ]
     },
     {
       "id": "07-002",
-      "question": "Bij de breuk $7/12$: wat is de noemer?",
-      "answer": 12,
-      "solution": [
-        "De noemer staat onder de breukstreep: 12."
-      ],
-      "hints": [
-        "De noemer vertelt in hoeveel gelijke delen het geheel verdeeld is."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Gegeven is de breuk $\\frac{7}{12}$. Wat is de noemer?",
+      "answer": 12,
+      "hints": [
+        "De noemer staat onder de breukstreep.",
+        "De noemer *noemt* de soort deel: hier twaalfden."
+      ],
+      "solution": [
+        "De noemer staat onder de breukstreep: 12.",
+        "Het geheel is in twaalf gelijke delen verdeeld; de teller 7 zegt dat je er zeven neemt."
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "7 is de **teller**: het aantal delen dat je neemt. De noemer staat onder de streep en zegt in hoeveel gelijke delen het geheel is verdeeld."
+        }
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-003",
-      "question": "Je neemt vijf van acht gelijke stukken van één brood. Welk deel neem je?",
-      "answer": "5/8",
-      "solution": [
-        "Acht gelijke delen: noemer 8. Vijf genomen delen: teller 5."
-      ],
-      "hints": [
-        "Schrijf genomen delen boven alle delen."
-      ],
       "type": "fraction",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Een brood is in acht gelijke stukken gesneden. Je neemt er vijf. Welk deel van het brood neem je?",
+      "answer": "5/8",
+      "hints": [
+        "In hoeveel gelijke delen is het geheel verdeeld? Dat wordt de noemer.",
+        "Hoeveel van die delen neem je? Dat wordt de teller."
+      ],
+      "solution": [
+        "Acht gelijke delen: de noemer is 8.",
+        "Vijf genomen delen: de teller is 5.",
+        "Je neemt $\\frac58$ van het brood."
+      ],
+      "feedback": [
+        {
+          "answer": "3/8",
+          "message": "$\\frac38$ is het deel dat **overblijft**. De vraag is welk deel je neemt: vijf van de acht stukken."
+        },
+        {
+          "answer": "8/5",
+          "message": "Teller en noemer zijn verwisseld. De noemer (onder de streep) is het totale aantal gelijke delen, 8."
+        }
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-004",
-      "question": "Schrijf $2\\frac13$ als één breuk.",
-      "answer": "7/3",
-      "solution": [
-        "Twee gehelen zijn $6/3$.",
-        "$6/3+1/3=7/3$."
-      ],
-      "hints": [
-        "Vermenigvuldig het gehele getal met de noemer."
-      ],
       "type": "fraction",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Schrijf $2\\frac13$ als één (onechte) breuk.",
+      "answer": "7/3",
+      "hints": [
+        "Hoeveel derden zitten er in twee gehelen?",
+        "Twee gehelen zijn $2 \\times 3 = 6$ derden. Tel daar één derde bij op."
+      ],
+      "solution": [
+        "$2\\frac13$ betekent $2 + \\frac13$.",
+        "Twee gehelen zijn $\\frac63$.",
+        "$\\frac63 + \\frac13 = \\frac73$.",
+        "Controle: $7 : 3 = 2$ rest 1, dus $\\frac73 = 2\\frac13$."
+      ],
+      "feedback": [
+        {
+          "answer": "5/3",
+          "message": "Je hebt $2 \\times 1 + 3$ gerekend. Vermenigvuldig het gehele getal met de **noemer** en tel de teller erbij op: $2 \\times 3 + 1 = 7$."
+        },
+        {
+          "answer": "1",
+          "message": "Je hebt $\\frac{2+1}{3}$ gerekend. Maar $2\\frac13$ is meer dan 2. Twee gehelen zijn zes derden, niet twee derden."
+        }
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-005",
-      "question": "Hoeveel volledige gehelen bevat $17/5$?",
-      "answer": 3,
-      "solution": [
-        "$17:5=3$ met rest 2.",
-        "Dus $17/5=3\\frac25$."
-      ],
-      "hints": [
-        "Zoek het grootste veelvoud van 5 dat niet boven 17 komt."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Hoeveel volledige gehelen bevat $\\frac{17}{5}$?",
+      "answer": 3,
+      "hints": [
+        "Dit is een deling met rest: hoe vaak past 5 in 17?",
+        "Zoek het grootste veelvoud van 5 dat niet boven 17 komt."
+      ],
+      "solution": [
+        "$3 \\times 5 = 15$ en $4 \\times 5 = 20$ is te veel.",
+        "$17 = 3 \\times 5 + 2$, dus $17 : 5 = 3$ rest 2.",
+        "$\\frac{17}{5} = 3\\frac25$: drie volledige gehelen."
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "2 is de **rest**: er blijven twee vijfden over. De vraag is hoeveel hele vijftallen er in 17 passen."
+        },
+        {
+          "answer": 4,
+          "message": "Je hebt naar boven afgerond. $4 \\times 5 = 20$ is meer dan 17; er passen maar drie volledige gehelen in."
+        }
+      ],
       "topics": [
-        "fractions"
+        "fractions",
+        "number-line",
+        "remainders"
       ]
     },
     {
       "id": "07-006",
-      "question": "Bereken $0/9$.",
-      "answer": "0/1",
-      "solution": [
-        "Nul delen nemen geeft 0."
-      ],
-      "hints": [
-        "Er zijn geen gekozen delen."
-      ],
       "type": "fraction",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $\\frac{0}{9}$.",
+      "answer": "0",
+      "hints": [
+        "De teller zegt hoeveel delen je neemt.",
+        "Een breuk is ook een deling: $0 : 9$."
+      ],
+      "solution": [
+        "Je neemt nul van de negen gelijke delen: dat is niets.",
+        "Als deling: $0 : 9 = 0$, want $0 \\times 9 = 0$.",
+        "Dus $\\frac09 = 0$. (Een noemer 0 kan daarentegen nooit.)"
+      ],
       "topics": [
-        "fractions"
+        "fractions",
+        "zero"
       ]
     },
     {
       "id": "07-007",
-      "question": "Vereenvoudig $18/24$ volledig.",
-      "answer": "3/4",
-      "solution": [
-        "Deel teller en noemer door 6: $18/24=3/4$."
-      ],
-      "hints": [
-        "Zoek de grootste gemene deler."
-      ],
       "type": "fraction",
       "mode": "guided",
       "difficulty": 1,
-      "topics": [
-        "fractions"
+      "question": "Vereenvoudig $\\frac{18}{24}$ volledig.",
+      "answer": "3/4",
+      "hints": [
+        "Zoek een getal waardoor 18 en 24 allebei deelbaar zijn.",
+        "De grootste gemene deler van 18 en 24 is 6."
       ],
-      "require_simplified": true
+      "solution": [
+        "$18 = 6 \\times 3$ en $24 = 6 \\times 4$, dus de ggd is 6.",
+        "$\\frac{18}{24} = \\frac{18 : 6}{24 : 6} = \\frac34$.",
+        "3 en 4 hebben geen gemeenschappelijke deler groter dan 1: de breuk is volledig vereenvoudigd."
+      ],
+      "require_simplified": true,
+      "topics": [
+        "fractions",
+        "divisibility"
+      ]
     },
     {
       "id": "07-008",
-      "question": "Vul de teller in: $3/5=\\ldots/20$.",
-      "answer": 12,
-      "solution": [
-        "De noemer gaat maal 4.",
-        "De teller gaat ook maal 4: $3\\times4=12$."
-      ],
-      "hints": [
-        "Wat is de factor van 5 naar 20?"
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Vul de ontbrekende teller in: $\\frac35 = \\frac{\\ldots}{20}$.",
+      "answer": 12,
+      "hints": [
+        "Met welk getal vermenigvuldig je 5 om 20 te krijgen?",
+        "Teller en noemer moeten met **hetzelfde** getal vermenigvuldigd worden."
+      ],
+      "solution": [
+        "$5 \\times 4 = 20$: de noemer gaat maal 4.",
+        "Dan gaat de teller ook maal 4: $3 \\times 4 = 12$.",
+        "$\\frac35 = \\frac{12}{20}$."
+      ],
+      "feedback": [
+        {
+          "answer": 18,
+          "message": "Je hebt bij teller en noemer 15 **opgeteld**. Gelijkwaardig blijft een breuk alleen als je beide met hetzelfde getal **vermenigvuldigt**: van 5 naar 20 is maal 4."
+        }
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-009",
-      "question": "Welke breuk is groter: $2/3$ of $3/4$? Vul de grootste breuk in.",
-      "answer": "3/4",
-      "solution": [
-        "$2/3=8/12$ en $3/4=9/12$.",
-        "Negen twaalfden is groter."
-      ],
-      "hints": [
-        "Maak de breuken gelijknamig."
-      ],
       "type": "fraction",
-      "mode": "guided",
-      "difficulty": 1,
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke breuk is groter: $\\frac23$ of $\\frac34$? Vul de grootste in.",
+      "answer": "3/4",
+      "hints": [
+        "Maak de breuken gelijknamig.",
+        "Derden en kwarten passen allebei in twaalfden."
+      ],
+      "solution": [
+        "$\\frac23 = \\frac{8}{12}$ en $\\frac34 = \\frac{9}{12}$.",
+        "Negen twaalfden is meer dan acht twaalfden.",
+        "Dus $\\frac34$ is groter (het verschil is $\\frac{1}{12}$)."
+      ],
+      "feedback": [
+        {
+          "answer": "2/3",
+          "message": "Derden zijn weliswaar grotere stukken dan kwarten, maar bij $\\frac34$ neem je er meer. Maak ze gelijknamig: $\\frac{8}{12}$ tegenover $\\frac{9}{12}$."
+        }
+      ],
       "topics": [
-        "fractions"
+        "fractions",
+        "comparing"
       ]
     },
     {
       "id": "07-010",
-      "question": "Schrijf $5/6$ met noemer 24. Wat is de teller?",
-      "answer": 20,
-      "solution": [
-        "$24:6=4$.",
-        "$5\\times4=20$."
-      ],
-      "hints": [
-        "Vermenigvuldig teller en noemer met dezelfde factor."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
+      "question": "Schrijf $\\frac56$ als breuk met noemer 24. Wat is de teller?",
+      "answer": 20,
+      "hints": [
+        "Met welk getal vermenigvuldig je 6 om 24 te krijgen?"
+      ],
+      "solution": [
+        "$24 : 6 = 4$: de factor is 4.",
+        "$5 \\times 4 = 20$.",
+        "$\\frac56 = \\frac{20}{24}$."
+      ],
+      "feedback": [
+        {
+          "answer": 23,
+          "message": "Je hebt 18 bij de teller opgeteld, net als bij de noemer. Gelijkwaardig maken gaat met vermenigvuldigen: de factor van 6 naar 24 is 4, dus de teller wordt $5 \\times 4$."
+        }
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-011",
-      "question": "Welke breuk is kleiner: $1/7$ of $1/4$?",
-      "answer": "1/7",
-      "solution": [
-        "Bij één geheel zijn zevenden kleiner dan kwarten.",
-        "Dus $1/7<1/4$."
-      ],
-      "hints": [
-        "Meer gelijke stukken maakt elk stuk kleiner."
-      ],
       "type": "fraction",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
+      "question": "Welke breuk is kleiner: $\\frac17$ of $\\frac14$?",
+      "answer": "1/7",
+      "hints": [
+        "Beide breuken hebben teller 1. Vergelijk de grootte van de stukken.",
+        "Hoe meer gelijke stukken in één geheel, hoe kleiner elk stuk."
+      ],
+      "solution": [
+        "Verdeel je één geheel in zeven stukken, dan is elk stuk kleiner dan bij vier stukken.",
+        "Dus $\\frac17 < \\frac14$.",
+        "Controle: $\\frac17 = \\frac{4}{28}$ en $\\frac14 = \\frac{7}{28}$."
+      ],
+      "feedback": [
+        {
+          "answer": "1/4",
+          "message": "Je hebt de noemers vergeleken alsof het gewone getallen zijn. Maar een grotere noemer betekent **kleinere** stukken: een zevende is minder dan een kwart."
+        }
+      ],
       "topics": [
-        "fractions"
+        "fractions",
+        "comparing"
       ]
     },
     {
       "id": "07-012",
-      "question": "Bereken $3/8+2/8$.",
-      "answer": "5/8",
-      "solution": [
-        "De noemers zijn gelijk.",
-        "Tel tellers op: $(3+2)/8=5/8$."
-      ],
-      "hints": [
-        "De deelgrootte blijft een achtste."
-      ],
       "type": "fraction",
       "mode": "guided",
       "difficulty": 1,
-      "topics": [
-        "fractions"
+      "question": "Bereken $\\frac38 + \\frac28$.",
+      "answer": "5/8",
+      "hints": [
+        "De noemers zijn gelijk: het gaat om stukken van dezelfde soort.",
+        "Tel alleen de aantallen (tellers) op; de soort (achtsten) blijft."
+      ],
+      "solution": [
+        "Beide breuken zijn achtsten.",
+        "Drie achtsten plus twee achtsten: $\\frac{3+2}{8} = \\frac58$."
       ],
       "feedback": [
         {
           "answer": "5/16",
-          "message": "Je hebt de noemers opgeteld. Vijf stukken van een achtste blijven vijf achtsten."
+          "message": "Je hebt ook de noemers opgeteld. De noemer is de soort deel, geen aantal: vijf stukken van een achtste blijven vijf **achtsten**."
         }
+      ],
+      "topics": [
+        "fractions"
       ]
     },
     {
       "id": "07-013",
-      "question": "Bereken $1/2+1/3$.",
-      "answer": "5/6",
-      "solution": [
-        "$1/2=3/6$ en $1/3=2/6$.",
-        "$3/6+2/6=5/6$."
-      ],
-      "hints": [
-        "Gebruik zesden."
-      ],
       "type": "fraction",
       "mode": "guided",
       "difficulty": 1,
-      "topics": [
-        "fractions"
+      "question": "Bereken $\\frac12 + \\frac13$.",
+      "answer": "5/6",
+      "hints": [
+        "Maak eerst de stukken even groot: zoek een gemeenschappelijke noemer.",
+        "Halven en derden passen allebei in zesden."
+      ],
+      "solution": [
+        "$\\frac12 = \\frac36$ en $\\frac13 = \\frac26$.",
+        "$\\frac36 + \\frac26 = \\frac56$.",
+        "Schatting: iets meer dan een halve, minder dan 1. Klopt."
       ],
       "feedback": [
         {
           "answer": "2/5",
-          "message": "Maak eerst de deelgrootte gelijk. Tellers én noemers optellen bewaart de hoeveelheid niet."
+          "message": "Je hebt tellers én noemers opgeteld. $\\frac25$ is zelfs kleiner dan $\\frac12$, terwijl je er iets bij hebt opgeteld. Maak eerst gelijknamig: zesden."
         }
+      ],
+      "topics": [
+        "fractions"
       ]
     },
     {
       "id": "07-014",
-      "question": "Bereken $3/4-1/6$.",
-      "answer": "7/12",
-      "solution": [
-        "$3/4=9/12$ en $1/6=2/12$.",
-        "$9/12-2/12=7/12$."
-      ],
-      "hints": [
-        "Gebruik twaalfden."
-      ],
       "type": "fraction",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
+      "question": "Bereken $\\frac34 - \\frac16$.",
+      "answer": "7/12",
+      "hints": [
+        "Het kgv van 4 en 6 is 12.",
+        "Schrijf beide breuken als twaalfden."
+      ],
+      "solution": [
+        "$\\frac34 = \\frac{9}{12}$ en $\\frac16 = \\frac{2}{12}$.",
+        "$\\frac{9}{12} - \\frac{2}{12} = \\frac{7}{12}$.",
+        "Schatting: driekwart min een klein stukje is iets meer dan een halve. Klopt."
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-015",
-      "question": "Bereken $2\\frac14-1\\frac23$.",
-      "answer": "7/12",
-      "solution": [
-        "$2\\frac14=9/4$ en $1\\frac23=5/3$.",
-        "$27/12-20/12=7/12$."
-      ],
-      "hints": [
-        "Schrijf de gemengde getallen eerst als breuken."
-      ],
       "type": "fraction",
       "mode": "guided",
       "difficulty": 2,
+      "question": "Bereken $2\\frac14 - 1\\frac23$.",
+      "answer": "7/12",
+      "hints": [
+        "Schrijf de gemengde getallen eerst als onechte breuken.",
+        "$2\\frac14 = \\frac94$ en $1\\frac23 = \\frac53$; gebruik twaalfden."
+      ],
+      "solution": [
+        "$2\\frac14 = \\frac94$ en $1\\frac23 = \\frac53$.",
+        "Gelijknamig: $\\frac94 = \\frac{27}{12}$ en $\\frac53 = \\frac{20}{12}$.",
+        "$\\frac{27}{12} - \\frac{20}{12} = \\frac{7}{12}$."
+      ],
+      "feedback": [
+        {
+          "answer": "17/12",
+          "message": "Je hebt $1\\frac{5}{12}$ gevonden: je deed $2 - 1 = 1$ en daarna $\\frac23 - \\frac14$ in plaats van $\\frac14 - \\frac23$. Bij aftrekken mag je de volgorde niet omdraaien; leen één geheel of reken met onechte breuken."
+        }
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-016",
-      "question": "Bereken $5/6+7/12$.",
-      "answer": "17/12",
-      "solution": [
-        "$5/6=10/12$.",
-        "$10/12+7/12=17/12=1\\frac5{12}$."
-      ],
-      "hints": [
-        "Het antwoord mag boven één liggen."
-      ],
       "type": "fraction",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
+      "question": "Bereken $\\frac56 + \\frac{7}{12}$. Je mag het antwoord als breuk of als gemengd getal geven.",
+      "answer": "17/12",
+      "hints": [
+        "12 is een veelvoud van 6.",
+        "Het antwoord mag boven 1 liggen."
+      ],
+      "solution": [
+        "$\\frac56 = \\frac{10}{12}$.",
+        "$\\frac{10}{12} + \\frac{7}{12} = \\frac{17}{12}$.",
+        "Als gemengd getal: $1\\frac{5}{12}$."
+      ],
+      "feedback": [
+        {
+          "answer": "12/18",
+          "message": "Je hebt tellers en noemers opgeteld. Dat geeft $\\frac23$, minder dan $\\frac56$ alleen. Schrijf $\\frac56$ eerst als twaalfden."
+        }
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-017",
-      "question": "Bereken $1/2\\times3/4$.",
-      "answer": "3/8",
-      "solution": [
-        "De helft van drie kwart is drie achtste.",
-        "$(1\\times3)/(2\\times4)=3/8$."
-      ],
-      "hints": [
-        "Vermenigvuldig tellers en noemers."
-      ],
       "type": "fraction",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $\\frac12 \\times \\frac34$.",
+      "answer": "3/8",
+      "hints": [
+        "Je neemt de helft van drie kwart.",
+        "Vermenigvuldig tellers met tellers en noemers met noemers."
+      ],
+      "solution": [
+        "$\\frac12 \\times \\frac34 = \\frac{1 \\times 3}{2 \\times 4} = \\frac38$.",
+        "Rechthoekmodel: van vier stroken zijn er drie gekleurd; halveer je die, dan heb je drie van de acht vakjes."
+      ],
       "topics": [
-        "fractions"
+        "fractions",
+        "multiplication"
       ]
     },
     {
       "id": "07-018",
-      "question": "Bereken $2/3\\times9/10$.",
-      "answer": "3/5",
-      "solution": [
-        "$18/30=3/5$."
-      ],
-      "hints": [
-        "Je kunt vóór of na het vermenigvuldigen vereenvoudigen."
-      ],
       "type": "fraction",
       "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "fractions"
+      "difficulty": 2,
+      "question": "Bereken $\\frac23 \\times \\frac{9}{10}$ en vereenvoudig volledig.",
+      "answer": "3/5",
+      "hints": [
+        "Je kunt vóór het vermenigvuldigen vereenvoudigen: 9 met 3, en 2 met 10.",
+        "$\\frac{2 \\times 9}{3 \\times 10}$"
       ],
-      "require_simplified": true
+      "solution": [
+        "$\\frac{2 \\times 9}{3 \\times 10}$: deel 9 en 3 door 3, en 2 en 10 door 2.",
+        "Er blijft $\\frac{1 \\times 3}{1 \\times 5} = \\frac35$.",
+        "Controle zonder vooraf vereenvoudigen: $\\frac{18}{30} = \\frac35$."
+      ],
+      "require_simplified": true,
+      "topics": [
+        "fractions",
+        "multiplication"
+      ]
     },
     {
       "id": "07-019",
-      "question": "Bereken $3/8$ van 240.",
-      "answer": 90,
-      "solution": [
-        "$240:8=30$.",
-        "$3\\times30=90$."
-      ],
-      "hints": [
-        "Bereken eerst één achtste."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $\\frac38$ van 240.",
+      "answer": 90,
+      "hints": [
+        "Bereken eerst één achtste van 240.",
+        "Neem daarna drie van die delen."
+      ],
+      "solution": [
+        "$\\frac18$ van 240 is $240 : 8 = 30$.",
+        "$\\frac38$ van 240 is $3 \\times 30 = 90$."
+      ],
+      "feedback": [
+        {
+          "answer": 640,
+          "message": "Je hebt gedeeld door de teller en vermenigvuldigd met de noemer. Andersom: deel door de noemer 8 (één achtste is 30) en vermenigvuldig met de teller 3."
+        },
+        {
+          "answer": 30,
+          "message": "30 is één achtste. Je hebt er drie nodig."
+        }
+      ],
       "topics": [
-        "fractions"
+        "fractions",
+        "multiplication"
       ]
     },
     {
       "id": "07-020",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
       "question": "Drie achtste van een voorraad is 90 kg. Hoeveel kilogram is de hele voorraad?",
       "answer": 240,
-      "solution": [
-        "Eén achtste is $90:3=30$ kg.",
-        "Acht achtsten zijn $8\\times30=240$ kg."
-      ],
       "hints": [
-        "90 is drie delen, niet één deel."
+        "Teken een strook van acht vakken; drie vakken samen zijn 90 kg.",
+        "Hoeveel is één vak?"
       ],
-      "type": "numeric",
-      "mode": "guided",
-      "difficulty": 2,
+      "solution": [
+        "Drie achtsten zijn 90 kg, dus één achtste is $90 : 3 = 30$ kg.",
+        "De hele voorraad is acht achtsten: $8 \\times 30 = 240$ kg.",
+        "Controle: $\\frac38$ van 240 is $3 \\times 30 = 90$."
+      ],
+      "feedback": [
+        {
+          "answer": 720,
+          "message": "Je hebt 90 kg als één achtste behandeld. Maar 90 kg is **drie** achtsten: één achtste is $90 : 3 = 30$ kg."
+        }
+      ],
+      "unit": "kg",
       "topics": [
         "fractions"
-      ],
-      "unit": "kg"
+      ]
     },
     {
       "id": "07-021",
-      "question": "Hoeveel porties van $1/4$ liter passen in $3/4$ liter?",
-      "answer": 3,
-      "solution": [
-        "$3/4:1/4=3$."
-      ],
-      "hints": [
-        "Tel hoeveel kwarten je hebt."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Hoeveel porties van $\\frac14$ liter passen in $\\frac34$ liter?",
+      "answer": 3,
+      "hints": [
+        "Dit is een 'hoe vaak past'-vraag: delen.",
+        "Tel hoeveel kwarten je hebt."
+      ],
+      "solution": [
+        "$\\frac34$ liter bestaat uit drie kwarten.",
+        "$\\frac34 : \\frac14 = 3 : 1 = 3$ porties."
+      ],
       "topics": [
-        "fractions"
+        "fractions",
+        "division"
       ]
     },
     {
       "id": "07-022",
-      "question": "Bereken $2/3:4/5$.",
-      "answer": "5/6",
-      "solution": [
-        "Vermenigvuldig met de omgekeerde van de deler.",
-        "$2/3\\times5/4=10/12=5/6$."
-      ],
-      "hints": [
-        "Keer alleen $4/5$ om."
-      ],
       "type": "fraction",
       "mode": "guided",
       "difficulty": 2,
+      "question": "Bereken $\\frac23 : \\frac45$.",
+      "answer": "5/6",
+      "hints": [
+        "Delen door een breuk is vermenigvuldigen met haar omgekeerde.",
+        "Keer alleen de deler $\\frac45$ om."
+      ],
+      "solution": [
+        "De omgekeerde van $\\frac45$ is $\\frac54$.",
+        "$\\frac23 \\times \\frac54 = \\frac{10}{12} = \\frac56$.",
+        "Controle: $\\frac56 \\times \\frac45 = \\frac{20}{30} = \\frac23$."
+      ],
+      "feedback": [
+        {
+          "answer": "8/15",
+          "message": "Je hebt vermenigvuldigd in plaats van gedeeld. Bij delen keer je eerst de deler om: $\\frac23 \\times \\frac54$."
+        },
+        {
+          "answer": "6/5",
+          "message": "Je hebt de **eerste** breuk omgekeerd. Alleen de deler, $\\frac45$, wordt omgekeerd."
+        }
+      ],
       "topics": [
-        "fractions"
+        "fractions",
+        "division"
       ]
     },
     {
       "id": "07-023",
-      "question": "Bereken $5/6:2$.",
-      "answer": "5/12",
-      "solution": [
-        "Delen door 2 is vermenigvuldigen met $1/2$.",
-        "$5/6\\times1/2=5/12$."
-      ],
-      "hints": [
-        "De helft van vijf zesden."
-      ],
       "type": "fraction",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
+      "question": "Bereken $\\frac56 : 2$.",
+      "answer": "5/12",
+      "hints": [
+        "Delen door 2 is de helft nemen.",
+        "Delen door 2 is vermenigvuldigen met $\\frac12$."
+      ],
+      "solution": [
+        "$\\frac56 : 2 = \\frac56 \\times \\frac12 = \\frac{5}{12}$.",
+        "De helft van vijf zesde is vijf twaalfde."
+      ],
+      "feedback": [
+        {
+          "answer": "5/3",
+          "message": "Je hebt met 2 vermenigvuldigd ($\\frac{10}{6}$). Delen door 2 maakt de uitkomst kleiner: de helft van $\\frac56$."
+        }
+      ],
       "topics": [
-        "fractions"
+        "fractions",
+        "division"
       ]
     },
     {
       "id": "07-024",
-      "question": "Hoeveel stukken van $3/8$ meter kun je precies uit 3 meter halen?",
-      "answer": 8,
-      "solution": [
-        "$3:3/8=3\\times8/3=8$."
-      ],
-      "hints": [
-        "Deel de totale lengte door de lengte van één stuk."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
+      "question": "Hoeveel stukken van $\\frac38$ meter kun je precies uit een lat van 3 meter zagen (zaagverlies verwaarloosd)?",
+      "answer": 8,
+      "hints": [
+        "Deel de totale lengte door de lengte van één stuk.",
+        "$3 : \\frac38 = 3 \\times \\frac83$."
+      ],
+      "solution": [
+        "$3 : \\frac38 = 3 \\times \\frac83 = \\frac{24}{3} = 8$.",
+        "Controle: $8 \\times \\frac38 = \\frac{24}{8} = 3$ meter."
+      ],
       "topics": [
-        "fractions"
+        "fractions",
+        "division"
       ]
     },
     {
       "id": "07-025",
-      "question": "Vul de ontbrekende noemer in: $2/5=1/3+1/\\ldots$.",
-      "answer": 15,
-      "solution": [
-        "$2/5-1/3=6/15-5/15=1/15$."
-      ],
-      "hints": [
-        "Trek één derde af van twee vijfde."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 2,
+      "question": "In de Rhind-papyrus staat $\\frac25$ geschreven als $\\frac13 + \\frac1{\\ldots}$. Welke noemer hoort op de puntjes?",
+      "answer": 15,
+      "hints": [
+        "Trek $\\frac13$ af van $\\frac25$.",
+        "Gebruik vijftienden."
+      ],
+      "solution": [
+        "$\\frac25 - \\frac13 = \\frac{6}{15} - \\frac{5}{15} = \\frac{1}{15}$.",
+        "Dus $\\frac25 = \\frac13 + \\frac1{15}$; de noemer is 15."
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je hebt $5 - 3$ gerekend. Met noemers kun je niet zo rekenen; trek de breuken af na gelijknamig maken: $\\frac{6}{15} - \\frac{5}{15}$."
+        }
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-026",
-      "question": "Bereken $1/4+1/6+1/12$.",
-      "answer": "1/2",
-      "solution": [
-        "$3/12+2/12+1/12=6/12=1/2$."
-      ],
-      "hints": [
-        "Gebruik twaalfden."
-      ],
       "type": "fraction",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
+      "question": "Bereken $\\frac14 + \\frac16 + \\frac{1}{12}$.",
+      "answer": "1/2",
+      "hints": [
+        "Alle drie de noemers zijn delers van 12.",
+        "Schrijf alles als twaalfden."
+      ],
+      "solution": [
+        "$\\frac14 = \\frac{3}{12}$, $\\frac16 = \\frac{2}{12}$.",
+        "$\\frac{3}{12} + \\frac{2}{12} + \\frac{1}{12} = \\frac{6}{12} = \\frac12$.",
+        "Zo is $\\frac12 = \\frac14 + \\frac16 + \\frac1{12}$ een Egyptische ontbinding van een halve."
+      ],
+      "feedback": [
+        {
+          "answer": "3/22",
+          "message": "Je hebt tellers en noemers opgeteld. Drie positieve breuken samen kunnen niet kleiner zijn dan elk van de termen. Gebruik twaalfden."
+        }
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-027",
-      "question": "Een recept gebruikt $3/4$ liter bouillon. Hoeveel liter gebruik je voor een halve hoeveelheid?",
-      "answer": "3/8",
-      "solution": [
-        "$1/2\\times3/4=3/8$ liter."
-      ],
-      "hints": [
-        "Neem de helft van drie kwart."
-      ],
       "type": "fraction",
       "mode": "independent",
       "difficulty": 1,
+      "question": "Een recept gebruikt $\\frac34$ liter bouillon. Hoeveel liter gebruik je als je de helft van het recept maakt?",
+      "answer": "3/8",
+      "hints": [
+        "Neem de helft van drie kwart.",
+        "'De helft van' betekent $\\frac12 \\times$."
+      ],
+      "solution": [
+        "$\\frac12 \\times \\frac34 = \\frac38$ liter.",
+        "Controle: $\\frac38 + \\frac38 = \\frac68 = \\frac34$."
+      ],
+      "feedback": [
+        {
+          "answer": "3/2",
+          "message": "Je hebt het recept verdubbeld in plaats van gehalveerd. De helft van $\\frac34$ is kleiner dan $\\frac34$."
+        }
+      ],
+      "unit": "liter",
       "topics": [
         "fractions"
-      ],
-      "unit": "liter"
+      ]
     },
     {
       "id": "07-028",
-      "question": "Van een voorraad gebruik je eerst $1/3$. Daarna gebruik je de helft van wat overblijft. Welk deel van de oorspronkelijke voorraad blijft?",
-      "answer": "1/3",
-      "solution": [
-        "Na de eerste stap blijft $2/3$.",
-        "De helft daarvan blijft: $1/2\\times2/3=1/3$."
-      ],
-      "hints": [
-        "De tweede helft verwijst naar de resterende voorraad."
-      ],
       "type": "fraction",
       "mode": "independent",
       "difficulty": 3,
+      "question": "Van een voorraad gebruik je eerst $\\frac13$. Daarna gebruik je de helft van wat er dan nog over is. Welk deel van de oorspronkelijke voorraad is er nu nog?",
+      "answer": "1/3",
+      "hints": [
+        "Hoeveel blijft er na de eerste stap over?",
+        "De helft verwijst naar de **resterende** voorraad."
+      ],
+      "solution": [
+        "Na de eerste stap blijft $1 - \\frac13 = \\frac23$ over.",
+        "Daarvan gebruik je de helft, dus de helft blijft: $\\frac12 \\times \\frac23 = \\frac13$.",
+        "Er is nog $\\frac13$ van de oorspronkelijke voorraad."
+      ],
+      "feedback": [
+        {
+          "answer": "1/6",
+          "message": "Je hebt de helft van de **oorspronkelijke** voorraad afgetrokken: $1 - \\frac13 - \\frac12$. Maar de helft gaat over wat er na de eerste stap over is, $\\frac23$."
+        }
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
       "id": "07-029",
-      "question": "Bereken $1\\frac12:3/4$.",
-      "answer": "2/1",
-      "solution": [
-        "$3/2:3/4=3/2\\times4/3=2$."
-      ],
-      "hints": [
-        "Schrijf het gemengde getal als breuk."
-      ],
       "type": "fraction",
       "mode": "independent",
       "difficulty": 2,
+      "question": "Bereken $1\\frac12 : \\frac34$.",
+      "answer": "2",
+      "hints": [
+        "Schrijf het gemengde getal als onechte breuk.",
+        "Hoe vaak past driekwart in anderhalf?"
+      ],
+      "solution": [
+        "$1\\frac12 = \\frac32$.",
+        "$\\frac32 : \\frac34 = \\frac32 \\times \\frac43 = \\frac{12}{6} = 2$.",
+        "Controle: $2 \\times \\frac34 = \\frac64 = 1\\frac12$."
+      ],
+      "feedback": [
+        {
+          "answer": "9/8",
+          "message": "Je hebt vermenigvuldigd: $\\frac32 \\times \\frac34$. Bij delen keer je de deler om: $\\frac32 \\times \\frac43$."
+        }
+      ],
+      "topics": [
+        "fractions",
+        "division"
+      ]
+    },
+    {
+      "id": "07-030",
+      "type": "fraction",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een tank is voor $\\frac34$ gevuld. Je gebruikt $\\frac25$ van het water dat in de tank zit. Daarna voeg je water toe ter grootte van $\\frac1{10}$ van de totale tankinhoud. Welk deel van de tank is nu gevuld?",
+      "answer": "11/20",
+      "hints": [
+        "Na het gebruik blijft drie vijfde van het aanwezige water over.",
+        "De toevoeging van $\\frac1{10}$ verwijst naar de hele tank."
+      ],
+      "solution": [
+        "Je gebruikt $\\frac25$ van het water, dus $\\frac35$ blijft: $\\frac35 \\times \\frac34 = \\frac{9}{20}$ van de tank.",
+        "Je voegt $\\frac1{10} = \\frac{2}{20}$ van de tank toe.",
+        "$\\frac{9}{20} + \\frac{2}{20} = \\frac{11}{20}$ van de tank is gevuld."
+      ],
+      "feedback": [
+        {
+          "answer": "9/20",
+          "message": "Je hebt $\\frac25$ van de **hele tank** afgetrokken ($\\frac34 - \\frac25 + \\frac1{10}$). De $\\frac25$ gaat over het water dat erin zat, $\\frac34$ van de tank."
+        }
+      ],
       "topics": [
         "fractions"
       ]
     },
     {
-      "id": "07-030",
-      "question": "Een tank is $3/4$ gevuld. Je gebruikt $2/5$ van het aanwezige water en voegt daarna $1/10$ van de totale tankinhoud toe. Welk deel is gevuld?",
-      "answer": "11/20",
-      "solution": [
-        "Er blijft $3/5$ van $3/4$: $9/20$.",
-        "Je voegt $1/10=2/20$ toe.",
-        "$9/20+2/20=11/20$."
+      "id": "07-031",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Schrijf $\\frac{23}{4}$ als gemengd getal. Vul het gehele deel en het breukdeel apart in.",
+      "parts": [
+        {
+          "label": "Gehele deel",
+          "answer": 5,
+          "type": "numeric"
+        },
+        {
+          "label": "Breukdeel",
+          "answer": "3/4",
+          "type": "fraction"
+        }
       ],
       "hints": [
-        "Na het gebruik blijft drie vijfde van het aanwezige water.",
-        "De toevoeging verwijst naar de hele tank."
+        "Hoe vaak past 4 in 23? Dat is een deling met rest.",
+        "$5 \\times 4 = 20$; hoeveel blijft over?"
       ],
+      "solution": [
+        "$23 = 5 \\times 4 + 3$.",
+        "Het quotiënt 5 is het gehele deel, de rest 3 wordt de teller.",
+        "$\\frac{23}{4} = 5\\frac34$."
+      ],
+      "topics": [
+        "fractions",
+        "remainders"
+      ]
+    },
+    {
+      "id": "07-032",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Tussen welke twee opeenvolgende gehele getallen ligt $\\frac{47}{6}$? Geef het **kleinste** van de twee.",
+      "answer": 7,
+      "hints": [
+        "Zoek het grootste veelvoud van 6 dat niet boven 47 komt.",
+        "$7 \\times 6 = 42$ en $8 \\times 6 = 48$."
+      ],
+      "solution": [
+        "$7 \\times 6 = 42 \\le 47 < 48 = 8 \\times 6$.",
+        "$\\frac{47}{6} = 7\\frac56$: het getal ligt tussen 7 en 8.",
+        "Het kleinste van de twee is 7."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "8 is het grotere getal; $\\frac{47}{6} = 7\\frac56$ ligt vlak onder 8, maar is er nog niet. Gevraagd is het kleinste van de twee gehele getallen."
+        }
+      ],
+      "topics": [
+        "fractions",
+        "number-line",
+        "estimation"
+      ]
+    },
+    {
+      "id": "07-033",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke breuk ligt precies **midden** tussen $\\frac13$ en $\\frac12$?",
+      "answer": "5/12",
+      "hints": [
+        "Maak de breuken gelijknamig, en verfijn zo nodig verder.",
+        "$\\frac13 = \\frac{4}{12}$ en $\\frac12 = \\frac{6}{12}$."
+      ],
+      "solution": [
+        "$\\frac13 = \\frac{4}{12}$ en $\\frac12 = \\frac{6}{12}$.",
+        "Precies in het midden ligt $\\frac{5}{12}$.",
+        "Controle: $\\left(\\frac13 + \\frac12\\right) : 2 = \\frac56 : 2 = \\frac{5}{12}$."
+      ],
+      "feedback": [
+        {
+          "answer": "2/5",
+          "message": "$\\frac25$ (tellers en noemers opgeteld) ligt wel tussen $\\frac13$ en $\\frac12$, maar niet in het midden: $\\frac25 = \\frac{24}{60}$, het midden is $\\frac{25}{60}$."
+        }
+      ],
+      "topics": [
+        "fractions",
+        "comparing"
+      ]
+    },
+    {
+      "id": "07-034",
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een student schrijft: $\\frac34 + \\frac23 = \\frac57$. Bereken de juiste som. Je mag een onechte breuk of een gemengd getal geven.",
+      "answer": "17/12",
+      "hints": [
+        "Is $\\frac57$ wel groter dan $\\frac34$? Een som van twee positieve getallen moet groter zijn dan elk ervan.",
+        "Maak gelijknamig in twaalfden."
+      ],
+      "solution": [
+        "$\\frac34 = \\frac{9}{12}$ en $\\frac23 = \\frac{8}{12}$.",
+        "$\\frac{9}{12} + \\frac{8}{12} = \\frac{17}{12} = 1\\frac{5}{12}$.",
+        "De fout $\\frac57$ is zelfs kleiner dan $\\frac34$: tellers en noemers optellen bewaart de hoeveelheid niet."
+      ],
+      "feedback": [
+        {
+          "answer": "5/7",
+          "message": "Dat is precies de fout van de student: tellers en noemers opgeteld. Kwarten en derden zijn verschillende soorten stukken; maak eerst twaalfden."
+        },
+        {
+          "answer": "11/12",
+          "message": "Je hebt alleen $\\frac34$ omgeschreven ($\\frac{9}{12}$), maar $\\frac23$ niet goed: $\\frac23 = \\frac{8}{12}$, niet $\\frac{2}{12}$. Vermenigvuldig ook de teller met 4."
+        }
+      ],
+      "topics": [
+        "fractions",
+        "checking"
+      ]
+    },
+    {
+      "id": "07-035",
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Bereken $2\\frac34 + 1\\frac56$. Geef het antwoord als gemengd getal (bijvoorbeeld 4 1/2) of als breuk.",
+      "answer": "55/12",
+      "hints": [
+        "Tel de gehelen en de breukdelen apart op.",
+        "$\\frac34 + \\frac56$ is meer dan 1: vergeet dat extra geheel niet."
+      ],
+      "solution": [
+        "Gehelen: $2 + 1 = 3$.",
+        "Breukdelen: $\\frac34 + \\frac56 = \\frac{9}{12} + \\frac{10}{12} = \\frac{19}{12} = 1\\frac{7}{12}$.",
+        "Samen: $3 + 1\\frac{7}{12} = 4\\frac{7}{12} = \\frac{55}{12}$."
+      ],
+      "feedback": [
+        {
+          "answer": "3 7/12",
+          "message": "Je bent een geheel kwijtgeraakt. $\\frac{19}{12}$ is $1\\frac{7}{12}$; dat extra geheel komt bij de 3."
+        },
+        {
+          "answer": "3 8/10",
+          "message": "Je hebt bij de breukdelen tellers en noemers opgeteld: $\\frac{3+5}{4+6}$. Maak eerst gelijknamig: $\\frac{9}{12} + \\frac{10}{12}$."
+        }
+      ],
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-036",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $5 - 2\\frac38$.",
+      "answer": "21/8",
+      "hints": [
+        "Leen één geheel van de 5 en schrijf het als achtsten.",
+        "$5 = 4\\frac88$."
+      ],
+      "solution": [
+        "$5 = 4\\frac88$.",
+        "$4\\frac88 - 2\\frac38 = 2\\frac58$.",
+        "Controle: $2\\frac58 + 2\\frac38 = 4 + \\frac88 = 5$."
+      ],
+      "feedback": [
+        {
+          "answer": "3 3/8",
+          "message": "Je hebt $5 - 2 = 3$ gerekend en de $\\frac38$ laten staan. Maar je moet $\\frac38$ ook **aftrekken**: leen een geheel, $5 = 4\\frac88$."
+        }
+      ],
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-037",
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $2\\frac12 \\times 2\\frac12$.",
+      "answer": "25/4",
+      "hints": [
+        "Schrijf beide gemengde getallen als onechte breuk.",
+        "$2\\frac12 = \\frac52$."
+      ],
+      "solution": [
+        "$2\\frac12 = \\frac52$.",
+        "$\\frac52 \\times \\frac52 = \\frac{25}{4} = 6\\frac14$.",
+        "Met het rechthoekmodel: $2 \\times 2 + 2 \\times \\frac12 + \\frac12 \\times 2 + \\frac12 \\times \\frac12 = 4 + 1 + 1 + \\frac14$."
+      ],
+      "feedback": [
+        {
+          "answer": "17/4",
+          "message": "Je hebt gehelen met gehelen ($2 \\times 2$) en breuken met breuken ($\\frac12 \\times \\frac12$) vermenigvuldigd. Dan mis je de twee kruisstukken $2 \\times \\frac12$. Reken met $\\frac52 \\times \\frac52$."
+        }
+      ],
+      "topics": [
+        "fractions",
+        "multiplication",
+        "distributive"
+      ]
+    },
+    {
+      "id": "07-038",
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $\\frac35 : \\frac23$.",
+      "answer": "9/10",
+      "hints": [
+        "Keer de deler om: $\\frac23$ wordt $\\frac32$.",
+        "Schatting: $\\frac35$ is iets kleiner dan $\\frac23$, dus de uitkomst ligt net onder 1."
+      ],
+      "solution": [
+        "De omgekeerde van de deler $\\frac23$ is $\\frac32$.",
+        "$\\frac35 \\times \\frac32 = \\frac{9}{10}$.",
+        "Controle: $\\frac{9}{10} \\times \\frac23 = \\frac{18}{30} = \\frac35$."
+      ],
+      "feedback": [
+        {
+          "answer": "2/5",
+          "message": "Je hebt niet omgekeerd: $\\frac35 \\times \\frac23 = \\frac{6}{15} = \\frac25$. Dat is een vermenigvuldiging. Delen door $\\frac23$ is vermenigvuldigen met $\\frac32$."
+        },
+        {
+          "answer": "10/9",
+          "message": "Je hebt het deeltal omgekeerd ($\\frac53 \\times \\frac23$). Alleen de deler, de tweede breuk, wordt omgekeerd."
+        }
+      ],
+      "topics": [
+        "fractions",
+        "division",
+        "checking"
+      ]
+    },
+    {
+      "id": "07-039",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "In de $\\frac2n$-tabel van de Rhind-papyrus staat $\\frac27 = \\frac14 + \\frac1{\\ldots}$. Welke noemer hoort op de puntjes?",
+      "answer": 28,
+      "hints": [
+        "Bereken $\\frac27 - \\frac14$.",
+        "Het kgv van 7 en 4 is 28."
+      ],
+      "solution": [
+        "$\\frac27 = \\frac{8}{28}$ en $\\frac14 = \\frac{7}{28}$.",
+        "$\\frac{8}{28} - \\frac{7}{28} = \\frac{1}{28}$.",
+        "Dus $\\frac27 = \\frac14 + \\frac1{28}$."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Je hebt $7 - 4$ gerekend. Noemers trek je niet van elkaar af; maak gelijknamig in achtentwintigsten en trek de breuken af."
+        }
+      ],
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-040",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Fibonacci beschreef een 'gulzige' methode om een breuk als som van stambreuken te schrijven: neem steeds de grootste stambreuk die nog past en ga verder met de rest. Voor $\\frac{4}{13}$ is de eerste stambreuk $\\frac14$. Wat is de noemer van de **tweede** stambreuk?",
+      "answer": 18,
+      "hints": [
+        "Bereken eerst de rest: $\\frac{4}{13} - \\frac14$.",
+        "De rest is $\\frac{3}{52}$. Zoek de kleinste $n$ waarvoor $\\frac1n \\le \\frac{3}{52}$, dus $3n \\ge 52$."
+      ],
+      "solution": [
+        "Rest: $\\frac{4}{13} - \\frac14 = \\frac{16}{52} - \\frac{13}{52} = \\frac{3}{52}$.",
+        "$\\frac1n \\le \\frac{3}{52}$ betekent $3n \\ge 52$. $3 \\times 17 = 51$ is te weinig, $3 \\times 18 = 54$ is genoeg.",
+        "De tweede stambreuk is $\\frac1{18}$. (De rest daarna is $\\frac{3}{52} - \\frac1{18} = \\frac{2}{936} = \\frac{1}{468}$, dus $\\frac4{13} = \\frac14 + \\frac1{18} + \\frac1{468}$.)"
+      ],
+      "feedback": [
+        {
+          "answer": 17,
+          "message": "$\\frac1{17}$ is net te groot: $\\frac1{17} = \\frac{3}{51}$ en dat is meer dan $\\frac{3}{52}$. De stambreuk mag niet groter zijn dan de rest."
+        }
+      ],
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-041",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een Babylonische schrijver deelt door 12 door te vermenigvuldigen met de omgekeerde van 12. Die staat in zijn tabel als 5 zestigsten ($\\frac1{12} = \\frac{5}{60}$). Hoeveel zestigsten is $7 : 12$?",
+      "answer": 35,
+      "hints": [
+        "$7 : 12 = 7 \\times \\frac1{12}$.",
+        "Zeven keer vijf zestigsten."
+      ],
+      "solution": [
+        "$7 : 12 = 7 \\times \\frac{1}{12} = 7 \\times \\frac{5}{60} = \\frac{35}{60}$.",
+        "Het antwoord is 35 zestigsten.",
+        "Controle: $\\frac{35}{60} = \\frac{7}{12}$ (deel teller en noemer door 5)."
+      ],
+      "feedback": [
+        {
+          "answer": 84,
+          "message": "Je hebt $7 \\times 12$ gerekend. De schrijver vermenigvuldigt niet met 12, maar met de **omgekeerde** van 12: vijf zestigsten."
+        }
+      ],
+      "topics": [
+        "fractions",
+        "number-systems",
+        "division"
+      ]
+    },
+    {
+      "id": "07-042",
       "type": "fraction",
       "mode": "challenge",
       "difficulty": 4,
+      "question": "Een vader laat zijn kudde na: de oudste zoon krijgt $\\frac12$, de middelste $\\frac13$ en de jongste $\\frac19$. Welk deel van de kudde geeft hij in totaal weg?",
+      "answer": "17/18",
+      "hints": [
+        "Tel de drie breuken op. Het kgv van 2, 3 en 9 is 18.",
+        "Bij 17 kamelen: wat blijft er volgens de breuken eigenlijk over?"
+      ],
+      "solution": [
+        "$\\frac12 + \\frac13 + \\frac19 = \\frac{9}{18} + \\frac{6}{18} + \\frac{2}{18} = \\frac{17}{18}$.",
+        "De vader verdeelt dus niet de hele kudde: $\\frac1{18}$ blijft over.",
+        "Bij 18 kamelen zijn de delen 9, 6 en 2, samen 17. Daarom kan de geleende achttiende kameel weer terug: het raadsel werkt omdat de breuken samen geen 1 zijn."
+      ],
+      "feedback": [
+        {
+          "answer": "1",
+          "message": "De drie breuken zijn samen niet 1. Reken na in achttiende: $\\frac{9}{18} + \\frac{6}{18} + \\frac{2}{18}$. Juist daardoor blijft de geleende kameel over."
+        }
+      ],
+      "topics": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "07-043",
+      "type": "fraction",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Opgave 24 van de Rhind-papyrus: *een hoeveelheid en haar zevende deel samen maken 19.* Wat is de hoeveelheid? Geef een breuk of een gemengd getal.",
+      "answer": "133/8",
+      "hints": [
+        "Gok 7: dan is 'de hoeveelheid plus haar zevende' $7 + 1 = 8$.",
+        "Je moet niet 8 maar 19 krijgen. Vermenigvuldig je gok met $\\frac{19}{8}$."
+      ],
+      "solution": [
+        "Gok 7: $7 + \\frac17 \\times 7 = 8$.",
+        "Gewenst is 19, dus vergroot alles met de factor $\\frac{19}{8}$: $7 \\times \\frac{19}{8} = \\frac{133}{8} = 16\\frac58$.",
+        "Controle: $\\frac{133}{8} + \\frac17 \\times \\frac{133}{8} = \\frac{133}{8} + \\frac{19}{8} = \\frac{152}{8} = 19$.",
+        "Ahmes schreef het antwoord als $16 + \\frac12 + \\frac18$."
+      ],
+      "feedback": [
+        {
+          "answer": "114/7",
+          "message": "Je hebt een zevende van **19** afgetrokken. Maar het zevende deel hoort bij de onbekende hoeveelheid, niet bij 19. Samen zijn hoeveelheid en zevende acht zevenden van de hoeveelheid."
+        }
+      ],
+      "topics": [
+        "fractions",
+        "equations"
+      ]
+    },
+    {
+      "id": "07-044",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De zogeheten Horusoog-breuken zijn $\\frac12$, $\\frac14$, $\\frac18$, $\\frac1{16}$, $\\frac1{32}$ en $\\frac1{64}$. Bereken hun som.",
+      "answer": "63/64",
+      "hints": [
+        "Schrijf alle breuken als vierenzestigsten.",
+        "$\\frac12 = \\frac{32}{64}$, $\\frac14 = \\frac{16}{64}$, ..."
+      ],
+      "solution": [
+        "In vierenzestigsten: $32 + 16 + 8 + 4 + 2 + 1 = 63$.",
+        "De som is $\\frac{63}{64}$: precies één vierenzestigste minder dan 1.",
+        "Elke halvering vult de helft van het resterende gat; het gat wordt kleiner, maar verdwijnt nooit."
+      ],
+      "feedback": [
+        {
+          "answer": "1",
+          "message": "Bijna, maar niet precies. Tel in vierenzestigsten: $32 + 16 + 8 + 4 + 2 + 1 = 63$. Er ontbreekt $\\frac1{64}$."
+        }
+      ],
       "topics": [
         "fractions"
       ]
