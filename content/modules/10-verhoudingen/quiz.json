@@ -43,6 +43,12 @@
       ],
       "topics": [
         "ratios"
+      ],
+      "feedback": [
+        {
+          "answer": 17,
+          "message": "Je hebt bij beide termen 8 opgeteld. Een verhouding gaat over keer: van 4 naar 12 is maal 3."
+        }
       ]
     },
     {
@@ -59,6 +65,12 @@
       ],
       "topics": [
         "ratios"
+      ],
+      "feedback": [
+        {
+          "answer": "2/7",
+          "message": "Dat vergelijkt siroop met water. Het hele mengsel bestaat uit $2 + 7 = 9$ delen."
+        }
       ]
     },
     {
@@ -76,7 +88,13 @@
       "topics": [
         "proportions"
       ],
-      "unit": "€"
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 20.5,
+          "message": "Je hebt € 3 opgeteld omdat er 3 meter bij komt. Reken via de prijs per meter."
+        }
+      ]
     },
     {
       "id": "10-T05",
@@ -125,7 +143,13 @@
       "topics": [
         "ratios"
       ],
-      "unit": "cm"
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 42,
+          "message": "Dat is de tweede lengte. Gevraagd is de eerste: vier delen van 6 cm."
+        }
+      ]
     },
     {
       "id": "10-T07",
@@ -142,7 +166,13 @@
       "topics": [
         "proportions"
       ],
-      "unit": "€"
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je bent het starttarief van € 4 vergeten."
+        }
+      ]
     },
     {
       "id": "10-T08",
@@ -159,7 +189,13 @@
       "topics": [
         "unit-conversion"
       ],
-      "unit": "km"
+      "unit": "km",
+      "feedback": [
+        {
+          "answer": 1400,
+          "message": "Dat is de afstand in meters. De vraag vraagt kilometers."
+        }
+      ]
     },
     {
       "id": "10-T09",
@@ -176,7 +212,13 @@
       "topics": [
         "unit-conversion"
       ],
-      "unit": "cm"
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 3600,
+          "message": "Je hebt met 20 vermenigvuldigd: de schaal omgekeerd. Op de tekening is de tafel kleiner."
+        }
+      ]
     },
     {
       "id": "10-T10",
@@ -192,6 +234,12 @@
       ],
       "topics": [
         "unit-conversion"
+      ],
+      "feedback": [
+        {
+          "answer": 200,
+          "message": "Je hebt 1200 m met 6 cm vergeleken zonder dezelfde eenheid te gebruiken. Zet 1,2 km om naar 120.000 cm."
+        }
       ]
     },
     {
@@ -208,6 +256,12 @@
       ],
       "topics": [
         "proportions"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Dat is de lengtefactor. Oppervlakte groeit in twee richtingen: $2 \\times 2$."
+        }
       ]
     },
     {
@@ -225,7 +279,13 @@
       "topics": [
         "speed"
       ],
-      "unit": "km"
+      "unit": "km",
+      "feedback": [
+        {
+          "answer": 9,
+          "message": "Je hebt 50 minuten als 0,5 uur genomen. Een uur heeft 60 minuten: 50 minuten is $\\frac56$ uur."
+        }
+      ]
     },
     {
       "id": "10-T13",
@@ -242,7 +302,13 @@
       "topics": [
         "speed"
       ],
-      "unit": "m/s"
+      "unit": "m/s",
+      "feedback": [
+        {
+          "answer": 324,
+          "message": "Je hebt met 3,6 vermenigvuldigd. Van km/u naar m/s deel je door 3,6."
+        }
+      ]
     },
     {
       "id": "10-T14",
@@ -259,14 +325,20 @@
       "topics": [
         "speed"
       ],
-      "unit": "km/u"
+      "unit": "km/u",
+      "feedback": [
+        {
+          "answer": 50,
+          "message": "Je hebt het gemiddelde van 40 en 60 genomen. Je rijdt langer met 40 km/u; gebruik totale afstand gedeeld door totale tijd."
+        }
+      ]
     },
     {
       "id": "10-T15",
       "type": "multiple",
       "mode": "independent",
       "difficulty": 3,
-      "question": "Bereken beide eenheidswaarden: 1,5 kg rijst kost € 4,20; een blok van 80 cm³ heeft massa 216 g.",
+      "question": "Bereken beide eenheidswaarden: 1,5 kg rijst kost € 4,20 (prijs per kilogram), en een blok van 80 cm³ heeft een massa van 216 g (dichtheid).",
       "hints": [],
       "solution": [
         "Prijs per kilogram: $4{,}20 : 1{,}5=2{,}80$ euro.",

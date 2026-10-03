@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="sans-serif" font-size="14">
+  <rect width="640" height="300" fill="#ffffff"/>
+  <line x1="20" y1="250" x2="620" y2="250" stroke="#1f2933" stroke-width="2"/>
+  <!-- stok: hoogte 2 -> 40px, schaduw 3 -> 60px -->
+  <polygon points="60,250 60,210 120,250" fill="#f1f3f5" stroke="none"/>
+  <line x1="60" y1="250" x2="60" y2="210" stroke="#1f2933" stroke-width="4"/>
+  <line x1="60" y1="250" x2="120" y2="250" stroke="#3b5bdb" stroke-width="5"/>
+  <line x1="30" y1="190" x2="130" y2="256.7" stroke="#9c6b30" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="30" y="235" fill="#1f2933">2 m</text>
+  <text x="74" y="272" fill="#3b5bdb">3 m</text>
+  <text x="44" y="200" fill="#1f2933">stok</text>
+  <!-- toren: hoogte 12 -> 240px? schaal 20px per m: 12 m = 240 te groot; gebruik 15px/m: 180px, schaduw 18 -> 270 px -->
+  <polygon points="300,250 300,70 570,250" fill="#f1f3f5" stroke="none"/>
+  <rect x="288" y="70" width="24" height="180" fill="#ffffff" stroke="#1f2933" stroke-width="2"/>
+  <line x1="300" y1="250" x2="570" y2="250" stroke="#3b5bdb" stroke-width="5"/>
+  <line x1="255" y1="40" x2="590" y2="263.3" stroke="#9c6b30" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="240" y="165" fill="#1f2933">? m</text>
+  <text x="415" y="272" fill="#3b5bdb">18 m</text>
+  <text x="282" y="60" fill="#1f2933">toren</text>
+  <text x="440" y="120" fill="#9c6b30">evenwijdige zonnestralen</text>
+  <text x="20" y="295" fill="#1f2933" font-size="13">Hoogte : schaduw is in beide driehoeken 2 : 3, dus de toren is 2/3 van 18 m = 12 m.</text>
+</svg>

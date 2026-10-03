@@ -99,7 +99,13 @@
       "topics": [
         "ratios"
       ],
-      "answer": 32
+      "answer": 32,
+      "feedback": [
+        {
+          "answer": 23,
+          "message": "Je hebt bij beide getallen 15 opgeteld (van 5 naar 20). Dat is additief denken: $5 : 8$ en $20 : 23$ zijn verschillende verhoudingen. Van 5 naar 20 is maal 4, dus 8 gaat ook maal 4."
+        }
+      ]
     },
     {
       "id": "10-005",
@@ -143,7 +149,17 @@
       "topics": [
         "ratios"
       ],
-      "answer": "5/8"
+      "answer": "5/8",
+      "feedback": [
+        {
+          "answer": "3/8",
+          "message": "Dat is het deel rode kralen. De vraag gaat over de blauwe: vijf van de acht delen."
+        },
+        {
+          "answer": "5/3",
+          "message": "Je vergelijkt blauw met rood (een deel-deelverhouding). Gevraagd is blauw tegenover álle kralen: $3 + 5 = 8$ delen."
+        }
+      ]
     },
     {
       "id": "10-007",
@@ -163,12 +179,18 @@
         "proportions"
       ],
       "answer": 30,
-      "unit": "€"
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 16.5,
+          "message": "Je hebt de 4,5 meter die erbij komt ook in euro's erbij geteld ($12 + 4{,}5$). Dat is additief denken. Reken met de prijs per meter: $12 : 3 = 4$ euro."
+        }
+      ]
     },
     {
       "id": "10-008",
       "type": "decimal",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
       "question": "4 kilogram appels kost € 10. De kilogramprijs is vast. Wat kost 7 kilogram?",
       "hints": [
@@ -183,12 +205,18 @@
         "proportions"
       ],
       "answer": 17.5,
-      "unit": "€"
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 13,
+          "message": "Je hebt 3 euro opgeteld omdat er 3 kilogram bij komt. De prijs gaat niet met plus maar met keer mee: eerst $10 : 4 = 2{,}50$ euro per kilogram."
+        }
+      ]
     },
     {
       "id": "10-009",
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
       "question": "Voor 6 personen is 450 gram rijst nodig. Hoeveel gram heb je bij hetzelfde recept nodig voor 10 personen?",
       "hints": [
@@ -203,7 +231,13 @@
         "proportions"
       ],
       "answer": 750,
-      "unit": "g"
+      "unit": "g",
+      "feedback": [
+        {
+          "answer": 454,
+          "message": "Er komen 4 personen bij, maar niet 4 gram rijst. Elke extra persoon eet 75 gram: reken eerst de hoeveelheid per persoon uit."
+        }
+      ]
     },
     {
       "id": "10-010",
@@ -300,7 +334,7 @@
     {
       "id": "10-013",
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 3,
       "question": "Twee bedragen staan in de verhouding $3 : 5$. Het tweede is € 40 groter. Wat is het eerste bedrag?",
       "hints": [
@@ -316,14 +350,24 @@
         "ratios"
       ],
       "answer": 60,
-      "unit": "€"
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Je hebt € 40 behandeld als het totaal van acht delen. Het is het verschil: $5 - 3 = 2$ delen."
+        },
+        {
+          "answer": 100,
+          "message": "Dat is het tweede, grootste bedrag. Gevraagd is het eerste: drie delen van € 20."
+        }
+      ]
     },
     {
       "id": "10-014",
       "type": "decimal",
       "mode": "guided",
       "difficulty": 1,
-      "question": "Een tabel bevat de paren (2 kg, € 7), (4 kg, € 14) en (6 kg, € 21). Wat is de vaste prijs per kilogram?",
+      "question": "Een tabel bevat de paren (2 kg, € 7), (4 kg, € 14) en (6 kg, € 21). Wat is de vaste prijs per kilogram, in euro?",
       "hints": [
         "Deel in elke kolom de prijs door de massa.",
         "Bereken $7 : 2$."
@@ -336,7 +380,14 @@
         "proportions"
       ],
       "answer": 3.5,
-      "unit": "€/kg"
+      "tolerance": 0.01,
+      "unit": "€/kg",
+      "feedback": [
+        {
+          "answer": 0.29,
+          "message": "Je hebt massa gedeeld door prijs: dat geeft kilogram per euro. Voor de prijs per kilogram deel je de prijs door de massa: $7 : 2$."
+        }
+      ]
     },
     {
       "id": "10-015",
@@ -385,7 +436,13 @@
       "topics": [
         "proportions"
       ],
-      "answer": 12
+      "answer": 12,
+      "feedback": [
+        {
+          "answer": 18,
+          "message": "Je hebt bij 4 hetzelfde opgeteld als bij 7 ($+14$). Een evenredigheid werkt met een factor: van 7 naar 21 is maal 3."
+        }
+      ]
     },
     {
       "id": "10-017",
@@ -416,7 +473,7 @@
     {
       "id": "10-018",
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
       "question": "Op een kaart met schaal $1 : 50\\,000$ meet je 4 cm. Hoeveel meter is dat in werkelijkheid?",
       "hints": [
@@ -431,7 +488,17 @@
         "unit-conversion"
       ],
       "answer": 2000,
-      "unit": "m"
+      "unit": "m",
+      "feedback": [
+        {
+          "answer": 200000,
+          "message": "Dat is de afstand in centimeters. Deel door 100 om meters te krijgen."
+        },
+        {
+          "answer": 2,
+          "message": "Dat is de afstand in kilometers. De vraag vraagt meters."
+        }
+      ]
     },
     {
       "id": "10-019",
@@ -451,12 +518,22 @@
         "unit-conversion"
       ],
       "answer": 8,
-      "unit": "cm"
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 20000,
+          "message": "Je hebt met 50 vermenigvuldigd: dat is de schaal omgekeerd. Van werkelijkheid naar tekening wordt het getal kleiner, dus je deelt door 50."
+        },
+        {
+          "answer": 0.08,
+          "message": "Je hebt 4 meter door 50 gedeeld zonder eerst naar centimeters om te rekenen. 0,08 m is 8 cm, maar de vraag vraagt centimeters."
+        }
+      ]
     },
     {
       "id": "10-020",
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 3,
       "question": "Een weg van 600 m is 3 cm op een kaart. De schaal is $1 : n$. Wat is $n$?",
       "hints": [
@@ -481,7 +558,7 @@
     {
       "id": "10-021",
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 3,
       "question": "Een rechthoek heeft een oppervlakte van 6 cm². Alle lengtes worden met factor 4 vergroot. Wat is de nieuwe oppervlakte?",
       "hints": [
@@ -500,7 +577,11 @@
       "feedback": [
         {
           "answer": 24,
-          "message": "Je hebt alleen de lengtefactor gebruikt. Zowel lengte als breedte worden vier keer zo groot; de oppervlaktefactor is 16."
+          "message": "Je hebt alleen de lengtefactor gebruikt. Zowel lengte als breedte worden vier keer zo groot; de oppervlaktefactor is $4^2 = 16$."
+        },
+        {
+          "answer": 384,
+          "message": "Je hebt de inhoudsfactor $4^3 = 64$ gebruikt. Een oppervlakte heeft twee richtingen, dus de factor is $4^2 = 16$."
         }
       ]
     },
@@ -522,7 +603,13 @@
         "speed"
       ],
       "answer": 60,
-      "unit": "km/u"
+      "unit": "km/u",
+      "feedback": [
+        {
+          "answer": 135,
+          "message": "Je hebt afstand en tijd vermenigvuldigd. Snelheid is afstand gedeeld door tijd: $90 : 1{,}5$."
+        }
+      ]
     },
     {
       "id": "10-023",
@@ -553,7 +640,7 @@
     {
       "id": "10-024",
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
       "question": "Je rijdt 150 km met een constante snelheid van 75 km/u. Hoeveel uur duurt de rit?",
       "hints": [
@@ -568,7 +655,17 @@
         "speed"
       ],
       "answer": 2,
-      "unit": "uur"
+      "unit": "uur",
+      "feedback": [
+        {
+          "answer": 0.5,
+          "message": "Je hebt snelheid door afstand gedeeld. Tijd is afstand gedeeld door snelheid: $150 : 75$."
+        },
+        {
+          "answer": 11250,
+          "message": "Je hebt vermenigvuldigd. Controleer de eenheden: km maal km/u geeft geen uren."
+        }
+      ]
     },
     {
       "id": "10-025",
@@ -588,12 +685,22 @@
         "speed"
       ],
       "answer": 20,
-      "unit": "m/s"
+      "unit": "m/s",
+      "feedback": [
+        {
+          "answer": 259.2,
+          "message": "Je hebt met 3,6 vermenigvuldigd: de verkeerde richting. Een seconde is veel korter dan een uur, dus het getal bij m/s moet kleiner worden."
+        },
+        {
+          "answer": 1.2,
+          "message": "Je hebt alleen door 60 gedeeld. Er veranderen twee eenheden: km naar m (maal 1000) en uur naar seconde (gedeeld door 3600). Samen is dat gedeeld door 3,6."
+        }
+      ]
     },
     {
       "id": "10-026",
-      "type": "numeric",
-      "mode": "guided",
+      "type": "decimal",
+      "mode": "independent",
       "difficulty": 1,
       "question": "Reken 15 m/s om naar km/u.",
       "hints": [
@@ -608,12 +715,19 @@
         "speed"
       ],
       "answer": 54,
-      "unit": "km/u"
+      "tolerance": 0.05,
+      "unit": "km/u",
+      "feedback": [
+        {
+          "answer": 4.17,
+          "message": "Je hebt door 3,6 gedeeld: de verkeerde richting. In een uur leg je veel meer meters af dan in een seconde, dus het getal bij km/u is groter."
+        }
+      ]
     },
     {
       "id": "10-027",
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 3,
       "question": "Je rijdt 30 km met 30 km/u en daarna 30 km met 60 km/u, zonder pauze. Wat is je gemiddelde snelheid over de hele rit?",
       "hints": [
@@ -655,7 +769,13 @@
         "unit-conversion"
       ],
       "answer": 4.8,
-      "unit": "€/kg"
+      "unit": "€/kg",
+      "feedback": [
+        {
+          "answer": 2.7,
+          "message": "Je hebt de prijs met 0,75 vermenigvuldigd. De prijs per kilogram is prijs gedeeld door massa: $3{,}60 : 0{,}75$."
+        }
+      ]
     },
     {
       "id": "10-029",
@@ -675,12 +795,18 @@
         "proportions"
       ],
       "answer": 8,
-      "unit": "g/cm³"
+      "unit": "g/cm³",
+      "feedback": [
+        {
+          "answer": 0.125,
+          "message": "Je hebt volume door massa gedeeld: dat geeft cm³ per gram. Dichtheid is massa gedeeld door volume."
+        }
+      ]
     },
     {
       "id": "10-030",
-      "type": "numeric",
-      "mode": "guided",
+      "type": "decimal",
+      "mode": "independent",
       "difficulty": 2,
       "question": "Een materiaal heeft een dichtheid van 2,7 g/cm³. Wat is de massa van 50 cm³ van dit materiaal?",
       "hints": [
@@ -695,7 +821,14 @@
         "proportions"
       ],
       "answer": 135,
-      "unit": "g"
+      "tolerance": 0.05,
+      "unit": "g",
+      "feedback": [
+        {
+          "answer": 18.52,
+          "message": "Je hebt het volume door de dichtheid gedeeld. Bij elke cm³ hoort 2,7 gram, dus de massa is dichtheid maal volume."
+        }
+      ]
     },
     {
       "id": "10-031",
@@ -714,7 +847,13 @@
       "topics": [
         "ratios"
       ],
-      "answer": 2
+      "answer": 2,
+      "feedback": [
+        {
+          "answer": 0.5,
+          "message": "Dat is de factor voor de lengte. Frequentie en lengte veranderen hier in tegengestelde richting: een kortere snaar trilt sneller."
+        }
+      ]
     },
     {
       "id": "10-032",
@@ -733,7 +872,14 @@
       "topics": [
         "ratios"
       ],
-      "answer": 1.625
+      "answer": 1.625,
+      "tolerance": 0.0005,
+      "feedback": [
+        {
+          "answer": 0.615,
+          "message": "Je hebt $8 : 13$ berekend. Gevraagd is $13 : 8$, het grotere getal gedeeld door het kleinere."
+        }
+      ]
     },
     {
       "id": "10-033",
@@ -783,7 +929,13 @@
       "topics": [
         "unit-conversion"
       ],
-      "answer": 200000
+      "answer": 200000,
+      "feedback": [
+        {
+          "answer": 2000,
+          "message": "Je hebt 8 km als 8000 m gelezen en direct met 4 cm vergeleken. Zet beide lengtes in centimeters: 8 km is 800.000 cm."
+        }
+      ]
     },
     {
       "id": "10-035",
@@ -808,6 +960,10 @@
         {
           "answer": 96,
           "message": "Je hebt de vaste kosten vergeten. Alleen de overgebleven € 77 wordt omgewisseld."
+        },
+        {
+          "answer": 93,
+          "message": "Je hebt de € 3 kosten van het dollarbedrag afgetrokken. De kosten zijn in euro en gaan eraf vóór het wisselen."
         }
       ]
     },
@@ -837,6 +993,277 @@
         {
           "answer": "5/6",
           "message": "Dat is de nieuwe totale hoeveelheid siroop. Trek de al aanwezige halve liter nog af."
+        }
+      ]
+    },
+    {
+      "id": "10-037",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een stok van 2 m werpt een schaduw van 3 m. Op hetzelfde moment valt de schaduw van een piramide met een vierkant grondvlak van 230 m bij 230 m loodrecht op een zijde naar buiten. Het stuk schaduw buiten de voet is, gemeten vanaf het midden van die zijde, 104 m lang. Hoe hoog is de piramide volgens dit model? Rond af op hele meters.",
+      "hints": [
+        "De top staat boven het midden van het grondvlak. Hoe ver is dat midden van de zijde?",
+        "De horizontale afstand is $115 + 104$ m. Gebruik daarna de verhouding hoogte : schaduw van de stok."
+      ],
+      "solution": [
+        "Het punt recht onder de top ligt een halve zijde, $230 : 2 = 115$ m, van de rand.",
+        "De totale horizontale afstand is $115 + 104 = 219$ m.",
+        "Bij de stok is hoogte : schaduw $= 2 : 3$, dus de hoogte is $\\frac23$ van de horizontale afstand.",
+        "$\\frac23 \\times 219 = 146$ m."
+      ],
+      "topics": [
+        "ratios",
+        "proportions"
+      ],
+      "answer": 146,
+      "tolerance": 0.5,
+      "unit": "m",
+      "feedback": [
+        {
+          "answer": 69.33,
+          "message": "Je hebt alleen de schaduw buiten de voet gebruikt. De schaduw begint pas bij de rand, maar de top staat boven het midden: tel de halve zijde (115 m) mee."
+        },
+        {
+          "answer": 76.67,
+          "message": "Je hebt alleen de halve zijde gebruikt. Tel het stuk schaduw buiten de voet (104 m) erbij op."
+        },
+        {
+          "answer": 328.5,
+          "message": "Je hebt met $\\frac32$ vermenigvuldigd in plaats van met $\\frac23$. De stok is lager dan zijn schaduw lang is, dus de piramide ook."
+        }
+      ]
+    },
+    {
+      "id": "10-038",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "In een cursusgroep is de verhouding mannen : vrouwen $= 2 : 3$. Hoeveel procent van de groep is vrouw?",
+      "hints": [
+        "Uit hoeveel verhoudingsdelen bestaat de hele groep?",
+        "Vrouwen zijn $\\frac35$ van de groep. Reken die breuk om naar procent."
+      ],
+      "solution": [
+        "De groep bestaat uit $2 + 3 = 5$ delen.",
+        "Vrouwen zijn $\\frac35$ van de groep.",
+        "$\\frac35 = \\frac{60}{100} = 60\\%$."
+      ],
+      "topics": [
+        "ratios",
+        "percentages"
+      ],
+      "answer": 60,
+      "unit": "%",
+      "feedback": [
+        {
+          "answer": 150,
+          "message": "Je hebt het aantal vrouwen vergeleken met het aantal mannen ($\\frac32$). Gevraagd is het deel van de héle groep: $3$ van de $5$ delen."
+        },
+        {
+          "answer": 40,
+          "message": "Dat is het percentage mannen. Vrouwen zijn drie van de vijf delen."
+        }
+      ]
+    },
+    {
+      "id": "10-039",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Twee vennoten leggen € 600 en € 900 in een onderneming. De winst van € 1.250 wordt verdeeld naar verhouding van de inleg. Hoeveel krijgt de vennoot die € 900 inlegde?",
+      "hints": [
+        "Vereenvoudig eerst de verhouding $600 : 900$.",
+        "Bij $2 : 3$ is de winst verdeeld in vijf delen."
+      ],
+      "solution": [
+        "$600 : 900 = 2 : 3$ (deel door 300).",
+        "Samen $2 + 3 = 5$ delen; één deel is $1250 : 5 = 250$ euro.",
+        "De tweede vennoot krijgt $3 \\times 250 = 750$ euro.",
+        "Controle: de eerste krijgt € 500, samen € 1.250, en $500 : 750 = 2 : 3$."
+      ],
+      "topics": [
+        "ratios",
+        "money"
+      ],
+      "answer": 750,
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 625,
+          "message": "Je hebt de winst gelijk verdeeld. Volgens de afspraak krijgt wie meer inlegt ook meer winst: verdeel in de verhouding $2 : 3$."
+        },
+        {
+          "answer": 500,
+          "message": "Dat is het aandeel van de vennoot die € 600 inlegde."
+        }
+      ]
+    },
+    {
+      "id": "10-040",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een taxirit van 5 km kost € 14 en een rit van 10 km kost € 24. Het tarief bestaat uit een vast starttarief plus een vast bedrag per kilometer. Wat kost een rit van 20 km?",
+      "hints": [
+        "Wat kosten de 5 extra kilometers van de tweede rit? Daaruit volgt de prijs per kilometer.",
+        "Trek de kilometerkosten van de eerste rit af van € 14 om het starttarief te vinden."
+      ],
+      "solution": [
+        "De 5 extra kilometers kosten $24 - 14 = 10$ euro, dus $10 : 5 = 2$ euro per km.",
+        "Bij 5 km zijn de kilometerkosten $5 \\times 2 = 10$ euro; het starttarief is $14 - 10 = 4$ euro.",
+        "Een rit van 20 km kost $4 + 20 \\times 2 = 44$ euro.",
+        "Het verband is niet recht evenredig: bij 0 km betaal je al € 4."
+      ],
+      "topics": [
+        "proportions",
+        "money"
+      ],
+      "answer": 44,
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 48,
+          "message": "Je hebt de prijs van 10 km verdubbeld. Dan betaal je het starttarief twee keer. Bepaal eerst het starttarief en de kilometerprijs."
+        },
+        {
+          "answer": 56,
+          "message": "Je hebt de prijs van 5 km met 4 vermenigvuldigd. Het starttarief betaal je maar één keer; dit verband is niet recht evenredig."
+        }
+      ]
+    },
+    {
+      "id": "10-041",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Op een plattegrond met schaal $1 : 200$ is een muur 3,5 cm lang. Hoe lang is de muur in werkelijkheid, in meters?",
+      "hints": [
+        "Van tekening naar werkelijkheid wordt het getal groter.",
+        "Vermenigvuldig met 200 en reken centimeters om naar meters."
+      ],
+      "solution": [
+        "Werkelijke lengte: $3{,}5 \\times 200 = 700$ cm.",
+        "$700 : 100 = 7$ m."
+      ],
+      "topics": [
+        "ratios",
+        "unit-conversion"
+      ],
+      "answer": 7,
+      "unit": "m",
+      "feedback": [
+        {
+          "answer": 0.0175,
+          "message": "Je hebt door 200 gedeeld: dat is de schaal omgekeerd. Op de tekening is alles kleiner dan in werkelijkheid, dus de echte muur is langer dan 3,5 cm."
+        },
+        {
+          "answer": 700,
+          "message": "Dat is de lengte in centimeters. Deel door 100 voor meters."
+        }
+      ]
+    },
+    {
+      "id": "10-042",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Pak A bevat 400 g muesli en kost € 2,20. Pak B bevat 1,5 kg en kost € 7,80. Hoeveel euro per kilogram is het voordeligste pak goedkoper dan het andere?",
+      "hints": [
+        "Reken beide prijzen om naar euro per kilogram. 400 g is 0,4 kg.",
+        "Trek daarna de twee kilogramprijzen van elkaar af."
+      ],
+      "solution": [
+        "Pak A: $2{,}20 : 0{,}4 = 5{,}50$ euro per kg.",
+        "Pak B: $7{,}80 : 1{,}5 = 5{,}20$ euro per kg.",
+        "Pak B is voordeliger, en wel $5{,}50 - 5{,}20 = 0{,}30$ euro per kilogram."
+      ],
+      "topics": [
+        "proportions",
+        "money"
+      ],
+      "answer": 0.3,
+      "tolerance": 0.001,
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 0.03,
+          "message": "Dat is het verschil per 100 gram. De vraag vraagt het verschil per kilogram: tien keer zoveel."
+        },
+        {
+          "answer": 5.6,
+          "message": "Je hebt de totaalprijzen van elkaar afgetrokken. De pakken zijn verschillend groot; vergelijk per kilogram."
+        }
+      ]
+    },
+    {
+      "id": "10-043",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Twee fietsers zijn 45 km van elkaar verwijderd. Ze vertrekken tegelijk en fietsen over dezelfde weg naar elkaar toe, de een met 12 km/u en de ander met 18 km/u. Na hoeveel minuten ontmoeten ze elkaar?",
+      "hints": [
+        "Hoeveel kilometer wordt de afstand tussen hen per uur kleiner?",
+        "Samen overbruggen ze $12 + 18 = 30$ km per uur."
+      ],
+      "solution": [
+        "Ze fietsen naar elkaar toe, dus de afstand tussen hen neemt per uur af met $12 + 18 = 30$ km.",
+        "Tijd tot de ontmoeting: $45 : 30 = 1{,}5$ uur.",
+        "$1{,}5$ uur is $90$ minuten.",
+        "Controle: de eerste fietst $12 \\times 1{,}5 = 18$ km, de tweede $18 \\times 1{,}5 = 27$ km, samen 45 km."
+      ],
+      "topics": [
+        "speed",
+        "proportions"
+      ],
+      "answer": 90,
+      "unit": "min",
+      "feedback": [
+        {
+          "answer": 450,
+          "message": "Je hebt het verschil van de snelheden gebruikt. Dat hoort bij inhalen; hier rijden ze naar elkaar toe en tellen de snelheden op."
+        },
+        {
+          "answer": 1.5,
+          "message": "Dat is de tijd in uren. De vraag vraagt minuten."
+        },
+        {
+          "answer": 150,
+          "message": "Je hebt alleen naar de snelste fietser gekeken, alsof de ander stilstond. Ze komen elkaar allebei tegemoet."
+        }
+      ]
+    },
+    {
+      "id": "10-044",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Een koffiebrander mengt koffie van € 12 per kg met koffie van € 18 per kg. Hij wil 30 kg mengsel maken dat precies € 14 per kg waard is. Hoeveel kilogram van de dure soort gebruikt hij?",
+      "hints": [
+        "Hoeveel ligt elke soort onder of boven de doelprijs van € 14?",
+        "Goedkoop ligt € 2 onder, duur € 4 boven het doel. Die tekorten en overschotten moeten elkaar opheffen: goedkoop : duur $= 4 : 2$."
+      ],
+      "solution": [
+        "De goedkope soort ligt $14 - 12 = 2$ euro onder de doelprijs, de dure $18 - 14 = 4$ euro erboven.",
+        "Het overschot van de dure soort moet het tekort van de goedkope opheffen: goedkoop : duur $= 4 : 2 = 2 : 1$.",
+        "Verdeel 30 kg in $2 : 1$: drie delen van 10 kg. Goedkoop 20 kg, duur 10 kg.",
+        "Controle: $20 \\times 12 + 10 \\times 18 = 240 + 180 = 420$ euro, en $420 : 30 = 14$ euro per kg."
+      ],
+      "topics": [
+        "ratios",
+        "proportions",
+        "money"
+      ],
+      "answer": 10,
+      "unit": "kg",
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Je hebt de verhouding omgedraaid. Dat is de hoeveelheid goedkope koffie; met 20 kg van de dure soort wordt het mengsel € 16 per kg."
+        },
+        {
+          "answer": 15,
+          "message": "Half om half geeft € 15 per kg, niet € 14. Er moet meer van de goedkope soort in."
         }
       ]
     }

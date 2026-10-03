@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="sans-serif" font-size="13">
+  <rect width="640" height="300" fill="#ffffff"/>
+  <line x1="10" y1="240" x2="630" y2="240" stroke="#1f2933" stroke-width="2"/>
+  <!-- schaal 1 px = 1 m; piramide grondvlak 230 m (x 40..270), top boven 155, hoogte 146 -->
+  <polygon points="155,240 155,94 374,240" fill="#f1f3f5"/>
+  <polygon points="40,240 155,94 270,240" fill="#e9d8c3" stroke="#9c6b30" stroke-width="2"/>
+  <line x1="155" y1="94" x2="155" y2="240" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="110" y1="64" x2="404" y2="260" stroke="#9c6b30" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <line x1="270" y1="240" x2="374" y2="240" stroke="#3b5bdb" stroke-width="5"/>
+  <line x1="155" y1="252" x2="270" y2="252" stroke="#1f2933" stroke-width="1.5"/>
+  <line x1="155" y1="248" x2="155" y2="256" stroke="#1f2933"/><line x1="270" y1="248" x2="270" y2="256" stroke="#1f2933"/>
+  <text x="212" y="270" text-anchor="middle" fill="#1f2933">halve zijde 115 m</text>
+  <text x="322" y="232" text-anchor="middle" fill="#3b5bdb">schaduw buiten de voet</text>
+  <line x1="155" y1="282" x2="374" y2="282" stroke="#3b5bdb" stroke-width="1.5"/>
+  <line x1="155" y1="278" x2="155" y2="286" stroke="#3b5bdb"/><line x1="374" y1="278" x2="374" y2="286" stroke="#3b5bdb"/>
+  <text x="264" y="297" text-anchor="middle" fill="#3b5bdb">horizontale afstand vanaf het punt onder de top</text>
+  <text x="162" y="170" fill="#1f2933">hoogte ?</text>
+  <!-- stok rechts: 2 m : 3 m, vergroot getekend -->
+  <line x1="540" y1="240" x2="540" y2="200" stroke="#1f2933" stroke-width="4"/>
+  <line x1="540" y1="240" x2="600" y2="240" stroke="#3b5bdb" stroke-width="5"/>
+  <line x1="525" y1="190" x2="615" y2="250" stroke="#9c6b30" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="508" y="225" fill="#1f2933">2 m</text>
+  <text x="560" y="260" fill="#3b5bdb">3 m</text>
+  <text x="520" y="180" fill="#1f2933">stok</text>
+</svg>

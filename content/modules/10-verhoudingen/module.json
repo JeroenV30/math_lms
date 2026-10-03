@@ -7,7 +7,7 @@
   "status": "available",
   "historical_period": "Klassiek Griekenland tot de handelsrekenkunde",
   "estimated_difficulty": 2,
-  "estimated_minutes": 150,
+  "estimated_minutes": 240,
   "prerequisites": [
     9
   ],
@@ -20,16 +20,16 @@
   "core_question": "Hoe kon Thales de hoogte van een piramide bepalen zonder erop te klimmen – en waarom is twee keer zoveel siroop niet hetzelfde als twee scheutjes extra?",
   "summary": "Verhoudingen, verhoudingstabellen en evenredigheid; schaal op kaarten en plattegronden; delen in een gegeven verhouding; snelheid, dichtheid en prijs per eenheid. Met de Griekse proportieleer van Pythagoras en Euclides, de gulden snede zonder mythes en de regel van drieën uit de handelsrekenkunde.",
   "learning_goals": [
-    "Je kunt een verhouding als $a : b$ opschrijven, vereenvoudigen en herkennen wanneer twee verhoudingen gelijk zijn.",
-    "Je onderscheidt deel-deelverhoudingen (siroop : water) van deel-geheelverhoudingen (siroop als deel van de limonade) en kunt een verhouding omzetten in een breuk van het geheel.",
+    "Je kunt een verhouding als $a : b$ opschrijven, vereenvoudigen (ook met kommagetallen en verschillende eenheden) en herkennen wanneer twee verhoudingen gelijk zijn.",
+    "Je onderscheidt deel-deelverhoudingen (siroop : water) van deel-geheelverhoudingen en kunt een verhouding omzetten in een breuk of percentage van het geheel.",
     "Je gebruikt een verhoudingstabel om evenredig door te rekenen, ook via de tussenstap 'per 1' (de regel van drieën).",
     "Je herkent de fout van het 'additief denken' ($3 : 5$ wordt níét $6 : 8$) en kunt uitleggen waarom verhoudingen over keer gaan en niet over plus.",
-    "Je kunt een hoeveelheid verdelen in een gegeven verhouding, ook met drie delen of als alleen het verschil gegeven is.",
-    "Je herkent of twee grootheden recht evenredig zijn (vaste factor, grafiek door de oorsprong) en wanneer niet (bijvoorbeeld door een vast starttarief).",
-    "Je rekent met schaal: van kaart naar werkelijkheid, van werkelijkheid naar kaart, en je bepaalt zelf de schaal van een kaart.",
-    "Je rekent met snelheid, afstand en tijd, en rekent km/u om naar m/s en omgekeerd met de factor 3,6.",
-    "Je gebruikt prijs per eenheid en dichtheid om hoeveelheden eerlijk te vergelijken.",
-    "Je kunt vertellen hoe de Pythagoreeërs verhoudingen in de muziek zagen, wat Eudoxus en boek V van Euclides' Elementen bijdroegen, wat er wel en niet klopt van de verhalen over de gulden snede, en hoe de regel van drieën via India, de Arabische wereld en Fibonacci de Europese handel bereikte."
+    "Je kunt met het strookmodel een hoeveelheid verdelen in een gegeven verhouding, ook met drie delen of als alleen één deel of het verschil gegeven is, en je kunt een mengsel aanpassen.",
+    "Je herkent of twee grootheden recht evenredig zijn (vast quotiënt, grafiek door de oorsprong) en wanneer niet, bijvoorbeeld door een vast starttarief of omgekeerde evenredigheid.",
+    "Je rekent met schaal: van kaart naar werkelijkheid, van werkelijkheid naar kaart, en je bepaalt zelf de schaal van een kaart; je weet dat oppervlakte met $k^2$ meegroeit.",
+    "Je rekent met snelheid, afstand en tijd, berekent een gemiddelde snelheid correct en rekent km/u om naar m/s en omgekeerd met de factor 3,6.",
+    "Je gebruikt prijs per eenheid en dichtheid om hoeveelheden eerlijk te vergelijken, en je herschaalt recepten.",
+    "Je kunt vertellen wat de overlevering over Thales en de piramide zegt, hoe de Pythagoreeërs verhoudingen in de muziek zagen, wat Eudoxus en boek V van Euclides' Elementen bijdroegen, wat er wel en niet klopt van de verhalen over de gulden snede, en hoe de regel van drieën via India, de Arabische wereld en Fibonacci de Europese handel bereikte."
   ],
   "glossary": [
     {
@@ -87,6 +87,30 @@
     {
       "term": "Gulden snede",
       "definition": "De verdeling van een lijnstuk in twee stukken zodat het geheel zich tot het grote stuk verhoudt als het grote stuk tot het kleine. De verhouding is ongeveer $1{,}618 : 1$."
+    },
+    {
+      "term": "Additief denken",
+      "definition": "De fout om bij een verhouding bij beide termen hetzelfde getal op te tellen in plaats van met hetzelfde getal te vermenigvuldigen: $3 : 5$ wordt dan ten onrechte $6 : 8$ in plaats van $6 : 10$."
+    },
+    {
+      "term": "Strookmodel",
+      "definition": "Een strook verdeeld in gelijke vakjes, één per verhoudingsdeel. Je zoekt eerst de waarde van één vakje en vermenigvuldigt daarna."
+    },
+    {
+      "term": "Omgekeerd evenredig",
+      "definition": "Twee grootheden waarvan het product vast is: twee keer zoveel van het een geeft de helft van het ander. Voorbeelden: aantal werkers en benodigde tijd, snaarlengte en frequentie."
+    },
+    {
+      "term": "Schaalnoemer",
+      "definition": "Het getal $n$ in de schaal $1 : n$. Bij $1 : 25\\,000$ is de schaalnoemer 25.000."
+    },
+    {
+      "term": "Prijs per eenheid",
+      "definition": "De prijs gedeeld door de hoeveelheid, zoals euro per kilogram of per liter. Hiermee vergelijk je verpakkingen van verschillende grootte."
+    },
+    {
+      "term": "Regel van menging",
+      "definition": "Oude handelsregel (*regula alligationis*) om te bepalen in welke verhouding je twee soorten met verschillende prijs of sterkte mengt tot een gewenste prijs of sterkte."
     }
   ],
   "formulas": [
@@ -137,6 +161,12 @@
       "latex": "\\frac{a + b}{a} = \\frac{a}{b} = \\varphi = \\frac{1 + \\sqrt{5}}{2} \\approx 1{,}618",
       "usage": "Een lijnstuk in de gulden snede verdelen; de verhoudingen van opeenvolgende Fibonaccigetallen naderen $\\varphi$.",
       "origin": "Euclides, Elementen VI, definitie 3 ('uiterste en middelste reden'); de naam 'gulden snede' is pas uit de 18e–19e eeuw."
+    },
+    {
+      "name": "Lengte-, oppervlakte- en inhoudsfactor",
+      "latex": "\\text{lengte} \\times k, \\quad \\text{oppervlakte} \\times k^2, \\quad \\text{inhoud} \\times k^3",
+      "usage": "Bij een vergroting met lengtefactor $k$ groeien oppervlaktes met $k^2$ en inhouden met $k^3$.",
+      "origin": "Euclides, Elementen VI.19 en XII (gelijkvormige figuren en lichamen)."
     }
   ],
   "lessons": [
@@ -148,38 +178,38 @@
     },
     {
       "slug": "verhoudingen-en-tabellen",
-      "title": "Verhoudingen en verhoudingstabellen",
-      "file": "02-theorie-a.md",
+      "title": "Verhoudingen, tabellen en verdelen",
+      "file": "02-verhoudingen-en-tabellen.md",
       "kind": "theory"
     },
     {
       "slug": "evenredigheid-en-schaal",
       "title": "Evenredigheid en schaal",
-      "file": "03-theorie-b.md",
+      "file": "03-evenredigheid-en-schaal.md",
       "kind": "theory"
     },
     {
       "slug": "snelheid-en-per-eenheid",
       "title": "Snelheid, dichtheid en prijs per eenheid",
-      "file": "03b-theorie-c.md",
+      "file": "04-snelheid-en-per-eenheid.md",
       "kind": "theory"
     },
     {
       "slug": "historisch-intermezzo",
       "title": "Van de snaren van Pythagoras tot de regel van drieën",
-      "file": "04-historisch-intermezzo.md",
+      "file": "05-historisch-intermezzo.md",
       "kind": "history"
     },
     {
       "slug": "praktijk-en-uitdaging",
       "title": "Recepten, routes, wisselkoersen en mengsels",
-      "file": "05-praktijk-en-uitdaging.md",
+      "file": "06-praktijk-en-uitdaging.md",
       "kind": "practice"
     },
     {
       "slug": "samenvatting",
       "title": "Samenvatting",
-      "file": "06-samenvatting.md",
+      "file": "07-samenvatting.md",
       "kind": "summary"
     }
   ],
