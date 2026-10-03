@@ -1,5 +1,7 @@
 @extends('layouts.app', ['title' => 'Woordenlijst'])
 
+@inject('markdown', 'App\Services\MarkdownRenderer')
+
 @section('content')
     <div class="container-page max-w-4xl pt-12 pb-6 sm:pt-16">
         <p class="eyebrow">Woordenlijst</p>
@@ -22,9 +24,9 @@
                 <dl class="divide-y divide-line">
                     @foreach ($entries as $entry)
                         <div id="{{ \Illuminate\Support\Str::slug($entry['term']) }}" class="grid scroll-mt-24 gap-1 py-4 sm:grid-cols-[14rem_minmax(0,1fr)] sm:gap-6">
-                            <dt class="font-semibold text-ink">{{ $entry['term'] }}</dt>
+                            <dt class="font-semibold text-ink">{!! $markdown->inline($entry['term']) !!}</dt>
                             <dd>
-                                <p class="font-serif text-ink-soft">{{ $entry['definition'] }}</p>
+                                <p class="font-serif text-ink-soft">{!! $markdown->inline($entry['definition']) !!}</p>
                                 <a href="{{ route('module.show', $entry['module']->slug) }}" class="mt-1 inline-block text-xs text-muted hover:text-accent">Module {{ $entry['module']->id }} · {{ $entry['module']->title }}</a>
                             </dd>
                         </div>

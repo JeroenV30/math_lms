@@ -1,0 +1,402 @@
+{
+  "title": "Hoofdstuktoets – Integraalrekening",
+  "intro": "15 vragen over Riemann-sommen, de bepaalde integraal, accumulatie, primitieven, de hoofdstelling en oppervlakten. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "30-T01",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Bereken $\\displaystyle\\int_2^7 4\\,dx$.",
+      "answer": 20,
+      "hints": [],
+      "solution": [
+        "Rechthoek met breedte $7 - 2 = 5$ en hoogte $4$.",
+        "$5 \\cdot 4 = 20$."
+      ],
+      "feedback": [
+        {
+          "answer": 28,
+          "message": "De breedte is $7 - 2 = 5$, niet $7$."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-T02",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Benader $\\displaystyle\\int_0^2 (x^2 + 1)\\,dx$ met de **rechtersom** met $n = 4$. Geef het exacte decimale antwoord.",
+      "answer": 5.75,
+      "tolerance": 0.001,
+      "hints": [],
+      "solution": [
+        "$\\Delta x = 0{,}5$; rechterkanten $0{,}5;\\ 1;\\ 1{,}5;\\ 2$.",
+        "Hoogtes: $1{,}25 + 2 + 3{,}25 + 5 = 11{,}5$.",
+        "Rechtersom: $11{,}5 \\cdot 0{,}5 = 5{,}75$."
+      ],
+      "feedback": [
+        {
+          "answer": 3.75,
+          "message": "Dat is de linkersom (hoogtes $1 + 1{,}25 + 2 + 3{,}25$)."
+        },
+        {
+          "answer": 11.5,
+          "message": "Vermenigvuldig nog met $\\Delta x = 0{,}5$."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-T03",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een fietser rijdt $8$ seconden met $15$ m/s en remt daarna in $6$ seconden gelijkmatig af tot stilstand. Hoeveel meter legt hij in die $14$ seconden af?",
+      "answer": 165,
+      "unit": "m",
+      "hints": [],
+      "solution": [
+        "Constant: $8 \\cdot 15 = 120$ m.",
+        "Remmen: driehoek $\\tfrac12 \\cdot 6 \\cdot 15 = 45$ m.",
+        "Samen $165$ m."
+      ],
+      "feedback": [
+        {
+          "answer": 210,
+          "message": "Je rekent alsof hij ook tijdens het remmen $15$ m/s reed. Het remdeel is een driehoek."
+        },
+        {
+          "answer": 120,
+          "message": "Je bent de afstand tijdens het remmen vergeten."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-T04",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $\\displaystyle\\int_0^4 (x - 3)\\,dx$.",
+      "answer": -4,
+      "hints": [],
+      "solution": [
+        "Primitieve: $\\tfrac12 x^2 - 3x$.",
+        "$F(4) = 8 - 12 = -4$, $F(0) = 0$.",
+        "Integraal $-4$. (Meetkundig: $-4{,}5 + 0{,}5$.)"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Dat is de totale oppervlakte $4{,}5 + 0{,}5$. In de integraal telt het stuk onder de as negatief."
+        },
+        {
+          "answer": 4,
+          "message": "Let op het teken: het grootste deel ligt onder de $x$-as."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-T05",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Bepaal de primitieve $F$ van $f(x) = 10x^4$ met $F(0) = 0$.",
+      "answer": "2x^5",
+      "hints": [],
+      "solution": [
+        "$x^4 \\to \\tfrac15 x^5$; maal $10$ geeft $2x^5$.",
+        "Controle: $(2x^5)' = 10x^4$ ✓."
+      ],
+      "feedback": [
+        {
+          "answer": "40x^3",
+          "message": "Je hebt gedifferentieerd in plaats van geprimitiveerd."
+        },
+        {
+          "answer": "10x^5",
+          "message": "Deel nog door de nieuwe exponent 5."
+        }
+      ],
+      "topics": [
+        "integrals",
+        "derivatives"
+      ]
+    },
+    {
+      "id": "30-T06",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bepaal de primitieve $F$ van $f(x) = 3x^2 - 4x + 7$ met $F(0) = 0$.",
+      "answer": "x^3 - 2x^2 + 7x",
+      "hints": [],
+      "solution": [
+        "Term voor term: $x^3$, $-2x^2$, $7x$.",
+        "$C = 0$ vanwege $F(0) = 0$. Controle: $F'(x) = 3x^2 - 4x + 7$ ✓."
+      ],
+      "feedback": [
+        {
+          "answer": "6x - 4",
+          "message": "Je hebt gedifferentieerd."
+        },
+        {
+          "answer": "x^3 - 4x^2 + 7x",
+          "message": "De primitieve van $-4x$ is $-2x^2$: deel door de nieuwe exponent 2."
+        }
+      ],
+      "topics": [
+        "integrals",
+        "derivatives"
+      ]
+    },
+    {
+      "id": "30-T07",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bepaal de primitieve $F$ van $f(x) = 6x^2 + 2$ waarvoor $F(1) = 10$.",
+      "answer": "2x^3 + 2x + 6",
+      "hints": [],
+      "solution": [
+        "$F(x) = 2x^3 + 2x + C$.",
+        "$F(1) = 2 + 2 + C = 10$, dus $C = 6$.",
+        "$F(x) = 2x^3 + 2x + 6$."
+      ],
+      "feedback": [
+        {
+          "answer": "2x^3 + 2x",
+          "message": "Bepaal $C$ nog met $F(1) = 10$."
+        },
+        {
+          "answer": "2x^3 + 2x + 10",
+          "message": "$F(1)$ moet $10$ zijn, maar met $C = 10$ krijg je $F(1) = 14$."
+        }
+      ],
+      "topics": [
+        "integrals",
+        "derivatives"
+      ]
+    },
+    {
+      "id": "30-T08",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $\\displaystyle\\int_1^2 4x^3\\,dx$.",
+      "answer": 15,
+      "hints": [],
+      "solution": [
+        "Primitieve: $x^4$.",
+        "$F(2) - F(1) = 16 - 1 = 15$."
+      ],
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Trek $F(1) = 1$ er nog van af."
+        },
+        {
+          "answer": 17,
+          "message": "Je hebt $F(1)$ opgeteld in plaats van afgetrokken."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-T09",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $\\displaystyle\\int_0^1 (x^2 + x)\\,dx$ exact. Geef een breuk.",
+      "answer": "5/6",
+      "hints": [],
+      "solution": [
+        "Primitieve: $\\tfrac13 x^3 + \\tfrac12 x^2$.",
+        "$F(1) = \\tfrac13 + \\tfrac12 = \\tfrac56$, $F(0) = 0$."
+      ],
+      "feedback": [
+        {
+          "answer": "3",
+          "message": "Je hebt $(2x + 1)$ bij $x = 1$ uitgerekend: dat is de afgeleide. Gebruik een primitieve."
+        },
+        {
+          "answer": "2",
+          "message": "Je bent vergeten te delen door de nieuwe exponenten."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-T10",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $\\displaystyle\\int_1^9 \\frac{1}{\\sqrt{x}}\\,dx$.",
+      "answer": 4,
+      "hints": [],
+      "solution": [
+        "$\\frac{1}{\\sqrt x} = x^{-1/2}$; primitieve $\\dfrac{x^{1/2}}{1/2} = 2\\sqrt x$.",
+        "$2\\sqrt9 - 2\\sqrt1 = 6 - 2 = 4$."
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "De primitieve van $x^{-1/2}$ is $2\\sqrt x$, niet $\\sqrt x$: delen door $\\tfrac12$ is vermenigvuldigen met 2."
+        },
+        {
+          "answer": 6,
+          "message": "Trek $F(1) = 2$ er nog van af."
+        }
+      ],
+      "topics": [
+        "integrals",
+        "derivatives"
+      ]
+    },
+    {
+      "id": "30-T11",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken de oppervlakte van het gebied ingesloten door de grafiek van $f(x) = 4x - x^2$ en de $x$-as. Geef een breuk.",
+      "answer": "32/3",
+      "hints": [],
+      "solution": [
+        "Nulpunten: $x(4 - x) = 0$, dus $x = 0$ en $x = 4$; daartussen ligt de grafiek boven de as.",
+        "$\\int_0^4 (4x - x^2)\\,dx = \\Big[2x^2 - \\tfrac13 x^3\\Big]_0^4 = 32 - \\tfrac{64}{3} = \\tfrac{32}{3}$."
+      ],
+      "feedback": [
+        {
+          "answer": "64/3",
+          "message": "Dat is alleen $\\tfrac13 \\cdot 4^3$. Bereken $32 - \\tfrac{64}{3}$."
+        },
+        {
+          "answer": "32",
+          "message": "Je bent de term $-\\tfrac13 x^3$ vergeten."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-T12",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken de oppervlakte van het gebied tussen de grafieken van $y = x^2$ en $y = 2x$. Geef een breuk.",
+      "answer": "4/3",
+      "hints": [],
+      "solution": [
+        "Snijpunten: $x^2 = 2x$ geeft $x = 0$ en $x = 2$. Op $(0, 2)$ ligt $y = 2x$ boven.",
+        "$\\int_0^2 (2x - x^2)\\,dx = \\Big[x^2 - \\tfrac13 x^3\\Big]_0^2 = 4 - \\tfrac83 = \\tfrac43$."
+      ],
+      "feedback": [
+        {
+          "answer": "-4/3",
+          "message": "Neem bovenste min onderste: hier ligt de lijn boven."
+        },
+        {
+          "answer": "8/3",
+          "message": "Dat is de oppervlakte onder de parabool alleen. Trek die af van de oppervlakte onder de lijn ($4$)."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-T13",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Bereken de **totale oppervlakte** tussen de grafiek van $f(x) = x^2 - 1$ en de $x$-as op het interval $[0, 2]$.",
+      "answer": "2",
+      "hints": [],
+      "solution": [
+        "Nulpunt bij $x = 1$: op $(0, 1)$ ligt de grafiek onder de as, op $(1, 2)$ erboven. Primitieve $F(x) = \\tfrac13 x^3 - x$.",
+        "$\\int_0^1 f\\,dx = F(1) - F(0) = -\\tfrac23$: oppervlakte $\\tfrac23$.",
+        "$\\int_1^2 f\\,dx = F(2) - F(1) = \\tfrac23 - \\left(-\\tfrac23\\right) = \\tfrac43$.",
+        "Totaal: $\\tfrac23 + \\tfrac43 = 2$."
+      ],
+      "feedback": [
+        {
+          "answer": "2/3",
+          "message": "Dat is de integraal $\\int_0^2 f\\,dx = \\tfrac43 - \\tfrac23$. Het stuk onder de as moet positief meetellen."
+        },
+        {
+          "answer": "4/3",
+          "message": "Je bent het stuk onder de $x$-as (van 0 tot 1) vergeten."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-T14",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Gegeven is $A(x) = \\displaystyle\\int_1^x (t^2 + 2t)\\,dt$. Bereken $A'(3)$.",
+      "answer": 15,
+      "hints": [],
+      "solution": [
+        "Hoofdstelling: $A'(x) = x^2 + 2x$.",
+        "$A'(3) = 9 + 6 = 15$."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Dat is $f'(3) = 2 \\cdot 3 + 2$: je hebt de integrand gedifferentieerd. Volgens de hoofdstelling is $A'(x)$ de integrand zelf."
+        }
+      ],
+      "topics": [
+        "integrals",
+        "derivatives"
+      ]
+    },
+    {
+      "id": "30-T15",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een tank bevat $500$ liter. Er stroomt water uit met een tempo van $u(t) = 40 - 2t$ liter per minuut, voor $0 \\leq t \\leq 20$ ($t$ in minuten). Hoeveel liter zit er na $20$ minuten nog in de tank?",
+      "answer": 100,
+      "unit": "liter",
+      "hints": [],
+      "solution": [
+        "Uitgestroomd: $\\int_0^{20} (40 - 2t)\\,dt = \\Big[40t - t^2\\Big]_0^{20} = 800 - 400 = 400$ liter.",
+        "Over: $500 - 400 = 100$ liter."
+      ],
+      "feedback": [
+        {
+          "answer": 400,
+          "message": "Dat is de hoeveelheid die eruit is gestroomd. Trek die af van de 500 liter."
+        },
+        {
+          "answer": 900,
+          "message": "Het water stroomt **uit** de tank: trek de 400 liter af in plaats van op te tellen."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    }
+  ]
+}

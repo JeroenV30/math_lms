@@ -4,10 +4,10 @@
   "title": "Integraalrekening",
   "part": 5,
   "level": "vwo",
-  "status": "planned",
-  "historical_period": "17e eeuw",
+  "status": "available",
+  "historical_period": "Oudheid tot 19e eeuw (Archimedes, Cavalieri, Newton en Leibniz, Riemann)",
   "estimated_difficulty": 4,
-  "estimated_minutes": 90,
+  "estimated_minutes": 150,
   "prerequisites": [
     29
   ],
@@ -15,12 +15,169 @@
     "integrals",
     "derivatives"
   ],
-  "core_question": null,
-  "summary": "Oppervlakte, primitieve en de hoofdstelling.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Archimedes bewees dat een stuk parabool precies vier derde is van een driehoek die erin past. Hoe bereken je de oppervlakte van een gebogen figuur, en waarom blijkt dat het omgekeerde te zijn van differentiëren?",
+  "summary": "Oppervlakte onder een grafiek benaderen met rechthoeken, de bepaalde integraal als limiet van Riemann-sommen, accumulatie (afgelegde weg uit snelheid, totaal uit een tempo), primitieve functies en de hoofdstelling van de integraalrekening: $\\int_a^b f(x)\\,dx = F(b) - F(a)$. Met de geschiedenis van Archimedes' uitputtingsmethode via Cavalieri, Newton en Leibniz tot Riemann.",
+  "learning_goals": [
+    "Je kunt de oppervlakte onder een grafiek benaderen met een ondersom, bovensom, linker-, rechter- of middensom, en je legt uit waarom de benadering beter wordt als het aantal rechthoeken toeneemt.",
+    "Je begrijpt de bepaalde integraal $\\int_a^b f(x)\\,dx$ als limiet van Riemann-sommen en als oppervlakte met teken: stukken onder de $x$-as tellen negatief.",
+    "Je gebruikt de rekenregels voor integralen: splitsen van het interval, omkeren van de grenzen, constante factoren en sommen.",
+    "Je interpreteert een integraal als accumulatie: afgelegde weg uit een snelheid, een totale hoeveelheid uit een tempo, met de juiste eenheid.",
+    "Je kunt een primitieve functie vinden van machtsfuncties en polynomen (ook met negatieve en gebroken exponenten), je begrijpt de rol van de integratieconstante $C$ en je bepaalt $C$ uit een gegeven beginwaarde.",
+    "Je kunt de hoofdstelling van de integraalrekening formuleren en intuïtief verklaren: de oppervlaktefunctie groeit met snelheid $f(x)$.",
+    "Je berekent bepaalde integralen exact met $F(b) - F(a)$, en je bepaalt oppervlakten tussen een grafiek en de $x$-as en tussen twee grafieken, ook als er tekenwisselingen zijn.",
+    "Je kent de historische lijn van de uitputtingsmethode (Eudoxus, Euclides, Archimedes) via Kepler en Cavalieri naar Newton, Leibniz en Riemann."
+  ],
+  "glossary": [
+    {
+      "term": "Riemann-som",
+      "definition": "Een benadering van de oppervlakte onder een grafiek door het interval in $n$ stukjes van breedte $\\Delta x$ te verdelen en per stukje een rechthoek $f(x_k)\\cdot\\Delta x$ te nemen. Samen: $\\sum f(x_k)\\,\\Delta x$."
+    },
+    {
+      "term": "Ondersom en bovensom",
+      "definition": "Riemann-sommen waarbij je per stukje de kleinste (ondersom) of grootste (bovensom) functiewaarde als hoogte neemt. De echte oppervlakte ligt ertussen."
+    },
+    {
+      "term": "Linker-, rechter- en middensom",
+      "definition": "Riemann-sommen waarbij de hoogte van elke rechthoek de functiewaarde is aan de linkerkant, de rechterkant of in het midden van het stukje."
+    },
+    {
+      "term": "Bepaalde integraal",
+      "definition": "$\\int_a^b f(x)\\,dx$: de limiet van de Riemann-sommen als de breedte van de stukjes naar 0 gaat. Meetkundig: de oppervlakte tussen grafiek en $x$-as van $a$ tot $b$, met teken."
+    },
+    {
+      "term": "Integrand en grenzen",
+      "definition": "In $\\int_a^b f(x)\\,dx$ heet $f(x)$ de integrand, $a$ de ondergrens en $b$ de bovengrens. De $dx$ geeft aan naar welke variabele je integreert."
+    },
+    {
+      "term": "Oppervlakte met teken",
+      "definition": "Stukken tussen grafiek en $x$-as tellen in een integraal positief als de grafiek boven de as ligt en negatief als hij eronder ligt."
+    },
+    {
+      "term": "Accumulatie",
+      "definition": "Het optellen van een tempo over de tijd: uit een snelheid volgt een afgelegde weg, uit een debiet een hoeveelheid water, uit een vermogen een hoeveelheid energie."
+    },
+    {
+      "term": "Primitieve functie",
+      "definition": "Een functie $F$ waarvan de afgeleide $f$ is: $F'(x) = f(x)$. Primitiveren is differentiëren in omgekeerde richting."
+    },
+    {
+      "term": "Integratieconstante",
+      "definition": "De constante $C$ in $F(x) + C$. Alle primitieven van dezelfde functie verschillen alleen een constante; hun grafieken zijn verticaal verschoven kopieën."
+    },
+    {
+      "term": "Oppervlaktefunctie",
+      "definition": "$A(x) = \\int_a^x f(t)\\,dt$: de oppervlakte van een vaste ondergrens $a$ tot een variabele bovengrens $x$."
+    },
+    {
+      "term": "Hoofdstelling van de integraalrekening",
+      "definition": "De oppervlaktefunctie is een primitieve van $f$: $A'(x) = f(x)$. Gevolg: $\\int_a^b f(x)\\,dx = F(b) - F(a)$ voor elke primitieve $F$ van $f$."
+    },
+    {
+      "term": "Uitputtingsmethode",
+      "definition": "Antieke methode (Eudoxus, Euclides, Archimedes) om een oppervlakte in te sluiten tussen steeds betere ingeschreven en omgeschreven figuren, met een sluitend bewijs uit het ongerijmde."
+    },
+    {
+      "term": "Ondeelbaren (indivisibilia)",
+      "definition": "Cavalieri's idee (1635) om een vlakke figuur op te vatten als een verzameling evenwijdige lijnstukken en een lichaam als een stapel vlakke doorsneden."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Riemann-som",
+      "latex": "\\sum_{k=1}^{n} f(x_k)\\,\\Delta x, \\qquad \\Delta x = \\frac{b-a}{n}",
+      "usage": "Benader de oppervlakte onder de grafiek met $n$ rechthoeken van breedte $\\Delta x$. Kies $x_k$ links, rechts of in het midden van elk stukje.",
+      "origin": "Het idee van rechthoekjes is oud (Kepler, Cavalieri, Leibniz); de algemene definitie met willekeurige verdelingen is van Riemann (1854)."
+    },
+    {
+      "name": "Bepaalde integraal",
+      "latex": "\\int_a^b f(x)\\,dx = \\lim_{n \\to \\infty} \\sum_{k=1}^{n} f(x_k)\\,\\Delta x",
+      "usage": "Definitie van de integraal als limiet van Riemann-sommen; oppervlakte met teken.",
+      "origin": "Teken $\\int$ (lange S van *summa*) door Leibniz, manuscript van 29 oktober 1675; definitie als limiet van sommen bij Cauchy (1823) en Riemann (1854)."
+    },
+    {
+      "name": "Primitieve van een macht",
+      "latex": "f(x) = x^n \\;\\Rightarrow\\; F(x) = \\frac{x^{n+1}}{n+1} + C \\quad (n \\neq -1)",
+      "usage": "Verhoog de exponent met 1 en deel door de nieuwe exponent. Werkt ook voor negatieve en gebroken exponenten, maar niet voor $n = -1$.",
+      "origin": "Voor gehele $n$ al door Cavalieri (tot $n = 9$) en Fermat; voor gebroken en negatieve exponenten bij Wallis (1656). Als omkering van de machtsregel bij Newton en Leibniz."
+    },
+    {
+      "name": "Hoofdstelling van de integraalrekening",
+      "latex": "\\int_a^b f(x)\\,dx = \\Big[F(x)\\Big]_a^b = F(b) - F(a)",
+      "usage": "Bereken een integraal exact: zoek een primitieve $F$, vul de bovengrens en de ondergrens in en trek af.",
+      "origin": "Meetkundig bij James Gregory (1668) en Isaac Barrow (1670); als rekenmethode systematisch uitgewerkt door Newton en Leibniz."
+    },
+    {
+      "name": "Oppervlakte tussen twee grafieken",
+      "latex": "\\int_a^b \\big(f(x) - g(x)\\big)\\,dx \\quad \\text{als } f(x) \\geq g(x) \\text{ op } [a, b]",
+      "usage": "Bovenste grafiek min onderste grafiek; de grenzen zijn vaak de snijpunten.",
+      "origin": "Gevolg van de rekenregels voor integralen."
+    },
+    {
+      "name": "Rekenregels",
+      "latex": "\\int_a^b f\\,dx + \\int_b^c f\\,dx = \\int_a^c f\\,dx, \\qquad \\int_b^a f\\,dx = -\\int_a^b f\\,dx",
+      "usage": "Splits een interval op een tekenwisseling; omgekeerde grenzen geven een minteken.",
+      "origin": "Volgen direct uit $F(b) - F(a)$."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een stuk parabool",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "rechthoeken",
+      "title": "Oppervlakte benaderen met rechthoeken",
+      "file": "02-theorie-a.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "bepaalde-integraal",
+      "title": "De bepaalde integraal en accumulatie",
+      "file": "03-theorie-b.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "primitieven",
+      "title": "Primitieven: differentiëren in omgekeerde richting",
+      "file": "03b-theorie-c.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "hoofdstelling",
+      "title": "De hoofdstelling en oppervlakten berekenen",
+      "file": "03c-theorie-d.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Van uitputting tot Riemann",
+      "file": "04-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Remwegen, regen en zonne-energie",
+      "file": "05-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "06-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "euclides-elementen",
+    "newton-leibniz",
+    "euler"
+  ],
+  "mathematicians": [
+    "euclides",
+    "newton",
+    "leibniz",
+    "euler"
+  ]
 }

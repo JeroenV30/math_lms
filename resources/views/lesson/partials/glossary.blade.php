@@ -1,3 +1,5 @@
+@inject('markdown', 'App\Services\MarkdownRenderer')
+
 @if ($module->glossary)
     <aside class="callout callout-definition">
         <header class="callout-header">
@@ -8,8 +10,8 @@
             <dl class="grid gap-x-8 gap-y-3 sm:grid-cols-2">
                 @foreach ($module->glossary as $entry)
                     <div>
-                        <dt class="font-sans text-sm font-semibold text-ink">{{ $entry['term'] }}</dt>
-                        <dd class="text-[0.98rem]">{{ $entry['definition'] }}</dd>
+                        <dt class="font-sans text-sm font-semibold text-ink">{!! $markdown->inline($entry['term']) !!}</dt>
+                        <dd class="text-[0.98rem]">{!! $markdown->inline($entry['definition']) !!}</dd>
                     </div>
                 @endforeach
             </dl>

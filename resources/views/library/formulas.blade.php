@@ -19,7 +19,7 @@
                 <div class="mt-4 grid grid-cols-[minmax(0,1fr)] gap-4">
                     @foreach ($items as $formula)
                         <article class="card p-5 sm:p-6">
-                            <h3 class="font-serif text-lg font-semibold text-ink">{{ $formula['name'] }}</h3>
+                            <h3 class="font-serif text-lg font-semibold text-ink">{!! $markdown->inline($formula['name']) !!}</h3>
                             <div class="math math-display" data-display="true">{{ $formula['latex'] }}</div>
                             <dl class="grid gap-3 text-sm sm:grid-cols-2">
                                 @if (! empty($formula['usage']))

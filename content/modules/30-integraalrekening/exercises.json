@@ -1,0 +1,1211 @@
+{
+  "exercises": [
+    {
+      "id": "30-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een fietser rijdt $1{,}5$ uur lang met een constante snelheid van $24$ km/h. In een snelheid-tijddiagram is het gebied onder de grafiek dan een rechthoek. Hoe groot is de oppervlakte van die rechthoek, en dus de afgelegde weg in km?",
+      "answer": 36,
+      "unit": "km",
+      "hints": [
+        "De rechthoek is $1{,}5$ (uur) breed en $24$ (km/h) hoog.",
+        "Oppervlakte = breedte maal hoogte."
+      ],
+      "solution": [
+        "Breedte: $1{,}5$ h. Hoogte: $24$ km/h.",
+        "Oppervlakte: $1{,}5 \\cdot 24 = 36$.",
+        "Uren maal kilometer per uur geeft kilometer: de fietser legt 36 km af."
+      ],
+      "feedback": [
+        {
+          "answer": 25.5,
+          "message": "Je hebt breedte en hoogte opgeteld. De oppervlakte van een rechthoek is breedte **maal** hoogte."
+        },
+        {
+          "answer": 16,
+          "message": "Je hebt $24 : 1{,}5$ berekend. Afstand is snelheid maal tijd, niet gedeeld door tijd."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-002",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Benader $\\int_0^2 x^2\\,dx$ met de **rechtersom** met $n = 4$ rechthoeken. Geef het exacte decimale antwoord.",
+      "answer": 3.75,
+      "tolerance": 0.001,
+      "hints": [
+        "De breedte van elk stukje is $\\Delta x = \\frac{2 - 0}{4} = 0{,}5$. De rechterkanten zijn $0{,}5;\\ 1;\\ 1{,}5;\\ 2$.",
+        "Tel eerst de vier hoogtes $f(0{,}5) + f(1) + f(1{,}5) + f(2)$ op en vermenigvuldig dan met $0{,}5$."
+      ],
+      "solution": [
+        "$\\Delta x = 0{,}5$; rechterkanten $0{,}5;\\ 1;\\ 1{,}5;\\ 2$.",
+        "Hoogtes: $0{,}25 + 1 + 2{,}25 + 4 = 7{,}5$.",
+        "Rechtersom: $7{,}5 \\cdot 0{,}5 = 3{,}75$.",
+        "Omdat $x^2$ stijgt, is dit een bovensom: de echte waarde ($\\tfrac83 \\approx 2{,}67$) is kleiner."
+      ],
+      "feedback": [
+        {
+          "answer": 1.75,
+          "message": "Dat is de **linkersom** (hoogtes $0 + 0{,}25 + 1 + 2{,}25$). Bij de rechtersom neem je de hoogte aan de rechterkant van elk stukje."
+        },
+        {
+          "answer": 7.5,
+          "message": "Je hebt de hoogtes opgeteld maar niet vermenigvuldigd met de breedte $\\Delta x = 0{,}5$."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-003",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "De functie $f(x) = 9 - x^2$ daalt op het interval $[0, 3]$. Bereken de **ondersom** met $n = 3$ rechthoeken.",
+      "answer": 13,
+      "hints": [
+        "$\\Delta x = 1$. De grenzen zijn $0, 1, 2, 3$.",
+        "Bij een dalende functie zit de kleinste waarde op elk stukje aan de **rechter**kant."
+      ],
+      "solution": [
+        "$\\Delta x = \\frac{3 - 0}{3} = 1$.",
+        "Kleinste hoogtes (rechts): $f(1) = 8$, $f(2) = 5$, $f(3) = 0$.",
+        "Ondersom: $1 \\cdot (8 + 5 + 0) = 13$.",
+        "Ter vergelijking: de bovensom is $9 + 8 + 5 = 22$; de echte oppervlakte ($18$, zie les 4) ligt ertussen."
+      ],
+      "feedback": [
+        {
+          "answer": 22,
+          "message": "Dat is de **bovensom**. Bij een dalende functie geven de linkerkanten de grootste hoogtes; voor de ondersom neem je de rechterkanten."
+        },
+        {
+          "answer": 26,
+          "message": "Je hebt alle vier de functiewaarden $9 + 8 + 5 + 0$ opgeteld. Er zijn maar drie rechthoeken."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-004",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Benader $\\int_0^2 x^2\\,dx$ met de **middensom** met $n = 4$. Geef het exacte decimale antwoord.",
+      "answer": 2.625,
+      "tolerance": 0.001,
+      "hints": [
+        "$\\Delta x = 0{,}5$. De middens van de stukjes zijn $0{,}25;\\ 0{,}75;\\ 1{,}25;\\ 1{,}75$.",
+        "Kwadrateer de middens, tel op en vermenigvuldig met $0{,}5$."
+      ],
+      "solution": [
+        "Middens: $0{,}25;\\ 0{,}75;\\ 1{,}25;\\ 1{,}75$.",
+        "Kwadraten: $0{,}0625 + 0{,}5625 + 1{,}5625 + 3{,}0625 = 5{,}25$.",
+        "Middensom: $5{,}25 \\cdot 0{,}5 = 2{,}625$.",
+        "De exacte waarde is $\\tfrac83 \\approx 2{,}667$: de middensom zit er maar $0{,}04$ naast."
+      ],
+      "feedback": [
+        {
+          "answer": 5.25,
+          "message": "Je bent de vermenigvuldiging met $\\Delta x = 0{,}5$ vergeten."
+        },
+        {
+          "answer": 3.75,
+          "message": "Dat is de rechtersom. Bij de middensom neem je de hoogte in het **midden** van elk stukje."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-005",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Voor $f(x) = x^2$ op $[0, 1]$ bereken je ondersom $O_n$ en bovensom $B_n$ met $n$ gelijke stukjes.\n\n**a.** Hoe groot is $B_8 - O_8$? (Geef een breuk.)\n\n**b.** Hoe groot is $B_{100} - O_{100}$? (Geef een breuk.)\n\n**c.** Wat is de kleinste $n$ waarvoor $B_n - O_n < 0{,}001$?",
+      "parts": [
+        {
+          "label": "a. B₈ − O₈",
+          "answer": "1/8",
+          "type": "fraction"
+        },
+        {
+          "label": "b. B₁₀₀ − O₁₀₀",
+          "answer": "1/100",
+          "type": "fraction"
+        },
+        {
+          "label": "c. kleinste n",
+          "answer": 1001,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Bij een stijgende functie is $B_n - O_n = \\Delta x \\cdot \\big(f(b) - f(a)\\big)$.",
+        "Hier is $f(b) - f(a) = 1 - 0 = 1$ en $\\Delta x = \\frac1n$. Let bij c op het woord *kleiner*."
+      ],
+      "solution": [
+        "$B_n - O_n = \\frac1n \\cdot (1 - 0) = \\frac1n$: alle rechthoeken van de ondersom komen in de bovensom terug, één plaats opgeschoven; alleen de laatste ($f(1) \\cdot \\Delta x$) en de eerste ($f(0) \\cdot \\Delta x$) blijven over.",
+        "a. $n = 8$: $\\frac18$.",
+        "b. $n = 100$: $\\frac{1}{100}$.",
+        "c. $\\frac1n < 0{,}001$ betekent $n > 1000$. De kleinste gehele $n$ is $1001$ (bij $n = 1000$ is het verschil precies gelijk aan $0{,}001$, niet kleiner)."
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-006",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "| $t$ (min) | 0 | 10 | 20 | 30 | 40 |\n|---|---|---|---|---|---|\n| debiet (L/min) | 12 | 15 | 18 | 14 | 10 |",
+      "question": "Een pomp vult een opslagtank. Om de 10 minuten wordt het debiet afgelezen (zie tabel). Benader de hoeveelheid water die tussen $t = 0$ en $t = 40$ minuten in de tank is gepompt met de **linkersom**: gebruik voor elk tijdvak van 10 minuten het debiet aan het begin van dat tijdvak.",
+      "answer": 590,
+      "unit": "liter",
+      "hints": [
+        "Er zijn vier tijdvakken van 10 minuten: $[0, 10]$, $[10, 20]$, $[20, 30]$, $[30, 40]$.",
+        "Gebruik de debieten bij $t = 0, 10, 20, 30$. Liters per minuut maal minuten geeft liters."
+      ],
+      "solution": [
+        "Linkerwaarden: $12$, $15$, $18$, $14$ liter per minuut.",
+        "Som: $12 + 15 + 18 + 14 = 59$.",
+        "Maal $\\Delta t = 10$ minuten: $59 \\cdot 10 = 590$ liter.",
+        "Ter vergelijking: de rechtersom is $(15 + 18 + 14 + 10) \\cdot 10 = 570$ liter."
+      ],
+      "feedback": [
+        {
+          "answer": 690,
+          "message": "Je hebt alle vijf de metingen gebruikt. Er zijn maar vier tijdvakken; bij de linkersom hoort de meting bij $t = 40$ er niet bij."
+        },
+        {
+          "answer": 570,
+          "message": "Dat is de rechtersom (metingen bij $t = 10, 20, 30, 40$). Gevraagd is de waarde aan het **begin** van elk tijdvak."
+        },
+        {
+          "answer": 59,
+          "message": "Je bent vergeten te vermenigvuldigen met de lengte van een tijdvak (10 minuten)."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-007",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $\\displaystyle\\int_{-1}^{3} 2{,}5\\,dx$.",
+      "answer": 10,
+      "hints": [
+        "De grafiek is een horizontale lijn op hoogte $2{,}5$.",
+        "Het gebied is een rechthoek. Hoe breed is het interval van $-1$ tot $3$?"
+      ],
+      "solution": [
+        "Breedte: $3 - (-1) = 4$.",
+        "Hoogte: $2{,}5$.",
+        "Integraal: $4 \\cdot 2{,}5 = 10$."
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je hebt als breedte $3 - 1 = 2$ genomen. De ondergrens is $-1$, dus de breedte is $3 - (-1) = 4$."
+        },
+        {
+          "answer": 7.5,
+          "message": "Je hebt als breedte $3$ genomen. Het interval loopt van $-1$ tot $3$ en is dus $4$ breed."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-008",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $\\displaystyle\\int_1^5 (2x + 1)\\,dx$ met behulp van een meetkundige figuur.",
+      "answer": 28,
+      "hints": [
+        "De grafiek is een rechte lijn. Het gebied onder de grafiek van $x = 1$ tot $x = 5$ is een trapezium.",
+        "Bereken de hoogtes bij $x = 1$ en $x = 5$. Oppervlakte trapezium = gemiddelde hoogte maal breedte."
+      ],
+      "solution": [
+        "Hoogtes: $f(1) = 3$ en $f(5) = 11$.",
+        "Gemiddelde hoogte: $\\frac{3 + 11}{2} = 7$.",
+        "Breedte: $5 - 1 = 4$.",
+        "Integraal: $7 \\cdot 4 = 28$."
+      ],
+      "feedback": [
+        {
+          "answer": 56,
+          "message": "Je hebt $(3 + 11) \\cdot 4$ berekend en niet gedeeld door 2. Bij een trapezium neem je de **gemiddelde** hoogte."
+        },
+        {
+          "answer": 44,
+          "message": "Je hebt $11 \\cdot 4$ berekend: een rechthoek met de grootste hoogte. Dat is een bovengrens, maar de lijn begint lager."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-009",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $\\displaystyle\\int_0^5 (2 - x)\\,dx$. Let op het teken. Geef het antwoord als kommagetal.",
+      "answer": -2.5,
+      "tolerance": 0.001,
+      "hints": [
+        "De grafiek snijdt de $x$-as bij $x = 2$. Links daarvan ligt hij boven de as, rechts eronder.",
+        "Bereken de twee driehoeken apart en geef de driehoek onder de as een minteken."
+      ],
+      "solution": [
+        "Nulpunt: $2 - x = 0$ geeft $x = 2$.",
+        "Van $0$ tot $2$: driehoek boven de as met breedte $2$ en hoogte $2$: $+2$.",
+        "Van $2$ tot $5$: driehoek onder de as met breedte $3$ en diepte $3$: $-\\tfrac12 \\cdot 3 \\cdot 3 = -4{,}5$.",
+        "Integraal: $2 - 4{,}5 = -2{,}5$."
+      ],
+      "feedback": [
+        {
+          "answer": 6.5,
+          "message": "Dat is de **totale oppervlakte** $2 + 4{,}5$. In een integraal telt het stuk onder de $x$-as negatief."
+        },
+        {
+          "answer": 2.5,
+          "message": "Je hebt het goede getal, maar het teken klopt niet: het stuk onder de as ($4{,}5$) is groter dan het stuk erboven ($2$)."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-010",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Van een functie $f$ is gegeven: $\\displaystyle\\int_0^3 f(x)\\,dx = 7$ en $\\displaystyle\\int_3^5 f(x)\\,dx = -2$. Bereken:\n\n**a.** $\\displaystyle\\int_0^5 f(x)\\,dx$\n\n**b.** $\\displaystyle\\int_5^3 f(x)\\,dx$\n\n**c.** $\\displaystyle\\int_0^3 \\big(2f(x) - 1\\big)\\,dx$",
+      "parts": [
+        {
+          "label": "a",
+          "answer": 5,
+          "type": "numeric"
+        },
+        {
+          "label": "b",
+          "answer": 2,
+          "type": "numeric"
+        },
+        {
+          "label": "c",
+          "answer": 11,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Gebruik de regels: intervallen aan elkaar plakken, grenzen omdraaien, constante factor en som.",
+        "Bij c: $\\int_0^3 1\\,dx$ is een rechthoek met breedte 3 en hoogte 1."
+      ],
+      "solution": [
+        "a. $\\int_0^5 f = \\int_0^3 f + \\int_3^5 f = 7 + (-2) = 5$.",
+        "b. Grenzen omdraaien geeft een minteken: $\\int_5^3 f = -\\int_3^5 f = -(-2) = 2$.",
+        "c. $\\int_0^3 (2f(x) - 1)\\,dx = 2 \\cdot 7 - \\int_0^3 1\\,dx = 14 - 3 = 11$."
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-011",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een auto trekt vanuit stilstand gelijkmatig op tot $30$ m/s in $12$ seconden en rijdt daarna nog $20$ seconden met constant $30$ m/s. Hoeveel meter legt de auto in die $32$ seconden af?",
+      "answer": 780,
+      "unit": "m",
+      "hints": [
+        "Teken het snelheid-tijddiagram: eerst een schuine lijn, dan een horizontale.",
+        "De oppervlakte bestaat uit een driehoek (optrekken) en een rechthoek (constante snelheid)."
+      ],
+      "solution": [
+        "Optrekken: driehoek, $\\tfrac12 \\cdot 12 \\cdot 30 = 180$ m.",
+        "Constant: rechthoek, $20 \\cdot 30 = 600$ m.",
+        "Samen: $180 + 600 = 780$ m."
+      ],
+      "feedback": [
+        {
+          "answer": 960,
+          "message": "Je hebt $32 \\cdot 30$ berekend, alsof de auto de hele tijd $30$ m/s reed. Tijdens het optrekken was hij langzamer: dat deel is een driehoek."
+        },
+        {
+          "answer": 600,
+          "message": "Je bent het optrekken vergeten. Ook in die eerste 12 seconden legt de auto afstand af: de driehoek onder de schuine lijn."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-012",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een waterbak bevat op $t = 0$ al $200$ liter. Er stroomt water in met een tempo van $r(t) = 50 - 2t$ liter per minuut, voor $0 \\leq t \\leq 25$ ($t$ in minuten). Daarna stopt de toevoer. Hoeveel liter zit er dan in de bak?",
+      "answer": 825,
+      "unit": "liter",
+      "hints": [
+        "De toename is de oppervlakte onder de grafiek van $r$ van $t = 0$ tot $t = 25$.",
+        "De grafiek van $r$ is een rechte lijn van $50$ naar $0$: een driehoek. Vergeet de beginhoeveelheid niet."
+      ],
+      "solution": [
+        "$r(0) = 50$ en $r(25) = 0$: de grafiek vormt met de assen een driehoek.",
+        "Toename: $\\tfrac12 \\cdot 25 \\cdot 50 = 625$ liter.",
+        "Eindhoeveelheid: $200 + 625 = 825$ liter."
+      ],
+      "feedback": [
+        {
+          "answer": 625,
+          "message": "Dat is alleen de toename. Er zat aan het begin al 200 liter in de bak."
+        },
+        {
+          "answer": 1450,
+          "message": "Je hebt $25 \\cdot 50 = 1250$ genomen (een rechthoek). Het tempo neemt af tot 0, dus het gebied is een driehoek: de helft daarvan."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-013",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $\\displaystyle\\int_{-2}^{2} \\sqrt{4 - x^2}\\,dx$ met behulp van meetkunde. Rond af op twee decimalen.",
+      "answer": 6.28,
+      "tolerance": 0.006,
+      "hints": [
+        "Als $y = \\sqrt{4 - x^2}$, dan is $x^2 + y^2 = 4$ met $y \\geq 0$. Welke figuur is dat?",
+        "Het is een halve cirkel met straal $2$. Oppervlakte cirkel: $\\pi r^2$."
+      ],
+      "solution": [
+        "$y = \\sqrt{4 - x^2}$ geeft $x^2 + y^2 = 4$, $y \\geq 0$: de bovenste helft van de cirkel met middelpunt $(0, 0)$ en straal $2$.",
+        "Het interval $[-2, 2]$ is precies de hele middellijn.",
+        "Oppervlakte halve cirkel: $\\tfrac12 \\pi \\cdot 2^2 = 2\\pi \\approx 6{,}28$."
+      ],
+      "feedback": [
+        {
+          "answer": 12.57,
+          "message": "Dat is de oppervlakte van de **hele** cirkel, $4\\pi$. De wortel is nooit negatief, dus de grafiek is alleen de bovenste helft."
+        },
+        {
+          "answer": 3.14,
+          "message": "Dat is $\\pi$. De straal van de cirkel is $2$ (want $x^2 + y^2 = 4 = 2^2$), dus de halve cirkel heeft oppervlakte $\\tfrac12 \\pi \\cdot 2^2 = 2\\pi$."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-014",
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bepaal de primitieve $F$ van $f(x) = 6x^2$ waarvoor $F(0) = 0$.",
+      "answer": "2x^3",
+      "hints": [
+        "Machtsregel: verhoog de exponent met 1 en deel door de nieuwe exponent.",
+        "Een primitieve van $x^2$ is $\\tfrac13 x^3$. Vermenigvuldig met $6$."
+      ],
+      "solution": [
+        "Primitieve van $x^2$: $\\tfrac13 x^3$.",
+        "Maal 6: $6 \\cdot \\tfrac13 x^3 = 2x^3$. Met $F(0) = 0$ is $C = 0$.",
+        "Controle: $(2x^3)' = 6x^2$ ✓."
+      ],
+      "feedback": [
+        {
+          "answer": "12x",
+          "message": "Je hebt **gedifferentieerd** in plaats van geprimitiveerd. Bij primitiveren gaat de exponent omhoog: $x^2 \\to x^3$."
+        },
+        {
+          "answer": "6x^3",
+          "message": "De exponent is goed verhoogd, maar je bent vergeten te delen door de nieuwe exponent 3. Controleer: $(6x^3)' = 18x^2$."
+        }
+      ],
+      "topics": [
+        "integrals",
+        "derivatives"
+      ]
+    },
+    {
+      "id": "30-015",
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bepaal de primitieve $F$ van $f(x) = 4x^3 - 2x + 5$ waarvoor $F(0) = 0$.",
+      "answer": "x^4 - x^2 + 5x",
+      "hints": [
+        "Primitiveer term voor term.",
+        "$4x^3 \\to x^4$, $\\ -2x \\to -x^2$, $\\ 5 \\to 5x$."
+      ],
+      "solution": [
+        "$4x^3$: $4 \\cdot \\tfrac14 x^4 = x^4$.",
+        "$-2x$: $-2 \\cdot \\tfrac12 x^2 = -x^2$.",
+        "$5$: $5x$.",
+        "$F(x) = x^4 - x^2 + 5x + C$ en $F(0) = 0$ geeft $C = 0$.",
+        "Controle: $F'(x) = 4x^3 - 2x + 5$ ✓."
+      ],
+      "feedback": [
+        {
+          "answer": "12x^2 - 2",
+          "message": "Je hebt gedifferentieerd. Bij primitiveren gaat elke exponent één omhoog."
+        },
+        {
+          "answer": "x^4 - x^2 + 5",
+          "message": "De constante $5$ heeft als primitieve $5x$, niet $5$: de afgeleide van $5$ is $0$."
+        }
+      ],
+      "topics": [
+        "integrals",
+        "derivatives"
+      ]
+    },
+    {
+      "id": "30-016",
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bepaal de primitieve $F$ van $f(x) = x^2 + 3$ waarvoor $F(0) = 0$. (Een breuk als coëfficiënt mag je typen als `x^3/3` of `1/3x^3`.)",
+      "answer": "x^3/3 + 3x",
+      "hints": [
+        "Een primitieve van $x^2$ is $\\frac{x^3}{3}$.",
+        "Een primitieve van de constante $3$ is $3x$."
+      ],
+      "solution": [
+        "$x^2 \\to \\tfrac13 x^3$.",
+        "$3 \\to 3x$.",
+        "$F(x) = \\tfrac13 x^3 + 3x$ (met $C = 0$ vanwege $F(0) = 0$).",
+        "Controle: $F'(x) = x^2 + 3$ ✓."
+      ],
+      "feedback": [
+        {
+          "answer": "x^3 + 3x",
+          "message": "Je bent vergeten te delen door 3. Controleer: $(x^3)' = 3x^2$, niet $x^2$."
+        },
+        {
+          "answer": "2x",
+          "message": "Je hebt gedifferentieerd in plaats van geprimitiveerd."
+        }
+      ],
+      "topics": [
+        "integrals",
+        "derivatives"
+      ]
+    },
+    {
+      "id": "30-017",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Alle primitieven van $f(x) = 3x^2$ zijn $F(x) = x^3 + C$. Voor welke waarde van $C$ gaat de grafiek van $F$ door het punt $(2, 5)$?",
+      "answer": -3,
+      "hints": [
+        "Vul $x = 2$ in en stel $F(2) = 5$.",
+        "$2^3 + C = 5$."
+      ],
+      "solution": [
+        "$F(2) = 2^3 + C = 8 + C$.",
+        "$8 + C = 5$, dus $C = -3$.",
+        "Controle: $F(x) = x^3 - 3$ geeft $F(2) = 8 - 3 = 5$ ✓."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Let op het teken: $8 + C = 5$ geeft $C = 5 - 8 = -3$."
+        },
+        {
+          "answer": 13,
+          "message": "Je hebt $5 + 8$ berekend. Uit $8 + C = 5$ volgt $C = 5 - 8$."
+        }
+      ],
+      "topics": [
+        "integrals",
+        "derivatives"
+      ]
+    },
+    {
+      "id": "30-018",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bepaal de primitieve $F$ van $f(x) = \\sqrt{x}$ (voor $x \\geq 0$) waarvoor $F(0) = 0$. Je mag `x^(3/2)` of `x√x` gebruiken.",
+      "answer": "2/3x^(3/2)",
+      "hints": [
+        "Schrijf $\\sqrt x = x^{1/2}$.",
+        "Exponent plus één: $\\tfrac32$. Delen door $\\tfrac32$ is vermenigvuldigen met $\\tfrac23$."
+      ],
+      "solution": [
+        "$\\sqrt x = x^{1/2}$.",
+        "$F(x) = \\dfrac{x^{3/2}}{3/2} = \\tfrac23 x^{3/2}$, en $C = 0$ vanwege $F(0) = 0$.",
+        "Controle: $F'(x) = \\tfrac23 \\cdot \\tfrac32 x^{1/2} = \\sqrt{x}$ ✓."
+      ],
+      "feedback": [
+        {
+          "answer": "1/2x^(-1/2)",
+          "message": "Dat is de **afgeleide** van $\\sqrt x$. Bij primitiveren gaat de exponent omhoog: $\\tfrac12 \\to \\tfrac32$."
+        },
+        {
+          "answer": "3/2x^(3/2)",
+          "message": "De exponent klopt, maar je hebt met $\\tfrac32$ vermenigvuldigd in plaats van erdoor gedeeld. Controleer door te differentiëren."
+        }
+      ],
+      "topics": [
+        "integrals",
+        "derivatives"
+      ]
+    },
+    {
+      "id": "30-019",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bepaal de primitieve $F$ van $f(x) = \\dfrac{1}{x^2}$ (voor $x > 0$) waarvoor $F(1) = 0$.",
+      "answer": "1 - 1/x",
+      "hints": [
+        "Schrijf $\\dfrac{1}{x^2} = x^{-2}$ en pas de machtsregel toe: de exponent wordt $-1$.",
+        "Je vindt $F(x) = -\\dfrac1x + C$. Bepaal $C$ met $F(1) = 0$."
+      ],
+      "solution": [
+        "$x^{-2} \\to \\dfrac{x^{-1}}{-1} = -\\dfrac1x$.",
+        "$F(x) = -\\dfrac1x + C$.",
+        "$F(1) = -1 + C = 0$, dus $C = 1$.",
+        "$F(x) = 1 - \\dfrac1x$. Controle: $F'(x) = x^{-2}$ ✓ en $F(1) = 0$ ✓."
+      ],
+      "feedback": [
+        {
+          "answer": "-1/x",
+          "message": "Dit is een primitieve, maar niet de goede: $-\\frac11 = -1 \\neq 0$. Bepaal $C$ uit $F(1) = 0$."
+        },
+        {
+          "answer": "-2/x^3",
+          "message": "Je hebt gedifferentieerd: de exponent ging van $-2$ naar $-3$. Bij primitiveren gaat hij omhoog, naar $-1$."
+        },
+        {
+          "answer": "1/x - 1",
+          "message": "Let op het teken: de primitieve van $x^{-2}$ is $-x^{-1}$, met een minteken."
+        }
+      ],
+      "topics": [
+        "integrals",
+        "derivatives"
+      ]
+    },
+    {
+      "id": "30-020",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bepaal de primitieve $F$ van $f(x) = (2x + 1)^2$ waarvoor $F(0) = 0$.",
+      "answer": "4/3x^3 + 2x^2 + x",
+      "hints": [
+        "Werk het kwadraat eerst uit tot een polynoom.",
+        "$(2x + 1)^2 = 4x^2 + 4x + 1$. Primitiveer daarna term voor term."
+      ],
+      "solution": [
+        "$(2x + 1)^2 = 4x^2 + 4x + 1$.",
+        "Term voor term: $4x^2 \\to \\tfrac43 x^3$, $\\ 4x \\to 2x^2$, $\\ 1 \\to x$.",
+        "$F(x) = \\tfrac43 x^3 + 2x^2 + x$, met $C = 0$ vanwege $F(0) = 0$.",
+        "Controle: $F'(x) = 4x^2 + 4x + 1 = (2x + 1)^2$ ✓."
+      ],
+      "feedback": [
+        {
+          "answer": "(2x+1)^3/3",
+          "message": "Differentieer ter controle: met de kettingregel is $\\left(\\tfrac13(2x + 1)^3\\right)' = 2(2x + 1)^2$, twee keer te veel. Bovendien is $F(0)$ dan $\\tfrac13$ in plaats van $0$. Werk het kwadraat eerst uit."
+        },
+        {
+          "answer": "4/3x^3 + x",
+          "message": "Je hebt $(2x + 1)^2$ uitgewerkt als $4x^2 + 1$. De dubbele term $2 \\cdot 2x \\cdot 1 = 4x$ ontbreekt."
+        }
+      ],
+      "topics": [
+        "integrals",
+        "derivatives"
+      ]
+    },
+    {
+      "id": "30-021",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een voorwerp beweegt langs een rechte lijn met snelheid $v(t) = 3t^2 - 4t + 2$ (in m/s, $t$ in seconden). Op $t = 0$ is de positie $s(0) = 5$ meter. Bereken de positie $s(2)$ in meter.",
+      "answer": 9,
+      "unit": "m",
+      "hints": [
+        "De positie is een primitieve van de snelheid.",
+        "$s(t) = t^3 - 2t^2 + 2t + C$; bepaal $C$ uit $s(0) = 5$."
+      ],
+      "solution": [
+        "$s(t) = t^3 - 2t^2 + 2t + C$.",
+        "$s(0) = C = 5$.",
+        "$s(2) = 8 - 8 + 4 + 5 = 9$ meter."
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Dat is de **verplaatsing** $s(2) - s(0)$. De beginpositie $5$ moet er nog bij."
+        },
+        {
+          "answer": 6,
+          "message": "Dat is de snelheid $v(2) = 12 - 8 + 2$. Gevraagd is de positie: primitiveer eerst."
+        }
+      ],
+      "topics": [
+        "integrals",
+        "derivatives"
+      ]
+    },
+    {
+      "id": "30-022",
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bepaal de oppervlaktefunctie $A(x) = \\displaystyle\\int_1^x 2t\\,dt$ (voor $x \\geq 1$) als formule in $x$.",
+      "answer": "x^2 - 1",
+      "hints": [
+        "Een primitieve van $2t$ is $t^2$.",
+        "$A(x) = \\big[t^2\\big]_1^x = x^2 - 1^2$."
+      ],
+      "solution": [
+        "Primitieve: $F(t) = t^2$.",
+        "$A(x) = F(x) - F(1) = x^2 - 1$.",
+        "Controle: $A(1) = 0$ ✓ (geen oppervlakte bij een interval zonder breedte) en $A'(x) = 2x$ ✓ (hoofdstelling)."
+      ],
+      "feedback": [
+        {
+          "answer": "x^2",
+          "message": "Dat is een primitieve, maar de oppervlakte begint bij $t = 1$. Trek $F(1) = 1$ eraf; dan geldt ook $A(1) = 0$."
+        },
+        {
+          "answer": "2x",
+          "message": "Dat is $A'(x)$, de groeisnelheid van de oppervlakte. Gevraagd is $A(x)$ zelf."
+        }
+      ],
+      "topics": [
+        "integrals",
+        "derivatives"
+      ]
+    },
+    {
+      "id": "30-023",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Gegeven is $A(x) = \\displaystyle\\int_0^x (t^3 + 1)\\,dt$. Bereken $A'(2)$.",
+      "answer": 9,
+      "hints": [
+        "Volgens de hoofdstelling is de afgeleide van de oppervlaktefunctie de functie onder het integraalteken.",
+        "$A'(x) = x^3 + 1$. Vul $x = 2$ in."
+      ],
+      "solution": [
+        "Hoofdstelling: $A'(x) = f(x) = x^3 + 1$.",
+        "$A'(2) = 8 + 1 = 9$.",
+        "(Ter controle via de formule: $A(x) = \\tfrac14 x^4 + x$, dus $A'(x) = x^3 + 1$.)"
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Dat is $A(2) = \\tfrac14 \\cdot 16 + 2$, de oppervlakte zelf. Gevraagd is de **afgeleide** van $A$ in $x = 2$."
+        },
+        {
+          "answer": 12,
+          "message": "Je hebt de functie onder het integraalteken gedifferentieerd: $3x^2$ bij $x = 2$ geeft $12$. Volgens de hoofdstelling is $A'(x)$ de integrand zelf: $A'(x) = x^3 + 1$."
+        }
+      ],
+      "topics": [
+        "integrals",
+        "derivatives"
+      ]
+    },
+    {
+      "id": "30-024",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $\\displaystyle\\int_0^2 x^3\\,dx$.",
+      "answer": 4,
+      "hints": [
+        "Een primitieve van $x^3$ is $\\tfrac14 x^4$.",
+        "Bereken $F(2) - F(0)$."
+      ],
+      "solution": [
+        "$F(x) = \\tfrac14 x^4$.",
+        "$F(2) = \\tfrac14 \\cdot 16 = 4$ en $F(0) = 0$.",
+        "$\\int_0^2 x^3\\,dx = 4 - 0 = 4$."
+      ],
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Je bent vergeten te delen door 4: de primitieve is $\\tfrac14 x^4$, niet $x^4$."
+        },
+        {
+          "answer": 12,
+          "message": "Je hebt de afgeleide $3x^2$ in $x = 2$ uitgerekend. Bij een integraal heb je een **primitieve** nodig."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-025",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $\\displaystyle\\int_1^3 (3x^2 + 2x)\\,dx$.",
+      "answer": 34,
+      "hints": [
+        "Primitieve: $F(x) = x^3 + x^2$.",
+        "Bereken $F(3)$ en $F(1)$ apart en trek af."
+      ],
+      "solution": [
+        "$F(x) = x^3 + x^2$.",
+        "$F(3) = 27 + 9 = 36$.",
+        "$F(1) = 1 + 1 = 2$.",
+        "$36 - 2 = 34$."
+      ],
+      "feedback": [
+        {
+          "answer": 36,
+          "message": "Dat is $F(3)$. Je moet de waarde bij de ondergrens, $F(1) = 2$, er nog van aftrekken."
+        },
+        {
+          "answer": 38,
+          "message": "Je hebt $F(1)$ opgeteld in plaats van afgetrokken. De regel is $F(b) - F(a)$."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-026",
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $\\displaystyle\\int_0^2 (4 - x^2)\\,dx$ exact. Geef het antwoord als breuk.",
+      "answer": "16/3",
+      "hints": [
+        "Primitieve: $F(x) = 4x - \\tfrac13 x^3$.",
+        "$F(2) = 8 - \\tfrac83$."
+      ],
+      "solution": [
+        "$F(x) = 4x - \\tfrac13 x^3$.",
+        "$F(2) = 8 - \\tfrac83 = \\tfrac{24}{3} - \\tfrac83 = \\tfrac{16}{3}$.",
+        "$F(0) = 0$.",
+        "$\\int_0^2 (4 - x^2)\\,dx = \\tfrac{16}{3} \\approx 5{,}33$. Dat ligt tussen de ondersom $4{,}25$ en de bovensom $6{,}25$ uit les 1."
+      ],
+      "feedback": [
+        {
+          "answer": "8/3",
+          "message": "Dat is alleen $\\int_0^2 x^2\\,dx$. Je moet het van $\\int_0^2 4\\,dx = 8$ aftrekken."
+        },
+        {
+          "answer": "4",
+          "message": "Je hebt $8 - 4$ berekend, dus de primitieve van $x^2$ als $x^2$ genomen. Deel door 3: $\\tfrac13 x^3$ geeft $\\tfrac83$ bij $x = 2$."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-027",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $\\displaystyle\\int_1^4 \\sqrt{x}\\,dx$ exact. Geef het antwoord als breuk.",
+      "answer": "14/3",
+      "hints": [
+        "Een primitieve van $\\sqrt x = x^{1/2}$ is $\\tfrac23 x^{3/2} = \\tfrac23 x\\sqrt x$.",
+        "$4^{3/2} = 4\\sqrt4 = 8$ en $1^{3/2} = 1$."
+      ],
+      "solution": [
+        "$F(x) = \\tfrac23 x^{3/2}$.",
+        "$F(4) = \\tfrac23 \\cdot 8 = \\tfrac{16}{3}$.",
+        "$F(1) = \\tfrac23$.",
+        "$\\tfrac{16}{3} - \\tfrac23 = \\tfrac{14}{3}$."
+      ],
+      "feedback": [
+        {
+          "answer": "7",
+          "message": "Je hebt $8 - 1 = 7$ berekend en de factor $\\tfrac23$ vergeten."
+        },
+        {
+          "answer": "16/3",
+          "message": "Dat is $F(4)$. Trek $F(1) = \\tfrac23$ er nog van af."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-028",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken de **oppervlakte** van het gebied dat wordt ingesloten door de grafiek van $f(x) = x^2 - 4$ en de $x$-as. Geef een breuk.",
+      "answer": "32/3",
+      "hints": [
+        "Nulpunten: $x^2 - 4 = 0$ geeft $x = -2$ en $x = 2$. Daartussen ligt de grafiek onder de as.",
+        "Bereken $\\int_{-2}^{2} (x^2 - 4)\\,dx$ en neem de absolute waarde."
+      ],
+      "solution": [
+        "Nulpunten $x = \\pm 2$; op $(-2, 2)$ is $f(x) < 0$ (bijvoorbeeld $f(0) = -4$).",
+        "$\\int_{-2}^{2} (x^2 - 4)\\,dx = \\Big[\\tfrac13 x^3 - 4x\\Big]_{-2}^{2} = \\left(\\tfrac83 - 8\\right) - \\left(-\\tfrac83 + 8\\right) = -\\tfrac{16}{3} - \\tfrac{16}{3} = -\\tfrac{32}{3}$.",
+        "De oppervlakte is de absolute waarde: $\\tfrac{32}{3} \\approx 10{,}67$."
+      ],
+      "feedback": [
+        {
+          "answer": "-32/3",
+          "message": "Dat is de **integraal**. Een oppervlakte is altijd positief: neem de absolute waarde, omdat het gebied onder de $x$-as ligt."
+        },
+        {
+          "answer": "16/3",
+          "message": "Je hebt alleen van $0$ tot $2$ geïntegreerd. Het gebied loopt van $x = -2$ tot $x = 2$."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-029",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken de oppervlakte van het gebied tussen de grafieken van $f(x) = x$ en $g(x) = x^2$. Geef een breuk.",
+      "answer": "1/6",
+      "hints": [
+        "Snijpunten: $x = x^2$ geeft $x = 0$ en $x = 1$.",
+        "Op $(0, 1)$ ligt $y = x$ boven $y = x^2$ (test $x = \\tfrac12$). Integreer $x - x^2$."
+      ],
+      "solution": [
+        "Snijpunten: $x^2 - x = x(x - 1) = 0$, dus $x = 0$ of $x = 1$.",
+        "Testwaarde $x = \\tfrac12$: $f = \\tfrac12$, $g = \\tfrac14$. De lijn ligt boven.",
+        "$\\int_0^1 (x - x^2)\\,dx = \\Big[\\tfrac12 x^2 - \\tfrac13 x^3\\Big]_0^1 = \\tfrac12 - \\tfrac13 = \\tfrac16$."
+      ],
+      "feedback": [
+        {
+          "answer": "-1/6",
+          "message": "Je hebt onder min boven gedaan. Neem bovenste grafiek min onderste: hier ligt $y = x$ boven."
+        },
+        {
+          "answer": "1/2",
+          "message": "Dat is alleen de oppervlakte onder $y = x$. Trek de oppervlakte onder de parabool ($\\tfrac13$) eraf."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-030",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Bereken de oppervlakte van het gebied ingesloten door de grafieken van $f(x) = 6x - x^2$ en $g(x) = x^2$.",
+      "answer": 9,
+      "hints": [
+        "Snijpunten: $6x - x^2 = x^2$ geeft $2x^2 - 6x = 0$.",
+        "Integreer $(6x - x^2) - x^2 = 6x - 2x^2$ tussen de snijpunten."
+      ],
+      "solution": [
+        "$6x - x^2 = x^2 \\Leftrightarrow 2x^2 - 6x = 0 \\Leftrightarrow 2x(x - 3) = 0$, dus $x = 0$ of $x = 3$.",
+        "Testwaarde $x = 1$: $f(1) = 5$, $g(1) = 1$. $f$ ligt boven.",
+        "$\\int_0^3 (6x - 2x^2)\\,dx = \\Big[3x^2 - \\tfrac23 x^3\\Big]_0^3 = 27 - 18 = 9$."
+      ],
+      "feedback": [
+        {
+          "answer": 18,
+          "message": "Dat is $\\int_0^3 (6x - x^2)\\,dx$, de oppervlakte onder de bovenste grafiek alleen. Trek de oppervlakte onder $g$ ($9$) eraf."
+        },
+        {
+          "answer": 27,
+          "message": "Dat is alleen $\\big[3x^2\\big]_0^3$: je bent de term $-\\tfrac23 x^3$ vergeten. Het verschil van de functies is $6x - 2x^2$."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-031",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Bereken de **totale oppervlakte** van het gebied tussen de grafiek van $f(x) = x^2 - 2x$ en de $x$-as op het interval $[0, 3]$. Geef een breuk.",
+      "answer": "8/3",
+      "hints": [
+        "De grafiek snijdt de $x$-as bij $x = 0$ en $x = 2$. Op $(0, 2)$ ligt hij onder de as, op $(2, 3)$ erboven.",
+        "Splits: bereken $\\int_0^2$ en $\\int_2^3$ apart en tel de absolute waarden op."
+      ],
+      "solution": [
+        "Primitieve: $F(x) = \\tfrac13 x^3 - x^2$. $F(0) = 0$, $F(2) = \\tfrac83 - 4 = -\\tfrac43$, $F(3) = 9 - 9 = 0$.",
+        "$\\int_0^2 f\\,dx = F(2) - F(0) = -\\tfrac43$: oppervlakte $\\tfrac43$.",
+        "$\\int_2^3 f\\,dx = F(3) - F(2) = 0 + \\tfrac43 = \\tfrac43$: oppervlakte $\\tfrac43$.",
+        "Totaal: $\\tfrac43 + \\tfrac43 = \\tfrac83$. (De integraal over $[0, 3]$ is $0$: de stukken heffen elkaar op.)"
+      ],
+      "feedback": [
+        {
+          "answer": "0",
+          "message": "Dat is de **integraal** $\\int_0^3 f\\,dx$. Het stuk onder de as telt daarin negatief. Splits bij $x = 2$ en tel de oppervlakten op."
+        },
+        {
+          "answer": "4/3",
+          "message": "Dat is maar één van de twee stukken. Er ligt een stuk onder de as (van 0 tot 2) en een stuk erboven (van 2 tot 3)."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-032",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een auto remt vanaf $20$ m/s. De snelheid tijdens het remmen is $v(t) = 20 - 4t$ m/s, tot de auto stilstaat. Bereken de remweg in meter.",
+      "answer": 50,
+      "unit": "m",
+      "hints": [
+        "Wanneer staat de auto stil? Los $v(t) = 0$ op.",
+        "De remweg is $\\int_0^5 (20 - 4t)\\,dt$."
+      ],
+      "solution": [
+        "$20 - 4t = 0$ geeft $t = 5$ seconden.",
+        "Primitieve: $S(t) = 20t - 2t^2$.",
+        "Remweg: $S(5) - S(0) = 100 - 50 = 50$ meter."
+      ],
+      "feedback": [
+        {
+          "answer": 100,
+          "message": "Je hebt $20 \\cdot 5$ berekend, alsof de auto 5 seconden lang $20$ m/s bleef rijden. De snelheid neemt af; je moet integreren."
+        },
+        {
+          "answer": 5,
+          "message": "Dat is de remtijd in seconden. Gevraagd is de afstand: de oppervlakte onder de snelheidsgrafiek."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-033",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Tijdens een bui valt regen met een intensiteit van $r(t) = 6t - t^2$ millimeter per uur, waarbij $t$ de tijd in uren is ($0 \\leq t \\leq 6$). Hoeveel millimeter regen valt er in totaal?",
+      "answer": 36,
+      "unit": "mm",
+      "hints": [
+        "De totale neerslag is $\\int_0^6 r(t)\\,dt$.",
+        "Primitieve: $R(t) = 3t^2 - \\tfrac13 t^3$."
+      ],
+      "solution": [
+        "$R(t) = 3t^2 - \\tfrac13 t^3$.",
+        "$R(6) = 108 - 72 = 36$ en $R(0) = 0$.",
+        "Totaal: $36$ mm."
+      ],
+      "feedback": [
+        {
+          "answer": 9,
+          "message": "Dat is de grootste intensiteit $r(3) = 9$ mm/h. Gevraagd is de totale hoeveelheid: integreer over de hele bui."
+        },
+        {
+          "answer": 108,
+          "message": "Je bent de term $-\\tfrac13 t^3$ vergeten."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-034",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De temperatuur in een kas tussen 6.00 en 18.00 uur is $T(t) = 12 + 3t - 0{,}25t^2$ graden Celsius, met $t$ het aantal uren na 6.00 uur ($0 \\leq t \\leq 12$). Bereken de **gemiddelde** temperatuur over die 12 uur.",
+      "answer": 18,
+      "unit": "°C",
+      "hints": [
+        "Gemiddelde waarde: $\\dfrac{1}{12 - 0} \\displaystyle\\int_0^{12} T(t)\\,dt$.",
+        "Primitieve: $12t + 1{,}5t^2 - \\tfrac{1}{12}t^3$."
+      ],
+      "solution": [
+        "Primitieve: $F(t) = 12t + 1{,}5t^2 - \\tfrac{1}{12}t^3$.",
+        "$F(12) = 144 + 216 - 144 = 216$ en $F(0) = 0$.",
+        "Gemiddelde: $\\dfrac{216}{12} = 18$ °C."
+      ],
+      "feedback": [
+        {
+          "answer": 216,
+          "message": "Dat is de integraal. Voor het gemiddelde deel je nog door de lengte van het interval, 12 uur."
+        },
+        {
+          "answer": 12,
+          "message": "Dat is het gemiddelde van $T(0) = 12$ en $T(12) = 12$. De temperatuur is tussendoor hoger; je moet integreren."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-035",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een rij zonnepanelen levert op een zonnige dag een vermogen van $P(t) = 0{,}25t(12 - t)$ kilowatt, met $t$ het aantal uren na 6.00 uur ($0 \\leq t \\leq 12$). Hoeveel kilowattuur (kWh) leveren de panelen op die dag?",
+      "answer": 72,
+      "unit": "kWh",
+      "hints": [
+        "Energie is vermogen maal tijd: $\\int_0^{12} P(t)\\,dt$ (kW maal uur geeft kWh).",
+        "Werk eerst uit: $P(t) = 3t - 0{,}25t^2$."
+      ],
+      "solution": [
+        "$P(t) = 3t - 0{,}25t^2$.",
+        "Primitieve: $E(t) = 1{,}5t^2 - \\tfrac{1}{12}t^3$.",
+        "$E(12) = 216 - 144 = 72$ en $E(0) = 0$.",
+        "De panelen leveren $72$ kWh."
+      ],
+      "feedback": [
+        {
+          "answer": 9,
+          "message": "Dat is het maximale vermogen $P(6) = 9$ kW, geen energie. Integreer het vermogen over de dag."
+        },
+        {
+          "answer": 108,
+          "message": "Dat is $9 \\cdot 12$: alsof de panelen de hele dag op maximaal vermogen werkten. 's Ochtends en 's avonds leveren ze minder."
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-036",
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "De parabool $y = x^2$ en de lijn $y = 2x + 3$ sluiten een parabolisch segment in (zie de figuur in de introductie).\n\n**a.** Bereken de oppervlakte van het segment exact (breuk).\n\n**b.** Archimedes' driehoek heeft als hoekpunten de twee snijpunten en het punt van de parabool waar de raaklijn evenwijdig is aan de lijn. Bereken de oppervlakte van die driehoek.\n\nControleer daarna zelf dat het segment $\\tfrac43$ keer de driehoek is.",
+      "parts": [
+        {
+          "label": "a. segment",
+          "answer": "32/3",
+          "type": "fraction"
+        },
+        {
+          "label": "b. driehoek",
+          "answer": 8,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Snijpunten: $x^2 = 2x + 3$ geeft $x = -1$ en $x = 3$. Integreer $(2x + 3) - x^2$.",
+        "Raaklijn evenwijdig aan de lijn: $(x^2)' = 2x = 2$, dus $x = 1$, punt $(1, 1)$. De driehoek heeft hoekpunten $(-1, 1)$, $(3, 9)$ en $(1, 1)$; de zijde van $(-1, 1)$ naar $(1, 1)$ is horizontaal."
+      ],
+      "solution": [
+        "Snijpunten: $x^2 - 2x - 3 = (x - 3)(x + 1) = 0$, dus $x = -1$ en $x = 3$; de punten zijn $(-1, 1)$ en $(3, 9)$.",
+        "a. $\\int_{-1}^{3} (2x + 3 - x^2)\\,dx = \\Big[x^2 + 3x - \\tfrac13 x^3\\Big]_{-1}^{3} = (9 + 9 - 9) - \\left(1 - 3 + \\tfrac13\\right) = 9 + \\tfrac53 = \\tfrac{32}{3}$.",
+        "b. Het derde hoekpunt: $2x = 2$ geeft $x = 1$, punt $(1, 1)$.",
+        "Neem als basis de horizontale zijde van $(-1, 1)$ naar $(1, 1)$: lengte $2$. De hoogte is het verticale verschil naar $(3, 9)$: $9 - 1 = 8$. Oppervlakte $\\tfrac12 \\cdot 2 \\cdot 8 = 8$.",
+        "Controle: $\\tfrac43 \\cdot 8 = \\tfrac{32}{3}$ ✓. Archimedes had gelijk."
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-037",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Voor een getal $a > 0$ sluiten de parabool $y = x^2$ en de lijn $y = ax$ een gebied in. Voor welke $a$ is de oppervlakte van dat gebied precies $36$?",
+      "answer": 6,
+      "hints": [
+        "De snijpunten zijn $x = 0$ en $x = a$. Tussen die twee ligt de lijn boven de parabool.",
+        "Bereken $\\int_0^a (ax - x^2)\\,dx$ als formule in $a$ en stel die gelijk aan $36$."
+      ],
+      "solution": [
+        "Snijpunten: $x^2 = ax$ geeft $x = 0$ of $x = a$.",
+        "$\\int_0^a (ax - x^2)\\,dx = \\Big[\\tfrac12 a x^2 - \\tfrac13 x^3\\Big]_0^a = \\tfrac12 a^3 - \\tfrac13 a^3 = \\tfrac16 a^3$.",
+        "$\\tfrac16 a^3 = 36$ geeft $a^3 = 216$, dus $a = 6$.",
+        "Controle: $\\tfrac16 \\cdot 216 = 36$ ✓."
+      ],
+      "feedback": [
+        {
+          "answer": 216,
+          "message": "Dat is $a^3$. Neem nog de derdemachtswortel: $a = \\sqrt[3]{216}$."
+        },
+        {
+          "answer": 3,
+          "message": "Controleer: bij $a = 3$ is de oppervlakte $\\tfrac16 \\cdot 27 = 4{,}5$. Heb je $\\tfrac12 a^3 - \\tfrac13 a^3$ goed vereenvoudigd tot $\\tfrac16 a^3$?"
+        }
+      ],
+      "topics": [
+        "integrals"
+      ]
+    },
+    {
+      "id": "30-038",
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Je benadert $\\int_0^1 x^3\\,dx$ met de bovensom $B_n$ met $n$ gelijke stukjes, zoals wiskundigen vóór Newton en Leibniz dat zonder primitieven moesten doen. Gebruik $1^3 + 2^3 + \\dots + n^3 = \\left(\\dfrac{n(n+1)}{2}\\right)^2$.\n\n**a.** Bereken $B_{10}$ exact als breuk.\n\n**b.** Naar welk getal gaat $B_n$ als $n \\to \\infty$? (Breuk.)",
+      "parts": [
+        {
+          "label": "a. B₁₀",
+          "answer": "121/400",
+          "type": "fraction"
+        },
+        {
+          "label": "b. limiet",
+          "answer": "1/4",
+          "type": "fraction"
+        }
+      ],
+      "hints": [
+        "$B_n = \\dfrac1n \\left( \\dfrac{1^3}{n^3} + \\dfrac{2^3}{n^3} + \\dots + \\dfrac{n^3}{n^3} \\right) = \\dfrac{1^3 + 2^3 + \\dots + n^3}{n^4}$.",
+        "Vul de somformule in: $B_n = \\dfrac{(n+1)^2}{4n^2}$. Wat gebeurt er met $\\dfrac{(n+1)^2}{n^2}$ als $n$ heel groot wordt?"
+      ],
+      "solution": [
+        "$B_n = \\dfrac{1^3 + \\dots + n^3}{n^4} = \\dfrac{n^2(n+1)^2}{4n^4} = \\dfrac{(n+1)^2}{4n^2}$.",
+        "a. $B_{10} = \\dfrac{11^2}{4 \\cdot 100} = \\dfrac{121}{400} = 0{,}3025$. (Direct: $1^3 + \\dots + 10^3 = 55^2 = 3025$, gedeeld door $10^4$.)",
+        "b. $\\dfrac{(n+1)^2}{n^2} = \\left(1 + \\dfrac1n\\right)^2 \\to 1$, dus $B_n \\to \\dfrac14$.",
+        "Controle met de hoofdstelling: $\\int_0^1 x^3\\,dx = \\Big[\\tfrac14 x^4\\Big]_0^1 = \\tfrac14$ ✓."
+      ],
+      "topics": [
+        "integrals"
+      ]
+    }
+  ]
+}

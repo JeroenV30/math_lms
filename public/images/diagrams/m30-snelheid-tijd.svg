@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" role="img" aria-labelledby="title desc">
+  <title id="title">Snelheid-tijddiagram van een trein</title>
+  <desc id="desc">De snelheid stijgt in 40 seconden gelijkmatig van 0 tot 20 m/s, blijft 120 seconden 20 m/s en daalt in 50 seconden gelijkmatig naar 0. De afgelegde weg is de oppervlakte onder de grafiek: 400 + 2400 + 500 = 3300 meter.</desc>
+  <rect width="640" height="330" fill="#fff"/>
+  <g font-family="sans-serif" fill="#1f2933">
+    <polygon points="70.0,260.0 164.5,84.0 448.2,84.0 566.4,260.0" fill="#dbe4ff" stroke="none"/>
+    <line x1="164.5" y1="260.0" x2="164.5" y2="84.0" stroke="#3b5bdb" stroke-dasharray="5 4"/>
+    <line x1="448.2" y1="260.0" x2="448.2" y2="84.0" stroke="#3b5bdb" stroke-dasharray="5 4"/>
+    <polyline points="70.0,260.0 164.5,84.0 448.2,84.0 566.4,260.0" fill="none" stroke="#1f2933" stroke-width="2.5"/>
+    <line x1="70" y1="260.0" x2="600.0" y2="260.0" stroke="#1f2933" stroke-width="1.5"/>
+    <line x1="70" y1="260.0" x2="70" y2="25" stroke="#1f2933" stroke-width="1.5"/>
+    <text x="70.0" y="280.0" text-anchor="middle" font-size="13">0</text>
+    <text x="164.5" y="280.0" text-anchor="middle" font-size="13">40</text>
+    <text x="448.2" y="280.0" text-anchor="middle" font-size="13">160</text>
+    <text x="566.4" y="280.0" text-anchor="middle" font-size="13">210</text>
+    <text x="62" y="264.0" text-anchor="end" font-size="13">0</text>
+    <text x="62" y="176.0" text-anchor="end" font-size="13">10</text>
+    <text x="62" y="88.0" text-anchor="end" font-size="13">20</text>
+    <text x="602.0" y="252.0" font-size="13" text-anchor="end">t (s)</text>
+    <text x="66" y="18" font-size="13">v (m/s)</text>
+    <text x="131.5" y="216.0" text-anchor="middle" font-size="15" fill="#3b5bdb" font-weight="bold">400</text>
+    <text x="306.4" y="172.0" text-anchor="middle" font-size="15" fill="#3b5bdb" font-weight="bold">2400</text>
+    <text x="488.4" y="216.0" text-anchor="middle" font-size="15" fill="#3b5bdb" font-weight="bold">500</text>
+    <text x="320" y="318" text-anchor="middle" font-size="13" fill="#616e7c">Oppervlakte onder de grafiek = afgelegde weg: 400 + 2400 + 500 = 3300 m</text>
+  </g>
+</svg>

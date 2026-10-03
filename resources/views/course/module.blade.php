@@ -1,5 +1,7 @@
 @extends('layouts.app', ['title' => 'Module '.$module->id.' – '.$module->title])
 
+@inject('markdown', 'App\Services\MarkdownRenderer')
+
 @section('content')
     @php
         $available = $module->isAvailable();
@@ -60,7 +62,7 @@
                         <h2 id="leerdoelen" class="section-title">Na deze module</h2>
                         <ul class="mt-4 space-y-2 font-serif text-[1.05rem] text-ink-soft">
                             @foreach ($module->learningGoals as $goal)
-                                <li class="flex gap-3"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span><span>{{ $goal }}</span></li>
+                                <li class="flex gap-3"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span><span>{!! $markdown->inline($goal) !!}</span></li>
                             @endforeach
                         </ul>
                     </section>
@@ -105,8 +107,8 @@
                         <dl class="mt-4 grid gap-x-8 gap-y-4 sm:grid-cols-2">
                             @foreach ($module->glossary as $entry)
                                 <div>
-                                    <dt class="font-semibold text-ink">{{ $entry['term'] }}</dt>
-                                    <dd class="mt-0.5 font-serif text-ink-soft">{{ $entry['definition'] }}</dd>
+                                    <dt class="font-semibold text-ink">{!! $markdown->inline($entry['term']) !!}</dt>
+                                    <dd class="mt-0.5 font-serif text-ink-soft">{!! $markdown->inline($entry['definition']) !!}</dd>
                                 </div>
                             @endforeach
                         </dl>
