@@ -1,0 +1,1221 @@
+{
+  "exercises": [
+    {
+      "id": "34-001",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Verhuurder B rekent voor een verhuisbusje € 30 per dag plus € 0,45 per gereden kilometer. Je rijdt 120 km. Wat kost de huur volgens het model $K = 30 + 0{,}45a$? Geef het bedrag in euro.",
+      "answer": 84,
+      "tolerance": 0.005,
+      "unit": "€",
+      "hints": [
+        "De variabele $a$ is het aantal kilometers: vul $a = 120$ in.",
+        "Bereken eerst $0{,}45 \\cdot 120$."
+      ],
+      "solution": [
+        "$0{,}45 \\cdot 120 = 54$ euro voor de kilometers.",
+        "$K = 30 + 54 = 84$ euro.",
+        "Eenheden: euro per km maal km is euro; daar tel je euro bij op."
+      ],
+      "feedback": [
+        {
+          "answer": 150,
+          "message": "Je hebt 30 en 120 opgeteld. De 120 is een aantal kilometers; die moet je eerst vermenigvuldigen met de prijs per kilometer (€ 0,45)."
+        },
+        {
+          "answer": 54,
+          "message": "Dit is alleen het kilometerdeel. Het dagtarief van € 30 komt er nog bij."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "linear-functions"
+      ]
+    },
+    {
+      "id": "34-002",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een waterreservoir loopt leeg volgens het model $V = 1400 - 35t$, met $V$ het volume in liter en $t$ de tijd in uren. Geef de betekenis van de parameters en bepaal het geldigheidsgebied.",
+      "parts": [
+        {
+          "label": "beginvolume (liter)",
+          "answer": 1400,
+          "type": "numeric"
+        },
+        {
+          "label": "afname per uur (liter)",
+          "answer": 35,
+          "type": "numeric"
+        },
+        {
+          "label": "na hoeveel uur is het reservoir leeg?",
+          "answer": 40,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Het beginvolume is het volume bij $t = 0$.",
+        "Het reservoir is leeg als $V = 0$: los $1400 - 35t = 0$ op."
+      ],
+      "solution": [
+        "Bij $t = 0$ is $V = 1400$: het beginvolume is 1400 liter.",
+        "Per uur gaat er 35 liter af: de afname is 35 liter per uur.",
+        "$1400 - 35t = 0$ geeft $35t = 1400$, dus $t = 40$ uur.",
+        "Het model geldt dus hooguit voor $0 \\le t \\le 40$; daarna zou het volume negatief worden."
+      ],
+      "topics": [
+        "modelling",
+        "linear-functions"
+      ]
+    },
+    {
+      "id": "34-003",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een auto rijdt 90 km/h. Hoeveel meter per seconde is dat?",
+      "answer": 25,
+      "unit": "m/s",
+      "hints": [
+        "1 km = 1000 m en 1 uur = 3600 s.",
+        "Van km/h naar m/s deel je door 3,6."
+      ],
+      "solution": [
+        "$90 \\text{ km/h} = \\dfrac{90\\,000 \\text{ m}}{3600 \\text{ s}}$",
+        "$= 90 : 3{,}6 = 25$ m/s."
+      ],
+      "feedback": [
+        {
+          "answer": 324,
+          "message": "Je hebt met 3,6 vermenigvuldigd. Een meter per seconde is sneller dan een kilometer per uur, dus het getal in m/s is kleiner: deel door 3,6."
+        },
+        {
+          "answer": 1500,
+          "message": "Je hebt alleen door 60 gedeeld en de kilometers in meters omgerekend. Een uur heeft 3600 seconden, niet 60."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "unit-conversion",
+        "speed"
+      ]
+    },
+    {
+      "id": "34-004",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een steen valt van een brug van 45 m hoog. De valtijd is (zonder luchtweerstand) $t = \\sqrt{2h/g}$ met $g = 9{,}81$ m/s². Bereken de valtijd in seconden, afgerond op één decimaal.",
+      "answer": 3.0,
+      "tolerance": 0.05,
+      "unit": "s",
+      "hints": [
+        "Vul $h = 45$ en $g = 9{,}81$ in: $t = \\sqrt{90 / 9{,}81}$.",
+        "Bereken eerst het quotiënt, dan de wortel."
+      ],
+      "solution": [
+        "$2h/g = 90 / 9{,}81 \\approx 9{,}17$ (eenheid s²).",
+        "$t = \\sqrt{9{,}17} \\approx 3{,}03$ s.",
+        "Afgerond: 3,0 s."
+      ],
+      "feedback": [
+        {
+          "answer": 9.5,
+          "message": "Je hebt $\\sqrt{2h} = \\sqrt{90}$ berekend en $g$ vergeten. Controleer de eenheden: $\\sqrt{\\text{m}}$ is geen tijd."
+        },
+        {
+          "answer": 9.2,
+          "message": "Je bent de wortel vergeten. 9,17 is de waarde in s²; neem nog de wortel."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "roots"
+      ]
+    },
+    {
+      "id": "34-005",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De snelheid $v$ (in m/s) van golven op diep water hangt af van de valversnelling $g$ (m/s²) en de golflengte $\\lambda$ (m). Stel $v = k \\cdot g^p \\cdot \\lambda^q$ met $k$ een getal zonder eenheid. Bepaal met dimensieanalyse $p$ en $q$ (als breuk of kommagetal).",
+      "parts": [
+        {
+          "label": "p",
+          "answer": "1/2",
+          "type": "fraction",
+          "allow_decimal": true
+        },
+        {
+          "label": "q",
+          "answer": "1/2",
+          "type": "fraction",
+          "allow_decimal": true
+        }
+      ],
+      "hints": [
+        "Schrijf de eenheid van de rechterkant: $(\\text{m}\\cdot\\text{s}^{-2})^p \\cdot \\text{m}^q = \\text{m}^{p+q}\\cdot\\text{s}^{-2p}$.",
+        "De linkerkant is $\\text{m}^1 \\cdot \\text{s}^{-1}$. Stel de exponenten van m en van s gelijk."
+      ],
+      "solution": [
+        "Rechts: $\\text{m}^{p+q}\\cdot\\text{s}^{-2p}$. Links: $\\text{m}^{1}\\cdot\\text{s}^{-1}$.",
+        "Seconden: $-2p = -1$, dus $p = \\tfrac12$.",
+        "Meters: $p + q = 1$, dus $q = \\tfrac12$.",
+        "Dus $v = k\\sqrt{g\\lambda}$: een vier keer zo lange golf gaat twee keer zo snel."
+      ],
+      "topics": [
+        "modelling",
+        "powers"
+      ]
+    },
+    {
+      "id": "34-006",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een meting levert bij $x = 0, 1, 2, 3, 4$ de waarden $5, 10, 20, 40, 80$. Bepaal het modeltype en voorspel de waarde bij $x = 6$.",
+      "parts": [
+        {
+          "label": "constante factor per stap",
+          "answer": 2,
+          "type": "numeric"
+        },
+        {
+          "label": "voorspelling bij x = 6",
+          "answer": 320,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Bereken de verschillen en de quotiënten van opeenvolgende waarden. Welke zijn constant?",
+        "Het model is $y = 5 \\cdot g^x$."
+      ],
+      "solution": [
+        "Verschillen: 5, 10, 20, 40: niet constant.",
+        "Quotiënten: 10/5 = 2, 20/10 = 2, ...: constant. Dus exponentieel met factor 2.",
+        "Model: $y = 5 \\cdot 2^x$.",
+        "Bij $x = 6$: $5 \\cdot 2^6 = 5 \\cdot 64 = 320$."
+      ],
+      "topics": [
+        "modelling",
+        "exponential"
+      ]
+    },
+    {
+      "id": "34-007",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bij een proef wordt op $x = 0, 1, 2, 3$ seconden de afstand van een rollende kogel tot een meetpunt gemeten: $2, 5, 12, 23$ cm. Bepaal het passende modeltype en voorspel de afstand bij $x = 5$.",
+      "answer": 57,
+      "unit": "cm",
+      "hints": [
+        "Bereken de eerste verschillen en daarna de tweede verschillen.",
+        "Tweede verschil 4 betekent $a = 2$ in $y = ax^2 + bx + c$. Of: trek de rij van verschillen gewoon door."
+      ],
+      "solution": [
+        "Eerste verschillen: 3, 7, 11. Tweede verschillen: 4, 4. Constant, dus kwadratisch.",
+        "$c = 2$ (waarde bij 0), $a = 4/2 = 2$, en $2 + b + 2 = 5$ geeft $b = 1$: $y = 2x^2 + x + 2$.",
+        "Bij $x = 5$: $2 \\cdot 25 + 5 + 2 = 57$ cm.",
+        "Controle door doortrekken: de verschillen worden 15 en 19, dus 23 + 15 = 38 en 38 + 19 = 57."
+      ],
+      "feedback": [
+        {
+          "answer": 45,
+          "message": "Je hebt het laatste verschil (11) steeds opnieuw opgeteld: dat is lineair doortrekken. Bij een kwadratisch verband nemen de verschillen zelf elke stap met 4 toe."
+        },
+        {
+          "answer": 38,
+          "message": "Dat is de waarde bij $x = 4$. Ga nog één stap verder."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "34-008",
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een plant is na 2 weken 8,2 cm hoog en na 6 weken 18,2 cm. Neem aan dat de groei lineair is. Geef de hoogte $y$ (in cm) als formule in het aantal weken $x$.",
+      "answer": "2.5x + 3.2",
+      "hints": [
+        "Helling: $a = \\dfrac{18{,}2 - 8{,}2}{6 - 2}$.",
+        "Startwaarde: $b = 8{,}2 - a \\cdot 2$."
+      ],
+      "solution": [
+        "$a = \\dfrac{10}{4} = 2{,}5$ cm per week.",
+        "$b = 8{,}2 - 2{,}5 \\cdot 2 = 3{,}2$ cm.",
+        "Model: $y = 2{,}5x + 3{,}2$.",
+        "Controle: $2{,}5 \\cdot 6 + 3{,}2 = 18{,}2$. Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": "2.5x",
+          "message": "De helling klopt, maar je bent de startwaarde vergeten. Bij $x = 2$ geeft jouw formule 5 in plaats van 8,2."
+        },
+        {
+          "answer": "0.4x + 7.4",
+          "message": "Je hebt de helling omgekeerd berekend (verschil in $x$ gedeeld door verschil in $y$). De helling is toename van $y$ per eenheid $x$."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "linear-functions"
+      ]
+    },
+    {
+      "id": "34-009",
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een machine kost nieuw € 50.000 en is na 2 jaar € 32.000 waard. Neem aan dat de waarde elk jaar met hetzelfde percentage daalt. Geef de waarde $W$ (in euro) als formule in de tijd $t$ (in jaren).",
+      "answer": "50000*0.8^t",
+      "hints": [
+        "Het model is $W = 50\\,000 \\cdot g^t$. Na 2 jaar is de waarde met $g^2$ vermenigvuldigd.",
+        "$g^2 = 32\\,000 / 50\\,000 = 0{,}64$."
+      ],
+      "solution": [
+        "$g^2 = \\dfrac{32\\,000}{50\\,000} = 0{,}64$.",
+        "$g = \\sqrt{0{,}64} = 0{,}8$: elk jaar 20% minder waard.",
+        "Model: $W = 50\\,000 \\cdot 0{,}8^t$.",
+        "Controle: $50\\,000 \\cdot 0{,}64 = 32\\,000$. Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": "50000*0.64^t",
+          "message": "0,64 is de factor voor twee jaar samen. Per jaar is de factor de wortel daarvan."
+        },
+        {
+          "answer": "50000 - 9000t",
+          "message": "Dit is een lineair model (elk jaar € 9.000 minder). De vraag zegt dat het percentage gelijk blijft: dan is het exponentieel."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "exponential"
+      ]
+    },
+    {
+      "id": "34-010",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een voorwerp valt vanuit stilstand. Na 2 s is het 19,6 m gevallen. Neem als model $s = k t^2$ (de valafstand is evenredig met het kwadraat van de tijd). Hoeveel meter is het na 3,5 s gevallen? Rond af op één decimaal.",
+      "answer": 60.0,
+      "tolerance": 0.05,
+      "unit": "m",
+      "hints": [
+        "Bepaal $k$ uit het gegeven punt: $19{,}6 = k \\cdot 2^2$.",
+        "Vul daarna $t = 3{,}5$ in: $3{,}5^2 = 12{,}25$."
+      ],
+      "solution": [
+        "$k = 19{,}6 / 4 = 4{,}9$ m/s².",
+        "$s = 4{,}9 \\cdot 3{,}5^2 = 4{,}9 \\cdot 12{,}25 = 60{,}025$ m.",
+        "Afgerond: 60,0 m."
+      ],
+      "feedback": [
+        {
+          "answer": 34.3,
+          "message": "Je hebt lineair gerekend (19,6 : 2 × 3,5). De valafstand groeit kwadratisch met de tijd."
+        },
+        {
+          "answer": 17.2,
+          "message": "Je hebt $k = 4{,}9$ maal $3{,}5$ genomen in plaats van maal $3{,}5^2$."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "34-011",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een computer geeft bij een reeks metingen de regressielijn $y = 1{,}8x + 4{,}1$. Bij $x = 7$ werd $y = 15{,}9$ gemeten. Wat voorspelt het model bij $x = 7$, en wat is het residu van deze meting?",
+      "parts": [
+        {
+          "label": "voorspelling",
+          "answer": 16.7,
+          "type": "decimal",
+          "tolerance": 0.005
+        },
+        {
+          "label": "residu",
+          "answer": -0.8,
+          "type": "decimal",
+          "tolerance": 0.005
+        }
+      ],
+      "hints": [
+        "Vul $x = 7$ in de regressielijn in.",
+        "Residu = meting − model."
+      ],
+      "solution": [
+        "Voorspelling: $1{,}8 \\cdot 7 + 4{,}1 = 12{,}6 + 4{,}1 = 16{,}7$.",
+        "Residu: $15{,}9 - 16{,}7 = -0{,}8$.",
+        "Het residu is negatief: de meting ligt onder de lijn."
+      ],
+      "topics": [
+        "modelling",
+        "regression",
+        "linear-functions"
+      ]
+    },
+    {
+      "id": "34-012",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een taxi rekent € 4,00 instaptarief en € 2,40 per kilometer. Wat kost een rit van 12,5 km?",
+      "answer": 34.0,
+      "tolerance": 0.005,
+      "unit": "€",
+      "hints": [
+        "Model: $K = 4{,}00 + 2{,}40x$.",
+        "$2{,}40 \\cdot 12{,}5 = 30$."
+      ],
+      "solution": [
+        "Kilometerdeel: $2{,}40 \\cdot 12{,}5 = 30{,}00$ euro.",
+        "$K = 4{,}00 + 30{,}00 = 34{,}00$ euro."
+      ],
+      "feedback": [
+        {
+          "answer": 30,
+          "message": "Dit is alleen het kilometerdeel. Het instaptarief van € 4,00 komt er één keer bij."
+        },
+        {
+          "answer": 80,
+          "message": "Je hebt $(4{,}00 + 2{,}40) \\cdot 12{,}5$ berekend. Het instaptarief betaal je maar één keer, niet per kilometer."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "money"
+      ]
+    },
+    {
+      "id": "34-013",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bij dezelfde taxi (€ 4,00 instap, € 2,40 per km) kostte een rit € 31,60. Hoe lang was de rit in kilometers?",
+      "answer": 11.5,
+      "tolerance": 0.05,
+      "unit": "km",
+      "hints": [
+        "Los op: $4{,}00 + 2{,}40x = 31{,}60$.",
+        "Trek eerst het instaptarief af."
+      ],
+      "solution": [
+        "$2{,}40x = 31{,}60 - 4{,}00 = 27{,}60$.",
+        "$x = 27{,}60 : 2{,}40 = 11{,}5$ km."
+      ],
+      "feedback": [
+        {
+          "answer": 13.17,
+          "message": "Je hebt het hele bedrag door 2,40 gedeeld. Trek eerst het instaptarief van € 4,00 af; dat hoort niet bij de kilometers."
+        },
+        {
+          "answer": 14.83,
+          "message": "Je hebt het instaptarief opgeteld in plaats van afgetrokken."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "equations"
+      ]
+    },
+    {
+      "id": "34-014",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een ander taxibedrijf rekent € 4,00 instaptarief, € 2,40 per kilometer én € 0,40 per minuut. Een rit is 8 km lang en duurt 15 minuten. Wat kost de rit?",
+      "answer": 29.2,
+      "tolerance": 0.005,
+      "unit": "€",
+      "hints": [
+        "Model: $K = 4{,}00 + 2{,}40x + 0{,}40m$, met $x$ in km en $m$ in minuten.",
+        "Bereken het kilometerdeel en het minutendeel apart."
+      ],
+      "solution": [
+        "Kilometers: $2{,}40 \\cdot 8 = 19{,}20$ euro.",
+        "Minuten: $0{,}40 \\cdot 15 = 6{,}00$ euro.",
+        "Totaal: $4{,}00 + 19{,}20 + 6{,}00 = 29{,}20$ euro."
+      ],
+      "feedback": [
+        {
+          "answer": 23.2,
+          "message": "Je bent het minutentarief vergeten: 15 minuten à € 0,40 is € 6,00 extra."
+        },
+        {
+          "answer": 25.2,
+          "message": "Je bent het instaptarief vergeten."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "money"
+      ]
+    },
+    {
+      "id": "34-015",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een auto rijdt 72 km/h. De reactietijd is 1 s en de remvertraging 8 m/s². Bereken de stopafstand met $s = v \\cdot t_r + \\dfrac{v^2}{2a}$, in meter.",
+      "answer": 45,
+      "unit": "m",
+      "hints": [
+        "Reken eerst 72 km/h om naar m/s (delen door 3,6).",
+        "Reactieafstand $v \\cdot 1$, remafstand $v^2 / 16$."
+      ],
+      "solution": [
+        "$v = 72 : 3{,}6 = 20$ m/s.",
+        "Reactieafstand: $20 \\cdot 1 = 20$ m.",
+        "Remafstand: $20^2 / (2 \\cdot 8) = 400 / 16 = 25$ m.",
+        "Stopafstand: $20 + 25 = 45$ m."
+      ],
+      "feedback": [
+        {
+          "answer": 396,
+          "message": "Je hebt 72 km/h direct ingevuld. De formule werkt met meters en seconden: reken eerst om naar 20 m/s."
+        },
+        {
+          "answer": 25,
+          "message": "Dit is alleen de remafstand. De reactieafstand (20 m) komt erbij."
+        },
+        {
+          "answer": 20,
+          "message": "Dit is alleen de reactieafstand. De remafstand komt erbij."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "quadratic-functions",
+        "speed"
+      ]
+    },
+    {
+      "id": "34-016",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bij 50 km/h is de remafstand van een auto 12 m. Neem aan dat de remafstand evenredig is met het kwadraat van de snelheid: $s = k v^2$ (met $v$ in km/h). Bereken de remafstand bij 80 km/h, afgerond op één decimaal.",
+      "answer": 30.7,
+      "tolerance": 0.05,
+      "unit": "m",
+      "hints": [
+        "$k = 12 / 50^2$.",
+        "Of: de snelheid wordt $80/50 = 1{,}6$ keer zo groot, de remafstand dus $1{,}6^2$ keer zo groot."
+      ],
+      "solution": [
+        "$k = 12 / 2500 = 0{,}0048$.",
+        "$s = 0{,}0048 \\cdot 80^2 = 0{,}0048 \\cdot 6400 = 30{,}72$ m.",
+        "Controle: $12 \\cdot 1{,}6^2 = 12 \\cdot 2{,}56 = 30{,}72$.",
+        "Afgerond: 30,7 m."
+      ],
+      "feedback": [
+        {
+          "answer": 19.2,
+          "message": "Je hebt de remafstand recht evenredig met de snelheid genomen (12 × 1,6). Volgens het model hangt hij af van het kwadraat van de snelheid."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "quadratic-functions",
+        "proportions"
+      ]
+    },
+    {
+      "id": "34-017",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Volgens het remwegmodel $\\dfrac{v^2}{2a}$ (bij gelijke remvertraging): hoeveel keer zo groot wordt de remafstand als de snelheid drie keer zo groot wordt?",
+      "answer": 9,
+      "hints": [
+        "Vervang $v$ door $3v$ in $v^2/(2a)$.",
+        "$(3v)^2 = 9v^2$."
+      ],
+      "solution": [
+        "Nieuwe remafstand: $\\dfrac{(3v)^2}{2a} = \\dfrac{9v^2}{2a}$.",
+        "Dat is 9 keer de oude remafstand."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Dat zou kloppen als de remafstand lineair van de snelheid afhing. Het verband is kwadratisch: $3^2 = 9$."
+        },
+        {
+          "answer": 6,
+          "message": "Je hebt met 2 vermenigvuldigd in plaats van gekwadrateerd. $3^2 = 9$, niet $2 \\cdot 3$."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "34-018",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een patiënt krijgt 1000 mg van een medicijn met een halveringstijd van 2 uur. Hoeveel mg is er na 6 uur nog over (volgens een exponentieel model)?",
+      "answer": 125,
+      "unit": "mg",
+      "hints": [
+        "Hoeveel halveringstijden passen er in 6 uur?",
+        "Halveer 1000 drie keer."
+      ],
+      "solution": [
+        "6 uur is $6 / 2 = 3$ halveringstijden.",
+        "$1000 \\to 500 \\to 250 \\to 125$ mg.",
+        "Ofwel $1000 \\cdot 0{,}5^3 = 125$ mg."
+      ],
+      "feedback": [
+        {
+          "answer": 250,
+          "message": "Je hebt twee keer gehalveerd. In 6 uur passen drie halveringstijden van 2 uur."
+        },
+        {
+          "answer": 0,
+          "message": "Je hebt misschien lineair gerekend (elke 2 uur 500 mg eraf). Bij exponentieel verval gaat er elke 2 uur de helft af van wat er dan nog is."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "exponential"
+      ]
+    },
+    {
+      "id": "34-019",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Hetzelfde medicijn: 1000 mg, halveringstijd 2 uur. Na hoeveel uur is er voor het eerst minder dan 100 mg over? Rond af op één decimaal.",
+      "answer": 6.6,
+      "tolerance": 0.05,
+      "unit": "uur",
+      "hints": [
+        "Los op: $1000 \\cdot 0{,}5^{t/2} = 100$, dus $0{,}5^{t/2} = 0{,}1$.",
+        "Gebruik een logaritme: $t/2 = \\dfrac{\\log 0{,}1}{\\log 0{,}5}$."
+      ],
+      "solution": [
+        "$0{,}5^{t/2} = 0{,}1$.",
+        "$\\dfrac{t}{2} = \\dfrac{\\log 0{,}1}{\\log 0{,}5} = \\dfrac{-1}{-0{,}30103} \\approx 3{,}32$.",
+        "$t \\approx 6{,}64$ uur, afgerond 6,6 uur.",
+        "Controle: na 6 uur is er 125 mg, na 8 uur 62,5 mg; 6,6 ligt daar mooi tussen, dichter bij 6."
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Je hebt gerekend alsof vijf halveringen een factor 10 geven. Vijf halveringen geven een factor 32. Gebruik een logaritme."
+        },
+        {
+          "answer": 3.3,
+          "message": "Dit is het aantal halveringstijden. Vermenigvuldig nog met 2 uur per halveringstijd."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "exponential",
+        "logarithms"
+      ]
+    },
+    {
+      "id": "34-020",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Gebruik het daglengtemodel $D(t) = 12{,}2 + 4{,}6 \\sin\\!\\left(\\dfrac{2\\pi}{365}(t - 80)\\right)$ (uren, $t$ = dagnummer). Bereken de daglengte op 21 april, dag $t = 111$. Rond af op één decimaal.",
+      "answer": 14.5,
+      "tolerance": 0.05,
+      "unit": "uur",
+      "hints": [
+        "$t - 80 = 31$. Bereken $\\dfrac{2\\pi \\cdot 31}{365}$.",
+        "Zet je rekenmachine op radialen."
+      ],
+      "solution": [
+        "$\\dfrac{2\\pi \\cdot 31}{365} \\approx 0{,}5336$ (radialen).",
+        "$\\sin(0{,}5336) \\approx 0{,}509$.",
+        "$D \\approx 12{,}2 + 4{,}6 \\cdot 0{,}509 \\approx 12{,}2 + 2{,}34 = 14{,}54$.",
+        "Afgerond: 14,5 uur."
+      ],
+      "feedback": [
+        {
+          "answer": 12.2,
+          "message": "Je rekenmachine stond waarschijnlijk op graden: dan is de sinus van 0,53 bijna 0. Zet hem op radialen."
+        },
+        {
+          "answer": 16.8,
+          "message": "Dit is de maximale daglengte. Op 21 april is de sinus nog niet 1."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "34-021",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In een stad is de langste dag 16,8 uur en de kortste dag 7,7 uur. Bepaal de parameters van een sinusmodel $D(t) = d + A\\sin\\left(\\frac{2\\pi}{P}(t - c)\\right)$ voor de daglengte (in uren; $t$ in dagen).",
+      "parts": [
+        {
+          "label": "evenwichtsstand d (uur)",
+          "answer": 12.25,
+          "type": "decimal",
+          "tolerance": 0.005
+        },
+        {
+          "label": "amplitude A (uur)",
+          "answer": 4.55,
+          "type": "decimal",
+          "tolerance": 0.005
+        },
+        {
+          "label": "periode P (dagen)",
+          "answer": 365,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "De evenwichtsstand ligt midden tussen maximum en minimum.",
+        "De amplitude is de halve afstand tussen maximum en minimum."
+      ],
+      "solution": [
+        "$d = (16{,}8 + 7{,}7)/2 = 24{,}5/2 = 12{,}25$ uur.",
+        "$A = (16{,}8 - 7{,}7)/2 = 9{,}1/2 = 4{,}55$ uur.",
+        "De cyclus herhaalt zich elk jaar: $P = 365$ dagen."
+      ],
+      "topics": [
+        "modelling",
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "34-022",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bij het begin van een uitbraak worden 40 besmettingen geteld. Het aantal verdubbelt elke 3 dagen. Hoeveel besmettingen voorspelt een exponentieel model na 15 dagen?",
+      "answer": 1280,
+      "hints": [
+        "Hoeveel verdubbelingstijden passen er in 15 dagen?",
+        "$40 \\cdot 2^5$."
+      ],
+      "solution": [
+        "15 dagen = $15/3 = 5$ verdubbelingen.",
+        "$40 \\cdot 2^5 = 40 \\cdot 32 = 1280$."
+      ],
+      "feedback": [
+        {
+          "answer": 200,
+          "message": "Je hebt 40 met 5 vermenigvuldigd. Vijf verdubbelingen betekent vermenigvuldigen met $2^5 = 32$."
+        },
+        {
+          "answer": 400,
+          "message": "Je hebt elke verdubbeling als +40 gerekend (lineair). Bij verdubbelen komt er steeds evenveel bij als er al is."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "exponential"
+      ]
+    },
+    {
+      "id": "34-023",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een epidemie volgt een logistisch model met draagkracht $K = 12.000$ (het maximale aantal mensen dat besmet raakt). Bij hoeveel besmette mensen is de groei per dag het grootst?",
+      "answer": 6000,
+      "hints": [
+        "De S-kromme is het steilst in het buigpunt.",
+        "Het buigpunt van een logistische kromme ligt op de helft van de draagkracht."
+      ],
+      "solution": [
+        "Bij logistische groei is de groei per tijdseenheid maximaal bij $N = K/2$.",
+        "$12\\,000 / 2 = 6000$ besmettingen.",
+        "Daarna neemt de groei per dag af, al blijft het aantal nog stijgen."
+      ],
+      "feedback": [
+        {
+          "answer": 12000,
+          "message": "Bij de draagkracht zelf is de groei juist (bijna) nul: de kromme loopt daar vlak. De groei is het grootst halverwege."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "exponential"
+      ]
+    },
+    {
+      "id": "34-024",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een baby is bij de geboorte 50 cm lang en na één jaar 75 cm. Iemand maakt daarvan het lineaire model $L = 50 + 25t$ ($L$ in cm, $t$ in jaren). Welke lengte voorspelt dit model op 30-jarige leeftijd? (Het gaat erom te zien wat extrapolatie doet.)",
+      "answer": 800,
+      "unit": "cm",
+      "hints": [
+        "Vul $t = 30$ in.",
+        "$25 \\cdot 30 = 750$."
+      ],
+      "solution": [
+        "$L = 50 + 25 \\cdot 30 = 50 + 750 = 800$ cm.",
+        "Acht meter: het model is ver buiten zijn geldigheidsgebied gebruikt. De groei van het eerste jaar houdt niet aan."
+      ],
+      "feedback": [
+        {
+          "answer": 750,
+          "message": "Je bent de geboortelengte van 50 cm vergeten."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "linear-functions"
+      ]
+    },
+    {
+      "id": "34-025",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een model $y = 2x + 3$ wordt getoetst op vier metingen: $(1;\\ 5{,}1)$, $(2;\\ 7{,}2)$, $(3;\\ 8{,}8)$ en $(4;\\ 11{,}1)$. Bereken de gemiddelde absolute afwijking van de residuen. Rond af op twee decimalen.",
+      "answer": 0.15,
+      "tolerance": 0.005,
+      "hints": [
+        "Bereken eerst de modelwaarden: 5, 7, 9, 11.",
+        "Residuen: meting − model. Neem de absolute waarden en middel die."
+      ],
+      "solution": [
+        "Modelwaarden: 5, 7, 9, 11.",
+        "Residuen: $0{,}1;\\ 0{,}2;\\ -0{,}2;\\ 0{,}1$.",
+        "Absolute waarden: $0{,}1 + 0{,}2 + 0{,}2 + 0{,}1 = 0{,}6$.",
+        "Gemiddelde: $0{,}6 / 4 = 0{,}15$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.05,
+          "message": "Je hebt het gemiddelde van de residuen mét teken genomen. Positieve en negatieve afwijkingen heffen elkaar dan op; neem de absolute waarden."
+        },
+        {
+          "answer": 0.6,
+          "message": "Dit is de som van de absolute afwijkingen. Deel nog door het aantal metingen (4)."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "regression"
+      ]
+    },
+    {
+      "id": "34-026",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Malthus nam aan dat een ongeremde bevolking elke 25 jaar verdubbelt. De Verenigde Staten hadden in 1800 ongeveer 5,3 miljoen inwoners. (a) Wat voorspelt dit model voor 2000, in miljoenen, afgerond op een geheel getal? (b) Bij de volkstelling van 2000 telde men 281,4 miljoen inwoners. Hoeveel keer zo groot is de modelvoorspelling, afgerond op één decimaal?",
+      "parts": [
+        {
+          "label": "(a) model 2000 (miljoen)",
+          "answer": 1357,
+          "type": "numeric"
+        },
+        {
+          "label": "(b) model : werkelijk",
+          "answer": 4.8,
+          "type": "decimal",
+          "tolerance": 0.05
+        }
+      ],
+      "hints": [
+        "Van 1800 tot 2000 is 200 jaar: hoeveel verdubbelingen zijn dat?",
+        "$2^8 = 256$."
+      ],
+      "solution": [
+        "200 jaar = $200/25 = 8$ verdubbelingen.",
+        "$5{,}3 \\cdot 2^8 = 5{,}3 \\cdot 256 = 1356{,}8 \\approx 1357$ miljoen.",
+        "$1356{,}8 / 281{,}4 \\approx 4{,}82$, afgerond 4,8.",
+        "Het model overschat bijna een factor 5: de aanname van ongeremde verdubbeling hield geen twee eeuwen stand."
+      ],
+      "topics": [
+        "modelling",
+        "exponential"
+      ]
+    },
+    {
+      "id": "34-027",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een student fit op gegevens over de jaren 2015–2022 zowel een lineair als een exponentieel model voor het aantal elektrische auto's in een gemeente. Beide hebben kleine residuen. Hij kiest het model met de kleinste residuen en voorspelt daarmee het aantal in 2040. Leg uit wat er aan deze werkwijze schort en hoe het beter kan.",
+      "answer": "Kleine residuen binnen 2015–2022 zeggen weinig over 2040 (ver extrapoleren); beide modellen lopen daarbuiten sterk uiteen; kies op grond van het mechanisme (verzadiging: aantal auto's is begrensd, dus eerder logistisch), valideer met achtergehouden of nieuwe gegevens en geef het geldigheidsgebied en de onzekerheid aan.",
+      "hints": [
+        "Waar liggen de gegevens, en waar ligt 2040?",
+        "Wat weet je over het mechanisme: kan het aantal elektrische auto's onbeperkt groeien?"
+      ],
+      "solution": [
+        "Het probleem is extrapolatie: 2040 ligt achttien jaar buiten het gebied van de gegevens. Twee modellen die binnen 2015–2022 bijna even goed passen, kunnen in 2040 enorm verschillen.",
+        "Het kleinste verschil in residuen is dus geen goed argument. Beter is een argument uit het mechanisme: het aantal auto's in een gemeente is begrensd (verzadiging), dus een logistisch model ligt meer voor de hand dan onbegrensde exponentiële groei.",
+        "Valideer het model door bijvoorbeeld de jaren 2021–2022 achter te houden en te kijken hoe goed een model op basis van 2015–2020 die jaren voorspelt.",
+        "Rapporteer de voorspelling voor 2040 met een duidelijke waarschuwing over de onzekerheid, of geef scenario's in plaats van één getal."
+      ],
+      "topics": [
+        "modelling"
+      ]
+    },
+    {
+      "id": "34-028",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Fermi-schatting: Amsterdam heeft ongeveer 900.000 inwoners. Neem aan dat iemand gemiddeld 120 liter drinkwater per dag gebruikt (douchen, toilet, wassen, koken). Hoeveel kubieke meter drinkwater gebruiken de inwoners samen per dag? (1 m³ = 1000 liter.)",
+      "answer": 108000,
+      "unit": "m³",
+      "hints": [
+        "Bereken eerst het totaal in liters.",
+        "Deel door 1000 om liters om te rekenen naar m³."
+      ],
+      "solution": [
+        "$900\\,000 \\cdot 120 = 108\\,000\\,000$ liter per dag.",
+        "$108\\,000\\,000 : 1000 = 108\\,000$ m³ per dag.",
+        "Orde van grootte: ruim honderdduizend kubieke meter per dag, de inhoud van zo'n veertig olympische zwembaden."
+      ],
+      "feedback": [
+        {
+          "answer": 108000000,
+          "message": "Dit is het aantal liters. De vraag is in kubieke meters: deel nog door 1000."
+        },
+        {
+          "answer": 108,
+          "message": "Je hebt door een miljoen gedeeld. Een kubieke meter is 1000 liter."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "estimation",
+        "volume"
+      ]
+    },
+    {
+      "id": "34-029",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Fermi-schatting: een hart klopt gemiddeld ongeveer 70 keer per minuut. Hoeveel hartslagen zijn dat in een leven van 80 jaar? Geef je antwoord in miljarden, afgerond op één decimaal (gebruik 365 dagen per jaar).",
+      "answer": 2.9,
+      "tolerance": 0.05,
+      "unit": "miljard",
+      "hints": [
+        "Splits op: slagen per minuut × minuten per uur × uren per dag × dagen per jaar × jaren.",
+        "$70 \\cdot 60 \\cdot 24 = 100\\,800$ slagen per dag."
+      ],
+      "solution": [
+        "Per dag: $70 \\cdot 60 \\cdot 24 = 100\\,800$.",
+        "Per jaar: $100\\,800 \\cdot 365 = 36\\,792\\,000$.",
+        "In 80 jaar: $36\\,792\\,000 \\cdot 80 \\approx 2\\,943\\,000\\,000$.",
+        "Dat is ongeveer 2,9 miljard hartslagen."
+      ],
+      "feedback": [
+        {
+          "answer": 0.05,
+          "message": "Je bent de factor 60 (minuten per uur) vergeten."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "estimation",
+        "time"
+      ]
+    },
+    {
+      "id": "34-030",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Mars staat gemiddeld op $a = 1{,}524$ AE van de zon. Bereken met Keplers derde wet $T^2 = a^3$ de omlooptijd van Mars in jaren, afgerond op twee decimalen.",
+      "answer": 1.88,
+      "tolerance": 0.005,
+      "unit": "jaar",
+      "hints": [
+        "$T = \\sqrt{a^3}$.",
+        "$1{,}524^3 \\approx 3{,}540$."
+      ],
+      "solution": [
+        "$a^3 = 1{,}524^3 \\approx 3{,}5396$.",
+        "$T = \\sqrt{3{,}5396} \\approx 1{,}881$ jaar.",
+        "Afgerond: 1,88 jaar (ongeveer 687 dagen)."
+      ],
+      "feedback": [
+        {
+          "answer": 2.32,
+          "message": "Je hebt $a^2$ berekend. Volgens de wet is $T^2 = a^3$, dus $T = \\sqrt{a^3}$."
+        },
+        {
+          "answer": 3.54,
+          "message": "Dit is $a^3 = T^2$. Neem nog de wortel om $T$ te vinden."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "powers",
+        "roots"
+      ]
+    },
+    {
+      "id": "34-031",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Jupiter heeft een omlooptijd van 11,86 jaar. Bereken met $T^2 = a^3$ de gemiddelde afstand $a$ tot de zon in AE, afgerond op twee decimalen.",
+      "answer": 5.2,
+      "tolerance": 0.005,
+      "unit": "AE",
+      "hints": [
+        "$a^3 = T^2 = 11{,}86^2$.",
+        "$a = \\sqrt[3]{T^2} = T^{2/3}$."
+      ],
+      "solution": [
+        "$T^2 = 11{,}86^2 \\approx 140{,}66$.",
+        "$a = \\sqrt[3]{140{,}66} \\approx 5{,}20$ AE.",
+        "Controle: $5{,}2^3 = 140{,}6$. Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": 3.44,
+          "message": "Je hebt $\\sqrt{T}$ berekend. Uit $a^3 = T^2$ volgt $a = T^{2/3}$, de derde-machtswortel uit $T^2$."
+        },
+        {
+          "answer": 2.28,
+          "message": "Je hebt de derde-machtswortel uit $T$ genomen in plaats van uit $T^2$."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "powers",
+        "roots"
+      ]
+    },
+    {
+      "id": "34-032",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een populatie telt op $t = 2$ jaar 144 dieren en op $t = 4$ jaar 207,36 dieren (een modelwaarde). Neem een exponentieel model $N = N_0 \\cdot g^t$. Geef de formule.",
+      "answer": "100*1.2^t",
+      "hints": [
+        "$g^2 = 207{,}36 / 144$.",
+        "$N_0 = 144 / g^2$."
+      ],
+      "solution": [
+        "$g^2 = 207{,}36 / 144 = 1{,}44$, dus $g = 1{,}2$.",
+        "$N_0 \\cdot 1{,}2^2 = 144$ geeft $N_0 = 144 / 1{,}44 = 100$.",
+        "Model: $N = 100 \\cdot 1{,}2^t$.",
+        "Controle: $100 \\cdot 1{,}2^4 = 100 \\cdot 2{,}0736 = 207{,}36$. Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": "144*1.2^t",
+          "message": "De groeifactor klopt, maar 144 is de waarde op $t = 2$, niet op $t = 0$. Reken twee jaar terug: deel door $1{,}2^2$."
+        },
+        {
+          "answer": "100*1.44^t",
+          "message": "1,44 is de factor voor twee jaar. Per jaar is de factor $\\sqrt{1{,}44} = 1{,}2$."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "exponential"
+      ]
+    },
+    {
+      "id": "34-033",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Taxi A rekent € 4,00 instaptarief en € 2,20 per km. Taxi B rekent € 2,50 instaptarief en € 2,50 per km. Bij welke ritlengte (in km) kosten beide even veel? (Bij langere ritten is A goedkoper.)",
+      "answer": 5,
+      "unit": "km",
+      "hints": [
+        "Stel $4{,}00 + 2{,}20x = 2{,}50 + 2{,}50x$.",
+        "Breng de termen met $x$ naar één kant."
+      ],
+      "solution": [
+        "$4{,}00 + 2{,}20x = 2{,}50 + 2{,}50x$.",
+        "$1{,}50 = 0{,}30x$, dus $x = 5$ km.",
+        "Controle: A kost $4 + 11 = 15$ euro, B kost $2{,}50 + 12{,}50 = 15$ euro."
+      ],
+      "feedback": [
+        {
+          "answer": 1.5,
+          "message": "Dit is het verschil in instaptarief. Deel dat nog door het verschil in kilometerprijs (€ 0,30)."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "equations"
+      ]
+    },
+    {
+      "id": "34-034",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een eenvoudig model in de geest van Malthus: een bevolking van 10 miljoen verdubbelt elke 25 jaar. De voedselproductie is nu genoeg voor 20 miljoen mensen en groeit elke 25 jaar met voedsel voor 10 miljoen mensen extra. Na hoeveel jaar is de bevolking voor het eerst groter dan het aantal mensen dat gevoed kan worden?",
+      "answer": 75,
+      "unit": "jaar",
+      "hints": [
+        "Maak een tabel per periode van 25 jaar: bevolking 10, 20, 40, ... en voedsel 20, 30, 40, ...",
+        "Let op het woord 'groter': bij gelijkheid is er nog net genoeg."
+      ],
+      "solution": [
+        "Na $n$ perioden van 25 jaar: bevolking $10 \\cdot 2^n$, voedsel $20 + 10n$ (miljoenen).",
+        "$n = 0$: 10 tegen 20. $n = 1$: 20 tegen 30. $n = 2$: 40 tegen 40 (precies genoeg).",
+        "$n = 3$: 80 tegen 50: de bevolking is groter.",
+        "Dat is na $3 \\cdot 25 = 75$ jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 50,
+          "message": "Na 50 jaar is de bevolking (40 miljoen) precies gelijk aan wat gevoed kan worden, nog niet groter."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "exponential",
+        "linear-functions"
+      ]
+    },
+    {
+      "id": "34-035",
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Uit metingen blijkt: bij $v = 10$ m/s is de stopafstand 18 m, bij $v = 20$ m/s is hij 46 m. Neem het model $s = c \\cdot v + k \\cdot v^2$. Bepaal $c$ en $k$, en daaruit de reactietijd en de remvertraging $a$ (want $k = \\dfrac{1}{2a}$).",
+      "parts": [
+        {
+          "label": "reactietijd c (s)",
+          "answer": 1.3,
+          "type": "decimal",
+          "tolerance": 0.005
+        },
+        {
+          "label": "k (s²/m)",
+          "answer": 0.05,
+          "type": "decimal",
+          "tolerance": 0.0005
+        },
+        {
+          "label": "remvertraging a (m/s²)",
+          "answer": 10,
+          "type": "decimal",
+          "tolerance": 0.05
+        }
+      ],
+      "hints": [
+        "Stel twee vergelijkingen op: $10c + 100k = 18$ en $20c + 400k = 46$.",
+        "Vermenigvuldig de eerste met 2 en trek af: $200k = 10$."
+      ],
+      "solution": [
+        "$10c + 100k = 18$ en $20c + 400k = 46$.",
+        "Eerste maal 2: $20c + 200k = 36$. Aftrekken: $200k = 10$, dus $k = 0{,}05$.",
+        "Invullen: $10c + 5 = 18$, dus $c = 1{,}3$ s.",
+        "$a = \\dfrac{1}{2k} = \\dfrac{1}{0{,}1} = 10$ m/s².",
+        "Interpretatie: reactietijd 1,3 s en een remvertraging van 10 m/s², een sterke rem op een goed wegdek. Controle: $1{,}3 \\cdot 20 + 0{,}05 \\cdot 400 = 26 + 20 = 46$."
+      ],
+      "topics": [
+        "modelling",
+        "quadratic-functions",
+        "systems"
+      ]
+    },
+    {
+      "id": "34-036",
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Reken het dijkmodel van Van Dantzig door met de getallen die de Deltacommissie voor Centraal-Holland gebruikte (in guldens): $A = 1{,}96$ m, $B = 0{,}33$ m, $I = 40{,}1$ miljoen per meter, $D = 24{,}2$ miljard ($= 24\\,200$ miljoen), $r = 0{,}015$. Gebruik $h_{\\text{opt}} = A + B\\ln\\left(\\dfrac{D}{rBI}\\right)$ en $P = \\dfrac{rBI}{D}$. (a) Geef de optimale dijkhoogte in m boven NAP, afgerond op twee decimalen. (b) Eens in hoeveel jaar wordt die hoogte gemiddeld overschreden? Rond af op duizendtallen.",
+      "parts": [
+        {
+          "label": "(a) optimale hoogte (m)",
+          "answer": 5.82,
+          "type": "decimal",
+          "tolerance": 0.01
+        },
+        {
+          "label": "(b) eens in ... jaar",
+          "answer": 122000,
+          "type": "decimal",
+          "tolerance": 600
+        }
+      ],
+      "hints": [
+        "Bereken eerst $rBI = 0{,}015 \\cdot 0{,}33 \\cdot 40{,}1$ (miljoen).",
+        "Dan $D/(rBI)$ en daarvan de natuurlijke logaritme. Eens in ... jaar is $1/P = D/(rBI)$."
+      ],
+      "solution": [
+        "$rBI = 0{,}015 \\cdot 0{,}33 \\cdot 40{,}1 \\approx 0{,}1985$ miljoen gulden per jaar.",
+        "$\\dfrac{D}{rBI} = \\dfrac{24\\,200}{0{,}1985} \\approx 121\\,900$.",
+        "$\\ln(121\\,900) \\approx 11{,}71$, dus $h_{\\text{opt}} = 1{,}96 + 0{,}33 \\cdot 11{,}71 \\approx 5{,}82$ m.",
+        "$P = 1/121\\,900 \\approx 8{,}2 \\cdot 10^{-6}$ per jaar: gemiddeld eens in ongeveer 122.000 jaar.",
+        "De Deltacommissie koos uiteindelijk een norm van 1 op 10.000 per jaar: minder streng dan dit economische optimum, onder meer omdat het model veel onzekerheden bevat."
+      ],
+      "topics": [
+        "modelling",
+        "logarithms",
+        "exponential"
+      ]
+    },
+    {
+      "id": "34-037",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een nieuw virus begint met 1 besmetting en het aantal besmettingen verdubbelt elke 3 dagen. Na hoeveel dagen zou een zuiver exponentieel model voor het eerst meer besmettingen voorspellen dan de hele Nederlandse bevolking (reken met 18 miljoen)? Tel in hele verdubbelingen.",
+      "answer": 75,
+      "unit": "dagen",
+      "hints": [
+        "Zoek de kleinste $n$ met $2^n > 18\\,000\\,000$.",
+        "$2^{10} = 1024 \\approx 10^3$, dus $2^{20} \\approx 10^6$."
+      ],
+      "solution": [
+        "$2^{24} = 16\\,777\\,216$: nog minder dan 18 miljoen.",
+        "$2^{25} = 33\\,554\\,432$: meer dan 18 miljoen.",
+        "Dus 25 verdubbelingen: $25 \\cdot 3 = 75$ dagen.",
+        "Binnen tweeënhalve maand zou iedereen besmet zijn. Lang daarvoor moet de groei afremmen, omdat er steeds minder vatbare mensen zijn: het model moet overgaan in een logistisch model."
+      ],
+      "feedback": [
+        {
+          "answer": 72,
+          "message": "$2^{24} \\approx 16{,}8$ miljoen is nog minder dan 18 miljoen. Er is één verdubbeling meer nodig."
+        },
+        {
+          "answer": 25,
+          "message": "Dit is het aantal verdubbelingen. Elke verdubbeling duurt 3 dagen."
+        }
+      ],
+      "topics": [
+        "modelling",
+        "exponential",
+        "estimation"
+      ]
+    }
+  ]
+}

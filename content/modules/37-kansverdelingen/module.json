@@ -4,10 +4,10 @@
   "title": "Kansverdelingen",
   "part": 7,
   "level": "wo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "18e–19e eeuw",
   "estimated_difficulty": 5,
-  "estimated_minutes": 90,
+  "estimated_minutes": 180,
   "prerequisites": [
     36
   ],
@@ -15,12 +15,111 @@
     "distributions",
     "random-variables"
   ],
-  "core_question": null,
-  "summary": "De Moivre en Gauss.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Wanneer kun je veel verschillende onzekere processen met dezelfde verdelingsvorm beschrijven?",
+  "summary": "De binomiale en normale verdeling, standaardiseren met z-scores, cumulatieve kansen en de voorwaarden voor een normale benadering.",
+  "learning_goals": [
+    "Je controleert de voorwaarden van een binomiaal model.",
+    "Je berekent exacte, cumulatieve en complementaire binomiale kansen.",
+    "Je berekent verwachting en spreiding van een binomiale variabele.",
+    "Je standaardiseert normale variabelen en gebruikt een tabel of widget om kansen te bepalen.",
+    "Je past de normale benadering met continuïteitscorrectie alleen onder geschikte voorwaarden toe."
+  ],
+  "glossary": [
+    {
+      "term": "Binomiale verdeling",
+      "definition": "De verdeling van het aantal successen in n onafhankelijke proeven met dezelfde succeskans p."
+    },
+    {
+      "term": "Normale verdeling",
+      "definition": "Een continue, symmetrische klokvormige verdeling met gemiddelde μ en standaardafwijking σ."
+    },
+    {
+      "term": "Standaardnormalisatie",
+      "definition": "Omrekening Z=(X−μ)/σ waardoor een normale variabele gemiddelde 0 en standaardafwijking 1 krijgt."
+    },
+    {
+      "term": "Cumulatieve kans",
+      "definition": "De kans op een waarde tot en met een gegeven grens."
+    },
+    {
+      "term": "Continuïteitscorrectie",
+      "definition": "Een verschuiving met 0,5 bij het benaderen van gehele aantallen met een continue normale verdeling."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Binomiale kans",
+      "latex": "P(X=k)=\\binom nk p^k(1-p)^{n-k}",
+      "usage": "Voor X∼Bin(n,p); k is een geheel getal van 0 tot n."
+    },
+    {
+      "name": "Binomiale verwachting en variantie",
+      "latex": "E(X)=np,\\quad\\operatorname{Var}(X)=np(1-p)",
+      "usage": "De standaardafwijking is de wortel van de variantie."
+    },
+    {
+      "name": "Standaardiseren",
+      "latex": "Z=\\frac{X-\\mu}{\\sigma}",
+      "usage": "Bij X normaal verdeeld en σ>0 is Z standaardnormaal."
+    },
+    {
+      "name": "Normale dichtheid",
+      "latex": "f(x)=\\frac{1}{\\sigma\\sqrt{2\\pi}}\\exp\\!\\left(-\\frac{(x-\\mu)^2}{2\\sigma^2}\\right)",
+      "usage": "Kansen zijn oppervlakten; de hoogte is geen kans."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Waarom bestaat deze wiskunde?",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "theorie-a",
+      "title": "Successen tellen: de binomiale verdeling",
+      "file": "02-theorie-a.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "theorie-b",
+      "title": "De normale verdeling en z-scores",
+      "file": "03-theorie-b.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "theorie-c",
+      "title": "Cumulatieve kansen en benaderingen",
+      "file": "03b-theorie-c.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Historisch intermezzo",
+      "file": "04-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Toepassen en kritisch redeneren",
+      "file": "05-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en hoofdstuktoets",
+      "file": "06-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "de-moivre",
+    "gauss",
+    "laplace"
+  ],
+  "mathematicians": [
+    "de-moivre",
+    "gauss",
+    "laplace"
+  ]
 }

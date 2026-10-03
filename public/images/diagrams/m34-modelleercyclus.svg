@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="sans-serif">
+  <defs>
+    <marker id="m34pijl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f2933"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+  <line x1="320" y1="20" x2="320" y2="380" stroke="#9c6b30" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="160" y="30" text-anchor="middle" font-size="15" fill="#9c6b30" font-weight="bold">werkelijkheid</text>
+  <text x="480" y="30" text-anchor="middle" font-size="15" fill="#3b5bdb" font-weight="bold">wiskunde</text>
+
+  <g font-size="13" fill="#1f2933" text-anchor="middle">
+    <rect x="60" y="55" width="200" height="50" rx="10" fill="#f1f3f5" stroke="#1f2933"/>
+    <text x="160" y="77">1. Probleem</text>
+    <text x="160" y="94" font-size="11">vraag en doel formuleren</text>
+
+    <rect x="380" y="55" width="200" height="50" rx="10" fill="#f1f3f5" stroke="#3b5bdb"/>
+    <text x="480" y="77">2. Vereenvoudigen</text>
+    <text x="480" y="94" font-size="11">aannames, variabelen, parameters</text>
+
+    <rect x="380" y="170" width="200" height="50" rx="10" fill="#f1f3f5" stroke="#3b5bdb"/>
+    <text x="480" y="192">3. Wiskundig model</text>
+    <text x="480" y="209" font-size="11">formule, eenheden gecontroleerd</text>
+
+    <rect x="380" y="285" width="200" height="50" rx="10" fill="#f1f3f5" stroke="#3b5bdb"/>
+    <text x="480" y="307">4. Oplossen</text>
+    <text x="480" y="324" font-size="11">rekenen, grafiek, vergelijking</text>
+
+    <rect x="60" y="285" width="200" height="50" rx="10" fill="#f1f3f5" stroke="#1f2933"/>
+    <text x="160" y="307">5. Interpreteren</text>
+    <text x="160" y="324" font-size="11">wat betekent de uitkomst?</text>
+
+    <rect x="60" y="170" width="200" height="50" rx="10" fill="#f1f3f5" stroke="#1f2933"/>
+    <text x="160" y="192">6. Valideren</text>
+    <text x="160" y="209" font-size="11">vergelijken met nieuwe data</text>
+  </g>
+
+  <g stroke="#1f2933" stroke-width="1.6" fill="none">
+    <line x1="262" y1="80" x2="376" y2="80" marker-end="url(#m34pijl)"/>
+    <line x1="480" y1="107" x2="480" y2="166" marker-end="url(#m34pijl)"/>
+    <line x1="480" y1="222" x2="480" y2="281" marker-end="url(#m34pijl)"/>
+    <line x1="378" y1="310" x2="264" y2="310" marker-end="url(#m34pijl)"/>
+    <line x1="160" y1="283" x2="160" y2="224" marker-end="url(#m34pijl)"/>
+    <path d="M262 186 C 320 150, 340 130, 378 100" stroke="#3b5bdb" stroke-dasharray="5 4" marker-end="url(#m34pijl)"/>
+  </g>
+  <text x="300" y="150" font-size="12" fill="#3b5bdb" text-anchor="middle">7. bijstellen</text>
+  <text x="160" y="250" font-size="11" fill="#1f2933" text-anchor="middle">past het? dan gebruiken</text>
+  <text x="160" y="370" font-size="11" fill="#616e7c" text-anchor="middle">De cyclus wordt meestal meerdere keren doorlopen.</text>
+</svg>

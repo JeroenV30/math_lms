@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 330" font-family="sans-serif" role="img" aria-label="Rekenbord met drie kolommen voor het graanprobleem uit de Negen Hoofdstukken">
+  <rect x="0" y="0" width="560" height="330" fill="#ffffff"/>
+  <rect x="150" y="40" width="390" height="250" rx="8" fill="#f1f3f5" stroke="#9c6b30" stroke-width="2"/>
+  <!-- kolomkoppen -->
+  <g font-size="14" fill="#9c6b30" text-anchor="middle">
+    <text x="215" y="30">voorwaarde 3</text>
+    <text x="345" y="30">voorwaarde 2</text>
+    <text x="475" y="30">voorwaarde 1</text>
+  </g>
+  <!-- rijlabels -->
+  <g font-size="14" fill="#1f2933" text-anchor="end">
+    <text x="140" y="90">bundels goed graan</text>
+    <text x="140" y="145">bundels middelmatig</text>
+    <text x="140" y="200">bundels slecht graan</text>
+    <text x="140" y="262" font-weight="bold">opbrengst (dou)</text>
+  </g>
+  <!-- kolomscheidingen -->
+  <g stroke="#9c6b30" stroke-width="1" stroke-dasharray="4 4">
+    <line x1="280" y1="50" x2="280" y2="280"/>
+    <line x1="410" y1="50" x2="410" y2="280"/>
+  </g>
+  <line x1="160" y1="228" x2="530" y2="228" stroke="#1f2933" stroke-width="1.5"/>
+  <!-- getallen -->
+  <g font-size="26" fill="#1f2933" text-anchor="middle">
+    <text x="215" y="98">1</text><text x="345" y="98">2</text><text x="475" y="98" fill="#3b5bdb" font-weight="bold">3</text>
+    <text x="215" y="153">2</text><text x="345" y="153">3</text><text x="475" y="153" fill="#3b5bdb" font-weight="bold">2</text>
+    <text x="215" y="208">3</text><text x="345" y="208">1</text><text x="475" y="208" fill="#3b5bdb" font-weight="bold">1</text>
+    <text x="215" y="270">26</text><text x="345" y="270">34</text><text x="475" y="270" fill="#3b5bdb" font-weight="bold">39</text>
+  </g>
+  <text x="345" y="318" font-size="13" fill="#1f2933" text-anchor="middle">Elke voorwaarde is een kolom; je leest van rechts naar links.</text>
+</svg>

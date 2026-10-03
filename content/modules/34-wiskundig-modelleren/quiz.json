@@ -1,0 +1,275 @@
+{
+  "title": "Hoofdstuktoets – Wiskundig modelleren",
+  "intro": "15 vragen zonder hints. Vanaf 70% is de module afgerond; vanaf 85% beheerst. Rond pas je eindantwoord af zoals de vraag aangeeft.",
+  "questions": [
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een taxi rekent € 4 instaptarief en € 2 per kilometer. Wat kost een rit van 18 km?",
+      "answer": 40,
+      "solution": [
+        "$K=4+2\\cdot18=40$ euro."
+      ],
+      "id": "34-T01",
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "quadratic-functions",
+        "exponential",
+        "estimation"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een vat bevat 900 liter en verliest 30 liter per uur. Na hoeveel uur is het leeg?",
+      "answer": 30,
+      "solution": [
+        "$900-30t=0$, dus $t=900/30=30$."
+      ],
+      "id": "34-T02",
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "quadratic-functions",
+        "exponential",
+        "estimation"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Zet 90 km/uur om naar meter per seconde.",
+      "answer": 25,
+      "solution": [
+        "$90/3{,}6=25$ m/s."
+      ],
+      "id": "34-T03",
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "quadratic-functions",
+        "exponential",
+        "estimation"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een lineair model gaat door $(2;11)$ en $(6;23)$. Geef de helling.",
+      "answer": 3,
+      "solution": [
+        "$a=(23-11)/(6-2)=3$."
+      ],
+      "id": "34-T04",
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "quadratic-functions",
+        "exponential",
+        "estimation"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bij het vorige model is $y=3x+b$. Bereken $b$ met $(2;11)$.",
+      "answer": 5,
+      "solution": [
+        "$11=3\\cdot2+b$, dus $b=5$."
+      ],
+      "id": "34-T05",
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "quadratic-functions",
+        "exponential",
+        "estimation"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een gemeten waarde is 17, een voorspelling 14. Bereken het residu (meting min voorspelling).",
+      "answer": 3,
+      "solution": [
+        "$17-14=3$."
+      ],
+      "id": "34-T06",
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "quadratic-functions",
+        "exponential",
+        "estimation"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Een cultuur groeit van 200 naar 338 in twee dagen. Geef de groeifactor per dag op twee decimalen.",
+      "answer": 1.3,
+      "solution": [
+        "$g=\\sqrt{338/200}=1{,}30$."
+      ],
+      "tolerance": 0.005,
+      "id": "34-T07",
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "quadratic-functions",
+        "exponential",
+        "estimation"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een stof heeft een halveringstijd van 4 uur. Hoeveel gram resteert van 80 gram na 12 uur?",
+      "answer": 10,
+      "solution": [
+        "Er zijn $12/4=3$ halveringen: $80/2^3=10$ gram."
+      ],
+      "id": "34-T08",
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "quadratic-functions",
+        "exponential",
+        "estimation"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een stopmodel is $s=vt_r+v^2/(2a)$. Neem $v=20$ m/s, $t_r=1$ s en $a=5$ m/s². Bereken $s$ in meter.",
+      "answer": 60,
+      "solution": [
+        "Reactieafstand $20$ m; remweg $400/10=40$ m.",
+        "Samen $60$ m."
+      ],
+      "id": "34-T09",
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "quadratic-functions",
+        "exponential",
+        "estimation"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een periodiek model heeft maximum 18 en minimum 6. Bereken de amplitude.",
+      "answer": 6,
+      "solution": [
+        "Amplitude is de helft van het verschil: $(18-6)/2=6$."
+      ],
+      "id": "34-T10",
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "quadratic-functions",
+        "exponential",
+        "estimation"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Het model $N(t)=1000/(1+9\\cdot2^{-t})$ heeft welk groeiplafond?",
+      "answer": 1000,
+      "solution": [
+        "Als $t$ groot wordt, gaat $2^{-t}$ naar nul; de noemer gaat naar 1."
+      ],
+      "id": "34-T11",
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "quadratic-functions",
+        "exponential",
+        "estimation"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Voor dat logistische model: bereken $N(0)$.",
+      "answer": 100,
+      "solution": [
+        "$N(0)=1000/(1+9)=100$."
+      ],
+      "id": "34-T12",
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "quadratic-functions",
+        "exponential",
+        "estimation"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Met $T^2=a^3$, $T$ in jaren en $a$ in AE: bereken $T$ bij $a=4$.",
+      "answer": 8,
+      "solution": [
+        "$T^2=64$, dus de positieve periode is $T=8$ jaar."
+      ],
+      "id": "34-T13",
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "quadratic-functions",
+        "exponential",
+        "estimation"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een grove schatting: 2000 bewoners gebruiken elk 150 liter water per dag. Hoeveel liter per dag is dat samen?",
+      "answer": 300000,
+      "solution": [
+        "$2000\\cdot150=300000$ liter; de precisie blijft die van de aannames."
+      ],
+      "id": "34-T14",
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "quadratic-functions",
+        "exponential",
+        "estimation"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": 4,
+      "question": "Een model voorspelt bij drie controlemetingen 8, 12 en 16. Werkelijke waarden zijn 9, 10 en 19. Geef de som van de residuen en de som van hun kwadraten.",
+      "solution": [
+        "Residuen zijn $1,-2,3$.",
+        "Som $1-2+3=2$; kwadratensom $1+4+9=14$."
+      ],
+      "parts": [
+        {
+          "label": "som residuen",
+          "answer": 2,
+          "type": "numeric"
+        },
+        {
+          "label": "som kwadraten",
+          "answer": 14,
+          "type": "numeric"
+        }
+      ],
+      "id": "34-T15",
+      "topics": [
+        "modelling",
+        "linear-functions",
+        "quadratic-functions",
+        "exponential",
+        "estimation"
+      ]
+    }
+  ]
+}

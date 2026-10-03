@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" font-family="sans-serif" role="img" aria-label="Een matrix van 3 bij 4 met rij 2 en kolom 3 gemarkeerd; het element op de kruising heet a23">
+  <rect x="0" y="0" width="560" height="300" fill="#ffffff"/>
+  <!-- markering rij 2 en kolom 3 -->
+  <rect x="120" y="112" width="320" height="50" rx="6" fill="#3b5bdb" fill-opacity="0.12"/>
+  <rect x="300" y="60" width="70" height="160" rx="6" fill="#3b5bdb" fill-opacity="0.12"/>
+  <rect x="300" y="112" width="70" height="50" rx="6" fill="none" stroke="#3b5bdb" stroke-width="2.5"/>
+  <!-- haken -->
+  <path d="M 128 58 Q 108 140 128 222" fill="none" stroke="#1f2933" stroke-width="2.5"/>
+  <path d="M 432 58 Q 452 140 432 222" fill="none" stroke="#1f2933" stroke-width="2.5"/>
+  <g font-size="20" fill="#1f2933" text-anchor="middle" font-style="italic">
+    <text x="175" y="95">a₁₁</text><text x="250" y="95">a₁₂</text><text x="335" y="95">a₁₃</text><text x="405" y="95">a₁₄</text>
+    <text x="175" y="145">a₂₁</text><text x="250" y="145">a₂₂</text><text x="335" y="145" fill="#3b5bdb" font-weight="bold">a₂₃</text><text x="405" y="145">a₂₄</text>
+    <text x="175" y="195">a₃₁</text><text x="250" y="195">a₃₂</text><text x="335" y="195">a₃₃</text><text x="405" y="195">a₃₄</text>
+  </g>
+  <!-- labels -->
+  <g font-size="14" fill="#1f2933">
+    <text x="20" y="91">rij 1</text>
+    <text x="20" y="141" fill="#3b5bdb" font-weight="bold">rij 2</text>
+    <text x="20" y="191">rij 3</text>
+  </g>
+  <g font-size="14" fill="#1f2933" text-anchor="middle">
+    <text x="175" y="40">kolom 1</text><text x="250" y="40">kolom 2</text><text x="335" y="40" fill="#3b5bdb" font-weight="bold">kolom 3</text><text x="405" y="40">kolom 4</text>
+  </g>
+  <text x="280" y="255" font-size="15" fill="#1f2933" text-anchor="middle">3 rijen en 4 kolommen: een 3 × 4-matrix (m = 3, n = 4)</text>
+  <text x="280" y="282" font-size="15" fill="#3b5bdb" text-anchor="middle">a₂₃: eerst het rijnummer, dan het kolomnummer</text>
+</svg>

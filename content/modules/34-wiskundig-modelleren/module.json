@@ -4,22 +4,186 @@
   "title": "Wiskundig modelleren",
   "part": 6,
   "level": "hbo",
-  "status": "planned",
-  "historical_period": "Modern",
+  "status": "available",
+  "historical_period": "17e–20e eeuw",
   "estimated_difficulty": 4,
-  "estimated_minutes": 90,
+  "estimated_minutes": 180,
   "prerequisites": [
-    33
+    19,
+    21,
+    25
   ],
   "topics": [
-    "modelling"
+    "modelling",
+    "linear-functions",
+    "quadratic-functions",
+    "exponential",
+    "estimation"
   ],
-  "core_question": null,
-  "summary": "Werkelijkheid abstraheren, aannames en modelvalidatie.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Kepler had de beste metingen van zijn tijd en een model dat op acht boogminuten na klopte. Waarom gooide hij het toch weg, en wanneer is een model goed genoeg?",
+  "summary": "De modelleercyclus van probleem tot gevalideerd model: aannames, variabelen en parameters, eenheden controleren, een modeltype kiezen op grond van data én mechanisme, parameters fitten en de grenzen van een model bewaken. Met casussen over taxitarieven, remwegen, medicijnen, daglengte en epidemieën, Fermi-schattingen en de geschiedenis van Kepler, Malthus, Verhulst en de Deltawerken.",
+  "learning_goals": [
+    "Je doorloopt de modelleercyclus: probleem, vereenvoudigen met aannames, wiskundig model, oplossen, interpreteren, valideren en bijstellen.",
+    "Je onderscheidt variabelen en parameters en geeft bij elke grootheid de eenheid en de betekenis in de context.",
+    "Je controleert een formule met dimensieanalyse en rekent eenheden om voordat je invult.",
+    "Je kiest een modeltype (lineair, kwadratisch, exponentieel, periodiek) op grond van verschillen, verhoudingen of herhaling in data én op grond van het mechanisme.",
+    "Je bepaalt de parameters van een lineair, kwadratisch of exponentieel model uit twee punten en interpreteert een regressielijn met residuen.",
+    "Je stelt modellen op en gebruikt ze in casussen: taxitarief, remweg, medicijnafbraak, daglengte en de beginfase van een epidemie.",
+    "Je beoordeelt het geldigheidsgebied van een model en herkent wanneer extrapolatie onbetrouwbaar wordt.",
+    "Je maakt een Fermi-schatting door een onbekende grootheid op te splitsen in factoren die je kunt schatten.",
+    "Je kunt het werk van Kepler, Malthus, Verhulst en Van Dantzig plaatsen als voorbeelden van modelleren, en de uitspraak van Box over modellen uitleggen."
+  ],
+  "glossary": [
+    {
+      "term": "Wiskundig model",
+      "definition": "Een vereenvoudigde wiskundige beschrijving (formule, grafiek, tabel of stelsel) van een stuk werkelijkheid, gemaakt met een bepaald doel."
+    },
+    {
+      "term": "Modelleercyclus",
+      "definition": "Het herhaalde proces van probleem formuleren, vereenvoudigen, wiskundig model opstellen, oplossen, interpreteren, valideren en bijstellen."
+    },
+    {
+      "term": "Aanname",
+      "definition": "Een bewuste vereenvoudiging van de werkelijkheid die het model hanteerbaar maakt, bijvoorbeeld \"de wrijving is te verwaarlozen\"."
+    },
+    {
+      "term": "Variabele",
+      "definition": "Een grootheid die binnen één toepassing van het model verandert, zoals de tijd $t$ of de afgelegde afstand $x$."
+    },
+    {
+      "term": "Parameter",
+      "definition": "Een grootheid die binnen één situatie vast is maar per situatie kan verschillen, zoals het instaptarief of de halveringstijd."
+    },
+    {
+      "term": "Dimensieanalyse",
+      "definition": "Controle van een formule door na te gaan of de eenheden links en rechts van het gelijkteken overeenkomen."
+    },
+    {
+      "term": "Fitten",
+      "definition": "De parameters van een model zo kiezen dat het model zo goed mogelijk bij gemeten gegevens past."
+    },
+    {
+      "term": "Residu",
+      "definition": "Het verschil tussen een gemeten waarde en de waarde die het model voorspelt: residu = meting − model."
+    },
+    {
+      "term": "Validatie",
+      "definition": "Het toetsen van een model aan gegevens die niet zijn gebruikt om het model te maken, en aan het doel waarvoor het bedoeld is."
+    },
+    {
+      "term": "Geldigheidsgebied",
+      "definition": "Het bereik van invoerwaarden waarbinnen het model betrouwbaar is gebleken."
+    },
+    {
+      "term": "Extrapolatie",
+      "definition": "Een model gebruiken buiten het gebied waarin de gegevens liggen waarmee het gemaakt is."
+    },
+    {
+      "term": "Fermi-schatting",
+      "definition": "Een grove schatting van een moeilijk meetbare grootheid door haar op te splitsen in factoren die je wel redelijk kunt schatten."
+    },
+    {
+      "term": "Logistische groei",
+      "definition": "Groei die eerst vrijwel exponentieel is en daarna afremt tot een plafond, de draagkracht $K$."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Lineair model",
+      "latex": "y = a x + b,\\qquad a = \\frac{y_2 - y_1}{x_2 - x_1}",
+      "usage": "Constante toename per eenheid; a in eenheden van y per eenheid van x.",
+      "origin": "Zie module 19."
+    },
+    {
+      "name": "Exponentieel model",
+      "latex": "N(t) = N_0 \\cdot g^{t},\\qquad g = \\left(\\frac{N_2}{N_1}\\right)^{1/(t_2 - t_1)}",
+      "usage": "Constante factor per tijdseenheid; groei bij g > 1, afname bij 0 < g < 1.",
+      "origin": "Zie module 25; als bevolkingsmodel bij Malthus (1798)."
+    },
+    {
+      "name": "Halveringstijd",
+      "latex": "N(t) = N_0 \\cdot \\left(\\tfrac{1}{2}\\right)^{t/T_h}",
+      "usage": "Na elke periode T_h is er nog de helft over."
+    },
+    {
+      "name": "Stopafstand",
+      "latex": "s = v \\cdot t_r + \\frac{v^2}{2a}",
+      "usage": "v in m/s, reactietijd t_r in s, remvertraging a in m/s²; s in meter.",
+      "origin": "Gevolg van eenparige beweging tijdens de reactietijd en eenparig vertraagde beweging tijdens het remmen."
+    },
+    {
+      "name": "Sinusmodel",
+      "latex": "D(t) = d + A \\sin\\!\\left(\\frac{2\\pi}{P}(t - c)\\right)",
+      "usage": "d evenwichtsstand, A amplitude, P periode, c horizontale verschuiving; zie module 27."
+    },
+    {
+      "name": "Logistisch model",
+      "latex": "N(t) = \\frac{K}{1 + c \\cdot g^{-t}}",
+      "usage": "Eerst bijna exponentieel, daarna afremmend naar de draagkracht K; de groei is het snelst bij N = K/2.",
+      "origin": "Verhulst (1838; naam 'logistique' in 1845)."
+    },
+    {
+      "name": "Derde wet van Kepler",
+      "latex": "T^2 = a^3",
+      "usage": "T in jaren, a (halve lange as) in astronomische eenheden, voor planeten rond de zon.",
+      "origin": "Kepler, Harmonices Mundi (1619); afgeleid uit de gravitatiewet door Newton (1687)."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Acht boogminuten",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "modelleercyclus",
+      "title": "De modelleercyclus, variabelen en eenheden",
+      "file": "02-modelleercyclus.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "modeltype-kiezen",
+      "title": "Een modeltype kiezen en parameters fitten",
+      "file": "03-modeltype-kiezen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casussen",
+      "title": "Vijf casussen: van taxi tot epidemie",
+      "file": "03b-casussen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "grenzen-en-schatten",
+      "title": "Grenzen van modellen en Fermi-schattingen",
+      "file": "03c-grenzen-en-schatten.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Van Kepler tot de Deltawerken",
+      "file": "04-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Planeten, bevolkingen en dijken",
+      "file": "05-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "06-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "newton-leibniz",
+    "data-science"
+  ],
+  "mathematicians": [
+    "newton"
+  ]
 }

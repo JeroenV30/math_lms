@@ -4,24 +4,180 @@
   "title": "Data-analyse",
   "part": 6,
   "level": "hbo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Modern",
   "estimated_difficulty": 4,
-  "estimated_minutes": 90,
+  "estimated_minutes": 180,
   "prerequisites": [
-    34
+    24
   ],
   "topics": [
     "data-analysis",
+    "dispersion",
     "correlation",
-    "dispersion"
+    "descriptive-statistics"
   ],
-  "core_question": null,
-  "summary": "Datasets, datakwaliteit, uitschieters en visualisatie.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Hoe haal je betrouwbare conclusies uit een rommelige tabel met gegevens, en wanneer laten cijfers en grafieken iets anders zien dan er werkelijk aan de hand is?",
+  "summary": "Datasets als tabel, meetniveaus en datakwaliteit; uitschieters opsporen met de 1,5×IQR-regel en z-scores; spreiding in de praktijk; de juiste grafiek kiezen en misleiding herkennen; samenhang verkennen, met correlatie versus causaliteit, Simpsons paradox en Anscombes kwartet.",
+  "learning_goals": [
+    "Je beschrijft een dataset als tabel van waarnemingen (rijen) en variabelen (kolommen) en bepaalt van elke variabele het meetniveau: nominaal, ordinaal, interval of ratio.",
+    "Je kiest centrum- en spreidingsmaten die bij het meetniveau en de vorm van de verdeling passen.",
+    "Je herkent problemen in de datakwaliteit (ontbrekende waarden, codes zoals 99, invoerfouten, verkeerde eenheden, dubbele records) en beschrijft hoe je ze verantwoord oplost.",
+    "Je spoort uitschieters op met de 1,5×IQR-regel en met z-scores, en je weet waarom je een uitschieter onderzoekt in plaats van hem zomaar weg te gooien.",
+    "Je berekent en interpreteert spreidingsbreedte, kwartielen, interkwartielafstand en standaardafwijking in een praktische context, en je weet welke maten gevoelig zijn voor uitschieters.",
+    "Je kiest een passende grafiek (staafdiagram, histogram, boxplot, spreidingsdiagram, lijndiagram) en herkent misleidende grafieken, zoals een afgekapte as of pictogrammen die met de verkeerde factor groeien.",
+    "Je beschrijft samenhang in een spreidingsdiagram kwalitatief (richting, vorm, sterkte, afwijkende punten) en legt uit waarom correlatie geen causaliteit bewijst.",
+    "Je rekent een voorbeeld van Simpsons paradox na en legt met Anscombes kwartet uit waarom je data altijd eerst moet bekijken voordat je kengetallen vertrouwt."
+  ],
+  "glossary": [
+    {
+      "term": "Dataset",
+      "definition": "Een verzameling gegevens, meestal als tabel: elke rij is een waarneming (een persoon, bestelling, meting), elke kolom een variabele."
+    },
+    {
+      "term": "Waarneming (observatie)",
+      "definition": "Eén rij in een dataset: alle gemeten kenmerken van één eenheid, zoals één klant of één meting."
+    },
+    {
+      "term": "Variabele",
+      "definition": "Een kenmerk dat per waarneming een waarde heeft, zoals leeftijd, woonplaats of reistijd."
+    },
+    {
+      "term": "Meetniveau",
+      "definition": "Wat de waarden van een variabele betekenen en welke bewerkingen zinvol zijn: nominaal, ordinaal, interval of ratio."
+    },
+    {
+      "term": "Ontbrekende waarde",
+      "definition": "Een cel zonder geldige waarde. Soms leeg, soms verstopt achter een code zoals 99 of −999."
+    },
+    {
+      "term": "Dubbel record",
+      "definition": "Een waarneming die per ongeluk meer dan eens in de dataset staat."
+    },
+    {
+      "term": "Uitschieter",
+      "definition": "Een waarneming die ver van de rest ligt. Een signaal om te onderzoeken: meetfout, invoerfout of een echt bijzondere waarde."
+    },
+    {
+      "term": "Tukey-grenzen (1,5×IQR-regel)",
+      "definition": "Waarden onder $Q_1 - 1{,}5 \\cdot \\mathrm{IQR}$ of boven $Q_3 + 1{,}5 \\cdot \\mathrm{IQR}$ markeer je als uitschieter; voorbij 3×IQR spreek je van een extreme uitschieter."
+    },
+    {
+      "term": "z-score",
+      "definition": "Het aantal standaardafwijkingen dat een waarde boven (positief) of onder (negatief) het gemiddelde ligt: $z = (x - \\bar{x})/s$."
+    },
+    {
+      "term": "Robuuste maat",
+      "definition": "Een maat die nauwelijks verandert door een paar extreme waarden, zoals de mediaan en de interkwartielafstand."
+    },
+    {
+      "term": "Spreidingsdiagram",
+      "definition": "Een grafiek met één punt per waarneming, met op de assen twee numerieke variabelen; bedoeld om samenhang te verkennen."
+    },
+    {
+      "term": "Correlatie",
+      "definition": "Samenhang tussen twee variabelen: als de ene groter is, is de andere gemiddeld ook groter (positief) of juist kleiner (negatief)."
+    },
+    {
+      "term": "Verstorende variabele (confounder)",
+      "definition": "Een derde variabele die met beide bestudeerde variabelen samenhangt en zo een verband kan veroorzaken, versterken of maskeren."
+    },
+    {
+      "term": "Simpsons paradox",
+      "definition": "Een verband dat in elke deelgroep de ene kant op wijst, maar in de samengevoegde data de andere kant op, doordat de groepen verschillend zijn samengesteld."
+    },
+    {
+      "term": "Exploratieve data-analyse",
+      "definition": "Data eerst grondig bekijken met tabellen en grafieken, om patronen, fouten en verrassingen te vinden voordat je modellen of toetsen gebruikt. Term van John Tukey."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Interkwartielafstand",
+      "latex": "\\mathrm{IQR} = Q_3 - Q_1",
+      "usage": "Spreiding van de middelste helft van de data. Kwartielen bepaal je zoals in module 24: bij een oneven aantal doet de middelste waarneming niet mee in de helften.",
+      "origin": "Kwartielen zijn ouder; de boxplot die ze zichtbaar maakt is van John Tukey (1970; uitgewerkt in Exploratory Data Analysis, 1977)."
+    },
+    {
+      "name": "Grenzen voor uitschieters (Tukey)",
+      "latex": "Q_1 - 1{,}5 \\cdot \\mathrm{IQR} \\quad\\text{en}\\quad Q_3 + 1{,}5 \\cdot \\mathrm{IQR}",
+      "usage": "Waarden buiten deze grenzen zijn uitschieters; buiten $Q_1 - 3 \\cdot \\mathrm{IQR}$ en $Q_3 + 3 \\cdot \\mathrm{IQR}$ extreme uitschieters.",
+      "origin": "John Tukey, Exploratory Data Analysis (1977)."
+    },
+    {
+      "name": "z-score",
+      "latex": "z = \\frac{x - \\bar{x}}{s}",
+      "usage": "Hoeveel standaardafwijkingen een waarde van het gemiddelde ligt. Vuistregel: $|z| > 3$ is verdacht. Werkt pas goed bij grotere, ongeveer symmetrische datasets.",
+      "origin": "Standaardiseren met de standaardafwijking is ingeburgerd sinds Karl Pearson (eind 19e eeuw)."
+    },
+    {
+      "name": "Steekproefstandaardafwijking",
+      "latex": "s = \\sqrt{\\frac{1}{n-1}\\sum_{i=1}^{n}(x_i - \\bar{x})^2}",
+      "usage": "Spreiding rond het gemiddelde, in de eenheid van de data. Gevoelig voor uitschieters (zie module 24).",
+      "origin": "De term standard deviation is van Karl Pearson (1893–1894); de correctie $n-1$ wordt vaak aan Bessel toegeschreven."
+    },
+    {
+      "name": "Liegfactor (Tufte)",
+      "latex": "\\text{liegfactor} = \\frac{\\text{grootte van het effect in de grafiek}}{\\text{grootte van het effect in de data}}",
+      "usage": "Een eerlijke grafiek heeft een liegfactor dicht bij 1. Een afgekapte as geeft al snel een liegfactor van 10 of meer.",
+      "origin": "Edward Tufte, The Visual Display of Quantitative Information (1983)."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een pomp in Broad Street",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "datasets-en-datakwaliteit",
+      "title": "Datasets, meetniveaus en datakwaliteit",
+      "file": "02-theorie-a.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "spreiding-en-uitschieters",
+      "title": "Spreiding en uitschieters",
+      "file": "03-theorie-b.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "visualiseren",
+      "title": "De juiste grafiek, en grafieken die misleiden",
+      "file": "03b-theorie-c.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "samenhang",
+      "title": "Samenhang: correlatie, causaliteit en twee paradoxen",
+      "file": "03c-theorie-d.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Van cholerakaart tot data science",
+      "file": "04-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Een dataset van begin tot eind",
+      "file": "05-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "06-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "karl-pearson",
+    "data-science"
+  ],
+  "mathematicians": [
+    "karl-pearson"
+  ]
 }

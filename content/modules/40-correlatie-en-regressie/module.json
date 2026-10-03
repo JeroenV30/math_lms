@@ -4,10 +4,10 @@
   "title": "Correlatie en regressie",
   "part": 7,
   "level": "wo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "19e eeuw",
   "estimated_difficulty": 5,
-  "estimated_minutes": 90,
+  "estimated_minutes": 180,
   "prerequisites": [
     39
   ],
@@ -15,12 +15,112 @@
     "correlation",
     "regression"
   ],
-  "core_question": null,
-  "summary": "Pearson, regressielijn en R².",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Hoe beschrijf je een verband met een lijn zonder meer te claimen dan de data ondersteunen?",
+  "summary": "Pearsons correlatie, kleinste-kwadratenregressie, residuen, R², onzekerheid van een helling en de grenzen van voorspellen.",
+  "learning_goals": [
+    "Je berekent Pearson r met gecentreerde kwadratensommen.",
+    "Je berekent en interpreteert een regressielijn met correcte eenheden.",
+    "Je berekent voorspellingen, residuen, SSE en R².",
+    "Je controleert lineariteit, onafhankelijkheid, gelijke residuspreiding en invloedrijke punten.",
+    "Je onderscheidt beschrijvende regressie, inferentie, voorspelling en causale uitleg."
+  ],
+  "glossary": [
+    {
+      "term": "Pearson r",
+      "definition": "Een gestandaardiseerde maat voor lineaire samenhang, tussen −1 en 1 wanneer beide variabelen variëren."
+    },
+    {
+      "term": "Kleinste kwadraten",
+      "definition": "De regressiemethode die de som van de gekwadrateerde verticale residuen minimaliseert."
+    },
+    {
+      "term": "Residu",
+      "definition": "Waarneming y minus voorspelling ŷ."
+    },
+    {
+      "term": "R²",
+      "definition": "Het aandeel van de totale gekwadrateerde y-variatie dat het model in de gebruikte data verklaart, bij regressie met intercept."
+    },
+    {
+      "term": "Invloedrijk punt",
+      "definition": "Een waarneming waarvan verandering of verwijdering de fitted regressie sterk beïnvloedt."
+    },
+    {
+      "term": "Extrapolatie",
+      "definition": "Voorspellen buiten het bereik van de waargenomen x-waarden."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Gecentreerde sommen",
+      "latex": "S_{xx}=\\sum(x_i-\\bar x)^2,\\quad S_{xy}=\\sum(x_i-\\bar x)(y_i-\\bar y)",
+      "usage": "Definieer Syy op dezelfde manier voor y."
+    },
+    {
+      "name": "Correlatie en regressie",
+      "latex": "r=\\frac{S_{xy}}{\\sqrt{S_{xx}S_{yy}}},\\quad\\hat y=b_0+b_1x,\\quad b_1=\\frac{S_{xy}}{S_{xx}},\\quad b_0=\\bar y-b_1\\bar x",
+      "usage": "r vereist Sxx en Syy positief; de lijn vereist Sxx positief."
+    },
+    {
+      "name": "Verklaarde variatie",
+      "latex": "R^2=1-\\frac{\\mathrm{SSE}}{S_{yy}}=r^2",
+      "usage": "De gelijkheid met r² geldt voor één x en een intercept; Syy moet positief zijn."
+    },
+    {
+      "name": "Standaardfout van de helling",
+      "latex": "s_e=\\sqrt{\\frac{\\mathrm{SSE}}{n-2}},\\quad SE(b_1)=\\frac{s_e}{\\sqrt{S_{xx}}}",
+      "usage": "Voor inferentie onder het klassieke lineaire model; t-verdeling met n−2 vrijheidsgraden."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Waarom bestaat deze wiskunde?",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "theorie-a",
+      "title": "Samenhang meten met Pearson r",
+      "file": "02-theorie-a.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "theorie-b",
+      "title": "Een regressielijn berekenen",
+      "file": "03-theorie-b.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "theorie-c",
+      "title": "Residuen, onzekerheid en voorspellen",
+      "file": "03b-theorie-c.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Historisch intermezzo",
+      "file": "04-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Toepassen en kritisch redeneren",
+      "file": "05-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en hoofdstuktoets",
+      "file": "06-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "galton-regressie",
+    "karl-pearson"
+  ],
+  "mathematicians": [
+    "karl-pearson"
+  ]
 }

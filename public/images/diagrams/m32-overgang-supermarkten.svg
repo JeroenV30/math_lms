@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" font-family="sans-serif" role="img" aria-label="Overgangsdiagram: van A blijft 80 procent bij A en gaat 20 procent naar B; van B blijft 70 procent bij B en gaat 30 procent naar A">
+  <defs>
+    <marker id="pijl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f2933"/>
+    </marker>
+    <marker id="pijlb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#3b5bdb"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="600" height="260" fill="#ffffff"/>
+  <circle cx="170" cy="140" r="52" fill="#f1f3f5" stroke="#1f2933" stroke-width="2"/>
+  <circle cx="430" cy="140" r="52" fill="#f1f3f5" stroke="#1f2933" stroke-width="2"/>
+  <text x="170" y="136" font-size="18" fill="#1f2933" text-anchor="middle" font-weight="bold">A</text>
+  <text x="170" y="158" font-size="12" fill="#1f2933" text-anchor="middle">supermarkt</text>
+  <text x="430" y="136" font-size="18" fill="#1f2933" text-anchor="middle" font-weight="bold">B</text>
+  <text x="430" y="158" font-size="12" fill="#1f2933" text-anchor="middle">supermarkt</text>
+  <!-- A naar B (boven) -->
+  <path d="M 212 110 Q 300 50 388 110" fill="none" stroke="#3b5bdb" stroke-width="2.5" marker-end="url(#pijlb)"/>
+  <text x="300" y="66" font-size="16" fill="#3b5bdb" text-anchor="middle">0,2</text>
+  <!-- B naar A (onder) -->
+  <path d="M 388 170 Q 300 230 212 170" fill="none" stroke="#3b5bdb" stroke-width="2.5" marker-end="url(#pijlb)"/>
+  <text x="300" y="228" font-size="16" fill="#3b5bdb" text-anchor="middle">0,3</text>
+  <!-- lussen -->
+  <path d="M 132 104 C 80 40 40 120 118 140" fill="none" stroke="#1f2933" stroke-width="2" marker-end="url(#pijl)"/>
+  <text x="58" y="70" font-size="16" fill="#1f2933" text-anchor="middle">0,8</text>
+  <path d="M 468 104 C 520 40 560 120 482 140" fill="none" stroke="#1f2933" stroke-width="2" marker-end="url(#pijl)"/>
+  <text x="542" y="70" font-size="16" fill="#1f2933" text-anchor="middle">0,7</text>
+</svg>

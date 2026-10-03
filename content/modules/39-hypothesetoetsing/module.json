@@ -4,22 +4,124 @@
   "title": "Hypothesetoetsing",
   "part": 7,
   "level": "wo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "20e eeuw",
   "estimated_difficulty": 5,
-  "estimated_minutes": 90,
+  "estimated_minutes": 180,
   "prerequisites": [
     38
   ],
   "topics": [
     "hypothesis-testing"
   ],
-  "core_question": null,
-  "summary": "Fisher en Neyman-Pearson.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Wanneer zijn je gegevens moeilijk te verenigen met een vooraf geformuleerde bewering?",
+  "summary": "Nul- en alternatieve hypothesen, p-waarden, z- en t-toetsen, exacte binomiale toetsen, Welch en gepaarde vergelijkingen, fouten en power.",
+  "learning_goals": [
+    "Je formuleert H0 en H1 over populatieparameters vóór de analyse.",
+    "Je berekent een toetsingsgrootheid en een een- of tweezijdige p-waarde met gegeven kansen.",
+    "Je kiest tussen een z-toets, éénsteekproef-t-toets, gepaarde t-toets, Welch-toets en een exacte binomiale toets.",
+    "Je interpreteert significantie zonder haar te verwarren met de kans dat H0 waar is of met effectgrootte.",
+    "Je onderscheidt type-I- en type-II-fouten en begrijpt power en de risico’s van veel toetsen."
+  ],
+  "glossary": [
+    {
+      "term": "Nulhypothese",
+      "definition": "De referentiebewering over een parameter waartegen je de data vergelijkt."
+    },
+    {
+      "term": "Alternatieve hypothese",
+      "definition": "De vooraf gespecificeerde afwijking die je onderzoekt, een- of tweezijdig."
+    },
+    {
+      "term": "p-waarde",
+      "definition": "Onder het nulmodel de kans op een toetsingsgrootheid minstens zo extreem als de waargenomen waarde, met de gekozen extremiteitsregel."
+    },
+    {
+      "term": "Significantieniveau",
+      "definition": "De vooraf gekozen grens α die de type-I-fout onder het nulmodel begrenst."
+    },
+    {
+      "term": "Power",
+      "definition": "De kans om H0 te verwerpen bij een gespecificeerd werkelijk alternatief; gelijk aan 1−β."
+    },
+    {
+      "term": "Effectgrootte",
+      "definition": "De omvang van een verschil of verband, met eenheden of gestandaardiseerd."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "z-toets voor een gemiddelde",
+      "latex": "z=\\frac{\\bar x-\\mu_0}{\\sigma/\\sqrt n}",
+      "usage": "Bij bekende σ en een normaal of geschikt benaderend model voor het gemiddelde."
+    },
+    {
+      "name": "t-toets voor een gemiddelde",
+      "latex": "t=\\frac{\\bar x-\\mu_0}{s/\\sqrt n},\\quad df=n-1",
+      "usage": "Bij onbekende σ; beoordeel onafhankelijkheid en verdelingsvorm."
+    },
+    {
+      "name": "Welch-toets",
+      "latex": "t=\\frac{\\bar x_1-\\bar x_2}{\\sqrt{s_1^2/n_1+s_2^2/n_2}}",
+      "usage": "Voor twee onafhankelijke groepen; gelijke varianties zijn niet vereist."
+    },
+    {
+      "name": "Power",
+      "latex": "\\text{power}=1-\\beta",
+      "usage": "β hangt onder andere af van het werkelijk effect, n, spreiding en α."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Waarom bestaat deze wiskunde?",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "theorie-a",
+      "title": "Hypothesen en p-waarden",
+      "file": "02-theorie-a.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "theorie-b",
+      "title": "Een toets kiezen en uitrekenen",
+      "file": "03-theorie-b.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "theorie-c",
+      "title": "Fouten, power en verantwoord rapporteren",
+      "file": "03b-theorie-c.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Historisch intermezzo",
+      "file": "04-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Toepassen en kritisch redeneren",
+      "file": "05-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en hoofdstuktoets",
+      "file": "06-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "fisher",
+    "neyman-pearson",
+    "gosset-student"
+  ],
+  "mathematicians": [
+    "fisher",
+    "neyman"
+  ]
 }

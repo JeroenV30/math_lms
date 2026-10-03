@@ -4,10 +4,10 @@
   "title": "Bayesiaanse statistiek",
   "part": 7,
   "level": "wo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "18e eeuw",
   "estimated_difficulty": 5,
-  "estimated_minutes": 90,
+  "estimated_minutes": 180,
   "prerequisites": [
     40
   ],
@@ -15,12 +15,114 @@
     "bayes",
     "probability"
   ],
-  "core_question": null,
-  "summary": "Thomas Bayes en Laplace.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Hoe verandert je onzekerheid wanneer je nieuwe informatie krijgt?",
+  "summary": "Voorwaardelijke kansen, Bayes’ regel, natuurlijke frequenties, odds en likelihoodratio’s, opeenvolgend bijwerken en een eerste Beta-binomiaal model.",
+  "learning_goals": [
+    "Je onderscheidt P(data|hypothese) van P(hypothese|data).",
+    "Je berekent een posterior met de regel van Bayes en de totale-kansregel.",
+    "Je rekent met natuurlijke frequenties en herkent het basisfrequentieprobleem.",
+    "Je werkt odds bij met likelihoodratio’s en benoemt de voorwaarden bij herhaalde informatie.",
+    "Je interpreteert een posterior en credible interval binnen het gekozen model en onderzoekt de gevoeligheid voor een prior."
+  ],
+  "glossary": [
+    {
+      "term": "Prior",
+      "definition": "De kansverdeling over hypothesen of parameters vóór de nieuwe gegevens."
+    },
+    {
+      "term": "Likelihood",
+      "definition": "De kans of dichtheid van de geobserveerde data als functie van de hypothese of parameter."
+    },
+    {
+      "term": "Posterior",
+      "definition": "De kansverdeling na het combineren van prior en nieuwe data volgens het model."
+    },
+    {
+      "term": "Basisfrequentie",
+      "definition": "De voorafgaande frequentie of kans op de onderzochte categorie."
+    },
+    {
+      "term": "Odds",
+      "definition": "De verhouding p/(1−p) van een kans tot haar complement."
+    },
+    {
+      "term": "Credible interval",
+      "definition": "Een interval met een gekozen hoeveelheid posteriorkans, afhankelijk van prior, likelihood en model."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Bayes voor twee categorieën",
+      "latex": "P(H\\mid D)=\\frac{P(D\\mid H)P(H)}{P(D\\mid H)P(H)+P(D\\mid\\neg H)P(\\neg H)}",
+      "usage": "Wanneer P(D)>0; de noemer telt alle manieren om D te krijgen."
+    },
+    {
+      "name": "Odds bijwerken",
+      "latex": "\\text{posterior odds}=\\text{prior odds}\\times\\frac{P(D\\mid H)}{P(D\\mid\\neg H)}",
+      "usage": "De breuk is de likelihoodratio van de waargenomen informatie."
+    },
+    {
+      "name": "Beta-binomiale update",
+      "latex": "p\\sim\\operatorname{Beta}(a,b)\\ \\Longrightarrow\\ p\\mid k,n\\sim\\operatorname{Beta}(a+k,b+n-k)",
+      "usage": "Voor conditioneel onafhankelijke Bernoulli-proeven met dezelfde p."
+    },
+    {
+      "name": "Posteriorgemiddelde",
+      "latex": "E(p\\mid k,n)=\\frac{a+k}{a+b+n}",
+      "usage": "Een puntsamenvatting van de posterior, geen volledige onzekerheidsbeschrijving."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Waarom bestaat deze wiskunde?",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "theorie-a",
+      "title": "Voorwaardelijke kansen en Bayes’ regel",
+      "file": "02-theorie-a.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "theorie-b",
+      "title": "Basisfrequenties, odds en nieuw bewijs",
+      "file": "03-theorie-b.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "theorie-c",
+      "title": "Een onbekende kans leren uit gegevens",
+      "file": "03b-theorie-c.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Historisch intermezzo",
+      "file": "04-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Toepassen en kritisch redeneren",
+      "file": "05-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en hoofdstuktoets",
+      "file": "06-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "bayes",
+    "laplace",
+    "data-science"
+  ],
+  "mathematicians": [
+    "bayes",
+    "laplace"
+  ]
 }

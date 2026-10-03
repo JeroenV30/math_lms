@@ -1,0 +1,208 @@
+{
+  "title": "Hoofdstuktoets – Hypothesetoetsing",
+  "intro": "15 vragen zonder hints. Vanaf 70% is de module afgerond; vanaf 85% beheerst. Rond pas je eindantwoord af zoals de vraag aangeeft.",
+  "questions": [
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "σ=12, n=36. Geef SE voor de z-toets.",
+      "answer": 2,
+      "solution": [
+        "$12/6=2$."
+      ],
+      "id": "39-T01",
+      "topics": [
+        "hypothesis-testing"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "x̄=44, μ0=40, SE=2. Geef z.",
+      "answer": 2,
+      "solution": [
+        "$(44-40)/2=2$."
+      ],
+      "id": "39-T02",
+      "topics": [
+        "hypothesis-testing"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Φ(2)=0,9772. Geef de rechtszijdige p-waarde.",
+      "answer": 0.0228,
+      "solution": [
+        "$1-0{,}9772=0{,}0228$."
+      ],
+      "tolerance": 5e-05,
+      "id": "39-T03",
+      "topics": [
+        "hypothesis-testing"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Geef de tweezijdige p-waarde voor dezelfde z.",
+      "answer": 0.0456,
+      "solution": [
+        "$2\\cdot0{,}0228=0{,}0456$."
+      ],
+      "tolerance": 5e-05,
+      "id": "39-T04",
+      "topics": [
+        "hypothesis-testing"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "s=6, n=9, x̄=13 en μ0=10. Geef t.",
+      "answer": 1.5,
+      "solution": [
+        "$SE=6/3=2$; $t=3/2=1{,}5$."
+      ],
+      "tolerance": 0.005,
+      "id": "39-T05",
+      "topics": [
+        "hypothesis-testing"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Hoeveel vrijheidsgraden bij n=9?",
+      "answer": 8,
+      "solution": [
+        "$9-1=8$."
+      ],
+      "id": "39-T06",
+      "topics": [
+        "hypothesis-testing"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij β=0,15: geef power.",
+      "answer": 0.85,
+      "solution": [
+        "$1-0{,}15=0{,}85$."
+      ],
+      "tolerance": 0.005,
+      "id": "39-T07",
+      "topics": [
+        "hypothesis-testing"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bij 100 ware nulhypothesen en α=0,01: geef het verwachte aantal type-I-fouten.",
+      "answer": 1,
+      "solution": [
+        "$100\\cdot0{,}01=1$."
+      ],
+      "id": "39-T08",
+      "topics": [
+        "hypothesis-testing"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bonferroni voor 5 toetsen bij totaalniveau 0,05: geef de grens per toets.",
+      "answer": 0.01,
+      "solution": [
+        "$0{,}05/5=0{,}01$."
+      ],
+      "tolerance": 5e-05,
+      "id": "39-T09",
+      "topics": [
+        "hypothesis-testing"
+      ]
+    },
+    {
+      "type": "fraction",
+      "difficulty": 2,
+      "question": "Vier onafhankelijke eerlijke muntworpen geven vier keer kop. Geef de rechtszijdige exacte p-waarde als breuk.",
+      "answer": "1/16",
+      "solution": [
+        "Alle vier successen hebben kans $(1/2)^4=1/16$."
+      ],
+      "id": "39-T10",
+      "topics": [
+        "hypothesis-testing"
+      ]
+    },
+    {
+      "type": "fraction",
+      "difficulty": 2,
+      "question": "Geef bij die vier worpen de tweezijdige kans op de uitersten 0 of 4 als breuk.",
+      "answer": "1/8",
+      "solution": [
+        "$2/16=1/8$."
+      ],
+      "id": "39-T11",
+      "topics": [
+        "hypothesis-testing"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Onafhankelijke gemiddelden hebben standaardfouten 3 en 4. Geef SE van hun verschil.",
+      "answer": 5,
+      "solution": [
+        "$\\sqrt{3^2+4^2}=5$."
+      ],
+      "id": "39-T12",
+      "topics": [
+        "hypothesis-testing"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Hun gemiddeld verschil is 10. Geef de toetsingsgrootheid met SE=5.",
+      "answer": 2,
+      "solution": [
+        "$10/5=2$."
+      ],
+      "id": "39-T13",
+      "topics": [
+        "hypothesis-testing"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "25 paren hebben gemiddeld verschil −2 en s van verschillen 5. Geef de gepaarde t-waarde.",
+      "answer": -2,
+      "solution": [
+        "$SE=5/5=1$; $t=-2$."
+      ],
+      "tolerance": 0.005,
+      "id": "39-T14",
+      "topics": [
+        "hypothesis-testing"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 4,
+      "question": "Tien onafhankelijke ware nulhypothesen met α=0,05: geef de kans op minstens één verwerping op drie decimalen.",
+      "answer": 0.401,
+      "solution": [
+        "$1-0{,}95^{10}=0{,}401263\\ldots$."
+      ],
+      "tolerance": 0.0005,
+      "id": "39-T15",
+      "topics": [
+        "hypothesis-testing"
+      ]
+    }
+  ]
+}

@@ -4,23 +4,196 @@
   "title": "Matrices",
   "part": 6,
   "level": "hbo",
-  "status": "planned",
-  "historical_period": "19e eeuw",
+  "status": "available",
+  "historical_period": "Han-China tot 19e-eeuws Engeland",
   "estimated_difficulty": 4,
-  "estimated_minutes": 90,
+  "estimated_minutes": 180,
   "prerequisites": [
-    31
+    20
   ],
   "topics": [
     "matrices",
     "systems"
   ],
-  "core_question": null,
-  "summary": "Matrixnotatie en lineaire algebra.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Chinese rekenmeesters losten ruim tweeduizend jaar geleden stelsels met drie onbekenden op door getallen in kolommen op een rekenbord te leggen. Waarom werkt rekenen met zo'n rechthoekig schema, en wat kun je er nog meer mee?",
+  "summary": "Een matrix is een rechthoekig schema van getallen waarmee je in één keer met hele tabellen rekent. Je leert matrices optellen en vermenigvuldigen, stelsels oplossen door te vegen, de determinant en de inverse van een 2 × 2-matrix bepalen, en matrices gebruiken voor klantverloop, populaties en meetkundige transformaties.",
+  "learning_goals": [
+    "Je kunt een tabel met gegevens als matrix schrijven, de afmetingen m × n noemen en een element a_ij aflezen en interpreteren.",
+    "Je kunt matrices optellen, aftrekken en met een getal vermenigvuldigen, en je weet wanneer dat kan.",
+    "Je kunt twee matrices vermenigvuldigen met de regel 'rij maal kolom', je controleert vooraf of het product bestaat en je legt de betekenis van een element van het product uit in een context.",
+    "Je weet dat AB en BA meestal verschillen en dat de eenheidsmatrix I de rol van het getal 1 speelt.",
+    "Je schrijft een lineair stelsel als Ax = b en lost het op door te vegen (Gauss-eliminatie) met een aangevulde matrix, voor stelsels met twee en drie onbekenden.",
+    "Je herkent aan de trapvorm of een stelsel één, geen of oneindig veel oplossingen heeft.",
+    "Je berekent de determinant van een 2 × 2-matrix, weet dat het stelsel Ax = b precies één oplossing heeft als det A ≠ 0, en interpreteert de determinant als oppervlaktefactor.",
+    "Je bepaalt de inverse van een 2 × 2-matrix en gebruikt die om een stelsel op te lossen.",
+    "Je gebruikt overgangsmatrices voor klantverloop en een Leslie-model voor een populatie in leeftijdsklassen.",
+    "Je beschrijft spiegelingen, draaiingen en vergrotingen van het vlak met een matrix en weet dat na elkaar uitvoeren overeenkomt met vermenigvuldigen.",
+    "Je kent de historische lijn van de Chinese fangcheng-methode via Seki, Leibniz en Gauss naar Sylvester en Cayley."
+  ],
+  "glossary": [
+    {
+      "term": "Matrix",
+      "definition": "Een rechthoekig schema van getallen, geordend in rijen en kolommen. Meervoud: matrices."
+    },
+    {
+      "term": "Afmetingen (m × n)",
+      "definition": "Een matrix met $m$ rijen en $n$ kolommen heet een $m \\times n$-matrix. Je noemt altijd eerst het aantal rijen."
+    },
+    {
+      "term": "Element $a_{ij}$",
+      "definition": "Het getal in rij $i$ en kolom $j$ van de matrix $A$. Eerst het rijnummer, dan het kolomnummer."
+    },
+    {
+      "term": "Vierkante matrix",
+      "definition": "Een matrix met evenveel rijen als kolommen ($n \\times n$)."
+    },
+    {
+      "term": "Rijvector en kolomvector",
+      "definition": "Een matrix met één rij ($1 \\times n$) of met één kolom ($m \\times 1$)."
+    },
+    {
+      "term": "Scalair",
+      "definition": "Een gewoon getal, in tegenstelling tot een matrix. Scalair vermenigvuldigen: elk element met hetzelfde getal vermenigvuldigen."
+    },
+    {
+      "term": "Matrixproduct",
+      "definition": "Het product $AB$ van een $m \\times n$-matrix en een $n \\times p$-matrix is de $m \\times p$-matrix waarvan het element in rij $i$, kolom $j$ gelijk is aan rij $i$ van $A$ maal kolom $j$ van $B$."
+    },
+    {
+      "term": "Eenheidsmatrix $I$",
+      "definition": "De vierkante matrix met enen op de hoofddiagonaal en verder nullen. Voor elke passende matrix geldt $AI = IA = A$."
+    },
+    {
+      "term": "Aangevulde matrix",
+      "definition": "De coëfficiëntenmatrix van een stelsel met de rechterleden als extra kolom erbij, genoteerd als $[A \\mid b]$."
+    },
+    {
+      "term": "Elementaire rijoperatie",
+      "definition": "Twee rijen verwisselen, een rij met een getal ongelijk aan 0 vermenigvuldigen, of een veelvoud van een rij bij een andere rij optellen. Deze bewerkingen veranderen de oplossingen van het stelsel niet."
+    },
+    {
+      "term": "Vegen (Gauss-eliminatie)",
+      "definition": "Met rijoperaties een aangevulde matrix in trapvorm brengen, zodat je de onbekenden van onder naar boven kunt uitrekenen."
+    },
+    {
+      "term": "Trapvorm",
+      "definition": "Een matrix waarin het eerste niet-nul-element van elke rij verder naar rechts staat dan dat van de rij erboven; onder de 'trap' staan alleen nullen."
+    },
+    {
+      "term": "Determinant",
+      "definition": "Voor $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ is $\\det A = ad - bc$. Het stelsel $Ax = b$ heeft precies één oplossing als $\\det A \\neq 0$."
+    },
+    {
+      "term": "Inverse matrix $A^{-1}$",
+      "definition": "De matrix waarvoor $AA^{-1} = A^{-1}A = I$. Bestaat alleen als $\\det A \\neq 0$."
+    },
+    {
+      "term": "Overgangsmatrix",
+      "definition": "Een matrix waarvan element $t_{ij}$ de fractie aangeeft die per tijdstap van toestand $j$ naar toestand $i$ gaat. Elke kolom telt op tot 1."
+    },
+    {
+      "term": "Leslie-matrix",
+      "definition": "Een populatiemodel in leeftijdsklassen: in de eerste rij staan de geboortecijfers per klasse, direct onder de diagonaal de overlevingsfracties."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Matrixproduct",
+      "latex": "(AB)_{ij} = a_{i1}b_{1j} + a_{i2}b_{2j} + \\dots + a_{in}b_{nj}",
+      "usage": "Rij $i$ van $A$ maal kolom $j$ van $B$. Alleen mogelijk als $A$ evenveel kolommen heeft als $B$ rijen; $(m \\times n)(n \\times p) = m \\times p$.",
+      "origin": "Gedefinieerd door Arthur Cayley in zijn *Memoir on the theory of matrices* (1858), als het na elkaar uitvoeren van twee lineaire transformaties."
+    },
+    {
+      "name": "Eenheidsmatrix",
+      "latex": "I = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}, \\qquad AI = IA = A",
+      "usage": "De matrix die niets verandert, net als het getal 1 bij gewone vermenigvuldiging."
+    },
+    {
+      "name": "Stelsel in matrixvorm",
+      "latex": "Ax = b",
+      "usage": "$A$ bevat de coëfficiënten, $x$ de onbekenden en $b$ de rechterleden. Oplossen door te vegen op $[A \\mid b]$.",
+      "origin": "Het rekenschema zelf (fangcheng) staat al in hoofdstuk 8 van de Chinese Negen Hoofdstukken (Han-tijd)."
+    },
+    {
+      "name": "Determinant van een 2 × 2-matrix",
+      "latex": "\\det \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = ad - bc",
+      "usage": "Ongelijk aan 0: het stelsel heeft precies één oplossing en de inverse bestaat. De absolute waarde is de factor waarmee oppervlakten worden vermenigvuldigd.",
+      "origin": "Determinant-achtige uitdrukkingen bij Seki Kōwa (1683) en Leibniz (1693); de naam in moderne betekenis bij Cauchy (1812)."
+    },
+    {
+      "name": "Inverse van een 2 × 2-matrix",
+      "latex": "A^{-1} = \\frac{1}{ad - bc} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}",
+      "usage": "Verwissel $a$ en $d$, verander het teken van $b$ en $c$, en deel alles door de determinant. Dan is $x = A^{-1}b$ de oplossing van $Ax = b$."
+    },
+    {
+      "name": "Overgangsmatrix",
+      "latex": "x_{t+1} = T\\,x_t",
+      "usage": "De verdeling over de toestanden na één tijdstap. Na $k$ stappen: $x_k = T^k x_0$. Een evenwicht $x$ voldoet aan $Tx = x$."
+    },
+    {
+      "name": "Draaiing om de oorsprong",
+      "latex": "R_\\alpha = \\begin{pmatrix} \\cos\\alpha & -\\sin\\alpha \\\\ \\sin\\alpha & \\cos\\alpha \\end{pmatrix}",
+      "usage": "Draait elk punt over hoek $\\alpha$ tegen de klok in. Voor $90^\\circ$: $\\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}$."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Drie soorten graan",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "matrices-en-notatie",
+      "title": "Getallen in rijen en kolommen",
+      "file": "02-theorie-a.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "matrixvermenigvuldiging",
+      "title": "Rij maal kolom",
+      "file": "03-theorie-b.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "stelsels-en-vegen",
+      "title": "Stelsels als Ax = b: vegen",
+      "file": "03b-theorie-c.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "determinant-en-inverse",
+      "title": "Determinant en inverse",
+      "file": "03c-theorie-d.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Van rekenbord tot matrix",
+      "file": "04-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Klantverloop, populaties en draaiingen",
+      "file": "05-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "06-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "chinese-rekenstaafjes",
+    "negen-hoofdstukken",
+    "newton-leibniz",
+    "gauss"
+  ],
+  "mathematicians": [
+    "leibniz",
+    "gauss"
+  ]
 }

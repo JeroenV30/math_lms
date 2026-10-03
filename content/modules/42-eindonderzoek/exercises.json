@@ -1,0 +1,417 @@
+{
+  "exercises": [
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "De CSV bevat welke hoeveelheid waarnemingen? Tel alle gegevensrijen, zonder de kopregel.",
+      "answer": 120,
+      "solution": [
+        "Er zijn 120 pinguïns uit het jaar 2009."
+      ],
+      "hints": [
+        "De eerste regel bevat kolomnamen, geen pinguïn."
+      ],
+      "id": "42-001",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Hoeveel verschillende pinguïnsoorten staan in het bestand?",
+      "answer": 3,
+      "solution": [
+        "Adelie, Chinstrap en Gentoo zijn de drie categorieën."
+      ],
+      "hints": [
+        "Tel unieke categorieën in de kolom soort."
+      ],
+      "id": "42-002",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Hoeveel lichaamsgewichten ontbreken (code NA)?",
+      "answer": 1,
+      "solution": [
+        "Eén Gentoo-waarneming heeft NA voor lichaamsgewicht."
+      ],
+      "hints": [
+        "Een code NA is geen nul gram."
+      ],
+      "id": "42-003",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Hoeveel geldige lichaamsgewichten kun je voor de gehele dataset middelen?",
+      "answer": 119,
+      "solution": [
+        "$120-1=119$ geldige waarden."
+      ],
+      "hints": [
+        "Laat alleen ontbrekende massa’s buiten deze berekening."
+      ],
+      "id": "42-004",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Hoeveel geslachtswaarden ontbreken?",
+      "answer": 3,
+      "solution": [
+        "Er zijn drie NA-codes in de kolom geslacht."
+      ],
+      "hints": [
+        "Een andere kolom kan een ander aantal ontbrekende waarden hebben."
+      ],
+      "id": "42-005",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Waarom mag je niet alle rijen met een ontbrekend geslacht verwijderen voordat je het algemene gemiddelde gewicht berekent?",
+      "answer": "Een ontbrekend geslacht maakt een aanwezig lichaamsgewicht niet ongeldig. Selecteer geldige rijen per analyse en rapporteer die keuze, anders verlies je onnodig gegevens.",
+      "solution": [
+        "Voor het gemiddelde gewicht is alleen een geldig gewicht nodig.",
+        "Voor een vergelijking naar geslacht zijn beide variabelen nodig."
+      ],
+      "hints": [
+        "Welke kolom gebruikt de berekening werkelijk?"
+      ],
+      "min_length": 60,
+      "id": "42-006",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Hoeveel Adélie-pinguïns staan in de dataset?",
+      "answer": 52,
+      "solution": [
+        "De soortselectie Adelie bevat 52 rijen."
+      ],
+      "hints": [
+        "Filter op de soort, nog niet op geslacht."
+      ],
+      "id": "42-007",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "multiple",
+      "difficulty": 3,
+      "question": "Selecteer alleen Adélie. Hoeveel mannen en vrouwen met geldig gewicht zijn er?",
+      "solution": [
+        "Alle 52 Adélie-waarnemingen hebben geldige massa en geslacht.",
+        "De verdeling is 26 mannen en 26 vrouwen."
+      ],
+      "hints": [
+        "Maak binnen Adelie twee geslachtsgroepen."
+      ],
+      "parts": [
+        {
+          "label": "mannen",
+          "answer": 26,
+          "type": "numeric"
+        },
+        {
+          "label": "vrouwen",
+          "answer": 26,
+          "type": "numeric"
+        }
+      ],
+      "id": "42-008",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bereken het gemiddelde gewicht van Adélie-mannen in gram, op twee decimalen.",
+      "answer": 3995.19,
+      "solution": [
+        "De som van de 26 gewichten is 103875 g.",
+        "$103875/26=3995{,}1923\\ldots$ g."
+      ],
+      "hints": [
+        "Sommeer alleen de gewichten binnen de juiste selectie."
+      ],
+      "tolerance": 0.005,
+      "id": "42-009",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bereken het gemiddelde gewicht van Adélie-vrouwen in gram, op twee decimalen.",
+      "answer": 3334.62,
+      "solution": [
+        "De som van de 26 gewichten is 86700 g.",
+        "$86700/26=3334{,}6154\\ldots$ g."
+      ],
+      "hints": [
+        "Controleer dat de noemer 26 is."
+      ],
+      "tolerance": 0.005,
+      "id": "42-010",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bereken het verschil man min vrouw op twee decimalen. Gebruik onafgeronde gemiddelden.",
+      "answer": 660.58,
+      "solution": [
+        "$3995{,}1923077-3334{,}6153846=660{,}5769231$ g."
+      ],
+      "hints": [
+        "Rond de twee gemiddelden niet afzonderlijk af."
+      ],
+      "tolerance": 0.005,
+      "id": "42-011",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "De groepsstandaardafwijkingen zijn 392,493263 en 282,495745 g, beide n=26. Geef de Welch-SE van het verschil op twee decimalen.",
+      "answer": 94.84,
+      "solution": [
+        "$SE=\\sqrt{392{,}493263^2/26+282{,}495745^2/26}\\approx94{,}84$ g."
+      ],
+      "hints": [
+        "Combineer varianties van gemiddelden, niet standaardafwijkingen."
+      ],
+      "tolerance": 0.005,
+      "id": "42-012",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Met verschil 660,576923 en SE=94,838893: bereken t op drie decimalen tegen verschil nul.",
+      "answer": 6.965,
+      "solution": [
+        "$t=660{,}576923/94{,}838893=6{,}965253\\ldots$."
+      ],
+      "hints": [
+        "Deel het effect door zijn standaardfout."
+      ],
+      "tolerance": 0.0005,
+      "id": "42-013",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "De referentieanalyse geeft een 95%-interval [469,61;851,54] g. Formuleer een conclusie met de beperkingen van deze velddata.",
+      "answer": "Onder het Welch-model is het gemiddelde gewicht bij de gemeten Adélie-mannen hoger dan bij de vrouwen, met een geschat verschil van ongeveer 661 g. De selectie en mogelijke afhankelijkheid beperken generalisatie; geslacht is niet gerandomiseerd.",
+      "solution": [
+        "Het interval sluit nul uit onder de modelaannames.",
+        "De veldselectie vormt geen bewijs van een causaal effect en dekt niet automatisch alle pinguïns."
+      ],
+      "hints": [
+        "Noem effect, interval, analysepopulatie en ontwerp."
+      ],
+      "min_length": 60,
+      "id": "42-014",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Waarom vergelijk je voor de primaire geslachtsvraag binnen Adélie in plaats van alle soorten door elkaar?",
+      "answer": "Soorten verschillen in lichaamsgewicht en samenstelling. Binnen één soort beperk je die vermenging; een totaalverschil kan door soortverschillen en ongelijke aantallen ontstaan.",
+      "solution": [
+        "Soort kan de vergelijking verstoren.",
+        "Binnen Adélie blijven andere beperkingen, zoals selectie en eiland, bestaan."
+      ],
+      "hints": [
+        "Is de soortverdeling in de groepen hetzelfde?"
+      ],
+      "min_length": 60,
+      "id": "42-015",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Voor Adélie voorspelt de regressie gewicht uit vleugellengte. De helling is 38,654806 g/mm. Geef haar op twee decimalen.",
+      "answer": 38.65,
+      "solution": [
+        "$38{,}654806\\ldots$ rondt af naar $38{,}65$ g/mm."
+      ],
+      "hints": [
+        "Een helling heeft eenheden van y per eenheid x."
+      ],
+      "tolerance": 0.005,
+      "id": "42-016",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Voor deze regressie is r=0,505724834. Bereken R² op vier decimalen.",
+      "answer": 0.2558,
+      "solution": [
+        "$r^2=0{,}255757608\\ldots$, dus 0,2558."
+      ],
+      "hints": [
+        "Kwadrateer r voordat je afrondt."
+      ],
+      "tolerance": 5e-05,
+      "id": "42-017",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Betekent de regressiehelling dat een vleugel met 1 mm laten groeien de pinguïn 38,65 gram zwaarder maakt?",
+      "answer": "Nee. De helling beschrijft een observationeel verband tussen dieren. Lichaamsbouw, geslacht en andere kenmerken kunnen beide grootheden beïnvloeden; er is geen gerandomiseerde ingreep.",
+      "solution": [
+        "Voorspelling is geen interventie.",
+        "De lineaire samenhang bewijst geen causale richting."
+      ],
+      "hints": [
+        "Is er een experiment uitgevoerd?"
+      ],
+      "min_length": 60,
+      "id": "42-018",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Schrijf de onderdelen van je onderzoeksrapport: vraag, selectie, methode, resultaat en beperkingen.",
+      "answer": "Een reproduceerbaar rapport noemt de vraag en doelgroep, de dataset en selectie, controles en aannames, de gekozen berekening met eenheden, effect en onzekerheid, en grenzen van de conclusie.",
+      "solution": [
+        "Geef een navolgbare volgorde van vraag naar conclusie.",
+        "Noem uitval, aannames en verkennende keuzes expliciet."
+      ],
+      "hints": [
+        "Wat heeft iemand nodig om jouw analyse na te doen?"
+      ],
+      "min_length": 60,
+      "id": "42-019",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "text",
+      "difficulty": 5,
+      "question": "Ontwerp een vervolgonderzoek dat de grootste beperkingen van deze analyse vermindert.",
+      "answer": "Bepaal vooraf een populatie en steekproefkader, selecteer dieren op een verantwoord bemonsteringsplan, registreer eiland, soort en geslacht, voorkom herhaalde waarnemingen als onafhankelijke dieren, en leg vraag en analyse vooraf vast.",
+      "solution": [
+        "Verbreed de verzameling alleen met een helder ontwerp.",
+        "Maak clustering, herhaalde metingen en ontbrekende data zichtbaar; randomiseer alleen waar dat inhoudelijk mogelijk en verantwoord is."
+      ],
+      "hints": [
+        "Meer rijen helpen alleen wanneer selectie en afhankelijkheid goed zijn behandeld."
+      ],
+      "min_length": 60,
+      "id": "42-020",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "challenge"
+    }
+  ]
+}

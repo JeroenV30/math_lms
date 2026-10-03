@@ -1,0 +1,224 @@
+{
+  "title": "Hoofdstuktoets – Kansverdelingen",
+  "intro": "15 vragen zonder hints. Vanaf 70% is de module afgerond; vanaf 85% beheerst. Rond pas je eindantwoord af zoals de vraag aangeeft.",
+  "questions": [
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "X∼Bin(5;0,5). Geef E(X).",
+      "answer": 2.5,
+      "solution": [
+        "$5\\cdot0{,}5=2{,}5$."
+      ],
+      "tolerance": 0.005,
+      "id": "37-T01",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Voor dezelfde X: geef Var(X).",
+      "answer": 1.25,
+      "solution": [
+        "$5\\cdot0{,}5\\cdot0{,}5=1{,}25$."
+      ],
+      "tolerance": 0.005,
+      "id": "37-T02",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "type": "fraction",
+      "difficulty": 2,
+      "question": "Voor dezelfde X: geef P(X=5) als breuk.",
+      "answer": "1/32",
+      "solution": [
+        "$(1/2)^5=1/32$."
+      ],
+      "id": "37-T03",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "type": "fraction",
+      "difficulty": 2,
+      "question": "Voor dezelfde X: geef P(X=1) als breuk.",
+      "answer": "5/32",
+      "solution": [
+        "Vijf mogelijke posities, elk met kans 1/32."
+      ],
+      "id": "37-T04",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "type": "fraction",
+      "difficulty": 2,
+      "question": "Voor dezelfde X: geef P(X≥1) als breuk.",
+      "answer": "31/32",
+      "solution": [
+        "$1-P(X=0)=1-1/32=31/32$."
+      ],
+      "id": "37-T05",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "X∼Bin(80;0,25). Geef E(X).",
+      "answer": 20,
+      "solution": [
+        "$80\\cdot0{,}25=20$."
+      ],
+      "id": "37-T06",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Voor die verdeling: geef Var(X).",
+      "answer": 15,
+      "solution": [
+        "$80\\cdot0{,}25\\cdot0{,}75=15$."
+      ],
+      "id": "37-T07",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Normaal model: μ=60, σ=8. Geef de z-score van 48.",
+      "answer": -1.5,
+      "solution": [
+        "$(48-60)/8=-1{,}5$."
+      ],
+      "tolerance": 0.005,
+      "id": "37-T08",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bij dat model: welke waarde hoort bij z=2?",
+      "answer": 76,
+      "solution": [
+        "$60+2\\cdot8=76$."
+      ],
+      "id": "37-T09",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Gebruik Φ(2)=0,9772. Geef P(Z>2).",
+      "answer": 0.0228,
+      "solution": [
+        "$1-0{,}9772=0{,}0228$."
+      ],
+      "tolerance": 5e-05,
+      "id": "37-T10",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Gebruik Φ(2)=0,9772 en Φ(−2)=0,0228. Geef P(−2≤Z≤2).",
+      "answer": 0.9544,
+      "solution": [
+        "$0{,}9772-0{,}0228=0{,}9544$."
+      ],
+      "tolerance": 5e-05,
+      "id": "37-T11",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Welke continue ondergrens hoort bij de binomiale gebeurtenis X≥12?",
+      "answer": 11.5,
+      "solution": [
+        "Alle aantallen vanaf 12 worden vanaf 11,5 benaderd."
+      ],
+      "tolerance": 0.005,
+      "id": "37-T12",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Welke continue bovengrens hoort bij X<12?",
+      "answer": 11.5,
+      "solution": [
+        "X<12 betekent X≤11; de grens is 11,5."
+      ],
+      "tolerance": 0.005,
+      "id": "37-T13",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een normale verdeling heeft σ=3. Geef de variantie.",
+      "answer": 9,
+      "solution": [
+        "Variantie is $\\sigma^2=9$."
+      ],
+      "id": "37-T14",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 4,
+      "question": "Normaal model: μ=40, σ=5. Geef de ondergrens van het centrale 95%-interval met factor 1,96.",
+      "answer": 30.2,
+      "solution": [
+        "$40-1{,}96\\cdot5=30{,}2$."
+      ],
+      "tolerance": 0.005,
+      "id": "37-T15",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "exercises": [
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een fabriek heeft 5% defecte onderdelen. Hoeveel verwacht je er in een denkbeeldige groep van 1000?",
+      "answer": 50,
+      "solution": [
+        "$0{,}05\\cdot1000=50$."
+      ],
+      "hints": [
+        "Een basisfrequentie wordt een aantal door met de groepsgrootte te vermenigvuldigen."
+      ],
+      "id": "41-001",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een sensor meldt alarm bij 90% van de defecte onderdelen. Hoeveel alarmen verwacht je onder 50 defecte onderdelen?",
+      "answer": 45,
+      "solution": [
+        "$0{,}9\\cdot50=45$."
+      ],
+      "hints": [
+        "Dit is een kans gegeven een defect."
+      ],
+      "id": "41-002",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "De sensor geeft ook bij 10% van de 950 goede onderdelen alarm. Hoeveel valse alarmen verwacht je?",
+      "answer": 95,
+      "solution": [
+        "$0{,}1\\cdot950=95$."
+      ],
+      "hints": [
+        "De goede onderdelen vormen een andere referentiegroep."
+      ],
+      "id": "41-003",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "fraction",
+      "difficulty": 2,
+      "question": "Er zijn 45 juiste en 95 valse alarmen. Geef de kans op een defect gegeven alarm als breuk.",
+      "answer": "9/28",
+      "solution": [
+        "$45/(45+95)=45/140=9/28$."
+      ],
+      "hints": [
+        "Selecteer eerst alle alarmen; hoeveel daarvan zijn echt defect?"
+      ],
+      "id": "41-004",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Geef voor dezelfde sensor de totale alarmkans.",
+      "answer": 0.14,
+      "solution": [
+        "$0{,}9\\cdot0{,}05+0{,}1\\cdot0{,}95=0{,}14$."
+      ],
+      "hints": [
+        "Tel de defecte en goede route naar een alarm op."
+      ],
+      "tolerance": 0.005,
+      "id": "41-005",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Waarom is 90% detectiekans niet gelijk aan de kans dat een onderdeel met alarm defect is?",
+      "answer": "De 90% geldt binnen de defecte onderdelen. De posterior geldt binnen alle alarmen en hangt ook af van de basisfrequentie en valse alarmen.",
+      "solution": [
+        "$P(A\\mid D)$ en $P(D\\mid A)$ hebben verschillende voorwaarden.",
+        "De grote groep goede onderdelen kan veel valse alarmen leveren."
+      ],
+      "hints": [
+        "Vergelijk de twee groepen waarop je conditioneert."
+      ],
+      "min_length": 60,
+      "id": "41-006",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "P(H)=0,2, P(D|H)=0,8 en P(D|niet H)=0,1. Bereken P(D).",
+      "answer": 0.24,
+      "solution": [
+        "$0{,}8\\cdot0{,}2+0{,}1\\cdot0{,}8=0{,}24$."
+      ],
+      "hints": [
+        "Gebruik beide hypothesen in de totale-kansregel."
+      ],
+      "tolerance": 0.005,
+      "id": "41-007",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "fraction",
+      "difficulty": 2,
+      "question": "Met dezelfde gegevens: geef P(H|D) als breuk.",
+      "answer": "2/3",
+      "solution": [
+        "$0{,}16/0{,}24=2/3$."
+      ],
+      "hints": [
+        "De teller is P(D|H) maal P(H)."
+      ],
+      "id": "41-008",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Geef de prior odds bij P(H)=0,2.",
+      "answer": 0.25,
+      "solution": [
+        "$0{,}2/0{,}8=0{,}25$."
+      ],
+      "hints": [
+        "Odds zijn kans gedeeld door complement."
+      ],
+      "tolerance": 0.005,
+      "id": "41-009",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Geef de likelihoodratio bij kansen 0,8 onder H en 0,1 onder niet H.",
+      "answer": 8,
+      "solution": [
+        "$0{,}8/0{,}1=8$."
+      ],
+      "hints": [
+        "Deel de kans op dezelfde data onder de twee hypothesen."
+      ],
+      "id": "41-010",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Prior odds 0,25 en likelihoodratio 8. Geef de posterior odds.",
+      "answer": 2,
+      "solution": [
+        "$0{,}25\\cdot8=2$."
+      ],
+      "hints": [
+        "Odds worden vermenigvuldigd met de likelihoodratio."
+      ],
+      "id": "41-011",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "fraction",
+      "difficulty": 2,
+      "question": "Posterior odds zijn 2. Geef de posterior kans als breuk.",
+      "answer": "2/3",
+      "solution": [
+        "$p=2/(1+2)=2/3$."
+      ],
+      "hints": [
+        "Kans is odds gedeeld door 1 plus odds."
+      ],
+      "id": "41-012",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Prior odds 1; twee signalen hebben elk LR=3 en zijn conditioneel onafhankelijk onder beide hypothesen. Geef de posterior kans.",
+      "answer": 0.9,
+      "solution": [
+        "Posterior odds $1\\cdot3\\cdot3=9$.",
+        "Kans $9/(1+9)=0{,}9$."
+      ],
+      "hints": [
+        "Werk de odds tweemaal bij."
+      ],
+      "tolerance": 0.005,
+      "id": "41-013",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Waarom mag je twee identieke kopieën van hetzelfde alarm niet als onafhankelijk bewijs meetellen?",
+      "answer": "De tweede kopie bevat geen nieuwe informatie. De twee berichten zijn afhankelijk gegeven de hypothese; dubbel vermenigvuldigen overschat het bewijs.",
+      "solution": [
+        "Gebruik de kans op het gezamenlijke bewijs.",
+        "Een gekopieerd signaal verandert de posterior niet opnieuw."
+      ],
+      "hints": [
+        "Heb je een tweede meting of alleen een tweede bericht?"
+      ],
+      "min_length": 60,
+      "id": "41-014",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een Beta(1;1)-prior wordt bijgewerkt met 7 successen en 3 mislukkingen. Geef de eerste posteriorparameter.",
+      "answer": 8,
+      "solution": [
+        "$a+k=1+7=8$."
+      ],
+      "hints": [
+        "Successen worden bij de eerste parameter opgeteld."
+      ],
+      "id": "41-015",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Geef de tweede posteriorparameter in hetzelfde voorbeeld.",
+      "answer": 4,
+      "solution": [
+        "$b+n-k=1+3=4$."
+      ],
+      "hints": [
+        "Mislukkingen worden bij de tweede parameter opgeteld."
+      ],
+      "id": "41-016",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "fraction",
+      "difficulty": 2,
+      "question": "Geef het gemiddelde van de Beta(8;4)-posterior als breuk.",
+      "answer": "2/3",
+      "solution": [
+        "$8/(8+4)=8/12=2/3$."
+      ],
+      "hints": [
+        "Een Beta-gemiddelde is a/(a+b)."
+      ],
+      "id": "41-017",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Een Beta(2;2)-prior ziet dezelfde 7 successen en 3 mislukkingen. Geef het posteriorgemiddelde op vier decimalen.",
+      "answer": 0.6429,
+      "solution": [
+        "Posterior Beta(9;5).",
+        "$9/14=0{,}642857\\ldots$."
+      ],
+      "hints": [
+        "Werk eerst beide parameters bij."
+      ],
+      "tolerance": 5e-05,
+      "id": "41-018",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Leg uit hoe een 95%-credible interval verschilt van een frequentistisch 95%-betrouwbaarheidsinterval.",
+      "answer": "Een credible interval bevat onder prior en likelihood 95% van de posteriorkans voor de parameter. Een frequentistisch interval heeft een dekkingsgraad bij herhaalde steekproeven.",
+      "solution": [
+        "Het eerste conditioneert op de waargenomen data en het gekozen model.",
+        "Het tweede beoordeelt een herhaalbare intervalprocedure."
+      ],
+      "hints": [
+        "Waar hoort de kans of dekking bij in elk kader?"
+      ],
+      "min_length": 60,
+      "id": "41-019",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 5,
+      "question": "Machine A maakt 60% van de producten met 1% defecten; B maakt 40% met 4% defecten. Een product is defect. Geef P(B|defect) op vier decimalen.",
+      "answer": 0.7273,
+      "solution": [
+        "Defect via A: $0{,}6\\cdot0{,}01=0{,}006$.",
+        "Defect via B: $0{,}4\\cdot0{,}04=0{,}016$.",
+        "Posterior $0{,}016/(0{,}006+0{,}016)=8/11\\approx0{,}7273$."
+      ],
+      "hints": [
+        "Weeg de defectkansen eerst met de productieaandelen."
+      ],
+      "tolerance": 5e-05,
+      "id": "41-020",
+      "topics": [
+        "bayes",
+        "probability"
+      ],
+      "mode": "challenge"
+    }
+  ]
+}

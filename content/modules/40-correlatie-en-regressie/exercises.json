@@ -1,0 +1,385 @@
+{
+  "exercises": [
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Punten: (1;2), (2;4), (3;5), (4;4), (5;5). Bereken x̄.",
+      "answer": 3,
+      "solution": [
+        "$(1+2+3+4+5)/5=3$."
+      ],
+      "hints": [
+        "Bereken het gemiddelde van de x-waarden."
+      ],
+      "id": "40-001",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bij dezelfde punten: bereken ȳ.",
+      "answer": 4,
+      "solution": [
+        "$(2+4+5+4+5)/5=4$."
+      ],
+      "hints": [
+        "Bereken het gemiddelde van de y-waarden."
+      ],
+      "id": "40-002",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bereken Sxx bij x=1,2,3,4,5 en x̄=3.",
+      "answer": 10,
+      "solution": [
+        "Afwijkingen −2,−1,0,1,2.",
+        "Kwadraten $4+1+0+1+4=10$."
+      ],
+      "hints": [
+        "Kwadrateer de afwijkingen van het gemiddelde."
+      ],
+      "id": "40-003",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bereken Syy bij y=2,4,5,4,5 en ȳ=4.",
+      "answer": 6,
+      "solution": [
+        "Afwijkingen −2,0,1,0,1.",
+        "Kwadraten $4+0+1+0+1=6$."
+      ],
+      "hints": [
+        "De berekening is hetzelfde als voor Sxx."
+      ],
+      "id": "40-004",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bereken Sxy voor deze vijf punten.",
+      "answer": 6,
+      "solution": [
+        "Producten van afwijkingen: $4,0,0,0,2$.",
+        "Som $6$."
+      ],
+      "hints": [
+        "Vermenigvuldig per punt de x-afwijking met de y-afwijking."
+      ],
+      "id": "40-005",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Gebruik Sxy=6, Sxx=10 en Syy=6. Geef Pearson r op drie decimalen.",
+      "answer": 0.775,
+      "solution": [
+        "$r=6/\\sqrt{60}=0{,}774597\\ldots$."
+      ],
+      "hints": [
+        "Deel Sxy door √(Sxx·Syy)."
+      ],
+      "tolerance": 0.0005,
+      "id": "40-006",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Gebruik Sxy=6 en Sxx=10. Bereken de helling b1.",
+      "answer": 0.6,
+      "solution": [
+        "$b_1=6/10=0{,}6$."
+      ],
+      "hints": [
+        "De helling is Sxy/Sxx."
+      ],
+      "tolerance": 0.005,
+      "id": "40-007",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Gebruik x̄=3, ȳ=4 en b1=0,6. Bereken het intercept.",
+      "answer": 2.2,
+      "solution": [
+        "$b_0=4-0{,}6\\cdot3=2{,}2$."
+      ],
+      "hints": [
+        "De lijn gaat door het gemiddelde punt."
+      ],
+      "tolerance": 0.005,
+      "id": "40-008",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "De lijn is ŷ=2,2+0,6x. Bereken de voorspelling bij x=4.",
+      "answer": 4.6,
+      "solution": [
+        "$2{,}2+0{,}6\\cdot4=4{,}6$."
+      ],
+      "hints": [
+        "Vul x=4 in."
+      ],
+      "tolerance": 0.005,
+      "id": "40-009",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij x=4 was y=4. Geef het residu tegenover de voorspelling 4,6.",
+      "answer": -0.6,
+      "solution": [
+        "$y-\\hat y=4-4{,}6=-0{,}6$."
+      ],
+      "hints": [
+        "Residu is waarneming min voorspelling."
+      ],
+      "tolerance": 0.005,
+      "id": "40-010",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Residuen zijn −0,8;0,6;1;−0,6;−0,2. Bereken SSE.",
+      "answer": 2.4,
+      "solution": [
+        "$0{,}64+0{,}36+1+0{,}36+0{,}04=2{,}4$."
+      ],
+      "hints": [
+        "Kwadrateer alle residuen en tel op."
+      ],
+      "tolerance": 0.005,
+      "id": "40-011",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Gebruik SSE=2,4 en Syy=6. Bereken R².",
+      "answer": 0.6,
+      "solution": [
+        "$1-2{,}4/6=0{,}6$."
+      ],
+      "hints": [
+        "R² is 1 min de onverklaarde fractie."
+      ],
+      "tolerance": 0.005,
+      "id": "40-012",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Een regressie met intercept heeft R²=0,6. Wat betekent dit wel en niet?",
+      "answer": "Het model verklaart in deze data 60% van de totale gekwadrateerde y-variatie. Het bewijst geen oorzaak en garandeert geen 60% nauwkeurigheid van individuele voorspellingen.",
+      "solution": [
+        "R² gaat over variatie in de gebruikte steekproef.",
+        "Het is geen maat voor causaliteit of toekomstige voorspellingszekerheid."
+      ],
+      "hints": [
+        "Waarmee wordt SSE in de definitie vergeleken?"
+      ],
+      "min_length": 60,
+      "id": "40-013",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij n=5 en SSE=2,4: bereken de residustandaardafwijking op drie decimalen.",
+      "answer": 0.894,
+      "solution": [
+        "$s_e=\\sqrt{2{,}4/(5-2)}=\\sqrt{0{,}8}=0{,}894427\\ldots$."
+      ],
+      "hints": [
+        "Er zijn twee regressieparameters geschat."
+      ],
+      "tolerance": 0.0005,
+      "id": "40-014",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Gebruik exact se=√0,8 en Sxx=10. Bereken SE(b1) op drie decimalen.",
+      "answer": 0.283,
+      "solution": [
+        "$\\sqrt{0{,}8}/\\sqrt{10}=\\sqrt{0{,}08}=0{,}282843\\ldots$."
+      ],
+      "hints": [
+        "Deel de residuspreiding door √Sxx."
+      ],
+      "tolerance": 0.0005,
+      "id": "40-015",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bij n=5: hoeveel vrijheidsgraden heeft de t-toets van een regressiehelling?",
+      "answer": 3,
+      "solution": [
+        "$n-2=3$."
+      ],
+      "hints": [
+        "Er zijn een intercept en een helling geschat."
+      ],
+      "id": "40-016",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "De residuen tonen een U-vorm. Wat betekent dit voor een rechte regressielijn?",
+      "answer": "Er blijft een systematisch krom patroon over. Een lineair model mist structuur; onderzoek een ander model in plaats van alleen de p-waarde van de helling te gebruiken.",
+      "solution": [
+        "Een passende lijn laat geen systematisch patroon in de residuen over.",
+        "Een U-vorm wijst op niet-lineariteit."
+      ],
+      "hints": [
+        "Welke vorm blijft onverklaard?"
+      ],
+      "min_length": 60,
+      "id": "40-017",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Gegevens hebben x tussen 10 en 20. Waarom is een voorspelling bij x=80 kwetsbaar?",
+      "answer": "Het is extrapolatie ver buiten het gemeten bereik. De lineaire relatie kan daar veranderen en de data onderbouwen de voorspelling niet.",
+      "solution": [
+        "Een goede fit binnen het bereik geeft geen garantie erbuiten.",
+        "Onderzoek het geldigheidsgebied van het model."
+      ],
+      "hints": [
+        "Ligt 80 tussen de gemeten waarden?"
+      ],
+      "min_length": 60,
+      "id": "40-018",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Kan Pearson r worden berekend als alle x-waarden gelijk zijn? Leg uit.",
+      "answer": "Nee. Sxx is nul, zodat de noemer in r nul is. De variabele x bevat geen variatie waarmee samenhang kan worden gemeten.",
+      "solution": [
+        "$S_{xx}=0$ maakt de formule ongedefinieerd.",
+        "Dat is niet hetzelfde als r=0."
+      ],
+      "hints": [
+        "Wat gebeurt er in de noemer?"
+      ],
+      "min_length": 60,
+      "id": "40-019",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 5,
+      "question": "Bij y=2x+3 voor variërende x: geef R² van regressie met intercept en verklaar waarom dit geen oorzaak bewijst.",
+      "answer": 1,
+      "solution": [
+        "Alle punten liggen op de lijn, dus SSE=0 en $R^2=1$.",
+        "Een exact verband kan nog steeds door een derde variabele of door constructie ontstaan."
+      ],
+      "hints": [
+        "Bereken de residuen van de exacte lijn."
+      ],
+      "id": "40-020",
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "mode": "challenge"
+    }
+  ]
+}

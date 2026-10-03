@@ -1,4 +1,4 @@
-import { formatNumber } from '../course';
+import { formatNumber } from '../course.js';
 
 const fmt = (v, d = 2) => (Number.isFinite(v) ? formatNumber(Math.abs(v) < 1e-12 ? 0 : v, d) : '—');
 const num = (v, fallback) => {

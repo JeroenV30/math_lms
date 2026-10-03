@@ -9,17 +9,28 @@ de geschiedenis van het wiskundige denken als leidraad. Gebouwd volgens
 
 ## Stand van zaken
 
-| Onderdeel | Status |
-|---|---|
-| Deel I – Fundamenten (modules 1–6) | Volledig: 43 lessen, 216 oefeningen, 6 toetsen (90 vragen) |
-| Deel II – Basisschool bovenbouw (modules 7–12) | Volledig: 47 lessen, 186 oefeningen, 6 toetsen (90 vragen) |
-| Deel III – VMBO / basis middelbaar (modules 13–18) | Volledig: 48 lessen, 180 oefeningen, 6 toetsen (90 vragen) |
-| Deel IV – HAVO (modules 19–24) | Volledig: 48 lessen, 180 oefeningen, 6 toetsen (90 vragen) |
-| Modules 25–42 | Metadata en opzet; inhoud volgt |
-| Historische tijdlijn | 60 gebeurtenissen |
-| Wiskundigenbibliotheek | 23 profielen |
-| Oefenengine | numeric, decimal, fraction, expression, coordinate, interval, multiple (+ foutenanalyse) |
-| Voortgang, beheersing, spaced repetition | Werkend |
+| Onderdeel | Inhoud | Diepgang |
+|---|---|---|
+| Deel I – Fundamenten (modules 1–6) | 43 lessen, 216 oefeningen, 90 toetsvragen | uitgebreid |
+| Deel II – Basisschool bovenbouw (modules 7–12) | 47 lessen, 186 oefeningen, 90 toetsvragen | compact |
+| Deel III – VMBO / basis middelbaar (modules 13–18) | 48 lessen, 180 oefeningen, 90 toetsvragen | compact |
+| Deel IV – HAVO (modules 19–24) | 48 lessen, 180 oefeningen, 90 toetsvragen | compact |
+| Deel V – VWO (modules 25–30) | 48 lessen, 208 oefeningen, 90 toetsvragen | uitgebreid: 28–30; compact: 25–27 |
+| Deel VI – Toegepaste wiskunde (modules 31–35) | 40 lessen, 190 oefeningen, 75 toetsvragen | uitgebreid |
+| Deel VII – HBO/WO statistiek (modules 36–42) | 49 lessen, 140 oefeningen, 105 toetsvragen | compact |
+| Historische tijdlijn | 60 gebeurtenissen | |
+| Wiskundigenbibliotheek | 23 profielen | |
+| Oefenengine | numeric, decimal, fraction, expression, coordinate, interval, multiple, text (+ foutenanalyse) | |
+| Voortgang, beheersing, spaced repetition | werkend | |
+
+Alle 42 modules zijn beschikbaar: samen 323 lessen, 1.300 oefeningen en 630
+toetsvragen. *Uitgebreid* betekent het volle niveau uit het bouwplan (ca. tien
+boekpagina's per module, veel uitgewerkte voorbeelden en foutenanalyse);
+*compact* modules zijn inhoudelijk correct en volledig bruikbaar, maar worden
+nog uitgebreid tot dat niveau. Open interpretatievragen worden opgeslagen voor vergelijking met
+modelantwoorden; ze tellen niet mee voor automatische beheersing. Het
+eindonderzoek bevat een echte lokale dataset, een uitgewerkt onderzoek en een
+rubric voor zelfbeoordeling van je eigen rapport.
 
 ## Installatie
 
@@ -36,6 +47,17 @@ php artisan serve           # http://127.0.0.1:8000
 ```
 
 Tijdens ontwikkelen in een tweede terminal `npm run dev` voor live herladen.
+
+### Starten met een dubbelklik (Windows)
+
+Na de installatie kun je dubbelklikken op [`start.bat`](start.bat). Het bestand
+bouwt de vormgeving en scripts, start de lokale server en opent de applicatie
+automatisch in je browser. Het kiest de eerste vrije poort vanaf 8000 (tot en
+met 8099). Als poort 8000 bezet is, opent het bijvoorbeeld
+<http://127.0.0.1:8001>. Het gekozen adres staat ook in het servervenster.
+Laat het servervenster open zolang je de applicatie gebruikt; sluit het om de
+server te stoppen. Je kunt ook een snelkoppeling naar `start.bat` op je
+bureaublad zetten.
 
 > De ingebouwde PHP-server verwerkt op Windows één verzoek tegelijk. Voor
 > dagelijks gebruik is dat prima; bij heel snel klikken kan een pagina even
@@ -88,6 +110,24 @@ php artisan content:validate
 php artisan test
 ```
 
+Voor de interactieve visualisaties (PowerShell):
+
+```powershell
+$javascriptTests = @(Get-ChildItem tests/JavaScript -Filter '*.test.mjs' | ForEach-Object { $_.FullName })
+node --test @javascriptTests
+```
+
+Voor de referentieanalyse van het eindonderzoek (optioneel, Python 3):
+
+```text
+python tests/Python/research_analysis_test.py
+python content/modules/42-eindonderzoek/analyse.py
+```
+
+De analyse gebruikt alleen de Python-standaardbibliotheek en leest de bestaande
+CSV. De datasetbron, CC0-licentie, jaarselectie en vertaalde kolommen zijn
+vastgelegd in `content/modules/42-eindonderzoek/dataset.json`.
+
 De engine-tests draaien op een kleine vaste testcursus (`tests/Fixtures/content`);
 `ContentIntegrityTest` valideert de echte content.
 
@@ -102,3 +142,14 @@ De engine-tests draaien op een kleine vaste testcursus (`tests/Fixtures/content`
 Accounts, cloud, AI-tutor, badges, rankings, CMS, docentomgeving en API
 (bouwplan §47). De database is zo opgezet dat later een `user_id` kan worden
 toegevoegd.
+
+## Toekomst: meer kennisdomeinen
+
+Deze cursus is het eerste domein van een bredere kaart van menselijke kennis.
+Later moet je kunnen navigeren tussen wiskunde en andere domeinen, zoals
+natuurkunde en scheikunde, biologie, aarde en ruimte, geschiedenis, filosofie,
+taal, technologie, kunst en maatschappij. De architectuur (content los van de
+applicatie) is daarop voorbereid: een domein is in principe een eigen
+`content/`-map met dezelfde structuur.
+
+![Kaart van menselijke kennis](docs/kennisdomeinen.jpg)

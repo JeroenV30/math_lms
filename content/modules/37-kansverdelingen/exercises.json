@@ -1,0 +1,383 @@
+{
+  "exercises": [
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Vier onafhankelijke eerlijke muntworpen: hoeveel mogelijke waarden heeft het aantal keer kop?",
+      "answer": 5,
+      "solution": [
+        "De waarden zijn 0,1,2,3,4: vijf mogelijkheden."
+      ],
+      "hints": [
+        "Ook nul keer kop is mogelijk."
+      ],
+      "id": "37-001",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "fraction",
+      "difficulty": 2,
+      "question": "Voor X∼Bin(4;0,5): bereken P(X=0) als breuk.",
+      "answer": "1/16",
+      "solution": [
+        "Alle vier worpen zijn munt: $(1/2)^4=1/16$."
+      ],
+      "hints": [
+        "Voor nul successen moet elke worp mislukken."
+      ],
+      "id": "37-002",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Voor dezelfde X: bereken P(X=2).",
+      "answer": 0.375,
+      "solution": [
+        "$\\binom42(0{,}5)^4=6/16=0{,}375$."
+      ],
+      "hints": [
+        "Er zijn zes manieren om twee posities voor kop te kiezen."
+      ],
+      "tolerance": 0.0005,
+      "id": "37-003",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Voor dezelfde X: bereken P(X≥1).",
+      "answer": 0.9375,
+      "solution": [
+        "$1-P(X=0)=1-1/16=15/16=0{,}9375$."
+      ],
+      "hints": [
+        "Gebruik het complement: geen enkele keer kop."
+      ],
+      "tolerance": 5e-05,
+      "id": "37-004",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "X∼Bin(20;0,3). Bereken E(X).",
+      "answer": 6,
+      "solution": [
+        "$np=20\\cdot0{,}3=6$."
+      ],
+      "hints": [
+        "Vermenigvuldig aantal proeven en succeskans."
+      ],
+      "id": "37-005",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Voor dezelfde X: bereken Var(X).",
+      "answer": 4.2,
+      "solution": [
+        "$20\\cdot0{,}3\\cdot0{,}7=4{,}2$."
+      ],
+      "hints": [
+        "Gebruik np(1−p), niet alleen np."
+      ],
+      "tolerance": 0.005,
+      "id": "37-006",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Wat is de standaardafwijking bij variantie 4,2? Geef twee decimalen.",
+      "answer": 2.05,
+      "solution": [
+        "$\\sqrt{4{,}2}\\approx2{,}05$."
+      ],
+      "hints": [
+        "De standaardafwijking is de wortel van de variantie."
+      ],
+      "tolerance": 0.005,
+      "id": "37-007",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Je trekt tien kaarten zonder terugleggen uit een klein spel. Leg uit waarom een binomiaal model meestal niet exact is.",
+      "answer": "De kans op een gewenste kaart verandert na elke trekking en de trekkingen zijn afhankelijk. De vaste succeskans en onafhankelijkheid ontbreken.",
+      "solution": [
+        "Zonder terugleggen verandert de samenstelling van het spel.",
+        "Bij een kleine populatie is een hypergeometrisch model geschikter."
+      ],
+      "hints": [
+        "Blijft de kans na elke trekking gelijk?"
+      ],
+      "min_length": 60,
+      "id": "37-008",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "X is normaal met μ=100 en σ=15. Geef de z-score van x=130.",
+      "answer": 2,
+      "solution": [
+        "$(130-100)/15=2$."
+      ],
+      "hints": [
+        "Trek μ af en deel door σ."
+      ],
+      "tolerance": 0.005,
+      "id": "37-009",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bij μ=100 en σ=15: welke x hoort bij z=−1?",
+      "answer": 85,
+      "solution": [
+        "$x=100-15=85$."
+      ],
+      "hints": [
+        "Werk terug met x=μ+zσ."
+      ],
+      "id": "37-010",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij een normale verdeling: wat is P(X≤μ)?",
+      "answer": 0.5,
+      "solution": [
+        "De verdeling is symmetrisch om μ."
+      ],
+      "hints": [
+        "Hoeveel oppervlakte ligt links van het midden?"
+      ],
+      "tolerance": 0.005,
+      "id": "37-011",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Gebruik Φ(1)=0,8413. Geef P(Z>1).",
+      "answer": 0.1587,
+      "solution": [
+        "$1-0{,}8413=0{,}1587$."
+      ],
+      "hints": [
+        "De totale oppervlakte is 1."
+      ],
+      "tolerance": 5e-05,
+      "id": "37-012",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Gebruik Φ(1)=0,8413 en Φ(−1)=0,1587. Geef P(−1≤Z≤1).",
+      "answer": 0.6826,
+      "solution": [
+        "$0{,}8413-0{,}1587=0{,}6826$."
+      ],
+      "hints": [
+        "Trek twee linkerstaartkansen van elkaar af."
+      ],
+      "tolerance": 5e-05,
+      "id": "37-013",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Ongeveer 95% ligt tussen μ−1,96σ en μ+1,96σ. Bereken de bovengrens bij μ=10, σ=2.",
+      "answer": 13.92,
+      "solution": [
+        "$10+1{,}96\\cdot2=13{,}92$."
+      ],
+      "hints": [
+        "Het gaat om de bovenkant van het centrale interval."
+      ],
+      "tolerance": 0.005,
+      "id": "37-014",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "X∼Bin(100;0,5) wordt normaal benaderd. Welke bovengrens gebruik je voor P(X≤60)?",
+      "answer": 60.5,
+      "solution": [
+        "De waarden tot en met 60 worden met oppervlakte tot 60,5 benaderd."
+      ],
+      "hints": [
+        "Plaats de grens tussen de gehele waarden 60 en 61."
+      ],
+      "tolerance": 0.005,
+      "id": "37-015",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Voor dezelfde benadering: μ=50 en σ=5. Geef de gecorrigeerde z-grens voor X≤60.",
+      "answer": 2.1,
+      "solution": [
+        "$(60{,}5-50)/5=2{,}1$."
+      ],
+      "hints": [
+        "Gebruik de grens 60,5."
+      ],
+      "tolerance": 0.005,
+      "id": "37-016",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "X∼Bin(10;0,1). Leg uit waarom de normale benadering hier niet overtuigend is.",
+      "answer": "Het verwachte aantal successen is slechts 1. De binomiale verdeling is sterk scheef en de normale benadering kan slecht werken.",
+      "solution": [
+        "$np=1$ en $n(1-p)=9$.",
+        "Beide zijn niet minstens 10; gebruik de exacte binomiale kansen."
+      ],
+      "hints": [
+        "Controleer np en n(1−p)."
+      ],
+      "min_length": 60,
+      "id": "37-017",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Voor X∼Bin(10;0,1): bereken P(X=0) op vier decimalen.",
+      "answer": 0.3487,
+      "solution": [
+        "$0{,}9^{10}=0{,}348678\\ldots$, afgerond 0,3487."
+      ],
+      "hints": [
+        "Alle tien proeven moeten mislukken."
+      ],
+      "tolerance": 5e-05,
+      "id": "37-018",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Een normaal model heeft μ=500, σ=20. Gebruik Φ(1,5)=0,9332. Bereken de kans op meer dan 530.",
+      "answer": 0.0668,
+      "solution": [
+        "$z=(530-500)/20=1{,}5$.",
+        "Rechterstaart $1-0{,}9332=0{,}0668$."
+      ],
+      "hints": [
+        "Zet eerst 530 om naar een z-score."
+      ],
+      "tolerance": 5e-05,
+      "id": "37-019",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "fraction",
+      "difficulty": 5,
+      "question": "Bij X∼Bin(4;0,5) is bekend dat minstens één keer kop valt. Geef P(X=4 | X≥1) als breuk.",
+      "answer": "1/15",
+      "solution": [
+        "$P(X=4)=1/16$ en $P(X\\ge1)=15/16$.",
+        "De voorwaardelijke kans is $(1/16)/(15/16)=1/15$."
+      ],
+      "hints": [
+        "Deel de kans op vier successen door de kans op de voorwaarde."
+      ],
+      "id": "37-020",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "mode": "challenge"
+    }
+  ]
+}

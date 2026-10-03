@@ -1,0 +1,16 @@
+{
+  "file": "/datasets/m42-pinguins-palmer-2009.csv",
+  "title": "Palmer Penguins — selectie jaar 2009",
+  "authors": [
+    "Kristen Gorman",
+    "Palmer Station LTER",
+    "Allison Horst",
+    "Alison Hill",
+    "Kristen Gorman"
+  ],
+  "license": "CC0",
+  "source": "https://allisonhorst.github.io/palmerpenguins/",
+  "data_source": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/main/inst/extdata/penguins.csv",
+  "selection": "Alle rijen met year=2009, in bronvolgorde; 120 waarnemingen. Kolommen en geslacht vertaald; lokaal volgnummer toegevoegd. NA-codes behouden.",
+  "citation": "Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarctica) penguin data. DOI: 10.5281/zenodo.3960218."
+}

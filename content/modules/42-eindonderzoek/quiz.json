@@ -1,0 +1,242 @@
+{
+  "title": "Hoofdstuktoets – Eindonderzoek",
+  "intro": "15 vragen zonder hints. Vanaf 70% is de module afgerond; vanaf 85% beheerst. Rond pas je eindantwoord af zoals de vraag aangeeft.",
+  "questions": [
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "De dataset heeft 120 dieren, waarvan 52 Adélie. Hoeveel zijn geen Adélie?",
+      "answer": 68,
+      "solution": [
+        "$120-52=68$."
+      ],
+      "id": "42-T01",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Er zijn 44 Gentoo-dieren met één ontbrekend gewicht. Hoeveel geldige Gentoo-gewichten zijn er?",
+      "answer": 43,
+      "solution": [
+        "$44-1=43$."
+      ],
+      "id": "42-T02",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Geef het percentage Adélie in de dataset op twee decimalen.",
+      "answer": 43.33,
+      "solution": [
+        "$52/120\\cdot100=43{,}33\\%$."
+      ],
+      "tolerance": 0.005,
+      "id": "42-T03",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Geef het percentage ontbrekende geslachtswaarden bij 3 uit 120.",
+      "answer": 2.5,
+      "solution": [
+        "$3/120\\cdot100=2{,}5\\%$."
+      ],
+      "tolerance": 0.005,
+      "id": "42-T04",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Van 119 geldige gewichten is de som 501025 g. Geef het gemiddelde op twee decimalen.",
+      "answer": 4210.29,
+      "solution": [
+        "$501025/119=4210{,}2941\\ldots$ g."
+      ],
+      "tolerance": 0.005,
+      "id": "42-T05",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "De Adélie-groepen hebben beide n=26. Hoeveel dieren gebruikt de Welch-vergelijking?",
+      "answer": 52,
+      "solution": [
+        "$26+26=52$."
+      ],
+      "id": "42-T06",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Adélie-gemiddelden zijn 3995,1923077 en 3334,6153846 g. Geef het verschil in kilogram op vier decimalen.",
+      "answer": 0.6606,
+      "solution": [
+        "Verschil 660,5769231 g; delen door 1000 geeft 0,6605769 kg."
+      ],
+      "tolerance": 5e-05,
+      "id": "42-T07",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Geef dat verschil als percentage van het vrouwengemiddelde, op twee decimalen.",
+      "answer": 19.81,
+      "solution": [
+        "$660{,}5769231/3334{,}6153846\\cdot100\\approx19{,}81\\%$."
+      ],
+      "tolerance": 0.005,
+      "id": "42-T08",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "De SE van het verschil is 94,838893 g. Geef dit in kilogram op vier decimalen.",
+      "answer": 0.0948,
+      "solution": [
+        "$94{,}838893/1000=0{,}094838893$ kg."
+      ],
+      "tolerance": 5e-05,
+      "id": "42-T09",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Het 95%-interval is [469,61;851,54] g. Geef de breedte op twee decimalen.",
+      "answer": 381.93,
+      "solution": [
+        "$851{,}54-469{,}61=381{,}93$ g."
+      ],
+      "tolerance": 0.005,
+      "id": "42-T10",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "De Adélie-regressie gebruikt 52 dieren. Geef de vrijheidsgraden voor klassieke hellinginferentie.",
+      "answer": 50,
+      "solution": [
+        "$52-2=50$."
+      ],
+      "id": "42-T11",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Het model is ŷ=−3759,79244694+38,65480649x. Geef de voorspelde massa bij x=200 mm, op twee decimalen.",
+      "answer": 3971.17,
+      "solution": [
+        "$-3759{,}79244694+38{,}65480649\\cdot200=3971{,}168851$ g."
+      ],
+      "tolerance": 0.005,
+      "id": "42-T12",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "De waargenomen massa bij die vleugellengte is 4100 g. Geef het residu op twee decimalen.",
+      "answer": 128.83,
+      "solution": [
+        "$4100-3971{,}168851=128{,}831149$ g."
+      ],
+      "tolerance": 0.005,
+      "id": "42-T13",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "R²=0,255757608. Hoeveel procent van de y-variatie verklaart de lijn in deze data? Geef twee decimalen.",
+      "answer": 25.58,
+      "solution": [
+        "$0{,}255757608\\cdot100=25{,}5757608\\%$."
+      ],
+      "tolerance": 0.005,
+      "id": "42-T14",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 4,
+      "question": "Dezelfde dataset in gram wordt in kilogram omgerekend. Met welke factor verandert de regressiehelling bij dezelfde x-eenheid?",
+      "answer": 0.001,
+      "solution": [
+        "Elke y-waarde wordt door 1000 gedeeld; de helling dus ook."
+      ],
+      "tolerance": 5e-07,
+      "id": "42-T15",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    }
+  ]
+}

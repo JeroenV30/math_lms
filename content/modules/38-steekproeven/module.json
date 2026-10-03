@@ -4,22 +4,123 @@
   "title": "Steekproeven",
   "part": 7,
   "level": "wo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "20e eeuw",
   "estimated_difficulty": 5,
-  "estimated_minutes": 90,
+  "estimated_minutes": 180,
   "prerequisites": [
     37
   ],
   "topics": [
     "sampling"
   ],
-  "core_question": null,
-  "summary": "Steekproeffout, standaardfout en betrouwbaarheidsinterval.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Hoeveel onzekerheid blijft er over als je maar een deel van een populatie meet?",
+  "summary": "Steekproefontwerp, selectievertekening, standaardfout, centrale limietstelling en betrouwbaarheidsintervallen voor gemiddelden en proporties.",
+  "learning_goals": [
+    "Je onderscheidt populatie, steekproef, parameter en schatting.",
+    "Je herkent selectievertekening en maakt onderscheid tussen loting voor selectie en voor behandeling.",
+    "Je berekent en interpreteert standaardfouten en het effect van steekproefgrootte.",
+    "Je berekent z- en t-intervallen voor een gemiddelde onder expliciete voorwaarden.",
+    "Je interpreteert een betrouwbaarheidsinterval als een eigenschap van een herhaalbare procedure."
+  ],
+  "glossary": [
+    {
+      "term": "Populatie",
+      "definition": "De verzameling eenheden waarover je een uitspraak wilt doen."
+    },
+    {
+      "term": "Parameter",
+      "definition": "Een onbekende eigenschap van de populatie, bijvoorbeeld het gemiddelde μ."
+    },
+    {
+      "term": "Schatting",
+      "definition": "Een uit een steekproef berekend getal dat een parameter benadert."
+    },
+    {
+      "term": "Standaardfout",
+      "definition": "De standaardafwijking van de verdeling van een schatter over herhaalde steekproeven."
+    },
+    {
+      "term": "Selectievertekening",
+      "definition": "Een systematisch verschil tussen de bemonsterde eenheden en de beoogde populatie."
+    },
+    {
+      "term": "Betrouwbaarheidsinterval",
+      "definition": "Een interval uit een procedure die onder haar aannames bij herhaling een gekozen aandeel van de keren de parameter bevat."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Standaardfout van het gemiddelde",
+      "latex": "SE(\\bar X)=\\frac{\\sigma}{\\sqrt n}\\approx\\frac{s}{\\sqrt n}",
+      "usage": "Voor onafhankelijke, identiek verdeelde waarnemingen met eindige variantie."
+    },
+    {
+      "name": "t-interval",
+      "latex": "\\bar x\\pm t_{1-\\alpha/2,n-1}\\frac{s}{\\sqrt n}",
+      "usage": "Bij onbekende σ; exact voor onafhankelijke normale waarnemingen."
+    },
+    {
+      "name": "Standaardfout van een proportie",
+      "latex": "\\widehat{SE}(\\hat p)=\\sqrt{\\frac{\\hat p(1-\\hat p)}n}",
+      "usage": "Bij onafhankelijke Bernoulli-waarnemingen."
+    },
+    {
+      "name": "Steekproefgrootte bij bekende σ",
+      "latex": "n\\ge\\left(\\frac{1{,}96\\sigma}{m}\\right)^2",
+      "usage": "Voor een normale 95%-marge van hoogstens m; rond n naar boven af."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Waarom bestaat deze wiskunde?",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "theorie-a",
+      "title": "Wie meet je, en over wie wil je iets zeggen?",
+      "file": "02-theorie-a.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "theorie-b",
+      "title": "Standaardfout en centrale limietstelling",
+      "file": "03-theorie-b.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "theorie-c",
+      "title": "Betrouwbaarheidsintervallen",
+      "file": "03b-theorie-c.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Historisch intermezzo",
+      "file": "04-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Toepassen en kritisch redeneren",
+      "file": "05-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en hoofdstuktoets",
+      "file": "06-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "graunt-sterftetafels",
+    "gosset-student",
+    "neyman-pearson"
+  ],
+  "mathematicians": [
+    "neyman"
+  ]
 }

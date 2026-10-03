@@ -1,0 +1,378 @@
+{
+  "exercises": [
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een aselecte steekproef bevat 80 studenten uit een opleiding met 1200 studenten. Wat is de steekproefgrootte?",
+      "answer": 80,
+      "solution": [
+        "De steekproef bevat 80 van de 1200 studenten."
+      ],
+      "hints": [
+        "De populatiegrootte en steekproefgrootte zijn verschillende getallen."
+      ],
+      "id": "38-001",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Een vrijwillige online enquête heeft 20000 reacties. Leg uit waarom dat geen representativiteit garandeert.",
+      "answer": "Vrijwillige deelnemers kunnen systematisch verschillen van niet-deelnemers. Een groot aantal vermindert toevalsvariatie maar herstelt selectievertekening niet.",
+      "solution": [
+        "Zelfselectie bepaalt wie reageert.",
+        "Veel reacties maken een vertekende selectie niet aselect."
+      ],
+      "hints": [
+        "Wie besluit om de vragenlijst in te vullen?"
+      ],
+      "min_length": 60,
+      "id": "38-002",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een steekproef van 60 personen heeft gemiddelde 42. Welke waarde is hier de schatting van μ?",
+      "answer": 42,
+      "solution": [
+        "Het steekproefgemiddelde 42 schat het onbekende populatiegemiddelde."
+      ],
+      "hints": [
+        "Een schatting is het berekende getal, niet het aantal deelnemers."
+      ],
+      "id": "38-003",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij σ=12 en n=36: bereken SE van het gemiddelde.",
+      "answer": 2,
+      "solution": [
+        "$SE=12/\\sqrt{36}=2$."
+      ],
+      "hints": [
+        "Deel σ door de wortel van n."
+      ],
+      "tolerance": 0.005,
+      "id": "38-004",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij s=8 en n=64: bereken de geschatte SE.",
+      "answer": 1,
+      "solution": [
+        "$8/\\sqrt{64}=1$."
+      ],
+      "hints": [
+        "Gebruik s wanneer σ onbekend is."
+      ],
+      "tolerance": 0.005,
+      "id": "38-005",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Je vergroot n van 25 naar 100, met dezelfde populatiespreiding. Met welke factor verandert SE? Geef nieuwe SE gedeeld door oude SE.",
+      "answer": 0.5,
+      "solution": [
+        "$\\sqrt{25/100}=0{,}5$."
+      ],
+      "hints": [
+        "De standaardfout is omgekeerd evenredig met √n."
+      ],
+      "tolerance": 0.005,
+      "id": "38-006",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Met welke factor moet n groeien om SE tot een derde terug te brengen?",
+      "answer": 9,
+      "solution": [
+        "$SE$ daalt met $\\sqrt n$; voor een factor 3 zijn $3^2=9$ keer zoveel metingen nodig."
+      ],
+      "hints": [
+        "Kwadrateer de gewenste reductiefactor."
+      ],
+      "id": "38-007",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Wat zegt de centrale limietstelling over scheve individuele reistijden en hun gemiddelden?",
+      "answer": "Bij onafhankelijke identiek verdeelde metingen met eindige variantie wordt de verdeling van steekproefgemiddelden bij groeiend n ongeveer normaal. De individuele reistijden blijven scheef.",
+      "solution": [
+        "De stelling gaat over een som of gemiddelde.",
+        "Zij maakt de oorspronkelijke verdeling niet normaal."
+      ],
+      "hints": [
+        "Welke grootheid wordt in de widget als histogram getekend?"
+      ],
+      "min_length": 60,
+      "id": "38-008",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Een normaal z-interval heeft gemiddelde 50 en SE=2. Geef de foutmarge bij factor 1,96.",
+      "answer": 3.92,
+      "solution": [
+        "$1{,}96\\cdot2=3{,}92$."
+      ],
+      "hints": [
+        "Marge is de kritieke factor maal SE."
+      ],
+      "tolerance": 0.005,
+      "id": "38-009",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "multiple",
+      "difficulty": 3,
+      "question": "Geef de grenzen van dit 95%-z-interval.",
+      "solution": [
+        "$50-3{,}92=46{,}08$ en $50+3{,}92=53{,}92$."
+      ],
+      "hints": [
+        "Tel de marge bij het gemiddelde op en trek haar af."
+      ],
+      "parts": [
+        {
+          "label": "ondergrens",
+          "answer": 46.08,
+          "type": "decimal",
+          "tolerance": 0.005
+        },
+        {
+          "label": "bovengrens",
+          "answer": 53.92,
+          "type": "decimal",
+          "tolerance": 0.005
+        }
+      ],
+      "id": "38-010",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "n=16 en σ is onbekend. Hoeveel vrijheidsgraden gebruikt het t-interval?",
+      "answer": 15,
+      "solution": [
+        "$n-1=15$."
+      ],
+      "hints": [
+        "Eén vrijheid is gebruikt om het gemiddelde te schatten."
+      ],
+      "id": "38-011",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Gemiddelde 20, s=4, n=16; gebruik t*=2,131. Geef de marge op drie decimalen.",
+      "answer": 2.131,
+      "solution": [
+        "$SE=4/4=1$; marge $2{,}131$."
+      ],
+      "hints": [
+        "Bereken eerst s/√n."
+      ],
+      "tolerance": 0.0005,
+      "id": "38-012",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Leg uit wat de 95% van een frequentistisch betrouwbaarheidsinterval betekent.",
+      "answer": "Onder de aannames bevat de intervalprocedure bij veel herhaalde steekproeven ongeveer 95% van de keren de vaste populatieparameter.",
+      "solution": [
+        "De parameter is vast, de steekproef en het interval veranderen.",
+        "De 95% beschrijft de procedure, geen posterior kans op dit ene interval."
+      ],
+      "hints": [
+        "Wat varieert bij het opnieuw trekken van een steekproef?"
+      ],
+      "min_length": 60,
+      "id": "38-013",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Een interval voor het gemiddelde is [18;22]. Betekent dit dat 95% van alle individuele waarden tussen 18 en 22 ligt? Leg uit.",
+      "answer": "Nee. Het interval beschrijft onzekerheid over het gemiddelde. Individuele waarnemingen kunnen een veel grotere spreiding hebben.",
+      "solution": [
+        "Een interval voor een parameter is geen voorspellingsinterval voor individuen.",
+        "Voor individuele spreiding gebruik je σ of s, niet alleen SE."
+      ],
+      "hints": [
+        "SE en de standaardafwijking van individuen zijn niet hetzelfde."
+      ],
+      "min_length": 60,
+      "id": "38-014",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Van 100 personen kiezen er 40 optie A. Bereken de proportie p̂.",
+      "answer": 0.4,
+      "solution": [
+        "$40/100=0{,}4$."
+      ],
+      "hints": [
+        "Een proportie is een aantal gedeeld door het totaal."
+      ],
+      "tolerance": 0.005,
+      "id": "38-015",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij p̂=0,4 en n=100: bereken de geschatte SE op drie decimalen.",
+      "answer": 0.049,
+      "solution": [
+        "$\\sqrt{0{,}4\\cdot0{,}6/100}=0{,}04899\\ldots$."
+      ],
+      "hints": [
+        "Gebruik √(p̂(1−p̂)/n)."
+      ],
+      "tolerance": 0.0005,
+      "id": "38-016",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een 95%-z-interval moet marge hoogstens 2 hebben bij bekende σ=10. Hoe groot moet n minimaal zijn?",
+      "answer": 97,
+      "solution": [
+        "$n\\ge(1{,}96\\cdot10/2)^2=96{,}04$.",
+        "Rond naar boven: 97."
+      ],
+      "hints": [
+        "Een te kleine steekproef overschrijdt de gewenste marge."
+      ],
+      "id": "38-017",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Waarom is een eenvoudige normale proportiemarge ongeschikt bij 0 successen uit 10?",
+      "answer": "De plug-in standaardfout wordt nul, terwijl de ware succeskans niet zeker nul is. De normale benadering aan de grens is onbetrouwbaar; gebruik bijvoorbeeld een Wilson- of exact interval.",
+      "solution": [
+        "$\\hat p=0$ geeft foutief een marge nul.",
+        "Een methode met betere grenswerking is nodig."
+      ],
+      "hints": [
+        "Vul p̂=0 in de standaardfoutformule in."
+      ],
+      "min_length": 60,
+      "id": "38-018",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Bij hetzelfde n en dezelfde s: wordt een 99%-interval breder of smaller dan een 95%-interval? Verklaar.",
+      "answer": "Breder. De grotere dekkingsgraad vereist een grotere kritieke waarde, zodat de foutmarge toeneemt.",
+      "solution": [
+        "Meer dekking vraagt meer breedte.",
+        "Precisie en dekking zijn verschillende eigenschappen."
+      ],
+      "hints": [
+        "Welk gebied van de verdeling moet worden meegenomen?"
+      ],
+      "min_length": 60,
+      "id": "38-019",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 5,
+      "question": "Een populatie heeft σ=18. Je wilt een 95%-marge van hoogstens 1,5 bij onafhankelijke metingen. Geef het minimale n met factor 1,96.",
+      "answer": 554,
+      "solution": [
+        "$n\\ge(1{,}96\\cdot18/1{,}5)^2=553{,}1904$.",
+        "Naar boven afronden geeft 554."
+      ],
+      "hints": [
+        "Gebruik de formule voor n en rond pas aan het einde omhoog."
+      ],
+      "id": "38-020",
+      "topics": [
+        "sampling"
+      ],
+      "mode": "challenge"
+    }
+  ]
+}

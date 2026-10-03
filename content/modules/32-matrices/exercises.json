@@ -1,0 +1,1254 @@
+{
+  "exercises": [
+    {
+      "id": "32-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Gegeven is $A = \\begin{pmatrix} 4 & -1 & 7 & 0 \\\\ 2 & 9 & -3 & 5 \\\\ 6 & 1 & 8 & -2 \\end{pmatrix}$. Wat is het element $a_{32}$?",
+      "answer": 1,
+      "hints": [
+        "$a_{32}$ staat in rij 3 en kolom 2: eerst het rijnummer, dan het kolomnummer.",
+        "Rij 3 is $6, 1, 8, -2$. Neem daarvan het tweede getal."
+      ],
+      "solution": [
+        "Rij 3 van $A$ is $6,\\ 1,\\ 8,\\ -2$.",
+        "Het tweede element van die rij is 1.",
+        "Dus $a_{32} = 1$."
+      ],
+      "feedback": [
+        {
+          "answer": -3,
+          "message": "Dat is $a_{23}$: rij 2, kolom 3. Bij $a_{32}$ komt eerst het rijnummer (3), dan het kolomnummer (2)."
+        },
+        {
+          "answer": 9,
+          "message": "Dat is $a_{22}$. Je zit in de goede kolom, maar in rij 2. Ga naar rij 3."
+        }
+      ],
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-002",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een fietsverhuurder zet zijn verhuurcijfers in een tabel met een rij per maand (januari tot en met december) en een kolom per fietstype (stadsfiets, e-bike, bakfiets en tandem). Rechts voegt hij nog een kolom 'totaal' toe. Hij schrijft de tabel zonder opschriften als matrix. Wat zijn de afmetingen $m \\times n$ van die matrix?",
+      "parts": [
+        {
+          "label": "m (aantal rijen)",
+          "answer": 12,
+          "type": "numeric"
+        },
+        {
+          "label": "n (aantal kolommen)",
+          "answer": 5,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Elke maand is een rij. Hoeveel maanden zijn er?",
+        "Tel de kolommen: vier fietstypen plus de kolom 'totaal'."
+      ],
+      "solution": [
+        "Er is een rij per maand: $m = 12$.",
+        "Er zijn vier kolommen voor de fietstypen en één voor het totaal: $n = 5$.",
+        "De matrix is een $12 \\times 5$-matrix met $12 \\cdot 5 = 60$ elementen."
+      ],
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-003",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $A + B$ voor $A = \\begin{pmatrix} 3 & -2 \\\\ 5 & 1 \\end{pmatrix}$ en $B = \\begin{pmatrix} 4 & 6 \\\\ -7 & 2 \\end{pmatrix}$. Geef de elementen $c_{ij}$ van $C = A + B$.",
+      "parts": [
+        {
+          "label": "c₁₁",
+          "answer": 7,
+          "type": "numeric"
+        },
+        {
+          "label": "c₁₂",
+          "answer": 4,
+          "type": "numeric"
+        },
+        {
+          "label": "c₂₁",
+          "answer": -2,
+          "type": "numeric"
+        },
+        {
+          "label": "c₂₂",
+          "answer": 3,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Tel de getallen op dezelfde plaats bij elkaar op.",
+        "Let op de tekens: $5 + (-7) = -2$."
+      ],
+      "solution": [
+        "$c_{11} = 3 + 4 = 7$",
+        "$c_{12} = -2 + 6 = 4$",
+        "$c_{21} = 5 + (-7) = -2$",
+        "$c_{22} = 1 + 2 = 3$",
+        "$A + B = \\begin{pmatrix} 7 & 4 \\\\ -2 & 3 \\end{pmatrix}$"
+      ],
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Gegeven $A = \\begin{pmatrix} 1 & -2 \\\\ 3 & 5 \\end{pmatrix}$ en $B = \\begin{pmatrix} 4 & 1 \\\\ -2 & 3 \\end{pmatrix}$. Bereken het element in rij 2, kolom 1 van $2A - 3B$.",
+      "answer": 12,
+      "hints": [
+        "Je hebt alleen $a_{21}$ en $b_{21}$ nodig.",
+        "Bereken $2 \\cdot a_{21} - 3 \\cdot b_{21}$ en let op het minteken van $b_{21}$."
+      ],
+      "solution": [
+        "$a_{21} = 3$ en $b_{21} = -2$.",
+        "$2 \\cdot 3 - 3 \\cdot (-2) = 6 + 6 = 12$."
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "Je hebt $6 - 6$ gerekend. Maar $b_{21} = -2$, dus $3 \\cdot b_{21} = -6$, en $6 - (-6) = 12$."
+        },
+        {
+          "answer": -7,
+          "message": "Dat is het element in rij 1, kolom 2: $2 \\cdot (-2) - 3 \\cdot 1$. Gevraagd is rij 2, kolom 1."
+        }
+      ],
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Hoeveel pakken thee heeft de winkel in Breda op maandag en dinsdag samen verkocht?",
+      "answer": 58,
+      "hints": [
+        "Tel de matrices $V$ en $W$ op; je hebt maar één element van de som nodig.",
+        "Breda is rij 2, thee is kolom 2."
+      ],
+      "solution": [
+        "Gevraagd is het element in rij 2 (Breda), kolom 2 (thee) van $V + W$.",
+        "$v_{22} = 30$ en $w_{22} = 28$.",
+        "$30 + 28 = 58$ pakken thee."
+      ],
+      "feedback": [
+        {
+          "answer": 45,
+          "message": "Dat is de thee in Amersfoort ($25 + 20$). Breda staat in rij 2."
+        },
+        {
+          "answer": 76,
+          "message": "Dat is de koffie in Breda ($35 + 41$). Thee staat in kolom 2."
+        }
+      ],
+      "context": "Verkopen van een koffiebranderij (pakken), met rijen Amersfoort en Breda en kolommen koffie, thee en cacao:\n\n$V = \\begin{pmatrix} 40 & 25 & 10 \\\\ 35 & 30 & 15 \\end{pmatrix}$ (maandag), $\\quad W = \\begin{pmatrix} 38 & 20 & 12 \\\\ 41 & 28 & 9 \\end{pmatrix}$ (dinsdag)",
+      "unit": "pakken",
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-006",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bepaal $p$ en $q$ zo dat $\\begin{pmatrix} p + 2 & 3 \\\\ 5 & 2q \\end{pmatrix} + \\begin{pmatrix} 1 & -3 \\\\ q & 4 \\end{pmatrix} = \\begin{pmatrix} 10 & 0 \\\\ 8 & 10 \\end{pmatrix}$.",
+      "parts": [
+        {
+          "label": "p",
+          "answer": 7,
+          "type": "numeric"
+        },
+        {
+          "label": "q",
+          "answer": 3,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Twee matrices zijn gelijk als alle elementen op dezelfde plaats gelijk zijn. Dat geeft vier gewone vergelijkingen.",
+        "Rij 1, kolom 1 geeft $p + 3 = 10$. Rij 2, kolom 1 geeft $5 + q = 8$."
+      ],
+      "solution": [
+        "Tel links op: $\\begin{pmatrix} p + 3 & 0 \\\\ 5 + q & 2q + 4 \\end{pmatrix} = \\begin{pmatrix} 10 & 0 \\\\ 8 & 10 \\end{pmatrix}$.",
+        "Rij 1, kolom 1: $p + 3 = 10$, dus $p = 7$.",
+        "Rij 2, kolom 1: $5 + q = 8$, dus $q = 3$.",
+        "Controle rij 2, kolom 2: $2 \\cdot 3 + 4 = 10$. Klopt."
+      ],
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-007",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "$A$ is de $3 \\times 4$-matrix met $a_{ij} = 3i - j$. Wat is $a_{32}$?",
+      "answer": 7,
+      "hints": [
+        "Vul $i = 3$ (rijnummer) en $j = 2$ (kolomnummer) in.",
+        "$3 \\cdot 3 - 2 = \\dots$"
+      ],
+      "solution": [
+        "Bij $a_{32}$ is $i = 3$ en $j = 2$.",
+        "$a_{32} = 3 \\cdot 3 - 2 = 9 - 2 = 7$."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Je hebt $i$ en $j$ verwisseld: $3 \\cdot 2 - 3 = 3$ is $a_{23}$. Bij $a_{32}$ is het rijnummer $i = 3$."
+        }
+      ],
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-008",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een lunchroom koopt 3 kilo koffiebonen, 1 doos thee en 4 blikken cacao. Een kilo koffiebonen kost € 12, een doos thee € 7 en een blik cacao € 5. Bereken het rij-maal-kolomproduct $\\begin{pmatrix} 3 & 1 & 4 \\end{pmatrix}\\begin{pmatrix} 12 \\\\ 7 \\\\ 5 \\end{pmatrix}$: wat kost de bestelling?",
+      "answer": 63,
+      "hints": [
+        "Vermenigvuldig het eerste getal van de rij met het eerste getal van de kolom, het tweede met het tweede, enzovoort.",
+        "Tel daarna de drie producten op."
+      ],
+      "solution": [
+        "$3 \\cdot 12 = 36$",
+        "$1 \\cdot 7 = 7$",
+        "$4 \\cdot 5 = 20$",
+        "$36 + 7 + 20 = 63$: de bestelling kost € 63."
+      ],
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Je hebt alleen de prijzen opgeteld ($12 + 7 + 5$). Elke prijs moet eerst met het aantal worden vermenigvuldigd."
+        },
+        {
+          "answer": 36,
+          "message": "Dat is alleen de koffie. Tel ook de thee ($1 \\cdot 7$) en de cacao ($4 \\cdot 5$) erbij."
+        }
+      ],
+      "unit": "€",
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-009",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $AB$ voor $A = \\begin{pmatrix} 2 & 1 \\\\ 0 & 3 \\end{pmatrix}$ en $B = \\begin{pmatrix} 1 & 4 \\\\ 5 & -2 \\end{pmatrix}$. Geef de elementen $c_{ij}$ van $C = AB$.",
+      "parts": [
+        {
+          "label": "c₁₁",
+          "answer": 7,
+          "type": "numeric"
+        },
+        {
+          "label": "c₁₂",
+          "answer": 6,
+          "type": "numeric"
+        },
+        {
+          "label": "c₂₁",
+          "answer": 15,
+          "type": "numeric"
+        },
+        {
+          "label": "c₂₂",
+          "answer": -6,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "$c_{11}$ is rij 1 van $A$ maal kolom 1 van $B$: $2 \\cdot 1 + 1 \\cdot 5$.",
+        "$c_{22}$ is rij 2 van $A$ maal kolom 2 van $B$: $0 \\cdot 4 + 3 \\cdot (-2)$."
+      ],
+      "solution": [
+        "$c_{11} = 2 \\cdot 1 + 1 \\cdot 5 = 7$",
+        "$c_{12} = 2 \\cdot 4 + 1 \\cdot (-2) = 6$",
+        "$c_{21} = 0 \\cdot 1 + 3 \\cdot 5 = 15$",
+        "$c_{22} = 0 \\cdot 4 + 3 \\cdot (-2) = -6$",
+        "$AB = \\begin{pmatrix} 7 & 6 \\\\ 15 & -6 \\end{pmatrix}$"
+      ],
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-010",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "$A$ is een $2 \\times 3$-matrix en $B$ is een $3 \\times 4$-matrix. Het product $AB$ bestaat. Wat zijn de afmetingen $m \\times n$ van $AB$?",
+      "parts": [
+        {
+          "label": "m (aantal rijen)",
+          "answer": 2,
+          "type": "numeric"
+        },
+        {
+          "label": "n (aantal kolommen)",
+          "answer": 4,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Schrijf de afmetingen naast elkaar: $(2 \\times 3)(3 \\times 4)$.",
+        "De binnenste getallen (3 en 3) moeten gelijk zijn; de buitenste getallen geven de afmetingen van het product."
+      ],
+      "solution": [
+        "$(2 \\times 3)(3 \\times 4)$: de binnenste getallen zijn gelijk, dus het product bestaat.",
+        "De buitenste getallen zijn 2 en 4: $AB$ is een $2 \\times 4$-matrix.",
+        "Elke rij van $A$ (2 rijen) combineer je met elke kolom van $B$ (4 kolommen)."
+      ],
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-011",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Gegeven $A = \\begin{pmatrix} 2 & -1 & 3 \\\\ 0 & 4 & 1 \\end{pmatrix}$ en $B = \\begin{pmatrix} 1 & 2 \\\\ 3 & 0 \\\\ -2 & 5 \\end{pmatrix}$. Bereken het element in rij 2, kolom 1 van $AB$.",
+      "answer": 10,
+      "hints": [
+        "Neem rij 2 van $A$: $0, 4, 1$. Neem kolom 1 van $B$: $1, 3, -2$.",
+        "$0 \\cdot 1 + 4 \\cdot 3 + 1 \\cdot (-2)$"
+      ],
+      "solution": [
+        "Rij 2 van $A$ is $(0,\\ 4,\\ 1)$; kolom 1 van $B$ is $(1,\\ 3,\\ -2)$.",
+        "$0 \\cdot 1 + 4 \\cdot 3 + 1 \\cdot (-2) = 0 + 12 - 2 = 10$."
+      ],
+      "feedback": [
+        {
+          "answer": 14,
+          "message": "Let op het teken: $1 \\cdot (-2) = -2$, dus $12 - 2 = 10$."
+        },
+        {
+          "answer": 19,
+          "message": "Dat is het element in rij 1, kolom 2: rij 1 van $A$ maal kolom 2 van $B$. Gevraagd is rij 2, kolom 1."
+        }
+      ],
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-012",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Neem dezelfde matrices als in de vorige opgave met $AB$: $A = \\begin{pmatrix} 2 & 1 \\\\ 0 & 3 \\end{pmatrix}$ en $B = \\begin{pmatrix} 1 & 4 \\\\ 5 & -2 \\end{pmatrix}$. Bereken nu het element in rij 1, kolom 2 van $BA$ (let op de volgorde).",
+      "answer": 13,
+      "hints": [
+        "Bij $BA$ staat $B$ links: je neemt een rij van $B$ en een kolom van $A$.",
+        "Rij 1 van $B$ is $1, 4$; kolom 2 van $A$ is $1, 3$."
+      ],
+      "solution": [
+        "Rij 1 van $B$: $(1,\\ 4)$. Kolom 2 van $A$: $(1,\\ 3)$.",
+        "$1 \\cdot 1 + 4 \\cdot 3 = 1 + 12 = 13$.",
+        "Ter vergelijking: in $AB$ staat op die plaats 6. Dus $AB \\neq BA$."
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Dat is het element van $AB$. Bij $BA$ neem je een rij van $B$ en een kolom van $A$."
+        },
+        {
+          "answer": 4,
+          "message": "Dat is $1 \\cdot 1 + 1 \\cdot 3$: je hebt rij 1 van $A$ genomen. Bij $BA$ komt de rij uit $B$."
+        }
+      ],
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-013",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een groothandel levert koffie, thee en cacao aan twee horecazaken. $Q$ bevat de bestellingen (rij 1: zaak 1, rij 2: zaak 2; kolommen: koffie, thee, cacao). $P$ bevat de prijs per pak in euro bij twee leveranciers (rijen: koffie, thee, cacao; kolom 1: leverancier X, kolom 2: leverancier Y). Hoeveel betaalt zaak 2 als ze alles bij leverancier X koopt?",
+      "answer": 162,
+      "hints": [
+        "Het gevraagde bedrag is één element van $QP$. Welke rij en welke kolom?",
+        "Rij 2 van $Q$ (zaak 2) maal kolom 1 van $P$ (leverancier X)."
+      ],
+      "solution": [
+        "Gevraagd is $(QP)_{21}$: rij 2 van $Q$ maal kolom 1 van $P$.",
+        "$8 \\cdot 9 + 10 \\cdot 6 + 6 \\cdot 5 = 72 + 60 + 30 = 162$.",
+        "Zaak 2 betaalt bij leverancier X € 162."
+      ],
+      "feedback": [
+        {
+          "answer": 158,
+          "message": "Dat is wat zaak 2 bij leverancier Y betaalt (kolom 2 van $P$). Leverancier X is kolom 1."
+        },
+        {
+          "answer": 143,
+          "message": "Dat is $(QP)_{12}$: zaak 1 bij leverancier Y. Gevraagd is zaak 2 (rij 2) bij X (kolom 1)."
+        }
+      ],
+      "context": "$Q = \\begin{pmatrix} 12 & 5 & 3 \\\\ 8 & 10 & 6 \\end{pmatrix}, \\qquad P = \\begin{pmatrix} 9 & 8 \\\\ 6 & 7 \\\\ 5 & 4 \\end{pmatrix}$",
+      "unit": "€",
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-014",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $A^2$ voor $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & -1 \\end{pmatrix}$. Geef de elementen $c_{ij}$ van $C = A^2$.",
+      "parts": [
+        {
+          "label": "c₁₁",
+          "answer": 7,
+          "type": "numeric"
+        },
+        {
+          "label": "c₁₂",
+          "answer": 0,
+          "type": "numeric"
+        },
+        {
+          "label": "c₂₁",
+          "answer": 0,
+          "type": "numeric"
+        },
+        {
+          "label": "c₂₂",
+          "answer": 7,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "$A^2 = AA$: vermenigvuldig de matrix met zichzelf, rij maal kolom. Kwadrateer niet elk element apart.",
+        "$c_{12} = 1 \\cdot 2 + 2 \\cdot (-1)$."
+      ],
+      "solution": [
+        "$c_{11} = 1 \\cdot 1 + 2 \\cdot 3 = 7$",
+        "$c_{12} = 1 \\cdot 2 + 2 \\cdot (-1) = 0$",
+        "$c_{21} = 3 \\cdot 1 + (-1) \\cdot 3 = 0$",
+        "$c_{22} = 3 \\cdot 2 + (-1) \\cdot (-1) = 7$",
+        "$A^2 = \\begin{pmatrix} 7 & 0 \\\\ 0 & 7 \\end{pmatrix} = 7I$. Een opvallende uitkomst: deze matrix maal zichzelf is 7 keer de eenheidsmatrix."
+      ],
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-015",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Voor welke waarde van $x$ geldt $\\begin{pmatrix} 1 & x \\\\ 2 & 3 \\end{pmatrix}\\begin{pmatrix} 4 \\\\ 5 \\end{pmatrix} = \\begin{pmatrix} 19 \\\\ 23 \\end{pmatrix}$?",
+      "answer": 3,
+      "hints": [
+        "Reken het product links uit; de bovenste rij geeft $1 \\cdot 4 + x \\cdot 5$.",
+        "Stel $4 + 5x = 19$ en los op. Controleer met de tweede rij."
+      ],
+      "solution": [
+        "Rij 1: $1 \\cdot 4 + x \\cdot 5 = 4 + 5x$. Dat moet 19 zijn.",
+        "$5x = 15$, dus $x = 3$.",
+        "Controle rij 2: $2 \\cdot 4 + 3 \\cdot 5 = 8 + 15 = 23$. Klopt (deze rij hangt niet van $x$ af)."
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Je hebt $5x = 15$ gevonden; deel nog door 5."
+        },
+        {
+          "answer": 4,
+          "message": "Je hebt $x \\cdot 4$ in plaats van $x \\cdot 5$ gebruikt. De $x$ staat in kolom 2 en wordt vermenigvuldigd met het tweede getal van de vector, 5."
+        }
+      ],
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-016",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Los op door te vegen: $x + 2y = 8$ en $3x - y = 3$.",
+      "parts": [
+        {
+          "label": "x",
+          "answer": 2,
+          "type": "numeric"
+        },
+        {
+          "label": "y",
+          "answer": 3,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Aangevulde matrix: $\\left(\\begin{array}{cc|c} 1 & 2 & 8 \\\\ 3 & -1 & 3 \\end{array}\\right)$. Veeg de 3 linksonder weg met $R_2 \\to R_2 - 3R_1$.",
+        "Na het vegen staat in rij 2: $0,\\ -7 \\mid -21$."
+      ],
+      "solution": [
+        "$\\left(\\begin{array}{cc|c} 1 & 2 & 8 \\\\ 3 & -1 & 3 \\end{array}\\right)$",
+        "$R_2 \\to R_2 - 3R_1$: $(3 - 3,\\ -1 - 6 \\mid 3 - 24) = (0,\\ -7 \\mid -21)$.",
+        "Rij 2: $-7y = -21$, dus $y = 3$.",
+        "Rij 1: $x + 2 \\cdot 3 = 8$, dus $x = 2$.",
+        "Controle: $2 + 6 = 8$ en $6 - 3 = 3$."
+      ],
+      "topics": [
+        "matrices",
+        "systems"
+      ]
+    },
+    {
+      "id": "32-017",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Gegeven de aangevulde matrix $\\left(\\begin{array}{cc|c} 1 & 2 & 5 \\\\ 3 & 4 & 6 \\end{array}\\right)$. Je voert de rijoperatie $R_2 \\to R_2 - 3R_1$ uit. Welk getal staat daarna rechts van de streep in rij 2?",
+      "answer": -9,
+      "hints": [
+        "Rechts van de streep: nieuw getal = oud getal van rij 2 min 3 keer het getal van rij 1.",
+        "$6 - 3 \\cdot 5$"
+      ],
+      "solution": [
+        "De nieuwe rij 2 is $(3 - 3 \\cdot 1,\\ 4 - 3 \\cdot 2 \\mid 6 - 3 \\cdot 5)$.",
+        "Rechts van de streep: $6 - 15 = -9$.",
+        "De nieuwe aangevulde matrix is $\\left(\\begin{array}{cc|c} 1 & 2 & 5 \\\\ 0 & -2 & -9 \\end{array}\\right)$."
+      ],
+      "feedback": [
+        {
+          "answer": 9,
+          "message": "Let op de volgorde: het is $6 - 15$, en dat is negatief."
+        },
+        {
+          "answer": 21,
+          "message": "Je hebt opgeteld ($6 + 15$). Bij $R_2 - 3R_1$ trek je drie keer rij 1 af."
+        },
+        {
+          "answer": 6,
+          "message": "Je hebt het rechterlid niet meegenomen. Een rijoperatie geldt voor de hele rij, ook rechts van de streep."
+        }
+      ],
+      "topics": [
+        "matrices",
+        "systems"
+      ]
+    },
+    {
+      "id": "32-018",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Los op door te vegen:\n\n$x + y + 2z = 6$, $\\quad 2x + y - z = 3$, $\\quad -x + 3y + z = -4$.",
+      "parts": [
+        {
+          "label": "x",
+          "answer": 3,
+          "type": "numeric"
+        },
+        {
+          "label": "y",
+          "answer": -1,
+          "type": "numeric"
+        },
+        {
+          "label": "z",
+          "answer": 2,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Begin met $R_2 \\to R_2 - 2R_1$ en $R_3 \\to R_3 + R_1$ om de eerste kolom onder de 1 schoon te vegen.",
+        "Na ronde 1 heb je de rijen $(0,\\ -1,\\ -5 \\mid -9)$ en $(0,\\ 4,\\ 3 \\mid 2)$. Veeg nu met $R_3 \\to R_3 + 4R_2$."
+      ],
+      "solution": [
+        "$\\left(\\begin{array}{ccc|c} 1 & 1 & 2 & 6 \\\\ 2 & 1 & -1 & 3 \\\\ -1 & 3 & 1 & -4 \\end{array}\\right)$",
+        "$R_2 \\to R_2 - 2R_1$: $(0,\\ -1,\\ -5 \\mid -9)$. $R_3 \\to R_3 + R_1$: $(0,\\ 4,\\ 3 \\mid 2)$.",
+        "$R_3 \\to R_3 + 4R_2$: $(0,\\ 0,\\ 3 - 20 \\mid 2 - 36) = (0,\\ 0,\\ -17 \\mid -34)$.",
+        "Rij 3: $-17z = -34$, dus $z = 2$.",
+        "Rij 2: $-y - 5 \\cdot 2 = -9$, dus $-y = 1$ en $y = -1$.",
+        "Rij 1: $x - 1 + 4 = 6$, dus $x = 3$.",
+        "Controle: $3 - 1 + 4 = 6$; $6 - 1 - 2 = 3$; $-3 - 3 + 2 = -4$."
+      ],
+      "topics": [
+        "matrices",
+        "systems"
+      ]
+    },
+    {
+      "id": "32-019",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Drie klanten van een koffiebranderij betalen voor hun bestelling: 2 pakken koffie, 1 pak thee en 1 pak cacao kosten samen € 27; 1 pak koffie, 3 pakken thee en 2 pakken cacao kosten € 35; 3 pakken koffie, 2 pakken thee en 1 pak cacao kosten € 40. Bereken de prijs per pak: $k$ voor koffie, $t$ voor thee en $c$ voor cacao (in euro).",
+      "parts": [
+        {
+          "label": "k",
+          "answer": 8,
+          "type": "numeric"
+        },
+        {
+          "label": "t",
+          "answer": 5,
+          "type": "numeric"
+        },
+        {
+          "label": "c",
+          "answer": 6,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Stel de aangevulde matrix op met kolommen $k$, $t$, $c$. Zet de rij die met een 1 begint bovenaan.",
+        "Na $R_1 \\leftrightarrow R_2$ veeg je met $R_2 \\to R_2 - 2R_1$ en $R_3 \\to R_3 - 3R_1$."
+      ],
+      "solution": [
+        "$\\left(\\begin{array}{ccc|c} 2 & 1 & 1 & 27 \\\\ 1 & 3 & 2 & 35 \\\\ 3 & 2 & 1 & 40 \\end{array}\\right)$; verwissel $R_1 \\leftrightarrow R_2$.",
+        "$\\left(\\begin{array}{ccc|c} 1 & 3 & 2 & 35 \\\\ 2 & 1 & 1 & 27 \\\\ 3 & 2 & 1 & 40 \\end{array}\\right)$",
+        "$R_2 \\to R_2 - 2R_1$: $(0,\\ -5,\\ -3 \\mid -43)$. $R_3 \\to R_3 - 3R_1$: $(0,\\ -7,\\ -5 \\mid -65)$.",
+        "Vermijd breuken: $R_3 \\to 5R_3 - 7R_2$ geeft $(0,\\ 0,\\ -25 + 21 \\mid -325 + 301) = (0,\\ 0,\\ -4 \\mid -24)$.",
+        "Dus $c = 6$. Rij 2: $-5t - 18 = -43$, dus $t = 5$. Rij 1: $k + 15 + 12 = 35$, dus $k = 8$.",
+        "Controle: $16 + 5 + 6 = 27$; $8 + 15 + 12 = 35$; $24 + 10 + 6 = 40$.",
+        "Koffie € 8, thee € 5, cacao € 6 per pak."
+      ],
+      "topics": [
+        "matrices",
+        "systems"
+      ]
+    },
+    {
+      "id": "32-020",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een stelsel is al in trapvorm gebracht: $\\left(\\begin{array}{ccc|c} 2 & 1 & -1 & 5 \\\\ 0 & 3 & 2 & 13 \\\\ 0 & 0 & 4 & 8 \\end{array}\\right)$, met de onbekenden $x$, $y$, $z$. Bepaal de oplossing met terugsubstitutie.",
+      "parts": [
+        {
+          "label": "x",
+          "answer": 2,
+          "type": "numeric"
+        },
+        {
+          "label": "y",
+          "answer": 3,
+          "type": "numeric"
+        },
+        {
+          "label": "z",
+          "answer": 2,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Begin onderaan: rij 3 zegt $4z = 8$.",
+        "Vul $z$ in rij 2 in: $3y + 2z = 13$."
+      ],
+      "solution": [
+        "Rij 3: $4z = 8$, dus $z = 2$.",
+        "Rij 2: $3y + 4 = 13$, dus $3y = 9$ en $y = 3$.",
+        "Rij 1: $2x + 3 - 2 = 5$, dus $2x = 4$ en $x = 2$."
+      ],
+      "topics": [
+        "matrices",
+        "systems"
+      ]
+    },
+    {
+      "id": "32-021",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Gegeven het stelsel $x + 2y = 3$ en $2x + 4y = k$. Voor welke waarde van $k$ heeft het stelsel oneindig veel oplossingen?",
+      "answer": 6,
+      "hints": [
+        "Veeg met $R_2 \\to R_2 - 2R_1$. Wat blijft er links van de streep over in rij 2?",
+        "Rij 2 wordt $(0,\\ 0 \\mid k - 6)$. Wanneer is dat een nulrij?"
+      ],
+      "solution": [
+        "$\\left(\\begin{array}{cc|c} 1 & 2 & 3 \\\\ 2 & 4 & k \\end{array}\\right)$; $R_2 \\to R_2 - 2R_1$ geeft $(0,\\ 0 \\mid k - 6)$.",
+        "Als $k - 6 \\neq 0$, staat er $0 = k - 6$: geen oplossing.",
+        "Als $k = 6$, staat er $0 = 0$: de tweede vergelijking is het dubbele van de eerste en er zijn oneindig veel oplossingen.",
+        "Antwoord: $k = 6$."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Bij $k = 3$ staat er na het vegen $0 = 3 - 6 = -3$: dan is er geen enkele oplossing. De tweede vergelijking moet precies het dubbele van de eerste zijn."
+        },
+        {
+          "answer": 0,
+          "message": "Bij $k = 0$ ontstaat de rij $(0,\\ 0 \\mid -6)$: het stelsel is dan strijdig."
+        }
+      ],
+      "topics": [
+        "matrices",
+        "systems"
+      ]
+    },
+    {
+      "id": "32-022",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "In de stijl van de *Negen Hoofdstukken*: 3 bundels goed gierst, 1 bundel middelmatig en 1 bundel slecht gierst leveren 8 *dou* op; 1 bundel goed, 2 bundels middelmatig en 1 bundel slecht leveren 8 *dou*; 1 bundel goed, 1 bundel middelmatig en 3 bundels slecht leveren 9 *dou*. Hoeveel *dou* levert één bundel van elke soort? Geef de antwoorden als breuk.",
+      "parts": [
+        {
+          "label": "goed (x)",
+          "answer": "5/4",
+          "type": "fraction"
+        },
+        {
+          "label": "middelmatig (y)",
+          "answer": "5/2",
+          "type": "fraction"
+        },
+        {
+          "label": "slecht (z)",
+          "answer": "7/4",
+          "type": "fraction"
+        }
+      ],
+      "hints": [
+        "Zet de rij $(1,\\ 2,\\ 1 \\mid 8)$ bovenaan; dan heb je een 1 als spilelement.",
+        "Na ronde 1 krijg je $(0,\\ -5,\\ -2 \\mid -16)$ en $(0,\\ -1,\\ 2 \\mid 1)$. Verwissel die twee en veeg met $R_3 \\to R_3 - 5R_2$."
+      ],
+      "solution": [
+        "$\\left(\\begin{array}{ccc|c} 1 & 2 & 1 & 8 \\\\ 3 & 1 & 1 & 8 \\\\ 1 & 1 & 3 & 9 \\end{array}\\right)$ (eerste twee voorwaarden verwisseld).",
+        "$R_2 \\to R_2 - 3R_1$: $(0,\\ -5,\\ -2 \\mid -16)$. $R_3 \\to R_3 - R_1$: $(0,\\ -1,\\ 2 \\mid 1)$.",
+        "Verwissel $R_2 \\leftrightarrow R_3$ en veeg $R_3 \\to R_3 - 5R_2$: $(0,\\ 0,\\ -2 - 10 \\mid -16 - 5) = (0,\\ 0,\\ -12 \\mid -21)$.",
+        "$z = \\frac{21}{12} = \\frac{7}{4}$.",
+        "Rij 2: $-y + 2 \\cdot \\frac{7}{4} = 1$, dus $y = \\frac{7}{2} - 1 = \\frac{5}{2}$.",
+        "Rij 1: $x = 8 - 2 \\cdot \\frac{5}{2} - \\frac{7}{4} = 8 - 5 - \\frac{7}{4} = \\frac{5}{4}$.",
+        "Controle eerste voorwaarde: $3 \\cdot \\frac{5}{4} + \\frac{5}{2} + \\frac{7}{4} = \\frac{15 + 10 + 7}{4} = 8$."
+      ],
+      "topics": [
+        "matrices",
+        "systems"
+      ]
+    },
+    {
+      "id": "32-023",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $\\det \\begin{pmatrix} 5 & 2 \\\\ 3 & 4 \\end{pmatrix}$.",
+      "answer": 14,
+      "hints": [
+        "$\\det \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = ad - bc$.",
+        "$5 \\cdot 4 - 2 \\cdot 3$"
+      ],
+      "solution": [
+        "$ad = 5 \\cdot 4 = 20$ en $bc = 2 \\cdot 3 = 6$.",
+        "$\\det = 20 - 6 = 14$."
+      ],
+      "feedback": [
+        {
+          "answer": 26,
+          "message": "Je hebt de twee diagonaalproducten opgeteld. De determinant is $ad - bc$: het tweede product gaat eraf."
+        },
+        {
+          "answer": -14,
+          "message": "Je hebt $bc - ad$ berekend. De hoofddiagonaal ($5 \\cdot 4$) komt eerst."
+        }
+      ],
+      "topics": [
+        "matrices",
+        "systems"
+      ]
+    },
+    {
+      "id": "32-024",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $\\det \\begin{pmatrix} -2 & 3 \\\\ 4 & -1 \\end{pmatrix}$.",
+      "answer": -10,
+      "hints": [
+        "$ad = (-2) \\cdot (-1)$ en $bc = 3 \\cdot 4$.",
+        "Min maal min is plus."
+      ],
+      "solution": [
+        "$ad = (-2) \\cdot (-1) = 2$.",
+        "$bc = 3 \\cdot 4 = 12$.",
+        "$\\det = 2 - 12 = -10$."
+      ],
+      "feedback": [
+        {
+          "answer": 14,
+          "message": "Je hebt $2 + 12$ gerekend. De determinant is $ad - bc = 2 - 12$."
+        },
+        {
+          "answer": -14,
+          "message": "Let op: $(-2) \\cdot (-1) = +2$, niet $-2$. Dan is $2 - 12 = -10$."
+        }
+      ],
+      "topics": [
+        "matrices",
+        "systems"
+      ]
+    },
+    {
+      "id": "32-025",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Voor welke waarde van $p$ heeft het stelsel $px + 6y = 1$, $2x + 4y = 5$ géén unieke oplossing?",
+      "answer": 3,
+      "hints": [
+        "Er is geen unieke oplossing als de determinant van de coëfficiëntenmatrix 0 is.",
+        "$\\det \\begin{pmatrix} p & 6 \\\\ 2 & 4 \\end{pmatrix} = 4p - 12$."
+      ],
+      "solution": [
+        "De coëfficiëntenmatrix is $\\begin{pmatrix} p & 6 \\\\ 2 & 4 \\end{pmatrix}$ met determinant $4p - 12$.",
+        "$4p - 12 = 0$ geeft $p = 3$.",
+        "Bij $p = 3$ zijn de linkerkanten evenredig ($3 : 2 = 6 : 4$); omdat $1 : 5$ niet dezelfde verhouding heeft, is er dan zelfs geen enkele oplossing."
+      ],
+      "feedback": [
+        {
+          "answer": -3,
+          "message": "Controleer het teken: $4p - 12 = 0$ geeft $4p = 12$, dus $p$ is positief."
+        },
+        {
+          "answer": 12,
+          "message": "Je hebt $4p = 12$ gevonden, maar nog niet door 4 gedeeld."
+        }
+      ],
+      "topics": [
+        "matrices",
+        "systems"
+      ]
+    },
+    {
+      "id": "32-026",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Bepaal de inverse van $A = \\begin{pmatrix} 4 & 7 \\\\ 2 & 6 \\end{pmatrix}$. Geef de elementen $c_{ij}$ van $C = A^{-1}$ als (vereenvoudigde) breuk.",
+      "parts": [
+        {
+          "label": "c₁₁",
+          "answer": "3/5",
+          "type": "fraction"
+        },
+        {
+          "label": "c₁₂",
+          "answer": "-7/10",
+          "type": "fraction"
+        },
+        {
+          "label": "c₂₁",
+          "answer": "-1/5",
+          "type": "fraction"
+        },
+        {
+          "label": "c₂₂",
+          "answer": "2/5",
+          "type": "fraction"
+        }
+      ],
+      "hints": [
+        "Bereken eerst $\\det A = 4 \\cdot 6 - 7 \\cdot 2$.",
+        "Verwissel 4 en 6, verander het teken van 7 en 2, en deel alles door de determinant (10)."
+      ],
+      "solution": [
+        "$\\det A = 24 - 14 = 10$.",
+        "$A^{-1} = \\frac{1}{10}\\begin{pmatrix} 6 & -7 \\\\ -2 & 4 \\end{pmatrix}$.",
+        "$c_{11} = \\frac{6}{10} = \\frac{3}{5}$, $c_{12} = -\\frac{7}{10}$, $c_{21} = -\\frac{2}{10} = -\\frac{1}{5}$, $c_{22} = \\frac{4}{10} = \\frac{2}{5}$.",
+        "Controle (eerste rij van $AA^{-1}$): $4 \\cdot \\frac{3}{5} + 7 \\cdot (-\\frac{1}{5}) = \\frac{12 - 7}{5} = 1$ en $4 \\cdot (-\\frac{7}{10}) + 7 \\cdot \\frac{2}{5} = -\\frac{28}{10} + \\frac{28}{10} = 0$."
+      ],
+      "topics": [
+        "matrices",
+        "systems"
+      ]
+    },
+    {
+      "id": "32-027",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Los het stelsel $2x + y = 4$, $5x + 3y = 11$ op met de inverse matrix.",
+      "parts": [
+        {
+          "label": "x",
+          "answer": 1,
+          "type": "numeric"
+        },
+        {
+          "label": "y",
+          "answer": 2,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "$A = \\begin{pmatrix} 2 & 1 \\\\ 5 & 3 \\end{pmatrix}$ heeft determinant $6 - 5 = 1$.",
+        "$A^{-1} = \\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix}$; bereken $A^{-1}\\begin{pmatrix} 4 \\\\ 11 \\end{pmatrix}$."
+      ],
+      "solution": [
+        "$\\det A = 2 \\cdot 3 - 1 \\cdot 5 = 1$.",
+        "$A^{-1} = \\frac{1}{1}\\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix} = \\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix}$.",
+        "$\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix}\\begin{pmatrix} 4 \\\\ 11 \\end{pmatrix} = \\begin{pmatrix} 3 \\cdot 4 - 11 \\\\ -5 \\cdot 4 + 2 \\cdot 11 \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$.",
+        "Controle: $2 + 2 = 4$ en $5 + 6 = 11$."
+      ],
+      "topics": [
+        "matrices",
+        "systems"
+      ]
+    },
+    {
+      "id": "32-028",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een perceel in de vorm van een parallellogram heeft op een kaart een oppervlakte van 6 cm². De kaart wordt vervormd met de matrix $A = \\begin{pmatrix} 2 & 1 \\\\ -1 & 3 \\end{pmatrix}$. Hoe groot is de oppervlakte van het beeld van het perceel?",
+      "answer": 42,
+      "hints": [
+        "Oppervlakten worden vermenigvuldigd met $|\\det A|$.",
+        "$\\det A = 2 \\cdot 3 - 1 \\cdot (-1)$."
+      ],
+      "solution": [
+        "$\\det A = 6 - (-1) = 7$.",
+        "De oppervlakte wordt met 7 vermenigvuldigd: $7 \\cdot 6 = 42$ cm²."
+      ],
+      "feedback": [
+        {
+          "answer": 30,
+          "message": "Je hebt $\\det A = 6 - 1 = 5$ gerekend. Maar $bc = 1 \\cdot (-1) = -1$, dus $\\det A = 6 - (-1) = 7$."
+        },
+        {
+          "answer": 7,
+          "message": "7 is de oppervlaktefactor. Vermenigvuldig die nog met de oorspronkelijke oppervlakte van 6 cm²."
+        }
+      ],
+      "unit": "cm²",
+      "topics": [
+        "matrices",
+        "systems"
+      ]
+    },
+    {
+      "id": "32-029",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Gegeven $A = \\begin{pmatrix} 3 & 5 \\\\ 1 & 4 \\end{pmatrix}$. Bepaal het element in rij 1, kolom 2 van $A^{-1}$.",
+      "answer": "-5/7",
+      "hints": [
+        "$\\det A = 3 \\cdot 4 - 5 \\cdot 1 = 7$.",
+        "In $\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$ staat rechtsboven $-b$; deel door de determinant."
+      ],
+      "solution": [
+        "$\\det A = 12 - 5 = 7$.",
+        "$A^{-1} = \\frac{1}{7}\\begin{pmatrix} 4 & -5 \\\\ -1 & 3 \\end{pmatrix}$.",
+        "Het element in rij 1, kolom 2 is $-\\frac{5}{7}$."
+      ],
+      "feedback": [
+        {
+          "answer": "5/7",
+          "message": "Bij de inverse verandert het teken van $b$: rechtsboven staat $-b = -5$, gedeeld door 7."
+        },
+        {
+          "answer": "-5",
+          "message": "Je bent vergeten door de determinant (7) te delen."
+        },
+        {
+          "answer": "-5/17",
+          "message": "De determinant is $ad - bc = 12 - 5 = 7$, niet $12 + 5$."
+        }
+      ],
+      "topics": [
+        "matrices",
+        "systems"
+      ]
+    },
+    {
+      "id": "32-030",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Op het Chinese rekenbord staan de kolommen $K_1 = (3,\\ 2,\\ 1 \\mid 39)$ en $K_2 = (2,\\ 3,\\ 1 \\mid 34)$. De rekenaar vormt $3K_2 - 2K_1$. Welk getal staat in die nieuwe kolom onderaan (achter de streep)?",
+      "answer": 24,
+      "hints": [
+        "Vermenigvuldig het onderste getal van $K_2$ met 3 en trek twee keer het onderste getal van $K_1$ ervan af.",
+        "$3 \\cdot 34 - 2 \\cdot 39$"
+      ],
+      "solution": [
+        "$3K_2 = (6,\\ 9,\\ 3 \\mid 102)$ en $2K_1 = (6,\\ 4,\\ 2 \\mid 78)$.",
+        "$3K_2 - 2K_1 = (0,\\ 5,\\ 1 \\mid 24)$.",
+        "Onderaan staat $102 - 78 = 24$."
+      ],
+      "feedback": [
+        {
+          "answer": -5,
+          "message": "Je hebt $34 - 39$ gerekend zonder de factoren 3 en 2. Bij $3K_2 - 2K_1$ wordt de hele kolom eerst vermenigvuldigd."
+        },
+        {
+          "answer": 63,
+          "message": "Je hebt $102 - 39$ gerekend. Ook $K_1$ moet eerst met 2 worden vermenigvuldigd: $102 - 78$."
+        }
+      ],
+      "topics": [
+        "matrices",
+        "systems"
+      ]
+    },
+    {
+      "id": "32-031",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Voor $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$ geldt volgens de stelling van Cayley-Hamilton dat $A^2 - 5A = kI$ voor een getal $k$. Bepaal $k$, door $A^2 - 5A$ echt uit te rekenen.",
+      "answer": 2,
+      "hints": [
+        "Bereken eerst $A^2$ met rij maal kolom.",
+        "$A^2 = \\begin{pmatrix} 7 & 10 \\\\ 15 & 22 \\end{pmatrix}$. Trek $5A$ elementsgewijs af."
+      ],
+      "solution": [
+        "$A^2 = \\begin{pmatrix} 1 \\cdot 1 + 2 \\cdot 3 & 1 \\cdot 2 + 2 \\cdot 4 \\\\ 3 \\cdot 1 + 4 \\cdot 3 & 3 \\cdot 2 + 4 \\cdot 4 \\end{pmatrix} = \\begin{pmatrix} 7 & 10 \\\\ 15 & 22 \\end{pmatrix}$.",
+        "$5A = \\begin{pmatrix} 5 & 10 \\\\ 15 & 20 \\end{pmatrix}$.",
+        "$A^2 - 5A = \\begin{pmatrix} 2 & 0 \\\\ 0 & 2 \\end{pmatrix} = 2I$, dus $k = 2$.",
+        "Controle met de stelling: $A^2 - (a + d)A + (ad - bc)I = O$ met $a + d = 5$ en $ad - bc = 4 - 6 = -2$ geeft $A^2 - 5A - 2I = O$, dus $A^2 - 5A = 2I$."
+      ],
+      "feedback": [
+        {
+          "answer": -2,
+          "message": "$-2$ is de determinant. Volgens Cayley-Hamilton is $A^2 - 5A + (-2)I = O$, dus $A^2 - 5A = +2I$. Reken het product na."
+        },
+        {
+          "answer": 6,
+          "message": "Controleer $A^2$: rechtsonder staat $3 \\cdot 2 + 4 \\cdot 4 = 22$, en $22 - 20 = 2$."
+        }
+      ],
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-032",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Twee energieleveranciers, P en Q, houden het klantverloop per jaar bij. Van de klanten van P blijft 90% bij P en stapt 10% over naar Q. Van de klanten van Q blijft 85% bij Q en stapt 15% over naar P. Dit jaar heeft P 4000 klanten en Q 6000. Hoeveel klanten heeft P volgend jaar?",
+      "answer": 4500,
+      "hints": [
+        "De overgangsmatrix is $T = \\begin{pmatrix} 0{,}9 & 0{,}15 \\\\ 0{,}1 & 0{,}85 \\end{pmatrix}$ (kolom = van, rij = naar).",
+        "P volgend jaar = blijvers van P + overstappers van Q naar P."
+      ],
+      "solution": [
+        "Blijvers bij P: $0{,}9 \\cdot 4000 = 3600$.",
+        "Overstappers van Q naar P: $0{,}15 \\cdot 6000 = 900$.",
+        "P volgend jaar: $3600 + 900 = 4500$ klanten.",
+        "In matrixvorm: $\\begin{pmatrix} 0{,}9 & 0{,}15 \\\\ 0{,}1 & 0{,}85 \\end{pmatrix}\\begin{pmatrix} 4000 \\\\ 6000 \\end{pmatrix} = \\begin{pmatrix} 4500 \\\\ 5500 \\end{pmatrix}$."
+      ],
+      "feedback": [
+        {
+          "answer": 4200,
+          "message": "Je hebt $0{,}1 \\cdot 6000$ gebruikt. Die 10% gaat van P naar Q; naar P stapt 15% van de klanten van Q over."
+        },
+        {
+          "answer": 3600,
+          "message": "Dat zijn alleen de blijvers. Tel de overstappers van Q naar P erbij op."
+        }
+      ],
+      "unit": "klanten",
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-033",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Neem de energieleveranciers uit de vorige opgave (P houdt 90%, Q houdt 85%; samen 10.000 klanten). Bij welk aantal klanten van P is er evenwicht, zodat de aantallen van jaar tot jaar gelijk blijven?",
+      "answer": 6000,
+      "hints": [
+        "In evenwicht stappen er per jaar evenveel klanten van P naar Q als van Q naar P: $0{,}1 \\cdot P = 0{,}15 \\cdot Q$.",
+        "Gebruik daarnaast $P + Q = 10\\,000$."
+      ],
+      "solution": [
+        "Evenwicht: $0{,}1P = 0{,}15Q$, dus $P = 1{,}5Q$.",
+        "$1{,}5Q + Q = 10\\,000$ geeft $2{,}5Q = 10\\,000$, dus $Q = 4000$.",
+        "$P = 1{,}5 \\cdot 4000 = 6000$.",
+        "Controle: $0{,}9 \\cdot 6000 + 0{,}15 \\cdot 4000 = 5400 + 600 = 6000$."
+      ],
+      "feedback": [
+        {
+          "answer": 4000,
+          "message": "Dat is het evenwicht van Q. Omdat P zijn klanten beter vasthoudt (90%) dan Q (85%), krijgt P in evenwicht juist het grootste deel."
+        },
+        {
+          "answer": 5000,
+          "message": "Een evenwicht hoeft geen gelijke verdeling te zijn. Stel de stromen gelijk: $0{,}1P = 0{,}15Q$."
+        }
+      ],
+      "unit": "klanten",
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-034",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een vogelpopulatie wordt beschreven met de Leslie-matrix $L = \\begin{pmatrix} 0 & 1{,}5 & 2 \\\\ 0{,}6 & 0 & 0 \\\\ 0 & 0{,}5 & 0 \\end{pmatrix}$ en drie leeftijdsklassen (jong, middel, oud). Nu zijn er 200 jonge, 100 middelste en 40 oude vogels. Hoeveel jonge vogels zijn er over **twee** jaar?",
+      "answer": 280,
+      "hints": [
+        "Bereken eerst de verdeling na één jaar: $L\\begin{pmatrix} 200 \\\\ 100 \\\\ 40 \\end{pmatrix}$.",
+        "Na één jaar zijn er $(230;\\ 120;\\ 50)$ vogels. Pas $L$ nog eens toe; je hebt alleen de eerste rij nodig."
+      ],
+      "solution": [
+        "Na één jaar: jong $= 1{,}5 \\cdot 100 + 2 \\cdot 40 = 230$; middel $= 0{,}6 \\cdot 200 = 120$; oud $= 0{,}5 \\cdot 100 = 50$.",
+        "Na twee jaar: jong $= 1{,}5 \\cdot 120 + 2 \\cdot 50 = 180 + 100 = 280$."
+      ],
+      "feedback": [
+        {
+          "answer": 230,
+          "message": "Dat is het aantal jonge vogels na één jaar. Pas de matrix nog een keer toe."
+        },
+        {
+          "answer": 400,
+          "message": "Dat is het totale aantal vogels na één jaar ($230 + 120 + 50$). Gevraagd zijn alleen de jonge vogels na twee jaar."
+        }
+      ],
+      "unit": "vogels",
+      "topics": [
+        "matrices"
+      ]
+    },
+    {
+      "id": "32-035",
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Het punt $(4; -1)$ wordt over $90^\\circ$ tegen de klok in om de oorsprong gedraaid, met de matrix $R = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}$. Wat is het beeldpunt?",
+      "answer": "(1; 4)",
+      "hints": [
+        "Bereken $R\\begin{pmatrix} 4 \\\\ -1 \\end{pmatrix}$ met rij maal kolom.",
+        "Eerste coördinaat: $0 \\cdot 4 + (-1) \\cdot (-1)$."
+      ],
+      "solution": [
+        "$R\\begin{pmatrix} 4 \\\\ -1 \\end{pmatrix} = \\begin{pmatrix} 0 \\cdot 4 + (-1) \\cdot (-1) \\\\ 1 \\cdot 4 + 0 \\cdot (-1) \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ 4 \\end{pmatrix}$.",
+        "Het beeldpunt is $(1; 4)$. Controle: de afstand tot $O$ is in beide gevallen $\\sqrt{17}$."
+      ],
+      "feedback": [
+        {
+          "answer": "(-1; -4)",
+          "message": "Je hebt met de klok mee gedraaid. Tegen de klok in gaat $(x; y)$ naar $(-y; x)$."
+        },
+        {
+          "answer": "(4; 1)",
+          "message": "Dat is een spiegeling in de $x$-as, geen draaiing. Vermenigvuldig met $R$."
+        }
+      ],
+      "topics": [
+        "matrices",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "32-036",
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een figuur wordt eerst over $90^\\circ$ tegen de klok in om $O$ gedraaid (matrix $R$) en daarna gespiegeld in de $y$-as (matrix $S = \\begin{pmatrix} -1 & 0 \\\\ 0 & 1 \\end{pmatrix}$). Bepaal de matrix $M$ van de samengestelde transformatie. Geef de elementen $m_{ij}$.",
+      "parts": [
+        {
+          "label": "m₁₁",
+          "answer": 0,
+          "type": "numeric"
+        },
+        {
+          "label": "m₁₂",
+          "answer": 1,
+          "type": "numeric"
+        },
+        {
+          "label": "m₂₁",
+          "answer": 1,
+          "type": "numeric"
+        },
+        {
+          "label": "m₂₂",
+          "answer": 0,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "De transformatie die als eerste wordt uitgevoerd, staat rechts: $M = SR$.",
+        "$R = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}$. Of: volg de beelden van $(1; 0)$ en $(0; 1)$; die vormen de kolommen van $M$."
+      ],
+      "solution": [
+        "Eerst $R$, dan $S$: $M = SR$.",
+        "$SR = \\begin{pmatrix} -1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix} = \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}$.",
+        "Controle met $(1; 0)$: draaien geeft $(0; 1)$, spiegelen in de $y$-as laat dat $(0; 1)$. Dat is de eerste kolom van $M$.",
+        "Controle met $(0; 1)$: draaien geeft $(-1; 0)$, spiegelen geeft $(1; 0)$. Dat is de tweede kolom.",
+        "$M$ is de spiegeling in de lijn $y = x$. (In de andere volgorde, $RS$, krijg je $\\begin{pmatrix} 0 & -1 \\\\ -1 & 0 \\end{pmatrix}$: de spiegeling in $y = -x$.)"
+      ],
+      "topics": [
+        "matrices",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "32-037",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Bereken het element in rij 1, kolom 1 van $F^{10}$, met $F = \\begin{pmatrix} 1 & 1 \\\\ 1 & 0 \\end{pmatrix}$. Zoek eerst een patroon in $F^2$, $F^3$ en $F^4$.",
+      "answer": 89,
+      "hints": [
+        "$F^2 = \\begin{pmatrix} 2 & 1 \\\\ 1 & 1 \\end{pmatrix}$, $F^3 = \\begin{pmatrix} 3 & 2 \\\\ 2 & 1 \\end{pmatrix}$. Bereken ook $F^4$.",
+        "De elementen zijn opeenvolgende getallen uit de rij van Fibonacci $1, 1, 2, 3, 5, 8, \\dots$: $F^n = \\begin{pmatrix} f_{n+1} & f_n \\\\ f_n & f_{n-1} \\end{pmatrix}$."
+      ],
+      "solution": [
+        "$F^2 = \\begin{pmatrix} 2 & 1 \\\\ 1 & 1 \\end{pmatrix}$, $F^3 = F^2F = \\begin{pmatrix} 3 & 2 \\\\ 2 & 1 \\end{pmatrix}$, $F^4 = \\begin{pmatrix} 5 & 3 \\\\ 3 & 2 \\end{pmatrix}$.",
+        "Vermenigvuldigen met $F$ maakt van een rij $(a,\\ b)$ de rij $(a + b,\\ a)$: precies de regel van Fibonacci.",
+        "Dus $F^n = \\begin{pmatrix} f_{n+1} & f_n \\\\ f_n & f_{n-1} \\end{pmatrix}$ met $f_1 = f_2 = 1$.",
+        "De rij: $1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89$. Linksboven in $F^{10}$ staat $f_{11} = 89$.",
+        "Volledig: $F^{10} = \\begin{pmatrix} 89 & 55 \\\\ 55 & 34 \\end{pmatrix}$."
+      ],
+      "feedback": [
+        {
+          "answer": 55,
+          "message": "55 is $f_{10}$; dat staat rechtsboven in $F^{10}$. Linksboven staat het volgende Fibonaccigetal."
+        },
+        {
+          "answer": 144,
+          "message": "144 is $f_{12}$, het element linksboven in $F^{11}$. Tel de machten nog eens na: $F^1$ heeft linksboven $f_2 = 1$."
+        }
+      ],
+      "topics": [
+        "matrices",
+        "sequences"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "title": "Hoofdstuktoets – Kansvariabelen",
+  "intro": "15 vragen zonder hints. Vanaf 70% is de module afgerond; vanaf 85% beheerst. Rond pas je eindantwoord af zoals de vraag aangeeft.",
+  "questions": [
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een dobbelsteenworp is X. Geef de kleinste mogelijke waarde.",
+      "answer": 1,
+      "solution": [
+        "Een gewone dobbelsteen heeft waarden 1 tot en met 6."
+      ],
+      "id": "36-T01",
+      "topics": [
+        "random-variables",
+        "probability"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij X=1,2,3 zijn de kansen 0,1;0,6;p. Geef p.",
+      "answer": 0.3,
+      "solution": [
+        "$p=1-0{,}1-0{,}6=0{,}3$."
+      ],
+      "tolerance": 0.005,
+      "id": "36-T02",
+      "topics": [
+        "random-variables",
+        "probability"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij die verdeling: geef P(X>1).",
+      "answer": 0.9,
+      "solution": [
+        "$0{,}6+0{,}3=0{,}9$."
+      ],
+      "tolerance": 0.005,
+      "id": "36-T03",
+      "topics": [
+        "random-variables",
+        "probability"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij die verdeling: bereken E(X).",
+      "answer": 2.2,
+      "solution": [
+        "$1\\cdot0{,}1+2\\cdot0{,}6+3\\cdot0{,}3=2{,}2$."
+      ],
+      "tolerance": 0.005,
+      "id": "36-T04",
+      "topics": [
+        "random-variables",
+        "probability"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij die verdeling: bereken E(X²).",
+      "answer": 5.2,
+      "solution": [
+        "$1\\cdot0{,}1+4\\cdot0{,}6+9\\cdot0{,}3=5{,}2$."
+      ],
+      "tolerance": 0.005,
+      "id": "36-T05",
+      "topics": [
+        "random-variables",
+        "probability"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Met E(X)=2,2 en E(X²)=5,2: bereken de variantie.",
+      "answer": 0.36,
+      "solution": [
+        "$5{,}2-2{,}2^2=0{,}36$."
+      ],
+      "tolerance": 0.005,
+      "id": "36-T06",
+      "topics": [
+        "random-variables",
+        "probability"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Geef de standaardafwijking bij variantie 0,36.",
+      "answer": 0.6,
+      "solution": [
+        "$\\sqrt{0{,}36}=0{,}6$."
+      ],
+      "tolerance": 0.005,
+      "id": "36-T07",
+      "topics": [
+        "random-variables",
+        "probability"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Y=2X−5 en E(X)=4. Geef E(Y).",
+      "answer": 3,
+      "solution": [
+        "$2\\cdot4-5=3$."
+      ],
+      "id": "36-T08",
+      "topics": [
+        "random-variables",
+        "probability"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Y=2X−5 en Var(X)=3. Geef Var(Y).",
+      "answer": 12,
+      "solution": [
+        "$2^2\\cdot3=12$."
+      ],
+      "id": "36-T09",
+      "topics": [
+        "random-variables",
+        "probability"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een lot betaalt 50 euro met kans 0,04. Geef de verwachte uitbetaling.",
+      "answer": 2,
+      "solution": [
+        "$50\\cdot0{,}04=2$ euro."
+      ],
+      "id": "36-T10",
+      "topics": [
+        "random-variables",
+        "probability"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Datzelfde lot kost 2,50 euro. Geef de verwachte nettowinst.",
+      "answer": -0.5,
+      "solution": [
+        "$2-2{,}50=-0{,}50$."
+      ],
+      "tolerance": 0.005,
+      "id": "36-T11",
+      "topics": [
+        "random-variables",
+        "probability"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Een uniforme verdeling op [2;7] heeft welke dichtheid?",
+      "answer": 0.2,
+      "solution": [
+        "Breedte 5, dus hoogte $1/5=0{,}2$."
+      ],
+      "tolerance": 0.005,
+      "id": "36-T12",
+      "topics": [
+        "random-variables",
+        "probability"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Voor die uniforme verdeling: geef P(3≤X≤5).",
+      "answer": 0.4,
+      "solution": [
+        "Breedte 2 maal hoogte 0,2 geeft 0,4."
+      ],
+      "tolerance": 0.005,
+      "id": "36-T13",
+      "topics": [
+        "random-variables",
+        "probability"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Voor die continue verdeling: geef P(X=4).",
+      "answer": 0,
+      "solution": [
+        "Een punt heeft kans nul."
+      ],
+      "id": "36-T14",
+      "topics": [
+        "random-variables",
+        "probability"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 4,
+      "question": "Onafhankelijke variabelen hebben varianties 2 en 7. Bereken Var(2X−Y).",
+      "answer": 15,
+      "solution": [
+        "$2^2\\cdot2+(-1)^2\\cdot7=15$."
+      ],
+      "id": "36-T15",
+      "topics": [
+        "random-variables",
+        "probability"
+      ]
+    }
+  ]
+}

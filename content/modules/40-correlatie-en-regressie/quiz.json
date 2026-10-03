@@ -1,0 +1,224 @@
+{
+  "title": "Hoofdstuktoets – Correlatie en regressie",
+  "intro": "15 vragen zonder hints. Vanaf 70% is de module afgerond; vanaf 85% beheerst. Rond pas je eindantwoord af zoals de vraag aangeeft.",
+  "questions": [
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij Sxy=12 en Sxx=8: geef b1.",
+      "answer": 1.5,
+      "solution": [
+        "$12/8=1{,}5$."
+      ],
+      "tolerance": 0.005,
+      "id": "40-T01",
+      "topics": [
+        "correlation",
+        "regression"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "x̄=4, ȳ=9 en b1=1,5. Geef b0.",
+      "answer": 3,
+      "solution": [
+        "$9-1{,}5\\cdot4=3$."
+      ],
+      "tolerance": 0.005,
+      "id": "40-T02",
+      "topics": [
+        "correlation",
+        "regression"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bij ŷ=3+1,5x: geef de voorspelling bij x=6.",
+      "answer": 12,
+      "solution": [
+        "$3+1{,}5\\cdot6=12$."
+      ],
+      "id": "40-T03",
+      "topics": [
+        "correlation",
+        "regression"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bij die voorspelling is y=10. Geef het residu.",
+      "answer": -2,
+      "solution": [
+        "$10-12=-2$."
+      ],
+      "id": "40-T04",
+      "topics": [
+        "correlation",
+        "regression"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Residuen zijn −2,1,1. Geef hun kwadratensom.",
+      "answer": 6,
+      "solution": [
+        "$4+1+1=6$."
+      ],
+      "id": "40-T05",
+      "topics": [
+        "correlation",
+        "regression"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Sxy=−6, Sxx=9, Syy=16. Geef r.",
+      "answer": -0.5,
+      "solution": [
+        "$-6/\\sqrt{144}=-0{,}5$."
+      ],
+      "tolerance": 0.005,
+      "id": "40-T06",
+      "topics": [
+        "correlation",
+        "regression"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij r=−0,5: geef R² voor eenvoudige regressie met intercept.",
+      "answer": 0.25,
+      "solution": [
+        "$(-0{,}5)^2=0{,}25$."
+      ],
+      "tolerance": 0.005,
+      "id": "40-T07",
+      "topics": [
+        "correlation",
+        "regression"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "SSE=10 en Syy=40. Geef R².",
+      "answer": 0.75,
+      "solution": [
+        "$1-10/40=0{,}75$."
+      ],
+      "tolerance": 0.005,
+      "id": "40-T08",
+      "topics": [
+        "correlation",
+        "regression"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "n=12. Geef de vrijheidsgraden van de hellingtoets.",
+      "answer": 10,
+      "solution": [
+        "$12-2=10$."
+      ],
+      "id": "40-T09",
+      "topics": [
+        "correlation",
+        "regression"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "SSE=40 en n=12. Geef se.",
+      "answer": 2,
+      "solution": [
+        "$\\sqrt{40/10}=2$."
+      ],
+      "id": "40-T10",
+      "topics": [
+        "correlation",
+        "regression"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "se=2 en Sxx=16. Geef SE(b1).",
+      "answer": 0.5,
+      "solution": [
+        "$2/4=0{,}5$."
+      ],
+      "tolerance": 0.005,
+      "id": "40-T11",
+      "topics": [
+        "correlation",
+        "regression"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "b1=1,5 en SE(b1)=0,5. Geef t tegen helling nul.",
+      "answer": 3,
+      "solution": [
+        "$1{,}5/0{,}5=3$."
+      ],
+      "id": "40-T12",
+      "topics": [
+        "correlation",
+        "regression"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Een correlatie is 0,8. Geef de verklaarde fractie voor eenvoudige regressie met intercept.",
+      "answer": 0.64,
+      "solution": [
+        "$0{,}8^2=0{,}64$."
+      ],
+      "tolerance": 0.005,
+      "id": "40-T13",
+      "topics": [
+        "correlation",
+        "regression"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "De lijn ŷ=−2+4x gaat door gemiddeld x=3. Welke ȳ hoort daarbij?",
+      "answer": 10,
+      "solution": [
+        "$-2+4\\cdot3=10$."
+      ],
+      "id": "40-T14",
+      "topics": [
+        "correlation",
+        "regression"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 4,
+      "question": "b1=0,7, SE=0,2 en t*=2. Geef de ondergrens van het hellinginterval.",
+      "answer": 0.3,
+      "solution": [
+        "$0{,}7-2\\cdot0{,}2=0{,}3$."
+      ],
+      "tolerance": 0.005,
+      "id": "40-T15",
+      "topics": [
+        "correlation",
+        "regression"
+      ]
+    }
+  ]
+}

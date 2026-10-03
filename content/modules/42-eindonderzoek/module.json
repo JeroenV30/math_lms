@@ -4,10 +4,10 @@
   "title": "Eindonderzoek",
   "part": 7,
   "level": "wo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Heden",
   "estimated_difficulty": 5,
-  "estimated_minutes": 90,
+  "estimated_minutes": 300,
   "prerequisites": [
     41
   ],
@@ -16,12 +16,102 @@
     "hypothesis-testing",
     "descriptive-statistics"
   ],
-  "core_question": null,
-  "summary": "Een echte dataset van begin tot conclusie onderzoeken.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
+  "core_question": "Hoe kom je van echte waarnemingen tot een reproduceerbare conclusie met duidelijke grenzen?",
+  "summary": "Een volledig onderzoek met Palmer Penguins: onderzoeksvraag, codeboek, datakwaliteit, groepsvergelijking, Welch-toets, regressie en een zelfstandig onderzoeksrapport.",
+  "learning_goals": [
+    "Je formuleert een beschrijvende en een inferentiële onderzoeksvraag met een beoogde populatie.",
+    "Je leest een CSV met codeboek, controleert ontbrekende waarden en documenteert de gebruikte selectie.",
+    "Je beschrijft groepsverdelingen met passende kengetallen en grafieken.",
+    "Je voert een Welch-vergelijking van twee onafhankelijke groepen uit en rapporteert verschil, interval, toets en aannames.",
+    "Je onderzoekt samenhang binnen één soort met regressie en controleert beperkingen.",
+    "Je schrijft een navolgbaar rapport waarin verkennende resultaten en causale claims correct worden onderscheiden."
+  ],
+  "glossary": [
+    {
+      "term": "Codeboek",
+      "definition": "Beschrijving van kolommen, eenheden, categorieën, ontbrekende codes en de waarnemingseenheid."
+    },
+    {
+      "term": "Analysepopulatie",
+      "definition": "De selectie van waarnemingen waarop een bepaalde berekening betrekking heeft."
+    },
+    {
+      "term": "Reproduceerbaarheid",
+      "definition": "De mogelijkheid om met dezelfde gegevens en vastgelegde werkwijze dezelfde uitkomsten te krijgen."
+    },
+    {
+      "term": "Vooraf gespecificeerde analyse",
+      "definition": "Een onderzoeksvraag en procedure die worden vastgelegd voordat de relevante uitkomsten worden bekeken."
+    },
+    {
+      "term": "Observationeel onderzoek",
+      "definition": "Onderzoek zonder door de onderzoeker gerandomiseerde toewijzing van de onderzochte kenmerken."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Welch-verschil",
+      "latex": "\\hat\\Delta=\\bar x_1-\\bar x_2,\\quad SE(\\hat\\Delta)=\\sqrt{s_1^2/n_1+s_2^2/n_2}",
+      "usage": "Hier: lichaamsgewicht Adélie man min vrouw, in gram."
+    },
+    {
+      "name": "Interval voor het verschil",
+      "latex": "\\hat\\Delta\\pm t_{0{,}975,\\nu}\\,SE(\\hat\\Delta)",
+      "usage": "ν wordt met de Welch-Satterthwaite-formule berekend."
+    },
+    {
+      "name": "Regressie",
+      "latex": "\\widehat{\\text{gewicht}}=b_0+b_1\\cdot\\text{vleugellengte}",
+      "usage": "Gewicht in gram, vleugellengte in millimeter; de helling heeft eenheid g/mm."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Waarom bestaat deze wiskunde?",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "theorie-a",
+      "title": "Onderzoeksvraag, dataset en datakwaliteit",
+      "file": "02-theorie-a.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "theorie-b",
+      "title": "Een groepsverschil onderzoeken",
+      "file": "03-theorie-b.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "theorie-c",
+      "title": "Samenhang onderzoeken en rapporteren",
+      "file": "03b-theorie-c.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Historisch intermezzo",
+      "file": "04-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Toepassen en kritisch redeneren",
+      "file": "05-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en hoofdstuktoets",
+      "file": "06-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "data-science",
+    "tukey-eda"
+  ],
   "mathematicians": []
 }

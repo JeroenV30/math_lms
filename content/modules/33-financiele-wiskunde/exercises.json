@@ -1,0 +1,1243 @@
+{
+  "exercises": [
+    {
+      "id": "33-001",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Je zet € 2.500 vast tegen 3% **enkelvoudige** rente per jaar. De rente wordt elk jaar uitbetaald op een andere rekening. Hoeveel heb je na 4 jaar in totaal ontvangen: de rente plus de terugbetaalde € 2.500? Rond af op centen.",
+      "answer": 2800,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Bij enkelvoudige rente is de rente elk jaar hetzelfde bedrag: 3% van € 2.500.",
+        "Bereken de rente per jaar, vermenigvuldig met 4 en tel de € 2.500 erbij."
+      ],
+      "solution": [
+        "Rente per jaar: $2500 \\times 0{,}03 = 75$, dus € 75.",
+        "Rente over 4 jaar: $4 \\times 75 = 300$, dus € 300.",
+        "Totaal: $2500 + 300 = 2800$, dus € 2.800,00.",
+        "Met de formule: $2500 \\cdot (1 + 4 \\times 0{,}03) = 2500 \\times 1{,}12 = 2800$."
+      ],
+      "feedback": [
+        {
+          "answer": 2813.77,
+          "message": "Je hebt samengestelde rente berekend ($2500 \\cdot 1{,}03^4$). Hier wordt de rente uitbetaald en groeit ze niet mee: elk jaar precies € 75."
+        },
+        {
+          "answer": 300,
+          "message": "Dat is alleen de rente. De vraag is wat je in totaal ontvangt, dus inclusief de terugbetaalde € 2.500."
+        }
+      ],
+      "topics": [
+        "finance",
+        "percentages"
+      ]
+    },
+    {
+      "id": "33-002",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een spaarrekening geeft 4,5% rente per jaar, jaarlijks bijgeschreven. Met welke **groeifactor** vermenigvuldig je het saldo elk jaar?",
+      "answer": 1.045,
+      "tolerance": 0.0001,
+      "hints": [
+        "Bij een stijging van $p\\%$ is de groeifactor $1 + \\frac{p}{100}$.",
+        "4,5% als decimaal getal is 0,045."
+      ],
+      "solution": [
+        "Rente als decimaal getal: $4{,}5\\% = 0{,}045$.",
+        "Na een jaar heb je het oude bedrag plus 0,045 keer het oude bedrag: $K + 0{,}045K = 1{,}045K$.",
+        "De groeifactor is $1{,}045$."
+      ],
+      "feedback": [
+        {
+          "answer": 1.45,
+          "message": "1,45 hoort bij 45% rente. 4,5% is 0,045, dus de groeifactor is 1 + 0,045 = 1,045."
+        },
+        {
+          "answer": 0.045,
+          "message": "0,045 is de rente als decimaal getal. De groeifactor is 1 plus de rente: 1,045."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-003",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je zet € 5.000 op een spaarrekening met 4% **samengestelde** rente per jaar. Hoeveel staat er na 10 jaar op de rekening? Rond af op centen.",
+      "answer": 7401.22,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Gebruik $K_n = K_0 \\cdot (1+i)^n$.",
+        "Bereken $1{,}04^{10}$ met je rekenmachine en vermenigvuldig met 5000."
+      ],
+      "solution": [
+        "Groeifactor per jaar: $1{,}04$.",
+        "Groeifactor over 10 jaar: $1{,}04^{10} \\approx 1{,}480244$.",
+        "Eindwaarde: $5000 \\times 1{,}480244 \\approx 7401{,}22$.",
+        "Er staat € 7.401,22 op de rekening."
+      ],
+      "feedback": [
+        {
+          "answer": 7000,
+          "message": "Je hebt tien keer 4% opgeteld (enkelvoudige rente). Bij samengestelde rente vermenigvuldig je tien keer met 1,04: $5000 \\cdot 1{,}04^{10}$."
+        },
+        {
+          "answer": 2401.22,
+          "message": "Dat is alleen de rente. Gevraagd is het hele saldo."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-004",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je zet € 1.000 op een rekening met 5% samengestelde rente per jaar. Hoeveel rente wordt er **in het derde jaar** bijgeschreven? Rond af op centen.",
+      "answer": 55.13,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Bereken eerst hoeveel er aan het begin van het derde jaar op de rekening staat, dus na 2 jaar.",
+        "De rente in jaar 3 is 5% van dat bedrag."
+      ],
+      "solution": [
+        "Saldo na 2 jaar: $1000 \\times 1{,}05^2 = 1102{,}50$.",
+        "Rente in jaar 3: $1102{,}50 \\times 0{,}05 = 55{,}125$.",
+        "Afgerond: € 55,13."
+      ],
+      "feedback": [
+        {
+          "answer": 50,
+          "message": "€ 50 is 5% van de oorspronkelijke € 1.000. Bij samengestelde rente krijg je in jaar 3 rente over het saldo na twee jaar, € 1.102,50."
+        },
+        {
+          "answer": 157.63,
+          "message": "Dat is de rente over alle drie jaren samen. Gevraagd is alleen de rente die in het derde jaar wordt bijgeschreven."
+        },
+        {
+          "answer": 52.5,
+          "message": "€ 52,50 is de rente in het tweede jaar (5% van € 1.050). In het derde jaar is de rente 5% van € 1.102,50."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-005",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een belegging groeit in 5 jaar van € 4.000 naar € 5.000. Welke vaste jaarlijkse samengestelde rente geeft precies dit resultaat? Geef het percentage, afgerond op twee decimalen.",
+      "answer": 4.56,
+      "tolerance": 0.01,
+      "unit": "%",
+      "hints": [
+        "Bereken eerst de totale groeifactor $5000 : 4000$.",
+        "Die factor is $(1+i)^5$. Neem de vijfdemachtswortel: $1{,}25^{1/5}$."
+      ],
+      "solution": [
+        "Totale groeifactor: $5000 : 4000 = 1{,}25$.",
+        "Groeifactor per jaar: $1{,}25^{1/5} \\approx 1{,}045640$.",
+        "Rente: $1{,}045640 - 1 \\approx 0{,}045640$, dus ongeveer 4,56% per jaar.",
+        "Controle: $4000 \\times 1{,}04564^5 \\approx 5000$."
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je hebt 25% gedeeld door 5 jaar. Dat negeert rente op rente; de jaarlijkse rente is daardoor iets lager: $1{,}25^{1/5} - 1$."
+        },
+        {
+          "answer": 25,
+          "message": "25% is de totale groei over 5 jaar. Gevraagd is de rente per jaar."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-006",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bedrag staat tegen 6% rente per jaar, die alleen aan het eind van elk jaar wordt bijgeschreven. Na hoeveel hele jaren is het bedrag voor het eerst minstens verdubbeld?",
+      "answer": 12,
+      "unit": "jaar",
+      "hints": [
+        "Zoek het kleinste gehele getal $n$ met $1{,}06^n \\geq 2$.",
+        "Met logaritmen: $n = \\frac{\\log 2}{\\log 1{,}06}$; rond daarna naar boven af."
+      ],
+      "solution": [
+        "Voorwaarde: $1{,}06^n \\geq 2$.",
+        "$n = \\dfrac{\\log 2}{\\log 1{,}06} \\approx \\dfrac{0{,}30103}{0{,}025306} \\approx 11{,}9$.",
+        "Controle: $1{,}06^{11} \\approx 1{,}898$ (nog niet verdubbeld), $1{,}06^{12} \\approx 2{,}012$ (wel).",
+        "Na 12 jaar is het bedrag voor het eerst verdubbeld."
+      ],
+      "feedback": [
+        {
+          "answer": 17,
+          "message": "Je hebt met enkelvoudige rente gerekend ($100 : 6 \\approx 16{,}7$). Door rente op rente gaat verdubbelen sneller: $1{,}06^{12} \\approx 2{,}01$."
+        },
+        {
+          "answer": 11,
+          "message": "Na 11 jaar is de groeifactor $1{,}06^{11} \\approx 1{,}90$: nog geen verdubbeling. Rond naar boven af."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-007",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Je legt € 10.000 twintig jaar vast tegen 5% per jaar. Hoeveel **meer** heb je aan het eind bij samengestelde rente dan bij enkelvoudige rente? Rond af op centen.",
+      "answer": 6532.98,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Bereken beide eindbedragen apart.",
+        "Enkelvoudig: $10000 \\cdot (1 + 20 \\times 0{,}05)$. Samengesteld: $10000 \\cdot 1{,}05^{20}$."
+      ],
+      "solution": [
+        "Enkelvoudig: $10000 \\cdot (1 + 20 \\times 0{,}05) = 10000 \\times 2 = 20000$.",
+        "Samengesteld: $10000 \\times 1{,}05^{20} \\approx 10000 \\times 2{,}653298 \\approx 26532{,}98$.",
+        "Verschil: $26532{,}98 - 20000 = 6532{,}98$.",
+        "Bij samengestelde rente heb je € 6.532,98 meer: dat is de rente op rente."
+      ],
+      "feedback": [
+        {
+          "answer": 26532.98,
+          "message": "Dat is het eindbedrag bij samengestelde rente. Gevraagd is het verschil met enkelvoudige rente (€ 20.000)."
+        },
+        {
+          "answer": 20000,
+          "message": "Dat is het eindbedrag bij enkelvoudige rente. Gevraagd is hoeveel meer samengestelde rente oplevert."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-008",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een rekening geeft 0,5% rente per maand, die elke maand wordt bijgeschreven. Wat is de **effectieve** jaarrente? Geef het percentage, afgerond op twee decimalen.",
+      "answer": 6.17,
+      "tolerance": 0.01,
+      "unit": "%",
+      "hints": [
+        "De groeifactor per maand is 1,005. Een jaar is twaalf maanden na elkaar.",
+        "Bereken $1{,}005^{12}$ en trek er 1 van af."
+      ],
+      "solution": [
+        "Groeifactor per maand: $1{,}005$.",
+        "Groeifactor per jaar: $1{,}005^{12} \\approx 1{,}061678$.",
+        "Effectieve jaarrente: $1{,}061678 - 1 \\approx 0{,}0617$, dus 6,17%."
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "6% is de nominale jaarrente ($12 \\times 0{,}5\\%$). Effectief is het meer, omdat elke maand rente op rente komt: $1{,}005^{12} - 1$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-009",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een spaarrekening geeft effectief 3% per jaar. Welke maandrente, elke maand bijgeschreven, levert precies hetzelfde op? Geef het percentage, afgerond op **drie** decimalen.",
+      "answer": 0.247,
+      "tolerance": 0.0005,
+      "unit": "%",
+      "hints": [
+        "Zoek de groeifactor per maand $g$ met $g^{12} = 1{,}03$.",
+        "$g = 1{,}03^{1/12}$. Trek 1 af en schrijf als percentage."
+      ],
+      "solution": [
+        "Groeifactor per maand: $1{,}03^{1/12} \\approx 1{,}0024663$.",
+        "Maandrente: $0{,}0024663$, dus ongeveer 0,247%.",
+        "Dat is iets minder dan $3\\% : 12 = 0{,}25\\%$, omdat je elke maand rente op rente krijgt."
+      ],
+      "feedback": [
+        {
+          "answer": 0.25,
+          "message": "0,25% is 3% gedeeld door 12. Twaalf keer 0,25% bijschrijven geeft effectief $1{,}0025^{12} - 1 \\approx 3{,}04\\%$, iets te veel. Gebruik $1{,}03^{1/12} - 1$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-010",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je zet € 2.000 op een rekening met 0,5% rente per maand, maandelijks bijgeschreven. Hoeveel staat er na 3 jaar op? Rond af op centen.",
+      "answer": 2393.36,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Werk in maanden: 3 jaar is 36 maanden.",
+        "Bereken $2000 \\cdot 1{,}005^{36}$."
+      ],
+      "solution": [
+        "Aantal perioden: $3 \\times 12 = 36$ maanden.",
+        "Groeifactor: $1{,}005^{36} \\approx 1{,}196681$.",
+        "Eindbedrag: $2000 \\times 1{,}196681 \\approx 2393{,}36$.",
+        "Er staat € 2.393,36 op de rekening."
+      ],
+      "feedback": [
+        {
+          "answer": 2382.03,
+          "message": "Je hebt met 6% per jaar gerekend ($2000 \\cdot 1{,}06^3$). Maar bij maandelijkse bijschrijving is de effectieve jaarrente hoger; reken met 36 maanden van 0,5%."
+        },
+        {
+          "answer": 2360,
+          "message": "Je hebt enkelvoudig gerekend: $36 \\times 0{,}5\\% = 18\\%$. Bij maandelijkse bijschrijving is het $2000 \\cdot 1{,}005^{36}$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-011",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bank A geeft 4,00% rente, één keer per jaar bijgeschreven. Bank B geeft een nominale rente van 3,95% per jaar, elke maand bijgeschreven (dus $\\frac{3{,}95}{12}\\%$ per maand). Wat is de effectieve jaarrente van bank B? Geef het percentage, afgerond op twee decimalen. (Bedenk daarna welke bank het meest oplevert.)",
+      "answer": 4.02,
+      "tolerance": 0.01,
+      "unit": "%",
+      "hints": [
+        "Maandrente bij B: $0{,}0395 : 12$.",
+        "Effectief: $\\left(1 + \\frac{0{,}0395}{12}\\right)^{12} - 1$."
+      ],
+      "solution": [
+        "Maandrente: $0{,}0395 : 12 \\approx 0{,}0032917$.",
+        "Groeifactor per jaar: $1{,}0032917^{12} \\approx 1{,}040223$.",
+        "Effectieve jaarrente van B: ongeveer 4,02%.",
+        "Bank B levert dus iets meer op dan bank A (4,00%), hoewel het nominale percentage lager is."
+      ],
+      "feedback": [
+        {
+          "answer": 3.95,
+          "message": "3,95% is de nominale rente. Door de maandelijkse bijschrijving is de effectieve rente hoger: $(1 + 0{,}0395/12)^{12} - 1$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-012",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Op een openstaande creditcardschuld rekent een buitenlandse kaartuitgever 1,5% rente per maand, die elke maand bij de schuld wordt opgeteld. Wat is de effectieve jaarrente? Geef het percentage, afgerond op twee decimalen.",
+      "answer": 19.56,
+      "tolerance": 0.01,
+      "unit": "%",
+      "hints": [
+        "De schuld wordt elke maand met 1,015 vermenigvuldigd.",
+        "Bereken $1{,}015^{12} - 1$."
+      ],
+      "solution": [
+        "Groeifactor per maand: $1{,}015$.",
+        "Groeifactor per jaar: $1{,}015^{12} \\approx 1{,}195618$.",
+        "Effectieve jaarrente: ongeveer 19,56%.",
+        "Een rente die per maand klein lijkt, is per jaar bijna 20%."
+      ],
+      "feedback": [
+        {
+          "answer": 18,
+          "message": "18% is $12 \\times 1{,}5\\%$, de nominale rente. Door rente op rente wordt het effectief $1{,}015^{12} - 1 \\approx 19{,}56\\%$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-013",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Je leent € 1.000 voor één jaar tegen 10% rente. De kredietverstrekker houdt bij uitbetaling € 25 afsluitkosten in, zodat je € 975 ontvangt. Na een jaar betaal je € 1.000 plus de rente terug. Wat is het jaarlijks kostenpercentage? Geef het percentage, afgerond op twee decimalen.",
+      "answer": 12.82,
+      "tolerance": 0.01,
+      "unit": "%",
+      "hints": [
+        "Wat ontvang je werkelijk, en wat betaal je na een jaar werkelijk terug?",
+        "Het JKP volgt uit: (terugbetaald bedrag) : (ontvangen bedrag) $= 1 + \\text{JKP}$."
+      ],
+      "solution": [
+        "Werkelijk ontvangen: $1000 - 25 = 975$.",
+        "Terugbetaald na een jaar: $1000 + 0{,}10 \\times 1000 = 1100$.",
+        "Groeifactor: $1100 : 975 \\approx 1{,}128205$.",
+        "JKP: ongeveer 12,82%."
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "10% is alleen de rente. Het JKP rekent ook de € 25 afsluitkosten mee, en die maken de lening duurder."
+        },
+        {
+          "answer": 12.5,
+          "message": "Je hebt de kosten opgeteld bij de rente en gedeeld door € 1.000. Maar je hebt maar € 975 ontvangen: deel € 1.100 door € 975."
+        }
+      ],
+      "topics": [
+        "finance"
+      ]
+    },
+    {
+      "id": "33-014",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Je krijgt over 5 jaar € 10.000. Wat is de contante waarde van dat bedrag bij een rente van 4% per jaar? Rond af op centen.",
+      "answer": 8219.27,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Terugrekenen is delen door de groeifactor: $\\frac{10000}{1{,}04^5}$.",
+        "Bereken eerst $1{,}04^5$."
+      ],
+      "solution": [
+        "$1{,}04^5 \\approx 1{,}216653$.",
+        "Contante waarde: $10000 : 1{,}216653 \\approx 8219{,}27$.",
+        "Controle: $8219{,}27 \\times 1{,}04^5 \\approx 10000$.",
+        "De contante waarde is € 8.219,27."
+      ],
+      "feedback": [
+        {
+          "answer": 8000,
+          "message": "Je hebt vijf keer 4% van € 10.000 afgetrokken. Disconteren doe je door te delen door $1{,}04^5$."
+        },
+        {
+          "answer": 8153.73,
+          "message": "Je hebt vermenigvuldigd met $0{,}96^5$. Delen door 1,04 is niet hetzelfde als vermenigvuldigen met 0,96; reken $10000 : 1{,}04^5$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-015",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Iemand biedt je de keuze: € 5.000 nu, of € 5.600 over 3 jaar. Je kunt geld beleggen tegen 3,5% per jaar. Bereken de contante waarde van de € 5.600 over 3 jaar. Rond af op centen. (Bedenk daarna welke keuze voordeliger is.)",
+      "answer": 5050.88,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Deel € 5.600 door $1{,}035^3$.",
+        "Vergelijk het resultaat met de € 5.000 die je nu kunt krijgen."
+      ],
+      "solution": [
+        "$1{,}035^3 \\approx 1{,}108718$.",
+        "Contante waarde: $5600 : 1{,}108718 \\approx 5050{,}88$.",
+        "€ 5.600 over 3 jaar is nu € 5.050,88 waard, meer dan € 5.000. Bij 3,5% is wachten dus (iets) voordeliger."
+      ],
+      "feedback": [
+        {
+          "answer": 5032.34,
+          "message": "Je hebt vermenigvuldigd met $0{,}965^3$. Disconteren is delen door $1{,}035^3$."
+        },
+        {
+          "answer": 6208.82,
+          "message": "Je hebt de € 5.600 vooruit gerekend in plaats van terug. Contante waarde: delen door $1{,}035^3$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-016",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een klant betaalt een rekening in drie termijnen van € 2.000: na 1, na 2 en na 3 jaar. Wat is de contante waarde van deze drie termijnen samen bij een rente van 5% per jaar? Rond af op centen.",
+      "answer": 5446.5,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Reken elke termijn apart terug naar nu en tel daarna op.",
+        "$\\frac{2000}{1{,}05} + \\frac{2000}{1{,}05^2} + \\frac{2000}{1{,}05^3}$."
+      ],
+      "solution": [
+        "Termijn na 1 jaar: $2000 : 1{,}05 \\approx 1904{,}76$.",
+        "Termijn na 2 jaar: $2000 : 1{,}05^2 \\approx 1814{,}06$.",
+        "Termijn na 3 jaar: $2000 : 1{,}05^3 \\approx 1727{,}68$.",
+        "Samen: $\\approx 5446{,}50$ (met onafgeronde waarden opgeteld).",
+        "De drie termijnen zijn nu samen € 5.446,50 waard."
+      ],
+      "feedback": [
+        {
+          "answer": 6000,
+          "message": "Je hebt de bedragen zonder omrekenen opgeteld. Bedragen op verschillende momenten moet je eerst naar hetzelfde moment terugrekenen."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-017",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bij welke jaarlijkse rente is € 7.500 nu precies evenveel waard als € 10.000 over 6 jaar? Geef het percentage, afgerond op twee decimalen.",
+      "answer": 4.91,
+      "tolerance": 0.01,
+      "unit": "%",
+      "hints": [
+        "Er moet gelden: $7500 \\cdot (1+i)^6 = 10000$.",
+        "Bereken $\\left(\\frac{10000}{7500}\\right)^{1/6}$."
+      ],
+      "solution": [
+        "Totale groeifactor: $10000 : 7500 = 1{,}3333\\ldots$",
+        "Groeifactor per jaar: $1{,}3333^{1/6} \\approx 1{,}049115$.",
+        "Rente: ongeveer 4,91% per jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 5.56,
+          "message": "Je hebt $33{,}3\\% : 6$ gerekend. Dat negeert rente op rente; gebruik de zesdemachtswortel van 1,3333."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-018",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je legt vijf jaar lang aan het **eind** van elk jaar € 100 in op een rekening met 3% rente per jaar. Hoeveel staat er direct na de vijfde inleg op de rekening? Rond af op centen.",
+      "answer": 530.91,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Gebruik $EW = T \\cdot \\frac{(1+i)^n - 1}{i}$ met $T = 100$, $i = 0{,}03$ en $n = 5$.",
+        "De eerste inleg groeit 4 jaar, de laatste 0 jaar."
+      ],
+      "solution": [
+        "$1{,}03^5 \\approx 1{,}159274$.",
+        "$EW = 100 \\cdot \\dfrac{1{,}159274 - 1}{0{,}03} \\approx 100 \\times 5{,}309136 \\approx 530{,}91$.",
+        "Controle term voor term: $112{,}55 + 109{,}27 + 106{,}09 + 103{,}00 + 100{,}00 = 530{,}91$.",
+        "Er staat € 530,91 op de rekening."
+      ],
+      "feedback": [
+        {
+          "answer": 500,
+          "message": "Je hebt alleen de inleg opgeteld. Elke inleg krijgt rente tot het eindmoment."
+        },
+        {
+          "answer": 546.84,
+          "message": "Dat zou kloppen als je aan het begin van elk jaar inlegt en aan het eind van jaar 5 kijkt. Hier leg je aan het eind van elk jaar in: de laatste inleg krijgt geen rente."
+        }
+      ],
+      "topics": [
+        "finance",
+        "sequences"
+      ]
+    },
+    {
+      "id": "33-019",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Je spaart tien jaar lang aan het eind van elke maand € 50, tegen 0,25% rente per maand. Hoeveel staat er direct na de laatste inleg op de rekening? Rond af op centen.",
+      "answer": 6987.07,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Werk in maanden: $n = 120$ en $i = 0{,}0025$.",
+        "$EW = 50 \\cdot \\frac{1{,}0025^{120} - 1}{0{,}0025}$."
+      ],
+      "solution": [
+        "$1{,}0025^{120} \\approx 1{,}349354$.",
+        "$EW = 50 \\cdot \\dfrac{0{,}349354}{0{,}0025} \\approx 50 \\times 139{,}7414 \\approx 6987{,}07$.",
+        "Ingelegd: $120 \\times 50 = 6000$; de rente levert dus bijna € 987 op.",
+        "Er staat € 6.987,07 op de rekening."
+      ],
+      "feedback": [
+        {
+          "answer": 6000,
+          "message": "Dat is alleen de inleg (120 keer € 50). Elke inleg groeit met rente tot het eindmoment."
+        }
+      ],
+      "topics": [
+        "finance",
+        "sequences"
+      ]
+    },
+    {
+      "id": "33-020",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je leent € 10.000 tegen 6% per jaar en lost af in 5 gelijke jaarlijkse termijnen (annuïteiten), steeds aan het eind van het jaar. Hoe groot is elke termijn? Rond af op centen.",
+      "answer": 2373.96,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Gebruik $A = L \\cdot \\frac{i}{1-(1+i)^{-n}}$.",
+        "Bereken eerst $1{,}06^{-5}$."
+      ],
+      "solution": [
+        "$1{,}06^{-5} \\approx 0{,}747258$, dus $1 - 0{,}747258 = 0{,}252742$.",
+        "Annuïteitsfactor: $0{,}06 : 0{,}252742 \\approx 0{,}237396$.",
+        "$A = 10000 \\times 0{,}237396 \\approx 2373{,}96$.",
+        "Elke termijn is € 2.373,96."
+      ],
+      "feedback": [
+        {
+          "answer": 2000,
+          "message": "Dat is alleen de aflossing ($10000 : 5$), zonder rente."
+        },
+        {
+          "answer": 2600,
+          "message": "€ 2.600 is de eerste termijn van een lineaire lening (€ 2.000 aflossing + € 600 rente). Bij een annuïteit zijn alle termijnen gelijk: gebruik de annuïteitsformule."
+        }
+      ],
+      "topics": [
+        "finance",
+        "sequences"
+      ]
+    },
+    {
+      "id": "33-021",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een annuïteitenhypotheek van € 250.000 heeft een looptijd van 30 jaar en een rente van 3,6% per jaar. De bank rekent met een maandrente van $3{,}6\\% : 12 = 0{,}3\\%$. Bereken de bruto maandlast. Rond af op centen.",
+      "answer": 1136.61,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Werk in maanden: $n = 360$, $i = 0{,}003$.",
+        "$A = 250000 \\cdot \\frac{0{,}003}{1 - 1{,}003^{-360}}$."
+      ],
+      "solution": [
+        "$1{,}003^{-360} \\approx 0{,}340145$, dus $1 - 0{,}340145 = 0{,}659855$.",
+        "$A = 250000 \\cdot \\dfrac{0{,}003}{0{,}659855} \\approx 250000 \\times 0{,}0045465 \\approx 1136{,}61$.",
+        "De bruto maandlast is € 1.136,61."
+      ],
+      "feedback": [
+        {
+          "answer": 694.44,
+          "message": "Dat is alleen de aflossing bij een lineaire hypotheek ($250000 : 360$). Een annuïteit bevat ook de rente."
+        },
+        {
+          "answer": 1444.44,
+          "message": "Dat is de eerste maandlast van een lineaire hypotheek. Bij een annuïteitenhypotheek gebruik je de annuïteitsformule."
+        }
+      ],
+      "topics": [
+        "finance",
+        "sequences"
+      ]
+    },
+    {
+      "id": "33-022",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Neem de hypotheek uit de vorige opgave: € 250.000, maandrente 0,3%, maandlast € 1.136,61. Splits de **eerste** maandlast in een rentedeel en een aflossingsdeel. Rond af op centen.",
+      "parts": [
+        {
+          "label": "rentedeel (€)",
+          "answer": 750,
+          "type": "decimal",
+          "tolerance": 0.01
+        },
+        {
+          "label": "aflossingsdeel (€)",
+          "answer": 386.61,
+          "type": "decimal",
+          "tolerance": 0.01
+        }
+      ],
+      "hints": [
+        "Het rentedeel is 0,3% van de schuld aan het begin van de maand.",
+        "Het aflossingsdeel is wat er van de maandlast overblijft."
+      ],
+      "solution": [
+        "Rentedeel: $250000 \\times 0{,}003 = 750$, dus € 750,00.",
+        "Aflossingsdeel: $1136{,}61 - 750 = 386{,}61$, dus € 386,61.",
+        "De schuld daalt in de eerste maand naar $250000 - 386{,}61 = 249613{,}39$ euro."
+      ],
+      "topics": [
+        "finance"
+      ]
+    },
+    {
+      "id": "33-023",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Dezelfde lening van € 250.000 (30 jaar, maandrente 0,3%) wordt nu als **lineaire** hypotheek afgesloten. Wat is de bruto maandlast in de eerste maand? Rond af op centen.",
+      "answer": 1444.44,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Bij lineair los je elke maand $250000 : 360$ af.",
+        "Tel daar de rente over de volledige schuld in maand 1 bij op."
+      ],
+      "solution": [
+        "Aflossing per maand: $250000 : 360 \\approx 694{,}44$.",
+        "Rente in maand 1: $250000 \\times 0{,}003 = 750$.",
+        "Maandlast: $694{,}44 + 750 = 1444{,}44$.",
+        "De eerste maandlast is € 1.444,44, ruim € 300 hoger dan bij de annuïteitenhypotheek."
+      ],
+      "feedback": [
+        {
+          "answer": 1136.61,
+          "message": "Dat is de maandlast van de annuïteitenhypotheek. Bij lineair is de aflossing vast (€ 694,44) en komt de rente er bovenop."
+        },
+        {
+          "answer": 694.44,
+          "message": "Dat is alleen de aflossing. In de eerste maand komt er € 750 rente bij."
+        }
+      ],
+      "topics": [
+        "finance"
+      ]
+    },
+    {
+      "id": "33-024",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bij de lineaire hypotheek uit de vorige opgave (€ 250.000, 360 maanden, maandrente 0,3%): wat is de bruto maandlast in maand 121, dus direct na tien jaar? Rond af op centen.",
+      "answer": 1194.44,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Hoeveel is er na 120 maanden afgelost? Hoeveel schuld staat er dan nog open?",
+        "De rente in maand 121 is 0,3% van die restschuld; de aflossing blijft € 694,44."
+      ],
+      "solution": [
+        "Afgelost na 120 maanden: $120 \\times \\frac{250000}{360} \\approx 83333{,}33$.",
+        "Restschuld: $250000 - 83333{,}33 = 166666{,}67$.",
+        "Rente in maand 121: $166666{,}67 \\times 0{,}003 = 500{,}00$.",
+        "Maandlast: $694{,}44 + 500{,}00 = 1194{,}44$, dus € 1.194,44."
+      ],
+      "feedback": [
+        {
+          "answer": 1444.44,
+          "message": "Dat is de maandlast in maand 1. Bij een lineaire hypotheek daalt de maandlast, omdat de rente over een steeds kleinere schuld wordt berekend."
+        }
+      ],
+      "topics": [
+        "finance"
+      ]
+    },
+    {
+      "id": "33-025",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Hoeveel rente betaal je **in totaal** over de hele looptijd van de lineaire hypotheek uit de vorige opgaven (€ 250.000, 360 maanden, maandrente 0,3%)? Rond af op centen.",
+      "answer": 135375,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "De rentebedragen dalen elke maand met hetzelfde bedrag: ze vormen een rekenkundige rij.",
+        "Som van een rekenkundige rij: aantal termen maal het gemiddelde van de eerste en de laatste term (module 28)."
+      ],
+      "solution": [
+        "Aflossing per maand: $\\frac{250000}{360}$. Rente in maand 1: $250000 \\times 0{,}003 = 750$.",
+        "Rente in maand 360 (schuld $\\frac{250000}{360} \\approx 694{,}44$): $694{,}44 \\times 0{,}003 \\approx 2{,}0833$.",
+        "De rentebedragen vormen een rekenkundige rij; de som is $360 \\times \\frac{750 + 2{,}0833}{2} = 180 \\times 752{,}0833 = 135375$.",
+        "Je betaalt in totaal € 135.375,00 rente. (Ter vergelijking: bij de annuïteitenhypotheek is dat $360 \\times 1136{,}61 - 250000 \\approx 159180$ euro.)"
+      ],
+      "feedback": [
+        {
+          "answer": 270000,
+          "message": "Je hebt 360 keer de rente van de eerste maand (€ 750) genomen. Maar de rente daalt elke maand mee met de schuld; neem het gemiddelde van de eerste en de laatste rentebetaling."
+        }
+      ],
+      "topics": [
+        "finance",
+        "sequences"
+      ]
+    },
+    {
+      "id": "33-026",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je spaart aan het eind van elke maand € 200 tegen 0,3% rente per maand. Na hoeveel maanden heb je voor het eerst minstens € 10.000 op de rekening?",
+      "answer": 47,
+      "unit": "maanden",
+      "hints": [
+        "Er moet gelden: $200 \\cdot \\frac{1{,}003^n - 1}{0{,}003} \\geq 10000$.",
+        "Werk dit om tot $1{,}003^n \\geq 1{,}15$ en gebruik logaritmen."
+      ],
+      "solution": [
+        "$200 \\cdot \\dfrac{1{,}003^n - 1}{0{,}003} \\geq 10000 \\;\\Longrightarrow\\; 1{,}003^n - 1 \\geq 0{,}15 \\;\\Longrightarrow\\; 1{,}003^n \\geq 1{,}15$.",
+        "$n \\geq \\dfrac{\\log 1{,}15}{\\log 1{,}003} \\approx 46{,}66$.",
+        "Controle: na 46 maanden ongeveer € 9.849, na 47 maanden ongeveer € 10.079.",
+        "Na 47 maanden."
+      ],
+      "feedback": [
+        {
+          "answer": 50,
+          "message": "Zonder rente zou je 50 maanden nodig hebben. Door de rente gaat het sneller."
+        },
+        {
+          "answer": 46,
+          "message": "Na 46 maanden staat er ongeveer € 9.849: nog net te weinig. Rond naar boven af."
+        }
+      ],
+      "topics": [
+        "finance",
+        "sequences",
+        "logarithms"
+      ]
+    },
+    {
+      "id": "33-027",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een loterijwinnaar mag kiezen: € 100.000 nu, of tien jaar lang aan het eind van elk jaar € 12.000. Bereken de contante waarde van de tien jaarlijkse bedragen bij een rente van 4% per jaar. Rond af op centen. (Bedenk daarna welke keuze de beste is.)",
+      "answer": 97330.75,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Gebruik $CW = A \\cdot \\frac{1-(1+i)^{-n}}{i}$.",
+        "$A = 12000$, $i = 0{,}04$, $n = 10$."
+      ],
+      "solution": [
+        "$1{,}04^{-10} \\approx 0{,}675564$, dus $1 - 0{,}675564 = 0{,}324436$.",
+        "$CW = 12000 \\cdot \\dfrac{0{,}324436}{0{,}04} \\approx 12000 \\times 8{,}110896 \\approx 97330{,}75$.",
+        "De reeks is nu € 97.330,75 waard. Bij 4% is € 100.000 nu dus de betere keuze, hoewel tien keer € 12.000 samen € 120.000 is."
+      ],
+      "feedback": [
+        {
+          "answer": 120000,
+          "message": "Je hebt de bedragen zonder disconteren opgeteld. Geld dat je later krijgt, is nu minder waard."
+        }
+      ],
+      "topics": [
+        "finance",
+        "sequences"
+      ]
+    },
+    {
+      "id": "33-028",
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Volgens de wetten van Hammurabi mocht een koopman op een lening van 1 *gur* graan (300 *sila*) hoogstens 100 sila rente vragen. Welk deel van de lening is dat? Geef je antwoord als vereenvoudigde breuk.",
+      "answer": "1/3",
+      "hints": [
+        "Deel de rente door het geleende bedrag, in dezelfde eenheid (sila).",
+        "$\\frac{100}{300}$ kun je vereenvoudigen."
+      ],
+      "solution": [
+        "Rente gedeeld door lening: $\\frac{100}{300}$.",
+        "Vereenvoudigen (teller en noemer delen door 100): $\\frac{1}{3}$.",
+        "Als percentage: $33\\tfrac{1}{3}\\%$."
+      ],
+      "feedback": [
+        {
+          "answer": "1/5",
+          "message": "Een vijfde was het maximum voor zilver. Voor graan was het 100 van de 300 sila."
+        }
+      ],
+      "topics": [
+        "finance",
+        "fractions"
+      ]
+    },
+    {
+      "id": "33-029",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "In een van Fibonacci's bankproblemen (1202) staat geld uit tegen 4 denari per pond per maand. In het Pisaanse muntstelsel was 1 pond = 20 soldi = 240 denari. Hoeveel procent rente per jaar is dat, als je enkelvoudig rekent (zonder rente op rente)?",
+      "answer": 20,
+      "tolerance": 0.01,
+      "unit": "%",
+      "hints": [
+        "Bereken eerst welk deel van een pond 4 denari is.",
+        "$\\frac{4}{240}$ per maand; vermenigvuldig met 12 voor een jaar."
+      ],
+      "solution": [
+        "Rente per maand: $\\frac{4}{240} = \\frac{1}{60}$ van het bedrag, ongeveer 1,67%.",
+        "Per jaar (enkelvoudig): $12 \\times \\frac{1}{60} = \\frac{12}{60} = \\frac{1}{5} = 20\\%$.",
+        "Dat is precies het Babylonische maximum voor zilver."
+      ],
+      "feedback": [
+        {
+          "answer": 48,
+          "message": "Je hebt 4% per maand gerekend. Maar 4 denari is $\\frac{4}{240}$ pond, niet 4% van een pond."
+        },
+        {
+          "answer": 1.67,
+          "message": "Dat is de rente per maand. Gevraagd is de rente per jaar: twaalf keer zoveel."
+        }
+      ],
+      "topics": [
+        "finance",
+        "percentages"
+      ]
+    },
+    {
+      "id": "33-030",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een vereenvoudigde versie van Fibonacci's soldatenprobleem. Een soldaat krijgt elk jaar 300 bezanten, in vier termijnen van 75 aan het **eind** van elk kwartaal. De koning besluit voortaan de 300 bezanten in één keer aan het eind van het jaar te betalen. De soldaat kan zijn geld beleggen tegen 6% per kwartaal (samengesteld per kwartaal). Hoeveel bezanten is de soldaat aan het eind van het jaar kwijt door de verandering? Rond af op twee decimalen.",
+      "answer": 28.1,
+      "tolerance": 0.01,
+      "unit": "bezanten",
+      "hints": [
+        "Bereken wat de vier kwartaaltermijnen aan het eind van het jaar waard zouden zijn geweest, inclusief rente.",
+        "De termijn na kwartaal 1 groeit nog 3 kwartalen, die na kwartaal 2 nog 2, enzovoort."
+      ],
+      "solution": [
+        "Waarde aan het eind van het jaar: $75 \\cdot (1{,}06^3 + 1{,}06^2 + 1{,}06 + 1)$.",
+        "$= 75 \\times (1{,}191016 + 1{,}1236 + 1{,}06 + 1) = 75 \\times 4{,}374616 \\approx 328{,}10$.",
+        "Nieuw: 300 bezanten aan het eind van het jaar.",
+        "Verlies: $328{,}10 - 300 = 28{,}10$ bezanten."
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "In totaal krijgt hij evenveel, maar later. De eerdere termijnen hadden rente kunnen opbrengen: reken ze vooruit naar het eind van het jaar."
+        },
+        {
+          "answer": 27,
+          "message": "Je hebt enkelvoudig gerekend ($75 \\times 0{,}06 \\times (3+2+1)$). Het kwartaalgeld groeit samengesteld: gebruik $1{,}06^3$ en $1{,}06^2$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "sequences"
+      ]
+    },
+    {
+      "id": "33-031",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Johan de Witt rekende met een rente van 4% per jaar. Neem (vereenvoudigd) een lijfrente die aan het eind van elk jaar 1 gulden uitkeert, zolang de koper leeft. Een koper betaalt 16 gulden. Hoeveel jaar moet hij minstens uitkeringen ontvangen, opdat de contante waarde van zijn uitkeringen (bij 4%) **meer dan 16 gulden** is?",
+      "answer": 27,
+      "unit": "jaar",
+      "hints": [
+        "De contante waarde van $n$ uitkeringen van 1 gulden is $\\frac{1 - 1{,}04^{-n}}{0{,}04}$.",
+        "Los $\\frac{1 - 1{,}04^{-n}}{0{,}04} > 16$ op: eerst naar $1{,}04^{-n} < 0{,}36$, dan met logaritmen."
+      ],
+      "solution": [
+        "Voorwaarde: $\\dfrac{1 - 1{,}04^{-n}}{0{,}04} > 16 \\;\\Longleftrightarrow\\; 1 - 1{,}04^{-n} > 0{,}64 \\;\\Longleftrightarrow\\; 1{,}04^{-n} < 0{,}36$.",
+        "Dus $1{,}04^{n} > \\frac{1}{0{,}36} \\approx 2{,}7778$, en $n > \\dfrac{\\log 2{,}7778}{\\log 1{,}04} \\approx 26{,}05$.",
+        "Controle: bij 26 jaar is de contante waarde ongeveer 15,98 gulden, bij 27 jaar ongeveer 16,33 gulden.",
+        "Hij moet minstens 27 uitkeringen ontvangen. Een eeuwige rente zou bij 4% 25 gulden waard zijn ($1 : 0{,}04$); een lijfrente is minder waard, omdat ze bij overlijden stopt."
+      ],
+      "feedback": [
+        {
+          "answer": 26,
+          "message": "Na 26 jaar is de contante waarde ongeveer 15,98 gulden: net geen 16. Rond naar boven af."
+        },
+        {
+          "answer": 16,
+          "message": "Zonder rente zou 16 jaar genoeg zijn. Maar latere uitkeringen zijn nu minder waard; je moet disconteren."
+        }
+      ],
+      "topics": [
+        "finance",
+        "sequences",
+        "logarithms"
+      ]
+    },
+    {
+      "id": "33-032",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een aandeel stijgt in 3 jaar van € 40 naar € 52 (er is geen dividend). Wat is het gemiddelde jaarrendement? Geef het percentage, afgerond op twee decimalen.",
+      "answer": 9.14,
+      "tolerance": 0.01,
+      "unit": "%",
+      "hints": [
+        "Totale groeifactor: $52 : 40$.",
+        "Gemiddelde groeifactor per jaar: de derdemachtswortel daarvan."
+      ],
+      "solution": [
+        "Totale groeifactor: $52 : 40 = 1{,}3$.",
+        "Per jaar: $1{,}3^{1/3} \\approx 1{,}091393$.",
+        "Gemiddeld jaarrendement: ongeveer 9,14%."
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Je hebt 30% gedeeld door 3. Door rente op rente is het gemiddelde jaarrendement lager: $1{,}3^{1/3} - 1$."
+        },
+        {
+          "answer": 30,
+          "message": "30% is het rendement over drie jaar samen. Gevraagd is het gemiddelde per jaar."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-033",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een belegging daalt in een slecht jaar met 40%. Met hoeveel procent moet ze daarna stijgen om weer op de oorspronkelijke waarde te komen? Rond af op twee decimalen.",
+      "answer": 66.67,
+      "tolerance": 0.01,
+      "unit": "%",
+      "hints": [
+        "Na de daling is de groeifactor 0,6. Welke factor brengt je terug op 1?",
+        "Zoek $g$ met $0{,}6 \\cdot g = 1$."
+      ],
+      "solution": [
+        "Na de daling: groeifactor $0{,}60$.",
+        "Terug naar 1: $g = 1 : 0{,}6 = 1{,}6667$.",
+        "Benodigde stijging: ongeveer 66,67%."
+      ],
+      "feedback": [
+        {
+          "answer": 40,
+          "message": "Een stijging van 40% na een daling van 40% geeft $0{,}6 \\times 1{,}4 = 0{,}84$: je zit nog 16% onder het begin. De basis is na de daling kleiner."
+        }
+      ],
+      "topics": [
+        "finance",
+        "percentages"
+      ]
+    },
+    {
+      "id": "33-034",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je spaarrekening levert 6% per jaar op. De inflatie is 2,5% per jaar. Wat is je **exacte** reële rendement? Geef het percentage, afgerond op twee decimalen.",
+      "answer": 3.41,
+      "tolerance": 0.01,
+      "unit": "%",
+      "hints": [
+        "Gebruik $1 + r_{\\text{reëel}} = \\frac{1+i}{1+\\pi}$.",
+        "Bereken $1{,}06 : 1{,}025$."
+      ],
+      "solution": [
+        "$\\dfrac{1{,}06}{1{,}025} \\approx 1{,}034146$.",
+        "Reëel rendement: $1{,}034146 - 1 \\approx 3{,}41\\%$.",
+        "De benadering $6\\% - 2{,}5\\% = 3{,}5\\%$ is iets te hoog."
+      ],
+      "feedback": [
+        {
+          "answer": 3.5,
+          "message": "3,5% is de benadering $i - \\pi$. Exact is het $\\frac{1{,}06}{1{,}025} - 1 \\approx 3{,}41\\%$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "percentages"
+      ]
+    },
+    {
+      "id": "33-035",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Je bewaart € 10.000 contant. De inflatie is tien jaar lang 3% per jaar. Hoeveel is dat bedrag na tien jaar nog waard in euro's van nu (dus: met hoeveel euro nu kun je hetzelfde kopen)? Rond af op centen.",
+      "answer": 7440.94,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Reken terug met de inflatie: delen door $1{,}03^{10}$.",
+        "Bereken eerst $1{,}03^{10}$."
+      ],
+      "solution": [
+        "$1{,}03^{10} \\approx 1{,}343916$.",
+        "Koopkracht: $10000 : 1{,}343916 \\approx 7440{,}94$.",
+        "Je € 10.000 is dan nog € 7.440,94 in euro's van nu waard."
+      ],
+      "feedback": [
+        {
+          "answer": 7000,
+          "message": "Je hebt tien keer 3% afgetrokken. Inflatie werkt met groeifactoren: deel door $1{,}03^{10}$."
+        },
+        {
+          "answer": 7374.24,
+          "message": "Je hebt vermenigvuldigd met $0{,}97^{10}$. Prijzen stijgen met factor 1,03 per jaar, dus je deelt door $1{,}03^{10}$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-036",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Hoeveel jaar duurt het volgens de regel van 72 ongeveer voordat een bedrag verdubbelt bij een rente van 8% per jaar?",
+      "answer": 9,
+      "unit": "jaar",
+      "hints": [
+        "Deel 72 door het rentepercentage.",
+        "$72 : 8$."
+      ],
+      "solution": [
+        "Regel van 72: verdubbelingstijd $\\approx 72 : 8 = 9$ jaar.",
+        "Exact: $\\frac{\\log 2}{\\log 1{,}08} \\approx 9{,}01$ jaar. De regel is hier heel nauwkeurig."
+      ],
+      "feedback": [
+        {
+          "answer": 13,
+          "message": "Je hebt 100 door 8 gedeeld (enkelvoudige rente). De regel van 72 houdt rekening met rente op rente: $72 : 8$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-037",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je staat € 800 rood. De bank rekent 1% rente per maand en telt die elke maand bij de schuld op. Je betaalt een jaar lang niets af. Hoe hoog is de schuld na 12 maanden? Rond af op centen.",
+      "answer": 901.46,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "De schuld wordt elke maand met 1,01 vermenigvuldigd.",
+        "Bereken $800 \\cdot 1{,}01^{12}$."
+      ],
+      "solution": [
+        "$1{,}01^{12} \\approx 1{,}126825$.",
+        "Schuld: $800 \\times 1{,}126825 \\approx 901{,}46$.",
+        "De schuld is gegroeid tot € 901,46: bijna 13% erbij, terwijl de rente '1% per maand' leek."
+      ],
+      "feedback": [
+        {
+          "answer": 896,
+          "message": "Je hebt enkelvoudig gerekend: $12 \\times 1\\% = 12\\%$. Maar de rente wordt elke maand bij de schuld opgeteld: $800 \\cdot 1{,}01^{12}$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-038",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Een annuïteitenhypotheek van € 300.000 (360 maanden, nominale maandrente $4\\% : 12$) heeft een maandlast van € 1.432,25. Na 120 betaalde termijnen loopt de rentevaste periode af en wordt de rente 5% per jaar (maandrente $5\\% : 12$). De bank berekent een nieuwe annuïteit over de restschuld en de resterende 240 maanden. Bereken de nieuwe maandlast. Reken met de maandlast van precies € 1.432,25 en rond alleen het eindantwoord af op centen.",
+      "answer": 1559.81,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Restschuld na 120 maanden: de schuld vooruit gerekend, min de eindwaarde van de 120 betaalde termijnen: $300000 \\cdot (1+i)^{120} - 1432{,}25 \\cdot \\frac{(1+i)^{120}-1}{i}$ met $i = \\frac{0{,}04}{12}$.",
+        "Bereken daarna de annuïteit over die restschuld met $i = \\frac{0{,}05}{12}$ en $n = 240$."
+      ],
+      "solution": [
+        "Met $i = \\frac{0{,}04}{12}$: $(1+i)^{120} \\approx 1{,}490833$.",
+        "Schuld vooruit gerekend: $300000 \\times 1{,}490833 \\approx 447249{,}80$.",
+        "Eindwaarde van de betaalde termijnen: $1432{,}25 \\cdot \\dfrac{0{,}490833}{0{,}0033333} \\approx 1432{,}25 \\times 147{,}2498 \\approx 210898{,}53$.",
+        "Restschuld: $447249{,}80 - 210898{,}53 \\approx 236351{,}27$.",
+        "Nieuwe maandlast met $i = \\frac{0{,}05}{12}$, $n = 240$: $A = 236351{,}27 \\cdot \\dfrac{0{,}05/12}{1 - (1 + 0{,}05/12)^{-240}} \\approx 236351{,}27 \\times 0{,}0065996 \\approx 1559{,}81$.",
+        "De nieuwe maandlast is € 1.559,81: ruim € 127 per maand meer."
+      ],
+      "feedback": [
+        {
+          "answer": 1610.46,
+          "message": "Je hebt de annuïteit over de oorspronkelijke € 300.000 en 360 maanden tegen 5% berekend. Na tien jaar is een deel afgelost; reken met de restschuld en 240 maanden."
+        }
+      ],
+      "topics": [
+        "finance",
+        "sequences"
+      ]
+    },
+    {
+      "id": "33-039",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Iemand wil over 30 jaar een aanvullend pensioenkapitaal van € 100.000 hebben. Hij spaart aan het eind van elke maand een vast bedrag tegen 0,4% rente per maand. Hoeveel moet hij per maand inleggen? Rond af op centen.",
+      "answer": 124.67,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Er moet gelden: $T \\cdot \\frac{1{,}004^{360} - 1}{0{,}004} = 100000$.",
+        "Bereken eerst de eindwaardefactor en deel € 100.000 daardoor."
+      ],
+      "solution": [
+        "$n = 30 \\times 12 = 360$; $1{,}004^{360} \\approx 4{,}208590$.",
+        "Eindwaardefactor: $\\dfrac{4{,}208590 - 1}{0{,}004} \\approx 802{,}1475$.",
+        "$T = 100000 : 802{,}1475 \\approx 124{,}67$.",
+        "Hij legt in totaal $360 \\times 124{,}67 \\approx 44881$ euro in; de rest, ruim € 55.000, is rente."
+      ],
+      "feedback": [
+        {
+          "answer": 277.78,
+          "message": "Je hebt € 100.000 gedeeld door 360 maanden, zonder rente. Door de rente is een veel kleiner bedrag nodig."
+        }
+      ],
+      "topics": [
+        "finance",
+        "sequences"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "title": "Hoofdstuktoets – Steekproeven",
+  "intro": "15 vragen zonder hints. Vanaf 70% is de module afgerond; vanaf 85% beheerst. Rond pas je eindantwoord af zoals de vraag aangeeft.",
+  "questions": [
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een steekproef heeft 144 metingen. Geef n.",
+      "answer": 144,
+      "solution": [
+        "n is het aantal waarnemingen."
+      ],
+      "id": "38-T01",
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij σ=24 en n=144: geef SE.",
+      "answer": 2,
+      "solution": [
+        "$24/12=2$."
+      ],
+      "tolerance": 0.005,
+      "id": "38-T02",
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij s=15 en n=25: geef geschatte SE.",
+      "answer": 3,
+      "solution": [
+        "$15/5=3$."
+      ],
+      "tolerance": 0.005,
+      "id": "38-T03",
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "type": "fraction",
+      "difficulty": 2,
+      "question": "n wordt negen keer zo groot. Geef nieuwe SE / oude SE als breuk.",
+      "answer": "1/3",
+      "solution": [
+        "SE daalt met de wortel van 9, dus met factor 3."
+      ],
+      "id": "38-T04",
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Hoeveel keer zoveel metingen zijn nodig om SE te halveren?",
+      "answer": 4,
+      "solution": [
+        "$2^2=4$."
+      ],
+      "id": "38-T05",
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij een 95%-z-interval is SE=3. Geef de foutmarge.",
+      "answer": 5.88,
+      "solution": [
+        "$1{,}96\\cdot3=5{,}88$."
+      ],
+      "tolerance": 0.005,
+      "id": "38-T06",
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Gemiddelde 70, foutmarge 5,88. Geef de ondergrens.",
+      "answer": 64.12,
+      "solution": [
+        "$70-5{,}88=64{,}12$."
+      ],
+      "tolerance": 0.005,
+      "id": "38-T07",
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Geef de bovengrens van hetzelfde interval.",
+      "answer": 75.88,
+      "solution": [
+        "$70+5{,}88=75{,}88$."
+      ],
+      "tolerance": 0.005,
+      "id": "38-T08",
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een t-interval met n=26 heeft hoeveel vrijheidsgraden?",
+      "answer": 25,
+      "solution": [
+        "$26-1=25$."
+      ],
+      "id": "38-T09",
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Gemiddelde 12, s=5, n=25. Gebruik t*=2,064. Geef de marge.",
+      "answer": 2.064,
+      "solution": [
+        "$SE=1$, dus marge 2,064."
+      ],
+      "tolerance": 0.0005,
+      "id": "38-T10",
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Van 200 personen antwoorden 90 ja. Geef p̂.",
+      "answer": 0.45,
+      "solution": [
+        "$90/200=0{,}45$."
+      ],
+      "tolerance": 0.005,
+      "id": "38-T11",
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij p̂=0,5 en n=400: geef geschatte SE.",
+      "answer": 0.025,
+      "solution": [
+        "$\\sqrt{0{,}25/400}=0{,}025$."
+      ],
+      "tolerance": 0.0005,
+      "id": "38-T12",
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij die SE: geef de 95%-marge voor de proportie.",
+      "answer": 0.049,
+      "solution": [
+        "$1{,}96\\cdot0{,}025=0{,}049$."
+      ],
+      "tolerance": 0.0005,
+      "id": "38-T13",
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een interval [9;15] heeft welke halve breedte?",
+      "answer": 3,
+      "solution": [
+        "$(15-9)/2=3$."
+      ],
+      "id": "38-T14",
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 4,
+      "question": "Bekende σ=8, gewenste 95%-marge 1. Geef minimaal n.",
+      "answer": 246,
+      "solution": [
+        "$(1{,}96\\cdot8)^2=245{,}8624$; naar boven: 246."
+      ],
+      "id": "38-T15",
+      "topics": [
+        "sampling"
+      ]
+    }
+  ]
+}

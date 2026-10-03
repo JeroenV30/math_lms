@@ -21,8 +21,8 @@
         <div><dt class="text-muted">theorie σ/√n</dt><dd class="font-semibold tabular-nums text-history" x-text="fmt(se, 2)"></dd></div>
     </dl>
     <p class="mt-2 text-sm text-ink-soft" x-show="last">
-        95%-betrouwbaarheidsinterval van de laatste steekproef: [<span class="tabular-nums" x-text="last ? fmt(last.low, 1) : ''"></span>; <span class="tabular-nums" x-text="last ? fmt(last.high, 1) : ''"></span>]
+        Benaderend 95%-interval van de laatste steekproef: [<span class="tabular-nums" x-text="last ? fmt(last.low, 1) : ''"></span>; <span class="tabular-nums" x-text="last ? fmt(last.high, 1) : ''"></span>]
         — <strong :class="covered ? 'text-success' : 'text-danger'" x-text="covered ? 'bevat μ' : 'mist μ'"></strong>
     </p>
-    <p class="mt-1 text-xs text-muted">Grotere n: de gemiddelden liggen dichter bij μ en de vorm wordt klokvormig, ook al is de populatie scheef (centrale limietstelling). Bij n = 2 en n = 5 is de 1,96-vuistregel nog onbetrouwbaar.</p>
+    <p class="mt-1 text-xs text-muted">Het interval gebruikt gemiddelde ± 1,96 × s/√n. Bij kleine steekproeven uit deze scheve populatie is de dekking niet automatisch 95%. Grotere n maakt de verdeling van gemiddelden smaller en ongeveer klokvormig; de individuele reistijden blijven scheef.</p>
 </x-widget>

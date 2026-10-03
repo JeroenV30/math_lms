@@ -4,10 +4,10 @@
   "title": "Kansvariabelen",
   "part": 7,
   "level": "wo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "18e eeuw",
   "estimated_difficulty": 4,
-  "estimated_minutes": 90,
+  "estimated_minutes": 180,
   "prerequisites": [
     35
   ],
@@ -15,12 +15,114 @@
     "random-variables",
     "probability"
   ],
-  "core_question": null,
-  "summary": "Verwachtingswaarde en variantie.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Hoe vat je een onzekere uitkomst samen voordat je weet welk getal je daadwerkelijk zult waarnemen?",
+  "summary": "Discrete en continue kansvariabelen, kansfuncties en dichtheden, verwachtingswaarde, variantie en bewerkingen met onzekere grootheden.",
+  "learning_goals": [
+    "Je onderscheidt een kansvariabele van een concrete waarneming.",
+    "Je stelt een geldige discrete kansverdeling op en berekent gebeurteniskansen.",
+    "Je berekent verwachtingswaarde, variantie en standaardafwijking.",
+    "Je leest kansen als oppervlakte onder een continue dichtheid.",
+    "Je berekent de gevolgen van verschuiven, schalen en optellen en benoemt wanneer onafhankelijkheid nodig is."
+  ],
+  "glossary": [
+    {
+      "term": "Kansvariabele",
+      "definition": "Een functie die aan elke mogelijke uitkomst van een toevalsproces een getal toekent."
+    },
+    {
+      "term": "Kansfunctie",
+      "definition": "De kansen bij afzonderlijke waarden van een discrete kansvariabele; ze zijn niet-negatief en tellen op tot 1."
+    },
+    {
+      "term": "Kansdichtheid",
+      "definition": "Een niet-negatieve functie waarvan de oppervlakte over een interval de kans op dat interval is."
+    },
+    {
+      "term": "Verwachtingswaarde",
+      "definition": "Het met kansen gewogen gemiddelde van mogelijke uitkomsten, als deze verwachting bestaat."
+    },
+    {
+      "term": "Variantie",
+      "definition": "De verwachte gekwadrateerde afwijking van de verwachtingswaarde."
+    },
+    {
+      "term": "Onafhankelijkheid",
+      "definition": "Kennis van de ene uitkomst verandert de kansverdeling van de andere niet."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Verwachtingswaarde",
+      "latex": "E(X)=\\sum_x xP(X=x)",
+      "usage": "Voor een discrete verdeling; kansen zijn de gewichten."
+    },
+    {
+      "name": "Variantie",
+      "latex": "\\operatorname{Var}(X)=E(X^2)-[E(X)]^2",
+      "usage": "Spreiding in het kwadraat van de oorspronkelijke eenheid."
+    },
+    {
+      "name": "Verschuiven en schalen",
+      "latex": "E(aX+b)=aE(X)+b,\\quad\\operatorname{Var}(aX+b)=a^2\\operatorname{Var}(X)",
+      "usage": "Een verschuiving verandert de variantie niet."
+    },
+    {
+      "name": "Continue kans",
+      "latex": "P(a\\le X\\le b)=\\int_a^b f(x)\\,dx",
+      "usage": "Bij een kansdichtheid is de totale oppervlakte 1."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Waarom bestaat deze wiskunde?",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "theorie-a",
+      "title": "Van toevalsproces naar kansverdeling",
+      "file": "02-theorie-a.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "theorie-b",
+      "title": "Verwachtingswaarde en spreiding",
+      "file": "03-theorie-b.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "theorie-c",
+      "title": "Continue variabelen en rekenregels",
+      "file": "03b-theorie-c.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Historisch intermezzo",
+      "file": "04-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Toepassen en kritisch redeneren",
+      "file": "05-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en hoofdstuktoets",
+      "file": "06-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "huygens-kansrekening",
+    "bernoulli-ars-conjectandi",
+    "kolmogorov-axiomas"
+  ],
+  "mathematicians": [
+    "pascal",
+    "fermat"
+  ]
 }

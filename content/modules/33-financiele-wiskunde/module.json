@@ -4,23 +4,205 @@
   "title": "Financiële wiskunde",
   "part": 6,
   "level": "hbo",
-  "status": "planned",
-  "historical_period": "Renaissance",
+  "status": "available",
+  "historical_period": "Babylon tot de Republiek (ca. 1750 v.Chr. – 1683)",
   "estimated_difficulty": 4,
-  "estimated_minutes": 90,
+  "estimated_minutes": 180,
   "prerequisites": [
-    32
+    9,
+    25,
+    28
   ],
   "topics": [
     "finance",
-    "exponential"
+    "exponential",
+    "percentages",
+    "sequences"
   ],
-  "core_question": null,
-  "summary": "Rente, annuïteiten, contante waarde en rendement.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Waarom is een euro vandaag meer waard dan een euro over tien jaar – en hoe reken je bedragen op verschillende momenten eerlijk naar elkaar om?",
+  "summary": "Enkelvoudige en samengestelde rente, effectieve rente en JKP, contante waarde, spaarplannen, annuïteiten en hypotheken, rendement en inflatie. Van de rentetarieven van Hammurabi via Fibonacci, Stevin en De Witt naar Bernoulli's getal e.",
+  "learning_goals": [
+    "Je onderscheidt enkelvoudige en samengestelde rente en berekent eindwaarden met Kₙ = K₀ · (1 + i)ⁿ.",
+    "Je berekent bij gegeven begin- en eindbedrag de bijbehorende rente of looptijd, met machtswortels en logaritmen.",
+    "Je rekent rente om tussen perioden (maand, kwartaal, jaar), onderscheidt nominale en effectieve rente en legt uit wat het jaarlijks kostenpercentage is.",
+    "Je berekent de contante waarde van een of meer toekomstige bedragen en vergelijkt betaalwijzen door alles naar hetzelfde moment om te rekenen.",
+    "Je berekent de eindwaarde van een spaarplan en de contante waarde van een reeks met de somformule van een meetkundige rij.",
+    "Je berekent de annuïteit van een lening, splitst een termijn in rente en aflossing en vult een deel van een aflossingsschema in.",
+    "Je vergelijkt een annuïteitenhypotheek en een lineaire hypotheek op maandlasten en totale rente.",
+    "Je berekent rendement over meerdere jaren en reëel rendement bij inflatie (exact en benaderd), en je gebruikt en verklaart de regel van 72.",
+    "Je beoordeelt kritisch wat kort krediet (kredietkaart, roodstaan, achteraf betalen) werkelijk kost.",
+    "Je kunt de ontwikkeling van de financiële wiskunde schetsen: Hammurabi, Fibonacci, Stevin, de VOC, De Witt en Bernoulli."
+  ],
+  "glossary": [
+    {
+      "term": "Rente",
+      "definition": "De vergoeding voor het gebruik van geld gedurende een periode, meestal uitgedrukt als percentage van het bedrag per jaar of per maand."
+    },
+    {
+      "term": "Rentevoet",
+      "definition": "De rente per periode als percentage of als decimaal getal, bijvoorbeeld 4% per jaar ofwel i = 0,04."
+    },
+    {
+      "term": "Enkelvoudige rente",
+      "definition": "Rente die elke periode over hetzelfde beginkapitaal wordt berekend en niet meegroeit. Het kapitaal groeit lineair."
+    },
+    {
+      "term": "Samengestelde rente",
+      "definition": "Rente die wordt bijgeschreven en daarna zelf ook rente oplevert (rente op rente). Het kapitaal groeit exponentieel, met groeifactor 1 + i per periode."
+    },
+    {
+      "term": "Nominale rente",
+      "definition": "De rente per periode maal het aantal perioden per jaar, zonder rekening te houden met rente op rente; bijvoorbeeld 12 × 0,5% = 6%."
+    },
+    {
+      "term": "Effectieve rente",
+      "definition": "De werkelijke procentuele groei over een jaar, inclusief rente op rente. Bij 0,5% per maand is dat 1,005¹² − 1 ≈ 6,17%."
+    },
+    {
+      "term": "Jaarlijks kostenpercentage (JKP)",
+      "definition": "De effectieve jaarrente van een lening waarin alle verplichte kosten zijn meegerekend; bedoeld om leningen eerlijk te vergelijken."
+    },
+    {
+      "term": "Contante waarde",
+      "definition": "Wat een toekomstig bedrag nu waard is: het bedrag dat je nu zou moeten beleggen om later precies dat bedrag te hebben."
+    },
+    {
+      "term": "Disconteren",
+      "definition": "Een toekomstig bedrag terugrekenen naar nu door te delen door de groeifactor (1 + i)ⁿ."
+    },
+    {
+      "term": "Annuïteit",
+      "definition": "Een reeks gelijke betalingen met gelijke tussenpozen, zoals de vaste termijn waarmee een lening inclusief rente wordt afgelost."
+    },
+    {
+      "term": "Aflossing",
+      "definition": "Het deel van een termijn waarmee de schuld zelf kleiner wordt; het andere deel van de termijn is rente."
+    },
+    {
+      "term": "Lineaire hypotheek",
+      "definition": "Een hypotheek waarbij je elke maand hetzelfde bedrag aflost; de rente en dus de maandlast dalen in de loop van de tijd."
+    },
+    {
+      "term": "Rendement",
+      "definition": "De procentuele opbrengst van een belegging over een periode, inclusief koerswinst en uitkeringen zoals dividend."
+    },
+    {
+      "term": "Inflatie",
+      "definition": "De procentuele stijging van het algemene prijspeil; door inflatie daalt de koopkracht van een vast geldbedrag."
+    },
+    {
+      "term": "Reëel rendement",
+      "definition": "Het rendement gecorrigeerd voor inflatie: (1 + i) / (1 + π) − 1, ongeveer nominaal rendement min inflatie."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Enkelvoudige rente",
+      "latex": "K_n = K_0\\,(1 + n\\,i)",
+      "usage": "Eindwaarde als de rente elk jaar over het beginkapitaal wordt berekend en niet meegroeit.",
+      "origin": "Al in Mesopotamische leencontracten; de wetten van Hammurabi (ca. 1750 v.Chr.) begrensden het tarief."
+    },
+    {
+      "name": "Samengestelde rente",
+      "latex": "K_n = K_0\\,(1 + i)^n",
+      "usage": "Eindwaarde bij jaarlijks bijgeschreven rente. Terugrekenen naar de rente met een n-demachtswortel, naar de looptijd met logaritmen.",
+      "origin": "Behandeld in Fibonacci's Liber Abaci (1202) en in Stevins Tafelen van Interest (1582)."
+    },
+    {
+      "name": "Effectieve jaarrente",
+      "latex": "i_{\\text{jaar}} = (1 + i_p)^m - 1",
+      "usage": "Een rente per periode omzetten naar de werkelijke rente per jaar; omgekeerd neem je de m-demachtswortel van de groeifactor per jaar.",
+      "origin": "Bij steeds vaker bijschrijven vond Jacob Bernoulli (1683) de grens e ≈ 2,71828."
+    },
+    {
+      "name": "Contante waarde",
+      "latex": "CW = \\dfrac{K_n}{(1+i)^n}",
+      "usage": "Een toekomstig bedrag terugrekenen naar nu, om bedragen op verschillende momenten te kunnen vergelijken.",
+      "origin": "Volgens Goetzmann al door Fibonacci (1202) gebruikt; Stevin publiceerde tabellen (1582)."
+    },
+    {
+      "name": "Eindwaarde van een reeks",
+      "latex": "EW = T \\cdot \\dfrac{(1+i)^n - 1}{i}",
+      "usage": "Waarde van een spaarplan met n gelijke inleggen T aan het eind van elke periode, direct na de laatste inleg.",
+      "origin": "Toepassing van de somformule van een meetkundige rij."
+    },
+    {
+      "name": "Annuïteit",
+      "latex": "A = L \\cdot \\dfrac{i}{1 - (1+i)^{-n}}",
+      "usage": "De vaste termijn waarmee een lening L in n termijnen wordt afgelost. Omgekeerd is de contante waarde van n termijnen A gelijk aan A · (1 − (1+i)^(−n)) / i.",
+      "origin": "Annuïteiten en lijfrenten werden in de Republiek onder anderen door Johan de Witt (1671) gewaardeerd."
+    },
+    {
+      "name": "Reëel rendement",
+      "latex": "r_{\\text{reëel}} = \\dfrac{1+i}{1+\\pi} - 1 \\approx i - \\pi",
+      "usage": "Rendement gecorrigeerd voor inflatie; de benadering geldt alleen voor kleine percentages.",
+      "origin": "Het onderscheid tussen nominale en reële rente werd rond 1900 vooral door de econoom Irving Fisher uitgewerkt."
+    },
+    {
+      "name": "Regel van 72",
+      "latex": "\\text{verdubbelingstijd} \\approx \\dfrac{72}{p}\\ \\text{jaar}",
+      "usage": "Snelle schatting van de verdubbelingstijd bij p procent groei per jaar.",
+      "origin": "Vermeld door Luca Pacioli in de Summa de arithmetica (1494)."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Twintig procent op zilver",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "rente",
+      "title": "Enkelvoudige en samengestelde rente",
+      "file": "02-rente.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "effectieve-rente",
+      "title": "Per maand, per jaar en het JKP",
+      "file": "03-effectieve-rente.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "contante-waarde",
+      "title": "Contante waarde: geld nu en geld later",
+      "file": "03b-contante-waarde.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "annuiteiten",
+      "title": "Spaarplannen, annuïteiten en hypotheken",
+      "file": "03c-annuiteiten.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Van Babylon tot de Amsterdamse beurs",
+      "file": "04-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Rendement, inflatie en dure leningen",
+      "file": "05-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "06-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "fibonacci-liber-abaci",
+    "stevin-de-thiende",
+    "euler"
+  ],
+  "mathematicians": [
+    "fibonacci",
+    "simon-stevin",
+    "euler"
+  ]
 }

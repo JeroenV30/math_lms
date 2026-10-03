@@ -1,0 +1,417 @@
+{
+  "title": "Hoofdstuktoets – Financiële wiskunde",
+  "intro": "15 vragen over enkelvoudige en samengestelde rente, effectieve rente, contante waarde, spaarplannen, annuïteiten en hypotheken, rendement en inflatie. Gebruik een rekenmachine en rond bedragen af op centen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "33-T01",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Je zet € 3.000 vast tegen 2,5% **enkelvoudige** rente per jaar; de rente wordt elk jaar uitbetaald. Hoeveel ontvang je in totaal na 6 jaar (rente plus de terugbetaalde € 3.000)? Rond af op centen.",
+      "answer": 3450,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "Rente per jaar: $3000 \\times 0{,}025 = 75$.",
+        "Over 6 jaar: $6 \\times 75 = 450$.",
+        "Totaal: $3000 + 450 = 3450$, dus € 3.450,00."
+      ],
+      "feedback": [
+        {
+          "answer": 3479.08,
+          "message": "Dat is samengestelde rente. Hier wordt de rente uitbetaald en groeit ze niet mee."
+        }
+      ],
+      "topics": [
+        "finance",
+        "percentages"
+      ]
+    },
+    {
+      "id": "33-T02",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Je zet € 1.500 op een rekening met 3% samengestelde rente per jaar. Hoeveel staat er na 8 jaar op? Rond af op centen.",
+      "answer": 1900.16,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "$1{,}03^8 \\approx 1{,}266770$.",
+        "$1500 \\times 1{,}266770 \\approx 1900{,}16$.",
+        "Er staat € 1.900,16 op de rekening."
+      ],
+      "feedback": [
+        {
+          "answer": 1860,
+          "message": "Je hebt acht keer 3% opgeteld. Bij samengestelde rente: $1500 \\cdot 1{,}03^8$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-T03",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Een tegoed groeit in één jaar van € 800 naar € 828. Hoeveel procent rente is dat? Rond af op twee decimalen.",
+      "answer": 3.5,
+      "tolerance": 0.01,
+      "unit": "%",
+      "hints": [],
+      "solution": [
+        "Rente: $828 - 800 = 28$.",
+        "Als deel van het beginbedrag: $28 : 800 = 0{,}035$.",
+        "Dat is 3,5%."
+      ],
+      "feedback": [
+        {
+          "answer": 28,
+          "message": "€ 28 is het rentebedrag. Gevraagd is het percentage ten opzichte van € 800."
+        }
+      ],
+      "topics": [
+        "finance",
+        "percentages"
+      ]
+    },
+    {
+      "id": "33-T04",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een rekening geeft 0,4% rente per maand, maandelijks bijgeschreven. Wat is de effectieve jaarrente? Rond af op twee decimalen.",
+      "answer": 4.91,
+      "tolerance": 0.01,
+      "unit": "%",
+      "hints": [],
+      "solution": [
+        "$1{,}004^{12} \\approx 1{,}049070$.",
+        "Effectieve jaarrente: ongeveer 4,91%."
+      ],
+      "feedback": [
+        {
+          "answer": 4.8,
+          "message": "4,8% is de nominale rente ($12 \\times 0{,}4\\%$). Effectief: $1{,}004^{12} - 1$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-T05",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke maandrente, elke maand bijgeschreven, is gelijkwaardig aan een effectieve jaarrente van 6%? Geef het percentage, afgerond op **drie** decimalen.",
+      "answer": 0.487,
+      "tolerance": 0.0005,
+      "unit": "%",
+      "hints": [],
+      "solution": [
+        "$1{,}06^{1/12} \\approx 1{,}0048676$.",
+        "Maandrente: ongeveer 0,487%."
+      ],
+      "feedback": [
+        {
+          "answer": 0.5,
+          "message": "0,5% is 6% gedeeld door 12. Gelijkwaardig is $1{,}06^{1/12} - 1 \\approx 0{,}487\\%$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-T06",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is de contante waarde van € 8.000 die je over 4 jaar ontvangt, bij een rente van 5% per jaar? Rond af op centen.",
+      "answer": 6581.62,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "$1{,}05^4 = 1{,}21550625$.",
+        "$8000 : 1{,}21550625 \\approx 6581{,}62$.",
+        "De contante waarde is € 6.581,62."
+      ],
+      "feedback": [
+        {
+          "answer": 6516.05,
+          "message": "Je hebt vermenigvuldigd met $0{,}95^4$. Disconteren: delen door $1{,}05^4$."
+        },
+        {
+          "answer": 6400,
+          "message": "Je hebt vier keer 5% van € 8.000 afgetrokken. Deel door $1{,}05^4$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-T07",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bedrag groeit in 4 jaar van € 2.000 naar € 2.500. Welke vaste jaarlijkse samengestelde rente hoort daarbij? Rond af op twee decimalen.",
+      "answer": 5.74,
+      "tolerance": 0.01,
+      "unit": "%",
+      "hints": [],
+      "solution": [
+        "Totale groeifactor: $2500 : 2000 = 1{,}25$.",
+        "Per jaar: $1{,}25^{1/4} \\approx 1{,}057371$.",
+        "Rente: ongeveer 5,74% per jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 6.25,
+          "message": "Je hebt 25% door 4 gedeeld. Door rente op rente is het per jaar minder: $1{,}25^{1/4} - 1$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-T08",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je zet € 5.000 tegen 4,5% per jaar, alleen aan het eind van elk jaar bijgeschreven. Na hoeveel hele jaren staat er voor het eerst minstens € 8.000?",
+      "answer": 11,
+      "unit": "jaar",
+      "hints": [],
+      "solution": [
+        "Nodig: $1{,}045^n \\geq 1{,}6$.",
+        "$n \\geq \\dfrac{\\log 1{,}6}{\\log 1{,}045} \\approx 10{,}68$.",
+        "Controle: na 10 jaar ongeveer € 7.764,85, na 11 jaar ongeveer € 8.114,27.",
+        "Na 11 jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Na 10 jaar staat er ongeveer € 7.765: nog te weinig. Rond naar boven af."
+        },
+        {
+          "answer": 14,
+          "message": "Je hebt enkelvoudig gerekend (60% : 4,5% ≈ 13,3). Met rente op rente gaat het sneller."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential",
+        "logarithms"
+      ]
+    },
+    {
+      "id": "33-T09",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je legt acht jaar lang aan het eind van elke maand € 150 in tegen 0,2% rente per maand. Hoeveel staat er direct na de laatste inleg op de rekening? Rond af op centen.",
+      "answer": 15857.87,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "$n = 96$; $1{,}002^{96} \\approx 1{,}211438$.",
+        "$EW = 150 \\cdot \\dfrac{0{,}211438}{0{,}002} \\approx 150 \\times 105{,}7191 \\approx 15857{,}87$.",
+        "Er staat € 15.857,87 op de rekening."
+      ],
+      "feedback": [
+        {
+          "answer": 14400,
+          "message": "Dat is alleen de inleg ($96 \\times 150$). Elke inleg groeit met rente."
+        }
+      ],
+      "topics": [
+        "finance",
+        "sequences"
+      ]
+    },
+    {
+      "id": "33-T10",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je leent € 12.000 tegen 7% per jaar en lost af in 4 gelijke jaarlijkse termijnen, steeds aan het eind van het jaar. Hoe groot is elke termijn? Rond af op centen.",
+      "answer": 3542.74,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "$1{,}07^{-4} \\approx 0{,}762895$, dus $1 - 0{,}762895 = 0{,}237105$.",
+        "$A = 12000 \\cdot \\dfrac{0{,}07}{0{,}237105} \\approx 12000 \\times 0{,}295228 \\approx 3542{,}74$."
+      ],
+      "feedback": [
+        {
+          "answer": 3000,
+          "message": "Dat is alleen de aflossing. Gebruik de annuïteitsformule."
+        },
+        {
+          "answer": 3840,
+          "message": "Dat is de eerste termijn bij lineaire aflossing (€ 3.000 + € 840 rente). Een annuïteit is elk jaar gelijk."
+        }
+      ],
+      "topics": [
+        "finance",
+        "sequences"
+      ]
+    },
+    {
+      "id": "33-T11",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een annuïteitenhypotheek van € 200.000 heeft een looptijd van 30 jaar en een rente van 4,8% per jaar; de bank rekent met een maandrente van 0,4%. Bereken de bruto maandlast. Rond af op centen.",
+      "answer": 1049.33,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "$n = 360$, $i = 0{,}004$; $1{,}004^{-360} \\approx 0{,}237610$.",
+        "$A = 200000 \\cdot \\dfrac{0{,}004}{1 - 0{,}237610} \\approx 200000 \\times 0{,}0052467 \\approx 1049{,}33$.",
+        "De maandlast is € 1.049,33."
+      ],
+      "feedback": [
+        {
+          "answer": 1355.56,
+          "message": "Dat is de eerste maandlast van een lineaire hypotheek. Gebruik de annuïteitsformule."
+        }
+      ],
+      "topics": [
+        "finance",
+        "sequences"
+      ]
+    },
+    {
+      "id": "33-T12",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Dezelfde lening van € 200.000 (360 maanden, maandrente 0,4%) wordt als **lineaire** hypotheek afgesloten. Bereken voor de eerste maand de aflossing en de rente. Rond af op centen.",
+      "parts": [
+        {
+          "label": "aflossing (€)",
+          "answer": 555.56,
+          "type": "decimal",
+          "tolerance": 0.01
+        },
+        {
+          "label": "rente (€)",
+          "answer": 800,
+          "type": "decimal",
+          "tolerance": 0.01
+        }
+      ],
+      "hints": [],
+      "solution": [
+        "Aflossing: $200000 : 360 \\approx 555{,}56$.",
+        "Rente: $200000 \\times 0{,}004 = 800$.",
+        "De eerste maandlast is dus $555{,}56 + 800 = 1355{,}56$ euro."
+      ],
+      "topics": [
+        "finance"
+      ]
+    },
+    {
+      "id": "33-T13",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een spaarrekening geeft 4% rente per jaar, terwijl de inflatie 6% is. Wat is het exacte reële rendement? Rond af op twee decimalen (een negatief antwoord is mogelijk).",
+      "answer": -1.89,
+      "tolerance": 0.01,
+      "unit": "%",
+      "hints": [],
+      "solution": [
+        "$\\dfrac{1{,}04}{1{,}06} \\approx 0{,}981132$.",
+        "Reëel rendement: $0{,}981132 - 1 \\approx -1{,}89\\%$.",
+        "De koopkracht van het spaargeld daalt dus, ondanks de rente."
+      ],
+      "feedback": [
+        {
+          "answer": -2,
+          "message": "−2% is de benadering $i - \\pi$. Exact: $\\frac{1{,}04}{1{,}06} - 1 \\approx -1{,}89\\%$."
+        },
+        {
+          "answer": 2,
+          "message": "Let op het teken: de inflatie is hoger dan de rente, dus het reële rendement is negatief."
+        }
+      ],
+      "topics": [
+        "finance",
+        "percentages"
+      ]
+    },
+    {
+      "id": "33-T14",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bij een inflatie van 3% per jaar: na hoeveel jaar is de koopkracht van contant geld volgens de regel van 72 ongeveer gehalveerd?",
+      "answer": 24,
+      "unit": "jaar",
+      "hints": [],
+      "solution": [
+        "Halveren van koopkracht = verdubbelen van prijzen.",
+        "Regel van 72: $72 : 3 = 24$ jaar.",
+        "Exact: $\\frac{\\log 2}{\\log 1{,}03} \\approx 23{,}4$ jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 33,
+          "message": "Je hebt 100 door 3 gedeeld. De regel van 72 houdt rekening met samengestelde groei: $72 : 3$."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "33-T15",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een kortlopend flitskrediet (door de maximale kredietvergoeding in Nederland niet toegestaan): je leent € 500 en betaalt na één maand € 515 terug. Wat is de effectieve jaarrente als je deze maandrente een jaar lang zou laten doorlopen? Rond af op twee decimalen.",
+      "answer": 42.58,
+      "tolerance": 0.01,
+      "unit": "%",
+      "hints": [],
+      "solution": [
+        "Maandrente: $15 : 500 = 0{,}03$, dus 3% per maand.",
+        "Effectief per jaar: $1{,}03^{12} - 1 \\approx 1{,}425761 - 1$.",
+        "Effectieve jaarrente: ongeveer 42,58%."
+      ],
+      "feedback": [
+        {
+          "answer": 36,
+          "message": "36% is $12 \\times 3\\%$, de nominale rente. Effectief: $1{,}03^{12} - 1$."
+        },
+        {
+          "answer": 3,
+          "message": "3% is de rente per maand. Gevraagd is de effectieve jaarrente."
+        }
+      ],
+      "topics": [
+        "finance",
+        "exponential"
+      ]
+    }
+  ]
+}
