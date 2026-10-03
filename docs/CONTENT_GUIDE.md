@@ -252,6 +252,10 @@ Alleen gebruiken waar ze begrip toevoegen.
 | `powers` | `base`, `max` | Tabel van machten met groeibalken |
 | `coordinate-grid` | `size` (3–10), `points` (bv. `"(2;3) (-4;1)"`), `connect` | Assenstelsel; punten aanklikken, kwadranten, helling tussen twee punten |
 | `function-plot` | `fn` (bv. `"a*x + b"`), optioneel `fn2`, `xmin`/`xmax`/`ymin`/`ymax`, startwaarden per parameter (`a=2`, en `amin`/`amax`/`astep`), `tangent=true` (+ `x0`), `area=true` (+ `lower`, `upper`), `roots=true`, `title` | Grafiek met schuifregelaar per parameter (elke letter behalve x en e); raaklijn met helling, oppervlakte onder de grafiek, nulpunten |
+| `normal-distribution` | `mu`, `sigma`, `lower`, `upper`, optioneel `xmin`/`xmax` | Normale verdeling met schuifregelaars voor μ en σ; gekleurd gebied, z-scores en kans |
+| `regression` | `points` (bv. `"(1;2) (2;3) (3;5)"`), `xmax`, `ymax` | Spreidingsdiagram met versleepbare punten, regressielijn, residuen, r en R² |
+| `sampling` | `n` (2, 5, 10, 30 of 100), `seed` | Herhaald steekproeven trekken uit een scheve populatie; verdeling van gemiddelden, standaardfout, 95%-interval |
+| `dice` | `dice` (1–3), `seed` | Dobbelsteenworpen simuleren: relatieve frequentie tegenover theoretische kans |
 
 Alle widgets met een voorbeelddirectief zijn te zien op `/dev/widgets` (alleen lokaal).
 `number-line` werkt ook met negatieve getallen (`min=-10`).
