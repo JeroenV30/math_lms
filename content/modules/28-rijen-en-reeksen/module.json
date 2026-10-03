@@ -4,22 +4,186 @@
   "title": "Rijen en reeksen",
   "part": 5,
   "level": "vwo",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Middeleeuwen",
   "estimated_difficulty": 4,
-  "estimated_minutes": 90,
+  "estimated_minutes": 180,
   "prerequisites": [
-    27
+    19,
+    25
   ],
   "topics": [
-    "sequences"
+    "sequences",
+    "exponential",
+    "finance",
+    "patterns"
   ],
-  "core_question": null,
-  "summary": "Fibonacci, somformules en oneindigheid.",
-  "learning_goals": [],
-  "glossary": [],
-  "formulas": [],
-  "lessons": [],
-  "timeline": [],
-  "mathematicians": []
+  "core_question": "Hoe voorspel je een stap-voor-stap-proces, hoe tel je al zijn stappen in één keer op, en kan een som van oneindig veel getallen eindig zijn?",
+  "summary": "Rijen als functie van n, directe en recursieve formules, rekenkundige en meetkundige rijen, somformules (Gauss, het schaakbord) en oneindige meetkundige reeksen (Zeno, Archimedes, 0,999… = 1). Met Fibonacci, de gulden snede zonder mythes, en sparen en afbetalen als toepassing.",
+  "learning_goals": [
+    "Je beschrijft een rij als functie van het rangnummer n en telt de index correct (u(n) is de (n+1)-ste term).",
+    "Je rekent een recursieve formule door en onderscheidt die van een directe formule.",
+    "Je herkent rekenkundige en meetkundige rijen en stelt hun directe formule op, ook uit twee gegeven termen.",
+    "Je bepaalt met een tabel of logaritme wanneer een rij een grens voor het eerst passeert.",
+    "Je leidt de somformules voor rekenkundige en meetkundige rijen af en past ze toe, inclusief het tellen van het aantal termen.",
+    "Je legt uit wanneer een oneindige meetkundige reeks convergeert, berekent haar som en zet repeterende decimalen om in breuken.",
+    "Je kent de Fibonacci-rij, haar recursie en het verband met de gulden snede, en onderscheidt feiten van mythes.",
+    "Je modelleert sparen met een vaste inleg en het afbetalen van een lening met een recursie en een meetkundige som.",
+    "Je beoordeelt historische verhalen (Gauss, het schaakbord, Fibonacci) aan de hand van hun oudste bronnen."
+  ],
+  "glossary": [
+    {
+      "term": "Rij",
+      "definition": "Een functie die aan elk rangnummer $n = 0, 1, 2, \\ldots$ een getal $u(n)$ toekent; de getallen heten termen."
+    },
+    {
+      "term": "Index (rangnummer)",
+      "definition": "Het nummer $n$ van een term. Bij nummering vanaf 0 is $u(n)$ de $(n+1)$-ste term."
+    },
+    {
+      "term": "Directe formule",
+      "definition": "Een formule die $u(n)$ rechtstreeks uitdrukt in $n$, zoals $u(n) = 5 + 3n$."
+    },
+    {
+      "term": "Recursieve formule",
+      "definition": "Startterm(en) plus een regel die een term uitdrukt in de voorgaande term(en), zoals $u(n+1) = u(n) + 3$."
+    },
+    {
+      "term": "Rekenkundige rij",
+      "definition": "Een rij met een vast verschil $v$ tussen opeenvolgende termen: $u(n) = u(0) + n \\cdot v$."
+    },
+    {
+      "term": "Meetkundige rij",
+      "definition": "Een rij waarin elke term de vorige maal een vaste reden $r$ is: $u(n) = u(0) \\cdot r^n$."
+    },
+    {
+      "term": "Reden",
+      "definition": "De vaste factor $r$ waarmee je in een meetkundige rij van de ene term naar de volgende gaat."
+    },
+    {
+      "term": "Reeks",
+      "definition": "De som van (een deel van) de termen van een rij."
+    },
+    {
+      "term": "Partiële som",
+      "definition": "De som $S_N$ van de eerste $N$ termen van een reeks."
+    },
+    {
+      "term": "Convergentie",
+      "definition": "Een oneindige reeks convergeert als de partiële sommen naar één vast getal gaan; dat getal heet de som."
+    },
+    {
+      "term": "Rij van Fibonacci",
+      "definition": "De rij $0, 1, 1, 2, 3, 5, 8, \\ldots$ waarin elke term de som van de twee voorgaande is."
+    },
+    {
+      "term": "Gulden snede",
+      "definition": "Het getal $\\varphi = \\frac{1 + \\sqrt5}{2} \\approx 1{,}618$, de positieve oplossing van $\\varphi^2 = \\varphi + 1$ en de grens van $F(n+1)/F(n)$."
+    },
+    {
+      "term": "Annuïteit",
+      "definition": "Een vast bedrag per periode waarmee een lening inclusief rente in een vast aantal perioden precies wordt afgelost."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Rekenkundige rij",
+      "latex": "u(n) = u(0) + n \\cdot v",
+      "usage": "Recursief: u(n+1) = u(n) + v.",
+      "origin": "Opgaven met rekenkundige rijen staan al in de Egyptische Rhind-papyrus (ca. 1650 v.Chr.)."
+    },
+    {
+      "name": "Meetkundige rij",
+      "latex": "u(n) = u(0) \\cdot r^n",
+      "usage": "Recursief: u(n+1) = r · u(n). Zelfde structuur als het exponentiële model van module 25."
+    },
+    {
+      "name": "Som 1 tot en met n",
+      "latex": "1 + 2 + \\ldots + n = \\frac{n(n+1)}{2}",
+      "usage": "Twee trappen vormen een rechthoek van n bij n + 1.",
+      "origin": "De truc wordt traditioneel aan de jonge Gauss toegeschreven; de details van die anekdote zijn onzeker."
+    },
+    {
+      "name": "Som van een rekenkundige rij",
+      "latex": "S = \\frac{N \\cdot (\\text{eerste} + \\text{laatste})}{2}",
+      "usage": "N is het aantal termen: aantal stappen plus één."
+    },
+    {
+      "name": "Som van een meetkundige rij",
+      "latex": "S_N = u(0) \\cdot \\frac{r^N - 1}{r - 1}\\quad (r \\neq 1)",
+      "usage": "Som van de eerste N termen u(0) tot en met u(N−1)."
+    },
+    {
+      "name": "Oneindige meetkundige reeks",
+      "latex": "\\sum_{k=0}^{\\infty} u(0)\\, r^k = \\frac{u(0)}{1 - r}\\quad (-1 < r < 1)",
+      "usage": "Divergeert als |r| ≥ 1.",
+      "origin": "Archimedes gebruikte het geval r = 1/4 bij de kwadratuur van de parabool."
+    },
+    {
+      "name": "Fibonacci-recursie",
+      "latex": "F(n) = F(n-1) + F(n-2),\\quad F(1) = F(2) = 1",
+      "usage": "Twee startwaarden nodig; F(n+1)/F(n) nadert de gulden snede.",
+      "origin": "Liber Abaci (1202/1228); eerder in Indiase metriek (Virahāṅka, Hemacandra)."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Konijnen, graankorrels en een eindeloze wandeling",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "rijen",
+      "title": "Wat is een rij?",
+      "file": "02-rijen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "rekenkundig-en-meetkundig",
+      "title": "Vast verschil of vaste factor",
+      "file": "03-rekenkundig-en-meetkundig.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "sommen",
+      "title": "Termen optellen: somformules",
+      "file": "04-sommen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "oneindige-reeksen",
+      "title": "Oneindig veel termen",
+      "file": "05-oneindige-reeksen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historisch-intermezzo",
+      "title": "Fibonacci, zijn voorgangers en de gulden snede",
+      "file": "06-historisch-intermezzo.md",
+      "kind": "history"
+    },
+    {
+      "slug": "praktijk-en-uitdaging",
+      "title": "Sparen, afbetalen en een eerlijke maandlast",
+      "file": "07-praktijk-en-uitdaging.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "fibonacci-liber-abaci",
+    "gauss",
+    "euler"
+  ],
+  "mathematicians": [
+    "fibonacci",
+    "gauss",
+    "euler"
+  ]
 }

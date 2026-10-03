@@ -64,6 +64,8 @@ class AlgebraCheckerTest extends TestCase
         $this->assertTrue($checker->check("y' = 2x", '2x')->correct);
         $this->assertTrue($checker->check('dy/dx = 2x', '2x')->correct);
         $this->assertTrue($checker->check('F(t) = t^2', 't^2')->correct);
+        $this->assertTrue($checker->check('u_n = 3 + 4n', '4n + 3')->correct);
+        $this->assertTrue($checker->check('u(n) = 6*3^n', '6 * 3^n')->correct);
         $this->assertFalse($checker->check('2x + 3', '2x + 4')->correct);
         $this->assertFalse($checker->check('x²', '2x')->correct);
         $this->assertFalse($checker->check('2 +', '2x')->valid);

@@ -17,8 +17,8 @@ class ExpressionChecker implements AnswerChecker
 {
     private const SAMPLES = 8;
 
-    /** Een linkerkant die we wegstrepen: "y =", "f(x) =", "f'(x) =", "y' =", "dy/dx =", "F(t) =". */
-    private const LEFT_SIDE = "/^\s*(?:d[a-z]\s*\/\s*d[a-z]|[a-z]['′]*(?:\s*\([a-z]\))?)\s*=\s*/iu";
+    /** Een linkerkant die we wegstrepen: "y =", "f(x) =", "f'(x) =", "y' =", "u_n =", "dy/dx =", "F(t) =". */
+    private const LEFT_SIDE = "/^\s*(?:d[a-z]\s*\/\s*d[a-z]|[a-z](?:_\{?[a-z0-9]+\}?)?['′]*(?:\s*\([a-z]\))?)\s*=\s*/iu";
 
     public function __construct(private readonly ExpressionParser $parser) {}
 

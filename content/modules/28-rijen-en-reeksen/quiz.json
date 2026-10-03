@@ -1,0 +1,377 @@
+{
+  "title": "Hoofdstuktoets – Rijen en reeksen",
+  "intro": "15 vragen over directe en recursieve formules, rekenkundige en meetkundige rijen, somformules, oneindige reeksen, Fibonacci en sparen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "28-T01",
+      "type": "numeric",
+      "difficulty": 1,
+      "question": "Gegeven is $u(n) = 5n - 3$ met $n = 0, 1, 2, \\ldots$ Bereken $u(12)$.",
+      "answer": 57,
+      "hints": [],
+      "solution": [
+        "$u(12) = 5 \\cdot 12 - 3 = 60 - 3 = 57$"
+      ],
+      "feedback": [
+        {
+          "answer": 52,
+          "message": "Dat is $u(11)$. Vul precies $n = 12$ in."
+        }
+      ],
+      "topics": [
+        "sequences"
+      ],
+      "mode": "independent"
+    },
+    {
+      "id": "28-T02",
+      "type": "numeric",
+      "difficulty": 1,
+      "question": "Gegeven: $u(0) = 2$ en $u(n+1) = 3 \\cdot u(n) + 1$. Bereken $u(3)$.",
+      "answer": 67,
+      "hints": [],
+      "solution": [
+        "$u(1) = 3 \\cdot 2 + 1 = 7$",
+        "$u(2) = 3 \\cdot 7 + 1 = 22$",
+        "$u(3) = 3 \\cdot 22 + 1 = 67$"
+      ],
+      "feedback": [
+        {
+          "answer": 22,
+          "message": "Dat is $u(2)$. Van $u(0)$ naar $u(3)$ zijn het drie stappen."
+        }
+      ],
+      "topics": [
+        "sequences"
+      ],
+      "mode": "independent"
+    },
+    {
+      "id": "28-T03",
+      "type": "expression",
+      "difficulty": 2,
+      "question": "Geef een directe formule voor de rekenkundige rij $7, 11, 15, 19, \\ldots$ met $u(0) = 7$ (een uitdrukking in $n$).",
+      "answer": "7 + 4n",
+      "hints": [],
+      "solution": [
+        "Het verschil is $v = 4$.",
+        "$u(n) = u(0) + n \\cdot v = 7 + 4n$"
+      ],
+      "feedback": [
+        {
+          "answer": "4n + 3",
+          "message": "Dat is de formule bij nummering vanaf $n = 1$. Hier is $u(0) = 7$."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "algebra"
+      ],
+      "mode": "independent"
+    },
+    {
+      "id": "28-T04",
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een meetkundige rij begint met $u(0) = 5$, $u(1) = 15$, $u(2) = 45$. Bereken $u(6)$.",
+      "answer": 3645,
+      "hints": [],
+      "solution": [
+        "Reden $r = 15 : 5 = 3$.",
+        "$u(6) = 5 \\cdot 3^6 = 5 \\cdot 729 = 3645$"
+      ],
+      "feedback": [
+        {
+          "answer": 1215,
+          "message": "Dat is $u(5)$. Van $u(0)$ naar $u(6)$ vermenigvuldig je zes keer met 3."
+        },
+        {
+          "answer": 65,
+          "message": "Je hebt de rij als rekenkundig behandeld (steeds 10 erbij). Kijk naar de verhoudingen: steeds keer 3."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "exponential"
+      ],
+      "mode": "independent"
+    },
+    {
+      "id": "28-T05",
+      "type": "multiple",
+      "difficulty": 2,
+      "question": "Van een rekenkundige rij is $u(4) = 23$ en $u(10) = 53$. Bereken $v$ en $u(0)$.",
+      "parts": [
+        {
+          "label": "v",
+          "answer": 5,
+          "type": "numeric"
+        },
+        {
+          "label": "u(0)",
+          "answer": 3,
+          "type": "numeric"
+        }
+      ],
+      "hints": [],
+      "solution": [
+        "Van $n = 4$ naar $n = 10$: 6 stappen; toename $53 - 23 = 30$; $v = 30 : 6 = 5$.",
+        "$u(0) = 23 - 4 \\cdot 5 = 3$."
+      ],
+      "topics": [
+        "sequences",
+        "linear-functions"
+      ],
+      "mode": "independent"
+    },
+    {
+      "id": "28-T06",
+      "type": "numeric",
+      "difficulty": 3,
+      "question": "Gegeven is de rij $u(n) = 2048 \\cdot \\left(\\tfrac12\\right)^n$. Wat is de kleinste $n$ waarvoor $u(n) < 1$?",
+      "answer": 12,
+      "hints": [],
+      "solution": [
+        "$u(n) < 1 \\iff 2^n > 2048 = 2^{11}$.",
+        "$u(11) = 1$ is niet kleiner dan 1; $u(12) = \\tfrac12$ wel. Antwoord: $n = 12$."
+      ],
+      "feedback": [
+        {
+          "answer": 11,
+          "message": "$u(11) = 2048 : 2048 = 1$, en 1 is niet kleiner dan 1."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "exponential",
+        "powers"
+      ],
+      "mode": "independent"
+    },
+    {
+      "id": "28-T07",
+      "type": "numeric",
+      "difficulty": 1,
+      "question": "Bereken $1 + 2 + 3 + \\ldots + 80$.",
+      "answer": 3240,
+      "hints": [],
+      "solution": [
+        "$\\dfrac{80 \\cdot 81}{2} = 40 \\cdot 81 = 3240$"
+      ],
+      "feedback": [
+        {
+          "answer": 6480,
+          "message": "Je bent vergeten door 2 te delen."
+        }
+      ],
+      "topics": [
+        "sequences"
+      ],
+      "mode": "independent"
+    },
+    {
+      "id": "28-T08",
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bereken $5 + 8 + 11 + \\ldots + 152$.",
+      "answer": 3925,
+      "hints": [],
+      "solution": [
+        "Verschil 3; aantal stappen $(152 - 5) : 3 = 49$, dus 50 termen.",
+        "$S = \\dfrac{50 \\cdot (5 + 152)}{2} = 25 \\cdot 157 = 3925$"
+      ],
+      "feedback": [
+        {
+          "answer": 7850,
+          "message": "Je bent vergeten door 2 te delen."
+        }
+      ],
+      "topics": [
+        "sequences"
+      ],
+      "mode": "independent"
+    },
+    {
+      "id": "28-T09",
+      "type": "numeric",
+      "difficulty": 3,
+      "question": "Bereken $2 + 6 + 18 + \\ldots + 2 \\cdot 3^7$.",
+      "answer": 6560,
+      "hints": [],
+      "solution": [
+        "Meetkundig met $u(0) = 2$, $r = 3$ en 8 termen.",
+        "$S = 2 \\cdot \\dfrac{3^8 - 1}{3 - 1} = 3^8 - 1 = 6560$"
+      ],
+      "feedback": [
+        {
+          "answer": 13120,
+          "message": "Je bent vergeten te delen door $r - 1 = 2$."
+        },
+        {
+          "answer": 19682,
+          "message": "Je hebt met 9 termen gerekend. Van $3^0$ tot en met $3^7$ zijn het er 8."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "powers"
+      ],
+      "mode": "independent"
+    },
+    {
+      "id": "28-T10",
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bereken de som van de oneindige reeks $6 + 2 + \\tfrac23 + \\tfrac29 + \\ldots$",
+      "answer": 9,
+      "hints": [],
+      "solution": [
+        "$u(0) = 6$, $r = \\tfrac13$.",
+        "$S = \\dfrac{6}{1 - \\tfrac13} = \\dfrac{6}{\\tfrac23} = 9$"
+      ],
+      "feedback": [
+        {
+          "answer": 18,
+          "message": "Je hebt $\\dfrac{6}{\\tfrac13}$ berekend. De formule is $\\dfrac{u(0)}{1 - r}$."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "fractions"
+      ],
+      "mode": "independent"
+    },
+    {
+      "id": "28-T11",
+      "type": "fraction",
+      "difficulty": 3,
+      "question": "Schrijf $0{,}363636\\ldots$ als vereenvoudigde breuk.",
+      "answer": "4/11",
+      "require_simplified": true,
+      "hints": [],
+      "solution": [
+        "$0{,}3636\\ldots = \\tfrac{36}{100} + \\tfrac{36}{10\\,000} + \\ldots = \\dfrac{\\tfrac{36}{100}}{\\tfrac{99}{100}} = \\dfrac{36}{99}$",
+        "Vereenvoudig door 9: $\\dfrac{4}{11}$."
+      ],
+      "feedback": [
+        {
+          "answer": "9/25",
+          "message": "Dat is $0{,}36$, zonder de herhaling."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "fractions",
+        "decimals"
+      ],
+      "mode": "independent"
+    },
+    {
+      "id": "28-T12",
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Met $F(1) = F(2) = 1$ en $F(n) = F(n-1) + F(n-2)$: bereken $F(15)$.",
+      "answer": 610,
+      "hints": [],
+      "solution": [
+        "$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610$",
+        "De vijftiende term is 610."
+      ],
+      "feedback": [
+        {
+          "answer": 377,
+          "message": "Dat is $F(14)$. Tel nog één stap verder."
+        },
+        {
+          "answer": 987,
+          "message": "Dat is $F(16)$. Begin te tellen bij $F(1) = 1$, $F(2) = 1$."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "patterns"
+      ],
+      "mode": "independent"
+    },
+    {
+      "id": "28-T13",
+      "type": "decimal",
+      "difficulty": 4,
+      "question": "Je legt aan het begin van elk jaar € 500 in tegen 4% rente per jaar (bijgeschreven aan het eind van het jaar). Hoeveel staat er op de rekening direct na de tiende inleg? Rond af op centen.",
+      "answer": 6003.05,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "Saldo $= 500 + 500 \\cdot 1{,}04 + \\ldots + 500 \\cdot 1{,}04^9 = 500 \\cdot \\dfrac{1{,}04^{10} - 1}{0{,}04}$",
+        "$1{,}04^{10} \\approx 1{,}480244$, dus saldo $\\approx 500 \\cdot 12{,}006107 \\approx 6003{,}05$."
+      ],
+      "feedback": [
+        {
+          "answer": 5000,
+          "message": "Dat is alleen de inleg, zonder rente."
+        },
+        {
+          "answer": 6243.18,
+          "message": "Dat is het saldo na nog een jaar rente (eind tiende jaar). Gevraagd is direct na de tiende inleg."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "finance"
+      ],
+      "mode": "independent"
+    },
+    {
+      "id": "28-T14",
+      "type": "numeric",
+      "difficulty": 3,
+      "question": "Wat is de kleinste $n$ waarvoor $1 + 2 + \\ldots + n$ groter is dan 1000?",
+      "answer": 45,
+      "hints": [],
+      "solution": [
+        "$\\dfrac{n(n+1)}{2} > 1000 \\iff n(n+1) > 2000$.",
+        "$n = 44$: $44 \\cdot 45 / 2 = 990$; $n = 45$: $45 \\cdot 46 / 2 = 1035$. Antwoord: 45."
+      ],
+      "feedback": [
+        {
+          "answer": 44,
+          "message": "$1 + \\ldots + 44 = 990$: nog niet groter dan 1000."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "quadratic-functions"
+      ],
+      "mode": "independent"
+    },
+    {
+      "id": "28-T15",
+      "type": "numeric",
+      "difficulty": 4,
+      "question": "Een bal valt van 3 meter hoogte en komt na elke stuit tot $\\tfrac23$ van de vorige hoogte. In het model stuitert hij oneindig vaak. Hoeveel meter legt hij in totaal af?",
+      "answer": 15,
+      "unit": "m",
+      "hints": [],
+      "solution": [
+        "Eerste val 3 m; daarna steeds op en neer: $2 + \\tfrac43 + \\ldots = \\dfrac{2}{1 - \\tfrac23} = 6$ m.",
+        "Totaal: $3 + 2 \\cdot 6 = 15$ m."
+      ],
+      "feedback": [
+        {
+          "answer": 9,
+          "message": "Dat zijn alleen de vallende stukken ($\\dfrac{3}{1 - \\tfrac23}$). Na elke stuit gaat de bal ook omhoog."
+        },
+        {
+          "answer": 18,
+          "message": "Je hebt de eerste val ook dubbel geteld."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "modelling"
+      ],
+      "mode": "independent"
+    }
+  ]
+}

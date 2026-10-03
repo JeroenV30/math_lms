@@ -1,0 +1,1280 @@
+{
+  "exercises": [
+    {
+      "id": "28-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Gegeven is de rij $u(n) = 2n + 7$ met $n = 0, 1, 2, \\ldots$ Bereken $u(10)$.",
+      "answer": 27,
+      "hints": [
+        "Vul $n = 10$ in de formule in.",
+        "$2 \\cdot 10 + 7 = \\ldots$"
+      ],
+      "solution": [
+        "$u(10) = 2 \\cdot 10 + 7$",
+        "$= 20 + 7 = 27$"
+      ],
+      "feedback": [
+        {
+          "answer": 25,
+          "message": "Dat is $u(9)$, de tiende term. Gevraagd is $u(10)$: vul precies $n = 10$ in."
+        },
+        {
+          "answer": 29,
+          "message": "Dat is $u(11)$. Je hebt waarschijnlijk gedacht dat $u(10)$ de elfde term is en één stap te veel gezet. Vul gewoon $n = 10$ in."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "patterns"
+      ]
+    },
+    {
+      "id": "28-002",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een rij is recursief gegeven: $u(0) = 3$ en $u(n+1) = 2 \\cdot u(n) - 1$. Bereken $u(4)$.",
+      "answer": 33,
+      "hints": [
+        "Bereken eerst $u(1) = 2 \\cdot 3 - 1$.",
+        "Zet de stappen één voor één: $u(1)$, $u(2)$, $u(3)$, $u(4)$."
+      ],
+      "solution": [
+        "$u(1) = 2 \\cdot 3 - 1 = 5$",
+        "$u(2) = 2 \\cdot 5 - 1 = 9$",
+        "$u(3) = 2 \\cdot 9 - 1 = 17$",
+        "$u(4) = 2 \\cdot 17 - 1 = 33$"
+      ],
+      "feedback": [
+        {
+          "answer": 17,
+          "message": "Dat is $u(3)$. Je bent één stap te vroeg gestopt: van $u(0)$ naar $u(4)$ zijn het vier stappen."
+        },
+        {
+          "answer": 65,
+          "message": "Dat is $u(5)$: één stap te veel. Tel de stappen: $u(1)$, $u(2)$, $u(3)$, $u(4)$."
+        }
+      ],
+      "topics": [
+        "sequences"
+      ]
+    },
+    {
+      "id": "28-003",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "De rij $4, 7, 10, 13, \\ldots$ heeft $u(0) = 4$ en de directe formule $u(n) = 4 + 3n$. Voor welke $n$ geldt $u(n) = 100$?",
+      "answer": 32,
+      "hints": [
+        "Los de vergelijking $4 + 3n = 100$ op.",
+        "Trek eerst 4 af: $3n = 96$."
+      ],
+      "solution": [
+        "$4 + 3n = 100$",
+        "$3n = 96$",
+        "$n = 32$",
+        "Controle: $u(32) = 4 + 96 = 100$. (Het is de 33ste term.)"
+      ],
+      "feedback": [
+        {
+          "answer": 33,
+          "message": "100 is wel de 33ste term, maar gevraagd is het rangnummer $n$. Omdat we bij $n = 0$ beginnen, is de 33ste term $u(32)$."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "equations"
+      ]
+    },
+    {
+      "id": "28-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Met lucifers leg je een rij vierkantjes naast elkaar. Figuur 1 (één vierkantje) telt 4 lucifers; voor elk extra vierkantje heb je 3 lucifers nodig. Figuur 2 telt dus 7 lucifers. Hoeveel lucifers telt figuur 20?",
+      "answer": 61,
+      "hints": [
+        "Van figuur 1 naar figuur 20: hoeveel vierkantjes komen erbij?",
+        "Er komen 19 vierkantjes bij, elk met 3 lucifers."
+      ],
+      "solution": [
+        "Figuur 1 telt 4 lucifers.",
+        "Van figuur 1 naar figuur 20 zijn het 19 stappen van 3 lucifers: $19 \\cdot 3 = 57$.",
+        "Totaal: $4 + 57 = 61$ lucifers."
+      ],
+      "feedback": [
+        {
+          "answer": 64,
+          "message": "Je hebt 20 stappen van 3 gezet. Maar figuur 1 heeft er al 4; van figuur 1 naar figuur 20 zijn het maar 19 stappen."
+        },
+        {
+          "answer": 80,
+          "message": "$20 \\cdot 4 = 80$ zou kloppen als de vierkantjes los lagen. Naast elkaar delen ze een lucifer, daarom kost elk extra vierkantje er maar 3."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "patterns"
+      ]
+    },
+    {
+      "id": "28-005",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een rij is gegeven door $u(0) = 3$ en $u(n+1) = u(n) + 4$. Geef een directe formule voor $u(n)$ (een uitdrukking in $n$).",
+      "answer": "3 + 4n",
+      "hints": [
+        "Er komt bij elke stap 4 bij. Hoeveel stappen zet je van $u(0)$ naar $u(n)$?",
+        "Van $u(0)$ naar $u(n)$ zijn het $n$ stappen van 4."
+      ],
+      "solution": [
+        "De rij is $3, 7, 11, 15, \\ldots$ met steeds 4 erbij.",
+        "Van $u(0)$ naar $u(n)$ zet je $n$ stappen van 4, dus komt er $4n$ bij.",
+        "$u(n) = 3 + 4n$",
+        "Controle: $u(2) = 3 + 8 = 11$. Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": "4n - 1",
+          "message": "Dat is de formule als de rij bij $n = 1$ begint ($u(1) = 3$). Hier is $u(0) = 3$: controleer met $n = 0$."
+        },
+        {
+          "answer": "4 + 3n",
+          "message": "Je hebt startwaarde en verschil verwisseld. De startwaarde is 3, er komt steeds 4 bij."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "algebra"
+      ]
+    },
+    {
+      "id": "28-006",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De rij $1, 3, 9, 19, 33, \\ldots$ heeft $u(0) = 1$. Bekijk de verschillen en de tweede verschillen en bereken $u(10)$.",
+      "answer": 201,
+      "hints": [
+        "Eerste verschillen: $2, 6, 10, 14$. Tweede verschillen: steeds 4.",
+        "Probeer een formule van de vorm $u(n) = 1 + c \\cdot n^2$ en bepaal $c$ met $u(1) = 3$.",
+        "De eerste verschillen $2, 6, 10, \\ldots$ zijn het dubbele van $1, 3, 5, \\ldots$; de som van de eerste $n$ oneven getallen is $n^2$."
+      ],
+      "solution": [
+        "Eerste verschillen: $3 - 1 = 2$, $9 - 3 = 6$, $19 - 9 = 10$, $33 - 19 = 14$.",
+        "Dat is $2 \\cdot (1, 3, 5, 7)$: twee keer de oneven getallen.",
+        "Van $u(0)$ naar $u(n)$ tel je $2 \\cdot (1 + 3 + \\ldots) = 2n^2$ op, dus $u(n) = 1 + 2n^2$.",
+        "Controle: $u(4) = 1 + 32 = 33$. Klopt.",
+        "$u(10) = 1 + 2 \\cdot 100 = 201$."
+      ],
+      "feedback": [
+        {
+          "answer": 101,
+          "message": "Je hebt $u(n) = 1 + n^2$ gebruikt. Controleer met $u(1)$: dat geeft 2 in plaats van 3. De tweede verschillen zijn 4, niet 2."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "patterns",
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "28-007",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een rekenkundige rij heeft $u(0) = 12$ en verschil $v = 5$. Bereken $u(20)$.",
+      "answer": 112,
+      "hints": [
+        "Gebruik $u(n) = u(0) + n \\cdot v$.",
+        "$u(20) = 12 + 20 \\cdot 5$."
+      ],
+      "solution": [
+        "$u(n) = 12 + 5n$",
+        "$u(20) = 12 + 20 \\cdot 5 = 12 + 100 = 112$"
+      ],
+      "feedback": [
+        {
+          "answer": 117,
+          "message": "Dat is $u(21)$. Van $u(0)$ naar $u(20)$ zijn het precies 20 stappen van 5."
+        },
+        {
+          "answer": 100,
+          "message": "Je bent de startwaarde vergeten: $u(20) = u(0) + 20 \\cdot 5$."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "linear-functions"
+      ]
+    },
+    {
+      "id": "28-008",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Van een rekenkundige rij is gegeven: $u(3) = 17$ en $u(7) = 33$. Bereken het verschil $v$ en de startterm $u(0)$.",
+      "parts": [
+        {
+          "label": "v",
+          "answer": 4,
+          "type": "numeric"
+        },
+        {
+          "label": "u(0)",
+          "answer": 5,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Van $n = 3$ naar $n = 7$ zijn het 4 stappen.",
+        "In die 4 stappen komt er $33 - 17 = 16$ bij.",
+        "Ga daarna 3 stappen terug van $u(3)$ naar $u(0)$."
+      ],
+      "solution": [
+        "Aantal stappen: $7 - 3 = 4$.",
+        "Toename: $33 - 17 = 16$, dus $v = 16 : 4 = 4$.",
+        "$u(0) = u(3) - 3 \\cdot 4 = 17 - 12 = 5$.",
+        "Controle: $u(7) = 5 + 7 \\cdot 4 = 33$. Klopt."
+      ],
+      "topics": [
+        "sequences",
+        "linear-functions"
+      ]
+    },
+    {
+      "id": "28-009",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een meetkundige rij heeft $u(0) = 1250$ en reden $r = 0{,}4$. Bereken $u(3)$.",
+      "answer": 80,
+      "hints": [
+        "Gebruik $u(n) = u(0) \\cdot r^n$.",
+        "$0{,}4^3 = 0{,}064$."
+      ],
+      "solution": [
+        "$u(3) = 1250 \\cdot 0{,}4^3$",
+        "$0{,}4^3 = 0{,}4 \\cdot 0{,}4 \\cdot 0{,}4 = 0{,}064$",
+        "$1250 \\cdot 0{,}064 = 80$",
+        "Controle met de recursie: $1250 \\to 500 \\to 200 \\to 80$."
+      ],
+      "feedback": [
+        {
+          "answer": 200,
+          "message": "Dat is $u(2)$: je hebt twee keer met 0,4 vermenigvuldigd. Voor $u(3)$ zijn het drie keer."
+        },
+        {
+          "answer": 1500,
+          "message": "Je hebt $1250 \\cdot 0{,}4 \\cdot 3$ berekend. Bij een meetkundige rij vermenigvuldig je drie keer met 0,4: $1250 \\cdot 0{,}4^3$."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "exponential"
+      ]
+    },
+    {
+      "id": "28-010",
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Geef een directe formule voor de meetkundige rij $6, 18, 54, 162, \\ldots$ met $u(0) = 6$. Schrijf je antwoord als uitdrukking in $n$, bijvoorbeeld met `^` voor een macht.",
+      "answer": "6*3^n",
+      "hints": [
+        "Bereken de verhouding $18 : 6$.",
+        "De reden is 3; gebruik $u(n) = u(0) \\cdot r^n$."
+      ],
+      "solution": [
+        "Verhoudingen: $18 : 6 = 3$, $54 : 18 = 3$, $162 : 54 = 3$. Meetkundig met $r = 3$.",
+        "$u(n) = u(0) \\cdot r^n = 6 \\cdot 3^n$",
+        "Controle: $u(2) = 6 \\cdot 9 = 54$. Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": "3*6^n",
+          "message": "Startwaarde en reden zijn verwisseld. De rij begint bij 6 en wordt steeds met 3 vermenigvuldigd: $6 \\cdot 3^n$."
+        },
+        {
+          "answer": "6*3^(n-1)",
+          "message": "Dat is de formule als de rij bij $n = 1$ begint. Hier is $u(0) = 6$: controleer met $n = 0$."
+        },
+        {
+          "answer": "6 + 12n",
+          "message": "Dat is een rekenkundige formule (steeds 12 erbij). Kijk naar de verhoudingen: elke term is 3 keer de vorige."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "exponential",
+        "powers"
+      ]
+    },
+    {
+      "id": "28-011",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Van een meetkundige rij met positieve termen is gegeven: $u(2) = 12$ en $u(5) = 96$. Bereken $u(0)$.",
+      "answer": 3,
+      "hints": [
+        "Van $n = 2$ naar $n = 5$ vermenigvuldig je drie keer met $r$: $r^3 = 96 : 12$.",
+        "$r^3 = 8$, dus $r = 2$. Ga dan twee stappen terug."
+      ],
+      "solution": [
+        "$u(5) = u(2) \\cdot r^3$, dus $r^3 = 96 : 12 = 8$ en $r = 2$.",
+        "$u(2) = u(0) \\cdot r^2$, dus $u(0) = 12 : 4 = 3$.",
+        "Controle: $u(5) = 3 \\cdot 2^5 = 96$. Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Dat is $u(1)$. Van $u(2)$ naar $u(0)$ deel je twee keer door $r = 2$."
+        },
+        {
+          "answer": -44,
+          "message": "Je hebt de rij als rekenkundig behandeld (steeds 28 erbij). Hier is het een meetkundige rij: werk met verhoudingen, niet met verschillen."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "exponential",
+        "roots"
+      ]
+    },
+    {
+      "id": "28-012",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een voorraad van 250 kratten neemt elke dag met 12 kratten af. Noem $u(0) = 250$ de voorraad aan het begin en $u(n)$ de voorraad na $n$ dagen, als je het model ongewijzigd doorzet. Wat is de kleinste $n$ waarvoor $u(n) < 0$? (Dan is de voorraad in de praktijk op.)",
+      "answer": 21,
+      "hints": [
+        "Stel de formule op: $u(n) = 250 - 12n$.",
+        "Los $250 - 12n < 0$ op en rond af naar het eerste gehele getal dat voldoet."
+      ],
+      "solution": [
+        "$u(n) = 250 - 12n$",
+        "$250 - 12n < 0 \\iff n > 250 : 12 \\approx 20{,}8$",
+        "De kleinste gehele $n$ is 21.",
+        "Controle: $u(20) = 10$ (nog positief), $u(21) = -2$ (negatief)."
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "$u(20) = 250 - 240 = 10$; dat is nog positief. Bij een drempelvraag rond je naar boven af: $20{,}8$ wordt 21."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "linear-functions"
+      ]
+    },
+    {
+      "id": "28-013",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Gegeven is de rij $u(n) = 5 \\cdot 1{,}5^n$. Wat is de kleinste $n$ waarvoor $u(n) > 1000$?",
+      "answer": 14,
+      "hints": [
+        "Herschrijf: $1{,}5^n > 200$.",
+        "Gebruik logaritmen ($n > \\log(200) / \\log(1{,}5)$) of probeer waarden rond $n = 13$."
+      ],
+      "solution": [
+        "$5 \\cdot 1{,}5^n > 1000 \\iff 1{,}5^n > 200$",
+        "$n > \\dfrac{\\log 200}{\\log 1{,}5} \\approx 13{,}07$",
+        "De kleinste gehele $n$ is 14.",
+        "Controle: $u(13) \\approx 973{,}1$ (te klein), $u(14) \\approx 1459{,}6$ (groot genoeg)."
+      ],
+      "feedback": [
+        {
+          "answer": 13,
+          "message": "$u(13) = 5 \\cdot 1{,}5^{13} \\approx 973$: nog net onder de 1000. Rond $13{,}07$ naar boven af."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "exponential",
+        "logarithms"
+      ]
+    },
+    {
+      "id": "28-014",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Rij A: $a(n) = 500 + 300n$. Rij B: $b(n) = 20 \\cdot 2^n$. Vanaf welke $n$ is $b(n) > a(n)$ (en blijft dat zo)?",
+      "answer": 8,
+      "hints": [
+        "Maak een tabel voor $n = 5, 6, 7, 8, 9$.",
+        "Bij $n = 7$: $a = 2600$ en $b = 2560$."
+      ],
+      "solution": [
+        "$n = 6$: $a = 2300$, $b = 1280$.",
+        "$n = 7$: $a = 2600$, $b = 2560$. B is nog net kleiner.",
+        "$n = 8$: $a = 2900$, $b = 5120$. B is groter.",
+        "Daarna verdubbelt B per stap, terwijl A met 300 groeit; B blijft voor. Antwoord: $n = 8$."
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Bij $n = 7$ is $b(7) = 2560$ en $a(7) = 2600$: B is nog net kleiner. Reken precies na."
+        },
+        {
+          "answer": 5,
+          "message": "Bij $n = 5$ is $b(5) = 640$, veel kleiner dan $a(5) = 2000$. Kijk niet alleen naar de groei per stap, maar naar de waarden zelf."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "exponential",
+        "linear-functions"
+      ]
+    },
+    {
+      "id": "28-015",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een auto kost nieuw € 24.000 en verliest elk jaar 15% van zijn waarde van dat moment. Wat is de waarde na 5 jaar volgens dit model? Rond af op hele euro's.",
+      "answer": 10649,
+      "tolerance": 0.5,
+      "unit": "€",
+      "hints": [
+        "Elk jaar blijft 85% over: de reden is $0{,}85$.",
+        "Bereken $24\\,000 \\cdot 0{,}85^5$."
+      ],
+      "solution": [
+        "Meetkundige rij met $u(0) = 24\\,000$ en $r = 0{,}85$.",
+        "$u(5) = 24\\,000 \\cdot 0{,}85^5 = 24\\,000 \\cdot 0{,}4437053\\ldots \\approx 10\\,648{,}93$",
+        "Afgerond: € 10.649."
+      ],
+      "feedback": [
+        {
+          "answer": 6000,
+          "message": "Je hebt elk jaar 15% van de **nieuwprijs** afgetrokken ($5 \\cdot 3600$). Het verlies is 15% van de waarde van dat moment: vermenigvuldig vijf keer met 0,85."
+        },
+        {
+          "answer": 3600,
+          "message": "Dat is het verlies in het eerste jaar, niet de waarde na 5 jaar."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "exponential",
+        "percentages"
+      ]
+    },
+    {
+      "id": "28-016",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken $1 + 2 + 3 + \\ldots + 200$.",
+      "answer": 20100,
+      "hints": [
+        "Gebruik $\\dfrac{n(n+1)}{2}$ met $n = 200$.",
+        "Of: 100 paren die elk $1 + 200 = 201$ opleveren."
+      ],
+      "solution": [
+        "Schrijf de som vooruit en achteruit: elke kolom geeft $201$, en er zijn 200 kolommen.",
+        "$2S = 200 \\cdot 201 = 40\\,200$",
+        "$S = 20\\,100$"
+      ],
+      "feedback": [
+        {
+          "answer": 40200,
+          "message": "Dat is $2S$: de som van twee trappen. Deel nog door 2."
+        },
+        {
+          "answer": 20200,
+          "message": "Je hebt $200 \\cdot 101$ berekend. Elk paar levert $1 + 200 = 201$ op, en er zijn 100 paren: $100 \\cdot 201$."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "addition"
+      ]
+    },
+    {
+      "id": "28-017",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $3 + 7 + 11 + \\ldots + 199$.",
+      "answer": 5050,
+      "hints": [
+        "Tel eerst het aantal termen: hoeveel stappen van 4 zitten er tussen 3 en 199?",
+        "$(199 - 3) : 4 = 49$ stappen, dus 50 termen."
+      ],
+      "solution": [
+        "Rekenkundig met verschil 4.",
+        "Aantal stappen: $(199 - 3) : 4 = 49$; aantal termen: $49 + 1 = 50$.",
+        "$S = \\dfrac{50 \\cdot (3 + 199)}{2} = 25 \\cdot 202 = 5050$"
+      ],
+      "feedback": [
+        {
+          "answer": 4949,
+          "message": "Je hebt met 49 termen gerekend. Het aantal termen is het aantal stappen plus één: 50."
+        },
+        {
+          "answer": 10100,
+          "message": "Je bent vergeten door 2 te delen."
+        }
+      ],
+      "topics": [
+        "sequences"
+      ]
+    },
+    {
+      "id": "28-018",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $\\displaystyle\\sum_{k=0}^{9} (5 + 2k)$.",
+      "answer": 140,
+      "hints": [
+        "Schrijf de eerste en de laatste term uit: $k = 0$ geeft 5, $k = 9$ geeft 23.",
+        "Van $k = 0$ tot en met $k = 9$ zijn het 10 termen."
+      ],
+      "solution": [
+        "De termen zijn $5, 7, 9, \\ldots, 23$: rekenkundig met verschil 2.",
+        "Aantal termen: $9 - 0 + 1 = 10$.",
+        "$S = \\dfrac{10 \\cdot (5 + 23)}{2} = 5 \\cdot 28 = 140$"
+      ],
+      "feedback": [
+        {
+          "answer": 117,
+          "message": "Je hebt maar 9 termen geteld (tot en met 21). Van $k = 0$ tot en met $k = 9$ zijn het er 10."
+        },
+        {
+          "answer": 280,
+          "message": "Je bent vergeten door 2 te delen."
+        }
+      ],
+      "topics": [
+        "sequences"
+      ]
+    },
+    {
+      "id": "28-019",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $1 + 3 + 9 + 27 + \\ldots + 3^7$ met de somformule voor een meetkundige rij.",
+      "answer": 3280,
+      "hints": [
+        "Hoeveel termen zijn het? Van $3^0$ tot en met $3^7$.",
+        "$N = 8$, $u(0) = 1$, $r = 3$: $S = \\dfrac{3^8 - 1}{3 - 1}$."
+      ],
+      "solution": [
+        "Meetkundig met $u(0) = 1$, $r = 3$ en $N = 8$ termen ($3^0$ tot en met $3^7$).",
+        "$S = 1 \\cdot \\dfrac{3^8 - 1}{3 - 1} = \\dfrac{6561 - 1}{2}$",
+        "$S = \\dfrac{6560}{2} = 3280$"
+      ],
+      "feedback": [
+        {
+          "answer": 6560,
+          "message": "Je bent vergeten te delen door $r - 1 = 2$."
+        },
+        {
+          "answer": 9841,
+          "message": "Je hebt met 9 termen gerekend ($3^9$ in de formule). Van $3^0$ tot en met $3^7$ zijn het 8 termen, dus $3^8$ in de formule."
+        },
+        {
+          "answer": 1093,
+          "message": "Je hebt met 7 termen gerekend. Van $3^0$ tot en met $3^7$ zijn het er 8."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "powers"
+      ]
+    },
+    {
+      "id": "28-020",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Volgens de schaakbordlegende ligt op veld 1 één korrel en verdubbelt het aantal per veld. Hoeveel korrels liggen er op de eerste 20 velden samen?",
+      "answer": 1048575,
+      "hints": [
+        "Op veld $k$ liggen $2^{k-1}$ korrels.",
+        "De som van de eerste 20 termen is $\\dfrac{2^{20} - 1}{2 - 1}$."
+      ],
+      "solution": [
+        "Meetkundig met $u(0) = 1$, $r = 2$, $N = 20$.",
+        "$S = \\dfrac{2^{20} - 1}{2 - 1} = 2^{20} - 1$",
+        "$2^{20} = 1\\,048\\,576$, dus $S = 1\\,048\\,575$."
+      ],
+      "feedback": [
+        {
+          "answer": 1048576,
+          "message": "Bijna: de som is $2^{20} - 1$, niet $2^{20}$."
+        },
+        {
+          "answer": 524288,
+          "message": "Dat is het aantal op veld 20 alleen ($2^{19}$). Gevraagd is de som van alle 20 velden."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "powers",
+        "exponential"
+      ]
+    },
+    {
+      "id": "28-021",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Op het hele schaakbord liggen $2^{64} - 1 \\approx 1{,}845 \\cdot 10^{19}$ korrels. Neem aan dat een korrel $0{,}04$ gram weegt. Hoeveel miljard ton is dat? Rond af op een geheel aantal miljarden tonnen. (1 ton = $10^6$ gram, 1 miljard = $10^9$.)",
+      "answer": 738,
+      "hints": [
+        "Massa in gram: $1{,}845 \\cdot 10^{19} \\cdot 0{,}04$.",
+        "Deel door $10^6$ voor tonnen en daarna door $10^9$ voor miljarden tonnen."
+      ],
+      "solution": [
+        "Massa: $1{,}8447 \\cdot 10^{19} \\cdot 0{,}04 \\approx 7{,}379 \\cdot 10^{17}$ gram.",
+        "In ton: $7{,}379 \\cdot 10^{17} : 10^6 = 7{,}379 \\cdot 10^{11}$ ton.",
+        "In miljarden tonnen: $7{,}379 \\cdot 10^{11} : 10^9 \\approx 737{,}9$, afgerond 738."
+      ],
+      "feedback": [
+        {
+          "answer": 369,
+          "message": "Dat is ongeveer het laatste veld alleen ($2^{63}$ korrels). Gevraagd is het hele bord, ongeveer twee keer zoveel."
+        },
+        {
+          "answer": 738000,
+          "message": "Je hebt in miljoenen tonnen gerekend. Deel nog door 1000 voor miljarden."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "powers",
+        "estimation"
+      ]
+    },
+    {
+      "id": "28-022",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een rekenkundige rij heeft $u(0) = 7$ en $v = 4$. Hoeveel termen moet je minstens optellen (vanaf $u(0)$) om een som groter dan 2000 te krijgen?",
+      "answer": 31,
+      "hints": [
+        "De som van de eerste $N$ termen is $\\dfrac{N \\cdot (7 + (7 + 4(N-1)))}{2}$.",
+        "Vereenvoudig tot $N(2N + 5)$ en probeer $N = 30$ en $N = 31$."
+      ],
+      "solution": [
+        "Laatste term na $N$ termen: $7 + 4(N - 1) = 4N + 3$.",
+        "$S_N = \\dfrac{N \\cdot (7 + 4N + 3)}{2} = N(2N + 5)$.",
+        "$N = 30$: $30 \\cdot 65 = 1950$ (te weinig).",
+        "$N = 31$: $31 \\cdot 67 = 2077$ (genoeg). Antwoord: 31 termen."
+      ],
+      "feedback": [
+        {
+          "answer": 30,
+          "message": "Met 30 termen is de som $30 \\cdot 65 = 1950$, nog niet groter dan 2000."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "28-023",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Hoeveel termen van $5 + 10 + 20 + 40 + \\ldots$ moet je minstens optellen om een som groter dan $10\\,000$ te krijgen?",
+      "answer": 11,
+      "hints": [
+        "De som van de eerste $N$ termen is $5 \\cdot (2^N - 1)$.",
+        "Los $2^N - 1 > 2000$ op."
+      ],
+      "solution": [
+        "$S_N = 5 \\cdot \\dfrac{2^N - 1}{2 - 1} = 5(2^N - 1)$",
+        "$5(2^N - 1) > 10\\,000 \\iff 2^N > 2001$",
+        "$2^{10} = 1024$ is te klein, $2^{11} = 2048$ is genoeg.",
+        "Controle: $S_{10} = 5115$, $S_{11} = 10\\,235$. Antwoord: 11 termen."
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Met 10 termen is de som $5 \\cdot 1023 = 5115$. Dat is nog niet genoeg."
+        },
+        {
+          "answer": 12,
+          "message": "Met 11 termen is de som al $5 \\cdot 2047 = 10\\,235$, groter dan 10.000."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "powers"
+      ]
+    },
+    {
+      "id": "28-024",
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bereken de som van de oneindige reeks $\\tfrac13 + \\tfrac19 + \\tfrac1{27} + \\ldots$ Geef je antwoord als breuk.",
+      "answer": "1/2",
+      "hints": [
+        "Eerste term $\\tfrac13$, reden $\\tfrac13$.",
+        "Som $= \\dfrac{u(0)}{1 - r}$."
+      ],
+      "solution": [
+        "Meetkundig met $u(0) = \\tfrac13$ en $r = \\tfrac13$; omdat $|r| < 1$ convergeert de reeks.",
+        "$S = \\dfrac{\\tfrac13}{1 - \\tfrac13} = \\dfrac{\\tfrac13}{\\tfrac23} = \\dfrac12$"
+      ],
+      "feedback": [
+        {
+          "answer": "3/2",
+          "message": "Dat is $\\dfrac{1}{1 - r}$. Je bent de eerste term vergeten: de reeks begint met $\\tfrac13$, niet met 1."
+        },
+        {
+          "answer": "1/3",
+          "message": "Dat is alleen de eerste term. Gebruik $\\dfrac{u(0)}{1-r}$."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "fractions"
+      ]
+    },
+    {
+      "id": "28-025",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een bal valt van 2 meter hoogte en komt na elke stuit tot de helft van de vorige hoogte. In het model stuitert hij oneindig vaak. Hoeveel meter legt hij in totaal af (omhoog en omlaag)?",
+      "answer": 6,
+      "unit": "m",
+      "hints": [
+        "Eerst valt de bal 2 m. Daarna gaat hij steeds op en neer: 1 m, 0,5 m, …",
+        "Totaal $= 2 + 2 \\cdot (1 + 0{,}5 + 0{,}25 + \\ldots)$."
+      ],
+      "solution": [
+        "Eerste val: 2 m.",
+        "Daarna elke hoogte twee keer (op en neer): $1 + 0{,}5 + 0{,}25 + \\ldots = \\dfrac{1}{1 - 0{,}5} = 2$ m.",
+        "Totaal: $2 + 2 \\cdot 2 = 6$ m."
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Dat zijn alleen de vallende stukken. Na elke stuit gaat de bal ook omhoog: tel de stijgende stukken mee."
+        },
+        {
+          "answer": 8,
+          "message": "Je hebt de eerste val ook dubbel geteld. De bal valt de eerste 2 m alleen omlaag."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "modelling"
+      ]
+    },
+    {
+      "id": "28-026",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Achilles (10 m/s) geeft een schildpad (1 m/s) 100 meter voorsprong. Achilles loopt eerst 100 m; de schildpad is dan 10 m verder. Achilles loopt die 10 m; de schildpad is 1 m verder, enzovoort. Hoeveel meter loopt Achilles in totaal tot hij de schildpad inhaalt? Rond af op twee decimalen.",
+      "answer": 111.11,
+      "tolerance": 0.006,
+      "unit": "m",
+      "hints": [
+        "De afstanden van Achilles zijn $100 + 10 + 1 + 0{,}1 + \\ldots$",
+        "Eerste term 100, reden $0{,}1$."
+      ],
+      "solution": [
+        "Meetkundige reeks met $u(0) = 100$ en $r = 0{,}1$.",
+        "$S = \\dfrac{100}{1 - 0{,}1} = \\dfrac{100}{0{,}9} = 111{,}11\\ldots$ m.",
+        "Controle met algebra: na $t$ seconden geldt $10t = 100 + t$, dus $t = \\tfrac{100}{9}$ s en Achilles loopt $\\tfrac{1000}{9} \\approx 111{,}11$ m."
+      ],
+      "feedback": [
+        {
+          "answer": 100,
+          "message": "Dat is alleen de eerste etappe. De schildpad is dan alweer 10 m verder."
+        },
+        {
+          "answer": 111,
+          "message": "Rond af op twee decimalen: 111,11."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "speed"
+      ]
+    },
+    {
+      "id": "28-027",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Schrijf het repeterende decimale getal $0{,}272727\\ldots$ als vereenvoudigde breuk.",
+      "answer": "3/11",
+      "require_simplified": true,
+      "hints": [
+        "$0{,}2727\\ldots = \\tfrac{27}{100} + \\tfrac{27}{10\\,000} + \\ldots$",
+        "Eerste term $\\tfrac{27}{100}$, reden $\\tfrac1{100}$."
+      ],
+      "solution": [
+        "Meetkundige reeks met $u(0) = \\tfrac{27}{100}$ en $r = \\tfrac{1}{100}$.",
+        "$S = \\dfrac{\\tfrac{27}{100}}{\\tfrac{99}{100}} = \\dfrac{27}{99}$",
+        "Vereenvoudig (deel door 9): $\\dfrac{3}{11}$."
+      ],
+      "feedback": [
+        {
+          "answer": "27/100",
+          "message": "Dat is $0{,}27$, zonder de herhaling. De cijfers 27 komen oneindig vaak terug."
+        },
+        {
+          "answer": "27/90",
+          "message": "Een blok van twee cijfers deel je door 99, niet door 90."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "fractions",
+        "decimals"
+      ]
+    },
+    {
+      "id": "28-028",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Schrijf $0{,}4999\\ldots$ (met oneindig veel negens) als breuk.",
+      "answer": "1/2",
+      "hints": [
+        "Splits: $0{,}4 + 0{,}0999\\ldots$",
+        "$0{,}0999\\ldots$ is een tiende van $0{,}999\\ldots$"
+      ],
+      "solution": [
+        "$0{,}4999\\ldots = 0{,}4 + 0{,}0999\\ldots$",
+        "$0{,}0999\\ldots = \\tfrac{9}{100} + \\tfrac{9}{1000} + \\ldots = \\dfrac{\\tfrac9{100}}{1 - \\tfrac1{10}} = \\dfrac{1}{10}$",
+        "Samen: $0{,}4 + 0{,}1 = 0{,}5 = \\tfrac12$."
+      ],
+      "feedback": [
+        {
+          "answer": "49/99",
+          "message": "Dat is $0{,}494949\\ldots$, waarin het blok 49 herhaalt. Hier herhaalt alleen de 9."
+        },
+        {
+          "answer": "4999/10000",
+          "message": "Dat is een eindig decimaal getal. Met oneindig veel negens is het verschil met 0,5 nul."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "fractions",
+        "decimals"
+      ]
+    },
+    {
+      "id": "28-029",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een oneindige meetkundige reeks heeft eerste term 4 en som 12. Bereken de reden $r$. Geef je antwoord als breuk.",
+      "answer": "2/3",
+      "hints": [
+        "Gebruik $\\dfrac{4}{1 - r} = 12$.",
+        "Dan is $1 - r = \\tfrac{4}{12} = \\tfrac13$."
+      ],
+      "solution": [
+        "$\\dfrac{4}{1 - r} = 12$",
+        "$1 - r = \\dfrac{4}{12} = \\dfrac13$",
+        "$r = 1 - \\dfrac13 = \\dfrac23$",
+        "Controle: $\\dfrac{4}{1 - \\tfrac23} = \\dfrac{4}{\\tfrac13} = 12$. Klopt."
+      ],
+      "feedback": [
+        {
+          "answer": "1/3",
+          "message": "Dat is $1 - r$. De reden zelf is $1 - \\tfrac13$."
+        },
+        {
+          "answer": "3",
+          "message": "Een reden van 3 geeft een divergente reeks. Los $\\dfrac{4}{1-r} = 12$ op."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "fractions",
+        "equations"
+      ]
+    },
+    {
+      "id": "28-030",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In een parabolisch segment zet Archimedes eerst een driehoek met oppervlakte $18$ cm². Volgens zijn stelling vullen de volgende driehoeken steeds een kwart van de oppervlakte van de vorige ronde. Wat is de oppervlakte van het segment?",
+      "answer": 24,
+      "unit": "cm²",
+      "hints": [
+        "Oppervlakte $= 18 + \\tfrac14 \\cdot 18 + \\tfrac1{16} \\cdot 18 + \\ldots$",
+        "Eerste term 18, reden $\\tfrac14$."
+      ],
+      "solution": [
+        "Meetkundige reeks met $u(0) = 18$ en $r = \\tfrac14$.",
+        "$S = \\dfrac{18}{1 - \\tfrac14} = \\dfrac{18}{\\tfrac34} = 24$",
+        "Dat is $\\tfrac43$ van de eerste driehoek, zoals Archimedes bewees."
+      ],
+      "feedback": [
+        {
+          "answer": 36,
+          "message": "Dat is $\\dfrac{18}{1 - \\tfrac12}$. De reden is $\\tfrac14$, niet $\\tfrac12$: elke ronde vult een kwart van de vorige."
+        },
+        {
+          "answer": 72,
+          "message": "Je hebt $\\dfrac{18}{\\tfrac14}$ berekend. De formule is $\\dfrac{u(0)}{1 - r}$."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "area",
+        "geometry"
+      ]
+    },
+    {
+      "id": "28-031",
+      "type": "fraction",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "De **sneeuwvlok van Koch** ontstaat uit een gelijkzijdige driehoek met oppervlakte 1. In stap 1 zet je op het middelste derde van elke zijde een gelijkzijdig driehoekje naar buiten (3 driehoekjes, elk met oppervlakte $\\tfrac19$). In elke volgende stap doe je hetzelfde op elk lijnstuk van de rand: het aantal nieuwe driehoekjes wordt steeds 4 keer zo groot, en elk nieuw driehoekje heeft $\\tfrac19$ van de oppervlakte van een driehoekje uit de vorige stap. Wat is de oppervlakte van de sneeuwvlok na oneindig veel stappen? Geef een breuk.",
+      "answer": "8/5",
+      "hints": [
+        "Toegevoegde oppervlakte in stap 1: $3 \\cdot \\tfrac19 = \\tfrac13$.",
+        "Elke stap voegt $4 \\cdot \\tfrac19 = \\tfrac49$ keer zoveel oppervlakte toe als de vorige stap.",
+        "Totaal $= 1 + \\tfrac13 + \\tfrac13 \\cdot \\tfrac49 + \\ldots$"
+      ],
+      "solution": [
+        "Stap 1 voegt $3 \\cdot \\tfrac19 = \\tfrac13$ toe.",
+        "In stap $k + 1$ zijn er 4 keer zoveel driehoekjes, elk $\\tfrac19$ zo groot: de toegevoegde oppervlakte is $\\tfrac49$ van die in stap $k$.",
+        "Toegevoegd in totaal: $\\tfrac13 + \\tfrac13 \\cdot \\tfrac49 + \\ldots = \\dfrac{\\tfrac13}{1 - \\tfrac49} = \\dfrac{\\tfrac13}{\\tfrac59} = \\dfrac35$.",
+        "Oppervlakte: $1 + \\dfrac35 = \\dfrac85$.",
+        "Opmerkelijk: de omtrek wordt elke stap $\\tfrac43$ keer zo groot en groeit dus onbegrensd. Een figuur met eindige oppervlakte en oneindige omtrek."
+      ],
+      "feedback": [
+        {
+          "answer": "3/5",
+          "message": "Dat is alleen de toegevoegde oppervlakte. Tel de oorspronkelijke driehoek (oppervlakte 1) erbij."
+        },
+        {
+          "answer": "3/2",
+          "message": "Je hebt de reden $\\tfrac13$ gebruikt in plaats van $\\tfrac49$. Het aantal driehoekjes groeit ook: 4 keer zoveel, elk $\\tfrac19$ zo groot."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "area",
+        "fractions"
+      ]
+    },
+    {
+      "id": "28-032",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "In de *Liber Abaci* is het eerste konijnenpaar meteen vruchtbaar. Leonardo's tabel begint daarom zo: begin 1 paar, na maand 1: 2 paren, na maand 2: 3, na maand 3: 5, na maand 4: 8. Elk getal is de som van de twee vorige. Hoeveel paren zijn er na maand 12?",
+      "answer": 377,
+      "unit": "paren",
+      "hints": [
+        "Ga door: $8 + 5 = 13$ na maand 5, dan $21$, …",
+        "Schrijf de maanden 5 tot en met 12 één voor één uit."
+      ],
+      "solution": [
+        "Maand 5: $5 + 8 = 13$; maand 6: $21$; maand 7: $34$; maand 8: $55$.",
+        "Maand 9: $89$; maand 10: $144$; maand 11: $233$; maand 12: $377$."
+      ],
+      "feedback": [
+        {
+          "answer": 233,
+          "message": "Dat is maand 11. Nog één stap: $144 + 233 = 377$."
+        },
+        {
+          "answer": 144,
+          "message": "Dat is het aantal als je bij het moderne $F(12) = 144$ uitkomt. In Leonardo's versie is het eerste paar meteen vruchtbaar, waardoor alles twee plaatsen opschuift."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "patterns"
+      ]
+    },
+    {
+      "id": "28-033",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een dichtregel duurt 8 tellen. Een korte lettergreep duurt 1 tel, een lange 2 tellen. Op hoeveel manieren kun je de regel vullen met korte en lange lettergrepen (de volgorde telt)?",
+      "answer": 34,
+      "hints": [
+        "Het aantal ritmes van $n$ tellen is het aantal van $n - 1$ tellen plus dat van $n - 2$ tellen.",
+        "1 tel: 1 ritme; 2 tellen: 2 ritmes; 3 tellen: 3; 4 tellen: 5."
+      ],
+      "solution": [
+        "Aantallen: 1 tel: 1; 2 tellen: 2; 3 tellen: 3; 4 tellen: 5.",
+        "5 tellen: 8; 6 tellen: 13; 7 tellen: 21; 8 tellen: $13 + 21 = 34$."
+      ],
+      "feedback": [
+        {
+          "answer": 21,
+          "message": "Dat is het aantal voor 7 tellen. Nog één stap."
+        },
+        {
+          "answer": 256,
+          "message": "$2^8$ zou kloppen als elke tel los kort of lang kon zijn. Maar een lange lettergreep neemt twee tellen in beslag."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "combinatorics",
+        "patterns"
+      ]
+    },
+    {
+      "id": "28-034",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken de verhouding $\\dfrac{233}{144}$ van twee opeenvolgende Fibonacci-getallen en de gulden snede $\\varphi = \\dfrac{1 + \\sqrt5}{2}$, beide afgerond op vier decimalen.",
+      "parts": [
+        {
+          "label": "233/144",
+          "answer": 1.6181,
+          "type": "decimal",
+          "tolerance": 6e-05
+        },
+        {
+          "label": "φ",
+          "answer": 1.618,
+          "type": "decimal",
+          "tolerance": 6e-05
+        }
+      ],
+      "hints": [
+        "Gebruik je rekenmachine; rond pas aan het eind af.",
+        "$\\sqrt5 \\approx 2{,}2360680$."
+      ],
+      "solution": [
+        "$233 : 144 = 1{,}618055\\ldots \\approx 1{,}6181$",
+        "$\\varphi = \\dfrac{1 + 2{,}2360680}{2} = 1{,}6180340\\ldots \\approx 1{,}6180$",
+        "Het verschil is ongeveer $0{,}00002$: de verhouding van opeenvolgende Fibonacci-getallen nadert $\\varphi$ snel."
+      ],
+      "topics": [
+        "sequences",
+        "roots",
+        "decimals"
+      ]
+    },
+    {
+      "id": "28-035",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Met $F(1) = F(2) = 1$ en $F(n) = F(n-1) + F(n-2)$: bereken $F(1) + F(2) + \\ldots + F(20)$. Tip: vergelijk de partiële sommen $1, 2, 4, 7, 12, \\ldots$ met de Fibonacci-getallen zelf.",
+      "answer": 17710,
+      "hints": [
+        "Bereken de eerste partiële sommen: $1, 2, 4, 7, 12, 20, 33$. Zie je ze terug in de rij $1, 1, 2, 3, 5, 8, 13, 21, 34$?",
+        "Elke partiële som is één minder dan een Fibonacci-getal: $F(1) + \\ldots + F(n) = F(n+2) - 1$."
+      ],
+      "solution": [
+        "Partiële sommen: $1, 2, 4, 7, 12, 20, 33, \\ldots$ en Fibonacci: $1, 1, 2, 3, 5, 8, 13, 21, 34$. Het patroon: $F(1) + \\ldots + F(n) = F(n+2) - 1$.",
+        "Waarom: $F(k) = F(k+2) - F(k+1)$. Tel je dat op voor $k = 1$ tot en met $n$, dan vallen alle tussenliggende termen weg en blijft $F(n+2) - F(2) = F(n+2) - 1$ over.",
+        "Dus de som is $F(22) - 1$.",
+        "Fibonacci-getallen: $F(20) = 6765$, $F(21) = 10\\,946$, $F(22) = 17\\,711$.",
+        "Som: $17\\,711 - 1 = 17\\,710$."
+      ],
+      "feedback": [
+        {
+          "answer": 17711,
+          "message": "Bijna: de som is $F(22) - 1$, niet $F(22)$."
+        },
+        {
+          "answer": 10945,
+          "message": "Dat is $F(21) - 1$, de som tot en met $F(19)$. Tot en met $F(20)$ is het $F(22) - 1$."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "patterns"
+      ]
+    },
+    {
+      "id": "28-036",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je legt aan het begin van elk jaar € 750 in op een rekening met 4% rente per jaar (bijgeschreven aan het eind van elk jaar). Hoeveel staat er op de rekening direct na de achtste inleg? Rond af op centen.",
+      "answer": 6910.67,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "De achtste inleg heeft nog geen rente, de zevende één jaar, …, de eerste zeven jaar.",
+        "Saldo $= 750 \\cdot \\dfrac{1{,}04^8 - 1}{0{,}04}$."
+      ],
+      "solution": [
+        "Saldo $= 750 + 750 \\cdot 1{,}04 + \\ldots + 750 \\cdot 1{,}04^7$: meetkundig met 8 termen.",
+        "$1{,}04^8 \\approx 1{,}368569$",
+        "$750 \\cdot \\dfrac{0{,}368569}{0{,}04} \\approx 750 \\cdot 9{,}214226 \\approx 6910{,}67$"
+      ],
+      "feedback": [
+        {
+          "answer": 6000,
+          "message": "Dat is alleen de inleg ($8 \\cdot 750$), zonder rente."
+        },
+        {
+          "answer": 7187.1,
+          "message": "Dat is het saldo aan het **eind** van het achtste jaar, na nog een jaar rente. Gevraagd is het saldo direct na de achtste inleg."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "28-037",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Kees spaart in week 1 € 5, in week 2 € 7, in week 3 € 9, enzovoort (elke week € 2 meer). Na hoeveel weken heeft hij in totaal voor het eerst minstens € 1.000 gespaard? (Er is geen rente.)",
+      "answer": 30,
+      "unit": "weken",
+      "hints": [
+        "Na $n$ weken is de laatste inleg $5 + 2(n - 1) = 2n + 3$.",
+        "Totaal na $n$ weken: $\\dfrac{n \\cdot (5 + 2n + 3)}{2} = n^2 + 4n$."
+      ],
+      "solution": [
+        "Rekenkundige som: totaal $= \\dfrac{n(5 + 2n + 3)}{2} = n(n + 4) = n^2 + 4n$.",
+        "$n = 29$: $841 + 116 = 957$ (te weinig).",
+        "$n = 30$: $900 + 120 = 1020$ (genoeg).",
+        "Antwoord: na 30 weken."
+      ],
+      "feedback": [
+        {
+          "answer": 29,
+          "message": "Na 29 weken heeft Kees $29 \\cdot 33 = 957$ euro: nog geen 1000."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "money",
+        "quadratic-functions"
+      ]
+    },
+    {
+      "id": "28-038",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Je leent € 15.000 tegen 0,5% rente per maand. Aan het eind van elke maand wordt eerst de rente bijgeteld en betaal je daarna € 400 af. Hoe groot is de restschuld na 24 maanden? Rond af op centen.",
+      "answer": 6734.61,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Restschuld $= 15\\,000 \\cdot 1{,}005^{24} - 400 \\cdot \\dfrac{1{,}005^{24} - 1}{0{,}005}$.",
+        "$1{,}005^{24} \\approx 1{,}127160$."
+      ],
+      "solution": [
+        "$1{,}005^{24} \\approx 1{,}1271598$",
+        "Lening zonder aflossing: $15\\,000 \\cdot 1{,}1271598 \\approx 16\\,907{,}3966$.",
+        "Waarde van de betalingen: $400 \\cdot \\dfrac{0{,}1271598}{0{,}005} \\approx 400 \\cdot 25{,}431955 \\approx 10\\,172{,}7821$.",
+        "Restschuld: $16\\,907{,}3966 - 10\\,172{,}7821 \\approx 6734{,}6145$, afgerond € 6.734,61. (Reken met onafgeronde tussenstappen: met al op centen afgeronde tussenwaarden kom je een cent te hoog uit.)"
+      ],
+      "feedback": [
+        {
+          "answer": 5400,
+          "message": "Je hebt de rente genegeerd: $15\\,000 - 24 \\cdot 400$. Over de schuld wordt elke maand rente berekend."
+        },
+        {
+          "answer": 7307.4,
+          "message": "Je hebt de lening wel laten groeien, maar de betalingen zonder rente afgetrokken ($16\\,907{,}40 - 24 \\cdot 400$). Ook elke betaling telt mee met de groeifactor, net als bij sparen."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "finance",
+        "exponential"
+      ]
+    },
+    {
+      "id": "28-039",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je wilt direct na 12 maandelijkse inleggen (telkens aan het begin van de maand) € 3.000 hebben. De rente is 0,25% per maand. Hoe groot moet de maandelijkse inleg zijn? Rond af op centen.",
+      "answer": 246.58,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Saldo na 12 inleggen: $A \\cdot \\dfrac{1{,}0025^{12} - 1}{0{,}0025}$.",
+        "Stel dat gelijk aan 3000 en los $A$ op."
+      ],
+      "solution": [
+        "$1{,}0025^{12} \\approx 1{,}030416$",
+        "$\\dfrac{0{,}030416}{0{,}0025} \\approx 12{,}166383$",
+        "$A \\cdot 12{,}166383 = 3000$, dus $A \\approx 246{,}58$."
+      ],
+      "feedback": [
+        {
+          "answer": 250,
+          "message": "Dat is $3000 : 12$, zonder rente. Door de rente is een iets kleiner bedrag genoeg."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "finance"
+      ]
+    },
+    {
+      "id": "28-040",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Je leent € 10.000 tegen 1% rente per maand en lost af in 36 gelijke maandbedragen, telkens aan het eind van de maand (eerst rente, dan betaling). Na de 36ste betaling is de schuld precies nul. Bereken het maandbedrag. Rond af op centen.",
+      "answer": 332.14,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [
+        "Restschuld na 36 maanden: $10\\,000 \\cdot 1{,}01^{36} - A \\cdot \\dfrac{1{,}01^{36} - 1}{0{,}01} = 0$.",
+        "$1{,}01^{36} \\approx 1{,}430769$."
+      ],
+      "solution": [
+        "$1{,}01^{36} \\approx 1{,}4307688$",
+        "Lening na 36 maanden zonder aflossing: $10\\,000 \\cdot 1{,}4307688 \\approx 14\\,307{,}69$.",
+        "Waarde van de betalingen: $A \\cdot \\dfrac{0{,}4307688}{0{,}01} = A \\cdot 43{,}07688$.",
+        "$A = \\dfrac{14\\,307{,}69}{43{,}07688} \\approx 332{,}14$",
+        "Controle in een spreadsheet: met $A = 332{,}14$ is de restschuld na 36 maanden ongeveer € 0,13 (afrondingsverschil)."
+      ],
+      "feedback": [
+        {
+          "answer": 277.78,
+          "message": "Dat is $10\\,000 : 36$, zonder rente. Over de openstaande schuld betaal je elke maand 1% rente."
+        },
+        {
+          "answer": 397.44,
+          "message": "Je hebt de lening 36 maanden laten groeien zonder aflossing ($14\\,307{,}69$) en dat door 36 gedeeld. Maar ook je betalingen groeien mee: deel door $43{,}08$, de som van de groeifactoren."
+        }
+      ],
+      "topics": [
+        "sequences",
+        "finance",
+        "equations"
+      ]
+    }
+  ]
+}
