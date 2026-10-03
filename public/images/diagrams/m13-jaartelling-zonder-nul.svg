@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="sans-serif" role="img" aria-label="Boven een getallenlijn van min 3 tot 3 met nul; onder de jaartelling van 3 voor Christus tot 3 na Christus zonder jaar nul">
+<title>Boven een getallenlijn van min 3 tot 3 met nul; onder de jaartelling van 3 voor Christus tot 3 na Christus zonder jaar nul</title>
+<rect x="0" y="0" width="700" height="300" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b5bdb"/></marker>
+<marker id="ahh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9c6b30"/></marker>
+<marker id="ahk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f2933"/></marker>
+</defs>
+<line x1="45" y1="70" x2="655" y2="70" stroke="#1f2933" stroke-width="2" marker-end="url(#ahk)" marker-start="url(#ahk)"/>
+<line x1="60.0" y1="64" x2="60.0" y2="76" stroke="#1f2933" stroke-width="1.4"/>
+<text x="60.0" y="96" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;3</text>
+<line x1="156.7" y1="64" x2="156.7" y2="76" stroke="#1f2933" stroke-width="1.4"/>
+<text x="156.7" y="96" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;2</text>
+<line x1="253.3" y1="64" x2="253.3" y2="76" stroke="#1f2933" stroke-width="1.4"/>
+<text x="253.3" y="96" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;1</text>
+<line x1="350.0" y1="61" x2="350.0" y2="79" stroke="#1f2933" stroke-width="2"/>
+<text x="350.0" y="96" font-size="14" text-anchor="middle" fill="#1f2933" font-weight="bold">0</text>
+<line x1="446.7" y1="64" x2="446.7" y2="76" stroke="#1f2933" stroke-width="1.4"/>
+<text x="446.7" y="96" font-size="14" text-anchor="middle" fill="#1f2933">1</text>
+<line x1="543.3" y1="64" x2="543.3" y2="76" stroke="#1f2933" stroke-width="1.4"/>
+<text x="543.3" y="96" font-size="14" text-anchor="middle" fill="#1f2933">2</text>
+<line x1="640.0" y1="64" x2="640.0" y2="76" stroke="#1f2933" stroke-width="1.4"/>
+<text x="640.0" y="96" font-size="14" text-anchor="middle" fill="#1f2933">3</text>
+<text x="20" y="40" font-size="14" text-anchor="start" fill="#9c6b30">getallenlijn</text>
+<text x="20" y="135" font-size="14" text-anchor="start" fill="#9c6b30">jaartelling</text>
+<line x1="45" y1="210" x2="655" y2="210" stroke="#1f2933" stroke-width="2" marker-end="url(#ahk)" marker-start="url(#ahk)"/>
+<line x1="60.0" y1="204" x2="60.0" y2="216" stroke="#1f2933" stroke-width="1.4"/>
+<text x="60.0" y="236" font-size="14" text-anchor="middle" fill="#1f2933">3 v.Chr.</text>
+<line x1="176.0" y1="204" x2="176.0" y2="216" stroke="#1f2933" stroke-width="1.4"/>
+<text x="176.0" y="236" font-size="14" text-anchor="middle" fill="#1f2933">2 v.Chr.</text>
+<line x1="292.0" y1="204" x2="292.0" y2="216" stroke="#1f2933" stroke-width="1.4"/>
+<text x="292.0" y="236" font-size="14" text-anchor="middle" fill="#1f2933" font-weight="bold">1 v.Chr.</text>
+<line x1="408.0" y1="204" x2="408.0" y2="216" stroke="#1f2933" stroke-width="1.4"/>
+<text x="408.0" y="236" font-size="14" text-anchor="middle" fill="#1f2933" font-weight="bold">1 n.Chr.</text>
+<line x1="524.0" y1="204" x2="524.0" y2="216" stroke="#1f2933" stroke-width="1.4"/>
+<text x="524.0" y="236" font-size="14" text-anchor="middle" fill="#1f2933">2 n.Chr.</text>
+<line x1="640.0" y1="204" x2="640.0" y2="216" stroke="#1f2933" stroke-width="1.4"/>
+<text x="640.0" y="236" font-size="14" text-anchor="middle" fill="#1f2933">3 n.Chr.</text>
+<path d="M 292.0 198 Q 350.0 160 408.0 198" fill="none" stroke="#3b5bdb" stroke-width="2" marker-end="url(#ah)"/>
+<text x="350.0" y="158" font-size="14" text-anchor="middle" fill="#3b5bdb" font-weight="bold">1 jaar</text>
+<text x="350" y="280" font-size="14" text-anchor="middle" fill="#1f2933">geen jaar 0: van 1 v.Chr. naar 1 n.Chr. is één jaar</text>
+
+</svg>

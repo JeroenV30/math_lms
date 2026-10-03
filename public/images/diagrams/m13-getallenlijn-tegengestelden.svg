@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 225" font-family="sans-serif" role="img" aria-label="Getallenlijn van min 6 tot 6; min 4 en 4 liggen allebei vier eenheden van nul, aan verschillende kanten">
+<title>Getallenlijn van min 6 tot 6; min 4 en 4 liggen allebei vier eenheden van nul, aan verschillende kanten</title>
+<rect x="0" y="0" width="700" height="225" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b5bdb"/></marker>
+<marker id="ahh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9c6b30"/></marker>
+<marker id="ahk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f2933"/></marker>
+</defs>
+<line x1="35" y1="120" x2="665" y2="120" stroke="#1f2933" stroke-width="2" marker-end="url(#ahk)" marker-start="url(#ahk)"/>
+<line x1="50.0" y1="114" x2="50.0" y2="126" stroke="#1f2933" stroke-width="1.4"/>
+<text x="50.0" y="146" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;6</text>
+<line x1="100.0" y1="114" x2="100.0" y2="126" stroke="#1f2933" stroke-width="1.4"/>
+<text x="100.0" y="146" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;5</text>
+<line x1="150.0" y1="114" x2="150.0" y2="126" stroke="#1f2933" stroke-width="1.4"/>
+<text x="150.0" y="146" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;4</text>
+<line x1="200.0" y1="114" x2="200.0" y2="126" stroke="#1f2933" stroke-width="1.4"/>
+<text x="200.0" y="146" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;3</text>
+<line x1="250.0" y1="114" x2="250.0" y2="126" stroke="#1f2933" stroke-width="1.4"/>
+<text x="250.0" y="146" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;2</text>
+<line x1="300.0" y1="114" x2="300.0" y2="126" stroke="#1f2933" stroke-width="1.4"/>
+<text x="300.0" y="146" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;1</text>
+<line x1="350.0" y1="111" x2="350.0" y2="129" stroke="#1f2933" stroke-width="2"/>
+<text x="350.0" y="146" font-size="14" text-anchor="middle" fill="#1f2933" font-weight="bold">0</text>
+<line x1="400.0" y1="114" x2="400.0" y2="126" stroke="#1f2933" stroke-width="1.4"/>
+<text x="400.0" y="146" font-size="14" text-anchor="middle" fill="#1f2933">1</text>
+<line x1="450.0" y1="114" x2="450.0" y2="126" stroke="#1f2933" stroke-width="1.4"/>
+<text x="450.0" y="146" font-size="14" text-anchor="middle" fill="#1f2933">2</text>
+<line x1="500.0" y1="114" x2="500.0" y2="126" stroke="#1f2933" stroke-width="1.4"/>
+<text x="500.0" y="146" font-size="14" text-anchor="middle" fill="#1f2933">3</text>
+<line x1="550.0" y1="114" x2="550.0" y2="126" stroke="#1f2933" stroke-width="1.4"/>
+<text x="550.0" y="146" font-size="14" text-anchor="middle" fill="#1f2933">4</text>
+<line x1="600.0" y1="114" x2="600.0" y2="126" stroke="#1f2933" stroke-width="1.4"/>
+<text x="600.0" y="146" font-size="14" text-anchor="middle" fill="#1f2933">5</text>
+<line x1="650.0" y1="114" x2="650.0" y2="126" stroke="#1f2933" stroke-width="1.4"/>
+<text x="650.0" y="146" font-size="14" text-anchor="middle" fill="#1f2933">6</text>
+<circle cx="150.0" cy="120" r="7" fill="#3b5bdb"/>
+<circle cx="550.0" cy="120" r="7" fill="#3b5bdb"/>
+<path d="M 350.0 100 Q 250.0 40 150.0 100" fill="none" stroke="#9c6b30" stroke-width="2" marker-end="url(#ahh)"/>
+<path d="M 350.0 100 Q 450.0 40 550.0 100" fill="none" stroke="#9c6b30" stroke-width="2" marker-end="url(#ahh)"/>
+<text x="250.0" y="52" font-size="14" text-anchor="middle" fill="#9c6b30">4 eenheden</text>
+<text x="450.0" y="52" font-size="14" text-anchor="middle" fill="#9c6b30">4 eenheden</text>
+<text x="150.0" y="178" font-size="16" text-anchor="middle" fill="#3b5bdb" font-weight="bold">&#8722;4</text>
+<text x="550.0" y="178" font-size="16" text-anchor="middle" fill="#3b5bdb" font-weight="bold">4</text>
+<text x="350" y="205" font-size="15" text-anchor="middle" fill="#1f2933">|&#8722;4| = |4| = 4      en      &#8722;4 + 4 = 0</text>
+
+</svg>

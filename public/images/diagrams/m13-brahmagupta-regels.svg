@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 210" font-family="sans-serif" role="img" aria-label="Tabel met Brahmagupta's regels: bezit maal bezit is bezit, bezit maal schuld is schuld, schuld maal schuld is bezit">
+<title>Tabel met Brahmagupta's regels: bezit maal bezit is bezit, bezit maal schuld is schuld, schuld maal schuld is bezit</title>
+<rect x="0" y="0" width="560" height="210" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b5bdb"/></marker>
+<marker id="ahh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9c6b30"/></marker>
+<marker id="ahk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f2933"/></marker>
+</defs>
+<text x="85" y="42" font-size="20" text-anchor="middle" fill="#1f2933" font-weight="bold">×</text>
+<text x="255.0" y="44" font-size="16" text-anchor="middle" fill="#9c6b30" font-weight="bold">bezit (+)</text>
+<text x="425.0" y="44" font-size="16" text-anchor="middle" fill="#9c6b30" font-weight="bold">schuld (&#8722;)</text>
+<text x="155" y="94.0" font-size="16" text-anchor="end" fill="#9c6b30" font-weight="bold">bezit (+)</text>
+<rect x="170" y="60" width="170" height="56" fill="#e7ecfb" stroke="#1f2933" stroke-width="1"/>
+<text x="255.0" y="94.0" font-size="16" text-anchor="middle" fill="#3b5bdb">bezit (+)</text>
+<rect x="340" y="60" width="170" height="56" fill="#f1f3f5" stroke="#1f2933" stroke-width="1"/>
+<text x="425.0" y="94.0" font-size="16" text-anchor="middle" fill="#1f2933">schuld (&#8722;)</text>
+<text x="155" y="150.0" font-size="16" text-anchor="end" fill="#9c6b30" font-weight="bold">schuld (&#8722;)</text>
+<rect x="170" y="116" width="170" height="56" fill="#f1f3f5" stroke="#1f2933" stroke-width="1"/>
+<text x="255.0" y="150.0" font-size="16" text-anchor="middle" fill="#1f2933">schuld (&#8722;)</text>
+<rect x="340" y="116" width="170" height="56" fill="#e7ecfb" stroke="#1f2933" stroke-width="1"/>
+<text x="425.0" y="150.0" font-size="16" text-anchor="middle" fill="#3b5bdb" font-weight="bold">bezit (+)</text>
+<text x="340" y="208" font-size="14" text-anchor="middle" fill="#1f2933">'Het product van twee schulden is een bezit' (Brahmagupta, 628)</text>
+
+</svg>

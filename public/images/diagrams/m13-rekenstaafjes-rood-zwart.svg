@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 260" font-family="sans-serif" role="img" aria-label="Schets van Chinese staafjescijfers: 23 in rode staafjes (positief) en min 14 in zwarte staafjes (negatief)">
+<title>Schets van Chinese staafjescijfers: 23 in rode staafjes (positief) en min 14 in zwarte staafjes (negatief)</title>
+<rect x="0" y="0" width="660" height="260" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b5bdb"/></marker>
+<marker id="ahh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9c6b30"/></marker>
+<marker id="ahk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f2933"/></marker>
+</defs>
+<rect x="60" y="40" width="100" height="100" fill="#f1f3f5" stroke="#9c6b30" stroke-width="1.5"/>
+<rect x="160" y="40" width="100" height="100" fill="#f1f3f5" stroke="#9c6b30" stroke-width="1.5"/>
+<rect x="80" y="71" width="60" height="7" rx="3" fill="#c92a2a"/>
+<rect x="80" y="89" width="60" height="7" rx="3" fill="#c92a2a"/>
+<rect x="192.5" y="60" width="7" height="60" rx="3" fill="#c92a2a"/>
+<rect x="206.5" y="60" width="7" height="60" rx="3" fill="#c92a2a"/>
+<rect x="220.5" y="60" width="7" height="60" rx="3" fill="#c92a2a"/>
+<text x="110" y="165" font-size="13" text-anchor="middle" fill="#9c6b30">tientallen</text>
+<text x="210" y="165" font-size="13" text-anchor="middle" fill="#9c6b30">eenheden</text>
+<text x="160" y="200" font-size="17" text-anchor="middle" fill="#c92a2a" font-weight="bold">rood: +23</text>
+<rect x="380" y="40" width="100" height="100" fill="#f1f3f5" stroke="#9c6b30" stroke-width="1.5"/>
+<rect x="480" y="40" width="100" height="100" fill="#f1f3f5" stroke="#9c6b30" stroke-width="1.5"/>
+<rect x="400" y="80" width="60" height="7" rx="3" fill="#1f2933"/>
+<rect x="505.5" y="60" width="7" height="60" rx="3" fill="#1f2933"/>
+<rect x="519.5" y="60" width="7" height="60" rx="3" fill="#1f2933"/>
+<rect x="533.5" y="60" width="7" height="60" rx="3" fill="#1f2933"/>
+<rect x="547.5" y="60" width="7" height="60" rx="3" fill="#1f2933"/>
+<text x="430" y="165" font-size="13" text-anchor="middle" fill="#9c6b30">tientallen</text>
+<text x="530" y="165" font-size="13" text-anchor="middle" fill="#9c6b30">eenheden</text>
+<text x="480" y="200" font-size="17" text-anchor="middle" fill="#1f2933" font-weight="bold">zwart: &#8722;14</text>
+<text x="330" y="240" font-size="14" text-anchor="middle" fill="#1f2933">Liu Hui (263): rode staafjes positief, zwarte staafjes negatief</text>
+
+</svg>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 330" font-family="sans-serif" role="img" aria-label="Patroon: 5 min 3 is 2, 5 min 2 is 3, 5 min 1 is 4, 5 min 0 is 5, 5 min min 1 is 6, 5 min min 2 is 7">
+<title>Patroon: 5 min 3 is 2, 5 min 2 is 3, 5 min 1 is 4, 5 min 0 is 5, 5 min min 1 is 6, 5 min min 2 is 7</title>
+<rect x="0" y="0" width="560" height="330" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b5bdb"/></marker>
+<marker id="ahh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9c6b30"/></marker>
+<marker id="ahk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f2933"/></marker>
+</defs>
+<text x="170" y="50" font-size="20" text-anchor="end" fill="#1f2933">5</text>
+<text x="185" y="50" font-size="20" text-anchor="middle" fill="#1f2933">&#8722;</text>
+<text x="200" y="50" font-size="20" text-anchor="start" fill="#1f2933">3</text>
+<text x="290" y="50" font-size="20" text-anchor="middle" fill="#1f2933">=</text>
+<text x="320" y="50" font-size="20" text-anchor="start" fill="#1f2933">2</text>
+<path d="M 400 44 q 22 22 0 44" fill="none" stroke="#9c6b30" stroke-width="1.8" marker-end="url(#ahh)"/>
+<text x="430" y="72" font-size="15" text-anchor="start" fill="#9c6b30">+1</text>
+<path d="M 120 44 q -22 22 0 44" fill="none" stroke="#1f2933" stroke-width="1.4" marker-end="url(#ahk)"/>
+<text x="90" y="72" font-size="15" text-anchor="end" fill="#1f2933">&#8722;1</text>
+<text x="170" y="94" font-size="20" text-anchor="end" fill="#1f2933">5</text>
+<text x="185" y="94" font-size="20" text-anchor="middle" fill="#1f2933">&#8722;</text>
+<text x="200" y="94" font-size="20" text-anchor="start" fill="#1f2933">2</text>
+<text x="290" y="94" font-size="20" text-anchor="middle" fill="#1f2933">=</text>
+<text x="320" y="94" font-size="20" text-anchor="start" fill="#1f2933">3</text>
+<path d="M 400 88 q 22 22 0 44" fill="none" stroke="#9c6b30" stroke-width="1.8" marker-end="url(#ahh)"/>
+<text x="430" y="116" font-size="15" text-anchor="start" fill="#9c6b30">+1</text>
+<path d="M 120 88 q -22 22 0 44" fill="none" stroke="#1f2933" stroke-width="1.4" marker-end="url(#ahk)"/>
+<text x="90" y="116" font-size="15" text-anchor="end" fill="#1f2933">&#8722;1</text>
+<text x="170" y="138" font-size="20" text-anchor="end" fill="#1f2933">5</text>
+<text x="185" y="138" font-size="20" text-anchor="middle" fill="#1f2933">&#8722;</text>
+<text x="200" y="138" font-size="20" text-anchor="start" fill="#1f2933">1</text>
+<text x="290" y="138" font-size="20" text-anchor="middle" fill="#1f2933">=</text>
+<text x="320" y="138" font-size="20" text-anchor="start" fill="#1f2933">4</text>
+<path d="M 400 132 q 22 22 0 44" fill="none" stroke="#9c6b30" stroke-width="1.8" marker-end="url(#ahh)"/>
+<text x="430" y="160" font-size="15" text-anchor="start" fill="#9c6b30">+1</text>
+<path d="M 120 132 q -22 22 0 44" fill="none" stroke="#1f2933" stroke-width="1.4" marker-end="url(#ahk)"/>
+<text x="90" y="160" font-size="15" text-anchor="end" fill="#1f2933">&#8722;1</text>
+<text x="170" y="182" font-size="20" text-anchor="end" fill="#1f2933">5</text>
+<text x="185" y="182" font-size="20" text-anchor="middle" fill="#1f2933">&#8722;</text>
+<text x="200" y="182" font-size="20" text-anchor="start" fill="#1f2933">0</text>
+<text x="290" y="182" font-size="20" text-anchor="middle" fill="#1f2933">=</text>
+<text x="320" y="182" font-size="20" text-anchor="start" fill="#1f2933">5</text>
+<path d="M 400 176 q 22 22 0 44" fill="none" stroke="#9c6b30" stroke-width="1.8" marker-end="url(#ahh)"/>
+<text x="430" y="204" font-size="15" text-anchor="start" fill="#9c6b30">+1</text>
+<path d="M 120 176 q -22 22 0 44" fill="none" stroke="#1f2933" stroke-width="1.4" marker-end="url(#ahk)"/>
+<text x="90" y="204" font-size="15" text-anchor="end" fill="#1f2933">&#8722;1</text>
+<text x="170" y="226" font-size="20" text-anchor="end" fill="#1f2933">5</text>
+<text x="185" y="226" font-size="20" text-anchor="middle" fill="#1f2933">&#8722;</text>
+<text x="200" y="226" font-size="20" text-anchor="start" fill="#3b5bdb" font-weight="bold">(&#8722;1)</text>
+<text x="290" y="226" font-size="20" text-anchor="middle" fill="#1f2933">=</text>
+<text x="320" y="226" font-size="20" text-anchor="start" fill="#3b5bdb" font-weight="bold">6</text>
+<path d="M 400 220 q 22 22 0 44" fill="none" stroke="#9c6b30" stroke-width="1.8" marker-end="url(#ahh)"/>
+<text x="430" y="248" font-size="15" text-anchor="start" fill="#9c6b30">+1</text>
+<path d="M 120 220 q -22 22 0 44" fill="none" stroke="#1f2933" stroke-width="1.4" marker-end="url(#ahk)"/>
+<text x="90" y="248" font-size="15" text-anchor="end" fill="#1f2933">&#8722;1</text>
+<text x="170" y="270" font-size="20" text-anchor="end" fill="#1f2933">5</text>
+<text x="185" y="270" font-size="20" text-anchor="middle" fill="#1f2933">&#8722;</text>
+<text x="200" y="270" font-size="20" text-anchor="start" fill="#3b5bdb" font-weight="bold">(&#8722;2)</text>
+<text x="290" y="270" font-size="20" text-anchor="middle" fill="#1f2933">=</text>
+<text x="320" y="270" font-size="20" text-anchor="start" fill="#3b5bdb" font-weight="bold">7</text>
+<line x1="140" y1="198" x2="395" y2="198" stroke="#1f2933" stroke-dasharray="5 4"/>
+<text x="300" y="322" font-size="14" text-anchor="middle" fill="#1f2933">wat je aftrekt daalt met 1, de uitkomst stijgt met 1</text>
+
+</svg>

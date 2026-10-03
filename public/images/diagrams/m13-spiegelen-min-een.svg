@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 270" font-family="sans-serif" role="img" aria-label="Vermenigvuldigen met min 1 spiegelt een getal in nul: 3 gaat naar min 3 en min 2 gaat naar 2">
+<title>Vermenigvuldigen met min 1 spiegelt een getal in nul: 3 gaat naar min 3 en min 2 gaat naar 2</title>
+<rect x="0" y="0" width="700" height="270" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b5bdb"/></marker>
+<marker id="ahh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9c6b30"/></marker>
+<marker id="ahk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f2933"/></marker>
+</defs>
+<line x1="35" y1="130" x2="665" y2="130" stroke="#1f2933" stroke-width="2" marker-end="url(#ahk)" marker-start="url(#ahk)"/>
+<line x1="50.0" y1="124" x2="50.0" y2="136" stroke="#1f2933" stroke-width="1.4"/>
+<text x="50.0" y="156" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;5</text>
+<line x1="110.0" y1="124" x2="110.0" y2="136" stroke="#1f2933" stroke-width="1.4"/>
+<text x="110.0" y="156" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;4</text>
+<line x1="170.0" y1="124" x2="170.0" y2="136" stroke="#1f2933" stroke-width="1.4"/>
+<text x="170.0" y="156" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;3</text>
+<line x1="230.0" y1="124" x2="230.0" y2="136" stroke="#1f2933" stroke-width="1.4"/>
+<text x="230.0" y="156" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;2</text>
+<line x1="290.0" y1="124" x2="290.0" y2="136" stroke="#1f2933" stroke-width="1.4"/>
+<text x="290.0" y="156" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;1</text>
+<line x1="350.0" y1="121" x2="350.0" y2="139" stroke="#1f2933" stroke-width="2"/>
+<text x="350.0" y="156" font-size="14" text-anchor="middle" fill="#1f2933" font-weight="bold">0</text>
+<line x1="410.0" y1="124" x2="410.0" y2="136" stroke="#1f2933" stroke-width="1.4"/>
+<text x="410.0" y="156" font-size="14" text-anchor="middle" fill="#1f2933">1</text>
+<line x1="470.0" y1="124" x2="470.0" y2="136" stroke="#1f2933" stroke-width="1.4"/>
+<text x="470.0" y="156" font-size="14" text-anchor="middle" fill="#1f2933">2</text>
+<line x1="530.0" y1="124" x2="530.0" y2="136" stroke="#1f2933" stroke-width="1.4"/>
+<text x="530.0" y="156" font-size="14" text-anchor="middle" fill="#1f2933">3</text>
+<line x1="590.0" y1="124" x2="590.0" y2="136" stroke="#1f2933" stroke-width="1.4"/>
+<text x="590.0" y="156" font-size="14" text-anchor="middle" fill="#1f2933">4</text>
+<line x1="650.0" y1="124" x2="650.0" y2="136" stroke="#1f2933" stroke-width="1.4"/>
+<text x="650.0" y="156" font-size="14" text-anchor="middle" fill="#1f2933">5</text>
+<circle cx="530.0" cy="130" r="7" fill="#3b5bdb"/>
+<circle cx="170.0" cy="130" r="7" fill="#3b5bdb"/>
+<path d="M 530.0 116 Q 350.0 30 170.0 116" fill="none" stroke="#3b5bdb" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="350.0" y="52" font-size="15" text-anchor="middle" fill="#3b5bdb" font-weight="bold">3 × (&#8722;1) = &#8722;3</text>
+<circle cx="230.0" cy="130" r="7" fill="#9c6b30"/>
+<circle cx="470.0" cy="130" r="7" fill="#9c6b30"/>
+<path d="M 230.0 166 Q 350.0 235 470.0 166" fill="none" stroke="#9c6b30" stroke-width="2.2" marker-end="url(#ahh)"/>
+<text x="350.0" y="250" font-size="15" text-anchor="middle" fill="#9c6b30" font-weight="bold">(&#8722;2) × (&#8722;1) = 2</text>
+
+</svg>

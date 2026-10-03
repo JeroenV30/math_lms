@@ -7,62 +7,116 @@
   "status": "available",
   "historical_period": "Oud-China en India",
   "estimated_difficulty": 2,
-  "estimated_minutes": 150,
+  "estimated_minutes": 240,
   "prerequisites": [
     12
   ],
   "topics": [
     "negative-numbers",
-    "number-line"
+    "number-line",
+    "comparing",
+    "powers"
   ],
   "core_question": "Hoe reken je met een tekort, een temperatuur onder nul of een positie links van het nulpunt?",
-  "summary": "De getallenlijn voorbij nul: vergelijken, absolute waarde en rekenen met tekens. Met schuld en bezit als model en de Chinese en Indiase rekenkunde als context.",
+  "summary": "De getallenlijn voorbij nul: ordenen, absolute waarde en rekenen met tekens, met verklaringen in plaats van trucjes. Met de rode en zwarte rekenstaafjes uit China, Brahmagupta's regels voor bezit en schuld, en de lange Europese weerstand tegen 'valse' getallen.",
   "learning_goals": [
-    "Je plaatst positieve en negatieve getallen op de getallenlijn en vergelijkt ze.",
-    "Je onderscheidt een negatief getal, aftrekken en het nemen van een tegengestelde.",
-    "Je berekent absolute waarden en afstanden tussen getallen.",
-    "Je telt getallen met verschillende tekens op en trekt negatieve getallen af.",
-    "Je vermenigvuldigt en deelt getallen met tekens en verklaart de tekenregels.",
-    "Je gebruikt haakjes en de volgorde van bewerkingen correct.",
-    "Je interpreteert negatieve uitkomsten in een concrete situatie."
+    "Je plaatst positieve en negatieve getallen (ook kommagetallen) op de getallenlijn en ordent ze, en je weet waarom $-7 < -3$.",
+    "Je onderscheidt het minteken als bewerking, als teken van een getal en als 'tegengestelde van'.",
+    "Je berekent absolute waarden en de afstand tussen twee getallen als $|a-b|$.",
+    "Je telt getallen met verschillende tekens op en trekt negatieve getallen af, en je verklaart $a-(-b)=a+b$ met de getallenlijn, een patroon en een fichesmodel.",
+    "Je vermenigvuldigt en deelt getallen met tekens en verklaart waarom min maal min plus is, via een patroon en de distributieve eigenschap.",
+    "Je past de rekenvolgorde toe, werkt een minteken vóór haakjes correct weg en onderscheidt $(-3)^2$ van $-3^2$.",
+    "Je kiest in een situatie (saldo, hoogte, temperatuur, jaartal) een nulpunt en richting en interpreteert een negatieve uitkomst, ook bij een jaartelling zonder jaar 0.",
+    "Je kunt vertellen hoe China, India en Europa met negatieve getallen omgingen, van de rode en zwarte rekenstaafjes tot Descartes' 'valse wortels'."
   ],
   "glossary": [
     {
       "term": "Negatief getal",
-      "definition": "Een getal kleiner dan nul, links van nul op de getallenlijn."
+      "definition": "Een getal kleiner dan nul, links van nul op de getallenlijn, zoals $-3$ of $-0{,}5$."
+    },
+    {
+      "term": "Gehele getallen",
+      "definition": "De getallen $\\dots,-2,-1,0,1,2,\\dots$; aangeduid met $\\mathbb{Z}$."
     },
     {
       "term": "Tegengestelde",
-      "definition": "Van a is -a de tegengestelde: samen tellen ze op tot nul."
+      "definition": "Van $a$ is $-a$ de tegengestelde: even ver van nul, aan de andere kant. Samen tellen ze op tot nul."
     },
     {
       "term": "Absolute waarde",
-      "definition": "De afstand tot nul, genoteerd als $|a|$; deze is nooit negatief."
+      "definition": "De afstand van een getal tot nul, genoteerd als $|a|$; deze is nooit negatief."
+    },
+    {
+      "term": "Afstand",
+      "definition": "Hoe ver twee getallen op de getallenlijn uit elkaar liggen: $|a-b|$."
+    },
+    {
+      "term": "Nulpaar",
+      "definition": "Een plusfiche en een minfiche samen, met waarde $1+(-1)=0$; je mag nulparen toevoegen of weghalen zonder de waarde te veranderen."
     },
     {
       "term": "Saldo",
-      "definition": "Het verschil tussen wat beschikbaar is en wat verschuldigd is, volgens een gekozen tekenafspraak."
+      "definition": "Het verschil tussen wat beschikbaar is en wat verschuldigd is, volgens een gekozen tekenafspraak; een negatief saldo is een tekort."
     },
     {
       "term": "Tekenregel",
-      "definition": "Een regel voor het positieve of negatieve teken van een product of quotiënt."
+      "definition": "Bij vermenigvuldigen en delen geven gelijke tekens plus en verschillende tekens min."
+    },
+    {
+      "term": "Grondtal",
+      "definition": "Het getal dat bij een macht herhaald wordt vermenigvuldigd; in $(-3)^2$ is dat $-3$, in $-3^2$ is dat $3$."
+    },
+    {
+      "term": "NAP",
+      "definition": "Normaal Amsterdams Peil: het referentievlak waartegen in Nederland hoogtes worden gemeten; lager gelegen punten hebben een negatieve hoogte."
+    },
+    {
+      "term": "Zheng fu",
+      "definition": "Chinees voor 'positief en negatief'; de regel uit de Negen Hoofdstukken voor optellen en aftrekken met tekens."
+    },
+    {
+      "term": "Kwadrant",
+      "definition": "Een van de vier delen waarin twee loodrechte getallenlijnen (een assenstelsel) het vlak verdelen."
     }
   ],
   "formulas": [
     {
-      "name": "Aftrekken",
-      "latex": "a-b=a+(-b)",
-      "usage": "Trek af door de tegengestelde op te tellen."
+      "name": "Tegengestelde",
+      "latex": "a+(-a)=0",
+      "usage": "Een getal en zijn tegengestelde heffen elkaar op.",
+      "origin": "Het nulpaar uit het fichesmodel; Liu Hui's rode en zwarte staafjes."
     },
     {
       "name": "Tegengestelde van een tegengestelde",
       "latex": "-(-a)=a",
-      "usage": "Tweemaal de richting omkeren herstelt het oorspronkelijke getal."
+      "usage": "Tweemaal spiegelen in nul herstelt het oorspronkelijke getal."
+    },
+    {
+      "name": "Aftrekken",
+      "latex": "a-b=a+(-b)",
+      "usage": "Trek af door de tegengestelde op te tellen; in het bijzonder $a-(-b)=a+b$.",
+      "origin": "Al in de zheng fu-regel van de Negen Hoofdstukken (China, ca. 200 v.Chr.–50 n.Chr.)."
     },
     {
       "name": "Afstand",
-      "latex": "\\text{afstand tussen }a\\text{ en }b=|a-b|",
-      "usage": "Een afstand is niet-negatief."
+      "latex": "\\text{afstand}(a,b)=|a-b|",
+      "usage": "De afstand tussen twee getallen op de getallenlijn; nooit negatief."
+    },
+    {
+      "name": "Tekenregel",
+      "latex": "(-a)\\times(-b)=a\\times b,\\quad (-a)\\times b=-(a\\times b)",
+      "usage": "Gelijke tekens geven plus, verschillende tekens min; ook bij delen.",
+      "origin": "Brahmagupta (628): 'het product van twee schulden is een bezit'. Afgeleid uit de distributieve eigenschap."
+    },
+    {
+      "name": "Minteken voor haakjes",
+      "latex": "-(a+b)=-a-b",
+      "usage": "Elke term binnen de haakjes krijgt zijn tegengestelde."
+    },
+    {
+      "name": "Negatief grondtal",
+      "latex": "(-a)^2=a^2,\\qquad -a^2=-(a^2)",
+      "usage": "Een macht hoort alleen bij wat er direct onder staat."
     }
   ],
   "lessons": [
@@ -92,13 +146,13 @@
     },
     {
       "slug": "rekenvolgorde",
-      "title": "Haakjes en rekenvolgorde",
+      "title": "Haakjes, rekenvolgorde en machten",
       "kind": "theory",
       "file": "05-rekenvolgorde.md"
     },
     {
       "slug": "historisch-intermezzo",
-      "title": "Bezittingen en schulden als rekenmodel",
+      "title": "Bezit, schuld en valse wortels",
       "kind": "history",
       "file": "06-historisch-intermezzo.md"
     },
@@ -118,9 +172,13 @@
   "timeline": [
     "chinese-rekenstaafjes",
     "negen-hoofdstukken",
-    "brahmagupta"
+    "brahmagupta",
+    "fibonacci-liber-abaci",
+    "descartes-geometrie"
   ],
   "mathematicians": [
-    "brahmagupta"
+    "brahmagupta",
+    "fibonacci",
+    "descartes"
   ]
 }

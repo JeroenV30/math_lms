@@ -2,539 +2,1259 @@
   "exercises": [
     {
       "id": "13-001",
-      "question": "Je hebt € 12 en een schuld van € 20. Noteer je saldo met bezit positief.",
-      "answer": -8,
-      "solution": [
-        "$12-20=-8$."
-      ],
-      "hints": [
-        "Het tekort krijgt een minteken."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
-      "topics": [
-        "negative-numbers"
+      "question": "Op je rekening staat € 12. Je betaalt € 20 met je pinpas (je mag rood staan). Noteer je nieuwe saldo als getal, met bezit positief.",
+      "answer": -8,
+      "hints": [
+        "Het saldo is wat je had min wat je betaalt.",
+        "Je betaalt meer dan je hebt: het tekort krijgt een minteken."
       ],
-      "unit": "€"
+      "solution": [
+        "Saldo: $12 - 20$.",
+        "Van 12 ga je 20 stappen naar links: 12 stappen tot 0, nog 8 verder.",
+        "$12 - 20 = -8$: een tekort van € 8."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "8 is de grootte van het tekort, maar zonder teken lijkt het alsof je € 8 bezit. Je staat rood, dus het saldo is negatief: $-8$."
+        },
+        {
+          "answer": 32,
+          "message": "Je hebt 12 en 20 opgeteld. Een betaling gaat van je saldo af: $12 - 20$."
+        }
+      ],
+      "unit": "€",
+      "topics": [
+        "negative-numbers",
+        "money"
+      ]
     },
     {
       "id": "13-002",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
       "question": "De temperatuur is 3 °C en daalt 7 graden. Wat is de nieuwe temperatuur?",
       "answer": -4,
-      "solution": [
-        "$3-7=-4$."
-      ],
       "hints": [
-        "Ga zeven stappen naar links."
+        "Een daling is een stap naar beneden (naar links) op de getallenlijn.",
+        "Na 3 graden dalen ben je bij 0 °C. Hoeveel graden moet je dan nog dalen?"
       ],
-      "type": "numeric",
-      "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "negative-numbers"
-      ],
-      "unit": "°C"
-    },
-    {
-      "id": "13-003",
-      "question": "Welk getal is groter: -2 of -7?",
-      "answer": -2,
       "solution": [
-        "-2 ligt rechts van -7."
+        "Bereken $3 - 7$.",
+        "Drie graden dalen brengt je op 0 °C; er blijven nog 4 graden over.",
+        "$3 - 7 = -4$, dus $-4$ °C."
       ],
-      "hints": [
-        "Groter is verder naar rechts."
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Je hebt $7 - 3$ gerekend. De temperatuur begint bij 3 en daalt 7 graden: je passeert nul en komt onder het vriespunt uit."
+        },
+        {
+          "answer": -10,
+          "message": "Je bent 7 graden gedaald vanaf $-3$ in plaats van vanaf $+3$. De temperatuur begint bóven nul."
+        }
       ],
-      "type": "numeric",
-      "mode": "guided",
-      "difficulty": 1,
+      "unit": "°C",
       "topics": [
         "negative-numbers"
       ]
     },
     {
-      "id": "13-004",
-      "question": "Wat is de tegengestelde van -9?",
-      "answer": 9,
-      "solution": [
-        "$-9+9=0$."
-      ],
-      "hints": [
-        "De tegengestelde ligt even ver aan de andere kant van nul."
-      ],
+      "id": "13-003",
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Welk getal is groter: $-2$ of $-7$?",
+      "answer": -2,
+      "hints": [
+        "Groter betekent: verder naar rechts op de getallenlijn.",
+        "Denk aan temperaturen: is het bij $-2$ °C of bij $-7$ °C warmer?"
+      ],
+      "solution": [
+        "Op de getallenlijn ligt $-2$ rechts van $-7$.",
+        "Dus $-2 > -7$. Het grootste getal is $-2$."
+      ],
+      "feedback": [
+        {
+          "answer": -7,
+          "message": "Bij negatieve getallen geldt: hoe verder van nul, hoe kleiner. $-7$ ligt verder links dan $-2$, dus $-7 < -2$. Wie € 7 schuld heeft, is armer dan wie € 2 schuld heeft."
+        }
+      ],
+      "topics": [
+        "negative-numbers",
+        "comparing"
+      ]
+    },
+    {
+      "id": "13-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat is de tegengestelde van $-9$?",
+      "answer": 9,
+      "hints": [
+        "De tegengestelde ligt even ver van nul, aan de andere kant.",
+        "Een getal plus zijn tegengestelde is 0."
+      ],
+      "solution": [
+        "$-9$ ligt negen eenheden links van nul.",
+        "Negen eenheden rechts van nul ligt 9.",
+        "Controle: $-9 + 9 = 0$."
+      ],
+      "feedback": [
+        {
+          "answer": -9,
+          "message": "Dat is het getal zelf. De tegengestelde ligt aan de andere kant van nul: $-(-9) = 9$."
+        }
+      ],
       "topics": [
         "negative-numbers"
       ]
     },
     {
       "id": "13-005",
-      "question": "Bereken $|-12|$.",
-      "answer": 12,
-      "solution": [
-        "De afstand van -12 tot nul is 12."
-      ],
-      "hints": [
-        "Een afstand is niet negatief."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $|-12|$.",
+      "answer": 12,
+      "hints": [
+        "De absolute waarde is de afstand tot nul.",
+        "Een afstand is nooit negatief."
+      ],
+      "solution": [
+        "$-12$ ligt twaalf eenheden van nul.",
+        "Dus $|-12| = 12$."
+      ],
+      "feedback": [
+        {
+          "answer": -12,
+          "message": "De absolute waarde is een afstand, en een afstand is nooit negatief. $|-12| = 12$."
+        }
+      ],
       "topics": [
         "negative-numbers"
       ]
     },
     {
       "id": "13-006",
-      "question": "Wat is de afstand tussen -3 en 5?",
-      "answer": 8,
-      "solution": [
-        "$|5-(-3)|=8$."
-      ],
-      "hints": [
-        "Je gaat drie stappen naar nul en vijf verder."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Wat is de afstand tussen $-3$ en $5$ op de getallenlijn?",
+      "answer": 8,
+      "hints": [
+        "Tel eerst de stappen van $-3$ naar 0, dan van 0 naar 5.",
+        "Of bereken $|5 - (-3)|$."
+      ],
+      "solution": [
+        "Van $-3$ naar 0: 3 stappen.",
+        "Van 0 naar 5: 5 stappen.",
+        "Samen $3 + 5 = 8$; ook $|5 - (-3)| = |8| = 8$."
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je hebt $5 - 3$ gerekend. Maar $-3$ ligt aan de andere kant van nul: je moet eerst 3 stappen naar nul en dan nog 5. Afstand $= 5 - (-3) = 8$."
+        }
+      ],
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "number-line"
       ]
     },
     {
       "id": "13-007",
-      "question": "Wat is de afstand tussen -8 en -2?",
-      "answer": 6,
-      "solution": [
-        "$|-2-(-8)|=6$."
-      ],
-      "hints": [
-        "Beide posities liggen links van nul."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
+      "question": "Wat is de afstand tussen $-8$ en $-2$ op de getallenlijn?",
+      "answer": 6,
+      "hints": [
+        "Beide getallen liggen links van nul; nul ligt er niet tussen.",
+        "Bereken $-2 - (-8)$, het grootste min het kleinste."
+      ],
+      "solution": [
+        "Van $-8$ naar $-2$ tel je 6 stappen naar rechts.",
+        "Berekening: $-2 - (-8) = -2 + 8 = 6$."
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Je hebt de afstanden tot nul opgeteld ($8 + 2$). Dat klopt alleen als nul tussen de twee getallen ligt. Hier liggen ze aan dezelfde kant: $8 - 2 = 6$."
+        },
+        {
+          "answer": -6,
+          "message": "Een afstand is nooit negatief. Neem het grootste getal min het kleinste: $-2 - (-8) = 6$."
+        }
+      ],
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "number-line"
       ]
     },
     {
       "id": "13-008",
-      "question": "Bereken $-3+5$.",
-      "answer": 2,
-      "solution": [
-        "Vijf naar rechts vanaf -3 geeft 2."
-      ],
-      "hints": [
-        "De positieve bijdrage is groter."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $-3 + 5$.",
+      "answer": 2,
+      "hints": [
+        "Begin bij $-3$ en zet 5 stappen naar rechts.",
+        "Na drie stappen ben je bij 0."
+      ],
+      "solution": [
+        "Vanaf $-3$: drie stappen naar rechts brengt je op 0.",
+        "Nog twee stappen: je komt uit op 2.",
+        "Met de regel: verschillende tekens, $5 - 3 = 2$, teken van $5$: $+2$."
+      ],
+      "feedback": [
+        {
+          "answer": -8,
+          "message": "Je bent naar links gegaan. Een positief getal optellen is een stap naar rechts."
+        },
+        {
+          "answer": -2,
+          "message": "Je hebt het teken van $-3$ genomen. Kijk welk getal het verst van nul ligt: dat is 5, dus de uitkomst is positief."
+        }
+      ],
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "addition"
       ]
     },
     {
       "id": "13-009",
-      "question": "Bereken $-3+(-5)$.",
-      "answer": -8,
-      "solution": [
-        "Twee negatieve bijdragen: $-(3+5)=-8$."
-      ],
-      "hints": [
-        "Ga nog vijf naar links."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $-3 + (-5)$.",
+      "answer": -8,
+      "hints": [
+        "Een negatief getal optellen is een stap naar links.",
+        "Gelijke tekens: tel de afstanden op en houd het teken."
+      ],
+      "solution": [
+        "Begin bij $-3$ en ga 5 stappen naar links.",
+        "Gelijke tekens: $3 + 5 = 8$, teken min.",
+        "$-3 + (-5) = -8$."
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je bent naar rechts gegaan. $-5$ optellen betekent vijf stappen naar links."
+        },
+        {
+          "answer": 8,
+          "message": "De grootte klopt, maar beide getallen zijn negatief, dus de som is ook negatief: $-8$."
+        }
+      ],
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "addition"
       ]
     },
     {
       "id": "13-010",
-      "question": "Bereken $7+(-11)$.",
-      "answer": -4,
-      "solution": [
-        "Elf negatief en zeven positief laten vier negatief over."
-      ],
-      "hints": [
-        "Vergelijk de absolute waarden."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $7 + (-11)$.",
+      "answer": -4,
+      "hints": [
+        "Denk aan fiches: 7 plusfiches en 11 minfiches. Hoeveel nulparen kun je maken?",
+        "Vergelijk de absolute waarden 7 en 11."
+      ],
+      "solution": [
+        "Zeven plusfiches vormen met zeven minfiches zeven nulparen.",
+        "Er blijven $11 - 7 = 4$ minfiches over.",
+        "$7 + (-11) = -4$."
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "De grootte klopt, maar er waren meer minfiches dan plusfiches. Het teken is dat van $-11$: $-4$."
+        },
+        {
+          "answer": 18,
+          "message": "Je hebt de afstanden opgeteld. Bij verschillende tekens heffen de getallen elkaar gedeeltelijk op: $11 - 7 = 4$, teken min."
+        }
+      ],
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "addition"
       ]
     },
     {
       "id": "13-011",
-      "question": "Bereken $5-8$.",
-      "answer": -3,
-      "solution": [
-        "$5+(-8)=-3$."
-      ],
-      "hints": [
-        "Aftrekken is de tegengestelde optellen."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $5 - 8$.",
+      "answer": -3,
+      "hints": [
+        "Begin bij 5 en ga 8 stappen naar links.",
+        "Aftrekken is de tegengestelde optellen: $5 + (-8)$."
+      ],
+      "solution": [
+        "Vanaf 5: vijf stappen naar links brengt je op 0.",
+        "Nog drie stappen: $-3$.",
+        "Of: $5 + (-8) = -(8 - 5) = -3$."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Je hebt $8 - 5$ gerekend. Bij aftrekken mag je de getallen niet omwisselen: je trekt meer af dan je hebt, dus de uitkomst is negatief."
+        }
+      ],
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "subtraction"
       ]
     },
     {
       "id": "13-012",
-      "question": "Bereken $5-(-8)$.",
-      "answer": 13,
-      "solution": [
-        "$5+8=13$."
-      ],
-      "hints": [
-        "De tegengestelde van -8 is 8."
-      ],
       "type": "numeric",
       "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "negative-numbers"
+      "difficulty": 2,
+      "question": "Bereken $5 - (-8)$.",
+      "answer": 13,
+      "hints": [
+        "Aftrekken is de tegengestelde optellen. Wat is de tegengestelde van $-8$?",
+        "Of: wat moet je bij $-8$ optellen om op 5 te komen?"
+      ],
+      "solution": [
+        "$5 - (-8) = 5 + 8$.",
+        "$5 + 8 = 13$.",
+        "Controle: $-8 + 13 = 5$. Klopt."
       ],
       "feedback": [
         {
           "answer": -3,
-          "message": "Je hebt 8 afgetrokken. Je trekt -8 af, dus telt de tegengestelde +8 op."
+          "message": "Je hebt 8 afgetrokken in plaats van $-8$. Je trekt $-8$ af, dus tel je de tegengestelde $+8$ op: $5 + 8 = 13$."
+        },
+        {
+          "answer": -13,
+          "message": "De grootte klopt, maar het teken niet. Een negatief getal aftrekken maakt de uitkomst groter: $5 - (-8) = 13$."
         }
+      ],
+      "topics": [
+        "negative-numbers",
+        "subtraction"
       ]
     },
     {
       "id": "13-013",
-      "question": "Bereken $-6-(-4)$.",
-      "answer": -2,
-      "solution": [
-        "$-6+4=-2$."
-      ],
-      "hints": [
-        "De schuldpost verwijderen verhoogt het saldo."
-      ],
       "type": "numeric",
-      "mode": "guided",
-      "difficulty": 1,
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Je saldo is $-6$ euro. De bank schrapt een onterechte schuldpost van € 4, die als $-4$ op je afschrift stond. Bereken je nieuwe saldo als $-6 - (-4)$.",
+      "answer": -2,
+      "hints": [
+        "Een schuld wegnemen verhoogt je saldo.",
+        "Herschrijf: $-6 - (-4) = -6 + 4$."
+      ],
+      "solution": [
+        "$-6 - (-4) = -6 + 4$.",
+        "Verschillende tekens: $6 - 4 = 2$, teken van $-6$.",
+        "$-6 + 4 = -2$: je staat nog € 2 rood."
+      ],
+      "feedback": [
+        {
+          "answer": -10,
+          "message": "Je hebt $-4$ erbij geteld in plaats van weggehaald. Een schuldpost schrappen maakt je saldo hóger: $-6 + 4 = -2$."
+        },
+        {
+          "answer": 2,
+          "message": "Je saldo gaat omhoog, maar niet tot boven nul: van $-6$ vier stappen naar rechts is $-2$."
+        }
+      ],
+      "unit": "€",
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "subtraction",
+        "money"
       ]
     },
     {
       "id": "13-014",
-      "question": "Bereken $-9-7$.",
-      "answer": -16,
-      "solution": [
-        "$-9+(-7)=-16$."
-      ],
-      "hints": [
-        "Beide bijdragen zijn negatief."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
+      "question": "Bereken $-9 - 7$.",
+      "answer": -16,
+      "hints": [
+        "Je begint links van nul en gaat nog verder naar links.",
+        "$-9 - 7 = -9 + (-7)$."
+      ],
+      "solution": [
+        "$-9 - 7 = -9 + (-7)$.",
+        "Gelijke tekens: $9 + 7 = 16$, teken min.",
+        "$-16$."
+      ],
+      "feedback": [
+        {
+          "answer": -2,
+          "message": "Je hebt $-9 + 7$ gerekend. Je trekt 7 af: dat is nog zeven stappen naar links."
+        },
+        {
+          "answer": 2,
+          "message": "Je hebt $9 - 7$ gerekend zonder op de tekens te letten. Vanaf $-9$ ga je zeven stappen naar links: $-16$."
+        },
+        {
+          "answer": 16,
+          "message": "De grootte klopt, maar je bent links van nul begonnen en verder naar links gegaan: het antwoord is negatief."
+        }
+      ],
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "subtraction"
       ]
     },
     {
       "id": "13-015",
-      "question": "Bereken $3\\times(-4)$.",
-      "answer": -12,
-      "solution": [
-        "Drie negatieve groepen van vier geven -12."
-      ],
-      "hints": [
-        "Positief maal negatief geeft negatief."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $3 \\times (-4)$.",
+      "answer": -12,
+      "hints": [
+        "Dit zijn drie groepen van $-4$.",
+        "$(-4) + (-4) + (-4)$."
+      ],
+      "solution": [
+        "$3 \\times (-4) = (-4) + (-4) + (-4)$.",
+        "$= -12$."
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Drie keer een schuld van 4 is een schuld van 12. Positief maal negatief is negatief: $-12$."
+        },
+        {
+          "answer": -1,
+          "message": "Je hebt $3 + (-4)$ berekend. Hier wordt vermenigvuldigd: drie groepen van $-4$."
+        }
+      ],
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "multiplication"
       ]
     },
     {
       "id": "13-016",
-      "question": "Bereken $(-3)\\times(-4)$.",
-      "answer": 12,
-      "solution": [
-        "Twee negatieve factoren geven positief.",
-        "$3\\times4=12$."
-      ],
-      "hints": [
-        "Bepaal eerst het teken."
-      ],
       "type": "numeric",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
+      "question": "Bereken $(-3) \\times (-4)$.",
+      "answer": 12,
+      "hints": [
+        "Bepaal eerst het teken: twee negatieve factoren.",
+        "Denk aan $(-3) \\times (4 + (-4)) = 0$."
+      ],
+      "solution": [
+        "Twee negatieve factoren: het product is positief.",
+        "$3 \\times 4 = 12$.",
+        "Controle met de distributieve eigenschap: $(-3)\\times 4 + (-3)\\times(-4) = -12 + 12 = 0 = (-3) \\times 0$."
+      ],
+      "feedback": [
+        {
+          "answer": -12,
+          "message": "Twee negatieve factoren geven een positief product. Als $(-3)\\times(-4)$ gelijk was aan $-12$, zou $(-3)\\times(4 + (-4))$ niet 0 maar $-24$ zijn."
+        }
+      ],
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "multiplication",
+        "distributive"
       ]
     },
     {
       "id": "13-017",
-      "question": "Bereken $(-7)\\times5$.",
-      "answer": -35,
-      "solution": [
-        "Verschillende tekens geven min; $7\\times5=35$."
-      ],
-      "hints": [
-        "Eén factor is negatief."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $(-7) \\times 5$.",
+      "answer": -35,
+      "hints": [
+        "Gebruik de wisseleigenschap: dit is hetzelfde als $5 \\times (-7)$.",
+        "Eén factor is negatief, dus het product is negatief."
+      ],
+      "solution": [
+        "$(-7) \\times 5 = 5 \\times (-7)$: vijf groepen van $-7$.",
+        "$7 \\times 5 = 35$; verschillende tekens geven min.",
+        "$-35$."
+      ],
+      "feedback": [
+        {
+          "answer": 35,
+          "message": "Eén van de factoren is negatief, dus het product is negatief: $-35$."
+        }
+      ],
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "multiplication"
       ]
     },
     {
       "id": "13-018",
-      "question": "Bereken $-12:3$.",
-      "answer": -4,
-      "solution": [
-        "$3\\times(-4)=-12$."
-      ],
-      "hints": [
-        "Zoek de ontbrekende factor."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $-12 : 3$.",
+      "answer": -4,
+      "hints": [
+        "Welk getal maal 3 geeft $-12$?",
+        "Verschillende tekens geven bij delen min."
+      ],
+      "solution": [
+        "Gezocht: het getal dat maal 3 gelijk is aan $-12$.",
+        "$3 \\times (-4) = -12$.",
+        "Dus $-12 : 3 = -4$."
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Controleer: $3 \\times 4 = 12$, niet $-12$. Verschillende tekens geven min: $-4$."
+        }
+      ],
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "division"
       ]
     },
     {
       "id": "13-019",
-      "question": "Bereken $-12:(-3)$.",
-      "answer": 4,
-      "solution": [
-        "$(-3)\\times4=-12$."
-      ],
-      "hints": [
-        "Gelijke tekens bij delen geven plus."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
+      "question": "Bereken $-12 : (-3)$.",
+      "answer": 4,
+      "hints": [
+        "Welk getal maal $-3$ geeft $-12$?",
+        "Gelijke tekens geven bij delen plus."
+      ],
+      "solution": [
+        "Gezocht: het getal dat maal $-3$ gelijk is aan $-12$.",
+        "$(-3) \\times 4 = -12$.",
+        "Dus $-12 : (-3) = 4$."
+      ],
+      "feedback": [
+        {
+          "answer": -4,
+          "message": "Controleer: $(-3) \\times (-4) = 12$, niet $-12$. Twee negatieve getallen delen geeft een positieve uitkomst."
+        }
+      ],
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "division"
       ]
     },
     {
       "id": "13-020",
-      "question": "Bereken $(-2)\\times(-3)\\times(-4)$.",
-      "answer": -24,
-      "solution": [
-        "Drie negatieve factoren geven min.",
-        "$2\\times3\\times4=24$."
-      ],
-      "hints": [
-        "Een oneven aantal mintekens geeft min."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
+      "question": "Bereken $(-2) \\times (-3) \\times (-4)$.",
+      "answer": -24,
+      "hints": [
+        "Tel het aantal negatieve factoren.",
+        "Een oneven aantal negatieve factoren geeft een negatief product."
+      ],
+      "solution": [
+        "Drie negatieve factoren: oneven, dus het product is negatief.",
+        "Grootte: $2 \\times 3 \\times 4 = 24$.",
+        "Antwoord: $-24$. Stap voor stap: $(-2)\\times(-3) = 6$, $6 \\times (-4) = -24$."
+      ],
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Drie negatieve factoren: na twee is het product positief, de derde maakt het weer negatief. Antwoord: $-24$."
+        }
+      ],
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "multiplication"
       ]
     },
     {
       "id": "13-021",
-      "question": "Bereken $0:(-5)$.",
-      "answer": 0,
-      "solution": [
-        "Nul verdeeld over een niet-nuldeler blijft nul."
-      ],
-      "hints": [
-        "Dit is niet delen door nul."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
+      "question": "Bereken $0 : (-5)$.",
+      "answer": 0,
+      "hints": [
+        "Welk getal maal $-5$ geeft 0?",
+        "Dit is niet delen dóór nul."
+      ],
+      "solution": [
+        "Gezocht: het getal dat maal $-5$ gelijk is aan 0.",
+        "$(-5) \\times 0 = 0$.",
+        "Dus $0 : (-5) = 0$."
+      ],
+      "feedback": [
+        {
+          "answer": -5,
+          "message": "Controleer: $(-5) \\times (-5) = 25$, niet 0. Nul delen door een getal dat niet nul is, geeft 0."
+        }
+      ],
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "division",
+        "zero"
       ]
     },
     {
       "id": "13-022",
-      "question": "Bereken $-2+3\\times(-4)$.",
-      "answer": -14,
-      "solution": [
-        "Eerst $3\\times(-4)=-12$.",
-        "Dan $-2-12=-14$."
-      ],
-      "hints": [
-        "Vermenigvuldigen gaat vóór optellen."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 2,
+      "question": "Bereken $-2 + 3 \\times (-4)$.",
+      "answer": -14,
+      "hints": [
+        "Vermenigvuldigen gaat vóór optellen.",
+        "Bereken eerst $3 \\times (-4)$."
+      ],
+      "solution": [
+        "Eerst vermenigvuldigen: $3 \\times (-4) = -12$.",
+        "Dan optellen: $-2 + (-12) = -14$."
+      ],
+      "feedback": [
+        {
+          "answer": -4,
+          "message": "Je hebt van links naar rechts gerekend: $(-2 + 3) \\times (-4)$. Vermenigvuldigen gaat vóór optellen."
+        },
+        {
+          "answer": 10,
+          "message": "Je hebt $3 \\times (-4)$ als $+12$ genomen. Positief maal negatief is negatief: $-12$."
+        }
+      ],
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "multiplication",
+        "addition"
       ]
     },
     {
       "id": "13-023",
-      "question": "Bereken $(-2+3)\\times(-4)$.",
-      "answer": -4,
-      "solution": [
-        "Eerst de haakjes: $-2+3=1$.",
-        "Dan $1\\times(-4)=-4$."
-      ],
-      "hints": [
-        "De haakjes komen eerst."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 2,
+      "question": "Bereken $(-2 + 3) \\times (-4)$.",
+      "answer": -4,
+      "hints": [
+        "Haakjes gaan voor.",
+        "$-2 + 3 = 1$."
+      ],
+      "solution": [
+        "Eerst de haakjes: $-2 + 3 = 1$.",
+        "Dan $1 \\times (-4) = -4$."
+      ],
+      "feedback": [
+        {
+          "answer": -14,
+          "message": "Je hebt de haakjes genegeerd. Wat tussen haakjes staat, reken je eerst uit: $-2 + 3 = 1$."
+        },
+        {
+          "answer": 20,
+          "message": "Je hebt $-2 + 3$ als $-5$ genomen. Begin bij $-2$ en ga 3 naar rechts: 1."
+        }
+      ],
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "multiplication"
       ]
     },
     {
       "id": "13-024",
-      "question": "Bereken $(-3)^2$.",
-      "answer": 9,
-      "solution": [
-        "$(-3)\\times(-3)=9$."
-      ],
-      "hints": [
-        "De hele -3 wordt gekwadrateerd."
-      ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
+      "question": "Bereken $(-3)^2$.",
+      "answer": 9,
+      "hints": [
+        "Het grondtal is het hele getal $-3$.",
+        "$(-3)^2 = (-3) \\times (-3)$."
+      ],
+      "solution": [
+        "$(-3)^2 = (-3) \\times (-3)$.",
+        "Twee negatieve factoren: $+9$."
+      ],
+      "feedback": [
+        {
+          "answer": -9,
+          "message": "Binnen de haakjes staat $-3$; dat hele getal wordt met zichzelf vermenigvuldigd. Min maal min is plus: $9$."
+        },
+        {
+          "answer": -6,
+          "message": "Je hebt $2 \\times (-3)$ berekend. Een kwadraat is het getal maal zichzelf: $(-3)\\times(-3) = 9$."
+        }
+      ],
       "topics": [
-        "negative-numbers"
+        "negative-numbers",
+        "powers"
       ]
     },
     {
       "id": "13-025",
-      "question": "Bereken $-3^2$.",
-      "answer": -9,
-      "solution": [
-        "Eerst $3^2=9$, dan de tegengestelde: -9."
-      ],
-      "hints": [
-        "Het losse minteken hoort niet bij het grondtal."
-      ],
       "type": "numeric",
       "mode": "guided",
-      "difficulty": 1,
-      "topics": [
-        "negative-numbers"
+      "difficulty": 2,
+      "question": "Bereken $-3^2$.",
+      "answer": -9,
+      "hints": [
+        "Zonder haakjes hoort de macht alleen bij 3.",
+        "$-3^2 = -(3^2)$."
+      ],
+      "solution": [
+        "De macht gaat vóór het minteken: eerst $3^2 = 9$.",
+        "Dan de tegengestelde: $-9$."
       ],
       "feedback": [
         {
           "answer": 9,
-          "message": "Zonder haakjes hoort de macht alleen bij 3. Eerst 3², daarna het minteken."
+          "message": "Zonder haakjes hoort de macht alleen bij 3. Eerst $3^2 = 9$, daarna het minteken: $-9$. Wil je $-3$ kwadrateren, schrijf dan $(-3)^2$."
         }
+      ],
+      "topics": [
+        "negative-numbers",
+        "powers"
       ]
     },
     {
       "id": "13-026",
-      "question": "Een saldo is -€ 15. Een schuldpost van -€ 9 wordt verwijderd. Wat is het nieuwe saldo?",
-      "answer": -6,
-      "solution": [
-        "$-15-(-9)=-15+9=-6$."
-      ],
-      "hints": [
-        "Een negatieve post aftrekken is positief toevoegen."
-      ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
-      "topics": [
-        "negative-numbers"
+      "question": "Een saldo is $-15$ euro. Een schuldpost van € 9 (op het afschrift $-9$) blijkt onterecht en wordt verwijderd. Wat is het nieuwe saldo?",
+      "answer": -6,
+      "hints": [
+        "Een negatieve post weghalen is hetzelfde als 9 optellen.",
+        "Bereken $-15 - (-9)$."
       ],
-      "unit": "€"
+      "solution": [
+        "Nieuw saldo: $-15 - (-9) = -15 + 9$.",
+        "Verschillende tekens: $15 - 9 = 6$, teken van $-15$.",
+        "$-6$ euro: nog € 6 rood."
+      ],
+      "feedback": [
+        {
+          "answer": -24,
+          "message": "Je hebt de schuldpost nog een keer afgeschreven. Een schuld verwijderen verhoogt het saldo: $-15 + 9 = -6$."
+        },
+        {
+          "answer": 6,
+          "message": "Het saldo stijgt met 9, maar komt niet boven nul: van $-15$ naar $-6$."
+        }
+      ],
+      "unit": "€",
+      "topics": [
+        "negative-numbers",
+        "money",
+        "subtraction"
+      ]
     },
     {
       "id": "13-027",
-      "question": "Een saldo begint bij € 15. Je neemt € 28 op en stort € 9. Wat is het eindsaldo?",
-      "answer": -4,
-      "solution": [
-        "$15-28+9=-4$."
-      ],
-      "hints": [
-        "Schrijf elke verandering met haar teken."
-      ],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 1,
-      "topics": [
-        "negative-numbers"
+      "question": "Een saldo begint bij € 15. Je neemt € 28 op en stort daarna € 9. Wat is het eindsaldo?",
+      "answer": -4,
+      "hints": [
+        "Schrijf elke verandering met haar teken: opname negatief, storting positief.",
+        "$15 - 28 + 9$."
       ],
-      "unit": "€"
+      "solution": [
+        "$15 - 28 = -13$.",
+        "$-13 + 9 = -4$.",
+        "Eindsaldo: $-4$ euro, een tekort van € 4."
+      ],
+      "feedback": [
+        {
+          "answer": 52,
+          "message": "Je hebt alle bedragen opgeteld. Een opname gaat van je saldo af: $15 - 28 + 9$."
+        },
+        {
+          "answer": -22,
+          "message": "Je hebt de storting ook afgetrokken. Een storting is positief: $-13 + 9 = -4$."
+        },
+        {
+          "answer": 4,
+          "message": "De grootte klopt, maar je staat rood: het saldo is $-4$."
+        }
+      ],
+      "unit": "€",
+      "topics": [
+        "negative-numbers",
+        "money"
+      ]
     },
     {
       "id": "13-028",
-      "question": "Een temperatuur stijgt van -5 °C naar 3 °C. Hoeveel graden stijgt ze?",
-      "answer": 8,
-      "solution": [
-        "$3-(-5)=8$."
-      ],
-      "hints": [
-        "De stijging is de eindtemperatuur min de begintemperatuur."
-      ],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 1,
-      "topics": [
-        "negative-numbers"
+      "question": "Een polder ligt op $-6$ m NAP, de kruin van de dijk op $+5$ m NAP. Hoeveel meter ligt de dijkkruin hoger dan de polder?",
+      "answer": 11,
+      "hints": [
+        "Hoogteverschil = hoog min laag.",
+        "$5 - (-6)$."
       ],
-      "unit": "graden"
+      "solution": [
+        "Hoogteverschil: $5 - (-6) = 5 + 6$.",
+        "$= 11$ m."
+      ],
+      "feedback": [
+        {
+          "answer": -1,
+          "message": "Je hebt $5 - 6$ gerekend. De polder ligt onder NAP, op $-6$: $5 - (-6) = 11$. Een hoogteverschil is bovendien nooit negatief."
+        },
+        {
+          "answer": 1,
+          "message": "Je hebt $6 - 5$ gerekend. Van $-6$ naar 0 is 6 meter, van 0 naar 5 nog 5 meter: samen 11."
+        }
+      ],
+      "unit": "m",
+      "topics": [
+        "negative-numbers",
+        "number-line"
+      ]
     },
     {
       "id": "13-029",
-      "question": "Bereken $18:(-3)-(-4)$.",
-      "answer": -2,
-      "solution": [
-        "$18:(-3)=-6$.",
-        "$-6+4=-2$."
-      ],
-      "hints": [
-        "Eerst delen, daarna aftrekken."
-      ],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 2,
+      "question": "Bereken $18 : (-3) - (-4)$.",
+      "answer": -2,
+      "hints": [
+        "Eerst delen, daarna aftrekken.",
+        "Een negatief getal aftrekken is de tegengestelde optellen."
+      ],
+      "solution": [
+        "$18 : (-3) = -6$.",
+        "$-6 - (-4) = -6 + 4 = -2$."
+      ],
+      "feedback": [
+        {
+          "answer": -10,
+          "message": "Je hebt $-6 - 4$ gerekend. Er wordt $-4$ afgetrokken, dus je telt 4 op: $-6 + 4 = -2$."
+        },
+        {
+          "answer": 10,
+          "message": "Je hebt $18 : (-3)$ als $+6$ genomen. Verschillende tekens geven min: $-6$."
+        }
+      ],
+      "topics": [
+        "negative-numbers",
+        "division",
+        "subtraction"
+      ]
+    },
+    {
+      "id": "13-030",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een temperatuur begint op $-3$ °C, daalt 4 graden en stijgt daarna tot 6 °C. Hoeveel graden is de laatste stijging?",
+      "answer": 13,
+      "hints": [
+        "Bereken eerst de temperatuur na de daling.",
+        "De stijging is eindtemperatuur min tussentemperatuur."
+      ],
+      "solution": [
+        "Na de daling: $-3 - 4 = -7$ °C.",
+        "Stijging: $6 - (-7) = 13$ graden.",
+        "Controle: $-3 - 4 + 13 = 6$."
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je bent uitgegaan van $+1$ °C na de daling ($-3 + 4$). De temperatuur daalt: $-3 - 4 = -7$ °C, en dan $6 - (-7) = 13$."
+        },
+        {
+          "answer": 9,
+          "message": "Je hebt de stijging vanaf $-3$ berekend en de daling vergeten. Na de daling is het $-7$ °C."
+        },
+        {
+          "answer": -1,
+          "message": "Je hebt $6 - 7$ gerekend: het minteken van $-7$ is vergeten. $6 - (-7) = 13$."
+        }
+      ],
+      "unit": "graden",
       "topics": [
         "negative-numbers"
       ]
     },
     {
-      "id": "13-030",
-      "question": "Een temperatuur begint op -3 °C, daalt 4 graden en stijgt daarna tot 6 °C. Hoeveel graden is de laatste stijging?",
-      "answer": 13,
-      "solution": [
-        "Na de daling is de temperatuur -7 °C.",
-        "$6-(-7)=13$ graden.",
-        "Controle: $-3-4+13=6$."
-      ],
-      "hints": [
-        "Bereken de tussenwaarde.",
-        "Het verschil van -7 naar 6 passeert nul."
-      ],
+      "id": "13-031",
       "type": "numeric",
-      "mode": "challenge",
-      "difficulty": 3,
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een duiker zwemt op 18 meter onder het wateroppervlak (hoogte $-18$ m). Hij stijgt 7 meter. Op welke hoogte zwemt hij nu?",
+      "answer": -11,
+      "hints": [
+        "Stijgen is een stap naar boven: tel 7 op.",
+        "Bereken $-18 + 7$. Verschillende tekens: kijk welk getal het verst van nul ligt."
+      ],
+      "solution": [
+        "Nieuwe hoogte: $-18 + 7$.",
+        "De getallen hebben verschillende tekens: $18 - 7 = 11$, en het teken is dat van $-18$.",
+        "$-18 + 7 = -11$: de duiker zit op 11 m onder water."
+      ],
+      "feedback": [
+        {
+          "answer": -25,
+          "message": "Je bent 7 meter dieper gegaan. De duiker stijgt, dus hij komt dichter bij het wateroppervlak: $-18 + 7$."
+        },
+        {
+          "answer": 11,
+          "message": "11 meter is de diepte, maar de hoogte ten opzichte van het wateroppervlak is negatief: $-11$ m."
+        }
+      ],
+      "unit": "m",
       "topics": [
         "negative-numbers"
+      ]
+    },
+    {
+      "id": "13-032",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welk getal ligt op de getallenlijn precies in het midden tussen $-9$ en $3$?",
+      "answer": -3,
+      "hints": [
+        "Bereken eerst de afstand tussen $-9$ en $3$.",
+        "Ga vanaf $-9$ de helft van die afstand naar rechts."
       ],
-      "unit": "graden"
+      "solution": [
+        "Afstand: $3 - (-9) = 12$.",
+        "De helft is 6.",
+        "Vanaf $-9$ zes stappen naar rechts: $-9 + 6 = -3$.",
+        "Controle: van $-3$ naar $3$ is ook 6. Ook $(-9 + 3) : 2 = -6 : 2 = -3$."
+      ],
+      "feedback": [
+        {
+          "answer": -6,
+          "message": "$-6$ is de som $-9 + 3$. Het midden is het gemiddelde: deel die som nog door 2."
+        },
+        {
+          "answer": 6,
+          "message": "6 is de helft van de afstand, niet de positie van het midden. Ga vanaf $-9$ zes stappen naar rechts."
+        },
+        {
+          "answer": 3,
+          "message": "Het midden tussen $-9$ en $3$ ligt niet bij 3 zelf. Bereken de afstand (12), neem de helft en ga vanaf $-9$ naar rechts."
+        }
+      ],
+      "topics": [
+        "negative-numbers",
+        "number-line"
+      ]
+    },
+    {
+      "id": "13-033",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $-3 - 5$.",
+      "answer": -8,
+      "hints": [
+        "Begin bij $-3$. Aftrekken van 5 is vijf stappen naar links.",
+        "Denk aan geld: je staat € 3 rood en betaalt € 5."
+      ],
+      "solution": [
+        "Herschrijf: $-3 - 5 = -3 + (-5)$.",
+        "Gelijke tekens: $3 + 5 = 8$, teken min.",
+        "$-3 - 5 = -8$."
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je hebt $5 - 3$ gerekend. Maar je begint links van nul en gaat nog verder naar links; je kunt nooit rechts van nul uitkomen."
+        },
+        {
+          "answer": -2,
+          "message": "Je hebt $3 - 5$ gerekend, of het minteken van $-3$ voor het antwoord gezet. Begin op $-3$ en ga vijf stappen naar links: je komt op $-8$."
+        },
+        {
+          "answer": 8,
+          "message": "Je hebt 'min min wordt plus' toegepast. Maar hier wordt geen negatief getal afgetrokken: je trekt 5 af van $-3$. Antwoord: $-8$."
+        }
+      ],
+      "topics": [
+        "negative-numbers",
+        "subtraction"
+      ]
+    },
+    {
+      "id": "13-034",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $7 - (-4) - 2$.",
+      "answer": 9,
+      "hints": [
+        "Werk van links naar rechts.",
+        "$7 - (-4)$ is $7 + 4$."
+      ],
+      "solution": [
+        "$7 - (-4) = 7 + 4 = 11$.",
+        "$11 - 2 = 9$."
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Je hebt $7 - 4 - 2$ gerekend: het minteken van $-4$ is vergeten. Aftrekken van $-4$ is optellen van 4: $11 - 2 = 9$."
+        },
+        {
+          "answer": 13,
+          "message": "Je hebt ook $-2$ als $+2$ behandeld. Alleen bij $-(-4)$ wordt min min plus; daarna trek je gewoon 2 af: $11 - 2 = 9$."
+        }
+      ],
+      "topics": [
+        "negative-numbers",
+        "subtraction"
+      ]
+    },
+    {
+      "id": "13-035",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet het patroon voort. $(-4) \\times 2 = -8$, $(-4) \\times 1 = -4$, $(-4) \\times 0 = 0$. Wat zijn $(-4) \\times (-1)$ en $(-4) \\times (-2)$?",
+      "parts": [
+        {
+          "label": "$(-4) \\times (-1)$",
+          "answer": 4,
+          "type": "numeric"
+        },
+        {
+          "label": "$(-4) \\times (-2)$",
+          "answer": 8,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Met hoeveel verandert de uitkomst bij elke stap?",
+        "Van $-8$ naar $-4$ naar $0$: telkens 4 erbij."
+      ],
+      "solution": [
+        "Telkens als de tweede factor met 1 daalt, stijgt het product met 4.",
+        "Na $0$ volgt dus $0 + 4 = 4$: $(-4) \\times (-1) = 4$.",
+        "Daarna $4 + 4 = 8$: $(-4) \\times (-2) = 8$."
+      ],
+      "topics": [
+        "negative-numbers",
+        "multiplication",
+        "patterns"
+      ]
+    },
+    {
+      "id": "13-036",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $(-6) \\times 17 + (-6) \\times (-7)$. Tip: gebruik de distributieve eigenschap.",
+      "answer": -60,
+      "hints": [
+        "Beide termen hebben de factor $-6$.",
+        "$(-6) \\times (17 + (-7))$."
+      ],
+      "solution": [
+        "Gemeenschappelijke factor: $(-6) \\times \\big(17 + (-7)\\big)$.",
+        "$17 + (-7) = 10$.",
+        "$(-6) \\times 10 = -60$.",
+        "Controle: $-102 + 42 = -60$."
+      ],
+      "feedback": [
+        {
+          "answer": -144,
+          "message": "Je hebt $(-6) \\times (-7) = -42$ genomen. Twee negatieve factoren geven $+42$: $-102 + 42 = -60$."
+        },
+        {
+          "answer": 60,
+          "message": "De grootte klopt, maar het teken niet: $(-6) \\times 10 = -60$."
+        }
+      ],
+      "topics": [
+        "negative-numbers",
+        "multiplication",
+        "distributive"
+      ]
+    },
+    {
+      "id": "13-037",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $5 - 3 \\times (-2)^2$.",
+      "answer": -7,
+      "hints": [
+        "Volgorde: haakjes, machten, vermenigvuldigen, aftrekken.",
+        "$(-2)^2 = 4$."
+      ],
+      "solution": [
+        "Macht: $(-2)^2 = 4$.",
+        "Vermenigvuldigen: $3 \\times 4 = 12$.",
+        "Aftrekken: $5 - 12 = -7$."
+      ],
+      "feedback": [
+        {
+          "answer": 17,
+          "message": "Je hebt $(-2)^2 = -4$ genomen. Min maal min is plus: $(-2)^2 = 4$, en dan $5 - 12 = -7$."
+        },
+        {
+          "answer": 8,
+          "message": "Je hebt eerst $5 - 3 = 2$ gerekend. Vermenigvuldigen gaat vóór aftrekken: $5 - 3 \\times 4 = 5 - 12$."
+        }
+      ],
+      "topics": [
+        "negative-numbers",
+        "powers"
+      ]
+    },
+    {
+      "id": "13-038",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Op een Chinees rekenbord staan in een vak 4 rode staafjes (positief 4). Volgens de rekenregel moet je daar zwart 6 (negatief 6) van **aftrekken**. De *zheng fu*-regel zegt: bij verschillende namen tel je de grootten op. Welk getal krijg je, met teken?",
+      "answer": 10,
+      "hints": [
+        "In moderne notatie: $4 - (-6)$.",
+        "Rood en zwart hebben verschillende namen: tel de grootten op."
+      ],
+      "solution": [
+        "In moderne notatie: $4 - (-6)$.",
+        "Verschillende namen: $4 + 6 = 10$, en het resultaat is positief (rood).",
+        "Controle: $4 - (-6) = 4 + 6 = 10$."
+      ],
+      "feedback": [
+        {
+          "answer": -2,
+          "message": "Je hebt $4 + (-6)$ berekend, of $4 - 6$. Er wordt negatief 6 **afgetrokken**: dat is 6 optellen. Antwoord: 10."
+        },
+        {
+          "answer": -10,
+          "message": "De grootte klopt, maar het weghalen van een negatief getal maakt het resultaat groter, niet negatief: 10."
+        }
+      ],
+      "topics": [
+        "negative-numbers",
+        "subtraction"
+      ]
+    },
+    {
+      "id": "13-039",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Iemand wordt geboren op 1 juli van het jaar 20 v.Chr. en sterft op 1 juli van het jaar 30 n.Chr. Hoe oud is deze persoon geworden? Let op: in de jaartelling bestaat geen jaar 0.",
+      "answer": 49,
+      "hints": [
+        "Tel eerst tot 1 juli 1 v.Chr., dan tot 1 juli 1 n.Chr., dan tot 1 juli 30 n.Chr.",
+        "Van 1 v.Chr. naar 1 n.Chr. is maar één jaar."
+      ],
+      "solution": [
+        "Van 1 juli 20 v.Chr. tot 1 juli 1 v.Chr.: $20 - 1 = 19$ jaar.",
+        "Van 1 juli 1 v.Chr. tot 1 juli 1 n.Chr.: 1 jaar.",
+        "Van 1 juli 1 n.Chr. tot 1 juli 30 n.Chr.: $30 - 1 = 29$ jaar.",
+        "Samen $19 + 1 + 29 = 49$ jaar.",
+        "Algemeen: van $a$ v.Chr. tot $b$ n.Chr. is $a + b - 1$ jaar. Wie $30 - (-20) = 50$ rekent, telt een jaar 0 mee dat niet bestaat."
+      ],
+      "feedback": [
+        {
+          "answer": 50,
+          "message": "Je hebt gerekend alsof er een jaar 0 bestaat: $30 - (-20) = 50$. Op 1 v.Chr. volgt direct 1 n.Chr., dus er gaat één jaar af: 49."
+        },
+        {
+          "answer": 10,
+          "message": "Je hebt $30 - 20$ gerekend. Het geboortejaar ligt vóór het begin van de jaartelling; je moet de jaren aan beide kanten optellen."
+        }
+      ],
+      "unit": "jaar",
+      "topics": [
+        "negative-numbers",
+        "number-line",
+        "time"
+      ]
+    },
+    {
+      "id": "13-040",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Je kiest drie **verschillende** getallen uit de verzameling $\\{-6, -2, 0, 3, 5\\}$ en vermenigvuldigt ze met elkaar. Wat is het grootst mogelijke product?",
+      "answer": 60,
+      "hints": [
+        "Een product met 0 is 0. Een product met precies één negatieve factor is negatief.",
+        "Probeer twee negatieve factoren: hun product is positief."
+      ],
+      "solution": [
+        "Een positief product vraagt een even aantal negatieve factoren en geen 0.",
+        "Met nul negatieve factoren: alleen 3 en 5 zijn positief; je hebt er drie nodig, dus dat kan niet zonder 0 of een negatief getal.",
+        "Met twee negatieve factoren: $(-6) \\times (-2) = 12$, maal het grootste positieve getal 5: $12 \\times 5 = 60$.",
+        "Ter vergelijking: $(-6)\\times(-2)\\times 3 = 36$, en elk product met precies één negatieve factor is negatief.",
+        "Het maximum is 60."
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "$3 \\times 5 = 15$, maar je moet drie getallen kiezen. Twee negatieve factoren geven samen een positief product: $(-6)\\times(-2)\\times 5 = 60$."
+        },
+        {
+          "answer": -90,
+          "message": "$(-6) \\times 3 \\times 5 = -90$ is juist het kleinst mogelijke product. Gebruik twee negatieve factoren om een positief product te krijgen."
+        },
+        {
+          "answer": 36,
+          "message": "Je gebruikt twee negatieve factoren, dat is goed. Maar kies als derde factor het grootste positieve getal, 5: $12 \\times 5 = 60$."
+        }
+      ],
+      "topics": [
+        "negative-numbers",
+        "multiplication"
+      ]
+    },
+    {
+      "id": "13-041",
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Het punt $(3; -2)$ wordt gespiegeld in de oorsprong: beide coördinaten worden vervangen door hun tegengestelde. Wat zijn de coördinaten van het beeldpunt?",
+      "answer": "(-3; 2)",
+      "hints": [
+        "De tegengestelde van 3 is $-3$.",
+        "De tegengestelde van $-2$ is 2."
+      ],
+      "solution": [
+        "Eerste coördinaat: $-(3) = -3$.",
+        "Tweede coördinaat: $-(-2) = 2$.",
+        "Beeldpunt: $(-3; 2)$."
+      ],
+      "feedback": [
+        {
+          "answer": "(-3; -2)",
+          "message": "De eerste coördinaat klopt, maar ook de tweede moet van teken wisselen: $-(-2) = 2$."
+        },
+        {
+          "answer": "(3; 2)",
+          "message": "Je hebt alleen de tweede coördinaat omgekeerd; dat is spiegelen in de horizontale as. Bij spiegelen in de oorsprong wisselen beide coördinaten van teken."
+        }
+      ],
+      "topics": [
+        "negative-numbers",
+        "coordinates"
+      ]
     }
   ]
 }

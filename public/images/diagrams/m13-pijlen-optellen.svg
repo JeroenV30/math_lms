@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 270" font-family="sans-serif" role="img" aria-label="Twee getallenlijnen. Boven: vanaf min 3 vijf stappen naar rechts naar 2. Onder: vanaf min 3 vijf stappen naar links naar min 8">
+<title>Twee getallenlijnen. Boven: vanaf min 3 vijf stappen naar rechts naar 2. Onder: vanaf min 3 vijf stappen naar links naar min 8</title>
+<rect x="0" y="0" width="760" height="270" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b5bdb"/></marker>
+<marker id="ahh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9c6b30"/></marker>
+<marker id="ahk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f2933"/></marker>
+</defs>
+<line x1="35" y1="90" x2="665" y2="90" stroke="#1f2933" stroke-width="2" marker-end="url(#ahk)" marker-start="url(#ahk)"/>
+<line x1="50.0" y1="84" x2="50.0" y2="96" stroke="#1f2933" stroke-width="1.4"/>
+<text x="50.0" y="116" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;10</text>
+<line x1="92.9" y1="84" x2="92.9" y2="96" stroke="#1f2933" stroke-width="1.4"/>
+<text x="92.9" y="116" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;9</text>
+<line x1="135.7" y1="84" x2="135.7" y2="96" stroke="#1f2933" stroke-width="1.4"/>
+<text x="135.7" y="116" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;8</text>
+<line x1="178.6" y1="84" x2="178.6" y2="96" stroke="#1f2933" stroke-width="1.4"/>
+<text x="178.6" y="116" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;7</text>
+<line x1="221.4" y1="84" x2="221.4" y2="96" stroke="#1f2933" stroke-width="1.4"/>
+<text x="221.4" y="116" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;6</text>
+<line x1="264.3" y1="84" x2="264.3" y2="96" stroke="#1f2933" stroke-width="1.4"/>
+<text x="264.3" y="116" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;5</text>
+<line x1="307.1" y1="84" x2="307.1" y2="96" stroke="#1f2933" stroke-width="1.4"/>
+<text x="307.1" y="116" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;4</text>
+<line x1="350.0" y1="84" x2="350.0" y2="96" stroke="#1f2933" stroke-width="1.4"/>
+<text x="350.0" y="116" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;3</text>
+<line x1="392.9" y1="84" x2="392.9" y2="96" stroke="#1f2933" stroke-width="1.4"/>
+<text x="392.9" y="116" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;2</text>
+<line x1="435.7" y1="84" x2="435.7" y2="96" stroke="#1f2933" stroke-width="1.4"/>
+<text x="435.7" y="116" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;1</text>
+<line x1="478.6" y1="81" x2="478.6" y2="99" stroke="#1f2933" stroke-width="2"/>
+<text x="478.6" y="116" font-size="14" text-anchor="middle" fill="#1f2933" font-weight="bold">0</text>
+<line x1="521.4" y1="84" x2="521.4" y2="96" stroke="#1f2933" stroke-width="1.4"/>
+<text x="521.4" y="116" font-size="14" text-anchor="middle" fill="#1f2933">1</text>
+<line x1="564.3" y1="84" x2="564.3" y2="96" stroke="#1f2933" stroke-width="1.4"/>
+<text x="564.3" y="116" font-size="14" text-anchor="middle" fill="#1f2933">2</text>
+<line x1="607.1" y1="84" x2="607.1" y2="96" stroke="#1f2933" stroke-width="1.4"/>
+<text x="607.1" y="116" font-size="14" text-anchor="middle" fill="#1f2933">3</text>
+<line x1="650.0" y1="84" x2="650.0" y2="96" stroke="#1f2933" stroke-width="1.4"/>
+<text x="650.0" y="116" font-size="14" text-anchor="middle" fill="#1f2933">4</text>
+<circle cx="350.0" cy="90" r="6" fill="#1f2933"/>
+<path d="M 350.0 78 Q 457.1 20 564.3 78" fill="none" stroke="#3b5bdb" stroke-width="2.5" marker-end="url(#ah)"/>
+<text x="457.1428571428571" y="32" font-size="16" text-anchor="middle" fill="#3b5bdb" font-weight="bold">+5</text>
+<text x="560" y="30" font-size="16" text-anchor="start" fill="#1f2933">&#8722;3 + 5 = 2</text>
+<line x1="35" y1="220" x2="665" y2="220" stroke="#1f2933" stroke-width="2" marker-end="url(#ahk)" marker-start="url(#ahk)"/>
+<line x1="50.0" y1="214" x2="50.0" y2="226" stroke="#1f2933" stroke-width="1.4"/>
+<text x="50.0" y="246" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;10</text>
+<line x1="92.9" y1="214" x2="92.9" y2="226" stroke="#1f2933" stroke-width="1.4"/>
+<text x="92.9" y="246" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;9</text>
+<line x1="135.7" y1="214" x2="135.7" y2="226" stroke="#1f2933" stroke-width="1.4"/>
+<text x="135.7" y="246" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;8</text>
+<line x1="178.6" y1="214" x2="178.6" y2="226" stroke="#1f2933" stroke-width="1.4"/>
+<text x="178.6" y="246" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;7</text>
+<line x1="221.4" y1="214" x2="221.4" y2="226" stroke="#1f2933" stroke-width="1.4"/>
+<text x="221.4" y="246" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;6</text>
+<line x1="264.3" y1="214" x2="264.3" y2="226" stroke="#1f2933" stroke-width="1.4"/>
+<text x="264.3" y="246" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;5</text>
+<line x1="307.1" y1="214" x2="307.1" y2="226" stroke="#1f2933" stroke-width="1.4"/>
+<text x="307.1" y="246" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;4</text>
+<line x1="350.0" y1="214" x2="350.0" y2="226" stroke="#1f2933" stroke-width="1.4"/>
+<text x="350.0" y="246" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;3</text>
+<line x1="392.9" y1="214" x2="392.9" y2="226" stroke="#1f2933" stroke-width="1.4"/>
+<text x="392.9" y="246" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;2</text>
+<line x1="435.7" y1="214" x2="435.7" y2="226" stroke="#1f2933" stroke-width="1.4"/>
+<text x="435.7" y="246" font-size="14" text-anchor="middle" fill="#1f2933">&#8722;1</text>
+<line x1="478.6" y1="211" x2="478.6" y2="229" stroke="#1f2933" stroke-width="2"/>
+<text x="478.6" y="246" font-size="14" text-anchor="middle" fill="#1f2933" font-weight="bold">0</text>
+<line x1="521.4" y1="214" x2="521.4" y2="226" stroke="#1f2933" stroke-width="1.4"/>
+<text x="521.4" y="246" font-size="14" text-anchor="middle" fill="#1f2933">1</text>
+<line x1="564.3" y1="214" x2="564.3" y2="226" stroke="#1f2933" stroke-width="1.4"/>
+<text x="564.3" y="246" font-size="14" text-anchor="middle" fill="#1f2933">2</text>
+<line x1="607.1" y1="214" x2="607.1" y2="226" stroke="#1f2933" stroke-width="1.4"/>
+<text x="607.1" y="246" font-size="14" text-anchor="middle" fill="#1f2933">3</text>
+<line x1="650.0" y1="214" x2="650.0" y2="226" stroke="#1f2933" stroke-width="1.4"/>
+<text x="650.0" y="246" font-size="14" text-anchor="middle" fill="#1f2933">4</text>
+<circle cx="350.0" cy="220" r="6" fill="#1f2933"/>
+<path d="M 350.0 208 Q 242.9 150 135.7 208" fill="none" stroke="#9c6b30" stroke-width="2.5" marker-end="url(#ahh)"/>
+<text x="242.85714285714283" y="162" font-size="16" text-anchor="middle" fill="#9c6b30" font-weight="bold">+(&#8722;5)</text>
+<text x="560" y="160" font-size="16" text-anchor="start" fill="#1f2933">&#8722;3 + (&#8722;5) = &#8722;8</text>
+
+</svg>
