@@ -73,6 +73,8 @@ export default function exercise(config) {
                 } else if (result.correct) {
                     this.status = 'correct';
                     this.attempts++;
+                    // Open vraag: laat direct het modelantwoord zien om mee te vergelijken.
+                    if (result.code === 'submitted') this.solutionShown = true;
                 } else {
                     this.status = 'incorrect';
                     this.attempts++;

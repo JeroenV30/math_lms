@@ -157,6 +157,7 @@ class ContentValidator
         $this->expect($exercise->isQuizQuestion || in_array($exercise->mode, self::MODES, true), "{$id}: onbekende mode '{$exercise->mode}'.");
         $this->expect($exercise->topics !== [], "{$id}: geen topics.");
         $this->expect($exercise->solution !== [], "{$id}: geen uitgewerkte oplossing.");
+        $this->expect(! ($exercise->isQuizQuestion && $exercise->type === 'text'), "{$id}: open vragen (text) horen niet in een toets; die wordt automatisch gescoord.");
 
         foreach ($exercise->topics as $topic) {
             $this->expect(in_array($topic, $topics, true), "{$id}: onbekend onderwerp '{$topic}'.");

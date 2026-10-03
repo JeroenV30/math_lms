@@ -190,6 +190,7 @@ overschrijven. Houd afbeeldingen klein (max. ~1200 px breed, < 400 kB).
 | `coordinate` | string `"(3; 7)"` | `tolerance` | `(3; 7)`, `(3, 7)`, `(3,5; -2)` |
 | `interval` | string `"[2; 8⟩"` | `tolerance` | `[2; 8]`, `⟨2; 8]`, `<2, 8]`, `(2, 8)`, `[3; ∞⟩` |
 | `multiple` | – (gebruik `parts`) | per deel de opties van zijn type | één invoerveld per deel |
+| `text` | modelantwoord (string) | `min_length` (standaard 40) | open antwoord in een tekstvak; niet automatisch beoordeeld |
 
 Bij `multiple` staat in plaats van `answer` een lijst `parts`:
 
@@ -206,8 +207,11 @@ uit te rekenen: elke gelijkwaardige schrijfwijze is goed, tenzij `form` iets
 anders eist. Gebruik in de vraag letters als variabelen (x, y, a, …) en geen `e`
 als variabele. `feedback`-regels werken niet bij `multiple`.
 
-Voor interpretatievragen (`text`) is nog geen type: formuleer die als denkvraag
-in een `:::question`-kader in de les.
+Een `text`-vraag (interpretatie, conclusie formuleren) wordt niet automatisch
+beoordeeld: een antwoord van voldoende lengte wordt opgeslagen, waarna het
+modelantwoord (`solution`) verschijnt om zelf mee te vergelijken. Zet de
+kernpunten in `answer` en de uitwerking in `solution`. Open vragen tellen niet
+mee voor beheersing en horen niet in `quiz.json`.
 
 ## 5. quiz.json
 

@@ -143,6 +143,21 @@ class CourseFlowTest extends TestCase
         $this->assertSame('x = 7; y = 3', ExerciseAttempt::query()->where('exercise_id', '01-005')->latest('id')->value('answer'));
     }
 
+    public function test_open_questions_are_stored_but_not_scored(): void
+    {
+        $this->get('/course/tellen/lesson/theorie')->assertOk()->assertSee('Modelantwoord')->assertSee('Opslaan');
+
+        $this->postJson('/exercise/01-006/check', ['answer' => 'Omdat het zo is.'])
+            ->assertJson(['valid' => false]);
+
+        $this->postJson('/exercise/01-006/check', ['answer' => 'Je kunt elke appel aan precies één schaap koppelen, dus de hoeveelheid is gelijk.'])
+            ->assertJson(['valid' => true, 'correct' => true, 'code' => 'submitted', 'mastery' => []])
+            ->assertJsonPath('message', 'Je antwoord is opgeslagen. Vergelijk het nu met het modelantwoord hieronder.');
+
+        $this->assertSame(1, ExerciseAttempt::query()->where('exercise_id', '01-006')->count());
+        $this->assertSame(0, TopicMastery::query()->count());
+    }
+
     public function test_unknown_exercises_and_quiz_questions_cannot_be_checked(): void
     {
         $this->postJson('/exercise/99-001/check', ['answer' => '1'])->assertNotFound();

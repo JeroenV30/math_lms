@@ -40,6 +40,7 @@ final readonly class Exercise
                 'require_simplified' => $data['require_simplified'] ?? null,
                 'allow_decimal' => $data['allow_decimal'] ?? null,
                 'form' => $data['form'] ?? null,
+                'min_length' => $data['min_length'] ?? null,
                 'unit' => $data['unit'] ?? null,
             ], fn ($value) => $value !== null),
             hints: $data['hints'] ?? [],

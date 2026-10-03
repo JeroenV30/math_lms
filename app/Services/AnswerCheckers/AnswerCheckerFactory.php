@@ -18,6 +18,7 @@ class AnswerCheckerFactory
         'coordinate' => CoordinateChecker::class,
         'interval' => IntervalChecker::class,
         'multiple' => MultipleChecker::class,
+        'text' => TextChecker::class,
     ];
 
     public function __construct(private readonly Container $container) {}

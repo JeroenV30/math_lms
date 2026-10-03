@@ -35,7 +35,7 @@
         @endif
         <span class="ml-auto">
             <span x-show="status === 'previously-solved'" class="text-success">✓ eerder goed</span>
-            <span x-cloak x-show="isCorrect" class="font-medium text-success">✓ goed</span>
+            <span x-cloak x-show="isCorrect" class="font-medium text-success">{{ $exercise->type === 'text' ? '✓ opgeslagen' : '✓ goed' }}</span>
         </span>
     </header>
 
@@ -46,7 +46,11 @@
         <div class="exercise-question">{!! $markdown->render($exercise->question) !!}</div>
 
         <form class="mt-4 flex flex-wrap items-center gap-2" @submit.prevent="check()" novalidate>
-            @if ($exercise->isMultiple())
+            @if ($exercise->type === 'text')
+                <label for="{{ $uid }}-input" class="sr-only">Jouw antwoord</label>
+                <textarea id="{{ $uid }}-input" rows="4" class="input w-full font-sans text-[0.95rem] leading-relaxed" placeholder="Schrijf je antwoord in een paar zinnen…"
+                          x-model="answer" @focus="start()" @input="edited()" :disabled="isCorrect"></textarea>
+            @elseif ($exercise->isMultiple())
                 @foreach ($exercise->parts() as $i => $part)
                     <div class="flex items-center gap-2">
                         <label for="{{ $uid }}-input-{{ $i }}" class="font-serif text-ink">{{ $part['label'] }} =</label>
@@ -75,7 +79,7 @@
                 </div>
             @endif
             <button type="submit" class="btn btn-primary" :disabled="busy || isCorrect">
-                <span x-show="!busy">Controleer</span>
+                <span x-show="!busy">{{ $exercise->type === 'text' ? 'Opslaan' : 'Controleer' }}</span>
                 <span x-cloak x-show="busy">Bezig…</span>
             </button>
 
@@ -124,13 +128,13 @@
 
         @if (count($exercise->solution) > 0)
             <div class="solution" x-cloak x-show="solutionShown" x-transition.opacity>
-                <p class="mb-2 text-xs font-semibold tracking-wide text-muted uppercase">Uitgewerkte oplossing</p>
+                <p class="mb-2 text-xs font-semibold tracking-wide text-muted uppercase">{{ $exercise->type === 'text' ? 'Modelantwoord' : 'Uitgewerkte oplossing' }}</p>
                 <ol>
                     @foreach ($exercise->solution as $step)
                         <li>{!! $markdown->inline($step) !!}</li>
                     @endforeach
                 </ol>
-                <p class="mt-2 text-xs text-muted">Probeer het nu zelf in te vullen: zo blijft de redenering beter hangen.</p>
+                <p class="mt-2 text-xs text-muted">{{ $exercise->type === 'text' ? 'Staan de belangrijkste punten in jouw antwoord? Een andere formulering is prima.' : 'Probeer het nu zelf in te vullen: zo blijft de redenering beter hangen.' }}</p>
             </div>
         @endif
     </div>
