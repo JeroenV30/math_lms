@@ -5,7 +5,7 @@
       "question": "Een drukker rekent € 8 vast en € 3 per exemplaar. Wat kosten vijf exemplaren?",
       "answer": 23,
       "solution": [
-        "$8+3\\times5=23$."
+        "De vaste kosten tel je één keer, de exemplaarkosten vijf keer: $8+3\\times5=8+15=23$."
       ],
       "hints": [
         "Tel de vaste kosten één keer mee."
@@ -16,14 +16,24 @@
       "topics": [
         "algebra"
       ],
-      "unit": "€"
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 55,
+          "message": "Je rekent $(8+3)\\times5$: de vaste kosten worden dan vijf keer berekend. Die betaal je maar één keer."
+        },
+        {
+          "answer": 15,
+          "message": "Je liet de vaste € 8 weg."
+        }
+      ]
     },
     {
       "id": "15-002",
       "question": "Schrijf de prijsregel voor n exemplaren: € 8 vast en € 3 per exemplaar. Geef een expressie zonder prijsvariabele.",
       "answer": "8+3n",
       "solution": [
-        "Exemplaren kosten $3n$, plus 8 vaste euro."
+        "Per exemplaar € 3, dus $3n$ voor $n$ exemplaren. Daar komt het vaste bedrag bij: $8+3n$. Controle met $n=5$: $8+15=23$, zoals in de vorige opgave."
       ],
       "hints": [
         "Gebruik n voor het aantal."
@@ -33,6 +43,12 @@
       "difficulty": 1,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "11n",
+          "message": "Je hebt $8+3$ opgeteld tot 11 en dat met $n$ vermenigvuldigd. De 8 is een vaste prijs en hoort niet bij elk exemplaar: $8+3n$."
+        }
       ]
     },
     {
@@ -40,7 +56,7 @@
       "question": "Schrijf: drie keer een getal x en daarna vijf erbij.",
       "answer": "3x+5",
       "solution": [
-        "Eerst $3x$, daarna $+5$."
+        "Eerst $3x$ (drie keer $x$), daarna 5 erbij: $3x+5$. Controle met $x=2$: 'drie keer twee, plus vijf' is 11; $3\\cdot2+5=11$."
       ],
       "hints": [
         "De vijf wordt niet met drie vermenigvuldigd."
@@ -50,6 +66,12 @@
       "difficulty": 1,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "8x",
+          "message": "Je hebt de 3 en de 5 samengenomen alsof het gelijksoortige termen waren. Alleen de 3 hoort bij $x$; de 5 staat er los bij."
+        }
       ]
     },
     {
@@ -57,7 +79,7 @@
       "question": "Schrijf: drie keer de som van x en vijf.",
       "answer": "3(x+5)",
       "solution": [
-        "De hele som komt in haakjes."
+        "De som is $x+5$. Die vermenigvuldig je als geheel met 3, dus $3(x+5)$. Controle met $x=1$: de som is 6, drie keer 6 is 18, en $3(1+5)=18$."
       ],
       "hints": [
         "De drie hoort bij beide delen van de som."
@@ -67,6 +89,12 @@
       "difficulty": 1,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "3x+5",
+          "message": "Dit is 'drie keer $x$, plus vijf'. De som van $x$ en vijf moet eerst gevormd worden en wordt daarna met 3 vermenigvuldigd, dus tussen haakjes."
+        }
       ]
     },
     {
@@ -74,7 +102,7 @@
       "question": "Wat is de coëfficiënt van y in $-3y$?",
       "answer": -3,
       "solution": [
-        "De getalsfactor inclusief het teken is -3."
+        "$-3y=(-3)\\cdot y$. De coëfficiënt is de getalsfactor inclusief teken: $-3$."
       ],
       "hints": [
         "Het teken hoort bij de term."
@@ -84,6 +112,12 @@
       "difficulty": 1,
       "topics": [
         "algebra"
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Het minteken hoort bij de term en dus bij de coëfficiënt. $-3y$ is $(-3)\\cdot y$."
+        }
       ]
     },
     {
@@ -91,7 +125,7 @@
       "question": "Schrijf de omtrek van een rechthoek met lengte l en breedte b.",
       "answer": "2l+2b",
       "solution": [
-        "Twee lengtes en twee breedtes: $2l+2b$."
+        "Loop de rand rond: $l+b+l+b=2l+2b$. Ook $2(l+b)$ is goed. Controle met $l=7$, $b=3$: $7+3+7+3=20$ en $2\\cdot7+2\\cdot3=20$."
       ],
       "hints": [
         "Tel de vier zijden."
@@ -101,6 +135,16 @@
       "difficulty": 1,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "lb",
+          "message": "Dat is de oppervlakte (lengte maal breedte). De omtrek is de totale lengte van de rand: twee lengtes en twee breedtes."
+        },
+        {
+          "answer": "l+b",
+          "message": "Dat is maar de helft van de rand. Loop de hele rand rond: lengte, breedte, lengte, breedte."
+        }
       ]
     },
     {
@@ -108,7 +152,7 @@
       "question": "Schrijf het product van x met zichzelf als een macht.",
       "answer": "x^2",
       "solution": [
-        "$x\\times x=x^2$."
+        "$x\\times x=x^2$. Controle met $x=5$: $5\\times5=25=5^2$, terwijl $2x=10$."
       ],
       "hints": [
         "Een product is geen optelling."
@@ -118,6 +162,12 @@
       "difficulty": 1,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "2x",
+          "message": "$2x$ betekent $x+x$ (een som). Het product $x\\times x$ schrijf je als macht: $x^2$."
+        }
       ]
     },
     {
@@ -125,7 +175,7 @@
       "question": "Bereken $3x+5$ bij x = 4.",
       "answer": 17,
       "solution": [
-        "$3\\times4+5=17$."
+        "Vervang $x$ door 4: $3\\times4+5=12+5=17$."
       ],
       "hints": [
         "Vul 4 in voor x."
@@ -135,6 +185,12 @@
       "difficulty": 1,
       "topics": [
         "algebra"
+      ],
+      "feedback": [
+        {
+          "answer": 39,
+          "message": "Je hebt $34+5$ gerekend: de 3 en de 4 naast elkaar gezet. $3x$ betekent $3\\times x$, dus $3\\times4$."
+        }
       ]
     },
     {
@@ -142,7 +198,9 @@
       "question": "Bereken $x^2-3x$ bij x = -2.",
       "answer": 10,
       "solution": [
-        "$(-2)^2-3(-2)=4+6=10$."
+        "Vul in met haakjes: $(-2)^2-3\\cdot(-2)$.",
+        "$(-2)^2=4$ en $-3\\cdot(-2)=+6$.",
+        "Samen $4+6=10$."
       ],
       "hints": [
         "Gebruik haakjes voor de negatieve ingevulde waarde."
@@ -152,6 +210,16 @@
       "difficulty": 2,
       "topics": [
         "algebra"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je hebt $-2^2=-4$ gerekend. Het kwadraat hoort bij het hele ingevulde getal: $(-2)^2=4$."
+        },
+        {
+          "answer": -2,
+          "message": "Let op het teken van $-3x$ bij $x=-2$: $-3\\cdot(-2)=+6$, niet $-6$."
+        }
       ]
     },
     {
@@ -159,7 +227,7 @@
       "question": "Bereken $2a+3b$ bij a = 4 en b = -1.",
       "answer": 5,
       "solution": [
-        "$8+(-3)=5$."
+        "$2\\cdot4+3\\cdot(-1)=8-3=5$."
       ],
       "hints": [
         "Vul beide waarden in."
@@ -169,6 +237,12 @@
       "difficulty": 1,
       "topics": [
         "algebra"
+      ],
+      "feedback": [
+        {
+          "answer": 11,
+          "message": "Je hebt $3b$ opgeteld met de absolute waarde van $b$. Met $b=-1$ is $3b=-3$, en dat trek je dus feitelijk af."
+        }
       ]
     },
     {
@@ -176,7 +250,7 @@
       "question": "Bereken $5/x$ bij x = 2.",
       "answer": 2.5,
       "solution": [
-        "$5:2=2{,}5$."
+        "$\\frac{5}{x}$ met $x=2$ is $5:2=2{,}5$."
       ],
       "hints": [
         "De waarde van de deler is 2."
@@ -186,6 +260,12 @@
       "difficulty": 1,
       "topics": [
         "algebra"
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Je hebt vermenigvuldigd. $\\frac{5}{x}$ betekent: 5 delen door $x$."
+        }
       ]
     },
     {
@@ -193,7 +273,7 @@
       "question": "Bereken $x^2$ bij x = 3.",
       "answer": 9,
       "solution": [
-        "$3^2=9$."
+        "$x^2=x\\times x$, dus bij $x=3$: $3\\times3=9$."
       ],
       "hints": [
         "Twee factoren 3."
@@ -203,6 +283,12 @@
       "difficulty": 1,
       "topics": [
         "algebra"
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Je hebt $3\\times2$ gerekend. $x^2$ is $x\\times x$, dus $3\\times3$."
+        }
       ]
     },
     {
@@ -210,7 +296,7 @@
       "question": "Voeg gelijksoortige termen samen: $3x+5x$.",
       "answer": "8x",
       "solution": [
-        "$(3+5)x=8x$."
+        "$3x+5x=(3+5)x=8x$. Controle met $x=10$: $30+50=80$."
       ],
       "hints": [
         "Tel de coëfficiënten."
@@ -220,6 +306,12 @@
       "difficulty": 1,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "8x^2",
+          "message": "De coëfficiënten tel je op, maar het letterdeel $x$ blijft $x$. Je hebt er een kwadraat van gemaakt."
+        }
       ]
     },
     {
@@ -227,7 +319,7 @@
       "question": "Voeg gelijksoortige termen samen: $3x-2x$.",
       "answer": "x",
       "solution": [
-        "$(3-2)x=x$."
+        "$3x-2x=(3-2)x=1x=x$."
       ],
       "hints": [
         "Een coëfficiënt 1 mag onzichtbaar blijven."
@@ -237,6 +329,12 @@
       "difficulty": 1,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Je schreef alleen de coëfficiënt $3-2=1$. Het letterdeel $x$ blijft staan: $1x=x$."
+        }
       ]
     },
     {
@@ -244,8 +342,8 @@
       "question": "Vereenvoudig $3x+2y+4x-y$.",
       "answer": "7x+y",
       "solution": [
-        "x-termen: $3x+4x=7x$.",
-        "y-termen: $2y-y=y$."
+        "Groepeer per letterdeel: $(3x+4x)+(2y-y)$.",
+        "$7x+y$. Controle met $x=2$, $y=5$: oorspronkelijk $6+10+8-5=19$; daarna $14+5=19$."
       ],
       "hints": [
         "Groepeer elk soort letterdeel."
@@ -255,6 +353,12 @@
       "difficulty": 2,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "7xy",
+          "message": "$x$ en $y$ zijn verschillende letterdelen. Ze mag je niet tot één term samenvoegen: $7x$ en $y$ blijven apart staan."
+        }
       ]
     },
     {
@@ -262,7 +366,7 @@
       "question": "Vereenvoudig $3x^2+5x^2$.",
       "answer": "8x^2",
       "solution": [
-        "De letterdelen x² zijn gelijk; tel 3 en 5 op."
+        "$3x^2+5x^2=(3+5)x^2=8x^2$."
       ],
       "hints": [
         "De exponent blijft 2."
@@ -272,6 +376,12 @@
       "difficulty": 1,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "8x^4",
+          "message": "Bij optellen blijft het letterdeel gelijk. Je mag de exponenten niet optellen of vermenigvuldigen; alleen de coëfficiënten tellen mee."
+        }
       ]
     },
     {
@@ -279,8 +389,7 @@
       "question": "Bereken het product $3x\\times2x$.",
       "answer": "6x^2",
       "solution": [
-        "Getalsfactoren: $3\\times2=6$.",
-        "Letterfactoren: $x\\times x=x^2$."
+        "$3x\\cdot2x=(3\\cdot2)\\cdot(x\\cdot x)=6x^2$. Controle met $x=4$: $12\\cdot8=96=6\\cdot16$."
       ],
       "hints": [
         "Dit is een product, geen som."
@@ -290,6 +399,16 @@
       "difficulty": 1,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "5x",
+          "message": "Je hebt opgeteld. Bij een product vermenigvuldig je getal met getal én letter met letter: $x\\cdot x=x^2$."
+        },
+        {
+          "answer": "6x",
+          "message": "Je vergat dat er twee factoren $x$ zijn: $x\\cdot x=x^2$, niet $x$."
+        }
       ]
     },
     {
@@ -297,7 +416,7 @@
       "question": "Vereenvoudig $6x/3$.",
       "answer": "2x",
       "solution": [
-        "De getalsfactor wordt $6/3=2$."
+        "$6x:3=(6:3)x=2x$."
       ],
       "hints": [
         "Deel de coëfficiënt door 3."
@@ -307,6 +426,16 @@
       "difficulty": 1,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "2",
+          "message": "De letter $x$ verdwijnt niet. Je deelt alleen de coëfficiënt: $6:3=2$, dus $2x$."
+        },
+        {
+          "answer": "3x",
+          "message": "Je deelde 6 door 2 in plaats van door 3."
+        }
       ]
     },
     {
@@ -314,7 +443,7 @@
       "question": "Werk haakjes weg: $3(x+4)$.",
       "answer": "3x+12",
       "solution": [
-        "$3x+3\\times4=3x+12$."
+        "$3(x+4)=3\\cdot x+3\\cdot4=3x+12$. Controle met $x=1$: $3\\cdot5=15$ en $3+12=15$."
       ],
       "hints": [
         "Vermenigvuldig met beide termen."
@@ -325,14 +454,20 @@
       "topics": [
         "expressions"
       ],
-      "form": "expanded"
+      "form": "expanded",
+      "feedback": [
+        {
+          "answer": "3x+4",
+          "message": "De 3 moet met beide termen binnen de haakjes vermenigvuldigd worden, ook met de 4. Dezelfde fout zie je bij $2(x+3)=2x+3$: dat klopt niet, want bij $x=1$ is $2\\cdot4=8$ en $2+3=5$."
+        }
+      ]
     },
     {
       "id": "15-020",
       "question": "Werk haakjes weg: $-2(x-5)$.",
       "answer": "-2x+10",
       "solution": [
-        "$-2x+(-2)(-5)=-2x+10$."
+        "$-2(x-5)=(-2)\\cdot x+(-2)\\cdot(-5)=-2x+10$. Controle met $x=1$: $-2\\cdot(-4)=8$ en $-2+10=8$."
       ],
       "hints": [
         "Let op min maal min."
@@ -343,14 +478,24 @@
       "topics": [
         "expressions"
       ],
-      "form": "expanded"
+      "form": "expanded",
+      "feedback": [
+        {
+          "answer": "-2x-10",
+          "message": "Let op min maal min: $(-2)\\cdot(-5)=+10$."
+        },
+        {
+          "answer": "-2x+5",
+          "message": "Je hebt de $-2$ alleen met de $x$ vermenigvuldigd en bij de 5 vergeten."
+        }
+      ]
     },
     {
       "id": "15-021",
       "question": "Werk uit en vereenvoudig: $5-(2x-3)$.",
       "answer": "8-2x",
       "solution": [
-        "$5-2x+3=8-2x$."
+        "$5-(2x-3)=5-2x+3=8-2x$. Controle met $x=4$: $5-5=0$ en $8-8=0$."
       ],
       "hints": [
         "Het minteken verandert beide tekens binnen de haakjes."
@@ -361,15 +506,21 @@
       "topics": [
         "expressions"
       ],
-      "form": "expanded"
+      "form": "expanded",
+      "feedback": [
+        {
+          "answer": "2-2x",
+          "message": "Het minteken vóór de haakjes keert ook het teken van de $-3$ om: $-(2x-3)=-2x+3$, niet $-2x-3$."
+        }
+      ]
     },
     {
       "id": "15-022",
       "question": "Werk uit: $(x+2)(x+3)$.",
       "answer": "x^2+5x+6",
       "solution": [
-        "Producten: $x^2+3x+2x+6$.",
-        "Combineer de x-termen."
+        "Vier producten: $x\\cdot x+x\\cdot3+2\\cdot x+2\\cdot3=x^2+3x+2x+6$.",
+        "Samen $x^2+5x+6$. Controle met $x=1$: $3\\cdot4=12$ en $1+5+6=12$."
       ],
       "hints": [
         "Elke term uit het eerste haakje krijgt elke term uit het tweede."
@@ -380,14 +531,20 @@
       "topics": [
         "expressions"
       ],
-      "form": "expanded"
+      "form": "expanded",
+      "feedback": [
+        {
+          "answer": "x^2+6",
+          "message": "Je hebt alleen eerste maal eerste en laatste maal laatste genomen. Er zijn vier producten; ook $x\\cdot3$ en $2\\cdot x$ tellen mee."
+        }
+      ]
     },
     {
       "id": "15-023",
       "question": "Haal factor 3 buiten haakjes: $6x+9$.",
       "answer": "3(2x+3)",
       "solution": [
-        "$6x/3=2x$ en $9/3=3$."
+        "$6x:3=2x$ en $9:3=3$, dus $6x+9=3(2x+3)$. Controle: $3\\cdot2x+3\\cdot3=6x+9$."
       ],
       "hints": [
         "Controleer door terug uit te werken."
@@ -398,14 +555,21 @@
       "topics": [
         "expressions"
       ],
-      "form": "factored"
+      "form": "factored",
+      "feedback": [
+        {
+          "answer": "3(2x+9)",
+          "message": "Je deelde alleen $6x$ door 3, niet de 9. Elke term moet door de factor gedeeld worden: $9:3=3$."
+        }
+      ]
     },
     {
       "id": "15-024",
       "question": "Haal factor 2x buiten haakjes: $4x^2+6x$.",
       "answer": "2x(2x+3)",
       "solution": [
-        "De overblijvende factoren zijn 2x en 3."
+        "De ggd van 4 en 6 is 2; beide termen bevatten $x$. Gemeenschappelijke factor: $2x$.",
+        "$4x^2:2x=2x$ en $6x:2x=3$, dus $2x(2x+3)$."
       ],
       "hints": [
         "Deel elke term door 2x."
@@ -416,14 +580,21 @@
       "topics": [
         "expressions"
       ],
-      "form": "factored"
+      "form": "factored",
+      "feedback": [
+        {
+          "answer": "2x(2x+6)",
+          "message": "Terugrekenen laat de fout zien: $2x\\cdot6=12x$, niet $6x$. Deel $6x$ door $2x$: dat is 3."
+        }
+      ]
     },
     {
       "id": "15-025",
       "question": "Werk uit en vereenvoudig: $2(x+3)+4(x-1)$.",
       "answer": "6x+2",
       "solution": [
-        "$2x+6+4x-4=6x+2$."
+        "$2(x+3)=2x+6$ en $4(x-1)=4x-4$.",
+        "Samen $2x+6+4x-4=6x+2$."
       ],
       "hints": [
         "Werk beide haakjes apart uit."
@@ -434,15 +605,21 @@
       "topics": [
         "expressions"
       ],
-      "form": "expanded"
+      "form": "expanded",
+      "feedback": [
+        {
+          "answer": "6x+10",
+          "message": "Bij $4(x-1)$ is $4\\cdot(-1)=-4$, niet $+4$. Het minteken hoort bij de term."
+        }
+      ]
     },
     {
       "id": "15-026",
       "question": "Bij x = 3: bereken het verschil $x^2-2x$.",
       "answer": 3,
       "solution": [
-        "$9-6=3$.",
-        "Dus x² en 2x zijn niet voor elke x gelijk."
+        "$x^2-2x=9-6=3$.",
+        "Het verschil is niet 0, dus $x^2$ en $2x$ zijn niet voor elke $x$ gelijk. Alleen bij $x=0$ en $x=2$ vallen ze samen."
       ],
       "hints": [
         "Een gelijkheid bij x = 2 geldt niet automatisch overal."
@@ -452,6 +629,12 @@
       "difficulty": 1,
       "topics": [
         "algebra"
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "Dat is de uitkomst bij $x=2$. Hier is $x=3$: $x^2=9$ en $2x=6$."
+        }
       ]
     },
     {
@@ -459,7 +642,7 @@
       "question": "Een rechthoek heeft lengte x+2 en breedte 3. Schrijf de omtrek zonder haakjes.",
       "answer": "2x+10",
       "solution": [
-        "$2(x+2)+6=2x+10$."
+        "Twee lengtes en twee breedtes: $2(x+2)+2\\cdot3=2x+4+6=2x+10$."
       ],
       "hints": [
         "Er zijn twee zijden van elke lengte."
@@ -470,14 +653,20 @@
       "topics": [
         "expressions"
       ],
-      "form": "expanded"
+      "form": "expanded",
+      "feedback": [
+        {
+          "answer": "2x+7",
+          "message": "Je hebt de 3 maar één keer meegeteld. Een rechthoek heeft twee breedtes: $2(x+2)+2\\cdot3$."
+        }
+      ]
     },
     {
       "id": "15-028",
       "question": "Bereken de omtrek $2x+10$ bij x = 4.",
       "answer": 18,
       "solution": [
-        "$8+10=18$."
+        "$2\\cdot4+10=18$. Controle met de rechthoek: $6+3+6+3=18$."
       ],
       "hints": [
         "Vul x = 4 in."
@@ -487,6 +676,12 @@
       "difficulty": 1,
       "topics": [
         "algebra"
+      ],
+      "feedback": [
+        {
+          "answer": 14,
+          "message": "Bij $x=4$ is $2x=8$, niet 4. Vul $x=4$ in de volledige expressie $2x+10$ in."
+        }
       ]
     },
     {
@@ -494,7 +689,7 @@
       "question": "Schrijf een totale prijs: n producten van p euro per stuk, plus 7 euro verzendkosten.",
       "answer": "np+7",
       "solution": [
-        "Productkosten np; vaste kosten 7."
+        "$n$ producten à $p$ euro: $np$ euro. Daar komen vaste verzendkosten van 7 euro bij: $np+7$. Controle met $n=3$, $p=4$: $12+7=19$."
       ],
       "hints": [
         "Beide n en p zijn variabelen."
@@ -504,6 +699,12 @@
       "difficulty": 2,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "n+p+7",
+          "message": "Het aantal en de prijs per stuk moet je vermenigvuldigen, niet optellen: $n$ producten van $p$ euro kosten $np$ euro."
+        }
       ]
     },
     {
@@ -511,13 +712,355 @@
       "question": "Een rechthoek heeft zijden x+3 en x+2. Schrijf de oppervlakte zonder haakjes.",
       "answer": "x^2+5x+6",
       "solution": [
-        "$(x+3)(x+2)=x^2+2x+3x+6$.",
-        "Samen $x^2+5x+6$.",
-        "Bij x = 4 is dit 42, net als $7\\times6$."
+        "$(x+3)(x+2)=x^2+2x+3x+6=x^2+5x+6$.",
+        "Controle bij $x=4$: $7\\times6=42$ en $16+20+6=42$."
       ],
       "hints": [
         "Vermenigvuldig alle vier de termparen.",
         "Combineer de gelijksoortige termen."
+      ],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "expressions"
+      ],
+      "form": "expanded",
+      "feedback": [
+        {
+          "answer": "x^2+6",
+          "message": "Je vermenigvuldigde alleen eerste met eerste en laatste met laatste. Je hebt vier producten nodig."
+        }
+      ]
+    },
+    {
+      "id": "15-031",
+      "question": "Je legt een rij driehoekjes van lucifers: één driehoek kost 3 lucifers, twee driehoeken naast elkaar 5, drie driehoeken 7. Schrijf de formule voor het aantal lucifers bij $n$ driehoekjes.",
+      "answer": "2n+1",
+      "solution": [
+        "Elke nieuwe driehoek deelt een zijde met zijn buurman en kost dus 2 lucifers extra. Het eerste driehoekje kost 3; dat is $1+2$.",
+        "Dus $1+2n$. Controle met $n=3$: $1+6=7$."
+      ],
+      "hints": [
+        "Hoeveel komt er bij elke stap bij?",
+        "Reken terug vanaf het eerste figuur: $b=3-2$."
+      ],
+      "feedback": [
+        {
+          "answer": "3n",
+          "message": "Dat zou kloppen als elke driehoek 3 aparte lucifers kostte. Bij een rij delen buren een zijde."
+        }
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-032",
+      "question": "Een taxi rekent $b+ax$ euro voor een rit van $x$ km, met instaptarief $b=3{,}50$ en $a=2{,}20$ euro per km. Wat kost een rit van 10 km? Geef het bedrag in euro.",
+      "answer": 25.5,
+      "solution": [
+        "Vul de waarden in: $3{,}50+2{,}20\\times10=3{,}50+22=25{,}50$.",
+        "Hier zijn $a$ en $b$ parameters (vast binnen dit bedrijf) en is $x$ de variabele."
+      ],
+      "hints": [
+        "Vermenigvuldig eerst $a$ met $x$, tel daarna $b$ erbij."
+      ],
+      "feedback": [
+        {
+          "answer": 55,
+          "message": "Je hebt $(3{,}50+2{,}20)\\times10$ gerekend. Het instaptarief betaal je één keer, niet per kilometer."
+        }
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "algebra"
+      ],
+      "unit": "€",
+      "tolerance": 0.01
+    },
+    {
+      "id": "15-033",
+      "question": "Bereken $3x^2$ bij $x=-2$.",
+      "answer": 12,
+      "solution": [
+        "Vul in met haakjes: $3\\cdot(-2)^2$.",
+        "Eerst de macht: $(-2)^2=4$. Dan vermenigvuldigen: $3\\cdot4=12$."
+      ],
+      "hints": [
+        "Machten gaan vóór vermenigvuldigen."
+      ],
+      "feedback": [
+        {
+          "answer": 36,
+          "message": "Je hebt eerst $3\\times(-2)=-6$ gekwadrateerd. Dat is $(3x)^2$, een andere expressie. Het kwadraat hoort alleen bij $x$."
+        },
+        {
+          "answer": -12,
+          "message": "Je hebt $-2^2=-4$ gerekend. Het kwadraat hoort bij het hele ingevulde getal $-2$, dus $(-2)^2=+4$."
+        }
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "algebra"
+      ]
+    },
+    {
+      "id": "15-034",
+      "question": "De tuintegelformule is $2n+6$ grijze tegels voor figuur $n$. Welk figuur heeft 56 grijze tegels?",
+      "answer": 25,
+      "solution": [
+        "Los de omgekeerde vraag op: $2n+6=56$. Trek eerst de 6 af: $2n=50$.",
+        "Deel daarna door 2: $n=25$. Controle: $2\\cdot25+6=56$."
+      ],
+      "hints": [
+        "Maak de laatste stap van de formule ongedaan, dan de eerste."
+      ],
+      "feedback": [
+        {
+          "answer": 28,
+          "message": "Je hebt 56 door 2 gedeeld en de 6 vergeten. Eerst 6 aftrekken, dan pas delen."
+        },
+        {
+          "answer": 50,
+          "message": "Je trok 6 af maar deelde niet door 2: $56-6=50$ is $2n$, niet $n$."
+        }
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "algebra"
+      ]
+    },
+    {
+      "id": "15-035",
+      "question": "Vereenvoudig $3x+2+4x-x+5$.",
+      "answer": "6x+7",
+      "solution": [
+        "Groepeer: $(3x+4x-x)+(2+5)$.",
+        "$3+4-1=6$ en $2+5=7$, dus $6x+7$. Controle met $x=10$: $30+2+40-10+5=67$ en $60+7=67$."
+      ],
+      "hints": [
+        "Alleen termen met $x$ mag je samenvoegen; constanten apart."
+      ],
+      "feedback": [
+        {
+          "answer": "13x",
+          "message": "Je hebt $3x+2=5x$ gedaan, een klassieke fout. Bij $x=10$ is $3x+2=32$, maar $5x=50$. De losse getallen zijn geen $x$-termen."
+        }
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-036",
+      "question": "Vereenvoudig $3x\\cdot x$.",
+      "answer": "3x^2",
+      "solution": [
+        "Drie factoren: $3\\cdot x\\cdot x=3x^2$.",
+        "Controle met $x=4$: $12\\cdot4=48$ en $3\\cdot16=48$."
+      ],
+      "hints": [
+        "Tel hoeveel keer de letter $x$ als factor voorkomt."
+      ],
+      "feedback": [
+        {
+          "answer": "3x",
+          "message": "Je liet een factor $x$ vallen. Vermenigvuldigen met $x$ doet wél iets: $3x\\cdot x=3x^2$. Bij $x=4$ is $3x\\cdot x=48$, maar $3x=12$."
+        }
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-037",
+      "question": "Werk uit: $-(x-4)$.",
+      "answer": "-x+4",
+      "solution": [
+        "Het minteken vóór de haakjes keert elk teken binnen de haakjes om: $-(x-4)=-x+4$.",
+        "Controle met $x=10$: $-(6)=-6$ en $-10+4=-6$."
+      ],
+      "hints": [
+        "Lees $-(x-4)$ als $(-1)\\cdot(x-4)$."
+      ],
+      "feedback": [
+        {
+          "answer": "-x-4",
+          "message": "Je paste het minteken alleen op de eerste term toe. Bij $x=10$ is $-(10-4)=-6$, maar $-10-4=-14$."
+        }
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ],
+      "form": "expanded"
+    },
+    {
+      "id": "15-038",
+      "question": "Werk uit en vereenvoudig: $3(x+2)-(x-5)$.",
+      "answer": "2x+11",
+      "solution": [
+        "$3(x+2)=3x+6$ en $-(x-5)=-x+5$.",
+        "Samen $3x+6-x+5=2x+11$. Controle met $x=1$: $9-(-4)=13$ en $2+11=13$."
+      ],
+      "hints": [
+        "Het minteken voor het tweede haakje werkt op beide termen."
+      ],
+      "feedback": [
+        {
+          "answer": "2x+1",
+          "message": "Je vergat het teken van $-5$ om te keren: $-(x-5)=-x+5$."
+        }
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ],
+      "form": "expanded"
+    },
+    {
+      "id": "15-039",
+      "question": "Werk uit: $(x-3)(x+3)$.",
+      "answer": "x^2-9",
+      "solution": [
+        "Vier producten: $x\\cdot x+x\\cdot3-3\\cdot x-3\\cdot3=x^2+3x-3x-9$.",
+        "De middelste termen heffen elkaar op: $x^2-9$."
+      ],
+      "hints": [
+        "Let op de tekens van de producten met $-3$."
+      ],
+      "feedback": [
+        {
+          "answer": "x^2+9",
+          "message": "Het product $(-3)\\cdot3$ is $-9$, niet $+9$."
+        },
+        {
+          "answer": "x^2-6x-9",
+          "message": "De twee middelste producten zijn $+3x$ en $-3x$; ze heffen elkaar op."
+        }
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ],
+      "form": "expanded"
+    },
+    {
+      "id": "15-040",
+      "question": "Diophantus schrijft (hier in onze cijfers) $\\Delta^{Y}\\,3\\;\\mathring{M}\\,4\\;\\pitchfork\\;\\varsigma\\,2$. Schrijf dit in moderne notatie met $x$, in volgorde van hoogste naar laagste macht.",
+      "answer": "3x^2-2x+4",
+      "solution": [
+        "$\\Delta^{Y}$ is het kwadraat, $\\varsigma$ de onbekende en $\\mathring{M}$ losse eenheden.",
+        "Alles vóór het teken $\\pitchfork$ komt erbij; alles erna gaat eraf."
+      ],
+      "hints": [
+        "De coëfficiënt staat achter het symbool."
+      ],
+      "feedback": [
+        {
+          "answer": "3x^2+2x+4",
+          "message": "Alles ná het aftrekteken $\\pitchfork$ wordt afgetrokken, dus ook $\\varsigma\\,2$."
+        }
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-041",
+      "question": "Voor welke positieve waarde van $x$ is $x^2=2x$? Denk aan $x^2=x\\cdot x$ en $2x=x+x$.",
+      "answer": 2,
+      "solution": [
+        "Voor $x>0$ mag je beide kanten door $x$ delen: $x=2$.",
+        "Controle: $2^2=4=2\\cdot2$. Bij $x=3$ is $9\\ne6$; de gelijkheid geldt dus niet voor elke $x$."
+      ],
+      "hints": [
+        "Wat gebeurt er als je beide kanten door $x$ deelt?"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Dat is de gemeenschappelijke waarde van $x^2$ en $2x$ bij $x=2$, niet de waarde van $x$ zelf."
+        }
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "algebra"
+      ]
+    },
+    {
+      "id": "15-042",
+      "question": "Sportschool A kost $45+29m$ euro na $m$ maanden. Sportschool C rekent € 60 inschrijfgeld en € 24 per maand. Schrijf het verschil A min C zonder haakjes en zo kort mogelijk.",
+      "answer": "5m-15",
+      "solution": [
+        "$45+29m-(60+24m)=45+29m-60-24m$.",
+        "Combineer: $5m-15$. Controle met $m=6$: A is 219, C is 204, verschil 15, en $30-15=15$."
+      ],
+      "hints": [
+        "Het minteken vóór de haakjes geldt voor beide termen van C."
+      ],
+      "feedback": [
+        {
+          "answer": "53m-15",
+          "message": "Je behandelde $-24m$ als $+24m$. Het minteken vóór de haakjes keert ook dat teken om."
+        }
+      ],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "expressions"
+      ],
+      "form": "expanded"
+    },
+    {
+      "id": "15-043",
+      "question": "Een vierkante foto heeft zijde $x$ cm. Een passe-partout van 2 cm breed loopt rondom. Hoeveel cm² karton is het passe-partout? Geef zonder haakjes.",
+      "answer": "8x+16",
+      "solution": [
+        "Het grote vierkant heeft zijde $x+4$. Karton = groot vierkant minus foto: $(x+4)^2-x^2$.",
+        "$(x+4)(x+4)=x^2+8x+16$, dus karton $=8x+16$. Controle met $x=10$: $196-100=96$ en $80+16=96$."
+      ],
+      "hints": [
+        "Teken het geheel: de zijde wordt aan beide kanten 2 cm groter.",
+        "Een kwadraat van een som: vergeet de dubbele producten niet."
+      ],
+      "feedback": [
+        {
+          "answer": "16",
+          "message": "Je hebt $(x+4)^2$ gelezen als $x^2+16$. De twee rechthoeken $4x$ ontbreken."
+        },
+        {
+          "answer": "8x",
+          "message": "Je vergat de vier hoekjes van 2 bij 2 cm, samen 16 cm²."
+        }
       ],
       "type": "expression",
       "mode": "challenge",
@@ -526,6 +1069,57 @@
         "expressions"
       ],
       "form": "expanded"
+    },
+    {
+      "id": "15-044",
+      "question": "Twee rijen van elk $n$ vierkantjes tegen elkaar (dus $2n$ vierkantjes) worden met lucifers gelegd. Geef het aantal lucifers voor $n$ vierkantjes per rij.",
+      "answer": "5n+2",
+      "solution": [
+        "Liggende lucifers: 3 lagen van $n$, dus $3n$. Staande lucifers: 2 rijen van $n+1$, dus $2n+2$.",
+        "Samen $5n+2$. Controle met $n=1$: een $1\\times2$-rechthoek heeft 7 lucifers, en $5+2=7$."
+      ],
+      "hints": [
+        "Tel liggende en staande lucifers apart.",
+        "Bij $n=1$ kun je het tekenen."
+      ],
+      "feedback": [
+        {
+          "answer": "6n+2",
+          "message": "Dat zijn twee losse rijen van $3n+1$. De rijen delen een laag liggende lucifers."
+        }
+      ],
+      "type": "expression",
+      "mode": "challenge",
+      "difficulty": 3,
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "15-045",
+      "question": "Bewijs dat de som van drie opeenvolgende gehele getallen een drievoud is: noem de getallen $n$, $n+1$ en $n+2$ en schrijf de som als product met factor 3.",
+      "answer": "3(n+1)",
+      "solution": [
+        "$n+(n+1)+(n+2)=3n+3$.",
+        "Haal 3 buiten haakjes: $3(n+1)$. Dit is 3 maal een geheel getal, dus een drievoud, voor elke $n$."
+      ],
+      "hints": [
+        "Neem eerst de som en vereenvoudig.",
+        "Welke factor zit in beide termen?"
+      ],
+      "feedback": [
+        {
+          "answer": "3n+2",
+          "message": "Je telde één te weinig: $n+(n+1)+(n+2)=3n+3$."
+        }
+      ],
+      "type": "expression",
+      "mode": "challenge",
+      "difficulty": 3,
+      "topics": [
+        "expressions"
+      ],
+      "form": "factored"
     }
   ]
 }

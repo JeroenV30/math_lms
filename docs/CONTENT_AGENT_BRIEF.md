@@ -46,5 +46,5 @@ kinderachtig, geen telegramstijl, geen opsommingen in plaats van uitleg.
 ## Verificatie (verplicht, kort houden)
 1. Eén klein Python-script in je scratch-map dat elk antwoord uit `exercises.json` en `quiz.json`
    onafhankelijk herrekent en controleert dat geen `feedback`-antwoord eigenlijk goed is.
-2. `php artisan content:validate` — jouw module moet foutloos zijn (fouten in andere modules negeren).
+2. `php artisan content:validate` en `node scripts/check-katex.mjs NN` — jouw module moet foutloos zijn (fouten in andere modules negeren).
 3. Eindrapport van max. 15 regels: omvang, aantallen, gecorrigeerde fouten, twijfelpunten.

@@ -18,13 +18,14 @@
   "core_question": "Hoe schrijf je één rekenregel die voor elke toegestane hoeveelheid werkt?",
   "summary": "Letters als variabelen en onbekenden: expressies lezen, waarden invullen, gelijksoortige termen samenvoegen, haakjes wegwerken en factoren buiten haakjes halen.",
   "learning_goals": [
-    "Je vertaalt een rekenbeschrijving naar een expressie met letters.",
-    "Je onderscheidt variabelen, constanten, termen, factoren en coëfficiënten.",
-    "Je berekent de waarde van een expressie door getallen in te vullen.",
+    "Je vertaalt een rekenbeschrijving of patroon naar een expressie met letters en kiest zo weinig mogelijk letters.",
+    "Je onderscheidt variabelen, onbekenden, parameters, constanten, termen, factoren en coëfficiënten.",
+    "Je berekent de waarde van een expressie door getallen in te vullen, ook negatieve, en bewaakt de rekenvolgorde.",
     "Je voegt gelijksoortige termen samen en onderscheidt een som van een product.",
-    "Je werkt haakjes weg met de distributieve eigenschap en bewaakt mintekens.",
-    "Je haalt een gemeenschappelijke factor buiten haakjes.",
-    "Je onderscheidt een expressie van een vergelijking en controleert een omzetting."
+    "Je werkt haakjes weg met de distributieve eigenschap, bewaakt mintekens en vermenigvuldigt twee haakjesparen.",
+    "Je haalt een gemeenschappelijke factor buiten haakjes en controleert door terug uit te werken.",
+    "Je schrijft een model voor een praktijksituatie en controleert het met een concreet geval.",
+    "Je onderscheidt een expressie van een vergelijking en een identiteit, en weet hoe de algebraïsche notatie historisch is ontstaan."
   ],
   "glossary": [
     {
@@ -49,7 +50,7 @@
     },
     {
       "term": "Coëfficiënt",
-      "definition": "De getalsfactor bij een letterdeel; in $-3x$ is dat -3."
+      "definition": "De getalsfactor bij een letterdeel, inclusief teken; in $-3x$ is dat $-3$."
     },
     {
       "term": "Gelijksoortig",
@@ -57,33 +58,71 @@
     },
     {
       "term": "Ontbinden in factoren",
-      "definition": "Een expressie als product schrijven."
+      "definition": "Een expressie als product schrijven, bijvoorbeeld $6x+9=3(2x+3)$."
     },
     {
       "term": "Identiteit",
       "definition": "Een gelijkheid die voor alle toegestane waarden geldt."
+    },
+    {
+      "term": "Parameter",
+      "definition": "Een letter die binnen één situatie vastligt, maar per situatie een andere waarde kan hebben, zoals het instaptarief van een taxi."
+    },
+    {
+      "term": "Gelijkwaardige expressies",
+      "definition": "Expressies die voor elke toegestane waarde van de letters dezelfde uitkomst geven."
+    },
+    {
+      "term": "Vergelijking",
+      "definition": "Een uitspraak dat twee expressies gelijk zijn; ze is meestal alleen voor bepaalde waarden van de onbekende waar."
+    },
+    {
+      "term": "Al-jabr",
+      "definition": "Arabisch voor 'aanvullen' of 'herstellen': een bewerking uit het werk van al-Khwarizmi waaraan het woord algebra zijn naam dankt."
     }
   ],
   "formulas": [
     {
       "name": "Gelijksoortige termen",
       "latex": "ax+bx=(a+b)x",
-      "usage": "Tel coëfficiënten op; het letterdeel blijft gelijk."
+      "usage": "Tel de coëfficiënten op of af; het letterdeel blijft gelijk.",
+      "origin": "De distributieve eigenschap, van rechts naar links gelezen."
     },
     {
       "name": "Distributieve eigenschap",
       "latex": "a(b+c)=ab+ac",
-      "usage": "Vermenigvuldig de factor met iedere term."
+      "usage": "Vermenigvuldig de factor met iedere term tussen de haakjes.",
+      "origin": "Bekend uit de meetkundige algebra van Euclides; in letters pas mogelijk sinds Viète en Descartes."
     },
     {
       "name": "Min voor haakjes",
       "latex": "-(a+b)=-a-b",
-      "usage": "Neem de tegengestelde van elke term."
+      "usage": "Neem de tegengestelde van elke term; $-(a-b)=-a+b$.",
+      "origin": "Distributieve eigenschap met factor $-1$."
     },
     {
       "name": "Gemeenschappelijke factor",
       "latex": "ab+ac=a(b+c)",
-      "usage": "De distributieve eigenschap in omgekeerde richting."
+      "usage": "Haal de factor die in elke term zit voor de haakjes.",
+      "origin": "De distributieve eigenschap in omgekeerde richting."
+    },
+    {
+      "name": "Twee haakjesparen",
+      "latex": "(a+b)(c+d)=ac+ad+bc+bd",
+      "usage": "Vermenigvuldig elke term uit het ene haakje met elke term uit het andere.",
+      "origin": "De distributieve eigenschap, tweemaal toegepast."
+    },
+    {
+      "name": "Kwadraat van een som",
+      "latex": "(a+b)^2=a^2+2ab+b^2",
+      "usage": "Geen $a^2+b^2$: de twee rechthoeken $ab$ horen erbij.",
+      "origin": "Meetkundig bewezen door Euclides en al-Khwarizmi."
+    },
+    {
+      "name": "Naburige getallen",
+      "latex": "(a-1)(a+1)=a^2-1",
+      "usage": "Het product van de buren van $a$ is één minder dan $a^2$.",
+      "origin": "Twee haakjesparen; de middelste termen heffen elkaar op."
     }
   ],
   "lessons": [
@@ -137,9 +176,14 @@
     }
   ],
   "timeline": [
-    "al-khwarizmi"
+    "babylonische-algebra",
+    "al-khwarizmi",
+    "recorde-gelijkteken",
+    "descartes-geometrie"
   ],
   "mathematicians": [
-    "al-khwarizmi"
+    "al-khwarizmi",
+    "brahmagupta",
+    "descartes"
   ]
 }

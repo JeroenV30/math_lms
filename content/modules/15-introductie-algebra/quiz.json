@@ -7,7 +7,7 @@
       "question": "Schrijf: vijf keer x, daarna twee eraf.",
       "answer": "5x-2",
       "solution": [
-        "De volgorde geeft $5x-2$."
+        "Eerst vijf keer $x$: $5x$. Daarna twee eraf: $5x-2$. Controle met $x=3$: $15-2=13$."
       ],
       "hints": [],
       "type": "expression",
@@ -15,6 +15,12 @@
       "difficulty": 1,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "5(x-2)",
+          "message": "Dat is vijf keer het verschil $x-2$. Hier wordt alleen $x$ met 5 vermenigvuldigd; de 2 gaat daarna eraf."
+        }
       ]
     },
     {
@@ -22,7 +28,7 @@
       "question": "Schrijf: vijf keer de som van x en twee.",
       "answer": "5(x+2)",
       "solution": [
-        "De som wordt samen vermenigvuldigd."
+        "De som van $x$ en twee is $x+2$. Die hele som gaat maal 5, dus $5(x+2)$. Controle met $x=1$: $5\\cdot3=15$."
       ],
       "hints": [],
       "type": "expression",
@@ -30,6 +36,12 @@
       "difficulty": 1,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "5x+2",
+          "message": "Dit is 'vijf keer $x$, plus twee'. De som $x+2$ moet als geheel met 5 vermenigvuldigd worden: haakjes nodig."
+        }
       ]
     },
     {
@@ -37,7 +49,7 @@
       "question": "Wat is de coëfficiënt van x in $-7x$?",
       "answer": -7,
       "solution": [
-        "Het teken hoort bij de coëfficiënt."
+        "$-7x=(-7)\\cdot x$. De coëfficiënt is de getalsfactor inclusief teken: $-7$."
       ],
       "hints": [],
       "type": "numeric",
@@ -45,6 +57,12 @@
       "difficulty": 1,
       "topics": [
         "algebra"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Het minteken hoort bij de term, en dus bij de coëfficiënt."
+        }
       ]
     },
     {
@@ -52,7 +70,7 @@
       "question": "Bereken $4x-3$ bij x = 5.",
       "answer": 17,
       "solution": [
-        "$20-3=17$."
+        "Vul $x=5$ in: $4\\cdot5-3=20-3=17$."
       ],
       "hints": [],
       "type": "numeric",
@@ -60,6 +78,12 @@
       "difficulty": 1,
       "topics": [
         "algebra"
+      ],
+      "feedback": [
+        {
+          "answer": 23,
+          "message": "Je hebt $20+3$ gedaan. De term is $-3$: die trek je af."
+        }
       ]
     },
     {
@@ -67,7 +91,7 @@
       "question": "Bereken $x^2+2x$ bij x = -3.",
       "answer": 3,
       "solution": [
-        "$9-6=3$."
+        "Vul $x=-3$ in met haakjes: $(-3)^2+2\\cdot(-3)=9-6=3$."
       ],
       "hints": [],
       "type": "numeric",
@@ -75,6 +99,16 @@
       "difficulty": 1,
       "topics": [
         "algebra"
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Je telde $2x$ als $+6$. Bij $x=-3$ is $2x=-6$."
+        },
+        {
+          "answer": -3,
+          "message": "Je rekende $-3^2=-9$. Het kwadraat hoort bij het hele getal $-3$: $(-3)^2=9$."
+        }
       ]
     },
     {
@@ -82,7 +116,7 @@
       "question": "Bereken $ab+2$ bij a = 4 en b = -2.",
       "answer": -6,
       "solution": [
-        "$-8+2=-6$."
+        "$ab=4\\cdot(-2)=-8$. Dan $-8+2=-6$."
       ],
       "hints": [],
       "type": "numeric",
@@ -90,6 +124,16 @@
       "difficulty": 1,
       "topics": [
         "algebra"
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Je negeerde het teken van $b$. Een positief maal een negatief getal is negatief."
+        },
+        {
+          "answer": -10,
+          "message": "Je trok 2 af in plaats van er 2 bij te tellen: $-8+2=-6$."
+        }
       ]
     },
     {
@@ -97,7 +141,7 @@
       "question": "Vereenvoudig $7x-3x$.",
       "answer": "4x",
       "solution": [
-        "Coëfficiënten $7-3=4$."
+        "Gelijksoortige termen: tel de coëfficiënten af: $(7-3)x=4x$."
       ],
       "hints": [],
       "type": "expression",
@@ -105,6 +149,16 @@
       "difficulty": 1,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "10x",
+          "message": "Je hebt opgeteld in plaats van afgetrokken."
+        },
+        {
+          "answer": "4",
+          "message": "De letter $x$ blijft staan: het letterdeel verandert niet."
+        }
       ]
     },
     {
@@ -112,7 +166,7 @@
       "question": "Vereenvoudig $2a+3b+5a-b$.",
       "answer": "7a+2b",
       "solution": [
-        "Combineer de a-termen en de b-termen."
+        "Groepeer: $(2a+5a)+(3b-b)=7a+2b$. Controle met $a=1$, $b=1$: $2+3+5-1=9$ en $7+2=9$."
       ],
       "hints": [],
       "type": "expression",
@@ -120,6 +174,16 @@
       "difficulty": 1,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "7a+4b",
+          "message": "Je trok $b$ niet af maar telde het erbij. De term is $-b$."
+        },
+        {
+          "answer": "9ab",
+          "message": "$a$-termen en $b$-termen zijn niet gelijksoortig. Ze blijven apart."
+        }
       ]
     },
     {
@@ -127,7 +191,7 @@
       "question": "Bereken $4x\\times3x$.",
       "answer": "12x^2",
       "solution": [
-        "Getalsfactor 12, letterfactor x²."
+        "Getallen met getallen: $4\\cdot3=12$. Letters met letters: $x\\cdot x=x^2$. Samen $12x^2$."
       ],
       "hints": [],
       "type": "expression",
@@ -135,6 +199,16 @@
       "difficulty": 1,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "12x",
+          "message": "Je hebt maar één $x$ meegeteld. Er zijn twee factoren $x$: $x\\cdot x=x^2$."
+        },
+        {
+          "answer": "7x^2",
+          "message": "Je hebt de coëfficiënten opgeteld. Bij een product vermenigvuldig je."
+        }
       ]
     },
     {
@@ -142,7 +216,7 @@
       "question": "Werk uit: $4(x-2)$.",
       "answer": "4x-8",
       "solution": [
-        "Vermenigvuldig elke term met 4."
+        "$4(x-2)=4x-4\\cdot2=4x-8$. Controle met $x=3$: $4\\cdot1=4$ en $12-8=4$."
       ],
       "hints": [],
       "type": "expression",
@@ -151,14 +225,20 @@
       "topics": [
         "expressions"
       ],
-      "form": "expanded"
+      "form": "expanded",
+      "feedback": [
+        {
+          "answer": "4x-2",
+          "message": "Je vermenigvuldigde de 2 niet met 4. De factor geldt voor elke term tussen de haakjes."
+        }
+      ]
     },
     {
       "id": "15-T11",
       "question": "Werk uit: $-3(x+4)$.",
       "answer": "-3x-12",
       "solution": [
-        "Beide termen krijgen factor -3."
+        "$-3(x+4)=-3x+(-3)\\cdot4=-3x-12$. Controle met $x=1$: $-15$ en $-3-12=-15$."
       ],
       "hints": [],
       "type": "expression",
@@ -167,14 +247,24 @@
       "topics": [
         "expressions"
       ],
-      "form": "expanded"
+      "form": "expanded",
+      "feedback": [
+        {
+          "answer": "-3x+12",
+          "message": "Min maal plus is min: $(-3)\\cdot4=-12$."
+        },
+        {
+          "answer": "-3x+4",
+          "message": "Je vermenigvuldigde de 4 niet met $-3$."
+        }
+      ]
     },
     {
       "id": "15-T12",
       "question": "Werk uit en vereenvoudig: $7-(3x-2)$.",
       "answer": "9-3x",
       "solution": [
-        "$7-3x+2=9-3x$."
+        "Het minteken keert beide tekens om: $-(3x-2)=-3x+2$. Dus $7-3x+2=9-3x$. Controle met $x=1$: $7-1=6$ en $9-3=6$."
       ],
       "hints": [],
       "type": "expression",
@@ -183,14 +273,24 @@
       "topics": [
         "expressions"
       ],
-      "form": "expanded"
+      "form": "expanded",
+      "feedback": [
+        {
+          "answer": "5-3x",
+          "message": "Je zette de $-2$ niet om naar $+2$. Het minteken vóór de haakjes werkt op beide termen."
+        },
+        {
+          "answer": "4x+9",
+          "message": "Je behandelde de haakjes alsof het minteken er niet stond."
+        }
+      ]
     },
     {
       "id": "15-T13",
       "question": "Werk uit: $(x+1)(x+4)$.",
       "answer": "x^2+5x+4",
       "solution": [
-        "$x^2+4x+x+4$."
+        "Vier producten: $x\\cdot x+x\\cdot4+1\\cdot x+1\\cdot4=x^2+4x+x+4$. Samen $x^2+5x+4$. Controle met $x=1$: $2\\cdot5=10$ en $1+5+4=10$."
       ],
       "hints": [],
       "type": "expression",
@@ -199,14 +299,20 @@
       "topics": [
         "expressions"
       ],
-      "form": "expanded"
+      "form": "expanded",
+      "feedback": [
+        {
+          "answer": "x^2+4",
+          "message": "Je nam alleen eerste maal eerste en laatste maal laatste. De middelste producten $4x$ en $x$ horen er ook bij."
+        }
+      ]
     },
     {
       "id": "15-T14",
       "question": "Haal factor 4 buiten haakjes: $8x+12$.",
       "answer": "4(2x+3)",
       "solution": [
-        "De overblijvende termen zijn 2x en 3."
+        "De ggd van 8 en 12 is 4. $8x:4=2x$ en $12:4=3$. Dus $4(2x+3)$. Controle: $4\\cdot2x+4\\cdot3=8x+12$."
       ],
       "hints": [],
       "type": "expression",
@@ -215,14 +321,20 @@
       "topics": [
         "expressions"
       ],
-      "form": "factored"
+      "form": "factored",
+      "feedback": [
+        {
+          "answer": "4(2x+12)",
+          "message": "Je deelde alleen $8x$ door 4. Beide termen moeten door de factor gedeeld worden."
+        }
+      ]
     },
     {
       "id": "15-T15",
       "question": "Een rechthoek heeft lengte x+5 en breedte 2x. Geef de oppervlakte zonder haakjes.",
       "answer": "2x^2+10x",
       "solution": [
-        "$2x(x+5)=2x^2+10x$."
+        "Oppervlakte is lengte maal breedte: $2x(x+5)=2x\\cdot x+2x\\cdot5=2x^2+10x$. Controle met $x=1$: $6\\times2=12$ en $2+10=12$."
       ],
       "hints": [],
       "type": "expression",
@@ -231,7 +343,17 @@
       "topics": [
         "expressions"
       ],
-      "form": "expanded"
+      "form": "expanded",
+      "feedback": [
+        {
+          "answer": "2x^2+5",
+          "message": "Je vermenigvuldigde de 5 niet met $2x$."
+        },
+        {
+          "answer": "2x^2+10",
+          "message": "Bij $2x\\cdot5$ hoort ook de letter: $10x$."
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 330" font-family="sans-serif" role="img" aria-label="Rechthoekmodel. Links: een rechthoek van 3 bij x plus 4, verdeeld in delen 3x en 12, dus 3 maal (x plus 4) is 3x plus 12. Rechts: een rechthoek van x plus 3 bij x plus 2, verdeeld in vier delen x kwadraat, 3x, 2x en 6, samen x kwadraat plus 5x plus 6.">
+<title>Haakjes wegwerken als oppervlakte</title>
+<rect x="0" y="0" width="780" height="330" fill="#ffffff"/>
+<!-- links: 3(x+4) -->
+<text x="185" y="28" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2933">3(x + 4) = 3x + 12</text>
+<text x="125" y="62" font-size="16" text-anchor="middle" font-style="italic" fill="#3b5bdb">x</text>
+<text x="275" y="62" font-size="16" text-anchor="middle" fill="#3b5bdb">4</text>
+<text x="30" y="140" font-size="16" text-anchor="middle" fill="#3b5bdb">3</text>
+<rect x="50" y="75" width="150" height="120" fill="#e3e9fe" stroke="#1f2933" stroke-width="1.5"/>
+<rect x="200" y="75" width="150" height="120" fill="#f1f3f5" stroke="#1f2933" stroke-width="1.5"/>
+<text x="125" y="142" font-size="22" text-anchor="middle" fill="#1f2933"><tspan>3</tspan><tspan font-style="italic">x</tspan></text>
+<text x="275" y="142" font-size="22" text-anchor="middle" fill="#1f2933">12</text>
+<text x="200" y="230" font-size="14" text-anchor="middle" fill="#616e7c">hoogte 3, breedte x + 4</text>
+<text x="200" y="252" font-size="14" text-anchor="middle" fill="#616e7c">twee deelrechthoeken</text>
+<!-- rechts: (x+3)(x+2) -->
+<text x="585" y="28" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2933">(x + 3)(x + 2) = x² + 5x + 6</text>
+<text x="510" y="62" font-size="16" text-anchor="middle" font-style="italic" fill="#3b5bdb">x</text>
+<text x="650" y="62" font-size="16" text-anchor="middle" fill="#3b5bdb">3</text>
+<text x="420" y="135" font-size="16" text-anchor="middle" font-style="italic" fill="#3b5bdb">x</text>
+<text x="420" y="250" font-size="16" text-anchor="middle" fill="#3b5bdb">2</text>
+<rect x="440" y="75" width="140" height="125" fill="#e3e9fe" stroke="#1f2933" stroke-width="1.5"/>
+<rect x="580" y="75" width="140" height="125" fill="#f1f3f5" stroke="#1f2933" stroke-width="1.5"/>
+<rect x="440" y="200" width="140" height="90" fill="#f1f3f5" stroke="#1f2933" stroke-width="1.5"/>
+<rect x="580" y="200" width="140" height="90" fill="#fff4e0" stroke="#1f2933" stroke-width="1.5"/>
+<text x="510" y="145" font-size="22" text-anchor="middle" fill="#1f2933"><tspan font-style="italic">x</tspan><tspan font-size="14" dy="-9">2</tspan></text>
+<text x="650" y="145" font-size="22" text-anchor="middle" fill="#1f2933"><tspan>3</tspan><tspan font-style="italic">x</tspan></text>
+<text x="510" y="252" font-size="22" text-anchor="middle" fill="#1f2933"><tspan>2</tspan><tspan font-style="italic">x</tspan></text>
+<text x="650" y="252" font-size="22" text-anchor="middle" fill="#1f2933">6</text>
+<text x="585" y="318" font-size="14" text-anchor="middle" fill="#616e7c">vier deelrechthoeken; 3x en 2x zijn gelijksoortig</text>
+</svg>

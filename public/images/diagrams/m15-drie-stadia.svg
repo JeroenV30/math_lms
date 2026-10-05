@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" font-family="sans-serif" role="img" aria-label="Dezelfde expressie in drie fasen: retorisch 'een vierkant en tien wortels', gesyncopeerd met afkortingen in de stijl van Diophantus, en symbolisch x kwadraat plus 10 x">
+<title>Dezelfde expressie in drie fasen: retorisch, gesyncopeerd en symbolisch</title>
+<rect x="0" y="0" width="760" height="330" fill="#ffffff"/>
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b5bdb"/></marker>
+</defs>
+<!-- rij 1 -->
+<rect x="20" y="20" width="720" height="80" rx="8" fill="#f1f3f5" stroke="#9c6b30" stroke-width="1.5"/>
+<text x="40" y="50" font-size="15" font-weight="bold" fill="#9c6b30">1. Retorisch</text>
+<text x="40" y="75" font-size="13" fill="#1f2933">alles in woorden</text>
+<text x="40" y="92" font-size="12" fill="#616e7c">al-Khwarizmi, ca. 820</text>
+<text x="250" y="68" font-size="22" font-style="italic" fill="#1f2933">"een vierkant en tien wortels"</text>
+<line x1="380" y1="102" x2="380" y2="122" stroke="#3b5bdb" stroke-width="2" marker-end="url(#ar)"/>
+<!-- rij 2 -->
+<rect x="20" y="125" width="720" height="80" rx="8" fill="#f1f3f5" stroke="#9c6b30" stroke-width="1.5"/>
+<text x="40" y="155" font-size="15" font-weight="bold" fill="#9c6b30">2. Gesyncopeerd</text>
+<text x="40" y="180" font-size="13" fill="#1f2933">vaste afkortingen</text>
+<text x="40" y="197" font-size="12" fill="#616e7c">in de stijl van Diophantus</text>
+<text x="250" y="175" font-size="28" fill="#1f2933">Δ<tspan font-size="16" dy="-12">Υ</tspan><tspan dy="12"> 1   ς 10</tspan></text>
+<text x="470" y="158" font-size="12" fill="#616e7c">Δ<tspan font-size="9" dy="-5">Υ</tspan><tspan dy="5"> = kwadraat (dynamis)</tspan></text>
+<text x="470" y="176" font-size="12" fill="#616e7c">ς = de onbekende (arithmos)</text>
+<text x="470" y="194" font-size="12" fill="#616e7c">getallen hier in onze cijfers</text>
+<line x1="380" y1="207" x2="380" y2="227" stroke="#3b5bdb" stroke-width="2" marker-end="url(#ar)"/>
+<!-- rij 3 -->
+<rect x="20" y="230" width="720" height="80" rx="8" fill="#ffffff" stroke="#3b5bdb" stroke-width="2"/>
+<text x="40" y="260" font-size="15" font-weight="bold" fill="#3b5bdb">3. Symbolisch</text>
+<text x="40" y="285" font-size="13" fill="#1f2933">tekens om mee te rekenen</text>
+<text x="40" y="302" font-size="12" fill="#616e7c">Viète (1591), Descartes (1637)</text>
+<text x="250" y="282" font-size="30" font-style="italic" fill="#1f2933">x<tspan font-size="18" dy="-13" font-style="normal">2</tspan><tspan dy="13" font-style="normal"> + 10</tspan>x</text>
+</svg>

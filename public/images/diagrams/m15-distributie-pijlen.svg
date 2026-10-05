@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" font-family="sans-serif" role="img" aria-label="Pijlen van de factor voor de haakjes naar elke term binnen de haakjes. Min 2 maal (x min 5) wordt min 2x plus 10. Min (x min 4) wordt min x plus 4.">
+<title>De factor vóór de haakjes vermenigvuldigt elke term, met teken</title>
+<rect x="0" y="0" width="760" height="250" fill="#ffffff"/>
+<defs>
+<marker id="pa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b5bdb"/></marker>
+</defs>
+<!-- links -->
+<path d="M 72 82 Q 110 30 150 78" fill="none" stroke="#3b5bdb" stroke-width="2" marker-end="url(#pa)"/>
+<path d="M 66 82 Q 150 5 222 78" fill="none" stroke="#3b5bdb" stroke-width="2" marker-end="url(#pa)"/>
+<text x="40" y="110" font-size="30" fill="#1f2933">−2(<tspan font-style="italic">x</tspan> − 5)</text>
+<text x="40" y="160" font-size="15" fill="#616e7c">(−2) · x = −2x</text>
+<text x="40" y="182" font-size="15" fill="#616e7c">(−2) · (−5) = +10</text>
+<text x="40" y="225" font-size="26" fill="#3b5bdb" font-weight="bold">= −2<tspan font-style="italic">x</tspan> + 10</text>
+<!-- rechts -->
+<path d="M 440 82 Q 470 30 505 78" fill="none" stroke="#3b5bdb" stroke-width="2" marker-end="url(#pa)"/>
+<path d="M 434 82 Q 510 5 578 78" fill="none" stroke="#3b5bdb" stroke-width="2" marker-end="url(#pa)"/>
+<text x="420" y="110" font-size="30" fill="#1f2933">−(<tspan font-style="italic">x</tspan> − 4)</text>
+<text x="420" y="160" font-size="15" fill="#616e7c">het minteken is factor −1:</text>
+<text x="420" y="182" font-size="15" fill="#616e7c">(−1) · x = −x  en  (−1) · (−4) = +4</text>
+<text x="420" y="225" font-size="26" fill="#3b5bdb" font-weight="bold">= −<tspan font-style="italic">x</tspan> + 4</text>
+</svg>
