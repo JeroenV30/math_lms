@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 270" font-family="sans-serif">
+  <title>De punten (3; 2) en (2; 3) liggen op verschillende plaatsen</title>
+  <rect width="560" height="270" fill="#ffffff"/>
+  <defs><marker id="pijl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2933"/></marker><marker id="pijlb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3b5bdb"/></marker><marker id="pijlh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9c6b30"/></marker></defs>
+  <line x1="50" y1="230" x2="50" y2="30" stroke="#ced4da" stroke-width="1"/>
+  <line x1="90" y1="230" x2="90" y2="30" stroke="#ced4da" stroke-width="1"/>
+  <line x1="130" y1="230" x2="130" y2="30" stroke="#ced4da" stroke-width="1"/>
+  <line x1="170" y1="230" x2="170" y2="30" stroke="#ced4da" stroke-width="1"/>
+  <line x1="210" y1="230" x2="210" y2="30" stroke="#ced4da" stroke-width="1"/>
+  <line x1="250" y1="230" x2="250" y2="30" stroke="#ced4da" stroke-width="1"/>
+  <line x1="50" y1="230" x2="250" y2="230" stroke="#ced4da" stroke-width="1"/>
+  <line x1="50" y1="190" x2="250" y2="190" stroke="#ced4da" stroke-width="1"/>
+  <line x1="50" y1="150" x2="250" y2="150" stroke="#ced4da" stroke-width="1"/>
+  <line x1="50" y1="110" x2="250" y2="110" stroke="#ced4da" stroke-width="1"/>
+  <line x1="50" y1="70" x2="250" y2="70" stroke="#ced4da" stroke-width="1"/>
+  <line x1="50" y1="30" x2="250" y2="30" stroke="#ced4da" stroke-width="1"/>
+  <line x1="42" y1="230" x2="264" y2="230" stroke="#1f2933" stroke-width="2" marker-end="url(#pijl)"/>
+  <line x1="50" y1="238" x2="50" y2="16" stroke="#1f2933" stroke-width="2" marker-end="url(#pijl)"/>
+  <text x="268" y="235" font-size="16" font-style="italic" fill="#1f2933">x</text>
+  <text x="58" y="16" font-size="16" font-style="italic" fill="#1f2933">y</text>
+  <text x="90" y="247" font-size="12" text-anchor="middle" fill="#1f2933">1</text>
+  <text x="130" y="247" font-size="12" text-anchor="middle" fill="#1f2933">2</text>
+  <text x="170" y="247" font-size="12" text-anchor="middle" fill="#1f2933">3</text>
+  <text x="210" y="247" font-size="12" text-anchor="middle" fill="#1f2933">4</text>
+  <text x="250" y="247" font-size="12" text-anchor="middle" fill="#1f2933">5</text>
+  <text x="44" y="194" font-size="12" text-anchor="end" fill="#1f2933">1</text>
+  <text x="44" y="154" font-size="12" text-anchor="end" fill="#1f2933">2</text>
+  <text x="44" y="114" font-size="12" text-anchor="end" fill="#1f2933">3</text>
+  <text x="44" y="74" font-size="12" text-anchor="end" fill="#1f2933">4</text>
+  <text x="44" y="34" font-size="12" text-anchor="end" fill="#1f2933">5</text>
+  <text x="44" y="247" font-size="12" text-anchor="end" fill="#1f2933">0</text>
+  <path d="M50,230 H170 V150" fill="none" stroke="#3b5bdb" stroke-width="3"/>
+  <circle cx="170" cy="150" r="5" fill="#3b5bdb"/>
+  <text x="178" y="142" font-size="14" text-anchor="start" fill="#3b5bdb">(3; 2)</text>
+  <path d="M50,230 H130 V110" fill="none" stroke="#9c6b30" stroke-width="3" stroke-dasharray="6 4"/>
+  <circle cx="130" cy="110" r="5" fill="#9c6b30"/>
+  <text x="122" y="102" font-size="14" text-anchor="end" fill="#9c6b30">(2; 3)</text>
+  <text x="300" y="70" font-size="15" fill="#1f2933">Eerst x: hoe ver naar rechts.</text>
+  <text x="300" y="94" font-size="15" fill="#1f2933">Dan y: hoe ver omhoog.</text>
+  <text x="300" y="140" font-size="15" fill="#3b5bdb">(3; 2): 3 rechts, 2 omhoog</text>
+  <text x="300" y="166" font-size="15" fill="#9c6b30">(2; 3): 2 rechts, 3 omhoog</text>
+  <text x="300" y="212" font-size="13" fill="#1f2933">Dezelfde twee getallen,</text>
+  <text x="300" y="230" font-size="13" fill="#1f2933">twee verschillende punten.</text>
+</svg>

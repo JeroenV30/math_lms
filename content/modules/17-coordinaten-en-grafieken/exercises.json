@@ -49,6 +49,12 @@
       "difficulty": 1,
       "topics": [
         "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": "(1;1)",
+          "message": "De oorsprong ligt op beide assen; beide coördinaten zijn nul."
+        }
       ]
     },
     {
@@ -66,6 +72,12 @@
       "difficulty": 1,
       "topics": [
         "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": "(4;1)",
+          "message": "Je hebt het minteken bij de x-coördinaat vergeten. Links van de y-as is x negatief."
+        }
       ]
     },
     {
@@ -83,6 +95,20 @@
       "difficulty": 1,
       "topics": [
         "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Kwadrant I heeft twee positieve coördinaten. Hier zijn beide coördinaten negatief."
+        },
+        {
+          "answer": 4,
+          "message": "In kwadrant IV is x positief en y negatief. Kijk nog eens naar het teken van x."
+        },
+        {
+          "answer": 2,
+          "message": "In kwadrant II is x negatief en y positief. Hier is y ook negatief."
+        }
       ]
     },
     {
@@ -162,6 +188,12 @@
       "difficulty": 1,
       "topics": [
         "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Je hebt het teken van -3 genegeerd en $4-3$ berekend. Het verschil is $4-(-3)=4+3$."
+        }
       ]
     },
     {
@@ -179,6 +211,16 @@
       "difficulty": 1,
       "topics": [
         "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": "(-3;2)",
+          "message": "Je hebt in de y-as gespiegeld. Spiegelen in de x-as verandert alleen het teken van y."
+        },
+        {
+          "answer": "(-3;-2)",
+          "message": "Dat is spiegelen in de oorsprong. In de x-as blijft x gelijk."
+        }
       ]
     },
     {
@@ -196,6 +238,16 @@
       "difficulty": 1,
       "topics": [
         "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": "(3;-2)",
+          "message": "Je hebt in de x-as gespiegeld. Spiegelen in de y-as verandert alleen het teken van x."
+        },
+        {
+          "answer": "(-3;-2)",
+          "message": "Dat is spiegelen in de oorsprong. In de y-as blijft y gelijk."
+        }
       ]
     },
     {
@@ -214,6 +266,16 @@
       "difficulty": 1,
       "topics": [
         "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": "(-3;9)",
+          "message": "Je hebt de richtingen omgedraaid: naar rechts is plus voor x, omlaag is min voor y."
+        },
+        {
+          "answer": "(1;9)",
+          "message": "Controleer de richting bij y: omlaag betekent aftrekken."
+        }
       ]
     },
     {
@@ -231,6 +293,12 @@
       "difficulty": 1,
       "topics": [
         "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je hebt het minteken weggelaten: $2\\cdot(-2)=-4$, niet 4."
+        }
       ]
     },
     {
@@ -282,6 +350,12 @@
       "difficulty": 1,
       "topics": [
         "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Je vergat de +1: $2\\cdot3+1=7$."
+        }
       ]
     },
     {
@@ -300,6 +374,12 @@
       "difficulty": 2,
       "topics": [
         "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je telde 1 bij 9 op in plaats van af te trekken. Uit $2x+1=9$ volgt $2x=9-1=8$."
+        }
       ]
     },
     {
@@ -318,6 +398,12 @@
       "difficulty": 1,
       "topics": [
         "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Dat is alleen $\\Delta x$. Deel $\\Delta y=6$ door $\\Delta x=3$."
+        }
       ]
     },
     {
@@ -336,6 +422,16 @@
       "difficulty": 1,
       "topics": [
         "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Het teken klopt niet: de lijn daalt, dus de helling is negatief."
+        },
+        {
+          "answer": -1,
+          "message": "Je hebt maar één verschil gebruikt. Deel $\\Delta y$ door $\\Delta x$."
+        }
       ]
     },
     {
@@ -353,6 +449,12 @@
       "difficulty": 1,
       "topics": [
         "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Bij een horizontale lijn verandert y niet: $\\Delta y=0$, dus de helling is 0."
+        }
       ]
     },
     {
@@ -404,6 +506,12 @@
       "difficulty": 2,
       "topics": [
         "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": "(0.5;0)",
+          "message": "Let op het teken: uit $0=2x+1$ volgt $2x=-1$, dus x is negatief."
+        }
       ]
     },
     {
@@ -423,7 +531,17 @@
       "topics": [
         "coordinates"
       ],
-      "unit": "km/u"
+      "unit": "km/u",
+      "feedback": [
+        {
+          "answer": 40,
+          "message": "Dat is alleen het afstandsverschil. Deel dat nog door het tijdsverschil van 2 uur."
+        },
+        {
+          "answer": 2,
+          "message": "Dat is het tijdsverschil. De snelheid is afstand gedeeld door tijd."
+        }
+      ]
     },
     {
       "id": "17-025",
@@ -475,6 +593,16 @@
       "difficulty": 1,
       "topics": [
         "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": "(-4;2)",
+          "message": "Dat is alleen spiegelen in de y-as. Je moet ook in de x-as spiegelen."
+        },
+        {
+          "answer": "(4;-2)",
+          "message": "Dat is alleen spiegelen in de x-as. Je moet ook in de y-as spiegelen."
+        }
       ]
     },
     {
@@ -493,7 +621,13 @@
       "topics": [
         "coordinates"
       ],
-      "unit": "uur"
+      "unit": "uur",
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Je hebt de hokjes geteld maar de schaal niet toegepast: elk hokje is 2 uur."
+        }
+      ]
     },
     {
       "id": "17-029",
@@ -511,6 +645,13 @@
       "difficulty": 2,
       "topics": [
         "coordinates"
+      ],
+      "tolerance": 0.01,
+      "feedback": [
+        {
+          "answer": 0.67,
+          "message": "Je hebt $\\Delta x/\\Delta y$ berekend in plaats van $\\Delta y/\\Delta x$. Neem verticaal gedeeld door horizontaal."
+        }
       ]
     },
     {
@@ -546,6 +687,451 @@
           "label": "C",
           "answer": "(4;2)",
           "type": "coordinate"
+        }
+      ]
+    },
+    {
+      "id": "17-031",
+      "question": "Op de x-as is één hokje 10 minuten, op de y-as één hokje 2 km. Een punt ligt vier hokjes rechts en drie hokjes boven de oorsprong. Geef het punt als (minuten; kilometers).",
+      "answer": "(40;6)",
+      "solution": [
+        "x: $4\\times10=40$ minuten.",
+        "y: $3\\times2=6$ kilometer.",
+        "Het punt is $(40; 6)$."
+      ],
+      "hints": [
+        "Bepaal eerst wat elk hokje waard is op elke as.",
+        "Vermenigvuldig het aantal hokjes met de waarde per hokje."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "coordinates",
+        "graphs"
+      ],
+      "feedback": [
+        {
+          "answer": "(4;3)",
+          "message": "Je hebt hokjes geteld maar de schaal niet gebruikt. Vermenigvuldig met de waarde per hokje."
+        },
+        {
+          "answer": "(40;3)",
+          "message": "De x-as is goed, maar op de y-as is elk hokje 2 km."
+        }
+      ]
+    },
+    {
+      "id": "17-032",
+      "question": "Een punt $(a; b)$ ligt in kwadrant II. Is het product $a\\cdot b$ positief of negatief? Geef 1 voor positief en -1 voor negatief.",
+      "answer": -1,
+      "solution": [
+        "In kwadrant II is $a<0$ en $b>0$.",
+        "Een negatief maal een positief getal is negatief.",
+        "Het product is negatief: -1."
+      ],
+      "hints": [
+        "Welke tekens hebben a en b in kwadrant II?",
+        "Wat is het teken van een negatief getal maal een positief getal?"
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "coordinates",
+        "negative-numbers"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Dat zou kloppen als beide coördinaten hetzelfde teken hadden (kwadrant I of III). In kwadrant II hebben ze verschillende tekens."
+        }
+      ]
+    },
+    {
+      "id": "17-033",
+      "question": "Wat is de afstand tussen de punten (-4; -1) en (-4; 5)?",
+      "answer": 6,
+      "solution": [
+        "Verschil in y: $5-(-1)=6$.",
+        "Een afstand is nooit negatief, dus de afstand is 6."
+      ],
+      "hints": [
+        "De x-waarden zijn gelijk, dus het lijnstuk loopt verticaal.",
+        "Neem het verschil van de y-waarden, eind min begin, en laat het teken weg."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Je hebt $5-1$ gerekend. De tweede y-waarde is -1, dus het verschil is $5-(-1)=6$."
+        },
+        {
+          "answer": -6,
+          "message": "Het verschil van boven naar beneden is -6, maar een afstand is nooit negatief."
+        }
+      ]
+    },
+    {
+      "id": "17-034",
+      "question": "Bepaal het middelpunt van het lijnstuk met uiteinden (-3; -2) en (5; 6).",
+      "answer": "(1;2)",
+      "solution": [
+        "x: $\\dfrac{-3+5}{2}=1$.",
+        "y: $\\dfrac{-2+6}{2}=2$.",
+        "Het middelpunt is $(1; 2)$."
+      ],
+      "hints": [
+        "Neem het gemiddelde van de x-waarden en het gemiddelde van de y-waarden.",
+        "Tel op en deel door 2."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": "(2;4)",
+          "message": "Je hebt de coördinaten opgeteld maar niet door 2 gedeeld."
+        },
+        {
+          "answer": "(4;4)",
+          "message": "Je hebt het halve verschil genomen in plaats van het gemiddelde. Tel de coördinaten op en deel door 2."
+        }
+      ]
+    },
+    {
+      "id": "17-035",
+      "question": "Het middelpunt van lijnstuk AB is M = (1; 2) en A = (-3; 5). Geef B.",
+      "answer": "(5;-1)",
+      "solution": [
+        "De stap van A naar M is $(1-(-3);\\ 2-5)=(4; -3)$.",
+        "B = M + (4; -3) = (5; -1).",
+        "Controle: het middelpunt van (-3; 5) en (5; -1) is (1; 2)."
+      ],
+      "hints": [
+        "Van A naar M ga je een bepaalde stap. B ligt dezelfde stap voorbij M.",
+        "Of gebruik de middelpuntformule en los B op."
+      ],
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": "(4;-3)",
+          "message": "Dat is alleen de stap van A naar M. B ligt een even grote stap voorbij M."
+        }
+      ]
+    },
+    {
+      "id": "17-036",
+      "question": "Een punt P is verschoven over 3 naar links en 2 omhoog en ligt nu in (-1; 5). Geef de oorspronkelijke plaats van P.",
+      "answer": "(2;3)",
+      "solution": [
+        "Ongedaan maken: 3 naar rechts en 2 omlaag.",
+        "$(-1+3;\\ 5-2)=(2; 3)$."
+      ],
+      "hints": [
+        "Maak de verschuiving ongedaan."
+      ],
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": "(-4;7)",
+          "message": "Je hebt de verschuiving nog een keer uitgevoerd in plaats van ongedaan gemaakt."
+        }
+      ]
+    },
+    {
+      "id": "17-037",
+      "question": "Een fietser rijdt de route uit de tabel. Hoe groot is zijn snelheid tussen minuut 30 en minuut 50?",
+      "answer": 30,
+      "solution": [
+        "Afstand: $18-8=10$ km in 20 minuten.",
+        "In 60 minuten is dat drie keer zoveel: 30 km.",
+        "De snelheid is 30 km/u."
+      ],
+      "hints": [
+        "Bereken eerst het verschil in afstand en het verschil in tijd.",
+        "Reken 20 minuten om naar uren of bepaal hoeveel km hij in 60 minuten aflegt."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "graphs",
+        "speed"
+      ],
+      "context": "| Tijd $x$ (minuten) | 0 | 20 | 30 | 50 |\n|---|---|---|---|---|\n| Afstand $y$ (km) | 0 | 8 | 8 | 18 |",
+      "unit": "km/u",
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Dat is alleen het verschil in afstand. Het gaat om kilometers per uur."
+        },
+        {
+          "answer": 20,
+          "message": "Dat is de tijd in minuten. Deel de afstand door de tijd en reken om naar uren."
+        }
+      ]
+    },
+    {
+      "id": "17-038",
+      "question": "Wat is de gemiddelde verandering van de temperatuur per uur tussen t = 0 en t = 8? Geef het antwoord in °C per uur.",
+      "answer": 1.5,
+      "solution": [
+        "Verandering: $10-(-2)=12$ °C.",
+        "Tijd: 8 uur.",
+        "$12:8=1{,}5$ °C per uur."
+      ],
+      "hints": [
+        "Bereken de temperatuurverandering en het aantal uren.",
+        "Deel de verandering door de tijd."
+      ],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "graphs",
+        "speed"
+      ],
+      "context": "| Tijd $t$ (uur na middernacht) | 0 | 4 | 8 | 12 | 16 |\n|---|---|---|---|---|---|\n| Temperatuur $T$ (°C) | -2 | 2 | 10 | 14 | 6 |",
+      "tolerance": 0.01,
+      "unit": "°C/u",
+      "feedback": [
+        {
+          "answer": 0.67,
+          "message": "Je hebt de tijd door de temperatuur gedeeld. De helling is verandering van de grootheid gedeeld door de tijd."
+        },
+        {
+          "answer": 12,
+          "message": "Dat is alleen de totale verandering. Deel door het aantal uren."
+        }
+      ]
+    },
+    {
+      "id": "17-039",
+      "question": "Een abonnement kost € 20 inschrijfgeld en daarna € 5 per maand. Schrijf het totaalbedrag y na x maanden als formule.",
+      "answer": "5x + 20",
+      "solution": [
+        "Het vaste deel is 20.",
+        "Per maand komt er 5 bij, na x maanden $5x$.",
+        "$y=5x+20$."
+      ],
+      "hints": [
+        "Wat is het vaste bedrag en wat groeit mee met x?"
+      ],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "graphs",
+        "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "20x + 5",
+          "message": "Je hebt de getallen omgewisseld: 20 is het vaste bedrag, 5 de groei per maand."
+        },
+        {
+          "answer": "25x",
+          "message": "Het inschrijfgeld betaal je één keer, niet elke maand."
+        }
+      ]
+    },
+    {
+      "id": "17-040",
+      "question": "Bereken de helling van de lijn door (-2; 1) en (2; 3).",
+      "answer": 0.5,
+      "solution": [
+        "$\\Delta y=3-1=2$.",
+        "$\\Delta x=2-(-2)=4$.",
+        "$a=2:4=0{,}5$."
+      ],
+      "hints": [
+        "Verticaal verschil gedeeld door horizontaal verschil."
+      ],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "linear-functions"
+      ],
+      "tolerance": 0.01,
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je hebt $\\Delta x/\\Delta y$ berekend. De helling is verticaal gedeeld door horizontaal."
+        }
+      ]
+    },
+    {
+      "id": "17-041",
+      "question": "Geef de vergelijking van de lijn door (2; 7) en (4; 13), in de vorm y = ax + b.",
+      "answer": "3x + 1",
+      "solution": [
+        "$a=\\dfrac{13-7}{4-2}=3$.",
+        "Vul (2; 7) in: $7=3\\cdot2+b$, dus $b=1$.",
+        "$y=3x+1$."
+      ],
+      "hints": [
+        "Bereken eerst de helling a.",
+        "Vul één punt in om b te vinden."
+      ],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "3x + 7",
+          "message": "Je nam de y-waarde van het punt (2; 7) als startgetal. Het startgetal is de y-waarde bij x = 0."
+        }
+      ]
+    },
+    {
+      "id": "17-042",
+      "question": "Ligt het punt (-2; 3) op de lijn y = 3x + 7? Geef 1 voor ja en 0 voor nee.",
+      "answer": 0,
+      "solution": [
+        "$y=3\\cdot(-2)+7=1$.",
+        "Het punt heeft y = 3, de lijn heeft 1.",
+        "Het punt ligt niet op de lijn: 0."
+      ],
+      "hints": [
+        "Vul x = -2 in en vergelijk met de y-coördinaat."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Bij x = -2 geeft de regel y = 1, niet 3. Het punt ligt er dus niet op."
+        }
+      ]
+    },
+    {
+      "id": "17-043",
+      "question": "Fietser A rijdt vanaf het beginpunt met 20 km/u: y = 20x. Fietser B is op dat moment al 30 km verder en rijdt 10 km/u: y = 10x + 30. Na hoeveel uur haalt A fietser B in?",
+      "answer": 3,
+      "solution": [
+        "$20x=10x+30$.",
+        "$10x=30$, dus $x=3$.",
+        "Na 3 uur."
+      ],
+      "hints": [
+        "Stel de twee formules gelijk."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "linear-functions",
+        "speed"
+      ],
+      "unit": "uur",
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Je hebt de snelheden opgeteld. Dat geldt bij tegemoetkomende fietsers. Hier rijden ze in dezelfde richting: trek de snelheden af."
+        }
+      ]
+    },
+    {
+      "id": "17-044",
+      "question": "ABCD is een parallellogram met A = (0; 0), B = (5; 1) en C = (7; 4). Geef D. (De diagonalen delen elkaar middendoor.)",
+      "answer": "(2;3)",
+      "solution": [
+        "Middelpunt van AC: $(3{,}5; 2)$.",
+        "Dit is ook het middelpunt van BD, dus $\\dfrac{5+x}{2}=3{,}5$ en $\\dfrac{1+y}{2}=2$.",
+        "$x=2$ en $y=3$, dus D = (2; 3)."
+      ],
+      "hints": [
+        "Bereken het middelpunt van AC.",
+        "Dit is ook het middelpunt van BD."
+      ],
+      "type": "coordinate",
+      "mode": "challenge",
+      "difficulty": 4,
+      "topics": [
+        "coordinates",
+        "geometry"
+      ],
+      "feedback": [
+        {
+          "answer": "(12;5)",
+          "message": "Je hebt B en C opgeteld. Gebruik het middelpunt van AC en zoek het eindpunt van BD."
+        }
+      ]
+    },
+    {
+      "id": "17-045",
+      "question": "Een lijnstuk heeft uiteinden (-3; -1) en (5; 7). In welk punt van de y-as snijdt de lijn door deze twee punten de y-as? Geef de y-coördinaat.",
+      "answer": 2,
+      "solution": [
+        "Helling: $\\dfrac{7-(-1)}{5-(-3)}=1$.",
+        "$y=x+b$; met (5; 7): $b=2$.",
+        "Het snijpunt met de y-as is (0; 2)."
+      ],
+      "hints": [
+        "Bereken eerst de helling.",
+        "Stel de vergelijking op en vul x = 0 in."
+      ],
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "topics": [
+        "linear-functions",
+        "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Dat is de y-coördinaat van het middelpunt (1; 3). Het middelpunt ligt niet op de y-as."
+        }
+      ]
+    },
+    {
+      "id": "17-046",
+      "question": "In welk jaar verscheen La Géométrie van Descartes (als bijlage bij het Discours de la méthode)?",
+      "answer": 1637,
+      "solution": [
+        "La Géométrie verscheen in 1637 in Leiden."
+      ],
+      "hints": [
+        "Zie de historische les."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": 1596,
+          "message": "Dat is het geboortejaar van Descartes. La Géométrie verscheen later."
         }
       ]
     }

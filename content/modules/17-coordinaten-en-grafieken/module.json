@@ -7,75 +7,120 @@
   "status": "available",
   "historical_period": "17e eeuw",
   "estimated_difficulty": 2,
-  "estimated_minutes": 160,
+  "estimated_minutes": 240,
   "prerequisites": [
     16
   ],
   "topics": [
     "coordinates",
-    "graphs"
+    "graphs",
+    "negative-numbers",
+    "linear-functions",
+    "speed"
   ],
-  "core_question": "Hoe leg je een positie vast met twee getallen en maak je een rekenregel zichtbaar als grafiek?",
-  "summary": "Assenstelsels, coördinaten, kwadranten en grafieken. Je leest punten, verplaatsingen en rechte lijnen en verbindt een tabel met een formule.",
+  "core_question": "Hoe leg je een positie vast met twee getallen, en hoe maak je een rekenregel of een meting zichtbaar als grafiek?",
+  "summary": "Assenstelsel, oorsprong en kwadranten; punten aflezen en tekenen (x eerst). Horizontale en verticale afstanden, het middelpunt van een lijnstuk, verschuiven en spiegelen. Van tabel naar grafiek en terug, grafieken lezen in context (afstand-tijd, temperatuur) en de rechte lijn y = ax + b met helling uit twee punten. Historisch: Ptolemaeus' lengte en breedte, Oresmes grafieken van grootheden, Descartes' La Géométrie (Leiden, 1637) en Fermat.",
   "learning_goals": [
-    "Je leest en tekent punten met een geordend coördinatenpaar.",
-    "Je gebruikt de oorsprong, assen en kwadranten en behandelt punten op een as apart.",
-    "Je berekent horizontale en verticale verplaatsingen en spiegelt punten in de assen.",
-    "Je maakt een tabel bij een eenvoudige regel en tekent de bijbehorende grafiek.",
-    "Je bepaalt of een punt op een lijn ligt en leest snijpunten met de assen.",
-    "Je berekent de helling van een niet-verticale rechte lijn uit twee punten.",
-    "Je leest schaal en eenheden en onderscheidt een puntcoördinaat van een afstand."
+    "Je leest en tekent punten met een geordend coördinatenpaar $(x; y)$: eerst horizontaal, dan verticaal, ook met negatieve en decimale coördinaten.",
+    "Je gebruikt de begrippen oorsprong, x-as, y-as en kwadrant, en je weet dat punten op een as in geen enkel kwadrant liggen.",
+    "Je leest coördinaten af bij assen met een andere schaal dan één eenheid per hokje en met eenheden zoals minuten en kilometers.",
+    "Je berekent horizontale en verticale afstanden tussen punten, ook als er negatieve coördinaten in voorkomen, en onderscheidt een verplaatsing (met teken) van een afstand (altijd positief).",
+    "Je berekent het middelpunt van een lijnstuk en kunt omgekeerd een eindpunt vinden als het middelpunt bekend is.",
+    "Je verschuift punten en figuren en spiegelt punten in de x-as, de y-as en de oorsprong.",
+    "Je maakt bij een rekenregel een tabel en een grafiek, en je leest omgekeerd uit een grafiek een tabel af.",
+    "Je beschrijft een grafiek in context met stijgen, dalen en constant, en je interpreteert de helling als 'hoe snel' de grootheid verandert, met eenheden.",
+    "Je berekent de helling van een rechte lijn uit twee punten, stelt een vergelijking $y = ax + b$ op en controleert door invullen of een punt op een lijn ligt.",
+    "Je plaatst Ptolemaeus, Oresme, Descartes en Fermat in de geschiedenis van het assenstelsel en kunt de legende van de vlieg als legende herkennen."
   ],
   "glossary": [
     {
       "term": "Assenstelsel",
-      "definition": "Twee assen die een vlak van een coördinatenafspraak voorzien."
+      "definition": "Twee getallenlijnen die elkaar loodrecht snijden: de horizontale x-as en de verticale y-as. Samen geven ze elk punt van het vlak een adres."
     },
     {
       "term": "Oorsprong",
-      "definition": "Het snijpunt van de assen, met coördinaten (0; 0)."
+      "definition": "Het snijpunt van de assen, met coördinaten $(0; 0)$; vaak aangeduid met de letter O."
     },
     {
-      "term": "Coördinatenpaar",
-      "definition": "Een geordend paar (x; y): eerst horizontaal, daarna verticaal."
+      "term": "Coördinaten",
+      "definition": "Het geordende getallenpaar $(x; y)$ van een punt: eerst de x-coördinaat (horizontaal), daarna de y-coördinaat (verticaal)."
     },
     {
       "term": "Kwadrant",
-      "definition": "Een van de vier open gebieden tussen de assen; punten op de assen horen er niet bij."
+      "definition": "Een van de vier gebieden waarin de assen het vlak verdelen, genummerd I tot en met IV tegen de klok in vanaf rechtsboven. Punten op de assen horen bij geen enkel kwadrant."
+    },
+    {
+      "term": "Schaal (van een as)",
+      "definition": "De afspraak hoeveel eenheden één hokje of streepje op een as voorstelt, bijvoorbeeld 10 minuten of 2 km."
+    },
+    {
+      "term": "Verplaatsing",
+      "definition": "Het verschil $\\Delta x = x_2 - x_1$ of $\\Delta y = y_2 - y_1$; het teken geeft de richting (rechts/links, omhoog/omlaag)."
+    },
+    {
+      "term": "Afstand",
+      "definition": "De lengte van een lijnstuk; altijd positief of nul. Bij een horizontaal of verticaal lijnstuk is dat de grootte van de verplaatsing."
+    },
+    {
+      "term": "Middelpunt (van een lijnstuk)",
+      "definition": "Het punt halverwege twee punten; de coördinaten zijn de gemiddelden van de x- en van de y-coördinaten."
+    },
+    {
+      "term": "Spiegelen",
+      "definition": "Een punt omklappen over een lijn (de spiegelas) of door een punt; bij spiegelen in een as verandert één coördinaat van teken."
     },
     {
       "term": "Grafiek",
-      "definition": "De punten die een verband tussen grootheden weergeven."
+      "definition": "Alle punten $(x; y)$ die bij een verband horen, getekend in een assenstelsel."
     },
     {
       "term": "Helling",
-      "definition": "De verticale verandering gedeeld door de horizontale verandering; voor een verticale lijn niet gedefinieerd als een getal."
+      "definition": "Hoeveel y verandert per stap van 1 in x: $\\Delta y / \\Delta x$. Positief bij stijgen, negatief bij dalen, nul bij een horizontale lijn; voor een verticale lijn niet gedefinieerd."
+    },
+    {
+      "term": "Startgetal",
+      "definition": "De waarde $b$ in $y = ax + b$: de y-waarde bij $x = 0$, dus de plek waar de lijn de y-as snijdt."
     },
     {
       "term": "Snijpunt",
-      "definition": "Een punt dat op beide betreffende lijnen of grafieken ligt."
+      "definition": "Een punt dat op twee lijnen of grafieken tegelijk ligt; bij een as is één coördinaat nul."
+    },
+    {
+      "term": "Analytische meetkunde",
+      "definition": "Meetkunde waarin punten getallenparen zijn en lijnen en krommen vergelijkingen; ontwikkeld door Descartes en Fermat in de jaren 1630."
     }
   ],
   "formulas": [
     {
       "name": "Een punt",
-      "latex": "P=(x;y)",
-      "usage": "Lees x eerst, daarna y."
+      "latex": "P = (x; y)",
+      "usage": "Eerst de x-coördinaat (horizontaal), daarna de y-coördinaat (verticaal)."
     },
     {
       "name": "Verplaatsing",
-      "latex": "\\Delta x=x_2-x_1,\\qquad\\Delta y=y_2-y_1",
-      "usage": "Het teken geeft de richting."
+      "latex": "\\Delta x = x_2 - x_1, \\qquad \\Delta y = y_2 - y_1",
+      "usage": "Altijd eind min begin. Het teken geeft de richting; de afstand langs een horizontale of verticale lijn is de grootte $|\\Delta x|$ of $|\\Delta y|$."
+    },
+    {
+      "name": "Middelpunt",
+      "latex": "M = \\left(\\frac{x_1 + x_2}{2};\\ \\frac{y_1 + y_2}{2}\\right)",
+      "usage": "Neem van de x-coördinaten en van de y-coördinaten apart het gemiddelde."
+    },
+    {
+      "name": "Spiegelen",
+      "latex": "(x; y) \\mapsto (x; -y),\\quad (-x; y),\\quad (-x; -y)",
+      "usage": "In de x-as, in de y-as en in de oorsprong."
     },
     {
       "name": "Helling",
-      "latex": "m=\\frac{y_2-y_1}{x_2-x_1}\\quad(x_2\\ne x_1)",
-      "usage": "Verticale verandering per horizontale eenheid."
+      "latex": "a = \\frac{\\Delta y}{\\Delta x} = \\frac{y_2 - y_1}{x_2 - x_1} \\quad (x_2 \\neq x_1)",
+      "usage": "Verticaal verschil gedeeld door horizontaal verschil; niet andersom. Bij grootheden heeft de helling een eenheid, zoals km per uur."
     },
     {
       "name": "Rechte lijn",
-      "latex": "y=mx+b",
-      "usage": "m is helling en b de y-waarde bij x = 0; deze vorm sluit verticale lijnen uit."
+      "latex": "y = ax + b",
+      "usage": "$a$ is de helling, $b$ het startgetal (de y-waarde bij $x = 0$). Een verticale lijn heeft geen helling en schrijf je als $x = c$.",
+      "origin": "Het idee dat een vergelijking in twee onbekenden een lijn of kromme beschrijft, komt van Descartes (1637) en Fermat (manuscript ca. 1636)."
     }
   ],
   "lessons": [
@@ -87,37 +132,37 @@
     },
     {
       "slug": "punten-en-kwadranten",
-      "title": "Coördinaten lezen",
+      "title": "Het assenstelsel: punten lezen en tekenen",
       "kind": "theory",
       "file": "02-punten-en-kwadranten.md"
     },
     {
       "slug": "verplaatsen-en-spiegelen",
-      "title": "Positie, verandering en spiegeling",
+      "title": "Afstand, middelpunt, verschuiven en spiegelen",
       "kind": "theory",
       "file": "03-verplaatsen-en-spiegelen.md"
     },
     {
       "slug": "tabel-naar-grafiek",
-      "title": "Een formule als verzameling punten",
+      "title": "Van tabel naar grafiek en terug",
       "kind": "theory",
       "file": "04-tabel-naar-grafiek.md"
     },
     {
       "slug": "rechte-lijnen",
-      "title": "Helling en snijpunten",
+      "title": "Rechte lijnen: helling en y = ax + b",
       "kind": "theory",
       "file": "05-rechte-lijnen.md"
     },
     {
       "slug": "historisch-intermezzo",
-      "title": "Een figuur door een vergelijking beschrijven",
+      "title": "Van lengte en breedte tot La Géométrie",
       "kind": "history",
       "file": "06-historisch-intermezzo.md"
     },
     {
       "slug": "praktijk-en-uitdaging",
-      "title": "Routes en snijpunten",
+      "title": "Routes, ritten en snijpunten",
       "kind": "practice",
       "file": "07-praktijk-en-uitdaging.md"
     },
@@ -129,9 +174,12 @@
     }
   ],
   "timeline": [
-    "descartes-geometrie"
+    "descartes-geometrie",
+    "oresme-grafieken"
   ],
   "mathematicians": [
-    "descartes"
+    "descartes",
+    "fermat",
+    "hipparchus"
   ]
 }
