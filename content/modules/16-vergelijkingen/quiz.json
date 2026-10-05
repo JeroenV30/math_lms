@@ -1,13 +1,13 @@
 {
   "title": "Hoofdstuktoets – Vergelijkingen",
-  "intro": "15 vragen. Vul zelf je antwoorden in. Na het inleveren zie je je resultaat en de uitgewerkte oplossingen.",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
   "questions": [
     {
       "id": "16-T01",
       "question": "Los op: $x+9=24$.",
       "answer": 15,
       "solution": [
-        "Trek 9 af."
+        "Trek 9 van beide kanten af: $x=24-9=15$."
       ],
       "hints": [],
       "type": "numeric",
@@ -15,6 +15,12 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 33,
+          "message": "Je hebt 9 opgeteld in plaats van afgetrokken."
+        }
       ]
     },
     {
@@ -22,7 +28,7 @@
       "question": "Los op: $5x=40$.",
       "answer": 8,
       "solution": [
-        "Deel door 5."
+        "Deel beide kanten door 5: $x=8$."
       ],
       "hints": [],
       "type": "numeric",
@@ -37,7 +43,8 @@
       "question": "Los op: $3x-4=17$.",
       "answer": 7,
       "solution": [
-        "Tel 4 op en deel door 3."
+        "Tel 4 op: $3x=21$.",
+        "Deel door 3: $x=7$."
       ],
       "hints": [],
       "type": "numeric",
@@ -45,6 +52,12 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 21,
+          "message": "Dat is $3x$. Deel nog door 3."
+        }
       ]
     },
     {
@@ -52,7 +65,8 @@
       "question": "Los op: $-2x=14$.",
       "answer": -7,
       "solution": [
-        "Deel door -2."
+        "Deel beide kanten door $-2$: $x=14:(-2)=-7$.",
+        "Controle: $-2\\times(-7)=14$."
       ],
       "hints": [],
       "type": "numeric",
@@ -60,6 +74,12 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Let op het minteken: $14:(-2)=-7$."
+        }
       ]
     },
     {
@@ -67,7 +87,7 @@
       "question": "Los op: $6x=15$. Geef een exacte breuk.",
       "answer": "5/2",
       "solution": [
-        "$15/6=5/2$."
+        "Deel door 6: $x=\\tfrac{15}{6}=\\tfrac52$."
       ],
       "hints": [],
       "type": "fraction",
@@ -82,7 +102,9 @@
       "question": "Los op: $4x+3=2x+19$.",
       "answer": 8,
       "solution": [
-        "$2x=16$, dus x = 8."
+        "Trek $2x$ af: $2x+3=19$.",
+        "Trek 3 af: $2x=16$, dus $x=8$.",
+        "Controle: $35=35$."
       ],
       "hints": [],
       "type": "numeric",
@@ -90,6 +112,12 @@
       "difficulty": 2,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Dat is $2x$. Deel nog door 2."
+        }
       ]
     },
     {
@@ -97,7 +125,8 @@
       "question": "Los op: $3(x+2)=21$.",
       "answer": 5,
       "solution": [
-        "$x+2=7$, dus x = 5."
+        "Haakjes: $3x+6=21$.",
+        "$3x=15$, dus $x=5$."
       ],
       "hints": [],
       "type": "numeric",
@@ -105,6 +134,12 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je hebt de 2 niet met 3 vermenigvuldigd: $3(x+2)=3x+6$, niet $3x+2$."
+        }
       ]
     },
     {
@@ -112,7 +147,9 @@
       "question": "Los op: $2(x-1)=x+5$.",
       "answer": 7,
       "solution": [
-        "$2x-2=x+5$, dus x = 7."
+        "Haakjes: $2x-2=x+5$.",
+        "Trek $x$ af: $x-2=5$, dus $x=7$.",
+        "Controle: $2\\times6=12=7+5$."
       ],
       "hints": [],
       "type": "numeric",
@@ -127,7 +164,9 @@
       "question": "Los op: $7-(x-3)=4$.",
       "answer": 6,
       "solution": [
-        "$10-x=4$, dus x = 6."
+        "Haakjes: $7-x+3=4$, dus $10-x=4$.",
+        "$-x=-6$, dus $x=6$.",
+        "Controle: $7-(6-3)=4$."
       ],
       "hints": [],
       "type": "numeric",
@@ -135,6 +174,12 @@
       "difficulty": 2,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Het minteken vóór de haakjes geldt voor beide termen: $-(x-3)=-x+3$."
+        }
       ]
     },
     {
@@ -142,7 +187,8 @@
       "question": "Los op: $x/4+2=5$.",
       "answer": 12,
       "solution": [
-        "$x/4=3$, dus x = 12."
+        "Trek 2 af: $x/4=3$.",
+        "Vermenigvuldig met 4: $x=12$."
       ],
       "hints": [],
       "type": "numeric",
@@ -150,6 +196,12 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Je hebt de 2 vergeten: eerst $x/4=3$, daarna maal 4."
+        }
       ]
     },
     {
@@ -157,7 +209,8 @@
       "question": "Los op: $(x+5)/2=8$.",
       "answer": 11,
       "solution": [
-        "$x+5=16$, dus x = 11."
+        "Vermenigvuldig met 2: $x+5=16$.",
+        "$x=11$."
       ],
       "hints": [],
       "type": "numeric",
@@ -172,7 +225,8 @@
       "question": "Los op: $x/2+x/4=9$.",
       "answer": 12,
       "solution": [
-        "Maal 4: $2x+x=36$, dus x = 12."
+        "Vermenigvuldig elke term met 4: $2x+x=36$.",
+        "$3x=36$, dus $x=12$."
       ],
       "hints": [],
       "type": "numeric",
@@ -180,6 +234,12 @@
       "difficulty": 2,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 36,
+          "message": "Dat is $3x$. Deel nog door 3."
+        }
       ]
     },
     {
@@ -187,7 +247,8 @@
       "question": "Voor hoeveel reële waarden geldt $3x+1=3x-2$?",
       "answer": 0,
       "solution": [
-        "Na vereenvoudigen staat $1=-2$, dus geen oplossingen."
+        "Trek $3x$ af: $1=-2$.",
+        "Dat is onwaar: geen enkele $x$ voldoet, dus nul oplossingen."
       ],
       "hints": [],
       "type": "numeric",
@@ -202,7 +263,8 @@
       "question": "Maak b vrij in $P=2l+2b$. Geef de expressie voor b.",
       "answer": "(P-2l)/2",
       "solution": [
-        "Trek 2l af en deel door 2."
+        "Trek $2l$ af: $P-2l=2b$.",
+        "Deel door 2: $b=\\dfrac{P-2l}{2}$."
       ],
       "hints": [],
       "type": "expression",
@@ -217,8 +279,9 @@
       "question": "Een rechthoek heeft lengte x+4 en breedte x. De omtrek is 32 cm. Vind x.",
       "answer": 6,
       "solution": [
-        "$4x+8=32$.",
-        "$4x=24$, dus x = 6."
+        "Omtrek: $2(x+4)+2x=32$, dus $4x+8=32$.",
+        "$4x=24$, dus $x=6$.",
+        "Controle: lengte 10, breedte 6, omtrek $32$."
       ],
       "hints": [],
       "type": "numeric",
@@ -227,7 +290,13 @@
       "topics": [
         "equations"
       ],
-      "unit": "cm"
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Dat is $4x$. Deel nog door 4."
+        }
+      ]
     }
   ]
 }

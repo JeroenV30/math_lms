@@ -7,7 +7,7 @@
   "status": "available",
   "historical_period": "Islamitische gouden eeuw",
   "estimated_difficulty": 2,
-  "estimated_minutes": 170,
+  "estimated_minutes": 210,
   "prerequisites": [
     15
   ],
@@ -17,7 +17,7 @@
     "expressions"
   ],
   "core_question": "Welke handelingen veranderen de vorm van een vergelijking zonder haar oplossingen te veranderen?",
-  "summary": "Vergelijkingen stap voor stap oplossen: de balansmethode, haakjes en breuken, controle door invullen en het vertalen van een situatie naar een onbekende.",
+  "summary": "Vergelijkingen stap voor stap oplossen: de balansmethode, haakjes en breuken, bijzondere gevallen, formules omwerken, ongelijkheden en het vertalen van een situatie naar een onbekende.",
   "learning_goals": [
     "Je onderscheidt een vergelijking, een identiteit en een onmogelijke gelijkheid.",
     "Je voert aan beide kanten dezelfde geldige bewerking uit en verantwoordt elke stap.",
@@ -25,7 +25,11 @@
     "Je controleert een oplossing in de oorspronkelijke vergelijking.",
     "Je herkent geen oplossing en oneindig veel oplossingen.",
     "Je stelt bij een contextvraag een vergelijking op en controleert of de oplossing past.",
-    "Je maakt een variabele vrij in eenvoudige formules met vermelding van beperkingen."
+    "Je maakt een variabele vrij in eenvoudige formules met vermelding van beperkingen.",
+    "Je lost een lineaire ongelijkheid op, klapt het teken om bij een negatief getal en schrijft de oplossing als interval.",
+    "Je legt uit hoe historische methoden (valse positie, al-jabr en al-muqabala) zich verhouden tot de balansmethode.",
+    "Je lost een lineaire ongelijkheid op, klapt het teken om bij een negatief getal en schrijft de oplossing als interval.",
+    "Je legt uit hoe historische methoden (valse positie, al-jabr en al-muqabala) zich verhouden tot de balansmethode."
   ],
   "glossary": [
     {
@@ -51,28 +55,88 @@
     {
       "term": "Vrijmaken",
       "definition": "Een formule zo herschrijven dat de gewenste variabele alleen aan één kant staat."
+    },
+    {
+      "term": "Identiteit",
+      "definition": "Een gelijkheid die voor elke toegestane waarde van de onbekende waar is."
+    },
+    {
+      "term": "Ongelijkheid",
+      "definition": "Een uitspraak met <, ≤, > of ≥; de oplossing is meestal een gebied op de getallenlijn."
+    },
+    {
+      "term": "Valse positie",
+      "definition": "Historische methode: een gok doorrekenen en de uitkomst evenredig bijstellen."
+    },
+    {
+      "term": "Onbekende",
+      "definition": "De letter waarvan de waarde nog gezocht wordt."
+    },
+    {
+      "term": "Identiteit",
+      "definition": "Een gelijkheid die voor elke toegestane waarde van de onbekende waar is."
+    },
+    {
+      "term": "Ongelijkheid",
+      "definition": "Een uitspraak met <, ≤, > of ≥; de oplossing is meestal een gebied op de getallenlijn."
+    },
+    {
+      "term": "Valse positie",
+      "definition": "Historische methode: een gok doorrekenen en de uitkomst evenredig bijstellen."
+    },
+    {
+      "term": "Onbekende",
+      "definition": "De letter waarvan de waarde nog gezocht wordt."
     }
   ],
   "formulas": [
     {
       "name": "Dezelfde term optellen",
       "latex": "A=B\\iff A+C=B+C",
-      "usage": "De bewerking is omkeerbaar."
+      "usage": "De bewerking is omkeerbaar.",
+      "origin": "Al-jabr (herstellen) en al-muqabala (tegenover elkaar stellen) in het boek van Al-Khwarizmi, ca. 820."
     },
     {
       "name": "Dezelfde factor",
       "latex": "A=B\\iff kA=kB\\quad(k\\ne0)",
-      "usage": "Een niet-nulfactor voorkomt verlies van informatie."
+      "usage": "Een niet-nulfactor voorkomt verlies van informatie.",
+      "origin": "Het meetkundige beeld van een balans; voorbehoud bij nul is een moderne verfijning."
     },
     {
       "name": "Lineair oplossen",
       "latex": "ax+b=c\\implies x=\\frac{c-b}{a}\\quad(a\\ne0)",
-      "usage": "Trek b af en deel door a."
+      "usage": "Trek b af en deel door a.",
+      "origin": "Dezelfde twee omgekeerde bewerkingen als in de Egyptische aha-problemen, nu met een algemene letter."
     },
     {
       "name": "Controle",
       "latex": "\\text{vul de gevonden waarde in beide oorspronkelijke kanten in}",
-      "usage": "Een gelijke uitkomst controleert de kandidaat-oplossing."
+      "usage": "Een gelijke uitkomst controleert de kandidaat-oplossing.",
+      "origin": "Een methode die door de eeuwen heen onveranderd bleef: de oplossing moet in de opgave zelf kloppen."
+    },
+    {
+      "name": "Teken omklappen",
+      "latex": "a<b\\implies -a>-b",
+      "usage": "Bij vermenigvuldigen of delen met een negatief getal keert het ongelijkheidsteken om.",
+      "origin": "Spiegeling van de getallenlijn in 0; uitgewerkt na de invoering van negatieve getallen."
+    },
+    {
+      "name": "Variabele vrijmaken",
+      "latex": "s=vt\\implies t=\\frac{s}{v}\\quad(v\\ne0)",
+      "usage": "Behandel de andere letters als getallen en noteer de voorwaarde bij delen.",
+      "origin": "Gebruik van letters voor bekende en onbekende grootheden: Descartes, 1637."
+    },
+    {
+      "name": "Teken omklappen",
+      "latex": "a<b\\implies -a>-b",
+      "usage": "Bij vermenigvuldigen of delen met een negatief getal keert het ongelijkheidsteken om.",
+      "origin": "Spiegeling van de getallenlijn in 0; uitgewerkt na de invoering van negatieve getallen."
+    },
+    {
+      "name": "Variabele vrijmaken",
+      "latex": "s=vt\\implies t=\\frac{s}{v}\\quad(v\\ne0)",
+      "usage": "Behandel de andere letters als getallen en noteer de voorwaarde bij delen.",
+      "origin": "Gebruik van letters voor bekende en onbekende grootheden: Descartes, 1637."
     }
   ],
   "lessons": [
@@ -102,13 +166,13 @@
     },
     {
       "slug": "bijzondere-gevallen",
-      "title": "Geen oplossing of iedere waarde",
+      "title": "Bijzondere gevallen, formules en ongelijkheden",
       "kind": "theory",
       "file": "05-bijzondere-gevallen.md"
     },
     {
       "slug": "historisch-intermezzo",
-      "title": "Woorden, vormen en gelijkheden",
+      "title": "Van aha-problemen tot het isgelijkteken",
       "kind": "history",
       "file": "06-historisch-intermezzo.md"
     },
@@ -126,9 +190,15 @@
     }
   ],
   "timeline": [
-    "al-khwarizmi"
+    "rhind-papyrus",
+    "babylonische-algebra",
+    "al-khwarizmi",
+    "recorde-gelijkteken",
+    "descartes-geometrie"
   ],
   "mathematicians": [
-    "al-khwarizmi"
+    "ahmes",
+    "al-khwarizmi",
+    "descartes"
   ]
 }

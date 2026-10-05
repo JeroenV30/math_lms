@@ -16,6 +16,16 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je hebt 6 afgetrokken ($2x=12$) maar daarna niet meer gedeeld door 2. Controle: $2\\times12+6=30$."
+        },
+        {
+          "answer": 9,
+          "message": "Je hebt de 6 alleen links weggehaald. Wat je links doet, moet je rechts ook doen: $18-6=12$, dus $2x=12$."
+        }
       ]
     },
     {
@@ -33,6 +43,12 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 26,
+          "message": "Je hebt 7 opgeteld. De omgekeerde bewerking van $+7$ is $-7$."
+        }
       ]
     },
     {
@@ -50,6 +66,16 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Je hebt 4 afgetrokken. Bij $4x$ is 4 een factor: die haal je weg door te delen."
+        },
+        {
+          "answer": 112,
+          "message": "Je hebt vermenigvuldigd met 4. De omgekeerde bewerking van $\\times4$ is delen door 4."
+        }
       ]
     },
     {
@@ -68,6 +94,16 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 21,
+          "message": "Dat is de waarde van $3x$. Deel nog door 3."
+        },
+        {
+          "answer": 11,
+          "message": "Je hebt 5 afgetrokken in plaats van opgeteld. Maak $-5$ ongedaan met $+5$."
+        }
       ]
     },
     {
@@ -85,6 +121,12 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": -13,
+          "message": "Je hebt 9 afgetrokken. Maak $-9$ ongedaan door 9 op te tellen: $-4+9=5$."
+        }
       ]
     },
     {
@@ -102,6 +144,16 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Je hebt het minteken verloren. $18:(-3)=-6$."
+        },
+        {
+          "answer": -15,
+          "message": "Je hebt 3 opgeteld bij 18. $-3x$ betekent $-3$ maal $x$; je moet delen door $-3$."
+        }
       ]
     },
     {
@@ -109,7 +161,8 @@
       "question": "Los op: $4x=10$. Geef een exacte breuk.",
       "answer": "5/2",
       "solution": [
-        "$x=10/4=5/2$."
+        "Deel beide kanten door 4: $x=\\tfrac{10}{4}$.",
+        "Vereenvoudig: $x=\\tfrac52$."
       ],
       "hints": [
         "Deel door 4 en vereenvoudig."
@@ -119,6 +172,12 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": "6",
+          "message": "Je hebt 4 afgetrokken van 10. De 4 is een factor; deel 10 door 4."
+        }
       ]
     },
     {
@@ -137,6 +196,12 @@
       "difficulty": 2,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Dat is $3x$, niet $x$. Deel nog door 3."
+        }
       ]
     },
     {
@@ -155,6 +220,12 @@
       "difficulty": 2,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Bij $2(x+3)$ moet de 2 ook met 3 worden vermenigvuldigd: $2x+6$, niet $2x+3$."
+        }
       ]
     },
     {
@@ -173,6 +244,12 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Let op het teken: $4x=2-10=-8$, dus $x=-2$, niet $2$."
+        }
       ]
     },
     {
@@ -191,6 +268,12 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Dat is de waarde van $x-2$. Tel nog 2 op."
+        }
       ]
     },
     {
@@ -209,6 +292,12 @@
       "difficulty": 2,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Het minteken vóór de haakjes geldt voor beide termen: $-(x-2)=-x+2$, niet $-x-2$."
+        }
       ]
     },
     {
@@ -227,6 +316,12 @@
       "difficulty": 2,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Je hebt $20-4$ gerekend in plaats van $20+4$. Tel de 4 aan beide kanten op."
+        }
       ]
     },
     {
@@ -245,6 +340,12 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 19,
+          "message": "Je hebt alleen $x/3$ met 3 vermenigvuldigd en de 2 vergeten. Vermenigvuldig elke term met 3."
+        }
       ]
     },
     {
@@ -263,6 +364,12 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Dat is de waarde van $x+2$. Trek nog 2 af."
+        }
       ]
     },
     {
@@ -281,6 +388,12 @@
       "difficulty": 2,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Je hebt de 5 niet met 6 vermenigvuldigd: rechts staat $6\\times5=30$."
+        }
       ]
     },
     {
@@ -299,6 +412,12 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 13,
+          "message": "Je hebt alleen $x/2$ met 2 vermenigvuldigd; de 3 en de 8 moeten ook mee: $x+6=16$."
+        }
       ]
     },
     {
@@ -310,7 +429,8 @@
         "Dus x = 1/2, en die is niet nul."
       ],
       "hints": [
-        "Bewaar de voorwaarde x ≠ 0."
+        "Bewaar de voorwaarde $x\\neq0$.",
+        "Vermenigvuldig beide kanten met $x$."
       ],
       "type": "fraction",
       "mode": "guided",
@@ -328,7 +448,8 @@
         "Dat is altijd onwaar; nul oplossingen."
       ],
       "hints": [
-        "Laat de x-termen verdwijnen."
+        "Trek $2x$ af van beide kanten.",
+        "Wat blijft er over, en is dat waar?"
       ],
       "type": "numeric",
       "mode": "guided",
@@ -342,10 +463,13 @@
       "question": "Is x = 4 een oplossing van $2(x+3)=2x+6$? Geef de gemeenschappelijke waarde van beide kanten.",
       "answer": 14,
       "solution": [
-        "Links $2\\times7=14$; rechts $8+6=14$."
+        "Links $2\\times(4+3)=2\\times7=14$.",
+        "Rechts $2\\times4+6=8+6=14$.",
+        "Beide kanten zijn gelijk, voor elke waarde van $x$: een identiteit."
       ],
       "hints": [
-        "Deze vergelijking is een identiteit."
+        "Werk de haakjes weg: $2x+6=2x+6$. Dat is een identiteit.",
+        "Reken elke kant uit voor $x=4$."
       ],
       "type": "numeric",
       "mode": "guided",
@@ -370,6 +494,12 @@
       "difficulty": 1,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "P-b",
+          "message": "Na aftrekken van $2b$ deel je het hele verschil door 2: $(P-2b)/2$. Alleen $2b$ door 2 delen geeft een andere formule."
+        }
       ]
     },
     {
@@ -387,11 +517,21 @@
       "difficulty": 1,
       "topics": [
         "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "v/s",
+          "message": "Je hebt de breuk omgedraaid. Controle: $s=100$ en $v=50$ moet $t=2$ geven."
+        },
+        {
+          "answer": "s*v",
+          "message": "Je hebt vermenigvuldigd waar je moest delen."
+        }
       ]
     },
     {
       "id": "16-023",
-      "question": "De kandidaat x = -3 wordt gecontroleerd in $x^2=9$. Bereken het linker lid.",
+      "question": "De kandidaat $x=-3$ wordt gecontroleerd in $x^2=9$. Bereken het linkerlid.",
       "answer": 9,
       "solution": [
         "$(-3)^2=9$.",
@@ -405,6 +545,12 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": -9,
+          "message": "$(-3)^2=(-3)\\times(-3)=+9$. Het kwadraat van een negatief getal is positief."
+        }
       ]
     },
     {
@@ -423,6 +569,12 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 36,
+          "message": "Dat is $3n$. Deel nog door 3."
+        }
       ]
     },
     {
@@ -434,7 +586,8 @@
         "$4x+6=26$, dus x = 5."
       ],
       "hints": [
-        "Schrijf eerst de omtrek in x."
+        "Noem de omtrek in $x$: twee lengtes en twee breedtes.",
+        "Let op: $2(x+3)+2x$, niet $(x+3)+x$."
       ],
       "type": "numeric",
       "mode": "independent",
@@ -442,7 +595,13 @@
       "topics": [
         "equations"
       ],
-      "unit": "cm"
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Dat is $4x$, na het aftrekken van 6. Deel nog door 4."
+        }
+      ]
     },
     {
       "id": "16-026",
@@ -460,6 +619,12 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 18,
+          "message": "Dat is $2x$. Deel nog door 2."
+        }
       ]
     },
     {
@@ -471,19 +636,26 @@
         "$3x+3=36$, dus x = 11."
       ],
       "hints": [
-        "Noem het kleinste x."
+        "Noem het kleinste getal $x$; de volgende zijn $x+1$ en $x+2$.",
+        "Stel de som gelijk aan 36."
       ],
       "type": "numeric",
       "mode": "independent",
       "difficulty": 3,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Dat is het middelste getal ($11+12+13=36$). De vraag is naar het kleinste."
+        }
       ]
     },
     {
       "id": "16-028",
       "question": "Los op: $(3x-1)/4=2$. Geef een exacte breuk.",
-      "answer": "3/1",
+      "answer": "3",
       "solution": [
         "Maal 4: $3x-1=8$.",
         "$3x=9$, dus x = 3."
@@ -514,6 +686,12 @@
       "difficulty": 1,
       "topics": [
         "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Dat is de waarde van $0{,}5x$. Een halve $x$ is 5, dus $x$ is 10."
+        }
       ]
     },
     {
@@ -544,6 +722,344 @@
           "label": "prijs (€)",
           "answer": 28,
           "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "16-031",
+      "question": "Een van de getallen 4, 5 of 6 is een oplossing van $7n-9=26$. Welke?",
+      "answer": 5,
+      "solution": [
+        "$n=4$: $28-9=19$, te klein.",
+        "$n=5$: $35-9=26$. Klopt.",
+        "$n=6$: $42-9=33$, te groot."
+      ],
+      "hints": [
+        "Vul elk getal in en vergelijk met 26."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 35,
+          "message": "Dat is $7n$ ($26+9$). Je zoekt de waarde van $n$: deel nog door 7, of vul de getallen in."
+        }
+      ]
+    },
+    {
+      "id": "16-032",
+      "question": "Los op: $12-2x=4$.",
+      "answer": 4,
+      "solution": [
+        "Trek 12 af: $-2x=-8$.",
+        "Deel door $-2$: $x=4$.",
+        "Controle: $12-2\\times4=4$."
+      ],
+      "hints": [
+        "Het minteken hoort bij de term $2x$.",
+        "Na het aftrekken van 12 staat er $-2x$."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "equations"
+      ],
+      "feedback": [
+        {
+          "answer": -4,
+          "message": "Je hebt de $-2x$ als $2x$ gelezen: $2x=-8$. Maar het minteken blijft: $-2x=-8$, dus $x=-8:(-2)=4$."
+        },
+        {
+          "answer": 8,
+          "message": "Je hebt 12 opgeteld in plaats van afgetrokken. Controle: $12-2\\times8=-4$."
+        }
+      ]
+    },
+    {
+      "id": "16-033",
+      "question": "Los op: $5-2(x-1)=9-x$.",
+      "answer": -2,
+      "solution": [
+        "Haakjes wegwerken: $5-2x+2=9-x$, dus $7-2x=9-x$.",
+        "Tel $2x$ op: $7=9+x$.",
+        "Trek 9 af: $x=-2$.",
+        "Controle: links $5-2\\times(-3)=11$, rechts $9+2=11$."
+      ],
+      "hints": [
+        "Het minteken en de 2 horen bij beide termen in de haakjes: $-2(x-1)=-2x+2$.",
+        "Werk eerst de haakjes weg, voeg samen, en verzamel dan."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "equations"
+      ],
+      "feedback": [
+        {
+          "answer": -6,
+          "message": "Je hebt $-2(x-1)$ uitgewerkt als $-2x-2$. Maar $-2\\times-1=+2$: het wordt $-2x+2$."
+        }
+      ]
+    },
+    {
+      "id": "16-034",
+      "question": "Los op: $\\frac{x+1}{2}=\\frac{x-1}{3}+2$.",
+      "answer": 7,
+      "solution": [
+        "Vermenigvuldig elke term met 6: $3(x+1)=2(x-1)+12$.",
+        "Haakjes: $3x+3=2x-2+12$, dus $3x+3=2x+10$.",
+        "Trek $2x$ en 3 af: $x=7$.",
+        "Controle: links $8/2=4$, rechts $6/3+2=4$."
+      ],
+      "hints": [
+        "Het kgv van 2 en 3 is 6. Vermenigvuldig elke term met 6, ook de 2.",
+        "Zet de tellers tussen haakjes."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "equations"
+      ],
+      "feedback": [
+        {
+          "answer": -3,
+          "message": "Je hebt de 2 rechts niet met 6 vermenigvuldigd. Er staat $2\\times6=12$, niet 2."
+        }
+      ]
+    },
+    {
+      "id": "16-035",
+      "question": "Voor welke waarde van $a$ heeft $3x+5=ax+9$ geen oplossing?",
+      "answer": 3,
+      "solution": [
+        "Als $a=3$ staat er $3x+5=3x+9$, dus $5=9$: onwaar, geen oplossing.",
+        "Is $a\\neq3$, dan staat er $(3-a)x=4$ en is er precies één oplossing $x=\\tfrac{4}{3-a}$."
+      ],
+      "hints": [
+        "Wanneer verdwijnt de $x$ als je de $x$-termen verzamelt?",
+        "Dan moet er iets onwaars overblijven."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 9,
+          "message": "Dat is het getal rechts. De onbekende verdwijnt als de coëfficiënten van $x$ links en rechts gelijk zijn."
+        }
+      ]
+    },
+    {
+      "id": "16-036",
+      "question": "Je betaalt $P$ euro voor $n$ stuks: $P=v+kn$, met $v$ vaste kosten en $k$ de prijs per stuk ($k\\neq0$). Maak $n$ vrij.",
+      "answer": "(P-v)/k",
+      "solution": [
+        "Trek $v$ af: $P-v=kn$.",
+        "Deel door $k$ (mag, want $k\\neq0$): $n=\\dfrac{P-v}{k}$.",
+        "Controle: $v=8$, $k=3$, $n=12$ geeft $P=44$ en $\\tfrac{44-8}{3}=12$."
+      ],
+      "hints": [
+        "Maak het recept achterstevoren ongedaan: eerst $v$ weg, dan $k$.",
+        "De som $P-v$ moet geheel door $k$ gedeeld worden."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "P-v/k",
+          "message": "Je deelt alleen $v$ door $k$. Het hele verschil $P-v$ moet gedeeld worden: $(P-v)/k$."
+        },
+        {
+          "answer": "(P+v)/k",
+          "message": "Je hebt $v$ opgeteld. Maak $+v$ ongedaan met $-v$."
+        }
+      ]
+    },
+    {
+      "id": "16-037",
+      "question": "Los op: $4x-3>9$. Geef de oplossing als interval.",
+      "answer": "⟨3; ∞⟩",
+      "solution": [
+        "Tel 3 op: $4x>12$.",
+        "Deel door 4 (positief, teken blijft): $x>3$.",
+        "Grens 3 hoort er niet bij: interval $\\langle3;\\infty\\rangle$.",
+        "Testwaarde $x=4$: $16-3=13>9$. Klopt."
+      ],
+      "hints": [
+        "Los eerst op als een vergelijking.",
+        "Deel je door een positief getal, dan blijft het teken."
+      ],
+      "type": "interval",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "equations"
+      ],
+      "feedback": [
+        {
+          "answer": "[3; ∞⟩",
+          "message": "Bij $>$ hoort de grens er niet bij: $x=3$ geeft $12-3=9$, en $9>9$ is onwaar. Gebruik een punthaak bij 3."
+        },
+        {
+          "answer": "⟨-∞; 3⟩",
+          "message": "Je hebt de richting omgedraaid. Alleen bij delen door een negatief getal klapt het teken om. Test $x=0$: $-3>9$ is onwaar."
+        }
+      ]
+    },
+    {
+      "id": "16-038",
+      "question": "Los op: $-3x+2\\le11$. Geef de oplossing als interval.",
+      "answer": "[-3; ∞⟩",
+      "solution": [
+        "Trek 2 af: $-3x\\le9$.",
+        "Deel door $-3$ (negatief, dus het teken klapt om): $x\\ge-3$.",
+        "Grens $-3$ hoort erbij: interval $[-3;\\infty\\rangle$.",
+        "Testwaarde $x=0$: $2\\le11$. Klopt. Testwaarde $x=-5$: $17\\le11$ is onwaar."
+      ],
+      "hints": [
+        "Na het aftrekken van 2 staat er $-3x\\le9$.",
+        "Wat gebeurt er met het teken als je door $-3$ deelt?"
+      ],
+      "type": "interval",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "equations"
+      ],
+      "feedback": [
+        {
+          "answer": "⟨-∞; -3]",
+          "message": "Je hebt het teken niet omgeklapt bij het delen door $-3$. Test $x=-5$: $15+2=17\\le11$ is onwaar."
+        },
+        {
+          "answer": "[3; ∞⟩",
+          "message": "Let op het teken van de grens: $9:(-3)=-3$, niet $3$."
+        }
+      ]
+    },
+    {
+      "id": "16-039",
+      "question": "Een vader is 36 jaar en zijn zoon 8. Over hoeveel jaar is de vader precies drie keer zo oud als de zoon?",
+      "answer": 6,
+      "solution": [
+        "Noem het aantal jaren $n$. Vader: $36+n$, zoon: $8+n$.",
+        "$36+n=3(8+n)=24+3n$.",
+        "Trek $n$ en 24 af: $12=2n$, dus $n=6$.",
+        "Controle: $42=3\\times14$."
+      ],
+      "hints": [
+        "Schrijf beide leeftijden over $n$ jaar op.",
+        "Let op de haakjes: de factor 3 hoort bij de hele leeftijd van de zoon."
+      ],
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "topics": [
+        "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Dat is $2n$, de stap vóór het delen. Je hebt $2n=12$, dus $n=6$."
+        }
+      ]
+    },
+    {
+      "id": "16-040",
+      "question": "Een drukkerij rekent € 15 vast en € 4 per exemplaar. Je hebt € 90 te besteden. Hoeveel exemplaren kun je hoogstens laten drukken?",
+      "answer": 18,
+      "solution": [
+        "$15+4n\\le90$, dus $4n\\le75$ en $n\\le18{,}75$.",
+        "Een aantal is geheel: hoogstens 18 exemplaren.",
+        "Controle: 18 exemplaren kosten € 87; 19 kosten € 91, dat is te veel."
+      ],
+      "hints": [
+        "Stel een ongelijkheid op: de kosten zijn hoogstens 90.",
+        "Het aantal moet een geheel getal zijn: naar beneden afronden."
+      ],
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 3,
+      "topics": [
+        "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 19,
+          "message": "Je hebt 18,75 naar boven afgerond. Dan kost de bestelling € 91, meer dan € 90. Bij hoogstens rond je naar beneden af."
+        },
+        {
+          "answer": 75,
+          "message": "Dat is $4n$, niet $n$. Deel nog door 4."
+        }
+      ]
+    },
+    {
+      "id": "16-041",
+      "question": "Een hoeveelheid en haar vijfde deel zijn samen 24. Wat is de hoeveelheid?",
+      "answer": 20,
+      "solution": [
+        "Valse positie: gok 5, dan $5+1=6$. Factor $24:6=4$, dus $5\\times4=20$.",
+        "Vergelijking: $x+\\tfrac{x}{5}=24$, dus $6x=120$ en $x=20$.",
+        "Controle: $20+4=24$."
+      ],
+      "hints": [
+        "Vermenigvuldig elke term met 5.",
+        "Of gok 5 en schaal de uitkomst."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "equations"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Dat is het vijfde deel van de hoeveelheid, niet de hoeveelheid zelf."
+        },
+        {
+          "answer": 19,
+          "message": "Je hebt alleen de breuk vermenigvuldigd. Vermenigvuldig elke term met 5."
+        }
+      ]
+    },
+    {
+      "id": "16-042",
+      "question": "Voor een eenparig versnelde beweging geldt $v=u+at$, met $t\\neq0$. Maak $a$ vrij.",
+      "answer": "(v-u)/t",
+      "solution": [
+        "Trek $u$ af: $v-u=at$.",
+        "Deel door $t$: $a=\\dfrac{v-u}{t}$.",
+        "Controle: $u=2$, $t=4$, $a=3$ geeft $v=14$ en $\\tfrac{14-2}{4}=3$."
+      ],
+      "hints": [
+        "Het recept is: eerst maal $t$, dan plus $u$. Maak het achterstevoren ongedaan."
+      ],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "expressions"
+      ],
+      "feedback": [
+        {
+          "answer": "v-u/t",
+          "message": "Het hele verschil $v-u$ moet door $t$ gedeeld worden, niet alleen $u$."
         }
       ]
     }
