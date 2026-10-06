@@ -1,22 +1,7 @@
 @extends('layouts.app', ['title' => $domain['name']])
 
 @section('content')
-    <div class="border-b border-line" style="background: linear-gradient(180deg, {{ $domain['color'] }}12, transparent)">
-        <div class="container-page pt-10 pb-10 sm:pt-14">
-            <nav class="text-sm text-muted" aria-label="Kruimelpad">
-                <a href="{{ route('domains.index') }}" class="hover:text-ink">Kaart van kennis</a>
-            </nav>
-            <div class="mt-5 flex items-start gap-5">
-                <span class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full font-serif text-xl font-semibold text-white"
-                      style="background-color: {{ $domain['color'] }}" aria-hidden="true">{{ $domain['monogram'] }}</span>
-                <div>
-                    <p class="eyebrow">{{ implode(' · ', $domain['tagline'] ?? []) }}</p>
-                    <h1 class="page-title mt-1">{{ $domain['name'] }}</h1>
-                    <p class="mt-3 max-w-2xl font-serif text-lg text-ink-soft">{{ $domain['description'] ?? '' }}</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <x-domain-header :domain="$domain" />
 
     <div class="container-page mt-10 grid gap-10 lg:grid-cols-[minmax(0,1fr)_20rem]">
         <section aria-labelledby="opzet">

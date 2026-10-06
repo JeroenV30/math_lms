@@ -1,6 +1,6 @@
 # Opdracht voor content-agents (compact)
 
-Je schrijft of breidt één module uit van "Rekenen & Wiskunde door de Eeuwen" (C:\Projects\math_lms).
+Je schrijft of breidt één module uit van de cursus "Rekenen & Wiskunde" in Kennis door de Eeuwen (C:\Projects\math_lms).
 Deze brief bevat alles wat je nodig hebt. Lees daarnaast ALLEEN: `docs/CONTENT_GUIDE.md`
 (formaat, antwoordtypen §4, widgets §6), `docs/HISTORY_IDS.md` (geldige id's), `content/course.json`
 (alleen het blok `topics`) en de bestanden van je eigen module. Lees geen andere modules.

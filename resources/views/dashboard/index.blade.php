@@ -1,13 +1,13 @@
 @extends('layouts.app', ['title' => 'Dashboard'])
 
 @section('content')
-    <div class="container-page pt-12 pb-8 sm:pt-16">
-        <p class="eyebrow">{{ $greeting }}{{ $name ? ', '.$name : '' }}</p>
-        <h1 class="page-title mt-2">{{ $content->title() }}</h1>
-        <p class="mt-3 max-w-2xl font-serif text-lg text-muted">{{ $content->course()['subtitle'] ?? '' }}</p>
-    </div>
+    <x-domain-header :domain="$domain">
+        <x-slot:meta>
+            <p>{{ $greeting }}{{ $name ? ', '.$name : '' }}</p>
+        </x-slot:meta>
+    </x-domain-header>
 
-    <div class="container-page grid gap-6 lg:grid-cols-3">
+    <div class="container-page mt-10 grid gap-6 lg:grid-cols-3">
         {{-- Voortgang --}}
         <section class="card p-6 lg:col-span-2" aria-labelledby="voortgang">
             <div class="flex items-baseline justify-between gap-4">

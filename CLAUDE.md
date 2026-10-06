@@ -1,4 +1,6 @@
-# Rekenen & Wiskunde door de Eeuwen
+# Kennis door de Eeuwen
+
+Leeromgeving met kennisdomeinen (`content/domains.json`); uitgewerkt is alleen het domein Wiskunde, de cursus *Rekenen & Wiskunde*.
 
 Laravel 13 + SQLite + Blade/Alpine/Tailwind 4/KaTeX. Lokale leeromgeving volgens `build_plan.docx`.
 

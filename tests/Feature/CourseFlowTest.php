@@ -29,7 +29,7 @@ class CourseFlowTest extends TestCase
     {
         $this->get('/')
             ->assertOk()
-            ->assertSee('Testcursus')
+            ->assertSee('De testcursus.')
             ->assertSee('Start module 1');
     }
 

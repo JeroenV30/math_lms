@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{ isset($title) ? $title.' · ' : '' }}{{ $courseTitle }}</title>
+    <title>{{ isset($title) ? $title.' · ' : '' }}{{ $site['name'] }}</title>
     <link rel="icon" href="{{ asset('favicon.svg') }}" type="image/svg+xml">
     {{-- Thema vóór het eerste beeld zetten (geen witte flits): opgeslagen keuze, anders de systeeminstelling. --}}
     <script>
@@ -48,10 +48,12 @@
     <header class="sticky top-0 z-40 border-b border-line bg-paper/95 backdrop-blur" x-data="{ open: false, search: false }">
         <div class="container-page flex h-16 items-center gap-4">
             <a href="{{ route('dashboard') }}" class="flex shrink-0 items-center gap-2.5">
-                <span class="flex h-8 w-8 items-center justify-center rounded-md bg-ink font-serif text-sm font-semibold text-paper" aria-hidden="true">∑</span>
+                <span class="flex h-8 w-8 items-center justify-center rounded-md bg-ink text-paper" aria-hidden="true">
+                    <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10" cy="10" r="2.5"/><circle cx="10" cy="3" r="1.2"/><circle cx="16" cy="13.5" r="1.2"/><circle cx="4" cy="13.5" r="1.2"/><path d="M10 5.5v2M14.9 12.6l-2.7-1.4M5.1 12.6l2.7-1.4"/></svg>
+                </span>
                 <span class="hidden leading-tight sm:block">
-                    <span class="block font-serif text-[0.95rem] font-semibold text-ink">Rekenen &amp; Wiskunde</span>
-                    <span class="block text-[0.7rem] tracking-wide text-muted">door de Eeuwen</span>
+                    <span class="block font-serif text-[0.95rem] font-semibold text-ink">{{ $site['name'] }}</span>
+                    <span class="block text-[0.7rem] tracking-wide text-muted">{{ $site['tagline'] }}</span>
                 </span>
             </a>
 
@@ -149,7 +151,7 @@
 
     <footer class="mt-24 border-t border-line">
         <div class="container-page flex flex-col gap-2 py-8 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
-            <p>{{ $courseTitle }} — begrijpen → toepassen → fouten maken → uitleg krijgen → opnieuw proberen → beheersen.</p>
+            <p>{{ $site['name'] }} — begrijpen → toepassen → fouten maken → uitleg krijgen → opnieuw proberen → beheersen.</p>
             <p class="flex gap-4">
                 <a href="{{ route('glossary') }}" class="hover:text-ink">Woordenlijst</a>
                 <a href="{{ route('formulas') }}" class="hover:text-ink">Formules</a>

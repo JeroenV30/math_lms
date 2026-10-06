@@ -1,7 +1,9 @@
-# Rekenen & Wiskunde door de Eeuwen
+# Kennis door de Eeuwen
 
-Een lokaal draaiende, interactieve leeromgeving die rekenen en wiskunde vanaf
-het absolute basisniveau opnieuw opbouwt tot statistiek op HBO/WO-niveau — met
+Een lokaal draaiende, interactieve leeromgeving voor meerdere kennisdomeinen.
+Het eerste en tot nu toe enige uitgewerkte domein is de cursus
+*Rekenen & Wiskunde*: die bouwt rekenen en wiskunde vanaf
+het absolute basisniveau opnieuw op tot statistiek op HBO/WO-niveau — met
 de geschiedenis van het wiskundige denken als leidraad. Gebouwd volgens
 `build_plan.docx`.
 

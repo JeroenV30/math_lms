@@ -27,7 +27,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         View::composer('layouts.app', function ($view) {
-            $view->with('courseTitle', app(ContentService::class)->title());
+            $view->with('site', app(DomainService::class)->app());
             $view->with('reviewCount', app(ReviewService::class)->dueCount());
             $view->with('knowledgeDomains', app(DomainService::class)->all());
         });

@@ -1,4 +1,4 @@
-# Contentgids – Rekenen & Wiskunde door de Eeuwen
+# Contentgids – Rekenen & Wiskunde (Kennis door de Eeuwen)
 
 Alle cursusinhoud staat in `content/`. De applicatie leest deze bestanden; er staat
 geen lesstof in controllers, Blade of JavaScript. Nieuwe lessen of oefeningen

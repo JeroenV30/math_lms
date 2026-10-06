@@ -21,6 +21,31 @@ class DomainTest extends TestCase
             ->assertSee('aria-current="page"', false);
     }
 
+    public function test_app_name_comes_from_the_domain_file(): void
+    {
+        $this->useFixtureContent();
+
+        $this->get('/')
+            ->assertOk()
+            ->assertSee('<title>Dashboard · Testomgeving</title>', false)
+            ->assertSee('Ontdekken · Begrijpen');
+    }
+
+    public function test_dashboard_has_the_same_header_as_other_domains(): void
+    {
+        $this->useFixtureContent();
+
+        // Wiskunde-dashboard en een domein in voorbereiding delen kruimelpad, monogram, tagline en naam.
+        foreach (['/' => 'Wiskunde', '/kennis/biologie' => 'Biologie'] as $url => $name) {
+            $this->get($url)
+                ->assertOk()
+                ->assertSee('Kaart van kennis')
+                ->assertSee('<h1 class="page-title mt-1">'.$name.'</h1>', false);
+        }
+
+        $this->get('/')->assertSee('Getallen · Structuren · Logica');
+    }
+
     public function test_theme_is_set_before_render_and_can_be_switched(): void
     {
         $this->useFixtureContent();

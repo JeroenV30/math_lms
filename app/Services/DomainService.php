@@ -25,6 +25,21 @@ class DomainService
     }
 
     /**
+     * Naam en ondertitel van de hele leeromgeving (alle domeinen samen).
+     *
+     * @return array{name: string, tagline: string}
+     */
+    public function app(): array
+    {
+        $app = $this->overview()['app'] ?? [];
+
+        return [
+            'name' => $app['name'] ?? config('app.name'),
+            'tagline' => $app['tagline'] ?? '',
+        ];
+    }
+
+    /**
      * @return Collection<int, array>
      */
     public function all(): Collection
