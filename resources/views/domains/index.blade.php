@@ -13,9 +13,7 @@
                 @php $planned = ($domain['status'] ?? 'planned') !== 'available'; @endphp
                 <li>
                     <a href="{{ route('domains.show', $domain['id']) }}" class="card group flex h-full gap-4 p-5 transition-colors hover:border-line-strong">
-                        <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full font-serif text-base font-semibold"
-                              style="background-color: {{ $domain['color'] }}{{ $planned ? '1f' : '' }}; color: {{ $planned ? $domain['color'] : '#ffffff' }}"
-                              aria-hidden="true">{{ $domain['monogram'] }}</span>
+                        <x-domain-monogram :domain="$domain" size="lg" />
                         <span class="min-w-0">
                             <span class="flex items-baseline gap-2">
                                 <span class="font-serif text-lg font-semibold text-ink group-hover:underline">{{ $domain['name'] }}</span>

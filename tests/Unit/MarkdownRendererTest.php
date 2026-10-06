@@ -75,6 +75,14 @@ class MarkdownRendererTest extends TestCase
         $this->assertStringContainsString('<h2 id="even-en-oneven">', $doc['html']);
     }
 
+    public function test_table_of_contents_titles_are_plain_text(): void
+    {
+        // Blade escapet de titel bij het tonen; een al ge-escapete titel werd zichtbaar als &quot;acht&quot;.
+        $doc = $this->markdown->renderDocument('## De kernvraag: wat is "acht"? & meer');
+
+        $this->assertSame('De kernvraag: wat is "acht"? & meer', $doc['toc'][0]['title']);
+    }
+
     public function test_inline_strips_paragraph(): void
     {
         $this->assertSame('Splits <strong>14</strong>.', $this->markdown->inline('Splits **14**.'));

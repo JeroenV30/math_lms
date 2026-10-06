@@ -26,6 +26,7 @@ class ContentValidator
     public function __construct(
         private readonly ContentService $content,
         private readonly AnswerCheckerFactory $checkers,
+        private readonly LanguageChecker $language,
     ) {}
 
     /**
@@ -46,6 +47,10 @@ class ContentValidator
         $timeline = $this->content->timeline()->pluck('id')->all();
         $people = $this->content->mathematicians()->pluck('id')->all();
         $seenIds = [];
+
+        foreach (['course.json', 'domains.json', 'history/timeline.json', 'history/mathematicians.json'] as $file) {
+            $this->checkLanguageInJson(config('course.content_path').'/'.$file, $file);
+        }
 
         foreach ($modules as $module) {
             $where = "Module {$module->id}";
@@ -71,6 +76,10 @@ class ContentValidator
             }
 
             $placed = $this->validateLessons($module, $where);
+
+            foreach (['module.json', 'exercises.json', 'quiz.json'] as $file) {
+                $this->checkLanguageInJson($this->content->modulePath($module).'/'.$file, "{$where}/{$file}");
+            }
 
             try {
                 $exercises = $this->content->exercises($module);
@@ -139,6 +148,10 @@ class ContentValidator
                 $this->expect(is_file(public_path($image)), "{$where}/{$lesson->file}: afbeelding {$image} ontbreekt.");
             }
 
+            foreach ($this->language->check($markdown) as $issue) {
+                $this->errors[] = "{$where}/{$lesson->file}: {$issue}";
+            }
+
             $dollars = substr_count(preg_replace('/\\\\\$/', '', $markdown), '$');
             $this->expect($dollars % 2 === 0, "{$where}/{$lesson->file}: oneven aantal \$-tekens (formule niet gesloten?).");
         }
@@ -203,6 +216,19 @@ class ContentValidator
                 ! $checker->check((string) $rule['answer'], $exercise->answer, [...$exercise->options, 'require_simplified' => false])->correct,
                 "{$id}: feedback-antwoord '{$rule['answer']}' is eigenlijk goed.",
             );
+        }
+    }
+
+    private function checkLanguageInJson(string $path, string $where): void
+    {
+        if (! is_file($path)) {
+            return;
+        }
+
+        $data = json_decode(file_get_contents($path), true);
+
+        foreach ($this->language->checkData($data) as $issue) {
+            $this->errors[] = "{$where}: {$issue}";
         }
     }
 

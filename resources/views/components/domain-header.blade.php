@@ -10,8 +10,7 @@
             {{ $meta ?? '' }}
         </div>
         <div class="mt-5 flex items-start gap-5">
-            <span class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full font-serif text-xl font-semibold text-white"
-                  style="background-color: {{ $domain['color'] }}" aria-hidden="true">{{ $domain['monogram'] }}</span>
+            <x-domain-monogram :domain="$domain" size="xl" />
             <div>
                 <p class="eyebrow">{{ implode(' · ', $domain['tagline'] ?? []) }}</p>
                 <h1 class="page-title mt-1">{{ $domain['name'] }}</h1>

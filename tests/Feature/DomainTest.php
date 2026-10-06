@@ -46,6 +46,34 @@ class DomainTest extends TestCase
         $this->get('/')->assertSee('Getallen · Structuren · Logica');
     }
 
+    public function test_top_bar_follows_the_active_domain(): void
+    {
+        $this->useFixtureContent();
+
+        // Wiskunde: eigen menu, zoeken en bibliotheek; het actieve domein staat naast het logo.
+        $this->get('/')
+            ->assertOk()
+            ->assertSee('aria-label="Menu Wiskunde"', false)
+            ->assertSee('href="'.route('mathematicians.index').'"', false)
+            ->assertSee('Zoeken in Wiskunde')
+            ->assertSee('Formulebibliotheek');
+
+        // Een domein in voorbereiding: geen wiskundemenu, wel de algemene onderdelen.
+        $this->get('/kennis/biologie')
+            ->assertOk()
+            ->assertSee('aria-label="Menu Biologie"', false)
+            ->assertDontSee('href="'.route('mathematicians.index').'"', false)
+            ->assertDontSee('Zoeken in')
+            ->assertDontSee('Formulebibliotheek')
+            ->assertSee('Instellingen');
+
+        // De kaart hoort bij geen domein; het logo leidt ernaartoe.
+        $this->get('/kennis')
+            ->assertOk()
+            ->assertDontSee('href="'.route('practice.index').'"', false)
+            ->assertSee('href="'.route('domains.index').'" class="flex shrink-0 items-center gap-2.5"', false);
+    }
+
     public function test_theme_is_set_before_render_and_can_be_switched(): void
     {
         $this->useFixtureContent();

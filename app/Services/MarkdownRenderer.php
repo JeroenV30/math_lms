@@ -186,7 +186,8 @@ class MarkdownRenderer
 
         if ($withHeadingIds) {
             $html = preg_replace_callback('/<h([23])>(.*?)<\/h\1>/s', function (array $m) {
-                $title = trim(strip_tags($this->restoreMath($m[2], plain: true)));
+                // Platte tekst voor de inhoudsopgave: entiteiten terugzetten, anders escapet Blade ze nog eens (&quot; zichtbaar).
+                $title = trim(html_entity_decode(strip_tags($this->restoreMath($m[2], plain: true)), ENT_QUOTES | ENT_HTML5, 'UTF-8'));
                 $id = $this->uniqueId(Str::slug($title) ?: 'sectie');
                 $this->toc[] = ['id' => $id, 'title' => $title, 'level' => (int) $m[1]];
 

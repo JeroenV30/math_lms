@@ -22,46 +22,69 @@
 </head>
 <body class="min-h-screen bg-paper">
     @php
-        $nav = [
-            ['route' => 'dashboard', 'label' => 'Dashboard', 'match' => 'dashboard'],
-            ['route' => 'course.index', 'label' => 'Cursus', 'match' => 'course.*|module.*|lesson.*|quiz.*'],
-            ['route' => 'practice.index', 'label' => 'Oefenen', 'match' => 'practice.*'],
-            ['route' => 'review.index', 'label' => 'Herhalen', 'match' => 'review.*', 'badge' => $reviewCount],
-            ['route' => 'history.index', 'label' => 'Tijdlijn', 'match' => 'history.*'],
-            ['route' => 'mathematicians.index', 'label' => 'Wiskundigen', 'match' => 'mathematicians.*'],
-            ['route' => 'progress.index', 'label' => 'Voortgang', 'match' => 'progress.*'],
-        ];
-        $more = [
-            ['route' => 'glossary', 'label' => 'Woordenlijst'],
-            ['route' => 'formulas', 'label' => 'Formulebibliotheek'],
-            ['route' => 'settings.edit', 'label' => 'Instellingen'],
-        ];
-        $isActive = fn (string $pattern) => collect(explode('|', $pattern))->contains(fn ($p) => request()->routeIs($p));
-        // Welk kennisdomein is actief? Alle huidige pagina's horen bij wiskunde, behalve de domeinpagina's zelf.
+        // Welk kennisdomein is actief? De domeinpagina's hebben hun eigen id; de kaart hoort bij geen domein;
+        // alle andere pagina's (dashboard, cursus, oefenen …) horen bij wiskunde.
         $activeDomain = match (true) {
             request()->routeIs('domains.show') => request()->route('domain'),
             request()->routeIs('domains.index') => null,
             default => 'wiskunde',
         };
+        $currentDomain = $activeDomain ? $knowledgeDomains->firstWhere('id', $activeDomain) : null;
+
+        // Menu per domein. Een domein zonder eigen menu (nog in voorbereiding) krijgt alleen de algemene onderdelen.
+        $domainMenus = [
+            'wiskunde' => [
+                'search' => true,
+                'nav' => [
+                    ['route' => 'dashboard', 'label' => 'Dashboard', 'match' => 'dashboard'],
+                    ['route' => 'course.index', 'label' => 'Cursus', 'match' => 'course.*|module.*|lesson.*|quiz.*'],
+                    ['route' => 'practice.index', 'label' => 'Oefenen', 'match' => 'practice.*'],
+                    ['route' => 'review.index', 'label' => 'Herhalen', 'match' => 'review.*', 'badge' => $reviewCount],
+                    ['route' => 'history.index', 'label' => 'Tijdlijn', 'match' => 'history.*'],
+                    ['route' => 'mathematicians.index', 'label' => 'Wiskundigen', 'match' => 'mathematicians.*'],
+                    ['route' => 'progress.index', 'label' => 'Voortgang', 'match' => 'progress.*'],
+                ],
+                'library' => [
+                    ['route' => 'glossary', 'label' => 'Woordenlijst'],
+                    ['route' => 'formulas', 'label' => 'Formulebibliotheek'],
+                ],
+            ],
+        ];
+        $menu = $domainMenus[$activeDomain] ?? ['search' => false, 'nav' => [], 'library' => []];
+        $general = [
+            ['route' => 'domains.index', 'label' => 'Kaart van kennis'],
+            ['route' => 'settings.edit', 'label' => 'Instellingen'],
+        ];
+        $isActive = fn (string $pattern) => collect(explode('|', $pattern))->contains(fn ($p) => request()->routeIs($p));
     @endphp
 
-    <header class="sticky top-0 z-40 border-b border-line bg-paper/95 backdrop-blur" x-data="{ open: false, search: false }">
-        <div class="container-page flex h-16 items-center gap-4">
-            <a href="{{ route('dashboard') }}" class="flex shrink-0 items-center gap-2.5">
+    <header class="sticky top-0 z-40 border-b border-line bg-paper/95 backdrop-blur" x-data="{ open: false }">
+        <div class="flex h-16 w-full items-center gap-3 px-4 lg:px-5">
+            <a href="{{ route('domains.index') }}" class="flex shrink-0 items-center gap-2.5" title="{{ $site['name'] }}: kaart van kennis">
                 <span class="flex h-8 w-8 items-center justify-center rounded-md bg-ink text-paper" aria-hidden="true">
                     <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10" cy="10" r="2.5"/><circle cx="10" cy="3" r="1.2"/><circle cx="16" cy="13.5" r="1.2"/><circle cx="4" cy="13.5" r="1.2"/><path d="M10 5.5v2M14.9 12.6l-2.7-1.4M5.1 12.6l2.7-1.4"/></svg>
                 </span>
-                <span class="hidden leading-tight sm:block">
+                {{-- Met een domeinmenu is de ruimte krap: de naam pas vanaf xl, het logo zegt genoeg. --}}
+                <span @class(['leading-tight', 'hidden sm:block' => ! $menu['nav'], 'hidden xl:block' => $menu['nav']])>
                     <span class="block font-serif text-[0.95rem] font-semibold text-ink">{{ $site['name'] }}</span>
                     <span class="block text-[0.7rem] tracking-wide text-muted">{{ $site['tagline'] }}</span>
                 </span>
             </a>
 
-            <nav class="ml-4 hidden flex-1 items-center gap-1 lg:flex" aria-label="Hoofdnavigatie">
-                @foreach ($nav as $item)
+            @if ($currentDomain)
+                {{-- Het actieve domein, met hetzelfde monogram als in de domeinbalk. --}}
+                <span class="h-6 w-px shrink-0 bg-line" aria-hidden="true"></span>
+                <a href="{{ route('domains.show', $currentDomain['id']) }}" class="flex shrink-0 items-center gap-2 rounded-md py-1 pr-2 pl-1 hover:bg-mist">
+                    <x-domain-monogram :domain="$currentDomain" size="sm" />
+                    <span class="text-sm font-semibold text-ink">{{ $currentDomain['name'] }}</span>
+                </a>
+            @endif
+
+            <nav class="ml-2 hidden min-w-0 flex-1 items-center gap-0.5 lg:flex" aria-label="Menu {{ $currentDomain['name'] ?? $site['name'] }}">
+                @foreach ($menu['nav'] as $item)
                     <a href="{{ route($item['route']) }}"
                        @class([
-                           'relative rounded-md px-3 py-2 text-sm font-medium transition-colors',
+                           'relative shrink-0 rounded-md px-2.5 py-2 text-sm font-medium whitespace-nowrap transition-colors',
                            'text-ink bg-mist' => $isActive($item['match']),
                            'text-muted hover:text-ink' => ! $isActive($item['match']),
                        ])>
@@ -73,13 +96,18 @@
                 @endforeach
             </nav>
 
-            <div class="ml-auto flex items-center gap-1">
-                <form action="{{ route('search') }}" method="get" class="relative hidden md:block" role="search">
-                    <label for="site-search" class="sr-only">Zoeken</label>
-                    <input id="site-search" type="search" name="q" value="{{ request('q') }}" placeholder="Zoeken…"
-                           class="w-40 rounded-lg border border-line bg-mist py-1.5 pr-3 pl-8 text-sm placeholder:text-faint focus:w-56 focus:border-accent focus:bg-paper focus:outline-none transition-all">
-                    <svg class="pointer-events-none absolute top-1/2 left-2.5 h-4 w-4 -translate-y-1/2 text-faint" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="9" cy="9" r="6"/><path d="m14 14 4 4" stroke-linecap="round"/></svg>
-                </form>
+            <div class="ml-auto flex shrink-0 items-center gap-1">
+                @if ($menu['search'])
+                    <form action="{{ route('search') }}" method="get" class="relative hidden xl:block" role="search">
+                        <label for="site-search" class="sr-only">Zoeken in {{ $currentDomain['name'] }}</label>
+                        <input id="site-search" type="search" name="q" value="{{ request('q') }}" placeholder="Zoeken…"
+                               class="w-36 rounded-lg border border-line bg-mist py-1.5 pr-3 pl-8 text-sm placeholder:text-faint focus:w-52 focus:border-accent focus:bg-paper focus:outline-none transition-all">
+                        <svg class="pointer-events-none absolute top-1/2 left-2.5 h-4 w-4 -translate-y-1/2 text-faint" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="9" cy="9" r="6"/><path d="m14 14 4 4" stroke-linecap="round"/></svg>
+                    </form>
+                    <a href="{{ route('search') }}" class="btn btn-ghost hidden px-2.5 md:inline-flex xl:hidden" aria-label="Zoeken in {{ $currentDomain['name'] }}" title="Zoeken">
+                        <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="9" cy="9" r="6"/><path d="m14 14 4 4" stroke-linecap="round"/></svg>
+                    </a>
+                @endif
 
                 <div x-data="{
                         mode: (() => { try { return localStorage.getItem('theme') || 'system' } catch (e) { return 'system' } })(),
@@ -101,8 +129,15 @@
                     <button type="button" class="btn btn-ghost px-2.5" @click="more = !more" :aria-expanded="more" aria-label="Meer">
                         <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><circle cx="4" cy="10" r="1.6"/><circle cx="10" cy="10" r="1.6"/><circle cx="16" cy="10" r="1.6"/></svg>
                     </button>
-                    <div x-cloak x-show="more" x-transition.opacity class="absolute right-0 mt-2 w-52 rounded-xl border border-line bg-paper p-1.5 shadow-lg">
-                        @foreach ($more as $item)
+                    <div x-cloak x-show="more" x-transition.opacity class="absolute right-0 mt-2 w-56 rounded-xl border border-line bg-paper p-1.5 shadow-lg">
+                        @if ($menu['library'])
+                            <p class="eyebrow px-3 pt-2 pb-1">{{ $currentDomain['name'] }}</p>
+                            @foreach ($menu['library'] as $item)
+                                <a href="{{ route($item['route']) }}" class="block rounded-md px-3 py-2 text-sm text-ink-soft hover:bg-mist">{{ $item['label'] }}</a>
+                            @endforeach
+                            <div class="my-1.5 border-t border-line"></div>
+                        @endif
+                        @foreach ($general as $item)
                             <a href="{{ route($item['route']) }}" class="block rounded-md px-3 py-2 text-sm text-ink-soft hover:bg-mist">{{ $item['label'] }}</a>
                         @endforeach
                     </div>
@@ -117,24 +152,34 @@
 
         <div x-cloak x-show="open" x-transition.opacity class="border-t border-line bg-paper lg:hidden">
             <nav class="container-page grid gap-1 py-3" aria-label="Mobiele navigatie">
-                <form action="{{ route('search') }}" method="get" class="mb-2" role="search">
-                    <input type="search" name="q" placeholder="Zoeken…" class="input text-sm" aria-label="Zoeken">
-                </form>
-                @foreach (array_merge($nav, $more) as $item)
-                    <a href="{{ route($item['route']) }}" class="flex items-center justify-between rounded-md px-3 py-2 text-sm font-medium text-ink-soft hover:bg-mist">
-                        {{ $item['label'] }}
-                        @if (! empty($item['badge']))
-                            <span class="rounded-full bg-accent px-1.5 py-0.5 text-[0.65rem] font-semibold text-white">{{ $item['badge'] }}</span>
-                        @endif
-                    </a>
-                @endforeach
+                @if ($menu['search'])
+                    <form action="{{ route('search') }}" method="get" class="mb-2" role="search">
+                        <input type="search" name="q" placeholder="Zoeken in {{ $currentDomain['name'] }}…" class="input text-sm" aria-label="Zoeken in {{ $currentDomain['name'] }}">
+                    </form>
+                @endif
+                @if ($menu['nav'] || $menu['library'])
+                    <p class="eyebrow px-3">{{ $currentDomain['name'] }}</p>
+                    @foreach (array_merge($menu['nav'], $menu['library']) as $item)
+                        <a href="{{ route($item['route']) }}" class="flex items-center justify-between rounded-md px-3 py-2 text-sm font-medium text-ink-soft hover:bg-mist">
+                            {{ $item['label'] }}
+                            @if (! empty($item['badge']))
+                                <span class="rounded-full bg-accent px-1.5 py-0.5 text-[0.65rem] font-semibold text-white">{{ $item['badge'] }}</span>
+                            @endif
+                        </a>
+                    @endforeach
+                @endif
                 <p class="eyebrow mt-4 px-3">Kennisdomeinen</p>
                 <div class="grid grid-cols-2 gap-1">
-                    @foreach ($knowledgeDomains as $domain)
-                        <a href="{{ route('domains.show', $domain['id']) }}" class="flex items-center gap-2 rounded-md px-3 py-2 text-sm text-ink-soft hover:bg-mist">
-                            <span class="h-2 w-2 shrink-0 rounded-full" style="background-color: {{ $domain['color'] }}"></span>
-                            <span class="truncate">{{ $domain['name'] }}</span>
+                    @foreach ($knowledgeDomains as $item)
+                        <a href="{{ route('domains.show', $item['id']) }}" class="flex items-center gap-2 rounded-md px-3 py-2 text-sm text-ink-soft hover:bg-mist">
+                            <x-domain-monogram :domain="$item" size="xs" />
+                            <span class="truncate">{{ $item['name'] }}</span>
                         </a>
+                    @endforeach
+                </div>
+                <div class="mt-3 border-t border-line pt-3">
+                    @foreach ($general as $item)
+                        <a href="{{ route($item['route']) }}" class="block rounded-md px-3 py-2 text-sm text-ink-soft hover:bg-mist">{{ $item['label'] }}</a>
                     @endforeach
                 </div>
             </nav>
@@ -152,10 +197,10 @@
     <footer class="mt-24 border-t border-line">
         <div class="container-page flex flex-col gap-2 py-8 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
             <p>{{ $site['name'] }} — begrijpen → toepassen → fouten maken → uitleg krijgen → opnieuw proberen → beheersen.</p>
-            <p class="flex gap-4">
-                <a href="{{ route('glossary') }}" class="hover:text-ink">Woordenlijst</a>
-                <a href="{{ route('formulas') }}" class="hover:text-ink">Formules</a>
-                <a href="{{ route('settings.edit') }}" class="hover:text-ink">Instellingen</a>
+            <p class="flex flex-wrap gap-x-4 gap-y-1">
+                @foreach (array_merge($menu['library'], $general) as $item)
+                    <a href="{{ route($item['route']) }}" class="hover:text-ink">{{ $item['label'] }}</a>
+                @endforeach
             </p>
         </div>
     </footer>

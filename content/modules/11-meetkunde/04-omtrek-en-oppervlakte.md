@@ -44,7 +44,7 @@ Neem een touw van 20 meter en span het als rechthoek uit. Je kunt 2 bij 8 maken,
 | 4 m × 6 m | 20 m | 24 m² |
 | 5 m × 5 m | 20 m | 25 m² |
 
-Hoe meer de rechthoek op een vierkant lijkt, hoe groter de oppervlakte bij dezelfde omtrek. Daarom is "het perceel heeft een omtrek van 400 meter" geen bruikbare maat voor hoeveel grond iemand bezit. Een smalle strook van 1 bij 199 meter heeft dezelfde omtrek als een vierkant van 100 bij 100 meter, maar maar een vijftigste van de oppervlakte.
+Hoe meer de rechthoek op een vierkant lijkt, hoe groter de oppervlakte bij dezelfde omtrek. Daarom is "het perceel heeft een omtrek van 400 meter" geen bruikbare maat voor hoeveel grond iemand bezit. Een smalle strook van 1 bij 199 meter heeft dezelfde omtrek als een vierkant van 100 bij 100 meter, maar een vijftigste van de oppervlakte.
 
 :::warning Omtrek en oppervlakte verwarren
 Twee klassieke fouten. Ten eerste: de omtrek berekenen als $l \times b$ of de oppervlakte als $2(l + b)$. Ten tweede: de eenheid vergeten of verkeerd kiezen. Stel jezelf daarom altijd eerst de vraag: **zoek ik een rand of een vlak?** Bij een rand hoort m, bij een vlak hoort m².

@@ -30,9 +30,7 @@
                    'hover:bg-paper' => ! $isActive,
                ])
                @if ($isActive) aria-current="page" @endif>
-                <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full font-serif text-[0.8rem] font-semibold"
-                      style="background-color: {{ $domain['color'] }}{{ $planned ? '1f' : '' }}; color: {{ $planned ? $domain['color'] : '#ffffff' }}"
-                      aria-hidden="true">{{ $domain['monogram'] }}</span>
+                <x-domain-monogram :domain="$domain" />
                 <span class="min-w-0" x-show="open" x-cloak>
                     <span @class(['block truncate text-sm font-medium', 'text-ink' => ! $planned || $isActive, 'text-ink-soft' => $planned && ! $isActive])>{{ $domain['name'] }}</span>
                     <span class="block truncate text-[0.7rem] text-muted">
