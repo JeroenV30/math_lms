@@ -61,7 +61,7 @@ Waarom heet de formule in Nederland en Vlaanderen de **abc-formule**? De naam is
 ## Bronnen
 
 - [MacTutor, Babylonian mathematics](https://mathshistory.st-andrews.ac.uk/HistTopics/Babylonian_mathematics/)
-- [Wikipedia, BM 13901](https://en.wikipedia.org/wiki/Babylonian_mathematics)
+- [Wikipedia, Babylonian mathematics](https://en.wikipedia.org/wiki/Babylonian_mathematics)
 - [MacTutor, Al-Khwarizmi](https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/)
 - [MacTutor, Brahmagupta](https://mathshistory.st-andrews.ac.uk/Biographies/Brahmagupta/)
 - [Wikipedia, Quadratic equation](https://en.wikipedia.org/wiki/Quadratic_equation)
