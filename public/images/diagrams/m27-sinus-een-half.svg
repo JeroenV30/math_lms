@@ -6,5 +6,5 @@
 <circle cx="295.3" cy="95.0" r="5" fill="#3b5bdb"/><circle cx="104.7" cy="95.0" r="5" fill="#3b5bdb"/>
 <line x1="200" y1="150" x2="295.3" y2="95.0" stroke="#3b5bdb" stroke-dasharray="4 3"/><line x1="200" y1="150" x2="104.7" y2="95.0" stroke="#3b5bdb" stroke-dasharray="4 3"/>
 <text x="303" y="87.0" fill="#3b5bdb">x = π/6</text><text x="35" y="87.0" fill="#3b5bdb">x = 5π/6</text>
-<text x="72" y="113.0" fill="#9c6b30">y = 1/2</text>
+<text x="212" y="88" fill="#9c6b30" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">y = 1/2</text>
 </svg>
