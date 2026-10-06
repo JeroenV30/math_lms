@@ -7,7 +7,7 @@
   "status": "available",
   "historical_period": "18e–19e eeuw",
   "estimated_difficulty": 5,
-  "estimated_minutes": 180,
+  "estimated_minutes": 240,
   "prerequisites": [
     36
   ],
@@ -16,13 +16,16 @@
     "random-variables"
   ],
   "core_question": "Wanneer kun je veel verschillende onzekere processen met dezelfde verdelingsvorm beschrijven?",
-  "summary": "De binomiale en normale verdeling, standaardiseren met z-scores, cumulatieve kansen en de voorwaarden voor een normale benadering.",
+  "summary": "De binomiale, Poisson- en normale verdeling: voorwaarden, cumulatieve kansen, standaardiseren met z-scores, de normale benadering met continuïteitscorrectie en de som van normale variabelen.",
   "learning_goals": [
-    "Je controleert de voorwaarden van een binomiaal model.",
+    "Je controleert de voorwaarden van een binomiaal model en herkent situaties waarin ze niet gelden.",
     "Je berekent exacte, cumulatieve en complementaire binomiale kansen.",
     "Je berekent verwachting en spreiding van een binomiale variabele.",
-    "Je standaardiseert normale variabelen en gebruikt een tabel of widget om kansen te bepalen.",
-    "Je past de normale benadering met continuïteitscorrectie alleen onder geschikte voorwaarden toe."
+    "Je gebruikt de Poisson-verdeling voor zeldzame gebeurtenissen en als benadering bij kleine kansen.",
+    "Je standaardiseert normale variabelen en gebruikt een tabel of widget voor links-, rechts- en tussenkansen, ook omgekeerd.",
+    "Je past de normale benadering met continuïteitscorrectie alleen onder geschikte voorwaarden toe.",
+    "Je berekent kansen voor de som en het verschil van onafhankelijke normale variabelen.",
+    "Je beschrijft hoe De Moivre, Laplace, Gauss en Poisson aan deze verdelingen hebben bijgedragen."
   ],
   "glossary": [
     {
@@ -44,28 +47,66 @@
     {
       "term": "Continuïteitscorrectie",
       "definition": "Een verschuiving met 0,5 bij het benaderen van gehele aantallen met een continue normale verdeling."
+    },
+    {
+      "term": "Bernoulli-proef",
+      "definition": "Een proef met twee uitkomsten, succes (kans p) en mislukking (kans 1−p)."
+    },
+    {
+      "term": "Poisson-verdeling",
+      "definition": "De verdeling van het aantal zeldzame gebeurtenissen met gemiddelde λ; limiet van de binomiale verdeling bij grote n en kleine p."
+    },
+    {
+      "term": "z-score",
+      "definition": "Het aantal standaardafwijkingen dat een waarde van het gemiddelde afligt: z=(x−μ)/σ."
+    },
+    {
+      "term": "Dichtheidsfunctie",
+      "definition": "De functie waarvan het oppervlak onder de grafiek tussen twee grenzen de kans op dat interval geeft."
     }
   ],
   "formulas": [
     {
       "name": "Binomiale kans",
       "latex": "P(X=k)=\\binom nk p^k(1-p)^{n-k}",
-      "usage": "Voor X∼Bin(n,p); k is een geheel getal van 0 tot n."
+      "usage": "Voor X∼Bin(n,p); k is een geheel getal van 0 tot n.",
+      "origin": "Uitgewerkt door Jakob Bernoulli (Ars Conjectandi, 1713) voor herhaalde proeven."
     },
     {
       "name": "Binomiale verwachting en variantie",
       "latex": "E(X)=np,\\quad\\operatorname{Var}(X)=np(1-p)",
-      "usage": "De standaardafwijking is de wortel van de variantie."
+      "usage": "De standaardafwijking is de wortel van de variantie.",
+      "origin": "Volgt uit het optellen van n onafhankelijke 0/1-variabelen."
+    },
+    {
+      "name": "Poisson-kans",
+      "latex": "P(X=k)=e^{-\\lambda}\\frac{\\lambda^k}{k!}",
+      "usage": "Voor zeldzame gebeurtenissen met gemiddelde λ; benadert Bin(n,p) met λ=np bij kleine p.",
+      "origin": "Siméon Denis Poisson, 1837; bekend geworden door Bortkiewicz (1898)."
     },
     {
       "name": "Standaardiseren",
       "latex": "Z=\\frac{X-\\mu}{\\sigma}",
-      "usage": "Bij X normaal verdeeld en σ>0 is Z standaardnormaal."
+      "usage": "Bij X normaal verdeeld en σ>0 is Z standaardnormaal.",
+      "origin": "Standaardvorm van de normale kromme van De Moivre, Laplace en Gauss."
     },
     {
       "name": "Normale dichtheid",
       "latex": "f(x)=\\frac{1}{\\sigma\\sqrt{2\\pi}}\\exp\\!\\left(-\\frac{(x-\\mu)^2}{2\\sigma^2}\\right)",
-      "usage": "Kansen zijn oppervlakten; de hoogte is geen kans."
+      "usage": "Kansen zijn oppervlakten; de hoogte is geen kans.",
+      "origin": "De Moivre (1733) als benadering van de binomiale verdeling; Gauss (1809) als foutenwet."
+    },
+    {
+      "name": "Normale benadering van de binomiale verdeling",
+      "latex": "X\\approx Y\\sim N\\bigl(np,\\ np(1-p)\\bigr)",
+      "usage": "Bij np ≥ 5 en n(1−p) ≥ 5; gebruik de continuïteitscorrectie ±0,5.",
+      "origin": "Stelling van De Moivre–Laplace (1738, 1812)."
+    },
+    {
+      "name": "Som van onafhankelijke normale variabelen",
+      "latex": "X+Y\\sim N(\\mu_1+\\mu_2,\\ \\sigma_1^2+\\sigma_2^2)",
+      "usage": "Verwachtingen en varianties tellen op, ook bij een verschil X−Y (varianties).",
+      "origin": "Stabiliteit van de normale familie."
     }
   ],
   "lessons": [
@@ -94,8 +135,14 @@
       "kind": "theory"
     },
     {
+      "slug": "theorie-d",
+      "title": "Zeldzame gebeurtenissen en sommen van normale variabelen",
+      "file": "03c-theorie-d.md",
+      "kind": "theory"
+    },
+    {
       "slug": "historisch-intermezzo",
-      "title": "Historisch intermezzo",
+      "title": "Een klok voor tellingen en meetfouten",
       "file": "04-historisch-intermezzo.md",
       "kind": "history"
     },
@@ -113,6 +160,7 @@
     }
   ],
   "timeline": [
+    "bernoulli-ars-conjectandi",
     "de-moivre",
     "gauss",
     "laplace"

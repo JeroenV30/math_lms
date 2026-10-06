@@ -53,7 +53,17 @@
         "distributions",
         "random-variables"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.0625,
+          "message": "Dit is de kans op één bepaalde volgorde ($1/16$). Je bent de binomiaalcoëfficiënt $\\binom42=6$ vergeten: er zijn zes volgordes met twee keer kop."
+        },
+        {
+          "answer": 0.25,
+          "message": "Je hebt $P(X=1)$ berekend. Hier zoek je twee successen."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -72,7 +82,13 @@
         "distributions",
         "random-variables"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.0625,
+          "message": "Dit is $P(X=0)$. De gebeurtenis 'minstens één keer kop' is het complement daarvan: trek het van 1 af."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -90,7 +106,13 @@
         "distributions",
         "random-variables"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Je geeft het aantal proeven. De verwachting is $np$, dus $20\\cdot0{,}3$."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -109,7 +131,13 @@
         "distributions",
         "random-variables"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Dit is $np$, de verwachting. De variantie is $np(1-p)$."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -128,7 +156,13 @@
         "distributions",
         "random-variables"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 4.2,
+          "message": "Dit is de variantie zelf. Neem er de wortel van voor de standaardafwijking."
+        }
+      ]
     },
     {
       "type": "text",
@@ -167,7 +201,17 @@
         "distributions",
         "random-variables"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 30,
+          "message": "Je hebt alleen $x-\\mu$ berekend. Deel nog door $\\sigma=15$."
+        },
+        {
+          "answer": 0.133,
+          "message": "Je deelt blijkbaar door 225 ($\\sigma^2$). Deel door de standaardafwijking 15."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -185,7 +229,13 @@
         "distributions",
         "random-variables"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 115,
+          "message": "Het teken klopt niet: bij $z=-1$ ligt $x$ links van het midden, dus $x=\\mu+z\\sigma=100-15$."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -223,7 +273,13 @@
         "distributions",
         "random-variables"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.8413,
+          "message": "Dit is de linkerkans $\\Phi(1)$. Je zoekt de rechterstaart: trek af van 1."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -242,7 +298,13 @@
         "distributions",
         "random-variables"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.8413,
+          "message": "Dit is slechts $\\Phi(1)$. Je moet de linkerkans bij $-1$ nog aftrekken."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -261,7 +323,13 @@
         "distributions",
         "random-variables"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 6.08,
+          "message": "Dit is de ondergrens $10-1{,}96\\cdot2$. Je zoekt de bovengrens."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -280,7 +348,17 @@
         "distributions",
         "random-variables"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 59.5,
+          "message": "Je corrigeert de verkeerde kant op. Bij $X\\le60$ hoort de strook van 60 er helemaal bij: de grens wordt 60,5."
+        },
+        {
+          "answer": 60,
+          "message": "Zonder continuïteitscorrectie mis je de halve staaf boven 60. Gebruik 60,5."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -299,7 +377,17 @@
         "distributions",
         "random-variables"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Dit is de z-waarde zonder correctie (grens 60). Gebruik de gecorrigeerde grens 60,5."
+        },
+        {
+          "answer": 1.9,
+          "message": "Je hebt met 59,5 gerekend: de correctie gaat bij $X\\le60$ omhoog."
+        }
+      ]
     },
     {
       "type": "text",
@@ -307,8 +395,9 @@
       "question": "X∼Bin(10;0,1). Leg uit waarom de normale benadering hier niet overtuigend is.",
       "answer": "Het verwachte aantal successen is slechts 1. De binomiale verdeling is sterk scheef en de normale benadering kan slecht werken.",
       "solution": [
-        "$np=1$ en $n(1-p)=9$.",
-        "Beide zijn niet minstens 10; gebruik de exacte binomiale kansen."
+        "$np=10\\cdot0{,}1=1$ en $n(1-p)=9$.",
+        "Zelfs de mildere vuistregel eist $np\\ge5$; hier is $np=1$.",
+        "Gebruik de exacte binomiale kansen of, bij kleine $p$, een Poisson-benadering."
       ],
       "hints": [
         "Controleer np en n(1−p)."
@@ -338,7 +427,13 @@
         "distributions",
         "random-variables"
       ],
-      "mode": "independent"
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": 0.9,
+          "message": "Dit is de kans dat één proef mislukt. Alle tien proeven moeten mislukken: $0{,}9^{10}$."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -358,7 +453,13 @@
         "distributions",
         "random-variables"
       ],
-      "mode": "independent"
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": 0.9332,
+          "message": "Dit is de linkerkans $\\Phi(1{,}5)$. 'Meer dan 530' is de rechterstaart."
+        }
+      ]
     },
     {
       "type": "fraction",
@@ -377,7 +478,763 @@
         "distributions",
         "random-variables"
       ],
-      "mode": "challenge"
+      "mode": "challenge",
+      "feedback": [
+        {
+          "answer": "1/16",
+          "message": "Dat is de onvoorwaardelijke kans. Deel door de kans op de voorwaarde, $15/16$."
+        },
+        {
+          "answer": "1/4",
+          "message": "Controleer de noemer: de voorwaarde 'minstens één keer kop' heeft kans $15/16$, niet $4/16$."
+        }
+      ]
+    },
+    {
+      "id": "37-021",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Voor $X\\sim\\operatorname{Bin}(5;0{,}2)$: bereken $P(X=2)$ op vier decimalen.",
+      "answer": 0.2048,
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.0205,
+          "message": "Dit is de kans op één bepaalde volgorde. Vermenigvuldig met $\\binom52=10$."
+        },
+        {
+          "answer": 0.4,
+          "message": "Dit is de verwachting $np$, geen kans."
+        }
+      ],
+      "hints": [
+        "Hoeveel manieren zijn er om twee van de vijf proeven als succes te kiezen?",
+        "Vermenigvuldig dat aantal met $p^2(1-p)^3$."
+      ],
+      "solution": [
+        "$\\binom52=10$.",
+        "$0{,}2^2\\cdot0{,}8^3=0{,}04\\cdot0{,}512=0{,}02048$.",
+        "$10\\cdot0{,}02048=0{,}2048$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-022",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Voor $X\\sim\\operatorname{Bin}(8;0{,}25)$: bereken $P(X\\le1)$ op vier decimalen.",
+      "answer": 0.3671,
+      "tolerance": 0.0002,
+      "feedback": [
+        {
+          "answer": 0.267,
+          "message": "Dit is alleen $P(X=1)$. Tel $P(X=0)$ erbij."
+        },
+        {
+          "answer": 0.1001,
+          "message": "Dit is alleen $P(X=0)$, dus $P(X<1)$. Tel $P(X=1)$ erbij."
+        }
+      ],
+      "hints": [
+        "'Hoogstens 1' is 0 of 1: tel twee kansen op."
+      ],
+      "solution": [
+        "$P(X=0)=0{,}75^8\\approx0{,}1001$.",
+        "$P(X=1)=8\\cdot0{,}25\\cdot0{,}75^7\\approx0{,}2670$.",
+        "Som: $0{,}1001+0{,}2670\\approx0{,}3671$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-023",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Voor $X\\sim\\operatorname{Bin}(10;0{,}5)$: bereken $P(X\\ge8)$ op vier decimalen.",
+      "answer": 0.0547,
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.0107,
+          "message": "Je hebt $1-P(X\\le8)$ berekend: dat is $P(X\\ge9)$. Het complement van $X\\ge8$ is $X\\le7$."
+        },
+        {
+          "answer": 0.9453,
+          "message": "Dit is $P(X\\le7)$, het complement. Je zoekt de kans zelf."
+        }
+      ],
+      "hints": [
+        "'Minstens 8' is 8, 9 of 10. Wat is het complement?"
+      ],
+      "solution": [
+        "$P(X\\ge8)=1-P(X\\le7)$.",
+        "Of direct: $P(8)+P(9)+P(10)=(45+10+1)/1024=56/1024\\approx0{,}0547$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-024",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een machine levert 5% afgekeurde onderdelen. Je controleert 20 onafhankelijke onderdelen. Bereken de kans op minstens één afgekeurd onderdeel, op vier decimalen.",
+      "answer": 0.6415,
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.3585,
+          "message": "Dit is $P(X=0)$: de kans op géén afgekeurd stuk. Trek af van 1."
+        }
+      ],
+      "hints": [
+        "Gebruik het complement: geen enkel afgekeurd stuk."
+      ],
+      "solution": [
+        "$P(X\\ge1)=1-P(X=0)$.",
+        "$P(X=0)=0{,}95^{20}\\approx0{,}3585$.",
+        "$1-0{,}3585=0{,}6415$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-025",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je gooit 150 keer met een eerlijke dobbelsteen en telt het aantal zessen. Geef de standaardafwijking, afgerond op twee decimalen.",
+      "answer": 4.56,
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 20.83,
+          "message": "Dit is de variantie. Neem de wortel."
+        },
+        {
+          "answer": 25,
+          "message": "Dit is de verwachting $np$."
+        }
+      ],
+      "hints": [
+        "Bereken eerst de variantie $np(1-p)$."
+      ],
+      "solution": [
+        "$X\\sim\\operatorname{Bin}(150;\\tfrac16)$.",
+        "$\\operatorname{Var}=150\\cdot\\tfrac16\\cdot\\tfrac56\\approx20{,}83$.",
+        "$\\sigma=\\sqrt{20{,}83}\\approx4{,}56$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-026",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Voor $X\\sim\\operatorname{Bin}(40;0{,}15)$: geef de verwachting en de variantie.",
+      "parts": [
+        {
+          "label": "E(X)",
+          "answer": 6,
+          "type": "numeric"
+        },
+        {
+          "label": "Var(X)",
+          "answer": 5.1,
+          "type": "decimal",
+          "tolerance": 0.005
+        }
+      ],
+      "hints": [
+        "Verwachting: $np$. Variantie: $np(1-p)$."
+      ],
+      "solution": [
+        "$E(X)=40\\cdot0{,}15=6$.",
+        "$\\operatorname{Var}(X)=40\\cdot0{,}15\\cdot0{,}85=5{,}1$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-027",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke van de volgende situaties is bij benadering binomiaal verdeeld?\n\n1. Je trekt zonder teruglegging vijf kaarten uit een spel van tien kaarten en telt de azen.\n2. Twintig klanten komen onafhankelijk van elkaar binnen en kopen elk met kans 0,1; je telt de kopers.\n3. Je gooit een munt tot je voor het eerst kop hebt en telt het aantal worpen.\n\nGeef het nummer.",
+      "answer": 2,
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Zonder teruglegging uit een klein spel verandert de kans na elke trekking. De trekkingen zijn afhankelijk."
+        },
+        {
+          "answer": 3,
+          "message": "Hier ligt het aantal proeven niet vast: je stopt bij de eerste kop. Een binomiaal model telt successen in een vast aantal proeven."
+        }
+      ],
+      "hints": [
+        "Controleer per situatie de vier voorwaarden."
+      ],
+      "solution": [
+        "Situatie 2: $n=20$ vast, twee uitkomsten, constante kans, onafhankelijk.",
+        "Situatie 1: kleine populatie zonder teruglegging, dus afhankelijk (hypergeometrisch).",
+        "Situatie 3: het aantal worpen is niet vast (geometrisch)."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-028",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Voor $X\\sim\\operatorname{Poisson}(2)$: bereken $P(X=0)$ op vier decimalen.",
+      "answer": 0.1353,
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.8647,
+          "message": "Dit is $P(X\\ge1)=1-e^{-2}$, het complement."
+        }
+      ],
+      "hints": [
+        "Bij $k=0$ zijn $\\lambda^0$ en $0!$ allebei 1."
+      ],
+      "solution": [
+        "$P(X=0)=e^{-2}\\cdot2^0/0!=e^{-2}$.",
+        "$e^{-2}\\approx0{,}1353$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-029",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Voor $X\\sim\\operatorname{Poisson}(3)$: bereken $P(X=2)$ op vier decimalen.",
+      "answer": 0.224,
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.4481,
+          "message": "Je hebt niet door $2!=2$ gedeeld. Het is $3^2/2!=4{,}5$, niet 9."
+        }
+      ],
+      "hints": [
+        "Vergeet de $2!$ in de noemer niet."
+      ],
+      "solution": [
+        "$P(X=2)=e^{-3}\\cdot3^2/2!=4{,}5\\,e^{-3}$.",
+        "$e^{-3}\\approx0{,}049787$, dus $4{,}5\\cdot0{,}049787\\approx0{,}2240$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-030",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een fabriek heeft 1% defecte onderdelen. Je inspecteert 200 onafhankelijke onderdelen. Bereken de exacte kans op geen enkel defect, op vier decimalen.",
+      "answer": 0.134,
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.1353,
+          "message": "Dit is de Poisson-benadering $e^{-2}$. De vraag is naar de exacte binomiale kans $0{,}99^{200}$."
+        }
+      ],
+      "hints": [
+        "Alle 200 onderdelen moeten goed zijn."
+      ],
+      "solution": [
+        "$X\\sim\\operatorname{Bin}(200;0{,}01)$.",
+        "$P(X=0)=0{,}99^{200}\\approx0{,}1340$.",
+        "(De Poisson-benadering met $\\lambda=2$ geeft $0{,}1353$.)"
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-031",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een helpdesk krijgt gemiddeld 6 gesprekken per uur. Het aantal gesprekken in een bepaald tijdsinterval volgt een Poisson-verdeling. Wat is de parameter $\\lambda$ voor een interval van 20 minuten?",
+      "answer": 2,
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Dit is $\\lambda$ voor een heel uur. Het interval is een derde daarvan."
+        },
+        {
+          "answer": 20,
+          "message": "Dat is het aantal minuten. $\\lambda$ is het gemiddelde aantal gebeurtenissen in het interval."
+        }
+      ],
+      "hints": [
+        "Hoeveel twintigminutenintervallen passen er in een uur?"
+      ],
+      "solution": [
+        "Zes per uur is twee per twintig minuten: $\\lambda=6\\cdot\\tfrac13=2$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-032",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "$X$ is normaal verdeeld met $\\mu=75$ en $\\sigma=6$. Geef de z-score van $x=63$.",
+      "answer": -2,
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": -0.3333,
+          "message": "Je deelt door 36, de variantie. Deel door de standaardafwijking 6."
+        },
+        {
+          "answer": 2,
+          "message": "Het teken mist: 63 ligt links van het midden."
+        }
+      ],
+      "hints": [
+        "Trek $\\mu$ af en deel door $\\sigma$ (niet door $\\sigma^2$)."
+      ],
+      "solution": [
+        "$z=(63-75)/6=-2$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-033",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "$X\\sim N(500;\\,20^2)$. Gebruik $\\Phi(1{,}5)=0{,}9332$. Bereken $P(X<470)$.",
+      "answer": 0.0668,
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.9332,
+          "message": "Dit is $\\Phi(1{,}5)$, de kans op meer dan 470. Je zoekt de linkerstaart bij $z=-1{,}5$."
+        }
+      ],
+      "hints": [
+        "Standaardiseer eerst en gebruik de symmetrie $\\Phi(-z)=1-\\Phi(z)$."
+      ],
+      "solution": [
+        "$z=(470-500)/20=-1{,}5$.",
+        "$P(X<470)=\\Phi(-1{,}5)=1-\\Phi(1{,}5)=1-0{,}9332=0{,}0668$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-034",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "$X\\sim N(100;\\,15^2)$. Welke waarde wordt door slechts 5% van de populatie overschreden? Gebruik $z=1{,}645$ en rond af op twee decimalen.",
+      "answer": 124.68,
+      "tolerance": 0.01,
+      "feedback": [
+        {
+          "answer": 75.33,
+          "message": "Je gebruikt $z=-1{,}645$: dat is de grens van de onderste 5%. Je zoekt de bovenste."
+        }
+      ],
+      "hints": [
+        "Een rechterstaartkans van 5% is een linkerkans van 95%."
+      ],
+      "solution": [
+        "Zoek $x$ met $P(X>x)=0{,}05$, dus $P(X\\le x)=0{,}95$, dus $z=1{,}645$.",
+        "$x=100+1{,}645\\cdot15=124{,}675\\approx124{,}68$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-035",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een machine vult pakken met $\\mu=250$ g en $\\sigma=4$ g (normaal). De onderste 2,5% wordt afgekeurd. Onder welk gewicht ligt de afkeurgrens? ($z=-1{,}96$.)",
+      "answer": 242.16,
+      "tolerance": 0.01,
+      "feedback": [
+        {
+          "answer": 257.84,
+          "message": "Je gebruikt $z=+1{,}96$: dat is de bovengrens. De onderste 2,5% ligt links van het midden."
+        }
+      ],
+      "hints": [
+        "Gebruik $x=\\mu+z\\sigma$ met $z=-1{,}96$."
+      ],
+      "solution": [
+        "$x=\\mu+z\\sigma=250-1{,}96\\cdot4=250-7{,}84=242{,}16$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-036",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "$X\\sim N(1000;\\,50^2)$. Hoeveel procent ligt volgens de 68–95–99,7-regel tussen 900 en 1100?",
+      "answer": 95,
+      "feedback": [
+        {
+          "answer": 68,
+          "message": "Dat geldt voor $\\mu\\pm1\\sigma$, dus 950 tot 1050. Hier is het gebied twee standaardafwijkingen breed."
+        }
+      ],
+      "hints": [
+        "Hoeveel standaardafwijkingen is 100 van het midden?"
+      ],
+      "solution": [
+        "900 is $\\mu-2\\sigma$ en 1100 is $\\mu+2\\sigma$.",
+        "Binnen twee standaardafwijkingen ligt ongeveer 95%."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-037",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Voor $X\\sim\\operatorname{Bin}(40;0{,}2)$ wil je de normale benadering toepassen. Bereken $np$ en $n(1-p)$.",
+      "parts": [
+        {
+          "label": "np",
+          "answer": 8,
+          "type": "numeric"
+        },
+        {
+          "label": "n(1-p)",
+          "answer": 32,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Het zijn twee afzonderlijke producten."
+      ],
+      "solution": [
+        "$np=40\\cdot0{,}2=8$.",
+        "$n(1-p)=40\\cdot0{,}8=32$.",
+        "Beide zijn minstens 5: de normale benadering is toegestaan."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-038",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "$X\\sim\\operatorname{Bin}(80;0{,}5)$ wordt normaal benaderd ($\\mu=40$, $\\sigma=\\sqrt{20}$). Bereken de gecorrigeerde z-waarde voor $P(X\\ge45)$, op twee decimalen.",
+      "answer": 1.01,
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 1.12,
+          "message": "Je rekende zonder continuïteitscorrectie (grens 45)."
+        },
+        {
+          "answer": 1.23,
+          "message": "Je corrigeerde de verkeerde kant op (45,5). Bij $X\\ge45$ hoort 44,5."
+        }
+      ],
+      "hints": [
+        "Bij $X\\ge k$ ga je een halve stap omlaag: de grens is 44,5."
+      ],
+      "solution": [
+        "$X\\ge45$ wordt $Y\\ge44{,}5$.",
+        "$z=(44{,}5-40)/\\sqrt{20}=4{,}5/4{,}472\\approx1{,}01$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-039",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "$X\\sim\\operatorname{Bin}(100;0{,}3)$. Benader $P(X\\le35)$ met de normale verdeling en continuïteitscorrectie. Gebruik $\\Phi(1{,}20)=0{,}8849$; rond af op vier decimalen.",
+      "answer": 0.8849,
+      "tolerance": 0.0005,
+      "feedback": [
+        {
+          "answer": 0.8624,
+          "message": "Je rekende zonder correctie: $z=5/4{,}583\\approx1{,}09$. Gebruik de grens 35,5."
+        }
+      ],
+      "hints": [
+        "Bij $X\\le35$ ga je een halve stap omhoog: 35,5."
+      ],
+      "solution": [
+        "$\\mu=30$, $\\sigma=\\sqrt{21}\\approx4{,}583$.",
+        "$X\\le35$ wordt $Y\\le35{,}5$.",
+        "$z=5{,}5/4{,}583\\approx1{,}20$, dus $\\Phi(1{,}20)=0{,}8849$.",
+        "(Exact: $0{,}8839$.)"
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-040",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "$X\\sim\\operatorname{Bin}(400;0{,}5)$. Benader $P(X\\ge215)$ met de normale verdeling en continuïteitscorrectie. Gebruik $\\Phi(1{,}45)=0{,}9265$.",
+      "answer": 0.0735,
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.0668,
+          "message": "Je rekende zonder correctie ($z=1{,}5$). Gebruik de grens 214,5."
+        },
+        {
+          "answer": 0.0606,
+          "message": "Je corrigeerde de verkeerde kant op (215,5, $z=1{,}55$)."
+        },
+        {
+          "answer": 0.9265,
+          "message": "Dit is $\\Phi(1{,}45)$, de linkerkans. Je zoekt de rechterstaart."
+        }
+      ],
+      "hints": [
+        "Het is een rechterstaart: eerst de grens 214,5, dan het complement."
+      ],
+      "solution": [
+        "$\\mu=200$, $\\sigma=10$.",
+        "$X\\ge215$ wordt $Y\\ge214{,}5$; $z=14{,}5/10=1{,}45$.",
+        "$P=1-\\Phi(1{,}45)=1-0{,}9265=0{,}0735$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-041",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "$X\\sim N(50;\\,4^2)$ en $Y\\sim N(30;\\,3^2)$ zijn onafhankelijk. Wat is de standaardafwijking van $X+Y$?",
+      "answer": 5,
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je telt de standaardafwijkingen op. Tel de varianties op ($16+9$) en neem dan de wortel."
+        }
+      ],
+      "hints": [
+        "Tel de varianties op, niet de standaardafwijkingen."
+      ],
+      "solution": [
+        "Varianties tellen op: $16+9=25$.",
+        "$\\sigma=\\sqrt{25}=5$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-042",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Vier onafhankelijke pakken wegen elk $N(250;\\,2^2)$ gram. Gebruik $\\Phi(2)=0{,}9772$. Bereken de kans dat het totaalgewicht minder is dan 992 g.",
+      "answer": 0.0228,
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.1587,
+          "message": "Je gebruikt $\\sigma=8$ (vier maal 2). De varianties tellen op, dus $\\sigma=\\sqrt{16}=4$."
+        },
+        {
+          "answer": 0.9772,
+          "message": "Dit is de linkerkans bij $z=+2$; 992 ligt links van het midden: $z=-2$."
+        }
+      ],
+      "hints": [
+        "De varianties tellen op; de standaardafwijking van het totaal is $\\sqrt{16}$."
+      ],
+      "solution": [
+        "Totaal: $\\mu=1000$, variantie $4\\cdot4=16$, dus $\\sigma=4$.",
+        "$z=(992-1000)/4=-2$.",
+        "$\\Phi(-2)=1-0{,}9772=0{,}0228$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-043",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "$X\\sim N(100;\\,6^2)$ en $Y\\sim N(90;\\,8^2)$ zijn onafhankelijk. Gebruik $\\Phi(1)=0{,}8413$. Bereken $P(X>Y)$.",
+      "answer": 0.8413,
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.1587,
+          "message": "Je berekent de kans dat $Y>X$, of de rechterstaart bij $z=+1$. Het verschil $D$ heeft gemiddelde $+10$, dus $z=-1$ en de gevraagde kans is groter dan 0,5."
+        }
+      ],
+      "hints": [
+        "Bekijk het verschil $X-Y$; de varianties tellen op."
+      ],
+      "solution": [
+        "$D=X-Y\\sim N(10;\\,36+64)$, dus $\\sigma_D=10$.",
+        "$P(D>0)=P(Z>-1)=\\Phi(1)=0{,}8413$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-044",
+      "type": "interval",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Het vulgewicht is normaal met $\\mu=500$ en $\\sigma=20$. Geef het centrale 95%-gebied (factor 1,96) als interval, op één decimaal.",
+      "answer": "[460.8; 539.2]",
+      "tolerance": 0.05,
+      "feedback": [
+        {
+          "answer": "[480; 520]",
+          "message": "Dit is $\\mu\\pm1\\sigma$ (ongeveer 68%). Voor 95% is de marge 1,96 standaardafwijkingen."
+        },
+        {
+          "answer": "[460; 540]",
+          "message": "Dit is de afgeronde $\\mu\\pm2\\sigma$. Gebruik de opgegeven factor 1,96."
+        }
+      ],
+      "hints": [
+        "Het gebied is $\\mu\\pm1{,}96\\sigma$."
+      ],
+      "solution": [
+        "$500-1{,}96\\cdot20=500-39{,}2=460{,}8$.",
+        "$500+39{,}2=539{,}2$."
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-045",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een kwaliteitscontrole keurt elk onafhankelijk onderdeel met kans 0,05 af. Hoeveel onderdelen moet je minstens controleren om met kans van minstens 0,99 minstens één afgekeurd onderdeel te vinden?",
+      "answer": 90,
+      "feedback": [
+        {
+          "answer": 89,
+          "message": "Bij 89 onderdelen is de kans $0{,}9896$: net onder de 0,99. Rond naar boven af."
+        }
+      ],
+      "hints": [
+        "Gebruik het complement en neem de logaritme van beide kanten.",
+        "Je moet naar boven afronden: 89,78 onderdelen bestaat niet, en 89 is net te weinig."
+      ],
+      "solution": [
+        "$P(X\\ge1)=1-0{,}95^n\\ge0{,}99$, dus $0{,}95^n\\le0{,}01$.",
+        "$n\\ge\\ln0{,}01/\\ln0{,}95\\approx89{,}78$.",
+        "Dus $n=90$. (Controle: $1-0{,}95^{89}\\approx0{,}9896$, $1-0{,}95^{90}\\approx0{,}9901$.)"
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
+    },
+    {
+      "id": "37-046",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een luchtvaartmaatschappij verkoopt 210 tickets voor 200 stoelen; elke passagier komt onafhankelijk met kans 0,9. Benader de kans dat er overboeking is, dus meer dan 200 opdagen, met de normale verdeling en continuïteitscorrectie. Gebruik $\\Phi(2{,}65)=0{,}9960$.",
+      "answer": 0.004,
+      "tolerance": 0.0001,
+      "feedback": [
+        {
+          "answer": 0.0057,
+          "message": "Je rekende zonder continuïteitscorrectie (grens 200, $z\\approx2{,}53$). Gebruik 200,5."
+        },
+        {
+          "answer": 0.996,
+          "message": "Dit is $\\Phi(2{,}65)$, de linkerkans. De overboekingskans is de rechterstaart."
+        }
+      ],
+      "hints": [
+        "'Meer dan 200' is minstens 201; ga een halve stap omlaag.",
+        "Rechterstaart: gebruik het complement van de tabelwaarde."
+      ],
+      "solution": [
+        "$X\\sim\\operatorname{Bin}(210;0{,}9)$: $\\mu=189$, $\\sigma^2=18{,}9$, $\\sigma\\approx4{,}347$. Voorwaarden: $np=189$, $n(1-p)=21$, beide $\\ge5$.",
+        "Overboeking: $X\\ge201$, dus $Y\\ge200{,}5$.",
+        "$z=(200{,}5-189)/4{,}347\\approx2{,}65$.",
+        "$P\\approx1-\\Phi(2{,}65)=0{,}0040$. (De exacte kans is $0{,}0019$: in de staart is de benadering ruw.)"
+      ],
+      "topics": [
+        "distributions",
+        "random-variables"
+      ]
     }
   ]
 }

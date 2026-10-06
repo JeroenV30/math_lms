@@ -15,6 +15,12 @@
       "topics": [
         "distributions",
         "random-variables"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Dit is het aantal proeven. De verwachting is $np=5\\cdot0{,}5$."
+        }
       ]
     },
     {
@@ -30,6 +36,12 @@
       "topics": [
         "distributions",
         "random-variables"
+      ],
+      "feedback": [
+        {
+          "answer": 2.5,
+          "message": "Dit is de verwachting $np$. De variantie is $np(1-p)$."
+        }
       ]
     },
     {
@@ -72,6 +84,12 @@
       "topics": [
         "distributions",
         "random-variables"
+      ],
+      "feedback": [
+        {
+          "answer": "1/32",
+          "message": "Dit is $P(X=0)$, het complement. Trek af van 1."
+        }
       ]
     },
     {
@@ -100,6 +118,12 @@
       "topics": [
         "distributions",
         "random-variables"
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Dit is de verwachting $np$. Voor de variantie vermenigvuldig je nog met $1-p$."
+        }
       ]
     },
     {
@@ -115,6 +139,12 @@
       "topics": [
         "distributions",
         "random-variables"
+      ],
+      "feedback": [
+        {
+          "answer": 1.5,
+          "message": "Het teken ontbreekt: 48 ligt links van het midden."
+        }
       ]
     },
     {
@@ -129,6 +159,12 @@
       "topics": [
         "distributions",
         "random-variables"
+      ],
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Je rekende $2\\cdot8$. Tel ook het midden op: $\\mu+z\\sigma$."
+        }
       ]
     },
     {
@@ -144,6 +180,12 @@
       "topics": [
         "distributions",
         "random-variables"
+      ],
+      "feedback": [
+        {
+          "answer": 0.9772,
+          "message": "Dit is de linkerkans $\\Phi(2)$. Je zoekt de rechterstaart."
+        }
       ]
     },
     {
@@ -159,6 +201,12 @@
       "topics": [
         "distributions",
         "random-variables"
+      ],
+      "feedback": [
+        {
+          "answer": 0.9772,
+          "message": "Dit is slechts $\\Phi(2)$. Trek de linkerkans bij $-2$ nog af."
+        }
       ]
     },
     {
@@ -174,6 +222,12 @@
       "topics": [
         "distributions",
         "random-variables"
+      ],
+      "feedback": [
+        {
+          "answer": 12.5,
+          "message": "Je corrigeert de verkeerde kant op. Bij $X\\ge12$ hoort de hele staaf bij 12 erbij: de grens is 11,5."
+        }
       ]
     },
     {
@@ -189,6 +243,12 @@
       "topics": [
         "distributions",
         "random-variables"
+      ],
+      "feedback": [
+        {
+          "answer": 12.5,
+          "message": "$X<12$ betekent $X\\le11$, niet $X\\le12$. De grens is 11,5."
+        }
       ]
     },
     {
@@ -203,6 +263,12 @@
       "topics": [
         "distributions",
         "random-variables"
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Dit is de standaardafwijking. De variantie is $\\sigma^2$."
+        }
       ]
     },
     {
@@ -218,6 +284,12 @@
       "topics": [
         "distributions",
         "random-variables"
+      ],
+      "feedback": [
+        {
+          "answer": 49.8,
+          "message": "Dit is de bovengrens $40+1{,}96\\cdot5$. Je zoekt de ondergrens."
+        }
       ]
     }
   ]
