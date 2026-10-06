@@ -35,7 +35,17 @@
       "topics": [
         "hypothesis-testing"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Je vergat de wortel: $\\sigma/\\sqrt n=8/8=1$, niet $8/64$ of $64/8$."
+        },
+        {
+          "answer": 0.25,
+          "message": "Je deelde het verschil door 8. Deel door de standaardfout $\\sigma/\\sqrt n$."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -53,7 +63,17 @@
       "topics": [
         "hypothesis-testing"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.0228,
+          "message": "Dat is één staart. Bij een tweezijdige toets tel je beide staarten."
+        },
+        {
+          "answer": 0.9544,
+          "message": "Dat is de kans binnen $-2$ en $2$; de p-waarde is de kans erbuiten."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -71,7 +91,17 @@
       "topics": [
         "hypothesis-testing"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.0456,
+          "message": "Dat is de tweezijdige p-waarde. Een rechtszijdige toets gebruikt alleen de rechterstaart."
+        },
+        {
+          "answer": 0.9772,
+          "message": "Dat is $\\Phi(2)$, de linkerstaart tot 2. Neem het complement."
+        }
+      ]
     },
     {
       "type": "text",
@@ -108,7 +138,17 @@
       "topics": [
         "hypothesis-testing"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.4,
+          "message": "Je deelde door $n$ in plaats van door $\\sqrt n$: $SE=s/\\sqrt n=10/5=2$."
+        },
+        {
+          "answer": 8,
+          "message": "Je deelde door $0{,}5$; de standaardfout is $10/\\sqrt{25}=2$ en $t=4/2$."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -125,7 +165,13 @@
       "topics": [
         "hypothesis-testing"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 25,
+          "message": "Dat is $n$. Bij een t-toets met één steekproef is $df=n-1$."
+        }
+      ]
     },
     {
       "type": "text",
@@ -133,9 +179,7 @@
       "question": "De tweezijdige kritieke t-waarde bij df=24 en α=0,05 is 2,064. Wordt H0 bij t=2 verworpen? Motiveer.",
       "answer": "Nee. |t|=2 ligt onder 2,064. De gegevens geven bij deze toets onvoldoende aanleiding om H0 te verwerpen; dat bewijst H0 niet.",
       "solution": [
-        "$",
-        "t",
-        "<2{,}064$.",
+        "$|t|=2<2{,}064$, dus de toetsingsgrootheid ligt buiten het kritieke gebied.",
         "Niet verwerpen is iets anders dan bewijzen dat μ precies 50 is."
       ],
       "hints": [
@@ -163,7 +207,17 @@
       "topics": [
         "hypothesis-testing"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": "1/10",
+          "message": "Vijf worpen hebben $2^5=32$ even waarschijnlijke uitkomsten, niet 10."
+        },
+        {
+          "answer": "1/16",
+          "message": "Dat is de tweezijdige p-waarde (zie de volgende oefening). Hier tel je alleen 5 keer kop."
+        }
+      ]
     },
     {
       "type": "fraction",
@@ -180,7 +234,13 @@
       "topics": [
         "hypothesis-testing"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": "1/32",
+          "message": "Dat is één staart. Tweezijdig tel je de uitersten 0 en 5 allebei."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -197,7 +257,17 @@
       "topics": [
         "hypothesis-testing"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.05,
+          "message": "Dat is de kans per toets. Het verwachte aantal over twintig toetsen is $20\\cdot0{,}05$."
+        },
+        {
+          "answer": 20,
+          "message": "Dat is het aantal toetsen. Vermenigvuldig met de foutkans $0{,}05$."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -215,7 +285,13 @@
       "topics": [
         "hypothesis-testing"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.2,
+          "message": "Dat is $\\beta$, de kans op een type-II-fout. Power is $1-\\beta$."
+        }
+      ]
     },
     {
       "type": "text",
@@ -252,7 +328,17 @@
       "topics": [
         "hypothesis-testing"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.01,
+          "message": "Je deelde door 5; er zijn twintig toetsen."
+        },
+        {
+          "answer": 1,
+          "message": "Je nam het totaal als grens per toets; deel $0{,}05$ door het aantal toetsen."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -270,7 +356,17 @@
       "topics": [
         "hypothesis-testing"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 1.4,
+          "message": "Je telde de standaardfouten $0{,}8$ en $0{,}6$ op. Tel de **varianties** $s^2/n$ op en neem daarna de wortel."
+        },
+        {
+          "answer": 7,
+          "message": "Je telde $s_1+s_2$. Neem $\\sqrt{s_1^2/n_1+s_2^2/n_2}$."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -288,7 +384,17 @@
       "topics": [
         "hypothesis-testing"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 2.143,
+          "message": "Dit hoort bij standaardfout 1,4: je telde de standaardfouten op in plaats van de varianties."
+        },
+        {
+          "answer": 1.5,
+          "message": "Je deelde door 2; de standaardfout van het verschil is 1."
+        }
+      ]
     },
     {
       "type": "text",
@@ -325,7 +431,17 @@
       "topics": [
         "hypothesis-testing"
       ],
-      "mode": "independent"
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je deelde door $4/16$; de standaardfout is $s_d/\\sqrt n=4/\\sqrt{16}=1$."
+        },
+        {
+          "answer": 0.75,
+          "message": "Je deelde door $s_d$ in plaats van door $s_d/\\sqrt n$: $SE=1$."
+        }
+      ]
     },
     {
       "type": "text",
@@ -363,7 +479,662 @@
       "topics": [
         "hypothesis-testing"
       ],
-      "mode": "challenge"
+      "mode": "challenge",
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Dat is het verwachte aantal vals alarmen, niet de kans op minstens één."
+        },
+        {
+          "answer": 0.95,
+          "message": "Dat is de kans op geen fout bij één toets. Neem $0{,}95^{20}$ en daarvan het complement."
+        }
+      ]
+    },
+    {
+      "type": "fraction",
+      "difficulty": 2,
+      "question": "Een eerlijke munt wordt tien keer geworpen en geeft tien keer kop. Bereken de kans op deze uitkomst onder $H_0:p=0{,}5$ als breuk.",
+      "answer": "1/1024",
+      "solution": [
+        "$(1/2)^{10}=1/1024$."
+      ],
+      "hints": [
+        "Elke worp is kop met kans 1/2; de worpen zijn onafhankelijk."
+      ],
+      "id": "39-021",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": "1/20",
+          "message": "Je deed $2\\cdot10$; kansen van onafhankelijke worpen vermenigvuldig je: $(1/2)^{10}$."
+        },
+        {
+          "answer": "1/512",
+          "message": "Dat is $(1/2)^9$; er zijn tien worpen."
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Een munt wordt 100 keer geworpen en geeft 60 keer kop. Bereken z voor $H_0:p=0{,}5$.",
+      "answer": 2,
+      "solution": [
+        "$\\hat p=0{,}6$; $SE=\\sqrt{0{,}25/100}=0{,}05$.",
+        "$z=(0{,}6-0{,}5)/0{,}05=2$."
+      ],
+      "hints": [
+        "Bereken $\\hat p$ en de standaardfout $\\sqrt{p_0(1-p_0)/n}$."
+      ],
+      "id": "39-022",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "guided",
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 40,
+          "message": "Je vergat de wortel in de standaardfout: $SE=\\sqrt{0{,}25/100}=0{,}05$, niet $0{,}0025$."
+        },
+        {
+          "answer": 0.2,
+          "message": "Je deelde niet door de standaardfout. Bereken $SE=\\sqrt{p_0(1-p_0)/n}=0{,}05$."
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Wat is de positieve kritieke z-waarde van een tweezijdige toets met $\\alpha=0{,}05$? Rond af op twee decimalen.",
+      "answer": 1.96,
+      "solution": [
+        "$P(Z>z^*)=0{,}025$ geeft $z^*=1{,}96$."
+      ],
+      "hints": [
+        "In elke staart ligt $\\alpha/2=0{,}025$."
+      ],
+      "id": "39-023",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "guided",
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 1.645,
+          "message": "Dat is de grens voor een eenzijdige toets met $\\alpha=0{,}05$. Tweezijdig verdeel je $\\alpha$ over twee staarten."
+        },
+        {
+          "answer": 2.576,
+          "message": "Dat is de grens bij $\\alpha=0{,}01$ tweezijdig."
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij een linkszijdige toets is $z=-1{,}5$. Gebruik $\\Phi(1{,}5)=0{,}9332$ en geef de p-waarde.",
+      "answer": 0.0668,
+      "solution": [
+        "$p=\\Phi(-1{,}5)=1-\\Phi(1{,}5)=1-0{,}9332=0{,}0668$."
+      ],
+      "hints": [
+        "Linkszijdig: $p=\\Phi(z)$, en $\\Phi(-z)=1-\\Phi(z)$."
+      ],
+      "id": "39-024",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "guided",
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.9332,
+          "message": "Dat is $\\Phi(1{,}5)$, de kans op $z\\le1{,}5$. Je zoekt $P(Z\\le-1{,}5)$."
+        },
+        {
+          "answer": 0.1336,
+          "message": "Dat is de tweezijdige p-waarde; de vraag is linkszijdig."
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Bij een rechtszijdige toets blijkt het effect de andere kant op te liggen: $z=-1{,}5$. Gebruik $\\Phi(1{,}5)=0{,}9332$ en geef de p-waarde.",
+      "answer": 0.9332,
+      "solution": [
+        "$p=1-\\Phi(-1{,}5)=\\Phi(1{,}5)=0{,}9332$.",
+        "Een grote p-waarde: de data wijzen van het alternatief af."
+      ],
+      "hints": [
+        "Rechtszijdig: $p=1-\\Phi(z)$. Wat is $\\Phi(-1{,}5)$?"
+      ],
+      "id": "39-025",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "guided",
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.0668,
+          "message": "Je nam de linkerstaart. Bij $H_1:\\mu>\\mu_0$ hoort de rechterstaart, en die is hier groot."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Een rechtbank spreekt een verdachte vrij wegens gebrek aan bewijs. Welke toetsconclusie komt daarmee overeen en wat mag je er niet uit afleiden?",
+      "answer": "Vrijspraak komt overeen met $H_0$ niet verwerpen. Het bewijst niet dat $H_0$ waar is (de verdachte onschuldig), alleen dat het bewijs onvoldoende was.",
+      "solution": [
+        "$H_0$ is onschuld; vrijspraak is niet verwerpen.",
+        "Niet verwerpen betekent onvoldoende bewijs, niet bewezen onschuld."
+      ],
+      "hints": [
+        "Wat is in de analogie $H_0$?"
+      ],
+      "id": "39-026",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "guided",
+      "min_length": 60
+    },
+    {
+      "type": "fraction",
+      "difficulty": 2,
+      "question": "Een munt wordt tien keer geworpen en geeft negen keer kop. Geef de rechtszijdige exacte p-waarde $P(X\\ge9)$ onder $H_0:p=0{,}5$ als breuk.",
+      "answer": "11/1024",
+      "solution": [
+        "$\\binom{10}{9}=10$ en $\\binom{10}{10}=1$ uitkomsten.",
+        "$P(X\\ge9)=11/1024$."
+      ],
+      "hints": [
+        "Tel de uitkomsten met 9 en met 10 keer kop."
+      ],
+      "id": "39-027",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": "1/1024",
+          "message": "Dat is alleen tien keer kop. 'Minstens negen' omvat ook negen keer kop."
+        },
+        {
+          "answer": "5/512",
+          "message": "Dat is alleen $P(X=9)=10/1024$. Tel $P(X=10)$ erbij."
+        }
+      ]
+    },
+    {
+      "type": "fraction",
+      "difficulty": 3,
+      "question": "Dezelfde uitkomst (9 keer kop in 10 worpen): geef de tweezijdige p-waarde door ook de even extreme uitkomsten aan de andere kant te tellen, als breuk.",
+      "answer": "11/512",
+      "solution": [
+        "Rechterstaart $11/1024$, linkerstaart (0 of 1 keer kop) ook $11/1024$.",
+        "$p=22/1024=11/512$."
+      ],
+      "hints": [
+        "Bij $p_0=0{,}5$ is de verdeling symmetrisch."
+      ],
+      "id": "39-028",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": "11/1024",
+          "message": "Dat is één staart. Verdubbel voor de symmetrische andere staart."
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Een steekproef van $n=16$ heeft $\\bar x=52{,}4$ en $s=6$. Bereken t voor $H_0:\\mu=50$.",
+      "answer": 1.6,
+      "solution": [
+        "$SE=6/4=1{,}5$; $t=2{,}4/1{,}5=1{,}6$."
+      ],
+      "hints": [
+        "Standaardfout: $s/\\sqrt n$."
+      ],
+      "id": "39-029",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "guided",
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 0.4,
+          "message": "Je deelde door $s=6$, niet door de standaardfout $s/\\sqrt n=1{,}5$."
+        },
+        {
+          "answer": 6.4,
+          "message": "Je gebruikte $s/n=0{,}375$; de standaardfout is $s/\\sqrt n=1{,}5$."
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Voor dezelfde steekproef ($n=16$, $\\bar x=52{,}4$, $s=6$): geef de onderste grens van het 95%-betrouwbaarheidsinterval. De kritieke t-waarde bij 15 vrijheidsgraden is $2{,}131$. Rond af op twee decimalen.",
+      "answer": 49.2,
+      "solution": [
+        "$t^*\\cdot SE=2{,}131\\cdot1{,}5=3{,}1965$.",
+        "$52{,}4-3{,}1965=49{,}2035\\approx49{,}20$."
+      ],
+      "hints": [
+        "Interval: $\\bar x\\pm t^*\\,s/\\sqrt n$ met $s/\\sqrt n=1{,}5$."
+      ],
+      "id": "39-030",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "guided",
+      "tolerance": 0.01,
+      "feedback": [
+        {
+          "answer": 49.46,
+          "message": "Je gebruikte $1{,}96$ uit de normale verdeling. Bij $s$ geschat uit 16 waarnemingen hoort de t-waarde $2{,}131$."
+        },
+        {
+          "answer": 46.4,
+          "message": "Je trok de spreiding $s=6$ af; de marge is $t^*\\cdot SE=2{,}131\\cdot1{,}5=3{,}20$."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "difficulty": 3,
+      "question": "Het 95%-interval voor μ is [49,20; 55,60]. Wat zegt dit over een tweezijdige t-toets van $H_0:\\mu=50$ op niveau 5%, en wat over $H_0:\\mu=57$?",
+      "answer": "Omdat 50 in het interval ligt, wordt $H_0:\\mu=50$ niet verworpen. 57 ligt buiten het interval, dus $H_0:\\mu=57$ wordt wel verworpen. Het interval geeft alle nulwaarden die niet verworpen worden.",
+      "solution": [
+        "50 ligt binnen het interval: niet verwerpen.",
+        "57 ligt erbuiten: verwerpen op niveau 5%."
+      ],
+      "hints": [
+        "Een tweezijdige toets verwerpt precies als de nulwaarde buiten het interval ligt."
+      ],
+      "id": "39-031",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "independent",
+      "min_length": 60
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Een afdeling behandelt 250 patiënten, van wie 165 genezen. Toets $H_0:p=0{,}6$. Bereken z met de standaardfout onder $H_0$. Rond af op twee decimalen.",
+      "answer": 1.94,
+      "solution": [
+        "$\\hat p=0{,}66$; $SE=\\sqrt{0{,}6\\cdot0{,}4/250}=0{,}03098$.",
+        "$z=0{,}06/0{,}03098=1{,}94$."
+      ],
+      "hints": [
+        "Gebruik $p_0=0{,}6$ in de standaardfout, niet $\\hat p$."
+      ],
+      "id": "39-032",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "guided",
+      "tolerance": 0.01,
+      "feedback": [
+        {
+          "answer": 2.0,
+          "message": "Je gebruikte $\\hat p$ in de standaardfout. Onder $H_0$ reken je met $p_0=0{,}6$."
+        },
+        {
+          "answer": 0.06,
+          "message": "Dat is het verschil in proporties; deel door de standaardfout."
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Groep 1: $n=30$, $\\bar x=82$, $s=10$. Groep 2: $n=20$, $\\bar x=78$, $s=14$. Bereken de Welch-t. Rond af op twee decimalen.",
+      "answer": 1.1,
+      "solution": [
+        "$SE=\\sqrt{100/30+196/20}=\\sqrt{13{,}133}=3{,}624$.",
+        "$t=4/3{,}624=1{,}10$."
+      ],
+      "hints": [
+        "$SE=\\sqrt{s_1^2/n_1+s_2^2/n_2}$."
+      ],
+      "id": "39-033",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "guided",
+      "tolerance": 0.01,
+      "feedback": [
+        {
+          "answer": 1.64,
+          "message": "Je gebruikte $(s_1^2+s_2^2)/(n_1+n_2)$. Elke groep heeft zijn eigen $n$ in zijn eigen term."
+        },
+        {
+          "answer": 0.4,
+          "message": "Je deelde door $s_1$; de standaardfout van het verschil is $\\sqrt{s_1^2/n_1+s_2^2/n_2}$."
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 4,
+      "question": "Bereken voor dezelfde twee groepen de Welch-vrijheidsgraden $\\nu$. Rond af op één decimaal.",
+      "answer": 31.7,
+      "solution": [
+        "$a=3{,}333$, $b=9{,}8$, $a+b=13{,}133$.",
+        "Teller $172{,}48$; noemer $3{,}333^2/29+9{,}8^2/19=0{,}383+5{,}054=5{,}438$.",
+        "$\\nu=31{,}7$."
+      ],
+      "hints": [
+        "Bereken eerst $a=s_1^2/n_1$ en $b=s_2^2/n_2$; dan $\\nu=(a+b)^2/\\big(a^2/(n_1-1)+b^2/(n_2-1)\\big)$."
+      ],
+      "id": "39-034",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "challenge",
+      "tolerance": 0.1,
+      "feedback": [
+        {
+          "answer": 48,
+          "message": "Dat is $n_1+n_2-2$, de formule van de gepoolde toets met gelijke varianties. Welch rekent anders."
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Tien personen worden vóór en na een training gemeten. Het gemiddelde verschil is 2,0 en de standaardafwijking van de verschillen is 2,0. Bereken de gepaarde t. Rond af op twee decimalen.",
+      "answer": 3.16,
+      "solution": [
+        "$SE=2/\\sqrt{10}=0{,}632$.",
+        "$t=2/0{,}632=3{,}16$."
+      ],
+      "hints": [
+        "Gebruik $n=10$ paren."
+      ],
+      "id": "39-035",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "independent",
+      "tolerance": 0.01,
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Je vergat de wortel uit $n$: $SE=s_d/\\sqrt{n}$, niet $s_d$."
+        },
+        {
+          "answer": 0.56,
+          "message": "Je behandelde de paren als onafhankelijke groepen met $s=8$. Bij gepaarde gegevens gebruik je de spreiding van de verschillen."
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Groep 1: $\\bar x=15$, $s=4$; groep 2: $\\bar x=12$, $s=3$; beide $n=25$. Bereken Cohen's $d$ met de gepoolde standaardafwijking. Rond af op twee decimalen.",
+      "answer": 0.85,
+      "solution": [
+        "$s_p=\\sqrt{(16+9)/2}=3{,}536$.",
+        "$d=3/3{,}536=0{,}85$."
+      ],
+      "hints": [
+        "Bij gelijke $n$ is $s_p^2$ het gemiddelde van de varianties."
+      ],
+      "id": "39-036",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "independent",
+      "tolerance": 0.01,
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Dat is $t$ (verschil gedeeld door standaardfout), niet $d$. Cohen's $d$ deelt door de standaardafwijking $s_p$."
+        },
+        {
+          "answer": 0.75,
+          "message": "Je deelde door $s_1=4$. Gebruik de gepoolde $s_p=\\sqrt{(s_1^2+s_2^2)/2}$."
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Een rechtszijdige z-toets heeft $\\mu_0=100$, $\\sigma=10$, $n=100$ en $\\alpha=0{,}05$ (kritieke $z=1{,}645$). Bereken de power als het werkelijke gemiddelde 101 is. Rond af op drie decimalen en gebruik $\\Phi(0{,}645)=0{,}7405$.",
+      "answer": 0.259,
+      "solution": [
+        "Verwerpen als $\\bar x>101{,}645$.",
+        "Onder $\\mu=101$: $P(Z>0{,}645)=1-0{,}7405=0{,}259$."
+      ],
+      "hints": [
+        "Zoek eerst de kritieke waarde van $\\bar x$ onder $H_0$."
+      ],
+      "id": "39-037",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "guided",
+      "tolerance": 0.003,
+      "feedback": [
+        {
+          "answer": 0.741,
+          "message": "Dat is $\\beta$. Power is $1-\\beta$."
+        },
+        {
+          "answer": 0.05,
+          "message": "Dat is $\\alpha$, de kans op verwerpen als $H_0$ waar is. Power gaat over het werkelijke alternatief."
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Zelfde situatie, maar nu $n=400$. Bereken de power bij $\\mu=101$. Gebruik $\\Phi(0{,}355)=0{,}6387$ en rond af op drie decimalen.",
+      "answer": 0.639,
+      "solution": [
+        "Kritiek: $100+1{,}645\\cdot0{,}5=100{,}8225$.",
+        "$P(Z>(100{,}8225-101)/0{,}5)=P(Z>-0{,}355)=0{,}6387$."
+      ],
+      "hints": [
+        "Nu is $SE=0{,}5$; bepaal de nieuwe kritieke waarde van $\\bar x$."
+      ],
+      "id": "39-038",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "independent",
+      "tolerance": 0.003,
+      "feedback": [
+        {
+          "answer": 0.259,
+          "message": "Dat is de power bij $n=100$. Met $n=400$ is de standaardfout gehalveerd."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "difficulty": 3,
+      "question": "Een collega zegt: 'Mijn toets heeft een power van 80%, dus de kans dat $H_0$ onwaar is, is 80%.' Corrigeer dit.",
+      "answer": "Power is de kans om $H_0$ te verwerpen als een specifiek alternatief waar is. Het is geen kans dat $H_0$ onwaar is; die kans is in dit kader niet gedefinieerd zonder een a-priorikans.",
+      "solution": [
+        "Power is $P(\\text{verwerpen}\\mid\\text{alternatief waar})$.",
+        "De uitspraak verwart dit met $P(H_1\\mid\\text{uitslag})$."
+      ],
+      "hints": [
+        "Voor welke werkelijkheid is power gedefinieerd?"
+      ],
+      "id": "39-039",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "independent",
+      "min_length": 60
+    },
+    {
+      "type": "text",
+      "difficulty": 3,
+      "question": "Een studie met een miljoen deelnemers vindt $p<0{,}001$ voor een gemiddeld verschil van 0,1 gram bij een gemiddelde van 1000 gram. Beoordeel statistische en praktische significantie.",
+      "answer": "Het verschil is statistisch aantoonbaar (de standaardfout is door de grote n heel klein), maar praktisch waarschijnlijk onbelangrijk: 0,1 gram is 0,01% van het gemiddelde. De effectgrootte en het interval zijn de relevante informatie.",
+      "solution": [
+        "Grote $n$ geeft een kleine standaardfout, dus een klein verschil kan toch significant zijn.",
+        "Praktische relevantie volgt uit effectgrootte en context."
+      ],
+      "hints": [
+        "Hoe groot is het verschil in verhouding tot de gemeten waarde?"
+      ],
+      "id": "39-040",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "independent",
+      "min_length": 60
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Twaalf toetsen vormen één familie. Bij een gezinsniveau van 0,05: geef de Bonferroni-grens per toets. Rond af op vier decimalen.",
+      "answer": 0.0042,
+      "solution": [
+        "$0{,}05/12=0{,}004167\\approx0{,}0042$."
+      ],
+      "hints": [
+        "Deel $0{,}05$ door het aantal toetsen."
+      ],
+      "id": "39-041",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "independent",
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.6,
+          "message": "Je vermenigvuldigde met 12. Bonferroni deelt door het aantal toetsen."
+        },
+        {
+          "answer": 0.0125,
+          "message": "Je deelde door 4; het aantal toetsen is 12."
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Een tweezijdige toets met normale toetsingsgrootheid geeft $p=0{,}08$ en het effect ligt in de vooraf voorspelde richting. Wat is de bijbehorende eenzijdige p-waarde voor die vooraf gekozen richting?",
+      "answer": 0.04,
+      "solution": [
+        "Eenzijdig is de helft van tweezijdig: $0{,}08/2=0{,}04$."
+      ],
+      "hints": [
+        "Beide staarten zijn gelijk groot."
+      ],
+      "id": "39-042",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "independent",
+      "tolerance": 0.0005,
+      "feedback": [
+        {
+          "answer": 0.16,
+          "message": "Je verdubbelde. De eenzijdige p-waarde is de helft van de tweezijdige."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "difficulty": 3,
+      "question": "Een onderzoeker meet 15 uitkomsten, vindt voor één daarvan $p=0{,}03$ en rapporteert alleen die. Wat is het probleem en hoe moet je rapporteren?",
+      "answer": "Bij 15 toetsen is de kans op minstens één p<0,05 bij alleen ware nulhypothesen groot (circa 54%), dus één significante uitslag is weinig overtuigend. Rapporteer alle 15 uitkomsten, corrigeer voor meervoudig toetsen (bijv. Bonferroni, grens 0,0033) of presenteer de uitkomst als verkennend.",
+      "solution": [
+        "$1-0{,}95^{15}\\approx0{,}54$.",
+        "Bonferroni: $0{,}05/15\\approx0{,}0033$; $p=0{,}03$ is niet kleiner."
+      ],
+      "hints": [
+        "Hoeveel toetsen zijn feitelijk uitgevoerd?"
+      ],
+      "id": "39-043",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "independent",
+      "min_length": 60
+    },
+    {
+      "type": "numeric",
+      "difficulty": 4,
+      "question": "Bij $\\alpha=0{,}05$ en onafhankelijke ware nulhypothesen: wat is het kleinste aantal toetsen waarbij de kans op minstens één vals alarm groter is dan 0,5?",
+      "answer": 14,
+      "solution": [
+        "$m>\\ln0{,}5/\\ln0{,}95=13{,}51$.",
+        "$1-0{,}95^{13}=0{,}487$ en $1-0{,}95^{14}=0{,}512$, dus $m=14$."
+      ],
+      "hints": [
+        "Los $0{,}95^m<0{,}5$ op, bijvoorbeeld met logaritmen."
+      ],
+      "id": "39-044",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "challenge",
+      "feedback": [
+        {
+          "answer": 13,
+          "message": "Bij 13 toetsen is de kans $0{,}487$, nog onder $0{,}5$."
+        },
+        {
+          "answer": 10,
+          "message": "Bij 10 toetsen is de kans $0{,}401$."
+        }
+      ]
+    },
+    {
+      "type": "fraction",
+      "difficulty": 3,
+      "question": "Fisher's theedame wijst vier van acht kopjes aan als 'melk eerst' (er zijn er vier). Onder $H_0$ raadt zij. Hoe groot is de kans dat zij alle vier juist heeft? Geef een breuk.",
+      "answer": "1/70",
+      "solution": [
+        "$\\binom84=70$ even waarschijnlijke keuzes, één is geheel goed.",
+        "$P=1/70\\approx0{,}014$."
+      ],
+      "hints": [
+        "Tel het aantal manieren om 4 uit 8 te kiezen: $\\binom84$."
+      ],
+      "id": "39-045",
+      "topics": [
+        "hypothesis-testing"
+      ],
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": "1/16",
+          "message": "Dat is $(1/2)^4$, alsof elk kopje onafhankelijk geraden wordt; zij kiest precies vier uit acht."
+        },
+        {
+          "answer": "1/8",
+          "message": "Je telde het aantal keuzes als 8; er zijn $\\binom84=70$ mogelijke keuzes."
+        }
+      ]
     }
   ]
 }

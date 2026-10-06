@@ -21,7 +21,10 @@
     "Je berekent een toetsingsgrootheid en een een- of tweezijdige p-waarde met gegeven kansen.",
     "Je kiest tussen een z-toets, éénsteekproef-t-toets, gepaarde t-toets, Welch-toets en een exacte binomiale toets.",
     "Je interpreteert significantie zonder haar te verwarren met de kans dat H0 waar is of met effectgrootte.",
-    "Je onderscheidt type-I- en type-II-fouten en begrijpt power en de risico’s van veel toetsen."
+    "Je onderscheidt type-I- en type-II-fouten en begrijpt power en de risico’s van veel toetsen.",
+    "Je voert een exacte binomiale toets en een z-toets voor een proportie uit.",
+    "Je berekent power voor een z-toets en beschrijft de invloed van n, α en effectgrootte, en je rapporteert effectgrootte (Cohen's d) naast p.",
+    "Je herkent p-hacking, meervoudig toetsen en de ASA-waarschuwingen en past Bonferroni toe."
   ],
   "glossary": [
     {
@@ -47,28 +50,66 @@
     {
       "term": "Effectgrootte",
       "definition": "De omvang van een verschil of verband, met eenheden of gestandaardiseerd."
+    },
+    {
+      "term": "Toetsingsgrootheid",
+      "definition": "Een uit de gegevens berekend getal dat de afstand tot het nulmodel meet, met een bekende verdeling onder H0."
+    },
+    {
+      "term": "Kritiek gebied",
+      "definition": "De waarden van de toetsingsgrootheid waarbij je H0 verwerpt op het gekozen niveau α."
+    },
+    {
+      "term": "Type-I- en type-II-fout",
+      "definition": "Verwerpen van een ware H0 (kans α) respectievelijk niet verwerpen terwijl een specifiek alternatief waar is (kans β)."
+    },
+    {
+      "term": "Bonferroni-correctie",
+      "definition": "Per toets α/m gebruiken bij een familie van m toetsen, zodat de kans op minstens één vals alarm hoogstens α is."
     }
   ],
   "formulas": [
     {
       "name": "z-toets voor een gemiddelde",
       "latex": "z=\\frac{\\bar x-\\mu_0}{\\sigma/\\sqrt n}",
-      "usage": "Bij bekende σ en een normaal of geschikt benaderend model voor het gemiddelde."
+      "usage": "Bij bekende σ en een normaal of geschikt benaderend model voor het gemiddelde.",
+      "origin": "Voortgekomen uit de normale benadering van Laplace en Gauss; door Fisher (1925) tot standaardgereedschap voor onderzoekers gemaakt."
     },
     {
       "name": "t-toets voor een gemiddelde",
       "latex": "t=\\frac{\\bar x-\\mu_0}{s/\\sqrt n},\\quad df=n-1",
-      "usage": "Bij onbekende σ; beoordeel onafhankelijkheid en verdelingsvorm."
+      "usage": "Bij onbekende σ; beoordeel onafhankelijkheid en verdelingsvorm.",
+      "origin": "Gosset publiceerde in 1908 als 'Student' de verdeling van het gemiddelde bij kleine steekproeven."
     },
     {
       "name": "Welch-toets",
       "latex": "t=\\frac{\\bar x_1-\\bar x_2}{\\sqrt{s_1^2/n_1+s_2^2/n_2}}",
-      "usage": "Voor twee onafhankelijke groepen; gelijke varianties zijn niet vereist."
+      "usage": "Voor twee onafhankelijke groepen; gelijke varianties zijn niet vereist.",
+      "origin": "Gebaseerd op een benadering van Welch en Satterthwaite voor ongelijke varianties."
     },
     {
       "name": "Power",
       "latex": "\\text{power}=1-\\beta",
-      "usage": "β hangt onder andere af van het werkelijk effect, n, spreiding en α."
+      "usage": "β hangt onder andere af van het werkelijk effect, n, spreiding en α.",
+      "origin": "Ingevoerd door Neyman en Egon Pearson (1933) in hun theorie van toetsen als beslisregels."
+    },
+    {
+      "name": "z-toets voor een proportie",
+      "latex": "z=\\frac{\\hat p-p_0}{\\sqrt{p_0(1-p_0)/n}}",
+      "usage": "Voor grote n met np0 en n(1-p0) minstens 10; de standaardfout gebruikt p0.",
+      "origin": "Normale benadering van de binomiale verdeling (De Moivre, Laplace)."
+    },
+    {
+      "name": "Cohen's d",
+      "latex": "d=\\frac{\\bar x_1-\\bar x_2}{s_p}",
+      "usage": "Gestandaardiseerde effectgrootte voor twee groepen; s_p is de gepoolde standaardafwijking.",
+      "origin": "Voorgesteld door Jacob Cohen in zijn werk over statistische power."
+    },
+    {
+      "name": "Bonferroni-grens",
+      "latex": "\\alpha_{\\text{per toets}}=\\frac{\\alpha}{m}",
+      "usage": "Bovengrens voor het gezinsniveau bij m toetsen, ook zonder onafhankelijkheid.",
+      "origin": "Volgt uit de optelregel voor kansen (Boole-ongelijkheid)."
     }
   ],
   "lessons": [
@@ -91,36 +132,44 @@
       "kind": "theory"
     },
     {
+      "slug": "twee-groepen",
+      "title": "Twee groepen vergelijken",
+      "file": "04-twee-groepen.md",
+      "kind": "theory"
+    },
+    {
       "slug": "theorie-c",
-      "title": "Fouten, power en verantwoord rapporteren",
-      "file": "03b-theorie-c.md",
+      "title": "Fouten, power en effectgrootte",
+      "file": "05-theorie-c.md",
       "kind": "theory"
     },
     {
       "slug": "historisch-intermezzo",
       "title": "Historisch intermezzo",
-      "file": "04-historisch-intermezzo.md",
+      "file": "06-historisch-intermezzo.md",
       "kind": "history"
     },
     {
       "slug": "praktijk-en-uitdaging",
       "title": "Toepassen en kritisch redeneren",
-      "file": "05-praktijk-en-uitdaging.md",
+      "file": "07-praktijk-en-uitdaging.md",
       "kind": "practice"
     },
     {
       "slug": "samenvatting",
       "title": "Samenvatting en hoofdstuktoets",
-      "file": "06-samenvatting.md",
+      "file": "08-samenvatting.md",
       "kind": "summary"
     }
   ],
   "timeline": [
+    "karl-pearson",
+    "gosset-student",
     "fisher",
-    "neyman-pearson",
-    "gosset-student"
+    "neyman-pearson"
   ],
   "mathematicians": [
+    "karl-pearson",
     "fisher",
     "neyman"
   ]
