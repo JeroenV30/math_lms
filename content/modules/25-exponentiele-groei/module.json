@@ -13,7 +13,10 @@
   ],
   "topics": [
     "exponential",
-    "finance"
+    "finance",
+    "percentages",
+    "powers",
+    "modelling"
   ],
   "core_question": "Wat betekent een vaste procentuele verandering, en hoe vertaal je die naar een model met de juiste tijdseenheid?",
   "summary": "Groeifactoren, exponentiële functies, tijdseenheden, verdubbeling en halvering. Je vergelijkt lineaire en exponentiële modellen en beoordeelt hun grenzen.",
@@ -25,7 +28,9 @@
     "Je berekent verdubbelings- en halveringstijden in eenvoudige exacte situaties.",
     "Je onderscheidt een continu model van uitsluitend gehele meetmomenten.",
     "Je gebruikt samengestelde groei in hypothetische rekenvoorbeelden.",
-    "Je beoordeelt constantheid van groei en grenzen aan extrapolatie."
+    "Je beoordeelt constantheid van groei en grenzen aan extrapolatie.",
+    "Je rekent met verdubbelings- en halveringstijd in situaties als rente, medicijnafbraak en radioactief verval.",
+    "Je kent de historische rol van Malthus, Bernoulli, Euler, Verhulst en Rutherford bij exponentiële modellen."
   ],
   "glossary": [
     {
@@ -55,33 +60,56 @@
     {
       "term": "Samengestelde groei",
       "definition": "Groei berekenen over de al gegroeide hoeveelheid."
+    },
+    {
+      "term": "Horizontale asymptoot",
+      "definition": "Een horizontale lijn waar een grafiek willekeurig dicht bij komt zonder hem te bereiken; bij y = b·g^x is dat y = 0."
+    },
+    {
+      "term": "Draagkracht",
+      "definition": "Het maximum dat een omgeving kan dragen; bij logistische groei het plafond waar de populatie naartoe groeit."
+    },
+    {
+      "term": "Logistische groei",
+      "definition": "Groei die eerst bijna exponentieel verloopt en daarna afvlakt naar een maximum (Verhulst, 1838)."
     }
   ],
   "formulas": [
     {
       "name": "Exponentieel model",
       "latex": "N(t)=N_0g^t\\quad(N_0>0,\\ g>0)",
-      "usage": "t is gemeten in de tijdseenheid van g."
+      "usage": "t is gemeten in de tijdseenheid van g.",
+      "origin": "Malthus (1798) sprak van meetkundige groei; de moderne notatie met machten is van Euler (18e eeuw)."
     },
     {
       "name": "Percentage naar factor",
       "latex": "g=1+\\frac{p}{100}",
-      "usage": "p is een getekend veranderingspercentage; daling heeft p < 0."
+      "usage": "p is een getekend veranderingspercentage; daling heeft p < 0.",
+      "origin": "Samengestelde interest stond al in Stevins Tafelen van Interest (1582)."
     },
     {
       "name": "Andere tijdseenheid",
       "latex": "g_{\\Delta t}=g^{\\Delta t}",
-      "usage": "Δt is uitgedrukt in de oorspronkelijke tijdseenheid."
+      "usage": "Δt is uitgedrukt in de oorspronkelijke tijdseenheid.",
+      "origin": "Volgt uit de machtswetten voor gebroken exponenten, die sinds de 17e eeuw gebruikelijk zijn."
     },
     {
       "name": "Factor uit twee metingen",
       "latex": "g=\\left(\\frac{N(t_2)}{N(t_1)}\\right)^{1/(t_2-t_1)}",
-      "usage": "Positieve hoeveelheden en verschillende tijden zijn vereist."
+      "usage": "Positieve hoeveelheden en verschillende tijden zijn vereist.",
+      "origin": "Toepassing van de verhouding van twee waarden van een exponentiële functie."
     },
     {
       "name": "Verdubbeling en halvering",
       "latex": "g^{T_d}=2,\\qquad g^{T_h}=\\frac12",
-      "usage": "Verdubbeling bij g > 1, halvering bij 0 < g < 1."
+      "usage": "Verdubbeling bij g > 1, halvering bij 0 < g < 1.",
+      "origin": "Halveringstijd: Rutherford en Soddy (1902); de term half-life period wordt aan Rutherford (1907) toegeschreven."
+    },
+    {
+      "name": "Bernoulli's limiet",
+      "latex": "\\left(1+\\frac{1}{n}\\right)^n\\to e\\approx2{,}71828",
+      "usage": "Vooruitblik op continue groei; wordt in latere modules uitgewerkt.",
+      "origin": "Jacob Bernoulli (1683) onderzocht deze limiet; Euler gaf het getal de letter e."
     }
   ],
   "lessons": [
@@ -134,6 +162,13 @@
       "file": "08-samenvatting.md"
     }
   ],
-  "timeline": [],
-  "mathematicians": []
+  "timeline": [
+    "stevin-interest",
+    "euler",
+    "verhulst-logistische-groei"
+  ],
+  "mathematicians": [
+    "simon-stevin",
+    "euler"
+  ]
 }

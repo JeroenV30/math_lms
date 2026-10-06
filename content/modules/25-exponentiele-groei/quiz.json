@@ -16,7 +16,17 @@
       "topics": [
         "exponential"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 1.2,
+          "message": "Dat is de factor bij 20% groei; 12% groei is $1+12/100$."
+        },
+        {
+          "answer": 12,
+          "message": "Je gebruikt het percentage als factor. Factor is $1+12/100$."
+        }
+      ]
     },
     {
       "id": "25-T02",
@@ -32,7 +42,13 @@
       "topics": [
         "exponential"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 1.12,
+          "message": "Dat is de factor bij groei. Bij 12% daling houd je 88% over."
+        }
+      ]
     },
     {
       "id": "25-T03",
@@ -47,6 +63,12 @@
       "difficulty": 1,
       "topics": [
         "exponential"
+      ],
+      "feedback": [
+        {
+          "answer": 104,
+          "message": "Factor 1,04 is 104% van het begin, dus 4% groei."
+        }
       ]
     },
     {
@@ -62,6 +84,16 @@
       "difficulty": 1,
       "topics": [
         "exponential"
+      ],
+      "feedback": [
+        {
+          "answer": 150,
+          "message": "Je rekende 50·3. Drie stappen betekent $3^3=27$ keer zoveel."
+        },
+        {
+          "answer": 450,
+          "message": "Je gebruikte 50·3·3. Het zijn drie stappen: $3^3$."
+        }
       ]
     },
     {
@@ -92,6 +124,12 @@
       "difficulty": 1,
       "topics": [
         "exponential"
+      ],
+      "feedback": [
+        {
+          "answer": 220,
+          "message": "Je hebt maar één keer gedeeld. Er zijn 2 stappen: deel door $1{,}1^2$."
+        }
       ]
     },
     {
@@ -107,6 +145,16 @@
       "difficulty": 1,
       "topics": [
         "exponential"
+      ],
+      "feedback": [
+        {
+          "answer": 44,
+          "message": "Het totaal is 44% groei, maar de vraag is per stap. Bereken $\\sqrt{1{,}44}$."
+        },
+        {
+          "answer": 22,
+          "message": "Je deelde 44% door 2. Neem de wortel van de factor."
+        }
       ]
     },
     {
@@ -122,6 +170,12 @@
       "difficulty": 1,
       "topics": [
         "exponential"
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Je rekende $2\\cdot4$. Vier uur is $2^4$."
+        }
       ]
     },
     {
@@ -137,6 +191,16 @@
       "difficulty": 1,
       "topics": [
         "exponential"
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Je rekende 4·2 in plaats van de wortel van 4 te nemen."
+        },
+        {
+          "answer": 1,
+          "message": "Twee halve stappen moeten samen factor 4 geven."
+        }
       ]
     },
     {
@@ -152,6 +216,12 @@
       "difficulty": 1,
       "topics": [
         "exponential"
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Dat is twee verdubbelingen. De verdubbelingstijd staat in de noemer van de exponent."
+        }
       ]
     },
     {
@@ -167,6 +237,12 @@
       "difficulty": 1,
       "topics": [
         "exponential"
+      ],
+      "feedback": [
+        {
+          "answer": 60,
+          "message": "Je halveerde maar één keer; 6 uur is twee halveringstijden."
+        }
       ]
     },
     {
@@ -182,6 +258,12 @@
       "difficulty": 1,
       "topics": [
         "exponential"
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "20% groei en 20% daling heffen elkaar niet op: $1{,}2\\cdot0{,}8=0{,}96$."
+        }
       ]
     },
     {
@@ -213,6 +295,16 @@
       "difficulty": 1,
       "topics": [
         "exponential"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Na 2 uur is het 160, nog onder 300."
+        },
+        {
+          "answer": 4,
+          "message": "Na 3 uur is het al 320."
+        }
       ]
     },
     {
@@ -228,6 +320,16 @@
       "difficulty": 3,
       "topics": [
         "exponential"
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Dat is het aantal. Een achtste is drie halveringen: 3·3 uur."
+        },
+        {
+          "answer": 3,
+          "message": "Dat is het aantal halveringen, niet het aantal uren."
+        }
       ]
     }
   ]
