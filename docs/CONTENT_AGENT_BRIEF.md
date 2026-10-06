@@ -42,6 +42,10 @@ kinderachtig, geen telegramstijl, geen opsommingen in plaats van uitleg.
   coördinator test centraal.
 - Schrijf bestanden direct weg (les voor les), zodat werk niet verloren gaat bij een onderbreking.
 - Werk alleen in je eigen moduledirectory en `public/images/*/mNN-*`.
+- Hulpscripts alleen in een eigen submap `mNN/` van je scratchpad (gedeeld met andere agents);
+  draai nooit scripts van anderen.
+- Geen procesopmerkingen in de lesstof ("niet getoetst", "niet gevonden in de bron"): twijfels
+  horen alleen in je eindrapport.
 
 ## Verificatie (verplicht, kort houden)
 1. Eén klein Python-script in je scratch-map dat elk antwoord uit `exercises.json` en `quiz.json`
