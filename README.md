@@ -12,22 +12,21 @@ de geschiedenis van het wiskundige denken als leidraad. Gebouwd volgens
 | Onderdeel | Inhoud | Diepgang |
 |---|---|---|
 | Deel I – Fundamenten (modules 1–6) | 43 lessen, 216 oefeningen, 90 toetsvragen | uitgebreid |
-| Deel II – Basisschool bovenbouw (modules 7–12) | 47 lessen, 186 oefeningen, 90 toetsvragen | compact |
-| Deel III – VMBO / basis middelbaar (modules 13–18) | 48 lessen, 180 oefeningen, 90 toetsvragen | compact |
-| Deel IV – HAVO (modules 19–24) | 48 lessen, 180 oefeningen, 90 toetsvragen | compact |
-| Deel V – VWO (modules 25–30) | 48 lessen, 208 oefeningen, 90 toetsvragen | uitgebreid: 28–30; compact: 25–27 |
+| Deel II – Basisschool bovenbouw (modules 7–12) | 47 lessen, 258 oefeningen, 90 toetsvragen | uitgebreid |
+| Deel III – VMBO / basis middelbaar (modules 13–18) | 48 lessen, 263 oefeningen, 90 toetsvragen | uitgebreid |
+| Deel IV – HAVO (modules 19–24) | 48 lessen, 266 oefeningen, 90 toetsvragen | uitgebreid |
+| Deel V – VWO (modules 25–30) | 48 lessen, 244 oefeningen, 90 toetsvragen | uitgebreid |
 | Deel VI – Toegepaste wiskunde (modules 31–35) | 40 lessen, 190 oefeningen, 75 toetsvragen | uitgebreid |
-| Deel VII – HBO/WO statistiek (modules 36–42) | 49 lessen, 140 oefeningen, 105 toetsvragen | compact |
+| Deel VII – HBO/WO statistiek (modules 36–42) | 56 lessen, 309 oefeningen, 105 toetsvragen | uitgebreid |
 | Historische tijdlijn | 60 gebeurtenissen | |
 | Wiskundigenbibliotheek | 23 profielen | |
 | Oefenengine | numeric, decimal, fraction, expression, coordinate, interval, multiple, text (+ foutenanalyse) | |
 | Voortgang, beheersing, spaced repetition | werkend | |
 
-Alle 42 modules zijn beschikbaar: samen 323 lessen, 1.300 oefeningen en 630
-toetsvragen. *Uitgebreid* betekent het volle niveau uit het bouwplan (ca. tien
-boekpagina's per module, veel uitgewerkte voorbeelden en foutenanalyse);
-*compact* modules zijn inhoudelijk correct en volledig bruikbaar, maar worden
-nog uitgebreid tot dat niveau. Open interpretatievragen worden opgeslagen voor vergelijking met
+Alle 42 modules zijn beschikbaar en uitgebreid: samen 330 lessen, 1.746 oefeningen
+en 630 toetsvragen (ruim 2,5 miljoen tekens lesstof). *Uitgebreid* betekent het
+volle niveau uit het bouwplan: ca. tien boekpagina's per module, veel uitgewerkte
+voorbeelden en foutenanalyse. Open interpretatievragen worden opgeslagen voor vergelijking met
 modelantwoorden; ze tellen niet mee voor automatische beheersing. Het
 eindonderzoek bevat een echte lokale dataset, een uitgewerkt onderzoek en een
 rubric voor zelfbeoordeling van je eigen rapport.
