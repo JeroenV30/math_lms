@@ -75,25 +75,6 @@
       ]
     },
     {
-      "type": "numeric",
-      "difficulty": 2,
-      "question": "Hoeveel keer zoveel metingen zijn nodig om SE te halveren?",
-      "answer": 4,
-      "solution": [
-        "$2^2=4$."
-      ],
-      "id": "38-T05",
-      "topics": [
-        "sampling"
-      ],
-      "feedback": [
-        {
-          "answer": 2,
-          "message": "Dat is de factor voor $\\sqrt n$. Voor een halvering van $SE$ moet $n$ vier keer zo groot worden."
-        }
-      ]
-    },
-    {
       "type": "decimal",
       "difficulty": 2,
       "question": "Bij een 95%-z-interval is SE=3. Geef de foutmarge.",
@@ -118,34 +99,6 @@
       ]
     },
     {
-      "type": "decimal",
-      "difficulty": 2,
-      "question": "Gemiddelde 70, foutmarge 5,88. Geef de ondergrens.",
-      "answer": 64.12,
-      "solution": [
-        "$70-5{,}88=64{,}12$."
-      ],
-      "tolerance": 0.005,
-      "id": "38-T07",
-      "topics": [
-        "sampling"
-      ]
-    },
-    {
-      "type": "decimal",
-      "difficulty": 2,
-      "question": "Geef de bovengrens van hetzelfde interval.",
-      "answer": 75.88,
-      "solution": [
-        "$70+5{,}88=75{,}88$."
-      ],
-      "tolerance": 0.005,
-      "id": "38-T08",
-      "topics": [
-        "sampling"
-      ]
-    },
-    {
       "type": "numeric",
       "difficulty": 2,
       "question": "Een t-interval met n=26 heeft hoeveel vrijheidsgraden?",
@@ -161,6 +114,62 @@
         {
           "answer": 26,
           "message": "Dat is $n$. Het aantal vrijheidsgraden is $n-1$."
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Van 200 personen antwoorden 90 ja. Geef p̂.",
+      "answer": 0.45,
+      "solution": [
+        "$90/200=0{,}45$."
+      ],
+      "tolerance": 0.005,
+      "id": "38-T11",
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een school heeft 2000 leerlingen, onder wie 600 in leerjaar 1. Je trekt een proportioneel gestratificeerde steekproef van 100 leerlingen met de leerjaren als strata. Hoeveel leerlingen uit leerjaar 1 neem je?",
+      "answer": 30,
+      "solution": [
+        "Leerjaar 1 is $600/2000=30\\%$ van de populatie, dus $0{,}30\\cdot100=30$ leerlingen."
+      ],
+      "id": "38-T16",
+      "topics": [
+        "sampling"
+      ],
+      "feedback": [
+        {
+          "answer": 60,
+          "message": "Dit is 600 gedeeld door 10. Neem het aandeel van het stratum: $600/2000\\cdot100$."
+        },
+        {
+          "answer": 50,
+          "message": "Je nam een gelijk aandeel per stratum. Proportioneel betekent: gelijk aan het populatieaandeel van het stratum."
+        }
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een onderzoeker construeert 100 onafhankelijke 95%-betrouwbaarheidsintervallen uit 100 nieuwe steekproeven. Bij benadering hoeveel van die intervallen bevatten naar verwachting de ware parameter?",
+      "answer": 95,
+      "solution": [
+        "Het betrouwbaarheidsniveau beschrijft de procedure: bij herhaling bevat ongeveer 95% van de intervallen de parameter, dus 95 van de 100."
+      ],
+      "id": "38-T17",
+      "topics": [
+        "sampling"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Dit is het aantal intervallen dat de parameter mist. Je zoekt het aantal dat hem bevat."
         }
       ]
     },
@@ -186,20 +195,6 @@
           "answer": 1.96,
           "message": "Je gebruikte $z$ in plaats van de gegeven $t^*$."
         }
-      ]
-    },
-    {
-      "type": "decimal",
-      "difficulty": 2,
-      "question": "Van 200 personen antwoorden 90 ja. Geef p̂.",
-      "answer": 0.45,
-      "solution": [
-        "$90/200=0{,}45$."
-      ],
-      "tolerance": 0.005,
-      "id": "38-T11",
-      "topics": [
-        "sampling"
       ]
     },
     {
@@ -243,16 +238,28 @@
       ]
     },
     {
-      "type": "numeric",
-      "difficulty": 2,
-      "question": "Een interval [9;15] heeft welke halve breedte?",
-      "answer": 3,
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Van 400 ondervraagden zeggen er 180 ja ($\\hat p=0{,}45$). Geef de ondergrens van het 95%-betrouwbaarheidsinterval voor $p$ met factor 1,96, in vier decimalen.",
+      "answer": 0.4012,
       "solution": [
-        "$(15-9)/2=3$."
+        "$SE=\\sqrt{0{,}45\\cdot0{,}55/400}\\approx0{,}02487$; marge $=1{,}96\\cdot0{,}02487\\approx0{,}0488$.",
+        "Ondergrens: $0{,}45-0{,}0488\\approx0{,}4012$."
       ],
-      "id": "38-T14",
+      "tolerance": 0.0005,
+      "id": "38-T18",
       "topics": [
         "sampling"
+      ],
+      "feedback": [
+        {
+          "answer": 0.4988,
+          "message": "Dit is de bovengrens $\\hat p+1{,}96\\,SE$. Je zoekt de ondergrens."
+        },
+        {
+          "answer": 0.0488,
+          "message": "Dit is de marge, niet de ondergrens. Trek de marge af van $\\hat p$."
+        }
       ]
     },
     {
@@ -271,6 +278,26 @@
         {
           "answer": 245,
           "message": "Je rondde 245,86 naar beneden af. Rond naar boven af."
+        }
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 4,
+      "question": "Je wilt een proportie schatten met een 95%-marge van hoogstens 0,03 en weet vooraf niets over $p$, dus je neemt $p=0{,}5$. Geef de minimale steekproefgrootte (factor 1,96).",
+      "answer": 1068,
+      "solution": [
+        "$n\\ge p(1-p)\\,(1{,}96/0{,}03)^2=0{,}25\\cdot4268{,}44\\approx1067{,}1$.",
+        "Rond naar boven af: $n=1068$."
+      ],
+      "id": "38-T19",
+      "topics": [
+        "sampling"
+      ],
+      "feedback": [
+        {
+          "answer": 1067,
+          "message": "Je rondde naar beneden af, waardoor de marge net groter dan 0,03 blijft. Rond altijd naar boven af."
         }
       ]
     }

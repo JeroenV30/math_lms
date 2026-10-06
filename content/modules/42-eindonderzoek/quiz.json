@@ -51,22 +51,6 @@
     {
       "type": "decimal",
       "difficulty": 2,
-      "question": "Geef het percentage ontbrekende geslachtswaarden bij 3 uit 120.",
-      "answer": 2.5,
-      "solution": [
-        "$3/120\\cdot100=2{,}5\\%$."
-      ],
-      "tolerance": 0.005,
-      "id": "42-T04",
-      "topics": [
-        "research",
-        "hypothesis-testing",
-        "descriptive-statistics"
-      ]
-    },
-    {
-      "type": "decimal",
-      "difficulty": 2,
       "question": "Van 119 geldige gewichten is de som 501025 g. Geef het gemiddelde op twee decimalen.",
       "answer": 4210.29,
       "solution": [
@@ -105,38 +89,6 @@
       ],
       "tolerance": 5e-05,
       "id": "42-T07",
-      "topics": [
-        "research",
-        "hypothesis-testing",
-        "descriptive-statistics"
-      ]
-    },
-    {
-      "type": "decimal",
-      "difficulty": 2,
-      "question": "Geef dat verschil als percentage van het vrouwengemiddelde, op twee decimalen.",
-      "answer": 19.81,
-      "solution": [
-        "$660{,}5769231/3334{,}6153846\\cdot100\\approx19{,}81\\%$."
-      ],
-      "tolerance": 0.005,
-      "id": "42-T08",
-      "topics": [
-        "research",
-        "hypothesis-testing",
-        "descriptive-statistics"
-      ]
-    },
-    {
-      "type": "decimal",
-      "difficulty": 2,
-      "question": "De SE van het verschil is 94,838893 g. Geef dit in kilogram op vier decimalen.",
-      "answer": 0.0948,
-      "solution": [
-        "$94{,}838893/1000=0{,}094838893$ kg."
-      ],
-      "tolerance": 5e-05,
-      "id": "42-T09",
       "topics": [
         "research",
         "hypothesis-testing",
@@ -193,13 +145,13 @@
     {
       "type": "decimal",
       "difficulty": 2,
-      "question": "De waargenomen massa bij die vleugellengte is 4100 g. Geef het residu op twee decimalen.",
-      "answer": 128.83,
+      "question": "R²=0,255757608. Hoeveel procent van de y-variatie verklaart de lijn in deze data? Geef twee decimalen.",
+      "answer": 25.58,
       "solution": [
-        "$4100-3971{,}168851=128{,}831149$ g."
+        "$0{,}255757608\\cdot100=25{,}5757608\\%$."
       ],
       "tolerance": 0.005,
-      "id": "42-T13",
+      "id": "42-T14",
       "topics": [
         "research",
         "hypothesis-testing",
@@ -208,14 +160,71 @@
     },
     {
       "type": "decimal",
-      "difficulty": 2,
-      "question": "R²=0,255757608. Hoeveel procent van de y-variatie verklaart de lijn in deze data? Geef twee decimalen.",
-      "answer": 25.58,
+      "difficulty": 3,
+      "question": "De 26 Adélie-mannen hebben $Q_1=3725$ g en $Q_3=4250$ g. Geef de bovengrens van de 1,5·IQR-regel voor uitschieters, in gram.",
+      "answer": 5037.5,
       "solution": [
-        "$0{,}255757608\\cdot100=25{,}5757608\\%$."
+        "$\\text{IQR}=4250-3725=525$ g.",
+        "Bovengrens: $Q_3+1{,}5\\cdot525=4250+787{,}5=5037{,}5$ g. De zwaarste Adélie-man weegt 4775 g, dus er is geen uitschieter."
+      ],
+      "tolerance": 0.05,
+      "id": "42-T16",
+      "feedback": [
+        {
+          "answer": 4250,
+          "message": "Dit is $Q_3$ zelf. Tel er $1{,}5\\cdot\\text{IQR}$ bij op."
+        },
+        {
+          "answer": 787.5,
+          "message": "Dit is alleen $1{,}5\\cdot\\text{IQR}$. Tel het op bij $Q_3$."
+        }
+      ],
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "De Adélie-mannen hebben gemiddelde 3995,19 g en $s=392,49$ g, de vrouwen 3334,62 g en $s=282,50$ g, beide met $n=26$. Geef Cohens $d$ (verschil gedeeld door de gepoolde standaardafwijking) op twee decimalen.",
+      "answer": 1.93,
+      "solution": [
+        "Bij gelijke $n$ is $s_p=\\sqrt{(392{,}49^2+282{,}50^2)/2}\\approx341{,}95$ g.",
+        "$d=660{,}58/341{,}95\\approx1{,}93$: ruim een gepoolde standaardafwijking verschil."
       ],
       "tolerance": 0.005,
-      "id": "42-T14",
+      "id": "42-T17",
+      "feedback": [
+        {
+          "answer": 660.58,
+          "message": "Dit is het verschil in gram. Deel het door de gepoolde standaardafwijking."
+        }
+      ],
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Bij 12 geslachtsvergelijkingen is de p-waarde voor vleugellengte bij Chinstrap 0,0057. Geef de Bonferroni-gecorrigeerde p-waarde (12 maal p), op vier decimalen.",
+      "answer": 0.0684,
+      "solution": [
+        "$12\\cdot0{,}0057=0{,}0684$.",
+        "Dat is groter dan 0,05: na correctie is dit verschil niet significant. Gelijkwaardig: de drempel is $0{,}05/12\\approx0{,}0042$ en $0{,}0057$ ligt daarboven."
+      ],
+      "tolerance": 5e-05,
+      "id": "42-T18",
+      "feedback": [
+        {
+          "answer": 0.0057,
+          "message": "Dit is de ongecorrigeerde p-waarde. Vermenigvuldig met het aantal toetsen."
+        }
+      ],
       "topics": [
         "research",
         "hypothesis-testing",
@@ -232,6 +241,35 @@
       ],
       "tolerance": 5e-07,
       "id": "42-T15",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": 4,
+      "question": "Voor alle 119 dieren is de regressiehelling van snaveldiepte op snavellengte $-0{,}0709$ mm/mm; binnen Adélie is ze $0{,}2152$ mm/mm. Met hoeveel mm verandert de voorspelde snaveldiepte bij een 10 mm langere snavel volgens het totaalmodel, en volgens het Adélie-model? Geef beide op drie decimalen.",
+      "solution": [
+        "Totaal: $10\\cdot(-0{,}0709)=-0{,}709$ mm. Adélie: $10\\cdot0{,}2152=2{,}152$ mm.",
+        "Het teken keert om doordat de soorten verschillen in gemiddelde snavellengte en -diepte: Simpsons paradox."
+      ],
+      "id": "42-T19",
+      "parts": [
+        {
+          "label": "totaalmodel (mm)",
+          "answer": -0.709,
+          "type": "decimal",
+          "tolerance": 0.005
+        },
+        {
+          "label": "Adélie-model (mm)",
+          "answer": 2.152,
+          "type": "decimal",
+          "tolerance": 0.005
+        }
+      ],
       "topics": [
         "research",
         "hypothesis-testing",

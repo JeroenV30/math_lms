@@ -5,21 +5,6 @@
     {
       "type": "decimal",
       "difficulty": 2,
-      "question": "P(H)=0,1. Geef P(niet H).",
-      "answer": 0.9,
-      "solution": [
-        "$1-0{,}1=0{,}9$."
-      ],
-      "tolerance": 0.005,
-      "id": "41-T01",
-      "topics": [
-        "bayes",
-        "probability"
-      ]
-    },
-    {
-      "type": "decimal",
-      "difficulty": 2,
       "question": "P(H)=0,1, P(D|H)=0,8 en P(D|niet H)=0,2. Geef P(H en D).",
       "answer": 0.08,
       "solution": [
@@ -105,35 +90,6 @@
       ]
     },
     {
-      "type": "numeric",
-      "difficulty": 2,
-      "question": "Prior odds 1/3 en LR=3. Geef posterior odds.",
-      "answer": 1,
-      "solution": [
-        "$(1/3)\\cdot3=1$."
-      ],
-      "id": "41-T08",
-      "topics": [
-        "bayes",
-        "probability"
-      ]
-    },
-    {
-      "type": "decimal",
-      "difficulty": 2,
-      "question": "Bij odds 1: geef de kans.",
-      "answer": 0.5,
-      "solution": [
-        "$1/(1+1)=0{,}5$."
-      ],
-      "tolerance": 0.005,
-      "id": "41-T09",
-      "topics": [
-        "bayes",
-        "probability"
-      ]
-    },
-    {
       "type": "decimal",
       "difficulty": 2,
       "question": "Bij odds 4: geef de kans.",
@@ -157,20 +113,6 @@
         "$2+4=6$."
       ],
       "id": "41-T11",
-      "topics": [
-        "bayes",
-        "probability"
-      ]
-    },
-    {
-      "type": "numeric",
-      "difficulty": 2,
-      "question": "Geef de tweede posteriorparameter.",
-      "answer": 9,
-      "solution": [
-        "$3+6=9$."
-      ],
-      "id": "41-T12",
       "topics": [
         "bayes",
         "probability"
@@ -207,6 +149,80 @@
     },
     {
       "type": "decimal",
+      "difficulty": 3,
+      "question": "Een ziekte heeft prevalentie 2%. De test heeft sensitiviteit 90% en specificiteit 95%. Geef de positief voorspellende waarde, op twee decimalen.",
+      "answer": 0.27,
+      "solution": [
+        "Neem 10 000 mensen: 200 zieken en 9800 gezonden. Positief bij zieken: $0{,}90\\cdot200=180$; vals positief: $0{,}05\\cdot9800=490$.",
+        "$\\text{PPV}=180/(180+490)=180/670\\approx0{,}27$."
+      ],
+      "tolerance": 0.005,
+      "id": "41-T16",
+      "feedback": [
+        {
+          "answer": 0.9,
+          "message": "Dit is de sensitiviteit, $P(+\\mid\\text{ziek})$. Gevraagd is $P(\\text{ziek}\\mid+)$: houd rekening met de valse alarmen onder de gezonden."
+        },
+        {
+          "answer": 0.02,
+          "message": "Dit is de prevalentie, de prior. Werk die bij met de positieve uitslag."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Bij dezelfde test en prevalentie (2%, sensitiviteit 90%, specificiteit 95%): geef de negatief voorspellende waarde, op vier decimalen.",
+      "answer": 0.9979,
+      "solution": [
+        "Per 10 000 mensen: negatief bij gezonden $0{,}95\\cdot9800=9310$; negatief bij zieken $200-180=20$.",
+        "$\\text{NPV}=9310/(9310+20)=9310/9330\\approx0{,}9979$."
+      ],
+      "tolerance": 0.0005,
+      "id": "41-T17",
+      "feedback": [
+        {
+          "answer": 0.95,
+          "message": "Dit is de specificiteit, $P(-\\mid\\text{gezond})$. Gevraagd is $P(\\text{gezond}\\mid-)$: tel ook de zieken met een negatieve uitslag mee."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "In een stad met 100 000 inwoners is precies één persoon de dader. Een DNA-profiel komt bij een onschuldige met kans 1 op 10 000 toevallig overeen; bij de dader komt het zeker overeen. Een willekeurige inwoner blijkt te matchen. Geef de kans dat deze persoon de dader is, op twee decimalen.",
+      "answer": 0.09,
+      "solution": [
+        "Verwacht aantal onschuldige matches: $99\\,999\\cdot10^{-4}\\approx10{,}0$. Samen met de dader zijn er ongeveer 11 matches.",
+        "$P(\\text{dader}\\mid\\text{match})\\approx1/11\\approx0{,}09$. De kans $0{,}9999$ is $P(\\text{match}\\mid\\text{onschuldig})$ omgekeerd: de prosecutor's fallacy."
+      ],
+      "tolerance": 0.005,
+      "id": "41-T18",
+      "feedback": [
+        {
+          "answer": 0.9999,
+          "message": "Dit is de omgekeerde voorwaarde: de kans dat een onschuldige niet matcht. Dat is de prosecutor's fallacy. Gevraagd is $P(\\text{dader}\\mid\\text{match})$."
+        },
+        {
+          "answer": 0.0001,
+          "message": "Dit is $P(\\text{match}\\mid\\text{onschuldig})$. Gevraagd is de kans op schuld gegeven de match."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "type": "decimal",
       "difficulty": 4,
       "question": "Prior kans 0,5, likelihoods 0,2 en 0,8. Geef posterior P(H|D).",
       "answer": 0.2,
@@ -215,6 +231,28 @@
       ],
       "tolerance": 0.005,
       "id": "41-T15",
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 4,
+      "question": "Je start met een Beta(2;2)-prior voor een kans $p$. In een eerste reeks zie je 6 successen en 2 mislukkingen. Die posterior gebruik je als prior voor een tweede reeks met 3 successen en 5 mislukkingen. Geef het eindgemiddelde van $p$, op twee decimalen.",
+      "answer": 0.55,
+      "solution": [
+        "Na reeks 1: Beta$(2+6;\\,2+2)=$ Beta$(8;4)$. Na reeks 2: Beta$(8+3;\\,4+5)=$ Beta$(11;9)$.",
+        "Gemiddelde $11/(11+9)=0{,}55$."
+      ],
+      "tolerance": 0.005,
+      "id": "41-T19",
+      "feedback": [
+        {
+          "answer": 0.42,
+          "message": "Je gebruikte alleen de tweede reeks met de oorspronkelijke prior. De posterior van de eerste reeks is de prior voor de tweede."
+        }
+      ],
       "topics": [
         "bayes",
         "probability"

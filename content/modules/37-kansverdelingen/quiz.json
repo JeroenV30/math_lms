@@ -93,40 +93,6 @@
       ]
     },
     {
-      "type": "numeric",
-      "difficulty": 2,
-      "question": "X∼Bin(80;0,25). Geef E(X).",
-      "answer": 20,
-      "solution": [
-        "$80\\cdot0{,}25=20$."
-      ],
-      "id": "37-T06",
-      "topics": [
-        "distributions",
-        "random-variables"
-      ]
-    },
-    {
-      "type": "numeric",
-      "difficulty": 2,
-      "question": "Voor die verdeling: geef Var(X).",
-      "answer": 15,
-      "solution": [
-        "$80\\cdot0{,}25\\cdot0{,}75=15$."
-      ],
-      "id": "37-T07",
-      "topics": [
-        "distributions",
-        "random-variables"
-      ],
-      "feedback": [
-        {
-          "answer": 20,
-          "message": "Dit is de verwachting $np$. Voor de variantie vermenigvuldig je nog met $1-p$."
-        }
-      ]
-    },
-    {
       "type": "decimal",
       "difficulty": 2,
       "question": "Normaal model: μ=60, σ=8. Geef de z-score van 48.",
@@ -231,43 +197,71 @@
       ]
     },
     {
-      "type": "decimal",
-      "difficulty": 2,
-      "question": "Welke continue bovengrens hoort bij X<12?",
-      "answer": 11.5,
+      "type": "numeric",
+      "difficulty": 3,
+      "question": "Een fabriek controleert 500 onderdelen met elk een kans van 0,004 op een defect. Je benadert het aantal defecten met een Poisson-verdeling. Geef de parameter $\\lambda$.",
+      "answer": 2,
       "solution": [
-        "X<12 betekent X≤11; de grens is 11,5."
+        "$\\lambda=np=500\\cdot0{,}004=2$."
       ],
-      "tolerance": 0.005,
-      "id": "37-T13",
+      "id": "37-T16",
       "topics": [
         "distributions",
         "random-variables"
       ],
       "feedback": [
         {
-          "answer": 12.5,
-          "message": "$X<12$ betekent $X\\le11$, niet $X\\le12$. De grens is 11,5."
+          "answer": 0.004,
+          "message": "Dit is de kans $p$ per onderdeel. Voor Poisson geldt $\\lambda=np$."
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "$X\\sim\\operatorname{Poisson}(3)$. Geef $P(X=2)$, afgerond op vier decimalen.",
+      "answer": 0.224,
+      "solution": [
+        "$P(X=2)=e^{-3}\\cdot3^2/2!=4{,}5\\,e^{-3}\\approx0{,}2240$."
+      ],
+      "tolerance": 5e-05,
+      "id": "37-T17",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "feedback": [
+        {
+          "answer": 0.1494,
+          "message": "Dit is $P(X=1)=3e^{-3}$. Je zoekt $k=2$, dus $e^{-3}\\cdot3^2/2!$."
+        },
+        {
+          "answer": 0.0498,
+          "message": "Dit is $P(X=0)=e^{-3}$. Je zoekt $k=2$: $e^{-3}\\cdot3^2/2!$."
         }
       ]
     },
     {
       "type": "numeric",
-      "difficulty": 2,
-      "question": "Een normale verdeling heeft σ=3. Geef de variantie.",
-      "answer": 9,
+      "difficulty": 3,
+      "question": "$X\\sim N(50;\\,6^2)$ en $Y\\sim N(30;\\,8^2)$ zijn onafhankelijk. Geef de standaardafwijking van $S=X+Y$.",
+      "answer": 10,
       "solution": [
-        "Variantie is $\\sigma^2=9$."
+        "$\\operatorname{Var}(S)=36+64=100$, dus $\\sigma_S=\\sqrt{100}=10$."
       ],
-      "id": "37-T14",
+      "id": "37-T18",
       "topics": [
         "distributions",
         "random-variables"
       ],
       "feedback": [
         {
-          "answer": 3,
-          "message": "Dit is de standaardafwijking. De variantie is $\\sigma^2$."
+          "answer": 14,
+          "message": "Je telde de standaardafwijkingen op. Tel de varianties op: $\\sigma_S=\\sqrt{6^2+8^2}$."
+        },
+        {
+          "answer": 100,
+          "message": "Dit is de variantie van $S$. Je zoekt de standaardafwijking, de wortel daarvan."
         }
       ]
     },
@@ -289,6 +283,36 @@
         {
           "answer": 49.8,
           "message": "Dit is de bovengrens $40+1{,}96\\cdot5$. Je zoekt de ondergrens."
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "difficulty": 4,
+      "question": "$X\\sim\\operatorname{Bin}(100;0{,}5)$. Benader $P(X\\ge55)$ met de normale benadering en continuïteitscorrectie. Gebruik $\\Phi(0{,}9)=0{,}8159$ en geef je antwoord in vier decimalen.",
+      "answer": 0.1841,
+      "solution": [
+        "$\\mu=50$, $\\sigma=\\sqrt{25}=5$. Bij $X\\ge55$ hoort de grens 54,5: $z=(54{,}5-50)/5=0{,}9$.",
+        "$P(X\\ge55)\\approx1-\\Phi(0{,}9)=1-0{,}8159=0{,}1841$."
+      ],
+      "tolerance": 5e-05,
+      "id": "37-T19",
+      "topics": [
+        "distributions",
+        "random-variables"
+      ],
+      "feedback": [
+        {
+          "answer": 0.1587,
+          "message": "Je gebruikte 55 zonder continuïteitscorrectie ($z=1$). De grens is 54,5."
+        },
+        {
+          "answer": 0.1357,
+          "message": "Je corrigeerde de verkeerde kant op (grens 55,5). Bij $X\\ge55$ hoort 54,5."
+        },
+        {
+          "answer": 0.8159,
+          "message": "Dit is de linkerkans $\\Phi(0{,}9)$. Je zoekt de rechterstaart."
         }
       ]
     }
