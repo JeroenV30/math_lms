@@ -6,6 +6,17 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ isset($title) ? $title.' · ' : '' }}{{ $courseTitle }}</title>
     <link rel="icon" href="{{ asset('favicon.svg') }}" type="image/svg+xml">
+    {{-- Thema vóór het eerste beeld zetten (geen witte flits): opgeslagen keuze, anders de systeeminstelling. --}}
+    <script>
+        (function () {
+            var dark = false;
+            try {
+                var saved = localStorage.getItem('theme');
+                dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+            } catch (e) {}
+            document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+        })();
+    </script>
     @fonts
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -37,7 +48,7 @@
     <header class="sticky top-0 z-40 border-b border-line bg-paper/95 backdrop-blur" x-data="{ open: false, search: false }">
         <div class="container-page flex h-16 items-center gap-4">
             <a href="{{ route('dashboard') }}" class="flex shrink-0 items-center gap-2.5">
-                <span class="flex h-8 w-8 items-center justify-center rounded-md bg-ink font-serif text-sm font-semibold text-white" aria-hidden="true">∑</span>
+                <span class="flex h-8 w-8 items-center justify-center rounded-md bg-ink font-serif text-sm font-semibold text-paper" aria-hidden="true">∑</span>
                 <span class="hidden leading-tight sm:block">
                     <span class="block font-serif text-[0.95rem] font-semibold text-ink">Rekenen &amp; Wiskunde</span>
                     <span class="block text-[0.7rem] tracking-wide text-muted">door de Eeuwen</span>
@@ -67,6 +78,22 @@
                            class="w-40 rounded-lg border border-line bg-mist py-1.5 pr-3 pl-8 text-sm placeholder:text-faint focus:w-56 focus:border-accent focus:bg-paper focus:outline-none transition-all">
                     <svg class="pointer-events-none absolute top-1/2 left-2.5 h-4 w-4 -translate-y-1/2 text-faint" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="9" cy="9" r="6"/><path d="m14 14 4 4" stroke-linecap="round"/></svg>
                 </form>
+
+                <div x-data="{
+                        mode: (() => { try { return localStorage.getItem('theme') || 'system' } catch (e) { return 'system' } })(),
+                        get label() { return { system: 'Thema: systeem', light: 'Thema: licht', dark: 'Thema: donker' }[this.mode] },
+                        cycle() {
+                            this.mode = { system: 'light', light: 'dark', dark: 'system' }[this.mode];
+                            try { this.mode === 'system' ? localStorage.removeItem('theme') : localStorage.setItem('theme', this.mode) } catch (e) {}
+                            window.applyTheme();
+                        },
+                     }">
+                    <button type="button" class="btn btn-ghost px-2.5" @click="cycle()" :title="label" :aria-label="label">
+                        <svg x-show="mode === 'light'" x-cloak class="h-5 w-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10" cy="10" r="3.5"/><path d="M10 2v2M10 16v2M2 10h2M16 10h2M4.3 4.3l1.4 1.4M14.3 14.3l1.4 1.4M4.3 15.7l1.4-1.4M14.3 5.7l1.4-1.4" stroke-linecap="round"/></svg>
+                        <svg x-show="mode === 'dark'" x-cloak class="h-5 w-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M16 12.5A6.5 6.5 0 0 1 7.5 4a6.5 6.5 0 1 0 8.5 8.5Z" stroke-linejoin="round"/></svg>
+                        <svg x-show="mode === 'system'" class="h-5 w-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="2.5" y="3.5" width="15" height="10" rx="1.5"/><path d="M7 17h6M10 13.5V17" stroke-linecap="round"/></svg>
+                    </button>
+                </div>
 
                 <div class="relative hidden lg:block" x-data="{ more: false }" @click.outside="more = false">
                     <button type="button" class="btn btn-ghost px-2.5" @click="more = !more" :aria-expanded="more" aria-label="Meer">

@@ -21,6 +21,16 @@ class DomainTest extends TestCase
             ->assertSee('aria-current="page"', false);
     }
 
+    public function test_theme_is_set_before_render_and_can_be_switched(): void
+    {
+        $this->useFixtureContent();
+
+        $this->get('/')
+            ->assertOk()
+            ->assertSee("document.documentElement.dataset.theme", false)
+            ->assertSee('Thema: systeem', false);
+    }
+
     public function test_overview_lists_all_domains(): void
     {
         $this->useFixtureContent();

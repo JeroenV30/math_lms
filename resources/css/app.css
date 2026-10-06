@@ -32,6 +32,7 @@
     --color-history: #8a5a24;
     --color-history-soft: #faf6ee;
     --color-history-line: #eadbc2;
+    --color-history-ink: #4a3a26;
 
     --color-challenge: #6741d9;
     --color-challenge-soft: #f5f2ff;
@@ -66,6 +67,91 @@
 
     [x-cloak] {
         display: none !important;
+    }
+}
+
+/*
+ * Donker thema. Alle kleuren lopen via de tokens hierboven; hier krijgen ze
+ * donkere waarden. data-theme wordt vóór het laden gezet (zie layout), op basis
+ * van de opgeslagen keuze of de systeeminstelling.
+ */
+@layer base {
+    :root[data-theme='dark'] {
+        color-scheme: dark;
+
+        --color-ink: #e6e9ee;
+        --color-ink-soft: #c5ccd6;
+        --color-muted: #98a2ae;
+        --color-faint: #6c7785;
+        --color-line: #2a313d;
+        --color-line-strong: #3b4453;
+        --color-mist: #191e27;
+        --color-paper: #11151c;
+
+        --color-accent: #6d86ef;
+        --color-accent-dark: #8aa0f5;
+        --color-accent-soft: #1d2540;
+        --color-accent-line: #34417a;
+
+        --color-history: #d6a865;
+        --color-history-soft: #241e15;
+        --color-history-line: #4a3c27;
+        --color-history-ink: #e8d3b1;
+
+        --color-challenge: #a690fa;
+        --color-challenge-soft: #211b36;
+        --color-challenge-line: #41376b;
+
+        --color-success: #63c77f;
+        --color-success-soft: #14271b;
+        --color-danger: #f17d7d;
+        --color-danger-soft: #2c1717;
+        --color-warning: #e6a447;
+        --color-warning-soft: #2a2113;
+    }
+
+    /*
+     * Interactieve visualisaties en eigen SVG-diagrammen gebruiken vaste
+     * (lichte) kleuren. In het donkere thema blijven ze daarom lichte
+     * 'papieren' kaarten, zodat lijnen en labels goed leesbaar blijven.
+     */
+    :root[data-theme='dark'] .widget {
+        color-scheme: light;
+
+        --color-ink: #1f2933;
+        --color-ink-soft: #3e4c59;
+        --color-muted: #616e7c;
+        --color-faint: #9aa5b1;
+        --color-line: #e4e7eb;
+        --color-line-strong: #cbd2d9;
+        --color-mist: #f5f7fa;
+        --color-paper: #ffffff;
+        --color-accent: #3b5bdb;
+        --color-accent-dark: #2f4ac0;
+        --color-accent-soft: #eef2ff;
+        --color-accent-line: #c5d0fa;
+        --color-history: #8a5a24;
+        --color-history-soft: #faf6ee;
+        --color-history-line: #eadbc2;
+        --color-success: #2b8a3e;
+        --color-success-soft: #ebfbee;
+        --color-danger: #c92a2a;
+        --color-danger-soft: #fff5f5;
+        --color-challenge: #6741d9;
+
+        background-color: #ffffff;
+        color: #1f2933;
+        border-color: #3b4453;
+    }
+
+    :root[data-theme='dark'] img[src$='.svg'] {
+        background-color: #ffffff;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    :root[data-theme='dark'] .figure img:not([src$='.svg']) {
+        opacity: 0.92;
     }
 }
 
@@ -294,7 +380,7 @@
     }
 
     .callout-history .callout-body {
-        @apply text-[#4a3a26];
+        @apply text-history-ink;
     }
 
     .callout-definition {
@@ -514,7 +600,7 @@
     }
 
     .status-completed {
-        @apply bg-ink text-white;
+        @apply bg-ink text-paper;
     }
 
     .status-mastered {

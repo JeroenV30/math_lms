@@ -62,6 +62,19 @@ Alpine.directive('katex', (el, { expression }, { evaluateLater, effect }) => {
     });
 });
 
+/**
+ * Thema toepassen: opgeslagen keuze ('light'/'dark'), anders de systeeminstelling.
+ */
+window.applyTheme = () => {
+    let saved = null;
+    try { saved = localStorage.getItem('theme'); } catch (e) { /* geen opslag beschikbaar */ }
+    const dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+};
+
+// Volg de systeeminstelling zolang er geen eigen keuze is opgeslagen.
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => window.applyTheme());
+
 window.Alpine = Alpine;
 window.renderMath = renderMath;
 

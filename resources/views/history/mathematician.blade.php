@@ -53,7 +53,7 @@
                     <p class="eyebrow text-history">Op de tijdlijn</p>
                     <ul class="mt-3 space-y-1.5 text-sm">
                         @foreach ($events as $event)
-                            <li><a href="{{ route('history.index') }}#{{ $event['id'] }}" class="text-[#4a3a26] hover:underline"><span class="text-history">{{ $event['year_label'] }}</span> · {{ $event['title'] }}</a></li>
+                            <li><a href="{{ route('history.index') }}#{{ $event['id'] }}" class="text-history-ink hover:underline"><span class="text-history">{{ $event['year_label'] }}</span> · {{ $event['title'] }}</a></li>
                         @endforeach
                     </ul>
                 </div>
