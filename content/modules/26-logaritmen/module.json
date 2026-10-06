@@ -7,7 +7,7 @@
   "status": "available",
   "historical_period": "17e eeuw",
   "estimated_difficulty": 3,
-  "estimated_minutes": 150,
+  "estimated_minutes": 240,
   "prerequisites": [
     25
   ],
@@ -16,7 +16,7 @@
     "exponential"
   ],
   "core_question": "Welke exponent maakt een macht gelijk aan een gegeven positief getal?",
-  "summary": "Logaritmen als inverse van machten, rekenregels met domeinvoorwaarden, grafieken en exponentiële vergelijkingen.",
+  "summary": "Logaritmen als exponent: definitie, rekenregels met domeinvoorwaarden, grondtal wisselen, grafiek als spiegelbeeld van de macht, exponentiële vergelijkingen, logaritmische schalen en het verhaal van Napier.",
   "learning_goals": [
     "Je vertaalt tussen bʸ = x en log_b(x) = y met de juiste voorwaarden.",
     "Je berekent exacte logaritmen via bekende machten.",
@@ -24,7 +24,9 @@
     "Je rekent om naar een andere basis met een quotiënt van logaritmen.",
     "Je beschrijft domein en grafiek van een logaritmische functie.",
     "Je lost exponentiële en logaritmische vergelijkingen op en controleert hun domein.",
-    "Je berekent verdubbelings- en halveringstijden en interpreteert discrete drempels."
+    "Je berekent verdubbelings- en halveringstijden en interpreteert discrete drempels.",
+    "Je past logaritmische schalen toe (decibel, pH, magnitude) en vertaalt een stap op de schaal naar een factor.",
+    "Je herkent en verklaart de typische fouten met logaritmen, zoals log(a + b) ≠ log a + log b."
   ],
   "glossary": [
     {
@@ -54,33 +56,66 @@
     {
       "term": "Verticale asymptoot",
       "definition": "Een verticale lijn waar de grafiek bij een domeingrens onbegrensd langs loopt."
+    },
+    {
+      "term": "Verdubbelingstijd",
+      "definition": "De tijd waarin een exponentieel groeiende hoeveelheid twee keer zo groot wordt: ln 2 / ln g bij groeifactor g."
+    },
+    {
+      "term": "Halveringstijd",
+      "definition": "De tijd waarin een exponentieel afnemende hoeveelheid tot de helft daalt: ln 0,5 / ln g bij factor g."
+    },
+    {
+      "term": "Logaritmische schaal",
+      "definition": "Een schaal waarop een vaste stap een vaste factor in de grootheid betekent, zoals decibel, pH en magnitude."
+    },
+    {
+      "term": "Rekenliniaal",
+      "definition": "Rekeninstrument met logaritmische schalen waarmee je door afstanden op te tellen getallen vermenigvuldigt."
     }
   ],
   "formulas": [
     {
       "name": "Definitie",
       "latex": "\\log_b x=y\\iff b^y=x\\quad(b>0,\\ b\\ne1,\\ x>0)",
-      "usage": "Vertaal een logaritme naar een exponent."
+      "usage": "Vertaal een logaritme naar een exponent.",
+      "origin": "Volgt uit de vraag 'tot welke macht?'; Napier gaf het woord logaritme (1614), Euler zag haar als inverse van de exponentiële functie."
     },
     {
       "name": "Product en quotiënt",
       "latex": "\\log_b(uv)=\\log_b u+\\log_b v,\\quad\\log_b(u/v)=\\log_b u-\\log_b v",
-      "usage": "u en v zijn positief."
+      "usage": "u en v zijn positief.",
+      "origin": "Afgeleid uit de regel voor het vermenigvuldigen van machten; de kern van Napiers tabellen."
     },
     {
       "name": "Machtsregel",
       "latex": "\\log_b(u^r)=r\\log_b u\\quad(u>0)",
-      "usage": "Voor een reële exponent r."
+      "usage": "Voor een reële exponent r.",
+      "origin": "Afgeleid uit (g^p)^r = g^(pr); basis van de oplossing van exponentiële vergelijkingen."
     },
     {
       "name": "Basis veranderen",
       "latex": "\\log_b x=\\frac{\\ln x}{\\ln b}",
-      "usage": "De noemer is niet nul omdat b ≠ 1."
+      "usage": "De noemer is niet nul omdat b ≠ 1.",
+      "origin": "Volgt uit de machtsregel; maakt het mogelijk elke logaritme met een rekenmachine met alleen log en ln te berekenen."
     },
     {
       "name": "Exponentiële vergelijking",
       "latex": "N_0g^t=M\\implies t=\\frac{\\ln(M/N_0)}{\\ln g}",
-      "usage": "Positieve N₀, M en g; g ≠ 1."
+      "usage": "Positieve N₀, M en g; g ≠ 1.",
+      "origin": "Toepassing van de logaritme op groeimodellen uit module 25: verdubbelings- en halveringstijd."
+    },
+    {
+      "name": "Decibel",
+      "latex": "L=10\\log\\frac{I}{I_0}",
+      "usage": "Geluidsniveau in dB; elke factor 10 in intensiteit geeft 10 dB erbij.",
+      "origin": "Logaritmische schaal voor grootheden die over vele ordes van grootte uiteenlopen."
+    },
+    {
+      "name": "pH",
+      "latex": "\\mathrm{pH}=-\\log\\left[\\mathrm{H}^+\\right]",
+      "usage": "Zuurgraad; één pH-eenheid is een factor 10 in H⁺-concentratie.",
+      "origin": "Logaritmische schaal in de scheikunde."
     }
   ],
   "lessons": [
@@ -122,7 +157,7 @@
     },
     {
       "slug": "vergelijkingen",
-      "title": "Vergelijkingen en tijdsdrempels",
+      "title": "Vergelijkingen, tijdsdrempels en schalen",
       "kind": "practice",
       "file": "07-vergelijkingen.md"
     },
@@ -133,6 +168,12 @@
       "file": "08-samenvatting.md"
     }
   ],
-  "timeline": [],
-  "mathematicians": []
+  "timeline": [
+    "napier-logaritmen",
+    "euler"
+  ],
+  "mathematicians": [
+    "napier",
+    "euler"
+  ]
 }

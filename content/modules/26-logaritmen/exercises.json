@@ -5,7 +5,8 @@
       "question": "Los 2ᵗ = 8 op.",
       "answer": 3,
       "solution": [
-        "2³ = 8."
+        "Je zoekt de exponent: $2^1=2$, $2^2=4$, $2^3=8$.",
+        "Dus $t=3$, dus $t=\\log_2 8$."
       ],
       "hints": [
         "Zoek de exponent."
@@ -15,6 +16,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Je hebt $8:2=4$ berekend. Bij $2^t$ staat $t$ in de exponent: vraag je af hoe vaak je 2 met zichzelf moet vermenigvuldigen om 8 te krijgen."
+        }
       ]
     },
     {
@@ -22,7 +29,8 @@
       "question": "Los x³ = 8 op over de reële getallen.",
       "answer": 2,
       "solution": [
-        "De derdemachtswortel van 8 is 2."
+        "De onbekende staat in het grondtal, dus je neemt een wortel.",
+        "$x=\\sqrt[3]{8}=2$, want $2^3=8$."
       ],
       "hints": [
         "Hier is de basis onbekend."
@@ -32,6 +40,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Je hebt $8\\times3$ berekend. Bij $x^3=8$ zoek je het getal dat drie keer met zichzelf vermenigvuldigd 8 geeft."
+        }
       ]
     },
     {
@@ -39,7 +53,8 @@
       "question": "Bereken log₃ 81.",
       "answer": 4,
       "solution": [
-        "3⁴ = 81."
+        "Vertaal $\\log_3 81=x$ naar $3^x=81$.",
+        "$3^2=9$, $3^3=27$, $3^4=81$. Dus $x=4$."
       ],
       "hints": [
         "Vertaal naar een macht."
@@ -49,6 +64,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 27,
+          "message": "Je hebt $81:3=27$ berekend. Een logaritme is een exponent: tot welke macht moet je 3 verheffen?"
+        }
       ]
     },
     {
@@ -56,7 +77,8 @@
       "question": "Bereken log₂ 1.",
       "answer": 0,
       "solution": [
-        "2⁰ = 1."
+        "Vertaal naar $2^x=1$.",
+        "Elke macht met exponent 0 is 1, dus $x=0$."
       ],
       "hints": [
         "Elke geldige basis tot nul geeft één."
@@ -66,6 +88,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Dat is de uitkomst van $2^0$, niet de exponent. De vraag is: tot welke macht geeft 2 het getal 1? Dat is $0$."
+        }
       ]
     },
     {
@@ -73,7 +101,8 @@
       "question": "Bereken log₂(1/8).",
       "answer": -3,
       "solution": [
-        "2⁻³ = 1/8."
+        "Vertaal naar $2^x=\\tfrac18$.",
+        "$2^{-3}=\\tfrac{1}{2^3}=\\tfrac18$, dus $x=-3$."
       ],
       "hints": [
         "Een negatieve uitkomst is toegestaan."
@@ -83,6 +112,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "$2^3=8$, niet $\\tfrac18$. Voor een breuk onder 1 is de exponent negatief."
+        }
       ]
     },
     {
@@ -90,7 +125,8 @@
       "question": "Bereken log_(1/2) 8.",
       "answer": -3,
       "solution": [
-        "(1/2)⁻³ = 8."
+        "Vertaal naar $(\\tfrac12)^x=8$.",
+        "$(\\tfrac12)^{-3}=2^3=8$, dus $x=-3$."
       ],
       "hints": [
         "De basis is kleiner dan één."
@@ -100,6 +136,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "$(\\tfrac12)^3=\\tfrac18$. Je hebt het teken gemist: bij een grondtal kleiner dan 1 en een argument groter dan 1 is de logaritme negatief."
+        }
       ]
     },
     {
@@ -107,7 +149,8 @@
       "question": "Bestaat log₂ 0 als reëel getal? Geef 1 voor ja, 0 voor nee.",
       "answer": 0,
       "solution": [
-        "Positieve machten leveren nooit nul."
+        "Zou $\\log_2 0=x$ bestaan, dan geldt $2^x=0$.",
+        "Een positief grondtal tot een reële macht is altijd positief, dus $2^x=0$ heeft geen oplossing."
       ],
       "hints": [
         "Controleer het argument."
@@ -117,6 +160,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Controleer: welke exponent $x$ geeft $2^x=0$? Er is er geen, want een macht met grondtal 2 wordt nooit 0."
+        }
       ]
     },
     {
@@ -124,7 +173,8 @@
       "question": "Is grondtal 1 geldig voor een logaritme? Geef 1 voor ja, 0 voor nee.",
       "answer": 0,
       "solution": [
-        "1ʸ geeft steeds dezelfde uitvoer."
+        "$1^y=1$ voor elke $y$.",
+        "Dus $1^y=5$ heeft geen oplossing en $1^y=1$ oneindig veel: geen eenduidige exponent."
       ],
       "hints": [
         "Een inverse vereist dat de exponent terug te vinden is."
@@ -134,6 +184,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Bij grondtal 1 is de uitkomst altijd 1. Dan is de exponent niet te achterhalen, en dus is grondtal 1 niet toegestaan."
+        }
       ]
     },
     {
@@ -141,7 +197,8 @@
       "question": "Bereken log₂ 8 + log₂ 4.",
       "answer": 5,
       "solution": [
-        "3 + 2 = 5, of log₂ 32."
+        "Productregel: $\\log_2 8+\\log_2 4=\\log_2(8\\cdot4)=\\log_2 32$.",
+        "$\\log_2 8=3$ en $\\log_2 4=2$, dus $3+2=5$."
       ],
       "hints": [
         "Een som van logaritmen hoort bij een product."
@@ -151,6 +208,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je hebt de argumenten opgeteld ($8+4$). De som van logaritmen hoort bij het product van de argumenten, en je moet de logaritmen zelf optellen."
+        }
       ]
     },
     {
@@ -158,7 +221,8 @@
       "question": "Bereken log₂ 32 − log₂ 4.",
       "answer": 3,
       "solution": [
-        "5 − 2 = 3, of log₂ 8."
+        "Quotiëntregel: $\\log_2 32-\\log_2 4=\\log_2\\tfrac{32}{4}=\\log_2 8$.",
+        "$5-2=3$."
       ],
       "hints": [
         "Gebruik de quotiëntregel."
@@ -168,6 +232,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 28,
+          "message": "Je hebt de argumenten afgetrokken ($32-4$). Reken met de logaritmen: $\\log_2 32=5$ en $\\log_2 4=2$."
+        }
       ]
     },
     {
@@ -175,7 +245,8 @@
       "question": "Bereken log₂(8²).",
       "answer": 6,
       "solution": [
-        "2 log₂ 8 = 2×3 = 6."
+        "Machtsregel: $\\log_2(8^2)=2\\log_2 8$.",
+        "$\\log_2 8=3$, dus $2\\cdot3=6$. Controle: $8^2=64=2^6$."
       ],
       "hints": [
         "Gebruik de machtsregel."
@@ -185,6 +256,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Je hebt $8\\cdot2$ berekend. De exponent 2 komt als factor voor de logaritme: $2\\cdot\\log_2 8$, niet voor het argument."
+        }
       ]
     },
     {
@@ -192,7 +269,8 @@
       "question": "Is ln(x²) = 2 ln x geldig bij x = −2 als vergelijking van reële expressies? Geef 1 voor ja, 0 voor nee.",
       "answer": 0,
       "solution": [
-        "De rechterkant bevat ln(−2), dat niet reëel gedefinieerd is."
+        "Linkerkant: $\\ln((-2)^2)=\\ln4$, gedefinieerd.",
+        "Rechterkant: $2\\ln(-2)$, en $\\ln(-2)$ bestaat niet. De regel geldt alleen voor $x>0$."
       ],
       "hints": [
         "Controleer beide oorspronkelijke expressies."
@@ -202,6 +280,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Reken de rechterkant na: $\\ln(-2)$ is niet gedefinieerd. De machtsregel vereist een positief argument."
+        }
       ]
     },
     {
@@ -209,7 +293,7 @@
       "question": "Combineer ln x + ln 3 voor x > 0 tot één logaritme.",
       "answer": "ln(3*x)",
       "solution": [
-        "Productregel: ln(3x)."
+        "Productregel: $\\ln x+\\ln3=\\ln(3x)$."
       ],
       "hints": [
         "De argumenten worden vermenigvuldigd."
@@ -219,6 +303,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": "ln(x+3)",
+          "message": "Je hebt de argumenten opgeteld. Bij een som van logaritmen vermenigvuldig je de argumenten."
+        }
       ]
     },
     {
@@ -226,7 +316,8 @@
       "question": "Bereken ln(e³).",
       "answer": 3,
       "solution": [
-        "ln en de macht met basis e heffen elkaar op."
+        "$\\ln(e^3)$ vraagt tot welke macht je $e$ moet verheffen om $e^3$ te krijgen.",
+        "Dat is 3."
       ],
       "hints": [
         "De exponent is 3."
@@ -243,7 +334,8 @@
       "question": "Bereken log 1000, met basis 10.",
       "answer": 3,
       "solution": [
-        "10³ = 1000."
+        "$\\log1000=x$ betekent $10^x=1000$.",
+        "$10^3=1000$, dus $x=3$."
       ],
       "hints": [
         "In deze cursus betekent log basis 10."
@@ -253,6 +345,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Je hebt de cijfers van 1000 geteld in plaats van de nullen. $10^4=10\\,000$; de exponent is het aantal nullen: 3."
+        }
       ]
     },
     {
@@ -260,7 +358,8 @@
       "question": "Geef log₂ 10 exact met natuurlijke logaritmen.",
       "answer": "ln(10)/ln(2)",
       "solution": [
-        "Basisverandering: ln 10 / ln 2."
+        "Basisverandering: $\\log_g a=\\dfrac{\\ln a}{\\ln g}$.",
+        "Hier is $a=10$ en $g=2$: $\\dfrac{\\ln10}{\\ln2}$."
       ],
       "hints": [
         "Gebruik dezelfde basis in teller en noemer."
@@ -270,6 +369,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": "ln(2)/ln(10)",
+          "message": "Teller en noemer zijn verwisseld. Het argument komt in de teller, het grondtal in de noemer."
+        }
       ]
     },
     {
@@ -277,7 +382,8 @@
       "question": "Bereken log₂ 10 op twee decimalen.",
       "answer": 3.32,
       "solution": [
-        "ln 10 / ln 2 ≈ 3,32."
+        "$\\ln10\\approx2{,}302585$ en $\\ln2\\approx0{,}693147$.",
+        "$\\dfrac{2{,}302585}{0{,}693147}\\approx3{,}3219\\approx3{,}32$."
       ],
       "hints": [
         "Behoud tussencijfers."
@@ -288,14 +394,21 @@
       "topics": [
         "logarithms"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 0.3,
+          "message": "Dat is $\\ln2/\\ln10=\\log2$: je hebt teller en noemer verwisseld."
+        }
+      ]
     },
     {
       "id": "26-018",
       "question": "Geef het domein van ln(x − 2) als interval.",
       "answer": "(2;inf)",
       "solution": [
-        "x − 2 > 0, dus x > 2."
+        "Het argument moet positief zijn: $x-2>0$.",
+        "Dus $x>2$: domein $\\langle2,\\infty\\rangle$."
       ],
       "hints": [
         "Het argument moet strikt positief zijn."
@@ -305,6 +418,16 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": "[2;inf)",
+          "message": "Bij $x=2$ is het argument 0 en $\\ln0$ bestaat niet. De grens hoort er dus niet bij: het interval is open aan de linkerkant."
+        },
+        {
+          "answer": "(-inf;2)",
+          "message": "Je hebt de ongelijkheid omgedraaid. $x-2>0$ geeft $x>2$."
+        }
       ]
     },
     {
@@ -312,7 +435,8 @@
       "question": "Geef het nulpunt van ln(x − 2).",
       "answer": 3,
       "solution": [
-        "ln 1 = 0, dus x − 2 = 1."
+        "$\\ln(\\text{argument})=0$ betekent: argument $=1$ (want $e^0=1$).",
+        "$x-2=1$, dus $x=3$."
       ],
       "hints": [
         "Bij een nulpunt is het argument één."
@@ -322,6 +446,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Bij $x=2$ is het argument 0: daar bestaat de functie niet (de asymptoot). Het nulpunt vind je door het argument gelijk te stellen aan 1."
+        }
       ]
     },
     {
@@ -329,7 +459,8 @@
       "question": "Bij y = 2ˣ hoort punt (3; 8). Geef het bijbehorende punt op y = log₂ x.",
       "answer": "(8;3)",
       "solution": [
-        "Een inverse verwisselt invoer en uitvoer."
+        "Een inverse wisselt de coördinaten om: $(3;8)\\to(8;3)$.",
+        "Controle: $\\log_2 8=3$."
       ],
       "hints": [
         "Spiegel in y = x."
@@ -339,6 +470,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": "(3;8)",
+          "message": "Je hebt niets omgewisseld. Op $y=\\log_2x$ is de invoer 8 en de uitvoer 3."
+        }
       ]
     },
     {
@@ -346,7 +483,8 @@
       "question": "Is log_(1/2) x stijgend? Geef 1 voor ja, 0 voor nee.",
       "answer": 0,
       "solution": [
-        "Bij basis tussen 0 en 1 is de logaritme dalend."
+        "Bij een grondtal tussen 0 en 1 is $(\\tfrac12)^x$ dalend.",
+        "De inverse van een dalende functie is dalend, dus $\\log_{1/2}x$ is dalend."
       ],
       "hints": [
         "Denk aan de inverse van een vervalfunctie."
@@ -356,6 +494,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Controleer met getallen: $\\log_{1/2}2=-1$ en $\\log_{1/2}4=-2$. De waarde wordt kleiner terwijl $x$ groter wordt: dalend."
+        }
       ]
     },
     {
@@ -363,7 +507,8 @@
       "question": "Bereken log 100 + log 1000 in basis 10.",
       "answer": 5,
       "solution": [
-        "2 + 3 = 5."
+        "$\\log100=2$ en $\\log1000=3$.",
+        "$2+3=5$; ook $\\log(100\\cdot1000)=\\log10^5=5$."
       ],
       "hints": [
         "Het product is 100 000."
@@ -373,6 +518,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Je hebt de logaritmen vermenigvuldigd. Een som van logaritmen blijft een som: $2+3$."
+        }
       ]
     },
     {
@@ -380,7 +531,8 @@
       "question": "Een getal heeft tiendelige logaritme 5. Wat is dat getal?",
       "answer": 100000,
       "solution": [
-        "10⁵ = 100 000."
+        "$\\log a=5$ betekent $a=10^5$.",
+        "$10^5=100\\,000$."
       ],
       "hints": [
         "Keer terug naar de macht."
@@ -390,6 +542,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Dat is de logaritme zelf. Het gezochte getal is het argument: $10^5$."
+        }
       ]
     },
     {
@@ -397,7 +555,8 @@
       "question": "Los log₂(x − 1) = 3 op.",
       "answer": 9,
       "solution": [
-        "x − 1 = 8, dus x = 9; x > 1."
+        "Vertaal: $x-1=2^3=8$.",
+        "$x=9$. Domein: $x-1>0$, dus $x>1$; 9 voldoet."
       ],
       "hints": [
         "Vertaal naar 2³."
@@ -407,6 +566,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je hebt 1 afgetrokken van 8. Uit $x-1=8$ volgt $x=8+1=9$."
+        }
       ]
     },
     {
@@ -414,7 +579,8 @@
       "question": "Los 100×1,2ᵗ = 500 op. Rond t op twee decimalen af.",
       "answer": 8.83,
       "solution": [
-        "t = ln5/ln1,2 ≈ 8,83."
+        "Deel door 100: $1{,}2^t=5$.",
+        "$t=\\dfrac{\\ln5}{\\ln1{,}2}\\approx\\dfrac{1{,}6094}{0{,}18232}\\approx8{,}83$."
       ],
       "hints": [
         "Deel eerst door de beginwaarde."
@@ -425,14 +591,21 @@
       "topics": [
         "logarithms"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 4.17,
+          "message": "Je hebt 5 door 1,2 gedeeld. De onbekende staat in de exponent: neem de logaritme van beide kanten."
+        }
+      ]
     },
     {
       "id": "26-026",
       "question": "In hetzelfde model zijn alleen gehele meetmomenten toegestaan. Geef de eerste gehele t met minstens 500.",
       "answer": 9,
       "solution": [
-        "Continue grens ≈ 8,827; N(8)<500 en N(9)>500."
+        "Continue grens: $t\\approx8{,}827$.",
+        "$100\\cdot1{,}2^8\\approx430<500$ en $100\\cdot1{,}2^9\\approx516>500$. Dus $t=9$."
       ],
       "hints": [
         "Kies het eerste toegestane moment boven de grens."
@@ -442,6 +615,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Na 8 uur zijn het er nog maar ongeveer 430. Bij een drempel van minstens 500 kies je het eerste hele uur boven de grens."
+        }
       ]
     },
     {
@@ -449,7 +628,8 @@
       "question": "Bereken de verdubbelingstijd bij factor 1,08 per jaar op twee decimalen.",
       "answer": 9.01,
       "solution": [
-        "ln2/ln1,08 ≈ 9,01 jaar."
+        "Los $1{,}08^t=2$ op.",
+        "$t=\\dfrac{\\ln2}{\\ln1{,}08}\\approx\\dfrac{0{,}6931}{0{,}07696}\\approx9{,}01$ jaar."
       ],
       "hints": [
         "De totale factor moet 2 zijn."
@@ -460,14 +640,21 @@
       "topics": [
         "logarithms"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 12.5,
+          "message": "Dat is $1/0{,}08$. Dat geeft de tijd bij lineaire groei; bij exponentiële groei gebruik je $\\ln2/\\ln1{,}08$."
+        }
+      ]
     },
     {
       "id": "26-028",
       "question": "Bereken de halveringstijd bij factor 0,9 per uur op twee decimalen.",
       "answer": 6.58,
       "solution": [
-        "ln0,5/ln0,9 ≈ 6,58 uur."
+        "Los $0{,}9^t=0{,}5$ op.",
+        "$t=\\dfrac{\\ln0{,}5}{\\ln0{,}9}\\approx\\dfrac{-0{,}6931}{-0{,}10536}\\approx6{,}58$ uur."
       ],
       "hints": [
         "Beide logaritmen zijn negatief."
@@ -478,15 +665,22 @@
       "topics": [
         "logarithms"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 6.93,
+          "message": "Je hebt $\\ln0{,}9$ vervangen door $-0{,}1$. Dat is een benadering die op twee decimalen niet voldoet; gebruik de exacte waarde $-0{,}10536$."
+        }
+      ]
     },
     {
       "id": "26-029",
       "question": "Los ln x + ln(x − 2) = ln 3 op over de reële getallen.",
       "answer": 3,
       "solution": [
-        "Domein x > 2.",
-        "x(x−2)=3 geeft kandidaten 3 en −1; alleen 3 is geldig."
+        "Domein: $x>0$ en $x-2>0$, dus $x>2$.",
+        "$\\ln(x(x-2))=\\ln3$, dus $x^2-2x-3=0$, dus $(x-3)(x+1)=0$.",
+        "Kandidaten 3 en $-1$; $-1$ valt buiten het domein. Dus $x=3$."
       ],
       "hints": [
         "Controleer het oorspronkelijke domein vóór combineren."
@@ -496,6 +690,12 @@
       "difficulty": 3,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": -1,
+          "message": "Dat is de tweede kandidaat uit de kwadratische vergelijking, maar $\\ln(-1)$ bestaat niet. Controleer het oorspronkelijke domein $x>2$."
+        }
       ]
     },
     {
@@ -525,6 +725,355 @@
           "label": "eerste gehele jaar",
           "type": "numeric",
           "answer": 10
+        }
+      ]
+    },
+    {
+      "id": "26-031",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $\\log_9 27$ als breuk.",
+      "answer": "3/2",
+      "hints": [
+        "Schrijf 9 en 27 allebei als macht van 3.",
+        "Uit $9^x=27$ volgt $3^{2x}=3^3$."
+      ],
+      "solution": [
+        "$9^x=27$ geeft $3^{2x}=3^3$.",
+        "$2x=3$, dus $x=\\tfrac32$.",
+        "Controle: $9^{3/2}=3^3=27$."
+      ],
+      "topics": [
+        "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": "2/3",
+          "message": "Je hebt de exponenten omgekeerd. $9^{2/3}\\approx4{,}33$, niet 27. Bij $3^{2x}=3^3$ geldt $2x=3$."
+        }
+      ],
+      "require_simplified": true
+    },
+    {
+      "id": "26-032",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $\\dfrac{\\log_3 81}{\\log_3 3}$.",
+      "answer": 4,
+      "hints": [
+        "Reken de twee logaritmen eerst afzonderlijk uit.",
+        "Er staat een gewoon quotiënt van twee getallen."
+      ],
+      "solution": [
+        "$\\log_3 81=4$ en $\\log_3 3=1$.",
+        "Het quotiënt is $4/1=4$."
+      ],
+      "topics": [
+        "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Dat is $\\log_3(81/3)=\\log_3 27$: de logaritme van een quotiënt, het verschil $4-1$. Hier staat het quotiënt van twee logaritmen."
+        }
+      ]
+    },
+    {
+      "id": "26-033",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Schrijf $2\\ln a+\\ln b$ (met $a,b>0$) als één logaritme.",
+      "answer": "ln(a^2*b)",
+      "hints": [
+        "Haal eerst de factor 2 in het argument met de machtsregel.",
+        "Gebruik daarna de productregel."
+      ],
+      "solution": [
+        "$2\\ln a=\\ln(a^2)$.",
+        "$\\ln(a^2)+\\ln b=\\ln(a^2b)$."
+      ],
+      "topics": [
+        "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": "ln(2*a*b)",
+          "message": "De factor 2 wordt een exponent van $a$, geen factor: $2\\ln a=\\ln(a^2)$."
+        },
+        {
+          "answer": "ln(a^2+b)",
+          "message": "Een som van logaritmen hoort bij een product van argumenten."
+        }
+      ]
+    },
+    {
+      "id": "26-034",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken $\\log_8 32$ als breuk.",
+      "answer": "5/3",
+      "hints": [
+        "Schrijf 8 en 32 als macht van 2.",
+        "Gebruik $\\log_8 32=\\dfrac{\\log_2 32}{\\log_2 8}$."
+      ],
+      "solution": [
+        "$32=2^5$ en $8=2^3$.",
+        "$\\log_8 32=\\dfrac{5}{3}$.",
+        "Controle: $8^{5/3}=2^5=32$."
+      ],
+      "topics": [
+        "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": "3/5",
+          "message": "Teller en noemer zijn verwisseld: het argument 32 geeft de teller."
+        },
+        {
+          "answer": 4,
+          "message": "Je hebt $32:8$ berekend. Een logaritme is een exponent, geen quotiënt van de getallen."
+        }
+      ],
+      "require_simplified": true
+    },
+    {
+      "id": "26-035",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Bereken $\\ln100$ op twee decimalen.",
+      "answer": 4.61,
+      "hints": [
+        "Let op: $\\ln$ heeft grondtal $e$, niet 10.",
+        "Gebruik de $\\ln$-toets."
+      ],
+      "solution": [
+        "$\\ln100\\approx4{,}60517$.",
+        "Afgerond op twee decimalen: $4{,}61$."
+      ],
+      "topics": [
+        "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Dat is $\\log100$ (grondtal 10). Hier staat $\\ln$, dus grondtal $e$."
+        }
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "id": "26-036",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een oplossing heeft pH 3, een andere pH 6. Hoeveel keer zo groot is de H⁺-concentratie van de eerste dan van de tweede? (pH $=-\\log[\\mathrm{H}^+]$.)",
+      "answer": 1000,
+      "hints": [
+        "Bereken eerst $[\\mathrm{H}^+]$ bij beide pH-waarden.",
+        "$[\\mathrm{H}^+]=10^{-\\mathrm{pH}}$."
+      ],
+      "solution": [
+        "pH 3: $[\\mathrm{H}^+]=10^{-3}$. pH 6: $10^{-6}$.",
+        "Quotiënt: $10^{-3}/10^{-6}=10^3=1000$."
+      ],
+      "topics": [
+        "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Dat is het verschil in pH. De vraag is naar de factor in concentratie, en die is $10^3$."
+        },
+        {
+          "answer": 100,
+          "message": "Dat is de factor bij een verschil van 2 pH-eenheden. Hier is het verschil 3."
+        }
+      ]
+    },
+    {
+      "id": "26-037",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Twee gelijke machines staan naast elkaar te draaien. Hun intensiteit is samen twee keer die van één machine. Hoeveel dB komt er bij, op één decimaal? ($L=10\\log(I/I_0)$.)",
+      "answer": 3.0,
+      "hints": [
+        "Het verschil is $10\\log(2I/I_0)-10\\log(I/I_0)$.",
+        "Gebruik de quotiëntregel."
+      ],
+      "solution": [
+        "$\\Delta L=10\\log\\dfrac{2I}{I_0}-10\\log\\dfrac{I}{I_0}=10\\log2$.",
+        "$10\\log2\\approx3{,}01$, afgerond $3{,}0$ dB."
+      ],
+      "topics": [
+        "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Dat is $20\\log2$, de formule voor amplitude. Bij intensiteit is het $10\\log2$."
+        },
+        {
+          "answer": 2,
+          "message": "Dat is de intensiteitsfactor zelf, geen aantal decibel. Bereken $10\\log2$."
+        }
+      ],
+      "tolerance": 0.05,
+      "unit": "dB"
+    },
+    {
+      "id": "26-038",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Hoeveel keer zo veel energie komt vrij bij een beving met momentmagnitude 7,0 dan bij magnitude 5,0? Neem aan dat de energie evenredig is met $10^{1{,}5M}$.",
+      "answer": 1000,
+      "hints": [
+        "Het magnitudeverschil is 2.",
+        "De factor is $10^{1{,}5\\cdot2}$."
+      ],
+      "solution": [
+        "Factor $=10^{1{,}5\\cdot(7-5)}=10^{3}=1000$.",
+        "Per eenheid is dat $10^{1{,}5}\\approx31{,}6$ (USGS: ongeveer 32)."
+      ],
+      "topics": [
+        "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 100,
+          "message": "Dat is de factor in amplitude ($10^2$). Voor energie is de factor per eenheid $10^{1{,}5}\\approx31{,}6$."
+        },
+        {
+          "answer": 1024,
+          "message": "Je rekende met 32 per eenheid, een afgeronde waarde. Met $10^{1{,}5}$ is het exact 1000."
+        }
+      ]
+    },
+    {
+      "id": "26-039",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een ster van magnitude 2 en een ster van magnitude 4. Hoeveel keer zo helder is de eerste? Rond af op twee decimalen. (Vijf magnitudes is factor 100.)",
+      "answer": 6.31,
+      "hints": [
+        "Het verschil is 2 magnitudes.",
+        "Eén magnitude is een factor $100^{1/5}$."
+      ],
+      "solution": [
+        "Factor $=100^{2/5}=10^{4/5}=10^{0{,}8}$.",
+        "$10^{0{,}8}\\approx6{,}3096\\approx6{,}31$."
+      ],
+      "topics": [
+        "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Dat is het verschil in magnitude, geen factor in helderheid."
+        },
+        {
+          "answer": 2.51,
+          "message": "Dat is de factor voor één magnitude. Hier is het verschil twee magnitudes: $2{,}512^2$."
+        }
+      ],
+      "tolerance": 0.01
+    },
+    {
+      "id": "26-040",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Op een rekenliniaal staat 1 aan het begin en 10 op 25 cm. Op welke afstand van het begin staat de 2? Rond af op twee decimalen.",
+      "answer": 7.53,
+      "hints": [
+        "De afstand is $25\\cdot\\log x$.",
+        "$\\log2\\approx0{,}30103$."
+      ],
+      "solution": [
+        "Afstand $=25\\cdot\\log2=25\\cdot0{,}30103\\approx7{,}526$.",
+        "Afgerond: $7{,}53$ cm."
+      ],
+      "topics": [
+        "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 12.5,
+          "message": "Dat is het midden van de schaal ($25\\cdot0{,}5$). Daar staat $\\sqrt{10}\\approx3{,}16$, niet 2."
+        },
+        {
+          "answer": 5,
+          "message": "Dat zou een gelijkmatige schaal zijn: $25\\cdot2/10$. Op een rekenliniaal is de afstand evenredig met $\\log x$."
+        }
+      ],
+      "tolerance": 0.01,
+      "unit": "cm"
+    },
+    {
+      "id": "26-041",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een stof heeft een halveringstijd van 5 dagen. Na hoeveel dagen is nog 10% over? Rond af op twee decimalen.",
+      "answer": 16.61,
+      "hints": [
+        "Los $0{,}5^n=0{,}1$ op, waarbij $n$ het aantal halveringstijden is.",
+        "Vermenigvuldig $n$ met 5 dagen."
+      ],
+      "solution": [
+        "$0{,}5^n=0{,}1$, dus $n=\\dfrac{\\ln0{,}1}{\\ln0{,}5}\\approx3{,}3219$.",
+        "Tijd $=5\\cdot3{,}3219\\approx16{,}61$ dagen."
+      ],
+      "topics": [
+        "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 3.32,
+          "message": "Dat is het aantal halveringstijden. Vermenigvuldig met de halveringstijd van 5 dagen."
+        },
+        {
+          "answer": 50,
+          "message": "Je hebt 10 halveringstijden genomen. Er is nog 10% over, niet $10$ keer gehalveerd."
+        }
+      ],
+      "tolerance": 0.01,
+      "unit": "dagen"
+    },
+    {
+      "id": "26-042",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Bij $a=2$ geldt $\\ln(a+b)=\\ln a+\\ln b$ voor precies één positieve $b$. Bepaal die $b$.",
+      "answer": 2,
+      "hints": [
+        "Combineer de rechterkant met de productregel.",
+        "Gelijke logaritmen hebben gelijke argumenten."
+      ],
+      "solution": [
+        "$\\ln(2+b)=\\ln2+\\ln b=\\ln(2b)$.",
+        "$2+b=2b$, dus $b=2$.",
+        "Controle: $\\ln4=\\ln2+\\ln2$."
+      ],
+      "topics": [
+        "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Bij $b=1$ is $\\ln3\\approx1{,}099$ en $\\ln2+\\ln1\\approx0{,}693$. Dat zijn niet dezelfde getallen."
+        },
+        {
+          "answer": 4,
+          "message": "Bij $b=4$ is $\\ln6\\approx1{,}79$ en $\\ln2+\\ln4=\\ln8\\approx2{,}08$. Los $2+b=2b$ op."
         }
       ]
     }

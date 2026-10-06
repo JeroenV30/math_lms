@@ -15,6 +15,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 25,
+          "message": "Je hebt $5\\cdot5$ berekend. Vraag je af: $5^?=125$."
+        }
       ]
     },
     {
@@ -30,6 +36,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Het teken ontbreekt: $3^3=27$, maar $3^{-3}=\\tfrac1{27}$."
+        }
       ]
     },
     {
@@ -60,6 +72,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 32,
+          "message": "Je hebt het product van de argumenten berekend. Gevraagd wordt de som van de logaritmen: $4+1$."
+        }
       ]
     },
     {
@@ -75,6 +93,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 78,
+          "message": "Je hebt de argumenten afgetrokken ($81-3$). Reken met de logaritmen: $4-1$."
+        }
       ]
     },
     {
@@ -90,6 +114,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 75,
+          "message": "Je hebt $25\\cdot3$ berekend. Gebruik de machtsregel: $3\\cdot\\log_5 25=3\\cdot2$."
+        }
       ]
     },
     {
@@ -120,6 +150,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Het teken ontbreekt: $10^2=100$, maar $0{,}01=10^{-2}$."
+        }
       ]
     },
     {
@@ -135,6 +171,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": "[-3;inf)",
+          "message": "Bij $x=-3$ is het argument 0 en bestaat $\\ln0$ niet; het interval is open aan de linkerkant."
+        }
       ]
     },
     {
@@ -150,6 +192,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je hebt $9-2$ gerekend. Uit $x+1=9$ volgt $x=8$."
+        }
       ]
     },
     {
@@ -181,7 +229,13 @@
       "topics": [
         "logarithms"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 3.5,
+          "message": "Dat is $7/2$. De onbekende staat in de exponent: $x=\\ln7/\\ln2$."
+        }
+      ]
     },
     {
       "id": "26-T13",
@@ -197,14 +251,21 @@
       "topics": [
         "logarithms"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 6.93,
+          "message": "Je hebt $\\ln2/0{,}1$ gebruikt. Gebruik de exacte $\\ln1{,}1\\approx0{,}09531$."
+        }
+      ]
     },
     {
       "id": "26-T14",
       "question": "Hetzelfde model begint bij 100. Geef het eerste gehele jaar met minstens 200.",
       "answer": 8,
       "solution": [
-        "Continue grens ≈ 7,273; jaar 7 is te vroeg."
+        "Continue grens $\\approx7{,}27$.",
+        "$100\\cdot1{,}1^7\\approx194{,}9<200$ en $100\\cdot1{,}1^8\\approx214{,}4>200$. Dus 8."
       ],
       "hints": [],
       "type": "numeric",
@@ -212,6 +273,12 @@
       "difficulty": 1,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Na 7 jaar is het $100\\cdot1{,}1^7\\approx194{,}9$, nog net onder 200. Kies het eerste hele jaar erboven."
+        }
       ]
     },
     {
@@ -228,6 +295,12 @@
       "difficulty": 3,
       "topics": [
         "logarithms"
+      ],
+      "feedback": [
+        {
+          "answer": -1,
+          "message": "Die kandidaat valt buiten het domein $x>3$."
+        }
       ]
     }
   ]
