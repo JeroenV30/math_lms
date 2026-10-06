@@ -32,6 +32,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "1/5",
+          "message": "Je deelde door 5 in plaats van door 6. Gunstig gedeeld door **mogelijk**: er zijn 6 mogelijke uitkomsten, niet 5."
+        }
       ]
     },
     {
@@ -66,6 +72,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "1/2",
+          "message": "Je telde ook de 4 mee. ‘Groter dan 4’ betekent strikt groter: alleen 5 en 6."
+        }
       ]
     },
     {
@@ -83,6 +95,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je telde $6+6$. Voor elke uitkomst van de eerste worp zijn er zes uitkomsten van de tweede: vermenigvuldigen, $6\\times6$."
+        }
       ]
     },
     {
@@ -100,6 +118,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "1/11",
+          "message": "Je telde de elf mogelijke sommen (2 tot en met 12) als even waarschijnlijk. Dat zijn ze niet; reken met de 36 geordende paren."
+        }
       ]
     },
     {
@@ -117,6 +141,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "1/11",
+          "message": "Je telde de elf mogelijke sommen als even waarschijnlijk. Som 7 komt voor bij zes van de 36 paren, dus vaker dan som 2."
+        }
       ]
     },
     {
@@ -151,6 +181,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je telde $4+3$. Elk hoofdgerecht kan met elk dessert: vermenigvuldigen."
+        }
       ]
     },
     {
@@ -168,6 +204,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je rekende $4\\times3$. Er zijn drie posities met elk vier keuzes: $4\\times4\\times4=4^3$."
+        }
       ]
     },
     {
@@ -185,6 +227,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Je rekende $4\\times4$, dus met herhaling. Bij verschillende cijfers blijven er na de eerste keuze nog 3 over."
+        }
       ]
     },
     {
@@ -202,6 +250,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "1/8",
+          "message": "Dat is de kans op één bepaalde reeks. Precies twee keer kop kan op drie manieren (KKM, KMK, MKK)."
+        }
       ]
     },
     {
@@ -219,6 +273,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "1/6",
+          "message": "Dat is de kans op een zes zelf. Gevraagd is het complement: $1-\\frac16$."
+        }
       ]
     },
     {
@@ -236,6 +296,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "7/6",
+          "message": "Een kans kan nooit groter zijn dan 1. Je telde de overlap {4, 6} dubbel; trek $P(\\text{even en groter dan 3})$ één keer af."
+        }
       ]
     },
     {
@@ -253,6 +319,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "1/4",
+          "message": "Je vermenigvuldigde $\\frac12\\times\\frac12$. Dat mag alleen bij onafhankelijke gebeurtenissen; hier tel je de overlap {4, 6}: twee van de zes."
+        }
       ]
     },
     {
@@ -270,6 +342,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "1/8",
+          "message": "Dat is de kans op geen enkele kop. Minstens één kop is het complement: $1-\\frac18$."
+        }
       ]
     },
     {
@@ -304,6 +382,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "6/5",
+          "message": "Je telde de kansen op in plaats van te vermenigvuldigen. Een kans van meer dan 1 kan nooit kloppen; langs een pad vermenigvuldig je."
+        }
       ]
     },
     {
@@ -321,6 +405,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "9/25",
+          "message": "Dat is het antwoord met terugleggen. Zonder terugleggen blijven er na een rode trekking 2 rode in 4 ballen over: $\\frac35\\times\\frac24$."
+        }
       ]
     },
     {
@@ -338,6 +428,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "4/25",
+          "message": "Dat is het antwoord met terugleggen. Zonder terugleggen is de tweede kans op blauw $\\frac14$, niet $\\frac25$."
+        }
       ]
     },
     {
@@ -355,6 +451,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "12/25",
+          "message": "Dat is het antwoord met terugleggen en mengen. Zonder terugleggen veranderen de kansen op de tweede splitsing."
+        }
       ]
     },
     {
@@ -372,6 +474,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "3/5",
+          "message": "Dat is het antwoord zonder terugleggen. Met terugleggen blijven de kansen $\\frac35$ en $\\frac25$: $2\\times\\frac35\\times\\frac25$."
+        }
       ]
     },
     {
@@ -389,6 +497,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "3/10",
+          "message": "Dat is de kans die al gegeven was. De twee takkansen van één splitsing tellen op tot 1."
+        }
       ]
     },
     {
@@ -406,6 +520,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "1/2",
+          "message": "Je gaf beide spelers gelijke kans, maar A heeft maar één overwinning nodig en B twee. Tel de even waarschijnlijke reeksen AA, AB, BA, BB."
+        }
       ]
     },
     {
@@ -423,6 +543,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": 40,
+          "message": "Dat is het bedrag voor B (een kwart van 80). A heeft kans $\\frac34$."
+        }
       ]
     },
     {
@@ -441,7 +567,13 @@
       "topics": [
         "probability"
       ],
-      "require_simplified": true
+      "require_simplified": true,
+      "feedback": [
+        {
+          "answer": "1/6",
+          "message": "Dat is de theoretische kans. Gevraagd is de waargenomen relatieve frequentie $\\frac{38}{200}$."
+        }
+      ]
     },
     {
       "id": "23-027",
@@ -458,6 +590,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "4/5",
+          "message": "Dit is de gokkersdwaling. Onafhankelijke pogingen hebben geen geheugen: de kans blijft $\\frac15$."
+        }
       ]
     },
     {
@@ -475,6 +613,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "1/3",
+          "message": "Dat is de kans op blauw bij één trekking. Voor twee keer blauw met terugleggen vermenigvuldig je twee onafhankelijke kansen."
+        }
       ]
     },
     {
@@ -492,6 +636,12 @@
       "difficulty": 1,
       "topics": [
         "probability"
+      ],
+      "feedback": [
+        {
+          "answer": "1/9",
+          "message": "Dat is het antwoord met terugleggen. Zonder terugleggen is de tweede kans $\\frac15$: $\\frac26\\times\\frac15$."
+        }
       ]
     },
     {
@@ -521,6 +671,564 @@
           "label": "zonder terugleggen",
           "type": "fraction",
           "answer": "8/15"
+        }
+      ]
+    },
+    {
+      "id": "23-031",
+      "question": "Op hoeveel manieren kun je vier verschillende boeken naast elkaar op een plank zetten?",
+      "answer": 24,
+      "solution": [
+        "$4\\times3\\times2\\times1=4!=24$."
+      ],
+      "hints": [
+        "Voor de eerste plek zijn er 4 boeken; hoeveel blijven er voor de tweede plek?"
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability",
+        "combinatorics"
+      ],
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Je rekende $4^4$. Dat zou gelden met herhaling; elk boek staat maar één keer op de plank."
+        }
+      ]
+    },
+    {
+      "id": "23-032",
+      "question": "Vijf deelnemers doen mee aan een race. Hoeveel verschillende podia (goud, zilver, brons) zijn er?",
+      "answer": 60,
+      "solution": [
+        "$5\\times4\\times3=60$."
+      ],
+      "hints": [
+        "Hier telt de volgorde: goud en zilver verwisselen geeft een ander podium."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability",
+        "combinatorics"
+      ],
+      "feedback": [
+        {
+          "answer": 125,
+          "message": "Je rekende $5^3$ en liet dezelfde deelnemer meerdere plekken innemen."
+        },
+        {
+          "answer": 10,
+          "message": "Je rekende $\\binom53$: dat telt groepen zonder volgorde. Een podium is een geordende keuze."
+        }
+      ]
+    },
+    {
+      "id": "23-033",
+      "question": "Je zet vier verschillende boeken in willekeurige volgorde op een plank. Wat is de kans dat ze alfabetisch staan?",
+      "answer": "1/24",
+      "solution": [
+        "Er zijn $4!=24$ even waarschijnlijke volgorden; precies één is alfabetisch: $\\frac1{24}$."
+      ],
+      "hints": [
+        "Tel eerst alle volgorden: $4!$."
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "probability",
+        "combinatorics"
+      ],
+      "require_simplified": true,
+      "feedback": [
+        {
+          "answer": "1/4",
+          "message": "Je telde alleen de keuze van het eerste boek. Alle vier de plekken tellen mee."
+        },
+        {
+          "answer": "1/16",
+          "message": "Je rekende met $4^2$ als totaal; elk boek komt maar één keer voor, dus er zijn $4!$ volgorden."
+        }
+      ]
+    },
+    {
+      "id": "23-034",
+      "question": "Hoeveel verschillende duo's kun je kiezen uit 5 personen? De volgorde binnen een duo speelt geen rol.",
+      "answer": 10,
+      "solution": [
+        "$\\binom52=\\frac{5\\times4}{2}=10$."
+      ],
+      "hints": [
+        "Tel eerst de geordende paren, $5\\times4$, en deel door het aantal volgordes per duo."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "probability",
+        "combinatorics"
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Je telde geordende paren. Elk duo komt twee keer voor (A–B en B–A): deel door 2."
+        }
+      ]
+    },
+    {
+      "id": "23-035",
+      "question": "Een commissie van 3 personen wordt gekozen uit 7 personen. Hoeveel verschillende commissies zijn er?",
+      "answer": 35,
+      "solution": [
+        "$\\binom73=\\frac{7\\times6\\times5}{3\\times2\\times1}=\\frac{210}{6}=35$."
+      ],
+      "hints": [
+        "Geen volgorde: gebruik \"7 boven 3\"."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "probability",
+        "combinatorics"
+      ],
+      "feedback": [
+        {
+          "answer": 210,
+          "message": "Je telde geordende rijtjes ($7\\times6\\times5$). Deel door $3!=6$, want elke commissie komt zesmaal voor."
+        },
+        {
+          "answer": 21,
+          "message": "Dat is $\\binom72$. Je kiest 3 personen, niet 2."
+        }
+      ]
+    },
+    {
+      "id": "23-036",
+      "question": "Rij 6 van de driehoek van Pascal is 1, 6, 15, 20, 15, 6, 1. Bereken met de regel van de driehoek $\\binom73$.",
+      "answer": 35,
+      "solution": [
+        "$\\binom73=\\binom62+\\binom63=15+20=35$."
+      ],
+      "hints": [
+        "Elk getal is de som van de twee getallen erboven. Welke twee staan boven $\\binom73$?"
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "probability",
+        "combinatorics"
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Dat is $\\binom63$, maar je moet de twee getallen boven de plek optellen: $15+20$."
+        }
+      ]
+    },
+    {
+      "id": "23-037",
+      "question": "Vier onafhankelijke eerlijke muntworpen: kans op precies twee keer kop?",
+      "answer": "3/8",
+      "solution": [
+        "$\\binom42=6$ reeksen van 16: $\\frac6{16}=\\frac38$."
+      ],
+      "hints": [
+        "Er zijn $2^4=16$ even waarschijnlijke reeksen.",
+        "Hoeveel van die reeksen hebben precies twee keer kop? Kies welke twee worpen kop zijn."
+      ],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "probability",
+        "combinatorics"
+      ],
+      "feedback": [
+        {
+          "answer": "1/16",
+          "message": "Dat is de kans op één bepaalde reeks, bijvoorbeeld KKMM. Er zijn 6 van zulke reeksen."
+        },
+        {
+          "answer": "1/2",
+          "message": "Gemiddeld is de helft kop, maar de kans op precies twee keer kop is kleiner dan een half."
+        }
+      ]
+    },
+    {
+      "id": "23-038",
+      "question": "Je trekt één kaart uit een spel van 52. Wat is de kans op harten of een heer?",
+      "answer": "4/13",
+      "solution": [
+        "$\\frac{13}{52}+\\frac4{52}-\\frac1{52}=\\frac{16}{52}=\\frac4{13}$."
+      ],
+      "hints": [
+        "Er zijn 13 harten en 4 heren. Welke kaart zit in beide groepen?"
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "probability"
+      ],
+      "require_simplified": true,
+      "feedback": [
+        {
+          "answer": "17/52",
+          "message": "Je telde harten-heer twee keer. Trek de overlap één keer af."
+        }
+      ]
+    },
+    {
+      "id": "23-039",
+      "question": "Bij twee gebeurtenissen geldt $P(A)=0{,}5$, $P(B)=0{,}4$ en $P(A\\cap B)=0{,}2$. Bereken $P(A\\cup B)$.",
+      "answer": 0.7,
+      "solution": [
+        "$0{,}5+0{,}4-0{,}2=0{,}7$."
+      ],
+      "hints": [
+        "Gebruik $P(A)+P(B)-P(A\\cap B)$."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ],
+      "feedback": [
+        {
+          "answer": 0.9,
+          "message": "Je telde de overlap mee. Trek $P(A\\cap B)$ één keer af."
+        }
+      ]
+    },
+    {
+      "id": "23-040",
+      "question": "Twee onafhankelijke eerlijke dobbelstenen: kans op minstens één zes?",
+      "answer": "11/36",
+      "solution": [
+        "Geen zes bij beide: $\\frac56\\times\\frac56=\\frac{25}{36}$. Dus $1-\\frac{25}{36}=\\frac{11}{36}$."
+      ],
+      "hints": [
+        "Gebruik het complement: geen enkele zes."
+      ],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "probability"
+      ],
+      "require_simplified": true,
+      "feedback": [
+        {
+          "answer": "1/3",
+          "message": "Je telde $\\frac16+\\frac16$ en daarmee het paar (6; 6) dubbel. Gebruik het complement."
+        },
+        {
+          "answer": "25/36",
+          "message": "Dat is de kans op geen enkele zes. Gevraagd is minstens één zes."
+        }
+      ]
+    },
+    {
+      "id": "23-041",
+      "question": "Een zak bevat 5 rode en 3 blauwe ballen. Je trekt drie ballen zonder terugleggen. Wat is de kans op drie keer rood?",
+      "answer": "5/28",
+      "solution": [
+        "$\\frac58\\times\\frac47\\times\\frac36=\\frac{60}{336}=\\frac5{28}$."
+      ],
+      "hints": [
+        "Na elke rode trekking daalt het aantal rode ballen én het totaal met één."
+      ],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "probability"
+      ],
+      "require_simplified": true,
+      "feedback": [
+        {
+          "answer": "125/512",
+          "message": "Dat is het antwoord met terugleggen. Pas bij zonder terugleggen teller én noemer aan."
+        }
+      ]
+    },
+    {
+      "id": "23-042",
+      "question": "Zak met 3 rode en 2 blauwe ballen, twee ballen zonder terugleggen. Wat is de kans dat de **tweede** bal rood is (je weet niet wat de eerste was)?",
+      "answer": "3/5",
+      "solution": [
+        "$P(RR)+P(BR)=\\frac3{10}+\\frac3{10}=\\frac35$. Zonder informatie over de eerste bal is de tweede even willekeurig als de eerste."
+      ],
+      "hints": [
+        "De tweede bal is rood via RR of via BR."
+      ],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "probability"
+      ],
+      "require_simplified": true,
+      "feedback": [
+        {
+          "answer": "1/2",
+          "message": "Je gebruikte alleen $\\frac24$, de kans na een rode eerste bal. Tel ook het pad via blauw mee."
+        },
+        {
+          "answer": "3/10",
+          "message": "Dat is één pad (RR). Er is ook het pad BR."
+        }
+      ]
+    },
+    {
+      "id": "23-043",
+      "question": "Vier worpen met één eerlijke dobbelsteen: kans op minstens één zes?",
+      "answer": "671/1296",
+      "solution": [
+        "$1-\\left(\\frac56\\right)^4=1-\\frac{625}{1296}=\\frac{671}{1296}\\approx0{,}518$."
+      ],
+      "hints": [
+        "Complement: geen zes in vier worpen."
+      ],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "probability"
+      ],
+      "require_simplified": true,
+      "feedback": [
+        {
+          "answer": "2/3",
+          "message": "Je rekende $4\\times\\frac16$ en telde daarmee overlap meerdere malen. Gebruik het complement."
+        },
+        {
+          "answer": "625/1296",
+          "message": "Dat is de kans op geen enkele zes."
+        }
+      ]
+    },
+    {
+      "id": "23-044",
+      "question": "Vierentwintig worpen met twee eerlijke dobbelstenen: kans op minstens één dubbele zes? Rond af op drie decimalen.",
+      "answer": 0.491,
+      "solution": [
+        "$1-\\left(\\frac{35}{36}\\right)^{24}\\approx1-0{,}5086=0{,}4914\\approx0{,}491$. Kleiner dan een half."
+      ],
+      "hints": [
+        "Per worp is de kans op dubbel zes $\\frac1{36}$. Gebruik het complement."
+      ],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "probability"
+      ],
+      "tolerance": 0.0006,
+      "feedback": [
+        {
+          "answer": 0.509,
+          "message": "Dat is de kans op geen enkele dubbele zes. Neem het complement."
+        },
+        {
+          "answer": 0.667,
+          "message": "Je rekende $\\frac{24}{36}$, een lineaire redenering. Kansen stapelen zich niet lineair op."
+        }
+      ]
+    },
+    {
+      "id": "23-045",
+      "question": "Bij 23 willekeurige personen: wat is de kans dat minstens twee op dezelfde dag jarig zijn? Neem 365 dagen en gelijke kansen; rond af op drie decimalen.",
+      "answer": 0.507,
+      "solution": [
+        "$P(\\text{alle verschillend})\\approx0{,}4927$, dus $P\\approx1-0{,}4927=0{,}507$."
+      ],
+      "hints": [
+        "Complement: alle 23 verjaardagen verschillen.",
+        "$\\frac{365}{365}\\times\\frac{364}{365}\\times\\cdots\\times\\frac{343}{365}$."
+      ],
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 4,
+      "topics": [
+        "probability",
+        "combinatorics"
+      ],
+      "tolerance": 0.0006,
+      "feedback": [
+        {
+          "answer": 0.493,
+          "message": "Dat is de kans dat alle verjaardagen verschillen. Gevraagd is het complement."
+        }
+      ]
+    },
+    {
+      "id": "23-046",
+      "question": "Een ziekte komt voor bij 1% van de bevolking. Een test is positief bij 90% van de zieken en bij 10% van de gezonden. Jij test positief. Wat is de kans dat je ziek bent? Geef een breuk.",
+      "answer": "1/12",
+      "solution": [
+        "Ziek en positief: 90. Gezond en positief: 990. Kans: $\\frac{90}{1080}=\\frac1{12}$."
+      ],
+      "hints": [
+        "Neem 10 000 mensen: hoeveel zijn ziek, hoeveel testen positief?"
+      ],
+      "type": "fraction",
+      "mode": "challenge",
+      "difficulty": 4,
+      "topics": [
+        "probability"
+      ],
+      "require_simplified": true,
+      "feedback": [
+        {
+          "answer": "9/10",
+          "message": "Dat is de kans op positief als je ziek bent. Gevraagd is de omgekeerde kans: ziek als je positief test."
+        },
+        {
+          "answer": "1/10",
+          "message": "Dat is de kans op een vals-positieve uitslag, niet de kans dat een positieve uitslag klopt."
+        }
+      ]
+    },
+    {
+      "id": "23-047",
+      "question": "Je gooit zes keer een eerlijke munt. Wat is de kans dat het steeds kop is?",
+      "answer": "1/64",
+      "solution": [
+        "$\\left(\\frac12\\right)^6=\\frac1{64}$."
+      ],
+      "hints": [
+        "Onafhankelijke worpen: vermenigvuldig."
+      ],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "probability"
+      ],
+      "require_simplified": true,
+      "feedback": [
+        {
+          "answer": "1/2",
+          "message": "Dat is de kans op kop bij één worp. Voor zes keer achter elkaar vermenigvuldig je zes kansen."
+        },
+        {
+          "answer": "1/32",
+          "message": "Dat zijn vijf worpen."
+        }
+      ]
+    },
+    {
+      "id": "23-048",
+      "question": "Je gooit een eerlijke dobbelsteen 600 keer. Hoeveel zessen verwacht je gemiddeld?",
+      "answer": 100,
+      "solution": [
+        "$600\\times\\frac16=100$."
+      ],
+      "hints": [
+        "Verwacht aantal = aantal worpen $\\times$ kans."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability"
+      ],
+      "feedback": [
+        {
+          "answer": 3600,
+          "message": "Je vermenigvuldigde met 6. Vermenigvuldig met de kans, $\\frac16$."
+        }
+      ]
+    },
+    {
+      "id": "23-049",
+      "question": "Een kans is $\\frac7{20}$. Druk haar uit als percentage.",
+      "answer": 35,
+      "solution": [
+        "$\\frac7{20}=\\frac{35}{100}=35\\%$."
+      ],
+      "hints": [
+        "Maak de noemer 100."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "probability",
+        "percentages"
+      ],
+      "unit": "%",
+      "feedback": [
+        {
+          "answer": 0.35,
+          "message": "Dat is de decimale vorm. Gevraagd is het percentage."
+        }
+      ]
+    },
+    {
+      "id": "23-050",
+      "question": "In een loterij kies je 2 getallen uit 8; de trekking kiest eveneens 2 getallen uit 8 (volgorde speelt geen rol). Wat is de kans dat jouw getallen precies de getrokken zijn?",
+      "answer": "1/28",
+      "solution": [
+        "$\\binom82=28$ even waarschijnlijke trekkingen; één is de jouwe: $\\frac1{28}$."
+      ],
+      "hints": [
+        "Hoeveel verschillende duo's zijn er?"
+      ],
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "probability",
+        "combinatorics"
+      ],
+      "require_simplified": true,
+      "feedback": [
+        {
+          "answer": "1/56",
+          "message": "Je telde met volgorde ($8\\times7$). Bij een loterij telt de volgorde niet."
+        },
+        {
+          "answer": "1/16",
+          "message": "Je rekende $\\frac14\\times\\frac14$; tel in plaats daarvan de mogelijke trekkingen."
+        }
+      ]
+    },
+    {
+      "id": "23-051",
+      "question": "A heeft nog 2 overwinningen nodig, B nog 3; elke ronde heeft kans $\\frac12$ voor beide. Wat is de kans dat A het spel wint?",
+      "answer": "11/16",
+      "solution": [
+        "$6+4+1=11$ van 16 reeksen: $\\frac{11}{16}$."
+      ],
+      "hints": [
+        "Speel denkbeeldig altijd 4 rondes: $2^4=16$ reeksen.",
+        "A wint bij minstens 2 overwinningen in 4 rondes; rij 4 van Pascal is 1, 4, 6, 4, 1."
+      ],
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 4,
+      "topics": [
+        "probability",
+        "combinatorics"
+      ],
+      "require_simplified": true,
+      "feedback": [
+        {
+          "answer": "5/16",
+          "message": "Dat is de kans dat B wint."
+        },
+        {
+          "answer": "2/5",
+          "message": "Je verdeelde naar de nog benodigde overwinningen in plaats van naar de kansen op de toekomst."
         }
       ]
     }

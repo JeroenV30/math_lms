@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" font-family="sans-serif">
+<title>Driehoek van Pascal, rij 0 tot en met 6: elk getal is de som van de twee getallen erboven</title>
+<rect width="560" height="300" fill="#ffffff"/>
+<text x="30" y="40" font-size="13" fill="#9c6b30" text-anchor="middle">n=0</text>
+<text x="290" y="40" font-size="18" fill="#1f2933" text-anchor="middle">1</text>
+<text x="30" y="78" font-size="13" fill="#9c6b30" text-anchor="middle">n=1</text>
+<text x="260" y="78" font-size="18" fill="#1f2933" text-anchor="middle">1</text>
+<text x="320" y="78" font-size="18" fill="#1f2933" text-anchor="middle">1</text>
+<text x="30" y="116" font-size="13" fill="#9c6b30" text-anchor="middle">n=2</text>
+<text x="230" y="116" font-size="18" fill="#1f2933" text-anchor="middle">1</text>
+<text x="290" y="116" font-size="18" fill="#1f2933" text-anchor="middle">2</text>
+<text x="350" y="116" font-size="18" fill="#1f2933" text-anchor="middle">1</text>
+<text x="30" y="154" font-size="13" fill="#9c6b30" text-anchor="middle">n=3</text>
+<text x="200" y="154" font-size="18" fill="#1f2933" text-anchor="middle">1</text>
+<text x="260" y="154" font-size="18" fill="#1f2933" text-anchor="middle">3</text>
+<text x="320" y="154" font-size="18" fill="#1f2933" text-anchor="middle">3</text>
+<text x="380" y="154" font-size="18" fill="#1f2933" text-anchor="middle">1</text>
+<text x="30" y="192" font-size="13" fill="#9c6b30" text-anchor="middle">n=4</text>
+<text x="170" y="192" font-size="18" fill="#1f2933" text-anchor="middle">1</text>
+<text x="230" y="192" font-size="18" fill="#1f2933" text-anchor="middle">4</text>
+<text x="290" y="192" font-size="18" fill="#1f2933" text-anchor="middle">6</text>
+<text x="350" y="192" font-size="18" fill="#1f2933" text-anchor="middle">4</text>
+<text x="410" y="192" font-size="18" fill="#1f2933" text-anchor="middle">1</text>
+<text x="30" y="230" font-size="13" fill="#9c6b30" text-anchor="middle">n=5</text>
+<text x="140" y="230" font-size="18" fill="#1f2933" text-anchor="middle">1</text>
+<text x="200" y="230" font-size="18" fill="#1f2933" text-anchor="middle">5</text>
+<text x="260" y="230" font-size="18" fill="#1f2933" text-anchor="middle">10</text>
+<text x="320" y="230" font-size="18" fill="#1f2933" text-anchor="middle">10</text>
+<text x="380" y="230" font-size="18" fill="#1f2933" text-anchor="middle">5</text>
+<text x="440" y="230" font-size="18" fill="#1f2933" text-anchor="middle">1</text>
+<text x="30" y="268" font-size="13" fill="#9c6b30" text-anchor="middle">n=6</text>
+<text x="110" y="268" font-size="18" fill="#1f2933" text-anchor="middle">1</text>
+<text x="170" y="268" font-size="18" fill="#1f2933" text-anchor="middle">6</text>
+<text x="230" y="268" font-size="18" fill="#3b5bdb" text-anchor="middle" font-weight="bold">15</text>
+<text x="290" y="268" font-size="18" fill="#1f2933" text-anchor="middle">20</text>
+<text x="350" y="268" font-size="18" fill="#1f2933" text-anchor="middle">15</text>
+<text x="410" y="268" font-size="18" fill="#1f2933" text-anchor="middle">6</text>
+<text x="470" y="268" font-size="18" fill="#1f2933" text-anchor="middle">1</text>
+<text x="545" y="266" font-size="13" fill="#3b5bdb" text-anchor="end">6 boven 2 = 15</text>
+</svg>

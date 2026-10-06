@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 240" font-family="sans-serif">
+<title>Het puntenprobleem: A heeft nog één winst nodig, B nog twee; vier even waarschijnlijke vervolgreeksen, waarvan drie door A worden gewonnen</title>
+<rect width="560" height="240" fill="#ffffff"/>
+<g font-size="15" fill="#1f2933">
+<text x="30" y="34" font-weight="bold">Nog twee rondes (denkbeeldig):</text>
+<text x="40" y="80">AA</text><text x="40" y="120">AB</text><text x="40" y="160">BA</text><text x="40" y="200">BB</text>
+<text x="120" y="80">A wint</text><text x="120" y="120">A wint</text><text x="120" y="160">A wint</text><text x="120" y="200" fill="#9c6b30">B wint</text>
+<text x="250" y="80">1/4</text><text x="250" y="120">1/4</text><text x="250" y="160">1/4</text><text x="250" y="200">1/4</text>
+</g>
+<g stroke="#3b5bdb" stroke-width="3"><line x1="320" y1="70" x2="320" y2="155"/></g>
+<g stroke="#9c6b30" stroke-width="3"><line x1="320" y1="195" x2="320" y2="195"/></g>
+<text x="335" y="118" font-size="15" fill="#3b5bdb">A: 3/4 van de inzet</text>
+<text x="335" y="200" font-size="15" fill="#9c6b30">B: 1/4 van de inzet</text>
+</svg>

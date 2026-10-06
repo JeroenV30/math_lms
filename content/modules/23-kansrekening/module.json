@@ -7,7 +7,7 @@
   "status": "available",
   "historical_period": "17e eeuw",
   "estimated_difficulty": 3,
-  "estimated_minutes": 150,
+  "estimated_minutes": 240,
   "prerequisites": [
     22
   ],
@@ -16,7 +16,7 @@
     "combinatorics"
   ],
   "core_question": "Hoe maak je onzekerheid berekenbaar zonder uitkomsten als zekerheden te behandelen?",
-  "summary": "Uitkomsten tellen, gebeurtenissen combineren, kansbomen en rekenen met en zonder terugleggen. Je onderscheidt onafhankelijkheid en uitsluiting.",
+  "summary": "Uitkomsten tellen, gebeurtenissen combineren, kansbomen en rekenen met en zonder terugleggen. Je onderscheidt onafhankelijkheid en uitsluiting en ontmoet Pascal, Fermat, Huygens en Bernoulli.",
   "learning_goals": [
     "Je beschrijft een uitkomstenruimte en een gebeurtenis.",
     "Je gebruikt gunstig gedeeld door totaal alleen bij even waarschijnlijke uitkomsten.",
@@ -25,7 +25,11 @@
     "Je tekent een kansboom met kansen die per splitsing optellen tot één.",
     "Je berekent samengestelde kansen met en zonder terugleggen.",
     "Je onderscheidt onafhankelijke gebeurtenissen van elkaar uitsluitende gebeurtenissen.",
-    "Je interpreteert theoretische kansen en relatieve frequenties."
+    "Je interpreteert theoretische kansen en relatieve frequenties.",
+    "Je telt rangschikkingen en keuzes met de productregel, permutaties en combinaties (n boven k).",
+    "Je gebruikt de driehoek van Pascal en berekent de kans op precies k keer kop in n worpen.",
+    "Je herkent de gokkersdwaling en berekent de verjaardagsparadox via het complement.",
+    "Je lost het puntenprobleem van Pascal en Fermat op en legt uit wat Huygens en Bernoulli toevoegden."
   ],
   "glossary": [
     {
@@ -55,33 +59,90 @@
     {
       "term": "Relatieve frequentie",
       "definition": "Het aantal waarnemingen van een gebeurtenis gedeeld door het aantal proeven."
+    },
+    {
+      "term": "Faculteit",
+      "definition": "Het product $n!=n\\times(n-1)\\times\\cdots\\times1$: het aantal rangschikkingen van $n$ verschillende objecten."
+    },
+    {
+      "term": "Permutatie",
+      "definition": "Een rangschikking van objecten waarbij de volgorde telt."
+    },
+    {
+      "term": "Combinatie",
+      "definition": "Een keuze van $k$ objecten uit $n$ waarbij de volgorde niet telt; het aantal is $n$ boven $k$."
+    },
+    {
+      "term": "Driehoek van Pascal",
+      "definition": "Een driehoekig schema van combinaties waarin elk getal de som is van de twee getallen erboven."
+    },
+    {
+      "term": "Wet van de grote aantallen",
+      "definition": "Bij veel herhalingen ligt de relatieve frequentie met grote waarschijnlijkheid dicht bij de kans."
+    },
+    {
+      "term": "Gokkersdwaling",
+      "definition": "De onjuiste gedachte dat een onafhankelijke uitkomst \"aan de beurt\" is na een lange reeks van het tegendeel."
+    },
+    {
+      "term": "Conditionele kans",
+      "definition": "De kans op $B$ gegeven dat $A$ al is opgetreden, genoteerd als $P(B\\mid A)$."
     }
   ],
   "formulas": [
     {
       "name": "Gelijk waarschijnlijke uitkomsten",
       "latex": "P(A)=\\frac{|A|}{|\\Omega|}",
-      "usage": "Alle afzonderlijke uitkomsten in Ω moeten even waarschijnlijk zijn."
+      "usage": "Alle afzonderlijke uitkomsten in Ω moeten even waarschijnlijk zijn.",
+      "origin": "Klassieke kansdefinitie, in gebruik bij Cardano (16e eeuw) en Huygens (1657)."
     },
     {
       "name": "Complement",
       "latex": "P(A^c)=1-P(A)",
-      "usage": "Handig bij minstens één."
+      "usage": "Handig bij minstens één.",
+      "origin": "Standaardgereedschap in de kansrekening sinds de 17e eeuw."
     },
     {
       "name": "Vereniging",
       "latex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)",
-      "usage": "Trek dubbel getelde overlap af."
+      "usage": "Trek dubbel getelde overlap af.",
+      "origin": "Inclusie en exclusie bij twee verzamelingen."
     },
     {
       "name": "Onafhankelijke gebeurtenissen",
       "latex": "P(A\\cap B)=P(A)P(B)",
-      "usage": "Alleen als onafhankelijkheid gerechtvaardigd is."
+      "usage": "Alleen als onafhankelijkheid gerechtvaardigd is.",
+      "origin": "Producttelling zoals in de briefwisseling van Pascal en Fermat (1654)."
     },
     {
       "name": "Pad in een kansboom",
       "latex": "P(\\text{pad})=p_1p_2\\cdots p_k",
-      "usage": "Elke takkans hoort bij de voorgeschiedenis van dat pad."
+      "usage": "Elke takkans hoort bij de voorgeschiedenis van dat pad.",
+      "origin": "Vermenigvuldiging van opeenvolgende kansen."
+    },
+    {
+      "name": "Faculteit",
+      "latex": "n!=n\\cdot(n-1)\\cdots2\\cdot1",
+      "usage": "Aantal rangschikkingen van n verschillende objecten; 0! = 1.",
+      "origin": "Combinatoriek uit de 17e eeuw."
+    },
+    {
+      "name": "Combinaties",
+      "latex": "\\binom{n}{k}=\\frac{n!}{k!\\,(n-k)!}",
+      "usage": "Aantal keuzes van k uit n zonder volgorde.",
+      "origin": "Pascal, Traité du triangle arithmétique."
+    },
+    {
+      "name": "Regel van Pascal",
+      "latex": "\\binom{n}{k}=\\binom{n-1}{k-1}+\\binom{n-1}{k}",
+      "usage": "Elk getal in de driehoek is de som van de twee getallen erboven.",
+      "origin": "Driehoek van Pascal; in China en Perzië al eeuwen eerder bekend."
+    },
+    {
+      "name": "Productregel (afhankelijk)",
+      "latex": "P(A\\cap B)=P(A)\\,P(B\\mid A)",
+      "usage": "Kans op twee gebeurtenissen na elkaar bij afhankelijke trekkingen.",
+      "origin": "Voortbouwend op Pascal en Fermat."
     }
   ],
   "lessons": [
@@ -99,7 +160,7 @@
     },
     {
       "slug": "tellen",
-      "title": "De productregel voor aantallen",
+      "title": "Tellen: product, permutaties en combinaties",
       "kind": "theory",
       "file": "03-tellen.md"
     },
@@ -111,7 +172,7 @@
     },
     {
       "slug": "kansbomen",
-      "title": "Kansbomen en terugleggen",
+      "title": "Kansbomen, met en zonder terugleggen",
       "kind": "theory",
       "file": "05-kansbomen.md"
     },
@@ -134,6 +195,14 @@
       "file": "08-samenvatting.md"
     }
   ],
-  "timeline": [],
-  "mathematicians": []
+  "timeline": [
+    "pacioli-summa",
+    "pascal-fermat",
+    "huygens-kansrekening",
+    "bernoulli-ars-conjectandi"
+  ],
+  "mathematicians": [
+    "pascal",
+    "fermat"
+  ]
 }
