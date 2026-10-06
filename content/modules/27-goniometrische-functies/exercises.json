@@ -49,6 +49,12 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "(1;0)",
+          "message": "Dat is het beginpunt bij 0°. Bij 90° draai je een kwartslag tegen de klok in, omhoog langs de y-as."
+        }
       ]
     },
     {
@@ -66,6 +72,12 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "2*pi",
+          "message": "2π is een volle cirkel (360°). Een halve cirkel, 180°, is π."
+        }
       ]
     },
     {
@@ -83,6 +95,12 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "pi/6",
+          "message": "π/6 is 30°. Bereken 60·π/180 en vereenvoudig: deel teller en noemer door 60."
+        }
       ]
     },
     {
@@ -100,6 +118,12 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 540,
+          "message": "Je gebruikte 360/π in plaats van 180/π. Een halve cirkel is π rad = 180°."
+        }
       ]
     },
     {
@@ -117,6 +141,16 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "3*pi",
+          "message": "Je vergat de factor 1/2: s = r·θ = 3 · π/2."
+        },
+        {
+          "answer": 270,
+          "message": "Je vulde 90 (graden) in. De formule s = rθ verlangt radialen: θ = π/2."
+        }
       ]
     },
     {
@@ -151,6 +185,12 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Bij π staat het punt links op de x-as, bij (−1; 0). De x-coördinaat is dus −1."
+        }
       ]
     },
     {
@@ -165,9 +205,15 @@
       ],
       "type": "fraction",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "-1/2",
+          "message": "Sinus is de hoogte, en die is in het tweede kwadrant nog positief. Alleen de cosinus wordt negatief."
+        }
       ]
     },
     {
@@ -182,9 +228,19 @@
       ],
       "type": "expression",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "sqrt(3)/2",
+          "message": "De grootte klopt, maar het teken niet: in kwadrant II ligt het punt links van de y-as, dus is de cosinus negatief."
+        },
+        {
+          "answer": "-1/2",
+          "message": "Je hebt sinus en cosinus verwisseld: cos(π/6) = √3/2 en sin(π/6) = 1/2."
+        }
       ]
     },
     {
@@ -199,9 +255,15 @@
       ],
       "type": "fraction",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "1/2",
+          "message": "Spiegelen in de x-as keert het teken van de sinus om: sin(−θ) = −sin θ."
+        }
       ]
     },
     {
@@ -215,10 +277,16 @@
         "Sinus herhaalt na 2π."
       ],
       "type": "expression",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "pi",
+          "message": "π is de periode van de tangens. Voor de sinus is een volle omwenteling nodig."
+        }
       ]
     },
     {
@@ -232,10 +300,16 @@
         "Tangens heeft een kortere periode."
       ],
       "type": "expression",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "2*pi",
+          "message": "2π is de periode van sinus en cosinus. Voor de tangens is een halve omwenteling genoeg, want sin en cos wisselen allebei van teken."
+        }
       ]
     },
     {
@@ -249,10 +323,16 @@
         "De binnenste factor versnelt de cyclus."
       ],
       "type": "expression",
-      "mode": "guided",
-      "difficulty": 1,
+      "mode": "independent",
+      "difficulty": 2,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "2*pi",
+          "message": "Dat is de periode van sin t. De factor 2 in sin(2t) versnelt de cyclus, dus de periode wordt korter: 2π/2."
+        }
       ]
     },
     {
@@ -266,10 +346,16 @@
         "Controleer de noemer."
       ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Bij π/2 is cos = 0, en delen door nul kan niet. De tangens bestaat daar niet (verticale asymptoot)."
+        }
       ]
     },
     {
@@ -287,6 +373,12 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Dat is de afstand tussen het hoogste en het laagste punt. De amplitude is de afstand tot de evenwichtsstand, dus de helft."
+        }
       ]
     },
     {
@@ -304,6 +396,12 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 13,
+          "message": "13 is het maximum, 10+3. De evenwichtsstand is het midden tussen maximum en minimum."
+        }
       ]
     },
     {
@@ -321,6 +419,12 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Dat is de halve periode. Bereken 2π gedeeld door de factor π/6 vóór de haakjes."
+        }
       ]
     },
     {
@@ -338,11 +442,17 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "[-3;3]",
+          "message": "Dat zou het bereik zijn van 3 sin(...) zonder de evenwichtsstand 10 erbij op te tellen."
+        }
       ]
     },
     {
       "id": "27-021",
-      "question": "Geef de horizontale verschuiving c in sin(2t−4), geschreven als sin(2(t−c)).",
+      "question": "Geef de horizontale verschuiving $d$ in $\\sin(2t-4)$, geschreven als $\\sin(2(t-d))$.",
       "answer": 2,
       "solution": [
         "2t−4 = 2(t−2)."
@@ -352,9 +462,15 @@
       ],
       "type": "numeric",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Haal de factor 2 buiten haakjes: 2t − 4 = 2(t − 2). De verschuiving is 2, niet 4."
+        }
       ]
     },
     {
@@ -368,7 +484,7 @@
         "Pythagoras op de eenheidscirkel."
       ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
       "topics": [
         "trig-functions"
@@ -385,8 +501,8 @@
         "Tijd gedeeld door periode."
       ],
       "type": "numeric",
-      "mode": "guided",
-      "difficulty": 1,
+      "mode": "independent",
+      "difficulty": 2,
       "topics": [
         "trig-functions"
       ]
@@ -406,6 +522,12 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Er zijn twee punten op de cirkel met hoogte 1/2: één rechts en één links van de y-as."
+        }
       ]
     },
     {
@@ -423,6 +545,12 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "5*pi/6",
+          "message": "Dat is de tweede oplossing. Gevraagd is de kleinste: de scherpe hoek in kwadrant I."
+        }
       ]
     },
     {
@@ -440,6 +568,12 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "pi/6",
+          "message": "Dat is de eerste oplossing. De tweede vind je door te spiegelen in de y-as: π − π/6."
+        }
       ]
     },
     {
@@ -457,6 +591,12 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "pi",
+          "message": "Bij π is cos π = −1. Cosinus is nul waar het punt op de y-as ligt."
+        }
       ]
     },
     {
@@ -471,9 +611,15 @@
       ],
       "type": "expression",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "pi/6",
+          "message": "π/6 is de oplossing voor de binnenste hoek 2t. Deel die nog door 2 om t te vinden."
+        }
       ]
     },
     {
@@ -488,9 +634,15 @@
       ],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Een maximum wordt maar één keer per cyclus aangenomen: de twee takken vallen samen bij π/2."
+        }
       ]
     },
     {
@@ -526,6 +678,365 @@
           "answer": 8,
           "type": "numeric"
         }
+      ]
+    },
+    {
+      "id": "27-031",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke hoek in $[0^\\circ;360^\\circ)$ komt uit op hetzelfde punt als $-60^\\circ$? Geef het aantal graden.",
+      "answer": 300,
+      "unit": "°",
+      "feedback": [
+        {
+          "answer": 60,
+          "message": "60° ligt in kwadrant I. Een negatieve hoek draai je met de klok mee, dus je komt onder de x-as uit."
+        }
+      ],
+      "hints": [
+        "Een volle draai is 360°.",
+        "Tel 360° op bij de negatieve hoek."
+      ],
+      "solution": [
+        "$-60^\\circ+360^\\circ=300^\\circ$.",
+        "Het punt ligt in kwadrant IV, 60° onder de positieve x-as."
+      ],
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-032",
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet $135^\\circ$ om in een exact aantal radialen.",
+      "answer": "3*pi/4",
+      "feedback": [
+        {
+          "answer": "4*pi/3",
+          "message": "Je hebt de breuk omgekeerd: 135/180 = 3/4, niet 4/3."
+        }
+      ],
+      "hints": [
+        "Vermenigvuldig met $\\pi/180$.",
+        "Deel teller en noemer door 45."
+      ],
+      "solution": [
+        "$135\\cdot\\pi/180=135\\pi/180$.",
+        "Deel door 45: $3\\pi/4$."
+      ],
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-033",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een cirkel heeft straal 6 cm. Hoe lang is de boog bij een middelpuntshoek van $40^\\circ$? Rond af op twee decimalen.",
+      "answer": 4.18879,
+      "unit": "cm",
+      "tolerance": 0.01,
+      "feedback": [
+        {
+          "answer": 240,
+          "message": "Je vermenigvuldigde 6 met 40. De formule s = rθ werkt alleen als θ in radialen staat."
+        }
+      ],
+      "hints": [
+        "Reken eerst 40° om naar radialen.",
+        "Gebruik $s=r\\theta$."
+      ],
+      "solution": [
+        "$\\theta=40\\cdot\\pi/180=2\\pi/9\\approx0{,}698$ rad.",
+        "$s=6\\cdot2\\pi/9=4\\pi/3\\approx4{,}19$ cm."
+      ],
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-034",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $\\cos\\tfrac{7\\pi}{6}$ exact.",
+      "answer": "-sqrt(3)/2",
+      "feedback": [
+        {
+          "answer": "sqrt(3)/2",
+          "message": "De grootte klopt, maar in kwadrant III ligt het punt links van de y-as: de cosinus is negatief."
+        },
+        {
+          "answer": "-1/2",
+          "message": "Je hebt sinus en cosinus verwisseld. Hier is de cosinus de x-coördinaat, met referentiewaarde √3/2."
+        }
+      ],
+      "hints": [
+        "De hoek is $\\pi+\\pi/6$: in welk kwadrant ligt hij?",
+        "Beide coördinaten zijn daar negatief."
+      ],
+      "solution": [
+        "$7\\pi/6$ ligt in kwadrant III, met referentiehoek $\\pi/6$.",
+        "$\\cos(\\pi/6)=\\sqrt3/2$, in kwadrant III negatief: $-\\sqrt3/2$."
+      ],
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-035",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $\\sin\\tfrac{11\\pi}{6}$ exact.",
+      "answer": "-1/2",
+      "feedback": [
+        {
+          "answer": "1/2",
+          "message": "Het punt bij 11π/6 ligt onder de x-as, dus de sinus is negatief."
+        }
+      ],
+      "hints": [
+        "$11\\pi/6=2\\pi-\\pi/6$.",
+        "Het punt ligt onder de x-as."
+      ],
+      "solution": [
+        "$11\\pi/6$ ligt in kwadrant IV met referentiehoek $\\pi/6$.",
+        "Daar is de sinus negatief: $-1/2$."
+      ],
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-036",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bereken $\\sin2$ (de 2 is in radialen). Rond af op drie decimalen.",
+      "answer": 0.909,
+      "tolerance": 0.001,
+      "feedback": [
+        {
+          "answer": 0.035,
+          "message": "Dit is sin 2° (rekenmachine in DEG). Zet hem op RAD, want 2 is hier een hoek in radialen."
+        }
+      ],
+      "hints": [
+        "Zet je rekenmachine op RAD."
+      ],
+      "solution": [
+        "$\\sin2\\approx0{,}909$ (RAD).",
+        "In de stand DEG zou je $0{,}035$ krijgen: dat is $\\sin2^\\circ$."
+      ],
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-037",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Geef de periode van $y=\\cos\\left(\\tfrac{\\pi}{4}x\\right)$.",
+      "answer": "8",
+      "feedback": [
+        {
+          "answer": "pi/4",
+          "message": "π/4 is de factor c, niet de periode. De periode is 2π/c."
+        },
+        {
+          "answer": "2*pi",
+          "message": "2π is de periode van cos x zelf. De factor π/4 in het argument rekt de golf uit."
+        }
+      ],
+      "hints": [
+        "Het argument moet van 0 tot $2\\pi$ lopen.",
+        "De periode is $2\\pi/|c|$."
+      ],
+      "solution": [
+        "$c=\\pi/4$.",
+        "$T=2\\pi/(\\pi/4)=8$."
+      ],
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-038",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De temperatuur in een kas schommelt sinusvormig rond 20 °C met een amplitude van 5 °C en een periode van 24 uur. Om 3 uur stijgt de temperatuur door de evenwichtsstand. Geef de formule voor de temperatuur $y$ op tijdstip $x$ (in uren), als $y=a+b\\sin(c(x-d))$. Gebruik $x$ als variabele en schrijf pi voor $\\pi$.",
+      "answer": "20+5*sin(pi/12*(x-3))",
+      "feedback": [
+        {
+          "answer": "20+5*sin(24*(x-3))",
+          "message": "Je gebruikte de periode zelf als c. Voor de periode T geldt c = 2π/T."
+        },
+        {
+          "answer": "5+20*sin(pi/12*(x-3))",
+          "message": "Evenwichtsstand en amplitude zijn verwisseld: de evenwichtsstand is 20 en de amplitude 5."
+        },
+        {
+          "answer": "20+5*sin(pi/24*(x-3))",
+          "message": "Met c = π/24 is de periode 48 uur. Bereken c = 2π/24."
+        }
+      ],
+      "hints": [
+        "Lees a, b, c en d één voor één af.",
+        "$c=2\\pi/\\text{periode}$."
+      ],
+      "solution": [
+        "Evenwichtsstand $a=20$, amplitude $b=5$.",
+        "$c=2\\pi/24=\\pi/12$.",
+        "Stijgend door de evenwichtsstand bij $x=3$ geeft $d=3$.",
+        "$y=20+5\\sin\\bigl(\\tfrac\\pi{12}(x-3)\\bigr)$."
+      ],
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-039",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De daglengte (in uren) op dag $t$ is $D(t)=12+4\\sin\\left(\\tfrac{2\\pi}{365}(t-80)\\right)$. Bereken de daglengte op dag 200 (rekenmachine in RAD). Rond af op twee decimalen.",
+      "answer": 15.52,
+      "unit": "uur",
+      "tolerance": 0.01,
+      "feedback": [
+        {
+          "answer": 12.14,
+          "message": "Je rekenmachine stond in DEG. Zet hem op RAD: het argument is een hoek in radialen."
+        }
+      ],
+      "hints": [
+        "Reken eerst het argument uit: $\\tfrac{2\\pi}{365}\\cdot120$."
+      ],
+      "solution": [
+        "Argument: $2\\pi\\cdot120/365\\approx2{,}066$ rad.",
+        "$\\sin2{,}066\\approx0{,}880$, dus $D\\approx12+3{,}52=15{,}52$ uur."
+      ],
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-040",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Los $\\sin x=-\\tfrac12$ op voor $0\\le x<2\\pi$. Geef de kleinste en de grootste oplossing exact.",
+      "parts": [
+        {
+          "label": "kleinste",
+          "answer": "7*pi/6",
+          "type": "expression"
+        },
+        {
+          "label": "grootste",
+          "answer": "11*pi/6",
+          "type": "expression"
+        }
+      ],
+      "hints": [
+        "Een negatieve sinus ligt in kwadrant III en IV.",
+        "De referentiehoek is $\\pi/6$."
+      ],
+      "solution": [
+        "Referentiehoek $\\pi/6$.",
+        "Kwadrant III: $\\pi+\\pi/6=7\\pi/6$. Kwadrant IV: $2\\pi-\\pi/6=11\\pi/6$."
+      ],
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-041",
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een reuzenrad: $h(t)=12+10\\sin\\left(\\tfrac{2\\pi}{20}(t-5)\\right)$ (meter, minuten). In de eerste omwenteling $0\\le t<20$ ben je twee keer op 17 m hoogte. Geef beide tijdstippen, in minuten, afgerond op twee decimalen.",
+      "parts": [
+        {
+          "label": "eerste moment",
+          "answer": 6.67,
+          "type": "decimal",
+          "tolerance": 0.01
+        },
+        {
+          "label": "tweede moment",
+          "answer": 13.33,
+          "type": "decimal",
+          "tolerance": 0.01
+        }
+      ],
+      "hints": [
+        "Los $\\sin(\\ldots)=\\tfrac12$ op voor de binnenste hoek.",
+        "Voor $t\\in[0;20)$ loopt het argument van $-\\pi/2$ tot $3\\pi/2$."
+      ],
+      "solution": [
+        "$h=17\\iff\\sin\\left(\\tfrac\\pi{10}(t-5)\\right)=\\tfrac12$.",
+        "Binnenste hoek $\\tfrac\\pi6$ of $\\tfrac{5\\pi}6$, dus $t-5=\\tfrac{10}{6}$ of $t-5=\\tfrac{50}{6}$.",
+        "$t=6{,}67$ en $t=13{,}33$ minuten."
+      ],
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-042",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel oplossingen heeft $\\cos x=0{,}3$ op $[0;4\\pi)$?",
+      "answer": 4,
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Dat zijn de oplossingen in één periode. Het interval [0; 4π) bevat twee perioden."
+        }
+      ],
+      "hints": [
+        "Hoeveel perioden zitten in het interval?",
+        "Per periode zijn er twee punten."
+      ],
+      "solution": [
+        "Het interval bevat twee perioden.",
+        "Per periode twee oplossingen: $2\\cdot2=4$."
+      ],
+      "topics": [
+        "trig-functions"
+      ]
+    },
+    {
+      "id": "27-043",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Ptolemaeus werkte met straal 60 en koorden. Er geldt $\\sin a=\\tfrac{1}{120}\\operatorname{Crd}(2a)$. De koorde bij $60^\\circ$ is 60. Wat is $\\sin30^\\circ$ volgens deze formule?",
+      "answer": "1/2",
+      "feedback": [
+        {
+          "answer": "1",
+          "message": "Je deelde door 60. In de formule staat 120, omdat de halve koorde bij straal 60 hoort."
+        }
+      ],
+      "hints": [
+        "Welke $a$ hoort bij $2a=60^\\circ$?"
+      ],
+      "solution": [
+        "$a=30^\\circ$ en $\\operatorname{Crd}(60^\\circ)=60$.",
+        "$\\sin30^\\circ=60/120=1/2$."
+      ],
+      "topics": [
+        "trig-functions"
       ]
     }
   ]

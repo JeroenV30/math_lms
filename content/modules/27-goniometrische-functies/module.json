@@ -7,7 +7,7 @@
   "status": "available",
   "historical_period": "18e eeuw",
   "estimated_difficulty": 3,
-  "estimated_minutes": 150,
+  "estimated_minutes": 180,
   "prerequisites": [
     26
   ],
@@ -21,7 +21,7 @@
     "Je rekent graden om naar radialen en omgekeerd.",
     "Je leest sinus en cosinus als coördinaten op de eenheidscirkel.",
     "Je gebruikt tekens, symmetrie en periodiciteit om functiewaarden te bepalen.",
-    "Je bepaalt amplitude, evenwichtsstand, periode en faseverschuiving van een sinusmodel.",
+    "Je bepaalt amplitude, evenwichtsstand, periode en faseverschuiving van een sinusoïde y = a + b·sin(c(x − d)).",
     "Je lost eenvoudige goniometrische vergelijkingen op op een gegeven interval.",
     "Je beschrijft volledige oplossingsfamilies met een gehele periode-index.",
     "Je onderscheidt de perioden en domeinen van sinus, cosinus en tangens.",
@@ -50,38 +50,67 @@
     },
     {
       "term": "Faseverschuiving",
-      "definition": "Een horizontale verschuiving van het periodieke patroon."
+      "definition": "De horizontale verschuiving d in y = a + b sin(c(x − d))."
     },
     {
       "term": "Hoeksnelheid",
       "definition": "De verandering van hoek in radialen per tijdseenheid bij een gelijkmatige draaiing."
+    },
+    {
+      "term": "Referentiehoek",
+      "definition": "De scherpe hoek tussen de straal naar een punt op de eenheidscirkel en de x-as."
+    },
+    {
+      "term": "Sinusoïde",
+      "definition": "Een functie y = a + b sin(c(x − d)): een verschoven en uitgerekte sinusgolf."
+    },
+    {
+      "term": "Asymptoot",
+      "definition": "Een lijn die de grafiek steeds dichter nadert zonder haar te bereiken, zoals x = π/2 bij de tangens."
     }
   ],
   "formulas": [
     {
       "name": "Hoekeenheden",
       "latex": "\\theta_{\\mathrm{rad}}=\\theta_{\\mathrm{graden}}\\frac{\\pi}{180}",
-      "usage": "Een hele omwenteling is 2π radialen."
+      "usage": "Een hele omwenteling is 2π radialen.",
+      "origin": "Roger Cotes (concept, begin 18e eeuw); het woord \"radian\" door James Thomson (1873)."
     },
     {
       "name": "Cirkelpunt",
       "latex": "P=(\\cos\\theta,\\sin\\theta)",
-      "usage": "Cosinus is x, sinus is y."
+      "usage": "Cosinus is x, sinus is y.",
+      "origin": "Indiase halve koorden (Aryabhata, 499); sinus en cosinus als functies bij Euler (1748)."
     },
     {
       "name": "Periodiciteit",
       "latex": "\\sin(\\theta+2\\pi)=\\sin\\theta,\\quad\\cos(\\theta+2\\pi)=\\cos\\theta",
-      "usage": "Sinus en cosinus hebben periode 2π."
+      "usage": "Sinus en cosinus hebben periode 2π.",
+      "origin": "Euler, Introductio in analysin infinitorum (1748)."
     },
     {
       "name": "Sinusmodel",
-      "latex": "y=d+A\\sin(b(t-c))\\quad(A\\ne0,\\ b\\ne0)",
-      "usage": "Amplitude |A|, evenwichtsstand d en periode 2π/|b|."
+      "latex": "y=a+b\\sin\\bigl(c\\,(x-d)\\bigr)\\quad(b\\ne0,\\ c\\ne0)",
+      "usage": "Evenwichtsstand a, amplitude |b|, periode 2π/|c| en faseverschuiving d.",
+      "origin": "Periodieke functies; Fourier (1807, 1822) bouwt er ingewikkelder golven uit."
     },
     {
       "name": "Sinusvergelijking",
       "latex": "\\sin x=\\sin\\alpha\\implies x=\\alpha+2k\\pi\\ \\text{of}\\ x=\\pi-\\alpha+2k\\pi",
-      "usage": "k is geheel; bij extrema kunnen de families samenvallen."
+      "usage": "k is geheel; bij extrema kunnen de families samenvallen.",
+      "origin": "Symmetrie van de eenheidscirkel; Indiase en Arabische sinustabellen."
+    },
+    {
+      "name": "Booglengte",
+      "latex": "s=r\\theta\\quad(\\theta\\ \\text{in radialen})",
+      "usage": "De lengte van een cirkelboog met middelpuntshoek θ en straal r.",
+      "origin": "Definitie van de radiaal: θ = s/r."
+    },
+    {
+      "name": "Periode van sin(cx)",
+      "latex": "T=\\frac{2\\pi}{|c|}",
+      "usage": "Een grotere factor c geeft een kortere periode.",
+      "origin": "Het argument cx doorloopt 2π bij x = 2π/c."
     }
   ],
   "lessons": [
@@ -111,19 +140,19 @@
     },
     {
       "slug": "modellen",
-      "title": "Amplitude, middenhoogte en fase",
+      "title": "Amplitude, evenwichtsstand en fase",
       "kind": "theory",
       "file": "05-modellen.md"
     },
     {
       "slug": "geschiedenis",
-      "title": "Van hoeken naar analytische functies",
+      "title": "Van koorden tot functies",
       "kind": "history",
       "file": "06-geschiedenis.md"
     },
     {
       "slug": "vergelijkingen",
-      "title": "Alle oplossingen en contextgrenzen",
+      "title": "Vergelijkingen en modellen in de praktijk",
       "kind": "practice",
       "file": "07-vergelijkingen.md"
     },
@@ -134,6 +163,15 @@
       "file": "08-samenvatting.md"
     }
   ],
-  "timeline": [],
-  "mathematicians": []
+  "timeline": [
+    "hipparchus-koordentabel",
+    "aryabhatiya",
+    "brahmagupta",
+    "euler"
+  ],
+  "mathematicians": [
+    "hipparchus",
+    "brahmagupta",
+    "euler"
+  ]
 }

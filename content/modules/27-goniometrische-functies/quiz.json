@@ -7,7 +7,7 @@
       "question": "Zet 45° om in radialen.",
       "answer": "pi/4",
       "solution": [
-        "45π/180."
+        "$45\\cdot\\pi/180=\\pi/4$ (45° is een vierde van een halve cirkel)."
       ],
       "hints": [],
       "type": "expression",
@@ -15,6 +15,12 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "pi/2",
+          "message": "π/2 is 90°. Een halve cirkel (π) gedeeld door 4 geeft 45°."
+        }
       ]
     },
     {
@@ -22,7 +28,7 @@
       "question": "Zet 5π/3 radialen om in graden.",
       "answer": 300,
       "solution": [
-        "5×180/3."
+        "$\\tfrac{5\\pi}{3}\\cdot\\tfrac{180}{\\pi}=5\\cdot60=300^\\circ$."
       ],
       "hints": [],
       "type": "numeric",
@@ -30,6 +36,12 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 150,
+          "message": "Je deelde door 2 in plaats van 3 te gebruiken. Reken 5·180/3."
+        }
       ]
     },
     {
@@ -37,7 +49,7 @@
       "question": "Bereken sin π.",
       "answer": 0,
       "solution": [
-        "Punt (−1;0)."
+        "Bij $\\pi$ ligt het punt op $(-1;0)$; de y-coördinaat is 0."
       ],
       "hints": [],
       "type": "numeric",
@@ -45,6 +57,12 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": -1,
+          "message": "−1 is de cosinus van π. De sinus is de y-coördinaat van (−1; 0)."
+        }
       ]
     },
     {
@@ -52,7 +70,7 @@
       "question": "Bereken cos(2π).",
       "answer": 1,
       "solution": [
-        "Volledige omwenteling."
+        "Een volledige omwenteling brengt je terug bij $(1;0)$: $\\cos2\\pi=1$."
       ],
       "hints": [],
       "type": "numeric",
@@ -60,6 +78,12 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "Na 2π sta je weer op (1; 0), dus de x-coördinaat is 1, niet 0."
+        }
       ]
     },
     {
@@ -67,14 +91,21 @@
       "question": "Bereken sin(7π/6).",
       "answer": "-1/2",
       "solution": [
-        "Kwadrant III, referentiehoek π/6."
+        "$7\\pi/6=\\pi+\\pi/6$ ligt in kwadrant III met referentiehoek $\\pi/6$.",
+        "De sinus is daar negatief: $-1/2$."
       ],
       "hints": [],
       "type": "fraction",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "1/2",
+          "message": "Kwadrant III ligt onder de x-as: de sinus is negatief."
+        }
       ]
     },
     {
@@ -82,14 +113,20 @@
       "question": "Bereken cos(π/4) exact.",
       "answer": "sqrt(2)/2",
       "solution": [
-        "Gelijkbenige rechthoekige driehoek."
+        "In de eenheidscirkel zijn bij $\\pi/4$ beide coördinaten gelijk, en $x^2+y^2=1$ geeft $x=\\sqrt2/2$."
       ],
       "hints": [],
       "type": "expression",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "1/2",
+          "message": "1/2 is de sinus van π/6. Bij π/4 zijn x en y gelijk, met x² + y² = 1."
+        }
       ]
     },
     {
@@ -97,7 +134,7 @@
       "question": "Bereken tan(π/4).",
       "answer": 1,
       "solution": [
-        "Sin en cos zijn gelijk."
+        "$\\tan(\\pi/4)=\\sin(\\pi/4)/\\cos(\\pi/4)=1$, want de twee waarden zijn gelijk."
       ],
       "hints": [],
       "type": "numeric",
@@ -105,6 +142,12 @@
       "difficulty": 1,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": -1,
+          "message": "Bij π/4 zijn sin en cos allebei positief en gelijk, dus het quotiënt is +1."
+        }
       ]
     },
     {
@@ -112,14 +155,20 @@
       "question": "Geef de periode van cos(3t).",
       "answer": "2*pi/3",
       "solution": [
-        "2π/3."
+        "$T=2\\pi/|c|=2\\pi/3$."
       ],
       "hints": [],
       "type": "expression",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "3",
+          "message": "3 is de factor c, geen periode. De periode is 2π/c."
+        }
       ]
     },
     {
@@ -127,14 +176,24 @@
       "question": "y=4−2sin(πt/5). Geef de amplitude.",
       "answer": 2,
       "solution": [
-        "Amplitude |−2|."
+        "In $y=4-2\\sin(\\pi t/5)$ is $b=-2$: de amplitude is $|b|=2$ (de evenwichtsstand is 4)."
       ],
       "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": -2,
+          "message": "Een amplitude is een afstand en dus positief: |−2| = 2."
+        },
+        {
+          "answer": 4,
+          "message": "4 is de evenwichtsstand, niet de amplitude."
+        }
       ]
     },
     {
@@ -142,14 +201,20 @@
       "question": "Hetzelfde model: geef de periode.",
       "answer": 10,
       "solution": [
-        "2π/(π/5)=10."
+        "$T=2\\pi/(\\pi/5)=10$."
       ],
       "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "5 is de halve periode. Bereken 2π gedeeld door π/5."
+        }
       ]
     },
     {
@@ -157,14 +222,20 @@
       "question": "Hetzelfde model: geef het bereik.",
       "answer": "[2;6]",
       "solution": [
-        "4±2."
+        "Evenwichtsstand 4, amplitude 2: bereik $[4-2;4+2]=[2;6]$."
       ],
       "hints": [],
       "type": "interval",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "[-2;2]",
+          "message": "Dit is het bereik van −2 sin(...) zonder de evenwichtsstand 4."
+        }
       ]
     },
     {
@@ -172,14 +243,20 @@
       "question": "Hoeveel oplossingen heeft cos x = 1 op [0;2π)?",
       "answer": 1,
       "solution": [
-        "Alleen x=0; 2π is uitgesloten."
+        "$\\cos x=1$ geeft $x=2k\\pi$. In $[0;2\\pi)$ is alleen $x=0$ een oplossing; $2\\pi$ valt buiten het halfopen interval."
       ],
       "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "2π hoort niet bij het halfopen interval [0; 2π). Alleen x = 0 telt."
+        }
       ]
     },
     {
@@ -187,14 +264,20 @@
       "question": "Geef de kleinste positieve oplossing van sin x=0.",
       "answer": "pi",
       "solution": [
-        "Nulpunten zijn gehele veelvouden van π."
+        "$\\sin x=0$ voor $x=k\\pi$. De kleinste positieve oplossing is $\\pi$."
       ],
       "hints": [],
       "type": "expression",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "x = 0 is geen positieve oplossing. De volgende is π."
+        }
       ]
     },
     {
@@ -202,22 +285,7 @@
       "question": "Geef de grootste oplossing van cos x=1/2 op [0;2π).",
       "answer": "5*pi/3",
       "solution": [
-        "π/3 en 5π/3."
-      ],
-      "hints": [],
-      "type": "expression",
-      "mode": "independent",
-      "difficulty": 1,
-      "topics": [
-        "trig-functions"
-      ]
-    },
-    {
-      "id": "27-T15",
-      "question": "Geef de kleinste oplossing van sin(3t)=1 op [0;2π/3).",
-      "answer": "pi/6",
-      "solution": [
-        "3t=π/2, dus t=π/6."
+        "$\\cos x=\\tfrac12$ heeft referentiehoek $\\pi/3$ en oplossingen in kwadrant I en IV: $\\pi/3$ en $2\\pi-\\pi/3=5\\pi/3$."
       ],
       "hints": [],
       "type": "expression",
@@ -225,6 +293,34 @@
       "difficulty": 3,
       "topics": [
         "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "pi/3",
+          "message": "π/3 is de kleinste oplossing. De cosinus is ook positief in kwadrant IV: 2π − π/3."
+        }
+      ]
+    },
+    {
+      "id": "27-T15",
+      "question": "Geef de kleinste oplossing van sin(3t)=1 op [0;2π/3).",
+      "answer": "pi/6",
+      "solution": [
+        "Stel $u=3t$; dan $0\\le u<2\\pi$ en $\\sin u=1$ geeft $u=\\pi/2$.",
+        "Dus $t=\\pi/6$."
+      ],
+      "hints": [],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 3,
+      "topics": [
+        "trig-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "pi/2",
+          "message": "π/2 is de waarde van de binnenste hoek 3t. Deel door 3."
+        }
       ]
     }
   ]
