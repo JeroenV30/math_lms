@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 270" font-family="sans-serif">
+  <title>Een functie als machine: invoer 4 geeft uitvoer 11</title>
+  <rect width="560" height="270" fill="#ffffff"/>
+  <defs><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2933"/></marker></defs>
+  <rect x="190" y="60" width="180" height="110" rx="10" fill="#edf2ff" stroke="#3b5bdb" stroke-width="2"/>
+  <text x="280" y="100" font-size="16" text-anchor="middle" fill="#3b5bdb" >functiemachine f</text>
+  <text x="280" y="128" font-size="14" text-anchor="middle" fill="#1f2933" >neem x, verdubbel</text>
+  <text x="280" y="150" font-size="14" text-anchor="middle" fill="#1f2933" >en tel er 3 bij op</text>
+  <line x1="40" y1="115" x2="186" y2="115" stroke="#1f2933" stroke-width="2" marker-end="url(#p)"/>
+  <line x1="374" y1="115" x2="520" y2="115" stroke="#1f2933" stroke-width="2" marker-end="url(#p)"/>
+  <text x="113" y="100" font-size="14" text-anchor="middle" fill="#1f2933" >invoer x = 4</text>
+  <text x="447" y="100" font-size="14" text-anchor="middle" fill="#1f2933" >uitvoer f(4) = 11</text>
+  <text x="280" y="215" font-size="18" text-anchor="middle" fill="#3b5bdb" >f(x) = 2x + 3</text>
+  <text x="280" y="245" font-size="13" text-anchor="middle" fill="#1f2933" >Elke toegestane invoer geeft precies één uitvoer.</text>
+
+</svg>

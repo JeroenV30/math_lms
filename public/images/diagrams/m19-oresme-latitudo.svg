@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 270" font-family="sans-serif">
+  <title>Schets in de geest van Oresme: snelheid uitgezet tegen tijd</title>
+  <rect width="560" height="270" fill="#ffffff"/>
+  <defs><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2933"/></marker></defs>
+  <line x1="80" y1="230" x2="500" y2="230" stroke="#1f2933" stroke-width="2" marker-end="url(#p)"/>
+  <line x1="80" y1="230" x2="80" y2="40" stroke="#1f2933" stroke-width="2" marker-end="url(#p)"/>
+  <text x="500" y="252" font-size="13" text-anchor="end" fill="#1f2933" >longitudo (tijd)</text>
+  <text x="70" y="36" font-size="13" text-anchor="start" fill="#1f2933" >latitudo (snelheid)</text>
+  <polygon points="80,230 400,230 400,70" fill="#f6efe4" stroke="#9c6b30" stroke-width="2.5"/>
+  <line x1="140" y1="230" x2="140" y2="200.0" stroke="#9c6b30" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <line x1="200" y1="230" x2="200" y2="170.0" stroke="#9c6b30" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <line x1="260" y1="230" x2="260" y2="140.0" stroke="#9c6b30" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <line x1="320" y1="230" x2="320" y2="110.0" stroke="#9c6b30" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <line x1="400" y1="230" x2="400" y2="70.0" stroke="#9c6b30" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="240" y="250" font-size="13" text-anchor="middle" fill="#9c6b30" >ieder moment: een lijnstuk loodrecht op de tijdlijn</text>
+  <text x="250" y="150" font-size="14" text-anchor="middle" fill="#9c6b30" >oppervlak = afgelegde weg</text>
+  <text x="250" y="170" font-size="12" text-anchor="middle" fill="#9c6b30" >(gelijkmatig toenemende snelheid)</text>
+
+</svg>

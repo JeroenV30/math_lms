@@ -5,10 +5,13 @@
       "question": "Een tank bevat 120 liter en krijgt 8 liter per minuut erbij. Hoeveel liter is er na 5 minuten?",
       "answer": 160,
       "solution": [
-        "$120+8\\times5=160$."
+        "De startinhoud is 120 liter en per minuut komt er 8 liter bij.",
+        "Na 5 minuten is er $8\\times5=40$ liter bijgekomen.",
+        "$120+40=160$ liter."
       ],
       "hints": [
-        "Startinhoud plus toevoer maal tijd."
+        "Startinhoud plus toevoer maal tijd.",
+        "Reken eerst uit hoeveel liter er in 5 minuten bijkomt."
       ],
       "type": "numeric",
       "mode": "guided",
@@ -16,18 +19,30 @@
       "topics": [
         "linear-functions"
       ],
-      "unit": "liter"
+      "unit": "liter",
+      "feedback": [
+        {
+          "answer": 40,
+          "message": "Je hebt alleen de toegevoegde hoeveelheid berekend ($8\\times5$). Vergeet de 120 liter die er al in zat niet."
+        },
+        {
+          "answer": 125,
+          "message": "Je hebt de tijd bij de startinhoud opgeteld in plaats van de toevoer te vermenigvuldigen met de tijd."
+        }
+      ]
     },
     {
       "id": "19-002",
       "question": "Dezelfde tank kan 200 liter bevatten. Na hoeveel minuten vanaf 120 liter is hij vol bij 8 liter per minuut?",
       "answer": 10,
       "solution": [
-        "Er kan 80 liter bij.",
-        "$80:8=10$ minuten."
+        "Er kan nog $200-120=80$ liter bij.",
+        "Bij 8 liter per minuut duurt dat $80:8=10$ minuten.",
+        "Controle: $120+8\\times10=200$."
       ],
       "hints": [
-        "Trek eerst de begininhoud af."
+        "Trek eerst de begininhoud af.",
+        "Deel de ruimte die nog over is door de toevoer per minuut."
       ],
       "type": "numeric",
       "mode": "guided",
@@ -35,23 +50,45 @@
       "topics": [
         "linear-functions"
       ],
-      "unit": "min"
+      "unit": "min",
+      "feedback": [
+        {
+          "answer": 25,
+          "message": "Je hebt 200 gedeeld door 8. Maar de tank is al voor een deel gevuld: je moet delen wat er nog bij kan, dus $200-120=80$."
+        },
+        {
+          "answer": 80,
+          "message": "80 liter is de hoeveelheid die er nog bij moet, niet de tijd. Deel die door 8 liter per minuut."
+        }
+      ]
     },
     {
       "id": "19-003",
-      "question": "Bij $f(x)=3x-2$: bereken f(4).",
+      "question": "Bij $f(x)=3x-2$: bereken $f(4)$.",
       "answer": 10,
       "solution": [
-        "$3\\times4-2=10$."
+        "Vervang $x$ door 4: $f(4)=3\\times4-2$.",
+        "$12-2=10$."
       ],
       "hints": [
-        "f(4) is de uitvoer bij x = 4."
+        "$f(4)$ is de uitvoer bij $x=4$.",
+        "Vul 4 in op de plaats van $x$."
       ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 14,
+          "message": "Je hebt de 2 opgeteld in plaats van afgetrokken. In $f(x)=3x-2$ staat een minteken."
+        },
+        {
+          "answer": 1,
+          "message": "Je hebt $3\\times(4-2)$ of $3+4-2$ berekend. Eerst vermenigvuldigen: $3\\times4=12$, daarna $-2$."
+        }
       ]
     },
     {
@@ -59,16 +96,28 @@
       "question": "Wat is de helling van $f(x)=-2x+7$?",
       "answer": -2,
       "solution": [
-        "De coëfficiënt van x is -2."
+        "In $f(x)=ax+b$ is $a$ de helling.",
+        "Hier is $a=-2$: de lijn daalt 2 per stap van 1 naar rechts."
       ],
       "hints": [
-        "Lees a in ax+b."
+        "Lees $a$ in $ax+b$ af.",
+        "Let op het teken voor de $x$."
       ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je bent het minteken vergeten. De helling is negatief, want de lijn daalt."
+        },
+        {
+          "answer": 7,
+          "message": "7 is de startwaarde $b$, niet de helling $a$. De helling is de coëfficiënt van $x$."
+        }
       ]
     },
     {
@@ -76,16 +125,24 @@
       "question": "Wat is de startwaarde van $f(x)=-2x+7$?",
       "answer": 7,
       "solution": [
-        "Bij x nul blijft 7 over."
+        "De startwaarde is de uitvoer bij $x=0$.",
+        "$f(0)=-2\\times0+7=7$."
       ],
       "hints": [
-        "Vul x = 0 in."
+        "Vul $x=0$ in.",
+        "De startwaarde staat los van $x$ in de formule."
       ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": -2,
+          "message": "-2 is de helling $a$. De startwaarde $b$ is de term zonder $x$."
+        }
       ]
     },
     {
@@ -93,33 +150,49 @@
       "question": "Wat is de helling van $f(x)=5$?",
       "answer": 0,
       "solution": [
-        "De functie verandert niet als x verandert."
+        "De uitvoer is altijd 5, welke $x$ je ook invult.",
+        "Er is dus geen verandering: de helling is 0. Je kunt $f(x)=0x+5$ schrijven."
       ],
       "hints": [
-        "De x-term heeft coëfficiënt nul."
+        "De $x$-term heeft coëfficiënt nul.",
+        "Verandert de uitvoer als $x$ verandert?"
       ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "5 is de constante waarde (de startwaarde), niet de helling. De helling meet de verandering, en die is hier nul."
+        }
       ]
     },
     {
       "id": "19-007",
-      "question": "Bij recht evenredige $f(x)=4x$: wat is f(3)?",
+      "question": "Bij de recht evenredige functie $f(x)=4x$: wat is $f(3)$?",
       "answer": 12,
       "solution": [
-        "$4\\times3=12$."
+        "Vul 3 in: $4\\times3=12$.",
+        "Bij een recht evenredig verband is er geen startterm."
       ],
       "hints": [
-        "Er is geen vaste startterm."
+        "Er is geen vaste startterm.",
+        "Vermenigvuldig $4$ met $3$."
       ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je hebt 4 en 3 opgeteld. In $4x$ staat $4$ keer $x$."
+        }
       ]
     },
     {
@@ -127,58 +200,96 @@
       "question": "Bereken de helling door (2; 7) en (5; 16).",
       "answer": 3,
       "solution": [
-        "$9:3=3$."
+        "Verschil in uitvoer: $16-7=9$.",
+        "Verschil in invoer: $5-2=3$.",
+        "Helling: $9:3=3$."
       ],
       "hints": [
-        "Gebruik verschillen."
+        "Gebruik verschillen.",
+        "Deel het verschil in $y$ door het verschil in $x$."
       ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 9,
+          "message": "9 is alleen het verschil in uitvoer. Deel dat nog door het verschil in invoer."
+        }
       ]
     },
     {
       "id": "19-009",
-      "question": "Een lijn heeft helling 3 en gaat door (2; 7). Wat is b in y = 3x+b?",
+      "question": "Een lijn heeft helling 3 en gaat door (2; 7). Wat is $b$ in $y=3x+b$?",
       "answer": 1,
       "solution": [
-        "$7=6+b$, dus b = 1."
+        "Vul het punt in: $7=3\\times2+b$.",
+        "$7=6+b$, dus $b=1$."
       ],
       "hints": [
-        "Vul het punt in."
+        "Vul het punt in.",
+        "Los de vergelijking voor $b$ op."
       ],
       "type": "numeric",
       "mode": "guided",
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je hebt de $y$-waarde van het punt als startwaarde genomen. Dat zou kloppen bij $x=0$, maar het punt heeft $x=2$."
+        },
+        {
+          "answer": 13,
+          "message": "Je hebt $7+6$ gedaan. Trek de bijdrage $3\\times2=6$ van 7 af."
+        }
       ]
     },
     {
       "id": "19-010",
-      "question": "Geef de regel y als expressie in x voor de lijn door (2; 7) en (5; 16).",
+      "question": "Geef de regel $y$ als expressie in $x$ voor de lijn door (2; 7) en (5; 16).",
       "answer": "3x+1",
       "solution": [
-        "Helling 3, startwaarde 1."
+        "Helling: $\\dfrac{16-7}{5-2}=3$.",
+        "Startwaarde: $7=3\\times2+b$, dus $b=1$.",
+        "De regel is $y=3x+1$."
       ],
       "hints": [
-        "Bereken eerst a en dan b."
+        "Bereken eerst $a$ en dan $b$."
       ],
       "type": "expression",
       "mode": "guided",
       "difficulty": 2,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "x+3",
+          "message": "Je hebt $a$ en $b$ verwisseld. De coëfficiënt van $x$ is de helling 3, het losse getal is de startwaarde 1."
+        },
+        {
+          "answer": "3x+7",
+          "message": "Je hebt de $y$-waarde van het eerste punt als $b$ genomen. Dat mag alleen bij $x=0$."
+        },
+        {
+          "answer": "3x",
+          "message": "Je bent de startwaarde vergeten: bij $x=0$ is de uitvoer niet 0."
+        }
       ]
     },
     {
       "id": "19-011",
-      "question": "x = 0, 1, 2, 3 geeft y = 5, 8, 11, 14. Wat is de helling?",
+      "question": "$x=0,1,2,3$ geeft $y=5,8,11,14$. Wat is de helling?",
       "answer": 3,
       "solution": [
-        "Elke x-stap 1 geeft y-stap 3."
+        "Elke stap van 1 in $x$ geeft een stap van $8-5=3$ in $y$.",
+        "De verschillen zijn constant, dus de tabel is lineair met helling 3."
       ],
       "hints": [
         "Vergelijk opeenvolgende verschillen."
@@ -188,6 +299,12 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "5 is de startwaarde (de uitvoer bij $x=0$). De helling is de toename van $y$ per stap in $x$."
+        }
       ]
     },
     {
@@ -195,7 +312,9 @@
       "question": "Een lijn gaat door (0; 10) en (4; 2). Wat is de helling?",
       "answer": -2,
       "solution": [
-        "$(-8):4=-2$."
+        "Verschil in $y$: $2-10=-8$.",
+        "Verschil in $x$: $4-0=4$.",
+        "Helling: $(-8):4=-2$."
       ],
       "hints": [
         "Dalende lijnen hebben een negatieve helling."
@@ -205,6 +324,16 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je bent het minteken vergeten. De uitvoer daalt van 10 naar 2, dus de helling is negatief."
+        },
+        {
+          "answer": -0.5,
+          "message": "Je hebt het verschil in $x$ door het verschil in $y$ gedeeld. Het is andersom: $\\Delta y/\\Delta x$."
+        }
       ]
     },
     {
@@ -212,7 +341,8 @@
       "question": "Bereken het nulpunt van $f(x)=2x-6$.",
       "answer": 3,
       "solution": [
-        "$2x=6$, dus x = 3."
+        "Stel $f(x)=0$: $2x-6=0$.",
+        "$2x=6$, dus $x=3$."
       ],
       "hints": [
         "Stel de functiewaarde nul."
@@ -222,6 +352,16 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": -3,
+          "message": "Je hebt de 6 verkeerd verplaatst. Uit $2x-6=0$ volgt $2x=+6$."
+        },
+        {
+          "answer": -6,
+          "message": "Je hebt $b$ als nulpunt genomen. Dat is de uitvoer bij $x=0$. Los $2x-6=0$ op."
+        }
       ]
     },
     {
@@ -229,7 +369,9 @@
       "question": "Bereken het nulpunt van $f(x)=-4x+20$.",
       "answer": 5,
       "solution": [
-        "$-4x=-20$, dus x = 5."
+        "$-4x+20=0$ geeft $-4x=-20$.",
+        "$x=(-20):(-4)=5$.",
+        "Controle: $-4\\times5+20=0$."
       ],
       "hints": [
         "Controleer door invullen."
@@ -239,14 +381,25 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": -5,
+          "message": "Min gedeeld door min is plus: $(-20):(-4)=5$."
+        },
+        {
+          "answer": 80,
+          "message": "Je hebt $-4$ met $-20$ vermenigvuldigd. Je moet delen om $x$ vrij te maken."
+        }
       ]
     },
     {
       "id": "19-015",
-      "question": "Voor hoeveel x-waarden is de constante functie f(x) = 5 gelijk aan nul?",
+      "question": "Voor hoeveel $x$-waarden is de constante functie $f(x)=5$ gelijk aan nul?",
       "answer": 0,
       "solution": [
-        "Nooit: 5 is niet nul."
+        "De uitvoer is altijd 5 en dus nooit 0.",
+        "Er is geen nulpunt: het antwoord is 0 waarden."
       ],
       "hints": [
         "Er is geen nulpunt."
@@ -256,33 +409,53 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "5 is de waarde van de functie, niet het aantal nulpunten. Hoe vaak is 5 gelijk aan 0?"
+        }
       ]
     },
     {
       "id": "19-016",
-      "question": "Geef het snijpunt van y = 2x+1 en y = -x+7.",
+      "question": "Geef het snijpunt van $y=2x+1$ en $y=-x+7$.",
       "answer": "(2;5)",
       "solution": [
-        "$3x=6$, x = 2.",
-        "Dan y = 5."
+        "Stel gelijk: $2x+1=-x+7$.",
+        "$3x=6$, dus $x=2$.",
+        "Vul in: $y=2\\times2+1=5$.",
+        "Snijpunt: $(2;5)$."
       ],
       "hints": [
-        "Stel de twee regels gelijk."
+        "Stel de twee regels gelijk.",
+        "Vergeet de $y$-coördinaat niet."
       ],
       "type": "coordinate",
       "mode": "guided",
       "difficulty": 2,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "(5;2)",
+          "message": "Je hebt de coördinaten omgedraaid: eerst $x$, dan $y$."
+        },
+        {
+          "answer": "(2;3)",
+          "message": "Je hebt waarschijnlijk $y$ niet in beide formules gecontroleerd. Vul $x=2$ in beide regels in: ze moeten dezelfde $y$ geven."
+        }
       ]
     },
     {
       "id": "19-017",
-      "question": "A(n)=12+2n en B(n)=4+3n. Wat is A(5)-B(5)?",
+      "question": "$A(n)=12+2n$ en $B(n)=4+3n$ (in euro). Wat is $A(5)-B(5)$?",
       "answer": 3,
       "solution": [
-        "A(5)=22 en B(5)=19.",
-        "Verschil 3 euro."
+        "$A(5)=12+10=22$.",
+        "$B(5)=4+15=19$.",
+        "Verschil: $22-19=3$ euro."
       ],
       "hints": [
         "Bereken beide uitvoerwaarden."
@@ -293,14 +466,20 @@
       "topics": [
         "linear-functions"
       ],
-      "unit": "€"
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": -3,
+          "message": "Je hebt $B(5)-A(5)$ berekend. De vraag is $A(5)-B(5)$."
+        }
+      ]
     },
     {
       "id": "19-018",
       "question": "Een tankmodel gebruikt alle tijden van 0 tot en met 10 minuten. Geef het domein als interval.",
       "answer": "[0;10]",
       "solution": [
-        "Beide eindpunten horen erbij: [0; 10]."
+        "Beide eindpunten horen erbij: $[0;10]$."
       ],
       "hints": [
         "Vierkante haakjes sluiten de grenzen in."
@@ -310,14 +489,21 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "(0;10)",
+          "message": "Ronde haakjes sluiten de grenzen uit. Hier horen 0 en 10 er wel bij."
+        }
       ]
     },
     {
       "id": "19-019",
-      "question": "Voor V(t)=120+8t met t in [0; 10]: geef het bereik als interval.",
+      "question": "Voor $V(t)=120+8t$ met $t\\in[0;10]$: geef het bereik als interval.",
       "answer": "[120;200]",
       "solution": [
-        "Het model stijgt van 120 tot 200."
+        "$V(0)=120$ en $V(10)=200$.",
+        "De functie stijgt, dus het bereik loopt van 120 tot 200."
       ],
       "hints": [
         "Bereken de waarden aan de grenzen."
@@ -327,31 +513,49 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "[0;10]",
+          "message": "Dat is het domein. Het bereik bestaat uit uitvoerwaarden $V(t)$."
+        }
       ]
     },
     {
       "id": "19-020",
-      "question": "Maak x vrij in y = 3x+1. Geef de expressie voor x in y.",
+      "question": "Maak $x$ vrij in $y=3x+1$. Geef de expressie voor $x$ in $y$.",
       "answer": "(y-1)/3",
       "solution": [
-        "Trek 1 af en deel door 3."
+        "Trek aan beide kanten 1 af: $y-1=3x$.",
+        "Deel door 3: $x=\\dfrac{y-1}{3}$."
       ],
       "hints": [
-        "Gebruik y als variabele in je antwoord."
+        "Gebruik $y$ als variabele in je antwoord."
       ],
       "type": "expression",
       "mode": "guided",
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "(y+1)/3",
+          "message": "Je moet de 1 aftrekken, niet erbij optellen: de bewerking is het omgekeerde van $+1$."
+        },
+        {
+          "answer": "y-1/3",
+          "message": "Let op de haakjes: het hele verschil $y-1$ wordt door 3 gedeeld."
+        }
       ]
     },
     {
       "id": "19-021",
-      "question": "Bij f(x)=3x+1 hoort uitvoer 16. Wat is de invoer?",
+      "question": "Bij $f(x)=3x+1$ hoort uitvoer 16. Wat is de invoer?",
       "answer": 5,
       "solution": [
-        "$(16-1)/3=5$."
+        "$3x+1=16$.",
+        "$3x=15$, dus $x=5$."
       ],
       "hints": [
         "Gebruik de terugregel."
@@ -361,15 +565,21 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 49,
+          "message": "Je hebt 16 ingevuld als invoer. Hier is 16 de uitvoer en zoek je de invoer."
+        }
       ]
     },
     {
       "id": "19-022",
-      "question": "Geef de inverse regel van f(x)=2x-4. Schrijf de uitvoer van de inverse als expressie in x.",
+      "question": "Geef de inverse regel van $f(x)=2x-4$. Schrijf de uitvoer van de inverse als expressie in $x$.",
       "answer": "(x+4)/2",
       "solution": [
-        "Bij y = 2u-4 is u = (y+4)/2.",
-        "Hernoem de nieuwe invoer y naar x."
+        "Bij $y=2u-4$ is $u=\\dfrac{y+4}{2}$.",
+        "Hernoem de nieuwe invoer $y$ naar $x$: $f^{-1}(x)=\\dfrac{x+4}{2}$."
       ],
       "hints": [
         "Maak eerst de oorspronkelijke invoer vrij."
@@ -379,14 +589,25 @@
       "difficulty": 2,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "(x-4)/2",
+          "message": "De omgekeerde bewerking van $-4$ is $+4$."
+        },
+        {
+          "answer": "x/2+4",
+          "message": "Je deelt alleen $x$ door 2 en laat de 4 buiten de deling: het hele verschil $x+4$ wordt gedeeld."
+        }
       ]
     },
     {
       "id": "19-023",
-      "question": "Een tank heeft V(t)=120+8t. Bij V = 184 liter: hoeveel minuten zijn verstreken?",
+      "question": "Een tank heeft $V(t)=120+8t$. Bij $V=184$ liter: hoeveel minuten zijn verstreken?",
       "answer": 8,
       "solution": [
-        "$(184-120):8=8$."
+        "$120+8t=184$.",
+        "$8t=64$, dus $t=8$."
       ],
       "hints": [
         "Trek de startinhoud af."
@@ -397,14 +618,24 @@
       "topics": [
         "linear-functions"
       ],
-      "unit": "min"
+      "unit": "min",
+      "feedback": [
+        {
+          "answer": 23,
+          "message": "Je hebt 184 door 8 gedeeld zonder eerst de startinhoud af te trekken."
+        },
+        {
+          "answer": 64,
+          "message": "64 liter is de hoeveelheid die erbij kwam. Deel die nog door 8 liter per minuut."
+        }
+      ]
     },
     {
       "id": "19-024",
-      "question": "Een lijn is gemeten bij x = 2 en x = 8. Een modelberekening bij x = 5 valt binnen of buiten dit meetgebied? Geef 1 voor binnen, 0 voor buiten.",
+      "question": "Een lijn is gemeten bij $x=2$ en $x=8$. Valt een modelberekening bij $x=5$ binnen of buiten dit meetgebied? Geef 1 voor binnen, 0 voor buiten.",
       "answer": 1,
       "solution": [
-        "5 ligt tussen 2 en 8: interpolatie."
+        "5 ligt tussen 2 en 8: dat is interpolatie, binnen het meetgebied."
       ],
       "hints": [
         "Vergelijk met de twee meetgrenzen."
@@ -414,14 +645,21 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "5 ligt tussen 2 en 8, dus binnen het gebied van de metingen."
+        }
       ]
     },
     {
       "id": "19-025",
-      "question": "V(t)=500-20t. Bereken het leegmoment.",
+      "question": "$V(t)=500-20t$. Bereken het leegmoment.",
       "answer": 25,
       "solution": [
-        "$500-20t=0$, dus t = 25."
+        "Leeg betekent $V=0$: $500-20t=0$.",
+        "$20t=500$, dus $t=25$."
       ],
       "hints": [
         "Stel de inhoud nul."
@@ -432,14 +670,25 @@
       "topics": [
         "linear-functions"
       ],
-      "unit": "min"
+      "unit": "min",
+      "feedback": [
+        {
+          "answer": -25,
+          "message": "Een negatieve tijd heeft hier geen betekenis. Uit $500=20t$ volgt $t=+25$."
+        },
+        {
+          "answer": 10000,
+          "message": "Je hebt vermenigvuldigd in plaats van gedeeld."
+        }
+      ]
     },
     {
       "id": "19-026",
-      "question": "V(t)=500-20t. Wanneer is de inhoud 200 liter?",
+      "question": "$V(t)=500-20t$. Wanneer is de inhoud 200 liter?",
       "answer": 15,
       "solution": [
-        "$500-20t=200$ geeft $20t=300$, dus 15."
+        "$500-20t=200$.",
+        "$20t=300$, dus $t=15$."
       ],
       "hints": [
         "De gewenste inhoud is de uitvoer."
@@ -450,15 +699,26 @@
       "topics": [
         "linear-functions"
       ],
-      "unit": "min"
+      "unit": "min",
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Je hebt $200/20$ gedaan. De 200 is de uitvoer; trek die van 500 af voordat je deelt."
+        },
+        {
+          "answer": 25,
+          "message": "Dat is het moment dat de tank leeg is. Hier zoek je het moment dat er nog 200 liter in zit."
+        }
+      ]
     },
     {
       "id": "19-027",
-      "question": "Bepaal de functie door (1; 4) en (3; 10). Geef de uitvoer als expressie in x.",
+      "question": "Bepaal de functie door (1; 4) en (3; 10). Geef de uitvoer als expressie in $x$.",
       "answer": "3x+1",
       "solution": [
-        "Helling $6/2=3$.",
-        "Bij x = 1 moet b = 1 zijn."
+        "Helling: $\\dfrac{10-4}{3-1}=3$.",
+        "Startwaarde: $4=3\\times1+b$, dus $b=1$.",
+        "$y=3x+1$."
       ],
       "hints": [
         "Bepaal helling en startwaarde."
@@ -468,15 +728,25 @@
       "difficulty": 2,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "3x+4",
+          "message": "Je hebt de $y$-waarde van het eerste punt als startwaarde genomen, maar dat punt heeft $x=1$, niet $x=0$."
+        },
+        {
+          "answer": "x+3",
+          "message": "Je hebt $a$ en $b$ verwisseld."
+        }
       ]
     },
     {
       "id": "19-028",
-      "question": "f(x)=-2x+9 op domein [1; 4]. Geef het bereik als interval.",
+      "question": "$f(x)=-2x+9$ op domein $[1;4]$. Geef het bereik als interval.",
       "answer": "[1;7]",
       "solution": [
-        "f(1)=7 en f(4)=1.",
-        "De dalende functie neemt alle waarden ertussen aan."
+        "$f(1)=7$ en $f(4)=1$.",
+        "De dalende functie neemt alle waarden ertussen aan: bereik $[1;7]$."
       ],
       "hints": [
         "Zet de kleinste uitvoer links."
@@ -486,14 +756,25 @@
       "difficulty": 2,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "[7;1]",
+          "message": "Bij een interval staat de kleinste waarde links: $[1;7]$."
+        },
+        {
+          "answer": "[1;4]",
+          "message": "Dat is het domein. Reken de uitvoer uit bij de grenzen."
+        }
       ]
     },
     {
       "id": "19-029",
-      "question": "Bereken f(2,5) bij f(x)=4x-3.",
+      "question": "Bereken $f(2{,}5)$ bij $f(x)=4x-3$.",
       "answer": 7,
       "solution": [
-        "$4\\times2{,}5-3=7$."
+        "$4\\times2{,}5=10$.",
+        "$10-3=7$."
       ],
       "hints": [
         "Vul de decimale invoer in."
@@ -503,15 +784,25 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 13,
+          "message": "Je hebt de 3 opgeteld in plaats van afgetrokken."
+        },
+        {
+          "answer": -0.5,
+          "message": "Je hebt $4\\times(2{,}5-3)$ gerekend."
+        }
       ]
     },
     {
       "id": "19-030",
       "question": "Een tank bevat na 3 min 156 liter en na 8 min 216 liter bij constante toevoer. Geef toevoer per minuut, startinhoud en tijd tot 300 liter.",
       "solution": [
-        "Helling $(216-156)/(8-3)=12$.",
-        "Start $156-12\\times3=120$.",
-        "300 liter na $(300-120):12=15$ min."
+        "Helling: $\\dfrac{216-156}{8-3}=12$ liter per minuut.",
+        "Start: $156-12\\times3=120$ liter.",
+        "300 liter na $(300-120):12=15$ minuten."
       ],
       "hints": [
         "Bereken de helling tussen de twee metingen.",
@@ -537,6 +828,405 @@
         {
           "label": "tijd (min)",
           "answer": 15,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "19-031",
+      "question": "Bij $f(x)=-3x+5$: bereken $f(-2)$.",
+      "answer": 11,
+      "solution": [
+        "Vul $-2$ in: $-3\\times(-2)+5$.",
+        "$-3\\times(-2)=6$, en $6+5=11$."
+      ],
+      "hints": [
+        "Min maal min is plus."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": -1,
+          "message": "Je hebt $-3\\times2$ gerekend in plaats van $-3\\times(-2)$. Het product van twee negatieve getallen is positief."
+        },
+        {
+          "answer": -11,
+          "message": "Je bent het teken van de invoer vergeten: de invoer is $-2$."
+        }
+      ]
+    },
+    {
+      "id": "19-032",
+      "question": "Een taxi rekent € 3,50 instaptarief plus € 2,20 per kilometer. Wat kost een rit van 8 kilometer? Geef het antwoord in euro.",
+      "answer": 21.1,
+      "solution": [
+        "Formule: $K=2{,}20x+3{,}50$.",
+        "$K(8)=2{,}20\\times8+3{,}50=17{,}60+3{,}50=21{,}10$ euro."
+      ],
+      "hints": [
+        "Vergeet het instaptarief niet.",
+        "Instaptarief is $b$, tarief per kilometer is $a$."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "linear-functions"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 17.6,
+          "message": "Je bent het instaptarief vergeten: bij $x=0$ is de prijs al € 3,50."
+        },
+        {
+          "answer": 33.4,
+          "message": "Je hebt de rollen van $a$ en $b$ verwisseld: $3{,}50\\times8+2{,}20$. Het instaptarief betaal je één keer, de kilometerprijs per kilometer."
+        }
+      ],
+      "tolerance": 0.01
+    },
+    {
+      "id": "19-033",
+      "question": "Een lijn heeft startwaarde 4 en helling $-3$. Geef de regel $y$ als expressie in $x$.",
+      "answer": "-3x+4",
+      "solution": [
+        "De helling $a$ is $-3$ en de startwaarde $b$ is 4.",
+        "$y=-3x+4$."
+      ],
+      "hints": [
+        "Gebruik $y=ax+b$."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "3x+4",
+          "message": "Je bent het minteken vergeten. De lijn daalt, dus $a$ is negatief."
+        },
+        {
+          "answer": "4x-3",
+          "message": "Je hebt $a$ en $b$ verwisseld."
+        },
+        {
+          "answer": "-3x-4",
+          "message": "Het minteken hoort bij de helling, niet bij de startwaarde."
+        }
+      ]
+    },
+    {
+      "id": "19-034",
+      "question": "Bereken de helling door (1; 9) en (4; 3).",
+      "answer": -2,
+      "solution": [
+        "Verschil in $y$: $3-9=-6$.",
+        "Verschil in $x$: $4-1=3$.",
+        "Helling: $-6:3=-2$."
+      ],
+      "hints": [
+        "Trek de coördinaten in dezelfde volgorde af."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je bent het minteken vergeten: de uitvoer daalt van 9 naar 3."
+        },
+        {
+          "answer": -0.5,
+          "message": "Je hebt $\\Delta x/\\Delta y$ berekend. Het moet $\\Delta y/\\Delta x$ zijn."
+        }
+      ]
+    },
+    {
+      "id": "19-035",
+      "question": "Geef de regel $y$ als expressie in $x$ voor de lijn door (2; 3) en (6; 11).",
+      "answer": "2x-1",
+      "solution": [
+        "Helling: $\\dfrac{11-3}{6-2}=2$.",
+        "Startwaarde: $3=2\\times2+b$, dus $b=-1$.",
+        "$y=2x-1$."
+      ],
+      "hints": [
+        "Bereken eerst $a$, dan $b$ met een van de punten."
+      ],
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "-x+2",
+          "message": "Je hebt $a$ en $b$ verwisseld of verkeerd gerekend. Controleer met beide punten."
+        },
+        {
+          "answer": "2x+3",
+          "message": "Je hebt de $y$-waarde van het eerste punt als $b$ genomen. Dat punt heeft $x=2$, niet $x=0$."
+        },
+        {
+          "answer": "2x+1",
+          "message": "Controleer het teken van $b$: $3-2\\times2=-1$."
+        }
+      ]
+    },
+    {
+      "id": "19-036",
+      "question": "Een lijn gaat door (-1; 7) en (3; -5). Geef de helling $a$ en de startwaarde $b$.",
+      "solution": [
+        "Helling: $\\dfrac{-5-7}{3-(-1)}=\\dfrac{-12}{4}=-3$.",
+        "Startwaarde: $7=-3\\times(-1)+b=3+b$, dus $b=4$.",
+        "Controle met het tweede punt: $-3\\times3+4=-5$."
+      ],
+      "hints": [
+        "Let op de tekens bij het aftrekken van $-1$.",
+        "Vul daarna één punt in om $b$ te vinden."
+      ],
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 3,
+      "topics": [
+        "linear-functions"
+      ],
+      "parts": [
+        {
+          "label": "helling a",
+          "answer": -3,
+          "type": "numeric"
+        },
+        {
+          "label": "startwaarde b",
+          "answer": 4,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "19-037",
+      "question": "Bereken het nulpunt van $f(x)=0{,}5x-3$.",
+      "answer": 6,
+      "solution": [
+        "$0{,}5x-3=0$.",
+        "$0{,}5x=3$, dus $x=3:0{,}5=6$."
+      ],
+      "hints": [
+        "Delen door 0,5 is hetzelfde als vermenigvuldigen met 2."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 1.5,
+          "message": "Je hebt 3 met 0,5 vermenigvuldigd. Om $x$ vrij te maken moet je delen door 0,5."
+        },
+        {
+          "answer": -6,
+          "message": "Controleer het teken: $0{,}5x=+3$."
+        }
+      ]
+    },
+    {
+      "id": "19-038",
+      "question": "Geef het snijpunt van $y=x+5$ en $y=-2x-1$.",
+      "answer": "(-2;3)",
+      "solution": [
+        "Stel gelijk: $x+5=-2x-1$.",
+        "$3x=-6$, dus $x=-2$.",
+        "$y=-2+5=3$.",
+        "Snijpunt: $(-2;3)$."
+      ],
+      "hints": [
+        "Stel de regels gelijk en let op de tekens."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "(2;3)",
+          "message": "Controleer het teken van $x$: uit $3x=-6$ volgt $x=-2$."
+        },
+        {
+          "answer": "(3;-2)",
+          "message": "Je hebt de coördinaten omgedraaid: eerst $x$, dan $y$."
+        }
+      ]
+    },
+    {
+      "id": "19-039",
+      "question": "Geef de inverse regel van $f(x)=-2x+6$, met de nieuwe invoer als $x$.",
+      "answer": "(6-x)/2",
+      "solution": [
+        "Bij $y=-2u+6$: $-2u=y-6$, dus $u=\\dfrac{6-y}{2}$.",
+        "Hernoem $y$ naar $x$: $f^{-1}(x)=\\dfrac{6-x}{2}$.",
+        "Controle: $f(2)=2$ en $f^{-1}(2)=\\frac{4}{2}=2$."
+      ],
+      "hints": [
+        "Maak $u$ vrij uit $y=-2u+6$."
+      ],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "(x-6)/2",
+          "message": "Let op het teken: uit $-2u=y-6$ volgt $u=(y-6)/(-2)=(6-y)/2$."
+        },
+        {
+          "answer": "(x+6)/2",
+          "message": "Je moet 6 aftrekken, niet erbij optellen; let ook op het minteken van de helling."
+        }
+      ]
+    },
+    {
+      "id": "19-040",
+      "question": "Een kaars van 20 cm brandt met 2,5 cm per uur. Na hoeveel uur is hij op?",
+      "answer": 8,
+      "solution": [
+        "$h(t)=20-2{,}5t$.",
+        "$h=0$ geeft $2{,}5t=20$, dus $t=8$ uur."
+      ],
+      "hints": [
+        "Stel de hoogte nul."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "topics": [
+        "linear-functions"
+      ],
+      "unit": "uur",
+      "feedback": [
+        {
+          "answer": 50,
+          "message": "Je hebt vermenigvuldigd in plaats van gedeeld."
+        },
+        {
+          "answer": 17.5,
+          "message": "Je hebt 2,5 van 20 afgetrokken. Dat is de hoogte na één uur."
+        }
+      ]
+    },
+    {
+      "id": "19-041",
+      "question": "Geef de regel $y$ van de lijn door (3; 4) die evenwijdig is aan $y=2x+1$.",
+      "answer": "2x-2",
+      "solution": [
+        "Evenwijdige lijnen hebben dezelfde helling: $a=2$.",
+        "$4=2\\times3+b$, dus $b=-2$.",
+        "$y=2x-2$."
+      ],
+      "hints": [
+        "Neem de helling over.",
+        "Vul het punt in voor $b$."
+      ],
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "2x+1",
+          "message": "Je hebt ook de startwaarde overgenomen; dan krijg je dezelfde lijn als de gegeven lijn. Alleen de helling is gelijk."
+        },
+        {
+          "answer": "2x+4",
+          "message": "Je hebt de $y$-waarde van het punt als $b$ genomen. Dat punt heeft $x=3$."
+        },
+        {
+          "answer": "-0.5x+4",
+          "message": "Dat is een loodrechte lijn; hier is evenwijdig gevraagd."
+        }
+      ]
+    },
+    {
+      "id": "19-042",
+      "question": "Tarief A kost $15+4n$ euro en tarief B kost $39+n$ euro. Bij welke $n$ zijn de kosten gelijk?",
+      "answer": 8,
+      "solution": [
+        "$15+4n=39+n$.",
+        "$3n=24$, dus $n=8$.",
+        "Controle: $15+32=47$ en $39+8=47$."
+      ],
+      "hints": [
+        "Stel de twee formules gelijk."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Je bent vergeten door 3 te delen: $3n=24$."
+        },
+        {
+          "answer": 4.8,
+          "message": "Je hebt 24 door 5 gedeeld. Trek $n$ van $4n$ af: $4n-n=3n$."
+        }
+      ]
+    },
+    {
+      "id": "19-043",
+      "question": "Een kaars heeft na 2 uur nog 32 cm en na 6 uur nog 16 cm. De afname is constant. Geef de afname per uur (positief), de oorspronkelijke lengte en na hoeveel uur de kaars op is.",
+      "solution": [
+        "Helling: $\\dfrac{16-32}{6-2}=-4$, dus de afname is 4 cm per uur.",
+        "Startlengte: $32+4\\times2=40$ cm.",
+        "$h(t)=40-4t=0$ geeft $t=10$ uur."
+      ],
+      "hints": [
+        "Bereken de helling uit de twee metingen.",
+        "Bij $t=0$ is de lengte de startwaarde."
+      ],
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 3,
+      "topics": [
+        "linear-functions"
+      ],
+      "parts": [
+        {
+          "label": "afname (cm/uur)",
+          "answer": 4,
+          "type": "numeric"
+        },
+        {
+          "label": "lengte aan het begin (cm)",
+          "answer": 40,
+          "type": "numeric"
+        },
+        {
+          "label": "tijd tot op (uur)",
+          "answer": 10,
           "type": "numeric"
         }
       ]

@@ -4,10 +4,10 @@
   "questions": [
     {
       "id": "19-T01",
-      "question": "Bereken f(3) voor f(x)=4x+2.",
+      "question": "Bereken $f(3)$ voor $f(x)=4x+2$.",
       "answer": 14,
       "solution": [
-        "$12+2=14$."
+        "Vul $x=3$ in: $4\\times3+2=12+2=14$."
       ],
       "hints": [],
       "type": "numeric",
@@ -15,14 +15,24 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Je hebt $4\\times(3+2)$ berekend. Eerst vermenigvuldigen, dan optellen."
+        },
+        {
+          "answer": 10,
+          "message": "Je hebt de 3 opgeteld in plaats van met 4 vermenigvuldigd."
+        }
       ]
     },
     {
       "id": "19-T02",
-      "question": "Wat is de helling van f(x)=-3x+8?",
+      "question": "Wat is de helling van $f(x)=-3x+8$?",
       "answer": -3,
       "solution": [
-        "De x-coëfficiënt is -3."
+        "De helling is de coëfficiënt van $x$: $a=-3$. De lijn daalt dus."
       ],
       "hints": [],
       "type": "numeric",
@@ -30,14 +40,24 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Je bent het minteken vergeten."
+        },
+        {
+          "answer": 8,
+          "message": "8 is de startwaarde, niet de helling."
+        }
       ]
     },
     {
       "id": "19-T03",
-      "question": "Wat is de startwaarde van f(x)=-3x+8?",
+      "question": "Wat is de startwaarde van $f(x)=-3x+8$?",
       "answer": 8,
       "solution": [
-        "Bij x nul krijg je 8."
+        "De startwaarde is $f(0)=-3\\times0+8=8$."
       ],
       "hints": [],
       "type": "numeric",
@@ -45,6 +65,12 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": -3,
+          "message": "-3 is de helling. De startwaarde is de term zonder $x$."
+        }
       ]
     },
     {
@@ -52,7 +78,8 @@
       "question": "Bereken de helling door (1; 5) en (4; 17).",
       "answer": 4,
       "solution": [
-        "$12/3=4$."
+        "$\\Delta y=17-5=12$ en $\\Delta x=4-1=3$.",
+        "Helling: $12:3=4$."
       ],
       "hints": [],
       "type": "numeric",
@@ -60,29 +87,51 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 0.25,
+          "message": "Je hebt $\\Delta x/\\Delta y$ berekend. Het moet $\\Delta y/\\Delta x$ zijn."
+        },
+        {
+          "answer": 12,
+          "message": "12 is alleen het verschil in $y$. Deel dat door het verschil in $x$."
+        }
       ]
     },
     {
       "id": "19-T05",
-      "question": "Geef de functie door (1; 5) en (4; 17) als expressie in x.",
+      "question": "Geef de functie door (1; 5) en (4; 17) als expressie in $x$.",
       "answer": "4x+1",
       "solution": [
-        "Helling 4 en b = 5-4 = 1."
+        "Helling 4 (zie vorige vraag).",
+        "$5=4\\times1+b$, dus $b=1$.",
+        "$y=4x+1$."
       ],
       "hints": [],
       "type": "expression",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "4x+5",
+          "message": "Je hebt de $y$-waarde van het eerste punt als $b$ genomen, maar dat punt heeft $x=1$."
+        },
+        {
+          "answer": "x+4",
+          "message": "Je hebt $a$ en $b$ verwisseld."
+        }
       ]
     },
     {
       "id": "19-T06",
-      "question": "Bereken het nulpunt van f(x)=5x-20.",
+      "question": "Bereken het nulpunt van $f(x)=5x-20$.",
       "answer": 4,
       "solution": [
-        "5x = 20."
+        "$5x-20=0$ geeft $5x=20$, dus $x=4$."
       ],
       "hints": [],
       "type": "numeric",
@@ -90,29 +139,52 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": -4,
+          "message": "Controleer het teken: $5x=+20$."
+        },
+        {
+          "answer": -20,
+          "message": "-20 is de startwaarde, niet het nulpunt."
+        }
       ]
     },
     {
       "id": "19-T07",
-      "question": "Geef het snijpunt van y = 3x en y = -x+8.",
+      "question": "Geef het snijpunt van $y=3x$ en $y=-x+8$.",
       "answer": "(2;6)",
       "solution": [
-        "4x = 8, dus x = 2 en y = 6."
+        "Gelijkstellen: $3x=-x+8$, dus $4x=8$ en $x=2$.",
+        "$y=3\\times2=6$.",
+        "Snijpunt $(2;6)$."
       ],
       "hints": [],
       "type": "coordinate",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "(6;2)",
+          "message": "Je hebt de coördinaten omgedraaid: eerst $x$, dan $y$."
+        },
+        {
+          "answer": "(2;8)",
+          "message": "Je hebt $y=8$ genomen (de startwaarde van de tweede regel). Vul $x=2$ in beide regels in."
+        }
       ]
     },
     {
       "id": "19-T08",
-      "question": "f(x)=2x+3 heeft domein [0; 4]. Geef het bereik.",
+      "question": "$f(x)=2x+3$ heeft domein $[0;4]$. Geef het bereik.",
       "answer": "[3;11]",
       "solution": [
-        "Grenswaarden 3 en 11."
+        "$f(0)=3$ en $f(4)=11$.",
+        "De functie stijgt: bereik $[3;11]$."
       ],
       "hints": [],
       "type": "interval",
@@ -120,44 +192,68 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "[0;4]",
+          "message": "Dat is het domein; het bereik bestaat uit uitvoerwaarden."
+        }
       ]
     },
     {
       "id": "19-T09",
-      "question": "f(x)=-x+10 heeft domein [2; 6]. Geef het bereik.",
+      "question": "$f(x)=-x+10$ heeft domein $[2;6]$. Geef het bereik.",
       "answer": "[4;8]",
       "solution": [
-        "Grenswaarden 8 en 4; zet kleinste eerst."
+        "$f(2)=8$ en $f(6)=4$.",
+        "De functie daalt; schrijf de kleinste waarde links: $[4;8]$."
       ],
       "hints": [],
       "type": "interval",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "[8;4]",
+          "message": "Bij een interval staat de kleinste waarde links."
+        }
       ]
     },
     {
       "id": "19-T10",
-      "question": "Geef de inverse regel van f(x)=4x+8 als expressie in de nieuwe invoer x.",
+      "question": "Geef de inverse regel van $f(x)=4x+8$ als expressie in de nieuwe invoer $x$.",
       "answer": "(x-8)/4",
       "solution": [
-        "Trek 8 af en deel door 4."
+        "$y=4u+8$ geeft $u=\\dfrac{y-8}{4}$.",
+        "Hernoem $y$ naar $x$."
       ],
       "hints": [],
       "type": "expression",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "(x+8)/4",
+          "message": "De omgekeerde bewerking van $+8$ is $-8$."
+        },
+        {
+          "answer": "x/4-8",
+          "message": "Het hele verschil $x-8$ moet door 4 worden gedeeld."
+        }
       ]
     },
     {
       "id": "19-T11",
-      "question": "Voor f(x)=4x+8 is de uitvoer 28. Wat was de invoer?",
+      "question": "Voor $f(x)=4x+8$ is de uitvoer 28. Wat was de invoer?",
       "answer": 5,
       "solution": [
-        "(28-8)/4 = 5."
+        "$4x+8=28$, dus $4x=20$ en $x=5$."
       ],
       "hints": [],
       "type": "numeric",
@@ -165,6 +261,16 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 120,
+          "message": "Je hebt 28 als invoer genomen: $4\\times28+8$. De 28 is de uitvoer."
+        },
+        {
+          "answer": 7,
+          "message": "Je hebt 28 door 4 gedeeld zonder eerst 8 af te trekken."
+        }
       ]
     },
     {
@@ -172,7 +278,7 @@
       "question": "Een voorraad begint bij 300 en daalt elke dag 15. Na hoeveel dagen bereikt het model nul?",
       "answer": 20,
       "solution": [
-        "300/15 = 20."
+        "$300-15t=0$, dus $t=300:15=20$ dagen."
       ],
       "hints": [],
       "type": "numeric",
@@ -180,6 +286,12 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 4500,
+          "message": "Je hebt vermenigvuldigd in plaats van gedeeld."
+        }
       ]
     },
     {
@@ -187,7 +299,8 @@
       "question": "Een lijn gaat door (0; 12) en (3; 6). Wat is de helling?",
       "answer": -2,
       "solution": [
-        "-6/3 = -2."
+        "$\\Delta y=6-12=-6$ en $\\Delta x=3$.",
+        "Helling: $-6:3=-2$."
       ],
       "hints": [],
       "type": "numeric",
@@ -195,21 +308,38 @@
       "difficulty": 1,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je bent het minteken vergeten: de uitvoer daalt."
+        },
+        {
+          "answer": -0.5,
+          "message": "Je hebt $\\Delta x/\\Delta y$ berekend."
+        }
       ]
     },
     {
       "id": "19-T14",
-      "question": "A(n)=10+2n en B(n)=4+3n. Bij welk n zijn de kosten gelijk?",
+      "question": "$A(n)=10+2n$ en $B(n)=4+3n$. Bij welke $n$ zijn de kosten gelijk?",
       "answer": 6,
       "solution": [
-        "10+2n = 4+3n geeft n = 6."
+        "$10+2n=4+3n$ geeft $6=n$.",
+        "Controle: $A(6)=22=B(6)$."
       ],
       "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 14,
+          "message": "Je hebt de vaste kosten bij elkaar opgeteld. Breng de termen met $n$ naar één kant en de getallen naar de andere."
+        }
       ]
     },
     {
@@ -217,8 +347,8 @@
       "question": "Een tank bevat na 2 min 70 liter en na 6 min 110 liter. Bij constante toevoer: hoeveel liter zat er aan het begin in?",
       "answer": 50,
       "solution": [
-        "Helling 40/4 = 10.",
-        "Start 70-20 = 50."
+        "Helling: $\\dfrac{110-70}{6-2}=10$ liter per minuut.",
+        "Start: $70-10\\times2=50$ liter."
       ],
       "hints": [],
       "type": "numeric",
@@ -226,6 +356,16 @@
       "difficulty": 3,
       "topics": [
         "linear-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 70,
+          "message": "70 liter is de inhoud na 2 minuten, niet bij $t=0$."
+        },
+        {
+          "answer": 90,
+          "message": "Je hebt de toevoer van 20 liter bij 70 opgeteld in plaats van af te trekken."
+        }
       ]
     }
   ]

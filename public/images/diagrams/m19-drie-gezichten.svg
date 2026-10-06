@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 265" font-family="sans-serif">
+  <title>Tabel, formule en grafiek van y = 2x + 1</title>
+  <rect width="560" height="265" fill="#ffffff"/>
+  <defs><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2933"/></marker></defs>
+  <text x="95" y="35" font-size="16" text-anchor="middle" fill="#3b5bdb" >tabel</text>
+  <rect x="35" y="55" width="60" height="34" fill="#edf2ff" stroke="#1f2933"/>
+  <rect x="95" y="55" width="60" height="34" fill="#edf2ff" stroke="#1f2933"/>
+  <text x="65" y="77" font-size="15" text-anchor="middle" fill="#1f2933" font-style="italic">x</text>
+  <text x="125" y="77" font-size="15" text-anchor="middle" fill="#1f2933" font-style="italic">y</text>
+  <rect x="35" y="89" width="60" height="34" fill="#fff" stroke="#1f2933"/>
+  <rect x="95" y="89" width="60" height="34" fill="#fff" stroke="#1f2933"/>
+  <text x="65" y="111" font-size="15" text-anchor="middle" fill="#1f2933" >0</text>
+  <text x="125" y="111" font-size="15" text-anchor="middle" fill="#1f2933" >1</text>
+  <rect x="35" y="123" width="60" height="34" fill="#fff" stroke="#1f2933"/>
+  <rect x="95" y="123" width="60" height="34" fill="#fff" stroke="#1f2933"/>
+  <text x="65" y="145" font-size="15" text-anchor="middle" fill="#1f2933" >1</text>
+  <text x="125" y="145" font-size="15" text-anchor="middle" fill="#1f2933" >3</text>
+  <rect x="35" y="157" width="60" height="34" fill="#fff" stroke="#1f2933"/>
+  <rect x="95" y="157" width="60" height="34" fill="#fff" stroke="#1f2933"/>
+  <text x="65" y="179" font-size="15" text-anchor="middle" fill="#1f2933" >2</text>
+  <text x="125" y="179" font-size="15" text-anchor="middle" fill="#1f2933" >5</text>
+  <rect x="35" y="191" width="60" height="34" fill="#fff" stroke="#1f2933"/>
+  <rect x="95" y="191" width="60" height="34" fill="#fff" stroke="#1f2933"/>
+  <text x="65" y="213" font-size="15" text-anchor="middle" fill="#1f2933" >3</text>
+  <text x="125" y="213" font-size="15" text-anchor="middle" fill="#1f2933" >7</text>
+  <text x="95" y="250" font-size="13" text-anchor="middle" fill="#9c6b30" >+1 → +2</text>
+  <text x="290" y="35" font-size="16" text-anchor="middle" fill="#3b5bdb" >formule</text>
+  <text x="290" y="130" font-size="22" text-anchor="middle" fill="#1f2933" >y = 2x + 1</text>
+  <text x="290" y="165" font-size="14" text-anchor="middle" fill="#1f2933" >a = 2 (helling)</text>
+  <text x="290" y="187" font-size="14" text-anchor="middle" fill="#1f2933" >b = 1 (startwaarde)</text>
+  <text x="290" y="250" font-size="13" text-anchor="middle" fill="#9c6b30" >één regel voor alle x</text>
+  <text x="470" y="35" font-size="16" text-anchor="middle" fill="#3b5bdb" >grafiek</text>
+  <line x1="404" y1="218" x2="404" y2="56" stroke="#ced4da" stroke-width="1" />
+  <line x1="422" y1="218" x2="422" y2="56" stroke="#ced4da" stroke-width="1" />
+  <line x1="440" y1="218" x2="440" y2="56" stroke="#ced4da" stroke-width="1" />
+  <line x1="458" y1="218" x2="458" y2="56" stroke="#ced4da" stroke-width="1" />
+  <line x1="476" y1="218" x2="476" y2="56" stroke="#ced4da" stroke-width="1" />
+  <line x1="494" y1="218" x2="494" y2="56" stroke="#ced4da" stroke-width="1" />
+  <line x1="512" y1="218" x2="512" y2="56" stroke="#ced4da" stroke-width="1" />
+  <line x1="404" y1="218" x2="512" y2="218" stroke="#ced4da" stroke-width="1" />
+  <line x1="404" y1="200" x2="512" y2="200" stroke="#ced4da" stroke-width="1" />
+  <line x1="404" y1="182" x2="512" y2="182" stroke="#ced4da" stroke-width="1" />
+  <line x1="404" y1="164" x2="512" y2="164" stroke="#ced4da" stroke-width="1" />
+  <line x1="404" y1="146" x2="512" y2="146" stroke="#ced4da" stroke-width="1" />
+  <line x1="404" y1="128" x2="512" y2="128" stroke="#ced4da" stroke-width="1" />
+  <line x1="404" y1="110" x2="512" y2="110" stroke="#ced4da" stroke-width="1" />
+  <line x1="404" y1="92" x2="512" y2="92" stroke="#ced4da" stroke-width="1" />
+  <line x1="404" y1="74" x2="512" y2="74" stroke="#ced4da" stroke-width="1" />
+  <line x1="404" y1="56" x2="512" y2="56" stroke="#ced4da" stroke-width="1" />
+  <line x1="396" y1="200" x2="522" y2="200" stroke="#1f2933" stroke-width="2" marker-end="url(#p)"/>
+  <line x1="440" y1="226" x2="440" y2="46" stroke="#1f2933" stroke-width="2" marker-end="url(#p)"/>
+  <text x="534" y="205" font-size="15" text-anchor="middle" fill="#1f2933" font-style="italic">x</text>
+  <text x="452" y="48" font-size="15" text-anchor="middle" fill="#1f2933" font-style="italic">y</text>
+  <text x="404" y="216" font-size="11" text-anchor="middle" fill="#1f2933" >−2</text>
+  <text x="422" y="216" font-size="11" text-anchor="middle" fill="#1f2933" >−1</text>
+  <text x="458" y="216" font-size="11" text-anchor="middle" fill="#1f2933" >1</text>
+  <text x="476" y="216" font-size="11" text-anchor="middle" fill="#1f2933" >2</text>
+  <text x="494" y="216" font-size="11" text-anchor="middle" fill="#1f2933" >3</text>
+  <text x="512" y="216" font-size="11" text-anchor="middle" fill="#1f2933" >4</text>
+  <text x="434" y="222" font-size="11" text-anchor="end" fill="#1f2933" >−1</text>
+  <text x="434" y="186" font-size="11" text-anchor="end" fill="#1f2933" >1</text>
+  <text x="434" y="168" font-size="11" text-anchor="end" fill="#1f2933" >2</text>
+  <text x="434" y="150" font-size="11" text-anchor="end" fill="#1f2933" >3</text>
+  <text x="434" y="132" font-size="11" text-anchor="end" fill="#1f2933" >4</text>
+  <text x="434" y="114" font-size="11" text-anchor="end" fill="#1f2933" >5</text>
+  <text x="434" y="96" font-size="11" text-anchor="end" fill="#1f2933" >6</text>
+  <text x="434" y="78" font-size="11" text-anchor="end" fill="#1f2933" >7</text>
+  <text x="434" y="60" font-size="11" text-anchor="end" fill="#1f2933" >8</text>
+  <line x1="404" y1="254" x2="512" y2="38" stroke="#3b5bdb" stroke-width="3" />
+  <circle cx="440" cy="182" r="4" fill="#3b5bdb"/>
+  <circle cx="458" cy="146" r="4" fill="#3b5bdb"/>
+  <circle cx="476" cy="110" r="4" fill="#3b5bdb"/>
+  <circle cx="494" cy="74" r="4" fill="#3b5bdb"/>
+  <text x="470" y="250" font-size="13" text-anchor="middle" fill="#9c6b30" >een rechte lijn</text>
+
+</svg>

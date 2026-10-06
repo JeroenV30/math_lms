@@ -19,12 +19,14 @@
   "summary": "Lineaire functies in tabel, formule en grafiek: helling, startwaarde, nulpunten, domein en inverse. Je beoordeelt ook wanneer een lineair model passend is.",
   "learning_goals": [
     "Je legt uit wat een functie is en onderscheidt invoer, uitvoer en domein.",
-    "Je leest helling en startwaarde uit een lineaire formule en herkent recht evenredige gevallen.",
-    "Je bepaalt een lineaire functie uit twee verschillende punten.",
-    "Je berekent nulpunten en snijpunten en interpreteert die in een model.",
+    "Je herkent een lineair verband in tabel, formule en grafiek en schakelt tussen die drie voorstellingen.",
+    "Je leest helling en startwaarde uit een formule af, en herkent recht evenredige en constante functies.",
+    "Je bepaalt een lineaire functie uit twee verschillende punten of uit een tabel.",
+    "Je berekent nulpunten en snijpunten van twee lijnen en interpreteert die in een situatie.",
+    "Je bepaalt een lijn die evenwijdig is aan een gegeven lijn door een gegeven punt.",
     "Je beperkt domein en bereik tot de situatie en gebruikt intervalnotatie.",
-    "Je maakt de invoer vrij en vindt een inverse bij een niet-nulhelling.",
-    "Je controleert met verschillen of een lineair model door gegevens wordt ondersteund."
+    "Je maakt de invoer vrij, vindt de inverse bij een helling ongelijk aan nul en gebruikt die om uitvoer terug te rekenen.",
+    "Je beoordeelt of een lineair model bij gegevens past en onderscheidt interpoleren van extrapoleren."
   ],
   "glossary": [
     {
@@ -58,33 +60,70 @@
     {
       "term": "Extrapoleren",
       "definition": "Een model gebruiken buiten het gebied van de waarnemingen."
+    },
+    {
+      "term": "Helling",
+      "definition": "De verandering van de uitvoer per eenheid invoer, berekend als $\\Delta y/\\Delta x$; bij een lineaire functie is dat overal dezelfde waarde $a$."
+    },
+    {
+      "term": "Recht evenredig",
+      "definition": "Een lineair verband met startwaarde nul, $y=ax$: verdubbelt de invoer, dan verdubbelt de uitvoer."
+    },
+    {
+      "term": "Constante functie",
+      "definition": "Een functie met helling nul, $f(x)=b$: de uitvoer hangt niet van de invoer af."
+    },
+    {
+      "term": "Snijpunt",
+      "definition": "Het punt waar twee grafieken elkaar kruisen; je vindt het door de twee regels gelijk te stellen."
+    },
+    {
+      "term": "Evenwijdige lijnen",
+      "definition": "Lijnen met dezelfde helling en verschillende startwaarde; ze snijden elkaar nooit."
     }
   ],
   "formulas": [
     {
       "name": "Lineaire functie",
       "latex": "f(x)=ax+b",
-      "usage": "a is verandering per invoereenheid, b de uitvoer bij nul."
+      "usage": "a is verandering per invoereenheid, b de uitvoer bij nul.",
+      "origin": "Het idee van een verband als figuur gaat terug op Oresme (ca. 1350); de functienotatie $f(x)$ op Euler (18e eeuw)."
     },
     {
       "name": "Helling uit twee punten",
       "latex": "a=\\frac{y_2-y_1}{x_2-x_1}",
-      "usage": "De x-waarden moeten verschillend zijn."
+      "usage": "De x-waarden moeten verschillend zijn.",
+      "origin": "Voortgekomen uit de coördinatenmeetkunde van Fermat en Descartes (17e eeuw)."
     },
     {
       "name": "Startwaarde",
       "latex": "b=y_1-ax_1",
-      "usage": "Gebruik één van de bekende punten nadat a is bepaald."
+      "usage": "Gebruik één van de bekende punten nadat a is bepaald.",
+      "origin": "Volgt uit het invullen van een bekend punt in de vergelijking van de lijn."
     },
     {
       "name": "Nulpunt",
       "latex": "x=-\\frac{b}{a}\\quad(a\\ne0)",
-      "usage": "Los ax+b=0 op."
+      "usage": "Los ax+b=0 op.",
+      "origin": "Het oplossen van $ax+b=0$ is de oudste vorm van algebra; zie de eerdere modules over vergelijkingen."
     },
     {
       "name": "Inverse",
       "latex": "f^{-1}(y)=\\frac{y-b}{a}\\quad(a\\ne0)",
-      "usage": "Het domein van de inverse volgt uit het bereik van de oorspronkelijke functie."
+      "usage": "Het domein van de inverse volgt uit het bereik van de oorspronkelijke functie.",
+      "origin": "De inverse functie als begrip ontstond bij Leibniz en Euler in de uitwerking van het functiebegrip."
+    },
+    {
+      "name": "Evenwijdige lijn door een punt",
+      "latex": "y=ax+b,\\quad b=y_1-ax_1",
+      "usage": "Neem de helling van de gegeven lijn over en bepaal $b$ uit het punt $(x_1;y_1)$.",
+      "origin": "Rechte lijnen in het coördinatenstelsel; algemeen gebruikt sinds Descartes en Fermat (ca. 1636)."
+    },
+    {
+      "name": "Snijpunt van twee lijnen",
+      "latex": "a_1x+b_1=a_2x+b_2\\;\\Rightarrow\\;x=\\frac{b_2-b_1}{a_1-a_2}",
+      "usage": "Stel de regels gelijk; vul de gevonden $x$ in één van de regels in voor $y$. Vereist $a_1\\ne a_2$.",
+      "origin": ""
     }
   ],
   "lessons": [
@@ -138,9 +177,14 @@
     }
   ],
   "timeline": [
-    "descartes-geometrie"
+    "oresme-grafieken",
+    "descartes-geometrie",
+    "newton-leibniz",
+    "euler"
   ],
   "mathematicians": [
-    "descartes"
+    "descartes",
+    "leibniz",
+    "euler"
   ]
 }
