@@ -16,7 +16,13 @@
         "bayes",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je hebt 5% als 5 gelezen. Vermenigvuldig 0,05 met 1000."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -34,7 +40,17 @@
         "bayes",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 90,
+          "message": "Je nam 90% van 100. De 90% geldt alleen binnen de 50 defecte onderdelen."
+        },
+        {
+          "answer": 50,
+          "message": "Dat is het aantal defecte onderdelen. Hoeveel daarvan geeft alarm?"
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -52,7 +68,17 @@
         "bayes",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 90,
+          "message": "Je rekende 10% van 900. Het aantal goede onderdelen is 950."
+        },
+        {
+          "answer": 5,
+          "message": "Je nam 10% van 50; valse alarmen komen van de goede onderdelen."
+        }
+      ]
     },
     {
       "type": "fraction",
@@ -70,7 +96,17 @@
         "bayes",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": "45/95",
+          "message": "Je deelde door de valse alarmen alleen. De noemer is alle alarmen: 45+95."
+        },
+        {
+          "answer": "9/10",
+          "message": "Dat is de detectiekans, niet de kans op een defect gegeven alarm."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -89,7 +125,17 @@
         "bayes",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.9,
+          "message": "Dat is de detectiekans bij defecte onderdelen. Tel ook de valse alarmen onder goede onderdelen mee."
+        },
+        {
+          "answer": 0.045,
+          "message": "Je telde alleen de route via defecte onderdelen."
+        }
+      ]
     },
     {
       "type": "text",
@@ -128,7 +174,17 @@
         "bayes",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.16,
+          "message": "Dat is P(H en D). Tel ook de route via niet H op."
+        },
+        {
+          "answer": 0.8,
+          "message": "Dat is P(D|H); de totale kans telt beide routes."
+        }
+      ]
     },
     {
       "type": "fraction",
@@ -146,7 +202,17 @@
         "bayes",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": "4/5",
+          "message": "Je nam P(D|H)=0,8 als posterior. Deel P(D|H)P(H) door P(D)."
+        },
+        {
+          "answer": "1/5",
+          "message": "Controleer de teller: P(D|H)·P(H)=0,16."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -165,7 +231,17 @@
         "bayes",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.2,
+          "message": "Dat is de kans zelf. Odds zijn kans gedeeld door het complement."
+        },
+        {
+          "answer": 4,
+          "message": "Je draaide de breuk om; odds is p/(1−p), niet (1−p)/p."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -183,7 +259,17 @@
         "bayes",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.125,
+          "message": "Je draaide de ratio om; de kans onder H staat in de teller."
+        },
+        {
+          "answer": 0.7,
+          "message": "Je trok de kansen af in plaats van te delen."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -201,7 +287,17 @@
         "bayes",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Je nam alleen de LR. Vermenigvuldig ook met de prior odds."
+        },
+        {
+          "answer": 0.25,
+          "message": "Dat zijn de prior odds. Vermenigvuldig met de LR."
+        }
+      ]
     },
     {
       "type": "fraction",
@@ -219,7 +315,17 @@
         "bayes",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": "2",
+          "message": "Dat zijn de odds, niet de kans. Deel door 1 plus odds."
+        },
+        {
+          "answer": "1/3",
+          "message": "Je draaide kans en complement om."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -239,7 +345,17 @@
         "bayes",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.75,
+          "message": "Je gebruikte slechts één update (odds 3). Werk de odds tweemaal bij."
+        },
+        {
+          "answer": 0.6,
+          "message": "Je telde LR's op in plaats van te vermenigvuldigen."
+        }
+      ]
     },
     {
       "type": "text",
@@ -277,7 +393,17 @@
         "bayes",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je vergat de prior-parameter 1 erbij te tellen."
+        },
+        {
+          "answer": 11,
+          "message": "Je telde alle proeven (n) in plaats van alleen de successen."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -295,7 +421,17 @@
         "bayes",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Je vergat de prior-parameter 1 erbij te tellen."
+        },
+        {
+          "answer": 11,
+          "message": "Dat zijn alle proeven; tel alleen de mislukkingen erbij."
+        }
+      ]
     },
     {
       "type": "fraction",
@@ -313,7 +449,17 @@
         "bayes",
         "probability"
       ],
-      "mode": "independent"
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": "8/4",
+          "message": "Dat is a/b. Het gemiddelde is a/(a+b)."
+        },
+        {
+          "answer": "7/10",
+          "message": "Dat is de ruwe proportie; de prior telt mee."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -333,7 +479,17 @@
         "bayes",
         "probability"
       ],
-      "mode": "independent"
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": 0.7,
+          "message": "Dat is de ruwe proportie. De prior trekt het gemiddelde naar 0,5."
+        },
+        {
+          "answer": 0.6667,
+          "message": "Dat geldt bij Beta(1;1), niet bij Beta(2;2)."
+        }
+      ]
     },
     {
       "type": "text",
@@ -374,7 +530,711 @@
         "bayes",
         "probability"
       ],
-      "mode": "challenge"
+      "mode": "challenge",
+      "feedback": [
+        {
+          "answer": 0.8,
+          "message": "Je vergat de productieaandelen of rekende de verkeerde route."
+        },
+        {
+          "answer": 0.4,
+          "message": "Dat is het productieaandeel van B; weeg ook de defectkans."
+        }
+      ]
+    },
+    {
+      "id": "41-021",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "In een groep van 1000 mensen zijn 200 rokers, van wie er 50 hoesten; verder hoesten 80 van de 800 niet-rokers. Bereken de kans dat een roker hoest, $P(\\text{hoest}\\mid\\text{roker})$.",
+      "answer": 0.25,
+      "hints": [
+        "Kijk alleen naar de rij van de rokers."
+      ],
+      "solution": [
+        "Beperk je tot de rokers: $50/200=0{,}25$."
+      ],
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 0.05,
+          "message": "Je deelde 50 door 1000. De referentiegroep is de rokers."
+        },
+        {
+          "answer": 0.3846,
+          "message": "Dat is $P(\\text{roker}\\mid\\text{hoest})$, de omgekeerde voorwaarde."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-022",
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Dezelfde groep: bereken $P(\\text{roker}\\mid\\text{hoest})$ als breuk.",
+      "answer": "5/13",
+      "hints": [
+        "Beperk je nu tot de kolom van de hoesters."
+      ],
+      "solution": [
+        "Er zijn $50+80=130$ hoesters, van wie 50 roker: $50/130=5/13$."
+      ],
+      "feedback": [
+        {
+          "answer": "1/4",
+          "message": "Dat is $P(\\text{hoest}\\mid\\text{roker})$: de omgekeerde voorwaarde."
+        },
+        {
+          "answer": "5/20",
+          "message": "Dat is $P(\\text{hoest}\\mid\\text{roker})$: de omgekeerde voorwaarde."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-023",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een DNA-profiel komt bij 1 op de 100 000 mensen voor. In een stad met 1 000 000 inwoners (de dader meegeteld) zijn de overige 999 999 onschuldig. Hoeveel onschuldigen verwacht je met een passend profiel? Rond af op een geheel getal.",
+      "answer": 10,
+      "hints": [
+        "Neem 1 op de 100 000 van het aantal onschuldigen."
+      ],
+      "solution": [
+        "$999\\,999/100\\,000\\approx10$."
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Dat is 1 op de 100 000 van 100 000; er zijn tien keer zoveel mensen."
+        },
+        {
+          "answer": 11,
+          "message": "Dat zijn alle passende mensen inclusief de dader."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-024",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zie de vorige opgave: er zijn ongeveer 10 passende onschuldigen en de dader past ook. Hoe groot is de kans dat een willekeurige passende persoon de dader is (zonder ander bewijs)? Geef een breuk.",
+      "answer": "1/11",
+      "hints": [
+        "Tel alle passende mensen, ook de dader."
+      ],
+      "solution": [
+        "De dader is één van $10+1=11$ passende mensen."
+      ],
+      "feedback": [
+        {
+          "answer": "1/100000",
+          "message": "Dat is de kans op een match bij onschuld, niet de kans op schuld gegeven de match."
+        },
+        {
+          "answer": "1/10",
+          "message": "De dader zit ook in de groep van passende mensen; tel hem mee."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-025",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een test heeft sensitiviteit 90% en specificiteit 91%; de prevalentie is 1%. Hoeveel van de 9900 gezonde mensen in een groep van 10 000 testen ten onrechte positief?",
+      "answer": 891,
+      "hints": [
+        "De kans op een vals alarm is 1 min de specificiteit."
+      ],
+      "solution": [
+        "Vals-positief: $0{,}09\\cdot9900=891$."
+      ],
+      "feedback": [
+        {
+          "answer": 8910,
+          "message": "Je nam 90% van 9900."
+        },
+        {
+          "answer": 9009,
+          "message": "Dat zijn de terecht negatieve gezonden."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-026",
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Zelfde test en prevalentie. Geef de positief voorspellende waarde, $P(\\text{ziek}\\mid+)$, als breuk.",
+      "answer": "10/109",
+      "hints": [
+        "Teken de kruistabel voor 10 000 mensen."
+      ],
+      "solution": [
+        "Positief: $90+891=981$, waarvan 90 ziek.",
+        "$90/981=10/109$."
+      ],
+      "feedback": [
+        {
+          "answer": "9/10",
+          "message": "Dat is de sensitiviteit, niet de PPV."
+        },
+        {
+          "answer": "90/891",
+          "message": "Je deelde door de vals-positieven alleen; de noemer is alle positieven."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-027",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken de negatief voorspellende waarde $P(\\text{gezond}\\mid-)$ van dezelfde test op vier decimalen.",
+      "answer": 0.9989,
+      "hints": [
+        "Kijk in de kolom van de negatieve uitslagen."
+      ],
+      "solution": [
+        "Negatief: $10+9009=9019$ mensen, waarvan 9009 gezond.",
+        "$9009/9019\\approx0{,}9989$."
+      ],
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.91,
+          "message": "Dat is de specificiteit, niet de NPV."
+        },
+        {
+          "answer": 0.9091,
+          "message": "Controleer de noemer: die is het aantal negatieve uitslagen."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-028",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Dezelfde test (sensitiviteit 90%, specificiteit 91%) wordt gebruikt in een groep met prevalentie 10%. Bereken de PPV op vier decimalen.",
+      "answer": 0.5263,
+      "hints": [
+        "Begin opnieuw met 1000 zieken en 9000 gezonden."
+      ],
+      "solution": [
+        "10 000 mensen: 1000 zieken, 9000 gezonden.",
+        "Positief: $900+810=1710$, waarvan 900 ziek: $900/1710=10/19$."
+      ],
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.0917,
+          "message": "Dat is de PPV bij prevalentie 1%."
+        },
+        {
+          "answer": 0.9,
+          "message": "Dat is de sensitiviteit."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-029",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een test heeft sensitiviteit 99% en specificiteit 99%; de prevalentie is 0,1%. Bereken de PPV op vier decimalen.",
+      "answer": 0.0902,
+      "hints": [
+        "Gebruik 100 000 mensen, dan krijg je hele aantallen."
+      ],
+      "solution": [
+        "100 000 mensen: 100 zieken, 99 900 gezonden.",
+        "Positief: $99+999=1098$; PPV $=99/1098\\approx0{,}0902$."
+      ],
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.99,
+          "message": "Dat is de sensitiviteit (en de specificiteit)."
+        },
+        {
+          "answer": 0.5,
+          "message": "Dat zou het geval zijn bij prevalentie 1%."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-030",
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Voor een ziekte met prevalentie 1% zijn de prior odds? Geef als breuk.",
+      "answer": "1/99",
+      "hints": [
+        "Odds zijn kans gedeeld door het complement."
+      ],
+      "solution": [
+        "$0{,}01/0{,}99=1/99$."
+      ],
+      "feedback": [
+        {
+          "answer": "1/100",
+          "message": "Dat is de kans, niet de odds."
+        },
+        {
+          "answer": "99",
+          "message": "Je draaide de odds om."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-031",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Sensitiviteit 90% en specificiteit 91%. Geef de likelihoodratio van een positieve uitslag, $0{,}90/(1-0{,}91)$.",
+      "answer": 10,
+      "hints": [
+        "Het vals-alarm-percentage is 1 min de specificiteit."
+      ],
+      "solution": [
+        "$0{,}90/0{,}09=10$."
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Gebruik het vals-alarm-percentage 9% als noemer."
+        },
+        {
+          "answer": 0.99,
+          "message": "Je trok de percentages af in plaats van te delen."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-032",
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Met prior odds 1/99 en LR=10: geef de posterior odds als breuk.",
+      "answer": "10/99",
+      "hints": [
+        "Vermenigvuldig de prior odds met de likelihoodratio."
+      ],
+      "solution": [
+        "$\\frac1{99}\\cdot10=\\frac{10}{99}$."
+      ],
+      "feedback": [
+        {
+          "answer": "10/109",
+          "message": "Dat is de kans, niet de odds."
+        },
+        {
+          "answer": "1/990",
+          "message": "Je deelde door de LR in plaats van te vermenigvuldigen."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-033",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een tweede, conditioneel onafhankelijke test van hetzelfde type (LR=10) is ook positief. Geef de nieuwe posterior odds als breuk, startend bij odds $10/99$.",
+      "answer": "100/99",
+      "hints": [
+        "Werk de posterior van de eerste test bij als prior."
+      ],
+      "solution": [
+        "$\\frac{10}{99}\\cdot10=\\frac{100}{99}$."
+      ],
+      "feedback": [
+        {
+          "answer": "10/99",
+          "message": "Je hebt alleen de eerste test verwerkt."
+        },
+        {
+          "answer": "1/99",
+          "message": "Je gebruikte de oorspronkelijke prior opnieuw in plaats van de posterior."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-034",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken uit odds $100/99$ de posterior kans op vier decimalen.",
+      "answer": 0.5025,
+      "hints": [
+        "Gebruik $p=o/(1+o)$."
+      ],
+      "solution": [
+        "$p=\\frac{100/99}{1+100/99}=\\frac{100}{199}\\approx0{,}5025$."
+      ],
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 1.0101,
+          "message": "Dat zijn de odds als decimaal getal; reken terug naar kans."
+        },
+        {
+          "answer": 0.0917,
+          "message": "Dat is de kans na slechts één positieve test."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-035",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Eerst een positieve test, dan een negatieve (conditioneel onafhankelijk). Sensitiviteit 90%, specificiteit 91%, prevalentie 1%. Bereken $P(\\text{ziek})$ na beide uitslagen, op vier decimalen.",
+      "answer": 0.011,
+      "hints": [
+        "Een negatieve uitslag heeft een LR onder 1: $P(-\\mid\\text{ziek})/P(-\\mid\\text{gezond})$."
+      ],
+      "solution": [
+        "$LR_+=10$, $LR_-=0{,}10/0{,}91=10/91$.",
+        "Odds: $\\frac1{99}\\cdot10\\cdot\\frac{10}{91}=\\frac{100}{9009}$.",
+        "$p=\\frac{100}{9109}\\approx0{,}0110$."
+      ],
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.0917,
+          "message": "Je hebt de negatieve uitslag genegeerd."
+        },
+        {
+          "answer": 0.5025,
+          "message": "Dat is de uitkomst bij twee positieve tests."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-036",
+      "type": "fraction",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Met Laplace's regel van opvolging (Beta(1;1)-prior): de zon is vijf dagen op rij opgekomen. Geef de kans op een opkomst de zesde dag als breuk.",
+      "answer": "6/7",
+      "hints": [
+        "De regel luidt $(k+1)/(n+2)$ met $k=n=5$."
+      ],
+      "solution": [
+        "$(5+1)/(5+2)=6/7$."
+      ],
+      "feedback": [
+        {
+          "answer": "1",
+          "message": "Dat is de ruwe proportie; de regel geeft nooit precies 1."
+        },
+        {
+          "answer": "5/6",
+          "message": "Je vergat de aanvulling +1 en +2."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-037",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Prior Beta(2;2), 100 proeven met 70 successen. Geef het posteriorgemiddelde op vier decimalen.",
+      "answer": 0.6923,
+      "hints": [
+        "Tel 70 bij 2 en 30 bij 2."
+      ],
+      "solution": [
+        "Posterior Beta(72;32).",
+        "$72/104\\approx0{,}6923$."
+      ],
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.7,
+          "message": "Dat is de ruwe proportie."
+        },
+        {
+          "answer": 0.6429,
+          "message": "Dat is de uitkomst bij slechts 10 proeven (7 successen)."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-038",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een sterke prior Beta(20;20) en data: 7 successen uit 10. Geef het posteriorgemiddelde op twee decimalen.",
+      "answer": 0.54,
+      "hints": [
+        "Tel 7 bij 20 en 3 bij 20."
+      ],
+      "solution": [
+        "Posterior Beta(27;23).",
+        "$27/50=0{,}54$."
+      ],
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 0.7,
+          "message": "Een sterke prior trekt de schatting dichtbij 0,5."
+        },
+        {
+          "answer": 0.6667,
+          "message": "Dat geldt voor een vlakke prior."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-039",
+      "type": "fraction",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bij prior Beta(2;2) en $n=10$ is het posteriorgemiddelde een gewogen gemiddelde van prior-gemiddelde en steekproefproportie. Welk gewicht heeft de data, $n/(a+b+n)$? Geef een breuk.",
+      "answer": "5/7",
+      "hints": [
+        "Het totale gewicht is $a+b+n$."
+      ],
+      "solution": [
+        "$10/(2+2+10)=10/14=5/7$."
+      ],
+      "feedback": [
+        {
+          "answer": "2/7",
+          "message": "Dat is het gewicht van de prior."
+        },
+        {
+          "answer": "1",
+          "message": "Dat zou zonder prior zijn."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-040",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een filter: $P(\\text{spam})=0{,}4$, \"gratis\" komt voor in 50% van de spam en 5% van de gewone berichten. Bereken $P(\\text{spam}\\mid\\text{gratis})$ op vier decimalen.",
+      "answer": 0.8696,
+      "hints": [
+        "Gebruik de prior 0,4 en de beide likelihoods."
+      ],
+      "solution": [
+        "$\\frac{0{,}5\\cdot0{,}4}{0{,}5\\cdot0{,}4+0{,}05\\cdot0{,}6}=\\frac{20}{23}\\approx0{,}8696$."
+      ],
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.5,
+          "message": "Dat is de likelihood bij spam, niet de posterior."
+        },
+        {
+          "answer": 0.9091,
+          "message": "Je vergat de prior (40% spam) en rekende 0,5/(0,5+0,05)."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-041",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een tweede woord, \"winnen\", komt voor in 30% van de spam en 3% van de gewone berichten (conditioneel onafhankelijk van \"gratis\"). Een bericht bevat beide woorden; prior $P(\\text{spam})=0{,}4$. Geef de posterior op vier decimalen.",
+      "answer": 0.9852,
+      "hints": [
+        "Vermenigvuldig de prior odds met beide likelihoodratio's."
+      ],
+      "solution": [
+        "Prior odds $2/3$; $LR_1=10$, $LR_2=10$.",
+        "Posterior odds $200/3$; $p=200/203\\approx0{,}9852$."
+      ],
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.8696,
+          "message": "Dat is de posterior na alleen het eerste woord."
+        },
+        {
+          "answer": 0.9091,
+          "message": "Je gebruikte de prior odds 1 en één LR=10."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-042",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een waarneming heeft likelihoodratio 100. Geef haar bewijskracht in decibans, $10\\log_{10}(LR)$.",
+      "answer": 20,
+      "hints": [
+        "$\\log_{10}100=2$."
+      ],
+      "solution": [
+        "$10\\log_{10}100=10\\cdot2=20$."
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Dat is de bewijskracht in bans, niet decibans."
+        },
+        {
+          "answer": 100,
+          "message": "Dat is de LR zelf."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-043",
+      "type": "fraction",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Machine A maakt 50% van de producten met 2% defecten, B 30% met 3%, C 20% met 5%. Een product is defect. Geef $P(C\\mid\\text{defect})$ als breuk.",
+      "answer": "10/29",
+      "hints": [
+        "Bereken per machine de route naar defect en normaliseer."
+      ],
+      "solution": [
+        "A: $0{,}5\\cdot0{,}02=0{,}010$; B: $0{,}3\\cdot0{,}03=0{,}009$; C: $0{,}2\\cdot0{,}05=0{,}010$.",
+        "$0{,}010/0{,}029=10/29$."
+      ],
+      "feedback": [
+        {
+          "answer": "1/5",
+          "message": "Dat is het productieaandeel van C; weeg ook de defectkans."
+        },
+        {
+          "answer": "1/20",
+          "message": "Dat is de defectkans van C, niet de posterior."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
+    },
+    {
+      "id": "41-044",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Prevalentie 1%, sensitiviteit 90%. Hoe hoog moet de specificiteit minstens zijn om een PPV van 0,5 te halen? Geef op vier decimalen.",
+      "answer": 0.9909,
+      "hints": [
+        "Bij PPV 0,5 zijn er evenveel vals- als echt-positieven."
+      ],
+      "solution": [
+        "PPV 0,5 betekent: vals-positieven = echt-positieven = 90 per 10 000.",
+        "Vals-positief aandeel: $90/9900=1/110$, dus specificiteit $1-1/110=109/110\\approx0{,}9909$."
+      ],
+      "tolerance": 0.0001,
+      "feedback": [
+        {
+          "answer": 0.99,
+          "message": "Bij specificiteit 0,99 zijn er 99 vals-positieven tegenover 90 echte; PPV < 0,5."
+        },
+        {
+          "answer": 0.91,
+          "message": "Dat is de specificiteit uit de eerdere opgaven (PPV 0,09)."
+        }
+      ],
+      "topics": [
+        "bayes",
+        "probability"
+      ]
     }
   ]
 }

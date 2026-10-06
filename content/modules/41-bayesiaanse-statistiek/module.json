@@ -18,11 +18,12 @@
   "core_question": "Hoe verandert je onzekerheid wanneer je nieuwe informatie krijgt?",
   "summary": "Voorwaardelijke kansen, Bayes’ regel, natuurlijke frequenties, odds en likelihoodratio’s, opeenvolgend bijwerken en een eerste Beta-binomiaal model.",
   "learning_goals": [
-    "Je onderscheidt P(data|hypothese) van P(hypothese|data).",
-    "Je berekent een posterior met de regel van Bayes en de totale-kansregel.",
-    "Je rekent met natuurlijke frequenties en herkent het basisfrequentieprobleem.",
-    "Je werkt odds bij met likelihoodratio’s en benoemt de voorwaarden bij herhaalde informatie.",
-    "Je interpreteert een posterior en credible interval binnen het gekozen model en onderzoekt de gevoeligheid voor een prior."
+    "Je onderscheidt P(data|hypothese) van P(hypothese|data) en herkent de prosecutor's fallacy.",
+    "Je leidt de regel van Bayes af en berekent een posterior met de totale-kansregel, een kruistabel of een kansboom.",
+    "Je berekent sensitiviteit, specificiteit, positief en negatief voorspellende waarde en herkent base-rate neglect.",
+    "Je werkt odds bij met likelihoodratio's, ook opeenvolgend, en benoemt de voorwaarden van conditionele onafhankelijkheid.",
+    "Je werkt een Beta-prior bij met binomiale data en onderzoekt de invloed van de prior bij weinig en veel gegevens.",
+    "Je interpreteert een posterior en een credible interval en vergelijkt Bayesiaans en frequentistisch denken nuchter."
   ],
   "glossary": [
     {
@@ -48,28 +49,50 @@
     {
       "term": "Credible interval",
       "definition": "Een interval met een gekozen hoeveelheid posteriorkans, afhankelijk van prior, likelihood en model."
+    },
+    {
+      "term": "Sensitiviteit",
+      "definition": "De kans op een positieve uitslag bij iemand die de aandoening heeft."
+    },
+    {
+      "term": "Specificiteit",
+      "definition": "De kans op een negatieve uitslag bij iemand die de aandoening niet heeft."
+    },
+    {
+      "term": "Likelihoodratio",
+      "definition": "De verhouding P(D|H)/P(D|niet H); de factor waarmee de odds worden bijgewerkt."
     }
   ],
   "formulas": [
     {
       "name": "Bayes voor twee categorieën",
       "latex": "P(H\\mid D)=\\frac{P(D\\mid H)P(H)}{P(D\\mid H)P(H)+P(D\\mid\\neg H)P(\\neg H)}",
-      "usage": "Wanneer P(D)>0; de noemer telt alle manieren om D te krijgen."
+      "usage": "Wanneer P(D)>0; de noemer telt alle manieren om D te krijgen.",
+      "origin": "Thomas Bayes (essay postuum gepubliceerd in 1763); Laplace gaf de algemene vorm."
+    },
+    {
+      "name": "Positief voorspellende waarde",
+      "latex": "\\text{PPV}=\\frac{s\\,\\pi}{s\\,\\pi+(1-c)(1-\\pi)}",
+      "usage": "Met sensitiviteit s, specificiteit c en prevalentie π; laat zien waarom de basisfrequentie meetelt.",
+      "origin": "Toepassing van Bayes' regel in de medische statistiek."
     },
     {
       "name": "Odds bijwerken",
       "latex": "\\text{posterior odds}=\\text{prior odds}\\times\\frac{P(D\\mid H)}{P(D\\mid\\neg H)}",
-      "usage": "De breuk is de likelihoodratio van de waargenomen informatie."
+      "usage": "De breuk is de likelihoodratio van de waargenomen informatie.",
+      "origin": "Bewijskracht in bans en decibans werd gebruikt bij het breken van Enigma in Bletchley Park."
     },
     {
       "name": "Beta-binomiale update",
       "latex": "p\\sim\\operatorname{Beta}(a,b)\\ \\Longrightarrow\\ p\\mid k,n\\sim\\operatorname{Beta}(a+k,b+n-k)",
-      "usage": "Voor conditioneel onafhankelijke Bernoulli-proeven met dezelfde p."
+      "usage": "Voor conditioneel onafhankelijke Bernoulli-proeven met dezelfde p.",
+      "origin": "Bayes en Laplace; het geval a=b=1 geeft Laplace's regel van opvolging."
     },
     {
       "name": "Posteriorgemiddelde",
       "latex": "E(p\\mid k,n)=\\frac{a+k}{a+b+n}",
-      "usage": "Een puntsamenvatting van de posterior, geen volledige onzekerheidsbeschrijving."
+      "usage": "Een puntsamenvatting van de posterior, geen volledige onzekerheidsbeschrijving.",
+      "origin": "Gewogen gemiddelde van prior-gemiddelde en steekproefproportie."
     }
   ],
   "lessons": [
@@ -86,8 +109,14 @@
       "kind": "theory"
     },
     {
+      "slug": "medische-test",
+      "title": "De medische test: sensitiviteit en voorspellende waarde",
+      "file": "02b-medische-test.md",
+      "kind": "theory"
+    },
+    {
       "slug": "theorie-b",
-      "title": "Basisfrequenties, odds en nieuw bewijs",
+      "title": "Odds, likelihoodratio en opeenvolgend bijwerken",
       "file": "03-theorie-b.md",
       "kind": "theory"
     },
@@ -99,7 +128,7 @@
     },
     {
       "slug": "historisch-intermezzo",
-      "title": "Historisch intermezzo",
+      "title": "Bayes, Laplace en de lange weg naar acceptatie",
       "file": "04-historisch-intermezzo.md",
       "kind": "history"
     },
