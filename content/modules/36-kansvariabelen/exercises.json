@@ -16,7 +16,17 @@
         "random-variables",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Je telt de uitkomsten (KK, KV, VK, VV). X is het aantal koppen: een getal per uitkomst."
+        },
+        {
+          "answer": 3,
+          "message": "Je telt het aantal waarden. De grootste waarde is het hoogste aantal koppen."
+        }
+      ]
     },
     {
       "type": "fraction",
@@ -34,7 +44,17 @@
         "random-variables",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": "1/3",
+          "message": "Je geeft elke waarde dezelfde kans. De waarde 1 ontstaat op twee van de vier uitkomsten."
+        },
+        {
+          "answer": "1/4",
+          "message": "Dat is de kans op KV alleen. Ook VK geeft X = 1."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -53,7 +73,17 @@
         "random-variables",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.7,
+          "message": "Je hebt 0,2 + 0,5 opgeteld. De som van alle drie de kansen moet 1 zijn: trek die 0,7 van 1 af."
+        },
+        {
+          "answer": 0.8,
+          "message": "Dat is $1-0{,}2$. Trek ook $P(X=1)$ af."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -72,7 +102,17 @@
         "random-variables",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.5,
+          "message": "Je hebt X = 2 vergeten. $P(X\\ge1)$ omvat de waarden 1 en 2."
+        },
+        {
+          "answer": 0.3,
+          "message": "Dat is alleen $P(X=2)$. Tel ook $P(X=1)$ erbij."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -91,7 +131,17 @@
         "random-variables",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 1.7,
+          "message": "Dat is $E(X^2)$: je hebt de waarden gekwadrateerd. Hier vraagt men $E(X)$."
+        },
+        {
+          "answer": 1,
+          "message": "Je hebt de waarden 0, 1 en 2 ongewogen gemiddeld. Weeg elke waarde met haar kans."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -110,7 +160,17 @@
         "random-variables",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 1.21,
+          "message": "Dat is $[E(X)]^2$, het kwadraat van het gemiddelde. Voor $E(X^2)$ kwadrateer je eerst de waarden en weeg je daarna met de kansen."
+        },
+        {
+          "answer": 1.1,
+          "message": "Dat is $E(X)$, zonder te kwadrateren."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -129,7 +189,17 @@
         "random-variables",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.6,
+          "message": "Je trok $E(X)=1{,}1$ af in plaats van $E(X)^2=1{,}21$."
+        },
+        {
+          "answer": 1.21,
+          "message": "Dat is $[E(X)]^2$. De variantie is $E(X^2)$ min dat getal."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -148,7 +218,17 @@
         "random-variables",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.49,
+          "message": "Dat is de variantie zelf. De standaardafwijking is de wortel daarvan."
+        },
+        {
+          "answer": 0.245,
+          "message": "Je hebt de variantie door 2 gedeeld. Neem de vierkantswortel."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -166,7 +246,17 @@
         "random-variables",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Dat is de uitbetaling als je wint. Weeg met de kans 0,1."
+        },
+        {
+          "answer": 0.1,
+          "message": "Dat is de kans zelf. Vermenigvuldig die met de uitbetaling."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -184,7 +274,17 @@
         "random-variables",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 17,
+          "message": "Dat is de nettowinst als je wint. Gebruik de verwachte uitbetaling 2 en trek 3 af."
+        },
+        {
+          "answer": 5,
+          "message": "Je hebt de kosten opgeteld. Nettowinst is uitbetaling min kosten."
+        }
+      ]
     },
     {
       "type": "text",
@@ -222,7 +322,17 @@
         "random-variables",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je telt 3+4 zonder de verwachting met 3 te vermenigvuldigen. De transformatie geldt voor de verwachting zelf."
+        },
+        {
+          "answer": 14,
+          "message": "Je hebt de 4 vermenigvuldigd. Eerst $3\\cdot2$, dan +4."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -240,7 +350,17 @@
         "random-variables",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Je hebt de schaalfactor niet gekwadrateerd: $\\operatorname{Var}(aX)=a^2\\operatorname{Var}(X)$."
+        },
+        {
+          "answer": 49,
+          "message": "Je hebt de verschuiving 4 meegerekend. Verschuiven verandert de spreiding niet."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -259,7 +379,17 @@
         "random-variables",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Dat is de breedte van het interval. De hoogte is 1 gedeeld door die breedte."
+        },
+        {
+          "answer": 0.5,
+          "message": "Je deelt door 2. De breedte van [0; 4] is 4."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -278,7 +408,17 @@
         "random-variables",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.25,
+          "message": "Dat is de hoogte van de dichtheid. De kans is breedte maal hoogte."
+        },
+        {
+          "answer": 2,
+          "message": "Dat is alleen de breedte. Vermenigvuldig met de hoogte 0,25."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -296,7 +436,17 @@
         "random-variables",
         "probability"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.25,
+          "message": "Dat is de hoogte van de dichtheid, geen kans. Een punt heeft breedte nul."
+        },
+        {
+          "answer": 0.5,
+          "message": "Je neemt een interval; hier gaat het om één punt."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -314,7 +464,17 @@
         "random-variables",
         "probability"
       ],
-      "mode": "independent"
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je trekt de varianties van elkaar af. Bij onafhankelijkheid tel je ze op."
+        },
+        {
+          "answer": 25,
+          "message": "Je hebt de standaardafwijkingen (2 en 3) opgeteld en gekwadrateerd. Tel de varianties zelf op."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -332,7 +492,17 @@
         "random-variables",
         "probability"
       ],
-      "mode": "independent"
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": 35,
+          "message": "Je hebt de verwachtingen vermenigvuldigd. Voor de som tel je ze op."
+        },
+        {
+          "answer": 2,
+          "message": "Je hebt het verschil genomen. De somverwachting is de som."
+        }
+      ]
     },
     {
       "type": "text",
@@ -371,7 +541,736 @@
         "random-variables",
         "probability"
       ],
-      "mode": "challenge"
+      "mode": "challenge",
+      "feedback": [
+        {
+          "answer": 0.9,
+          "message": "Dat is $1-p$. Los $9p-(1-p)=0$ op."
+        },
+        {
+          "answer": 1,
+          "message": "Dan is de kans 1; de winst is dan 9, niet 0."
+        }
+      ]
+    },
+    {
+      "type": "fraction",
+      "difficulty": 1,
+      "question": "Je gooit één eerlijke dobbelsteen; $X$ is het aantal ogen. Geef $P(X\\ge5)$ als breuk.",
+      "answer": "1/3",
+      "solution": [
+        "De waarden 5 en 6 voldoen: $P=\\tfrac16+\\tfrac16=\\tfrac26=\\tfrac13$."
+      ],
+      "hints": [
+        "Welke waarden voldoen?"
+      ],
+      "id": "36-021",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": "1/6",
+          "message": "Dat is de kans op één waarde. Zowel 5 als 6 voldoen."
+        },
+        {
+          "answer": "1/2",
+          "message": "Je telt ook de 4 mee; $X\\ge5$ betekent 5 of 6."
+        }
+      ],
+      "require_simplified": true
+    },
+    {
+      "type": "fraction",
+      "difficulty": 2,
+      "question": "Je gooit twee eerlijke dobbelstenen; $S$ is de som. Geef $P(S=7)$ als breuk.",
+      "answer": "1/6",
+      "solution": [
+        "De paren (1,6), (2,5), (3,4), (4,3), (5,2), (6,1): zes stuks.",
+        "$P(S=7)=6/36=1/6$."
+      ],
+      "hints": [
+        "Schrijf de paren op waarvan de som 7 is.",
+        "Er zijn 36 even waarschijnlijke paren."
+      ],
+      "id": "36-022",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": "1/36",
+          "message": "Dat is de kans op één bepaald paar. De som 7 ontstaat op zes manieren."
+        },
+        {
+          "answer": "1/11",
+          "message": "Je geeft de elf mogelijke sommen dezelfde kans; ze zijn niet even waarschijnlijk."
+        }
+      ],
+      "require_simplified": true
+    },
+    {
+      "type": "fraction",
+      "difficulty": 2,
+      "question": "Je gooit drie eerlijke munten; $X$ is het aantal keer kop. Geef $P(X=2)$ als breuk.",
+      "answer": "3/8",
+      "solution": [
+        "KKV, KVK en VKK: drie van de acht even waarschijnlijke uitkomsten.",
+        "$P(X=2)=3/8$."
+      ],
+      "hints": [
+        "Schrijf op welke van de acht uitkomsten precies twee koppen hebben."
+      ],
+      "id": "36-023",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": "1/4",
+          "message": "Je deelt door het aantal waarden of telt te weinig volgordes. Er zijn drie uitkomsten met twee koppen."
+        },
+        {
+          "answer": "1/8",
+          "message": "Dat is de kans op één bepaalde volgorde zoals KKV."
+        }
+      ],
+      "require_simplified": true
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Een wachtrij heeft $P(X=1)=0{,}1$, $P(X=2)=0{,}3$, $P(X=3)=0{,}4$ en $P(X=4)=0{,}2$. Bereken $F(3)=P(X\\le3)$.",
+      "answer": 0.8,
+      "solution": [
+        "$F(3)=0{,}1+0{,}3+0{,}4=0{,}8$."
+      ],
+      "hints": [
+        "Tel de kansen op tot en met 3.",
+        "Of: $1-P(X=4)$."
+      ],
+      "id": "36-024",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.4,
+          "message": "Dat is $P(X=3)$ alleen, of $F(2)$. $F(3)$ telt alle waarden tot en met 3 mee."
+        },
+        {
+          "answer": 1,
+          "message": "Dat is $F(4)$, de totale kans. Stop bij waarde 3."
+        }
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Dezelfde wachtrij: $P(X=1)=0{,}1$, $P(X=2)=0{,}3$, $P(X=3)=0{,}4$, $P(X=4)=0{,}2$. Bereken $P(2\\le X\\le4)$.",
+      "answer": 0.9,
+      "solution": [
+        "$P(2\\le X\\le4)=1-P(X=1)=0{,}9$."
+      ],
+      "hints": [
+        "Gebruik het complement of tel direct op."
+      ],
+      "id": "36-025",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": 0.7,
+          "message": "Je liet de waarde 4 weg of telde $P(X<4)$. De grenzen horen erbij."
+        },
+        {
+          "answer": 0.5,
+          "message": "Je hebt maar twee van de drie waarden opgeteld."
+        }
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Een kansvariabele heeft $P(X=k)=c\\,k$ voor $k=1,2,3,4$. Bepaal $c$.",
+      "answer": 0.1,
+      "solution": [
+        "$c(1+2+3+4)=10c=1$, dus $c=0{,}1$."
+      ],
+      "hints": [
+        "De kansen tellen op tot 1."
+      ],
+      "id": "36-026",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.25,
+          "message": "Je deelde door het aantal waarden (4). De kansen zijn niet gelijk; ze zijn $c\\cdot k$ en tellen op tot $10c$."
+        },
+        {
+          "answer": 1,
+          "message": "Dan zouden de kansen 1, 2, 3, 4 zijn en optellen tot 10."
+        }
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Bereken de variantie van de ogen van één eerlijke dobbelsteen. Rond af op drie decimalen.",
+      "answer": 2.917,
+      "solution": [
+        "$E(X^2)=91/6\\approx15{,}167$, $[E(X)]^2=12{,}25$.",
+        "$\\operatorname{Var}(X)=35/12\\approx2{,}917$."
+      ],
+      "hints": [
+        "Bereken $E(X)=3{,}5$ en $E(X^2)=91/6$."
+      ],
+      "id": "36-027",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 3.5,
+          "message": "Dat is de verwachting, niet de variantie."
+        },
+        {
+          "answer": 15.167,
+          "message": "Dat is $E(X^2)$. Trek daar $[E(X)]^2=12{,}25$ van af."
+        },
+        {
+          "answer": 1.708,
+          "message": "Dat is de standaardafwijking. Gevraagd is de variantie."
+        }
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "$X$ heeft de waarden $-1$, $0$ en $2$ met kansen $0{,}3$, $0{,}2$ en $0{,}5$. Bereken $E(X)$.",
+      "answer": 0.7,
+      "solution": [
+        "$E(X)=-0{,}3+0+1=0{,}7$."
+      ],
+      "hints": [
+        "Weeg elke waarde met haar kans."
+      ],
+      "id": "36-028",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Je telde de waarden op ($-1+0+2$) zonder te wegen met de kansen."
+        },
+        {
+          "answer": 1.3,
+          "message": "Je hebt het minteken bij $-1$ vergeten."
+        }
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Bereken de variantie van dezelfde $X$ ($-1$, $0$, $2$ met kansen $0{,}3$, $0{,}2$, $0{,}5$).",
+      "answer": 1.81,
+      "solution": [
+        "$E(X^2)=0{,}3+0+4\\cdot0{,}5=2{,}3$.",
+        "$\\operatorname{Var}(X)=2{,}3-0{,}7^2=1{,}81$."
+      ],
+      "hints": [
+        "Bereken eerst $E(X^2)$."
+      ],
+      "id": "36-029",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": 1.6,
+          "message": "Je trok $E(X)=0{,}7$ af in plaats van $0{,}7^2=0{,}49$."
+        },
+        {
+          "answer": 2.3,
+          "message": "Dat is $E(X^2)$; trek $[E(X)]^2$ ervan af."
+        }
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Een goed doel verkoopt 1.000 loten van 1 euro met één prijs van 500 euro. Bereken de verwachte nettowinst per lot voor een koper in euro.",
+      "answer": -0.5,
+      "solution": [
+        "Verwachte uitbetaling $500/1000=0{,}50$.",
+        "Netto: $0{,}50-1=-0{,}50$ euro."
+      ],
+      "hints": [
+        "Verwachte uitbetaling min de prijs van het lot."
+      ],
+      "id": "36-030",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.5,
+          "message": "Het teken ontbreekt: de koper verliest gemiddeld geld."
+        },
+        {
+          "answer": -499,
+          "message": "Dat is de nettowinst bij het winnende lot, geen verwachting."
+        }
+      ],
+      "tolerance": 0.005,
+      "unit": "€"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Je betaalt een inzet en krijgt na één worp van een eerlijke dobbelsteen het aantal ogen in euro. Bij welke inzet (in euro) is het spel eerlijk?",
+      "answer": 3.5,
+      "solution": [
+        "$E(X)=3{,}5$, dus de inzet is € 3,50."
+      ],
+      "hints": [
+        "Eerlijk betekent verwachte winst nul."
+      ],
+      "id": "36-031",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Dat is een afgeronde waarde; de verwachting is 3,5."
+        },
+        {
+          "answer": 21,
+          "message": "Dat is de som van de waarden. Neem het gewogen gemiddelde."
+        }
+      ],
+      "tolerance": 0.005,
+      "unit": "€"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 3,
+      "question": "Een schade van 5000 euro treedt per jaar op met kans 0,02. Bereken de standaardafwijking van de schade per polis in euro.",
+      "answer": 700,
+      "solution": [
+        "$E(X^2)=500000$, $E(X)^2=10000$.",
+        "$\\operatorname{Var}=490000$, $\\sigma=700$."
+      ],
+      "hints": [
+        "$E(X)=100$ en $E(X^2)=5000^2\\cdot0{,}02$."
+      ],
+      "id": "36-032",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": 490000,
+          "message": "Dat is de variantie. Neem de wortel."
+        },
+        {
+          "answer": 100,
+          "message": "Dat is de verwachting, niet de spreiding."
+        }
+      ],
+      "unit": "€"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Een dichtheid is $f(x)=2x$ op $[0;1]$. Bereken $P(X\\le0{,}5)$.",
+      "answer": 0.25,
+      "solution": [
+        "$\\int_0^{0{,}5}2x\\,dx=0{,}5^2=0{,}25$."
+      ],
+      "hints": [
+        "De oppervlakte onder $2x$ van 0 tot 0,5 is een driehoek.",
+        "Of: $F(x)=x^2$."
+      ],
+      "id": "36-033",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Dat is de hoogte $f(0{,}5)$. Een kans is oppervlakte."
+        },
+        {
+          "answer": 0.5,
+          "message": "Je rekent met $x$ in plaats van $x^2$; de dichtheid is niet constant."
+        }
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "type": "fraction",
+      "difficulty": 3,
+      "question": "Voor $f(x)=2x$ op $[0;1]$: bereken $E(X)$ als breuk.",
+      "answer": "2/3",
+      "solution": [
+        "$\\int_0^1 2x^2\\,dx=\\tfrac23$."
+      ],
+      "hints": [
+        "$E(X)=\\int_0^1 x\\cdot 2x\\,dx$."
+      ],
+      "id": "36-034",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": "1/2",
+          "message": "Dat is het midden van het interval; de dichtheid loopt omhoog, dus het gemiddelde ligt hoger."
+        },
+        {
+          "answer": "1",
+          "message": "Je hebt de oppervlakte onder $f$ berekend; dat is altijd 1."
+        }
+      ],
+      "require_simplified": true
+    },
+    {
+      "type": "fraction",
+      "difficulty": 4,
+      "question": "Voor $f(x)=2x$ op $[0;1]$ is $E(X)=2/3$. Bereken $\\operatorname{Var}(X)$ als breuk.",
+      "answer": "1/18",
+      "solution": [
+        "$E(X^2)=\\int_0^1 2x^3\\,dx=\\tfrac12$.",
+        "$\\operatorname{Var}=\\tfrac12-\\tfrac49=\\tfrac1{18}$."
+      ],
+      "hints": [
+        "$E(X^2)=\\int_0^1 x^2\\cdot2x\\,dx$."
+      ],
+      "id": "36-035",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": "1/2",
+          "message": "Dat is $E(X^2)$. Trek $[E(X)]^2$ af."
+        },
+        {
+          "answer": "-1/6",
+          "message": "Je trok $E(X)$ af in plaats van $E(X)^2$."
+        }
+      ],
+      "require_simplified": true
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Een wachttijd is exponentieel met $\\lambda=0{,}5$ per minuut. Bereken $P(X\\le2)$. Rond af op drie decimalen.",
+      "answer": 0.632,
+      "solution": [
+        "$F(2)=1-e^{-1}\\approx0{,}632$."
+      ],
+      "hints": [
+        "$F(x)=1-e^{-\\lambda x}$."
+      ],
+      "id": "36-036",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.368,
+          "message": "Dat is $e^{-1}$ ofwel $P(X>2)$. Gevraagd is $P(X\\le2)$."
+        },
+        {
+          "answer": 0.5,
+          "message": "Je neemt aan dat de helft binnen de gemiddelde wachttijd valt; bij een scheve verdeling klopt dat niet."
+        }
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een exponentiële wachttijd heeft $\\lambda=0{,}25$ per minuut. Wat is de verwachte wachttijd in minuten?",
+      "answer": 4,
+      "solution": [
+        "$E(X)=1/0{,}25=4$ minuten."
+      ],
+      "hints": [
+        "$E(X)=1/\\lambda$."
+      ],
+      "id": "36-037",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.25,
+          "message": "Dat is $\\lambda$ zelf (het tempo per minuut). De verwachte wachttijd is $1/\\lambda$."
+        }
+      ],
+      "unit": "min"
+    },
+    {
+      "type": "fraction",
+      "difficulty": 3,
+      "question": "Voor welke $c$ is $f(x)=c\\,x^2$ op $[0;3]$ een dichtheid? Geef $c$ als breuk.",
+      "answer": "1/9",
+      "solution": [
+        "$\\int_0^3 cx^2\\,dx=c\\cdot\\tfrac{27}{3}=9c=1$, dus $c=\\tfrac19$."
+      ],
+      "hints": [
+        "De oppervlakte moet 1 zijn: $\\int_0^3 cx^2\\,dx=1$."
+      ],
+      "id": "36-038",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": "1/27",
+          "message": "Je vergat bij de primitieve $x^3/3$ te delen door 3."
+        },
+        {
+          "answer": "1/3",
+          "message": "Dat zou $\\int_0^3 x^2/3\\,dx=3$ geven."
+        }
+      ],
+      "require_simplified": true
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Onafhankelijke $X$ en $Y$ hebben varianties 6 en 10. Geef $\\operatorname{Var}(X-Y)$.",
+      "answer": 16,
+      "solution": [
+        "$\\operatorname{Var}(X-Y)=6+(-1)^2\\cdot10=16$."
+      ],
+      "hints": [
+        "Een minteken verandert de variantie van $Y$ niet."
+      ],
+      "id": "36-039",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": -4,
+          "message": "Een variantie kan nooit negatief zijn: bij onafhankelijkheid tel je op, ook bij een verschil."
+        },
+        {
+          "answer": 4,
+          "message": "Je trok de varianties van elkaar af."
+        }
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "$\\operatorname{Var}(X)=3$. Bereken $\\operatorname{Var}(4X)$.",
+      "answer": 48,
+      "solution": [
+        "$4^2\\cdot3=48$."
+      ],
+      "hints": [
+        "De schaalfactor wordt gekwadrateerd."
+      ],
+      "id": "36-040",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je hebt $a\\cdot\\operatorname{Var}(X)$ gedaan; het moet $a^2\\cdot\\operatorname{Var}(X)$ zijn."
+        },
+        {
+          "answer": 7,
+          "message": "Je telde 4 en 3 op."
+        }
+      ]
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Een meting heeft standaardafwijking 10. Wat is de standaardafwijking van het gemiddelde van 25 onafhankelijke metingen?",
+      "answer": 2,
+      "solution": [
+        "$10/\\sqrt{25}=2$."
+      ],
+      "hints": [
+        "Gebruik $\\sigma/\\sqrt n$."
+      ],
+      "id": "36-041",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": 50,
+          "message": "Dat is de standaardafwijking van de som ($10\\sqrt{25}$), niet van het gemiddelde."
+        },
+        {
+          "answer": 0.4,
+          "message": "Je deelde door $n$ in plaats van door $\\sqrt n$."
+        }
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": 3,
+      "question": "Je gooit twee eerlijke dobbelstenen en $S$ is de som. Gebruik $E=3{,}5$ en $\\operatorname{Var}=35/12$ per steen. Geef $E(S)$ en $\\operatorname{Var}(S)$ (op drie decimalen).",
+      "parts": [
+        {
+          "label": "E(S)",
+          "answer": 7,
+          "type": "numeric"
+        },
+        {
+          "label": "Var(S)",
+          "answer": 5.833,
+          "type": "decimal",
+          "tolerance": 0.005
+        }
+      ],
+      "solution": [
+        "$E(S)=3{,}5+3{,}5=7$.",
+        "De stenen zijn onafhankelijk: $\\operatorname{Var}(S)=2\\cdot35/12=35/6\\approx5{,}833$."
+      ],
+      "hints": [
+        "Verwachtingen en (bij onafhankelijkheid) varianties tel je op."
+      ],
+      "id": "36-042",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 5,
+      "question": "Je gooit drie eerlijke dobbelstenen. Wat is de standaardafwijking van het gemiddelde aantal ogen? Rond af op drie decimalen.",
+      "answer": 0.986,
+      "solution": [
+        "$\\operatorname{Var}(\\bar X)=\\tfrac{35}{12}/3=\\tfrac{35}{36}$.",
+        "$\\sigma_{\\bar X}=\\sqrt{35/36}\\approx0{,}986$."
+      ],
+      "hints": [
+        "Per steen $\\sigma^2=35/12$.",
+        "Het gemiddelde heeft variantie $\\sigma^2/3$."
+      ],
+      "id": "36-043",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "challenge",
+      "feedback": [
+        {
+          "answer": 1.708,
+          "message": "Dat is de standaardafwijking van één steen; het gemiddelde van drie varieert minder."
+        },
+        {
+          "answer": 0.569,
+          "message": "Je deelde de standaardafwijking door 3 in plaats van door $\\sqrt3$."
+        },
+        {
+          "answer": 2.958,
+          "message": "Dat is de standaardafwijking van de som ($\\sqrt{3\\cdot35/12}$), niet van het gemiddelde."
+        }
+      ],
+      "tolerance": 0.005
+    },
+    {
+      "type": "numeric",
+      "difficulty": 4,
+      "question": "Een polis veroorzaakt met kans 0,1 een schade van 1000 euro en anders niets. De portefeuille bestaat uit 100 onafhankelijke polissen. Wat is de standaardafwijking van de totale schade in euro?",
+      "answer": 3000,
+      "solution": [
+        "$E(X)=100$, $E(X^2)=10^5$, dus $\\operatorname{Var}=90000$ en $\\sigma=300$ per polis.",
+        "Totale variantie $100\\cdot90000=9\\cdot10^6$, dus $\\sigma=3000$."
+      ],
+      "hints": [
+        "Bereken eerst de variantie per polis: $E(X^2)-E(X)^2$.",
+        "Tel de varianties van 100 polissen op."
+      ],
+      "id": "36-044",
+      "topics": [
+        "random-variables",
+        "probability"
+      ],
+      "mode": "challenge",
+      "feedback": [
+        {
+          "answer": 30000,
+          "message": "Je vermenigvuldigde de standaardafwijking met $n$. Bij onafhankelijkheid groeit ze met $\\sqrt n$."
+        },
+        {
+          "answer": 300,
+          "message": "Dat is de standaardafwijking van één polis."
+        },
+        {
+          "answer": 9000000,
+          "message": "Dat is de variantie van de som. Neem de wortel."
+        }
+      ],
+      "unit": "€"
     }
   ]
 }

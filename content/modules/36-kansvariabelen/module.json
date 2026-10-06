@@ -7,7 +7,7 @@
   "status": "available",
   "historical_period": "18e eeuw",
   "estimated_difficulty": 4,
-  "estimated_minutes": 180,
+  "estimated_minutes": 240,
   "prerequisites": [
     35
   ],
@@ -18,11 +18,13 @@
   "core_question": "Hoe vat je een onzekere uitkomst samen voordat je weet welk getal je daadwerkelijk zult waarnemen?",
   "summary": "Discrete en continue kansvariabelen, kansfuncties en dichtheden, verwachtingswaarde, variantie en bewerkingen met onzekere grootheden.",
   "learning_goals": [
-    "Je onderscheidt een kansvariabele van een concrete waarneming.",
-    "Je stelt een geldige discrete kansverdeling op en berekent gebeurteniskansen.",
-    "Je berekent verwachtingswaarde, variantie en standaardafwijking.",
-    "Je leest kansen als oppervlakte onder een continue dichtheid.",
-    "Je berekent de gevolgen van verschuiven, schalen en optellen en benoemt wanneer onafhankelijkheid nodig is."
+    "Je onderscheidt een kansvariabele van een concrete waarneming en beschrijft haar als functie op de uitkomstenruimte.",
+    "Je onderscheidt discrete en continue variabelen en stelt een geldige kansfunctie en verdelingsfunctie op.",
+    "Je berekent gebeurteniskansen, verwachtingswaarde, variantie en standaardafwijking uit een tabel.",
+    "Je leest kansen als oppervlakte onder een dichtheid, berekent E(X) en Var(X) met een integraal en verklaart waarom P(X = a) = 0.",
+    "Je berekent de gevolgen van verschuiven, schalen en optellen en benoemt wanneer onafhankelijkheid nodig is.",
+    "Je past de wortel-n-wet toe op sommen en gemiddelden van onafhankelijke waarnemingen.",
+    "Je beschrijft hoe Pascal, Fermat, Huygens, Bernoulli en Kolmogorov het begrip hebben gevormd."
   ],
   "glossary": [
     {
@@ -48,28 +50,60 @@
     {
       "term": "Onafhankelijkheid",
       "definition": "Kennis van de ene uitkomst verandert de kansverdeling van de andere niet."
+    },
+    {
+      "term": "Verdelingsfunctie",
+      "definition": "De functie F(x) = P(X ≤ x): de cumulatieve kans tot en met x, voor discrete en continue variabelen."
+    },
+    {
+      "term": "Standaardafwijking",
+      "definition": "De wortel van de variantie; heeft dezelfde eenheid als de kansvariabele."
+    },
+    {
+      "term": "Covariantie",
+      "definition": "Maat voor het gezamenlijk afwijken van twee variabelen van hun gemiddelde; nul bij onafhankelijkheid."
+    },
+    {
+      "term": "Standaardfout",
+      "definition": "De standaardafwijking van een gemiddelde van n onafhankelijke waarnemingen: σ/√n."
     }
   ],
   "formulas": [
     {
       "name": "Verwachtingswaarde",
       "latex": "E(X)=\\sum_x xP(X=x)",
-      "usage": "Voor een discrete verdeling; kansen zijn de gewichten."
+      "usage": "Voor een discrete verdeling; kansen zijn de gewichten. Bij een dichtheid: E(X) = ∫ x f(x) dx.",
+      "origin": "Huygens (1657): de waarde van een kans als gewogen gemiddelde van uitbetalingen."
     },
     {
       "name": "Variantie",
       "latex": "\\operatorname{Var}(X)=E(X^2)-[E(X)]^2",
-      "usage": "Spreiding in het kwadraat van de oorspronkelijke eenheid."
+      "usage": "Spreiding in het kwadraat van de oorspronkelijke eenheid; nooit negatief.",
+      "origin": "Uitgewerkt uit E((X − μ)²); in de 18e en 19e eeuw gebruikt in de foutenleer."
     },
     {
       "name": "Verschuiven en schalen",
       "latex": "E(aX+b)=aE(X)+b,\\quad\\operatorname{Var}(aX+b)=a^2\\operatorname{Var}(X)",
-      "usage": "Een verschuiving verandert de variantie niet."
+      "usage": "Een verschuiving verandert de variantie niet.",
+      "origin": "Volgt uit de lineariteit van de verwachting."
     },
     {
       "name": "Continue kans",
       "latex": "P(a\\le X\\le b)=\\int_a^b f(x)\\,dx",
-      "usage": "Bij een kansdichtheid is de totale oppervlakte 1."
+      "usage": "Bij een kansdichtheid is de totale oppervlakte 1 en is P(X = a) = 0.",
+      "origin": "Integraalrekening van Newton en Leibniz toegepast op kansen."
+    },
+    {
+      "name": "Som van onafhankelijke variabelen",
+      "latex": "\\operatorname{Var}(X\\pm Y)=\\operatorname{Var}(X)+\\operatorname{Var}(Y)",
+      "usage": "Alleen bij onafhankelijkheid; de verwachting van een som is altijd de som van de verwachtingen.",
+      "origin": "Covariantie-term valt weg als X en Y onafhankelijk zijn."
+    },
+    {
+      "name": "Wortel-n-wet",
+      "latex": "\\sigma_{\\bar X}=\\frac{\\sigma}{\\sqrt n}",
+      "usage": "Standaardafwijking van het gemiddelde van n onafhankelijke waarnemingen.",
+      "origin": "Verwant aan Bernoullis wet van de grote aantallen (1713) en De Moivres benadering (1733)."
     }
   ],
   "lessons": [
@@ -93,36 +127,45 @@
     },
     {
       "slug": "theorie-c",
-      "title": "Continue variabelen en rekenregels",
-      "file": "03b-theorie-c.md",
+      "title": "Continue variabelen",
+      "file": "04-theorie-c.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "theorie-d",
+      "title": "Rekenen met kansvariabelen",
+      "file": "05-theorie-d.md",
       "kind": "theory"
     },
     {
       "slug": "historisch-intermezzo",
       "title": "Historisch intermezzo",
-      "file": "04-historisch-intermezzo.md",
+      "file": "06-historisch-intermezzo.md",
       "kind": "history"
     },
     {
       "slug": "praktijk-en-uitdaging",
       "title": "Toepassen en kritisch redeneren",
-      "file": "05-praktijk-en-uitdaging.md",
+      "file": "07-praktijk-en-uitdaging.md",
       "kind": "practice"
     },
     {
       "slug": "samenvatting",
       "title": "Samenvatting en hoofdstuktoets",
-      "file": "06-samenvatting.md",
+      "file": "08-samenvatting.md",
       "kind": "summary"
     }
   ],
   "timeline": [
+    "pascal-fermat",
     "huygens-kansrekening",
     "bernoulli-ars-conjectandi",
+    "de-moivre",
     "kolmogorov-axiomas"
   ],
   "mathematicians": [
     "pascal",
-    "fermat"
+    "fermat",
+    "de-moivre"
   ]
 }
