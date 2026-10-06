@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 350" role="img" aria-labelledby="title desc">
+  <title id="title">Een balk tegen een muur</title>
+  <desc id="desc">Een balk van lengte 30 stond eerst rechtop tegen een muur. De top is 6 omlaag gezakt en staat nu op hoogte 24. De voet is van de muur weggeschoven; die afstand is onbekend.</desc>
+  <rect width="520" height="350" fill="#fff"/>
+  <g font-family="sans-serif" fill="#1f2933" font-size="16">
+    <rect x="380" y="30" width="30" height="280" fill="#f1f3f5" stroke="#1f2933" stroke-width="1.5"/>
+    <line x1="40.0" y1="310.0" x2="470.0" y2="310.0" stroke="#1f2933" stroke-width="2"/>
+    <line x1="374.0" y1="310.0" x2="374.0" y2="70.0" stroke="#9c6b30" stroke-width="3" stroke-dasharray="7 5" opacity="0.6"/>
+    <line x1="236.0" y1="310.0" x2="380.0" y2="118.0" stroke="#9c6b30" stroke-width="6"/>
+    <path d="M366.0,310.0 L366.0,296.0 L380.0,296.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+    <text x="426.0" y="99.0" text-anchor="start" font-size="16" font-weight="bold">6</text>
+    <line x1="416.0" y1="70.0" x2="416.0" y2="118.0" stroke="#1f2933" stroke-width="1.2"/>
+    <text x="426.0" y="219.0" text-anchor="start" font-size="16" font-weight="bold">24</text>
+    <line x1="416.0" y1="118.0" x2="416.0" y2="310.0" stroke="#1f2933" stroke-width="1.2"/>
+    <text x="290.0" y="208.0" text-anchor="end" font-size="17" fill="#9c6b30" font-weight="bold">30</text>
+    <text x="308.0" y="334.0" text-anchor="middle" font-size="14">? (afstand van de voet tot de muur)</text>
+    <text x="200.0" y="60.0" text-anchor="middle" font-size="14" fill="#616e7c">Eerst rechtop: lengte 30.</text>
+    <text x="200.0" y="80.0" text-anchor="middle" font-size="14" fill="#616e7c">De top zakt 6 omlaag.</text>
+  </g>
+</svg>

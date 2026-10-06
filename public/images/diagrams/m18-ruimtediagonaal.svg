@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 345" role="img" aria-labelledby="title desc">
+  <title id="title">Ruimtediagonaal van een balk</title>
+  <desc id="desc">Een balk met lengte l, breedte b en hoogte h. In het grondvlak loopt de diagonaal d1 gestippeld. De ruimtediagonaal d loopt van een benedenhoek naar de tegenoverliggende bovenhoek en vormt met d1 en de hoogte h een rechthoekige driehoek.</desc>
+  <rect width="600" height="345" fill="#fff"/>
+  <g font-family="sans-serif" fill="#1f2933" font-size="16">
+    <polygon points="80.0,300.0 330.0,300.0 440.0,220.0 190.0,220.0" fill="#f1f3f5" stroke="#1f2933" stroke-width="0" stroke-linejoin="round"/>
+    <line x1="80.0" y1="300.0" x2="330.0" y2="300.0" stroke="#1f2933" stroke-width="2"/>
+    <line x1="330.0" y1="300.0" x2="440.0" y2="220.0" stroke="#1f2933" stroke-width="2"/>
+    <line x1="80.0" y1="120.0" x2="330.0" y2="120.0" stroke="#1f2933" stroke-width="2"/>
+    <line x1="330.0" y1="120.0" x2="440.0" y2="40.0" stroke="#1f2933" stroke-width="2"/>
+    <line x1="440.0" y1="40.0" x2="190.0" y2="40.0" stroke="#1f2933" stroke-width="2"/>
+    <line x1="190.0" y1="40.0" x2="80.0" y2="120.0" stroke="#1f2933" stroke-width="2"/>
+    <line x1="80.0" y1="300.0" x2="80.0" y2="120.0" stroke="#1f2933" stroke-width="2"/>
+    <line x1="330.0" y1="300.0" x2="330.0" y2="120.0" stroke="#1f2933" stroke-width="2"/>
+    <line x1="440.0" y1="220.0" x2="440.0" y2="40.0" stroke="#1f2933" stroke-width="2"/>
+    <line x1="80.0" y1="300.0" x2="190.0" y2="220.0" stroke="#1f2933" stroke-width="1.2" stroke-dasharray="5 4"/>
+    <line x1="190.0" y1="220.0" x2="440.0" y2="220.0" stroke="#1f2933" stroke-width="1.2" stroke-dasharray="5 4"/>
+    <line x1="190.0" y1="220.0" x2="190.0" y2="40.0" stroke="#1f2933" stroke-width="1.2" stroke-dasharray="5 4"/>
+    <line x1="80.0" y1="300.0" x2="440.0" y2="220.0" stroke="#9c6b30" stroke-width="3" stroke-dasharray="8 5"/>
+    <line x1="80.0" y1="300.0" x2="440.0" y2="40.0" stroke="#3b5bdb" stroke-width="4"/>
+    <path d="M426.3,223.0 L426.3,209.0 L440.0,206.0" fill="none" stroke="#9c6b30" stroke-width="1.5"/>
+    <text x="205.0" y="322.0" text-anchor="middle" font-size="17" font-style="italic">l</text>
+    <text x="399.0" y="274.0" text-anchor="middle" font-size="17" font-style="italic">b</text>
+    <text x="456.0" y="130.0" text-anchor="start" font-size="17" font-style="italic">h</text>
+    <text x="300.0" y="262.0" text-anchor="middle" font-size="17" fill="#9c6b30" font-weight="bold" font-style="italic">d₁</text>
+    <text x="250.0" y="175.0" text-anchor="middle" font-size="19" fill="#3b5bdb" font-weight="bold" font-style="italic">d</text>
+    <text x="470.0" y="330.0" text-anchor="middle" font-size="12"></text>
+    <text x="300.0" y="30.0" text-anchor="middle" font-size="15" font-weight="bold">Grondvlak: d₁² = l² + b²     Ruimte: d² = d₁² + h² = l² + b² + h²</text>
+  </g>
+</svg>

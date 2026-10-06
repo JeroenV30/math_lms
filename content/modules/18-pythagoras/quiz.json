@@ -15,6 +15,12 @@
       "difficulty": 1,
       "topics": [
         "pythagoras"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "De schuine zijde is de langste zijde, tegenover de rechte hoek."
+        }
       ]
     },
     {
@@ -30,6 +36,16 @@
       "difficulty": 1,
       "topics": [
         "pythagoras"
+      ],
+      "feedback": [
+        {
+          "answer": 21,
+          "message": "Je hebt de lengtes opgeteld. Kwadrateer eerst, tel op en neem de wortel."
+        },
+        {
+          "answer": 225,
+          "message": "Je bent de wortel vergeten."
+        }
       ]
     },
     {
@@ -45,6 +61,16 @@
       "difficulty": 1,
       "topics": [
         "pythagoras"
+      ],
+      "feedback": [
+        {
+          "answer": 25,
+          "message": "Je hebt de lengtes opgeteld. De schuine zijde is gegeven, dus je moet aftrekken: $17^2-8^2$."
+        },
+        {
+          "answer": 225,
+          "message": "Je bent de wortel vergeten."
+        }
       ]
     },
     {
@@ -60,6 +86,16 @@
       "difficulty": 1,
       "topics": [
         "pythagoras"
+      ],
+      "feedback": [
+        {
+          "answer": 31,
+          "message": "Je hebt de lengtes opgeteld. Kwadrateer eerst."
+        },
+        {
+          "answer": 625,
+          "message": "Je bent de wortel vergeten."
+        }
       ]
     },
     {
@@ -75,11 +111,21 @@
       "difficulty": 1,
       "topics": [
         "pythagoras"
+      ],
+      "feedback": [
+        {
+          "answer": 40,
+          "message": "Je hebt de lengtes opgeteld. Een rechthoekszijde vind je door af te trekken: $25^2-15^2$."
+        },
+        {
+          "answer": 400,
+          "message": "Je bent de wortel vergeten."
+        }
       ]
     },
     {
       "id": "18-T06",
-      "question": "Rechthoekszijden zijn 3 en 5. Bereken de schuine zijde op twee decimalen.",
+      "question": "Rechthoekszijden zijn 3 en 5. Bereken de schuine zijde. Rond af op twee decimalen.",
       "answer": 5.83,
       "solution": [
         "$\\sqrt{34}\\approx5{,}83$."
@@ -90,7 +136,8 @@
       "difficulty": 1,
       "topics": [
         "pythagoras"
-      ]
+      ],
+      "tolerance": 0.005
     },
     {
       "id": "18-T07",
@@ -106,14 +153,25 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "cm"
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 140,
+          "message": "Je hebt 60 en 80 opgeteld. Kwadrateer eerst."
+        },
+        {
+          "answer": 10000,
+          "message": "Je bent de wortel vergeten."
+        }
+      ]
     },
     {
       "id": "18-T08",
       "question": "Bereken voor zijden 8, 15, 17 de waarde $8^2+15^2-17^2$.",
       "answer": 0,
       "solution": [
-        "$64+225-289=0$."
+        "$64+225-289=0$.",
+        "De som van de kwadraten van de twee kortere zijden is gelijk aan het kwadraat van de langste: de driehoek is rechthoekig."
       ],
       "hints": [],
       "type": "numeric",
@@ -136,6 +194,16 @@
       "difficulty": 1,
       "topics": [
         "pythagoras"
+      ],
+      "feedback": [
+        {
+          "answer": 17,
+          "message": "Je hebt 5 en 12 opgeteld. Kwadrateer de verschillen, tel op en neem de wortel."
+        },
+        {
+          "answer": 169,
+          "message": "Je bent de wortel vergeten."
+        }
       ]
     },
     {
@@ -151,6 +219,16 @@
       "difficulty": 2,
       "topics": [
         "pythagoras"
+      ],
+      "feedback": [
+        {
+          "answer": 14,
+          "message": "Je hebt de verschillen 6 en 8 opgeteld. Kwadrateer eerst."
+        },
+        {
+          "answer": 100,
+          "message": "Je bent de wortel vergeten."
+        }
       ]
     },
     {
@@ -167,7 +245,17 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "cm"
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 11,
+          "message": "Je hebt de afmetingen opgeteld. Reken $\\sqrt{l^2+b^2+h^2}$."
+        },
+        {
+          "answer": 49,
+          "message": "Je bent de wortel vergeten."
+        }
+      ]
     },
     {
       "id": "18-T12",
@@ -183,7 +271,17 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "m"
+      "unit": "m",
+      "feedback": [
+        {
+          "answer": 17,
+          "message": "Je hebt 5 en 12 opgeteld. Kwadrateer eerst."
+        },
+        {
+          "answer": 169,
+          "message": "Je bent de wortel vergeten."
+        }
+      ]
     },
     {
       "id": "18-T13",
@@ -199,7 +297,17 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "m"
+      "unit": "m",
+      "feedback": [
+        {
+          "answer": 18,
+          "message": "Je hebt 13 en 5 opgeteld. De ladder is de schuine zijde: trek af."
+        },
+        {
+          "answer": 144,
+          "message": "Je bent de wortel vergeten."
+        }
+      ]
     },
     {
       "id": "18-T14",
@@ -215,14 +323,25 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "m"
+      "unit": "m",
+      "feedback": [
+        {
+          "answer": 21,
+          "message": "Je hebt 9 en 12 opgeteld. De kabel is de schuine zijde: kwadrateer eerst."
+        },
+        {
+          "answer": 225,
+          "message": "Je bent de wortel vergeten."
+        }
+      ]
     },
     {
       "id": "18-T15",
       "question": "Een rechthoek heeft omtrek 34 cm en diagonaal 13 cm. De zijden zijn gehele centimeters. Geef ze in oplopende volgorde.",
       "solution": [
-        "Som 17; kwadratensom 169.",
-        "5 en 12 voldoen."
+        "Halve omtrek: $a+b=17$. Diagonaal: $a^2+b^2=169$.",
+        "$(a+b)^2=289$, dus $2ab=289-169=120$ en $ab=60$.",
+        "Getallen met som 17 en product 60: 5 en 12. Controle: $25+144=169$."
       ],
       "hints": [],
       "type": "multiple",

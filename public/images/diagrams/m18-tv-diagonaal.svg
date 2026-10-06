@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" role="img" aria-labelledby="title desc">
+  <title id="title">De diagonaal van een beeldscherm</title>
+  <desc id="desc">Een rechthoekig beeldscherm met breedte 16 delen en hoogte 9 delen. De diagonaal van linksonder naar rechtsboven is de schermmaat.</desc>
+  <rect width="540" height="280" fill="#fff"/>
+  <g font-family="sans-serif" fill="#1f2933" font-size="16">
+    <rect x="60" y="60" width="320" height="180" rx="6" fill="#f1f3f5" stroke="#1f2933" stroke-width="3"/>
+    <line x1="60.0" y1="240.0" x2="380.0" y2="60.0" stroke="#3b5bdb" stroke-width="3"/>
+    <path d="M366.0,240.0 L366.0,226.0 L380.0,226.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+    <text x="220.0" y="266.0" text-anchor="middle" font-size="15">breedte: 16 delen</text>
+    <text x="392.0" y="155.0" text-anchor="start" font-size="15">hoogte: 9 delen</text>
+    <text x="200.0" y="140.0" text-anchor="middle" font-size="15" fill="#3b5bdb" font-weight="bold">diagonaal</text>
+    <text x="260.0" y="34.0" text-anchor="middle" font-size="16" font-weight="bold">Beeldformaat 16 : 9 — de 'inch-maat' is de diagonaal</text>
+  </g>
+</svg>

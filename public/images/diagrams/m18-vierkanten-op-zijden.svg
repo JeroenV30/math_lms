@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" role="img" aria-labelledby="title desc">
+  <title id="title">Vierkanten op de zijden van een 3-4-5-driehoek</title>
+  <desc id="desc">Een rechthoekige driehoek met rechthoekszijden 3 en 4 en schuine zijde 5. Op elke zijde staat een vierkant, verdeeld in hokjes: 9, 16 en 25 hokjes. 9 plus 16 is 25.</desc>
+  <rect width="560" height="400" fill="#fff"/>
+  <g font-family="sans-serif" fill="#1f2933" font-size="16">
+    <polygon points="128.0,208.0 200.0,208.0 200.0,280.0 128.0,280.0" fill="#f3e6d6" stroke="#9c6b30" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="176.0" y1="208.0" x2="176.0" y2="280.0" stroke="#9c6b30" stroke-width="0.8"/>
+    <line x1="128.0" y1="232.0" x2="200.0" y2="232.0" stroke="#9c6b30" stroke-width="0.8"/>
+    <line x1="152.0" y1="208.0" x2="152.0" y2="280.0" stroke="#9c6b30" stroke-width="0.8"/>
+    <line x1="128.0" y1="256.0" x2="200.0" y2="256.0" stroke="#9c6b30" stroke-width="0.8"/>
+    <polygon points="200.0,280.0 296.0,280.0 296.0,376.0 200.0,376.0" fill="#f3e6d6" stroke="#9c6b30" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="224.0" y1="280.0" x2="224.0" y2="376.0" stroke="#9c6b30" stroke-width="0.8"/>
+    <line x1="200.0" y1="304.0" x2="296.0" y2="304.0" stroke="#9c6b30" stroke-width="0.8"/>
+    <line x1="248.0" y1="280.0" x2="248.0" y2="376.0" stroke="#9c6b30" stroke-width="0.8"/>
+    <line x1="200.0" y1="328.0" x2="296.0" y2="328.0" stroke="#9c6b30" stroke-width="0.8"/>
+    <line x1="272.0" y1="280.0" x2="272.0" y2="376.0" stroke="#9c6b30" stroke-width="0.8"/>
+    <line x1="200.0" y1="352.0" x2="296.0" y2="352.0" stroke="#9c6b30" stroke-width="0.8"/>
+    <polygon points="200.0,208.0 296.0,280.0 368.0,184.0 272.0,112.0" fill="#dbe4ff" stroke="#3b5bdb" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="219.2" y1="222.4" x2="291.2" y2="126.4" stroke="#3b5bdb" stroke-width="0.8"/>
+    <line x1="214.4" y1="188.8" x2="310.4" y2="260.8" stroke="#3b5bdb" stroke-width="0.8"/>
+    <line x1="238.4" y1="236.8" x2="310.4" y2="140.8" stroke="#3b5bdb" stroke-width="0.8"/>
+    <line x1="228.8" y1="169.6" x2="324.8" y2="241.6" stroke="#3b5bdb" stroke-width="0.8"/>
+    <line x1="257.6" y1="251.2" x2="329.6" y2="155.2" stroke="#3b5bdb" stroke-width="0.8"/>
+    <line x1="243.2" y1="150.4" x2="339.2" y2="222.4" stroke="#3b5bdb" stroke-width="0.8"/>
+    <line x1="276.8" y1="265.6" x2="348.8" y2="169.6" stroke="#3b5bdb" stroke-width="0.8"/>
+    <line x1="257.6" y1="131.2" x2="353.6" y2="203.2" stroke="#3b5bdb" stroke-width="0.8"/>
+    <polygon points="200.0,280.0 200.0,208.0 296.0,280.0" fill="#ffffff" stroke="#1f2933" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M200.0,268.0 L212.0,268.0 L212.0,280.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+    <text x="164.0" y="250.0" text-anchor="middle" font-size="22" fill="#9c6b30" font-weight="bold">9</text>
+    <text x="248.0" y="336.0" text-anchor="middle" font-size="22" fill="#9c6b30" font-weight="bold">16</text>
+    <text x="284.0" y="203.0" text-anchor="middle" font-size="24" fill="#3b5bdb" font-weight="bold">25</text>
+    <text x="188.0" y="250.0" text-anchor="end" font-size="14">3</text>
+    <text x="248.0" y="274.0" text-anchor="middle" font-size="14">4</text>
+    <text x="254.0" y="238.0" text-anchor="middle" font-size="14">5</text>
+    <text x="400.0" y="210.0" text-anchor="start" font-size="18">3² = 9</text>
+    <text x="400.0" y="238.0" text-anchor="start" font-size="18">4² = 16</text>
+    <text x="400.0" y="266.0" text-anchor="start" font-size="18">5² = 25</text>
+    <text x="400.0" y="304.0" text-anchor="start" font-size="20" font-weight="bold">9 + 16 = 25</text>
+    <text x="260.0" y="40.0" text-anchor="middle" font-size="15" fill="#616e7c">Tel de hokjes: de twee kleine vierkanten samen</text>
+    <text x="260.0" y="60.0" text-anchor="middle" font-size="15" fill="#616e7c">bevatten evenveel hokjes als het grote vierkant.</text>
+  </g>
+</svg>

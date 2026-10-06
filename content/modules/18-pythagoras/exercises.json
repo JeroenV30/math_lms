@@ -5,10 +5,13 @@
       "question": "Je loopt 3 m naar rechts en daarna 4 m loodrecht omhoog. Wat is de rechtstreekse afstand?",
       "answer": 5,
       "solution": [
-        "$3^2+4^2=25$; wortel 5."
+        "De twee wandelingen staan loodrecht op elkaar: het zijn de rechthoekszijden.",
+        "$c^2=3^2+4^2=9+16=25$.",
+        "$c=\\sqrt{25}=5$ m, korter dan de route langs de rand van 7 m."
       ],
       "hints": [
-        "Gebruik de twee loodrechte verplaatsingen."
+        "Teken de wandeling: 3 m horizontaal en 4 m verticaal. Welke zijde is de rechtstreekse verbinding?",
+        "Tel de kwadraten van 3 en 4 op en neem de wortel."
       ],
       "type": "numeric",
       "mode": "guided",
@@ -16,17 +19,29 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "m"
+      "unit": "m",
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je hebt 3 en 4 opgeteld. Dat is de route langs de rand. De rechtstreekse verbinding is de schuine zijde: tel de kwadraten op en neem de wortel."
+        },
+        {
+          "answer": 25,
+          "message": "Je bent de wortel vergeten. $c^2=25$ is een oppervlakte; de afstand is $\\sqrt{25}$."
+        }
+      ]
     },
     {
       "id": "18-002",
       "question": "Een rechthoekige driehoek heeft zijden 3, 4 en 5 cm. Hoe lang is de schuine zijde?",
       "answer": 5,
       "solution": [
-        "De langste zijde, tegenover de rechte hoek, is 5 cm."
+        "De langste zijde ligt tegenover de rechte hoek: dat is de zijde van 5 cm.",
+        "Controle: $3^2+4^2=25=5^2$."
       ],
       "hints": [
-        "Herken eerst de rol van de zijden."
+        "Zoek de rechte hoek. De zijde ertegenover is de schuine zijde.",
+        "De schuine zijde is ook de langste zijde."
       ],
       "type": "numeric",
       "mode": "guided",
@@ -34,14 +49,25 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "cm"
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "4 cm is een rechthoekszijde. De schuine zijde ligt tegenover de rechte hoek en is de langste zijde van de driehoek."
+        },
+        {
+          "answer": 7,
+          "message": "Je hebt de rechthoekszijden opgeteld. De schuine zijde is een van de gegeven zijden: de langste."
+        }
+      ]
     },
     {
       "id": "18-003",
       "question": "Bereken de oppervlakte van het vierkant op een zijde van 6 cm.",
       "answer": 36,
       "solution": [
-        "$6^2=36$ cm²."
+        "Het vierkant heeft zijde 6 cm.",
+        "$6^2=6\\times6=36$ cm²."
       ],
       "hints": [
         "De stelling gebruikt kwadraten van lengtes."
@@ -52,7 +78,17 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "cm²"
+      "unit": "cm²",
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je hebt $6\\times2$ berekend. Kwadrateren betekent $6\\times6$."
+        },
+        {
+          "answer": 24,
+          "message": "Dat is de omtrek van het vierkant ($4\\times6$). Gevraagd is de oppervlakte: $6\\times6$."
+        }
+      ]
     },
     {
       "id": "18-004",
@@ -70,7 +106,17 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "cm²"
+      "unit": "cm²",
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Dat is de lengte van de schuine zijde. Gevraagd is het kwadraat van de schuine zijde: de oppervlakte van het vierkant erop."
+        },
+        {
+          "answer": 14,
+          "message": "Je hebt de lengtes 6 en 8 opgeteld. Tel de *kwadraten* op: $6^2+8^2$."
+        }
+      ]
     },
     {
       "id": "18-005",
@@ -88,7 +134,17 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "cm"
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 14,
+          "message": "Je hebt de lengtes opgeteld. Tel de kwadraten op en neem de wortel: $\\sqrt{36+64}$."
+        },
+        {
+          "answer": 100,
+          "message": "Je bent de wortel vergeten. $c^2=100$, dus $c=\\sqrt{100}$."
+        }
+      ]
     },
     {
       "id": "18-006",
@@ -106,23 +162,46 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "cm"
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 23,
+          "message": "Je hebt 8 en 15 opgeteld. De schuine zijde is korter dan die som. Reken met kwadraten."
+        },
+        {
+          "answer": 289,
+          "message": "Je bent de wortel vergeten. 289 is $c^2$, niet $c$."
+        }
+      ]
     },
     {
       "id": "18-007",
-      "question": "Rechthoekszijden zijn 1 en 1. Bereken de schuine zijde op twee decimalen.",
+      "question": "Rechthoekszijden zijn 1 en 1. Bereken de schuine zijde. Rond af op twee decimalen.",
       "answer": 1.41,
       "solution": [
-        "$c=\\sqrt2\\approx1{,}41$."
+        "$c^2=1^2+1^2=2$.",
+        "$c=\\sqrt2\\approx1{,}41$ (twee decimalen)."
       ],
       "hints": [
-        "Een geheel antwoord is niet altijd mogelijk."
+        "Een geheel antwoord is niet altijd mogelijk.",
+        "$c^2=1^2+1^2=2$. Gebruik de wortelknop van je rekenmachine."
       ],
       "type": "decimal",
       "mode": "guided",
       "difficulty": 1,
       "topics": [
         "pythagoras"
+      ],
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Dat is $c^2$. De lengte is de wortel daarvan."
+        },
+        {
+          "answer": 1,
+          "message": "Je hebt de wortel genomen van 1 in plaats van van $1+1$. Tel eerst de kwadraten op."
+        }
       ]
     },
     {
@@ -141,7 +220,17 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "cm"
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 17,
+          "message": "Je hebt de lengtes 5 en 12 opgeteld. Kwadrateer eerst: $5^2+12^2$."
+        },
+        {
+          "answer": 169,
+          "message": "Je bent de wortel vergeten: $c^2=169$, dus $c=\\sqrt{169}$."
+        }
+      ]
     },
     {
       "id": "18-009",
@@ -164,6 +253,10 @@
         {
           "answer": 18,
           "message": "Je hebt de lengtes opgeteld. Trek 5² af van 13² en neem daarna de wortel."
+        },
+        {
+          "answer": 144,
+          "message": "Je hebt $a^2$ berekend maar de wortel vergeten. $a^2=144$, dus $a=\\sqrt{144}$."
         }
       ]
     },
@@ -183,11 +276,21 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "cm"
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Je hebt 10 en 6 opgeteld. De schuine zijde is 10: trek $6^2$ af van $10^2$."
+        },
+        {
+          "answer": 64,
+          "message": "Je bent de wortel vergeten: $a^2=64$, dus $a=\\sqrt{64}$."
+        }
+      ]
     },
     {
       "id": "18-011",
-      "question": "Rechthoekszijden zijn 2 en 3. Bereken de schuine zijde op twee decimalen.",
+      "question": "Rechthoekszijden zijn 2 en 3. Bereken de schuine zijde. Rond af op twee decimalen.",
       "answer": 3.61,
       "solution": [
         "$\\sqrt{4+9}=\\sqrt{13}\\approx3{,}61$."
@@ -200,11 +303,22 @@
       "difficulty": 1,
       "topics": [
         "pythagoras"
+      ],
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je hebt de lengtes 2 en 3 opgeteld. Tel de kwadraten op en neem de wortel."
+        },
+        {
+          "answer": 13,
+          "message": "Dat is $c^2$. Neem nog de wortel: $\\sqrt{13}\\approx3{,}61$."
+        }
       ]
     },
     {
       "id": "18-012",
-      "question": "Schuine zijde 7 m, een rechthoekszijde 4 m. Bereken de andere zijde op twee decimalen.",
+      "question": "Schuine zijde 7 m, een rechthoekszijde 4 m. Bereken de andere rechthoekszijde. Rond af op twee decimalen.",
       "answer": 5.74,
       "solution": [
         "$\\sqrt{49-16}=\\sqrt{33}\\approx5{,}74$ m."
@@ -213,12 +327,23 @@
         "Trek eerst de kwadraten af."
       ],
       "type": "decimal",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
       "topics": [
         "pythagoras"
       ],
-      "unit": "m"
+      "unit": "m",
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 8.06,
+          "message": "Je hebt de kwadraten opgeteld ($\\sqrt{65}$). De schuine zijde is 7 m, dus trek $4^2$ af van $7^2$."
+        },
+        {
+          "answer": 33,
+          "message": "Je bent de wortel vergeten: $a^2=33$, dus $a=\\sqrt{33}$."
+        }
+      ]
     },
     {
       "id": "18-013",
@@ -232,19 +357,30 @@
         "Gebruik eerst dezelfde eenheid."
       ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
       "topics": [
         "pythagoras"
       ],
-      "unit": "cm"
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 70,
+          "message": "Je hebt 30 en 40 opgeteld. Kwadrateer eerst, tel op en neem dan de wortel."
+        },
+        {
+          "answer": 2500,
+          "message": "Je bent de wortel vergeten: $c^2=2500$ cm², dus $c=\\sqrt{2500}$."
+        }
+      ]
     },
     {
       "id": "18-014",
       "question": "Een vierkant met zijde a+b, bij a = 3 en b = 4: bereken de oppervlakte.",
       "answer": 49,
       "solution": [
-        "$(3+4)^2=49$."
+        "De zijde is $3+4=7$.",
+        "De oppervlakte is $7^2=49$."
       ],
       "hints": [
         "Kwadrateer de hele som."
@@ -254,6 +390,16 @@
       "difficulty": 1,
       "topics": [
         "pythagoras"
+      ],
+      "feedback": [
+        {
+          "answer": 25,
+          "message": "Je hebt $3^2+4^2$ berekend. Het grote vierkant heeft zijde $a+b=7$ en dus oppervlakte $7^2$."
+        },
+        {
+          "answer": 14,
+          "message": "Je hebt 2 × 7 berekend. Kwadrateer de zijde 7."
+        }
       ]
     },
     {
@@ -272,6 +418,16 @@
       "difficulty": 1,
       "topics": [
         "pythagoras"
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Er zijn vier driehoeken, niet twee. Elke driehoek heeft oppervlakte $\\tfrac12\\cdot3\\cdot4=6$."
+        },
+        {
+          "answer": 48,
+          "message": "Je bent het delen door 2 vergeten: elke driehoek is $\\tfrac12\\cdot3\\cdot4=6$."
+        }
       ]
     },
     {
@@ -289,6 +445,16 @@
       "difficulty": 1,
       "topics": [
         "pythagoras"
+      ],
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Dat is de oppervlakte van de vier driehoeken. Het middelste vierkant is wat overblijft: $49-24$."
+        },
+        {
+          "answer": 73,
+          "message": "Je hebt de oppervlakten opgeteld. Het middelste vierkant is wat overblijft nadat je de driehoeken van het grote vierkant hebt afgehaald."
+        }
       ]
     },
     {
@@ -307,6 +473,12 @@
       "difficulty": 1,
       "topics": [
         "pythagoras"
+      ],
+      "feedback": [
+        {
+          "answer": 1250,
+          "message": "Je hebt $7^2+24^2+25^2$ berekend. Tel alleen de kwadraten van de twee kortere zijden op en trek daar $25^2$ van af."
+        }
       ]
     },
     {
@@ -314,8 +486,8 @@
       "question": "Bereken de afstand tussen (-1; 2) en (3; 5).",
       "answer": 5,
       "solution": [
-        "Verschillen 4 en 3.",
-        "$\\sqrt{16+9}=5$."
+        "Horizontaal verschil: $3-(-1)=4$. Verticaal verschil: $5-2=3$.",
+        "$d=\\sqrt{4^2+3^2}=\\sqrt{25}=5$."
       ],
       "hints": [
         "Gebruik verschillen, niet losse coördinaten."
@@ -325,6 +497,16 @@
       "difficulty": 1,
       "topics": [
         "pythagoras"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je hebt de verschillen 4 en 3 opgeteld. Kwadrateer ze, tel op en neem de wortel."
+        },
+        {
+          "answer": 25,
+          "message": "Je bent de wortel vergeten: $d^2=25$, dus $d=\\sqrt{25}$."
+        }
       ]
     },
     {
@@ -342,6 +524,16 @@
       "difficulty": 1,
       "topics": [
         "pythagoras"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je hebt de verschillen 3 en 4 opgeteld. Dat is de route langs de assen, niet de rechtstreekse afstand."
+        },
+        {
+          "answer": 25,
+          "message": "Je bent de wortel vergeten: $d^2=25$, dus $d=\\sqrt{25}$."
+        }
       ]
     },
     {
@@ -356,10 +548,20 @@
         "Let op de negatieve beginwaarden."
       ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
       "topics": [
         "pythagoras"
+      ],
+      "feedback": [
+        {
+          "answer": 14,
+          "message": "Je hebt de verschillen 6 en 8 opgeteld. Kwadrateer ze en neem de wortel van de som."
+        },
+        {
+          "answer": 2,
+          "message": "Let op het minteken: $4-(-2)=6$ en $5-(-3)=8$."
+        }
       ]
     },
     {
@@ -378,7 +580,13 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "cm"
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je hebt de lengte en breedte opgeteld. De diagonaal is de schuine zijde van de rechthoekige driehoek met zijden 3 en 4."
+        }
+      ]
     },
     {
       "id": "18-022",
@@ -392,16 +600,26 @@
         "Gebruik Pythagoras tweemaal."
       ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
       "topics": [
         "pythagoras"
       ],
-      "unit": "cm"
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 17,
+          "message": "Je hebt de afstand 5 niet goed gebruikt of $5+12$ gedaan. Reken $\\sqrt{5^2+12^2}$."
+        },
+        {
+          "answer": 19,
+          "message": "Je hebt 3, 4 en 12 opgeteld. Pas Pythagoras twee keer toe: eerst het grondvlak, dan de hoogte."
+        }
+      ]
     },
     {
       "id": "18-023",
-      "question": "Een kubus heeft zijde 2 cm. Bereken de ruimtediagonaal op twee decimalen.",
+      "question": "Een kubus heeft zijde 2 cm. Bereken de ruimtediagonaal. Rond af op twee decimalen.",
       "answer": 3.46,
       "solution": [
         "$d=\\sqrt{4+4+4}=\\sqrt{12}\\approx3{,}46$ cm."
@@ -410,12 +628,23 @@
         "Er zijn drie gelijke kwadraten."
       ],
       "type": "decimal",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
       "topics": [
         "pythagoras"
       ],
-      "unit": "cm"
+      "unit": "cm",
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Dat is $d^2=2^2+2^2+2^2$. Neem nog de wortel: $\\sqrt{12}\\approx3{,}46$."
+        },
+        {
+          "answer": 6,
+          "message": "Je hebt de lengtes opgeteld ($2+2+2$). Reken met kwadraten en neem dan de wortel."
+        }
+      ]
     },
     {
       "id": "18-024",
@@ -433,6 +662,12 @@
       "difficulty": 1,
       "topics": [
         "pythagoras"
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Je hebt 5 + 3 gedaan. Elke zijde wordt met factor 3 vermenigvuldigd: $5\\times3$."
+        }
       ]
     },
     {
@@ -486,7 +721,17 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "m"
+      "unit": "m",
+      "feedback": [
+        {
+          "answer": 34,
+          "message": "Je hebt de kwadraten opgeteld en de wortel vergeten. De ladder is de schuine zijde: trek $3^2$ af van $5^2$."
+        },
+        {
+          "answer": 8,
+          "message": "Je hebt 5 + 3 gedaan. Trek de kwadraten af: $5^2-3^2$, en neem dan de wortel."
+        }
+      ]
     },
     {
       "id": "18-027",
@@ -504,7 +749,17 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "m"
+      "unit": "m",
+      "feedback": [
+        {
+          "answer": 14,
+          "message": "Je hebt 6 en 8 opgeteld. De kabel loopt rechtstreeks, dus zij is de schuine zijde: tel de kwadraten op."
+        },
+        {
+          "answer": 100,
+          "message": "Je bent de wortel vergeten: $c^2=100$, dus $c=10$."
+        }
+      ]
     },
     {
       "id": "18-028",
@@ -522,7 +777,17 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "cm"
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 28,
+          "message": "Je hebt de zijden opgeteld. De diagonaal van een rechthoek is de schuine zijde van een rechthoekige driehoek: kwadrateer eerst."
+        },
+        {
+          "answer": 400,
+          "message": "Je bent de wortel vergeten: $d^2=400$, dus $d=\\sqrt{400}$."
+        }
+      ]
     },
     {
       "id": "18-029",
@@ -540,7 +805,17 @@
       "topics": [
         "pythagoras"
       ],
-      "unit": "cm"
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Je hebt 15 en 9 opgeteld. Een ontbrekende rechthoekszijde vind je door af te trekken: $15^2-9^2$."
+        },
+        {
+          "answer": 144,
+          "message": "Je bent de wortel vergeten: $a^2=144$, dus $a=\\sqrt{144}$."
+        }
+      ]
     },
     {
       "id": "18-030",
@@ -552,7 +827,8 @@
       ],
       "hints": [
         "Zoek getallen die samen 14 zijn.",
-        "Controleer de kwadraten van elk kandidatenpaar."
+        "Controleer de kwadraten van elk kandidatenpaar.",
+        "Je kunt ook $(a+b)^2=196$ gebruiken om $ab$ te vinden."
       ],
       "type": "multiple",
       "mode": "challenge",
@@ -571,6 +847,399 @@
           "answer": 8,
           "type": "numeric"
         }
+      ]
+    },
+    {
+      "id": "18-031",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "unit": "cm",
+      "question": "Een rechthoekige driehoek heeft zijden van 9, 40 en 41 cm. Hoeveel cm is de schuine zijde?",
+      "answer": 41,
+      "hints": [
+        "Zoek de zijde tegenover de rechte hoek.",
+        "De schuine zijde is de langste zijde."
+      ],
+      "solution": [
+        "De schuine zijde ligt tegenover de rechte hoek en is de langste zijde: 41 cm.",
+        "Controle: $9^2+40^2=81+1600=1681=41^2$."
+      ],
+      "feedback": [
+        {
+          "answer": 40,
+          "message": "40 cm is een rechthoekszijde, ook al is het de op één na langste. De schuine zijde is de allerlangste zijde, tegenover de rechte hoek."
+        },
+        {
+          "answer": 49,
+          "message": "Je hebt 9 en 40 opgeteld. De schuine zijde is een van de gegeven zijden: de langste."
+        }
+      ],
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-032",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "unit": "cm²",
+      "question": "De rechthoekszijden van een rechthoekige driehoek zijn 12 cm en 16 cm. Wat is de oppervlakte van het vierkant op de schuine zijde?",
+      "answer": 400,
+      "hints": [
+        "Het vierkant op de schuine zijde heeft oppervlakte $c^2$.",
+        "Je hoeft de wortel niet te nemen."
+      ],
+      "solution": [
+        "$c^2=12^2+16^2=144+256=400$.",
+        "Het vierkant op de schuine zijde heeft oppervlakte 400 cm² (zijn zijde is 20 cm)."
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Dat is de lengte van de schuine zijde. De vraag is naar de oppervlakte van het vierkant erop, en dat is $c^2$."
+        },
+        {
+          "answer": 28,
+          "message": "Je hebt 12 en 16 opgeteld. Kwadrateer de lengtes en tel de oppervlakten op."
+        }
+      ],
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-033",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "tolerance": 0.005,
+      "question": "Een rechthoekige driehoek heeft een schuine zijde van 10 en een rechthoekszijde van 5 (de overstaande zijde bij een hoek van 30°). Bereken de andere rechthoekszijde. Rond af op twee decimalen.",
+      "answer": 8.66,
+      "hints": [
+        "De schuine zijde is 10; je zoekt een rechthoekszijde.",
+        "Trek $5^2$ af van $10^2$ en neem de wortel."
+      ],
+      "solution": [
+        "$b^2=10^2-5^2=100-25=75$.",
+        "$b=\\sqrt{75}\\approx8{,}66$."
+      ],
+      "feedback": [
+        {
+          "answer": 75,
+          "message": "Je bent de wortel vergeten. $b^2=75$, dus $b=\\sqrt{75}$."
+        },
+        {
+          "answer": 11.18,
+          "message": "Je hebt de kwadraten opgeteld ($\\sqrt{125}$). De schuine zijde is al gegeven: trek af."
+        }
+      ],
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-034",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "tolerance": 0.05,
+      "unit": "cm",
+      "question": "Een rechthoek is 9 cm bij 14 cm. Bereken de diagonaal. Rond af op één decimaal.",
+      "answer": 16.6,
+      "hints": [
+        "De diagonaal is de schuine zijde van een rechthoekige driehoek met zijden 9 en 14.",
+        "Reken $\\sqrt{9^2+14^2}$."
+      ],
+      "solution": [
+        "$c^2=81+196=277$.",
+        "$c=\\sqrt{277}\\approx16{,}6$ cm."
+      ],
+      "feedback": [
+        {
+          "answer": 23,
+          "message": "Je hebt 9 en 14 opgeteld. De diagonaal is korter dan die som: kwadrateer eerst."
+        },
+        {
+          "answer": 277,
+          "message": "Je bent de wortel vergeten: $c^2=277$, dus $c=\\sqrt{277}$."
+        }
+      ],
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-035",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "tolerance": 0.05,
+      "question": "De schuine zijde van een rechthoekige driehoek is 9 en een rechthoekszijde is 6. Bereken de andere rechthoekszijde. Rond af op één decimaal.",
+      "answer": 6.7,
+      "hints": [
+        "Trek de kwadraten af: je zoekt een rechthoekszijde.",
+        "$9^2-6^2=45$."
+      ],
+      "solution": [
+        "$a^2=9^2-6^2=81-36=45$.",
+        "$a=\\sqrt{45}\\approx6{,}7$."
+      ],
+      "feedback": [
+        {
+          "answer": 10.8,
+          "message": "Je hebt de kwadraten opgeteld ($\\sqrt{117}$). De gegeven zijde van 9 is de schuine zijde, dus je moet aftrekken."
+        },
+        {
+          "answer": 3,
+          "message": "Je hebt de lengtes afgetrokken ($9-6$). Trek de kwadraten af en neem daarna de wortel."
+        }
+      ],
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-036",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een driehoek heeft zijden 9, 12 en 16. Bereken $9^2+12^2-16^2$. Is de uitkomst nul, dan is de hoek tegenover de langste zijde recht; is zij negatief, dan is die hoek stomp.",
+      "answer": -31,
+      "hints": [
+        "Bereken $81+144$ en trek daar $256$ van af.",
+        "Het kwadraat van de langste zijde staat achteraan."
+      ],
+      "solution": [
+        "$9^2+12^2=81+144=225$ en $16^2=256$.",
+        "$225-256=-31$.",
+        "De uitkomst is negatief, dus de hoek tegenover de zijde van 16 is stomp: de driehoek is niet rechthoekig."
+      ],
+      "feedback": [
+        {
+          "answer": 31,
+          "message": "Je teken klopt niet: $225-256$ is negatief. Dat betekent dat $c^2$ groter is dan $a^2+b^2$."
+        },
+        {
+          "answer": 0,
+          "message": "Dat zou 'rechthoekig' betekenen, maar $225\\ne256$. Reken de kwadraten opnieuw na."
+        }
+      ],
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-037",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "unit": "cm",
+      "question": "Een bouwer zet een rechte hoek uit met een 3-4-5-driehoek op grotere schaal: de benen zijn 150 cm en 200 cm. Hoe lang moet de afstand tussen de uiteinden van de benen zijn (in cm), zodat de hoek recht is?",
+      "answer": 250,
+      "hints": [
+        "Het is een 3-4-5-driehoek, vergroot met een factor.",
+        "Of reken $\\sqrt{150^2+200^2}$."
+      ],
+      "solution": [
+        "De factor is 50: $3\\times50=150$ en $4\\times50=200$.",
+        "De schuine zijde is $5\\times50=250$ cm.",
+        "Controle: $150^2+200^2=22500+40000=62500=250^2$."
+      ],
+      "feedback": [
+        {
+          "answer": 350,
+          "message": "Je hebt de benen opgeteld. De afstand tussen de uiteinden is de schuine zijde: gebruik kwadraten."
+        },
+        {
+          "answer": 62500,
+          "message": "Je bent de wortel vergeten: $c^2=62500$, dus $c=\\sqrt{62500}$."
+        }
+      ],
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-038",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "tolerance": 0.05,
+      "unit": "cm",
+      "question": "Een televisie is 80 cm breed en 45 cm hoog. Bereken de diagonaal van het scherm. Rond af op één decimaal.",
+      "answer": 91.8,
+      "hints": [
+        "Breedte en hoogte zijn de rechthoekszijden.",
+        "$80^2+45^2=8425$."
+      ],
+      "solution": [
+        "$c^2=80^2+45^2=6400+2025=8425$.",
+        "$c=\\sqrt{8425}\\approx91{,}8$ cm."
+      ],
+      "feedback": [
+        {
+          "answer": 125,
+          "message": "Je hebt breedte en hoogte opgeteld. De diagonaal is korter dan die som: kwadrateer eerst."
+        },
+        {
+          "answer": 8425,
+          "message": "Je bent de wortel vergeten: $c^2=8425$, dus $c=\\sqrt{8425}$."
+        }
+      ],
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-039",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "unit": "dm",
+      "question": "Een balk van 30 dm staat rechtop tegen een verticale muur. De bovenkant zakt 6 dm omlaag, de voet schuift van de muur af. Hoe ver is de voet nu van de muur?",
+      "answer": 18,
+      "hints": [
+        "De balk blijft 30 dm lang: dat is de schuine zijde.",
+        "De top staat nu op $30-6=24$ dm hoogte."
+      ],
+      "solution": [
+        "De balk is de schuine zijde: $c=30$. De hoogte tegen de muur is $a=24$.",
+        "$b^2=30^2-24^2=900-576=324$.",
+        "$b=\\sqrt{324}=18$ dm."
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "De voet schuift niet even ver als de top zakt. Teken de rechthoekige driehoek met de balk als schuine zijde en reken."
+        },
+        {
+          "answer": 324,
+          "message": "Je bent de wortel vergeten: $b^2=324$, dus $b=\\sqrt{324}$."
+        }
+      ],
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-040",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "unit": "dm",
+      "question": "Een kist is 12 dm lang, 9 dm breed en 8 dm hoog. Hoe lang is de langste rechte staaf die er net in past (de ruimtediagonaal)?",
+      "answer": 17,
+      "hints": [
+        "Gebruik $d=\\sqrt{l^2+b^2+h^2}$.",
+        "$144+81+64=289$."
+      ],
+      "solution": [
+        "$d^2=12^2+9^2+8^2=144+81+64=289$.",
+        "$d=\\sqrt{289}=17$ dm."
+      ],
+      "feedback": [
+        {
+          "answer": 29,
+          "message": "Je hebt de drie afmetingen opgeteld. De ruimtediagonaal is korter: kwadrateer, tel op en neem de wortel."
+        },
+        {
+          "answer": 289,
+          "message": "Je bent de wortel vergeten: $d^2=289$, dus $d=\\sqrt{289}$."
+        }
+      ],
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-041",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Het punt $A(-2; 1)$ ligt op afstand 10 van het punt $B(4; y)$ met $y>1$. Bereken $y$.",
+      "answer": 9,
+      "hints": [
+        "Het horizontale verschil is $4-(-2)=6$.",
+        "Dan geldt $6^2+(y-1)^2=10^2$."
+      ],
+      "solution": [
+        "Horizontaal verschil: 6. Dus $(y-1)^2=10^2-6^2=64$.",
+        "$y-1=8$ (want $y>1$), dus $y=9$.",
+        "Controle: $\\sqrt{6^2+8^2}=10$."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Je hebt het verticale verschil $y-1=8$ gevonden, maar $y$ zelf is $1+8$."
+        },
+        {
+          "answer": -7,
+          "message": "Dat is de andere oplossing van $(y-1)^2=64$. De opgave eist $y>1$."
+        }
+      ],
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-042",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een rechthoekige driehoek heeft twee even lange rechthoekszijden en een schuine zijde van 10. Wat is zijn oppervlakte?",
+      "answer": 25,
+      "hints": [
+        "Noem de rechthoekszijden $a$: $a^2+a^2=100$.",
+        "De oppervlakte is $\\tfrac12a^2$."
+      ],
+      "solution": [
+        "$2a^2=100$, dus $a^2=50$.",
+        "De oppervlakte is $\\tfrac12\\cdot a\\cdot a=\\tfrac12\\cdot50=25$."
+      ],
+      "feedback": [
+        {
+          "answer": 50,
+          "message": "Dat is $a^2$, het kwadraat van een rechthoekszijde. De oppervlakte van de driehoek is de helft van $a\\cdot a$."
+        },
+        {
+          "answer": 100,
+          "message": "Dat is $c^2$. Gevraagd is de oppervlakte van de driehoek: de helft van $a^2$, met $2a^2=100$."
+        }
+      ],
+      "topics": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "18-043",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "tolerance": 0.005,
+      "question": "Uit de Negen Hoofdstukken: een bamboestok van 10 eenheden hoog breekt. De top raakt de grond op 3 eenheden van de voet. Hoe hoog zit de breuk? Rond af op twee decimalen.",
+      "answer": 4.55,
+      "hints": [
+        "Noem de hoogte van de breuk $x$; het gebroken stuk is $10-x$ lang.",
+        "$x^2+3^2=(10-x)^2$."
+      ],
+      "solution": [
+        "Het gebroken stuk is de schuine zijde: $x^2+9=(10-x)^2=100-20x+x^2$.",
+        "$20x=91$, dus $x=4{,}55$."
+      ],
+      "feedback": [
+        {
+          "answer": 9.54,
+          "message": "Je hebt $\\sqrt{10^2-3^2}$ berekend, alsof de hele stok de schuine zijde was. Maar de stok is gebroken: alleen het bovenste stuk (lengte $10-x$) is de schuine zijde."
+        },
+        {
+          "answer": 7,
+          "message": "Je hebt 10 − 3 gedaan. Teken de driehoek: de breukhoogte $x$, de afstand 3 en het gebroken stuk $10-x$ vormen een rechthoekige driehoek."
+        }
+      ],
+      "topics": [
+        "pythagoras"
       ]
     }
   ]

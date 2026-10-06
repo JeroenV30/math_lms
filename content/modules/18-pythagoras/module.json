@@ -7,7 +7,7 @@
   "status": "available",
   "historical_period": "Oudheid",
   "estimated_difficulty": 2,
-  "estimated_minutes": 160,
+  "estimated_minutes": 200,
   "prerequisites": [
     17
   ],
@@ -57,27 +57,44 @@
     {
       "name": "Pythagoras",
       "latex": "a^2+b^2=c^2",
-      "usage": "a en b sluiten de rechte hoek in; c ligt ertegenover."
+      "usage": "a en b sluiten de rechte hoek in; c ligt ertegenover.",
+      "origin": "Relatie bekend uit Oudbabylonische kleitabletten (ca. 1800 v.Chr.), de Indiase Sulbasutra's en Chinese bronnen; het oudste bewaarde bewijs staat in Euclides, Elementen I.47."
     },
     {
       "name": "Schuine zijde",
       "latex": "c=\\sqrt{a^2+b^2}",
-      "usage": "Neem de positieve lengte."
+      "usage": "Neem de positieve lengte.",
+      "origin": "Volgt uit de stelling door de wortel te nemen."
     },
     {
       "name": "Rechthoekszijde",
       "latex": "a=\\sqrt{c^2-b^2}",
-      "usage": "Trek het kwadraat van de bekende rechthoekszijde af."
+      "usage": "Trek het kwadraat van de bekende rechthoekszijde af.",
+      "origin": "Volgt uit $a^2+b^2=c^2$ door $b^2$ van beide kanten af te trekken."
     },
     {
       "name": "Afstand in het vlak",
       "latex": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}",
-      "usage": "Gebruik een loodrecht assenstelsel met dezelfde lengteschaal op beide assen."
+      "usage": "Gebruik een loodrecht assenstelsel met dezelfde lengteschaal op beide assen.",
+      "origin": "Pythagoras toegepast op het horizontale en verticale verschil; de basis van de analytische meetkunde sinds Descartes."
     },
     {
       "name": "Ruimtediagonaal van een balk",
       "latex": "d=\\sqrt{l^2+b^2+h^2}",
-      "usage": "Pas Pythagoras tweemaal toe."
+      "usage": "Pas Pythagoras tweemaal toe.",
+      "origin": "Tweemaal Pythagoras: eerst in het grondvlak, dan met de hoogte."
+    },
+    {
+      "name": "Omkering",
+      "latex": "a^2+b^2=c^2 \\Rightarrow \text{rechte hoek tegenover } c",
+      "usage": "Neem de langste zijde als c. Bij $a^2+b^2>c^2$ is de hoek scherp, bij $a^2+b^2<c^2$ stomp.",
+      "origin": "Euclides, Elementen I.48."
+    },
+    {
+      "name": "Pythagoreïsch drietal",
+      "latex": "a=m^2-n^2,\\; b=2mn,\\; c=m^2+n^2",
+      "usage": "Met gehele $m>n>0$ krijg je een drietal met $a^2+b^2=c^2$.",
+      "origin": "Verband met Plimpton 322 is een interpretatie; de formule staat bij Euclides."
     }
   ],
   "lessons": [
@@ -101,19 +118,19 @@
     },
     {
       "slug": "bewijs-en-omkering",
-      "title": "Een oppervlaktebewijs",
+      "title": "Bewijzen en de omkering",
       "kind": "theory",
       "file": "04-bewijs-en-omkering.md"
     },
     {
       "slug": "coordinaten-en-ruimte",
-      "title": "Afstanden uit coördinaten",
+      "title": "Afstanden en ruimtediagonalen",
       "kind": "theory",
       "file": "05-coordinaten-en-ruimte.md"
     },
     {
       "slug": "historisch-intermezzo",
-      "title": "Drietallen en algemene regels",
+      "title": "Drietallen en oude bronnen",
       "kind": "history",
       "file": "06-historisch-intermezzo.md"
     },
@@ -132,9 +149,13 @@
   ],
   "timeline": [
     "plimpton-322",
-    "pythagoras"
+    "ybc-7289",
+    "pythagoras",
+    "euclides-elementen",
+    "negen-hoofdstukken"
   ],
   "mathematicians": [
-    "pythagoras"
+    "pythagoras",
+    "euclides"
   ]
 }

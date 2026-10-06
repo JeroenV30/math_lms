@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" role="img" aria-labelledby="title desc">
+  <title id="title">Het hypotenusa-diagram</title>
+  <desc id="desc">Een rooster van 7 bij 7 met daarin een gekanteld vierkant van oppervlakte 25 op de schuine zijde van een 3-4-5-driehoek. Binnen dat vierkant liggen vier driehoeken van oppervlakte 6 en in het midden een vierkantje van 1 bij 1.</desc>
+  <rect width="700" height="380" fill="#fff"/>
+  <g font-family="sans-serif" fill="#1f2933" font-size="16">
+    <polygon points="40.0,50.0 320.0,50.0 320.0,330.0 40.0,330.0" fill="#ffffff" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="80.0" y1="50.0" x2="80.0" y2="330.0" stroke="#ced4da" stroke-width="1"/>
+    <line x1="40.0" y1="90.0" x2="320.0" y2="90.0" stroke="#ced4da" stroke-width="1"/>
+    <line x1="120.0" y1="50.0" x2="120.0" y2="330.0" stroke="#ced4da" stroke-width="1"/>
+    <line x1="40.0" y1="130.0" x2="320.0" y2="130.0" stroke="#ced4da" stroke-width="1"/>
+    <line x1="160.0" y1="50.0" x2="160.0" y2="330.0" stroke="#ced4da" stroke-width="1"/>
+    <line x1="40.0" y1="170.0" x2="320.0" y2="170.0" stroke="#ced4da" stroke-width="1"/>
+    <line x1="200.0" y1="50.0" x2="200.0" y2="330.0" stroke="#ced4da" stroke-width="1"/>
+    <line x1="40.0" y1="210.0" x2="320.0" y2="210.0" stroke="#ced4da" stroke-width="1"/>
+    <line x1="240.0" y1="50.0" x2="240.0" y2="330.0" stroke="#ced4da" stroke-width="1"/>
+    <line x1="40.0" y1="250.0" x2="320.0" y2="250.0" stroke="#ced4da" stroke-width="1"/>
+    <line x1="280.0" y1="50.0" x2="280.0" y2="330.0" stroke="#ced4da" stroke-width="1"/>
+    <line x1="40.0" y1="290.0" x2="320.0" y2="290.0" stroke="#ced4da" stroke-width="1"/>
+    <polygon points="160.0,50.0 320.0,170.0 200.0,330.0 40.0,210.0" fill="#dbe4ff" stroke="#3b5bdb" stroke-width="3" stroke-linejoin="round"/>
+    <polygon points="160.0,50.0 320.0,170.0 160.0,170.0" fill="#f3e6d6" stroke="#9c6b30" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="320.0,170.0 200.0,330.0 200.0,170.0" fill="#f3e6d6" stroke="#9c6b30" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="200.0,330.0 40.0,210.0 200.0,210.0" fill="#f3e6d6" stroke="#9c6b30" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="40.0,210.0 160.0,50.0 160.0,210.0" fill="#f3e6d6" stroke="#9c6b30" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="160.0,170.0 200.0,170.0 200.0,210.0 160.0,210.0" fill="#ffffff" stroke="#1f2933" stroke-width="1.5" stroke-linejoin="round"/>
+    <text x="180.0" y="195.0" text-anchor="middle" font-size="13">1</text>
+    <text x="100.0" y="40.0" text-anchor="middle" font-size="16">3</text>
+    <text x="240.0" y="40.0" text-anchor="middle" font-size="16">4</text>
+    <text x="264.0" y="100.0" text-anchor="middle" font-size="15" fill="#3b5bdb" font-weight="bold">5</text>
+    <text x="360.0" y="70.0" text-anchor="start" font-size="17" font-weight="bold">Het 'hypotenusa-diagram'</text>
+    <text x="360.0" y="100.0" text-anchor="start" font-size="15">Gekanteld vierkant op de schuine zijde:</text>
+    <text x="360.0" y="128.0" text-anchor="start" font-size="15">van buitenaf: 7 × 7 − 4 × 6 = 49 − 24 = 25</text>
+    <text x="360.0" y="156.0" text-anchor="start" font-size="15">van binnenuit: 4 × 6 + 1 × 1 = 24 + 1 = 25</text>
+    <text x="360.0" y="196.0" text-anchor="start" font-size="15" font-weight="bold">Algemeen (a &lt; b):</text>
+    <text x="360.0" y="224.0" text-anchor="start" font-size="15">(a + b)² − 2ab = c²</text>
+    <text x="360.0" y="252.0" text-anchor="start" font-size="15">2ab + (b − a)² = c²</text>
+    <text x="360.0" y="292.0" text-anchor="start" font-size="15" fill="#3b5bdb" font-weight="bold">Beide geven a² + b² = c².</text>
+    <text x="360.0" y="330.0" text-anchor="start" font-size="13" fill="#616e7c">Naar de figuur in de Zhou Bi Suan Jing</text>
+    <text x="360.0" y="348.0" text-anchor="start" font-size="13" fill="#616e7c">(commentaar van Zhao Shuang, 3e eeuw).</text>
+  </g>
+</svg>

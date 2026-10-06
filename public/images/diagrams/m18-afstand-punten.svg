@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" role="img" aria-labelledby="title desc">
+  <title id="title">Afstand tussen twee punten</title>
+  <desc id="desc">Assenstelsel met de punten A(1; 2) en B(7; 10). Een horizontaal hulpstuk van 6 en een verticaal hulpstuk van 8 vormen met AB een rechthoekige driehoek; de afstand AB is 10.</desc>
+  <rect width="520" height="360" fill="#fff"/>
+  <g font-family="sans-serif" fill="#1f2933" font-size="16">
+    <line x1="60.0" y1="330.0" x2="60.0" y2="30.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="60.0" y1="330.0" x2="360.0" y2="330.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="90.0" y1="330.0" x2="90.0" y2="30.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="60.0" y1="300.0" x2="360.0" y2="300.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="120.0" y1="330.0" x2="120.0" y2="30.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="60.0" y1="270.0" x2="360.0" y2="270.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="150.0" y1="330.0" x2="150.0" y2="30.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="60.0" y1="240.0" x2="360.0" y2="240.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="180.0" y1="330.0" x2="180.0" y2="30.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="60.0" y1="210.0" x2="360.0" y2="210.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="210.0" y1="330.0" x2="210.0" y2="30.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="60.0" y1="180.0" x2="360.0" y2="180.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="240.0" y1="330.0" x2="240.0" y2="30.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="60.0" y1="150.0" x2="360.0" y2="150.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="270.0" y1="330.0" x2="270.0" y2="30.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="60.0" y1="120.0" x2="360.0" y2="120.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="300.0" y1="330.0" x2="300.0" y2="30.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="60.0" y1="90.0" x2="360.0" y2="90.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="330.0" y1="330.0" x2="330.0" y2="30.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="60.0" y1="60.0" x2="360.0" y2="60.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="360.0" y1="330.0" x2="360.0" y2="30.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="60.0" y1="30.0" x2="360.0" y2="30.0" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="60.0" y1="330.0" x2="372.0" y2="330.0" stroke="#1f2933" stroke-width="1.5"/>
+    <line x1="60.0" y1="330.0" x2="60.0" y2="18.0" stroke="#1f2933" stroke-width="1.5"/>
+    <text x="382.0" y="335.0" text-anchor="middle" font-size="15" font-style="italic">x</text>
+    <text x="60.0" y="12.0" text-anchor="middle" font-size="15" font-style="italic">y</text>
+    <text x="120.0" y="348.0" text-anchor="middle" font-size="12" fill="#616e7c">2</text>
+    <text x="50.0" y="274.0" text-anchor="end" font-size="12" fill="#616e7c">2</text>
+    <text x="180.0" y="348.0" text-anchor="middle" font-size="12" fill="#616e7c">4</text>
+    <text x="50.0" y="214.0" text-anchor="end" font-size="12" fill="#616e7c">4</text>
+    <text x="240.0" y="348.0" text-anchor="middle" font-size="12" fill="#616e7c">6</text>
+    <text x="50.0" y="154.0" text-anchor="end" font-size="12" fill="#616e7c">6</text>
+    <text x="300.0" y="348.0" text-anchor="middle" font-size="12" fill="#616e7c">8</text>
+    <text x="50.0" y="94.0" text-anchor="end" font-size="12" fill="#616e7c">8</text>
+    <text x="360.0" y="348.0" text-anchor="middle" font-size="12" fill="#616e7c">10</text>
+    <text x="50.0" y="34.0" text-anchor="end" font-size="12" fill="#616e7c">10</text>
+    <line x1="90.0" y1="270.0" x2="270.0" y2="270.0" stroke="#9c6b30" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <line x1="270.0" y1="270.0" x2="270.0" y2="30.0" stroke="#9c6b30" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <line x1="90.0" y1="270.0" x2="270.0" y2="30.0" stroke="#3b5bdb" stroke-width="3.5"/>
+    <path d="M258.0,270.0 L258.0,258.0 L270.0,258.0" fill="none" stroke="#9c6b30" stroke-width="1.5"/>
+    <circle cx="90.0" cy="270.0" r="5" fill="#3b5bdb"/>
+    <text x="82.0" y="260.0" text-anchor="end" font-size="14" font-weight="bold">A(1; 2)</text>
+    <circle cx="270.0" cy="30.0" r="5" fill="#3b5bdb"/>
+    <text x="260.0" y="20.0" text-anchor="end" font-size="14" font-weight="bold">B(7; 10)</text>
+    <text x="180.0" y="290.0" text-anchor="middle" font-size="14" fill="#9c6b30">Δx = 7 − 1 = 6</text>
+    <text x="280.0" y="150.0" text-anchor="start" font-size="14" fill="#9c6b30">Δy = 10 − 2 = 8</text>
+    <text x="164.0" y="142.0" text-anchor="end" font-size="18" fill="#3b5bdb" font-weight="bold" font-style="italic">d</text>
+    <text x="330.0" y="30.0" text-anchor="start" font-size="17" font-weight="bold">d = √(6² + 8²) = √100 = 10</text>
+  </g>
+</svg>
