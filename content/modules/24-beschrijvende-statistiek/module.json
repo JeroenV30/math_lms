@@ -7,7 +7,7 @@
   "status": "available",
   "historical_period": "19e eeuw",
   "estimated_difficulty": 3,
-  "estimated_minutes": 150,
+  "estimated_minutes": 300,
   "prerequisites": [
     23
   ],
@@ -17,15 +17,16 @@
     "dispersion"
   ],
   "core_question": "Welke kenmerken vatten een dataset samen, en welke informatie verdwijnt bij die samenvatting?",
-  "summary": "Centrum, kwartielen, boxplots, variantie en standaardafwijking. Je kiest maten passend bij de verdeling en houdt populatie en steekproef uit elkaar.",
+  "summary": "Centrum en spreiding van data: gemiddelde, mediaan, kwartielen, boxplots, variantie en standaardafwijking, met populatie tegenover steekproef, z-scores en een eerste blik op de klokvormige verdeling.",
   "learning_goals": [
-    "Je berekent gemiddelde, mediaan en modus uit losse waarden of frequenties.",
-    "Je berekent kwartielen volgens een expliciete conventie.",
-    "Je leest een boxplot en onderscheidt minimum/maximumsnorren van uitschietersnorren.",
-    "Je berekent spreidingsbreedte, interkwartielafstand, variantie en standaardafwijking.",
-    "Je onderscheidt delen door n van de steekproefcorrectie n − 1.",
-    "Je verklaart hoe verschuiven en schalen centrum en spreiding veranderen.",
-    "Je beoordeelt de invloed van uitschieters en vergelijkt groepen zonder causaliteit te veronderstellen."
+    "Je berekent gemiddelde, mediaan en modus uit losse waarden, frequentietabellen en klassen, en je gebruikt een gewogen gemiddelde.",
+    "Je onderscheidt populatie en steekproef en weet waarom die keuze de formule voor de spreiding bepaalt.",
+    "Je berekent kwartielen volgens een expliciete conventie, de interkwartielafstand en de vijfgetallensamenvatting.",
+    "Je tekent en leest een boxplot en past de 1,5 × IQR-regel toe, zonder uitschieters automatisch te verwijderen.",
+    "Je berekent variantie en standaardafwijking stap voor stap met een tabel en legt uit waarom je kwadrateert.",
+    "Je legt uit waarom je bij een steekproef door n − 1 deelt, en kiest bewust tussen delen door n en n − 1.",
+    "Je voorspelt hoe verschuiven en schalen gemiddelde, mediaan, standaardafwijking en variantie veranderen.",
+    "Je vergelijkt twee groepen met centrum én spreiding, berekent een z-score en past de vuistregel 68-95-99,7 toe op klokvormige data."
   ],
   "glossary": [
     {
@@ -63,33 +64,86 @@
     {
       "term": "Uitschieter",
       "definition": "Een opvallend ver gelegen waarneming; een signaal om te onderzoeken, geen automatische verwijderreden."
+    },
+    {
+      "term": "Frequentietabel",
+      "definition": "Een tabel met per waarde het aantal keren dat die voorkomt."
+    },
+    {
+      "term": "Gewogen gemiddelde",
+      "definition": "Een gemiddelde waarbij elke waarde meetelt naar haar gewicht of frequentie: som van gewicht × waarde, gedeeld door de som van de gewichten."
+    },
+    {
+      "term": "Vijfgetallensamenvatting",
+      "definition": "Minimum, eerste kwartiel, mediaan, derde kwartiel en maximum."
+    },
+    {
+      "term": "Boxplot",
+      "definition": "Grafiek van de vijfgetallensamenvatting: een box van Q₁ tot Q₃ met de mediaan erin en snorren naar de uiterste waarden."
+    },
+    {
+      "term": "Z-score",
+      "definition": "Het aantal standaardafwijkingen dat een waarde boven (positief) of onder (negatief) het gemiddelde ligt: (x − μ)/σ."
+    },
+    {
+      "term": "Robuust",
+      "definition": "Weinig gevoelig voor uitschieters, zoals de mediaan en de interkwartielafstand."
     }
   ],
   "formulas": [
     {
       "name": "Gemiddelde",
       "latex": "\\bar{x}=\\frac{1}{n}\\sum_{i=1}^{n}x_i",
-      "usage": "Som van alle waarden gedeeld door aantal."
+      "usage": "Som van alle waarden gedeeld door aantal.",
+      "origin": "Het rekenkundig gemiddelde is eeuwenoud; Quetelet maakte het in 1835 tot kenmerk van een bevolking (l'homme moyen)."
+    },
+    {
+      "name": "Gewogen gemiddelde",
+      "latex": "\\bar{x}_w=\\frac{\\sum w_i x_i}{\\sum w_i}",
+      "usage": "Frequentietabellen, klassenmiddens, wegingen en het samenvoegen van groepen.",
+      "origin": "Het gemiddelde uit een frequentietabel is een gewogen gemiddelde met de frequenties als gewichten."
     },
     {
       "name": "Interkwartielafstand",
       "latex": "\\mathrm{IQR}=Q_3-Q_1",
-      "usage": "Gebruikt kwartielen volgens dezelfde afspraak."
+      "usage": "Gebruikt kwartielen volgens dezelfde afspraak; robuuste maat voor spreiding.",
+      "origin": "Hoort bij de boxplot van Tukey (1970, 1977)."
+    },
+    {
+      "name": "Uitschietergrenzen",
+      "latex": "Q_1-1{,}5\\,\\mathrm{IQR}\\quad\\text{en}\\quad Q_3+1{,}5\\,\\mathrm{IQR}",
+      "usage": "Waarnemingen buiten deze grenzen worden als mogelijke uitschieters gemarkeerd.",
+      "origin": "Afspraak uit de verkennende data-analyse; geen natuurwet."
     },
     {
       "name": "Populatievariantie",
       "latex": "\\sigma^2=\\frac{1}{n}\\sum_{i=1}^{n}(x_i-\\mu)^2",
-      "usage": "Als de data de volledige te beschrijven populatie vormen."
+      "usage": "Als de data de volledige te beschrijven populatie vormen.",
+      "origin": "Kwadrateren voorkomt dat afwijkingen elkaar opheffen en weegt grote afwijkingen zwaarder."
     },
     {
       "name": "Steekproefvariantie",
       "latex": "s^2=\\frac{1}{n-1}\\sum_{i=1}^{n}(x_i-\\bar{x})^2",
-      "usage": "Gecorrigeerde spreidingsschatter bij n > 1."
+      "usage": "Gecorrigeerde spreidingsschatter bij n > 1; zuivere schatter van de populatievariantie.",
+      "origin": "De noemer n − 1 compenseert dat x̄ uit dezelfde steekproef komt."
     },
     {
       "name": "Standaardafwijking",
       "latex": "\\sigma=\\sqrt{\\sigma^2},\\qquad s=\\sqrt{s^2}",
-      "usage": "De wortel brengt de oorspronkelijke eenheid terug."
+      "usage": "De wortel brengt de oorspronkelijke eenheid terug.",
+      "origin": "De naam 'standard deviation' wordt aan Karl Pearson toegeschreven (1893)."
+    },
+    {
+      "name": "Lineaire transformatie",
+      "latex": "\\bar{x}'=a\\bar{x}+b,\\qquad s'=|a|\\,s",
+      "usage": "Hoe gemiddelde en standaardafwijking veranderen bij x \\mapsto ax + b.",
+      "origin": "Schalen vermenigvuldigt afwijkingen; verschuiven laat ze gelijk."
+    },
+    {
+      "name": "Z-score",
+      "latex": "z=\\frac{x-\\mu}{\\sigma}",
+      "usage": "Aantal standaardafwijkingen van het gemiddelde; maakt metingen op verschillende schalen vergelijkbaar.",
+      "origin": "Vooruitblik op de normale verdeling (module 37)."
     }
   ],
   "lessons": [
@@ -125,7 +179,7 @@
     },
     {
       "slug": "geschiedenis",
-      "title": "Gegevens samenvatten en zichtbaar maken",
+      "title": "Van gemiddelde mens tot boxplot",
       "kind": "history",
       "file": "06-geschiedenis.md"
     },
@@ -142,6 +196,12 @@
       "file": "08-samenvatting.md"
     }
   ],
-  "timeline": [],
-  "mathematicians": []
+  "timeline": [
+    "galton-regressie",
+    "karl-pearson",
+    "tukey-eda"
+  ],
+  "mathematicians": [
+    "karl-pearson"
+  ]
 }

@@ -66,6 +66,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Dat is het gemiddelde. De mediaan is de middelste waarde van de gesorteerde rij."
+        }
       ]
     },
     {
@@ -83,6 +89,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Dat is de mediaan. Het gemiddelde gebruikt alle waarden, ook de 12: tel alles op en deel door 5."
+        }
       ]
     },
     {
@@ -100,6 +112,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Dat is het gemiddelde. De modus is de waarde die het vaakst voorkomt."
+        }
       ]
     },
     {
@@ -117,6 +135,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Je nam het gemiddelde van alleen 2 en 6. De waarde 2 komt driemaal voor en moet dus driemaal meetellen."
+        }
       ]
     },
     {
@@ -135,14 +159,21 @@
       "topics": [
         "descriptive-statistics"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je nam het gemiddelde van 6 en 8. De grotere groep telt zwaarder: weeg met 10 en 30."
+        }
+      ]
     },
     {
       "id": "24-009",
       "question": "Bij 1, 3, 5, 7, 9: geef Q₁ en Q₃. Sluit de middelste observatie uit de helften.",
       "solution": [
-        "Onderste helft 1, 3 geeft 2.",
-        "Bovenste helft 7, 9 geeft 8."
+        "De mediaan is 5; de middelste waarneming (5) laat je buiten beide helften.",
+        "Onderste helft 1, 3 geeft Q₁ = (1 + 3)/2 = 2.",
+        "Bovenste helft 7, 9 geeft Q₃ = (7 + 9)/2 = 8."
       ],
       "hints": [
         "Neem de mediaan van elke helft."
@@ -181,6 +212,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Je telde de kwartielen op (2 + 8). De interkwartielafstand is het verschil: Q₃ − Q₁."
+        }
       ]
     },
     {
@@ -199,7 +236,17 @@
       "topics": [
         "descriptive-statistics"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je nam alleen de vijfde waarde. Bij acht waarden zijn de vierde én de vijfde de middelste; neem hun gemiddelde."
+        },
+        {
+          "answer": 4,
+          "message": "Je nam alleen de vierde waarde. Bij acht waarden zijn de vierde én de vijfde de middelste; neem hun gemiddelde."
+        }
+      ]
     },
     {
       "id": "24-012",
@@ -279,6 +326,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": -3,
+          "message": "Dit is de afwijking zelf. Je moet haar nog kwadrateren: (−3)² = 9."
+        }
       ]
     },
     {
@@ -296,6 +349,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 32,
+          "message": "Je deelde de som niet. Voor de populatievariantie deel je door n = 8."
+        }
       ]
     },
     {
@@ -313,6 +372,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Dit is de variantie. Neem er nog de wortel van om de standaardafwijking te krijgen."
+        }
       ]
     },
     {
@@ -330,6 +395,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Dit is het gemiddelde. De spreiding van gelijke waarden is nul."
+        }
       ]
     },
     {
@@ -365,7 +436,17 @@
       "topics": [
         "descriptive-statistics"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je deelde door n = 8 (populatie). Voor een steekproef deel je door n − 1 = 7."
+        },
+        {
+          "answer": 4.57,
+          "message": "Dit is de steekproefvariantie. Neem er nog de wortel van."
+        }
+      ]
     },
     {
       "id": "24-021",
@@ -399,6 +480,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Dit is het gemiddelde, niet de spreidingsbreedte. Trek het minimum van het maximum af."
+        }
       ]
     },
     {
@@ -450,6 +537,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je telde 10 bij de standaardafwijking op. Een verschuiving verandert de spreiding niet."
+        }
       ]
     },
     {
@@ -467,6 +560,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je telde 3 op. Schalen vermenigvuldigt de standaardafwijking: 3 × 2."
+        }
       ]
     },
     {
@@ -484,6 +583,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je vermenigvuldigde met 3 in plaats van met 3². De variantie gebruikt gekwadrateerde afwijkingen."
+        }
       ]
     },
     {
@@ -501,6 +606,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": -6,
+          "message": "Een standaardafwijking kan niet negatief zijn: vermenigvuldig met |−3| = 3."
+        }
       ]
     },
     {
@@ -518,6 +629,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 7.5,
+          "message": "Je telde 1,5 op bij Q₃ en vergat de IQR. De grens is Q₃ + 1,5 × IQR."
+        }
       ]
     },
     {
@@ -551,6 +668,582 @@
         {
           "label": "standaardafwijking",
           "answer": 6,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "24-031",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bij 20 leerlingen is genoteerd hoe vaak ze te laat kwamen: 0 keer bij 3 leerlingen, 1 keer bij 5, 2 keer bij 7, 3 keer bij 4 en 4 keer bij 1. Bereken het gemiddeld aantal keren te laat.",
+      "hints": [
+        "Vermenigvuldig elke waarde met haar frequentie.",
+        "Deel door het totale aantal leerlingen, niet door het aantal verschillende waarden."
+      ],
+      "solution": [
+        "Som: 3·0 + 5·1 + 7·2 + 4·3 + 1·4 = 35.",
+        "Aantal leerlingen: 3 + 5 + 7 + 4 + 1 = 20.",
+        "35/20 = 1,75."
+      ],
+      "topics": [
+        "averages"
+      ],
+      "answer": 1.75,
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je nam het gemiddelde van de vijf waarden 0, 1, 2, 3, 4 en negeerde de frequenties. Vermenigvuldig elke waarde met haar frequentie."
+        },
+        {
+          "answer": 7,
+          "message": "Je deelde de som 35 door 5 (het aantal verschillende waarden). Deel door het aantal leerlingen, 20."
+        }
+      ]
+    },
+    {
+      "id": "24-032",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Reistijden van 20 leerlingen: 0 ≤ t < 10 minuten: 4 leerlingen; 10 ≤ t < 20: 9; 20 ≤ t < 30: 5; 30 ≤ t < 40: 2. Schat het gemiddelde met de klassenmiddens (in minuten).",
+      "hints": [
+        "Neem aan dat alle waarnemingen in het midden van hun klasse liggen.",
+        "Weeg elk klassenmidden met zijn frequentie."
+      ],
+      "solution": [
+        "Klassenmiddens: 5, 15, 25, 35.",
+        "Som: 4·5 + 9·15 + 5·25 + 2·35 = 20 + 135 + 125 + 70 = 350.",
+        "350/20 = 17,5."
+      ],
+      "topics": [
+        "averages"
+      ],
+      "answer": 17.5,
+      "tolerance": 0.05,
+      "unit": "min",
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Je nam het gemiddelde van de vier klassenmiddens (5, 15, 25, 35). De klassen hebben verschillende frequenties: weeg ze."
+        },
+        {
+          "answer": 350,
+          "message": "Dit is de geschatte som. Deel door het aantal waarnemingen, 20."
+        }
+      ]
+    },
+    {
+      "id": "24-033",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een vak telt drie toetsen mee met wegingen 20%, 30% en 50%. Je haalt een 6,5, een 7,0 en een 8,0. Bereken je eindcijfer (op twee decimalen; hier is het exact).",
+      "hints": [
+        "Vermenigvuldig elk cijfer met zijn weging.",
+        "Tel op; de wegingen samen zijn 100%."
+      ],
+      "solution": [
+        "0,2·6,5 = 1,3; 0,3·7,0 = 2,1; 0,5·8,0 = 4,0.",
+        "Som: 1,3 + 2,1 + 4,0 = 7,4. De gewichten tellen op tot 1."
+      ],
+      "topics": [
+        "averages"
+      ],
+      "answer": 7.4,
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 7.17,
+          "message": "Je nam het gewone gemiddelde van de drie cijfers. De zwaarste toets (50%) moet zwaarder tellen: weeg de cijfers."
+        }
+      ]
+    },
+    {
+      "id": "24-034",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken de mediaan van 9, 3, 7, 1, 12, 5, 8.",
+      "hints": [
+        "Sorteer eerst van klein naar groot.",
+        "Bij zeven waarden is de vierde de middelste."
+      ],
+      "solution": [
+        "Sorteer: 1, 3, 5, 7, 8, 9, 12.",
+        "Zeven waarden: de vierde is de middelste, dus de mediaan is 7."
+      ],
+      "topics": [
+        "averages"
+      ],
+      "answer": 7,
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Je nam de vierde waarde van de rij zoals die er staat. Sorteer eerst, en neem dan de middelste waarde."
+        },
+        {
+          "answer": 6.5,
+          "message": "Je nam het gemiddelde van twee middelste getallen, maar er zijn zeven waarden: er is één middelste waarde."
+        }
+      ]
+    },
+    {
+      "id": "24-035",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Twaalf wachttijden (minuten): 3, 5, 6, 6, 7, 8, 9, 10, 11, 12, 14, 30. Geef de vijfgetallensamenvatting volgens de mediaan-van-helftenconventie.",
+      "hints": [
+        "n = 12 is even: beide helften bestaan uit zes waarden.",
+        "Neem van elke helft de mediaan, het gemiddelde van de derde en vierde waarde."
+      ],
+      "solution": [
+        "Minimum 3 en maximum 30.",
+        "Mediaan: (8 + 9)/2 = 8,5.",
+        "Onderste helft 3, 5, 6, 6, 7, 8: Q₁ = (6 + 6)/2 = 6.",
+        "Bovenste helft 9, 10, 11, 12, 14, 30: Q₃ = (11 + 12)/2 = 11,5."
+      ],
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "parts": [
+        {
+          "label": "minimum",
+          "answer": 3,
+          "type": "numeric"
+        },
+        {
+          "label": "Q₁",
+          "answer": 6,
+          "type": "numeric"
+        },
+        {
+          "label": "mediaan",
+          "answer": 8.5,
+          "type": "decimal",
+          "tolerance": 0.005
+        },
+        {
+          "label": "Q₃",
+          "answer": 11.5,
+          "type": "decimal",
+          "tolerance": 0.005
+        },
+        {
+          "label": "maximum",
+          "answer": 30,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "24-036",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bij de twaalf wachttijden is Q₁ = 6 en Q₃ = 11,5. Bereken de interkwartielafstand.",
+      "hints": [
+        "Het verschil tussen de kwartielen."
+      ],
+      "solution": [
+        "IQR = Q₃ − Q₁ = 11,5 − 6 = 5,5."
+      ],
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "answer": 5.5,
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 17.5,
+          "message": "Je telde de kwartielen op (6 + 11,5). De IQR is het verschil Q₃ − Q₁."
+        },
+        {
+          "answer": 27,
+          "message": "Dit is de spreidingsbreedte (30 − 3). De IQR gebruikt de kwartielen, niet minimum en maximum."
+        }
+      ]
+    },
+    {
+      "id": "24-037",
+      "type": "interval",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bij de twaalf wachttijden is Q₁ = 6, Q₃ = 11,5 en IQR = 5,5. Geef het interval [ondergrens; bovengrens] van de 1,5 × IQR-regel: waarnemingen erbuiten zijn uitschieters.",
+      "hints": [
+        "Bereken eerst 1,5 × IQR.",
+        "Trek het van Q₁ af en tel het bij Q₃ op."
+      ],
+      "solution": [
+        "1,5 · 5,5 = 8,25.",
+        "Ondergrens: 6 − 8,25 = −2,25.",
+        "Bovengrens: 11,5 + 8,25 = 19,75."
+      ],
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "answer": "[-2.25; 19.75]",
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": "[6; 11.5]",
+          "message": "Dit is de box (Q₁ tot Q₃). De uitschietergrenzen liggen 1,5 × IQR buiten de box."
+        },
+        {
+          "answer": "[-2.25; 11.5]",
+          "message": "De bovengrens is Q₃ + 1,5 × IQR, niet Q₃. Bereken beide grenzen op dezelfde manier."
+        }
+      ]
+    },
+    {
+      "id": "24-038",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bij de twaalf wachttijden liggen de grenzen op −2,25 en 19,75. Het boxplot gebruikt de uitschieterregel. Bij welke waarde eindigt de rechtersnor?",
+      "hints": [
+        "De snor stopt bij een echte waarneming.",
+        "Welke waarneming is de grootste die nog onder 19,75 ligt?"
+      ],
+      "solution": [
+        "De snor loopt naar de grootste waarneming binnen de grenzen.",
+        "De grootste waarnemingen zijn 12, 14 en 30. De 30 ligt boven 19,75; de 14 niet.",
+        "De rechtersnor eindigt bij 14."
+      ],
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "answer": 14,
+      "feedback": [
+        {
+          "answer": 30,
+          "message": "Dat is het maximum (de uitschieter). Met de uitschieterregel krijgt 30 een eigen punt en loopt de snor niet naar 30."
+        },
+        {
+          "answer": 19.75,
+          "message": "Dit is de berekende grens, geen waarneming. De snor eindigt bij de grootste werkelijke waarneming binnen de grens."
+        }
+      ]
+    },
+    {
+      "id": "24-039",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "In een boxplot ligt de mediaan op 30, Q₁ op 24 en Q₃ op 36. Hoeveel procent van de waarnemingen ligt ongeveer binnen de box (tussen Q₁ en Q₃)?",
+      "hints": [
+        "Elk van de vier delen van een boxplot bevat ongeveer een kwart."
+      ],
+      "solution": [
+        "Tussen Q₁ en Q₃ ligt het middelste deel: een kwart onder de mediaan en een kwart erboven.",
+        "Samen ongeveer 50%."
+      ],
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "unit": "%",
+      "answer": 50,
+      "feedback": [
+        {
+          "answer": 25,
+          "message": "Dat is één deel (Q₁ tot mediaan). De box bestaat uit twee delen."
+        },
+        {
+          "answer": 75,
+          "message": "Dat is het deel onder Q₃. De box loopt van Q₁ tot Q₃."
+        }
+      ]
+    },
+    {
+      "id": "24-040",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Populatie 2, 4, 6, 8 (μ = 5). Bereken de populatiestandaardafwijking op twee decimalen.",
+      "hints": [
+        "Gebruik een tabel met afwijkingen en kwadraten.",
+        "Deel door n en neem de wortel."
+      ],
+      "solution": [
+        "Afwijkingen: −3, −1, 1, 3. Kwadraten: 9, 1, 1, 9; som 20.",
+        "σ² = 20/4 = 5.",
+        "σ = √5 ≈ 2,24."
+      ],
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "answer": 2.24,
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Dit is de variantie. Neem er nog de wortel van."
+        },
+        {
+          "answer": 2.58,
+          "message": "Je deelde door n − 1 = 3 (steekproef). Hier is de data de hele populatie: deel door n = 4."
+        },
+        {
+          "answer": 20,
+          "message": "Dit is de som van de gekwadrateerde afwijkingen. Deel door n en neem dan de wortel."
+        }
+      ]
+    },
+    {
+      "id": "24-041",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Populatie 5, 7, 7, 9, 12 (μ = 8). Bereken de populatiestandaardafwijking op twee decimalen.",
+      "hints": [
+        "Maak een tabel met x, afwijking en kwadraat.",
+        "De som van de afwijkingen moet 0 zijn."
+      ],
+      "solution": [
+        "Afwijkingen: −3, −1, −1, 1, 4. Kwadraten: 9, 1, 1, 1, 16; som 28.",
+        "σ² = 28/5 = 5,6.",
+        "σ = √5,6 ≈ 2,37."
+      ],
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "answer": 2.37,
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 5.6,
+          "message": "Dit is de variantie. Neem er nog de wortel van."
+        },
+        {
+          "answer": 2.65,
+          "message": "Je deelde door n − 1 = 4 (steekproef). Hier is de data de hele populatie: deel door n = 5."
+        }
+      ]
+    },
+    {
+      "id": "24-042",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De waarden 5, 7, 7, 9, 12 vormen een steekproef (gemiddelde 8). Bereken de steekproefvariantie s².",
+      "hints": [
+        "Gebruik dezelfde afwijkingen als bij de populatie.",
+        "Deel door n − 1."
+      ],
+      "solution": [
+        "Som van gekwadrateerde afwijkingen: 9 + 1 + 1 + 1 + 16 = 28.",
+        "s² = 28/(5 − 1) = 7."
+      ],
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "answer": 7,
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 5.6,
+          "message": "Je deelde door n = 5. Voor een steekproef deel je door n − 1 = 4."
+        },
+        {
+          "answer": 28,
+          "message": "Dit is de som van de gekwadrateerde afwijkingen. Deel die nog door n − 1."
+        },
+        {
+          "answer": 2.65,
+          "message": "Dit is de standaardafwijking s. De vraag is naar de variantie, vóór de wortel."
+        }
+      ]
+    },
+    {
+      "id": "24-043",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Leg in eigen woorden uit waarom je bij een steekproef door n − 1 deelt in plaats van door n.",
+      "hints": [
+        "Denk aan wat x̄ is: een schatting van μ uit dezelfde data."
+      ],
+      "solution": [
+        "Het steekproefgemiddelde ligt per definitie het dichtst bij de steekproefwaarden: de som van kwadraten rond x̄ is kleiner dan rond het echte μ.",
+        "Delen door n onderschat daarom gemiddeld de variantie van de populatie; delen door n − 1 corrigeert dat precies (zuivere schatter).",
+        "Daarnaast zijn er maar n − 1 vrije afwijkingen, omdat ze optellen tot nul."
+      ],
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "answer": "Het steekproefgemiddelde is berekend uit dezelfde data en ligt dichter bij de waarden dan het echte populatiegemiddelde; daardoor onderschat delen door n de populatievariantie. Delen door n − 1 corrigeert dat.",
+      "min_length": 40
+    },
+    {
+      "id": "24-044",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "De lengte van jongens in een klas heeft gemiddelde 170 cm en standaardafwijking 8 cm. Bereken de z-score van een jongen van 186 cm.",
+      "hints": [
+        "Trek het gemiddelde af en deel door de standaardafwijking."
+      ],
+      "solution": [
+        "z = (186 − 170)/8 = 16/8 = 2."
+      ],
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "answer": 2,
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Dit is het verschil in cm. Deel dat nog door de standaardafwijking (8)."
+        }
+      ]
+    },
+    {
+      "id": "24-045",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zelfde klas (gemiddelde 170 cm, standaardafwijking 8 cm). Bereken de z-score van een jongen van 158 cm.",
+      "hints": [
+        "Het verschil kan negatief zijn."
+      ],
+      "solution": [
+        "z = (158 − 170)/8 = −12/8 = −1,5.",
+        "Negatief: de jongen is kleiner dan gemiddeld."
+      ],
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "answer": -1.5,
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 1.5,
+          "message": "Je liet het minteken weg. Een lengte onder het gemiddelde geeft een negatieve z-score."
+        },
+        {
+          "answer": -12,
+          "message": "Dit is het verschil in cm. Deel nog door de standaardafwijking (8)."
+        }
+      ]
+    },
+    {
+      "id": "24-046",
+      "type": "interval",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een klokvormige verdeling heeft gemiddelde 100 en standaardafwijking 15. Tussen welke grenzen ligt ongeveer 95% van de waarnemingen? Geef het interval [onder; boven].",
+      "hints": [
+        "Gebruik de vuistregel 68-95-99,7.",
+        "Twee standaardafwijkingen links en rechts van het gemiddelde."
+      ],
+      "solution": [
+        "95% ligt binnen twee standaardafwijkingen: 2 · 15 = 30.",
+        "Interval: [100 − 30; 100 + 30] = [70; 130]."
+      ],
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "answer": "[70; 130]",
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": "[85; 115]",
+          "message": "Dat is binnen één standaardafwijking (ongeveer 68%). Voor 95% neem je twee standaardafwijkingen."
+        },
+        {
+          "answer": "[55; 145]",
+          "message": "Dat is binnen drie standaardafwijkingen (ongeveer 99,7%). Voor 95% neem je er twee."
+        }
+      ]
+    },
+    {
+      "id": "24-047",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een meetreeks is 10, 12, 12, 14, 52. Iemand wil de 52 weglaten omdat die er zo ver naast ligt. Wat zou je doen, en wat rapporteer je?",
+      "hints": [
+        "Gooi een waarde niet weg alleen omdat ze lastig is.",
+        "Wat gebeurt er met gemiddelde en mediaan?"
+      ],
+      "solution": [
+        "Eerst onderzoeken waarom 52 zo hoog is (typefout, meetfout, andere groep, echte waarde).",
+        "Niet weglaten zonder reden; documenteer elke verwijdering.",
+        "Rapporteer de maten met en zonder 52: gemiddelde 20 tegen 12, mediaan 12 in beide gevallen."
+      ],
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "answer": "Eerst onderzoeken waarom 52 zo afwijkt; niet zonder reden weglaten; maten met en zonder rapporteren (mediaan blijft 12, gemiddelde daalt van 20 naar 12).",
+      "min_length": 40
+    },
+    {
+      "id": "24-048",
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Anna haalt een 7,5 op een toets (klasgemiddelde 6,0; standaardafwijking 1,5). Bram haalt 68 punten op een andere toets (gemiddelde 55; standaardafwijking 10). Bereken beide z-scores.",
+      "hints": [
+        "Een z-score meet in standaardafwijkingen boven het gemiddelde."
+      ],
+      "solution": [
+        "Anna: z = (7,5 − 6,0)/1,5 = 1.",
+        "Bram: z = (68 − 55)/10 = 1,3.",
+        "Bram scoort relatief iets beter."
+      ],
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "parts": [
+        {
+          "label": "z Anna",
+          "answer": 1,
+          "type": "decimal",
+          "tolerance": 0.005
+        },
+        {
+          "label": "z Bram",
+          "answer": 1.3,
+          "type": "decimal",
+          "tolerance": 0.005
+        }
+      ]
+    },
+    {
+      "id": "24-049",
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een meetreeks is 10, 12, 12, 14, 52. Geef het gemiddelde mét de 52, het gemiddelde zonder de 52, en de mediaan van de reeks mét de 52.",
+      "hints": [
+        "Bereken beide gemiddelden afzonderlijk.",
+        "De mediaan van vijf waarden is de derde."
+      ],
+      "solution": [
+        "Met 52: som 100, gemiddelde 100/5 = 20.",
+        "Zonder 52: som 48, gemiddelde 48/4 = 12.",
+        "Mediaan met 52: de derde waarde, 12."
+      ],
+      "topics": [
+        "descriptive-statistics"
+      ],
+      "parts": [
+        {
+          "label": "gemiddelde met 52",
+          "answer": 20,
+          "type": "numeric"
+        },
+        {
+          "label": "gemiddelde zonder 52",
+          "answer": 12,
+          "type": "numeric"
+        },
+        {
+          "label": "mediaan met 52",
+          "answer": 12,
           "type": "numeric"
         }
       ]

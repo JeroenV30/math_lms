@@ -30,6 +30,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Je sorteerde niet eerst. Gesorteerd is de rij 2, 4, 6, 8; neem de middelste twee."
+        }
       ]
     },
     {
@@ -75,6 +81,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Je nam de middelste waarneming 6 mee in de onderste helft. Die laat je buiten beide helften."
+        }
       ]
     },
     {
@@ -90,6 +102,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Je nam de middelste waarneming 6 mee in de bovenste helft. Die laat je buiten beide helften."
+        }
       ]
     },
     {
@@ -105,6 +123,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je telde de kwartielen op. De IQR is het verschil."
+        }
       ]
     },
     {
@@ -120,6 +144,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je deelde niet door n. Som 2, n = 2: variantie 1."
+        }
       ]
     },
     {
@@ -135,6 +165,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Je deelde door n = 2 (populatie). Voor een steekproef: n − 1 = 1."
+        }
       ]
     },
     {
@@ -151,7 +187,17 @@
       "topics": [
         "descriptive-statistics"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Dit is de populatiestandaardafwijking (delen door n). Voor een steekproef deel je door n − 1."
+        },
+        {
+          "answer": 2,
+          "message": "Dit is de steekproefvariantie. Neem er nog de wortel van."
+        }
+      ]
     },
     {
       "id": "24-T11",
@@ -166,6 +212,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 81,
+          "message": "Je kwadrateerde in plaats van de wortel te nemen. σ = √9."
+        }
       ]
     },
     {
@@ -181,6 +233,12 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je telde de +1 niet mee. Schalen én verschuiven: 2·6 + 1."
+        }
       ]
     },
     {
@@ -196,6 +254,16 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je liet de schaalfactor niet meetellen en telde de +1 erbij. Verschuiven verandert de spreiding niet; schalen vermenigvuldigt met |2|."
+        },
+        {
+          "answer": 3,
+          "message": "Je liet de schaalfactor 2 buiten beschouwing. Schalen vermenigvuldigt de standaardafwijking met |2|."
+        }
       ]
     },
     {
@@ -211,6 +279,16 @@
       "difficulty": 1,
       "topics": [
         "descriptive-statistics"
+      ],
+      "feedback": [
+        {
+          "answer": 18,
+          "message": "Je vermenigvuldigde met 2 in plaats van met 2². De variantie schaalt met het kwadraat van de factor."
+        },
+        {
+          "answer": 19,
+          "message": "Verschuiven verandert de variantie niet, en schalen vermenigvuldigt met 2², niet met 2."
+        }
       ]
     },
     {
@@ -227,7 +305,13 @@
       "topics": [
         "descriptive-statistics"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Je nam het gemiddelde van 4 en 8. De grotere groep telt zwaarder: weeg met 5 en 15."
+        }
+      ]
     }
   ]
 }

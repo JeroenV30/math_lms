@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" font-family="sans-serif">
+  <title>Getallenlijn met de waarden 5, 7, 7, 9 en 12, het gemiddelde 8 en de afwijkingen min 3, min 1, min 1, plus 1 en plus 4</title>
+  <rect width="560" height="220" fill="#ffffff"/>
+  <line x1="60" y1="150" x2="555" y2="150" stroke="#1f2933" stroke-width="1.5"/>
+  <line x1="60" y1="150" x2="60" y2="156" stroke="#1f2933"/><text x="60" y="172" font-size="13" fill="#1f2933" text-anchor="middle">3</text>
+  <line x1="105" y1="150" x2="105" y2="156" stroke="#1f2933"/><text x="105" y="172" font-size="13" fill="#1f2933" text-anchor="middle">4</text>
+  <line x1="150" y1="150" x2="150" y2="156" stroke="#1f2933"/><text x="150" y="172" font-size="13" fill="#1f2933" text-anchor="middle">5</text>
+  <line x1="195" y1="150" x2="195" y2="156" stroke="#1f2933"/><text x="195" y="172" font-size="13" fill="#1f2933" text-anchor="middle">6</text>
+  <line x1="240" y1="150" x2="240" y2="156" stroke="#1f2933"/><text x="240" y="172" font-size="13" fill="#1f2933" text-anchor="middle">7</text>
+  <line x1="285" y1="150" x2="285" y2="156" stroke="#1f2933"/><text x="285" y="172" font-size="13" fill="#1f2933" text-anchor="middle">8</text>
+  <line x1="330" y1="150" x2="330" y2="156" stroke="#1f2933"/><text x="330" y="172" font-size="13" fill="#1f2933" text-anchor="middle">9</text>
+  <line x1="375" y1="150" x2="375" y2="156" stroke="#1f2933"/><text x="375" y="172" font-size="13" fill="#1f2933" text-anchor="middle">10</text>
+  <line x1="420" y1="150" x2="420" y2="156" stroke="#1f2933"/><text x="420" y="172" font-size="13" fill="#1f2933" text-anchor="middle">11</text>
+  <line x1="465" y1="150" x2="465" y2="156" stroke="#1f2933"/><text x="465" y="172" font-size="13" fill="#1f2933" text-anchor="middle">12</text>
+  <line x1="510" y1="150" x2="510" y2="156" stroke="#1f2933"/><text x="510" y="172" font-size="13" fill="#1f2933" text-anchor="middle">13</text>
+  <line x1="555" y1="150" x2="555" y2="156" stroke="#1f2933"/><text x="555" y="172" font-size="13" fill="#1f2933" text-anchor="middle">14</text>
+  <line x1="285" y1="40" x2="285" y2="150" stroke="#9c6b30" stroke-width="2.5"/>
+  <text x="285" y="32" font-size="14" fill="#9c6b30" text-anchor="middle">gemiddelde 8</text>
+  <circle cx="150" cy="138" r="6" fill="#3b5bdb"/>
+  <circle cx="240" cy="138" r="6" fill="#3b5bdb"/>
+  <circle cx="330" cy="138" r="6" fill="#3b5bdb"/>
+  <circle cx="465" cy="138" r="6" fill="#3b5bdb"/>
+  <circle cx="240" cy="124" r="6" fill="#3b5bdb"/>
+  <line x1="150" y1="100" x2="285" y2="100" stroke="#3b5bdb" stroke-width="2"/>
+  <text x="217.5" y="94" font-size="13" fill="#1f2933" text-anchor="middle">−3</text>
+  <line x1="240" y1="100" x2="285" y2="100" stroke="#3b5bdb" stroke-width="2"/>
+  <text x="262.5" y="94" font-size="13" fill="#1f2933" text-anchor="middle">−1</text>
+  <line x1="330" y1="100" x2="285" y2="100" stroke="#3b5bdb" stroke-width="2"/>
+  <text x="307.5" y="94" font-size="13" fill="#1f2933" text-anchor="middle">+1</text>
+  <line x1="465" y1="100" x2="285" y2="100" stroke="#3b5bdb" stroke-width="2"/>
+  <text x="375.0" y="94" font-size="13" fill="#1f2933" text-anchor="middle">+4</text>
+  <text x="280" y="205" font-size="13" fill="#1f2933" text-anchor="middle">afwijking xᵢ − gemiddelde; som: −3 −1 −1 +1 +4 = 0</text>
+</svg>
