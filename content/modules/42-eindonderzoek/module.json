@@ -17,14 +17,15 @@
     "descriptive-statistics"
   ],
   "core_question": "Hoe kom je van echte waarnemingen tot een reproduceerbare conclusie met duidelijke grenzen?",
-  "summary": "Een volledig onderzoek met Palmer Penguins: onderzoeksvraag, codeboek, datakwaliteit, groepsvergelijking, Welch-toets, regressie en een zelfstandig onderzoeksrapport.",
+  "summary": "Een volledig onderzoek met Palmer Penguins: onderzoeksvraag, herkomst en codeboek, datakwaliteit, verkennen, groepsvergelijking met Welch-toets en effectgrootte, meervoudig toetsen, regressie en Simpsons paradox, en een zelfstandig onderzoeksrapport.",
   "learning_goals": [
-    "Je formuleert een beschrijvende en een inferentiële onderzoeksvraag met een beoogde populatie.",
-    "Je leest een CSV met codeboek, controleert ontbrekende waarden en documenteert de gebruikte selectie.",
-    "Je beschrijft groepsverdelingen met passende kengetallen en grafieken.",
-    "Je voert een Welch-vergelijking van twee onafhankelijke groepen uit en rapporteert verschil, interval, toets en aannames.",
-    "Je onderzoekt samenhang binnen één soort met regressie en controleert beperkingen.",
-    "Je schrijft een navolgbaar rapport waarin verkennende resultaten en causale claims correct worden onderscheiden."
+    "Je formuleert een beschrijvende en een inferentiële onderzoeksvraag met een beoogde populatie en een vooraf vastgelegde hypothese.",
+    "Je beoordeelt de herkomst van een dataset en wat die betekent voor generalisatie, leest een CSV met codeboek, controleert ontbrekende waarden en documenteert de gebruikte selectie per analyse.",
+    "Je verkent gegevens met samenvattingen per groep, boxplots, de 1,5·IQR-regel en spreidingsdiagrammen.",
+    "Je voert een Welch-vergelijking van twee onafhankelijke groepen uit en rapporteert verschil, interval, effectgrootte, toets en aannames.",
+    "Je herkent het probleem van meervoudig toetsen en past een Bonferroni-correctie toe.",
+    "Je onderzoekt samenhang met regressie, interpreteert residuen, R² en de onzekerheid van de helling en herkent verstorende variabelen en Simpsons paradox.",
+    "Je schrijft een navolgbaar rapport waarin verkennende en bevestigende resultaten en causale claims correct worden onderscheiden, en herkent typische redeneerfouten."
   ],
   "glossary": [
     {
@@ -46,23 +47,68 @@
     {
       "term": "Observationeel onderzoek",
       "definition": "Onderzoek zonder door de onderzoeker gerandomiseerde toewijzing van de onderzochte kenmerken."
+    },
+    {
+      "term": "Effectgrootte",
+      "definition": "Een maat voor de grootte van een effect, bijvoorbeeld Cohens d: het verschil tussen groepsgemiddelden gedeeld door de gepoolde standaardafwijking."
+    },
+    {
+      "term": "Verstorende variabele (confounder)",
+      "definition": "Een variabele die zowel met de verklarende variabele als met de uitkomst samenhangt en daardoor het gemeten verband vertekent."
+    },
+    {
+      "term": "Simpsons paradox",
+      "definition": "Het verschijnsel dat een verband in een samengestelde populatie verdwijnt of van teken omkeert wanneer je naar de deelgroepen kijkt."
+    },
+    {
+      "term": "Familiegewijze foutenkans",
+      "definition": "De kans op minstens één vals alarm bij een reeks toetsen; bij m onafhankelijke toetsen op niveau α is die 1 − (1 − α)^m."
+    },
+    {
+      "term": "Bonferroni-correctie",
+      "definition": "Elke van m toetsen op niveau α/m uitvoeren (of elke p-waarde met m vermenigvuldigen) om de familiegewijze foutenkans te beperken."
+    },
+    {
+      "term": "Residu",
+      "definition": "Het verschil tussen een waargenomen waarde en de door het model voorspelde waarde: e = y − ŷ."
     }
   ],
   "formulas": [
     {
       "name": "Welch-verschil",
       "latex": "\\hat\\Delta=\\bar x_1-\\bar x_2,\\quad SE(\\hat\\Delta)=\\sqrt{s_1^2/n_1+s_2^2/n_2}",
-      "usage": "Hier: lichaamsgewicht Adélie man min vrouw, in gram."
+      "usage": "Hier: lichaamsgewicht Adélie man min vrouw, in gram.",
+      "origin": "Welch (1947), een uitbreiding van de t-toets van Student (Gosset, 1908) voor ongelijke varianties."
     },
     {
       "name": "Interval voor het verschil",
       "latex": "\\hat\\Delta\\pm t_{0{,}975,\\nu}\\,SE(\\hat\\Delta)",
-      "usage": "ν wordt met de Welch-Satterthwaite-formule berekend."
+      "usage": "ν wordt met de Welch-Satterthwaite-formule berekend.",
+      "origin": "Betrouwbaarheidsintervallen volgens Neyman (1937)."
+    },
+    {
+      "name": "Cohens d",
+      "latex": "d=\\frac{\\bar x_1-\\bar x_2}{s_p},\\quad s_p=\\sqrt{\\frac{(n_1-1)s_1^2+(n_2-1)s_2^2}{n_1+n_2-2}}",
+      "usage": "Gestandaardiseerde effectgrootte; Adélie man min vrouw geeft d ≈ 1,93.",
+      "origin": "Jacob Cohen, Statistical Power Analysis for the Behavioral Sciences (1969)."
+    },
+    {
+      "name": "Familiegewijze foutenkans",
+      "latex": "P(\\text{minstens één vals alarm})=1-(1-\\alpha)^m",
+      "usage": "Bij m = 3 toetsen op niveau 0,05 is de kans ongeveer 0,1426; bij m = 12 ongeveer 0,4596.",
+      "origin": "Basis van de Bonferroni-correctie: toets elke vraag op niveau α/m."
     },
     {
       "name": "Regressie",
       "latex": "\\widehat{\\text{gewicht}}=b_0+b_1\\cdot\\text{vleugellengte}",
-      "usage": "Gewicht in gram, vleugellengte in millimeter; de helling heeft eenheid g/mm."
+      "usage": "Gewicht in gram, vleugellengte in millimeter; de helling heeft eenheid g/mm.",
+      "origin": "Kleinste-kwadratenmethode (Legendre 1805, Gauss), regressie naar het gemiddelde (Galton, 1886)."
+    },
+    {
+      "name": "Determinatiecoëfficiënt",
+      "latex": "R^2=1-\\frac{SSE}{SST},\\quad e_i=y_i-\\hat y_i",
+      "usage": "Aandeel verklaarde kwadratensom; Adélie: R² ≈ 0,2558, restspreiding s ≈ 414 g.",
+      "origin": "Voortgekomen uit het werk van Pearson (correlatie) en Fisher (variantieanalyse)."
     }
   ],
   "lessons": [
@@ -76,6 +122,12 @@
       "slug": "theorie-a",
       "title": "Onderzoeksvraag, dataset en datakwaliteit",
       "file": "02-theorie-a.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "verkennen",
+      "title": "Verkennen: kijk eerst, toets daarna",
+      "file": "02b-verkennen.md",
       "kind": "theory"
     },
     {
@@ -110,8 +162,11 @@
     }
   ],
   "timeline": [
-    "data-science",
-    "tukey-eda"
+    "fisher",
+    "tukey-eda",
+    "data-science"
   ],
-  "mathematicians": []
+  "mathematicians": [
+    "fisher"
+  ]
 }

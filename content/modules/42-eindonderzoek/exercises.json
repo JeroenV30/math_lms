@@ -17,7 +17,13 @@
         "hypothesis-testing",
         "descriptive-statistics"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 121,
+          "message": "Je telde de kopregel mee. Die bevat kolomnamen en is geen pinguïn."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -55,7 +61,17 @@
         "hypothesis-testing",
         "descriptive-statistics"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "Dit klopt niet: er ontbreekt wel een gewicht. Een code NA telt als ontbrekend, niet als 0 g."
+        },
+        {
+          "answer": 7,
+          "message": "Dat is het totaal aantal NA-cellen over alle kolommen. Tel alleen in de kolom lichaamsgewicht_g."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -74,7 +90,17 @@
         "hypothesis-testing",
         "descriptive-statistics"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 120,
+          "message": "Je telde het ontbrekende gewicht mee. Voor een gemiddelde gebruik je alleen de geldige waarden."
+        },
+        {
+          "answer": 118,
+          "message": "Je trok te veel af. Alleen het ene ontbrekende gewicht valt af, niet de ontbrekende geslachten."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -93,7 +119,17 @@
         "hypothesis-testing",
         "descriptive-statistics"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Dat is het aantal ontbrekende gewichten. In de kolom geslacht ontbreken er drie."
+        },
+        {
+          "answer": 4,
+          "message": "Je telde ook een andere kolom mee. Beperk je tot de kolom geslacht."
+        }
+      ]
     },
     {
       "type": "text",
@@ -133,7 +169,17 @@
         "hypothesis-testing",
         "descriptive-statistics"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 44,
+          "message": "Dat is het aantal Gentoo-dieren."
+        },
+        {
+          "answer": 24,
+          "message": "Dat is het aantal Chinstrap-dieren."
+        }
+      ]
     },
     {
       "type": "multiple",
@@ -185,7 +231,13 @@
         "hypothesis-testing",
         "descriptive-statistics"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 4155,
+          "message": "Je deelde door 25 in plaats van 26. De groep telt 26 mannen."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -206,7 +258,13 @@
         "hypothesis-testing",
         "descriptive-statistics"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 3468,
+          "message": "Je deelde door 25 in plaats van 26. De groep telt 26 vrouwen."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -226,7 +284,13 @@
         "hypothesis-testing",
         "descriptive-statistics"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 660.57,
+          "message": "Je trok de afgeronde gemiddelden af (3995,19 min 3334,62). Rond pas af aan het eind van de berekening."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -246,7 +310,13 @@
         "hypothesis-testing",
         "descriptive-statistics"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 483.58,
+          "message": "Je telde de standaardafwijkingen kwadratisch op zonder door n te delen. Deel eerst elke variantie door 26."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -266,7 +336,17 @@
         "hypothesis-testing",
         "descriptive-statistics"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 1.366,
+          "message": "Je gebruikte een te grote standaardfout (483,60). Gebruik 94,84."
+        },
+        {
+          "answer": 0.1436,
+          "message": "Je deelde de standaardfout door het verschil. De t-waarde is verschil gedeeld door standaardfout."
+        }
+      ]
     },
     {
       "type": "text",
@@ -287,7 +367,7 @@
         "hypothesis-testing",
         "descriptive-statistics"
       ],
-      "mode": "guided"
+      "mode": "independent"
     },
     {
       "type": "text",
@@ -308,7 +388,7 @@
         "hypothesis-testing",
         "descriptive-statistics"
       ],
-      "mode": "guided"
+      "mode": "independent"
     },
     {
       "type": "decimal",
@@ -328,7 +408,13 @@
         "hypothesis-testing",
         "descriptive-statistics"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": -3759.79,
+          "message": "Dat is het intercept. De helling is de coëfficiënt van vleugellengte."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -348,7 +434,17 @@
         "hypothesis-testing",
         "descriptive-statistics"
       ],
-      "mode": "independent"
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": 0.5057,
+          "message": "Dat is r zelf. Kwadrateer r om R² te krijgen."
+        },
+        {
+          "answer": 0.7442,
+          "message": "Dat is 1 min R², het deel dat de lijn niet verklaart."
+        }
+      ]
     },
     {
       "type": "text",
@@ -406,6 +502,717 @@
       ],
       "min_length": 60,
       "id": "42-020",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "challenge"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Hoeveel rijen in de dataset hebben in minstens één kolom een ontbrekende waarde (NA)?",
+      "answer": 3,
+      "solution": [
+        "Id 92 mist gewicht, snavellengte, snaveldiepte, vleugellengte en geslacht.",
+        "Id 77 en 89 missen alleen het geslacht.",
+        "Dat zijn drie rijen."
+      ],
+      "hints": [
+        "Tel rijen, niet cellen.",
+        "Welke ontbrekende waarden horen bij hetzelfde dier?"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Dat is het aantal NA-cellen (1 + 1 + 1 + 1 + 3). De vraag gaat over rijen: id 92 levert vijf van die cellen."
+        }
+      ],
+      "id": "42-021",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Iemand telt de ene ontbrekende massa als 0 g en deelt de som van 501 025 g door 120. Hoeveel gram lager is dat gemiddelde dan het juiste gemiddelde over de 119 geldige gewichten? Geef twee decimalen.",
+      "answer": 35.09,
+      "solution": [
+        "Fout gemiddelde: $501025/120=4175{,}2083$ g.",
+        "Juist gemiddelde: $501025/119=4210{,}2941$ g.",
+        "Verschil: $4210{,}2941-4175{,}2083\\approx35{,}09$ g."
+      ],
+      "hints": [
+        "Bereken beide gemiddelden zonder af te ronden."
+      ],
+      "tolerance": 0.005,
+      "unit": "g",
+      "feedback": [
+        {
+          "answer": 4175.21,
+          "message": "Dat is het onjuiste gemiddelde zelf. De vraag is hoeveel het afwijkt van het juiste gemiddelde."
+        },
+        {
+          "answer": 4210.29,
+          "message": "Dat is het juiste gemiddelde. Trek het onjuiste gemiddelde ervan af."
+        }
+      ],
+      "id": "42-022",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "multiple",
+      "difficulty": 3,
+      "question": "Je vergelijkt het gewicht van Gentoo-mannen en -vrouwen. Hoeveel dieren met zowel een geldig gewicht als een geldig geslacht zijn er per groep?",
+      "solution": [
+        "Er zijn 44 Gentoo's. Id 92 mist gewicht en geslacht; id 77 en 89 missen het geslacht.",
+        "Er blijven 41 dieren over: 21 mannen en 20 vrouwen."
+      ],
+      "hints": [
+        "Schrap per analyse alleen de rijen die voor die analyse onbruikbaar zijn."
+      ],
+      "parts": [
+        {
+          "label": "mannen",
+          "answer": 21,
+          "type": "numeric"
+        },
+        {
+          "label": "vrouwen",
+          "answer": 20,
+          "type": "numeric"
+        }
+      ],
+      "id": "42-023",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "text",
+      "difficulty": 2,
+      "question": "Een collega schrijft: \"Mannelijke pinguïns zijn gemiddeld 661 g zwaarder dan vrouwelijke, overal ter wereld.\" Noem minstens twee redenen waarom dit te ver gaat.",
+      "answer": "De gegevens komen van drie eilanden in de Palmer Archipelago, uit één jaar (2009) en van één onderzoeksteam. Het verschil van 661 g is bovendien alleen voor Adélie berekend; de steekproef zegt niets over andere soorten, kolonies of jaren, en een interval beschrijft alleen de steekproeffout, niet de selectie.",
+      "solution": [
+        "Het verschil van 661 g is berekend voor Adélie, niet voor alle soorten.",
+        "De selectie (eilanden, jaar, bemonstering) is niet aselect uit alle pinguïns.",
+        "Een betrouwbaarheidsinterval corrigeert niet voor selectiefouten."
+      ],
+      "hints": [
+        "Welke dieren zitten er wel en niet in het bestand?"
+      ],
+      "min_length": 60,
+      "id": "42-024",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Bepaal de interkwartielafstand van de gewichten van de 26 Adélie-mannen, in gram. Gebruik de afspraak uit les 3: $Q_1$ en $Q_3$ zijn de medianen van de onderste en bovenste helft (13 waarden elk).",
+      "answer": 525,
+      "solution": [
+        "De onderste helft heeft als mediaan (7e waarde) $Q_1=3725$ g.",
+        "De bovenste helft heeft als mediaan $Q_3=4250$ g.",
+        "$\\text{IQR}=4250-3725=525$ g."
+      ],
+      "hints": [
+        "Orden de 26 gewichten, splits in twee groepen van 13 en neem van elke groep de middelste waarde."
+      ],
+      "context": "Geordende gewichten (g): 3325; 3475; 3500; 3500; 3550; 3650; 3725; 3750; 3775; 3875; 3900; 3900; 3975; 4000; 4000; 4000; 4075; 4250; 4250; 4250; 4275; 4300; 4475; 4600; 4725; 4775",
+      "feedback": [
+        {
+          "answer": 4250,
+          "message": "Dat is $Q_3$. De interkwartielafstand is $Q_3-Q_1$."
+        },
+        {
+          "answer": 787.5,
+          "message": "Dat is $1{,}5\\cdot\\text{IQR}$, de marge voor de uitschietergrenzen, niet de IQR zelf."
+        },
+        {
+          "answer": 1450,
+          "message": "Dat is maximum min minimum (de spreidingsbreedte). Gebruik de kwartielen."
+        }
+      ],
+      "id": "42-025",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "multiple",
+      "difficulty": 3,
+      "question": "Bij de Adélie-vrouwen is $Q_1=3075$ g en $Q_3=3475$ g. Bereken de ondergrens en de bovengrens van de $1{,}5\\cdot\\text{IQR}$-regel (in gram).",
+      "solution": [
+        "$\\text{IQR}=3475-3075=400$ g, dus $1{,}5\\cdot400=600$ g.",
+        "Ondergrens $3075-600=2475$ g; bovengrens $3475+600=4075$ g.",
+        "Het lichtste dier weegt 2900 g en het zwaarste 3900 g: geen uitschieters."
+      ],
+      "hints": [
+        "Trek $1{,}5\\cdot\\text{IQR}$ af van $Q_1$ en tel het op bij $Q_3$."
+      ],
+      "parts": [
+        {
+          "label": "ondergrens",
+          "answer": 2475,
+          "type": "numeric"
+        },
+        {
+          "label": "bovengrens",
+          "answer": 4075,
+          "type": "numeric"
+        }
+      ],
+      "id": "42-026",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Bij de 12 Chinstrap-mannen is $Q_1=3787{,}5$ g en $Q_3=4075$ g, dus de ondergrens van de $1{,}5\\cdot\\text{IQR}$-regel is $3356{,}25$ g. Het lichtste dier weegt 3250 g. Hoeveel gram ligt dat dier onder de ondergrens?",
+      "answer": 106.25,
+      "solution": [
+        "$3356{,}25-3250=106{,}25$ g.",
+        "Het dier is een kandidaat-uitschieter en moet gecontroleerd worden, niet automatisch verwijderd."
+      ],
+      "hints": [
+        "Vergelijk met de grens, niet met $Q_1$."
+      ],
+      "tolerance": 0.005,
+      "unit": "g",
+      "feedback": [
+        {
+          "answer": 537.5,
+          "message": "Dat is de afstand tot $Q_1$ (3787,5 min 3250). Vergelijk met de ondergrens van 3356,25 g."
+        }
+      ],
+      "id": "42-027",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "text",
+      "difficulty": 3,
+      "question": "Het gemiddelde gewicht van alle 119 gewogen pinguïns is 4210,29 g met standaardafwijking 822,91 g. Waarom is dit een slechte samenvatting van een typische pinguïn? Gebruik de soortgemiddelden (Adélie 3664,90 g; Chinstrap 3725,00 g; Gentoo 5140,70 g).",
+      "answer": "Het totaalgemiddelde mengt drie soorten met verschillende lichaamsbouw. Geen enkele soort heeft een gemiddelde in de buurt van 4210 g, en de grote spreiding komt vooral door de verschillen tussen soorten. Samenvatten per soort (en per geslacht) beschrijft de dieren beter.",
+      "solution": [
+        "Het totaalgemiddelde ligt tussen Chinstrap/Adélie en Gentoo en beschrijft geen enkele groep.",
+        "De spreiding van 823 g is groter dan die binnen elke groep (ongeveer 170 tot 390 g)."
+      ],
+      "hints": [
+        "Vergelijk 4210 g met de gemiddelden per soort."
+      ],
+      "min_length": 60,
+      "id": "42-028",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Het verschil in gemiddeld gewicht tussen Adélie-mannen en -vrouwen is 660,58 g en de gepoolde standaardafwijking is 341,95 g. Bereken Cohens $d$ op twee decimalen.",
+      "answer": 1.93,
+      "solution": [
+        "$d=660{,}58/341{,}95\\approx1{,}93$.",
+        "Het verschil is bijna twee standaardafwijkingen groot."
+      ],
+      "hints": [
+        "Deel het verschil door de gepoolde standaardafwijking."
+      ],
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 1.68,
+          "message": "Je deelde door de standaardafwijking van alleen de mannen (392,49 g). Gebruik de gepoolde waarde 341,95 g."
+        },
+        {
+          "answer": 6.97,
+          "message": "Je deelde door de standaardfout (94,84 g) en kreeg de $t$-waarde. Voor $d$ deel je door een standaardafwijking."
+        }
+      ],
+      "id": "42-029",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Het verschil is 660,576923 g, de standaardfout 94,838893 g en de kritieke waarde $t_{0{,}975;45{,}42}=2{,}013588$. Bereken de ondergrens van het 95%-interval op twee decimalen.",
+      "answer": 469.61,
+      "solution": [
+        "Marge: $2{,}013588\\cdot94{,}838893\\approx190{,}97$.",
+        "Ondergrens: $660{,}576923-190{,}97\\approx469{,}61$ g."
+      ],
+      "hints": [
+        "Het interval is het verschil min en plus de marge."
+      ],
+      "tolerance": 0.01,
+      "unit": "g",
+      "feedback": [
+        {
+          "answer": 474.69,
+          "message": "Je gebruikte 1,96 (normale verdeling). Bij deze steekproefomvang hoort de iets grotere t-waarde 2,0136."
+        },
+        {
+          "answer": 851.54,
+          "message": "Dat is de bovengrens. De vraag was de ondergrens."
+        }
+      ],
+      "id": "42-030",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "interval",
+      "difficulty": 3,
+      "question": "Chinstrap: verschil man min vrouw 404,166667 g, standaardfout 107,525396 g, kritieke waarde $t_{0{,}975;16{,}49}=2{,}114827$. Geef het 95%-interval in gram op twee decimalen.",
+      "answer": "[176.77; 631.56]",
+      "solution": [
+        "Marge: $2{,}114827\\cdot107{,}525396\\approx227{,}40$.",
+        "Interval: $404{,}17\\pm227{,}40$, dus $[176{,}77;\\,631{,}56]$."
+      ],
+      "hints": [
+        "Gebruik verschil ± kritieke waarde × SE."
+      ],
+      "tolerance": 0.01,
+      "id": "42-031",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "numeric",
+      "difficulty": 3,
+      "question": "In de tabel in les 4 staan twaalf sekseverschillen met hun p-waarden. Hoeveel daarvan blijven onder de Bonferroni-drempel $0{,}05/12$?",
+      "answer": 11,
+      "solution": [
+        "De drempel is $0{,}05/12\\approx0{,}0042$.",
+        "Alleen Chinstrap vleugellengte ($p=0{,}0057$) ligt erboven; de andere elf liggen eronder."
+      ],
+      "hints": [
+        "Bereken eerst de drempel."
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je vergeleek met 0,05. Bij twaalf toetsen gebruik je de strengere drempel $0{,}05/12\\approx0{,}0042$."
+        }
+      ],
+      "id": "42-032",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Je voert drie onafhankelijke toetsen uit op niveau 0,05, allemaal met een ware nulhypothese. Wat is de kans op minstens één vals alarm? Geef vier decimalen.",
+      "answer": 0.1426,
+      "solution": [
+        "Kans op geen vals alarm: $0{,}95^3\\approx0{,}8574$.",
+        "Kans op minstens één: $1-0{,}8574\\approx0{,}1426$."
+      ],
+      "hints": [
+        "Bereken eerst de kans dat geen enkele toets een vals alarm geeft."
+      ],
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.15,
+          "message": "Optellen ($3\\cdot0{,}05$) geeft een bovengrens. Bij onafhankelijke toetsen is de kans $1-0{,}95^3$."
+        },
+        {
+          "answer": 0.8574,
+          "message": "Dat is de kans op geen enkel vals alarm. Trek af van 1."
+        }
+      ],
+      "id": "42-033",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Bij het vergelijken van de gewichten van Adélie's op drie eilanden is de p-waarde van Biscoe tegen Torgersen 0,045468. Bereken de Bonferroni-gecorrigeerde p-waarde voor deze drie vergelijkingen op vier decimalen.",
+      "answer": 0.1364,
+      "solution": [
+        "$3\\cdot0{,}045468=0{,}136404$.",
+        "Gecorrigeerd p ongeveer 0,1364: niet meer onder 0,05."
+      ],
+      "hints": [
+        "Vermenigvuldig met het aantal vergelijkingen."
+      ],
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.0455,
+          "message": "Dit is de ongecorrigeerde p-waarde. Vermenigvuldig met het aantal vergelijkingen (3)."
+        },
+        {
+          "answer": 0.0152,
+          "message": "Je deelde door 3. Bij de gecorrigeerde p-waarde vermenigvuldig je; de drempel deel je."
+        }
+      ],
+      "id": "42-034",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "text",
+      "difficulty": 4,
+      "question": "Een onderzoeker vergelijkt het gewicht van Adélie's tussen alle drie de eilandparen, vindt één paar met $p=0{,}045$ en rapporteert alleen dat paar als bevinding. Wat is er mis en hoe herstel je het?",
+      "answer": "Er zijn drie vergelijkingen gemaakt en alleen de enige significante is gerapporteerd: dat is selectief rapporteren (p-hacken). De kans op minstens één vals alarm is bij drie toetsen ongeveer 14%. Herstel: vooraf bepalen welke vergelijking primair is, alle gemaakte vergelijkingen noemen en corrigeren (Bonferroni: gecorrigeerde p = 0,136), en de uitkomst als verkennend rapporteren.",
+      "solution": [
+        "Het aantal vergelijkingen bepaalt hoe vaak toeval een kleine p kan opleveren.",
+        "Met Bonferroni is de gecorrigeerde p-waarde ongeveer 0,136."
+      ],
+      "hints": [
+        "Hoeveel vergelijkingen zijn er gemaakt?"
+      ],
+      "min_length": 60,
+      "id": "42-035",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 2,
+      "question": "Voorspel met $\\hat y=-3759{,}79244694+38{,}65480649\\,x$ het gewicht van een Adélie met vleugellengte 191 mm. Geef twee decimalen.",
+      "answer": 3623.28,
+      "solution": [
+        "$38{,}65480649\\cdot191=7383{,}0743$.",
+        "$7383{,}0743-3759{,}7924\\approx3623{,}28$ g."
+      ],
+      "hints": [
+        "Vul $x=191$ in."
+      ],
+      "tolerance": 0.01,
+      "unit": "g",
+      "feedback": [
+        {
+          "answer": 3971.17,
+          "message": "Dat is de voorspelling bij 200 mm (uit les 5). Vul hier $x=191$ in."
+        },
+        {
+          "answer": 7383.07,
+          "message": "Je vergat het intercept af te trekken."
+        }
+      ],
+      "id": "42-036",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "Dier 12 heeft vleugellengte 191 mm en gewicht 4600 g. Het model voorspelt 3623,28 g. Bereken het residu (waargenomen min voorspeld) op twee decimalen.",
+      "answer": 976.72,
+      "solution": [
+        "$e=y-\\hat y=4600-3623{,}28=976{,}72$ g.",
+        "Het dier is zwaarder dan het model voorspelt."
+      ],
+      "hints": [
+        "Waargenomen min voorspeld."
+      ],
+      "tolerance": 0.01,
+      "unit": "g",
+      "feedback": [
+        {
+          "answer": -976.72,
+          "message": "Het teken is omgekeerd. Residu = waargenomen min voorspeld; het dier is zwaarder dan voorspeld, dus positief."
+        }
+      ],
+      "id": "42-037",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "guided"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "De helling is 38,654806 g/mm met standaardfout 9,325270 g/mm. Bereken $t$ voor $H_0:\\beta_1=0$ op drie decimalen.",
+      "answer": 4.145,
+      "solution": [
+        "$t=38{,}654806/9{,}325270\\approx4{,}145$.",
+        "Met 50 vrijheidsgraden is dit duidelijk significant."
+      ],
+      "hints": [
+        "Deel de helling door haar standaardfout."
+      ],
+      "tolerance": 0.0005,
+      "feedback": [
+        {
+          "answer": 0.2412,
+          "message": "Je deelde de standaardfout door de helling. De toetsgrootheid is helling gedeeld door standaardfout."
+        }
+      ],
+      "id": "42-038",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "interval",
+      "difficulty": 3,
+      "question": "Geef het 95%-interval voor de populatiehelling (g/mm), met helling 38,654806, standaardfout 9,325270 en $t_{0{,}975;50}=2{,}008559$. Twee decimalen.",
+      "answer": "[19.92; 57.39]",
+      "solution": [
+        "Marge: $2{,}008559\\cdot9{,}325270\\approx18{,}73$.",
+        "Interval: $38{,}65\\pm18{,}73$, dus $[19{,}92;\\,57{,}39]$."
+      ],
+      "hints": [
+        "Verschil ± kritieke waarde × SE."
+      ],
+      "tolerance": 0.01,
+      "id": "42-039",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "De restkwadratensom is $SSE=8\\,572\\,983{,}58$ en de totale kwadratensom $SST=11\\,519\\,074{,}52$. Bereken $R^2=1-SSE/SST$ op vier decimalen.",
+      "answer": 0.2558,
+      "solution": [
+        "$SSE/SST=0{,}7442$.",
+        "$R^2=1-0{,}7442=0{,}2558$."
+      ],
+      "hints": [
+        "Bereken eerst $SSE/SST$."
+      ],
+      "tolerance": 5e-05,
+      "feedback": [
+        {
+          "answer": 0.7442,
+          "message": "Dat is $SSE/SST$, het onverklaarde deel. $R^2$ is het verklaarde deel: trek af van 1."
+        }
+      ],
+      "id": "42-040",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "text",
+      "difficulty": 3,
+      "question": "Het model voorspelt bij 150 mm een gewicht van ongeveer 2038 g. Waarom is die voorspelling onbetrouwbaar?",
+      "answer": "De lijn is bepaald met vleugellengtes van 176 tot 210 mm. 150 mm ligt daarbuiten (extrapolatie): er is geen aanwijzing dat het verband daar nog lineair is, en de restspreiding van ongeveer 414 g is ook alleen voor het bereik van de gegevens geschat.",
+      "solution": [
+        "Extrapolatie veronderstelt dat de lijn buiten het waargenomen bereik blijft gelden.",
+        "De lijn is alleen binnen het meetbereik geijkt."
+      ],
+      "hints": [
+        "Welk bereik van x-waarden bevat de dataset?"
+      ],
+      "min_length": 60,
+      "id": "42-041",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "text",
+      "difficulty": 4,
+      "question": "Over alle 119 dieren is de helling van snaveldiepte op snavellengte negatief, maar binnen elke soort positief. Leg uit hoe dat kan en welke conclusie je dus niet mag trekken.",
+      "answer": "Soort is een groepsvariabele die met beide maten samenhangt: Gentoo heeft een lange maar ondiepe snavel (48,5 mm; 15,3 mm), Adélie een korte, diepe snavel (39,0 mm; 18,1 mm). Over alle soorten heen hoort een langere snavel gemiddeld bij een ondiepere snavel, terwijl binnen elke soort langer samengaat met dieper (Simpsons paradox). Je mag dus niet uit de totale lijn concluderen dat een langere snavel in het algemeen minder diep is.",
+      "solution": [
+        "Verschillen tussen soorten sturen het totaalverband.",
+        "Binnen een soort is het verband positief (r tussen 0,44 en 0,64)."
+      ],
+      "hints": [
+        "Vergelijk de soortgemiddelden van lengte en diepte."
+      ],
+      "min_length": 80,
+      "id": "42-042",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "decimal",
+      "difficulty": 3,
+      "question": "De helling van gewicht op vleugellengte is 38,654806 g/mm over alle Adélie's en 18,507479 g/mm binnen een geslacht (gemeenschappelijk). Met hoeveel procent daalt de helling? Twee decimalen.",
+      "answer": 52.12,
+      "solution": [
+        "$1-18{,}507479/38{,}654806=0{,}5212$.",
+        "De helling daalt met ruim de helft."
+      ],
+      "hints": [
+        "Bereken het relatieve verschil ten opzichte van de eerste helling."
+      ],
+      "tolerance": 0.01,
+      "unit": "%",
+      "feedback": [
+        {
+          "answer": 47.88,
+          "message": "Dat is het resterende percentage (18,51/38,65). De vraag gaat over de daling."
+        }
+      ],
+      "id": "42-043",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "multiple",
+      "difficulty": 3,
+      "question": "Vul de rapportage in voor Adélie-mannen tegenover -vrouwen: Welch-$t$, de vrijheidsgraden $\\nu$ en Cohens $d$. Geef elk getal op twee decimalen.",
+      "solution": [
+        "$t=660{,}58/94{,}84\\approx6{,}97$.",
+        "$\\nu\\approx45{,}42$ (Welch-Satterthwaite).",
+        "$d=660{,}58/341{,}95\\approx1{,}93$."
+      ],
+      "hints": [
+        "Zie les 4 voor $t$, $\\nu$ en $d$."
+      ],
+      "parts": [
+        {
+          "label": "t",
+          "answer": 6.97,
+          "type": "decimal",
+          "tolerance": 0.01
+        },
+        {
+          "label": "ν",
+          "answer": 45.42,
+          "type": "decimal",
+          "tolerance": 0.01
+        },
+        {
+          "label": "d",
+          "answer": 1.93,
+          "type": "decimal",
+          "tolerance": 0.01
+        }
+      ],
+      "id": "42-044",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "independent"
+    },
+    {
+      "type": "text",
+      "difficulty": 4,
+      "question": "Zoek de fouten in de conclusie uit les 7: \"Uit onze analyse van alle 120 pinguïns blijkt dat een langere flipper pinguïns zwaarder maakt (r = 0,89, p < 0,001). Dat geldt voor pinguïns overal ter wereld. Bij een vergelijking van eilanden vonden we bovendien dat Torgersen-Adélie's lichter zijn dan Biscoe-Adélie's (p = 0,045). De ene ontbrekende massa hebben we op nul gezet.\"",
+      "answer": "Minstens vijf fouten: (1) causaal taalgebruik (maakt zwaarder) bij observationele gegevens; (2) 120 dieren terwijl er maar 119 geldige massa's zijn, en de ontbrekende massa als nul behandeld; (3) generalisatie naar alle pinguïns wereldwijd; (4) de totale correlatie mengt soorten: binnen soorten is de samenhang zwakker (Simpson/verstoorder); (5) de eilandvergelijking is een achteraf gekozen paar uit drie vergelijkingen: p = 0,045 is na Bonferroni niet significant (0,136).",
+      "solution": [
+        "Elke zin bevat een fout.",
+        "Denk aan: causaliteit, NA als nul, generalisatie, Simpson, p-hacken."
+      ],
+      "hints": [
+        "Loop de vijf klassieke fouten uit les 7 langs."
+      ],
+      "min_length": 100,
+      "id": "42-045",
+      "topics": [
+        "research",
+        "hypothesis-testing",
+        "descriptive-statistics"
+      ],
+      "mode": "challenge"
+    },
+    {
+      "type": "text",
+      "difficulty": 5,
+      "question": "Voer een mini-onderzoek uit: vergelijk het lichaamsgewicht van Gentoo-mannen en -vrouwen (of kies een eigen verkennende vraag). Beschrijf vraag, selectie, controle, methode, resultaat met interval en beperkingen in een kort rapport.",
+      "answer": "Modelantwoord Gentoo. Vraag (verkennend): verschilt het gemiddelde gewicht van Gentoo-mannen en -vrouwen in 2009? Selectie: 44 Gentoo's; id 92 mist gewicht en geslacht, id 77 en 89 missen het geslacht; 21 mannen en 20 vrouwen blijven over. Controle: boxplots; één kandidaat-uitschieter (man, 4925 g) die blijft staan. Resultaat: mannen 5510,71 g (s = 249,82), vrouwen 4786,25 g (s = 186,29); verschil 724,46 g, SE 68,61, Welch-t(36,92) = 10,56, p < 0,001, d = 3,28, 95%-BI [585,44; 863,49] g. Conclusie: bij de gemeten Gentoo's zijn mannen gemiddeld ongeveer 724 g (15%) zwaarder. Beperkingen: één eiland (Biscoe), één jaar, observationeel ontwerp, mogelijke afhankelijkheid (nesten), verkennende vraag.",
+      "solution": [
+        "Beoordelingscriteria (zie de rubric in les 7): vraag met populatie, datacontrole en selectie, passende grafieken, methode met aannames, juiste berekeningen met eenheden en aantallen, interpretatie met effect en interval, beperkingen (selectie, afhankelijkheid, observationeel, meerdere vragen) en reproduceerbaarheid.",
+        "Controleer je getallen: $t=724{,}46/68{,}61\\approx10{,}56$; marge $2{,}0263\\cdot68{,}61\\approx139{,}0$ g."
+      ],
+      "hints": [
+        "Volg de zeven onderdelen van het rapport uit les 7."
+      ],
+      "min_length": 200,
+      "id": "42-046",
       "topics": [
         "research",
         "hypothesis-testing",
