@@ -395,6 +395,16 @@
       "difficulty": 1,
       "topics": [
         "systems"
+      ],
+      "feedback": [
+        {
+          "answer": "(7;3)",
+          "message": "Je hebt x en y verwisseld: het snijpunt is $(x; y)$, met x eerst."
+        },
+        {
+          "answer": "(3;5)",
+          "message": "Vul x = 3 in y = 2x+1 in: dat geeft 7, niet 5."
+        }
       ]
     },
     {
@@ -412,6 +422,16 @@
       "difficulty": 1,
       "topics": [
         "systems"
+      ],
+      "feedback": [
+        {
+          "answer": "(7;4)",
+          "message": "Je hebt x en y verwisseld. De verticale lijn x = 4 legt de x-coördinaat vast."
+        },
+        {
+          "answer": "(4;8)",
+          "message": "Vergeet de min 1 niet: y = 2·4 - 1 = 7."
+        }
       ]
     },
     {
@@ -429,6 +449,16 @@
       "difficulty": 1,
       "topics": [
         "systems"
+      ],
+      "feedback": [
+        {
+          "answer": "(5;3)",
+          "message": "Je hebt x en y verwisseld. De lijn y = 5 legt de y-coördinaat vast."
+        },
+        {
+          "answer": "(7;5)",
+          "message": "Bij y = 5 los je 5 = x + 2 op, dus x = 3, niet 7."
+        }
       ]
     },
     {
@@ -476,6 +506,16 @@
       "difficulty": 1,
       "topics": [
         "systems"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Een onwaarheid betekent juist dat er geen paar bestaat. Eén oplossing zou betekenen dat de lijnen verschillende richtingen hebben."
+        },
+        {
+          "answer": 2,
+          "message": "Het aantal oplossingen is nul, niet het aantal vergelijkingen of lijnen."
+        }
       ]
     },
     {
@@ -493,6 +533,16 @@
       "difficulty": 1,
       "topics": [
         "systems"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Dat is de gekozen x. Je zoekt y = 5 - x."
+        },
+        {
+          "answer": 7,
+          "message": "Je telde x en 5 op; het moet 5 min x zijn."
+        }
       ]
     },
     {
@@ -510,6 +560,16 @@
       "difficulty": 2,
       "topics": [
         "systems"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Tel ook het paar (0; 5) of (5; 0) mee: x loopt van 0 tot en met 5."
+        },
+        {
+          "answer": 7,
+          "message": "Er zijn zes waarden voor x (0 tot en met 5), niet zeven."
+        }
       ]
     },
     {
@@ -528,6 +588,16 @@
       "difficulty": 1,
       "topics": [
         "systems"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je telde de producten op. De controle is het verschil a1b2 - a2b1."
+        },
+        {
+          "answer": 4,
+          "message": "Je telde de coëfficiënten bij elkaar. Reken a1·b2 - a2·b1."
+        }
       ]
     },
     {
@@ -545,6 +615,16 @@
       "difficulty": 1,
       "topics": [
         "systems"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Je nam het verschil van de verkeerde producten. Reken 1·2 - 2·1."
+        },
+        {
+          "answer": 4,
+          "message": "Een som van de producten geeft niet de controle; neem het verschil."
+        }
       ]
     },
     {
@@ -737,6 +817,12 @@
       "difficulty": 1,
       "topics": [
         "systems"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Evenwijdige lijnen die niet samenvallen hebben geen gemeenschappelijk punt."
+        }
       ]
     },
     {
@@ -767,6 +853,347 @@
           "label": "50%-vloeistof",
           "answer": "10/3",
           "type": "fraction"
+        }
+      ]
+    },
+    {
+      "id": "20-031",
+      "question": "Een koffiekar: twee thee en een koffie kosten samen € 8, een thee en twee koffie samen € 10. Wat kost één koffie? Gebruik $2x+y=8$ en $x+2y=10$.",
+      "answer": 4,
+      "solution": [
+        "Maak y vrij uit de eerste vergelijking: y = 8 - 2x.",
+        "Vul in de tweede in: x + 2(8 - 2x) = 10.",
+        "x = 2, dus y = 8 - 4 = 4."
+      ],
+      "hints": [
+        "Vervang y door 8 - 2x in de tweede vergelijking."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "systems"
+      ],
+      "unit": "€",
+      "tolerance": 0.001,
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Dat is de prijs van een thee (x). De vraag gaat over de koffie (y)."
+        },
+        {
+          "answer": 8,
+          "message": "Dat is het totaalbedrag van de eerste aankoop, geen prijs per stuk."
+        }
+      ]
+    },
+    {
+      "id": "20-032",
+      "question": "Los op met substitutie: $y=5-2x$ en $3x+2y=9$. Wat is $x$?",
+      "answer": 1,
+      "solution": [
+        "y = 5-2x invullen: 3x + 2(5-2x) = 9.",
+        "3x + 10 - 4x = 9, dus -x = -1.",
+        "x = 1 en y = 3. Controle: 3+6 = 9."
+      ],
+      "hints": [
+        "Zet 5-2x tussen haakjes en vermenigvuldig beide termen met 2."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "systems"
+      ],
+      "feedback": [
+        {
+          "answer": -1,
+          "message": "Je vermenigvuldigde alleen de 5 met 2, niet de -2x: je kreeg 3x + 10 - 2x = 9. Gebruik haakjes: 2(5-2x) = 10 - 4x."
+        },
+        {
+          "answer": 3,
+          "message": "Dat is y. De vraag was naar x."
+        }
+      ]
+    },
+    {
+      "id": "20-033",
+      "question": "Los op: $x=3y-1$ en $2x+y=12$. Wat is $x$?",
+      "answer": 5,
+      "solution": [
+        "2(3y-1) + y = 12.",
+        "6y - 2 + y = 12, dus 7y = 14 en y = 2.",
+        "x = 3·2 - 1 = 5."
+      ],
+      "hints": [
+        "Eerst y vinden, dan x terugrekenen."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "systems"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Dat is y. Vul y = 2 in x = 3y - 1 in om x te vinden."
+        }
+      ]
+    },
+    {
+      "id": "20-034",
+      "question": "Los op: $2x+3y=7$ en $2x-y=-5$. Wat is $y$?",
+      "answer": 3,
+      "solution": [
+        "Trek de tweede af van de eerste: (2x+3y) - (2x-y) = 4y.",
+        "Rechts: 7 - (-5) = 12.",
+        "4y = 12, y = 3 en x = -1."
+      ],
+      "hints": [
+        "Trek ook het rechterlid af, met aandacht voor het minteken."
+      ],
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "systems"
+      ],
+      "tolerance": 1e-06,
+      "feedback": [
+        {
+          "answer": 0.5,
+          "message": "Je rekende 7 - 5 = 2 in plaats van 7 - (-5) = 12. Min min is plus."
+        },
+        {
+          "answer": -1,
+          "message": "Dat is x. Je vroeg naar y."
+        }
+      ]
+    },
+    {
+      "id": "20-035",
+      "question": "Los op: $x+2y=7$ en $3x-y=7$. Wat is $x$?",
+      "answer": 3,
+      "solution": [
+        "Vermenigvuldig de tweede met 2: 6x - 2y = 14 (de hele vergelijking).",
+        "Tel op bij de eerste: 7x = 21.",
+        "x = 3 en y = 2."
+      ],
+      "hints": [
+        "Vermenigvuldig links én rechts."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "systems"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je vermenigvuldigde alleen de linkerkant met 2 en liet de 7 staan. Dan krijg je 7x = 14, en dat is een andere vraag dan de oorspronkelijke."
+        }
+      ]
+    },
+    {
+      "id": "20-036",
+      "question": "Geef het snijpunt van y = x+1 en y = -2x+7.",
+      "answer": "(2;3)",
+      "solution": [
+        "Stel de rechterleden gelijk: x + 1 = -2x + 7.",
+        "3x = 6, x = 2.",
+        "y = 2 + 1 = 3."
+      ],
+      "hints": [
+        "Gelijkstellen geeft een vergelijking met één onbekende."
+      ],
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "topics": [
+        "systems"
+      ],
+      "feedback": [
+        {
+          "answer": "(3;2)",
+          "message": "Je hebt x en y verwisseld."
+        },
+        {
+          "answer": "(2;7)",
+          "message": "Je nam de 7 uit de tweede formule over. Vul x = 2 in: y = 2 + 1 = 3."
+        }
+      ]
+    },
+    {
+      "id": "20-037",
+      "question": "Voor welke waarde van $c$ heeft het stelsel $x+y=5$, $2x+2y=c$ oneindig veel oplossingen?",
+      "answer": 10,
+      "solution": [
+        "De tweede moet dezelfde voorwaarde zijn als de eerste.",
+        "Eerste maal 2: 2x + 2y = 10.",
+        "Dus c = 10."
+      ],
+      "hints": [
+        "Vermenigvuldig de eerste vergelijking met 2."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "systems"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je liet de rechterkant onveranderd bij het vermenigvuldigen. Ook 5 moet met 2."
+        },
+        {
+          "answer": 12,
+          "message": "Voor c = 12 is het stelsel strijdig, niet herhaald."
+        }
+      ]
+    },
+    {
+      "id": "20-038",
+      "question": "Modern en met twee onbekenden, in de geest van hoofdstuk 8: drie bundels goed graan en twee bundels slecht graan leveren 19 maten, één bundel goed en vier bundels slecht leveren 13 maten. Hoeveel maten levert één bundel goed graan?",
+      "answer": 5,
+      "solution": [
+        "3x + 2y = 19 en x + 4y = 13.",
+        "x = 13 - 4y, dus 3(13-4y) + 2y = 19: 39 - 10y = 19, y = 2.",
+        "x = 13 - 8 = 5."
+      ],
+      "hints": [
+        "Gebruik substitutie, of vermenigvuldig de eerste met 2 en trek af."
+      ],
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "topics": [
+        "systems"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Dat is y, de opbrengst van de slechte soort."
+        }
+      ]
+    },
+    {
+      "id": "20-039",
+      "question": "Een opgave in de geest van Alcuinus: honderd mensen, honderd schepels graan. Een man krijgt 3, een vrouw 2, een kind een halve. Er zijn 15 vrouwen. Hoeveel kinderen zijn er?",
+      "answer": 74,
+      "solution": [
+        "m + 15 + k = 100 en 3m + 30 + k/2 = 100.",
+        "Dus m + k = 85 en 3m + k/2 = 70, ofwel 6m + k = 140.",
+        "Aftrekken: 5m = 55, m = 11 en k = 74."
+      ],
+      "hints": [
+        "Vul w = 15 in beide vergelijkingen in en vermenigvuldig de tweede met 2."
+      ],
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "topics": [
+        "systems"
+      ],
+      "feedback": [
+        {
+          "answer": 11,
+          "message": "Dat is het aantal mannen. De vraag gaat over de kinderen: k = 85 - m."
+        },
+        {
+          "answer": 70,
+          "message": "Je hebt de 15 vrouwen niet afgetrokken van het totaal. Het totaal is 100 mensen."
+        }
+      ]
+    },
+    {
+      "id": "20-040",
+      "question": "Twee pizza's en drie salades kosten samen € 31; vier pizza's en één salade kosten € 37. Wat kost één salade?",
+      "answer": 5,
+      "solution": [
+        "2x + 3y = 31 en 4x + y = 37.",
+        "y = 37 - 4x: 2x + 111 - 12x = 31, dus -10x = -80, x = 8.",
+        "y = 37 - 32 = 5."
+      ],
+      "hints": [
+        "Kies een onbekende die je gemakkelijk vrij kunt maken."
+      ],
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "systems"
+      ],
+      "unit": "€",
+      "tolerance": 0.001,
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Dat is de prijs van een pizza, niet van een salade."
+        },
+        {
+          "answer": 31,
+          "message": "Dat is het bedrag van de eerste bestelling."
+        }
+      ]
+    },
+    {
+      "id": "20-041",
+      "question": "Je hebt 14 munten van 10 en 50 cent, samen € 4,60. Hoeveel munten van 50 cent zijn het?",
+      "answer": 8,
+      "solution": [
+        "x + y = 14 en 0,10x + 0,50y = 4,60.",
+        "x = 14 - y: 1,40 + 0,40y = 4,60, dus y = 8.",
+        "Dan x = 6. Controle: 0,60 + 4,00 = 4,60."
+      ],
+      "hints": [
+        "Werk in euro en let op de eenheden."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "systems"
+      ],
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Dat zijn de munten van 10 cent. Je zoekt het aantal van 50 cent."
+        },
+        {
+          "answer": 14,
+          "message": "Dat is het totaal aantal munten."
+        }
+      ]
+    },
+    {
+      "id": "20-042",
+      "question": "Op een terrein staan auto's (4 wielen) en motoren (2 wielen): 25 voertuigen met samen 70 wielen. Hoeveel auto's staan er?",
+      "answer": 10,
+      "solution": [
+        "x + y = 25 en 4x + 2y = 70.",
+        "Tweede delen door 2: 2x + y = 35. Aftrekken van x + y = 25 geeft x = 10.",
+        "y = 15."
+      ],
+      "hints": [
+        "Deel de tweede vergelijking eerst door 2."
+      ],
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "topics": [
+        "systems"
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Dat is het aantal motoren."
+        },
+        {
+          "answer": 35,
+          "message": "Dat is het aantal wielen gedeeld door 2, niet het aantal auto's."
         }
       ]
     }

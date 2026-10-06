@@ -56,17 +56,20 @@
     {
       "name": "Substitutie",
       "latex": "y=ax+b\\implies cx+dy=cx+d(ax+b)",
-      "usage": "Vervang de hele expressie voor y, met haakjes."
+      "usage": "Vervang de hele expressie voor y, met haakjes.",
+      "origin": "Substitutie is een eeuwenoude gedachte; in de moderne lettertaal vanaf de 16e–17e eeuw."
     },
     {
       "name": "Eliminatie",
       "latex": "A=B,\\ C=D\\implies A+C=B+D",
-      "usage": "Behoud naast de nieuwe vergelijking een oorspronkelijke vergelijking."
+      "usage": "Behoud naast de nieuwe vergelijking een oorspronkelijke vergelijking.",
+      "origin": "Eliminatie in de Negen Hoofdstukken en bij Gauss (1809/1810)."
     },
     {
       "name": "Unieke oplossing",
       "latex": "a_1b_2-a_2b_1\\ne0",
-      "usage": "Bij twee lineaire vergelijkingen aᵢx+bᵢy=cᵢ garandeert dit een uniek paar."
+      "usage": "Bij twee lineaire vergelijkingen aᵢx+bᵢy=cᵢ garandeert dit een uniek paar.",
+      "origin": "Hangt samen met de determinant van een 2×2-matrix (module 32)."
     }
   ],
   "lessons": [
@@ -122,5 +125,7 @@
   "timeline": [
     "negen-hoofdstukken"
   ],
-  "mathematicians": []
+  "mathematicians": [
+    "gauss"
+  ]
 }
