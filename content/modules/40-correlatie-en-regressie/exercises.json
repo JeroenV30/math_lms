@@ -16,7 +16,13 @@
         "correlation",
         "regression"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Dat is de som van de x-waarden. Deel die nog door het aantal punten, 5."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -34,7 +40,17 @@
         "correlation",
         "regression"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Dat is de som van de y-waarden. Deel die nog door 5."
+        },
+        {
+          "answer": 3,
+          "message": "Dit is x̄. Hier gaat het om de y-waarden."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -53,7 +69,17 @@
         "correlation",
         "regression"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je hebt 10 door n=5 gedeeld. S_xx is een som van kwadraten, geen gemiddelde."
+        },
+        {
+          "answer": 0,
+          "message": "De afwijkingen zelf tellen op tot nul. Kwadrateer ze eerst."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -72,7 +98,17 @@
         "correlation",
         "regression"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 1.2,
+          "message": "Je hebt 6 door 5 gedeeld. S_yy is de kwadratensom zelf."
+        },
+        {
+          "answer": 0,
+          "message": "De afwijkingen tellen op tot nul; kwadrateer ze eerst."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -91,7 +127,17 @@
         "correlation",
         "regression"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Je hebt de x-afwijkingen gekwadrateerd (S_xx). Hier moet je x- en y-afwijking per punt vermenigvuldigen."
+        },
+        {
+          "answer": 1.5,
+          "message": "Je hebt S_xy door n−1=4 gedeeld; dat is de covariantie, niet S_xy zelf."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -110,7 +156,17 @@
         "correlation",
         "regression"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.6,
+          "message": "Dat is de helling S_xy/S_xx. Voor r deel je door √(S_xx·S_yy)."
+        },
+        {
+          "answer": 1,
+          "message": "Een r van 1 zou betekenen dat alle punten exact op één lijn liggen."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -129,7 +185,17 @@
         "correlation",
         "regression"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 1.667,
+          "message": "Je hebt S_xx/S_xy gedeeld. De helling is S_xy/S_xx."
+        },
+        {
+          "answer": 6,
+          "message": "Dat is S_xy zelf. Deel door S_xx."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -148,7 +214,17 @@
         "correlation",
         "regression"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 1.8,
+          "message": "Dat is b₁·x̄. Het intercept is ȳ min dat product."
+        },
+        {
+          "answer": 4,
+          "message": "Dat is ȳ. Trek er b₁·x̄ van af."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -167,7 +243,13 @@
         "correlation",
         "regression"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 2.4,
+          "message": "Je hebt het intercept vergeten: 0,6·4 = 2,4. Tel er 2,2 bij op."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -186,7 +268,13 @@
         "correlation",
         "regression"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.6,
+          "message": "Let op het teken: residu = waarneming min voorspelling, dus 4 − 4,6."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -205,7 +293,17 @@
         "correlation",
         "regression"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "Dat is de som van de residuen zelf, die bij kleinste kwadraten altijd nul is. Kwadrateer eerst."
+        },
+        {
+          "answer": 0.4,
+          "message": "Dat is een fractie, geen SSE. SSE is de kwadratensom zelf."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -224,7 +322,17 @@
         "correlation",
         "regression"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.4,
+          "message": "Dat is SSE/S_yy, de onverklaarde fractie. R² is 1 min die fractie."
+        },
+        {
+          "answer": 0.775,
+          "message": "Dat is r. R² is r²."
+        }
+      ]
     },
     {
       "type": "text",
@@ -263,7 +371,17 @@
         "correlation",
         "regression"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.8,
+          "message": "Je hebt de wortel vergeten: s_e = √(SSE/(n−2))."
+        },
+        {
+          "answer": 0.693,
+          "message": "Je deelde door n=5. Er zijn twee parameters geschat, dus deel door n−2=3."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -282,7 +400,17 @@
         "correlation",
         "regression"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.894,
+          "message": "Dat is s_e. Deel nog door √S_xx."
+        },
+        {
+          "answer": 2.828,
+          "message": "Je hebt vermenigvuldigd met √S_xx. De standaardfout is s_e gedeeld door √S_xx."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -300,7 +428,17 @@
         "correlation",
         "regression"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je gebruikte n. Er zijn twee parameters geschat."
+        },
+        {
+          "answer": 4,
+          "message": "Dat is n−1, zoals bij één steekproef. Bij regressie trek je 2 af."
+        }
+      ]
     },
     {
       "type": "text",
@@ -380,6 +518,673 @@
         "regression"
       ],
       "mode": "challenge"
+    },
+    {
+      "id": "40-021",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zes studenten: uren x = 2, 4, 5, 7, 8, 10 en cijfers y = 5,5; 6,0; 6,5; 7,0; 8,5; 8,0. Gegeven is S_xy = 15,5. Bereken de covariantie s_xy van de steekproef (deel door n−1).",
+      "solution": [
+        "$s_{xy}=S_{xy}/(n-1)=15{,}5/5=3{,}1$."
+      ],
+      "hints": [
+        "Bij zes punten is n−1 gelijk aan 5."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 3.1,
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 2.583,
+          "message": "Je deelde door n=6. Voor de steekproefcovariantie deel je door n−1=5."
+        },
+        {
+          "answer": 15.5,
+          "message": "Dat is S_xy zelf. Deel nog door n−1."
+        }
+      ]
+    },
+    {
+      "id": "40-022",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bij dezelfde zes studenten is de som van de producten van z-scores $\\sum z_x z_y = 4{,}617$. Bereken r met $r=\\frac{1}{n-1}\\sum z_xz_y$, op drie decimalen.",
+      "solution": [
+        "$r=4{,}617/5=0{,}9234\\ldots$."
+      ],
+      "hints": [
+        "Deel door n−1, niet door n."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 0.923,
+      "tolerance": 0.0006,
+      "feedback": [
+        {
+          "answer": 0.7695,
+          "message": "Je deelde door n=6. In deze formule is de deler n−1=5, net als bij de standaarddeviatie."
+        }
+      ]
+    },
+    {
+      "id": "40-023",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De studie-uren van de zes studenten (r = 0,923) worden omgerekend van uren naar minuten. Wat is r daarna? Rond af op drie decimalen.",
+      "solution": [
+        "Vermenigvuldigen met een positieve factor verandert r niet: $r=0{,}923$."
+      ],
+      "hints": [
+        "Is r afhankelijk van de eenheid?"
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 0.923,
+      "tolerance": 0.0006,
+      "feedback": [
+        {
+          "answer": 55.38,
+          "message": "Je hebt r met 60 vermenigvuldigd. Een correlatie is schaalvrij en kan niet groter zijn dan 1."
+        },
+        {
+          "answer": 0.0154,
+          "message": "Je hebt door 60 gedeeld. Een lineaire omrekening met positieve factor laat r ongewijzigd."
+        }
+      ]
+    },
+    {
+      "id": "40-024",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Neem x = −2, −1, 0, 1, 2 en y = x² (dus 4, 1, 0, 1, 4). Bereken Pearson r. (Er is wel degelijk een verband tussen x en y.)",
+      "solution": [
+        "$\\bar x=0$, $\\bar y=2$. Producten $(x-\\bar x)(y-\\bar y)$: $(-2)(2)=-4$, $(-1)(-1)=1$, $0\\cdot(-2)=0$, $1\\cdot(-1)=-1$, $2\\cdot2=4$. Som $0$.",
+        "$S_{xy}=0$, dus $r=0$: er is geen lineaire samenhang, hoewel y exact door x bepaald wordt."
+      ],
+      "hints": [
+        "Bereken eerst x̄ en ȳ en dan S_xy."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 0,
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Een perfect functioneel verband is niet hetzelfde als r=1. De linkerhelft en rechterhelft van de parabool heffen elkaar op in S_xy."
+        }
+      ]
+    },
+    {
+      "id": "40-025",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke correlatie hebben alle vier de sets van Anscombe's kwartet (op drie decimalen)?",
+      "solution": [
+        "Alle vier hebben $r\\approx0{,}816$, en regressielijn $\\hat y\\approx3{,}0+0{,}5x$."
+      ],
+      "hints": [
+        "De helling van de lijn is 0,5; r is groter dan 0,8."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 0.816,
+      "tolerance": 0.0006,
+      "feedback": [
+        {
+          "answer": 0.5,
+          "message": "Dat is de helling van de regressielijn, niet r."
+        },
+        {
+          "answer": 0.667,
+          "message": "Dat is R² = r² ≈ 0,67. Gevraagd is r."
+        }
+      ]
+    },
+    {
+      "id": "40-026",
+      "type": "multiple",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Gegeven: S_xx = 40, S_yy = 90 en S_xy = −30. Bereken de correlatie r en de helling b₁ van de regressielijn van y op x.",
+      "solution": [
+        "$r=-30/\\sqrt{40\\cdot90}=-30/60=-0{,}5$.",
+        "$b_1=S_{xy}/S_{xx}=-30/40=-0{,}75$."
+      ],
+      "hints": [
+        "Voor r deel je door √(S_xx·S_yy), voor b₁ door S_xx."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "parts": [
+        {
+          "label": "r",
+          "answer": -0.5,
+          "type": "decimal",
+          "tolerance": 0.005
+        },
+        {
+          "label": "b₁",
+          "answer": -0.75,
+          "type": "decimal",
+          "tolerance": 0.005
+        }
+      ]
+    },
+    {
+      "id": "40-027",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een regressie heeft r = 0,6, s_x = 5 en s_y = 10. Bereken de helling b₁ = r·s_y/s_x.",
+      "solution": [
+        "$b_1=0{,}6\\cdot10/5=1{,}2$."
+      ],
+      "hints": [
+        "Welke standaarddeviatie hoort boven de breukstreep?"
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 1.2,
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 0.3,
+          "message": "Je hebt s_x/s_y gebruikt. Dat is de helling van x op y. Voor y op x is het s_y/s_x."
+        },
+        {
+          "answer": 3,
+          "message": "Je hebt r vergeten; de helling is r maal s_y/s_x."
+        }
+      ]
+    },
+    {
+      "id": "40-028",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bij de zes studenten is de regressielijn $\\hat y=4{,}7024+0{,}36905x$. Student 5 studeerde 8 uur en haalde een 8,5. Bereken het residu op drie decimalen.",
+      "solution": [
+        "$\\hat y=4{,}7024+0{,}36905\\cdot8=7{,}6548$.",
+        "Residu $=8{,}5-7{,}6548=0{,}845$."
+      ],
+      "hints": [
+        "Residu is waarneming min voorspelling."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 0.845,
+      "tolerance": 0.002,
+      "feedback": [
+        {
+          "answer": -0.845,
+          "message": "Je hebt het teken omgedraaid. Residu = y − ŷ; hier ligt het punt boven de lijn."
+        },
+        {
+          "answer": 7.655,
+          "message": "Dat is de voorspelling ŷ. Het residu is y − ŷ."
+        }
+      ]
+    },
+    {
+      "id": "40-029",
+      "type": "expression",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Voor een regressie is x̄ = 10, ȳ = 24,5 en de helling b₁ = 2,1. Geef de regressielijn in de vorm y = b₁x + b₀.",
+      "solution": [
+        "$b_0=\\bar y-b_1\\bar x=24{,}5-2{,}1\\cdot10=3{,}5$.",
+        "De lijn is $y=2{,}1x+3{,}5$."
+      ],
+      "hints": [
+        "De lijn gaat door het gemiddelde punt (x̄; ȳ)."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": "y = 2,1x + 3,5",
+      "feedback": [
+        {
+          "answer": "y = 2,1x + 24,5",
+          "message": "Je hebt ȳ als intercept genomen. Het intercept is ȳ − b₁·x̄."
+        }
+      ]
+    },
+    {
+      "id": "40-030",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een eenvoudige regressie met intercept heeft r = 0,7. Bereken R².",
+      "solution": [
+        "$R^2=r^2=0{,}49$.",
+        "Dus 49% van de variatie in y wordt verklaard, niet 70%."
+      ],
+      "hints": [
+        "Kwadrateer r."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 0.49,
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 0.7,
+          "message": "Dat is r zelf. R² is r²; een r van 0,7 verklaart minder dan 70% van de variatie."
+        }
+      ]
+    },
+    {
+      "id": "40-031",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bij r = 0,6, s_x = 5 en s_y = 10 is de helling van y op x gelijk aan 1,2. Bereken de helling van de regressielijn van x op y (x voorspellen uit y).",
+      "solution": [
+        "$b_{x|y}=r\\,s_x/s_y=0{,}6\\cdot5/10=0{,}3$.",
+        "Let op: dit is niet $1/1{,}2$. Het product van de twee hellingen is $r^2=0{,}36$."
+      ],
+      "hints": [
+        "Nu is x de te voorspellen variabele; welke standaarddeviatie komt boven?"
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 0.3,
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 0.833,
+          "message": "Je hebt 1/1,2 genomen. De omgekeerde regressie heeft helling r·s_x/s_y; het product met de eerste helling is r², niet 1."
+        },
+        {
+          "answer": 1.2,
+          "message": "Dat is de helling van y op x. Draai de rollen om."
+        }
+      ]
+    },
+    {
+      "id": "40-032",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Vijf punten hebben x̄ = 3 en S_xx = 10. Voeg een zesde punt toe bij x = 10; dan is n = 6, x̄ = 25/6 en S_xx = 50,83. Bereken de hefboomwaarde $h=1/n+(x_0-\\bar x)^2/S_{xx}$ van dat punt op drie decimalen.",
+      "solution": [
+        "$h=1/6+(10-4{,}1667)^2/50{,}83=0{,}1667+0{,}6694=0{,}836$."
+      ],
+      "hints": [
+        "Gebruik x̄ = 4,1667 voor de zes punten."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 0.836,
+      "tolerance": 0.0006,
+      "feedback": [
+        {
+          "answer": 0.1667,
+          "message": "Dat is alleen de term 1/n. Tel (x₀ − x̄)²/S_xx erbij op."
+        }
+      ]
+    },
+    {
+      "id": "40-033",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Vijf punten (1;2), (2;4), (3;5), (4;4), (5;5) hebben b₁ = 0,6. Er komt een zesde punt (10; 1) bij. Gegeven: dan is S_xy = −11,5 en S_xx = 50,83. Bereken de nieuwe helling op drie decimalen.",
+      "solution": [
+        "$b_1=-11{,}5/50{,}83=-0{,}226$.",
+        "Eén punt met hoge hefboom heeft het teken van de helling omgekeerd."
+      ],
+      "hints": [
+        "Deel de nieuwe S_xy door de nieuwe S_xx."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": -0.226,
+      "tolerance": 0.002,
+      "feedback": [
+        {
+          "answer": 0.6,
+          "message": "Dat is de oude helling. Het nieuwe punt ligt ver van de lijn én ver van x̄ en verandert de lijn sterk."
+        },
+        {
+          "answer": 0.226,
+          "message": "Controleer het teken: S_xy is negatief geworden."
+        }
+      ]
+    },
+    {
+      "id": "40-034",
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Aan de punten (1;2), (2;4), (3;5), (4;4), (5;5) (b₁ = 0,6; r = 0,775) voeg je het punt (3; 12) toe. Dan is $\\bar x=3$, $S_{xx}=10$, $S_{xy}=6$ en $S_{yy}=59{,}33$. Bereken de nieuwe helling b₁ en de nieuwe r (drie decimalen).",
+      "solution": [
+        "$b_1=S_{xy}/S_{xx}=6/10=0{,}6$: de helling verandert niet, omdat $x_0=\\bar x$ geen hefboom heeft.",
+        "$r=6/\\sqrt{10\\cdot59{,}33}=6/24{,}36=0{,}246$: de correlatie stort in doordat S_yy sterk groeit."
+      ],
+      "hints": [
+        "Het nieuwe punt ligt op x = x̄: wat doet dat met S_xy?"
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "parts": [
+        {
+          "label": "b₁",
+          "answer": 0.6,
+          "type": "decimal",
+          "tolerance": 0.005
+        },
+        {
+          "label": "r",
+          "answer": 0.246,
+          "type": "decimal",
+          "tolerance": 0.002
+        }
+      ]
+    },
+    {
+      "id": "40-035",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bij de zes studenten is s_e = 0,497 en S_xx = 42. Bereken SE(b₁) op drie decimalen.",
+      "solution": [
+        "$SE(b_1)=0{,}497/\\sqrt{42}=0{,}497/6{,}481=0{,}0767$."
+      ],
+      "hints": [
+        "Deel s_e door √S_xx."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 0.0767,
+      "tolerance": 0.0006,
+      "feedback": [
+        {
+          "answer": 0.497,
+          "message": "Dat is s_e. Deel nog door √S_xx."
+        },
+        {
+          "answer": 0.0118,
+          "message": "Je hebt door S_xx gedeeld in plaats van door √S_xx."
+        }
+      ]
+    },
+    {
+      "id": "40-036",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bij de zes studenten is b₁ = 0,369 en SE(b₁) = 0,0767. Bereken de t-waarde voor H₀: β₁ = 0, op twee decimalen.",
+      "solution": [
+        "$t=b_1/SE(b_1)=0{,}369/0{,}0767=4{,}81$.",
+        "Er zijn $n-2=4$ vrijheidsgraden."
+      ],
+      "hints": [
+        "t is de helling gedeeld door haar standaardfout."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 4.81,
+      "tolerance": 0.02,
+      "feedback": [
+        {
+          "answer": 0.208,
+          "message": "Je hebt SE door b₁ gedeeld. De t-waarde is b₁ gedeeld door SE(b₁)."
+        }
+      ]
+    },
+    {
+      "id": "40-037",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bij de zes studenten is b₁ = 0,369 en SE(b₁) = 0,0767, met 4 vrijheidsgraden en kritieke waarde t* = 2,776. Geef de ondergrens en bovengrens van het 95%-interval voor de helling (drie decimalen).",
+      "solution": [
+        "Marge $=2{,}776\\cdot0{,}0767=0{,}2129$.",
+        "Interval: $0{,}369\\pm0{,}213$, dus $[0{,}156;\\ 0{,}582]$."
+      ],
+      "hints": [
+        "Het interval is b₁ ± t*·SE."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "parts": [
+        {
+          "label": "ondergrens",
+          "answer": 0.156,
+          "type": "decimal",
+          "tolerance": 0.003
+        },
+        {
+          "label": "bovengrens",
+          "answer": 0.582,
+          "type": "decimal",
+          "tolerance": 0.003
+        }
+      ]
+    },
+    {
+      "id": "40-038",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De lijn voor de zes studenten is $\\hat y=4{,}7024+0{,}36905x$, met studie-uren tussen 2 en 10. Wat voorspelt de lijn bij x = 24 uur? Rond af op één decimaal en bedenk waarom dit getal onbruikbaar is.",
+      "solution": [
+        "$4{,}7024+0{,}36905\\cdot24=13{,}56$, dus afgerond $13{,}6$.",
+        "Het maximum cijfer is een 10 en 24 ligt ver buiten het bereik 2 tot 10: extrapolatie."
+      ],
+      "hints": [
+        "Vul x = 24 in de lijn in."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 13.6,
+      "tolerance": 0.06,
+      "feedback": [
+        {
+          "answer": 8.9,
+          "message": "Je rekende alleen 0,369·24 uit. Tel het intercept 4,70 erbij op."
+        }
+      ]
+    },
+    {
+      "id": "40-039",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Voor lengte van ouders (gemiddelde 180 cm, sd 8 cm) en kinderen (gemiddelde 180 cm, sd 8 cm) is r = 0,5. Een ouderpaar heeft gemiddeld 196 cm. Wat voorspelt de regressielijn voor hun kind (in cm)?",
+      "solution": [
+        "$z_x=(196-180)/8=2$.",
+        "$\\hat z_y=r\\cdot z_x=1$, dus $\\hat y=180+1\\cdot8=188$ cm."
+      ],
+      "hints": [
+        "Reken om naar een z-score, vermenigvuldig met r en reken terug."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 188,
+      "tolerance": 0.5,
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 196,
+          "message": "Dat zou 'geen regressie' zijn (r=1). Met r=0,5 komt het kind gemiddeld maar de helft van de afwijking van de ouders mee."
+        },
+        {
+          "answer": 180,
+          "message": "Dat zou r=0 zijn. Er is wel correlatie: het kind wijkt gemiddeld r maal zoveel af als de ouders."
+        }
+      ]
+    },
+    {
+      "id": "40-040",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Programma A: 9 van 10 geslaagd met veel voorkennis en 30 van 90 met weinig voorkennis. Wat is het totale slagingspercentage van programma A (als geheel getal, zonder %-teken)?",
+      "solution": [
+        "$(9+30)/(10+90)=39/100=39\\%$.",
+        "Dit is veel lager dan het totaal van B (83%), terwijl A in beide groepen even goed of beter is: Simpsons paradox."
+      ],
+      "hints": [
+        "Tel eerst alle geslaagden op en deel door alle deelnemers."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 39,
+      "feedback": [
+        {
+          "answer": 62,
+          "message": "Je hebt de twee percentages (90% en 33%) gemiddeld. Daarmee geef je de kleine en grote groep hetzelfde gewicht; tel liever de aantallen op."
+        }
+      ]
+    },
+    {
+      "id": "40-041",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In een stad zijn in maanden met meer ijsverkoop ook meer verdrinkingsongevallen. Een krantenkop meldt: 'IJs eten leidt tot verdrinking'. Wat is er mis met die conclusie, en wat is een betere verklaring?",
+      "solution": [
+        "Een correlatie bewijst geen oorzaak. Warm weer veroorzaakt zowel meer ijsverkoop als meer zwemmen, dus meer verdrinkingen: een confounder."
+      ],
+      "hints": [
+        "Welke derde variabele beïnvloedt beide?"
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": "De correlatie komt van een derde variabele: warm weer. Dat leidt tot meer ijsverkoop en tot meer mensen in het water. Er is geen bewijs dat het ene het andere veroorzaakt; je hebt een experiment of een causaal model nodig.",
+      "min_length": 60
+    },
+    {
+      "id": "40-042",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een bacteriekweek wordt beschreven door $\\ln\\hat y=1{,}2+0{,}3x$ (x in uren, y het aantal bacteriën in duizenden). Bereken $\\hat y$ bij x = 5, op één decimaal.",
+      "solution": [
+        "$\\ln\\hat y=1{,}2+1{,}5=2{,}7$.",
+        "$\\hat y=e^{2{,}7}\\approx14{,}9$ duizend bacteriën."
+      ],
+      "hints": [
+        "De regressie is op ln y uitgevoerd; reken terug met e^…"
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 14.9,
+      "tolerance": 0.06,
+      "feedback": [
+        {
+          "answer": 2.7,
+          "message": "Dat is de voorspelling van ln y. Je moet terugrekenen met e^2,7."
+        }
+      ]
+    },
+    {
+      "id": "40-043",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Vijf paren: x = 10, 20, 30, 40, 50 en y = 12, 8, 30, 25, 41. De rangen van x zijn 1 tot 5; de rangen van y zijn 2, 1, 4, 3, 5. Bereken Spearmans ρ met $\\rho=1-\\frac{6\\sum d^2}{n(n^2-1)}$.",
+      "solution": [
+        "De rangverschillen zijn $-1,\\ 1,\\ -1,\\ 1,\\ 0$, dus $\\sum d^2=4$.",
+        "$\\rho=1-6\\cdot4/(5\\cdot24)=1-24/120=0{,}8$."
+      ],
+      "hints": [
+        "Bepaal eerst het verschil d per paar."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 0.8,
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 0.2,
+          "message": "Dat is de breuk 6Σd²/(n(n²−1)) zelf. ρ is 1 min die breuk."
+        },
+        {
+          "answer": 0.95,
+          "message": "Controleer Σd². Er zijn vier verschillen van ±1, dus Σd² = 4 en niet 1."
+        }
+      ]
+    },
+    {
+      "id": "40-044",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een gebouw heeft de regressielijn $\\hat y=48-3{,}2x$ voor gasverbruik y (m³ per dag) tegen temperatuur x (°C), geschat op dagen tussen −5 en 12 °C. Wat verwacht het model bij x = −10 °C, en is dat een interpolatie of extrapolatie? Geef het verbruik in m³.",
+      "solution": [
+        "$48-3{,}2\\cdot(-10)=48+32=80$ m³.",
+        "−10 °C ligt buiten −5 tot 12 °C: een (kleine) extrapolatie."
+      ],
+      "hints": [
+        "Let op het minteken bij een negatieve temperatuur."
+      ],
+      "topics": [
+        "correlation",
+        "regression"
+      ],
+      "answer": 80,
+      "tolerance": 0.5,
+      "unit": "m³",
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Je hebt 48 − 32 gerekend. Een negatieve x maakt de term −3,2·x positief."
+        }
+      ]
     }
   ]
 }

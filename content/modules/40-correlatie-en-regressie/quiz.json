@@ -15,6 +15,12 @@
       "topics": [
         "correlation",
         "regression"
+      ],
+      "feedback": [
+        {
+          "answer": 0.667,
+          "message": "Je deelde S_xx door S_xy. De helling is S_xy/S_xx."
+        }
       ]
     },
     {
@@ -30,6 +36,12 @@
       "topics": [
         "correlation",
         "regression"
+      ],
+      "feedback": [
+        {
+          "answer": 9,
+          "message": "Dat is ȳ. Trek b₁·x̄ af."
+        }
       ]
     },
     {
@@ -58,6 +70,12 @@
       "topics": [
         "correlation",
         "regression"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Let op het teken: residu = y − ŷ = 10 − 12."
+        }
       ]
     },
     {
@@ -87,6 +105,12 @@
       "topics": [
         "correlation",
         "regression"
+      ],
+      "feedback": [
+        {
+          "answer": -0.667,
+          "message": "Je deelde door S_xx of S_yy alleen; deel door √(S_xx·S_yy)."
+        }
       ]
     },
     {
@@ -102,6 +126,12 @@
       "topics": [
         "correlation",
         "regression"
+      ],
+      "feedback": [
+        {
+          "answer": -0.5,
+          "message": "Dat is r zelf. R² is r²."
+        }
       ]
     },
     {
@@ -131,6 +161,12 @@
       "topics": [
         "correlation",
         "regression"
+      ],
+      "feedback": [
+        {
+          "answer": 11,
+          "message": "Je gebruikte n−1. Bij regressie zijn twee parameters geschat: n−2."
+        }
       ]
     },
     {
@@ -145,6 +181,12 @@
       "topics": [
         "correlation",
         "regression"
+      ],
+      "feedback": [
+        {
+          "answer": 2.449,
+          "message": "Je deelde door n=12; deel door n−2."
+        }
       ]
     },
     {
@@ -160,6 +202,12 @@
       "topics": [
         "correlation",
         "regression"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Dat is s_e. Deel door √S_xx=4."
+        }
       ]
     },
     {
@@ -218,6 +266,12 @@
       "topics": [
         "correlation",
         "regression"
+      ],
+      "feedback": [
+        {
+          "answer": 1.1,
+          "message": "Je telde de marge erbij op in plaats van af te trekken."
+        }
       ]
     }
   ]

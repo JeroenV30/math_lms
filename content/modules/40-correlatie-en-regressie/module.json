@@ -7,7 +7,7 @@
   "status": "available",
   "historical_period": "19e eeuw",
   "estimated_difficulty": 5,
-  "estimated_minutes": 180,
+  "estimated_minutes": 300,
   "prerequisites": [
     39
   ],
@@ -18,11 +18,14 @@
   "core_question": "Hoe beschrijf je een verband met een lijn zonder meer te claimen dan de data ondersteunen?",
   "summary": "Pearsons correlatie, kleinste-kwadratenregressie, residuen, R², onzekerheid van een helling en de grenzen van voorspellen.",
   "learning_goals": [
-    "Je berekent Pearson r met gecentreerde kwadratensommen.",
-    "Je berekent en interpreteert een regressielijn met correcte eenheden.",
+    "Je leest een spreidingsdiagram op richting, vorm, sterkte en uitschieters.",
+    "Je berekent covariantie en Pearson r met gecentreerde kwadratensommen en met z-scores, en kent de eigenschappen van r.",
+    "Je berekent en interpreteert een regressielijn met correcte eenheden, in context en binnen het databereik.",
     "Je berekent voorspellingen, residuen, SSE en R².",
-    "Je controleert lineariteit, onafhankelijkheid, gelijke residuspreiding en invloedrijke punten.",
-    "Je onderscheidt beschrijvende regressie, inferentie, voorspelling en causale uitleg."
+    "Je controleert lineariteit, onafhankelijkheid, gelijke residuspreiding en invloedrijke punten met een residuplot en hefboomwaarden.",
+    "Je bepaalt standaardfout, t-waarde en betrouwbaarheidsinterval van een helling.",
+    "Je onderscheidt beschrijvende regressie, inferentie, voorspelling en causale uitleg, en herkent extrapolatie, regressie naar het gemiddelde, confounders en Simpsons paradox.",
+    "Je rekent een exponentieel verband recht met een logaritme en kent Spearmans rangcorrelatie."
   ],
   "glossary": [
     {
@@ -48,28 +51,74 @@
     {
       "term": "Extrapolatie",
       "definition": "Voorspellen buiten het bereik van de waargenomen x-waarden."
+    },
+    {
+      "term": "Covariantie",
+      "definition": "De som van de producten van afwijkingen van x en y, gedeeld door n−1; meet gezamenlijke variatie, maar hangt van de eenheden af."
+    },
+    {
+      "term": "Residuplot",
+      "definition": "Een diagram van de residuen tegen x of de voorspelde waarde, waarmee je kromming, veranderende spreiding en afhankelijkheid ontdekt."
+    },
+    {
+      "term": "Hefboomwaarde",
+      "definition": "Maat voor hoe ver de x-waarde van een punt van het x-gemiddelde ligt; een hoge hefboom geeft potentiële invloed."
+    },
+    {
+      "term": "Regressie naar het gemiddelde",
+      "definition": "Het verschijnsel dat bij onvolmaakte correlatie gemiddeld minder extreme waarden volgen op een extreme selectie."
+    },
+    {
+      "term": "Confounder",
+      "definition": "Een derde variabele die zowel x als y beïnvloedt en daardoor een samenhang kan veroorzaken zonder dat x en y elkaars oorzaak zijn."
+    },
+    {
+      "term": "Spearmans ρ",
+      "definition": "De Pearson-correlatie van de rangen; meet monotone samenhang en is minder gevoelig voor uitschieters."
     }
   ],
   "formulas": [
     {
       "name": "Gecentreerde sommen",
       "latex": "S_{xx}=\\sum(x_i-\\bar x)^2,\\quad S_{xy}=\\sum(x_i-\\bar x)(y_i-\\bar y)",
-      "usage": "Definieer Syy op dezelfde manier voor y."
+      "usage": "Definieer Syy op dezelfde manier voor y.",
+      "origin": "Afwijkingen van het gemiddelde zijn de grondstof van variantie en covariantie; Gauss en Laplace werkten ze uit in de kleinste-kwadratentheorie."
     },
     {
       "name": "Correlatie en regressie",
-      "latex": "r=\\frac{S_{xy}}{\\sqrt{S_{xx}S_{yy}}},\\quad\\hat y=b_0+b_1x,\\quad b_1=\\frac{S_{xy}}{S_{xx}},\\quad b_0=\\bar y-b_1\\bar x",
-      "usage": "r vereist Sxx en Syy positief; de lijn vereist Sxx positief."
+      "latex": "r=\\frac{S_{xy}}{\\sqrt{S_{xx}S_{yy}}},\\quad\\hat y=b_0+b_1x,\\quad b_1=\\frac{S_{xy}}{S_{xx}}=r\\frac{s_y}{s_x},\\quad b_0=\\bar y-b_1\\bar x",
+      "usage": "r vereist Sxx en Syy positief; de lijn vereist Sxx positief.",
+      "origin": "Galton (1886) vond de regressie naar het gemiddelde; Karl Pearson formaliseerde rond 1896 de productmoment-correlatie."
+    },
+    {
+      "name": "Correlatie met z-scores",
+      "latex": "r=\\frac{1}{n-1}\\sum_{i=1}^{n}z_{x,i}z_{y,i}",
+      "usage": "Met z=(x−x̄)/s; laat zien waarom r schaalvrij is.",
+      "origin": "Dezelfde formule als hierboven, geschreven met gestandaardiseerde variabelen."
     },
     {
       "name": "Verklaarde variatie",
       "latex": "R^2=1-\\frac{\\mathrm{SSE}}{S_{yy}}=r^2",
-      "usage": "De gelijkheid met r² geldt voor één x en een intercept; Syy moet positief zijn."
+      "usage": "De gelijkheid met r² geldt voor één x en een intercept; Syy moet positief zijn.",
+      "origin": "Voortgekomen uit de variantieontleding in verklaard en onverklaard deel."
     },
     {
       "name": "Standaardfout van de helling",
-      "latex": "s_e=\\sqrt{\\frac{\\mathrm{SSE}}{n-2}},\\quad SE(b_1)=\\frac{s_e}{\\sqrt{S_{xx}}}",
-      "usage": "Voor inferentie onder het klassieke lineaire model; t-verdeling met n−2 vrijheidsgraden."
+      "latex": "s_e=\\sqrt{\\frac{\\mathrm{SSE}}{n-2}},\\quad SE(b_1)=\\frac{s_e}{\\sqrt{S_{xx}}},\\quad t=\\frac{b_1}{SE(b_1)}",
+      "usage": "Voor inferentie onder het klassieke lineaire model; t-verdeling met n−2 vrijheidsgraden.",
+      "origin": "Gosset ('Student', 1908) leverde de t-verdeling voor kleine steekproeven."
+    },
+    {
+      "name": "Hefboomwaarde",
+      "latex": "h_i=\\frac{1}{n}+\\frac{(x_i-\\bar x)^2}{S_{xx}}",
+      "usage": "Ligt tussen 1/n en 1; hoge waarden wijzen op punten met veel potentiële invloed.",
+      "origin": "Standaardgereedschap uit de regressiediagnostiek van de twintigste eeuw."
+    },
+    {
+      "name": "Spearmans rangcorrelatie",
+      "latex": "\\rho=1-\\frac{6\\sum d_i^2}{n(n^2-1)}",
+      "usage": "Zonder gelijke waarden; d is het verschil tussen de rangen van x en y.",
+      "origin": "Charles Spearman, 1904."
     }
   ],
   "lessons": [
@@ -98,6 +147,12 @@
       "kind": "theory"
     },
     {
+      "slug": "theorie-d",
+      "title": "De grenzen van een lijn",
+      "file": "03c-theorie-d.md",
+      "kind": "theory"
+    },
+    {
       "slug": "historisch-intermezzo",
       "title": "Historisch intermezzo",
       "file": "04-historisch-intermezzo.md",
@@ -118,9 +173,11 @@
   ],
   "timeline": [
     "galton-regressie",
-    "karl-pearson"
+    "karl-pearson",
+    "gauss"
   ],
   "mathematicians": [
-    "karl-pearson"
+    "karl-pearson",
+    "gauss"
   ]
 }
