@@ -1,0 +1,9 @@
+{
+  "title": "Kaart van menselijke kennis",
+  "subtitle": "Testdomeinen",
+  "intro": "Twee domeinen voor de tests.",
+  "domains": [
+    { "id": "wiskunde", "name": "Wiskunde", "tagline": ["Getallen", "Structuren", "Logica"], "monogram": "π", "color": "#3b5bdb", "status": "available", "route": "dashboard", "description": "De testcursus.", "planned_parts": [] },
+    { "id": "biologie", "name": "Biologie", "tagline": ["Leven", "Organismen", "Ecosystemen"], "monogram": "Bi", "color": "#2f9e44", "status": "planned", "description": "Wat is leven?", "planned_parts": ["De cel", "Evolutie"] }
+  ]
+}

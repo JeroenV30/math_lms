@@ -26,6 +26,12 @@
             ['route' => 'settings.edit', 'label' => 'Instellingen'],
         ];
         $isActive = fn (string $pattern) => collect(explode('|', $pattern))->contains(fn ($p) => request()->routeIs($p));
+        // Welk kennisdomein is actief? Alle huidige pagina's horen bij wiskunde, behalve de domeinpagina's zelf.
+        $activeDomain = match (true) {
+            request()->routeIs('domains.show') => request()->route('domain'),
+            request()->routeIs('domains.index') => null,
+            default => 'wiskunde',
+        };
     @endphp
 
     <header class="sticky top-0 z-40 border-b border-line bg-paper/95 backdrop-blur" x-data="{ open: false, search: false }">
@@ -93,10 +99,23 @@
                         @endif
                     </a>
                 @endforeach
+                <p class="eyebrow mt-4 px-3">Kennisdomeinen</p>
+                <div class="grid grid-cols-2 gap-1">
+                    @foreach ($knowledgeDomains as $domain)
+                        <a href="{{ route('domains.show', $domain['id']) }}" class="flex items-center gap-2 rounded-md px-3 py-2 text-sm text-ink-soft hover:bg-mist">
+                            <span class="h-2 w-2 shrink-0 rounded-full" style="background-color: {{ $domain['color'] }}"></span>
+                            <span class="truncate">{{ $domain['name'] }}</span>
+                        </a>
+                    @endforeach
+                </div>
             </nav>
         </div>
     </header>
 
+    <div class="flex">
+        <x-domain-rail :domains="$knowledgeDomains" :active="$activeDomain" />
+
+        <div class="min-w-0 flex-1">
     <main id="main">
         @yield('content')
     </main>
@@ -111,5 +130,7 @@
             </p>
         </div>
     </footer>
+        </div>
+    </div>
 </body>
 </html>

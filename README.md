@@ -143,13 +143,17 @@ Accounts, cloud, AI-tutor, badges, rankings, CMS, docentomgeving en API
 (bouwplan §47). De database is zo opgezet dat later een `user_id` kan worden
 toegevoegd.
 
-## Toekomst: meer kennisdomeinen
+## Kennisdomeinen
 
 Deze cursus is het eerste domein van een bredere kaart van menselijke kennis.
-Later moet je kunnen navigeren tussen wiskunde en andere domeinen, zoals
-natuurkunde en scheikunde, biologie, aarde en ruimte, geschiedenis, filosofie,
-taal, technologie, kunst en maatschappij. De architectuur (content los van de
-applicatie) is daarop voorbereid: een domein is in principe een eigen
-`content/`-map met dezelfde structuur.
+Links in de applicatie staat een navigatiebalk met alle domeinen (in te klappen
+tot monogrammen); `/kennis` toont de kaart en `/kennis/{domein}` de opzet per
+domein. De domeinen staan in `content/domains.json` (naam, kernwoorden, kleur,
+status en voorziene opbouw). Alleen Wiskunde is uitgewerkt; de andere domeinen
+staan klaar als opzet zonder lesinhoud.
+
+Een nieuw domein krijgt later een eigen contentmap met dezelfde structuur als
+`content/` (course.json, modules/, history/), zodat de bestaande engine
+(lessen, oefeningen, toetsen, beheersing, herhaling) hergebruikt wordt.
 
 ![Kaart van menselijke kennis](docs/kennisdomeinen.jpg)

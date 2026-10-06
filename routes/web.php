@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\DomainController;
 use App\Http\Controllers\ExerciseController;
 use App\Http\Controllers\HistoryController;
 use App\Http\Controllers\LessonController;
@@ -15,6 +16,9 @@ use App\Http\Controllers\SettingsController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', DashboardController::class)->name('dashboard');
+
+Route::get('/kennis', [DomainController::class, 'index'])->name('domains.index');
+Route::get('/kennis/{domain}', [DomainController::class, 'show'])->name('domains.show');
 
 Route::get('/course', [CourseController::class, 'index'])->name('course.index');
 Route::get('/course/{module}', [ModuleController::class, 'show'])->name('module.show');

@@ -1,0 +1,108 @@
+{
+  "title": "Kaart van menselijke kennis",
+  "subtitle": "Ontdekken · Begrijpen · Verbinden · Creëren",
+  "intro": "Elk kennisdomein wordt een eigen leerlijn, opgebouwd volgens hetzelfde principe als de wiskundecursus: van het eenvoudigste begin tot academisch niveau, met de geschiedenis van het denken als leidraad. Wiskunde wordt als eerste volledig uitgewerkt; de andere domeinen volgen.",
+  "domains": [
+    {
+      "id": "wiskunde",
+      "name": "Wiskunde",
+      "tagline": ["Getallen", "Structuren", "Logica"],
+      "monogram": "π",
+      "color": "#3b5bdb",
+      "status": "available",
+      "route": "dashboard",
+      "description": "Van tellen met kerfstokken tot Bayesiaanse statistiek: 42 modules in zeven delen, met oefeningen, toetsen en spaced repetition.",
+      "planned_parts": []
+    },
+    {
+      "id": "natuurkunde-en-chemie",
+      "name": "Natuurkunde & chemie",
+      "tagline": ["Materie", "Energie", "Verandering"],
+      "monogram": "Na",
+      "color": "#7048e8",
+      "status": "planned",
+      "description": "Waaruit bestaat de wereld en waarom beweegt en verandert ze? Van de vier elementen van Empedocles via Newton en Lavoisier naar atomen, energie en quantummechanica.",
+      "planned_parts": ["Meten en eenheden", "Beweging en krachten", "Energie en warmte", "Materie, atomen en het periodiek systeem", "Chemische reacties", "Elektriciteit en magnetisme", "Licht en golven", "Moderne natuurkunde"]
+    },
+    {
+      "id": "biologie",
+      "name": "Biologie",
+      "tagline": ["Leven", "Organismen", "Ecosystemen"],
+      "monogram": "Bi",
+      "color": "#2f9e44",
+      "status": "planned",
+      "description": "Wat is leven, hoe werkt het en hoe is het ontstaan? Van Aristoteles' indelingen en Van Leeuwenhoeks microscoop tot Darwin, DNA en ecologie.",
+      "planned_parts": ["De cel", "Erfelijkheid en DNA", "Evolutie", "Het menselijk lichaam", "Planten en fotosynthese", "Micro-organismen", "Ecosystemen en biodiversiteit"]
+    },
+    {
+      "id": "aarde-en-ruimte",
+      "name": "Aarde & ruimte",
+      "tagline": ["Planeet", "Weer", "Heelal"],
+      "monogram": "Aa",
+      "color": "#1098ad",
+      "status": "planned",
+      "description": "Van de vorm van de aarde en het weer tot sterren en sterrenstelsels. Van Eratosthenes en Copernicus tot platentektoniek en de oerknal.",
+      "planned_parts": ["De aarde als planeet", "Gesteenten en platentektoniek", "Water, klimaat en weer", "Het zonnestelsel", "Sterren en sterrenstelsels", "Kosmologie"]
+    },
+    {
+      "id": "geschiedenis",
+      "name": "Geschiedenis",
+      "tagline": ["Mensen", "Gebeurtenissen", "Verandering"],
+      "monogram": "Ge",
+      "color": "#9c6b30",
+      "status": "planned",
+      "description": "Hoe weten we wat er gebeurd is, en waarom ging het zo? Van de eerste landbouwers tot de moderne tijd, met bronnenkritiek als rode draad.",
+      "planned_parts": ["Werken met bronnen", "Prehistorie en de eerste beschavingen", "Oudheid", "Middeleeuwen", "Vroegmoderne tijd", "Revoluties en industrialisatie", "De twintigste eeuw", "Nederland in de wereld"]
+    },
+    {
+      "id": "mens-en-maatschappij",
+      "name": "Mens & maatschappij",
+      "tagline": ["Samenleving", "Politiek", "Economie"],
+      "monogram": "Mm",
+      "color": "#5c7cfa",
+      "status": "planned",
+      "description": "Hoe leven mensen samen? Over politiek, recht, economie en psychologie, van de Griekse stadstaat tot de moderne democratie en markt.",
+      "planned_parts": ["Psychologie", "Sociologie", "Politiek en democratie", "Recht en rechtsstaat", "Economie", "Burgerschap"]
+    },
+    {
+      "id": "taal-en-communicatie",
+      "name": "Taal & communicatie",
+      "tagline": ["Taal", "Informatie", "Dialoog"],
+      "monogram": "Ta",
+      "color": "#e8590c",
+      "status": "planned",
+      "description": "Hoe werkt taal en hoe brengen mensen betekenis over? Van de eerste schriftsystemen tot taalkunde, retorica en informatietheorie.",
+      "planned_parts": ["Schrift en alfabet", "Hoe taal werkt", "Lezen en schrijven", "Argumenteren en retorica", "Talen van de wereld", "Informatie en media"]
+    },
+    {
+      "id": "filosofie",
+      "name": "Filosofie",
+      "tagline": ["Vragen", "Denken", "Waarden"],
+      "monogram": "Fi",
+      "color": "#868e96",
+      "status": "planned",
+      "description": "Wat kunnen we weten, wat moeten we doen, en wat is er eigenlijk? Van Socrates via Descartes en Kant tot hedendaagse vragen over geest en ethiek.",
+      "planned_parts": ["Wat is filosofie?", "Logica en argumentatie", "Kennistheorie", "Ethiek", "Metafysica", "Filosofie van de geest", "Politieke filosofie"]
+    },
+    {
+      "id": "technologie-en-informatica",
+      "name": "Technologie & informatica",
+      "tagline": ["Innovatie", "Systemen", "Toepassing"],
+      "monogram": "Te",
+      "color": "#1c7ed6",
+      "status": "planned",
+      "description": "Hoe maken mensen gereedschap, machines en rekenende systemen? Van het wiel en de abacus tot computers, algoritmen en kunstmatige intelligentie.",
+      "planned_parts": ["Gereedschap en machines", "Energie en techniek", "Hoe een computer werkt", "Algoritmen en programmeren", "Netwerken en internet", "Data en kunstmatige intelligentie"]
+    },
+    {
+      "id": "kunst-en-cultuur",
+      "name": "Kunst & cultuur",
+      "tagline": ["Creatie", "Expressie", "Betekenis"],
+      "monogram": "Ku",
+      "color": "#c2255c",
+      "status": "planned",
+      "description": "Waarom maken mensen kunst en hoe lees je die? Van grotschilderingen via de Renaissance tot moderne kunst, muziek, literatuur, theater en architectuur.",
+      "planned_parts": ["Kijken naar kunst", "Kunstgeschiedenis", "Muziek", "Literatuur", "Theater en dans", "Architectuur"]
+    }
+  ]
+}
