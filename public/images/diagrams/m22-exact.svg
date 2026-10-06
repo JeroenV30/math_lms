@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" font-family="sans-serif">
+  <title>Halve gelijkzijdige driehoek met zijden 1, wortel 3 en 2 en halve vierkant met zijden 1, 1 en wortel 2</title>
+  <rect width="640" height="280" fill="#ffffff"/>
+  <g stroke="#1f2933" stroke-width="2" fill="none">
+    <polygon points="30,240 170,240 170,40"/>
+    <polyline points="156,240 156,226 170,226"/>
+    <polygon points="380,240 570,240 570,50"/>
+    <polyline points="556,240 556,226 570,226"/>
+  </g>
+  <g stroke="#3b5bdb" stroke-width="2.5" fill="none">
+    <path d="M70,240 A40,40 0 0 0 63,222"/>
+    <path d="M425,240 A45,45 0 0 0 417,208"/>
+  </g>
+  <g font-size="16" fill="#1f2933">
+    <text x="75" y="262" text-anchor="middle">A = √3</text>
+    <text x="180" y="145">O = 1</text>
+    <text x="55" y="130" transform="rotate(-55 55 130)">S = 2</text>
+    <text x="475" y="262" text-anchor="middle">A = 1</text>
+    <text x="580" y="150">O = 1</text>
+    <text x="440" y="130" transform="rotate(-45 440 130)">S = √2</text>
+  </g>
+  <g font-size="15" fill="#3b5bdb" font-style="italic">
+    <text x="78" y="230">30°</text>
+    <text x="432" y="230">45°</text>
+  </g>
+  <g font-size="13" fill="#1f2933" text-anchor="middle">
+    <text x="100" y="22">Halve gelijkzijdige driehoek: 30° en 60°</text>
+    <text x="475" y="22">Halve vierkant: 45° en 45°</text>
+  </g>
+</svg>

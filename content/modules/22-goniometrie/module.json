@@ -7,7 +7,7 @@
   "status": "available",
   "historical_period": "Hellenistische periode",
   "estimated_difficulty": 3,
-  "estimated_minutes": 150,
+  "estimated_minutes": 240,
   "prerequisites": [
     21
   ],
@@ -24,7 +24,10 @@
     "Je berekent een scherpe hoek met een inverse goniometrische functie.",
     "Je gebruikt de gradenstand en rondt pas het eindantwoord af.",
     "Je controleert uitkomsten met Pythagoras en de grootte van een verhouding.",
-    "Je vertaalt hoogten en afstanden naar een meetkundig model en beoordeelt aannames."
+    "Je vertaalt hoogten en afstanden naar een meetkundig model en beoordeelt aannames.",
+    "Je leidt de exacte waarden van sinus, cosinus en tangens bij 30°, 45° en 60° af uit het halve vierkant en de halve gelijkzijdige driehoek.",
+    "Je rekent hellingspercentage en hellingshoek om en legt uit waarom een percentage geen hoek is.",
+    "Je vertelt hoe de koordentabel van Hipparchus, de jya van Aryabhata en de vertaalvergissing tot het woord sinus hebben geleid."
   ],
   "glossary": [
     {
@@ -52,39 +55,72 @@
       "definition": "De verhouding overstaande zijde gedeeld door aanliggende rechthoekszijde."
     },
     {
-      "term": "Inverse sinus",
-      "definition": "De functie die uit een sinuswaarde een hoofdwaarde van een hoek terugvindt."
-    },
-    {
       "term": "Hoek van elevatie",
       "definition": "De hoek van een kijkrichting boven de horizontale lijn."
+    },
+    {
+      "term": "Gelijkvormig",
+      "definition": "Met dezelfde hoeken; de zijden verschillen met één vaste factor."
+    },
+    {
+      "term": "Hellingspercentage",
+      "definition": "Stijging gedeeld door horizontale afstand, maal 100%; gelijk aan 100 tan θ."
+    },
+    {
+      "term": "Koorde",
+      "definition": "Een rechte lijn tussen twee punten op een cirkel."
+    },
+    {
+      "term": "Triangulatie",
+      "definition": "Afstanden meten met een keten van driehoeken: eerst één basislijn, daarna alleen hoeken."
+    },
+    {
+      "term": "Inverse sinus (arcsin)",
+      "definition": "De hoek waarvan de sinus gelijk is aan een gegeven verhouding; niet hetzelfde als 1/sin."
     }
   ],
   "formulas": [
     {
       "name": "Sinus",
       "latex": "\\sin\\theta=\\frac{O}{S}",
-      "usage": "O is overstaand, S is de schuine zijde."
+      "usage": "O is de overstaande zijde, S de schuine zijde; de verhouding hangt alleen van de hoek af.",
+      "origin": "De halve koorde in een cirkel, bij Aryabhata (499) jya genoemd; het woord sinus ontstond door een vertaalvergissing."
     },
     {
       "name": "Cosinus",
       "latex": "\\cos\\theta=\\frac{A}{S}",
-      "usage": "A is de aanliggende rechthoekszijde."
+      "usage": "A is de aanliggende rechthoekszijde; cos θ = sin(90° − θ).",
+      "origin": "Complementi sinus: de sinus van het complement; de naam cosinus wordt aan Edmund Gunter (1620) toegeschreven."
     },
     {
       "name": "Tangens",
       "latex": "\\tan\\theta=\\frac{O}{A}",
-      "usage": "De verhouding tussen de twee rechthoekszijden."
+      "usage": "De verhouding tussen de twee rechthoekszijden; ook het hellingspercentage gedeeld door 100.",
+      "origin": "Latijn tangens, rakend; ingevoerd door Thomas Fincke (1583), met voorlopers in de Arabische sterrenkunde."
     },
     {
       "name": "Hoek terugvinden",
-      "latex": "\\theta=\\arcsin(O/S)=\\arccos(A/S)=\\arctan(O/A)",
-      "usage": "Gebruik de passende bekende verhouding en de gradenstand."
+      "latex": "\\theta=\\arcsin\\frac{O}{S}=\\arccos\\frac{A}{S}=\\arctan\\frac{O}{A}",
+      "usage": "Gebruik de inverse die past bij de twee bekende zijden, met de rekenmachine op graden.",
+      "origin": "Inverse functies maken de tabelzoekactie van de oude astronomen ongedaan: van verhouding terug naar hoek."
+    },
+    {
+      "name": "Hellingspercentage",
+      "latex": "p=100\\tan\\theta",
+      "usage": "Stijging gedeeld door horizontale afstand, maal 100%; 100% is een hoek van 45°.",
+      "origin": "Verkeers- en bouwpraktijk; een percentage is geen hoek."
+    },
+    {
+      "name": "Koorde in een cirkel",
+      "latex": "c=2R\\sin\\frac{\\alpha}{2}",
+      "usage": "Lengte van de koorde bij middelpuntshoek α en straal R.",
+      "origin": "Hipparchus' koordentabel en de Almagest van Ptolemaeus; de koordentabel is een sinustabel in vermomming."
     },
     {
       "name": "Controle",
       "latex": "\\sin^2\\theta+\\cos^2\\theta=1",
-      "usage": "Dit volgt uit Pythagoras na delen door S²."
+      "usage": "Volgt uit Pythagoras na delen door S²; ook tan θ = sin θ / cos θ.",
+      "origin": "Pythagoras toegepast op de verhoudingen in een rechthoekige driehoek."
     }
   ],
   "lessons": [
@@ -137,6 +173,15 @@
       "file": "08-samenvatting.md"
     }
   ],
-  "timeline": [],
-  "mathematicians": []
+  "timeline": [
+    "mesopotamische-getallen",
+    "eratosthenes",
+    "hipparchus-koordentabel",
+    "aryabhatiya"
+  ],
+  "mathematicians": [
+    "hipparchus",
+    "eratosthenes",
+    "euclides"
+  ]
 }

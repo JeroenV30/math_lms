@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" font-family="sans-serif">
+  <title>Twee gelijkvormige rechthoekige driehoeken met dezelfde hoek theta: de verhouding overstaande tot schuine zijde is gelijk</title>
+  <rect width="520" height="280" fill="#ffffff"/>
+  <g stroke="#1f2933" stroke-width="2" fill="none">
+    <polygon points="30,240 450,240 450,30"/>
+    <line x1="240" y1="240" x2="240" y2="135" stroke="#3b5bdb" stroke-width="2.5"/>
+    <polyline points="436,240 436,226 450,226"/>
+    <polyline points="226,240 226,226 240,226"/>
+  </g>
+  <path d="M80,240 A50,50 0 0 0 73,217" stroke="#9c6b30" stroke-width="2.5" fill="none"/>
+  <text x="88" y="230" font-size="18" fill="#9c6b30" font-style="italic">θ</text>
+  <g font-size="15" fill="#1f2933">
+    <text x="458" y="140">O = 21</text>
+    <text x="248" y="195" fill="#3b5bdb">O = 10,5</text>
+    <text x="320" y="262">A = 40</text>
+    <text x="115" y="262">A = 20</text>
+    <text x="300" y="130" transform="rotate(-27 300 130)">S = 45,2</text>
+  </g>
+  <text x="60" y="40" font-size="15" fill="#1f2933">Twee schalen, dezelfde hoek:</text>
+  <text x="60" y="62" font-size="15" fill="#1f2933">21 : 45,2 = 10,5 : 22,6 ≈ 0,465</text>
+</svg>

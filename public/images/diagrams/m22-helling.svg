@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 240" font-family="sans-serif">
+  <title>Weg met hellingspercentage: stijging gedeeld door horizontale afstand, bijvoorbeeld 8 procent is 8 meter stijging per 100 meter</title>
+  <rect width="560" height="240" fill="#ffffff"/>
+  <g stroke="#1f2933" stroke-width="2" fill="none">
+    <line x1="30" y1="200" x2="520" y2="200"/>
+    <line x1="520" y1="200" x2="520" y2="120"/>
+  </g>
+  <line x1="30" y1="200" x2="520" y2="120" stroke="#3b5bdb" stroke-width="4"/>
+  <g font-size="16" fill="#1f2933" text-anchor="middle">
+    <text x="275" y="226">horizontale afstand 100 m</text>
+    <text x="508" y="165" text-anchor="end">stijging 8 m</text>
+    <text x="270" y="150" fill="#3b5bdb" transform="rotate(-9 270 150)">weg</text>
+  </g>
+  <text x="30" y="40" font-size="15" fill="#1f2933">hellingspercentage = 8 / 100 × 100% = 8%</text>
+  <text x="30" y="62" font-size="15" fill="#1f2933">hellingshoek θ = arctan(0,08) ≈ 4,57°</text>
+  <text x="95" y="194" font-size="16" fill="#9c6b30" font-style="italic">θ</text>
+</svg>

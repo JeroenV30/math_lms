@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" font-family="sans-serif">
+  <title>Rechthoekige driehoek met overstaande, aanliggende en schuine zijde ten opzichte van hoek theta, en dezelfde driehoek ten opzichte van de andere hoek</title>
+  <rect width="640" height="260" fill="#ffffff"/>
+  <g stroke="#1f2933" stroke-width="2" fill="none">
+    <polygon points="30,210 270,210 270,50"/>
+    <polygon points="370,210 610,210 370,50"/>
+    <polyline points="256,210 256,196 270,196"/>
+    <polyline points="384,210 384,196 370,196"/>
+  </g>
+  <path d="M70,210 A40,40 0 0 0 63,191" stroke="#3b5bdb" stroke-width="2.5" fill="none"/>
+  <path d="M370,90 A40,40 0 0 0 405,110" stroke="#3b5bdb" stroke-width="2.5" fill="none"/>
+  <g font-size="16" fill="#1f2933" text-anchor="middle">
+    <text x="150" y="238" fill="#3b5bdb">aanliggende A</text>
+    <text x="215" y="135" fill="#3b5bdb">overstaande O</text>
+    <text x="130" y="115" transform="rotate(-34 130 115)">schuine zijde S</text>
+    <text x="490" y="238" fill="#3b5bdb">overstaande O</text>
+    <text x="320" y="135" fill="#3b5bdb">aanliggende A</text>
+    <text x="510" y="115" transform="rotate(34 510 115)">schuine zijde S</text>
+  </g>
+  <g font-size="18" fill="#3b5bdb" font-style="italic">
+    <text x="78" y="200">θ</text>
+    <text x="385" y="124">θ</text>
+  </g>
+  <g font-size="13" fill="#1f2933" text-anchor="middle">
+    <text x="150" y="22">Hoek θ linksonder</text>
+    <text x="490" y="22">Hoek θ bovenaan: O en A wisselen</text>
+  </g>
+</svg>

@@ -15,6 +15,12 @@
       "difficulty": 1,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 152,
+          "message": "Je trok af van 180. De twee scherpe hoeken tellen op tot 90°."
+        }
       ]
     },
     {
@@ -30,6 +36,12 @@
       "difficulty": 1,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": "5/12",
+          "message": "Dat is de tangens (O/A). De sinus gebruikt de schuine zijde S = 13."
+        }
       ]
     },
     {
@@ -45,6 +57,12 @@
       "difficulty": 1,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": "12/5",
+          "message": "Je nam A/O. De cosinus is A/S, met de schuine zijde in de noemer."
+        }
       ]
     },
     {
@@ -60,6 +78,12 @@
       "difficulty": 1,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": "5/13",
+          "message": "Dat is de sinus (O/S). De tangens is O/A, zonder de schuine zijde."
+        }
       ]
     },
     {
@@ -72,9 +96,15 @@
       "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 32,
+          "message": "Je deelde door sin 30° in plaats van te vermenigvuldigen. O staat in de teller: $O = S\\sin\\theta$."
+        }
       ]
     },
     {
@@ -87,9 +117,15 @@
       "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 36,
+          "message": "Je deelde door cos 60°. A staat in de teller, dus $A = S\\cos\\theta$."
+        }
       ]
     },
     {
@@ -102,9 +138,15 @@
       "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je vermenigvuldigde met sin 30°. S staat in de noemer: $S = O/\\sin\\theta$."
+        }
       ]
     },
     {
@@ -117,9 +159,15 @@
       "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Je gaf tan 45° terug. De overstaande zijde is $A\\tan45^\\circ$."
+        }
       ]
     },
     {
@@ -132,9 +180,15 @@
       "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Dat is de tangens zelf. Pas nog arctan toe om de hoek te vinden."
+        }
       ]
     },
     {
@@ -147,11 +201,21 @@
       "hints": [],
       "type": "decimal",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 3,
       "topics": [
         "trigonometry"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 67.38,
+          "message": "Dat is de andere scherpe hoek. Je gebruikte O en A verkeerd om."
+        },
+        {
+          "answer": 0.42,
+          "message": "Dat is de tangens. Pas nog arctan toe."
+        }
+      ]
     },
     {
       "id": "22-T11",
@@ -163,11 +227,17 @@
       "hints": [],
       "type": "decimal",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 3,
       "topics": [
         "trigonometry"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 6.13,
+          "message": "Je gebruikte de cosinus. O hoort bij de sinus: $O = 8\\sin40^\\circ$."
+        }
+      ]
     },
     {
       "id": "22-T12",
@@ -179,11 +249,17 @@
       "hints": [],
       "type": "decimal",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 3,
       "topics": [
         "trigonometry"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 5.36,
+          "message": "Je vermenigvuldigde met sin 50°. S staat in de noemer, dus je deelt."
+        }
+      ]
     },
     {
       "id": "22-T13",
@@ -195,11 +271,17 @@
       "hints": [],
       "type": "decimal",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 3,
       "topics": [
         "trigonometry"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 12.59,
+          "message": "Je vergat de ooghoogte van 1,70 m erbij op te tellen."
+        }
+      ]
     },
     {
       "id": "22-T14",
@@ -211,9 +293,15 @@
       "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 3,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Je vergat de koorde te verdubbelen: $R\\sin30^\\circ$ is de halve koorde."
+        }
       ]
     },
     {
@@ -226,9 +314,15 @@
       "hints": [],
       "type": "numeric",
       "mode": "independent",
-      "difficulty": 2,
+      "difficulty": 3,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "De tangens is O/A en niet door 1 begrensd: bij een hoek boven 45° is O groter dan A."
+        }
       ]
     }
   ]

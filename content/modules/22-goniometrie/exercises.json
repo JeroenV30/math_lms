@@ -15,6 +15,16 @@
       "difficulty": 1,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 145,
+          "message": "Je trok 35 af van 180. Maar de rechte hoek van 90° neemt al een deel van de 180° in beslag: de twee scherpe hoeken tellen samen op tot 90°."
+        },
+        {
+          "answer": 35,
+          "message": "Dat is de gegeven hoek. Zoek de andere scherpe hoek: $90 - 35$."
+        }
       ]
     },
     {
@@ -32,6 +42,16 @@
       "difficulty": 1,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je telde 2 op bij 5. Vergroten met factor 2 betekent vermenigvuldigen: elke zijde wordt 2 keer zo lang."
+        },
+        {
+          "answer": 5,
+          "message": "Dat is de oorspronkelijke schuine zijde. De driehoek wordt twee keer zo groot."
+        }
       ]
     },
     {
@@ -49,6 +69,16 @@
       "difficulty": 1,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "5 is de schuine zijde (tegenover de rechte hoek), geen rechthoekszijde. De aanliggende zijde is de andere rechthoekszijde."
+        },
+        {
+          "answer": 3,
+          "message": "3 is de overstaande zijde. De aanliggende zijde is de andere rechthoekszijde."
+        }
       ]
     },
     {
@@ -66,6 +96,16 @@
       "difficulty": 1,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Je gaf de andere rechthoekszijde. De overstaande zijde ligt tegenover de gekozen hoek: dat is hier de zijde 4."
+        },
+        {
+          "answer": 5,
+          "message": "5 is de schuine zijde, die tegenover de rechte hoek ligt."
+        }
       ]
     },
     {
@@ -83,6 +123,16 @@
       "difficulty": 1,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 14,
+          "message": "Je telde de zijden op. Pythagoras: $S^2 = 6^2 + 8^2$, en daarna de wortel nemen."
+        },
+        {
+          "answer": 100,
+          "message": "Dat is $S^2$. Trek er nog de wortel uit."
+        }
       ]
     },
     {
@@ -101,7 +151,17 @@
       "topics": [
         "trigonometry"
       ],
-      "require_simplified": true
+      "require_simplified": true,
+      "feedback": [
+        {
+          "answer": "5/3",
+          "message": "Je nam S/O in plaats van O/S. Bij een sinus staat de schuine zijde in de noemer."
+        },
+        {
+          "answer": "3/4",
+          "message": "Dat is O/A (de tangens), niet O/S. Hier is geen A gegeven."
+        }
+      ]
     },
     {
       "id": "22-007",
@@ -119,7 +179,17 @@
       "topics": [
         "trigonometry"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 0.8,
+          "message": "Dat is de cosinus (A/S). De sinus is O/S = 3/5."
+        },
+        {
+          "answer": 0.75,
+          "message": "Dat is de tangens (O/A). Bij de sinus gebruik je de schuine zijde."
+        }
+      ]
     },
     {
       "id": "22-008",
@@ -137,7 +207,17 @@
       "topics": [
         "trigonometry"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 0.6,
+          "message": "Dat is de sinus (O/S). De cosinus gebruikt de aanliggende zijde: A/S = 4/5."
+        },
+        {
+          "answer": 0.75,
+          "message": "Dat is de tangens (O/A). Bij de cosinus gebruik je de schuine zijde."
+        }
+      ]
     },
     {
       "id": "22-009",
@@ -155,7 +235,17 @@
       "topics": [
         "trigonometry"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 0.6,
+          "message": "Dat is de sinus. De tangens is O gedeeld door A, zonder de schuine zijde."
+        },
+        {
+          "answer": 1.33,
+          "message": "Je nam A/O in plaats van O/A."
+        }
+      ]
     },
     {
       "id": "22-010",
@@ -172,6 +262,12 @@
       "difficulty": 1,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "De schuine zijde is de langste zijde, dus O/S is kleiner dan 1. Een sinus van 1,2 is bij een scherpe hoek onmogelijk."
+        }
       ]
     },
     {
@@ -189,6 +285,16 @@
       "difficulty": 1,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "Bij O = A is de verhouding O/A gelijk aan 1, niet aan 0."
+        },
+        {
+          "answer": 45,
+          "message": "Je gaf de hoek terug. De tangens is een verhouding: O/A."
+        }
       ]
     },
     {
@@ -207,7 +313,13 @@
       "topics": [
         "trigonometry"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 1.4,
+          "message": "Je telde sin en cos zelf op in plaats van hun kwadraten. Reken eerst $0{,}6^2$ en $0{,}8^2$ uit."
+        }
+      ]
     },
     {
       "id": "22-013",
@@ -224,6 +336,16 @@
       "difficulty": 1,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Je nam de schuine zijde over. O is $S$ maal sin θ, dus $10 \\times 0{,}5$."
+        },
+        {
+          "answer": 20,
+          "message": "Je deelde door sin 30° in plaats van te vermenigvuldigen. De onbekende staat hier in de teller."
+        }
       ]
     },
     {
@@ -241,6 +363,16 @@
       "difficulty": 1,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Je nam de schuine zijde over. A is $S$ maal cos θ."
+        },
+        {
+          "answer": 20,
+          "message": "Je deelde door cos 60°. De onbekende A staat in de teller, dus je vermenigvuldigt."
+        }
       ]
     },
     {
@@ -258,6 +390,12 @@
       "difficulty": 1,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Je nam O over als S. S is de langste zijde: $S = O/\\sin\\theta$."
+        }
       ]
     },
     {
@@ -275,6 +413,16 @@
       "difficulty": 1,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Je gaf tan 45° terug. De tangens is O/A, dus $O = A\\tan45^\\circ$."
+        },
+        {
+          "answer": 14,
+          "message": "Je vermenigvuldigde met 2. Bij 45° is $\\tan 45^\\circ = 1$."
+        }
       ]
     },
     {
@@ -289,12 +437,22 @@
       ],
       "type": "decimal",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trigonometry"
       ],
       "tolerance": 0.005,
-      "unit": "m"
+      "unit": "m",
+      "feedback": [
+        {
+          "answer": 2.5,
+          "message": "Dat is de horizontale afstand (5 cos 60°). De hoogte is de overstaande zijde: 5 sin 60°."
+        },
+        {
+          "answer": 5.77,
+          "message": "Je deelde door sin 60° in plaats van te vermenigvuldigen. De onbekende (O) staat in de teller."
+        }
+      ]
     },
     {
       "id": "22-018",
@@ -308,11 +466,21 @@
       ],
       "type": "decimal",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trigonometry"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 7.71,
+          "message": "Dat is 12 sin 40°, de overstaande zijde. De aanliggende zijde is 12 cos 40°."
+        },
+        {
+          "answer": 15.67,
+          "message": "Je deelde door cos 40°. A staat in de teller en wordt dus vermenigvuldigd."
+        }
+      ]
     },
     {
       "id": "22-019",
@@ -326,9 +494,19 @@
       ],
       "type": "numeric",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 60,
+          "message": "Je gebruikte arccos in plaats van arcsin. De verhouding O/S hoort bij de sinus."
+        },
+        {
+          "answer": 0.5,
+          "message": "Dat is de verhouding zelf. Je moet er nog de inverse op toepassen om de hoek te vinden."
+        }
       ]
     },
     {
@@ -343,9 +521,19 @@
       ],
       "type": "numeric",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 30,
+          "message": "Je gebruikte arcsin in plaats van arccos. A/S hoort bij de cosinus."
+        },
+        {
+          "answer": 0.5,
+          "message": "Dat is de verhouding. Pas nog arccos toe."
+        }
       ]
     },
     {
@@ -360,11 +548,21 @@
       ],
       "type": "decimal",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trigonometry"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 53.13,
+          "message": "Dat is de andere scherpe hoek. Je koos O en A verkeerd om; de hoek tegenover 3 heeft O = 3."
+        },
+        {
+          "answer": 0.75,
+          "message": "Dat is de verhouding O/A = tan θ. Pas nog arctan toe."
+        }
+      ]
     },
     {
       "id": "22-022",
@@ -378,11 +576,21 @@
       ],
       "type": "decimal",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trigonometry"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 0.4,
+          "message": "Dat is de tangens. Neem hier nog de arctan van om de hoek te krijgen."
+        },
+        {
+          "answer": 40,
+          "message": "Je zette het hellingspercentage (40%) om als hoek. Een percentage is geen hoek: gebruik arctan(0,4)."
+        }
+      ]
     },
     {
       "id": "22-023",
@@ -396,9 +604,19 @@
       ],
       "type": "numeric",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Je gebruikte 2R maar vergat de sinus. De koorde is $2R\\sin(\\alpha/2)$."
+        },
+        {
+          "answer": 5,
+          "message": "Je vergat de koorde te verdubbelen: $R\\sin(\\alpha/2)$ is de halve koorde."
+        }
       ]
     },
     {
@@ -413,9 +631,19 @@
       ],
       "type": "numeric",
       "mode": "guided",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trigonometry"
+      ],
+      "feedback": [
+        {
+          "answer": 80,
+          "message": "Dat is de volledige middelpuntshoek. In de halve driehoek gebruik je de helft ervan."
+        },
+        {
+          "answer": 20,
+          "message": "Dat is de helft van 40. De halve driehoek heeft α/2, dus de helft van 80°."
+        }
       ]
     },
     {
@@ -430,12 +658,22 @@
       ],
       "type": "decimal",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trigonometry"
       ],
       "tolerance": 0.005,
-      "unit": "m"
+      "unit": "m",
+      "feedback": [
+        {
+          "answer": 14.0,
+          "message": "Je vergat de ooghoogte van 1,60 m erbij op te tellen."
+        },
+        {
+          "answer": 16.38,
+          "message": "Je rekende met de cosinus (20 cos 35°). Hier horen aanliggende en overstaande zijde bij elkaar: gebruik de tangens."
+        }
+      ]
     },
     {
       "id": "22-026",
@@ -449,12 +687,22 @@
       ],
       "type": "decimal",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trigonometry"
       ],
       "tolerance": 0.005,
-      "unit": "m"
+      "unit": "m",
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Dat is de hoogte (10 sin 30°). De horizontale projectie is 10 cos 30°."
+        },
+        {
+          "answer": 10,
+          "message": "Dat is de kabellengte zelf, niet de horizontale projectie."
+        }
+      ]
     },
     {
       "id": "22-027",
@@ -468,12 +716,22 @@
       ],
       "type": "decimal",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 2,
       "topics": [
         "trigonometry"
       ],
       "tolerance": 0.005,
-      "unit": "m"
+      "unit": "m",
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Je telde de twee rechthoekszijden op. De schuine zijde volgt uit Pythagoras: $\\sqrt{3^2 + 4^2}$."
+        },
+        {
+          "answer": 25,
+          "message": "Dat is $S^2$. Trek er nog de wortel uit."
+        }
+      ]
     },
     {
       "id": "22-028",
@@ -487,11 +745,21 @@
       ],
       "type": "decimal",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 3,
       "topics": [
         "trigonometry"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 4.6,
+          "message": "Je vermenigvuldigde 6 met sin 50°. De onbekende S staat in de noemer: $S = 6/\\sin50^\\circ$."
+        },
+        {
+          "answer": 5.14,
+          "message": "Je gebruikte 40° in plaats van 50°."
+        }
+      ]
     },
     {
       "id": "22-029",
@@ -505,11 +773,21 @@
       ],
       "type": "decimal",
       "mode": "independent",
-      "difficulty": 1,
+      "difficulty": 3,
       "topics": [
         "trigonometry"
       ],
-      "tolerance": 0.005
+      "tolerance": 0.005,
+      "feedback": [
+        {
+          "answer": 0.1,
+          "message": "Dat is de tangens van de hoek. Neem er nog de arctan van."
+        },
+        {
+          "answer": 10,
+          "message": "Je zette het percentage om als hoek. Een helling van 10% is geen hoek van 10°."
+        }
+      ]
     },
     {
       "id": "22-030",
@@ -525,7 +803,7 @@
       ],
       "type": "multiple",
       "mode": "challenge",
-      "difficulty": 4,
+      "difficulty": 3,
       "topics": [
         "trigonometry"
       ],
@@ -542,6 +820,296 @@
           "answer": 8.66,
           "tolerance": 0.005
         }
+      ]
+    },
+    {
+      "id": "22-031",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "In een rechthoekige driehoek zijn de rechthoekszijden 5 en 12. Hoe lang is de schuine zijde?",
+      "answer": 13,
+      "hints": [
+        "Gebruik Pythagoras: $S^2 = 5^2 + 12^2$."
+      ],
+      "solution": [
+        "$S^2 = 25 + 144 = 169$",
+        "$S = \\sqrt{169} = 13$"
+      ],
+      "feedback": [
+        {
+          "answer": 17,
+          "message": "Je telde de zijden op. Pythagoras vraagt om kwadrateren en dan de wortel nemen."
+        },
+        {
+          "answer": 169,
+          "message": "Dat is $S^2$. Trek er nog de wortel uit."
+        }
+      ],
+      "topics": [
+        "trigonometry",
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "22-032",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $\\tan 60^\\circ$ met de halve gelijkzijdige driehoek (zijden 1, $\\sqrt3$ en 2). Rond af op drie decimalen.",
+      "answer": 1.732,
+      "tolerance": 0.005,
+      "hints": [
+        "Bij 60° is de zijde met lengte $\\sqrt3$ de overstaande zijde, en de zijde 1 de aanliggende."
+      ],
+      "solution": [
+        "O = $\\sqrt3$ en A = 1.",
+        "$\\tan 60^\\circ = \\sqrt3/1 \\approx 1{,}732$"
+      ],
+      "feedback": [
+        {
+          "answer": 0.577,
+          "message": "Dat is $\\tan30^\\circ$. Bij 60° wisselen O en A van rol."
+        },
+        {
+          "answer": 0.866,
+          "message": "Dat is $\\sin60^\\circ$ (of $\\cos30^\\circ$). De tangens is O/A, zonder schuine zijde."
+        }
+      ],
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-033",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bereken $\\sin 45^\\circ$ uit het halve vierkant (zijden 1, 1 en $\\sqrt2$). Rond af op vier decimalen.",
+      "answer": 0.7071,
+      "tolerance": 0.0005,
+      "hints": [
+        "Bij 45° is O = 1 en S = $\\sqrt2$."
+      ],
+      "solution": [
+        "$\\sin45^\\circ = 1/\\sqrt2 = \\sqrt2/2 \\approx 0{,}7071$"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Dat is $\\tan45^\\circ$. De sinus bevat de schuine zijde $\\sqrt2$."
+        },
+        {
+          "answer": 1.4142,
+          "message": "Dat is de schuine zijde zelf. De sinus is O/S = $1/\\sqrt2$."
+        }
+      ],
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-034",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een weg heeft een helling van 8%. Hoeveel meter stijg je over een horizontale afstand van 250 m?",
+      "answer": 20,
+      "unit": "m",
+      "hints": [
+        "8% betekent: stijging gedeeld door horizontale afstand is 0,08."
+      ],
+      "solution": [
+        "$0{,}08 \\times 250 = 20$ meter."
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Dat is het percentage zelf: 8 meter stijging geldt per 100 meter, niet per 250 meter."
+        },
+        {
+          "answer": 2000,
+          "message": "Je vermenigvuldigde met 8 in plaats van met 0,08."
+        }
+      ],
+      "topics": [
+        "trigonometry",
+        "percentages"
+      ]
+    },
+    {
+      "id": "22-035",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een zadeldak heeft een halve breedte van 5 m en een nok die 2,4 m boven de muurplaat ligt. Bereken de dakhelling in graden, afgerond op twee decimalen.",
+      "answer": 25.64,
+      "tolerance": 0.01,
+      "hints": [
+        "De 2,4 m is de overstaande zijde en de 5 m de aanliggende zijde."
+      ],
+      "solution": [
+        "$\\tan\\theta = 2{,}4/5 = 0{,}48$",
+        "$\\theta = \\arctan(0{,}48) \\approx 25{,}64^\\circ$"
+      ],
+      "feedback": [
+        {
+          "answer": 64.36,
+          "message": "Dat is de andere scherpe hoek, $\\arctan(5/2{,}4)$. Je nam O en A verkeerd om."
+        },
+        {
+          "answer": 28.69,
+          "message": "Je gebruikte arcsin(2,4/5), maar 5 m is geen schuine zijde maar de horizontale afstand."
+        },
+        {
+          "answer": 0.48,
+          "message": "Dat is de tangens. Pas nog arctan toe."
+        }
+      ],
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-036",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De zon staat 28° boven de horizon. Een boom op vlakke grond werpt een schaduw van 12 m. Hoe hoog is de boom, afgerond op twee decimalen?",
+      "answer": 6.38,
+      "tolerance": 0.01,
+      "unit": "m",
+      "hints": [
+        "De schaduw ligt langs de grond (aanliggend), de boomhoogte is de overstaande zijde."
+      ],
+      "solution": [
+        "$\\tan28^\\circ = h/12$",
+        "$h = 12\\tan28^\\circ \\approx 6{,}38$ m"
+      ],
+      "feedback": [
+        {
+          "answer": 5.63,
+          "message": "Je gebruikte de sinus: $12\\sin28^\\circ$. De schaduw is geen schuine zijde."
+        },
+        {
+          "answer": 10.6,
+          "message": "Je gebruikte de cosinus. Boomhoogte en schaduw horen bij de tangens."
+        }
+      ],
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-037",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een trap moet 3,20 m hoogteverschil overbruggen onder een hoek van 38° met de horizontaal. Hoe lang is de trapboom (de schuine lengte), afgerond op twee decimalen?",
+      "answer": 5.2,
+      "tolerance": 0.01,
+      "unit": "m",
+      "hints": [
+        "De hoogte is de overstaande zijde, de trapboom de schuine zijde."
+      ],
+      "solution": [
+        "$\\sin38^\\circ = 3{,}20/S$",
+        "$S = 3{,}20/\\sin38^\\circ \\approx 5{,}20$ m"
+      ],
+      "feedback": [
+        {
+          "answer": 1.97,
+          "message": "Je vermenigvuldigde met sin 38°. De onbekende S staat in de noemer, dus je deelt."
+        },
+        {
+          "answer": 4.1,
+          "message": "Dat is de horizontale afstand $3{,}20/\\tan38^\\circ$, niet de trapboom."
+        }
+      ],
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-038",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een cirkel heeft straal 8. Hoe lang is de koorde bij een middelpuntshoek van 90°? Rond af op twee decimalen.",
+      "answer": 11.31,
+      "tolerance": 0.01,
+      "hints": [
+        "Gebruik $c = 2R\\sin(\\alpha/2)$ met $\\alpha/2 = 45^\\circ$."
+      ],
+      "solution": [
+        "$c = 2 \\times 8 \\times \\sin45^\\circ = 16 \\times 0{,}7071 \\approx 11{,}31$"
+      ],
+      "feedback": [
+        {
+          "answer": 5.66,
+          "message": "Je vergat de verdubbeling: dat is de halve koorde, $R\\sin45^\\circ$."
+        },
+        {
+          "answer": 16,
+          "message": "Je nam sin 90° in plaats van sin 45°. Gebruik de halve middelpuntshoek."
+        }
+      ],
+      "topics": [
+        "trigonometry",
+        "circles"
+      ]
+    },
+    {
+      "id": "22-039",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een landmeter heeft een basislijn AB van 400 m. In B is de hoek 90°, in A is de hoek naar een toren C aan de overkant 52°. Hoe ver is C van B? Rond af op twee decimalen.",
+      "answer": 511.98,
+      "tolerance": 0.01,
+      "unit": "m",
+      "hints": [
+        "AB is aanliggend bij de hoek in A, BC is overstaand."
+      ],
+      "solution": [
+        "$\\tan52^\\circ = BC/400$",
+        "$BC = 400\\tan52^\\circ \\approx 511{,}98$ m"
+      ],
+      "feedback": [
+        {
+          "answer": 312.51,
+          "message": "Je deelde door tan 52° in plaats van te vermenigvuldigen. BC staat in de teller."
+        },
+        {
+          "answer": 315.2,
+          "message": "Je gebruikte de sinus. BC en AB zijn de twee rechthoekszijden: tangens."
+        }
+      ],
+      "topics": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "22-040",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Vanaf punt P is de hoogtehoek naar de top van een toren 30°. Je loopt 20 m recht naar de toren toe naar punt Q en meet daar 45°. Verwaarloos de ooghoogte. Hoe hoog is de toren, afgerond op twee decimalen?",
+      "answer": 27.32,
+      "tolerance": 0.01,
+      "unit": "m",
+      "hints": [
+        "Noem de afstand van Q tot de voet x. Bij 45° is de hoogte gelijk aan x.",
+        "Vanuit P is de afstand x + 20 en geldt $\\tan30^\\circ = h/(x+20)$."
+      ],
+      "solution": [
+        "Vanuit Q: $h = x\\tan45^\\circ = x$.",
+        "Vanuit P: $h = (x+20)\\tan30^\\circ$.",
+        "Dus $x = (x+20)\\tan30^\\circ$, zodat $x = \\dfrac{20\\tan30^\\circ}{1-\\tan30^\\circ} \\approx 27{,}32$.",
+        "De toren is ongeveer 27,32 m hoog."
+      ],
+      "topics": [
+        "trigonometry"
       ]
     }
   ]

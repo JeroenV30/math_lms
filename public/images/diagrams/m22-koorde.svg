@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" font-family="sans-serif">
+  <title>Cirkel met koorde, middelpuntshoek alfa en de halve koorde als overstaande zijde van hoek alfa gedeeld door twee</title>
+  <rect width="560" height="300" fill="#ffffff"/>
+  <circle cx="200" cy="145" r="120" stroke="#1f2933" stroke-width="2" fill="none"/>
+  <g stroke="#1f2933" stroke-width="2" fill="none">
+    <line x1="200" y1="145" x2="304" y2="85"/>
+    <line x1="200" y1="145" x2="304" y2="205"/>
+  </g>
+  <line x1="304" y1="85" x2="304" y2="205" stroke="#9c6b30" stroke-width="3"/>
+  <line x1="200" y1="145" x2="304" y2="145" stroke="#3b5bdb" stroke-width="2" stroke-dasharray="6 4"/>
+  <path d="M245,145 A45,45 0 0 0 239,123" stroke="#3b5bdb" stroke-width="2.5" fill="none"/>
+  <g font-size="15" fill="#1f2933">
+    <text x="222" y="140" fill="#3b5bdb" font-style="italic" font-size="13">α/2</text>
+    <text x="325" y="120" fill="#9c6b30">halve koorde = R sin(α/2)</text>
+    <text x="325" y="190" fill="#9c6b30">koorde = 2R sin(α/2)</text>
+    <text x="236" y="188" transform="rotate(30 236 188)">R</text>
+  </g>
+  <text x="90" y="288" font-size="14" fill="#1f2933">Cirkel met straal R en middelpuntshoek α</text>
+</svg>

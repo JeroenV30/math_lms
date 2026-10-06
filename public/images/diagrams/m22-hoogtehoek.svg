@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" font-family="sans-serif">
+  <title>Waarnemer op 20 meter van een toren kijkt onder 35 graden naar de top; ooghoogte 1,60 meter</title>
+  <rect width="640" height="280" fill="#ffffff"/>
+  <line x1="20" y1="240" x2="620" y2="240" stroke="#1f2933" stroke-width="2"/>
+  <rect x="470" y="30" width="30" height="210" fill="#e9ecef" stroke="#1f2933" stroke-width="2"/>
+  <line x1="90" y1="222" x2="485" y2="222" stroke="#3b5bdb" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="90" y1="222" x2="485" y2="30" stroke="#3b5bdb" stroke-width="2.5"/>
+  <line x1="90" y1="222" x2="90" y2="240" stroke="#1f2933" stroke-width="3"/>
+  <circle cx="90" cy="216" r="6" fill="#1f2933"/>
+  <path d="M150,222 A60,60 0 0 0 144,196" stroke="#9c6b30" stroke-width="2.5" fill="none"/>
+  <g font-size="16" fill="#1f2933" text-anchor="middle">
+    <text x="172" y="212" fill="#9c6b30" font-style="italic">35°</text>
+    <text x="280" y="240" fill="#1f2933" font-size="1"> </text>
+    <text x="290" y="214" fill="#3b5bdb">A = 20 m</text>
+    <text x="548" y="130" fill="#3b5bdb">O = ?</text>
+    <text x="45" y="205">1,60 m</text>
+    <text x="270" y="110" transform="rotate(-25.9 270 110)">kijklijn</text>
+  </g>
+</svg>
