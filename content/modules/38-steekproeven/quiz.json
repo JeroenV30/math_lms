@@ -4,7 +4,7 @@
   "questions": [
     {
       "type": "numeric",
-      "difficulty": 2,
+      "difficulty": 1,
       "question": "Een steekproef heeft 144 metingen. Geef n.",
       "answer": 144,
       "solution": [
@@ -17,7 +17,7 @@
     },
     {
       "type": "decimal",
-      "difficulty": 2,
+      "difficulty": 1,
       "question": "Bij σ=24 en n=144: geef SE.",
       "answer": 2,
       "solution": [
@@ -27,6 +27,12 @@
       "id": "38-T02",
       "topics": [
         "sampling"
+      ],
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Dat is $\\sigma$. De standaardfout is $\\sigma/\\sqrt n$."
+        }
       ]
     },
     {
@@ -41,6 +47,12 @@
       "id": "38-T03",
       "topics": [
         "sampling"
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Dat is $s$. Deel nog door $\\sqrt{25}=5$."
+        }
       ]
     },
     {
@@ -54,6 +66,12 @@
       "id": "38-T04",
       "topics": [
         "sampling"
+      ],
+      "feedback": [
+        {
+          "answer": "1/9",
+          "message": "Dat zou gelden als $SE$ met $n$ meeverandert. $SE$ daalt met $\\sqrt n$."
+        }
       ]
     },
     {
@@ -67,6 +85,12 @@
       "id": "38-T05",
       "topics": [
         "sampling"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Dat is de factor voor $\\sqrt n$. Voor een halvering van $SE$ moet $n$ vier keer zo groot worden."
+        }
       ]
     },
     {
@@ -81,6 +105,16 @@
       "id": "38-T06",
       "topics": [
         "sampling"
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Dat is de standaardfout zelf. Vermenigvuldig met 1,96."
+        },
+        {
+          "answer": 1.96,
+          "message": "Dat is alleen de kritieke waarde."
+        }
       ]
     },
     {
@@ -122,11 +156,17 @@
       "id": "38-T09",
       "topics": [
         "sampling"
+      ],
+      "feedback": [
+        {
+          "answer": 26,
+          "message": "Dat is $n$. Het aantal vrijheidsgraden is $n-1$."
+        }
       ]
     },
     {
       "type": "decimal",
-      "difficulty": 2,
+      "difficulty": 3,
       "question": "Gemiddelde 12, s=5, n=25. Gebruik t*=2,064. Geef de marge.",
       "answer": 2.064,
       "solution": [
@@ -136,6 +176,16 @@
       "id": "38-T10",
       "topics": [
         "sampling"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Dat is $s$. Marge = $t^*\\cdot s/\\sqrt n$."
+        },
+        {
+          "answer": 1.96,
+          "message": "Je gebruikte $z$ in plaats van de gegeven $t^*$."
+        }
       ]
     },
     {
@@ -154,7 +204,7 @@
     },
     {
       "type": "decimal",
-      "difficulty": 2,
+      "difficulty": 3,
       "question": "Bij p̂=0,5 en n=400: geef geschatte SE.",
       "answer": 0.025,
       "solution": [
@@ -164,11 +214,17 @@
       "id": "38-T12",
       "topics": [
         "sampling"
+      ],
+      "feedback": [
+        {
+          "answer": 0.0006,
+          "message": "Je vergat de wortel te nemen."
+        }
       ]
     },
     {
       "type": "decimal",
-      "difficulty": 2,
+      "difficulty": 3,
       "question": "Bij die SE: geef de 95%-marge voor de proportie.",
       "answer": 0.049,
       "solution": [
@@ -178,6 +234,12 @@
       "id": "38-T13",
       "topics": [
         "sampling"
+      ],
+      "feedback": [
+        {
+          "answer": 0.025,
+          "message": "Dat is de standaardfout; vermenigvuldig nog met 1,96."
+        }
       ]
     },
     {
@@ -204,6 +266,12 @@
       "id": "38-T15",
       "topics": [
         "sampling"
+      ],
+      "feedback": [
+        {
+          "answer": 245,
+          "message": "Je rondde 245,86 naar beneden af. Rond naar boven af."
+        }
       ]
     }
   ]

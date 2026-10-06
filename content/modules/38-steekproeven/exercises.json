@@ -15,7 +15,13 @@
       "topics": [
         "sampling"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 1200,
+          "message": "Dat is de populatiegrootte $N$. De steekproef bestaat alleen uit de eenheden die je daadwerkelijk meet."
+        }
+      ]
     },
     {
       "type": "text",
@@ -51,7 +57,13 @@
       "topics": [
         "sampling"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 60,
+          "message": "Dat is de steekproefgrootte $n$, niet de schatting. De schatting is het berekende gemiddelde."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -69,7 +81,17 @@
       "topics": [
         "sampling"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Dat is $\\sigma$ zelf. De standaardfout van het gemiddelde is $\\sigma/\\sqrt n$."
+        },
+        {
+          "answer": 0.333333,
+          "message": "Je deelde door $n$ in plaats van door $\\sqrt n$."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -87,7 +109,17 @@
       "topics": [
         "sampling"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Dat is $s$ zelf. Deel nog door $\\sqrt n=8$."
+        },
+        {
+          "answer": 0.125,
+          "message": "Je deelde door $n=64$ in plaats van door $\\sqrt{64}=8$."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -105,7 +137,17 @@
       "topics": [
         "sampling"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.25,
+          "message": "Je vergeet de wortel: $SE$ verandert met $\\sqrt{25/100}$, niet met $25/100$."
+        },
+        {
+          "answer": 2,
+          "message": "Dat is de omgekeerde verhouding (oude gedeeld door nieuwe SE). De nieuwe SE is kleiner."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -122,7 +164,13 @@
       "topics": [
         "sampling"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Je noemt de factor van de SE-reductie. Omdat $SE\\propto1/\\sqrt n$ moet $n$ met het kwadraat daarvan groeien."
+        }
+      ]
     },
     {
       "type": "text",
@@ -159,7 +207,17 @@
       "topics": [
         "sampling"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 1.96,
+          "message": "Je hebt alleen de kritieke waarde genoemd. De marge is $z^*\\cdot SE$."
+        },
+        {
+          "answer": 2,
+          "message": "Dat is de standaardfout zelf. Vermenigvuldig nog met 1,96."
+        }
+      ]
     },
     {
       "type": "multiple",
@@ -206,7 +264,13 @@
       "topics": [
         "sampling"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Dat is $n$. Het aantal vrijheidsgraden is $n-1$, omdat het gemiddelde al uit dezelfde data is geschat."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -224,7 +288,17 @@
       "topics": [
         "sampling"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Dat is $s$. De marge is $t^*\\cdot s/\\sqrt n$; je moet ook door $\\sqrt{16}=4$ delen."
+        },
+        {
+          "answer": 1,
+          "message": "Dat is de standaardfout. Vermenigvuldig nog met $t^*=2{,}131$."
+        }
+      ]
     },
     {
       "type": "text",
@@ -280,7 +354,13 @@
       "topics": [
         "sampling"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 60,
+          "message": "Dat is het aantal personen dat optie A niet koos. Een proportie is aantal successen gedeeld door $n$."
+        }
+      ]
     },
     {
       "type": "decimal",
@@ -298,7 +378,17 @@
       "topics": [
         "sampling"
       ],
-      "mode": "guided"
+      "mode": "guided",
+      "feedback": [
+        {
+          "answer": 0.0024,
+          "message": "Je vergat de wortel te nemen: $0{,}24/100=0{,}0024$ is de variantie, geen standaardfout."
+        },
+        {
+          "answer": 0.49,
+          "message": "Je nam de wortel van $0{,}24$ maar deelde niet door $n$. Neem de wortel van $0{,}24/100$."
+        }
+      ]
     },
     {
       "type": "numeric",
@@ -316,7 +406,13 @@
       "topics": [
         "sampling"
       ],
-      "mode": "independent"
+      "mode": "independent",
+      "feedback": [
+        {
+          "answer": 96,
+          "message": "Je rondde 96,04 naar beneden af. Dan wordt de marge net groter dan 2; je moet naar boven afronden."
+        }
+      ]
     },
     {
       "type": "text",
@@ -372,7 +468,543 @@
       "topics": [
         "sampling"
       ],
-      "mode": "challenge"
+      "mode": "challenge",
+      "feedback": [
+        {
+          "answer": 553,
+          "message": "Je rondde 553,19 naar beneden af. Dat levert een marge net boven 1,5 op; rond naar boven af."
+        }
+      ]
+    },
+    {
+      "id": "38-021",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een systematische steekproef van $n=60$ wordt getrokken uit een lijst van $N=2400$ klanten. Hoe groot is de stapgrootte $k$?",
+      "answer": 40,
+      "hints": [
+        "Je kiest elke $k$-de eenheid; er geldt $k=N/n$."
+      ],
+      "solution": [
+        "$k=N/n=2400/60=40$.",
+        "Je kiest een willekeurig startnummer tussen 1 en 40 en neemt daarna elke 40e klant."
+      ],
+      "feedback": [
+        {
+          "answer": 60,
+          "message": "Dat is $n$. De stapgrootte is het aantal eenheden tussen twee gekozen eenheden, $N/n$."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-022",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een opleiding heeft 600 studenten in jaar 1, 300 in jaar 2 en 100 in jaar 3. Je trekt gestratificeerd en proportioneel een steekproef van $n=50$. Hoeveel studenten komen uit jaar 2?",
+      "answer": 15,
+      "hints": [
+        "Het aandeel van jaar 2 in de populatie is $300/1000$.",
+        "Neem datzelfde aandeel van 50."
+      ],
+      "solution": [
+        "Aandeel jaar 2: $300/1000=0{,}3$.",
+        "$0{,}3\\cdot50=15$."
+      ],
+      "feedback": [
+        {
+          "answer": 17,
+          "message": "Je verdeelde de 50 gelijk over de drie jaren. Bij proportionele allocatie volgt het aandeel in de steekproef het aandeel in de populatie."
+        },
+        {
+          "answer": 30,
+          "message": "Dat is het aantal voor jaar 1 (aandeel 0,6). Jaar 2 heeft een aandeel van 0,3."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-023",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een school heeft 25 klassen van elk 30 leerlingen. Je trekt aselect 4 klassen en bevraagt alle leerlingen daarin. Hoeveel leerlingen zitten in de steekproef?",
+      "answer": 120,
+      "hints": [
+        "Dit is een clustersteekproef: de klassen zijn de clusters."
+      ],
+      "solution": [
+        "$4\\cdot30=120$ leerlingen.",
+        "De eenheid van selectie is de klas, niet de leerling."
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Dat is het aantal geselecteerde klassen. Vraag je naar het aantal leerlingen, dan moet je met 30 vermenigvuldigen."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-024",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "De Literary Digest stuurde in 1936 ongeveer 10 miljoen stembriefjes rond en ontving 2,38 miljoen reacties. Hoe groot was het responspercentage? Geef het antwoord in procenten op één decimaal.",
+      "answer": 23.8,
+      "tolerance": 0.05,
+      "unit": "%",
+      "hints": [
+        "Deel het aantal reacties door het aantal verstuurde briefjes."
+      ],
+      "solution": [
+        "$2{,}38/10=0{,}238$.",
+        "Dat is 23,8%; dus meer dan driekwart reageerde niet."
+      ],
+      "feedback": [
+        {
+          "answer": 76.2,
+          "message": "Dat is het non-responspercentage. Er wordt gevraagd naar het aandeel dat wel reageerde."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-025",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Codeer vertekening: 1 = dekkingsfout (kader), 2 = non-respons, 3 = zelfselectie, 4 = overlevingsvertekening, 5 = vraagformulering. Een bank onderzoekt de tevredenheid over beleggen, maar vraagt alleen klanten die nu nog een beleggingsrekening hebben. Wie al is vertrokken, wordt niet gevraagd. Welk nummer past het best?",
+      "answer": 4,
+      "hints": [
+        "Welke groep ontbreekt, en waarom ontbreekt zij?"
+      ],
+      "solution": [
+        "Je meet alleen wat 'overleefd' heeft: de klanten die zijn gebleven.",
+        "De vertrokken klanten zijn waarschijnlijk juist de ontevredenen; dat is overlevingsvertekening."
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Bij non-respons zijn mensen wel geselecteerd maar reageren ze niet. Hier worden de vertrokken klanten niet eens gevraagd."
+        },
+        {
+          "answer": 1,
+          "message": "Een kader-fout is mogelijk, maar het kenmerkende mechanisme is hier dat alleen de overlevers in het bestand blijven."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-026",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zelfde codering als hierboven (1 = dekkingsfout, 2 = non-respons, 3 = zelfselectie, 4 = overlevingsvertekening, 5 = vraagformulering). Een vragenlijst vraagt: 'Bent u het ook eens dat de onnodige belastingverhoging moet worden teruggedraaid?' Welk nummer past?",
+      "answer": 5,
+      "hints": [
+        "Kijk naar de woorden in de vraag zelf."
+      ],
+      "solution": [
+        "De woorden 'ook' en 'onnodige' sturen het antwoord.",
+        "Dat is een kwestie van vraagformulering (meetfout), geen steekproeffout."
+      ],
+      "feedback": [
+        {
+          "answer": 3,
+          "message": "Zelfselectie gaat over wie meedoet. Hier gaat het over de formulering van de vraag zelf."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-027",
+      "type": "interval",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Je benadert 1000 studenten. Er reageren 420; van hen zegt 60% tevreden te zijn. De 580 anderen zijn onbekend. Tussen welke grenzen, in procenten, ligt het aandeel tevreden studenten in de hele benaderde groep zeker? Schrijf als $[a; b]$ met decimale komma.",
+      "answer": "[25,2; 83,2]",
+      "tolerance": 0.05,
+      "hints": [
+        "Bereken eerst hoeveel van de 420 tevreden zijn.",
+        "Neem voor de 580 anderen het ongunstigste en het gunstigste geval: niemand tevreden of iedereen tevreden."
+      ],
+      "solution": [
+        "Tevreden onder respondenten: $0{,}6\\cdot420=252$.",
+        "Ondergrens: $252/1000=25{,}2\\%$.",
+        "Bovengrens: $(252+580)/1000=83{,}2\\%$."
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-028",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bij $\\sigma=15$ en $n=50$: bereken $SE$ van het gemiddelde op twee decimalen.",
+      "answer": 2.12,
+      "tolerance": 0.005,
+      "hints": [
+        "Deel $\\sigma$ door de wortel van $n$.",
+        "$\\sqrt{50}\\approx7{,}071$."
+      ],
+      "solution": [
+        "$SE=15/\\sqrt{50}=15/7{,}071\\approx2{,}12$."
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Dat is $\\sigma$ zelf. Deel nog door $\\sqrt{50}$."
+        },
+        {
+          "answer": 0.3,
+          "message": "Je deelde door $n=50$ in plaats van door $\\sqrt{50}$."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-029",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een populatie heeft $\\mu=100$ en $\\sigma=20$. Je trekt $n=100$ onafhankelijke waarnemingen; $\\bar X$ is bij benadering normaal verdeeld. Bereken $P(\\bar X>104)$ op vier decimalen.",
+      "answer": 0.0228,
+      "tolerance": 0.0005,
+      "hints": [
+        "Bereken eerst de standaardfout en daarna de $z$-score van 104.",
+        "Zoek de rechterstaartkans bij die $z$; gebruik eventueel de widget."
+      ],
+      "solution": [
+        "$SE=20/\\sqrt{100}=2$.",
+        "$z=(104-100)/2=2$.",
+        "$P(Z>2)\\approx0{,}0228$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.4207,
+          "message": "Je gebruikte $\\sigma=20$ in plaats van $SE=2$: $z=0{,}2$. Het gaat om het gemiddelde, dus deel door $\\sqrt n$."
+        },
+        {
+          "answer": 0.0455,
+          "message": "Dat is de tweezijdige kans op $|Z|>2$. De vraag is eenzijdig."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-030",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Je wilt dat de standaardfout van een gemiddelde 0,5 is, bij $\\sigma=12$. Hoe groot moet $n$ zijn?",
+      "answer": 576,
+      "hints": [
+        "Los $0{,}5=12/\\sqrt n$ op naar $n$.",
+        "Vergeet niet te kwadrateren."
+      ],
+      "solution": [
+        "$\\sqrt n=12/0{,}5=24$.",
+        "$n=24^2=576$."
+      ],
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Dat is $\\sqrt n$. Kwadrateer nog om $n$ te vinden."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-031",
+      "type": "interval",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een steekproef van $n=25$ heeft $\\bar x=72$; $\\sigma=10$ is bekend. Bereken het 95%-z-interval met $z^*=1{,}96$. Schrijf als $[a; b]$ met decimale komma.",
+      "answer": "[68,08; 75,92]",
+      "tolerance": 0.005,
+      "hints": [
+        "Bereken eerst $SE=\\sigma/\\sqrt n$.",
+        "De marge is $1{,}96\\cdot SE$."
+      ],
+      "solution": [
+        "$SE=10/5=2$.",
+        "$m=1{,}96\\cdot2=3{,}92$.",
+        "Interval: $[72-3{,}92;\\ 72+3{,}92]=[68{,}08;\\ 75{,}92]$."
+      ],
+      "feedback": [
+        {
+          "answer": "[52,4; 91,6]",
+          "message": "Je gebruikte $\\sigma=10$ in plaats van $SE=2$. Dat geeft een interval voor individuele waarden, niet voor $\\mu$."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-032",
+      "type": "interval",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een steekproef van $n=9$ normale waarnemingen heeft $\\bar x=35$ en $s=6$. Bereken het 95%-t-interval; gebruik $t^*=2{,}306$. Schrijf als $[a; b]$ met decimale komma, op drie decimalen.",
+      "answer": "[30,388; 39,612]",
+      "tolerance": 0.005,
+      "hints": [
+        "Het aantal vrijheidsgraden is 8; de waarde $t^*$ is gegeven.",
+        "$SE=s/\\sqrt n$."
+      ],
+      "solution": [
+        "$SE=6/3=2$.",
+        "$m=2{,}306\\cdot2=4{,}612$.",
+        "Interval: $[35-4{,}612;\\ 35+4{,}612]=[30{,}388;\\ 39{,}612]$."
+      ],
+      "feedback": [
+        {
+          "answer": "[31,08; 38,92]",
+          "message": "Je gebruikte $z^*=1{,}96$. Bij $n=9$ en onbekende $\\sigma$ moet je de grotere $t^*$ gebruiken; anders is het interval te smal."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-033",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Je hebt $n=20$ waarnemingen en schat $\\sigma$ met $s$. Welke kritieke waarde $t^*$ hoort bij een 95%-interval? Gebruik de tabel in de les; geef drie decimalen.",
+      "answer": 2.093,
+      "tolerance": 0.0005,
+      "hints": [
+        "Bepaal eerst het aantal vrijheidsgraden.",
+        "Zoek in de 95%-kolom naar 19 vrijheidsgraden."
+      ],
+      "solution": [
+        "$df=n-1=19$.",
+        "Uit de tabel: $t^*_{19}=2{,}093$."
+      ],
+      "feedback": [
+        {
+          "answer": 1.96,
+          "message": "Dat is de $z$-waarde. Met een geschatte spreiding en $n=20$ hoort een t-waarde, die iets groter is."
+        },
+        {
+          "answer": 2.861,
+          "message": "Dat is de waarde voor 99%; je zocht 95%."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-034",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bij $SE=2$ is een 99%-interval gevraagd met $z^*=2{,}576$. Wat is de foutmarge? Geef twee decimalen.",
+      "answer": 5.15,
+      "tolerance": 0.005,
+      "hints": [
+        "Marge = kritieke waarde maal standaardfout."
+      ],
+      "solution": [
+        "$2{,}576\\cdot2=5{,}152\\approx5{,}15$.",
+        "Bij 95% was de marge 3,92: meer dekking kost breedte."
+      ],
+      "feedback": [
+        {
+          "answer": 3.92,
+          "message": "Dat is de marge bij 95% (factor 1,96). Hier is 99% gevraagd."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-035",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een peiling met $n=100$ heeft een foutmarge van 4 procentpunt. Hoe groot moet $n$ ongeveer zijn voor een marge van 2 procentpunt?",
+      "answer": 400,
+      "hints": [
+        "De marge is evenredig met $1/\\sqrt n$."
+      ],
+      "solution": [
+        "Halveren van de marge betekent $\\sqrt n$ verdubbelen.",
+        "Dus $n$ vermenigvuldigen met $2^2=4$: $4\\cdot100=400$."
+      ],
+      "feedback": [
+        {
+          "answer": 200,
+          "message": "Verdubbelen van $n$ geeft maar een marge van $4/\\sqrt2\\approx2{,}8$. Voor een halvering heb je $4n$ nodig."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-036",
+      "type": "interval",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "In een steekproef van $n=400$ zegt $k=240$ ja. Bereken het 95%-interval voor $p$ (met $z^*=1{,}96$) als proporties, met decimale komma, op drie decimalen. Schrijf als $[a; b]$.",
+      "answer": "[0,552; 0,648]",
+      "tolerance": 0.0005,
+      "hints": [
+        "Bereken eerst $\\hat p$ en dan $SE=\\sqrt{\\hat p(1-\\hat p)/n}$."
+      ],
+      "solution": [
+        "$\\hat p=0{,}6$; $SE=\\sqrt{0{,}6\\cdot0{,}4/400}\\approx0{,}0245$.",
+        "$m=1{,}96\\cdot0{,}0245\\approx0{,}048$.",
+        "Interval: $[0{,}552;\\ 0{,}648]$."
+      ],
+      "feedback": [
+        {
+          "answer": "[55,2; 64,8]",
+          "message": "Dit zijn procenten. De vraag wil proporties: $0{,}552$ en $0{,}648$."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-037",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je wilt een foutmarge van hoogstens 0,03 (3 procentpunt) bij 95% dekking ($z^*=1{,}96$) en je kent $p$ niet. Gebruik de veilige keuze $p=0{,}5$. Hoe groot moet $n$ minimaal zijn?",
+      "answer": 1068,
+      "hints": [
+        "Gebruik $n\\ge z^{*2}p(1-p)/E^2$ met $p(1-p)=0{,}25$."
+      ],
+      "solution": [
+        "$n\\ge1{,}96^2\\cdot0{,}25/0{,}03^2=0{,}9604/0{,}0009\\approx1067{,}1$.",
+        "Naar boven afgerond: $n=1068$."
+      ],
+      "feedback": [
+        {
+          "answer": 1067,
+          "message": "Je rondde 1067,1 naar beneden af. Dan wordt de marge net groter dan 3 procentpunt."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-038",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Uit eerder onderzoek weet je dat $p$ ongeveer 0,3 is. Je wilt een 95%-marge van hoogstens 0,03. Hoe groot moet $n$ minimaal zijn?",
+      "answer": 897,
+      "hints": [
+        "Gebruik $p=0{,}3$ in $p(1-p)$."
+      ],
+      "solution": [
+        "$p(1-p)=0{,}3\\cdot0{,}7=0{,}21$.",
+        "$n\\ge1{,}96^2\\cdot0{,}21/0{,}03^2=0{,}806736/0{,}0009\\approx896{,}4$.",
+        "Naar boven afgerond: $n=897$."
+      ],
+      "feedback": [
+        {
+          "answer": 896,
+          "message": "Je rondde 896,4 naar beneden af; naar boven afronden geeft 897."
+        },
+        {
+          "answer": 1068,
+          "message": "Dat geldt voor de veilige keuze $p=0{,}5$. Met de betere schatting $p\\approx0{,}3$ kom je lager uit."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-039",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Je hebt volgens de berekening 554 geldige antwoorden nodig. Uit eerder onderzoek weet je dat slechts 40% van de benaderde personen reageert. Hoeveel personen moet je minstens benaderen?",
+      "answer": 1385,
+      "hints": [
+        "Als 40% reageert, is het aantal antwoorden gelijk aan 0,4 maal het aantal benaderden.",
+        "Rond naar boven af."
+      ],
+      "solution": [
+        "$n_{benaderd}\\cdot0{,}4\\ge554$, dus $n_{benaderd}\\ge554/0{,}4=1385$.",
+        "Dat is precies 1385."
+      ],
+      "feedback": [
+        {
+          "answer": 554,
+          "message": "Dat is het aantal benodigde antwoorden, niet het aantal benaderden."
+        },
+        {
+          "answer": 1384,
+          "message": "Bij 1384 benaderden verwacht je 553,6 antwoorden, net te weinig."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "38-040",
+      "type": "interval",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Acht onafhankelijke metingen (verondersteld normaal): 12, 15, 11, 14, 13, 16, 12, 15. Bereken het 95%-t-interval voor $\\mu$; gebruik $t^*_7=2{,}365$. Schrijf als $[a; b]$ met decimale komma, op drie decimalen.",
+      "answer": "[12,018; 14,982]",
+      "tolerance": 0.01,
+      "hints": [
+        "Bereken eerst gemiddelde en $s$ (deel in $s^2$ door $n-1$).",
+        "Gebruik daarna $SE=s/\\sqrt n$."
+      ],
+      "solution": [
+        "$\\bar x=108/8=13{,}5$.",
+        "Som van kwadraten van afwijkingen: $2{,}25+2{,}25+6{,}25+0{,}25+0{,}25+6{,}25+2{,}25+2{,}25=22$.",
+        "$s^2=22/7$, $s\\approx1{,}7728$; $SE=s/\\sqrt8\\approx0{,}6268$.",
+        "$m=2{,}365\\cdot0{,}6268\\approx1{,}482$; interval $[12{,}018;\\ 14{,}982]$."
+      ],
+      "feedback": [
+        {
+          "answer": "[12,27; 14,73]",
+          "message": "Je gebruikte $z^*=1{,}96$ in plaats van $t^*=2{,}365$. Bij $n=8$ en een geschatte spreiding is dat te smal."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
     }
   ]
 }

@@ -7,7 +7,7 @@
   "status": "available",
   "historical_period": "20e eeuw",
   "estimated_difficulty": 5,
-  "estimated_minutes": 180,
+  "estimated_minutes": 240,
   "prerequisites": [
     37
   ],
@@ -15,13 +15,16 @@
     "sampling"
   ],
   "core_question": "Hoeveel onzekerheid blijft er over als je maar een deel van een populatie meet?",
-  "summary": "Steekproefontwerp, selectievertekening, standaardfout, centrale limietstelling en betrouwbaarheidsintervallen voor gemiddelden en proporties.",
+  "summary": "Steekproefontwerp, vertekening, standaardfout, centrale limietstelling, betrouwbaarheidsintervallen voor gemiddelden en proporties en de benodigde steekproefgrootte.",
   "learning_goals": [
-    "Je onderscheidt populatie, steekproef, parameter en schatting.",
-    "Je herkent selectievertekening en maakt onderscheid tussen loting voor selectie en voor behandeling.",
-    "Je berekent en interpreteert standaardfouten en het effect van steekproefgrootte.",
-    "Je berekent z- en t-intervallen voor een gemiddelde onder expliciete voorwaarden.",
-    "Je interpreteert een betrouwbaarheidsinterval als een eigenschap van een herhaalbare procedure."
+    "Je onderscheidt populatie, steekproef, parameter en statistiek, en schatter en schatting.",
+    "Je onderscheidt aselecte, systematische, gestratificeerde, cluster- en gemakssteekproeven en benoemt hun voor- en nadelen.",
+    "Je herkent selectievertekening, non-respons, zelfselectie, overlevingsvertekening en vraagformulering, en maakt onderscheid tussen loting voor selectie en loting voor behandeling.",
+    "Je berekent en interpreteert standaardfouten voor een gemiddelde en een proportie en voorspelt het effect van de steekproefgrootte.",
+    "Je legt uit wanneer de steekproefverdeling van het gemiddelde bij benadering normaal is (centrale limietstelling).",
+    "Je berekent z- en t-intervallen voor een gemiddelde onder expliciete voorwaarden, met vrijheidsgraden en een t-tabel.",
+    "Je berekent een betrouwbaarheidsinterval voor een proportie en bepaalt de benodigde steekproefgrootte.",
+    "Je interpreteert een betrouwbaarheidsinterval als een eigenschap van een herhaalbare procedure en niet als een kans op dit ene interval."
   ],
   "glossary": [
     {
@@ -47,28 +50,76 @@
     {
       "term": "Betrouwbaarheidsinterval",
       "definition": "Een interval uit een procedure die onder haar aannames bij herhaling een gekozen aandeel van de keren de parameter bevat."
+    },
+    {
+      "term": "Steekproefkader",
+      "definition": "De lijst of bron waaruit de steekproef wordt getrokken; afwijkingen van de populatie geven dekkingsfout."
+    },
+    {
+      "term": "Statistiek",
+      "definition": "Een uit de steekproef berekend getal, zoals het steekproefgemiddelde; verandert van steekproef tot steekproef."
+    },
+    {
+      "term": "Enkelvoudige aselecte steekproef",
+      "definition": "Een steekproef waarin elk mogelijk groepje van n eenheden dezelfde selectiekans heeft."
+    },
+    {
+      "term": "Stratificatie",
+      "definition": "Eerst de populatie in groepen verdelen en binnen elke groep aselect trekken."
+    },
+    {
+      "term": "Non-respons",
+      "definition": "Geselecteerde eenheden die niet meedoen; vertekent de uitkomst als zij systematisch verschillen van respondenten."
+    },
+    {
+      "term": "Centrale limietstelling",
+      "definition": "Het gemiddelde van veel onafhankelijke waarnemingen met eindige variantie is bij benadering normaal verdeeld, ook als de waarnemingen dat niet zijn."
+    },
+    {
+      "term": "Vrijheidsgraden",
+      "definition": "Het aantal vrij variërende stukjes informatie over de spreiding; n−1 bij het t-interval voor één gemiddelde."
+    },
+    {
+      "term": "Foutmarge",
+      "definition": "De halve breedte van een betrouwbaarheidsinterval: kritieke waarde maal standaardfout."
     }
   ],
   "formulas": [
     {
       "name": "Standaardfout van het gemiddelde",
       "latex": "SE(\\bar X)=\\frac{\\sigma}{\\sqrt n}\\approx\\frac{s}{\\sqrt n}",
-      "usage": "Voor onafhankelijke, identiek verdeelde waarnemingen met eindige variantie."
+      "usage": "Voor onafhankelijke, identiek verdeelde waarnemingen met eindige variantie.",
+      "origin": "Volgt uit Var(som) = nσ² voor onafhankelijke waarnemingen; deze wortelwet is de kern van de klassieke steekproeftheorie."
+    },
+    {
+      "name": "z-interval",
+      "latex": "\\bar x\\pm z^*\\frac{\\sigma}{\\sqrt n}",
+      "usage": "Bij bekende σ en een bij benadering normaal verdeeld gemiddelde; z* = 1,960 bij 95%.",
+      "origin": "Neyman (1937) gaf de intervalprocedure haar frequentistische grondslag."
     },
     {
       "name": "t-interval",
-      "latex": "\\bar x\\pm t_{1-\\alpha/2,n-1}\\frac{s}{\\sqrt n}",
-      "usage": "Bij onbekende σ; exact voor onafhankelijke normale waarnemingen."
+      "latex": "\\bar x\\pm t^*_{n-1}\\frac{s}{\\sqrt n}",
+      "usage": "Bij onbekende σ; exact voor onafhankelijke normale waarnemingen.",
+      "origin": "Gosset ('Student'), 1908: de verdeling van het gemiddelde als je de spreiding uit kleine steekproeven moet schatten."
     },
     {
       "name": "Standaardfout van een proportie",
       "latex": "\\widehat{SE}(\\hat p)=\\sqrt{\\frac{\\hat p(1-\\hat p)}n}",
-      "usage": "Bij onafhankelijke Bernoulli-waarnemingen."
+      "usage": "Bij onafhankelijke Bernoulli-waarnemingen met n·p̂ en n(1−p̂) minstens ongeveer 10.",
+      "origin": "Volgt uit de variantie p(1−p) van een Bernoulli-waarneming; de normale benadering gaat terug op De Moivre (1733)."
     },
     {
-      "name": "Steekproefgrootte bij bekende σ",
-      "latex": "n\\ge\\left(\\frac{1{,}96\\sigma}{m}\\right)^2",
-      "usage": "Voor een normale 95%-marge van hoogstens m; rond n naar boven af."
+      "name": "Steekproefgrootte voor een gemiddelde",
+      "latex": "n\\ge\\left(\\frac{z^*\\sigma}{E}\\right)^2",
+      "usage": "Voor een gewenste foutmarge E bij bekende σ; rond n naar boven af.",
+      "origin": "Het omkeren van de margeformule E = z*·σ/√n."
+    },
+    {
+      "name": "Steekproefgrootte voor een proportie",
+      "latex": "n\\ge\\frac{(z^*)^2\\,p(1-p)}{E^2}",
+      "usage": "Met p = 0,5 als veilige keuze; rond n naar boven af.",
+      "origin": "Het omkeren van de margeformule voor een proportie; p(1−p) is maximaal 0,25 bij p = 0,5."
     }
   ],
   "lessons": [
@@ -97,6 +148,12 @@
       "kind": "theory"
     },
     {
+      "slug": "theorie-d",
+      "title": "Proporties en steekproefgrootte",
+      "file": "03c-theorie-d.md",
+      "kind": "theory"
+    },
+    {
       "slug": "historisch-intermezzo",
       "title": "Historisch intermezzo",
       "file": "04-historisch-intermezzo.md",
@@ -117,10 +174,14 @@
   ],
   "timeline": [
     "graunt-sterftetafels",
+    "de-moivre",
+    "laplace",
     "gosset-student",
     "neyman-pearson"
   ],
   "mathematicians": [
+    "laplace",
+    "de-moivre",
     "neyman"
   ]
 }
