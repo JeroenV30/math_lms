@@ -15,6 +15,12 @@
       "difficulty": 1,
       "topics": [
         "quadratic-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Je hebt de zijde verdubbeld in plaats van gekwadrateerd. De oppervlakte is zijde maal zijde: $4\\cdot4$."
+        }
       ]
     },
     {
@@ -32,6 +38,12 @@
       "difficulty": 1,
       "topics": [
         "quadratic-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je hebt de zijde met de factor 2 vermenigvuldigd. Maar ook de andere kant van het vierkant wordt twee keer zo lang, dus de oppervlakte groeit met $2\\cdot2$."
+        }
       ]
     },
     {
@@ -49,6 +61,12 @@
       "difficulty": 1,
       "topics": [
         "quadratic-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je hebt $-3x$ gerekend als $-3$. Bij $x=2$ is $-3x=-6$: $4-6+1$."
+        }
       ]
     },
     {
@@ -67,6 +85,12 @@
       "difficulty": 1,
       "topics": [
         "quadratic-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "(-3;-5)",
+          "message": "Let op het teken: $x-3=0$ geeft $x=3$, niet $x=-3$. Je leest $p$ af met het tegengestelde teken van wat in de haakjes staat."
+        }
       ]
     },
     {
@@ -84,6 +108,12 @@
       "difficulty": 1,
       "topics": [
         "quadratic-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "(2;4)",
+          "message": "Er staat $x+2$ tussen de haakjes. Die is nul bij $x=-2$, niet bij $x=2$."
+        }
       ]
     },
     {
@@ -101,6 +131,12 @@
       "difficulty": 1,
       "topics": [
         "quadratic-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "Het kwadraat $(x+2)^2$ is minimaal nul, maar $f$ is dan niet nul: je moet daarna nog $+4$ optellen. De maximale functiewaarde is dus $q$."
+        }
       ]
     },
     {
@@ -118,6 +154,12 @@
       "difficulty": 1,
       "topics": [
         "quadratic-functions"
+      ],
+      "feedback": [
+        {
+          "answer": -1,
+          "message": "Je hebt gespiegeld in $x=0$ in plaats van in de symmetrie-as $x=3$. Het spiegelbeeld van $x_1$ is $2p-x_1=6-1$."
+        }
       ]
     },
     {
@@ -136,7 +178,13 @@
       "topics": [
         "quadratic-functions"
       ],
-      "form": "expanded"
+      "form": "expanded",
+      "feedback": [
+        {
+          "answer": "x^2-10",
+          "message": "Je rekende $(x-3)^2$ als $x^2-9$. Maar $(x-3)^2=x^2-6x+9$: de dubbele term $-6x$ mag niet ontbreken."
+        }
+      ]
     },
     {
       "id": "21-009",
@@ -153,6 +201,12 @@
       "difficulty": 1,
       "topics": [
         "quadratic-functions"
+      ],
+      "feedback": [
+        {
+          "answer": -3,
+          "message": "De formule is $-b/(2a)$ met $b=-6$. De min uit de formule hoort bij de breuk: $-(-6)/2=3$."
+        }
       ]
     },
     {
@@ -170,6 +224,12 @@
       "difficulty": 1,
       "topics": [
         "quadratic-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Dat is $f(0)$, het snijpunt met de y-as. Je moet de topinvoer $x=3$ invullen."
+        }
       ]
     },
     {
@@ -188,6 +248,12 @@
       "difficulty": 2,
       "topics": [
         "quadratic-functions"
+      ],
+      "feedback": [
+        {
+          "answer": "(2;27)",
+          "message": "Het teken van $b$ is niet goed meegenomen: de topinvoer is $-b/(2a)=-8/4=-2$, niet $2$."
+        }
       ]
     },
     {
@@ -206,7 +272,13 @@
       "topics": [
         "quadratic-functions"
       ],
-      "form": "factored"
+      "form": "factored",
+      "feedback": [
+        {
+          "answer": "(x+2)(x+4)",
+          "message": "Je hebt de tekens verkeerd gekozen. $(x+2)(x+4)=x^2+6x+8$, maar je zoekt twee getallen met product $8$ en som $-6$."
+        }
+      ]
     },
     {
       "id": "21-013",
@@ -215,7 +287,8 @@
         "Elke factor kan nul zijn."
       ],
       "hints": [
-        "Gebruik de nulproductregel."
+        "Gebruik de nulproductregel.",
+        "Elke factor kan nul zijn: los $x-2=0$ en $x-4=0$ apart op."
       ],
       "type": "multiple",
       "mode": "guided",
@@ -328,7 +401,8 @@
         "x²+2x-8 = (x+4)(x-2)."
       ],
       "hints": [
-        "Breng eerst alles naar nul."
+        "Breng eerst alles naar nul.",
+        "Ontbind $x^2+2x-8$: zoek twee getallen met product $-8$ en som $2$."
       ],
       "type": "multiple",
       "mode": "guided",
@@ -364,6 +438,12 @@
       "difficulty": 1,
       "topics": [
         "quadratic-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 0,
+          "message": "Let op het teken van $c$: hier is $c=-1$. Dan is $-4ac=-4\\cdot1\\cdot(-1)=+4$, en dus $D=4+4$."
+        }
       ]
     },
     {
@@ -374,7 +454,8 @@
       ],
       "hints": [
         "Gebruik de discriminant 8.",
-        "Vereenvoudig de wortel."
+        "Vereenvoudig de wortel.",
+        "$\\sqrt8=2\\sqrt2$."
       ],
       "type": "multiple",
       "mode": "guided",
@@ -410,6 +491,12 @@
       "difficulty": 1,
       "topics": [
         "quadratic-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je hebt $x^2=-4$ gelezen als $x=\\pm2$. Maar een reëel kwadraat is nooit negatief, dus er is geen reële oplossing."
+        }
       ]
     },
     {
@@ -423,10 +510,16 @@
         "De discriminant is nul."
       ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
       "topics": [
         "quadratic-functions"
+      ],
+      "feedback": [
+        {
+          "answer": -3,
+          "message": "Controleer: $(-3)^2-6\\cdot(-3)+9=36\\ne0$. Uit $(x-3)^2=0$ volgt $x=3$."
+        }
       ]
     },
     {
@@ -440,10 +533,16 @@
         "c is negatief."
       ],
       "type": "numeric",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 1,
       "topics": [
         "quadratic-functions"
+      ],
+      "feedback": [
+        {
+          "answer": -31,
+          "message": "Je hebt $-4ac$ als $-40$ gerekend. Maar $a=2$ en $c=-5$: $-4\\cdot2\\cdot(-5)=+40$, dus $D=9+40$."
+        }
       ]
     },
     {
@@ -456,7 +555,7 @@
         "Gebruik D = 49."
       ],
       "type": "multiple",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
       "topics": [
         "quadratic-functions"
@@ -485,7 +584,7 @@
         "Vul aan met 9."
       ],
       "type": "multiple",
-      "mode": "guided",
+      "mode": "independent",
       "difficulty": 2,
       "topics": [
         "quadratic-functions"
@@ -548,7 +647,13 @@
       "topics": [
         "quadratic-functions"
       ],
-      "unit": "m²"
+      "unit": "m²",
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Dat is de breedte waarbij het maximum optreedt (de $x$ van de top). De vraag gaat over de oppervlakte zelf: de $y$-waarde van de top."
+        }
+      ]
     },
     {
       "id": "21-027",
@@ -567,7 +672,13 @@
       "topics": [
         "quadratic-functions"
       ],
-      "unit": "m"
+      "unit": "m",
+      "feedback": [
+        {
+          "answer": 25,
+          "message": "Dat is de maximale oppervlakte in $\\text{m}^2$. De vraag is bij welke breedte dat maximum optreedt."
+        }
+      ]
     },
     {
       "id": "21-028",
@@ -584,6 +695,12 @@
       "difficulty": 1,
       "topics": [
         "quadratic-functions"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Dat is de $x$-waarde van de top. De minimale functiewaarde is $q$, het getal achter het kwadraat."
+        }
       ]
     },
     {
@@ -602,6 +719,12 @@
       "difficulty": 2,
       "topics": [
         "quadratic-functions"
+      ],
+      "feedback": [
+        {
+          "answer": -9,
+          "message": "Een lengte kan niet negatief zijn. Hier is $x+2=7$ de enige bruikbare oplossing, dus $x=5$."
+        }
       ]
     },
     {
@@ -637,6 +760,283 @@
           "label": "oppervlakte (m²)",
           "answer": 72,
           "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "21-031",
+      "question": "Bereken $(-5)^2$.",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "hints": [
+        "Een negatief getal maal een negatief getal is positief."
+      ],
+      "solution": [
+        "$(-5)\\cdot(-5)=25$."
+      ],
+      "topics": [
+        "quadratic-functions"
+      ],
+      "answer": 25,
+      "feedback": [
+        {
+          "answer": -25,
+          "message": "Met haakjes is het kwadraat van $-5$ gelijk aan $(-5)\\cdot(-5)=25$. Alleen zonder haakjes ($-5^2$) staat er $-25$."
+        }
+      ]
+    },
+    {
+      "id": "21-032",
+      "question": "De parabool $y=ax^2$ gaat door het punt $(2;12)$. Bereken $a$.",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "hints": [
+        "Vul $x=2$ en $y=12$ in: $12=a\\cdot2^2$."
+      ],
+      "solution": [
+        "$12=a\\cdot4$, dus $a=3$."
+      ],
+      "topics": [
+        "quadratic-functions"
+      ],
+      "answer": 3,
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Je hebt door 2 gedeeld in plaats van door $2^2=4$."
+        }
+      ]
+    },
+    {
+      "id": "21-033",
+      "question": "Geef het snijpunt met de y-as van $f(x)=2x^2-5x-3$.",
+      "type": "coordinate",
+      "mode": "guided",
+      "difficulty": 1,
+      "hints": [
+        "Vul $x=0$ in."
+      ],
+      "solution": [
+        "$f(0)=-3$: het snijpunt is $(0;-3)$."
+      ],
+      "topics": [
+        "quadratic-functions"
+      ],
+      "answer": "(0;-3)",
+      "feedback": [
+        {
+          "answer": "(0;3)",
+          "message": "Het teken van $c$ moet je meenemen: $c=-3$."
+        }
+      ]
+    },
+    {
+      "id": "21-034",
+      "question": "Werk uit: $(x+3)^2$.",
+      "type": "expression",
+      "mode": "guided",
+      "difficulty": 1,
+      "hints": [
+        "Schrijf $(x+3)(x+3)$ en vermenigvuldig alle termen met elkaar."
+      ],
+      "solution": [
+        "$(x+3)(x+3)=x^2+3x+3x+9=x^2+6x+9$."
+      ],
+      "topics": [
+        "quadratic-functions"
+      ],
+      "answer": "x^2+6x+9",
+      "form": "expanded",
+      "feedback": [
+        {
+          "answer": "x^2+9",
+          "message": "De dubbele term ontbreekt. Test met $x=1$: $(1+3)^2=16$, maar $1^2+9=10$."
+        }
+      ]
+    },
+    {
+      "id": "21-035",
+      "question": "Splits het kwadraat af bij $f(x)=x^2+10x+3$ en geef de top.",
+      "type": "coordinate",
+      "mode": "independent",
+      "difficulty": 2,
+      "hints": [
+        "De helft van 10 is 5: $(x+5)^2=x^2+10x+25$.",
+        "Trek het teveel aan constante term er weer af."
+      ],
+      "solution": [
+        "$x^2+10x+3=(x+5)^2-25+3=(x+5)^2-22$.",
+        "De top is $(-5;-22)$."
+      ],
+      "topics": [
+        "quadratic-functions"
+      ],
+      "answer": "(-5;-22)",
+      "feedback": [
+        {
+          "answer": "(5;-22)",
+          "message": "Bij $(x+5)^2$ is $p=-5$: het tegengestelde van wat in de haakjes staat."
+        }
+      ]
+    },
+    {
+      "id": "21-036",
+      "question": "Een parabool heeft nulpunten $x=1$ en $x=7$. Bij welke $x$ ligt de top?",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "hints": [
+        "De top ligt op de symmetrie-as, midden tussen de nulpunten."
+      ],
+      "solution": [
+        "$(1+7)/2=4$."
+      ],
+      "topics": [
+        "quadratic-functions"
+      ],
+      "answer": 4,
+      "feedback": [
+        {
+          "answer": 8,
+          "message": "Je hebt de nulpunten opgeteld. Het midden is de som gedeeld door 2."
+        }
+      ]
+    },
+    {
+      "id": "21-037",
+      "question": "Voor welke waarde van $c$ heeft $x^2+6x+c=0$ precies één oplossing?",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "hints": [
+        "Eis $D=0$."
+      ],
+      "solution": [
+        "$D=36-4c=0$, dus $c=9$. Controle: $x^2+6x+9=(x+3)^2$."
+      ],
+      "topics": [
+        "quadratic-functions"
+      ],
+      "answer": 9,
+      "feedback": [
+        {
+          "answer": 36,
+          "message": "Je vergat de factor $4$: $D=b^2-4ac=36-4c$, dus $4c=36$."
+        }
+      ]
+    },
+    {
+      "id": "21-038",
+      "question": "Bereken de discriminant van $x^2+3x+5=0$.",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "hints": [
+        "Gebruik $a=1$, $b=3$, $c=5$."
+      ],
+      "solution": [
+        "$D=9-4\\cdot1\\cdot5=9-20=-11$: geen reële oplossingen."
+      ],
+      "topics": [
+        "quadratic-functions"
+      ],
+      "answer": -11,
+      "feedback": [
+        {
+          "answer": 29,
+          "message": "Je hebt $4ac$ opgeteld in plaats van afgetrokken. $D=b^2-4ac$."
+        }
+      ]
+    },
+    {
+      "id": "21-039",
+      "question": "Een bal wordt gegooid; zijn hoogte in meters is $h(t)=-5t^2+20t+1{,}5$ met $t$ in seconden. Na hoeveel seconden raakt de bal de grond? Rond af op twee decimalen.",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "hints": [
+        "Los $h(t)=0$ op met de abc-formule.",
+        "Een negatieve tijd past niet bij de situatie."
+      ],
+      "solution": [
+        "$D=20^2-4\\cdot(-5)\\cdot1{,}5=400+30=430$.",
+        "$t=\\dfrac{-20\\pm\\sqrt{430}}{-10}$, dus $t\\approx4{,}07$ of $t\\approx-0{,}07$.",
+        "Alleen $t\\approx4{,}07$ s past in de situatie."
+      ],
+      "topics": [
+        "quadratic-functions"
+      ],
+      "answer": 4.07,
+      "tolerance": 0.005,
+      "unit": "s",
+      "feedback": [
+        {
+          "answer": -0.07,
+          "message": "Dat is de tweede oplossing van de vergelijking, maar een negatieve tijd ligt vóór het gooien. Het contextdomein begint bij $t=0$."
+        }
+      ]
+    },
+    {
+      "id": "21-040",
+      "question": "Een winkel koopt een product in voor € 10 en verkoopt bij een prijs $p$ (in euro) per week $100-2p$ stuks. De winst is $W(p)=(p-10)(100-2p)$. Geef de prijs voor maximale winst, die maximale winst, en de hoogste prijs waarbij nog geen verlies wordt geleden.",
+      "type": "multiple",
+      "mode": "challenge",
+      "difficulty": 4,
+      "hints": [
+        "De winst is al in productvorm: lees de nulpunten af.",
+        "De top ligt midden tussen de nulpunten."
+      ],
+      "solution": [
+        "Nulpunten: $p=10$ en $p=50$.",
+        "De top ligt bij $p=30$ en $W(30)=20\\cdot40=800$.",
+        "Bij $p=50$ is de winst nul; daarboven verkoopt hij niets meer."
+      ],
+      "topics": [
+        "quadratic-functions"
+      ],
+      "parts": [
+        {
+          "label": "optimale prijs (€)",
+          "answer": 30,
+          "type": "numeric"
+        },
+        {
+          "label": "maximale winst (€)",
+          "answer": 800,
+          "type": "numeric"
+        },
+        {
+          "label": "hoogste prijs zonder verlies (€)",
+          "answer": 50,
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "id": "21-041",
+      "question": "Een parabool heeft nulpunten $x=1$ en $x=5$ en gaat door het punt $(2;3)$. Geef de formule van $y$ in standaardvorm (haakjes uitgewerkt).",
+      "type": "expression",
+      "mode": "challenge",
+      "difficulty": 4,
+      "hints": [
+        "Begin met de productvorm $y=a(x-1)(x-5)$.",
+        "Vul het punt $(2;3)$ in om $a$ te vinden."
+      ],
+      "solution": [
+        "$3=a(2-1)(2-5)=-3a$, dus $a=-1$.",
+        "$y=-(x-1)(x-5)=-(x^2-6x+5)=-x^2+6x-5$."
+      ],
+      "topics": [
+        "quadratic-functions"
+      ],
+      "answer": "-x^2+6x-5",
+      "form": "expanded",
+      "feedback": [
+        {
+          "answer": "x^2-6x+5",
+          "message": "Controleer het punt: bij $x=2$ geeft deze formule $-3$ in plaats van $3$. De parabool is een bergparabool: $a=-1$."
         }
       ]
     }

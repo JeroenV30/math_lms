@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" font-family="sans-serif">
+  <title>Een vierkant aanvullen: x² + 10x + 25 = (x + 5)²</title>
+  <rect width="400" height="240" fill="#ffffff"/>
+  <g stroke="#1f2933" stroke-width="1.5">
+    <rect x="100" y="20" width="60" height="60" fill="#edf2ff"/>
+    <rect x="160" y="20" width="100" height="60" fill="#f6ead8"/>
+    <rect x="100" y="80" width="60" height="100" fill="#f6ead8"/>
+    <rect x="160" y="80" width="100" height="100" fill="#ffffff" stroke-dasharray="5 4"/>
+  </g>
+  <g font-size="15" fill="#1f2933" text-anchor="middle">
+    <text x="130" y="55" fill="#3b5bdb">x²</text>
+    <text x="210" y="55">5x</text>
+    <text x="130" y="135">5x</text>
+    <text x="210" y="135" fill="#9c6b30">25</text>
+    <text x="130" y="14" font-size="13">x</text>
+    <text x="210" y="14" font-size="13">5</text>
+    <text x="85" y="55" font-size="13">x</text>
+    <text x="85" y="135" font-size="13">5</text>
+    <text x="180" y="210" font-size="14">(x + 5)² = 39 + 25 = 64</text>
+  </g>
+</svg>

@@ -7,7 +7,7 @@
   "status": "available",
   "historical_period": "Babylonië",
   "estimated_difficulty": 3,
-  "estimated_minutes": 190,
+  "estimated_minutes": 240,
   "prerequisites": [
     20
   ],
@@ -16,71 +16,91 @@
     "equations"
   ],
   "core_question": "Hoe beschrijf je een verband waarvan de verandering zelf verandert, en hoe vind je zijn nulpunten en uiterste waarde?",
-  "summary": "Parabolen in standaard-, top- en productvorm. Je lost kwadratische vergelijkingen op met ontbinden, kwadraat afsplitsen en de abc-formule.",
+  "summary": "Parabolen in standaard-, top- en productvorm. Je lost kwadratische vergelijkingen op met ontbinden, kwadraat afsplitsen en de abc-formule, en past dat toe op worpen, omheiningen en winst.",
   "learning_goals": [
-    "Je herkent een kwadratische functie met niet-nulcoëfficiënt bij x².",
-    "Je leest richting, symmetrieas en top uit passende vormen van de formule.",
-    "Je zet standaardvorm, topvorm en productvorm in elkaar om.",
-    "Je lost kwadratische vergelijkingen op met de nulproductregel, worteltrekken of de abc-formule.",
+    "Je herkent een kwadratische functie en verklaart waarom de verandering van de verandering constant is.",
+    "Je leest richting, symmetrie-as, top en snijpunt met de y-as uit de formule.",
+    "Je zet standaardvorm, topvorm en productvorm in elkaar om, onder meer door het kwadraat af te splitsen.",
+    "Je lost kwadratische vergelijkingen op met de nulproductregel, worteltrekken, kwadraat afsplitsen en de abc-formule.",
     "Je gebruikt de discriminant om het aantal verschillende reële oplossingen te bepalen.",
-    "Je berekent snijpunten met een lijn door een kwadratische vergelijking op te stellen.",
-    "Je interpreteert extrema en wortels binnen een contextdomein."
+    "Je berekent snijpunten van een lijn en een parabool door een kwadratische vergelijking op te stellen.",
+    "Je interpreteert maxima, minima en wortels binnen het domein van een context (worp, omheining, winst).",
+    "Je herkent en vermijdt typische fouten: (x + 3)² = x² + 9, x² = 9 met alleen x = 3, tekenfouten in −b/2a en in de discriminant, en het vergeten van x = 0."
   ],
   "glossary": [
     {
+      "term": "Kwadratische functie",
+      "definition": "Een functie f(x) = ax² + bx + c met a ≠ 0."
+    },
+    {
       "term": "Parabool",
-      "definition": "De grafiek van een kwadratische functie y = ax²+bx+c met a ≠ 0."
+      "definition": "De grafiek van een kwadratische functie: een dalparabool bij a > 0, een bergparabool bij a < 0."
     },
     {
       "term": "Top",
       "definition": "Het laagste punt bij a > 0 of het hoogste punt bij a < 0."
     },
     {
-      "term": "Symmetrieas",
-      "definition": "De verticale lijn door de top die de parabool in spiegelbeelden verdeelt."
+      "term": "Symmetrie-as",
+      "definition": "De verticale lijn x = −b/2a door de top; de parabool is er een spiegelbeeld in."
+    },
+    {
+      "term": "Topvorm",
+      "definition": "De schrijfwijze y = a(x − p)² + q, waaruit je de top (p; q) direct afleest."
     },
     {
       "term": "Nulproductregel",
       "definition": "Een product is nul dan en slechts dan als minstens één factor nul is."
     },
     {
+      "term": "Kwadraat afsplitsen",
+      "definition": "Een kwadratische expressie herschrijven als een kwadraat van een som plus een constante."
+    },
+    {
       "term": "Discriminant",
-      "definition": "Het getal D = b²-4ac dat bij de abc-formule het aantal reële wortels bepaalt."
+      "definition": "Het getal D = b² − 4ac dat bepaalt hoeveel reële oplossingen ax² + bx + c = 0 heeft."
     },
     {
       "term": "Dubbele wortel",
-      "definition": "Een herhaald nulpunt: de parabool raakt de x-as in de top."
-    },
-    {
-      "term": "Kwadraat afsplitsen",
-      "definition": "Een kwadratische expressie herschrijven met een kwadraat van een som en een constante."
+      "definition": "Een nulpunt dat twee keer meetelt (D = 0): de parabool raakt de x-as in de top."
     }
   ],
   "formulas": [
     {
       "name": "Standaardvorm",
       "latex": "f(x)=ax^2+bx+c\\quad(a\\ne0)",
-      "usage": "Handig om coëfficiënten af te lezen."
+      "usage": "Handig om a en het snijpunt (0; c) met de y-as af te lezen.",
+      "origin": "De algemene schrijfwijze, mogelijk gemaakt door de letters voor coëfficiënten van Descartes (1637)."
     },
     {
       "name": "Topvorm",
-      "latex": "f(x)=a(x-h)^2+k",
-      "usage": "Top (h; k), symmetrieas x = h."
+      "latex": "f(x)=a(x-p)^2+q",
+      "usage": "Top (p; q), symmetrie-as x = p; q is minimum bij a > 0 en maximum bij a < 0.",
+      "origin": "Volgt uit het aanvullen van het vierkant, de meetkundige methode van al-Khwarizmi (ca. 820)."
     },
     {
       "name": "Top in standaardvorm",
-      "latex": "h=-\\frac{b}{2a},\\qquad k=f(h)",
-      "usage": "Vul de topinvoer in om haar hoogte te bepalen."
+      "latex": "p=-\\frac{b}{2a},\\qquad q=f(p)",
+      "usage": "Reken eerst de x-coördinaat van de top uit en vul die in om q te vinden.",
+      "origin": "De top ligt midden tussen de punten (0; c) en (−b/a; c) die even hoog liggen."
+    },
+    {
+      "name": "Productvorm",
+      "latex": "f(x)=a(x-x_1)(x-x_2)",
+      "usage": "Bij reële nulpunten x₁ en x₂; deze kunnen samenvallen. De top ligt midden tussen de nulpunten.",
+      "origin": "Berust op de nulproductregel."
+    },
+    {
+      "name": "Discriminant",
+      "latex": "D=b^2-4ac",
+      "usage": "D > 0: twee, D = 0: één, D < 0: geen reële oplossingen.",
+      "origin": "De term werd in 1851 ingevoerd door J.J. Sylvester."
     },
     {
       "name": "Abc-formule",
       "latex": "x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}",
-      "usage": "Voor ax²+bx+c=0 met a ≠ 0; reële wortels vragen D ≥ 0."
-    },
-    {
-      "name": "Productvorm",
-      "latex": "f(x)=a(x-r_1)(x-r_2)",
-      "usage": "Bij reële nulpunten r₁ en r₂; deze kunnen samenvallen."
+      "usage": "Voor ax² + bx + c = 0 met a ≠ 0; reële oplossingen vragen D ≥ 0.",
+      "origin": "Algemene vorm van het aanvullen van het vierkant; recepten ervoor staan al op Babylonische tabletten."
     }
   ],
   "lessons": [
@@ -92,7 +112,7 @@
     },
     {
       "slug": "parabool",
-      "title": "De vorm en de top",
+      "title": "De parabool en zijn top",
       "kind": "theory",
       "file": "02-parabool.md"
     },
@@ -110,7 +130,7 @@
     },
     {
       "slug": "abc-formule",
-      "title": "Een algemene methode",
+      "title": "De abc-formule en de discriminant",
       "kind": "theory",
       "file": "05-abc-formule.md"
     },
@@ -135,9 +155,14 @@
   ],
   "timeline": [
     "mesopotamische-getallen",
-    "al-khwarizmi"
+    "babylonische-algebra",
+    "al-khwarizmi",
+    "brahmagupta",
+    "descartes-geometrie"
   ],
   "mathematicians": [
-    "al-khwarizmi"
+    "al-khwarizmi",
+    "brahmagupta",
+    "descartes"
   ]
 }

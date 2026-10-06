@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" font-family="sans-serif">
+  <title>Vierkanten met zijde 1 tot en met 4 en hun L-vormige randen</title>
+  <rect width="640" height="220" fill="#ffffff"/>
+  <!-- eenheid 30px, basislijn y=170 -->
+  <g stroke="#1f2933" stroke-width="1.5">
+    <rect x="20" y="140" width="30" height="30" fill="#edf2ff"/>
+    <rect x="110" y="110" width="60" height="60" fill="#edf2ff"/>
+    <rect x="110" y="140" width="30" height="30" fill="#3b5bdb" fill-opacity="0.35"/>
+    <rect x="230" y="80" width="90" height="90" fill="#edf2ff"/>
+    <rect x="230" y="110" width="60" height="60" fill="#3b5bdb" fill-opacity="0.35"/>
+    <rect x="390" y="50" width="120" height="120" fill="#edf2ff"/>
+    <rect x="390" y="80" width="90" height="90" fill="#3b5bdb" fill-opacity="0.35"/>
+  </g>
+  <g font-size="14" fill="#1f2933" text-anchor="middle">
+    <text x="35" y="190">1</text>
+    <text x="140" y="190">4</text>
+    <text x="275" y="190">9</text>
+    <text x="450" y="190">16</text>
+    <text x="35" y="208" font-size="12">zijde 1</text>
+    <text x="140" y="208" font-size="12">zijde 2, rand 3</text>
+    <text x="275" y="208" font-size="12">zijde 3, rand 5</text>
+    <text x="450" y="208" font-size="12">zijde 4, rand 7</text>
+  </g>
+</svg>

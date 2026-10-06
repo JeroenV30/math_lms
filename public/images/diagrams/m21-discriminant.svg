@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" font-family="sans-serif">
+  <title>Drie parabolen en de x-as: D groter dan, gelijk aan en kleiner dan nul</title>
+  <rect width="660" height="220" fill="#ffffff"/>
+  <g stroke="#1f2933" stroke-width="1.5" fill="none">
+    <line x1="10" y1="140" x2="210" y2="140"/>
+    <line x1="230" y1="140" x2="430" y2="140"/>
+    <line x1="450" y1="140" x2="650" y2="140"/>
+  </g>
+  <g stroke="#3b5bdb" stroke-width="2.5" fill="none">
+    <path d="M40,40 Q110,300 180,40"/>
+    <path d="M260,40 Q330,240 400,40" transform="translate(0,0)"/>
+    <path d="M480,50 Q550,130 620,50" transform="translate(0,0) translate(0,0)"/>
+  </g>
+  <g fill="#9c6b30">
+    <circle cx="77" cy="140" r="5"/><circle cx="143" cy="140" r="5"/>
+    <circle cx="330" cy="140" r="5"/>
+  </g>
+  <g font-size="14" fill="#1f2933" text-anchor="middle">
+    <text x="110" y="185">D &gt; 0</text><text x="110" y="205" font-size="12">twee nulpunten</text>
+    <text x="330" y="185">D = 0</text><text x="330" y="205" font-size="12">één nulpunt (top)</text>
+    <text x="550" y="185">D &lt; 0</text><text x="550" y="205" font-size="12">geen nulpunt</text>
+  </g>
+</svg>
