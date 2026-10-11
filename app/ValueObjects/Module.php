@@ -58,7 +58,7 @@ final readonly class Module
                 ->values()
                 ->map(fn (array $lesson, int $i) => Lesson::fromArray($id, $i + 1, $lesson)),
             timeline: $data['timeline'] ?? [],
-            mathematicians: $data['mathematicians'] ?? [],
+            mathematicians: $data['people'] ?? $data['mathematicians'] ?? [],
         );
     }
 

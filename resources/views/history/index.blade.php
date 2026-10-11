@@ -2,9 +2,11 @@
 
 @inject('markdown', 'App\Services\MarkdownRenderer')
 
+@inject('course', 'App\Services\ContentService')
+
 @section('content')
-    <x-page-header eyebrow="Historische tijdlijn" eyebrow-class="text-history" title="Wiskunde door de eeuwen"
-                   intro="Van kerven in een bot tot statistische modellen. Elke gebeurtenis linkt naar de modules waarin je die wiskunde zelf leert." />
+    @php $page = $course->page('timeline'); @endphp
+    <x-page-header :eyebrow="$page['eyebrow']" :title="$page['title']" :intro="$page['intro']" eyebrow-class="text-history" />
 
     <div class="container-page mt-10 *:max-w-4xl">
         @if ($eras->isEmpty())

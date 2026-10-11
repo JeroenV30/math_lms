@@ -45,6 +45,37 @@ class ContentService
         return $this->course()['title'] ?? config('app.name');
     }
 
+    /** Standaardkoppen van de cursuspagina's; course.json → pages vult ze per cursus aan. */
+    private const PAGE_DEFAULTS = [
+        'course' => ['eyebrow' => 'Cursusoverzicht', 'title' => null, 'intro' => 'Je mag altijd vooruit bladeren: voorkennis wordt aangeraden, nooit afgedwongen.'],
+        'timeline' => ['eyebrow' => 'Historische tijdlijn', 'title' => 'Door de eeuwen', 'intro' => 'Elke gebeurtenis linkt naar de modules waarin je die zelf bestudeert.'],
+        'people' => ['eyebrow' => 'Personen', 'title' => 'De mensen achter het vak', 'intro' => 'Elk profiel verwijst naar de lessen waarin hun werk terugkomt.'],
+        'formulas' => ['eyebrow' => 'Formulebibliotheek', 'title' => 'Formules met betekenis', 'intro' => 'Bij elke formule staat waarvoor je hem gebruikt en waar hij vandaan komt.'],
+        'search' => ['eyebrow' => 'Bibliotheek', 'title' => 'Zoeken', 'intro' => null, 'placeholder' => 'Zoek in lessen, begrippen en personen…'],
+        'progress' => ['eyebrow' => 'Persoonlijke leerdata', 'title' => 'Voortgang', 'intro' => 'Je eigen dataset: wat je hebt geoefend, hoe vaak het lukte en waar je sterk in bent.'],
+    ];
+
+    /** Standaardnamen; course.json → labels vult ze per cursus aan (bijv. Wiskundige/Wiskundigen). */
+    private const LABEL_DEFAULTS = ['person' => 'Persoon', 'people' => 'Personen'];
+
+    /**
+     * Kop van een cursuspagina (course, timeline, people, formulas, search, progress).
+     *
+     * @return array{eyebrow: string, title: string, intro: ?string}
+     */
+    public function page(string $key): array
+    {
+        $page = [...self::PAGE_DEFAULTS[$key] ?? [], ...$this->course()['pages'][$key] ?? []];
+        $page['title'] ??= $this->title();
+
+        return $page + ['eyebrow' => '', 'intro' => null];
+    }
+
+    public function label(string $key): string
+    {
+        return $this->course()['labels'][$key] ?? self::LABEL_DEFAULTS[$key] ?? $key;
+    }
+
     /**
      * Delen (I–VII) met hun modules.
      *
@@ -195,7 +226,10 @@ class ContentService
 
     public function mathematicians(): Collection
     {
-        $this->mathematicians ??= $this->readOptionalJson($this->path.'/history/mathematicians.json')['mathematicians'] ?? [];
+        // Personen van de cursus: history/people.json, of (wiskunde) history/mathematicians.json.
+        $this->mathematicians ??= $this->readOptionalJson($this->path.'/history/people.json')['people']
+            ?? $this->readOptionalJson($this->path.'/history/mathematicians.json')['mathematicians']
+            ?? [];
 
         return collect($this->mathematicians)->sortBy('sort_year')->values();
     }

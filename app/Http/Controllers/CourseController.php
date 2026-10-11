@@ -12,7 +12,6 @@ class CourseController extends Controller
     public function index(ContentService $content, ProgressService $progress): View
     {
         return view('course.index', [
-            'course' => $content->course(),
             'parts' => $content->parts(),
             'moduleProgress' => $progress->all(),
             'lessonsDone' => LessonProgress::query()

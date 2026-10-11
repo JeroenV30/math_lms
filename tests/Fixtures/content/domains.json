@@ -2,9 +2,10 @@
   "app": { "name": "Testomgeving", "tagline": "Ontdekken · Begrijpen" },
   "title": "Kaart van menselijke kennis",
   "subtitle": "Testdomeinen",
-  "intro": "Twee domeinen voor de tests.",
+  "intro": "Drie domeinen voor de tests.",
   "domains": [
     { "id": "wiskunde", "name": "Wiskunde", "tagline": ["Getallen", "Structuren", "Logica"], "monogram": "π", "color": "#3b5bdb", "status": "available", "description": "De testcursus.", "planned_parts": [] },
+    { "id": "geschiedenis", "name": "Geschiedenis", "tagline": ["Mensen", "Gebeurtenissen", "Verandering"], "monogram": "Ge", "color": "#9c6b30", "status": "available", "description": "De tweede testcursus.", "planned_parts": [] },
     { "id": "biologie", "name": "Biologie", "tagline": ["Leven", "Organismen", "Ecosystemen"], "monogram": "Bi", "color": "#2f9e44", "status": "planned", "description": "Wat is leven?", "planned_parts": ["De cel", "Evolutie"] }
   ]
 }

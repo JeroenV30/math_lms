@@ -1,10 +1,13 @@
 @extends('layouts.app', ['title' => $query !== '' ? 'Zoeken: '.$query : 'Zoeken'])
 
+@inject('course', 'App\Services\ContentService')
+
 @section('content')
-    <x-page-header eyebrow="Bibliotheek" title="Zoeken">
+    @php $page = $course->page('search'); @endphp
+    <x-page-header :eyebrow="$page['eyebrow']" :title="$page['title']">
         <form action="{{ route('search') }}" method="get" class="mt-5 flex max-w-2xl gap-2" role="search">
             <label for="q" class="sr-only">Zoekterm</label>
-            <input id="q" type="search" name="q" value="{{ $query }}" class="input text-lg" placeholder="Pythagoras, breuken, Newton…" autofocus>
+            <input id="q" type="search" name="q" value="{{ $query }}" class="input text-lg" placeholder="{{ $page['placeholder'] }}" autofocus>
             <button class="btn btn-primary">Zoek</button>
         </form>
     </x-page-header>

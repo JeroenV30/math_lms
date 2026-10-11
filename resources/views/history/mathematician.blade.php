@@ -2,12 +2,14 @@
 
 @inject('markdown', 'App\Services\MarkdownRenderer')
 
+@inject('course', 'App\Services\ContentService')
+
 @section('content')
     <x-page-header eyebrow-class="text-history"
                    :eyebrow="($person['lived'] ?? '').(! empty($person['region']) ? ' · '.$person['region'] : '')"
                    :title="$person['full_name'] ?? $person['name']"
                    :intro="$person['known_for'] ?? null"
-                   :crumbs="[['label' => 'Wiskundigen', 'url' => route('mathematicians.index')]]">
+                   :crumbs="[['label' => $course->label('people'), 'url' => route('mathematicians.index')]]">
         @if (! empty($person['image']))
             <x-slot:leading>
                 <img src="{{ $person['image'] }}" alt="Portret van {{ $person['name'] }}" class="h-36 w-28 shrink-0 rounded-lg object-cover">
@@ -57,7 +59,7 @@
                 </div>
             @endif
             <div>
-                <p class="eyebrow">Andere wiskundigen</p>
+                <p class="eyebrow">Andere {{ mb_strtolower($course->label('people')) }}</p>
                 <ul class="mt-3 flex flex-wrap gap-2">
                     @foreach ($others->where('id', '!=', $person['id']) as $other)
                         <li><a href="{{ route('mathematicians.show', $other['id']) }}" class="badge hover:border-history hover:text-history">{{ $other['name'] }}</a></li>

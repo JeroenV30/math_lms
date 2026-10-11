@@ -4,6 +4,7 @@ namespace Tests\Feature;
 
 use App\Services\DomainService;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Support\Facades\DB;
 use Tests\TestCase;
 
 class DomainTest extends TestCase
@@ -185,6 +186,49 @@ class DomainTest extends TestCase
 
         $this->assertDatabaseHas('lesson_progress', ['course' => 'wiskunde', 'module_id' => 1, 'lesson_slug' => 'introductie']);
         $this->assertDatabaseHas('module_progress', ['course' => 'wiskunde', 'module_id' => 1]);
+
+        // Module 1 van geschiedenis is een andere module dan module 1 van wiskunde.
+        $this->get('/kennis/geschiedenis/cursus/bronnen')->assertOk()->assertSee('Een brief uit Leiden');
+        $this->assertDatabaseMissing('lesson_progress', ['course' => 'geschiedenis']);
+
+        $this->post('/kennis/geschiedenis/cursus/bronnen/les/introductie/gelezen')
+            ->assertRedirect('/kennis/geschiedenis/cursus/bronnen');
+        $this->assertDatabaseHas('lesson_progress', ['course' => 'geschiedenis', 'module_id' => 1, 'lesson_slug' => 'introductie']);
+        $this->assertSame(1, DB::table('lesson_progress')->where('course', 'wiskunde')->count());
+    }
+
+    public function test_second_course_gets_its_own_menu_labels_and_exercises(): void
+    {
+        $this->useFixtureContent();
+
+        // Menu volgt de cursus: personen heten hier historici; zonder tijdlijn of formules geen links daarheen.
+        $this->get('/kennis/geschiedenis')
+            ->assertOk()
+            ->assertSee('aria-label="Menu Geschiedenis"', false)
+            ->assertSee('href="'.url('/kennis/geschiedenis/personen').'"', false)
+            ->assertSee('Historici')
+            ->assertDontSee('href="'.url('/kennis/geschiedenis/tijdlijn').'"', false)
+            ->assertDontSee('Formulebibliotheek')
+            ->assertSee('Werken met bronnen');
+
+        $this->get('/kennis/geschiedenis/personen')
+            ->assertOk()
+            ->assertSee('De mensen achter de geschiedschrijving')
+            ->assertSee('Herodotus');
+        $this->get('/kennis/geschiedenis/personen/herodotus')->assertOk()->assertSee('Historici');
+
+        // De lessen tonen leerdoelen, begrippen en oefeningen van de eigen cursus.
+        $this->get('/kennis/geschiedenis/cursus/bronnen/les/introductie')
+            ->assertOk()
+            ->assertSee('Je kunt primaire en secundaire bronnen onderscheiden.')
+            ->assertSee('Primaire bron')
+            ->assertSee('Waarom is een brief uit 1574');
+
+        $this->postJson('/kennis/geschiedenis/oefening/01-001/controleer', [
+            'answer' => 'De brief is in 1574 tijdens het beleg zelf geschreven, dus in de onderzochte tijd.',
+        ])->assertOk()->assertJson(['correct' => true]);
+        $this->assertDatabaseHas('exercise_attempts', ['course' => 'geschiedenis', 'exercise_id' => '01-001']);
+        $this->assertDatabaseMissing('exercise_attempts', ['course' => 'wiskunde']);
     }
 
     public function test_real_domain_file_is_complete(): void

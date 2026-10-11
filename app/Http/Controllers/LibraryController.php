@@ -65,7 +65,7 @@ class LibraryController extends Controller
                 ->concat($content->mathematicians()
                     ->filter(fn (array $p) => $matches($p['name']) || $matches($p['full_name'] ?? null) || $matches($p['known_for'] ?? null))
                     ->map(fn (array $p) => [
-                        'type' => 'Wiskundige',
+                        'type' => $content->label('person'),
                         'title' => $p['name'],
                         'excerpt' => $p['known_for'] ?? null,
                         'url' => route('mathematicians.show', $p['id']),

@@ -1,8 +1,10 @@
-@extends('layouts.app', ['title' => 'Wiskundigen'])
+@extends('layouts.app', ['title' => app(\App\Services\ContentService::class)->label('people')])
+
+@inject('course', 'App\Services\ContentService')
 
 @section('content')
-    <x-page-header eyebrow="Wiskundigenbibliotheek" eyebrow-class="text-history" title="De mensen achter de wiskunde"
-                   intro="Schrijvers, rekenmeesters, astronomen en statistici. Elk profiel verwijst naar de lessen waarin hun werk terugkomt." />
+    @php $page = $course->page('people'); @endphp
+    <x-page-header :eyebrow="$page['eyebrow']" :title="$page['title']" :intro="$page['intro']" eyebrow-class="text-history" />
 
     <div class="container-page mt-10">
         @if ($mathematicians->isEmpty())

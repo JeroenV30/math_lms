@@ -72,7 +72,7 @@ class ContentValidator
         $people = $this->content->mathematicians()->pluck('id')->all();
         $seenIds = [];
 
-        foreach (['course.json', 'history/timeline.json', 'history/mathematicians.json'] as $file) {
+        foreach (['course.json', 'history/timeline.json', 'history/people.json', 'history/mathematicians.json'] as $file) {
             $this->checkLanguageInJson($this->content->path().'/'.$file, $prefix.$file);
         }
 
@@ -96,7 +96,7 @@ class ContentValidator
             }
 
             foreach ($module->mathematicians as $id) {
-                $this->warnUnless($people === [] || in_array($id, $people, true), "{$where}: wiskundige '{$id}' bestaat (nog) niet.");
+                $this->warnUnless($people === [] || in_array($id, $people, true), "{$where}: persoon '{$id}' bestaat (nog) niet.");
             }
 
             $placed = $this->validateLessons($module, $where);

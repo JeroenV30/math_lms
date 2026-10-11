@@ -1,8 +1,10 @@
 @extends('layouts.app', ['title' => 'Voortgang'])
 
+@inject('course', 'App\Services\ContentService')
+
 @section('content')
-    <x-page-header eyebrow="Persoonlijke leerdata" title="Voortgang"
-                   intro="Je eigen dataset. In deel VII leer je hoe je zulke gegevens statistisch analyseert." />
+    @php $page = $course->page('progress'); @endphp
+    <x-page-header :eyebrow="$page['eyebrow']" :title="$page['title']" :intro="$page['intro']" />
 
     <div class="container-page mt-10 grid grid-cols-[minmax(0,1fr)] gap-6 lg:grid-cols-4">
         <div class="card p-5">

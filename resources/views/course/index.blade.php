@@ -1,8 +1,10 @@
 @extends('layouts.app', ['title' => 'Cursusoverzicht'])
 
+@inject('course', 'App\Services\ContentService')
+
 @section('content')
-    <x-page-header eyebrow="Cursusoverzicht" title="Van kerfstok tot Bayes"
-                   intro="42 modules in zeven delen. Je mag altijd vooruit bladeren: voorkennis wordt aangeraden, nooit afgedwongen.">
+    @php $page = $course->page('course'); @endphp
+    <x-page-header :eyebrow="$page['eyebrow']" :title="$page['title']" :intro="$page['intro']">
         <ul class="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted" aria-label="Legenda">
             <li class="flex items-center gap-2"><x-status-icon status="completed" /> afgerond</li>
             <li class="flex items-center gap-2"><x-status-icon status="started" /> bezig</li>

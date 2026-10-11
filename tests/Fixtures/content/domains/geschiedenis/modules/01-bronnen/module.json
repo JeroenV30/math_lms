@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "slug": "bronnen",
+  "title": "Werken met bronnen",
+  "part": 1,
+  "level": "fundamenten",
+  "status": "available",
+  "historical_period": "Vroegmoderne tijd",
+  "estimated_difficulty": 1,
+  "estimated_minutes": 30,
+  "prerequisites": [],
+  "topics": ["sources"],
+  "core_question": "Hoe weten we wat er gebeurd is?",
+  "summary": "Testmodule over bronnen.",
+  "learning_goals": ["Je kunt primaire en secundaire bronnen onderscheiden."],
+  "glossary": [{ "term": "Primaire bron", "definition": "Een bron uit de tijd die je onderzoekt." }],
+  "lessons": [
+    { "slug": "introductie", "title": "Een brief uit Leiden", "file": "01-introductie.md", "kind": "intro" }
+  ],
+  "people": ["herodotus"]
+}

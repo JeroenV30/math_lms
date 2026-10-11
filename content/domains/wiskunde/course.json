@@ -1,6 +1,34 @@
 {
   "title": "Rekenen & Wiskunde",
   "subtitle": "Van kerfstok tot Bayes: rekenen en wiskunde opnieuw opgebouwd, met de geschiedenis als leidraad.",
+  "labels": {
+    "person": "Wiskundige",
+    "people": "Wiskundigen"
+  },
+  "pages": {
+    "course": {
+      "title": "Van kerfstok tot Bayes",
+      "intro": "42 modules in zeven delen. Je mag altijd vooruit bladeren: voorkennis wordt aangeraden, nooit afgedwongen."
+    },
+    "timeline": {
+      "title": "Wiskunde door de eeuwen",
+      "intro": "Van kerven in een bot tot statistische modellen. Elke gebeurtenis linkt naar de modules waarin je die wiskunde zelf leert."
+    },
+    "people": {
+      "eyebrow": "Wiskundigenbibliotheek",
+      "title": "De mensen achter de wiskunde",
+      "intro": "Schrijvers, rekenmeesters, astronomen en statistici. Elk profiel verwijst naar de lessen waarin hun werk terugkomt."
+    },
+    "formulas": {
+      "intro": "Geen spiekbriefje: bij elke formule staat waarvoor je hem gebruikt en waar hij vandaan komt."
+    },
+    "progress": {
+      "intro": "Je eigen dataset. In deel VII leer je hoe je zulke gegevens statistisch analyseert."
+    },
+    "search": {
+      "placeholder": "Pythagoras, breuken, Newton…"
+    }
+  },
   "parts": [
     {
       "number": 1,

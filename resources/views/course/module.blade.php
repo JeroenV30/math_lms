@@ -2,6 +2,8 @@
 
 @inject('markdown', 'App\Services\MarkdownRenderer')
 
+@inject('course', 'App\Services\ContentService')
+
 @section('content')
     @php
         $available = $module->isAvailable();
@@ -143,7 +145,7 @@
                         @endforeach
                     </ul>
                     @if ($mathematicians->isNotEmpty())
-                        <p class="eyebrow mt-5 text-history">Wiskundigen</p>
+                        <p class="eyebrow mt-5 text-history">{{ $course->label('people') }}</p>
                         <ul class="mt-2 flex flex-wrap gap-2">
                             @foreach ($mathematicians as $person)
                                 <li><a href="{{ route('mathematicians.show', $person['id']) }}" class="badge border-history-line bg-paper text-history hover:border-history">{{ $person['name'] }}</a></li>

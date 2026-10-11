@@ -26,26 +26,28 @@
         $activeDomain = app(\App\Services\DomainService::class)->activeId();
         $currentDomain = $activeDomain ? $knowledgeDomains->firstWhere('id', $activeDomain) : null;
 
-        // Menu per domein. Een domein zonder eigen menu (nog in voorbereiding) krijgt alleen de algemene onderdelen.
-        $domainMenus = [
-            'wiskunde' => [
+        // Menu van het domein: een domein met een cursus krijgt de cursusonderdelen die de cursus heeft;
+        // een domein in voorbereiding alleen de algemene onderdelen.
+        $menu = ['search' => false, 'nav' => [], 'library' => []];
+        if (app(\App\Services\CourseRegistry::class)->currentId() !== null) {
+            $course = app(\App\Services\ContentService::class);
+            $menu = [
                 'search' => true,
-                'nav' => [
+                'nav' => array_values(array_filter([
                     ['route' => 'domains.show', 'label' => 'Dashboard', 'match' => 'domains.show'],
                     ['route' => 'course.index', 'label' => 'Cursus', 'match' => 'course.*|module.*|lesson.*|quiz.*'],
                     ['route' => 'practice.index', 'label' => 'Oefenen', 'match' => 'practice.*'],
                     ['route' => 'review.index', 'label' => 'Herhalen', 'match' => 'review.*', 'badge' => $reviewCount],
-                    ['route' => 'history.index', 'label' => 'Tijdlijn', 'match' => 'history.*'],
-                    ['route' => 'mathematicians.index', 'label' => 'Wiskundigen', 'match' => 'mathematicians.*'],
+                    $course->timeline()->isNotEmpty() ? ['route' => 'history.index', 'label' => 'Tijdlijn', 'match' => 'history.*'] : null,
+                    $course->mathematicians()->isNotEmpty() ? ['route' => 'mathematicians.index', 'label' => $course->label('people'), 'match' => 'mathematicians.*'] : null,
                     ['route' => 'progress.index', 'label' => 'Voortgang', 'match' => 'progress.*'],
-                ],
-                'library' => [
-                    ['route' => 'glossary', 'label' => 'Woordenlijst'],
-                    ['route' => 'formulas', 'label' => 'Formulebibliotheek'],
-                ],
-            ],
-        ];
-        $menu = $domainMenus[$activeDomain] ?? ['search' => false, 'nav' => [], 'library' => []];
+                ])),
+                'library' => array_values(array_filter([
+                    $course->glossary()->isNotEmpty() ? ['route' => 'glossary', 'label' => 'Woordenlijst'] : null,
+                    $course->formulas()->isNotEmpty() ? ['route' => 'formulas', 'label' => 'Formulebibliotheek'] : null,
+                ])),
+            ];
+        }
         $general = [
             ['route' => 'domains.index', 'label' => 'Kaart van kennis'],
             ['route' => 'settings.edit', 'label' => 'Instellingen'],

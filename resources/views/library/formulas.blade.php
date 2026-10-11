@@ -2,9 +2,11 @@
 
 @inject('markdown', 'App\Services\MarkdownRenderer')
 
+@inject('course', 'App\Services\ContentService')
+
 @section('content')
-    <x-page-header eyebrow="Formulebibliotheek" title="Formules met betekenis"
-                   intro="Geen spiekbriefje: bij elke formule staat waarvoor je hem gebruikt en waar hij vandaan komt." />
+    @php $page = $course->page('formulas'); @endphp
+    <x-page-header :eyebrow="$page['eyebrow']" :title="$page['title']" :intro="$page['intro']" />
 
     <div class="container-page mt-10 pb-6 *:max-w-4xl">
         @if ($formulas->isEmpty())
