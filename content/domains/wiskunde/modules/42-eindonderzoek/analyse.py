@@ -1,7 +1,7 @@
 """Reproduceer het eindonderzoek met alleen de Python-standaardbibliotheek.
 
 Gebruik vanuit de projectmap:
-    python content/modules/42-eindonderzoek/analyse.py
+    python content/domains/wiskunde/modules/42-eindonderzoek/analyse.py
 Optioneel: --json voor machineleesbare uitkomsten, --data pad/naar/dataset.csv.
 Dit script leest de dataset; het wijzigt geen bestanden of leergegevens.
 """

@@ -3,6 +3,7 @@
 namespace Tests;
 
 use App\Services\ContentService;
+use App\Services\CourseRegistry;
 use App\Services\DomainService;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 
@@ -16,6 +17,7 @@ abstract class TestCase extends BaseTestCase
     {
         config(['course.content_path' => __DIR__.'/Fixtures/content']);
         $this->app->forgetInstance(ContentService::class);
+        $this->app->forgetInstance(CourseRegistry::class);
         $this->app->forgetInstance(DomainService::class);
     }
 }

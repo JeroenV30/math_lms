@@ -106,8 +106,8 @@ omvang geen ontwerp vervangt. Elk van deze stappen vind je terug in de vorige le
 Als je ooit een enquête met veel antwoorden ziet, stel dan niet alleen de vraag *hoeveel*
 mensen hebben gereageerd, maar vooral *wie*.
 
-Bekijk [Gosset op de tijdlijn](/history) en het profiel van
-[Neyman](/mathematicians/neyman).
+Bekijk [Gosset op de tijdlijn](/kennis/wiskunde/tijdlijn) en het profiel van
+[Neyman](/kennis/wiskunde/personen/neyman).
 
 ## Bronnen
 

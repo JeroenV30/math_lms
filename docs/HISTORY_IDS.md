@@ -1,8 +1,8 @@
 # Vaste id's voor tijdlijn en wiskundigen
 
 Modules verwijzen in `module.json → timeline / mathematicians` naar deze id's.
-Deze lijst wordt gegenereerd uit `content/history/timeline.json` en
-`content/history/mathematicians.json`; nieuwe gebeurtenissen voeg je daar toe.
+Deze lijst wordt gegenereerd uit `content/domains/wiskunde/history/timeline.json` en
+`content/domains/wiskunde/history/mathematicians.json`; nieuwe gebeurtenissen voeg je daar toe.
 
 ## Tijdlijn (`timeline`)
 

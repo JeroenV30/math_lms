@@ -24,7 +24,7 @@ Vraag formuleren → herkomst en codeboek begrijpen → datakwaliteit controlere
 
 De hoofdstuktoets controleert rekenkundige kernvaardigheden uit het onderzoek. Een behaalde toets betekent dat je die vragen correct kunt berekenen. Zij bewijst niet dat je onderzoeksrapport inhoudelijk goed is; gebruik daarvoor de rubric uit les 7 (de slotopdracht) en vergelijk je redenering met de modelantwoorden.
 
-Je kunt eerdere onderwerpen blijven oefenen via [Oefenen](/practice) en [Herhalen](/review). Gebruik de [formulebibliotheek](/formulas) om een regel aan haar betekenis te koppelen en de [woordenlijst](/glossary) wanneer een begrip onduidelijk blijft.
+Je kunt eerdere onderwerpen blijven oefenen via [Oefenen](/kennis/wiskunde/oefenen) en [Herhalen](/kennis/wiskunde/herhalen). Gebruik de [formulebibliotheek](/kennis/wiskunde/formules) om een regel aan haar betekenis te koppelen en de [woordenlijst](/kennis/wiskunde/begrippen) wanneer een begrip onduidelijk blijft.
 
 ## Tot slot
 

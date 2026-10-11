@@ -109,6 +109,6 @@ twee tests deed. Je werkt dit in de praktijkles zelf uit.
 - [Wikipedia: Markov chain Monte Carlo](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo)
 - [Wikipedia: Sally Clark](https://en.wikipedia.org/wiki/Sally_Clark)
 
-Lees de profielen van [Bayes](/mathematicians/bayes) en
-[Laplace](/mathematicians/laplace) bij de tijdlijn. De sensor- en productievragen
+Lees de profielen van [Bayes](/kennis/wiskunde/personen/bayes) en
+[Laplace](/kennis/wiskunde/personen/laplace) bij de tijdlijn. De sensor- en productievragen
 in deze module zijn didactische voorbeelden, geen historische reconstructies.

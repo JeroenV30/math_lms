@@ -56,4 +56,4 @@ De feiten in dit intermezzo zijn gecontroleerd aan de volgende bronnen. Voor de 
 - MacTutor, [Adolphe Quetelet](https://mathshistory.st-andrews.ac.uk/Biographies/Quetelet/): *Sur l'homme* (1835) en de gemiddelde mens.
 - Wikipedia, [Galton board](https://en.wikipedia.org/wiki/Galton_board): het bord, gepresenteerd in 1874.
 
-De biografieën van [De Moivre](/mathematicians/de-moivre), [Gauss](/mathematicians/gauss) en [Laplace](/mathematicians/laplace) vind je ook in de wiskundigenlijst van deze cursus.
+De biografieën van [De Moivre](/kennis/wiskunde/personen/de-moivre), [Gauss](/kennis/wiskunde/personen/gauss) en [Laplace](/kennis/wiskunde/personen/laplace) vind je ook in de wiskundigenlijst van deze cursus.

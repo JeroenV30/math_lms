@@ -5,6 +5,6 @@
         <p class="font-serif text-6xl text-faint">∅</p>
         <h1 class="page-title mt-4">Deze pagina bestaat niet</h1>
         <p class="mt-3 font-serif text-lg text-muted">{{ $exception->getMessage() ?: 'De lege verzameling: hier is niets.' }}</p>
-        <a href="{{ route('course.index') }}" class="btn btn-primary mt-8">Naar het cursusoverzicht</a>
+        <a href="{{ route('domains.index') }}" class="btn btn-primary mt-8">Naar de kaart van kennis</a>
     </div>
 @endsection

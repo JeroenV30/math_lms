@@ -84,4 +84,4 @@ De feiten in dit intermezzo zijn gecontroleerd aan de volgende bronnen.
 - MacTutor, [Jerzy Neyman](https://mathshistory.st-andrews.ac.uk/Biographies/Neyman/): de samenwerking met Egon Pearson en de verhouding tot Fisher.
 - American Statistical Association, [Statement on p-values (2016)](https://www.amstat.org/asa/files/pdfs/P-ValueStatement.pdf).
 
-Meer over de personen vind je op de pagina's over [Fisher](/mathematicians/fisher), [Neyman](/mathematicians/neyman) en [Karl Pearson](/mathematicians/karl-pearson).
+Meer over de personen vind je op de pagina's over [Fisher](/kennis/wiskunde/personen/fisher), [Neyman](/kennis/wiskunde/personen/neyman) en [Karl Pearson](/kennis/wiskunde/personen/karl-pearson).

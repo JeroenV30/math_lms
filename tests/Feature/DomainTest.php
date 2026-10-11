@@ -14,7 +14,7 @@ class DomainTest extends TestCase
     {
         $this->useFixtureContent();
 
-        $this->get('/')
+        $this->get('/kennis/wiskunde')
             ->assertOk()
             ->assertSee('Kennisdomeinen')
             ->assertSee('Biologie')
@@ -25,7 +25,7 @@ class DomainTest extends TestCase
     {
         $this->useFixtureContent();
 
-        $this->get('/')
+        $this->get('/kennis/wiskunde')
             ->assertOk()
             ->assertSee('<title>Dashboard · Testomgeving</title>', false)
             ->assertSee('Ontdekken · Begrijpen');
@@ -36,14 +36,14 @@ class DomainTest extends TestCase
         $this->useFixtureContent();
 
         // Wiskunde-dashboard en een domein in voorbereiding delen kruimelpad, monogram, tagline en naam.
-        foreach (['/' => 'Wiskunde', '/kennis/biologie' => 'Biologie'] as $url => $name) {
+        foreach (['/kennis/wiskunde' => 'Wiskunde', '/kennis/biologie' => 'Biologie'] as $url => $name) {
             $this->get($url)
                 ->assertOk()
                 ->assertSee('Kaart van kennis')
                 ->assertSee('<h1 class="page-title mt-1">'.$name.'</h1>', false);
         }
 
-        $this->get('/')->assertSee('Getallen · Structuren · Logica');
+        $this->get('/kennis/wiskunde')->assertSee('Getallen · Structuren · Logica');
     }
 
     public function test_top_bar_follows_the_active_domain(): void
@@ -51,7 +51,7 @@ class DomainTest extends TestCase
         $this->useFixtureContent();
 
         // Wiskunde: eigen menu, zoeken en bibliotheek; het actieve domein staat naast het logo.
-        $this->get('/')
+        $this->get('/kennis/wiskunde')
             ->assertOk()
             ->assertSee('aria-label="Menu Wiskunde"', false)
             ->assertSee('href="'.route('mathematicians.index').'"', false)
@@ -68,7 +68,7 @@ class DomainTest extends TestCase
             ->assertSee('Instellingen');
 
         // De kaart hoort bij geen domein; het logo leidt ernaartoe.
-        $this->get('/kennis')
+        $this->get('/')
             ->assertOk()
             ->assertDontSee('href="'.route('practice.index').'"', false)
             ->assertSee('href="'.route('domains.index').'" class="flex shrink-0 items-center gap-2.5"', false);
@@ -78,7 +78,7 @@ class DomainTest extends TestCase
     {
         $this->useFixtureContent();
 
-        $this->get('/')
+        $this->get('/kennis/wiskunde')
             ->assertOk()
             ->assertSee("document.documentElement.dataset.theme", false)
             ->assertSee('Thema: systeem', false);
@@ -88,7 +88,7 @@ class DomainTest extends TestCase
     {
         $this->useFixtureContent();
 
-        $this->get('/kennis')
+        $this->get('/')
             ->assertOk()
             ->assertSee('Kaart van menselijke kennis')
             ->assertSee('in voorbereiding')
@@ -115,7 +115,7 @@ class DomainTest extends TestCase
         $this->assertSame('planned', $domains->stage(['id' => 'x', 'status' => 'planned']));
 
         // Kaart, zijbalk en domeinpagina gebruiken hetzelfde label.
-        $this->get('/kennis')->assertOk()->assertSee('eerste les')->assertDontSee('in voorbereiding');
+        $this->get('/')->assertOk()->assertSee('eerste les')->assertDontSee('in voorbereiding');
         $this->get('/kennis/geschiedenis')->assertOk()->assertSee('>eerste les</span>', false)->assertSee('Eerste les');
     }
 
@@ -124,15 +124,15 @@ class DomainTest extends TestCase
         $this->useFixtureContent();
 
         // Elke pagina binnen een domein begint bij de kaart en het domein.
-        $this->get('/course/tellen')
+        $this->get('/kennis/wiskunde/cursus/tellen')
             ->assertOk()
             ->assertSeeInOrder(['Kruimelpad', 'Kaart van kennis', 'Wiskunde', 'Cursus', 'Deel I'], false);
-        $this->get('/practice')
+        $this->get('/kennis/wiskunde/oefenen')
             ->assertOk()
             ->assertSeeInOrder(['Kruimelpad', 'Kaart van kennis', 'Wiskunde', 'Oefenen per onderwerp'], false);
 
         // Instellingen horen bij geen domein.
-        $this->get('/settings')
+        $this->get('/instellingen')
             ->assertOk()
             ->assertDontSee('aria-label="Menu Wiskunde"', false)
             ->assertSeeInOrder(['Kruimelpad', 'Kaart van kennis', 'Instellingen'], false);
@@ -145,12 +145,46 @@ class DomainTest extends TestCase
         $this->get('/kennis/biologie/les/wat-is-leven')->assertNotFound();
     }
 
-    public function test_available_domain_redirects_to_its_start_page(): void
+    public function test_domain_with_a_course_shows_its_dashboard(): void
     {
         $this->useFixtureContent();
 
-        $this->get('/kennis/wiskunde')->assertRedirect('/');
+        $this->get('/kennis/wiskunde')->assertOk()->assertSee('Voortgang')->assertSee('De reis');
         $this->get('/kennis/bestaat-niet')->assertNotFound();
+
+        // Cursuspagina's bestaan alleen voor domeinen met een cursus.
+        $this->get('/kennis/biologie/cursus')->assertNotFound();
+    }
+
+    public function test_map_is_the_start_page_and_old_addresses_redirect(): void
+    {
+        $this->useFixtureContent();
+
+        $this->get('/')->assertOk()->assertSee('Kaart van menselijke kennis');
+
+        foreach ([
+            '/kennis' => '/',
+            '/course' => '/kennis/wiskunde/cursus',
+            '/course/tellen' => '/kennis/wiskunde/cursus/tellen',
+            '/course/tellen/lesson/theorie' => '/kennis/wiskunde/cursus/tellen/les/theorie',
+            '/course/tellen/quiz' => '/kennis/wiskunde/cursus/tellen/toets',
+            '/course/tellen/quiz/3' => '/kennis/wiskunde/cursus/tellen/toets/3',
+            '/mathematicians/euclides' => '/kennis/wiskunde/personen/euclides',
+            '/search?q=ishango' => '/kennis/wiskunde/zoeken?q=ishango',
+            '/settings' => '/instellingen',
+        ] as $old => $new) {
+            $this->get($old)->assertStatus(301)->assertRedirect($new);
+        }
+    }
+
+    public function test_progress_is_kept_per_course(): void
+    {
+        $this->useFixtureContent();
+
+        $this->post('/kennis/wiskunde/cursus/tellen/les/introductie/gelezen');
+
+        $this->assertDatabaseHas('lesson_progress', ['course' => 'wiskunde', 'module_id' => 1, 'lesson_slug' => 'introductie']);
+        $this->assertDatabaseHas('module_progress', ['course' => 'wiskunde', 'module_id' => 1]);
     }
 
     public function test_real_domain_file_is_complete(): void

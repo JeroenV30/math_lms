@@ -27,7 +27,7 @@ class CourseFlowTest extends TestCase
 
     public function test_dashboard_appears(): void
     {
-        $this->get('/')
+        $this->get('/kennis/wiskunde')
             ->assertOk()
             ->assertSee('De testcursus.')
             ->assertSee('Start module 1');
@@ -35,7 +35,7 @@ class CourseFlowTest extends TestCase
 
     public function test_course_overview_lists_parts_and_modules(): void
     {
-        $this->get('/course')
+        $this->get('/kennis/wiskunde/cursus')
             ->assertOk()
             ->assertSee('Deel I – Fundamenten')
             ->assertSee('Tellen')
@@ -44,7 +44,7 @@ class CourseFlowTest extends TestCase
 
     public function test_module_page_shows_goals_lessons_and_history(): void
     {
-        $this->get('/course/tellen')
+        $this->get('/kennis/wiskunde/cursus/tellen')
             ->assertOk()
             ->assertSee('Wat is acht?')
             ->assertSee('Je kunt tellen.')
@@ -52,14 +52,14 @@ class CourseFlowTest extends TestCase
             ->assertSee('Het Ishango-been')
             ->assertSee('Euclides');
 
-        $this->get('/course/1')->assertOk();
-        $this->get('/course/later')->assertOk()->assertSee('In voorbereiding');
-        $this->get('/course/later/lesson/x')->assertNotFound();
+        $this->get('/kennis/wiskunde/cursus/1')->assertOk();
+        $this->get('/kennis/wiskunde/cursus/later')->assertOk()->assertSee('In voorbereiding');
+        $this->get('/kennis/wiskunde/cursus/later/les/x')->assertNotFound();
     }
 
     public function test_historical_introduction_and_formulas_render(): void
     {
-        $this->get('/course/tellen/lesson/introductie')
+        $this->get('/kennis/wiskunde/cursus/tellen/les/introductie')
             ->assertOk()
             ->assertSee('callout-history', false)
             ->assertSee('<span class="math math-inline">8 = 8</span>', false)
@@ -71,7 +71,7 @@ class CourseFlowTest extends TestCase
 
     public function test_lesson_embeds_exercises_widgets_and_quiz_link(): void
     {
-        $this->get('/course/tellen/lesson/theorie')
+        $this->get('/kennis/wiskunde/cursus/tellen/les/theorie')
             ->assertOk()
             ->assertSee('Oefening 01-001')
             ->assertSee('Oefening 01-002')
@@ -84,7 +84,7 @@ class CourseFlowTest extends TestCase
 
     public function test_correct_answer_is_judged_and_stored(): void
     {
-        $this->postJson('/exercise/01-001/check', ['answer' => '518', 'hints_used' => 0, 'context' => 'lesson'])
+        $this->postJson('/kennis/wiskunde/oefening/01-001/controleer', ['answer' => '518', 'hints_used' => 0, 'context' => 'lesson'])
             ->assertOk()
             ->assertJson(['valid' => true, 'correct' => true, 'message' => 'Correct. Het antwoord is 518.']);
 
@@ -96,12 +96,12 @@ class CourseFlowTest extends TestCase
 
     public function test_wrong_answer_gets_targeted_feedback(): void
     {
-        $this->postJson('/exercise/01-001/check', ['answer' => '407'])
+        $this->postJson('/kennis/wiskunde/oefening/01-001/controleer', ['answer' => '407'])
             ->assertOk()
             ->assertJson(['valid' => true, 'correct' => false, 'message' => 'Nog niet correct.'])
             ->assertJsonPath('feedback', 'Je hebt 37 × 11 berekend.');
 
-        $this->postJson('/exercise/01-001/check', ['answer' => '518', 'hints_used' => 2])
+        $this->postJson('/kennis/wiskunde/oefening/01-001/controleer', ['answer' => '518', 'hints_used' => 2])
             ->assertJson(['correct' => true, 'attempt_number' => 2]);
 
         // −5 voor de fout, +1 voor goed met hint.
@@ -111,7 +111,7 @@ class CourseFlowTest extends TestCase
 
     public function test_invalid_input_is_not_counted(): void
     {
-        $this->postJson('/exercise/01-001/check', ['answer' => 'vijfhonderd'])
+        $this->postJson('/kennis/wiskunde/oefening/01-001/controleer', ['answer' => 'vijfhonderd'])
             ->assertOk()
             ->assertJson(['valid' => false, 'correct' => false]);
 
@@ -121,36 +121,36 @@ class CourseFlowTest extends TestCase
 
     public function test_decimal_and_fraction_exercises(): void
     {
-        $this->postJson('/exercise/01-002/check', ['answer' => '2,50'])->assertJson(['correct' => true, 'message' => 'Correct. Het antwoord is € 2,50.']);
-        $this->postJson('/exercise/01-003/check', ['answer' => '6/8'])->assertJson(['valid' => true, 'correct' => false, 'code' => 'not_simplified']);
-        $this->postJson('/exercise/01-003/check', ['answer' => '6/14'])->assertJsonPath('feedback', 'Je telde de schapen dubbel.');
-        $this->postJson('/exercise/01-003/check', ['answer' => '3/4'])->assertJson(['correct' => true]);
+        $this->postJson('/kennis/wiskunde/oefening/01-002/controleer', ['answer' => '2,50'])->assertJson(['correct' => true, 'message' => 'Correct. Het antwoord is € 2,50.']);
+        $this->postJson('/kennis/wiskunde/oefening/01-003/controleer', ['answer' => '6/8'])->assertJson(['valid' => true, 'correct' => false, 'code' => 'not_simplified']);
+        $this->postJson('/kennis/wiskunde/oefening/01-003/controleer', ['answer' => '6/14'])->assertJsonPath('feedback', 'Je telde de schapen dubbel.');
+        $this->postJson('/kennis/wiskunde/oefening/01-003/controleer', ['answer' => '3/4'])->assertJson(['correct' => true]);
     }
 
     public function test_expression_and_multi_part_exercises(): void
     {
-        $this->get('/course/tellen/lesson/theorie')->assertOk()->assertSee('bijv. 2x + 4')->assertSee('x =');
+        $this->get('/kennis/wiskunde/cursus/tellen/les/theorie')->assertOk()->assertSee('bijv. 2x + 4')->assertSee('x =');
 
-        $this->postJson('/exercise/01-004/check', ['answer' => '4 + 2x'])->assertJson(['correct' => true]);
-        $this->postJson('/exercise/01-004/check', ['answer' => '2(x+2)'])->assertJson(['correct' => false, 'code' => 'not_expanded']);
+        $this->postJson('/kennis/wiskunde/oefening/01-004/controleer', ['answer' => '4 + 2x'])->assertJson(['correct' => true]);
+        $this->postJson('/kennis/wiskunde/oefening/01-004/controleer', ['answer' => '2(x+2)'])->assertJson(['correct' => false, 'code' => 'not_expanded']);
 
-        $this->postJson('/exercise/01-005/check', ['answer' => ['x' => '7', 'y' => '4']])
+        $this->postJson('/kennis/wiskunde/oefening/01-005/controleer', ['answer' => ['x' => '7', 'y' => '4']])
             ->assertJson(['valid' => true, 'correct' => false, 'message' => 'Nog niet goed: y. De rest klopt.']);
-        $this->postJson('/exercise/01-005/check', ['answer' => ['x' => '7', 'y' => '3']])
+        $this->postJson('/kennis/wiskunde/oefening/01-005/controleer', ['answer' => ['x' => '7', 'y' => '3']])
             ->assertJson(['correct' => true, 'message' => 'Correct. Het antwoord is x = 7; y = 3.']);
-        $this->postJson('/exercise/01-005/check', ['answer' => '7'])->assertUnprocessable();
+        $this->postJson('/kennis/wiskunde/oefening/01-005/controleer', ['answer' => '7'])->assertUnprocessable();
 
         $this->assertSame('x = 7; y = 3', ExerciseAttempt::query()->where('exercise_id', '01-005')->latest('id')->value('answer'));
     }
 
     public function test_open_questions_are_stored_but_not_scored(): void
     {
-        $this->get('/course/tellen/lesson/theorie')->assertOk()->assertSee('Modelantwoord')->assertSee('Opslaan');
+        $this->get('/kennis/wiskunde/cursus/tellen/les/theorie')->assertOk()->assertSee('Modelantwoord')->assertSee('Opslaan');
 
-        $this->postJson('/exercise/01-006/check', ['answer' => 'Omdat het zo is.'])
+        $this->postJson('/kennis/wiskunde/oefening/01-006/controleer', ['answer' => 'Omdat het zo is.'])
             ->assertJson(['valid' => false]);
 
-        $this->postJson('/exercise/01-006/check', ['answer' => 'Je kunt elke appel aan precies één schaap koppelen, dus de hoeveelheid is gelijk.'])
+        $this->postJson('/kennis/wiskunde/oefening/01-006/controleer', ['answer' => 'Je kunt elke appel aan precies één schaap koppelen, dus de hoeveelheid is gelijk.'])
             ->assertJson(['valid' => true, 'correct' => true, 'code' => 'submitted', 'mastery' => []])
             ->assertJsonPath('message', 'Je antwoord is opgeslagen. Vergelijk het nu met het modelantwoord hieronder.');
 
@@ -160,33 +160,33 @@ class CourseFlowTest extends TestCase
 
     public function test_unknown_exercises_and_quiz_questions_cannot_be_checked(): void
     {
-        $this->postJson('/exercise/99-001/check', ['answer' => '1'])->assertNotFound();
-        $this->postJson('/exercise/01-T01/check', ['answer' => '8'])->assertForbidden();
+        $this->postJson('/kennis/wiskunde/oefening/99-001/controleer', ['answer' => '1'])->assertNotFound();
+        $this->postJson('/kennis/wiskunde/oefening/01-T01/controleer', ['answer' => '8'])->assertForbidden();
     }
 
     public function test_lessons_can_be_completed(): void
     {
-        $this->post('/course/tellen/lesson/introductie/complete')->assertRedirect('/course/tellen/lesson/theorie');
-        $this->post('/course/tellen/lesson/theorie/complete')->assertRedirect('/course/tellen/quiz');
+        $this->post('/kennis/wiskunde/cursus/tellen/les/introductie/gelezen')->assertRedirect('/kennis/wiskunde/cursus/tellen/les/theorie');
+        $this->post('/kennis/wiskunde/cursus/tellen/les/theorie/gelezen')->assertRedirect('/kennis/wiskunde/cursus/tellen/toets');
 
         $this->assertSame(2, LessonProgress::query()->count());
     }
 
     public function test_quiz_completes_and_masters_the_module(): void
     {
-        $this->get('/course/tellen/quiz')->assertOk()->assertSee('Hoofdstuktoets – Tellen');
+        $this->get('/kennis/wiskunde/cursus/tellen/toets')->assertOk()->assertSee('Hoofdstuktoets – Tellen');
 
         // 4 van 5 goed = 80%: afgerond.
-        $response = $this->post('/course/tellen/quiz', ['answers' => [
+        $response = $this->post('/kennis/wiskunde/cursus/tellen/toets', ['answers' => [
             '01-T01' => '8', '01-T02' => '42', '01-T03' => '1/2', '01-T04' => '3', '01-T05' => ['x' => '3', 'y' => '2'],
         ]]);
         $attempt = QuizAttempt::query()->latest('id')->first();
-        $response->assertRedirect("/course/tellen/quiz/{$attempt->id}");
+        $response->assertRedirect("/kennis/wiskunde/cursus/tellen/toets/{$attempt->id}");
 
         $this->assertSame(80, $attempt->score);
         $this->assertSame(ModuleProgress::COMPLETED, ModuleProgress::query()->where('module_id', 1)->value('status'));
 
-        $this->get("/course/tellen/quiz/{$attempt->id}")
+        $this->get("/kennis/wiskunde/cursus/tellen/toets/{$attempt->id}")
             ->assertOk()
             ->assertSee('80%')
             ->assertSee('De module is afgerond.')
@@ -194,8 +194,8 @@ class CourseFlowTest extends TestCase
             ->assertSee('x = 3; y = 2');
 
         // Alles goed: beheerst. Een slechtere poging zet de status niet terug.
-        $this->post('/course/tellen/quiz', ['answers' => ['01-T01' => '8', '01-T02' => '42', '01-T03' => '2/4', '01-T04' => '2,5', '01-T05' => ['x' => '3', 'y' => '2']]]);
-        $this->post('/course/tellen/quiz', ['answers' => []]);
+        $this->post('/kennis/wiskunde/cursus/tellen/toets', ['answers' => ['01-T01' => '8', '01-T02' => '42', '01-T03' => '2/4', '01-T04' => '2,5', '01-T05' => ['x' => '3', 'y' => '2']]]);
+        $this->post('/kennis/wiskunde/cursus/tellen/toets', ['answers' => []]);
 
         $progress = ModuleProgress::query()->where('module_id', 1)->first();
         $this->assertSame(ModuleProgress::MASTERED, $progress->status);
@@ -206,23 +206,23 @@ class CourseFlowTest extends TestCase
 
     public function test_dashboard_shows_new_progress(): void
     {
-        $this->post('/course/tellen/quiz', ['answers' => ['01-T01' => '8', '01-T02' => '42', '01-T03' => '1/2', '01-T04' => '2,5', '01-T05' => ['3', '2']]]);
+        $this->post('/kennis/wiskunde/cursus/tellen/toets', ['answers' => ['01-T01' => '8', '01-T02' => '42', '01-T03' => '1/2', '01-T04' => '2,5', '01-T05' => ['3', '2']]]);
 
-        $this->get('/')
+        $this->get('/kennis/wiskunde')
             ->assertOk()
             ->assertSee('1 van 2 modules')
             ->assertSee('50%')
             ->assertSee('Vermenigvuldigen');
 
-        $this->get('/progress')->assertOk()->assertSee('Correct eerste poging');
+        $this->get('/kennis/wiskunde/voortgang')->assertOk()->assertSee('Correct eerste poging');
     }
 
     public function test_review_questions_come_back_later(): void
     {
         Carbon::setTestNow('2026-10-02 10:00:00');
 
-        $this->get('/course/tellen/lesson/theorie');
-        $this->postJson('/exercise/01-001/check', ['answer' => '1']);
+        $this->get('/kennis/wiskunde/cursus/tellen/les/theorie');
+        $this->postJson('/kennis/wiskunde/oefening/01-001/controleer', ['answer' => '1']);
 
         $this->assertSame(0, app(ReviewService::class)->dueCount());
 
@@ -232,11 +232,11 @@ class CourseFlowTest extends TestCase
 
         $this->assertTrue($session->isNotEmpty());
         $this->assertSame('weak', $session->first()['reason']);
-        $this->get('/review')->assertOk()->assertSee('Herhalingsvraag – module 1');
+        $this->get('/kennis/wiskunde/herhalen')->assertOk()->assertSee('Herhalingsvraag – module 1');
 
         // Goed beantwoorde herhalingsvragen verdwijnen voor vandaag.
         foreach ($session as $item) {
-            $this->postJson("/exercise/{$item['exercise']->id}/check", [
+            $this->postJson("/kennis/wiskunde/oefening/{$item['exercise']->id}/controleer", [
                 'answer' => $item['exercise']->isMultiple()
                     ? collect($item['exercise']->parts())->mapWithKeys(fn ($p) => [$p['label'] => (string) $p['answer']])->all()
                     : (string) $item['exercise']->answer,
@@ -249,25 +249,25 @@ class CourseFlowTest extends TestCase
 
     public function test_practice_history_and_library_pages(): void
     {
-        $this->get('/practice')->assertOk()->assertSee('Vermenigvuldigen');
-        $this->get('/practice/multiplication')->assertOk()->assertSee('Oefening 01-001');
-        $this->get('/practice/onbekend')->assertNotFound();
-        $this->get('/history')->assertOk()->assertSee('Het Ishango-been')->assertSee('Module 1 · Tellen');
-        $this->get('/mathematicians')->assertOk()->assertSee('Euclides');
-        $this->get('/mathematicians/euclides')->assertOk()->assertSee('Euclides van Alexandrië');
-        $this->get('/glossary')->assertOk()->assertSee('Hoeveelheid');
-        $this->get('/formulas')->assertOk()->assertSee('Distributief');
-        $this->get('/search?q=ishango')->assertOk()->assertSee('Het Ishango-been');
+        $this->get('/kennis/wiskunde/oefenen')->assertOk()->assertSee('Vermenigvuldigen');
+        $this->get('/kennis/wiskunde/oefenen/multiplication')->assertOk()->assertSee('Oefening 01-001');
+        $this->get('/kennis/wiskunde/oefenen/onbekend')->assertNotFound();
+        $this->get('/kennis/wiskunde/tijdlijn')->assertOk()->assertSee('Het Ishango-been')->assertSee('Module 1 · Tellen');
+        $this->get('/kennis/wiskunde/personen')->assertOk()->assertSee('Euclides');
+        $this->get('/kennis/wiskunde/personen/euclides')->assertOk()->assertSee('Euclides van Alexandrië');
+        $this->get('/kennis/wiskunde/begrippen')->assertOk()->assertSee('Hoeveelheid');
+        $this->get('/kennis/wiskunde/formules')->assertOk()->assertSee('Distributief');
+        $this->get('/kennis/wiskunde/zoeken?q=ishango')->assertOk()->assertSee('Het Ishango-been');
     }
 
     public function test_settings_and_reset(): void
     {
-        $this->post('/settings', ['name' => 'Ada'])->assertRedirect('/settings');
-        $this->get('/')->assertSee('Ada');
+        $this->post('/instellingen', ['name' => 'Ada'])->assertRedirect('/instellingen');
+        $this->get('/kennis/wiskunde')->assertSee('Ada');
 
-        $this->postJson('/exercise/01-001/check', ['answer' => '518']);
-        $this->post('/settings/reset', ['confirm' => 'nee'])->assertSessionHasErrors('confirm');
-        $this->post('/settings/reset', ['confirm' => 'WISSEN'])->assertRedirect('/settings');
+        $this->postJson('/kennis/wiskunde/oefening/01-001/controleer', ['answer' => '518']);
+        $this->post('/instellingen/wissen', ['confirm' => 'nee'])->assertSessionHasErrors('confirm');
+        $this->post('/instellingen/wissen', ['confirm' => 'WISSEN'])->assertRedirect('/instellingen');
 
         $this->assertSame(0, ExerciseAttempt::query()->count());
         $this->assertSame(0, TopicMastery::query()->count());

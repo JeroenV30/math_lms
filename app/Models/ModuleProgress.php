@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Models\Concerns\BelongsToCourse;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Attributes\Table;
 use Illuminate\Database\Eloquent\Model;
@@ -10,6 +11,8 @@ use Illuminate\Database\Eloquent\Model;
 #[Fillable(['module_id', 'status', 'started_at', 'completed_at', 'score', 'attempts', 'last_lesson', 'last_visited_at'])]
 class ModuleProgress extends Model
 {
+    use BelongsToCourse;
+
     public const NOT_STARTED = 'not_started';
 
     public const STARTED = 'started';

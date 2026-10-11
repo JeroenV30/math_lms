@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Models\Concerns\BelongsToCourse;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Attributes\Table;
 use Illuminate\Database\Eloquent\Model;
@@ -10,6 +11,8 @@ use Illuminate\Database\Eloquent\Model;
 #[Fillable(['module_id', 'lesson_slug', 'completed_at'])]
 class LessonProgress extends Model
 {
+    use BelongsToCourse;
+
     protected function casts(): array
     {
         return [

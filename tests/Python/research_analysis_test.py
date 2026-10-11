@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-spec = importlib.util.spec_from_file_location('research', ROOT / 'content/modules/42-eindonderzoek/analyse.py')
+spec = importlib.util.spec_from_file_location('research', ROOT / 'content/domains/wiskunde/modules/42-eindonderzoek/analyse.py')
 research = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(research)
 

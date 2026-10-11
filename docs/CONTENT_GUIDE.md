@@ -4,13 +4,19 @@ Alle cursusinhoud staat in `content/`. De applicatie leest deze bestanden; er st
 geen lesstof in controllers, Blade of JavaScript. Nieuwe lessen of oefeningen
 toevoegen = bestanden aanpassen, niet programmeren.
 
+Elk kennisdomein met een cursus heeft een eigen map `content/domains/<domein>/` met
+precies dezelfde opbouw; de cursus is dan te vinden onder `/kennis/<domein>/…`.
+Hieronder het voorbeeld van wiskunde.
+
 ```
 content/
-├── course.json                 # delen, onderwerpen (topics) en cursusinfo
-├── history/
-│   ├── timeline.json           # historische tijdlijn (/history)
-│   └── mathematicians.json     # wiskundigenprofielen (/mathematicians)
-└── modules/
+├── domains.json                # alle kennisdomeinen (kaart, kleuren, status)
+└── domains/wiskunde/
+    ├── course.json             # delen, onderwerpen (topics) en cursusinfo
+    ├── history/
+    │   ├── timeline.json       # historische tijdlijn (/kennis/wiskunde/tijdlijn)
+    │   └── mathematicians.json # personen (/kennis/wiskunde/personen)
+    └── modules/
     └── 01-wat-is-een-getal/
         ├── module.json         # metadata, leerdoelen, begrippen, lessen
         ├── 01-introductie.md   # lessen in Markdown (volgorde = module.json)
@@ -72,7 +78,7 @@ en worden in Markdown aangeroepen als `/images/diagrams/bestand.svg`.
 - `status`: `available` (inhoud klaar) of `planned` (alleen metadata).
 - `kind` per les: `intro`, `theory`, `history`, `practice`, `summary`.
 - `topics`: alleen sleutels uit `course.json → topics`.
-- `timeline` / `mathematicians`: id's uit `content/history/*.json`.
+- `timeline` / `mathematicians`: id's uit `history/*.json` van de cursus.
 
 ### Vaste lesindeling (contentsjabloon)
 
@@ -124,7 +130,7 @@ Soorten: `history` (historisch kader), `definition`, `theory`, `example`
 Een afbeelding met titel wordt een `<figure>` met bijschrift. Gebruik alleen eigen
 SVG-diagrammen of afbeeldingen met een vrije licentie (publiek domein, CC0, CC BY,
 CC BY-SA) en zet maker + licentie in het bijschrift. Registreer elke externe
-afbeelding ook in `credits.json` in de moduledirectory (of `content/history/credits.json`):
+afbeelding ook in `credits.json` in de moduledirectory (of `history/credits.json` van de cursus):
 
 ```json
 { "images": [ { "file": "/images/history/m01-ishango.jpg", "title": "...", "author": "...",
@@ -266,7 +272,7 @@ Alle widgets met een voorbeelddirectief zijn te zien op `/dev/widgets` (alleen l
 
 ## 7. Tijdlijn en wiskundigen
 
-`content/history/timeline.json`:
+`content/domains/<domein>/history/timeline.json`:
 
 ```json
 {
@@ -288,7 +294,7 @@ Alle widgets met een voorbeelddirectief zijn te zien op `/dev/widgets` (alleen l
 }
 ```
 
-`content/history/mathematicians.json`:
+`content/domains/<domein>/history/mathematicians.json`:
 
 ```json
 {

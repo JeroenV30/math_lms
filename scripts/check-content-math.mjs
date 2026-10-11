@@ -4,7 +4,7 @@ import katex from 'katex';
 
 // Controleer de notatie in gepubliceerde lessen, opgaven en formulekaarten.
 // Dit controleert LaTeX-syntax; de inhoudelijke juistheid vraagt auteurscontrole.
-const root = path.join(import.meta.dirname, '..', 'content', 'modules');
+const root = path.join(import.meta.dirname, '..', 'content', 'domains', 'wiskunde', 'modules');
 let count = 0;
 const errors = [];
 

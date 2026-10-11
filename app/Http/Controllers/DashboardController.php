@@ -17,8 +17,8 @@ class DashboardController extends Controller
         $hour = Carbon::now()->hour;
 
         return view('dashboard.index', [
-            // Het dashboard is de startpagina van het domein Wiskunde en krijgt dezelfde kop als elk ander domein.
-            'domain' => $domains->find('wiskunde'),
+            // Het dashboard is de startpagina van een domein met een cursus en krijgt dezelfde kop als elk ander domein.
+            'domain' => $domains->active(),
             'greeting' => match (true) {
                 $hour < 6 => 'Goedenacht',
                 $hour < 12 => 'Goedemorgen',

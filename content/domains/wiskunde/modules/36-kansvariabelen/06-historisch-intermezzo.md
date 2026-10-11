@@ -114,7 +114,7 @@ gebruikt voor foutmarges, wachttijden en steekproeven. De belangrijkste stap
 is steeds dat je eerst het toevalsmodel benoemt. Een lijst getallen wordt pas
 een kansverdeling wanneer je erbij zegt welke kansen die getallen hebben.
 
-[Bekijk de tijdlijn](/history) bij Pascal en Fermat, Huygens, Bernoulli, De Moivre en
+[Bekijk de tijdlijn](/kennis/wiskunde/tijdlijn) bij Pascal en Fermat, Huygens, Bernoulli, De Moivre en
 Kolmogorov. Hun bijdragen zijn verschillende stappen: een waarde berekenen,
 herhalingen begrijpen en de algemene structuur formuleren.
 

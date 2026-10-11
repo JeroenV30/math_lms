@@ -1,10 +1,11 @@
 // Controleert of alle formules in de cursusinhoud door KaTeX gerenderd kunnen worden.
 // Gebruik: node scripts/check-katex.mjs [moduleprefix, bijv. 15]
+// Controleert alle cursussen (content/domains/<id>/modules); meldingen van andere cursussen dan wiskunde beginnen met het domein.
 import fs from 'node:fs';
 import path from 'node:path';
 import katex from 'katex';
 
-const root = path.resolve(import.meta.dirname, '..', 'content', 'modules');
+const domainsRoot = path.resolve(import.meta.dirname, '..', 'content', 'domains');
 const only = process.argv[2];
 const errors = [];
 let count = 0;
@@ -29,9 +30,12 @@ function check(where, text) {
     }
 }
 
-for (const dir of fs.readdirSync(root).sort()) {
-    if (only && !dir.startsWith(only.padStart(2, '0'))) continue;
-    const base = path.join(root, dir);
+const courses = fs.readdirSync(domainsRoot).filter((d) => fs.existsSync(path.join(domainsRoot, d, 'modules'))).sort();
+const moduleDirs = courses.flatMap((course) => fs.readdirSync(path.join(domainsRoot, course, 'modules')).sort()
+    .map((dir) => ({ base: path.join(domainsRoot, course, 'modules', dir), dir: course === 'wiskunde' ? dir : `${course}/${dir}` })));
+
+for (const { base, dir } of moduleDirs) {
+    if (only && !path.basename(base).startsWith(only.padStart(2, '0'))) continue;
     for (const file of fs.readdirSync(base)) {
         const full = path.join(base, file);
         if (file.endsWith('.md')) check(`${dir}/${file}`, fs.readFileSync(full, 'utf8'));

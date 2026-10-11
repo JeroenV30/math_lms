@@ -9,9 +9,9 @@ use RuntimeException;
 /**
  * De kennisdomeinen (wiskunde, natuurkunde & chemie, biologie, …) uit content/domains.json.
  *
- * Wiskunde is het eerste volledig uitgewerkte domein. De andere domeinen hebben
- * een startles en groeien later uit tot een eigen contentmap met dezelfde
- * structuur als content/ (course.json, modules/, history/).
+ * Een domein met een cursus heeft een eigen contentmap content/domains/<id>/
+ * (course.json, modules/, history/); zie CourseRegistry. Wiskunde is volledig
+ * uitgewerkt, de andere domeinen hebben voorlopig een startles.
  */
 class DomainService
 {
@@ -80,26 +80,22 @@ class DomainService
     }
 
     /**
-     * Startpagina van een domein: de eigen route van een uitgewerkt domein, anders de domeinpagina.
+     * Startpagina van een domein: het dashboard van een cursus, of de domeinpagina met de opzet.
      */
     public function url(array $domain): string
     {
-        return $this->isAvailable($domain) && ! empty($domain['route'])
-            ? route($domain['route'])
-            : route('domains.show', $domain['id']);
+        return route('domains.show', $domain['id']);
     }
 
     /**
-     * Het domein waar de huidige pagina bij hoort. De domeinpagina's hebben hun eigen id; de kaart en de
-     * instellingen horen bij geen domein; alle andere pagina's (dashboard, cursus, oefenen …) bij wiskunde.
+     * Het domein waar de huidige pagina bij hoort: het {domain} uit /kennis/{domain}/…,
+     * vastgelegd door de middleware ResolveDomain. De kaart en de instellingen horen bij geen domein.
      */
     public function activeId(): ?string
     {
-        return match (true) {
-            request()->routeIs('domains.show', 'domains.lesson') => request()->route('domain'),
-            request()->routeIs('domains.index', 'settings.*') => null,
-            default => 'wiskunde',
-        };
+        $id = request()->attributes->get('domain');
+
+        return is_string($id) ? $id : null;
     }
 
     public function active(): ?array

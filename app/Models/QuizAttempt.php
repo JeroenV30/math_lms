@@ -2,12 +2,15 @@
 
 namespace App\Models;
 
+use App\Models\Concerns\BelongsToCourse;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Model;
 
 #[Fillable(['module_id', 'score', 'correct', 'total', 'answers'])]
 class QuizAttempt extends Model
 {
+    use BelongsToCourse;
+
     protected function casts(): array
     {
         return [

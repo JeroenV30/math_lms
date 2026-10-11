@@ -44,7 +44,7 @@ class FinalCourseTest extends TestCase
                 return [$question->id => $answer];
             })->all();
 
-            $response = $this->post('/course/'.$module->slug.'/quiz', ['answers' => $answers]);
+            $response = $this->post('/kennis/wiskunde/cursus/'.$module->slug.'/toets', ['answers' => $answers]);
             $attempt = QuizAttempt::query()->where('module_id', $module->id)->sole();
 
             $response->assertRedirect(route('quiz.result', [$module->slug, $attempt->id]));
@@ -91,7 +91,7 @@ class FinalCourseTest extends TestCase
         $exercise = app(ContentService::class)->getExercise('42-011');
         $this->assertEqualsWithDelta($difference, $exercise->answer, $exercise->options['tolerance']);
 
-        $this->get('/course/eindonderzoek/lesson/introductie')
+        $this->get('/kennis/wiskunde/cursus/eindonderzoek/les/introductie')
             ->assertOk()->assertSee('/datasets/m42-pinguins-palmer-2009.csv', false);
     }
 }

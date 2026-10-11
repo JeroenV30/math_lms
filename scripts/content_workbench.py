@@ -3,7 +3,7 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1] / 'content/modules'
+ROOT = Path(__file__).resolve().parents[1] / 'content/domains/wiskunde/modules'
 
 def save(module_id, *, question, summary, goals, glossary, formulas, lessons, exercises, quiz, timeline=(), people=(), minutes=150):
     if len(sys.argv)>1 and str(module_id) not in sys.argv[1:]:

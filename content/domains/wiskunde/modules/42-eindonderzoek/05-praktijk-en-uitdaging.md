@@ -61,7 +61,7 @@ Een rapport is reproduceerbaar als een ander met dezelfde gegevens en jouw besch
 Je kunt de berekeningen narekenen in een spreadsheet met functies voor gemiddelde, steekproefstandaardafwijking en regressie. Wie de volledige berekening met Python wil herhalen, kan vanuit de projectmap optioneel uitvoeren:
 
 ```text
-python content/modules/42-eindonderzoek/analyse.py
+python content/domains/wiskunde/modules/42-eindonderzoek/analyse.py
 ```
 
 Dit script gebruikt alleen de standaardbibliotheek, leest de lokale CSV en wijzigt geen bestanden of leergegevens. Het toont de Welch-p-waarde, het interval en de regressie voor de Adélie-vergelijking uit les 4 en 5. Met `--json` krijg je alleen machineleesbare uitkomsten. De optie `--data` is bedoeld voor een bestand met hetzelfde codeboek, niet voor een willekeurige dataset. Het script berekent de Gentoo-, Chinstrap- en snavelanalyses uit les 4 en 5 niet; die kun je zelf narekenen met eigen code of een spreadsheet.

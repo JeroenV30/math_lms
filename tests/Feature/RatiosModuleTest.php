@@ -18,32 +18,32 @@ class RatiosModuleTest extends TestCase
         $module = app(ContentService::class)->getModule('verhoudingen');
 
         foreach ($module->lessons as $lesson) {
-            $this->get('/course/verhoudingen/lesson/'.$lesson->slug)
+            $this->get('/kennis/wiskunde/cursus/verhoudingen/les/'.$lesson->slug)
                 ->assertOk()
                 ->assertDontSee('directive-error', false);
         }
 
-        $this->get('/course/verhoudingen/lesson/verhoudingen-en-tabellen')
+        $this->get('/kennis/wiskunde/cursus/verhoudingen/les/verhoudingen-en-tabellen')
             ->assertSee('Verhoudingstabel')
             ->assertSee('Oefening 10-013');
 
-        $this->get('/course/verhoudingen/lesson/samenvatting')
+        $this->get('/kennis/wiskunde/cursus/verhoudingen/les/samenvatting')
             ->assertSee('Start de toets');
     }
 
     public function test_misconceptions_and_multi_part_answers_are_handled_in_real_exercises(): void
     {
-        $this->postJson('/exercise/10-005/check', ['answer' => '1/4'])
+        $this->postJson('/kennis/wiskunde/oefening/10-005/controleer', ['answer' => '1/4'])
             ->assertOk()
             ->assertJson(['valid' => true, 'correct' => false])
             ->assertJsonPath('feedback', 'Je vergelijkt siroop met alleen het water. Alle limonade bestaat uit <span class="math math-inline">1+4=5</span> delen.');
 
-        $this->postJson('/exercise/10-011/check', ['answer' => ['eerste bedrag' => '96', 'tweede bedrag' => '140']])
+        $this->postJson('/kennis/wiskunde/oefening/10-011/controleer', ['answer' => ['eerste bedrag' => '96', 'tweede bedrag' => '140']])
             ->assertOk()
             ->assertJson(['valid' => true, 'correct' => false])
             ->assertJsonPath('message', 'Nog niet goed: tweede bedrag. De rest klopt.');
 
-        $this->postJson('/exercise/10-036/check', ['answer' => '2/6'])
+        $this->postJson('/kennis/wiskunde/oefening/10-036/controleer', ['answer' => '2/6'])
             ->assertOk()
             ->assertJson(['valid' => true, 'correct' => true]);
 
@@ -52,9 +52,9 @@ class RatiosModuleTest extends TestCase
 
     public function test_real_quiz_can_be_submitted_and_marks_the_module_mastered(): void
     {
-        $this->get('/course/verhoudingen/quiz')->assertOk()->assertSee('10-T15');
+        $this->get('/kennis/wiskunde/cursus/verhoudingen/toets')->assertOk()->assertSee('10-T15');
 
-        $response = $this->post('/course/verhoudingen/quiz', ['answers' => [
+        $response = $this->post('/kennis/wiskunde/cursus/verhoudingen/toets', ['answers' => [
             '10-T01' => ['eerste getal' => '3', 'tweede getal' => '4'],
             '10-T02' => '27',
             '10-T03' => '2/9',
@@ -73,10 +73,10 @@ class RatiosModuleTest extends TestCase
         ]]);
 
         $attempt = QuizAttempt::query()->sole();
-        $response->assertRedirect('/course/verhoudingen/quiz/'.$attempt->id);
+        $response->assertRedirect('/kennis/wiskunde/cursus/verhoudingen/toets/'.$attempt->id);
         $this->assertSame(100, $attempt->score);
         $this->assertSame(15, $attempt->correct);
         $this->assertSame(ModuleProgress::MASTERED, ModuleProgress::query()->where('module_id', 10)->value('status'));
-        $this->get('/course/verhoudingen/quiz/'.$attempt->id)->assertOk();
+        $this->get('/kennis/wiskunde/cursus/verhoudingen/toets/'.$attempt->id)->assertOk();
     }
 }

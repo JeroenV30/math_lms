@@ -31,7 +31,7 @@
             'wiskunde' => [
                 'search' => true,
                 'nav' => [
-                    ['route' => 'dashboard', 'label' => 'Dashboard', 'match' => 'dashboard'],
+                    ['route' => 'domains.show', 'label' => 'Dashboard', 'match' => 'domains.show'],
                     ['route' => 'course.index', 'label' => 'Cursus', 'match' => 'course.*|module.*|lesson.*|quiz.*'],
                     ['route' => 'practice.index', 'label' => 'Oefenen', 'match' => 'practice.*'],
                     ['route' => 'review.index', 'label' => 'Herhalen', 'match' => 'review.*', 'badge' => $reviewCount],

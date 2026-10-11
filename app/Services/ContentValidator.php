@@ -23,8 +23,11 @@ class ContentValidator
     /** @var list<string> */
     private array $warnings = [];
 
+    /** De cursus die nu gecontroleerd wordt. */
+    private ContentService $content;
+
     public function __construct(
-        private readonly ContentService $content,
+        private readonly CourseRegistry $courses,
         private readonly DomainService $domains,
         private readonly AnswerCheckerFactory $checkers,
         private readonly LanguageChecker $language,
@@ -38,10 +41,30 @@ class ContentValidator
         $this->errors = [];
         $this->warnings = [];
 
+        $this->checkLanguageInJson(config('course.content_path').'/domains.json', 'domains.json');
+        $this->validateStarterLessons();
+
+        foreach ($this->courses->ids() as $course) {
+            $this->validateCourse($course);
+        }
+
+        return ['errors' => $this->errors, 'warnings' => $this->warnings];
+    }
+
+    /**
+     * Eén cursus (content/domains/<id>/). Meldingen beginnen met de cursus, behalve bij wiskunde.
+     */
+    private function validateCourse(string $course): void
+    {
+        $this->content = $this->courses->for($course);
+        $prefix = $course === CourseRegistry::DEFAULT ? '' : "{$course} · ";
+
         try {
             $modules = $this->content->modules();
         } catch (Throwable $e) {
-            return ['errors' => [$e->getMessage()], 'warnings' => []];
+            $this->errors[] = $prefix.$e->getMessage();
+
+            return;
         }
 
         $topics = array_keys($this->content->topics());
@@ -49,14 +72,12 @@ class ContentValidator
         $people = $this->content->mathematicians()->pluck('id')->all();
         $seenIds = [];
 
-        foreach (['course.json', 'domains.json', 'history/timeline.json', 'history/mathematicians.json'] as $file) {
-            $this->checkLanguageInJson(config('course.content_path').'/'.$file, $file);
+        foreach (['course.json', 'history/timeline.json', 'history/mathematicians.json'] as $file) {
+            $this->checkLanguageInJson($this->content->path().'/'.$file, $prefix.$file);
         }
 
-        $this->validateStarterLessons();
-
         foreach ($modules as $module) {
-            $where = "Module {$module->id}";
+            $where = "{$prefix}Module {$module->id}";
 
             foreach ($module->topics as $topic) {
                 $this->expect(in_array($topic, $topics, true), "{$where}: onbekend onderwerp '{$topic}' in module.json.");
@@ -112,8 +133,6 @@ class ContentValidator
                 $this->expect($exercises->has($id) || $this->content->getExercise($id) !== null, "{$where}: les verwijst naar onbekende oefening {$id}.");
             }
         }
-
-        return ['errors' => $this->errors, 'warnings' => $this->warnings];
     }
 
     private function validateStarterLessons(): void

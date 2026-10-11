@@ -18,26 +18,26 @@ class PublishedLessonsTest extends TestCase
     public function test_all_published_lessons_and_quizzes_can_be_opened(): void
     {
         foreach (app(ContentService::class)->availableModules() as $module) {
-            $this->assertCleanText($this->get('/course/'.$module->slug)->assertOk());
+            $this->assertCleanText($this->get('/kennis/wiskunde/cursus/'.$module->slug)->assertOk());
 
             foreach ($module->lessons as $lesson) {
                 $this->assertCleanText(
-                    $this->get('/course/'.$module->slug.'/lesson/'.$lesson->slug)
+                    $this->get('/kennis/wiskunde/cursus/'.$module->slug.'/les/'.$lesson->slug)
                         ->assertOk()
                         ->assertDontSee('directive-error', false),
                 );
             }
 
-            $this->assertCleanText($this->get('/course/'.$module->slug.'/quiz')->assertOk());
+            $this->assertCleanText($this->get('/kennis/wiskunde/cursus/'.$module->slug.'/toets')->assertOk());
         }
     }
 
     public function test_overview_and_library_pages_show_no_escaped_entities(): void
     {
-        $pages = ['/', '/course', '/history', '/mathematicians', '/glossary', '/formulas', '/kennis', '/progress', '/practice'];
+        $pages = ['/', '/kennis/wiskunde/cursus', '/kennis/wiskunde/tijdlijn', '/kennis/wiskunde/personen', '/kennis/wiskunde/begrippen', '/kennis/wiskunde/formules', '/kennis/wiskunde', '/kennis/wiskunde/voortgang', '/kennis/wiskunde/oefenen'];
 
         foreach (app(ContentService::class)->mathematicians() as $person) {
-            $pages[] = '/mathematicians/'.$person['id'];
+            $pages[] = '/kennis/wiskunde/personen/'.$person['id'];
         }
 
         foreach (app(DomainService::class)->all() as $domain) {

@@ -95,7 +95,7 @@ Instelbare regels (drempels, beheersingspunten, herhalingsintervallen) staan in
 
 ## Content toevoegen
 
-1. Vul `content/modules/NN-slug/module.json` aan en zet `status` op `available`.
+1. Vul `content/domains/<domein>/modules/NN-slug/module.json` aan en zet `status` op `available`.
 2. Schrijf de lessen in Markdown (kaders `:::history`, formules `$…$`,
    directieven `{{ exercise: NN-001 }}`, `{{ widget: … }}`).
 3. Zet oefeningen in `exercises.json` en de toets in `quiz.json`.
@@ -122,21 +122,22 @@ Voor de referentieanalyse van het eindonderzoek (optioneel, Python 3):
 
 ```text
 python tests/Python/research_analysis_test.py
-python content/modules/42-eindonderzoek/analyse.py
+python content/domains/wiskunde/modules/42-eindonderzoek/analyse.py
 ```
 
 De analyse gebruikt alleen de Python-standaardbibliotheek en leest de bestaande
 CSV. De datasetbron, CC0-licentie, jaarselectie en vertaalde kolommen zijn
-vastgelegd in `content/modules/42-eindonderzoek/dataset.json`.
+vastgelegd in `content/domains/wiskunde/modules/42-eindonderzoek/dataset.json`.
 
 De engine-tests draaien op een kleine vaste testcursus (`tests/Fixtures/content`);
 `ContentIntegrityTest` valideert de echte content.
 
 ## Routes
 
-`/` dashboard · `/course` cursusoverzicht · `/course/{module}` · `/course/{module}/lesson/{les}` ·
-`/course/{module}/quiz` · `/practice` · `/review` · `/progress` · `/history` ·
-`/mathematicians` · `/glossary` · `/formulas` · `/search` · `/settings`
+`/` kaart van kennis · `/kennis/{domein}` dashboard (of opzet van een domein in voorbereiding) ·
+`/kennis/{domein}/cursus` · `…/cursus/{module}` · `…/cursus/{module}/les/{les}` · `…/cursus/{module}/toets` ·
+`/kennis/{domein}/oefenen` · `…/herhalen` · `…/voortgang` · `…/tijdlijn` · `…/personen` · `…/begrippen` ·
+`…/formules` · `…/zoeken` · `/instellingen`. Oude adressen (`/course/…`, `/practice` …) verwijzen door naar wiskunde.
 
 ## Bewust niet in versie 1
 

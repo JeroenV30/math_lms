@@ -56,8 +56,8 @@ minder extreem zijn. Dat kan gebeuren zonder behandeling. Een verbetering
 of verslechtering na een ingreep bewijst daarom op zichzelf geen effect;
 een passende vergelijkingsgroep is nodig.
 
-Deze historische lijn staat bij [Pearson](/mathematicians/karl-pearson) en
-bij Galton op de [tijdlijn](/history). Anscombes kwartet uit module 35
+Deze historische lijn staat bij [Pearson](/kennis/wiskunde/personen/karl-pearson) en
+bij Galton op de [tijdlijn](/kennis/wiskunde/tijdlijn). Anscombes kwartet uit module 35
 blijft het praktische tegenwicht: teken de gegevens vóór je een lijn vertrouwt.
 
 :::question Terugkijken
