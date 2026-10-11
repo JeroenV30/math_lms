@@ -1,12 +1,8 @@
 @extends('layouts.app', ['title' => 'Cursusoverzicht'])
 
 @section('content')
-    <div class="container-page pt-12 pb-6 sm:pt-16">
-        <p class="eyebrow">Cursusoverzicht</p>
-        <h1 class="page-title mt-2">Van kerfstok tot Bayes</h1>
-        <p class="mt-3 max-w-2xl font-serif text-lg text-muted">
-            42 modules in zeven delen. Je mag altijd vooruit bladeren: voorkennis wordt aangeraden, nooit afgedwongen.
-        </p>
+    <x-page-header eyebrow="Cursusoverzicht" title="Van kerfstok tot Bayes"
+                   intro="42 modules in zeven delen. Je mag altijd vooruit bladeren: voorkennis wordt aangeraden, nooit afgedwongen.">
         <ul class="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted" aria-label="Legenda">
             <li class="flex items-center gap-2"><x-status-icon status="completed" /> afgerond</li>
             <li class="flex items-center gap-2"><x-status-icon status="started" /> bezig</li>
@@ -14,11 +10,11 @@
             <li class="flex items-center gap-2"><x-status-icon status="mastered" /> beheerst</li>
             <li class="flex items-center gap-2"><x-status-icon :planned="true" /> in voorbereiding</li>
         </ul>
-    </div>
+    </x-page-header>
 
-    <div class="container-page mt-6 space-y-14">
+    <div class="container-page mt-10 space-y-14">
         @foreach ($parts as $part)
-            <section aria-labelledby="deel-{{ $part['number'] }}">
+            <section id="deel-{{ $part['number'] }}-modules" class="scroll-mt-24" aria-labelledby="deel-{{ $part['number'] }}">
                 <div class="flex items-baseline gap-3 border-b border-line pb-3">
                     <h2 id="deel-{{ $part['number'] }}" class="font-sans text-xs font-semibold tracking-[0.16em] text-ink uppercase">
                         Deel {{ $part['roman'] }} – {{ $part['title'] }}

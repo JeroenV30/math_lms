@@ -57,6 +57,58 @@ class DomainService
         return ($domain['status'] ?? 'planned') === 'available';
     }
 
+    /**
+     * Hoe ver een domein is: 'available' (uitgewerkt), 'starter' (alleen een eerste les) of 'planned'.
+     * Eén bron voor alle statuslabels, zodat kaart, zijbalk en domeinpagina hetzelfde zeggen.
+     */
+    public function stage(array $domain): string
+    {
+        return match (true) {
+            $this->isAvailable($domain) => 'available',
+            $this->starterLesson($domain) !== null => 'starter',
+            default => 'planned',
+        };
+    }
+
+    public function stageLabel(array $domain): string
+    {
+        return match ($this->stage($domain)) {
+            'available' => 'Beschikbaar',
+            'starter' => 'Eerste les',
+            default => 'In voorbereiding',
+        };
+    }
+
+    /**
+     * Startpagina van een domein: de eigen route van een uitgewerkt domein, anders de domeinpagina.
+     */
+    public function url(array $domain): string
+    {
+        return $this->isAvailable($domain) && ! empty($domain['route'])
+            ? route($domain['route'])
+            : route('domains.show', $domain['id']);
+    }
+
+    /**
+     * Het domein waar de huidige pagina bij hoort. De domeinpagina's hebben hun eigen id; de kaart en de
+     * instellingen horen bij geen domein; alle andere pagina's (dashboard, cursus, oefenen …) bij wiskunde.
+     */
+    public function activeId(): ?string
+    {
+        return match (true) {
+            request()->routeIs('domains.show', 'domains.lesson') => request()->route('domain'),
+            request()->routeIs('domains.index', 'settings.*') => null,
+            default => 'wiskunde',
+        };
+    }
+
+    public function active(): ?array
+    {
+        $id = $this->activeId();
+
+        return $id === null ? null : $this->find($id);
+    }
+
     public function starterLesson(array $domain): ?array
     {
         $lesson = $domain['starter_lesson'] ?? null;

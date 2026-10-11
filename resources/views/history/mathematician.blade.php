@@ -3,23 +3,21 @@
 @inject('markdown', 'App\Services\MarkdownRenderer')
 
 @section('content')
-    <div class="container-page grid gap-10 pt-10 sm:pt-14 lg:grid-cols-[minmax(0,1fr)_18rem]">
-        <article class="min-w-0 max-w-3xl">
-            <nav class="text-sm text-muted" aria-label="Kruimelpad">
-                <a href="{{ route('mathematicians.index') }}" class="hover:text-ink">Wiskundigen</a>
-            </nav>
-            <div class="mt-6 flex items-start gap-6">
-                @if (! empty($person['image']))
-                    <img src="{{ $person['image'] }}" alt="Portret van {{ $person['name'] }}" class="h-36 w-28 shrink-0 rounded-lg object-cover">
-                @endif
-                <div>
-                    <p class="eyebrow text-history">{{ $person['lived'] ?? '' }}{{ ! empty($person['region']) ? ' · '.$person['region'] : '' }}</p>
-                    <h1 class="page-title mt-2">{{ $person['full_name'] ?? $person['name'] }}</h1>
-                    <p class="mt-3 font-serif text-lg text-muted">{{ $person['known_for'] ?? '' }}</p>
-                </div>
-            </div>
+    <x-page-header eyebrow-class="text-history"
+                   :eyebrow="($person['lived'] ?? '').(! empty($person['region']) ? ' · '.$person['region'] : '')"
+                   :title="$person['full_name'] ?? $person['name']"
+                   :intro="$person['known_for'] ?? null"
+                   :crumbs="[['label' => 'Wiskundigen', 'url' => route('mathematicians.index')]]">
+        @if (! empty($person['image']))
+            <x-slot:leading>
+                <img src="{{ $person['image'] }}" alt="Portret van {{ $person['name'] }}" class="h-36 w-28 shrink-0 rounded-lg object-cover">
+            </x-slot:leading>
+        @endif
+    </x-page-header>
 
-            <div class="prose-content mt-10">
+    <div class="container-page mt-10 grid gap-10 lg:grid-cols-[minmax(0,1fr)_18rem]">
+        <article class="min-w-0 max-w-3xl">
+            <div class="prose-content">
                 {!! $markdown->render($person['bio'] ?? '') !!}
             </div>
 

@@ -106,6 +106,38 @@ class DomainTest extends TestCase
             ->assertSee('Evolutie');
     }
 
+    public function test_domain_stage_drives_every_status_label(): void
+    {
+        $domains = app(DomainService::class);
+
+        $this->assertSame('available', $domains->stage($domains->find('wiskunde')));
+        $this->assertSame('starter', $domains->stage($domains->find('geschiedenis')));
+        $this->assertSame('planned', $domains->stage(['id' => 'x', 'status' => 'planned']));
+
+        // Kaart, zijbalk en domeinpagina gebruiken hetzelfde label.
+        $this->get('/kennis')->assertOk()->assertSee('eerste les')->assertDontSee('in voorbereiding');
+        $this->get('/kennis/geschiedenis')->assertOk()->assertSee('>eerste les</span>', false)->assertSee('Eerste les');
+    }
+
+    public function test_page_headers_share_one_breadcrumb_trail(): void
+    {
+        $this->useFixtureContent();
+
+        // Elke pagina binnen een domein begint bij de kaart en het domein.
+        $this->get('/course/tellen')
+            ->assertOk()
+            ->assertSeeInOrder(['Kruimelpad', 'Kaart van kennis', 'Wiskunde', 'Cursus', 'Deel I'], false);
+        $this->get('/practice')
+            ->assertOk()
+            ->assertSeeInOrder(['Kruimelpad', 'Kaart van kennis', 'Wiskunde', 'Oefenen per onderwerp'], false);
+
+        // Instellingen horen bij geen domein.
+        $this->get('/settings')
+            ->assertOk()
+            ->assertDontSee('aria-label="Menu Wiskunde"', false)
+            ->assertSeeInOrder(['Kruimelpad', 'Kaart van kennis', 'Instellingen'], false);
+    }
+
     public function test_domain_without_a_starter_lesson_returns_not_found_for_lesson_route(): void
     {
         $this->useFixtureContent();

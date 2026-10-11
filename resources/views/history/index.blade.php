@@ -3,21 +3,16 @@
 @inject('markdown', 'App\Services\MarkdownRenderer')
 
 @section('content')
-    <div class="container-page pt-12 pb-6 sm:pt-16">
-        <p class="eyebrow text-history">Historische tijdlijn</p>
-        <h1 class="page-title mt-2">Wiskunde door de eeuwen</h1>
-        <p class="mt-3 max-w-2xl font-serif text-lg text-muted">
-            Van kerven in een bot tot statistische modellen. Elke gebeurtenis linkt naar de modules waarin je die wiskunde zelf leert.
-        </p>
-    </div>
+    <x-page-header eyebrow="Historische tijdlijn" eyebrow-class="text-history" title="Wiskunde door de eeuwen"
+                   intro="Van kerven in een bot tot statistische modellen. Elke gebeurtenis linkt naar de modules waarin je die wiskunde zelf leert." />
 
-    <div class="container-page max-w-4xl">
+    <div class="container-page mt-10 *:max-w-4xl">
         @if ($eras->isEmpty())
             <p class="text-muted">De tijdlijn wordt nog gevuld.</p>
         @endif
 
         @foreach ($eras as $era => $events)
-            <section class="mt-12 first:mt-6" aria-labelledby="era-{{ $loop->index }}">
+            <section class="mt-12 first:mt-0" aria-labelledby="era-{{ $loop->index }}">
                 <h2 id="era-{{ $loop->index }}" class="mb-6 font-sans text-xs font-semibold tracking-[0.16em] text-history uppercase">{{ $era }}</h2>
                 <ol class="timeline-rail space-y-8">
                     @foreach ($events as $event)

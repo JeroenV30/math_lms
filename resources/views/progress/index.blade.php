@@ -1,15 +1,10 @@
 @extends('layouts.app', ['title' => 'Voortgang'])
 
 @section('content')
-    <div class="container-page pt-12 pb-6 sm:pt-16">
-        <p class="eyebrow">Persoonlijke leerdata</p>
-        <h1 class="page-title mt-2">Voortgang</h1>
-        <p class="mt-3 max-w-2xl font-serif text-lg text-muted">
-            Je eigen dataset. In deel VII leer je hoe je zulke gegevens statistisch analyseert.
-        </p>
-    </div>
+    <x-page-header eyebrow="Persoonlijke leerdata" title="Voortgang"
+                   intro="Je eigen dataset. In deel VII leer je hoe je zulke gegevens statistisch analyseert." />
 
-    <div class="container-page grid grid-cols-[minmax(0,1fr)] gap-6 lg:grid-cols-4">
+    <div class="container-page mt-10 grid grid-cols-[minmax(0,1fr)] gap-6 lg:grid-cols-4">
         <div class="card p-5">
             <p class="eyebrow">Totaal gemaakte sommen</p>
             <p class="mt-2 font-serif text-3xl font-semibold text-ink tabular-nums">{{ number_format($stats['total_attempts'], 0, ',', '.') }}</p>

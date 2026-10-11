@@ -1,15 +1,10 @@
 @extends('layouts.app', ['title' => 'Wiskundigen'])
 
 @section('content')
-    <div class="container-page pt-12 pb-6 sm:pt-16">
-        <p class="eyebrow text-history">Wiskundigenbibliotheek</p>
-        <h1 class="page-title mt-2">De mensen achter de wiskunde</h1>
-        <p class="mt-3 max-w-2xl font-serif text-lg text-muted">
-            Schrijvers, rekenmeesters, astronomen en statistici. Elk profiel verwijst naar de lessen waarin hun werk terugkomt.
-        </p>
-    </div>
+    <x-page-header eyebrow="Wiskundigenbibliotheek" eyebrow-class="text-history" title="De mensen achter de wiskunde"
+                   intro="Schrijvers, rekenmeesters, astronomen en statistici. Elk profiel verwijst naar de lessen waarin hun werk terugkomt." />
 
-    <div class="container-page">
+    <div class="container-page mt-10">
         @if ($mathematicians->isEmpty())
             <p class="text-muted">De profielen worden nog geschreven.</p>
         @endif

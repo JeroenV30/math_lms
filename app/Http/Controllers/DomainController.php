@@ -26,10 +26,7 @@ class DomainController extends Controller
             return redirect()->route($found['route']);
         }
 
-        return view('domains.show', [
-            'domain' => $found,
-            'domains' => $domains->all(),
-        ]);
+        return view('domains.show', ['domain' => $found]);
     }
 
     public function starterLesson(string $domain, string $lesson, DomainService $domains, MarkdownRenderer $markdown): View

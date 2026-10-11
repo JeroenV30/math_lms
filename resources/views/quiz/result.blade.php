@@ -8,13 +8,15 @@
         $mastered = $attempt->score >= config('course.mastered_score');
     @endphp
 
-    <div class="container-page max-w-3xl pt-10 sm:pt-14">
-        <nav class="text-sm text-muted" aria-label="Kruimelpad">
-            <a href="{{ route('module.show', $module->slug) }}" class="hover:text-ink">Module {{ $module->id }} – {{ $module->title }}</a>
-        </nav>
+    <x-page-header eyebrow="Resultaat hoofdstuktoets" :title="$quiz['title']"
+                   :crumbs="[
+                       ['label' => 'Cursus', 'url' => route('course.index')],
+                       ['label' => 'Module '.$module->id.' – '.$module->title, 'url' => route('module.show', $module->slug)],
+                   ]" />
 
-        <section class="card mt-6 p-6 sm:p-8">
-            <p class="eyebrow">Resultaat hoofdstuktoets</p>
+    <div class="container-page mt-10 *:max-w-3xl">
+        <section class="card p-6 sm:p-8">
+            <p class="eyebrow">Jouw score</p>
             <div class="mt-3 flex flex-wrap items-end gap-x-6 gap-y-2">
                 <p class="font-serif text-5xl font-semibold text-ink tabular-nums">{{ $attempt->score }}%</p>
                 <p class="pb-1.5 text-muted">{{ $attempt->correct }} van {{ $attempt->total }} goed</p>

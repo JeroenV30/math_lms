@@ -203,7 +203,7 @@
     }
 
     .badge {
-        @apply inline-flex items-center gap-1 rounded-full border border-line px-2 py-0.5 text-xs font-medium text-muted;
+        @apply inline-flex shrink-0 items-center gap-1 rounded-full border border-line px-2 py-0.5 text-xs font-medium whitespace-nowrap text-muted;
     }
 
     .progress-track {

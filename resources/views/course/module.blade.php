@@ -8,36 +8,28 @@
         $firstOpen = $module->lessons->first(fn ($l) => ! in_array($l->slug, $completedLessons, true)) ?? $module->firstLesson();
     @endphp
 
-    <div class="border-b border-line bg-mist/60">
-        <div class="container-page pt-10 pb-10 sm:pt-14">
-            <nav class="text-sm text-muted" aria-label="Kruimelpad">
-                <a href="{{ route('course.index') }}" class="hover:text-ink">Cursus</a>
-                <span class="mx-1.5 text-faint">/</span>
-                <span>Deel {{ $part['roman'] ?? $module->part }} – {{ $part['title'] ?? '' }}</span>
-            </nav>
-            <div class="mt-5 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
-                <div class="max-w-3xl">
-                    <p class="eyebrow">Module {{ $module->id }}{{ $module->historicalPeriod ? ' · '.$module->historicalPeriod : '' }}</p>
-                    <h1 class="page-title mt-2">{{ $module->title }}</h1>
-                    @if ($module->coreQuestion)
-                        <p class="mt-4 font-serif text-xl leading-relaxed text-ink-soft italic">“{{ $module->coreQuestion }}”</p>
-                    @elseif ($module->summary)
-                        <p class="mt-4 font-serif text-lg text-muted">{{ $module->summary }}</p>
-                    @endif
-                </div>
-                @if ($available && $firstOpen)
-                    <div class="flex shrink-0 flex-wrap gap-2">
-                        <a href="{{ route('lesson.show', [$module->slug, $firstOpen->slug]) }}" class="btn btn-primary">
-                            {{ $progress->status === 'not_started' ? 'Start module' : 'Verder met les '.$firstOpen->position }} <span aria-hidden="true">→</span>
-                        </a>
-                        @if ($quiz)
-                            <a href="{{ route('quiz.show', $module->slug) }}" class="btn btn-secondary">Hoofdstuktoets</a>
-                        @endif
-                    </div>
+    <x-page-header :title="$module->title"
+                   :eyebrow="'Module '.$module->id.($module->historicalPeriod ? ' · '.$module->historicalPeriod : '')"
+                   :crumbs="[
+                       ['label' => 'Cursus', 'url' => route('course.index')],
+                       ['label' => 'Deel '.($part['roman'] ?? $module->part).' – '.($part['title'] ?? ''), 'url' => route('course.index').'#deel-'.$module->part.'-modules'],
+                   ]">
+        @if ($module->coreQuestion)
+            <p class="mt-4 font-serif text-xl leading-relaxed text-ink-soft italic">“{{ $module->coreQuestion }}”</p>
+        @elseif ($module->summary)
+            <p class="mt-3 max-w-2xl font-serif text-lg text-ink-soft">{{ $module->summary }}</p>
+        @endif
+        @if ($available && $firstOpen)
+            <x-slot:actions>
+                <a href="{{ route('lesson.show', [$module->slug, $firstOpen->slug]) }}" class="btn btn-primary">
+                    {{ $progress->status === 'not_started' ? 'Start module' : 'Verder met les '.$firstOpen->position }} <span aria-hidden="true">→</span>
+                </a>
+                @if ($quiz)
+                    <a href="{{ route('quiz.show', $module->slug) }}" class="btn btn-secondary">Hoofdstuktoets</a>
                 @endif
-            </div>
-        </div>
-    </div>
+            </x-slot:actions>
+        @endif
+    </x-page-header>
 
     <div class="container-page mt-10 grid gap-10 lg:grid-cols-[minmax(0,1fr)_20rem]">
         <div class="min-w-0">

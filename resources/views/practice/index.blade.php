@@ -1,15 +1,10 @@
 @extends('layouts.app', ['title' => 'Oefenen'])
 
 @section('content')
-    <div class="container-page pt-12 pb-6 sm:pt-16">
-        <p class="eyebrow">Vrij oefenen</p>
-        <h1 class="page-title mt-2">Oefenen per onderwerp</h1>
-        <p class="mt-3 max-w-2xl font-serif text-lg text-muted">
-            Kies een onderwerp. Je krijgt eerst de opgaven die nog niet lukten, dan nieuwe, en daarna herhaling.
-        </p>
-    </div>
+    <x-page-header eyebrow="Vrij oefenen" title="Oefenen per onderwerp"
+                   intro="Kies een onderwerp. Je krijgt eerst de opgaven die nog niet lukten, dan nieuwe, en daarna herhaling." />
 
-    <div class="container-page">
+    <div class="container-page mt-10">
         @if ($topics->isEmpty())
             <p class="text-muted">Er zijn nog geen oefeningen beschikbaar.</p>
         @else

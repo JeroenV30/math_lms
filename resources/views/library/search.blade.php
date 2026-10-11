@@ -1,16 +1,17 @@
 @extends('layouts.app', ['title' => $query !== '' ? 'Zoeken: '.$query : 'Zoeken'])
 
 @section('content')
-    <div class="container-page max-w-3xl pt-12 sm:pt-16">
-        <p class="eyebrow">Zoeken</p>
-        <form action="{{ route('search') }}" method="get" class="mt-3 flex gap-2" role="search">
+    <x-page-header eyebrow="Bibliotheek" title="Zoeken">
+        <form action="{{ route('search') }}" method="get" class="mt-5 flex max-w-2xl gap-2" role="search">
             <label for="q" class="sr-only">Zoekterm</label>
             <input id="q" type="search" name="q" value="{{ $query }}" class="input text-lg" placeholder="Pythagoras, breuken, Newton…" autofocus>
             <button class="btn btn-primary">Zoek</button>
         </form>
+    </x-page-header>
 
+    <div class="container-page mt-10 *:max-w-3xl">
         @if ($query !== '')
-            <p class="mt-6 text-sm text-muted">{{ $results->count() }} {{ $results->count() === 1 ? 'resultaat' : 'resultaten' }} voor „{{ $query }}”</p>
+            <p class="text-sm text-muted">{{ $results->count() }} {{ $results->count() === 1 ? 'resultaat' : 'resultaten' }} voor „{{ $query }}”</p>
             <ul class="mt-4 divide-y divide-line">
                 @forelse ($results as $result)
                     <li class="py-4">

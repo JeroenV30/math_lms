@@ -22,13 +22,8 @@
 </head>
 <body class="min-h-screen bg-paper">
     @php
-        // Welk kennisdomein is actief? De domeinpagina's hebben hun eigen id; de kaart hoort bij geen domein;
-        // alle andere pagina's (dashboard, cursus, oefenen …) horen bij wiskunde.
-        $activeDomain = match (true) {
-            request()->routeIs('domains.show', 'domains.lesson') => request()->route('domain'),
-            request()->routeIs('domains.index') => null,
-            default => 'wiskunde',
-        };
+        // Welk kennisdomein is actief? Zie DomainService::activeId().
+        $activeDomain = app(\App\Services\DomainService::class)->activeId();
         $currentDomain = $activeDomain ? $knowledgeDomains->firstWhere('id', $activeDomain) : null;
 
         // Menu per domein. Een domein zonder eigen menu (nog in voorbereiding) krijgt alleen de algemene onderdelen.

@@ -3,12 +3,11 @@
 @inject('markdown', 'App\Services\MarkdownRenderer')
 
 @section('content')
-    <div class="container-page max-w-3xl pt-10 sm:pt-14">
-        <nav class="text-sm text-muted" aria-label="Kruimelpad">
-            <a href="{{ route('module.show', $module->slug) }}" class="hover:text-ink">Module {{ $module->id }} – {{ $module->title }}</a>
-        </nav>
-        <p class="eyebrow mt-6">Hoofdstuktoets · {{ $quiz['questions']->count() }} vragen</p>
-        <h1 class="page-title mt-2">{{ $quiz['title'] }}</h1>
+    <x-page-header :eyebrow="'Hoofdstuktoets · '.$quiz['questions']->count().' vragen'" :title="$quiz['title']"
+                   :crumbs="[
+                       ['label' => 'Cursus', 'url' => route('course.index')],
+                       ['label' => 'Module '.$module->id.' – '.$module->title, 'url' => route('module.show', $module->slug)],
+                   ]">
         @if ($quiz['intro'])
             <div class="prose-content mt-4">{!! $markdown->render($quiz['intro']) !!}</div>
         @endif
@@ -18,8 +17,10 @@
                 Je beste score tot nu toe: <strong class="text-ink">{{ $progress->score }}%</strong>.
             @endif
         </p>
+    </x-page-header>
 
-        <form method="post" action="{{ route('quiz.submit', $module->slug) }}" class="mt-10 space-y-5"
+    <div class="container-page mt-10 *:max-w-3xl">
+        <form method="post" action="{{ route('quiz.submit', $module->slug) }}" class="space-y-5"
               x-data="{ submitting: false, answered: 0, count() { this.answered = [...$el.querySelectorAll('.exercise')].filter(q => [...q.querySelectorAll('input[type=text]')].some(i => i.value.trim() !== '')).length } }"
               @input="count()" @submit="submitting = true">
             @csrf

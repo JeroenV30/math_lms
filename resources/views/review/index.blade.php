@@ -1,13 +1,8 @@
 @extends('layouts.app', ['title' => 'Herhalen'])
 
 @section('content')
-    <div class="container-page max-w-3xl pt-10 sm:pt-14">
-        <p class="eyebrow">Spaced repetition</p>
-        <h1 class="page-title mt-2">Vandaag herhalen</h1>
-        <p class="mt-3 font-serif text-lg text-muted">
-            Oude stof komt terug voordat je die vergeet. De mix: vooral zwakke onderwerpen, wat normale herhaling en een beetje willekeurige oudere stof.
-        </p>
-
+    <x-page-header eyebrow="Spaced repetition" title="Vandaag herhalen"
+                   intro="Oude stof komt terug voordat je die vergeet. De mix: vooral zwakke onderwerpen, wat normale herhaling en een beetje willekeurige oudere stof.">
         @if ($dueTopics->isNotEmpty())
             <ul class="mt-6 flex flex-wrap gap-2" aria-label="Onderwerpen die aan de beurt zijn">
                 @foreach ($dueTopics as $topic)
@@ -17,8 +12,10 @@
                 @endforeach
             </ul>
         @endif
+    </x-page-header>
 
-        <div class="mt-10 space-y-5">
+    <div class="container-page mt-10 *:max-w-3xl">
+        <div class="space-y-5">
             @forelse ($items as $item)
                 @php $module = $content->getModule($item['exercise']->moduleId); @endphp
                 <div>

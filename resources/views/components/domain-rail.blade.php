@@ -1,6 +1,7 @@
 @props(['domains', 'active' => null])
 
 {{-- Linker navigatie tussen kennisdomeinen. Smal (monogrammen) of uitgeklapt (namen); de keuze wordt onthouden. --}}
+@php $domainService = app(\App\Services\DomainService::class); @endphp
 <aside class="sticky top-16 hidden h-[calc(100vh-4rem)] shrink-0 border-r border-line bg-mist/40 transition-[width] duration-200 lg:flex lg:flex-col"
        :class="open ? 'w-60' : 'w-16'"
        x-data="{
@@ -20,10 +21,10 @@
         @foreach ($domains as $domain)
             @php
                 $isActive = $active === $domain['id'];
-                $planned = ($domain['status'] ?? 'planned') !== 'available';
+                $planned = ! $domainService->isAvailable($domain);
             @endphp
             <a href="{{ route('domains.show', $domain['id']) }}"
-               title="{{ $domain['name'] }}{{ $planned ? ' — in voorbereiding' : '' }}"
+               title="{{ $domain['name'] }}{{ $planned ? ' — '.mb_strtolower($domainService->stageLabel($domain)) : '' }}"
                @class([
                    'group flex items-center gap-3 rounded-lg px-2 py-2 transition-colors',
                    'bg-paper shadow-sm ring-1 ring-line' => $isActive,
@@ -34,7 +35,7 @@
                 <span class="min-w-0" x-show="open" x-cloak>
                     <span @class(['block truncate text-sm font-medium', 'text-ink' => ! $planned || $isActive, 'text-ink-soft' => $planned && ! $isActive])>{{ $domain['name'] }}</span>
                     <span class="block truncate text-[0.7rem] text-muted">
-                        {{ $planned ? 'In voorbereiding' : implode(' · ', $domain['tagline'] ?? []) }}
+                        {{ $planned ? $domainService->stageLabel($domain) : implode(' · ', $domain['tagline'] ?? []) }}
                     </span>
                 </span>
                 <span class="sr-only" x-show="! open">{{ $domain['name'] }}</span>

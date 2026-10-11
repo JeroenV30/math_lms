@@ -24,7 +24,7 @@
 
         <article class="min-w-0 max-w-3xl">
             <header class="mb-10">
-                <p class="eyebrow">Les 1 · Introductie · circa {{ $lesson['estimated_minutes'] }} minuten</p>
+                <p class="eyebrow">Les 1 · Introductie</p>
                 <h1 class="page-title mt-2">{{ $lesson['title'] }}</h1>
             </header>
 
@@ -32,9 +32,10 @@
                 {!! $rendered['html'] !!}
             </div>
 
-            <footer class="mt-16 flex flex-col gap-4 border-t border-line pt-8 sm:flex-row sm:items-center sm:justify-between">
-                <a href="{{ route('domains.show', $domain['id']) }}" class="text-sm text-muted hover:text-ink">← Terug naar {{ $domain['name'] }}</a>
-                <span class="text-sm text-muted">Dit is de eerste stap; de rest van de leerlijn is in opbouw.</span>
+            <footer class="mt-16 flex flex-col gap-4 border-t border-line pt-8 sm:flex-row sm:items-center sm:justify-end">
+                <a href="{{ route('domains.show', $domain['id']) }}" class="btn btn-primary">
+                    Gelezen – terug naar {{ $domain['name'] }} <span aria-hidden="true">→</span>
+                </a>
             </footer>
         </article>
 

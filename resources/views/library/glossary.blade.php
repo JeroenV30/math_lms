@@ -3,19 +3,18 @@
 @inject('markdown', 'App\Services\MarkdownRenderer')
 
 @section('content')
-    <div class="container-page max-w-4xl pt-12 pb-6 sm:pt-16">
-        <p class="eyebrow">Woordenlijst</p>
-        <h1 class="page-title mt-2">Begrippen</h1>
-        <p class="mt-3 font-serif text-lg text-muted">Alle kernbegrippen uit de modules, met de plek waar ze worden uitgelegd.</p>
+    <x-page-header eyebrow="Woordenlijst" title="Begrippen"
+                   intro="Alle kernbegrippen uit de modules, met de plek waar ze worden uitgelegd." />
 
+    <div class="container-page mt-10 pb-6 *:max-w-4xl">
         @if ($groups->isNotEmpty())
-            <nav class="mt-8 flex flex-wrap gap-1.5" aria-label="Letters">
+            <nav class="flex flex-wrap gap-1.5" aria-label="Letters">
                 @foreach ($groups->keys() as $letter)
                     <a href="#letter-{{ $letter }}" class="flex h-8 w-8 items-center justify-center rounded-md border border-line text-sm text-muted hover:border-ink hover:text-ink">{{ $letter }}</a>
                 @endforeach
             </nav>
         @else
-            <p class="mt-8 text-muted">Nog geen begrippen.</p>
+            <p class="text-muted">Nog geen begrippen.</p>
         @endif
 
         @foreach ($groups as $letter => $entries)

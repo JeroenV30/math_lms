@@ -1,29 +1,23 @@
 @extends('layouts.app', ['title' => $overview['title'] ?? 'Kennisdomeinen'])
 
-@section('content')
-    <div class="container-page pt-12 pb-6 sm:pt-16">
-        <p class="eyebrow">{{ $overview['subtitle'] ?? '' }}</p>
-        <h1 class="page-title mt-2">{{ $overview['title'] ?? 'Kennisdomeinen' }}</h1>
-        <p class="mt-3 max-w-3xl font-serif text-lg text-muted">{{ $overview['intro'] ?? '' }}</p>
-    </div>
+@inject('domainService', 'App\Services\DomainService')
 
-    <div class="container-page grid gap-10 lg:grid-cols-[minmax(0,1fr)_22rem]">
+@section('content')
+    <x-page-header level="map" :domain="null"
+                   :eyebrow="$overview['subtitle'] ?? null"
+                   :title="$overview['title'] ?? 'Kennisdomeinen'"
+                   :intro="$overview['intro'] ?? null" />
+
+    <div class="container-page mt-10 grid gap-10 lg:grid-cols-[minmax(0,1fr)_22rem]">
         <ul class="grid content-start gap-3 sm:grid-cols-2">
             @foreach ($domains as $domain)
-                @php $planned = ($domain['status'] ?? 'planned') !== 'available'; @endphp
                 <li>
-                    <a href="{{ route('domains.show', $domain['id']) }}" class="card group flex h-full gap-4 p-5 transition-colors hover:border-line-strong">
+                    <a href="{{ $domainService->url($domain) }}" class="card group flex h-full gap-4 p-5 transition-colors hover:border-line-strong">
                         <x-domain-monogram :domain="$domain" size="lg" />
-                        <span class="min-w-0">
-                            <span class="flex items-baseline gap-2">
+                        <span class="min-w-0 flex-1">
+                            <span class="flex items-baseline justify-between gap-3">
                                 <span class="font-serif text-lg font-semibold text-ink group-hover:underline">{{ $domain['name'] }}</span>
-                                @if ($planned && ! empty($domain['starter_lesson']))
-                                    <span class="badge border-accent/30 text-accent">eerste les</span>
-                                @elseif ($planned)
-                                    <span class="badge">in voorbereiding</span>
-                                @else
-                                    <span class="badge border-success/30 text-success">beschikbaar</span>
-                                @endif
+                                <x-domain-status :domain="$domain" />
                             </span>
                             <span class="mt-0.5 block text-xs tracking-wide text-muted">{{ implode(' · ', $domain['tagline'] ?? []) }}</span>
                             <span class="mt-2 block text-sm leading-relaxed text-ink-soft">{{ $domain['description'] ?? '' }}</span>
