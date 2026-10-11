@@ -20,6 +20,7 @@ final readonly class Exercise
         public array $feedback,
         public array $topics,
         public bool $isQuizQuestion,
+        public array $choices = [],
     ) {}
 
     public static function fromArray(int $moduleId, array $data, bool $isQuizQuestion = false): self
@@ -48,6 +49,8 @@ final readonly class Exercise
             feedback: $data['feedback'] ?? [],
             topics: $data['topics'] ?? [],
             isQuizQuestion: $isQuizQuestion,
+            // Meerkeuze: de alternatieven, in de volgorde waarin ze getoond worden.
+            choices: array_values(array_map('strval', $data['choices'] ?? [])),
         );
     }
 
@@ -75,6 +78,11 @@ final readonly class Exercise
     public function isMultiple(): bool
     {
         return $this->type === 'multiple';
+    }
+
+    public function isChoice(): bool
+    {
+        return $this->type === 'choice';
     }
 
     /**

@@ -523,6 +523,28 @@
         @apply bg-ink-soft;
     }
 
+    /* Meerkeuze: elk alternatief is een klikbare regel. */
+    .choice {
+        @apply flex cursor-pointer items-start gap-3 rounded-lg border border-line bg-paper px-4 py-2.5 font-serif text-[1.02rem] leading-snug text-ink transition-colors hover:border-line-strong;
+    }
+
+    .choice:where(:has(.choice-input:checked)),
+    .choice-selected {
+        @apply border-accent bg-accent-soft;
+    }
+
+    .choice-correct {
+        @apply border-success bg-success-soft;
+    }
+
+    .choice-wrong {
+        @apply border-danger bg-danger-soft;
+    }
+
+    .choice-input {
+        @apply mt-1 h-4 w-4 shrink-0 accent-accent;
+    }
+
     .feedback {
         @apply mt-4 rounded-lg px-4 py-3 text-sm leading-relaxed;
     }

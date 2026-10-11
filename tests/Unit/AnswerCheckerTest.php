@@ -2,6 +2,7 @@
 
 namespace Tests\Unit;
 
+use App\Services\AnswerCheckers\ChoiceChecker;
 use App\Services\AnswerCheckers\DecimalChecker;
 use App\Services\AnswerCheckers\FractionChecker;
 use App\Services\AnswerCheckers\NumberParser;
@@ -120,5 +121,16 @@ class AnswerCheckerTest extends TestCase
         $this->assertTrue((new Fraction(2, 4))->equals(new Fraction(1, 2)));
         $this->assertSame('1/3', (string) Fraction::fromFloat(0.333333333));
         $this->assertSame('3/4', (string) Fraction::fromFloat(0.75));
+    }
+
+    public function test_choice_checker_compares_the_chosen_alternative(): void
+    {
+        $checker = new ChoiceChecker;
+
+        $this->assertTrue($checker->check('Een brief uit 1574', 'Een brief uit 1574')->correct);
+        $this->assertTrue($checker->check('  een brief  uit 1574 ', 'Een brief uit 1574')->correct);
+        $this->assertFalse($checker->check('Een recente website', 'Een brief uit 1574')->correct);
+        $this->assertTrue($checker->check('Een recente website', 'Een brief uit 1574')->valid);
+        $this->assertFalse($checker->check('', 'Een brief uit 1574')->valid);
     }
 }

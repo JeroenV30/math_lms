@@ -192,9 +192,35 @@ class DomainTest extends TestCase
         $this->assertDatabaseMissing('lesson_progress', ['course' => 'geschiedenis']);
 
         $this->post('/kennis/geschiedenis/cursus/bronnen/les/introductie/gelezen')
-            ->assertRedirect('/kennis/geschiedenis/cursus/bronnen');
+            ->assertRedirect('/kennis/geschiedenis/cursus/bronnen/toets');
         $this->assertDatabaseHas('lesson_progress', ['course' => 'geschiedenis', 'module_id' => 1, 'lesson_slug' => 'introductie']);
         $this->assertSame(1, DB::table('lesson_progress')->where('course', 'wiskunde')->count());
+    }
+
+    public function test_choice_exercises_and_quizzes_work_in_any_course(): void
+    {
+        $this->useFixtureContent();
+
+        $this->get('/kennis/geschiedenis/cursus/bronnen/les/introductie')
+            ->assertOk()
+            ->assertSee('type="radio"', false)
+            ->assertSee('Een schoolboek uit 1950');
+
+        $this->postJson('/kennis/geschiedenis/oefening/01-002/controleer', ['answer' => 'Een schoolboek uit 1950'])
+            ->assertOk()->assertJson(['correct' => false])->assertSee('secundaire bron');
+        $this->postJson('/kennis/geschiedenis/oefening/01-002/controleer', ['answer' => 'Een brief uit 1574'])
+            ->assertOk()->assertJson(['correct' => true]);
+        $this->assertDatabaseHas('topic_mastery', ['course' => 'geschiedenis', 'topic' => 'sources']);
+
+        $this->get('/kennis/geschiedenis/cursus/bronnen/toets')->assertOk()->assertSee('name="answers[01-T01]"', false);
+        $this->post('/kennis/geschiedenis/cursus/bronnen/toets', ['answers' => [
+            '01-T01' => 'Ze is ontstaan in de onderzochte tijd',
+            '01-T02' => 'secundaire bron',
+        ]])->assertRedirect();
+
+        $this->assertDatabaseHas('quiz_attempts', ['course' => 'geschiedenis', 'score' => 100]);
+        $this->assertDatabaseHas('module_progress', ['course' => 'geschiedenis', 'module_id' => 1, 'status' => 'mastered']);
+        $this->assertDatabaseMissing('module_progress', ['course' => 'wiskunde', 'status' => 'mastered']);
     }
 
     public function test_second_course_gets_its_own_menu_labels_and_exercises(): void

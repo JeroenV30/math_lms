@@ -7,9 +7,43 @@
       "difficulty": 2,
       "question": "Waarom is een brief uit 1574 een primaire bron voor onderzoek naar het beleg?",
       "answer": "Omdat de brief in de tijd en omgeving van het beleg is ontstaan.",
-      "hints": ["Kijk naar het moment waarop de brief is geschreven."],
-      "solution": ["De brief is ontstaan tijdens het beleg zelf, dus in de periode die je onderzoekt."],
-      "topics": ["sources"]
+      "hints": [
+        "Kijk naar het moment waarop de brief is geschreven."
+      ],
+      "solution": [
+        "De brief is ontstaan tijdens het beleg zelf, dus in de periode die je onderzoekt."
+      ],
+      "topics": [
+        "sources"
+      ]
+    },
+    {
+      "id": "01-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke bron is voor onderzoek naar het beleg van Leiden een primaire bron?",
+      "choices": [
+        "Een brief uit 1574",
+        "Een schoolboek uit 1950",
+        "Een recente website"
+      ],
+      "answer": "Een brief uit 1574",
+      "hints": [
+        "Primair zegt iets over de tijd waarin de bron ontstond."
+      ],
+      "solution": [
+        "De brief is in 1574 zelf geschreven; de andere bronnen zijn latere interpretaties."
+      ],
+      "feedback": [
+        {
+          "answer": "Een schoolboek uit 1950",
+          "message": "Dat is een latere interpretatie: een secundaire bron voor 1574."
+        }
+      ],
+      "topics": [
+        "sources"
+      ]
     }
   ]
 }

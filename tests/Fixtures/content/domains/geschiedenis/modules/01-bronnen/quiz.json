@@ -1,0 +1,41 @@
+{
+  "title": "Hoofdstuktoets – Werken met bronnen",
+  "intro": "Twee vragen.",
+  "questions": [
+    {
+      "id": "01-T01",
+      "type": "choice",
+      "difficulty": 1,
+      "question": "Wat maakt een bron primair?",
+      "choices": [
+        "Ze is ontstaan in de onderzochte tijd",
+        "Ze is altijd betrouwbaar",
+        "Ze is door een historicus geschreven"
+      ],
+      "answer": "Ze is ontstaan in de onderzochte tijd",
+      "solution": [
+        "Primair gaat over de afstand tot je vraag, niet over betrouwbaarheid."
+      ],
+      "topics": [
+        "sources"
+      ]
+    },
+    {
+      "id": "01-T02",
+      "type": "choice",
+      "difficulty": 2,
+      "question": "Een geschiedenisboek uit 1950 over 1574 is voor onderzoek naar 1574 een …",
+      "choices": [
+        "primaire bron",
+        "secundaire bron"
+      ],
+      "answer": "secundaire bron",
+      "solution": [
+        "Het boek interpreteert oudere bronnen."
+      ],
+      "topics": [
+        "sources"
+      ]
+    }
+  ]
+}

@@ -21,7 +21,7 @@
 
     <div class="container-page mt-10 *:max-w-3xl">
         <form method="post" action="{{ route('quiz.submit', $module->slug) }}" class="space-y-5"
-              x-data="{ submitting: false, answered: 0, count() { this.answered = [...$el.querySelectorAll('.exercise')].filter(q => [...q.querySelectorAll('input[type=text]')].some(i => i.value.trim() !== '')).length } }"
+              x-data="{ submitting: false, answered: 0, count() { this.answered = [...$el.querySelectorAll('.exercise')].filter(q => [...q.querySelectorAll('input[type=text]')].some(i => i.value.trim() !== '') || q.querySelector('input[type=radio]:checked')).length } }"
               @input="count()" @submit="submitting = true">
             @csrf
             @foreach ($quiz['questions'] as $question)
@@ -39,7 +39,18 @@
                             <div class="exercise-question mb-3 text-ink-soft">{!! $markdown->render($question->context) !!}</div>
                         @endif
                         <div class="exercise-question">{!! $markdown->render($question->question) !!}</div>
-                        @if ($question->isMultiple())
+                        @if ($question->isChoice())
+                            <fieldset class="mt-4 space-y-2">
+                                <legend class="sr-only">Antwoord op vraag {{ $loop->iteration }}</legend>
+                                @foreach ($question->choices as $choice)
+                                    <label class="choice">
+                                        <input type="radio" name="answers[{{ $question->id }}]" value="{{ $choice }}" class="choice-input"
+                                               @checked(old('answers.'.$question->id) === $choice)>
+                                        <span>{!! $markdown->inline($choice) !!}</span>
+                                    </label>
+                                @endforeach
+                            </fieldset>
+                        @elseif ($question->isMultiple())
                             <div class="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2">
                                 @foreach ($question->parts() as $i => $part)
                                     <div class="flex items-center gap-2">

@@ -19,6 +19,7 @@ class AnswerCheckerFactory
         'interval' => IntervalChecker::class,
         'multiple' => MultipleChecker::class,
         'text' => TextChecker::class,
+        'choice' => ChoiceChecker::class,
     ];
 
     public function __construct(private readonly Container $container) {}

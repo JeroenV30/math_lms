@@ -50,6 +50,17 @@
                 <label for="{{ $uid }}-input" class="sr-only">Jouw antwoord</label>
                 <textarea id="{{ $uid }}-input" rows="4" class="input w-full font-sans text-[0.95rem] leading-relaxed" placeholder="Schrijf je antwoord in een paar zinnen…"
                           x-model="answer" @focus="start()" @input="edited()" :disabled="isCorrect"></textarea>
+            @elseif ($exercise->isChoice())
+                <fieldset class="w-full space-y-2">
+                    <legend class="sr-only">Kies een antwoord</legend>
+                    @foreach ($exercise->choices as $i => $choice)
+                        <label class="choice" :class="{ 'choice-selected': answer === @js($choice), 'choice-correct': isCorrect && answer === @js($choice), 'choice-wrong': status === 'incorrect' && answer === @js($choice) }">
+                            <input type="radio" name="{{ $uid }}-choice" value="{{ $choice }}" class="choice-input"
+                                   x-model="answer" @focus="start()" @change="edited()" :disabled="isCorrect">
+                            <span>{!! $markdown->inline($choice) !!}</span>
+                        </label>
+                    @endforeach
+                </fieldset>
             @elseif ($exercise->isMultiple())
                 @foreach ($exercise->parts() as $i => $part)
                     <div class="flex items-center gap-2">

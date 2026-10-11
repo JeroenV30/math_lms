@@ -197,6 +197,7 @@ overschrijven. Houd afbeeldingen klein (max. ~1200 px breed, < 400 kB).
 | `interval` | string `"[2; 8⟩"` | `tolerance` | `[2; 8]`, `⟨2; 8]`, `<2, 8]`, `(2, 8)`, `[3; ∞⟩` |
 | `multiple` | – (gebruik `parts`) | per deel de opties van zijn type | één invoerveld per deel |
 | `text` | modelantwoord (string) | `min_length` (standaard 40) | open antwoord in een tekstvak; niet automatisch beoordeeld |
+| `choice` | tekst van het juiste alternatief | `choices` (lijst, minstens 2) | meerkeuze: één alternatief aanklikken; ook in toetsen |
 
 Bij `multiple` staat in plaats van `answer` een lijst `parts`:
 
@@ -205,6 +206,22 @@ Bij `multiple` staat in plaats van `answer` een lijst `parts`:
 "parts": [
   { "label": "x", "answer": 7, "type": "numeric" },
   { "label": "y", "answer": 3, "type": "numeric" }
+]
+```
+
+Bij `choice` (meerkeuze) staan de alternatieven in `choices`; `answer` is de tekst
+van het juiste alternatief, zodat je de volgorde vrij kunt veranderen. Gebruik
+`feedback` om bij een bekend fout alternatief uit te leggen waarom het niet klopt.
+Goede afleiders zijn denkbare misvattingen, geen onzin. Voor domeinen zonder
+rekenwerk is `choice` het type voor toetsvragen (`text` mag niet in een toets).
+
+```json
+"type": "choice",
+"question": "Welke bron is voor onderzoek naar het beleg van Leiden een primaire bron?",
+"choices": ["Een brief uit 1574", "Een schoolboek uit 1950", "Een recente website"],
+"answer": "Een brief uit 1574",
+"feedback": [
+  { "answer": "Een schoolboek uit 1950", "message": "Dat is een latere interpretatie: een secundaire bron voor 1574." }
 ]
 ```
 

@@ -247,6 +247,13 @@ class ContentValidator
             default => (string) $exercise->answer,
         };
 
+        if ($exercise->isChoice()) {
+            $choices = array_map(fn (string $c) => mb_strtolower(trim($c)), $exercise->choices);
+            $this->expect(count($choices) >= 2, "{$id}: meerkeuze heeft minstens twee keuzes nodig.");
+            $this->expect(count($choices) === count(array_unique($choices)), "{$id}: dubbele keuzes.");
+            $this->expect(in_array(mb_strtolower(trim((string) $exercise->answer)), $choices, true), "{$id}: het antwoord staat niet tussen de keuzes.");
+        }
+
         if ($exercise->isMultiple()) {
             foreach ($exercise->parts() as $i => $part) {
                 $this->expect(isset($part['label'], $part['answer']), "{$id}: deel ".($i + 1).' mist label of answer.');
