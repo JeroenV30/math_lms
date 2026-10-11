@@ -22,27 +22,6 @@ De geschiedenis van het schrift is daarom ook een geschiedenis van macht en deel
 
 In deze introductie kijk je naar schrijven als een menselijke oplossing voor communicatieproblemen. Je leert het onderscheid tussen taal, schrift en alfabet, en je ziet waarom een schriftsysteem meer is dan een verzameling tekens. De latere lessen volgen hoe systemen ontstonden, hoe het alfabet veranderde en hoe lezen en schrijven samenlevingen vormgaven.
 
-## Leerdoelen
-
-Na deze introductie kun je:
-
-- uitleggen waarom mensen schrift gebruiken en wat het mogelijk maakt;
-- taal, schrift en alfabet van elkaar onderscheiden;
-- beschrijven hoe een teken betekenis krijgt binnen gedeelde afspraken;
-- uitleggen waarom het materiaal en doel van een tekst invloed hebben op de vorm;
-- voorbeelden geven van wat schrift bewaart en wat in geschreven communicatie verloren kan gaan.
-
-## Kernbegrippen
-
-- **Taal** — Een gedeeld systeem waarmee mensen betekenis uitwisselen, bijvoorbeeld via spraak, gebaren of schrift.
-- **Schrift** — Een systeem van zichtbare of tastbare tekens waarmee taal of andere informatie wordt vastgelegd.
-- **Schriftsysteem** — De afspraken waarmee tekens worden gebruikt om taal of betekenis weer te geven.
-- **Teken** — Een vorm die binnen een afgesproken systeem naar iets verwijst of een functie heeft.
-- **Pictogram** — Een teken dat door gelijkenis een voorwerp, handeling of begrip kan voorstellen.
-- **Logogram** — Een teken dat een woord of betekenisvol element weergeeft.
-- **Alfabet** — Een schriftsysteem met tekens die in beginsel afzonderlijke klanken van spraak weergeven.
-- **Geletterdheid** — Het vermogen om schrift in een bepaalde samenleving en context te gebruiken, waaronder lezen en schrijven.
-
 ## Taal en schrift zijn niet hetzelfde
 
 Mensen kunnen taal gebruiken zonder schrift. Gesproken talen bestaan al veel langer dan de oudste bekende schrijfsystemen. Ook gebarentalen zijn volwaardige talen met eigen grammaticale structuren; ze zijn niet simpelweg gebaren bij gesproken woorden. Schrift is dus geen voorwaarde voor taal, maar een manier om taal of informatie vast te leggen.
@@ -102,3 +81,7 @@ Door al die onderwerpen heen blijft de basisvraag dezelfde: hoe wordt betekenis 
 Kies een korte geschreven boodschap die je onlangs ontving: een bericht, melding, instructie of aankondiging. Welke informatie kan de tekst bewaren en doorgeven zonder dat de schrijver aanwezig is? Welke toon of bedoeling moest je zelf afleiden? Bedenk hoe een gesprek die boodschap anders had kunnen laten klinken.
 
 Schrijven is meer dan gesproken taal op papier zetten. Het is een manier om betekenis vast te leggen met tekens, dragers en gedeelde afspraken. Zodra je dat ziet, kun je teksten tegelijk lezen als boodschappen en als sporen van de mensen, instellingen en omstandigheden die ze hebben voortgebracht.
+
+{{ goals }}
+
+{{ glossary }}

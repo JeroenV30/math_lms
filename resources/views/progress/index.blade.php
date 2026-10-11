@@ -8,7 +8,7 @@
 
     <div class="container-page mt-10 grid grid-cols-[minmax(0,1fr)] gap-6 lg:grid-cols-4">
         <div class="card p-5">
-            <p class="eyebrow">Totaal gemaakte sommen</p>
+            <p class="eyebrow">Totaal gemaakte opgaven</p>
             <p class="mt-2 font-serif text-3xl font-semibold text-ink tabular-nums">{{ number_format($stats['total_attempts'], 0, ',', '.') }}</p>
             <p class="mt-1 text-xs text-muted">{{ $stats['exercises'] }} verschillende opgaven</p>
         </div>
@@ -70,7 +70,7 @@
                 <div>
                     <h2 class="eyebrow">Sommen per dag</h2>
                     @php $maxDay = max(1, $stats['by_day']->max()); @endphp
-                    <div class="mt-3 flex h-24 items-end gap-1.5" role="img" aria-label="Aantal sommen per dag, laatste 14 dagen">
+                    <div class="mt-3 flex h-24 items-end gap-1.5" role="img" aria-label="Aantal opgaven per dag, laatste 14 dagen">
                         @foreach ($stats['by_day'] as $day => $count)
                             <div class="flex flex-1 flex-col items-center gap-1" title="{{ \Illuminate\Support\Carbon::parse($day)->locale('nl')->isoFormat('D MMM') }}: {{ $count }}">
                                 <div class="w-full max-w-6 rounded-t bg-accent/80" style="height: {{ max(4, $count / $maxDay * 80) }}px"></div>

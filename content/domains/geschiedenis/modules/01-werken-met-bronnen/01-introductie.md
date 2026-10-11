@@ -22,26 +22,6 @@ Dat vraagt om terughoudendheid. Een bron is niet automatisch waar omdat zij oud 
 
 In deze eerste les maak je kennis met de manier van denken die de rest van de module draagt. Je hoeft nog geen gespecialiseerde kennis van een periode te hebben. Wel oefen je een houding: vraag naar herkomst, doel, publiek en context; vergelijk de aanwijzingen; en formuleer je conclusie niet stelliger dan het bewijs toelaat.
 
-## Leerdoelen
-
-Na deze introductie kun je:
-
-- uitleggen waarom historische kennis steunt op bronnen en interpretatie;
-- primaire en secundaire bronnen van elkaar onderscheiden;
-- bij een bron vragen stellen over maker, tijd, doel, publiek en omstandigheden;
-- uitleggen waarom een bron tegelijk bruikbaar en beperkt kan zijn;
-- een voorlopige historische conclusie formuleren en aangeven hoe zeker die is.
-
-## Kernbegrippen
-
-- **Historische bron** — Een overblijfsel of getuigenis uit of over het verleden dat je kunt gebruiken om een historische vraag te onderzoeken.
-- **Primaire bron** — Een bron die is ontstaan in de periode of omgeving die je onderzoekt, zoals een brief, rekening, wet, foto of voorwerp. De term zegt iets over de relatie tot je onderzoeksvraag, niet over betrouwbaarheid.
-- **Secundaire bron** — Een latere studie of uitleg waarin iemand bronnen interpreteert en een historisch betoog opbouwt.
-- **Herkomst** — Informatie over wie of wat een bron heeft gemaakt, wanneer, waar en onder welke omstandigheden.
-- **Context** — De omstandigheden en ontwikkelingen die helpen verklaren wat een bron betekende toen zij ontstond.
-- **Interpretatie** — Een onderbouwde uitleg van bronnen en gebeurtenissen. Verschillende interpretaties kunnen bestaan, maar niet elke uitleg is even goed onderbouwd.
-- **Betrouwbaarheid** — De mate waarin een bron geschikt is om een bepaalde bewering te ondersteunen. Dat verschilt per bron, bewering en onderzoeksvraag.
-
 ## Eerst de vraag, dan de bron
 
 Een onderzoek begint met een vraag die klein genoeg is om met beschikbare aanwijzingen te beantwoorden. “Hoe was het leven vroeger?” is te breed. “Welke problemen bij de voedselvoorziening komen naar voren in de Leidse bronnen uit 1574?” geeft richting. Je weet dan beter welke bronnen relevant kunnen zijn: bijvoorbeeld stadsrekeningen, brieven, besluiten of verslagen van ooggetuigen.
@@ -101,3 +81,7 @@ Door die route heen blijft één vraag terugkomen: hoe weet je wat je beweert te
 Kies een gebeurtenis waarover je al iets hebt gelezen of gehoord. Welke bron zou je willen raadplegen om een bewering daarover te controleren? Noteer wie die bron heeft gemaakt, voor welk publiek en met welk doel. Bedenk vervolgens één uitspraak die de bron waarschijnlijk kan ondersteunen en één uitspraak die je er niet zonder extra bewijs uit kunt afleiden.
 
 Je hoeft de onzekerheid niet weg te werken om tot kennis te komen. Een zorgvuldige historicus maakt zichtbaar waar de aanwijzingen sterk zijn, waar interpretatie begint en waar het materiaal zwijgt. Dat is geen tekortkoming van geschiedenis. Het is de manier waarop historische kennis betrouwbaar en bespreekbaar wordt.
+
+{{ goals }}
+
+{{ glossary }}

@@ -1,0 +1,83 @@
+{
+  "id": 1,
+  "slug": "de-aarde-als-planeet",
+  "title": "De aarde als planeet",
+  "part": 1,
+  "level": "fundamenten",
+  "status": "available",
+  "historical_period": "Hellenistische tijd",
+  "estimated_difficulty": 1,
+  "estimated_minutes": 15,
+  "prerequisites": [],
+  "topics": [
+    "earth-shape",
+    "scale",
+    "observation"
+  ],
+  "core_question": "Een planeet leren lezen",
+  "summary": "Van de vorm van de aarde en het weer tot sterren en sterrenstelsels. Van Eratosthenes en Copernicus tot platentektoniek en de oerknal.",
+  "learning_goals": [
+    "Je kunt beschrijven waarom de aarde ongeveer bolvormig is en waarom een kaart altijd een projectie gebruikt.",
+    "Je kunt uitleggen hoe Eratosthenes uit een hoek en een afstand de omtrek van de aarde kon schatten.",
+    "Je kunt de rol van breedtegraad en lengtegraad in plaatsbepaling beschrijven.",
+    "Je kunt uitleggen hoe de rotatie van de aarde dag en nacht veroorzaakt en hoe de schuine aardas bijdraagt aan seizoenen.",
+    "Je kunt onderscheid maken tussen weer en klimaat.",
+    "Je kunt uitleggen waarom wetenschappers modellen en indirecte waarnemingen gebruiken om de aarde en ruimte te onderzoeken."
+  ],
+  "glossary": [
+    {
+      "term": "Planeet",
+      "definition": "Een groot hemellichaam dat om een ster draait en zelf geen ster is."
+    },
+    {
+      "term": "Rotatie",
+      "definition": "Het draaien van een hemellichaam om een eigen as."
+    },
+    {
+      "term": "Omloop",
+      "definition": "De beweging van een hemellichaam in een baan rond een ander hemellichaam."
+    },
+    {
+      "term": "Aardas",
+      "definition": "De denkbeeldige lijn waar de aarde omheen draait; die staat schuin ten opzichte van het baanvlak."
+    },
+    {
+      "term": "Breedtegraad",
+      "definition": "Hoekpositie ten noorden of zuiden van de evenaar."
+    },
+    {
+      "term": "Lengtegraad",
+      "definition": "Hoekpositie ten oosten of westen van een nulmeridiaan."
+    },
+    {
+      "term": "Kaartprojectie",
+      "definition": "Een methode om het gebogen aardoppervlak op een plat vlak weer te geven."
+    },
+    {
+      "term": "Zwaartekracht",
+      "definition": "De aantrekkende wisselwerking tussen objecten met massa."
+    },
+    {
+      "term": "Weer",
+      "definition": "De toestand van de atmosfeer op een bepaalde plaats en tijd."
+    },
+    {
+      "term": "Klimaat",
+      "definition": "Statistische patronen van het weer over langere perioden."
+    },
+    {
+      "term": "Model",
+      "definition": "Een vereenvoudigde beschrijving die helpt een systeem of verschijnsel te onderzoeken."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een planeet leren lezen",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    }
+  ],
+  "timeline": [],
+  "people": []
+}

@@ -30,27 +30,6 @@ Vervolgens kun je een interpretatie voorstellen. Misschien maakt een herhaalde v
 
 Een oordeel komt daarna, al lopen deze stappen in de praktijk soms door elkaar. “Ik vind dit werk indrukwekkend” is een geldige persoonlijke reactie, maar nog geen volledige uitleg. Je kunt onderzoeken wat die reactie oproept: de schaal, het onderwerp, de techniek, de plek of een herinnering van jezelf. Een ander kan dezelfde kenmerken anders ervaren. Door de redenen te benoemen, wordt verschil bespreekbaar zonder dat één smaak als universele maatstaf hoeft te gelden.
 
-## Leerdoelen
-
-Na deze eerste les kun je:
-
-- beschrijven waarom kunst en cultuur betekenis kunnen hebben zonder één vaste functie of boodschap;
-- waarneming, interpretatie en oordeel van elkaar onderscheiden;
-- formele kenmerken van een werk aanwijzen en toelichten hoe ze je aandacht sturen;
-- uitleggen hoe context en presentatie invloed hebben op de manier waarop je een werk leest;
-- een interpretatie onderbouwen met concrete kenmerken en tegelijk onzekerheid over bedoeling erkennen.
-
-## Kernbegrippen
-
-- **Kunstwerk:** een gemaakte vorm of handeling die binnen een bepaalde context als kunst wordt ervaren, gebruikt of besproken.
-- **Cultuur:** gedeelde praktijken, betekenissen en vormen waarmee mensen hun leven en samenleving vormgeven.
-- **Waarneming:** wat je rechtstreeks kunt zien, horen of anderszins ervaren.
-- **Interpretatie:** een mogelijke uitleg van betekenis of werking, onderbouwd met kenmerken en context.
-- **Vorm:** de manier waarop onderdelen van een werk zijn georganiseerd, zoals kleur, compositie, ritme of structuur.
-- **Materiaal:** de fysieke of digitale middelen waaruit een werk is gemaakt.
-- **Context:** omstandigheden die helpen een werk te begrijpen, zoals tijd, plaats, gebruik, publiek en opdrachtgever.
-- **Oordeel:** een waardering of conclusie over een werk, bij voorkeur met redenen toegelicht.
-
 ## De kijker maakt deel uit van de ontmoeting
 
 Een werk staat nooit helemaal los van degene die het ervaart. Je voorkennis, verwachtingen en herinneringen beïnvloeden wat je opmerkt. Iemand die een taal kent, kan woordspelingen in een gedicht herkennen die voor een andere lezer verborgen blijven. Iemand die een gebouw dagelijks gebruikt, ervaart het anders dan een bezoeker die er alleen foto's van ziet. Dat maakt elke interpretatie niet automatisch even overtuigend; het betekent dat de positie van de kijker deel van de situatie is.
@@ -76,3 +55,7 @@ Deze onderwerpen zijn niet van elkaar afgesloten. Een gebouw kan tegelijk techni
 ## Reflectie
 
 Kies een kunstwerk of cultureel object dat je uit eigen ervaring kent: een schilderij, lied, gedicht, filmbeeld, gebouw of gebruiksvoorwerp. Noteer drie dingen die je rechtstreeks kunt waarnemen. Formuleer daarna één mogelijke interpretatie en verwijs naar minstens één van die kenmerken als onderbouwing. Schrijf ook één vraag op waarop je het antwoord niet zeker weet. Wat verandert er aan je oordeel wanneer je onderscheid maakt tussen wat je ziet, wat je afleidt en wat je waardeert?
+
+{{ goals }}
+
+{{ glossary }}

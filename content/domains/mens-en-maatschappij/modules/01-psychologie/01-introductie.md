@@ -22,27 +22,6 @@ Psychologie probeert wel systematisch te werken. Een bewering moet duidelijk mak
 
 Deze module begint met psychologie als eerste ingang tot mens en maatschappij. Je leert gedrag niet meteen te verklaren met een karaktertrek of een enkel hersenproces. Je onderzoekt welke vraag is gesteld, hoe gegevens zijn verzameld en welke alternatieve verklaringen mogelijk zijn. Die werkwijze komt later terug bij sociologie, politiek, recht en economie, waar individuele keuzes ook in grotere structuren worden geplaatst.
 
-## Leerdoelen
-
-Na deze introductie kun je:
-
-- in eigen woorden beschrijven wat psychologie onderzoekt;
-- gedrag onderscheiden van mentale processen en van de omstandigheden waarin ze plaatsvinden;
-- een psychologische bewering omzetten in een onderzoekbare vraag;
-- uitleggen waarom waarneming en meting niet hetzelfde zijn als een volledige verklaring;
-- aangeven waarom een onderzoeksuitkomst niet zonder meer voor ieder individu geldt.
-
-## Kernbegrippen
-
-- **Psychologie** — De wetenschappelijke studie van gedrag en mentale processen.
-- **Gedrag** — Handelingen en reacties die je kunt waarnemen, zoals spreken, kiezen of vermijden.
-- **Mentaal proces** — Een innerlijke activiteit, zoals waarnemen, herinneren, denken, voelen of verwachten.
-- **Waarneming** — Het proces waarin informatie uit de omgeving wordt geselecteerd en geïnterpreteerd.
-- **Hypothese** — Een toetsbare verwachting over een verband of verschil.
-- **Operationaliseren** — Een abstract begrip zo omschrijven dat duidelijk wordt hoe je het in een onderzoek observeert of meet.
-- **Variabele** — Een kenmerk dat verschillende waarden kan aannemen, bijvoorbeeld slaapduur, reactietijd of ervaren spanning.
-- **Vertekening** — Een systematische invloed die waarnemingen of conclusies een bepaalde kant op kan sturen.
-
 ## Van grote vraag naar onderzoekbare vraag
 
 “Waarom doen mensen wat ze doen?” is een indrukwekkende vraag, maar te breed om in één onderzoek te beantwoorden. Een onderzoeker maakt haar kleiner: “Heeft slaapduur invloed op de reactietijd van studenten bij een eenvoudige computertaak?” Nu zijn er begrippen die je kunt afbakenen. Je kunt slaapduur registreren, reactietijd meten en bepalen welke deelnemers en omstandigheden je onderzoekt.
@@ -100,3 +79,7 @@ De disciplines stellen verschillende vragen, maar ze raken elkaar. Een psycholoo
 Denk aan een alledaagse keuze die je onlangs hebt gemaakt, bijvoorbeeld iets uitstellen, iemand helpen of een bericht niet beantwoorden. Beschrijf eerst alleen het waarneembare gedrag. Noteer daarna twee mogelijke verklaringen die niet hetzelfde zijn. Welke informatie zou je nodig hebben om tussen die verklaringen te kunnen kiezen?
 
 Door gedrag en verklaring uit elkaar te houden, maak je ruimte voor onderzoek. Je behandelt mensen niet als raadsels die met één label kunnen worden opgelost, maar als personen van wie handelen betekenis krijgt in een lichaam, een geschiedenis en een sociale omgeving. Dat is het vertrekpunt voor psychologie en voor de rest van mens en maatschappij.
+
+{{ goals }}
+
+{{ glossary }}

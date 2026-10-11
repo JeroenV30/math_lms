@@ -2,6 +2,7 @@
 
 namespace Tests\Feature;
 
+use App\Services\CourseRegistry;
 use App\Services\DomainService;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\DB;
@@ -112,12 +113,11 @@ class DomainTest extends TestCase
         $domains = app(DomainService::class);
 
         $this->assertSame('available', $domains->stage($domains->find('wiskunde')));
-        $this->assertSame('starter', $domains->stage($domains->find('geschiedenis')));
+        $this->assertSame('building', $domains->stage($domains->find('geschiedenis')));
         $this->assertSame('planned', $domains->stage(['id' => 'x', 'status' => 'planned']));
 
-        // Kaart, zijbalk en domeinpagina gebruiken hetzelfde label.
-        $this->get('/')->assertOk()->assertSee('eerste les')->assertDontSee('in voorbereiding');
-        $this->get('/kennis/geschiedenis')->assertOk()->assertSee('>eerste les</span>', false)->assertSee('Eerste les');
+        // Kaart en zijbalk gebruiken hetzelfde label; elk domein heeft inmiddels een cursus.
+        $this->get('/')->assertOk()->assertSee('>in opbouw</span>', false)->assertSee('In opbouw')->assertDontSee('in voorbereiding');
     }
 
     public function test_page_headers_share_one_breadcrumb_trail(): void
@@ -139,11 +139,12 @@ class DomainTest extends TestCase
             ->assertSeeInOrder(['Kruimelpad', 'Kaart van kennis', 'Instellingen'], false);
     }
 
-    public function test_domain_without_a_starter_lesson_returns_not_found_for_lesson_route(): void
+    public function test_old_starter_lesson_address_needs_a_course(): void
     {
         $this->useFixtureContent();
 
         $this->get('/kennis/biologie/les/wat-is-leven')->assertNotFound();
+        $this->get('/kennis/geschiedenis/les/wat-dan-ook')->assertRedirect('/kennis/geschiedenis/cursus/bronnen/les/introductie');
     }
 
     public function test_domain_with_a_course_shows_its_dashboard(): void
@@ -272,23 +273,25 @@ class DomainTest extends TestCase
         }
     }
 
-    public function test_every_real_non_math_domain_has_a_readable_starter_lesson(): void
+    public function test_every_real_domain_has_a_course_with_a_first_lesson(): void
     {
-        $domains = app(DomainService::class);
+        $courses = app(CourseRegistry::class);
 
-        foreach ($domains->all()->where('id', '!=', 'wiskunde') as $domain) {
-            $lesson = $domains->starterLesson($domain);
+        foreach (app(DomainService::class)->all() as $domain) {
+            $this->assertTrue($courses->has($domain['id']), "{$domain['id']} heeft geen cursus.");
 
-            $this->assertNotNull($lesson, "{$domain['id']} mist een startles.");
-            $this->assertFileExists($domains->starterLessonPath($domain));
+            $module = $courses->for($domain['id'])->getModule(1);
+            $lesson = $module->firstLesson();
 
-            $response = $this->get(route('domains.lesson', [$domain['id'], $lesson['slug']]))
+            $response = $this->get("/kennis/{$domain['id']}/cursus/{$module->slug}/les/{$lesson->slug}")
                 ->assertOk()
-                ->assertSee($lesson['title'])
-                ->assertSee($lesson['module'])
-                ->assertSee('Menu '.$domain['name']);
+                ->assertSee($lesson->title)
+                ->assertSee($module->title)
+                ->assertSee('Menu '.$domain['name'])
+                ->assertSee('Na deze module');
 
             $this->assertSame(1, substr_count($response->getContent(), '<h1'));
+            $this->get("/kennis/{$domain['id']}")->assertOk()->assertSee($module->title);
         }
     }
 }

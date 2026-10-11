@@ -1,0 +1,66 @@
+{
+  "title": "Biologie",
+  "subtitle": "Wat is leven, hoe werkt het en hoe is het ontstaan? Van Aristoteles' indelingen en Van Leeuwenhoeks microscoop tot Darwin, DNA en ecologie.",
+  "labels": {
+    "person": "Bioloog",
+    "people": "Biologen"
+  },
+  "parts": [
+    {
+      "number": 1,
+      "roman": "I",
+      "title": "De cel",
+      "level": "fundamenten",
+      "modules": [
+        1
+      ]
+    },
+    {
+      "number": 2,
+      "roman": "II",
+      "title": "Erfelijkheid en DNA",
+      "level": "fundamenten",
+      "modules": []
+    },
+    {
+      "number": 3,
+      "roman": "III",
+      "title": "Evolutie",
+      "level": "fundamenten",
+      "modules": []
+    },
+    {
+      "number": 4,
+      "roman": "IV",
+      "title": "Het menselijk lichaam",
+      "level": "fundamenten",
+      "modules": []
+    },
+    {
+      "number": 5,
+      "roman": "V",
+      "title": "Planten en fotosynthese",
+      "level": "fundamenten",
+      "modules": []
+    },
+    {
+      "number": 6,
+      "roman": "VI",
+      "title": "Micro-organismen",
+      "level": "fundamenten",
+      "modules": []
+    },
+    {
+      "number": 7,
+      "roman": "VII",
+      "title": "Ecosystemen en biodiversiteit",
+      "level": "fundamenten",
+      "modules": []
+    }
+  ],
+  "topics": {
+    "life": "Kenmerken van leven",
+    "cells": "De cel",
+    "scientific-method": "Wetenschappelijke methode"
+  }
+}

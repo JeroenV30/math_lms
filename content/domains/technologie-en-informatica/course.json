@@ -1,0 +1,59 @@
+{
+  "title": "Technologie & informatica",
+  "subtitle": "Hoe maken mensen gereedschap, machines en rekenende systemen? Van het wiel en de abacus tot computers, algoritmen en kunstmatige intelligentie.",
+  "labels": {
+    "person": "Pionier",
+    "people": "Pioniers"
+  },
+  "parts": [
+    {
+      "number": 1,
+      "roman": "I",
+      "title": "Gereedschap en machines",
+      "level": "fundamenten",
+      "modules": [
+        1
+      ]
+    },
+    {
+      "number": 2,
+      "roman": "II",
+      "title": "Energie en techniek",
+      "level": "fundamenten",
+      "modules": []
+    },
+    {
+      "number": 3,
+      "roman": "III",
+      "title": "Hoe een computer werkt",
+      "level": "fundamenten",
+      "modules": []
+    },
+    {
+      "number": 4,
+      "roman": "IV",
+      "title": "Algoritmen en programmeren",
+      "level": "fundamenten",
+      "modules": []
+    },
+    {
+      "number": 5,
+      "roman": "V",
+      "title": "Netwerken en internet",
+      "level": "fundamenten",
+      "modules": []
+    },
+    {
+      "number": 6,
+      "roman": "VI",
+      "title": "Data en kunstmatige intelligentie",
+      "level": "fundamenten",
+      "modules": []
+    }
+  ],
+  "topics": {
+    "design": "Ontwerpen",
+    "tools": "Werktuigen",
+    "systems": "Systemen"
+  }
+}

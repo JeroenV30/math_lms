@@ -32,27 +32,6 @@ Een filosofisch onderzoek kan in enkele stappen verlopen. Eerst formuleer je de 
 
 De Socratische vraagmethode is één historische vorm van filosofisch onderzoek, maar niet de enige. Filosofen schrijven ook verhandelingen, analyseren taal, bouwen formele argumenten op, vergelijken ervaringen en toetsen begrippen aan concrete gevallen. Een gesprek kan helpen, maar alleen als deelnemers werkelijk luisteren en redenen beoordelen. Vragen stellen om iemand te vernederen is geen zorgvuldig onderzoek.
 
-## Leerdoelen
-
-Na deze eerste les kun je:
-
-- uitleggen waarom filosofie vragen stelt over kennis, werkelijkheid, waarden en redeneren;
-- een filosofische vraag onderscheiden van een vraag die alleen door waarneming of meting wordt beantwoord;
-- een standpunt, een reden en een tegenvoorbeeld in een eenvoudig gesprek herkennen;
-- uitleggen waarom een tegenvoorbeeld een bewering kan aanscherpen zonder het gesprek meteen te beëindigen;
-- je eigen onzekerheid benoemen en aangeven welke informatie of reden je oordeel zou kunnen veranderen.
-
-## Kernbegrippen
-
-- **Filosofie:** systematisch onderzoek naar fundamentele vragen over onder meer kennis, werkelijkheid, waarden en redeneren.
-- **Vraagstelling:** de precieze formulering van het probleem dat je wilt onderzoeken.
-- **Standpunt:** een bewering of oordeel dat iemand verdedigt.
-- **Argument:** een redenering waarin redenen steun geven aan een standpunt.
-- **Aanname:** een idee dat in een redenering wordt gebruikt zonder dat het daar eerst wordt bewezen.
-- **Tegenvoorbeeld:** een concreet geval dat laat zien dat een algemene bewering mogelijk te ruim of onjuist is.
-- **Begrip:** een idee dat met een woord wordt aangeduid en dat je kunt proberen af te bakenen, zoals kennis of rechtvaardigheid.
-- **Tegenspraak:** een situatie waarin twee beweringen niet tegelijk waar kunnen zijn in dezelfde betekenis en onder dezelfde omstandigheden.
-
 ## Een vraag is nog geen argument
 
 Dat je een moeilijke vraag stelt, betekent nog niet dat je al een argument hebt gegeven. “Wat is rechtvaardig?” opent een onderzoek. “Een regel is rechtvaardig als die voor iedereen op dezelfde manier geldt” is een mogelijke bewering. “Want uitzonderingen op basis van persoonlijke voorkeur maken de regel willekeurig” is een reden. Je kunt vervolgens vragen of gelijke toepassing altijd rechtvaardig is. Als een regel bijvoorbeeld iemand met een beperking benadeelt, kan gelijke behandeling juist een ongelijk effect hebben.
@@ -78,3 +57,7 @@ Deze gebieden zijn geen afgesloten vakjes. Een discussie over kunstmatige intell
 ## Reflectie
 
 Kies een overtuiging die je belangrijk vindt, bijvoorbeeld over eerlijkheid, vrijheid of vertrouwen. Schrijf de overtuiging op als één duidelijke zin. Noteer daarna één reden die je ervoor hebt, één aanname die in die reden meespeelt en één tegenvoorbeeld dat je aan het twijfelen zou kunnen brengen. Verandert je standpunt door dat voorbeeld, of moet je het alleen nauwkeuriger formuleren? Leg voor jezelf vast welke stap in je redenering het meest onzeker is.
+
+{{ goals }}
+
+{{ glossary }}

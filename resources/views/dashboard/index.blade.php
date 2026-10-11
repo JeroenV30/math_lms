@@ -18,9 +18,9 @@
                 <div class="progress-bar" style="width: {{ max($stats['percentage'], $stats['started'] > 0 ? 1 : 0) }}%"></div>
             </div>
             <dl class="mt-4 flex flex-wrap gap-x-8 gap-y-2 text-sm text-muted">
-                <div><dt class="inline">Gestart:</dt> <dd class="inline font-medium text-ink">{{ $stats['started'] }} van {{ $stats['total_modules'] }} modules</dd></div>
+                <div><dt class="inline">Gestart:</dt> <dd class="inline font-medium text-ink">{{ $stats['started'] }} van {{ $stats['total_modules'] }} {{ $stats['total_modules'] === 1 ? 'module' : 'modules' }}</dd></div>
                 <div><dt class="inline">Afgerond:</dt> <dd class="inline font-medium text-ink">{{ $stats['completed'] }}</dd></div>
-                <div><dt class="inline">Vandaag geoefend:</dt> <dd class="inline font-medium text-ink">{{ $stats['attempts_today'] }} {{ $stats['attempts_today'] === 1 ? 'som' : 'sommen' }}</dd></div>
+                <div><dt class="inline">Vandaag geoefend:</dt> <dd class="inline font-medium text-ink">{{ $stats['attempts_today'] }} {{ $stats['attempts_today'] === 1 ? 'opgave' : 'opgaven' }}</dd></div>
             </dl>
 
             @if ($target = $stats['continue'])
@@ -97,7 +97,8 @@
             <h2 class="section-title">De reis</h2>
             <a href="{{ route('course.index') }}" class="text-sm text-muted hover:text-ink">Volledig cursusoverzicht →</a>
         </div>
-        <ol class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7">
+        {{-- Op brede schermen één rij met alle delen, hoeveel het er per domein ook zijn. --}}
+        <ol class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-[repeat(var(--parts),minmax(0,1fr))]" style="--parts: {{ max(1, $parts->count()) }}">
             @foreach ($parts as $part)
                 @php
                     $done = $part['modules']->filter(fn ($m) => $moduleProgress->get($m->id)?->isAtLeast('completed'))->count();

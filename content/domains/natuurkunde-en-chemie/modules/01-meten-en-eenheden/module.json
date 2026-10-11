@@ -1,0 +1,75 @@
+{
+  "id": 1,
+  "slug": "meten-en-eenheden",
+  "title": "Meten en eenheden",
+  "part": 1,
+  "level": "fundamenten",
+  "status": "available",
+  "historical_period": "Franse Revolutie",
+  "estimated_difficulty": 1,
+  "estimated_minutes": 15,
+  "prerequisites": [],
+  "topics": [
+    "measurement",
+    "units",
+    "scientific-method"
+  ],
+  "core_question": "Waaruit bestaat de wereld en waarom beweegt en verandert ze?",
+  "summary": "Waaruit bestaat de wereld en waarom beweegt en verandert ze? Van de vier elementen van Empedocles via Newton en Lavoisier naar atomen, energie en quantummechanica.",
+  "learning_goals": [
+    "Je kunt uitleggen waarom een meetresultaat zowel een getalswaarde als een eenheid nodig heeft.",
+    "Je kunt beschrijven dat meten neerkomt op vergelijken met een afgesproken maat.",
+    "Je kunt het verschil benoemen tussen waarneming, meting en interpretatie.",
+    "Je kunt uitleggen waarom eenheden, meetmethode en herhaalbaarheid nodig zijn om resultaten te vergelijken.",
+    "Je kunt herkennen dat een instrument en zijn afleesnauwkeurigheid grenzen stellen aan een meting.",
+    "Je kunt beschrijven hoe grootheden en eenheden natuurkunde en chemie met elkaar verbinden."
+  ],
+  "glossary": [
+    {
+      "term": "Grootheid",
+      "definition": "Een meetbare eigenschap, zoals lengte, tijd, massa of temperatuur."
+    },
+    {
+      "term": "Eenheid",
+      "definition": "Een afgesproken maat waarmee je een grootheid uitdrukt, zoals meter of seconde."
+    },
+    {
+      "term": "Meetresultaat",
+      "definition": "De combinatie van een getalswaarde, een eenheid en de context waarin is gemeten."
+    },
+    {
+      "term": "SI",
+      "definition": "Het Internationaal Stelsel van Eenheden, de internationale afspraak voor wetenschappelijke basiseenheden en afgeleide eenheden."
+    },
+    {
+      "term": "Meetmethode",
+      "definition": "De beschreven werkwijze waarmee je een grootheid bepaalt."
+    },
+    {
+      "term": "Meetonzekerheid",
+      "definition": "De begrensde twijfel over de waarde die een meting kan opleveren, gegeven instrument en methode."
+    },
+    {
+      "term": "Massa",
+      "definition": "Een grootheid die aangeeft hoeveel materie een voorwerp bevat; de SI-eenheid is kilogram."
+    },
+    {
+      "term": "Volume",
+      "definition": "De ruimte die een voorwerp of hoeveelheid stof inneemt."
+    },
+    {
+      "term": "Dichtheid",
+      "definition": "De massa per volume-eenheid van een materiaal."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Meten is vergelijken",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    }
+  ],
+  "timeline": [],
+  "people": []
+}

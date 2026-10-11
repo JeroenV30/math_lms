@@ -1,0 +1,75 @@
+{
+  "id": 1,
+  "slug": "de-cel",
+  "title": "De cel",
+  "part": 1,
+  "level": "fundamenten",
+  "status": "available",
+  "historical_period": "Gouden Eeuw",
+  "estimated_difficulty": 1,
+  "estimated_minutes": 15,
+  "prerequisites": [],
+  "topics": [
+    "life",
+    "cells",
+    "scientific-method"
+  ],
+  "core_question": "Wat is leven, hoe werkt het en hoe is het ontstaan?",
+  "summary": "Wat is leven, hoe werkt het en hoe is het ontstaan? Van Aristoteles' indelingen en Van Leeuwenhoeks microscoop tot Darwin, DNA en ecologie.",
+  "learning_goals": [
+    "Je kunt uitleggen waarom leven niet met één enkel kenmerk te definiëren is.",
+    "Je kunt meerdere kenmerken noemen die biologen gezamenlijk gebruiken om leven te beschrijven.",
+    "Je kunt uitleggen waarom de cel een centraal uitgangspunt in de biologie is.",
+    "Je kunt onderscheid maken tussen waarneming, experiment en verklaring.",
+    "Je kunt beschrijven hoe een microscoop nieuwe biologische vragen mogelijk maakte.",
+    "Je kunt uitleggen waarom biologische verklaringen verschillende schaalniveaus verbinden."
+  ],
+  "glossary": [
+    {
+      "term": "Organisme",
+      "definition": "Een afzonderlijk levend systeem, eencellig of opgebouwd uit veel cellen."
+    },
+    {
+      "term": "Cel",
+      "definition": "De basiseenheid van structuur en functie in levende organismen."
+    },
+    {
+      "term": "Celtheorie",
+      "definition": "Het uitgangspunt dat organismen uit cellen bestaan en nieuwe cellen uit bestaande cellen ontstaan."
+    },
+    {
+      "term": "Stofwisseling",
+      "definition": "Het geheel van chemische reacties waarmee een organisme stoffen omzet en energie verwerkt."
+    },
+    {
+      "term": "Homeostase",
+      "definition": "Het actief binnen grenzen houden van belangrijke interne omstandigheden."
+    },
+    {
+      "term": "Erfelijk materiaal",
+      "definition": "Moleculaire informatie die bij voortplanting kan worden doorgegeven; bij bekende organismen is dat DNA of RNA."
+    },
+    {
+      "term": "Populatie",
+      "definition": "Organismen van dezelfde soort die in een gebied leven en zich onderling kunnen voortplanten."
+    },
+    {
+      "term": "Evolutie",
+      "definition": "Verandering in erfelijke kenmerken van populaties over generaties."
+    },
+    {
+      "term": "Ecosysteem",
+      "definition": "Organismen in een gebied en de wisselwerkingen met hun niet-levende omgeving."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Wat is leven?",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    }
+  ],
+  "timeline": [],
+  "people": []
+}

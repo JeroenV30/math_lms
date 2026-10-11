@@ -48,29 +48,6 @@ Een bruikbare meting begint dus met een vraag. “Is dit metaal zwaar?” is vaa
 
 Dat proces is geen rechte lijn. Een eerste meting kan laten zien dat je vraag te breed was. Een onverwacht resultaat kan wijzen op een fout, maar ook op een verschijnsel dat je nog niet begreep. Herhalen en verbeteren horen bij onderzoek. Een nauwkeurige wetenschappelijke houding betekent niet dat je nooit twijfelt; het betekent dat je je twijfel zichtbaar maakt en probeert te verkleinen.
 
-## Leerdoelen
-
-Na deze introductie kun je:
-
-- uitleggen waarom een meetresultaat zowel een getalswaarde als een eenheid nodig heeft;
-- beschrijven dat meten neerkomt op vergelijken met een afgesproken maat;
-- het verschil benoemen tussen waarneming, meting en interpretatie;
-- uitleggen waarom eenheden, meetmethode en herhaalbaarheid nodig zijn om resultaten te vergelijken;
-- herkennen dat een instrument en zijn afleesnauwkeurigheid grenzen stellen aan een meting;
-- beschrijven hoe grootheden en eenheden natuurkunde en chemie met elkaar verbinden.
-
-## Kernbegrippen
-
-- **Grootheid** — een meetbare eigenschap, zoals lengte, tijd, massa of temperatuur.
-- **Eenheid** — een afgesproken maat waarmee je een grootheid uitdrukt, zoals meter of seconde.
-- **Meetresultaat** — de combinatie van een getalswaarde, een eenheid en de context waarin is gemeten.
-- **SI** — het Internationaal Stelsel van Eenheden, de internationale afspraak voor wetenschappelijke basiseenheden en afgeleide eenheden.
-- **Meetmethode** — de beschreven werkwijze waarmee je een grootheid bepaalt.
-- **Meetonzekerheid** — de begrensde twijfel over de waarde die een meting kan opleveren, gegeven instrument en methode.
-- **Massa** — een grootheid die aangeeft hoeveel materie een voorwerp bevat; de SI-eenheid is kilogram.
-- **Volume** — de ruimte die een voorwerp of hoeveelheid stof inneemt.
-- **Dichtheid** — de massa per volume-eenheid van een materiaal.
-
 ## Routekaart
 
 In de eerste module onderzoek je meten, grootheden en eenheden. Je leert later waarom snelheid afstand per tijd is en hoe je eenheden bij berekeningen gebruikt. Daarna volgen beweging en krachten: die onderwerpen verklaren hoe snelheid verandert en hoe voorwerpen op elkaar inwerken. Bij energie en warmte bekijk je overdracht en behoud. Vervolgens verschuift de aandacht naar materie, atomen en het periodiek systeem. Chemische reacties laten zien hoe stoffen veranderen, terwijl massa, temperatuur en energie helpen die verandering te beschrijven.
@@ -82,3 +59,7 @@ Daarna verbind je elektrische en magnetische verschijnselen aan deeltjes en veld
 Kies een meting die je vandaag hebt gedaan of had kunnen doen, bijvoorbeeld de tijd van een reis, de hoeveelheid koffie of de temperatuur buiten. Welke grootheid wilde je kennen? Welke eenheid gebruikte je? Welk instrument bepaalde de uitkomst, en welke omstandigheden kunnen die uitkomst hebben beïnvloed? Schrijf de meting zo op dat iemand anders begrijpt wat je hebt gedaan en het in beginsel kan herhalen.
 
 Vraag jezelf daarna af wat je conclusie wel en niet bewijst. Een temperatuur vertelt iets over een plaats en een moment, niet automatisch over het hele seizoen. Een gewicht op een keukenweegschaal zegt iets over de totale massa op het bord, niet over de samenstelling van het eten. Door die grenzen mee te nemen, wordt meten meer dan cijfers verzamelen: het wordt een manier om zorgvuldig kennis op te bouwen.
+
+{{ goals }}
+
+{{ glossary }}

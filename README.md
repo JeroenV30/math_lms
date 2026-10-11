@@ -22,7 +22,7 @@ de geschiedenis van het wiskundige denken als leidraad. Gebouwd volgens
 | Deel VII – HBO/WO statistiek (modules 36–42) | 56 lessen, 309 oefeningen, 105 toetsvragen | uitgebreid |
 | Historische tijdlijn | 60 gebeurtenissen | |
 | Wiskundigenbibliotheek | 23 profielen | |
-| Oefenengine | numeric, decimal, fraction, expression, coordinate, interval, multiple, text (+ foutenanalyse) | |
+| Oefenengine | numeric, decimal, fraction, expression, coordinate, interval, multiple, text, choice (+ foutenanalyse) | |
 | Voortgang, beheersing, spaced repetition | werkend | |
 
 Alle 42 modules zijn beschikbaar en uitgebreid: samen 330 lessen, 1.746 oefeningen
@@ -149,14 +149,18 @@ toegevoegd.
 
 Deze cursus is het eerste domein van een bredere kaart van menselijke kennis.
 Links in de applicatie staat een navigatiebalk met alle domeinen (in te klappen
-tot monogrammen); `/kennis` toont de kaart en `/kennis/{domein}` de opzet per
-domein. De domeinen staan in `content/domains.json` (naam, kernwoorden, kleur,
-status en voorziene opbouw). Wiskunde is volledig uitgewerkt. Elk ander domein
-heeft een eerste introductieles in `content/domains/{domein}/`, bereikbaar via
-`/kennis/{domein}/les/{les}`; de verdere leerlijnen zijn nog in opbouw.
+tot monogrammen); `/` toont de kaart. De domeinen staan in `content/domains.json`
+(naam, kernwoorden, kleur, status en voorziene opbouw).
 
-Een nieuw domein krijgt later een eigen contentmap met dezelfde structuur als
-`content/` (course.json, modules/, history/), zodat de bestaande engine
-(lessen, oefeningen, toetsen, beheersing, herhaling) hergebruikt wordt.
+Elk domein is een eigen cursus in `content/domains/{domein}/` met dezelfde
+structuur (course.json, modules/, history/) en dezelfde engine: lessen,
+oefeningen, toetsen, beheersing en herhaling, met voortgang per cursus. Alle
+pagina's van een domein staan onder `/kennis/{domein}/…`. Wiskunde is volledig
+uitgewerkt; de andere negen domeinen hebben module 1 met een introductieles en
+groeien van daaruit (status *in opbouw*).
+
+Per cursus regelt `course.json` ook de teksten die per vak verschillen: `labels`
+(bijv. *Wiskundigen*, *Historici*) en `pages` (koppen van tijdlijn, personen,
+cursusoverzicht …). Het menu toont alleen de onderdelen die een cursus heeft.
 
 ![Kaart van menselijke kennis](docs/kennisdomeinen.jpg)

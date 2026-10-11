@@ -1,0 +1,66 @@
+{
+  "id": 1,
+  "slug": "werken-met-bronnen",
+  "title": "Werken met bronnen",
+  "part": 1,
+  "level": "fundamenten",
+  "status": "available",
+  "historical_period": "Vroegmoderne tijd",
+  "estimated_difficulty": 1,
+  "estimated_minutes": 15,
+  "prerequisites": [],
+  "topics": [
+    "sources",
+    "source-criticism",
+    "interpretation"
+  ],
+  "core_question": "Hoe weten we wat er gebeurd is, en waarom ging het zo?",
+  "summary": "Hoe weten we wat er gebeurd is, en waarom ging het zo? Van de eerste landbouwers tot de moderne tijd, met bronnenkritiek als rode draad.",
+  "learning_goals": [
+    "Je kunt uitleggen waarom historische kennis steunt op bronnen en interpretatie.",
+    "Je kunt primaire en secundaire bronnen van elkaar onderscheiden.",
+    "Je kunt bij een bron vragen stellen over maker, tijd, doel, publiek en omstandigheden.",
+    "Je kunt uitleggen waarom een bron tegelijk bruikbaar en beperkt kan zijn.",
+    "Je kunt een voorlopige historische conclusie formuleren en aangeven hoe zeker die is."
+  ],
+  "glossary": [
+    {
+      "term": "Historische bron",
+      "definition": "Een overblijfsel of getuigenis uit of over het verleden dat je kunt gebruiken om een historische vraag te onderzoeken."
+    },
+    {
+      "term": "Primaire bron",
+      "definition": "Een bron die is ontstaan in de periode of omgeving die je onderzoekt, zoals een brief, rekening, wet, foto of voorwerp. De term zegt iets over de relatie tot je onderzoeksvraag, niet over betrouwbaarheid."
+    },
+    {
+      "term": "Secundaire bron",
+      "definition": "Een latere studie of uitleg waarin iemand bronnen interpreteert en een historisch betoog opbouwt."
+    },
+    {
+      "term": "Herkomst",
+      "definition": "Informatie over wie of wat een bron heeft gemaakt, wanneer, waar en onder welke omstandigheden."
+    },
+    {
+      "term": "Context",
+      "definition": "De omstandigheden en ontwikkelingen die helpen verklaren wat een bron betekende toen zij ontstond."
+    },
+    {
+      "term": "Interpretatie",
+      "definition": "Een onderbouwde uitleg van bronnen en gebeurtenissen. Verschillende interpretaties kunnen bestaan, maar niet elke uitleg is even goed onderbouwd."
+    },
+    {
+      "term": "Betrouwbaarheid",
+      "definition": "De mate waarin een bron geschikt is om een bepaalde bewering te ondersteunen. Dat verschilt per bron, bewering en onderzoeksvraag."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Hoe weten we wat er gebeurd is?",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    }
+  ],
+  "timeline": [],
+  "people": []
+}

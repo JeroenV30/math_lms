@@ -11,7 +11,7 @@ use RuntimeException;
  *
  * Een domein met een cursus heeft een eigen contentmap content/domains/<id>/
  * (course.json, modules/, history/); zie CourseRegistry. Wiskunde is volledig
- * uitgewerkt, de andere domeinen hebben voorlopig een startles.
+ * uitgewerkt, de andere domeinen groeien vanaf hun eerste module.
  */
 class DomainService
 {
@@ -58,14 +58,14 @@ class DomainService
     }
 
     /**
-     * Hoe ver een domein is: 'available' (uitgewerkt), 'starter' (alleen een eerste les) of 'planned'.
+     * Hoe ver een domein is: 'available' (uitgewerkt), 'building' (heeft een cursus die nog groeit) of 'planned'.
      * Eén bron voor alle statuslabels, zodat kaart, zijbalk en domeinpagina hetzelfde zeggen.
      */
     public function stage(array $domain): string
     {
         return match (true) {
             $this->isAvailable($domain) => 'available',
-            $this->starterLesson($domain) !== null => 'starter',
+            $this->hasCourse($domain) => 'building',
             default => 'planned',
         };
     }
@@ -74,9 +74,20 @@ class DomainService
     {
         return match ($this->stage($domain)) {
             'available' => 'Beschikbaar',
-            'starter' => 'Eerste les',
+            'building' => 'In opbouw',
             default => 'In voorbereiding',
         };
+    }
+
+    /**
+     * Heeft het domein een eigen cursus (content/domains/<id>/course.json)? Zie CourseRegistry.
+     */
+    public function hasCourse(array $domain): bool
+    {
+        $id = (string) ($domain['id'] ?? '');
+
+        return preg_match('/^[a-z0-9-]+$/', $id) === 1
+            && is_file(dirname($this->path).DIRECTORY_SEPARATOR.'domains'.DIRECTORY_SEPARATOR.$id.DIRECTORY_SEPARATOR.'course.json');
     }
 
     /**
@@ -103,37 +114,6 @@ class DomainService
         $id = $this->activeId();
 
         return $id === null ? null : $this->find($id);
-    }
-
-    public function starterLesson(array $domain): ?array
-    {
-        $lesson = $domain['starter_lesson'] ?? null;
-
-        return is_array($lesson) ? $lesson : null;
-    }
-
-    public function starterLessonPath(array $domain): ?string
-    {
-        $lesson = $this->starterLesson($domain);
-        $id = $domain['id'] ?? '';
-        $file = $lesson['file'] ?? '';
-
-        if (! preg_match('/^[a-z0-9-]+$/', $id) || basename($file) !== $file || ! str_ends_with($file, '.md')) {
-            return null;
-        }
-
-        return dirname($this->path).DIRECTORY_SEPARATOR.'domains'.DIRECTORY_SEPARATOR.$id.DIRECTORY_SEPARATOR.$file;
-    }
-
-    public function starterLessonMarkdown(array $domain): string
-    {
-        $path = $this->starterLessonPath($domain);
-
-        if ($path === null || ! is_file($path)) {
-            throw new RuntimeException("Startles voor {$domain['id']} ontbreekt.");
-        }
-
-        return file_get_contents($path);
     }
 
     private function read(): array

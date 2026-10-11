@@ -48,29 +48,6 @@ Biologie raakt aan keuzes in de samenleving. Kennis van micro-organismen helpt i
 
 Een goede biologische uitleg verbindt dus waarneming met schaal, mechanisme en context. Je beschrijft wat je hebt gezien, hoe je het onderzocht en welke conclusie de gegevens ondersteunen. Je let op uitzonderingen en onzekerheid zonder daardoor alle kennis gelijkwaardig te maken. Sommige verklaringen zijn beter onderbouwd dan andere, en de sterkte van het bewijs kun je onderzoeken.
 
-## Leerdoelen
-
-Na deze introductie kun je:
-
-- uitleggen waarom leven niet met één enkel kenmerk te definiëren is;
-- meerdere kenmerken noemen die biologen gezamenlijk gebruiken om leven te beschrijven;
-- uitleggen waarom de cel een centraal uitgangspunt in de biologie is;
-- onderscheid maken tussen waarneming, experiment en verklaring;
-- beschrijven hoe een microscoop nieuwe biologische vragen mogelijk maakte;
-- uitleggen waarom biologische verklaringen verschillende schaalniveaus verbinden.
-
-## Kernbegrippen
-
-- **Organisme** — een afzonderlijk levend systeem, eencellig of opgebouwd uit veel cellen.
-- **Cel** — de basiseenheid van structuur en functie in levende organismen.
-- **Celtheorie** — het uitgangspunt dat organismen uit cellen bestaan en nieuwe cellen uit bestaande cellen ontstaan.
-- **Stofwisseling** — het geheel van chemische reacties waarmee een organisme stoffen omzet en energie verwerkt.
-- **Homeostase** — het actief binnen grenzen houden van belangrijke interne omstandigheden.
-- **Erfelijk materiaal** — moleculaire informatie die bij voortplanting kan worden doorgegeven; bij bekende organismen is dat DNA of RNA.
-- **Populatie** — organismen van dezelfde soort die in een gebied leven en zich onderling kunnen voortplanten.
-- **Evolutie** — verandering in erfelijke kenmerken van populaties over generaties.
-- **Ecosysteem** — organismen in een gebied en de wisselwerkingen met hun niet-levende omgeving.
-
 ## Routekaart
 
 De eerste module zoomt in op cellen: hun grenzen, onderdelen en functies. Vervolgens onderzoek je hoe DNA informatie draagt en hoe cellen die informatie gebruiken. Met erfelijkheid kun je verklaren waarom nakomelingen op hun ouders lijken, maar ook van hen verschillen. Evolutie beschrijft hoe zulke verschillen in populaties over generaties veranderen.
@@ -84,3 +61,7 @@ Door die route heen keren drie vragen terug: waaruit bestaat leven, hoe blijft h
 Kies één voorbeeld: een zaad in rust, een slapende hond, een groeiende kristal of een virusdeeltje. Welke eigenschappen maken het geval lastig te classificeren? Probeer niet meteen één beslissend kenmerk te kiezen. Beschrijf eerst wat je kunt waarnemen, welke processen je vermoedt en welk bewijs je daarvoor nodig zou hebben.
 
 Vraag je daarna af op welk schaalniveau je antwoord zoekt. Bij een virus kun je de moleculaire structuur onderzoeken, maar ook de interactie met een gastheercel. Bij een zaad kun je kijken naar de toestand van cellen en naar de omstandigheden die kieming mogelijk maken. Een precieze vraag helpt je ontdekken welke kennis en welke methode nodig zijn. Dat is het begin van biologisch denken.
+
+{{ goals }}
+
+{{ glossary }}

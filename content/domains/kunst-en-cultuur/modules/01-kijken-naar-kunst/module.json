@@ -1,0 +1,70 @@
+{
+  "id": 1,
+  "slug": "kijken-naar-kunst",
+  "title": "Kijken naar kunst",
+  "part": 1,
+  "level": "fundamenten",
+  "status": "available",
+  "historical_period": "Prehistorie",
+  "estimated_difficulty": 1,
+  "estimated_minutes": 15,
+  "prerequisites": [],
+  "topics": [
+    "description",
+    "interpretation",
+    "context"
+  ],
+  "core_question": "Waarom maken mensen kunst en hoe lees je die?",
+  "summary": "Waarom maken mensen kunst en hoe lees je die? Van grotschilderingen via de Renaissance tot moderne kunst, muziek, literatuur, theater en architectuur.",
+  "learning_goals": [
+    "Je kunt beschrijven waarom kunst en cultuur betekenis kunnen hebben zonder één vaste functie of boodschap.",
+    "Je kunt waarneming, interpretatie en oordeel van elkaar onderscheiden.",
+    "Je kunt formele kenmerken van een werk aanwijzen en toelichten hoe ze je aandacht sturen.",
+    "Je kunt uitleggen hoe context en presentatie invloed hebben op de manier waarop je een werk leest.",
+    "Je kunt een interpretatie onderbouwen met concrete kenmerken en tegelijk onzekerheid over bedoeling erkennen."
+  ],
+  "glossary": [
+    {
+      "term": "Kunstwerk",
+      "definition": "Een gemaakte vorm of handeling die binnen een bepaalde context als kunst wordt ervaren, gebruikt of besproken."
+    },
+    {
+      "term": "Cultuur",
+      "definition": "Gedeelde praktijken, betekenissen en vormen waarmee mensen hun leven en samenleving vormgeven."
+    },
+    {
+      "term": "Waarneming",
+      "definition": "Wat je rechtstreeks kunt zien, horen of anderszins ervaren."
+    },
+    {
+      "term": "Interpretatie",
+      "definition": "Een mogelijke uitleg van betekenis of werking, onderbouwd met kenmerken en context."
+    },
+    {
+      "term": "Vorm",
+      "definition": "De manier waarop onderdelen van een werk zijn georganiseerd, zoals kleur, compositie, ritme of structuur."
+    },
+    {
+      "term": "Materiaal",
+      "definition": "De fysieke of digitale middelen waaruit een werk is gemaakt."
+    },
+    {
+      "term": "Context",
+      "definition": "Omstandigheden die helpen een werk te begrijpen, zoals tijd, plaats, gebruik, publiek en opdrachtgever."
+    },
+    {
+      "term": "Oordeel",
+      "definition": "Een waardering of conclusie over een werk, bij voorkeur met redenen toegelicht."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Leren kijken",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    }
+  ],
+  "timeline": [],
+  "people": []
+}

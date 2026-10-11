@@ -30,27 +30,6 @@ Een werktuig verandert de verhouding tussen inspanning en resultaat. Een hefboom
 
 Ook gebruik vraagt kennis. Een goed ontworpen voorwerp kan verkeerd worden ingezet, en een onvolmaakt ontwerp kan door ervaring worden verbeterd. Gebruikers ontdekken soms toepassingen die de maker niet voorzag. Daarom hoort de praktijk bij technologie: ontwerp, gebruik en aanpassing beïnvloeden elkaar. Een werktuig is niet alleen een ding; het maakt deel uit van een activiteit en van de omgeving waarin die activiteit plaatsvindt.
 
-## Leerdoelen
-
-Na deze eerste les kun je:
-
-- uitleggen waarom technologie meer omvat dan moderne apparaten;
-- het verschil beschrijven tussen technologie en informatica, en aangeven waar ze elkaar raken;
-- een ontwerp analyseren aan de hand van doel, middelen, werking, beoordeling en gevolgen;
-- uitleggen hoe een werktuig mogelijkheden vergroot en tegelijk nieuwe beperkingen kan introduceren;
-- onderscheid maken tussen een waargenomen spoor en een interpretatie over vroegere technologie.
-
-## Kernbegrippen
-
-- **Technologie:** kennis, technieken en gemaakte middelen waarmee mensen handelingen en problemen vormgeven.
-- **Werktuig:** een middel dat je gebruikt om een handeling mogelijk te maken of te verbeteren.
-- **Ontwerp:** een uitgewerkt plan of voorwerp dat een doel probeert te bereiken onder bepaalde voorwaarden.
-- **Systeem:** onderdelen die samen een functie vervullen en elkaar beïnvloeden.
-- **Informatica:** de studie en toepassing van het weergeven, opslaan, verwerken en overdragen van informatie.
-- **Invoer:** informatie, materiaal of energie die een proces binnenkomt.
-- **Uitvoer:** het resultaat dat een proces oplevert.
-- **Neveneffect:** een gevolg van een techniek dat niet het hoofddoel van het ontwerp is.
-
 ## Van gereedschap naar machine
 
 Een werktuig wordt vaak direct door een persoon bewogen. Een machine gebruikt een mechanisme om beweging of energie over te dragen en een taak uit te voeren. De grens is niet altijd scherp: een handboor is een werktuig met een mechanische overbrenging; een watermolen is een machine die een natuurlijke stroom omzet in draaiende beweging. Het nuttigste is niet altijd het juiste etiket vinden, maar begrijpen wat de onderdelen doen.
@@ -78,3 +57,7 @@ Die onderwerpen bouwen voort op een terugkerend patroon: een doel, middelen, een
 ## Reflectie
 
 Kies een voorwerp dat je vandaag hebt gebruikt, bijvoorbeeld een sleutel, fiets, kookpan of telefoon. Beschrijf één handeling die zonder dit voorwerp moeilijker zou zijn. Welke materialen, kennis of andere systemen zijn nodig om het voorwerp te maken en te gebruiken? Noem één voordeel en één mogelijke afhankelijkheid of neveneffect. Formuleer ten slotte een vraag die je zou willen onderzoeken voordat je het voorwerp voor iedereen als een goede oplossing aanmerkt.
+
+{{ goals }}
+
+{{ glossary }}

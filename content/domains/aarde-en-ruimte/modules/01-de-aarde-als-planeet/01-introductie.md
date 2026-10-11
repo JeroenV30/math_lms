@@ -52,31 +52,6 @@ Dat onderscheid helpt ook bij nieuws en publieke discussies. Een afbeelding van 
 
 De aarde als planeet bestuderen is ook een manier om onze plaats te begrijpen. Ze is een van de planeten rond de zon, en de zon is één ster in een sterrenstelsel met zeer veel sterren. Dat perspectief maakt de aarde niet onbelangrijk. Integendeel: ze is de omgeving waarin al het bekende aardse leven bestaat en waarvan we afhankelijk zijn. De planetaire schaal verbindt nieuwsgierigheid over de ruimte met kennis over de wereld waarop we wonen.
 
-## Leerdoelen
-
-Na deze introductie kun je:
-
-- beschrijven waarom de aarde ongeveer bolvormig is en waarom een kaart altijd een projectie gebruikt;
-- uitleggen hoe Eratosthenes uit een hoek en een afstand de omtrek van de aarde kon schatten;
-- de rol van breedtegraad en lengtegraad in plaatsbepaling beschrijven;
-- uitleggen hoe de rotatie van de aarde dag en nacht veroorzaakt en hoe de schuine aardas bijdraagt aan seizoenen;
-- onderscheid maken tussen weer en klimaat;
-- uitleggen waarom wetenschappers modellen en indirecte waarnemingen gebruiken om de aarde en ruimte te onderzoeken.
-
-## Kernbegrippen
-
-- **Planeet** — een groot hemellichaam dat om een ster draait en zelf geen ster is.
-- **Rotatie** — het draaien van een hemellichaam om een eigen as.
-- **Omloop** — de beweging van een hemellichaam in een baan rond een ander hemellichaam.
-- **Aardas** — de denkbeeldige lijn waar de aarde omheen draait; die staat schuin ten opzichte van het baanvlak.
-- **Breedtegraad** — hoekpositie ten noorden of zuiden van de evenaar.
-- **Lengtegraad** — hoekpositie ten oosten of westen van een nulmeridiaan.
-- **Kaartprojectie** — een methode om het gebogen aardoppervlak op een plat vlak weer te geven.
-- **Zwaartekracht** — de aantrekkende wisselwerking tussen objecten met massa.
-- **Weer** — de toestand van de atmosfeer op een bepaalde plaats en tijd.
-- **Klimaat** — statistische patronen van het weer over langere perioden.
-- **Model** — een vereenvoudigde beschrijving die helpt een systeem of verschijnsel te onderzoeken.
-
 ## Routekaart
 
 De eerste module richt zich op de aarde als planeet: haar vorm, beweging, positie en relatie met de maan en de zon. Daarna onderzoek je gesteenten en platentektoniek. Je volgt hoe gesteente ontstaat en verandert en hoe bewegingen in de aardkorst aardbevingen, vulkanen en gebergten kunnen vormen.
@@ -90,3 +65,7 @@ De route beweegt dus naar buiten, maar blijft verbonden met metingen op aarde. D
 Kijk vanavond of morgen naar de hemel en noteer één patroon dat je opvalt: de stand van de zon, de lengte van de schaduw, de zichtbaarheid van de maan of de beweging van een heldere ster ten opzichte van een herkenningspunt. Beschrijf eerst alleen wat je ziet. Bedenk daarna welke verklaring je vermoedt en welke extra waarneming die verklaring zou ondersteunen.
 
 Als je een kaart of weerbericht gebruikt, stel jezelf vergelijkbare vragen. Welke schaal toont het? Welke periode omvat de gegevens? Is de afbeelding een meting, een model of een combinatie? Door waarneming en uitleg uit elkaar te houden, leer je de aarde niet alleen bekijken, maar ook zorgvuldig lezen.
+
+{{ goals }}
+
+{{ glossary }}

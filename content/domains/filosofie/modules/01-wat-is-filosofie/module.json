@@ -1,0 +1,70 @@
+{
+  "id": 1,
+  "slug": "wat-is-filosofie",
+  "title": "Wat is filosofie?",
+  "part": 1,
+  "level": "fundamenten",
+  "status": "available",
+  "historical_period": "Klassieke oudheid",
+  "estimated_difficulty": 1,
+  "estimated_minutes": 15,
+  "prerequisites": [],
+  "topics": [
+    "argument",
+    "concepts",
+    "socratic-method"
+  ],
+  "core_question": "Wat kunnen we weten, wat moeten we doen, en wat is er eigenlijk?",
+  "summary": "Wat kunnen we weten, wat moeten we doen, en wat is er eigenlijk? Van Socrates via Descartes en Kant tot hedendaagse vragen over geest en ethiek.",
+  "learning_goals": [
+    "Je kunt uitleggen waarom filosofie vragen stelt over kennis, werkelijkheid, waarden en redeneren.",
+    "Je kunt een filosofische vraag onderscheiden van een vraag die alleen door waarneming of meting wordt beantwoord.",
+    "Je kunt een standpunt, een reden en een tegenvoorbeeld in een eenvoudig gesprek herkennen.",
+    "Je kunt uitleggen waarom een tegenvoorbeeld een bewering kan aanscherpen zonder het gesprek meteen te beëindigen.",
+    "Je kunt je eigen onzekerheid benoemen en aangeven welke informatie of reden je oordeel zou kunnen veranderen."
+  ],
+  "glossary": [
+    {
+      "term": "Filosofie",
+      "definition": "Systematisch onderzoek naar fundamentele vragen over onder meer kennis, werkelijkheid, waarden en redeneren."
+    },
+    {
+      "term": "Vraagstelling",
+      "definition": "De precieze formulering van het probleem dat je wilt onderzoeken."
+    },
+    {
+      "term": "Standpunt",
+      "definition": "Een bewering of oordeel dat iemand verdedigt."
+    },
+    {
+      "term": "Argument",
+      "definition": "Een redenering waarin redenen steun geven aan een standpunt."
+    },
+    {
+      "term": "Aanname",
+      "definition": "Een idee dat in een redenering wordt gebruikt zonder dat het daar eerst wordt bewezen."
+    },
+    {
+      "term": "Tegenvoorbeeld",
+      "definition": "Een concreet geval dat laat zien dat een algemene bewering mogelijk te ruim of onjuist is."
+    },
+    {
+      "term": "Begrip",
+      "definition": "Een idee dat met een woord wordt aangeduid en dat je kunt proberen af te bakenen, zoals kennis of rechtvaardigheid."
+    },
+    {
+      "term": "Tegenspraak",
+      "definition": "Een situatie waarin twee beweringen niet tegelijk waar kunnen zijn in dezelfde betekenis en onder dezelfde omstandigheden."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een vraag die terugvraagt",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    }
+  ],
+  "timeline": [],
+  "people": []
+}

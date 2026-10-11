@@ -1,0 +1,70 @@
+{
+  "id": 1,
+  "slug": "psychologie",
+  "title": "Psychologie",
+  "part": 1,
+  "level": "fundamenten",
+  "status": "available",
+  "historical_period": "Negentiende eeuw",
+  "estimated_difficulty": 1,
+  "estimated_minutes": 15,
+  "prerequisites": [],
+  "topics": [
+    "research-questions",
+    "behaviour",
+    "social-measurement"
+  ],
+  "core_question": "Hoe leven mensen samen?",
+  "summary": "Hoe leven mensen samen? Over politiek, recht, economie en psychologie, van de Griekse stadstaat tot de moderne democratie en markt.",
+  "learning_goals": [
+    "Je kunt in eigen woorden beschrijven wat psychologie onderzoekt.",
+    "Je kunt gedrag onderscheiden van mentale processen en van de omstandigheden waarin ze plaatsvinden.",
+    "Je kunt een psychologische bewering omzetten in een onderzoekbare vraag.",
+    "Je kunt uitleggen waarom waarneming en meting niet hetzelfde zijn als een volledige verklaring.",
+    "Je kunt aangeven waarom een onderzoeksuitkomst niet zonder meer voor ieder individu geldt."
+  ],
+  "glossary": [
+    {
+      "term": "Psychologie",
+      "definition": "De wetenschappelijke studie van gedrag en mentale processen."
+    },
+    {
+      "term": "Gedrag",
+      "definition": "Handelingen en reacties die je kunt waarnemen, zoals spreken, kiezen of vermijden."
+    },
+    {
+      "term": "Mentaal proces",
+      "definition": "Een innerlijke activiteit, zoals waarnemen, herinneren, denken, voelen of verwachten."
+    },
+    {
+      "term": "Waarneming",
+      "definition": "Het proces waarin informatie uit de omgeving wordt geselecteerd en geïnterpreteerd."
+    },
+    {
+      "term": "Hypothese",
+      "definition": "Een toetsbare verwachting over een verband of verschil."
+    },
+    {
+      "term": "Operationaliseren",
+      "definition": "Een abstract begrip zo omschrijven dat duidelijk wordt hoe je het in een onderzoek observeert of meet."
+    },
+    {
+      "term": "Variabele",
+      "definition": "Een kenmerk dat verschillende waarden kan aannemen, bijvoorbeeld slaapduur, reactietijd of ervaren spanning."
+    },
+    {
+      "term": "Vertekening",
+      "definition": "Een systematische invloed die waarnemingen of conclusies een bepaalde kant op kan sturen."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "De mens als onderzoeksvraag",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    }
+  ],
+  "timeline": [],
+  "people": []
+}

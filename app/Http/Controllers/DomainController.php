@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\ContentService;
 use App\Services\CourseRegistry;
 use App\Services\DomainService;
-use App\Services\MarkdownRenderer;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\View\View;
 
 class DomainController extends Controller
@@ -29,17 +30,13 @@ class DomainController extends Controller
         return view('domains.show', ['domain' => $domains->active()]);
     }
 
-    public function starterLesson(string $lesson, DomainService $domains, MarkdownRenderer $markdown): View
+    /**
+     * Oud adres van de startles (/kennis/{domein}/les/{les}): die les is nu les 1 van module 1.
+     */
+    public function legacyLesson(ContentService $content): RedirectResponse
     {
-        $domain = $domains->active();
-        $starter = $domains->starterLesson($domain) ?? abort(404, 'Voor dit domein is nog geen les beschikbaar.');
+        $module = $content->availableModules()->first() ?? abort(404, 'Dit domein heeft nog geen lessen.');
 
-        abort_unless(hash_equals((string) ($starter['slug'] ?? ''), $lesson), 404, 'Deze les bestaat niet.');
-
-        return view('domains.lesson', [
-            'domain' => $domain,
-            'lesson' => $starter,
-            'rendered' => $markdown->renderDocument($domains->starterLessonMarkdown($domain)),
-        ]);
+        return redirect()->route('lesson.show', [$module->slug, $module->firstLesson()->slug], 301);
     }
 }

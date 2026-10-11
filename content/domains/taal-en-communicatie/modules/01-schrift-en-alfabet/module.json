@@ -1,0 +1,69 @@
+{
+  "id": 1,
+  "slug": "schrift-en-alfabet",
+  "title": "Schrift en alfabet",
+  "part": 1,
+  "level": "fundamenten",
+  "status": "available",
+  "historical_period": "Oudheid",
+  "estimated_difficulty": 1,
+  "estimated_minutes": 15,
+  "prerequisites": [],
+  "topics": [
+    "writing-systems",
+    "language-and-writing"
+  ],
+  "core_question": "Hoe werkt taal en hoe brengen mensen betekenis over?",
+  "summary": "Hoe werkt taal en hoe brengen mensen betekenis over? Van de eerste schriftsystemen tot taalkunde, retorica en informatietheorie.",
+  "learning_goals": [
+    "Je kunt uitleggen waarom mensen schrift gebruiken en wat het mogelijk maakt.",
+    "Je kunt taal, schrift en alfabet van elkaar onderscheiden.",
+    "Je kunt beschrijven hoe een teken betekenis krijgt binnen gedeelde afspraken.",
+    "Je kunt uitleggen waarom het materiaal en doel van een tekst invloed hebben op de vorm.",
+    "Je kunt voorbeelden geven van wat schrift bewaart en wat in geschreven communicatie verloren kan gaan."
+  ],
+  "glossary": [
+    {
+      "term": "Taal",
+      "definition": "Een gedeeld systeem waarmee mensen betekenis uitwisselen, bijvoorbeeld via spraak, gebaren of schrift."
+    },
+    {
+      "term": "Schrift",
+      "definition": "Een systeem van zichtbare of tastbare tekens waarmee taal of andere informatie wordt vastgelegd."
+    },
+    {
+      "term": "Schriftsysteem",
+      "definition": "De afspraken waarmee tekens worden gebruikt om taal of betekenis weer te geven."
+    },
+    {
+      "term": "Teken",
+      "definition": "Een vorm die binnen een afgesproken systeem naar iets verwijst of een functie heeft."
+    },
+    {
+      "term": "Pictogram",
+      "definition": "Een teken dat door gelijkenis een voorwerp, handeling of begrip kan voorstellen."
+    },
+    {
+      "term": "Logogram",
+      "definition": "Een teken dat een woord of betekenisvol element weergeeft."
+    },
+    {
+      "term": "Alfabet",
+      "definition": "Een schriftsysteem met tekens die in beginsel afzonderlijke klanken van spraak weergeven."
+    },
+    {
+      "term": "Geletterdheid",
+      "definition": "Het vermogen om schrift in een bepaalde samenleving en context te gebruiken, waaronder lezen en schrijven."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Waarom schrijven we?",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    }
+  ],
+  "timeline": [],
+  "people": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": 1,
+  "slug": "gereedschap-en-machines",
+  "title": "Gereedschap en machines",
+  "part": 1,
+  "level": "fundamenten",
+  "status": "available",
+  "historical_period": "Prehistorie",
+  "estimated_difficulty": 1,
+  "estimated_minutes": 15,
+  "prerequisites": [],
+  "topics": [
+    "design",
+    "tools",
+    "systems"
+  ],
+  "core_question": "Hoe maken mensen gereedschap, machines en rekenende systemen?",
+  "summary": "Hoe maken mensen gereedschap, machines en rekenende systemen? Van het wiel en de abacus tot computers, algoritmen en kunstmatige intelligentie.",
+  "learning_goals": [
+    "Je kunt uitleggen waarom technologie meer omvat dan moderne apparaten.",
+    "Je kunt het verschil beschrijven tussen technologie en informatica, en aangeven waar ze elkaar raken.",
+    "Je kunt een ontwerp analyseren aan de hand van doel, middelen, werking, beoordeling en gevolgen.",
+    "Je kunt uitleggen hoe een werktuig mogelijkheden vergroot en tegelijk nieuwe beperkingen kan introduceren.",
+    "Je kunt onderscheid maken tussen een waargenomen spoor en een interpretatie over vroegere technologie."
+  ],
+  "glossary": [
+    {
+      "term": "Technologie",
+      "definition": "Kennis, technieken en gemaakte middelen waarmee mensen handelingen en problemen vormgeven."
+    },
+    {
+      "term": "Werktuig",
+      "definition": "Een middel dat je gebruikt om een handeling mogelijk te maken of te verbeteren."
+    },
+    {
+      "term": "Ontwerp",
+      "definition": "Een uitgewerkt plan of voorwerp dat een doel probeert te bereiken onder bepaalde voorwaarden."
+    },
+    {
+      "term": "Systeem",
+      "definition": "Onderdelen die samen een functie vervullen en elkaar beïnvloeden."
+    },
+    {
+      "term": "Informatica",
+      "definition": "De studie en toepassing van het weergeven, opslaan, verwerken en overdragen van informatie."
+    },
+    {
+      "term": "Invoer",
+      "definition": "Informatie, materiaal of energie die een proces binnenkomt."
+    },
+    {
+      "term": "Uitvoer",
+      "definition": "Het resultaat dat een proces oplevert."
+    },
+    {
+      "term": "Neveneffect",
+      "definition": "Een gevolg van een techniek dat niet het hoofddoel van het ontwerp is."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Verlengstuk van de hand",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    }
+  ],
+  "timeline": [],
+  "people": []
+}

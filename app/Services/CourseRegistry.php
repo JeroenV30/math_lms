@@ -24,7 +24,7 @@ class CourseRegistry
 
     public function has(string $id): bool
     {
-        return preg_match('/^[a-z0-9-]+$/', $id) === 1 && is_file($this->directory($id).'/course.json');
+        return $this->domains->hasCourse(['id' => $id]);
     }
 
     public function for(string $id): ContentService

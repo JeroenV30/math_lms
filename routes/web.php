@@ -23,10 +23,10 @@ Route::prefix('kennis/{domain}')->where(['domain' => '[a-z0-9-]+'])->group(funct
     Route::middleware(ResolveDomain::class)->group(function () {
         // Dashboard van een cursus, of de opzet van een domein in voorbereiding.
         Route::get('/', [DomainController::class, 'show'])->name('domains.show');
-        Route::get('/les/{lesson}', [DomainController::class, 'starterLesson'])->name('domains.lesson');
     });
 
     Route::middleware(ResolveDomain::class.':course')->group(function () {
+        Route::get('/les/{lesson}', [DomainController::class, 'legacyLesson']);
         Route::get('/cursus', [CourseController::class, 'index'])->name('course.index');
         Route::get('/cursus/{module}', [ModuleController::class, 'show'])->name('module.show');
         Route::get('/cursus/{module}/les/{lesson}', [LessonController::class, 'show'])->name('lesson.show');
