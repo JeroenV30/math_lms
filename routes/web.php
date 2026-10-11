@@ -19,6 +19,7 @@ Route::get('/', DashboardController::class)->name('dashboard');
 
 Route::get('/kennis', [DomainController::class, 'index'])->name('domains.index');
 Route::get('/kennis/{domain}', [DomainController::class, 'show'])->name('domains.show');
+Route::get('/kennis/{domain}/les/{lesson}', [DomainController::class, 'starterLesson'])->name('domains.lesson');
 
 Route::get('/course', [CourseController::class, 'index'])->name('course.index');
 Route::get('/course/{module}', [ModuleController::class, 'show'])->name('module.show');

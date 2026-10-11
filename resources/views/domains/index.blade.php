@@ -17,7 +17,9 @@
                         <span class="min-w-0">
                             <span class="flex items-baseline gap-2">
                                 <span class="font-serif text-lg font-semibold text-ink group-hover:underline">{{ $domain['name'] }}</span>
-                                @if ($planned)
+                                @if ($planned && ! empty($domain['starter_lesson']))
+                                    <span class="badge border-accent/30 text-accent">eerste les</span>
+                                @elseif ($planned)
                                     <span class="badge">in voorbereiding</span>
                                 @else
                                     <span class="badge border-success/30 text-success">beschikbaar</span>

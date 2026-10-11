@@ -9,8 +9,8 @@ use RuntimeException;
 /**
  * De kennisdomeinen (wiskunde, natuurkunde & chemie, biologie, …) uit content/domains.json.
  *
- * Wiskunde is het eerste uitgewerkte domein; de andere staan klaar als opzet
- * zonder lesinhoud. Een later domein krijgt een eigen contentmap met dezelfde
+ * Wiskunde is het eerste volledig uitgewerkte domein. De andere domeinen hebben
+ * een startles en groeien later uit tot een eigen contentmap met dezelfde
  * structuur als content/ (course.json, modules/, history/).
  */
 class DomainService
@@ -55,6 +55,37 @@ class DomainService
     public function isAvailable(array $domain): bool
     {
         return ($domain['status'] ?? 'planned') === 'available';
+    }
+
+    public function starterLesson(array $domain): ?array
+    {
+        $lesson = $domain['starter_lesson'] ?? null;
+
+        return is_array($lesson) ? $lesson : null;
+    }
+
+    public function starterLessonPath(array $domain): ?string
+    {
+        $lesson = $this->starterLesson($domain);
+        $id = $domain['id'] ?? '';
+        $file = $lesson['file'] ?? '';
+
+        if (! preg_match('/^[a-z0-9-]+$/', $id) || basename($file) !== $file || ! str_ends_with($file, '.md')) {
+            return null;
+        }
+
+        return dirname($this->path).DIRECTORY_SEPARATOR.'domains'.DIRECTORY_SEPARATOR.$id.DIRECTORY_SEPARATOR.$file;
+    }
+
+    public function starterLessonMarkdown(array $domain): string
+    {
+        $path = $this->starterLessonPath($domain);
+
+        if ($path === null || ! is_file($path)) {
+            throw new RuntimeException("Startles voor {$domain['id']} ontbreekt.");
+        }
+
+        return file_get_contents($path);
     }
 
     private function read(): array

@@ -25,7 +25,7 @@
         // Welk kennisdomein is actief? De domeinpagina's hebben hun eigen id; de kaart hoort bij geen domein;
         // alle andere pagina's (dashboard, cursus, oefenen …) horen bij wiskunde.
         $activeDomain = match (true) {
-            request()->routeIs('domains.show') => request()->route('domain'),
+            request()->routeIs('domains.show', 'domains.lesson') => request()->route('domain'),
             request()->routeIs('domains.index') => null,
             default => 'wiskunde',
         };

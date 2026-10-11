@@ -149,7 +149,7 @@ class MarkdownRenderer
 
     private function extractCallouts(string $markdown): string
     {
-        return preg_replace_callback('/^:::([a-z]+)[ \t]*(.*?)[ \t]*\n(.*?)\n:::[ \t]*$/ms', function (array $m) {
+        return preg_replace_callback('/^:::([a-z]+)[ \t]*([^\r\n]*)\r?\n((?:(?!^:::[ \t]*\r?$)[^\r\n]*(?:\r?\n|$))*)^:::[ \t]*\r?$/m', function (array $m) {
             $type = array_key_exists($m[1], self::CALLOUTS) ? $m[1] : 'theory';
             $title = $m[2] !== '' ? $m[2] : self::CALLOUTS[$type];
             $label = self::CALLOUTS[$type];

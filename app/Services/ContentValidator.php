@@ -25,6 +25,7 @@ class ContentValidator
 
     public function __construct(
         private readonly ContentService $content,
+        private readonly DomainService $domains,
         private readonly AnswerCheckerFactory $checkers,
         private readonly LanguageChecker $language,
     ) {}
@@ -51,6 +52,8 @@ class ContentValidator
         foreach (['course.json', 'domains.json', 'history/timeline.json', 'history/mathematicians.json'] as $file) {
             $this->checkLanguageInJson(config('course.content_path').'/'.$file, $file);
         }
+
+        $this->validateStarterLessons();
 
         foreach ($modules as $module) {
             $where = "Module {$module->id}";
@@ -111,6 +114,41 @@ class ContentValidator
         }
 
         return ['errors' => $this->errors, 'warnings' => $this->warnings];
+    }
+
+    private function validateStarterLessons(): void
+    {
+        foreach ($this->domains->all() as $domain) {
+            $lesson = $this->domains->starterLesson($domain);
+
+            if ($lesson === null) {
+                continue;
+            }
+
+            $where = "Domein {$domain['id']}/startles";
+
+            foreach (['slug', 'title', 'module', 'file', 'estimated_minutes'] as $field) {
+                $this->expect(isset($lesson[$field]) && $lesson[$field] !== '', "{$where}: '{$field}' ontbreekt in domains.json.");
+            }
+
+            $this->expect((bool) preg_match('/^[a-z0-9-]+$/', $lesson['slug'] ?? ''), "{$where}: slug is ongeldig.");
+            $this->expect(is_int($lesson['estimated_minutes'] ?? null) && $lesson['estimated_minutes'] > 0, "{$where}: estimated_minutes moet een positief geheel getal zijn.");
+
+            $path = $this->domains->starterLessonPath($domain);
+            if ($path === null || ! is_file($path)) {
+                $this->errors[] = "{$where}: lesbestand ontbreekt.";
+
+                continue;
+            }
+
+            $markdown = file_get_contents($path);
+            foreach ($this->language->check($markdown) as $issue) {
+                $this->errors[] = "{$where}/{$lesson['file']}: {$issue}";
+            }
+
+            $dollars = substr_count(preg_replace('/\\\\\$/', '', $markdown), '$');
+            $this->expect($dollars % 2 === 0, "{$where}/{$lesson['file']}: oneven aantal \$-tekens (formule niet gesloten?).");
+        }
     }
 
     /**

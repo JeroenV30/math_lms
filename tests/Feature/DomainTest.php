@@ -106,6 +106,13 @@ class DomainTest extends TestCase
             ->assertSee('Evolutie');
     }
 
+    public function test_domain_without_a_starter_lesson_returns_not_found_for_lesson_route(): void
+    {
+        $this->useFixtureContent();
+
+        $this->get('/kennis/biologie/les/wat-is-leven')->assertNotFound();
+    }
+
     public function test_available_domain_redirects_to_its_start_page(): void
     {
         $this->useFixtureContent();
@@ -126,6 +133,26 @@ class DomainTest extends TestCase
                 $this->assertArrayHasKey($field, $domain, "{$domain['id']} mist {$field}");
             }
             $this->assertMatchesRegularExpression('/^#[0-9a-f]{6}$/i', $domain['color']);
+        }
+    }
+
+    public function test_every_real_non_math_domain_has_a_readable_starter_lesson(): void
+    {
+        $domains = app(DomainService::class);
+
+        foreach ($domains->all()->where('id', '!=', 'wiskunde') as $domain) {
+            $lesson = $domains->starterLesson($domain);
+
+            $this->assertNotNull($lesson, "{$domain['id']} mist een startles.");
+            $this->assertFileExists($domains->starterLessonPath($domain));
+
+            $response = $this->get(route('domains.lesson', [$domain['id'], $lesson['slug']]))
+                ->assertOk()
+                ->assertSee($lesson['title'])
+                ->assertSee($lesson['module'])
+                ->assertSee('Menu '.$domain['name']);
+
+            $this->assertSame(1, substr_count($response->getContent(), '<h1'));
         }
     }
 }

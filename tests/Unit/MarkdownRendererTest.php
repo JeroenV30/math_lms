@@ -45,6 +45,15 @@ class MarkdownRendererTest extends TestCase
         $this->assertStringContainsString('<span class="math math-inline">10</span>', $html);
     }
 
+    public function test_separate_callouts_do_not_consume_content_between_them(): void
+    {
+        $html = $this->markdown->render(":::question\nEerste vraag.\n:::\n\n## Tussenkop\n\nTekst ertussen.\n\n:::history\nTweede kader.\n:::");
+
+        $this->assertSame(2, substr_count($html, 'class="callout '));
+        $this->assertStringContainsString('<h2 id="tussenkop">Tussenkop</h2>', $html);
+        $this->assertStringContainsString('<p>Tekst ertussen.</p>', $html);
+    }
+
     public function test_directives_are_resolved_by_callback(): void
     {
         $seen = [];

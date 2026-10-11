@@ -150,8 +150,9 @@ Deze cursus is het eerste domein van een bredere kaart van menselijke kennis.
 Links in de applicatie staat een navigatiebalk met alle domeinen (in te klappen
 tot monogrammen); `/kennis` toont de kaart en `/kennis/{domein}` de opzet per
 domein. De domeinen staan in `content/domains.json` (naam, kernwoorden, kleur,
-status en voorziene opbouw). Alleen Wiskunde is uitgewerkt; de andere domeinen
-staan klaar als opzet zonder lesinhoud.
+status en voorziene opbouw). Wiskunde is volledig uitgewerkt. Elk ander domein
+heeft een eerste introductieles in `content/domains/{domein}/`, bereikbaar via
+`/kennis/{domein}/les/{les}`; de verdere leerlijnen zijn nog in opbouw.
 
 Een nieuw domein krijgt later een eigen contentmap met dezelfde structuur als
 `content/` (course.json, modules/, history/), zodat de bestaande engine
