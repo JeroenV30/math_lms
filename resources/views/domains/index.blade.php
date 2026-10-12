@@ -6,10 +6,17 @@
     <x-page-header level="map" :domain="null"
                    :eyebrow="$overview['subtitle'] ?? null"
                    :title="$overview['title'] ?? 'Kennisdomeinen'"
-                   :intro="$overview['intro'] ?? null" />
+                   :intro="$overview['intro'] ?? null">
+        @if (file_exists(public_path('images/kaart-van-kennis.jpg')))
+            <x-slot:aside>
+                <img src="{{ asset('images/kaart-van-kennis.jpg') }}" alt="" width="1536" height="1024"
+                     class="w-104 rounded-lg border border-line shadow-sm">
+            </x-slot:aside>
+        @endif
+    </x-page-header>
 
-    <div class="container-page mt-10 grid gap-10 lg:grid-cols-[minmax(0,1fr)_22rem]">
-        <ul class="grid content-start gap-3 sm:grid-cols-2">
+    <div class="container-page mt-10">
+        <ul class="grid gap-3 sm:grid-cols-2">
             @foreach ($domains as $domain)
                 <li>
                     <a href="{{ $domainService->url($domain) }}" class="card group flex h-full gap-4 p-5 transition-colors hover:border-line-strong">
@@ -26,10 +33,5 @@
                 </li>
             @endforeach
         </ul>
-
-        <figure class="card overflow-hidden self-start">
-            <img src="{{ asset('images/kennisdomeinen.jpg') }}" alt="Kaart van menselijke kennis: tien domeinen rond een figuur die over een landschap uitkijkt" class="w-full" loading="lazy">
-            <figcaption class="px-4 py-3 text-xs text-muted">De kaart waarop deze leeromgeving uiteindelijk alle domeinen met elkaar verbindt.</figcaption>
-        </figure>
     </div>
 @endsection

@@ -13,7 +13,8 @@
 
 {{--
     Kop van elke overzichts- en taakpagina: een band in de tint van het domein, kruimelpad, kicker, titel en intro.
-    Slots: leading (monogram, portret), meta (rechts naast het kruimelpad), actions (knoppen rechts) en de
+    Slots: leading (monogram, portret), meta (rechts naast het kruimelpad), actions (knoppen rechts),
+    aside (illustratie rechts, alleen vanaf lg) en de
     standaardslot voor extra inhoud onder de intro.
 --}}
 @php
@@ -71,6 +72,9 @@
             </div>
             @isset($actions)
                 <div class="flex shrink-0 flex-wrap gap-2">{{ $actions }}</div>
+            @endisset
+            @isset($aside)
+                <div class="hidden shrink-0 lg:block">{{ $aside }}</div>
             @endisset
         </div>
     </div>
