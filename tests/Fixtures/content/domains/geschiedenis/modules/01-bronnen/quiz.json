@@ -1,6 +1,6 @@
 {
   "title": "Hoofdstuktoets – Werken met bronnen",
-  "intro": "Twee vragen.",
+  "intro": "Drie vragen.",
   "questions": [
     {
       "id": "01-T01",
@@ -32,6 +32,23 @@
       "answer": "secundaire bron",
       "solution": [
         "Het boek interpreteert oudere bronnen."
+      ],
+      "topics": [
+        "sources"
+      ]
+    },
+    {
+      "id": "01-T03",
+      "type": "order",
+      "difficulty": 2,
+      "question": "Zet in volgorde van ontstaan, de oudste eerst.",
+      "answer": [
+        "Een brief uit 1574",
+        "Een schoolboek uit 1950",
+        "Een recente website"
+      ],
+      "solution": [
+        "De jaartallen bepalen de volgorde."
       ],
       "topics": [
         "sources"

@@ -21,7 +21,7 @@
 
     <div class="container-page mt-10 *:max-w-3xl">
         <form method="post" action="{{ route('quiz.submit', $module->slug) }}" class="space-y-5"
-              x-data="{ submitting: false, answered: 0, count() { this.answered = [...$el.querySelectorAll('.exercise')].filter(q => [...q.querySelectorAll('input[type=text]')].some(i => i.value.trim() !== '') || q.querySelector('input[type=radio]:checked')).length } }"
+              x-data="{ submitting: false, answered: 0, count() { this.answered = [...$el.querySelectorAll('.exercise')].filter(q => [...q.querySelectorAll('input[type=text]')].some(i => i.value.trim() !== '') || q.querySelector('input[type=radio]:checked, [data-answered]')).length } }"
               @input="count()" @submit="submitting = true">
             @csrf
             @foreach ($quiz['questions'] as $question)
@@ -39,7 +39,11 @@
                             <div class="exercise-question mb-3 text-ink-soft">{!! $markdown->render($question->context) !!}</div>
                         @endif
                         <div class="exercise-question">{!! $markdown->render($question->question) !!}</div>
-                        @if ($question->isChoice())
+                        @if ($question->isOrder())
+                            <div class="mt-4" x-data="{ answer: @js(old('answers.'.$question->id, $question->shuffledItems())), isCorrect: false, status: null, start() {}, edited() { this.$dispatch('input') }, move(i, step) { const j = i + step; if (j < 0 || j >= this.answer.length) return; [this.answer[i], this.answer[j]] = [this.answer[j], this.answer[i]]; this.$root.dataset.answered = '1'; this.edited() } }">
+                                <x-order-list :items="$question->shuffledItems()" :uid="'q-'.$question->id" :name="'answers['.$question->id.'][]'" />
+                            </div>
+                        @elseif ($question->isChoice())
                             <fieldset class="mt-4 space-y-2">
                                 <legend class="sr-only">Antwoord op vraag {{ $loop->iteration }}</legend>
                                 @foreach ($question->choices as $choice)

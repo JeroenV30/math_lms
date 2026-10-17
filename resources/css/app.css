@@ -545,6 +545,39 @@
         @apply mt-1 h-4 w-4 shrink-0 accent-accent;
     }
 
+    /* Ordenen: genummerde regels met knoppen om te verschuiven. */
+    .order-list {
+        @apply space-y-2;
+    }
+
+    .order-item {
+        @apply flex items-center gap-3 rounded-lg border border-line bg-paper px-4 py-2 font-serif text-[1.02rem] leading-snug text-ink;
+    }
+
+    .order-correct {
+        @apply border-success bg-success-soft;
+    }
+
+    .order-wrong {
+        @apply border-danger;
+    }
+
+    .order-index {
+        @apply w-5 shrink-0 font-sans text-sm text-muted tabular-nums;
+    }
+
+    .order-text {
+        @apply flex-1;
+    }
+
+    .order-buttons {
+        @apply flex shrink-0 gap-1;
+    }
+
+    .order-btn {
+        @apply flex h-8 w-8 items-center justify-center rounded-md border border-line font-sans text-ink-soft transition-colors hover:border-line-strong hover:text-ink disabled:cursor-default disabled:opacity-30 disabled:hover:border-line;
+    }
+
     .feedback {
         @apply mt-4 rounded-lg px-4 py-3 text-sm leading-relaxed;
     }

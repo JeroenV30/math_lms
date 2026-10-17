@@ -15,6 +15,7 @@
         'hintsTotal' => count($exercise->hints),
         'state' => $state,
         'parts' => array_map(fn ($part) => $part['label'], $exercise->parts()),
+        'items' => $exercise->shuffledItems(),
     ];
     $module = $showModule ? $content->getModule($exercise->moduleId) : null;
 @endphp
@@ -61,6 +62,8 @@
                         </label>
                     @endforeach
                 </fieldset>
+            @elseif ($exercise->isOrder())
+                <x-order-list :items="$exercise->shuffledItems()" :uid="$uid" />
             @elseif ($exercise->isMultiple())
                 @foreach ($exercise->parts() as $i => $part)
                     <div class="flex items-center gap-2">

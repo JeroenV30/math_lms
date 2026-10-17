@@ -13,8 +13,11 @@ export default function exercise(config) {
         context: config.context ?? 'lesson',
         checkUrl: config.checkUrl,
         hintsTotal: config.hintsTotal ?? 0,
-        // Eén tekstveld, of bij meerdere invoervelden een object label → antwoord.
-        answer: config.parts?.length ? Object.fromEntries(config.parts.map((label) => [label, ''])) : '',
+        // Eén tekstveld, bij meerdere invoervelden een object label → antwoord,
+        // bij ordenen de items in de huidige volgorde.
+        answer: config.items?.length
+            ? [...config.items]
+            : config.parts?.length ? Object.fromEntries(config.parts.map((label) => [label, ''])) : '',
         status: config.state === 'solved' ? 'previously-solved' : null,
         message: '',
         feedback: '',
@@ -102,6 +105,14 @@ export default function exercise(config) {
         showSolution() {
             this.start();
             this.solutionShown = true;
+        },
+
+        // Ordenen: item i een plek omhoog (-1) of omlaag (+1).
+        move(i, step) {
+            const j = i + step;
+            if (j < 0 || j >= this.answer.length) return;
+            [this.answer[i], this.answer[j]] = [this.answer[j], this.answer[i]];
+            this.edited();
         },
 
         edited() {

@@ -16,8 +16,9 @@ class ExerciseController extends Controller
         abort_if($found->isQuizQuestion, 403, 'Toetsvragen worden via de toets ingeleverd.');
 
         $validated = $request->validate([
-            // Eén tekstveld, of bij meerdere invoervelden een array label => antwoord.
-            'answer' => ['present', 'nullable', $found->isMultiple() ? 'array' : 'string', 'max:255'],
+            // Eén tekstveld, bij meerdere invoervelden een array label => antwoord,
+            // bij ordenen de items in de gekozen volgorde.
+            'answer' => ['present', 'nullable', $found->hasListAnswer() ? 'array' : 'string', 'max:255'],
             'answer.*' => ['nullable', 'string', 'max:255'],
             'hints_used' => ['nullable', 'integer', 'min:0', 'max:50'],
             'solution_viewed' => ['nullable', 'boolean'],
@@ -25,7 +26,7 @@ class ExerciseController extends Controller
             'response_time' => ['nullable', 'integer', 'min:0'],
         ]);
 
-        $answer = $found->isMultiple()
+        $answer = $found->hasListAnswer()
             ? array_map(fn ($v) => (string) $v, (array) ($validated['answer'] ?? []))
             : (string) ($validated['answer'] ?? '');
 

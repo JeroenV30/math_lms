@@ -20,6 +20,7 @@ class AnswerCheckerFactory
         'multiple' => MultipleChecker::class,
         'text' => TextChecker::class,
         'choice' => ChoiceChecker::class,
+        'order' => OrderChecker::class,
     ];
 
     public function __construct(private readonly Container $container) {}

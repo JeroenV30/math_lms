@@ -198,6 +198,7 @@ overschrijven. Houd afbeeldingen klein (max. ~1200 px breed, < 400 kB).
 | `multiple` | – (gebruik `parts`) | per deel de opties van zijn type | één invoerveld per deel |
 | `text` | modelantwoord (string) | `min_length` (standaard 40) | open antwoord in een tekstvak; niet automatisch beoordeeld |
 | `choice` | tekst van het juiste alternatief | `choices` (lijst, minstens 2) | meerkeuze: één alternatief aanklikken; ook in toetsen |
+| `order` | lijst items in de juiste volgorde (minstens 3) | – | ordenen: de items verschijnen geschud en worden met ↑/↓ verschoven; ook in toetsen |
 
 Bij `multiple` staat in plaats van `answer` een lijst `parts`:
 
@@ -222,6 +223,24 @@ rekenwerk is `choice` het type voor toetsvragen (`text` mag niet in een toets).
 "answer": "Een brief uit 1574",
 "feedback": [
   { "answer": "Een schoolboek uit 1950", "message": "Dat is een latere interpretatie: een secundaire bron voor 1574." }
+]
+```
+
+Bij `order` (ordenen) is `answer` de lijst in de juiste volgorde. De leerling ziet
+dezelfde items in een vaste, geschudde volgorde (nooit al de goede) en verschuift ze.
+Alleen precies de goede volgorde telt als goed; bij een fout antwoord meldt de
+oefening hoeveel items op de juiste plek staan. Zeg in de vraag altijd wat de
+volgorde bepaalt ("de oudste eerst", "van oorzaak naar gevolg"). Een `feedback`-regel
+heeft als `answer` een complete herschikking van dezelfde items. Houd items kort
+(een regel) en onderscheidbaar: vier tot zes items werkt het best.
+
+```json
+"type": "order",
+"question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+"answer": ["Val van het West-Romeinse Rijk", "Kroning van Karel de Grote", "Stellingname van Luther"],
+"feedback": [
+  { "answer": ["Kroning van Karel de Grote", "Val van het West-Romeinse Rijk", "Stellingname van Luther"],
+    "message": "Karel de Grote werd in 800 gekroond, ruim drie eeuwen na 476." }
 ]
 ```
 

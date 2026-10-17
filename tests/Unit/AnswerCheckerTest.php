@@ -3,6 +3,7 @@
 namespace Tests\Unit;
 
 use App\Services\AnswerCheckers\ChoiceChecker;
+use App\Services\AnswerCheckers\OrderChecker;
 use App\Services\AnswerCheckers\DecimalChecker;
 use App\Services\AnswerCheckers\FractionChecker;
 use App\Services\AnswerCheckers\NumberParser;
@@ -132,5 +133,33 @@ class AnswerCheckerTest extends TestCase
         $this->assertFalse($checker->check('Een recente website', 'Een brief uit 1574')->correct);
         $this->assertTrue($checker->check('Een recente website', 'Een brief uit 1574')->valid);
         $this->assertFalse($checker->check('', 'Een brief uit 1574')->valid);
+    }
+
+    public function test_order_checker_requires_the_exact_order_of_the_same_items(): void
+    {
+        $checker = new OrderChecker;
+        $right = ['Romeinen', 'Karel de Grote', 'Reformatie'];
+
+        $this->assertTrue($checker->check($right, $right)->correct);
+        $this->assertTrue($checker->check([' romeinen', 'karel  de grote', 'Reformatie '], $right)->correct);
+        $wrong = $checker->check(['Karel de Grote', 'Romeinen', 'Reformatie'], $right);
+        $this->assertTrue($wrong->valid);
+        $this->assertFalse($wrong->correct);
+        $this->assertStringContainsString('1 van de 3', $wrong->message);
+        $this->assertFalse($checker->check(['Romeinen', 'Karel de Grote'], $right)->valid);
+        $this->assertFalse($checker->check(['Romeinen', 'Karel de Grote', 'Napoleon'], $right)->valid);
+        $this->assertFalse($checker->check('', $right)->valid);
+    }
+
+    public function test_order_items_are_shown_shuffled_but_stable(): void
+    {
+        $exercise = \App\ValueObjects\Exercise::fromArray(1, [
+            'id' => '01-009', 'type' => 'order', 'question' => 'Volgorde?', 'answer' => ['a', 'b', 'c', 'd'],
+        ]);
+
+        $shown = $exercise->shuffledItems();
+        $this->assertNotSame(['a', 'b', 'c', 'd'], $shown);
+        $this->assertEqualsCanonicalizing(['a', 'b', 'c', 'd'], $shown);
+        $this->assertSame($shown, $exercise->shuffledItems());
     }
 }

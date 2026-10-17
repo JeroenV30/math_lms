@@ -217,11 +217,40 @@ class DomainTest extends TestCase
         $this->post('/kennis/geschiedenis/cursus/bronnen/toets', ['answers' => [
             '01-T01' => 'Ze is ontstaan in de onderzochte tijd',
             '01-T02' => 'secundaire bron',
+            '01-T03' => ['Een brief uit 1574', 'Een schoolboek uit 1950', 'Een recente website'],
         ]])->assertRedirect();
 
         $this->assertDatabaseHas('quiz_attempts', ['course' => 'geschiedenis', 'score' => 100]);
         $this->assertDatabaseHas('module_progress', ['course' => 'geschiedenis', 'module_id' => 1, 'status' => 'mastered']);
         $this->assertDatabaseMissing('module_progress', ['course' => 'wiskunde', 'status' => 'mastered']);
+    }
+
+    public function test_order_exercises_and_quizzes_work(): void
+    {
+        $this->useFixtureContent();
+
+        $this->get('/kennis/geschiedenis/cursus/bronnen/les/introductie')
+            ->assertOk()
+            ->assertSee('order-list', false)
+            ->assertSee('Een kroniek uit 1614');
+
+        $right = ['Een brief uit 1574', 'Een kroniek uit 1614', 'Een schoolboek uit 1950', 'Een recente website'];
+
+        $this->postJson('/kennis/geschiedenis/oefening/01-003/controleer', ['answer' => array_reverse($right)])
+            ->assertOk()->assertJson(['correct' => false])->assertSee('omgedraaid');
+        $this->postJson('/kennis/geschiedenis/oefening/01-003/controleer', ['answer' => ['Een brief uit 1574', 'Een schoolboek uit 1950', 'Een kroniek uit 1614', 'Een recente website']])
+            ->assertOk()->assertJson(['correct' => false, 'message' => 'Nog niet goed: 2 van de 4 staan op de juiste plek.']);
+        $this->postJson('/kennis/geschiedenis/oefening/01-003/controleer', ['answer' => ['Een brief uit 1574']])
+            ->assertOk()->assertJson(['valid' => false]);
+        $this->postJson('/kennis/geschiedenis/oefening/01-003/controleer', ['answer' => $right])
+            ->assertOk()->assertJson(['correct' => true, 'message' => 'Correct: de volgorde klopt.']);
+        $this->assertDatabaseHas('exercise_attempts', ['exercise_id' => '01-003', 'answer' => implode(' → ', $right), 'is_correct' => true]);
+
+        $this->get('/kennis/geschiedenis/cursus/bronnen/toets')->assertOk()->assertSee('name="answers[01-T03][]"', false);
+        $this->post('/kennis/geschiedenis/cursus/bronnen/toets', ['answers' => [
+            '01-T03' => ['Een recente website', 'Een brief uit 1574', 'Een schoolboek uit 1950'],
+        ]])->assertRedirect();
+        $this->assertDatabaseHas('quiz_attempts', ['course' => 'geschiedenis', 'correct' => 0, 'total' => 3]);
     }
 
     public function test_second_course_gets_its_own_menu_labels_and_exercises(): void

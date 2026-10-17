@@ -29,7 +29,7 @@ class QuizService
         return DB::transaction(function () use ($module, $quiz, $answers) {
             $results = $quiz['questions']->map(function (Exercise $question) use ($answers) {
                 $raw = $answers[$question->id] ?? '';
-                $answer = $question->isMultiple()
+                $answer = $question->hasListAnswer()
                     ? array_map(fn ($v) => trim((string) $v), (array) $raw)
                     : trim(is_array($raw) ? '' : (string) $raw);
                 $outcome = $this->exercises->submit($question, $answer, ['context' => 'quiz']);

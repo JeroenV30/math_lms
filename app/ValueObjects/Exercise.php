@@ -33,8 +33,13 @@ final readonly class Exercise
             difficulty: (int) ($data['difficulty'] ?? 1),
             question: $data['question'],
             context: $data['context'] ?? null,
-            // Bij meerdere invoervelden bestaat het antwoord uit de delen.
-            answer: ($data['type'] ?? null) === 'multiple' ? array_values($data['parts'] ?? []) : $data['answer'],
+            // Bij meerdere invoervelden bestaat het antwoord uit de delen; bij ordenen
+            // is het de lijst items in de juiste volgorde.
+            answer: match ($data['type'] ?? null) {
+                'multiple' => array_values($data['parts'] ?? []),
+                'order' => array_values(array_map('strval', (array) $data['answer'])),
+                default => $data['answer'],
+            },
             unit: $data['unit'] ?? null,
             options: array_filter([
                 'tolerance' => $data['tolerance'] ?? null,
@@ -83,6 +88,43 @@ final readonly class Exercise
     public function isChoice(): bool
     {
         return $this->type === 'choice';
+    }
+
+    public function isOrder(): bool
+    {
+        return $this->type === 'order';
+    }
+
+    /**
+     * Antwoord dat uit een lijst bestaat (meerdere invoervelden of ordenen).
+     */
+    public function hasListAnswer(): bool
+    {
+        return $this->isMultiple() || $this->isOrder();
+    }
+
+    /**
+     * Ordenen: de items in de volgorde waarin ze getoond worden. Die volgorde is
+     * per oefening vast (geen verspringen bij herladen) en nooit al de goede.
+     *
+     * @return list<string>
+     */
+    public function shuffledItems(): array
+    {
+        if (! $this->isOrder()) {
+            return [];
+        }
+
+        $items = $this->answer;
+        mt_srand(crc32($this->id));
+        shuffle($items);
+        mt_srand();
+
+        if ($items === $this->answer && count($items) > 1) {
+            $items = [...array_slice($items, 1), $items[0]];
+        }
+
+        return $items;
     }
 
     /**

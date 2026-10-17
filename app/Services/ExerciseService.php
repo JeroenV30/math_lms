@@ -40,7 +40,7 @@ class ExerciseService
         $checker = $this->checkers->for($exercise->type);
         $result = $checker->check($answer, $exercise->answer, $exercise->options);
 
-        return ['result' => $result, 'feedback' => $result->valid && ! $result->correct && is_string($answer)
+        return ['result' => $result, 'feedback' => $result->valid && ! $result->correct && (is_string($answer) || $exercise->isOrder())
             ? $this->mistakeFeedback($exercise, $answer)
             : null];
     }
@@ -95,8 +95,12 @@ class ExerciseService
                 ->implode('; ');
         }
 
+        if ($exercise->isOrder()) {
+            return implode(' → ', $exercise->answer);
+        }
+
         $answer = match ($exercise->type) {
-            'fraction', 'expression', 'coordinate', 'interval' => (string) $exercise->answer,
+            'fraction', 'expression', 'coordinate', 'interval', 'choice' => (string) $exercise->answer,
             default => $this->numbers->format(is_string($exercise->answer)
                 ? ($this->numbers->parse($exercise->answer) ?? 0)
                 : $exercise->answer),
@@ -128,6 +132,10 @@ class ExerciseService
             return $result->normalized;
         }
 
+        if ($exercise->isOrder()) {
+            return implode(' → ', $answer);
+        }
+
         return collect($exercise->parts())
             ->map(fn (array $part, int $i) => $part['label'].' = '.($answer[$part['label']] ?? $answer[$i] ?? ''))
             ->implode('; ');
@@ -136,7 +144,7 @@ class ExerciseService
     /**
      * Foutenanalyse: herken veelgemaakte foute antwoorden uit de content.
      */
-    private function mistakeFeedback(Exercise $exercise, string $answer): ?string
+    private function mistakeFeedback(Exercise $exercise, string|array $answer): ?string
     {
         $checker = $this->checkers->for($exercise->type);
         $options = [...$exercise->options, 'require_simplified' => false];
@@ -156,6 +164,7 @@ class ExerciseService
         $message = match (true) {
             ! $result->valid => $result->message,
             $exercise->type === 'text' => $result->message,
+            $result->correct && $exercise->isOrder() => 'Correct: de volgorde klopt.',
             $result->correct => 'Correct. Het antwoord is '.$this->withUnit($exercise, $result->normalized).'.',
             $result->message !== null => $result->message,
             default => 'Nog niet correct.',

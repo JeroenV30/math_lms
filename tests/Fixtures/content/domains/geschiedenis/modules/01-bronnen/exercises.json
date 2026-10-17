@@ -44,6 +44,39 @@
       "topics": [
         "sources"
       ]
+    },
+    {
+      "id": "01-003",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze bronnen over het beleg van Leiden in volgorde van ontstaan, de oudste eerst.",
+      "answer": [
+        "Een brief uit 1574",
+        "Een kroniek uit 1614",
+        "Een schoolboek uit 1950",
+        "Een recente website"
+      ],
+      "hints": [
+        "Kijk naar het jaartal bij elke bron."
+      ],
+      "solution": [
+        "1574, 1614, 1950 en daarna de website: de volgorde van de jaartallen."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Een recente website",
+            "Een schoolboek uit 1950",
+            "Een kroniek uit 1614",
+            "Een brief uit 1574"
+          ],
+          "message": "Je hebt de volgorde omgedraaid: de oudste bron hoort bovenaan."
+        }
+      ],
+      "topics": [
+        "sources"
+      ]
     }
   ]
 }

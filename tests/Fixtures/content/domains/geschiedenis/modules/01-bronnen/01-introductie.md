@@ -2,7 +2,7 @@
 
 In 1574 bereikte een brief de belegerde stad Leiden.
 
-{{ exercises: 01-001, 01-002 }}
+{{ exercises: 01-001, 01-002, 01-003 }}
 
 {{ goals }}
 

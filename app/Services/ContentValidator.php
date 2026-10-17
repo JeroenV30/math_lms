@@ -207,6 +207,7 @@ class ContentValidator
         $checker = $this->checkers->for($exercise->type);
         $answer = match (true) {
             $exercise->isMultiple() => array_map(fn (array $part) => (string) ($part['answer'] ?? ''), $exercise->parts()),
+            $exercise->isOrder() => $exercise->answer,
             is_float($exercise->answer) => str_replace('.', ',', (string) $exercise->answer),
             default => (string) $exercise->answer,
         };
@@ -216,6 +217,12 @@ class ContentValidator
             $this->expect(count($choices) >= 2, "{$id}: meerkeuze heeft minstens twee keuzes nodig.");
             $this->expect(count($choices) === count(array_unique($choices)), "{$id}: dubbele keuzes.");
             $this->expect(in_array(mb_strtolower(trim((string) $exercise->answer)), $choices, true), "{$id}: het antwoord staat niet tussen de keuzes.");
+        }
+
+        if ($exercise->isOrder()) {
+            $items = array_map(fn (string $item) => mb_strtolower(trim($item)), $exercise->answer);
+            $this->expect(count($items) >= 3, "{$id}: ordenen heeft minstens drie items nodig.");
+            $this->expect(count($items) === count(array_unique($items)), "{$id}: dubbele items.");
         }
 
         if ($exercise->isMultiple()) {
@@ -240,10 +247,16 @@ class ContentValidator
                 continue;
             }
 
+            $ruleAnswer = $exercise->isOrder() ? (array) $rule['answer'] : (string) $rule['answer'];
+            $shownRule = is_array($ruleAnswer) ? implode(' → ', $ruleAnswer) : $ruleAnswer;
             $this->expect(
-                ! $checker->check((string) $rule['answer'], $exercise->answer, [...$exercise->options, 'require_simplified' => false])->correct,
-                "{$id}: feedback-antwoord '{$rule['answer']}' is eigenlijk goed.",
+                ! $checker->check($ruleAnswer, $exercise->answer, [...$exercise->options, 'require_simplified' => false])->correct,
+                "{$id}: feedback-antwoord '{$shownRule}' is eigenlijk goed.",
             );
+
+            if ($exercise->isOrder()) {
+                $this->expect($checker->check($ruleAnswer, $exercise->answer)->valid, "{$id}: feedback-antwoord '{$shownRule}' is geen herschikking van de items.");
+            }
         }
     }
 
