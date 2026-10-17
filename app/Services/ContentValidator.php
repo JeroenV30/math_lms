@@ -75,6 +75,18 @@ class ContentValidator
             $this->checkLanguageInJson($this->content->path().'/'.$file, $prefix.$file);
         }
 
+        foreach ($this->content->timeline() as $event) {
+            $where = "{$prefix}tijdlijn '".($event['id'] ?? '?')."'";
+
+            foreach ($event['people'] ?? $event['mathematicians'] ?? [] as $id) {
+                $this->warnUnless(in_array($id, $people, true), "{$where}: persoon '{$id}' bestaat (nog) niet.");
+            }
+
+            foreach ($event['modules'] ?? [] as $id) {
+                $this->warnUnless($modules->has($id), "{$where}: verwijst naar onbekende module {$id}.");
+            }
+        }
+
         foreach ($modules as $module) {
             $where = "{$prefix}Module {$module->id}";
 

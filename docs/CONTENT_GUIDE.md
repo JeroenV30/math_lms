@@ -1,4 +1,4 @@
-# Contentgids – Rekenen & Wiskunde (Kennis door de Eeuwen)
+# Contentgids – Kennis door de Eeuwen
 
 Alle cursusinhoud staat in `content/`. De applicatie leest deze bestanden; er staat
 geen lesstof in controllers, Blade of JavaScript. Nieuwe lessen of oefeningen
@@ -33,12 +33,15 @@ en worden in Markdown aangeroepen als `/images/diagrams/bestand.svg`.
 
 ## 1. Doelgroep en toon
 
-- Volwassen (her)leerder die rekenen en wiskunde vanaf de basis opnieuw opbouwt
+Dit hoofdstuk geldt voor elk domein; de voorbeelden komen uit wiskunde. Wat per
+domein verschilt (lesopbouw, oefentypen, bronnen), staat in `docs/domains/<domein>.md`.
+
+- Volwassen (her)leerder die een vak vanaf de basis (opnieuw) opbouwt
   tot HBO/WO-niveau. **Niet kinderachtig**: denk "universitair leerboek ×
   moderne educatieve webapp".
 - Nederlands, je-vorm, rustige korte zinnen, kleine stappen. Eerst begrijpen,
   dan de formule.
-- Elke module koppelt de wiskunde aan het probleem waaruit ze ontstond.
+- Elke module koppelt de kennis aan het probleem of de vraag waaruit ze ontstond.
 - Historische feiten moeten kloppen. Gebruik voorzichtige formuleringen
   ("ongeveer", "waarschijnlijk", "volgens de meeste onderzoekers") waar de
   wetenschap onzeker is. Geen verzonnen anekdotes.
@@ -78,7 +81,10 @@ en worden in Markdown aangeroepen als `/images/diagrams/bestand.svg`.
 - `status`: `available` (inhoud klaar) of `planned` (alleen metadata).
 - `kind` per les: `intro`, `theory`, `history`, `practice`, `summary`.
 - `topics`: alleen sleutels uit `course.json → topics`.
-- `timeline` / `mathematicians`: id's uit `history/*.json` van de cursus.
+- `timeline` / `people`: id's uit `history/*.json` van de cursus; bekijk ze met
+  `php artisan content:ids <domein>`. Wiskunde gebruikt de oudere sleutel
+  `mathematicians`; beide werken.
+- `formulas` alleen waar het vak formules heeft.
 
 ### Vaste lesindeling (contentsjabloon)
 
@@ -306,7 +312,7 @@ Alleen gebruiken waar ze begrip toevoegen.
 Alle widgets met een voorbeelddirectief zijn te zien op `/dev/widgets` (alleen lokaal).
 `number-line` werkt ook met negatieve getallen (`min=-10`).
 
-## 7. Tijdlijn en wiskundigen
+## 7. Tijdlijn en personen
 
 `content/domains/<domein>/history/timeline.json`:
 
@@ -323,18 +329,19 @@ Alle widgets met een voorbeelddirectief zijn te zien op `/dev/widgets` (alleen l
       "description": "Markdown, 1–3 alinea's.",
       "place": "Ishango, Congo",
       "modules": [1],
-      "mathematicians": [],
+      "people": [],
       "image": null
     }
   ]
 }
 ```
 
-`content/domains/<domein>/history/mathematicians.json`:
+`content/domains/<domein>/history/people.json` (bij wiskunde heet dit bestand
+`mathematicians.json`, met de sleutel `mathematicians`; ook in tijdlijngebeurtenissen):
 
 ```json
 {
-  "mathematicians": [
+  "people": [
     {
       "id": "euclides",
       "name": "Euclides",
@@ -352,3 +359,11 @@ Alle widgets met een voorbeelddirectief zijn te zien op `/dev/widgets` (alleen l
   ]
 }
 ```
+
+De validator waarschuwt als een tijdlijngebeurtenis naar een onbekende persoon of
+module verwijst. `php artisan content:ids <domein>` toont alle geldige id's.
+
+Content-agents wijzigen deze gedeelde bestanden niet zelf: ze leveren nieuwe
+gebeurtenissen, personen en onderwerpen aan in `additions.json` in hun
+moduledirectory (`{ "events": [], "people": [], "topics": {} }`), en de
+coördinator voegt die samen.

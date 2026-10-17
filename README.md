@@ -69,8 +69,8 @@ bureaublad zetten.
 Content en applicatielogica zijn volledig gescheiden (bouwplan §4):
 
 - **Laag A – content** (`content/`): Markdown en JSON. Zie
-  [`docs/CONTENT_GUIDE.md`](docs/CONTENT_GUIDE.md) voor het exacte formaat en
-  [`docs/HISTORY_IDS.md`](docs/HISTORY_IDS.md) voor de tijdlijn-id's.
+  [`docs/CONTENT_GUIDE.md`](docs/CONTENT_GUIDE.md) voor het exacte formaat;
+  `php artisan content:ids <domein>` toont de tijdlijn- en persoon-id's.
 - **Laag B – applicatie** (`app/`, `resources/`, `routes/`): Laravel leest en
   presenteert de content.
 - **Laag C – gebruikersgegevens** (SQLite): alleen pogingen, voortgang,

@@ -225,6 +225,14 @@ class DomainTest extends TestCase
         $this->assertDatabaseMissing('module_progress', ['course' => 'wiskunde', 'status' => 'mastered']);
     }
 
+    public function test_content_ids_lists_the_history_ids_of_a_course(): void
+    {
+        $this->useFixtureContent();
+
+        $this->artisan('content:ids geschiedenis')->expectsOutputToContain('`herodotus`')->assertSuccessful();
+        $this->artisan('content:ids onbekend')->assertFailed();
+    }
+
     public function test_order_exercises_and_quizzes_work(): void
     {
         $this->useFixtureContent();

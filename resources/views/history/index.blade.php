@@ -41,7 +41,7 @@
 
                             @php
                                 $modules = collect($event['modules'] ?? [])->map(fn ($id) => $content->getModule($id))->filter();
-                                $people = collect($event['mathematicians'] ?? [])->map(fn ($id) => $content->getMathematician($id))->filter();
+                                $people = collect($event['people'] ?? $event['mathematicians'] ?? [])->map(fn ($id) => $content->getMathematician($id))->filter();
                             @endphp
                             @if ($modules->isNotEmpty() || $people->isNotEmpty())
                                 <ul class="mt-3 flex flex-wrap gap-2">
