@@ -5,22 +5,26 @@
   "part": 1,
   "level": "fundamenten",
   "status": "available",
-  "historical_period": "Vroegmoderne tijd",
+  "historical_period": "Oudheid tot twintigste eeuw",
   "estimated_difficulty": 1,
-  "estimated_minutes": 15,
+  "estimated_minutes": 180,
   "prerequisites": [],
   "topics": [
     "sources",
     "source-criticism",
-    "interpretation"
+    "interpretation",
+    "chronology",
+    "historiography"
   ],
-  "core_question": "Hoe weten we wat er gebeurd is, en waarom ging het zo?",
-  "summary": "Hoe weten we wat er gebeurd is, en waarom ging het zo? Van de eerste landbouwers tot de moderne tijd, met bronnenkritiek als rode draad.",
+  "core_question": "Hoe weten we wat er gebeurd is, en hoe zeker kunnen we daarvan zijn?",
+  "summary": "Hoe weten we wat er gebeurd is, en hoe zeker kunnen we daarvan zijn? Bronnen, tijdsordening en interpretatie, uitgewerkt aan het Leidens Ontzet van 1574.",
   "learning_goals": [
     "Je kunt uitleggen waarom historische kennis steunt op bronnen en interpretatie.",
-    "Je kunt primaire en secundaire bronnen van elkaar onderscheiden.",
-    "Je kunt bij een bron vragen stellen over maker, tijd, doel, publiek en omstandigheden.",
-    "Je kunt uitleggen waarom een bron tegelijk bruikbaar en beperkt kan zijn.",
+    "Je kunt de soorten bronnen noemen en primaire en secundaire bronnen onderscheiden als relatie tot een onderzoeksvraag.",
+    "Je kunt jaren en eeuwen berekenen, een gebeurtenis in een tijdvak plaatsen en uitleggen waarom periodisering een constructie is.",
+    "Je kunt bij een bron vragen stellen over herkomst, context, doel en publiek en een bronanalyse uitwerken.",
+    "Je kunt uitleggen waarom een bron tegelijk bruikbaar en beperkt kan zijn, en onderscheid maken tussen betrouwbaarheid, bruikbaarheid en representativiteit.",
+    "Je kunt feit, interpretatie en mening onderscheiden en meerdere oorzaken en perspectieven afwegen.",
     "Je kunt een voorlopige historische conclusie formuleren en aangeven hoe zeker die is."
   ],
   "glossary": [
@@ -51,6 +55,38 @@
     {
       "term": "Betrouwbaarheid",
       "definition": "De mate waarin een bron geschikt is om een bepaalde bewering te ondersteunen. Dat verschilt per bron, bewering en onderzoeksvraag."
+    },
+    {
+      "term": "Bedoelde overlevering",
+      "definition": "Een bron die is gemaakt om iets door te geven aan anderen of aan latere generaties, zoals een kroniek of gedenksteen."
+    },
+    {
+      "term": "Onbedoeld overblijfsel",
+      "definition": "Een spoor dat als bijproduct van gewoon leven is achtergebleven, zoals een afvalkuil of een kasboek."
+    },
+    {
+      "term": "Representativiteit",
+      "definition": "De mate waarin wat je in één bron ziet ook geldt voor een grotere groep of een langere periode."
+    },
+    {
+      "term": "Anachronisme",
+      "definition": "Een bron of gebeurtenis lezen met betekenissen, kennis of maatstaven van een latere tijd."
+    },
+    {
+      "term": "Periodisering",
+      "definition": "Het indelen van het verleden in perioden. De grenzen en namen zijn keuzes van historici achteraf."
+    },
+    {
+      "term": "Tijdvak",
+      "definition": "Een van de tien perioden waarin het Nederlandse onderwijs de geschiedenis indeelt."
+    },
+    {
+      "term": "Feit, interpretatie en mening",
+      "definition": "Een feit stel je met bronnen vast, een interpretatie is een onderbouwde uitleg en een mening is een waardeoordeel."
+    },
+    {
+      "term": "Historiografie",
+      "definition": "De geschiedenis van het geschiedschrijven: hoe historici het verleden hebben beschreven en uitgelegd."
     }
   ],
   "lessons": [
@@ -59,8 +95,63 @@
       "title": "Hoe weten we wat er gebeurd is?",
       "file": "01-introductie.md",
       "kind": "intro"
+    },
+    {
+      "slug": "wat-is-een-bron",
+      "title": "Wat is een bron?",
+      "file": "02-wat-is-een-bron.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "tijd-ordenen",
+      "title": "Tijd ordenen",
+      "file": "03-tijd-ordenen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "bronnen-kritisch-lezen",
+      "title": "Bronnen kritisch lezen",
+      "file": "04-bronnen-kritisch-lezen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "van-bron-naar-interpretatie",
+      "title": "Van bron naar interpretatie",
+      "file": "05-van-bron-naar-interpretatie.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum: het Leidens Ontzet",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
     }
   ],
-  "timeline": [],
-  "people": []
+  "timeline": [
+    "herodotus-historien",
+    "thucydides-peloponnesische-oorlog",
+    "leidens-ontzet",
+    "leidse-noodmunten",
+    "gregoriaanse-kalender-1582",
+    "ranke-eerste-boek"
+  ],
+  "people": [
+    "herodotus",
+    "thucydides",
+    "ranke",
+    "geyl",
+    "van-der-werff"
+  ]
 }

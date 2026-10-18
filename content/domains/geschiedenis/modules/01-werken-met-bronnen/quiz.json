@@ -1,0 +1,487 @@
+{
+  "title": "Hoofdstuktoets – Werken met bronnen",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'. Bij een aantal vragen redeneer je met een bronfragment.",
+  "questions": [
+    {
+      "id": "01-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat is een historische bron?",
+      "choices": [
+        "Alles wat uit het verleden is overgebleven en wat je kunt gebruiken om een vraag over dat verleden te beantwoorden",
+        "Alleen een geschreven tekst uit de periode zelf",
+        "Alleen een document dat betrouwbaar is gebleken",
+        "Een boek van een historicus over het verleden"
+      ],
+      "answer": "Alles wat uit het verleden is overgebleven en wat je kunt gebruiken om een vraag over dat verleden te beantwoorden",
+      "hints": [
+        "Denk breed: niet alleen teksten."
+      ],
+      "solution": [
+        "Een bron is elk spoor dat je kunt gebruiken om een vraag te beantwoorden: tekst, voorwerp, beeld, verhaal of digitaal spoor."
+      ],
+      "feedback": [
+        {
+          "answer": "Alleen een geschreven tekst uit de periode zelf",
+          "message": "Ook voorwerpen, beelden en verhalen zijn bronnen."
+        },
+        {
+          "answer": "Alleen een document dat betrouwbaar is gebleken",
+          "message": "Betrouwbaarheid beoordeel je pas na kritisch lezen; ook een twijfelachtige bron is een bron."
+        }
+      ],
+      "topics": [
+        "sources"
+      ]
+    },
+    {
+      "id": "01-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Je onderzoekt hoe Nederlanders in 1950 over het Leidens Ontzet dachten. Een schoolboek uit 1950 over het Ontzet is voor die vraag...",
+      "choices": [
+        "een primaire bron",
+        "een secundaire bron",
+        "onbetrouwbaar",
+        "onbruikbaar"
+      ],
+      "answer": "een primaire bron",
+      "hints": [
+        "Primair of secundair hangt af van je vraag."
+      ],
+      "solution": [
+        "De vraag gaat over 1950; het schoolboek komt uit 1950 en is dus een primaire bron voor die vraag."
+      ],
+      "feedback": [
+        {
+          "answer": "een secundaire bron",
+          "message": "Dat zou kloppen bij een vraag over 1574, niet bij een vraag over 1950."
+        }
+      ],
+      "topics": [
+        "sources"
+      ]
+    },
+    {
+      "id": "01-T03",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel jaar liggen er tussen het jaar 20 v.Chr. en het jaar 10 n.Chr.?",
+      "answer": 29,
+      "hints": [
+        "Er is geen jaar 0."
+      ],
+      "solution": [
+        "20 + 10 − 1 = 29."
+      ],
+      "unit": "jaar",
+      "feedback": [
+        {
+          "answer": 30,
+          "message": "Je hebt 20 + 10 opgeteld. Omdat er geen jaar 0 is, moet je 1 aftrekken."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "01-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "context": "**Papieren noodmunt van 20 stuiver, Leiden 1574** (Museum De Lakenhal, inventarisnummer 3900). Papier, verzilverd aan beide zijden, 37 mm. Voorzijde: leeuw met lans en vrijheidshoed, het jaartal 1574 en de tekst *HAEC LIBERTATIS ERGO*. Achterzijde: stadswapen van Leiden met de letters N O V L S G I P A C (munt van de belegerde stad Leiden, geslagen onder het bestuur van de prins van Oranje) en de tekst *GOD BEHOEDE LEYDEN*. Maker: anoniem.",
+      "question": "Welke uitspraak kun je met deze noodmunt als bron niet onderbouwen?",
+      "choices": [
+        "De bevolking accepteerde het noodgeld zonder bezwaar",
+        "Leiden gaf in 1574 noodgeld uit",
+        "Het noodgeld werd uitgegeven onder gezag van de prins van Oranje",
+        "Het stuk draagt de tekst God behoede Leyden"
+      ],
+      "answer": "De bevolking accepteerde het noodgeld zonder bezwaar",
+      "hints": [
+        "Wat staat er op het stuk en wat niet?"
+      ],
+      "solution": [
+        "Over acceptatie door de bevolking zegt de munt niets; de andere uitspraken staan op of volgen uit het stuk zelf."
+      ],
+      "feedback": [
+        {
+          "answer": "Leiden gaf in 1574 noodgeld uit",
+          "message": "Dit volgt direct uit de munt: ze is uit 1574 en noemt Leiden."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "01-T05",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Het Leidens Ontzet",
+        "Invoering van de Gregoriaanse kalender",
+        "Ranke publiceert zijn eerste boek",
+        "Geyl publiceert Debates with Historians",
+        "Advies van de commissie-De Rooy over de tien tijdvakken"
+      ],
+      "hints": [
+        "1574, 1582, 1824, 1955, 2001."
+      ],
+      "solution": [
+        "Ontzet (1574), Gregoriaanse kalender (1582), Ranke (1824), Geyl (1955), commissie-De Rooy (2001)."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Het Leidens Ontzet",
+            "Invoering van de Gregoriaanse kalender",
+            "Geyl publiceert Debates with Historians",
+            "Ranke publiceert zijn eerste boek",
+            "Advies van de commissie-De Rooy over de tien tijdvakken"
+          ],
+          "message": "Ranke publiceerde in 1824, Geyl in 1955."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "01-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "In welk van de tien tijdvakken valt het jaar 1648?",
+      "choices": [
+        "Tijd van regenten en vorsten",
+        "Tijd van ontdekkers en hervormers",
+        "Tijd van pruiken en revoluties",
+        "Tijd van steden en staten"
+      ],
+      "answer": "Tijd van regenten en vorsten",
+      "hints": [
+        "Dit tijdvak loopt van 1600 tot 1700."
+      ],
+      "solution": [
+        "1648 ligt tussen 1600 en 1700."
+      ],
+      "feedback": [
+        {
+          "answer": "Tijd van ontdekkers en hervormers",
+          "message": "Dat tijdvak loopt van 1500 tot 1600."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "01-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Herodotus, *Historiën* (boek 7), vrij vertaald: “Ik moet vertellen wat er gezegd wordt, maar ik ben niet verplicht het ook allemaal te geloven.”",
+      "question": "Wat zegt dit fragment over de werkwijze van Herodotus?",
+      "choices": [
+        "Hij geeft verhalen weer en houdt afstand, zodat de lezer kan oordelen",
+        "Hij vertelt alleen wat hij zelf gelooft",
+        "Hij vertrouwt elke bron volledig",
+        "Hij schrijft alleen over wat hij zelf heeft gezien"
+      ],
+      "answer": "Hij geeft verhalen weer en houdt afstand, zodat de lezer kan oordelen",
+      "hints": [
+        "Let op het verschil tussen vertellen en geloven."
+      ],
+      "solution": [
+        "Herodotus vertelt wat gezegd wordt, maar is niet verplicht het te geloven: hij houdt afstand tot zijn bronnen."
+      ],
+      "feedback": [
+        {
+          "answer": "Hij vertelt alleen wat hij zelf gelooft",
+          "message": "Het fragment zegt juist dat hij ook vertelt wat hij niet gelooft."
+        },
+        {
+          "answer": "Hij vertrouwt elke bron volledig",
+          "message": "Het fragment wijst op het tegendeel: afstand houden."
+        }
+      ],
+      "topics": [
+        "sources",
+        "historiography"
+      ]
+    },
+    {
+      "id": "01-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een stadsbestuur beweert in een proclamatie dat alles onder controle is. Voor welke vraag is die proclamatie zeker bruikbaar?",
+      "choices": [
+        "Hoe het bestuur zich aan de bevolking wilde presenteren",
+        "Hoe ongerust de gewone inwoners werkelijk waren",
+        "Of er werkelijk niets aan de hand was",
+        "Wat de vijand van plan was"
+      ],
+      "answer": "Hoe het bestuur zich aan de bevolking wilde presenteren",
+      "hints": [
+        "Wat zegt een proclamatie in elk geval over de maker?"
+      ],
+      "solution": [
+        "Een proclamatie is een bedoelde boodschap; ze laat zien hoe het bestuur zich wilde tonen, ook als de inhoud niet klopt."
+      ],
+      "feedback": [
+        {
+          "answer": "Of er werkelijk niets aan de hand was",
+          "message": "Daarvoor is de proclamatie juist minder geschikt, omdat het bestuur er belang bij had rust uit te stralen."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "01-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "**Papieren noodmunt van 20 stuiver, Leiden 1574** (Museum De Lakenhal, inventarisnummer 3900). Papier, verzilverd aan beide zijden, 37 mm. Voorzijde: leeuw met lans en vrijheidshoed, het jaartal 1574 en de tekst *HAEC LIBERTATIS ERGO*. Achterzijde: stadswapen van Leiden met de letters N O V L S G I P A C (munt van de belegerde stad Leiden, geslagen onder het bestuur van de prins van Oranje) en de tekst *GOD BEHOEDE LEYDEN*. Maker: anoniem.",
+      "question": "Je wilt weten hoeveel van deze noodmunten er in omloop waren. Is deze ene munt daarvoor bruikbaar?",
+      "choices": [
+        "Nee, één exemplaar zegt niets over aantallen; daarvoor heb je bijvoorbeeld rekeningen of besluiten nodig",
+        "Ja, want de munt komt uit 1574 zelf",
+        "Ja, want het inventarisnummer toont het aantal",
+        "Nee, want papieren munten zijn geen bronnen"
+      ],
+      "answer": "Nee, één exemplaar zegt niets over aantallen; daarvoor heb je bijvoorbeeld rekeningen of besluiten nodig",
+      "hints": [
+        "Bruikbaarheid hangt van je vraag af."
+      ],
+      "solution": [
+        "De munt is primair voor 1574, maar bij deze vraag is ze niet representatief voor een aantal; ander materiaal is nodig."
+      ],
+      "feedback": [
+        {
+          "answer": "Ja, want de munt komt uit 1574 zelf",
+          "message": "Een bron uit de tijd is niet voor elke vraag bruikbaar."
+        },
+        {
+          "answer": "Ja, want het inventarisnummer toont het aantal",
+          "message": "Het inventarisnummer is van het museum en zegt niets over aantallen in 1574."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "01-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke uitspraak is een interpretatie?",
+      "choices": [
+        "De Spaanse troepen vertrokken vooral omdat het land onder water liep.",
+        "Leiden werd op 3 oktober 1574 ontzet.",
+        "Het vertrek van de Spanjaarden was een gelukkig moment.",
+        "Leiden kreeg in 1575 een universiteit."
+      ],
+      "answer": "De Spaanse troepen vertrokken vooral omdat het land onder water liep.",
+      "hints": [
+        "Een interpretatie verbindt feiten tot een verklaring."
+      ],
+      "solution": [
+        "De uitspraak verklaart een gebeurtenis; dat is een interpretatie die je met bronnen kunt onderbouwen of bestrijden."
+      ],
+      "feedback": [
+        {
+          "answer": "Het vertrek van de Spanjaarden was een gelukkig moment.",
+          "message": "Dit is een waardeoordeel: een mening."
+        }
+      ],
+      "topics": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-T11",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet de stappen van een historisch onderzoek in de logische volgorde, de eerste stap eerst.",
+      "answer": [
+        "Stel een onderzoeksvraag",
+        "Zoek en kies bronnen",
+        "Analyseer elke bron kritisch",
+        "Vergelijk de bronnen en weeg de oorzaken",
+        "Formuleer een conclusie met de juiste mate van zekerheid"
+      ],
+      "hints": [
+        "Zonder vraag weet je niet welke bronnen je zoekt."
+      ],
+      "solution": [
+        "Vraag, bronnen, kritische analyse, vergelijking en weging, conclusie."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Zoek en kies bronnen",
+            "Stel een onderzoeksvraag",
+            "Analyseer elke bron kritisch",
+            "Vergelijk de bronnen en weeg de oorzaken",
+            "Formuleer een conclusie met de juiste mate van zekerheid"
+          ],
+          "message": "Eerst formuleer je de vraag; die bepaalt welke bronnen relevant zijn."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-T12",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "context": "Leopold von Ranke, voorwoord bij *Geschichten der romanischen und germanischen Völker* (1824): het werk wil “blos zeigen, wie es eigentlich gewesen”, alleen laten zien hoe het eigenlijk was geweest.",
+      "question": "Wat is de best verdedigbare bewering over de zin van Ranke in het fragment?",
+      "choices": [
+        "Het ideaal was een belangrijke stap naar kritisch bronnenonderzoek, maar een volledig neutrale weergave is niet mogelijk",
+        "Het ideaal is volledig bereikt en daarmee is geschiedenis objectief",
+        "Het ideaal is nutteloos gebleken en heeft niets veranderd",
+        "Het ideaal betekent dat bronnen niet meer nodig zijn"
+      ],
+      "answer": "Het ideaal was een belangrijke stap naar kritisch bronnenonderzoek, maar een volledig neutrale weergave is niet mogelijk",
+      "hints": [
+        "Wat veranderde er in het vak, en wat bleef een keuze?"
+      ],
+      "solution": [
+        "Ranke bevorderde het werken met archieven en kritiek op bronnen. Maar welke bronnen en vragen je kiest, blijft een keuze."
+      ],
+      "feedback": [
+        {
+          "answer": "Het ideaal is volledig bereikt en daarmee is geschiedenis objectief",
+          "message": "Latere historici wezen erop dat ook Ranke keuzes maakte."
+        },
+        {
+          "answer": "Het ideaal is nutteloos gebleken en heeft niets veranderd",
+          "message": "Zijn nadruk op archieven en bronnenkritiek heeft het vak sterk veranderd."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "historiography"
+      ]
+    },
+    {
+      "id": "01-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "context": "Museum De Lakenhal vertelt dat, volgens de overlevering, burgemeester Van der Werff de hongerige bevolking zijn lichaam aanbood. In de negentiende eeuw werd dit beeld verspreid door een groot schilderij.",
+      "question": "Welke uitspraak over het Leidens Ontzet is het best met bronnen uit de tijd zelf te onderbouwen?",
+      "choices": [
+        "Leiden werd in 1574 ontzet nadat het land onder water was gezet",
+        "Burgemeester Van der Werff bood de hongerigen zijn lichaam aan",
+        "Een jongen vond een pot hutspot in de Lammenschans",
+        "Het Ontzet was onvermijdelijk"
+      ],
+      "answer": "Leiden werd in 1574 ontzet nadat het land onder water was gezet",
+      "hints": [
+        "Welke uitspraken worden door het museum als overlevering aangeduid?"
+      ],
+      "solution": [
+        "De kern van het Ontzet is goed onderbouwd. De scène met Van der Werff en het verhaal van de hutspot gelden als overlevering."
+      ],
+      "feedback": [
+        {
+          "answer": "Burgemeester Van der Werff bood de hongerigen zijn lichaam aan",
+          "message": "Het museum noemt dit overlevering; een bewijs uit 1574 zelf is niet bekend."
+        },
+        {
+          "answer": "Het Ontzet was onvermijdelijk",
+          "message": "Dat is een oordeel achteraf, geen vastgesteld feit."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "historiography"
+      ]
+    },
+    {
+      "id": "01-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een onderzoeker heeft maar één brief van een Leidse bestuurder uit 1574 die over een tekort aan graan spreekt. Welke formulering past het best?",
+      "choices": [
+        "“De brief vermeldt een graantekort; dat wijst erop dat het bestuur zich zorgen maakte, maar met één bron blijft dat voorlopig.”",
+        "“Het is bewezen dat heel Leiden honger leed.”",
+        "“De brief is niet te gebruiken, want de schrijver was bestuurder.”",
+        "“Graantekorten kwamen in de zestiende eeuw nooit voor.”"
+      ],
+      "answer": "“De brief vermeldt een graantekort; dat wijst erop dat het bestuur zich zorgen maakte, maar met één bron blijft dat voorlopig.”",
+      "hints": [
+        "Let op reikwijdte en woordkeus."
+      ],
+      "solution": [
+        "De formulering scheidt wat de bron zegt van wat je afleidt en geeft aan hoe zeker dat is."
+      ],
+      "feedback": [
+        {
+          "answer": "“Het is bewezen dat heel Leiden honger leed.”",
+          "message": "Veel te stellig en te breed voor één brief."
+        },
+        {
+          "answer": "“De brief is niet te gebruiken, want de schrijver was bestuurder.”",
+          "message": "Een positie of belang maakt een bron niet onbruikbaar."
+        }
+      ],
+      "topics": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 5,
+      "context": "Aan Pieter Geyl wordt de gedachte toegeschreven dat geschiedenis “een discussie zonder eind” is.",
+      "question": "Twee historici gebruiken dezelfde bronnen over het Ontzet, maar leggen het zwaartepunt anders: de een bij de wil van de stad, de ander bij het water en de logistiek. Hoe beoordeel je dit verschil volgens de gedachte van Geyl?",
+      "choices": [
+        "Het verschil kan voortkomen uit verschillende vragen en perspectieven; je beoordeelt hoe goed elke interpretatie is onderbouwd",
+        "Een van de twee moet fout zijn, dus kies de oudste",
+        "Beide zijn even goed, want alles is een mening",
+        "Het verschil bewijst dat de bronnen onbruikbaar zijn"
+      ],
+      "answer": "Het verschil kan voortkomen uit verschillende vragen en perspectieven; je beoordeelt hoe goed elke interpretatie is onderbouwd",
+      "hints": [
+        "Wat betekent “discussie zonder eind” wel en niet?"
+      ],
+      "solution": [
+        "Verschillende vragen en perspectieven leiden tot andere accenten. Dat betekent niet dat alles kan: de onderbouwing telt."
+      ],
+      "feedback": [
+        {
+          "answer": "Een van de twee moet fout zijn, dus kies de oudste",
+          "message": "Dat is te simpel: beide kunnen goed onderbouwd zijn bij een andere vraag, en ouderdom is geen bewijs."
+        },
+        {
+          "answer": "Beide zijn even goed, want alles is een mening",
+          "message": "Interpretaties zijn geen meningen; ze verschillen in onderbouwing."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "historiography"
+      ]
+    }
+  ]
+}

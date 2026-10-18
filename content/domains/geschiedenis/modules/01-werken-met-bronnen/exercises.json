@@ -1,0 +1,1183 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welk soort bron is de papieren noodmunt uit het beleg van Leiden (1574)?",
+      "choices": [
+        "Een materiële bron",
+        "Een geschreven bron",
+        "Een mondelinge bron",
+        "Een secundaire bron"
+      ],
+      "answer": "Een materiële bron",
+      "hints": [
+        "Denk aan de vorm: het is een voorwerp van papier met een stempel.",
+        "Een primaire of secundaire bron zegt iets over de relatie met je vraag, niet over de vorm."
+      ],
+      "solution": [
+        "De munt is een voorwerp, dus in de eerste plaats een materiële bron. De tekst erop is een onderdeel van dat voorwerp.",
+        "Of ze primair of secundair is, hangt van je vraag af: bij een vraag over 1574 is ze primair."
+      ],
+      "feedback": [
+        {
+          "answer": "Een geschreven bron",
+          "message": "De munt draagt wel tekst, maar de tekst is een onderdeel van een voorwerp. Als geheel is ze een materiële bron."
+        },
+        {
+          "answer": "Een secundaire bron",
+          "message": "Primair en secundair zijn geen vormen maar rollen bij een vraag. Een stuk uit 1574 is bij een vraag over 1574 juist primair."
+        }
+      ],
+      "topics": [
+        "sources"
+      ]
+    },
+    {
+      "id": "01-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke van deze bronnen is vooral een onbedoeld overblijfsel?",
+      "choices": [
+        "Een afvalkuil met botten en scherven uit een middeleeuwse stad",
+        "Een stadskroniek, geschreven om de gebeurtenissen van een jaar te vertellen",
+        "Een gedenksteen met een opschrift voor latere generaties",
+        "Een proclamatie die wordt voorgelezen aan de bevolking"
+      ],
+      "answer": "Een afvalkuil met botten en scherven uit een middeleeuwse stad",
+      "hints": [
+        "Vraag je af of de maker aan een latere lezer dacht.",
+        "Welke bronnen zijn bewust gemaakt om iets over te leveren?"
+      ],
+      "solution": [
+        "Een afvalkuil is ontstaan als bijproduct van gewoon leven; niemand legde haar aan om iets over te leveren.",
+        "Een kroniek, een gedenksteen en een proclamatie zijn alle bewust gemaakt om iets te vertellen of af te kondigen."
+      ],
+      "feedback": [
+        {
+          "answer": "Een stadskroniek, geschreven om de gebeurtenissen van een jaar te vertellen",
+          "message": "Een kroniek is juist een bedoeld verslag: de schrijver wilde iets overleveren en koos wat hij opschreef."
+        },
+        {
+          "answer": "Een gedenksteen met een opschrift voor latere generaties",
+          "message": "Een gedenksteen is bij uitstek bedoeld voor de toekomst."
+        }
+      ],
+      "topics": [
+        "sources"
+      ]
+    },
+    {
+      "id": "01-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een museum scant een oorkonde uit 1350 en zet de scan op internet. Wat voor bron is dat?",
+      "choices": [
+        "Een gedigitaliseerde bron: de oorspronkelijke bron in een nieuwe vorm",
+        "Een digitaal ontstane bron, net als een e-mail",
+        "Een secundaire bron, omdat ze online staat",
+        "Een bron uit onze eigen tijd"
+      ],
+      "answer": "Een gedigitaliseerde bron: de oorspronkelijke bron in een nieuwe vorm",
+      "hints": [
+        "Wat is er ontstaan in 1350 en wat is er later gemaakt?",
+        "Denk aan het verschil tussen een kopie en een nieuwe bron."
+      ],
+      "solution": [
+        "De oorkonde is in 1350 ontstaan; de scan is een afbeelding ervan. De bron zelf blijft dezelfde.",
+        "Een digitaal ontstane bron zou bijvoorbeeld een e-mail of een forumbericht zijn."
+      ],
+      "feedback": [
+        {
+          "answer": "Een secundaire bron, omdat ze online staat",
+          "message": "Dat een bron online staat, zegt niets over haar rol. Bij een vraag over 1350 blijft de oorkonde primair."
+        },
+        {
+          "answer": "Een digitaal ontstane bron, net als een e-mail",
+          "message": "De oorkonde is op papier of perkament ontstaan. Alleen de scan is digitaal."
+        }
+      ],
+      "topics": [
+        "sources"
+      ]
+    },
+    {
+      "id": "01-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je onderzoekt hoe Nederlanders in 1924 dachten over het Leidens Ontzet. Een herdenkingsboek uit 1924 is voor deze vraag...",
+      "choices": [
+        "een primaire bron",
+        "een secundaire bron",
+        "een tertiaire bron",
+        "onbruikbaar, omdat het veel later is dan 1574"
+      ],
+      "answer": "een primaire bron",
+      "hints": [
+        "Primair of secundair hangt af van je vraag. Over welke periode gaat de vraag?",
+        "Het boek is gemaakt in de periode die je onderzoekt."
+      ],
+      "solution": [
+        "De vraag gaat over 1924. Het boek komt uit 1924 en is dus een getuigenis uit de onderzochte tijd: primair.",
+        "Bij een vraag over 1574 zou hetzelfde boek secundair zijn."
+      ],
+      "feedback": [
+        {
+          "answer": "een secundaire bron",
+          "message": "Dat zou kloppen bij een vraag over 1574. Bij een vraag over 1924 is het boek zelf een product van die tijd."
+        },
+        {
+          "answer": "onbruikbaar, omdat het veel later is dan 1574",
+          "message": "Je vraag gaat niet over 1574 maar over 1924. Voor die vraag is het juist erg bruikbaar."
+        }
+      ],
+      "topics": [
+        "sources"
+      ]
+    },
+    {
+      "id": "01-005",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Iemand beweert: “Een primaire bron is altijd betrouwbaarder dan een secundaire.” Waarom klopt dat niet?",
+      "choices": [
+        "Primair en secundair beschrijven de relatie tot je vraag; ook een ooggetuige kan zich vergissen of iets weglaten",
+        "Secundaire bronnen zijn altijd betrouwbaarder, omdat ze later zijn geschreven",
+        "Primaire bronnen bestaan in de praktijk niet",
+        "Alleen geschreven bronnen kunnen primair zijn"
+      ],
+      "answer": "Primair en secundair beschrijven de relatie tot je vraag; ook een ooggetuige kan zich vergissen of iets weglaten",
+      "hints": [
+        "Wat zeggen de termen primair en secundair eigenlijk?",
+        "Kan een ooggetuige zich vergissen?"
+      ],
+      "solution": [
+        "De termen zeggen iets over de afstand tussen bron en vraag, niet over kwaliteit.",
+        "Betrouwbaarheid beoordeel je pas na kritisch lezen, per bewering."
+      ],
+      "feedback": [
+        {
+          "answer": "Secundaire bronnen zijn altijd betrouwbaarder, omdat ze later zijn geschreven",
+          "message": "Dat is de omgekeerde fout. Ook een latere studie kan fouten bevatten; betrouwbaarheid hangt niet van de tijd af."
+        },
+        {
+          "answer": "Alleen geschreven bronnen kunnen primair zijn",
+          "message": "Ook voorwerpen, beelden en getuigenissen kunnen primair zijn, zoals de papieren noodmunt."
+        }
+      ],
+      "topics": [
+        "sources"
+      ]
+    },
+    {
+      "id": "01-006",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een historicus interviewt in 1995 een oudere vrouw over de watersnood van 1953. Leg uit waarom dit interview zowel een bron over 1953 als een bron over 1995 is.",
+      "answer": "Het interview geeft haar herinnering aan 1953 (getuigenis over de gebeurtenis), maar die herinnering is gevormd door de tussenliggende jaren, de vraagstelling en de situatie in 1995 (bron over hoe men in 1995 terugkeek).",
+      "hints": [
+        "Denk aan hoe herinneringen veranderen.",
+        "Wat zegt het gesprek over de verteller zelf op het moment van vertellen?"
+      ],
+      "solution": [
+        "Modelantwoord: Het interview bevat de herinnering van een getuige aan 1953 en kan details geven die nergens anders staan. Maar herinneringen veranderen door latere ervaringen, door gesprekken met anderen en door de vragen van de interviewer. Daardoor laat het gesprek ook zien hoe iemand in 1995 over 1953 dacht en wat zij belangrijk vond. Je gebruikt het dus voorzichtig als getuigenis over 1953 en als bron over de herinnering in 1995."
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "01-007",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een afvalkuil uit een middeleeuwse stad is een onbedoeld overblijfsel. Wat is daarvan een voordeel en tegelijk een beperking voor de onderzoeker?",
+      "choices": [
+        "Niemand schetste er een beeld mee, maar het spoor geeft zelf geen verklaring of motief",
+        "Het is altijd betrouwbaarder dan een kroniek, en het zegt alles over de bewoners",
+        "Het is partijdig, maar het geeft wel een volledige verklaring",
+        "Het is onbruikbaar omdat de maker onbekend is"
+      ],
+      "answer": "Niemand schetste er een beeld mee, maar het spoor geeft zelf geen verklaring of motief",
+      "hints": [
+        "Een onbedoeld spoor probeert niets te overtuigen. Wat kan het dan ook niet?",
+        "De interpretatie komt van de onderzoeker."
+      ],
+      "solution": [
+        "Voordeel: de maker wilde geen beeld oproepen, dus er is geen opzet in het spoor.",
+        "Beperking: het spoor zegt niets over redenen of meningen; de onderzoeker moet alles zelf interpreteren en kan te veel in het spoor lezen."
+      ],
+      "feedback": [
+        {
+          "answer": "Het is altijd betrouwbaarder dan een kroniek, en het zegt alles over de bewoners",
+          "message": "Geen bron is altijd betrouwbaarder, en een afvalkuil vertelt maar over een klein deel van het leven."
+        },
+        {
+          "answer": "Het is onbruikbaar omdat de maker onbekend is",
+          "message": "Een onbekende maker maakt een bron niet onbruikbaar; voor veel vragen over het dagelijks leven is zo'n spoor juist waardevol."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "01-008",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen rond het Leidens Ontzet in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Spaanse troepen omsingelen Leiden",
+        "Lodewijk van Nassau wordt bij Mookerheide verslagen",
+        "De buitendijken worden doorgestoken",
+        "Leiden wordt ontzet",
+        "De Leidse universiteit wordt gesticht"
+      ],
+      "hints": [
+        "Het beleg begint in 1573, het Ontzet is in 1574.",
+        "De universiteit is een gevolg van het Ontzet."
+      ],
+      "solution": [
+        "Oktober 1573: omsingeling. April 1574: Mookerheide. 3 augustus 1574: doorsteken van de dijken. 3 oktober 1574: Ontzet. 1575: stichting van de universiteit."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Spaanse troepen omsingelen Leiden",
+            "Lodewijk van Nassau wordt bij Mookerheide verslagen",
+            "Leiden wordt ontzet",
+            "De buitendijken worden doorgestoken",
+            "De Leidse universiteit wordt gesticht"
+          ],
+          "message": "Het doorsteken van de buitendijken (3 augustus 1574) gebeurde vóór het Ontzet op 3 oktober 1574."
+        },
+        {
+          "answer": [
+            "Spaanse troepen omsingelen Leiden",
+            "De buitendijken worden doorgestoken",
+            "Lodewijk van Nassau wordt bij Mookerheide verslagen",
+            "Leiden wordt ontzet",
+            "De Leidse universiteit wordt gesticht"
+          ],
+          "message": "Mookerheide (april 1574) ligt vóór het doorsteken van de dijken (augustus 1574)."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "01-009",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Hoeveel jaar liggen er tussen het jaar 31 v.Chr. en het jaar 14 n.Chr.?",
+      "answer": 44,
+      "hints": [
+        "Er is geen jaar 0: op 1 v.Chr. volgt 1 n.Chr.",
+        "Tel de jaren tot 1 v.Chr. en daarna de jaren vanaf 1 v.Chr."
+      ],
+      "solution": [
+        "31 v.Chr. naar 1 v.Chr.: 30 jaar.",
+        "1 v.Chr. naar 1 n.Chr.: 1 jaar. 1 n.Chr. naar 14 n.Chr.: 13 jaar.",
+        "Totaal 30 + 1 + 13 = 44. Snelle regel: 31 + 14 − 1 = 44."
+      ],
+      "unit": "jaar",
+      "feedback": [
+        {
+          "answer": 45,
+          "message": "Je hebt 31 + 14 opgeteld. Omdat er geen jaar 0 is, moet je daar nog 1 van aftrekken."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "01-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "In welke eeuw valt het jaar 1574? Geef het nummer van de eeuw (bijvoorbeeld 16 voor de 16e eeuw).",
+      "answer": 16,
+      "hints": [
+        "De 1e eeuw loopt van 1 tot en met 100.",
+        "De 2e eeuw loopt van 101 tot en met 200."
+      ],
+      "solution": [
+        "De 16e eeuw loopt van 1501 tot en met 1600. Het jaar 1574 ligt daarin."
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "De 15e eeuw loopt van 1401 tot en met 1500. Eeuw n loopt van 100·(n − 1) + 1 tot en met 100·n."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "01-011",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Het jaar 1000 behoort tot de hoeveelste eeuw?",
+      "answer": 10,
+      "hints": [
+        "De 10e eeuw loopt van 901 tot en met 1000.",
+        "Het jaar 1001 is het eerste jaar van de 11e eeuw."
+      ],
+      "solution": [
+        "Een eeuw eindigt op het jaar 100, 200, enzovoort. Het jaar 1000 sluit dus de 10e eeuw af."
+      ],
+      "feedback": [
+        {
+          "answer": 11,
+          "message": "De 11e eeuw begint pas in 1001. Het jaar 1000 is het laatste jaar van de 10e eeuw."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "01-012",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke jaren horen bij de 3e eeuw v.Chr.?",
+      "choices": [
+        "300 tot en met 201 v.Chr.",
+        "200 tot en met 101 v.Chr.",
+        "400 tot en met 301 v.Chr.",
+        "100 tot en met 1 v.Chr."
+      ],
+      "answer": "300 tot en met 201 v.Chr.",
+      "hints": [
+        "Bij v.Chr. loopt de teller terug richting het jaar 1.",
+        "De 1e eeuw v.Chr. loopt van 100 tot en met 1 v.Chr."
+      ],
+      "solution": [
+        "De 1e eeuw v.Chr. is 100–1, de 2e is 200–101, de 3e is 300–201 v.Chr."
+      ],
+      "feedback": [
+        {
+          "answer": "200 tot en met 101 v.Chr.",
+          "message": "Dat is de 2e eeuw v.Chr. De 3e eeuw ligt een eeuw eerder."
+        },
+        {
+          "answer": "400 tot en met 301 v.Chr.",
+          "message": "Dat is de 4e eeuw v.Chr."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "01-013",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een brief uit Spanje en een brief uit Engeland, beide uit 1590, melden dezelfde gebeurtenis, maar noemen data die tien dagen uit elkaar liggen. Wat is de beste eerste verklaring om te onderzoeken?",
+      "choices": [
+        "Spanje gebruikte de Gregoriaanse, Engeland de Juliaanse kalender",
+        "Een van de schrijvers heeft gelogen",
+        "De brieven gaan over twee verschillende gebeurtenissen",
+        "Een van de brieven is vervalst"
+      ],
+      "answer": "Spanje gebruikte de Gregoriaanse, Engeland de Juliaanse kalender",
+      "hints": [
+        "Welke kalender gebruikte men in die landen na 1582?",
+        "Een verschil van precies tien dagen is een aanwijzing."
+      ],
+      "solution": [
+        "Na de hervorming van 1582 voerden katholieke landen zoals Spanje de Gregoriaanse kalender in. Engeland bleef de Juliaanse volgen. Het verschil was tien dagen.",
+        "Pas als de kalender het verschil niet verklaart, ga je naar andere verklaringen zoeken."
+      ],
+      "feedback": [
+        {
+          "answer": "Een van de schrijvers heeft gelogen",
+          "message": "Dat is een onnodige sprong. Eerst zoek je neutrale verklaringen, zoals een verschil in kalender."
+        },
+        {
+          "answer": "De brieven gaan over twee verschillende gebeurtenissen",
+          "message": "Dat kan, maar een verschil van precies tien dagen wijst eerder op de kalenders."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "01-014",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Herodotus schrijft zijn Historiën",
+        "Dionysius Exiguus stelt een jaartelling voor",
+        "Het Leidens Ontzet",
+        "Invoering van de Gregoriaanse kalender",
+        "Ranke publiceert zijn eerste boek"
+      ],
+      "hints": [
+        "Herodotus leefde in de vijfde eeuw v.Chr.",
+        "Het Ontzet was in 1574, de kalenderhervorming in 1582."
+      ],
+      "solution": [
+        "Herodotus (ca. 430 v.Chr.), Dionysius Exiguus (525), Ontzet (1574), Gregoriaanse kalender (1582), Ranke (1824)."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Herodotus schrijft zijn Historiën",
+            "Dionysius Exiguus stelt een jaartelling voor",
+            "Invoering van de Gregoriaanse kalender",
+            "Het Leidens Ontzet",
+            "Ranke publiceert zijn eerste boek"
+          ],
+          "message": "Het Ontzet (1574) ligt vóór de invoering van de Gregoriaanse kalender in 1582."
+        },
+        {
+          "answer": [
+            "Dionysius Exiguus stelt een jaartelling voor",
+            "Herodotus schrijft zijn Historiën",
+            "Het Leidens Ontzet",
+            "Invoering van de Gregoriaanse kalender",
+            "Ranke publiceert zijn eerste boek"
+          ],
+          "message": "Herodotus (ca. 430 v.Chr.) leefde ruim voor Dionysius Exiguus (525 n.Chr.)."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "01-015",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is een juiste uitspraak over de term Middeleeuwen?",
+      "choices": [
+        "Het is een term die latere geleerden bedachten; tijdgenoten voelden zich niet “in het midden”",
+        "Mensen in het jaar 900 noemden hun eigen tijd de Middeleeuwen",
+        "De term past even goed op Europa, China en Afrika",
+        "De term geeft een neutrale, objectieve beschrijving van duizend jaar"
+      ],
+      "answer": "Het is een term die latere geleerden bedachten; tijdgenoten voelden zich niet “in het midden”",
+      "hints": [
+        "Wie bedacht deze indeling, en wanneer?",
+        "Een periodenaam komt van mensen die achteraf terugkijken."
+      ],
+      "solution": [
+        "De driedeling werd achteraf gemaakt, eerst door humanisten, later gemeengoed. Tijdgenoten zagen hun eigen tijd gewoon als heden.",
+        "De naam heeft bovendien een oordeel ingebouwd (een tussentijd) en past vooral bij Europa."
+      ],
+      "feedback": [
+        {
+          "answer": "Mensen in het jaar 900 noemden hun eigen tijd de Middeleeuwen",
+          "message": "De naam is veel later bedacht. Een tijdgenoot kon niet weten dat zijn tijd later “middeleeuws” zou heten."
+        },
+        {
+          "answer": "De term past even goed op Europa, China en Afrika",
+          "message": "De indeling komt uit de Europese geschiedschrijving; elders vallen omslagmomenten op andere data."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "01-016",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "In welk van de tien tijdvakken valt het Leidens Ontzet (1574)?",
+      "choices": [
+        "Tijd van ontdekkers en hervormers",
+        "Tijd van regenten en vorsten",
+        "Tijd van steden en staten",
+        "Tijd van pruiken en revoluties"
+      ],
+      "answer": "Tijd van ontdekkers en hervormers",
+      "hints": [
+        "Welk tijdvak loopt van 1500 tot 1600?",
+        "Kijk naar de tijdlijn in de les."
+      ],
+      "solution": [
+        "1574 ligt tussen 1500 en 1600: de tijd van ontdekkers en hervormers (tijdvak 5)."
+      ],
+      "feedback": [
+        {
+          "answer": "Tijd van regenten en vorsten",
+          "message": "Dat tijdvak loopt van 1600 tot 1700, dus een eeuw later."
+        },
+        {
+          "answer": "Tijd van steden en staten",
+          "message": "Dat tijdvak loopt van 1000 tot 1500."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "01-017",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Na 1582 liepen de Juliaanse en de Gregoriaanse kalender in de zestiende en zeventiende eeuw een aantal dagen uiteen. Hoeveel dagen? (Dit komt uit de les.)",
+      "answer": 10,
+      "hints": [
+        "Denk aan de overgang in Holland en Zeeland.",
+        "3 oktober 1574 (Juliaans) is naar onze telling 13 oktober."
+      ],
+      "solution": [
+        "Het verschil was tien dagen: 3 oktober Juliaans komt overeen met 13 oktober Gregoriaans."
+      ],
+      "unit": "dagen",
+      "feedback": [
+        {
+          "answer": 11,
+          "message": "Het verschil was tien dagen. In latere eeuwen groeide het, maar in de zestiende en zeventiende eeuw bleef het tien."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "01-018",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een leerling leest in een bron uit 1574 het woord “vrijheid” en concludeert dat de schrijver dezelfde politieke vrijheid bedoelde als wij. Welke denkfout maakt de leerling?",
+      "choices": [
+        "Anachronisme: de betekenis van nu wordt in een tekst van toen gelezen",
+        "Monocausaal denken: er wordt één oorzaak aangewezen",
+        "Primair gelijkstellen aan betrouwbaar",
+        "Een mening aanzien voor een feit"
+      ],
+      "answer": "Anachronisme: de betekenis van nu wordt in een tekst van toen gelezen",
+      "hints": [
+        "Welk woord heeft misschien in 1574 een andere betekenis gehad?",
+        "Hoe voorkom je dat je een bron leest alsof de schrijver in jouw wereld leefde?"
+      ],
+      "solution": [
+        "Woorden kunnen in de loop van eeuwen van betekenis veranderen. Wie de moderne betekenis in een oude tekst leest, maakt een anachronisme.",
+        "De context laat zien wat “vrijheid” in 1574 kon betekenen."
+      ],
+      "feedback": [
+        {
+          "answer": "Monocausaal denken: er wordt één oorzaak aangewezen",
+          "message": "Hier gaat het niet om oorzaken maar om de betekenis van een woord."
+        },
+        {
+          "answer": "Primair gelijkstellen aan betrouwbaar",
+          "message": "De fout zit niet in het vertrouwen op de bron, maar in de manier waarop het woord wordt gelezen."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "01-019",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een pamflet uit 1574 verheerlijkt de prins van Oranje. Wat klopt er voor een onderzoek naar hoe aanhangers van de Opstand hun leider voorstelden?",
+      "choices": [
+        "Het pamflet is juist bruikbaar, ook al is het partijdig",
+        "Het pamflet is onbruikbaar, omdat het partijdig is",
+        "Het pamflet is betrouwbaar, omdat het uit dezelfde tijd komt",
+        "Het pamflet is een secundaire bron, omdat het gedrukt is"
+      ],
+      "answer": "Het pamflet is juist bruikbaar, ook al is het partijdig",
+      "hints": [
+        "Bruikbaarheid hangt af van je vraag.",
+        "Welke vraag stelt de onderzoeker hier?"
+      ],
+      "solution": [
+        "De vraag gaat over de manier van voorstellen. Een partijdig pamflet laat precies zien hoe aanhangers hun leider wilden tonen.",
+        "Betrouwbaarheid en bruikbaarheid zijn verschillend: een bron kan partijdig en toch bruikbaar zijn."
+      ],
+      "feedback": [
+        {
+          "answer": "Het pamflet is onbruikbaar, omdat het partijdig is",
+          "message": "Partijdigheid maakt een bron niet onbruikbaar; voor deze vraag is ze juist het onderwerp."
+        },
+        {
+          "answer": "Het pamflet is betrouwbaar, omdat het uit dezelfde tijd komt",
+          "message": "Tijdgenoot zijn garandeert geen betrouwbaarheid. Per bewering moet je beoordelen of je haar kunt geloven."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "01-020",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je vindt één brief van een rijke Leidse koopman uit 1574 waarin hij klaagt over hoge prijzen. Wat mag je met de meeste zekerheid concluderen?",
+      "choices": [
+        "Dat deze koopman de prijzen hoog vond; of anderen dat ook vonden, onderzoek je met andere bronnen",
+        "Dat alle Leidenaren de prijzen hoog vonden",
+        "Dat de prijzen werkelijk hoog waren, want hij was er zelf bij",
+        "Dat de brief waardeloos is omdat de schrijver rijk was"
+      ],
+      "answer": "Dat deze koopman de prijzen hoog vond; of anderen dat ook vonden, onderzoek je met andere bronnen",
+      "hints": [
+        "Het gaat om representativiteit: voor wie spreekt de bron?",
+        "Hoe groot mag je uitspraak zijn bij één brief?"
+      ],
+      "solution": [
+        "Eén brief van één schrijver laat iets zien over die schrijver, en misschien over mensen zoals hij. Voor een uitspraak over de stad heb je meer en gevarieerder bronnen nodig."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat alle Leidenaren de prijzen hoog vonden",
+          "message": "Dat is te breed voor één brief: de schrijver vertegenwoordigt niet vanzelf de hele stad."
+        },
+        {
+          "answer": "Dat de brief waardeloos is omdat de schrijver rijk was",
+          "message": "Een bron met een bepaalde positie is niet waardeloos; ze is beperkt in wat ze laat zien."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "01-021",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Drie websites over het Leidens Ontzet bevatten dezelfde alinea. Ze blijken alle drie dezelfde tekst uit één boek over te nemen. Hoeveel onafhankelijke bevestigingen heb je?",
+      "choices": [
+        "Eén, want ze gaan terug op dezelfde bron",
+        "Drie, want het zijn drie verschillende websites",
+        "Twee, want één website is de eerste",
+        "Nul, want websites zijn nooit bronnen"
+      ],
+      "answer": "Eén, want ze gaan terug op dezelfde bron",
+      "hints": [
+        "Vraag je af waar de informatie vandaan komt.",
+        "Onafhankelijkheid betekent dat bronnen afzonderlijke informatie leveren."
+      ],
+      "solution": [
+        "Als drie teksten dezelfde oude tekst overschrijven, leveren ze samen niet meer dan die ene tekst."
+      ],
+      "feedback": [
+        {
+          "answer": "Drie, want het zijn drie verschillende websites",
+          "message": "Het aantal pagina's zegt niets; het gaat erom of ze onafhankelijke informatie leveren."
+        },
+        {
+          "answer": "Nul, want websites zijn nooit bronnen",
+          "message": "Websites kunnen wel degelijk bronnen zijn, afhankelijk van je vraag. Hier zijn ze alleen niet onafhankelijk van elkaar."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "01-022",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "**Papieren noodmunt van 20 stuiver, Leiden 1574** (Museum De Lakenhal, inventarisnummer 3900). Papier, verzilverd aan beide zijden, 37 mm. Voorzijde: leeuw met lans en vrijheidshoed, het jaartal 1574 en de tekst *HAEC LIBERTATIS ERGO*. Achterzijde: stadswapen van Leiden met de letters N O V L S G I P A C (munt van de belegerde stad Leiden, geslagen onder het bestuur van de prins van Oranje) en de tekst *GOD BEHOEDE LEYDEN*. Maker: anoniem.",
+      "question": "Welke uitspraak wordt door de noodmunt zelf rechtstreeks ondersteund?",
+      "choices": [
+        "Leiden gaf in 1574 noodgeld uit, onder gezag van de prins van Oranje",
+        "Alle inwoners accepteerden dit geld zonder bezwaar",
+        "In de stad leden bijna alle inwoners honger",
+        "Het papier werd gemaakt uit bladen van kerkboeken"
+      ],
+      "answer": "Leiden gaf in 1574 noodgeld uit, onder gezag van de prins van Oranje",
+      "hints": [
+        "Wat staat er letterlijk op het stuk?",
+        "Wat zeggen de letters N O V L S G I P A C?"
+      ],
+      "solution": [
+        "De munt zelf noemt de belegerde stad Leiden en het bestuur van de prins van Oranje. Over acceptatie, honger en de herkomst van het papier zegt ze niets."
+      ],
+      "feedback": [
+        {
+          "answer": "Alle inwoners accepteerden dit geld zonder bezwaar",
+          "message": "Dat staat niet op de munt. Acceptatie is een vraag voor andere bronnen."
+        },
+        {
+          "answer": "In de stad leden bijna alle inwoners honger",
+          "message": "De munt zegt niets over honger; dat kun je er hooguit onzeker bij denken."
+        },
+        {
+          "answer": "Het papier werd gemaakt uit bladen van kerkboeken",
+          "message": "Over het papier zegt het stuk zelf niets. Zo'n bewering heeft ander bewijs nodig."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "01-023",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de stappen van een bronanalyse in de volgorde waarin je ze logisch uitvoert, de eerste stap eerst.",
+      "answer": [
+        "Beschrijf wat je ziet of leest",
+        "Bepaal de herkomst: wie, wanneer, waar",
+        "Plaats de bron in haar context",
+        "Vraag naar doel en publiek",
+        "Weeg wat de bron voor jouw vraag oplevert en trek een conclusie"
+      ],
+      "hints": [
+        "Eerst kijken, dan uitleggen.",
+        "De conclusie komt aan het eind."
+      ],
+      "solution": [
+        "Je begint met een beschrijving, bepaalt dan herkomst en context, vraagt naar doel en publiek, en weegt tot slot wat de bron voor je vraag oplevert."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Weeg wat de bron voor jouw vraag oplevert en trek een conclusie",
+            "Bepaal de herkomst: wie, wanneer, waar",
+            "Plaats de bron in haar context",
+            "Vraag naar doel en publiek",
+            "Beschrijf wat je ziet of leest"
+          ],
+          "message": "Je trekt je conclusie pas als laatste, nadat je de bron hebt beschreven en geplaatst."
+        },
+        {
+          "answer": [
+            "Beschrijf wat je ziet of leest",
+            "Plaats de bron in haar context",
+            "Bepaal de herkomst: wie, wanneer, waar",
+            "Vraag naar doel en publiek",
+            "Weeg wat de bron voor jouw vraag oplevert en trek een conclusie"
+          ],
+          "message": "Eerst bepaal je wie de bron maakte en wanneer; daarna kun je haar in de context plaatsen."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "01-024",
+      "type": "choice",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Twee bronnen uit Leiden zelf, met dezelfde kalender, noemen verschillende dagen voor de aankomst van een schip: de ene dinsdag, de andere woensdag. Wat is de beste volgende stap?",
+      "choices": [
+        "Onderzoeken of ze verschillende momenten bedoelen (aankomst of waarneming), wie wanneer schreef en hoe hij aan zijn informatie kwam",
+        "De oudste bron kiezen en de andere als fout beschouwen",
+        "Concluderen dat het schip nooit is aangekomen",
+        "De bron met het mooiste handschrift vertrouwen"
+      ],
+      "answer": "Onderzoeken of ze verschillende momenten bedoelen (aankomst of waarneming), wie wanneer schreef en hoe hij aan zijn informatie kwam",
+      "hints": [
+        "Zoek eerst verklaringen voordat je een bron afschrijft.",
+        "Welke vragen over herkomst en context kun je stellen?"
+      ],
+      "solution": [
+        "Een verschil is geen reden om meteen een bron als fout te zien. Mogelijke verklaringen: verschillende momenten, laat bericht, andere informatiebron.",
+        "Daarna kijk je welke extra gegevens de verklaringen kunnen toetsen."
+      ],
+      "feedback": [
+        {
+          "answer": "De oudste bron kiezen en de andere als fout beschouwen",
+          "message": "Ouderdom is geen bewijs van juistheid. Eerst zoek je verklaringen voor het verschil."
+        },
+        {
+          "answer": "Concluderen dat het schip nooit is aangekomen",
+          "message": "Twee bronnen die het over een aankomst hebben, bevestigen die juist; ze verschillen alleen over de dag."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "01-025",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke uitspraak is vooral een mening?",
+      "choices": [
+        "Het doorsteken van de dijken was een moedig besluit.",
+        "De buitendijken werden op 3 augustus 1574 doorgestoken.",
+        "Het doorsteken van de dijken was een belangrijke voorwaarde voor het Ontzet.",
+        "Leiden werd vanaf oktober 1573 belegerd."
+      ],
+      "answer": "Het doorsteken van de dijken was een moedig besluit.",
+      "hints": [
+        "Welke uitspraak bevat een waardeoordeel?",
+        "Kun je haar met bronnen bewijzen of weerleggen?"
+      ],
+      "solution": [
+        "“Moedig” is een waardeoordeel. Bronnen kunnen laten zien wat er gebeurde, maar niet of het moedig was."
+      ],
+      "feedback": [
+        {
+          "answer": "De buitendijken werden op 3 augustus 1574 doorgestoken.",
+          "message": "Dit is een feitelijke uitspraak over een gebeurtenis, vast te stellen met bronnen."
+        },
+        {
+          "answer": "Het doorsteken van de dijken was een belangrijke voorwaarde voor het Ontzet.",
+          "message": "Dit is een interpretatie: een verklaring die op bronnen steunt, maar waarover je kunt discussiëren."
+        }
+      ],
+      "topics": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke van deze uitspraken is een interpretatie?",
+      "choices": [
+        "Het doorsteken van de dijken was een belangrijke voorwaarde voor het Ontzet.",
+        "De buitendijken werden op 3 augustus 1574 doorgestoken.",
+        "Het Ontzet was het mooiste moment uit de Nederlandse geschiedenis.",
+        "Leiden kreeg in 1575 een universiteit."
+      ],
+      "answer": "Het doorsteken van de dijken was een belangrijke voorwaarde voor het Ontzet.",
+      "hints": [
+        "Een interpretatie verbindt feiten tot een verklaring.",
+        "Welke uitspraak zegt iets over een verband?"
+      ],
+      "solution": [
+        "De uitspraak legt een verband tussen het doorsteken en het Ontzet en is te onderbouwen en te bestrijden met bronnen."
+      ],
+      "feedback": [
+        {
+          "answer": "De buitendijken werden op 3 augustus 1574 doorgestoken.",
+          "message": "Een datum en een handeling: een feit."
+        },
+        {
+          "answer": "Het Ontzet was het mooiste moment uit de Nederlandse geschiedenis.",
+          "message": "Dit is een waardeoordeel, dus een mening."
+        }
+      ],
+      "topics": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-027",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze schakels in de volgorde waarin ze elkaar opvolgden, van vroegste oorzaak naar gevolg.",
+      "answer": [
+        "Oranje besluit de buitendijken door te steken",
+        "Het land loopt onder water",
+        "Schepen kunnen dichter bij Leiden komen",
+        "De Spaanse troepen trekken zich terug",
+        "Leiden wordt ontzet"
+      ],
+      "hints": [
+        "Wat moest eerst gebeuren voordat schepen konden varen?",
+        "De Spaanse terugtocht gebeurde vlak voor het Ontzet."
+      ],
+      "solution": [
+        "Eerst het besluit en het doorsteken, dan het onderlopen van het land, dan de komst van schepen, dan de terugtocht en tot slot het Ontzet."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Oranje besluit de buitendijken door te steken",
+            "Het land loopt onder water",
+            "Schepen kunnen dichter bij Leiden komen",
+            "Leiden wordt ontzet",
+            "De Spaanse troepen trekken zich terug"
+          ],
+          "message": "Het Ontzet volgt op de terugtocht van de Spaanse troepen."
+        },
+        {
+          "answer": [
+            "Oranje besluit de buitendijken door te steken",
+            "Schepen kunnen dichter bij Leiden komen",
+            "Het land loopt onder water",
+            "De Spaanse troepen trekken zich terug",
+            "Leiden wordt ontzet"
+          ],
+          "message": "Pas als het land onder water staat, kunnen schepen dichterbij komen."
+        }
+      ],
+      "topics": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-028",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Iemand zegt: “Leiden werd gered doordat de dijken werden doorgestoken.” Wat is het beste commentaar?",
+      "choices": [
+        "Het doorsteken was belangrijk, maar andere factoren speelden ook mee; één oorzaak is te simpel",
+        "Dat klopt volledig; het was de enige oorzaak",
+        "Dat klopt niet, want het doorsteken had er niets mee te maken",
+        "Je kunt nooit weten waarom iets gebeurt"
+      ],
+      "answer": "Het doorsteken was belangrijk, maar andere factoren speelden ook mee; één oorzaak is te simpel",
+      "hints": [
+        "Zoek meer oorzaken: menselijk handelen, natuur, tegenstander.",
+        "Wat is monocausaal denken?"
+      ],
+      "solution": [
+        "De uitspraak benoemt één oorzaak. Het volhouden van Leiden, de weersomstandigheden en de situatie van de Spaanse troepen spelen mee. Een goed betoog weegt meerdere oorzaken."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat klopt volledig; het was de enige oorzaak",
+          "message": "Dat is monocausaal denken: één oorzaak voor een gebeurtenis met meerdere oorzaken."
+        },
+        {
+          "answer": "Je kunt nooit weten waarom iets gebeurt",
+          "message": "Dat is te sceptisch. Je kunt oorzaken wel onderbouwen en afwegen, met een passende mate van zekerheid."
+        }
+      ],
+      "topics": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-029",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "context": "**Papieren noodmunt van 20 stuiver, Leiden 1574** (Museum De Lakenhal, inventarisnummer 3900). Papier, verzilverd aan beide zijden, 37 mm. Voorzijde: leeuw met lans en vrijheidshoed, het jaartal 1574 en de tekst *HAEC LIBERTATIS ERGO*. Achterzijde: stadswapen van Leiden met de letters N O V L S G I P A C (munt van de belegerde stad Leiden, geslagen onder het bestuur van de prins van Oranje) en de tekst *GOD BEHOEDE LEYDEN*. Maker: anoniem.",
+      "question": "Een onderzoeker heeft maar één bron: de papieren noodmunt van Leiden uit 1574 (zie de context). Formuleer in twee of drie zinnen een conclusie over hoe het stadsbestuur zich presenteerde, zonder meer te beweren dan de munt kan dragen.",
+      "answer": "Een conclusie die zegt wat op de munt staat (noodgeld onder gezag van de prins, vrijheid, God behoede Leyden), die als interpretatie benoemt dat dit een boodschap aan gebruikers was, en die noemt dat acceptatie en ervaring van inwoners onbekend zijn.",
+      "hints": [
+        "Wat staat er letterlijk op de munt?",
+        "Gebruik formuleringen als “de munt vermeldt”, “het is aannemelijk dat” en “hierover zegt de munt niets”."
+      ],
+      "solution": [
+        "Modelantwoord: De munt vermeldt dat Leiden in 1574 noodgeld uitgaf onder het bestuur van de prins van Oranje, met de teksten *Haec libertatis ergo* en *God behoede Leyden*. Het is aannemelijk dat het stadsbestuur het beleg daarmee wilde presenteren als strijd voor de vrijheid en onder Gods bescherming, en zo vertrouwen in het geld wilde wekken. Of inwoners het geld accepteerden en hoe zij het beleg ervoeren, blijkt uit dit ene voorwerp niet."
+      ],
+      "topics": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Uit het voorwoord van Leopold von Ranke, *Geschichten der romanischen und germanischen Völker* (1824): het werk wil “blos zeigen, wie es eigentlich gewesen”, dat wil zeggen alleen laten zien hoe het eigenlijk was geweest.",
+      "question": "Wat is een terechte kanttekening bij het ideaal van Ranke?",
+      "choices": [
+        "Ook Ranke koos zelf welke bronnen en welke vragen; zijn verslag kon dus niet volledig neutraal zijn",
+        "Ranke gebruikte geen bronnen",
+        "Ranke wilde juist moraliseren over het verleden",
+        "Ranke schreef alleen over de oudheid"
+      ],
+      "answer": "Ook Ranke koos zelf welke bronnen en welke vragen; zijn verslag kon dus niet volledig neutraal zijn",
+      "hints": [
+        "Wie kiest welke bronnen en welke vraag?",
+        "Wat zegt de zin over het idee van objectiviteit?"
+      ],
+      "solution": [
+        "Ranke wilde laten zien hoe het eigenlijk was en baseerde zich op archieven. Maar welke bronnen je kiest en welke vraag je stelt, is een keuze; daarom is ook zijn werk niet volledig neutraal."
+      ],
+      "feedback": [
+        {
+          "answer": "Ranke gebruikte geen bronnen",
+          "message": "Juist het tegendeel: hij baseerde zich op archieven en gelijktijdige documenten."
+        },
+        {
+          "answer": "Ranke wilde juist moraliseren over het verleden",
+          "message": "In het voorwoord zegt hij dat hij het verleden niet wil beoordelen om de tijdgenoten te onderwijzen."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "historiography"
+      ]
+    },
+    {
+      "id": "01-031",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat bedoelde Pieter Geyl ongeveer met “geschiedenis is een discussie zonder eind”?",
+      "choices": [
+        "Historici blijven over hetzelfde verleden debatteren door nieuwe bronnen en vragen, maar niet elke interpretatie is even goed",
+        "Alle interpretaties zijn even goed, dus er is geen waarheid",
+        "Een discussie is nutteloos, dus je moet er niet aan beginnen",
+        "Het verleden verandert voortdurend"
+      ],
+      "answer": "Historici blijven over hetzelfde verleden debatteren door nieuwe bronnen en vragen, maar niet elke interpretatie is even goed",
+      "hints": [
+        "Het verleden zelf verandert niet. Wat verandert wel?",
+        "Betekent “zonder eind” dat alles kan?"
+      ],
+      "solution": [
+        "Het beeld van het verleden verandert door nieuwe bronnen en vragen. Een interpretatie moet wel standhouden tegenover bronnen en tegenargumenten."
+      ],
+      "feedback": [
+        {
+          "answer": "Alle interpretaties zijn even goed, dus er is geen waarheid",
+          "message": "Dat gaat te ver: de discussie gaat over onderbouwing, en niet elke uitleg is even goed onderbouwd."
+        },
+        {
+          "answer": "Het verleden verandert voortdurend",
+          "message": "Het verleden is voorbij en verandert niet. Het beeld ervan verandert."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "historiography"
+      ]
+    },
+    {
+      "id": "01-032",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de beste reden om het verhaal over de hutspot en de jongen in de Lammenschans als legende te behandelen?",
+      "choices": [
+        "Het is door navertellen overgeleverd, de naam van de jongen verschilt per verteller en een bewijs uit de tijd zelf ontbreekt",
+        "Het gaat over eten, en eten is geen historisch onderwerp",
+        "Er is in 2020 opgegraven bij het fort, dus het verhaal is bewezen",
+        "Het verhaal wordt tegenwoordig te vaak verteld"
+      ],
+      "answer": "Het is door navertellen overgeleverd, de naam van de jongen verschilt per verteller en een bewijs uit de tijd zelf ontbreekt",
+      "hints": [
+        "Wat steunt op bronnen uit 1574 en wat niet?",
+        "Wat zegt een opgraving wel en niet?"
+      ],
+      "solution": [
+        "Een verhaal dat in het navertellen verandert en niet op gelijktijdige bronnen steunt, behandel je als overlevering."
+      ],
+      "feedback": [
+        {
+          "answer": "Er is in 2020 opgegraven bij het fort, dus het verhaal is bewezen",
+          "message": "De vondsten bevestigen dat er een Spaans fort was, maar zeggen niets over de pot of de jongen."
+        },
+        {
+          "answer": "Het gaat over eten, en eten is geen historisch onderwerp",
+          "message": "Alledaagse zaken zoals eten zijn juist belangrijk. De vraag is welk bewijs er voor dit verhaal is."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "historiography"
+      ]
+    },
+    {
+      "id": "01-033",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je onderzoekt de deelvraag: hoe werd het Leidens Ontzet in 1924 herdacht? Welke van de drie bronnen is daarvoor het meest direct bruikbaar?",
+      "choices": [
+        "Bron C: het herdenkingsdoek uit 1924",
+        "Bron A: de papieren noodmunt uit 1574",
+        "Bron B: de gedrukte beschrijving van Fruytiers",
+        "Geen van de drie, want ze zijn allemaal te oud"
+      ],
+      "answer": "Bron C: het herdenkingsdoek uit 1924",
+      "hints": [
+        "Uit welk jaar moet de bron komen voor deze vraag?",
+        "Welke bron is zelf een product van de herdenking?"
+      ],
+      "solution": [
+        "De vraag gaat over 1924. Het doek komt uit de herdenking van 1924 en is voor deze vraag primair."
+      ],
+      "feedback": [
+        {
+          "answer": "Bron A: de papieren noodmunt uit 1574",
+          "message": "De munt zegt iets over 1574, niet over de herdenking in 1924."
+        },
+        {
+          "answer": "Geen van de drie, want ze zijn allemaal te oud",
+          "message": "Het doek komt uit 1924 zelf."
+        }
+      ],
+      "topics": [
+        "sources"
+      ]
+    },
+    {
+      "id": "01-034",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Welke conclusie na het lezen van de bronnen A, B en C is het best onderbouwd?",
+      "choices": [
+        "Het idee van redding en vrijheid is al in 1574 zichtbaar en keert later terug; hoe gewone inwoners het beleg ervoeren, blijft onbeantwoord",
+        "Alle Leidenaren zagen het Ontzet vanaf het begin als redding",
+        "Het doek van 1924 bewijst hoe het Ontzet werkelijk verliep",
+        "Bron B is het betrouwbaarst omdat ze het langst is"
+      ],
+      "answer": "Het idee van redding en vrijheid is al in 1574 zichtbaar en keert later terug; hoe gewone inwoners het beleg ervoeren, blijft onbeantwoord",
+      "hints": [
+        "Welke uitspraken gaan niet verder dan de bronnen?",
+        "Welke perspectieven ontbreken in de drie bronnen?"
+      ],
+      "solution": [
+        "De conclusie noemt wat de bronnen laten zien (de betekenis van redding en vrijheid) en benoemt wat ze niet laten zien (de ervaring van gewone inwoners)."
+      ],
+      "feedback": [
+        {
+          "answer": "Alle Leidenaren zagen het Ontzet vanaf het begin als redding",
+          "message": "Dat is te breed: de bronnen laten het perspectief van het stadsbestuur en latere herinnering zien, niet dat van alle inwoners."
+        },
+        {
+          "answer": "Het doek van 1924 bewijst hoe het Ontzet werkelijk verliep",
+          "message": "Een doek uit 1924 laat vooral zien hoe men in 1924 het Ontzet wilde herdenken."
+        }
+      ],
+      "topics": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-035",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Schrijf in vijf tot acht zinnen een antwoord op de vraag: Hoe werd de betekenis van het Leidens Ontzet vormgegeven, kort na de gebeurtenis en eeuwen later? Gebruik de bronnen A (noodmunt, 1574), B (Fruytiers, gedrukte beschrijving) en C (herdenkingsdoek, 1924).",
+      "answer": "Een antwoord dat alle drie de bronnen gebruikt, onderscheidt wat de bronnen zeggen van wat je afleidt, noemt minstens één beperking en eindigt met een voorzichtige, goed afgebakende conclusie.",
+      "hints": [
+        "Gebruik het analyseschema uit de les: soort, herkomst, publiek, doel, wat de bron wel en niet zegt, zekerheid.",
+        "Sluit af met een uitspraak die niet verder gaat dan de bronnen."
+      ],
+      "solution": [
+        "Modelantwoord: Bron A, een papieren noodmunt uit 1574, presenteert het beleg met de teksten *Haec libertatis ergo* en *God behoede Leyden* onder gezag van de prins van Oranje. Bron B is een gedrukte beschrijving van een tijdgenoot uit het kamp van de prins en laat zien hoe beleg en ontzet voor een lezend publiek werden verteld. Bron C, een doek uit 1924, toont het Ontzet bijna vier eeuwen later als herinneringsmoment met onder meer de vloot. Het is aannemelijk dat het beeld van redding en vrijheid al vroeg onderdeel was van de manier waarop het kamp van de Opstand zich presenteerde en later werd overgenomen. Een beperking is dat alle drie de bronnen een publieke, georganiseerde boodschap zijn; hoe gewone inwoners of de Spaanse kant het zagen, blijkt hier niet uit."
+      ],
+      "topics": [
+        "interpretation",
+        "source-criticism"
+      ]
+    }
+  ]
+}
