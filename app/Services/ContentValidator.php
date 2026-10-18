@@ -90,8 +90,20 @@ class ContentValidator
         foreach ($modules as $module) {
             $where = "{$prefix}Module {$module->id}";
 
+            // Aanvullingen van een content-agent die nog niet zijn samengevoegd gelden
+            // voor deze module al als bekend; er blijft één waarschuwing staan.
+            $additionsPath = $this->content->modulePath($module).'/additions.json';
+            $additions = is_file($additionsPath) ? (json_decode(file_get_contents($additionsPath), true) ?? []) : [];
+            if (is_file($additionsPath)) {
+                $this->warnings[] = "{$where}: additions.json is nog niet samengevoegd (python scripts/merge_additions.py ".basename($this->content->path()).").";
+                $this->checkLanguageInJson($additionsPath, "{$where}/additions.json");
+            }
+            $moduleTopics = [...$topics, ...array_keys($additions['topics'] ?? [])];
+            $moduleTimeline = [...$timeline, ...array_column($additions['events'] ?? [], 'id')];
+            $modulePeople = [...$people, ...array_column($additions['people'] ?? [], 'id')];
+
             foreach ($module->topics as $topic) {
-                $this->expect(in_array($topic, $topics, true), "{$where}: onbekend onderwerp '{$topic}' in module.json.");
+                $this->expect(in_array($topic, $moduleTopics, true), "{$where}: onbekend onderwerp '{$topic}' in module.json.");
             }
 
             foreach ($module->prerequisites as $id) {
@@ -103,11 +115,11 @@ class ContentValidator
             }
 
             foreach ($module->timeline as $id) {
-                $this->warnUnless($timeline === [] || in_array($id, $timeline, true), "{$where}: tijdlijn-id '{$id}' bestaat (nog) niet.");
+                $this->warnUnless($timeline === [] || in_array($id, $moduleTimeline, true), "{$where}: tijdlijn-id '{$id}' bestaat (nog) niet.");
             }
 
             foreach ($module->mathematicians as $id) {
-                $this->warnUnless($people === [] || in_array($id, $people, true), "{$where}: persoon '{$id}' bestaat (nog) niet.");
+                $this->warnUnless($people === [] || in_array($id, $modulePeople, true), "{$where}: persoon '{$id}' bestaat (nog) niet.");
             }
 
             $placed = $this->validateLessons($module, $where);
@@ -133,7 +145,7 @@ class ContentValidator
             foreach ($all as $exercise) {
                 $this->expect(! isset($seenIds[$exercise->id]), "{$exercise->id}: dubbel id.");
                 $seenIds[$exercise->id] = true;
-                $this->validateExercise($exercise, $module, $topics);
+                $this->validateExercise($exercise, $module, $moduleTopics);
             }
 
             foreach ($exercises->keys() as $id) {

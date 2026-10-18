@@ -25,4 +25,6 @@ Laravel 13 + SQLite + Blade/Alpine/Tailwind 4/KaTeX. Lokale leeromgeving volgens
 - **Begrensd onderzoek:** hooguit ~8 gerichte webzoekopdrachten per module.
 - **Parallel:** maximaal 3–4 agents tegelijk; bij een limiet een gestopte agent niet hervatten maar
   een nieuwe Sonnet-agent het resterende werk laten afmaken (bestaande bestanden blijven staan).
-- **Afronden:** per voltooide module `content:validate` + `php artisan test`, dan commit en push.
+- **Afronden:** per batch eerst `python scripts/merge_additions.py <domein>` (voegt de `additions.json`
+  van agents samen in course.json en history/), dan per module `content:validate` + `php artisan test`,
+  dan commit en push.

@@ -34,6 +34,8 @@ bronnen, niet als losse definitie.
 - Kies een echte, identificeerbare bron: een document, voorwerp, kaart, gebouw of afbeelding. Vermeld
   maker (indien bekend), datum, plaats en waar de bron nu bewaard wordt (collectie, inventarisnummer
   als dat makkelijk te vinden is).
+- Laat de openingsbron bij voorkeur ook zien. Veel collecties (Rijksmuseum, De Lakenhal, Wikimedia
+  Commons) bieden foto's in het publiek domein; vermeld de licentie die op de collectiepagina staat.
 - Afbeeldingen alleen van Wikimedia Commons of museumcollecties met publiek domein of CC-licentie.
   Download ze naar `public/images/geschiedenis/mNN-*.jpg` (max. ~1200 px breed, < 400 kB) en
   registreer ze in `credits.json` van de module. Lukt dat niet zeker, beschrijf de bron dan in
