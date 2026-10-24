@@ -12,7 +12,8 @@
       "title": "Werken met bronnen",
       "level": "fundamenten",
       "modules": [
-        1
+        1,
+        2
       ]
     },
     {
@@ -20,49 +21,77 @@
       "roman": "II",
       "title": "Prehistorie en de eerste beschavingen",
       "level": "fundamenten",
-      "modules": []
+      "modules": [
+        3,
+        4,
+        5
+      ]
     },
     {
       "number": 3,
       "roman": "III",
       "title": "Oudheid",
       "level": "fundamenten",
-      "modules": []
+      "modules": [
+        6,
+        7,
+        8
+      ]
     },
     {
       "number": 4,
       "roman": "IV",
       "title": "Middeleeuwen",
       "level": "fundamenten",
-      "modules": []
+      "modules": [
+        9,
+        10,
+        11
+      ]
     },
     {
       "number": 5,
       "roman": "V",
       "title": "Vroegmoderne tijd",
       "level": "fundamenten",
-      "modules": []
+      "modules": [
+        12,
+        13,
+        14
+      ]
     },
     {
       "number": 6,
       "roman": "VI",
       "title": "Revoluties en industrialisatie",
       "level": "fundamenten",
-      "modules": []
+      "modules": [
+        15,
+        16,
+        17
+      ]
     },
     {
       "number": 7,
       "roman": "VII",
       "title": "De twintigste eeuw",
       "level": "fundamenten",
-      "modules": []
+      "modules": [
+        18,
+        19,
+        20,
+        21
+      ]
     },
     {
       "number": 8,
       "roman": "VIII",
       "title": "Nederland in de wereld",
       "level": "fundamenten",
-      "modules": []
+      "modules": [
+        22,
+        23
+      ]
     }
   ],
   "topics": {
@@ -70,6 +99,17 @@
     "source-criticism": "Bronnenkritiek",
     "interpretation": "Interpretatie",
     "chronology": "Chronologie en periodisering",
-    "historiography": "Geschiedschrijving"
+    "historiography": "Geschiedschrijving",
+    "causation": "Oorzaak en gevolg",
+    "continuity-change": "Continuïteit en verandering",
+    "perspective": "Perspectieven",
+    "contextualisation": "Contextualiseren",
+    "prehistory": "Prehistorie en eerste beschavingen",
+    "antiquity": "Oudheid",
+    "middle-ages": "Middeleeuwen",
+    "early-modern": "Vroegmoderne tijd",
+    "modern": "Revoluties en industrialisatie",
+    "twentieth-century": "De twintigste eeuw",
+    "contemporary": "Nederland en de wereld na 1945"
   }
 }
