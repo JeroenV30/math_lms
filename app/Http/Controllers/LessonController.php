@@ -20,7 +20,7 @@ class LessonController extends Controller
         return view('lesson.show', [
             'module' => $module,
             'lesson' => $lesson,
-            'rendered' => $renderer->render($module, $content->lessonMarkdown($module, $lesson)),
+            'rendered' => $renderer->render($module, $content->lessonMarkdown($module, $lesson), title: $lesson->title),
             'completedLessons' => $progress->completedLessons($module->id),
             'previous' => $module->lessonBefore($lesson),
             'next' => $module->lessonAfter($lesson),

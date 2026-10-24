@@ -1,5 +1,7 @@
 @extends('layouts.app', ['title' => $lesson->title.' · Module '.$module->id])
 
+@inject('markdown', 'App\Services\MarkdownRenderer')
+
 @section('content')
     <div class="container-page grid gap-10 pt-8 lg:grid-cols-[15rem_minmax(0,1fr)] xl:grid-cols-[15rem_minmax(0,1fr)_13rem]">
         {{-- Moduleschema --}}
@@ -45,6 +47,9 @@
             <header class="mb-10">
                 <p class="eyebrow">Les {{ $lesson->position }} van {{ $module->lessons->count() }} · {{ $lesson->kindLabel() }}</p>
                 <h1 class="page-title mt-2">{{ $lesson->title }}</h1>
+                @if ($rendered['subtitle'])
+                    <p class="mt-2 font-serif text-xl leading-snug text-ink-soft">{!! $markdown->inline($rendered['subtitle']) !!}</p>
+                @endif
             </header>
 
             <div class="prose-content">

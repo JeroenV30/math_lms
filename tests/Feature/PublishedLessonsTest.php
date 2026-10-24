@@ -21,11 +21,13 @@ class PublishedLessonsTest extends TestCase
             $this->assertCleanText($this->get('/kennis/wiskunde/cursus/'.$module->slug)->assertOk());
 
             foreach ($module->lessons as $lesson) {
-                $this->assertCleanText(
-                    $this->get('/kennis/wiskunde/cursus/'.$module->slug.'/les/'.$lesson->slug)
-                        ->assertOk()
-                        ->assertDontSee('directive-error', false),
-                );
+                $response = $this->get('/kennis/wiskunde/cursus/'.$module->slug.'/les/'.$lesson->slug)
+                    ->assertOk()
+                    ->assertDontSee('directive-error', false);
+
+                $this->assertCleanText($response);
+                // De lestitel is de enige <h1>; een openingskop "# …" in de Markdown wordt geen tweede.
+                $this->assertSame(1, substr_count($response->getContent(), '<h1'), "Les {$module->id}/{$lesson->slug} heeft meer dan één <h1>.");
             }
 
             $this->assertCleanText($this->get('/kennis/wiskunde/cursus/'.$module->slug.'/toets')->assertOk());

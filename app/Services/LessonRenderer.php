@@ -19,10 +19,12 @@ class LessonRenderer
     ) {}
 
     /**
-     * @return array{html: string, toc: list<array{id: string, title: string, level: int}>, exercises: list<string>}
+     * @return array{html: string, toc: list<array{id: string, title: string, level: int}>, exercises: list<string>, subtitle: ?string}
      */
-    public function render(Module $module, string $markdown, string $context = 'lesson'): array
+    public function render(Module $module, string $markdown, string $context = 'lesson', ?string $title = null): array
     {
+        ['markdown' => $markdown, 'subtitle' => $subtitle] = $this->splitOpeningHeading($markdown, $title);
+
         preg_match_all('/\{\{\s*exercises?\s*:\s*([^}]*)\}\}/', $markdown, $matches);
         $ids = collect($matches[1])->flatMap(fn (string $list) => $this->ids($list))->unique()->values()->all();
         $states = $this->progress->exerciseStates($ids);
@@ -38,7 +40,27 @@ class LessonRenderer
             };
         });
 
-        return [...$document, 'exercises' => $ids];
+        return [...$document, 'exercises' => $ids, 'subtitle' => $subtitle];
+    }
+
+    /**
+     * De lespagina toont de lestitel al als <h1>. Een les die met "# …" opent, krijgt
+     * daardoor geen tweede <h1>: een kop gelijk aan de titel vervalt, een andere kop
+     * wordt de ondertitel.
+     *
+     * @return array{markdown: string, subtitle: ?string}
+     */
+    public function splitOpeningHeading(string $markdown, ?string $title): array
+    {
+        if ($title === null || ! preg_match('/\A\s*#[ \t]+(.+?)[ \t#]*(?:\R|\z)/u', $markdown, $m)) {
+            return ['markdown' => $markdown, 'subtitle' => null];
+        }
+
+        $heading = trim($m[1]);
+        $rest = substr($markdown, strlen($m[0]));
+        $same = mb_strtolower($heading) === mb_strtolower(trim($title));
+
+        return ['markdown' => $rest, 'subtitle' => $same ? null : $heading];
     }
 
     private function exercises(Module $module, string $arguments, string $context, array $states): string
