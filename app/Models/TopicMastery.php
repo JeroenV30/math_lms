@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Attributes\Table;
 use Illuminate\Database\Eloquent\Model;
 
 #[Table('topic_mastery')]
-#[Fillable(['topic', 'score', 'correct_answers', 'wrong_answers', 'last_practiced_at', 'next_review_at'])]
+#[Fillable(['topic', 'score', 'correct_answers', 'wrong_answers', 'interval_hours', 'review_streak', 'last_practiced_at', 'next_review_at'])]
 class TopicMastery extends Model
 {
     use BelongsToCourse;
@@ -19,6 +19,8 @@ class TopicMastery extends Model
             'score' => 'integer',
             'correct_answers' => 'integer',
             'wrong_answers' => 'integer',
+            'interval_hours' => 'integer',
+            'review_streak' => 'integer',
             'last_practiced_at' => 'datetime',
             'next_review_at' => 'datetime',
         ];

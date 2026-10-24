@@ -79,7 +79,7 @@ class ExerciseService
         ]);
 
         // Open antwoorden worden niet automatisch beoordeeld en tellen dus niet mee voor de beheersing.
-        $scores = $exercise->type === 'text' ? [] : $this->mastery->record($exercise->topics, $isCorrect, $hintsUsed, $solutionViewed);
+        $scores = $exercise->type === 'text' ? [] : $this->mastery->record($exercise->topics, $isCorrect, $hintsUsed, $solutionViewed, $context);
         $this->progress->touchModule($exercise->moduleId);
 
         return $this->payload($exercise, $result, $feedback, $attempt, $scores);

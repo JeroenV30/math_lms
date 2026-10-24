@@ -42,6 +42,9 @@ return [
         'correct_with_hint' => 1,
         'correct_after_solution' => 0,
         'wrong' => -5,
+        // Een toetsvraag maak je zonder hints of oplossing: een sterkere meting.
+        'quiz_correct' => 5,
+        'quiz_wrong' => -5,
     ],
 
     /*
@@ -49,8 +52,11 @@ return [
     | Herhaling
     |--------------------------------------------------------------------------
     |
-    | Na hoeveel uur een onderwerp opnieuw aan de beurt is, afhankelijk van de
-    | beheersing. Lage beheersing komt snel terug, hoge alleen voor onderhoud.
+    | Na hoeveel uur een onderwerp opnieuw aan de beurt is. De ondergrens volgt
+    | uit de beheersing: lage beheersing komt snel terug, hoge alleen voor
+    | onderhoud. Elke herhaling die op tijd en zonder hulp goed gaat, vermenigvuldigt
+    | het interval met 'review_growth' (tot 'review_max_hours'); een fout antwoord
+    | zet het terug naar de ondergrens.
     |
     */
 
@@ -62,6 +68,10 @@ return [
         50 => 24 * 3,
         0 => 4,
     ],
+
+    'review_growth' => 2.0,
+
+    'review_max_hours' => 24 * 180,
 
     'review_session_size' => 10,
 
