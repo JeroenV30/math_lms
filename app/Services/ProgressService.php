@@ -228,12 +228,36 @@ class ProgressService
         ];
     }
 
-    public function reset(): void
+    /**
+     * Wis de voortgang van één cursus, of met null van alle cursussen.
+     */
+    public function reset(?string $course = null): void
     {
-        ExerciseAttempt::query()->delete();
-        LessonProgress::query()->delete();
-        ModuleProgress::query()->delete();
-        QuizAttempt::query()->delete();
-        TopicMastery::query()->delete();
+        foreach ([ExerciseAttempt::class, LessonProgress::class, ModuleProgress::class, QuizAttempt::class, TopicMastery::class] as $model) {
+            $model::query()
+                ->withoutGlobalScope('course')
+                ->when($course !== null, fn ($query) => $query->where('course', $course))
+                ->delete();
+        }
+    }
+
+    /**
+     * Aantal pogingen en gelezen lessen per cursus, voor de instellingenpagina.
+     *
+     * @return array<string, array{attempts: int, lessons: int}>
+     */
+    public function totalsPerCourse(): array
+    {
+        $count = fn (string $model) => $model::query()->withoutGlobalScope('course')
+            ->selectRaw('course, count(*) as n')->groupBy('course')->pluck('n', 'course');
+
+        $attempts = $count(ExerciseAttempt::class);
+        $lessons = $count(LessonProgress::class);
+
+        return $attempts->keys()->merge($lessons->keys())->unique()
+            ->mapWithKeys(fn (string $course) => [$course => [
+                'attempts' => (int) ($attempts[$course] ?? 0),
+                'lessons' => (int) ($lessons[$course] ?? 0),
+            ]])->all();
     }
 }

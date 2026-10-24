@@ -9,6 +9,7 @@ use App\Models\QuizAttempt;
 use App\Models\TopicMastery;
 use App\Services\ReviewService;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Carbon;
 use Tests\TestCase;
 
@@ -271,5 +272,62 @@ class CourseFlowTest extends TestCase
 
         $this->assertSame(0, ExerciseAttempt::query()->count());
         $this->assertSame(0, TopicMastery::query()->count());
+    }
+
+    public function test_reset_can_be_limited_to_one_course(): void
+    {
+        $this->postJson('/kennis/wiskunde/oefening/01-001/controleer', ['answer' => '518'])->assertOk();
+        $this->postJson('/kennis/geschiedenis/oefening/01-002/controleer', ['answer' => 'Een brief uit 1574'])->assertOk();
+
+        $this->get('/instellingen')->assertOk()->assertSee('Back-up downloaden');
+        $this->post('/instellingen/wissen', ['confirm' => 'WISSEN', 'course' => 'bestaat-niet'])->assertSessionHasErrors('course');
+        $this->post('/instellingen/wissen', ['confirm' => 'WISSEN', 'course' => 'geschiedenis'])->assertRedirect('/instellingen');
+
+        $this->assertSame(['wiskunde'], ExerciseAttempt::query()->distinct()->pluck('course')->all());
+        $this->assertSame(['wiskunde'], TopicMastery::query()->distinct()->pluck('course')->all());
+    }
+
+    public function test_progress_can_be_exported_and_restored(): void
+    {
+        $this->post('/instellingen', ['name' => 'Ada']);
+        $this->postJson('/kennis/wiskunde/oefening/01-001/controleer', ['answer' => '518'])->assertOk();
+        $this->post('/kennis/wiskunde/cursus/tellen/toets', ['answers' => ['01-T01' => '518']])->assertRedirect();
+        $attempts = ExerciseAttempt::query()->count();
+        $mastery = TopicMastery::query()->pluck('score', 'topic')->all();
+
+        $response = $this->get('/instellingen/back-up')->assertOk()->assertDownload();
+        $backup = $response->streamedContent();
+        $this->assertSame('kennis-door-de-eeuwen/voortgang', json_decode($backup, true)['format']);
+
+        $this->post('/instellingen/wissen', ['confirm' => 'WISSEN']);
+        $this->assertSame(0, ExerciseAttempt::query()->count());
+
+        $file = UploadedFile::fake()->createWithContent('voortgang.json', $backup);
+        $this->post('/instellingen/back-up', ['backup' => $file])->assertSessionHasErrors('replace');
+        $this->post('/instellingen/back-up', ['backup' => $file, 'replace' => '1'])->assertRedirect('/instellingen');
+
+        $this->assertSame($attempts, ExerciseAttempt::query()->count());
+        $this->assertSame(1, QuizAttempt::query()->count());
+        $this->assertSame(collect($mastery)->sortKeys()->all(), TopicMastery::query()->pluck('score', 'topic')->sortKeys()->all());
+        $this->get('/kennis/wiskunde')->assertSee('Ada');
+    }
+
+    public function test_an_invalid_backup_changes_nothing(): void
+    {
+        $this->postJson('/kennis/wiskunde/oefening/01-001/controleer', ['answer' => '518'])->assertOk();
+
+        $backup = fn (array $tables) => json_encode(['format' => 'kennis-door-de-eeuwen/voortgang', 'version' => 1, 'tables' => $tables]);
+        $bad = [
+            'geen json' => 'dit is geen json',
+            'ander formaat' => json_encode(['format' => 'iets anders', 'version' => 1, 'tables' => []]),
+            'onbekende kolom' => $backup(['exercise_attempts' => [['hack' => 1]]]),
+            'ontbrekende kolom' => $backup(['exercise_attempts' => [['exercise_id' => '01-001']]]),
+        ];
+
+        foreach ($bad as $label => $content) {
+            $file = UploadedFile::fake()->createWithContent('voortgang.json', $content);
+            $this->post('/instellingen/back-up', ['backup' => $file, 'replace' => '1'])->assertSessionHasErrors('backup');
+            $this->assertSame(1, ExerciseAttempt::query()->count(), "Back-up '{$label}' heeft toch iets veranderd.");
+        }
     }
 }

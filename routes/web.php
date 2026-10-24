@@ -55,6 +55,8 @@ Route::prefix('kennis/{domain}')->where(['domain' => '[a-z0-9-]+'])->group(funct
 Route::get('/instellingen', [SettingsController::class, 'edit'])->name('settings.edit');
 Route::post('/instellingen', [SettingsController::class, 'update'])->name('settings.update');
 Route::post('/instellingen/wissen', [SettingsController::class, 'reset'])->name('settings.reset');
+Route::get('/instellingen/back-up', [SettingsController::class, 'export'])->name('settings.export');
+Route::post('/instellingen/back-up', [SettingsController::class, 'import'])->name('settings.import');
 
 // Oude adressen (van vóór de domeinen) blijven werken.
 Route::permanentRedirect('/kennis', '/');
