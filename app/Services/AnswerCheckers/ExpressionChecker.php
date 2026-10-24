@@ -11,7 +11,8 @@ use InvalidArgumentException;
  *
  * Twee expressies gelden als gelijk wanneer ze op een reeks willekeurige
  * punten dezelfde waarde hebben. Opties:
- *  - form: "expanded" (geen haakjes: herleid/uitgewerkt), "factored" (wel haakjes).
+ *  - form: "expanded" (geen som tussen haakjes die nog vermenigvuldigd of gemachtsverheven wordt),
+ *    "factored" (de buitenste bewerking is een product of macht).
  */
 class ExpressionChecker implements AnswerChecker
 {
@@ -47,11 +48,12 @@ class ExpressionChecker implements AnswerChecker
             return AnswerResult::incorrect($normalized);
         }
 
+        // De vorm volgt uit de opbouw, niet uit losse tekens: x^(2) is uitgewerkt, √(x+1) ook.
         $form = $options['form'] ?? null;
-        if ($form === 'expanded' && str_contains($input, '(')) {
+        if ($form === 'expanded' && ! $given['expanded']) {
             return AnswerResult::incorrect($normalized, 'Je antwoord heeft de goede waarde, maar werk de haakjes nog weg.', 'not_expanded');
         }
-        if ($form === 'factored' && ! str_contains($input, '(')) {
+        if ($form === 'factored' && ! in_array($given['kind'], ['product', 'power'], true)) {
             return AnswerResult::incorrect($normalized, 'Je antwoord heeft de goede waarde, maar schrijf het als product (ontbind in factoren).', 'not_factored');
         }
 

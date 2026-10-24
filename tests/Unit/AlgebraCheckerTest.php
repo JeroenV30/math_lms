@@ -30,7 +30,45 @@ class AlgebraCheckerTest extends TestCase
             ['10 : 4', [], 2.5],
             ['2^3^2', [], 512],
             ['3,5x', ['x' => 2], 7],
+            // Functienamen ook vastgeschreven aan hun argument of aan een getal.
+            ['√x', ['x' => 9], 3],
+            ['2√x', ['x' => 16], 8],
+            ['sinx', ['x' => M_PI / 2], 1],
+            ['2sinx', ['x' => M_PI / 2], 2],
+            ['xsin(x)', ['x' => M_PI / 2], M_PI / 2],
+            ['lnx', ['x' => M_E], 1],
+            ['3lnx', ['x' => M_E ** 2], 6],
+            ['cosx', ['x' => 0], 1],
+            ['logx', ['x' => 100], 2],
+            // e is het getal van Euler; exp en |…| worden herkend.
+            ['e^x', ['x' => 1], M_E],
+            ['2e', [], 2 * M_E],
+            ['exp(2)', [], M_E ** 2],
+            ['|x - 5|', ['x' => 2], 3],
+            ['2pi', [], 2 * M_PI],
         ];
+    }
+
+    public function test_function_names_do_not_become_variables(): void
+    {
+        $this->assertSame(['x'], (new ExpressionParser)->parse('2sinx + lnx')['variables']);
+        $this->assertSame(['x'], (new ExpressionParser)->parse('√x')['variables']);
+        $this->assertSame(['x'], (new ExpressionParser)->parse('e^x')['variables']);
+        $this->assertSame(['a', 'b'], (new ExpressionParser)->parse('ab')['variables']);
+    }
+
+    public function test_expression_checker_accepts_written_out_functions(): void
+    {
+        $checker = new ExpressionChecker(new ExpressionParser);
+
+        $this->assertTrue($checker->check('√x', 'sqrt(x)')->correct);
+        $this->assertTrue($checker->check('sinx', 'sin(x)')->correct);
+        $this->assertTrue($checker->check('2sinx', '2sin(x)')->correct);
+        $this->assertTrue($checker->check('xsin(x)', 'x*sin(x)')->correct);
+        $this->assertTrue($checker->check('3lnx', '3ln(x)')->correct);
+        $this->assertTrue($checker->check('e^x', 'exp(x)')->correct);
+        $this->assertTrue($checker->check('|x|', 'abs(x)')->correct);
+        $this->assertFalse($checker->check('ln(x)', 'log(x)')->correct);
     }
 
     #[DataProvider('expressions')]
@@ -80,6 +118,23 @@ class AlgebraCheckerTest extends TestCase
         $this->assertTrue($checker->check('2x + 4', '2x + 4', ['form' => 'expanded'])->correct);
         $this->assertSame('not_factored', $checker->check('x^2 - 1', '(x+1)(x-1)', ['form' => 'factored'])->code);
         $this->assertTrue($checker->check('(x-1)(x+1)', '(x+1)(x-1)', ['form' => 'factored'])->correct);
+
+        // De vorm volgt uit de opbouw, niet uit losse haakjes.
+        $expanded = ['form' => 'expanded'];
+        $this->assertTrue($checker->check('x^(2) + 1', 'x^2 + 1', $expanded)->correct);
+        $this->assertTrue($checker->check('(x^2) + 2x', 'x^2 + 2x', $expanded)->correct);
+        $this->assertTrue($checker->check('sin(x + 1) + x', 'sin(x+1) + x', $expanded)->correct);
+        $this->assertTrue($checker->check('1/(x + 1)', '1/(x+1)', $expanded)->correct);
+        $this->assertSame('not_expanded', $checker->check('(x + 1)^2', 'x^2 + 2x + 1', $expanded)->code);
+        $this->assertSame('not_expanded', $checker->check('x(x + 2)', 'x^2 + 2x', $expanded)->code);
+        $this->assertSame('not_expanded', $checker->check('3 - (x - 1)', '4 - x', $expanded)->code);
+
+        $factored = ['form' => 'factored'];
+        $this->assertTrue($checker->check('(x + 1)^2', 'x^2 + 2x + 1', $factored)->correct);
+        $this->assertTrue($checker->check('-(x - 1)(x + 1)', '1 - x^2', $factored)->correct);
+        $this->assertTrue($checker->check('2(x + 3)', '2x + 6', $factored)->correct);
+        $this->assertSame('not_factored', $checker->check('(x^2 - 1)', '(x+1)(x-1)', $factored)->code);
+        $this->assertSame('not_factored', $checker->check('x(x + 1) - 1', 'x^2 + x - 1', $factored)->code);
     }
 
     public function test_coordinate_checker(): void
@@ -105,6 +160,22 @@ class AlgebraCheckerTest extends TestCase
         $this->assertSame('brackets', $checker->check('[2, 8]', '(2; 8)')->code);
         $this->assertFalse($checker->check('[8, 2]', '[2; 8]')->valid);
         $this->assertFalse($checker->check('[2, 9]', '[2; 8]')->correct);
+    }
+
+    public function test_interval_checker_reads_inequalities(): void
+    {
+        $checker = new IntervalChecker(new NumberParser);
+
+        $this->assertTrue($checker->check('x > 2', '⟨2; ∞⟩')->correct);
+        $this->assertTrue($checker->check('x ≥ -1,5', '[-1,5; ∞⟩')->correct);
+        $this->assertTrue($checker->check('x <= 4', '⟨−∞; 4]')->correct);
+        $this->assertTrue($checker->check('2 < x', '⟨2; ∞⟩')->correct);
+        $this->assertTrue($checker->check('1 ≤ x < 3', '[1; 3⟩')->correct);
+        $this->assertTrue($checker->check('3 > t >= 1', '[1; 3⟩')->correct);
+        $this->assertTrue($checker->check('x ∈ [2; 8]', '[2; 8]')->correct);
+        $this->assertSame('brackets', $checker->check('x > 2', '[2; ∞⟩')->code);
+        $this->assertFalse($checker->check('1 < x > 3', '⟨1; 3⟩')->valid);
+        $this->assertFalse($checker->check('3 < x < 1', '⟨1; 3⟩')->valid);
     }
 
     public function test_multiple_checker(): void

@@ -198,9 +198,9 @@ overschrijven. Houd afbeeldingen klein (max. ~1200 px breed, < 400 kB).
 | `numeric` | geheel getal `518` | – | `518`, `1.000`, `1 000`, `-12`, `x = 4` |
 | `decimal` | getal `3.1416` | `tolerance` (standaard 0,000001) | `3,1416`, `3.1416`, `€ 4,50` |
 | `fraction` | string `"3/4"` | `require_simplified` (bool), `allow_decimal` (bool) | `3/4`, `6/8`, `1 1/2`, `2` |
-| `expression` | string `"2x + 4"` | `form`: `"expanded"` (geen haakjes) of `"factored"` (als product) | `4 + 2x`, `2(x+2)`, `x^2`, `x²`, `3xy`, `√(x+1)`, `y = 2x + 3` |
+| `expression` | string `"2x + 4"` | `form`: `"expanded"` (haakjes weggewerkt) of `"factored"` (als product) | `4 + 2x`, `2(x+2)`, `x^2`, `x²`, `3xy`, `√(x+1)`, `2sinx`, `e^x`, `y = 2x + 3` |
 | `coordinate` | string `"(3; 7)"` | `tolerance` | `(3; 7)`, `(3, 7)`, `(3,5; -2)` |
-| `interval` | string `"[2; 8⟩"` | `tolerance` | `[2; 8]`, `⟨2; 8]`, `<2, 8]`, `(2, 8)`, `[3; ∞⟩` |
+| `interval` | string `"[2; 8⟩"` | `tolerance` | `[2; 8]`, `⟨2; 8]`, `<2, 8]`, `(2, 8)`, `[3; ∞⟩`, `2 ≤ x < 8`, `x > 3` |
 | `multiple` | – (gebruik `parts`) | per deel de opties van zijn type | één invoerveld per deel |
 | `text` | modelantwoord (string) | `min_length` (standaard 40) | open antwoord in een tekstvak; niet automatisch beoordeeld |
 | `choice` | tekst van het juiste alternatief | `choices` (lijst, minstens 2) | meerkeuze: één alternatief aanklikken; ook in toetsen |
@@ -253,7 +253,20 @@ heeft als `answer` een complete herschikking van dezelfde items. Houd items kort
 Een `expression` wordt gecontroleerd door beide expressies op een reeks punten
 uit te rekenen: elke gelijkwaardige schrijfwijze is goed, tenzij `form` iets
 anders eist. Gebruik in de vraag letters als variabelen (x, y, a, …) en geen `e`
-als variabele. `feedback`-regels werken niet bij `multiple`.
+als variabele: `e` is het getal van Euler. Functies (`sqrt`/`√`, `sin`, `cos`,
+`tan`, `ln`, `log` = ¹⁰log, `exp`, `abs`/`|…|`) worden ook vastgeschreven herkend:
+`2sinx`, `3lnx`, `√x`. `feedback`-regels werken niet bij `multiple`.
+
+`form` kijkt naar de opbouw van het antwoord, niet naar losse haakjes:
+
+- `expanded`: geen som tussen haakjes die nog vermenigvuldigd, gemachtsverheven
+  of afgetrokken wordt. `x^(2) + 1`, `sin(x + 1)` en `1/(x + 1)` zijn goed;
+  `x(x + 2)`, `(x + 1)^2` en `3 − (x − 1)` niet.
+- `factored`: de buitenste bewerking is een product of macht, eventueel met een
+  minteken ervoor: `2(x + 3)`, `(x + 1)^2`, `−(x − 1)(x + 1)`.
+
+Een `interval` mag ook als ongelijkheid worden ingevuld: `x > 2`, `x ≤ −1`,
+`1 ≤ x < 3`, `x ∈ [2; 8]`. Schrijf het modelantwoord zelf in intervalnotatie.
 
 Een `text`-vraag (interpretatie, conclusie formuleren) wordt niet automatisch
 beoordeeld: een antwoord van voldoende lengte wordt opgeslagen, waarna het
