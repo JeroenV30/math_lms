@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" font-family="Georgia, serif" font-size="13">
+<rect width="600" height="300" fill="#ffffff"/>
+<text x="300" y="22" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f2933">Drie manieren om verandering te beschrijven</text>
+<g stroke="#1f2933" stroke-width="1.5" fill="none">
+<line x1="30" y1="230" x2="190" y2="230"/><line x1="30" y1="230" x2="30" y2="50"/>
+<line x1="220" y1="230" x2="380" y2="230"/><line x1="220" y1="230" x2="220" y2="50"/>
+<line x1="410" y1="230" x2="570" y2="230"/><line x1="410" y1="230" x2="410" y2="50"/>
+</g>
+<g stroke="#3b5bdb" stroke-width="3" fill="none">
+<path d="M30 200 L90 200 L90 90 L190 90"/>
+<path d="M220 200 L380 90"/>
+<path d="M410 200 L470 200 L470 90 L570 90"/>
+</g>
+<path d="M470 200 L570 200" stroke="#9c6b30" stroke-width="3" stroke-dasharray="6 4" fill="none"/>
+<g fill="#1f2933" text-anchor="middle">
+<text x="110" y="256" font-weight="bold">Snel</text><text x="110" y="274">plotselinge breuk</text>
+<text x="300" y="256" font-weight="bold">Geleidelijk</text><text x="300" y="274">langzame stijging</text>
+<text x="490" y="256" font-weight="bold">Breuk met rest</text><text x="490" y="274">deel blijft gelijk</text>
+</g>
+<text x="190" y="84" fill="#3b5bdb" text-anchor="end">nieuw</text>
+<text x="570" y="84" fill="#3b5bdb" text-anchor="end">nieuw</text>
+<text x="570" y="218" fill="#9c6b30" text-anchor="end">blijft</text>
+<text x="300" y="42" text-anchor="middle" fill="#9c6b30" font-style="italic">tempo, richting en reikwijdte</text>
+</svg>

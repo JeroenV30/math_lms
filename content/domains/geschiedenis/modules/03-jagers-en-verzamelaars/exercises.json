@@ -1,0 +1,1096 @@
+{
+  "exercises": [
+    {
+      "id": "03-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat kun je op grond van de kano van Pesse zelf met het meeste recht beweren?",
+      "choices": [
+        "Dat alle jagers-verzamelaars van die tijd in kano's leefden",
+        "Dat er rond 8000 v.Chr. in Drenthe mensen waren die een boomstam tot een boot konden bewerken",
+        "Dat de makers handel dreven met de bewoners van Doggerland",
+        "Dat dit de eerste boot was die ooit is gemaakt"
+      ],
+      "answer": "Dat er rond 8000 v.Chr. in Drenthe mensen waren die een boomstam tot een boot konden bewerken",
+      "hints": [
+        "Vraag je bij elke bewering af of het voorwerp zelf het bewijst, of dat je er iets bij verzint."
+      ],
+      "solution": [
+        "Het voorwerp laat alleen zien dat het is gemaakt en dat de makers dat konden.",
+        "De andere uitspraken gaan over alle groepen, over handel of over de eerste boot, en dat kan een enkel voorwerp niet tonen."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat alle jagers-verzamelaars van die tijd in kano's leefden",
+          "message": "Eén kano zegt niets over alle groepen; je generaliseert uit één voorwerp."
+        },
+        {
+          "answer": "Dat de makers handel dreven met de bewoners van Doggerland",
+          "message": "Daar is bij de kano geen enkele aanwijzing voor; dit is een aanname die verder gaat dan het voorwerp."
+        },
+        {
+          "answer": "Dat dit de eerste boot was die ooit is gemaakt",
+          "message": "Het is de oudste bekende, bewaard gebleven boot. Oudere boten kunnen zijn vergaan."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "sources",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "03-002",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Homo sapiens bestaat ongeveer 300.000 jaar. Landbouw bestaat ongeveer 12.000 jaar. Hoeveel procent van de tijd dat onze soort bestaat was er nog geen landbouw? Rond af op hele procenten.",
+      "answer": 96,
+      "hints": [
+        "Bereken eerst hoeveel jaar er zonder landbouw waren.",
+        "Deel dat getal door 300.000."
+      ],
+      "solution": [
+        "300.000 - 12.000 = 288.000 jaar zonder landbouw.",
+        "288.000 / 300.000 = 0,96, dus 96 procent."
+      ],
+      "topics": [
+        "prehistory",
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Dat is het aandeel mét landbouw. De vraag gaat over de tijd zonder landbouw."
+        }
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "03-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke omschrijving van 'prehistorie' past het best bij wat je in les 1 las?",
+      "choices": [
+        "De tijd waarin mensen nog geen geschiedenis hadden",
+        "De periode vóór het ontstaan van de moderne mens",
+        "De periode waarover niets te weten valt",
+        "De periode waaruit geen geschreven bronnen zijn overgeleverd, maar waarover onderzoekers wel onderbouwde uitspraken doen"
+      ],
+      "answer": "De periode waaruit geen geschreven bronnen zijn overgeleverd, maar waarover onderzoekers wel onderbouwde uitspraken doen",
+      "hints": [
+        "Het gaat om het soort bron, niet om de vraag of er iets gebeurde."
+      ],
+      "solution": [
+        "Prehistorie betekent: geen geschreven bronnen. Het is geen tijd zonder gebeurtenissen of zonder kennis."
+      ],
+      "feedback": [
+        {
+          "answer": "De tijd waarin mensen nog geen geschiedenis hadden",
+          "message": "Ook zonder schrift hadden mensen een geschiedenis. Alleen hebben ze die niet zelf opgeschreven."
+        },
+        {
+          "answer": "De periode vóór het ontstaan van de moderne mens",
+          "message": "Homo sapiens leefde het grootste deel van de prehistorie al; het begrip gaat over het ontbreken van schrift."
+        },
+        {
+          "answer": "De periode waarover niets te weten valt",
+          "message": "Er is veel te weten, via voorwerpen, resten, dateringen en DNA, al is de onzekerheid groter."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "sources"
+      ]
+    },
+    {
+      "id": "03-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een archeoloog vindt op een kampplaats vuurstenen pijlpunten, maar geen enkel houten voorwerp. Welke conclusie is het best onderbouwd?",
+      "choices": [
+        "Hout is op deze plek waarschijnlijk vergaan, dus het ontbreken ervan zegt weinig over het gebruik",
+        "De bewoners gebruikten geen hout",
+        "De bewoners leefden uitsluitend van steen",
+        "De pijlpunten hadden nooit een houten schacht"
+      ],
+      "answer": "Hout is op deze plek waarschijnlijk vergaan, dus het ontbreken ervan zegt weinig over het gebruik",
+      "hints": [
+        "Denk aan het schema over wat bewaard blijft.",
+        "Wat gebeurt er met hout in zure zandgrond?"
+      ],
+      "solution": [
+        "Hout vergaat tenzij er geen zuurstof bij kan.",
+        "Het ontbreken is dus een gat in het bewijs, geen bewijs van afwezigheid."
+      ],
+      "feedback": [
+        {
+          "answer": "De bewoners gebruikten geen hout",
+          "message": "Afwezigheid van hout is hier geen bewijs: hout vergaat in de meeste grond snel."
+        },
+        {
+          "answer": "De bewoners leefden uitsluitend van steen",
+          "message": "Dit is dezelfde fout: wat bewaard is, is niet wat er was."
+        },
+        {
+          "answer": "De pijlpunten hadden nooit een houten schacht",
+          "message": "Pijlpunten zonder schacht zijn onbruikbaar; de schacht is hier juist waarschijnlijk vergaan."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism",
+        "prehistory"
+      ]
+    },
+    {
+      "id": "03-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Wat is een voorzichtige conclusie uit deze vondst?",
+      "choices": [
+        "Bewezen is dat mensen toen vooral van paardenvlees leefden",
+        "Waarschijnlijk werden speren gebruikt om paarden te doden, maar of dat vaak gebeurde en of men ook aas at, laat de vondst open",
+        "De speren bewijzen dat mensen toen al landbouw kenden",
+        "De vondst zegt niets, want hout is geen betrouwbare bron"
+      ],
+      "answer": "Waarschijnlijk werden speren gebruikt om paarden te doden, maar of dat vaak gebeurde en of men ook aas at, laat de vondst open",
+      "hints": [
+        "Scheid wat de bron laat zien van wat je erbij denkt."
+      ],
+      "solution": [
+        "De ligging van speren bij gedode paarden maakt jacht aannemelijk.",
+        "Frequentie en dieet volgen niet uit één vindplaats."
+      ],
+      "feedback": [
+        {
+          "answer": "Bewezen is dat mensen toen vooral van paardenvlees leefden",
+          "message": "Eén vindplaats zegt niets over het hele dieet."
+        },
+        {
+          "answer": "De speren bewijzen dat mensen toen al landbouw kenden",
+          "message": "Jacht met speren heeft niets met landbouw te maken."
+        },
+        {
+          "answer": "De vondst zegt niets, want hout is geen betrouwbare bron",
+          "message": "Hout dat bewaard is, is juist zeer waardevol; het is zeldzaam, maar niet onbetrouwbaar."
+        }
+      ],
+      "topics": [
+        "sources",
+        "interpretation",
+        "source-criticism"
+      ],
+      "context": "Bij Schöningen (Duitsland) zijn houten speren gevonden, ongeveer 300.000 jaar oud, naast botten van paarden met snijsporen. Alles lag in oeverafzettingen van een voormalig meer."
+    },
+    {
+      "id": "03-006",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen rond de erkenning van grotkunst in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Sautuola ontdekt schilderingen in Altamira",
+        "Een congres in Lissabon verwerpt de schilderingen",
+        "Ontdekking van schilderingen in La Mouthe",
+        "Cartailhac erkent zijn fout",
+        "Jongens ontdekken de grot van Lascaux"
+      ],
+      "hints": [
+        "Jaartallen: Altamira 1879, congres 1880, La Mouthe 1895, Cartailhac 1902, Lascaux 1940.",
+        "Bepaal wat eerst moest gebeuren voordat anderen van mening konden veranderen."
+      ],
+      "solution": [
+        "1879 Altamira, 1880 congres in Lissabon, 1895 La Mouthe, 1902 Cartailhac, 1940 Lascaux."
+      ],
+      "topics": [
+        "chronology",
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Sautuola ontdekt schilderingen in Altamira",
+            "Een congres in Lissabon verwerpt de schilderingen",
+            "Cartailhac erkent zijn fout",
+            "Ontdekking van schilderingen in La Mouthe",
+            "Jongens ontdekken de grot van Lascaux"
+          ],
+          "message": "La Mouthe (1895) werd ontdekt vóór Cartailhac zijn standpunt in 1902 herzag; juist die ontdekkingen gaven aanleiding tot zijn herziening."
+        }
+      ]
+    },
+    {
+      "id": "03-007",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Leg uit waarom je uit het ontbreken van houten voorwerpen op een kampplaats niet mag concluderen dat de bewoners geen hout gebruikten. Noem ook één omstandigheid waarin hout wel bewaard blijft.",
+      "answer": "Hout vergaat meestal snel; het ontbreken zegt dus iets over bewaring, niet over gebruik. Hout blijft bewaard zonder zuurstof, bijvoorbeeld in veen of onder water.",
+      "hints": [
+        "Denk aan het onderscheid tussen bewijs van afwezigheid en afwezigheid van bewijs."
+      ],
+      "solution": [
+        "Een goed antwoord noemt: (1) hout is organisch en vergaat meestal; (2) het ontbreken is dus een bewaringsgat, geen bewijs; (3) uitzonderingen zoals veen (Pesse), water of Schöningen."
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "03-008",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom is de uitspraak 'de kano van Pesse is de eerste boot ter wereld' onverstandig?",
+      "choices": [
+        "Hij is de oudste bewaard gebleven en gevonden boot; oudere boten kunnen zijn vergaan of nog niet zijn gevonden",
+        "Hout kan niet met de koolstofmethode worden gedateerd",
+        "Een boot van hout is te jong om prehistorisch te zijn",
+        "Een kano telt niet als boot"
+      ],
+      "answer": "Hij is de oudste bewaard gebleven en gevonden boot; oudere boten kunnen zijn vergaan of nog niet zijn gevonden",
+      "hints": [
+        "Wat is het verschil tussen 'oudste bekend' en 'eerste'?"
+      ],
+      "solution": [
+        "Je kent alleen wat bewaard en gevonden is. Dat is een deel van wat er was."
+      ],
+      "feedback": [
+        {
+          "answer": "Hout kan niet met de koolstofmethode worden gedateerd",
+          "message": "Hout is juist een geschikt materiaal voor koolstofdatering."
+        },
+        {
+          "answer": "Een boot van hout is te jong om prehistorisch te zijn",
+          "message": "De kano is ongeveer 10.000 jaar oud, dus zeker prehistorisch."
+        },
+        {
+          "answer": "Een kano telt niet als boot",
+          "message": "Een uitgeholde boomstam om op water te varen is gewoon een boot."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism",
+        "prehistory"
+      ]
+    },
+    {
+      "id": "03-009",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een monster houtskool bevat nog een kwart van het koolstof-14 van vers hout. De halfwaardetijd is 5730 jaar. Hoeveel jaar geleden is de boom gestorven?",
+      "answer": 11460,
+      "hints": [
+        "Hoe vaak is de hoeveelheid gehalveerd?",
+        "Een kwart is de helft van de helft."
+      ],
+      "solution": [
+        "Twee halveringen: 1/2 en dan 1/4.",
+        "2 x 5730 = 11.460 jaar."
+      ],
+      "topics": [
+        "sources",
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": 5730,
+          "message": "Dat is één halvering; dan is nog de helft over, geen kwart."
+        },
+        {
+          "answer": 22920,
+          "message": "Dat zijn vier halveringen (1/16)."
+        }
+      ],
+      "unit": "jaar"
+    },
+    {
+      "id": "03-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een botfragment bevat nog 1/16 van het oorspronkelijke koolstof-14. De halfwaardetijd is 5730 jaar. Hoe oud is het bot, volgens deze rekensom?",
+      "answer": 22920,
+      "hints": [
+        "Tel het aantal halveringen: 1/2, 1/4, 1/8, 1/16."
+      ],
+      "solution": [
+        "Vier halveringen.",
+        "4 x 5730 = 22.920 jaar."
+      ],
+      "topics": [
+        "sources",
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": 17190,
+          "message": "Dat zijn drie halveringen; dan is nog 1/8 over."
+        },
+        {
+          "answer": 91680,
+          "message": "Je hebt 16 x 5730 gerekend. Je moet het aantal halveringen vermenigvuldigen, niet de noemer."
+        }
+      ],
+      "unit": "jaar"
+    },
+    {
+      "id": "03-011",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "In een ongestoorde afzetting ligt een voorwerp in laag 3 en een ander in laag 1 (bovenaan). Wat volgt hieruit?",
+      "choices": [
+        "De voorwerpen zijn even oud",
+        "Het voorwerp in laag 1 is ouder, want het ligt het dichtst bij het oppervlak",
+        "Het voorwerp in laag 3 is ouder dan dat in laag 1",
+        "Zonder koolstofdatering kun je niets zeggen over de volgorde"
+      ],
+      "answer": "Het voorwerp in laag 3 is ouder dan dat in laag 1",
+      "hints": [
+        "Wat wordt het eerst afgezet, en dus onderaan gelegd?"
+      ],
+      "solution": [
+        "Bij stratigrafie geldt: onderaan is ouder, mits de lagen niet zijn verstoord."
+      ],
+      "feedback": [
+        {
+          "answer": "De voorwerpen zijn even oud",
+          "message": "Verschillende lagen zijn op verschillende momenten afgezet."
+        },
+        {
+          "answer": "Het voorwerp in laag 1 is ouder, want het ligt het dichtst bij het oppervlak",
+          "message": "Het is andersom: wat bovenop ligt, kwam later."
+        },
+        {
+          "answer": "Zonder koolstofdatering kun je niets zeggen over de volgorde",
+          "message": "Voor de volgorde heb je geen koolstofdatering nodig; stratigrafie geeft een relatieve datering."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "sources"
+      ]
+    },
+    {
+      "id": "03-012",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Waarom worden ruwe koolstofdateringen gekalibreerd?",
+      "choices": [
+        "Omdat de halfwaardetijd van koolstof-14 verandert",
+        "Omdat een organisme na zijn dood weer nieuw koolstof-14 opneemt",
+        "Omdat laboratoria anders te veel meetfouten maken",
+        "Omdat de hoeveelheid koolstof-14 in de dampkring in de loop der tijd niet constant was"
+      ],
+      "answer": "Omdat de hoeveelheid koolstof-14 in de dampkring in de loop der tijd niet constant was",
+      "hints": [
+        "Waarmee vergelijk je de overgebleven hoeveelheid?"
+      ],
+      "solution": [
+        "Je gaat uit van de hoeveelheid die het organisme bij leven had. Die was niet altijd gelijk, daarom is een ijkcurve nodig (bijvoorbeeld op basis van jaarringen)."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat de halfwaardetijd van koolstof-14 verandert",
+          "message": "De halfwaardetijd is vast; het gaat om het uitgangsniveau in de lucht."
+        },
+        {
+          "answer": "Omdat een organisme na zijn dood weer nieuw koolstof-14 opneemt",
+          "message": "Na de dood stopt de opname."
+        },
+        {
+          "answer": "Omdat laboratoria anders te veel meetfouten maken",
+          "message": "De kalibratie corrigeert een systematisch verschil, geen meetfouten."
+        }
+      ],
+      "topics": [
+        "sources",
+        "chronology"
+      ]
+    },
+    {
+      "id": "03-013",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Ontdekking van de grot van Lascaux",
+        "Libby presenteert de koolstofdatering",
+        "Vondst van de kano van Pesse",
+        "Ontdekking van de grot van Chauvet"
+      ],
+      "hints": [
+        "1940, 1949, 1955 en 1994."
+      ],
+      "solution": [
+        "Lascaux 1940, Libby 1949, Pesse 1955, Chauvet 1994."
+      ],
+      "topics": [
+        "chronology",
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Libby presenteert de koolstofdatering",
+            "Ontdekking van de grot van Lascaux",
+            "Vondst van de kano van Pesse",
+            "Ontdekking van de grot van Chauvet"
+          ],
+          "message": "Lascaux werd in 1940 ontdekt, negen jaar vóór Libby's methode in 1949."
+        }
+      ]
+    },
+    {
+      "id": "03-014",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Leg uit wat het verschil is tussen een relatieve en een absolute datering. Geef van beide een voorbeeld uit deze les.",
+      "answer": "Een relatieve datering zegt wat ouder of jonger is (stratigrafie: onderste laag is ouder). Een absolute datering geeft een leeftijd in jaren, met een marge (koolstofdatering, bijvoorbeeld de kano van Pesse rond 8000 v.Chr.).",
+      "hints": [
+        "Denk aan lagen in een put en aan het getal dat een laboratorium oplevert."
+      ],
+      "solution": [
+        "Relatief: volgorde, zoals laag 4 ouder dan laag 1. Absoluut: jaren, zoals 8040 tot 7510 v.Chr., met een marge. Combineren versterkt een datering."
+      ],
+      "topics": [
+        "sources",
+        "chronology"
+      ]
+    },
+    {
+      "id": "03-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom was een lage zeespiegel tijdens de ijstijd van belang voor de verspreiding van mensen?",
+      "choices": [
+        "Het ijs droeg mensen over zee naar nieuwe continenten",
+        "Door de lage zeespiegel was er in de hele wereld geen zee meer",
+        "Er lagen landbruggen droog, zoals Beringia, en kustgebieden waar mensen woonden liggen nu onder water",
+        "Alleen in de ijstijd waren mensen genoeg gemotiveerd om te verhuizen"
+      ],
+      "answer": "Er lagen landbruggen droog, zoals Beringia, en kustgebieden waar mensen woonden liggen nu onder water",
+      "hints": [
+        "Wat gebeurt er met het zeewater als er ijskappen groeien?"
+      ],
+      "solution": [
+        "Water in ijs ligt niet in de zee, dus de zeespiegel daalt (ca. 120 meter). Ondiepe zeeën vallen droog."
+      ],
+      "feedback": [
+        {
+          "answer": "Het ijs droeg mensen over zee naar nieuwe continenten",
+          "message": "Er is geen bewijs dat ijs als vervoermiddel diende; het gaat om droogliggend land."
+        },
+        {
+          "answer": "Door de lage zeespiegel was er in de hele wereld geen zee meer",
+          "message": "Er bleef veel zee; alleen ondiepe delen lagen droog."
+        },
+        {
+          "answer": "Alleen in de ijstijd waren mensen genoeg gemotiveerd om te verhuizen",
+          "message": "Dat is een aanname zonder bewijs; mensen verhuisden ook in warme perioden."
+        }
+      ],
+      "topics": [
+        "causation",
+        "prehistory"
+      ]
+    },
+    {
+      "id": "03-016",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke reactie van onderzoekers versterkt de datering van de voetafdrukken het meest?",
+      "choices": [
+        "De zaden opnieuw laten meten met precies dezelfde methode",
+        "De kritiek negeren omdat de voetafdrukken zo duidelijk zijn",
+        "De datering vervangen door een schatting op grond van de vorm van de afdrukken",
+        "Ook andere materialen, zoals stuifmeel, onafhankelijk laten dateren"
+      ],
+      "answer": "Ook andere materialen, zoals stuifmeel, onafhankelijk laten dateren",
+      "hints": [
+        "Wat los je op met een tweede, onafhankelijke methode?"
+      ],
+      "solution": [
+        "Als meerdere onafhankelijke methoden dezelfde leeftijd geven, is een gemeenschappelijke fout onwaarschijnlijk."
+      ],
+      "feedback": [
+        {
+          "answer": "De zaden opnieuw laten meten met precies dezelfde methode",
+          "message": "Dan herhaal je dezelfde mogelijke fout; je hebt een onafhankelijke methode nodig."
+        },
+        {
+          "answer": "De kritiek negeren omdat de voetafdrukken zo duidelijk zijn",
+          "message": "Een duidelijk voorwerp zegt niets over de leeftijd; de kritiek betreft de datering."
+        },
+        {
+          "answer": "De datering vervangen door een schatting op grond van de vorm van de afdrukken",
+          "message": "De vorm van voetafdrukken laat geen leeftijd zien."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism",
+        "chronology"
+      ],
+      "context": "In 2021 werd gemeld dat voetafdrukken bij White Sands (New Mexico) tussen ongeveer 23.000 en 21.000 jaar oud zijn. De datering gebruikte zaden van een waterplant. Critici merkten op dat waterplanten koolstof kunnen opnemen die ouder is dan die in de lucht (een reservoireffect), waardoor de datering te oud zou uitvallen."
+    },
+    {
+      "id": "03-017",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen in de volgorde waarin de moderne mens er volgens de gangbare dateringen kwam, de vroegste eerst.",
+      "answer": [
+        "Moderne mens in Afrika",
+        "Moderne mens in Australië",
+        "Moderne mens in Europa",
+        "Moderne mens in Amerika (vroegste bewijs)"
+      ],
+      "hints": [
+        "Afrika is de bakermat; Australië werd eerder bereikt dan Europa.",
+        "Amerika is het laatst."
+      ],
+      "solution": [
+        "Afrika ca. 300.000, Australië minstens 50.000, Europa ca. 45.000, Amerika minstens ca. 21.000 jaar geleden."
+      ],
+      "topics": [
+        "chronology",
+        "prehistory"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Moderne mens in Afrika",
+            "Moderne mens in Europa",
+            "Moderne mens in Australië",
+            "Moderne mens in Amerika (vroegste bewijs)"
+          ],
+          "message": "Volgens de gangbare dateringen kwam de moderne mens eerder in Australië dan in Europa; vandaar dat Europa niet het 'tweede' continent was."
+        }
+      ]
+    },
+    {
+      "id": "03-018",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Volgens de tekst bestaat Homo sapiens in Afrika ongeveer 300.000 jaar en kwam de moderne mens ongeveer 45.000 jaar geleden in Europa. Hoeveel jaar zit daartussen?",
+      "answer": 255000,
+      "hints": [
+        "Trek de twee getallen van elkaar af."
+      ],
+      "solution": [
+        "300.000 - 45.000 = 255.000 jaar."
+      ],
+      "topics": [
+        "chronology",
+        "prehistory"
+      ],
+      "feedback": [
+        {
+          "answer": 345000,
+          "message": "Je hebt de getallen opgeteld. Je zoekt het verschil."
+        }
+      ],
+      "unit": "jaar"
+    },
+    {
+      "id": "03-019",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat blijkt uit het DNA van neanderthalers voor mensen buiten Afrika?",
+      "choices": [
+        "Neanderthalers waren de directe voorouders van alle moderne mensen",
+        "Neanderthalers verdwenen zonder contact met moderne mensen",
+        "Moderne mensen en neanderthalers hebben zich vermengd; ongeveer een tot twee procent van het DNA is van neanderthalers afkomstig",
+        "Het bewijst dat moderne mensen de neanderthalers hebben verdreven"
+      ],
+      "answer": "Moderne mensen en neanderthalers hebben zich vermengd; ongeveer een tot twee procent van het DNA is van neanderthalers afkomstig",
+      "hints": [
+        "Wat betekent het als iets van hun erfelijk materiaal in ons zit?"
+      ],
+      "solution": [
+        "Vermenging leidt tot gedeeld DNA. Het aandeel is klein."
+      ],
+      "feedback": [
+        {
+          "answer": "Neanderthalers waren de directe voorouders van alle moderne mensen",
+          "message": "Moderne mensen ontstonden in Afrika; neanderthalers zijn een verwante, aparte tak."
+        },
+        {
+          "answer": "Neanderthalers verdwenen zonder contact met moderne mensen",
+          "message": "Het DNA toont juist contact en vermenging."
+        },
+        {
+          "answer": "Het bewijst dat moderne mensen de neanderthalers hebben verdreven",
+          "message": "Het DNA toont vermenging; over verdrijving zegt het niets."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "sources",
+        "prehistory"
+      ]
+    },
+    {
+      "id": "03-020",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welk gegeven zou de offerhypothese van Rust het meest steunen?",
+      "choices": [
+        "Dat er stenen in of op de resten lagen",
+        "Dat de resten in koud water lagen",
+        "Dat de gezonken dieren een afwijkende, selectieve samenstelling hadden die niet past bij een gewone voorraad",
+        "Dat Rust een ervaren opgraver was"
+      ],
+      "answer": "Dat de gezonken dieren een afwijkende, selectieve samenstelling hadden die niet past bij een gewone voorraad",
+      "hints": [
+        "Zoek een gegeven dat de twee verklaringen uit elkaar haalt."
+      ],
+      "solution": [
+        "Een offer wordt selectief gekozen, een voorraad is gewoon een afspiegeling van de jacht. Selectie onderscheidt de twee."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat er stenen in of op de resten lagen",
+          "message": "Dat is al bekend en past ook bij opslag onder water."
+        },
+        {
+          "answer": "Dat de resten in koud water lagen",
+          "message": "Koud water conserveert; dat past bij beide verklaringen."
+        },
+        {
+          "answer": "Dat Rust een ervaren opgraver was",
+          "message": "De kwaliteit van de opgraver is geen argument voor een bepaalde interpretatie."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "source-criticism"
+      ],
+      "context": "Alfred Rust (Stellmoor, jaren dertig) beschouwde rendierresten die met stenen waren verzwaard en in een meer gezonken als offers. Anderen denken dat het om vlees ging dat in koud water werd opgeslagen."
+    },
+    {
+      "id": "03-021",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen in de Lage Landen en omgeving in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Rendierjagers van de Ahrensburgcultuur",
+        "Maker van de kano van Pesse",
+        "Doggerland grotendeels overstroomd",
+        "Eerste boeren in Zuid-Limburg"
+      ],
+      "hints": [
+        "ca. 11.000 v.Chr., ca. 8000 v.Chr., ca. 6500-6000 v.Chr., ca. 5300 v.Chr.",
+        "Bij v.Chr. is een lager getal later."
+      ],
+      "solution": [
+        "Hoe lager het getal v.Chr., hoe later: 11.000, 8000, 6500 tot 6000, 5300."
+      ],
+      "topics": [
+        "chronology",
+        "prehistory"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Rendierjagers van de Ahrensburgcultuur",
+            "Maker van de kano van Pesse",
+            "Eerste boeren in Zuid-Limburg",
+            "Doggerland grotendeels overstroomd"
+          ],
+          "message": "Bij jaartallen v.Chr. is een kleiner getal later. De boeren (5300) kwamen dus na de overstroming (6500 tot 6000)."
+        }
+      ]
+    },
+    {
+      "id": "03-022",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De kano van Pesse is ongeveer 8000 v.Chr. gemaakt. De eerste boeren kwamen ongeveer 5300 v.Chr. in Zuid-Limburg. Hoeveel jaar zit daartussen?",
+      "answer": 2700,
+      "hints": [
+        "Bij jaartallen v.Chr. trek je het kleinere getal af van het grotere."
+      ],
+      "solution": [
+        "8000 - 5300 = 2700 jaar."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": 13300,
+          "message": "Je hebt de jaartallen opgeteld. Beide liggen vóór het begin van de jaartelling, dus je moet aftrekken."
+        }
+      ],
+      "unit": "jaar"
+    },
+    {
+      "id": "03-023",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat veranderde er tussen de rendierjagers op de toendra en de jagers-verzamelaars in het bos van het mesolithicum, en wat bleef gelijk?",
+      "choices": [
+        "Alles veranderde: de mensen werden boeren",
+        "Landschap, voedsel en werktuigen veranderden; het mobiele leven in kleine groepen bleef",
+        "Er veranderde niets, want ze waren nog steeds jagers",
+        "Alleen de werktuigen veranderden"
+      ],
+      "answer": "Landschap, voedsel en werktuigen veranderden; het mobiele leven in kleine groepen bleef",
+      "hints": [
+        "Denk in termen van continuïteit en verandering."
+      ],
+      "solution": [
+        "Toendra werd bos, rendier werd edelhert, vis en noten; werktuigen werden kleiner. Het rondtrekken in kleine groepen bleef."
+      ],
+      "feedback": [
+        {
+          "answer": "Alles veranderde: de mensen werden boeren",
+          "message": "De landbouw kwam in Nederland pas ruim na het mesolithicum."
+        },
+        {
+          "answer": "Er veranderde niets, want ze waren nog steeds jagers",
+          "message": "Landschap, voedsel en werktuigen veranderden juist wel."
+        },
+        {
+          "answer": "Alleen de werktuigen veranderden",
+          "message": "Ook het landschap en het voedsel waren anders."
+        }
+      ],
+      "topics": [
+        "continuity-change",
+        "prehistory"
+      ]
+    },
+    {
+      "id": "03-024",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom is het verdwijnen van Doggerland onder de zee een probleem voor onderzoek naar prehistorische mensen in Noordwest-Europa? Geef twee punten.",
+      "answer": "Veel kampplaatsen uit de periode liggen nu op de zeebodem en zijn moeilijk te onderzoeken; het bewijs komt daardoor vooral uit toevallige vondsten en dat geeft een scheef beeld. Uitspraken over aantallen mensen zijn dus onzeker.",
+      "hints": [
+        "Denk aan waar het rijkste jachtgebied lag, en hoe we er nu iets over te weten komen."
+      ],
+      "solution": [
+        "Punten: (1) kampplaatsen liggen onder water en zijn lastig te onderzoeken; (2) het bewijs is toevallig (netten van vissers) en dus onvolledig; (3) uitspraken als 'duizenden mensen woonden daar' zijn een verwachting, geen vastgesteld feit."
+      ],
+      "topics": [
+        "sources",
+        "source-criticism",
+        "prehistory"
+      ]
+    },
+    {
+      "id": "03-025",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat klopt er over de uitdrukking 'edele wilde'?",
+      "choices": [
+        "Rousseau bedacht haar en bedoelde dat prehistorische mensen werkelijk edel waren",
+        "Hobbes bedacht haar als tegenhanger van de 'beschaafde mens'",
+        "Het is een archeologische term voor jagers-verzamelaars",
+        "De uitdrukking komt al in 1672 voor bij Dryden; Rousseau gebruikte haar zelf niet"
+      ],
+      "answer": "De uitdrukking komt al in 1672 voor bij Dryden; Rousseau gebruikte haar zelf niet",
+      "hints": [
+        "Wie schreef het toneelstuk uit 1672?"
+      ],
+      "solution": [
+        "Dryden, The Conquest of Granada (1672). Rousseau schreef in 1755 over de natuurstaat, maar noemde de mens daarin niet 'noble savage'."
+      ],
+      "feedback": [
+        {
+          "answer": "Rousseau bedacht haar en bedoelde dat prehistorische mensen werkelijk edel waren",
+          "message": "Rousseau gebruikte de term niet; zijn natuurstaat was een gedachte-experiment."
+        },
+        {
+          "answer": "Hobbes bedacht haar als tegenhanger van de 'beschaafde mens'",
+          "message": "Hobbes beschreef juist een gewelddadige natuurstaat."
+        },
+        {
+          "answer": "Het is een archeologische term voor jagers-verzamelaars",
+          "message": "Het is een literaire en filosofische uitdrukking, geen term uit de archeologie."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "03-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom is deze tekst geen goede bron voor het leven van prehistorische jagers-verzamelaars?",
+      "choices": [
+        "Het is een gedachte-experiment om een politiek betoog te onderbouwen, zonder archeologisch bewijs",
+        "Omdat het een primaire bron is en primaire bronnen niet betrouwbaar zijn",
+        "Omdat Hobbes de prehistorie niet kende, was hij te vroeg",
+        "Omdat de tekst niet in het Nederlands is geschreven"
+      ],
+      "answer": "Het is een gedachte-experiment om een politiek betoog te onderbouwen, zonder archeologisch bewijs",
+      "hints": [
+        "Wat wilde Hobbes bewijzen, en met welk materiaal?"
+      ],
+      "solution": [
+        "Doel: een sterke staat verdedigen. Methode: een redenering, geen opgravingen of waarnemingen. Dat maakt hem een bron voor 17e-eeuws politiek denken."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat het een primaire bron is en primaire bronnen niet betrouwbaar zijn",
+          "message": "Een primaire bron is niet per se onbetrouwbaar; hier is ze eenvoudig niet bedoeld als beschrijving van de prehistorie."
+        },
+        {
+          "answer": "Omdat Hobbes de prehistorie niet kende, was hij te vroeg",
+          "message": "Dat hij geen opgravingen kende, is wel een punt, maar het doel van de tekst is hier doorslaggevend."
+        },
+        {
+          "answer": "Omdat de tekst niet in het Nederlands is geschreven",
+          "message": "De taal is geen reden om een bron af te wijzen."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "historiography",
+        "contextualisation"
+      ],
+      "context": "Hobbes, Leviathan (1651), hoofdstuk 13, over het leven zonder staat: '... continual fear, and danger of violent death; and the life of man, solitary, poor, nasty, brutish, and short.'"
+    },
+    {
+      "id": "03-027",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Richard Lee berekende dat de Ju/'hoansi ongeveer 12 tot 19 uur per week aan voedselzoeken besteedden, en Sahlins concludeerde dat jagers-verzamelaars 'welvarend' waren. Noem twee redenen waarom die conclusie voorzichtiger moet worden getrokken en leg uit waarom.",
+      "answer": "De telling omvat niet de tijd voor bereiden, gereedschap maken en water halen; en de Ju/'hoansi woonden in een marginaal gebied met contact met veehouders en de staat, dus ze zijn geen model voor prehistorische groepen. Bovendien was kindersterfte hoog.",
+      "hints": [
+        "Wat werd wel en wat niet geteld?",
+        "Mag je een hedendaagse groep zomaar als model nemen voor de prehistorie?"
+      ],
+      "solution": [
+        "Mogelijke punten: (1) de telling was te smal; (2) de groep is geen representatief model (analogie); (3) honger en sterfte pasten niet bij het beeld van overvloed. Een goed antwoord legt uit waarom."
+      ],
+      "topics": [
+        "historiography",
+        "interpretation",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "03-028",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Hoe beoordeel je het graf uit de Andes, met jachtgereedschap, als bewijs dat vrouwen jaagden?",
+      "choices": [
+        "Als afdoend bewijs dat vrouwen en mannen altijd evenveel jaagden",
+        "Als waardeloos, want graven kunnen geen bewijs leveren",
+        "Als een aanwijzing, niet als bewijs voor een algemene verdeling: één graf kan een uitzondering zijn en grafgiften kunnen symbolisch zijn",
+        "Als bewijs dat de klassieke verdeling nooit heeft bestaan"
+      ],
+      "answer": "Als een aanwijzing, niet als bewijs voor een algemene verdeling: één graf kan een uitzondering zijn en grafgiften kunnen symbolisch zijn",
+      "hints": [
+        "Zoek de uitspraak met de juiste mate van zekerheid."
+      ],
+      "solution": [
+        "Eén graf is een geval. Het opent een mogelijkheid, het bewijst geen regel."
+      ],
+      "feedback": [
+        {
+          "answer": "Als afdoend bewijs dat vrouwen en mannen altijd evenveel jaagden",
+          "message": "Eén graf toont geen algemene verdeling."
+        },
+        {
+          "answer": "Als waardeloos, want graven kunnen geen bewijs leveren",
+          "message": "Graven zijn een belangrijke bron; ze moeten alleen met zorg worden gelezen."
+        },
+        {
+          "answer": "Als bewijs dat de klassieke verdeling nooit heeft bestaan",
+          "message": "Daar kan één graf niets over zeggen."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "source-criticism",
+        "historiography"
+      ]
+    },
+    {
+      "id": "03-029",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de belangrijkste beperking van bron B (de Colinda-harpoenpunt) in vergelijking met bron A (de kano)?",
+      "choices": [
+        "De punt is gemaakt van gewei en dus niet door mensen",
+        "De punt is te oud om te kunnen dateren",
+        "De punt is een secundaire bron",
+        "De precieze vindplaats en context ontbreken, zodat je weinig weet over gebruik en omgeving"
+      ],
+      "answer": "De precieze vindplaats en context ontbreken, zodat je weinig weet over gebruik en omgeving",
+      "hints": [
+        "Vergelijk wat je weet over de vindplaats van A en B."
+      ],
+      "solution": [
+        "Bij A is de context (veen, Drenthe) bekend. Bij B gaat het om een netvondst uit een gebied van enkele kilometers."
+      ],
+      "feedback": [
+        {
+          "answer": "De punt is gemaakt van gewei en dus niet door mensen",
+          "message": "De haken en bewerking laten zien dat de punt door mensen is gemaakt."
+        },
+        {
+          "answer": "De punt is te oud om te kunnen dateren",
+          "message": "Ruim 10.000 jaar valt ruim binnen het bereik van de koolstofmethode."
+        },
+        {
+          "answer": "De punt is een secundaire bron",
+          "message": "Het is een voorwerp uit de tijd zelf, dus primair."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "sources"
+      ]
+    },
+    {
+      "id": "03-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de beste verwoording van wat bron C (de Hadza) bijdraagt aan de onderzoeksvraag?",
+      "choices": [
+        "Bewijs dat de mensen in Drenthe ook zo leefden",
+        "Niets, want analogie is altijd waardeloos",
+        "Een directe beschrijving van het leven in Noordwest-Europa",
+        "Een hypothese over leven in kleine mobiele groepen, maar uit een ander gebied en een andere tijd, dus geen bewijs"
+      ],
+      "answer": "Een hypothese over leven in kleine mobiele groepen, maar uit een ander gebied en een andere tijd, dus geen bewijs",
+      "hints": [
+        "Wat kan analogie wel en wat niet?"
+      ],
+      "solution": [
+        "Analogie levert ideeën en geen bewijs."
+      ],
+      "feedback": [
+        {
+          "answer": "Bewijs dat de mensen in Drenthe ook zo leefden",
+          "message": "Een hedendaagse groep in Tanzania bewijst niets over Drenthe in 8000 v.Chr."
+        },
+        {
+          "answer": "Niets, want analogie is altijd waardeloos",
+          "message": "Analogie is nuttig voor het vormen van hypotheses, mits je haar beperkingen noemt."
+        },
+        {
+          "answer": "Een directe beschrijving van het leven in Noordwest-Europa",
+          "message": "De Hadza wonen in Oost-Afrika, in een heel ander klimaat."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "interpretation",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "03-031",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Welke zin geeft de juiste mate van zekerheid weer?",
+      "choices": [
+        "Op grond van bron A en B is aannemelijk dat men boten of vlotten gebruikte; op grond van C is denkbaar dat men in kleine groepen rondtrok",
+        "Het is bewezen dat men in kleine groepen rondtrok, want de Hadza doen dat ook",
+        "De kano bewijst dat alle groepen rond 8000 v.Chr. boten hadden",
+        "Over het leven van deze mensen valt niets te zeggen"
+      ],
+      "answer": "Op grond van bron A en B is aannemelijk dat men boten of vlotten gebruikte; op grond van C is denkbaar dat men in kleine groepen rondtrok",
+      "hints": [
+        "Let op woorden als 'bewezen', 'aannemelijk' en 'denkbaar'."
+      ],
+      "solution": [
+        "De sterkte van de formulering moet overeenkomen met de sterkte van het bewijs."
+      ],
+      "feedback": [
+        {
+          "answer": "Het is bewezen dat men in kleine groepen rondtrok, want de Hadza doen dat ook",
+          "message": "Analogie bewijst niets over een andere groep in een andere tijd."
+        },
+        {
+          "answer": "De kano bewijst dat alle groepen rond 8000 v.Chr. boten hadden",
+          "message": "Eén kano laat geen algemene stelling toe."
+        },
+        {
+          "answer": "Over het leven van deze mensen valt niets te zeggen",
+          "message": "Er valt wel iets te zeggen, mits je voorzichtig formuleert."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "03-032",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Formuleer een eigen onderzoeksvraag over deze mensen die je met bron A, B en C niet kunt beantwoorden. Welk soort bron zou je er voor nodig hebben?",
+      "answer": "Voorbeeld: Wat aten de makers van de kano in de winter? Dat vraagt om botten, plantenresten of isotopen uit een kampplaats uit die periode, niet om een kano, een enkele harpoenpunt of een beschrijving van de Hadza.",
+      "hints": [
+        "Kies een vraag over een onderwerp waar de drie bronnen niets over zeggen."
+      ],
+      "solution": [
+        "Een goed antwoord noemt een vraag die de drie bronnen niet beantwoorden, en een passend bewijstype (kampplaats, resten van voedsel, menselijke resten, DNA)."
+      ],
+      "topics": [
+        "interpretation",
+        "sources"
+      ]
+    },
+    {
+      "id": "03-033",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Schrijf in vijf tot acht zinnen een voorzichtig antwoord op de onderzoeksvraag uit het practicum, met minstens twee bronnen en met de juiste mate van zekerheid.",
+      "answer": "Voorbeeld: Op grond van de kano van Pesse (A) is het vrijwel zeker dat men rond 8000 v.Chr. in Drenthe boomstammen tot boten kon bewerken. De harpoenpunt uit de Noordzee (B) maakt het aannemelijk dat men ook in het huidige zeegebied leefde en visgerei van gewei gebruikte, al is de vindplaats onbekend. Of men in kleine groepen rondtrok, is op grond van de Hadza (C) denkbaar, maar niet aangetoond. Over religie of familie zeggen de bronnen niets.",
+      "hints": [
+        "Begin met wat het zekerste is.",
+        "Noem bij elke uitspraak de bron."
+      ],
+      "solution": [
+        "Een goed antwoord gebruikt A, B of C met bronvermelding, onderscheidt waarneming van aanname en laat iets bewust achterwege."
+      ],
+      "topics": [
+        "interpretation",
+        "source-criticism",
+        "sources"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" role="img" aria-label="Wat blijft bewaard en wat niet">
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#1f2933}.s{font-size:12px}.b{font-size:13px;font-weight:bold}</style>
+<rect width="600" height="300" fill="#ffffff"/>
+<text x="150" y="26" text-anchor="middle" class="b">Meestal bewaard</text>
+<text x="450" y="26" text-anchor="middle" class="b">Meestal vergaan</text>
+<rect x="20" y="40" width="260" height="170" fill="none" stroke="#3b5bdb" stroke-width="2"/>
+<rect x="320" y="40" width="260" height="170" fill="none" stroke="#9c6b30" stroke-width="2" stroke-dasharray="6 4"/>
+<g class="s">
+<text x="40" y="70">Vuursteen en andere steen</text><text x="40" y="100">Botten en tanden</text><text x="40" y="130">Schelpen</text><text x="40" y="160">Houtskool en haardresten</text><text x="40" y="190">Gebakken klei</text>
+<text x="340" y="70">Hout en bast</text><text x="340" y="100">Huid, leer en kleding</text><text x="340" y="130">Touw, manden en netten</text><text x="340" y="160">Planten en vruchten</text><text x="340" y="190">Taal, verhalen en liederen</text>
+</g>
+<rect x="20" y="228" width="560" height="56" fill="#f3ece2" stroke="#9c6b30"/>
+<text x="300" y="250" text-anchor="middle" class="s">Uitzondering: zonder zuurstof (veen, water, ijs, droge grot) blijft ook organisch materiaal bewaard.</text>
+<text x="300" y="270" text-anchor="middle" class="s">Voorbeelden: de kano van Pesse en de houten speren van Schöningen.</text>
+</svg>

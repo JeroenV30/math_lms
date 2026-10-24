@@ -1,0 +1,408 @@
+{
+  "title": "Hoofdstuktoets - Oorzaak, gevolg en verandering",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "02-T01",
+      "type": "choice",
+      "difficulty": 1,
+      "question": "Wat is het verschil tussen een oorzaak en een aanleiding?",
+      "choices": [
+        "Een oorzaak maakt de gebeurtenis mogelijk of waarschijnlijk; een aanleiding is het directe, wisselbare moment waarop ze begint.",
+        "Een oorzaak ligt altijd op korte termijn, een aanleiding op lange termijn.",
+        "Een aanleiding is belangrijker dan een oorzaak.",
+        "Er is geen verschil; beide woorden betekenen hetzelfde."
+      ],
+      "answer": "Een oorzaak maakt de gebeurtenis mogelijk of waarschijnlijk; een aanleiding is het directe, wisselbare moment waarop ze begint.",
+      "solution": [
+        "Oorzaken scheppen de voorwaarden; de aanleiding bepaalt vooral wanneer en waar het begint."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Een oorzaak ligt altijd op korte termijn, een aanleiding op lange termijn.",
+          "message": "Het is vrijwel andersom: oorzaken kunnen lang vooraf gaan, de aanleiding ligt vlak voor de gebeurtenis."
+        }
+      ]
+    },
+    {
+      "id": "02-T02",
+      "type": "choice",
+      "difficulty": 1,
+      "question": "Welke factor is bij de Beeldenstorm van 1566 een kortetermijnoorzaak?",
+      "choices": [
+        "De hoge graanprijzen en werkloosheid in 1565 en 1566",
+        "De Reformatie sinds 1517",
+        "De ketterplakkaten van Karel V",
+        "De centralisatiepolitiek van Filips II"
+      ],
+      "answer": "De hoge graanprijzen en werkloosheid in 1565 en 1566",
+      "solution": [
+        "De crisis van 1565 en 1566 was tijdelijk en lag vlak voor de gebeurtenis; de andere factoren werkten al decennia."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "De Reformatie sinds 1517",
+          "message": "Dit is een langetermijnoorzaak."
+        }
+      ]
+    },
+    {
+      "id": "02-T03",
+      "type": "choice",
+      "difficulty": 2,
+      "question": "Welk gevolg van de Deltawerken was *bedoeld*?",
+      "choices": [
+        "Het beschermen van het zuidwesten tegen stormvloeden",
+        "Het verdwijnen van het getij in het Haringvliet",
+        "Het verstoren van de trek van vissen",
+        "Het ontstaan van protest bij vissers en natuurbeschermers"
+      ],
+      "answer": "Het beschermen van het zuidwesten tegen stormvloeden",
+      "solution": [
+        "Veiligheid was het doel van het Deltaplan; de andere gevolgen waren neveneffecten."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Het verdwijnen van het getij in het Haringvliet",
+          "message": "Dit was een neveneffect, geen doel."
+        }
+      ]
+    },
+    {
+      "id": "02-T04",
+      "type": "order",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen van 1566 en 1567 in chronologische volgorde (de oudste eerst).",
+      "answer": [
+        "Smeekschrift van de edelen (5 april 1566)",
+        "Aanval bij Steenvoorde (10 augustus 1566)",
+        "Aanval op de Onze-Lieve-Vrouwekerk in Antwerpen (20 augustus 1566)",
+        "Accord tussen landvoogdes en edelen (25 augustus 1566)",
+        "Komst van de hertog van Alva (1567)"
+      ],
+      "solution": [
+        "Volgorde op datum: 5 april, 10 augustus, 20 augustus, 25 augustus 1566, daarna 1567."
+      ],
+      "topics": [
+        "chronology",
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Smeekschrift van de edelen (5 april 1566)",
+            "Aanval op de Onze-Lieve-Vrouwekerk in Antwerpen (20 augustus 1566)",
+            "Aanval bij Steenvoorde (10 augustus 1566)",
+            "Accord tussen landvoogdes en edelen (25 augustus 1566)",
+            "Komst van de hertog van Alva (1567)"
+          ],
+          "message": "Steenvoorde (10 augustus) ging vooraf aan Antwerpen (20 augustus)."
+        }
+      ]
+    },
+    {
+      "id": "02-T05",
+      "type": "choice",
+      "difficulty": 2,
+      "question": "Welke denkfout zit in deze redenering?",
+      "choices": [
+        "Monocausaal denken: één factor krijgt de hele verklaring.",
+        "Anachronisme: er wordt een verkeerde datum genoemd.",
+        "Bronnenkritiek ontbreekt: de bron is niet gecontroleerd.",
+        "Presentisme: er wordt een moderne norm toegepast."
+      ],
+      "answer": "Monocausaal denken: één factor krijgt de hele verklaring.",
+      "solution": [
+        "De redenering noemt alleen de storm, terwijl dijken en waarschuwing ook meespeelden."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "context": "Redenering ter beoordeling: 'De watersnood van 1953 had één oorzaak, namelijk de storm. Zonder storm geen ramp, dus verder hoef je niets te onderzoeken.'",
+      "feedback": [
+        {
+          "answer": "Anachronisme: er wordt een verkeerde datum genoemd.",
+          "message": "Er is geen datum genoemd die fout is."
+        }
+      ]
+    },
+    {
+      "id": "02-T06",
+      "type": "choice",
+      "difficulty": 3,
+      "question": "Wat laat deze regeling *wel* zien?",
+      "choices": [
+        "Dat de wetgever het verlies van eigenaren erkende en dat van de tot slaaf gemaakten niet vergoedde.",
+        "Dat de tot slaaf gemaakten de regeling steunden.",
+        "Dat de plantage-economie na 1863 verdween.",
+        "Dat de overheid de eigenaren straftte."
+      ],
+      "answer": "Dat de wetgever het verlies van eigenaren erkende en dat van de tot slaaf gemaakten niet vergoedde.",
+      "solution": [
+        "De regeling zegt iets over de verdeling van geld, niet over de mening van de betrokkenen of de latere economie."
+      ],
+      "topics": [
+        "continuity-change",
+        "source-criticism"
+      ],
+      "context": "Regeling in Suriname, 1863: eigenaren ontvangen 300 gulden per tot slaaf gemaakte. De tot slaaf gemaakten ontvangen geen vergoeding.",
+      "feedback": [
+        {
+          "answer": "Dat de plantage-economie na 1863 verdween.",
+          "message": "De regeling zegt niets over wat er daarna gebeurde."
+        }
+      ]
+    },
+    {
+      "id": "02-T07",
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "Hoeveel jaar duurde het staatstoezicht in Suriname?",
+      "answer": 10,
+      "unit": "jaar",
+      "solution": [
+        "1873 - 1863 = 10 jaar."
+      ],
+      "topics": [
+        "chronology",
+        "continuity-change"
+      ],
+      "context": "Na de afschaffing op 1 juli 1863 bleven de bevrijden in Suriname onder staatstoezicht werken. Dat toezicht eindigde in 1873.",
+      "feedback": [
+        {
+          "answer": 9,
+          "message": "Trek 1863 van 1873 af."
+        },
+        {
+          "answer": 11,
+          "message": "Trek 1863 van 1873 af."
+        }
+      ]
+    },
+    {
+      "id": "02-T08",
+      "type": "choice",
+      "difficulty": 2,
+      "question": "Welke ontwikkeling is een voorbeeld van continuïteit na 1863?",
+      "choices": [
+        "De plantage-economie bleef in stand, nu met contractarbeiders.",
+        "Suriname werd onafhankelijk.",
+        "De slavernij werd afgeschaft.",
+        "Alle eigenaren kregen geen vergoeding."
+      ],
+      "answer": "De plantage-economie bleef in stand, nu met contractarbeiders.",
+      "solution": [
+        "Continuïteit is het voortduren van iets dat al bestond."
+      ],
+      "topics": [
+        "continuity-change"
+      ],
+      "feedback": [
+        {
+          "answer": "De slavernij werd afgeschaft.",
+          "message": "Dat is juist de verandering, niet de continuïteit."
+        }
+      ]
+    },
+    {
+      "id": "02-T09",
+      "type": "order",
+      "difficulty": 3,
+      "question": "Zet deze stappen in de geschiedenis van de Deltawerken in chronologische volgorde (de oudste eerst).",
+      "answer": [
+        "Watersnoodramp (1953)",
+        "Deltawet (1957)",
+        "Haringvliet- en Brouwersdam voltooid (1971)",
+        "Oosterscheldekering geopend (1986)",
+        "Maeslantkering in gebruik (1997)"
+      ],
+      "solution": [
+        "1953, 1957, 1971, 1986, 1997."
+      ],
+      "topics": [
+        "chronology",
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Watersnoodramp (1953)",
+            "Deltawet (1957)",
+            "Oosterscheldekering geopend (1986)",
+            "Haringvliet- en Brouwersdam voltooid (1971)",
+            "Maeslantkering in gebruik (1997)"
+          ],
+          "message": "De dammen van 1971 gingen vooraf aan de Oosterscheldekering van 1986."
+        }
+      ]
+    },
+    {
+      "id": "02-T10",
+      "type": "choice",
+      "difficulty": 3,
+      "question": "Welke denkfout zit in deze redenering?",
+      "choices": [
+        "Hindsight en determinisme: de afloop wordt teruggelezen in 1566.",
+        "Monocausaal denken zonder meer.",
+        "Anachronisme in de datering.",
+        "Een gebrek aan bronnen."
+      ],
+      "answer": "Hindsight en determinisme: de afloop wordt teruggelezen in 1566.",
+      "solution": [
+        "Tijdgenoten wisten niet dat de Opstand zou leiden tot een republiek."
+      ],
+      "topics": [
+        "causation",
+        "historiography"
+      ],
+      "context": "Redenering ter beoordeling: 'De Beeldenstorm van 1566 was de eerste stap naar de Nederlandse republiek; het kon dus niet anders dan dat de Nederlanden zich van Spanje zouden losmaken.'",
+      "feedback": [
+        {
+          "answer": "Anachronisme in de datering.",
+          "message": "De data zijn niet fout."
+        }
+      ]
+    },
+    {
+      "id": "02-T11",
+      "type": "choice",
+      "difficulty": 3,
+      "question": "Wat is hier het belangrijkste bezwaar?",
+      "choices": [
+        "Periodisering is een keuze: een ander begin- of eindpunt geeft een ander verhaal.",
+        "De periodisering is fout omdat 1986 niet bestaat.",
+        "Perioden mogen nooit worden gekozen.",
+        "Er is maar één juiste periodisering."
+      ],
+      "answer": "Periodisering is een keuze: een ander begin- of eindpunt geeft een ander verhaal.",
+      "solution": [
+        "Elke grens benadrukt iets anders: de ramp, de wet of de techniek."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "context": "Stelling ter beoordeling: 'De Deltawerken begonnen in 1953 en eindigden in 1986. Dat is gewoon zo, daar valt niet over te twisten.'",
+      "feedback": [
+        {
+          "answer": "Er is maar één juiste periodisering.",
+          "message": "Periodisering hangt af van de vraag die je stelt."
+        }
+      ]
+    },
+    {
+      "id": "02-T12",
+      "type": "choice",
+      "difficulty": 4,
+      "question": "Wat is de kern van het verschil tussen de twee verklaringen?",
+      "choices": [
+        "De eerste legt de nadruk op economische belangen, de tweede op morele en politieke factoren.",
+        "De eerste ontkent dat slavernij is afgeschaft.",
+        "De tweede is onbetrouwbaar omdat ze uit een later tijdvak komt.",
+        "Beide zijn precies gelijk."
+      ],
+      "answer": "De eerste legt de nadruk op economische belangen, de tweede op morele en politieke factoren.",
+      "solution": [
+        "Williams stelde economische belangen voorop; Drescher wees op morele en politieke factoren."
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ],
+      "context": "Twee verklaringen van de Britse afschaffing van de slavernij. A (Williams, 1944): economische belangen dreven de afschaffing. B (Drescher, jaren zeventig): de plantages waren nog winstgevend, dus morele en politieke factoren waren belangrijker.",
+      "feedback": [
+        {
+          "answer": "De tweede is onbetrouwbaar omdat ze uit een later tijdvak komt.",
+          "message": "Latere historici zijn niet minder betrouwbaar; hun argumenten moeten worden beoordeeld."
+        }
+      ]
+    },
+    {
+      "id": "02-T13",
+      "type": "choice",
+      "difficulty": 3,
+      "question": "Welke soort bron helpt het meest om te beoordelen of de Beeldenstorm georganiseerd was?",
+      "choices": [
+        "Rechtbankstukken, kroniekverslagen en brieven van tijdgenoten, kritisch vergeleken",
+        "Een schoolboek uit 1950 als enige bron",
+        "Een 19e-eeuwse prent als enige bewijs",
+        "Een hedendaagse mening zonder bronnen"
+      ],
+      "answer": "Rechtbankstukken, kroniekverslagen en brieven van tijdgenoten, kritisch vergeleken",
+      "solution": [
+        "Je wilt tijdgenoten naast elkaar leggen en hun belangen meewegen."
+      ],
+      "topics": [
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Een 19e-eeuwse prent als enige bewijs",
+          "message": "Een latere prent is geen sterk bewijs voor de organisatie in 1566."
+        }
+      ]
+    },
+    {
+      "id": "02-T14",
+      "type": "choice",
+      "difficulty": 4,
+      "question": "Hoe zeker is de conclusie, en wat is de beste verbetering?",
+      "choices": [
+        "Te stellig: de conclusie meldt geen onzekerheid; verbeter haar door 'waarschijnlijk' te gebruiken en meerdere oorzaken te noemen.",
+        "Juist, omdat één bron voldoende is.",
+        "Onjuist, omdat conclusies nooit zeker mogen zijn.",
+        "Perfect, omdat de bron primair is."
+      ],
+      "answer": "Te stellig: de conclusie meldt geen onzekerheid; verbeter haar door 'waarschijnlijk' te gebruiken en meerdere oorzaken te noemen.",
+      "solution": [
+        "Een goede conclusie is voorzichtig en noemt meerdere factoren."
+      ],
+      "topics": [
+        "causation",
+        "interpretation"
+      ],
+      "context": "Conclusie ter beoordeling: 'Uit één kroniekverslag blijkt zeker dat de Beeldenstorm alleen door armoede werd veroorzaakt.'",
+      "feedback": [
+        {
+          "answer": "Perfect, omdat de bron primair is.",
+          "message": "Een primaire bron is niet automatisch volledig of onpartijdig."
+        }
+      ]
+    },
+    {
+      "id": "02-T15",
+      "type": "choice",
+      "difficulty": 5,
+      "question": "Welke conclusie is het best onderbouwd?",
+      "choices": [
+        "Voor de eigenaren was 1863 vooral een financieel en organisatorisch probleem; voor de bevrijden een principiële maar in de praktijk beperkte verandering.",
+        "Voor beide groepen veranderde alles.",
+        "Voor beide groepen veranderde niets.",
+        "De wet had alleen voordelen voor de tot slaaf gemaakten."
+      ],
+      "answer": "Voor de eigenaren was 1863 vooral een financieel en organisatorisch probleem; voor de bevrijden een principiële maar in de praktijk beperkte verandering.",
+      "solution": [
+        "Combineer compensatie, staatstoezicht en contractarbeid."
+      ],
+      "topics": [
+        "continuity-change",
+        "causation"
+      ],
+      "context": "Gegevens: eigenaren ontvingen 300 gulden per tot slaaf gemaakte en kregen later contractarbeiders. De bevrijden in Suriname bleven tien jaar onder staatstoezicht en kregen geen vergoeding.",
+      "feedback": [
+        {
+          "answer": "Voor beide groepen veranderde alles.",
+          "message": "Compensatie, staatstoezicht en de voortzetting van de plantage-economie laten zien dat veel bleef bestaan."
+        }
+      ]
+    }
+  ]
+}

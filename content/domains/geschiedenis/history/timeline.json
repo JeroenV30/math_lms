@@ -1,6 +1,145 @@
 {
   "events": [
     {
+      "id": "homo-sapiens-jebel-irhoud",
+      "year_label": "ca. 300.000 jaar geleden",
+      "sort_year": -300000,
+      "era": "Prehistorie",
+      "title": "Vroege Homo sapiens in Jebel Irhoud",
+      "summary": "Fossielen uit Marokko behoren tot de oudste aanwijzingen voor onze soort.",
+      "description": "Bij Jebel Irhoud in Marokko zijn schedels en werktuigen gevonden die op ongeveer driehonderdduizend jaar worden gedateerd. Ze worden vaak genoemd als een van de oudste aanwijzingen voor Homo sapiens.\n\nOnderzoekers zien ze als onderdeel van een grotere en nog onoverzichtelijke Afrikaanse ontwikkeling; de precieze plaats van oorsprong blijft onderwerp van debat.",
+      "place": "Jebel Irhoud, Marokko",
+      "modules": [
+        3
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "natoefiaanse-cultuur",
+      "year_label": "ca. 12.500 – 9500 v.Chr.",
+      "sort_year": -12500,
+      "era": "Prehistorie",
+      "title": "De Natoefiaanse cultuur",
+      "summary": "Jagers-verzamelaars in de Levant wonen al in dorpen en oogsten wilde granen.",
+      "description": "De Natoefiërs bouwden ronde stenen huizen, begroeven hun doden bij de woningen en maalden wilde granen. Zij kenden nog geen landbouw. Hun dorpen laten zien dat vaste woonplaatsen aan de landbouw vooraf kunnen gaan.",
+      "place": "Levant",
+      "modules": [
+        4
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "gobekli-tepe",
+      "year_label": "ca. 9600 v.Chr.",
+      "sort_year": -9600,
+      "era": "Prehistorie",
+      "title": "Göbekli Tepe",
+      "summary": "Monumentale kringen van T-vormige pijlers, gebouwd door vooral jagers-verzamelaars.",
+      "description": "Op een heuvel bij Şanlıurfa staan ronde ruimtes met T-vormige kalkstenen pijlers, tot ruim vijf meter hoog en versierd met dieren. De oudste lagen dateren van ca. 9600 v.Chr. Klaus Schmidt begon er in 1995 met opgravingen. Sinds 2018 is de plaats werelderfgoed.",
+      "place": "Şanlıurfa, Turkije",
+      "modules": [
+        4
+      ],
+      "people": [
+        "schmidt"
+      ],
+      "image": null
+    },
+    {
+      "id": "domesticatie-vruchtbare-sikkel",
+      "year_label": "ca. 9500 – 9000 v.Chr.",
+      "sort_year": -9250,
+      "era": "Prehistorie",
+      "title": "Eerste domesticatie in de Vruchtbare Sikkel",
+      "summary": "Gewassen en dieren veranderen door menselijke keuzes.",
+      "description": "In een proces van eeuwen tot duizenden jaren ontstonden in het Midden-Oosten gedomesticeerde vormen van onder meer eenkoorn, emmertarwe, gerst, schaap, geit, varken en rund. Het was geen enkele gebeurtenis maar een geleidelijke verandering.",
+      "place": "Vruchtbare Sikkel",
+      "modules": [
+        4
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "kano-van-pesse",
+      "year_label": "ca. 8000 v.Chr.",
+      "sort_year": -8000,
+      "era": "Prehistorie",
+      "title": "De kano van Pesse",
+      "summary": "Een uitgeholde pijnboomstam uit het veen geldt als de oudste bekende boot ter wereld.",
+      "description": "In 1955 werd bij Pesse in Drenthe een uitgeholde boomstam van grove den gevonden, bijna drie meter lang. Volgens koolstofdatering is de boom gekapt tussen ongeveer 8040 en 7510 v.Chr.\n\nDe kano wordt bewaard in het Drents Museum in Assen.",
+      "place": "Pesse, Drenthe",
+      "modules": [
+        3
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "catalhoyuk",
+      "year_label": "ca. 7100 – 5950 v.Chr.",
+      "sort_year": -7100,
+      "era": "Prehistorie",
+      "title": "Çatalhöyük",
+      "summary": "Dorp van aaneengesloten lemen huizen met ingang via het dak.",
+      "description": "James Mellaart legde de plaats in de jaren 1960 bloot. Sinds 1993 wordt ze onderzocht onder leiding van Ian Hodder. De bewoners verbouwden graan, hielden schapen en geiten en begroeven doden onder de vloeren. Werelderfgoed sinds 2012.",
+      "place": "Konya-vlakte, Turkije",
+      "modules": [
+        4
+      ],
+      "people": [
+        "hodder"
+      ],
+      "image": null
+    },
+    {
+      "id": "doggerland-overstroming",
+      "year_label": "ca. 6500 – 6000 v.Chr.",
+      "sort_year": -6200,
+      "era": "Prehistorie",
+      "title": "Doggerland verdwijnt onder de zee",
+      "summary": "Het laagland op de plaats van de Noordzee overstroomt grotendeels.",
+      "description": "Na de ijstijd steeg de zeespiegel en overstroomde het gebied dat Doggerland heet stukje bij beetje. Volgens de meeste onderzoekers was het ongeveer 6500 tot 6000 v.Chr. grotendeels verdwenen.\n\nHet bewijs voor het leven er komt vooral uit toevallige vondsten van vissers en uit onderzoek van de zeebodem.",
+      "place": "Noordzee",
+      "modules": [
+        3
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "bandkeramiek-zuid-limburg",
+      "year_label": "ca. 5300 v.Chr.",
+      "sort_year": -5300,
+      "era": "Prehistorie",
+      "title": "Bandkeramische boeren in Zuid-Limburg",
+      "summary": "De eerste boeren van Nederland vestigen zich op de löss.",
+      "description": "Boeren van de Bandkeramische cultuur bouwden langhuizen op de lössgronden bij onder meer Sittard, Geleen, Elsloo en Stein. Ze kwamen via de Donau uit het zuidoosten, grotendeels als migranten.",
+      "place": "Zuid-Limburg",
+      "modules": [
+        4
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "hunebedden-trechterbekercultuur",
+      "year_label": "ca. 3400 – 3100 v.Chr.",
+      "sort_year": -3400,
+      "era": "Prehistorie",
+      "title": "De hunebedden van Drenthe",
+      "summary": "De Trechterbekercultuur bouwt collectieve graven van zwerfkeien.",
+      "description": "Ruim vijftig hunebedden, vrijwel allemaal in Drenthe, zijn bewaard gebleven. Het grootste is D27 bij Borger. De stenen zijn zwerfkeien die in de Saale-ijstijd door landijs naar Nederland zijn gebracht.",
+      "place": "Drenthe",
+      "modules": [
+        4
+      ],
+      "people": [],
+      "image": null
+    },
+    {
       "id": "herodotus-historien",
       "year_label": "ca. 430 v.Chr.",
       "sort_year": -430,
@@ -32,6 +171,21 @@
       "people": [
         "thucydides"
       ],
+      "image": null
+    },
+    {
+      "id": "beeldenstorm-1566",
+      "year_label": "augustus 1566",
+      "sort_year": 1566,
+      "era": "Vroegmoderne tijd",
+      "title": "De Beeldenstorm",
+      "summary": "Vanaf 10 augustus 1566 worden in honderden kerken en kloosters beelden vernield.",
+      "description": "De golf begon bij Steenvoorde, bereikte Antwerpen op 20 augustus en verspreidde zich door de Nederlanden. Oorzaken lagen in religieuze overtuiging, politieke spanning en economische crisis.",
+      "place": "Steenvoorde, Antwerpen, Gent",
+      "modules": [
+        2
+      ],
+      "people": [],
       "image": null
     },
     {
@@ -95,6 +249,153 @@
       ],
       "people": [
         "ranke"
+      ],
+      "image": null
+    },
+    {
+      "id": "afschaffing-slavernij-1863",
+      "year_label": "1 juli 1863",
+      "sort_year": 1863,
+      "era": "Revoluties en industrialisatie",
+      "title": "Afschaffing van de slavernij in Suriname en de Antillen",
+      "summary": "De slavernij wordt wettelijk afgeschaft; in Suriname volgt tien jaar staatstoezicht.",
+      "description": "Eigenaren ontvingen compensatie (in Suriname 300 gulden per tot slaaf gemaakte), de tot slaaf gemaakten niet. In Suriname bleven de bevrijden tot 1873 onder staatstoezicht.",
+      "place": "Suriname en de Nederlandse Antillen",
+      "modules": [
+        2
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "altamira-ontdekking",
+      "year_label": "1879",
+      "sort_year": 1879,
+      "era": "Negentiende eeuw",
+      "title": "Ontdekking van de schilderingen van Altamira",
+      "summary": "Een Spaanse amateurarcheoloog ontdekt ijstijdschilderingen die aanvankelijk niet worden geloofd.",
+      "description": "In 1879 ontdekten Marcelino Sanz de Sautuola en zijn dochter Maria schilderingen van bizons in de grot van Altamira. Op een congres in Lissabon in 1880 werden ze verworpen.\n\nPas na vergelijkbare vondsten, zoals La Mouthe in 1895, erkende de prehistorische wereld in 1902 de echtheid.",
+      "place": "Altamira, Spanje",
+      "modules": [
+        3
+      ],
+      "people": [
+        "sanz-de-sautuola"
+      ],
+      "image": null
+    },
+    {
+      "id": "childe-neolithische-revolutie",
+      "year_label": "1936",
+      "sort_year": 1936,
+      "era": "Twintigste eeuw",
+      "title": "Childe en de Neolithische revolutie",
+      "summary": "Gordon Childe populariseert het begrip Neolithische revolutie.",
+      "description": "In Man Makes Himself (1936) beschreef Childe de overgang naar landbouw als een omwenteling die overschot, specialisatie en uiteindelijk steden mogelijk maakte.",
+      "place": "Londen",
+      "modules": [
+        4
+      ],
+      "people": [
+        "childe"
+      ],
+      "image": null
+    },
+    {
+      "id": "radiokoolstofdatering-libby",
+      "year_label": "1949",
+      "sort_year": 1949,
+      "era": "Twintigste eeuw",
+      "title": "Libby presenteert de radiokoolstofdatering",
+      "summary": "Een nieuwe methode maakt absolute datering van organisch materiaal mogelijk.",
+      "description": "Willard Libby ontwikkelde aan de Universiteit van Chicago een methode om de leeftijd van organisch materiaal te bepalen via het verval van koolstof-14. Hij kreeg er in 1960 de Nobelprijs voor.\n\nLater bleek dat ruwe uitslagen gekalibreerd moeten worden omdat het koolstof-14-gehalte in de lucht niet constant was.",
+      "place": "Chicago, Verenigde Staten",
+      "modules": [
+        3
+      ],
+      "people": [
+        "libby"
+      ],
+      "image": null
+    },
+    {
+      "id": "watersnood-1953",
+      "year_label": "1 februari 1953",
+      "sort_year": 1953,
+      "era": "De twintigste eeuw",
+      "title": "De Watersnoodramp",
+      "summary": "Een stormvloed overstroomt het zuidwesten van Nederland; 1836 doden.",
+      "description": "In de nacht van 31 januari op 1 februari 1953 braken dijken door bij storm en springtij. Op 18 februari werd de Deltacommissie ingesteld.",
+      "place": "Zeeland, Zuid-Holland, West-Brabant",
+      "modules": [
+        2
+      ],
+      "people": [
+        "johan-van-veen"
+      ],
+      "image": null
+    },
+    {
+      "id": "deltawet-1957",
+      "year_label": "5 november 1957",
+      "sort_year": 1957,
+      "era": "De twintigste eeuw",
+      "title": "De Deltawet",
+      "summary": "Het Deltaplan wordt wettelijk vastgelegd.",
+      "description": "De Deltawet legde de afsluiting en versterking van de zeearmen in het zuidwesten vast, uitgevoerd tot in 1997.",
+      "place": "Nederland",
+      "modules": [
+        2
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "man-the-hunter-1966",
+      "year_label": "1966",
+      "sort_year": 1966,
+      "era": "Twintigste eeuw",
+      "title": "Het symposium Man the Hunter",
+      "summary": "Antropologen brengen onderzoek naar hedendaagse jagers-verzamelaars samen.",
+      "description": "In 1966 kwam in Chicago het symposium Man the Hunter bijeen, waar onderzoek naar hedendaagse jagers-verzamelaars werd besproken. Het leidde tot een boek van Richard Lee en Irven DeVore.\n\nMarshall Sahlins sprak daarna over de oorspronkelijke welvarende samenleving. Beide opvattingen zijn later genuanceerd en bekritiseerd.",
+      "place": "Chicago, Verenigde Staten",
+      "modules": [
+        3
+      ],
+      "people": [
+        "sahlins"
+      ],
+      "image": null
+    },
+    {
+      "id": "oosterscheldekering-1986",
+      "year_label": "4 oktober 1986",
+      "sort_year": 1986,
+      "era": "De twintigste eeuw",
+      "title": "De Oosterscheldekering wordt geopend",
+      "summary": "Een open stormvloedkering in plaats van een gesloten dam, mede door protest.",
+      "description": "Na verzet van vissers en natuurbeschermers werd gekozen voor een beweegbare kering die het getij grotendeels behoudt.",
+      "place": "Oosterschelde",
+      "modules": [
+        2
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "diamond-grootste-vergissing",
+      "year_label": "mei 1987",
+      "sort_year": 1987,
+      "era": "Twintigste eeuw",
+      "title": "Diamond: de grootste vergissing",
+      "summary": "Jared Diamond noemt landbouw een ramp voor de gemiddelde mens.",
+      "description": "Het essay The Worst Mistake in the History of the Human Race verscheen in Discover. Het kreeg veel bijval en kritiek, onder meer op het gebruik van skeletgegevens.",
+      "place": "Verenigde Staten",
+      "modules": [
+        4
+      ],
+      "people": [
+        "diamond"
       ],
       "image": null
     }

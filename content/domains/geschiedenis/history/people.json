@@ -63,6 +63,43 @@
       "image": null
     },
     {
+      "id": "hobbes",
+      "name": "Hobbes",
+      "full_name": "Thomas Hobbes",
+      "lived": "1588 – 1679",
+      "sort_year": 1588,
+      "region": "Engeland",
+      "known_for": "Schrijver van Leviathan (1651), met zijn beeld van het leven zonder staat.",
+      "bio": "Thomas Hobbes was een Engelse filosoof. In Leviathan (1651), geschreven tijdens de Engelse burgeroorlog, betoogde hij dat een sterke staat nodig is om gewelddadige chaos te voorkomen.\n\nZijn beschrijving van het leven in de natuurstaat is een gedachte-experiment en geen weergave van de werkelijke prehistorie.",
+      "contributions": [
+        "Leviathan (1651)",
+        "Gedachte-experiment over de natuurstaat"
+      ],
+      "modules": [
+        3
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "rousseau",
+      "name": "Rousseau",
+      "full_name": "Jean-Jacques Rousseau",
+      "lived": "1712 – 1778",
+      "sort_year": 1712,
+      "region": "Genève en Frankrijk",
+      "known_for": "Schreef in 1755 over de ongelijkheid en de natuurstaat; vaak ten onrechte verbonden aan de uitdrukking noble savage.",
+      "bio": "Jean-Jacques Rousseau was een filosoof uit Genève. In zijn verhandeling over de oorsprong van de ongelijkheid (1755) schilderde hij de mens in de natuurstaat af als vrij en onschuldig, bedorven door de beschaving.\n\nDe uitdrukking noble savage gebruikte hij zelf niet; die komt al in 1672 bij John Dryden voor. Zijn natuurstaat was bovendien een gedachte-experiment.",
+      "contributions": [
+        "Discours sur l'origine de l'inégalité (1755)"
+      ],
+      "modules": [
+        3
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
       "id": "ranke",
       "name": "Ranke",
       "full_name": "Leopold von Ranke",
@@ -84,6 +121,26 @@
       "image": null
     },
     {
+      "id": "sanz-de-sautuola",
+      "name": "Sautuola",
+      "full_name": "Marcelino Sanz de Sautuola",
+      "lived": "1831 – 1888",
+      "sort_year": 1831,
+      "region": "Cantabrië, Spanje",
+      "known_for": "Ontdekker van de schilderingen van Altamira.",
+      "bio": "Marcelino Sanz de Sautuola was een Spaanse landeigenaar en amateurarcheoloog. In 1879 ontdekte hij met zijn dochter Maria de schilderingen in de grot van Altamira.\n\nOp een congres in 1880 werd hij niet geloofd. Pas na zijn dood werd de echtheid van de schilderingen erkend.",
+      "contributions": [
+        "Ontdekking van Altamira"
+      ],
+      "modules": [
+        3
+      ],
+      "timeline": [
+        "altamira-ontdekking"
+      ],
+      "image": null
+    },
+    {
       "id": "geyl",
       "name": "Geyl",
       "full_name": "Pieter Geyl",
@@ -100,6 +157,167 @@
         1
       ],
       "timeline": [],
+      "image": null
+    },
+    {
+      "id": "johan-van-veen",
+      "name": "Van Veen",
+      "full_name": "Johan van Veen",
+      "lived": "1893 - 1959",
+      "sort_year": 1893,
+      "region": "Nederland",
+      "known_for": "Rijkswaterstaat-ingenieur die vóór 1953 pleitte voor het afsluiten van de zeearmen.",
+      "bio": "Johan van Veen werkte bij Rijkswaterstaat en bepleitte al in de jaren dertig en veertig een afsluiting van de zeearmen in het zuidwesten. Zijn ideeën werden na 1953 een bron voor het Deltaplan.",
+      "contributions": [
+        "Voorstellen voor een Deltaplan"
+      ],
+      "modules": [
+        2
+      ],
+      "timeline": [
+        "watersnood-1953"
+      ],
+      "image": null
+    },
+    {
+      "id": "libby",
+      "name": "Libby",
+      "full_name": "Willard Libby",
+      "lived": "1908 – 1980",
+      "sort_year": 1908,
+      "region": "Verenigde Staten",
+      "known_for": "Ontwikkelaar van de radiokoolstofdatering.",
+      "bio": "Willard Libby was een Amerikaanse scheikundige. Rond 1949 presenteerde hij met zijn team de methode om de leeftijd van organisch materiaal te bepalen via koolstof-14.\n\nIn 1960 kreeg hij hiervoor de Nobelprijs voor de Scheikunde.",
+      "contributions": [
+        "Radiokoolstofdatering"
+      ],
+      "modules": [
+        3
+      ],
+      "timeline": [
+        "radiokoolstofdatering-libby"
+      ],
+      "image": null
+    },
+    {
+      "id": "eric-williams",
+      "name": "Williams",
+      "full_name": "Eric Williams",
+      "lived": "1911 - 1981",
+      "sort_year": 1911,
+      "region": "Trinidad en Tobago",
+      "known_for": "Historicus van Capitalism and Slavery (1944), later premier van Trinidad en Tobago.",
+      "bio": "Eric Williams betoogde in Capitalism and Slavery dat economische belangen een grote rol speelden bij de afschaffing van de slavernij in het Britse rijk. Zijn these is sindsdien veel besproken en bekritiseerd.",
+      "contributions": [
+        "Capitalism and Slavery (1944)"
+      ],
+      "modules": [
+        2
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "childe",
+      "name": "Childe",
+      "full_name": "Vere Gordon Childe",
+      "lived": "1892 – 1957",
+      "sort_year": 1925,
+      "region": "Australië en Groot-Brittannië",
+      "known_for": "Het begrip Neolithische revolutie.",
+      "bio": "Childe was een archeoloog die in Londen en Edinburgh werkte. In Man Makes Himself (1936) presenteerde hij de landbouw als een omwenteling die tot overschot, specialisatie en steden leidde.",
+      "contributions": [
+        "Neolithische revolutie",
+        "Man Makes Himself"
+      ],
+      "modules": [
+        4
+      ],
+      "timeline": [
+        "childe-neolithische-revolutie"
+      ],
+      "image": null
+    },
+    {
+      "id": "sahlins",
+      "name": "Sahlins",
+      "full_name": "Marshall Sahlins",
+      "lived": "1930 – 2021",
+      "sort_year": 1930,
+      "region": "Verenigde Staten",
+      "known_for": "Beschreef jagers-verzamelaars als de oorspronkelijke welvarende samenleving.",
+      "bio": "Marshall Sahlins was een Amerikaanse antropoloog. In een bijdrage aan het symposium Man the Hunter (1966) betoogde hij dat jagers-verzamelaars weinig bezittingen hadden maar ook weinig behoeften, en dus welvarend waren.\n\nZijn stelling is later genuanceerd: de gebruikte cijfers waren beperkt en de bestudeerde groepen waren geen model voor de prehistorie.",
+      "contributions": [
+        "The Original Affluent Society"
+      ],
+      "modules": [
+        3
+      ],
+      "timeline": [
+        "man-the-hunter-1966"
+      ],
+      "image": null
+    },
+    {
+      "id": "diamond",
+      "name": "Diamond",
+      "full_name": "Jared Diamond",
+      "lived": "geboren 1937",
+      "sort_year": 1987,
+      "region": "Verenigde Staten",
+      "known_for": "Het essay over landbouw als grootste vergissing en het boek Guns, Germs, and Steel.",
+      "bio": "Diamond is fysioloog en geograaf. Zijn essay uit 1987 beschreef landbouw als een achteruitgang voor de gemiddelde mens. In Guns, Germs, and Steel (1997) gaf hij een genuanceerder beeld.",
+      "contributions": [
+        "The Worst Mistake in the History of the Human Race",
+        "Guns, Germs, and Steel"
+      ],
+      "modules": [
+        4
+      ],
+      "timeline": [
+        "diamond-grootste-vergissing"
+      ],
+      "image": null
+    },
+    {
+      "id": "hodder",
+      "name": "Hodder",
+      "full_name": "Ian Hodder",
+      "lived": "geboren 1948",
+      "sort_year": 1993,
+      "region": "Groot-Brittannië en Verenigde Staten",
+      "known_for": "Leider van het onderzoek in Çatalhöyük sinds 1993.",
+      "bio": "Hodder is archeoloog en leidt sinds 1993 het onderzoek in Çatalhöyük. Hij werkte het idee van de domus uit: het huishouden als model voor het temmen van de wereld.",
+      "contributions": [
+        "Çatalhöyük Research Project",
+        "The Domestication of Europe"
+      ],
+      "modules": [
+        4
+      ],
+      "timeline": [
+        "catalhoyuk"
+      ],
+      "image": null
+    },
+    {
+      "id": "schmidt",
+      "name": "Schmidt",
+      "full_name": "Klaus Schmidt",
+      "lived": "1953 – 2014",
+      "sort_year": 1995,
+      "region": "Duitsland en Turkije",
+      "known_for": "Opgravingen van Göbekli Tepe vanaf 1995.",
+      "bio": "Schmidt was een Duitse archeoloog die Göbekli Tepe vanaf 1995 opgroef en betoogde dat de monumentale bouw voorafging aan de landbouw.",
+      "contributions": [
+        "Opgraving van Göbekli Tepe"
+      ],
+      "modules": [
+        4
+      ],
+      "timeline": [
+        "gobekli-tepe"
+      ],
       "image": null
     }
   ]

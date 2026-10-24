@@ -4,19 +4,137 @@
   "title": "Jagers en verzamelaars",
   "part": 2,
   "level": "fundamenten",
-  "status": "planned",
-  "historical_period": "Prehistorie, tot ca. 10.000 v.Chr.",
+  "status": "available",
+  "historical_period": "Prehistorie, van de eerste Homo sapiens tot ca. 5000 v.Chr.",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 210,
   "prerequisites": [
     1
   ],
   "topics": [
     "prehistory",
     "sources",
-    "interpretation"
+    "interpretation",
+    "source-criticism",
+    "chronology",
+    "historiography"
   ],
   "core_question": "Hoe weten we iets over mensen die niets opschreven?",
   "summary": "Het leven van jagers en verzamelaars, gereconstrueerd uit werktuigen, grotschilderingen en opgravingen, en de grenzen van wat dat bewijs kan vertellen.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een kano in het veen",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "wat-de-grond-bewaart",
+      "title": "Wat de grond bewaart",
+      "file": "02-wat-de-grond-bewaart.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "hoe-oud-is-het",
+      "title": "Hoe oud is het?",
+      "file": "03-hoe-oud-is-het.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "de-wereld-bevolkt",
+      "title": "De wereld wordt bevolkt",
+      "file": "04-de-wereld-bevolkt.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "de-lage-landen",
+      "title": "Jagers in de Lage Landen",
+      "file": "05-de-lage-landen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen waarom prehistorie geen tijd zonder geschiedenis is, maar een tijd zonder geschreven bronnen.",
+    "Je kunt benoemen wat in de grond bewaard blijft en wat niet, en waarom je uit afwezigheid van vondsten niets mag afleiden.",
+    "Je kunt stratigrafie en radiokoolstofdatering in hoofdlijnen uitleggen, een eenvoudige koolstofberekening uitvoeren en een datering met haar marge lezen.",
+    "Je kunt de verspreiding van de moderne mens en de rol van de ijstijden daarbij schetsen en het bewijs benoemen.",
+    "Je kunt het leven van jagers-verzamelaars in de Lage Landen plaatsen, van rendierjagers en Doggerland tot de kano van Pesse.",
+    "Je kunt de beelden van Hobbes, Rousseau, Sahlins en recente onderzoekers over de prehistorie vergelijken en terugvoeren op hun uitgangspunten.",
+    "Je kunt etnografische analogie gebruiken en de grenzen ervan noemen, en meerdere bronnen combineren tot een uitspraak met de juiste mate van zekerheid."
+  ],
+  "glossary": [
+    {
+      "term": "Prehistorie",
+      "definition": "De periode waaruit geen geschreven bronnen zijn overgeleverd. Het is geen tijd zonder geschiedenis, maar een tijd waarover we het moeten doen met materiële sporen."
+    },
+    {
+      "term": "Jager-verzamelaar",
+      "definition": "Iemand die leeft van jagen, vissen en het verzamelen van planten en schaaldieren, zonder landbouw en veeteelt."
+    },
+    {
+      "term": "Paleolithicum",
+      "definition": "De oude steentijd, de lange periode van de eerste stenen werktuigen tot het einde van de laatste ijstijd."
+    },
+    {
+      "term": "Mesolithicum",
+      "definition": "De midden-steentijd, na de ijstijd en vóór de landbouw. In Nederland ongeveer van 9000 tot 5000 v.Chr."
+    },
+    {
+      "term": "Stratigrafie",
+      "definition": "De volgorde van lagen in de grond. In een ongestoorde afzetting ligt het oudste onderaan; dit geeft een relatieve datering."
+    },
+    {
+      "term": "Radiokoolstofdatering",
+      "definition": "Dateringsmethode voor organisch materiaal op basis van het verval van koolstof-14 (halfwaardetijd ongeveer 5730 jaar), bruikbaar tot ongeveer 50.000 jaar terug."
+    },
+    {
+      "term": "Kalibratie",
+      "definition": "Het omzetten van een ruwe koolstofmeting in kalenderjaren met een ijkcurve, omdat het koolstof-14-gehalte in de lucht niet constant was."
+    },
+    {
+      "term": "Tafonomie",
+      "definition": "De studie van wat er tussen gebruik en vondst met resten gebeurt: afbraak, verplaatsing en verstoring."
+    },
+    {
+      "term": "Etnografische analogie",
+      "definition": "Het gebruik van waarnemingen bij hedendaagse groepen om sporen uit het verleden te begrijpen. Het levert hypotheses, geen bewijs."
+    },
+    {
+      "term": "Doggerland",
+      "definition": "Het laagland dat na de ijstijd op de plaats van de huidige Noordzee lag en in de loop van duizenden jaren overstroomde."
+    }
+  ],
+  "timeline": [
+    "homo-sapiens-jebel-irhoud",
+    "altamira-ontdekking",
+    "radiokoolstofdatering-libby",
+    "kano-van-pesse",
+    "doggerland-overstroming",
+    "man-the-hunter-1966"
+  ],
+  "people": [
+    "hobbes",
+    "rousseau",
+    "libby",
+    "sanz-de-sautuola",
+    "sahlins"
+  ]
 }

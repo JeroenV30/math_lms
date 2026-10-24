@@ -4,19 +4,143 @@
   "title": "Oorzaak, gevolg en verandering",
   "part": 1,
   "level": "fundamenten",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Alle tijdvakken",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 210,
   "prerequisites": [
     1
   ],
   "topics": [
     "causation",
     "continuity-change",
-    "chronology"
+    "chronology",
+    "early-modern",
+    "twentieth-century",
+    "modern",
+    "historiography"
   ],
   "core_question": "Waarom gebeurde het, en wat veranderde er eigenlijk?",
   "summary": "Oorzaken op korte en lange termijn, aanleiding en gevolg, continuïteit en verandering: de redeneringen waarmee historici verklaren.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een kerk zonder beelden",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "oorzaken-ordenen",
+      "title": "Oorzaken ordenen: de Beeldenstorm",
+      "file": "02-oorzaken-ordenen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "ramp-en-deltawerken",
+      "title": "Ramp en antwoord: de Deltawerken",
+      "file": "03-ramp-en-deltawerken.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "continuiteit-en-verandering",
+      "title": "Continuïteit en verandering: 1863",
+      "file": "04-continuiteit-en-verandering.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "periodisering-en-denkfouten",
+      "title": "Periodiseren en de valkuilen van het redeneren",
+      "file": "05-periodisering-en-denkfouten.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat: wie verklaart wat?",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum: wie profiteerde van 1863?",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting: oorzaak, gevolg en verandering",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt een te verklaren gebeurtenis afbakenen en daarbij oorzaken verzamelen, ordenen en wegen.",
+    "Je kunt oorzaken indelen naar termijn (lange en korte termijn) en onderscheid maken tussen oorzaak en aanleiding.",
+    "Je kunt structurele en incidentele oorzaken onderscheiden en bedoelde van onbedoelde gevolgen.",
+    "Je kunt een verandering beschrijven met tempo, richting en reikwijdte, en aangeven wat er bleef.",
+    "Je legt uit waarom periodisering een keuze is en hoe die de verklaring beïnvloedt.",
+    "Je herkent monocausaal denken, determinisme en hindsight, en formuleert voorzichtiger.",
+    "Je kunt twee historische verklaringen van dezelfde gebeurtenis vergelijken en zeggen waarin ze verschillen."
+  ],
+  "glossary": [
+    {
+      "term": "Oorzaak",
+      "definition": "Een omstandigheid, ontwikkeling of handeling zonder welke de gebeurtenis niet of anders zou zijn verlopen."
+    },
+    {
+      "term": "Aanleiding",
+      "definition": "Het directe, vaak wisselbare moment dat de gebeurtenis in gang zet."
+    },
+    {
+      "term": "Structurele oorzaak",
+      "definition": "Een duurzaam kenmerk van de situatie dat de kans op de gebeurtenis vergroot."
+    },
+    {
+      "term": "Incidentele oorzaak",
+      "definition": "Een eenmalige, uitzonderlijke omstandigheid die op één moment het verschil maakt."
+    },
+    {
+      "term": "Bedoeld en onbedoeld gevolg",
+      "definition": "Een gevolg dat de handelende partij nastreefde, tegenover een gevolg dat niemand had gepland."
+    },
+    {
+      "term": "Continuïteit",
+      "definition": "Het voortduren van iets, vaak op de achtergrond van een verandering."
+    },
+    {
+      "term": "Tempo, richting en reikwijdte",
+      "definition": "De drie dimensies van verandering: hoe snel, in welke koers en hoeveel mensen of terreinen het raakt."
+    },
+    {
+      "term": "Periodisering",
+      "definition": "De indeling van een doorlopend verloop in perioden, met grenzen die de historicus kiest."
+    },
+    {
+      "term": "Monocausaal denken",
+      "definition": "Een gebeurtenis verklaren uit één oorzaak waar er meerdere zijn."
+    },
+    {
+      "term": "Determinisme",
+      "definition": "De gedachte dat de uitkomst onvermijdelijk was."
+    },
+    {
+      "term": "Hindsight",
+      "definition": "Het verleden lezen vanuit de afloop, alsof tijdgenoten die al kenden."
+    },
+    {
+      "term": "Contrafeitelijk redeneren",
+      "definition": "Een gedachte-experiment waarin je één factor anders denkt om haar gewicht te beoordelen."
+    }
+  ],
+  "timeline": [
+    "beeldenstorm-1566",
+    "watersnood-1953",
+    "deltawet-1957",
+    "oosterscheldekering-1986",
+    "afschaffing-slavernij-1863"
+  ],
+  "people": [
+    "johan-van-veen",
+    "eric-williams",
+    "geyl"
+  ]
 }

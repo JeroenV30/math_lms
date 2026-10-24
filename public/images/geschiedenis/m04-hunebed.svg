@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-label="Schematische doorsnede van een hunebed met dekstenen, draagstenen en een ingang">
+  <rect width="640" height="260" fill="#ffffff"/>
+  <text x="320" y="24" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#1f2933">Opbouw van een hunebed (schematisch)</text>
+  <g stroke="#1f2933" stroke-width="1.5">
+    <rect x="50" y="90" width="230" height="30" rx="8" fill="#e4e7eb"/>
+    <rect x="290" y="90" width="230" height="30" rx="8" fill="#e4e7eb"/>
+    <rect x="70" y="120" width="40" height="80" fill="#cbd2d9"/>
+    <rect x="170" y="120" width="40" height="80" fill="#cbd2d9"/>
+    <rect x="270" y="120" width="40" height="80" fill="#cbd2d9"/>
+    <rect x="360" y="120" width="40" height="80" fill="#cbd2d9"/>
+    <rect x="460" y="120" width="40" height="80" fill="#cbd2d9"/>
+    <line x1="30" y1="200" x2="610" y2="200"/>
+  </g>
+  <path d="M30 200 C 80 175, 120 175, 150 200 Z M390 200 C 440 170, 480 175, 520 200 Z" fill="#9c6b30" opacity="0.25"/>
+  <g font-family="sans-serif" font-size="12" fill="#1f2933">
+    <text x="165" y="80" text-anchor="middle">dekstenen</text>
+    <text x="90" y="222" text-anchor="middle">draagstenen</text>
+    <text x="230" y="222" text-anchor="middle">grafkamer</text>
+    <text x="520" y="222" text-anchor="middle" fill="#3b5bdb">ingang aan de zijkant</text>
+    <text x="548" y="150" font-size="11" fill="#9c6b30">zandheuvel,</text>
+    <text x="548" y="164" font-size="11" fill="#9c6b30">grotendeels</text>
+    <text x="548" y="178" font-size="11" fill="#9c6b30">verdwenen</text>
+  </g>
+  <text x="320" y="248" font-family="sans-serif" font-size="10" text-anchor="middle" fill="#52606d">Zijaanzicht, verhoudingen niet op schaal. Een groot hunebed heeft tien of meer dekstenen.</text>
+</svg>

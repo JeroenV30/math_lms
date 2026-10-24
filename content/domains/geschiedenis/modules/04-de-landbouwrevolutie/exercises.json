@@ -1,0 +1,978 @@
+{
+  "exercises": [
+    {
+      "id": "04-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Göbekli Tepe wordt gebouwd vanaf ca. 9600 v.Chr., de hunebedden in Drenthe ca. 3400 v.Chr. Hoeveel jaar liggen er ongeveer tussen het begin van Göbekli Tepe en de bouw van de hunebedden?",
+      "answer": 6200,
+      "unit": "jaar",
+      "hints": [
+        "Beide jaartallen liggen vóór Christus. Het oudste jaartal is het grootste getal.",
+        "Trek het kleinere jaartal af van het grotere."
+      ],
+      "solution": [
+        "9600 − 3400 = 6200",
+        "Tussen het begin van Göbekli Tepe en de hunebedden liggen dus ongeveer 6200 jaar."
+      ],
+      "topics": [
+        "chronology",
+        "prehistory"
+      ],
+      "feedback": [
+        {
+          "answer": 13000,
+          "message": "Je hebt de jaartallen opgeteld. Beide liggen vóór Christus, dus de tijdsduur is het verschil."
+        }
+      ]
+    },
+    {
+      "id": "04-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat verstaan archeologen onder domesticatie?",
+      "choices": [
+        "Een langdurig proces waarin menselijke keuzes de erfelijke eigenschappen van een soort veranderen",
+        "Het moment waarop iemand een wild dier voor het eerst aait of tamt",
+        "De uitvinding van de ploeg door één volk",
+        "De verhuizing van een groep naar vruchtbaarder land"
+      ],
+      "answer": "Een langdurig proces waarin menselijke keuzes de erfelijke eigenschappen van een soort veranderen",
+      "hints": [
+        "Denk aan de broze en de taaie spil van het graan.",
+        "Het gaat om de soort, niet om één dier of één plant."
+      ],
+      "solution": [
+        "Domesticatie is een verandering in de soort zelf, ontstaan over vele generaties doordat mensen bepaalde planten of dieren bevoordeelden.",
+        "Temmen is iets anders: dat gaat over één dier."
+      ],
+      "topics": [
+        "prehistory"
+      ],
+      "feedback": [
+        {
+          "answer": "Het moment waarop iemand een wild dier voor het eerst aait of tamt",
+          "message": "Dat is temmen van één dier. Domesticatie verandert de erfelijke eigenschappen van de hele soort en duurt vele generaties."
+        },
+        {
+          "answer": "De uitvinding van de ploeg door één volk",
+          "message": "Domesticatie heeft niets met de ploeg te maken en gebeurde niet door één uitvinding."
+        }
+      ]
+    },
+    {
+      "id": "04-003",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de stappen van de domesticatie van graan in de volgorde van oorzaak naar gevolg, het eerst gebeurde bovenaan.",
+      "answer": [
+        "Wilde graanplanten hebben een brosse spil: de aar valt bij rijpheid uiteen",
+        "Een mutatie levert af en toe een plant met een taaie spil",
+        "Oogsters krijgen vooral aren met een taaie spil binnen",
+        "Een deel van die oogst wordt weer uitgezaaid",
+        "Na vele generaties domineert de variant met de taaie spil"
+      ],
+      "hints": [
+        "Begin bij de wilde uitgangssituatie.",
+        "Eerst moet er een variant zijn, dan wordt die geselecteerd, dan vermenigvuldigt hij zich."
+      ],
+      "solution": [
+        "Uitgangspunt is de wilde plant. Een mutatie levert een variant op, de oogst selecteert die, het uitzaaien vermenigvuldigt haar en na vele generaties overheerst ze."
+      ],
+      "topics": [
+        "prehistory",
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Een mutatie levert af en toe een plant met een taaie spil",
+            "Wilde graanplanten hebben een brosse spil: de aar valt bij rijpheid uiteen",
+            "Oogsters krijgen vooral aren met een taaie spil binnen",
+            "Een deel van die oogst wordt weer uitgezaaid",
+            "Na vele generaties domineert de variant met de taaie spil"
+          ],
+          "message": "De wilde situatie met de brosse spil is het beginpunt; de mutatie is daar een afwijking van."
+        }
+      ]
+    },
+    {
+      "id": "04-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Stel dat op een bepaalde plaats de teelt van graan begint ca. 9500 v.Chr. en dat de gedomesticeerde vorm pas ca. 7500 v.Chr. de overhand heeft. Hoeveel eeuwen duurde het proces dan?",
+      "answer": 20,
+      "unit": "eeuwen",
+      "hints": [
+        "Bereken eerst het aantal jaren.",
+        "Een eeuw is honderd jaar."
+      ],
+      "solution": [
+        "9500 − 7500 = 2000 jaar",
+        "2000 : 100 = 20 eeuwen"
+      ],
+      "topics": [
+        "chronology",
+        "prehistory",
+        "continuity-change"
+      ],
+      "feedback": [
+        {
+          "answer": 2000,
+          "message": "Dat is het aantal jaren. De vraag is naar het aantal eeuwen: deel door 100."
+        }
+      ]
+    },
+    {
+      "id": "04-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een archeoloog vindt bij een nederzetting schapenbotten, waarvan het grootste deel van jonge mannelijke dieren is. Waarom wijst dat op het houden van schapen en niet op jacht?",
+      "choices": [
+        "Omdat jagers altijd de jongste dieren uitkiezen",
+        "Omdat een kudde voor het vlees wordt gehouden: vooral jonge mannetjes worden geslacht en de fokdieren blijven leven",
+        "Omdat wilde schapen alleen als mannetje voorkomen",
+        "Omdat botten van jonge dieren beter bewaard blijven en dus altijd domesticatie bewijzen"
+      ],
+      "answer": "Omdat een kudde voor het vlees wordt gehouden: vooral jonge mannetjes worden geslacht en de fokdieren blijven leven",
+      "hints": [
+        "Wat doet een veehouder met overtollige mannetjes?",
+        "Een jager neemt wat hij tegenkomt: een breed scala aan leeftijden en geslacht."
+      ],
+      "solution": [
+        "Bij jacht zie je een brede spreiding in leeftijd en geslacht. Een gecontroleerde slachtleeftijd met veel jonge mannetjes wijst op beheer van de kudde.",
+        "Eén vondst is nog geen sluitend bewijs; archeologen combineren het met afmetingen en vorm van botten."
+      ],
+      "topics": [
+        "prehistory",
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat jagers altijd de jongste dieren uitkiezen",
+          "message": "Jagers nemen wat ze tegenkomen. Juist de gerichte slachtleeftijd wijst op beheer."
+        },
+        {
+          "answer": "Omdat botten van jonge dieren beter bewaard blijven en dus altijd domesticatie bewijzen",
+          "message": "Bewaring zegt niets over domesticatie, en één vondst bewijst nooit alles."
+        }
+      ]
+    },
+    {
+      "id": "04-006",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke uitspraak is een voorbeeld van presentisme (het verleden lezen alsof mensen toen wisten wat wij nu weten)?",
+      "choices": [
+        "De Natoefiërs woonden in dorpen voordat er landbouw bestond",
+        "De gedomesticeerde vorm van graan werd pas na eeuwen de overheersende",
+        "Rond 9000 v.Chr. besloten mensen in de Vruchtbare Sikkel dat het tijd was voor een landbouwrevolutie",
+        "Een datering als ca. 9000 v.Chr. heeft een marge van enkele eeuwen"
+      ],
+      "answer": "Rond 9000 v.Chr. besloten mensen in de Vruchtbare Sikkel dat het tijd was voor een landbouwrevolutie",
+      "hints": [
+        "Zoek de uitspraak waarin mensen een bewuste beslissing nemen die alleen achteraf als zodanig te zien is."
+      ],
+      "solution": [
+        "De eerste boeren wisten niet dat ze een revolutie begonnen. De andere uitspraken beschrijven bevindingen met hun onzekerheid."
+      ],
+      "topics": [
+        "causation",
+        "perspective",
+        "contextualisation"
+      ],
+      "feedback": [
+        {
+          "answer": "De Natoefiërs woonden in dorpen voordat er landbouw bestond",
+          "message": "Dit is een bevinding uit opgravingen, geen anachronisme."
+        }
+      ]
+    },
+    {
+      "id": "04-007",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Veel onderzoekers vinden de term \"landbouwrevolutie\" misleidend. Leg uit waarom, met minstens twee argumenten uit les 2.",
+      "answer": "Een revolutie suggereert een snelle, bewuste omwenteling. Maar domesticatie duurde meer dan duizend jaar, jagen en verzamelen bleven lang naast teelt bestaan, en vaste dorpen waren er al voor de landbouw.",
+      "min_length": 60,
+      "hints": [
+        "Denk aan de duur van het proces en aan wat er al voor de landbouw bestond.",
+        "Vraag je af wat het woord revolutie bij de lezer oproept."
+      ],
+      "solution": [
+        "Een revolutie suggereert een plotselinge, bewuste omwenteling. In de Vruchtbare Sikkel verliep de overgang echter geleidelijk.",
+        "Argument 1: gedomesticeerde vormen van graan werden pas na enkele eeuwen tot duizenden jaren de overheersende vorm.",
+        "Argument 2: de Natoefiërs woonden al in dorpen en oogsten wilde granen voordat er landbouw was, dus de verandering begon niet bij de teelt.",
+        "Argument 3: jagen en verzamelen bleven eeuwenlang naast de teelt bestaan."
+      ],
+      "topics": [
+        "causation",
+        "continuity-change",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "04-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Landbouw ontstond op verschillende continenten onafhankelijk van elkaar, binnen enkele duizenden jaren na het begin van het Holoceen. Wat ondersteunt dat het sterkst?",
+      "choices": [
+        "Dat een algemene voorwaarde, zoals het warmere en stabielere klimaat, een rol speelde",
+        "Dat het klimaat de enige oorzaak was",
+        "Dat de Vruchtbare Sikkel van geen belang was",
+        "Dat alle landbouw uit één uitvinding stamt"
+      ],
+      "answer": "Dat een algemene voorwaarde, zoals het warmere en stabielere klimaat, een rol speelde",
+      "hints": [
+        "Onafhankelijk betekent: zonder contact. Wat hadden die plaatsen wel gemeen?"
+      ],
+      "solution": [
+        "Het patroon past bij een gemeenschappelijke voorwaarde. Het bewijst niet dat het klimaat de enige oorzaak was: eerdere warme tussenijstijden leverden geen landbouw op."
+      ],
+      "topics": [
+        "causation",
+        "prehistory"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat het klimaat de enige oorzaak was",
+          "message": "Dat is monocausaal denken. Eerdere warme periodes, zoals het Eemien, leidden niet tot landbouw, dus het klimaat was hooguit een noodzakelijke voorwaarde."
+        },
+        {
+          "answer": "Dat alle landbouw uit één uitvinding stamt",
+          "message": "Het onafhankelijk ontstaan spreekt dit juist tegen."
+        }
+      ]
+    },
+    {
+      "id": "04-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Volgens de verklaring van de bevolkingsdruk (Boserup, Binford) dwong een groeiende bevolking mensen tot landbouw. Welke kritiek is het meest fundamenteel?",
+      "choices": [
+        "Bevolkingsgroei bestaat niet in de prehistorie",
+        "De richting van de oorzaak is onzeker: bevolkingsgroei kan ook het gevolg zijn van landbouw",
+        "Er waren toen te weinig mensen om iets te veroorzaken",
+        "Jagers-verzamelaars kenden geen voedselschaarste"
+      ],
+      "answer": "De richting van de oorzaak is onzeker: bevolkingsgroei kan ook het gevolg zijn van landbouw",
+      "hints": [
+        "Vraag je af: wat kwam eerst, de groei of de landbouw?"
+      ],
+      "solution": [
+        "Boeren konden waarschijnlijk meer kinderen grootbrengen, dus bevolkingsgroei kan zowel oorzaak als gevolg zijn. Zonder tijdsvolgorde kun je het één niet als oorzaak van het ander aanwijzen."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Jagers-verzamelaars kenden geen voedselschaarste",
+          "message": "Dat wordt nergens beweerd; de kritiek gaat over de richting van de oorzaak."
+        }
+      ]
+    },
+    {
+      "id": "04-010",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke gedachte wordt door dit bewijs het sterkst uitgedaagd?",
+      "choices": [
+        "Dat monumentale bouwwerken pas ontstonden nadat landbouw een overschot had opgeleverd",
+        "Dat jagers-verzamelaars nooit in groepen samenkwamen",
+        "Dat de Vruchtbare Sikkel geen wilde granen kende",
+        "Dat gedomesticeerde schapen er al in 9600 v.Chr. werden gehouden"
+      ],
+      "answer": "Dat monumentale bouwwerken pas ontstonden nadat landbouw een overschot had opgeleverd",
+      "hints": [
+        "Let op de datering en op het soort dieren waarvan botten gevonden zijn."
+      ],
+      "solution": [
+        "Het bouwwerk is ouder dan de eerste gedomesticeerde gewassen in de omgeving en werd volgens de meeste onderzoekers gebouwd door jagers-verzamelaars. Dat past slecht bij het idee dat landbouw eerst een overschot opleverde."
+      ],
+      "topics": [
+        "causation",
+        "interpretation",
+        "sources"
+      ],
+      "context": "**Göbekli Tepe** (Zuidoost-Turkije), samengevat. Ronde ruimtes met T-vormige pijlers van kalksteen, tot ruim vijf meter hoog, vanaf ca. 9600 v.Chr. In de oudste lagen overwegend botten van wilde dieren; in de omgeving nog geen gedomesticeerde gewassen.",
+      "feedback": [
+        {
+          "answer": "Dat gedomesticeerde schapen er al in 9600 v.Chr. werden gehouden",
+          "message": "Het bewijs wijst juist op wilde dieren."
+        }
+      ]
+    },
+    {
+      "id": "04-011",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze stappen uit de klimaatverklaring in de volgorde van oorzaak naar gevolg.",
+      "answer": [
+        "Het klimaat wordt warmer en stabieler",
+        "Wilde granen breiden zich uit en worden talrijker",
+        "Groepen blijven langer bij de oogstplaatsen",
+        "Mensen zaaien en selecteren bewust of onbewust",
+        "Gedomesticeerde gewassen ontstaan"
+      ],
+      "hints": [
+        "Begin bij de langetermijnvoorwaarde, eindig bij de uitkomst."
+      ],
+      "solution": [
+        "Klimaat verandert, planten volgen, mensen passen hun gedrag aan, selecteren, en na generaties ontstaat domesticatie."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Wilde granen breiden zich uit en worden talrijker",
+            "Het klimaat wordt warmer en stabieler",
+            "Groepen blijven langer bij de oogstplaatsen",
+            "Mensen zaaien en selecteren bewust of onbewust",
+            "Gedomesticeerde gewassen ontstaan"
+          ],
+          "message": "Granen breiden zich pas uit als het klimaat daarvoor gunstig wordt."
+        }
+      ]
+    },
+    {
+      "id": "04-012",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke van deze oorzaken is het best te omschrijven als een voorwaarde (en niet als aanleiding)?",
+      "choices": [
+        "Een droogte die plaatselijk wilde granen schaarser maakte",
+        "Een besluit van een dorp om een voorraad aan te leggen",
+        "Een slechte oogst in één bepaald jaar",
+        "Het stabielere klimaat van het Holoceen"
+      ],
+      "answer": "Het stabielere klimaat van het Holoceen",
+      "hints": [
+        "Een voorwaarde maakt iets mogelijk; een aanleiding zet het op een bepaald moment in gang."
+      ],
+      "solution": [
+        "Het Holoceen maakte landbouw op lange termijn mogelijk. De andere drie zijn korte gebeurtenissen die iets in gang kunnen zetten."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Een droogte die plaatselijk wilde granen schaarser maakte",
+          "message": "Dit is een mogelijke aanleiding: een kortere gebeurtenis die iets in gang zet."
+        }
+      ]
+    },
+    {
+      "id": "04-013",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Göbekli Tepe werd gebouwd vanaf ca. 9600 v.Chr. De eerste fase van Stonehenge dateert uit ca. 3000 v.Chr. Hoeveel jaar is Göbekli Tepe ouder?",
+      "answer": 6600,
+      "unit": "jaar",
+      "hints": [
+        "Trek het kleinere jaartal van het grotere af."
+      ],
+      "solution": [
+        "9600 − 3000 = 6600"
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": 12600,
+          "message": "Je hebt opgeteld. Beide jaartallen liggen vóór Christus."
+        }
+      ]
+    },
+    {
+      "id": "04-014",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Drie verklaringen voor het ontstaan van landbouw: klimaat, bevolkingsdruk en cultuur/religie. Kies die je het meest overtuigend vindt als aanleiding, en benoem zowel één ondersteunend als één tegenwerpend bewijs. Geef ook aan hoe zeker je bent.",
+      "answer": "Voorbeeld: klimaat als voorwaarde, want landbouw ontstond onafhankelijk op meerdere continenten in het Holoceen. Tegenwerpend: eerdere warme tussenijstijden leidden niet tot landbouw. Daarom noem ik klimaat een noodzakelijke maar onvoldoende voorwaarde en combineer ik het met cultuur en lokale omstandigheden. Zekerheid: matig.",
+      "min_length": 60,
+      "hints": [
+        "Gebruik de vraag: wat voorspelt deze verklaring, en klopt dat met het bewijs?",
+        "Noem in je conclusie hoe zeker je bent."
+      ],
+      "solution": [
+        "Een goed antwoord kiest een verklaring, noemt een concreet argument en een concrete tegenwerping, en maakt het verschil tussen voorwaarde en aanleiding.",
+        "Voorbeeld voor cultuur/religie: Göbekli Tepe toont monumentale bouw voor de landbouw; maar het bewijst niet dat die bouw landbouw veroorzaakte.",
+        "Voorbeeld voor bevolkingsdruk: past bij randgebieden; maar de richting van de oorzaak is onzeker."
+      ],
+      "topics": [
+        "causation",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "04-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In 1960 zag James Mellaart in Çatalhöyük bewijs voor de verering van een Grote Moedergodin. Later onderzoek onder Ian Hodder vond minder aanwijzingen voor één centrale godin. Wat laat dit zien?",
+      "choices": [
+        "Dat Mellaart bewust bronnen heeft verzonnen",
+        "Dat de beeldjes uit Çatalhöyük later zijn gemaakt",
+        "Dat nieuw veldwerk met nieuwe methoden en vragen een interpretatie van dezelfde vindplaats kan veranderen",
+        "Dat archeologische interpretaties nooit betrouwbaar zijn"
+      ],
+      "answer": "Dat nieuw veldwerk met nieuwe methoden en vragen een interpretatie van dezelfde vindplaats kan veranderen",
+      "hints": [
+        "Het gaat om de verandering van een interpretatie, niet om fraude."
+      ],
+      "solution": [
+        "Mellaarts conclusie straalde meer zekerheid uit dan zijn bronnen toelieten. Nieuw onderzoek met meer en fijnere gegevens leidde tot een voorzichtiger beeld."
+      ],
+      "topics": [
+        "interpretation",
+        "historiography",
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat Mellaart bewust bronnen heeft verzonnen",
+          "message": "Daar is geen aanwijzing voor. Het ging om een interpretatie die met meer gegevens werd bijgesteld."
+        },
+        {
+          "answer": "Dat archeologische interpretaties nooit betrouwbaar zijn",
+          "message": "Interpretaties kunnen verbeteren naarmate er meer bewijs is, dat maakt ze niet waardeloos."
+        }
+      ]
+    },
+    {
+      "id": "04-016",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke redenering verklaart het best waarom de bevolking na de overgang naar landbouw groeide?",
+      "choices": [
+        "Vaste woonplaatsen en voedsel dat geschikt was voor baby's maakten kortere tussenpozen tussen geboorten mogelijk",
+        "Boeren waren altijd gezonder en leefden daarom langer",
+        "Jagers-verzamelaars kregen geen kinderen",
+        "De bevolking nam alleen toe door migratie uit Afrika"
+      ],
+      "answer": "Vaste woonplaatsen en voedsel dat geschikt was voor baby's maakten kortere tussenpozen tussen geboorten mogelijk",
+      "hints": [
+        "Denk aan een moeder die haar kinderen over lange afstanden moet dragen, tegenover een moeder in een dorp."
+      ],
+      "solution": [
+        "Dit is een hypothese die goed bij de gegevens past (Bocquet-Appel): in begraafplaatsen uit de overgangstijd stijgt het aandeel kinderen."
+      ],
+      "topics": [
+        "causation",
+        "continuity-change"
+      ],
+      "feedback": [
+        {
+          "answer": "Boeren waren altijd gezonder en leefden daarom langer",
+          "message": "Skeletonderzoek wijst op veel plaatsen juist op slechtere gezondheid. De groei komt vooral uit meer geboorten."
+        }
+      ]
+    },
+    {
+      "id": "04-017",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Onderzoekers vinden dat skeletten van vroege boeren gemiddeld kleiner zijn dan die van jagers-verzamelaars uit hetzelfde gebied. Welke vervolgvraag is het belangrijkst voordat je concludeert dat landbouw de gezondheid verslechterde?",
+      "choices": [
+        "Hoeveel jaar zit er precies tussen de twee groepen?",
+        "Zijn de skeletten representatief en vergelijkbaar in leeftijd, geslacht, regio en herkomst?",
+        "Hebben de boeren hun skelet bewust zo laten begraven?",
+        "Welke van de twee groepen was het eerst in dit gebied?"
+      ],
+      "answer": "Zijn de skeletten representatief en vergelijkbaar in leeftijd, geslacht, regio en herkomst?",
+      "hints": [
+        "Wat moet gelijk zijn om twee groepen eerlijk te vergelijken?"
+      ],
+      "solution": [
+        "Zonder vergelijkbare groepen kun je een verschil niet aan landbouw toeschrijven. Een verschil kan ook komen uit een andere herkomst of een selectieve steekproef."
+      ],
+      "topics": [
+        "source-criticism",
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Hoeveel jaar zit er precies tussen de twee groepen?",
+          "message": "De tijd is relevant, maar het eerst nodig is te weten of de groepen eerlijk vergelijkbaar zijn."
+        }
+      ]
+    },
+    {
+      "id": "04-018",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze keten in de volgorde van oorzaak naar mogelijk gevolg.",
+      "answer": [
+        "Gewassen worden geoogst en kunnen worden opgeslagen",
+        "Groepen blijven bij hun voorraad en hun akkers",
+        "De vraag rijst wie over de voorraad beschikt en wie erft",
+        "Verschillen in bezit kunnen groeien"
+      ],
+      "hints": [
+        "Begin bij het fysieke verschijnsel, eindig bij het sociale gevolg."
+      ],
+      "solution": [
+        "Voorraad leidt tot blijven, blijven tot vragen over eigendom, en die tot mogelijke ongelijkheid. Het blijft een mogelijk gevolg: in Çatalhöyük is weinig hiërarchie gevonden."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Groepen blijven bij hun voorraad en hun akkers",
+            "Gewassen worden geoogst en kunnen worden opgeslagen",
+            "De vraag rijst wie over de voorraad beschikt en wie erft",
+            "Verschillen in bezit kunnen groeien"
+          ],
+          "message": "Er moet eerst een oogst en voorraad zijn, voordat groepen daar blijvend aan gebonden raken."
+        }
+      ]
+    },
+    {
+      "id": "04-019",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Çatalhöyük was bewoond van ca. 7100 tot ca. 5950 v.Chr. Hoeveel jaar duurde de bewoning ongeveer?",
+      "answer": 1150,
+      "unit": "jaar",
+      "hints": [
+        "Trek het kleinere jaartal van het grotere af."
+      ],
+      "solution": [
+        "7100 − 5950 = 1150"
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": 13050,
+          "message": "Je hebt opgeteld. Beide jaartallen liggen vóór Christus."
+        }
+      ]
+    },
+    {
+      "id": "04-020",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Çatalhöyük wordt vaak \"stad\" genoemd. Waarom zijn veel onderzoekers daar voorzichtig mee?",
+      "choices": [
+        "Omdat het dorp te klein was om stad te heten",
+        "Omdat het woord stad aannames meebrengt over bestuur en specialisatie die niet zijn aangetoond",
+        "Omdat er geen huizen zijn gevonden",
+        "Omdat de bewoners pas veel later landbouw kenden"
+      ],
+      "answer": "Omdat het woord stad aannames meebrengt over bestuur en specialisatie die niet zijn aangetoond",
+      "hints": [
+        "Wat denk je bij het woord stad, en is dat aangetoond voor Çatalhöyük?"
+      ],
+      "solution": [
+        "Er zijn geen paleizen, geen straten en geen duidelijke elite gevonden. Het label stad kan daarom meer suggereren dan het bewijs toelaat."
+      ],
+      "topics": [
+        "interpretation",
+        "contextualisation"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat er geen huizen zijn gevonden",
+          "message": "Er zijn juist veel huizen gevonden, aaneengebouwd en met ingang via het dak."
+        }
+      ]
+    },
+    {
+      "id": "04-021",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Leg uit hoe het opslaan van graan tot ongelijkheid kon leiden, en waarom dat niet automatisch gebeurde. Gebruik daarbij het voorbeeld van Çatalhöyük.",
+      "answer": "Voorraden kunnen worden bezeten, doorgegeven en uitgeleend, waardoor verschillen in bezit kunnen groeien. In Çatalhöyük zijn echter geen paleizen, elitegraven of tempels gevonden en lijkt de hiërarchie beperkt. Ongelijkheid was dus mogelijk, maar niet noodzakelijk; het hing af van de omstandigheden en van wat mensen toelieten.",
+      "min_length": 60,
+      "hints": [
+        "Beschrijf eerst het mechanisme, daarna het tegenvoorbeeld.",
+        "Sluit af met een voorzichtige conclusie."
+      ],
+      "solution": [
+        "Mechanisme: opslag leidt tot eigendom en erfenis; wie meer land of voorraad heeft, kan dat omzetten in invloed.",
+        "Tegenvoorbeeld: Çatalhöyük heeft huizen die verschillen, maar geen duidelijke elite.",
+        "Kernpunt: een voorwaarde is geen noodzakelijk gevolg. Ook afspraken en gewoonten van de groep tellen mee.",
+        "Onderzoek naar huisgroottes (Kohler e.a., 2017) laat zien dat ongelijkheid groter werd waar land en trekdieren overdraagbaar bezit werden."
+      ],
+      "topics": [
+        "causation",
+        "interpretation",
+        "perspective"
+      ]
+    },
+    {
+      "id": "04-022",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Natoefiaanse cultuur in de Levant (ca. 12.500 v.Chr.)",
+        "Bouw van Göbekli Tepe begint (ca. 9600 v.Chr.)",
+        "Çatalhöyük wordt bewoond (ca. 7100 v.Chr.)",
+        "Bandkeramische boeren in Zuid-Limburg (ca. 5300 v.Chr.)",
+        "Bouw van de hunebedden in Drenthe (ca. 3400 v.Chr.)"
+      ],
+      "hints": [
+        "Bij jaartallen vóór Christus is een hoger getal ouder."
+      ],
+      "solution": [
+        "12.500 > 9600 > 7100 > 5300 > 3400, dus de volgorde is van het hoogste getal naar het laagste."
+      ],
+      "topics": [
+        "chronology",
+        "prehistory"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Natoefiaanse cultuur in de Levant (ca. 12.500 v.Chr.)",
+            "Bouw van Göbekli Tepe begint (ca. 9600 v.Chr.)",
+            "Çatalhöyük wordt bewoond (ca. 7100 v.Chr.)",
+            "Bouw van de hunebedden in Drenthe (ca. 3400 v.Chr.)",
+            "Bandkeramische boeren in Zuid-Limburg (ca. 5300 v.Chr.)"
+          ],
+          "message": "De hunebedden zijn bijna 2000 jaar jonger dan de eerste boeren in Limburg."
+        }
+      ]
+    },
+    {
+      "id": "04-023",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom vestigden de bandkeramische boeren zich in Zuid-Limburg op de lössgronden?",
+      "choices": [
+        "Omdat löss vruchtbaar is, vocht vasthoudt en makkelijk te bewerken is met eenvoudige werktuigen",
+        "Omdat daar al grote steden stonden",
+        "Omdat in de zandgronden van het noorden geen planten groeien",
+        "Omdat de rivier de Maas er niet liep"
+      ],
+      "answer": "Omdat löss vruchtbaar is, vocht vasthoudt en makkelijk te bewerken is met eenvoudige werktuigen",
+      "hints": [
+        "Denk aan de eigenschappen van de bodem."
+      ],
+      "solution": [
+        "Löss is een vruchtbare windafzetting. Bandkeramische nederzettingen volgden de lössstrook door Midden-Europa."
+      ],
+      "topics": [
+        "causation",
+        "contextualisation",
+        "prehistory"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat in de zandgronden van het noorden geen planten groeien",
+          "message": "Dat is overdreven: zand is minder vruchtbaar, maar de keuze voor löss had te maken met de gunstige eigenschappen van die bodem."
+        }
+      ]
+    },
+    {
+      "id": "04-024",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De eerste bandkeramische boeren kwamen ca. 5300 v.Chr. in Zuid-Limburg. De hunebedden in Drenthe dateren van ca. 3400 v.Chr. Hoeveel jaar liggen er tussen?",
+      "answer": 1900,
+      "unit": "jaar",
+      "hints": [
+        "Trek het kleinere jaartal van het grotere af."
+      ],
+      "solution": [
+        "5300 − 3400 = 1900"
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": 8700,
+          "message": "Je hebt opgeteld. Beide jaartallen liggen vóór Christus."
+        }
+      ]
+    },
+    {
+      "id": "04-025",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarvoor is deze bron het meest bruikbaar?",
+      "choices": [
+        "Voor wat men in de zeventiende eeuw over de hunebedden dacht, niet voor wie ze bouwden",
+        "Als betrouwbaar bewijs dat de hunebedden door reuzen zijn gebouwd",
+        "Als primair bewijs voor de levenswijze van de bouwers",
+        "Voor de datering van de hunebedden"
+      ],
+      "answer": "Voor wat men in de zeventiende eeuw over de hunebedden dacht, niet voor wie ze bouwden",
+      "hints": [
+        "Hoe lang zit er tussen de bouw en het schrijven?",
+        "Een bron kan nuttig zijn voor een andere vraag dan waarvoor ze bedoeld is."
+      ],
+      "solution": [
+        "Picardt schreef ruim vijfduizend jaar na de bouw. Zijn tekst is een bron voor zeventiende-eeuwse ideeën, geen bron over de bouwers."
+      ],
+      "topics": [
+        "sources",
+        "source-criticism",
+        "perspective"
+      ],
+      "context": "In 1660 schreef Johan Picardt, arts en predikant in Drenthe, dat de hunebedden waren gebouwd door reuzen (hunen). Hij baseerde zich op overlevering en op wat hij zag. (Samenvatting.)",
+      "feedback": [
+        {
+          "answer": "Als betrouwbaar bewijs dat de hunebedden door reuzen zijn gebouwd",
+          "message": "Picardt had geen eigen waarneming van de bouw; opgravingen tonen mensen van de Trechterbekercultuur."
+        },
+        {
+          "answer": "Als primair bewijs voor de levenswijze van de bouwers",
+          "message": "Voor de levenswijze van de bouwers is Picardt een zeer late, indirecte bron."
+        }
+      ]
+    },
+    {
+      "id": "04-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat laat oud DNA van de eerste boeren in Midden-Europa zien?",
+      "choices": [
+        "Dat landbouw zich alleen als idee van buur tot buur verspreidde",
+        "Dat de eerste boeren grotendeels afstamden van boeren uit Anatolië, zodat landbouw voor een belangrijk deel met mensen mee reisde",
+        "Dat de jagers-verzamelaars overal volledig verdwenen",
+        "Dat de eerste boeren in Europa een volledig eigen oorsprong hadden"
+      ],
+      "answer": "Dat de eerste boeren grotendeels afstamden van boeren uit Anatolië, zodat landbouw voor een belangrijk deel met mensen mee reisde",
+      "hints": [
+        "Er is sprake van migratie én van vermenging. Kies de uitspraak die dat samenvat."
+      ],
+      "solution": [
+        "De hoofduitkomst is migratie van boeren uit Anatolië en het Egeïsche gebied. Hier en daar vermengden ze zich met lokale jagers, en in randgebieden bleven jagers lang bestaan."
+      ],
+      "topics": [
+        "interpretation",
+        "sources",
+        "prehistory"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat landbouw zich alleen als idee van buur tot buur verspreidde",
+          "message": "Het DNA laat juist zien dat er mensen verhuisden."
+        },
+        {
+          "answer": "Dat de jagers-verzamelaars overal volledig verdwenen",
+          "message": "Er was vermenging, en in sommige gebieden bleven jagers eeuwenlang bestaan."
+        }
+      ]
+    },
+    {
+      "id": "04-027",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Leg uit waarom de overgang naar landbouw in Nederland niet als een scherpe breuk kan worden beschreven. Gebruik minstens twee gegevens uit les 5.",
+      "answer": "In Zuid-Limburg kwamen bandkeramische boeren ca. 5300 v.Chr. met een volledig pakket. In het noorden bleven de Swifterbantmensen eeuwenlang jagers en vissers en namen ze stap voor stap aardewerk en later vee over. Pas rond 4000 v.Chr. en later werd landbouw waarschijnlijk de overheersende bestaanswijze. Er was dus geen enkel moment van omslag.",
+      "min_length": 60,
+      "hints": [
+        "Vergelijk Zuid-Limburg met het noorden.",
+        "Kijk naar de tijdsduur: eeuwen, niet jaren."
+      ],
+      "solution": [
+        "Gebruik het contrast tussen Zuid-Limburg (ca. 5300 v.Chr.) en het noorden (Swifterbantcultuur, ca. 5000 – 3400 v.Chr.).",
+        "Noem de rol van de zandgronden, de jachtrijke omgeving en de geleidelijke overname van aardewerk en vee.",
+        "Noem ook de Trechterbekercultuur als latere, volledig landbouwende cultuur in het noorden."
+      ],
+      "topics": [
+        "continuity-change",
+        "chronology",
+        "causation"
+      ]
+    },
+    {
+      "id": "04-028",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom is de vraag of landbouw vooruitgang was niet met feiten alleen te beantwoorden?",
+      "choices": [
+        "Omdat de uitkomst afhangt van de maatstaf voor vooruitgang (gezondheid, aantal mensen, vrijheid), en die keuze een waardeoordeel is",
+        "Omdat er nooit skeletten zijn gevonden",
+        "Omdat landbouw alleen in de Vruchtbare Sikkel is ontstaan",
+        "Omdat Diamond zijn essay bewust onjuist schreef"
+      ],
+      "answer": "Omdat de uitkomst afhangt van de maatstaf voor vooruitgang (gezondheid, aantal mensen, vrijheid), en die keuze een waardeoordeel is",
+      "hints": [
+        "Vergelijk: aantal mensen tegenover gezondheid per persoon."
+      ],
+      "solution": [
+        "Wie het aantal mensen telt, kan landbouw succesvol noemen. Wie gezondheid of gelijkheid centraal stelt, kan tot het omgekeerde komen. Een goede historicus noemt zijn maatstaf."
+      ],
+      "topics": [
+        "historiography",
+        "interpretation",
+        "perspective"
+      ],
+      "context": "\"The adoption of agriculture, supposedly our most decisive step toward a better life, was in many ways a catastrophe from which we have never recovered.\" (Jared Diamond, Discover, mei 1987)",
+      "feedback": [
+        {
+          "answer": "Omdat Diamond zijn essay bewust onjuist schreef",
+          "message": "Dat is niet wat er staat. Diamond schreef een bewust scherp betoog; het probleem is dat bewijs en maatstaf apart moeten worden beoordeeld."
+        }
+      ]
+    },
+    {
+      "id": "04-029",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat is de kern van de osteologische paradox (Wood e.a., 1992)?",
+      "choices": [
+        "Skeletten bevatten geen informatie over ziekten",
+        "Boeren hadden altijd meer ziektesporen dan jagers",
+        "Skeletten tonen alleen wie overleed, en veel ziektesporen kunnen juist wijzen op mensen die ziekte langer overleefden",
+        "Het DNA in botten is altijd verontreinigd"
+      ],
+      "answer": "Skeletten tonen alleen wie overleed, en veel ziektesporen kunnen juist wijzen op mensen die ziekte langer overleefden",
+      "hints": [
+        "Wat zie je niet in een begraafplaats?"
+      ],
+      "solution": [
+        "Een bot toont alleen wie is gestorven, en sporen van ziekte kunnen op overleving wijzen. Daarom is \"meer sporen is slechtere gezondheid\" onzeker."
+      ],
+      "topics": [
+        "source-criticism",
+        "historiography",
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Skeletten bevatten geen informatie over ziekten",
+          "message": "Ze bevatten wel informatie, maar de interpretatie is minder eenvoudig dan lijkt."
+        }
+      ]
+    },
+    {
+      "id": "04-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je wilt weten of de lichaamslengte in veel regio's daalde na de overgang naar landbouw. Welke bron is daarvoor het meest geschikt, en waarom?",
+      "choices": [
+        "Bron A, omdat een essay het duidelijkst is",
+        "Bron B, omdat zij gegevens uit veel vindplaatsen vergelijkt en de variatie noemt",
+        "Bron C, omdat één opgraving alle regio's vertegenwoordigt",
+        "Geen enkele bron, want secundaire bronnen zijn onbetrouwbaar"
+      ],
+      "answer": "Bron B, omdat zij gegevens uit veel vindplaatsen vergelijkt en de variatie noemt",
+      "hints": [
+        "Welke bron bestrijkt meerdere gebieden en meet lengte?"
+      ],
+      "solution": [
+        "Bron B is een vergelijkende studie. Bron A is een betoog, bron C beperkt tot één plaats. Secundair betekent niet onbetrouwbaar."
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ],
+      "context": "Bron A: Diamond (1987), een essay voor een breed publiek.\n\nBron B: Mummert e.a. (2011), een vergelijking van skeletgegevens uit veel vindplaatsen wereldwijd; de lengte daalde in een deel van de gevallen, met veel regionale variatie.\n\nBron C: Larsen e.a. (2019), onderzoek aan skeletten uit Çatalhöyük.",
+      "feedback": [
+        {
+          "answer": "Bron A, omdat een essay het duidelijkst is",
+          "message": "Duidelijk is niet hetzelfde als goed onderbouwd; een essay is een betoog en geen eigen onderzoek."
+        },
+        {
+          "answer": "Bron C, omdat één opgraving alle regio's vertegenwoordigt",
+          "message": "Çatalhöyük is één plaats; je kunt daar niet uit afleiden wat elders gebeurde."
+        }
+      ]
+    },
+    {
+      "id": "04-031",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Welke conclusie is op grond van bron C alleen gerechtvaardigd?",
+      "choices": [
+        "Dat de gezondheid van de onderzochte bewoners van Çatalhöyük op de onderzochte punten te wensen overliet",
+        "Dat landbouw overal tot slechtere gezondheid leidde",
+        "Dat jagers-verzamelaars gezonder waren dan boeren",
+        "Dat skeletonderzoek niets kan zeggen over gezondheid"
+      ],
+      "answer": "Dat de gezondheid van de onderzochte bewoners van Çatalhöyük op de onderzochte punten te wensen overliet",
+      "hints": [
+        "Hoe ver reikt één opgraving?"
+      ],
+      "solution": [
+        "Één vindplaats rechtvaardigt een uitspraak over die vindplaats, niet over alle boeren. Een vergelijking met jagers vraagt om andere gegevens."
+      ],
+      "topics": [
+        "source-criticism",
+        "interpretation",
+        "contextualisation"
+      ],
+      "context": "Bron C: Larsen e.a. (2019) onderzochten skeletten uit Çatalhöyük (ca. 7100 – 5950 v.Chr.). Onder meer veel gaatjes in gebitten, sporen van infectieziekten en bij een deel van de skeletten sporen van geweld. (Samenvatting.)",
+      "feedback": [
+        {
+          "answer": "Dat landbouw overal tot slechtere gezondheid leidde",
+          "message": "Dat is een generalisatie van één plaats naar de hele wereld."
+        },
+        {
+          "answer": "Dat skeletonderzoek niets kan zeggen over gezondheid",
+          "message": "Het kan wel iets zeggen, maar met de beperkingen uit les 6."
+        }
+      ]
+    },
+    {
+      "id": "04-032",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Beantwoord op grond van de bronnen A, B en C uit het practicum: wat kun je zeggen over de gezondheid van vroege boeren, en wat niet? Maak onderscheid tussen wat vrijwel zeker is, wat waarschijnlijk is en wat een kwestie van maatstaf is. Noem de osteologische paradox als beperking.",
+      "answer": "Waarschijnlijk verslechterde de gezondheid van boeren op veel plaatsen (bron B en C), maar het patroon verschilt per regio. Bron A generaliseert te sterk. De osteologische paradox maakt skeletgegevens lastig te interpreteren. Of landbouw vooruitgang was, hangt af van de maatstaf.",
+      "min_length": 60,
+      "hints": [
+        "Werk de drie lagen uit les 6 uit.",
+        "Noem bij elke bron haar bereik."
+      ],
+      "solution": [
+        "Vrijwel zeker: landbouw maakte grotere bevolkingen mogelijk.",
+        "Waarschijnlijk: op veel plaatsen nam de gezondheid af (bron B: lengte in een deel van de gevallen; bron C: gebit, infecties), maar met regionale variatie.",
+        "Kwestie van maatstaf: of dat vooruitgang was.",
+        "Beperking: de osteologische paradox, en het feit dat bron C één plaats betreft en bron A een betoog is."
+      ],
+      "topics": [
+        "source-criticism",
+        "interpretation",
+        "historiography",
+        "perspective"
+      ]
+    }
+  ]
+}

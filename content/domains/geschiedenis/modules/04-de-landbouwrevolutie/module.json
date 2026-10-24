@@ -4,19 +4,146 @@
   "title": "De landbouwrevolutie",
   "part": 2,
   "level": "fundamenten",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Ca. 10.000 – 2000 v.Chr.",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 240,
   "prerequisites": [
     1
   ],
   "topics": [
     "prehistory",
     "causation",
-    "continuity-change"
+    "continuity-change",
+    "sources",
+    "interpretation",
+    "chronology",
+    "perspective",
+    "contextualisation",
+    "source-criticism",
+    "historiography"
   ],
   "core_question": "Waarom gingen mensen boeren, en was dat vooruitgang?",
   "summary": "De overgang naar landbouw en vaste woonplaatsen, van het Midden-Oosten tot de hunebedbouwers in Drenthe, en het debat over de gevolgen.",
-  "lessons": []
+  "learning_goals": [
+    "Je kunt uitleggen wat domesticatie is en waarom de overgang naar landbouw een geleidelijk proces was.",
+    "Je kunt drie verklaringen voor het ontstaan van landbouw (klimaat, bevolkingsdruk, cultuur en religie) benoemen en tegen elkaar afwegen.",
+    "Je kunt het onafhankelijk ontstaan van landbouw op meerdere plaatsen gebruiken als argument in een oorzakenredenering.",
+    "Je kunt de gevolgen van landbouw (vaste woonplaatsen, bezit, bevolkingsgroei, gezondheid, ongelijkheid) beschrijven en bij elk aangeven hoe zeker ze zijn.",
+    "Je kunt de verspreiding van landbouw naar Zuid-Limburg en Drenthe schetsen, met bandkeramiek, Swifterbant, Trechterbekercultuur en hunebedden.",
+    "Je kunt het debat over landbouw als vooruitgang of vergissing weergeven en laten zien dat het oordeel van de maatstaf afhangt.",
+    "Je kunt een bron over skeletonderzoek beoordelen op herkomst, bereik en zekerheid."
+  ],
+  "glossary": [
+    {
+      "term": "Holoceen",
+      "definition": "Het geologische tijdvak sinds het einde van de laatste ijstijd, ca. 9700 v.Chr. Warmer en stabieler dan de periode ervoor."
+    },
+    {
+      "term": "Vruchtbare Sikkel",
+      "definition": "Een boogvormig gebied van de Jordaanvallei en Syrië langs Zuidoost-Turkije naar Irak, waar de oudste landbouw ontstond."
+    },
+    {
+      "term": "Natoefiaanse cultuur",
+      "definition": "Jagers-verzamelaars in de Levant (ca. 12.500 – 9500 v.Chr.) die al in dorpen woonden en wilde granen oogstten."
+    },
+    {
+      "term": "Domesticatie",
+      "definition": "Een langdurig proces waarin menselijke keuzes de erfelijke eigenschappen van een plant- of diersoort veranderen. Iets anders dan temmen of telen."
+    },
+    {
+      "term": "Neolithische revolutie",
+      "definition": "Door Gordon Childe geïntroduceerde term voor de overgang naar landbouw. Veel onderzoekers vinden ze misleidend omdat het om een traag, regionaal proces ging."
+    },
+    {
+      "term": "Bandkeramiek",
+      "definition": "De eerste landbouwcultuur in Midden-Europa en Zuid-Limburg (in Limburg vanaf ca. 5300 v.Chr.), genoemd naar het aardewerk met lintvormige versiering."
+    },
+    {
+      "term": "Trechterbekercultuur",
+      "definition": "Landbouwcultuur in Noord-Europa (in Drenthe vanaf ca. 3400 v.Chr.), bouwers van de hunebedden."
+    },
+    {
+      "term": "Hunebed",
+      "definition": "Een collectief graf van zwerfkeien uit de Trechterbekercultuur, vooral in Drenthe."
+    },
+    {
+      "term": "Oud DNA (aDNA)",
+      "definition": "Erfelijk materiaal uit botten en tanden van lang geleden gestorven mensen, waarmee afstamming en verplaatsing te onderzoeken zijn."
+    },
+    {
+      "term": "Osteologische paradox",
+      "definition": "Het probleem dat skeletten alleen de gestorvenen tonen, zodat veel ziektesporen ook kunnen wijzen op langer overleven in plaats van op slechte gezondheid."
+    },
+    {
+      "term": "Terugkoppeling",
+      "definition": "Het proces waarbij een gevolg zelf weer een oorzaak wordt, zoals bevolkingsgroei die de afhankelijkheid van landbouw versterkt."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een steen die niemand heeft opgeschreven",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "de-vruchtbare-sikkel",
+      "title": "De Vruchtbare Sikkel: van verzamelen naar telen",
+      "file": "02-de-vruchtbare-sikkel.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "waarom-boeren",
+      "title": "Waarom gingen mensen boeren?",
+      "file": "03-waarom-boeren.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "dorpen-bezit-en-gezondheid",
+      "title": "Dorpen, bezit en gezondheid",
+      "file": "04-dorpen-bezit-en-gezondheid.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "europa-en-de-lage-landen",
+      "title": "Naar Europa en de Lage Landen",
+      "file": "05-europa-en-de-lage-landen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat: de grootste vergissing?",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum: de gezondheid van vroege boeren",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en toets",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "natoefiaanse-cultuur",
+    "gobekli-tepe",
+    "domesticatie-vruchtbare-sikkel",
+    "catalhoyuk",
+    "bandkeramiek-zuid-limburg",
+    "hunebedden-trechterbekercultuur",
+    "childe-neolithische-revolutie",
+    "diamond-grootste-vergissing"
+  ],
+  "people": [
+    "childe",
+    "diamond",
+    "schmidt",
+    "hodder"
+  ]
 }

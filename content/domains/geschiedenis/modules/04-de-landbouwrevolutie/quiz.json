@@ -1,0 +1,394 @@
+{
+  "title": "Hoofdstuktoets – De landbouwrevolutie",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "04-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Welke bewering over de Natoefiërs (ca. 12.500 – 9500 v.Chr.) is juist?",
+      "choices": [
+        "Ze bouwden Göbekli Tepe en kenden landbouw al",
+        "Ze woonden op sommige plaatsen in vaste dorpen en oogstten wilde granen, zonder landbouw te kennen",
+        "Ze waren rondtrekkende jagers zonder enige vaste woonplaats",
+        "Ze hielden schapen en geiten in grote kudden"
+      ],
+      "answer": "Ze woonden op sommige plaatsen in vaste dorpen en oogstten wilde granen, zonder landbouw te kennen",
+      "hints": [
+        "Denk aan de vaste woonplaatsen vóór de landbouw."
+      ],
+      "solution": [
+        "Natoefiërs leefden vóór de landbouw in dorpen en oogstten wilde granen."
+      ],
+      "topics": [
+        "prehistory"
+      ]
+    },
+    {
+      "id": "04-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat kenmerkt een gedomesticeerd graan, in tegenstelling tot een wild graan?",
+      "choices": [
+        "De korrels vallen bij rijpheid vanzelf uit de aar",
+        "De plant groeit alleen in de Vruchtbare Sikkel",
+        "De spil van de aar blijft heel, zodat de korrels bij de oogst aan de plant blijven zitten",
+        "Het graan groeit alleen op lössgrond"
+      ],
+      "answer": "De spil van de aar blijft heel, zodat de korrels bij de oogst aan de plant blijven zitten",
+      "hints": [
+        "Denk aan de brosse en de taaie spil."
+      ],
+      "solution": [
+        "De taaie spil is het bekendste kenmerk van gedomesticeerd graan."
+      ],
+      "topics": [
+        "prehistory"
+      ]
+    },
+    {
+      "id": "04-T03",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Göbekli Tepe werd gebouwd vanaf ca. 9600 v.Chr. en Çatalhöyük was bewoond vanaf ca. 7100 v.Chr. Hoeveel jaar na het begin van Göbekli Tepe begon de bewoning van Çatalhöyük?",
+      "answer": 2500,
+      "unit": "jaar",
+      "hints": [
+        "Trek het kleinere jaartal af van het grotere."
+      ],
+      "solution": [
+        "9600 − 7100 = 2500"
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": 16700,
+          "message": "Je hebt opgeteld. Beide jaartallen liggen vóór Christus."
+        }
+      ]
+    },
+    {
+      "id": "04-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welk bewijs zou deze gedachte het sterkst ondersteunen?",
+      "choices": [
+        "Aanwijzingen voor rituele bouwwerken en afbeeldingen die ouder zijn dan de eerste gedomesticeerde gewassen",
+        "Aanwijzingen voor een klimaatverandering vlak voor de eerste teelt",
+        "Aanwijzingen voor meer skeletten van kinderen na de eerste teelt",
+        "Aanwijzingen voor graanopslag in huizen"
+      ],
+      "answer": "Aanwijzingen voor rituele bouwwerken en afbeeldingen die ouder zijn dan de eerste gedomesticeerde gewassen",
+      "hints": [
+        "Als het denken eerst veranderde, wat moet je dan eerder in de grond vinden?"
+      ],
+      "solution": [
+        "Wie beweert dat religie of symbolisch denken voorafging aan landbouw, moet laten zien dat die sporen ouder zijn."
+      ],
+      "topics": [
+        "causation",
+        "interpretation"
+      ],
+      "context": "Jacques Cauvin (1994) betoogde, samengevat, dat eerst het denken veranderde (een \"symbolische revolutie\" met nieuwe voorstellingen van goden en dieren) en dat landbouw daar pas op volgde."
+    },
+    {
+      "id": "04-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom pleit het onafhankelijk ontstaan van landbouw op meerdere continenten tegen de verklaring dat landbouw een cultureel idee van één plek was?",
+      "choices": [
+        "Omdat alle landbouw op hetzelfde moment begon",
+        "Omdat vergelijkbare ontwikkelingen zonder aantoonbaar contact ontstonden, wat wijst op algemene voorwaarden",
+        "Omdat culturen nooit ideeën uitwisselen",
+        "Omdat in China geen planten werden geteeld"
+      ],
+      "answer": "Omdat vergelijkbare ontwikkelingen zonder aantoonbaar contact ontstonden, wat wijst op algemene voorwaarden",
+      "hints": [
+        "Wat betekent onafhankelijk?"
+      ],
+      "solution": [
+        "Zonder contact toch overal landbouw wijst op gemeenschappelijke voorwaarden zoals het Holoceen."
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "04-T06",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze regio's in de volgorde waarin de landbouw er volgens het schema in les 5 arriveerde, de eerste het eerst.",
+      "answer": [
+        "Vruchtbare Sikkel (ca. 9000 v.Chr.)",
+        "Anatolië (ca. 8000 v.Chr.)",
+        "Balkan (ca. 6500 v.Chr.)",
+        "Midden-Donau (ca. 5500 v.Chr.)",
+        "Zuid-Limburg (ca. 5300 v.Chr.)"
+      ],
+      "hints": [
+        "Bij jaartallen vóór Christus is een hoger getal ouder."
+      ],
+      "solution": [
+        "De route loopt van het Midden-Oosten naar het noordwesten."
+      ],
+      "topics": [
+        "chronology",
+        "prehistory"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Vruchtbare Sikkel (ca. 9000 v.Chr.)",
+            "Anatolië (ca. 8000 v.Chr.)",
+            "Balkan (ca. 6500 v.Chr.)",
+            "Zuid-Limburg (ca. 5300 v.Chr.)",
+            "Midden-Donau (ca. 5500 v.Chr.)"
+          ],
+          "message": "Zuid-Limburg kwam pas na de Midden-Donau."
+        }
+      ]
+    },
+    {
+      "id": "04-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat kun je hieruit het zekerst afleiden?",
+      "choices": [
+        "Dat de bouwers rijke vorsten waren",
+        "Dat de hunebedden woonhuizen waren",
+        "Dat de hunebedden werden gebruikt als graf door mensen van de Trechterbekercultuur",
+        "Dat de bouwers de stenen uit Scandinavië hebben gesleept"
+      ],
+      "answer": "Dat de hunebedden werden gebruikt als graf door mensen van de Trechterbekercultuur",
+      "hints": [
+        "Let op wat er precies gevonden is."
+      ],
+      "solution": [
+        "Menselijke resten en typisch aardewerk wijzen op een graf van de Trechterbekercultuur. De andere beweringen gaan verder dan het bewijs."
+      ],
+      "topics": [
+        "sources",
+        "interpretation"
+      ],
+      "context": "In de kamers van hunebedden zijn bij opgravingen menselijke resten gevonden, samen met trechterbekeraardewerk, stenen bijlen en vuursteen."
+    },
+    {
+      "id": "04-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat laat de Swifterbantcultuur (ca. 5000 – 3400 v.Chr.) zien over de overgang naar landbouw in Nederland?",
+      "choices": [
+        "Dat de overgang geleidelijk verliep, met jagers en vissers die stap voor stap elementen overnamen",
+        "Dat de landbouw hier al eerder begon dan in de Vruchtbare Sikkel",
+        "Dat er in Nederland geen overgang was",
+        "Dat de Swifterbantmensen het hunebed uitvonden"
+      ],
+      "answer": "Dat de overgang geleidelijk verliep, met jagers en vissers die stap voor stap elementen overnamen",
+      "hints": [
+        "Denk aan het contrast met Zuid-Limburg."
+      ],
+      "solution": [
+        "Swifterbant laat een geleidelijke overgang zien, met aardewerk eerder dan vee en graan."
+      ],
+      "topics": [
+        "continuity-change",
+        "prehistory"
+      ]
+    },
+    {
+      "id": "04-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke maatstaf voor vooruitgang gebruikt Diamond hier vooral?",
+      "choices": [
+        "Het totale aantal mensen op aarde",
+        "Het welzijn van de gemiddelde individuele mens",
+        "De technologische mogelijkheden van latere staten",
+        "De omvang van monumenten"
+      ],
+      "answer": "Het welzijn van de gemiddelde individuele mens",
+      "hints": [
+        "Waarover spreekt de zin: de samenleving of de mens?"
+      ],
+      "solution": [
+        "Diamond rekent gezondheid en welzijn van gewone mensen, niet aantal of technologie."
+      ],
+      "topics": [
+        "historiography",
+        "perspective"
+      ],
+      "context": "\"The adoption of agriculture, supposedly our most decisive step toward a better life, was in many ways a catastrophe from which we have never recovered.\" (Jared Diamond, Discover, mei 1987)"
+    },
+    {
+      "id": "04-T10",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze publicaties in de volgorde waarin ze verschenen, de oudste eerst.",
+      "answer": [
+        "Childe, Man Makes Himself (1936)",
+        "Lee en DeVore, Man the Hunter (1968)",
+        "Diamond, \"The Worst Mistake\" (1987)",
+        "Scott, Against the Grain (2017)",
+        "Graeber en Wengrow, The Dawn of Everything (2021)"
+      ],
+      "hints": [
+        "Let op de jaartallen tussen haakjes."
+      ],
+      "solution": [
+        "1936 < 1968 < 1987 < 2017 < 2021"
+      ],
+      "topics": [
+        "historiography",
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Childe, Man Makes Himself (1936)",
+            "Diamond, \"The Worst Mistake\" (1987)",
+            "Lee en DeVore, Man the Hunter (1968)",
+            "Scott, Against the Grain (2017)",
+            "Graeber en Wengrow, The Dawn of Everything (2021)"
+          ],
+          "message": "Man the Hunter (1968) verscheen vóór het essay van Diamond (1987)."
+        }
+      ]
+    },
+    {
+      "id": "04-T11",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat concludeer je hieruit voorzichtig?",
+      "choices": [
+        "Dat de bevolking van A zeker minder gezond was dan die van B",
+        "Dat skeletten nooit iets zeggen over ziekten",
+        "Niet zonder meer dat A minder gezond was: ziektesporen kunnen ook wijzen op langer overleven, en de groepen kunnen in leeftijd verschillen",
+        "Dat B zeker uit boeren bestond"
+      ],
+      "answer": "Niet zonder meer dat A minder gezond was: ziektesporen kunnen ook wijzen op langer overleven, en de groepen kunnen in leeftijd verschillen",
+      "hints": [
+        "Denk aan de osteologische paradox."
+      ],
+      "solution": [
+        "Een hoger percentage ziektesporen is geen vanzelfsprekend bewijs van slechtere gezondheid."
+      ],
+      "topics": [
+        "source-criticism",
+        "interpretation"
+      ],
+      "context": "Onderzoekers vinden bij 40 procent van de skeletten van populatie A sporen van ziekte, en bij 10 procent van populatie B."
+    },
+    {
+      "id": "04-T12",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Welke interpretatie is het best onderbouwd?",
+      "choices": [
+        "Dat ongelijkheid in bezit groter werd naarmate land en trekdieren overdraagbaar bezit werden, met huisgrootte als beperkte maat voor rijkdom",
+        "Dat landbouw overal onmiddellijk een elite voortbracht",
+        "Dat ongelijkheid niets met bezit te maken had",
+        "Dat Amerika geen landbouw kende"
+      ],
+      "answer": "Dat ongelijkheid in bezit groter werd naarmate land en trekdieren overdraagbaar bezit werden, met huisgrootte als beperkte maat voor rijkdom",
+      "hints": [
+        "Let op het woord naarmate en op de maat (huisgrootte)."
+      ],
+      "solution": [
+        "De studie vindt een verband, geen onmiddellijk gevolg. Huisgrootte is een indirecte maat."
+      ],
+      "topics": [
+        "interpretation",
+        "causation"
+      ],
+      "context": "Een onderzoek naar huisgroottes in veel archeologische vindplaatsen (Kohler e.a., 2017) berekende een maat voor ongelijkheid. De verschillen waren groter in Eurazië dan in Amerika, waar grote trekdieren ontbraken."
+    },
+    {
+      "id": "04-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Waarom was de overgang naar landbouw op veel plaatsen moeilijk terug te draaien?",
+      "choices": [
+        "Door terugkoppeling: de bevolking groeide en werd afhankelijk van de oogst, waardoor teruggaan naar jagen niet meer voldoende voedsel opleverde",
+        "Omdat het verboden was geworden",
+        "Omdat jagers-verzamelaars waren uitgestorven",
+        "Omdat de landbouw altijd gezonder was"
+      ],
+      "answer": "Door terugkoppeling: de bevolking groeide en werd afhankelijk van de oogst, waardoor teruggaan naar jagen niet meer voldoende voedsel opleverde",
+      "hints": [
+        "Denk aan het gestippelde pijltje in het schema."
+      ],
+      "solution": [
+        "Het gevolg (meer mensen) werd zelf een oorzaak om door te gaan."
+      ],
+      "topics": [
+        "causation",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "04-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 5,
+      "question": "Wat past het best bij deze bevinding?",
+      "choices": [
+        "Dat jagers-verzamelaars overal volledig werden vervangen",
+        "Dat landbouw uitsluitend als idee werd overgenomen",
+        "Naast elkaar bestaande groepen met verschillende levenswijzen die zich niet snel vermengden",
+        "Dat de twee groepen genetisch identiek waren"
+      ],
+      "answer": "Naast elkaar bestaande groepen met verschillende levenswijzen die zich niet snel vermengden",
+      "hints": [
+        "Wat betekent genetisch duidelijk verschillend?"
+      ],
+      "solution": [
+        "Samen of vlak naast elkaar leven betekent niet automatisch vermenging. Voor Nederland mag je dit niet zonder meer overnemen."
+      ],
+      "topics": [
+        "interpretation",
+        "continuity-change"
+      ],
+      "context": "In Zweden vergeleken onderzoekers (Skoglund e.a., 2012) het DNA van Trechterbekerboeren en dat van jagers-verzamelaars van de Pitted Ware-cultuur, die in dezelfde tijd in dezelfde streek leefden. De twee groepen verschilden genetisch duidelijk."
+    },
+    {
+      "id": "04-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 5,
+      "question": "Welke slotsom weegt oorzaken en maatstaf het zorgvuldigst?",
+      "choices": [
+        "Het klimaat veroorzaakte de landbouw en dat was duidelijk vooruitgang",
+        "Landbouw ontstond door een samenspel van voorwaarden, aanleidingen en terugkoppeling, en of dat vooruitgang was, hangt af van de gekozen maatstaf",
+        "Landbouw was een vergissing, want skeletten van boeren zijn kleiner",
+        "Landbouw ontstond op één plek en verspreidde zich als idee"
+      ],
+      "answer": "Landbouw ontstond door een samenspel van voorwaarden, aanleidingen en terugkoppeling, en of dat vooruitgang was, hangt af van de gekozen maatstaf",
+      "hints": [
+        "Zoek de uitspraak zonder monocausaal denken en zonder verborgen waardeoordeel."
+      ],
+      "solution": [
+        "Alleen de eerste optie benoemt meerdere oorzaken en maakt expliciet dat het oordeel van een maatstaf afhangt."
+      ],
+      "topics": [
+        "causation",
+        "historiography",
+        "interpretation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "title": "Hoofdstuktoets – Jagers en verzamelaars",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "03-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Waarom is 'prehistorie' een misleidende naam voor een tijd 'zonder geschiedenis'?",
+      "choices": [
+        "Omdat er toen nog geen mensen waren",
+        "Ook in die tijd gebeurde er van alles; er zijn alleen geen geschreven bronnen",
+        "Omdat alle bronnen uit die tijd verloren zijn",
+        "Omdat het alleen over de tijd van de dinosauriërs gaat"
+      ],
+      "answer": "Ook in die tijd gebeurde er van alles; er zijn alleen geen geschreven bronnen",
+      "hints": [],
+      "solution": [
+        "Er is veel gebeurd; het ontbreken van schrift maakt de bronnen anders."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat er toen nog geen mensen waren",
+          "message": "Er waren wel mensen."
+        },
+        {
+          "answer": "Omdat alle bronnen uit die tijd verloren zijn",
+          "message": "Er zijn wel bronnen, alleen niet geschreven."
+        },
+        {
+          "answer": "Omdat het alleen over de tijd van de dinosauriërs gaat",
+          "message": "Dinosauriërs zijn geen onderwerp van de menselijke prehistorie."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "sources"
+      ]
+    },
+    {
+      "id": "03-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Waarom bleef de kano van Pesse bewaard?",
+      "choices": [
+        "Hij was van steen gemaakt",
+        "Hij werd bewust begraven door de makers",
+        "Hij lag in een natte veenlaag zonder zuurstof, waardoor hout niet vergaat",
+        "Hout vergaat nooit"
+      ],
+      "answer": "Hij lag in een natte veenlaag zonder zuurstof, waardoor hout niet vergaat",
+      "hints": [],
+      "solution": [
+        "Zonder zuurstof geen afbraak."
+      ],
+      "feedback": [
+        {
+          "answer": "Hij was van steen gemaakt",
+          "message": "De kano is van hout."
+        },
+        {
+          "answer": "Hij werd bewust begraven door de makers",
+          "message": "Daar is geen aanwijzing voor; het veen deed het werk."
+        },
+        {
+          "answer": "Hout vergaat nooit",
+          "message": "Hout vergaat meestal snel; veen is een uitzondering."
+        }
+      ],
+      "topics": [
+        "sources",
+        "prehistory"
+      ]
+    },
+    {
+      "id": "03-T03",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een monster bevat nog 1/32 van het oorspronkelijke koolstof-14 (halfwaardetijd 5730 jaar). Hoeveel jaar geleden stierf het organisme volgens de rekensom?",
+      "answer": 28650,
+      "hints": [],
+      "solution": [
+        "1/32 betekent vijf halveringen.",
+        "5 x 5730 = 28.650 jaar."
+      ],
+      "topics": [
+        "sources",
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": 22920,
+          "message": "Dat zijn vier halveringen (1/16)."
+        },
+        {
+          "answer": 183360,
+          "message": "Je hebt 32 x 5730 gerekend. Tel het aantal halveringen: 1/2, 1/4, 1/8, 1/16, 1/32."
+        }
+      ],
+      "unit": "jaar"
+    },
+    {
+      "id": "03-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke verklaring past het best bij de afwijzing van Altamira in 1880?",
+      "choices": [
+        "Er was weinig vergelijkingsmateriaal en men kon zich ijstijdkunst niet voorstellen; later volgden vergelijkbare vondsten",
+        "De schilderingen waren in 1880 nog niet gedateerd met de koolstofmethode, en dat was de doorslag",
+        "Sautuola was bewezen schuldig aan vervalsing",
+        "De grot lag in Spanje en Spaanse bronnen zijn onbetrouwbaar"
+      ],
+      "answer": "Er was weinig vergelijkingsmateriaal en men kon zich ijstijdkunst niet voorstellen; later volgden vergelijkbare vondsten",
+      "hints": [],
+      "solution": [
+        "Verwachtingen bepalen wat men als bewijs aanvaardt; nieuwe vondsten wijzigden het beeld."
+      ],
+      "feedback": [
+        {
+          "answer": "De schilderingen waren in 1880 nog niet gedateerd met de koolstofmethode, en dat was de doorslag",
+          "message": "Koolstofdatering bestond nog niet; de afwijzing kwam voort uit verwachtingen."
+        },
+        {
+          "answer": "Sautuola was bewezen schuldig aan vervalsing",
+          "message": "Er was geen bewijs; het was een vermoeden."
+        },
+        {
+          "answer": "De grot lag in Spanje en Spaanse bronnen zijn onbetrouwbaar",
+          "message": "Dat is een vooroordeel, geen argument."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "interpretation",
+        "historiography"
+      ],
+      "context": "Op een congres in Lissabon (1880) werden de schilderingen van Altamira afgewezen: men dacht dat de ontdekker, Sanz de Sautuola, ze zelf had laten maken. In 1902 erkende de prehistoricus Cartailhac, een van de critici, zijn fout."
+    },
+    {
+      "id": "03-T05",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Libby presenteert de koolstofmethode",
+        "Vondst van de kano van Pesse",
+        "Ontdekking van de grot van Chauvet",
+        "Publicatie over de voetafdrukken van White Sands"
+      ],
+      "hints": [],
+      "solution": [
+        "1949, 1955, 1994, 2021."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Vondst van de kano van Pesse",
+            "Libby presenteert de koolstofmethode",
+            "Ontdekking van de grot van Chauvet",
+            "Publicatie over de voetafdrukken van White Sands"
+          ],
+          "message": "Libby's methode (1949) is ouder dan de vondst van de kano (1955)."
+        }
+      ]
+    },
+    {
+      "id": "03-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de meest voor de hand liggende verklaring?",
+      "choices": [
+        "De lagen zijn omgekeerd afgezet",
+        "De jonge periode begon eerder dan gedacht",
+        "De scherf is door verstoring, zoals een kuil of een graafdier, in de oudere laag terechtgekomen",
+        "De scherf is vals"
+      ],
+      "answer": "De scherf is door verstoring, zoals een kuil of een graafdier, in de oudere laag terechtgekomen",
+      "hints": [],
+      "solution": [
+        "Eerst de eenvoudigste verklaring: verstoring van de laag."
+      ],
+      "feedback": [
+        {
+          "answer": "De lagen zijn omgekeerd afgezet",
+          "message": "Dat gebeurt zelden en alleen bij zware verstoring; dit is niet de eerste verklaring."
+        },
+        {
+          "answer": "De jonge periode begon eerder dan gedacht",
+          "message": "Eén scherf in een mogelijk verstoorde laag is daarvoor te weinig."
+        },
+        {
+          "answer": "De scherf is vals",
+          "message": "Daar is geen aanwijzing voor."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "chronology"
+      ],
+      "context": "In de onderste laag van een put wordt een scherf gevonden van een type dat uit een veel latere periode bekend is. Naast de scherf loopt een donkere verkleuring die tot in de bovenste laag doorloopt."
+    },
+    {
+      "id": "03-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een publicatie geeft een ongekalibreerde koolstofdatering van 'ca. 9000 BP'. Wat moet je weten voordat je er een kalenderjaar van maakt?",
+      "choices": [
+        "Dat BP 'voor Christus' betekent",
+        "Dat kalibratie de halfwaardetijd aanpast",
+        "Dat gekalibreerde en ongekalibreerde data hetzelfde zijn",
+        "Dat BP 'voor 1950' betekent en dat de kalenderdatum na kalibratie meestal ouder uitvalt"
+      ],
+      "answer": "Dat BP 'voor 1950' betekent en dat de kalenderdatum na kalibratie meestal ouder uitvalt",
+      "hints": [],
+      "solution": [
+        "BP is 'voor 1950'; kalibreren verschuift de datum."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat BP 'voor Christus' betekent",
+          "message": "BP betekent 'before present', met 1950 als vast uitgangspunt."
+        },
+        {
+          "answer": "Dat kalibratie de halfwaardetijd aanpast",
+          "message": "Kalibratie corrigeert voor het niveau van koolstof-14 in de lucht, niet voor de halfwaardetijd."
+        },
+        {
+          "answer": "Dat gekalibreerde en ongekalibreerde data hetzelfde zijn",
+          "message": "Het verschil kan eeuwen tot duizenden jaren zijn."
+        }
+      ],
+      "topics": [
+        "sources",
+        "chronology"
+      ]
+    },
+    {
+      "id": "03-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is hier een gerechtvaardigde conclusie?",
+      "choices": [
+        "Beide verklaringen passen bij de vondst; zonder aanvullend bewijs is 'mogelijk offer, mogelijk opslag' het eerlijkst",
+        "Rust had gelijk, want hij was erbij",
+        "Opslag is bewezen, want een offer is ongewoon",
+        "De vondst is waardeloos, want ze is niet eenduidig"
+      ],
+      "answer": "Beide verklaringen passen bij de vondst; zonder aanvullend bewijs is 'mogelijk offer, mogelijk opslag' het eerlijkst",
+      "hints": [],
+      "solution": [
+        "Wees niet zekerder dan het bewijs."
+      ],
+      "feedback": [
+        {
+          "answer": "Rust had gelijk, want hij was erbij",
+          "message": "Aanwezigheid bij de opgraving maakt een interpretatie niet waar."
+        },
+        {
+          "answer": "Opslag is bewezen, want een offer is ongewoon",
+          "message": "Ongewoon is geen bewijs."
+        },
+        {
+          "answer": "De vondst is waardeloos, want ze is niet eenduidig",
+          "message": "Een vondst met twee mogelijke interpretaties is nog steeds bruikbaar."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "source-criticism"
+      ],
+      "context": "Rust zag in rendierresten met stenen, gezonken in een meer, offers. Latere onderzoekers denken aan opslag van vlees in koud water. Beide verklaringen passen bij wat gevonden is."
+    },
+    {
+      "id": "03-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke uitspraak over de verspreiding van de moderne mens past het best bij het bewijs?",
+      "choices": [
+        "Moderne mensen ontstonden gelijktijdig op alle continenten",
+        "Moderne mensen ontstonden in Afrika en verspreidden zich in golven; over precieze data, zoals de komst naar Amerika, wordt nog gediscussieerd",
+        "De verspreiding is volledig vastgesteld en niet langer onderwerp van discussie",
+        "Moderne mensen verspreidden zich pas na de uitvinding van de landbouw"
+      ],
+      "answer": "Moderne mensen ontstonden in Afrika en verspreidden zich in golven; over precieze data, zoals de komst naar Amerika, wordt nog gediscussieerd",
+      "hints": [],
+      "solution": [
+        "Denk aan Jebel Irhoud, Australië en de discussies over Amerika."
+      ],
+      "feedback": [
+        {
+          "answer": "Moderne mensen ontstonden gelijktijdig op alle continenten",
+          "message": "Het bewijs wijst op Afrika als oorsprong."
+        },
+        {
+          "answer": "De verspreiding is volledig vastgesteld en niet langer onderwerp van discussie",
+          "message": "Nieuwe vondsten blijven de dateringen wijzigen."
+        },
+        {
+          "answer": "Moderne mensen verspreidden zich pas na de uitvinding van de landbouw",
+          "message": "Mensen bereikten Australië en Europa tienduizenden jaren vóór de landbouw."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "chronology"
+      ]
+    },
+    {
+      "id": "03-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat voor soort redenering is dit?",
+      "choices": [
+        "Een direct bewijs voor de gebruikte boten",
+        "Een redenering uit de uitkomst: de mensen waren er, dus ze moeten de overtocht hebben gemaakt; de boten zelf zijn niet waargenomen",
+        "Een etnografische analogie",
+        "Een cirkelredenering zonder waarde"
+      ],
+      "answer": "Een redenering uit de uitkomst: de mensen waren er, dus ze moeten de overtocht hebben gemaakt; de boten zelf zijn niet waargenomen",
+      "hints": [],
+      "solution": [
+        "Er is een vaststaand gegeven (mensen in Australië) en een afgeleide conclusie (overtocht)."
+      ],
+      "feedback": [
+        {
+          "answer": "Een direct bewijs voor de gebruikte boten",
+          "message": "Er zijn geen boten gevonden."
+        },
+        {
+          "answer": "Een etnografische analogie",
+          "message": "Er wordt geen hedendaagse groep vergeleken."
+        },
+        {
+          "answer": "Een cirkelredenering zonder waarde",
+          "message": "De redenering is geldig, mits je erbij zegt dat het geen waarneming is."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "causation"
+      ],
+      "context": "Er zijn geen bewaarde boten uit de periode waarin mensen naar Australië trokken. Toch moeten ze zee zijn overgestoken, omdat er mensen in Australië zijn aangekomen."
+    },
+    {
+      "id": "03-T11",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Hoogtepunt van de laatste ijstijd",
+        "Rendierjagers van de Ahrensburgcultuur",
+        "Kano van Pesse",
+        "Eerste boeren in Zuid-Limburg"
+      ],
+      "hints": [],
+      "solution": [
+        "ca. 20.000 jaar geleden, ca. 11.000 v.Chr., ca. 8000 v.Chr., ca. 5300 v.Chr."
+      ],
+      "topics": [
+        "chronology",
+        "prehistory"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Rendierjagers van de Ahrensburgcultuur",
+            "Hoogtepunt van de laatste ijstijd",
+            "Kano van Pesse",
+            "Eerste boeren in Zuid-Limburg"
+          ],
+          "message": "Het ijstijdmaximum (ca. 20.000 jaar geleden, dus ca. 18.000 v.Chr.) kwam vóór de Ahrensburgcultuur (ca. 11.000 v.Chr.)."
+        }
+      ]
+    },
+    {
+      "id": "03-T12",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke uitspraak is op grond van deze vondst gerechtvaardigd?",
+      "choices": [
+        "Doggerland had duizenden bewoners",
+        "De punt bewijst dat mensen in Doggerland landbouw kenden",
+        "De punt is waardeloos, omdat de vindplaats onbekend is",
+        "Er waren mensen in het gebied dat nu zeebodem is, ruim tienduizend jaar geleden; hoeveel en hoe ze er leefden, blijft onbekend"
+      ],
+      "answer": "Er waren mensen in het gebied dat nu zeebodem is, ruim tienduizend jaar geleden; hoeveel en hoe ze er leefden, blijft onbekend",
+      "hints": [],
+      "solution": [
+        "Gebruik de vondst voor wat ze toont: aanwezigheid, niet aantallen."
+      ],
+      "feedback": [
+        {
+          "answer": "Doggerland had duizenden bewoners",
+          "message": "Dat is een verwachting; de vondst laat dat niet zien."
+        },
+        {
+          "answer": "De punt bewijst dat mensen in Doggerland landbouw kenden",
+          "message": "Een harpoenpunt wijst op jacht of visserij."
+        },
+        {
+          "answer": "De punt is waardeloos, omdat de vindplaats onbekend is",
+          "message": "De vindplaats beperkt de interpretatie, maar de vondst zegt wel iets."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ],
+      "context": "In 1931 haalde de treiler Colinda in de Noordzee een bewerkte punt van gewei met haken omhoog, volgens latere datering ruim tienduizend jaar oud. De precieze vindplaats op de zeebodem is niet vastgelegd."
+    },
+    {
+      "id": "03-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat is een juist gebruik van etnografische analogie met hedendaagse jagers-verzamelaars?",
+      "choices": [
+        "Als bron van hypotheses over hoe sporen kunnen zijn ontstaan, met vermelding van de verschillen in tijd, omgeving en contact met anderen",
+        "Als bewijs voor hoe prehistorische groepen leefden",
+        "Helemaal niet gebruiken, omdat het altijd misleidt",
+        "Als levend fossiel: zij leven nog zoals mensen in de ijstijd"
+      ],
+      "answer": "Als bron van hypotheses over hoe sporen kunnen zijn ontstaan, met vermelding van de verschillen in tijd, omgeving en contact met anderen",
+      "hints": [],
+      "solution": [
+        "Analogie opent vragen, maar beantwoordt ze niet."
+      ],
+      "feedback": [
+        {
+          "answer": "Als bewijs voor hoe prehistorische groepen leefden",
+          "message": "Hedendaagse groepen hebben zelf een geschiedenis en wonen in een andere omgeving."
+        },
+        {
+          "answer": "Helemaal niet gebruiken, omdat het altijd misleidt",
+          "message": "Analogie kan nuttig zijn als je haar beperkingen noemt."
+        },
+        {
+          "answer": "Als levend fossiel: zij leven nog zoals mensen in de ijstijd",
+          "message": "Er bestaan geen 'levende fossielen'; ook hedendaagse groepen veranderden."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "interpretation",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "03-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Hoe lees je dit fragment als historicus het best?",
+      "choices": [
+        "Als een betrouwbaar verslag van het leven in de prehistorie",
+        "Als onderdeel van een filosofisch betoog over de staat in 1651, niet als beschrijving van prehistorische mensen",
+        "Als een bewijs dat prehistorische mensen veel geweld kenden",
+        "Als een fragment dat je moet negeren, omdat het te oud is"
+      ],
+      "answer": "Als onderdeel van een filosofisch betoog over de staat in 1651, niet als beschrijving van prehistorische mensen",
+      "hints": [],
+      "solution": [
+        "Herkomst, doel en wat de bron niet zegt."
+      ],
+      "feedback": [
+        {
+          "answer": "Als een betrouwbaar verslag van het leven in de prehistorie",
+          "message": "Hobbes had geen onderzoek gedaan naar prehistorische mensen."
+        },
+        {
+          "answer": "Als een bewijs dat prehistorische mensen veel geweld kenden",
+          "message": "Het fragment is een redenering, geen bewijs."
+        },
+        {
+          "answer": "Als een fragment dat je moet negeren, omdat het te oud is",
+          "message": "Het is juist een belangrijke bron voor het denken van zijn tijd."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "historiography",
+        "contextualisation"
+      ],
+      "context": "Hobbes, Leviathan (1651): 'No arts; no letters; no society; and which is worst of all, continual fear, and danger of violent death; and the life of man, solitary, poor, nasty, brutish, and short.'"
+    },
+    {
+      "id": "03-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Waarom veranderde sinds de jaren zeventig het beeld over de rol van vrouwen bij jagen en verzamelen?",
+      "choices": [
+        "Omdat bleek dat de oude opgravingen waren vervalst",
+        "Omdat nu bewezen is dat vrouwen altijd evenveel jaagden als mannen",
+        "Nieuwe vragen, nieuwe onderzoekers en nieuw bewijs leidden ertoe dat eerdere aannames werden getoetst; het bewijs voor de prehistorie zelf blijft beperkt",
+        "Omdat etnografen hun waarnemingen hebben ingetrokken"
+      ],
+      "answer": "Nieuwe vragen, nieuwe onderzoekers en nieuw bewijs leidden ertoe dat eerdere aannames werden getoetst; het bewijs voor de prehistorie zelf blijft beperkt",
+      "hints": [],
+      "solution": [
+        "Historiografie: de vraag stuurt het antwoord."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat bleek dat de oude opgravingen waren vervalst",
+          "message": "Daar is geen sprake van."
+        },
+        {
+          "answer": "Omdat nu bewezen is dat vrouwen altijd evenveel jaagden als mannen",
+          "message": "Het bewijs voor een vaste verdeling is beperkt; er is geen bewijs voor 'altijd evenveel'."
+        },
+        {
+          "answer": "Omdat etnografen hun waarnemingen hebben ingetrokken",
+          "message": "Etnografen hebben vooral nieuwe vragen gesteld en andere gegevens meegenomen."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation",
+        "perspective"
+      ]
+    }
+  ]
+}
