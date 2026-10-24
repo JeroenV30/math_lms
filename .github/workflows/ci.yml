@@ -1,0 +1,64 @@
+# Controleert bij elke push en pull request de applicatie én de lesstof:
+# contentvalidatie (incl. taalcontrole), PHP-tests, KaTeX-formules, JS-tests en
+# de Python-referentieanalyse van het eindonderzoek.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          extensions: mbstring, pdo_sqlite, sqlite3, intl
+          coverage: none
+          tools: composer:v2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: PHP-afhankelijkheden
+        run: composer install --no-interaction --prefer-dist --no-progress
+
+      - name: Frontend bouwen
+        run: |
+          npm ci
+          npm run build
+
+      - name: Omgeving
+        run: |
+          cp .env.example .env
+          php artisan key:generate --no-interaction
+
+      - name: Content valideren
+        run: php artisan content:validate
+
+      - name: PHP-tests
+        run: php artisan test
+
+      - name: KaTeX-formules
+        run: node scripts/check-katex.mjs
+
+      - name: JavaScript-tests
+        run: node --test tests/JavaScript/*.test.mjs
+
+      - name: Referentieanalyse eindonderzoek
+        run: python tests/Python/research_analysis_test.py

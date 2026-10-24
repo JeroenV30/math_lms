@@ -22,8 +22,8 @@ de geschiedenis van het wiskundige denken als leidraad. Gebouwd volgens
 | Deel VII – HBO/WO statistiek (modules 36–42) | 56 lessen, 309 oefeningen, 105 toetsvragen | uitgebreid |
 | Historische tijdlijn | 60 gebeurtenissen | |
 | Wiskundigenbibliotheek | 23 profielen | |
-| Oefenengine | numeric, decimal, fraction, expression, coordinate, interval, multiple, text, choice (+ foutenanalyse) | |
-| Voortgang, beheersing, spaced repetition | werkend | |
+| Oefenengine | numeric, decimal, fraction, expression, coordinate, interval, multiple, text, choice, order (+ foutenanalyse) | |
+| Voortgang, beheersing, spaced repetition | werkend; herhalingsinterval groeit mee, back-up via Instellingen | |
 
 Alle 42 modules zijn beschikbaar en uitgebreid: samen 330 lessen, 1.746 oefeningen
 en 630 toetsvragen (ruim 2,5 miljoen tekens lesstof). *Uitgebreid* betekent het
@@ -35,7 +35,7 @@ rubric voor zelfbeoordeling van je eigen rapport.
 
 ## Installatie
 
-Vereist: PHP 8.3+, Composer, Node 20+.
+Vereist: PHP 8.4.1+ (met pdo_sqlite), Composer, Node 20+.
 
 ```bash
 composer install
@@ -80,18 +80,31 @@ Content en applicatielogica zijn volledig gescheiden (bouwplan §4):
 ContentService ──► LessonRenderer / MarkdownRenderer ──► lessen, kaders, KaTeX, widgets
        │
        ▼
-ExerciseService ──► AnswerCheckerFactory ──► zeven checkers, inclusief meerdere invoervelden
+ExerciseService ──► AnswerCheckerFactory ──► tien antwoordtypen, inclusief meerdere invoervelden
        │
        ├──► exercise_attempts
-       ├──► MasteryService (topic_mastery: +3 goed, +1 met hint, −5 fout)
+       ├──► MasteryService (topic_mastery: +3 goed, +1 met hint, −5 fout; toets +5/−5;
+       │                    interval ×2 per geslaagde herhaling, tot een half jaar)
        └──► ProgressService (module_progress: afgerond ≥ 70%, beheerst ≥ 85%)
                     │
                     ▼
              ReviewService (60% zwak · 25% normaal · 15% oude stof)
 ```
 
-Instelbare regels (drempels, beheersingspunten, herhalingsintervallen) staan in
+Instelbare regels (drempels, beheersingspunten, herhalingsintervallen en -groei) staan in
 [`config/course.php`](config/course.php).
+
+Herhaling: elk onderwerp heeft een ondergrens voor het interval die uit de
+beheersing volgt (4 uur tot 30 dagen). Gaat een herhaling op tijd en zonder hulp
+goed, dan verdubbelt het interval (tot 180 dagen); een fout antwoord zet het
+terug. Eerder oefenen schuift de herhaling op, maar laat het interval niet groeien.
+
+## Back-up
+
+Alle leerdata staat in `database/database.sqlite`. Via **Instellingen** download je
+een back-up (JSON) en zet je die terug; daar kun je ook de voortgang van één
+domein wissen. `start.bat` voert nieuwe databasemigraties automatisch uit; start je
+zonder `start.bat`, draai dan na een update `php artisan migrate`.
 
 ## Content toevoegen
 
@@ -107,8 +120,13 @@ php artisan content:validate
 
 ## Tests
 
+GitHub Actions draait bij elke push alle onderstaande controles
+([`.github/workflows/ci.yml`](.github/workflows/ci.yml)). Lokaal:
+
 ```bash
+php artisan content:validate
 php artisan test
+node scripts/check-katex.mjs
 ```
 
 Voor de interactieve visualisaties (PowerShell):

@@ -19,6 +19,13 @@ function formulas(text) {
     return out;
 }
 
+// Alle tekstwaarden in een JSON-structuur; LaTeX-velden (latex) worden apart als blokformule gecontroleerd.
+function strings(value) {
+    if (typeof value === 'string') return [value];
+    if (!value || typeof value !== 'object') return [];
+    return Object.entries(value).flatMap(([key, item]) => (key === 'latex' ? [] : strings(item)));
+}
+
 function check(where, text) {
     for (const [f, displayMode] of formulas(text)) {
         count++;
@@ -41,14 +48,13 @@ for (const { base, dir } of moduleDirs) {
         if (file.endsWith('.md')) check(`${dir}/${file}`, fs.readFileSync(full, 'utf8'));
         if (['exercises.json', 'quiz.json', 'module.json'].includes(file)) {
             const data = JSON.parse(fs.readFileSync(full, 'utf8'));
-            const items = [...(data.exercises ?? []), ...(data.questions ?? [])];
-            for (const e of items) {
-                const texts = [e.question, e.context, ...(e.hints ?? []), ...(e.solution ?? []), ...(e.feedback ?? []).map((f) => f.message)];
-                texts.filter(Boolean).forEach((t) => check(`${dir}/${e.id}`, t));
+            // Elke tekst telt: vraag, hints, oplossing, feedback, maar ook keuzes, te ordenen items en deelvragen.
+            for (const e of [...(data.exercises ?? []), ...(data.questions ?? [])]) {
+                strings(e).forEach((t) => check(`${dir}/${e.id}`, t));
             }
             if (file === 'module.json') {
-                [...(data.learning_goals ?? []), ...(data.glossary ?? []).flatMap((g) => [g.term, g.definition]), ...(data.formulas ?? []).flatMap((f) => [f.name, f.usage, f.origin])]
-                    .filter(Boolean).forEach((t) => check(`${dir}/module.json`, t));
+                const { lessons, exercises, questions, ...meta } = data;
+                strings(meta).forEach((t) => check(`${dir}/module.json`, t));
                 (data.formulas ?? []).forEach((f) => f.latex && check(`${dir}/module.json formule`, `$$${f.latex}$$`));
             }
         }

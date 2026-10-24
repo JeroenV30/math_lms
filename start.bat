@@ -26,6 +26,10 @@ if not exist "node_modules\vite\bin\vite.js" (
     goto :error
 )
 
+echo De database wordt bijgewerkt...
+php artisan migrate --force --no-interaction
+if errorlevel 1 goto :error
+
 echo De vormgeving en scripts worden klaargemaakt...
 call npm.cmd run build
 if errorlevel 1 goto :error
