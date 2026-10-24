@@ -38,10 +38,16 @@ jobs:
       - name: PHP-afhankelijkheden
         run: composer install --no-interaction --prefer-dist --no-progress
 
+      # De build haalt de lettertypen bij Bunny Fonts op; bij een netwerkhapering opnieuw proberen.
       - name: Frontend bouwen
         run: |
           npm ci
-          npm run build
+          for attempt in 1 2 3; do
+            npm run build && exit 0
+            echo "Build mislukt (poging $attempt); opnieuw over 15 s."
+            sleep 15
+          done
+          exit 1
 
       - name: Omgeving
         run: |
