@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img" aria-label="Hofstelsel en leenstelsel naast elkaar">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#1f2933"/></marker></defs>
+<rect width="760" height="380" fill="#ffffff"/>
+<text x="180" y="28" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#9c6b30" text-anchor="middle">Hofstelsel</text>
+<text x="570" y="28" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#3b5bdb" text-anchor="middle">Leenstelsel</text>
+<line x1="380" y1="40" x2="380" y2="360" stroke="#1f2933" stroke-width="1" stroke-dasharray="4 4" opacity="0.4"/>
+<rect x="60" y="50" width="240" height="70" rx="6" fill="none" stroke="#9c6b30" stroke-width="2.5"/>
+<text x="180" y="80" font-family="Arial, sans-serif" font-size="15" fill="#1f2933" text-anchor="middle">Heerlijk erf</text>
+<text x="180" y="100" font-family="Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle">schuren, molen, akkers van de heer</text>
+<rect x="40" y="230" width="90" height="60" rx="6" fill="none" stroke="#1f2933" stroke-width="2"/>
+<rect x="140" y="230" width="90" height="60" rx="6" fill="none" stroke="#1f2933" stroke-width="2"/>
+<rect x="240" y="230" width="90" height="60" rx="6" fill="none" stroke="#1f2933" stroke-width="2"/>
+<text x="85" y="265" font-family="Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle">Hoeve</text>
+<text x="185" y="265" font-family="Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle">Hoeve</text>
+<text x="285" y="265" font-family="Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle">Hoeve</text>
+<line x1="85" y1="228" x2="140" y2="124" stroke="#1f2933" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="185" y1="228" x2="180" y2="124" stroke="#1f2933" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="285" y1="228" x2="230" y2="124" stroke="#1f2933" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="72" y="149" width="216" height="44" rx="6" fill="#ffffff" stroke="#e4e7eb"/>
+<text x="180" y="165" font-family="Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle">herendiensten en producten</text>
+<text x="180" y="185" font-family="Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle">(ploegen, vervoer, kippen, zilver)</text>
+<text x="180" y="325" font-family="Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle">Horigen en vrije boeren op hun hoeven</text>
+<rect x="470" y="50" width="200" height="50" rx="6" fill="none" stroke="#3b5bdb" stroke-width="2.5"/>
+<text x="570" y="82" font-family="Arial, sans-serif" font-size="15" fill="#1f2933" text-anchor="middle">Koning</text>
+<rect x="470" y="150" width="200" height="50" rx="6" fill="none" stroke="#3b5bdb" stroke-width="2.5"/>
+<text x="570" y="182" font-family="Arial, sans-serif" font-size="15" fill="#1f2933" text-anchor="middle">Graven en groten</text>
+<rect x="470" y="250" width="200" height="50" rx="6" fill="none" stroke="#3b5bdb" stroke-width="2.5"/>
+<text x="570" y="282" font-family="Arial, sans-serif" font-size="15" fill="#1f2933" text-anchor="middle">Vazallen (krijgers)</text>
+<line x1="530" y1="102" x2="530" y2="148" stroke="#1f2933" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="610" y1="148" x2="610" y2="102" stroke="#1f2933" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="530" y1="202" x2="530" y2="248" stroke="#1f2933" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="610" y1="248" x2="610" y2="202" stroke="#1f2933" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="520" y="130" font-family="Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="end">beneficium</text>
+<text x="620" y="130" font-family="Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="start">eed en dienst</text>
+<text x="520" y="230" font-family="Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="end">beneficium</text>
+<text x="620" y="230" font-family="Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="start">eed en dienst</text>
+<text x="570" y="340" font-family="Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle">Verbindt heren onderling</text>
+</svg>

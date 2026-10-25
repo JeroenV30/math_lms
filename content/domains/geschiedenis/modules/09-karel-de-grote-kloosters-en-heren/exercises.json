@@ -1,0 +1,970 @@
+{
+  "exercises": [
+    {
+      "id": "09-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "In latere eeuwen werd de slag bij Poitiers en Tours (732) beschreven als de redding van het christelijke Europa. Wat is de voorzichtigste conclusie van hedendaagse historici?",
+      "choices": [
+        "De slag verhoogde vooral het prestige van Karel Martel; dat de Arabisch-Berberse troepen heel Gallië wilden veroveren, is niet zeker",
+        "De slag bewees dat Europa door moslims zou zijn veroverd als Karel Martel had verloren",
+        "De slag was onbelangrijk en wordt in geen enkele bron genoemd",
+        "De slag maakte direct een einde aan alle Arabische aanwezigheid in Europa"
+      ],
+      "answer": "De slag verhoogde vooral het prestige van Karel Martel; dat de Arabisch-Berberse troepen heel Gallië wilden veroveren, is niet zeker",
+      "hints": [
+        "Vraag je af wie de slag later groter maakte dan ze toen was.",
+        "Denk aan wat de Arabisch-Berberse troepenmacht volgens de meeste onderzoekers beoogde."
+      ],
+      "solution": [
+        "Het belang van de slag is door latere schrijvers vergroot.",
+        "Voor Karel Martel zelf was ze belangrijk omdat ze zijn prestige als legeraanvoerder versterkte.",
+        "Of het een veroveringspoging of een strooptocht was, is niet vast te stellen."
+      ],
+      "feedback": [
+        {
+          "answer": "De slag bewees dat Europa door moslims zou zijn veroverd als Karel Martel had verloren",
+          "message": "Dat is een tegenfeitelijke stelling die uit latere interpretaties komt. Er is geen bewijs dat de troepen heel Gallië wilden veroveren."
+        },
+        {
+          "answer": "De slag was onbelangrijk en wordt in geen enkele bron genoemd",
+          "message": "De slag wordt wel in bronnen genoemd, onder meer in Frankische kronieken. Het gaat om de betekenis die men er later aan gaf."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "09-002",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Karel Martel strijdt bij Poitiers en Tours (732)",
+        "Pepijn de Korte wordt koning (751)",
+        "Karel wordt na de dood van Karloman alleen koning (771)",
+        "Karel verslaat de Longobarden (774)",
+        "Karel wordt in Rome tot keizer gekroond (800)"
+      ],
+      "hints": [
+        "Begin bij de vader van Pepijn.",
+        "Karel regeerde pas alleen na de dood van zijn broer."
+      ],
+      "solution": [
+        "732, 751, 771, 774, 800."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Pepijn de Korte wordt koning (751)",
+            "Karel Martel strijdt bij Poitiers en Tours (732)",
+            "Karel wordt na de dood van Karloman alleen koning (771)",
+            "Karel verslaat de Longobarden (774)",
+            "Karel wordt in Rome tot keizer gekroond (800)"
+          ],
+          "message": "Karel Martel was de vader van Pepijn en leefde dus eerder: 732 komt voor 751."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "09-003",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Volgens Einhards hoofdstuk 8 eindigde de oorlog tegen de Saksen in 804. De oorlog begon in 772. Hoeveel jaar duurde de oorlog volgens deze jaartallen?",
+      "answer": 32,
+      "unit": "jaar",
+      "hints": [
+        "Trek het beginjaar af van het eindjaar."
+      ],
+      "solution": [
+        "804 − 772 = 32 jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 33,
+          "message": "Einhard noemt in hoofdstuk 7 het getal 33, maar met de jaartallen 772 en 804 kom je op 32."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "09-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom is het gevaarlijk om het verhaal van de Saksenoorlog alleen op de Frankische annalen te baseren?",
+      "choices": [
+        "De annalen zijn door of voor het Frankische hof geschreven; de Saksen komen er alleen als tegenstander in voor",
+        "De annalen zijn pas in de twaalfde eeuw geschreven",
+        "Annalen zijn per definitie onbetrouwbaar omdat ze geschreven bronnen zijn",
+        "De Saksen schreven zelf uitgebreid verslagen, maar die zijn niet bewaard gebleven, dus er valt niets over te zeggen"
+      ],
+      "answer": "De annalen zijn door of voor het Frankische hof geschreven; de Saksen komen er alleen als tegenstander in voor",
+      "hints": [
+        "Vraag je af wie de annalist was en voor wie hij schreef."
+      ],
+      "solution": [
+        "De annalen zijn een hofbron en geven het Frankische perspectief.",
+        "Het gaat niet om betrouwbaar of onbetrouwbaar, maar om perspectief en doel."
+      ],
+      "feedback": [
+        {
+          "answer": "Annalen zijn per definitie onbetrouwbaar omdat ze geschreven bronnen zijn",
+          "message": "Een geschreven bron is niet vanzelf onbetrouwbaar. Je moet nagaan wie schreef, wanneer en met welk doel."
+        },
+        {
+          "answer": "De annalen zijn pas in de twaalfde eeuw geschreven",
+          "message": "De Koninklijke Frankische annalen zijn bijgehouden in de tijd van Karel zelf; ze zijn dus bijna gelijktijdig."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "sources"
+      ]
+    },
+    {
+      "id": "09-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Wat kun je op grond van Einhards bericht over de kroning in 800 het best concluderen?",
+      "choices": [
+        "Dat Einhard rond 830 wilde laten zien dat Karel de titel niet had gezocht; of Karel dat werkelijk zo ervoer, blijft onzeker",
+        "Dat Karel de keizerstitel zeker had afgewezen",
+        "Dat de kroning niet heeft plaatsgevonden",
+        "Dat Einhard een onbetrouwbare schrijver was en zijn boek dus geen waarde heeft"
+      ],
+      "answer": "Dat Einhard rond 830 wilde laten zien dat Karel de titel niet had gezocht; of Karel dat werkelijk zo ervoer, blijft onzeker",
+      "hints": [
+        "Onderscheid wat Karel dacht van wat Einhard later opschreef."
+      ],
+      "solution": [
+        "Einhard schreef ongeveer vijftien jaar na Karels dood en wilde hem eren.",
+        "De bron is daarom beter bruikbaar voor de vraag hoe men rond 830 dacht dan voor wat Karel in 800 voelde."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat Karel de keizerstitel zeker had afgewezen",
+          "message": "Einhard zegt dat Karel de kerk niet zou zijn binnengegaan als hij het plan had gekend; dat is geen afwijzing, en bovendien een latere bron."
+        },
+        {
+          "answer": "Dat Einhard een onbetrouwbare schrijver was en zijn boek dus geen waarde heeft",
+          "message": "Een bron met een bepaald doel is niet waardeloos. Ze is nuttig voor andere vragen dan waarvoor ze bedoeld was."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ],
+      "context": "Einhard (ca. 830, hoofdstuk 28, vrij vertaald naar Turner, 1880): Karel verklaarde \"dat hij die dag de kerk niet zou hebben betreden\" als hij het plan van de paus had gekend."
+    },
+    {
+      "id": "09-006",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Leg uit waarom de keizerskroning van Karel in 800 voor drie partijen een verschillende betekenis kon hebben: Karel, de paus en de Byzantijnse keizer.",
+      "answer": "Kernpunten: voor Karel een bevestiging van zijn status en verbondenheid met de kerk; voor de paus een beschermer in plaats van de verre keizer in Constantinopel; voor Byzantium een aanmatiging, omdat zij zichzelf als Romeinse keizers zagen (pas in 812 erkend, met een andere titel).",
+      "hints": [
+        "Denk aan wat elke partij won of verloor.",
+        "Wie beschouwde zichzelf al als Romeins keizer?"
+      ],
+      "solution": [
+        "Voor Karel was de titel een bevestiging van zijn rang en van zijn band met de kerk. De paus kreeg een machtige beschermer die niet in Constantinopel zat. In Byzantium regeerde sinds 797 keizerin Irene, en men beschouwde zich nog altijd als de Romeinse keizers: een Frankische keizer kon als aanmatiging gelden. Pas in 812 erkende keizer Michael I Karel, met een andere titel."
+      ],
+      "topics": [
+        "perspective",
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "09-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat was de taak van de missi dominici?",
+      "choices": [
+        "Als gezanten van de koning controleren of graven en kerken hun taak goed deden",
+        "Het leger van de koning aanvoeren in de Saksenoorlog",
+        "De kloosters leiden volgens de Regel van Benedictus",
+        "Het leenstelsel afschaffen"
+      ],
+      "answer": "Als gezanten van de koning controleren of graven en kerken hun taak goed deden",
+      "hints": [
+        "De naam betekent \"gezanten van de heer\"."
+      ],
+      "solution": [
+        "De missi reisden in paren door een gebied en controleerden rechtspraak, kerken en de eed van trouw."
+      ],
+      "feedback": [
+        {
+          "answer": "Het leger van de koning aanvoeren in de Saksenoorlog",
+          "message": "Het leger werd aangevoerd door de koning en zijn graven; de missi waren controleurs."
+        }
+      ],
+      "topics": [
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "09-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "In een capitularium wordt verboden dat graven mensen onrechtmatig van hun land zetten. Wat kun je daaruit het best afleiden?",
+      "choices": [
+        "Dat de koning dit wilde tegengaan en dat het waarschijnlijk voorkwam; hoe vaak, blijkt er niet uit",
+        "Dat het in het rijk nooit voorkwam",
+        "Dat het in het hele rijk dagelijks gebeurde",
+        "Dat de koning geen gezag had over zijn graven"
+      ],
+      "answer": "Dat de koning dit wilde tegengaan en dat het waarschijnlijk voorkwam; hoe vaak, blijkt er niet uit",
+      "hints": [
+        "Een verbod zegt iets over wat de schrijver wil en over wat hij vreest."
+      ],
+      "solution": [
+        "Een capitularium laat zien wat de koning wilde, niet wat er gebeurde.",
+        "Een verbod wijst erop dat het probleem bestond, maar zegt niets over de omvang."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat het in het hele rijk dagelijks gebeurde",
+          "message": "Dat gaat te ver: de bron geeft geen aantallen."
+        },
+        {
+          "answer": "Dat de koning geen gezag had over zijn graven",
+          "message": "Het verbod toont juist een poging om gezag uit te oefenen; of het werkte, weten we niet."
+        }
+      ],
+      "topics": [
+        "sources",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "09-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat veranderde er in 816 en 817 voor de kloosters in het Frankische rijk?",
+      "choices": [
+        "Op synoden in Aken werd bepaald dat alle kloosters de Regel van Benedictus moesten volgen",
+        "Alle kloosters werden gesloten en hun land werd verdeeld onder graven",
+        "Benedictus schreef toen zijn regel",
+        "Kloosters mochten voortaan geen land meer bezitten"
+      ],
+      "answer": "Op synoden in Aken werd bepaald dat alle kloosters de Regel van Benedictus moesten volgen",
+      "hints": [
+        "Benedictus van Aniane voerde onder Lodewijk de Vrome een hervorming door."
+      ],
+      "solution": [
+        "Voor 816 volgden kloosters vaak een mengeling van regels.",
+        "Na de synoden werd de Regel van Benedictus de norm."
+      ],
+      "feedback": [
+        {
+          "answer": "Benedictus schreef toen zijn regel",
+          "message": "De regel stamt uit ongeveer 540, ruim drie eeuwen eerder."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "09-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "De Regel van Benedictus dateert van ongeveer 540. In 816 werd bepaald dat alle Frankische kloosters haar moesten volgen. Hoeveel jaar zat daartussen?",
+      "answer": 276,
+      "unit": "jaar",
+      "hints": [
+        "Trek 540 af van 816."
+      ],
+      "solution": [
+        "816 − 540 = 276 jaar."
+      ],
+      "topics": [
+        "chronology",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "09-011",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de gebeurtenissen uit het leven van Willibrord in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Aankomst in Friesland met elf metgezellen (ca. 690)",
+        "Wijding tot bisschop door paus Sergius I in Rome (695)",
+        "Stichting van de abdij van Echternach (698)",
+        "Testament van Willibrord (726)",
+        "Overlijden in Echternach (739)"
+      ],
+      "hints": [
+        "Het testament komt na de stichting van de abdij."
+      ],
+      "solution": [
+        "ca. 690, 695, 698, 726, 739."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Wijding tot bisschop door paus Sergius I in Rome (695)",
+            "Aankomst in Friesland met elf metgezellen (ca. 690)",
+            "Stichting van de abdij van Echternach (698)",
+            "Testament van Willibrord (726)",
+            "Overlijden in Echternach (739)"
+          ],
+          "message": "Hij kwam eerst in Friesland aan (ca. 690) en werd daarna gewijd (695)."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "09-012",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom wordt de missie van Willibrord vaak in verband gebracht met de Frankische machtsuitbreiding?",
+      "choices": [
+        "Hij werd gesteund door Pepijn van Herstal en werkte in gebied dat de Franken onder hun invloed brachten",
+        "Hij werkte voor de Friese koning Radbod",
+        "Hij werd door de Romeinse keizer gestuurd",
+        "Hij was zelf een Frankische graaf"
+      ],
+      "answer": "Hij werd gesteund door Pepijn van Herstal en werkte in gebied dat de Franken onder hun invloed brachten",
+      "hints": [
+        "Wie beschermde de missionarissen en schonk hen land?"
+      ],
+      "solution": [
+        "Pepijn van Herstal bracht het zuiden van Friesland onder Frankische invloed.",
+        "De missie volgde op die expansie en kreeg steun van de Frankische elite."
+      ],
+      "feedback": [
+        {
+          "answer": "Hij werkte voor de Friese koning Radbod",
+          "message": "Radbod zag in het christendom eerder een verlengstuk van Frankische heerschappij en bleef tegenstander."
+        }
+      ],
+      "topics": [
+        "causation",
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "09-013",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Er zijn twee verhalen over Willibrord: een kerkelijk en een politiek. Beschrijf beide en leg uit waarom ze elkaar niet hoeven uit te sluiten.",
+      "answer": "Kernpunten: kerkelijk verhaal (heilige missionaris, bekeringsijver), politiek verhaal (instrument van Frankische expansie, schenkingen van de elite); beide kunnen waar zijn omdat motieven en gevolgen niet samenvallen en de bronnen beide ondersteunen.",
+      "hints": [
+        "Denk aan het verschil tussen de motieven van Willibrord zelf en de gevolgen van zijn werk."
+      ],
+      "solution": [
+        "In het kerkelijke verhaal is Willibrord een heilige missionaris die uit geloof naar het noorden trekt. In het politieke verhaal bevestigt zijn werk de Frankische heerschappij over Friesland, mede doordat Pepijn hem steunde en de elite hem land schonk. De twee sluiten elkaar niet uit: Willibrord kan oprecht gelovig zijn geweest terwijl zijn werk ook politiek nuttig was voor de Franken."
+      ],
+      "topics": [
+        "perspective",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "09-014",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Het verhaal dat Bonifatius bij Geismar een aan Donar gewijde eik velde, komt uit het heiligenleven dat Willibald kort na zijn dood schreef. Wat betekent dat voor het gebruik als bron?",
+      "choices": [
+        "Het laat vooral zien hoe men Bonifatius als heilige wilde afbeelden; het is niet zonder meer een neutraal verslag",
+        "Het bewijst dat het precies zo gebeurde, omdat Willibald dichtbij Bonifatius stond",
+        "Het is waardeloos omdat heiligenlevens altijd verzonnen zijn",
+        "Het is een primaire bron en daarom per definitie betrouwbaar"
+      ],
+      "answer": "Het laat vooral zien hoe men Bonifatius als heilige wilde afbeelden; het is niet zonder meer een neutraal verslag",
+      "hints": [
+        "Wat was het doel van een heiligenleven?"
+      ],
+      "solution": [
+        "Heiligenlevens willen de heiligheid van hun held aantonen.",
+        "De bron is bruikbaar, maar je moet het doel van de schrijver meewegen."
+      ],
+      "feedback": [
+        {
+          "answer": "Het is een primaire bron en daarom per definitie betrouwbaar",
+          "message": "Primair betekent dicht bij de gebeurtenis, niet betrouwbaar. Het doel van de schrijver telt mee."
+        },
+        {
+          "answer": "Het is waardeloos omdat heiligenlevens altijd verzonnen zijn",
+          "message": "Een heiligenleven bevat ook bruikbare gegevens; het is niet per definitie verzonnen."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "sources"
+      ]
+    },
+    {
+      "id": "09-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat wordt bedoeld met de \"Karolingische renaissance\"?",
+      "choices": [
+        "Een herleving van Latijnse geleerdheid en onderwijs, met zorg voor het correct kopiëren van teksten",
+        "Een nieuwe levensbeschouwing waarin de mens centraal staat, zoals later in Italië",
+        "Het afschaffen van het Latijn ten gunste van volkstalen",
+        "Het verbod op het kopiëren van klassieke teksten"
+      ],
+      "answer": "Een herleving van Latijnse geleerdheid en onderwijs, met zorg voor het correct kopiëren van teksten",
+      "hints": [
+        "De term komt uit de negentiende eeuw en is een vergelijking."
+      ],
+      "solution": [
+        "Karel liet scholen oprichten en haalde geleerden aan het hof.",
+        "Veel klassieke teksten zijn bewaard doordat Karolingische kopiisten ze overschreven."
+      ],
+      "feedback": [
+        {
+          "answer": "Een nieuwe levensbeschouwing waarin de mens centraal staat, zoals later in Italië",
+          "message": "Dat is de latere Italiaanse Renaissance. De Karolingische beweging was gericht op het herstel van teksten en onderwijs binnen een christelijke wereld."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "09-016",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Willibrord kwam rond 690 in Friesland aan. Bonifatius werd in 754 bij Dokkum gedood. Hoeveel jaar zat er tussen deze twee jaartallen?",
+      "answer": 64,
+      "unit": "jaar",
+      "hints": [
+        "Trek 690 af van 754."
+      ],
+      "solution": [
+        "754 − 690 = 64 jaar."
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "09-017",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat is kenmerkend voor het hofstelsel?",
+      "choices": [
+        "Een groot landgoed met een heerlijk erf en hoeven waarvan de bewoners diensten en producten moeten leveren",
+        "Een stelsel van belastingen dat door ambtenaren wordt geïnd",
+        "Een stelsel van handelssteden met eigen bestuur",
+        "Een leger van beroepssoldaten dat uit de staatskas wordt betaald"
+      ],
+      "answer": "Een groot landgoed met een heerlijk erf en hoeven waarvan de bewoners diensten en producten moeten leveren",
+      "hints": [
+        "Denk aan het polyptiek van Irminon."
+      ],
+      "solution": [
+        "Het hofstelsel beschrijft de organisatie van arbeid en opbrengsten op een groot landgoed."
+      ],
+      "feedback": [
+        {
+          "answer": "Een stelsel van belastingen dat door ambtenaren wordt geïnd",
+          "message": "Juist zulke belastingen en ambtenaren ontbraken grotendeels in deze periode."
+        }
+      ],
+      "topics": [
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "09-018",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat zijn herendiensten?",
+      "choices": [
+        "Arbeid die afhankelijke boeren verschuldigd waren op het land van de heer",
+        "Boetes die de heer aan zijn boeren betaalde",
+        "Dienst in het leger van de koning",
+        "De kerkdienst op zondag"
+      ],
+      "answer": "Arbeid die afhankelijke boeren verschuldigd waren op het land van de heer",
+      "hints": [
+        "Denk aan ploegen, oogsten en vervoer."
+      ],
+      "solution": [
+        "Herendiensten waren arbeid op het heerlijk erf, naast betalingen in natura of zilver."
+      ],
+      "feedback": [
+        {
+          "answer": "Dienst in het leger van de koning",
+          "message": "Dat is krijgsdienst, een verplichting van vazallen of vrije mannen, geen herendienst."
+        }
+      ],
+      "topics": [
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "09-019",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat kun je uit het polyptiek van Irminon afleiden over het dagelijks leven van de boeren, en wat niet? Geef minstens twee dingen die de bron laat zien en twee die ze niet laat zien.",
+      "answer": "Kernpunten: wel: namen, status, omvang van hoeven, verplichte diensten en betalingen, structuur van het landgoed. Niet: hoe vaak diensten echt werden geëist, wat boeren vonden, weerstand, gevolgen van slechte oogsten. Het is een bron van de beheerders.",
+      "hints": [
+        "Denk aan de herkomst en het doel van de bron."
+      ],
+      "solution": [
+        "De inventaris laat zien wie op welke hoeve woonde, onder welke status, en welke diensten en betalingen verschuldigd waren. Ze laat niet zien hoe vaak die diensten in de praktijk werden geëist, hoe de boeren erover dachten, of ze zich verzetten, en hoe ze met een mislukte oogst omgingen. Het is een beheersdocument, geschreven voor de abdij."
+      ],
+      "topics": [
+        "sources",
+        "perspective"
+      ]
+    },
+    {
+      "id": "09-020",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is een beneficium in het leenstelsel?",
+      "choices": [
+        "Land dat een heer aan een vazal in gebruik gaf in ruil voor trouw en diensten",
+        "Een belasting op handelsgoederen",
+        "De eed die een vazal zwoer",
+        "Een rechtbank onder voorzitterschap van de graaf"
+      ],
+      "answer": "Land dat een heer aan een vazal in gebruik gaf in ruil voor trouw en diensten",
+      "hints": [
+        "Het woord betekent \"weldaad\"."
+      ],
+      "solution": [
+        "Het beneficium (later leen of feodum) was het land dat de vazal kreeg. De eed van trouw is een ander onderdeel van de vazalliteit."
+      ],
+      "feedback": [
+        {
+          "answer": "De eed die een vazal zwoer",
+          "message": "De eed bezegelt de band (vazalliteit); het beneficium is de gift van land."
+        }
+      ],
+      "topics": [
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "09-021",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de stappen van een vazalliteitsband in logische volgorde: wat gaat aan wat vooraf?",
+      "answer": [
+        "Een man legt zijn handen in die van zijn heer",
+        "De man zweert een eed van trouw",
+        "De heer geeft hem een beneficium",
+        "De vazal levert militaire dienst",
+        "Bij ontrouw kan de heer het land terugvorderen"
+      ],
+      "hints": [
+        "De band wordt eerst gesloten; de dienst volgt daarna."
+      ],
+      "solution": [
+        "Eerst het gebaar, dan de eed, dan de gift van land, dan de dienst, en pas bij ontrouw de terugvordering."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "De man zweert een eed van trouw",
+            "Een man legt zijn handen in die van zijn heer",
+            "De heer geeft hem een beneficium",
+            "De vazal levert militaire dienst",
+            "Bij ontrouw kan de heer het land terugvorderen"
+          ],
+          "message": "In de beschrijving van de vazalliteit gaat het gebaar van de handen vooraf aan de eed."
+        }
+      ],
+      "topics": [
+        "causation",
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "09-022",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een medestudent zegt: \"Hofstelsel en leenstelsel zijn hetzelfde, het zijn twee namen voor het feodalisme.\" Wat is het beste weerwoord?",
+      "choices": [
+        "Het hofstelsel organiseert de relatie tussen heer en boeren, het leenstelsel die tussen heren onderling",
+        "Het klopt, maar het leenstelsel is ouder",
+        "Het hofstelsel bestond alleen in Nederland",
+        "Het leenstelsel gold alleen voor boeren"
+      ],
+      "answer": "Het hofstelsel organiseert de relatie tussen heer en boeren, het leenstelsel die tussen heren onderling",
+      "hints": [
+        "Wie verbindt het ene stelsel, en wie het andere?"
+      ],
+      "solution": [
+        "Het hofstelsel gaat over arbeid en opbrengst, het leenstelsel over trouw en dienst tussen heren.",
+        "In de praktijk raakten ze verweven, maar ze zijn niet identiek."
+      ],
+      "feedback": [
+        {
+          "answer": "Het leenstelsel gold alleen voor boeren",
+          "message": "Het leenstelsel verbond juist krijgers en heren; de boeren vallen onder het hofstelsel."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "09-023",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Iemand beschrijft het hofstelsel als \"puur onderdrukking\". Wat is het historische bezwaar tegen deze conclusie?",
+      "choices": [
+        "Het past een moderne maatstaf toe zonder de bronnen te laten spreken over de wederzijdse verplichtingen en het gebrek aan stem van de boeren",
+        "Het hofstelsel kende geen verplichtingen voor de boeren",
+        "Er bestonden toen helemaal geen boeren",
+        "Het hofstelsel was een vrijwillig contract tussen gelijken"
+      ],
+      "answer": "Het past een moderne maatstaf toe zonder de bronnen te laten spreken over de wederzijdse verplichtingen en het gebrek aan stem van de boeren",
+      "hints": [
+        "Denk aan presentisme."
+      ],
+      "solution": [
+        "Het stelsel was ongelijk en gebaseerd op dwang, maar kende ook bescherming en een recht op een hoeve.",
+        "De boeren hebben nauwelijks eigen bronnen nagelaten."
+      ],
+      "feedback": [
+        {
+          "answer": "Het hofstelsel was een vrijwillig contract tussen gelijken",
+          "message": "Dat is net zo eenzijdig: de partijen waren niet gelijk en de afhankelijkheid was groot."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "historiography"
+      ]
+    },
+    {
+      "id": "09-024",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Het polyptiek van Irminon beschrijft ongeveer 25 dorpen en nederzettingen en noemt meer dan 10.000 personen. Neem aan dat het er precies 10.000 zijn. Hoeveel personen zijn dat gemiddeld per dorp?",
+      "answer": 400,
+      "unit": "personen",
+      "hints": [
+        "Deel het aantal personen door het aantal dorpen."
+      ],
+      "solution": [
+        "10.000 : 25 = 400 personen per dorp."
+      ],
+      "topics": [
+        "sources"
+      ]
+    },
+    {
+      "id": "09-025",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Dood van Karel de Grote (814)",
+        "Ordinatio imperii van Lodewijk de Vrome (817)",
+        "Geboorte van Karel de Kale (823)",
+        "Slag bij Fontenoy (841)",
+        "Verdrag van Verdun (843)"
+      ],
+      "hints": [
+        "Verdun was het eindpunt van de strijd tussen de broers."
+      ],
+      "solution": [
+        "814, 817, 823, 841, 843."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Dood van Karel de Grote (814)",
+            "Geboorte van Karel de Kale (823)",
+            "Ordinatio imperii van Lodewijk de Vrome (817)",
+            "Slag bij Fontenoy (841)",
+            "Verdrag van Verdun (843)"
+          ],
+          "message": "De regeling van 817 kwam voor de geboorte van Karel de Kale; de geboorte in 823 verstoorde de regeling."
+        }
+      ],
+      "topics": [
+        "causation",
+        "chronology"
+      ]
+    },
+    {
+      "id": "09-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "\"Het Verdrag van Verdun (843) is het begin van Frankrijk en Duitsland.\" Wat is het beste commentaar?",
+      "choices": [
+        "De verdeling was een erfdeling tussen broers; de latere grenzen en natiestaten liggen er niet in vast, dus de stelling is anachronistisch",
+        "De stelling klopt volledig, want de grens van 843 is de huidige grens",
+        "Er bestonden in 843 al nationale staten met eigen volkeren",
+        "Het verdrag verdeelde het rijk in vier gelijke delen"
+      ],
+      "answer": "De verdeling was een erfdeling tussen broers; de latere grenzen en natiestaten liggen er niet in vast, dus de stelling is anachronistisch",
+      "hints": [
+        "Wat was het doel van het verdrag?"
+      ],
+      "solution": [
+        "Het verdrag verdeelde het erfdeel in drie delen voor drie broers.",
+        "Het middenrijk verdween snel en de latere grens ligt elders."
+      ],
+      "feedback": [
+        {
+          "answer": "Er bestonden in 843 al nationale staten met eigen volkeren",
+          "message": "Nationale staten zijn een veel latere ontwikkeling; zeggen dat ze er toen al waren is anachronistisch."
+        },
+        {
+          "answer": "Het verdrag verdeelde het rijk in vier gelijke delen",
+          "message": "Het waren drie delen."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "09-027",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke combinatie van bronnen is nodig om de gevolgen van de Vikingaanvallen op Dorestad te beoordelen?",
+      "choices": [
+        "Annalen over de aanvallen en archeologische gegevens over de nederzetting",
+        "Alleen de annalen, want archeologie zegt niets over gebeurtenissen",
+        "Alleen de opgravingen, want annalen zijn altijd overdreven",
+        "Alleen latere legenden over de Vikingen"
+      ],
+      "answer": "Annalen over de aanvallen en archeologische gegevens over de nederzetting",
+      "hints": [
+        "De annalen geven gebeurtenissen, de bodem geeft sporen."
+      ],
+      "solution": [
+        "Annalen noemen de aanvallen, maar zijn kort en komen van het hof.",
+        "De opgravingen laten zien dat de sporen minder duidelijk zijn dan de annalen suggereren."
+      ],
+      "feedback": [
+        {
+          "answer": "Alleen de annalen, want archeologie zegt niets over gebeurtenissen",
+          "message": "Archeologie laat juist zien wat er met een nederzetting gebeurde en corrigeert soms de annalen."
+        }
+      ],
+      "topics": [
+        "sources",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "09-028",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Karel werd in 800 tot keizer gekroond. Het Verdrag van Verdun werd gesloten in 843. Hoeveel jaar zat daartussen?",
+      "answer": 43,
+      "unit": "jaar",
+      "hints": [
+        "Trek 800 af van 843."
+      ],
+      "solution": [
+        "843 − 800 = 43 jaar."
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "09-029",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Verklaar waarom de macht in de late negende en tiende eeuw verschoof van de koning naar plaatselijke heren. Gebruik minstens twee oorzaken en weeg ze tegen elkaar af.",
+      "answer": "Kernpunten: Vikingaanvallen (koning kon niet beschermen), erfdelingen en burgeroorlogen, bestuur op persoonlijke trouw zonder ambtenarenapparaat, erfelijk worden van graafschappen en leengoederen. Een goed antwoord geeft aan dat de fragmentatie al voor de Vikingen begon en dat de aanvallen een versneller waren; zekerheid matig.",
+      "hints": [
+        "Scheid kortetermijnoorzaken van langetermijnoorzaken.",
+        "Welke oorzaak werkte al voor de Vikingen?"
+      ],
+      "solution": [
+        "Op korte termijn werkten de burgeroorlogen en de Vikingaanvallen: de koning kon zijn mensen niet beschermen, en dus zochten ze bescherming bij plaatselijke heren. Op de lange termijn stond het bestuur dat op persoonlijke trouw berustte en het gebrek aan belastingen en ambtenaren, plus de erfdelingen. Waarschijnlijk was de fragmentatie al gaande voor de Vikingen en versnelden de aanvallen haar. Zekerheid: matig."
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "09-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is het kernbezwaar van Elizabeth A.R. Brown (1974) tegen het begrip feodalisme?",
+      "choices": [
+        "Het begrip is zoveel verschillende dingen gaan betekenen dat het niets meer verduidelijkt en de bronnen in een raster dwingt",
+        "Er bestonden in de middeleeuwen geen vazallen",
+        "Feodalisme was een uitvinding van Marc Bloch",
+        "Het begrip is alleen bruikbaar voor Japan"
+      ],
+      "answer": "Het begrip is zoveel verschillende dingen gaan betekenen dat het niets meer verduidelijkt en de bronnen in een raster dwingt",
+      "hints": [
+        "Haar artikel heet \"The Tyranny of a Construct\"."
+      ],
+      "solution": [
+        "Brown bestrijdt het begrip als overkoepelend raster, niet het bestaan van vazallen.",
+        "Reynolds werkt dit bezwaar in 1994 verder uit."
+      ],
+      "feedback": [
+        {
+          "answer": "Er bestonden in de middeleeuwen geen vazallen",
+          "message": "Brown en Reynolds ontkennen vazallen niet; ze betwisten dat die de hele samenleving ordenden."
+        },
+        {
+          "answer": "Feodalisme was een uitvinding van Marc Bloch",
+          "message": "Het woord is veel ouder; Bloch gaf er een brede betekenis aan."
+        }
+      ],
+      "topics": [
+        "historiography"
+      ]
+    },
+    {
+      "id": "09-031",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Leg uit waarom Ganshof en een marxistisch historicus het over verschillende dingen hebben wanneer ze \"feodalisme\" zeggen, en waarom dat uitmaakt voor een uitspraak als \"het Karolingische rijk was feodaal\".",
+      "answer": "Kernpunten: Ganshof definieert juridisch (vazalliteit en leen tussen vrije mannen); marxistisch: productiewijze (afhankelijke boeren, overschot door niet-economische dwang). Zonder definitie is de uitspraak niet te beoordelen: ze kan waar zijn in de ene en betwistbaar in de andere betekenis.",
+      "hints": [
+        "Vraag je af wat elke definitie als kern van de samenleving ziet."
+      ],
+      "solution": [
+        "Voor Ganshof draait feodalisme om de juridische band tussen heer en vazal, met een leen als onderhoud. In de marxistische betekenis gaat het om de manier waarop een heersende klasse het overschot van afhankelijke boeren opeist door dwang. De uitspraak \"het rijk was feodaal\" kan daarom in de ene betekenis redelijk zijn (hofstelsel, horigen) en in de andere omstreden (hoe wijdverbreid was het leenstelsel?). Zonder definitie kun je haar niet beoordelen."
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "09-032",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Einhard noemt de Saksenoorlog in hoofdstuk 7 een oorlog van drieëndertig jaar en in hoofdstuk 8 een van tweeëndertig jaar. Wat is de verstandigste omgang met dit verschil?",
+      "choices": [
+        "Het toont dat cijfers in de bron niet exact zijn of op verschillende telwijzen berusten; zonder meer aannemen is niet verstandig",
+        "De bron is hiermee waardeloos",
+        "Je moet altijd het hoogste getal nemen",
+        "Het verschil bewijst dat Einhard het boek niet zelf schreef"
+      ],
+      "answer": "Het toont dat cijfers in de bron niet exact zijn of op verschillende telwijzen berusten; zonder meer aannemen is niet verstandig",
+      "hints": [
+        "Hoe tel je de jaren van 772 tot 804?"
+      ],
+      "solution": [
+        "Met de jaren 772 en 804 kom je op 32 jaar; het getal 33 telt waarschijnlijk beide randjaren mee.",
+        "Zo'n verschil is een reden voor voorzichtigheid, niet voor afwijzing."
+      ],
+      "feedback": [
+        {
+          "answer": "De bron is hiermee waardeloos",
+          "message": "Een afwijking in een cijfer maakt de bron niet waardeloos; ze vraagt om voorzichtig gebruik."
+        },
+        {
+          "answer": "Het verschil bewijst dat Einhard het boek niet zelf schreef",
+          "message": "Dat volgt er niet uit; schrijvers kunnen inconsistent zijn."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "09-033",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De annalen melden dat Karel in 782 bij Verden 4500 Saksen liet terechtstellen. Wat is de beste manier om dit getal te gebruiken?",
+      "choices": [
+        "Als aanwijzing voor de omvang van het geweld uit een hofbron, met voorbehoud over de nauwkeurigheid",
+        "Als exact feit, want annalen zijn gelijktijdig",
+        "Als bewijs dat de Saksen volledig zijn uitgeroeid",
+        "Het getal mag je niet gebruiken omdat het van de winnaars komt"
+      ],
+      "answer": "Als aanwijzing voor de omvang van het geweld uit een hofbron, met voorbehoud over de nauwkeurigheid",
+      "hints": [
+        "Wie schreef het en voor wie?"
+      ],
+      "solution": [
+        "Het getal komt uit een Frankische hofbron. Het is bruikbaar met voorbehoud."
+      ],
+      "feedback": [
+        {
+          "answer": "Als exact feit, want annalen zijn gelijktijdig",
+          "message": "Gelijktijdig betekent niet exact; getallen kunnen afgerond of overdreven zijn."
+        },
+        {
+          "answer": "Het getal mag je niet gebruiken omdat het van de winnaars komt",
+          "message": "Ook een bron van de winnaars is bruikbaar als je het perspectief meeweegt."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "09-034",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Beantwoord de vraag \"Hoe ver reikte het gezag van Karel de Grote?\" in ongeveer 150 woorden met de bronnen A, B en C uit het practicum. Geef ook aan hoe zeker je conclusie is.",
+      "answer": "Kernpunten: A en B zijn hofbronnen die geweld en gezag benadrukken; C toont lokale machthebbers met eigen administratie; geen bron geeft de stem van de bestuurden; conclusie: groot waar de koning aanwezig was en steun had van kerk en grootgrondbezitters, in de praktijk moeilijk te meten; zekerheid matig.",
+      "hints": [
+        "Noem bij elke bron de herkomst.",
+        "Sluit af met een zekerheidsniveau."
+      ],
+      "solution": [
+        "Bron A en B, Einhard en de annalen, komen van het hof en benadrukken gezag en geweld. Bron C, het polyptiek, laat zien dat een abdij zelf een gedetailleerd bestuur voerde. Geen van de bronnen laat horen wat de bestuurden dachten. Waarschijnlijk was het gezag groot waar de koning zelf aanwezig was en steun had van kerk en grootgrondbezitters, maar hoe ver het in de dagelijkse praktijk reikte, is moeilijk vast te stellen. Zekerheid: matig."
+      ],
+      "topics": [
+        "sources",
+        "perspective"
+      ]
+    }
+  ]
+}

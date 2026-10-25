@@ -4,19 +4,169 @@
   "title": "Karel de Grote, kloosters en heren",
   "part": 4,
   "level": "fundamenten",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Ca. 700 – 1000",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 200,
   "prerequisites": [
     1
   ],
   "topics": [
     "middle-ages",
     "contextualisation",
-    "historiography"
+    "historiography",
+    "sources",
+    "causation",
+    "continuity-change"
   ],
   "core_question": "Hoe werd een samenleving zonder sterke staat bestuurd?",
   "summary": "Het Frankische rijk, kloosters en kerstening, hofstelsel en leenstelsel, en de discussie over het begrip feodalisme.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een inventaris van mensen",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "van-hofmeiers-tot-keizer",
+      "title": "Van hofmeiers tot keizer",
+      "file": "02-van-hofmeiers-tot-keizer.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "kloosters-en-kerstening",
+      "title": "Kloosters, missionarissen en boeken",
+      "file": "03-kloosters-en-kerstening.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "hofstelsel-en-leenstelsel",
+      "title": "Landgoed en leen",
+      "file": "04-hofstelsel-en-leenstelsel.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "verdeling-en-vikingen",
+      "title": "Verdun en de Vikingen",
+      "file": "05-verdeling-en-vikingen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat: wat was feodalisme?",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum: het gezag van Karel",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen hoe de Karolingen van hofmeiers tot koningen en keizers opklommen en hoe Karel de Grote zijn rijk bestuurde met graven, missi dominici en capitularia.",
+    "Je kunt de keizerskroning van 800 verklaren vanuit de belangen van Karel, de paus en Byzantium en een bericht daarover als bron beoordelen.",
+    "Je kunt de rol van kloosters, de Regel van Benedictus en missionarissen als Willibrord en Bonifatius beschrijven en hun werk verbinden met de Frankische expansie.",
+    "Je kunt de Karolingische renaissance en de minuskel beschrijven en uitleggen waarom zij voor de overlevering van teksten van belang waren.",
+    "Je kunt het hofstelsel en het leenstelsel onderscheiden en met een bron als het polyptiek van Irminon uitleggen wat die bron wel en niet laat zien.",
+    "Je kunt de verdeling van het rijk (Verdun, 843) en de Vikingaanvallen op Dorestad verklaren met meerdere samenhangende oorzaken.",
+    "Je kunt het debat over het begrip feodalisme weergeven (Ganshof, Bloch, Brown, Reynolds, de marxistische betekenis) en uitleggen waarom het om interpretaties gaat."
+  ],
+  "glossary": [
+    {
+      "term": "Karolingen",
+      "definition": "De Frankische dynastie die na de Merovingen de macht greep, met Pepijn de Korte (koning in 751) en Karel de Grote (keizer in 800) als bekendste vertegenwoordigers."
+    },
+    {
+      "term": "Hofmeier",
+      "definition": "De leider van het koninklijk huishouden (maior domus) in het Merovingische rijk, die in de zevende en achtste eeuw de werkelijke macht uitoefende."
+    },
+    {
+      "term": "Graaf",
+      "definition": "Koninklijk bestuurder van een graafschap, met rechtspraak, legeraanvoer en beheer van koninklijke goederen."
+    },
+    {
+      "term": "Missi dominici",
+      "definition": "Gezanten van de koning, meestal een geestelijke en een wereldlijke grote, die rondreisden om graven en kerken te controleren."
+    },
+    {
+      "term": "Capitularium",
+      "definition": "Een koninklijke verordening, ingedeeld in korte hoofdstukken (capitula)."
+    },
+    {
+      "term": "Regel van Benedictus",
+      "definition": "De regel voor het kloosterleven die Benedictus van Nursia rond 540 schreef en die onder Lodewijk de Vrome de norm voor Frankische kloosters werd."
+    },
+    {
+      "term": "Karolingische minuskel",
+      "definition": "Een rond 800 ontwikkeld schrift met kleine, duidelijk gescheiden letters, waarvan ons huidige schrift afstamt."
+    },
+    {
+      "term": "Hofstelsel",
+      "definition": "De organisatie van een groot landgoed met een heerlijk erf en hoeven, waarvan afhankelijke boeren diensten en producten leverden."
+    },
+    {
+      "term": "Horige",
+      "definition": "Een afhankelijke boer die aan een hoeve en een heer gebonden was en diensten verschuldigd was, zonder eigendom van de heer te zijn."
+    },
+    {
+      "term": "Herendiensten",
+      "definition": "Arbeid die afhankelijke boeren verschuldigd waren op het land van hun heer."
+    },
+    {
+      "term": "Vazal",
+      "definition": "Een krijger die zich met een eed van trouw aan een heer verbond en daarvoor bescherming, onderhoud of land kreeg."
+    },
+    {
+      "term": "Beneficium",
+      "definition": "Land dat een heer aan een vazal in gebruik gaf; later vaak leen of feodum genoemd."
+    },
+    {
+      "term": "Feodalisme",
+      "definition": "Een door latere geleerden bedacht begrip met uiteenlopende betekenissen: een juridisch stelsel van vazalliteit en leen, een type samenleving, een productiewijze of een omstreden construct."
+    },
+    {
+      "term": "Polyptiek",
+      "definition": "Een inventaris van de bezittingen van een landgoed of abdij, met bewoners en verplichtingen."
+    }
+  ],
+  "timeline": [
+    "regel-van-benedictus-540",
+    "willibrord-bisschop-695",
+    "slag-bij-poitiers-732",
+    "pepijn-koning-751",
+    "bonifatius-dokkum-754",
+    "kroning-karel-keizer-800",
+    "capitulare-de-villis-800",
+    "polyptiek-van-irminon-823",
+    "dorestad-vikingaanvallen-834",
+    "verdrag-van-verdun-843",
+    "verdrag-van-meerssen-870",
+    "ganshof-feodaliteit-1944",
+    "bloch-feodale-samenleving-1939",
+    "brown-tyranny-of-a-construct-1974",
+    "reynolds-fiefs-and-vassals-1994"
+  ],
+  "people": [
+    "karel-martel",
+    "pepijn-de-korte",
+    "karel-de-grote",
+    "willibrord",
+    "bonifatius",
+    "alcuinus",
+    "einhard",
+    "benedictus-van-nursia",
+    "lodewijk-de-vrome",
+    "marc-bloch",
+    "ganshof",
+    "susan-reynolds"
+  ]
 }

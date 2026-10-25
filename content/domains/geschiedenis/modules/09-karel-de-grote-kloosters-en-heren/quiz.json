@@ -1,0 +1,439 @@
+{
+  "title": "Hoofdstuktoets – Karel de Grote, kloosters en heren",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "09-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat deden de missi dominici?",
+      "choices": [
+        "Als gezanten van de koning in paren een gebied controleren op rechtspraak, kerken en trouw",
+        "De graven vervangen als lokale bestuurders",
+        "Het leger aanvoeren",
+        "Belasting innen voor de koninklijke schatkist"
+      ],
+      "answer": "Als gezanten van de koning in paren een gebied controleren op rechtspraak, kerken en trouw",
+      "hints": [],
+      "solution": [
+        "Als gezanten van de koning in paren een gebied controleren op rechtspraak, kerken en trouw"
+      ],
+      "feedback": [
+        {
+          "answer": "De graven vervangen als lokale bestuurders",
+          "message": "De graven bleven bestuurders; de missi controleerden hen."
+        }
+      ],
+      "topics": [
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "09-T02",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Pepijn de Korte wordt koning (751)",
+        "Karel wordt tot keizer gekroond (800)",
+        "Verdrag van Verdun (843)",
+        "Verdrag van Meerssen (870)"
+      ],
+      "hints": [],
+      "solution": [
+        "751, 800, 843, 870."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Karel wordt tot keizer gekroond (800)",
+            "Pepijn de Korte wordt koning (751)",
+            "Verdrag van Verdun (843)",
+            "Verdrag van Meerssen (870)"
+          ],
+          "message": "Pepijn werd koning in 751, voor de keizerkroning van zijn zoon in 800."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "09-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke omschrijving past bij het hofstelsel?",
+      "choices": [
+        "Een landgoed met een heerlijk erf en hoeven waarvan de bewoners diensten en producten leveren",
+        "Een eed van trouw tussen een krijger en zijn heer",
+        "Een stedelijk bestuur met gekozen schepenen",
+        "Een leger van beroepssoldaten"
+      ],
+      "answer": "Een landgoed met een heerlijk erf en hoeven waarvan de bewoners diensten en producten leveren",
+      "hints": [],
+      "solution": [
+        "Een landgoed met een heerlijk erf en hoeven waarvan de bewoners diensten en producten leveren"
+      ],
+      "feedback": [
+        {
+          "answer": "Een eed van trouw tussen een krijger en zijn heer",
+          "message": "Dat beschrijft vazalliteit, onderdeel van het leenstelsel."
+        }
+      ],
+      "topics": [
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "09-T04",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Pepijn de Korte werd in 751 koning, Karel de Grote werd in 800 keizer. Hoeveel jaar zat daartussen?",
+      "answer": 49,
+      "unit": "jaar",
+      "hints": [],
+      "solution": [
+        "800 − 751 = 49 jaar."
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "09-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat kun je op grond van dit fragment het best concluderen?",
+      "context": "Einhard (ca. 830, vrij vertaald naar Turner, 1880), over de kroning in 800: Karel verklaarde \"dat hij die dag de kerk niet zou hebben betreden\" als hij het plan van de paus had gekend.",
+      "choices": [
+        "Einhard wilde, ruim vijftien jaar na Karels dood, laten zien dat de titel niet van Karel zelf kwam; Karels eigen gevoelens blijven onzeker",
+        "Karel de Grote weigerde de keizerstitel",
+        "De kroning vond waarschijnlijk niet plaats",
+        "Het fragment is waardeloos omdat het een latere bron is"
+      ],
+      "answer": "Einhard wilde, ruim vijftien jaar na Karels dood, laten zien dat de titel niet van Karel zelf kwam; Karels eigen gevoelens blijven onzeker",
+      "hints": [],
+      "solution": [
+        "Einhard wilde, ruim vijftien jaar na Karels dood, laten zien dat de titel niet van Karel zelf kwam; Karels eigen gevoelens blijven onzeker"
+      ],
+      "feedback": [
+        {
+          "answer": "Karel de Grote weigerde de keizerstitel",
+          "message": "Het fragment zegt iets over zijn bezwaar tegen de manier van kroning, niet dat hij de titel afwees; bovendien is de bron later en welwillend."
+        },
+        {
+          "answer": "Het fragment is waardeloos omdat het een latere bron is",
+          "message": "Een latere bron is bruikbaar voor andere vragen, bijvoorbeeld hoe men rond 830 dacht."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "sources"
+      ]
+    },
+    {
+      "id": "09-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat veranderde er in 816 en 817 voor Frankische kloosters?",
+      "choices": [
+        "De Regel van Benedictus werd voor alle kloosters de norm",
+        "Kloosters moesten hun land aan de koning afstaan",
+        "De Regel van Benedictus werd toen voor het eerst geschreven",
+        "Kloosters mochten niet meer kopiëren"
+      ],
+      "answer": "De Regel van Benedictus werd voor alle kloosters de norm",
+      "hints": [],
+      "solution": [
+        "De Regel van Benedictus werd voor alle kloosters de norm"
+      ],
+      "feedback": [
+        {
+          "answer": "De Regel van Benedictus werd toen voor het eerst geschreven",
+          "message": "De regel dateert van ca. 540."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "09-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Hoe moet je dit gegeven over Bonifatius als bron beoordelen?",
+      "context": "Volgens Willibald, die kort na de dood van Bonifatius (754) diens levensbeschrijving schreef, velde Bonifatius bij Geismar een eik die aan de god Donar was gewijd.",
+      "choices": [
+        "Als verhaal uit een heiligenleven dat de heiligheid van Bonifatius wil tonen; bruikbaar, maar niet zonder meer als neutraal verslag",
+        "Als bewijs dat het precies zo gebeurde omdat de schrijver dichtbij was",
+        "Als waardeloos omdat het over een wonder gaat",
+        "Als een primaire bron en dus betrouwbaar"
+      ],
+      "answer": "Als verhaal uit een heiligenleven dat de heiligheid van Bonifatius wil tonen; bruikbaar, maar niet zonder meer als neutraal verslag",
+      "hints": [],
+      "solution": [
+        "Als verhaal uit een heiligenleven dat de heiligheid van Bonifatius wil tonen; bruikbaar, maar niet zonder meer als neutraal verslag"
+      ],
+      "feedback": [
+        {
+          "answer": "Als een primaire bron en dus betrouwbaar",
+          "message": "Primair is niet gelijk aan betrouwbaar; het doel van de schrijver telt mee."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "09-T08",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Willibrord wordt in Rome tot bisschop gewijd (695)",
+        "Bonifatius wordt gedood bij Dokkum (754)",
+        "Karel de Grote wordt gekroond (800)",
+        "Dorestad wordt herhaaldelijk overvallen (834 – 837)"
+      ],
+      "hints": [],
+      "solution": [
+        "695, 754, 800, 834 – 837."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Bonifatius wordt gedood bij Dokkum (754)",
+            "Willibrord wordt in Rome tot bisschop gewijd (695)",
+            "Karel de Grote wordt gekroond (800)",
+            "Dorestad wordt herhaaldelijk overvallen (834 – 837)"
+          ],
+          "message": "Willibrord werd al in 695 gewijd, vóór de dood van Bonifatius."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "09-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat kun je met dit polyptiek wel en niet onderzoeken?",
+      "context": "Het polyptiek van Irminon (ca. 823) is een inventaris van de bezittingen van de abdij Saint-Germain-des-Prés. Het noemt per hoeve de bewoners met hun status en de diensten en betalingen die zij verschuldigd zijn.",
+      "choices": [
+        "De omvang en organisatie van het landgoed wel; wat de boeren dachten en hoe vaak diensten werkelijk werden geëist niet",
+        "Hoe de boeren hun heer zagen wel; de omvang van het landgoed niet",
+        "Alles over het dagelijks leven, want het is een gelijktijdige bron",
+        "Niets, want het is een lijst en geen verhaal"
+      ],
+      "answer": "De omvang en organisatie van het landgoed wel; wat de boeren dachten en hoe vaak diensten werkelijk werden geëist niet",
+      "hints": [],
+      "solution": [
+        "De omvang en organisatie van het landgoed wel; wat de boeren dachten en hoe vaak diensten werkelijk werden geëist niet"
+      ],
+      "feedback": [
+        {
+          "answer": "Alles over het dagelijks leven, want het is een gelijktijdige bron",
+          "message": "Gelijktijdig betekent niet volledig; de bron is een beheerdocument."
+        },
+        {
+          "answer": "Niets, want het is een lijst en geen verhaal",
+          "message": "Juist lijsten zijn een rijke bron voor structuren."
+        }
+      ],
+      "topics": [
+        "sources",
+        "perspective"
+      ]
+    },
+    {
+      "id": "09-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is een beneficium?",
+      "choices": [
+        "Land dat een heer aan een vazal in gebruik gaf in ruil voor trouw en diensten",
+        "De eed die een vazal zwoer",
+        "Een boete voor ontrouw",
+        "Het polyptiek van een abdij"
+      ],
+      "answer": "Land dat een heer aan een vazal in gebruik gaf in ruil voor trouw en diensten",
+      "hints": [],
+      "solution": [
+        "Land dat een heer aan een vazal in gebruik gaf in ruil voor trouw en diensten"
+      ],
+      "feedback": [
+        {
+          "answer": "De eed die een vazal zwoer",
+          "message": "De eed hoort bij de vazalliteit; het beneficium is het land."
+        }
+      ],
+      "topics": [
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "09-T11",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Welke omschrijving doet recht aan de kritiek van Brown en Reynolds?",
+      "context": "Elizabeth A.R. Brown schreef in 1974 \"The Tyranny of a Construct\"; Susan Reynolds publiceerde in 1994 *Fiefs and Vassals*. Beide stellen vragen bij het begrip feodalisme.",
+      "choices": [
+        "Zij betwisten dat vazalliteit en leen een samenhangend stelsel vormden dat de samenleving ordende, en wijzen op latere juridische systematisering",
+        "Zij beweren dat er in de middeleeuwen geen vazallen en geen leengoederen bestonden",
+        "Zij verdedigen de definitie van Ganshof",
+        "Zij gebruiken feodalisme uitsluitend in marxistische betekenis"
+      ],
+      "answer": "Zij betwisten dat vazalliteit en leen een samenhangend stelsel vormden dat de samenleving ordende, en wijzen op latere juridische systematisering",
+      "hints": [],
+      "solution": [
+        "Zij betwisten dat vazalliteit en leen een samenhangend stelsel vormden dat de samenleving ordende, en wijzen op latere juridische systematisering"
+      ],
+      "feedback": [
+        {
+          "answer": "Zij beweren dat er in de middeleeuwen geen vazallen en geen leengoederen bestonden",
+          "message": "Zij ontkennen het bestaan ervan niet, maar de ordenende rol."
+        },
+        {
+          "answer": "Zij verdedigen de definitie van Ganshof",
+          "message": "Zij bekritiseren juist het kader waarin Ganshof werkte."
+        }
+      ],
+      "topics": [
+        "historiography"
+      ]
+    },
+    {
+      "id": "09-T12",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat is de verstandigste omgang met het getal 4500?",
+      "context": "Volgens de Koninklijke Frankische annalen (hofannalen) liet Karel in 782 bij Verden aan de Aller 4500 Saksen terechtstellen.",
+      "choices": [
+        "Gebruiken als aanwijzing voor de omvang van het geweld uit een hofbron, met voorbehoud over de nauwkeurigheid",
+        "Als exact feit aannemen omdat de annalen gelijktijdig zijn",
+        "Verwerpen omdat de winnaars het schreven",
+        "Gebruiken als bewijs dat de Saksen uitgeroeid zijn"
+      ],
+      "answer": "Gebruiken als aanwijzing voor de omvang van het geweld uit een hofbron, met voorbehoud over de nauwkeurigheid",
+      "hints": [],
+      "solution": [
+        "Gebruiken als aanwijzing voor de omvang van het geweld uit een hofbron, met voorbehoud over de nauwkeurigheid"
+      ],
+      "feedback": [
+        {
+          "answer": "Verwerpen omdat de winnaars het schreven",
+          "message": "Ook winnaarsbronnen zijn bruikbaar als je het perspectief meeweegt."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "perspective"
+      ]
+    },
+    {
+      "id": "09-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Welke verklaring voor het uiteenvallen van het Karolingische rijk is het sterkst?",
+      "choices": [
+        "Een combinatie van erfdeling, burgeroorlog, een bestuur op persoonlijke trouw en later de Vikingaanvallen",
+        "Alleen de Vikingaanvallen",
+        "Alleen de slechte karakters van Lodewijks zonen",
+        "Het verdrag van Verdun, dat de natiestaten schiep"
+      ],
+      "answer": "Een combinatie van erfdeling, burgeroorlog, een bestuur op persoonlijke trouw en later de Vikingaanvallen",
+      "hints": [],
+      "solution": [
+        "Een combinatie van erfdeling, burgeroorlog, een bestuur op persoonlijke trouw en later de Vikingaanvallen"
+      ],
+      "feedback": [
+        {
+          "answer": "Alleen de Vikingaanvallen",
+          "message": "Dat is monocausaal: de fragmentatie begon ook zonder Vikingen."
+        },
+        {
+          "answer": "Het verdrag van Verdun, dat de natiestaten schiep",
+          "message": "Dat is anachronistisch: Verdun was een erfdeling, geen oprichting van natiestaten."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "09-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke aanpak past het best bij de vraag wat de Vikingaanvallen voor Dorestad betekenden?",
+      "context": "De Annales Bertiniani, een Frankisch hofannaal, vermelden dat Noormannen tussen 834 en 837 vrijwel elk jaar Dorestad bezochten. Opgravingen hebben de nederzetting blootgelegd.",
+      "choices": [
+        "Annalen en archeologische gegevens naast elkaar leggen, want de annalen zijn kort en de sporen minder duidelijk dan de annalen suggereren",
+        "Alleen de annalen, want archeologie zegt niets over gebeurtenissen",
+        "Alleen de opgravingen, want annalen zijn altijd verzonnen",
+        "Alleen latere legenden"
+      ],
+      "answer": "Annalen en archeologische gegevens naast elkaar leggen, want de annalen zijn kort en de sporen minder duidelijk dan de annalen suggereren",
+      "hints": [],
+      "solution": [
+        "Annalen en archeologische gegevens naast elkaar leggen, want de annalen zijn kort en de sporen minder duidelijk dan de annalen suggereren"
+      ],
+      "feedback": [
+        {
+          "answer": "Alleen de annalen, want archeologie zegt niets over gebeurtenissen",
+          "message": "Archeologie kan de annalen aanvullen en corrigeren."
+        }
+      ],
+      "topics": [
+        "sources"
+      ]
+    },
+    {
+      "id": "09-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 5,
+      "question": "\"Het Karolingische rijk was feodaal.\" Wat is de beste reactie van een historicus?",
+      "choices": [
+        "Eerst vragen wat met feodaal wordt bedoeld: juridisch (Ganshof), een type samenleving (Bloch), een productiewijze (marxistisch) of een omstreden construct (Brown, Reynolds)",
+        "Beamen, want Ganshof heeft dit bewezen",
+        "Ontkennen, want vazallen bestonden pas na het jaar 1000",
+        "Het negeren, want het begrip bestond toen nog niet en is dus onbruikbaar"
+      ],
+      "answer": "Eerst vragen wat met feodaal wordt bedoeld: juridisch (Ganshof), een type samenleving (Bloch), een productiewijze (marxistisch) of een omstreden construct (Brown, Reynolds)",
+      "hints": [],
+      "solution": [
+        "Eerst vragen wat met feodaal wordt bedoeld: juridisch (Ganshof), een type samenleving (Bloch), een productiewijze (marxistisch) of een omstreden construct (Brown, Reynolds)"
+      ],
+      "feedback": [
+        {
+          "answer": "Beamen, want Ganshof heeft dit bewezen",
+          "message": "Ganshofs definitie is zelf onderwerp van debat."
+        },
+        {
+          "answer": "Het negeren, want het begrip bestond toen nog niet en is dus onbruikbaar",
+          "message": "Latere begrippen zijn bruikbaar als je zegt wat je ermee bedoelt."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    }
+  ]
+}

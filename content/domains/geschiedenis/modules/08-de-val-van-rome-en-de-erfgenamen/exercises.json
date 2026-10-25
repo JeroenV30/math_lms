@@ -1,0 +1,1036 @@
+{
+  "exercises": [
+    {
+      "id": "08-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat was het belangrijkste doel van de tetrarchie die Diocletianus in 293 instelde?",
+      "choices": [
+        "Het rijk beter kunnen besturen en verdedigen door de macht over vier mannen te verdelen",
+        "Het rijk definitief in een westelijke en een oostelijke staat splitsen",
+        "Rome vervangen door een gekozen raad van burgers",
+        "De christenen een eigen bestuursgebied geven"
+      ],
+      "answer": "Het rijk beter kunnen besturen en verdedigen door de macht over vier mannen te verdelen",
+      "hints": [
+        "Denk aan de lengte van de grenzen en aan het aantal bedreigingen tegelijk.",
+        "Het ging om besturen en verdedigen, niet om een nieuwe staatsvorm."
+      ],
+      "solution": [
+        "Eén keizer kon de lange grenzen en de gelijktijdige dreigingen niet meer beheren.",
+        "Vier bestuurders, twee augusti en twee caesars, verdeelden het werk en regelden de opvolging.",
+        "Het was dus een bestuurlijke oplossing voor een rijk dat te groot was geworden."
+      ],
+      "feedback": [
+        {
+          "answer": "Het rijk definitief in een westelijke en een oostelijke staat splitsen",
+          "message": "Dat is te vroeg gedacht. De tetrarchie verdeelde het werk, maar het rijk bleef formeel een eenheid. Ook de verdeling van 395 was niet bedoeld als definitieve splitsing."
+        },
+        {
+          "answer": "Rome vervangen door een gekozen raad van burgers",
+          "message": "Er werd niets gekozen: de keizers benoemden elkaar. Wel lagen de hoofdsteden voortaan dicht bij de grenzen, niet in Rome."
+        }
+      ],
+      "topics": [
+        "causation",
+        "antiquity"
+      ]
+    },
+    {
+      "id": "08-002",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Diocletianus stelt de tetrarchie in (293)",
+        "Constantijn wint bij de Milvische Brug (312)",
+        "Eerste concilie van Nicea (325)",
+        "Inwijding van Constantinopel (330)",
+        "Edict van Thessaloniki van Theodosius (380)"
+      ],
+      "hints": [
+        "Begin bij de instelling van de tetrarchie.",
+        "Het edict van Theodosius komt pas na het einde van Constantijns regering."
+      ],
+      "solution": [
+        "Tetrarchie (293), slag bij de Milvische Brug (312), concilie van Nicea (325), inwijding van Constantinopel (330) en het edict van Thessaloniki (380)."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Diocletianus stelt de tetrarchie in (293)",
+            "Constantijn wint bij de Milvische Brug (312)",
+            "Inwijding van Constantinopel (330)",
+            "Eerste concilie van Nicea (325)",
+            "Edict van Thessaloniki van Theodosius (380)"
+          ],
+          "message": "Nicea (325) kwam vijf jaar vóór de inwijding van Constantinopel (330)."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "antiquity"
+      ]
+    },
+    {
+      "id": "08-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "context": "**Lactantius** (ca. 314), vrij weergegeven: in een droom kreeg Constantijn de opdracht het hemelse teken van God op de schilden van zijn soldaten aan te brengen.\n\n**Eusebius** (na 337), vrij weergegeven: de keizer vertelde hem onder ede dat hij midden op de dag een lichtend kruis aan de hemel had gezien.",
+      "question": "Wat kun je uit de twee verslagen over Constantijns visioen concluderen?",
+      "choices": [
+        "De details verschillen, dus ze zijn niet allebei letterlijk te nemen; ze laten wel zien hoe de overwinning als christelijk werd gepresenteerd",
+        "Eusebius is betrouwbaarder omdat hij later schreef en dus meer wist",
+        "Lactantius is de enige echte bron, Eusebius heeft het verhaal verzonnen",
+        "Beide verslagen bewijzen dat Constantijn op dat moment al overtuigd christen was"
+      ],
+      "answer": "De details verschillen, dus ze zijn niet allebei letterlijk te nemen; ze laten wel zien hoe de overwinning als christelijk werd gepresenteerd",
+      "hints": [
+        "Vergelijk wat de twee verslagen gemeen hebben en waarin ze verschillen.",
+        "Denk aan wanneer en voor wie elk verslag is geschreven."
+      ],
+      "solution": [
+        "De twee verslagen verschillen: een droom vóór de slag tegenover een lichtend kruis op klaarlichte dag.",
+        "Dus je kunt niet allebei letterlijk nemen en ook niet vaststellen wat Constantijn zag.",
+        "Wel delen ze dat de overwinning aan de christelijke god werd toegeschreven, en dat zegt iets over hoe ze werd gepresenteerd."
+      ],
+      "feedback": [
+        {
+          "answer": "Eusebius is betrouwbaarder omdat hij later schreef en dus meer wist",
+          "message": "Later schrijven geeft niet meer kennis. Eusebius baseerde zich op wat de keizer hem jaren later vertelde, en dat kan door de tijd zijn veranderd."
+        },
+        {
+          "answer": "Beide verslagen bewijzen dat Constantijn op dat moment al overtuigd christen was",
+          "message": "Dat zeggen ze niet. Constantijn werd pas kort voor zijn dood gedoopt; de bronnen tonen vooral hoe zijn overwinning werd uitgelegd."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "08-004",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een Romeins pond was ongeveer 327 gram. Constantijns gouden *solidus* woog 1/72 pond. Hoeveel gram goud bevatte een solidus ongeveer? Rond af op twee decimalen.",
+      "answer": 4.54,
+      "tolerance": 0.05,
+      "unit": "gram",
+      "hints": [
+        "Deel 327 door 72.",
+        "Het antwoord ligt tussen 4 en 5 gram."
+      ],
+      "solution": [
+        "$327 \\div 72 \\approx 4{,}54$",
+        "Een solidus woog dus ongeveer 4,5 gram goud."
+      ],
+      "topics": [
+        "chronology",
+        "antiquity"
+      ]
+    },
+    {
+      "id": "08-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke bewering over Constantijn en het christendom is het best onderbouwd?",
+      "choices": [
+        "Constantijn begunstigde het christendom, maar het werd pas onder Theodosius de enige toegestane godsdienst",
+        "Constantijn verbood in 313 alle heidense cultussen",
+        "Pas Justinianus maakte het christendom tot staatsgodsdienst",
+        "Het christendom was al onder Diocletianus de officiële godsdienst"
+      ],
+      "answer": "Constantijn begunstigde het christendom, maar het werd pas onder Theodosius de enige toegestane godsdienst",
+      "hints": [
+        "Denk aan het verschil tussen begunstigen, erkennen en verplichten.",
+        "Wat deed Theodosius later in 380 en 391?"
+      ],
+      "solution": [
+        "Constantijn begunstigde de kerk met geld, grond en voorrechten, maar verbood de oude cultussen niet.",
+        "Het christendom werd pas aan het einde van de vierde eeuw onder Theodosius de enige toegestane godsdienst.",
+        "Staatsgodsdienst was dus het eindpunt van een proces van zeven decennia."
+      ],
+      "feedback": [
+        {
+          "answer": "Constantijn verbood in 313 alle heidense cultussen",
+          "message": "Dat gebeurde niet. De afspraak van 313 gaf godsdienstvrijheid, ook voor de oude cultussen."
+        },
+        {
+          "answer": "Het christendom was al onder Diocletianus de officiële godsdienst",
+          "message": "Onder Diocletianus werden christenen juist vervolgd (de Grote Vervolging vanaf 303)."
+        }
+      ],
+      "topics": [
+        "causation",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "08-006",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Waarom is het te eenvoudig om te zeggen dat Constantijn het christendom tot staatsgodsdienst maakte? Gebruik minstens twee feiten uit de les.",
+      "answer": "Constantijn begunstigde de kerk maar verbood de oude cultussen niet; pas Theodosius (380, 391) maakte het christendom de enige toegestane godsdienst.",
+      "hints": [
+        "Vergelijk wat Constantijn deed met wat Theodosius deed.",
+        "Vraag je af wat de term 'staatsgodsdienst' precies inhoudt."
+      ],
+      "solution": [
+        "Modelantwoord: Een staatsgodsdienst is de enige officieel erkende godsdienst, vaak met een verbod op andere cultussen. Constantijn begunstigde de kerk met geld, grond en voorrechten en liet zich pas op zijn sterfbed dopen, maar liet de traditionele cultussen bestaan. In 313 werd godsdienstvrijheid vastgelegd, ook voor de oude godsdiensten. Pas in 380 riep Theodosius zijn onderwerpen op het geloof van Nicea aan te hangen en in 391 en 392 volgden verboden op heidense offers. Het was dus een proces van ongeveer zeventig jaar, en de term past het best bij het einde van de vierde eeuw."
+      ],
+      "topics": [
+        "continuity-change",
+        "causation"
+      ]
+    },
+    {
+      "id": "08-007",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Nederlaag bij Adrianopel (378)",
+        "Vandalen, Alanen en Sueven steken de Rijn over (406)",
+        "Alarik plundert Rome (410)",
+        "Slag op de Catalaunische Velden (451)",
+        "Odoaker zet Romulus Augustulus af (476)"
+      ],
+      "hints": [
+        "Het Romeinse leger werd bij Adrianopel verslagen vóór de eeuwwisseling.",
+        "De Rijn-oversteek valt tussen Adrianopel en de plundering van Rome."
+      ],
+      "solution": [
+        "Adrianopel (378), oversteek van de Rijn (406), plundering van Rome (410), slag op de Catalaunische Velden (451), afzetting van Romulus Augustulus (476)."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Nederlaag bij Adrianopel (378)",
+            "Alarik plundert Rome (410)",
+            "Vandalen, Alanen en Sueven steken de Rijn over (406)",
+            "Slag op de Catalaunische Velden (451)",
+            "Odoaker zet Romulus Augustulus af (476)"
+          ],
+          "message": "De oversteek van de Rijn (406) ging vooraf aan de plundering van Rome (410)."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "antiquity"
+      ]
+    },
+    {
+      "id": "08-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat wilde Alarik volgens de lessen met zijn tochten naar Rome in 408–410 vooral bereiken?",
+      "choices": [
+        "Een officiële functie en regelmatige betalingen voor zijn volgelingen afdwingen",
+        "De stad Rome vernietigen en het keizerschap afschaffen",
+        "De christelijke kerk verdrijven",
+        "Zelf keizer in Constantinopel worden"
+      ],
+      "answer": "Een officiële functie en regelmatige betalingen voor zijn volgelingen afdwingen",
+      "hints": [
+        "Denk aan zijn verzoeken om een officiële functie en geregeld voedsel en geld.",
+        "Wat doet iemand die de stad wil vernietigen niet: onderhandelen?"
+      ],
+      "solution": [
+        "Alarik onderhandelde herhaaldelijk met het hof: hij wilde een officiële functie en regelmatig geld en voedsel voor zijn volgelingen.",
+        "De belegering diende als drukmiddel; de plundering van 410 was het gevolg van mislukte onderhandelingen."
+      ],
+      "feedback": [
+        {
+          "answer": "De stad Rome vernietigen en het keizerschap afschaffen",
+          "message": "Dat past niet bij zijn gedrag: hij liet zich meermaals afkopen en wilde een plek in het systeem, niet het afschaffen ervan."
+        },
+        {
+          "answer": "De christelijke kerk verdrijven",
+          "message": "Alarik was zelf christen (ariaan) en de plundering richtte zich niet tegen de kerk als zodanig."
+        }
+      ],
+      "topics": [
+        "causation",
+        "perspective"
+      ]
+    },
+    {
+      "id": "08-009",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Tussen de plundering van Rome door Alarik (410) en de afzetting van Romulus Augustulus (476) zat een tijdsspanne. Hoeveel jaar zat daartussen?",
+      "answer": 66,
+      "unit": "jaar",
+      "hints": [
+        "Trek het kleinste jaartal van het grootste af."
+      ],
+      "solution": [
+        "$476 - 410 = 66$",
+        "De 'ondergang' besloeg dus meer dan een mensenleven van veertig tot zestig jaar."
+      ],
+      "topics": [
+        "chronology",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "08-010",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "context": "Marcellinus Comes, *Kroniek*, bij het jaar 476 (ca. 518, vrij weergegeven): het West-Romeinse keizerschap, dat Augustus eeuwen eerder aanvaardde, eindigde met deze Augustulus.",
+      "question": "Wat laat deze tekst van Marcellinus Comes zien over 476?",
+      "choices": [
+        "Een Oost-Romeinse kroniekschrijver die tientallen jaren later een eenvoudig schema gebruikt",
+        "Een ooggetuigenverslag uit Ravenna",
+        "Een officiële mededeling van Odoaker",
+        "Een bewijs dat in Italië het hele bestuur in 476 verdween"
+      ],
+      "answer": "Een Oost-Romeinse kroniekschrijver die tientallen jaren later een eenvoudig schema gebruikt",
+      "hints": [
+        "Waar zat Marcellinus, en wanneer schreef hij?",
+        "Zegt de tekst dat het Romeinse bestuur in Italië ophield te bestaan?"
+      ],
+      "solution": [
+        "Marcellinus schreef rond 518 in Constantinopel, ruim veertig jaar na 476.",
+        "Hij vat het einde van het westerse keizerschap samen in één zin, vanuit het gezichtspunt van het oosten.",
+        "Dat zegt niets over of het bestuur en de elite in Italië tegelijk verdwenen."
+      ],
+      "feedback": [
+        {
+          "answer": "Een ooggetuigenverslag uit Ravenna",
+          "message": "Marcellinus schreef in Constantinopel en ruim veertig jaar later; hij was geen ooggetuige."
+        },
+        {
+          "answer": "Een bewijs dat in Italië het hele bestuur in 476 verdween",
+          "message": "Dat staat er niet. Odoaker en later Theodorik regeerden met Romeinse ambtenaren en de senaat."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "perspective"
+      ]
+    },
+    {
+      "id": "08-011",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke van deze gebeurtenissen is een aanleiding in plaats van een structurele oorzaak van de plundering van Rome in 410?",
+      "choices": [
+        "Het mislukken van de onderhandelingen tussen Alarik en keizer Honorius in 410",
+        "De druk van de Hunnen op de volken ten noorden van de Donau",
+        "De belastingproblemen van het West-Romeinse Rijk",
+        "De splitsing van de bestuurlijke macht na 395"
+      ],
+      "answer": "Het mislukken van de onderhandelingen tussen Alarik en keizer Honorius in 410",
+      "hints": [
+        "Een aanleiding is een gebeurtenis vlak voor het feit; structurele oorzaken lopen over decennia."
+      ],
+      "solution": [
+        "De belastingdruk en de druk van de Hunnen werkten tientallen jaren.",
+        "Het mislukken van de onderhandelingen tussen Alarik en Honorius in de zomer van 410 was de directe aanleiding."
+      ],
+      "feedback": [
+        {
+          "answer": "De belastingproblemen van het West-Romeinse Rijk",
+          "message": "Dat is een langetermijnoorzaak: een probleem dat tientallen jaren duurde."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "08-012",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Odoaker stuurde in 476 de keizerlijke kentekenen naar Zeno in Constantinopel. Wat laat dat het best zien?",
+      "choices": [
+        "Odoaker wilde zijn gezag in Italië laten erkennen binnen het Romeinse bestel",
+        "Odoaker verklaarde de oorlog aan het Oost-Romeinse rijk",
+        "Het West-Romeinse Rijk was daarmee voorgoed afgeschaft en vergeten",
+        "Odoaker liet zich door Zeno tot keizer kronen"
+      ],
+      "answer": "Odoaker wilde zijn gezag in Italië laten erkennen binnen het Romeinse bestel",
+      "hints": [
+        "Vraag je af wat hij daarmee vroeg: afschaffing van het keizerschap of erkenning van zijn eigen positie?"
+      ],
+      "solution": [
+        "Odoaker zocht erkenning van de keizer in Constantinopel voor zijn gezag in Italië.",
+        "Hij brak dus niet met het Romeinse bestel maar plaatste zich erin."
+      ],
+      "feedback": [
+        {
+          "answer": "Het West-Romeinse Rijk was daarmee voorgoed afgeschaft en vergeten",
+          "message": "Juist de erkenning door Zeno laat zien dat het Romeinse bestel als kader bleef gelden; ook de senaat bleef bestaan."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "08-013",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Leg uit waarom het jaartal 476 verdedigbaar is als einde van het West-Romeinse keizerschap, maar problematisch als einde van 'Rome'. Gebruik minstens twee voorbeelden.",
+      "answer": "476 beëindigde alleen het westerse keizerschap; bestuur, senaat en recht bleven in Italië bestaan.",
+      "hints": [
+        "Wat eindigde er in 476 precies, en wat bleef?",
+        "Denk aan Odoaker, de senaat, Theodorik en het perspectief van Marcellinus."
+      ],
+      "solution": [
+        "Modelantwoord: In 476 zette Odoaker de laatste westerse keizer af en stuurde hij de kentekenen naar Constantinopel; als einde van het westerse keizerschap is het jaartal verdedigbaar. Maar Odoaker en later Theodorik regeerden Italië met Romeinse ambtenaren, de senaat en het Romeinse recht, dus als einde van het bestuur, de elite of de cultuur past 476 niet. Dat het jaartal toch symbool werd, komt doordat latere schrijvers zoals Marcellinus Comes in Constantinopel het kozen als eenvoudig schema."
+      ],
+      "topics": [
+        "historiography",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "08-014",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Doop van Clovis (ca. 496)",
+        "Clovis verslaat de Visigoten bij Vouillé (507)",
+        "Justinianus wordt keizer (527)",
+        "Inwijding van de Hagia Sophia (537)",
+        "De Langobarden trekken Italië binnen (568)"
+      ],
+      "hints": [
+        "Clovis' doop is het oudst, de Langobarden komen het laatst.",
+        "Justinianus werd keizer vóór de inwijding van de Hagia Sophia."
+      ],
+      "solution": [
+        "Doop van Clovis (ca. 496), slag bij Vouillé (507), Justinianus keizer (527), inwijding van de Hagia Sophia (537), Langobarden in Italië (568)."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Doop van Clovis (ca. 496)",
+            "Clovis verslaat de Visigoten bij Vouillé (507)",
+            "Inwijding van de Hagia Sophia (537)",
+            "Justinianus wordt keizer (527)",
+            "De Langobarden trekken Italië binnen (568)"
+          ],
+          "message": "Justinianus werd in 527 keizer; de Hagia Sophia werd pas in 537 ingewijd."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "08-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom was het voor Clovis belangrijk dat hij zich als katholiek liet dopen en niet als ariaan?",
+      "choices": [
+        "Hij kon zo rekenen op de steun van de katholieke bisschoppen en de Gallo-Romeinse bevolking",
+        "De paus had hem anders de strijd verklaard",
+        "Alle Germaanse koningen werden in die tijd katholiek",
+        "Zijn eigen soldaten eisten dat hij christen werd"
+      ],
+      "answer": "Hij kon zo rekenen op de steun van de katholieke bisschoppen en de Gallo-Romeinse bevolking",
+      "hints": [
+        "Waren de onderdanen in Gallië meestal ariaan of katholiek?",
+        "Wie had in het westen vaak het lokale bestuur in handen?"
+      ],
+      "solution": [
+        "De Gallo-Romeinse bevolking en haar bisschoppen waren katholiek.",
+        "Wie zich bij hen aansloot, kon rekenen op de steun van de bisschoppen, die vaak het lokale bestuur droegen.",
+        "De Visigoten en Ostrogoten, arianen, hadden die steun minder."
+      ],
+      "feedback": [
+        {
+          "answer": "Alle Germaanse koningen werden in die tijd katholiek",
+          "message": "Integendeel: de Goten, Vandalen en Burgondiërs waren meestal arianen. Dat maakte Clovis' keuze juist bijzonder."
+        }
+      ],
+      "topics": [
+        "causation",
+        "perspective"
+      ]
+    },
+    {
+      "id": "08-016",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Gregorius van Tours, *Geschiedenissen* (ca. 575–594), vrij weergegeven: Clovis beloofde tijdens een slag tegen de Alemannen christen te worden als hij zou winnen, en Remigius, bisschop van Reims, doopte hem.",
+      "question": "Wat is de belangrijkste beperking van Gregorius van Tours als bron over de doop van Clovis?",
+      "choices": [
+        "Hij schreef tientallen jaren later en met een kerkelijk doel",
+        "Hij was een heidense schrijver die het christendom wilde bestrijden",
+        "Hij schreef in het Frankisch, een taal die niemand begrijpt",
+        "Hij schreef vanuit Constantinopel en kende de Franken niet"
+      ],
+      "answer": "Hij schreef tientallen jaren later en met een kerkelijk doel",
+      "hints": [
+        "Let op wanneer Gregorius schreef en voor welk doel."
+      ],
+      "solution": [
+        "Gregorius schreef zestig tot tachtig jaar na Clovis' dood.",
+        "Hij schreef als bisschop met een doel: het katholieke Frankische koningschap laten zien als door God gesteund."
+      ],
+      "feedback": [
+        {
+          "answer": "Hij was een heidense schrijver die het christendom wilde bestrijden",
+          "message": "Gregorius was zelf bisschop; zijn bron is juist sterk christelijk gekleurd."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "08-017",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke bewering over het woord 'Byzantijns' is juist?",
+      "choices": [
+        "Het is een achteraf bedachte naam; de inwoners noemden zichzelf Romeinen",
+        "Het is de naam die de keizers in Constantinopel zelf gebruikten",
+        "Het woord ontstond in de tijd van Justinianus",
+        "Het rijk had niets te maken met Rome"
+      ],
+      "answer": "Het is een achteraf bedachte naam; de inwoners noemden zichzelf Romeinen",
+      "hints": [
+        "Hoe noemden de inwoners van het Oost-Romeinse rijk zichzelf?"
+      ],
+      "solution": [
+        "De inwoners noemden zichzelf Romeinen (Rhomaioi).",
+        "'Byzantijns' is een benaming die westerse geleerden pas in de zestiende eeuw gingen gebruiken."
+      ],
+      "feedback": [
+        {
+          "answer": "Het rijk had niets te maken met Rome",
+          "message": "Het was de voortzetting van het Romeinse rijk, met Romeins recht en een Romeinse keizerlijke traditie."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "perspective"
+      ]
+    },
+    {
+      "id": "08-018",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De oorlog van Justinianus tegen de Ostrogoten in Italië duurde van 535 tot 554. Hoeveel jaar duurde de oorlog?",
+      "answer": 19,
+      "unit": "jaar",
+      "hints": [
+        "Trek het beginjaar af van het eindjaar."
+      ],
+      "solution": [
+        "$554 - 535 = 19$",
+        "Een oorlog van negentien jaar verwoestte grote delen van Italië en putte het rijk uit."
+      ],
+      "topics": [
+        "chronology",
+        "causation"
+      ]
+    },
+    {
+      "id": "08-019",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat laat het verhaal van Servatius en Maastricht vooral zien?",
+      "choices": [
+        "Een kerkelijke traditie kon de overgang van de Romeinse tijd overleven, in veranderde vorm",
+        "Na het vertrek van de Romeinen werd Zuid-Nederland volledig onbewoond",
+        "Het christendom verdween en kwam pas met Willibrord terug",
+        "Servatius' leven is uitvoerig en betrouwbaar gedocumenteerd"
+      ],
+      "answer": "Een kerkelijke traditie kon de overgang van de Romeinse tijd overleven, in veranderde vorm",
+      "hints": [
+        "Kijk naar wat bleef (kerk, plaats) en wat veranderde (bestuur, bevolking)."
+      ],
+      "solution": [
+        "De christelijke gemeenschap en de verering bij het graf bleven bestaan, ook na het verdwijnen van het Romeinse gezag.",
+        "Tegelijk veranderde de rol van de bisschop, die een lokale leider in een nieuw politiek landschap werd."
+      ],
+      "feedback": [
+        {
+          "answer": "Servatius' leven is uitvoerig en betrouwbaar gedocumenteerd",
+          "message": "Juist niet: de bronnen over zijn leven zijn laat en de jaartallen zijn onzeker."
+        },
+        {
+          "answer": "Na het vertrek van de Romeinen werd Zuid-Nederland volledig onbewoond",
+          "message": "Dat klopt niet; plaatsen als Maastricht en Tongeren bleven bewoond."
+        }
+      ],
+      "topics": [
+        "continuity-change",
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "08-020",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Ga terug naar het graf van Childerik. Was hij volgens de voorwerpen een Romein of een Frank? Beantwoord de vraag met minstens drie voorwerpen en geef aan hoe zeker je conclusie is.",
+      "answer": "Beide: een Frankische koning met Romeinse machtssymbolen; de tegenstelling is te scherp.",
+      "hints": [
+        "Verdeel de voorwerpen in 'Frankisch' en 'Romeins'.",
+        "Wat zegt de combinatie over zijn positie?"
+      ],
+      "solution": [
+        "Modelantwoord: De werpbijl (francisca) en het zwaard wijzen op een Frankische krijgsleider; de gouden mantelspeld van een Romeins functionaris en het zegel met Latijnse tekst wijzen op Romeinse macht en bestuur. De combinatie laat zien dat Childerik beide werelden verbond: koning van een Frankische groep en tegelijk een man die de symbolen van het Romeinse gezag gebruikte. De tegenstelling Romein of Frank is dus te scherp. Zeker is de combinatie van voorwerpen; of hij formeel een Romeinse functie had, is onzeker."
+      ],
+      "topics": [
+        "interpretation",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "08-021",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Mohammed vlucht naar Medina (622)",
+        "Slag aan de Jarmuk (636)",
+        "Arabische legers nemen Jeruzalem in (638)",
+        "Alexandrië valt (641)",
+        "Arabische legers steken naar Spanje over (711)"
+      ],
+      "hints": [
+        "De hidjra is het begin van de islamitische jaartelling.",
+        "Spanje komt aan de beurt na de verovering van Egypte."
+      ],
+      "solution": [
+        "Hidjra (622), Jarmuk (636), Jeruzalem (638), Alexandrië (641), Spanje (711)."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Mohammed vlucht naar Medina (622)",
+            "Slag aan de Jarmuk (636)",
+            "Alexandrië valt (641)",
+            "Arabische legers nemen Jeruzalem in (638)",
+            "Arabische legers steken naar Spanje over (711)"
+          ],
+          "message": "Jeruzalem (638) viel vóór Alexandrië (641)."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "08-022",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Hoe verklaren historici het meest overtuigend dat de Arabische veroveringen zo snel verliepen?",
+      "choices": [
+        "Door een samenspel: uitgeputte grootmachten, lage loyaliteit bij veel onderdanen en wendbare, gemotiveerde legers",
+        "Uitsluitend doordat de legers veel groter waren",
+        "Doordat iedereen onmiddellijk tot de islam werd gedwongen",
+        "Doordat Constantinopel alle troepen had teruggetrokken"
+      ],
+      "answer": "Door een samenspel: uitgeputte grootmachten, lage loyaliteit bij veel onderdanen en wendbare, gemotiveerde legers",
+      "hints": [
+        "Hoeveel oorzaken noemt het antwoord, en hoe hangen ze samen?",
+        "Denk aan de oorlog van 602–628."
+      ],
+      "solution": [
+        "De Byzantijnen en Perzen waren uitgeput door hun oorlog van 602–628.",
+        "Veel inwoners hadden weinig reden de oude bestuurders te steunen, en de nieuwe legers waren mobiel en gedreven door een gedeeld geloof.",
+        "Het is dus een samenspel van oorzaken."
+      ],
+      "feedback": [
+        {
+          "answer": "Doordat iedereen onmiddellijk tot de islam werd gedwongen",
+          "message": "De bekering verliep geleidelijk, over eeuwen; niet-moslims mochten hun godsdienst houden tegen betaling van een extra belasting."
+        },
+        {
+          "answer": "Uitsluitend doordat de legers veel groter waren",
+          "message": "Dit is monocausaal. Bovendien waren de Arabische legers waarschijnlijk niet groter dan die van hun tegenstanders."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "08-023",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Tussen de hidjra in 622 en de oversteek naar Spanje in 711 zat een tijdsspanne. Hoeveel jaar was dat?",
+      "answer": 89,
+      "unit": "jaar",
+      "hints": [
+        "Trek 622 af van 711."
+      ],
+      "solution": [
+        "$711 - 622 = 89$",
+        "In minder dan negentig jaar breidde het gebied van de moslimgemeenschap zich uit van Medina tot Spanje."
+      ],
+      "topics": [
+        "chronology",
+        "causation"
+      ]
+    },
+    {
+      "id": "08-024",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De oudste uitgebreide biografie van Mohammed (Ibn Ishaq) is geschreven in de achtste eeuw. Wat betekent dat voor een historicus?",
+      "choices": [
+        "De bron is waardevol maar moet kritisch worden gelezen en met andere bronnen worden vergeleken",
+        "De bron is onbruikbaar omdat ze niet tijdgenootschappelijk is",
+        "De bron is volledig betrouwbaar omdat ze door gelovigen is geschreven",
+        "De bron is de enige die er bestaat, dus kritiek is niet nodig"
+      ],
+      "answer": "De bron is waardevol maar moet kritisch worden gelezen en met andere bronnen worden vergeleken",
+      "hints": [
+        "Wanneer overleed Mohammed? Hoeveel tijd zit er tussen?"
+      ],
+      "solution": [
+        "Mohammed overleed in 632; de biografie dateert van ruim honderd jaar later en is bewaard in een latere bewerking.",
+        "De historicus moet dus rekening houden met later toegevoegde of geredigeerde elementen en vergelijkt de bron met andere bronnen."
+      ],
+      "feedback": [
+        {
+          "answer": "De bron is onbruikbaar omdat ze niet tijdgenootschappelijk is",
+          "message": "Een latere bron is niet waardeloos: ze laat zien hoe men later over het verleden dacht en bevat soms oudere informatie."
+        },
+        {
+          "answer": "De bron is de enige die er bestaat, dus kritiek is niet nodig",
+          "message": "Er bestaan ook bronnen van christenen uit de zevende eeuw, zoals de Armeense kroniek van Sebeos."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "08-025",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke omschrijving van de rol van de islamitische wereld bij de overlevering van antieke kennis doet het meeste recht aan de bronnen?",
+      "choices": [
+        "Ze namen antieke kennis op, vertaalden die en ontwikkelden ze verder",
+        "Ze bewaarden alleen teksten zonder iets toe te voegen",
+        "Ze vernietigden de antieke kennis",
+        "Ze kregen alle kennis rechtstreeks van Europese monniken"
+      ],
+      "answer": "Ze namen antieke kennis op, vertaalden die en ontwikkelden ze verder",
+      "hints": [
+        "Gaat het alleen om bewaren, of ook om verder ontwikkelen?"
+      ],
+      "solution": [
+        "Geleerden in Bagdad vertaalden Griekse teksten en ontwikkelden ze verder, bijvoorbeeld Al-Chwarizmi in de algebra.",
+        "Ze waren dus erfgenamen en vernieuwers tegelijk."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze bewaarden alleen teksten zonder iets toe te voegen",
+          "message": "Dat doet geen recht aan geleerden als Al-Chwarizmi, Al-Razi en Ibn al-Haytham, die zelf onderzoek deden."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "perspective"
+      ]
+    },
+    {
+      "id": "08-026",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Vertel in een korte alinea het verhaal van 'de val van Rome' vanuit het gezichtspunt van een ambtenaar in Bagdad rond het jaar 800. Wat ziet hij als het belangrijkste, en wat blijft onzichtbaar?",
+      "answer": "Voor Bagdad verhuisde de erfenis van Rome naar het oosten; het westen is een randgebied.",
+      "hints": [
+        "Welke delen van het oude Romeinse rijk lagen in zijn rijk?",
+        "Welke kennis kwam via zijn stad?"
+      ],
+      "solution": [
+        "Modelantwoord: Een ambtenaar in Bagdad zou zeggen dat Rome niet viel maar werd opgevolgd: Syrië, Egypte en Noord-Afrika, ooit de rijkste provincies, maken deel uit van zijn rijk en Byzantium bestaat nog als rivaal. Hij ziet de Griekse wetenschap als iets dat in zijn eigen stad wordt vertaald en verder ontwikkeld. Wat hij niet ziet, is de achteruitgang van steden en handel in West-Europa of het belang van Frankische koningen, die voor hem ver weg en onbeduidend zijn."
+      ],
+      "topics": [
+        "perspective",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "08-027",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke combinatie van historicus en stelling klopt?",
+      "choices": [
+        "Brown: de late oudheid als eigen, creatieve tijd van transformatie",
+        "Gibbon: een vreedzame, geleidelijke overgang zonder verval",
+        "Ward-Perkins: de oorzaak lag vooral bij de komst van het christendom",
+        "Pirenne: de val werd veroorzaakt door de Hunnen"
+      ],
+      "answer": "Brown: de late oudheid als eigen, creatieve tijd van transformatie",
+      "hints": [
+        "Wie zocht de oorzaak in de opkomst van het christendom, en wie sprak van transformatie?"
+      ],
+      "solution": [
+        "Gibbon zag de ondergang als verval, mede veroorzaakt door het christendom.",
+        "Brown benadrukte transformatie en de eigen creativiteit van de late oudheid.",
+        "Ward-Perkins liet zien dat de materiële cultuur in het westen sterk achteruitging."
+      ],
+      "feedback": [
+        {
+          "answer": "Gibbon: een vreedzame, geleidelijke overgang zonder verval",
+          "message": "Gibbon schreef juist over verval en ondergang, waarvoor hij onder meer het christendom aansprakelijk achtte."
+        },
+        {
+          "answer": "Pirenne: de val werd veroorzaakt door de Hunnen",
+          "message": "Pirenne legde de breuk bij de Arabische veroveringen van de zevende eeuw; de Hunnen horen bij Heathers verklaring."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "08-028",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze publicaties in de volgorde waarin ze verschenen, de oudste eerst.",
+      "answer": [
+        "Gibbon, The Decline and Fall of the Roman Empire (vanaf 1776)",
+        "Pirenne, Mahomet et Charlemagne (1937)",
+        "Brown, The World of Late Antiquity (1971)",
+        "Ward-Perkins, The Fall of Rome and the End of Civilization (2005)"
+      ],
+      "hints": [
+        "Gibbon schreef in de Verlichting, Ward-Perkins in 2005.",
+        "Het boek van Pirenne verscheen na zijn dood."
+      ],
+      "solution": [
+        "Gibbon (vanaf 1776), Pirenne (1937), Brown (1971), Ward-Perkins (2005)."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Gibbon, The Decline and Fall of the Roman Empire (vanaf 1776)",
+            "Brown, The World of Late Antiquity (1971)",
+            "Pirenne, Mahomet et Charlemagne (1937)",
+            "Ward-Perkins, The Fall of Rome and the End of Civilization (2005)"
+          ],
+          "message": "Pirennes boek verscheen in 1937, ruim dertig jaar vóór dat van Brown."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "chronology"
+      ]
+    },
+    {
+      "id": "08-029",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Brown ziet de late oudheid als transformatie, Ward-Perkins als breuk. Kunnen beide gelijk hebben? Betrek de regio en het soort bewijs in je antwoord.",
+      "answer": "Beide kunnen gelijk hebben: ze kijken naar verschillend bewijs en verschillende regio's.",
+      "hints": [
+        "Denk aan het verschil tussen Constantinopel en Brittannië.",
+        "Welk bewijs gebruikt Ward-Perkins, en welk Brown?"
+      ],
+      "solution": [
+        "Modelantwoord: Ja, voor een deel. Brown richt zich op religie, cultuur en mentaliteit en laat zien hoe nieuwe vormen van gezag ontstonden; Ward-Perkins gebruikt archeologisch bewijs van aardewerk, gebouwen en munten dat een materiële achteruitgang toont, vooral in het noordwesten. De regio's verschillen: in het oosten bloeide de economie, in Brittannië en Noord-Gallië ging het sterk achteruit. Ze beantwoorden bovendien verschillende vragen. Een afweging per regio en per aspect (cultuur, economie, bestuur) is overtuigender dan kiezen voor één van beide."
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "08-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "context": "Hiëronymus, brief 127 (412), vrij vertaald uit de Engelse vertaling van Fremantle: 'Mijn stem blijft in mijn keel steken; en terwijl ik dicteer, snikken mijn woorden. De stad die de hele wereld had veroverd, werd zelf veroverd.'",
+      "question": "Hiëronymus schreef over de plundering van Rome vanuit Bethlehem. Wat is de belangrijkste conclusie voor het gebruik van deze bron?",
+      "choices": [
+        "Ze laat vooral de schok bij de christelijke elite zien, niet de precieze omvang van de schade",
+        "Ze is een ooggetuigenverslag van de plundering",
+        "Ze bewijst dat de stad volledig verwoest werd",
+        "Ze is onbruikbaar omdat Hiëronymus een christen was"
+      ],
+      "answer": "Ze laat vooral de schok bij de christelijke elite zien, niet de precieze omvang van de schade",
+      "hints": [
+        "Was Hiëronymus ooggetuige?",
+        "Wat wilde hij met de brief bereiken?"
+      ],
+      "solution": [
+        "Hiëronymus was geen ooggetuige; hij schreef vanuit Bethlehem aan een vriendin.",
+        "De bron laat zien hoe de gebeurtenis in de christelijke elite werd ervaren, niet hoe groot de schade precies was."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze is een ooggetuigenverslag van de plundering",
+          "message": "Hiëronymus zat in Bethlehem, niet in Rome."
+        },
+        {
+          "answer": "Ze is onbruikbaar omdat Hiëronymus een christen was",
+          "message": "Een kleurende schrijver is niet onbruikbaar; hij is bruikbaar voor de vraag die bij zijn doel past."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "08-031",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat hebben Hiëronymus en Augustinus gemeen, en waarin verschillen ze, bij hun reactie op 410?",
+      "choices": [
+        "Beide schreven op afstand, maar met een verschillend doel: rouw en herdenking tegenover verdediging van het christendom",
+        "Beide waren ooggetuigen van de plundering",
+        "Beide ontkenden dat er iets ergs was gebeurd",
+        "Beide schreven om de Goten te prijzen"
+      ],
+      "answer": "Beide schreven op afstand, maar met een verschillend doel: rouw en herdenking tegenover verdediging van het christendom",
+      "hints": [
+        "Waar schreven ze, en wat wilden ze met hun tekst bereiken?"
+      ],
+      "solution": [
+        "Beide schreven op afstand van Rome (Bethlehem en Hippo), en beide zagen 410 als een schok.",
+        "Hiëronymus legt de nadruk op rouw en ramp, Augustinus gebruikt de gebeurtenis voor een theologisch betoog en wijst op de genade die de barbaren toonden."
+      ],
+      "feedback": [
+        {
+          "answer": "Beide waren ooggetuigen van de plundering",
+          "message": "Geen van beiden was in Rome; ze zaten in Bethlehem en in Noord-Afrika."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "08-032",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke vraag kun je met Bron C (Marcellinus) wél beantwoorden?",
+      "choices": [
+        "Hoe 476 vanuit Constantinopel rond 518 werd samengevat",
+        "Wat Romulus Augustulus na zijn afzetting deed",
+        "Hoe de bevolking van Italië de verandering in 476 beleefde",
+        "Hoeveel soldaten Odoaker had"
+      ],
+      "answer": "Hoe 476 vanuit Constantinopel rond 518 werd samengevat",
+      "hints": [
+        "Past de bron bij een vraag naar gebeurtenissen of naar de latere beeldvorming?"
+      ],
+      "solution": [
+        "Een korte aantekening uit Constantinopel van ca. 518 zegt iets over hoe 476 daar later werd samengevat.",
+        "Ze zegt weinig over wat Italianen in 476 meemaakten."
+      ],
+      "feedback": [
+        {
+          "answer": "Hoe de bevolking van Italië de verandering in 476 beleefde",
+          "message": "Daarover zegt een korte kroniekaantekening uit het oosten niets."
+        }
+      ],
+      "topics": [
+        "sources",
+        "perspective"
+      ]
+    },
+    {
+      "id": "08-033",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de stappen van een bronnenanalyse in een logische volgorde: van eerst naar laatst.",
+      "answer": [
+        "Herkomst vaststellen: wie, wanneer, waar, voor wie",
+        "De context bepalen",
+        "Lezen wat de bron zegt en niet zegt",
+        "De bruikbaarheid voor de vraag beoordelen",
+        "Een conclusie trekken en aangeven hoe zeker die is"
+      ],
+      "hints": [
+        "Je kunt een bron pas beoordelen als je weet wie haar schreef.",
+        "De conclusie komt het laatst."
+      ],
+      "solution": [
+        "Herkomst, context, wat de bron zegt en niet zegt, bruikbaarheid voor de vraag, conclusie met zekerheid."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "De context bepalen",
+            "Herkomst vaststellen: wie, wanneer, waar, voor wie",
+            "Lezen wat de bron zegt en niet zegt",
+            "De bruikbaarheid voor de vraag beoordelen",
+            "Een conclusie trekken en aangeven hoe zeker die is"
+          ],
+          "message": "Je hebt de herkomst nodig om de context te kunnen bepalen."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "sources"
+      ]
+    },
+    {
+      "id": "08-034",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Hoe zagen tijdgenoten en latere kroniekschrijvers 410 en 476, en wat zegt dat over de vraag of Rome 'viel'? Gebruik minstens twee van de drie bronnen en noem bij elke bron schrijver, plaats, tijd en doel.",
+      "answer": "Hiëronymus (Bethlehem, 412) reageerde met rouw op 410 en zag in Rome een symbool; Augustinus (Hippo, vanaf 413) gebruikte de gebeurtenis om het christendom te verdedigen en wees op de milde behandeling van schuilende burgers; Marcellinus (Constantinopel, ca. 518) vatte 476 samen als einde van het westerse keizerschap. Geen van de drie was ooggetuige, en elk had een eigen doel. Samen laten ze zien dat 410 en 476 al snel als symbolen werden gelezen. Of Rome daarmee 'viel', beantwoorden ze niet; ze tonen vooral hoe de gedachte van een val ontstond. Mijn conclusie is redelijk zeker voor de symbolische betekenis, onzeker voor de feitelijke gevolgen.",
+      "min_length": 150,
+      "hints": [
+        "Gebruik de structuur herkomst, doel, wat de bron zegt, wat niet.",
+        "Noem hoe zeker je bent."
+      ],
+      "solution": [
+        "Modelantwoord: Hiëronymus (Bethlehem, 412) reageerde met rouw op 410 en zag in Rome een symbool; Augustinus (Hippo, vanaf 413) gebruikte de gebeurtenis om het christendom te verdedigen en wees op de milde behandeling van schuilende burgers; Marcellinus (Constantinopel, ca. 518) vatte 476 samen als einde van het westerse keizerschap. Geen van de drie was ooggetuige, en elk had een eigen doel. Samen laten ze zien dat 410 en 476 al snel als symbolen werden gelezen. Of Rome daarmee 'viel', beantwoorden ze niet; ze tonen vooral hoe de gedachte van een val ontstond. Mijn conclusie is redelijk zeker voor de symbolische betekenis, onzeker voor de feitelijke gevolgen."
+      ],
+      "topics": [
+        "sources",
+        "interpretation"
+      ]
+    }
+  ]
+}

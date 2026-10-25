@@ -1,0 +1,440 @@
+{
+  "title": "Hoofdstuktoets – Steden, handel en burgers",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor beheerst.",
+  "questions": [
+    {
+      "id": "10-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Waarom is landbouwoverschot een voorwaarde voor een stad?",
+      "choices": [
+        "Alleen kooplieden hebben voedsel nodig",
+        "Een overschot geeft automatisch stadsrecht",
+        "Steden verbouwen zelf al hun graan",
+        "Stadsbewoners met een ander beroep moeten door boeren worden gevoed"
+      ],
+      "answer": "Stadsbewoners met een ander beroep moeten door boeren worden gevoed",
+      "hints": [],
+      "solution": [
+        "Stadsbewoners verbouwen zelf geen voedsel."
+      ],
+      "feedback": [
+        {
+          "answer": "Een overschot geeft automatisch stadsrecht",
+          "message": "Stadsrecht verleende een landsheer."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "causation"
+      ]
+    },
+    {
+      "id": "10-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Hoeveel van het bouwland lag bij het drieslagstelsel jaarlijks braak?",
+      "choices": [
+        "Alles",
+        "De helft",
+        "Niets",
+        "Een derde"
+      ],
+      "answer": "Een derde",
+      "hints": [],
+      "solution": [
+        "Drie akkers, één braak."
+      ],
+      "feedback": [
+        {
+          "answer": "De helft",
+          "message": "Dat was het tweeslagstelsel."
+        }
+      ],
+      "topics": [
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "10-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat was een poorter?",
+      "choices": [
+        "Een adellijk leenman van de graaf",
+        "Iedere inwoner van de stad",
+        "Een boer buiten de muren",
+        "Een volwaardig lid van de stedelijke gemeenschap met rechten en plichten"
+      ],
+      "answer": "Een volwaardig lid van de stedelijke gemeenschap met rechten en plichten",
+      "hints": [],
+      "solution": [
+        "Poorterschap was een lidmaatschap met voorwaarden."
+      ],
+      "feedback": [
+        {
+          "answer": "Iedere inwoner van de stad",
+          "message": "Veel inwoners waren geen poorter."
+        }
+      ],
+      "topics": [
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "10-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat laat dit fragment zien over de verhouding tussen keizer en bewoners in 1122?",
+      "choices": [
+        "Dat alle inwoners poorter werden",
+        "Dat Utrecht al een gemeenteraad had",
+        "Dat de keizer geen belang had bij Utrecht",
+        "Een ruil: tolvrijheid in ruil voor het versterken van de stad en trouw"
+      ],
+      "answer": "Een ruil: tolvrijheid in ruil voor het versterken van de stad en trouw",
+      "hints": [
+        "Wie geeft wat?"
+      ],
+      "solution": [
+        "De oorkonde noemt wal, tolvrijheid en een eed van trouw."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat Utrecht al een gemeenteraad had",
+          "message": "Daar staat niets over in de tekst."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ],
+      "context": "\"Bovendien vergunnen wij allen die de Utrechtse stad moeten versterken met een wal, vrijstelling van welke tol dan ook, zo vaak als zij die stad bezoeken om er waren op de markt te brengen.\" (Vertaling van het stadsrecht van Utrecht, 1122)"
+    },
+    {
+      "id": "10-T05",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Stadsrecht van Utrecht bevestigd (1122)",
+        "Stadsrecht voor Dordrecht (1220)",
+        "Heemraden van Rijnland genoemd (1255)",
+        "Guldensporenslag (1302)"
+      ],
+      "hints": [
+        "Zoek de jaartallen."
+      ],
+      "solution": [
+        "1122, 1220, 1255, 1302."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Stadsrecht voor Dordrecht (1220)",
+            "Stadsrecht van Utrecht bevestigd (1122)",
+            "Heemraden van Rijnland genoemd (1255)",
+            "Guldensporenslag (1302)"
+          ],
+          "message": "Utrecht (1122) is ouder dan Dordrecht (1220)."
+        }
+      ]
+    },
+    {
+      "id": "10-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de beste conclusie uit dit overzicht?",
+      "choices": [
+        "Zwolle trad zeker in 1448 toe",
+        "Hanzelidmaatschap had geen vast moment, dus de data zijn deels conventies",
+        "Kampen was nooit Hanzestad",
+        "Overzichten zijn altijd onbetrouwbaar"
+      ],
+      "answer": "Hanzelidmaatschap had geen vast moment, dus de data zijn deels conventies",
+      "hints": [],
+      "solution": [
+        "Verschillende data wijzen op vloeiend lidmaatschap."
+      ],
+      "feedback": [
+        {
+          "answer": "Zwolle trad zeker in 1448 toe",
+          "message": "Ook 1407 wordt genoemd, mogelijk als heropname."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "middle-ages"
+      ],
+      "context": "Overzichten geven voor Zwolle de jaren 1407 en 1448, met de opmerking dat 1407 wellicht een heropname betreft. Voor Kampen wordt 1441 genoemd."
+    },
+    {
+      "id": "10-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom verloren de jaarmarkten van Champagne rond 1300 aan belang?",
+      "choices": [
+        "De Hanze nam de markten over",
+        "Er werd geen laken meer verhandeld",
+        "Er kwam een directe zeeroute tussen Italië en Brugge, en de Franse kroon kreeg meer greep",
+        "De Zwarte Dood verwoestte ze"
+      ],
+      "answer": "Er kwam een directe zeeroute tussen Italië en Brugge, en de Franse kroon kreeg meer greep",
+      "hints": [],
+      "solution": [
+        "Routes en politiek veranderden."
+      ],
+      "feedback": [
+        {
+          "answer": "De Zwarte Dood verwoestte ze",
+          "message": "De Zwarte Dood begon pas in 1347."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "10-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een leerling schrijft: \"Alle boeren werden vrij zodra ze de stad in liepen.\" Wat is hier mis?",
+      "choices": [
+        "De regel gold alleen in sommige stadsrechten, onder voorwaarden, en vrij zijn is niet hetzelfde als poorter zijn",
+        "Boeren mochten de stad niet in",
+        "Niets, dat was de algemene regel",
+        "Alleen adel kon vrij worden"
+      ],
+      "answer": "De regel gold alleen in sommige stadsrechten, onder voorwaarden, en vrij zijn is niet hetzelfde als poorter zijn",
+      "hints": [],
+      "solution": [
+        "Stadslucht maakt vrij is een latere samenvatting."
+      ],
+      "feedback": [
+        {
+          "answer": "Niets, dat was de algemene regel",
+          "message": "De regel gold niet overal en niet voor iedereen."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "middle-ages"
+      ],
+      "context": "Uitspraak van een leerling: \"Alle boeren werden vrij zodra ze de stad in liepen.\""
+    },
+    {
+      "id": "10-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke historicus past bij deze samenvatting van een standpunt?",
+      "choices": [
+        "Lopez",
+        "Verhulst",
+        "Weber",
+        "Pirenne"
+      ],
+      "answer": "Pirenne",
+      "hints": [
+        "Wie zag kooplieden als motor?"
+      ],
+      "solution": [
+        "Pirenne: handel als motor."
+      ],
+      "feedback": [
+        {
+          "answer": "Verhulst",
+          "message": "Verhulst benadrukt abdijen, graven en landbouw."
+        }
+      ],
+      "topics": [
+        "historiography"
+      ],
+      "context": "Samenvatting van een standpunt: de stad ontstond doordat kooplieden zich vestigden bij burchten en kloosters en daar vrijheden eisten."
+    },
+    {
+      "id": "10-T10",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Rijnland genoemd (1255)",
+        "Dood van Floris V (1296)",
+        "Brugse Metten (18 mei 1302)",
+        "Guldensporenslag (11 juli 1302)",
+        "Begin van de grote hongersnood (1315)"
+      ],
+      "hints": [
+        "Let op de dagen in 1302."
+      ],
+      "solution": [
+        "1255, 1296, mei 1302, juli 1302, 1315."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Rijnland genoemd (1255)",
+            "Dood van Floris V (1296)",
+            "Guldensporenslag (11 juli 1302)",
+            "Brugse Metten (18 mei 1302)",
+            "Begin van de grote hongersnood (1315)"
+          ],
+          "message": "De Brugse Metten (mei) gingen vooraf aan de Guldensporenslag (juli)."
+        }
+      ]
+    },
+    {
+      "id": "10-T11",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Hoe weeg je de oorzaken van de opstand van 1302 het best?",
+      "choices": [
+        "Als samenspel van lange termijn (sociale spanning, wolafhankelijkheid) en directe aanleiding (Franse politiek)",
+        "Als toeval",
+        "Alleen als gevolg van de armoede van wevers",
+        "Alleen als gevolg van de Franse politiek"
+      ],
+      "answer": "Als samenspel van lange termijn (sociale spanning, wolafhankelijkheid) en directe aanleiding (Franse politiek)",
+      "hints": [],
+      "solution": [
+        "Meerdere niveaus."
+      ],
+      "feedback": [
+        {
+          "answer": "Alleen als gevolg van de Franse politiek",
+          "message": "Dat is monocausaal."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "causation"
+      ]
+    },
+    {
+      "id": "10-T12",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel jaar zit er tussen het stadsrecht van Utrecht (1122) en het begin van de Zwarte Dood (1347)?",
+      "answer": 225,
+      "hints": [
+        "Trek de jaartallen van elkaar af."
+      ],
+      "solution": [
+        "$1347 - 1122 = 225$."
+      ],
+      "feedback": [
+        {
+          "answer": 235,
+          "message": "Reken nog eens: 1347 min 1122."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "unit": "jaar"
+    },
+    {
+      "id": "10-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de belangrijkste kritiek op de term \"commerciële revolutie\"?",
+      "choices": [
+        "Het woord suggereert een plotselinge omwenteling terwijl het een geleidelijk en regionaal verschillend proces was",
+        "Het woord is Latijn",
+        "Er was toen geen handel",
+        "De term is door kooplieden bedacht"
+      ],
+      "answer": "Het woord suggereert een plotselinge omwenteling terwijl het een geleidelijk en regionaal verschillend proces was",
+      "hints": [],
+      "solution": [
+        "Revolutie suggereert snelheid."
+      ],
+      "feedback": [
+        {
+          "answer": "Er was toen geen handel",
+          "message": "Handel groeide wel, maar de economie bleef overwegend agrarisch."
+        }
+      ],
+      "topics": [
+        "historiography"
+      ],
+      "context": "Robert Lopez noemde de periode tussen ongeveer 950 en 1350 een \"commerciële revolutie\"."
+    },
+    {
+      "id": "10-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom waren in Holland waterschappen nodig?",
+      "choices": [
+        "Omdat er geen water was",
+        "Door bodemdaling na ontginning moesten dijken en sluizen gezamenlijk worden onderhouden",
+        "Omdat de graaf geen dijken wilde",
+        "Omdat steden belasting wilden"
+      ],
+      "answer": "Door bodemdaling na ontginning moesten dijken en sluizen gezamenlijk worden onderhouden",
+      "hints": [],
+      "solution": [
+        "Ontwatering van veen leidt tot inklinken."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat er geen water was",
+          "message": "Het probleem was juist te veel water."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "causation"
+      ]
+    },
+    {
+      "id": "10-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een koggewrak is gevonden. Welke bewering is het best onderbouwd?",
+      "choices": [
+        "De Hanzehandel was enorm",
+        "Dit scheepstype voer op deze wateren; voor de omvang van de handel zijn andere bronnen nodig",
+        "Alle Hanzesteden bouwden dit schip",
+        "De handel stortte in"
+      ],
+      "answer": "Dit scheepstype voer op deze wateren; voor de omvang van de handel zijn andere bronnen nodig",
+      "hints": [],
+      "solution": [
+        "Een wrak bewijst bestaan."
+      ],
+      "feedback": [
+        {
+          "answer": "De Hanzehandel was enorm",
+          "message": "Eén wrak zegt niets over omvang."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ],
+      "context": "Een koggewrak uit de late middeleeuwen is opgegraven op de vroegere Zuiderzeebodem."
+    }
+  ]
+}

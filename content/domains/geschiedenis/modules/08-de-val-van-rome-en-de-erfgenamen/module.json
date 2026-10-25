@@ -4,10 +4,10 @@
   "title": "De val van Rome en de erfgenamen",
   "part": 3,
   "level": "fundamenten",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Ca. 300 – 800",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 200,
   "prerequisites": [
     1
   ],
@@ -18,5 +18,146 @@
   ],
   "core_question": "Viel Rome, of veranderde het?",
   "summary": "Het einde van het West-Romeinse Rijk en zijn erfgenamen: Germaanse koninkrijken, Byzantium en de islamitische wereld.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een graf in Doornik",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "een-nieuw-rijk",
+      "title": "Na de crisis: een nieuw rijk",
+      "file": "02-een-nieuw-rijk.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "barbaren-in-het-rijk",
+      "title": "Barbaren in het rijk, 410 en 476",
+      "file": "03-barbaren-in-het-rijk.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "franken-byzantium-en-de-lage-landen",
+      "title": "Franken, Byzantium en de Lage Landen",
+      "file": "04-franken-byzantium-en-de-lage-landen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "de-opkomst-van-de-islam",
+      "title": "De opkomst van de islam",
+      "file": "05-de-opkomst-van-de-islam.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Viel Rome, of veranderde het?",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Drie bronnen over een einde",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen hoe het Romeinse Rijk onder Diocletianus en Constantijn werd hervormd en wanneer het christendom staatsgodsdienst werd.",
+    "Je kunt de rol van Germaanse groepen in het rijk beschrijven en een oorzakenredenering opstellen voor 410 en 476.",
+    "Je kunt uitleggen waarom 476 een symbolisch jaartal werd en wat er in Italië bleef bestaan.",
+    "Je kunt de Frankische, Byzantijnse en islamitische erfgenamen vergelijken in continuïteit en verandering.",
+    "Je kunt beschrijven wat er na de limes in de Lage Landen veranderde.",
+    "Je kunt de standpunten van Gibbon, Brown, Ward-Perkins, Heather en Pirenne weergeven en afwegen.",
+    "Je kunt twee bronnen over dezelfde gebeurtenis vergelijken op herkomst, perspectief en doel."
+  ],
+  "glossary": [
+    {
+      "term": "Tetrarchie",
+      "definition": "Het bestuur door vier mannen (twee augusti en twee caesars) dat Diocletianus in 293 instelde."
+    },
+    {
+      "term": "Limes",
+      "definition": "De grens van het Romeinse Rijk, met forten en wachttorens, zoals langs de Rijn."
+    },
+    {
+      "term": "Foederati",
+      "definition": "Groepen die onder een verdrag binnen het rijk woonden en in ruil daarvoor militaire diensten leverden."
+    },
+    {
+      "term": "Volksverhuizing",
+      "definition": "Verzamelnaam voor de verplaatsing van groepen in de late oudheid; de term is omstreden omdat het vaak om kleinere groepen en gecontroleerde vestiging ging."
+    },
+    {
+      "term": "Laatantiek",
+      "definition": "De late oudheid, ruwweg de 3e tot de 8e eeuw, gezien als een eigen periode in plaats van een voorspel op de middeleeuwen."
+    },
+    {
+      "term": "Arianisme",
+      "definition": "Een christelijke leer die de goddelijkheid van Christus beperkte; in 325 in Nicea veroordeeld maar aangehangen door veel Germaanse leiders."
+    },
+    {
+      "term": "Merovingen",
+      "definition": "De Frankische koningsdynastie van Clovis, tot 751."
+    },
+    {
+      "term": "Kalifaat",
+      "definition": "Het bestuur van de moslimgemeenschap onder een kalief, opvolger van Mohammed."
+    }
+  ],
+  "timeline": [
+    "crisis-derde-eeuw",
+    "tetrarchie-293",
+    "milvische-brug-312",
+    "concilie-nicea-325",
+    "constantinopel-330",
+    "servatius-maastricht-384",
+    "adrianopel-378",
+    "edict-thessaloniki-380",
+    "rijnovertocht-406",
+    "plundering-rome-410",
+    "catalaunische-velden-451",
+    "afzetting-romulus-476",
+    "graf-childerik-481",
+    "doop-clovis-496",
+    "vouille-507",
+    "corpus-iuris-civilis-529",
+    "hagia-sophia-537",
+    "hidjra-622",
+    "jarmuk-636",
+    "arabieren-in-spanje-711",
+    "friezen-boorne-734",
+    "abbasiden-bagdad-762",
+    "pippijn-koning-751",
+    "gibbon-decline-and-fall-1776",
+    "pirenne-mahomet-charlemagne-1937",
+    "brown-late-antiquity-1971",
+    "ward-perkins-heather-2005"
+  ],
+  "people": [
+    "diocletianus",
+    "constantijn",
+    "theodosius",
+    "alarik",
+    "odoaker",
+    "childerik-i",
+    "clovis",
+    "justinianus",
+    "mohammed",
+    "pippijn",
+    "gibbon",
+    "pirenne",
+    "peter-brown",
+    "ward-perkins",
+    "heather",
+    "hieronymus",
+    "augustinus",
+    "servatius"
+  ]
 }

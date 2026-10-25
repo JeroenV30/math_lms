@@ -1,0 +1,903 @@
+{
+  "exercises": [
+    {
+      "id": "10-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Waarom is een landbouwoverschot een voorwaarde voor het ontstaan van een stad?",
+      "choices": [
+        "Omdat een overschot automatisch leidt tot stadsrecht",
+        "Omdat steden altijd door boeren werden gesticht",
+        "Omdat inwoners die zelf geen voedsel verbouwen, alleen kunnen leven als anderen meer produceren dan zij zelf nodig hebben",
+        "Omdat steden alleen op vruchtbare grond kunnen staan"
+      ],
+      "answer": "Omdat inwoners die zelf geen voedsel verbouwen, alleen kunnen leven als anderen meer produceren dan zij zelf nodig hebben",
+      "hints": [
+        "Wie voedt de wever, de bakker en de koopman?"
+      ],
+      "solution": [
+        "Stadsbewoners met een ander beroep dan landbouw moeten eten.",
+        "Dat voedsel komt van het platteland of via handel van elders.",
+        "Een overschot is dus een voorwaarde, geen garantie: er is ook een markt en een rechtsvorm nodig."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat een overschot automatisch leidt tot stadsrecht",
+          "message": "Een overschot is een voorwaarde, geen oorzaak die vanzelf stadsrecht oplevert. Daarvoor is een landsheer nodig die het verleent."
+        },
+        {
+          "answer": "Omdat steden alleen op vruchtbare grond kunnen staan",
+          "message": "Dordrecht en Utrecht lagen in een veengebied. Het voedsel kwam deels van elders, via handel."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "causation"
+      ]
+    },
+    {
+      "id": "10-002",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze stappen van één verklaringsketen in de volgorde van oorzaak naar gevolg.",
+      "answer": [
+        "Zwaardere ploeg en beter tuig verhogen de opbrengst",
+        "De bevolking groeit en nieuw land wordt ontgonnen",
+        "Een deel van de bevolking leeft niet meer van de landbouw",
+        "Handel en ambacht groeien op markten",
+        "Landsheren verlenen stadsrechten"
+      ],
+      "hints": [
+        "Wat moet er eerst zijn voordat mensen een ander beroep kunnen kiezen?"
+      ],
+      "solution": [
+        "Meer voedsel maakt groei mogelijk.",
+        "Groei en ontginning vergroten het aantal mensen buiten de landbouw.",
+        "Handel biedt hun werk en de heer ziet voordeel in de stad."
+      ],
+      "topics": [
+        "middle-ages",
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "De bevolking groeit en nieuw land wordt ontgonnen",
+            "Zwaardere ploeg en beter tuig verhogen de opbrengst",
+            "Een deel van de bevolking leeft niet meer van de landbouw",
+            "Handel en ambacht groeien op markten",
+            "Landsheren verlenen stadsrechten"
+          ],
+          "message": "Meer voedsel gaat in deze keten vooraf aan bevolkingsgroei, al versterken beide elkaar. Hier gaat het om de volgorde van de keten."
+        }
+      ]
+    },
+    {
+      "id": "10-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Hoeveel van het bouwland lag bij het drieslagstelsel elk jaar braak?",
+      "choices": [
+        "De helft",
+        "Een vierde",
+        "Een derde",
+        "Niets"
+      ],
+      "answer": "Een derde",
+      "hints": [
+        "Het bouwland was in drie delen verdeeld."
+      ],
+      "solution": [
+        "Drie akkers: wintergraan, zomergraan, braak.",
+        "Eén van de drie ligt braak, dus een derde."
+      ],
+      "feedback": [
+        {
+          "answer": "De helft",
+          "message": "De helft was braak bij het oudere tweeslagstelsel; het drieslagstelsel verkleinde het braakdeel."
+        }
+      ],
+      "topics": [
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "10-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een cope-ontginning verdeelt veen in kavels van elk 110 meter breed. Veertien kavels liggen naast elkaar. Hoe breed is het ontgonnen gebied in totaal?",
+      "answer": 1540,
+      "hints": [
+        "Vermenigvuldig het aantal kavels met de breedte."
+      ],
+      "solution": [
+        "$14 \\times 110 = 1540$ meter."
+      ],
+      "feedback": [
+        {
+          "answer": 154,
+          "message": "Je hebt 14 keer 11 gedaan; de breedte is 110 meter."
+        }
+      ],
+      "topics": [
+        "middle-ages"
+      ],
+      "unit": "m"
+    },
+    {
+      "id": "10-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom moest in Holland graan van elders komen, ook al was het veen ontgonnen?",
+      "choices": [
+        "Omdat de graaf akkerbouw verbood",
+        "Omdat boeren geen graan wilden eten",
+        "Het ontgonnen veen zakte in en werd nat, zodat veeteelt voordeliger werd dan akkerbouw",
+        "Omdat het klimaat te koud was voor gewassen"
+      ],
+      "answer": "Het ontgonnen veen zakte in en werd nat, zodat veeteelt voordeliger werd dan akkerbouw",
+      "hints": [
+        "Wat gebeurt er met veen als je het ontwatert?"
+      ],
+      "solution": [
+        "Ontwatering laat veen inklinken en oxideren.",
+        "Het land wordt natter, akkerbouw mislukt vaker.",
+        "Veeteelt past beter; graan komt van elders."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat het klimaat te koud was voor gewassen",
+          "message": "De middeleeuwse warme periode maakte het juist wat warmer. De oorzaak lag in de bodem."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "causation"
+      ]
+    },
+    {
+      "id": "10-006",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Leg uit waarom het klimaat een achtergrondfactor is en geen bewezen hoofdoorzaak van de agrarische groei.",
+      "answer": "Het klimaat was iets warmer, maar de gegevens (boomringen, ijskernen, bronnen) zijn niet eenduidig. Vernieuwingen in ploeg, tuig en indeling van het land en de bevolkingsgroei hadden een directer effect.",
+      "hints": [
+        "Denk aan de kwaliteit van de bewijzen."
+      ],
+      "solution": [
+        "Het klimaatverschil was klein en regionaal verschillend.",
+        "Er zijn ook andere, beter aantoonbare oorzaken.",
+        "Historici gaan daarom voorzichtig met dit argument om."
+      ],
+      "topics": [
+        "middle-ages",
+        "causation"
+      ]
+    },
+    {
+      "id": "10-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom verloren de jaarmarkten van Champagne rond 1300 hun belang?",
+      "choices": [
+        "Omdat de Hanze de markten verbood",
+        "Omdat niemand meer laken wilde kopen",
+        "Er kwam een goedkopere route doordat Italiaanse kooplieden rechtstreeks per schip naar Brugge gingen, en de Franse kroon kreeg meer greep",
+        "Omdat de graven van Champagne het geleide afschaften na de Guldensporenslag"
+      ],
+      "answer": "Er kwam een goedkopere route doordat Italiaanse kooplieden rechtstreeks per schip naar Brugge gingen, en de Franse kroon kreeg meer greep",
+      "hints": [
+        "Denk aan de route en aan de macht over het gebied."
+      ],
+      "solution": [
+        "Vanaf ongeveer 1277 voeren Italiaanse schepen naar Brugge.",
+        "De Franse kroon verstevigde haar greep op Champagne.",
+        "Veranderende omstandigheden maakten de instelling overbodig."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat niemand meer laken wilde kopen",
+          "message": "De vraag naar laken bleef. Het ging om een verandering van routes en politieke omstandigheden."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "10-008",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Lübeck wordt gesticht (1159)",
+        "Italiaanse kooplieden varen rechtstreeks naar Brugge (vanaf ca. 1277)",
+        "Guldensporenslag (1302)",
+        "Eerste algemene Hanzedag in Lübeck (1356)"
+      ],
+      "hints": [
+        "Zoek de jaartallen."
+      ],
+      "solution": [
+        "1159, ca. 1277, 1302, 1356."
+      ],
+      "topics": [
+        "middle-ages",
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Italiaanse kooplieden varen rechtstreeks naar Brugge (vanaf ca. 1277)",
+            "Lübeck wordt gesticht (1159)",
+            "Guldensporenslag (1302)",
+            "Eerste algemene Hanzedag in Lübeck (1356)"
+          ],
+          "message": "Lübeck is van 1159, ruim honderd jaar ouder dan de routeverandering rond 1277."
+        }
+      ]
+    },
+    {
+      "id": "10-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke bewering over de Hanze is het meest juist?",
+      "choices": [
+        "Een orde van ridders",
+        "Een gilde van wevers in Vlaanderen",
+        "Een staat met een koning in Lübeck",
+        "Een losse verbinding van kooplieden en steden zonder eigen leger of regering"
+      ],
+      "answer": "Een losse verbinding van kooplieden en steden zonder eigen leger of regering",
+      "hints": [
+        "Het woord hanze betekende groep of gezelschap."
+      ],
+      "solution": [
+        "De Hanze was een netwerk met afspraken over bescherming en tolvrijheid.",
+        "Er was geen vast lidmaatschapsformulier en geen eigen staat."
+      ],
+      "feedback": [
+        {
+          "answer": "Een staat met een koning in Lübeck",
+          "message": "Er was geen koning en geen eigen leger of regering."
+        }
+      ],
+      "topics": [
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "10-010",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Wat leert deze bron over bronnen over de Hanze?",
+      "choices": [
+        "Dat Kampen nooit Hanzestad was",
+        "Dat lijsten uit latere eeuwen verschillende data geven, omdat lidmaatschap vloeiend was",
+        "Dat de bron onbruikbaar is",
+        "Dat Zwolle in 1407 zeker toetrad"
+      ],
+      "answer": "Dat lijsten uit latere eeuwen verschillende data geven, omdat lidmaatschap vloeiend was",
+      "hints": [
+        "Let op het woord heropname."
+      ],
+      "solution": [
+        "Voor Zwolle staan 1407 en 1448 in overzichten.",
+        "Er was geen vast aanmeldmoment, dus data zijn deels conventies."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat Zwolle in 1407 zeker toetrad",
+          "message": "Er is ook een jaartal 1448 genoemd, mogelijk gaat het om een heropname."
+        },
+        {
+          "answer": "Dat de bron onbruikbaar is",
+          "message": "Ze is wel bruikbaar, mits je de onzekerheid benoemt."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "source-criticism"
+      ],
+      "context": "Overzichten geven voor Zwolle de jaren 1407 en 1448, met de opmerking dat 1407 wellicht een heropname betreft. Voor Kampen wordt 1441 genoemd."
+    },
+    {
+      "id": "10-011",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een koggewrak is gevonden op de vroegere Zuiderzeebodem. Welke conclusie is gerechtvaardigd?",
+      "choices": [
+        "Dat het schip is gezonken door piraten",
+        "Dat alle Hanzesteden koggen bouwden",
+        "Dat schepen van dit type er voeren en geschikt waren voor lading; voor de omvang van de handel zijn andere bronnen nodig",
+        "Dat de handel op de Zuiderzee enorm was"
+      ],
+      "answer": "Dat schepen van dit type er voeren en geschikt waren voor lading; voor de omvang van de handel zijn andere bronnen nodig",
+      "hints": [
+        "Wat zegt één wrak over de totale handel?"
+      ],
+      "solution": [
+        "Een wrak bewijst bestaan, niet omvang.",
+        "Bewaring is selectief."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat de handel op de Zuiderzee enorm was",
+          "message": "Eén voorwerp zegt niets over omvang; dat vraagt om tolrekeningen en andere reeksen."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "10-012",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Vergelijk de rol van de Vlaamse lakensteden, de jaarmarkten van Champagne en de Hanze in het handelsnetwerk.",
+      "answer": "Vlaanderen was productiecentrum (laken uit Engelse wol), Champagne ontmoetingsplaats en financieel knooppunt tussen noord en zuid, de Hanze een netwerk van noordelijke kooplieden en steden voor handel in graan, hout, bont en vis over de Noord- en Oostzee.",
+      "hints": [
+        "Gebruik de woorden productie, ontmoeting en vervoer."
+      ],
+      "solution": [
+        "Elk netwerk had een eigen functie: productie, ontmoeting en verrekening, transport en bescherming."
+      ],
+      "topics": [
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "10-013",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is de beste lezing van de uitdrukking \"stadslucht maakt vrij\"?",
+      "choices": [
+        "Steden hadden geen heren boven zich",
+        "Iedere migrant in de stad werd direct vrij en poorter",
+        "In sommige stadsrechten kon een onvrije die een jaar en een dag in de stad woonde vrij worden, maar het gold niet overal en was niet altijd makkelijk",
+        "Het gold alleen voor kooplieden"
+      ],
+      "answer": "In sommige stadsrechten kon een onvrije die een jaar en een dag in de stad woonde vrij worden, maar het gold niet overal en was niet altijd makkelijk",
+      "hints": [
+        "De uitdrukking is een latere samenvatting."
+      ],
+      "solution": [
+        "De regel stond in sommige stadsrechten.",
+        "Heren probeerden hun mensen terug te halen."
+      ],
+      "feedback": [
+        {
+          "answer": "Iedere migrant in de stad werd direct vrij en poorter",
+          "message": "Vrij zijn is niet hetzelfde als poorter zijn, en de regel gold niet overal."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "10-014",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Utrecht kreeg zijn oorkonde in 1122, Dordrecht in 1220. Hoeveel jaar zit daartussen?",
+      "answer": 98,
+      "hints": [
+        "Trek de jaartallen van elkaar af."
+      ],
+      "solution": [
+        "$1220 - 1122 = 98$ jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 102,
+          "message": "Reken opnieuw: 1220 min 1122."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "unit": "jaar"
+    },
+    {
+      "id": "10-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wie was in een middeleeuwse stad meestal geen volwaardig poorter?",
+      "choices": [
+        "Een schepen",
+        "Een dagloner of dienstbode",
+        "Iemand die het poortersrecht had gekocht",
+        "Een rijke koopman die in de stad geboren was"
+      ],
+      "answer": "Een dagloner of dienstbode",
+      "hints": [
+        "Poorterschap vereiste geboorte, koop of eed."
+      ],
+      "solution": [
+        "Veel inwoners stonden buiten de volledige gemeenschap."
+      ],
+      "feedback": [
+        {
+          "answer": "Een schepen",
+          "message": "Schepenen kwamen uit de poorters, meestal uit het patriciaat."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "perspective"
+      ]
+    },
+    {
+      "id": "10-016",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke taak had een ambachtsgilde in de middeleeuwse stad?",
+      "choices": [
+        "Het regelde opleiding, kwaliteit, prijs en onderlinge steun van leden",
+        "Het schreef stadsrechten",
+        "Het hief tol op de rivier",
+        "Het benoemde de graaf"
+      ],
+      "answer": "Het regelde opleiding, kwaliteit, prijs en onderlinge steun van leden",
+      "hints": [
+        "Denk aan leerling, gezel en meester."
+      ],
+      "solution": [
+        "Een gilde was meer dan een vakbond of beroepsvereniging."
+      ],
+      "feedback": [
+        {
+          "answer": "Het hief tol op de rivier",
+          "message": "Tol werd geheven door de landsheer of door de stad met toestemming."
+        }
+      ],
+      "topics": [
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "10-017",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Zet deze posities in een gilde van laag naar hoog.",
+      "answer": [
+        "Leerling",
+        "Gezel",
+        "Meester",
+        "Deken van het gilde"
+      ],
+      "hints": [
+        "Eerst leren, dan werken, dan zelfstandig."
+      ],
+      "solution": [
+        "Leerling, gezel, meester, deken."
+      ],
+      "topics": [
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "10-018",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Noem één argument voor en één argument tegen het beeld dat gilden vooral kwaliteit beschermden.",
+      "answer": "Voor: gilden controleerden de kwaliteit en bevorderden opleiding en steun. Tegen: ze beperkten concurrentie en hielden nieuwkomers buiten.",
+      "hints": [
+        "Denk aan beide kanten van het debat."
+      ],
+      "solution": [
+        "Bronnen laten beide zien; het hing af van beroep, plaats en tijd."
+      ],
+      "topics": [
+        "middle-ages",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "10-019",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat waren de leliaerts in Vlaanderen rond 1300?",
+      "choices": [
+        "Aanhangers van de graaf, vaak ambachtslieden",
+        "Aanhangers van de Franse koning, vaak uit het patriciaat",
+        "Leden van een gilde",
+        "Franse ridders"
+      ],
+      "answer": "Aanhangers van de Franse koning, vaak uit het patriciaat",
+      "hints": [
+        "Lelie is het Franse symbool."
+      ],
+      "solution": [
+        "Leliaerts steunden Frankrijk; klauwaerts de graaf."
+      ],
+      "feedback": [
+        {
+          "answer": "Aanhangers van de graaf, vaak ambachtslieden",
+          "message": "Dat waren de klauwaerts, naar de klauw van de Vlaamse leeuw."
+        }
+      ],
+      "topics": [
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "10-020",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Gevangenneming van graaf Gwijde van Dampierre (1300)",
+        "Brugse Metten (18 mei 1302)",
+        "Guldensporenslag (11 juli 1302)",
+        "Begin van de grote hongersnood (1315)"
+      ],
+      "hints": [
+        "Alle gebeurtenissen zijn gedateerd."
+      ],
+      "solution": [
+        "1300, mei 1302, juli 1302, 1315."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Brugse Metten (18 mei 1302)",
+            "Gevangenneming van graaf Gwijde van Dampierre (1300)",
+            "Guldensporenslag (11 juli 1302)",
+            "Begin van de grote hongersnood (1315)"
+          ],
+          "message": "De gevangenneming (1300) ging vooraf aan de opstand."
+        }
+      ]
+    },
+    {
+      "id": "10-021",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een medeleerling beweert: \"De Guldensporenslag kwam alleen door de strijd tegen Frankrijk.\" Wat is de beste reactie?",
+      "choices": [
+        "Dat is monocausaal: ook de sociale spanningen en de wolafhankelijkheid speelden mee",
+        "Dat klopt, want de slag was alleen een militaire gebeurtenis",
+        "Dat klopt, sociale spanningen speelden geen rol",
+        "Het was alleen een sociale strijd"
+      ],
+      "answer": "Dat is monocausaal: ook de sociale spanningen en de wolafhankelijkheid speelden mee",
+      "hints": [
+        "Denk aan korte en lange termijn."
+      ],
+      "solution": [
+        "Historici wegen meerdere oorzaken."
+      ],
+      "feedback": [
+        {
+          "answer": "Het was alleen een sociale strijd",
+          "message": "Dat is de omgekeerde eenzijdigheid. De Franse politiek was de directe aanleiding."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "causation"
+      ]
+    },
+    {
+      "id": "10-022",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel dagen zaten er tussen de Brugse Metten (18 mei 1302) en de Guldensporenslag (11 juli 1302)?",
+      "answer": 54,
+      "hints": [
+        "Mei heeft 31 dagen, juni 30."
+      ],
+      "solution": [
+        "Van 18 mei tot 31 mei: 13 dagen. Juni: 30. Tot 11 juli: 11. Samen $13 + 30 + 11 = 54$."
+      ],
+      "feedback": [
+        {
+          "answer": 53,
+          "message": "Je hebt een dag te weinig geteld."
+        },
+        {
+          "answer": 55,
+          "message": "Je hebt een dag te veel geteld."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "unit": "dagen"
+    },
+    {
+      "id": "10-023",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat laat de oorkonde van 1255 over Rijnland vooral zien?",
+      "choices": [
+        "Dat Rijnland een staat was",
+        "Dat er toen al heemraden waren die gezamenlijk toezicht hielden op dijken",
+        "Dat veen niet werd ontgonnen",
+        "Dat Amsterdam al een stad was"
+      ],
+      "answer": "Dat er toen al heemraden waren die gezamenlijk toezicht hielden op dijken",
+      "hints": [
+        "Wat zegt de oorkonde over heemraden?"
+      ],
+      "solution": [
+        "Heemraden worden genoemd in verband met dijken bij het IJ en de Rijn."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat Rijnland een staat was",
+          "message": "Een waterschap is een regionaal bestuur, geen staat."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "sources"
+      ],
+      "context": "Een oorkonde uit 1255 noemt heemraden die toezicht hielden op dijken langs het IJ bij Amsterdam en de Rijn bij Zwammerdam."
+    },
+    {
+      "id": "10-024",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom steunde Floris V zich op boeren en steden?",
+      "choices": [
+        "Omdat hij zelf boer was",
+        "Dat gaf hem steun en inkomsten tegenover de lokale adel",
+        "Omdat de adel hem steunde",
+        "Omdat steden niets kostten"
+      ],
+      "answer": "Dat gaf hem steun en inkomsten tegenover de lokale adel",
+      "hints": [
+        "Wie bedreigde zijn macht?"
+      ],
+      "solution": [
+        "Privileges aan Kennemers beschermden hen tegen edelen."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat de adel hem steunde",
+          "message": "In 1296 werd hij door edelen gevangengenomen en gedood."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "causation"
+      ]
+    },
+    {
+      "id": "10-025",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Waarom ontstonden regionale waterbesturen in Holland vóór er sprake was van een sterke staat?",
+      "answer": "Dijken en sluizen konden niet door één dorp worden gebouwd en onderhouden. Wie profiteerde, betaalde mee, zodat gezamenlijke besturen met eigen regels en belasting ontstonden. De graaf was afhankelijk van hun kennis.",
+      "hints": [
+        "Denk aan wie profiteert en wie betaalt."
+      ],
+      "solution": [
+        "Het probleem (dalend land) vroeg om samenwerking boven dorpsniveau; de graaf liet het organiseren en bevestigde het."
+      ],
+      "topics": [
+        "middle-ages",
+        "causation"
+      ]
+    },
+    {
+      "id": "10-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat was de kern van Pirennes verklaring van de opkomst van steden?",
+      "choices": [
+        "Abdijen en graven waren belangrijker dan handel",
+        "De landbouw was de enige oorzaak",
+        "Steden ontstonden door oorlog",
+        "Kooplieden en handel waren de motor van de stad"
+      ],
+      "answer": "Kooplieden en handel waren de motor van de stad",
+      "hints": [
+        "Pirenne schreef over Medieval Cities (1925)."
+      ],
+      "solution": [
+        "Pirenne zag de burger als nieuw type man los van het land."
+      ],
+      "feedback": [
+        {
+          "answer": "Abdijen en graven waren belangrijker dan handel",
+          "message": "Dat is de nadruk van latere critici zoals Verhulst."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "10-027",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke kritiek had Verhulst op Pirenne?",
+      "choices": [
+        "Dat handel geen rol speelde",
+        "Dat er geen steden in Vlaanderen waren",
+        "Veel steden groeiden al eerder rond kerken, abdijen en grafelijke centra, met regionale markten en landbouw als basis",
+        "Dat Pirenne geen Belg was"
+      ],
+      "answer": "Veel steden groeiden al eerder rond kerken, abdijen en grafelijke centra, met regionale markten en landbouw als basis",
+      "hints": [
+        "Verhulst legt de nadruk op andere oorzaken."
+      ],
+      "solution": [
+        "Handel komt later en versterkt."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat handel geen rol speelde",
+          "message": "Hij ontkent de handel niet maar geeft haar een ander gewicht."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "10-028",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Is \"commerciële revolutie\" een goed woord voor de ontwikkeling tussen 950 en 1350? Geef een argument voor en tegen, en een afweging.",
+      "answer": "Voor: nieuwe werkwijzen (vennootschappen, krediet, boekhouding) veranderden de handel. Tegen: het was een geleidelijk, regionaal verschillend proces en de economie bleef overwegend agrarisch. Afweging: bruikbaar als samenvatting van de verandering, maar misleidend als je een plotselinge omwenteling bedoelt.",
+      "hints": [
+        "Denk aan het woord revolutie."
+      ],
+      "solution": [
+        "Een sterk woord geeft een helder beeld maar kan de nuance verbergen."
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "10-029",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat bewijst Bron A (Utrecht, 1122) wel?",
+      "choices": [
+        "Dat alle inwoners vrij waren",
+        "Dat de keizer bepaalde rechten en tolvrijdom bevestigde in ruil voor trouw en het versterken van de stad",
+        "Dat Utrecht al een gemeente met burgemeesters was",
+        "Dat Utrecht de oudste stad van Nederland is"
+      ],
+      "answer": "Dat de keizer bepaalde rechten en tolvrijdom bevestigde in ruil voor trouw en het versterken van de stad",
+      "hints": [
+        "Lees wat er letterlijk staat."
+      ],
+      "solution": [
+        "De oorkonde beschrijft een ruil."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat Utrecht al een gemeente met burgemeesters was",
+          "message": "Daar staat niets over in de tekst."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ],
+      "context": "\"Bovendien vergunnen wij allen die de Utrechtse stad moeten versterken met een wal, vrijstelling van welke tol dan ook, zo vaak als zij die stad bezoeken om er waren op de markt te brengen.\" (Vertaling van het stadsrecht van Utrecht, 1122)"
+    },
+    {
+      "id": "10-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom is de tabel met data van stadsrechten (Bron B) een secundaire bron?",
+      "choices": [
+        "Ze is een latere samenvatting van overzichten en geen document uit de tijd zelf",
+        "Omdat ze geen Nederlands gebruikt",
+        "Omdat ze fout is",
+        "Omdat ze data bevat"
+      ],
+      "answer": "Ze is een latere samenvatting van overzichten en geen document uit de tijd zelf",
+      "hints": [
+        "Wie maakte de tabel, en wanneer?"
+      ],
+      "solution": [
+        "Een latere samenvatting is secundair."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat ze fout is",
+          "message": "Secundair betekent niet fout; het gaat om de afstand tot de gebeurtenis."
+        }
+      ],
+      "topics": [
+        "sources"
+      ]
+    },
+    {
+      "id": "10-031",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke conclusie uit de drie bronnen samen is het best onderbouwd?",
+      "choices": [
+        "De bronnen vertellen alles over het dagelijks leven",
+        "Alle steden kregen hetzelfde recht op hetzelfde moment",
+        "Stadsrecht was een bundel afspraken die uit onderhandelingen voortkwam, niet één gebeurtenis",
+        "Stadsrecht maakte iedereen vrij"
+      ],
+      "answer": "Stadsrecht was een bundel afspraken die uit onderhandelingen voortkwam, niet één gebeurtenis",
+      "hints": [
+        "Kijk naar de ruil in Bron A en de wisselende data in C."
+      ],
+      "solution": [
+        "A: ruil. B: opeenvolgende data. C: vloeiend lidmaatschap."
+      ],
+      "feedback": [
+        {
+          "answer": "Stadsrecht maakte iedereen vrij",
+          "message": "Dat past niet bij de nuance rond poorterschap."
+        }
+      ],
+      "topics": [
+        "sources",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "10-032",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Schrijf een korte bronnenparagraaf (circa tien zinnen) waarin je de onderzoeksvraag van dit practicum beantwoordt met alle drie de bronnen, en aangeeft hoe zeker je bent.",
+      "answer": "Een goed antwoord gebruikt A voor de ruil van trouw en wal tegen tolvrijheid, B voor de opeenvolging van stadsrechten, C voor het vloeiende lidmaatschap van netwerken; benoemt wat de bronnen niet laten zien (gewone bewoners, vrouwen, praktijk van het bestuur); en eindigt met een conclusie met aanduiding van zekerheid.",
+      "hints": [
+        "Volg de vijf stappen uit het uitgewerkte voorbeeld."
+      ],
+      "solution": [
+        "Gebruik per bron: herkomst, wat ze zegt, wat niet, en een gewogen conclusie."
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    }
+  ]
+}

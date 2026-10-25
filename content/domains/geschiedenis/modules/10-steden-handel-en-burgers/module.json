@@ -4,19 +4,146 @@
   "title": "Steden, handel en burgers",
   "part": 4,
   "level": "fundamenten",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Ca. 1000 – 1350",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 240,
   "prerequisites": [
     1
   ],
   "topics": [
     "middle-ages",
     "causation",
-    "continuity-change"
+    "continuity-change",
+    "sources",
+    "source-criticism",
+    "interpretation",
+    "historiography",
+    "chronology",
+    "contextualisation",
+    "perspective"
   ],
   "core_question": "Waarom groeiden steden weer, en wat maakte iemand een burger?",
   "summary": "Agrarische groei, handel en de opkomst van steden en burgerij, met de steden van de Lage Landen als voorbeeld.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een perkament met een wal en een tolvrijstelling",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "meer-voedsel-meer-mensen",
+      "title": "Meer voedsel, meer mensen",
+      "file": "02-meer-voedsel-meer-mensen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "wol-laken-en-jaarmarkten",
+      "title": "Wol, laken en jaarmarkten",
+      "file": "03-wol-laken-en-jaarmarkten.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "stadsrecht-burgers-en-gilden",
+      "title": "Stadsrecht, burgers en gilden",
+      "file": "04-stadsrecht-burgers-en-gilden.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "bestuur-conflict-en-water",
+      "title": "Bestuur, conflict en water",
+      "file": "05-bestuur-conflict-en-water.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Wat laat een stad groeien?",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Drie bronnen over stadsrecht",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt verklaren welke ontwikkelingen (ploeg, drieslagstelsel, bevolkingsgroei, ontginning) de groei van steden mogelijk maakten.",
+    "Je kunt de rol van de Vlaamse lakenindustrie, de jaarmarkten van Champagne en de Hanze in het handelsnetwerk beschrijven.",
+    "Je kunt uitleggen wat stadsrecht en poorterschap inhielden en de uitdrukking \"stadslucht maakt vrij\" nuanceren.",
+    "Je kunt de rol van gilden en stadsbestuur beschrijven en het conflict van 1302 op meerdere niveaus verklaren.",
+    "Je kunt de veenontginning en het ontstaan van waterschappen in Holland en Utrecht in verband brengen met de graaf en de steden.",
+    "Je kunt de interpretaties van Pirenne en Verhulst vergelijken en het debat over de commerciële revolutie weergeven.",
+    "Je kunt een oorkonde als bron analyseren: herkomst, context, wat ze wel en niet zegt, en hoe zeker je conclusie is."
+  ],
+  "glossary": [
+    {
+      "term": "Stadsrecht",
+      "definition": "Oorkonde of bundel rechten waarmee een landsheer de bewoners van een plaats eigen rechtspraak, vrijheden en vaak een eigen bestuur toekent."
+    },
+    {
+      "term": "Poorter",
+      "definition": "Volwaardig lid van de stedelijke gemeenschap met rechten en plichten; burger in middeleeuwse zin."
+    },
+    {
+      "term": "Gilde",
+      "definition": "Vereniging van mensen met hetzelfde beroep die opleiding, kwaliteit, prijs en onderlinge steun regelde."
+    },
+    {
+      "term": "Patriciaat",
+      "definition": "De kleine kring rijke families die in veel steden het stadsbestuur vormde."
+    },
+    {
+      "term": "Schepen",
+      "definition": "Lid van het stedelijke college dat recht sprak en de stad bestuurde."
+    },
+    {
+      "term": "Cope-ontginning",
+      "definition": "Ontginning van veen in lange, smalle kavels vanaf een basislijn, in opdracht van een landsheer."
+    },
+    {
+      "term": "Drieslagstelsel",
+      "definition": "Indeling van het bouwland in wintergraan, zomergraan en braak, die elk jaar doorschuiven."
+    },
+    {
+      "term": "Hanze",
+      "definition": "Losse verbinding van kooplieden en steden in Noord-Europa met afspraken over bescherming en tolvrijheid."
+    },
+    {
+      "term": "Kogge",
+      "definition": "Breed, platbodemig zeilschip met veel laadruimte, gebruikt voor handel op de Noord- en Oostzee."
+    },
+    {
+      "term": "Heemraad",
+      "definition": "Bestuurder in een waterschap die toezicht houdt op dijken en waterwerken."
+    },
+    {
+      "term": "Leliaerts en klauwaerts",
+      "definition": "Bijnamen in Vlaanderen rond 1300 voor aanhangers van de Franse koning respectievelijk van de graaf."
+    }
+  ],
+  "timeline": [
+    "stadsrecht-utrecht-1122",
+    "stadsrecht-dordrecht-1220",
+    "rijnland-heemraden-1255",
+    "floris-v-vermoord-1296",
+    "guldensporenslag-1302",
+    "grote-hongersnood-1315",
+    "champagne-jaarmarkten",
+    "veenontginning-holland-utrecht",
+    "pirenne-medieval-cities-1925"
+  ],
+  "people": [
+    "floris-v",
+    "pirenne",
+    "lopez"
+  ]
 }
