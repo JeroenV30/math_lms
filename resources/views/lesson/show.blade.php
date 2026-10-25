@@ -43,7 +43,7 @@
         </aside>
 
         {{-- Les --}}
-        <article class="min-w-0 max-w-3xl">
+        <article class="min-w-0 max-w-3xl" data-read-aloud>
             <header class="mb-10">
                 <p class="eyebrow">Les {{ $lesson->position }} van {{ $module->lessons->count() }} · {{ $lesson->kindLabel() }}</p>
                 <h1 class="page-title mt-2">{{ $lesson->title }}</h1>

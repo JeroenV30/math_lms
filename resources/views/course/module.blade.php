@@ -34,7 +34,7 @@
     </x-page-header>
 
     <div class="container-page mt-10 grid gap-10 lg:grid-cols-[minmax(0,1fr)_20rem]">
-        <div class="min-w-0">
+        <div class="min-w-0" data-read-aloud>
             @if (! $available)
                 <div class="card p-6">
                     <p class="eyebrow">In voorbereiding</p>

@@ -17,6 +17,28 @@
             <button class="btn btn-primary mt-4">Opslaan</button>
         </form>
 
+        <section class="card mt-6 p-6" aria-labelledby="voice-title" x-data="voiceSettings()">
+            <p id="voice-title" class="text-sm font-semibold text-ink">Voorlezen</p>
+            <p class="mt-1 text-sm text-muted">Met de luidsprekerknop bovenaan een les laat je de tekst voorlezen, formules inbegrepen. De stemmen komen van je browser en werken zonder internet; Microsoft Edge heeft de natuurlijkst klinkende Nederlandse stemmen.</p>
+            <template x-if="supported">
+                <div>
+                    <label for="voice" class="mt-4 block text-sm text-ink">Stem</label>
+                    <select id="voice" class="input mt-2 block" x-model="voiceURI" @change="save()" x-show="voices.length">
+                        <template x-for="voice in voices" :key="voice.uri">
+                            <option :value="voice.uri" x-text="voice.label" :selected="voice.uri === voiceURI"></option>
+                        </template>
+                    </select>
+                    <p x-show="!voices.length" class="mt-2 text-sm text-warning">Geen Nederlandse stem gevonden. Voeg er een toe via Windows-instellingen › Tijd en taal › Spraak, of gebruik Microsoft Edge.</p>
+                    <label for="rate" class="mt-4 block text-sm text-ink">Tempo: <span x-text="String(rate).replace('.', ',') + '×'"></span></label>
+                    <input id="rate" type="range" min="0.7" max="1.6" step="0.05" x-model.number="rate" @change="save()" class="mt-2 w-full max-w-xs accent-[var(--color-accent)]">
+                    <div class="mt-4">
+                        <button type="button" class="btn btn-secondary" @click="test()">Probeer de stem</button>
+                    </div>
+                </div>
+            </template>
+            <p x-show="!supported" class="mt-3 text-sm text-warning">Deze browser ondersteunt geen voorlezen.</p>
+        </section>
+
         <section class="card mt-6 p-6" aria-labelledby="backup-title">
             <p id="backup-title" class="text-sm font-semibold text-ink">Back-up van je voortgang</p>
             <p class="mt-1 text-sm text-muted">Al je leerdata staat in één lokaal databasebestand. Bewaar af en toe een back-up, bijvoorbeeld voordat je de applicatie bijwerkt of naar een andere computer gaat. De cursusinhoud zit er niet in.</p>

@@ -18,7 +18,7 @@
     </x-page-header>
 
     <div class="container-page mt-10 grid gap-10 lg:grid-cols-[minmax(0,1fr)_18rem]">
-        <article class="min-w-0 max-w-3xl">
+        <article class="min-w-0 max-w-3xl" data-read-aloud>
             <div class="prose-content">
                 {!! $markdown->render($person['bio'] ?? '') !!}
             </div>

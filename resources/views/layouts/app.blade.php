@@ -106,6 +106,23 @@
                     </a>
                 @endif
 
+                {{-- Voorlezen: alleen op pagina's met voorleesbare tekst (zie resources/js/speech/reader.js). --}}
+                <div x-data="{ show: 'speechSynthesis' in window && document.querySelector('[data-read-aloud]') !== null, active: false }"
+                     x-show="show" x-cloak @reader-state.window="active = $event.detail.open">
+                    <button type="button" class="btn btn-ghost px-2.5" :class="active && 'text-accent'" @click="$dispatch('reader-toggle')"
+                            title="Voorlezen" aria-label="Voorlezen">
+                        <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3.5 7.5h2.5L10 4v12l-4-3.5H3.5z" stroke-linejoin="round"/><path d="M13 7.2a4 4 0 0 1 0 5.6M15.3 5a7 7 0 0 1 0 10" stroke-linecap="round"/></svg>
+                    </button>
+                </div>
+
+                {{-- Studiemuziek speelt in een eigen venster (zie resources/js/music/player.js). --}}
+                <div x-data="musicLauncher('{{ route('music.player') }}')">
+                    <button type="button" class="btn btn-ghost relative px-2.5" :class="playing && 'text-accent'" @click="open()" :title="label" :aria-label="label">
+                        <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M7.5 15V4.5l9-2V13" stroke-linejoin="round"/><circle cx="5.5" cy="15" r="2"/><circle cx="14.5" cy="13" r="2"/></svg>
+                        <span x-show="playing" x-cloak class="absolute top-1.5 right-1.5 h-2 w-2 animate-pulse rounded-full bg-accent" aria-hidden="true"></span>
+                    </button>
+                </div>
+
                 <div x-data="{
                         mode: (() => { try { return localStorage.getItem('theme') || 'system' } catch (e) { return 'system' } })(),
                         get label() { return { system: 'Thema: systeem', light: 'Thema: licht', dark: 'Thema: donker' }[this.mode] },
@@ -201,6 +218,57 @@
             </p>
         </div>
     </footer>
+        </div>
+    </div>
+
+    {{-- Voorleesbalk --}}
+    <div x-data="reader()" x-cloak x-show="open" x-transition.opacity data-reader-bar
+         @reader-toggle.window="open ? close() : start()"
+         x-effect="$dispatch('reader-state', { open })"
+         class="fixed inset-x-0 bottom-4 z-50 flex justify-center px-4">
+        <div class="relative flex items-center gap-1 rounded-2xl border border-line bg-paper/95 p-1.5 shadow-lg backdrop-blur" role="region" aria-label="Voorlezen">
+            <button type="button" class="btn btn-ghost px-2.5" @click="previous()" title="Vorige alinea" aria-label="Vorige alinea">
+                <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5 4.5h2v11H5zM16 4.5v11l-8-5.5z"/></svg>
+            </button>
+            <button type="button" class="btn btn-primary h-10 w-10 justify-center rounded-full p-0" @click="toggle()" :title="playing ? 'Pauzeren' : 'Verder lezen'" :aria-label="playing ? 'Pauzeren' : 'Verder lezen'">
+                <svg x-show="!playing" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M6.5 4.5v11l9-5.5z"/></svg>
+                <svg x-show="playing" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><rect x="5.5" y="4.5" width="3" height="11" rx="1"/><rect x="11.5" y="4.5" width="3" height="11" rx="1"/></svg>
+            </button>
+            <button type="button" class="btn btn-ghost px-2.5" @click="nextBlock()" title="Volgende alinea" aria-label="Volgende alinea">
+                <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M13 4.5h2v11h-2zM4 4.5v11l8-5.5z"/></svg>
+            </button>
+            <span class="hidden w-16 text-center text-xs text-muted tabular-nums sm:inline" x-text="progress"></span>
+            <label class="sr-only" for="reader-rate">Tempo</label>
+            <select id="reader-rate" class="rounded-md border border-line bg-paper px-1.5 py-1 text-sm text-ink" :value="rate" @change="setRate($event.target.value)" title="Tempo">
+                @foreach (['0.8', '0.9', '1', '1.1', '1.2', '1.35', '1.5'] as $rate)
+                    <option value="{{ $rate }}">{{ str_replace('.', ',', $rate) }}×</option>
+                @endforeach
+            </select>
+            <button type="button" class="btn btn-ghost px-2.5" @click="showSettings = !showSettings" :aria-expanded="showSettings" title="Stem en instellingen" aria-label="Stem en instellingen">
+                <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 6h8M15 6h2M3 14h2M9 14h8" stroke-linecap="round"/><circle cx="13" cy="6" r="2"/><circle cx="7" cy="14" r="2"/></svg>
+            </button>
+            <button type="button" class="btn btn-ghost px-2.5" @click="close()" title="Stoppen (Esc)" aria-label="Voorlezen stoppen">
+                <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15" stroke-linecap="round"/></svg>
+            </button>
+
+            <div x-show="showSettings" x-transition.opacity @click.outside="showSettings = false"
+                 class="absolute right-0 bottom-full mb-2 w-80 max-w-[calc(100vw-2rem)] rounded-xl border border-line bg-paper p-4 shadow-lg">
+                <label for="reader-voice" class="block text-sm font-semibold text-ink">Stem</label>
+                <template x-if="voices.length">
+                    <select id="reader-voice" class="input mt-2 text-sm" :value="voiceURI" @change="setVoice($event.target.value)">
+                        <template x-for="voice in voices" :key="voice.uri">
+                            <option :value="voice.uri" x-text="voice.label" :selected="voice.uri === voiceURI"></option>
+                        </template>
+                    </select>
+                </template>
+                <p x-show="!voices.length" class="mt-2 text-sm text-warning">Geen Nederlandse stem gevonden. Voeg er een toe via Windows-instellingen › Tijd en taal › Spraak, of gebruik Microsoft Edge.</p>
+                <p class="mt-2 text-xs text-muted">Stemmen met ‘natuurlijk’ klinken het prettigst; Microsoft Edge biedt die standaard aan.</p>
+                <label class="mt-4 flex items-center gap-2 text-sm text-ink-soft">
+                    <input type="checkbox" :checked="follow" @change="setFollow($event.target.checked)">
+                    <span>Meescrollen met de tekst</span>
+                </label>
+                <p class="mt-3 text-xs text-muted">Klik op een alinea om vanaf daar verder te lezen.</p>
+            </div>
         </div>
     </div>
 </body>

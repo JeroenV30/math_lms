@@ -673,4 +673,29 @@
     .timeline-dot {
         @apply absolute -left-[0.4375rem] mt-1.5 h-3.5 w-3.5 rounded-full border-2 border-history bg-paper;
     }
+
+    /* ---------- Voorlezen ---------- */
+
+    .reading-now {
+        background: var(--color-accent-soft);
+        box-shadow: 0 0 0 0.35rem var(--color-accent-soft);
+        border-radius: 0.25rem;
+        transition: background-color 0.2s;
+    }
+
+    .reader-open [data-read-aloud] :is(p, li, h2, h3, blockquote, tr, .exercise-question):hover {
+        cursor: pointer;
+        background: var(--color-mist);
+        box-shadow: 0 0 0 0.35rem var(--color-mist);
+        border-radius: 0.25rem;
+    }
+
+    .reader-open [data-read-aloud] .reading-now:hover {
+        background: var(--color-accent-soft);
+        box-shadow: 0 0 0 0.35rem var(--color-accent-soft);
+    }
+
+    .reader-open main {
+        padding-bottom: 5rem;
+    }
 }

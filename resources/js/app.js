@@ -13,6 +13,8 @@ import { dice, normalDistribution, regression, sampling } from './visualisations
 import { rightTriangle } from './visualisations/right-triangle';
 import { boxplot } from './visualisations/boxplot';
 import { unitCircle } from './visualisations/unit-circle';
+import { reader, voiceSettings } from './speech/reader';
+import { musicLauncher, musicPlayer } from './music/player';
 
 Alpine.data('exercise', exercise);
 
@@ -44,6 +46,11 @@ Alpine.data('dice', dice);
 Alpine.data('rightTriangle', rightTriangle);
 Alpine.data('boxplot', boxplot);
 Alpine.data('unitCircle', unitCircle);
+
+Alpine.data('reader', reader);
+Alpine.data('voiceSettings', voiceSettings);
+Alpine.data('musicPlayer', musicPlayer);
+Alpine.data('musicLauncher', musicLauncher);
 
 /**
  * x-katex="expressie": render een reactieve formule, bijv. in een visualisatie.
