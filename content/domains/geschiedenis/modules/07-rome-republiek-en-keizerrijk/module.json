@@ -4,19 +4,153 @@
   "title": "Rome: republiek en keizerrijk",
   "part": 3,
   "level": "fundamenten",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Ca. 509 v.Chr. – 476 n.Chr.",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 300,
   "prerequisites": [
     1
   ],
   "topics": [
     "antiquity",
     "continuity-change",
-    "sources"
+    "sources",
+    "causation",
+    "interpretation",
+    "perspective",
+    "contextualisation",
+    "source-criticism",
+    "historiography",
+    "chronology"
   ],
   "core_question": "Hoe hield Rome een rijk van drie werelddelen bij elkaar?",
   "summary": "Van republiek tot keizerrijk: leger, recht, steden en romanisering, aan de limes ook in de Nederlanden.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een kaart voor reizigers",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "de-republiek",
+      "title": "De stad die bleef winnen",
+      "file": "02-de-republiek.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "van-republiek-naar-principaat",
+      "title": "Van republiek naar principaat",
+      "file": "03-van-republiek-naar-principaat.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "het-cement-van-het-rijk",
+      "title": "Het cement van het rijk",
+      "file": "04-het-cement-van-het-rijk.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "de-limes-en-de-bataven",
+      "title": "Aan de rand: de limes en de Bataven",
+      "file": "05-de-limes-en-de-bataven.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Wat is Romeins worden?",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bondgenoten of onderdanen?",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen hoe de Romeinse republiek was ingericht (consuls, senaat, volksvergaderingen) en waarom de standenstrijd geen democratie opleverde.",
+    "Je kunt de Punische oorlogen en de Romeinse expansie verklaren met korte- en langetermijnoorzaken.",
+    "Je kunt de crisis van de republiek verklaren uit meerdere samenhangende ontwikkelingen en uitleggen hoe Augustus een nieuwe orde bouwde.",
+    "Je kunt beschrijven met welke middelen Rome zijn rijk bijeenhield: leger en limes, wegen, recht en burgerrecht, steden, belasting en keizercultus.",
+    "Je kunt de rol van slavernij in de Romeinse samenleving beschrijven en bronnen daarover lezen met aandacht voor het perspectief van de schrijver.",
+    "Je kunt de Neder-Germaanse limes, Nijmegen en de Bataafse opstand beschrijven en de bronnen daarover beoordelen.",
+    "Je kunt de debatten over romanisering (Haverfield, Millett, creolisering, machtsperspectief) weergeven en uitleggen waarom het interpretaties zijn."
+  ],
+  "glossary": [
+    {
+      "term": "Res publica",
+      "definition": "Latijn voor 'de zaak van het volk': de Romeinse staatsvorm van ca. 509 tot 27 v.Chr., met jaarlijks gekozen magistraten en een senaat."
+    },
+    {
+      "term": "Consul",
+      "definition": "Een van de twee jaarlijks gekozen hoogste magistraten van de republiek, die samen het leger en de staat leidden."
+    },
+    {
+      "term": "Senaat",
+      "definition": "Raad van oud-magistraten die formeel adviseerde, maar in de praktijk het beleid bepaalde."
+    },
+    {
+      "term": "Standenstrijd",
+      "definition": "De langdurige strijd van de plebejers om gelijke rechten tegenover de patriciërs, ca. 5e-3e eeuw v.Chr."
+    },
+    {
+      "term": "Provincie",
+      "definition": "Een gebied buiten Italië onder bestuur van een door Rome gestuurde gouverneur, dat belasting betaalde."
+    },
+    {
+      "term": "Principaat",
+      "definition": "De door Augustus gevestigde staatsvorm waarin de vormen van de republiek bleven bestaan, maar de macht bij de princeps lag."
+    },
+    {
+      "term": "Limes",
+      "definition": "De grens van het Romeinse Rijk, bestaande uit rivieren, forten, torens, wegen en op sommige plaatsen muren."
+    },
+    {
+      "term": "Hulptroepen (auxilia)",
+      "definition": "Eenheden van soldaten uit de provincies zonder Romeins burgerrecht, die dat na hun dienst kregen."
+    },
+    {
+      "term": "Constitutio Antoniniana",
+      "definition": "Edict van Caracalla uit 212 waarmee vrijwel alle vrije inwoners van het rijk Romeins burger werden."
+    },
+    {
+      "term": "Keizercultus",
+      "definition": "Het vereren van overleden en levende keizers, als manier om loyaliteit aan het rijk te organiseren."
+    },
+    {
+      "term": "Romanisering",
+      "definition": "Term voor het overnemen van Romeinse taal, gewoonten en materiële cultuur in de provincies. Sterk omstreden als verklaring."
+    },
+    {
+      "term": "Creolisering",
+      "definition": "Het proces waarin culturen elkaar mengen en een nieuwe vorm ontstaat; toegepast op de Romeinse provincies als alternatief voor romanisering."
+    }
+  ],
+  "timeline": [
+    "rome-republiek-509",
+    "punische-oorlogen",
+    "caesar-rubicon-49",
+    "actium-augustus-27",
+    "bataafse-opstand-69",
+    "constitutio-antoniniana-212",
+    "crisis-derde-eeuw",
+    "limes-werelderfgoed-2021"
+  ],
+  "people": [
+    "augustus",
+    "julius-caesar",
+    "hannibal",
+    "tacitus",
+    "julius-civilis",
+    "haverfield",
+    "caracalla"
+  ]
 }

@@ -1,0 +1,376 @@
+{
+  "title": "Hoofdstuktoets – De Griekse wereld",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "06-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat was een polis?",
+      "choices": [
+        "Een zelfstandige gemeenschap van burgers met een stad en omliggend land",
+        "Een provincie van het Perzische rijk",
+        "Een Grieks bondgenootschap",
+        "Een soort wet"
+      ],
+      "answer": "Een zelfstandige gemeenschap van burgers met een stad en omliggend land",
+      "hints": [],
+      "solution": [
+        "Een zelfstandige gemeenschap van burgers met een stad en omliggend land"
+      ],
+      "topics": [
+        "antiquity"
+      ],
+      "feedback": [
+        {
+          "answer": "Een Grieks bondgenootschap",
+          "message": "Een bondgenootschap bestond uit meerdere poleis."
+        }
+      ]
+    },
+    {
+      "id": "06-T02",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen van oud naar jong.",
+      "answer": [
+        "Hervormingen van Solon",
+        "Hervormingen van Kleisthenes",
+        "Slag bij Marathon",
+        "Begin van de Peloponnesische Oorlog"
+      ],
+      "hints": [],
+      "solution": [
+        "594, 508/507, 490, 431 v.Chr."
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "06-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat was het doel van loting voor veel Atheense ambten?",
+      "choices": [
+        "De besten aanwijzen",
+        "Gelijke kansen geven en voorkomen dat groepen ambten monopoliseerden",
+        "Geld besparen",
+        "Slaven laten meebesturen"
+      ],
+      "answer": "Gelijke kansen geven en voorkomen dat groepen ambten monopoliseerden",
+      "hints": [],
+      "solution": [
+        "Gelijke kansen geven en voorkomen dat groepen ambten monopoliseerden"
+      ],
+      "topics": [
+        "antiquity"
+      ],
+      "feedback": [
+        {
+          "answer": "De besten aanwijzen",
+          "message": "Loting kiest juist niet op kwaliteit."
+        }
+      ]
+    },
+    {
+      "id": "06-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat kun je uit deze vondst afleiden?",
+      "context": "Onder de ostraka met de naam Themistokles zijn er meerdere die door dezelfde hand zijn beschreven.",
+      "choices": [
+        "Dat er georganiseerde voorbereiding was bij het maken van scherven",
+        "Dat Themistokles iedereen tegen zich had",
+        "Dat de stemming niet geheim was",
+        "Dat de scherven vervalst zijn"
+      ],
+      "answer": "Dat er georganiseerde voorbereiding was bij het maken van scherven",
+      "hints": [],
+      "solution": [
+        "Dat er georganiseerde voorbereiding was bij het maken van scherven"
+      ],
+      "topics": [
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat Themistokles iedereen tegen zich had",
+          "message": "Ook georganiseerde groepen kunnen een campagne voeren; het zegt niets over een meerderheid."
+        }
+      ]
+    },
+    {
+      "id": "06-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat doet dit voor het gebruik van Plutarchus als bron over Sparta?",
+      "context": "Plutarchus schreef rond 100 n.Chr. over de Spartaanse opvoeding; hij was geen Spartaan.",
+      "choices": [
+        "Hij is betrouwbaar omdat hij veel schreef",
+        "Hij is onbruikbaar",
+        "Hij is een late bron en een buitenstaander, dus je leest hem met voorzichtigheid",
+        "Hij was ooggetuige"
+      ],
+      "answer": "Hij is een late bron en een buitenstaander, dus je leest hem met voorzichtigheid",
+      "hints": [],
+      "solution": [
+        "Hij is een late bron en een buitenstaander, dus je leest hem met voorzichtigheid"
+      ],
+      "topics": [
+        "source-criticism",
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Hij is onbruikbaar",
+          "message": "Een late bron is niet automatisch onbruikbaar; je weegt haar."
+        }
+      ]
+    },
+    {
+      "id": "06-T06",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel jaar zit er tussen de slag bij Marathon (490 v.Chr.) en de slag bij Chaeroneia (338 v.Chr.)?",
+      "answer": 152,
+      "unit": "jaar",
+      "hints": [],
+      "solution": [
+        "$490 - 338 = 152$ jaar."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": 828,
+          "message": "Je hebt opgeteld in plaats van afgetrokken."
+        }
+      ]
+    },
+    {
+      "id": "06-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Voor wie gold de gelijkheid die Perikles hier noemt?",
+      "context": "Perikles in Thucydides 2.37 (vrij vertaald): volgens de wet zijn allen gelijk in hun onderlinge geschillen.",
+      "choices": [
+        "Voor alle inwoners van Attika",
+        "Voor burgers, dus niet voor vrouwen, metoiken en tot slaaf gemaakten",
+        "Voor alle Grieken",
+        "Alleen voor de adel"
+      ],
+      "answer": "Voor burgers, dus niet voor vrouwen, metoiken en tot slaaf gemaakten",
+      "hints": [],
+      "solution": [
+        "Voor burgers, dus niet voor vrouwen, metoiken en tot slaaf gemaakten"
+      ],
+      "topics": [
+        "perspective",
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Voor alle inwoners van Attika",
+          "message": "Slaven, metoiken en vrouwen vielen buiten het burgerschap."
+        }
+      ]
+    },
+    {
+      "id": "06-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat laat deze zin zien?",
+      "context": "Pseudo-Xenofon 1.10 (vrij vertaald): onder de slaven en metoiken in Athene heerst de grootste ongebondenheid; je mag ze daar niet slaan.",
+      "choices": [
+        "Dat slaven in Athene gelijke rechten hadden",
+        "Dat metoiken stemrecht hadden",
+        "Dat de schrijver de democratie steunt",
+        "Dat een tegenstander van de democratie toch de vrijheid van slaven en metoiken opmerkte, al kan hij overdrijven"
+      ],
+      "answer": "Dat een tegenstander van de democratie toch de vrijheid van slaven en metoiken opmerkte, al kan hij overdrijven",
+      "hints": [],
+      "solution": [
+        "Dat een tegenstander van de democratie toch de vrijheid van slaven en metoiken opmerkte, al kan hij overdrijven"
+      ],
+      "topics": [
+        "source-criticism",
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat slaven in Athene gelijke rechten hadden",
+          "message": "Ongebondenheid in het straatbeeld is geen gelijke rechten."
+        }
+      ]
+    },
+    {
+      "id": "06-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Hoe ga je met deze aantallen om?",
+      "context": "Herodotus noemt voor het Perzische leger, met gevolg, een totaal van ruim vijf miljoen man.",
+      "choices": [
+        "Voorzichtig: ze vergroten de roem van de overwinnaar en zijn waarschijnlijk te hoog",
+        "Je neemt ze over als feit",
+        "Je negeert het hele werk",
+        "Je rekent ze op tot een gemiddelde"
+      ],
+      "answer": "Voorzichtig: ze vergroten de roem van de overwinnaar en zijn waarschijnlijk te hoog",
+      "hints": [],
+      "solution": [
+        "Voorzichtig: ze vergroten de roem van de overwinnaar en zijn waarschijnlijk te hoog"
+      ],
+      "topics": [
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Je negeert het hele werk",
+          "message": "Voor andere vragen, zoals beeldvorming, is Herodotus juist bruikbaar."
+        }
+      ]
+    },
+    {
+      "id": "06-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat is volgens Thucydides het verschil tussen aanleiding en diepere oorzaak?",
+      "context": "Thucydides 1.23 (vrij vertaald): de meest waarachtige oorzaak, hoewel het minst genoemd, was de groei van de Atheense macht en de angst die dat Sparta aanjoeg.",
+      "choices": [
+        "Aanleiding en oorzaak zijn hetzelfde",
+        "De aanleiding is de pest, de oorzaak de Siciliëexpeditie",
+        "De aanleiding is wat men noemde (Corcyra, Potidaea); de diepere oorzaak is Atheense groei en Spartaanse angst",
+        "De oorzaak is de dood van Perikles"
+      ],
+      "answer": "De aanleiding is wat men noemde (Corcyra, Potidaea); de diepere oorzaak is Atheense groei en Spartaanse angst",
+      "hints": [],
+      "solution": [
+        "De aanleiding is wat men noemde (Corcyra, Potidaea); de diepere oorzaak is Atheense groei en Spartaanse angst"
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "06-T11",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen van oud naar jong.",
+      "answer": [
+        "Slag bij Chaeroneia",
+        "Slag bij de Granicus",
+        "Slag bij Gaugamela",
+        "Dood van Alexander",
+        "Slag bij Pydna"
+      ],
+      "hints": [],
+      "solution": [
+        "338, 334, 331, 323, 168 v.Chr."
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "06-T12",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat zegt de term \"hellenisering\" te weinig?",
+      "choices": [
+        "Dat lokale bevolkingen niet alleen ontvingen maar ook hun eigen tradities behielden",
+        "Dat Grieks een taal was",
+        "Dat Alexander jong stierf",
+        "Dat Rome later kwam"
+      ],
+      "answer": "Dat lokale bevolkingen niet alleen ontvingen maar ook hun eigen tradities behielden",
+      "hints": [],
+      "solution": [
+        "Dat lokale bevolkingen niet alleen ontvingen maar ook hun eigen tradities behielden"
+      ],
+      "topics": [
+        "interpretation",
+        "perspective"
+      ]
+    },
+    {
+      "id": "06-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Hoe verschillen Hansen en Ober?",
+      "choices": [
+        "Hansen ontkent de democratie, Ober niet",
+        "Hansen werkt vanuit instellingen, Ober vanuit redevoeringen en ideologie",
+        "Hansen is een archeoloog, Ober een filosoof",
+        "Ze zijn het eens over alles"
+      ],
+      "answer": "Hansen werkt vanuit instellingen, Ober vanuit redevoeringen en ideologie",
+      "hints": [],
+      "solution": [
+        "Hansen werkt vanuit instellingen, Ober vanuit redevoeringen en ideologie"
+      ],
+      "topics": [
+        "historiography"
+      ]
+    },
+    {
+      "id": "06-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 5,
+      "question": "Welke beoordeling past bij beide posities?",
+      "context": "Finley wijst op samenhang tussen vrijheid en slavernij; Wood benadrukt dat veel Atheense burgers zelf op het land werkten.",
+      "choices": [
+        "Slavernij kan als noodzakelijke, bevorderende of toevallige voorwaarde gezien worden, en elk vraagt ander bewijs",
+        "Een van de twee historici heeft de feiten fout",
+        "Er is geen verband tussen beide",
+        "Slavernij is een moderne uitvinding"
+      ],
+      "answer": "Slavernij kan als noodzakelijke, bevorderende of toevallige voorwaarde gezien worden, en elk vraagt ander bewijs",
+      "hints": [],
+      "solution": [
+        "Slavernij kan als noodzakelijke, bevorderende of toevallige voorwaarde gezien worden, en elk vraagt ander bewijs"
+      ],
+      "topics": [
+        "historiography",
+        "causation"
+      ]
+    },
+    {
+      "id": "06-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 5,
+      "question": "Wat zegt het gebruik van Sparta door Rousseau en Göring vooral?",
+      "choices": [
+        "Dat Sparta altijd bewonderd werd",
+        "Dat Sparta een democratie was",
+        "Dat Rousseau en Göring hetzelfde dachten",
+        "Iets over latere tijden en hun behoeften, niet noodzakelijk over het Sparta van de oudheid"
+      ],
+      "answer": "Iets over latere tijden en hun behoeften, niet noodzakelijk over het Sparta van de oudheid",
+      "hints": [],
+      "solution": [
+        "Iets over latere tijden en hun behoeften, niet noodzakelijk over het Sparta van de oudheid"
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    }
+  ]
+}

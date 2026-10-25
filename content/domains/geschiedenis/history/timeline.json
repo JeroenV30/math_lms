@@ -125,6 +125,21 @@
       "image": null
     },
     {
+      "id": "uruk-eerste-stad",
+      "year_label": "ca. 3500 – 3000 v.Chr.",
+      "sort_year": -3500,
+      "era": "Prehistorie",
+      "title": "Uruk groeit uit tot de eerste stad",
+      "summary": "In het zuiden van Mesopotamië ontstaat een stad met monumentale gebouwen, specialisten en handelscontacten.",
+      "description": "Uruk, aan de Eufraat, groeit in het late vierde millennium v.Chr. uit tot een stad van vermoedelijk enkele tienduizenden inwoners. Het Eanna- en het Anu-district bevatten monumentale gebouwen.\n\nDe functie van die gebouwen (tempel, paleis, grote huishoudens) is onderwerp van discussie.",
+      "place": "Uruk (Warka), Irak",
+      "modules": [
+        5
+      ],
+      "people": [],
+      "image": null
+    },
+    {
       "id": "hunebedden-trechterbekercultuur",
       "year_label": "ca. 3400 – 3100 v.Chr.",
       "sort_year": -3400,
@@ -137,6 +152,247 @@
         4
       ],
       "people": [],
+      "image": null
+    },
+    {
+      "id": "proto-spijkerschrift-uruk",
+      "year_label": "ca. 3300 v.Chr.",
+      "sort_year": -3300,
+      "era": "Prehistorie",
+      "title": "Proto-spijkerschrift in Uruk",
+      "summary": "De eerste administratieve tabletten met tekens en cijfers.",
+      "description": "In Uruk worden tabletten gemaakt met ongeveer negenhonderd tekens en cijfers voor graan, bier, vee en rantsoenen. Verreweg de meeste zijn administratief.\n\nHet is nog geen volledig schrift dat gesproken taal weergeeft; dat ontwikkelt zich in het derde millennium.",
+      "place": "Uruk, Irak",
+      "modules": [
+        5
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "narmerpalet",
+      "year_label": "ca. 3100 v.Chr.",
+      "sort_year": -3100,
+      "era": "Prehistorie",
+      "title": "De Narmerpalet",
+      "summary": "Een palet uit Hierakonpolis toont de koning met de kronen van zuid en noord.",
+      "description": "De palet werd in 1897 – 1898 gevonden en wordt bewaard in het Egyptisch Museum in Caïro. Ze toont een koning Narmer die als overwinnaar wordt afgebeeld.\n\nDe meeste onderzoekers zien de Egyptische staatsvorming als een proces van enkele eeuwen, waarvan de palet een moment toont.",
+      "place": "Hierakonpolis, Egypte",
+      "modules": [
+        5
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "piramide-djoser",
+      "year_label": "ca. 2670 v.Chr.",
+      "sort_year": -2670,
+      "era": "Prehistorie",
+      "title": "De trappenpiramide van Djoser",
+      "summary": "De eerste grote steenconstructie van Egypte.",
+      "description": "De trappenpiramide bij Saqqara is het graf van koning Djoser. Volgens de overlevering was Imhotep de architect.",
+      "place": "Saqqara, Egypte",
+      "modules": [
+        5
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "harappa-rijpe-fase",
+      "year_label": "ca. 2600 – 1900 v.Chr.",
+      "sort_year": -2600,
+      "era": "Prehistorie",
+      "title": "De rijpe fase van de Harappa-beschaving",
+      "summary": "Planmatige steden met standaardbakstenen, riolering en een onontcijferd schrift.",
+      "description": "In de Indusvallei zijn meer dan duizend nederzettingen bekend, met als grootste Mohenjo-daro en Harappa. Er zijn geen herkenbare paleizen of koningsgraven gevonden.\n\nRond 1900 v.Chr. begint een geleidelijke verlating van de steden.",
+      "place": "Indusvallei, Pakistan en India",
+      "modules": [
+        5
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "piramide-choefoe-merer",
+      "year_label": "ca. 2560 v.Chr.",
+      "sort_year": -2560,
+      "era": "Prehistorie",
+      "title": "De piramide van Choefoe en het logboek van Merer",
+      "summary": "De grootste piramide en een papyrus die laat zien hoe het transport was georganiseerd.",
+      "description": "De piramide bij Gizeh was oorspronkelijk ruim 146 meter hoog. In 2013 vond een team onder leiding van Pierre Tallet bij Wadi al-Jarf het logboek van de inspecteur Merer, de oudste bekende beschreven papyri.",
+      "place": "Gizeh en Wadi al-Jarf, Egypte",
+      "modules": [
+        5
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "sargon-akkad",
+      "year_label": "ca. 2334 v.Chr.",
+      "sort_year": -2334,
+      "era": "Prehistorie",
+      "title": "Sargon sticht het rijk van Akkad",
+      "summary": "Volgens de traditie het eerste rijk van Mesopotamië.",
+      "description": "Sargon van Akkad veroverde de stadstaten van het zuiden. Het Akkadisch werd een bestuurstaal naast het Sumerisch. Zijn dochter Enheduanna wordt gezien als de eerste bij naam bekende schrijver.",
+      "place": "Akkad, Mesopotamië",
+      "modules": [
+        5
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "hammurabi-stele",
+      "year_label": "ca. 1750 v.Chr.",
+      "sort_year": -1750,
+      "era": "Prehistorie",
+      "title": "De stele met de wetten van Hammurabi",
+      "summary": "Een basalten stele met ruim tweehonderdtachtig bepalingen.",
+      "description": "De stele (Louvre, Sb 8) werd in 1901 – 1902 in Susa gevonden. Hammurabi regeerde 1792 – 1750 v.Chr. in Babylon. De tekst verdeelt de samenleving in rangen en is waarschijnlijk geen wetboek in onze zin.",
+      "place": "Babylon; gevonden in Susa, Iran",
+      "modules": [
+        5
+      ],
+      "people": [
+        "hammurabi"
+      ],
+      "image": null
+    },
+    {
+      "id": "shang-orakelbotten",
+      "year_label": "ca. 1250 v.Chr.",
+      "sort_year": -1250,
+      "era": "Prehistorie",
+      "title": "De orakelbotten van Anyang",
+      "summary": "Het oudste bewaarde Chinese schrift, gebruikt voor vragen aan de voorouders.",
+      "description": "In Anyang werden meer dan honderdvijftigduizend orakelbotten gevonden, voor het eerst in 1899. Ze bevatten vragen van de Shang-koningen over oogst, oorlog en gezondheid.",
+      "place": "Anyang, China",
+      "modules": [
+        5
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "solon-hervormingen-594",
+      "year_label": "ca. 594 v.Chr.",
+      "sort_year": -594,
+      "era": "Oudheid",
+      "title": "De hervormingen van Solon",
+      "summary": "Solon schaft de schuldslavernij van Atheners af en deelt de burgers in vier inkomensklassen in.",
+      "description": "Volgens latere bronnen als Aristoteles en Plutarchus kreeg Solon de opdracht de crisis rond schulden en grond in Athene op te lossen. Hij schafte schuldslavernij voor Atheners af en gaf ook de armste klasse een plaats in de volksvergadering en de volksgerichten.\n\nVan Solon zelf zijn dichtregels bewaard waarin hij zijn werk verdedigt. Welke details uit latere bronnen echt van hem zijn, is onder historici omstreden.",
+      "place": "Athene",
+      "modules": [
+        6
+      ],
+      "people": [
+        "solon"
+      ],
+      "image": null
+    },
+    {
+      "id": "rome-republiek-509",
+      "year_label": "ca. 509 v.Chr.",
+      "sort_year": -509,
+      "era": "Oudheid",
+      "title": "Begin van de Romeinse republiek",
+      "summary": "Volgens de overlevering verdreven de Romeinen hun laatste koning en kozen ze jaarlijkse magistraten.",
+      "description": "Volgens Livius, die ruim vijf eeuwen later schreef, verdreven de Romeinen in 509 v.Chr. koning Tarquinius Superbus. De meeste historici nemen aan dat rond het einde van de zesde eeuw v.Chr. inderdaad een overgang plaatsvond, maar de details zijn een latere vormgeving.",
+      "place": "Rome",
+      "modules": [
+        7
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "kleisthenes-hervormingen-508",
+      "year_label": "508/507 v.Chr.",
+      "sort_year": -508,
+      "era": "Oudheid",
+      "title": "De hervormingen van Kleisthenes",
+      "summary": "Attika wordt in tien stammen en demen ingedeeld en een Raad van 500 bereidt de volksvergadering voor.",
+      "description": "Na de verdrijving van de tiran Hippias (510 v.Chr.) herindeelde Kleisthenes Attika in tien nieuwe stammen en een groot aantal demen. Daarmee brak hij de macht van de oude adellijke netwerken.\n\nDe Raad van 500 en het beginsel van gelijkheid voor de wet (isonomia) vormden het fundament van de latere democratie. Of Kleisthenes zelf een democratie voor ogen had, is minder zeker.",
+      "place": "Athene",
+      "modules": [
+        6
+      ],
+      "people": [
+        "kleisthenes"
+      ],
+      "image": null
+    },
+    {
+      "id": "slag-bij-marathon-490",
+      "year_label": "490 v.Chr.",
+      "sort_year": -490,
+      "era": "Oudheid",
+      "title": "De slag bij Marathon",
+      "summary": "Een Atheens leger verslaat een Perzische landingsmacht bij Marathon.",
+      "description": "Na de steun van Athene en Eretria aan de Ionische opstand stuurde Darius I een leger onder Datis en Artafernes. Bij Marathon versloeg een Atheens leger, onder meer onder leiding van Miltiades, de Perzen.\n\nBijna alles wat we over de slag weten, komt uit Griekse bronnen, vooral Herodotus. Perzische teksten zwijgen erover.",
+      "place": "Marathon, Attika",
+      "modules": [
+        6
+      ],
+      "people": [
+        "herodotus"
+      ],
+      "image": null
+    },
+    {
+      "id": "slag-bij-salamis-480",
+      "year_label": "september 480 v.Chr.",
+      "sort_year": -480,
+      "era": "Oudheid",
+      "title": "De zeeslag bij Salamis",
+      "summary": "De Griekse vloot, grotendeels Atheens, verslaat de vloot van Xerxes.",
+      "description": "Na Thermopylae en de evacuatie van Athene versloeg een Griekse vloot onder aanvoering van Themistokles de Perzen in de zeestraat bij Salamis. In 479 v.Chr. volgden de overwinningen bij Plataiai en Mycale.\n\nDe Atheense vloot was de basis van de latere Atheense zeemacht.",
+      "place": "Salamis, Attika",
+      "modules": [
+        6
+      ],
+      "people": [
+        "themistokles",
+        "herodotus"
+      ],
+      "image": null
+    },
+    {
+      "id": "ostracisme-themistokles-472",
+      "year_label": "ca. 472 v.Chr.",
+      "sort_year": -472,
+      "era": "Oudheid",
+      "title": "Themistokles wordt verbannen",
+      "summary": "Door ostracisme moet Themistokles Athene voor tien jaar verlaten.",
+      "description": "Ostracisme was een stemming waarbij burgers de naam van een te machtig geworden leider op een scherf schreven. In 1937 zijn in de Agora van Athene ostraka met de naam van Themistokles opgegraven.\n\nLater vluchtte Themistokles naar het Perzische rijk, waar hij volgens de overlevering stierf.",
+      "place": "Athene",
+      "modules": [
+        6
+      ],
+      "people": [
+        "themistokles"
+      ],
+      "image": null
+    },
+    {
+      "id": "peloponnesische-oorlog-431",
+      "year_label": "431 – 404 v.Chr.",
+      "sort_year": -431,
+      "era": "Oudheid",
+      "title": "De Peloponnesische Oorlog",
+      "summary": "Athene en Sparta voeren een oorlog die eindigt met de Atheense nederlaag.",
+      "description": "Volgens Thucydides lag de diepste oorzaak in de groei van de Atheense macht en de angst die dat in Sparta opwekte. De oorlog kende de pest van Athene (430), de Siciliëexpeditie (415–413) en de nederlaag bij Aigospotamoi (405).\n\nIn 404 v.Chr. gaf Athene zich over; in 403 v.Chr. werd de democratie hersteld.",
+      "place": "Griekenland",
+      "modules": [
+        6
+      ],
+      "people": [
+        "thucydides",
+        "perikles"
+      ],
       "image": null
     },
     {
@@ -171,6 +427,156 @@
       "people": [
         "thucydides"
       ],
+      "image": null
+    },
+    {
+      "id": "proces-socrates-399",
+      "year_label": "399 v.Chr.",
+      "sort_year": -399,
+      "era": "Oudheid",
+      "title": "Het proces tegen Socrates",
+      "summary": "Een Atheens volksgerecht veroordeelt Socrates tot de dood.",
+      "description": "Socrates werd beschuldigd van het niet erkennen van de goden van de stad en van het bederven van de jeugd. We kennen het proces vooral uit teksten van zijn leerlingen Plato en Xenofon.",
+      "place": "Athene",
+      "modules": [
+        6
+      ],
+      "people": [
+        "socrates"
+      ],
+      "image": null
+    },
+    {
+      "id": "slag-bij-gaugamela-331",
+      "year_label": "331 v.Chr.",
+      "sort_year": -331,
+      "era": "Oudheid",
+      "title": "De slag bij Gaugamela",
+      "summary": "Alexander de Grote verslaat Darius III en opent de weg naar het hart van het Perzische rijk.",
+      "description": "Na de Granicus (334) en Issos (333) versloeg Alexander in 331 v.Chr. het Perzische leger onder Darius III. Daarna volgden Babylon en Persepolis.\n\nAlexander stierf in 323 v.Chr. in Babylon; zijn rijk werd verdeeld onder de diadochen.",
+      "place": "Gaugamela, Noord-Irak",
+      "modules": [
+        6
+      ],
+      "people": [
+        "alexander-de-grote"
+      ],
+      "image": null
+    },
+    {
+      "id": "punische-oorlogen",
+      "year_label": "264 – 146 v.Chr.",
+      "sort_year": -264,
+      "era": "Oudheid",
+      "title": "De Punische oorlogen",
+      "summary": "Drie oorlogen tussen Rome en Carthago eindigen met de verwoesting van Carthago.",
+      "description": "In drie oorlogen versloeg Rome de Carthaagse zeemacht. Sicilië werd de eerste provincie, Hannibal bracht Rome bij Cannae (216) zware nederlagen toe en werd bij Zama (202) verslagen. In 146 v.Chr. werd Carthago verwoest.",
+      "place": "Middellandse Zee",
+      "modules": [
+        7
+      ],
+      "people": [
+        "hannibal"
+      ],
+      "image": null
+    },
+    {
+      "id": "verwoesting-korinthe-146",
+      "year_label": "146 v.Chr.",
+      "sort_year": -146,
+      "era": "Oudheid",
+      "title": "Rome verwoest Korinthe",
+      "summary": "Na een opstand van de Achaeïsche Bond brengt Rome Griekenland onder zijn toezicht.",
+      "description": "Het jaar 146 v.Chr. geldt als het eind van de zelfstandige Griekse wereld. De hellenistische koninkrijken in het oosten bleven nog bestaan; Egypte werd in 30 v.Chr. Romeins.",
+      "place": "Korinthe",
+      "modules": [
+        6
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "caesar-rubicon-49",
+      "year_label": "49 v.Chr.",
+      "sort_year": -49,
+      "era": "Oudheid",
+      "title": "Caesar steekt de Rubicon over",
+      "summary": "Caesar begint een burgeroorlog die hem tot heerser van Rome maakt.",
+      "description": "Caesar kwam met zijn leger in conflict met de senaat en stak met zijn troepen de grens van zijn provincie over. Hij werd in 44 v.Chr. vermoord.",
+      "place": "Noord-Italië",
+      "modules": [
+        7
+      ],
+      "people": [
+        "julius-caesar"
+      ],
+      "image": null
+    },
+    {
+      "id": "actium-augustus-27",
+      "year_label": "31 – 27 v.Chr.",
+      "sort_year": -31,
+      "era": "Oudheid",
+      "title": "Actium en het begin van het principaat",
+      "summary": "Octavianus wint de burgeroorlog en wordt in 27 v.Chr. Augustus.",
+      "description": "Na zijn overwinning bij Actium in 31 v.Chr. gaf Octavianus in 27 v.Chr. naar eigen zeggen zijn volmachten terug en kreeg de eretitel Augustus. Zo ontstond het principaat.",
+      "place": "Actium en Rome",
+      "modules": [
+        7
+      ],
+      "people": [
+        "augustus"
+      ],
+      "image": null
+    },
+    {
+      "id": "bataafse-opstand-69",
+      "year_label": "69 – 70",
+      "sort_year": 69,
+      "era": "Oudheid",
+      "title": "De Bataafse opstand",
+      "summary": "Onder leiding van Julius Civilis komen de Bataven tijdens de burgeroorlog in opstand tegen Rome.",
+      "description": "In het jaar van de vier keizers kwamen de Bataven onder Civilis in opstand. Wat we weten komt vooral van Tacitus. De opstand werd in 70 neergeslagen en de Bataven bleven daarna soldaten leveren.",
+      "place": "Nijmegen en de Rijn",
+      "modules": [
+        7
+      ],
+      "people": [
+        "julius-civilis",
+        "tacitus"
+      ],
+      "image": null
+    },
+    {
+      "id": "constitutio-antoniniana-212",
+      "year_label": "212",
+      "sort_year": 212,
+      "era": "Oudheid",
+      "title": "De Constitutio Antoniniana",
+      "summary": "Keizer Caracalla geeft vrijwel alle vrije inwoners van het rijk het Romeinse burgerrecht.",
+      "description": "Volgens Cassius Dio deed Caracalla dit om meer belasting te kunnen innen. Andere motieven worden besproken. Voortaan was burgerrecht niet meer de scheidslijn tussen Romeinen en onderdanen.",
+      "place": "Romeinse Rijk",
+      "modules": [
+        7
+      ],
+      "people": [
+        "caracalla"
+      ],
+      "image": null
+    },
+    {
+      "id": "crisis-derde-eeuw",
+      "year_label": "235 – 284",
+      "sort_year": 235,
+      "era": "Oudheid",
+      "title": "De crisis van de derde eeuw",
+      "summary": "Een reeks soldatenkeizers, druk aan de grenzen en economische problemen.",
+      "description": "In vijftig jaar volgden vele keizers elkaar op. In 260 werd Valerianus door de Perzen gevangengenomen. Het rijk bleef bestaan en werd vanaf 284 onder Diocletianus hervormd.",
+      "place": "Romeinse Rijk",
+      "modules": [
+        7
+      ],
+      "people": [],
       "image": null
     },
     {
@@ -319,6 +725,23 @@
       "image": null
     },
     {
+      "id": "childe-urban-revolution",
+      "year_label": "1950",
+      "sort_year": 1950,
+      "era": "Twintigste eeuw",
+      "title": "Childe: de stedelijke revolutie",
+      "summary": "Childe noemt tien kenmerken van de stad.",
+      "description": "In het artikel The Urban Revolution definieert Childe de stad aan de hand van tien archeologisch zichtbare kenmerken, waaronder overschot, specialisten, monumentale gebouwen, schrift en een staat gebaseerd op verblijfplaats.",
+      "place": "Verenigd Koninkrijk",
+      "modules": [
+        5
+      ],
+      "people": [
+        "childe"
+      ],
+      "image": null
+    },
+    {
       "id": "watersnood-1953",
       "year_label": "1 februari 1953",
       "sort_year": 1953,
@@ -348,6 +771,23 @@
         2
       ],
       "people": [],
+      "image": null
+    },
+    {
+      "id": "wittfogel-oriental-despotism",
+      "year_label": "1957",
+      "sort_year": 1957,
+      "era": "Twintigste eeuw",
+      "title": "Wittfogel: de irrigatiehypothese",
+      "summary": "Het boek Oriental Despotism verklaart de staat uit grootschalige irrigatie.",
+      "description": "Wittfogel stelde dat irrigatie in droge streken een despotische staat afdwong. Later veldonderzoek, onder meer van Robert McC. Adams, liet zien dat de grote kanalen na de eerste staten kwamen.",
+      "place": "Verenigde Staten",
+      "modules": [
+        5
+      ],
+      "people": [
+        "wittfogel"
+      ],
       "image": null
     },
     {
@@ -397,6 +837,38 @@
       "people": [
         "diamond"
       ],
+      "image": null
+    },
+    {
+      "id": "scott-against-the-grain",
+      "year_label": "2017",
+      "sort_year": 2017,
+      "era": "Twintigste eeuw",
+      "title": "Scott: Against the Grain",
+      "summary": "Staten ontstonden volgens Scott waar belastbaar graan en arbeid samenkwamen.",
+      "description": "James C. Scott betoogt dat graan, door zijn zichtbaarheid en opslagbaarheid, de basis was van de eerste staten.",
+      "place": "Verenigde Staten",
+      "modules": [
+        5
+      ],
+      "people": [
+        "james-scott"
+      ],
+      "image": null
+    },
+    {
+      "id": "limes-werelderfgoed-2021",
+      "year_label": "27 juli 2021",
+      "sort_year": 2021,
+      "era": "Moderne tijd",
+      "title": "De Neder-Germaanse limes wordt werelderfgoed",
+      "summary": "De Romeinse grens langs de Rijn komt op de Werelderfgoedlijst van UNESCO.",
+      "description": "In 2021 werd de Neder-Germaanse limes, ongeveer 400 kilometer van Duitsland tot de Noordzeekust bij Katwijk, op de Werelderfgoedlijst geplaatst als onderdeel van Frontiers of the Roman Empire.",
+      "place": "Rijn, Nederland en Duitsland",
+      "modules": [
+        7
+      ],
+      "people": [],
       "image": null
     }
   ]

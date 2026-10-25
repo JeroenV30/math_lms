@@ -1,0 +1,488 @@
+{
+  "title": "Hoofdstuktoets – Rome: republiek en keizerrijk",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "07-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat is een consul in de Romeinse republiek?",
+      "choices": [
+        "Een van de twee jaarlijks gekozen hoogste magistraten",
+        "Een koning met beperkte macht",
+        "Een lid van de keizerlijke lijfwacht",
+        "De voorzitter van de volksvergadering voor het leven"
+      ],
+      "answer": "Een van de twee jaarlijks gekozen hoogste magistraten",
+      "hints": [],
+      "solution": [
+        "Twee consuls leidden samen de staat en het leger, voor één jaar."
+      ],
+      "feedback": [
+        {
+          "answer": "Een koning met beperkte macht",
+          "message": "De republiek ontstond juist na het verdrijven van de koningen."
+        }
+      ],
+      "topics": [
+        "antiquity"
+      ]
+    },
+    {
+      "id": "07-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat voor bron is dit fragment voor de gebeurtenissen van 509 v.Chr.?",
+      "context": "Titus Livius schreef in de regeerperiode van Augustus (ca. 27 v.Chr. – 14 n.Chr.) een geschiedenis van Rome vanaf de stichting, waarin hij vertelt hoe de Romeinen in 509 v.Chr. hun koning verdreven.",
+      "choices": [
+        "Een latere bron die over een verre periode vertelt en daarom voorzichtig moet worden gebruikt",
+        "Een gelijktijdige getuige die alles zelf zag",
+        "Een officieel document uit 509 v.Chr.",
+        "Een waardeloze bron, want alle Romeinse bronnen liegen"
+      ],
+      "answer": "Een latere bron die over een verre periode vertelt en daarom voorzichtig moet worden gebruikt",
+      "hints": [],
+      "solution": [
+        "Livius schreef ruim vijf eeuwen na 509 v.Chr., in de tijd van Augustus."
+      ],
+      "feedback": [
+        {
+          "answer": "Een gelijktijdige getuige die alles zelf zag",
+          "message": "Livius leefde ruim vijf eeuwen later."
+        },
+        {
+          "answer": "Een waardeloze bron, want alle Romeinse bronnen liegen",
+          "message": "Dat gaat te ver: de bron is bruikbaar voor hoe Romeinen over hun verleden dachten."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "07-T03",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "De lex Hortensia (287 v.Chr.)",
+        "Begin van de Eerste Punische Oorlog (264 v.Chr.)",
+        "Slag bij Zama (202 v.Chr.)",
+        "Verwoesting van Carthago (146 v.Chr.)"
+      ],
+      "hints": [],
+      "solution": [
+        "287, 264, 202, 146."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Begin van de Eerste Punische Oorlog (264 v.Chr.)",
+            "De lex Hortensia (287 v.Chr.)",
+            "Slag bij Zama (202 v.Chr.)",
+            "Verwoesting van Carthago (146 v.Chr.)"
+          ],
+          "message": "De lex Hortensia (287) is ouder dan de Eerste Punische Oorlog (264)."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "07-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat was het belangrijkste gevolg van de Eerste Punische Oorlog voor de structuur van Rome?",
+      "choices": [
+        "Rome kreeg zijn eerste provincie buiten Italië en werd daarmee een rijk met onderdanen",
+        "De republiek werd afgeschaft",
+        "Carthago werd verwoest",
+        "Alle Italianen kregen burgerrecht"
+      ],
+      "answer": "Rome kreeg zijn eerste provincie buiten Italië en werd daarmee een rijk met onderdanen",
+      "hints": [],
+      "solution": [
+        "Sicilië werd de eerste provincie."
+      ],
+      "feedback": [
+        {
+          "answer": "Carthago werd verwoest",
+          "message": "Dat gebeurde pas in 146 v.Chr., na de Derde Punische Oorlog."
+        },
+        {
+          "answer": "Alle Italianen kregen burgerrecht",
+          "message": "Dat gebeurde na de Bondgenotenoorlog, rond 90 v.Chr."
+        }
+      ],
+      "topics": [
+        "causation",
+        "antiquity"
+      ]
+    },
+    {
+      "id": "07-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke verklaring van de crisis van de republiek houdt rekening met meerdere oorzaken?",
+      "choices": [
+        "Spanningen over land, de eisen van de bondgenoten en de loyaliteit van soldaten aan hun generaal versterkten elkaar",
+        "Alles komt door de ambitie van Julius Caesar",
+        "De crisis kwam door de Punische oorlogen en door niets anders",
+        "De republiek viel omdat de senaat te democratisch was"
+      ],
+      "answer": "Spanningen over land, de eisen van de bondgenoten en de loyaliteit van soldaten aan hun generaal versterkten elkaar",
+      "hints": [],
+      "solution": [
+        "Een goede verklaring combineert oorzaken en weegt ze."
+      ],
+      "feedback": [
+        {
+          "answer": "Alles komt door de ambitie van Julius Caesar",
+          "message": "Dat is monocausaal. Caesar kwam voort uit een crisis die al decennia bezig was."
+        },
+        {
+          "answer": "De republiek viel omdat de senaat te democratisch was",
+          "message": "De senaat was juist een elitaire instelling."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "07-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de beste conclusie over deze bron?",
+      "context": "Augustus schreef aan het eind van zijn leven in de Res Gestae dat hij alle anderen overtrof in gezag (auctoritas), maar niet meer macht (potestas) had dan zijn ambtgenoten.",
+      "choices": [
+        "Ze toont hoe Augustus zijn rol wilde laten zien, niet noodzakelijk hoe zijn macht echt werkte",
+        "Ze bewijst dat de republiek werd hersteld",
+        "Ze is waardeloos omdat Augustus erin over zichzelf spreekt",
+        "Ze is een neutraal verslag van een buitenstaander"
+      ],
+      "answer": "Ze toont hoe Augustus zijn rol wilde laten zien, niet noodzakelijk hoe zijn macht echt werkte",
+      "hints": [],
+      "solution": [
+        "Een zelfgekozen presentatie is niet automatisch waar of onwaar."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze bewijst dat de republiek werd hersteld",
+          "message": "Het is zijn eigen bewering; dat is geen bewijs."
+        },
+        {
+          "answer": "Ze is een neutraal verslag van een buitenstaander",
+          "message": "Augustus schreef het zelf."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "07-T07",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen uit de crisis van de republiek en het begin van het principaat in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Tiberius Gracchus wordt doodgeslagen (133 v.Chr.)",
+        "Sulla wordt dictator (82 v.Chr.)",
+        "Caesar steekt de Rubicon over (49 v.Chr.)",
+        "Slag bij Actium (31 v.Chr.)",
+        "Octavianus krijgt de titel Augustus (27 v.Chr.)"
+      ],
+      "hints": [],
+      "solution": [
+        "133, 82, 49, 31, 27."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Tiberius Gracchus wordt doodgeslagen (133 v.Chr.)",
+            "Sulla wordt dictator (82 v.Chr.)",
+            "Caesar steekt de Rubicon over (49 v.Chr.)",
+            "Octavianus krijgt de titel Augustus (27 v.Chr.)",
+            "Slag bij Actium (31 v.Chr.)"
+          ],
+          "message": "Voor v.Chr. loopt de teller terug: 31 komt vóór 27."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "07-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is een juiste uitspraak over de limes?",
+      "choices": [
+        "Ze bestond uit verschillende elementen, zoals rivieren, forten, torens en muren, en regelde ook verkeer",
+        "Ze was overal een ononderbroken stenen muur",
+        "Ze bestond alleen in Britannia",
+        "Ze had geen enkele militaire functie"
+      ],
+      "answer": "Ze bestond uit verschillende elementen, zoals rivieren, forten, torens en muren, en regelde ook verkeer",
+      "hints": [],
+      "solution": [
+        "Op de Rijn bestond de grens uit een rivier en forten."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze was overal een ononderbroken stenen muur",
+          "message": "Dat is een misvatting; op de Rijn was de rivier zelf de grens."
+        }
+      ],
+      "topics": [
+        "contextualisation",
+        "antiquity"
+      ]
+    },
+    {
+      "id": "07-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Hoe moet je deze bron gebruiken om te verklaren waarom Caracalla in 212 het burgerrecht uitbreidde?",
+      "context": "Cassius Dio, een Romeinse senator en tijdgenoot van keizer Caracalla, schreef dat Caracalla vrijwel alle inwoners van het rijk het burgerrecht gaf, niet uit edelmoedigheid maar om meer belasting te kunnen innen, omdat burgers bepaalde heffingen moesten betalen.",
+      "choices": [
+        "Als een tijdgenoot met een negatief oordeel over Caracalla: het motief kan kloppen, maar vraagt om een tweede bron",
+        "Als bewijs dat belasting het enige motief was",
+        "Als onbruikbaar, omdat Dio een senator was",
+        "Als neutraal, omdat hij een tijdgenoot was"
+      ],
+      "answer": "Als een tijdgenoot met een negatief oordeel over Caracalla: het motief kan kloppen, maar vraagt om een tweede bron",
+      "hints": [],
+      "solution": [
+        "Dio was senator en kende het hof, maar mocht Caracalla niet."
+      ],
+      "feedback": [
+        {
+          "answer": "Als bewijs dat belasting het enige motief was",
+          "message": "Eén bron met een belang bewijst dat niet."
+        },
+        {
+          "answer": "Als neutraal, omdat hij een tijdgenoot was",
+          "message": "Een tijdgenoot kan een belang hebben."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "07-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de beste lezing van deze tekst als historische bron?",
+      "context": "Cato de Oudere (234-149 v.Chr.) adviseert in zijn handboek over landbouw de eigenaar van een landgoed om onder meer oud vee, afgedankt gereedschap, een oude tot slaaf gemaakte en een zieke tot slaaf gemaakte te verkopen. (Vrij weergegeven.)",
+      "choices": [
+        "Ze laat de zakelijke kijk van een landeigenaar op tot slaaf gemaakten zien, geschreven door de eigenaar zelf en niet vanuit het perspectief van de betrokkenen",
+        "Ze toont dat alle Romeinen tot slaaf gemaakten zo behandelden",
+        "Ze bewijst dat slavernij in Rome nauwelijks bestond",
+        "Ze toont de mening van de tot slaaf gemaakten"
+      ],
+      "answer": "Ze laat de zakelijke kijk van een landeigenaar op tot slaaf gemaakten zien, geschreven door de eigenaar zelf en niet vanuit het perspectief van de betrokkenen",
+      "hints": [],
+      "solution": [
+        "Wie spreekt hier, en wie niet?"
+      ],
+      "feedback": [
+        {
+          "answer": "Ze toont dat alle Romeinen tot slaaf gemaakten zo behandelden",
+          "message": "Eén handboek zegt niets over alle eigenaren."
+        },
+        {
+          "answer": "Ze toont de mening van de tot slaaf gemaakten",
+          "message": "De tekst is van een eigenaar, niet van hen."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "sources"
+      ]
+    },
+    {
+      "id": "07-T11",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom bestuurde Rome een rijk van tientallen miljoenen mensen met zo weinig ambtenaren?",
+      "choices": [
+        "Het gebruikte lokale elites, steden en burgerrecht als bindmiddel en liet het dagelijkse bestuur door hen uitvoeren",
+        "Het stationeerde in elke stad een legioen",
+        "Het liet de provincies vrijwel zelfstandig en eiste niets",
+        "Het vervangde lokale bestuurders door Romeinse gouverneurs"
+      ],
+      "answer": "Het gebruikte lokale elites, steden en burgerrecht als bindmiddel en liet het dagelijkse bestuur door hen uitvoeren",
+      "hints": [],
+      "solution": [
+        "Denk aan steden en elites."
+      ],
+      "feedback": [
+        {
+          "answer": "Het stationeerde in elke stad een legioen",
+          "message": "De legioenen stonden vooral aan de grenzen."
+        },
+        {
+          "answer": "Het liet de provincies vrijwel zelfstandig en eiste niets",
+          "message": "Er werd belasting betaald en soldaten geleverd."
+        }
+      ],
+      "topics": [
+        "causation",
+        "antiquity"
+      ]
+    },
+    {
+      "id": "07-T12",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat is de beste conclusie uit dit fragment over de positie van de Bataven?",
+      "context": "Tacitus over de Bataven (Germania 29, vrij vertaald): ze worden niet vernederd door belastingen en niet uitgeput door pachters; vrijgesteld van lasten en bewaard voor gebruik in de oorlog zijn ze als een magazijn van wapens gereserveerd voor de strijd.",
+      "choices": [
+        "Rome gaf hen een bijzondere regeling, maar Tacitus kijkt vooral naar het nut ervan voor Rome",
+        "De Bataven waren gelijkwaardige bondgenoten, zoals Tacitus zelf beaamt",
+        "De Bataven waren een onderworpen volk dat zwaar belast werd",
+        "De Bataven kozen voor deze regeling omdat ze niet wilden vechten"
+      ],
+      "answer": "Rome gaf hen een bijzondere regeling, maar Tacitus kijkt vooral naar het nut ervan voor Rome",
+      "hints": [],
+      "solution": [
+        "Let op de woorden 'als een magazijn van wapens'."
+      ],
+      "feedback": [
+        {
+          "answer": "De Bataven waren gelijkwaardige bondgenoten, zoals Tacitus zelf beaamt",
+          "message": "Tacitus noemt hen geen gelijken; hij beschrijft hun nut voor het leger."
+        },
+        {
+          "answer": "De Bataven waren een onderworpen volk dat zwaar belast werd",
+          "message": "Tacitus zegt het tegendeel: ze waren vrijgesteld van belasting."
+        }
+      ],
+      "topics": [
+        "sources",
+        "perspective"
+      ]
+    },
+    {
+      "id": "07-T13",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet de stappen van de Bataafse opstand in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Dood van Nero (68)",
+        "Romeinse werving onder de Bataven (69)",
+        "Civilis begint de opstand in naam van Vespasianus",
+        "Belegering en val van het kamp Vetera",
+        "Cerialis herovert de Rijnstreek (70)"
+      ],
+      "hints": [],
+      "solution": [
+        "68, 69, 69, 69-70, 70."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Dood van Nero (68)",
+            "Civilis begint de opstand in naam van Vespasianus",
+            "Romeinse werving onder de Bataven (69)",
+            "Belegering en val van het kamp Vetera",
+            "Cerialis herovert de Rijnstreek (70)"
+          ],
+          "message": "Volgens Tacitus was de werving een aanleiding voor de opstand."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "causation"
+      ]
+    },
+    {
+      "id": "07-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Waarom verschillen Haverfield en Millett van mening over romanisering?",
+      "choices": [
+        "Haverfield legt de nadruk op overdracht van beschaving door Rome, Millett op de keuzes van lokale elites",
+        "Haverfield onderzocht Britannia en Millett Gallië, en kwamen tot andere feiten",
+        "Haverfield ontkende dat er romanisering was",
+        "Millett schreef in de achttiende eeuw"
+      ],
+      "answer": "Haverfield legt de nadruk op overdracht van beschaving door Rome, Millett op de keuzes van lokale elites",
+      "hints": [],
+      "solution": [
+        "Het gaat om wie het proces stuurt."
+      ],
+      "feedback": [
+        {
+          "answer": "Haverfield onderzocht Britannia en Millett Gallië, en kwamen tot andere feiten",
+          "message": "Beiden schreven over Britannia; het verschil zit in interpretatie, niet in de vindplaats."
+        },
+        {
+          "answer": "Haverfield ontkende dat er romanisering was",
+          "message": "Haverfield bedacht het begrip juist."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "07-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 5,
+      "question": "Welke lezing van deze vondst past bij het begrip creolisering?",
+      "context": "In een graf in het Nederlandse rivierengebied uit de tweede eeuw ligt naast een handgemaakt lokaal potje een Romeinse drinkbeker. Het graf heeft verder een Latijnse grafsteen en een lokale amulet.",
+      "choices": [
+        "De bewoner mengde Romeinse en lokale gewoonten tot iets nieuws, dat in geen van beide culturen op zichzelf bestond",
+        "De bewoner werd volledig Romeins en gaf zijn eigen cultuur op",
+        "De beker bewijst dat de bewoner tot de elite behoorde",
+        "De beker is een teken van dwang door het Romeinse leger"
+      ],
+      "answer": "De bewoner mengde Romeinse en lokale gewoonten tot iets nieuws, dat in geen van beide culturen op zichzelf bestond",
+      "hints": [],
+      "solution": [
+        "Creolisering gaat over menging en nieuwe vormen."
+      ],
+      "feedback": [
+        {
+          "answer": "De bewoner werd volledig Romeins en gaf zijn eigen cultuur op",
+          "message": "Dat is het beeld van Haverfield, niet van creolisering."
+        },
+        {
+          "answer": "De beker bewijst dat de bewoner tot de elite behoorde",
+          "message": "Een beker alleen bewijst dat niet; het is Milletts hypothese."
+        },
+        {
+          "answer": "De beker is een teken van dwang door het Romeinse leger",
+          "message": "Dat is een machtsperspectief, niet creolisering."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    }
+  ]
+}

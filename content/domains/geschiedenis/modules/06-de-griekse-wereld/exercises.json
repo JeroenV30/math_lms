@@ -1,0 +1,1040 @@
+{
+  "exercises": [
+    {
+      "id": "06-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welk voordeel heeft een ostrakon als bron boven een beschrijving van ostracisme die Plutarchus ruim vijf eeuwen later schreef?",
+      "choices": [
+        "Het is gemaakt tijdens de gebeurtenis zelf, door deelnemers",
+        "Het is onfeilbaar, want een voorwerp kan niet liegen",
+        "Het geeft de beweegredenen van de stemmers weer",
+        "Het is een secundaire bron en dus objectiever"
+      ],
+      "answer": "Het is gemaakt tijdens de gebeurtenis zelf, door deelnemers",
+      "hints": [
+        "Denk aan het onderscheid tussen primaire en secundaire bronnen uit module 1."
+      ],
+      "solution": [
+        "Een ostrakon stamt uit de tijd zelf en is door deelnemers gemaakt: dat maakt het een primaire bron.",
+        "Het zegt echter weinig over motieven; daarvoor zijn de latere teksten nodig."
+      ],
+      "feedback": [
+        {
+          "answer": "Het is onfeilbaar, want een voorwerp kan niet liegen",
+          "message": "Een voorwerp is niet vanzelf betrouwbaar: het zegt weinig, en je moet nog vaststellen wie het maakte en waarom."
+        },
+        {
+          "answer": "Het geeft de beweegredenen van de stemmers weer",
+          "message": "Een scherf bevat alleen een naam. Waarom iemand die naam schreef, staat er niet op."
+        },
+        {
+          "answer": "Het is een secundaire bron en dus objectiever",
+          "message": "Een ostrakon uit 472 v.Chr. is een primaire bron. Plutarchus is de latere, secundaire bron."
+        }
+      ],
+      "topics": [
+        "sources",
+        "antiquity"
+      ]
+    },
+    {
+      "id": "06-002",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een ostrakon met de naam *Themistokles* is gevonden. Noem één ding dat je er met redelijke zekerheid uit kunt afleiden, en één ding dat je er niet uit kunt afleiden.",
+      "context": "Ostraka met de naam Themistokles Neokleous zijn in 1937 opgegraven in de Agora van Athene. Een deel is door dezelfde hand beschreven.",
+      "answer": "Bijvoorbeeld: dat Atheners zijn naam gebruikten bij een stemming, en dat sommige scherven klaargemaakt waren; niet: waarom men hem wilde verbannen of hoeveel burgers meededen.",
+      "hints": [
+        "Wat staat er letterlijk op de scherf, en wat moet je er zelf bij verzinnen?"
+      ],
+      "solution": [
+        "Modelantwoord: uit de scherven blijkt dat de naam van Themistokles op scherven werd geschreven en dat een deel door dezelfde hand is gemaakt, wat op voorbereiding wijst.",
+        "Niet af te leiden: de motieven van de stemmers, het aantal deelnemers of de uitkomst van het ostracisme."
+      ],
+      "min_length": 40,
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "06-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat was een polis in de Griekse wereld?",
+      "choices": [
+        "Een provincie van een groot Grieks rijk",
+        "Een zelfstandige gemeenschap van burgers met een stad en omliggend platteland",
+        "Alleen de ommuurde stad, zonder platteland",
+        "Een leger van zwaarbewapende voetsoldaten"
+      ],
+      "answer": "Een zelfstandige gemeenschap van burgers met een stad en omliggend platteland",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "Een polis was een zelfstandige burgergemeenschap met eigen wetten, goden en leger, bestaande uit een stad en omringend land."
+      ],
+      "feedback": [
+        {
+          "answer": "Een provincie van een groot Grieks rijk",
+          "message": "Een Grieks rijk bestond in deze periode niet; poleis waren zelfstandig."
+        },
+        {
+          "answer": "Alleen de ommuurde stad, zonder platteland",
+          "message": "Het platteland hoorde bij de polis en leverde de landbouwgrond van de burgers."
+        },
+        {
+          "answer": "Een leger van zwaarbewapende voetsoldaten",
+          "message": "Dat zijn hoplieten. Zij vormden het leger van de polis, niet de polis zelf."
+        }
+      ],
+      "topics": [
+        "antiquity"
+      ]
+    },
+    {
+      "id": "06-004",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze stichtingen en gebeurtenissen op volgorde van oud naar jong, volgens de traditionele dateringen.",
+      "answer": [
+        "Stichting van Syracuse (ca. 733 v.Chr.)",
+        "Stichting van Cyrene (ca. 630 v.Chr.)",
+        "Stichting van Massalia (ca. 600 v.Chr.)",
+        "Hervormingen van Solon (ca. 594 v.Chr.)"
+      ],
+      "hints": [
+        "De jaartallen staan tussen haakjes; zet de grootste getallen v.Chr. eerst."
+      ],
+      "solution": [
+        "733, 630, 600, 594 v.Chr.: hoe verder terug, hoe groter het jaartal bij v.Chr."
+      ],
+      "topics": [
+        "chronology",
+        "antiquity"
+      ]
+    },
+    {
+      "id": "06-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom is de term \"kolonisatie\" voor de Griekse stichtingen tussen 750 en 550 v.Chr. enigszins misleidend?",
+      "choices": [
+        "Er woonden in die gebieden geen andere volken",
+        "De nieuwe steden werden direct door de moederstad bestuurd",
+        "De nieuwe steden werden zelfstandige poleis, geen onderdeel van een rijk met een centrum",
+        "Er werd geen handel gedreven"
+      ],
+      "answer": "De nieuwe steden werden zelfstandige poleis, geen onderdeel van een rijk met een centrum",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "De steden waren zelfstandig. Het woord kolonisatie roept het beeld op van rijken met een centrum, zoals in de moderne tijd."
+      ],
+      "feedback": [
+        {
+          "answer": "De nieuwe steden werden direct door de moederstad bestuurd",
+          "message": "Meestal bestond er alleen een band van eerbied met de metropolis; de nieuwe stad regelde haar eigen zaken."
+        },
+        {
+          "answer": "Er woonden in die gebieden geen andere volken",
+          "message": "Dat klopt niet: in veel gebieden woonden al andere volken, maar hun kant kennen we nauwelijks omdat de bronnen Grieks zijn."
+        }
+      ],
+      "topics": [
+        "antiquity",
+        "perspective"
+      ]
+    },
+    {
+      "id": "06-006",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat deed Solon volgens de latere bronnen rond 594 v.Chr. in Athene?",
+      "choices": [
+        "Hij schafte schuldslavernij van Atheners af en deelde de burgers in vier klassen naar inkomen",
+        "Hij voerde het ostracisme in en verdeelde Attika in tien stammen",
+        "Hij werd tiran en schafte de volksvergadering af",
+        "Hij introduceerde loting voor alle ambten en betaling voor rechters"
+      ],
+      "answer": "Hij schafte schuldslavernij van Atheners af en deelde de burgers in vier klassen naar inkomen",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "De seisachtheia schafte schuldslavernij voor Atheners af en de vier inkomensklassen bepaalden de politieke rechten."
+      ],
+      "feedback": [
+        {
+          "answer": "Hij voerde het ostracisme in en verdeelde Attika in tien stammen",
+          "message": "Dat zijn de hervormingen van Kleisthenes, rond 508/507 v.Chr., ruim tachtig jaar later."
+        },
+        {
+          "answer": "Hij werd tiran en schafte de volksvergadering af",
+          "message": "Een tirannie volgde pas later met Peisistratos, vanaf 546 v.Chr."
+        }
+      ],
+      "topics": [
+        "antiquity",
+        "causation"
+      ]
+    },
+    {
+      "id": "06-007",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in Athene van oud naar jong.",
+      "answer": [
+        "Hervormingen van Solon",
+        "Begin van de tirannie van Peisistratos",
+        "Verdrijving van Hippias",
+        "Hervormingen van Kleisthenes",
+        "Eerste ostracisme"
+      ],
+      "hints": [
+        "Solon 594, Peisistratos 546, Hippias 510, Kleisthenes 508/7, ostracisme 487 v.Chr."
+      ],
+      "solution": [
+        "594, 546, 510, 508/507, 487 v.Chr."
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "06-008",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Hoeveel jaar zit er tussen Solons hervormingen (594 v.Chr.) en die van Kleisthenes (508 v.Chr.)?",
+      "answer": 86,
+      "unit": "jaar",
+      "hints": [
+        "Bij v.Chr. tel je terug: trek het kleinste jaartal van het grootste af."
+      ],
+      "solution": [
+        "$594 - 508 = 86$ jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 1102,
+          "message": "Je hebt de jaartallen opgeteld. Je zoekt het verschil."
+        },
+        {
+          "answer": 85,
+          "message": "Reken $594 - 508$ opnieuw."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "06-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Waarom is voorzichtigheid nodig als Aristoteles' *Staat van de Atheners* vertelt over de hervormingen van Kleisthenes?",
+      "choices": [
+        "Aristoteles was een Spartaan en dus partijdig",
+        "Aristoteles schreef bijna twee eeuwen na de gebeurtenissen, in een Athene dat al lang democratisch was",
+        "Teksten uit de vierde eeuw v.Chr. zijn per definitie onbetrouwbaar",
+        "Aristoteles schreef als ooggetuige en overdreef daarom"
+      ],
+      "answer": "Aristoteles schreef bijna twee eeuwen na de gebeurtenissen, in een Athene dat al lang democratisch was",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "De afstand in tijd en het democratische kader maken het stichtingsverhaal vatbaar voor bijsturing."
+      ],
+      "feedback": [
+        {
+          "answer": "Aristoteles was een Spartaan en dus partijdig",
+          "message": "Aristoteles kwam uit Stageira en werkte in Athene; de afstand in tijd is het probleem, niet zijn afkomst."
+        },
+        {
+          "answer": "Teksten uit de vierde eeuw v.Chr. zijn per definitie onbetrouwbaar",
+          "message": "Ouderdom en onbetrouwbaarheid zijn niet hetzelfde; je moet per tekst kijken naar herkomst en doel."
+        },
+        {
+          "answer": "Aristoteles schreef als ooggetuige en overdreef daarom",
+          "message": "Hij was geen ooggetuige: hij leefde bijna twee eeuwen later."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "06-010",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Waarom werden veel Atheense ambten door loting vergeven?",
+      "choices": [
+        "Omdat er te weinig bekwame kandidaten waren",
+        "Omdat de goden volgens de wet zelf het ambt aanwezen",
+        "Omdat het goedkoper was dan verkiezingen",
+        "Omdat loting niemand bevoordeelde en veel burgers de kans gaf om te besturen"
+      ],
+      "answer": "Omdat loting niemand bevoordeelde en veel burgers de kans gaf om te besturen",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "Loting zorgde voor gelijke kansen en verhinderde dat families of groepen ambten bezet hielden."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat er te weinig bekwame kandidaten waren",
+          "message": "Loting was een bewuste keuze voor gelijkheid, geen noodoplossing."
+        },
+        {
+          "answer": "Omdat de goden volgens de wet zelf het ambt aanwezen",
+          "message": "De loting had een praktische en politieke reden; religie was daarvoor niet de maatstaf."
+        }
+      ],
+      "topics": [
+        "antiquity"
+      ]
+    },
+    {
+      "id": "06-011",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Stel dat Athene 30.000 burgers had en jaarlijks 6.000 gezworenen aanwees. Welk percentage van de burgers is dat?",
+      "answer": 20,
+      "unit": "%",
+      "hints": [
+        "Deel 6.000 door 30.000."
+      ],
+      "solution": [
+        "$6000 / 30000 = 0{,}2$, dus 20 procent."
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je hebt 30.000 gedeeld door 6.000 en daar niets mee gedaan. Het deel is 6.000 van 30.000."
+        },
+        {
+          "answer": 200,
+          "message": "Je hebt het deel met 1.000 vermenigvuldigd. Reken 6.000 / 30.000."
+        }
+      ],
+      "topics": [
+        "antiquity"
+      ]
+    },
+    {
+      "id": "06-012",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom werden de tien generaals (*strategoi*) niet door loting aangewezen, maar gekozen?",
+      "choices": [
+        "Omdat voor het leger vakbekwaamheid nodig was, en herverkiezing een leider jarenlang invloed kon geven",
+        "Omdat generaals in Athene altijd uit de adel moesten komen",
+        "Omdat loting alleen voor rechters werd gebruikt",
+        "Omdat de volksvergadering geen vertrouwen had in het lot"
+      ],
+      "answer": "Omdat voor het leger vakbekwaamheid nodig was, en herverkiezing een leider jarenlang invloed kon geven",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "Voor militair leiderschap koos men op bekwaamheid. Zo konden mannen als Perikles herhaaldelijk worden gekozen."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat generaals in Athene altijd uit de adel moesten komen",
+          "message": "Er was geen wettelijke adelseis; ook generaals werden gekozen door de burgers."
+        },
+        {
+          "answer": "Omdat loting alleen voor rechters werd gebruikt",
+          "message": "Ook veel andere ambten, zoals de Raad van 500, werden door loting bezet."
+        }
+      ],
+      "topics": [
+        "antiquity",
+        "causation"
+      ]
+    },
+    {
+      "id": "06-013",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wie waren de heloten in Sparta?",
+      "choices": [
+        "Spartaanse burgers die in het leger dienden",
+        "Onvrije landbewerkers, vooral uit het veroverde Messenië, die het land voor de Spartaanse burgers bewerkten",
+        "Vrije inwoners van omliggende plaatsen zonder politieke rechten",
+        "De vijf jaarlijks gekozen bestuurders"
+      ],
+      "answer": "Onvrije landbewerkers, vooral uit het veroverde Messenië, die het land voor de Spartaanse burgers bewerkten",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "Heloten waren onvrije landbewerkers die de burgers vrijmaakten voor militaire training."
+      ],
+      "feedback": [
+        {
+          "answer": "Vrije inwoners van omliggende plaatsen zonder politieke rechten",
+          "message": "Dat zijn de perioikoi. De heloten waren onvrij."
+        },
+        {
+          "answer": "De vijf jaarlijks gekozen bestuurders",
+          "message": "Dat zijn de ephoren."
+        }
+      ],
+      "topics": [
+        "antiquity",
+        "perspective"
+      ]
+    },
+    {
+      "id": "06-014",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Waarom is het beeld dat we van de Spartaanse opvoeding hebben met voorzichtigheid te gebruiken?",
+      "choices": [
+        "Er zijn helemaal geen schriftelijke bronnen over Sparta",
+        "Spartanen schreven veel, maar die teksten zijn pas recent teruggevonden",
+        "Bijna alle bronnen zijn geschreven door buitenstaanders, vaak eeuwen later, die Sparta als ideaal of tegenbeeld gebruikten",
+        "De bronnen zijn allemaal door heloten geschreven"
+      ],
+      "answer": "Bijna alle bronnen zijn geschreven door buitenstaanders, vaak eeuwen later, die Sparta als ideaal of tegenbeeld gebruikten",
+      "context": "Een groot deel van wat we weten over de agoge komt uit Xenofon (een Athener in ballingschap) en uit Plutarchus (rond 100 n.Chr.).",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "Het is de zogenoemde Spartaanse mirage: een beeld dat vooral buiten Sparta werd gevormd."
+      ],
+      "feedback": [
+        {
+          "answer": "Er zijn helemaal geen schriftelijke bronnen over Sparta",
+          "message": "Er zijn wel bronnen, maar bijna alle zijn van buitenstaanders."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "perspective"
+      ]
+    },
+    {
+      "id": "06-015",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat hadden perioikoi gemeen met Atheense metoiken?",
+      "choices": [
+        "Beiden waren vrij maar hadden geen politieke rechten in de stad waar ze woonden",
+        "Beiden waren eigendom van de burgers",
+        "Beiden hadden volledig stemrecht",
+        "Beiden werden bij loting aangewezen als gezworene"
+      ],
+      "answer": "Beiden waren vrij maar hadden geen politieke rechten in de stad waar ze woonden",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "Het zijn vrije inwoners zonder politieke rechten. Perioikoi leefden in omliggende plaatsen, metoiken in Athene zelf."
+      ],
+      "feedback": [
+        {
+          "answer": "Beiden waren eigendom van de burgers",
+          "message": "Dat geldt voor tot slaaf gemaakten, niet voor vrije inwoners."
+        },
+        {
+          "answer": "Beiden hadden volledig stemrecht",
+          "message": "Juist niet: zij hadden geen politieke rechten."
+        }
+      ],
+      "topics": [
+        "perspective"
+      ]
+    },
+    {
+      "id": "06-016",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wie had in het Athene van de vijfde eeuw v.Chr. stemrecht in de volksvergadering?",
+      "choices": [
+        "Alle volwassen inwoners van Attika",
+        "Alle vrije mensen, ook vrouwen en metoiken",
+        "Volwassen mannen van wie beide ouders Atheens waren",
+        "Alleen de rijkste families"
+      ],
+      "answer": "Volwassen mannen van wie beide ouders Atheens waren",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "Het burgerschap was beperkt tot volwassen mannen van Atheense afkomst (wet van Perikles, 451/450 v.Chr.)."
+      ],
+      "feedback": [
+        {
+          "answer": "Alle volwassen inwoners van Attika",
+          "message": "Slaven, vrouwen en metoiken waren uitgesloten."
+        },
+        {
+          "answer": "Alleen de rijkste families",
+          "message": "De arme thetes hadden vanaf Solon wel toegang tot de vergadering."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "antiquity"
+      ]
+    },
+    {
+      "id": "06-017",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een historicus schat dat Attika 45.000 volwassen mannelijke burgers en in totaal 300.000 inwoners had. Hoeveel procent van de bevolking kon stemmen?",
+      "answer": 15,
+      "unit": "%",
+      "hints": [
+        "Deel 45.000 door 300.000."
+      ],
+      "solution": [
+        "$45000 / 300000 = 0{,}15$, dus 15 procent.",
+        "De uitkomst hangt af van twee schattingen."
+      ],
+      "feedback": [
+        {
+          "answer": 15000,
+          "message": "Dat is een aantal, geen percentage. Deel en reken om."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "06-018",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Leg uit hoe in zowel Athene als Sparta een groot deel van de bevolking van politieke macht was uitgesloten, en noem één verschil tussen de groepen die daar zaten.",
+      "answer": "Athene: vrouwen, metoiken en tot slaaf gemaakten. Sparta: heloten en perioikoi. Verschil: bijvoorbeeld dat Spartaanse heloten collectief onderworpen landbewerkers waren, terwijl Atheense slaven vooral individuele eigendom waren.",
+      "hints": [
+        "Maak twee rijtjes, één voor Athene en één voor Sparta."
+      ],
+      "solution": [
+        "Modelantwoord: in Athene hadden vrouwen, metoiken en tot slaaf gemaakten geen politieke rechten; in Sparta waren dat de heloten en perioikoi.",
+        "Een verschil: heloten waren als groep onderworpen, de Atheense slaven werden individueel gekocht en verkocht."
+      ],
+      "min_length": 60,
+      "topics": [
+        "perspective",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "06-019",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat valt op aan de Perzische bronnen over de oorlogen met de Grieken?",
+      "choices": [
+        "Ze geven een gedetailleerd verslag van de nederlaag bij Salamis",
+        "Ze zwijgen over Marathon en Salamis, zodat de Griekse bronnen ons beeld bepalen",
+        "Ze bevestigen de aantallen van Herodotus",
+        "Er zijn geen Perzische bronnen van enige soort"
+      ],
+      "answer": "Ze zwijgen over Marathon en Salamis, zodat de Griekse bronnen ons beeld bepalen",
+      "context": "Het rotsreliëf van Darius I bij Behistun (ca. 520 v.Chr.) noemt Ionische Grieken onder de volken van het rijk.",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "Bijna alles wat we weten over de oorlogen komt uit Griekse bronnen."
+      ],
+      "feedback": [
+        {
+          "answer": "Er zijn geen Perzische bronnen van enige soort",
+          "message": "Er zijn wel Perzische teksten en reliëfs, maar ze zeggen niets over deze slagen."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "sources"
+      ]
+    },
+    {
+      "id": "06-020",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen van oud naar jong.",
+      "answer": [
+        "Ionische opstand begint (499)",
+        "Slag bij Marathon (490)",
+        "Slag bij Salamis (480)",
+        "Oprichting van de Delische Bond (478/477)",
+        "Schatkist verhuist van Delos naar Athene (454)"
+      ],
+      "hints": [
+        "Gebruik de jaartallen tussen haakjes."
+      ],
+      "solution": [
+        "499, 490, 480, 478/477, 454 v.Chr."
+      ],
+      "topics": [
+        "chronology",
+        "causation"
+      ]
+    },
+    {
+      "id": "06-021",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat vertelt Herodotus' lijst van miljoenen Perzische soldaten ons vooral?",
+      "choices": [
+        "Hoe Grieken de macht van de vijand achteraf zagen en roem vergrootten",
+        "De exacte omvang van het Perzische leger",
+        "Dat Herodotus Perzische administratie inzag",
+        "Dat de Perzen in werkelijkheid weinig soldaten hadden"
+      ],
+      "answer": "Hoe Grieken de macht van de vijand achteraf zagen en roem vergrootten",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "De bron is slecht voor aantallen, goed voor beeldvorming."
+      ],
+      "feedback": [
+        {
+          "answer": "De exacte omvang van het Perzische leger",
+          "message": "Moderne onderzoekers gaan uit van veel kleinere aantallen; Herodotus is voor aantallen niet betrouwbaar."
+        },
+        {
+          "answer": "Dat de Perzen in werkelijkheid weinig soldaten hadden",
+          "message": "Ze hadden een groot leger, maar waarschijnlijk veel kleiner dan Herodotus schrijft."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "perspective"
+      ]
+    },
+    {
+      "id": "06-022",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat noemt Thucydides de \"meest waarachtige oorzaak\" van de Peloponnesische Oorlog?",
+      "choices": [
+        "Het conflict rond Corcyra en Potidaea",
+        "De Atheense expeditie naar Sicilië",
+        "De groei van de Atheense macht en de angst die dat bij Sparta opriep",
+        "Spartaanse bewondering voor Perikles"
+      ],
+      "answer": "De groei van de Atheense macht en de angst die dat bij Sparta opriep",
+      "context": "Thucydides 1.23 (vrij vertaald): de meest waarachtige oorzaak, hoewel het minst genoemd, was de groei van de Atheense macht en de angst die dat Sparta aanjoeg.",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "Thucydides scheidt aanleiding en diepere oorzaak."
+      ],
+      "feedback": [
+        {
+          "answer": "Het conflict rond Corcyra en Potidaea",
+          "message": "Dat zijn de aanleidingen die men noemde, niet de diepere oorzaak."
+        },
+        {
+          "answer": "De Atheense expeditie naar Sicilië",
+          "message": "De expeditie van 415 v.Chr. kwam pas later in de oorlog en was een gevolg, geen oorzaak."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "06-023",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Hoeveel jaar duurde de Peloponnesische Oorlog van 431 tot 404 v.Chr.?",
+      "answer": 27,
+      "unit": "jaar",
+      "hints": [
+        "Trek het kleinste jaartal af van het grootste."
+      ],
+      "solution": [
+        "$431 - 404 = 27$ jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 835,
+          "message": "Je hebt de jaartallen opgeteld in plaats van afgetrokken."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "06-024",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Thucydides schrijft dat hij in de toespraken de algemene strekking van wat gezegd werd probeert te geven. Wat betekent dat voor het gebruik van de grafrede van Perikles?",
+      "choices": [
+        "De rede is letterlijk wat Perikles zei",
+        "De rede is geen letterlijk verslag; je gebruikt haar als Thucydides' weergave",
+        "De rede is door Thucydides volledig verzonnen",
+        "De rede kan niet gebruikt worden"
+      ],
+      "answer": "De rede is geen letterlijk verslag; je gebruikt haar als Thucydides' weergave",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "De rede is een bewerking: nuttig als tekst van Thucydides, voorzichtig als bron voor Perikles' eigen woorden."
+      ],
+      "feedback": [
+        {
+          "answer": "De rede is letterlijk wat Perikles zei",
+          "message": "Thucydides zegt zelf dat hij de strekking weergeeft, niet de woorden."
+        },
+        {
+          "answer": "De rede is door Thucydides volledig verzonnen",
+          "message": "Hij beweert de strekking van wat gezegd werd te geven; hoe nauwkeurig dat is, weten we niet, maar volledig verzonnen is te sterk."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "06-025",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Vergelijk Herodotus en Thucydides als bron voor de Griekse oorlogen: noem twee verschillen in werkwijze en leg uit waarom geen van beiden \"gewoon betrouwbaar\" is.",
+      "answer": "Herodotus verzamelt veel verhalen en toont belangstelling voor andere volken; Thucydides beperkt zich tot een oorlog die hij meemaakte en toetst ooggetuigen. Beiden hebben een publiek, een beperkt gezichtspunt en laten onderwerpen liggen.",
+      "hints": [
+        "Denk aan onderwerp, werkwijze, publiek en wat ze weglaten."
+      ],
+      "solution": [
+        "Modelantwoord: Herodotus is breed en nieuwsgierig, Thucydides smal en strak. Herodotus overdrijft aantallen; Thucydides laat vrouwen en tot slaaf gemaakten grotendeels buiten beeld en geeft toespraken in eigen woorden.",
+        "Elke bron vraagt dus om herkomst, doel en context."
+      ],
+      "min_length": 80,
+      "topics": [
+        "historiography",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "06-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is een probleem bij het proces tegen Socrates (399 v.Chr.) als je wilt weten hoe de jury over hem dacht?",
+      "choices": [
+        "We kennen het proces vooral uit teksten van zijn bewonderaars Plato en Xenofon, niet van de jury zelf",
+        "Er is geen enkele tekst over het proces bewaard",
+        "De jury schreef een uitgebreid vonnis op",
+        "Socrates zelf schreef het verslag"
+      ],
+      "answer": "We kennen het proces vooral uit teksten van zijn bewonderaars Plato en Xenofon, niet van de jury zelf",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "De bronnen komen van een kant: die van zijn leerlingen."
+      ],
+      "feedback": [
+        {
+          "answer": "Socrates zelf schreef het verslag",
+          "message": "Socrates schreef zelf niets; zijn leerlingen deden dat."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "perspective"
+      ]
+    },
+    {
+      "id": "06-027",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke bewering over de Griekse filosofie en wetenschap is het meest zorgvuldig?",
+      "choices": [
+        "De Grieken vonden de sterrenkunde en meetkunde helemaal zelf uit",
+        "De Grieken namen veel kennis over van Babylonië en Egypte en voegden een nadruk op bewijs en redenering toe",
+        "Griekse denkers hadden niets met religie te maken",
+        "Alle Griekse denkers steunden de democratie"
+      ],
+      "answer": "De Grieken namen veel kennis over van Babylonië en Egypte en voegden een nadruk op bewijs en redenering toe",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "Overname plus een eigen nadruk op argumentatie."
+      ],
+      "feedback": [
+        {
+          "answer": "De Grieken vonden de sterrenkunde en meetkunde helemaal zelf uit",
+          "message": "Veel kennis kwam uit Babylonië en Egypte; vergelijk Babylonische astronomie."
+        },
+        {
+          "answer": "Alle Griekse denkers steunden de democratie",
+          "message": "Plato was bijvoorbeeld kritisch over de democratie."
+        }
+      ],
+      "topics": [
+        "continuity-change",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "06-028",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen rond Filips en Alexander van oud naar jong.",
+      "answer": [
+        "Slag bij Chaeroneia (338)",
+        "Alexander wordt koning (336)",
+        "Slag bij de Granicus (334)",
+        "Slag bij Gaugamela (331)",
+        "Dood van Alexander in Babylon (323)"
+      ],
+      "hints": [
+        "Gebruik de jaartallen tussen haakjes."
+      ],
+      "solution": [
+        "338, 336, 334, 331, 323 v.Chr."
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "06-029",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Alexander werd koning in 336 v.Chr. en stierf in 323 v.Chr. Hoeveel jaar was hij koning?",
+      "answer": 13,
+      "unit": "jaar",
+      "hints": [
+        "Trek 323 af van 336."
+      ],
+      "solution": [
+        "$336 - 323 = 13$ jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 659,
+          "message": "Je hebt opgeteld. Je zoekt het verschil."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "06-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat laat de Steen van Rosette (196 v.Chr.) zien over de hellenistische wereld?",
+      "choices": [
+        "Dat Egypte geheel gehelleniseerd was",
+        "Dat de Egyptische priesters hun macht volledig kwijt waren",
+        "Dat de heerser zowel Egyptische als Griekse onderdanen moest aanspreken, met drie schriften",
+        "Dat het Grieks geen rol speelde in Egypte"
+      ],
+      "answer": "Dat de heerser zowel Egyptische als Griekse onderdanen moest aanspreken, met drie schriften",
+      "context": "De tekst is een besluit van Egyptische priesters ter ere van Ptolemaeus V, in hiërogliefen, demotisch en Grieks.",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "Het hellenisme was uitwisseling en overheersing tegelijk."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat Egypte geheel gehelleniseerd was",
+          "message": "De drie schriften tonen juist dat Egyptische tradities bleven bestaan."
+        },
+        {
+          "answer": "Dat het Grieks geen rol speelde in Egypte",
+          "message": "Het Grieks stond naast de twee Egyptische schriften."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "perspective"
+      ]
+    },
+    {
+      "id": "06-031",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarin verschillen Hansen en Ober vooral van elkaar in hun benadering van de Atheense democratie?",
+      "choices": [
+        "Hansen vertrekt vooral vanuit instellingen en regels, Ober vooral vanuit de taal en ideologie van redevoeringen",
+        "Hansen vond Athene geen democratie, Ober wel",
+        "Hansen werkte met archeologie, Ober met genetica",
+        "Ze verschillen niet: beiden gebruiken dezelfde bronnen en vragen"
+      ],
+      "answer": "Hansen vertrekt vooral vanuit instellingen en regels, Ober vooral vanuit de taal en ideologie van redevoeringen",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "Hansen: institutionele studie. Ober: rhetoriek en ideologie."
+      ],
+      "feedback": [
+        {
+          "answer": "Hansen vond Athene geen democratie, Ober wel",
+          "message": "Het verschil zit in methode en vraag, niet in een ja of nee op dit punt."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "06-032",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Finley meende dat Griekse vrijheid en slavernij samen opkwamen; Wood legt de nadruk op de burgerij van kleine boeren. Leg uit waarom \"slavernij was een voorwaarde voor de democratie\" meer dan één soort bewering kan zijn.",
+      "answer": "Het kan een noodzakelijke voorwaarde zijn (zonder slavernij geen democratie), een bevorderende voorwaarde (het maakte democratie gemakkelijker) of een toevallige samenloop. Elke variant vraagt ander bewijs.",
+      "hints": [
+        "Denk aan de verschillen tussen noodzakelijk, bevorderend en toevallig."
+      ],
+      "solution": [
+        "Modelantwoord: noodzakelijk (zonder dit niet), bevorderend (met dit gemakkelijker) of een samenloop. Finley wijst op samenhang, Wood stelt dat veel burgers zelf werkten."
+      ],
+      "min_length": 80,
+      "topics": [
+        "historiography",
+        "causation"
+      ]
+    },
+    {
+      "id": "06-033",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bron A (de grafrede) en bron C (de zin over vrouwen) komen beide uit Thucydides. Wat betekent dat voor de vergelijking van de bronnen?",
+      "choices": [
+        "Ze zijn onafhankelijk, want ze hebben verschillende onderwerpen",
+        "Ze zijn niet onafhankelijk van elkaar: ze delen één auteur en één tekst",
+        "Ze zijn elkaars bevestiging, omdat ze hetzelfde zeggen",
+        "Ze zijn onbruikbaar, want Thucydides was geen ooggetuige"
+      ],
+      "answer": "Ze zijn niet onafhankelijk van elkaar: ze delen één auteur en één tekst",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "Twee fragmenten uit één tekst tellen niet als twee getuigen."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze zijn onafhankelijk, want ze hebben verschillende onderwerpen",
+          "message": "Verschillende onderwerpen maken ze nog niet onafhankelijk. Het gaat om de herkomst."
+        },
+        {
+          "answer": "Ze zijn onbruikbaar, want Thucydides was geen ooggetuige",
+          "message": "Dat hij de rede niet zelf hoorde, maakt haar niet onbruikbaar; je bent alleen voorzichtiger."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "06-034",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de waarde van de Oude Oligarch als bron voor de vraag naar gelijkheid in Athene?",
+      "choices": [
+        "Een tegenstander van de democratie bevestigt dat het systeem het volk diende en dat slaven en metoiken veel vrijheid hadden, al kan hij overdrijven",
+        "Hij is volkomen onpartijdig en dus de beste bron",
+        "Hij vertelt wat vrouwen van de democratie vonden",
+        "Zijn tekst is waardeloos omdat hij de democratie afkeurt"
+      ],
+      "answer": "Een tegenstander van de democratie bevestigt dat het systeem het volk diende en dat slaven en metoiken veel vrijheid hadden, al kan hij overdrijven",
+      "hints": [
+        "Haal de kernbegrippen uit de les erbij en sluit eerst de antwoorden uit die niet kunnen kloppen."
+      ],
+      "solution": [
+        "Een kritische getuige kan juist informatie geven die vrienden niet noemen."
+      ],
+      "feedback": [
+        {
+          "answer": "Hij is volkomen onpartijdig en dus de beste bron",
+          "message": "Hij is juist een criticus en heeft een bedoeling."
+        },
+        {
+          "answer": "Zijn tekst is waardeloos omdat hij de democratie afkeurt",
+          "message": "Partijdigheid maakt een bron niet waardeloos; ze bepaalt hoe je haar leest."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "perspective"
+      ]
+    },
+    {
+      "id": "06-035",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Beantwoord de uitdaging uit les 07: welke van de drie bronnen is het meest bruikbaar om te beoordelen of er in Athene tijdens de Peloponnesische Oorlog gelijkheid was, en welke aanvullende bron zou je willen? Gebruik herkomst, context en zekerheid.",
+      "answer": "Een goed antwoord kiest een bron (bijvoorbeeld de Oude Oligarch als onafhankelijke, kritische stem), motiveert met herkomst en doel, en vraagt om een aanvullende bron zoals wetten, rechtbankredevoeringen of bronnen van vrouwen, metoiken of tot slaaf gemaakten, met een voorzichtige conclusie.",
+      "hints": [
+        "Beschrijf per bron: wie, wanneer, voor wie, met welk doel.",
+        "Welk perspectief ontbreekt volledig?"
+      ],
+      "solution": [
+        "Modelantwoord: de grafrede (A) toont het ideaal van de leiding maar is lofprijzing en door Thucydides bewerkt. De Oude Oligarch (B) is onafhankelijk en kritisch, maar partijdig. Bron C zegt weinig over de praktijk.",
+        "Voor een betere beoordeling zijn bronnen nodig van de uitgeslotenen zelf of dagelijkse documenten zoals wetten, grafschriften en rechtbankredevoeringen.",
+        "Conclusie met voorzichtigheid: de gelijkheid gold in de praktijk voor burgers; hoe breed die gedragen werd, valt niet af te leiden."
+      ],
+      "min_length": 150,
+      "topics": [
+        "source-criticism",
+        "interpretation",
+        "perspective"
+      ]
+    }
+  ]
+}

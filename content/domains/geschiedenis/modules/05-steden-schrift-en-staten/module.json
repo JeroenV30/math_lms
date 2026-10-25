@@ -4,19 +4,159 @@
   "title": "Steden, schrift en staten",
   "part": 2,
   "level": "fundamenten",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Ca. 3500 – 1000 v.Chr.",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 270,
   "prerequisites": [
     1
   ],
   "topics": [
     "prehistory",
     "sources",
-    "causation"
+    "source-criticism",
+    "causation",
+    "continuity-change",
+    "interpretation",
+    "historiography"
   ],
   "core_question": "Waarom ontstonden de eerste steden en staten, en wat deed het schrift daarbij?",
-  "summary": "Mesopotamië, Egypte en de Indusvallei: irrigatie, bestuur, schrift en de eerste geschreven bronnen.",
-  "lessons": []
+  "summary": "Mesopotamië, Egypte, de Indusvallei en China: irrigatie, overschot, bestuur en de eerste geschreven bronnen, en wat die wel en niet vertellen.",
+  "learning_goals": [
+    "Je kunt uitleggen hoe irrigatie, overschot, specialisatie en bestuur samenhangen in het ontstaan van de eerste steden en staten.",
+    "Je kunt beschrijven hoe schrift in Uruk begon als administratie en zich ontwikkelde tot literatuur en wet, en wat daarbij onzeker is.",
+    "Je kunt de Egyptische staat (Nijl, farao, bureaucratie, piramiden) vergelijken met de Mesopotamische.",
+    "Je kunt de Indusbeschaving en de Shang-dynastie beschrijven en redeneren over bewijs uit afwezigheid en over een onontcijferd schrift.",
+    "Je kunt een bron (wet, logboek, tablet, palet) beoordelen op herkomst, doel en wat ze niet zegt, en benoemen wie schreef en wie niet.",
+    "Je kunt de verklaringen van Childe, Wittfogel, Carneiro en Scott weergeven en de kritiek erop noemen.",
+    "Je kunt de gebeurtenissen van ca. 3500 tot 1000 v.Chr. in chronologische volgorde plaatsen."
+  ],
+  "glossary": [
+    {
+      "term": "Overschot",
+      "definition": "Meer voedsel dan de producenten zelf nodig hebben. Het kan worden opgeslagen, geruild of geclaimd door een instelling."
+    },
+    {
+      "term": "Irrigatie",
+      "definition": "Het naar akkers leiden van water met kanalen, dijken en sluisjes, onmisbaar in het droge zuiden van Mesopotamië."
+    },
+    {
+      "term": "Tempeleconomie",
+      "definition": "Het beeld van een samenleving waarin de tempel land, oogst en rantsoenen beheert. Voor Uruk een omstreden label."
+    },
+    {
+      "term": "Proto-spijkerschrift",
+      "definition": "De oudste tekens uit Uruk (ca. 3300 v.Chr.), vooral voor administratie. Nog geen volledige weergave van gesproken taal."
+    },
+    {
+      "term": "Rebusprincipe",
+      "definition": "Het gebruik van een teken voor de klank van een woord, los van de betekenis, waardoor je ook niet-tekenbare woorden kunt schrijven."
+    },
+    {
+      "term": "Spijkerschrift",
+      "definition": "Schrift met wigvormige tekens in klei, ruim drieduizend jaar gebruikt voor onder meer het Sumerisch en het Akkadisch."
+    },
+    {
+      "term": "Rolzegel",
+      "definition": "Een kleine stenen cilinder waarmee een patroon in klei werd gerold om bezit of verzegeling aan te geven."
+    },
+    {
+      "term": "Hiërogliefen",
+      "definition": "De zorgvuldig getekende Egyptische tekens voor monumenten en religie; voor dagelijks gebruik bestond het hiëratisch."
+    },
+    {
+      "term": "Bekkenirrigatie",
+      "definition": "Egyptische vorm van waterbeheer: dijkjes houden het overstromingswater tijdelijk op de akker vast."
+    },
+    {
+      "term": "Harappa-beschaving",
+      "definition": "De stedelijke beschaving van de Indusvallei (rijpe fase ca. 2600 – 1900 v.Chr.), met een onontcijferd schrift."
+    },
+    {
+      "term": "Redenering uit afwezigheid",
+      "definition": "Een conclusie trekken uit wat niet is gevonden. Zwak bewijs, omdat het ontbreken meerdere oorzaken kan hebben."
+    },
+    {
+      "term": "Orakelbotten",
+      "definition": "Botten en schilden uit de Shang-tijd waarop vragen aan de voorouders zijn gekrast; het oudste bewaarde Chinese schrift."
+    },
+    {
+      "term": "Irrigatiehypothese",
+      "definition": "Wittfogels stelling dat grootschalige irrigatie een centrale, despotische staat afdwong. In haar sterke vorm weerlegd."
+    },
+    {
+      "term": "Inperkingstheorie",
+      "definition": "Carneiros idee dat oorlog in door woestijn of gebergte ingesloten valleien tot onderwerping en een hiërarchie leidt."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een stuk basalt uit Susa",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "uruk-de-eerste-stad",
+      "title": "Uruk, de eerste stad",
+      "file": "02-uruk-de-eerste-stad.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "van-boekhouding-tot-wet",
+      "title": "Van boekhouding tot wet",
+      "file": "03-van-boekhouding-tot-wet.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "egypte-nijl-farao-en-piramiden",
+      "title": "Egypte: Nijl, farao en piramiden",
+      "file": "04-egypte-nijl-farao-en-piramiden.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "indus-en-china",
+      "title": "De Indusvallei en China",
+      "file": "05-indus-en-china.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat: waarom een staat?",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum: de lasten van de staat",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en toets",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "uruk-eerste-stad",
+    "proto-spijkerschrift-uruk",
+    "narmerpalet",
+    "piramide-djoser",
+    "piramide-choefoe-merer",
+    "harappa-rijpe-fase",
+    "sargon-akkad",
+    "hammurabi-stele",
+    "shang-orakelbotten",
+    "childe-urban-revolution",
+    "wittfogel-oriental-despotism",
+    "scott-against-the-grain"
+  ],
+  "people": [
+    "childe",
+    "hammurabi",
+    "wittfogel",
+    "james-scott"
+  ]
 }

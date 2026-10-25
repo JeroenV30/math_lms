@@ -1,0 +1,444 @@
+{
+  "title": "Hoofdstuktoets – Steden, schrift en staten",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "05-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Welk materiaal ontbrak in het zuiden van Mesopotamië en moest van elders worden ingevoerd?",
+      "choices": [
+        "Bouwhout, bruikbare steen en metaal",
+        "Graan",
+        "Klei",
+        "Riet"
+      ],
+      "answer": "Bouwhout, bruikbare steen en metaal",
+      "hints": [],
+      "solution": [
+        "Het land had graan, klei en riet, maar mist hout, steen en metaal."
+      ],
+      "feedback": [
+        {
+          "answer": "Klei",
+          "message": "Klei was juist ruim aanwezig; het land is gemaakt van rivierklei."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "causation"
+      ]
+    },
+    {
+      "id": "05-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat was het belangrijkste doel van een rolzegel?",
+      "choices": [
+        "Betalen van belasting",
+        "Aangeven van wie opgeslagen goederen waren of wie iets verzegeld had",
+        "Het schrijven van lange teksten",
+        "Het versieren van de stad"
+      ],
+      "answer": "Aangeven van wie opgeslagen goederen waren of wie iets verzegeld had",
+      "hints": [],
+      "solution": [
+        "Een rolzegel drukte een patroon in klei als merkteken, dus als administratie."
+      ],
+      "feedback": [
+        {
+          "answer": "Betalen van belasting",
+          "message": "Een zegel is een merkteken, geen betaalmiddel."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "causation"
+      ]
+    },
+    {
+      "id": "05-T03",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Narmerpalet (ca. 3100 v.Chr.)",
+        "Trappenpiramide van Djoser (ca. 2670 v.Chr.)",
+        "Piramide van Choefoe (ca. 2560 v.Chr.)",
+        "Eenwording onder Mentuhotep II (ca. 2055 v.Chr.)",
+        "Slag bij Kadesh (ca. 1274 v.Chr.)"
+      ],
+      "hints": [],
+      "solution": [
+        "3100, 2670, 2560, 2055 en 1274 v.Chr."
+      ],
+      "topics": [
+        "prehistory",
+        "continuity-change"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Narmerpalet (ca. 3100 v.Chr.)",
+            "Piramide van Choefoe (ca. 2560 v.Chr.)",
+            "Trappenpiramide van Djoser (ca. 2670 v.Chr.)",
+            "Eenwording onder Mentuhotep II (ca. 2055 v.Chr.)",
+            "Slag bij Kadesh (ca. 1274 v.Chr.)"
+          ],
+          "message": "Djoser (2670) bouwde voor Choefoe (2560)."
+        }
+      ]
+    },
+    {
+      "id": "05-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat kun je uit deze vondst NIET afleiden?",
+      "context": "Meer dan vier van de vijf oudste tabletten uit Uruk zijn administratief. De rest bestaat uit lijsten die leerlingen overschreven. Verhalen en brieven ontbreken.",
+      "choices": [
+        "Dat schrift in Uruk vooral voor administratie werd gebruikt",
+        "Dat schrijvers rantsoenen en goederen bijhielden",
+        "Dat er in Uruk geen verhalen bestonden",
+        "Dat er in Uruk leerlingen waren die lijsten overschreven"
+      ],
+      "answer": "Dat er in Uruk geen verhalen bestonden",
+      "hints": [],
+      "solution": [
+        "Het ontbreken van verhalen in het bewaarde corpus bewijst niet dat ze niet bestonden; ze konden mondeling zijn."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat schrift in Uruk vooral voor administratie werd gebruikt",
+          "message": "Dit volgt wel uit het corpus."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is het rebusprincipe?",
+      "choices": [
+        "Een teken is altijd een afbeelding van het woord",
+        "Een teken staat alleen voor getallen",
+        "Elk teken mag maar één keer voorkomen",
+        "Een teken wordt ook gebruikt voor de klank van een woord, los van de oorspronkelijke betekenis"
+      ],
+      "answer": "Een teken wordt ook gebruikt voor de klank van een woord, los van de oorspronkelijke betekenis",
+      "hints": [],
+      "solution": [
+        "Dankzij het rebusprincipe kun je woorden schrijven die je niet kunt tekenen."
+      ],
+      "feedback": [
+        {
+          "answer": "Een teken is altijd een afbeelding van het woord",
+          "message": "Dat is het uitgangspunt van beeldschrift, het rebusprincipe gaat verder."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "05-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat zou je het eerst willen vinden om te beoordelen of rechters deze bepaling ook echt toepasten?",
+      "context": "Als iemand het oog van een slaaf van een man vernielt, of het bot van een slaaf breekt, betaalt hij de helft van diens waarde. (Wet 199, vrij vertaald uit de vertaling van L. W. King, 1904.)",
+      "choices": [
+        "Rechterlijke uitspraken of contracten waarin naar de bepaling wordt verwezen",
+        "Een nog grotere stele met dezelfde tekst",
+        "Een afbeelding van Hammurabi",
+        "Een lijst van de namen van alle goden"
+      ],
+      "answer": "Rechterlijke uitspraken of contracten waarin naar de bepaling wordt verwezen",
+      "hints": [],
+      "solution": [
+        "Om toepassing te kunnen beoordelen heb je bronnen nodig over de praktijk, zoals uitspraken en contracten."
+      ],
+      "feedback": [
+        {
+          "answer": "Een nog grotere stele met dezelfde tekst",
+          "message": "Een tweede koninklijke tekst zegt niets over de toepassing in de praktijk."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-T07",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hammurabi regeerde van 1792 tot 1750 v.Chr. Hoeveel jaar duurde zijn regering?",
+      "answer": 42,
+      "hints": [],
+      "solution": [
+        "1792 − 1750 = 42 jaar."
+      ],
+      "topics": [
+        "prehistory",
+        "continuity-change"
+      ],
+      "unit": "jaar",
+      "feedback": [
+        {
+          "answer": 3542,
+          "message": "Je telt op. Bij v.Chr. trek je af."
+        }
+      ]
+    },
+    {
+      "id": "05-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is een belangrijk verschil tussen het vroege Egypte en het vroege Mesopotamië?",
+      "choices": [
+        "Egypte kende geen schrift",
+        "Egypte werd vroeg een gebiedsstaat langs één rivier, terwijl in Zuid-Mesopotamië meerdere stadstaten naast elkaar bestonden",
+        "In Mesopotamië bestond geen landbouw",
+        "Egypte had geen ongelijkheid"
+      ],
+      "answer": "Egypte werd vroeg een gebiedsstaat langs één rivier, terwijl in Zuid-Mesopotamië meerdere stadstaten naast elkaar bestonden",
+      "hints": [],
+      "solution": [
+        "De Nijl als verbindingsweg bevorderde een gebiedsstaat; in het zuiden van Mesopotamië stonden stadstaten naast elkaar."
+      ],
+      "feedback": [
+        {
+          "answer": "Egypte had geen ongelijkheid",
+          "message": "De graven van Naqada en Abydos laten juist groeiende verschillen zien."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "causation"
+      ]
+    },
+    {
+      "id": "05-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de beste conclusie op grond van deze bron?",
+      "context": "Het logboek van Merer (ca. 2560 v.Chr.) noteert per dag waar een ploeg van tientallen mannen was, welke kalksteen ze naar Gizeh vervoerde en welk voedsel ze kregen. (Eigen samenvatting.)",
+      "choices": [
+        "De mannen waren tot slaaf gemaakt",
+        "De mannen werkten uit vrije wil",
+        "Arbeid voor de piramide was georganiseerd en werd bijgehouden, maar over de vrijheid van de mannen zegt de bron niets",
+        "De bouw van de piramide was een mysterie"
+      ],
+      "answer": "Arbeid voor de piramide was georganiseerd en werd bijgehouden, maar over de vrijheid van de mannen zegt de bron niets",
+      "hints": [],
+      "solution": [
+        "Het logboek toont organisatie en voedselverstrekking, niet of er dwang was."
+      ],
+      "feedback": [
+        {
+          "answer": "De mannen werkten uit vrije wil",
+          "message": "Dat staat er niet in; de bron zwijgt hierover."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat is het zwakke punt in deze redenering?",
+      "context": "Een student schrijft: In Harappa en Mohenjo-daro zijn geen paleizen of koningsgraven gevonden. Dus er waren geen machtsverschillen.",
+      "choices": [
+        "Er zijn in de Indusvallei wel paleizen gevonden",
+        "Steden zonder koning bestaan niet",
+        "Gelijkheid is nooit voorgekomen",
+        "Het is een redenering uit afwezigheid: we herkennen de vormen van macht misschien niet, of er is onvoldoende opgegraven"
+      ],
+      "answer": "Het is een redenering uit afwezigheid: we herkennen de vormen van macht misschien niet, of er is onvoldoende opgegraven",
+      "hints": [],
+      "solution": [
+        "Het ontbreken van herkenbare paleizen heeft meerdere mogelijke verklaringen."
+      ],
+      "feedback": [
+        {
+          "answer": "Steden zonder koning bestaan niet",
+          "message": "Dat kun je niet algemeen stellen; het punt is dat bewijs ontbreekt."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "interpretation",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-T11",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze publicaties in de volgorde waarin ze verschenen, de oudste eerst.",
+      "answer": [
+        "Childe, The Urban Revolution (1950)",
+        "Wittfogel, Oriental Despotism (1957)",
+        "Adams, The Evolution of Urban Society (1966)",
+        "Carneiro, A Theory of the Origin of the State (1970)",
+        "Scott, Against the Grain (2017)"
+      ],
+      "hints": [],
+      "solution": [
+        "1950, 1957, 1966, 1970 en 2017."
+      ],
+      "topics": [
+        "historiography",
+        "interpretation",
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Childe, The Urban Revolution (1950)",
+            "Adams, The Evolution of Urban Society (1966)",
+            "Wittfogel, Oriental Despotism (1957)",
+            "Carneiro, A Theory of the Origin of the State (1970)",
+            "Scott, Against the Grain (2017)"
+          ],
+          "message": "Wittfogel (1957) schreef voor Adams (1966)."
+        }
+      ]
+    },
+    {
+      "id": "05-T12",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Welk onderzoek spreekt de sterke vorm van deze hypothese tegen?",
+      "context": "Wittfogel (1957): grootschalige, centraal geleide irrigatie dwong in droge streken een despotische staat af. De staat is dus een gevolg van het water.",
+      "choices": [
+        "Het veldonderzoek van Adams, dat liet zien dat grote kanalen pas na de eerste staten kwamen",
+        "Het onderzoek van Childe naar tien kenmerken van de stad",
+        "Scotts boek over graan",
+        "De opgravingen in Anyang"
+      ],
+      "answer": "Het veldonderzoek van Adams, dat liet zien dat grote kanalen pas na de eerste staten kwamen",
+      "hints": [],
+      "solution": [
+        "De hypothese zegt dat kanalen eerst kwamen. Adams vond het omgekeerde."
+      ],
+      "feedback": [
+        {
+          "answer": "Scotts boek over graan",
+          "message": "Scott gaat over belastbaar graan en spreekt de hypothese niet met veldonderzoek tegen."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation",
+        "causation"
+      ]
+    },
+    {
+      "id": "05-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Welke verklaring past het slechtst bij de Indusvallei, volgens wat we weten?",
+      "choices": [
+        "Een verklaring uit handel",
+        "Carneiro's theorie, omdat er weinig sporen van oorlog zijn",
+        "Een verklaring uit standaardisatie van gewichten",
+        "Een verklaring uit landbouw"
+      ],
+      "answer": "Carneiro's theorie, omdat er weinig sporen van oorlog zijn",
+      "hints": [],
+      "solution": [
+        "Carneiro maakt oorlog de motor. In de Indusvallei zijn weinig wapens en oorlogstaferelen gevonden."
+      ],
+      "feedback": [
+        {
+          "answer": "Een verklaring uit handel",
+          "message": "Voor handel is er juist veel bewijs."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation",
+        "causation"
+      ]
+    },
+    {
+      "id": "05-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat is de beste vraag om te stellen voordat je dit fragment als bron gebruikt voor het leven van ambachtslieden?",
+      "context": "Zijn schort is niet meer dan lompen, en het rusthuis ligt ver achter hem. Zijn armen zijn dood van het hanteren van de beitel. (Satire van de beroepen, een leerboek voor schrijversleerlingen; vrij vertaald.)",
+      "choices": [
+        "Is dit fragment het langste dat bewaard bleef?",
+        "Staat er een datum bij elke zin?",
+        "Voor wie en met welk doel is dit geschreven, en wat had de maker te winnen bij deze voorstelling?",
+        "Is de tekst in hiërogliefen geschreven?"
+      ],
+      "answer": "Voor wie en met welk doel is dit geschreven, en wat had de maker te winnen bij deze voorstelling?",
+      "hints": [],
+      "solution": [
+        "De bron is een leerboek dat leerlingen moet overtuigen. Herkomst en doel bepalen de bruikbaarheid."
+      ],
+      "feedback": [
+        {
+          "answer": "Is dit fragment het langste dat bewaard bleef?",
+          "message": "De lengte zegt niets over de betrouwbaarheid."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 5,
+      "question": "Een historicus zegt: schrift is ontstaan omdat de staat het nodig had. Welk voorbehoud is het sterkst?",
+      "choices": [
+        "Schrift is nooit nuttig geweest voor een staat",
+        "Het schrift is overal op precies hetzelfde moment ontstaan",
+        "Staten bestonden pas na de uitvinding van de boekdrukkunst",
+        "De bewaarde teksten zijn vooral administratief, maar dat kan door bewaring komen, en in China begint het bewaarde schrift bij ritueel, niet bij boekhouding"
+      ],
+      "answer": "De bewaarde teksten zijn vooral administratief, maar dat kan door bewaring komen, en in China begint het bewaarde schrift bij ritueel, niet bij boekhouding",
+      "hints": [],
+      "solution": [
+        "Het argument berust op wat bewaard bleef en past niet op alle streken."
+      ],
+      "feedback": [
+        {
+          "answer": "Het schrift is overal op precies hetzelfde moment ontstaan",
+          "message": "De vroegste vormen verschillen: Uruk ca. 3300, Shang ca. 1250."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation",
+        "causation"
+      ]
+    }
+  ]
+}

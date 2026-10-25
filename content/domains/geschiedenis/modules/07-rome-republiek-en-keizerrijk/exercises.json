@@ -1,0 +1,999 @@
+{
+  "exercises": [
+    {
+      "id": "07-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat beperkte in de Romeinse republiek de macht van een consul het meest?",
+      "choices": [
+        "Er waren twee consuls tegelijk en ze moesten na een jaar aftreden",
+        "Hij werd voor het leven benoemd en kon alleen door de senaat worden afgezet",
+        "Hij mocht alleen in oorlogstijd beslissen",
+        "Alleen patriciërs mochten stemmen op zijn voorstellen"
+      ],
+      "answer": "Er waren twee consuls tegelijk en ze moesten na een jaar aftreden",
+      "hints": [
+        "Denk aan wat de Romeinen na de koningen wilden voorkomen: één machtige man."
+      ],
+      "solution": [
+        "Er waren twee consuls die elkaars besluiten konden blokkeren.",
+        "Hun ambt duurde een jaar.",
+        "Zo kon niet één man langdurig alle macht in handen hebben."
+      ],
+      "feedback": [
+        {
+          "answer": "Hij werd voor het leven benoemd en kon alleen door de senaat worden afgezet",
+          "message": "Dat past bij een koning. Juist het voorkomen van een levenslange alleenheerser was de bedoeling van het jaarlijkse, collegiale consulaat."
+        }
+      ],
+      "topics": [
+        "antiquity",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "07-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Livius beschrijft de verdrijving van de koningen in 509 v.Chr. Waarom is dat verslag voor de gebeurtenissen zelf onzeker?",
+      "choices": [
+        "Hij schreef ruim vijf eeuwen later en had nauwelijks gelijktijdige geschreven bronnen",
+        "Hij was een Griek en begreep Rome niet",
+        "Een tekst die over een verre periode gaat, is altijd onbetrouwbaar",
+        "Hij was zelf lid van de partij die de koningen verdreef"
+      ],
+      "answer": "Hij schreef ruim vijf eeuwen later en had nauwelijks gelijktijdige geschreven bronnen",
+      "hints": [
+        "Kijk naar de afstand in tijd tussen de gebeurtenis en de schrijver."
+      ],
+      "solution": [
+        "Livius leefde in de tijd van Augustus.",
+        "509 v.Chr. ligt ruim vijfhonderd jaar eerder.",
+        "Een schrijver die zo laat schrijft, kan vroege details niet controleren."
+      ],
+      "feedback": [
+        {
+          "answer": "Een tekst die over een verre periode gaat, is altijd onbetrouwbaar",
+          "message": "Dat gaat te ver. Het gaat erom of de schrijver toegang had tot gelijktijdig materiaal. Livius had dat voor de vroegste periode nauwelijks, maar hij is wel een goede bron voor hoe Romeinen later over hun verleden dachten."
+        },
+        {
+          "answer": "Hij was een Griek en begreep Rome niet",
+          "message": "Livius was een Romein uit Patavium (Padua). Verwar hem niet met Polybius, die wel een Griek was."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "07-003",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de stappen van de standenstrijd in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Plebejers trekken uit de stad (volgens Livius 494 v.Chr.)",
+        "De Twaalf Tafelen worden opgeschreven (ca. 450 v.Chr.)",
+        "Plebejers kunnen consul worden (4e eeuw v.Chr.)",
+        "De lex Hortensia (287 v.Chr.)"
+      ],
+      "hints": [
+        "Het opschrijven van het recht kwam voordat plebejers de hoogste ambten bereikten."
+      ],
+      "solution": [
+        "494, ca. 450, 4e eeuw, 287."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "De Twaalf Tafelen worden opgeschreven (ca. 450 v.Chr.)",
+            "Plebejers trekken uit de stad (volgens Livius 494 v.Chr.)",
+            "Plebejers kunnen consul worden (4e eeuw v.Chr.)",
+            "De lex Hortensia (287 v.Chr.)"
+          ],
+          "message": "De uittocht van de plebejers wordt in 494 geplaatst, vóór de Twaalf Tafelen."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "07-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom bleef het grootste deel van de Italiaanse bondgenoten Rome trouw, ook na de nederlaag bij Cannae in 216 v.Chr.?",
+      "choices": [
+        "De afzonderlijke verdragen gaven hun elites een eigen belang bij Romes succes",
+        "Alle bondgenoten hadden het volledige Romeinse burgerrecht",
+        "Hannibal had geen leger meer na Cannae",
+        "Rome had hun steden bezet met legioenen"
+      ],
+      "answer": "De afzonderlijke verdragen gaven hun elites een eigen belang bij Romes succes",
+      "hints": [
+        "Denk aan het systeem van verdragen en wat de lokale elites erbij wonnen."
+      ],
+      "solution": [
+        "Rome sloot met elke gemeenschap een apart verdrag.",
+        "Zo konden bondgenoten niet gezamenlijk handelen.",
+        "Hun elites zagen hun positie gekoppeld aan Rome."
+      ],
+      "feedback": [
+        {
+          "answer": "Alle bondgenoten hadden het volledige Romeinse burgerrecht",
+          "message": "Dat klopt niet. Juist het ontbreken van burgerrecht leidde later tot de Bondgenotenoorlog (91 v.Chr.)."
+        },
+        {
+          "answer": "Hannibal had geen leger meer na Cannae",
+          "message": "Hannibal bleef nog jaren in Italië. Dat de meeste bondgenoten trouw bleven, had met het systeem te maken."
+        }
+      ],
+      "topics": [
+        "causation",
+        "perspective"
+      ]
+    },
+    {
+      "id": "07-005",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen uit de strijd met Carthago in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Begin van de Eerste Punische Oorlog (264 v.Chr.)",
+        "Slag bij Cannae (216 v.Chr.)",
+        "Slag bij Zama (202 v.Chr.)",
+        "Verwoesting van Carthago (146 v.Chr.)"
+      ],
+      "hints": [
+        "Er zit steeds ten minste een decennium tussen de gebeurtenissen."
+      ],
+      "solution": [
+        "264, 216, 202, 146."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Begin van de Eerste Punische Oorlog (264 v.Chr.)",
+            "Slag bij Zama (202 v.Chr.)",
+            "Slag bij Cannae (216 v.Chr.)",
+            "Verwoesting van Carthago (146 v.Chr.)"
+          ],
+          "message": "Cannae was een nederlaag voor Rome in 216; Zama, de beslissende Romeinse overwinning, volgde pas in 202."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "07-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Het begin van de Eerste Punische Oorlog was in 264 v.Chr., de verwoesting van Carthago in 146 v.Chr. Hoeveel jaar liggen daartussen?",
+      "answer": 118,
+      "unit": "jaar",
+      "hints": [
+        "Bij jaartallen voor Christus trek je het kleinste van het grootste af."
+      ],
+      "solution": [
+        "264 − 146 = 118 jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 410,
+          "message": "Je hebt de twee jaartallen opgeteld. Beide liggen vóór Christus, dus je trekt ze van elkaar af."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "07-007",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Leg uit waarom de Romeinse expansie niet alleen met 'Rome wilde macht' te verklaren is. Noem minstens één kortetermijn- en één langetermijnoorzaak.",
+      "answer": "Kernpunten: aanleiding (bedreiging of verzoek van bondgenoten, conflict over Sicilië of Masinissa) tegenover structuur (elite die roem zoekt, bondgenotenstelsel dat veel soldaten levert, buit en tot slaaf gemaakten). Een goed antwoord weegt beide.",
+      "hints": [
+        "Scheid aanleidingen van structuren.",
+        "Wat maakte oorlog voor een Romeinse consul aantrekkelijk?"
+      ],
+      "solution": [
+        "Aanleidingen waren concrete conflicten: bondgenoten die om hulp vroegen, bedreigde handelsroutes, wantrouwen na Hannibal. Op de lange termijn maakte het systeem oorlog lonend: een elite die prestige zocht, een leger dat uit bondgenoten putte en buit en tot slaaf gemaakten opleverde. Zonder aanleiding was er vaak geen oorlog begonnen, zonder de structuur was de aanleiding waarschijnlijk met diplomatie opgelost."
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "07-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat verklaart het best dat generaals aan het eind van de republiek zo machtig werden?",
+      "choices": [
+        "Soldaten zonder eigen land verwachtten land of geld van hun veldheer en waren hem daardoor loyaal",
+        "De senaat had alle generaals tot koning benoemd",
+        "Het leger was kleiner geworden en dus makkelijker te leiden",
+        "De Romeinen hadden geen vijanden meer en dus geen controle meer nodig"
+      ],
+      "answer": "Soldaten zonder eigen land verwachtten land of geld van hun veldheer en waren hem daardoor loyaal",
+      "hints": [
+        "Wie betaalt je pensioen, de senaat of je generaal?"
+      ],
+      "solution": [
+        "Soldaten zonder grondbezit hadden na dienst niets om naar terug te keren.",
+        "Ze rekenden op hun veldheer voor land of geld.",
+        "Daarmee verschoof hun loyaliteit van de staat naar de generaal."
+      ],
+      "feedback": [
+        {
+          "answer": "Het leger was kleiner geworden en dus makkelijker te leiden",
+          "message": "Het leger was juist groter en langer in het veld geworden, wat de band met de generaal versterkte."
+        },
+        {
+          "answer": "De senaat had alle generaals tot koning benoemd",
+          "message": "Koning was een verguisde titel. De senaat benoemde niemand tot koning."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "07-009",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de stappen van de crisis van de republiek in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Tiberius Gracchus wordt doodgeslagen (133 v.Chr.)",
+        "Bondgenotenoorlog (91 v.Chr.)",
+        "Sulla wordt dictator (82 v.Chr.)",
+        "Caesar steekt de Rubicon over (49 v.Chr.)",
+        "Slag bij Actium (31 v.Chr.)"
+      ],
+      "hints": [
+        "Begin met het eerste politieke geweld in Rome."
+      ],
+      "solution": [
+        "133, 91, 82, 49, 31."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Tiberius Gracchus wordt doodgeslagen (133 v.Chr.)",
+            "Sulla wordt dictator (82 v.Chr.)",
+            "Bondgenotenoorlog (91 v.Chr.)",
+            "Caesar steekt de Rubicon over (49 v.Chr.)",
+            "Slag bij Actium (31 v.Chr.)"
+          ],
+          "message": "Sulla werd dictator in 82, ná de Bondgenotenoorlog van 91."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "causation"
+      ]
+    },
+    {
+      "id": "07-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "De crisis van de republiek wordt vaak gerekend van 133 v.Chr. (Tiberius Gracchus) tot 31 v.Chr. (Actium). Hoeveel jaar duurde die periode?",
+      "answer": 102,
+      "unit": "jaar",
+      "hints": [
+        "Trek de jaartallen van elkaar af."
+      ],
+      "solution": [
+        "133 − 31 = 102 jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 164,
+          "message": "Je hebt de jaartallen opgeteld. Voor v.Chr. tel je terug, dus je trekt af."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "07-011",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Augustus schrijft in de Res Gestae dat hij meer gezag (auctoritas) had dan anderen, maar niet meer macht dan zijn ambtgenoten. Wat is de beste conclusie over deze bron?",
+      "choices": [
+        "Ze laat zien hoe Augustus gezien wilde worden, maar is geen neutrale beschrijving van zijn macht",
+        "Ze bewijst dat Augustus de republiek echt herstelde, want hij zegt het zelf",
+        "Ze is onbruikbaar, want ze is door Augustus zelf geschreven",
+        "Ze is betrouwbaar omdat ze op brons en steen in het hele rijk stond"
+      ],
+      "answer": "Ze laat zien hoe Augustus gezien wilde worden, maar is geen neutrale beschrijving van zijn macht",
+      "hints": [
+        "Wie schrijft er, en wat wil hij bereiken?"
+      ],
+      "solution": [
+        "De tekst komt van Augustus zelf.",
+        "Hij wil zijn nalatenschap vormgeven.",
+        "Dus zegt ze meer over zijn zelfbeeld dan over zijn werkelijke macht."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze bewijst dat Augustus de republiek echt herstelde, want hij zegt het zelf",
+          "message": "Dat is een cirkelredenering. Zijn eigen bewering is het te onderzoeken punt, niet het bewijs."
+        },
+        {
+          "answer": "Ze is onbruikbaar, want ze is door Augustus zelf geschreven",
+          "message": "Een bron met een belang is niet onbruikbaar. Ze is bruikbaar voor de vraag hoe Augustus zich wilde presenteren."
+        },
+        {
+          "answer": "Ze is betrouwbaar omdat ze op brons en steen in het hele rijk stond",
+          "message": "Dat ze wijd verspreid werd, zegt hoe belangrijk de boodschap was, niet dat ze waar is."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "07-012",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke bewering over het principaat van Augustus klopt het best?",
+      "choices": [
+        "De vormen van de republiek bleven bestaan, maar de uiteindelijke beslissingen lagen bij één man",
+        "Augustus schafte de senaat af en regeerde als koning",
+        "Er veranderde niets: de republiek werd gewoon hersteld",
+        "Augustus liet de macht over aan de volksvergaderingen"
+      ],
+      "answer": "De vormen van de republiek bleven bestaan, maar de uiteindelijke beslissingen lagen bij één man",
+      "hints": [
+        "Denk aan continuïteit en verandering tegelijk."
+      ],
+      "solution": [
+        "Senaat en magistraten bleven bestaan.",
+        "Augustus controleerde de provincies met de meeste legioenen.",
+        "Dus: schijn van continuïteit, in werkelijkheid verandering."
+      ],
+      "feedback": [
+        {
+          "answer": "Augustus schafte de senaat af en regeerde als koning",
+          "message": "Hij vermeed juist de titel koning en liet de senaat bestaan. Dat was onderdeel van zijn aanpak."
+        },
+        {
+          "answer": "Er veranderde niets: de republiek werd gewoon hersteld",
+          "message": "Dat is wat Augustus wilde laten geloven. In de praktijk lag de macht bij hem."
+        }
+      ],
+      "topics": [
+        "continuity-change",
+        "antiquity"
+      ]
+    },
+    {
+      "id": "07-013",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De periode van ca. 27 v.Chr. tot ca. 180 n.Chr. wordt vaak 'Pax Romana' (Romeinse vrede) genoemd. Voor wie was dit vrede, en wat verbergt de term? Geef twee punten.",
+      "answer": "Kernpunten: de term komt uit Romeins perspectief; voor het centrum en de elite betekende ze rust, maar aan de grenzen en in de provincies werd gevochten (Judea, grenzen); onderworpen volken hadden weinig kans op verzet; vrede betekende ook belasting en legerdruk.",
+      "hints": [
+        "Wie noemde dit 'vrede'?"
+      ],
+      "solution": [
+        "De term is Romeins en geeft het perspectief van het centrum. Voor Rome en veel elites was het een periode van betrekkelijke rust na de burgeroorlogen. Maar aan de grenzen en in provincies als Judea werd gevochten, en voor onderworpen volken betekende 'vrede' vaak dat verzet kansloos was. De term verbergt daarmee ook het geweld waarmee de orde werd gehandhaafd."
+      ],
+      "topics": [
+        "perspective"
+      ]
+    },
+    {
+      "id": "07-014",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat was de eerste functie van de Romeinse wegen?",
+      "choices": [
+        "Het verplaatsen van legers, ambtenaren en berichten",
+        "Het bevorderen van toerisme",
+        "Het verbinden van de steden voor cultureel verkeer",
+        "Het afsluiten van het rijk van buitenaf"
+      ],
+      "answer": "Het verplaatsen van legers, ambtenaren en berichten",
+      "hints": [
+        "Het wegennet was een staatsinfrastructuur."
+      ],
+      "solution": [
+        "Wegen werden aangelegd voor legioenen.",
+        "Later ontstond een staatspost, de cursus publicus.",
+        "Handel en reizigers profiteerden mee."
+      ],
+      "feedback": [
+        {
+          "answer": "Het bevorderen van toerisme",
+          "message": "Dat is een anachronisme. Reizigers gebruikten de wegen, maar ze waren niet voor hen aangelegd."
+        }
+      ],
+      "topics": [
+        "antiquity",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "07-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is een misvatting over de limes?",
+      "choices": [
+        "Dat de limes overal een ononderbroken muur was die het rijk afsloot",
+        "Dat de limes soms een rivier was",
+        "Dat de limes bewaakt werd door hulptroepen",
+        "Dat langs de limes handel plaatsvond"
+      ],
+      "answer": "Dat de limes overal een ononderbroken muur was die het rijk afsloot",
+      "hints": [
+        "Denk aan de Rijn, waar de grens uit een rivier en forten bestond."
+      ],
+      "solution": [
+        "Op sommige plaatsen was de limes een muur, elders een rivier, een palissade of een reeks torens.",
+        "Ze regelde ook verkeer en tol."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat de limes soms een rivier was",
+          "message": "Dat klopt juist, bijvoorbeeld voor de Rijn en de Donau."
+        }
+      ],
+      "topics": [
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "07-016",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Onder Trajanus bereikte het rijk rond 117 n.Chr. zijn grootste omvang. In 212 n.Chr. verleende Caracalla het burgerrecht aan vrijwel alle vrije inwoners. Hoeveel jaar zit daartussen?",
+      "answer": 95,
+      "unit": "jaar",
+      "hints": [
+        "Beide jaartallen zijn na Christus: aftrekken."
+      ],
+      "solution": [
+        "212 − 117 = 95 jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 329,
+          "message": "Je hebt de jaartallen opgeteld. Je zoekt het verschil."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "07-017",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Cassius Dio schrijft dat Caracalla het burgerrecht verleende om meer belasting te kunnen innen. Wat moet je weten om dit te kunnen wegen?",
+      "choices": [
+        "Dat Dio een senator was die Caracalla niet mocht en dus een slecht motief aannemelijk vond",
+        "Dat Dio de tekst van het edict zelf citeert",
+        "Dat Dio de belangrijkste bron is en dus altijd gelijk heeft",
+        "Dat Dio in de derde eeuw leefde en dus geen goede bron kan zijn"
+      ],
+      "answer": "Dat Dio een senator was die Caracalla niet mocht en dus een slecht motief aannemelijk vond",
+      "hints": [
+        "Dio was bijna een tijdgenoot, maar niet onpartijdig."
+      ],
+      "solution": [
+        "Dio kende het hof van binnenuit.",
+        "Hij had geen goed woord over Caracalla.",
+        "Zijn motief kan dus kloppen, maar ook uit afkeer voortkomen."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat Dio de belangrijkste bron is en dus altijd gelijk heeft",
+          "message": "Eén bron is geen bewijs. Een tijdgenoot kan het mis hebben of een belang hebben."
+        },
+        {
+          "answer": "Dat Dio in de derde eeuw leefde en dus geen goede bron kan zijn",
+          "message": "Juist als tijdgenoot kende hij de context. Zijn afkeer van Caracalla vraagt wel om voorzichtigheid."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "07-018",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom bestuurde Rome de provincies grotendeels via steden en hun elites?",
+      "choices": [
+        "Het rijk had weinig ambtenaren en kon zo lokale macht inzetten in plaats van breken",
+        "Rome vertrouwde niemand en liet elke stad bewaken door een legioen",
+        "Steden waren de enige plaatsen waar mensen woonden",
+        "Lokale elites werden na de verovering vervangen door Romeinen"
+      ],
+      "answer": "Het rijk had weinig ambtenaren en kon zo lokale macht inzetten in plaats van breken",
+      "hints": [
+        "Hoeveel ambtenaren had de keizer?"
+      ],
+      "solution": [
+        "Het centrale bestuur was klein.",
+        "Lokale elites kregen status en bescherming.",
+        "In ruil voerden ze bestuur en belastinginning uit."
+      ],
+      "feedback": [
+        {
+          "answer": "Lokale elites werden na de verovering vervangen door Romeinen",
+          "message": "Meestal bleef de lokale bovenlaag juist bestaan en kreeg ze status in het Romeinse systeem."
+        }
+      ],
+      "topics": [
+        "causation",
+        "antiquity"
+      ]
+    },
+    {
+      "id": "07-019",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Cato adviseert eigenaren oude en zieke tot slaaf gemaakten te verkopen, samen met afgedankt gereedschap. Seneca schrijft dat tot slaaf gemaakten ook mensen zijn. Vergelijk beide teksten: wat zegt elk over de schrijver, en wat zegt geen van beide over de tot slaaf gemaakten zelf?",
+      "answer": "Kernpunten: Cato schrijft een handboek voor landeigenaren en ziet mensen als productiemiddel; Seneca schrijft vanuit de moraal van de meester, blijft zelf eigenaar en bepleit geen afschaffing; beide teksten zijn van de bovenlaag; het perspectief van de tot slaaf gemaakten ontbreekt.",
+      "hints": [
+        "Wie schrijft voor wie, en met welk doel?"
+      ],
+      "solution": [
+        "Cato schrijft een praktisch handboek en behandelt mensen als bezit. Seneca schrijft een moreel appel aan meesters en blijft zelf eigenaar; hij pleit niet voor afschaffing. Beide teksten komen uit de bovenlaag en gaan over de tot slaaf gemaakten, niet van hen. Hun ervaringen komen er alleen indirect in voor."
+      ],
+      "topics": [
+        "perspective",
+        "sources"
+      ]
+    },
+    {
+      "id": "07-020",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Tacitus beschrijft in de Annalen hoe ongeveer vierhonderd tot slaaf gemaakten werden gedood na de moord op Pedanius Secundus, en geeft de redenering van een senator uitgebreid weer. Wat zegt deze bron het best?",
+      "choices": [
+        "Hoe de Romeinse bovenlaag over slavernij en veiligheid redeneerde, niet wat de tot slaaf gemaakten dachten",
+        "Wat tot slaaf gemaakten in Rome gemiddeld dachten over hun meesters",
+        "Dat alle senatoren de maatregel steunden",
+        "Dat het recht tot slaaf gemaakten beschermde"
+      ],
+      "answer": "Hoe de Romeinse bovenlaag over slavernij en veiligheid redeneerde, niet wat de tot slaaf gemaakten dachten",
+      "hints": [
+        "Wiens woorden krijgen aandacht in de tekst?"
+      ],
+      "solution": [
+        "Tacitus was senator.",
+        "Hij geeft vooral het debat in de senaat weer.",
+        "De vierhonderd mensen zelf komen niet aan het woord."
+      ],
+      "feedback": [
+        {
+          "answer": "Wat tot slaaf gemaakten in Rome gemiddeld dachten over hun meesters",
+          "message": "Hun gedachten staan er niet in. De tekst is van een senator over een senaatsdebat."
+        },
+        {
+          "answer": "Dat het recht tot slaaf gemaakten beschermde",
+          "message": "Het tegendeel blijkt: de regel trof alle tot slaaf gemaakten in het huis."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "sources"
+      ]
+    },
+    {
+      "id": "07-021",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze schakels van de redenering over land en slavernij in de volgorde van oorzaak naar gevolg. Let op: dit is een veelgebruikte, maar omstreden verklaring.",
+      "answer": [
+        "Rome voert langdurige veroveringsoorlogen",
+        "Krijgsgevangenen worden op grote schaal als tot slaaf gemaakten verkocht",
+        "Rijke families breiden hun landgoederen uit met arbeid van tot slaaf gemaakten",
+        "Kleine boeren raken hun land kwijt of kunnen het niet meer bewerken",
+        "Spanning over land leidt tot de hervormingen van de Gracchen"
+      ],
+      "hints": [
+        "Begin met de oorlogen en eindig met de politieke gevolgen."
+      ],
+      "solution": [
+        "Oorlogen, krijgsgevangenen, landgoederen, boeren, Gracchen."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Rome voert langdurige veroveringsoorlogen",
+            "Rijke families breiden hun landgoederen uit met arbeid van tot slaaf gemaakten",
+            "Krijgsgevangenen worden op grote schaal als tot slaaf gemaakten verkocht",
+            "Kleine boeren raken hun land kwijt of kunnen het niet meer bewerken",
+            "Spanning over land leidt tot de hervormingen van de Gracchen"
+          ],
+          "message": "De landgoederen konden pas groeien met arbeid van tot slaaf gemaakten, dus de krijgsgevangenen komen eerst."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "07-022",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat betekent de vrijstelling van belasting voor de Bataven volgens Tacitus?",
+      "choices": [
+        "Ze leverden in plaats van belasting soldaten aan het Romeinse leger",
+        "Ze werden als bondgenoot nooit gevraagd iets te leveren",
+        "Ze waren vrijgesteld omdat Rome hen niet kon veroveren",
+        "Ze betaalden meer belasting dan anderen"
+      ],
+      "answer": "Ze leverden in plaats van belasting soldaten aan het Romeinse leger",
+      "hints": [
+        "Wat kreeg Rome in ruil?"
+      ],
+      "solution": [
+        "Tacitus noemt hen een 'wapenmagazijn'.",
+        "Ze leverden mannen voor het leger.",
+        "Dat was een ruil, geen gunst zonder tegenprestatie."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze werden als bondgenoot nooit gevraagd iets te leveren",
+          "message": "De vrijstelling had een prijs: soldaten."
+        },
+        {
+          "answer": "Ze betaalden meer belasting dan anderen",
+          "message": "Het tegendeel: ze waren vrijgesteld van belasting."
+        }
+      ],
+      "topics": [
+        "antiquity",
+        "perspective"
+      ]
+    },
+    {
+      "id": "07-023",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De Bataafse opstand vond plaats in 69-70. Tacitus schreef zijn Historiae rond 105. Hoeveel jaar zat er ongeveer tussen het begin van de opstand en het schrijven?",
+      "answer": 36,
+      "unit": "jaar",
+      "hints": [
+        "Trek 69 af van 105."
+      ],
+      "solution": [
+        "105 − 69 = 36 jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 174,
+          "message": "Je hebt de jaartallen opgeteld. Je zoekt het verschil."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "sources"
+      ]
+    },
+    {
+      "id": "07-024",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Nijmegen wordt vaak 'de oudste stad van Nederland' genoemd. Wat is hierbij het belangrijkste punt van kritiek?",
+      "choices": [
+        "Het hangt ervan af wat je met 'stad' bedoelt: stedelijke functies of formele stadsrechten",
+        "De claim is onjuist, want in de Romeinse tijd bestonden geen steden in Nederland",
+        "De claim is zeker juist, want Nijmegen heeft het oudste stadsrecht ter wereld",
+        "Alleen de Romeinen kunnen steden stichten"
+      ],
+      "answer": "Het hangt ervan af wat je met 'stad' bedoelt: stedelijke functies of formele stadsrechten",
+      "hints": [
+        "Begrippen zijn niet neutraal."
+      ],
+      "solution": [
+        "Een nederzetting kan al stedelijk zijn voor ze rechten krijgt.",
+        "Maastricht is ook een Romeinse nederzetting.",
+        "Dus de claim hangt van de definitie af."
+      ],
+      "feedback": [
+        {
+          "answer": "De claim is onjuist, want in de Romeinse tijd bestonden geen steden in Nederland",
+          "message": "Er bestonden wel Romeinse stedelijke nederzettingen, zoals Nijmegen en Voorburg."
+        }
+      ],
+      "topics": [
+        "contextualisation",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "07-025",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet de stappen van de Bataafse opstand in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Dood van Nero (68)",
+        "Romeinse werving onder de Bataven (69)",
+        "Civilis begint de opstand in naam van Vespasianus",
+        "Belegering en val van het kamp Vetera",
+        "Cerialis trekt de Rijnstreek binnen (70)"
+      ],
+      "hints": [
+        "Eerst de burgeroorlog, dan de werving, dan de opstand."
+      ],
+      "solution": [
+        "Nero, werving, opstand, Vetera, Cerialis."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Dood van Nero (68)",
+            "Civilis begint de opstand in naam van Vespasianus",
+            "Romeinse werving onder de Bataven (69)",
+            "Belegering en val van het kamp Vetera",
+            "Cerialis trekt de Rijnstreek binnen (70)"
+          ],
+          "message": "Volgens Tacitus was de werving juist een aanleiding voor de opstand, dus ze komt eerder."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "causation"
+      ]
+    },
+    {
+      "id": "07-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bijna alles wat we over de Bataafse opstand weten, komt uit één bron: Tacitus. Wat is het gevolg voor jouw conclusies?",
+      "choices": [
+        "Je kunt geen onafhankelijke bron ertegenover zetten, dus je moet de zekerheid voorzichtig formuleren",
+        "De bron is eenduidig en dus volledig betrouwbaar",
+        "De opstand heeft waarschijnlijk niet plaatsgevonden",
+        "Archeologie kan Tacitus volledig vervangen"
+      ],
+      "answer": "Je kunt geen onafhankelijke bron ertegenover zetten, dus je moet de zekerheid voorzichtig formuleren",
+      "hints": [
+        "Wat kun je niet controleren?"
+      ],
+      "solution": [
+        "Er is geen tweede verhaal om mee te vergelijken.",
+        "De bron is Romeins en later geschreven.",
+        "Dus: voorzichtig."
+      ],
+      "feedback": [
+        {
+          "answer": "De bron is eenduidig en dus volledig betrouwbaar",
+          "message": "Eén bron betekent juist dat controle ontbreekt."
+        },
+        {
+          "answer": "De opstand heeft waarschijnlijk niet plaatsgevonden",
+          "message": "Er is geen reden om de opstand zelf te betwijfelen; het gaat om motieven en details."
+        },
+        {
+          "answer": "Archeologie kan Tacitus volledig vervangen",
+          "message": "Archeologie geeft aanvullende gegevens, zoals brandlagen, maar geen verhaal met motieven."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "07-027",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Wat verklaart de Bataafse opstand van 69? Scheid korte- en langetermijnoorzaken, weeg ze, en geef aan hoe zeker je bent en waarom.",
+      "answer": "Kernpunten: kort: burgeroorlog 69, werving met misbruik, Civilis' persoonlijke rekening; lang: afhankelijkheid van Rome via soldatenlevering en vrijstelling; weging: aanleiding versus structuur; zekerheid: matig omdat bijna alles uit Tacitus komt.",
+      "hints": [
+        "Wat gebeurde er in 69 in het rijk?",
+        "Welke bron heb je?"
+      ],
+      "solution": [
+        "Op korte termijn: het jaar 69, de burgeroorlog, de werving met misbruik en Civilis' eigen conflict met Rome. Op lange termijn: de relatie waarin de Bataven soldaten leverden voor vrijstelling, een stelsel dat gevoelig was voor misbruik. De aanleiding was de burgeroorlog en werving; de structuur maakte de breuk mogelijk. Zekerheid: matig, omdat alles uit één Romeinse bron komt."
+      ],
+      "topics": [
+        "causation",
+        "sources"
+      ]
+    },
+    {
+      "id": "07-028",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is het kernverschil tussen Haverfields en Milletts kijk op romanisering?",
+      "choices": [
+        "Haverfield zag overdracht van beschaving van Rome naar de provincies, Millett legde de nadruk op lokale elites die zelf Romeinse gewoonten kozen",
+        "Haverfield ontkende romanisering, Millett bevestigde haar",
+        "Haverfield schreef over Gallië, Millett over Egypte",
+        "Beiden zagen romanisering als gedwongen proces"
+      ],
+      "answer": "Haverfield zag overdracht van beschaving van Rome naar de provincies, Millett legde de nadruk op lokale elites die zelf Romeinse gewoonten kozen",
+      "hints": [
+        "Wie is volgens elk de actor?"
+      ],
+      "solution": [
+        "Haverfield: Rome brengt beschaving.",
+        "Millett: lokale elites kiezen om hun positie te versterken.",
+        "Het verschil zit in wie het proces stuurt."
+      ],
+      "feedback": [
+        {
+          "answer": "Beiden zagen romanisering als gedwongen proces",
+          "message": "Geen van beiden. Dwang komt vooral voor in de kritiek van onder anderen Mattingly."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "07-029",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De Bataven waren in de zeventiende eeuw populair als 'voorouders' van de Nederlanders. Leg uit wat dit zegt over de zeventiende eeuw en waarom het geen bewijs is voor wat in 69 gebeurde.",
+      "answer": "Kernpunten: Bataven werden gebruikt als voorbeeld van een klein volk dat zich verzette tegen een grote macht, passend bij de Opstand; dit is latere beeldvorming die over het heden van de makers gaat; zegt niets over feitelijke motieven in 69.",
+      "hints": [
+        "Wie gebruikte de Bataven en met welk doel?"
+      ],
+      "solution": [
+        "In de Opstand tegen Spanje leverde Tacitus een verhaal van een klein volk tegen een wereldmacht. Dat zegt iets over de identiteit en politieke behoefte van de zeventiende eeuw. Het is geen bewijs voor de motieven van Civilis in 69: dat zou een cirkelredenering zijn, omdat de latere gebruikers dezelfde bron lazen."
+      ],
+      "topics": [
+        "historiography",
+        "perspective"
+      ]
+    },
+    {
+      "id": "07-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bron A (Germania 29) en bron B (Historiae 4) komen allebei van Tacitus. Wat betekent dat voor je onderzoek?",
+      "choices": [
+        "Ze zijn niet onafhankelijk van elkaar, dus samen bewijzen ze minder dan twee verschillende auteurs",
+        "Ze bevestigen elkaar en zijn dus zeker waar",
+        "Ze zijn waardeloos omdat ze Romeins zijn",
+        "Ze zijn onafhankelijk omdat ze in verschillende jaren zijn geschreven"
+      ],
+      "answer": "Ze zijn niet onafhankelijk van elkaar, dus samen bewijzen ze minder dan twee verschillende auteurs",
+      "hints": [
+        "Twee bronnen van één schrijver zijn minder dan twee schrijvers."
+      ],
+      "solution": [
+        "Dezelfde schrijver heeft dezelfde belangen en kennis.",
+        "Ze kunnen elkaar niet onafhankelijk bevestigen.",
+        "Je zoekt een derde soort bron."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze bevestigen elkaar en zijn dus zeker waar",
+          "message": "Dezelfde schrijver kan zichzelf niet onafhankelijk bevestigen."
+        },
+        {
+          "answer": "Ze zijn onafhankelijk omdat ze in verschillende jaren zijn geschreven",
+          "message": "Tijdsverschil maakt ze niet onafhankelijk: de bron is dezelfde persoon."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "07-031",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat zegt bron C (het militair diploma) over de relatie tussen Rome en soldaten uit de provincies, en wat zegt het niet?",
+      "answer": "Kernpunten: soldaten van hulptroepen kregen na vijfentwintig jaar burgerrecht voor zichzelf en hun kinderen (binding aan Rome, beloning); het is een formulier, dus zegt weinig over individuele ervaringen of motieven; zegt niets over wie het niet haalde of over de Bataafse eigen visie.",
+      "hints": [
+        "Het is een formulier dat vele keren werd gebruikt."
+      ],
+      "solution": [
+        "Het diploma laat zien dat Rome soldaten uit de provincies bond met burgerrecht, ook voor hun kinderen. Het is een formulier en zegt dus weinig over individuele motieven of ervaringen, en niets over mensen die de dienst niet haalden. Het Bataafse perspectief ontbreekt."
+      ],
+      "topics": [
+        "sources",
+        "perspective"
+      ]
+    },
+    {
+      "id": "07-032",
+      "type": "choice",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Welke conclusie op de vraag 'bondgenoten of onderdanen?' past het best bij de drie bronnen?",
+      "choices": [
+        "Een ongelijke relatie met voordelen voor beide kanten, waarbij Rome de voorwaarden bepaalde; het Bataafse perspectief ontbreekt",
+        "Zuivere onderwerping: de Bataven hadden geen enkel voordeel",
+        "Gelijkwaardige bondgenoten: Rome en de Bataven waren evenwaardig",
+        "Onbeslisbaar: bronnen kunnen nooit iets zeggen"
+      ],
+      "answer": "Een ongelijke relatie met voordelen voor beide kanten, waarbij Rome de voorwaarden bepaalde; het Bataafse perspectief ontbreekt",
+      "hints": [
+        "Gebruik alle drie de bronnen en benoem wat ontbreekt."
+      ],
+      "solution": [
+        "A: bijzondere regeling met voordeel voor Rome.",
+        "B: de uitvoering schoot tekort en dat leidde tot conflict.",
+        "C: Rome bond soldaten met burgerrecht."
+      ],
+      "feedback": [
+        {
+          "answer": "Zuivere onderwerping: de Bataven hadden geen enkel voordeel",
+          "message": "De bronnen laten juist voordelen zien: vrijstelling van belasting en burgerrecht."
+        },
+        {
+          "answer": "Gelijkwaardige bondgenoten: Rome en de Bataven waren evenwaardig",
+          "message": "Rome bepaalde de voorwaarden, zoals de werving van 69 laat zien."
+        },
+        {
+          "answer": "Onbeslisbaar: bronnen kunnen nooit iets zeggen",
+          "message": "Je kunt wel een voorzichtige conclusie trekken, met aanduiding van zekerheid."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "sources"
+      ]
+    },
+    {
+      "id": "07-033",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Beantwoord in ca. 150 woorden: waren de Bataven bondgenoten van Rome of onderdanen? Gebruik de bronnen A, B en C, noem per bron een beperking, en geef aan hoe zeker je bent.",
+      "answer": "Kernpunten: A toont een bijzondere regeling (Romeins perspectief); B toont misbruik en conflict (zelfde auteur, niet onafhankelijk); C toont binding via burgerrecht (formulier); conclusie: ongelijke relatie met wederzijds voordeel; zekerheid matig; extra bewijs gewenst: inscripties, opgravingen.",
+      "hints": [
+        "Gebruik de stappen herkomst, context, wat wel en niet, bruikbaarheid, conclusie."
+      ],
+      "solution": [
+        "De bronnen laten een ongelijke relatie zien die voor beide kanten voordelen had. Bron A, van Tacitus, beschrijft de vrijstelling van belasting tegen soldaten, maar vanuit Romeins perspectief. Bron B laat zien dat de uitvoering in 69 het gevoel van gelijkwaardigheid schond; A en B komen van één auteur en zijn niet onafhankelijk. Bron C, het diploma, toont dat Rome soldaten bond met burgerrecht, maar is een formulier. De conclusie is daarom voorzichtig: Rome bepaalde de voorwaarden, de Bataven kregen er iets voor terug. Zekerheid: matig. Inscripties en opgravingen in Bataafs gebied zouden helpen."
+      ],
+      "topics": [
+        "interpretation",
+        "sources",
+        "source-criticism"
+      ]
+    }
+  ]
+}

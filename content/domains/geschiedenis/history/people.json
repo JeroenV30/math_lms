@@ -1,6 +1,113 @@
 {
   "people": [
     {
+      "id": "hammurabi",
+      "name": "Hammurabi",
+      "full_name": "Hammurabi, koning van Babylon",
+      "lived": "regeerde 1792 – 1750 v.Chr.",
+      "sort_year": -1792,
+      "region": "Babylon",
+      "known_for": "Liet een stele met ruim tweehonderdtachtig bepalingen oprichten.",
+      "bio": "Hammurabi begon als heerser van een kleine staat en verenigde in de loop van zijn regering een groot deel van Mesopotamië.\n\nZijn stele is de best bewaarde tekst uit een traditie van geschreven recht die al drie eeuwen eerder begon.",
+      "contributions": [
+        "Stele met wetten (Louvre, Sb 8)",
+        "Eenmaking van het zuiden van Mesopotamië"
+      ],
+      "modules": [
+        5
+      ],
+      "timeline": [
+        "hammurabi-stele"
+      ],
+      "image": null
+    },
+    {
+      "id": "solon",
+      "name": "Solon",
+      "full_name": "Solon van Athene",
+      "lived": "ca. 640 – ca. 560 v.Chr.",
+      "sort_year": -640,
+      "region": "Athene",
+      "known_for": "Hervormde rond 594 v.Chr. de Atheense samenleving en schafte schuldslavernij af.",
+      "bio": "Solon was een Atheense bestuurder en dichter. Volgens latere bronnen kreeg hij de opdracht de crisis rond schulden en grond op te lossen.\n\nVan hem zijn dichtregels bewaard waarin hij zijn werk verdedigt.",
+      "contributions": [
+        "Afschaffing van schuldslavernij",
+        "Indeling in vier inkomensklassen"
+      ],
+      "modules": [
+        6
+      ],
+      "timeline": [
+        "solon-hervormingen-594"
+      ],
+      "image": null
+    },
+    {
+      "id": "themistokles",
+      "name": "Themistokles",
+      "full_name": "Themistokles zoon van Neokles",
+      "lived": "ca. 524 – ca. 459 v.Chr.",
+      "sort_year": -524,
+      "region": "Athene",
+      "known_for": "Bouwde de Atheense vloot en leidde die bij Salamis; werd later verbannen.",
+      "bio": "Themistokles was een Atheense politicus en vlootbouwer. Hij werd rond 472 v.Chr. door ostracisme verbannen en vluchtte later naar het Perzische rijk.",
+      "contributions": [
+        "Atheense vloot",
+        "Zeeslag bij Salamis"
+      ],
+      "modules": [
+        6
+      ],
+      "timeline": [
+        "slag-bij-salamis-480",
+        "ostracisme-themistokles-472"
+      ],
+      "image": null
+    },
+    {
+      "id": "kleisthenes",
+      "name": "Kleisthenes",
+      "full_name": "Kleisthenes van Athene",
+      "lived": "actief ca. 510 – 500 v.Chr.",
+      "sort_year": -510,
+      "region": "Athene",
+      "known_for": "Legde in 508/507 v.Chr. met zijn herindeling van Attika het fundament voor de Atheense democratie.",
+      "bio": "Kleisthenes kwam na de val van de tirannie van Hippias aan het hoofd van een hervorming. Hij verdeelde Attika in tien stammen en demen en richtte de Raad van 500 op.\n\nOf hij zelf een democratie voor ogen had, is onzeker.",
+      "contributions": [
+        "Tien nieuwe stammen en demen",
+        "Raad van 500",
+        "Isonomia"
+      ],
+      "modules": [
+        6
+      ],
+      "timeline": [
+        "kleisthenes-hervormingen-508"
+      ],
+      "image": null
+    },
+    {
+      "id": "perikles",
+      "name": "Perikles",
+      "full_name": "Perikles zoon van Xanthippos",
+      "lived": "ca. 495 – 429 v.Chr.",
+      "sort_year": -495,
+      "region": "Athene",
+      "known_for": "Leidende Atheense staatsman in de vijfde eeuw v.Chr.; zijn grafrede is overgeleverd door Thucydides.",
+      "bio": "Perikles werd herhaaldelijk tot generaal gekozen en bepaalde de koers van Athene in de decennia voor de Peloponnesische Oorlog. Hij stierf in 429 v.Chr. aan de pest.",
+      "contributions": [
+        "Leiderschap in de volksvergadering",
+        "Bouwprogramma op de Akropolis"
+      ],
+      "modules": [
+        6
+      ],
+      "timeline": [
+        "peloponnesische-oorlog-431"
+      ],
+      "image": null
+    },
+    {
       "id": "herodotus",
       "name": "Herodotus",
       "full_name": "Herodotus van Halicarnassus",
@@ -22,6 +129,26 @@
       "image": null
     },
     {
+      "id": "socrates",
+      "name": "Socrates",
+      "full_name": "Socrates van Athene",
+      "lived": "469 – 399 v.Chr.",
+      "sort_year": -469,
+      "region": "Athene",
+      "known_for": "Atheense denker die in 399 v.Chr. ter dood werd veroordeeld.",
+      "bio": "Socrates schreef zelf niets. Wat we van hem weten komt van zijn leerlingen Plato en Xenofon, en van de komedies van Aristophanes.",
+      "contributions": [
+        "Vragenderwijs onderzoek naar deugd"
+      ],
+      "modules": [
+        6
+      ],
+      "timeline": [
+        "proces-socrates-399"
+      ],
+      "image": null
+    },
+    {
       "id": "thucydides",
       "name": "Thucydides",
       "full_name": "Thucydides van Athene",
@@ -39,6 +166,153 @@
       ],
       "timeline": [
         "thucydides-peloponnesische-oorlog"
+      ],
+      "image": null
+    },
+    {
+      "id": "alexander-de-grote",
+      "name": "Alexander de Grote",
+      "full_name": "Alexander III van Macedonië",
+      "lived": "356 – 323 v.Chr.",
+      "sort_year": -356,
+      "region": "Macedonië en Azië",
+      "known_for": "Veroverde in ruim tien jaar het Perzische rijk.",
+      "bio": "Alexander volgde in 336 v.Chr. zijn vader Filips II op. Zijn veldtocht bracht Griekse taal en instellingen tot in Centraal-Azië. Hij stierf in 323 v.Chr. in Babylon.",
+      "contributions": [
+        "Verovering van het Perzische rijk",
+        "Stichting van Alexandrië"
+      ],
+      "modules": [
+        6
+      ],
+      "timeline": [
+        "slag-bij-gaugamela-331"
+      ],
+      "image": null
+    },
+    {
+      "id": "hannibal",
+      "name": "Hannibal",
+      "full_name": "Hannibal Barkas",
+      "lived": "247 – ca. 183 v.Chr.",
+      "sort_year": -247,
+      "region": "Carthago",
+      "known_for": "Carthaagse veldheer in de Tweede Punische Oorlog.",
+      "bio": "Hannibal stak vanuit Spanje de Alpen over en bracht Rome bij Cannae in 216 v.Chr. een zware nederlaag toe. Hij werd in 202 v.Chr. bij Zama verslagen.",
+      "contributions": [
+        "Cannae",
+        "Alpenovergang"
+      ],
+      "modules": [
+        7
+      ],
+      "timeline": [
+        "punische-oorlogen"
+      ],
+      "image": null
+    },
+    {
+      "id": "julius-caesar",
+      "name": "Caesar",
+      "full_name": "Gaius Julius Caesar",
+      "lived": "100 – 44 v.Chr.",
+      "sort_year": -100,
+      "region": "Rome",
+      "known_for": "Veldheer en dictator.",
+      "bio": "Caesar voerde oorlog in Gallië, stak in 49 v.Chr. de Rubicon over en werd dictator. Hij werd op 15 maart 44 v.Chr. vermoord.",
+      "contributions": [
+        "De Gallische Oorlog",
+        "Burgeroorlog"
+      ],
+      "modules": [
+        7
+      ],
+      "timeline": [
+        "caesar-rubicon-49"
+      ],
+      "image": null
+    },
+    {
+      "id": "augustus",
+      "name": "Augustus",
+      "full_name": "Gaius Octavius, later Augustus",
+      "lived": "63 v.Chr. – 14 n.Chr.",
+      "sort_year": -63,
+      "region": "Rome",
+      "known_for": "Eerste keizer; schiep het principaat.",
+      "bio": "Octavianus versloeg in 31 v.Chr. Antonius en Cleopatra bij Actium. In 27 v.Chr. kreeg hij de titel Augustus en bouwde hij een orde op die de vormen van de republiek bewaarde.\n\nZijn eigen verslag, de Res Gestae, is een belangrijke maar eenzijdige bron.",
+      "contributions": [
+        "Principaat",
+        "Beroepsleger",
+        "Res Gestae"
+      ],
+      "modules": [
+        7
+      ],
+      "timeline": [
+        "actium-augustus-27"
+      ],
+      "image": null
+    },
+    {
+      "id": "julius-civilis",
+      "name": "Civilis",
+      "full_name": "Gaius Julius Civilis",
+      "lived": "1e eeuw n.Chr.",
+      "sort_year": 40,
+      "region": "Bataafs gebied",
+      "known_for": "Leider van de Bataafse opstand in 69-70.",
+      "bio": "Civilis was een Bataaf van koninklijke afkomst met Romeins burgerrecht en commandant van een Bataafse eenheid. Wat we over hem weten, danken we vrijwel volledig aan Tacitus.",
+      "contributions": [
+        "Leider van de Bataafse opstand"
+      ],
+      "modules": [
+        7
+      ],
+      "timeline": [
+        "bataafse-opstand-69"
+      ],
+      "image": null
+    },
+    {
+      "id": "tacitus",
+      "name": "Tacitus",
+      "full_name": "Publius Cornelius Tacitus",
+      "lived": "ca. 56 – ca. 120",
+      "sort_year": 56,
+      "region": "Rome",
+      "known_for": "Romeins geschiedschrijver; belangrijkste bron over de Bataafse opstand.",
+      "bio": "Tacitus was senator en schreef onder meer de Germania, de Historiae en de Annalen. Zijn verslag van de Bataafse opstand is de enige uitgebreide bron, en is door een Romeinse bril geschreven.",
+      "contributions": [
+        "Germania",
+        "Historiae",
+        "Annalen"
+      ],
+      "modules": [
+        7
+      ],
+      "timeline": [
+        "bataafse-opstand-69"
+      ],
+      "image": null
+    },
+    {
+      "id": "caracalla",
+      "name": "Caracalla",
+      "full_name": "Marcus Aurelius Antoninus, bijgenaamd Caracalla",
+      "lived": "188 – 217",
+      "sort_year": 188,
+      "region": "Romeinse Rijk",
+      "known_for": "Keizer die in 212 het burgerrecht uitbreidde.",
+      "bio": "Caracalla werd in 211 keizer. In 212 verleende hij vrijwel alle vrije inwoners het burgerrecht (Constitutio Antoniniana). Cassius Dio, die hem afkeurde, noemt belasting als motief.",
+      "contributions": [
+        "Constitutio Antoniniana"
+      ],
+      "modules": [
+        7
+      ],
+      "timeline": [
+        "constitutio-antoniniana-212"
       ],
       "image": null
     },
@@ -141,6 +415,24 @@
       "image": null
     },
     {
+      "id": "haverfield",
+      "name": "Haverfield",
+      "full_name": "Francis John Haverfield",
+      "lived": "1860 – 1919",
+      "sort_year": 1860,
+      "region": "Oxford, Engeland",
+      "known_for": "Introduceerde het begrip romanisering voor Romeins Britannia.",
+      "bio": "De oudheidkundige Haverfield beschreef in 1905 hoe Britannia onder Romeins gezag Romeinse cultuur overnam. Zijn visie zag dit als overdracht van beschaving en is later sterk bekritiseerd.",
+      "contributions": [
+        "The Romanization of Roman Britain (1905)"
+      ],
+      "modules": [
+        7
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
       "id": "geyl",
       "name": "Geyl",
       "full_name": "Pieter Geyl",
@@ -176,6 +468,26 @@
       ],
       "timeline": [
         "watersnood-1953"
+      ],
+      "image": null
+    },
+    {
+      "id": "wittfogel",
+      "name": "Wittfogel",
+      "full_name": "Karl August Wittfogel",
+      "lived": "1896 – 1988",
+      "sort_year": 1896,
+      "region": "Duitsland en Verenigde Staten",
+      "known_for": "Formuleerde de irrigatiehypothese in Oriental Despotism (1957).",
+      "bio": "Wittfogel was een Duits-Amerikaanse sinoloog en voormalig communist. Hij schreef zijn boek in de context van de Koude Oorlog.\n\nZijn hypothese dat irrigatie de despotische staat verklaart, is door veldonderzoek sterk genuanceerd.",
+      "contributions": [
+        "Oriental Despotism (1957)"
+      ],
+      "modules": [
+        5
+      ],
+      "timeline": [
+        "wittfogel-oriental-despotism"
       ],
       "image": null
     },
@@ -255,6 +567,26 @@
       ],
       "timeline": [
         "man-the-hunter-1966"
+      ],
+      "image": null
+    },
+    {
+      "id": "james-scott",
+      "name": "Scott",
+      "full_name": "James C. Scott",
+      "lived": "1936 – 2024",
+      "sort_year": 1936,
+      "region": "Verenigde Staten",
+      "known_for": "Schreef Against the Grain (2017) over graan en staatsvorming.",
+      "bio": "Scott was politicoloog en antropoloog aan Yale. Hij schreef onder meer over de manier waarop staten hun onderdanen leesbaar en belastbaar proberen te maken.",
+      "contributions": [
+        "Against the Grain (2017)"
+      ],
+      "modules": [
+        5
+      ],
+      "timeline": [
+        "scott-against-the-grain"
       ],
       "image": null
     },

@@ -4,19 +4,136 @@
   "title": "De Griekse wereld",
   "part": 3,
   "level": "fundamenten",
-  "status": "planned",
+  "status": "available",
   "historical_period": "Ca. 800 – 146 v.Chr.",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 210,
   "prerequisites": [
     1
   ],
   "topics": [
     "antiquity",
     "perspective",
-    "contextualisation"
+    "contextualisation",
+    "sources",
+    "source-criticism",
+    "historiography"
   ],
   "core_question": "Wat bedoelden Grieken met burgerschap en democratie, en voor wie gold het?",
   "summary": "Poleis, Athene en Sparta, democratie en wetenschap, met aandacht voor wie buiten het burgerschap viel.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een scherf met een naam",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "polis-en-kolonisatie",
+      "title": "Poleis, kolonisatie en de eerste hervormers",
+      "file": "02-polis-en-kolonisatie.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "athene-en-sparta",
+      "title": "Athene en Sparta: wie telde mee?",
+      "file": "03-athene-en-sparta.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "oorlogen-en-historici",
+      "title": "Perzische en Peloponnesische oorlog",
+      "file": "04-oorlogen-en-historici.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "van-polis-naar-hellenisme",
+      "title": "Van polis naar hellenisme",
+      "file": "05-van-polis-naar-hellenisme.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Was Athene een democratie?",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Gelijkheid in drie bronnen",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen wat een polis was en waarom burgerschap en krijgsdienst bij elkaar hoorden.",
+    "Je kunt de instellingen van de Atheense democratie beschrijven, inclusief loting en ostracisme.",
+    "Je kunt Athene en Sparta vergelijken en benoemen wie buiten het burgerschap viel.",
+    "Je kunt de Perzische en de Peloponnesische oorlog in grote lijnen ordenen en oorzaken van aanleidingen onderscheiden.",
+    "Je kunt Herodotus en Thucydides als bron beoordelen op herkomst, doel en betrouwbaarheid.",
+    "Je kunt verwoorden hoe historici verschillen in hun antwoord op de vraag of Athene een democratie was."
+  ],
+  "glossary": [
+    {
+      "term": "Polis",
+      "definition": "Zelfstandige Griekse stadstaat: een gemeenschap van burgers met een stad en omliggend platteland."
+    },
+    {
+      "term": "Burger",
+      "definition": "In Athene een volwassen man van Atheense afkomst met politieke rechten."
+    },
+    {
+      "term": "Demokratia",
+      "definition": "Letterlijk 'macht van het volk': het Atheense bestel waarin burgers zelf besloten."
+    },
+    {
+      "term": "Ostracisme",
+      "definition": "Stemming waarbij een burger voor tien jaar werd verbannen zonder zijn bezit of burgerrecht te verliezen."
+    },
+    {
+      "term": "Kleroterion",
+      "definition": "Lotingsmachine waarmee Atheners burgers aanwezen voor raad en gerechten."
+    },
+    {
+      "term": "Metoik",
+      "definition": "Vrije buitenlandse inwoner van Athene zonder politieke rechten."
+    },
+    {
+      "term": "Helot",
+      "definition": "Onvrije landbewerker in Sparta, vooral uit Messenië."
+    },
+    {
+      "term": "Hellenisme",
+      "definition": "De periode van Alexanders dood (323 v.Chr.) tot de Romeinse verovering, met Griekse taal en cultuur in een veel groter gebied."
+    }
+  ],
+  "timeline": [
+    "herodotus-historien",
+    "thucydides-peloponnesische-oorlog",
+    "solon-hervormingen-594",
+    "kleisthenes-hervormingen-508",
+    "slag-bij-marathon-490",
+    "slag-bij-salamis-480",
+    "ostracisme-themistokles-472",
+    "peloponnesische-oorlog-431",
+    "proces-socrates-399",
+    "slag-bij-gaugamela-331",
+    "verwoesting-korinthe-146"
+  ],
+  "people": [
+    "herodotus",
+    "thucydides",
+    "solon",
+    "kleisthenes",
+    "themistokles",
+    "perikles",
+    "socrates",
+    "alexander-de-grote"
+  ]
 }

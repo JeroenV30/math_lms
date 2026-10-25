@@ -1,0 +1,997 @@
+{
+  "exercises": [
+    {
+      "id": "05-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Waarom hing de landbouw in het zuiden van Mesopotamië vanaf het begin af van irrigatie?",
+      "choices": [
+        "Er valt te weinig regen voor graan; het water van Eufraat en Tigris moest naar de akkers worden geleid",
+        "De rivieren overstroomden elk jaar zo regelmatig dat de akkers vanzelf nat werden, zoals in Egypte",
+        "De bodem was te rotsachtig om zonder kanalen te bewerken",
+        "Hout en metaal moesten met kanalen worden aangevoerd"
+      ],
+      "answer": "Er valt te weinig regen voor graan; het water van Eufraat en Tigris moest naar de akkers worden geleid",
+      "hints": [
+        "Denk aan hoeveel regen er valt in een delta in een droog gebied.",
+        "Vergelijk met wat je in les 4 over de Nijl leest: daar is het anders."
+      ],
+      "solution": [
+        "Het zuiden van Mesopotamië is droog. De rivieren brengen water en vruchtbare klei, maar dat water moet met kanalen en dijken naar de akkers worden gebracht."
+      ],
+      "feedback": [
+        {
+          "answer": "De rivieren overstroomden elk jaar zo regelmatig dat de akkers vanzelf nat werden, zoals in Egypte",
+          "message": "Dit beschrijft eerder de Nijl. De Eufraat en Tigris zijn grilliger, en het water moest actief worden verdeeld."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "causation"
+      ]
+    },
+    {
+      "id": "05-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom is tempeleconomie voor Uruk een term die je voorzichtig moet gebruiken?",
+      "choices": [
+        "Omdat er in Uruk helemaal geen godsdienst bestond",
+        "Het is niet zeker of de grote gebouwen tempels waren, en naast de tempel speelden ook grote huishoudens een rol",
+        "Omdat de tempel in Uruk pas na de komst van het schrift werd gebouwd",
+        "Omdat alle onderzoekers het erover eens zijn dat het een paleiseconomie was"
+      ],
+      "answer": "Het is niet zeker of de grote gebouwen tempels waren, en naast de tempel speelden ook grote huishoudens een rol",
+      "hints": [
+        "Wat blijkt uit de plattegronden precies over de functie van de gebouwen?",
+        "Lees de alinea over tempel, rantsoenen en specialisten nog eens."
+      ],
+      "solution": [
+        "De term is een label voor een mogelijk beeld. De functie van de gebouwen in Uruk is niet vanzelfsprekend uit de plattegronden af te lezen, en latere onderzoekers wijzen op een rol van grote huishoudens."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat alle onderzoekers het erover eens zijn dat het een paleiseconomie was",
+          "message": "Er is juist geen overeenstemming; dat is de reden voor voorzichtigheid."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "causation"
+      ]
+    },
+    {
+      "id": "05-003",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de stappen in de volgorde van oorzaak naar gevolg, zoals de lessen ze beschrijven. De volgorde bepaalt wat uit wat voortkomt.",
+      "answer": [
+        "Irrigatie levert meer graan op dan de boeren zelf nodig hebben",
+        "Een instelling zoals een tempel of paleis slaat het overschot op",
+        "Er moet worden bijgehouden wie wat inlevert en ontvangt",
+        "Er ontstaan specialisten die administratie en bestuur voeren",
+        "De taken en rantsoenen groeien, en daarmee de behoefte aan nog meer administratie"
+      ],
+      "hints": [
+        "Begin bij het overschot: zonder overschot is er niets om op te slaan.",
+        "Pas als er iets wordt opgeslagen, moet je bijhouden wie wat heeft ingeleverd."
+      ],
+      "solution": [
+        "Overschot, opslag, boekhouding, specialisten en dan de terugkoppeling: de kring uit het schema. Of de kring zo begon, is een punt van discussie, maar zo werkt het schema."
+      ],
+      "topics": [
+        "prehistory",
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Een instelling zoals een tempel of paleis slaat het overschot op",
+            "Irrigatie levert meer graan op dan de boeren zelf nodig hebben",
+            "Er moet worden bijgehouden wie wat inlevert en ontvangt",
+            "Er ontstaan specialisten die administratie en bestuur voeren",
+            "De taken en rantsoenen groeien, en daarmee de behoefte aan nog meer administratie"
+          ],
+          "message": "Er moet eerst een overschot zijn voordat het kan worden opgeslagen."
+        }
+      ]
+    },
+    {
+      "id": "05-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Welke conclusie is het best onderbouwd door de samenstelling van het corpus?",
+      "context": "Naar schatting meer dan vier van de vijf oudste tabletten uit Uruk (ca. 3300 – 3000 v.Chr.) zijn administratief: hoeveelheden graan, bier, vee en rantsoenen. De overige zijn lijsten die leerlingen overschreven. Verhalen, brieven en koningsinscripties ontbreken.",
+      "choices": [
+        "In Uruk bestonden nog geen verhalen of gebeden",
+        "Schrijvers in Uruk vonden religie onbelangrijk",
+        "Schrift begon in Uruk waarschijnlijk als hulpmiddel voor administratie",
+        "Elk schrift ter wereld is begonnen als boekhouding"
+      ],
+      "answer": "Schrift begon in Uruk waarschijnlijk als hulpmiddel voor administratie",
+      "hints": [
+        "Wat kun je zeggen over wat bewaard bleef, en wat over wat er bestond?",
+        "Let op de woorden bewaard en ontbreken in de bron."
+      ],
+      "solution": [
+        "Het corpus laat zien waarvoor de bewaarde tabletten dienden. Dat er geen verhalen bewaard zijn, bewijst niet dat ze niet bestonden, en voor andere streken geldt dit niet vanzelf (in China begint het bewaarde schrift bij orakelvragen)."
+      ],
+      "feedback": [
+        {
+          "answer": "In Uruk bestonden nog geen verhalen of gebeden",
+          "message": "Dit is een redenering uit afwezigheid. Mondelinge verhalen laten geen sporen na."
+        },
+        {
+          "answer": "Elk schrift ter wereld is begonnen als boekhouding",
+          "message": "Dat gaat te ver: in China begint het bewaarde schrift bij vragen aan voorouders."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom wordt een rolzegel gezien als een stukje administratie?",
+      "choices": [
+        "Hij gaf de dagelijkse hoeveelheid graan aan in cijfers",
+        "Hij was een vroege vorm van geld waarmee je kon betalen",
+        "Hij diende uitsluitend als sieraad voor de elite",
+        "Hij liet zien van wie opgeslagen goederen waren of wie een deur of vat had verzegeld"
+      ],
+      "answer": "Hij liet zien van wie opgeslagen goederen waren of wie een deur of vat had verzegeld",
+      "hints": [
+        "Een patroon in klei rollen is een manier om iets te markeren.",
+        "Denk aan een stempel of handtekening."
+      ],
+      "solution": [
+        "Met een rolzegel drukte je een patroon in een stuk klei op een vat, deur of tablet. Zo was te zien van wie het was en of het was geopend."
+      ],
+      "feedback": [
+        {
+          "answer": "Hij was een vroege vorm van geld waarmee je kon betalen",
+          "message": "Een rolzegel was een merkteken, geen betaalmiddel."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "causation"
+      ]
+    },
+    {
+      "id": "05-006",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Beschrijf in eigen woorden hoe een overschot aan graan kon leiden tot ongelijkheid. Gebruik minstens twee schakels uit les 2.",
+      "answer": "Een overschot kan worden opgeslagen en verdeeld door een instelling. Wie dat beheert, bepaalt wie rantsoenen krijgt en wie moet afstaan. Er ontstaan specialisten en bestuurders die niet zelf voedsel verbouwen, en dat leidt tot verschillen in positie.",
+      "min_length": 60,
+      "hints": [
+        "Begin bij wat er met het overschot gebeurt.",
+        "Denk aan wie bijhoudt en beslist, en aan wie moet inleveren."
+      ],
+      "solution": [
+        "Een overschot wordt niet vanzelf eerlijk verdeeld: een instelling slaat het op en geeft rantsoenen uit. Wie dat beheert, heeft macht over de rest. Specialisten leven van het overschot en bepalen mee wie wat krijgt. Daardoor ontstaan verschillen in positie, bezit en macht."
+      ],
+      "topics": [
+        "prehistory",
+        "causation"
+      ]
+    },
+    {
+      "id": "05-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Wat is het belangrijkste bezwaar van critici tegen Schmandt-Besserats verklaring dat tokens de voorlopers van schrift waren?",
+      "choices": [
+        "De tokens hebben eenvoudige vormen, de overgang is niet overal zichtbaar en de oudste tabletten kennen veel meer tekens dan tokenvormen",
+        "De tokens zijn pas na de oudste tabletten gemaakt",
+        "Er zijn nooit tokens in een kleibol gevonden",
+        "Tokens werden alleen in Egypte gebruikt"
+      ],
+      "answer": "De tokens hebben eenvoudige vormen, de overgang is niet overal zichtbaar en de oudste tabletten kennen veel meer tekens dan tokenvormen",
+      "hints": [
+        "Vergelijk het aantal tokenvormen met het aantal tekens op de oudste tabletten.",
+        "Zoek in de les de alinea over critici."
+      ],
+      "solution": [
+        "Critici wijzen op de eenvoudige vormen die ook andere doelen konden hebben, op de ontbrekende tussenstappen en op het veel grotere aantal tekens op de oudste tabletten."
+      ],
+      "feedback": [
+        {
+          "answer": "Er zijn nooit tokens in een kleibol gevonden",
+          "message": "Er zijn wel tokens in bullae gevonden; de discussie gaat over wat dat betekent."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "interpretation",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat illustreert dit voorbeeld?",
+      "context": "In het Sumerisch klinkt het woord voor pijl hetzelfde als het woord voor leven: ti. Het teken voor pijl kon daardoor ook worden gebruikt om leven of een deel van een woord te schrijven.",
+      "choices": [
+        "Dat pijl en leven in de oudheid hetzelfde begrip waren",
+        "Het rebusprincipe: een teken kan ook voor de klank worden gebruikt, los van de betekenis",
+        "Dat het Sumerisch geen werkwoorden kende",
+        "Dat het teken voor pijl oorspronkelijk een afbeelding van het leven was"
+      ],
+      "answer": "Het rebusprincipe: een teken kan ook voor de klank worden gebruikt, los van de betekenis",
+      "hints": [
+        "Het woord klinkt hetzelfde, de betekenis verschilt.",
+        "Wat gebeurt er met een teken als je alleen de klank gebruikt?"
+      ],
+      "solution": [
+        "Door een teken voor de klank te gebruiken kon je woorden schrijven die je niet kunt tekenen. Dit is het rebusprincipe."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat pijl en leven in de oudheid hetzelfde begrip waren",
+          "message": "De woorden klonken hetzelfde, maar betekenden iets anders."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "05-009",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Eerste administratieve tabletten in Uruk (ca. 3300 v.Chr.)",
+        "Eerste literaire teksten in Fara en Abu Salabikh (ca. 2600 v.Chr.)",
+        "Sargon sticht het rijk van Akkad (ca. 2334 v.Chr.)",
+        "Wetten van Ur-Nammu (ca. 2100 v.Chr.)",
+        "Stele van Hammurabi (ca. 1750 v.Chr.)"
+      ],
+      "hints": [
+        "Aftellen vanaf 3300: hoe lager het getal, hoe later.",
+        "Ur-Nammu komt ruim voor Hammurabi."
+      ],
+      "solution": [
+        "3300, 2600, 2334, 2100 en 1750 v.Chr. Het schrift groeit van boekhouding naar literatuur, rijk en wet."
+      ],
+      "topics": [
+        "prehistory",
+        "continuity-change"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Eerste administratieve tabletten in Uruk (ca. 3300 v.Chr.)",
+            "Eerste literaire teksten in Fara en Abu Salabikh (ca. 2600 v.Chr.)",
+            "Wetten van Ur-Nammu (ca. 2100 v.Chr.)",
+            "Sargon sticht het rijk van Akkad (ca. 2334 v.Chr.)",
+            "Stele van Hammurabi (ca. 1750 v.Chr.)"
+          ],
+          "message": "Sargon (2334) ligt voor Ur-Nammu (2100): bij v.Chr. zijn grotere getallen ouder."
+        }
+      ]
+    },
+    {
+      "id": "05-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Hoeveel jaar zit er tussen de eerste administratieve tabletten in Uruk (ca. 3300 v.Chr.) en de stele van Hammurabi (ca. 1750 v.Chr.)?",
+      "answer": 1550,
+      "hints": [
+        "Bij jaartallen voor Christus trek je het kleinste van het grootste af.",
+        "3300 min 1750."
+      ],
+      "solution": [
+        "3300 − 1750 = 1550 jaar. Het schrift had dus ruim vijftienhonderd jaar ontwikkeling achter zich."
+      ],
+      "topics": [
+        "prehistory",
+        "continuity-change"
+      ],
+      "unit": "jaar",
+      "feedback": [
+        {
+          "answer": 1450,
+          "message": "Je rekent met 3200 in plaats van 3300."
+        },
+        {
+          "answer": 5050,
+          "message": "Je telt de jaartallen op. Bij v.Chr. trek je ze af."
+        }
+      ]
+    },
+    {
+      "id": "05-011",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Wat laat het verschil tussen de wetten 198 en 199 vooral zien?",
+      "context": "198. Als hij het oog van een muskenum vernielt, of het bot van een muskenum breekt, betaalt hij een mina zilver.\n\n199. Als hij het oog van iemands slaaf vernielt, of het bot van iemands slaaf breekt, betaalt hij de helft van diens waarde.\n\nVrij vertaald uit de Engelse vertaling van L. W. King (1904).",
+      "choices": [
+        "Dat Hammurabi slaven beter wilde beschermen dan vrije mensen",
+        "Dat rechters in de praktijk altijd precies deze bedragen oplegden",
+        "Dat de straf en de vergoeding afhingen van de maatschappelijke positie van het slachtoffer",
+        "Dat er in Babylon geen eigendom van mensen bestond"
+      ],
+      "answer": "Dat de straf en de vergoeding afhingen van de maatschappelijke positie van het slachtoffer",
+      "hints": [
+        "Vergelijk wie de vergoeding krijgt en hoe hoog die is.",
+        "Wat weten we over de toepassing in de rechtspraak?"
+      ],
+      "solution": [
+        "Een muskenum krijgt een mina zilver, voor de slaaf is het de helft van diens waarde en gaat het naar de eigenaar. De samenleving is dus in rangen verdeeld. Over de toepassing in de praktijk zegt de tekst niets."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat rechters in de praktijk altijd precies deze bedragen oplegden",
+          "message": "Er zijn geen rechterlijke uitspraken bekend die de stele aanhalen. De tekst laat zien wat de koning wilde tonen."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-012",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Wie kon in Mesopotamië lezen en schrijven, en wat betekent dat voor de manier waarop je schriftelijke bronnen uit die tijd gebruikt?",
+      "answer": "Alleen een kleine groep na een lange opleiding in de scholen van de schrijvers, meestal zonen van mensen met een positie. Bronnen vertonen daarom vooral het perspectief van bestuurders en elite, en je moet vragen wie ontbreekt.",
+      "min_length": 60,
+      "hints": [
+        "Denk aan de edubba en aan de duur van de opleiding.",
+        "Wie komt wel en wie niet aan het woord?"
+      ],
+      "solution": [
+        "Lezen en schrijven vergde jarenlange opleiding in de edubba en was daarom het voorrecht van een kleine groep. Wie teksten gebruikt, moet dus vragen wiens perspectief erin zit en wiens stem ontbreekt, zoals die van boeren en tot slaaf gemaakten."
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-013",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke verklaring voor de vroege eenheid van Egypte past het best bij wat de les beschrijft?",
+      "choices": [
+        "De farao was zo machtig dat hij het land met geweld in één klap veroverde",
+        "Egypte had geen irrigatie nodig en daarom ook geen bestuur",
+        "De Egyptenaren kenden geen steden en dus geen conflicten",
+        "De Nijl was een snelle verbindingsweg door een smalle vallei, waardoor een heerser graan en mensen over het hele land kon verplaatsen"
+      ],
+      "answer": "De Nijl was een snelle verbindingsweg door een smalle vallei, waardoor een heerser graan en mensen over het hele land kon verplaatsen",
+      "hints": [
+        "Welke eigenschap van de rivier maakt vervoer en controle makkelijk?",
+        "Een enkele factor is zelden voldoende; kijk welke de les noemt."
+      ],
+      "solution": [
+        "De geografie speelde een rol: de rivier verbond het land, en bekkenirrigatie maakte lokaal beheer mogelijk. Dat verklaart voor een deel de gebiedsstaat, maar het is niet de enige factor."
+      ],
+      "feedback": [
+        {
+          "answer": "De farao was zo machtig dat hij het land met geweld in één klap veroverde",
+          "message": "Dit is monocausaal en past niet bij het beeld van een proces van enkele eeuwen."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "causation"
+      ]
+    },
+    {
+      "id": "05-014",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen uit de Egyptische geschiedenis in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Labels met tekens in graf U-j bij Abydos (ca. 3250 v.Chr.)",
+        "De Narmerpalet (ca. 3100 v.Chr.)",
+        "Trappenpiramide van Djoser (ca. 2670 v.Chr.)",
+        "Piramide van Choefoe en het logboek van Merer (ca. 2560 v.Chr.)",
+        "Einde van het Oude Rijk (ca. 2181 v.Chr.)"
+      ],
+      "hints": [
+        "Het schrift verschijnt voor de koning op de palet.",
+        "Djoser bouwt de eerste grote steenconstructie, daarna Choefoe."
+      ],
+      "solution": [
+        "3250, 3100, 2670, 2560 en 2181 v.Chr."
+      ],
+      "topics": [
+        "prehistory",
+        "continuity-change"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "De Narmerpalet (ca. 3100 v.Chr.)",
+            "Labels met tekens in graf U-j bij Abydos (ca. 3250 v.Chr.)",
+            "Trappenpiramide van Djoser (ca. 2670 v.Chr.)",
+            "Piramide van Choefoe en het logboek van Merer (ca. 2560 v.Chr.)",
+            "Einde van het Oude Rijk (ca. 2181 v.Chr.)"
+          ],
+          "message": "Het graf U-j is ouder dan de palet: 3250 ligt voor 3100."
+        }
+      ]
+    },
+    {
+      "id": "05-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke uitspraak over de Narmerpalet wordt door de bron zelf het best ondersteund?",
+      "context": "Narmerpalet, ca. 3100 v.Chr., gevonden in Hierakonpolis. Op de ene zijde draagt de koning de witte kroon en slaat hij een gebonden tegenstander; op de andere zijde draagt hij de rode kroon en inspecteert hij rijen onthoofde lichamen.",
+      "choices": [
+        "Rond 3100 v.Chr. gebruikte de koning al een vast symbolisch beeld van heerschappij over zuid en noord",
+        "De palet bewijst dat Narmer Egypte in één veldtocht veroverde",
+        "De palet is een neutraal verslag van een ooggetuige",
+        "Omdat de palet in een tempeldepot lag, is ze onbruikbaar als bron"
+      ],
+      "answer": "Rond 3100 v.Chr. gebruikte de koning al een vast symbolisch beeld van heerschappij over zuid en noord",
+      "hints": [
+        "Wat zegt een beeld, en wat zegt het niet?",
+        "Vraag je af voor wie het voorwerp gemaakt is."
+      ],
+      "solution": [
+        "De palet toont de koning met twee kronen en als overwinnaar. Dat is een vast beeld van heerschappij. Ze bewijst niet dat de eenwording in één veldtocht plaatsvond, en ze is een beeld, geen verslag."
+      ],
+      "feedback": [
+        {
+          "answer": "De palet bewijst dat Narmer Egypte in één veldtocht veroverde",
+          "message": "Een beeld van een overwinning is geen bewijs voor één bepaalde veldtocht. De meeste onderzoekers zien een proces van enkele eeuwen."
+        },
+        {
+          "answer": "Omdat de palet in een tempeldepot lag, is ze onbruikbaar als bron",
+          "message": "Ook een koninklijk beeld is bruikbaar, als je vraagt wat het wel en niet bewijst."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-016",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke uitspraak gaat verder dan het logboek toelaat?",
+      "context": "Het logboek van Merer (ca. 2560 v.Chr.) volgt een ploeg van tientallen mannen die onder leiding van een inspecteur kalksteen uit Tura naar Gizeh vervoeren. Het noteert reizen, ladingen en het voedsel dat de mannen kregen. Eigen samenvatting.",
+      "choices": [
+        "Het transport van steen naar Gizeh was georganiseerd en werd bijgehouden",
+        "De ploeg werkte uit vrije wil en zonder enige dwang",
+        "De mannen kregen voedsel van de staat",
+        "De bouw van de piramide steunde op bestuur en administratie"
+      ],
+      "answer": "De ploeg werkte uit vrije wil en zonder enige dwang",
+      "hints": [
+        "Welke uitspraak gaat over iets wat in de bron niet staat?",
+        "Lees nog eens wat het logboek wel noteert."
+      ],
+      "solution": [
+        "Het logboek noteert reizen, ladingen en voedsel, maar zegt niets over de vrijheid van de mannen. Daarom is de eerste uitspraak niet te onderbouwen."
+      ],
+      "feedback": [
+        {
+          "answer": "De bouw van de piramide steunde op bestuur en administratie",
+          "message": "Dit wordt juist door het logboek ondersteund."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-017",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Neem aan dat de piramide van Choefoe uit 2,3 miljoen blokken bestaat en dat de bouw 20 jaar duurde. Hoeveel blokken moesten er dan gemiddeld per jaar worden geplaatst? (Dit is een rekenvoorbeeld op grond van gangbare schattingen.)",
+      "answer": 115000,
+      "hints": [
+        "Deel het totaal door het aantal jaren.",
+        "2.300.000 gedeeld door 20."
+      ],
+      "solution": [
+        "2.300.000 : 20 = 115.000 blokken per jaar. Per dag is dat ruim driehonderd blokken: een logistieke prestatie."
+      ],
+      "topics": [
+        "prehistory",
+        "causation"
+      ],
+      "unit": "blokken per jaar",
+      "feedback": [
+        {
+          "answer": 315,
+          "message": "Dat is het aantal per dag. De vraag gaat over een jaar."
+        }
+      ]
+    },
+    {
+      "id": "05-018",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Vaak wordt gezegd dat de piramiden door massa's tot slaaf gemaakten werden gebouwd. Welke aanwijzingen uit de les pleiten tegen dat beeld, en wat blijft onzeker?",
+      "answer": "Bij Gizeh zijn een werknemersnederzetting met bakkerijen en brouwerijen en graven van arbeiders gevonden; het logboek van Merer toont georganiseerd werk. Er wordt gedacht aan een vaste kern en ploegen met arbeidsplicht. Onzeker blijft hoe vrij de arbeiders waren en hoe de verplichte arbeid was geregeld.",
+      "min_length": 60,
+      "hints": [
+        "Denk aan de archeologie bij Gizeh en aan de papyri.",
+        "Noem ook wat de bronnen niet laten zien."
+      ],
+      "solution": [
+        "Aanwijzingen: de nederzetting met bakkerijen en brouwerijen, de graven van arbeiders en het logboek van Merer. De meeste onderzoekers denken aan een geschoolde kern en ploegen op grond van arbeidsplicht. Onzeker: de mate van dwang, hoe de arbeidsplicht was geregeld en wat de arbeiders zelf vonden."
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-019",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een standaard baksteen uit Harappa is 28 cm lang en heeft de verhouding lengte : breedte : dikte = 4 : 2 : 1. Hoe dik is de steen?",
+      "answer": 7,
+      "hints": [
+        "Eén deel is 28 : 4 cm.",
+        "De dikte is het kleinste getal in de verhouding."
+      ],
+      "solution": [
+        "28 : 4 = 7 cm per deel. De breedte is 14 cm en de dikte 7 cm."
+      ],
+      "topics": [
+        "prehistory",
+        "continuity-change"
+      ],
+      "unit": "cm",
+      "feedback": [
+        {
+          "answer": 14,
+          "message": "Dat is de breedte (2 delen)."
+        }
+      ]
+    },
+    {
+      "id": "05-020",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is het sterkste voorbehoud bij de redenering dat de Indusbeschaving egalitair was omdat er geen paleizen zijn gevonden?",
+      "choices": [
+        "Paleizen waren in de Indusvallei verboden",
+        "Er zijn wel paleizen gevonden, maar die zijn nog niet gepubliceerd",
+        "Een redenering uit afwezigheid is zwak: we herkennen de gebouwen van de macht mogelijk niet, of er is nog te weinig opgegraven",
+        "Een samenleving zonder paleizen heeft per definitie een koning nodig"
+      ],
+      "answer": "Een redenering uit afwezigheid is zwak: we herkennen de gebouwen van de macht mogelijk niet, of er is nog te weinig opgegraven",
+      "hints": [
+        "Wat kan het ontbreken van iets nog meer betekenen?",
+        "Welk deel van Mohenjo-daro is onderzocht?"
+      ],
+      "solution": [
+        "Het ontbreken van herkenbare paleizen kan verschillende oorzaken hebben: macht in een andere vorm, onvolledige opgraving, of werkelijke gelijkheid. Daarom is de conclusie onzeker."
+      ],
+      "feedback": [
+        {
+          "answer": "Er zijn wel paleizen gevonden, maar die zijn nog niet gepubliceerd",
+          "message": "Dit is een verzinsel. Het punt is dat de gebouwen mogelijk niet als zodanig herkend worden."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "interpretation",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-021",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke bewering over het Indusschrift is op dit moment het best te verdedigen?",
+      "choices": [
+        "Het is ontcijferd en weergave van Sanskriet",
+        "Het is niet ontcijferd omdat er geen tekens bewaard zijn",
+        "Het is zeker geen schrift, omdat het alleen op zegels staat",
+        "Het is niet ontcijferd, en het is omstreden of het taal weergeeft"
+      ],
+      "answer": "Het is niet ontcijferd, en het is omstreden of het taal weergeeft",
+      "hints": [
+        "Er is geen tweetalige tekst gevonden en de teksten zijn kort.",
+        "Wie zijn Sproat en Witzel?"
+      ],
+      "solution": [
+        "Zegels met vierhonderd à vijfhonderd tekens zijn bewaard, maar zonder tweetalige tekst en met korte inscripties is ontcijfering niet gelukt. Een deel van de onderzoekers betwijfelt of het taal weergeeft."
+      ],
+      "feedback": [
+        {
+          "answer": "Het is niet ontcijferd omdat er geen tekens bewaard zijn",
+          "message": "Er zijn duizenden voorwerpen met tekens bewaard; het ontbreekt aan een sleutel zoals een tweetalige tekst."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "interpretation",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-022",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom geeft het bewaarde Shang-schrift mogelijk een scheef beeld van hoe schrift in die tijd werd gebruikt?",
+      "choices": [
+        "Bot en brons blijven bewaard, terwijl bamboe en hout waarop men waarschijnlijk veel schreef, zijn vergaan",
+        "Omdat orakelbotten later zijn vervalst",
+        "Omdat het Shang-schrift nog niet ontcijferd is",
+        "Omdat het schrift alleen door vrouwen werd gebruikt"
+      ],
+      "answer": "Bot en brons blijven bewaard, terwijl bamboe en hout waarop men waarschijnlijk veel schreef, zijn vergaan",
+      "hints": [
+        "Welk materiaal blijft bewaard, welk niet?",
+        "Denk aan bewaring in de bronnen van les 1."
+      ],
+      "solution": [
+        "Het bewaarde schrift komt van duurzaam materiaal. Wat op bamboe of hout stond, is verloren gegaan; ons beeld is daardoor selectief."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat het Shang-schrift nog niet ontcijferd is",
+          "message": "Een groot deel van het Shang-schrift is te lezen; het probleem is selectieve bewaring."
+        }
+      ],
+      "topics": [
+        "prehistory",
+        "interpretation",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-023",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de volgende gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Proto-spijkerschrift in Uruk (ca. 3300 v.Chr.)",
+        "De Narmerpalet in Egypte (ca. 3100 v.Chr.)",
+        "Zegels van de rijpe Harappa-beschaving (ca. 2600 v.Chr.)",
+        "Stele van Hammurabi (ca. 1750 v.Chr.)",
+        "Orakelbotten in Anyang (ca. 1250 v.Chr.)"
+      ],
+      "hints": [
+        "Dit zijn vier streken door elkaar.",
+        "De Indus komt voor Hammurabi."
+      ],
+      "solution": [
+        "3300, 3100, 2600, 1750 en 1250 v.Chr."
+      ],
+      "topics": [
+        "prehistory",
+        "continuity-change"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Proto-spijkerschrift in Uruk (ca. 3300 v.Chr.)",
+            "De Narmerpalet in Egypte (ca. 3100 v.Chr.)",
+            "Stele van Hammurabi (ca. 1750 v.Chr.)",
+            "Zegels van de rijpe Harappa-beschaving (ca. 2600 v.Chr.)",
+            "Orakelbotten in Anyang (ca. 1250 v.Chr.)"
+          ],
+          "message": "De Harappa-zegels (2600) zijn ouder dan de stele (1750)."
+        }
+      ]
+    },
+    {
+      "id": "05-024",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke bewering van Wittfogel wordt door dit onderzoek het sterkst tegengesproken?",
+      "context": "De archeoloog Robert McC. Adams stelde na veldonderzoek in het zuiden van Mesopotamië vast dat de grote kanaalstelsels pas ontstonden na de eerste steden en staten. De vroege irrigatie was kleinschalig en lokaal. (Eigen samenvatting.)",
+      "choices": [
+        "Dat irrigatie in Mesopotamië bestond",
+        "Dat grootschalige, centraal geleide irrigatie voor de eerste staten bestond en daarom hun oorzaak was",
+        "Dat de staten in droge streken landbouw hadden",
+        "Dat water in het beheer van staten een rol speelde"
+      ],
+      "answer": "Dat grootschalige, centraal geleide irrigatie voor de eerste staten bestond en daarom hun oorzaak was",
+      "hints": [
+        "Het gaat om de volgorde van kanalen en staten.",
+        "Wat zegt Adams over de vroege irrigatie?"
+      ],
+      "solution": [
+        "Adams vond dat de grote kanaalstelsels pas na de eerste staten kwamen. Daarmee is de volgorde uit de hypothese weerlegd. Dat water er later toe deed, blijft staan."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat water in het beheer van staten een rol speelde",
+          "message": "Dat wordt niet bestreden. Wetten als nummer 53 van Hammurabi laten dat zien."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation",
+        "causation"
+      ]
+    },
+    {
+      "id": "05-025",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Kies twee van de vier verklaringen (Childe, Wittfogel, Carneiro, Scott) en beoordeel welke het beste past bij Egypte. Geef een argument vóór, een argument tegen en zeg hoe zeker je conclusie is.",
+      "answer": "Bijvoorbeeld Scott en Wittfogel: voor Scott pleit dat graan in Egypte door schrijvers werd geteld en belast. Tegen Wittfogel pleit dat de Egyptische bekkenirrigatie lokaal werd beheerd. Conclusie: Scott past beter, maar de zekerheid is gemiddeld, omdat het bewijs voor de vroegste periode schaars is.",
+      "min_length": 100,
+      "hints": [
+        "Begin met wat elke verklaring beweert.",
+        "Noem een aanwijzing uit les 4 voor of tegen elk van de twee."
+      ],
+      "solution": [
+        "Kies twee verklaringen, formuleer hun kern, leg ze naast de Egyptische gegevens (Nijl, bekkenirrigatie, administratie, belasting in graan en arbeid) en geef met een zekerheidsoordeel aan welke beter past. Een goed antwoord gebruikt een gegeven uit de les en noemt wat nog onzeker is."
+      ],
+      "topics": [
+        "historiography",
+        "interpretation",
+        "causation"
+      ]
+    },
+    {
+      "id": "05-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welk criterium van Childe past het slechtst bij de Indusbeschaving, op grond van wat we weten?",
+      "choices": [
+        "Voedselproductie met een overschot",
+        "Handel over lange afstand",
+        "Een herkenbare heersende klasse met monumentale gebouwen voor haar macht",
+        "Een eigen kunststijl en zegels"
+      ],
+      "answer": "Een herkenbare heersende klasse met monumentale gebouwen voor haar macht",
+      "hints": [
+        "Welke kenmerken ontbreken in de Indusvallei?",
+        "Denk aan wat er niet is gevonden."
+      ],
+      "solution": [
+        "Het overschot, de handel en zegels zijn aanwezig. Een herkenbare heersende klasse en paleizen of koningsgraven zijn niet gevonden. Dat betekent niet dat ze niet bestonden."
+      ],
+      "feedback": [
+        {
+          "answer": "Handel over lange afstand",
+          "message": "Er is juist veel bewijs voor handel, onder meer Indus-zegels in Mesopotamië."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation",
+        "causation"
+      ]
+    },
+    {
+      "id": "05-027",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat laten de wetten 53 en 117 op zichzelf zien over de vroege staat?",
+      "context": "Wet 53 (kort): wie zijn dijk verwaarloost en daardoor akkers laat onderlopen, wordt verkocht om het verloren graan te vervangen. Wet 117 (kort): schuldenaars die zichzelf of hun gezin verkopen, werken drie jaar en worden in het vierde jaar vrijgelaten.",
+      "choices": [
+        "Dat schuldslavernij in Babylon nooit voorkwam",
+        "Dat iedereen gelijk was voor de wet",
+        "Dat de boeren zelf de wetten opstelden",
+        "Dat de staat het onderhoud van dijken en schuldverhoudingen regelde en daarop straffen zette"
+      ],
+      "answer": "Dat de staat het onderhoud van dijken en schuldverhoudingen regelde en daarop straffen zette",
+      "hints": [
+        "Bedenk dat een wet iets wil voorkomen of regelen.",
+        "Wie schreef de stele?"
+      ],
+      "solution": [
+        "De wetten regelen dijkonderhoud en schuldslavernij en leggen dus verplichtingen en straffen vast. Dat de koning de bepalingen opschreef, is een aanwijzing dat dit speelde, maar niet hoe vaak."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat schuldslavernij in Babylon nooit voorkwam",
+          "message": "Een wet die het beperkt tot drie jaar, veronderstelt dat het voorkwam."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-028",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Hoe gebruik je het fragment uit de Satire van de beroepen het beste voor de onderzoeksvraag?",
+      "context": "De metselaar: Zijn schort is niet meer dan lompen, en het rusthuis ligt ver achter hem. Zijn armen zijn dood van het hanteren van de beitel. (Vrij vertaald uit de Engelse weergave van de Satire van de beroepen, Middenrijk; afschriften uit het Nieuwe Rijk.)",
+      "choices": [
+        "Als bewijs voor de houding van schrijvers tegenover handwerk, niet als neutrale beschrijving van het werk van een metselaar",
+        "Als een betrouwbare ooggetuigenbeschrijving van het leven van een metselaar",
+        "Helemaal niet, want een leerboek kan nooit een bron zijn",
+        "Als bewijs dat alle ambachtslieden in Egypte arm waren"
+      ],
+      "answer": "Als bewijs voor de houding van schrijvers tegenover handwerk, niet als neutrale beschrijving van het werk van een metselaar",
+      "hints": [
+        "Vraag naar het doel van de tekst.",
+        "Een bron mag bruikbaar zijn voor een andere vraag dan ze bedoeld is."
+      ],
+      "solution": [
+        "De tekst is bedoeld om leerlingen te overtuigen van het schrijversberoep, en overdrijft daarom. Ze laat zien hoe een elite over handwerk dacht, en dat is voor de vraag bruikbaar."
+      ],
+      "feedback": [
+        {
+          "answer": "Helemaal niet, want een leerboek kan nooit een bron zijn",
+          "message": "Elke tekst is een bron, mits je de vraag stelt waarvoor hij bruikbaar is."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-029",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke bron is het meest geschikt om te weten hoe het vervoer van steen naar Gizeh dagelijks werd georganiseerd, en waarom?",
+      "choices": [
+        "Wet 53, omdat de koning het land het best kende",
+        "Het logboek van Merer, omdat het een werkdocument voor de eigen administratie is zonder publiek om te overtuigen; het zegt wel alleen wat de ploeg deed",
+        "De Satire van de beroepen, omdat het een ooggetuige bevat",
+        "Geen van de bronnen, omdat bronnen uit verschillende tijden nooit vergelijkbaar zijn"
+      ],
+      "answer": "Het logboek van Merer, omdat het een werkdocument voor de eigen administratie is zonder publiek om te overtuigen; het zegt wel alleen wat de ploeg deed",
+      "hints": [
+        "Welke bron is een werkdocument?",
+        "Let op het doel en het publiek."
+      ],
+      "solution": [
+        "Het logboek is bedoeld voor de administratie en heeft geen reden om te overtuigen. Het is de meest directe bron voor de dagelijkse gang van zaken, met als beperking dat het alleen noteert wat de schrijver nodig had."
+      ],
+      "feedback": [
+        {
+          "answer": "De Satire van de beroepen, omdat het een ooggetuige bevat",
+          "message": "De tekst is een leerboek met een overtuigend doel, geen ooggetuigenverslag."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-030",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welk soort bron zou je willen vinden om te weten hoe gewone arbeiders het werk voor de staat ervoeren? Noem er één en leg uit wat die bron kan laten zien, en wat niet.",
+      "answer": "Bijvoorbeeld de graven en woonplaatsen van arbeiders, of klachtbrieven. Een graf toont voeding, gezondheid en slijtage van botten, maar niet wat de arbeider dacht en ook niet of hij dwang voelde.",
+      "min_length": 60,
+      "hints": [
+        "Denk aan archeologie van dorpen en graven, en aan brieven.",
+        "Elke bron heeft grenzen: noem ze."
+      ],
+      "solution": [
+        "Mogelijkheden: skeletonderzoek van arbeiders (gezondheid, belasting), de nederzetting bij Gizeh, brieven. Zij tonen lichaam en omstandigheden, niet de beleving. Een goed antwoord noemt een bron en een beperking."
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-031",
+      "type": "choice",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Een medestudent stelt: alle drie de bronnen bewijzen dat de arbeiders onvrij waren. Hoe beoordeel je dat?",
+      "choices": [
+        "Juist: een staat die belasting int, maakt altijd onvrije arbeiders",
+        "Juist: omdat alle drie de bronnen van de staat komen",
+        "Onjuist: A noemt schuldslavernij en B zwaar handwerk, maar C zegt niets over vrijheid, dus een algemeen oordeel is niet onderbouwd",
+        "Onjuist: want in Egypte en Babylon bestond geen dwang"
+      ],
+      "answer": "Onjuist: A noemt schuldslavernij en B zwaar handwerk, maar C zegt niets over vrijheid, dus een algemeen oordeel is niet onderbouwd",
+      "hints": [
+        "Wat zegt elke bron letterlijk over vrijheid?",
+        "Zoek een bron die over vrijheid zwijgt."
+      ],
+      "solution": [
+        "Bron A vermeldt schuldslavernij, bron B beschrijft zwaar werk en bron C zwijgt over vrijheid. Het zijn ook drie verschillende streken en tijden. Een algemeen oordeel gaat verder dan het bewijs."
+      ],
+      "feedback": [
+        {
+          "answer": "Juist: omdat alle drie de bronnen van de staat komen",
+          "message": "Dat de bronnen van de staat komen, maakt ze eenzijdig, maar bewijst niet dat de arbeiders onvrij waren."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-032",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Schrijf in ongeveer 150 woorden een antwoord op de onderzoeksvraag van het practicum: wie droeg de lasten van de vroege staat, en hoe weet je dat? Gebruik minstens twee bronnen en geef de zekerheid aan.",
+      "answer": "Een goed antwoord noemt dijkonderhoud en schuldslavernij (A), de lage status van handarbeid in de ogen van schrijvers (B) en georganiseerd transport en voedselverstrekking (C). Het zegt dat alle bronnen van de schrijversgroep komen, dat de stem van de arbeiders ontbreekt, en dat de conclusie dus voorzichtig is.",
+      "min_length": 150,
+      "hints": [
+        "Gebruik de vragen uit de denkvraag aan het begin.",
+        "Schrijf bij elke bewering: volgens bron ..."
+      ],
+      "solution": [
+        "Modelantwoord: Volgens bron A rustten verplichtingen als dijkonderhoud en schuldslavernij op gewone mensen. Bron C laat zien dat arbeid voor de staat georganiseerd en genoteerd werd, en bron B dat schrijvers handwerk lager achtten. Alle drie komen van de bestuurders en hun schrijvers; hoe de arbeiders het ervoeren, weten we niet. Conclusie: de lasten lagen waarschijnlijk bij boeren en arbeiders, maar de zekerheid is beperkt."
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "05-033",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke vraag kan geen van de drie bronnen beantwoorden?",
+      "choices": [
+        "Wat de koning van Babylon van schulden vond",
+        "Hoe schrijvers over handwerk dachten",
+        "Wat een ploeg van Merer vervoerde",
+        "Hoe de arbeiders zelf hun werk en hun positie ervoeren"
+      ],
+      "answer": "Hoe de arbeiders zelf hun werk en hun positie ervoeren",
+      "hints": [
+        "Wie komen er niet in aan het woord?",
+        "Welke vraag gaat over de ervaring van de gewone man of vrouw?"
+      ],
+      "solution": [
+        "Alle drie komen van de bestuurders en schrijvers. De beleving van de arbeiders staat nergens."
+      ],
+      "feedback": [
+        {
+          "answer": "Hoe schrijvers over handwerk dachten",
+          "message": "Dat laat juist bron B zien."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    }
+  ]
+}

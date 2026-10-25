@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" font-family="sans-serif" font-size="13">
+<rect width="600" height="220" fill="#fff"/>
+<text x="300" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f2933">Routekaart in plaats van landkaart</text>
+<rect x="20" y="40" width="560" height="60" rx="4" fill="#f7f1e6" stroke="#9c6b30" stroke-width="2"/>
+<line x1="60" y1="75" x2="150" y2="62" stroke="#3b5bdb" stroke-width="3"/>
+<line x1="150" y1="62" x2="260" y2="80" stroke="#3b5bdb" stroke-width="3"/>
+<line x1="260" y1="80" x2="380" y2="60" stroke="#3b5bdb" stroke-width="3"/>
+<line x1="380" y1="60" x2="520" y2="78" stroke="#3b5bdb" stroke-width="3"/>
+<g fill="#fff" stroke="#1f2933" stroke-width="2"><circle cx="60" cy="75" r="6"/><circle cx="150" cy="62" r="6"/><circle cx="260" cy="80" r="6"/><circle cx="380" cy="60" r="6"/><circle cx="520" cy="78" r="6"/></g>
+<g fill="#1f2933" text-anchor="middle"><text x="105" y="52">12</text><text x="205" y="60">18</text><text x="320" y="62">24</text><text x="450" y="58">30</text></g>
+<text x="300" y="122" text-anchor="middle" fill="#1f2933">Plaatsen (cirkels), wegen (lijnen), afstanden in Romeinse mijlen (getallen)</text>
+<rect x="20" y="140" width="270" height="64" rx="4" fill="#fff" stroke="#1f2933"/>
+<text x="155" y="162" text-anchor="middle" font-weight="bold" fill="#3b5bdb">Wat de kaart toont</text>
+<text x="155" y="182" text-anchor="middle" fill="#1f2933">route, volgorde, afstand</text>
+<rect x="310" y="140" width="270" height="64" rx="4" fill="#fff" stroke="#1f2933"/>
+<text x="445" y="162" text-anchor="middle" font-weight="bold" fill="#9c6b30">Wat de kaart weglaat</text>
+<text x="445" y="182" text-anchor="middle" fill="#1f2933">reliëf, vorm van kusten, schaal</text>
+</svg>
