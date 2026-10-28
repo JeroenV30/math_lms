@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Kaart van de hoofdgebieden van de filosofie, geordend rond de vragen: hoe redeneer je, wat kun je weten, wat is er, wat moet je doen.">
+  <style>text{font-family:Georgia,serif;fill:#1f2933}.t{font-size:14px;font-weight:bold}.s{font-size:12px}.q{font-size:12px;font-style:italic;fill:#3b5bdb}</style>
+  <rect width="600" height="420" fill="#ffffff"/>
+  <circle cx="300" cy="210" r="46" fill="#eef2ff" stroke="#3b5bdb" stroke-width="2"/>
+  <text x="300" y="215" text-anchor="middle" class="t">Filosofie</text>
+  <g stroke="#1f2933" stroke-width="1.2" fill="none">
+    <path d="M262 184 L190 120"/><path d="M338 184 L410 120"/><path d="M262 236 L190 300"/><path d="M338 236 L410 300"/>
+  </g>
+  <g fill="#f4f6fb" stroke="#1f2933" stroke-width="1.5">
+    <rect x="30" y="40" width="240" height="90" rx="6"/><rect x="330" y="40" width="240" height="90" rx="6"/>
+    <rect x="30" y="290" width="240" height="100" rx="6"/><rect x="330" y="290" width="240" height="100" rx="6"/>
+  </g>
+  <text x="150" y="60" text-anchor="middle" class="q">Hoe redeneer je en wat betekent iets?</text>
+  <text x="150" y="85" text-anchor="middle" class="t">Logica</text>
+  <text x="150" y="108" text-anchor="middle" class="t">Taalfilosofie</text>
+  <text x="450" y="60" text-anchor="middle" class="q">Wat kun je weten?</text>
+  <text x="450" y="85" text-anchor="middle" class="t">Kennisleer</text>
+  <text x="450" y="108" text-anchor="middle" class="t">Wetenschapsfilosofie</text>
+  <text x="150" y="310" text-anchor="middle" class="q">Wat is er, en wat ben je?</text>
+  <text x="150" y="335" text-anchor="middle" class="t">Metafysica</text>
+  <text x="150" y="358" text-anchor="middle" class="t">Filosofie van de geest</text>
+  <text x="450" y="310" text-anchor="middle" class="q">Wat moet je doen, en wat is waardevol?</text>
+  <text x="450" y="335" text-anchor="middle" class="t">Ethiek</text>
+  <text x="450" y="358" text-anchor="middle" class="t">Politieke filosofie</text>
+  <text x="450" y="378" text-anchor="middle" class="t">Esthetica</text>
+  <text x="300" y="412" text-anchor="middle" class="s">De gebieden overlappen: dezelfde vraag kan in meerdere vakken terugkomen.</text>
+</svg>

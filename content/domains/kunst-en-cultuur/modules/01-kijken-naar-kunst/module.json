@@ -7,7 +7,7 @@
   "status": "available",
   "historical_period": "Prehistorie",
   "estimated_difficulty": 1,
-  "estimated_minutes": 15,
+  "estimated_minutes": 150,
   "prerequisites": [],
   "topics": [
     "description",
@@ -63,8 +63,62 @@
       "title": "Leren kijken",
       "file": "01-introductie.md",
       "kind": "intro"
+    },
+    {
+      "slug": "wat-is-kunst",
+      "title": "Wat is kunst, en wie bepaalt dat?",
+      "file": "02-wat-is-kunst.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "precies-kijken",
+      "title": "Precies kijken en beeldaspecten",
+      "file": "03-precies-kijken-en-beeldaspecten.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "van-beschrijving-naar-interpretatie",
+      "title": "Van beschrijving naar interpretatie",
+      "file": "04-van-beschrijving-naar-interpretatie.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "context-en-functie",
+      "title": "Context en functie",
+      "file": "05-context-en-functie.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "kunst-uit-andere-culturen",
+      "title": "Andere kijkers, andere tijden: kunst uit andere culturen",
+      "file": "06-kunst-uit-andere-culturen.md",
+      "kind": "history"
+    },
+    {
+      "slug": "analysepracticum",
+      "title": "Analysepracticum",
+      "file": "07-analysepracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
     }
   ],
-  "timeline": [],
-  "people": []
+  "timeline": [
+    "chauvet-grotschilderingen",
+    "gents-altaarstuk",
+    "benin-plaquette",
+    "vermeer-melkmeisje",
+    "benin-expeditie-1897",
+    "duchamp-fountain",
+    "panofsky-iconology"
+  ],
+  "people": [
+    "vermeer",
+    "duchamp",
+    "panofsky"
+  ]
 }

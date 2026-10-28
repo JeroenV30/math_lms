@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" role="img" aria-label="Argumentschema: premissen P1 en P2 leiden tot conclusie C. Toets 1: volgt C uit P1 en P2 (geldigheid). Toets 2: zijn P1 en P2 waar (gezondheid).">
+  <style>text{font-family:Georgia,serif;fill:#1f2933}.s{font-size:13px}.b{font-size:15px;font-weight:bold}.a{fill:#3b5bdb;font-weight:bold}</style>
+  <rect width="600" height="340" fill="#ffffff"/>
+  <rect x="40" y="30" width="240" height="56" rx="6" fill="#f4f6fb" stroke="#1f2933" stroke-width="1.5"/>
+  <text x="160" y="53" text-anchor="middle" class="b">P1</text>
+  <text x="160" y="73" text-anchor="middle" class="s">Alle mensen zijn sterfelijk.</text>
+  <rect x="320" y="30" width="240" height="56" rx="6" fill="#f4f6fb" stroke="#1f2933" stroke-width="1.5"/>
+  <text x="440" y="53" text-anchor="middle" class="b">P2</text>
+  <text x="440" y="73" text-anchor="middle" class="s">Socrates is een mens.</text>
+  <path d="M160 86 L300 150 M440 86 L300 150" stroke="#1f2933" stroke-width="1.5" fill="none"/>
+  <path d="M300 150 L300 190" stroke="#3b5bdb" stroke-width="2.5" fill="none"/>
+  <path d="M292 180 L300 194 L308 180 Z" fill="#3b5bdb"/>
+  <text x="312" y="176" class="s" fill="#3b5bdb" style="fill:#3b5bdb">dus</text>
+  <rect x="180" y="196" width="240" height="56" rx="6" fill="#eef2ff" stroke="#3b5bdb" stroke-width="2"/>
+  <text x="300" y="219" text-anchor="middle" class="b">C</text>
+  <text x="300" y="239" text-anchor="middle" class="s">Socrates is sterfelijk.</text>
+  <text x="20" y="130" class="a s" style="fill:#3b5bdb;font-size:13px">Toets 1: volgt C uit P?</text>
+  <text x="20" y="147" class="s">Geldigheid (de vorm)</text>
+    <text x="300" y="20" text-anchor="middle" class="s" style="fill:#3b5bdb;font-size:13px">Toets 2: zijn de premissen waar? (gezondheid)</text>
+  <text x="300" y="285" text-anchor="middle" class="s">Geldig én alle premissen waar: gezond.</text>
+  <text x="300" y="305" text-anchor="middle" class="s">Geldig maar een premisse onwaar: conclusie niet gegarandeerd.</text>
+  <text x="300" y="325" text-anchor="middle" class="s">Ongeldig: de premissen ondersteunen de conclusie niet.</text>
+</svg>

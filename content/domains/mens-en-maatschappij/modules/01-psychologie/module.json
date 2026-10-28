@@ -6,22 +6,34 @@
   "level": "fundamenten",
   "status": "available",
   "historical_period": "Negentiende eeuw",
-  "estimated_difficulty": 1,
-  "estimated_minutes": 15,
+  "estimated_difficulty": 2,
+  "estimated_minutes": 240,
   "prerequisites": [],
   "topics": [
     "research-questions",
     "behaviour",
-    "social-measurement"
+    "social-measurement",
+    "operationalisation",
+    "validity",
+    "research-methods",
+    "causation",
+    "sampling",
+    "bias",
+    "statistics-basics",
+    "replication",
+    "research-ethics",
+    "psych-history"
   ],
-  "core_question": "Hoe leven mensen samen?",
-  "summary": "Hoe leven mensen samen? Over politiek, recht, economie en psychologie, van de Griekse stadstaat tot de moderne democratie en markt.",
+  "core_question": "Hoe kom je met onderzoek tot een betrouwbare uitspraak over hoe mensen denken en handelen?",
+  "summary": "Wat psychologie onderzoekt en hoe: van Wundts laboratorium in Leipzig tot de replicatiecrisis, met onderzoeksmethoden, meten, steekproeven, denkfouten en onderzoeksethiek.",
   "learning_goals": [
-    "Je kunt in eigen woorden beschrijven wat psychologie onderzoekt.",
-    "Je kunt gedrag onderscheiden van mentale processen en van de omstandigheden waarin ze plaatsvinden.",
-    "Je kunt een psychologische bewering omzetten in een onderzoekbare vraag.",
-    "Je kunt uitleggen waarom waarneming en meting niet hetzelfde zijn als een volledige verklaring.",
-    "Je kunt aangeven waarom een onderzoeksuitkomst niet zonder meer voor ieder individu geldt."
+    "Je kunt in eigen woorden beschrijven wat psychologie onderzoekt en gedrag, mentale processen en context onderscheiden.",
+    "Je kunt de belangrijkste stappen in de ontwikkeling van het vak noemen, van Wundt en James tot behaviorisme en cognitieve psychologie.",
+    "Je kunt een begrip operationaliseren, variabelen en hypothesen formuleren en betrouwbaarheid en validiteit beoordelen.",
+    "Je kunt een onderzoeksmethode kiezen (experiment, correlatie, observatie, vragenlijst, casestudy) en samenhang van oorzaak onderscheiden.",
+    "Je kunt een percentage, gemiddelde en standaarddeviatie uitrekenen en marge, effectgrootte en p-waarde zorgvuldig interpreteren.",
+    "Je kunt vertekening en denkfouten herkennen: selectie, vraagkenmerken, bevestiging, anker en basisfrequentie.",
+    "Je kunt uitleggen wat de replicatiecrisis inhoudt en welke ethische eisen aan onderzoek met mensen worden gesteld."
   ],
   "glossary": [
     {
@@ -37,10 +49,6 @@
       "definition": "Een innerlijke activiteit, zoals waarnemen, herinneren, denken, voelen of verwachten."
     },
     {
-      "term": "Waarneming",
-      "definition": "Het proces waarin informatie uit de omgeving wordt geselecteerd en geïnterpreteerd."
-    },
-    {
       "term": "Hypothese",
       "definition": "Een toetsbare verwachting over een verband of verschil."
     },
@@ -53,18 +61,106 @@
       "definition": "Een kenmerk dat verschillende waarden kan aannemen, bijvoorbeeld slaapduur, reactietijd of ervaren spanning."
     },
     {
-      "term": "Vertekening",
-      "definition": "Een systematische invloed die waarnemingen of conclusies een bepaalde kant op kan sturen."
+      "term": "Betrouwbaarheid",
+      "definition": "De mate waarin een meting bij herhaling onder gelijke omstandigheden hetzelfde resultaat geeft."
+    },
+    {
+      "term": "Validiteit",
+      "definition": "De mate waarin een meting meet wat ze moet meten."
+    },
+    {
+      "term": "Correlatie",
+      "definition": "Een statistische samenhang tussen twee variabelen, uitgedrukt in een getal tussen −1 en 1; geen bewijs van oorzaak."
+    },
+    {
+      "term": "Willekeurige toewijzing",
+      "definition": "Deelnemers door loting aan groepen indelen, zodat de groepen vooraf gemiddeld vergelijkbaar zijn."
+    },
+    {
+      "term": "Steekproef",
+      "definition": "Het deel van een populatie dat daadwerkelijk wordt onderzocht."
+    },
+    {
+      "term": "Effectgrootte",
+      "definition": "Een maat voor hoe groot een verschil of verband is, onafhankelijk van het aantal deelnemers."
+    },
+    {
+      "term": "Replicatie",
+      "definition": "Een onderzoek herhalen om na te gaan of de uitkomst standhoudt."
+    },
+    {
+      "term": "Geïnformeerde toestemming",
+      "definition": "Instemming van een deelnemer na uitleg over doel, werkwijze en risico's, met het recht om op elk moment te stoppen."
     }
   ],
   "lessons": [
     {
       "slug": "introductie",
-      "title": "De mens als onderzoeksvraag",
+      "title": "Honderd studies, opnieuw gedaan",
       "file": "01-introductie.md",
       "kind": "intro"
+    },
+    {
+      "slug": "een-vak-met-een-geschiedenis",
+      "title": "Een vak met een geschiedenis",
+      "file": "02-een-vak-met-een-geschiedenis.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "begrippen-meetbaar-maken",
+      "title": "Begrippen meetbaar maken",
+      "file": "03-begrippen-meetbaar-maken.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "onderzoeksontwerpen",
+      "title": "Onderzoeksontwerpen",
+      "file": "04-onderzoeksontwerpen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "steekproeven-cijfers-en-denkfouten",
+      "title": "Steekproeven, cijfers en denkfouten",
+      "file": "05-steekproeven-cijfers-en-denkfouten.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "onderzoekers-in-debat",
+      "title": "Onderzoekers in debat: replicatie en ethiek",
+      "file": "06-onderzoekers-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "onderzoek-beoordelen",
+      "title": "Onderzoek beoordelen",
+      "file": "07-onderzoek-beoordelen.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
     }
   ],
-  "timeline": [],
-  "people": []
+  "timeline": [
+    "wundt-leipzig-1879",
+    "ebbinghaus-geheugen-1885",
+    "james-principles-1890",
+    "watson-behaviorisme-1913",
+    "nuremberg-code-1947",
+    "kahneman-tversky-heuristieken-1974",
+    "belmont-report-1979",
+    "milgram-gehoorzaamheid-1963",
+    "osc-replicatie-2015"
+  ],
+  "people": [
+    "wundt",
+    "ebbinghaus",
+    "william-james",
+    "john-b-watson",
+    "stanley-milgram",
+    "daniel-kahneman",
+    "amos-tversky"
+  ]
 }

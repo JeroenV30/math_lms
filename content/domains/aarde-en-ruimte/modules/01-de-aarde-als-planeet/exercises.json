@@ -1,0 +1,1245 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je staat op een strand met je ogen 1,7 m boven zee. De afstand tot de horizon is bij benadering $d \\approx \\sqrt{2Rh}$, met $R = 6371$ km en $h$ je ooghoogte in km. Hoe ver is de horizon? Rond af op 0,1 km.",
+      "answer": 4.65,
+      "unit": "km",
+      "tolerance": 0.06,
+      "hints": [
+        "Reken de ooghoogte om naar km: 1,7 m is 0,0017 km.",
+        "Bereken $2 \\times 6371 \\times 0{,}0017$ en neem daarvan de wortel."
+      ],
+      "solution": [
+        "$h = 0{,}0017$ km.",
+        "$2Rh = 2 \\times 6371 \\times 0{,}0017 \\approx 21{,}66$.",
+        "$d = \\sqrt{21{,}66} \\approx 4{,}65$ km."
+      ],
+      "topics": [
+        "earth-shape",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 4650,
+          "message": "Dat is 4,65 km uitgedrukt in meter. Het antwoord moet in km."
+        },
+        {
+          "answer": 21.66,
+          "message": "Je bent vergeten de wortel te nemen: $d = \\sqrt{2Rh}$."
+        }
+      ]
+    },
+    {
+      "id": "01-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Aristoteles wees op de ronde schaduw van de aarde op de maan tijdens een maansverduistering. Waarom is dat een sterk argument voor een bolvormige aarde?",
+      "choices": [
+        "Alleen een bol werpt vanuit elke richting een ronde schaduw; een schijf zou in sommige standen een smalle schaduw werpen.",
+        "De maan is zelf rond, dus de schaduw op de maan is ook rond.",
+        "Tijdens een verduistering staat de zon recht boven de maan, waardoor de schaduw rond lijkt.",
+        "De schaduw van de aarde is tijdens elke verduistering even groot."
+      ],
+      "answer": "Alleen een bol werpt vanuit elke richting een ronde schaduw; een schijf zou in sommige standen een smalle schaduw werpen.",
+      "hints": [
+        "Het gaat om de vorm van het voorwerp dat de schaduw werpt, niet om de vorm van het scherm waarop de schaduw valt.",
+        "Denk aan een munt die je in verschillende standen voor een lamp houdt."
+      ],
+      "solution": [
+        "De schaduwrand is bij elke verduistering rond, ook als de zon aan de andere kant van de hemel staat.",
+        "Een platte schijf zou in schuine stand een smalle ellips als schaduw geven. Alleen een bol geeft altijd een ronde schaduw."
+      ],
+      "topics": [
+        "earth-shape",
+        "observation"
+      ],
+      "feedback": [
+        {
+          "answer": "De maan is zelf rond, dus de schaduw op de maan is ook rond.",
+          "message": "De vorm van de maan bepaalt niet de vorm van de schaduw. De schaduwrand wordt bepaald door het voorwerp dat de zonnestralen tegenhoudt, de aarde."
+        },
+        {
+          "answer": "Tijdens een verduistering staat de zon recht boven de maan, waardoor de schaduw rond lijkt.",
+          "message": "Bij een maansverduistering staan zon, aarde en maan ongeveer op één lijn, met de aarde in het midden. De zon staat dan aan de andere kant van de aarde."
+        },
+        {
+          "answer": "De schaduw van de aarde is tijdens elke verduistering even groot.",
+          "message": "De grootte kan verschillen, en bovendien zegt de grootte niets over de vorm. Het argument gaat over de ronde rand."
+        }
+      ]
+    },
+    {
+      "id": "01-003",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Op de zomerzonnewende maakt een staaf in Alexandrië een hoek van $7{,}2^\\circ$ met de zonnestralen, terwijl de zon in Syene recht boven staat. De steden liggen volgens de overlevering 5000 stadia uit elkaar. Hoeveel stadia is de omtrek van de aarde volgens deze redenering?",
+      "answer": 250000,
+      "unit": "stadia",
+      "hints": [
+        "Hoeveel keer past $7{,}2^\\circ$ in $360^\\circ$?",
+        "De afstand van 5000 stadia hoort bij die ene $7{,}2^\\circ$."
+      ],
+      "solution": [
+        "$360^\\circ / 7{,}2^\\circ = 50$.",
+        "De omtrek is $50 \\times 5000 = 250\\,000$ stadia."
+      ],
+      "topics": [
+        "earth-shape",
+        "observation"
+      ],
+      "feedback": [
+        {
+          "answer": 36000,
+          "message": "Je hebt de hoek met de afstand vermenigvuldigd. Het gaat om de verhouding van de volle cirkel tot de hoek: $360 / 7{,}2 = 50$."
+        },
+        {
+          "answer": 5000,
+          "message": "Dat is alleen de afstand tussen de twee steden. Die is een vijftigste deel van de hele omtrek."
+        }
+      ]
+    },
+    {
+      "id": "01-004",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Eratosthenes' omtrek is 250.000 stadia. Reken met het Egyptische stadion van 157,5 m. Hoeveel duizend kilometer is de omtrek? Rond af op 0,1 duizend km.",
+      "answer": 39.375,
+      "unit": "duizend km",
+      "tolerance": 0.06,
+      "hints": [
+        "157,5 m is 0,1575 km.",
+        "Vermenigvuldig 250.000 met 0,1575 en deel door 1000."
+      ],
+      "solution": [
+        "$250\\,000 \\times 0{,}1575\\ \\mathrm{km} = 39\\,375\\ \\mathrm{km}$.",
+        "Dat is 39,4 duizend km, ongeveer 1,6% minder dan de moderne omtrek langs een meridiaan (40,0 duizend km)."
+      ],
+      "topics": [
+        "earth-shape",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 46.25,
+          "message": "Dat is de uitkomst met het Attische stadion van 185 m. Hier is het Egyptische stadion van 157,5 m gegeven."
+        }
+      ]
+    },
+    {
+      "id": "01-005",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een wetenschapshistoricus zegt dat we over de nauwkeurigheid van Eratosthenes' resultaat weinig kunnen zeggen. Wat is daarvoor de belangrijkste reden?",
+      "choices": [
+        "We weten niet zeker welke lengte het gebruikte stadion had, en de afstand van 5000 stadia is waarschijnlijk afgerond.",
+        "Zijn methode berustte op de aanname dat de aarde plat is.",
+        "Hij gebruikte de schaduw van de maan in plaats van die van de zon.",
+        "Zijn boek is bewaard gebleven, maar bevat te veel rekenfouten."
+      ],
+      "answer": "We weten niet zeker welke lengte het gebruikte stadion had, en de afstand van 5000 stadia is waarschijnlijk afgerond.",
+      "hints": [
+        "De uitkomst staat in stadia; om die om te zetten naar kilometers heb je de lengte van een stadion nodig.",
+        "Is Eratosthenes' eigen boek bewaard gebleven?"
+      ],
+      "solution": [
+        "Het resultaat is in stadia, en er bestonden verschillende stadia, van ongeveer 157 tot 185 m.",
+        "De afstand van 5000 stadia is waarschijnlijk een afgerond getal en zijn boek is verloren gegaan. De methode zelf was uitstekend."
+      ],
+      "topics": [
+        "earth-shape",
+        "observation"
+      ],
+      "feedback": [
+        {
+          "answer": "Zijn methode berustte op de aanname dat de aarde plat is.",
+          "message": "Integendeel: de methode veronderstelt een bolvormige aarde. Op een vlakke aarde met verre zon zouden de schaduwen overal even lang zijn."
+        },
+        {
+          "answer": "Zijn boek is bewaard gebleven, maar bevat te veel rekenfouten.",
+          "message": "Zijn boek is verloren gegaan. We kennen de meting uit latere schrijvers, vooral Cleomedes."
+        }
+      ]
+    },
+    {
+      "id": "01-006",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke bewering over de middeleeuwen klopt met wat de bronnen laten zien?",
+      "choices": [
+        "Geleerden beschreven de aarde als een bol; het handboek van Sacrobosco (ca. 1230) werd eeuwenlang aan universiteiten gebruikt.",
+        "Alleen de kerk geloofde dat de aarde een bol was; wetenschappers dachten dat ze plat was.",
+        "Het idee van een ronde aarde kwam pas op met Columbus in 1492.",
+        "Men dacht dat schepen van de rand van de aarde konden vallen, omdat de bolvorm nog niet was ontdekt."
+      ],
+      "answer": "Geleerden beschreven de aarde als een bol; het handboek van Sacrobosco (ca. 1230) werd eeuwenlang aan universiteiten gebruikt.",
+      "hints": [
+        "Denk aan wat universiteiten in de middeleeuwen onderwezen.",
+        "Waar ging de discussie rond Columbus werkelijk over?"
+      ],
+      "solution": [
+        "Geleerden in de Latijnse en de islamitische wereld wisten dat de aarde een bol is. Dat staat bij Beda, Sacrobosco en Dante.",
+        "Het verhaal dat men de aarde plat achtte is grotendeels een 19e-eeuwse legende, onder meer door Washington Irving (1828)."
+      ],
+      "topics": [
+        "earth-shape",
+        "observation"
+      ],
+      "feedback": [
+        {
+          "answer": "Het idee van een ronde aarde kwam pas op met Columbus in 1492.",
+          "message": "De bolvorm was al in de oudheid bekend, onder meer door Aristoteles en Eratosthenes. Columbus' discussie ging over de afstand naar Azië, niet over de vorm."
+        },
+        {
+          "answer": "Alleen de kerk geloofde dat de aarde een bol was; wetenschappers dachten dat ze plat was.",
+          "message": "Het is vooral onjuist: geleerden onderwezen de bolvorm, en kerkelijke schrijvers als Beda deden dat ook."
+        }
+      ]
+    },
+    {
+      "id": "01-007",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze schrijvers en teksten in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Aristoteles, Over de hemel (ca. 350 v.Chr.)",
+        "Eratosthenes meet de aarde (ca. 240 v.Chr.)",
+        "Posidonius schat de omtrek (ca. 100 v.Chr.)",
+        "Ptolemaeus, Geografie (ca. 150 n.Chr.)",
+        "Sacrobosco, De sphaera (ca. 1230)"
+      ],
+      "hints": [
+        "Jaartallen: Aristoteles ca. 350 v.Chr., Eratosthenes ca. 240 v.Chr., Posidonius ca. 100 v.Chr., Ptolemaeus ca. 150 n.Chr., Sacrobosco ca. 1230."
+      ],
+      "solution": [
+        "Aristoteles (ca. 350 v.Chr.), Eratosthenes (ca. 240 v.Chr.), Posidonius (ca. 100 v.Chr.), Ptolemaeus (ca. 150 n.Chr.), Sacrobosco (ca. 1230)."
+      ],
+      "topics": [
+        "earth-shape",
+        "observation"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Eratosthenes meet de aarde (ca. 240 v.Chr.)",
+            "Aristoteles, Over de hemel (ca. 350 v.Chr.)",
+            "Posidonius schat de omtrek (ca. 100 v.Chr.)",
+            "Ptolemaeus, Geografie (ca. 150 n.Chr.)",
+            "Sacrobosco, De sphaera (ca. 1230)"
+          ],
+          "message": "Aristoteles schreef ruim een eeuw vóór Eratosthenes; hij vermeldt zelfs al een eerdere schatting van de omtrek."
+        }
+      ]
+    },
+    {
+      "id": "01-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Newton redeneerde dat een draaiende aarde door haar rotatie van vorm verandert. Welke vorm voorspelde hij, en wat voorspelde de meetreeks van Cassini?",
+      "choices": [
+        "Newton: afgeplat aan de polen, breder bij de evenaar. Cassini: langgerekt naar de polen.",
+        "Newton: langgerekt naar de polen. Cassini: afgeplat aan de polen.",
+        "Newton: een perfecte bol, omdat de zwaartekracht in alle richtingen gelijk is. Cassini: een afgeplatte bol.",
+        "Newton: breder bij de polen, omdat de zwaartekracht daar sterker is. Cassini: een perfecte bol."
+      ],
+      "answer": "Newton: afgeplat aan de polen, breder bij de evenaar. Cassini: langgerekt naar de polen.",
+      "hints": [
+        "Bij de evenaar is de rotatiesnelheid het grootst, en daar werkt de draaiing de zwaartekracht het sterkst tegen.",
+        "Cassini's metingen leken een kortere graad in het noorden te geven."
+      ],
+      "solution": [
+        "Door de rotatie bult de aarde bij de evenaar uit: afgeplat aan de polen (Newton).",
+        "De metingen van Cassini suggereerden een langgerekte aarde, als een ei."
+      ],
+      "topics": [
+        "earth-shape",
+        "observation"
+      ],
+      "feedback": [
+        {
+          "answer": "Newton: langgerekt naar de polen. Cassini: afgeplat aan de polen.",
+          "message": "Je hebt de twee verwisseld. Newton redeneerde uit rotatie en kwam op een afgeplatte aarde; Cassini's metingen wezen de andere kant op."
+        },
+        {
+          "answer": "Newton: een perfecte bol, omdat de zwaartekracht in alle richtingen gelijk is. Cassini: een afgeplatte bol.",
+          "message": "Newton hield juist rekening met de draaiing, die de vorm verstoort. Een perfecte bol zou alleen kloppen voor een niet-draaiend lichaam."
+        }
+      ]
+    },
+    {
+      "id": "01-009",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Eén breedtegraad is bij de evenaar ongeveer 110,57 km lang. Over zo'n kleine boog is het aardoppervlak bij benadering een cirkelboog. Bereken de kromtestraal $\\rho$ in km, waarbij een boog van $1^\\circ$ de lengte $\\rho \\cdot \\pi/180$ heeft. Rond af op hele km.",
+      "answer": 6335.4,
+      "unit": "km",
+      "tolerance": 6,
+      "hints": [
+        "Een graad is $\\pi/180$ radialen.",
+        "$\\rho = \\text{lengte} \\times 180 / \\pi$."
+      ],
+      "solution": [
+        "$\\rho = 110{,}57 \\times 180 / \\pi$.",
+        "$\\rho \\approx 6335$ km."
+      ],
+      "topics": [
+        "earth-shape",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 110.57,
+          "message": "Dat is de lengte van één graad. De kromtestraal is veel groter: $\\rho = \\text{lengte} \\times 180/\\pi$."
+        }
+      ]
+    },
+    {
+      "id": "01-010",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De expeditie in Lapland vond een graad breedte die langer was dan in Frankrijk, die in Peru een graad die korter was. Wat volgt hieruit over de vorm van de aarde?",
+      "choices": [
+        "De aarde is bij de polen afgeplat: daar is het oppervlak minder gekromd, dus een graad is er langer.",
+        "De aarde is bij de polen langgerekt: daar zijn de polen het verst van het middelpunt verwijderd.",
+        "De aarde is een perfecte bol; de verschillen komen door meetfouten in het poolgebied.",
+        "De aarde is bij de evenaar het smalst, omdat een graad daar het kortst is."
+      ],
+      "answer": "De aarde is bij de polen afgeplat: daar is het oppervlak minder gekromd, dus een graad is er langer.",
+      "hints": [
+        "Hoe vlakker een stuk oppervlak, hoe verder je moet lopen voor dezelfde hoekverandering.",
+        "Op een perfecte bol zijn alle graden even lang."
+      ],
+      "solution": [
+        "Een langere graad betekent een grotere kromtestraal, dus een vlakker oppervlak.",
+        "Dat past bij een afgeplatte aarde: de polen liggen iets dichter bij het middelpunt dan de evenaar."
+      ],
+      "topics": [
+        "earth-shape",
+        "observation"
+      ],
+      "feedback": [
+        {
+          "answer": "De aarde is bij de polen langgerekt: daar zijn de polen het verst van het middelpunt verwijderd.",
+          "message": "Dan zou het oppervlak bij de polen juist sterker gekromd zijn en een graad korter. Je ziet het omgekeerde, dus de aarde is daar afgeplat."
+        },
+        {
+          "answer": "De aarde is een perfecte bol; de verschillen komen door meetfouten in het poolgebied.",
+          "message": "Op een bol zijn alle graden even lang. De verschillen (circa 1 procent) waren groter dan de meetfout, en de Peruaanse meting wees dezelfde kant op."
+        }
+      ]
+    },
+    {
+      "id": "01-011",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Je maakt een model van de aarde als globe met een middellijn van 0,30 m (de werkelijke middellijn is 12.742 km). Op dezelfde schaal ligt de maan op 384.400 km van de aarde. Op hoeveel meter van de globe moet je de maan plaatsen? Rond af op 0,1 m.",
+      "answer": 9.05,
+      "unit": "m",
+      "tolerance": 0.1,
+      "hints": [
+        "Bereken de schaalfactor: 0,30 m komt overeen met 12.742 km.",
+        "Vermenigvuldig 384.400 km met die factor en reken om naar meters."
+      ],
+      "solution": [
+        "Schaal: $0{,}30\\ \\mathrm{m} / 12\\,742\\ \\mathrm{km} \\approx 2{,}35 \\times 10^{-5}\\ \\mathrm{m/km}$.",
+        "$384\\,400 \\times 2{,}354 \\times 10^{-5} \\approx 9{,}05$ m."
+      ],
+      "topics": [
+        "scale",
+        "earth-shape"
+      ],
+      "feedback": [
+        {
+          "answer": 0.9,
+          "message": "Je hebt een factor 10 te weinig. Controleer de omrekening van km naar m."
+        }
+      ]
+    },
+    {
+      "id": "01-012",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke berg heeft zijn top op de grootste afstand van het middelpunt van de aarde?",
+      "choices": [
+        "De Chimborazo in Ecuador, doordat hij vlak bij de evenaar ligt waar de aarde uitpuilt.",
+        "De Mount Everest, omdat hij de hoogste top boven zeeniveau heeft.",
+        "De K2, omdat die op een grotere breedte ligt dan de Everest.",
+        "Alle bergtoppen liggen even ver van het middelpunt, omdat de aarde een bol is."
+      ],
+      "answer": "De Chimborazo in Ecuador, doordat hij vlak bij de evenaar ligt waar de aarde uitpuilt.",
+      "hints": [
+        "Hoogte boven zeeniveau is iets anders dan afstand tot het middelpunt.",
+        "Waar is de straal van de aarde het grootst?"
+      ],
+      "solution": [
+        "De evenaarstraal is ongeveer 21 km groter dan de poolstraal.",
+        "De top van de Chimborazo ligt op ongeveer 6384 km van het middelpunt, die van de Everest op ongeveer 6382 km."
+      ],
+      "topics": [
+        "earth-shape",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": "De Mount Everest, omdat hij de hoogste top boven zeeniveau heeft.",
+          "message": "Zeeniveau volgt de afgeplatte vorm van de aarde. Wie de afstand tot het middelpunt wil weten, moet ook rekening houden met de uitpuiling bij de evenaar."
+        },
+        {
+          "answer": "Alle bergtoppen liggen even ver van het middelpunt, omdat de aarde een bol is.",
+          "message": "De aarde is geen perfecte bol: de evenaarstraal is ongeveer 21 km groter dan de poolstraal."
+        }
+      ]
+    },
+    {
+      "id": "01-013",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In de Mercator-projectie worden lengtes op breedte $\\varphi$ met een factor $1/\\cos\\varphi$ vergroot in beide richtingen, dus oppervlakten met $1/\\cos^2\\varphi$. Met welke factor wordt een oppervlak op $60^\\circ$ noorderbreedte vergroot? ($\\cos 60^\\circ = 0{,}5$)",
+      "answer": 4,
+      "unit": "keer",
+      "hints": [
+        "De oppervlaktefactor is het kwadraat van de lengtefactor.",
+        "$1/\\cos 60^\\circ = 2$."
+      ],
+      "solution": [
+        "Lengtefactor: $1/0{,}5 = 2$.",
+        "Oppervlaktefactor: $2^2 = 4$."
+      ],
+      "topics": [
+        "scale",
+        "earth-shape"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Dat is de factor voor een lengte. Een oppervlak wordt in twee richtingen vergroot, dus met het kwadraat daarvan."
+        }
+      ]
+    },
+    {
+      "id": "01-014",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Leg uit waarom elke platte kaart van de wereld vervormt, en waarom er toch meerdere soorten wereldkaarten naast elkaar bestaan.",
+      "answer": "Een bol kan niet zonder rekken of scheuren plat worden gelegd (Gauss). Elke projectie behoudt dus iets (vorm, oppervlakte, afstand of richting) ten koste van iets anders. Welke kaart geschikt is, hangt af van de vraag die je stelt.",
+      "min_length": 60,
+      "hints": [
+        "Denk aan een sinaasappelschil die je plat probeert te drukken.",
+        "Wat wil een zeevaarder bewaren, en wat wil iemand die landoppervlakten vergelijkt?"
+      ],
+      "solution": [
+        "Een bolvormig oppervlak laat zich niet zonder vervorming op een plat vlak afbeelden (Gauss, 1827).",
+        "Elke projectie bewaart dus één eigenschap, bijvoorbeeld de koers (Mercator) of de oppervlakte (Gall-Peters), en vervormt andere.",
+        "Daarom kies je de projectie die past bij de vraag: er bestaat geen kaart die alles tegelijk goed weergeeft."
+      ],
+      "topics": [
+        "earth-shape",
+        "scale"
+      ]
+    },
+    {
+      "id": "01-015",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "De aarde draait in 86.164 s om haar as. Een plaats op 52,4° noorderbreedte beweegt langs een cirkel met omtrek $40\\,075 \\cdot \\cos 52{,}4^\\circ$ km, met $\\cos 52{,}4^\\circ = 0{,}610$. Hoe groot is de snelheid van die plaats door de draaiing, in m/s? Rond af op hele m/s.",
+      "answer": 284,
+      "unit": "m/s",
+      "tolerance": 2,
+      "hints": [
+        "Bereken eerst de omtrek van de breedtecirkel in km.",
+        "Snelheid = omtrek / tijd; reken km om naar m."
+      ],
+      "solution": [
+        "Omtrek: $40\\,075 \\times 0{,}610 \\approx 24\\,446$ km.",
+        "$24\\,446\\,000\\ \\mathrm{m} / 86\\,164\\ \\mathrm{s} \\approx 284$ m/s."
+      ],
+      "topics": [
+        "seasons",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 465,
+          "message": "Dat is de snelheid op de evenaar. Op 52,4° is de cirkel kleiner, dus ook de snelheid: vermenigvuldig met $\\cos\\varphi$."
+        },
+        {
+          "answer": 0.284,
+          "message": "Je hebt de snelheid in km/s berekend. De vraag is in m/s."
+        }
+      ]
+    },
+    {
+      "id": "01-016",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een Foucaultslinger draait zijn zwaaivlak met $15^\\circ \\times \\sin\\varphi$ per uur, waarbij $\\varphi$ de breedtegraad is. Hoeveel graden per uur draait het zwaaivlak in Amsterdam ($\\varphi = 52{,}4^\\circ$, $\\sin\\varphi = 0{,}792$)? Rond af op 0,1°.",
+      "answer": 11.88,
+      "unit": "°/uur",
+      "tolerance": 0.1,
+      "hints": [
+        "Vul de formule in: $15 \\times \\sin 52{,}4^\\circ$.",
+        "Op de evenaar is $\\sin 0^\\circ = 0$: daar draait het zwaaivlak niet."
+      ],
+      "solution": [
+        "$15 \\times 0{,}792 = 11{,}88^\\circ$ per uur.",
+        "In een etmaal is dat ruim $285^\\circ$, nog net geen volledige draai."
+      ],
+      "topics": [
+        "seasons"
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Dat geldt alleen op de pool, waar $\\sin\\varphi = 1$. Op andere breedtes moet je met $\\sin\\varphi$ vermenigvuldigen."
+        }
+      ]
+    },
+    {
+      "id": "01-017",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een zonnedag duurt 86.400 s en de aarde draait in 86.164 s om haar as ten opzichte van de sterren. Hoeveel minuten eerder komt een ster elke dag op? Rond af op 0,1 minuut.",
+      "answer": 3.93,
+      "unit": "min",
+      "tolerance": 0.1,
+      "hints": [
+        "Bereken het verschil in seconden.",
+        "Deel door 60."
+      ],
+      "solution": [
+        "$86\\,400 - 86\\,164 = 236$ s.",
+        "$236 / 60 \\approx 3{,}9$ min, ongeveer 3 minuten en 56 seconden."
+      ],
+      "topics": [
+        "seasons"
+      ],
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Een etmaal duurt 24 uur, maar het verschil met de sterrendag is slechts enkele minuten."
+        }
+      ]
+    },
+    {
+      "id": "01-018",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom is het in Nederland in juli warmer dan in januari?",
+      "choices": [
+        "De aardas staat schuin, dus de zon staat in juli hoger en is langer boven de horizon.",
+        "De aarde staat in juli dichter bij de zon dan in januari.",
+        "In juli is de zon zelf heter dan in januari.",
+        "In juli draait de aarde sneller om haar as, waardoor de dagen langer zijn."
+      ],
+      "answer": "De aardas staat schuin, dus de zon staat in juli hoger en is langer boven de horizon.",
+      "hints": [
+        "Op welk moment staat de aarde het dichtst bij de zon, en welk seizoen heeft Nederland dan?",
+        "Twee dingen veranderen met de seizoenen: de hoogte van de zon en de daglengte."
+      ],
+      "solution": [
+        "De aarde staat begin januari het dichtst bij de zon, toch is het dan winter in Nederland.",
+        "De seizoenen komen door de schuine aardas: een hogere zon en een langere dag in de zomer."
+      ],
+      "topics": [
+        "seasons"
+      ],
+      "feedback": [
+        {
+          "answer": "De aarde staat in juli dichter bij de zon dan in januari.",
+          "message": "Het is precies omgekeerd: begin juli is de aarde op haar verst van de zon (ongeveer 152 miljoen km), begin januari op haar dichtst (ongeveer 147 miljoen km)."
+        },
+        {
+          "answer": "In juli draait de aarde sneller om haar as, waardoor de dagen langer zijn.",
+          "message": "De draaisnelheid om de as is vrijwel constant. De daglengte verandert door de stand van de aardas ten opzichte van de zon."
+        }
+      ]
+    },
+    {
+      "id": "01-019",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Op de zomerzonnewende staat de zon loodrecht boven $23{,}4^\\circ$ noorderbreedte. Op het middaguur is de hoogte van de zon boven de horizon in een plaats op breedte $\\varphi$ gelijk aan $90^\\circ - |\\varphi - 23{,}4^\\circ|$. Hoe hoog staat de zon op die dag op het middaguur in Utrecht ($\\varphi = 52{,}1^\\circ$)? Rond af op 0,1°.",
+      "answer": 61.3,
+      "unit": "°",
+      "tolerance": 0.2,
+      "hints": [
+        "Bereken eerst $52{,}1^\\circ - 23{,}4^\\circ$.",
+        "Trek dat verschil af van $90^\\circ$."
+      ],
+      "solution": [
+        "$52{,}1 - 23{,}4 = 28{,}7$.",
+        "$90 - 28{,}7 = 61{,}3^\\circ$."
+      ],
+      "topics": [
+        "seasons"
+      ],
+      "feedback": [
+        {
+          "answer": 37.9,
+          "message": "Dat is de zonshoogte op de equinox ($90^\\circ - 52{,}1^\\circ$). Op de zomerzonnewende staat de zon hoger, met $23{,}4^\\circ$."
+        },
+        {
+          "answer": 14.5,
+          "message": "Dat is de zonshoogte op de winterzonnewende. In de zomer moet je $23{,}4^\\circ$ optellen bij $90^\\circ - \\varphi$."
+        }
+      ]
+    },
+    {
+      "id": "01-020",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Iemand beweert: In de zomer staat de zon op het middaguur overal in Europa recht boven je. Waarom klopt dat niet?",
+      "choices": [
+        "De zon kan alleen loodrecht boven je staan tussen de keerkringen, op ten hoogste 23,4° noorderbreedte of zuiderbreedte.",
+        "De zon staat in de zomer alleen recht boven de evenaar.",
+        "De zon staat nooit recht boven een plaats, alleen schuin.",
+        "Dat klopt wel, maar alleen op 21 juni."
+      ],
+      "answer": "De zon kan alleen loodrecht boven je staan tussen de keerkringen, op ten hoogste 23,4° noorderbreedte of zuiderbreedte.",
+      "hints": [
+        "Op welke breedte staat de zon loodrecht boven op 21 juni?",
+        "Europa ligt tussen ongeveer $36^\\circ$ en $71^\\circ$ noorderbreedte."
+      ],
+      "solution": [
+        "Door de schuine aardas komt de loodrechte zon niet verder dan de keerkringen ($23{,}4^\\circ$).",
+        "Europa ligt daarboven, dus de zon staat er nooit in het zenit."
+      ],
+      "topics": [
+        "seasons"
+      ],
+      "feedback": [
+        {
+          "answer": "De zon staat in de zomer alleen recht boven de evenaar.",
+          "message": "Rond de equinoxen staat de zon boven de evenaar, in de zomer juist boven de keerkring van Kreeft op 23,4° noorderbreedte."
+        },
+        {
+          "answer": "De zon staat nooit recht boven een plaats, alleen schuin.",
+          "message": "Binnen de keerkringen staat de zon wel degelijk soms loodrecht boven je."
+        }
+      ]
+    },
+    {
+      "id": "01-021",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze stappen in de volgorde van oorzaak naar gevolg, om te verklaren waarom het in de zomer warmer is.",
+      "answer": [
+        "De aardas staat schuin en wijst tijdens de omloop steeds dezelfde richting in",
+        "In juni is het noordelijk halfrond naar de zon toe gekanteld",
+        "De zon staat hoger aan de hemel en is langer boven de horizon",
+        "Per vierkante meter komt meer zonne-energie binnen, en gedurende langere tijd",
+        "De grond en de lucht warmen sterker op"
+      ],
+      "hints": [
+        "Begin bij de stand van de aardas, eindig bij de temperatuur."
+      ],
+      "solution": [
+        "De schuine aardas (oorzaak) bepaalt de stand ten opzichte van de zon, daaruit volgen de zonshoogte en daglengte, en daaruit de verwarming."
+      ],
+      "topics": [
+        "seasons"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "De aardas staat schuin en wijst tijdens de omloop steeds dezelfde richting in",
+            "De zon staat hoger aan de hemel en is langer boven de horizon",
+            "In juni is het noordelijk halfrond naar de zon toe gekanteld",
+            "Per vierkante meter komt meer zonne-energie binnen, en gedurende langere tijd",
+            "De grond en de lucht warmen sterker op"
+          ],
+          "message": "Eerst moet het halfrond naar de zon gekanteld zijn, en pas daardoor staat de zon hoger."
+        }
+      ]
+    },
+    {
+      "id": "01-022",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Op een equinox (zondeclinatie $0^\\circ$) meet een navigator op het middaguur een zonshoogte van $41{,}5^\\circ$ boven de zuidelijke horizon. Voor een waarnemer ten noorden van de loodrechte zon geldt $\\varphi = 90^\\circ - h + \\delta$. Op welke noorderbreedte bevindt hij zich? Rond af op 0,1°.",
+      "answer": 48.5,
+      "unit": "°",
+      "tolerance": 0.1,
+      "hints": [
+        "Vul in: $h = 41{,}5^\\circ$ en $\\delta = 0^\\circ$.",
+        "Trek de zonshoogte af van $90^\\circ$."
+      ],
+      "solution": [
+        "$\\varphi = 90^\\circ - 41{,}5^\\circ + 0^\\circ = 48{,}5^\\circ$ noorderbreedte."
+      ],
+      "topics": [
+        "coordinates",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 41.5,
+          "message": "Dat is de zonshoogte zelf. De breedte is het complement daarvan: $90^\\circ - h$ (bij declinatie $0^\\circ$)."
+        },
+        {
+          "answer": 131.5,
+          "message": "Je hebt de zonshoogte bij $90^\\circ$ opgeteld. Je moet haar ervan aftrekken."
+        }
+      ]
+    },
+    {
+      "id": "01-023",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een schip bepaalt de lengte uit de tijd. Op het moment van plaatselijk middag (zon op het hoogst) staat de chronometer, ingesteld op Greenwichtijd, op 15:20. De aarde draait $15^\\circ$ per uur. Op hoeveel graden westerlengte ligt het schip?",
+      "answer": 50,
+      "unit": "°",
+      "hints": [
+        "Hoeveel uur is het in Greenwich al na het middaguur?",
+        "3 uur 20 minuten is $3\\tfrac{1}{3}$ uur. Vermenigvuldig met $15^\\circ$ per uur."
+      ],
+      "solution": [
+        "15:20 − 12:00 = 3 uur 20 min $= 3\\tfrac{1}{3}$ uur.",
+        "$3\\tfrac{1}{3} \\times 15^\\circ = 50^\\circ$, westelijk van Greenwich omdat het daar later is geworden dan het plaatselijk middaguur."
+      ],
+      "topics": [
+        "coordinates",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 230,
+          "message": "Je hebt 15:20 uur zelf met $15^\\circ$ vermenigvuldigd. Je moet het verschil met het plaatselijk middaguur (12:00) nemen."
+        }
+      ]
+    },
+    {
+      "id": "01-024",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Harrisons chronometer H4 liep na een reis van 81 dagen ongeveer 5 seconden achter. Aan de evenaar is $1^\\circ$ lengte ongeveer 111,2 km en de aarde draait $1^\\circ$ in 240 s. Hoeveel kilometer fout in de lengte op de evenaar komt overeen met 5 s tijdsfout? Rond af op 0,1 km.",
+      "answer": 2.32,
+      "unit": "km",
+      "tolerance": 0.1,
+      "hints": [
+        "Reken 5 s om naar graden: $5/240$.",
+        "Vermenigvuldig het aantal graden met 111,2 km."
+      ],
+      "solution": [
+        "$5/240 \\approx 0{,}0208^\\circ$.",
+        "$0{,}0208 \\times 111{,}2 \\approx 2{,}3$ km."
+      ],
+      "topics": [
+        "coordinates",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 55.6,
+          "message": "Dat is de afstand voor een halve graad, de eis van de prijs van 1714. Hier gaat het om 5 seconden, een veel kleinere afwijking."
+        }
+      ]
+    },
+    {
+      "id": "01-025",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom ligt de nulmeridiaan door Greenwich?",
+      "choices": [
+        "Dat is een afspraak, vastgelegd in 1884; elke andere meridiaan had ook gekund.",
+        "Greenwich ligt precies op het punt waar de aarde om haar as draait.",
+        "Greenwich ligt midden tussen de twee polen, net als de evenaar.",
+        "Daar staat de zon altijd om 12 uur op haar hoogst."
+      ],
+      "answer": "Dat is een afspraak, vastgelegd in 1884; elke andere meridiaan had ook gekund.",
+      "hints": [
+        "Wat legt de plaats van de evenaar vast, en wat zou de plaats van de nulmeridiaan vastleggen?",
+        "Denk aan de conferentie in Washington."
+      ],
+      "solution": [
+        "De evenaar volgt uit de rotatieas. Een nulmeridiaan heeft geen natuurlijke plaats.",
+        "In 1884 kozen 22 landen op een conferentie in Washington voor de meridiaan door Greenwich."
+      ],
+      "topics": [
+        "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": "Greenwich ligt midden tussen de twee polen, net als de evenaar.",
+          "message": "De polen liggen op elke meridiaan even ver weg. Alleen de evenaar volgt uit de draaiing van de aarde; een nulmeridiaan is een afspraak."
+        },
+        {
+          "answer": "Daar staat de zon altijd om 12 uur op haar hoogst.",
+          "message": "Dat is alleen bij benadering zo, en alleen in Greenwich zelf. Andere plaatsen hebben een ander middaguur, en door het jaar heen schommelt het ook."
+        }
+      ]
+    },
+    {
+      "id": "01-026",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen rond het lengteprobleem in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Ptolemaeus geeft coördinaten van ongeveer achtduizend plaatsen (ca. 150)",
+        "Britse prijs van 20.000 pond voor een methode om lengte te bepalen (1714)",
+        "Harrisons H4 loopt na 81 dagen ongeveer 5 s achter (1761–62)",
+        "Meridiaanconferentie in Washington kiest Greenwich (1884)",
+        "Nederland stapt over op Midden-Europese tijd (1940)"
+      ],
+      "hints": [
+        "Jaartallen: ca. 150, 1714, 1761–62, 1884, 1940."
+      ],
+      "solution": [
+        "Ptolemaeus (ca. 150), de Longitude Act (1714), H4 (1761–62), de Washingtonconferentie (1884) en de Nederlandse overstap naar MET (1940)."
+      ],
+      "topics": [
+        "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Ptolemaeus geeft coördinaten van ongeveer achtduizend plaatsen (ca. 150)",
+            "Harrisons H4 loopt na 81 dagen ongeveer 5 s achter (1761–62)",
+            "Britse prijs van 20.000 pond voor een methode om lengte te bepalen (1714)",
+            "Meridiaanconferentie in Washington kiest Greenwich (1884)",
+            "Nederland stapt over op Midden-Europese tijd (1940)"
+          ],
+          "message": "De prijs werd in 1714 uitgeloofd; Harrisons H4 werd pas in 1761 op zee getest."
+        }
+      ]
+    },
+    {
+      "id": "01-027",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een seismometer registreert een P-golf en 45 s later de S-golf van dezelfde aardbeving. In de korst is $v_P = 6{,}0$ km/s en $v_S = 3{,}5$ km/s. Gebruik $d = \\Delta t \\cdot \\dfrac{v_P v_S}{v_P - v_S}$. Hoe ver ligt de aardbeving? Rond af op hele km.",
+      "answer": 378,
+      "unit": "km",
+      "tolerance": 2,
+      "hints": [
+        "Bereken eerst $v_P v_S / (v_P - v_S)$: dat is het aantal km afstand per seconde verschil.",
+        "Vermenigvuldig met $\\Delta t = 45$ s."
+      ],
+      "solution": [
+        "$6{,}0 \\times 3{,}5 / (6{,}0 - 3{,}5) = 21 / 2{,}5 = 8{,}4$ km per seconde.",
+        "$d = 45 \\times 8{,}4 = 378$ km."
+      ],
+      "topics": [
+        "earth-interior",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 270,
+          "message": "Dat is $45 \\times 6{,}0$: de afstand die een P-golf in 45 s aflegt. Het verschil in aankomsttijd is niet de reistijd van de P-golf zelf."
+        },
+        {
+          "answer": 157.5,
+          "message": "Dat is $45 \\times 3{,}5$: de afstand die de S-golf in 45 s aflegt. Het verschil in aankomsttijd is niet de reistijd van de S-golf zelf."
+        }
+      ]
+    },
+    {
+      "id": "01-028",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Uit de zwaartekracht volgt de gemiddelde dichtheid van de aarde: $\\rho = \\dfrac{3g}{4\\pi G R}$. Met $g = 9{,}81$ m/s², $G = 6{,}674 \\times 10^{-11}$ m³/(kg·s²) en $R = 6{,}371 \\times 10^{6}$ m. Wat is $\\rho$ in g/cm³? (1000 kg/m³ = 1 g/cm³) Rond af op 0,01.",
+      "answer": 5.51,
+      "unit": "g/cm³",
+      "tolerance": 0.05,
+      "hints": [
+        "Bereken de teller $3g$ en de noemer $4\\pi G R$ apart.",
+        "Het resultaat komt in kg/m³ uit; deel door 1000 voor g/cm³."
+      ],
+      "solution": [
+        "Teller: $3 \\times 9{,}81 = 29{,}43$.",
+        "Noemer: $4\\pi \\times 6{,}674\\times10^{-11} \\times 6{,}371\\times10^{6} \\approx 5{,}343\\times10^{-3}$.",
+        "$\\rho \\approx 5508$ kg/m³ $\\approx 5{,}51$ g/cm³."
+      ],
+      "topics": [
+        "earth-interior",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 5508,
+          "message": "Dat is de goede waarde in kg/m³. De vraag is in g/cm³: deel door 1000."
+        }
+      ]
+    },
+    {
+      "id": "01-029",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waaruit leiden seismologen af dat de buitenkern van de aarde vloeibaar is?",
+      "choices": [
+        "S-golven (schuifgolven) komen aan de andere kant van de aarde niet aan, en die kunnen niet door een vloeistof.",
+        "P-golven komen aan de andere kant van de aarde niet aan, omdat ze door de kern worden opgeslokt.",
+        "De kern is zo heet dat elk materiaal er vloeibaar moet zijn, ongeacht de druk.",
+        "Boringen tot in de kern hebben vloeibaar metaal opgeleverd."
+      ],
+      "answer": "S-golven (schuifgolven) komen aan de andere kant van de aarde niet aan, en die kunnen niet door een vloeistof.",
+      "hints": [
+        "Welke golfsoort kan niet door een vloeistof?",
+        "Voorbij ongeveer $103^\\circ$ van de beving komen bepaalde golven niet aan."
+      ],
+      "solution": [
+        "Een vloeistof kan geen schuifkracht overbrengen, dus S-golven worden gestopt.",
+        "Dat S-golven na de kern ontbreken, laat zien dat een groot deel van de kern vloeibaar is."
+      ],
+      "topics": [
+        "earth-interior"
+      ],
+      "feedback": [
+        {
+          "answer": "P-golven komen aan de andere kant van de aarde niet aan, omdat ze door de kern worden opgeslokt.",
+          "message": "P-golven worden door de kern afgebogen (de schaduwzone), maar ze komen aan de andere kant wel aan. Het zijn de S-golven die ontbreken."
+        },
+        {
+          "answer": "De kern is zo heet dat elk materiaal er vloeibaar moet zijn, ongeacht de druk.",
+          "message": "Temperatuur alleen zegt niet of iets vloeibaar is: de druk in de binnenkern is zo hoog dat het metaal er ondanks de hitte vast is."
+        }
+      ]
+    },
+    {
+      "id": "01-030",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De diepste boring ter wereld (Kola, 1989) bereikte 12,262 km diepte. De straal van de aarde is 6371 km. Hoeveel procent van de afstand naar het middelpunt is dat? Rond af op 0,01%.",
+      "answer": 0.19,
+      "unit": "%",
+      "tolerance": 0.01,
+      "hints": [
+        "Deel de diepte door de straal.",
+        "Vermenigvuldig met 100 voor procenten."
+      ],
+      "solution": [
+        "$12{,}262 / 6371 \\approx 0{,}001925$.",
+        "Dat is 0,19%."
+      ],
+      "topics": [
+        "earth-interior",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 1.9,
+          "message": "Je hebt een factor 10 te veel. Controleer de omrekening naar procenten: $0{,}0019 \\times 100 = 0{,}19$."
+        },
+        {
+          "answer": 0.0019,
+          "message": "Dat is de verhouding als gewoon getal. De vraag is naar een percentage, dus vermenigvuldig met 100."
+        }
+      ]
+    },
+    {
+      "id": "01-031",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze ontdekkingen over het binnenste van de aarde in de volgorde waarin ze zijn gedaan, de oudste eerst.",
+      "answer": [
+        "Oldham: de aarde heeft een kern (1906)",
+        "Mohorovičić: de grens tussen korst en mantel (1909)",
+        "Gutenberg: de kern begint op ongeveer 2900 km diepte (1913)",
+        "Jeffreys: de kern is vloeibaar (1926)",
+        "Lehmann: er zit een vaste binnenkern in de kern (1936)"
+      ],
+      "hints": [
+        "Jaartallen: 1906, 1909, 1913, 1926, 1936."
+      ],
+      "solution": [
+        "Oldham (1906), Mohorovičić (1909), Gutenberg (1913), Jeffreys (1926), Lehmann (1936)."
+      ],
+      "topics": [
+        "earth-interior"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Mohorovičić: de grens tussen korst en mantel (1909)",
+            "Oldham: de aarde heeft een kern (1906)",
+            "Gutenberg: de kern begint op ongeveer 2900 km diepte (1913)",
+            "Jeffreys: de kern is vloeibaar (1926)",
+            "Lehmann: er zit een vaste binnenkern in de kern (1936)"
+          ],
+          "message": "Oldham publiceerde zijn kernhypothese in 1906, drie jaar vóór de beving in de Kupavallei die Mohorovičić analyseerde."
+        }
+      ]
+    },
+    {
+      "id": "01-032",
+      "type": "choice",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Inge Lehmann zag in 1936 zwakke P-golven in de schaduwzone van de kern, waar volgens het model van een homogene vloeibare kern geen P-golven zouden moeten aankomen. Welke conclusie trok ze?",
+      "choices": [
+        "Er zit een kleine vaste kern binnenin de vloeibare kern, waarop golven worden teruggekaatst of gebroken.",
+        "De S-golven kunnen toch door een vloeistof, dus de kern is niet vloeibaar.",
+        "De seismometers waren verkeerd afgesteld, dus de signalen waren storing.",
+        "De aarde is hol, zodat golven door het midden heen kunnen reizen."
+      ],
+      "answer": "Er zit een kleine vaste kern binnenin de vloeibare kern, waarop golven worden teruggekaatst of gebroken.",
+      "hints": [
+        "Een afwijking van een model kan een aanwijzing zijn voor een extra structuur.",
+        "Wat zou golven in de schaduwzone kunnen brengen?"
+      ],
+      "solution": [
+        "De zwakke signalen vroegen om een nieuwe grens binnen de kern.",
+        "Lehmann stelde een vaste binnenkern voor, met een straal van ongeveer 1220 km."
+      ],
+      "topics": [
+        "earth-interior"
+      ],
+      "feedback": [
+        {
+          "answer": "De seismometers waren verkeerd afgesteld, dus de signalen waren storing.",
+          "message": "De signalen kwamen op meerdere stations en bij meerdere aardbevingen terug; ze waren geen toevallige storing, maar de aanwijzing voor een nieuwe laag."
+        },
+        {
+          "answer": "De S-golven kunnen toch door een vloeistof, dus de kern is niet vloeibaar.",
+          "message": "Het gaat om P-golven in de schaduwzone. Dat S-golven niet door een vloeistof kunnen, blijft staan."
+        }
+      ]
+    },
+    {
+      "id": "01-033",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een pakket sedimentgesteente is 4,5 km dik. Gemiddeld groeit zo'n pakket met 0,15 mm per jaar. Hoeveel miljoen jaar heeft het opbouwen minstens gekost?",
+      "answer": 30,
+      "unit": "miljoen jaar",
+      "hints": [
+        "Reken 4,5 km om naar mm: 4,5 km is $4{,}5 \\times 10^6$ mm.",
+        "Deel de dikte door de groeisnelheid."
+      ],
+      "solution": [
+        "$4{,}5 \\times 10^6\\ \\mathrm{mm} / 0{,}15\\ \\mathrm{mm/jaar} = 30 \\times 10^6$ jaar.",
+        "Dat is 30 miljoen jaar."
+      ],
+      "topics": [
+        "deep-time",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 30000,
+          "message": "Je bent een factor 1000 kwijt: 4,5 km is 4,5 miljoen mm, niet 4500 mm."
+        },
+        {
+          "answer": 0.03,
+          "message": "Je hebt de groeisnelheid met de dikte vermenigvuldigd in plaats van de dikte door de snelheid te delen."
+        }
+      ]
+    },
+    {
+      "id": "01-034",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Kelvins afkoelingsformule is $t = \\dfrac{T_0^2}{\\pi \\kappa G^2}$. Neem $T_0 = 2000$ K, $\\kappa = 1{,}2 \\times 10^{-6}$ m²/s en een gradiënt $G = 0{,}0365$ K/m. Hoeveel miljoen jaar geeft dat? Reken met $3{,}156 \\times 10^{7}$ s per jaar en rond af op 0,1.",
+      "answer": 25.2,
+      "unit": "miljoen jaar",
+      "tolerance": 0.5,
+      "hints": [
+        "Bereken eerst de noemer $\\pi \\kappa G^2$ en de teller $T_0^2$.",
+        "De uitkomst staat in seconden; deel door $3{,}156 \\times 10^7$ om jaren te krijgen, en door $10^6$ voor miljoenen."
+      ],
+      "solution": [
+        "$T_0^2 = 4{,}0 \\times 10^6$.",
+        "$\\pi \\kappa G^2 = \\pi \\times 1{,}2\\times10^{-6} \\times 1{,}332\\times10^{-3} \\approx 5{,}02\\times10^{-9}$.",
+        "$t \\approx 7{,}97 \\times 10^{14}$ s $\\approx 25{,}2 \\times 10^6$ jaar."
+      ],
+      "topics": [
+        "deep-time",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 96,
+          "message": "Dat is de uitkomst met $T_0 = 3900$. Hier is $T_0 = 2000$, dus de leeftijd is kleiner: $t$ is evenredig met $T_0^2$."
+        }
+      ]
+    },
+    {
+      "id": "01-035",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Kalium-40 heeft een halfwaardetijd van 1,248 miljard jaar. Voor de resterende hoeveelheid geldt $N/N_0 = (1/2)^{t/T}$. Hoeveel procent van het oorspronkelijke kalium-40 is er na 2,5 miljard jaar nog over? Rond af op 0,1%.",
+      "answer": 24.9,
+      "unit": "%",
+      "tolerance": 0.5,
+      "hints": [
+        "Bereken eerst $t/T = 2{,}5/1{,}248$.",
+        "Dat is ongeveer 2 halfwaardetijden, dus ongeveer een kwart."
+      ],
+      "solution": [
+        "$t/T = 2{,}5/1{,}248 \\approx 2{,}003$.",
+        "$(1/2)^{2{,}003} \\approx 0{,}249$, dus ongeveer 24,9%."
+      ],
+      "topics": [
+        "deep-time",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 50,
+          "message": "Dat is wat er na één halfwaardetijd over is. Na 2,5 miljard jaar zijn er ongeveer twee halfwaardetijden verstreken."
+        }
+      ]
+    },
+    {
+      "id": "01-036",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In een mineraal is nog 12,5% van een isotoop met een halfwaardetijd van 1,25 miljard jaar over. Hoe oud is het mineraal, in miljard jaar? Er zat bij de vorming geen dochterisotoop in en het mineraal bleef gesloten.",
+      "answer": 3.75,
+      "unit": "miljard jaar",
+      "tolerance": 0.05,
+      "hints": [
+        "12,5% is $(1/2)^3$.",
+        "Drie halfwaardetijden zijn verstreken."
+      ],
+      "solution": [
+        "$12{,}5\\% = 1/8 = (1/2)^3$, dus 3 halfwaardetijden.",
+        "$3 \\times 1{,}25 = 3{,}75$ miljard jaar."
+      ],
+      "topics": [
+        "deep-time",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 1.25,
+          "message": "Dat is één halfwaardetijd, waarna 50% overblijft. Bij 12,5% zijn het er drie."
+        }
+      ]
+    },
+    {
+      "id": "01-037",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Lord Kelvin schatte de ouderdom van de aarde in 1862 op ongeveer 98 miljoen jaar. Wat was het belangrijkste gebrek aan zijn redenering?",
+      "choices": [
+        "Hij kende geen interne warmtebron (radioactief verval) en nam aan dat de aarde alleen door geleiding afkoelde, zonder stromingen in de mantel.",
+        "Hij maakte een rekenfout van een factor tien in de formule voor warmtegeleiding.",
+        "Hij ging er ten onrechte van uit dat de aarde een bol is.",
+        "Hij nam de ouderdom uit de Bijbel over en rekende die om."
+      ],
+      "answer": "Hij kende geen interne warmtebron (radioactief verval) en nam aan dat de aarde alleen door geleiding afkoelde, zonder stromingen in de mantel.",
+      "hints": [
+        "Zijn wiskunde was correct voor het model dat hij gebruikte; het ging om wat in het model ontbrak.",
+        "Welke ontdekking in 1896 veranderde het beeld van warmte in gesteente?"
+      ],
+      "solution": [
+        "Kelvins model kende alleen afkoeling door geleiding, vanuit een heet begin. Radioactief verval levert extra warmte, en stroming in de mantel (Perry, 1895) transporteert warmte sneller naar boven.",
+        "Daarom kan de aarde veel langer warm zijn gebleven dan zijn berekening liet zien."
+      ],
+      "topics": [
+        "deep-time",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": "Hij maakte een rekenfout van een factor tien in de formule voor warmtegeleiding.",
+          "message": "Zijn wiskunde klopte. Het probleem zat in de aannames: het model was onvolledig."
+        },
+        {
+          "answer": "Hij nam de ouderdom uit de Bijbel over en rekende die om.",
+          "message": "Kelvin gebruikte natuurkunde (warmtegeleiding), geen bijbelse tijdrekening. Dat deed Ussher in de 17e eeuw."
+        }
+      ]
+    },
+    {
+      "id": "01-038",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen uit de geschiedenis van de aarde in de volgorde waarin ze plaatsvonden, de oudste eerst.",
+      "answer": [
+        "Vorming van de aarde (ca. 4,54 miljard jaar geleden)",
+        "Oudste bekende zirkoonkristallen (ca. 4,4 miljard jaar geleden)",
+        "Eerste sporen van leven (ca. 3,5 miljard jaar geleden)",
+        "Cambrische explosie van dierlijk leven (ca. 539 miljoen jaar geleden)",
+        "Uitsterven van de niet-vogelachtige dinosauriërs (ca. 66 miljoen jaar geleden)",
+        "Eerste Homo sapiens (ca. 300.000 jaar geleden)"
+      ],
+      "hints": [
+        "Hoe groter het getal 'jaar geleden', hoe ouder de gebeurtenis."
+      ],
+      "solution": [
+        "4,54 miljard, 4,4 miljard, 3,5 miljard, 539 miljoen, 66 miljoen, 300.000 jaar geleden."
+      ],
+      "topics": [
+        "deep-time",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Vorming van de aarde (ca. 4,54 miljard jaar geleden)",
+            "Oudste bekende zirkoonkristallen (ca. 4,4 miljard jaar geleden)",
+            "Eerste sporen van leven (ca. 3,5 miljard jaar geleden)",
+            "Uitsterven van de niet-vogelachtige dinosauriërs (ca. 66 miljoen jaar geleden)",
+            "Cambrische explosie van dierlijk leven (ca. 539 miljoen jaar geleden)",
+            "Eerste Homo sapiens (ca. 300.000 jaar geleden)"
+          ],
+          "message": "De Cambrische explosie (539 miljoen jaar geleden) ligt ruim vóór het uitsterven van de dinosauriërs (66 miljoen jaar geleden)."
+        }
+      ]
+    },
+    {
+      "id": "01-039",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Leg uit waarom de ouderdom van de aarde wordt afgeleid uit meteorieten en niet uit de oudste gesteenten op aarde zelf. Welke aanname zit in die redenering, en welke onafhankelijke gegevens ondersteunen haar?",
+      "answer": "Aardse gesteenten worden door platentektoniek en erosie steeds hergebruikt; de oudste korst bestaat niet meer, en de oudste mineralen (circa 4,4 miljard jaar) geven slechts een ondergrens. Meteorieten zijn restanten van de bouwstenen van het zonnestelsel en zijn niet herwerkt. De aanname is dat de aarde tegelijk met de meteorieten is gevormd uit dezelfde stof. Steun: de oudste maangesteenten (ruim 4,4 miljard jaar), de leeftijd van de zon uit modellen (ongeveer 4,6 miljard jaar) en de oudste meteorietdeeltjes (4,567 miljard jaar).",
+      "min_length": 80,
+      "hints": [
+        "Wat gebeurt er met aardkorst in de loop van miljarden jaren?",
+        "Vergelijk de leeftijd van meteorieten met andere schattingen: maan en zon."
+      ],
+      "solution": [
+        "De aardkorst wordt voortdurend verwerkt door platentektoniek en erosie. Het oudste gesteente (ca. 4 miljard jaar) en de oudste mineralen (4,4 miljard jaar) geven daarom alleen een ondergrens voor de ouderdom van de aarde.",
+        "Meteorieten zijn restmateriaal uit het ontstaan van het zonnestelsel en zijn nauwelijks veranderd. Hun loodisotopen geven ongeveer 4,55 miljard jaar (Patterson, 1953).",
+        "De aanname is dat de aarde tegelijk met die meteorieten is gevormd. Dat wordt ondersteund door maangesteenten (ruim 4,4 miljard jaar), zonnemodellen (ongeveer 4,6 miljard jaar) en de oudste meteorietdeeltjes (4,567 miljard jaar)."
+      ],
+      "topics": [
+        "deep-time",
+        "scale"
+      ]
+    }
+  ]
+}

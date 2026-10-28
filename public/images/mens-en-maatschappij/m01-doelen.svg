@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" font-family="Georgia, serif" font-size="12">
+<rect width="600" height="250" fill="#ffffff"/>
+<defs><g id="t"><circle r="45" fill="#fff" stroke="#1f2933" stroke-width="1.5"/><circle r="30" fill="none" stroke="#1f2933"/><circle r="15" fill="none" stroke="#1f2933"/><circle r="4" fill="#1f2933"/></g></defs>
+<g transform="translate(80,90)"><use href="#t"/>
+<g fill="#3b5bdb"><circle cx="-30" cy="-25" r="4"/><circle cx="25" cy="30" r="4"/><circle cx="-10" cy="38" r="4"/><circle cx="32" cy="-20" r="4"/></g></g>
+<g transform="translate(230,90)"><use href="#t"/>
+<g fill="#3b5bdb"><circle cx="-28" cy="-28" r="4"/><circle cx="-24" cy="-30" r="4"/><circle cx="-30" cy="-23" r="4"/><circle cx="-26" cy="-25" r="4"/></g></g>
+<g transform="translate(380,90)"><use href="#t"/>
+<g fill="#3b5bdb"><circle cx="5" cy="-8" r="4"/><circle cx="-8" cy="6" r="4"/><circle cx="9" cy="10" r="4"/><circle cx="-4" cy="-3" r="4"/></g></g>
+<g transform="translate(520,90)"><use href="#t"/>
+<g fill="#3b5bdb"><circle cx="2" cy="-2" r="4"/><circle cx="-2" cy="3" r="4"/><circle cx="3" cy="2" r="4"/><circle cx="-1" cy="-3" r="4"/></g></g>
+<g text-anchor="middle" fill="#1f2933">
+<text x="80" y="170" font-weight="bold">Niet betrouwbaar,</text><text x="80" y="186">niet valide</text>
+<text x="230" y="170" font-weight="bold">Betrouwbaar,</text><text x="230" y="186">niet valide</text>
+<text x="380" y="170" font-weight="bold">Niet betrouwbaar,</text><text x="380" y="186">gemiddeld op doel</text>
+<text x="520" y="170" font-weight="bold">Betrouwbaar</text><text x="520" y="186">en valide</text>
+<text x="300" y="230" font-size="12">Schoten dicht bij elkaar: betrouwbaar. Schoten rond het midden: valide.</text>
+</g>
+</svg>

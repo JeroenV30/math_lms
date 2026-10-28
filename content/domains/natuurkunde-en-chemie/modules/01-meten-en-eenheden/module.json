@@ -6,23 +6,32 @@
   "level": "fundamenten",
   "status": "available",
   "historical_period": "Franse Revolutie",
-  "estimated_difficulty": 1,
-  "estimated_minutes": 15,
+  "estimated_difficulty": 2,
+  "estimated_minutes": 240,
   "prerequisites": [],
   "topics": [
     "measurement",
     "units",
-    "scientific-method"
+    "scientific-method",
+    "si-system",
+    "unit-conversion",
+    "prefixes",
+    "uncertainty",
+    "significant-figures",
+    "dimensional-analysis",
+    "estimation",
+    "density"
   ],
-  "core_question": "Waaruit bestaat de wereld en waarom beweegt en verandert ze?",
-  "summary": "Waaruit bestaat de wereld en waarom beweegt en verandert ze? Van de vier elementen van Empedocles via Newton en Lavoisier naar atomen, energie en quantummechanica.",
+  "core_question": "Hoe maak je van een eigenschap van de natuur een getal waarop iemand anders kan vertrouwen?",
+  "summary": "Van de platina meter van 1799 naar natuurconstanten in het SI: grootheden en eenheden, omrekenen, meetonzekerheid, dimensieanalyse en schatten.",
   "learning_goals": [
-    "Je kunt uitleggen waarom een meetresultaat zowel een getalswaarde als een eenheid nodig heeft.",
-    "Je kunt beschrijven dat meten neerkomt op vergelijken met een afgesproken maat.",
-    "Je kunt het verschil benoemen tussen waarneming, meting en interpretatie.",
-    "Je kunt uitleggen waarom eenheden, meetmethode en herhaalbaarheid nodig zijn om resultaten te vergelijken.",
-    "Je kunt herkennen dat een instrument en zijn afleesnauwkeurigheid grenzen stellen aan een meting.",
-    "Je kunt beschrijven hoe grootheden en eenheden natuurkunde en chemie met elkaar verbinden."
+    "Je kunt uitleggen waarom een meetresultaat uit een getalswaarde, een eenheid en een onzekerheid bestaat.",
+    "Je kunt grootheden, basiseenheden en afgeleide eenheden van het SI onderscheiden en een dichtheid berekenen.",
+    "Je kunt omrekenen met machten van tien en voorvoegsels, ook bij oppervlak, volume en samengestelde eenheden.",
+    "Je kunt de afleesonzekerheid bepalen, een meetreeks middelen en relatieve onzekerheden combineren.",
+    "Je kunt het juiste aantal significante cijfers kiezen en beoordelen of twee meetresultaten consistent zijn.",
+    "Je kunt met dimensieanalyse een formule controleren en met een Fermi-schatting een orde van grootte bepalen.",
+    "Je kunt beschrijven hoe de definities van meter, seconde en kilogram zich ontwikkelden, van een voorwerp naar natuurconstanten."
   ],
   "glossary": [
     {
@@ -60,16 +69,125 @@
     {
       "term": "Dichtheid",
       "definition": "De massa per volume-eenheid van een materiaal."
+    },
+    {
+      "term": "Dimensie",
+      "definition": "De basissoort van een grootheid (lengte, massa, tijd, ...), onafhankelijk van de gekozen eenheid."
+    },
+    {
+      "term": "Afleesonzekerheid",
+      "definition": "De onzekerheid die voortkomt uit de schaalverdeling van een instrument; vuistregel: een half schaaldeel."
+    },
+    {
+      "term": "Significante cijfers",
+      "definition": "De cijfers van een getal die iets zeggen over de nauwkeurigheid van een meting."
+    },
+    {
+      "term": "Precisie en juistheid",
+      "definition": "Precisie is de overeenstemming tussen herhaalde metingen; juistheid is de overeenstemming van het gemiddelde met de werkelijke waarde."
+    },
+    {
+      "term": "Fermi-schatting",
+      "definition": "Een schatting van de orde van grootte door een onbekende grootheid op te splitsen in deelschattingen."
+    },
+    {
+      "term": "Artefact-standaard",
+      "definition": "Een voorwerp dat per definitie de eenheid vastlegt, zoals het prototype van de kilogram tot 2019."
     }
   ],
   "lessons": [
     {
       "slug": "introductie",
-      "title": "Meten is vergelijken",
+      "title": "Een maat die van niemand is",
       "file": "01-introductie.md",
       "kind": "intro"
+    },
+    {
+      "slug": "grootheden-en-eenheden",
+      "title": "Grootheden en eenheden",
+      "file": "02-grootheden-en-eenheden.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "omrekenen-en-machten-van-tien",
+      "title": "Omrekenen en machten van tien",
+      "file": "03-omrekenen-en-machten-van-tien.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "meetonzekerheid",
+      "title": "Meetonzekerheid en significante cijfers",
+      "file": "04-meetonzekerheid-en-significante-cijfers.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "dimensies-en-schatten",
+      "title": "Dimensies en schatten",
+      "file": "05-dimensies-en-schatten.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "meter-en-kilogram",
+      "title": "De meter en de kilogram: van voorwerp naar constante",
+      "file": "06-meter-en-kilogram.md",
+      "kind": "history"
+    },
+    {
+      "slug": "meetpracticum",
+      "title": "Meetpracticum: welk metaal is dit?",
+      "file": "07-meetpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
     }
   ],
-  "timeline": [],
-  "people": []
+  "timeline": [
+    "meter-voorstel-1791",
+    "meridiaanmeting-1792",
+    "metrieke-stelsel-1795",
+    "metre-des-archives-1799",
+    "meterconventie-1875",
+    "prototypen-1889",
+    "trinity-fermi-1945",
+    "seconde-cesium-1967",
+    "meter-lichtsnelheid-1983",
+    "herdefinitie-si-2019"
+  ],
+  "people": [
+    "delambre",
+    "mechain",
+    "lavoisier",
+    "archimedes",
+    "fermi"
+  ],
+  "formulas": [
+    {
+      "name": "Dichtheid",
+      "latex": "\\rho = \\frac{m}{V}",
+      "usage": "Massa per volume; stofeigenschap om materialen te herkennen.",
+      "origin": "Archimedes en de gouden kroon (3e eeuw v.Chr.)"
+    },
+    {
+      "name": "Relatieve onzekerheid",
+      "latex": "\\frac{\\Delta x}{x}",
+      "usage": "Onzekerheid als aandeel van de waarde; bij vermenigvuldigen en delen tellen relatieve onzekerheden op.",
+      "origin": "Experimentele natuurkunde"
+    },
+    {
+      "name": "Gemiddelde van metingen",
+      "latex": "\\bar{x} = \\frac{x_1 + x_2 + \\ldots + x_n}{n}",
+      "usage": "Beste schatting van de waarde uit herhaalde metingen.",
+      "origin": "Praktijk van de experimentele natuurkunde"
+    },
+    {
+      "name": "Slingertijd",
+      "latex": "T = 2\\pi\\sqrt{\\frac{L}{g}}",
+      "usage": "Voorbeeld van een verband dat op een constante na uit dimensieanalyse volgt.",
+      "origin": "Galilei en Huygens"
+    }
+  ]
 }

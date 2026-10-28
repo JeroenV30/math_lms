@@ -1,0 +1,423 @@
+{
+  "title": "Hoofdstuktoets – Meten en eenheden",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor ‘beheerst’.",
+  "questions": [
+    {
+      "id": "01-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Waaruit bestaat een volledig meetresultaat?",
+      "choices": [
+        "Alleen een getal",
+        "Een getalswaarde, een eenheid en een uitspraak over de onzekerheid",
+        "Een getal en de naam van het instrument",
+        "Een eenheid en een onzekerheid, zonder getal"
+      ],
+      "answer": "Een getalswaarde, een eenheid en een uitspraak over de onzekerheid",
+      "hints": [],
+      "solution": [
+        "Een getal zonder eenheid is betekenisloos, en zonder onzekerheid weet je niet hoe goed je het getal kent."
+      ],
+      "feedback": [
+        {
+          "answer": "Alleen een getal",
+          "message": "Zonder eenheid weet je niet welke grootheid en welke maat bedoeld wordt."
+        }
+      ],
+      "topics": [
+        "measurement"
+      ]
+    },
+    {
+      "id": "01-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Welke combinatie van grootheid en SI-eenheid klopt?",
+      "choices": [
+        "massa en newton",
+        "kracht en kilogram",
+        "tijd en seconde",
+        "lengte en kelvin"
+      ],
+      "answer": "tijd en seconde",
+      "hints": [],
+      "solution": [
+        "De seconde is de basiseenheid van tijd."
+      ],
+      "feedback": [
+        {
+          "answer": "massa en newton",
+          "message": "De newton is de eenheid van kracht; massa heeft de kilogram."
+        },
+        {
+          "answer": "kracht en kilogram",
+          "message": "De kilogram is de eenheid van massa; kracht heeft de newton."
+        }
+      ],
+      "topics": [
+        "units",
+        "si-system"
+      ]
+    },
+    {
+      "id": "01-T03",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Reken $54\\ \\text{km/h}$ om naar $\\text{m/s}$.",
+      "unit": "m/s",
+      "answer": 15,
+      "hints": [],
+      "solution": [
+        "$54 / 3{,}6 = 15\\ \\text{m/s}$"
+      ],
+      "feedback": [
+        {
+          "answer": 194.4,
+          "message": "Je hebt met 3,6 vermenigvuldigd in plaats van gedeeld."
+        }
+      ],
+      "topics": [
+        "unit-conversion"
+      ]
+    },
+    {
+      "id": "01-T04",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een rustig hart klopt ongeveer 70 keer per minuut. Schat hoeveel slagen dat in een etmaal zijn.",
+      "answer": 100800,
+      "hints": [],
+      "solution": [
+        "$70 \\times 60 \\times 24 = 100\\,800$ slagen. In een Fermi-schatting zou ‘ongeveer $10^5$’ volstaan."
+      ],
+      "feedback": [
+        {
+          "answer": 4200,
+          "message": "Dat is het aantal slagen per uur. Vermenigvuldig nog met 24."
+        }
+      ],
+      "topics": [
+        "estimation"
+      ]
+    },
+    {
+      "id": "01-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel $\\text{mm}^2$ is $1\\ \\text{cm}^2$?",
+      "choices": [
+        "10 mm²",
+        "100 mm²",
+        "1000 mm²",
+        "10 000 mm²"
+      ],
+      "answer": "100 mm²",
+      "hints": [],
+      "solution": [
+        "$1\\ \\text{cm}^2 = (10\\ \\text{mm})^2 = 100\\ \\text{mm}^2$"
+      ],
+      "feedback": [
+        {
+          "answer": "10 mm²",
+          "message": "Je hebt alleen de lineaire factor 10 gebruikt; bij een oppervlak telt die in het kwadraat."
+        },
+        {
+          "answer": "1000 mm²",
+          "message": "Dat is de factor voor een volume, niet voor een oppervlak."
+        }
+      ],
+      "topics": [
+        "unit-conversion"
+      ]
+    },
+    {
+      "id": "01-T06",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze lengtes van klein naar groot (de kleinste eerst).",
+      "answer": [
+        "5 µm",
+        "2 mm",
+        "3 cm",
+        "0,4 m",
+        "0,001 km"
+      ],
+      "hints": [],
+      "solution": [
+        "$5\\ \\mu\\text{m} = 0{,}005\\ \\text{mm}$; $2\\ \\text{mm}$; $3\\ \\text{cm} = 30\\ \\text{mm}$; $0{,}4\\ \\text{m} = 400\\ \\text{mm}$; $0{,}001\\ \\text{km} = 1\\ \\text{m}$."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "2 mm",
+            "5 µm",
+            "3 cm",
+            "0,4 m",
+            "0,001 km"
+          ],
+          "message": "Een micrometer is duizend keer kleiner dan een millimeter."
+        }
+      ],
+      "topics": [
+        "prefixes",
+        "unit-conversion"
+      ]
+    },
+    {
+      "id": "01-T07",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een vloeistof van $250\\ \\text{mL}$ heeft een massa van $200\\ \\text{g}$. Bereken de dichtheid in $\\text{g/mL}$.",
+      "unit": "g/mL",
+      "tolerance": 0.005,
+      "answer": 0.8,
+      "hints": [],
+      "solution": [
+        "$\\rho = \\dfrac{200\\ \\text{g}}{250\\ \\text{mL}} = 0{,}80\\ \\text{g/mL}$"
+      ],
+      "feedback": [
+        {
+          "answer": 1.25,
+          "message": "Je hebt het volume door de massa gedeeld. Dichtheid is massa per volume."
+        }
+      ],
+      "topics": [
+        "density"
+      ]
+    },
+    {
+      "id": "01-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een maatcilinder heeft streepjes om de $2\\ \\text{mL}$. Wat is volgens de vuistregel de afleesonzekerheid?",
+      "choices": [
+        "0,1 mL",
+        "1 mL",
+        "2 mL",
+        "4 mL"
+      ],
+      "answer": "1 mL",
+      "hints": [],
+      "solution": [
+        "Een half schaaldeel van 2 mL is 1 mL."
+      ],
+      "feedback": [
+        {
+          "answer": "2 mL",
+          "message": "Dat is een heel schaaldeel; de vuistregel is een half."
+        },
+        {
+          "answer": "0,1 mL",
+          "message": "Dat zou betekenen dat je veel kleinere stappen aflees dan de schaal toelaat."
+        }
+      ],
+      "topics": [
+        "uncertainty"
+      ]
+    },
+    {
+      "id": "01-T09",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Vier metingen van een lengte (in cm): $12{,}4;\\ 12{,}7;\\ 12{,}5;\\ 12{,}6$. Bereken het gemiddelde.",
+      "unit": "cm",
+      "tolerance": 0.005,
+      "answer": 12.55,
+      "hints": [],
+      "solution": [
+        "$\\dfrac{12{,}4 + 12{,}7 + 12{,}5 + 12{,}6}{4} = \\dfrac{50{,}2}{4} = 12{,}55\\ \\text{cm}$"
+      ],
+      "feedback": [
+        {
+          "answer": 50.2,
+          "message": "Dat is de som; deel door het aantal metingen, 4."
+        }
+      ],
+      "topics": [
+        "uncertainty"
+      ]
+    },
+    {
+      "id": "01-T10",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel significante cijfers heeft het getal $0{,}0306$?",
+      "answer": 3,
+      "hints": [],
+      "solution": [
+        "De cijfers 3, 0 en 6 zijn significant: de nul tussen twee cijfers telt mee, de nullen voor de 3 niet."
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "De nullen aan het begin bepalen alleen de plaats van de komma en tellen niet mee."
+        },
+        {
+          "answer": 2,
+          "message": "De nul tussen de 3 en de 6 telt wel mee."
+        }
+      ],
+      "topics": [
+        "significant-figures"
+      ]
+    },
+    {
+      "id": "01-T11",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een rechthoek is $6{,}0\\ \\text{cm}$ lang en $1{,}25\\ \\text{cm}$ breed. Welke oppervlakte is correct genoteerd?",
+      "choices": [
+        "7,5 cm²",
+        "7,50 cm²",
+        "7,500 cm²",
+        "8 cm²"
+      ],
+      "answer": "7,5 cm²",
+      "hints": [],
+      "solution": [
+        "$6{,}0 \\times 1{,}25 = 7{,}5$. De lengte heeft twee significante cijfers, dus het antwoord ook."
+      ],
+      "feedback": [
+        {
+          "answer": "7,50 cm²",
+          "message": "Dat zijn drie significante cijfers; de lengte (6,0) heeft er maar twee."
+        },
+        {
+          "answer": "8 cm²",
+          "message": "Dat is te grof afgerond: één cijfer terwijl de gegevens er twee hebben."
+        }
+      ],
+      "topics": [
+        "significant-figures"
+      ]
+    },
+    {
+      "id": "01-T12",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je berekent een snelheid met een formule en krijgt als eenheid $\\text{m}^2/\\text{s}$. Wat betekent dat?",
+      "choices": [
+        "De uitkomst is een snelheid in een andere eenheid",
+        "Er zit een fout in de formule of de berekening",
+        "Niets bijzonders: eenheden zijn niet belangrijk",
+        "De meting was niet nauwkeurig genoeg"
+      ],
+      "answer": "Er zit een fout in de formule of de berekening",
+      "hints": [],
+      "solution": [
+        "Een snelheid heeft de eenheid m/s, dus een uitkomst in $\\text{m}^2/\\text{s}$ kan niet kloppen."
+      ],
+      "feedback": [
+        {
+          "answer": "De uitkomst is een snelheid in een andere eenheid",
+          "message": "Je kunt een andere eenheid van snelheid gebruiken (km/h), maar $\\text{m}^2/\\text{s}$ is geen snelheid."
+        },
+        {
+          "answer": "Niets bijzonders: eenheden zijn niet belangrijk",
+          "message": "Eenheden zijn juist een snelle controle op fouten."
+        }
+      ],
+      "topics": [
+        "dimensional-analysis"
+      ]
+    },
+    {
+      "id": "01-T13",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze ontwikkelingen in de definitie van meter en seconde in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Seconde als 1/86 400 van een zonnedag",
+        "Meter via krypton-86 (1960)",
+        "Seconde via cesium-133 (1967)",
+        "Meter via de lichtsnelheid (1983)"
+      ],
+      "hints": [],
+      "solution": [
+        "De astronomische seconde ging vooraf aan 1960, gevolgd door 1960, 1967 en 1983."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Seconde als 1/86 400 van een zonnedag",
+            "Meter via krypton-86 (1960)",
+            "Meter via de lichtsnelheid (1983)",
+            "Seconde via cesium-133 (1967)"
+          ],
+          "message": "De cesium-seconde (1967) kwam vóór de lichtsnelheid-meter (1983)."
+        }
+      ],
+      "topics": [
+        "si-system"
+      ]
+    },
+    {
+      "id": "01-T14",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een blokje heeft een massa van $27{,}0\\ \\text{g}$ (onzekerheid $0{,}1\\ \\text{g}$) en een volume van $10{,}0\\ \\text{cm}^3$ (onzekerheid $0{,}5\\ \\text{cm}^3$). Wat is de relatieve onzekerheid van de dichtheid in procent (relatieve onzekerheden optellen)?",
+      "unit": "%",
+      "tolerance": 0.1,
+      "answer": 5.4,
+      "hints": [],
+      "solution": [
+        "Massa: $0{,}1/27{,}0 = 0{,}37\\,\\%$. Volume: $0{,}5/10{,}0 = 5\\,\\%$. Samen $5{,}4\\,\\%$ (bij deling tellen relatieve onzekerheden op)."
+      ],
+      "feedback": [
+        {
+          "answer": 5.0,
+          "message": "Je hebt de bijdrage van de massa (0,37%) vergeten."
+        }
+      ],
+      "topics": [
+        "uncertainty",
+        "density"
+      ]
+    },
+    {
+      "id": "01-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waardoor is de kilogram sinds 2019 gedefinieerd?",
+      "choices": [
+        "Door de massa van het prototype in Sèvres",
+        "Door de massa van een liter water bij 4 °C",
+        "Door de waarde van de constante van Planck vast te leggen",
+        "Door het aantal koolstofatomen in een vast stuk koolstof"
+      ],
+      "answer": "Door de waarde van de constante van Planck vast te leggen",
+      "hints": [],
+      "solution": [
+        "Sinds 20 mei 2019 is de kilogram gekoppeld aan de exacte waarde van de constante van Planck $h$, niet meer aan een voorwerp."
+      ],
+      "feedback": [
+        {
+          "answer": "Door de massa van het prototype in Sèvres",
+          "message": "Dat was de definitie van 1889 tot 2019."
+        },
+        {
+          "answer": "Door de massa van een liter water bij 4 °C",
+          "message": "Dat was het oorspronkelijke idee uit de Franse Revolutie, daarna vervangen door een voorwerp."
+        }
+      ],
+      "topics": [
+        "si-system"
+      ]
+    }
+  ]
+}

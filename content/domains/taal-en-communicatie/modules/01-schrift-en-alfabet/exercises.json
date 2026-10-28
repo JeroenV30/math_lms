@@ -1,0 +1,1260 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Het woord *school* heeft zes letters. Hoeveel fonemen heeft het woord? Het klinkt als /sχoːl/.",
+      "answer": 4,
+      "feedback": [
+        {
+          "answer": 6,
+          "message": "Je telde letters. Letters en fonemen vallen niet samen: ⟨sch⟩ is drie letters voor twee klanken en ⟨oo⟩ is twee letters voor één klank."
+        }
+      ],
+      "hints": [
+        "Tel de klanken, niet de letters.",
+        "De letters ⟨sch⟩ schrijven twee klanken, ⟨oo⟩ schrijft één klank."
+      ],
+      "solution": [
+        "De fonemen zijn /s/, /χ/, /oː/ en /l/.",
+        "Dat zijn vier fonemen."
+      ],
+      "topics": [
+        "language-and-writing"
+      ]
+    },
+    {
+      "id": "01-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "In het woord *tijd* staat de letterreeks ⟨ij⟩. Wat is ⟨ij⟩ in de analyse van dit woord?",
+      "choices": [
+        "Eén grafeem van twee letters, dat één tweeklank /ɛi/ weergeeft",
+        "Twee grafemen, voor de klanken /i/ en /j/",
+        "Een afwijking die de spelling nog steeds niet heeft hersteld",
+        "Een enkele letter die in twee delen is geschreven"
+      ],
+      "answer": "Eén grafeem van twee letters, dat één tweeklank /ɛi/ weergeeft",
+      "feedback": [
+        {
+          "answer": "Twee grafemen, voor de klanken /i/ en /j/",
+          "message": "In *tijd* hoor je één glijdende tweeklank, geen /i/ gevolgd door /j/. ⟨ij⟩ is één schrijfeenheid."
+        },
+        {
+          "answer": "Een afwijking die de spelling nog steeds niet heeft hersteld",
+          "message": "Dat is een oordeel, geen analyse. De spelling bewaart een oud klankverschil; je beschrijft het patroon, je veroordeelt het niet."
+        }
+      ],
+      "hints": [
+        "Een grafeem is de kleinste schrijfeenheid; kijk hoeveel klanken je in dit deel van het woord hoort.",
+        "Hoor je /i/ en daarna /j/, of één glijdende klank?"
+      ],
+      "solution": [
+        "In *tijd* spreek je één tweeklank uit: /tɛit/.",
+        "⟨ij⟩ is dus één schrijfeenheid (grafeem) voor één foneem /ɛi/."
+      ],
+      "topics": [
+        "language-and-writing"
+      ]
+    },
+    {
+      "id": "01-003",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een taalkundige ontleedt een woord. Zet de stappen van de analyse in de volgorde waarin ze logisch op elkaar volgen, van de gegevens naar de conclusie.",
+      "answer": [
+        "Het woord precies overschrijven",
+        "De letters en grafemen onderscheiden",
+        "De uitspraak noteren en de fonemen tellen",
+        "De lettergrepen en morfemen afbakenen",
+        "De conclusie formuleren en zeggen hoe algemeen ze is"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "De uitspraak noteren en de fonemen tellen",
+            "Het woord precies overschrijven",
+            "De letters en grafemen onderscheiden",
+            "De lettergrepen en morfemen afbakenen",
+            "De conclusie formuleren en zeggen hoe algemeen ze is"
+          ],
+          "message": "Begin met het precies overschrijven: wie de gegevens niet zeker kent, telt straks verkeerd."
+        }
+      ],
+      "hints": [
+        "Wat moet vaststaan voordat je iets kunt tellen?",
+        "De conclusie komt altijd als laatste."
+      ],
+      "solution": [
+        "Eerst de gegevens, dan schrift (letters, grafemen), dan klank (fonemen), dan ritme en betekenis (lettergrepen, morfemen).",
+        "Pas daarna kun je zeggen wat er te concluderen valt en voor welke taal."
+      ],
+      "topics": [
+        "language-and-writing"
+      ]
+    },
+    {
+      "id": "01-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een minimaal paar bewijst dat twee klanken in een taal verschillende fonemen zijn. Welk paar bewijst dat /t/ en /d/ in het Nederlands verschillende fonemen zijn?",
+      "choices": [
+        "*tak* en *dak*",
+        "*tak* en *tik*",
+        "*tak* en *takken*",
+        "*tak* en *tafel*"
+      ],
+      "answer": "*tak* en *dak*",
+      "feedback": [
+        {
+          "answer": "*tak* en *tik*",
+          "message": "Dit paar verschilt in de klinker (/ɑ/ tegenover /ɪ/). Het bewijst iets over klinkers, niet over /t/ en /d/."
+        },
+        {
+          "answer": "*tak* en *takken*",
+          "message": "Dit is dezelfde stam met een meervoudsuitgang, geen verschil in één klank."
+        },
+        {
+          "answer": "*tak* en *tafel*",
+          "message": "Deze woorden verschillen in meer dan één klank."
+        }
+      ],
+      "hints": [
+        "Een minimaal paar verschilt in precies één klank, en die klank maakt het betekenisverschil.",
+        "Welk paar verschilt alleen in /t/ tegenover /d/?"
+      ],
+      "solution": [
+        "*tak* /tɑk/ en *dak* /dɑk/ verschillen alleen in de beginklank, en hebben een andere betekenis."
+      ],
+      "topics": [
+        "language-and-writing"
+      ]
+    },
+    {
+      "id": "01-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke bewering over taal en schrift klopt?",
+      "choices": [
+        "Een taal kan in meer dan één schrift worden geschreven, zoals Servisch in Cyrillisch en in Latijns schrift",
+        "Schrift is opgeschreven spraak, dus bij het opschrijven gaat niets verloren",
+        "Een taal zonder schrift is een onvolledige taal",
+        "Elk schrift hoort bij precies één taal"
+      ],
+      "answer": "Een taal kan in meer dan één schrift worden geschreven, zoals Servisch in Cyrillisch en in Latijns schrift",
+      "feedback": [
+        {
+          "answer": "Schrift is opgeschreven spraak, dus bij het opschrijven gaat niets verloren",
+          "message": "Schrift laat veel weg: toon, tempo, stembuiging en gezicht. Het is een systeem van afspraken, geen opname."
+        },
+        {
+          "answer": "Een taal zonder schrift is een onvolledige taal",
+          "message": "Gesproken en gebaarde talen zijn volwaardig zonder schrift. Veruit de meeste talen bestonden eeuwen of millennia zonder schrift."
+        },
+        {
+          "answer": "Elk schrift hoort bij precies één taal",
+          "message": "Het Latijnse alfabet dient voor honderden talen."
+        }
+      ],
+      "hints": [
+        "Welke bewering gaat uit van een één-op-één verhouding tussen taal en schrift?"
+      ],
+      "solution": [
+        "Servisch wordt dagelijks in twee schriften geschreven; Turks wisselde in 1928 van Arabisch naar Latijns schrift zonder dat de taal veranderde."
+      ],
+      "topics": [
+        "language-and-writing"
+      ]
+    },
+    {
+      "id": "01-006",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een klasgenoot beweert: \"Schrift is gewoon opgeschreven spraak.\" Geef twee argumenten waarom die bewering te simpel is, met elk een voorbeeld.",
+      "answer": "Schrift legt taal vast volgens afspraken die niet vanzelf uit spraak volgen: toon en tempo ontbreken; letters en klanken vallen niet samen.",
+      "hints": [
+        "Denk aan wat een stem doet dat je niet kunt opschrijven.",
+        "Denk aan een woord waarin het aantal letters en klanken verschilt."
+      ],
+      "solution": [
+        "Argument 1: schrift laat veel weg. Wie *Prima.* typt, legt niet vast of dat enthousiast of sarcastisch klinkt; leestekens en emoji proberen dat gedeeltelijk te herstellen.",
+        "Argument 2: schrift volgt eigen afspraken. In *school* staan zes letters voor vier klanken en in *hond* schrijf je een ⟨d⟩ waar je een [t] zegt.",
+        "Samengevat: schrift is een tweede systeem met eigen regels, niet een foto van spraak."
+      ],
+      "topics": [
+        "language-and-writing"
+      ]
+    },
+    {
+      "id": "01-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "In de laag Uruk IV–III (ca. 3300–3000 v.Chr.) zijn duizenden kleitabletten gevonden. Waar gaat het overgrote deel van die tabletten over?",
+      "choices": [
+        "Administratie: hoeveelheden graan, bier, vee, textiel en arbeiders",
+        "Gedichten en religieuze hymnen",
+        "Brieven tussen koningen",
+        "Wetten voor de stad"
+      ],
+      "answer": "Administratie: hoeveelheden graan, bier, vee, textiel en arbeiders",
+      "feedback": [
+        {
+          "answer": "Gedichten en religieuze hymnen",
+          "message": "Literaire teksten komen pas later; de oudste tabletten zijn vrijwel allemaal administratief."
+        },
+        {
+          "answer": "Brieven tussen koningen",
+          "message": "Brieven zijn in de oudste laag nauwelijks aanwezig; het zijn lijsten met aantallen en goederen."
+        },
+        {
+          "answer": "Wetten voor de stad",
+          "message": "Wetteksten komen in latere periodes; de vroegste tabletten zijn boekhoudkundig."
+        }
+      ],
+      "hints": [
+        "Wat wilde een instelling met veel goederen kunnen onthouden?"
+      ],
+      "solution": [
+        "Het oudste schrift begon niet als literatuur maar als boekhouding: het ging om voorraden, rantsoenen en arbeiders."
+      ],
+      "topics": [
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-008",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze ontwikkelingen in de volgorde waarin ze in de tijd plaatsvonden, de oudste eerst.",
+      "answer": [
+        "Tabletten uit Uruk met getalstekens en pictografische tekens",
+        "Het Narmerpalet in Egypte",
+        "Spijkerschrift met wigvormige indrukken in Mesopotamië",
+        "Orakelbeenderen uit Anyang in China",
+        "Maya-inscripties in Midden-Amerika"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Het Narmerpalet in Egypte",
+            "Tabletten uit Uruk met getalstekens en pictografische tekens",
+            "Spijkerschrift met wigvormige indrukken in Mesopotamië",
+            "Orakelbeenderen uit Anyang in China",
+            "Maya-inscripties in Midden-Amerika"
+          ],
+          "message": "De tabletten uit Uruk (ca. 3300 v.Chr.) zijn ouder dan het Narmerpalet (ca. 3100 v.Chr.)."
+        }
+      ],
+      "hints": [
+        "Uruk ca. 3300 v.Chr.; het Narmerpalet ca. 3100 v.Chr.; wigvormige tekens ca. 2600 v.Chr.",
+        "De orakelbeenderen zijn van ca. 1250 v.Chr., het Maya-schrift van ca. 300 v.Chr."
+      ],
+      "solution": [
+        "Uruk (ca. 3300 v.Chr.), Narmerpalet (ca. 3100 v.Chr.), spijkerschrift (ca. 2600 v.Chr.), orakelbeenderen (ca. 1250–1050 v.Chr.) en Maya-inscripties (vanaf ca. 300–200 v.Chr.)."
+      ],
+      "topics": [
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "In Egyptische hiërogliefen staat soms een teken dat niet wordt uitgesproken, maar aangeeft in welke categorie een woord valt, zoals \"mens\" of \"plant\". Hoe heet zo'n teken?",
+      "choices": [
+        "Determinatief",
+        "Logogram",
+        "Fonogram",
+        "Cartouche"
+      ],
+      "answer": "Determinatief",
+      "feedback": [
+        {
+          "answer": "Logogram",
+          "message": "Een logogram staat voor een heel woord en wordt wél gelezen."
+        },
+        {
+          "answer": "Fonogram",
+          "message": "Een fonogram geeft een klank weer en wordt dus uitgesproken."
+        },
+        {
+          "answer": "Cartouche",
+          "message": "Een cartouche is de ovale omlijsting om een koninklijke naam, geen soort teken."
+        }
+      ],
+      "hints": [
+        "Het teken is stil: het geeft geen klank en geen heel woord weer."
+      ],
+      "solution": [
+        "Een determinatief is een niet-uitgesproken teken dat de lezer helpt bij het kiezen tussen woorden die in medeklinkers hetzelfde zijn geschreven."
+      ],
+      "topics": [
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-010",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Het Chinese teken 妈 (*mā*, \"moeder\") bestaat uit twee delen: 女 (\"vrouw\") en 马 (*mǎ*, \"paard\"). Welk deel geeft bij benadering de klank van het woord weer?",
+      "choices": [
+        "马, het klankdeel, dat lijkt op de uitspraak van *mā*",
+        "女, want vrouwen en moeders zijn aan elkaar verwant",
+        "Geen van beide: Chinese tekens geven nooit klank weer",
+        "Beide delen even sterk"
+      ],
+      "answer": "马, het klankdeel, dat lijkt op de uitspraak van *mā*",
+      "feedback": [
+        {
+          "answer": "女, want vrouwen en moeders zijn aan elkaar verwant",
+          "message": "女 is het betekenisdeel. Het klankdeel is het deel dat op de uitspraak lijkt."
+        },
+        {
+          "answer": "Geen van beide: Chinese tekens geven nooit klank weer",
+          "message": "Dat is een hardnekkig misverstand. Het overgrote deel van de Chinese tekens bevat een klankdeel."
+        }
+      ],
+      "hints": [
+        "Het ene deel geeft de betekenis aan, het andere de klank.",
+        "Vergelijk de uitspraak van *mǎ* en *mā*."
+      ],
+      "solution": [
+        "女 geeft de betekenis (vrouw), 马 de klank (*mǎ* lijkt op *mā*).",
+        "De meeste Chinese tekens zijn zo opgebouwd: een betekenisdeel en een klankdeel."
+      ],
+      "topics": [
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-011",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een onderzoeker zegt: \"De oudste bewaard gebleven opschriften zijn ook het oudste gebruik van schrift.\" Waarom is dat een te sterke conclusie?",
+      "choices": [
+        "Alleen schrift op duurzame dragers zoals klei, steen of bot is bewaard; schrift op bamboe of papyrus kan ouder zijn",
+        "Oudere opschriften zijn altijd onleesbaar",
+        "Schrift is pas uitgevonden toen er klei was",
+        "Opgravingen vinden altijd het oudste materiaal als eerste"
+      ],
+      "answer": "Alleen schrift op duurzame dragers zoals klei, steen of bot is bewaard; schrift op bamboe of papyrus kan ouder zijn",
+      "feedback": [
+        {
+          "answer": "Oudere opschriften zijn altijd onleesbaar",
+          "message": "Leesbaarheid heeft hier niets mee te maken; het gaat om wat bewaard blijft."
+        },
+        {
+          "answer": "Schrift is pas uitgevonden toen er klei was",
+          "message": "Dat is een cirkelredenering. Schrift kan op vergankelijke materialen zijn begonnen."
+        },
+        {
+          "answer": "Opgravingen vinden altijd het oudste materiaal als eerste",
+          "message": "Opgravingen leveren toevallige vondsten op; er is geen garantie dat het oudste gevonden wordt."
+        }
+      ],
+      "hints": [
+        "Denk aan wat er van hout, bamboe of zijde na duizenden jaren overblijft."
+      ],
+      "solution": [
+        "De oudste vondst is het oudste dat overleefde, niet noodzakelijk het oudste dat bestond."
+      ],
+      "topics": [
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-012",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Welk gegeven ondersteunt het meest dat schrift in Mesopotamië en in China onafhankelijk van elkaar is ontstaan?",
+      "choices": [
+        "Er is geen aantoonbaar contact, en de tekens en de opbouw van de systemen verschillen sterk",
+        "De tekens in beide schriften lijken sterk op elkaar",
+        "Beide schriften ontstonden in precies hetzelfde jaar",
+        "Beide schriften werden voor hetzelfde doel gebruikt"
+      ],
+      "answer": "Er is geen aantoonbaar contact, en de tekens en de opbouw van de systemen verschillen sterk",
+      "feedback": [
+        {
+          "answer": "De tekens in beide schriften lijken sterk op elkaar",
+          "message": "Dat zou juist wijzen op overname. De tekens verschillen sterk."
+        },
+        {
+          "answer": "Beide schriften ontstonden in precies hetzelfde jaar",
+          "message": "Er ligt ongeveer tweeduizend jaar tussen het oudste Mesopotamische schrift en de orakelbeenderen."
+        },
+        {
+          "answer": "Beide schriften werden voor hetzelfde doel gebruikt",
+          "message": "Het doel verschilde: boekhouding in Uruk, waarzeggerij in Anyang."
+        }
+      ],
+      "hints": [
+        "Onafhankelijke uitvinding betekent: geen overgenomen idee, geen overgenomen tekens."
+      ],
+      "solution": [
+        "Geen contact en grote verschillen in tekens en opbouw wijzen op afzonderlijke uitvindingen; het doel (boekhouding, ritueel) verschilde bovendien."
+      ],
+      "topics": [
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-013",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Het oudste schrift in Mesopotamië, Egypte en China begon telkens bij een andere toepassing. Noem de drie toepassingen, geef een overeenkomst en een verschil, en leg uit waarom je niet kunt zeggen dat schrift \"één weg\" volgde.",
+      "answer": "Mesopotamië: boekhouding (aantallen); Egypte: namen en etiketten; China: vragen aan voorouders op orakelbeenderen. Overeenkomst: een instelling of gezagsdrager legt iets vast. Verschil: de aard van de eerste teksten.",
+      "hints": [
+        "Per cultuur gaat het om een andere eerste toepassing.",
+        "Wat hadden de opdrachtgevers gemeen?"
+      ],
+      "solution": [
+        "Mesopotamië begon met aantallen en goederen, Egypte met koninklijke namen en etiketten, China met vragen aan de voorouders.",
+        "Overeenkomst: telkens een gezagsdrager of instelling die iets wilde vastleggen.",
+        "Verschil: de eerste teksten zijn van een andere aard, en het systeem is anders opgebouwd.",
+        "Het patroon \"eerst tekens voor dingen, dan voor klanken\" lijkt terug te komen, maar de startpunten zijn verschillend; er is dus geen enkele route."
+      ],
+      "topics": [
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-014",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een rebus bestaat uit een afbeelding van een oor gevolgd door een afbeelding van een boomstam (in het Nederlands een *log*). Wat lees je volgens het rebusprincipe?",
+      "choices": [
+        "*oorlog*",
+        "*stamoor*",
+        "*boomgehoor*",
+        "*gehoorstam*"
+      ],
+      "answer": "*oorlog*",
+      "feedback": [
+        {
+          "answer": "*stamoor*",
+          "message": "Je leest de plaatjes in verkeerde volgorde en op betekenis. Lees van links naar rechts en let op de klank."
+        },
+        {
+          "answer": "*boomgehoor*",
+          "message": "Je leest de betekenis van de plaatjes. Het rebusprincipe gebruikt alleen de klank van hun namen."
+        }
+      ],
+      "hints": [
+        "Bij een rebus lees je de klank van de namen van de plaatjes, niet hun betekenis.",
+        "Spreek de twee namen na elkaar uit."
+      ],
+      "solution": [
+        "*oor* + *log* klinkt als *oorlog*. De plaatjes verwijzen naar klank, niet naar oren en boomstammen."
+      ],
+      "topics": [
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom is een schrift met alleen pictogrammen ongeschikt om een eigennaam of een abstract woord als *vrijheid* op te schrijven, en welke stap lost dat op?",
+      "choices": [
+        "Een plaatje kan een naam of abstract begrip niet uitbeelden; het rebusprincipe gebruikt het teken voor de klank van het woord",
+        "Een naam is te lang voor één plaatje; daarom schrijf je hem met meer plaatjes",
+        "Een pictogram is altijd te groot; kleinere tekens lossen dat op",
+        "Een abstract woord heeft geen klank, dus moet je het tekenen"
+      ],
+      "answer": "Een plaatje kan een naam of abstract begrip niet uitbeelden; het rebusprincipe gebruikt het teken voor de klank van het woord",
+      "feedback": [
+        {
+          "answer": "Een naam is te lang voor één plaatje; daarom schrijf je hem met meer plaatjes",
+          "message": "Het probleem is niet de lengte: er bestaat geen plaatje dat de naam of het begrip weergeeft."
+        },
+        {
+          "answer": "Een abstract woord heeft geen klank, dus moet je het tekenen",
+          "message": "Elk gesproken woord heeft een klank. Juist die klank maakt het rebusprincipe mogelijk."
+        }
+      ],
+      "hints": [
+        "Hoe teken je *vrijheid*? En de naam van iemand?"
+      ],
+      "solution": [
+        "Pictogrammen verwijzen naar dingen. Voor namen en abstracte woorden is er geen plaatje; dan gebruik je de klank van een woord dat wel af te beelden is."
+      ],
+      "topics": [
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-016",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een schrift schrijft de medeklinkers van een woord en laat de klinkers weg of geeft ze alleen optioneel aan. Hoe heet dit type?",
+      "choices": [
+        "Abjad",
+        "Alfabet",
+        "Syllabisch schrift",
+        "Logografisch schrift"
+      ],
+      "answer": "Abjad",
+      "feedback": [
+        {
+          "answer": "Alfabet",
+          "message": "In een alfabet krijgen klinkers een eigen, volwaardig teken."
+        },
+        {
+          "answer": "Syllabisch schrift",
+          "message": "Een syllabisch schrift heeft een teken per lettergreep."
+        },
+        {
+          "answer": "Logografisch schrift",
+          "message": "Een logografisch schrift heeft een teken per woord of morfeem."
+        }
+      ],
+      "hints": [
+        "Hebreeuws en Arabisch zijn voorbeelden."
+      ],
+      "solution": [
+        "Een abjad schrijft medeklinkers; een alfabet schrijft medeklinkers én klinkers als gelijkwaardige eenheden."
+      ],
+      "topics": [
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-017",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welk type schrift is dit?",
+      "context": "In Devanagari staat het teken क voor /ka/. Met een streepje of haakje verandert de klinker: कि is /ki/ en कु is /ku/. Een teken zonder aanpassing leest als medeklinker plus /a/.",
+      "choices": [
+        "Abugida",
+        "Abjad",
+        "Alfabet",
+        "Syllabisch schrift met voor elke lettergreep een los teken"
+      ],
+      "answer": "Abugida",
+      "feedback": [
+        {
+          "answer": "Abjad",
+          "message": "In een abjad wordt de klinker niet aangegeven. Hier wordt hij systematisch toegevoegd met een extra teken."
+        },
+        {
+          "answer": "Alfabet",
+          "message": "In een alfabet heeft elke klinker een eigen, losse letter naast de medeklinker. Hier is de klinker een aanpassing van het medeklinkerteken."
+        },
+        {
+          "answer": "Syllabisch schrift met voor elke lettergreep een los teken",
+          "message": "Bij een syllabisch schrift zijn de tekens onafhankelijk van elkaar; hier is de klinker een aanpassing van een basisteken."
+        }
+      ],
+      "hints": [
+        "Wat schrijft het basisteken, en hoe wordt de klinker veranderd?",
+        "Een lettergreepschrift met losse tekens kent geen systematische aanpassing van één basisteken."
+      ],
+      "solution": [
+        "Basisteken = medeklinker + /a/, aanpassing = andere klinker: dat is een abugida, zoals Devanagari."
+      ],
+      "topics": [
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-018",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Het Koreaanse woord 한글 (*hangeul*) bestaat uit twee blokjes. Het eerste blokje 한 is opgebouwd uit de letters ㅎ, ㅏ en ㄴ; het tweede blokje 글 uit ㄱ, ㅡ en ㄹ. Hoeveel letters telt het woord in totaal?",
+      "answer": 6,
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je telde de blokjes (lettergrepen). In Hangul wordt elke lettergreep uit meerdere letters samengesteld."
+        },
+        {
+          "answer": 3,
+          "message": "Je telde de letters van één blokje. Het woord heeft twee blokjes."
+        }
+      ],
+      "hints": [
+        "Tel de letters binnen elk blokje en tel op."
+      ],
+      "solution": [
+        "Blokje 한: ㅎ + ㅏ + ㄴ = 3 letters.",
+        "Blokje 글: ㄱ + ㅡ + ㄹ = 3 letters.",
+        "Samen: 3 + 3 = 6 letters."
+      ],
+      "topics": [
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-019",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Ordenen naar de grootte van de taaleenheid die één teken in de kern weergeeft: van de grootste eenheid naar de kleinste.",
+      "answer": [
+        "Logografisch schrift: een woord of morfeem",
+        "Syllabisch schrift: een lettergreep",
+        "Alfabet: een foneem"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Alfabet: een foneem",
+            "Syllabisch schrift: een lettergreep",
+            "Logografisch schrift: een woord of morfeem"
+          ],
+          "message": "Je ordende van klein naar groot; de vraag eist de grootste eenheid eerst."
+        }
+      ],
+      "hints": [
+        "Een woord bevat lettergrepen, een lettergreep bevat fonemen."
+      ],
+      "solution": [
+        "Een woord is groter dan een lettergreep, en een lettergreep is groter dan een foneem."
+      ],
+      "topics": [
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-020",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "In het Japans schrijf je een zin met drie systemen naast elkaar. Welk systeem gebruik je in het bijzonder voor leenwoorden zoals *terebi* (televisie) en voor nadruk?",
+      "choices": [
+        "Katakana",
+        "Kanji",
+        "Hiragana",
+        "Hangul"
+      ],
+      "answer": "Katakana",
+      "feedback": [
+        {
+          "answer": "Kanji",
+          "message": "Kanji zijn Chinese tekens voor betekenisdragende woorden."
+        },
+        {
+          "answer": "Hiragana",
+          "message": "Hiragana dient vooral voor uitgangen en grammaticale woorden."
+        },
+        {
+          "answer": "Hangul",
+          "message": "Hangul is het Koreaanse schrift, geen onderdeel van het Japans."
+        }
+      ],
+      "hints": [
+        "Eén systeem is voor Chinese tekens, één voor uitgangen en grammaticale woorden, één voor leenwoorden."
+      ],
+      "solution": [
+        "Kanji: betekenisdragende woorden. Hiragana: uitgangen en grammaticale woorden. Katakana: leenwoorden en nadruk."
+      ],
+      "topics": [
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-021",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een schrift heeft ruim drieduizend basistekens die elk een morfeem weergeven, meestal van één lettergreep. Veel tekens bestaan uit een betekenisdeel en een klankdeel. Welk type is dit het meest waarschijnlijk?",
+      "choices": [
+        "Een logografisch (morfosyllabisch) schrift, zoals het Chinese",
+        "Een alfabet",
+        "Een abjad",
+        "Een abugida"
+      ],
+      "answer": "Een logografisch (morfosyllabisch) schrift, zoals het Chinese",
+      "feedback": [
+        {
+          "answer": "Een alfabet",
+          "message": "Een alfabet heeft ongeveer dertig tekens, niet duizenden."
+        },
+        {
+          "answer": "Een abjad",
+          "message": "Een abjad heeft enkele tientallen tekens voor medeklinkers."
+        },
+        {
+          "answer": "Een abugida",
+          "message": "Een abugida heeft enkele tientallen basistekens voor medeklinker plus klinker."
+        }
+      ],
+      "hints": [
+        "Kijk eerst naar het aantal tekens en dan naar wat een teken weergeeft."
+      ],
+      "solution": [
+        "Duizenden tekens voor morfemen duiden op een logografisch schrift. Het klankdeel verandert dat niet: je classificeert op wat het schrift hoofdzakelijk doet."
+      ],
+      "topics": [
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-022",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de stappen in de ontwikkeling van het Latijnse alfabet in volgorde, de oudste eerst.",
+      "answer": [
+        "Proto-Sinaïtische tekens in de Sinaï",
+        "Het Fenicische alfabet van 22 medeklinkertekens",
+        "Het Griekse alfabet met klinkertekens",
+        "Het Etruskische alfabet in Italië",
+        "Het Latijnse alfabet in Rome"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Proto-Sinaïtische tekens in de Sinaï",
+            "Het Fenicische alfabet van 22 medeklinkertekens",
+            "Het Griekse alfabet met klinkertekens",
+            "Het Latijnse alfabet in Rome",
+            "Het Etruskische alfabet in Italië"
+          ],
+          "message": "De Romeinen kregen het alfabet via de Etrusken, niet andersom."
+        }
+      ],
+      "hints": [
+        "De Etrusken kregen het alfabet van de Grieken; de Romeinen van de Etrusken."
+      ],
+      "solution": [
+        "Sinaï, Feniciërs, Grieken, Etrusken, Romeinen."
+      ],
+      "topics": [
+        "writing-systems",
+        "alphabet-history"
+      ]
+    },
+    {
+      "id": "01-023",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "In het Proto-Sinaïtisch kreeg het teken van een huis (Semitisch *bayt*) de waarde /b/, de beginklank van het woord. Hoe heet dit principe?",
+      "choices": [
+        "Het acrofonische principe",
+        "Het logografische principe",
+        "Het determinatieve principe",
+        "Het boustrophedon-principe"
+      ],
+      "answer": "Het acrofonische principe",
+      "feedback": [
+        {
+          "answer": "Het logografische principe",
+          "message": "Dan zou het teken het hele woord *huis* weergeven."
+        },
+        {
+          "answer": "Het determinatieve principe",
+          "message": "Een determinatief is een stil teken dat een woordcategorie aangeeft."
+        },
+        {
+          "answer": "Het boustrophedon-principe",
+          "message": "Boustrophedon gaat over de schrijfrichting (heen en terug), niet over de waarde van tekens."
+        }
+      ],
+      "hints": [
+        "*Acro* betekent \"uiteinde\"; welke klank van het woord blijft over?"
+      ],
+      "solution": [
+        "Het teken staat voor de beginklank van het woord dat het afbeeldt: acrofonie."
+      ],
+      "topics": [
+        "writing-systems",
+        "alphabet-history"
+      ]
+    },
+    {
+      "id": "01-024",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Het Fenicische teken *aleph* stond voor de keelsluitklank [ʔ], een medeklinker die het Grieks niet had. De Grieken gebruikten het teken voor /a/. Waarom was dit een goede oplossing?",
+      "choices": [
+        "Het Grieks had klinkertekens nodig, en een medeklinkerteken zonder Griekse klank kon die rol overnemen",
+        "De Grieken verstonden het Fenicisch niet en gokten",
+        "Het teken leek op een A en dat was toeval",
+        "Het Grieks had geen klinkers"
+      ],
+      "answer": "Het Grieks had klinkertekens nodig, en een medeklinkerteken zonder Griekse klank kon die rol overnemen",
+      "feedback": [
+        {
+          "answer": "De Grieken verstonden het Fenicisch niet en gokten",
+          "message": "De verandering was systematisch: meerdere ongebruikte medeklinkertekens kregen klinkerwaarden."
+        },
+        {
+          "answer": "Het teken leek op een A en dat was toeval",
+          "message": "De vorm van de Griekse alfa is juist het gedraaide Fenicische teken. Het gaat om de klankwaarde."
+        },
+        {
+          "answer": "Het Grieks had geen klinkers",
+          "message": "Het Grieks heeft klinkers; het Fenicische schrift had er geen tekens voor."
+        }
+      ],
+      "hints": [
+        "In het Grieks maken klinkers het verschil tussen woorden.",
+        "Wat deed je met een teken voor een klank die je taal niet kent?"
+      ],
+      "solution": [
+        "Klinkers dragen in het Grieks betekenis; een abjad geeft te veel dubbelzinnigheid.",
+        "Tekens voor ongebruikte medeklinkers (*aleph*, *he*, *yod*, *ayin*) werden klinkers (/a/, /e/, /i/, /o/)."
+      ],
+      "topics": [
+        "writing-systems",
+        "alphabet-history"
+      ]
+    },
+    {
+      "id": "01-025",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Het klassieke Latijnse alfabet had 23 letters. Het Nederlandse alfabet heeft er 26. Hoeveel letters zijn er in de eeuwen daarna bijgekomen (⟨J⟩, ⟨U⟩ en ⟨W⟩)?",
+      "answer": 3,
+      "feedback": [
+        {
+          "answer": 49,
+          "message": "Je telde de twee getallen op. Je zoekt het verschil: trek het aantal klassieke letters af van het aantal Nederlandse."
+        }
+      ],
+      "hints": [
+        "Trek 23 af van 26."
+      ],
+      "solution": [
+        "26 − 23 = 3: ⟨J⟩, ⟨U⟩ en ⟨W⟩."
+      ],
+      "topics": [
+        "alphabet-history"
+      ]
+    },
+    {
+      "id": "01-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De Fenicische lettername *aleph* betekent \"os\" en *bet* betekent \"huis\". De Griekse namen *alfa* en *bèta* betekenen in het Grieks niets. Wat volgt hieruit het meest waarschijnlijk?",
+      "choices": [
+        "Het alfabet is van het Fenicisch naar het Grieks geleend",
+        "Het alfabet is van het Grieks naar het Fenicisch geleend",
+        "De twee alfabetten zijn onafhankelijk van elkaar ontstaan",
+        "De betekenissen zijn later verzonnen"
+      ],
+      "answer": "Het alfabet is van het Fenicisch naar het Grieks geleend",
+      "feedback": [
+        {
+          "answer": "Het alfabet is van het Grieks naar het Fenicisch geleend",
+          "message": "Dan zouden de Griekse namen betekenis hebben en de Fenicische niet."
+        },
+        {
+          "answer": "De twee alfabetten zijn onafhankelijk van elkaar ontstaan",
+          "message": "Gelijke letterreeks, gelijke volgorde en overeenkomende namen maken onafhankelijk ontstaan zeer onwaarschijnlijk."
+        },
+        {
+          "answer": "De betekenissen zijn later verzonnen",
+          "message": "Dat is een ad-hocverklaring zonder steun in de gegevens."
+        }
+      ],
+      "hints": [
+        "In welke taal hebben de namen wél betekenis?"
+      ],
+      "solution": [
+        "Namen die in de ene taal betekenis hebben en in de andere niet, wijzen op een lening naar de tweede taal. De volgorde van de letters is gelijk."
+      ],
+      "topics": [
+        "writing-systems",
+        "alphabet-history"
+      ]
+    },
+    {
+      "id": "01-027",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom verspreidde het Latijnse alfabet zich zo ver?",
+      "choices": [
+        "Het ging mee met bestuur, handel, geloof en later onderwijs en kolonisatie van de groep die het gebruikte",
+        "Het is het meest logische alfabet voor alle talen",
+        "Alle talen hadden dezelfde klanken als het Latijn",
+        "Het was het eerste schrift dat klinkers had"
+      ],
+      "answer": "Het ging mee met bestuur, handel, geloof en later onderwijs en kolonisatie van de groep die het gebruikte",
+      "feedback": [
+        {
+          "answer": "Het is het meest logische alfabet voor alle talen",
+          "message": "Geen schrift past perfect bij een geleende taal; het Latijn miste tekens voor veel klanken."
+        },
+        {
+          "answer": "Alle talen hadden dezelfde klanken als het Latijn",
+          "message": "Elke taal heeft eigen fonemen; ⟨ñ⟩, ⟨ç⟩ en ⟨sj⟩ zijn aanpassingen."
+        },
+        {
+          "answer": "Het was het eerste schrift dat klinkers had",
+          "message": "Het Grieks had al klinkertekens voordat het Latijn bestond."
+        }
+      ],
+      "hints": [
+        "Verspreiding zegt vaak meer over macht dan over kwaliteit."
+      ],
+      "solution": [
+        "Een schrift verspreidt zich meestal niet om zijn kwaliteit, maar met de macht, de godsdienst en de handel van zijn gebruikers."
+      ],
+      "topics": [
+        "alphabet-history"
+      ]
+    },
+    {
+      "id": "01-028",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat toonde Champollion in 1822 over het hiërogliefenschrift aan?",
+      "choices": [
+        "Het is een gemengd systeem van logogrammen, fonogrammen en determinatieven",
+        "Het is een zuiver plaatjesschrift dat alleen ideeën uitdrukt",
+        "Het schrijft uitsluitend klanken, zoals een alfabet",
+        "Het is alleen fonetisch voor vreemde namen"
+      ],
+      "answer": "Het is een gemengd systeem van logogrammen, fonogrammen en determinatieven",
+      "feedback": [
+        {
+          "answer": "Het is een zuiver plaatjesschrift dat alleen ideeën uitdrukt",
+          "message": "Dat was het hardnekkige vooroordeel dat de ontcijfering eeuwen tegenhield."
+        },
+        {
+          "answer": "Het schrijft uitsluitend klanken, zoals een alfabet",
+          "message": "Hiërogliefen bevatten ook logogrammen en determinatieven."
+        },
+        {
+          "answer": "Het is alleen fonetisch voor vreemde namen",
+          "message": "Dat was de beperking in het denken van Young. Champollion toonde klankwaarden ook in Egyptische woorden."
+        }
+      ],
+      "hints": [
+        "Het oude vooroordeel was dat hiërogliefen alleen plaatjes zijn."
+      ],
+      "solution": [
+        "Champollion liet zien dat tekens in Egyptische namen en woorden ook klank weergeven, en dat het systeem logogrammen, fonogrammen en determinatieven combineert."
+      ],
+      "topics": [
+        "decipherment",
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-029",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet de stappen in de ontcijfering van de hiërogliefen in de volgorde waarin ze plaatsvonden, de eerste stap eerst.",
+      "answer": [
+        "De Steen van Rosetta wordt gevonden bij Rashid (1799)",
+        "Young herkent de naam Ptolemaios in een cartouche",
+        "Champollion vergelijkt de cartouches van Ptolemaios en Kleopatra",
+        "Champollion leest Egyptische namen als Ramses",
+        "Champollion publiceert zijn brief aan Dacier (1822)"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "De Steen van Rosetta wordt gevonden bij Rashid (1799)",
+            "Champollion vergelijkt de cartouches van Ptolemaios en Kleopatra",
+            "Young herkent de naam Ptolemaios in een cartouche",
+            "Champollion leest Egyptische namen als Ramses",
+            "Champollion publiceert zijn brief aan Dacier (1822)"
+          ],
+          "message": "Young herkende de naam Ptolemaios al vóór Champollion de twee namen vergeleek."
+        }
+      ],
+      "hints": [
+        "De vondst komt vóór alle ontcijfering; de publicatie sluit de reeks af."
+      ],
+      "solution": [
+        "Vondst, Young, vergelijking van twee namen, lezing van Egyptische namen, publicatie."
+      ],
+      "topics": [
+        "decipherment",
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-030",
+      "type": "choice",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Wat is op grond van deze gegevens de meest waarschijnlijke conclusie over het schrift?",
+      "context": "Een onbekend schrift heeft ongeveer 85 verschillende tekens. Veel woorden komen voor met dezelfde stam en met verschillende eindtekens, in groepjes van drie.",
+      "choices": [
+        "Het is een lettergreepschrift voor een taal met verbuiging",
+        "Het is een alfabet voor een taal zonder verbuiging",
+        "Het is een logografisch schrift voor een taal met duizenden woorden",
+        "Het is zeker een schrift voor een taal die verwant is aan Etruskisch"
+      ],
+      "answer": "Het is een lettergreepschrift voor een taal met verbuiging",
+      "feedback": [
+        {
+          "answer": "Het is een alfabet voor een taal zonder verbuiging",
+          "message": "Een alfabet heeft ongeveer twintig tot dertig tekens, niet 85."
+        },
+        {
+          "answer": "Het is een logografisch schrift voor een taal met duizenden woorden",
+          "message": "Een logografisch schrift heeft honderden of duizenden tekens."
+        },
+        {
+          "answer": "Het is zeker een schrift voor een taal die verwant is aan Etruskisch",
+          "message": "Telling en patroon zeggen niets over verwantschap, en \"zeker\" is te sterk."
+        }
+      ],
+      "hints": [
+        "Vergelijk het aantal tekens met de bekende typen.",
+        "Wat wijzen woorden met dezelfde stam en wisselende einden aan?"
+      ],
+      "solution": [
+        "Ongeveer 85 tekens: te veel voor een alfabet, te weinig voor een logografisch schrift. Wisselende einden bij een vaste stam wijzen op verbuiging.",
+        "Over de taalfamilie zeggen deze gegevens niets."
+      ],
+      "topics": [
+        "decipherment",
+        "writing-systems"
+      ]
+    },
+    {
+      "id": "01-031",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom hield de aanname van Arthur Evans dat de tabletten van Knossos Minoïsch waren, de ontcijfering van Lineair B decennia op?",
+      "choices": [
+        "Wie de taal al denkt te kennen, probeert andere mogelijkheden zoals het Grieks niet, en leest er die taal in",
+        "De tabletten waren te beschadigd om te lezen",
+        "Evans verbood anderen de tabletten te bekijken",
+        "Lineair B bleek een alfabet te zijn"
+      ],
+      "answer": "Wie de taal al denkt te kennen, probeert andere mogelijkheden zoals het Grieks niet, en leest er die taal in",
+      "feedback": [
+        {
+          "answer": "De tabletten waren te beschadigd om te lezen",
+          "message": "Er waren duizenden bruikbare tabletten; het probleem was de aanname."
+        },
+        {
+          "answer": "Evans verbood anderen de tabletten te bekijken",
+          "message": "Dat is niet de verklaring die de gegevens geven; het ging om de invloed van zijn overtuiging."
+        },
+        {
+          "answer": "Lineair B bleek een alfabet te zijn",
+          "message": "Het is een lettergreepschrift met ongeveer tachtig tot negentig tekens."
+        }
+      ],
+      "hints": [
+        "Wat gebeurt er met onderzoek als de uitkomst al vaststaat?"
+      ],
+      "solution": [
+        "Aannames sturen wat je probeert. Kober en Ventris deden hun beste werk toen ze hun verwachtingen opzij zetten en alleen de tekens bestudeerden."
+      ],
+      "topics": [
+        "decipherment"
+      ]
+    },
+    {
+      "id": "01-032",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Ontcijfering vraagt volgens de geschiedenis van Rosetta, Lineair B en Lineair A ongeveer drie ingrediënten. Noem ze en leg aan de hand van Lineair A uit welk ingrediënt ontbreekt en waarom het schrift daardoor ongelezen blijft.",
+      "answer": "Voldoende tekst, een aanknopingspunt (tweetalige tekst of bekende verwante taal) en begrip van het type schrift. Bij Lineair A ontbreken een tweetalige tekst en voldoende materiaal; de taal is onbekend.",
+      "hints": [
+        "Wat had Rosetta wat Lineair A niet heeft?",
+        "Wat is er nodig om klankwaarden vast te stellen?"
+      ],
+      "solution": [
+        "Drie ingrediënten: genoeg tekst, een aanknopingspunt (tweetalige tekst of een verwante, bekende taal) en inzicht in het type schrift.",
+        "Lineair A heeft geen tweetalige tekst, de taal is onbekend en het materiaal is te klein om klankwaarden vast te stellen.",
+        "Daardoor ontbreekt het aanknopingspunt en blijft het bij tellen en vergelijken van tekens: ontcijferen is geen kwestie van vernuft alleen maar van gegevens."
+      ],
+      "topics": [
+        "decipherment"
+      ]
+    },
+    {
+      "id": "01-033",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je schrijft *hond* met een ⟨d⟩, hoewel je aan het eind een [t] uitspreekt. Wat is de beste verklaring?",
+      "choices": [
+        "Het woorddeel *hond* wordt in alle vormen gelijk gespeld, en in *honden* hoor je een [d]",
+        "Aan het eind van het woord spreek je altijd een [d] uit",
+        "De spelling volgt altijd de klank zoals je die in dat woord hoort",
+        "De Taalunie heeft dit zonder enige reden bepaald"
+      ],
+      "answer": "Het woorddeel *hond* wordt in alle vormen gelijk gespeld, en in *honden* hoor je een [d]",
+      "feedback": [
+        {
+          "answer": "Aan het eind van het woord spreek je altijd een [d] uit",
+          "message": "Je spreekt een [t] uit: /hɔnt/. Dat is de verscherping."
+        },
+        {
+          "answer": "De spelling volgt altijd de klank zoals je die in dat woord hoort",
+          "message": "Dan zou je *hont* schrijven. Spelling volgt ook de woordbouw."
+        },
+        {
+          "answer": "De Taalunie heeft dit zonder enige reden bepaald",
+          "message": "De afspraak is vastgelegd door mensen, maar volgt een herkenbaar principe: het morfologische."
+        }
+      ],
+      "hints": [
+        "Vergelijk *hond* met het meervoud.",
+        "Is spelling hier een afspiegeling van klank of van woordbouw?"
+      ],
+      "solution": [
+        "Verwantschapsprincipe: een morfeem wordt steeds op dezelfde manier geschreven.",
+        "De [t] aan het eind komt door een uitspraakregel (verscherping): stemhebbende medeklinkers worden aan het eind van een woord stemloos."
+      ],
+      "topics": [
+        "spelling",
+        "language-and-writing"
+      ]
+    },
+    {
+      "id": "01-034",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Volgens de regel van de verlengde vorm spel je een eindklank zoals hij in de verlengde vorm klinkt. Je hoort het woord [lɑnt] (enkelvoud) en [lɑndən] (meervoud). Hoe schrijf je het enkelvoud?",
+      "choices": [
+        "*land*",
+        "*lant*",
+        "*landt*",
+        "*lan*"
+      ],
+      "answer": "*land*",
+      "feedback": [
+        {
+          "answer": "*lant*",
+          "message": "Je schreef wat je in het enkelvoud hoort. De regel zegt: luister naar de verlengde vorm."
+        },
+        {
+          "answer": "*landt*",
+          "message": "Een ⟨d⟩ en een ⟨t⟩ samen is hier niet nodig: de verlengde vorm laat alleen een [d] horen."
+        },
+        {
+          "answer": "*lan*",
+          "message": "Er ontbreekt een medeklinker: het woord eindigt in [nt]."
+        }
+      ],
+      "hints": [
+        "Welke klank hoor je in het meervoud?"
+      ],
+      "solution": [
+        "In het meervoud hoor je [d], dus het enkelvoud krijgt ⟨d⟩: *land*."
+      ],
+      "topics": [
+        "spelling"
+      ]
+    },
+    {
+      "id": "01-035",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Vergelijk *kamen* en *kammen*. Wat doet de dubbele ⟨m⟩ in *kammen*?",
+      "choices": [
+        "Ze laat zien dat de klinker ervoor kort is, doordat de lettergreep gesloten wordt",
+        "Ze geeft aan dat de [m] langer wordt uitgesproken",
+        "Ze geeft aan dat de klinker ervoor lang is",
+        "Ze markeert een leenwoord uit het Frans"
+      ],
+      "answer": "Ze laat zien dat de klinker ervoor kort is, doordat de lettergreep gesloten wordt",
+      "feedback": [
+        {
+          "answer": "Ze geeft aan dat de [m] langer wordt uitgesproken",
+          "message": "In het Nederlands hoor je hier geen lange [m]. De dubbele letter zegt iets over de klinker ervoor."
+        },
+        {
+          "answer": "Ze geeft aan dat de klinker ervoor lang is",
+          "message": "Het is omgekeerd: bij *kamen* is de klinker lang, bij *kammen* kort."
+        },
+        {
+          "answer": "Ze markeert een leenwoord uit het Frans",
+          "message": "Het gaat om een regelmaat in de lettergreepstructuur van het Nederlands, niet om herkomst."
+        }
+      ],
+      "hints": [
+        "In *kamen* is de ⟨a⟩ lang. Wat is het verschil in de spelling?",
+        "Een korte klinker eindigt een lettergreep niet."
+      ],
+      "solution": [
+        "In *kam-men* wordt de eerste lettergreep gesloten door een ⟨m⟩, waardoor de klinker kort is.",
+        "In *ka-men* is de lettergreep open en de klinker lang."
+      ],
+      "topics": [
+        "spelling"
+      ]
+    },
+    {
+      "id": "01-036",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Het woord *taxi* heeft vier letters. Het klinkt als /taksi/. Hoeveel fonemen heeft het woord?",
+      "answer": 5,
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Je telde letters. De letter ⟨x⟩ staat voor twee klanken, /k/ en /s/."
+        }
+      ],
+      "hints": [
+        "Tel de klanken; ⟨x⟩ is geen enkele klank."
+      ],
+      "solution": [
+        "De fonemen zijn /t/, /a/, /k/, /s/ en /i/: vijf. De letter ⟨x⟩ schrijft de klankreeks /ks/."
+      ],
+      "topics": [
+        "spelling",
+        "language-and-writing"
+      ]
+    },
+    {
+      "id": "01-037",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Een commissie stelt voor de Nederlandse spelling te vervangen door een strikt fonemische: elk foneem krijgt één vast grafeem en elk grafeem staat voor één foneem. Weeg voor- en nadelen af en onderbouw je antwoord met ten minste drie taalgegevens (bijvoorbeeld *hond*/*honden*, ⟨ei⟩ en ⟨ij⟩, ⟨ch⟩ en ⟨g⟩, *kamen*/*kammen*).",
+      "answer": "Voordelen: eenvoudiger leren lezen en schrijven; minder uitzonderingen. Nadelen: morfemen worden onherkenbaar (hond/hont), dialecten verschillen (g als /χ/ of /ɣ/) en een norm moet dan een uitspraak kiezen; historische samenhang en leesbaarheid van bestaande teksten gaan verloren.",
+      "hints": [
+        "Bedenk welke uitspraak de commissie zou moeten kiezen.",
+        "Wat gebeurt er met woorddelen die in verschillende vormen anders klinken?"
+      ],
+      "solution": [
+        "Voordeel: een strikt fonemische spelling leert makkelijker, omdat elke klank één teken heeft.",
+        "Nadeel 1: *hond* en *honden* worden *hont* en *honden*; het morfeem is niet meer herkenbaar.",
+        "Nadeel 2: sprekers verschillen: de ⟨g⟩ is in het noorden /χ/ en in het zuiden vaak /ɣ/. De commissie moet één uitspraak als norm kiezen; dat is een maatschappelijke, geen taalkundige keuze.",
+        "Nadeel 3: ⟨ei⟩ en ⟨ij⟩ verschillen historisch en in sommige dialecten nog in klank; ze samenvoegen is een norm die een oud onderscheid wegneemt, en de bestaande teksten blijven in de oude spelling.",
+        "Conclusie: spelling is een afspraak met een geschiedenis; welke afspraak beter is, hangt af van wat je belangrijk vindt: leergemak, herkenbaarheid van woorddelen of samenhang met het verleden."
+      ],
+      "topics": [
+        "spelling",
+        "language-and-writing"
+      ]
+    }
+  ]
+}

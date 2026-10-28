@@ -6,23 +6,35 @@
   "level": "fundamenten",
   "status": "available",
   "historical_period": "Gouden Eeuw",
-  "estimated_difficulty": 1,
-  "estimated_minutes": 15,
+  "estimated_difficulty": 2,
+  "estimated_minutes": 240,
   "prerequisites": [],
   "topics": [
     "life",
     "cells",
-    "scientific-method"
+    "scientific-method",
+    "microscopy",
+    "cell-theory",
+    "organelles",
+    "membrane-transport",
+    "cell-division",
+    "scale-levels"
   ],
   "core_question": "Wat is leven, hoe werkt het en hoe is het ontstaan?",
-  "summary": "Wat is leven, hoe werkt het en hoe is het ontstaan? Van Aristoteles' indelingen en Van Leeuwenhoeks microscoop tot Darwin, DNA en ecologie.",
+  "summary": "Wat is leven en waarom is de cel zijn basiseenheid? Van Hookes kurk en Van Leeuwenhoeks dierkens tot celtheorie, organellen, membraantransport en celdeling, met rekenen aan schaal en vergroting.",
   "learning_goals": [
     "Je kunt uitleggen waarom leven niet met één enkel kenmerk te definiëren is.",
     "Je kunt meerdere kenmerken noemen die biologen gezamenlijk gebruiken om leven te beschrijven.",
     "Je kunt uitleggen waarom de cel een centraal uitgangspunt in de biologie is.",
     "Je kunt onderscheid maken tussen waarneming, experiment en verklaring.",
     "Je kunt beschrijven hoe een microscoop nieuwe biologische vragen mogelijk maakte.",
-    "Je kunt uitleggen waarom biologische verklaringen verschillende schaalniveaus verbinden."
+    "Je kunt uitleggen waarom biologische verklaringen verschillende schaalniveaus verbinden.",
+    "Je kunt vergroting en werkelijke grootte berekenen uit een foto met schaalbalk en uitleggen waarom oplossend vermogen iets anders is dan vergroting.",
+    "Je kunt prokaryote en eukaryote cellen en plant- en dierlijke cellen vergelijken en de bouw van organellen aan hun functie koppelen.",
+    "Je kunt de opbouw van het celmembraan beschrijven en passief transport, actief transport en osmose onderscheiden en toepassen.",
+    "Je kunt de fasen van de celcyclus en de mitose in volgorde zetten en het aantal chromosomen en de DNA-hoeveelheid volgen.",
+    "Je kunt een proximate en een ultimate verklaring onderscheiden en teleologische formuleringen herkennen.",
+    "Je kunt een eenvoudig experiment beoordelen op variabelen, controle en herhaling."
   ],
   "glossary": [
     {
@@ -60,6 +72,46 @@
     {
       "term": "Ecosysteem",
       "definition": "Organismen in een gebied en de wisselwerkingen met hun niet-levende omgeving."
+    },
+    {
+      "term": "Prokaryoot",
+      "definition": "Cel zonder door een membraan omgeven celkern en zonder organellen met membraan: bacteriën en archaea."
+    },
+    {
+      "term": "Eukaryoot",
+      "definition": "Cel met een celkern en organellen met membranen: dieren, planten, schimmels en protisten."
+    },
+    {
+      "term": "Organel",
+      "definition": "Compartiment of structuur in een cel met een eigen functie, zoals de kern of het mitochondrion."
+    },
+    {
+      "term": "Diffusie",
+      "definition": "Netto verplaatsing van deeltjes van een plek met hoge naar een plek met lage concentratie door hun willekeurige beweging."
+    },
+    {
+      "term": "Osmose",
+      "definition": "Diffusie van water door een selectief doorlatend membraan, naar de kant met de hoogste concentratie opgeloste deeltjes."
+    },
+    {
+      "term": "Oplossend vermogen",
+      "definition": "De kleinste afstand waarop twee punten nog als afzonderlijk te onderscheiden zijn."
+    },
+    {
+      "term": "Mitose",
+      "definition": "Kerndeling waarbij twee genetisch gelijke dochterkernen ontstaan."
+    },
+    {
+      "term": "Endosymbiose",
+      "definition": "Het ontstaan van mitochondriën en chloroplasten uit bacteriën die in een gastheercel werden opgenomen en in leven bleven."
+    },
+    {
+      "term": "Proximate verklaring",
+      "definition": "Verklaring van hoe iets werkt of zich ontwikkelt: mechanisme en ontwikkeling."
+    },
+    {
+      "term": "Ultimate verklaring",
+      "definition": "Verklaring van waarom een eigenschap is ontstaan: het voordeel dat ze gaf bij selectie."
     }
   ],
   "lessons": [
@@ -68,8 +120,82 @@
       "title": "Wat is leven?",
       "file": "01-introductie.md",
       "kind": "intro"
+    },
+    {
+      "slug": "leven-en-schaalniveaus",
+      "title": "Leven en schaalniveaus",
+      "file": "02-leven-en-schaalniveaus.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "kijken-microscopie-en-celtheorie",
+      "title": "Kijken: microscopie en celtheorie",
+      "file": "03-kijken-microscopie-en-celtheorie.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "celtypen-en-organellen",
+      "title": "Celtypen en organellen",
+      "file": "04-celtypen-en-organellen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "membraan-en-transport",
+      "title": "Membraan en transport",
+      "file": "05-membraan-en-transport.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "celdeling-en-celgrootte",
+      "title": "Celdeling en celgrootte",
+      "file": "06-celdeling-en-celgrootte.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "onderzoekers-in-debat",
+      "title": "Onderzoekers in debat",
+      "file": "07-onderzoekers-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
     }
   ],
-  "timeline": [],
-  "people": []
+  "timeline": [
+    "aristoteles-historia-animalium",
+    "hooke-micrographia",
+    "redi-maden",
+    "leeuwenhoek-dierkens",
+    "leeuwenhoek-bacterien",
+    "brown-celkern",
+    "schleiden-schwann-celtheorie",
+    "virchow-omnis-cellula",
+    "pasteur-zwanenhals",
+    "abbe-oplossend-vermogen",
+    "flemming-mitose",
+    "gorter-grendel-dubbellaag",
+    "ruska-elektronenmicroscoop",
+    "margulis-endosymbiose",
+    "singer-nicolson-membraanmodel",
+    "woese-archaea"
+  ],
+  "people": [
+    "aristoteles",
+    "robert-hooke",
+    "antoni-van-leeuwenhoek",
+    "francesco-redi",
+    "robert-brown",
+    "matthias-schleiden",
+    "theodor-schwann",
+    "rudolf-virchow",
+    "louis-pasteur",
+    "walther-flemming",
+    "evert-gorter",
+    "ernst-ruska",
+    "lynn-margulis",
+    "carl-woese"
+  ]
 }

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" role="img" aria-labelledby="t d" font-family="sans-serif" font-size="14">
+<title id="t">De ontwerpcyclus</title>
+<desc id="d">Vier stappen in een kring: probleem en eisen, varianten, afweging en keuze, testen en bijstellen, met een pijl terug naar de eisen.</desc>
+<defs><marker id="p" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3b5bdb"/></marker></defs>
+<rect width="600" height="300" fill="#ffffff"/>
+<rect x="30" y="30" width="200" height="70" rx="8" fill="#f4f1ea" stroke="#1f2933" stroke-width="2"/>
+<text x="130" y="58" text-anchor="middle" fill="#1f2933">1. Probleem</text><text x="130" y="80" text-anchor="middle" fill="#1f2933">en eisen</text>
+<rect x="370" y="30" width="200" height="70" rx="8" fill="#f4f1ea" stroke="#1f2933" stroke-width="2"/>
+<text x="470" y="58" text-anchor="middle" fill="#1f2933">2. Varianten</text><text x="470" y="80" text-anchor="middle" fill="#1f2933">bedenken</text>
+<rect x="370" y="190" width="200" height="70" rx="8" fill="#f4f1ea" stroke="#1f2933" stroke-width="2"/>
+<text x="470" y="218" text-anchor="middle" fill="#1f2933">3. Afwegen</text><text x="470" y="240" text-anchor="middle" fill="#1f2933">en kiezen</text>
+<rect x="30" y="190" width="200" height="70" rx="8" fill="#f4f1ea" stroke="#1f2933" stroke-width="2"/>
+<text x="130" y="218" text-anchor="middle" fill="#1f2933">4. Bouwen, testen</text><text x="130" y="240" text-anchor="middle" fill="#1f2933">en bijstellen</text>
+<line x1="232" y1="65" x2="366" y2="65" stroke="#3b5bdb" stroke-width="3" marker-end="url(#p)"/>
+<line x1="470" y1="102" x2="470" y2="186" stroke="#3b5bdb" stroke-width="3" marker-end="url(#p)"/>
+<line x1="368" y1="225" x2="234" y2="225" stroke="#3b5bdb" stroke-width="3" marker-end="url(#p)"/>
+<line x1="130" y1="188" x2="130" y2="104" stroke="#9c6b30" stroke-width="3" stroke-dasharray="6 4" marker-end="url(#p)"/>
+<text x="300" y="150" text-anchor="middle" fill="#9c6b30">terugkoppeling:</text>
+<text x="300" y="170" text-anchor="middle" fill="#9c6b30">de test leidt tot nieuwe eisen</text>
+</svg>

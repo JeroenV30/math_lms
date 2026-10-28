@@ -5,69 +5,86 @@
   "part": 1,
   "level": "fundamenten",
   "status": "available",
-  "historical_period": "Hellenistische tijd",
-  "estimated_difficulty": 1,
-  "estimated_minutes": 15,
+  "historical_period": "Oudheid tot twintigste eeuw",
+  "estimated_difficulty": 2,
+  "estimated_minutes": 240,
   "prerequisites": [],
   "topics": [
     "earth-shape",
     "scale",
-    "observation"
+    "observation",
+    "seasons",
+    "coordinates",
+    "earth-interior",
+    "deep-time"
   ],
-  "core_question": "Een planeet leren lezen",
-  "summary": "Van de vorm van de aarde en het weer tot sterren en sterrenstelsels. Van Eratosthenes en Copernicus tot platentektoniek en de oerknal.",
+  "core_question": "Hoe weten we iets over plaatsen en tijden waar niemand kan komen?",
+  "summary": "Van de schaduw van Eratosthenes tot de klok in het gesteente: hoe we met hoeken, tijden, golven en isotopen de vorm, de beweging, de bouw en de ouderdom van de aarde afleiden.",
   "learning_goals": [
-    "Je kunt beschrijven waarom de aarde ongeveer bolvormig is en waarom een kaart altijd een projectie gebruikt.",
-    "Je kunt uitleggen hoe Eratosthenes uit een hoek en een afstand de omtrek van de aarde kon schatten.",
-    "Je kunt de rol van breedtegraad en lengtegraad in plaatsbepaling beschrijven.",
-    "Je kunt uitleggen hoe de rotatie van de aarde dag en nacht veroorzaakt en hoe de schuine aardas bijdraagt aan seizoenen.",
-    "Je kunt onderscheid maken tussen weer en klimaat.",
-    "Je kunt uitleggen waarom wetenschappers modellen en indirecte waarnemingen gebruiken om de aarde en ruimte te onderzoeken."
+    "Je kunt uitleggen waarom we weten dat de aarde een bol is, en de omtrek berekenen volgens de methode van Eratosthenes, met de aannames erbij.",
+    "Je kunt beschrijven waarom de aarde iets is afgeplat, hoe dat is gemeten, en waarom elke kaartprojectie vervormt.",
+    "Je kunt uitleggen hoe de rotatie dag en nacht veroorzaakt en hoe de schuine aardas de seizoenen veroorzaakt, en de zonshoogte voor een breedte berekenen.",
+    "Je kunt een breedtegraad bepalen uit de zonshoogte en een lengtegraad uit een tijdverschil, en uitleggen waarom tijdzones een afspraak zijn.",
+    "Je kunt uitleggen hoe uit aardbevingsgolven en de dichtheid van de aarde de opbouw uit korst, mantel en kern is afgeleid.",
+    "Je kunt uitleggen hoe de ouderdom van de aarde (ongeveer 4,54 miljard jaar) is bepaald en met halfwaardetijden een ouderdom berekenen.",
+    "Je kunt aangeven welke aannames in een indirecte meting zitten en hoe zeker de uitkomst is."
   ],
   "glossary": [
     {
-      "term": "Planeet",
-      "definition": "Een groot hemellichaam dat om een ster draait en zelf geen ster is."
+      "term": "Omtrek",
+      "definition": "De lengte van een gesloten rondgaande lijn op de aarde, zoals de evenaar of een meridiaan."
     },
     {
-      "term": "Rotatie",
-      "definition": "Het draaien van een hemellichaam om een eigen as."
-    },
-    {
-      "term": "Omloop",
-      "definition": "De beweging van een hemellichaam in een baan rond een ander hemellichaam."
-    },
-    {
-      "term": "Aardas",
-      "definition": "De denkbeeldige lijn waar de aarde omheen draait; die staat schuin ten opzichte van het baanvlak."
+      "term": "Afplatting",
+      "definition": "Het verschil tussen evenaarstraal en poolstraal, gedeeld door de evenaarstraal: voor de aarde ongeveer 1 op 298."
     },
     {
       "term": "Breedtegraad",
-      "definition": "Hoekpositie ten noorden of zuiden van de evenaar."
+      "definition": "De hoek van een plaats ten opzichte van het vlak van de evenaar, van 0° tot 90° noord of zuid."
     },
     {
       "term": "Lengtegraad",
-      "definition": "Hoekpositie ten oosten of westen van een nulmeridiaan."
+      "definition": "De hoek langs de evenaar tussen de meridiaan van een plaats en de afgesproken nulmeridiaan, van 0° tot 180° oost of west."
     },
     {
       "term": "Kaartprojectie",
-      "definition": "Een methode om het gebogen aardoppervlak op een plat vlak weer te geven."
+      "definition": "Een methode om het gebogen aardoppervlak op een plat vlak weer te geven; elke projectie vervormt iets."
     },
     {
-      "term": "Zwaartekracht",
-      "definition": "De aantrekkende wisselwerking tussen objecten met massa."
+      "term": "Aardas",
+      "definition": "De denkbeeldige lijn waar de aarde omheen draait; ze staat ongeveer 23,4° schuin op de loodlijn van het baanvlak."
     },
     {
-      "term": "Weer",
-      "definition": "De toestand van de atmosfeer op een bepaalde plaats en tijd."
+      "term": "Sterrendag",
+      "definition": "De tijd van één volledige draaiing ten opzichte van de sterren: ongeveer 23 uur en 56 minuten."
     },
     {
-      "term": "Klimaat",
-      "definition": "Statistische patronen van het weer over langere perioden."
+      "term": "Declinatie",
+      "definition": "De breedte waarop de zon op een bepaald moment loodrecht boven staat; ze loopt door het jaar van +23,4° tot −23,4°."
+    },
+    {
+      "term": "P-golf en S-golf",
+      "definition": "Aardbevingsgolven: de P-golf is een snelle drukgolf, de S-golf een tragere schuifgolf die niet door een vloeistof kan."
+    },
+    {
+      "term": "Moho",
+      "definition": "De grens tussen korst en mantel, ontdekt door Mohorovičić in 1909."
+    },
+    {
+      "term": "Buitenkern en binnenkern",
+      "definition": "De vloeibare buitenkern (2891 – 5150 km diepte) en de vaste binnenkern (straal ongeveer 1220 km)."
+    },
+    {
+      "term": "Halfwaardetijd",
+      "definition": "De tijd waarin de helft van een hoeveelheid radioactieve atomen is vervallen."
+    },
+    {
+      "term": "Diepe tijd",
+      "definition": "De geologische tijdschaal van miljoenen tot miljarden jaren, waarin processen plaatsvinden die te langzaam zijn om direct te zien."
     },
     {
       "term": "Model",
-      "definition": "Een vereenvoudigde beschrijving die helpt een systeem of verschijnsel te onderzoeken."
+      "definition": "Een vereenvoudigde beschrijving waarmee je een waarneming omzet in een uitspraak, met uitgesproken aannames."
     }
   ],
   "lessons": [
@@ -76,8 +93,86 @@
       "title": "Een planeet leren lezen",
       "file": "01-introductie.md",
       "kind": "intro"
+    },
+    {
+      "slug": "een-ronde-aarde",
+      "title": "Een ronde aarde en haar omtrek",
+      "file": "02-een-ronde-aarde.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "vorm-en-afmetingen",
+      "title": "Vorm, afmetingen en kaarten",
+      "file": "03-vorm-en-afmetingen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "dag-nacht-en-seizoenen",
+      "title": "Dag, nacht en seizoenen",
+      "file": "04-dag-nacht-en-seizoenen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "breedte-lengte-en-tijd",
+      "title": "Breedte, lengte en tijd",
+      "file": "05-breedte-lengte-en-tijd.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "de-opbouw-van-de-aarde",
+      "title": "De opbouw van de aarde",
+      "file": "06-de-opbouw-van-de-aarde.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "ouderdom-en-diepe-tijd",
+      "title": "Ouderdom en diepe tijd",
+      "file": "07-ouderdom-en-diepe-tijd.md",
+      "kind": "history"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
     }
   ],
-  "timeline": [],
-  "people": []
+  "timeline": [
+    "aristoteles-over-de-hemel",
+    "eratosthenes-meting",
+    "ptolemaeus-geografie",
+    "ussher-annales",
+    "newton-principia",
+    "geodetische-expedities",
+    "harrison-h4",
+    "hutton-siccar-point",
+    "cavendish-aarde-wegen",
+    "meter-meridiaan",
+    "foucault-slinger",
+    "kelvin-leeftijd-aarde",
+    "meridiaanconferentie-1884",
+    "oldham-kern",
+    "mohorovicic-moho",
+    "gutenberg-kerngrens",
+    "lehmann-binnenkern",
+    "patterson-leeftijd-aarde"
+  ],
+  "people": [
+    "aristoteles",
+    "eratosthenes",
+    "ptolemaeus",
+    "ussher",
+    "newton",
+    "maupertuis",
+    "harrison",
+    "cavendish",
+    "hutton",
+    "foucault",
+    "kelvin",
+    "oldham",
+    "mohorovicic",
+    "gutenberg",
+    "lehmann",
+    "patterson"
+  ]
 }

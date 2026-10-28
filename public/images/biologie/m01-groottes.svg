@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 384" font-family="Georgia, serif" font-size="12">
+<rect width="600" height="384" fill="#ffffff"/>
+<text x="300" y="22" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f2933">Groottes op een logaritmische schaal</text>
+<rect x="354.0" y="40" width="216.0" height="16" rx="3" fill="#9c6b30" opacity="0.85"/>
+<text x="360.0" y="52" fill="#ffffff">oog</text>
+<rect x="208.3" y="66" width="145.7" height="16" rx="3" fill="#3b5bdb" opacity="0.85"/>
+<text x="214.3" y="78" fill="#ffffff">lichtmicroscoop</text>
+<rect x="84.0" y="92" width="216.0" height="16" rx="3" fill="#1f2933" opacity="0.85"/>
+<text x="90.0" y="104" fill="#ffffff">elektronenmicroscoop</text>
+<line x1="30" y1="150" x2="570" y2="150" stroke="#1f2933" stroke-width="2"/>
+<line x1="30" y1="145" x2="30" y2="155" stroke="#1f2933"/>
+<text x="30" y="170" text-anchor="middle" font-size="10" fill="#1f2933">0,1 nm</text>
+<line x1="84" y1="145" x2="84" y2="155" stroke="#1f2933"/>
+<text x="84" y="170" text-anchor="middle" font-size="10" fill="#1f2933">1 nm</text>
+<line x1="138" y1="145" x2="138" y2="155" stroke="#1f2933"/>
+<text x="138" y="170" text-anchor="middle" font-size="10" fill="#1f2933">10 nm</text>
+<line x1="192" y1="145" x2="192" y2="155" stroke="#1f2933"/>
+<text x="192" y="170" text-anchor="middle" font-size="10" fill="#1f2933">100 nm</text>
+<line x1="246" y1="145" x2="246" y2="155" stroke="#1f2933"/>
+<text x="246" y="170" text-anchor="middle" font-size="10" fill="#1f2933">1 µm</text>
+<line x1="300" y1="145" x2="300" y2="155" stroke="#1f2933"/>
+<text x="300" y="170" text-anchor="middle" font-size="10" fill="#1f2933">10 µm</text>
+<line x1="354" y1="145" x2="354" y2="155" stroke="#1f2933"/>
+<text x="354" y="170" text-anchor="middle" font-size="10" fill="#1f2933">0,1 mm</text>
+<line x1="408" y1="145" x2="408" y2="155" stroke="#1f2933"/>
+<text x="408" y="170" text-anchor="middle" font-size="10" fill="#1f2933">1 mm</text>
+<line x1="462" y1="145" x2="462" y2="155" stroke="#1f2933"/>
+<text x="462" y="170" text-anchor="middle" font-size="10" fill="#1f2933">1 cm</text>
+<line x1="516" y1="145" x2="516" y2="155" stroke="#1f2933"/>
+<text x="516" y="170" text-anchor="middle" font-size="10" fill="#1f2933">10 cm</text>
+<line x1="570" y1="145" x2="570" y2="155" stroke="#1f2933"/>
+<text x="570" y="170" text-anchor="middle" font-size="10" fill="#1f2933">1 m</text>
+<circle cx="84.0" cy="150" r="5" fill="#3b5bdb"/>
+<line x1="84.0" y1="155" x2="84.0" y2="196" stroke="#3b5bdb" stroke-dasharray="3 3"/>
+<text x="84.0" y="208" text-anchor="middle" font-weight="bold" fill="#1f2933">glucose</text>
+<text x="84.0" y="222" text-anchor="middle" fill="#1f2933">1 nm</text>
+<circle cx="159.5" cy="150" r="5" fill="#3b5bdb"/>
+<line x1="159.5" y1="155" x2="159.5" y2="236" stroke="#3b5bdb" stroke-dasharray="3 3"/>
+<text x="159.5" y="248" text-anchor="middle" font-weight="bold" fill="#1f2933">ribosoom</text>
+<text x="159.5" y="262" text-anchor="middle" fill="#1f2933">25 nm</text>
+<circle cx="192.0" cy="150" r="5" fill="#3b5bdb"/>
+<line x1="192.0" y1="155" x2="192.0" y2="276" stroke="#3b5bdb" stroke-dasharray="3 3"/>
+<text x="192.0" y="288" text-anchor="middle" font-weight="bold" fill="#1f2933">virus</text>
+<text x="192.0" y="302" text-anchor="middle" fill="#1f2933">100 nm</text>
+<circle cx="262.3" cy="150" r="5" fill="#3b5bdb"/>
+<line x1="262.3" y1="155" x2="262.3" y2="316" stroke="#3b5bdb" stroke-dasharray="3 3"/>
+<text x="258.3" y="328" text-anchor="end" font-weight="bold" fill="#1f2933">bacterie</text>
+<text x="258.3" y="342" text-anchor="end" fill="#1f2933">2 µm</text>
+<circle cx="291.6" cy="150" r="5" fill="#3b5bdb"/>
+<line x1="291.6" y1="155" x2="291.6" y2="276" stroke="#3b5bdb" stroke-dasharray="3 3"/>
+<text x="295.6" y="288" text-anchor="start" font-weight="bold" fill="#1f2933">rode bloedcel</text>
+<text x="295.6" y="302" text-anchor="start" fill="#1f2933">7 µm</text>
+<circle cx="316.3" cy="150" r="5" fill="#3b5bdb"/>
+<line x1="316.3" y1="155" x2="316.3" y2="236" stroke="#3b5bdb" stroke-dasharray="3 3"/>
+<text x="320.3" y="248" text-anchor="start" font-weight="bold" fill="#1f2933">dierlijke cel</text>
+<text x="320.3" y="262" text-anchor="start" fill="#1f2933">20 µm</text>
+<circle cx="354.0" cy="150" r="5" fill="#3b5bdb"/>
+<line x1="354.0" y1="155" x2="354.0" y2="196" stroke="#3b5bdb" stroke-dasharray="3 3"/>
+<text x="358.0" y="208" text-anchor="start" font-weight="bold" fill="#1f2933">menselijke eicel</text>
+<text x="358.0" y="222" text-anchor="start" fill="#1f2933">0,1 mm</text>
+<circle cx="525.5" cy="150" r="5" fill="#3b5bdb"/>
+<line x1="525.5" y1="155" x2="525.5" y2="316" stroke="#3b5bdb" stroke-dasharray="3 3"/>
+<text x="521.5" y="328" text-anchor="end" font-weight="bold" fill="#1f2933">struisvogelei</text>
+<text x="521.5" y="342" text-anchor="end" fill="#1f2933">15 cm</text>
+<text x="300" y="376" text-anchor="middle" font-size="11" fill="#1f2933">Elke streep is tien keer zo groot als de vorige.</text>
+</svg>

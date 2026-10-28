@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" role="img" aria-label="De vijf stappen van kunstbeschouwing">
+  <style>
+    text { font-family: system-ui, Arial, sans-serif; font-size: 14px; fill: #1f2933; }
+    .t { font-weight: bold; }
+    .s { font-size: 12.5px; }
+  </style>
+  <rect width="600" height="220" fill="#ffffff"/>
+  <g stroke="#1f2933" stroke-width="2">
+    <rect x="10" y="50" width="104" height="80" rx="6" fill="#faf6ee"/>
+    <rect x="128" y="50" width="104" height="80" rx="6" fill="#faf6ee"/>
+    <rect x="246" y="50" width="104" height="80" rx="6" fill="#e8eefc" stroke="#3b5bdb"/>
+    <rect x="364" y="50" width="104" height="80" rx="6" fill="#efe3cf" stroke="#9c6b30"/>
+    <rect x="482" y="50" width="104" height="80" rx="6" fill="#faf6ee"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="62" y="82" class="t">1</text><text x="62" y="102">Beschrijven</text><text x="62" y="119" class="s">wat zie je?</text>
+    <text x="180" y="82" class="t">2</text><text x="180" y="102">Vorm</text><text x="180" y="119" class="s">hoe gemaakt?</text>
+    <text x="298" y="82" class="t">3</text><text x="298" y="102">Interpreteren</text><text x="298" y="119" class="s">wat betekent het?</text>
+    <text x="416" y="82" class="t">4</text><text x="416" y="102">Context</text><text x="416" y="119" class="s">wie, voor wie?</text>
+    <text x="534" y="82" class="t">5</text><text x="534" y="102">Oordelen</text><text x="534" y="119" class="s">met redenen</text>
+  </g>
+  <g stroke="#1f2933" stroke-width="2" fill="#1f2933">
+    <line x1="114" y1="90" x2="126" y2="90"/><polygon points="128,90 120,85 120,95"/>
+    <line x1="232" y1="90" x2="244" y2="90"/><polygon points="246,90 238,85 238,95"/>
+    <line x1="350" y1="90" x2="362" y2="90"/><polygon points="364,90 356,85 356,95"/>
+    <line x1="468" y1="90" x2="480" y2="90"/><polygon points="482,90 474,85 474,95"/>
+  </g>
+  <path d="M416 135 V170 H62 V135" fill="none" stroke="#3b5bdb" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <polygon points="62,134 56,146 68,146" fill="#3b5bdb"/>
+  <text x="240" y="192" text-anchor="middle" class="s">nieuwe context kan je beschrijving bijstellen</text>
+</svg>

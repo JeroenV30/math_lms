@@ -1,0 +1,474 @@
+{
+  "title": "Hoofdstuktoets – Kijken naar kunst",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "01-T01",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke uitspraak over een kunstwerk is een waarneming?",
+      "choices": [
+        "De achterwand van de kamer is leeg.",
+        "Het is een meesterwerk.",
+        "De maker wilde stilte tonen.",
+        "Het werk drukt eenzaamheid uit."
+      ],
+      "answer": "De achterwand van de kamer is leeg.",
+      "hints": [
+        "Wat kan een ander controleren door te kijken?"
+      ],
+      "solution": [
+        "Alleen de lege wand is aanwijsbaar."
+      ],
+      "feedback": [
+        {
+          "answer": "Het werk drukt eenzaamheid uit.",
+          "message": "Dit is een interpretatie: ze vraagt om kenmerken als onderbouwing."
+        },
+        {
+          "answer": "Het is een meesterwerk.",
+          "message": "Dit is een oordeel."
+        }
+      ],
+      "topics": [
+        "description",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-T02",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat bedoelt men met de \"context\" van een kunstwerk?",
+      "choices": [
+        "Alleen het jaartal waarin het werk is gemaakt.",
+        "De persoonlijke smaak van de kijker.",
+        "Omstandigheden als opdrachtgever, functie, plaats, publiek en tijd waarin het werk werd gemaakt en gebruikt.",
+        "De kleuren en lijnen waaruit het werk bestaat."
+      ],
+      "answer": "Omstandigheden als opdrachtgever, functie, plaats, publiek en tijd waarin het werk werd gemaakt en gebruikt.",
+      "hints": [
+        "Context ligt buiten het werk zelf."
+      ],
+      "solution": [
+        "Context: wie, voor wie, waarvoor, wanneer, waar."
+      ],
+      "feedback": [
+        {
+          "answer": "De kleuren en lijnen waaruit het werk bestaat.",
+          "message": "Dat is de vorm van het werk, niet de context ervan."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-T03",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom bestaat er geen vaste definitie van kunst waarop alle partijen het eens zijn?",
+      "choices": [
+        "Omdat kunst alleen in het Westen bestaat.",
+        "Omdat alleen musea bepalen wat kunst is.",
+        "Omdat meerdere partijen (makers, musea, critici, gemeenschappen) met verschillende maatstaven bepalen wat als kunst geldt.",
+        "Omdat kunst niet te beschrijven is."
+      ],
+      "answer": "Omdat meerdere partijen (makers, musea, critici, gemeenschappen) met verschillende maatstaven bepalen wat als kunst geldt.",
+      "hints": [
+        "Denk aan het masker in een ritueel en in een museum."
+      ],
+      "solution": [
+        "Het begrip heeft een geschiedenis en verschillende bepalers."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat alleen musea bepalen wat kunst is.",
+          "message": "Musea spelen een grote rol, maar ook makers, critici, markt en gemeenschappen bepalen mee."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een kijker zegt: \"Dit schilderij is realistisch, dus het is beter dan een abstract werk.\" Hoe beoordeel je dat?",
+      "choices": [
+        "Het is een feit dat met onderzoek te bewijzen is.",
+        "Gelijkenis met de werkelijkheid is een eigenschap, geen maatstaf voor kwaliteit.",
+        "Het klopt niet: abstract is altijd beter.",
+        "Het klopt: realisme is altijd de hoogste kunst."
+      ],
+      "answer": "Gelijkenis met de werkelijkheid is een eigenschap, geen maatstaf voor kwaliteit.",
+      "hints": [
+        "Gelijkenis is een eigenschap."
+      ],
+      "solution": [
+        "Een oordeel moet zijn redenen noemen."
+      ],
+      "feedback": [
+        {
+          "answer": "Het klopt: realisme is altijd de hoogste kunst.",
+          "message": "Dit maakt een eigenschap tot norm; andere tradities en tijden waarderen iets anders."
+        }
+      ],
+      "topics": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "In een werk is het licht de felste plek rond de handen van een figuur in het midden; de rest is donker. Welke vormaspect-analyse past daarbij?",
+      "context": "Een schilderij uit de zeventiende eeuw: een figuur staat in het midden van een donkere ruimte. Een lichtstraal valt op haar handen en op een voorwerp dat ze vasthoudt; de rest van het doek is nauwelijks verlicht.",
+      "choices": [
+        "Het perspectief is daardoor niet geconstrueerd.",
+        "De compositie is daardoor per definitie slecht.",
+        "De kleur heeft daardoor een vaste, universele betekenis.",
+        "Het licht stuurt de aandacht naar de handeling van de figuur."
+      ],
+      "answer": "Het licht stuurt de aandacht naar de handeling van de figuur.",
+      "hints": [
+        "Het oog gaat naar de helderste plek."
+      ],
+      "solution": [
+        "Het licht leidt het oog."
+      ],
+      "feedback": [
+        {
+          "answer": "De kleur heeft daardoor een vaste, universele betekenis.",
+          "message": "Licht stuurt hier de aandacht; kleuren hebben geen vaste universele betekenis."
+        }
+      ],
+      "topics": [
+        "description"
+      ]
+    },
+    {
+      "id": "01-T06",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze stappen van een analyse in de aanbevolen volgorde.",
+      "answer": [
+        "Beschrijven wat je waarneemt",
+        "De vorm analyseren",
+        "Interpreteren",
+        "De context zoeken",
+        "Een oordeel geven met redenen"
+      ],
+      "hints": [
+        "Het oordeel komt als laatste."
+      ],
+      "solution": [
+        "Beschrijving, vorm, interpretatie, context, oordeel."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Interpreteren",
+            "Beschrijven wat je waarneemt",
+            "De vorm analyseren",
+            "De context zoeken",
+            "Een oordeel geven met redenen"
+          ],
+          "message": "Beschrijf eerst; interpretatie volgt op de vormanalyse."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een Benin-plaquette (ca. 1540–1570, messing) toont een grote centrale figuur met kleinere figuren aan weerszijden, zonder lijnperspectief. Welke lezing is het meest zorgvuldig?",
+      "context": "Plaquette met een krijger en dienaren, Edo (gilde van messinggieters, Benin), ca. 1540–1570, messing, 47,6 × 38,1 × 10,8 cm, Metropolitan Museum of Art, New York. In het midden staat een grote frontale figuur in hoog reliëf; aan weerszijden staan kleinere figuren. De achtergrond is gevuld met een patroon in laag reliëf. Er is geen lijnperspectief.",
+      "choices": [
+        "De gieters kenden perspectief nog niet, dus het werk is onvoltooid.",
+        "De kleinere figuren staan ver weg.",
+        "De grootte geeft waarschijnlijk rang aan; wat de figuren betekenen, vraagt kennis uit bronnen over het hof van Benin.",
+        "De betekenis is eenvoudig vast te stellen door het als Europees portret te lezen."
+      ],
+      "answer": "De grootte geeft waarschijnlijk rang aan; wat de figuren betekenen, vraagt kennis uit bronnen over het hof van Benin.",
+      "hints": [
+        "Grootte kan rang aanduiden."
+      ],
+      "solution": [
+        "Eerst beschrijven, dan voor betekenis kennis van anderen gebruiken."
+      ],
+      "feedback": [
+        {
+          "answer": "De gieters kenden perspectief nog niet, dus het werk is onvoltooid.",
+          "message": "Dit meet het werk af aan een Europese norm. De ruimte is anders georganiseerd, niet onvoltooid."
+        },
+        {
+          "answer": "De betekenis is eenvoudig vast te stellen door het als Europees portret te lezen.",
+          "message": "Dat projecteert een Europese categorie; je hebt bronnen van binnen de cultuur nodig."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "context"
+      ]
+    },
+    {
+      "id": "01-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een tekst bij een portret uit 1533 luidt: \"De schilder koos de schedel om zijn pessimisme over het leven te tonen.\" Er is geen bron van de schilder. Wat is de beste herformulering?",
+      "context": "Hans Holbein de Jongere, *De ambassadeurs*, 1533, National Gallery, Londen: twee mannen naast een tafel met instrumenten; onderaan een vervormd vlak dat vanuit één punt als een schedel te lezen is.",
+      "choices": [
+        "\"De schedel is een mooi detail.\"",
+        "\"De schedel toont ontegenzeglijk het pessimisme van de schilder.\"",
+        "\"De schedel kan wijzen op vergankelijkheid; waarom de schilder het zo koos, is niet bekend.\"",
+        "\"Schedels betekenen in alle culturen dood.\""
+      ],
+      "answer": "\"De schedel kan wijzen op vergankelijkheid; waarom de schilder het zo koos, is niet bekend.\"",
+      "hints": [
+        "Gebruik voorzichtige formuleringen voor intenties."
+      ],
+      "solution": [
+        "Bekend, aannemelijk of gissing: formuleer erop."
+      ],
+      "feedback": [
+        {
+          "answer": "\"De schedel toont ontegenzeglijk het pessimisme van de schilder.\"",
+          "message": "Dit presenteert een veronderstelde bedoeling als vaststaand feit."
+        },
+        {
+          "answer": "\"Schedels betekenen in alle culturen dood.\"",
+          "message": "Symbolen hebben geen universele betekenis; dit is een anachronistische of geprojecteerde lezing."
+        }
+      ],
+      "topics": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een altaarstuk uit de vijftiende eeuw hangt nu in een museum. Welke uitspraak is het zorgvuldigst?",
+      "context": "Een polyptiek uit de vijftiende eeuw, met gouden achtergrond, stond oorspronkelijk op een kerkaltaar. Nu hangt het op ooghoogte in een museumzaal.",
+      "choices": [
+        "In het museum zie je het werk zoals het bedoeld was.",
+        "Het materiële werk is anders geworden, dus het is nu een ander werk.",
+        "De betekenis staat los van het gebruik.",
+        "De lezing verschilt per plek: als altaarstuk was het een hulpmiddel voor ritueel, in het museum een object om te vergelijken."
+      ],
+      "answer": "De lezing verschilt per plek: als altaarstuk was het een hulpmiddel voor ritueel, in het museum een object om te vergelijken.",
+      "hints": [
+        "Denk aan wie het ziet en wat die ermee doet."
+      ],
+      "solution": [
+        "Context verandert de lezing."
+      ],
+      "feedback": [
+        {
+          "answer": "De betekenis staat los van het gebruik.",
+          "message": "Functie en plaats veranderen wat je ziet en hoe je vormkeuzes leest."
+        },
+        {
+          "answer": "In het museum zie je het werk zoals het bedoeld was.",
+          "message": "Het museum is een eigen context; het oorspronkelijke gebruik is er meestal weggevallen."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-T10",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet de drie niveaus van Panofsky in de volgorde van beschrijving naar diepere betekenis.",
+      "answer": [
+        "Pre-iconografische beschrijving",
+        "Iconografische analyse",
+        "Iconologische interpretatie"
+      ],
+      "hints": [
+        "Het meest speculatieve niveau staat laatst."
+      ],
+      "solution": [
+        "Pre-iconografisch, iconografisch, iconologisch."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Iconografische analyse",
+            "Pre-iconografische beschrijving",
+            "Iconologische interpretatie"
+          ],
+          "message": "Begin bij herkennen, dan thema, dan diepere betekenis."
+        }
+      ],
+      "topics": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-T11",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een analist schrijft: \"De lege wand richt de aandacht op de handeling, omdat niets met de handeling concurreert.\" Wat voor soort uitspraak is dit?",
+      "choices": [
+        "Een interpretatie van de werking van de vorm, onderbouwd met een aanwijsbaar kenmerk.",
+        "Een bewering over de bedoeling van de maker.",
+        "Een waarneming die iedereen moet delen.",
+        "Een puur oordeel zonder redenen."
+      ],
+      "answer": "Een interpretatie van de werking van de vorm, onderbouwd met een aanwijsbaar kenmerk.",
+      "hints": [
+        "Er staat een kenmerk én een effect."
+      ],
+      "solution": [
+        "Kenmerk is waarneming, effect is interpretatie."
+      ],
+      "feedback": [
+        {
+          "answer": "Een waarneming die iedereen moet delen.",
+          "message": "Dat de wand leeg is, is waarneming; dat dit de aandacht richt, is een lezing van het effect."
+        }
+      ],
+      "topics": [
+        "description",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-T12",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat maakt een interpretatie van een kunstwerk sterker?",
+      "choices": [
+        "Ze is origineel en niemand heeft haar eerder bedacht.",
+        "Ze steunt op meerdere aanwijsbare kenmerken, past bij de context en zegt eerlijk wat onzeker blijft.",
+        "Ze stelt de bedoeling van de maker vast zonder bron.",
+        "Ze verklaart het werk uit één detail."
+      ],
+      "answer": "Ze steunt op meerdere aanwijsbare kenmerken, past bij de context en zegt eerlijk wat onzeker blijft.",
+      "hints": [
+        "Denk aan aanwijsbaarheid, samenhang en eerlijkheid."
+      ],
+      "solution": [
+        "Onderbouwing en eerlijkheid maken een lezing sterk."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze verklaart het werk uit één detail.",
+          "message": "Samenhang vraagt dat meer kenmerken worden verklaard, niet één detail."
+        }
+      ],
+      "topics": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een museumbezoeker zegt over een gouden-eeuws schilderij: \"Dit was toen al een meesterwerk.\" Wat is hier gevaarlijk aan?",
+      "context": "Johannes Vermeer overleed in 1675; zijn werk werd een tijd grotendeels vergeten en in de negentiende eeuw herontdekt.",
+      "choices": [
+        "Schilders werden toen niet betaald.",
+        "Het projecteert een latere waardering terug; het werk kan lange tijd weinig gewaardeerd zijn geweest.",
+        "Er bestond toen geen schilderkunst.",
+        "Het werk is vals."
+      ],
+      "answer": "Het projecteert een latere waardering terug; het werk kan lange tijd weinig gewaardeerd zijn geweest.",
+      "hints": [
+        "Vermeer werd na zijn dood een tijd vergeten."
+      ],
+      "solution": [
+        "Waardering is veranderlijk."
+      ],
+      "feedback": [
+        {
+          "answer": "Er bestond toen geen schilderkunst.",
+          "message": "Schilderkunst bestond wel; het gaat om het begrip meesterwerk en de latere waardering."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat is het kernprobleem van het woord \"primitief\" voor werk uit Afrika of Oceanië?",
+      "choices": [
+        "Het suggereert dat de werken te modern zijn.",
+        "Het wordt alleen in Frankrijk gebruikt.",
+        "Het is te technisch voor een museum.",
+        "Het zet één ontwikkelingslijn met Europa als maat en laat makers en functie buiten beeld."
+      ],
+      "answer": "Het zet één ontwikkelingslijn met Europa als maat en laat makers en functie buiten beeld.",
+      "hints": [
+        "Wie maakte het en voor wie?"
+      ],
+      "solution": [
+        "Het etiket zegt meer over de kijker dan over de makers."
+      ],
+      "feedback": [
+        {
+          "answer": "Het suggereert dat de werken te modern zijn.",
+          "message": "Het suggereert juist een achterstand, geen modernheid."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een plaquette uit Benin kwam na de Britse expeditie van 1897 in westerse collecties. Wat is de zorgvuldigste conclusie voor een analyse?",
+      "context": "Plaquette, Edo, Benin, ca. 1540–1570, messing. In 1897 werd Benin-Stad door een Britse strafexpeditie geplunderd; veel voorwerpen kwamen later bij verzamelaars en musea terecht.",
+      "choices": [
+        "Vorm én herkomst horen erbij: een analyse die alleen de vorm behandelt, laat een deel van het verhaal weg.",
+        "Het werk hoort per definitie in het museum waar het hangt.",
+        "De herkomst is niet van belang voor de betekenis.",
+        "De teruggave is juridisch en daarom artistiek irrelevant."
+      ],
+      "answer": "Vorm én herkomst horen erbij: een analyse die alleen de vorm behandelt, laat een deel van het verhaal weg.",
+      "hints": [
+        "Een tweede geschiedenis ligt buiten het voorwerp."
+      ],
+      "solution": [
+        "Context omvat ook de weg naar het museum."
+      ],
+      "feedback": [
+        {
+          "answer": "De herkomst is niet van belang voor de betekenis.",
+          "message": "De herkomst bepaalt mede hoe en door wie het werk nu wordt gelezen."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    }
+  ]
+}

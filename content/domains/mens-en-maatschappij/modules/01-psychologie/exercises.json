@@ -1,0 +1,1133 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke omschrijving past het best bij wat psychologie onderzoekt?",
+      "choices": [
+        "Alleen het waarneembare gedrag, omdat gedachten en gevoelens niet te onderzoeken zijn",
+        "Het waarneembare gedrag van mensen én de mentale processen die daarbij een rol spelen",
+        "Alleen bewuste gedachten en gevoelens, zoals mensen die zelf beschrijven",
+        "Uitsluitend psychische stoornissen en hun behandeling"
+      ],
+      "answer": "Het waarneembare gedrag van mensen én de mentale processen die daarbij een rol spelen",
+      "hints": [
+        "Denk aan twee kanten: wat je van buiten ziet en wat zich van binnen afspeelt.",
+        "Is psychische problematiek het hele vak, of een deelgebied?"
+      ],
+      "solution": [
+        "Psychologie is de wetenschappelijke studie van gedrag en mentale processen.",
+        "Gedrag is waarneembaar; mentale processen leid je af uit aanwijzingen zoals taken, reactietijden en zelfrapportage."
+      ],
+      "feedback": [
+        {
+          "answer": "Alleen het waarneembare gedrag, omdat gedachten en gevoelens niet te onderzoeken zijn",
+          "message": "Dat was het standpunt van het vroege behaviorisme. De cognitieve psychologie onderzoekt mentale processen wel, door ze af te leiden uit zorgvuldig ontworpen taken en metingen."
+        },
+        {
+          "answer": "Alleen bewuste gedachten en gevoelens, zoals mensen die zelf beschrijven",
+          "message": "Zelfrapportage is één bron, met grenzen. Veel processen zijn niet bewust, en gedrag is een belangrijke bron van gegevens."
+        },
+        {
+          "answer": "Uitsluitend psychische stoornissen en hun behandeling",
+          "message": "Klinische psychologie is één deelgebied. Het vak bestudeert ook waarneming, geheugen, leren, ontwikkeling en groepsgedrag."
+        }
+      ],
+      "topics": [
+        "behaviour",
+        "research-questions"
+      ]
+    },
+    {
+      "id": "01-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "In 2015 herhaalde de Open Science Collaboration 100 gepubliceerde psychologische studies. Van de oorspronkelijke studies had 97% een significante uitkomst, van de herhalingen 36%. Welke conclusie is het best onderbouwd?",
+      "choices": [
+        "Veel gepubliceerde uitkomsten bleken bij herhaling zwakker of afwezig; één studie volstaat zelden",
+        "Psychologie is geen echte wetenschap, want 64% van alle gepubliceerde studies blijkt onwaar te zijn",
+        "Alleen de 36 herhalingen die slaagden leveren echte kennis op; de overige oorspronkelijke studies waren fraude",
+        "De herhalers werkten slordig, dus het getal zegt niets over de kwaliteit van het oorspronkelijke onderzoek"
+      ],
+      "answer": "Veel gepubliceerde uitkomsten bleken bij herhaling zwakker of afwezig; één studie volstaat zelden",
+      "hints": [
+        "Wat zegt een mislukte herhaling wel, en wat zegt ze niet?",
+        "Is ‘niet significant’ in een herhaling hetzelfde als ‘onwaar’?"
+      ],
+      "solution": [
+        "Het getal laat zien dat gepubliceerde resultaten niet altijd standhouden en dat effecten bij herhaling gemiddeld kleiner zijn.",
+        "Het laat niet zien dat alle eerdere studies onwaar zijn: een herhaling kan ook te klein of anders zijn."
+      ],
+      "feedback": [
+        {
+          "answer": "Psychologie is geen echte wetenschap, want 64% van alle gepubliceerde studies blijkt onwaar te zijn",
+          "message": "‘Niet significant bij herhaling’ is iets anders dan ‘onwaar’. Bovendien zijn de 100 studies een selectie van het vak."
+        },
+        {
+          "answer": "Alleen de 36 herhalingen die slaagden leveren echte kennis op; de overige oorspronkelijke studies waren fraude",
+          "message": "Fraude is een uitzondering. De belangrijkste oorzaken zijn onder meer publicatievertekening en veel analysevrijheid."
+        },
+        {
+          "answer": "De herhalers werkten slordig, dus het getal zegt niets over de kwaliteit van het oorspronkelijke onderzoek",
+          "message": "De herhalingen gebruikten waar mogelijk de oorspronkelijke materialen. Het getal zegt wel iets, maar het moet zorgvuldig worden gelezen."
+        }
+      ],
+      "topics": [
+        "replication"
+      ]
+    },
+    {
+      "id": "01-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke zin is een waarneming (een beschrijving van een meetresultaat) en geen interpretatie?",
+      "choices": [
+        "De deelnemers waren niet geconcentreerd en lieten zich afleiden door de taak.",
+        "De deelnemers vonden de taak saai.",
+        "De deelnemers waren onzeker over het juiste antwoord.",
+        "De deelnemers drukten gemiddeld na 480 milliseconden op de knop."
+      ],
+      "answer": "De deelnemers drukten gemiddeld na 480 milliseconden op de knop.",
+      "hints": [
+        "Welke zin zegt niets over wat er ‘achter’ het gedrag zit?",
+        "Een interpretatie voegt een reden of innerlijke toestand toe."
+      ],
+      "solution": [
+        "‘Gemiddeld na 480 milliseconden’ beschrijft wat is gemeten.",
+        "‘Niet geconcentreerd’, ‘saai’ en ‘onzeker’ zijn mogelijke verklaringen die niet rechtstreeks uit het getal volgen: misschien was de instructie onduidelijk."
+      ],
+      "feedback": [
+        {
+          "answer": "De deelnemers waren niet geconcentreerd en lieten zich afleiden door de taak.",
+          "message": "Dat is een mogelijke verklaring, geen meting. Een traag resultaat kan ook door een onduidelijke instructie of een vertraagde computer komen."
+        }
+      ],
+      "topics": [
+        "behaviour",
+        "research-questions"
+      ]
+    },
+    {
+      "id": "01-004",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een krant schrijft: ‘Gewelddadige games maken kinderen agressief.’ Maak hiervan een onderzoekbare hypothese. Zeg hoe je ‘gewelddadige games’ en ‘agressief’ zou meten, bij wie, en met welk ontwerp je de bewering zou toetsen.",
+      "answer": "Een goede hypothese noemt de groepen, de meting en de verwachte richting. Voorbeeld: kinderen van 10 tot 12 jaar worden door loting verdeeld over tien minuten een gewelddadig of een neutraal spel; daarna meet een beoordelaar die de groep niet kent het aantal agressieve reacties in een vaste taak. Verwachting: de gewelddadige groep scoort gemiddeld hoger.",
+      "hints": [
+        "Maak elk begrip concreet: wat is een gewelddadig spel, en wat telt als agressie?",
+        "Kies een ontwerp waarmee je een oorzaak kunt onderzoeken."
+      ],
+      "solution": [
+        "Operationaliseer ‘gewelddadig’ (bijvoorbeeld: een spel waarin geweld de kern van het spel is) en ‘agressief’ (bijvoorbeeld het aantal agressieve reacties in een vaste taak).",
+        "Kies een experiment met loting over twee groepen, zodat het verschil aan het spel kan worden toegeschreven.",
+        "Zeg voor wie de uitkomst geldt en welke alternatieve verklaringen (bijvoorbeeld verwachtingen van deelnemers) je met blindering beperkt."
+      ],
+      "topics": [
+        "operationalisation",
+        "research-questions"
+      ]
+    },
+    {
+      "id": "01-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een deelnemer drukt bij een enkele lamp na gemiddeld 230 milliseconden op een knop. Bij twee lampen (links of rechts, met de bijbehorende knop kiezen) is dat gemiddeld 385 milliseconden. Hoeveel milliseconden verschillen de twee reactietijden? Volgens Donders’ redenering is dat een schatting van de tijd die het kiezen kost.",
+      "answer": 155,
+      "unit": "ms",
+      "hints": [
+        "Trek de eerste reactietijd af van de tweede.",
+        "Reken 385 min 230."
+      ],
+      "solution": [
+        "385 − 230 = 155 milliseconden.",
+        "Volgens Donders’ redenering is dit een schatting van de duur van de extra mentale stap, mits de stappen netjes op elkaar volgen."
+      ],
+      "feedback": [
+        {
+          "answer": 615,
+          "message": "Je hebt de twee reactietijden opgeteld. Je zoekt het verschil."
+        },
+        {
+          "answer": 145,
+          "message": "Controleer je aftrekking: 385 − 230 = 155."
+        }
+      ],
+      "topics": [
+        "psych-history",
+        "statistics-basics"
+      ]
+    },
+    {
+      "id": "01-006",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom bleek introspectie als enige bron van gegevens problematisch voor de wetenschap?",
+      "choices": [
+        "Deelnemers waren niet bereid om uitgebreid over hun eigen ervaringen te praten",
+        "Introspectie levert geen getallen op, en alleen onderzoek met getallen geldt als wetenschappelijk",
+        "Twee onderzoekers rapporteerden verschillend over dezelfde prikkel, zonder manier om te beslissen wie gelijk had",
+        "Introspectie mat de reactietijden van deelnemers veel te onnauwkeurig om bruikbaar te zijn"
+      ],
+      "answer": "Twee onderzoekers rapporteerden verschillend over dezelfde prikkel, zonder manier om te beslissen wie gelijk had",
+      "hints": [
+        "Denk aan controleerbaarheid: kan een ander jouw resultaat nagaan?",
+        "Wat gebeurt er als twee getrainde waarnemers elkaar tegenspreken?"
+      ],
+      "solution": [
+        "Niemand kan in het bewustzijn van een ander kijken.",
+        "Als rapporten verschilden, kon nieuwe data de onenigheid niet beslechten, en dat maakt een methode zwak."
+      ],
+      "feedback": [
+        {
+          "answer": "Introspectie levert geen getallen op, en alleen onderzoek met getallen geldt als wetenschappelijk",
+          "message": "Wundt combineerde introspectie juist met metingen. Het probleem was niet het ontbreken van getallen, maar het ontbreken van controle door anderen."
+        }
+      ],
+      "topics": [
+        "psych-history",
+        "behaviour"
+      ]
+    },
+    {
+      "id": "01-007",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke bewering is het best toetsbaar?",
+      "choices": [
+        "Elke handeling heeft een onbewuste reden, ook als die door niemand ooit kan worden vastgesteld",
+        "Wie een uur eerder naar bed gaat, onthoudt de volgende dag gemiddeld meer woorden dan wie dat niet doet",
+        "Mensen gedragen zich altijd naar hun diepste aard, of ze nu meegaan of juist tegenwerken, en dat verklaart alles",
+        "Geheugen is een diep mysterie dat zich volledig aan metingen en vergelijkingen onttrekt"
+      ],
+      "answer": "Wie een uur eerder naar bed gaat, onthoudt de volgende dag gemiddeld meer woorden dan wie dat niet doet",
+      "hints": [
+        "Welke bewering sluit een mogelijke uitkomst uit?",
+        "Een toetsbare bewering had fout kunnen zijn."
+      ],
+      "solution": [
+        "De eerste bewering zegt wat je meet, bij wie, en in welke richting je het verschil verwacht.",
+        "De andere beweringen passen bij elke uitkomst en kunnen dus nooit worden weerlegd."
+      ],
+      "feedback": [
+        {
+          "answer": "Elke handeling heeft een onbewuste reden, ook als die door niemand ooit kan worden vastgesteld",
+          "message": "Een bewering die per definitie niet te controleren is, kan niet worden weerlegd en is daarom niet toetsbaar."
+        }
+      ],
+      "topics": [
+        "research-questions"
+      ]
+    },
+    {
+      "id": "01-008",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Het behaviorisme van Watson wilde alleen waarneembaar gedrag onderzoeken. Welke beperking droeg bij aan het ontstaan van de cognitieve psychologie?",
+      "choices": [
+        "Taal, geheugen en probleemoplossen waren moeilijk te verklaren zonder iets te zeggen over processen in het hoofd",
+        "Gedrag bleek in de praktijk niet goed meetbaar te zijn onder vaste omstandigheden",
+        "Het behaviorisme gebruikte geen experimenten en bleef daarom bij losse observaties",
+        "Introspectie bleek achteraf toch de beste en meest controleerbare methode om mentale processen te onderzoeken"
+      ],
+      "answer": "Taal, geheugen en probleemoplossen waren moeilijk te verklaren zonder iets te zeggen over processen in het hoofd",
+      "hints": [
+        "Wat liet het behaviorisme buiten beschouwing?",
+        "De cognitieve psychologie onderzocht mentale processen opnieuw."
+      ],
+      "solution": [
+        "Het behaviorisme was streng en leverde veel kennis over leren, maar liet interne processen buiten beschouwing.",
+        "Voor taal, geheugen en probleemoplossen waren die processen nodig; de cognitieve psychologie leidde ze af uit taken en metingen."
+      ],
+      "feedback": [
+        {
+          "answer": "Het behaviorisme gebruikte geen experimenten en bleef daarom bij losse observaties",
+          "message": "Het behaviorisme werkte juist veel met experimenten, vooral naar leren en conditionering. Het probleem was wat het buiten beschouwing liet."
+        }
+      ],
+      "topics": [
+        "psych-history",
+        "behaviour"
+      ]
+    },
+    {
+      "id": "01-009",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Zet deze ontwikkelingen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Wundt opent een laboratorium in Leipzig",
+        "Ebbinghaus publiceert zijn onderzoek naar geheugen",
+        "James publiceert The Principles of Psychology",
+        "Watson pleit voor psychologie als studie van gedrag",
+        "De cognitieve psychologie ontstaat"
+      ],
+      "hints": [
+        "Het jaar 1879 komt eerst, de jaren 1950-60 laatst.",
+        "Ebbinghaus publiceerde vijf jaar voor James."
+      ],
+      "solution": [
+        "Wundt 1879, Ebbinghaus 1885, James 1890, Watson 1913, cognitieve psychologie vanaf de jaren 1950 en 1960."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Ebbinghaus publiceert zijn onderzoek naar geheugen",
+            "Wundt opent een laboratorium in Leipzig",
+            "James publiceert The Principles of Psychology",
+            "Watson pleit voor psychologie als studie van gedrag",
+            "De cognitieve psychologie ontstaat"
+          ],
+          "message": "Wundts laboratorium dateert van 1879, Ebbinghaus’ boek van 1885."
+        }
+      ],
+      "topics": [
+        "psych-history"
+      ]
+    },
+    {
+      "id": "01-010",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke omschrijving is een operationalisering van het begrip ‘eenzaamheid’ voor een onderzoek?",
+      "choices": [
+        "Een woordenboekdefinitie van het woord eenzaamheid, zoals die in een encyclopedie staat",
+        "De overtuiging van de onderzoeker dat eenzaamheid schadelijk is voor de gezondheid",
+        "Het idee dat eenzaamheid vooral oudere mensen treft en niet jongeren",
+        "De totaalscore op een vragenlijst van twintig stellingen over contacten en erbij horen"
+      ],
+      "answer": "De totaalscore op een vragenlijst van twintig stellingen over contacten en erbij horen",
+      "hints": [
+        "Een operationalisering zegt hoe je het begrip waarneemt of meet.",
+        "Welke optie levert een getal of een waarneming op?"
+      ],
+      "solution": [
+        "Operationaliseren is vastleggen welke waarneming als aanwijzing voor het begrip geldt.",
+        "Een vragenlijstscore is zo’n waarneming. De andere opties zijn een definitie, een overtuiging of een bewering, geen meting."
+      ],
+      "feedback": [
+        {
+          "answer": "Een woordenboekdefinitie van het woord eenzaamheid, zoals die in een encyclopedie staat",
+          "message": "Een definitie zegt wat het woord betekent, niet hoe je het in een onderzoek meet."
+        }
+      ],
+      "topics": [
+        "operationalisation"
+      ]
+    },
+    {
+      "id": "01-011",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een onderzoeker laat deelnemers 0, 100 of 200 mg cafeïne innemen en meet daarna hun reactietijd op een computertaak. Wat is de afhankelijke variabele?",
+      "choices": [
+        "De dosis cafeïne",
+        "De leeftijd van de deelnemers",
+        "De reactietijd",
+        "De computertaak"
+      ],
+      "answer": "De reactietijd",
+      "hints": [
+        "De afhankelijke variabele is het gevolg dat je meet.",
+        "Wat verandert er als gevolg van de dosis?"
+      ],
+      "solution": [
+        "De dosis cafeïne is wat de onderzoeker laat variëren: de onafhankelijke variabele.",
+        "De reactietijd is het gevolg dat wordt gemeten: de afhankelijke variabele."
+      ],
+      "feedback": [
+        {
+          "answer": "De dosis cafeïne",
+          "message": "De dosis is de mogelijke oorzaak, dus de onafhankelijke variabele."
+        },
+        {
+          "answer": "De leeftijd van de deelnemers",
+          "message": "Leeftijd is een mogelijke stoorvariabele, geen gemeten uitkomst."
+        }
+      ],
+      "topics": [
+        "research-questions",
+        "operationalisation"
+      ]
+    },
+    {
+      "id": "01-012",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een vragenlijst heeft 5 items op een schaal van 1 tot en met 5. Item 3 en item 5 zijn omgekeerd gesteld: een omgekeerd item wordt gescoord als 6 min het antwoord. Een deelnemer antwoordt: item 1: 4, item 2: 5, item 3: 2, item 4: 3, item 5: 1. Wat is de totaalscore?",
+      "answer": 21,
+      "unit": "punten",
+      "hints": [
+        "Keer eerst item 3 en item 5 om.",
+        "Omgekeerd: 6 − 2 en 6 − 1."
+      ],
+      "solution": [
+        "Item 3 wordt 6 − 2 = 4 en item 5 wordt 6 − 1 = 5.",
+        "Totaal: 4 + 5 + 4 + 3 + 5 = 21."
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Je hebt de omgekeerde items niet omgekeerd; de optelsom van de ruwe antwoorden is 15."
+        },
+        {
+          "answer": 19,
+          "message": "Controleer of je beide omgekeerde items hebt omgekeerd."
+        }
+      ],
+      "topics": [
+        "social-measurement",
+        "operationalisation"
+      ]
+    },
+    {
+      "id": "01-013",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een weegschaal geeft bij dezelfde persoon steeds 72,0 kg aan, terwijl die persoon in werkelijkheid 74,0 kg weegt. Wat geldt voor deze weegschaal?",
+      "choices": [
+        "Ze is betrouwbaar en valide",
+        "Ze is betrouwbaar, maar niet valide",
+        "Ze is niet betrouwbaar, maar wel valide",
+        "Ze is niet betrouwbaar en niet valide"
+      ],
+      "answer": "Ze is betrouwbaar, maar niet valide",
+      "hints": [
+        "Betrouwbaar: geeft hij bij herhaling hetzelfde? Valide: klopt het ook?"
+      ],
+      "solution": [
+        "De uitkomst is steeds hetzelfde, dus de meting is betrouwbaar.",
+        "Het gewicht klopt niet: de weegschaal meet niet wat ze moet meten, dus niet valide."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze is betrouwbaar en valide",
+          "message": "Ze is consistent, maar de waarde wijkt twee kilo af van de werkelijkheid; dat is een gebrek aan validiteit."
+        },
+        {
+          "answer": "Ze is niet betrouwbaar, maar wel valide",
+          "message": "Een meting die bij herhaling steeds dezelfde waarde geeft, is betrouwbaar."
+        }
+      ],
+      "topics": [
+        "validity"
+      ]
+    },
+    {
+      "id": "01-014",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Vijf mensen vullen twee weken na elkaar dezelfde persoonlijkheidsvragenlijst in (zie de tabel). Neem aan dat het gemeten kenmerk in twee weken niet verandert. Wat zegt dit over de vragenlijst?",
+      "context": "| Persoon | Week 1 | Week 3 |\n|---|---|---|\n| 1 | 10 | 22 |\n| 2 | 25 | 14 |\n| 3 | 18 | 30 |\n| 4 | 30 | 12 |\n| 5 | 22 | 20 |",
+      "choices": [
+        "De test heeft een lage test-hertestbetrouwbaarheid: dezelfde mensen krijgen heel andere scores",
+        "De test heeft een hoge betrouwbaarheid, want de gemiddelden van de twee metingen liggen dicht bij elkaar",
+        "De test is waarschijnlijk valide, want sommige scores zijn gestegen en andere gedaald",
+        "De test is niet valide, want de scores zijn te hoog"
+      ],
+      "answer": "De test heeft een lage test-hertestbetrouwbaarheid: dezelfde mensen krijgen heel andere scores",
+      "hints": [
+        "Kijk per persoon naar de twee scores, niet naar het gemiddelde.",
+        "Blijven mensen hun plek in de rangorde houden?"
+      ],
+      "solution": [
+        "Het gemiddelde is vrijwel gelijk (21 en 19,6), maar per persoon verschillen de scores sterk: persoon 1 gaat van 10 naar 22, persoon 4 van 30 naar 12.",
+        "Als het kenmerk stabiel is en de scores toch springen, is de meting niet betrouwbaar."
+      ],
+      "feedback": [
+        {
+          "answer": "De test heeft een hoge betrouwbaarheid, want de gemiddelden van de twee metingen liggen dicht bij elkaar",
+          "message": "Gemiddelden kunnen gelijk zijn terwijl individuele scores sterk verschillen. Betrouwbaarheid gaat over de consistentie per persoon."
+        }
+      ],
+      "topics": [
+        "validity",
+        "social-measurement"
+      ]
+    },
+    {
+      "id": "01-015",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bedrijf meet de populariteit van leerlingen met het aantal likes dat ze op sociale media krijgen. Beoordeel de validiteit van die maat: wat vangt ze wel, wat mist ze, en wat zou je erbij kunnen meten?",
+      "answer": "De maat is eenvoudig, betrouwbaar te tellen en objectief, maar waarschijnlijk beperkt valide voor populariteit. Likes zeggen iets over zichtbaarheid en reacties op een platform, maar niet over vriendschappen of status in de klas. Ze kunnen ook door het aantal volgers, door het platform of door kopen worden beïnvloed. Aanvullend kun je klasgenoten vragen met wie ze graag omgaan.",
+      "hints": [
+        "Vraag je af: wat betekent ‘populair’, en welke aspecten ervan meet een like niet?",
+        "Noem ook een aanvullende maat."
+      ],
+      "solution": [
+        "Het aantal likes is goed te tellen (betrouwbaar), maar vangt populariteit maar deels (beperkte validiteit).",
+        "Het mist onder meer aanzien in de klas en echte vriendschappen, en wordt beïnvloed door het aantal volgers en door het algoritme.",
+        "Aanvulling: een sociometrische vraag aan klasgenoten, of observatie van omgang in de klas."
+      ],
+      "topics": [
+        "validity",
+        "operationalisation"
+      ]
+    },
+    {
+      "id": "01-016",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat maakt een experiment onderscheidend van correlatieonderzoek?",
+      "choices": [
+        "Er doen meer deelnemers aan mee dan bij correlatieonderzoek",
+        "Het vindt altijd plaats in een laboratorium met speciale apparatuur",
+        "Er worden getallen gebruikt in plaats van vragenlijsten of interviews",
+        "De onderzoeker wijst deelnemers door loting aan groepen toe"
+      ],
+      "answer": "De onderzoeker wijst deelnemers door loting aan groepen toe",
+      "hints": [
+        "Wat bepaalt de onderzoeker zelf?",
+        "Waardoor zijn de groepen vooraf vergelijkbaar?"
+      ],
+      "solution": [
+        "Bij een experiment bepaalt de onderzoeker, met loting, wie welke behandeling krijgt.",
+        "Daardoor zijn andere kenmerken gemiddeld gelijk verdeeld en kun je een verschil beter aan de behandeling toeschrijven."
+      ],
+      "feedback": [
+        {
+          "answer": "Het vindt altijd plaats in een laboratorium met speciale apparatuur",
+          "message": "Experimenten kunnen ook in het veld plaatsvinden. Het gaat om de toewijzing, niet om de plaats."
+        },
+        {
+          "answer": "Er doen meer deelnemers aan mee dan bij correlatieonderzoek",
+          "message": "Het aantal deelnemers zegt niets over causaliteit; de toewijzing wel."
+        }
+      ],
+      "topics": [
+        "research-methods",
+        "causation"
+      ]
+    },
+    {
+      "id": "01-017",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "In een fictief experiment krijgen 50 deelnemers een uitleg met voorbeelden en 50 deelnemers een uitleg zonder voorbeelden. Van de eerste groep slaagt 38 van de 50 voor een toets, van de tweede groep 26 van de 50. Hoeveel procentpunten verschilt het slagingspercentage van beide groepen?",
+      "answer": 24,
+      "unit": "procentpunten",
+      "hints": [
+        "Reken eerst elke groep om naar een percentage.",
+        "38 van 50 is 76%."
+      ],
+      "solution": [
+        "Groep met voorbeelden: 38/50 = 76%. Groep zonder voorbeelden: 26/50 = 52%.",
+        "Verschil: 76% − 52% = 24 procentpunten."
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je geeft het verschil in aantal personen (38 − 26). Reken om naar percentages."
+        },
+        {
+          "answer": 46,
+          "message": "Dat is het relatieve verschil (24 ten opzichte van 52). Gevraagd wordt het verschil in procentpunten."
+        }
+      ],
+      "topics": [
+        "research-methods",
+        "statistics-basics"
+      ]
+    },
+    {
+      "id": "01-018",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een onderzoek vindt dat steden met meer politieagenten ook meer misdrijven registreren (r = 0,7). Welke verklaring is het meest voor de hand liggend om als eerste te onderzoeken?",
+      "choices": [
+        "Politieagenten veroorzaken misdaad, doordat ze meer overtredingen opsporen en registreren",
+        "Meer agenten betekent altijd minder misdaad, dus een positieve correlatie moet wel op een fout berusten",
+        "Grotere steden hebben zowel meer agenten als meer misdrijven: de bevolkingsgrootte is een derde variabele",
+        "Misdaad is niet te meten, dus een correlatie met misdaadcijfers betekent nooit iets"
+      ],
+      "answer": "Grotere steden hebben zowel meer agenten als meer misdrijven: de bevolkingsgrootte is een derde variabele",
+      "hints": [
+        "Zoek een variabele die zowel het aantal agenten als het aantal misdrijven kan beïnvloeden.",
+        "Kijk naar aantallen per inwoner."
+      ],
+      "solution": [
+        "Een derde variabele die beide beïnvloedt, is de grootte van de stad.",
+        "Je controleert dat door te kijken naar aantallen per inwoner en door de bevolkingsgrootte statistisch constant te houden."
+      ],
+      "feedback": [
+        {
+          "answer": "Politieagenten veroorzaken misdaad, doordat ze meer overtredingen opsporen en registreren",
+          "message": "Een correlatie zegt niet welke kant het opgaat. Hier ligt een derde variabele veel meer voor de hand."
+        },
+        {
+          "answer": "Meer agenten betekent altijd minder misdaad, dus een positieve correlatie moet wel op een fout berusten",
+          "message": "De correlatie is een waarneming. De vraag is hoe je haar verklaart, niet of ze klopt."
+        }
+      ],
+      "topics": [
+        "causation",
+        "research-methods"
+      ]
+    },
+    {
+      "id": "01-019",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een onderzoeker beschrijft in detail één patiënt met een zeldzame vorm van geheugenverlies. Wat kan zo’n casestudy wel en niet?",
+      "choices": [
+        "Ze bewijst dat alle mensen op dezelfde manier functioneren als deze ene patiënt",
+        "Ze kan ideeën opleveren over geheugen, maar niet vaststellen hoe vaak iets voorkomt",
+        "Ze is waardeloos voor het onderzoek, omdat één geval nooit iets kan laten zien over geheugen",
+        "Ze laat zien hoe vaak het verschijnsel in de hele bevolking voorkomt, mits het geval goed beschreven is"
+      ],
+      "answer": "Ze kan ideeën opleveren over geheugen, maar niet vaststellen hoe vaak iets voorkomt",
+      "hints": [
+        "Wat is het sterke punt van diepgaand onderzoek naar één geval?",
+        "Wat weet je niet over andere mensen?"
+      ],
+      "solution": [
+        "Een casestudy geeft diepte en kan een verschijnsel zichtbaar maken dat anders onopgemerkt blijft.",
+        "Eén geval zegt niets over frequentie of over de vraag of anderen hetzelfde laten zien."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze is waardeloos voor het onderzoek, omdat één geval nooit iets kan laten zien over geheugen",
+          "message": "Casestudy’s hebben bijvoorbeeld bij het onderzoek naar geheugen belangrijke aanwijzingen opgeleverd. Ze zijn sterk voor ideeën, zwak voor generalisatie."
+        }
+      ],
+      "topics": [
+        "research-methods"
+      ]
+    },
+    {
+      "id": "01-020",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de stappen van een experiment in de volgorde waarin een onderzoeker ze uitvoert.",
+      "answer": [
+        "Een hypothese formuleren en de begrippen operationaliseren",
+        "Deelnemers willekeurig aan groepen toewijzen",
+        "De behandeling geven aan de experimentele groep",
+        "De afhankelijke variabele bij alle groepen meten",
+        "De groepen vergelijken en een voorzichtige conclusie trekken"
+      ],
+      "hints": [
+        "Eerst het plan, dan de toewijzing, dan de behandeling.",
+        "Meten kan pas na de behandeling."
+      ],
+      "solution": [
+        "Eerst de vraag en de operationalisering, dan loting, dan behandeling, dan meting, dan vergelijking en conclusie."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Een hypothese formuleren en de begrippen operationaliseren",
+            "De behandeling geven aan de experimentele groep",
+            "Deelnemers willekeurig aan groepen toewijzen",
+            "De afhankelijke variabele bij alle groepen meten",
+            "De groepen vergelijken en een voorzichtige conclusie trekken"
+          ],
+          "message": "Je moet eerst de groepen vormen (loting) voordat je iemand een behandeling geeft."
+        }
+      ],
+      "topics": [
+        "research-methods"
+      ]
+    },
+    {
+      "id": "01-021",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 3,
+      "question": "Een vragenlijstonderzoek onder 300 studenten vindt een correlatie van r = −0,4 tussen slaapduur en ervaren stress (meer slaap, minder stress). Noem drie verschillende verklaringen voor deze samenhang en zeg voor elke verklaring hoe je haar zou kunnen onderzoeken.",
+      "answer": "Drie verklaringen: (1) slaaptekort verhoogt stress, te onderzoeken met een experiment waarin deelnemers willekeurig korter of langer slapen; (2) stress verstoort de slaap (omgekeerde richting), te onderzoeken door mensen in de tijd te volgen en te kijken wat eerst komt; (3) een derde variabele, zoals werkdruk of een tentamenperiode, beïnvloedt beide, te onderzoeken door die variabele te meten en statistisch constant te houden.",
+      "hints": [
+        "Denk aan: A veroorzaakt B, B veroorzaakt A, en een derde variabele C.",
+        "Noem ook toeval en meetfouten, maar werk de drie hoofdverklaringen uit."
+      ],
+      "solution": [
+        "Slaaptekort kan stress veroorzaken; stress kan slaap verkorten; een derde variabele (werkdruk, tentamenperiode, gezondheid) kan beide beïnvloeden.",
+        "Experiment (loting), longitudinaal onderzoek (volgen in de tijd) en statistische controle voor een gemeten derde variabele zijn de passende aanpakken."
+      ],
+      "topics": [
+        "causation",
+        "research-methods"
+      ]
+    },
+    {
+      "id": "01-022",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een studie onder honderd psychologiestudenten van één westerse universiteit vindt dat mensen na mentale inspanning sneller opgeven op een volgende taak. De onderzoeker schrijft: ‘Mensen geven sneller op na mentale inspanning.’ Wat is de belangrijkste kanttekening?",
+      "choices": [
+        "De deelnemers vormen een gemakssteekproef; of de uitkomst ook voor andere groepen geldt, is niet vastgesteld",
+        "Honderd deelnemers is altijd te weinig om een psychologisch onderzoek serieus te nemen",
+        "Studenten zijn altijd onbetrouwbare deelnemers, omdat ze willekeurig antwoorden geven",
+        "Een uitspraak over ‘mensen’ mag nooit uit een experiment komen, hoe groot of divers de groep ook is"
+      ],
+      "answer": "De deelnemers vormen een gemakssteekproef; of de uitkomst ook voor andere groepen geldt, is niet vastgesteld",
+      "hints": [
+        "Voor wie mag je de uitkomst generaliseren?",
+        "Denk aan de WEIRD-kritiek."
+      ],
+      "solution": [
+        "De groep is niet getrokken uit alle mensen. Het gaat om een gemakssteekproef van studenten.",
+        "Generalisatie naar ‘mensen’ moet worden onderbouwd, bijvoorbeeld door herhaling in andere groepen."
+      ],
+      "feedback": [
+        {
+          "answer": "Honderd deelnemers is altijd te weinig om een psychologisch onderzoek serieus te nemen",
+          "message": "Er is geen vast minimum. Hoeveel deelnemers nodig zijn, hangt af van het te verwachten effect en de spreiding. Het gaat hier om wie de deelnemers zijn."
+        }
+      ],
+      "topics": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "01-023",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Onderzoeker A loot uit het bevolkingsregister 1000 mensen voor een enquête. Onderzoeker B vraagt vrijwilligers en wijst hen door loting toe aan twee behandelingen. Welke uitspraak is juist?",
+      "choices": [
+        "A kan beter een oorzakelijk effect vaststellen, B kan beter generaliseren naar de bevolking",
+        "Beide kunnen zowel goed generaliseren als goed oorzaken vaststellen, omdat in beide gevallen geloot is",
+        "Geen van beide zegt iets zinnigs, omdat loting bij een steekproef en bij toewijzing hetzelfde doel dient",
+        "A kan beter generaliseren naar de bevolking, B kan beter een oorzaak vaststellen"
+      ],
+      "answer": "A kan beter generaliseren naar de bevolking, B kan beter een oorzaak vaststellen",
+      "hints": [
+        "Loting bij het kiezen van mensen is iets anders dan loting bij het toewijzen van behandelingen.",
+        "Welke loting ondersteunt generalisatie, welke causaliteit?"
+      ],
+      "solution": [
+        "Willekeurige steekproeftrekking (A) ondersteunt generalisatie.",
+        "Willekeurige toewijzing (B) ondersteunt causale conclusies, maar vrijwilligers zijn geen doorsnede van de bevolking."
+      ],
+      "feedback": [
+        {
+          "answer": "A kan beter een oorzakelijk effect vaststellen, B kan beter generaliseren naar de bevolking",
+          "message": "Dat is omgekeerd: A trok een aselecte steekproef, B wees toe met loting."
+        }
+      ],
+      "topics": [
+        "sampling",
+        "causation"
+      ]
+    },
+    {
+      "id": "01-024",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In een aselecte steekproef van 1000 mensen zegt 40% dat ze afgelopen jaar vaker zijn gaan wandelen (fictief). Bereken de 95%-marge met $1{,}96\\sqrt{p(1-p)/n}$ in procentpunten, afgerond op één decimaal.",
+      "answer": 3.0,
+      "tolerance": 0.1,
+      "unit": "procentpunten",
+      "hints": [
+        "Gebruik $p = 0{,}40$ en $n = 1000$.",
+        "Bereken eerst $0{,}40 \\times 0{,}60 / 1000$."
+      ],
+      "solution": [
+        "$0{,}40 \\times 0{,}60 = 0{,}24$ en $0{,}24/1000 = 0{,}00024$.",
+        "$\\sqrt{0{,}00024} \\approx 0{,}0155$. Maal 1,96 geeft ongeveer 0,0304, dus 3,0 procentpunten."
+      ],
+      "feedback": [
+        {
+          "answer": 1.5,
+          "message": "Je bent vergeten met 1,96 te vermenigvuldigen. Dat geeft de standaardfout, niet de 95%-marge."
+        },
+        {
+          "answer": 30.4,
+          "message": "Reken om naar procentpunten: 0,0304 is 3,0 procentpunten."
+        }
+      ],
+      "topics": [
+        "sampling",
+        "statistics-basics"
+      ]
+    },
+    {
+      "id": "01-025",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Vijf scores (fictief): 3, 5, 6, 8 en 8. Wat is het gemiddelde?",
+      "answer": 6,
+      "hints": [
+        "Tel alle scores op en deel door het aantal."
+      ],
+      "solution": [
+        "3 + 5 + 6 + 8 + 8 = 30.",
+        "30 / 5 = 6."
+      ],
+      "feedback": [
+        {
+          "answer": 7,
+          "message": "Controleer je som: 3 + 5 + 6 + 8 + 8 = 30, en 30 / 5 = 6."
+        }
+      ],
+      "topics": [
+        "statistics-basics"
+      ]
+    },
+    {
+      "id": "01-026",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken de steekproefstandaarddeviatie (deel door $n-1$) van de scores 3, 5, 6, 8 en 8, afgerond op twee decimalen.",
+      "answer": 2.12,
+      "tolerance": 0.01,
+      "hints": [
+        "Het gemiddelde is 6. Bereken de afwijkingen.",
+        "Kwadrateer de afwijkingen, tel op, deel door 4 en neem de wortel."
+      ],
+      "solution": [
+        "Afwijkingen: −3, −1, 0, 2, 2. Kwadraten: 9, 1, 0, 4, 4; som 18.",
+        "Variantie: 18/4 = 4,5. Standaarddeviatie: $\\sqrt{4{,}5} \\approx 2{,}12$."
+      ],
+      "feedback": [
+        {
+          "answer": 1.9,
+          "message": "Je hebt door $n$ (5) in plaats van $n-1$ (4) gedeeld. Bij een steekproef deel je door $n-1$."
+        },
+        {
+          "answer": 4.5,
+          "message": "Dat is de variantie. Neem daar nog de wortel van."
+        }
+      ],
+      "topics": [
+        "statistics-basics"
+      ]
+    },
+    {
+      "id": "01-027",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een test voor een aandoening die bij 4% van de mensen voorkomt, herkent 80% van de zieken en geeft bij 5% van de gezonde mensen ten onrechte een positieve uitslag (fictieve cijfers). Vijfhonderd mensen doen de test. Hoeveel mensen krijgen in totaal een positieve uitslag?",
+      "answer": 40,
+      "unit": "personen",
+      "hints": [
+        "Splits eerst in zieken en gezonden.",
+        "Tel de terecht positieve en de ten onrechte positieve uitslagen op."
+      ],
+      "solution": [
+        "Zieken: 4% van 500 = 20; daarvan testen 80% positief: 16.",
+        "Gezonden: 480; daarvan testen 5% ten onrechte positief: 24.",
+        "Totaal positief: 16 + 24 = 40. Slechts 16 van die 40 zijn echt ziek, ofwel 40%."
+      ],
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Dat zijn alleen de zieken met een positieve uitslag. Vergeet de ten onrechte positieve uitslagen onder de gezonde mensen niet."
+        },
+        {
+          "answer": 20,
+          "message": "Dat is het aantal zieken, niet het aantal positieve uitslagen."
+        }
+      ],
+      "topics": [
+        "bias",
+        "statistics-basics"
+      ]
+    },
+    {
+      "id": "01-028",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een leraar is ervan overtuigd dat leerlingen met een bepaald soort achternaam vaker spijbelen, en let in de klas vooral op die leerlingen. Welk verschijnsel verstoort zijn beeld het meest?",
+      "choices": [
+        "Het ankereffect: hij schat het aantal spijbelaars met een willekeurig getal als beginpunt",
+        "Terugkijkvertekening: hij vindt achteraf dat hij het altijd al wist en overschat zijn voorspellingen",
+        "Bevestigingsvertekening: hij merkt en onthoudt vooral de gevallen die zijn verwachting bevestigen",
+        "Sociale wenselijkheid: de leerlingen geven antwoorden die bij de leraar goed overkomen"
+      ],
+      "answer": "Bevestigingsvertekening: hij merkt en onthoudt vooral de gevallen die zijn verwachting bevestigen",
+      "hints": [
+        "Hij zoekt alleen waar hij gelijk heeft.",
+        "Wat gebeurt er met gevallen die niet kloppen?"
+      ],
+      "solution": [
+        "Wie een verwachting heeft, let op wat erbij past en vergeet de uitzonderingen.",
+        "Daarom werken onderzoekers met vaste scoreregels en met beoordelaars die de verwachting niet kennen."
+      ],
+      "feedback": [
+        {
+          "answer": "Terugkijkvertekening: hij vindt achteraf dat hij het altijd al wist en overschat zijn voorspellingen",
+          "message": "Terugkijkvertekening gaat over het achteraf overschatten van wat je wist. Hier gaat het om selectief letten op en onthouden van wat bij je verwachting past."
+        }
+      ],
+      "topics": [
+        "bias"
+      ]
+    },
+    {
+      "id": "01-029",
+      "type": "choice",
+      "mode": "challenge",
+      "difficulty": 3,
+      "question": "In een onderzoek naar het effect van muziek op stemming weten deelnemers dat de onderzoeker verwacht dat vrolijke muziek hen blij maakt. Ze geven daarna hogere stemmingscijfers. Welke vertekening past hier het best, en wat helpt ertegen?",
+      "choices": [
+        "Selectievertekening; een grotere steekproef met meer verschillende deelnemers",
+        "Vraagkenmerken; een controlegroep en een doel dat deelnemers niet kunnen raden",
+        "Het ankereffect; de vragen aan alle deelnemers in willekeurige volgorde stellen",
+        "Terugkijkvertekening; deelnemers de vragen eerder en vaker laten beantwoorden"
+      ],
+      "answer": "Vraagkenmerken; een controlegroep en een doel dat deelnemers niet kunnen raden",
+      "hints": [
+        "Deelnemers raden wat de onderzoeker wil zien.",
+        "Wat kun je doen zodat ze het doel niet kunnen raden?"
+      ],
+      "solution": [
+        "Als deelnemers het verwachte resultaat kennen, passen ze hun antwoord aan: vraagkenmerken.",
+        "Een controlegroep, een niet te raden doel of een meting zonder zelfrapportage (bijvoorbeeld gedrag of een lichamelijke maat) beperkt dat."
+      ],
+      "feedback": [
+        {
+          "answer": "Selectievertekening; een grotere steekproef met meer verschillende deelnemers",
+          "message": "Selectievertekening gaat over wie meedoet. Hier is de vertekening een gevolg van wat deelnemers weten. Een grotere steekproef verkleint zo’n systematische vertekening niet."
+        }
+      ],
+      "topics": [
+        "bias",
+        "research-methods"
+      ]
+    },
+    {
+      "id": "01-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is het belangrijkste doel van preregistratie van een onderzoek?",
+      "choices": [
+        "Hypothesen en analyseplan vooraf vastleggen, zodat achteraf zoeken naar een significant resultaat zichtbaar wordt",
+        "Garanderen dat het onderzoek uiteindelijk een significant resultaat oplevert dat gepubliceerd kan worden",
+        "Het onderzoek geheimhouden tot het gepubliceerd is, zodat niemand het kan overnemen",
+        "Het aantal benodigde deelnemers verkleinen door de analyse eenvoudiger te maken"
+      ],
+      "answer": "Hypothesen en analyseplan vooraf vastleggen, zodat achteraf zoeken naar een significant resultaat zichtbaar wordt",
+      "hints": [
+        "Wat gebeurt er als je de analyse pas kiest nadat je de uitkomst ziet?"
+      ],
+      "solution": [
+        "Preregistratie legt vooraf vast wat je toetst en hoe je analyseert.",
+        "Zo is te zien welke analyses vooraf gepland waren en welke achteraf zijn toegevoegd, en wordt p-hacken moeilijker."
+      ],
+      "feedback": [
+        {
+          "answer": "Garanderen dat het onderzoek uiteindelijk een significant resultaat oplevert dat gepubliceerd kan worden",
+          "message": "Preregistratie garandeert niets over de uitkomst; ze maakt juist eerlijk rapporteren mogelijk, ook bij nulresultaten."
+        }
+      ],
+      "topics": [
+        "replication"
+      ]
+    },
+    {
+      "id": "01-031",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een team herhaalt 120 gepubliceerde studies. Bij 45 van de herhalingen is het resultaat significant. Bij hoeveel herhalingen is het resultaat niet significant?",
+      "answer": 75,
+      "hints": [
+        "Trek het aantal significante van het totaal af."
+      ],
+      "solution": [
+        "120 − 45 = 75.",
+        "Niet significant betekent niet ‘onwaar’: een herhaling kan ook te klein of anders zijn uitgevoerd."
+      ],
+      "feedback": [
+        {
+          "answer": 45,
+          "message": "Dat is het aantal significante herhalingen; je zoekt de rest."
+        }
+      ],
+      "topics": [
+        "replication",
+        "statistics-basics"
+      ]
+    },
+    {
+      "id": "01-032",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Milgram rapporteerde in 1963 dat 26 van de 40 deelnemers tot 450 volt doorgingen. In variaties van de studie lag dat percentage veel lager, bijvoorbeeld wanneer de onderzoeker telefonisch opdrachten gaf. Wat kun je hieruit het best afleiden?",
+      "context": "Het gehoorzaamheidsonderzoek van Milgram: deelnemers (‘leraren’) gaven een medeproefpersoon bij foute antwoorden schokken tot 450 volt; de schokken waren nep.",
+      "choices": [
+        "Dat 65% van alle mensen in elke situatie gehoorzaamt aan gezag, ook buiten het laboratorium",
+        "Dat de studie niets laat zien, omdat de deelnemers over het doel werden misleid",
+        "Dat gehoorzaamheid een vaste persoonlijkheidstrek is die iemand wel of niet heeft, ongeacht de situatie",
+        "Gehoorzaamheid hangt sterk van de situatie af; één opstelling geeft geen vast percentage voor alle mensen"
+      ],
+      "answer": "Gehoorzaamheid hangt sterk van de situatie af; één opstelling geeft geen vast percentage voor alle mensen",
+      "hints": [
+        "Wat gebeurde er toen de omstandigheden veranderden?",
+        "Mag je 65% uit één opstelling doortrekken?"
+      ],
+      "solution": [
+        "Het percentage verandert met de situatie (telefonische opdrachten, medeproefpersonen die weigeren).",
+        "Dat laat zien dat gedrag van persoon én situatie afhangt. Bovendien wordt de interpretatie van de studie nog altijd bediscussieerd."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat 65% van alle mensen in elke situatie gehoorzaamt aan gezag, ook buiten het laboratorium",
+          "message": "Het percentage geldt voor één opstelling met 40 mannen. In andere opstellingen was het veel lager."
+        },
+        {
+          "answer": "Dat de studie niets laat zien, omdat de deelnemers over het doel werden misleid",
+          "message": "Misleiding roept ethische vragen op en kan de interpretatie beïnvloeden, maar maakt de waarnemingen niet waardeloos."
+        }
+      ],
+      "topics": [
+        "research-ethics",
+        "bias"
+      ]
+    },
+    {
+      "id": "01-033",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een onderzoeker misleidt deelnemers over het doel van een studie, omdat kennis van het doel hun gedrag zou veranderen. Onder welke voorwaarden is dat volgens de gangbare onderzoeksethiek verdedigbaar?",
+      "choices": [
+        "Altijd, zolang de uitkomst wetenschappelijk belangrijk genoeg is om het te rechtvaardigen",
+        "Nooit; misleiding van deelnemers is in alle gevallen en onder alle voorwaarden verboden",
+        "Als er geen alternatief is, het risico klein is en deelnemers achteraf worden ingelicht",
+        "Als de deelnemers voor hun deelname een redelijke vergoeding krijgen en dat vooraf weten"
+      ],
+      "answer": "Als er geen alternatief is, het risico klein is en deelnemers achteraf worden ingelicht",
+      "hints": [
+        "Denk aan alternatief, risico, toetsing vooraf en nabespreking."
+      ],
+      "solution": [
+        "Misleiding is een uitzondering met strikte voorwaarden: geen alternatief, klein risico, beoordeling door een ethische commissie en een nabespreking (debriefing).",
+        "Een belang van de uitkomst of betaling maakt misleiding niet vanzelf aanvaardbaar."
+      ],
+      "feedback": [
+        {
+          "answer": "Altijd, zolang de uitkomst wetenschappelijk belangrijk genoeg is om het te rechtvaardigen",
+          "message": "Een wetenschappelijk belang rechtvaardigt niet elk middel; het risico moet klein zijn en toetsing vooraf is vereist."
+        },
+        {
+          "answer": "Nooit; misleiding van deelnemers is in alle gevallen en onder alle voorwaarden verboden",
+          "message": "Dat is te stellig: misleiding is onder strikte voorwaarden toegestaan, met een nabespreking achteraf."
+        }
+      ],
+      "topics": [
+        "research-ethics"
+      ]
+    },
+    {
+      "id": "01-034",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke kritiek op dit fictieve persbericht is het meest terecht?",
+      "context": "Fictief persbericht: ‘Mensen die elke dag een bepaald vitaminesupplement slikken, hebben minder last van verkoudheid. Dat blijkt uit een enquête onder 600 lezers van een gezondheidsblad. Wie het supplement slikte, had gemiddeld 1,8 verkoudheden per jaar, de rest 2,6. Slik dus dit supplement.’",
+      "choices": [
+        "Het verschil van 0,8 verkoudheden per jaar is te klein om iets te betekenen voor de gezondheid",
+        "Het is correlatieonderzoek onder zelf gekozen lezers; mogelijk leven supplementgebruikers ook gezonder",
+        "Een enquête mag nooit worden gebruikt om vragen over gezondheid en leefstijl te beantwoorden",
+        "Zeshonderd deelnemers zijn per definitie te weinig voor een onderzoek naar verkoudheid"
+      ],
+      "answer": "Het is correlatieonderzoek onder zelf gekozen lezers; mogelijk leven supplementgebruikers ook gezonder",
+      "hints": [
+        "Is er toegewezen, of hebben mensen zelf gekozen?",
+        "Wie vulde de enquête in?"
+      ],
+      "solution": [
+        "Er is geen toewijzing, dus het is correlatieonderzoek; lezers van een gezondheidsblad zijn geen doorsnee.",
+        "Een derde variabele (gezonder leven) kan zowel supplementgebruik als minder verkoudheid verklaren. Het advies ‘slik dit’ volgt niet uit dit ontwerp."
+      ],
+      "feedback": [
+        {
+          "answer": "Het verschil van 0,8 verkoudheden per jaar is te klein om iets te betekenen voor de gezondheid",
+          "message": "Of het verschil klein is, hangt af van de spreiding; dat weten we niet. Het grotere probleem is het ontwerp en de selectie."
+        }
+      ],
+      "topics": [
+        "causation",
+        "sampling"
+      ]
+    },
+    {
+      "id": "01-035",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke herformulering van deze conclusie is het meest zorgvuldig?",
+      "context": "Een website nodigt bezoekers uit een online enquête over studiestress in te vullen. 9000 bezoekers vullen haar in; 68% meldt veel stress. De website schrijft: ‘68% van de Nederlandse studenten heeft veel stress.’",
+      "choices": [
+        "Van de 9000 bezoekers die reageerden, meldt 68% veel stress; zij zijn mogelijk niet representatief voor studenten",
+        "68% van de Nederlandse studenten heeft veel stress, met een marge van 1 procentpunt omdat het aantal deelnemers zo groot is",
+        "Er is geen enkele conclusie mogelijk, omdat een online enquête nooit iets laat zien over studenten",
+        "68% van alle mensen die het internet gebruiken heeft veel stress, in elk land en op elke leeftijd"
+      ],
+      "answer": "Van de 9000 bezoekers die reageerden, meldt 68% veel stress; zij zijn mogelijk niet representatief voor studenten",
+      "hints": [
+        "Hoe zijn de deelnemers gekozen?",
+        "Geldt de marge ook bij zelfselectie?"
+      ],
+      "solution": [
+        "De deelnemers hebben zichzelf aangemeld, dus de steekproef is niet aselect.",
+        "De marge geldt alleen voor aselecte steekproeven. Een zorgvuldige zin houdt zich aan wat is gemeten: de reacties van de bezoekers."
+      ],
+      "feedback": [
+        {
+          "answer": "68% van de Nederlandse studenten heeft veel stress, met een marge van 1 procentpunt omdat het aantal deelnemers zo groot is",
+          "message": "Een groter aantal verkleint de marge, maar niet de selectievertekening door zelfaanmelding."
+        }
+      ],
+      "topics": [
+        "sampling",
+        "bias"
+      ]
+    },
+    {
+      "id": "01-036",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Beoordeel deze bewering met de vijf vragen (meting, deelnemers, ontwerp, alternatieve verklaringen, grootte en zekerheid) en formuleer wat de gegevens wel en niet laten zien: ‘In een onderzoek onder 400 leerlingen van drie scholen haalden leerlingen met muziekles gemiddeld een 7,3 voor wiskunde en leerlingen zonder muziekles een 6,8. Scholen moeten dus meer muziekles aanbieden om de wiskundeprestaties te verbeteren.’",
+      "answer": "Het is een vergelijking tussen bestaande groepen zonder toewijzing, dus correlatieonderzoek. Muziekles hangt samen met een hoger gemiddelde, maar leerlingen met muziekles kunnen zich ook onderscheiden in motivatie, achtergrond of opleiding van de ouders. Het verschil van 0,5 punt is zonder spreiding en toets niet te beoordelen, en drie scholen zijn geen doorsnede. De conclusie dat meer muziekles de wiskundeprestaties verbetert, volgt niet; daarvoor is een experiment met toewijzing nodig. Zorgvuldig: ‘muziekles hangt samen met iets hogere wiskundecijfers op deze drie scholen’.",
+      "hints": [
+        "Is er toegewezen?",
+        "Welke derde variabelen zijn denkbaar, en hoe groot is het verschil in verhouding tot de spreiding?"
+      ],
+      "solution": [
+        "Ontwerp: vergelijking van bestaande groepen, dus correlatie, geen oorzaak.",
+        "Alternatieven: motivatie, opleiding van ouders, schoolbeleid, omgekeerde richting (goede leerlingen kiezen muziekles).",
+        "Steekproef: drie scholen, niet aselect; grootte: 0,5 punt zonder spreiding.",
+        "Conclusie: samenhang, geen bewijs dat meer muziekles de cijfers verbetert."
+      ],
+      "topics": [
+        "causation",
+        "sampling",
+        "research-methods"
+      ]
+    }
+  ]
+}

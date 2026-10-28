@@ -1,0 +1,1216 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Hooke bekeek in 1665 een plakje kurk onder zijn microscoop en noemde de kamertjes die hij zag *cells*. Wat zag hij feitelijk?",
+      "choices": [
+        "Levende cellen met een kern en cytoplasma",
+        "Bacteriën die in het kurk leven",
+        "De lege wanden van dode cellen",
+        "Kanaaltjes waar planten sap doorheen pompen"
+      ],
+      "answer": "De lege wanden van dode cellen",
+      "hints": [
+        "Kurk is het bastweefsel van de kurkeik, en dat weefsel is al afgestorven.",
+        "Hooke zag geen kern en geen inhoud."
+      ],
+      "solution": [
+        "Kurk bestaat grotendeels uit afgestorven cellen waarvan alleen de celwanden zijn overgebleven.",
+        "Hooke zag dus de wanden van cellen, niet de levende cellen zelf. Het woord *cell* verwees naar de vorm: kamertjes."
+      ],
+      "feedback": [
+        {
+          "answer": "Levende cellen met een kern en cytoplasma",
+          "message": "Hooke zag geen kern en geen inhoud: de cellen in kurk zijn dood. Levende cellen met inhoud werden pas in de 19e eeuw systematisch beschreven."
+        }
+      ],
+      "topics": [
+        "cells",
+        "microscopy"
+      ]
+    },
+    {
+      "id": "01-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een vuur groeit, verbruikt brandstof en kan zich verspreiden. Waarom noemen biologen vuur toch niet levend?",
+      "choices": [
+        "Leven is een samenhang van kenmerken, en vuur mist er onder meer organisatie in cellen, erfelijk materiaal en homeostase",
+        "Vuur beweegt niet zelfstandig, en alleen dingen die bewegen zijn levend",
+        "Vuur is te heet om als levend te gelden",
+        "Vuur plant zich niet voort, en voortplanting is het enige beslissende kenmerk"
+      ],
+      "answer": "Leven is een samenhang van kenmerken, en vuur mist er onder meer organisatie in cellen, erfelijk materiaal en homeostase",
+      "hints": [
+        "Denk aan meer dan één kenmerk tegelijk.",
+        "Welke kenmerken van leven heeft een vlam niet?"
+      ],
+      "solution": [
+        "Er bestaat geen enkel kenmerk dat leven van niet-leven scheidt. Daarom kijk je naar de samenhang.",
+        "Vuur heeft stofwisseling-achtige eigenschappen (verbruik, warmte), maar geen cellen, geen erfelijk materiaal, geen homeostase en geen evolutie."
+      ],
+      "feedback": [
+        {
+          "answer": "Vuur plant zich niet voort, en voortplanting is het enige beslissende kenmerk",
+          "message": "Een muilezel plant zich niet voort en is toch levend. Geen enkel kenmerk is op zichzelf beslissend."
+        },
+        {
+          "answer": "Vuur beweegt niet zelfstandig, en alleen dingen die bewegen zijn levend",
+          "message": "Planten bewegen nauwelijks en zijn levend. Bewegen is geen noodzakelijk kenmerk."
+        }
+      ],
+      "topics": [
+        "life"
+      ]
+    },
+    {
+      "id": "01-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke bewering over planten klopt?",
+      "choices": [
+        "Planten ademen niet; ze nemen alleen koolstofdioxide op en geven zuurstof af",
+        "Planten halen energie uit suikers met hun mitochondriën, zowel in het licht als in het donker",
+        "Planten gebruiken alleen 's nachts mitochondriën",
+        "Planten hebben chloroplasten in plaats van mitochondriën"
+      ],
+      "answer": "Planten halen energie uit suikers met hun mitochondriën, zowel in het licht als in het donker",
+      "hints": [
+        "Chloroplasten maken suikers. Wie haalt de energie uit die suikers?",
+        "Denk aan wat een plant nodig heeft als er geen licht is."
+      ],
+      "solution": [
+        "Chloroplasten maken suikers met lichtenergie. Mitochondriën zetten suikers om in ATP, de energie die de cel gebruikt.",
+        "Dat gebeurt voortdurend: ook in het licht. Een plantencel heeft dus beide organellen."
+      ],
+      "feedback": [
+        {
+          "answer": "Planten ademen niet; ze nemen alleen koolstofdioxide op en geven zuurstof af",
+          "message": "Dat is een hardnekkige misvatting. Netto geven planten overdag zuurstof af, maar ze verbruiken ook zuurstof voor de celademhaling in hun mitochondriën."
+        },
+        {
+          "answer": "Planten hebben chloroplasten in plaats van mitochondriën",
+          "message": "Planten hebben beide: chloroplasten voor het vastleggen van licht, mitochondriën voor het vrijmaken van energie uit suikers."
+        }
+      ],
+      "topics": [
+        "life",
+        "organelles"
+      ]
+    },
+    {
+      "id": "01-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een zaad ligt jaren droog in een la en laat niets waarneembaars zien. Hoe beoordeel je of het levend is?",
+      "choices": [
+        "Het is levend in een ruststand: de cellen zijn intact en de stofwisseling kan bij gunstige omstandigheden herstarten",
+        "Het is niet levend, want het groeit en reageert niet",
+        "Het is half levend, want leven bestaat uit twee helften",
+        "Het is pas levend als het ontkiemt, daarvoor is het een voorwerp"
+      ],
+      "answer": "Het is levend in een ruststand: de cellen zijn intact en de stofwisseling kan bij gunstige omstandigheden herstarten",
+      "hints": [
+        "Wat gebeurt er als je het zaad bevochtigt?",
+        "Een zaad dat nooit meer kiemt, is dood. Maar dit zaad kan het."
+      ],
+      "solution": [
+        "Een zaad in rust heeft een sterk verlaagde stofwisseling maar intacte cellen met erfelijk materiaal.",
+        "Het vermogen om te herstarten is het bewijs. Je beoordeelt dus het vermogen tot functioneren, niet alleen wat er op één moment zichtbaar is."
+      ],
+      "feedback": [
+        {
+          "answer": "Het is niet levend, want het groeit en reageert niet",
+          "message": "Dat zou ook gelden voor beerdiertjes in uitdroging en voor bacteriesporen. Rust is geen dood."
+        },
+        {
+          "answer": "Het is pas levend als het ontkiemt, daarvoor is het een voorwerp",
+          "message": "Het zaad bevat al levende cellen. Ontkieming is de hervatting van activiteit, niet het begin van leven."
+        }
+      ],
+      "topics": [
+        "life"
+      ]
+    },
+    {
+      "id": "01-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een muilezel is onvruchtbaar. Waarom is hij toch levend?",
+      "choices": [
+        "Hij is niet echt levend, maar een kunstmatig product van de mens",
+        "Voortplanting is voor leven niet nodig, alleen voor dieren in het wild",
+        "Hij laat de andere kenmerken van leven zien en hoort bij afstammingslijnen (paard en ezel) die zich wel voortplanten",
+        "Onvruchtbaarheid betekent dat een dier tijdelijk dood is"
+      ],
+      "answer": "Hij laat de andere kenmerken van leven zien en hoort bij afstammingslijnen (paard en ezel) die zich wel voortplanten",
+      "hints": [
+        "Is voortplanting een eigenschap van elk individu of van de soort?",
+        "Welke andere kenmerken heeft een muilezel?"
+      ],
+      "solution": [
+        "Een muilezel heeft cellen, stofwisseling, homeostase, groei en reageert op prikkels.",
+        "Voortplanting en evolutie zijn kenmerken van populaties en afstammingslijnen, niet iets wat elk individu moet kunnen."
+      ],
+      "feedback": [
+        {
+          "answer": "Hij is niet echt levend, maar een kunstmatig product van de mens",
+          "message": "Een muilezel is een kruising van twee levende soorten en laat alle kenmerken van leven zien, behalve voortplanting."
+        }
+      ],
+      "topics": [
+        "life"
+      ]
+    },
+    {
+      "id": "01-006",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke formulering is een correcte ultimate (evolutionaire) verklaring voor het ontbreken van een kern in de rode bloedcellen van zoogdieren?",
+      "choices": [
+        "Rode bloedcellen verliezen hun kern om meer zuurstof te kunnen vervoeren",
+        "Varianten zonder kern konden meer hemoglobine bevatten, wat waarschijnlijk een voordeel gaf dat door selectie werd doorgegeven",
+        "De cel weet dat ze zuurstof moet vervoeren en past zich daarop aan",
+        "Het hemoglobine duwt de kern naar buiten tijdens de rijping"
+      ],
+      "answer": "Varianten zonder kern konden meer hemoglobine bevatten, wat waarschijnlijk een voordeel gaf dat door selectie werd doorgegeven",
+      "hints": [
+        "Een ultimate verklaring gaat over geschiedenis en selectie, niet over een doel.",
+        "Let op het woord \"om\"."
+      ],
+      "solution": [
+        "Een ultimate verklaring beschrijft welk voordeel een eigenschap gaf in het verleden, en dat varianten met die eigenschap meer nakomelingen kregen.",
+        "\"Om te\" en \"de cel weet\" schrijven een doel of wil toe aan een proces dat geen doel heeft (teleologie). De laatste optie is proximaat (mechanisme) en bovendien onjuist."
+      ],
+      "feedback": [
+        {
+          "answer": "Rode bloedcellen verliezen hun kern om meer zuurstof te kunnen vervoeren",
+          "message": "Teleologisch: evolutie heeft geen doel en kijkt niet vooruit. Schrijf: varianten zonder kern hadden een voordeel."
+        },
+        {
+          "answer": "De cel weet dat ze zuurstof moet vervoeren en past zich daarop aan",
+          "message": "Cellen weten niets. Eigenschappen komen niet voort uit behoefte maar uit erfelijke variatie en selectie."
+        },
+        {
+          "answer": "Het hemoglobine duwt de kern naar buiten tijdens de rijping",
+          "message": "Dit is geen ultimate maar een (onjuiste) proximate verklaring: de kern wordt actief uitgestoten, niet weggeduwd door hemoglobine."
+        }
+      ],
+      "topics": [
+        "life",
+        "scale-levels"
+      ]
+    },
+    {
+      "id": "01-007",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de stappen van een onderzoekscyclus in de logische volgorde, van eerst naar laatst.",
+      "answer": [
+        "Waarneming",
+        "Vraag",
+        "Hypothese",
+        "Voorspelling",
+        "Experiment met controle",
+        "Conclusie"
+      ],
+      "hints": [
+        "Een hypothese komt vóór de voorspelling die eruit volgt.",
+        "Een conclusie kan pas als je gegevens hebt."
+      ],
+      "solution": [
+        "Je neemt iets waar, stelt een vraag, formuleert een toetsbare hypothese en leidt daaruit een voorspelling af.",
+        "Daarna toets je die in een experiment met controle en trek je een conclusie."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Vraag",
+            "Waarneming",
+            "Hypothese",
+            "Voorspelling",
+            "Experiment met controle",
+            "Conclusie"
+          ],
+          "message": "Een vraag ontstaat meestal uit een waarneming, niet andersom."
+        },
+        {
+          "answer": [
+            "Waarneming",
+            "Vraag",
+            "Voorspelling",
+            "Hypothese",
+            "Experiment met controle",
+            "Conclusie"
+          ],
+          "message": "De voorspelling volgt uit de hypothese. Zonder hypothese heb je niets om te voorspellen."
+        }
+      ],
+      "topics": [
+        "scientific-method"
+      ]
+    },
+    {
+      "id": "01-008",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Zet deze biologische niveaus van klein naar groot.",
+      "answer": [
+        "Hemoglobinemolecuul",
+        "Mitochondrion",
+        "Spiercel",
+        "Hartspierweefsel",
+        "Hart",
+        "Mens"
+      ],
+      "hints": [
+        "Een molecuul is kleiner dan een organel.",
+        "Weefsel bestaat uit cellen, een orgaan uit weefsels."
+      ],
+      "solution": [
+        "Molecuul, organel, cel, weefsel, orgaan, organisme: elk niveau is opgebouwd uit de vorige."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Mitochondrion",
+            "Hemoglobinemolecuul",
+            "Spiercel",
+            "Hartspierweefsel",
+            "Hart",
+            "Mens"
+          ],
+          "message": "Een mitochondrion bestaat uit duizenden moleculen en is dus groter dan één molecuul hemoglobine."
+        },
+        {
+          "answer": [
+            "Hemoglobinemolecuul",
+            "Mitochondrion",
+            "Spiercel",
+            "Hart",
+            "Hartspierweefsel",
+            "Mens"
+          ],
+          "message": "Een orgaan bestaat uit weefsels, niet andersom."
+        }
+      ],
+      "topics": [
+        "scale-levels"
+      ]
+    },
+    {
+      "id": "01-009",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke van deze vragen is een ultimate vraag?",
+      "choices": [
+        "Welke zenuwcellen geven het signaal om te gaan zweten?",
+        "Welke moleculen maken zweetklieren aan?",
+        "Hoe koelt verdampend zweet de huid af?",
+        "Welk voordeel gaf zweten aan voorouders van de mens, waardoor het erfelijk bleef?"
+      ],
+      "answer": "Welk voordeel gaf zweten aan voorouders van de mens, waardoor het erfelijk bleef?",
+      "hints": [
+        "Ultimaat gaat over waarom iets in de evolutie is ontstaan en behouden.",
+        "De andere drie vragen gaan over hoe het werkt."
+      ],
+      "solution": [
+        "De drie andere vragen gaan over mechanisme: welke cellen, welke moleculen, welk natuurkundig proces. Dat zijn proximate vragen.",
+        "Alleen de vraag naar het voordeel voor voorouders gaat over evolutie."
+      ],
+      "feedback": [
+        {
+          "answer": "Hoe koelt verdampend zweet de huid af?",
+          "message": "Dat is een vraag naar het mechanisme (verdampingskoeling): proximaat."
+        }
+      ],
+      "topics": [
+        "life",
+        "scale-levels"
+      ]
+    },
+    {
+      "id": "01-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een foto van een cel van $30\\ \\mu\\text{m}$ is op papier $45\\ \\text{mm}$ breed. Wat is de vergroting?",
+      "answer": 1500,
+      "unit": "×",
+      "hints": [
+        "Vergroting is beeldgrootte gedeeld door werkelijke grootte, in dezelfde eenheid.",
+        "$45\\ \\text{mm} = 45\\,000\\ \\mu\\text{m}$."
+      ],
+      "solution": [
+        "$45\\ \\text{mm} = 45\\,000\\ \\mu\\text{m}$",
+        "$45\\,000 / 30 = 1500$"
+      ],
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Je hebt millimeters en micrometers gedeeld zonder om te rekenen. Reken $45\\ \\text{mm}$ eerst om naar µm."
+        },
+        {
+          "answer": 45000,
+          "message": "Je hebt de beeldgrootte niet gedeeld door de werkelijke grootte."
+        }
+      ],
+      "topics": [
+        "microscopy"
+      ]
+    },
+    {
+      "id": "01-011",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Onder een foto staat een schaalbalk van $25\\ \\text{mm}$ met het opschrift \"$10\\ \\mu\\text{m}$\". Een cel op de foto is $60\\ \\text{mm}$ breed. Hoe breed is de cel in werkelijkheid?",
+      "answer": 24,
+      "unit": "µm",
+      "hints": [
+        "Hoe vaak past de schaalbalk in de cel?",
+        "Vergelijk $60\\ \\text{mm}$ met $25\\ \\text{mm}$ en vermenigvuldig met $10\\ \\mu\\text{m}$."
+      ],
+      "solution": [
+        "$60 / 25 = 2{,}4$ schaalbalken",
+        "$2{,}4 \\cdot 10\\ \\mu\\text{m} = 24\\ \\mu\\text{m}$"
+      ],
+      "feedback": [
+        {
+          "answer": 150,
+          "message": "Je hebt $60 \\cdot 25 / 10$ gerekend. Deel door de schaalbalk, vermenigvuldig daarna met de waarde van de balk."
+        }
+      ],
+      "topics": [
+        "microscopy"
+      ]
+    },
+    {
+      "id": "01-012",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een bacterie van $2\\ \\mu\\text{m}$ wordt bekeken met een lens van Van Leeuwenhoek die $270 \\times$ vergroot. Hoe groot lijkt de bacterie dan, in $\\mu\\text{m}$?",
+      "answer": 540,
+      "unit": "µm",
+      "hints": [
+        "Beeldgrootte = vergroting maal werkelijke grootte.",
+        "Het resultaat is ruim een halve millimeter."
+      ],
+      "solution": [
+        "$270 \\cdot 2\\ \\mu\\text{m} = 540\\ \\mu\\text{m}$, dus ongeveer $0{,}54\\ \\text{mm}$."
+      ],
+      "feedback": [
+        {
+          "answer": 135,
+          "message": "Je hebt gedeeld in plaats van vermenigvuldigd. Een vergroting maakt het beeld groter."
+        }
+      ],
+      "topics": [
+        "microscopy"
+      ]
+    },
+    {
+      "id": "01-013",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een lichtmicroscoop kan technisch $5000 \\times$ vergroten. Toch zie je daarmee geen ribosomen (ongeveer $25\\ \\text{nm}$). Waarom niet?",
+      "choices": [
+        "Er is meer dan $5000 \\times$ vergroting nodig, dus een sterkere lens lost het op",
+        "Het oplossend vermogen is begrensd door de golflengte van licht (ongeveer $0{,}2\\ \\mu\\text{m}$), en ribosomen zijn kleiner dan die afstand",
+        "Ribosomen zijn doorzichtig en laten geen licht door",
+        "Ribosomen zitten verborgen in de kern"
+      ],
+      "answer": "Het oplossend vermogen is begrensd door de golflengte van licht (ongeveer $0{,}2\\ \\mu\\text{m}$), en ribosomen zijn kleiner dan die afstand",
+      "hints": [
+        "Vergroting en oplossend vermogen zijn niet hetzelfde.",
+        "Wat bepaalt hoe dicht twee punten mogen liggen om nog gescheiden te zijn?"
+      ],
+      "solution": [
+        "Het oplossend vermogen is ongeveer $d = \\lambda / (2\\,\\text{NA}) \\approx 0{,}2\\ \\mu\\text{m}$. Details kleiner dan die afstand zijn niet te scheiden.",
+        "Verder vergroten geeft alleen lege vergroting: een groter, wazig beeld."
+      ],
+      "feedback": [
+        {
+          "answer": "Er is meer dan $5000 \\times$ vergroting nodig, dus een sterkere lens lost het op",
+          "message": "Meer vergroten voegt geen details toe zodra de grens van het oplossend vermogen is bereikt (lege vergroting)."
+        },
+        {
+          "answer": "Ribosomen zitten verborgen in de kern",
+          "message": "Ribosomen zitten in het cytoplasma en op het ruwe ER, niet in de kern."
+        }
+      ],
+      "topics": [
+        "microscopy"
+      ]
+    },
+    {
+      "id": "01-014",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Hooke publiceert *Micrographia* (1665)",
+        "Van Leeuwenhoek beschrijft bacteriën (1676)",
+        "Brown beschrijft de celkern (1831)",
+        "Schleiden en Schwann formuleren de celtheorie (1838–1839)",
+        "Virchow: *omnis cellula e cellula* (1855)",
+        "Ruska bouwt de elektronenmicroscoop (1931)"
+      ],
+      "hints": [
+        "De microscoop komt eerst; de elektronenmicroscoop pas in de twintigste eeuw.",
+        "De celkern is beschreven vóór de celtheorie."
+      ],
+      "solution": [
+        "Hooke 1665, Van Leeuwenhoek 1676, Brown 1831, Schleiden en Schwann 1838–1839, Virchow 1855, Ruska 1931."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Van Leeuwenhoek beschrijft bacteriën (1676)",
+            "Hooke publiceert *Micrographia* (1665)",
+            "Brown beschrijft de celkern (1831)",
+            "Schleiden en Schwann formuleren de celtheorie (1838–1839)",
+            "Virchow: *omnis cellula e cellula* (1855)",
+            "Ruska bouwt de elektronenmicroscoop (1931)"
+          ],
+          "message": "Hooke (1665) kwam eerder dan Van Leeuwenhoeks bacteriën (1676)."
+        }
+      ],
+      "topics": [
+        "cell-theory",
+        "microscopy"
+      ]
+    },
+    {
+      "id": "01-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke uitspraak hoort niet bij de moderne celtheorie?",
+      "choices": [
+        "Alle bekende organismen bestaan uit een of meer cellen",
+        "De cel is de basiseenheid van bouw en functie",
+        "Nieuwe cellen kunnen ontstaan uit een structuurloze vloeistof",
+        "Nieuwe cellen ontstaan uit bestaande cellen"
+      ],
+      "answer": "Nieuwe cellen kunnen ontstaan uit een structuurloze vloeistof",
+      "hints": [
+        "Welke van de vier zou Virchow in 1855 hebben tegengesproken?",
+        "Schleiden en Schwann dachten oorspronkelijk anders over het ontstaan van cellen."
+      ],
+      "solution": [
+        "Schleiden en Schwann meenden dat cellen uit een formloze vloeistof konden kristalliseren. Dat bleek onjuist.",
+        "Remak en Virchow toonden aan dat cellen uit cellen ontstaan: *omnis cellula e cellula*."
+      ],
+      "feedback": [
+        {
+          "answer": "Nieuwe cellen ontstaan uit bestaande cellen",
+          "message": "Dit is juist een kernpunt van de celtheorie, door Virchow samengevat als *omnis cellula e cellula*."
+        }
+      ],
+      "topics": [
+        "cell-theory"
+      ]
+    },
+    {
+      "id": "01-016",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken het oplossend vermogen van een lichtmicroscoop met $d = \\lambda / (2\\,\\text{NA})$ bij groen licht met $\\lambda = 500\\ \\text{nm}$ en $\\text{NA} = 1{,}25$. Geef $d$ in nm.",
+      "answer": 200,
+      "unit": "nm",
+      "hints": [
+        "Vul in: $d = 500 / (2 \\cdot 1{,}25)$.",
+        "Eerst de noemer: $2 \\cdot 1{,}25 = 2{,}5$."
+      ],
+      "solution": [
+        "$d = \\dfrac{500\\ \\text{nm}}{2 \\cdot 1{,}25} = \\dfrac{500}{2{,}5}\\ \\text{nm} = 200\\ \\text{nm}$",
+        "Dat is $0{,}2\\ \\mu\\text{m}$."
+      ],
+      "feedback": [
+        {
+          "answer": 400,
+          "message": "Je hebt de 2 in de noemer vergeten. Er staat $2\\,\\text{NA}$, dus $2 \\cdot 1{,}25 = 2{,}5$."
+        },
+        {
+          "answer": 250,
+          "message": "Je hebt door $2$ gedeeld maar de NA vergeten."
+        }
+      ],
+      "topics": [
+        "microscopy"
+      ]
+    },
+    {
+      "id": "01-017",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke combinatie hoort bij een bacteriecel?",
+      "choices": [
+        "Celkern met kernmembraan, mitochondriën en ruw ER",
+        "Celkern, chloroplasten en een centrale vacuole",
+        "Nucleoïde met kringvormig DNA, ribosomen en celmembraan, zonder mitochondriën",
+        "Mitochondriën, Golgi-apparaat en lysosomen"
+      ],
+      "answer": "Nucleoïde met kringvormig DNA, ribosomen en celmembraan, zonder mitochondriën",
+      "hints": [
+        "Prokaryote cellen hebben geen door een membraan omgeven organellen.",
+        "Welke onderdelen hebben álle cellen?"
+      ],
+      "solution": [
+        "Een bacterie heeft geen kern en geen membraan-omsloten organellen. Wel heeft ze DNA (in de nucleoïde), ribosomen, een celmembraan en meestal een celwand."
+      ],
+      "feedback": [
+        {
+          "answer": "Celkern met kernmembraan, mitochondriën en ruw ER",
+          "message": "Dat is een eukaryote cel. Prokaryoten hebben geen kern en geen organellen met een membraan."
+        }
+      ],
+      "topics": [
+        "cells",
+        "organelles"
+      ]
+    },
+    {
+      "id": "01-018",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke cel bevat naar verwachting de meeste mitochondriën?",
+      "choices": [
+        "Een rode bloedcel van een mens",
+        "Een dode kurkcel",
+        "Een bacteriecel",
+        "Een hartspiercel"
+      ],
+      "answer": "Een hartspiercel",
+      "hints": [
+        "Mitochondriën maken ATP uit suikers. Welke cel heeft de grootste energiebehoefte?",
+        "Sommige cellen hebben er helemaal geen."
+      ],
+      "solution": [
+        "Hartspiercellen verbruiken voortdurend veel energie en zitten vol mitochondriën met dicht gepakte cristae.",
+        "Een rode bloedcel van een mens heeft geen mitochondriën, een dode kurkcel is leeg en een bacterie heeft ze nooit."
+      ],
+      "feedback": [
+        {
+          "answer": "Een rode bloedcel van een mens",
+          "message": "Rode bloedcellen verliezen bij hun rijping hun kern én mitochondriën; ze maken ATP zonder mitochondriën."
+        }
+      ],
+      "topics": [
+        "organelles"
+      ]
+    },
+    {
+      "id": "01-019",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welk gegeven is een aanwijzing dat mitochondriën van opgenomen bacteriën afstammen?",
+      "choices": [
+        "Ze komen in vrijwel alle eukaryote cellen voor",
+        "Ze hebben een eigen kringvormig DNA-molecuul, eigen ribosomen en delen zich door insnoering",
+        "Ze maken ATP",
+        "Ze zijn omgeven door een membraan"
+      ],
+      "answer": "Ze hebben een eigen kringvormig DNA-molecuul, eigen ribosomen en delen zich door insnoering",
+      "hints": [
+        "Welke eigenschappen delen mitochondriën met bacteriën maar niet met andere organellen?",
+        "Een aanwijzing voor afstamming is een bijzondere gelijkenis, geen algemene eigenschap."
+      ],
+      "solution": [
+        "Kringvormig DNA, bacteriële ribosomen en deling door insnoering lijken op bacteriën. DNA-vergelijking koppelt ze aan alfa-proteobacteriën.",
+        "Dat ze in veel cellen voorkomen, ATP maken en een membraan hebben, zegt niets over herkomst."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze maken ATP",
+          "message": "Dat is hun functie, geen aanwijzing voor herkomst. Veel bacteriën maken ook ATP, maar zo'n eigenschap alleen bewijst geen afstamming."
+        }
+      ],
+      "topics": [
+        "organelles"
+      ]
+    },
+    {
+      "id": "01-020",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom hebben plantencellen mitochondriën, terwijl ze fotosynthese doen?",
+      "choices": [
+        "Chloroplasten maken suikers; mitochondriën zetten die suikers om in ATP voor de cel",
+        "Mitochondriën zijn nodig omdat chloroplasten geen zuurstof kunnen maken",
+        "Plantencellen hebben alleen mitochondriën als het donker is",
+        "Mitochondriën en chloroplasten doen precies hetzelfde, dus de cel heeft er twee voor de zekerheid"
+      ],
+      "answer": "Chloroplasten maken suikers; mitochondriën zetten die suikers om in ATP voor de cel",
+      "hints": [
+        "Wat is het product van fotosynthese, en wat gebeurt er daarna mee?",
+        "Denk aan energie in een vorm die de cel kan gebruiken."
+      ],
+      "solution": [
+        "Fotosynthese legt lichtenergie vast in suikers. De cel haalt er energie uit door celademhaling in de mitochondriën, dag en nacht.",
+        "De twee processen zijn complementair, niet gelijk."
+      ],
+      "feedback": [
+        {
+          "answer": "Mitochondriën en chloroplasten doen precies hetzelfde, dus de cel heeft er twee voor de zekerheid",
+          "message": "Het zijn verschillende organellen met tegengestelde functie: chloroplasten bouwen suikers op, mitochondriën breken ze af voor ATP."
+        }
+      ],
+      "topics": [
+        "organelles",
+        "life"
+      ]
+    },
+    {
+      "id": "01-021",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet de route van een af te scheiden eiwit (zoals insuline) in volgorde, van synthese tot uitscheiding.",
+      "answer": [
+        "Ribosoom aan het ruwe ER maakt het eiwit",
+        "Het eiwit wordt in het ER bewerkt",
+        "Een blaasje brengt het eiwit naar het Golgi-apparaat",
+        "Het Golgi-apparaat bewerkt en verpakt het eiwit",
+        "Het blaasje smelt samen met het celmembraan (exocytose)"
+      ],
+      "hints": [
+        "Het eiwit wordt eerst gemaakt, dan bewerkt, dan verpakt.",
+        "Het laatste stadium is uitscheiding."
+      ],
+      "solution": [
+        "Ruw ER (synthese) naar ER-bewerking, naar Golgi, naar verpakking, naar exocytose. Palade volgde die route in de jaren zestig met radioactief gemerkte aminozuren."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Ribosoom aan het ruwe ER maakt het eiwit",
+            "Het eiwit wordt in het ER bewerkt",
+            "Het Golgi-apparaat bewerkt en verpakt het eiwit",
+            "Een blaasje brengt het eiwit naar het Golgi-apparaat",
+            "Het blaasje smelt samen met het celmembraan (exocytose)"
+          ],
+          "message": "Het blaasje moet het eiwit eerst naar het Golgi-apparaat brengen, voordat het daar kan worden bewerkt."
+        }
+      ],
+      "topics": [
+        "organelles"
+      ]
+    },
+    {
+      "id": "01-022",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een bacterie is $2\\ \\mu\\text{m}$ lang. Een ribosoom is ongeveer $25\\ \\text{nm}$ groot. Hoeveel ribosomen passen naast elkaar over de lengte van de bacterie?",
+      "answer": 80,
+      "unit": "ribosomen",
+      "hints": [
+        "Reken eerst $2\\ \\mu\\text{m}$ om naar nm.",
+        "$1\\ \\mu\\text{m} = 1000\\ \\text{nm}$."
+      ],
+      "solution": [
+        "$2\\ \\mu\\text{m} = 2000\\ \\text{nm}$",
+        "$2000 / 25 = 80$"
+      ],
+      "feedback": [
+        {
+          "answer": 8000,
+          "message": "Je hebt vermenigvuldigd in plaats van gedeeld."
+        }
+      ],
+      "topics": [
+        "microscopy",
+        "cells"
+      ]
+    },
+    {
+      "id": "01-023",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Voor diffusie geldt $t \\approx x^2 / (2D)$. Hoeveel seconden duurt het voor een klein molecuul met $D = 10^{-9}\\ \\text{m}^2/\\text{s}$ om gemiddeld $0{,}2\\ \\text{mm}$ af te leggen?",
+      "answer": 20,
+      "unit": "s",
+      "hints": [
+        "Reken $0{,}2\\ \\text{mm}$ om naar meter: $2 \\cdot 10^{-4}\\ \\text{m}$.",
+        "Kwadrateer: $(2 \\cdot 10^{-4})^2 = 4 \\cdot 10^{-8}$."
+      ],
+      "solution": [
+        "$x = 2 \\cdot 10^{-4}\\ \\text{m}$ dus $x^2 = 4 \\cdot 10^{-8}\\ \\text{m}^2$",
+        "$t = \\dfrac{4 \\cdot 10^{-8}}{2 \\cdot 10^{-9}} = 20\\ \\text{s}$"
+      ],
+      "feedback": [
+        {
+          "answer": 40,
+          "message": "Je vergat de $2$ in de noemer ($2D$)."
+        }
+      ],
+      "topics": [
+        "membrane-transport"
+      ]
+    },
+    {
+      "id": "01-024",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "De afstand waarover een stof diffundeert wordt 10 keer zo groot. Hoe verandert de diffusietijd (bij dezelfde stof en omstandigheden)?",
+      "choices": [
+        "Hij wordt 10 keer zo groot",
+        "Hij wordt 100 keer zo groot",
+        "Hij wordt 20 keer zo groot",
+        "Hij blijft gelijk"
+      ],
+      "answer": "Hij wordt 100 keer zo groot",
+      "hints": [
+        "In de formule $t \\approx x^2 / (2D)$ staat $x$ in het kwadraat.",
+        "Wat is $10^2$?"
+      ],
+      "solution": [
+        "$t$ is evenredig met $x^2$. Als $x$ met factor 10 toeneemt, neemt $t$ toe met factor $10^2 = 100$.",
+        "Daarom werkt diffusie goed over micrometers en slecht over centimeters."
+      ],
+      "feedback": [
+        {
+          "answer": "Hij wordt 10 keer zo groot",
+          "message": "Dat zou gelden als de tijd evenredig was met de afstand. Maar de tijd is evenredig met het kwadraat van de afstand."
+        }
+      ],
+      "topics": [
+        "membrane-transport"
+      ]
+    },
+    {
+      "id": "01-025",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een rode bloedcel komt in een oplossing van 0,3% NaCl (lichaamsvloeistof is ongeveer 0,9%). Wat gebeurt er?",
+      "choices": [
+        "Water stroomt netto de cel in; de cel zwelt en kan barsten",
+        "Water stroomt netto de cel uit; de cel schrompelt",
+        "Er verandert niets, want 0,3% is te weinig om een effect te hebben",
+        "Zout stroomt door het membraan de cel in, totdat de concentraties gelijk zijn"
+      ],
+      "answer": "Water stroomt netto de cel in; de cel zwelt en kan barsten",
+      "hints": [
+        "Is de buitenoplossing hypotoon of hypertoon ten opzichte van de cel?",
+        "Water volgt de opgeloste deeltjes: naar welke kant?"
+      ],
+      "solution": [
+        "0,3% is minder geconcentreerd dan 0,9%: de buitenoplossing is hypotoon. Binnen de cel zijn meer opgeloste deeltjes, dus water stroomt de cel in.",
+        "Een dierlijke cel heeft geen celwand en kan daardoor barsten (hemolyse)."
+      ],
+      "feedback": [
+        {
+          "answer": "Water stroomt netto de cel uit; de cel schrompelt",
+          "message": "Dat gebeurt in een hypertone oplossing. Hier is de buitenoplossing juist verdund."
+        },
+        {
+          "answer": "Zout stroomt door het membraan de cel in, totdat de concentraties gelijk zijn",
+          "message": "Ionen passeren het membraan niet vanzelf. Het water beweegt, omdat het membraan wel water doorlaat maar geen ionen."
+        }
+      ],
+      "topics": [
+        "membrane-transport"
+      ]
+    },
+    {
+      "id": "01-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke formulering van osmose is juist?",
+      "choices": [
+        "Water stroomt door het membraan naar de kant met de laagste concentratie opgeloste deeltjes",
+        "Opgeloste stoffen stromen door het membraan naar de kant met minder water",
+        "Water stroomt door het membraan naar de kant met de hoogste concentratie opgeloste deeltjes",
+        "Water stroomt altijd de cel in, ongeacht de omgeving"
+      ],
+      "answer": "Water stroomt door het membraan naar de kant met de hoogste concentratie opgeloste deeltjes",
+      "hints": [
+        "Denk aan het begin van de les: de rode bloedcel in zuiver water.",
+        "Water volgt de opgeloste deeltjes."
+      ],
+      "solution": [
+        "Bij osmose beweegt water door een selectief doorlatend membraan van de kant met veel water (weinig opgeloste deeltjes) naar de kant met weinig water (veel opgeloste deeltjes)."
+      ],
+      "feedback": [
+        {
+          "answer": "Water stroomt door het membraan naar de kant met de laagste concentratie opgeloste deeltjes",
+          "message": "Dat is precies omgekeerd. Water gaat naar de plek met de hoogste concentratie opgeloste deeltjes, dus met de laagste concentratie water."
+        },
+        {
+          "answer": "Water stroomt altijd de cel in, ongeacht de omgeving",
+          "message": "In een hypertone oplossing verlaat water de cel."
+        }
+      ],
+      "topics": [
+        "membrane-transport"
+      ]
+    },
+    {
+      "id": "01-027",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Glucose gaat de cel binnen via een draagmolecuul in het membraan, van hoge naar lage concentratie, zonder ATP. Welk transport is dit?",
+      "choices": [
+        "Actief transport",
+        "Gefaciliteerde diffusie",
+        "Eenvoudige diffusie door de fosfolipidendubbellaag",
+        "Endocytose"
+      ],
+      "answer": "Gefaciliteerde diffusie",
+      "hints": [
+        "Er is geen energie nodig, en het gaat met het concentratieverschil mee.",
+        "Maar er is wel een eiwit bij betrokken."
+      ],
+      "solution": [
+        "Met het verschil mee en zonder energie is het passief. Omdat een eiwit de stof doorlaat, heet het gefaciliteerde diffusie.",
+        "Glucose is te groot en te polair om vrij door de dubbellaag te glijden."
+      ],
+      "feedback": [
+        {
+          "answer": "Actief transport",
+          "message": "Dat vraagt energie en werkt tegen het concentratieverschil in. Hier gaat glucose met het verschil mee."
+        },
+        {
+          "answer": "Eenvoudige diffusie door de fosfolipidendubbellaag",
+          "message": "Glucose is te polair om zelf door het vetachtige binnenste van de dubbellaag te gaan; er is een draagmolecuul nodig."
+        }
+      ],
+      "topics": [
+        "membrane-transport"
+      ]
+    },
+    {
+      "id": "01-028",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een leerling weegt aardappelstaafjes voor en na 24 uur in suikeroplossingen. Een staafje van $2{,}50\\ \\text{g}$ weegt daarna $2{,}20\\ \\text{g}$. Met hoeveel procent is de massa veranderd? (negatief bij afname)",
+      "context": "Aardappelstaafjes van gelijke grootte worden gewogen, 24 uur in suikeroplossing bewaard en opnieuw gewogen.",
+      "answer": -12,
+      "unit": "%",
+      "hints": [
+        "Procentuele verandering $= \\dfrac{\\text{eind} - \\text{begin}}{\\text{begin}} \\cdot 100\\%$.",
+        "Verschil: $2{,}20 - 2{,}50 = -0{,}30$."
+      ],
+      "solution": [
+        "$\\dfrac{2{,}20 - 2{,}50}{2{,}50} \\cdot 100\\% = \\dfrac{-0{,}30}{2{,}50} \\cdot 100\\% = -12\\%$",
+        "De massa nam af: de oplossing was hypertoon ten opzichte van het aardappelweefsel, water verliet de cellen."
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Het teken ontbreekt: de massa is afgenomen, dus de verandering is negatief."
+        },
+        {
+          "answer": -14,
+          "message": "Je deelde door de eindmassa in plaats van de beginmassa."
+        }
+      ],
+      "topics": [
+        "membrane-transport",
+        "scientific-method"
+      ]
+    },
+    {
+      "id": "01-037",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een stukje selderij wordt slap in sterk zout water en weer stevig in kraanwater. Verklaar dit met osmose en turgor.",
+      "answer": "In zout water (hypertoon) verliest de selderij water door osmose, de turgor daalt en het weefsel wordt slap; in kraanwater (hypotoon) neemt het water op en neemt de turgor toe.",
+      "min_length": 60,
+      "hints": [
+        "Vergelijk de concentratie opgeloste deeltjes in de cellen en in de oplossing.",
+        "Wat geeft een plantencel stevigheid?"
+      ],
+      "solution": [
+        "In sterk zout water is de buitenoplossing hypertoon ten opzichte van het celsap. Water verlaat de vacuolen en de cellen door osmose, de druk tegen de celwand (turgor) daalt en de selderij wordt slap; bij sterke uitdroging trekt het protoplast los van de wand (plasmolyse).",
+        "In kraanwater is de omgeving hypotoon: water stroomt de cellen in, de vacuole zet uit tegen de celwand, de turgor stijgt en de selderij wordt weer stevig. De celwand voorkomt dat de cellen barsten."
+      ],
+      "topics": [
+        "membrane-transport"
+      ]
+    },
+    {
+      "id": "01-029",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een kubusvormige cel heeft een ribbe van $4\\ \\mu\\text{m}$. Bereken oppervlak gedeeld door volume, in $\\mu\\text{m}^{-1}$.",
+      "answer": 1.5,
+      "tolerance": 0.001,
+      "unit": "per µm",
+      "hints": [
+        "Oppervlak $= 6a^2$, volume $= a^3$.",
+        "Voor $a = 4$: oppervlak $96$, volume $64$."
+      ],
+      "solution": [
+        "Oppervlak: $6 \\cdot 4^2 = 96\\ \\mu\\text{m}^2$",
+        "Volume: $4^3 = 64\\ \\mu\\text{m}^3$",
+        "$96 / 64 = 1{,}5\\ \\mu\\text{m}^{-1}$ (of $6/a = 6/4$)."
+      ],
+      "feedback": [
+        {
+          "answer": 96,
+          "message": "Je gaf alleen het oppervlak. Deel door het volume."
+        }
+      ],
+      "topics": [
+        "cells",
+        "scale-levels"
+      ]
+    },
+    {
+      "id": "01-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom bestaat een groot organisme uit veel kleine cellen in plaats van uit een paar reusachtig grote?",
+      "choices": [
+        "Bij groei neemt het volume van een cel sneller toe dan haar oppervlak, waardoor opname en afvoer van stoffen niet meer bijblijven",
+        "Grote cellen hebben geen kern",
+        "Cellen kunnen alleen delen als ze klein zijn gebleven",
+        "Grotere cellen hebben meer oppervlak per volume, wat de stofwisseling te snel maakt"
+      ],
+      "answer": "Bij groei neemt het volume van een cel sneller toe dan haar oppervlak, waardoor opname en afvoer van stoffen niet meer bijblijven",
+      "hints": [
+        "Reken met een kubus: wat gebeurt er met $6a^2$ en $a^3$ als $a$ groter wordt?",
+        "Diffusietijd groeit met het kwadraat van de afstand."
+      ],
+      "solution": [
+        "Het oppervlak groeit met $a^2$, het volume met $a^3$. De verhouding oppervlak/volume ($6/a$) neemt dus af.",
+        "Opname gaat door het oppervlak en verbruik gebeurt in het volume. Grote cellen kunnen dat niet meer aan."
+      ],
+      "feedback": [
+        {
+          "answer": "Grotere cellen hebben meer oppervlak per volume, wat de stofwisseling te snel maakt",
+          "message": "Het is precies andersom: een grotere cel heeft minder oppervlak per volume."
+        }
+      ],
+      "topics": [
+        "cells",
+        "scale-levels"
+      ]
+    },
+    {
+      "id": "01-031",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de fasen van de celcyclus met mitose in de juiste volgorde.",
+      "answer": [
+        "Interfase (DNA wordt verdubbeld)",
+        "Profase",
+        "Metafase",
+        "Anafase",
+        "Telofase",
+        "Cytokinese"
+      ],
+      "hints": [
+        "Het DNA wordt verdubbeld vóór de mitose begint.",
+        "In de metafase liggen de chromosomen op de evenaar."
+      ],
+      "solution": [
+        "Interfase (S-fase: DNA kopiëren), profase (chromosomen condenseren), metafase (op de evenaar), anafase (chromatiden uit elkaar), telofase (nieuwe kernen), cytokinese (celdeling)."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Interfase (DNA wordt verdubbeld)",
+            "Profase",
+            "Anafase",
+            "Metafase",
+            "Telofase",
+            "Cytokinese"
+          ],
+          "message": "In de metafase liggen de chromosomen op de evenaar; pas daarna worden de chromatiden in de anafase uit elkaar getrokken."
+        }
+      ],
+      "topics": [
+        "cell-division"
+      ]
+    },
+    {
+      "id": "01-032",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "*Escherichia coli* deelt zich onder gunstige omstandigheden elke 20 minuten. Een cultuur begint met één cel. Hoeveel cellen zijn er na 3 uur, als elke cel zich steeds blijft delen?",
+      "answer": 512,
+      "unit": "cellen",
+      "hints": [
+        "3 uur is 180 minuten. Hoeveel delingen?",
+        "Na $n$ delingen zijn er $2^n$ cellen."
+      ],
+      "solution": [
+        "$180 / 20 = 9$ delingen",
+        "$2^9 = 512$ cellen"
+      ],
+      "feedback": [
+        {
+          "answer": 9,
+          "message": "Dat is het aantal delingen, niet het aantal cellen."
+        },
+        {
+          "answer": 18,
+          "message": "Je rekende $2 \\cdot 9$. Het aantal verdubbelt bij elke deling, dus $2^9$."
+        }
+      ],
+      "topics": [
+        "cell-division"
+      ]
+    },
+    {
+      "id": "01-033",
+      "type": "choice",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een menselijke lichaamscel heeft in G1 46 chromosomen. Wat is juist voor een cel in de G2-fase, vlak voor de mitose?",
+      "choices": [
+        "92 chromosomen met samen 92 chromatiden",
+        "46 chromosomen met samen 46 chromatiden",
+        "46 chromosomen met samen 92 chromatiden",
+        "23 chromosomen met samen 46 chromatiden"
+      ],
+      "answer": "46 chromosomen met samen 92 chromatiden",
+      "hints": [
+        "Wat verdubbelt in de S-fase: het aantal chromosomen of de hoeveelheid DNA?",
+        "Elk chromosoom bestaat na de S-fase uit twee chromatiden."
+      ],
+      "solution": [
+        "In de S-fase wordt het DNA gekopieerd. Elk chromosoom bestaat daarna uit twee identieke chromatiden die bij elkaar blijven.",
+        "Het aantal chromosomen blijft 46; pas in de anafase scheiden de chromatiden en telt de cel tijdelijk 92 chromosomen."
+      ],
+      "feedback": [
+        {
+          "answer": "92 chromosomen met samen 92 chromatiden",
+          "message": "Het aantal chromosomen verdubbelt niet in de S-fase; de kopieën blijven aan elkaar vastzitten als chromatiden. Pas in de anafase scheiden ze."
+        },
+        {
+          "answer": "46 chromosomen met samen 46 chromatiden",
+          "message": "Dat is de situatie in G1. In G2 is het DNA al gekopieerd, dus elk chromosoom heeft twee chromatiden."
+        }
+      ],
+      "topics": [
+        "cell-division"
+      ]
+    },
+    {
+      "id": "01-034",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In Redi's experiment (1668) bleven drie potten met vlees open en drie werden afgedekt. Wat was de functie van de open potten?",
+      "choices": [
+        "Ze waren de controle: ze lieten zien wat er zonder ingreep gebeurt, namelijk dat vliegen eitjes leggen en maden verschijnen",
+        "Ze bewezen dat maden spontaan uit vlees ontstaan",
+        "Ze bevatten een ander soort vlees, zodat Redi kon vergelijken",
+        "Ze dienden om vliegen uit de afgedekte potten weg te houden"
+      ],
+      "answer": "Ze waren de controle: ze lieten zien wat er zonder ingreep gebeurt, namelijk dat vliegen eitjes leggen en maden verschijnen",
+      "hints": [
+        "De controle krijgt de ingreep niet.",
+        "Wat was de ingreep: het afdekken of het open laten?"
+      ],
+      "solution": [
+        "De ingreep was het afdekken. De open potten kregen die niet en toonden het normale verloop. Zonder die vergelijking weet je niet of de maden afwezig zijn door het afdekken of om een andere reden.",
+        "Alleen het verschil tussen open en afgedekt, bij verder gelijke omstandigheden, ondersteunt de conclusie."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze bewezen dat maden spontaan uit vlees ontstaan",
+          "message": "Het experiment ondersteunt juist het tegendeel: alleen waar vliegen bij konden, ontstonden maden."
+        },
+        {
+          "answer": "Ze bevatten een ander soort vlees, zodat Redi kon vergelijken",
+          "message": "Dan zou je twee variabelen tegelijk veranderen. In een goed ontwerp blijft alles gelijk behalve de onderzochte factor."
+        }
+      ],
+      "topics": [
+        "scientific-method"
+      ]
+    },
+    {
+      "id": "01-035",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Pasteur kantelde sommige van zijn kolven met zwanenhals zodat de bouillon in de bocht stroomde. Wat liet hij daarmee zien?",
+      "choices": [
+        "Dat het kantelen lucht uit de kolf verdreef",
+        "Dat het koken de bacteriën niet had gedood",
+        "Dat de bouillon zelf nog groei mogelijk maakte: de kiemen uit het stof in de bocht, niet het gebrek aan lucht, hadden de groei geweerd",
+        "Dat bacteriën spontaan ontstaan bij beweging"
+      ],
+      "answer": "Dat de bouillon zelf nog groei mogelijk maakte: de kiemen uit het stof in de bocht, niet het gebrek aan lucht, hadden de groei geweerd",
+      "hints": [
+        "Had de kolf in zijn normale stand lucht? Was de bouillon geschikt voor groei?",
+        "Kantelen brengt de bouillon in contact met het stof in de bocht."
+      ],
+      "solution": [
+        "Zolang de kolf rechtop stond, bleven de kiemen in de bocht hangen en bleef de bouillon helder, hoewel er verse lucht in kon.",
+        "Na kantelen kwam de bouillon met het stof in aanraking en werd troebel: de bouillon kon dus wel groei dragen. Zo weerlegde hij de tegenwerping dat koken of afsluiten de bouillon ongeschikt had gemaakt."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat het koken de bacteriën niet had gedood",
+          "message": "Dan had de bouillon ook troebel moeten worden zonder te kantelen. De bouillon bleef helder zolang hij rechtop stond."
+        },
+        {
+          "answer": "Dat bacteriën spontaan ontstaan bij beweging",
+          "message": "Dan zou de bouillon ook troebel zijn geworden bij bewegen van de rechtopstaande kolf, wat niet gebeurde. Het kantelen bracht stof en bouillon bij elkaar."
+        }
+      ],
+      "topics": [
+        "scientific-method"
+      ]
+    },
+    {
+      "id": "01-036",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een leerling beweert: \"Planten groeien beter met klassieke muziek.\" Ze zet een plant bij een luidspreker op de vensterbank en een tweede in de gang. Na vier weken is de eerste hoger. Noem minstens drie bezwaren tegen dit ontwerp en beschrijf een betere opzet.",
+      "answer": "Bezwaren: licht, temperatuur en water verschillen tussen vensterbank en gang; één plant per groep zegt niets over spreiding; er is geen controle onder dezelfde omstandigheden zonder muziek. Beter: onafhankelijke variabele muziek wel/niet; afhankelijke variabele plantlengte of massa; constanten licht, water, grond, temperatuur, plantsoort; meerdere planten per groep; beide groepen naast elkaar op dezelfde plek met een luidspreker die niet speelt.",
+      "min_length": 120,
+      "hints": [
+        "Welke omstandigheden verschillen nog meer tussen de twee planten dan de muziek?",
+        "Wat is hier de controle, en kun je er een bedenken die gelijk behandeld wordt?"
+      ],
+      "solution": [
+        "De twee planten verschillen niet alleen in muziek maar ook in licht (vensterbank tegenover gang), temperatuur en misschien luchtvochtigheid. Je weet dus niet wat het verschil veroorzaakt.",
+        "Met één plant per groep kun je toeval niet uitsluiten.",
+        "Betere opzet: kies bijvoorbeeld twintig gelijke planten, verdeel ze willekeurig over twee groepen en zet ze naast elkaar met dezelfde licht-, water- en temperatuuromstandigheden. De ene groep krijgt muziek, de andere niet (met een luidspreker uit, om geluid van de installatie gelijk te houden). Meet na vier weken lengte of droge massa en vergelijk het gemiddelde en de spreiding. Conclusie alleen als het verschil groter is dan de spreiding en bij herhaling terugkomt."
+      ],
+      "topics": [
+        "scientific-method"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1146 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Waarom koos de Franse commissie in 1791 voor een deel van de aarde als basis van de meter, en niet voor de voet van de koning?",
+      "choices": [
+        "Omdat de aarde voor iedereen hetzelfde is en niemand haar bezit",
+        "Omdat de meridiaan makkelijker te meten is dan een staaf",
+        "Omdat Franse landmeters daarmee de maat in handen hielden",
+        "Omdat de meridiaan nooit van lengte verandert, dus de meter precies klopt"
+      ],
+      "answer": "Omdat de aarde voor iedereen hetzelfde is en niemand haar bezit",
+      "hints": [
+        "Denk aan het doel: een maat die niet van een persoon, gilde of stad is."
+      ],
+      "solution": [
+        "De commissie zocht een maat die niemand bezat en die overal ter wereld kon worden nagemeten. De aarde voldeed aan die eis, een koninklijke voet niet."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat de meridiaan makkelijker te meten is dan een staaf",
+          "message": "Het was juist een enorme klus: Delambre en Méchain deden er ruim zes jaar over. De keuze kwam voort uit onafhankelijkheid, niet uit gemak."
+        },
+        {
+          "answer": "Omdat de meridiaan nooit van lengte verandert, dus de meter precies klopt",
+          "message": "De aarde is geen perfecte bol en het gemeten stuk bevatte kleine fouten: de meter bleek volgens gangbare schattingen ongeveer 0,2 mm korter dan bedoeld. Een standaard moet vooral vastliggen."
+        }
+      ],
+      "topics": [
+        "measurement",
+        "si-system"
+      ]
+    },
+    {
+      "id": "01-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Iemand schrijft: “De tafel is 1,2 lang.” Wat ontbreekt er in dit meetresultaat?",
+      "choices": [
+        "Een eenheid, want 1,2 kan meter, seconde of kilogram betekenen",
+        "Een extra decimaal, bijvoorbeeld 1,20",
+        "Niets: lengte is altijd in meter",
+        "De naam van degene die gemeten heeft"
+      ],
+      "answer": "Een eenheid, want 1,2 kan meter, seconde of kilogram betekenen",
+      "hints": [
+        "Een meetresultaat bestaat uit een getalswaarde én nog iets."
+      ],
+      "solution": [
+        "Zonder eenheid is een getal geen meetresultaat: je weet niet welke grootheid en welke maat bedoeld wordt."
+      ],
+      "feedback": [
+        {
+          "answer": "Een extra decimaal, bijvoorbeeld 1,20",
+          "message": "Extra cijfers maken een getal niet betekenisvoller; zonder eenheid weet je nog steeds niet wat 1,20 betekent."
+        },
+        {
+          "answer": "Niets: lengte is altijd in meter",
+          "message": "Er is geen universele standaardeenheid die je mag aannemen; ook 120 cm of 47 inch kan bedoeld zijn."
+        }
+      ],
+      "topics": [
+        "measurement",
+        "units"
+      ]
+    },
+    {
+      "id": "01-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke van de volgende woorden is een grootheid en geen eenheid?",
+      "choices": [
+        "massa",
+        "kilogram",
+        "newton",
+        "seconde"
+      ],
+      "answer": "massa",
+      "hints": [
+        "Een grootheid is een eigenschap die je meet; een eenheid is een afgesproken maat."
+      ],
+      "solution": [
+        "Massa is de eigenschap; kilogram, newton en seconde zijn eenheden."
+      ],
+      "feedback": [
+        {
+          "answer": "kilogram",
+          "message": "Kilogram is de eenheid waarin je de grootheid massa uitdrukt."
+        },
+        {
+          "answer": "newton",
+          "message": "Newton is de eenheid van de grootheid kracht."
+        }
+      ],
+      "topics": [
+        "measurement",
+        "units"
+      ]
+    },
+    {
+      "id": "01-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke van deze eenheden is geen SI-basiseenheid?",
+      "choices": [
+        "kelvin",
+        "mol",
+        "newton",
+        "ampère"
+      ],
+      "answer": "newton",
+      "hints": [
+        "De zeven basiseenheden zijn m, kg, s, A, K, mol en cd."
+      ],
+      "solution": [
+        "De newton is afgeleid: $1\\ \\text{N} = 1\\ \\text{kg·m/s}^2$."
+      ],
+      "feedback": [
+        {
+          "answer": "mol",
+          "message": "De mol is de basiseenheid van hoeveelheid stof."
+        },
+        {
+          "answer": "kelvin",
+          "message": "De kelvin is de basiseenheid van temperatuur."
+        }
+      ],
+      "topics": [
+        "units",
+        "si-system"
+      ]
+    },
+    {
+      "id": "01-005",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een stuk metaal heeft een massa van $54\\ \\text{g}$ en een volume van $20\\ \\text{cm}^3$. Bereken de dichtheid in $\\text{g/cm}^3$.",
+      "unit": "g/cm³",
+      "tolerance": 0.01,
+      "answer": 2.7,
+      "hints": [
+        "Gebruik $\\rho = m/V$.",
+        "Deel de massa door het volume en neem de eenheid mee."
+      ],
+      "solution": [
+        "$\\rho = \\dfrac{54\\ \\text{g}}{20\\ \\text{cm}^3} = 2{,}7\\ \\text{g/cm}^3$"
+      ],
+      "feedback": [
+        {
+          "answer": 0.37,
+          "message": "Je hebt het volume door de massa gedeeld ($20/54$). Dichtheid is massa per volume: massa boven de streep."
+        }
+      ],
+      "topics": [
+        "density",
+        "units"
+      ]
+    },
+    {
+      "id": "01-006",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Koper heeft een dichtheid van $8{,}96\\ \\text{g/cm}^3$. Welke massa heeft een stuk koper van $25\\ \\text{cm}^3$? Geef het antwoord in gram.",
+      "unit": "g",
+      "tolerance": 0.5,
+      "answer": 224,
+      "hints": [
+        "Schrijf $\\rho = m/V$ om naar $m = \\rho \\cdot V$."
+      ],
+      "solution": [
+        "$m = \\rho \\cdot V = 8{,}96\\ \\text{g/cm}^3 \\times 25\\ \\text{cm}^3 = 224\\ \\text{g}$"
+      ],
+      "feedback": [
+        {
+          "answer": 2.79,
+          "message": "Je hebt het volume door de dichtheid gedeeld. Om de massa te vinden vermenigvuldig je dichtheid met volume."
+        }
+      ],
+      "topics": [
+        "density"
+      ]
+    },
+    {
+      "id": "01-007",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een fietser rijdt met $90\\ \\text{km/h}$ achter een scooter. Reken de snelheid om naar $\\text{m/s}$.",
+      "unit": "m/s",
+      "answer": 25,
+      "hints": [
+        "$1\\ \\text{km} = 1000\\ \\text{m}$ en $1\\ \\text{h} = 3600\\ \\text{s}$.",
+        "Je mag ook delen door 3,6."
+      ],
+      "solution": [
+        "$90 \\times \\dfrac{1000\\ \\text{m}}{3600\\ \\text{s}} = 25\\ \\text{m/s}$"
+      ],
+      "feedback": [
+        {
+          "answer": 324,
+          "message": "Je hebt met 3,6 vermenigvuldigd in plaats van gedeeld. Een snelheid van 324 m/s (boven de geluidssnelheid) past niet bij een fiets."
+        }
+      ],
+      "topics": [
+        "unit-conversion",
+        "units"
+      ]
+    },
+    {
+      "id": "01-008",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de stappen van een zorgvuldige meting in de logische volgorde, van eerste naar laatste.",
+      "answer": [
+        "Formuleer een afgebakende vraag",
+        "Kies de grootheid, het instrument en de eenheid",
+        "Beschrijf de procedure zo dat een ander haar kan herhalen",
+        "Meet en noteer getalswaarde, eenheid en onzekerheid",
+        "Controleer of de uitkomst aannemelijk is"
+      ],
+      "hints": [
+        "Begin bij de vraag: die bepaalt wat je meet."
+      ],
+      "solution": [
+        "Eerst de vraag, dan instrument en eenheid, dan de procedure, dan de meting zelf en ten slotte de controle op aannemelijkheid."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Kies de grootheid, het instrument en de eenheid",
+            "Formuleer een afgebakende vraag",
+            "Beschrijf de procedure zo dat een ander haar kan herhalen",
+            "Meet en noteer getalswaarde, eenheid en onzekerheid",
+            "Controleer of de uitkomst aannemelijk is"
+          ],
+          "message": "Zonder vraag weet je niet welke grootheid je moet kiezen: de vraag komt eerst."
+        }
+      ],
+      "topics": [
+        "measurement",
+        "scientific-method"
+      ]
+    },
+    {
+      "id": "01-009",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Reken $4{,}5\\ \\text{km}$ om naar meter.",
+      "unit": "m",
+      "answer": 4500,
+      "hints": [
+        "$1\\ \\text{km} = 1000\\ \\text{m}$."
+      ],
+      "solution": [
+        "$4{,}5 \\times 1000\\ \\text{m} = 4500\\ \\text{m}$"
+      ],
+      "feedback": [
+        {
+          "answer": 0.0045,
+          "message": "Je hebt de verkeerde kant op omgerekend. Een meter is kleiner dan een kilometer, dus het getal moet groter worden."
+        }
+      ],
+      "topics": [
+        "unit-conversion",
+        "prefixes"
+      ]
+    },
+    {
+      "id": "01-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een rode bloedcel is ongeveer $7\\ \\mu\\text{m}$ breed. Hoeveel nanometer is dat?",
+      "unit": "nm",
+      "answer": 7000,
+      "hints": [
+        "$1\\ \\mu\\text{m} = 10^{-6}\\ \\text{m}$ en $1\\ \\text{nm} = 10^{-9}\\ \\text{m}$."
+      ],
+      "solution": [
+        "$1\\ \\mu\\text{m} = 1000\\ \\text{nm}$, dus $7\\ \\mu\\text{m} = 7000\\ \\text{nm}$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.007,
+          "message": "Een nanometer is kleiner dan een micrometer, dus er passen méér nanometers in dezelfde lengte. Het getal moet groter worden."
+        }
+      ],
+      "topics": [
+        "prefixes",
+        "unit-conversion"
+      ]
+    },
+    {
+      "id": "01-011",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Hoeveel $\\text{cm}^2$ is $1\\ \\text{m}^2$?",
+      "choices": [
+        "100 cm²",
+        "1000 cm²",
+        "10 000 cm²",
+        "1 000 000 cm²"
+      ],
+      "answer": "10 000 cm²",
+      "hints": [
+        "Een vierkant van 1 m bij 1 m is ook 100 cm bij 100 cm."
+      ],
+      "solution": [
+        "$1\\ \\text{m}^2 = (100\\ \\text{cm})^2 = 10\\,000\\ \\text{cm}^2$"
+      ],
+      "feedback": [
+        {
+          "answer": "100 cm²",
+          "message": "Je hebt alleen de lineaire factor 100 gebruikt. Bij een oppervlak telt die factor in het kwadraat."
+        },
+        {
+          "answer": "1 000 000 cm²",
+          "message": "Dat is de factor voor een volume ($1\\ \\text{m}^3 = 10^6\\ \\text{cm}^3$), niet voor een oppervlak."
+        }
+      ],
+      "topics": [
+        "unit-conversion",
+        "prefixes"
+      ]
+    },
+    {
+      "id": "01-012",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een zwembad bevat $37{,}5\\ \\text{m}^3$ water. Hoeveel liter is dat?",
+      "unit": "L",
+      "answer": 37500,
+      "hints": [
+        "$1\\ \\text{m}^3 = 1000\\ \\text{L}$, want $1\\ \\text{L} = 1\\ \\text{dm}^3$."
+      ],
+      "solution": [
+        "$37{,}5 \\times 1000\\ \\text{L} = 37\\,500\\ \\text{L}$"
+      ],
+      "feedback": [
+        {
+          "answer": 375,
+          "message": "Je hebt met 10 vermenigvuldigd. Een kubieke meter is $10 \\times 10 \\times 10 = 1000$ kubieke decimeter."
+        }
+      ],
+      "topics": [
+        "unit-conversion"
+      ]
+    },
+    {
+      "id": "01-013",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een bacterie is $2\\ \\mu\\text{m}$ lang. Hoeveel van die bacteriën passen achter elkaar in een lengte van $1\\ \\text{mm}$?",
+      "answer": 500,
+      "hints": [
+        "Reken beide lengtes om naar dezelfde eenheid, bijvoorbeeld $\\mu\\text{m}$.",
+        "Het aantal is de verhouding van de twee lengtes."
+      ],
+      "solution": [
+        "$1\\ \\text{mm} = 1000\\ \\mu\\text{m}$, dus het aantal is $\\dfrac{1000\\ \\mu\\text{m}}{2\\ \\mu\\text{m}} = 500$."
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Je hebt de lengtes niet in dezelfde eenheid uitgedrukt. Zet eerst beide in $\\mu\\text{m}$."
+        }
+      ],
+      "topics": [
+        "unit-conversion",
+        "prefixes"
+      ]
+    },
+    {
+      "id": "01-014",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Aluminium heeft een dichtheid van $2{,}7\\ \\text{g/cm}^3$. Reken dit om naar $\\text{kg/m}^3$.",
+      "unit": "kg/m³",
+      "answer": 2700,
+      "hints": [
+        "$1\\ \\text{kg} = 1000\\ \\text{g}$ en $1\\ \\text{m}^3 = 10^6\\ \\text{cm}^3$.",
+        "Per saldo blijft er een factor $10^6/10^3$ over."
+      ],
+      "solution": [
+        "$2{,}7\\ \\dfrac{\\text{g}}{\\text{cm}^3} \\times \\dfrac{1\\ \\text{kg}}{1000\\ \\text{g}} \\times \\dfrac{10^6\\ \\text{cm}^3}{1\\ \\text{m}^3} = 2700\\ \\text{kg/m}^3$"
+      ],
+      "feedback": [
+        {
+          "answer": 0.0027,
+          "message": "Je hebt de omrekenfactoren de verkeerde kant op gebruikt. Een getal in $\\text{g/cm}^3$ wordt 1000 keer zo groot in $\\text{kg/m}^3$."
+        },
+        {
+          "answer": 2.7,
+          "message": "Je hebt de waarde niet omgerekend. De eenheid verandert, dus de getalswaarde ook."
+        }
+      ],
+      "topics": [
+        "unit-conversion",
+        "density"
+      ]
+    },
+    {
+      "id": "01-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Je leest een lengte af op een liniaal met streepjes om de millimeter. Wat is de afleesonzekerheid volgens de vuistregel van een half schaaldeel?",
+      "choices": [
+        "1 cm",
+        "0,5 mm",
+        "0,1 mm",
+        "0 mm, want een liniaal is nauwkeurig"
+      ],
+      "answer": "0,5 mm",
+      "hints": [
+        "Neem de helft van de afstand tussen twee streepjes."
+      ],
+      "solution": [
+        "De schaalverdeling is 1 mm, dus de afleesonzekerheid is een half schaaldeel: $0{,}5\\ \\text{mm}$."
+      ],
+      "feedback": [
+        {
+          "answer": "1 cm",
+          "message": "Dat is veel te grof voor een liniaal met millimeterverdeling."
+        },
+        {
+          "answer": "0,1 mm",
+          "message": "Dat zou betekenen dat je tienden van een streepje afleest; de vuistregel is een half schaaldeel."
+        }
+      ],
+      "topics": [
+        "uncertainty",
+        "measurement"
+      ]
+    },
+    {
+      "id": "01-016",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bij een valtijdmeting krijg je (in seconden) $2{,}31;\\ 2{,}28;\\ 2{,}35;\\ 2{,}30;\\ 2{,}31$. Bereken het gemiddelde.",
+      "unit": "s",
+      "tolerance": 0.005,
+      "answer": 2.31,
+      "hints": [
+        "Tel de vijf waarden op en deel door 5."
+      ],
+      "solution": [
+        "$\\dfrac{2{,}31 + 2{,}28 + 2{,}35 + 2{,}30 + 2{,}31}{5} = \\dfrac{11{,}55}{5} = 2{,}31\\ \\text{s}$"
+      ],
+      "feedback": [
+        {
+          "answer": 11.55,
+          "message": "Dat is de som. Deel die nog door het aantal metingen, 5."
+        }
+      ],
+      "topics": [
+        "uncertainty"
+      ]
+    },
+    {
+      "id": "01-017",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Schat de onzekerheid van de meetreeks $2{,}31;\\ 2{,}28;\\ 2{,}35;\\ 2{,}30;\\ 2{,}31$ (in s) als de helft van het verschil tussen de grootste en de kleinste waarde.",
+      "unit": "s",
+      "tolerance": 0.001,
+      "answer": 0.035,
+      "hints": [
+        "Zoek de grootste en de kleinste waarde."
+      ],
+      "solution": [
+        "$\\dfrac{2{,}35 - 2{,}28}{2} = \\dfrac{0{,}07}{2} = 0{,}035\\ \\text{s}$"
+      ],
+      "feedback": [
+        {
+          "answer": 0.07,
+          "message": "Dat is de volledige spreidingsbreedte. De onzekerheid is de helft daarvan."
+        }
+      ],
+      "topics": [
+        "uncertainty"
+      ]
+    },
+    {
+      "id": "01-018",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel significante cijfers heeft het getal $0{,}00450$?",
+      "answer": 3,
+      "hints": [
+        "Nullen aan het begin tellen niet mee; nullen aan het eind achter de komma wel."
+      ],
+      "solution": [
+        "De significante cijfers zijn 4, 5 en 0: drie."
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "De nullen voor de 4 bepalen alleen de plaats van de komma en tellen niet mee."
+        },
+        {
+          "answer": 2,
+          "message": "De laatste 0 staat achter de komma en telt wel mee: ze laat zien dat je tot op de honderdduizendste hebt gemeten."
+        }
+      ],
+      "topics": [
+        "significant-figures"
+      ]
+    },
+    {
+      "id": "01-019",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een rechthoek is $12{,}3\\ \\text{cm}$ lang en $4{,}5\\ \\text{cm}$ breed. Geef de oppervlakte in $\\text{cm}^2$ met het juiste aantal significante cijfers.",
+      "unit": "cm²",
+      "answer": 55,
+      "hints": [
+        "De rekenmachine geeft $55{,}35$.",
+        "Tel het aantal significante cijfers van beide gegevens; het minimum bepaalt je antwoord."
+      ],
+      "solution": [
+        "$12{,}3 \\times 4{,}5 = 55{,}35$. De breedte heeft twee significante cijfers, dus ook het antwoord: $55\\ \\text{cm}^2$."
+      ],
+      "feedback": [
+        {
+          "answer": 55.35,
+          "message": "Dat zijn vier significante cijfers, terwijl de breedte er maar twee heeft. Rond af op twee."
+        }
+      ],
+      "topics": [
+        "significant-figures"
+      ]
+    },
+    {
+      "id": "01-020",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een lengte is gemeten als $20{,}0 \\pm 0{,}5\\ \\text{cm}$. Bereken de relatieve onzekerheid in procent.",
+      "unit": "%",
+      "tolerance": 0.05,
+      "answer": 2.5,
+      "hints": [
+        "Relatieve onzekerheid = absolute onzekerheid gedeeld door de waarde."
+      ],
+      "solution": [
+        "$\\dfrac{0{,}5}{20{,}0} = 0{,}025 = 2{,}5\\,\\%$"
+      ],
+      "feedback": [
+        {
+          "answer": 0.025,
+          "message": "Dat is de verhouding. Je moet het in procent opgeven: vermenigvuldig met 100."
+        }
+      ],
+      "topics": [
+        "uncertainty"
+      ]
+    },
+    {
+      "id": "01-021",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Twee metingen van de valversnelling geven $9{,}81 \\pm 0{,}02\\ \\text{m/s}^2$ en $9{,}79 \\pm 0{,}03\\ \\text{m/s}^2$. Wat kun je zeggen?",
+      "choices": [
+        "Ze spreken elkaar tegen, want de getallen zijn niet gelijk",
+        "Ze zijn consistent, want de onzekerheidsintervallen overlappen",
+        "Alleen de eerste is bruikbaar, want die heeft de kleinste onzekerheid",
+        "Je kunt pas oordelen na afronden op één decimaal"
+      ],
+      "answer": "Ze zijn consistent, want de onzekerheidsintervallen overlappen",
+      "hints": [
+        "Bepaal bij beide het interval van ondergrens tot bovengrens."
+      ],
+      "solution": [
+        "Het eerste interval is 9,79 tot 9,83, het tweede 9,76 tot 9,82. Ze overlappen, dus het verschil is door de onzekerheid te verklaren."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze spreken elkaar tegen, want de getallen zijn niet gelijk",
+          "message": "Gemeten waarden zijn zelden precies gelijk. Wat telt is of het verschil binnen de onzekerheid valt."
+        },
+        {
+          "answer": "Alleen de eerste is bruikbaar, want die heeft de kleinste onzekerheid",
+          "message": "Een grotere onzekerheid maakt een meting minder precies, niet onbruikbaar: beide resultaten zijn geldig en kloppen met elkaar."
+        }
+      ],
+      "topics": [
+        "uncertainty",
+        "scientific-method"
+      ]
+    },
+    {
+      "id": "01-022",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Twee staven hebben een lengte van $1{,}25 \\pm 0{,}01\\ \\text{m}$ en $0{,}80 \\pm 0{,}02\\ \\text{m}$. Je legt ze achter elkaar. Wat is de (maximale) absolute onzekerheid van de totale lengte in meter?",
+      "unit": "m",
+      "tolerance": 0.001,
+      "answer": 0.03,
+      "hints": [
+        "Bij optellen tellen de absolute onzekerheden op."
+      ],
+      "solution": [
+        "$0{,}01 + 0{,}02 = 0{,}03\\ \\text{m}$; de totale lengte is $2{,}05 \\pm 0{,}03\\ \\text{m}$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.0224,
+          "message": "Dat is de kwadratische som, de kleinere schatting voor onafhankelijke afwijkingen. Hier vragen we de maximale onzekerheid: lineair optellen."
+        },
+        {
+          "answer": 0.05,
+          "message": "Je hebt de lengtes opgeteld in plaats van de onzekerheden."
+        }
+      ],
+      "topics": [
+        "uncertainty"
+      ]
+    },
+    {
+      "id": "01-023",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Je deelt $10{,}0\\ \\text{cm}$ door $3{,}0\\ \\text{s}$ en de rekenmachine geeft $3{,}33333333\\ \\text{cm/s}$. Welke waarde schrijf je op in je verslag en waarom?",
+      "min_length": 40,
+      "answer": "3,3 cm/s: twee significante cijfers, zoals de gegevens.",
+      "hints": [
+        "Tel de significante cijfers van beide gegevens."
+      ],
+      "solution": [
+        "Het getal 10,0 heeft drie significante cijfers en 3,0 heeft er twee, dus het antwoord krijgt er twee: $3{,}3\\ \\text{cm/s}$. De overige cijfers van de rekenmachine zijn schijnnauwkeurigheid: ze suggereren een precisie die in de meting niet zit."
+      ],
+      "topics": [
+        "significant-figures"
+      ]
+    },
+    {
+      "id": "01-024",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hierin is $s$ een afstand, $v$ een snelheid, $a$ een versnelling en $t$ een tijd. Welke formule klopt dimensioneel voor een afstand?",
+      "choices": [
+        "s = v / t",
+        "s = v · t",
+        "s = a · t",
+        "s = v · t²"
+      ],
+      "answer": "s = v · t",
+      "hints": [
+        "Schrijf de dimensies op: $[v] = \\text{L}\\,\\text{T}^{-1}$ en $[a] = \\text{L}\\,\\text{T}^{-2}$."
+      ],
+      "solution": [
+        "$[v \\cdot t] = \\text{L}\\,\\text{T}^{-1} \\cdot \\text{T} = \\text{L}$. De andere hebben dimensie $\\text{L}\\,\\text{T}^{-2}$, $\\text{L}\\,\\text{T}^{-1}$ of $\\text{L}\\,\\text{T}$."
+      ],
+      "feedback": [
+        {
+          "answer": "s = v / t",
+          "message": "Dat levert $\\text{L}\\,\\text{T}^{-2}$, een versnelling, geen lengte."
+        },
+        {
+          "answer": "s = a · t",
+          "message": "Dat levert $\\text{L}\\,\\text{T}^{-1}$: een snelheid."
+        },
+        {
+          "answer": "s = v · t²",
+          "message": "Dat levert $\\text{L}\\,\\text{T}$: geen lengte."
+        }
+      ],
+      "topics": [
+        "dimensional-analysis"
+      ]
+    },
+    {
+      "id": "01-025",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De kinetische energie is $E_\\text{k} = \\tfrac12 m v^2$. Welke combinatie van SI-basiseenheden hoort daarbij?",
+      "choices": [
+        "kg·m/s²",
+        "kg·m/s",
+        "kg·m²/s²",
+        "kg·m²/s"
+      ],
+      "answer": "kg·m²/s²",
+      "hints": [
+        "Vul de eenheden in: $[m] = \\text{kg}$ en $[v] = \\text{m/s}$.",
+        "De factor $\\tfrac12$ heeft geen eenheid."
+      ],
+      "solution": [
+        "$\\text{kg} \\cdot (\\text{m/s})^2 = \\text{kg·m}^2/\\text{s}^2$, ofwel joule."
+      ],
+      "feedback": [
+        {
+          "answer": "kg·m/s²",
+          "message": "Dat is de newton (kracht). Je bent vergeten dat de snelheid in het kwadraat staat."
+        },
+        {
+          "answer": "kg·m/s",
+          "message": "Dat is een impuls: massa maal snelheid, zonder kwadraat."
+        }
+      ],
+      "topics": [
+        "dimensional-analysis",
+        "units"
+      ]
+    },
+    {
+      "id": "01-026",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De slingertijd van een slinger is $T = 2\\pi\\sqrt{L/g}$. Bereken $T$ voor $L = 1{,}00\\ \\text{m}$ en $g = 9{,}81\\ \\text{m/s}^2$.",
+      "unit": "s",
+      "tolerance": 0.02,
+      "answer": 2.01,
+      "hints": [
+        "Reken eerst $L/g$ uit; de eenheid is $\\text{s}^2$.",
+        "Neem de wortel en vermenigvuldig met $2\\pi$."
+      ],
+      "solution": [
+        "$L/g = 0{,}1019\\ \\text{s}^2$; $\\sqrt{0{,}1019} = 0{,}3193\\ \\text{s}$; $T = 2\\pi \\times 0{,}3193 \\approx 2{,}01\\ \\text{s}$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.32,
+          "message": "Je bent de factor $2\\pi$ vergeten."
+        },
+        {
+          "answer": 0.64,
+          "message": "Je hebt de wortel vergeten: $2\\pi \\cdot L/g$ geeft ook een verkeerde eenheid."
+        }
+      ],
+      "topics": [
+        "dimensional-analysis"
+      ]
+    },
+    {
+      "id": "01-027",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Schat hoeveel liter lucht iemand per dag inademt: gemiddeld 15 ademhalingen per minuut met elk $0{,}5\\ \\text{L}$. Geef het antwoord in liter per dag.",
+      "unit": "L",
+      "tolerance": 10,
+      "answer": 10800,
+      "hints": [
+        "Reken eerst per minuut en daarna per uur en per dag.",
+        "Een dag heeft $24 \\times 60$ minuten."
+      ],
+      "solution": [
+        "$15 \\times 0{,}5\\ \\text{L} = 7{,}5\\ \\text{L/min}$; $7{,}5 \\times 60 = 450\\ \\text{L/h}$; $450 \\times 24 = 10\\,800\\ \\text{L}$."
+      ],
+      "feedback": [
+        {
+          "answer": 450,
+          "message": "Dat is per uur. Vermenigvuldig nog met 24 voor een dag."
+        },
+        {
+          "answer": 7.5,
+          "message": "Dat is per minuut. Reken door naar een dag."
+        }
+      ],
+      "topics": [
+        "estimation"
+      ]
+    },
+    {
+      "id": "01-028",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Taylor schatte de energie van een explosie met $E \\approx \\rho R^5/t^2$. Neem $\\rho = 1{,}2\\ \\text{kg/m}^3$, $R = 140\\ \\text{m}$ en $t = 0{,}025\\ \\text{s}$. Bereken $E$ in terajoule ($1\\ \\text{TJ} = 10^{12}\\ \\text{J}$).",
+      "unit": "TJ",
+      "tolerance": 2,
+      "answer": 103,
+      "hints": [
+        "Bereken eerst $R^5$ en $t^2$.",
+        "Eenheid: $\\text{kg}\\,\\text{m}^{-3}\\,\\text{m}^5\\,\\text{s}^{-2} = \\text{J}$."
+      ],
+      "solution": [
+        "$R^5 = 5{,}38 \\times 10^{10}\\ \\text{m}^5$; $t^2 = 6{,}25 \\times 10^{-4}\\ \\text{s}^2$; $E = \\dfrac{1{,}2 \\times 5{,}38 \\times 10^{10}}{6{,}25 \\times 10^{-4}} \\approx 1{,}03 \\times 10^{14}\\ \\text{J} = 103\\ \\text{TJ}$."
+      ],
+      "feedback": [
+        {
+          "answer": 24.7,
+          "message": "Dat is de energie in kiloton TNT ($1\\ \\text{kt} = 4{,}184\\ \\text{TJ}$). De vraag is in terajoule."
+        }
+      ],
+      "topics": [
+        "dimensional-analysis",
+        "estimation"
+      ]
+    },
+    {
+      "id": "01-029",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet de stappen van een Fermi-schatting in de goede volgorde, van eerste naar laatste.",
+      "answer": [
+        "Definieer de grootheid die je zoekt",
+        "Splits haar op in deelschattingen die je wél kunt maken",
+        "Schat elk deel met een afgeronde, verdedigbare waarde",
+        "Combineer de delen door te vermenigvuldigen of op te tellen",
+        "Controleer of de orde van grootte aannemelijk is"
+      ],
+      "hints": [
+        "Je weet pas wat je moet schatten als je de grootheid hebt gedefinieerd."
+      ],
+      "solution": [
+        "Eerst definiëren, dan opsplitsen, dan elk deel schatten, dan combineren en ten slotte controleren."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Splits haar op in deelschattingen die je wél kunt maken",
+            "Definieer de grootheid die je zoekt",
+            "Schat elk deel met een afgeronde, verdedigbare waarde",
+            "Combineer de delen door te vermenigvuldigen of op te tellen",
+            "Controleer of de orde van grootte aannemelijk is"
+          ],
+          "message": "Je kunt pas opsplitsen als je weet welke grootheid je zoekt."
+        }
+      ],
+      "topics": [
+        "estimation"
+      ]
+    },
+    {
+      "id": "01-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In 1999 ging de Mars Climate Orbiter verloren. Wat was volgens het onderzoek de kernoorzaak?",
+      "choices": [
+        "Twee softwaresystemen gebruikten verschillende eenheden voor impuls (pondkracht·s en N·s)",
+        "Een rekenfout in het aantal significante cijfers van de baan",
+        "De meetonzekerheid van de instrumenten was te groot",
+        "De meter was verkeerd gedefinieerd"
+      ],
+      "answer": "Twee softwaresystemen gebruikten verschillende eenheden voor impuls (pondkracht·s en N·s)",
+      "hints": [
+        "Het ging niet om de definitie van de meter of een instrument."
+      ],
+      "solution": [
+        "Een deel van de software gaf stuwkrachtgegevens in pondkracht-seconden, terwijl het andere newtonseconden verwachtte. Een factor van ongeveer 4,45 verstoorde de baanberekening."
+      ],
+      "feedback": [
+        {
+          "answer": "Een rekenfout in het aantal significante cijfers van de baan",
+          "message": "Het was geen afrondingsprobleem, maar een eenheidsprobleem."
+        },
+        {
+          "answer": "De meetonzekerheid van de instrumenten was te groot",
+          "message": "De instrumenten werkten naar behoren; de gegevens werden verkeerd geïnterpreteerd."
+        }
+      ],
+      "topics": [
+        "units",
+        "measurement"
+      ]
+    },
+    {
+      "id": "01-031",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Mètre des Archives (1799)",
+        "Meterconventie en oprichting van het BIPM (1875)",
+        "Internationale prototypes van meter en kilogram (1889)",
+        "Meter gedefinieerd via de lichtsnelheid (1983)",
+        "Kilogram gedefinieerd via de constante van Planck (2019)"
+      ],
+      "hints": [
+        "Gebruik de jaartallen tussen haakjes."
+      ],
+      "solution": [
+        "1799, 1875, 1889, 1983, 2019."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Meterconventie en oprichting van het BIPM (1875)",
+            "Mètre des Archives (1799)",
+            "Internationale prototypes van meter en kilogram (1889)",
+            "Meter gedefinieerd via de lichtsnelheid (1983)",
+            "Kilogram gedefinieerd via de constante van Planck (2019)"
+          ],
+          "message": "De Meterconventie kwam pas na de platina Archives-standaard uit 1799."
+        }
+      ],
+      "topics": [
+        "si-system"
+      ]
+    },
+    {
+      "id": "01-032",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is het belangrijkste voordeel van een definitie via natuurconstanten ten opzichte van een prototype in een kluis?",
+      "choices": [
+        "De kilogram krijgt een andere, nauwkeuriger waarde",
+        "Iedereen kan de eenheid in beginsel zelf realiseren, en ze kan niet beschadigen of driften",
+        "Metingen worden daardoor altijd exact",
+        "Het prototype is voortaan overbodig en wordt weggegooid"
+      ],
+      "answer": "Iedereen kan de eenheid in beginsel zelf realiseren, en ze kan niet beschadigen of driften",
+      "hints": [
+        "Denk aan de 50 microgram afwijking van het prototype."
+      ],
+      "solution": [
+        "Een natuurconstante is overal en altijd hetzelfde. Met de juiste experimenten kan elk goed uitgerust laboratorium de eenheid realiseren, zonder afhankelijk te zijn van één voorwerp."
+      ],
+      "feedback": [
+        {
+          "answer": "De kilogram krijgt een andere, nauwkeuriger waarde",
+          "message": "De waarde werd juist zo gekozen dat de kilogram niet merkbaar veranderde."
+        },
+        {
+          "answer": "Het prototype is voortaan overbodig en wordt weggegooid",
+          "message": "Het blijft als historisch voorwerp bewaard; het is alleen niet meer de definitie."
+        }
+      ],
+      "topics": [
+        "si-system",
+        "measurement"
+      ]
+    },
+    {
+      "id": "01-033",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De afstand van pool tot evenaar is werkelijk ongeveer $10\\,002\\ \\text{km}$. De commissie rekende met $10\\,000\\ \\text{km}$ en deelde door tien miljoen. Hoeveel millimeter korter is de meter van 1799 daardoor dan een meter die op de werkelijke afstand was gebaseerd?",
+      "unit": "mm",
+      "tolerance": 0.05,
+      "answer": 0.2,
+      "hints": [
+        "Bereken beide meters in meter en trek ze van elkaar af."
+      ],
+      "solution": [
+        "$10\\,002\\ \\text{km}/10^7 = 1{,}0002\\ \\text{m}$ en $10\\,000\\ \\text{km}/10^7 = 1{,}0000\\ \\text{m}$. Verschil: $0{,}0002\\ \\text{m} = 0{,}2\\ \\text{mm}$."
+      ],
+      "feedback": [
+        {
+          "answer": 200,
+          "message": "Je hebt een eenheid verkeerd omgerekend. Het verschil is 0,0002 m: hoeveel mm is dat?"
+        },
+        {
+          "answer": 2,
+          "message": "Controleer het aantal nullen: $0{,}0002\\ \\text{m}$ is $0{,}2\\ \\text{mm}$."
+        }
+      ],
+      "topics": [
+        "si-system",
+        "unit-conversion"
+      ]
+    },
+    {
+      "id": "01-034",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom is een prototype-kilogram als definitie problematisch, ook als je het zeer zorgvuldig bewaart?",
+      "min_length": 50,
+      "answer": "Als het voorwerp zelf de definitie is, kan zijn massaverandering niet worden vastgesteld en verandert de eenheid zelf mee; het is bovendien één unieke, kwetsbare bron.",
+      "hints": [
+        "Denk aan wat “precies één kilogram” betekent als het voorwerp zelf de maat is."
+      ],
+      "solution": [
+        "Het prototype is per definitie precies één kilogram. Verliest het massa, dan kun je dat niet zien aan het voorwerp zelf: alleen kopieën zijn een vergelijking, en dan weet je niet welk voorwerp veranderd is. Alle massameting in de wereld is bovendien terug te voeren op één kwetsbaar voorwerp. Een definitie via natuurconstanten is overal en altijd hetzelfde en kan door elk laboratorium worden gerealiseerd."
+      ],
+      "topics": [
+        "si-system",
+        "measurement"
+      ]
+    },
+    {
+      "id": "01-035",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een metaalblokje heeft een massa van $145{,}6\\ \\text{g}$. Het waterniveau in een maatcilinder stijgt van $40{,}0\\ \\text{mL}$ naar $58{,}5\\ \\text{mL}$ als je het onderdompelt. Bereken de dichtheid in $\\text{g/cm}^3$.",
+      "unit": "g/cm³",
+      "tolerance": 0.02,
+      "answer": 7.87,
+      "hints": [
+        "$1\\ \\text{mL} = 1\\ \\text{cm}^3$.",
+        "Het volume van het blokje is het verschil van de twee aflezingen."
+      ],
+      "solution": [
+        "$V = 58{,}5 - 40{,}0 = 18{,}5\\ \\text{cm}^3$; $\\rho = \\dfrac{145{,}6}{18{,}5} = 7{,}87\\ \\text{g/cm}^3$."
+      ],
+      "feedback": [
+        {
+          "answer": 2.49,
+          "message": "Je hebt de eindstand van de cilinder (58,5) als volume gebruikt in plaats van het verschil."
+        }
+      ],
+      "topics": [
+        "density",
+        "measurement"
+      ]
+    },
+    {
+      "id": "01-036",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een metaalblokje heeft een massa van $145{,}6\\ \\text{g}$ (onzekerheid $0{,}1\\ \\text{g}$) en een volume van $18{,}5\\ \\text{mL}$, bepaald als verschil van twee aflezingen op een maatcilinder met onzekerheid $0{,}5\\ \\text{mL}$ per aflezing. Wat is de relatieve onzekerheid van de dichtheid in procent (relatieve onzekerheden optellen)?",
+      "unit": "%",
+      "tolerance": 0.1,
+      "answer": 5.5,
+      "hints": [
+        "Het volume is een verschil van twee aflezingen: tel de absolute onzekerheden op.",
+        "Bereken daarna de relatieve onzekerheid van volume en massa en tel ze op."
+      ],
+      "solution": [
+        "$\\Delta V = 0{,}5 + 0{,}5 = 1{,}0\\ \\text{mL}$, dus $1{,}0/18{,}5 = 5{,}4\\,\\%$. Massa: $0{,}1/145{,}6 = 0{,}07\\,\\%$. Samen ongeveer $5{,}5\\,\\%$."
+      ],
+      "feedback": [
+        {
+          "answer": 2.7,
+          "message": "Je hebt alleen $0{,}5/18{,}5$ genomen: bij een verschil van twee aflezingen tellen beide onzekerheden mee."
+        }
+      ],
+      "topics": [
+        "uncertainty",
+        "density"
+      ]
+    },
+    {
+      "id": "01-037",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een gemeten dichtheid is $(7{,}9 \\pm 0{,}4)\\ \\text{g/cm}^3$. Tabelwaarden: aluminium 2,70; ijzer 7,87; staal ongeveer 7,8; koper 8,96. Welke conclusie is gerechtvaardigd?",
+      "choices": [
+        "Het blokje is zeker ijzer",
+        "Het blokje is waarschijnlijk van ijzer of staal; aluminium en koper vallen af",
+        "Het blokje kan koper zijn, want 8,96 ligt dichtbij",
+        "Je kunt niets concluderen"
+      ],
+      "answer": "Het blokje is waarschijnlijk van ijzer of staal; aluminium en koper vallen af",
+      "hints": [
+        "Bepaal het interval $7{,}9 \\pm 0{,}4$ en controleer welke tabelwaarden erin vallen."
+      ],
+      "solution": [
+        "Het interval loopt van 7,5 tot 8,3. IJzer (7,87) en staal (7,8) liggen erin; aluminium (2,70) en koper (8,96) niet."
+      ],
+      "feedback": [
+        {
+          "answer": "Het blokje is zeker ijzer",
+          "message": "De meting kan ijzer en staal niet van elkaar onderscheiden; “zeker” gaat verder dan de gegevens."
+        },
+        {
+          "answer": "Het blokje kan koper zijn, want 8,96 ligt dichtbij",
+          "message": "8,96 ligt buiten het interval 7,5 tot 8,3: koper valt af."
+        },
+        {
+          "answer": "Je kunt niets concluderen",
+          "message": "Je kunt wel veel concluderen: een aantal materialen valt duidelijk af."
+        }
+      ],
+      "topics": [
+        "uncertainty",
+        "scientific-method"
+      ]
+    },
+    {
+      "id": "01-038",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een pak van 500 vel papier is $52\\ \\text{mm}$ dik (gemeten met onzekerheid $1\\ \\text{mm}$). Bereken de dikte van één vel in $\\mu\\text{m}$.",
+      "unit": "µm",
+      "tolerance": 0.5,
+      "answer": 104,
+      "hints": [
+        "Deel de dikte van de stapel door het aantal vellen.",
+        "Reken $\\text{mm}$ om naar $\\mu\\text{m}$: $1\\ \\text{mm} = 1000\\ \\mu\\text{m}$."
+      ],
+      "solution": [
+        "$\\dfrac{52\\ \\text{mm}}{500} = 0{,}104\\ \\text{mm} = 104\\ \\mu\\text{m}$. De onzekerheid is $\\dfrac{1\\ \\text{mm}}{500} = 2\\ \\mu\\text{m}$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.104,
+          "message": "Dat is de dikte in mm. Reken door naar $\\mu\\text{m}$."
+        }
+      ],
+      "topics": [
+        "measurement",
+        "prefixes",
+        "uncertainty"
+      ]
+    },
+    {
+      "id": "01-039",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Je hebt een rechthoekig stuk aluminiumfolie, een liniaal, een nauwkeurige weegschaal en een tabel met dichtheden. Ontwerp een meting om de dikte van de folie te bepalen en geef aan welke onzekerheid waarschijnlijk de grootste rol speelt.",
+      "min_length": 60,
+      "answer": "Meet massa en oppervlak; dikte d = m / (ρ · A). De grootste onzekerheid zit vermoedelijk in de lengte en breedte.",
+      "hints": [
+        "De folie is een heel plat blokje: volume = oppervlak maal dikte.",
+        "Combineer dichtheid en volume."
+      ],
+      "solution": [
+        "Weeg de folie ($m$) en meet lengte en breedte met de liniaal ($A = l \\cdot b$). Het volume is $V = m/\\rho$ met $\\rho = 2{,}70\\ \\text{g/cm}^3$ uit de tabel. Omdat $V = A \\cdot d$ volgt $d = \\dfrac{m}{\\rho \\cdot A}$. Gebruik een groot stuk folie om de relatieve onzekerheid van $l$ en $b$ klein te houden. De weegschaal is meestal nauwkeurig genoeg; de onzekerheid wordt bepaald door de liniaal (lengte en breedte) en door de aanname dat de folie homogeen is en de tabelwaarde klopt."
+      ],
+      "topics": [
+        "measurement",
+        "density",
+        "scientific-method"
+      ]
+    }
+  ]
+}

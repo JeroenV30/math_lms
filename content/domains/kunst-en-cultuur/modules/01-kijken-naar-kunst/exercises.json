@@ -1,0 +1,1026 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke van deze uitspraken over het schilderij is een waarneming?",
+      "context": "Johannes Vermeer, *Het melkmeisje*, ca. 1660, olieverf op doek, 45,5 × 41 cm, Rijksmuseum, Amsterdam. Een jonge vrouw in geel lijfje, blauwe schort en witte muts giet in een kale kamer een dunne straal melk uit een kan in een pot. Het licht valt van links door een raam. Op de tafel liggen brood en een mand; de rechterhelft van de wand is leeg.",
+      "choices": [
+        "Vermeer bewonderde de vrouw die hij schilderde.",
+        "Het schilderij toont de waardigheid van arbeid.",
+        "Het licht valt van links in de kamer.",
+        "De vrouw is een toegewijde werkster."
+      ],
+      "answer": "Het licht valt van links in de kamer.",
+      "hints": [
+        "Een waarneming kan een ander controleren door naar het werk te kijken."
+      ],
+      "solution": [
+        "Waarneming: te controleren aan het werk, zoals de richting van het licht.",
+        "De overige uitspraken zijn interpretaties of aannames over de maker."
+      ],
+      "feedback": [
+        {
+          "answer": "De vrouw is een toegewijde werkster.",
+          "message": "\"Toegewijd\" is een beoordeling van haar houding, geen vaststelling. Je kunt wel aanwijzen dat haar hoofd naar de handeling is gebogen."
+        },
+        {
+          "answer": "Het schilderij toont de waardigheid van arbeid.",
+          "message": "Dit is een lezing van het onderwerp: ze steunt op kenmerken, maar je kunt haar niet rechtstreeks aanwijzen."
+        }
+      ],
+      "topics": [
+        "description",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een kijker zegt bij een schilderij: \"Je ziet duidelijk dat de vrouw verliefd is.\" Wat is hier mis?",
+      "choices": [
+        "Een interpretatie wordt gepresenteerd alsof ze een waarneming is.",
+        "De uitspraak is een oordeel over de schoonheid van het werk.",
+        "Het zou alleen kloppen als de schilder het zelf had gezegd.",
+        "Er is niets mis: gevoelens zijn altijd direct zichtbaar."
+      ],
+      "answer": "Een interpretatie wordt gepresenteerd alsof ze een waarneming is.",
+      "hints": [
+        "Vraag je af wat je kunt aanwijzen en wat je afleidt."
+      ],
+      "solution": [
+        "\"Verliefd\" is een afleiding uit houding en blik.",
+        "Een goede lezing noemt het kenmerk waarop ze steunt en erkent dat het een lezing is."
+      ],
+      "feedback": [
+        {
+          "answer": "Er is niets mis: gevoelens zijn altijd direct zichtbaar.",
+          "message": "Wat je ziet is een gelaatsuitdrukking of houding; dat die verliefdheid betekent, is een afleiding."
+        },
+        {
+          "answer": "Het zou alleen kloppen als de schilder het zelf had gezegd.",
+          "message": "Een uitspraak van de maker is bewijs, maar geen voorwaarde; een lezing kan ook op kenmerken en context steunen."
+        }
+      ],
+      "topics": [
+        "description",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Waarom is het onjuist om te zeggen dat een Delftse schilder rond 1660 \"een kunstenaar\" was in de huidige zin van het woord?",
+      "choices": [
+        "Schilders werkten toen nooit in opdracht of voor kopers.",
+        "Schilderijen werden toen niet bekeken, alleen bewaard.",
+        "Het begrip kunst bestond niet in andere talen dan het Nederlands.",
+        "Het systeem van de schone kunsten bestond nog niet: schilderen was een vak, geregeld door een gilde."
+      ],
+      "answer": "Het systeem van de schone kunsten bestond nog niet: schilderen was een vak, geregeld door een gilde.",
+      "hints": [
+        "Denk aan het Sint-Lucasgilde en aan de 18e-eeuwse ordening van de kunsten."
+      ],
+      "solution": [
+        "Het systeem van de \"schone kunsten\" ontstond pas in de 18e eeuw.",
+        "Een schilder in 1660 was lid van een gilde en oefende een erkend vak uit."
+      ],
+      "feedback": [
+        {
+          "answer": "Schilders werkten toen nooit in opdracht of voor kopers.",
+          "message": "Juist het tegendeel: schilders werkten voor opdrachtgevers en voor een markt van kopers."
+        },
+        {
+          "answer": "Schilderijen werden toen niet bekeken, alleen bewaard.",
+          "message": "Schilderijen hingen in huizen en kerken en werden zeker bekeken."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Textiel, keramiek en meubels kregen in het moderne systeem van de kunsten vaak een lagere status als \"kunstnijverheid\". Wat volgt daaruit voor wat musea lange tijd verzamelden?",
+      "choices": [
+        "Alleen kunstnijverheid werd verzameld, omdat die het nuttigst was.",
+        "Werk dat buiten de \"schone kunsten\" viel, kreeg minder aandacht, ook als het heel vaardig was gemaakt.",
+        "Kunstnijverheid was technisch altijd eenvoudiger dan schilderkunst.",
+        "Alle gemaakte voorwerpen werden gelijk behandeld."
+      ],
+      "answer": "Werk dat buiten de \"schone kunsten\" viel, kreeg minder aandacht, ook als het heel vaardig was gemaakt.",
+      "hints": [
+        "Het gaat om status, niet om vaardigheid."
+      ],
+      "solution": [
+        "De ordening gaf een rangorde.",
+        "Wat daarbuiten viel, werd minder serieus genomen, ook al was het vaardig gemaakt."
+      ],
+      "feedback": [
+        {
+          "answer": "Alle gemaakte voorwerpen werden gelijk behandeld.",
+          "message": "Juist niet: de rangorde tussen schone kunsten en kunstnijverheid bepaalde wat werd verzameld en getoond."
+        },
+        {
+          "answer": "Kunstnijverheid was technisch altijd eenvoudiger dan schilderkunst.",
+          "message": "Dit verwart status met vaardigheid. Kunstnijverheid kan zeer geavanceerd zijn; de lagere status was een ordening, geen technisch oordeel."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-005",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in de volgorde waarin ze plaatsvonden, de oudste eerst.",
+      "answer": [
+        "Een academie voor tekenaars wordt opgericht in Florence (1563)",
+        "De Académie royale de peinture et de sculpture wordt opgericht in Parijs (1648)",
+        "Charles Batteux ordent de schone kunsten onder één beginsel (1746)",
+        "Schilders houden in Parijs hun eigen tentoonstelling, waaruit de naam impressionisten voortkomt (1874)",
+        "Duchamp stuurt *Fountain* in bij een tentoonstelling in New York (1917)"
+      ],
+      "hints": [
+        "Let op de jaartallen tussen haakjes."
+      ],
+      "solution": [
+        "1563, 1648, 1746, 1874, 1917."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "De Académie royale de peinture et de sculpture wordt opgericht in Parijs (1648)",
+            "Een academie voor tekenaars wordt opgericht in Florence (1563)",
+            "Charles Batteux ordent de schone kunsten onder één beginsel (1746)",
+            "Schilders houden in Parijs hun eigen tentoonstelling, waaruit de naam impressionisten voortkomt (1874)",
+            "Duchamp stuurt *Fountain* in bij een tentoonstelling in New York (1917)"
+          ],
+          "message": "De Florentijnse academie (1563) is ouder dan de Parijse (1648)."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-006",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat was volgens Duchamps eigen redenering rond *Fountain* (1917) beslissend voor de status van het urinoir als kunstwerk?",
+      "choices": [
+        "Dat de jury van de tentoonstelling het aanvaardde.",
+        "Dat hij het koos, een titel en signatuur gaf en het in een tentoonstellingscontext plaatste.",
+        "Dat het urinoir bijzonder mooi gevormd was.",
+        "Dat hij het urinoir eigenhandig vormgaf in porselein."
+      ],
+      "answer": "Dat hij het koos, een titel en signatuur gaf en het in een tentoonstellingscontext plaatste.",
+      "hints": [
+        "Het gaat om de verschuiving van \"hoe gemaakt\" naar \"wie plaatst het in welk kader\"."
+      ],
+      "solution": [
+        "Een readymade is niet gemaakt maar gekozen.",
+        "Titel, signatuur en context maakten het tot een kunstwerkkandidaat."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat hij het urinoir eigenhandig vormgaf in porselein.",
+          "message": "Het urinoir was een fabrieksproduct. Wat telde was de keuze, niet het maken."
+        },
+        {
+          "answer": "Dat de jury van de tentoonstelling het aanvaardde.",
+          "message": "Het bestuur weigerde het werk juist te tonen; het kwam achter een scheidingswand terecht."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-007",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Volgens een institutionele benadering van kunst (George Dickie) is een voorwerp kunst wanneer het door iemand namens de kunstwereld wordt aangewezen als kandidaat voor waardering. Welke kritiek ligt voor de hand?",
+      "choices": [
+        "Ze sluit uit dat een maker zelf iets als kunst bedoelt.",
+        "Ze veronderstelt dat alle kunst realistisch is.",
+        "Ze kan niet verklaren waarom schilderijen een lijst hebben.",
+        "Ze zegt weinig over werken die buiten de westerse kunstwereld van musea en critici zijn ontstaan."
+      ],
+      "answer": "Ze zegt weinig over werken die buiten de westerse kunstwereld van musea en critici zijn ontstaan.",
+      "hints": [
+        "Denk aan voorwerpen die niet voor een museum zijn gemaakt."
+      ],
+      "solution": [
+        "De benadering legt het gezag bij een bepaalde kunstwereld.",
+        "Werk buiten die wereld valt dan buiten beeld."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze veronderstelt dat alle kunst realistisch is.",
+          "message": "De benadering zegt niets over stijl of gelijkenis; ze gaat over wie iets als kunst aanwijst."
+        },
+        {
+          "answer": "Ze sluit uit dat een maker zelf iets als kunst bedoelt.",
+          "message": "Een maker kan zelf bij de kunstwereld horen en dus iets aanwijzen; de kritiek ligt elders."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-008",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Beargumenteer in enkele zinnen of het ceremoniële masker uit de beschrijving \"kunst\" is. Noem minstens twee partijen die hierover iets te zeggen hebben en laat zien dat hun maatstaven kunnen verschillen.",
+      "context": "Een houten masker, gemaakt in een West-Afrikaanse gemeenschap voor gebruik tijdens een jaarlijkse ceremonie, waarbij het alleen door ingewijden wordt gedragen. Na een verkoop in de twintigste eeuw staat het nu in de vitrine van een kunstmuseum in Europa, met een bordje met de naam van een maker die onbekend is.",
+      "answer": "Het antwoord noemt minstens twee partijen (bijvoorbeeld de gemeenschap die het masker gebruikt en een museum) en laat zien dat hun kaders verschillen, zonder dat een kader dé norm wordt.",
+      "min_length": 60,
+      "hints": [
+        "Vraag je af wie het masker als kunst zou aanduiden en in welke termen."
+      ],
+      "solution": [
+        "Voor de gemeenschap is het een ritueel voorwerp, waarvan het gebruik de betekenis bepaalt; de term \"kunst\" speelt daarbij mogelijk geen rol.",
+        "Het museum plaatst het in de categorie kunst en richt de aandacht op vorm en makerschap.",
+        "Beide kaders zijn historisch bepaald; je mag vragen in wiens termen iets kunst heet en wat verloren gaat als je alleen de museale termen gebruikt."
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke beschrijving van het schilderij is het meest een waarneming?",
+      "context": "Johannes Vermeer, *Het melkmeisje*, ca. 1660, olieverf op doek, 45,5 × 41 cm, Rijksmuseum, Amsterdam. Een jonge vrouw in geel lijfje, blauwe schort en witte muts giet in een kale kamer een dunne straal melk uit een kan in een pot. Het licht valt van links door een raam. Op de tafel liggen brood en een mand; de rechterhelft van de wand is leeg.",
+      "choices": [
+        "Een vrouw staat achter een tafel en giet een dunne straal melk uit een kan in een pot.",
+        "Een vrouw verricht liefdevol haar dagelijkse werk.",
+        "Een mooi stilleven met een dienstmeid.",
+        "Een rustige, harmonieuze keukenscène."
+      ],
+      "answer": "Een vrouw staat achter een tafel en giet een dunne straal melk uit een kan in een pot.",
+      "hints": [
+        "Zoek de zin zonder oordeelswoorden."
+      ],
+      "solution": [
+        "Een controleerbare beschrijving gebruikt ruimtelijke woorden en benoemt handelingen.",
+        "Woorden als \"liefdevol\", \"rustig\" of \"mooi\" bevatten al een oordeel."
+      ],
+      "feedback": [
+        {
+          "answer": "Een vrouw verricht liefdevol haar dagelijkse werk.",
+          "message": "\"Liefdevol\" is een lezing van haar houding. Beschrijf eerst wat ze doet en hoe ze staat."
+        },
+        {
+          "answer": "Een rustige, harmonieuze keukenscène.",
+          "message": "\"Rustig\" en \"harmonieus\" zijn indrukken en oordelen. Een ander kan er anders over denken."
+        }
+      ],
+      "topics": [
+        "description"
+      ]
+    },
+    {
+      "id": "01-010",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Beschrijf het werk uit de context in vier tot zes zinnen, alleen met wat je kunt aanwijzen. Gebruik ruimtelijke woorden en benoem kleuren en materialen. Vermijd oordeelswoorden.",
+      "context": "Vincent van Gogh, *Het gele huis*, 1888, olieverf op doek, 72 × 91,5 cm, Van Gogh Museum, Amsterdam. Je ziet een geel huis met groene luiken in de rechterhelft van het doek, onder een diepblauwe lucht. Links loopt een straat met enkele kleine figuren; op de achtergrond rijdt een trein op een spoordijk. De verf is dik en in zichtbare streken aangebracht.",
+      "answer": "Een controleerbare beschrijving: ruimtelijke verdeling, kleuren, materialen en wat er niet is; zonder woorden als mooi, rustig of liefdevol.",
+      "min_length": 40,
+      "hints": [
+        "Ga van het geheel naar de details, van voor naar achter.",
+        "Schrijf ook op wat je niet ziet, bijvoorbeeld de afwezigheid van veel mensen."
+      ],
+      "solution": [
+        "Voorbeeld: Een geel huis met groene luiken staat rechts op het doek onder een diepblauwe lucht. Links loopt een straat met enkele kleine figuren. Op de achtergrond staat een trein op een dijk. De verf is dik en in zichtbare streken aangebracht; er zijn weinig mensen.",
+        "Elke zin is te controleren aan het werk."
+      ],
+      "topics": [
+        "description"
+      ]
+    },
+    {
+      "id": "01-011",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom komt de gestalte uit de beschrijving los van de lichte wand?",
+      "context": "Een figuur met een geel lijfje en een blauwe schort staat tegen een lichte, effen wand. Er zijn nauwelijks lijnen die in de diepte verdwijnen.",
+      "choices": [
+        "Omdat de wand bewust niet is geschilderd.",
+        "Omdat de kleuren geel en blauw altijd rust betekenen.",
+        "Omdat lineair perspectief de gestalte naar voren trekt.",
+        "Het gele lijfje en de blauwe schort zijn complementaire kleuren die elkaar versterken tegen een lichte achtergrond."
+      ],
+      "answer": "Het gele lijfje en de blauwe schort zijn complementaire kleuren die elkaar versterken tegen een lichte achtergrond.",
+      "hints": [
+        "Denk aan complementaire kleuren en de lichte wand erachter."
+      ],
+      "solution": [
+        "Het contrast tussen verzadigd geel/blauw en de lichte wand maakt de gestalte zichtbaar."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat de kleuren geel en blauw altijd rust betekenen.",
+          "message": "Kleuren hebben geen vaste betekenis. Het gaat hier om het effect van contrast."
+        },
+        {
+          "answer": "Omdat lineair perspectief de gestalte naar voren trekt.",
+          "message": "In dit werk zijn nauwelijks verdwijnlijnen; contrast in kleur en licht doet het werk."
+        }
+      ],
+      "topics": [
+        "description"
+      ]
+    },
+    {
+      "id": "01-012",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de stappen van de route door een beeld in de aanbevolen volgorde: van eerste indruk tot detail.",
+      "answer": [
+        "Het geheel: formaat, techniek, kleurindruk en aantal figuren",
+        "De plekken waar het oog eerst heen gaat, en waarom daar",
+        "De ordening van voor naar achter",
+        "De details: randen, hoeken, kleine voorwerpen en de verfbehandeling"
+      ],
+      "hints": [
+        "De route loopt van groot naar klein."
+      ],
+      "solution": [
+        "Geheel, aandachtsplekken, voor naar achter, details."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "De plekken waar het oog eerst heen gaat, en waarom daar",
+            "Het geheel: formaat, techniek, kleurindruk en aantal figuren",
+            "De ordening van voor naar achter",
+            "De details: randen, hoeken, kleine voorwerpen en de verfbehandeling"
+          ],
+          "message": "Begin bij het geheel, voordat je naar afzonderlijke plekken gaat."
+        }
+      ],
+      "topics": [
+        "description"
+      ]
+    },
+    {
+      "id": "01-013",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een kunsthistoricus beweert dat lineair perspectief de maatstaf is voor goede ruimtesuggestie. Wat is een juist tegenargument?",
+      "choices": [
+        "Ruimte kan alleen worden aangegeven met kleur.",
+        "Perspectief is pas in de twintigste eeuw uitgevonden.",
+        "Andere tradities, zoals Chinese landschapsrollen met een verschuivend gezichtspunt, gebruiken andere oplossingen; perspectief is een keuze.",
+        "Perspectief wordt in Europa nooit in schilderijen gebruikt."
+      ],
+      "answer": "Andere tradities, zoals Chinese landschapsrollen met een verschuivend gezichtspunt, gebruiken andere oplossingen; perspectief is een keuze.",
+      "hints": [
+        "Denk aan middeleeuwse miniaturen en Chinese rollen."
+      ],
+      "solution": [
+        "Er bestaan meerdere ruimtelijke systemen; geen daarvan is een maat voor kwaliteit."
+      ],
+      "feedback": [
+        {
+          "answer": "Perspectief is pas in de twintigste eeuw uitgevonden.",
+          "message": "Lineair perspectief werd in Europa al in de vijftiende eeuw gebruikt, bijvoorbeeld door Masaccio."
+        },
+        {
+          "answer": "Ruimte kan alleen worden aangegeven met kleur.",
+          "message": "Ruimte kan ook met overlapping, grootteverschil, gezichtspunt en perspectief worden gesuggereerd."
+        }
+      ],
+      "topics": [
+        "description"
+      ]
+    },
+    {
+      "id": "01-014",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een analist schrijft over de gestalte in de beschrijving: \"De driehoekige opbouw geeft rust, zoals een driehoek altijd doet.\" Hoe beoordeel je deze zin?",
+      "context": "Een figuur is breed onderaan (rok, schort) en smal bovenaan (muts), waardoor ze een bijna driehoekige massa vormt.",
+      "choices": [
+        "Het is een vaststaand feit, want driehoeken zijn stabiel.",
+        "Het is een oordeel over kwaliteit en dus niet te gebruiken.",
+        "Het is onjuist, want vorm heeft nooit effect.",
+        "Het is een mogelijk effect dat veel kijkers ervaren, maar geen wet; formuleer het voorzichtiger."
+      ],
+      "answer": "Het is een mogelijk effect dat veel kijkers ervaren, maar geen wet; formuleer het voorzichtiger.",
+      "hints": [
+        "Let op het woord \"altijd\"."
+      ],
+      "solution": [
+        "Een formele analyse zegt hoe een werk werkt; effecten zijn waarschijnlijk, geen wet.",
+        "Gebruik formuleringen als \"dit trekt de aandacht naar ...\"."
+      ],
+      "feedback": [
+        {
+          "answer": "Het is een vaststaand feit, want driehoeken zijn stabiel.",
+          "message": "Dat een figuur driehoekig is, is waarneembaar; dat dit \"altijd\" rust geeft, niet. Culturen en kijkers verschillen."
+        }
+      ],
+      "topics": [
+        "description"
+      ]
+    },
+    {
+      "id": "01-015",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Panofsky's voorbeeld van een man die op straat zijn hoed licht, wil vooral laten zien dat...",
+      "choices": [
+        "zelfs herkennen wat je ziet al kennis van een culturele gewoonte vraagt.",
+        "alleen kunstenaars een groet kunnen herkennen.",
+        "een hoed in alle culturen een groet is.",
+        "beschrijven niet nodig is bij bekende voorwerpen."
+      ],
+      "answer": "zelfs herkennen wat je ziet al kennis van een culturele gewoonte vraagt.",
+      "hints": [
+        "Het voorbeeld gaat over wat een bezoeker uit een andere cultuur ziet."
+      ],
+      "solution": [
+        "Zien bevat stappen: herkennen, benoemen, plaatsen in een gewoonte."
+      ],
+      "feedback": [
+        {
+          "answer": "een hoed in alle culturen een groet is.",
+          "message": "Juist niet: een bezoeker uit een andere cultuur ziet de beweging maar leest er niet dezelfde betekenis in."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "context"
+      ]
+    },
+    {
+      "id": "01-016",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de drie niveaus van Panofsky in de volgorde van de eenvoudigste naar de meest speculatieve laag.",
+      "answer": [
+        "Pre-iconografische beschrijving: herkennen van personen, dingen en gebeurtenissen",
+        "Iconografische analyse: koppelen aan thema's, verhalen en allegorieën",
+        "Iconologische interpretatie: wat het werk onthult over de houding van een tijd"
+      ],
+      "hints": [
+        "Het hoogste niveau vraagt het meeste bewijs."
+      ],
+      "solution": [
+        "Beschrijving, iconografie, iconologie."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Iconografische analyse: koppelen aan thema's, verhalen en allegorieën",
+            "Pre-iconografische beschrijving: herkennen van personen, dingen en gebeurtenissen",
+            "Iconologische interpretatie: wat het werk onthult over de houding van een tijd"
+          ],
+          "message": "Begin bij het herkennen van het basale, dan pas thema's, en tot slot de diepere betekenis."
+        }
+      ],
+      "topics": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-017",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Onderbouw een interpretatie van het schilderij uit de context in vier tot zes zinnen. Verwijs naar minstens twee aanwijsbare kenmerken en geef aan wat in je lezing onzeker blijft.",
+      "context": "Johannes Vermeer, *Het melkmeisje*, ca. 1660, olieverf op doek, 45,5 × 41 cm, Rijksmuseum, Amsterdam. Een jonge vrouw staat stil achter een tafel en giet een dunne straal melk uit een kan in een pot. De enige beweging is de melkstraal. Het licht valt van links; de wand rechts is leeg; er is geen verhaal of gezelschap.",
+      "answer": "Een lezing met minstens twee aanwijsbare kenmerken, eventueel een alternatieve lezing, en een voorbehoud over de bedoeling van de maker.",
+      "min_length": 60,
+      "hints": [
+        "Begin bij wat je aanwijst en trek dan pas een conclusie.",
+        "Zeg erbij wat je niet kunt weten."
+      ],
+      "solution": [
+        "Voorbeeld: Het schilderij geeft een alledaagse handeling gewicht. Dat blijkt uit de stevige, stilstaande gestalte, de lege wand die niets afleidt en het licht dat haar arm en het brood raakt. Een andere lezing legt de nadruk op het schilderen van licht op verschillende materialen. Geen bron uit 1660 bevestigt een van beide, dus het blijft een onderbouwde lezing, geen vaststelling."
+      ],
+      "topics": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-018",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een catalogustekst zegt: \"De schilder wilde met dit werk zijn verdriet uitdrukken.\" Er is geen brief of ander document van de schilder bewaard. Wat is de juiste kritiek?",
+      "choices": [
+        "De zin is een waarneming, want het verdriet is zichtbaar.",
+        "Bedoelingen van makers zijn nooit van belang.",
+        "De bedoeling van de maker is hier een veronderstelling zonder bron; formuleer als hypothese.",
+        "De zin is onjuist omdat schilders nooit verdriet voelen."
+      ],
+      "answer": "De bedoeling van de maker is hier een veronderstelling zonder bron; formuleer als hypothese.",
+      "hints": [
+        "Onderscheid wat bekend, aannemelijk en gissing is."
+      ],
+      "solution": [
+        "Zonder bron is \"de schilder wilde\" een hypothese.",
+        "Formuleer als \"waarschijnlijk\" of \"het is denkbaar dat\"."
+      ],
+      "feedback": [
+        {
+          "answer": "Bedoelingen van makers zijn nooit van belang.",
+          "message": "Goed gedocumenteerde bedoelingen (contract, brief) zijn bewijs. Hier ontbreekt dat bewijs."
+        }
+      ],
+      "topics": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-019",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een kijker beweert dat een zeer levensecht schilderij beter is dan een werk dat de werkelijkheid vervormt. Wat is het sterkste antwoord?",
+      "choices": [
+        "Kwaliteit bestaat niet in de kunst.",
+        "Dat klopt: hoe echter, hoe beter.",
+        "Gelijkenis met de werkelijkheid is een eigenschap, geen maatstaf; een vereenvoudigd of vervormd werk kan met andere middelen even precies zijn.",
+        "Vervormde werken zijn altijd beter, omdat ze moeilijker te maken zijn."
+      ],
+      "answer": "Gelijkenis met de werkelijkheid is een eigenschap, geen maatstaf; een vereenvoudigd of vervormd werk kan met andere middelen even precies zijn.",
+      "hints": [
+        "Gelijkenis zegt iets over het werk, maar niet over het oordeel."
+      ],
+      "solution": [
+        "Een oordeel moet zijn redenen noemen die verder reiken dan gelijkenis."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat klopt: hoe echter, hoe beter.",
+          "message": "Dit maakt van een eigenschap (gelijkenis) een norm. Andere tradities waarderen juist abstractie of stilering."
+        },
+        {
+          "answer": "Vervormde werken zijn altijd beter, omdat ze moeilijker te maken zijn.",
+          "message": "Dat is dezelfde fout in omgekeerde richting: een algemene rangorde op grond van een eigenschap."
+        }
+      ],
+      "topics": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-020",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een groot altaarstuk met een gouden achtergrond stond in de vijftiende eeuw op een kerkaltaar. Wat verandert er in de lezing als je dat gebruik meeneemt?",
+      "choices": [
+        "Je ziet het als hulpmiddel voor gebed en ritueel, en vormkeuzes zoals goud en frontale houding als betekenisvol voor dat gebruik.",
+        "Je ziet het als een voorwerp dat vooral bedoeld was om in een museum te hangen.",
+        "Je ziet het als een versiering zonder religieuze functie.",
+        "Niets: de vorm bepaalt alles, het gebruik doet er niet toe."
+      ],
+      "answer": "Je ziet het als hulpmiddel voor gebed en ritueel, en vormkeuzes zoals goud en frontale houding als betekenisvol voor dat gebruik.",
+      "hints": [
+        "Denk aan wat de gelovige deed bij het altaar."
+      ],
+      "solution": [
+        "Functie en plaats kleuren de lezing van vorm."
+      ],
+      "feedback": [
+        {
+          "answer": "Je ziet het als een voorwerp dat vooral bedoeld was om in een museum te hangen.",
+          "message": "Dat is een anachronisme: musea in onze zin bestonden nog niet."
+        },
+        {
+          "answer": "Niets: de vorm bepaalt alles, het gebruik doet er niet toe.",
+          "message": "Vorm en functie zijn niet los te zien: een gouden achtergrond heeft in dat gebruik een betekenis."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-021",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze werken in de volgorde van hun datering, het oudste eerst.",
+      "answer": [
+        "Dierafbeeldingen in de Chauvet-grot (volgens de gangbare datering zo'n 36.000 jaar oud)",
+        "Het Gentse altaarstuk van Hubert en Jan van Eyck (voltooid 1432)",
+        "Hans Holbein de Jongere, *De ambassadeurs* (1533)",
+        "Johannes Vermeer, *Het melkmeisje* (ca. 1660)",
+        "Marcel Duchamp, *Fountain* (1917)"
+      ],
+      "hints": [
+        "Eén datering is een leeftijd, geen jaartal."
+      ],
+      "solution": [
+        "Chauvet, 1432, 1533, ca. 1660, 1917."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Het Gentse altaarstuk van Hubert en Jan van Eyck (voltooid 1432)",
+            "Dierafbeeldingen in de Chauvet-grot (volgens de gangbare datering zo'n 36.000 jaar oud)",
+            "Hans Holbein de Jongere, *De ambassadeurs* (1533)",
+            "Johannes Vermeer, *Het melkmeisje* (ca. 1660)",
+            "Marcel Duchamp, *Fountain* (1917)"
+          ],
+          "message": "De grotschilderingen zijn veruit het oudst: zo'n 36.000 jaar oud."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-022",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een kunsthistoricus vindt in een archief een contract waarin een opdrachtgever voorschrijft welke heiligen op een altaarstuk moeten staan. Hoe gebruik je dit in een analyse?",
+      "choices": [
+        "Het bepaalt vanzelf de enige juiste lezing van het werk.",
+        "Het is onbruikbaar, want bedoelingen zijn nooit bekend.",
+        "Het is alleen interessant voor de geschiedenis van het papier.",
+        "Als bewijs voor wat de opdrachtgever wilde, maar niet automatisch voor wat de schilder zelf wilde of wat het werk voor kijkers betekende."
+      ],
+      "answer": "Als bewijs voor wat de opdrachtgever wilde, maar niet automatisch voor wat de schilder zelf wilde of wat het werk voor kijkers betekende.",
+      "hints": [
+        "Een bron heeft zelf een herkomst en een beperkt bereik."
+      ],
+      "solution": [
+        "Een contract is bewijs voor de opdracht; de betekenis blijft een lezing."
+      ],
+      "feedback": [
+        {
+          "answer": "Het bepaalt vanzelf de enige juiste lezing van het werk.",
+          "message": "Een contract noemt onderwerp en bedrag, maar zegt niet alles over wat de schilder bedoelde of hoe kijkers het lazen."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-023",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is een gevolg van de \"white cube\"-presentatie van werken in veel musea?",
+      "choices": [
+        "Werken verliezen hun materiaal.",
+        "Werken krijgen een neutrale uitstraling die zelf een geschiedenis heeft en andere functies buiten beeld laat.",
+        "Werken worden daardoor volledig objectief getoond.",
+        "Alleen schilderijen kunnen zo worden getoond."
+      ],
+      "answer": "Werken krijgen een neutrale uitstraling die zelf een geschiedenis heeft en andere functies buiten beeld laat.",
+      "hints": [
+        "Een museum maakt altijd een verhaal."
+      ],
+      "solution": [
+        "Presentatie is geen neutraal kader."
+      ],
+      "feedback": [
+        {
+          "answer": "Werken worden daardoor volledig objectief getoond.",
+          "message": "Ook een neutraal ogende presentatie is een keuze: groepering en inrichting vertellen een verhaal."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-024",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Vermeer overleed in 1675. *Het melkmeisje* werd in 1813 op een veiling verkocht. Hoeveel jaar zat er tussen zijn dood en die veiling?",
+      "answer": 138,
+      "unit": "jaar",
+      "hints": [
+        "Trek 1675 af van 1813."
+      ],
+      "solution": [
+        "1813 − 1675 = 138 jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 128,
+          "message": "Controleer je aftrekking: 1813 min 1675 is 138."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-025",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Vermeer werd na zijn dood een tijd grotendeels vergeten en pas in de negentiende eeuw herontdekt. Wat laat dit zien over de status van een werk?",
+      "choices": [
+        "Roem hangt alleen af van de techniek.",
+        "De waardering van een werk komt niet alleen uit het werk zelf, maar ook uit critici, verzamelaars en musea die het (her)ontdekken.",
+        "Een werk is beroemd vanaf het moment dat het is gemaakt.",
+        "Vergeten werken zijn minder goed gemaakt."
+      ],
+      "answer": "De waardering van een werk komt niet alleen uit het werk zelf, maar ook uit critici, verzamelaars en musea die het (her)ontdekken.",
+      "hints": [
+        "Denk aan wie een werk beroemd maakt."
+      ],
+      "solution": [
+        "Status is veranderlijk en afhankelijk van mensen en instellingen."
+      ],
+      "feedback": [
+        {
+          "answer": "Een werk is beroemd vanaf het moment dat het is gemaakt.",
+          "message": "De status van een werk verandert in de tijd; Vermeer werd lang grotendeels vergeten."
+        },
+        {
+          "answer": "Vergeten werken zijn minder goed gemaakt.",
+          "message": "Vergeten zegt niets over kwaliteit; het zegt iets over wie aandacht gaf en wanneer."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-026",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom zijn de kleinere figuren op de plaquette uit de context klein?",
+      "context": "Plaquette met een krijger en dienaren, Edo (gilde van messinggieters, Benin), ca. 1540–1570, messing, 47,6 × 38,1 × 10,8 cm, Metropolitan Museum of Art, New York. In het midden staat een grote frontale figuur in hoog reliëf; aan weerszijden staan kleinere figuren. De achtergrond is gevuld met een patroon in laag reliëf. Er is geen lijnperspectief.",
+      "choices": [
+        "Omdat ze ver achter de centrale figuur staan, volgens lineair perspectief.",
+        "Hun grootte geeft hun rang aan, niet hun afstand.",
+        "Omdat het werk onvoltooid is.",
+        "Omdat de gieters hun proporties niet beheersten."
+      ],
+      "answer": "Hun grootte geeft hun rang aan, niet hun afstand.",
+      "hints": [
+        "Denk aan de aanduiding van rang."
+      ],
+      "solution": [
+        "Grootte kan rang aanduiden."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat ze ver achter de centrale figuur staan, volgens lineair perspectief.",
+          "message": "Er is geen lijnperspectief: de ruimte wordt niet gesuggereerd door verdwijnende lijnen."
+        },
+        {
+          "answer": "Omdat de gieters hun proporties niet beheersten.",
+          "message": "Dit is een westers oordeel dat stilering als tekortkoming ziet; de grootteverschillen zijn een keuze."
+        }
+      ],
+      "topics": [
+        "description"
+      ]
+    },
+    {
+      "id": "01-027",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen rond een plaquette uit Benin in de volgorde waarin ze plaatsvonden, de oudste eerst.",
+      "answer": [
+        "De plaquette wordt gegoten (ca. 1540–1570)",
+        "Een Britse strafexpeditie plundert Benin-Stad (1897)",
+        "Het Metropolitan Museum krijgt de plaquette als schenking (1990)",
+        "Duitsland sluit een akkoord met Nigeria over teruggave (2022)",
+        "Nederland geeft 119 Benin-voorwerpen terug (2025)"
+      ],
+      "hints": [
+        "Let op de jaartallen."
+      ],
+      "solution": [
+        "Ca. 1540–1570, 1897, 1990, 2022, 2025."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Een Britse strafexpeditie plundert Benin-Stad (1897)",
+            "De plaquette wordt gegoten (ca. 1540–1570)",
+            "Het Metropolitan Museum krijgt de plaquette als schenking (1990)",
+            "Duitsland sluit een akkoord met Nigeria over teruggave (2022)",
+            "Nederland geeft 119 Benin-voorwerpen terug (2025)"
+          ],
+          "message": "De plaquette is vier eeuwen ouder dan de expeditie van 1897."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-028",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bedenk drie vragen die je zou stellen over het voorwerp uit de context voordat je een interpretatie geeft, en leg uit waarom je ze niet zelf kunt beantwoorden.",
+      "context": "Een bronzen hoofd, Edo, Benin, 16e eeuw. Het toont een figuur met een kraag van kralen en een hoge muts. Het staat nu in een vitrine in een Europees museum met de aanduiding \"Afrikaanse kunst\".",
+      "answer": "Vragen over maker en eigen terminologie, over het oorspronkelijke gebruik, en over de eigen maatstaven van waardering; met het inzicht dat die kennis van anderen moet komen.",
+      "min_length": 60,
+      "hints": [
+        "Gebruik drie vragen: maker, gebruik, eigen termen."
+      ],
+      "solution": [
+        "Voorbeeld: Wie maakte het en welke naam gebruikt de gemeenschap zelf? Waarvoor werd het gebruikt en welk gebruik is in de vitrine weggevallen? Welke termen kent de eigen traditie voor goed werk? Je kunt dit niet zelf zien; je hebt bronnen van onderzoekers en de gemeenschap nodig."
+      ],
+      "topics": [
+        "interpretation",
+        "context"
+      ]
+    },
+    {
+      "id": "01-029",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom is het woord \"primitief\" voor niet-westerse beeldhouwkunst problematisch?",
+      "choices": [
+        "Omdat niet-westerse werken altijd complexer zijn dan westerse.",
+        "Het behandelt die werken als een afwijking of voorstadium van de Europese kunst en zegt meer over de kijker dan over de makers.",
+        "Omdat het woord technisch niet bestaat.",
+        "Omdat musea het woord verboden hebben."
+      ],
+      "answer": "Het behandelt die werken als een afwijking of voorstadium van de Europese kunst en zegt meer over de kijker dan over de makers.",
+      "hints": [
+        "Denk aan wie het etiket plakt."
+      ],
+      "solution": [
+        "Het etiket veronderstelt één ontwikkelingslijn met Europa als maat."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat niet-westerse werken altijd complexer zijn dan westerse.",
+          "message": "Dit is weer een rangorde van culturen; het probleem is juist het vergelijken met één norm."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-030",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Geef in vijf tot acht zinnen het argument voor teruggave en een tegenargument bij het geval uit de context, zonder zelf een kant te kiezen. Noem wat in beide gevallen onzeker blijft.",
+      "context": "Een messing plaquette uit het koninkrijk Benin (16e eeuw) kwam na de Britse strafexpeditie van 1897 via de kunsthandel in een particuliere verzameling en later in een museum in de Verenigde Staten. Nigeria vraagt om teruggave van veel voorwerpen uit het paleis; ook binnen Nigeria is er discussie over wie ze moet beheren.",
+      "answer": "Een voor- en een tegenargument (conflict en identiteit tegenover bewaring en toegankelijkheid, juridische herleidbaarheid), plus onzekerheden zoals wie de beheerder moet zijn.",
+      "min_length": 80,
+      "hints": [
+        "Beschrijf eerst de feiten, dan de argumenten."
+      ],
+      "solution": [
+        "Voor teruggave: de voorwerpen zijn bij een gewapend conflict meegenomen en spelen een rol in de geschiedenis en identiteit van wie ze maakte.",
+        "Tegen: bewaring en toegankelijkheid voor een wereldwijd publiek, en lastig te herleiden eigendom.",
+        "Onzeker: wie beheert de voorwerpen na teruggave, en hoe de herkomst per voorwerp is vast te stellen."
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-031",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de vijf stappen van een volledige analyse in de volgorde waarin ze worden geleerd.",
+      "answer": [
+        "Beschrijven wat je waarneemt",
+        "De vorm analyseren",
+        "Interpreteren",
+        "De context zoeken",
+        "Een oordeel geven met redenen"
+      ],
+      "hints": [
+        "Het oordeel komt als laatste."
+      ],
+      "solution": [
+        "Beschrijven, vorm, interpreteren, context, oordelen."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "De vorm analyseren",
+            "Beschrijven wat je waarneemt",
+            "Interpreteren",
+            "De context zoeken",
+            "Een oordeel geven met redenen"
+          ],
+          "message": "Je beschrijft eerst, voordat je de vorm analyseert."
+        }
+      ],
+      "topics": [
+        "context"
+      ]
+    },
+    {
+      "id": "01-032",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Schrijf een analyse van maximaal vijf zinnen van het werk uit de context met waarneming, vorm, interpretatie en een voorbehoud. Markeer achter elke zin of het een waarneming (W), interpretatie (I) of oordeel (O) is.",
+      "context": "Käthe Kollwitz, *Moeder met dood kind*, 1903, ets. Een vrouw zit gehurkt, met haar gezicht in de nek van een slap, naakt kind. Haar armen omsluiten het lichaam; de ets is uitgevoerd in donkere lijnen op een lichte ondergrond.",
+      "answer": "Een analyse die waarneming, vorm, interpretatie en voorbehoud scheidt en consequent labelt.",
+      "min_length": 60,
+      "hints": [
+        "Elke zin moet duidelijk één categorie hebben."
+      ],
+      "solution": [
+        "Voorbeeld: Een gehurkte vrouw omsluit een slap kind en verbergt haar gezicht (W). De donkere lijnen concentreren zich rond de twee figuren, waardoor ze één massa vormen (W). Daardoor lijkt het werk een gevoel van verlies te benadrukken (I). Dat het verdriet persoonlijk was, is niet uit het werk zelf te halen. Ik vind het aangrijpend (O)."
+      ],
+      "topics": [
+        "description",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "01-033",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de meest zorgvuldige manier om een schilderij als *Het melkmeisje* te vergelijken met een Benin-plaquette?",
+      "context": "Twee werken: Vermeer, *Het melkmeisje*, ca. 1660, olieverf op doek; en een Benin-plaquette, ca. 1540–1570, messing, waarbij grootte rang aangeeft.",
+      "choices": [
+        "Voor beide werken dezelfde vragen stellen: wat zie ik, welke vormkeuzes, welke lezingen, welke context, wat weet ik niet.",
+        "Vaststellen welk werk het oudst is en dat als maatstaf nemen.",
+        "Alleen de plaquette vergelijken met westerse kunst.",
+        "Beoordelen welke het meest op de werkelijkheid lijkt."
+      ],
+      "answer": "Voor beide werken dezelfde vragen stellen: wat zie ik, welke vormkeuzes, welke lezingen, welke context, wat weet ik niet.",
+      "hints": [
+        "Gebruik dezelfde vragen voor beide."
+      ],
+      "solution": [
+        "Een eerlijke vergelijking stelt per werk dezelfde vragen."
+      ],
+      "feedback": [
+        {
+          "answer": "Beoordelen welke het meest op de werkelijkheid lijkt.",
+          "message": "Gelijkenis is een eigenschap, geen maatstaf."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "context"
+      ]
+    },
+    {
+      "id": "01-034",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Vergelijk de twee werken uit de context in vijf tot acht zinnen op de behandeling van ruimte en op het soort publiek waarvoor ze zijn gemaakt. Kies geen winnaar.",
+      "context": "Werk A: Johannes Vermeer, *Het melkmeisje*, ca. 1660, olieverf op doek, 45,5 × 41 cm; licht en overlapping suggereren diepte; waarschijnlijk bedoeld voor een Delftse woning. Werk B: plaquette uit Benin, ca. 1540–1570, messing, 47,6 × 38,1 × 10,8 cm; grootte geeft rang aan, de achtergrond is met reliëf gevuld; onderdeel van het paleis.",
+      "answer": "Vergelijking van ruimte (licht en overlapping tegenover grootte als rang en reliëf) en publiek (huiselijke kring tegenover hof), zonder rangorde.",
+      "min_length": 80,
+      "hints": [
+        "Gebruik dezelfde vragen voor beide."
+      ],
+      "solution": [
+        "Voorbeeld: Bij A ontstaat ruimte door licht en overlapping, bij B door verhoudingen die rang aangeven. A was voor een huiselijke kring bedoeld, B voor het hof. Dat zijn verschillende vragen, geen kwaliteitsverschil."
+      ],
+      "topics": [
+        "interpretation",
+        "context"
+      ]
+    }
+  ]
+}

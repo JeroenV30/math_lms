@@ -1,0 +1,973 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "context": "Een archeoloog beschrijft een vuistbijl uit een museumcollectie: de steen is twintig centimeter lang, aan beide kanten bewerkt en heeft een gegolfde, scherpe rand. Onder de microscoop zijn slijtagesporen zichtbaar.",
+      "question": "Welke van deze uitspraken over de vuistbijl is een **interpretatie** en geen waarneming?",
+      "choices": [
+        "De bijl is aan beide kanten bewerkt.",
+        "De bijl is gebruikt om dieren te slachten.",
+        "De bijl heeft een scherpe, gegolfde rand.",
+        "Onder de microscoop zijn slijtagesporen te zien."
+      ],
+      "answer": "De bijl is gebruikt om dieren te slachten.",
+      "hints": [
+        "Een waarneming kun je meten of zien aan het voorwerp zelf.",
+        "Vraag je bij elke uitspraak af: staat dit in het voorwerp, of volgt het uit een redenering over wat iemand ermee deed?"
+      ],
+      "solution": [
+        "De eerste, derde en vierde uitspraak beschrijven wat je aan de steen ziet of meet.",
+        "De uitspraak over slachten gaat over het gebruik: dat is een conclusie uit sporen en vergelijking, dus een interpretatie die aanvullend bewijs vraagt."
+      ],
+      "feedback": [
+        {
+          "answer": "Onder de microscoop zijn slijtagesporen te zien.",
+          "message": "De sporen zelf zijn waarneembaar. Pas de uitspraak waarvoor ze bewijs zijn (het gebruik) is een interpretatie."
+        }
+      ],
+      "topics": [
+        "tools",
+        "design"
+      ]
+    },
+    {
+      "id": "01-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke uitspraak over technologie klopt het best?",
+      "choices": [
+        "Technologie omvat kennis, technieken en gemaakte middelen waarmee mensen problemen aanpakken, ook heel oude.",
+        "Technologie is alles wat sinds de industriële revolutie is uitgevonden.",
+        "Technologie is hetzelfde als elektronica en computers.",
+        "Technologie is een apparaat dat vanzelf werkt zonder menselijke keuzes."
+      ],
+      "answer": "Technologie omvat kennis, technieken en gemaakte middelen waarmee mensen problemen aanpakken, ook heel oude.",
+      "hints": [
+        "Denk aan een stenen bijl en aan een smartphone: wat hebben ze gemeen?"
+      ],
+      "solution": [
+        "Technologie is niet beperkt tot recente of elektronische apparaten.",
+        "Het gaat om kennis, technieken en gemaakte middelen, ingezet voor een doel. Een apparaat werkt bovendien nooit zonder menselijke keuzes in ontwerp, gebruik en onderhoud."
+      ],
+      "feedback": [
+        {
+          "answer": "Technologie is hetzelfde als elektronica en computers.",
+          "message": "Elektronica is één vorm van technologie. Een hefboom, een zeil en een watermolen zijn ook technologie."
+        }
+      ],
+      "topics": [
+        "tools",
+        "systems"
+      ]
+    },
+    {
+      "id": "01-003",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een ontwerp analyseer je met vijf vragen. Zet ze in de volgorde waarin je ze logisch stelt, van het doel tot de gevolgen.",
+      "answer": [
+        "Welk probleem of doel dient het ontwerp?",
+        "Welke middelen, materialen en kennis zijn nodig?",
+        "Hoe werkt het, stap voor stap?",
+        "Hoe beoordeel je of het goed genoeg werkt?",
+        "Welke gevolgen heeft het bij gebruik en afdanking?"
+      ],
+      "hints": [
+        "Je begint bij het waarom en eindigt bij wat het uiteindelijk teweegbrengt."
+      ],
+      "solution": [
+        "Eerst het doel, dan wat je nodig hebt, dan de werking, dan de beoordeling, en ten slotte de gevolgen."
+      ],
+      "topics": [
+        "design",
+        "systems"
+      ]
+    },
+    {
+      "id": "01-004",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Analyseer een fietsslot (of een ander voorwerp dat je zelf gebruikt) met de vijf vragen: doel, middelen en kennis, werking, beoordeling en gevolgen. Schrijf bij elke vraag één à twee zinnen.",
+      "answer": "Een volledig antwoord noemt per vraag iets concreets: doel (fiets beveiligen), middelen (gehard staal, slotmechanisme), werking (sleutel of code geeft de beugel vrij), beoordeling (hoe lang het slot een aanval doorstaat) en gevolgen (afhankelijkheid van de sleutel, schijnveiligheid, afval).",
+      "min_length": 120,
+      "hints": [
+        "Begin bij het probleem dat het voorwerp oplost.",
+        "Bij gevolgen mag je ook neveneffecten en afhankelijkheden noemen."
+      ],
+      "solution": [
+        "Doel: de fiets beschermen tegen diefstal.",
+        "Middelen en kennis: gehard staal voor de beugel, een slotmechanisme, kennis van materialen en bewerking.",
+        "Werking: de juiste sleutel zet het mechanisme in de stand waarin de beugel losgaat.",
+        "Beoordeling: het aantal sleutelvarianten en hoe lang het slot een knip- of zaagpoging doorstaat, bij redelijk gewicht.",
+        "Gevolgen: je bent afhankelijk van de sleutel; een zwak slot geeft schijnveiligheid; een gebroken slot is afval."
+      ],
+      "topics": [
+        "design",
+        "systems"
+      ]
+    },
+    {
+      "id": "01-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "unit": "N",
+      "question": "Een kist van 600 N wordt met een koevoet opgetild. Het steunpunt ligt op 0,25 m van de last en jij duwt op 1,50 m van het steunpunt. Welke kracht moet je minimaal uitoefenen? Verwaarloos wrijving.",
+      "answer": 100,
+      "hints": [
+        "Gebruik $F_1 \\cdot l_1 = F_2 \\cdot l_2$.",
+        "Je weet de last en beide armen; los de kracht aan jouw kant op."
+      ],
+      "solution": [
+        "$600 \\cdot 0{,}25 = F \\cdot 1{,}50$",
+        "$F = 150 / 1{,}50 = 100\\ \\text{N}$"
+      ],
+      "feedback": [
+        {
+          "answer": 3600,
+          "message": "Je hebt de armen verwisseld. De lange arm hoort bij de kleine kracht."
+        }
+      ],
+      "topics": [
+        "simple-machines"
+      ]
+    },
+    {
+      "id": "01-006",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een koevoet maakt het mogelijk een zware kist met weinig kracht op te tillen. Welke verklaring is juist?",
+      "choices": [
+        "De koevoet ruilt kracht tegen weg: je duwt met een kleinere kracht over een grotere afstand, de arbeid blijft (zonder wrijving) gelijk.",
+        "De koevoet levert extra energie, zodat je minder hoeft te leveren.",
+        "De koevoet maakt de kist lichter.",
+        "De koevoet vermindert zowel de benodigde kracht als de weg die je aflegt."
+      ],
+      "answer": "De koevoet ruilt kracht tegen weg: je duwt met een kleinere kracht over een grotere afstand, de arbeid blijft (zonder wrijving) gelijk.",
+      "hints": [
+        "Vergelijk hoe ver jouw hand beweegt met hoe ver de kist omhoog gaat."
+      ],
+      "solution": [
+        "Een hefboom schept geen energie en verandert het gewicht niet.",
+        "Je betaalt de kleinere kracht met een grotere weg; het product kracht maal weg blijft gelijk."
+      ],
+      "feedback": [
+        {
+          "answer": "De koevoet levert extra energie, zodat je minder hoeft te leveren.",
+          "message": "Een machine kan geen energie scheppen. De krachtwinst is een ruil tegen een grotere weg."
+        },
+        {
+          "answer": "De koevoet vermindert zowel de benodigde kracht als de weg die je aflegt.",
+          "message": "De weg die je aflegt wordt juist groter. Anders zou je arbeid kunnen winnen."
+        }
+      ],
+      "topics": [
+        "simple-machines",
+        "work-energy"
+      ]
+    },
+    {
+      "id": "01-007",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "unit": "cm",
+      "question": "Een hefboom heeft een lastarm van 0,25 m en een inspanningsarm van 1,50 m. Je duwt het uiteinde bij je hand 30 cm omlaag. Hoeveel centimeter gaat de last omhoog?",
+      "answer": 5,
+      "hints": [
+        "De wegen verhouden zich als de armen.",
+        "De last beweegt over een kleinere weg dan jouw hand."
+      ],
+      "solution": [
+        "$s_{\\text{last}} / s_{\\text{hand}} = 0{,}25 / 1{,}50 = 1/6$",
+        "$s_{\\text{last}} = 30 / 6 = 5\\ \\text{cm}$"
+      ],
+      "feedback": [
+        {
+          "answer": 180,
+          "message": "Je hebt de verhouding omgekeerd. De last verplaatst zich juist minder dan je hand."
+        }
+      ],
+      "topics": [
+        "simple-machines"
+      ]
+    },
+    {
+      "id": "01-008",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "unit": "N",
+      "question": "Een takel heeft vier touwdelen die de last dragen. De last is 800 N. Welke trekkracht is nodig, zonder wrijving en met massaloze katrollen?",
+      "answer": 200,
+      "hints": [
+        "Het mechanisch voordeel van een takel is het aantal dragende touwdelen."
+      ],
+      "solution": [
+        "$F = 800 / 4 = 200\\ \\text{N}$"
+      ],
+      "feedback": [
+        {
+          "answer": 3200,
+          "message": "Je hebt vermenigvuldigd in plaats van gedeeld. Een takel verkleint de kracht."
+        }
+      ],
+      "topics": [
+        "simple-machines"
+      ]
+    },
+    {
+      "id": "01-009",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat levert één enkele vaste katrol (een wiel dat aan een vast punt hangt) op?",
+      "choices": [
+        "Alleen een richtingsverandering van de kracht, geen krachtwinst",
+        "Een halvering van de benodigde kracht",
+        "Een verdubbeling van de benodigde kracht",
+        "Minder arbeid voor dezelfde last"
+      ],
+      "answer": "Alleen een richtingsverandering van de kracht, geen krachtwinst",
+      "hints": [
+        "Hoe lang zijn de armen aan beide kanten van het wiel?"
+      ],
+      "solution": [
+        "Beide armen zijn gelijk aan de straal van het wiel, dus het mechanisch voordeel is 1.",
+        "Het voordeel is dat je omlaag kunt trekken."
+      ],
+      "feedback": [
+        {
+          "answer": "Een halvering van de benodigde kracht",
+          "message": "Dat geldt voor een losse katrol met twee dragende touwdelen. Een vaste katrol heeft MV = 1."
+        }
+      ],
+      "topics": [
+        "simple-machines"
+      ]
+    },
+    {
+      "id": "01-010",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "unit": "N",
+      "question": "Een windas heeft een as met straal 0,05 m en een kruk met straal 0,40 m. Je oefent op de kruk 50 N uit. Welke last kun je maximaal optillen, zonder wrijving?",
+      "answer": 400,
+      "hints": [
+        "De momenten rond de as zijn in evenwicht: $F \\cdot R = F_{\\text{last}} \\cdot r$."
+      ],
+      "solution": [
+        "$\\text{MV} = R/r = 0{,}40 / 0{,}05 = 8$",
+        "$F_{\\text{last}} = 8 \\cdot 50 = 400\\ \\text{N}$"
+      ],
+      "feedback": [
+        {
+          "answer": 6.25,
+          "message": "Je hebt de stralen verwisseld; de grote straal hoort bij jouw kracht."
+        }
+      ],
+      "topics": [
+        "simple-machines"
+      ]
+    },
+    {
+      "id": "01-011",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "unit": "N",
+      "question": "Een last van 900 N wordt over een helling van 3,0 m lengte naar een hoogte van 1,2 m geduwd. Welke kracht langs de helling is nodig, zonder wrijving?",
+      "answer": 360,
+      "hints": [
+        "Gebruik $F = F_{\\text{last}} \\cdot h/l$."
+      ],
+      "solution": [
+        "$F = 900 \\cdot 1{,}2 / 3{,}0 = 360\\ \\text{N}$"
+      ],
+      "feedback": [
+        {
+          "answer": 2250,
+          "message": "Je hebt $l/h$ gebruikt in plaats van $h/l$. De helling verkleint de kracht."
+        }
+      ],
+      "topics": [
+        "simple-machines"
+      ]
+    },
+    {
+      "id": "01-012",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "unit": "m",
+      "tolerance": 0.001,
+      "question": "Een werknemer kan met hoogstens 250 N een rolcontainer van 1500 N een laadperron van 0,90 m hoogte op duwen. Hoe lang moet de helling minstens zijn, zonder wrijving?",
+      "answer": 5.4,
+      "hints": [
+        "Schrijf $F = F_{\\text{last}} \\cdot h/l$ om naar $l$."
+      ],
+      "solution": [
+        "$l = F_{\\text{last}} \\cdot h / F = 1500 \\cdot 0{,}90 / 250 = 5{,}4\\ \\text{m}$"
+      ],
+      "feedback": [
+        {
+          "answer": 0.15,
+          "message": "Je hebt de verhouding verkeerd om gebruikt: $l$ is groter dan $h$."
+        }
+      ],
+      "topics": [
+        "simple-machines"
+      ]
+    },
+    {
+      "id": "01-013",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom kan een wig hout splijten?",
+      "choices": [
+        "Een duwkracht in de lengterichting wordt via de hellende vlakken omgezet in een veel grotere zijwaartse kracht, over een kleine weg.",
+        "De scherpe punt maakt energie vrij uit het hout.",
+        "De wig maakt het hout lichter.",
+        "Een wig vermindert de arbeid die je moet leveren."
+      ],
+      "answer": "Een duwkracht in de lengterichting wordt via de hellende vlakken omgezet in een veel grotere zijwaartse kracht, over een kleine weg.",
+      "hints": [
+        "Een wig is twee hellende vlakken tegen elkaar."
+      ],
+      "solution": [
+        "Net als bij een helling ruil je weg tegen kracht: de wig dringt ver in, het hout wijkt maar een stukje opzij.",
+        "Er komt geen energie bij."
+      ],
+      "feedback": [
+        {
+          "answer": "De scherpe punt maakt energie vrij uit het hout.",
+          "message": "De energie komt uit jouw slag. De wig zet die alleen om in een grotere kracht over een kleinere weg."
+        }
+      ],
+      "topics": [
+        "simple-machines",
+        "work-energy"
+      ]
+    },
+    {
+      "id": "01-014",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "tolerance": 0.5,
+      "question": "Een bankschroef heeft een spoed van 1,5 mm en een handvat met een straal van 8,0 cm. Wat is het ideale mechanisch voordeel (zonder wrijving)?",
+      "answer": 335.1,
+      "hints": [
+        "Reken beide lengtes om naar millimeter.",
+        "$\\text{MV} = 2\\pi r / p$."
+      ],
+      "solution": [
+        "$r = 80\\ \\text{mm}$",
+        "$\\text{MV} = 2\\pi \\cdot 80 / 1{,}5 \\approx 335$"
+      ],
+      "topics": [
+        "simple-machines"
+      ]
+    },
+    {
+      "id": "01-015",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "unit": "J",
+      "question": "Je tilt een kist van 30 kg recht omhoog over 2,0 m. Hoeveel arbeid verricht je tegen de zwaartekracht? Gebruik $g = 9{,}8\\ \\text{m/s}^2$.",
+      "answer": 588,
+      "hints": [
+        "Het gewicht is $F = m g$.",
+        "$W = F \\cdot s$."
+      ],
+      "solution": [
+        "$F = 30 \\cdot 9{,}8 = 294\\ \\text{N}$",
+        "$W = 294 \\cdot 2{,}0 = 588\\ \\text{J}$"
+      ],
+      "feedback": [
+        {
+          "answer": 60,
+          "message": "Je rekende met de massa in kg in plaats van met het gewicht in newton."
+        }
+      ],
+      "topics": [
+        "work-energy"
+      ]
+    },
+    {
+      "id": "01-016",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een kist wordt in plaats van recht omhoog via een lange helling zonder wrijving naar dezelfde hoogte gebracht. Wat is bij beide methoden gelijk?",
+      "choices": [
+        "De verrichte arbeid",
+        "De benodigde kracht",
+        "De afgelegde weg",
+        "Het vermogen"
+      ],
+      "answer": "De verrichte arbeid",
+      "hints": [
+        "Wat wint je met een helling, en wat betaal je ervoor?"
+      ],
+      "solution": [
+        "Je wint kracht en betaalt met weg; het product $F \\cdot s$ blijft gelijk."
+      ],
+      "feedback": [
+        {
+          "answer": "De benodigde kracht",
+          "message": "De kracht is juist kleiner op de helling."
+        },
+        {
+          "answer": "De afgelegde weg",
+          "message": "De weg is juist groter op de helling."
+        }
+      ],
+      "topics": [
+        "work-energy"
+      ]
+    },
+    {
+      "id": "01-017",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "unit": "%",
+      "question": "Een takel hijst een last van 600 N over 0,40 m. Jij trekt met 160 N aan een touw dat 2,0 m door je handen gaat. Wat is het rendement?",
+      "answer": 75,
+      "hints": [
+        "Nuttige arbeid: last maal hoogte. Toegevoerde arbeid: jouw kracht maal touwweg."
+      ],
+      "solution": [
+        "$W_{\\text{nuttig}} = 600 \\cdot 0{,}40 = 240\\ \\text{J}$",
+        "$W_{\\text{toegevoerd}} = 160 \\cdot 2{,}0 = 320\\ \\text{J}$",
+        "$\\eta = 240/320 = 0{,}75 = 75\\%$"
+      ],
+      "feedback": [
+        {
+          "answer": 133,
+          "message": "Je hebt toegevoerd door nuttig gedeeld. Het rendement is nuttig gedeeld door toegevoerd en kan niet boven 100% uitkomen."
+        }
+      ],
+      "topics": [
+        "efficiency",
+        "work-energy"
+      ]
+    },
+    {
+      "id": "01-018",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "unit": "%",
+      "question": "Een kist van 800 N wordt over een helling van 5,0 m lengte naar een hoogte van 1,5 m geduwd. Door wrijving heb je 400 N nodig. Wat is het rendement?",
+      "answer": 60,
+      "hints": [
+        "Nuttig: $800 \\cdot 1{,}5$. Toegevoerd: $400 \\cdot 5{,}0$."
+      ],
+      "solution": [
+        "$W_{\\text{nuttig}} = 800 \\cdot 1{,}5 = 1200\\ \\text{J}$",
+        "$W_{\\text{toegevoerd}} = 400 \\cdot 5{,}0 = 2000\\ \\text{J}$",
+        "$\\eta = 1200 / 2000 = 0{,}60 = 60\\%$"
+      ],
+      "feedback": [
+        {
+          "answer": 40,
+          "message": "Dat is het verlies als percentage van de toegevoerde arbeid, niet het rendement."
+        }
+      ],
+      "topics": [
+        "efficiency"
+      ]
+    },
+    {
+      "id": "01-019",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Een fabrikant adverteert: “Onze nieuwe lier heeft een rendement van 120%: je krijgt meer arbeid uit de machine dan je erin stopt.”",
+      "question": "Wat is de beste reactie op deze claim?",
+      "choices": [
+        "Dat kan niet: er is dan een energiebron niet meegeteld of de meting is fout, want rendement is hoogstens 100%.",
+        "Dat kan, als het ontwerp goed genoeg is.",
+        "Dat kan alleen bij een lier met een zeer lange arm.",
+        "Dat kan, omdat een machine kracht kan vermenigvuldigen."
+      ],
+      "answer": "Dat kan niet: er is dan een energiebron niet meegeteld of de meting is fout, want rendement is hoogstens 100%.",
+      "hints": [
+        "Een machine kan arbeid omzetten, niet scheppen. Wat zou er in de claim kunnen ontbreken?"
+      ],
+      "solution": [
+        "Behoud van energie: de afgegeven nuttige arbeid is ten hoogste gelijk aan de toegevoerde.",
+        "Een rendement boven 100% wijst op een meetfout of een vergeten energiebron (bijvoorbeeld een accu of een veer)."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat kan, omdat een machine kracht kan vermenigvuldigen.",
+          "message": "Krachtvermenigvuldiging gaat altijd ten koste van weg. Het levert geen extra arbeid."
+        }
+      ],
+      "topics": [
+        "efficiency",
+        "work-energy"
+      ]
+    },
+    {
+      "id": "01-020",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "unit": "W",
+      "question": "Een takel verricht in 40 s een nuttige arbeid van 600 J. Wat is het nuttige vermogen?",
+      "answer": 15,
+      "hints": [
+        "$P = W / t$."
+      ],
+      "solution": [
+        "$P = 600 / 40 = 15\\ \\text{W}$"
+      ],
+      "feedback": [
+        {
+          "answer": 24000,
+          "message": "Je hebt arbeid en tijd vermenigvuldigd; het vermogen is arbeid gedeeld door tijd."
+        }
+      ],
+      "topics": [
+        "work-energy"
+      ]
+    },
+    {
+      "id": "01-021",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wrijving is soms een verlies en soms noodzakelijk. Geef een voorbeeld van elk en leg uit hoe een ontwerper met die tegenstelling omgaat.",
+      "answer": "Een goed antwoord noemt een verlies (bijvoorbeeld in een lager of katrol, warmte) en een nuttig geval (grip van banden, zelfremmende schroefdraad) en beschrijft dat de ontwerper smeert of gladde materialen kiest waar wrijving schaadt en ruwe of gevormde oppervlakken waar ze nodig is.",
+      "min_length": 120,
+      "hints": [
+        "Denk aan een lager, een schoenzool en een schroef."
+      ],
+      "solution": [
+        "Verlies: in de lagers van een wiel of in de touwen over katrollen verandert arbeid in warmte; dat verlaagt het rendement. Een ontwerper smeert of kiest gladde materialen.",
+        "Nuttig: tussen band en weg, schoen en grond, en in de draad van een bout. Zonder wrijving glijdt alles weg of draait een bout los.",
+        "De ontwerper stuurt de wrijving per plek: weinig waar het een verlies is, veel waar grip of vastzetten het doel is."
+      ],
+      "topics": [
+        "efficiency",
+        "design"
+      ]
+    },
+    {
+      "id": "01-022",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "unit": "omw/min",
+      "question": "Een tandwiel met 15 tanden drijft een tandwiel met 45 tanden aan. Het kleine wiel draait met 120 omw/min. Hoe snel draait het grote wiel?",
+      "answer": 40,
+      "hints": [
+        "$i = z_{\\text{uit}} / z_{\\text{in}}$ en $n_{\\text{uit}} = n_{\\text{in}} / i$."
+      ],
+      "solution": [
+        "$i = 45/15 = 3$",
+        "$n_{\\text{uit}} = 120/3 = 40\\ \\text{omw/min}$"
+      ],
+      "feedback": [
+        {
+          "answer": 360,
+          "message": "Het grote wiel draait trager dan het kleine, niet sneller."
+        }
+      ],
+      "topics": [
+        "gears"
+      ]
+    },
+    {
+      "id": "01-023",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een tandwielpaar vertraagt het toerental met een factor 4 (zonder wrijving). Wat gebeurt er met het draaimoment (koppel)?",
+      "choices": [
+        "Het koppel wordt 4 keer zo groot",
+        "Het koppel wordt 4 keer zo klein",
+        "Het koppel blijft gelijk",
+        "Het vermogen wordt 4 keer zo groot"
+      ],
+      "answer": "Het koppel wordt 4 keer zo groot",
+      "hints": [
+        "Het vermogen $P = M \\omega$ blijft behouden."
+      ],
+      "solution": [
+        "Zonder wrijving is het vermogen aan beide kanten gelijk. Gaat het toerental 4 keer omlaag, dan moet het koppel 4 keer omhoog."
+      ],
+      "feedback": [
+        {
+          "answer": "Het koppel blijft gelijk",
+          "message": "Dan zou het vermogen afnemen. Zonder wrijving blijft juist het vermogen gelijk."
+        },
+        {
+          "answer": "Het vermogen wordt 4 keer zo groot",
+          "message": "Een overbrenging maakt geen vermogen. Zonder wrijving blijft het gelijk."
+        }
+      ],
+      "topics": [
+        "gears",
+        "work-energy"
+      ]
+    },
+    {
+      "id": "01-024",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "unit": "km/h",
+      "tolerance": 0.05,
+      "question": "Een fiets heeft een voorblad van 50 tanden en een achtertandwiel van 20 tanden. De omtrek van het achterwiel is 2,2 m. De fietser trapt 72 omw/min. Hoe hard rijdt hij?",
+      "answer": 23.76,
+      "hints": [
+        "Het achterwiel draait $72 \\cdot 50/20$ keer per minuut.",
+        "Rekenomwegen: m/min maal 60 geeft m/h."
+      ],
+      "solution": [
+        "$n_{\\text{wiel}} = 72 \\cdot 50 / 20 = 180\\ \\text{omw/min}$",
+        "$180 \\cdot 2{,}2 = 396\\ \\text{m/min}$",
+        "$396 \\cdot 60 / 1000 = 23{,}76\\ \\text{km/h}$"
+      ],
+      "feedback": [
+        {
+          "answer": 3.8016,
+          "message": "Je hebt de overbrenging omgekeerd gebruikt: het achterwiel draait sneller dan de trapas."
+        }
+      ],
+      "topics": [
+        "gears"
+      ]
+    },
+    {
+      "id": "01-025",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke combinatie van voorblad en achtertandwiel geeft de zwaarste, dus laagste versnelling? Dat is de versnelling waarmee je een steile helling het makkelijkst opkomt.",
+      "choices": [
+        "Voorblad 34 tanden, achtertandwiel 32 tanden",
+        "Voorblad 50 tanden, achtertandwiel 11 tanden",
+        "Voorblad 50 tanden, achtertandwiel 32 tanden",
+        "Voorblad 34 tanden, achtertandwiel 11 tanden"
+      ],
+      "answer": "Voorblad 34 tanden, achtertandwiel 32 tanden",
+      "hints": [
+        "Je wilt bij elke trap de minste wielomwentelingen: een klein voorblad en een groot achtertandwiel."
+      ],
+      "solution": [
+        "Het achterwiel draait $z_{\\text{voor}} / z_{\\text{achter}}$ keer per trap. Die verhouding is het kleinst bij 34/32, dus meer koppel op het wiel en een lager tempo."
+      ],
+      "feedback": [
+        {
+          "answer": "Voorblad 50 tanden, achtertandwiel 11 tanden",
+          "message": "Dat is de hoogste versnelling: veel wielomwentelingen per trap, weinig kracht op de weg."
+        }
+      ],
+      "topics": [
+        "gears"
+      ]
+    },
+    {
+      "id": "01-026",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de werkingsketen van een slingeruurwerk met gewicht in volgorde, van energiebron tot uitvoer.",
+      "answer": [
+        "Het gewicht daalt en levert energie",
+        "De tandwieltrein draagt de beweging over",
+        "Het echappement laat de trein per slingerslag één tand verder",
+        "De wijzers wijzen de verstreken tijd aan"
+      ],
+      "hints": [
+        "De regelaar (slinger met echappement) bepaalt het tempo van de trein."
+      ],
+      "solution": [
+        "Energie komt van het gewicht, wordt door tandwielen doorgegeven, in stappen vrijgegeven door het echappement en getoond door de wijzers."
+      ],
+      "topics": [
+        "gears",
+        "systems"
+      ]
+    },
+    {
+      "id": "01-027",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "unit": "maanden/jaar",
+      "tolerance": 0.001,
+      "question": "De metonische cyclus telt 235 maanmaanden in 19 zonnejaren. Hoeveel maanmaanden gaan er gemiddeld in één jaar? Rond af op drie decimalen.",
+      "answer": 12.368,
+      "hints": [
+        "Deel het aantal maanmaanden door het aantal jaren."
+      ],
+      "solution": [
+        "$235 / 19 \\approx 12{,}368$"
+      ],
+      "feedback": [
+        {
+          "answer": 0.081,
+          "message": "Je hebt 19 door 235 gedeeld; deel het aantal maanden door het aantal jaren."
+        }
+      ],
+      "topics": [
+        "gears",
+        "tools"
+      ]
+    },
+    {
+      "id": "01-028",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen uit de techniekgeschiedenis in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Archimedes formuleert de hefboomwet",
+        "Heron beschrijft de eenvoudige machines in zijn Mechanica",
+        "Stevin publiceert de Beghinselen der Weeghconst",
+        "Newcomen bouwt een stoommachine bij Dudley",
+        "Watt krijgt octrooi op de aparte condensor"
+      ],
+      "hints": [
+        "Archimedes ca. 250 v.Chr., Heron 1e eeuw n.Chr., Stevin 1586, Newcomen 1712, Watt 1769."
+      ],
+      "solution": [
+        "Archimedes (ca. 250 v.Chr.), Heron (1e eeuw n.Chr.), Stevin (1586), Newcomen (1712), Watt (1769)."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Archimedes formuleert de hefboomwet",
+            "Heron beschrijft de eenvoudige machines in zijn Mechanica",
+            "Stevin publiceert de Beghinselen der Weeghconst",
+            "Watt krijgt octrooi op de aparte condensor",
+            "Newcomen bouwt een stoommachine bij Dudley"
+          ],
+          "message": "Watt verbeterde de machine van Newcomen, dus Newcomen komt eerder."
+        }
+      ],
+      "topics": [
+        "tools"
+      ]
+    },
+    {
+      "id": "01-029",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Pappus van Alexandrië (begin 4e eeuw n.Chr.) schrijft over Archimedes, die in 212 v.Chr. overleed, dat deze zou hebben gezegd: “Geef mij een plek om te staan en ik beweeg de aarde” (vrij vertaald).",
+      "question": "Wat kun je uit dit fragment het zekerst concluderen?",
+      "choices": [
+        "Meer dan vijf eeuwen na Archimedes' dood werd deze uitspraak aan hem toegeschreven, wat iets zegt over zijn reputatie.",
+        "Archimedes zei deze woorden letterlijk in Syracuse.",
+        "Pappus was een ooggetuige van de uitspraak.",
+        "Archimedes kon met een hefboom werkelijk de aarde verplaatsen."
+      ],
+      "answer": "Meer dan vijf eeuwen na Archimedes' dood werd deze uitspraak aan hem toegeschreven, wat iets zegt over zijn reputatie.",
+      "hints": [
+        "Kijk naar hoeveel tijd er tussen Archimedes en Pappus zit."
+      ],
+      "solution": [
+        "Pappus schreef eeuwen later; het fragment toont wat toen aan Archimedes werd toegeschreven, niet wat hij zei."
+      ],
+      "feedback": [
+        {
+          "answer": "Archimedes zei deze woorden letterlijk in Syracuse.",
+          "message": "Een bron van meer dan vijf eeuwen later is geen bewijs voor letterlijke woorden."
+        },
+        {
+          "answer": "Pappus was een ooggetuige van de uitspraak.",
+          "message": "Pappus leefde ruim vijf eeuwen na Archimedes."
+        }
+      ],
+      "topics": [
+        "tools"
+      ]
+    },
+    {
+      "id": "01-030",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "unit": "touwdelen",
+      "question": "Een vrijwilliger mag hoogstens 120 N trekkracht leveren. Een last van 60 kg ($g = 9{,}8\\ \\text{m/s}^2$) wordt met een takel gehesen; het rendement van de takel is 0,75. Hoeveel touwdelen moeten de last minimaal dragen?",
+      "answer": 7,
+      "hints": [
+        "Het gewicht is $60 \\cdot 9{,}8 = 588\\ \\text{N}$.",
+        "$F = F_{\\text{last}} / (n \\eta)$, dus $n \\ge F_{\\text{last}} / (\\eta F_{\\max})$. Rond naar boven af."
+      ],
+      "solution": [
+        "$n \\ge 588 / (0{,}75 \\cdot 120) = 588/90 \\approx 6{,}53$",
+        "Een geheel aantal touwdelen: $n = 7$."
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Dat zou kloppen zonder wrijving (588/120 = 4,9). Met rendement 0,75 heb je meer touwdelen nodig."
+        },
+        {
+          "answer": 6,
+          "message": "Met 6 touwdelen is de kracht $588/(6 \\cdot 0{,}75) \\approx 131\\ \\text{N}$: nog boven de 120 N."
+        }
+      ],
+      "topics": [
+        "design",
+        "efficiency"
+      ]
+    },
+    {
+      "id": "01-031",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de stappen van een ontwerpproces in de volgorde waarin je ze doorloopt, van probleem tot herziening.",
+      "answer": [
+        "Probleem omzetten in eisen en wensen",
+        "Meerdere varianten bedenken",
+        "Varianten doorrekenen en afwegen",
+        "Een prototype bouwen en testen",
+        "Ontwerp bijstellen op basis van de test"
+      ],
+      "hints": [
+        "Pas na het afwegen bouw je iets. De test voedt de bijstelling."
+      ],
+      "solution": [
+        "Eerst eisen, dan varianten, dan afweging, dan bouwen en testen, en ten slotte bijstellen."
+      ],
+      "topics": [
+        "design"
+      ]
+    },
+    {
+      "id": "01-032",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "unit": "punten",
+      "question": "Bij een beslismatrix zijn de gewichten: veiligheid 4, kosten 1, gemak 2. Variant X scoort veiligheid 3, kosten 5 en gemak 4 (schaal 1 tot 5). Wat is de gewogen totaalscore van X?",
+      "answer": 25,
+      "hints": [
+        "Vermenigvuldig elke score met zijn gewicht en tel op."
+      ],
+      "solution": [
+        "$4 \\cdot 3 + 1 \\cdot 5 + 2 \\cdot 4 = 12 + 5 + 8 = 25$"
+      ],
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Je hebt de scores opgeteld zonder de gewichten (3 + 5 + 4)."
+        }
+      ],
+      "topics": [
+        "design"
+      ]
+    },
+    {
+      "id": "01-033",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Twee varianten halen in een beslismatrix 26 en 27 punten. De gewichten zijn grove schattingen van de betrokkenen.",
+      "question": "Wat is de verstandigste conclusie?",
+      "choices": [
+        "Het verschil is klein: controleer of de keuze verandert bij andere gewichten en bespreek de waarden erachter.",
+        "De variant met 27 punten is het beste ontwerp.",
+        "De beslismatrix is nutteloos.",
+        "De variant met 26 punten is beter omdat de gewichten schattingen zijn."
+      ],
+      "answer": "Het verschil is klein: controleer of de keuze verandert bij andere gewichten en bespreek de waarden erachter.",
+      "hints": [
+        "Hoe zeker zijn de gewichten waarop het getal berust?"
+      ],
+      "solution": [
+        "Een verschil van één punt valt binnen de onzekerheid van de gewichten. De waarde van de matrix is dat ze zichtbaar maakt wat je belangrijk vindt."
+      ],
+      "feedback": [
+        {
+          "answer": "De variant met 27 punten is het beste ontwerp.",
+          "message": "Het getal wekt schijnnauwkeurigheid: een klein verschil volgt uit schattingen."
+        }
+      ],
+      "topics": [
+        "design"
+      ]
+    },
+    {
+      "id": "01-034",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een thermostaat meet de kamertemperatuur en schakelt de verwarming in of uit. Wat maakt dit een systeem met terugkoppeling?",
+      "choices": [
+        "De gemeten uitvoer (de temperatuur) beïnvloedt de invoer voor de volgende stap (aan of uit).",
+        "De verwarming levert warmte aan de kamer.",
+        "De thermostaat heeft een knop waarmee je de temperatuur instelt.",
+        "De sensor staat aan de muur."
+      ],
+      "answer": "De gemeten uitvoer (de temperatuur) beïnvloedt de invoer voor de volgende stap (aan of uit).",
+      "hints": [
+        "Terugkoppeling is een kring: wat het systeem teweegbrengt, stuurt het systeem zelf bij."
+      ],
+      "solution": [
+        "Bij terugkoppeling wordt de uitvoer gemeten en gebruikt om de invoer aan te passen. De thermostaat meet de temperatuur en stuurt daarmee de verwarming."
+      ],
+      "feedback": [
+        {
+          "answer": "De verwarming levert warmte aan de kamer.",
+          "message": "Dat is het proces zelf. Terugkoppeling is dat het resultaat wordt teruggemeld aan de regeling."
+        }
+      ],
+      "topics": [
+        "systems"
+      ]
+    },
+    {
+      "id": "01-035",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 4,
+      "unit": "W",
+      "tolerance": 0.05,
+      "question": "Een takel met rendement 0,80 hijst een ton van 50 kg ($g = 9{,}8\\ \\text{m/s}^2$) 3,0 m omhoog in 2,0 minuten. Wat is het gemiddelde vermogen dat de vrijwilliger levert?",
+      "answer": 15.31,
+      "hints": [
+        "Nuttige arbeid: gewicht maal hoogte.",
+        "Toegevoerde arbeid: nuttige arbeid gedeeld door het rendement.",
+        "Rekenomwegen: 2,0 min = 120 s."
+      ],
+      "solution": [
+        "$W_{\\text{nuttig}} = 50 \\cdot 9{,}8 \\cdot 3{,}0 = 1470\\ \\text{J}$",
+        "$W_{\\text{toegevoerd}} = 1470 / 0{,}80 = 1837{,}5\\ \\text{J}$",
+        "$P = 1837{,}5 / 120 \\approx 15{,}3\\ \\text{W}$"
+      ],
+      "feedback": [
+        {
+          "answer": 12.25,
+          "message": "Dat is het nuttige vermogen. De vrijwilliger levert meer, omdat er verlies is door wrijving."
+        }
+      ],
+      "topics": [
+        "design",
+        "efficiency",
+        "work-energy"
+      ]
+    }
+  ]
+}

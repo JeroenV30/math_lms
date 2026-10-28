@@ -1,0 +1,1249 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "context": "Iemand zegt: \"Een leven zonder onderzoek is niet de moeite waard.\" Een tweede persoon vraagt: \"Waarom denk je dat?\" en de eerste antwoordt: \"Wie nooit nagaat wat hij doet, laat zijn keuzes aan toeval over.\"",
+      "question": "Welk onderdeel van dit gesprek is de reden (de premisse) en welk onderdeel de conclusie?",
+      "choices": [
+        "Reden: wie nooit nagaat wat hij doet, laat zijn keuzes aan toeval over. Conclusie: een leven zonder onderzoek is niet de moeite waard.",
+        "Beide uitspraken zijn conclusies, omdat het allebei beweringen over het leven zijn.",
+        "Er is hier geen reden en geen conclusie, want het zijn alleen twee losse meningen.",
+        "Reden: een leven zonder onderzoek is niet de moeite waard. Conclusie: wie nooit nagaat wat hij doet, laat zijn keuzes aan toeval over."
+      ],
+      "answer": "Reden: wie nooit nagaat wat hij doet, laat zijn keuzes aan toeval over. Conclusie: een leven zonder onderzoek is niet de moeite waard.",
+      "feedback": [
+        {
+          "answer": "Reden: een leven zonder onderzoek is niet de moeite waard. Conclusie: wie nooit nagaat wat hij doet, laat zijn keuzes aan toeval over.",
+          "message": "Je hebt de rollen omgedraaid. De vraag \"Waarom denk je dat?\" vraagt om een reden; het antwoord is dus de reden en de eerste bewering is het standpunt dat ermee wordt ondersteund."
+        },
+        {
+          "answer": "Er is hier geen reden en geen conclusie, want het zijn alleen twee losse meningen.",
+          "message": "Het zijn geen losse meningen: de tweede uitspraak wordt gegeven als antwoord op \"waarom?\" en functioneert dus als steun voor de eerste."
+        },
+        {
+          "answer": "Beide uitspraken zijn conclusies, omdat het allebei beweringen over het leven zijn.",
+          "message": "Of een bewering premisse of conclusie is, hangt af van haar rol in de redenering en niet van het onderwerp: de ene geeft steun, de andere wordt ondersteund."
+        }
+      ],
+      "hints": [
+        "Welke uitspraak beantwoordt de vraag \"waarom?\"?"
+      ],
+      "solution": [
+        "Het antwoord op \"waarom?\" geeft steun aan een andere bewering. Die steunende bewering is de premisse; de bewering die wordt ondersteund is de conclusie."
+      ],
+      "topics": [
+        "argument"
+      ]
+    },
+    {
+      "id": "01-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "context": "Argument: \"Wie nooit nagaat wat hij doet, laat zijn keuzes aan toeval over. Dus een leven zonder onderzoek is niet de moeite waard.\"",
+      "question": "Welke verzwegen premisse is nodig om dit argument geldig te maken?",
+      "choices": [
+        "Wie keuzes aan toeval overlaat, onderzoekt nooit iets.",
+        "Een leven waarin je keuzes aan toeval overlaat, is niet de moeite waard.",
+        "Wie onderzoek doet, leeft altijd gelukkig.",
+        "Alle mensen willen hun keuzes zelf bepalen."
+      ],
+      "answer": "Een leven waarin je keuzes aan toeval overlaat, is niet de moeite waard.",
+      "feedback": [
+        {
+          "answer": "Wie onderzoek doet, leeft altijd gelukkig.",
+          "message": "Dat zegt iets anders dan het argument nodig heeft, en het is veel sterker. Het argument gaat over een leven zonder onderzoek, niet over een gelukkig leven met onderzoek."
+        },
+        {
+          "answer": "Alle mensen willen hun keuzes zelf bepalen.",
+          "message": "Dat kan waar zijn, maar het overbrugt de kloof tussen premisse en conclusie niet: er wordt geen waardeoordeel gegeven over een leven waarin toeval de keuzes bepaalt."
+        },
+        {
+          "answer": "Wie keuzes aan toeval overlaat, onderzoekt nooit iets.",
+          "message": "Dit draait de eerste premisse om en voegt niets toe aan de stap naar \"niet de moeite waard\": er ontbreekt nog steeds een waardeoordeel."
+        }
+      ],
+      "hints": [
+        "Zoek wat er tussen \"keuzes aan toeval overlaten\" en \"niet de moeite waard\" ontbreekt."
+      ],
+      "solution": [
+        "P1: Wie nooit nagaat wat hij doet, laat zijn keuzes aan toeval over.",
+        "P2* (verzwegen): Een leven waarin je keuzes aan toeval overlaat, is niet de moeite waard.",
+        "C: Een leven zonder onderzoek is niet de moeite waard.",
+        "De verzwegen premisse is het punt waarop je het argument kunt aanvallen."
+      ],
+      "topics": [
+        "argument"
+      ]
+    },
+    {
+      "id": "01-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke vraag is in de eerste plaats een empirische vraag?",
+      "choices": [
+        "Wat maakt iets tot een kunstwerk?",
+        "Is het toegestaan één persoon op te offeren om vijf anderen te redden?",
+        "Hoeveel mensen woonden er in 1600 in Amsterdam?",
+        "Wat betekent het dat een handeling vrij is?"
+      ],
+      "answer": "Hoeveel mensen woonden er in 1600 in Amsterdam?",
+      "feedback": [
+        {
+          "answer": "Wat maakt iets tot een kunstwerk?",
+          "message": "Dit is een begripsvraag: je kunt alle werken kennen en nog steeds niet weten waar je de grens trekt."
+        },
+        {
+          "answer": "Is het toegestaan één persoon op te offeren om vijf anderen te redden?",
+          "message": "Dit is een normatieve vraag: ze gaat over wat je behoort te doen, niet over wat er het geval is."
+        },
+        {
+          "answer": "Wat betekent het dat een handeling vrij is?",
+          "message": "Dit is een begripsvraag: geen waarneming beslist wat \"vrij\" betekent."
+        }
+      ],
+      "hints": [
+        "Bij welke vraag weet je in principe welk soort gegeven een antwoord zou zijn?"
+      ],
+      "solution": [
+        "Een empirische vraag wordt beantwoord door te onderzoeken wat er het geval is, bijvoorbeeld uit bevolkingsregisters. Bij de andere drie blijft de vraag open, ook als je alle feiten kent."
+      ],
+      "topics": [
+        "philosophical-questions"
+      ]
+    },
+    {
+      "id": "01-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "context": "Een schip wordt bewaard als herinnering. Jaar na jaar wordt een verrotte plank vervangen, tot geen enkele oorspronkelijke plank meer over is. Alle feiten over dit proces zijn bekend.",
+      "question": "Waarom is de vraag \"Is dit nog hetzelfde schip?\" geen empirische vraag?",
+      "choices": [
+        "Omdat niemand het schip nog kan onderzoeken.",
+        "Omdat een schip geen echt voorwerp is.",
+        "Omdat de vraag alleen over goed en kwaad gaat.",
+        "Alle feiten liggen op tafel; wat ontbreekt is een besluit over wat \"hetzelfde\" betekent."
+      ],
+      "answer": "Alle feiten liggen op tafel; wat ontbreekt is een besluit over wat \"hetzelfde\" betekent.",
+      "feedback": [
+        {
+          "answer": "Omdat niemand het schip nog kan onderzoeken.",
+          "message": "De moeilijkheid zit niet in het ontbreken van waarnemingen. Ook met onbeperkte toegang tot het schip blijft de vraag open."
+        },
+        {
+          "answer": "Omdat de vraag alleen over goed en kwaad gaat.",
+          "message": "Er wordt niets over goed of fout gevraagd. Het gaat om de betekenis van het begrip \"hetzelfde\": een begripsvraag."
+        },
+        {
+          "answer": "Omdat een schip geen echt voorwerp is.",
+          "message": "Het schip is een gewoon voorwerp; de vraag is wat we met identiteit bedoelen, niet of het bestaat."
+        }
+      ],
+      "hints": [
+        "Zou een extra meting de vraag beslissen?"
+      ],
+      "solution": [
+        "Er ontbreekt geen feit. De vraag gaat over wat we met identiteit bedoelen (dezelfde planken, dezelfde vorm, dezelfde geschiedenis?). Dat is een begripsvraag."
+      ],
+      "topics": [
+        "philosophical-questions",
+        "concepts"
+      ]
+    },
+    {
+      "id": "01-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "context": "Een commissie bespreekt: \"Mag een zorgalgoritme beslissen wie voorrang krijgt?\" Eén lid zegt: \"Dat is een puur technische vraag; laat de ontwikkelaars maar meten hoe goed het werkt.\"",
+      "question": "Wat is het belangrijkste bezwaar tegen dit standpunt?",
+      "choices": [
+        "Metingen beantwoorden hoogstens het feitelijke deel; de vraag wie voorrang hoort te krijgen is normatief.",
+        "Ontwikkelaars hebben geen verstand van zorg.",
+        "Metingen zijn bij algoritmen altijd onbetrouwbaar.",
+        "Een technische vraag kan nooit een morele kant hebben."
+      ],
+      "answer": "Metingen beantwoorden hoogstens het feitelijke deel; de vraag wie voorrang hoort te krijgen is normatief.",
+      "feedback": [
+        {
+          "answer": "Metingen zijn bij algoritmen altijd onbetrouwbaar.",
+          "message": "Dat is geen filosofisch punt. Ook perfecte metingen zouden de normatieve vraag niet beantwoorden."
+        },
+        {
+          "answer": "Een technische vraag kan nooit een morele kant hebben.",
+          "message": "Dat is juist het omgekeerde van het bezwaar: technische en morele aspecten lopen hier door elkaar."
+        },
+        {
+          "answer": "Ontwikkelaars hebben geen verstand van zorg.",
+          "message": "Dat is een persoonlijke aanval op de ontwikkelaars en geen argument over het soort vraag dat het is."
+        }
+      ],
+      "hints": [
+        "Splits de vraag: welk deel gaat over wat het systeem kan, en welk deel over wat het behoort te doen?"
+      ],
+      "solution": [
+        "Het empirische deel (hoe goed werkt het?) is meetbaar. Maar \"wie voorrang hoort te krijgen\" is een waardeoordeel, en dat volgt niet uit meetresultaten alleen."
+      ],
+      "topics": [
+        "philosophical-questions"
+      ]
+    },
+    {
+      "id": "01-006",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Kant vatte de kern van de filosofie samen in onder meer de vraag \"Wat kan ik weten?\". Bij welk hoofdgebied hoort die vraag het meest?",
+      "choices": [
+        "Esthetica",
+        "Kennisleer (epistemologie)",
+        "Ethiek",
+        "Politieke filosofie"
+      ],
+      "answer": "Kennisleer (epistemologie)",
+      "feedback": [
+        {
+          "answer": "Ethiek",
+          "message": "Ethiek gaat over wat je behoort te doen, niet over wat je kunt weten."
+        },
+        {
+          "answer": "Esthetica",
+          "message": "Esthetica gaat over schoonheid en kunst."
+        },
+        {
+          "answer": "Politieke filosofie",
+          "message": "Politieke filosofie gaat over een rechtvaardige samenleving, niet over de grenzen van kennis."
+        }
+      ],
+      "hints": [
+        "Welk gebied vraagt wat kennis is en wanneer een overtuiging gerechtvaardigd is?"
+      ],
+      "solution": [
+        "De vraag naar de reikwijdte en grond van kennis is het terrein van de kennisleer."
+      ],
+      "topics": [
+        "philosophical-questions"
+      ]
+    },
+    {
+      "id": "01-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Iemand vraagt: \"Bestaat er iets buiten onze waarneming, en zo ja, wat is het?\" Welke combinatie van gebieden raakt deze vraag?",
+      "choices": [
+        "Alleen ethiek",
+        "Alleen logica",
+        "Kennisleer en metafysica",
+        "Esthetica en politieke filosofie"
+      ],
+      "answer": "Kennisleer en metafysica",
+      "feedback": [
+        {
+          "answer": "Alleen ethiek",
+          "message": "De vraag gaat niet over wat je behoort te doen."
+        },
+        {
+          "answer": "Esthetica en politieke filosofie",
+          "message": "Dit zijn gebieden over waarde; hier gaat het om kennis en bestaan."
+        },
+        {
+          "answer": "Alleen logica",
+          "message": "Logica onderzoekt hoe redenen werken, niet wat er bestaat of wat we kunnen weten."
+        }
+      ],
+      "hints": [
+        "Er zit een vraag over weten en een vraag over bestaan in."
+      ],
+      "solution": [
+        "\"Kunnen we iets weten buiten onze waarneming?\" is kennisleer; \"wat bestaat er?\" is metafysica. De gebieden hangen dus samen."
+      ],
+      "topics": [
+        "philosophical-questions"
+      ]
+    },
+    {
+      "id": "01-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom is het onjuist de indeling van de filosofie in gebieden als een scherpe muur te beschouwen?",
+      "choices": [
+        "Omdat er in werkelijkheid maar één gebied bestaat.",
+        "Omdat de gebieden pas in de twintigste eeuw zijn bedacht.",
+        "Omdat elk gebied hetzelfde antwoord geeft.",
+        "Omdat vragen vaak meerdere gebieden raken, zoals een uitspraak over kennis die ook een uitspraak over bestaan is."
+      ],
+      "answer": "Omdat vragen vaak meerdere gebieden raken, zoals een uitspraak over kennis die ook een uitspraak over bestaan is.",
+      "feedback": [
+        {
+          "answer": "Omdat de gebieden pas in de twintigste eeuw zijn bedacht.",
+          "message": "De indeling is veel ouder; het bezwaar gaat over de overlap, niet over de ouderdom."
+        },
+        {
+          "answer": "Omdat elk gebied hetzelfde antwoord geeft.",
+          "message": "De gebieden stellen verschillende vragen; ze sluiten alleen niet scherp op elkaar aan."
+        },
+        {
+          "answer": "Omdat er in werkelijkheid maar één gebied bestaat.",
+          "message": "Er zijn wel degelijk verschillende hoofdvragen; het punt is dat ze elkaar raken."
+        }
+      ],
+      "hints": [
+        "Denk aan kennisleer en metafysica."
+      ],
+      "solution": [
+        "De indeling is een hulpmiddel. Wie zegt dat je alleen kunt weten wat je waarneemt, antwoordt ook op een vraag over wat er bestaat."
+      ],
+      "topics": [
+        "philosophical-questions"
+      ]
+    },
+    {
+      "id": "01-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "context": "Socrates zegt in zijn verdediging dat hij wijzer is dan de mensen met wie hij sprak op één klein punt: wat hij niet weet, denkt hij ook niet te weten.",
+      "question": "Wat beweert Socrates hier precies?",
+      "choices": [
+        "Dat hij zich niet voordoet als iemand met kennis die hij niet bezit.",
+        "Dat hij de wijste man van Athene is.",
+        "Dat hij helemaal niets weet.",
+        "Dat kennis onmogelijk is."
+      ],
+      "answer": "Dat hij zich niet voordoet als iemand met kennis die hij niet bezit.",
+      "feedback": [
+        {
+          "answer": "Dat kennis onmogelijk is.",
+          "message": "Dat gaat veel verder dan wat hij zegt. Elders zegt hij zelfs dat hij sommige dingen zeker weet, bijvoorbeeld dat onrecht doen verkeerd is."
+        },
+        {
+          "answer": "Dat hij helemaal niets weet.",
+          "message": "Dat is een veelgemaakt misverstand. Zijn niet-weten betreft vooral de grote vragen waarop anderen te snel antwoorden."
+        },
+        {
+          "answer": "Dat hij de wijste man van Athene is.",
+          "message": "Hij zegt het tegenovergestelde van opscheppen: hij is alleen wijzer op één klein punt, omdat hij zijn onwetendheid erkent."
+        }
+      ],
+      "hints": [
+        "Let op het woord \"klein\": hij is slechts op één punt wijzer."
+      ],
+      "solution": [
+        "Socrates' claim is bescheiden en precies: hij denkt niet te weten wat hij niet weet. Hij ontkent niet dat kennis mogelijk is."
+      ],
+      "topics": [
+        "socratic-method"
+      ]
+    },
+    {
+      "id": "01-010",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "context": "Socrates onderzoekt een bewering over een begrip met een methode die elenchus heet.",
+      "question": "Zet de vier stappen van de elenchus in de goede volgorde, zoals ze in een gesprek op elkaar volgen.",
+      "answer": [
+        "De gesprekspartner doet een bewering over een kernbegrip",
+        "Hij stemt in met enkele andere beweringen waarin hij gelooft",
+        "Het blijkt dat deze beweringen samen strijdig zijn met de eerste bewering",
+        "De gesprekspartner moet iets opgeven"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Hij stemt in met enkele andere beweringen waarin hij gelooft",
+            "De gesprekspartner doet een bewering over een kernbegrip",
+            "Het blijkt dat deze beweringen samen strijdig zijn met de eerste bewering",
+            "De gesprekspartner moet iets opgeven"
+          ],
+          "message": "Eerst moet er een bewering zijn om te onderzoeken; pas dan kun je andere beweringen erbij zoeken."
+        }
+      ],
+      "hints": [
+        "Wat moet er eerst zijn om iets te kunnen onderzoeken?"
+      ],
+      "solution": [
+        "1. Een bewering over een begrip. 2. Instemming met andere beweringen. 3. Aantonen dat ze samen botsen. 4. Iets opgeven."
+      ],
+      "topics": [
+        "socratic-method"
+      ]
+    },
+    {
+      "id": "01-011",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Na een elenchus blijkt dat drie beweringen die iemand allemaal aanneemt, niet tegelijk waar kunnen zijn.",
+      "question": "Wat volgt hier strikt genomen uit?",
+      "choices": [
+        "Dat de gesprekspartner niet logisch kan denken.",
+        "Dat de eerste bewering onwaar is.",
+        "Dat minstens één van de drie beweringen onwaar is; welke, moet nog worden beoordeeld.",
+        "Dat alle drie de beweringen onwaar zijn."
+      ],
+      "answer": "Dat minstens één van de drie beweringen onwaar is; welke, moet nog worden beoordeeld.",
+      "feedback": [
+        {
+          "answer": "Dat de eerste bewering onwaar is.",
+          "message": "Dat volgt niet. De strijdigheid laat alleen zien dat niet alles tegelijk kan; welke bewering wordt opgegeven, is een volgende keuze."
+        },
+        {
+          "answer": "Dat alle drie de beweringen onwaar zijn.",
+          "message": "Er hoeft er maar één onwaar te zijn om de strijdigheid op te heffen."
+        },
+        {
+          "answer": "Dat de gesprekspartner niet logisch kan denken.",
+          "message": "Strijdige overtuigingen komen bij iedereen voor. Het onderzoek helpt juist ze zichtbaar te maken, en zegt niets over het denkvermogen."
+        }
+      ],
+      "hints": [
+        "Als drie dingen niet samen kunnen, hoeveel moet je er dan minstens opgeven?"
+      ],
+      "solution": [
+        "Een strijdige verzameling bewijst dat minstens één bewering onwaar is. Welke dat is, volgt niet uit de strijdigheid zelf."
+      ],
+      "topics": [
+        "socratic-method",
+        "argument"
+      ]
+    },
+    {
+      "id": "01-012",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "context": "Iemand definieert: \"Moed is op je plaats blijven en de vijand niet ontvluchten.\" Een ruiterleger dat vechtend terugtrekt en daarmee wint, wordt algemeen moedig genoemd.",
+      "question": "Wat laat dit geval zien over de definitie?",
+      "choices": [
+        "Ze is cirkelvormig, omdat ze het begrip moed herhaalt.",
+        "Ze is sterk bevestigd, omdat het leger toch won.",
+        "Ze is te ruim: ze laat ook niet-moedige gevallen toe.",
+        "Ze is te eng: er is moed zonder op je plaats blijven."
+      ],
+      "answer": "Ze is te eng: er is moed zonder op je plaats blijven.",
+      "feedback": [
+        {
+          "answer": "Ze is te ruim: ze laat ook niet-moedige gevallen toe.",
+          "message": "Dat zou een geval vereisen dat onder de definitie valt maar niet moedig is. Hier valt een moedig geval juist buiten de definitie."
+        },
+        {
+          "answer": "Ze is cirkelvormig, omdat ze het begrip moed herhaalt.",
+          "message": "Het woord \"moed\" komt niet voor in het definiërende deel."
+        },
+        {
+          "answer": "Ze is sterk bevestigd, omdat het leger toch won.",
+          "message": "Winnen gaat over de afloop, niet over wat moed is. Het geval laat juist zien dat de definitie een moedig geval uitsluit."
+        }
+      ],
+      "hints": [
+        "Valt het ruiterleger onder de definitie? Is het toch moedig?"
+      ],
+      "solution": [
+        "Een moedig geval dat de definitie uitsluit, laat zien dat de voorwaarde niet noodzakelijk is. De definitie is te eng."
+      ],
+      "topics": [
+        "concepts",
+        "socratic-method"
+      ]
+    },
+    {
+      "id": "01-013",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Iemand definieert: \"Moed is niet bang zijn.\" Bedenk een tegenvoorbeeld en leg uit of de definitie daardoor te ruim of te eng blijkt.",
+      "answer": "Een brandweerman die bang is en toch het huis in gaat, is moedig; dus de definitie is te eng. Of: iemand die uit onwetendheid niets vreest, is niet moedig; dus te ruim.",
+      "min_length": 60,
+      "hints": [
+        "Zoek een persoon waarvan je zeker bent dat hij wel moedig is, of juist niet, ondanks wat de definitie zegt."
+      ],
+      "solution": [
+        "Voorbeeld 1: een brandweerman die bang is en toch het brandende huis in gaat. Hij is moedig maar niet \"niet bang\". De voorwaarde is dus niet noodzakelijk: de definitie is te eng.",
+        "Voorbeeld 2: iemand die uit onwetendheid geen gevaar ziet en daarom niet bang is. Hij voldoet aan de voorwaarde maar is niet moedig. De voorwaarde is dus niet voldoende: de definitie is te ruim.",
+        "Beide tegenvoorbeelden zijn bruikbaar; je hoeft er maar één te geven, mits je zegt welke fout het aantoont."
+      ],
+      "topics": [
+        "concepts",
+        "socratic-method"
+      ]
+    },
+    {
+      "id": "01-014",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke zin beschrijft een noodzakelijke maar niet voldoende voorwaarde voor het begrip \"driehoek\"?",
+      "choices": [
+        "Het is een figuur met vier rechte hoeken.",
+        "Het is een figuur met drie hoeken die op een bol is getekend.",
+        "Het is een gesloten vlakke figuur met drie rechte zijden.",
+        "Het is een vlakke figuur met minstens drie zijden.",
+        "Het is een figuur met een omtrek."
+      ],
+      "answer": "Het is een vlakke figuur met minstens drie zijden.",
+      "feedback": [
+        {
+          "answer": "Het is een gesloten vlakke figuur met drie rechte zijden.",
+          "message": "Dit is al een volledige voorwaarde: alles wat eraan voldoet is een driehoek, en elke driehoek voldoet eraan. Ze is dus ook voldoende."
+        },
+        {
+          "answer": "Het is een figuur met vier rechte hoeken.",
+          "message": "Dit is voor een driehoek niet eens noodzakelijk: geen enkele driehoek heeft vier hoeken."
+        },
+        {
+          "answer": "Het is een figuur met drie hoeken die op een bol is getekend.",
+          "message": "Dat is een andere soort figuur; de voorwaarde is niet noodzakelijk voor een gewone vlakke driehoek."
+        },
+        {
+          "answer": "Het is een figuur met een omtrek.",
+          "message": "Dit is wel noodzakelijk, maar geen voorwaarde die iets over een driehoek zegt; het geldt voor elke figuur."
+        }
+      ],
+      "hints": [
+        "Een noodzakelijke voorwaarde moet elke driehoek hebben, maar hoeft niet alles uit te sluiten wat geen driehoek is."
+      ],
+      "solution": [
+        "Elke driehoek heeft minstens drie zijden (noodzakelijk), maar een vierkant ook (dus niet voldoende)."
+      ],
+      "topics": [
+        "concepts"
+      ]
+    },
+    {
+      "id": "01-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "context": "Definitie: \"Een vierkant is een figuur met vier gelijke zijden.\"",
+      "question": "Wat is er mis met deze definitie?",
+      "choices": [
+        "Ze is correct, want elke figuur met vier gelijke zijden is een vierkant.",
+        "Ze is niet met een tegenvoorbeeld te toetsen, omdat een vierkant een wiskundig begrip is.",
+        "Ze is te ruim: een ruit heeft vier gelijke zijden maar is niet altijd een vierkant.",
+        "Ze is te eng: ze sluit sommige vierkanten uit."
+      ],
+      "answer": "Ze is te ruim: een ruit heeft vier gelijke zijden maar is niet altijd een vierkant.",
+      "feedback": [
+        {
+          "answer": "Ze is te eng: ze sluit sommige vierkanten uit.",
+          "message": "Elk vierkant heeft vier gelijke zijden, dus er valt geen vierkant buiten de definitie."
+        },
+        {
+          "answer": "Ze is correct, want elke figuur met vier gelijke zijden is een vierkant.",
+          "message": "Een ruit met scherpe en stompe hoeken is een tegenvoorbeeld."
+        },
+        {
+          "answer": "Ze is niet met een tegenvoorbeeld te toetsen, omdat een vierkant een wiskundig begrip is.",
+          "message": "Juist bij scherp omlijnde begrippen werkt een tegenvoorbeeld goed: één geval volstaat."
+        }
+      ],
+      "hints": [
+        "Kun je een figuur bedenken met vier gelijke zijden die geen vierkant is?"
+      ],
+      "solution": [
+        "Elk vierkant voldoet aan de voorwaarde (noodzakelijk), maar niet alles wat eraan voldoet is een vierkant (niet voldoende). Dus te ruim."
+      ],
+      "topics": [
+        "concepts"
+      ]
+    },
+    {
+      "id": "01-016",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "context": "Je onderzoekt de definitie \"Een leugen is een onware uitspraak\" met de methode van tegenvoorbeelden.",
+      "question": "Zet de stappen van een begripsanalyse in de juiste volgorde: van de eerste stap tot het opnieuw toetsen.",
+      "answer": [
+        "Stel een definitie voor",
+        "Zoek een geval dat de definitie niet goed indeelt",
+        "Beoordeel of de definitie te ruim of te eng is",
+        "Herzie de definitie",
+        "Toets de herziene definitie opnieuw"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Zoek een geval dat de definitie niet goed indeelt",
+            "Stel een definitie voor",
+            "Beoordeel of de definitie te ruim of te eng is",
+            "Herzie de definitie",
+            "Toets de herziene definitie opnieuw"
+          ],
+          "message": "Je kunt pas een tegenvoorbeeld zoeken als er een definitie ligt om te toetsen."
+        }
+      ],
+      "hints": [
+        "Wat heb je nodig voordat je een tegenvoorbeeld kunt zoeken?"
+      ],
+      "solution": [
+        "Definitie, tegenvoorbeeld, beoordeling (te ruim/te eng), herziening, nieuwe toets. Het proces kan zich herhalen."
+      ],
+      "topics": [
+        "concepts"
+      ]
+    },
+    {
+      "id": "01-017",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Je kijkt op een klok die je altijd vertrouwt en ziet dat het kwart over twee is. Dat klopt, maar de klok staat al een etmaal stil.",
+      "question": "Wat laat dit geval zien over de definitie \"kennis is gerechtvaardigde ware overtuiging\"?",
+      "choices": [
+        "Aan alle drie de voorwaarden is voldaan zonder dat het kennis lijkt; de voorwaarden zijn dus niet voldoende.",
+        "De overtuiging is onwaar, dus het is geen kennis.",
+        "De voorwaarden zijn niet noodzakelijk, want je wist het wel degelijk.",
+        "Geloof is geen onderdeel van kennis, want je geloofde het zonder te weten."
+      ],
+      "answer": "Aan alle drie de voorwaarden is voldaan zonder dat het kennis lijkt; de voorwaarden zijn dus niet voldoende.",
+      "feedback": [
+        {
+          "answer": "De voorwaarden zijn niet noodzakelijk, want je wist het wel degelijk.",
+          "message": "Het geval laat juist zien dat je het niet echt wist. Het gaat om voldoendheid, niet om noodzakelijkheid."
+        },
+        {
+          "answer": "Geloof is geen onderdeel van kennis, want je geloofde het zonder te weten.",
+          "message": "Je geloof is hier niet het probleem: het is er wel, en het is waar. Het probleem is dat het geluk is dat het klopt."
+        },
+        {
+          "answer": "De overtuiging is onwaar, dus het is geen kennis.",
+          "message": "De overtuiging is waar: het is echt kwart over twee."
+        }
+      ],
+      "hints": [
+        "Is de overtuiging waar? Is ze gerechtvaardigd? Is het kennis?"
+      ],
+      "solution": [
+        "Je overtuiging is waar, gerechtvaardigd en toch niet echt kennis: een gelukkige samenloop. Dus zijn de drie voorwaarden niet voldoende."
+      ],
+      "topics": [
+        "concepts"
+      ]
+    },
+    {
+      "id": "01-018",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Wittgenstein vraagt wat alle spelen gemeen hebben. Competitie ontbreekt bij patience, winnen of verliezen bij een kind dat een bal tegen een muur gooit.",
+      "question": "Welke conclusie trekt hij uit zulke gevallen?",
+      "choices": [
+        "Dat je elk begrip met noodzakelijke en voldoende voorwaarden kunt vatten.",
+        "Dat spelen een netwerk van overlappende overeenkomsten delen, zonder één gemeenschappelijk kenmerk.",
+        "Dat er een verborgen kenmerk is dat we nog niet gevonden hebben.",
+        "Dat het woord \"spel\" geen betekenis heeft."
+      ],
+      "answer": "Dat spelen een netwerk van overlappende overeenkomsten delen, zonder één gemeenschappelijk kenmerk.",
+      "feedback": [
+        {
+          "answer": "Dat het woord \"spel\" geen betekenis heeft.",
+          "message": "Hij zegt niet dat het woord betekenisloos is; mensen gebruiken het prima."
+        },
+        {
+          "answer": "Dat er een verborgen kenmerk is dat we nog niet gevonden hebben.",
+          "message": "Het punt is juist dat je zo'n kenmerk vergeefs zoekt."
+        },
+        {
+          "answer": "Dat je elk begrip met noodzakelijke en voldoende voorwaarden kunt vatten.",
+          "message": "Dat is precies wat hij met dit voorbeeld in twijfel trekt."
+        }
+      ],
+      "hints": [
+        "Zoek eens een kenmerk dat in alle voorbeelden voorkomt."
+      ],
+      "solution": [
+        "Wittgenstein noemt dit familiegelijkenissen: overeenkomsten die elkaar kruisen en overlappen, zonder één kenmerk dat alles deelt."
+      ],
+      "topics": [
+        "concepts"
+      ]
+    },
+    {
+      "id": "01-019",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Iemand zegt: \"Een echte vriend is iemand die altijd met je meegaat.\" Daarmee sluit hij een vriend uit die hem soms tegenspreekt.",
+      "question": "Leg uit waarom dit een overtuigende definitie kan zijn, en hoe je haar zou toetsen.",
+      "answer": "Een overtuigende definitie smokkelt een waardeoordeel binnen via de betekenis van een woord; toets met tegenvoorbeelden: een kritische vriend die je wel steunt.",
+      "min_length": 60,
+      "hints": [
+        "Vraag of de definitie beschrijft hoe het woord wordt gebruikt of een oordeel binnensmokkelt."
+      ],
+      "solution": [
+        "Bij een overtuigende definitie wordt de betekenis van een woord zo gekozen dat een waardeoordeel erin zit.",
+        "Hier wordt \"echte vriend\" zo gedefinieerd dat kritiek vriendschap uitsluit; daarmee wordt een oordeel verkocht als begrip.",
+        "Toets met gevallen: is een vriend die je eerlijk vertelt dat je een fout maakt, geen echte vriend? Meestal zeggen we van wel."
+      ],
+      "topics": [
+        "concepts",
+        "fallacies"
+      ]
+    },
+    {
+      "id": "01-020",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "context": "P1: Alle vissen kunnen vliegen. P2: Een walvis is een vis. C: Een walvis kan vliegen.",
+      "question": "Wat is waar over dit argument?",
+      "choices": [
+        "Het is ongeldig, omdat de conclusie onwaar is.",
+        "Het is ongeldig, omdat P2 onwaar is.",
+        "Het is gezond, omdat het geldig is.",
+        "Het is geldig, maar niet gezond."
+      ],
+      "answer": "Het is geldig, maar niet gezond.",
+      "feedback": [
+        {
+          "answer": "Het is ongeldig, omdat de conclusie onwaar is.",
+          "message": "Geldigheid gaat over de verhouding tussen premissen en conclusie, niet over de waarheid van de conclusie."
+        },
+        {
+          "answer": "Het is gezond, omdat het geldig is.",
+          "message": "Gezond vereist ook ware premissen; P1 is onwaar."
+        },
+        {
+          "answer": "Het is ongeldig, omdat P2 onwaar is.",
+          "message": "Een onware premisse maakt een argument niet ongeldig; ze maakt het hoogstens ongezond."
+        }
+      ],
+      "hints": [
+        "Stel dat de premissen waar zijn: moet de conclusie dan waar zijn?"
+      ],
+      "solution": [
+        "Als alle vissen vliegen en de walvis een vis is, vliegt de walvis. Geldig. Maar de premissen zijn onwaar, dus niet gezond."
+      ],
+      "topics": [
+        "argument"
+      ]
+    },
+    {
+      "id": "01-021",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Een deductief argument is geldig en de conclusie is onwaar.",
+      "question": "Wat kun je hieruit met zekerheid afleiden?",
+      "choices": [
+        "Minstens één premisse is onwaar.",
+        "Alle premissen zijn onwaar.",
+        "Het argument is gezond.",
+        "De conclusie is onwaar omdat het argument ongeldig is."
+      ],
+      "answer": "Minstens één premisse is onwaar.",
+      "feedback": [
+        {
+          "answer": "De conclusie is onwaar omdat het argument ongeldig is.",
+          "message": "Het argument is juist als geldig gegeven."
+        },
+        {
+          "answer": "Alle premissen zijn onwaar.",
+          "message": "Eén onware premisse volstaat."
+        },
+        {
+          "answer": "Het argument is gezond.",
+          "message": "Gezond vereist ware premissen; met een onware conclusie in een geldig argument kan dat niet."
+        }
+      ],
+      "hints": [
+        "Wat sluit geldigheid uit?"
+      ],
+      "solution": [
+        "Geldig betekent: ware premissen en een onware conclusie samen zijn onmogelijk. De conclusie is onwaar, dus de premissen kunnen niet allemaal waar zijn."
+      ],
+      "topics": [
+        "argument"
+      ]
+    },
+    {
+      "id": "01-022",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "P1: Als het regent, is de straat nat. P2: De straat is nat. C: Dus het regent.",
+      "question": "Welke beoordeling is juist?",
+      "choices": [
+        "Ongeldig, omdat de conclusie onwaar is.",
+        "Ongeldig: de straat kan ook nat zijn door een sproeier.",
+        "Geldig, want beide premissen zijn waar.",
+        "Geldig, omdat het de vorm modus ponens heeft."
+      ],
+      "answer": "Ongeldig: de straat kan ook nat zijn door een sproeier.",
+      "feedback": [
+        {
+          "answer": "Geldig, want beide premissen zijn waar.",
+          "message": "Ware premissen maken een argument niet geldig; er moet ook geen gat zijn tussen premissen en conclusie."
+        },
+        {
+          "answer": "Geldig, omdat het de vorm modus ponens heeft.",
+          "message": "Modus ponens vraagt dat je het antecedent bevestigt, niet het gevolg."
+        },
+        {
+          "answer": "Ongeldig, omdat de conclusie onwaar is.",
+          "message": "De conclusie hoeft niet onwaar te zijn; het argument is ongeldig omdat ze niet noodzakelijk volgt."
+        }
+      ],
+      "hints": [
+        "Is er een situatie waarin P1 en P2 waar zijn maar het niet regent?"
+      ],
+      "solution": [
+        "Dit is het bevestigen van het gevolg. Een natte straat door een sproeier maakt de premissen waar en de conclusie onwaar."
+      ],
+      "topics": [
+        "argument",
+        "fallacies"
+      ]
+    },
+    {
+      "id": "01-023",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Tekst: \"Dit verbod is onrechtvaardig, want het treft alleen arme mensen.\"",
+      "question": "Welke verzwegen premisse maakt het argument geldig?",
+      "choices": [
+        "Alle verboden zijn onrechtvaardig.",
+        "Arme mensen zijn vaker slachtoffer van onrecht.",
+        "Een regel die alleen arme mensen treft, is onrechtvaardig.",
+        "Dit verbod is nieuw."
+      ],
+      "answer": "Een regel die alleen arme mensen treft, is onrechtvaardig.",
+      "feedback": [
+        {
+          "answer": "Alle verboden zijn onrechtvaardig.",
+          "message": "Dit is veel te sterk en niet nodig voor dit argument."
+        },
+        {
+          "answer": "Arme mensen zijn vaker slachtoffer van onrecht.",
+          "message": "Dat is een feitelijke bewering over arme mensen, geen koppeling tussen regel en onrecht."
+        },
+        {
+          "answer": "Dit verbod is nieuw.",
+          "message": "Dat de regel nieuw is, heeft niets te maken met de vraag of hij onrechtvaardig is."
+        }
+      ],
+      "hints": [
+        "Wat verbindt \"treft alleen arme mensen\" met \"onrechtvaardig\"?"
+      ],
+      "solution": [
+        "P1: Het verbod treft alleen arme mensen. P2*: Een regel die alleen arme mensen treft, is onrechtvaardig. C: Het verbod is onrechtvaardig."
+      ],
+      "topics": [
+        "argument"
+      ]
+    },
+    {
+      "id": "01-024",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Tekst: \"De verordening is niet onrechtvaardig, want ze is democratisch aangenomen en elke democratisch aangenomen verordening is niet onrechtvaardig.\"",
+      "question": "Zet het argument in standaardvorm. De volgorde wordt bepaald door de opbouw: eerst de algemene premisse, dan de premisse over het geval, dan de conclusie.",
+      "answer": [
+        "P1. Elke democratisch aangenomen verordening is niet onrechtvaardig.",
+        "P2. Deze verordening is democratisch aangenomen.",
+        "C. Deze verordening is niet onrechtvaardig."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "C. Deze verordening is niet onrechtvaardig.",
+            "P1. Elke democratisch aangenomen verordening is niet onrechtvaardig.",
+            "P2. Deze verordening is democratisch aangenomen."
+          ],
+          "message": "In de standaardvorm staat de conclusie onderaan, nadat de premissen zijn genoemd."
+        }
+      ],
+      "hints": [
+        "De conclusie staat altijd als laatste."
+      ],
+      "solution": [
+        "P1 (algemene regel), P2 (het geval), C (conclusie)."
+      ],
+      "topics": [
+        "argument"
+      ]
+    },
+    {
+      "id": "01-025",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Een onderzoeker heeft duizend zwanen in Europa gezien, allemaal wit, en concludeert: \"Alle zwanen zijn wit.\" Later vindt iemand een zwarte zwaan in Australië.",
+      "question": "Wat laat dit zien over inductieve argumenten?",
+      "choices": [
+        "Eén tegenvoorbeeld kan een algemene conclusie weerleggen, hoeveel bevestigingen er ook waren.",
+        "Dat duizend waarnemingen altijd genoeg zijn.",
+        "Dat het argument deductief geldig was, maar een onware premisse had.",
+        "Dat inductie nutteloos is."
+      ],
+      "answer": "Eén tegenvoorbeeld kan een algemene conclusie weerleggen, hoeveel bevestigingen er ook waren.",
+      "feedback": [
+        {
+          "answer": "Dat het argument deductief geldig was, maar een onware premisse had.",
+          "message": "De premissen waren waar; het argument was inductief en nooit geldig in deductieve zin."
+        },
+        {
+          "answer": "Dat duizend waarnemingen altijd genoeg zijn.",
+          "message": "Het tegenvoorbeeld laat zien dat dat niet zo is."
+        },
+        {
+          "answer": "Dat inductie nutteloos is.",
+          "message": "Inductie levert goede, graduele steun; het geval laat alleen zien dat ze geen zekerheid geeft."
+        }
+      ],
+      "hints": [
+        "Zijn de premissen \"alle gezien zwanen zijn wit\" onwaar geworden?"
+      ],
+      "solution": [
+        "Inductie maakt de conclusie waarschijnlijk, niet noodzakelijk. Eén zwarte zwaan weerlegt \"alle\"."
+      ],
+      "topics": [
+        "argument"
+      ]
+    },
+    {
+      "id": "01-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "context": "Politicus: \"Mijn tegenstander wil de bezuinigingen terugdraaien. Dus hij wil dat ons land failliet gaat.\"",
+      "question": "Welke drogreden zit hier?",
+      "choices": [
+        "Vals dilemma: er zijn maar twee opties.",
+        "Stropop: zijn standpunt wordt vervormd tot iets dat makkelijk te weerleggen is.",
+        "Cirkelredenering: de conclusie zit in de premisse.",
+        "Persoonlijke aanval: de tegenstander wordt beledigd."
+      ],
+      "answer": "Stropop: zijn standpunt wordt vervormd tot iets dat makkelijk te weerleggen is.",
+      "feedback": [
+        {
+          "answer": "Persoonlijke aanval: de tegenstander wordt beledigd.",
+          "message": "Er wordt niet de persoon aangevallen, maar zijn standpunt, en dat standpunt wordt verdraaid."
+        },
+        {
+          "answer": "Cirkelredenering: de conclusie zit in de premisse.",
+          "message": "De conclusie staat niet verborgen in de premisse."
+        },
+        {
+          "answer": "Vals dilemma: er zijn maar twee opties.",
+          "message": "Er worden geen twee opties gepresenteerd."
+        }
+      ],
+      "hints": [
+        "Wat zegt de tegenstander werkelijk, en wat maakt de politicus ervan?"
+      ],
+      "solution": [
+        "De politicus vervangt het eigenlijke standpunt door een extreme versie. Dat is een stropop."
+      ],
+      "topics": [
+        "fallacies"
+      ]
+    },
+    {
+      "id": "01-027",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "context": "\"Deze krant is betrouwbaar, want ze schrijft zelf dat alles wat ze publiceert klopt.\"",
+      "question": "Welke drogreden komt hier voor?",
+      "choices": [
+        "Hellend vlak: een kleine stap leidt tot een extreem gevolg.",
+        "Beroep op de massa: veel mensen geloven het.",
+        "Cirkelredenering: de premisse veronderstelt al dat de krant betrouwbaar is.",
+        "Post hoc: A gaat vooraf aan B."
+      ],
+      "answer": "Cirkelredenering: de premisse veronderstelt al dat de krant betrouwbaar is.",
+      "feedback": [
+        {
+          "answer": "Hellend vlak: een kleine stap leidt tot een extreem gevolg.",
+          "message": "Er wordt geen keten van gevolgen beweerd."
+        },
+        {
+          "answer": "Beroep op de massa: veel mensen geloven het.",
+          "message": "Er wordt niet naar aantallen gewezen."
+        },
+        {
+          "answer": "Post hoc: A gaat vooraf aan B.",
+          "message": "Er wordt niets over volgorde in de tijd gezegd."
+        }
+      ],
+      "hints": [
+        "Zou iemand die twijfelt aan de krant de premisse accepteren?"
+      ],
+      "solution": [
+        "Wie twijfelt of de krant betrouwbaar is, twijfelt ook aan wat ze over zichzelf zegt. De premisse vooronderstelt de conclusie."
+      ],
+      "topics": [
+        "fallacies"
+      ]
+    },
+    {
+      "id": "01-028",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "\"Niets is beter dan eeuwig geluk. Een boterham is beter dan niets. Dus een boterham is beter dan eeuwig geluk.\"",
+      "question": "Wat is er mis met dit argument?",
+      "choices": [
+        "Het is een vals dilemma.",
+        "De conclusie is onwaar, dus de premissen zijn onwaar.",
+        "Het is een persoonlijke aanval.",
+        "Het woord \"niets\" wordt in twee betekenissen gebruikt (dubbelzinnigheid)."
+      ],
+      "answer": "Het woord \"niets\" wordt in twee betekenissen gebruikt (dubbelzinnigheid).",
+      "feedback": [
+        {
+          "answer": "Het is een persoonlijke aanval.",
+          "message": "Er wordt niemand aangevallen."
+        },
+        {
+          "answer": "De conclusie is onwaar, dus de premissen zijn onwaar.",
+          "message": "Een onware conclusie wijst op een fout, maar hier zit die in het woordgebruik: beide premissen zijn in één lezing wel waar."
+        },
+        {
+          "answer": "Het is een vals dilemma.",
+          "message": "Er worden geen twee opties gepresenteerd."
+        }
+      ],
+      "hints": [
+        "Betekent \"niets\" in beide premissen hetzelfde?"
+      ],
+      "solution": [
+        "In P1 betekent \"niets\" \"geen enkel ding\", in P2 \"de afwezigheid van iets\". Zo ontstaat een schijnargument."
+      ],
+      "topics": [
+        "fallacies"
+      ]
+    },
+    {
+      "id": "01-029",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "\"Na de invoering van het nieuwe beleid daalde de werkloosheid, dus het beleid werkte.\"",
+      "question": "Wat is het zwakke punt?",
+      "choices": [
+        "Volgorde in de tijd bewijst geen oorzaak; een derde factor kan beide verklaren.",
+        "Het beleid kan niet gewerkt hebben omdat de werkloosheid daalde.",
+        "Het argument is een vals dilemma.",
+        "Het argument is een ad hominem."
+      ],
+      "answer": "Volgorde in de tijd bewijst geen oorzaak; een derde factor kan beide verklaren.",
+      "feedback": [
+        {
+          "answer": "Het beleid kan niet gewerkt hebben omdat de werkloosheid daalde.",
+          "message": "Dat is geen logische stap; ook die conclusie zou niet volgen."
+        },
+        {
+          "answer": "Het argument is een ad hominem.",
+          "message": "Er wordt niemand persoonlijk aangevallen."
+        },
+        {
+          "answer": "Het argument is een vals dilemma.",
+          "message": "Er worden geen twee opties gepresenteerd."
+        }
+      ],
+      "hints": [
+        "Kunnen twee gebeurtenissen op elkaar volgen zonder verband?"
+      ],
+      "solution": [
+        "Dit is post hoc ergo propter hoc. De daling kan komen door de economie in het algemeen."
+      ],
+      "topics": [
+        "fallacies"
+      ]
+    },
+    {
+      "id": "01-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Glaucon vertelt over Gyges, een herder die een ring vindt waarmee hij onzichtbaar wordt, en vraagt of een rechtvaardig mens nog rechtvaardig zou blijven als niemand hem kon pakken.",
+      "question": "Welke factor isoleert dit gedachte-experiment?",
+      "choices": [
+        "Het bestaan van goden.",
+        "De kans om gepakt of gestraft te worden.",
+        "De vraag of zulke ringen kunnen bestaan.",
+        "De rijkdom van de herder."
+      ],
+      "answer": "De kans om gepakt of gestraft te worden.",
+      "feedback": [
+        {
+          "answer": "De rijkdom van de herder.",
+          "message": "Rijkdom speelt geen rol in het experiment."
+        },
+        {
+          "answer": "Het bestaan van goden.",
+          "message": "Dat is niet de variabele die het experiment isoleert."
+        },
+        {
+          "answer": "De vraag of zulke ringen kunnen bestaan.",
+          "message": "Het experiment vraagt niet naar de mogelijkheid van de ring maar naar wat er gebeurt als de kans op ontdekking wegvalt."
+        }
+      ],
+      "hints": [
+        "Wat verandert er door de onzichtbaarheid?"
+      ],
+      "solution": [
+        "Door de ring valt de kans op ontdekking weg, zodat je ziet wat rechtvaardigheid nog betekent."
+      ],
+      "topics": [
+        "thought-experiments"
+      ]
+    },
+    {
+      "id": "01-031",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Een filosoof beweert dat een gedachte-experiment iets bewijst over onze plicht, omdat bijna iedereen intuïtief hetzelfde oordeel velt.",
+      "question": "Wat is een serieus bezwaar tegen dit gebruik van een gedachte-experiment?",
+      "choices": [
+        "Mensen hebben helemaal geen intuïties over zulke gevallen.",
+        "Een experiment mag nooit een verzonnen geval gebruiken.",
+        "Intuïties over verzonnen, extreme gevallen kunnen onbetrouwbaar zijn en per cultuur of formulering verschillen.",
+        "Een gedachte-experiment is altijd onwaar."
+      ],
+      "answer": "Intuïties over verzonnen, extreme gevallen kunnen onbetrouwbaar zijn en per cultuur of formulering verschillen.",
+      "feedback": [
+        {
+          "answer": "Een gedachte-experiment is altijd onwaar.",
+          "message": "Een experiment is geen bewering die waar of onwaar is; het is een opzet om een oordeel op te roepen."
+        },
+        {
+          "answer": "Mensen hebben helemaal geen intuïties over zulke gevallen.",
+          "message": "De meeste mensen hebben die wel; het bezwaar is dat ze niet per se betrouwbaar zijn."
+        },
+        {
+          "answer": "Een experiment mag nooit een verzonnen geval gebruiken.",
+          "message": "Dat is te sterk: verzonnen gevallen helpen één factor te isoleren, zolang je hun beperkingen kent."
+        }
+      ],
+      "hints": [
+        "Wat zegt een oordeel over een bizar geval over de werkelijkheid?"
+      ],
+      "solution": [
+        "Wie intuïties als bewijs gebruikt, moet kunnen verantwoorden waarom ze betrouwbaar zijn. Dat is omstreden."
+      ],
+      "topics": [
+        "thought-experiments"
+      ]
+    },
+    {
+      "id": "01-032",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "context": "In het wagonprobleem kun je een wagon omleiden naar een zijspoor met één persoon, zodat vijf mensen gered worden. In de brugvariant kun je de wagon alleen stoppen door een zwaar persoon van een brug te duwen. De aantallen zijn gelijk, maar veel mensen oordelen verschillend.",
+      "question": "Noem twee verschillen tussen beide gevallen die dat verschil in oordeel zouden kunnen verklaren, en geef aan hoe je zou kunnen toetsen welk verschil werkelijk telt.",
+      "answer": "Verschil 1: doden of laten sterven. Verschil 2: iemand als middel gebruiken. Toets door varianten te maken waarin één verschil verdwijnt.",
+      "min_length": 80,
+      "hints": [
+        "Maak nieuwe varianten waarin je één factor verandert."
+      ],
+      "solution": [
+        "Mogelijke verschillen: (1) bij omleiden is de dood van de ene een neveneffect, bij duwen een middel; (2) bij duwen raak je iemand aan en gebruik je kracht; (3) de brug-persoon was niet in gevaar.",
+        "Toetsen: maak een variant waarin je een hendel gebruikt om iemand van de brug te laten vallen, of een variant waarin het zijspoor weer in een lus naar de vijf terugloopt. Als het oordeel dan verandert, telt dat verschil."
+      ],
+      "topics": [
+        "thought-experiments",
+        "concepts"
+      ]
+    },
+    {
+      "id": "01-033",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "context": "Tekst: \"Scholen moeten smartphones verbieden. Leerlingen met een telefoon in de klas presteren slechter, en een ouderwets verbod werkt altijd. Wie dit verbod afwijst, wil gewoon dat kinderen de hele dag op hun scherm staren.\"",
+      "question": "Zet de redenering in standaardvorm (met eventuele verzwegen premissen), noem de zwakste premisse en benoem de drogreden in de laatste zin.",
+      "answer": "C: Scholen moeten smartphones verbieden. P1: leerlingen met telefoon presteren slechter. P2: een verbod werkt altijd. Verzwegen: slechter presteren is een reden voor een verbod. Zwakste: P2. Laatste zin: stropop.",
+      "min_length": 100,
+      "hints": [
+        "Zoek eerst de conclusie en de signaalwoorden."
+      ],
+      "solution": [
+        "P1. Leerlingen met een telefoon in de klas presteren slechter.",
+        "P2. Een verbod werkt altijd.",
+        "P3*. Als slechter presteren aan telefoons ligt en een verbod werkt, moeten scholen verbieden.",
+        "C. Scholen moeten smartphones verbieden.",
+        "Zwakste premisse: P2 is veel te sterk (\"altijd\"). Ook is P1 een verband, geen oorzaak.",
+        "Laatste zin: stropop; de tegenstander wordt een extreem standpunt toegeschreven."
+      ],
+      "topics": [
+        "argument",
+        "fallacies"
+      ]
+    },
+    {
+      "id": "01-034",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "In de Indiase Nyaya-traditie bestaat een volledige gevolgtrekking uit vijf delen: stelling, reden, voorbeeld met algemene regel, toepassing en slotsom. De algemene regel (\"waar rook is, is vuur\") wordt zelf getoetst aan gevallen.",
+      "question": "Waarmee komt deze aanpak het meest overeen in de beoordeling van argumenten?",
+      "choices": [
+        "Het is hetzelfde als modus tollens.",
+        "Het scheidt de vorm van de gevolgtrekking van de vraag of de algemene regel aannemelijk is.",
+        "Het eist dat de conclusie altijd waar is.",
+        "Het gebruikt geen voorbeelden."
+      ],
+      "answer": "Het scheidt de vorm van de gevolgtrekking van de vraag of de algemene regel aannemelijk is.",
+      "feedback": [
+        {
+          "answer": "Het eist dat de conclusie altijd waar is.",
+          "message": "Het gaat er juist om de regel te toetsen, niet om de conclusie voorop te stellen."
+        },
+        {
+          "answer": "Het gebruikt geen voorbeelden.",
+          "message": "Het voorbeeld is een vast onderdeel van de gevolgtrekking."
+        },
+        {
+          "answer": "Het is hetzelfde als modus tollens.",
+          "message": "Modus tollens is een afzonderlijke geldige vorm; de vijfdelige gevolgtrekking is een bredere structuur."
+        }
+      ],
+      "hints": [
+        "Waar wordt de algemene regel getoetst?"
+      ],
+      "solution": [
+        "Vorm en inhoud van de regel worden onderscheiden, net als bij geldigheid en gezondheid."
+      ],
+      "topics": [
+        "argument"
+      ]
+    },
+    {
+      "id": "01-035",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "context": "Positie A: filosofie boekt vooruitgang, want begrippen zijn scherper geworden en sommige antwoorden zijn weerlegd. Positie B: dezelfde grote vragen zijn na eeuwen nog onbeslist.",
+      "question": "Formuleer in een paar zinnen wat beide posities delen en waar het eigenlijke meningsverschil zit.",
+      "answer": "Beiden erkennen dat begrippen verhelderd worden; het verschil is wat je vooruitgang noemt: een afgesloten vraag of een beter begrepen vraag.",
+      "min_length": 60,
+      "hints": [
+        "Waarover zijn ze het eens?"
+      ],
+      "solution": [
+        "Gedeeld: verheldering is mogelijk.",
+        "Meningsverschil: de betekenis van \"vooruitgang\". Dat is een begripskwestie."
+      ],
+      "topics": [
+        "philosophical-questions",
+        "concepts"
+      ]
+    }
+  ]
+}

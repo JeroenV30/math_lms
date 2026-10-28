@@ -1,0 +1,161 @@
+{
+  "people": [
+    {
+      "id": "confucius",
+      "name": "Confucius",
+      "full_name": "Kong Fuzi",
+      "lived": "traditioneel 551 – 479 v.Chr.",
+      "sort_year": -551,
+      "region": "China",
+      "known_for": "De Analecta, over taal en bestuur.",
+      "bio": "De Analecta zijn een verzameling gesprekken die door leerlingen en latere generaties is samengesteld; de datering van afzonderlijke uitspraken is onzeker.",
+      "contributions": [
+        "Het rechtzetten van de namen"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "socrates",
+      "name": "Socrates",
+      "full_name": "Socrates van Athene",
+      "lived": "ca. 470 – 399 v.Chr.",
+      "sort_year": -470,
+      "region": "Athene",
+      "known_for": "Het onderzoeken van beweringen door vragen te stellen.",
+      "bio": "Socrates schreef zelf niets. Wat we van hem weten komt uit Plato, Xenofon en Aristophanes, die een verschillend beeld geven (het socratische probleem).\n\nHij werd in 399 v.Chr. ter dood veroordeeld.",
+      "contributions": [
+        "De elenchus",
+        "Het zoeken naar definities"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "proces-van-socrates"
+      ],
+      "image": null
+    },
+    {
+      "id": "plato",
+      "name": "Plato",
+      "full_name": "Plato van Athene",
+      "lived": "ca. 428/427 – ca. 348/347 v.Chr.",
+      "sort_year": -428,
+      "region": "Athene",
+      "known_for": "Dialogen waarin Socrates optreedt.",
+      "bio": "Plato was leerling van Socrates en stichter van de Academie. Zijn dialogen zijn de belangrijkste bron over Socrates en worden geciteerd naar Stephanus-nummers.",
+      "contributions": [
+        "Apologie",
+        "Euthyphro",
+        "Laches",
+        "Staat"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "clarke-39-handschrift"
+      ],
+      "image": null
+    },
+    {
+      "id": "aristoteles",
+      "name": "Aristoteles",
+      "full_name": "Aristoteles van Stagira",
+      "lived": "384 – 322 v.Chr.",
+      "sort_year": -384,
+      "region": "Athene",
+      "known_for": "Een van de eerste theorieën over geldige redeneringen.",
+      "bio": "Aristoteles was leerling van Plato. In de *Analytica priora* beschrijft hij het syllogisme; hij werkt met letters als plaatsvervanger voor termen.",
+      "contributions": [
+        "Analytica priora",
+        "Metafysica"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "nagarjuna",
+      "name": "Nagarjuna",
+      "full_name": "Nagarjuna",
+      "lived": "waarschijnlijk 2e–3e eeuw n.Chr.",
+      "sort_year": 200,
+      "region": "India",
+      "known_for": "De tetralemma in de Mulamadhyamakakarika.",
+      "bio": "Nagarjuna is grondlegger van de Madhyamaka. De datering is onzeker; hoe radicaal zijn conclusies zijn, wordt verschillend gelezen.",
+      "contributions": [
+        "Mulamadhyamakakarika"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "hume",
+      "name": "David Hume",
+      "full_name": "David Hume",
+      "lived": "1711 – 1776",
+      "sort_year": 1711,
+      "region": "Schotland",
+      "known_for": "Het probleem van inductie.",
+      "bio": "Hume was een Schotse filosoof. In zijn *Treatise* vraagt hij waarom inductie een redelijke vorm van redeneren is.",
+      "contributions": [
+        "A Treatise of Human Nature"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "hume-treatise"
+      ],
+      "image": null
+    },
+    {
+      "id": "wittgenstein",
+      "name": "Ludwig Wittgenstein",
+      "full_name": "Ludwig Wittgenstein",
+      "lived": "1889 – 1951",
+      "sort_year": 1889,
+      "region": "Oostenrijk en Engeland",
+      "known_for": "Familiegelijkenissen en filosofie als verheldering.",
+      "bio": "Wittgenstein onderzocht in zijn latere werk hoe taal wordt gebruikt. In de *Filosofische onderzoekingen* (§66–67) introduceert hij familiegelijkenissen.",
+      "contributions": [
+        "Filosofische onderzoekingen"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "gettier",
+      "name": "Edmund Gettier",
+      "full_name": "Edmund Gettier",
+      "lived": "1927 – 2021",
+      "sort_year": 1927,
+      "region": "Verenigde Staten",
+      "known_for": "Een artikel dat de definitie van kennis onder druk zette.",
+      "bio": "Gettier publiceerde in 1963 een artikel van drie bladzijden in *Analysis*.",
+      "contributions": [
+        "Is justified true belief knowledge?"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "gettier-artikel"
+      ],
+      "image": null
+    }
+  ]
+}

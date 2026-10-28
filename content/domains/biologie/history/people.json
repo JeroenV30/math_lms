@@ -1,0 +1,293 @@
+{
+  "people": [
+    {
+      "id": "aristoteles",
+      "name": "Aristoteles",
+      "full_name": "Aristoteles van Stagira",
+      "lived": "384 – 322 v.Chr.",
+      "sort_year": -350,
+      "region": "Griekenland",
+      "known_for": "Beschreef en rangschikte dieren en introduceerde een indeling naar vermogens van de ziel.",
+      "bio": "Aristoteles was leerling van Plato en leraar van Alexander de Grote. Zijn dierkundige geschriften bevatten honderden waarnemingen over bouw, gedrag en voortplanting.\n\nZijn gedachte dat levende wezens uit hun vorm en functie te begrijpen zijn, werkte eeuwenlang door, evenals zijn doelgerichte manier van verklaren, die de moderne biologie heeft losgelaten.",
+      "contributions": [
+        "Historia animalium",
+        "De anima",
+        "Scala naturae"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "aristoteles-historia-animalium"
+      ],
+      "image": null
+    },
+    {
+      "id": "robert-hooke",
+      "name": "Hooke",
+      "full_name": "Robert Hooke",
+      "lived": "1635 – 1703",
+      "sort_year": 1665,
+      "region": "Engeland",
+      "known_for": "Publiceerde *Micrographia* en gaf cellen hun naam.",
+      "bio": "Hooke was curator van experimenten bij de Royal Society, natuurkundige en architect. Zijn *Micrographia* maakte de microscopische wereld bij een breed publiek bekend.\n\nHij beschreef in kurk kamertjes die hij *cells* noemde. Hij bevestigde in 1677 Van Leeuwenhoeks waarnemingen van micro-organismen.",
+      "contributions": [
+        "*Micrographia* (1665)",
+        "Het woord *cell*"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "hooke-micrographia",
+        "leeuwenhoek-bacterien"
+      ],
+      "image": null
+    },
+    {
+      "id": "francesco-redi",
+      "name": "Redi",
+      "full_name": "Francesco Redi",
+      "lived": "1626 – 1697",
+      "sort_year": 1668,
+      "region": "Italië",
+      "known_for": "Weerlegde met een controleproef dat maden spontaan uit vlees ontstaan.",
+      "bio": "Redi was arts en natuuronderzoeker aan het hof van Toscane. Zijn proef met open en afgedekte potten vlees geldt als een vroeg voorbeeld van experimentele controle.",
+      "contributions": [
+        "Experimenten over de voortplanting van insecten (1668)"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "redi-maden"
+      ],
+      "image": null
+    },
+    {
+      "id": "antoni-van-leeuwenhoek",
+      "name": "Van Leeuwenhoek",
+      "full_name": "Antoni van Leeuwenhoek",
+      "lived": "1632 – 1723",
+      "sort_year": 1675,
+      "region": "Delft",
+      "known_for": "Beschreef als eerste micro-organismen met zelfgeslepen lenzen.",
+      "bio": "Van Leeuwenhoek was lakenkoopman in Delft en sleep zelf lenzen. Via brieven aan de Royal Society maakte hij zijn waarnemingen bekend.\n\nHij beschreef onder meer protozoën, bacteriën, rode bloedcellen en zaadcellen. Hoe hij zijn lenzen maakte, hield hij grotendeels geheim.",
+      "contributions": [
+        "Beschrijving van micro-organismen",
+        "Beschrijving van bacteriën (1676)"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "leeuwenhoek-dierkens",
+        "leeuwenhoek-bacterien"
+      ],
+      "image": null
+    },
+    {
+      "id": "robert-brown",
+      "name": "Brown",
+      "full_name": "Robert Brown",
+      "lived": "1773 – 1858",
+      "sort_year": 1831,
+      "region": "Schotland / Engeland",
+      "known_for": "Beschreef de celkern.",
+      "bio": "Brown was een Schotse botanicus. Bij onderzoek aan orchideeën zag hij de kern als vast onderdeel van cellen en gaf hem de naam *nucleus*. Hij is ook bekend om de brownse beweging.",
+      "contributions": [
+        "Beschrijving van de celkern"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "brown-celkern"
+      ],
+      "image": null
+    },
+    {
+      "id": "matthias-schleiden",
+      "name": "Schleiden",
+      "full_name": "Matthias Jacob Schleiden",
+      "lived": "1804 – 1881",
+      "sort_year": 1838,
+      "region": "Duitse landen",
+      "known_for": "Toonde aan dat planten uit cellen bestaan.",
+      "bio": "Schleiden was jurist, later plantkundige. In 1838 stelde hij dat alle plantaardige weefsels uit cellen zijn opgebouwd.\n\nZijn gedachte dat cellen uit een formloze vloeistof ontstaan bleek onjuist.",
+      "contributions": [
+        "Celtheorie voor planten (1838)"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "schleiden-schwann-celtheorie"
+      ],
+      "image": null
+    },
+    {
+      "id": "theodor-schwann",
+      "name": "Schwann",
+      "full_name": "Theodor Schwann",
+      "lived": "1810 – 1882",
+      "sort_year": 1839,
+      "region": "Duitse landen",
+      "known_for": "Toonde aan dat ook dieren uit cellen bestaan.",
+      "bio": "Schwann was fysioloog. In 1839 breidde hij het inzicht van Schleiden uit naar dierlijk weefsel. De schedecellen rond zenuwvezels zijn naar hem genoemd.",
+      "contributions": [
+        "Celtheorie voor dieren (1839)"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "schleiden-schwann-celtheorie"
+      ],
+      "image": null
+    },
+    {
+      "id": "rudolf-virchow",
+      "name": "Virchow",
+      "full_name": "Rudolf Virchow",
+      "lived": "1821 – 1902",
+      "sort_year": 1855,
+      "region": "Duitse landen",
+      "known_for": "Formuleerde *omnis cellula e cellula* en grondlegger van de cellulaire pathologie.",
+      "bio": "Virchow was arts en patholoog in Berlijn. Hij stelde dat ziekte in cellen begint en dat nieuwe cellen alleen uit bestaande cellen ontstaan.",
+      "contributions": [
+        "*Omnis cellula e cellula* (1855)",
+        "Cellulaire pathologie"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "virchow-omnis-cellula"
+      ],
+      "image": null
+    },
+    {
+      "id": "louis-pasteur",
+      "name": "Pasteur",
+      "full_name": "Louis Pasteur",
+      "lived": "1822 – 1895",
+      "sort_year": 1861,
+      "region": "Frankrijk",
+      "known_for": "Weerlegde spontane generatie en grondlegger van de microbiologie.",
+      "bio": "Pasteur begon als scheikundige. Zijn experimenten met kolven met zwanenhals toonden aan dat micro-organismen uit de omgeving komen en niet spontaan ontstaan.\n\nLater ontwikkelde hij onder meer vaccins en de naar hem genoemde pasteurisatie.",
+      "contributions": [
+        "Weerlegging van spontane generatie",
+        "Pasteurisatie",
+        "Vaccins"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "pasteur-zwanenhals"
+      ],
+      "image": null
+    },
+    {
+      "id": "walther-flemming",
+      "name": "Flemming",
+      "full_name": "Walther Flemming",
+      "lived": "1843 – 1905",
+      "sort_year": 1882,
+      "region": "Duitsland",
+      "known_for": "Beschreef de mitose.",
+      "bio": "Flemming was hoogleraar in Kiel. Hij gebruikte kleurstoffen om chromosomen zichtbaar te maken en beschreef de stadia van de kerndeling.",
+      "contributions": [
+        "Beschrijving van de mitose (1882)"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "flemming-mitose"
+      ],
+      "image": null
+    },
+    {
+      "id": "evert-gorter",
+      "name": "Gorter",
+      "full_name": "Evert Gorter",
+      "lived": "1881 – 1954",
+      "sort_year": 1925,
+      "region": "Leiden",
+      "known_for": "Toonde samen met Grendel dat het celmembraan een lipidendubbellaag is.",
+      "bio": "Gorter was kinderarts in Leiden en deed daarnaast onderzoek aan oppervlakten van lipiden. Zijn experiment met F. Grendel uit 1925 gaf het eerste bewijs voor een dubbellaag.",
+      "contributions": [
+        "Gorter-Grendelexperiment (1925)"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "gorter-grendel-dubbellaag"
+      ],
+      "image": null
+    },
+    {
+      "id": "ernst-ruska",
+      "name": "Ruska",
+      "full_name": "Ernst Ruska",
+      "lived": "1906 – 1988",
+      "sort_year": 1931,
+      "region": "Duitsland",
+      "known_for": "Bouwde met Max Knoll de eerste elektronenmicroscoop.",
+      "bio": "Ruska was ingenieur. Zijn elektronenmicroscoop bracht structuren binnen bereik die lichtmicroscopie niet kan oplossen. In 1986 kreeg hij daarvoor een deel van de Nobelprijs voor Natuurkunde.",
+      "contributions": [
+        "Elektronenmicroscoop (1931)"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "ruska-elektronenmicroscoop"
+      ],
+      "image": null
+    },
+    {
+      "id": "lynn-margulis",
+      "name": "Margulis",
+      "full_name": "Lynn Margulis",
+      "lived": "1938 – 2011",
+      "sort_year": 1967,
+      "region": "Verenigde Staten",
+      "known_for": "Onderbouwde de endosymbiontentheorie voor mitochondriën en chloroplasten.",
+      "bio": "Margulis was bioloog. Haar theorie over het ontstaan van mitochondriën en chloroplasten uit opgenomen bacteriën werd aanvankelijk met scepsis ontvangen en later bevestigd.",
+      "contributions": [
+        "Endosymbiontentheorie (1967)"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "margulis-endosymbiose"
+      ],
+      "image": null
+    },
+    {
+      "id": "carl-woese",
+      "name": "Woese",
+      "full_name": "Carl Woese",
+      "lived": "1928 – 2012",
+      "sort_year": 1977,
+      "region": "Verenigde Staten",
+      "known_for": "Ontdekte de archaea als apart domein van het leven.",
+      "bio": "Woese vergeleek ribosomaal RNA van organismen en liet zien dat het leven uit drie domeinen bestaat: bacteriën, archaea en eukaryoten.",
+      "contributions": [
+        "Driedomeinenstelsel (1977)"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "woese-archaea"
+      ],
+      "image": null
+    }
+  ]
+}

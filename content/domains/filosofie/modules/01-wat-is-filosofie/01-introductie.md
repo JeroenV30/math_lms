@@ -1,62 +1,43 @@
-## Een gesprek op de markt van Athene
+## Een perkamenten boek uit het jaar 895
 
-Stel je Athene voor, aan het einde van de vijfde eeuw voor onze jaartelling. Op een plein of in een werkplaats raakt Socrates met iemand in gesprek over moed. Zijn gesprekspartner denkt te weten wat moed is. Moed is standhouden in de strijd, zegt hij. Socrates vraagt of dat ook geldt wanneer terugtrekken verstandiger is. De ander past zijn antwoord aan. Moed is dan misschien weten waarvoor je bang moet zijn. Maar wat betekent dat precies? En kan iemand dapper zijn zonder kennis?
+In de Bodleian Library in Oxford ligt een handschrift met het signatuur MS. E. D. Clarke 39. Het is een dik boek van perkament, in het jaar 895 in Constantinopel gekopieerd door een kopiist die bekendstaat als Johannes de kalligraaf, in opdracht van de geleerde Arethas, de latere aartsbisschop van Caesarea. Het bevat vierentwintig dialogen van Plato en is het oudste bewaarde handschrift voor ongeveer de helft daarvan. In 1801 kocht de Britse reiziger Edward Daniel Clarke het van een klooster op Patmos en schonk het aan de bibliotheek van Oxford. De Bodleian heeft het inmiddels volledig gedigitaliseerd.
 
-We kennen zulke gesprekken vooral uit teksten van Plato, die Socrates als gesprekspartner opvoert. Die teksten zijn geen geluidsopnamen en geven niet zonder meer woordelijk weer wat er historisch is gezegd. Wel laten ze een herkenbare werkwijze zien: een bewering wordt onderzocht door vragen te stellen, voorbeelden te vergelijken en te kijken of de antwoorden samen kunnen kloppen. Het gesprek levert niet altijd een definitie op. Soms eindigt het met een scherper besef van wat nog onduidelijk is.
+Tussen de eerste bladen staat een tekst die Plato ruim twaalfhonderd jaar eerder schreef: de *Apologie*, zijn weergave van de verdediging die Socrates in 399 v.Chr. hield voor een Atheense rechtbank. Na de veroordeling zegt Socrates daarin iets dat sindsdien talloze keren is aangehaald. Vrij vertaald: *een leven zonder onderzoek is voor een mens niet de moeite waard om te leven* (*Apologie* 38a).
 
-Dat kan onbevredigend lijken. Je stelt een vraag en krijgt geen afgerond antwoord, maar meer vragen. Toch gebeurt er iets belangrijks: een vanzelfsprekend woord als *moed* blijkt minder eenvoudig dan het eerst leek. Het gesprek maakt zichtbaar welke aannames erin verborgen zitten. Filosofie begint vaak op dat moment: wanneer je niet alleen vraagt wat iemand vindt, maar ook waarom dat standpunt redelijk zou zijn.
+Het getal en de letter achter de titel verdienen een toelichting, want je ziet ze in de rest van deze cursus steeds terug. De tekst van Plato wordt niet geciteerd naar bladzijde van een bepaalde uitgave, maar naar de paginering van de Parijse uitgave van Henri Estienne (Stephanus) uit 1578. Elke pagina is daarin in vijf stukken verdeeld, a tot en met e. Met "38a" kun je dezelfde passage vinden in elke vertaling en elke wetenschappelijke uitgave. Aristoteles wordt op dezelfde manier geciteerd naar de uitgave van Immanuel Bekker uit 1831 (*Metafysica* 982b), en Kant naar de paginering van de eerste en tweede uitgave van de *Kritik der reinen Vernunft* (A en B). Wie filosofie wil lezen en bespreken, begint met zo'n gemeenschappelijke vindplaats: zonder die kan niemand controleren wat je beweert dat een tekst zegt.
 
 :::question
-Wanneer is iemand moedig: als diegene geen angst voelt, of juist als diegene ondanks angst iets doet? Welke voorbeelden zouden je antwoord kunnen veranderen?
+Socrates zegt dat een leven zonder onderzoek niet de moeite waard is. Is dat een bewering die waar of onwaar kan zijn, of een persoonlijke keuze? Wat zou je moeten weten om hem te kunnen tegenspreken?
 :::
 
 ## Waarom bestaat deze kennis?
 
-Mensen moeten handelen voordat ze alles zeker weten. Je kiest wat je eerlijk vindt, bepaalt wie je vertrouwt, beoordeelt een bewijs en probeert te begrijpen wat een goed leven is. Zulke keuzes steunen op ideeën over kennis, werkelijkheid en waarde. Vaak merk je die ideeën pas op wanneer iemand ze tegenspreekt.
+Je neemt elke dag beslissingen waarin ideeën meespelen die je zelden uitspreekt. Je gelooft dat je iets weet of alleen dat het zo lijkt. Je vindt iets eerlijk of niet. Je vertrouwt een bron, een getuige of een berekening. Zulke ideeën over kennis, werkelijkheid en waarde zijn meestal werkzaam in de achtergrond. Ze komen pas aan de oppervlakte wanneer iemand ze tegenspreekt, of wanneer twee ideeën die je allebei aanneemt botsen.
 
-Filosofie bestaat om die ideeën zorgvuldig te onderzoeken. Ze vraagt bijvoorbeeld wat een goede reden is, wat het betekent iets te weten, welke eigenschappen iets tot hetzelfde ding maken, en hoe we moeten handelen wanneer waarden botsen. Zulke vragen zijn niet altijd op te lossen met een meting. Een meting kan vaststellen wat er gebeurt; de filosofische vraag kan zijn welke betekenis we daaraan geven, welke begrippen we gebruiken en welke conclusie daaruit volgt.
+Filosofie onderzoekt die ideeën op een bepaalde manier: door redenen te geven en te beoordelen. Het gaat dus niet om de vraag wat iemand vindt, maar om de vraag waarom dat standpunt redelijk zou zijn, en wat het zou kosten om het te verlaten. Dat verschilt van wetenschappelijk onderzoek, dat nieuwe waarnemingen verzamelt, en van een discussie waarin iedereen zijn mening houdt. Een filosofische vraag is vaak een vraag waarbij je al alle relevante feiten kunt kennen en toch niet weet wat je ervan moet denken. Hoeveel waarde heeft een leven? Wanneer weet je iets echt? Is een kopie van jou nog jij?
 
-Dat betekent niet dat filosofie losstaat van feiten. Een redenering over een historische gebeurtenis moet rekening houden met bronnen. Een ethische discussie over medische zorg moet begrijpen wat de behandeling doet. Filosofisch denken vraagt juist om onderscheid: wat weten we, wat nemen we aan, en wat volgt daar wel of niet uit? Waar feiten ontbreken, hoort onzekerheid zichtbaar te blijven.
+Dat betekent niet dat filosofie losstaat van feiten. Een gedachte over geheugen moet rekening houden met wat de psychologie over geheugen vindt. Een ethische discussie over medische zorg moet begrijpen wat een behandeling doet. Filosofie helpt wel om te zien welk onderdeel van een discussie een feitelijke kwestie is, welk onderdeel een kwestie van betekenis, en welk onderdeel een kwestie van waarde. Veel verwarring ontstaat doordat die drie door elkaar lopen.
 
-Filosofie is ook geen verzameling meningen waarbij elk antwoord even goed is. Je mag van mening verschillen, maar redenen kunnen sterker of zwakker zijn. Een argument kan relevante voorbeelden meenemen, begrippen helder gebruiken en de gevolgen van een standpunt onder ogen zien. Een argument kan ook steunen op een verborgen aanname of zichzelf tegenspreken. Door die verschillen te onderzoeken, wordt meningsvorming preciezer.
+Ook is filosofie geen verzameling meningen waarin elk antwoord even goed is. Je mag van mening verschillen, maar redenen zijn sterker of zwakker. Een argument kan steunen op een verborgen aanname, zichzelf tegenspreken of een conclusie trekken die niet volgt. Het goede nieuws is dat je dat kunt leren zien. Het slechte nieuws is dat het ook geldt voor jouw eigen redeneringen.
 
-De naam *filosofie* komt uit het Grieks en wordt doorgaans uitgelegd als liefde voor wijsheid. Die naam zegt iets over een houding, niet over een garantie dat een filosoof wijs is. Je onderzoekt hoe je tot een oordeel komt en blijft bereid het oordeel bij te stellen. Dat vraagt zowel nieuwsgierigheid als terughoudendheid: niet te snel tevreden zijn, maar ook niet doen alsof niets ooit te weten valt.
+## De route door deze module
 
-## Van verwondering naar onderzoek
+In deze module zet je vier gereedschappen op een rij. Eerst de houding waarmee het begint: verwondering, en de vraag wat het verschil is tussen een filosofische vraag en een vraag die je met waarnemen of meten beantwoordt. Daarna Socrates, die in de *Apologie* en in andere dialogen een methode laat zien om beweringen te onderzoeken door vragen te stellen. Vervolgens het definiëren van begrippen, wat vaak lastiger blijkt dan het lijkt, en de techniek van het tegenvoorbeeld. Daarna het argument zelf: premissen en conclusie, geldigheid en waarheid, deductie en inductie, en de denkfouten waar mensen steeds opnieuw in trappen. Aan het eind kijk je naar de hoofdgebieden van de filosofie en naar tradities buiten Europa, die met dezelfde middelen aan eigen vragen werkten.
 
-Een filosofische vraag kan ontstaan uit verwondering. Waarom is er iets in plaats van niets? Hoe weet je dat je herinnering klopt? Is een handeling goed omdat ze goede gevolgen heeft, of zijn er grenzen aan wat je voor een goed doel mag doen? De eerste formulering is vaak breed. Onderzoek begint door te bepalen wat de vraag precies vraagt.
+Het niveau loopt op. Het begin is toegankelijk: een gesprek over moed, een alledaags voorbeeld. Het einde vraagt om precisie, bijvoorbeeld wanneer je een tekst in de vorm P1, P2, C moet zetten en moet beslissen of de conclusie werkelijk volgt. Dat laatste is het niveau van een eerste jaar filosofie aan de universiteit. Je hoeft er niets over te weten voordat je begint.
 
-Neem de vraag: “Is liegen verkeerd?” Bedoel je dat elke onware uitspraak verkeerd is, ook om iemand te beschermen? Gaat het om de bedoeling, de gevolgen of de regel die je zou willen dat iedereen volgt? Wie die vragen uit elkaar haalt, ontwijkt het probleem niet. Die maakt duidelijk welke kwestie besproken wordt.
+:::example Eén gesprek, vier vragen
+Iemand beweert: "Een leven zonder onderzoek is niet de moeite waard." Dat is een mooie zin, maar nog geen onderzoek. Je kunt er vier vragen over stellen.
 
-Een filosofisch onderzoek kan in enkele stappen verlopen. Eerst formuleer je de vraag en licht je belangrijke woorden toe. Daarna maak je een voorlopige bewering. Je geeft redenen voor die bewering en onderzoekt een tegenvoorbeeld: een geval dat je regel mogelijk onder druk zet. Vervolgens pas je je oordeel aan of leg je uit waarom het tegenvoorbeeld niet beslissend is. Het doel is niet altijd een definitief antwoord. Een goed resultaat kan ook zijn dat je beter begrijpt waar het meningsverschil precies zit.
+1. **Wat wordt beweerd?** Dat zonder onderzoek het leven geen waarde heeft. Dat is sterker dan "onderzoek maakt het leven beter".
+2. **Welke redenen worden gegeven?** Een mogelijke reden, die in de geest van de *Apologie* is: wie nooit nagaat wat hij doet en waarom, laat zijn belangrijkste keuzes aan toeval en gewoonte over. Dat is een redenering van ons, geen woordelijk citaat.
+3. **Welke aannames zijn nodig?** Bijvoorbeeld dat een leven waarin je keuzes aan toeval overlaat, minder waard is. En dat onderzoek je daadwerkelijk iets oplevert.
+4. **Wat zou van mening doen veranderen?** Een tegenvoorbeeld: iemand die nooit filosofeert maar met zorg en toewijding leeft. Is dat leven minder de moeite waard? Hier blijkt de bewering in zijn sterkste vorm misschien te hard, en kun je haar aanscherpen: onderzoek is een belangrijke voorwaarde voor een leven waarin je jezelf kunt verantwoorden.
+:::
 
-De Socratische vraagmethode is één historische vorm van filosofisch onderzoek, maar niet de enige. Filosofen schrijven ook verhandelingen, analyseren taal, bouwen formele argumenten op, vergelijken ervaringen en toetsen begrippen aan concrete gevallen. Een gesprek kan helpen, maar alleen als deelnemers werkelijk luisteren en redenen beoordelen. Vragen stellen om iemand te vernederen is geen zorgvuldig onderzoek.
+Let op wat hier gebeurde. De bewering werd niet verworpen en ook niet klakkeloos geaccepteerd. Ze werd opgesplitst in onderdelen die je afzonderlijk kunt beoordelen. Dat is de werkwijze van het hele vak.
 
-## Een vraag is nog geen argument
-
-Dat je een moeilijke vraag stelt, betekent nog niet dat je al een argument hebt gegeven. “Wat is rechtvaardig?” opent een onderzoek. “Een regel is rechtvaardig als die voor iedereen op dezelfde manier geldt” is een mogelijke bewering. “Want uitzonderingen op basis van persoonlijke voorkeur maken de regel willekeurig” is een reden. Je kunt vervolgens vragen of gelijke toepassing altijd rechtvaardig is. Als een regel bijvoorbeeld iemand met een beperking benadeelt, kan gelijke behandeling juist een ongelijk effect hebben.
-
-De stap van vraag naar argument maakt het gesprek controleerbaar. Anderen kunnen nagaan of de reden relevant is en of de conclusie eruit volgt. Dat is iets anders dan eisen dat iedereen het eens wordt. Een gesprek kan eindigen met twee goed onderbouwde, maar verschillende oordelen, bijvoorbeeld omdat de deelnemers andere waarden zwaarder laten wegen. Dan helpt het om precies te benoemen waar de afweging verschilt.
-
-Ook een overtuigend voorbeeld bewijst niet automatisch een algemene regel. Eén geval kan een universele bewering weerleggen, maar veel gevallen bevestigen die niet definitief. Als iemand zegt “niemand verandert ooit van mening”, volstaat één persoon die dat wel doet als tegenvoorbeeld. Maar honderd mensen die van mening veranderden bewijzen niet dat iedereen dat altijd kan. Logica en zorgvuldige formulering helpen zulke verschillen zichtbaar te maken.
-
-## Een houding van onderzoek
-
-Filosofisch denken is niet hetzelfde als overal twijfel aan hebben. Als je aan alles tegelijk twijfelt, kun je nauwelijks nog iets onderzoeken. Je begint meestal bij werkbare uitgangspunten en vraagt welke daarvan ter discussie staan. Misschien vertrouw je voorlopig op je waarneming, maar onderzoek je of een bepaalde waarneming voldoende bewijs is. Of je accepteert dat mensen pijn kunnen ervaren en bespreekt vervolgens wat we hun verschuldigd zijn.
-
-Een nuttige gewoonte is om vier vragen uit elkaar te houden: wat wordt beweerd, welke redenen worden gegeven, welke aannames zijn nodig, en welk soort bewijs zou verschil maken? Daarmee voorkom je dat een discussie ongemerkt verschuift. Iemand kan bijvoorbeeld een feitelijke vraag beantwoorden met een waardeoordeel, of een waardeoordeel presenteren alsof het een meetresultaat is.
-
-Luisteren hoort bij die houding. Je kunt een standpunt pas goed beoordelen als je het zo kunt navertellen dat de ander het herkent. Daarna kun je kritiek geven op de sterkste versie van het argument in plaats van op een karikatuur. Dat maakt een gesprek niet altijd vriendelijker of korter, maar wel eerlijker. En als je ontdekt dat je eigen reden niet deugt, is bijstellen geen nederlaag. Het is een teken dat het onderzoek effect heeft gehad.
-
-## Routekaart: vragen in verschillende richtingen
-
-In de volgende lessen kun je filosofische vragen verder uitwerken. Logica en argumentatie onderzoeken hoe redenen met conclusies samenhangen en hoe je drogredenen herkent. Kennistheorie vraagt wat kennis is, hoe bewijs werkt en waar twijfel gerechtvaardigd is. Ethiek onderzoekt hoe we behoren te handelen en welke waarden bij botsingen meespelen. Metafysica vraagt wat er bestaat en wat verandering, identiteit of tijd betekenen. Filosofie van de geest stelt vragen over bewustzijn en de verhouding tussen lichaam en ervaring. Politieke filosofie onderzoekt macht, vrijheid, gelijkheid en de rechtvaardiging van regels.
-
-Deze gebieden zijn geen afgesloten vakjes. Een discussie over kunstmatige intelligentie kan bijvoorbeeld tegelijk gaan over kennis, bewustzijn, verantwoordelijkheid en politieke macht. De begrippen en argumenten die je hier oefent, geven je gereedschap om zulke verbindingen te volgen. Je hoeft nog geen antwoorden te kennen. Je moet vooral leren zien wat de vraag is, welke redenen op tafel liggen en wat er nodig is om verder te komen.
-
-## Reflectie
-
-Kies een overtuiging die je belangrijk vindt, bijvoorbeeld over eerlijkheid, vrijheid of vertrouwen. Schrijf de overtuiging op als één duidelijke zin. Noteer daarna één reden die je ervoor hebt, één aanname die in die reden meespeelt en één tegenvoorbeeld dat je aan het twijfelen zou kunnen brengen. Verandert je standpunt door dat voorbeeld, of moet je het alleen nauwkeuriger formuleren? Leg voor jezelf vast welke stap in je redenering het meest onzeker is.
+{{ exercises: 01-001, 01-002 }}
 
 {{ goals }}
 

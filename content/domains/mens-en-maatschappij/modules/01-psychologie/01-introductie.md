@@ -1,84 +1,70 @@
-## Een onverwachte keuze
+## Honderd studies, opnieuw gedaan
 
-In 1879 richtte de Duitse onderzoeker Wilhelm Wundt in Leipzig een laboratorium in voor experimenteel psychologisch onderzoek. Daar konden onderzoekers onder gecontroleerde omstandigheden processen als waarneming en reactietijd bestuderen. De precieze afbakening van het vak psychologie ontwikkelde zich geleidelijk; het nieuwe laboratorium gold als een belangrijk teken dat de studie van mentale processen een eigen experimentele vorm kreeg.
+Op 28 augustus 2015 verscheen in het tijdschrift *Science* (jaargang 349, nummer 6251) een artikel met een ongewoon doel. De auteurs, ruim tweehonderd onderzoekers die samenwerkten onder de naam Open Science Collaboration, vroegen zich niet af wat een nieuwe stof of een nieuw gedrag laat zien. Ze vroegen zich af of psychologisch onderzoek dat al was gepubliceerd bij herhaling hetzelfde oplevert. Het artikel heet *Estimating the reproducibility of psychological science* en is te vinden via het DOI 10.1126/science.aac4716.
 
-De scène laat een verschuiving zien. Mensen hadden al eeuwen nagedacht over angst, aandacht, herinnering en wil. Nu probeerden onderzoekers die ervaringen ook systematisch te bestuderen, met instrumenten, waarnemingen en vergelijkingen. Maar zodra je iemand onderzoekt, ontstaat een lastige vraag: meet je de persoon, de situatie, of de manier waarop je de situatie hebt ingericht?
-
-Een deelnemer die weet dat hij wordt geobserveerd, kan zich anders gedragen. Een onderzoeker kan ongemerkt vooral letten op wat bij zijn verwachting past. En een getal op een meetinstrument vertelt niet vanzelf wat iemand ervaart. Het onderzoek naar mensen vraagt daarom tegelijk om nieuwsgierigheid en zelfkritiek.
+Het team koos honderd studies uit drie vooraanstaande tijdschriften en liet onafhankelijke laboratoria elke studie zo getrouw mogelijk opnieuw uitvoeren, vaak met de oorspronkelijke materialen en met de hulp van de oorspronkelijke auteurs. In 97 van de 100 oorspronkelijke studies had de onderzoeker een statistisch significant resultaat gerapporteerd. Bij de herhalingen was dat in 36 van de 100 gevallen zo. Het gemiddelde effect in de herhalingen was bovendien ongeveer half zo groot als in de oorspronkelijke publicaties.
 
 :::question
-Als iemand zegt dat hij zich rustig voelt, maar zijn hartslag versnelt, welk gegeven vertelt je dan het meest over zijn ervaring? Wat zou je nog moeten weten?
+Stel dat je hoort dat slechts 36 van de 100 herhalingen hetzelfde resultaat gaven als het origineel. Welke conclusie ligt voor de hand, en welke twee of drie andere verklaringen zou je willen uitsluiten voordat je die conclusie trekt?
 :::
 
-## Waarom bestaat deze kennis?
+Denk er even over na voordat je verder leest. Een snelle conclusie is dat psychologen slecht werk leveren, of dat psychologie geen echte wetenschap is. Een andere snelle conclusie is dat de herhalers het slecht deden. Geen van beide volgt vanzelf uit het getal. Wat wél volgt, is dat je een onderzoeksuitkomst niet kunt beoordelen zonder te weten hoe ze tot stand kwam. Daar gaat deze module over.
 
-Psychologie onderzoekt gedrag en mentale processen: hoe mensen waarnemen, denken, voelen, leren, onthouden en handelen. Die kennis bestaat omdat mensen zichzelf en elkaar proberen te begrijpen. Waarom reageren we verschillend op dezelfde gebeurtenis? Hoe ontstaan gewoonten? Wat helpt iemand leren? Hoe beïnvloeden verwachtingen, emoties en sociale omstandigheden een beslissing?
+## Wat psychologie onderzoekt
 
-De antwoorden zijn niet alleen theoretisch. Ze spelen een rol in onderwijs, zorg, werk, recht en het dagelijks leven. Kennis over leren kan helpen een les beter op te bouwen. Inzicht in stress kan duidelijk maken waarom iemand onder druk anders presteert. Onderzoek naar groepsgedrag kan laten zien hoe normen en verwachtingen keuzes sturen. Zulke toepassingen vragen om voorzichtigheid: een algemene bevinding beschrijft nooit automatisch één persoon volledig.
+Psychologie is de wetenschappelijke studie van gedrag en mentale processen. Met gedrag bedoelen we alles wat je van buiten kunt waarnemen: spreken, kiezen, vermijden, een knop indrukken, een gezicht vertrekken. Met mentale processen bedoelen we wat zich van binnen afspeelt: waarnemen, aandacht richten, herinneren, redeneren, voelen, verwachten, besluiten. Het zijn twee kanten van één onderzoeksterrein, en ze zijn niet even makkelijk toegankelijk. Je ziet dat iemand de kamer verlaat; waarom die persoon dat doet, moet je afleiden uit aanwijzingen.
 
-De mens is geen object dat je zonder gevolgen kunt meten. Mensen interpreteren vragen, reageren op hun omgeving en verschillen in achtergrond en ervaring. Dezelfde handeling kan bovendien verschillende betekenissen hebben. Stilte kan aandacht betekenen, onzekerheid, beleefdheid of weerstand. Om gedrag te begrijpen, moet je daarom kijken naar de omstandigheden en naar de betekenis die mensen er zelf aan geven.
+Het onderzoeksterrein is breed. Er zijn psychologen die onderzoeken hoe het oog en de hersenen samen een beeld opbouwen, en psychologen die onderzoeken hoe kinderen taal leren, hoe groepen besluiten nemen of waarom sommige mensen na een ingrijpende gebeurtenis langdurig klachten houden. Wat deze deelgebieden verbindt, is de werkwijze: een vraag zo stellen dat je er met gegevens iets over kunt zeggen, de gegevens zorgvuldig verzamelen, en eerlijk zijn over wat ze wel en niet laten zien.
 
-Psychologie probeert wel systematisch te werken. Een bewering moet duidelijk maken waarop zij steunt. Een onderzoeker beschrijft wat is gemeten, bij wie, onder welke omstandigheden en met welke beperkingen. Andere onderzoekers moeten kunnen nagaan of de uitkomst standhoudt. Zo wordt een interessant idee iets dat je kunt toetsen, bekritiseren en verbeteren.
+Die werkwijze onderscheidt psychologie van gewone mensenkennis. Iedereen heeft ideeën over waarom mensen doen wat ze doen, en veel van die ideeën zijn bruikbaar. Maar ze zijn ook selectief. Je onthoudt de keren dat een voorgevoel uitkwam en vergeet de keren dat het niet zo was. Je kent vooral mensen die op je lijken. Je verklaart gedrag achteraf, wanneer je de afloop al kent. Wetenschappelijk onderzoek is in belangrijke mate een verzameling afspraken om zulke vertekeningen te beperken.
 
-Deze module begint met psychologie als eerste ingang tot mens en maatschappij. Je leert gedrag niet meteen te verklaren met een karaktertrek of een enkel hersenproces. Je onderzoekt welke vraag is gesteld, hoe gegevens zijn verzameld en welke alternatieve verklaringen mogelijk zijn. Die werkwijze komt later terug bij sociologie, politiek, recht en economie, waar individuele keuzes ook in grotere structuren worden geplaatst.
+:::definition Psychologie
+De wetenschappelijke studie van gedrag en mentale processen, met als doel beschrijven, verklaren en soms voorspellen hoe mensen waarnemen, denken, voelen en handelen.
+:::
 
-## Van grote vraag naar onderzoekbare vraag
+Een tweede onderscheid is dat psychologie het individu en de omstandigheden samen bekijkt. Dezelfde persoon gedraagt zich anders in een collegezaal dan op een feestje, en dezelfde situatie roept bij verschillende personen verschillende reacties op. Een goede psychologische verklaring houdt rekening met beide. Dat maakt het vak ingewikkeld, maar ook interessant.
 
-“Waarom doen mensen wat ze doen?” is een indrukwekkende vraag, maar te breed om in één onderzoek te beantwoorden. Een onderzoeker maakt haar kleiner: “Heeft slaapduur invloed op de reactietijd van studenten bij een eenvoudige computertaak?” Nu zijn er begrippen die je kunt afbakenen. Je kunt slaapduur registreren, reactietijd meten en bepalen welke deelnemers en omstandigheden je onderzoekt.
+{{ exercises: 01-001, 01-002 }}
 
-Die afbakening is geen puur technische stap. Ze bepaalt mede welk antwoord mogelijk wordt. Een computertaak kan reactiesnelheid meten, maar zegt weinig over hoe iemand in een echt gesprek luistert. Een vragenlijst over slaap kan informatie geven over iemands ervaring, maar die ervaring valt niet altijd samen met een meting van slaap. De gekozen methode maakt sommige aspecten zichtbaar en laat andere buiten beeld.
+## Beschrijven, verklaren, voorspellen
 
-Een hypothese kan bijvoorbeeld luiden: “Studenten die korter hebben geslapen, reageren gemiddeld langzamer op een eenvoudige taak.” Dat is toetsbaar, maar nog geen feit. Je moet vastleggen wat “korter” betekent, hoe reactietijd wordt berekend en hoe je rekening houdt met factoren als cafeïne, stress, gezondheid of het tijdstip van de test.
+Een onderzoeker kan met drie soorten vragen beginnen. Een beschrijvende vraag luidt: hoe vaak komt iets voor, bij wie, onder welke omstandigheden? Hoeveel Nederlandse studenten slapen minder dan zes uur per nacht? Een verklarende vraag luidt: waarom gebeurt het? Leidt slaaptekort tot langzamere reacties, of komt de samenhang door iets anders? Een voorspellende vraag luidt: wat gaat er gebeuren als we dit weten? Kunnen we aan de hand van een vragenlijst voorspellen welke studenten het eerste jaar niet afmaken?
 
-In onderzoek wil je onderscheid maken tussen een waarneming en een interpretatie. “De deelnemer drukte na 480 milliseconden op de knop” is een beschrijving van een meetresultaat. “De deelnemer was niet geconcentreerd” is een mogelijke verklaring. Die verklaring kan kloppen, maar volgt niet rechtstreeks uit het getal. Misschien was de instructie onduidelijk of reageerde de computer vertraagd.
+Deze drie zijn niet hetzelfde. Een voorspelling kan goed werken zonder dat je begrijpt waarom, en een verklaring kan elegant klinken zonder dat ze iets voorspelt. Het is nuttig om bij elke bewering te vragen welke van de drie ze eigenlijk is. Een krantenkop als “Studenten die weinig slapen presteren slechter” is op het eerste gezicht een beschrijving, maar wordt in de volgende zin vaak een verklaring (“daarom moeten scholen later beginnen”).
 
-## Gedrag is zichtbaar; ervaring niet rechtstreeks
+Een klein, fictief voorbeeld laat zien hoe je dit uit elkaar haalt.
 
-Je kunt zien dat iemand een kamer verlaat. Je kunt niet op dezelfde manier rechtstreeks zien waarom die persoon dat doet. Misschien wil diegene frisse lucht, voelt die zich buitengesloten of moet die een afspraak halen. Gedrag is waarneembaar; de mentale processen die eraan voorafgaan, leiden onderzoekers af uit meerdere soorten aanwijzingen.
+:::example Een bewering uit elkaar halen
+Een onderzoeker meldt: “In onze steekproef drukten deelnemers die minder dan zes uur sliepen gemiddeld na 480 milliseconden op de knop, de anderen na 440 milliseconden. Slaaptekort maakt dus langzamer.”
 
-Dat betekent niet dat gedachten en gevoelens onwerkelijk zijn. Het betekent dat je zorgvuldig moet zijn met hoe je er kennis over verzamelt. Een gesprek kan inzicht geven in wat iemand zelf rapporteert. Een taak kan laten zien hoe iemand onder bepaalde omstandigheden reageert. Lichamelijke metingen kunnen informatie geven over processen die met spanning of inspanning samenhangen. Elke methode geeft een ander venster, met een eigen blinde vlek.
+Stap 1: wat is waargenomen? Twee gemiddelden, 480 en 440 milliseconden, bij twee groepen die op basis van slaapduur zijn gevormd. Dat is een beschrijving.
 
-Ook zelfrapportage heeft waarde en grenzen. Als iemand zegt bang te zijn, is dat belangrijke informatie over diens ervaring. Een onderzoeker hoeft die uitspraak niet te vervangen door een biometrische meting. Tegelijk kan iemand moeite hebben gevoelens te benoemen, zich iets verkeerd herinneren of een antwoord geven waarvan die denkt dat het sociaal gewenst is. De juiste vraag is niet welke methode altijd wint, maar welke combinatie past bij het verschijnsel dat je onderzoekt.
+Stap 2: wat is geïnterpreteerd? De zin “slaaptekort maakt langzamer” is een verklaring. Ze veronderstelt dat de slaapduur het verschil veroorzaakt.
 
-## De invloed van situatie en betekenis
+Stap 3: welke alternatieven bestaan er? Misschien sliepen de kortslapers ook minder omdat ze gestrest waren, en maakt stress langzamer. Misschien waren ze vaker ziek of dronken ze meer koffie.
 
-Gedrag ontstaat niet los van de situatie. Je kunt in een collegezaal zwijgen omdat je nadenkt, omdat je de docent niet durft tegen te spreken of omdat je de taal niet goed verstaat. Alleen de stilte waarnemen vertelt nog niet welke verklaring klopt. Je hebt context nodig en soms moet je de betrokken persoon vragen hoe die de situatie heeft ervaren.
+Stap 4: conclusie. De waarneming (een verschil van 40 milliseconden tussen twee groepen) is bruikbaar. De verklaring is een hypothese die nog getoetst moet worden, bij voorkeur met een ontwerp waarin de onderzoeker zelf bepaalt wie weinig slaapt.
+:::
 
-Een klassiek experiment kan een situatie gecontroleerd veranderen en kijken wat er gebeurt. Dat kan helpen om een mogelijke oorzaak te onderzoeken. Maar controle heeft een prijs: een laboratoriumtaak is overzichtelijker dan het dagelijks leven. Een onderzoek kan daardoor sterke aanwijzingen geven over één afgebakend proces, terwijl je voorzichtig moet zijn met de vraag of dat proces zich buiten het laboratorium op dezelfde manier voordoet.
+{{ exercise: 01-003 }}
 
-Daarom horen twee vragen bij elkaar: is de uitkomst geloofwaardig binnen dit onderzoek, en op wie of welke omstandigheden is zij van toepassing? Een studie met een kleine, specifieke groep kan waardevol zijn zonder representatief te zijn voor iedereen. Een onderzoek onder studenten in één land hoeft niet dezelfde uitkomst te geven in een andere leeftijdsgroep of cultuur.
+## Een vraag onderzoekbaar maken
 
-## Meten vraagt keuzes
+“Wat is er met de jeugd van tegenwoordig?” is een boeiende vraag, maar ze is niet te beantwoorden zoals ze er staat. Wat is “de jeugd”? Wat is “er mis”? Ten opzichte van wanneer? Een onderzoeker moet de vraag eerst verkleinen tot iets waar gegevens iets over kunnen zeggen, bijvoorbeeld: “Hoeveel uur per dag brengen Nederlandse veertienjarigen in 2020 gemiddeld door op sociale media, volgens hun eigen opgave, en hoe verhoudt zich dat tot dezelfde vraag in 2010?”
 
-Veel psychologische begrippen zijn abstract. “Aandacht”, “motivatie” of “stress” is niet één getal dat je eenvoudig afleest. Onderzoekers operationaliseren zulke begrippen: zij leggen vast welke waarnemingen als aanwijzing gelden. Aandacht kan bijvoorbeeld worden onderzocht met een taak waarbij je relevante signalen moet herkennen. Stress kan worden benaderd met een vragenlijst, een lichamelijke meting of observaties van gedrag.
+Dit verkleinen kost altijd iets. De vraag wordt duidelijker, maar ook smaller. Een onderzoeker die beweert iets over “gelukkig zijn” te meten en in feite één vraag over tevredenheid stelt, heeft een keuze gemaakt die de lezer moet kunnen zien. Daarom hoort bij elk onderzoek een beschrijving van wat is gemeten, bij wie, wanneer en hoe. In de komende lessen zie je hoe die keuzes worden gemaakt en waar ze fout kunnen gaan.
 
-Geen enkele operationalisering is het begrip zelf. Een score op een vragenlijst is een score op die vragenlijst. Om te beargumenteren dat zij iets zegt over stress, moet je uitleggen waarom de vragen passend zijn en hoe je de antwoorden interpreteert. Een meetinstrument kan nauwkeurig dezelfde uitkomst geven en toch niet goed meten wat je wilt weten. Herhaalbaarheid en betekenis zijn verwante, maar verschillende eisen.
+{{ exercise: 01-004 }}
 
-Het helpt om je af te vragen welke variabelen een rol spelen. In het slaapvoorbeeld is slaapduur een mogelijke verklarende variabele en reactietijd een uitkomstmaat. Maar dat schema laat niet automatisch zien dat slaapduur de oorzaak is. Misschien slapen studenten met veel stress korter én reageren ze langzamer. Dan kan stress een derde variabele zijn die beide samenhangt.
+## De opbouw van deze module
 
-Samenhang is dus niet vanzelf oorzaak. Om een oorzakelijk verband aannemelijk te maken, moet je alternatieve verklaringen onderzoeken. Experimenten kunnen dat soms doen door deelnemers willekeurig aan verschillende omstandigheden toe te wijzen. Dat is niet altijd praktisch of ethisch mogelijk. Dan gebruiken onderzoekers andere ontwerpen en formuleren ze hun conclusies met passende terughoudendheid.
+De module bouwt op in zeven stappen. In de volgende les zie je hoe psychologie in de negentiende eeuw een eigen vorm kreeg, met Wilhelm Wundts laboratorium in Leipzig in 1879 als bekend markeringspunt, en waarom onderzoekers er daarna lang over bleven twisten wat je eigenlijk mag meten. De derde les gaat over operationaliseren: hoe maak je van een abstract begrip als stress of aandacht iets dat je kunt waarnemen, en hoe beoordeel je of een meting betrouwbaar en valide is?
 
-## Mensen onderzoeken vraagt verantwoordelijkheid
+De vierde les vergelijkt de belangrijkste onderzoeksmethoden: experiment, correlatieonderzoek, observatie, vragenlijst en casestudy, en legt uit waarom samenhang niet hetzelfde is als oorzaak. De vijfde les behandelt steekproeven, basisstatistiek en de denkfouten waarmee zowel deelnemers als onderzoekers zichzelf in de weg kunnen zitten. De zesde les keert terug naar het artikel waarmee deze les opende: de replicatiecrisis en de ethiek van onderzoek met mensen, met Milgram en het Stanford Prison Experiment als bekende, omstreden voorbeelden. De zevende les is een praktijkles waarin je zelf beweringen beoordeelt. De achtste vat samen en leidt naar de toets.
 
-Onderzoek kan gevolgen hebben voor de mensen die eraan deelnemen en voor groepen waarover conclusies worden getrokken. Deelnemers moeten weten wat hun deelname inhoudt en hun privacy moet worden beschermd. Onderzoekers moeten ook nadenken over mogelijke schade, ongelijke machtsverhoudingen en de manier waarop resultaten later worden gebruikt.
+Het niveau loopt op. De eerste lessen zijn gericht op begrijpen en herkennen. Aan het eind kun je een korte onderzoeksbeschrijving lezen en gericht kritiek geven: wat is er gemeten, hoe sterk is de conclusie, en wat zou je willen weten voordat je haar gelooft? Dat is dezelfde vaardigheid die je later nodig hebt bij sociologie, politiek, recht en economie, vakken die ook over mensen gaan maar de nadruk leggen op groepen, regels en structuren.
 
-Een statistisch verschil tussen groepen rechtvaardigt niet zonder meer een oordeel over individuen. Gemiddelden beschrijven patronen in een groep; mensen binnen die groep kunnen sterk van elkaar verschillen. Bovendien kunnen categorieën die in onderzoek worden gebruikt, maatschappelijke aannames weerspiegelen. Wie groepen vergelijkt, moet daarom zorgvuldig uitleggen hoe die zijn gedefinieerd en welke alternatieve verklaringen mogelijk zijn.
-
-Ook populaire psychologische termen vragen om precisie. Iemand “introvert” noemen kan een korte beschrijving zijn, maar vormt geen volledige verklaring van een keuze. Een label kan helpen patronen te benoemen en tegelijk de blik vernauwen als je andere omstandigheden niet meer onderzoekt. Gebruik begrippen om vragen scherper te maken, niet om het gesprek te beëindigen.
-
-## Een route door mens en maatschappij
-
-De eerste lessen in psychologie bouwen een gereedschapskist op: begrippen afbakenen, gedrag beschrijven, hypotheses formuleren en bewijs beoordelen. Daarna kun je vragen onderzoeken over leren, geheugen, waarneming, emoties en sociale invloed. In elk onderwerp kijk je zowel naar wat individuen doen als naar de situaties waarin ze handelen.
-
-Vervolgens verbreedt de leerlijn naar sociologie. Daar verschuift de aandacht naar groepen, instituties, normen en ongelijkheid. Politiek en democratie behandelen hoe besluiten worden genomen en macht wordt verdeeld. Recht onderzoekt hoe regels worden vastgesteld, toegepast en begrensd. Economie vraagt hoe mensen en samenlevingen omgaan met schaarse middelen, prikkels en keuzes. Burgerschap verbindt zulke kennis met deelname aan het publieke leven.
-
-De disciplines stellen verschillende vragen, maar ze raken elkaar. Een psycholoog kan onderzoeken hoe mensen een risico inschatten. Een socioloog kan vragen hoe sociale positie die inschatting beïnvloedt. Een econoom kan bestuderen welke keuzes mensen onder financiële beperkingen maken. Een jurist kan vragen welke regels zulke keuzes omgeven. Geen enkel perspectief hoeft alle andere te vervangen.
-
-## Reflectie
-
-Denk aan een alledaagse keuze die je onlangs hebt gemaakt, bijvoorbeeld iets uitstellen, iemand helpen of een bericht niet beantwoorden. Beschrijf eerst alleen het waarneembare gedrag. Noteer daarna twee mogelijke verklaringen die niet hetzelfde zijn. Welke informatie zou je nodig hebben om tussen die verklaringen te kunnen kiezen?
-
-Door gedrag en verklaring uit elkaar te houden, maak je ruimte voor onderzoek. Je behandelt mensen niet als raadsels die met één label kunnen worden opgelost, maar als personen van wie handelen betekenis krijgt in een lichaam, een geschiedenis en een sociale omgeving. Dat is het vertrekpunt voor psychologie en voor de rest van mens en maatschappij.
+## Leerdoelen en begrippen
 
 {{ goals }}
 

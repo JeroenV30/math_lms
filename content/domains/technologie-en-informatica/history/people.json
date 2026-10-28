@@ -1,0 +1,148 @@
+{
+  "people": [
+    {
+      "id": "archimedes",
+      "name": "Archimedes",
+      "full_name": "Archimedes van Syracuse",
+      "lived": "ca. 287 – ca. 212 v.Chr.",
+      "sort_year": -250,
+      "region": "Syracuse",
+      "known_for": "Het wiskundig bewijs van de hefboomwet.",
+      "bio": "Archimedes werkte in Syracuse aan meetkunde en mechanica. Zijn behandeling van het evenwicht is het eerste bewaarde wiskundige bewijs voor een mechanische wet.\n\nOver zijn praktische werktuigen weten we weinig en wat we weten komt van latere auteurs; uitspraken die aan hem worden toegeschreven zijn onzeker.",
+      "contributions": [
+        "Over het evenwicht van vlakke figuren",
+        "Hefboomwet"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "archimedes-hefboomwet"
+      ],
+      "image": null
+    },
+    {
+      "id": "heron-van-alexandrie",
+      "name": "Heron",
+      "full_name": "Heron van Alexandrië",
+      "lived": "ca. 10 – ca. 70 n.Chr.",
+      "sort_year": 60,
+      "region": "Alexandrië",
+      "known_for": "Beschrijver van de eenvoudige machines en van werktuigen met lucht en stoom.",
+      "bio": "Heron schreef over mechanica en over werktuigen als de aeolipile. Zijn Mechanica is vooral in een Arabische vertaling overgeleverd.",
+      "contributions": [
+        "Mechanica",
+        "Pneumatica"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "heron-mechanica"
+      ],
+      "image": null
+    },
+    {
+      "id": "leonardo-da-vinci",
+      "name": "Leonardo da Vinci",
+      "full_name": "Leonardo da Vinci",
+      "lived": "1452 – 1519",
+      "sort_year": 1500,
+      "region": "Italië",
+      "known_for": "Schetsen van machines en vroege proeven naar wrijving.",
+      "bio": "Leonardo vulde zijn notitieboeken met schetsen van machines en onderzocht wrijving. Zijn invloed op de techniek van zijn tijd was klein omdat zijn boeken nauwelijks bekend waren.",
+      "contributions": [
+        "Codex Madrid",
+        "Studies van tandwielen en wrijving"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "leonardo-wrijving"
+      ],
+      "image": null
+    },
+    {
+      "id": "simon-stevin",
+      "name": "Simon Stevin",
+      "full_name": "Simon Stevin",
+      "lived": "1548 – 1620",
+      "sort_year": 1586,
+      "region": "Brugge, Leiden en Den Haag",
+      "known_for": "Het bewijs van het hellend vlak met de krans van bolletjes.",
+      "bio": "Stevin was wiskundige en ingenieur. Hij schreef zijn werken vaak in het Nederlands.",
+      "contributions": [
+        "Beghinselen der Weeghconst"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "stevin-weeghconst"
+      ],
+      "image": null
+    },
+    {
+      "id": "guillaume-amontons",
+      "name": "Guillaume Amontons",
+      "full_name": "Guillaume Amontons",
+      "lived": "1663 – 1705",
+      "sort_year": 1699,
+      "region": "Parijs",
+      "known_for": "De wetten van de droge wrijving.",
+      "bio": "Amontons deed proeven naar wrijving en formuleerde in 1699 de wetten die nog steeds het begin van de behandeling zijn.",
+      "contributions": [
+        "Wrijvingswetten"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "amontons-wrijvingswetten"
+      ],
+      "image": null
+    },
+    {
+      "id": "thomas-newcomen",
+      "name": "Thomas Newcomen",
+      "full_name": "Thomas Newcomen",
+      "lived": "1664 – 1729",
+      "sort_year": 1712,
+      "region": "Dartmouth, Engeland",
+      "known_for": "De eerste bruikbare zuigerstoommachine.",
+      "bio": "Newcomen was smid en ijzerhandelaar. Zijn stoommachine pompte vanaf 1712 water uit mijnen.",
+      "contributions": [
+        "Atmosferische stoommachine"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "newcomen-stoommachine"
+      ],
+      "image": null
+    },
+    {
+      "id": "james-watt",
+      "name": "James Watt",
+      "full_name": "James Watt",
+      "lived": "1736 – 1819",
+      "sort_year": 1769,
+      "region": "Glasgow, Schotland",
+      "known_for": "De aparte condensor voor de stoommachine.",
+      "bio": "Watt was instrumentmaker. Zijn aparte condensor maakte de stoommachine veel zuiniger. De eenheid van vermogen, de watt, is naar hem genoemd.",
+      "contributions": [
+        "Aparte condensor",
+        "Pomp- en roterende stoommachines"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "watt-condensor"
+      ],
+      "image": null
+    }
+  ]
+}

@@ -6,22 +6,30 @@
   "level": "fundamenten",
   "status": "available",
   "historical_period": "Prehistorie",
-  "estimated_difficulty": 1,
-  "estimated_minutes": 15,
+  "estimated_difficulty": 2,
+  "estimated_minutes": 270,
   "prerequisites": [],
   "topics": [
     "design",
     "tools",
-    "systems"
+    "systems",
+    "simple-machines",
+    "work-energy",
+    "gears",
+    "efficiency"
   ],
-  "core_question": "Hoe maken mensen gereedschap, machines en rekenende systemen?",
-  "summary": "Hoe maken mensen gereedschap, machines en rekenende systemen? Van het wiel en de abacus tot computers, algoritmen en kunstmatige intelligentie.",
+  "core_question": "Hoe maken mensen met gereedschap en machines hun inspanning effectiever, wat kost dat, en hoe ontwerp je zo'n oplossing?",
+  "summary": "Van de vuistbijl en het Antikythera-mechanisme tot hefboom, katrol, tandwiel en stoommachine: je leert waarom krachtwinst weg kost, rekent met arbeid en rendement en werkt een ontwerpvraag uit met eisen, varianten en afweging.",
   "learning_goals": [
-    "Je kunt uitleggen waarom technologie meer omvat dan moderne apparaten.",
-    "Je kunt het verschil beschrijven tussen technologie en informatica, en aangeven waar ze elkaar raken.",
-    "Je kunt een ontwerp analyseren aan de hand van doel, middelen, werking, beoordeling en gevolgen.",
-    "Je kunt uitleggen hoe een werktuig mogelijkheden vergroot en tegelijk nieuwe beperkingen kan introduceren.",
-    "Je kunt onderscheid maken tussen een waargenomen spoor en een interpretatie over vroegere technologie."
+    "Je kunt uitleggen waarom technologie meer omvat dan moderne apparaten en waarom een werktuig een verlengstuk is dat mogelijkheden vergroot en nieuwe beperkingen introduceert.",
+    "Je kunt een waargenomen spoor onderscheiden van een interpretatie over vroegere technologie.",
+    "Je kunt een ontwerp analyseren aan de hand van doel, middelen, werking, beoordeling en gevolgen, en een systeem beschrijven als invoer, proces, uitvoer en terugkoppeling.",
+    "Je kunt de werking en het mechanisch voordeel van hefboom, katrol, wiel en as, hellend vlak, wig en schroef berekenen en uitleggen.",
+    "Je kunt uitleggen waarom krachtwinst wegverlies kost en de gulden regel van de mechanica gebruiken als controle.",
+    "Je kunt arbeid, vermogen en rendement berekenen en een claim van meer dan 100% rendement weerleggen.",
+    "Je kunt toerental, koppel en overbrengingsverhouding berekenen bij tandwielen en tandwieltreinen.",
+    "Je kunt een ontwerpvraag uitwerken met eisen, varianten, een beslismatrix en een test, en de aannames en de maatschappelijke gevolgen benoemen.",
+    "Je kunt de ontwikkeling van de eenvoudige machines van Archimedes tot de stoommachine in grote lijnen beschrijven en historische overlevering kritisch beoordelen."
   ],
   "glossary": [
     {
@@ -55,6 +63,42 @@
     {
       "term": "Neveneffect",
       "definition": "Een gevolg van een techniek dat niet het hoofddoel van het ontwerp is."
+    },
+    {
+      "term": "Mechanisch voordeel",
+      "definition": "De verhouding tussen de kracht op de last en de kracht die je zelf uitoefent."
+    },
+    {
+      "term": "Hefboom",
+      "definition": "Een stijve balk die om een steunpunt draait en kracht omzet in een andere kracht over een andere weg."
+    },
+    {
+      "term": "Moment",
+      "definition": "Kracht maal arm: het draaiend effect van een kracht om een punt."
+    },
+    {
+      "term": "Arbeid",
+      "definition": "Kracht maal verplaatsing in de richting van de kracht, gemeten in joule."
+    },
+    {
+      "term": "Vermogen",
+      "definition": "De arbeid per seconde, gemeten in watt."
+    },
+    {
+      "term": "Rendement",
+      "definition": "Het deel van de toegevoerde arbeid dat nuttig wordt gebruikt."
+    },
+    {
+      "term": "Overbrengingsverhouding",
+      "definition": "Het aantal tanden van het uitgaande wiel gedeeld door dat van het ingaande wiel; ook de verhouding tussen in- en uitgaand toerental."
+    },
+    {
+      "term": "Beslismatrix",
+      "definition": "Een tabel waarin varianten per criterium een score krijgen die met een gewicht wordt vermenigvuldigd en opgeteld."
+    },
+    {
+      "term": "Terugkoppeling",
+      "definition": "Het meten van de uitvoer van een systeem om de invoer bij te sturen."
     }
   ],
   "lessons": [
@@ -63,8 +107,94 @@
       "title": "Verlengstuk van de hand",
       "file": "01-introductie.md",
       "kind": "intro"
+    },
+    {
+      "slug": "hefboom-katrol-wiel-as",
+      "title": "Hefboom, katrol en wiel en as",
+      "file": "02-hefboom-katrol-wiel-as.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "hellend-vlak-wig-schroef",
+      "title": "Hellend vlak, wig en schroef",
+      "file": "03-hellend-vlak-wig-schroef.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "arbeid-rendement-wrijving",
+      "title": "Arbeid, rendement en wrijving",
+      "file": "04-arbeid-rendement-wrijving.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "tandwielen-overbrengingen",
+      "title": "Tandwielen en overbrengingen",
+      "file": "05-tandwielen-overbrengingen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "techniek-door-de-eeuwen",
+      "title": "Techniek door de eeuwen",
+      "file": "06-techniek-door-de-eeuwen.md",
+      "kind": "history"
+    },
+    {
+      "slug": "ontwerppracticum",
+      "title": "Ontwerppracticum: water naar het dak",
+      "file": "07-ontwerppracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
     }
   ],
-  "timeline": [],
-  "people": []
+  "timeline": [
+    "acheuleen-vuistbijl",
+    "archimedes-hefboomwet",
+    "antikythera-mechanisme",
+    "heron-mechanica",
+    "leonardo-wrijving",
+    "stevin-weeghconst",
+    "amontons-wrijvingswetten",
+    "newcomen-stoommachine",
+    "watt-condensor"
+  ],
+  "people": [
+    "archimedes",
+    "heron-van-alexandrie",
+    "leonardo-da-vinci",
+    "simon-stevin",
+    "guillaume-amontons",
+    "thomas-newcomen",
+    "james-watt"
+  ],
+  "formulas": [
+    {
+      "name": "Hefboomwet",
+      "latex": "F_1 \\cdot l_1 = F_2 \\cdot l_2",
+      "usage": "Krachten in evenwicht bij een hefboom.",
+      "origin": "Archimedes, ca. 250 v.Chr."
+    },
+    {
+      "name": "Arbeid",
+      "latex": "W = F \\cdot s",
+      "usage": "Arbeid in joule.",
+      "origin": "Mechanica, 17e–19e eeuw"
+    },
+    {
+      "name": "Rendement",
+      "latex": "\\eta = \\frac{W_{\\text{nuttig}}}{W_{\\text{toegevoerd}}}",
+      "usage": "Welk deel van de toegevoerde arbeid nuttig is.",
+      "origin": "Techniek van de stoommachine, 18e–19e eeuw"
+    },
+    {
+      "name": "Overbrengingsverhouding",
+      "latex": "i = \\frac{z_{\\text{uit}}}{z_{\\text{in}}} = \\frac{n_{\\text{in}}}{n_{\\text{uit}}}",
+      "usage": "Toerental en koppel bij tandwielen.",
+      "origin": "Tandwielmechanismen sinds de oudheid"
+    }
+  ]
 }

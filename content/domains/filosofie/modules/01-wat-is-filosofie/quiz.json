@@ -1,0 +1,568 @@
+{
+  "title": "Hoofdstuktoets – Wat is filosofie?",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "01-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Welke van deze vragen is het duidelijkst een filosofische vraag, in de zin dat je alle relevante feiten kunt kennen en toch niet weet wat je ervan moet denken?",
+      "choices": [
+        "In welk jaar werd Socrates veroordeeld?",
+        "Wanneer weet je iets echt, en wanneer geloof je het alleen?",
+        "Hoeveel graden Celsius is het gemiddeld in juli in Nederland?",
+        "Welk medicijn verlaagt de bloeddruk het best?"
+      ],
+      "answer": "Wanneer weet je iets echt, en wanneer geloof je het alleen?",
+      "feedback": [
+        {
+          "answer": "Hoeveel graden Celsius is het gemiddeld in juli in Nederland?",
+          "message": "Dit is empirisch: meten beantwoordt de vraag."
+        },
+        {
+          "answer": "Welk medicijn verlaagt de bloeddruk het best?",
+          "message": "Dit is empirisch: onderzoek beantwoordt de vraag."
+        },
+        {
+          "answer": "In welk jaar werd Socrates veroordeeld?",
+          "message": "Dit is een historische feitenvraag; bronnen beantwoorden haar."
+        }
+      ],
+      "hints": [
+        "Bij welke vraag blijft de vraag open als alle feiten bekend zijn?"
+      ],
+      "solution": [
+        "Een filosofische vraag gaat over de betekenis van begrippen of over wat we behoren te doen. De andere drie zijn feitelijk."
+      ],
+      "topics": [
+        "philosophical-questions"
+      ]
+    },
+    {
+      "id": "01-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Welk gebied van de filosofie vraagt in de eerste plaats wat een goede handeling of een rechtvaardige samenleving is?",
+      "choices": [
+        "Logica",
+        "Kennisleer",
+        "Ethiek, met de politieke filosofie",
+        "Metafysica"
+      ],
+      "answer": "Ethiek, met de politieke filosofie",
+      "feedback": [
+        {
+          "answer": "Logica",
+          "message": "Logica onderzoekt hoe redenen en conclusies zich tot elkaar verhouden."
+        },
+        {
+          "answer": "Kennisleer",
+          "message": "Kennisleer onderzoekt wat kennis is."
+        },
+        {
+          "answer": "Metafysica",
+          "message": "Metafysica vraagt wat er bestaat en wat het wezenlijke van dingen is."
+        }
+      ],
+      "hints": [
+        "Het gaat om waarde, niet om kennis of bestaan."
+      ],
+      "solution": [
+        "Ethiek en politieke filosofie behandelen vragen over wat je behoort te doen en wat rechtvaardig is."
+      ],
+      "topics": [
+        "philosophical-questions"
+      ]
+    },
+    {
+      "id": "01-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "context": "Iemand zegt: \"Ik hoef over euthanasie niet na te denken, de wetenschap zal wel uitmaken of het goed is.\"",
+      "question": "Wat is het belangrijkste probleem in deze redenering?",
+      "choices": [
+        "Wetenschap kan nooit iets over de dood onderzoeken.",
+        "De spreker moet eerst een mening hebben.",
+        "Euthanasie is geen onderwerp voor filosofie.",
+        "Wetenschap beantwoordt hoogstens de feitelijke vragen; of iets goed is, is een normatieve vraag."
+      ],
+      "answer": "Wetenschap beantwoordt hoogstens de feitelijke vragen; of iets goed is, is een normatieve vraag.",
+      "feedback": [
+        {
+          "answer": "Wetenschap kan nooit iets over de dood onderzoeken.",
+          "message": "Wetenschap kan veel over de dood onderzoeken; het punt is dat ze de waardevraag niet beslist."
+        },
+        {
+          "answer": "Euthanasie is geen onderwerp voor filosofie.",
+          "message": "Het is juist een voorbeeld van een normatieve vraag."
+        },
+        {
+          "answer": "De spreker moet eerst een mening hebben.",
+          "message": "Een mening is niet hetzelfde als een onderbouwd standpunt; het gaat om de soort vraag."
+        }
+      ],
+      "hints": [
+        "Is \"is het goed?\" een feitelijke vraag?"
+      ],
+      "solution": [
+        "Uit hoe de wereld is, volgt niet zonder meer wat je moet doen. De waardevraag blijft."
+      ],
+      "topics": [
+        "philosophical-questions"
+      ]
+    },
+    {
+      "id": "01-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "context": "In een dialoog beweert Laches dat moed is: op je plaats blijven en de vijand niet ontvluchten. Socrates wijst op Scythische ruiters die al terugtrekkend even goed vechten.",
+      "question": "Hoe functioneert het voorbeeld van de ruiters in dit gesprek?",
+      "choices": [
+        "Als tegenvoorbeeld dat laat zien dat de definitie te eng is.",
+        "Als bevestiging van de definitie.",
+        "Als bewijs dat moed niet bestaat.",
+        "Als persoonlijke aanval op Laches."
+      ],
+      "answer": "Als tegenvoorbeeld dat laat zien dat de definitie te eng is.",
+      "feedback": [
+        {
+          "answer": "Als bewijs dat moed niet bestaat.",
+          "message": "Het voorbeeld laat juist zien dat er moed is zonder standhouden, niet dat moed niet bestaat."
+        },
+        {
+          "answer": "Als persoonlijke aanval op Laches.",
+          "message": "Het gaat om het begrip, niet om Laches als persoon."
+        },
+        {
+          "answer": "Als bevestiging van de definitie.",
+          "message": "De ruiters voldoen niet aan de definitie en zijn toch moedig; dat bevestigt haar niet."
+        }
+      ],
+      "hints": [
+        "Valt het geval onder de definitie? Is het toch moedig?"
+      ],
+      "solution": [
+        "Een moedig geval buiten de definitie laat zien dat de voorwaarde niet noodzakelijk is: te eng."
+      ],
+      "topics": [
+        "socratic-method",
+        "concepts"
+      ]
+    },
+    {
+      "id": "01-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "context": "Iemand zegt: \"Een stoel is iets om op te zitten.\"",
+      "question": "Wat toont het geval van een rots waarop je zit aan?",
+      "choices": [
+        "De definitie is cirkelvormig.",
+        "De definitie is te ruim: niet alles waarop je kunt zitten is een stoel.",
+        "De definitie is te eng: een stoel kan niet worden herkend.",
+        "De definitie is onbetwistbaar."
+      ],
+      "answer": "De definitie is te ruim: niet alles waarop je kunt zitten is een stoel.",
+      "feedback": [
+        {
+          "answer": "De definitie is te eng: een stoel kan niet worden herkend.",
+          "message": "Een rots valt wel onder de definitie; er valt niets buiten wat een stoel is."
+        },
+        {
+          "answer": "De definitie is cirkelvormig.",
+          "message": "Het woord \"stoel\" komt niet in het definiërende deel voor."
+        },
+        {
+          "answer": "De definitie is onbetwistbaar.",
+          "message": "Het geval toont juist een zwak punt."
+        }
+      ],
+      "hints": [
+        "Valt een rots onder de definitie? Is het een stoel?"
+      ],
+      "solution": [
+        "Wat voldoet aan de voorwaarde maar niet onder het begrip hoort, laat zien dat de voorwaarde niet voldoende is: te ruim."
+      ],
+      "topics": [
+        "concepts"
+      ]
+    },
+    {
+      "id": "01-T06",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "context": "Je toetst een definitie van \"vrijheid\".",
+      "question": "Zet de stappen van een begripsanalyse in de juiste volgorde.",
+      "answer": [
+        "Stel een definitie voor",
+        "Zoek een tegenvoorbeeld",
+        "Stel vast of de definitie te ruim of te eng is",
+        "Herzie de definitie"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Zoek een tegenvoorbeeld",
+            "Stel een definitie voor",
+            "Stel vast of de definitie te ruim of te eng is",
+            "Herzie de definitie"
+          ],
+          "message": "Je kunt pas een tegenvoorbeeld zoeken als er een definitie is."
+        }
+      ],
+      "hints": [
+        "Begin met wat je wilt toetsen."
+      ],
+      "solution": [
+        "Definitie, tegenvoorbeeld, beoordeling, herziening."
+      ],
+      "topics": [
+        "concepts"
+      ]
+    },
+    {
+      "id": "01-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "P1: Alle zoogdieren zijn warmbloedig. P2: Een vleermuis is warmbloedig. C: Een vleermuis is een zoogdier.",
+      "question": "Wat is waar over dit argument?",
+      "choices": [
+        "Het is ongeldig, omdat de conclusie onwaar is.",
+        "Het is geldig, want de premissen en de conclusie zijn waar.",
+        "Het is geldig, omdat de conclusie waar is.",
+        "Het is ongeldig, ook al zijn de premissen en de conclusie waar."
+      ],
+      "answer": "Het is ongeldig, ook al zijn de premissen en de conclusie waar.",
+      "feedback": [
+        {
+          "answer": "Het is geldig, want de premissen en de conclusie zijn waar.",
+          "message": "Geldigheid vraagt niet dat alles waar is, maar dat de conclusie noodzakelijk volgt. Ook vogels zijn warmbloedig."
+        },
+        {
+          "answer": "Het is geldig, omdat de conclusie waar is.",
+          "message": "Een ware conclusie maakt een argument niet geldig."
+        },
+        {
+          "answer": "Het is ongeldig, omdat de conclusie onwaar is.",
+          "message": "De conclusie is waar; het argument is ongeldig om een andere reden."
+        }
+      ],
+      "hints": [
+        "Bedenk een dier dat warmbloedig is maar geen zoogdier."
+      ],
+      "solution": [
+        "Vogels zijn warmbloedig maar geen zoogdier. Het argument bevestigt het gevolg: ongeldig."
+      ],
+      "topics": [
+        "argument"
+      ]
+    },
+    {
+      "id": "01-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Een argument is geldig en alle premissen zijn waar.",
+      "question": "Wat volgt hieruit over de conclusie?",
+      "choices": [
+        "De conclusie is waar.",
+        "Over de conclusie volgt niets.",
+        "De conclusie is waarschijnlijk waar.",
+        "De conclusie kan nog onwaar zijn."
+      ],
+      "answer": "De conclusie is waar.",
+      "feedback": [
+        {
+          "answer": "De conclusie kan nog onwaar zijn.",
+          "message": "Dat is precies wat geldigheid uitsluit."
+        },
+        {
+          "answer": "De conclusie is waarschijnlijk waar.",
+          "message": "Bij een deductief argument is de conclusie met zekerheid waar."
+        },
+        {
+          "answer": "Over de conclusie volgt niets.",
+          "message": "Er volgt wel iets: ze moet waar zijn."
+        }
+      ],
+      "hints": [
+        "Wat sluit een geldig argument uit?"
+      ],
+      "solution": [
+        "Ware premissen en een geldige vorm geven een gezond argument: de conclusie is waar."
+      ],
+      "topics": [
+        "argument"
+      ]
+    },
+    {
+      "id": "01-T09",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Tekst: \"De verordening is niet onrechtvaardig, want ze is democratisch aangenomen en elke democratisch aangenomen verordening is niet onrechtvaardig.\"",
+      "question": "Zet het argument in standaardvorm: eerst de premissen, dan de conclusie.",
+      "answer": [
+        "P1. Elke democratisch aangenomen verordening is niet onrechtvaardig.",
+        "P2. Deze verordening is democratisch aangenomen.",
+        "C. Deze verordening is niet onrechtvaardig."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "P1. Elke democratisch aangenomen verordening is niet onrechtvaardig.",
+            "C. Deze verordening is niet onrechtvaardig.",
+            "P2. Deze verordening is democratisch aangenomen."
+          ],
+          "message": "De conclusie hoort als laatste, na beide premissen."
+        }
+      ],
+      "hints": [
+        "Conclusie onderaan."
+      ],
+      "solution": [
+        "P1 algemene regel, P2 geval, C conclusie."
+      ],
+      "topics": [
+        "argument"
+      ]
+    },
+    {
+      "id": "01-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Tekst: \"Je kunt zijn pleidooi voor minder vliegen negeren, want hij vliegt zelf ook.\"",
+      "question": "Welke drogreden is dit, en wat volgt eruit voor het pleidooi?",
+      "choices": [
+        "Geen drogreden, want de spreker is inconsequent.",
+        "Stropop; het pleidooi is daardoor onwaar.",
+        "Persoonlijke aanval; over de deugdelijkheid van het pleidooi volgt niets.",
+        "Cirkelredenering; het pleidooi is daardoor waar."
+      ],
+      "answer": "Persoonlijke aanval; over de deugdelijkheid van het pleidooi volgt niets.",
+      "feedback": [
+        {
+          "answer": "Stropop; het pleidooi is daardoor onwaar.",
+          "message": "Er wordt geen vervormde versie van het standpunt weerlegd; en een drogreden bewijst de conclusie niet onwaar."
+        },
+        {
+          "answer": "Cirkelredenering; het pleidooi is daardoor waar.",
+          "message": "Er is geen cirkel, en een drogreden bewijst niets over de waarheid van de conclusie."
+        },
+        {
+          "answer": "Geen drogreden, want de spreker is inconsequent.",
+          "message": "Inconsequent gedrag zegt iets over de persoon, niet over of vliegen moet verminderen."
+        }
+      ],
+      "hints": [
+        "Wordt het argument of de persoon aangevallen?"
+      ],
+      "solution": [
+        "Het gaat om de eigenschap van de persoon. Dat is irrelevant voor de vraag of vliegen moet verminderen."
+      ],
+      "topics": [
+        "fallacies"
+      ]
+    },
+    {
+      "id": "01-T11",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Tekst: \"Je bent voor ons of tegen ons. Hij kritiseerde ons plan, dus hij is tegen ons.\"",
+      "question": "Wat is het kernprobleem van deze redenering?",
+      "choices": [
+        "De spreker valt de persoon aan.",
+        "De premissen zijn onbegrijpelijk.",
+        "De conclusie is onwaar.",
+        "Ze veronderstelt dat er maar twee mogelijkheden zijn (vals dilemma); kritiek kan ook uit betrokkenheid komen."
+      ],
+      "answer": "Ze veronderstelt dat er maar twee mogelijkheden zijn (vals dilemma); kritiek kan ook uit betrokkenheid komen.",
+      "feedback": [
+        {
+          "answer": "De conclusie is onwaar.",
+          "message": "Dat is niet vast te stellen; het probleem zit in de redenering."
+        },
+        {
+          "answer": "De spreker valt de persoon aan.",
+          "message": "Er wordt geen kenmerk van de persoon aangevoerd, maar een tegenstelling."
+        },
+        {
+          "answer": "De premissen zijn onbegrijpelijk.",
+          "message": "Ze zijn duidelijk; ze zijn alleen te simpel."
+        }
+      ],
+      "hints": [
+        "Zijn er alleen twee mogelijkheden?"
+      ],
+      "solution": [
+        "Er is een derde mogelijkheid: kritisch maar loyaal. Dat maakt de eerste premisse onjuist."
+      ],
+      "topics": [
+        "fallacies"
+      ]
+    },
+    {
+      "id": "01-T12",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Een filosoof zegt: \"Als je een tegenvoorbeeld vindt, weet je dat de definitie fout is, en dus is het begrip zelf onbruikbaar.\"",
+      "question": "Wat is er mis met de tweede helft van deze uitspraak?",
+      "choices": [
+        "Een tegenvoorbeeld helpt een definitie aan te scherpen; het begrip hoeft daardoor niet onbruikbaar te zijn.",
+        "Begrippen kunnen nooit worden aangescherpt.",
+        "Een tegenvoorbeeld is geen argument.",
+        "Niets: een tegenvoorbeeld vernietigt altijd het hele begrip."
+      ],
+      "answer": "Een tegenvoorbeeld helpt een definitie aan te scherpen; het begrip hoeft daardoor niet onbruikbaar te zijn.",
+      "feedback": [
+        {
+          "answer": "Niets: een tegenvoorbeeld vernietigt altijd het hele begrip.",
+          "message": "Dat is te sterk: tegenvoorbeelden leiden vaak tot een betere definitie."
+        },
+        {
+          "answer": "Een tegenvoorbeeld is geen argument.",
+          "message": "Een tegenvoorbeeld is juist een krachtig argument tegen een algemene bewering."
+        },
+        {
+          "answer": "Begrippen kunnen nooit worden aangescherpt.",
+          "message": "Dat is niet waar; veel begrippen zijn door tegenvoorbeelden scherper geworden."
+        }
+      ],
+      "hints": [
+        "Wat gebeurde er met de definitie van kennis na Gettier?"
+      ],
+      "solution": [
+        "Een tegenvoorbeeld wijst op een zwak punt in de definitie, niet op nutteloosheid van het begrip."
+      ],
+      "topics": [
+        "concepts",
+        "socratic-method"
+      ]
+    },
+    {
+      "id": "01-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "context": "Iemand zegt: \"Als iedereen onzichtbaar kon worden, zou iedereen vals spelen. Dus rechtvaardigheid heeft geen waarde.\"",
+      "question": "Welke stap in dit argument is het meest kwetsbaar?",
+      "choices": [
+        "De bewering dat mensen kunnen vals spelen.",
+        "De stap van een uitspraak over wat mensen zouden doen naar een uitspraak over waarde.",
+        "Het gebruik van een gedachte-experiment als zodanig.",
+        "De stap naar het begrip onzichtbaar."
+      ],
+      "answer": "De stap van een uitspraak over wat mensen zouden doen naar een uitspraak over waarde.",
+      "feedback": [
+        {
+          "answer": "De stap naar het begrip onzichtbaar.",
+          "message": "Het gaat niet om het begrip onzichtbaarheid maar om de gevolgtrekking."
+        },
+        {
+          "answer": "De bewering dat mensen kunnen vals spelen.",
+          "message": "Dat is een feitelijke aanname, maar niet de belangrijkste zwakte."
+        },
+        {
+          "answer": "Het gebruik van een gedachte-experiment als zodanig.",
+          "message": "Het gebruik is niet het probleem; de zwakte zit in de gevolgtrekking."
+        }
+      ],
+      "hints": [
+        "Volgt uit \"wat mensen doen\" wat waardevol is?"
+      ],
+      "solution": [
+        "Gedrag zegt niet zonder meer iets over waarde. Dat is een sprong van is naar behoort."
+      ],
+      "topics": [
+        "thought-experiments",
+        "argument"
+      ]
+    },
+    {
+      "id": "01-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "context": "Twee mensen discussiëren. A zegt: \"Ik vind dat filosofie nutteloos is, want ze lost niets op.\" B antwoordt: \"Dus je vindt dat we alles maar moeten laten zoals het is.\"",
+      "question": "Wat doet B, en wat zou een sterkere reactie zijn?",
+      "choices": [
+        "B valt de persoon aan; een sterkere reactie is te zwijgen.",
+        "B ontkent A's premisse; dat is altijd toegestaan.",
+        "B maakt een stropop; een sterkere reactie formuleert eerst A's standpunt zo dat A het herkent.",
+        "B maakt een goed argument; A moet nu antwoorden."
+      ],
+      "answer": "B maakt een stropop; een sterkere reactie formuleert eerst A's standpunt zo dat A het herkent.",
+      "feedback": [
+        {
+          "answer": "B maakt een goed argument; A moet nu antwoorden.",
+          "message": "B reageert niet op wat A zei, maar op een vervorming ervan."
+        },
+        {
+          "answer": "B valt de persoon aan; een sterkere reactie is te zwijgen.",
+          "message": "B valt A niet persoonlijk aan, maar verdraait zijn standpunt."
+        },
+        {
+          "answer": "B ontkent A's premisse; dat is altijd toegestaan.",
+          "message": "B ontkent geen premisse, maar schuift een nieuw standpunt naar voren."
+        }
+      ],
+      "hints": [
+        "Wat heeft A werkelijk gezegd?"
+      ],
+      "solution": [
+        "B vervangt A's standpunt door een ander, wat makkelijker te weerleggen is."
+      ],
+      "topics": [
+        "fallacies"
+      ]
+    },
+    {
+      "id": "01-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "context": "Je hebt een overtuiging, bijvoorbeeld dat een leven zonder onderzoek niet de moeite waard is. Je vriendin brengt een tegenvoorbeeld in: iemand die zorgvuldig leeft zonder ooit te filosoferen.",
+      "question": "Welke reactie past het best bij wat deze module als goede omgang met een tegenvoorbeeld beschrijft?",
+      "choices": [
+        "Zeggen dat zij een drogreden gebruikt.",
+        "Het geval negeren omdat het maar één geval is.",
+        "Je overtuiging meteen helemaal opgeven.",
+        "Nagaan of het geval echt onder je bewering valt en je bewering zo nodig aanscherpen."
+      ],
+      "answer": "Nagaan of het geval echt onder je bewering valt en je bewering zo nodig aanscherpen.",
+      "feedback": [
+        {
+          "answer": "Het geval negeren omdat het maar één geval is.",
+          "message": "Eén geval kan genoeg zijn om een algemene bewering te weerleggen."
+        },
+        {
+          "answer": "Je overtuiging meteen helemaal opgeven.",
+          "message": "Een tegenvoorbeeld wijst vaak maar op een deel dat moet worden aangepast."
+        },
+        {
+          "answer": "Zeggen dat zij een drogreden gebruikt.",
+          "message": "Een tegenvoorbeeld is geen drogreden; het is een legitiem middel."
+        }
+      ],
+      "hints": [
+        "Wat is de opbrengst van een tegenvoorbeeld?"
+      ],
+      "solution": [
+        "Je kijkt of het geval klopt, en zo ja scherp je de bewering aan in plaats van haar op te geven of te negeren."
+      ],
+      "topics": [
+        "socratic-method",
+        "concepts"
+      ]
+    }
+  ]
+}

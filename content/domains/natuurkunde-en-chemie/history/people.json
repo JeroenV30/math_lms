@@ -1,0 +1,107 @@
+{
+  "people": [
+    {
+      "id": "archimedes",
+      "name": "Archimedes",
+      "full_name": "Archimedes van Syracuse",
+      "lived": "ca. 287 – ca. 212 v.Chr.",
+      "sort_year": -287,
+      "region": "Syracuse",
+      "known_for": "Onderzocht drijven en volume; volgens overlevering ook de dichtheid van een kroon.",
+      "bio": "Archimedes was een wiskundige en natuurkundige uit Syracuse. Hij legde de basis voor de hydrostatica en bepaalde oppervlakten en volumes van krommen en lichamen.\n\nHet verhaal over de kroon van Hieron, waarin hij dichtheid zou hebben gebruikt om vervalsing vast te stellen, is een overlevering die onder meer door Vitruvius is opgetekend.",
+      "contributions": [
+        "Wet van Archimedes",
+        "Berekening van volumes en oppervlakken"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "lavoisier",
+      "name": "Lavoisier",
+      "full_name": "Antoine-Laurent de Lavoisier",
+      "lived": "1743 – 1794",
+      "sort_year": 1743,
+      "region": "Frankrijk",
+      "known_for": "Grondlegger van de moderne scheikunde; maakte van nauwkeurig wegen een kernmethode en werkte mee aan het metrieke stelsel.",
+      "bio": "Lavoisier toonde met nauwkeurige weegexperimenten dat massa bij chemische reacties behouden blijft. Hij werkte mee aan de commissie voor gewichten en maten en deed met René Just Haüy de eerste bepalingen van de massa van water.\n\nHij werd in 1794 tijdens de Franse Revolutie geëxecuteerd.",
+      "contributions": [
+        "Wet van behoud van massa",
+        "Nauwkeurig weegwerk",
+        "Voorbereiding van de kilogram"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "metre-des-archives-1799"
+      ],
+      "image": null
+    },
+    {
+      "id": "mechain",
+      "name": "Méchain",
+      "full_name": "Pierre François André Méchain",
+      "lived": "1744 – 1804",
+      "sort_year": 1744,
+      "region": "Frankrijk",
+      "known_for": "Mat het zuidelijke deel van de meridiaanboog, van Rodez naar Barcelona.",
+      "bio": "Méchain was sterrenkundige en landmeter. Hij mat het zuidelijke deel van het boogstuk dat de basis van de meter vormde. In Barcelona stuitte hij op een onverklaarde afwijking in zijn breedtemetingen, waar hij lang over piekerde.\n\nHij overleed in 1804 in Spanje tijdens een nieuwe meetcampagne.",
+      "contributions": [
+        "Meridiaanmeting Rodez–Barcelona"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "meridiaanmeting-1792"
+      ],
+      "image": null
+    },
+    {
+      "id": "delambre",
+      "name": "Delambre",
+      "full_name": "Jean-Baptiste Joseph Delambre",
+      "lived": "1749 – 1822",
+      "sort_year": 1749,
+      "region": "Frankrijk",
+      "known_for": "Mat het noordelijke deel van de meridiaanboog waarop de meter werd gebaseerd.",
+      "bio": "Delambre was sterrenkundige en landmeter. Samen met Pierre Méchain bepaalde hij tussen 1792 en 1798 de lengte van een deel van de meridiaan, van Duinkerke naar Rodez, het noordelijke deel van het boogstuk.\n\nNa de dood van Méchain in 1804 werkte hij de metingen uit en publiceerde hij het verslag over de basis van het metrieke stelsel.",
+      "contributions": [
+        "Meridiaanmeting Duinkerke–Rodez",
+        "Verslag over de basis van het metrieke stelsel"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "meridiaanmeting-1792"
+      ],
+      "image": null
+    },
+    {
+      "id": "fermi",
+      "name": "Fermi",
+      "full_name": "Enrico Fermi",
+      "lived": "1901 – 1954",
+      "sort_year": 1901,
+      "region": "Italië, Verenigde Staten",
+      "known_for": "Kernfysicus die bekendstaat om zijn schattingsmethode.",
+      "bio": "Fermi ontving in 1938 de Nobelprijs voor de Natuurkunde en leidde in 1942 de eerste kettingreactie in een kernreactor. Hij stond bekend om zijn vermogen om problemen terug te brengen tot deelschattingen.\n\nZulke schattingen worden naar hem Fermi-vragen genoemd.",
+      "contributions": [
+        "Eerste kernreactor (1942)",
+        "Fermi-schattingen"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "trinity-fermi-1945"
+      ],
+      "image": null
+    }
+  ]
+}

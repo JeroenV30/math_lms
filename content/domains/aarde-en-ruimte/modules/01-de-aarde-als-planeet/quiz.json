@@ -1,0 +1,440 @@
+{
+  "title": "Hoofdstuktoets – De aarde als planeet",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "01-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "De aarde is een bol, maar op een open vlakte lijkt de grond vlak. Wat verklaart dat het beste?",
+      "choices": [
+        "De aarde is zo groot (straal ruim 6000 km) dat je maar een heel klein stukje van de kromming overziet.",
+        "De aarde is lokaal echt vlak en pas op grotere schaal gebogen.",
+        "Onze ogen kunnen kromming niet waarnemen, ook niet bij een zeer groot stuk.",
+        "De aarde is eigenlijk een schijf, en de bol is een vereenvoudiging."
+      ],
+      "answer": "De aarde is zo groot (straal ruim 6000 km) dat je maar een heel klein stukje van de kromming overziet.",
+      "hints": [],
+      "solution": [
+        "De horizon ligt voor iemand met ooghoogte 1,7 m op ruim 4,6 km, terwijl de omtrek ruim 40.000 km is.",
+        "Een klein stuk van een heel grote bol lijkt vrijwel vlak."
+      ],
+      "topics": [
+        "earth-shape",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": "De aarde is lokaal echt vlak en pas op grotere schaal gebogen.",
+          "message": "Het oppervlak is overal gebogen; de kromming is alleen op kleine schaal te klein om op te vallen."
+        },
+        {
+          "answer": "De aarde is eigenlijk een schijf, en de bol is een vereenvoudiging.",
+          "message": "De bol is de betere beschrijving; de maansverduistering en de sterren die veranderen met de breedte wijzen op een bolvorm, niet op een schijf."
+        }
+      ]
+    },
+    {
+      "id": "01-T02",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Twee plaatsen liggen 1000 km uit elkaar op dezelfde meridiaan. Op een bepaald moment maakt een verticale staaf op de ene plaats een hoek van $9^\\circ$ met de zonnestralen, en staat de zon op de andere plaats loodrecht boven. Wat is de omtrek van de aarde volgens de methode van Eratosthenes?",
+      "answer": 40000,
+      "unit": "km",
+      "hints": [],
+      "solution": [
+        "$360^\\circ / 9^\\circ = 40$.",
+        "De afstand van 1000 km is een veertigste van de omtrek: $40 \\times 1000 = 40\\,000$ km."
+      ],
+      "topics": [
+        "earth-shape",
+        "observation"
+      ],
+      "feedback": [
+        {
+          "answer": 9000,
+          "message": "Je hebt de hoek met de afstand vermenigvuldigd. Deel de volle cirkel door de hoek: $360/9 = 40$."
+        }
+      ]
+    },
+    {
+      "id": "01-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "context": "Afstand van de aarde tot de zon: rond 3 januari ongeveer 147 miljoen km (perihelium), rond 4 juli ongeveer 152 miljoen km (aphelium).",
+      "question": "Iemand beweert dat het in de zomer warm is omdat de aarde dan dichter bij de zon staat. Wat zeggen de gegevens daarover?",
+      "choices": [
+        "Het klopt niet: in juli is de aarde het verst van de zon, en toch is het dan zomer op het noordelijk halfrond.",
+        "Het klopt, want de afstand verschilt van januari tot juli.",
+        "Het klopt voor het zuidelijk halfrond, maar niet voor het noordelijk.",
+        "De gegevens zeggen er niets over, omdat 5 miljoen km te weinig is om iets te merken."
+      ],
+      "answer": "Het klopt niet: in juli is de aarde het verst van de zon, en toch is het dan zomer op het noordelijk halfrond.",
+      "hints": [],
+      "solution": [
+        "Het perihelium valt in januari, als het op het noordelijk halfrond winter is.",
+        "De seizoenen komen door de schuine aardas, niet door de afstand."
+      ],
+      "topics": [
+        "seasons"
+      ],
+      "feedback": [
+        {
+          "answer": "Het klopt, want de afstand verschilt van januari tot juli.",
+          "message": "Dat de afstand verschilt, betekent niet dat dit de oorzaak is. In januari is de aarde het dichtst bij de zon en is het winter op het noordelijk halfrond."
+        },
+        {
+          "answer": "Het klopt voor het zuidelijk halfrond, maar niet voor het noordelijk.",
+          "message": "Beide halfronden zijn even ver van de zon. De seizoenen zijn tegengesteld door de schuine aardas, niet door de afstand."
+        }
+      ]
+    },
+    {
+      "id": "01-T04",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de stappen van de redenering van Eratosthenes in logische volgorde, van waarneming tot conclusie.",
+      "answer": [
+        "In Syene staat de zon op de zomerzonnewende loodrecht boven",
+        "In Alexandrië maakt een staaf op hetzelfde moment een hoek van ongeveer 7,2° met de zonnestralen",
+        "Die hoek is gelijk aan het hoekverschil tussen de twee steden gezien vanuit het middelpunt van de aarde",
+        "De afstand van 5000 stadia is dus een vijftigste deel van de omtrek",
+        "De omtrek van de aarde is ongeveer 250.000 stadia"
+      ],
+      "hints": [],
+      "solution": [
+        "Eerst de twee waarnemingen, dan de meetkundige stap (evenwijdige zonnestralen), dan de verhouding, dan de omtrek."
+      ],
+      "topics": [
+        "earth-shape",
+        "observation"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "In Alexandrië maakt een staaf op hetzelfde moment een hoek van ongeveer 7,2° met de zonnestralen",
+            "In Syene staat de zon op de zomerzonnewende loodrecht boven",
+            "Die hoek is gelijk aan het hoekverschil tussen de twee steden gezien vanuit het middelpunt van de aarde",
+            "De afstand van 5000 stadia is dus een vijftigste deel van de omtrek",
+            "De omtrek van de aarde is ongeveer 250.000 stadia"
+          ],
+          "message": "De twee waarnemingen horen bij elkaar: eerst het referentiepunt (zon loodrecht in Syene), dan de schaduw in Alexandrië."
+        }
+      ]
+    },
+    {
+      "id": "01-T05",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Op de winterzonnewende staat de zon loodrecht boven $23{,}4^\\circ$ zuiderbreedte. Voor een plaats op breedte $\\varphi$ (noord) is de zonshoogte op het middaguur dan $90^\\circ - (\\varphi + 23{,}4^\\circ)$. Hoe hoog staat de zon op het middaguur in Utrecht ($\\varphi = 52{,}1^\\circ$) op die dag? Rond af op 0,1°.",
+      "answer": 14.5,
+      "unit": "°",
+      "tolerance": 0.2,
+      "hints": [],
+      "solution": [
+        "$52{,}1 + 23{,}4 = 75{,}5$.",
+        "$90 - 75{,}5 = 14{,}5^\\circ$."
+      ],
+      "topics": [
+        "seasons"
+      ],
+      "feedback": [
+        {
+          "answer": 61.3,
+          "message": "Dat is de zonshoogte op de zomerzonnewende. In de winter staat de zon veel lager: de declinatie moet je optellen bij de breedte."
+        }
+      ]
+    },
+    {
+      "id": "01-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Op een Mercatorkaart lijkt Groenland ongeveer zo groot als Afrika, terwijl Afrika in werkelijkheid ongeveer veertien keer zo groot is. Wat verklaart dit?",
+      "choices": [
+        "De projectie vergroot gebieden steeds meer naarmate ze dichter bij de polen liggen; ze bewaart koers en vorm, maar niet oppervlakte.",
+        "Mercator heeft Groenland bij vergissing te groot getekend.",
+        "Groenland ligt dichter bij de kijker dan Afrika.",
+        "Elke kaart toont de werkelijke verhoudingen, behalve bij de polen."
+      ],
+      "answer": "De projectie vergroot gebieden steeds meer naarmate ze dichter bij de polen liggen; ze bewaart koers en vorm, maar niet oppervlakte.",
+      "hints": [],
+      "solution": [
+        "In de Mercatorprojectie wordt de schaal op breedte $\\varphi$ met $1/\\cos\\varphi$ vergroot, oppervlakten met $1/\\cos^2\\varphi$.",
+        "Dat is een keuze voor zeevaart, geen fout: koerslijnen zijn recht."
+      ],
+      "topics": [
+        "earth-shape",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": "Mercator heeft Groenland bij vergissing te groot getekend.",
+          "message": "Het is geen vergissing, maar een gevolg van het doel van de kaart: rechte koerslijnen. Een bol laat zich niet zonder vervorming plat leggen."
+        }
+      ]
+    },
+    {
+      "id": "01-T07",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een schip bepaalt zijn lengte uit de tijd: plaatselijk middaguur treedt op als de chronometer, ingesteld op Greenwichtijd, 17:00 aangeeft. De aarde draait $15^\\circ$ per uur. Op hoeveel graden westerlengte ligt het schip?",
+      "answer": 75,
+      "unit": "°",
+      "hints": [],
+      "solution": [
+        "17:00 − 12:00 is 5 uur.",
+        "$5 \\times 15^\\circ = 75^\\circ$ westerlengte."
+      ],
+      "topics": [
+        "coordinates",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 255,
+          "message": "Je hebt 17 uur met $15^\\circ$ vermenigvuldigd. Je moet het verschil met het plaatselijk middaguur (12:00) gebruiken."
+        }
+      ]
+    },
+    {
+      "id": "01-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Gesteente aan het aardoppervlak heeft een dichtheid van ongeveer 2,8 g/cm³. Uit de zwaartekracht volgt een gemiddelde dichtheid van de hele aarde van ongeveer 5,5 g/cm³.",
+      "question": "Wat volgt uit deze twee getallen?",
+      "choices": [
+        "Dieper in de aarde moet dichter materiaal zitten dan het gesteente aan het oppervlak.",
+        "De meting van de zwaartekracht moet fout zijn, want de dichtheid kan niet verschillen.",
+        "Het gesteente aan het oppervlak is representatief voor de hele aarde.",
+        "De aarde is hol, want anders zou de dichtheid lager zijn."
+      ],
+      "answer": "Dieper in de aarde moet dichter materiaal zitten dan het gesteente aan het oppervlak.",
+      "hints": [],
+      "solution": [
+        "Het gemiddelde is bijna twee keer zo groot als de oppervlaktewaarde. Dat kan alleen als het binnenste veel dichter is, bijvoorbeeld metaal."
+      ],
+      "topics": [
+        "earth-interior",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": "Het gesteente aan het oppervlak is representatief voor de hele aarde.",
+          "message": "Dan zou de gemiddelde dichtheid ook ongeveer 2,8 g/cm³ zijn. Het gemiddelde is veel hoger, dus het binnenste is dichter."
+        },
+        {
+          "answer": "De aarde is hol, want anders zou de dichtheid lager zijn.",
+          "message": "Een holle aarde zou een lagere gemiddelde dichtheid geven, niet een hogere."
+        }
+      ]
+    },
+    {
+      "id": "01-T09",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet de lagen van de aarde in de volgorde van het aardoppervlak naar het middelpunt.",
+      "answer": [
+        "Korst",
+        "Bovenmantel",
+        "Onderste mantel",
+        "Vloeibare buitenkern",
+        "Vaste binnenkern"
+      ],
+      "hints": [],
+      "solution": [
+        "Korst (tot ca. 35 km), mantel (tot 2891 km), vloeibare buitenkern (tot ca. 5150 km), vaste binnenkern (straal ca. 1220 km)."
+      ],
+      "topics": [
+        "earth-interior"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Korst",
+            "Bovenmantel",
+            "Onderste mantel",
+            "Vaste binnenkern",
+            "Vloeibare buitenkern"
+          ],
+          "message": "De binnenkern is vast, maar ligt binnen de vloeibare buitenkern, dus dichter bij het middelpunt."
+        }
+      ]
+    },
+    {
+      "id": "01-T10",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "In de mantel reizen P-golven met ongeveer 8,0 km/s en S-golven met ongeveer 4,5 km/s.",
+      "question": "Een seismometer registreert de S-golf van een aardbeving 30 s na de P-golf. Gebruik $d = \\Delta t \\cdot \\dfrac{v_P v_S}{v_P - v_S}$. Hoe ver ligt de beving? Rond af op 0,1 km.",
+      "answer": 308.6,
+      "unit": "km",
+      "tolerance": 2,
+      "hints": [],
+      "solution": [
+        "$8{,}0 \\times 4{,}5 / (8{,}0 - 4{,}5) = 36 / 3{,}5 \\approx 10{,}29$ km per seconde.",
+        "$d = 30 \\times 10{,}29 \\approx 308{,}6$ km."
+      ],
+      "topics": [
+        "earth-interior",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 240,
+          "message": "Dat is $30 \\times 8{,}0$: de afstand die een P-golf in 30 s aflegt. Het gaat om het verschil in aankomsttijd."
+        }
+      ]
+    },
+    {
+      "id": "01-T11",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Over een bezoek aan Siccar Point (1788) schreef John Playfair later dat de geest 'duizelig werd bij het zo ver terugkijken in de afgrond van de tijd' (vrij vertaald). Daar liggen bijna verticale lagen zandsteen onder bijna horizontale lagen rode zandsteen.",
+      "question": "Waarom was die rotswand voor James Hutton een aanwijzing voor een zeer oude aarde?",
+      "choices": [
+        "De onderste lagen waren afgezet, opgetild en gekanteld, daarna afgesleten en toen overdekt met nieuwe lagen: meerdere lange cycli in één wand.",
+        "De rode zandsteen vertoonde een jaartal dat ouder was dan de Bijbelse tijdrekening.",
+        "De lagen bevatten radioactieve mineralen waarmee hij ze kon dateren.",
+        "De rots was zo hard dat die wel miljoenen jaren oud moest zijn."
+      ],
+      "answer": "De onderste lagen waren afgezet, opgetild en gekanteld, daarna afgesleten en toen overdekt met nieuwe lagen: meerdere lange cycli in één wand.",
+      "hints": [],
+      "solution": [
+        "Twee opeenvolgende reeksen lagen met een hoek ertussen vertellen over afzetting, opheffing, erosie en weer afzetting.",
+        "Zulke processen verlopen traag, dus de totale duur is zeer lang."
+      ],
+      "topics": [
+        "deep-time",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": "De lagen bevatten radioactieve mineralen waarmee hij ze kon dateren.",
+          "message": "Radioactiviteit werd pas in 1896 ontdekt, ruim honderd jaar na Hutton. Hij redeneerde uit de volgorde van de lagen en de langzaamheid van de processen."
+        }
+      ]
+    },
+    {
+      "id": "01-T12",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je perst de 4,54 miljard jaar van de aardgeschiedenis samen in één jaar van 365,25 dagen, waarbij nu het einde van het jaar is. Hoeveel dagen vóór het einde van het jaar stierven de niet-vogelachtige dinosauriërs uit, 66 miljoen jaar geleden? Rond af op 0,1 dag.",
+      "answer": 5.3,
+      "unit": "dagen",
+      "tolerance": 0.1,
+      "hints": [],
+      "solution": [
+        "$66 / 4540 \\times 365{,}25 \\approx 5{,}3$ dagen."
+      ],
+      "topics": [
+        "deep-time",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 359.9,
+          "message": "Dat is het aantal dagen na 1 januari. De vraag is naar het aantal dagen vóór het einde van het jaar."
+        }
+      ]
+    },
+    {
+      "id": "01-T13",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Uranium-235 heeft een halfwaardetijd van 0,704 miljard jaar. In een mineraal is nog 25% van het oorspronkelijke uranium-235 over. Hoe oud is het mineraal? Rond af op 0,01 miljard jaar.",
+      "answer": 1.41,
+      "unit": "miljard jaar",
+      "tolerance": 0.02,
+      "hints": [],
+      "solution": [
+        "25% is $(1/2)^2$: twee halfwaardetijden.",
+        "$2 \\times 0{,}704 = 1{,}408 \\approx 1{,}41$ miljard jaar."
+      ],
+      "topics": [
+        "deep-time",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": 0.7,
+          "message": "Dat is één halfwaardetijd, waarna 50% resteert. Bij 25% zijn het er twee."
+        }
+      ]
+    },
+    {
+      "id": "01-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Waarom wordt de ouderdom van de aarde (ongeveer 4,54 miljard jaar) afgeleid uit meteorieten en niet uit het oudste gesteente op aarde?",
+      "choices": [
+        "Aardse gesteenten worden door platentektoniek en erosie steeds hergebruikt, dus de oudste korst is verdwenen; meteorieten zijn nauwelijks veranderd.",
+        "Aardse gesteenten bevatten geen radioactieve isotopen.",
+        "Meteorieten zijn gemakkelijker te vinden dan gesteente op aarde.",
+        "Het oudste gesteente op aarde is precies 4,54 miljard jaar oud, maar kan alleen met meteorieten worden bevestigd."
+      ],
+      "answer": "Aardse gesteenten worden door platentektoniek en erosie steeds hergebruikt, dus de oudste korst is verdwenen; meteorieten zijn nauwelijks veranderd.",
+      "hints": [],
+      "solution": [
+        "De oudste mineralen op aarde (circa 4,4 miljard jaar) geven slechts een ondergrens.",
+        "Meteorieten zijn restmateriaal uit het ontstaan van het zonnestelsel. Daarbij is de aanname dat de aarde tegelijk met hen is gevormd."
+      ],
+      "topics": [
+        "deep-time",
+        "scale"
+      ],
+      "feedback": [
+        {
+          "answer": "Aardse gesteenten bevatten geen radioactieve isotopen.",
+          "message": "Ze bevatten die wel; dat is juist de basis van radiometrische datering van aardse gesteenten. Het probleem is dat de allereerste korst niet bewaard is."
+        }
+      ]
+    },
+    {
+      "id": "01-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "context": "Amsterdam ligt op ongeveer 4,9° oosterlengte. De aarde draait 15° per uur. Nederland gebruikt Midden-Europese tijd, een uur vóór Greenwichtijd.",
+      "question": "Wanneer staat de zon in Amsterdam gemiddeld op haar hoogst, volgens de klok?",
+      "choices": [
+        "Ongeveer 12:40, omdat Amsterdam ruim 19 minuten (4,9° × 4 min) voor Greenwich ligt en de klok een uur voorloopt.",
+        "Precies om 12:00, want de klok volgt de zon.",
+        "Ongeveer 11:40, omdat Amsterdam oostelijker dan Greenwich ligt.",
+        "Ongeveer 13:20, omdat de klok een uur voorloopt en Amsterdam ruim 19 minuten achterloopt."
+      ],
+      "answer": "Ongeveer 12:40, omdat Amsterdam ruim 19 minuten (4,9° × 4 min) voor Greenwich ligt en de klok een uur voorloopt.",
+      "hints": [],
+      "solution": [
+        "Elke graad is vier minuten: $4{,}9 \\times 4 \\approx 19{,}6$ minuten. Het middaguur valt in Amsterdam 19,6 minuten eerder dan in Greenwich, dus om 11:40 Greenwichtijd.",
+        "Op de klok van Midden-Europese tijd (een uur later) is dat ongeveer 12:40."
+      ],
+      "topics": [
+        "coordinates"
+      ],
+      "feedback": [
+        {
+          "answer": "Precies om 12:00, want de klok volgt de zon.",
+          "message": "Een tijdzone is een afspraak, geen meting van de zon. Binnen een zone verschilt de zonnetijd per plaats."
+        },
+        {
+          "answer": "Ongeveer 11:40, omdat Amsterdam oostelijker dan Greenwich ligt.",
+          "message": "Dat is de tijd in Greenwichtijd. De Nederlandse klok loopt een uur voor, dus op de klok wordt het 12:40."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" font-family="Georgia, serif" font-size="13">
+<rect width="600" height="280" fill="#ffffff"/>
+<text x="300" y="24" text-anchor="middle" font-size="16" font-weight="bold" fill="#1f2933">Mijlpalen in de psychologie</text>
+<!-- Lineaire as: x = 40 + (jaar − 1870) × 5,2 -->
+<line x1="40" y1="140" x2="560" y2="140" stroke="#1f2933" stroke-width="2"/>
+<g stroke="#1f2933" stroke-width="1" fill="#1f2933" text-anchor="middle" font-size="11">
+<line x1="40" y1="135" x2="40" y2="145"/><text x="40" y="158" stroke="none">1870</text>
+<line x1="196" y1="135" x2="196" y2="145"/><text x="196" y="158" stroke="none">1900</text>
+<line x1="352" y1="135" x2="352" y2="145"/><text x="352" y="158" stroke="none">1930</text>
+<line x1="508" y1="135" x2="508" y2="145"/><text x="508" y="158" stroke="none">1960</text>
+</g>
+<rect x="456" y="134" width="52" height="12" fill="#3b5bdb" opacity="0.35"/>
+<g stroke="#9c6b30" stroke-width="1">
+<line x1="86.8" y1="140" x2="70" y2="100"/>
+<line x1="144" y1="140" x2="200" y2="100"/>
+<line x1="118" y1="140" x2="118" y2="186"/>
+</g>
+<g stroke="#3b5bdb" stroke-width="1">
+<line x1="263.6" y1="140" x2="290" y2="186"/>
+<line x1="482" y1="140" x2="482" y2="100"/>
+</g>
+<g fill="#1f2933">
+<circle cx="86.8" cy="140" r="4" fill="#9c6b30"/>
+<circle cx="118" cy="140" r="4" fill="#9c6b30"/>
+<circle cx="144" cy="140" r="4" fill="#9c6b30"/>
+<circle cx="263.6" cy="140" r="4" fill="#3b5bdb"/>
+</g>
+<g text-anchor="middle" fill="#1f2933" font-size="12">
+<rect x="15" y="44" width="110" height="56" rx="6" fill="#f8efe2" stroke="#9c6b30"/>
+<text x="70" y="62" font-weight="bold">1879</text><text x="70" y="77">Wundt opent</text><text x="70" y="92">lab in Leipzig</text>
+<rect x="145" y="44" width="110" height="56" rx="6" fill="#f8efe2" stroke="#9c6b30"/>
+<text x="200" y="62" font-weight="bold">1890</text><text x="200" y="77">James:</text><text x="200" y="92">Principles</text>
+<rect x="63" y="186" width="110" height="56" rx="6" fill="#f8efe2" stroke="#9c6b30"/>
+<text x="118" y="204" font-weight="bold">1885</text><text x="118" y="219">Ebbinghaus:</text><text x="118" y="234">geheugen meten</text>
+<rect x="235" y="186" width="110" height="56" rx="6" fill="#eef2ff" stroke="#3b5bdb"/>
+<text x="290" y="204" font-weight="bold">1913</text><text x="290" y="219">Watson:</text><text x="290" y="234">behaviorisme</text>
+<rect x="422" y="44" width="120" height="56" rx="6" fill="#eef2ff" stroke="#3b5bdb"/>
+<text x="482" y="62" font-weight="bold">jaren 1950–60</text><text x="482" y="77">Cognitieve</text><text x="482" y="92">psychologie</text>
+</g>
+<text x="300" y="268" text-anchor="middle" font-size="12" fill="#1f2933">Lineaire tijdas. Daarna: cognitieve neurowetenschap, replicatiedebat, open science.</text>
+</svg>

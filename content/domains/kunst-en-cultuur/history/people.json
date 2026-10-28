@@ -1,0 +1,64 @@
+{
+  "people": [
+    {
+      "id": "vermeer",
+      "name": "Vermeer",
+      "full_name": "Johannes Vermeer",
+      "lived": "1632 – 1675",
+      "sort_year": 1632,
+      "region": "Delft",
+      "known_for": "Schilder van stille binnenhuistaferelen, onder meer Het melkmeisje.",
+      "bio": "Vermeer werkte in Delft en was lid van het Sint-Lucasgilde. Zijn productie was klein en over zijn leven zijn weinig persoonlijke bronnen bewaard. Na zijn dood werd hij een tijd grotendeels vergeten en pas in de negentiende eeuw herontdekt.",
+      "contributions": [
+        "Het melkmeisje"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "vermeer-melkmeisje"
+      ],
+      "image": null
+    },
+    {
+      "id": "duchamp",
+      "name": "Duchamp",
+      "full_name": "Marcel Duchamp",
+      "lived": "1887 – 1968",
+      "sort_year": 1887,
+      "region": "Frankrijk en de Verenigde Staten",
+      "known_for": "Kunstenaar die met readymades de vraag stelde wat kunst is.",
+      "bio": "Duchamp gebruikte vanaf 1915 het woord readymade voor gekozen gebruiksvoorwerpen. Met Fountain (1917) verschoof de vraag van hoe iets gemaakt is naar wie het in welk kader plaatst.",
+      "contributions": [
+        "Fountain"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "duchamp-fountain"
+      ],
+      "image": null
+    },
+    {
+      "id": "panofsky",
+      "name": "Panofsky",
+      "full_name": "Erwin Panofsky",
+      "lived": "1892 – 1968",
+      "sort_year": 1892,
+      "region": "Duitsland en de Verenigde Staten",
+      "known_for": "Kunsthistoricus die drie niveaus van beeldbegrip onderscheidde.",
+      "bio": "Panofsky ontwikkelde de iconologie als methode: beschrijving, iconografische analyse en iconologische interpretatie. Zijn model is bekritiseerd maar blijft een bruikbaar gereedschap.",
+      "contributions": [
+        "Studies in Iconology"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "panofsky-iconology"
+      ],
+      "image": null
+    }
+  ]
+}

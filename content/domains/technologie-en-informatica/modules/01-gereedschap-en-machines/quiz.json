@@ -1,0 +1,364 @@
+{
+  "title": "Hoofdstuktoets – Gereedschap en machines",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor ‘beheerst’. Gebruik g = 9,8 m/s².",
+  "questions": [
+    {
+      "id": "01-T01",
+      "type": "choice",
+      "difficulty": 1,
+      "question": "Een werktuig is meestal een verlengstuk van het lichaam. Wat betekent dat?",
+      "choices": [
+        "Het verandert hoe je inspanning wordt ingezet (kracht, weg, richting of snelheid), maar maakt zelf geen energie.",
+        "Het levert extra energie, zodat je minder hoeft te doen.",
+        "Het vervangt altijd de menselijke kennis.",
+        "Het werkt alleen als het is aangedreven door een motor."
+      ],
+      "answer": "Het verandert hoe je inspanning wordt ingezet (kracht, weg, richting of snelheid), maar maakt zelf geen energie.",
+      "hints": [],
+      "solution": [
+        "Een werktuig ruilt kracht, weg, richting of snelheid, zonder energie te scheppen."
+      ],
+      "feedback": [
+        {
+          "answer": "Het levert extra energie, zodat je minder hoeft te doen.",
+          "message": "Een werktuig schept geen energie; het ruilt kracht tegen weg."
+        }
+      ],
+      "topics": [
+        "tools"
+      ]
+    },
+    {
+      "id": "01-T02",
+      "type": "choice",
+      "difficulty": 1,
+      "context": "Op de rand van een stenen werktuig zie je onder de microscoop slijtagesporen die lijken op die van het snijden van vlees.",
+      "question": "Welke uitspraak is een waarneming (en geen interpretatie)?",
+      "choices": [
+        "De rand vertoont slijtagesporen.",
+        "De steen werd door een jager gebruikt om een dier te slachten.",
+        "De maker wilde voedsel verwerken.",
+        "Alle stenen van dit type dienden om vlees te snijden."
+      ],
+      "answer": "De rand vertoont slijtagesporen.",
+      "hints": [],
+      "solution": [
+        "Alleen de eerste uitspraak beschrijft wat je ziet. De andere zijn conclusies over gebruik en bedoeling."
+      ],
+      "feedback": [
+        {
+          "answer": "De steen werd door een jager gebruikt om een dier te slachten.",
+          "message": "Dat is een conclusie uit de sporen, dus een interpretatie."
+        }
+      ],
+      "topics": [
+        "tools",
+        "design"
+      ]
+    },
+    {
+      "id": "01-T03",
+      "type": "numeric",
+      "difficulty": 2,
+      "unit": "N",
+      "question": "Een last van 450 N hangt op 0,20 m van het steunpunt van een hefboom. Jij duwt op 1,50 m van het steunpunt. Welke kracht heb je minimaal nodig, zonder wrijving?",
+      "answer": 60,
+      "hints": [],
+      "solution": [
+        "$450 \\cdot 0{,}20 = F \\cdot 1{,}50$, dus $F = 90/1{,}50 = 60\\ \\text{N}$."
+      ],
+      "feedback": [
+        {
+          "answer": 3375,
+          "message": "Je hebt de armen verwisseld."
+        }
+      ],
+      "topics": [
+        "simple-machines"
+      ]
+    },
+    {
+      "id": "01-T04",
+      "type": "choice",
+      "difficulty": 2,
+      "question": "Iemand beweert: “Een kruiwagen levert extra energie, anders kon ik die zware zak zand niet verplaatsen.” Wat is een juiste reactie?",
+      "choices": [
+        "De kruiwagen is een hefboom: de kracht wordt kleiner doordat de hand een grotere weg aflegt, er komt geen energie bij.",
+        "Dat klopt, want een kruiwagen heeft een wiel dat energie opwekt.",
+        "Een kruiwagen vermindert het gewicht van de zak.",
+        "Een kruiwagen werkt alleen met een elektrische motor."
+      ],
+      "answer": "De kruiwagen is een hefboom: de kracht wordt kleiner doordat de hand een grotere weg aflegt, er komt geen energie bij.",
+      "hints": [],
+      "solution": [
+        "Een kruiwagen is een hefboom van de tweede klas: de last zit tussen as en handen. Krachtwinst tegen wegverlies, zonder extra energie."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat klopt, want een kruiwagen heeft een wiel dat energie opwekt.",
+          "message": "Een wiel schept geen energie; het draagt het gewicht en vermindert de wrijving."
+        }
+      ],
+      "topics": [
+        "simple-machines",
+        "work-energy"
+      ]
+    },
+    {
+      "id": "01-T05",
+      "type": "numeric",
+      "difficulty": 2,
+      "unit": "m",
+      "question": "Een takel heeft zes touwdelen die de last dragen. De last moet 0,50 m omhoog. Hoeveel meter touw moet je binnenhalen, zonder rekening te houden met speling?",
+      "answer": 3,
+      "hints": [],
+      "solution": [
+        "$s = n \\cdot s_{\\text{last}} = 6 \\cdot 0{,}50 = 3{,}0\\ \\text{m}$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.083,
+          "message": "Je hebt gedeeld in plaats van vermenigvuldigd: de touwweg is groter dan de weg van de last."
+        }
+      ],
+      "topics": [
+        "simple-machines"
+      ]
+    },
+    {
+      "id": "01-T06",
+      "type": "numeric",
+      "difficulty": 2,
+      "unit": "N",
+      "question": "Een last van 2400 N wordt over een helling van 3,0 m lengte naar een hoogte van 0,50 m geduwd. Welke kracht is nodig, zonder wrijving?",
+      "answer": 400,
+      "hints": [],
+      "solution": [
+        "$F = 2400 \\cdot 0{,}50 / 3{,}0 = 400\\ \\text{N}$."
+      ],
+      "feedback": [
+        {
+          "answer": 14400,
+          "message": "Je gebruikte $l/h$ in plaats van $h/l$."
+        }
+      ],
+      "topics": [
+        "simple-machines"
+      ]
+    },
+    {
+      "id": "01-T07",
+      "type": "choice",
+      "difficulty": 3,
+      "question": "Je kunt een last recht omhoog tillen of via een lange helling duwen, beide zonder wrijving. Welke bewering is juist?",
+      "choices": [
+        "De kracht langs de helling is kleiner, de weg groter, en de verrichte arbeid hetzelfde.",
+        "De helling vermindert de benodigde arbeid.",
+        "De helling vermindert zowel de kracht als de weg.",
+        "De helling vergroot het rendement boven 100%."
+      ],
+      "answer": "De kracht langs de helling is kleiner, de weg groter, en de verrichte arbeid hetzelfde.",
+      "hints": [],
+      "solution": [
+        "Gulden regel: wat je aan kracht wint, verlies je aan weg; de arbeid is gelijk."
+      ],
+      "feedback": [
+        {
+          "answer": "De helling vermindert de benodigde arbeid.",
+          "message": "Arbeid blijft gelijk, hooguit groter door wrijving."
+        }
+      ],
+      "topics": [
+        "work-energy",
+        "simple-machines"
+      ]
+    },
+    {
+      "id": "01-T08",
+      "type": "order",
+      "difficulty": 2,
+      "question": "Zet de keten van een watermolen in volgorde, van energiebron tot resultaat.",
+      "answer": [
+        "Stromend water drukt tegen het waterrad",
+        "Het waterrad draait",
+        "Tandwielen brengen de draaiing over op de maalstenen",
+        "De maalstenen malen graan tot meel"
+      ],
+      "hints": [],
+      "solution": [
+        "Invoer (water), omzetting (rad), overbrenging (tandwielen), uitvoer (meel)."
+      ],
+      "topics": [
+        "systems",
+        "gears"
+      ]
+    },
+    {
+      "id": "01-T09",
+      "type": "numeric",
+      "difficulty": 3,
+      "unit": "%",
+      "question": "Een machine krijgt 2000 J aan arbeid toegevoerd en levert 1300 J nuttige arbeid af. Wat is het rendement?",
+      "answer": 65,
+      "hints": [],
+      "solution": [
+        "$\\eta = 1300 / 2000 = 0{,}65 = 65\\%$."
+      ],
+      "feedback": [
+        {
+          "answer": 35,
+          "message": "Dat is het verlies, niet het rendement."
+        }
+      ],
+      "topics": [
+        "efficiency"
+      ]
+    },
+    {
+      "id": "01-T10",
+      "type": "choice",
+      "difficulty": 3,
+      "context": "Een fabrikant adverteert: “Onze lier heeft een rendement van 110%.”",
+      "question": "Wat is de beste reactie?",
+      "choices": [
+        "Dat is onmogelijk zonder een niet-meegeteld energiebron: de nuttige arbeid kan niet groter zijn dan de toegevoerde.",
+        "Dat kan, bij een lier met veel touwdelen.",
+        "Dat kan, als de lier zeer zwaar is.",
+        "Dat kan, omdat krachtwinst extra arbeid oplevert."
+      ],
+      "answer": "Dat is onmogelijk zonder een niet-meegeteld energiebron: de nuttige arbeid kan niet groter zijn dan de toegevoerde.",
+      "hints": [],
+      "solution": [
+        "Behoud van energie: rendement is hoogstens 100%."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat kan, omdat krachtwinst extra arbeid oplevert.",
+          "message": "Krachtwinst wordt betaald met weg, niet met arbeid."
+        }
+      ],
+      "topics": [
+        "efficiency",
+        "work-energy"
+      ]
+    },
+    {
+      "id": "01-T11",
+      "type": "numeric",
+      "difficulty": 3,
+      "unit": "N m",
+      "question": "Een tandwielpaar heeft een overbrengingsverhouding van 4. Het ingaande koppel is 5 N m. Welk koppel komt eruit, zonder wrijving?",
+      "answer": 20,
+      "hints": [],
+      "solution": [
+        "$M_{\\text{uit}} = i \\cdot M_{\\text{in}} = 4 \\cdot 5 = 20\\ \\text{N m}$."
+      ],
+      "feedback": [
+        {
+          "answer": 1.25,
+          "message": "Het koppel wordt groter naarmate het toerental kleiner wordt."
+        }
+      ],
+      "topics": [
+        "gears"
+      ]
+    },
+    {
+      "id": "01-T12",
+      "type": "order",
+      "difficulty": 3,
+      "question": "Zet de stappen van een ontwerpvraag in de logische volgorde, van het eerste tot het laatste.",
+      "answer": [
+        "Het probleem vertalen naar meetbare eisen",
+        "Varianten bedenken",
+        "Varianten doorrekenen en met gewichten afwegen",
+        "Een prototype bouwen en meten",
+        "De eisen of het ontwerp aanpassen"
+      ],
+      "hints": [],
+      "solution": [
+        "Eisen, varianten, afwegen, testen, bijstellen: terugkoppeling sluit de kring."
+      ],
+      "topics": [
+        "design"
+      ]
+    },
+    {
+      "id": "01-T13",
+      "type": "decimal",
+      "difficulty": 4,
+      "unit": "m/s",
+      "tolerance": 0.001,
+      "question": "Een elektrische lier krijgt 120 W aan vermogen toegevoerd en heeft een rendement van 0,75. Hij hijst een last van 900 N met constante snelheid. Hoe snel gaat de last omhoog?",
+      "answer": 0.1,
+      "hints": [],
+      "solution": [
+        "$P_{\\text{nuttig}} = 0{,}75 \\cdot 120 = 90\\ \\text{W}$.",
+        "$P = F v$, dus $v = 90 / 900 = 0{,}10\\ \\text{m/s}$."
+      ],
+      "feedback": [
+        {
+          "answer": 0.133,
+          "message": "Je gebruikte het toegevoerde vermogen; alleen het nuttige deel tilt de last."
+        }
+      ],
+      "topics": [
+        "efficiency",
+        "work-energy"
+      ]
+    },
+    {
+      "id": "01-T14",
+      "type": "choice",
+      "difficulty": 4,
+      "context": "| Variant | Veiligheid (gewicht 2) | Kosten (gewicht 3) |\n|---|---|---|\n| P | 5 | 2 |\n| Q | 3 | 4 |\n\nScores lopen van 1 (slecht) tot 5 (goed).",
+      "question": "Wat is de juiste conclusie uit deze beslismatrix?",
+      "choices": [
+        "Variant Q wint met 18 tegen 16, maar de keuze verandert als veiligheid zwaarder weegt dan kosten.",
+        "Variant P wint, omdat die op veiligheid beter scoort.",
+        "Variant Q wint en de keuze staat daarmee vast.",
+        "Beide varianten scoren gelijk."
+      ],
+      "answer": "Variant Q wint met 18 tegen 16, maar de keuze verandert als veiligheid zwaarder weegt dan kosten.",
+      "hints": [],
+      "solution": [
+        "P: $2 \\cdot 5 + 3 \\cdot 2 = 16$. Q: $2 \\cdot 3 + 3 \\cdot 4 = 18$.",
+        "Met omgekeerde gewichten (veiligheid 3, kosten 2) krijgt P $15 + 4 = 19$ en Q $9 + 8 = 17$: dan wint P."
+      ],
+      "feedback": [
+        {
+          "answer": "Variant Q wint en de keuze staat daarmee vast.",
+          "message": "De uitkomst hangt af van de gewichten; controleer wat er bij andere gewichten gebeurt."
+        }
+      ],
+      "topics": [
+        "design"
+      ]
+    },
+    {
+      "id": "01-T15",
+      "type": "decimal",
+      "difficulty": 5,
+      "unit": "N m",
+      "tolerance": 0.05,
+      "question": "Een tandwieltrein heeft twee paren: 12 naar 48 tanden en 20 naar 60 tanden. Elk paar heeft een rendement van 0,95. Het ingaande koppel is 2,0 N m. Welk koppel komt eruit?",
+      "answer": 21.66,
+      "hints": [],
+      "solution": [
+        "$i = (48/12) \\cdot (60/20) = 4 \\cdot 3 = 12$.",
+        "Het rendement van de trein is $0{,}95^2 = 0{,}9025$.",
+        "$M_{\\text{uit}} = 12 \\cdot 0{,}9025 \\cdot 2{,}0 \\approx 21{,}66\\ \\text{N m}$."
+      ],
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Dat zou kloppen zonder wrijving; het rendement van beide paren verlaagt het koppel."
+        }
+      ],
+      "topics": [
+        "gears",
+        "efficiency"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "people": [
+    {
+      "id": "aristoteles",
+      "name": "Aristoteles",
+      "full_name": "Aristoteles van Stagira",
+      "lived": "384 – 322 v.Chr.",
+      "sort_year": -384,
+      "region": "Athene",
+      "known_for": "Verzamelde argumenten voor een bolvormige aarde.",
+      "bio": "Aristoteles was een Griekse filosoof en leerling van Plato. In *Over de hemel* gebruikte hij de ronde schaduw van de aarde op de maan en de veranderende sterrenhemel als bewijs voor een bolvormige aarde.",
+      "contributions": [
+        "Over de hemel",
+        "Argumenten voor de bolvorm"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "aristoteles-over-de-hemel"
+      ],
+      "image": null
+    },
+    {
+      "id": "eratosthenes",
+      "name": "Eratosthenes",
+      "full_name": "Eratosthenes van Cyrene",
+      "lived": "ca. 276 – ca. 194 v.Chr.",
+      "sort_year": -276,
+      "region": "Alexandrië",
+      "known_for": "Mat de omtrek van de aarde uit een schaduwhoek.",
+      "bio": "Eratosthenes was bibliothecaris van Alexandrië. Zijn meting van de omtrek van de aarde is bekend uit latere schrijvers; zijn eigen boek is verloren gegaan. Hij schreef ook over geografie en wiskunde.",
+      "contributions": [
+        "Meting van de omtrek van de aarde",
+        "Zeef van Eratosthenes"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "eratosthenes-meting"
+      ],
+      "image": null
+    },
+    {
+      "id": "ptolemaeus",
+      "name": "Ptolemaeus",
+      "full_name": "Claudius Ptolemaeus",
+      "lived": "ca. 100 – ca. 170 n.Chr.",
+      "sort_year": 100,
+      "region": "Alexandrië",
+      "known_for": "Schreef de *Almagest* en de *Geografie*.",
+      "bio": "Ptolemaeus werkte in Alexandrië. In de *Geografie* gaf hij coördinaten van ongeveer achtduizend plaatsen en gebruikte hij een te kleine omtrek van de aarde.",
+      "contributions": [
+        "Almagest",
+        "Geografie"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "ptolemaeus-geografie"
+      ],
+      "image": null
+    },
+    {
+      "id": "ussher",
+      "name": "Ussher",
+      "full_name": "James Ussher",
+      "lived": "1581 – 1656",
+      "sort_year": 1581,
+      "region": "Armagh, Ierland",
+      "known_for": "Dateerde de schepping op 4004 v.Chr.",
+      "bio": "James Ussher was aartsbisschop van Armagh en een groot geleerde van zijn tijd. Zijn *Annales veteris testamenti* (1650) combineren de Bijbel met oude historische bronnen tot één tijdrekening.",
+      "contributions": [
+        "Annales veteris testamenti"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "ussher-annales"
+      ],
+      "image": null
+    },
+    {
+      "id": "newton",
+      "name": "Newton",
+      "full_name": "Isaac Newton",
+      "lived": "1643 – 1727",
+      "sort_year": 1643,
+      "region": "Cambridge en Londen",
+      "known_for": "Zwaartekrachtwet; voorspelde een afgeplatte aarde.",
+      "bio": "Newton formuleerde in de *Principia* (1687) de bewegingswetten en de zwaartekrachtwet. Daaruit leidde hij af dat de draaiende aarde bij de evenaar breder is dan van pool tot pool.",
+      "contributions": [
+        "Principia",
+        "Zwaartekrachtwet",
+        "Afplatting van de aarde"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "newton-principia"
+      ],
+      "image": null
+    },
+    {
+      "id": "harrison",
+      "name": "Harrison",
+      "full_name": "John Harrison",
+      "lived": "1693 – 1776",
+      "sort_year": 1693,
+      "region": "Engeland",
+      "known_for": "Bouwde chronometers die het lengteprobleem oplosten.",
+      "bio": "John Harrison was een Engelse klokkenmaker. Zijn vier zeechronometers (H1 tot H4) lieten zien dat een klok nauwkeurig genoeg kan blijven om op zee de lengte te bepalen.",
+      "contributions": [
+        "Zeechronometers H1 – H4"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "harrison-h4"
+      ],
+      "image": null
+    },
+    {
+      "id": "maupertuis",
+      "name": "Maupertuis",
+      "full_name": "Pierre Louis Moreau de Maupertuis",
+      "lived": "1698 – 1759",
+      "sort_year": 1698,
+      "region": "Frankrijk",
+      "known_for": "Leidde de Franse expeditie naar Lapland (1736–37).",
+      "bio": "Maupertuis leidde de expeditie naar de Torne-vallei die liet zien dat een graad meridiaanboog bij de pool langer is dan in Frankrijk, een bevestiging van Newtons afgeplatte aarde.",
+      "contributions": [
+        "Expeditie naar Lapland"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "geodetische-expedities"
+      ],
+      "image": null
+    },
+    {
+      "id": "hutton",
+      "name": "Hutton",
+      "full_name": "James Hutton",
+      "lived": "1726 – 1797",
+      "sort_year": 1726,
+      "region": "Edinburgh",
+      "known_for": "Zag in de rotsen een aarde met een diepe geschiedenis.",
+      "bio": "James Hutton was een Schotse arts, boer en natuuronderzoeker. Hij beschreef de aardgeschiedenis als een kringloop van erosie, afzetting en opheffing zonder zichtbaar begin of einde.",
+      "contributions": [
+        "Theory of the Earth",
+        "Siccar Point"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "hutton-siccar-point"
+      ],
+      "image": null
+    },
+    {
+      "id": "cavendish",
+      "name": "Cavendish",
+      "full_name": "Henry Cavendish",
+      "lived": "1731 – 1810",
+      "sort_year": 1731,
+      "region": "Londen",
+      "known_for": "Mat de aantrekking tussen loden bollen en daarmee de dichtheid van de aarde.",
+      "bio": "Henry Cavendish was een Brits natuur- en scheikundige. Zijn experiment met een draaiweegschaal (1797–98) wordt beschreven als het wegen van de aarde.",
+      "contributions": [
+        "Dichtheid van de aarde"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "cavendish-aarde-wegen"
+      ],
+      "image": null
+    },
+    {
+      "id": "foucault",
+      "name": "Foucault",
+      "full_name": "Léon Foucault",
+      "lived": "1819 – 1868",
+      "sort_year": 1819,
+      "region": "Parijs",
+      "known_for": "Liet met een slinger de draaiing van de aarde zien.",
+      "bio": "Léon Foucault was een Franse natuurkundige. In 1851 liet hij in het Parijse Panthéon zien dat het zwaaivlak van een slinger langzaam draait ten opzichte van de aarde.",
+      "contributions": [
+        "Foucaultslinger",
+        "Meting van de lichtsnelheid"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "foucault-slinger"
+      ],
+      "image": null
+    },
+    {
+      "id": "kelvin",
+      "name": "Kelvin",
+      "full_name": "William Thomson, Lord Kelvin",
+      "lived": "1824 – 1907",
+      "sort_year": 1824,
+      "region": "Glasgow",
+      "known_for": "Schatte de ouderdom van de aarde uit afkoeling.",
+      "bio": "William Thomson was een Brits natuurkundige, de latere Lord Kelvin. Zijn berekening van de afkoeling van de aarde (1862) gaf een veel te jonge aarde, doordat radioactieve warmte en mantelstroming ontbraken in zijn model.",
+      "contributions": [
+        "Kelvinschaal",
+        "Afkoelingsleeftijd van de aarde"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "kelvin-leeftijd-aarde"
+      ],
+      "image": null
+    },
+    {
+      "id": "mohorovicic",
+      "name": "Mohorovičić",
+      "full_name": "Andrija Mohorovičić",
+      "lived": "1857 – 1936",
+      "sort_year": 1857,
+      "region": "Zagreb",
+      "known_for": "Ontdekte de grens tussen korst en mantel.",
+      "bio": "Andrija Mohorovičić was een Kroatische meteoroloog en seismoloog. Zijn analyse van de aardbeving in de Kupavallei (1909) liet de grens tussen korst en mantel zien, die naar hem Moho heet.",
+      "contributions": [
+        "Moho-discontinuïteit"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "mohorovicic-moho"
+      ],
+      "image": null
+    },
+    {
+      "id": "oldham",
+      "name": "Oldham",
+      "full_name": "Richard Dixon Oldham",
+      "lived": "1858 – 1936",
+      "sort_year": 1858,
+      "region": "Dublin en India",
+      "known_for": "Onderscheidde P-, S- en oppervlaktegolven en vond de kern.",
+      "bio": "Richard Dixon Oldham werkte voor de Geological Survey of India. Hij herkende in 1900 de drie golfsoorten van een grote aardbeving en toonde in 1906 de kern van de aarde aan.",
+      "contributions": [
+        "Identificatie van P-, S- en oppervlaktegolven",
+        "Ontdekking van de kern"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "oldham-kern"
+      ],
+      "image": null
+    },
+    {
+      "id": "lehmann",
+      "name": "Lehmann",
+      "full_name": "Inge Lehmann",
+      "lived": "1888 – 1993",
+      "sort_year": 1888,
+      "region": "Kopenhagen",
+      "known_for": "Ontdekte de vaste binnenkern.",
+      "bio": "Inge Lehmann was een Deense seismologe. Met haar publicatie *P'* (1936) verklaarde ze zwakke P-golven in de schaduwzone met een vaste binnenkern van ongeveer 1220 km straal.",
+      "contributions": [
+        "Vaste binnenkern"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "lehmann-binnenkern"
+      ],
+      "image": null
+    },
+    {
+      "id": "gutenberg",
+      "name": "Gutenberg",
+      "full_name": "Beno Gutenberg",
+      "lived": "1889 – 1960",
+      "sort_year": 1889,
+      "region": "Göttingen en Pasadena",
+      "known_for": "Bepaalde de diepte van de kern.",
+      "bio": "Beno Gutenberg was een Duits-Amerikaanse seismoloog. Hij bepaalde in 1913 de diepte van de grens tussen mantel en kern op ongeveer 2900 km.",
+      "contributions": [
+        "Gutenberg-discontinuïteit"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "gutenberg-kerngrens"
+      ],
+      "image": null
+    },
+    {
+      "id": "patterson",
+      "name": "Patterson",
+      "full_name": "Clair Cameron Patterson",
+      "lived": "1922 – 1995",
+      "sort_year": 1922,
+      "region": "Chicago en Pasadena",
+      "known_for": "Dateerde de aarde op 4,55 miljard jaar met loodisotopen.",
+      "bio": "Clair Patterson was een Amerikaanse geochemicus. Zijn loodisotopenmetingen aan meteorieten (1953, gepubliceerd in 1956) legden de ouderdom van de aarde vast op ongeveer 4,55 miljard jaar.",
+      "contributions": [
+        "Pb-Pb-datering van meteorieten"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "patterson-leeftijd-aarde"
+      ],
+      "image": null
+    }
+  ]
+}

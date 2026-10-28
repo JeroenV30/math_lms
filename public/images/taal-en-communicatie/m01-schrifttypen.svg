@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 398" font-family="Georgia, serif" font-size="13">
+<rect width="600" height="398" fill="#ffffff"/>
+<text x="300" y="28" text-anchor="middle" font-size="16" fill="#1f2933" font-weight="bold">Typen schrift: wat schrijft één teken?</text>
+<text x="20" y="52" text-anchor="start" font-size="12" fill="#52606d">Grote eenheid</text>
+<text x="580" y="52" text-anchor="end" font-size="12" fill="#52606d">Kleine eenheid</text>
+<line x1="120" y1="48" x2="480" y2="48" stroke="#1f2933" stroke-width="1.5"/><path d="M480 48 l-8 -4 v8 z" fill="#1f2933"/>
+<rect x="20" y="64" width="560" height="46" fill="#f8f5ef" stroke="#1f2933" stroke-width="1.5"/>
+<rect x="20" y="64" width="8" height="46" fill="#9c6b30"/>
+<text x="40" y="84" text-anchor="start" font-size="14" fill="#9c6b30" font-weight="bold">Logografisch</text>
+<text x="40" y="101" text-anchor="start" font-size="12" fill="#1f2933">woord of morfeem</text>
+<text x="570" y="93" text-anchor="end" font-size="12" fill="#52606d">Chinees; hiërogliefen deels</text>
+<rect x="20" y="118" width="560" height="46" fill="#f8f5ef" stroke="#1f2933" stroke-width="1.5"/>
+<rect x="20" y="118" width="8" height="46" fill="#3b5bdb"/>
+<text x="40" y="138" text-anchor="start" font-size="14" fill="#3b5bdb" font-weight="bold">Syllabisch</text>
+<text x="40" y="155" text-anchor="start" font-size="12" fill="#1f2933">lettergreep</text>
+<text x="570" y="147" text-anchor="end" font-size="12" fill="#52606d">Lineair B; hiragana; Cherokee</text>
+<rect x="20" y="172" width="560" height="46" fill="#f8f5ef" stroke="#1f2933" stroke-width="1.5"/>
+<rect x="20" y="172" width="8" height="46" fill="#3b5bdb"/>
+<text x="40" y="192" text-anchor="start" font-size="14" fill="#3b5bdb" font-weight="bold">Abugida</text>
+<text x="40" y="209" text-anchor="start" font-size="12" fill="#1f2933">medeklinker + klinker (aanpasbaar)</text>
+<text x="570" y="201" text-anchor="end" font-size="12" fill="#52606d">Devanagari; Ge'ez; Thai</text>
+<rect x="20" y="226" width="560" height="46" fill="#f8f5ef" stroke="#1f2933" stroke-width="1.5"/>
+<rect x="20" y="226" width="8" height="46" fill="#3b5bdb"/>
+<text x="40" y="246" text-anchor="start" font-size="14" fill="#3b5bdb" font-weight="bold">Abjad</text>
+<text x="40" y="263" text-anchor="start" font-size="12" fill="#1f2933">medeklinker</text>
+<text x="570" y="255" text-anchor="end" font-size="12" fill="#52606d">Hebreeuws; Arabisch; Fenicisch</text>
+<rect x="20" y="280" width="560" height="46" fill="#f8f5ef" stroke="#1f2933" stroke-width="1.5"/>
+<rect x="20" y="280" width="8" height="46" fill="#3b5bdb"/>
+<text x="40" y="300" text-anchor="start" font-size="14" fill="#3b5bdb" font-weight="bold">Alfabet</text>
+<text x="40" y="317" text-anchor="start" font-size="12" fill="#1f2933">foneem (klinker en medeklinker)</text>
+<text x="570" y="309" text-anchor="end" font-size="12" fill="#52606d">Grieks; Latijn; Cyrillisch</text>
+<rect x="20" y="334" width="560" height="46" fill="#f8f5ef" stroke="#1f2933" stroke-width="1.5"/>
+<rect x="20" y="334" width="8" height="46" fill="#3b5bdb"/>
+<text x="40" y="354" text-anchor="start" font-size="14" fill="#3b5bdb" font-weight="bold">Featuraal</text>
+<text x="40" y="371" text-anchor="start" font-size="12" fill="#1f2933">klankkenmerk, in lettergreepblokjes</text>
+<text x="570" y="363" text-anchor="end" font-size="12" fill="#52606d">Hangul</text>
+</svg>

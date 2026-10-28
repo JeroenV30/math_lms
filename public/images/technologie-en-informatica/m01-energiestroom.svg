@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" role="img" aria-labelledby="t d" font-family="sans-serif" font-size="14">
+<title id="t">Energiestroom bij een takel met rendement 80 procent</title>
+<desc id="d">Van 500 J toegevoerde arbeid wordt 400 J nuttige arbeid en gaat 100 J als warmte door wrijving verloren.</desc>
+<rect width="600" height="260" fill="#ffffff"/>
+<rect x="30" y="80" width="150" height="80" fill="#f4f1ea" stroke="#1f2933" stroke-width="2"/>
+<text x="105" y="115" text-anchor="middle" fill="#1f2933">Toegevoerd</text>
+<text x="105" y="138" text-anchor="middle" fill="#1f2933">500 J</text>
+<rect x="180" y="95" width="120" height="50" fill="#9c6b30" opacity="0.25"/>
+<rect x="300" y="80" width="130" height="80" fill="#e9dcc7" stroke="#1f2933" stroke-width="2"/>
+<text x="365" y="115" text-anchor="middle" fill="#1f2933">Takel</text>
+<text x="365" y="138" text-anchor="middle" fill="#1f2933">(machine)</text>
+<rect x="430" y="85" width="140" height="70" fill="#3b5bdb" opacity="0.2" stroke="#3b5bdb" stroke-width="2"/>
+<text x="500" y="115" text-anchor="middle" fill="#1f2933">Nuttig</text>
+<text x="500" y="138" text-anchor="middle" fill="#1f2933">400 J</text>
+<path d="M365,160 L365,205" stroke="#9c6b30" stroke-width="12" fill="none"/>
+<path d="M352,205 L365,225 L378,205 z" fill="#9c6b30"/>
+<text x="365" y="248" text-anchor="middle" fill="#9c6b30">100 J warmte (wrijving)</text>
+<text x="300" y="40" text-anchor="middle" fill="#1f2933">rendement = 400 J / 500 J = 0,80 = 80%</text>
+</svg>

@@ -1,0 +1,431 @@
+{
+  "title": "Hoofdstuktoets – De cel",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "01-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Welke uitspraak over het definiëren van leven is het best?",
+      "choices": [
+        "Leven is alles wat beweegt en groeit",
+        "Leven is alles wat zich voortplant; zonder voortplanting is iets niet levend",
+        "Leven wordt beschreven met een samenhang van kenmerken; geen enkel kenmerk volstaat",
+        "Leven is alles wat uit atomen bestaat en energie verbruikt"
+      ],
+      "answer": "Leven wordt beschreven met een samenhang van kenmerken; geen enkel kenmerk volstaat",
+      "hints": [],
+      "solution": [
+        "Beweging is geen noodzakelijk kenmerk (planten) en vuur groeit ook.",
+        "Een muilezel is onvruchtbaar en toch levend.",
+        "Alle materie bestaat uit atomen."
+      ],
+      "feedback": [
+        {
+          "answer": "Leven is alles wat zich voortplant; zonder voortplanting is iets niet levend",
+          "message": "Een muilezel is onvruchtbaar en toch levend."
+        }
+      ],
+      "topics": [
+        "life"
+      ]
+    },
+    {
+      "id": "01-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat kun je hieruit afleiden over wat Hooke in 1665 zag?",
+      "context": "Hooke beschreef kurk in 1665 als opgebouwd uit \"kleine doosjes\" en noemde ze *cells*. Kurk is het bastweefsel van de kurkeik en bestaat grotendeels uit afgestorven cellen.",
+      "choices": [
+        "Hij zag levende cellen met een kern",
+        "Hij zag de wanden van dode cellen, geen levende cellen met inhoud",
+        "Hij zag bacteriën in het kurk",
+        "Hij zag poriën die al in 1665 als cellen met inhoud werden herkend"
+      ],
+      "answer": "Hij zag de wanden van dode cellen, geen levende cellen met inhoud",
+      "hints": [],
+      "solution": [
+        "Kurk bestaat uit afgestorven cellen waarvan alleen de wanden overblijven.",
+        "Hooke zag geen bacteriën; die zag Van Leeuwenhoek later.",
+        "Het woord *cell* verwees naar de vorm van kamertjes."
+      ],
+      "feedback": [
+        {
+          "answer": "Hij zag levende cellen met een kern",
+          "message": "Dat kan niet bij kurk: de cellen zijn dood. Hooke zag geen kern."
+        }
+      ],
+      "topics": [
+        "cells",
+        "microscopy"
+      ]
+    },
+    {
+      "id": "01-T03",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Hooke publiceert *Micrographia*",
+        "Van Leeuwenhoek beschrijft bacteriën",
+        "Schleiden en Schwann: planten en dieren bestaan uit cellen",
+        "Virchow: *omnis cellula e cellula*",
+        "Flemming beschrijft de mitose"
+      ],
+      "hints": [],
+      "solution": [
+        "1665, 1676, 1838–1839, 1855, 1882."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Van Leeuwenhoek beschrijft bacteriën",
+            "Hooke publiceert *Micrographia*",
+            "Schleiden en Schwann: planten en dieren bestaan uit cellen",
+            "Virchow: *omnis cellula e cellula*",
+            "Flemming beschrijft de mitose"
+          ],
+          "message": "Hooke (1665) komt voor Van Leeuwenhoeks bacteriën (1676)."
+        }
+      ],
+      "topics": [
+        "cell-theory"
+      ]
+    },
+    {
+      "id": "01-T04",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een foto toont een cel van $15\\ \\mu\\text{m}$ met een breedte van $60\\ \\text{mm}$. Wat is de vergroting?",
+      "answer": 4000,
+      "unit": "×",
+      "hints": [],
+      "solution": [
+        "$60\\ \\text{mm} = 60\\,000\\ \\mu\\text{m}$",
+        "$60\\,000 / 15 = 4000$"
+      ],
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Je deelde millimeters door micrometers zonder om te rekenen."
+        }
+      ],
+      "topics": [
+        "microscopy"
+      ]
+    },
+    {
+      "id": "01-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is het oplossend vermogen van deze microscoop?",
+      "context": "Een lichtmicroscoop gebruikt licht van $\\lambda = 400\\ \\text{nm}$ en een objectief met $\\text{NA} = 1{,}0$. Voor het oplossend vermogen geldt $d = \\lambda / (2\\,\\text{NA})$.",
+      "choices": [
+        "$200\\ \\text{nm}$",
+        "$400\\ \\text{nm}$",
+        "$800\\ \\text{nm}$",
+        "$0{,}2\\ \\text{mm}$"
+      ],
+      "answer": "$200\\ \\text{nm}$",
+      "hints": [],
+      "solution": [
+        "$d = \\lambda / (2\\,\\text{NA}) = 400 / (2 \\cdot 1{,}0) = 200\\ \\text{nm}$."
+      ],
+      "feedback": [
+        {
+          "answer": "$400\\ \\text{nm}$",
+          "message": "Je vergat de $2$ in de noemer."
+        }
+      ],
+      "topics": [
+        "microscopy"
+      ]
+    },
+    {
+      "id": "01-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat ontbreekt er vooral aan dit ontwerp om een conclusie te kunnen trekken?",
+      "context": "Een onderzoeker wil weten of de kleur van het licht de kieming van tuinkers beïnvloedt. Ze zet één zaadje onder rood licht en één onder blauw licht, en kijkt na een week welk het langst is.",
+      "choices": [
+        "Een tweede lichtkleur, bijvoorbeeld groen",
+        "Een dikkere beschrijving van de kleur van de zaadjes",
+        "Meer lichtsterkte in de rode groep",
+        "Een controlegroep onder normaal licht en meer zaadjes per groep"
+      ],
+      "answer": "Een controlegroep onder normaal licht en meer zaadjes per groep",
+      "hints": [],
+      "solution": [
+        "Zonder controle weet je niet wat er onder normale omstandigheden gebeurt, en met één zaadje per groep zie je geen spreiding."
+      ],
+      "feedback": [
+        {
+          "answer": "Een tweede lichtkleur, bijvoorbeeld groen",
+          "message": "Een extra kleur geeft meer gegevens, maar lost het gebrek aan controle en herhaling niet op."
+        }
+      ],
+      "topics": [
+        "scientific-method"
+      ]
+    },
+    {
+      "id": "01-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke cel is een plantaardige cel?",
+      "context": "| Cel | Grootte | Kern | Celwand | Overig |\n|---|---|---|---|---|\n| A | 2 µm | nee | ja | kringvormig DNA |\n| B | 15 µm | ja | nee | veel mitochondriën |\n| C | 40 µm | ja | ja | chloroplasten, grote vacuole |",
+      "choices": [
+        "Cel A",
+        "Cel C",
+        "Cel B",
+        "Cel A en B"
+      ],
+      "answer": "Cel C",
+      "hints": [],
+      "solution": [
+        "Cel A heeft geen kern: een bacterie. Cel B heeft een kern maar geen celwand en veel mitochondriën: een dierlijke cel. Alleen cel C heeft celwand en chloroplasten."
+      ],
+      "feedback": [
+        {
+          "answer": "Cel B",
+          "message": "Cel B heeft geen celwand en geen chloroplasten: dat wijst op een dierlijke cel."
+        }
+      ],
+      "topics": [
+        "cells",
+        "organelles"
+      ]
+    },
+    {
+      "id": "01-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat verklaart het sterk geplooide binnenmembraan (cristae) van een mitochondrion?",
+      "choices": [
+        "De plooien houden het DNA op zijn plaats",
+        "De plooien zijn ontstaan omdat het mitochondrion meer energie wilde maken",
+        "De plooien vergroten het oppervlak waar de eiwitcomplexen voor ATP-productie zitten",
+        "De plooien maken het organel beweeglijker"
+      ],
+      "answer": "De plooien vergroten het oppervlak waar de eiwitcomplexen voor ATP-productie zitten",
+      "hints": [],
+      "solution": [
+        "Meer membraanoppervlak betekent plaats voor meer eiwitcomplexen die ATP maken."
+      ],
+      "feedback": [
+        {
+          "answer": "De plooien zijn ontstaan omdat het mitochondrion meer energie wilde maken",
+          "message": "Teleologisch: een organel heeft geen wil. Varianten met meer oppervlak maakten meer ATP en werden door selectie doorgegeven."
+        }
+      ],
+      "topics": [
+        "organelles"
+      ]
+    },
+    {
+      "id": "01-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welk gegeven ondersteunt de endosymbiontentheorie voor chloroplasten het best?",
+      "choices": [
+        "Chloroplasten hebben eigen kringvormig DNA en zijn het nauwst verwant aan cyanobacteriën",
+        "Chloroplasten komen alleen in planten voor",
+        "Chloroplasten zijn groener dan andere organellen",
+        "Chloroplasten zitten in de buurt van de celwand"
+      ],
+      "answer": "Chloroplasten hebben eigen kringvormig DNA en zijn het nauwst verwant aan cyanobacteriën",
+      "hints": [],
+      "solution": [
+        "Eigen DNA en DNA-verwantschap met bacteriën wijzen op herkomst; waar ze in de cel zitten of welke kleur ze hebben, niet."
+      ],
+      "feedback": [
+        {
+          "answer": "Chloroplasten komen alleen in planten voor",
+          "message": "Ook algen hebben ze, en het voorkomen zegt niets over de herkomst."
+        }
+      ],
+      "topics": [
+        "organelles"
+      ]
+    },
+    {
+      "id": "01-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat gebeurt er met de plantencel in oplossing 2?",
+      "context": "Een plantencel met een celsapconcentratie van 0,2 mol/L ligt achtereenvolgens in oplossing 1 (0,05 mol/L suiker) en oplossing 2 (0,4 mol/L suiker).",
+      "choices": [
+        "Water stroomt de cel in; de cel wordt stijf door turgor",
+        "Water verlaat de cel; het protoplast trekt los van de celwand (plasmolyse)",
+        "Er is geen netto beweging van water",
+        "Zout stroomt de cel in en de cel zwelt"
+      ],
+      "answer": "Water verlaat de cel; het protoplast trekt los van de celwand (plasmolyse)",
+      "hints": [],
+      "solution": [
+        "Oplossing 2 is hypertoon: er zijn buiten meer opgeloste deeltjes dan in het celsap, dus water verlaat de cel."
+      ],
+      "feedback": [
+        {
+          "answer": "Water stroomt de cel in; de cel wordt stijf door turgor",
+          "message": "Dat gebeurt in een hypotone oplossing. Oplossing 2 is geconcentreerder dan het celsap."
+        }
+      ],
+      "topics": [
+        "membrane-transport"
+      ]
+    },
+    {
+      "id": "01-T11",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Voor diffusie geldt $t \\approx x^2 / (2D)$. Hoeveel seconden duurt het voor een molecuul met $D = 10^{-9}\\ \\text{m}^2/\\text{s}$ om gemiddeld $0{,}1\\ \\text{mm}$ af te leggen?",
+      "answer": 5,
+      "unit": "s",
+      "hints": [],
+      "solution": [
+        "$x = 10^{-4}\\ \\text{m}$, $x^2 = 10^{-8}$",
+        "$t = 10^{-8} / (2 \\cdot 10^{-9}) = 5\\ \\text{s}$"
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Je vergat de $2$ in $2D$."
+        }
+      ],
+      "topics": [
+        "membrane-transport"
+      ]
+    },
+    {
+      "id": "01-T12",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet de fasen van de mitose (met cytokinese) in de juiste volgorde.",
+      "answer": [
+        "Profase",
+        "Metafase",
+        "Anafase",
+        "Telofase",
+        "Cytokinese"
+      ],
+      "hints": [],
+      "solution": [
+        "Chromosomen condenseren, liggen op de evenaar, chromatiden scheiden, kernen vormen zich, de cel deelt."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Profase",
+            "Anafase",
+            "Metafase",
+            "Telofase",
+            "Cytokinese"
+          ],
+          "message": "De chromosomen liggen eerst op de evenaar (metafase) en worden daarna gescheiden (anafase)."
+        }
+      ],
+      "topics": [
+        "cell-division"
+      ]
+    },
+    {
+      "id": "01-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Hoeveel chromosomen en chromatiden heeft deze cel in G2?",
+      "context": "Een menselijke lichaamscel heeft in G1 46 chromosomen. Daarna doorloopt ze de S-fase.",
+      "choices": [
+        "46 chromosomen met samen 92 chromatiden",
+        "92 chromosomen met samen 92 chromatiden",
+        "46 chromosomen met samen 46 chromatiden",
+        "23 chromosomen met samen 46 chromatiden"
+      ],
+      "answer": "46 chromosomen met samen 92 chromatiden",
+      "hints": [],
+      "solution": [
+        "De S-fase kopieert het DNA, maar de kopieën blijven als chromatiden bij elkaar: het aantal chromosomen blijft 46."
+      ],
+      "feedback": [
+        {
+          "answer": "92 chromosomen met samen 92 chromatiden",
+          "message": "Het aantal chromosomen verandert pas in de anafase."
+        }
+      ],
+      "topics": [
+        "cell-division"
+      ]
+    },
+    {
+      "id": "01-T14",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een aardappelstaafje van $2{,}40\\ \\text{g}$ weegt na 24 uur in suikeroplossing $2{,}10\\ \\text{g}$. Wat is de procentuele massaverandering? (negatief bij afname)",
+      "context": "Aardappelstaafjes van gelijke grootte worden gewogen, in suikeroplossing gelegd, en 24 uur later opnieuw gewogen.",
+      "answer": -12.5,
+      "tolerance": 0.05,
+      "unit": "%",
+      "hints": [],
+      "solution": [
+        "$\\dfrac{2{,}10 - 2{,}40}{2{,}40} \\cdot 100\\% = -12{,}5\\%$"
+      ],
+      "feedback": [
+        {
+          "answer": -14,
+          "message": "Je deelde door de eindmassa in plaats van de beginmassa."
+        }
+      ],
+      "topics": [
+        "membrane-transport",
+        "scientific-method"
+      ]
+    },
+    {
+      "id": "01-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een leerling schrijft: \"Planten hebben bladgroen om licht te kunnen opvangen.\" Wat is hier het probleem als ultimate verklaring?",
+      "context": "Zin van een leerling bij de vraag waarom bladeren groen zijn.",
+      "choices": [
+        "De zin is onjuist omdat bladgroen geen licht opvangt",
+        "De zin schrijft een doel toe; een evolutionaire verklaring verwijst naar selectie van varianten die licht beter benutten",
+        "De zin gaat over het mechanisme, niet over het waarom",
+        "De zin is correct en volledig, want elke eigenschap heeft een doel"
+      ],
+      "answer": "De zin schrijft een doel toe; een evolutionaire verklaring verwijst naar selectie van varianten die licht beter benutten",
+      "hints": [],
+      "solution": [
+        "\"Om te\" suggereert een doel. Evolutie heeft geen doel; varianten die licht beter benutten kregen meer nakomelingen."
+      ],
+      "feedback": [
+        {
+          "answer": "De zin is correct en volledig, want elke eigenschap heeft een doel",
+          "message": "Dat is het teleologische denken zelf. Eigenschappen blijven bestaan door selectie, niet doordat ze een doel hebben."
+        },
+        {
+          "answer": "De zin gaat over het mechanisme, niet over het waarom",
+          "message": "De zin gaat juist over het waarom, maar in doelgerichte termen; het mechanisme is dat chlorofyl licht absorbeert."
+        }
+      ],
+      "topics": [
+        "life",
+        "scale-levels"
+      ]
+    }
+  ]
+}

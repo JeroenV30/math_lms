@@ -1,0 +1,437 @@
+{
+  "title": "Hoofdstuktoets – Psychologie",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "01-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat is hier gebeurd?",
+      "context": "Een onderzoeker meet na hoeveel milliseconden deelnemers op een knop drukken (gemiddeld 480 ms) en schrijft: ‘De deelnemers waren niet geconcentreerd.’",
+      "choices": [
+        "Een betrouwbare meting is beschreven als een toetsbare hypothese over het gedrag van deelnemers",
+        "Een steekproef is verward met de populatie waar de onderzoeker iets over wil zeggen",
+        "Een derde variabele is buiten beschouwing gelaten bij het trekken van de conclusie",
+        "Een interpretatie die niet rechtstreeks uit de meting volgt, is als vaststelling gepresenteerd"
+      ],
+      "answer": "Een interpretatie die niet rechtstreeks uit de meting volgt, is als vaststelling gepresenteerd",
+      "hints": [],
+      "solution": [
+        "Het getal beschrijft een meting; ‘niet geconcentreerd’ is een verklaring."
+      ],
+      "feedback": [
+        {
+          "answer": "Een betrouwbare meting is beschreven als een toetsbare hypothese over het gedrag van deelnemers",
+          "message": "De meting zelf is niet het probleem. Het probleem is de stap van het getal naar ‘niet geconcentreerd’."
+        }
+      ],
+      "topics": [
+        "behaviour",
+        "research-questions"
+      ]
+    },
+    {
+      "id": "01-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Waarom geldt het laboratorium van Wundt in Leipzig (1879) als een markeringspunt in de geschiedenis van de psychologie?",
+      "choices": [
+        "Wundt was de eerste in de geschiedenis die systematisch over de menselijke geest nadacht",
+        "Wundt ontdekte als eerste het onbewuste en maakte het tot onderwerp van onderzoek",
+        "Er kwam een eigen plek, tijdschrift en opleiding voor experimenteel onderzoek naar de geest",
+        "Hier werd aangetoond dat introspectie de betrouwbaarste methode is om mentale processen te meten"
+      ],
+      "answer": "Er kwam een eigen plek, tijdschrift en opleiding voor experimenteel onderzoek naar de geest",
+      "hints": [],
+      "solution": [
+        "Wundt bouwde een eigen onderzoeksomgeving op; denken over de geest bestond al eeuwen."
+      ],
+      "feedback": [
+        {
+          "answer": "Wundt was de eerste in de geschiedenis die systematisch over de menselijke geest nadacht",
+          "message": "Mensen dachten al eeuwenlang over de geest na. Nieuw was de experimentele werkwijze en de eigen organisatie."
+        }
+      ],
+      "topics": [
+        "psych-history"
+      ]
+    },
+    {
+      "id": "01-T03",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Wundts laboratorium in Leipzig",
+        "James’ The Principles of Psychology",
+        "Watsons pleidooi voor behaviorisme",
+        "Milgrams gehoorzaamheidsonderzoek (publicatie)",
+        "De replicatiestudie van de Open Science Collaboration"
+      ],
+      "hints": [],
+      "solution": [
+        "1879, 1890, 1913, 1963, 2015."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Wundts laboratorium in Leipzig",
+            "Watsons pleidooi voor behaviorisme",
+            "James’ The Principles of Psychology",
+            "Milgrams gehoorzaamheidsonderzoek (publicatie)",
+            "De replicatiestudie van de Open Science Collaboration"
+          ],
+          "message": "James’ boek verscheen in 1890, Watsons artikel in 1913."
+        }
+      ],
+      "topics": [
+        "psych-history"
+      ]
+    },
+    {
+      "id": "01-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is dit?",
+      "context": "Een onderzoeker wil ‘sociale uitsluiting op school’ onderzoeken. Ze vraagt elke leerling hoeveel klasgenoten hem of haar in de afgelopen maand hebben genegeerd of niet hebben uitgenodigd.",
+      "choices": [
+        "Een hypothese: een toetsbare verwachting over een verband tussen uitsluiting en schoolprestaties",
+        "Een operationalisering: een abstract begrip wordt vastgelegd in een meetbare vraag",
+        "Een steekproef: een deel van de leerlingen dat uit de populatie wordt getrokken en onderzocht",
+        "Een observatie: de onderzoeker legt het gedrag van de leerlingen zelf vast en telt het"
+      ],
+      "answer": "Een operationalisering: een abstract begrip wordt vastgelegd in een meetbare vraag",
+      "hints": [],
+      "solution": [
+        "De onderzoeker maakt het abstracte begrip ‘sociale uitsluiting’ concreet in een vraag die je kunt tellen."
+      ],
+      "feedback": [
+        {
+          "answer": "Een observatie: de onderzoeker legt het gedrag van de leerlingen zelf vast en telt het",
+          "message": "Hier geven leerlingen zelf antwoord; dat is zelfrapportage via een vragenlijst, geen observatie."
+        }
+      ],
+      "topics": [
+        "operationalisation"
+      ]
+    },
+    {
+      "id": "01-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is hier het best gezegd?",
+      "context": "Een bedrijf meet ‘werkplezier’ met het aantal ziektedagen per werknemer. De registratie van ziektedagen is zeer nauwkeurig.",
+      "choices": [
+        "De meting is waarschijnlijk betrouwbaar, maar de validiteit voor werkplezier is twijfelachtig",
+        "De meting is niet betrouwbaar en daardoor ook niet valide voor werkplezier",
+        "De meting is valide voor werkplezier, want ziektedagen zijn objectief en nauwkeurig geregistreerd",
+        "De meting is onbruikbaar, omdat objectieve gegevens nooit iets zeggen over gevoelens of beleving"
+      ],
+      "answer": "De meting is waarschijnlijk betrouwbaar, maar de validiteit voor werkplezier is twijfelachtig",
+      "hints": [],
+      "solution": [
+        "Nauwkeurig registreren maakt betrouwbaar. Of ziektedagen werkplezier meten, is een aparte vraag over validiteit."
+      ],
+      "feedback": [
+        {
+          "answer": "De meting is valide voor werkplezier, want ziektedagen zijn objectief en nauwkeurig geregistreerd",
+          "message": "Objectief en nauwkeurig is niet hetzelfde als valide. Ziektedagen hebben ook andere oorzaken dan werkplezier."
+        }
+      ],
+      "topics": [
+        "validity"
+      ]
+    },
+    {
+      "id": "01-T06",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is de totaalscore van deze deelnemer?",
+      "context": "Een vragenlijst heeft 6 items op een schaal van 1 tot 5. Item 2 en item 4 zijn omgekeerd gesteld (gescoord als 6 min het antwoord). Een deelnemer antwoordt: 5, 1, 3, 2, 4, 4 (items 1 tot en met 6).",
+      "answer": 25,
+      "unit": "punten",
+      "hints": [],
+      "solution": [
+        "Items 2 en 4 worden omgekeerd: 6 − 1 = 5 en 6 − 2 = 4.",
+        "Totaal: 5 + 5 + 3 + 4 + 4 + 4 = 25."
+      ],
+      "feedback": [
+        {
+          "answer": 19,
+          "message": "Je hebt de omgekeerde items niet omgekeerd (5 + 1 + 3 + 2 + 4 + 4 = 19)."
+        }
+      ],
+      "topics": [
+        "social-measurement"
+      ]
+    },
+    {
+      "id": "01-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke conclusie is gerechtvaardigd?",
+      "context": "In een onderzoek onder 500 volwassenen blijkt dat mensen die meer tijd op sociale media doorbrengen zich eenzamer voelen (r = 0,3). Er is niemand aan een groep toegewezen.",
+      "choices": [
+        "Sociale media veroorzaken eenzaamheid, want de samenhang is aangetoond in een grote steekproef",
+        "Er is geen verband tussen beide variabelen, want r is kleiner dan 0,5",
+        "Eenzaamheid veroorzaakt altijd meer gebruik van sociale media, en niet andersom",
+        "Er is samenhang, maar de richting is onbekend: eenzame mensen kunnen ook meer online gaan"
+      ],
+      "answer": "Er is samenhang, maar de richting is onbekend: eenzame mensen kunnen ook meer online gaan",
+      "hints": [],
+      "solution": [
+        "Correlatie zegt niets over de richting. Beide richtingen en een derde variabele zijn mogelijk."
+      ],
+      "feedback": [
+        {
+          "answer": "Sociale media veroorzaken eenzaamheid, want de samenhang is aangetoond in een grote steekproef",
+          "message": "Dat is één van de mogelijke verklaringen. Het ontwerp (geen toewijzing) laat de omgekeerde richting en derde variabelen niet uitsluiten."
+        },
+        {
+          "answer": "Er is geen verband tussen beide variabelen, want r is kleiner dan 0,5",
+          "message": "Een r van 0,3 is een zwak tot matig verband, maar wel degelijk een verband; in de psychologie zijn zulke waarden gebruikelijk."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "01-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welk ontwerp laat het sterkst een oorzakelijke conclusie toe over het effect van een leermethode?",
+      "choices": [
+        "Leerlingen laten kiezen welke methode ze willen en daarna de resultaten van beide groepen vergelijken",
+        "Een enquête onder alle leraren van de school naar welke methode zij het beste vinden",
+        "Leerlingen door loting aan de nieuwe of de oude methode toewijzen en daarna dezelfde toets afnemen",
+        "Eén leerling een jaar lang uitgebreid volgen en alle vorderingen nauwkeurig vastleggen"
+      ],
+      "answer": "Leerlingen door loting aan de nieuwe of de oude methode toewijzen en daarna dezelfde toets afnemen",
+      "hints": [],
+      "solution": [
+        "Loting maakt de groepen vooraf vergelijkbaar; bij zelfkeuze kiezen gemotiveerde leerlingen misschien anders."
+      ],
+      "feedback": [
+        {
+          "answer": "Leerlingen laten kiezen welke methode ze willen en daarna de resultaten van beide groepen vergelijken",
+          "message": "Bij zelfkeuze kan het verschil door motivatie of voorkennis komen in plaats van door de methode."
+        }
+      ],
+      "topics": [
+        "research-methods",
+        "causation"
+      ]
+    },
+    {
+      "id": "01-T09",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bereken de 95%-marge in procentpunten, afgerond op één decimaal.",
+      "context": "In een aselecte steekproef van 900 mensen zegt 50% dat ze vorig jaar vaker zijn gaan fietsen (fictief). De 95%-marge is $1{,}96\\sqrt{p(1-p)/n}$.",
+      "answer": 3.3,
+      "tolerance": 0.1,
+      "unit": "procentpunten",
+      "hints": [],
+      "solution": [
+        "$p = 0{,}5$: $\\sqrt{0{,}25/900} = 0{,}01667$.",
+        "Maal 1,96 is 0,0327, dus 3,3 procentpunten."
+      ],
+      "feedback": [
+        {
+          "answer": 1.7,
+          "message": "Je bent vergeten met 1,96 te vermenigvuldigen."
+        }
+      ],
+      "topics": [
+        "sampling",
+        "statistics-basics"
+      ]
+    },
+    {
+      "id": "01-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de beste lezing van deze uitkomst?",
+      "context": "In een groot onderzoek (n = 20.000) is het verschil in gemiddelde score tussen twee groepen 0,3 punt op een schaal van 0 tot 100. De standaarddeviatie is 15. De p-waarde is 0,01.",
+      "choices": [
+        "Het effect is groot, want de p-waarde is kleiner dan 0,05 en dus is het verschil belangrijk",
+        "Het verschil is significant, maar de effectgrootte is klein (d is ongeveer 0,02)",
+        "De hypothese is nu bewezen, want de uitkomst is statistisch significant bij een grote steekproef",
+        "De uitkomst is waarschijnlijk toeval, want het verschil is kleiner dan 1 punt op de schaal"
+      ],
+      "answer": "Het verschil is significant, maar de effectgrootte is klein (d is ongeveer 0,02)",
+      "hints": [],
+      "solution": [
+        "d = 0,3 / 15 = 0,02: een heel klein effect.",
+        "Bij zeer grote steekproeven wordt ook een triviaal verschil significant."
+      ],
+      "feedback": [
+        {
+          "answer": "Het effect is groot, want de p-waarde is kleiner dan 0,05 en dus is het verschil belangrijk",
+          "message": "De p-waarde zegt niets over de grootte. De effectgrootte is d = 0,3/15 = 0,02."
+        },
+        {
+          "answer": "De uitkomst is waarschijnlijk toeval, want het verschil is kleiner dan 1 punt op de schaal",
+          "message": "Bij p = 0,01 is toeval als enige verklaring onwaarschijnlijk, maar het verschil is wel klein."
+        }
+      ],
+      "topics": [
+        "statistics-basics"
+      ]
+    },
+    {
+      "id": "01-T11",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welk onderzoek ondersteunt het best (a) generalisatie naar de bevolking en (b) een oorzakelijke conclusie?",
+      "context": "Onderzoek X: 800 mensen uit het bevolkingsregister vullen één vragenlijst in. Onderzoek Y: 60 vrijwilligers worden door loting verdeeld over twee behandelingen.",
+      "choices": [
+        "(a) onderzoek X, (b) onderzoek Y",
+        "(a) onderzoek Y, (b) onderzoek X",
+        "(a) en (b) beide onderzoek X",
+        "(a) en (b) beide onderzoek Y"
+      ],
+      "answer": "(a) onderzoek X, (b) onderzoek Y",
+      "hints": [],
+      "solution": [
+        "Willekeurige steekproeftrekking ondersteunt generalisatie; willekeurige toewijzing ondersteunt causale conclusies."
+      ],
+      "feedback": [
+        {
+          "answer": "(a) onderzoek Y, (b) onderzoek X",
+          "message": "Dat is omgekeerd. X trok een aselecte steekproef (generalisatie), Y wees toe met loting (causaliteit)."
+        }
+      ],
+      "topics": [
+        "sampling",
+        "causation"
+      ]
+    },
+    {
+      "id": "01-T12",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Hoeveel procent van de positieve uitslagen betreft een zieke persoon? Rond af op één decimaal.",
+      "context": "Een aandoening komt bij 2% van de mensen voor. Een test herkent 90% van de zieken en geeft bij 10% van de gezonde mensen ten onrechte een positieve uitslag (fictieve cijfers).",
+      "answer": 15.5,
+      "tolerance": 0.2,
+      "unit": "%",
+      "hints": [],
+      "solution": [
+        "Neem 1000 mensen: 20 zieken, 980 gezonden.",
+        "Positief: 18 zieken + 98 gezonden = 116. Dan 18/116 ≈ 15,5%."
+      ],
+      "feedback": [
+        {
+          "answer": 90,
+          "message": "Dat is de gevoeligheid. Je moet kijken naar de kans dat een positieve uitslag een zieke betreft."
+        }
+      ],
+      "topics": [
+        "bias",
+        "statistics-basics"
+      ]
+    },
+    {
+      "id": "01-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welk verschijnsel verklaart het verschil tussen de twee groepen het best?",
+      "context": "Deelnemers schatten het aantal inwoners van een stad. Groep 1 kreeg eerst de vraag ‘Zijn het er meer of minder dan 100.000?’, groep 2 de vraag ‘Zijn het er meer of minder dan 2 miljoen?’. De schattingen van groep 2 lagen gemiddeld veel hoger.",
+      "choices": [
+        "Bevestigingsvertekening",
+        "Terugkijkvertekening",
+        "Sociale wenselijkheid",
+        "Het ankereffect"
+      ],
+      "answer": "Het ankereffect",
+      "hints": [],
+      "solution": [
+        "Een getal dat je net hebt gezien, stuurt je schatting."
+      ],
+      "feedback": [
+        {
+          "answer": "Bevestigingsvertekening",
+          "message": "Bevestigingsvertekening is selectief letten op wat bij je verwachting past. Hier stuurt een eerder genoemd getal de schatting."
+        }
+      ],
+      "topics": [
+        "bias"
+      ]
+    },
+    {
+      "id": "01-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een herhaling van een gepubliceerde studie, met meer deelnemers, vindt geen effect. Wat is de meest zorgvuldige conclusie?",
+      "choices": [
+        "Het oorspronkelijke onderzoek was fraude, want anders zou de herhaling hetzelfde resultaat hebben gevonden",
+        "Het effect bestaat niet en al het eerdere onderzoek op dit terrein is daarmee waardeloos",
+        "Het oorspronkelijke resultaat is minder zeker; toeval, publicatievertekening of een andere context moeten worden onderzocht",
+        "De herhaling telt niet mee, omdat de oorspronkelijke auteurs er zelf niet bij betrokken waren"
+      ],
+      "answer": "Het oorspronkelijke resultaat is minder zeker; toeval, publicatievertekening of een andere context moeten worden onderzocht",
+      "hints": [],
+      "solution": [
+        "Eén herhaling beslist niet; ze maakt de zaak wel onzekerder."
+      ],
+      "feedback": [
+        {
+          "answer": "Het oorspronkelijke onderzoek was fraude, want anders zou de herhaling hetzelfde resultaat hebben gevonden",
+          "message": "Fraude is een uitzondering. Toeval, selectieve publicatie en analysevrijheid zijn veel waarschijnlijkere verklaringen."
+        }
+      ],
+      "topics": [
+        "replication"
+      ]
+    },
+    {
+      "id": "01-T15",
+      "type": "order",
+      "mode": "challenge",
+      "difficulty": 3,
+      "question": "Zet de stappen van een onderzoek met mogelijke misleiding in de volgorde waarin ze plaatsvinden.",
+      "answer": [
+        "De ethische commissie beoordeelt het onderzoeksvoorstel",
+        "Deelnemers geven geïnformeerde toestemming",
+        "Het onderzoek wordt uitgevoerd; deelnemers mogen op elk moment stoppen",
+        "Bij misleiding volgt een nabespreking (debriefing)",
+        "Gegevens worden vertrouwelijk verwerkt en gerapporteerd"
+      ],
+      "hints": [],
+      "solution": [
+        "Eerst toetsing, dan toestemming, dan uitvoering, dan nabespreking."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Deelnemers geven geïnformeerde toestemming",
+            "De ethische commissie beoordeelt het onderzoeksvoorstel",
+            "Het onderzoek wordt uitgevoerd; deelnemers mogen op elk moment stoppen",
+            "Bij misleiding volgt een nabespreking (debriefing)",
+            "Gegevens worden vertrouwelijk verwerkt en gerapporteerd"
+          ],
+          "message": "De ethische commissie beoordeelt het voorstel voordat deelnemers worden geworven."
+        }
+      ],
+      "topics": [
+        "research-ethics"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" role="img" aria-label="De drie niveaus van Panofsky als trap">
+  <style>
+    text { font-family: system-ui, Arial, sans-serif; font-size: 14px; fill: #1f2933; }
+    .t { font-weight: bold; font-size: 15px; }
+    .s { font-size: 13px; }
+  </style>
+  <rect width="600" height="340" fill="#ffffff"/>
+  <g stroke="#1f2933" stroke-width="2">
+    <rect x="30" y="220" width="180" height="60" fill="#faf6ee"/>
+    <rect x="210" y="150" width="180" height="130" fill="#efe3cf" stroke="#9c6b30"/>
+    <rect x="390" y="80" width="180" height="200" fill="#e8eefc" stroke="#3b5bdb"/>
+  </g>
+  <text x="120" y="245" text-anchor="middle" class="t">1 Beschrijving</text>
+  <text x="120" y="265" text-anchor="middle" class="s">wat zie je?</text>
+  <text x="300" y="180" text-anchor="middle" class="t">2 Iconografie</text>
+  <text x="300" y="200" text-anchor="middle" class="s">welk thema of verhaal?</text>
+  <text x="480" y="110" text-anchor="middle" class="t">3 Iconologie</text>
+  <text x="480" y="130" text-anchor="middle" class="s">wat zegt het over de tijd?</text>
+  <text x="480" y="160" text-anchor="middle" class="s">meest speculatief:</text>
+  <text x="480" y="178" text-anchor="middle" class="s">vraagt het meeste bewijs</text>
+  <line x1="30" y1="305" x2="570" y2="305" stroke="#3b5bdb" stroke-width="2.5"/>
+  <polygon points="570,305 558,299 558,311" fill="#3b5bdb"/>
+  <polygon points="30,305 42,299 42,311" fill="#3b5bdb"/>
+  <text x="300" y="327" text-anchor="middle" class="s">context en bronnen: elke bewering terug te voeren op wat je kunt aanwijzen</text>
+</svg>

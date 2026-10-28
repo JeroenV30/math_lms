@@ -7,20 +7,25 @@
   "status": "available",
   "historical_period": "Oudheid",
   "estimated_difficulty": 1,
-  "estimated_minutes": 15,
+  "estimated_minutes": 150,
   "prerequisites": [],
   "topics": [
     "writing-systems",
-    "language-and-writing"
+    "language-and-writing",
+    "decipherment",
+    "spelling",
+    "alphabet-history"
   ],
-  "core_question": "Hoe werkt taal en hoe brengen mensen betekenis over?",
-  "summary": "Hoe werkt taal en hoe brengen mensen betekenis over? Van de eerste schriftsystemen tot taalkunde, retorica en informatietheorie.",
+  "core_question": "Wat is schrift, hoe is het ontstaan, en waarom schrijven we niet zoals we spreken?",
+  "summary": "Van de tabletten van Uruk en de Steen van Rosetta tot het Latijnse alfabet en de Nederlandse spelling: hoe schrift taal vastlegt, welke typen er zijn en hoe onderzoekers verloren schriften ontcijferden.",
   "learning_goals": [
-    "Je kunt uitleggen waarom mensen schrift gebruiken en wat het mogelijk maakt.",
-    "Je kunt taal, schrift en alfabet van elkaar onderscheiden.",
-    "Je kunt beschrijven hoe een teken betekenis krijgt binnen gedeelde afspraken.",
-    "Je kunt uitleggen waarom het materiaal en doel van een tekst invloed hebben op de vorm.",
-    "Je kunt voorbeelden geven van wat schrift bewaart en wat in geschreven communicatie verloren kan gaan."
+    "Je kunt taal, schrift en alfabet van elkaar onderscheiden en een woord ontleden in letters, grafemen, fonemen, lettergrepen en morfemen.",
+    "Je kunt uitleggen waarom schrift is ontstaan en hoe doel en materiaal (boekhouding, ritueel, klei, bot) de vorm bepaalden.",
+    "Je kunt uitleggen hoe een teken betekenis krijgt via het rebusprincipe en gedeelde afspraken.",
+    "Je kunt een schrift classificeren naar de taaleenheid die een teken weergeeft: logografisch, syllabisch, abjad, abugida, alfabet.",
+    "Je kunt de route van het Proto-Sinaïtisch via het Fenicisch en Grieks naar het Latijnse alfabet beschrijven.",
+    "Je kunt uitleggen hoe ontcijfering werkt en wat schrift wel en niet van taal bewaart.",
+    "Je kunt een afwijking tussen klank en letter in de Nederlandse spelling herleiden tot haar oorzaak, zonder haar als fout te bestempelen."
   ],
   "glossary": [
     {
@@ -29,41 +34,128 @@
     },
     {
       "term": "Schrift",
-      "definition": "Een systeem van zichtbare of tastbare tekens waarmee taal of andere informatie wordt vastgelegd."
+      "definition": "Een systeem van zichtbare of tastbare tekens waarmee taal wordt vastgelegd."
     },
     {
-      "term": "Schriftsysteem",
-      "definition": "De afspraken waarmee tekens worden gebruikt om taal of betekenis weer te geven."
+      "term": "Foneem",
+      "definition": "De kleinste klankeenheid die betekenis onderscheidt, bijvoorbeeld /b/ en /p/ in *bak* en *pak*."
     },
     {
-      "term": "Teken",
-      "definition": "Een vorm die binnen een afgesproken systeem naar iets verwijst of een functie heeft."
+      "term": "Grafeem",
+      "definition": "De kleinste schrijfeenheid van een schrift, bijvoorbeeld ⟨sch⟩ of ⟨ij⟩; niet altijd één letter."
     },
     {
-      "term": "Pictogram",
-      "definition": "Een teken dat door gelijkenis een voorwerp, handeling of begrip kan voorstellen."
+      "term": "Morfeem",
+      "definition": "De kleinste eenheid met een eigen betekenis of functie, zoals *school*, *boek* en meervoud *-en*."
+    },
+    {
+      "term": "Rebusprincipe",
+      "definition": "Het gebruiken van een teken voor de klank van het woord dat het afbeeldt, los van zijn betekenis."
     },
     {
       "term": "Logogram",
-      "definition": "Een teken dat een woord of betekenisvol element weergeeft."
+      "definition": "Een teken dat een woord of morfeem weergeeft."
+    },
+    {
+      "term": "Determinatief",
+      "definition": "Een niet-uitgesproken teken dat de categorie van een woord aangeeft, zoals in Egyptische hiërogliefen."
+    },
+    {
+      "term": "Abjad",
+      "definition": "Een schrift dat medeklinkers schrijft en klinkers weglaat of alleen optioneel aanduidt, zoals Hebreeuws en Arabisch."
+    },
+    {
+      "term": "Abugida",
+      "definition": "Een schrift met basistekens voor medeklinker plus vaste klinker, die systematisch wordt aangepast, zoals Devanagari."
     },
     {
       "term": "Alfabet",
-      "definition": "Een schriftsysteem met tekens die in beginsel afzonderlijke klanken van spraak weergeven."
+      "definition": "Een schriftsysteem waarin medeklinkers en klinkers gelijkwaardige tekens zijn, in beginsel één per foneem."
     },
     {
-      "term": "Geletterdheid",
-      "definition": "Het vermogen om schrift in een bepaalde samenleving en context te gebruiken, waaronder lezen en schrijven."
+      "term": "Acrofonie",
+      "definition": "Het principe dat een teken staat voor de beginklank van het woord dat het afbeeldt."
+    },
+    {
+      "term": "Ontcijfering",
+      "definition": "Het reconstrueren van de regels van een schrift dat niemand meer leest."
+    },
+    {
+      "term": "Diepe spelling",
+      "definition": "Een spelling waarin de verhouding tussen grafemen en fonemen onregelmatig is, zoals in het Engels."
     }
   ],
   "lessons": [
     {
       "slug": "introductie",
-      "title": "Waarom schrijven we?",
+      "title": "Eén tekst, drie schriften",
       "file": "01-introductie.md",
       "kind": "intro"
+    },
+    {
+      "slug": "spraak-en-schrift",
+      "title": "Wat je ziet en wat je zegt",
+      "file": "02-spraak-en-schrift.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "het-ontstaan-van-schrift",
+      "title": "Het ontstaan van schrift",
+      "file": "03-het-ontstaan-van-schrift.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "typen-schrift",
+      "title": "Het rebusprincipe en de typen schrift",
+      "file": "04-typen-schrift-en-het-rebusprincipe.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "van-proto-sinaitisch-naar-latijn",
+      "title": "Van Sinaï naar Rome",
+      "file": "05-van-proto-sinaitisch-naar-latijn.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "ontcijferd",
+      "title": "Een schrift dat niemand meer las",
+      "file": "06-ontcijferd.md",
+      "kind": "history"
+    },
+    {
+      "slug": "spelling",
+      "title": "Spelling en de afstand tussen klank en letter",
+      "file": "07-spelling-en-de-afstand-tussen-klank-en-letter.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
     }
   ],
-  "timeline": [],
-  "people": []
+  "timeline": [
+    "uruk-tabletten",
+    "orakelbeenderen-anyang",
+    "proto-sinaitisch-schrift",
+    "fenicisch-alfabet",
+    "beker-van-nestor",
+    "steen-van-rosetta",
+    "hangul-uitgevaardigd",
+    "siegenbeek-spelling",
+    "champollion-ontcijfert-hierogliefen",
+    "de-vries-te-winkel-spelling",
+    "ventris-ontcijfert-lineair-b",
+    "groene-boekje"
+  ],
+  "people": [
+    "champollion",
+    "michael-ventris",
+    "alice-kober",
+    "thomas-young",
+    "arthur-evans",
+    "matthijs-siegenbeek",
+    "sejong"
+  ]
 }

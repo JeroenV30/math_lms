@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-label="Compositieschema van Het melkmeisje">
+  <style>
+    text { font-family: system-ui, Arial, sans-serif; font-size: 14px; fill: #1f2933; }
+    .small { font-size: 12.5px; }
+    .acc { fill: #3b5bdb; }
+  </style>
+  <rect width="600" height="470" fill="#ffffff"/>
+  <text x="300" y="24" text-anchor="middle" style="font-weight:bold">Compositieschema bij Het melkmeisje (schematisch)</text>
+  <!-- kader van het doek -->
+  <rect x="170" y="40" width="300" height="330" fill="#faf6ee" stroke="#1f2933" stroke-width="2"/>
+  <!-- driedeling -->
+  <g stroke="#1f2933" stroke-width="1" stroke-dasharray="2 5" opacity="0.5">
+    <line x1="270" y1="40" x2="270" y2="370"/><line x1="370" y1="40" x2="370" y2="370"/>
+    <line x1="170" y1="150" x2="470" y2="150"/><line x1="170" y1="260" x2="470" y2="260"/>
+  </g>
+  <!-- raam -->
+  <rect x="182" y="55" width="62" height="90" fill="#e8eefc" stroke="#3b5bdb" stroke-width="2"/>
+  <line x1="213" y1="55" x2="213" y2="145" stroke="#3b5bdb"/><line x1="182" y1="100" x2="244" y2="100" stroke="#3b5bdb"/>
+  <!-- lichtval -->
+  <g stroke="#3b5bdb" stroke-width="2.5" fill="none">
+    <path d="M60 80 L176 100"/><path d="M60 120 L176 112"/>
+    <path d="M250 110 L340 190" stroke-dasharray="7 5"/>
+    <path d="M250 125 L318 235" stroke-dasharray="7 5"/>
+  </g>
+  <path d="M170 98 l-12 -4 v9 z" fill="#3b5bdb"/>
+  <!-- tafel -->
+  <polygon points="172,290 300,275 300,370 172,370" fill="#efe3cf" stroke="#9c6b30" stroke-width="2"/>
+  <!-- figuur als driehoek -->
+  <polygon points="372,115 308,368 440,368" fill="#e8eefc" stroke="#3b5bdb" stroke-width="2.5" opacity="0.9"/>
+  <circle cx="372" cy="105" r="16" fill="#ffffff" stroke="#1f2933" stroke-width="2"/>
+  <!-- melkstraal -->
+  <line x1="338" y1="228" x2="338" y2="262" stroke="#1f2933" stroke-width="3"/>
+  <circle cx="338" cy="245" r="6" fill="none" stroke="#9c6b30" stroke-width="2.5"/>
+  <!-- hulplijnen -->
+  <g stroke="#9c6b30" stroke-width="1.8" stroke-dasharray="6 4">
+    <line x1="172" y1="290" x2="338" y2="245"/>
+    <line x1="470" y1="40" x2="338" y2="245"/>
+    <line x1="172" y1="370" x2="338" y2="245"/>
+  </g>
+  <!-- lege wand -->
+  <text x="505" y="215" text-anchor="middle" class="small">lege wand</text>
+  <!-- voetenstoof -->
+  <rect x="445" y="338" width="20" height="26" fill="#efe3cf" stroke="#9c6b30" stroke-width="1.5"/>
+  <!-- labels -->
+  <text x="213" y="165" text-anchor="middle" class="small">raam</text>
+  <text x="236" y="345" text-anchor="middle" class="small">tafel</text>
+  <text x="350" y="70" text-anchor="middle" class="small acc" style="fill:#3b5bdb">figuur</text>
+  <!-- legenda -->
+  <g class="small">
+    <line x1="40" y1="402" x2="80" y2="402" stroke="#3b5bdb" stroke-width="2.5" stroke-dasharray="7 5"/>
+    <text x="90" y="406" class="small">lichtval van links, via het raam</text>
+    <polygon points="40,420 80,420 60,436" fill="#e8eefc" stroke="#3b5bdb" stroke-width="2" transform="translate(0,-4)"/>
+    <text x="90" y="428" class="small">figuur als bijna driehoekige massa, in de rechterhelft</text>
+    <line x1="40" y1="448" x2="80" y2="448" stroke="#9c6b30" stroke-width="1.8" stroke-dasharray="6 4"/>
+    <text x="90" y="452" class="small">hulplijnen (tafelrand, hoeken): komen bij de handeling samen</text>
+    <text x="300" y="468" text-anchor="middle" class="small" style="fill:#555">Vereenvoudigd eigen schema; de driedeling is dun gestippeld.</text>
+  </g>
+</svg>
