@@ -20,7 +20,8 @@ Dit bestand is de enige bron met projectinstructies; `CLAUDE.md` importeert het.
 ## Werkwijze bij contentbouw met agents (usage-zuinig — vaste regel)
 
 - **Model per taak:** modules schrijven/uitbreiden met agents op `model: "sonnet"`; eenvoudige
-  zoek- of controletaken op `model: "haiku"`; Opus (de hoofdsessie) alleen voor coördinatie,
+  zoek- of controletaken op `model: "haiku"` (feitencontrole en SVG-fixes via het agenttype
+  `content-check`, `.claude/agents/content-check.md`); Opus (de hoofdsessie) alleen voor coördinatie,
   applicatiecode en eindcontrole.
 - **Compacte opdracht:** geef agents `docs/CONTENT_AGENT_BRIEF.md`, `docs/domains/<domein>.md` plus een korte modulespecifieke
   beschrijving. Laat ze geen complete andere modules lezen.

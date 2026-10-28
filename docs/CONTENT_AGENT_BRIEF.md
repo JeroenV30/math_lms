@@ -15,7 +15,7 @@ Lees geen andere modules.
 
 ## Doel en omvang (harde eis, tenzij de domeinaanvulling anders zegt)
 
-- 7–8 lessen, samen **minstens 40.000 tekens** Markdown.
+- 7–8 lessen, samen **40.000–55.000 tekens** Markdown. Meer is niet beter: schrijf niet verder dan dat.
 - Oefeningen: aantal en typen volgens de domeinaanvulling. Bij minstens de helft een `feedback`-regel:
   een typisch fout antwoord met gerichte uitleg.
 - 15 toetsvragen in `quiz.json`, oplopend in moeilijkheid, alle leerdoelen gedekt, geen `text`-vragen.
