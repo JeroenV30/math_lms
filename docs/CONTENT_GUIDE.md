@@ -287,6 +287,13 @@ mee voor beheersing en horen niet in `quiz.json`.
 Toetsvragen tonen tijdens de toets geen hints; de oplossing verschijnt na
 inleveren. Ongeveer 15 vragen, oplopend in moeilijkheid, alle leerdoelen gedekt.
 
+Alleen de eerste poging bestaat uit deze vragen. Een herkansing trekt een nieuwe
+selectie uit de toetsvragen én de oefeningen van de module, zonder de vragen van
+de vorige poging (`QuizService::questions`). Schrijf oefeningen daarom zo dat ze
+los van de les te begrijpen zijn. Een oefening met "hierboven", "bovenstaande",
+"vorige opgave" of "in de widget" in de vraag of context komt niet in een herkansing,
+en een `text`-oefening ook niet.
+
 ## 6. Widgets (interactieve visualisaties)
 
 Alleen gebruiken waar ze begrip toevoegen.

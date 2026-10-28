@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Services\ContentService;
-use App\Services\MarkdownRenderer;
-use App\ValueObjects\Module;
+use App\Services\CourseRegistry;
+use App\Services\DomainService;
+use App\Services\SearchService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Illuminate\View\View;
@@ -27,72 +28,33 @@ class LibraryController extends Controller
     }
 
     /**
-     * Zoeken in modules, lessen, begrippen, formules, personen en de tijdlijn.
+     * Zoeken binnen de cursus van dit domein.
      */
-    public function search(Request $request, ContentService $content, MarkdownRenderer $markdown): View
+    public function search(Request $request, ContentService $content, CourseRegistry $courses, SearchService $search): View
     {
         $query = trim((string) $request->query('q', ''));
-        $results = collect();
 
-        if (mb_strlen($query) >= 2) {
-            $matches = fn (?string $text) => $text !== null && Str::contains(Str::ascii($text), Str::ascii($query), ignoreCase: true);
-
-            $results = collect()
-                ->concat($content->modules()
-                    ->filter(fn (Module $m) => $matches($m->title) || $matches($m->summary) || collect($m->topics)->contains(fn ($t) => $matches($content->topicLabel($t))))
-                    ->map(fn (Module $m) => [
-                        'type' => 'Module',
-                        'title' => 'Module '.$m->id.' – '.$m->title,
-                        'excerpt' => $m->summary,
-                        'url' => route('module.show', $m->slug),
-                    ]))
-                ->concat($content->lessonTexts($markdown)
-                    ->filter(fn (array $l) => $matches($l['lesson']->title) || $matches($l['text']))
-                    ->map(fn (array $l) => [
-                        'type' => 'Les',
-                        'title' => $l['lesson']->title.' · Module '.$l['module']->id,
-                        'excerpt' => $this->excerpt($l['text'], $query),
-                        'url' => route('lesson.show', [$l['module']->slug, $l['lesson']->slug]),
-                    ]))
-                ->concat($content->glossary()
-                    ->filter(fn (array $g) => $matches($g['term']) || $matches($g['definition']))
-                    ->map(fn (array $g) => [
-                        'type' => 'Begrip',
-                        'title' => $g['term'],
-                        'excerpt' => $g['definition'],
-                        'url' => route('glossary').'#'.Str::slug($g['term']),
-                    ]))
-                ->concat($content->mathematicians()
-                    ->filter(fn (array $p) => $matches($p['name']) || $matches($p['full_name'] ?? null) || $matches($p['known_for'] ?? null))
-                    ->map(fn (array $p) => [
-                        'type' => $content->label('person'),
-                        'title' => $p['name'],
-                        'excerpt' => $p['known_for'] ?? null,
-                        'url' => route('mathematicians.show', $p['id']),
-                    ]))
-                ->concat($content->timeline()
-                    ->filter(fn (array $e) => $matches($e['title']) || $matches($e['summary'] ?? null))
-                    ->map(fn (array $e) => [
-                        'type' => 'Tijdlijn',
-                        'title' => $e['year_label'].' – '.$e['title'],
-                        'excerpt' => $e['summary'] ?? null,
-                        'url' => route('history.index').'#'.$e['id'],
-                    ]));
-        }
-
-        return view('library.search', ['query' => $query, 'results' => $results]);
+        return view('library.search', [
+            'query' => $query,
+            'results' => $search->search($courses->currentId(), $query),
+            'page' => $content->page('search'),
+            'action' => route('search'),
+        ]);
     }
 
-    private function excerpt(string $text, string $query): string
+    /**
+     * Zoeken in alle domeinen tegelijk, vanaf de kaart van kennis.
+     */
+    public function searchAll(Request $request, SearchService $search, DomainService $domains): View
     {
-        $position = mb_stripos(Str::ascii($text), Str::ascii($query));
+        $query = trim((string) $request->query('q', ''));
 
-        if ($position === false) {
-            return Str::limit($text, 180);
-        }
-
-        $start = max(0, $position - 80);
-
-        return ($start > 0 ? '…' : '').Str::limit(mb_substr($text, $start), 200);
+        return view('library.search', [
+            'query' => $query,
+            'results' => $search->searchAll($query),
+            'page' => ['eyebrow' => 'Bibliotheek', 'title' => 'Zoeken in alle domeinen', 'placeholder' => 'Zoek in lessen, begrippen en personen van elk domein…'],
+            'action' => route('search.all'),
+            'domains' => $domains->all()->keyBy('id'),
+        ]);
     }
 }

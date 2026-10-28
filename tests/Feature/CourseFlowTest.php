@@ -194,14 +194,23 @@ class CourseFlowTest extends TestCase
             ->assertSee('2,5')
             ->assertSee('x = 3; y = 2');
 
+        // De herkansing stelt andere vragen: de oefeningen van de module, zonder de open vraag.
+        $this->get('/kennis/wiskunde/cursus/tellen/toets')->assertOk()->assertSee('Dit is een herkansing')->assertDontSee('01-T01');
+        $this->post('/kennis/wiskunde/cursus/tellen/toets', ['answers' => ['01-T01' => '8', '01-T02' => '42', '01-T03' => '2/4', '01-T04' => '2,5', '01-T05' => ['x' => '3', 'y' => '2']]]);
+        $retake = QuizAttempt::query()->latest('id')->first();
+        $this->assertSame(['01-001', '01-002', '01-003', '01-004', '01-005'], collect($retake->answers)->pluck('id')->sort()->values()->all());
+        $this->assertSame(0, $retake->score);
+        $this->get("/kennis/wiskunde/cursus/tellen/toets/{$retake->id}")->assertOk()->assertSee('518')->assertSee('2x + 4');
+
         // Alles goed: beheerst. Een slechtere poging zet de status niet terug.
         $this->post('/kennis/wiskunde/cursus/tellen/toets', ['answers' => ['01-T01' => '8', '01-T02' => '42', '01-T03' => '2/4', '01-T04' => '2,5', '01-T05' => ['x' => '3', 'y' => '2']]]);
+        $this->assertSame(100, QuizAttempt::query()->latest('id')->value('score'));
         $this->post('/kennis/wiskunde/cursus/tellen/toets', ['answers' => []]);
 
         $progress = ModuleProgress::query()->where('module_id', 1)->first();
         $this->assertSame(ModuleProgress::MASTERED, $progress->status);
         $this->assertSame(100, $progress->score);
-        $this->assertSame(3, $progress->attempts);
+        $this->assertSame(4, $progress->attempts);
         $this->assertNotNull($progress->completed_at);
     }
 

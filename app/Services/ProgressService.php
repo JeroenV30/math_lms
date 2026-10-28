@@ -118,6 +118,22 @@ class ProgressService
     }
 
     /**
+     * Modules waarin je echt aan de slag bent gegaan: een les afgerond of een opgave gemaakt.
+     * Een les alleen openen telt niet; wie vooruit bladert, heeft die stof nog niet bestudeerd.
+     *
+     * @return list<int>
+     */
+    public function studiedModuleIds(): array
+    {
+        return LessonProgress::query()->whereNotNull('completed_at')->distinct()->pluck('module_id')
+            ->merge(ExerciseAttempt::query()->distinct()->pluck('module_id'))
+            ->map(fn ($id) => (int) $id)
+            ->unique()
+            ->values()
+            ->all();
+    }
+
+    /**
      * Status per oefening: 'solved' (ooit goed) of 'attempted' (alleen fout).
      *
      * @param  iterable<string>  $exerciseIds
@@ -175,7 +191,7 @@ class ProgressService
     {
         $progress = $this->all();
         $total = $this->content->modules()->count();
-        $started = $progress->filter(fn (ModuleProgress $p) => $p->isAtLeast(ModuleProgress::STARTED))->count();
+        $started = count(array_intersect($this->studiedModuleIds(), $this->content->modules()->keys()->all()));
         $completed = $progress->filter(fn (ModuleProgress $p) => $p->isAtLeast(ModuleProgress::COMPLETED))->count();
         $mastery = $this->mastery->all();
 

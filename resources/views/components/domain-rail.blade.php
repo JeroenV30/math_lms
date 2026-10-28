@@ -24,7 +24,7 @@
                 $planned = ! $domainService->isAvailable($domain);
             @endphp
             <a href="{{ route('domains.show', $domain['id']) }}"
-               title="{{ $domain['name'] }}{{ $planned ? ' — '.mb_strtolower($domainService->stageLabel($domain)) : '' }}"
+               title="{{ $domain['name'] }}{{ $planned ? ' — '.mb_strtolower($domainService->stageLabel($domain)).($domainService->progressLabel($domain) ? ', '.$domainService->progressLabel($domain) : '') : '' }}"
                @class([
                    'group flex items-center gap-3 rounded-lg px-2 py-2 transition-colors',
                    'bg-paper shadow-sm ring-1 ring-line' => $isActive,
@@ -35,7 +35,7 @@
                 <span class="min-w-0" x-show="open" x-cloak>
                     <span @class(['block truncate text-sm font-medium', 'text-ink' => ! $planned || $isActive, 'text-ink-soft' => $planned && ! $isActive])>{{ $domain['name'] }}</span>
                     <span class="block truncate text-[0.7rem] text-muted">
-                        {{ $planned ? $domainService->stageLabel($domain) : implode(' · ', $domain['tagline'] ?? []) }}
+                        {{ $planned ? ($domainService->progressLabel($domain) ?? $domainService->stageLabel($domain)) : implode(' · ', $domain['tagline'] ?? []) }}
                     </span>
                 </span>
                 <span class="sr-only" x-show="! open">{{ $domain['name'] }}</span>

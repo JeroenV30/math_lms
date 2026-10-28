@@ -60,12 +60,13 @@ class DomainTest extends TestCase
             ->assertSee('Zoeken in Wiskunde')
             ->assertSee('Formulebibliotheek');
 
-        // Een domein in voorbereiding: geen wiskundemenu, wel de algemene onderdelen.
+        // Een domein in voorbereiding: geen wiskundemenu, wel de algemene onderdelen; zoeken gaat over alle domeinen.
         $this->get('/kennis/biologie')
             ->assertOk()
             ->assertSee('aria-label="Menu Biologie"', false)
             ->assertDontSee('href="'.route('mathematicians.index').'"', false)
-            ->assertDontSee('Zoeken in')
+            ->assertDontSee('Zoeken in Biologie')
+            ->assertSee('Zoeken in alle domeinen')
             ->assertDontSee('Formulebibliotheek')
             ->assertSee('Instellingen');
 

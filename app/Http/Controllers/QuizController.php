@@ -13,7 +13,7 @@ use Illuminate\View\View;
 
 class QuizController extends Controller
 {
-    public function show(string $module, ContentService $content, ProgressService $progress): View
+    public function show(string $module, ContentService $content, ProgressService $progress, QuizService $quizzes): View
     {
         $module = $this->availableModule($module);
         $quiz = $content->quiz($module) ?? abort(404, 'Deze module heeft (nog) geen toets.');
@@ -23,6 +23,8 @@ class QuizController extends Controller
         return view('quiz.show', [
             'module' => $module,
             'quiz' => $quiz,
+            'questions' => $quizzes->questions($module),
+            'retake' => $quizzes->isRetake($module),
             'progress' => $progress->forModule($module->id),
         ]);
     }
@@ -42,7 +44,7 @@ class QuizController extends Controller
         return redirect()->route('quiz.result', [$module->slug, $attempt->id]);
     }
 
-    public function result(string $module, int $attempt, ContentService $content, ProgressService $progress, ExerciseService $exercises): View
+    public function result(string $module, int $attempt, ContentService $content, ProgressService $progress, ExerciseService $exercises, QuizService $quizzes): View
     {
         $module = $this->availableModule($module);
         $attempt = QuizAttempt::query()->where('module_id', $module->id)->findOrFail($attempt);
@@ -51,6 +53,7 @@ class QuizController extends Controller
         return view('quiz.result', [
             'module' => $module,
             'quiz' => $quiz,
+            'questions' => $quizzes->questionsOf($attempt),
             'attempt' => $attempt,
             'results' => collect($attempt->answers)->keyBy('id'),
             'progress' => $progress->forModule($module->id),

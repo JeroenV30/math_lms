@@ -94,17 +94,20 @@
             </nav>
 
             <div class="ml-auto flex shrink-0 items-center gap-1">
-                @if ($menu['search'])
-                    <form action="{{ route('search') }}" method="get" class="relative hidden xl:block" role="search">
-                        <label for="site-search" class="sr-only">Zoeken in {{ $currentDomain['name'] }}</label>
-                        <input id="site-search" type="search" name="q" value="{{ request('q') }}" placeholder="Zoeken…"
-                               class="w-36 rounded-lg border border-line bg-mist py-1.5 pr-3 pl-8 text-sm placeholder:text-faint focus:w-52 focus:border-accent focus:bg-paper focus:outline-none transition-all">
-                        <svg class="pointer-events-none absolute top-1/2 left-2.5 h-4 w-4 -translate-y-1/2 text-faint" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="9" cy="9" r="6"/><path d="m14 14 4 4" stroke-linecap="round"/></svg>
-                    </form>
-                    <a href="{{ route('search') }}" class="btn btn-ghost hidden px-2.5 md:inline-flex xl:hidden" aria-label="Zoeken in {{ $currentDomain['name'] }}" title="Zoeken">
-                        <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="9" cy="9" r="6"/><path d="m14 14 4 4" stroke-linecap="round"/></svg>
-                    </a>
-                @endif
+                @php
+                    // Binnen een cursus zoek je in die cursus, daarbuiten in alle domeinen.
+                    $searchUrl = $menu['search'] ? route('search') : route('search.all');
+                    $searchScope = $menu['search'] ? $currentDomain['name'] : 'alle domeinen';
+                @endphp
+                <form action="{{ $searchUrl }}" method="get" class="relative hidden xl:block" role="search">
+                    <label for="site-search" class="sr-only">Zoeken in {{ $searchScope }}</label>
+                    <input id="site-search" type="search" name="q" value="{{ request('q') }}" placeholder="Zoeken…"
+                           class="w-36 rounded-lg border border-line bg-mist py-1.5 pr-3 pl-8 text-sm placeholder:text-faint focus:w-52 focus:border-accent focus:bg-paper focus:outline-none transition-all">
+                    <svg class="pointer-events-none absolute top-1/2 left-2.5 h-4 w-4 -translate-y-1/2 text-faint" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="9" cy="9" r="6"/><path d="m14 14 4 4" stroke-linecap="round"/></svg>
+                </form>
+                <a href="{{ $searchUrl }}" class="btn btn-ghost hidden px-2.5 md:inline-flex xl:hidden" aria-label="Zoeken in {{ $searchScope }}" title="Zoeken">
+                    <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="9" cy="9" r="6"/><path d="m14 14 4 4" stroke-linecap="round"/></svg>
+                </a>
 
                 {{-- Voorlezen: alleen op pagina's met voorleesbare tekst (zie resources/js/speech/reader.js). --}}
                 <div x-data="{ show: 'speechSynthesis' in window && document.querySelector('[data-read-aloud]') !== null, active: false }"
@@ -166,11 +169,9 @@
 
         <div x-cloak x-show="open" x-transition.opacity class="border-t border-line bg-paper lg:hidden">
             <nav class="container-page grid gap-1 py-3" aria-label="Mobiele navigatie">
-                @if ($menu['search'])
-                    <form action="{{ route('search') }}" method="get" class="mb-2" role="search">
-                        <input type="search" name="q" placeholder="Zoeken in {{ $currentDomain['name'] }}…" class="input text-sm" aria-label="Zoeken in {{ $currentDomain['name'] }}">
-                    </form>
-                @endif
+                <form action="{{ $searchUrl }}" method="get" class="mb-2" role="search">
+                    <input type="search" name="q" placeholder="Zoeken in {{ $searchScope }}…" class="input text-sm" aria-label="Zoeken in {{ $searchScope }}">
+                </form>
                 @if ($menu['nav'] || $menu['library'])
                     <p class="eyebrow px-3">{{ $currentDomain['name'] }}</p>
                     @foreach (array_merge($menu['nav'], $menu['library']) as $item)

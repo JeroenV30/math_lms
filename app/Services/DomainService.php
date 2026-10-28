@@ -80,6 +80,24 @@ class DomainService
     }
 
     /**
+     * Hoe ver een domein in opbouw is, in modules: "10 van 23 modules". Null voor een
+     * uitgewerkt domein, een domein zonder cursus of zonder moduleplan: daar zegt het statuslabel genoeg.
+     */
+    public function progressLabel(array $domain): ?string
+    {
+        if ($this->stage($domain) !== 'building') {
+            return null;
+        }
+
+        // Lui opgehaald: CourseRegistry hangt zelf van deze service af.
+        $content = app(CourseRegistry::class)->for($domain['id']);
+        $total = $content->modules()->count();
+
+        // Pas zinvol zodra er een moduleplan is; met alleen een startmodule zegt "in opbouw" genoeg.
+        return $total > 1 ? $content->availableModules()->count().' van '.$total.' modules' : null;
+    }
+
+    /**
      * Heeft het domein een eigen cursus (content/domains/<id>/course.json)? Zie CourseRegistry.
      */
     public function hasCourse(array $domain): bool

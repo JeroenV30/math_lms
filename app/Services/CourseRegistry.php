@@ -2,6 +2,8 @@
 
 namespace App\Services;
 
+use Closure;
+
 /**
  * Alle cursussen: één per kennisdomein dat een eigen contentmap heeft
  * (content/domains/<id>/course.json, modules/, history/).
@@ -55,6 +57,28 @@ class CourseRegistry
     public function current(): ContentService
     {
         return $this->for($this->currentId() ?? self::DEFAULT);
+    }
+
+    /**
+     * Voer iets uit alsof cursus $id actief is, bijvoorbeeld om op de kaart per domein
+     * de herhalingen te tellen. Voortgangsqueries volgen de actieve cursus (BelongsToCourse).
+     *
+     * @template T
+     *
+     * @param  Closure(ContentService): T  $callback
+     * @return T
+     */
+    public function within(string $id, Closure $callback): mixed
+    {
+        $attributes = request()->attributes;
+        $previous = $attributes->get('domain');
+        $attributes->set('domain', $id);
+
+        try {
+            return $callback($this->for($id));
+        } finally {
+            $previous === null ? $attributes->remove('domain') : $attributes->set('domain', $previous);
+        }
     }
 
     public function directory(string $id): string

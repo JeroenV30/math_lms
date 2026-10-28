@@ -5,16 +5,21 @@ namespace App\Http\Controllers;
 use App\Services\ContentService;
 use App\Services\CourseRegistry;
 use App\Services\DomainService;
+use App\Services\ReviewService;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\View\View;
 
 class DomainController extends Controller
 {
-    public function index(DomainService $domains): View
+    public function index(DomainService $domains, CourseRegistry $courses): View
     {
         return view('domains.index', [
             'overview' => $domains->overview(),
             'domains' => $domains->all(),
+            // Herhalingen van vandaag, per domein: wie meer domeinen volgt, ziet ze hier bij elkaar.
+            'reviews' => collect($courses->ids())
+                ->mapWithKeys(fn (string $id) => [$id => $courses->within($id, fn () => app(ReviewService::class)->dueCount())])
+                ->filter(),
         ]);
     }
 

@@ -34,7 +34,7 @@
                 @endif
             </p>
             <div class="mt-6 flex flex-wrap gap-2">
-                <a href="{{ route('quiz.show', $module->slug) }}" class="btn btn-secondary">Toets opnieuw maken</a>
+                <a href="{{ route('quiz.show', $module->slug) }}" class="btn btn-secondary">Herkansing met nieuwe vragen</a>
                 @if ($next)
                     <a href="{{ route('module.show', $next->slug) }}" class="btn btn-primary">Verder naar module {{ $next->id }} <span aria-hidden="true">→</span></a>
                 @endif
@@ -43,7 +43,7 @@
 
         <h2 class="section-title mt-12">Antwoorden en oplossingen</h2>
         <div class="mt-5 space-y-5">
-            @foreach ($quiz['questions'] as $question)
+            @foreach ($questions as $question)
                 @php $r = $results->get($question->id); @endphp
                 <section class="exercise">
                     <header class="exercise-head">

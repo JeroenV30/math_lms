@@ -3,11 +3,12 @@
 namespace App\Services;
 
 use App\Models\ExerciseAttempt;
-use App\Models\ModuleProgress;
+use App\Models\LessonProgress;
 use App\Models\TopicMastery;
 use App\ValueObjects\Exercise;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Cache;
 use Random\Engine\Mt19937;
 use Random\Randomizer;
 
@@ -20,7 +21,11 @@ use Random\Randomizer;
  */
 class ReviewService
 {
-    public function __construct(private readonly ContentService $content) {}
+    public function __construct(
+        private readonly ContentService $content,
+        private readonly ProgressService $progress,
+        private readonly CourseRegistry $courses,
+    ) {}
 
     /**
      * @return Collection<string, TopicMastery>
@@ -96,23 +101,34 @@ class ReviewService
         return $selected->values();
     }
 
+    /**
+     * Het aantal voor de teller in de menubalk, die op elke pagina staat. De sessie
+     * samenstellen leest alle oefeningen; de uitkomst verandert pas als er een
+     * onderwerp aan de beurt komt, een poging bijkomt of een les wordt afgerond.
+     */
     public function dueCount(): int
     {
-        return $this->session()->count();
+        $key = implode(':', [
+            'review-due',
+            $this->courses->currentId() ?? CourseRegistry::DEFAULT,
+            Carbon::today()->toDateString(),
+            $this->dueTopics()->count(),
+            ExerciseAttempt::query()->max('id') ?? 0,
+            LessonProgress::query()->count(),
+        ]);
+
+        return Cache::remember($key, Carbon::now()->addHour(), fn () => $this->session()->count());
     }
 
     /**
-     * Oefeningen uit modules waaraan de gebruiker al begonnen is, behalve wat
-     * vandaag al goed is herhaald.
+     * Oefeningen uit modules die de gebruiker bestudeerd heeft (zie
+     * ProgressService::studiedModuleIds), behalve wat vandaag al goed is herhaald.
      *
      * @return Collection<string, Exercise>
      */
     private function pool(): Collection
     {
-        $startedModules = ModuleProgress::query()
-            ->where('status', '!=', ModuleProgress::NOT_STARTED)
-            ->pluck('module_id')
-            ->all();
+        $studiedModules = $this->progress->studiedModuleIds();
 
         $doneToday = ExerciseAttempt::query()
             ->where('context', 'review')
@@ -122,7 +138,7 @@ class ReviewService
             ->flip();
 
         return $this->content->allExercises()
-            ->filter(fn (Exercise $e) => in_array($e->moduleId, $startedModules, true))
+            ->filter(fn (Exercise $e) => in_array($e->moduleId, $studiedModules, true))
             ->reject(fn (Exercise $e) => $doneToday->has($e->id));
     }
 }

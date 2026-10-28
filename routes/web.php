@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 // De kaart van menselijke kennis is de startpagina; elk domein heeft zijn eigen pagina's onder /kennis/{domein}.
 Route::get('/', [DomainController::class, 'index'])->name('domains.index');
+Route::get('/zoeken', [LibraryController::class, 'searchAll'])->name('search.all');
 
 Route::prefix('kennis/{domain}')->where(['domain' => '[a-z0-9-]+'])->group(function () {
     Route::middleware(ResolveDomain::class)->group(function () {

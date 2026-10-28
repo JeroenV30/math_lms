@@ -7,6 +7,7 @@ use App\Services\AnswerCheckers\AnswerCheckerFactory;
 use App\Services\AnswerCheckers\NumberParser;
 use App\ValueObjects\AnswerResult;
 use App\ValueObjects\Exercise;
+use Illuminate\Support\Carbon;
 
 /**
  * Laadt oefeningen, kiest de juiste checker, beoordeelt het antwoord,
@@ -66,6 +67,15 @@ class ExerciseService
 
         $isCorrect = $result->valid && $result->correct;
 
+        // Een opgave die vandaag al goed ging, levert bij herhalen geen extra beheersing op:
+        // anders kun je je score opdrijven door de pagina te herladen en hetzelfde antwoord te geven.
+        $repeat = $isCorrect && $context !== 'quiz' && ExerciseAttempt::query()
+            ->where('exercise_id', $exercise->id)
+            ->where('context', '!=', 'quiz')
+            ->where('is_correct', true)
+            ->where('created_at', '>=', Carbon::today())
+            ->exists();
+
         $attempt = ExerciseAttempt::query()->create([
             'exercise_id' => $exercise->id,
             'module_id' => $exercise->moduleId,
@@ -79,7 +89,7 @@ class ExerciseService
         ]);
 
         // Open antwoorden worden niet automatisch beoordeeld en tellen dus niet mee voor de beheersing.
-        $scores = $exercise->type === 'text' ? [] : $this->mastery->record($exercise->topics, $isCorrect, $hintsUsed, $solutionViewed, $context);
+        $scores = $exercise->type === 'text' || $repeat ? [] : $this->mastery->record($exercise->topics, $isCorrect, $hintsUsed, $solutionViewed, $context);
         $this->progress->touchModule($exercise->moduleId);
 
         return $this->payload($exercise, $result, $feedback, $attempt, $scores);

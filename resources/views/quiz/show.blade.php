@@ -3,7 +3,7 @@
 @inject('markdown', 'App\Services\MarkdownRenderer')
 
 @section('content')
-    <x-page-header :eyebrow="'Hoofdstuktoets · '.$quiz['questions']->count().' vragen'" :title="$quiz['title']"
+    <x-page-header :eyebrow="'Hoofdstuktoets · '.$questions->count().' vragen'" :title="$quiz['title']"
                    :crumbs="[
                        ['label' => 'Cursus', 'url' => route('course.index')],
                        ['label' => 'Module '.$module->id.' – '.$module->title, 'url' => route('module.show', $module->slug)],
@@ -12,6 +12,9 @@
             <div class="prose-content mt-4">{!! $markdown->render($quiz['intro']) !!}</div>
         @endif
         <p class="mt-4 text-sm text-muted">
+            @if ($retake)
+                Dit is een herkansing: je krijgt een nieuwe selectie vragen uit deze module, zonder de vragen van je vorige poging.
+            @endif
             Tijdens de toets zijn er geen hints. Na het inleveren zie je per vraag het juiste antwoord en de uitgewerkte oplossing.
             @if ($progress->score !== null)
                 Je beste score tot nu toe: <strong class="text-ink">{{ $progress->score }}%</strong>.
@@ -24,7 +27,7 @@
               x-data="{ submitting: false, answered: 0, count() { this.answered = [...$el.querySelectorAll('.exercise')].filter(q => [...q.querySelectorAll('input[type=text]')].some(i => i.value.trim() !== '') || q.querySelector('input[type=radio]:checked, [data-answered]')).length } }"
               @input="count()" @submit="submitting = true">
             @csrf
-            @foreach ($quiz['questions'] as $question)
+            @foreach ($questions as $question)
                 <section class="exercise">
                     <header class="exercise-head">
                         <span class="exercise-kind">Vraag {{ $loop->iteration }}</span>
@@ -87,7 +90,7 @@
             @endforeach
 
             <div class="sticky bottom-0 -mx-4 flex items-center justify-between gap-4 border-t border-line bg-paper/95 px-4 py-4 backdrop-blur sm:mx-0 sm:rounded-xl sm:border">
-                <p class="text-sm text-muted"><span class="font-medium text-ink tabular-nums" x-text="answered">0</span> van {{ $quiz['questions']->count() }} beantwoord</p>
+                <p class="text-sm text-muted"><span class="font-medium text-ink tabular-nums" x-text="answered">0</span> van {{ $questions->count() }} beantwoord</p>
                 <button type="submit" class="btn btn-primary" :disabled="submitting">Toets inleveren</button>
             </div>
         </form>
