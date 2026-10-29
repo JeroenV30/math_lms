@@ -1,0 +1,21 @@
+{
+  "id": 13,
+  "slug": "communicatie-en-protocollen",
+  "title": "Communicatie en protocollen",
+  "part": 5,
+  "status": "planned",
+  "historical_period": "19e – 20e eeuw",
+  "estimated_difficulty": 3,
+  "estimated_minutes": 180,
+  "prerequisites": [
+    7
+  ],
+  "topics": [
+    "communication",
+    "protocols",
+    "packet-switching"
+  ],
+  "core_question": "Hoe kunnen twee apparaten die elkaar niet kennen toch betrouwbaar informatie uitwisselen?",
+  "summary": "Telegraaf, Shannon en pakketschakeling; lagenmodel, adressering, foutafhandeling en het idee van een protocol.",
+  "lessons": []
+}

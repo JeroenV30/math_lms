@@ -1,0 +1,23 @@
+{
+  "id": 15,
+  "slug": "beveiliging-en-cryptografie",
+  "title": "Beveiliging en cryptografie",
+  "part": 5,
+  "status": "planned",
+  "historical_period": "Oudheid – heden",
+  "estimated_difficulty": 4,
+  "estimated_minutes": 180,
+  "prerequisites": [
+    7,
+    13,
+    14
+  ],
+  "topics": [
+    "cryptography",
+    "security",
+    "privacy"
+  ],
+  "core_question": "Hoe kun je een geheim delen met iemand die je nooit hebt ontmoet?",
+  "summary": "Van Caesarcijfer en Enigma tot publieke sleutels; hashing, certificaten, veelvoorkomende aanvallen en de afweging tussen gemak, veiligheid en privacy.",
+  "lessons": []
+}

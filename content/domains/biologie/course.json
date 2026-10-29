@@ -10,52 +10,71 @@
       "number": 1,
       "roman": "I",
       "title": "De cel",
-      "level": "fundamenten",
       "modules": [
-        1
+        1,
+        2,
+        3
       ]
     },
     {
       "number": 2,
       "roman": "II",
       "title": "Erfelijkheid en DNA",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        4,
+        5,
+        6
+      ]
     },
     {
       "number": 3,
       "roman": "III",
       "title": "Evolutie",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        7,
+        8,
+        9
+      ]
     },
     {
       "number": 4,
       "roman": "IV",
       "title": "Het menselijk lichaam",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        10,
+        11,
+        12
+      ]
     },
     {
       "number": 5,
       "roman": "V",
       "title": "Planten en fotosynthese",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        13,
+        14,
+        15
+      ]
     },
     {
       "number": 6,
       "roman": "VI",
       "title": "Micro-organismen",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        16,
+        17,
+        18
+      ]
     },
     {
       "number": 7,
       "roman": "VII",
       "title": "Ecosystemen en biodiversiteit",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        19,
+        20,
+        21
+      ]
     }
   ],
   "topics": {
@@ -67,6 +86,66 @@
     "organelles": "Organellen en celtypen",
     "membrane-transport": "Membraan en transport",
     "cell-division": "Celdeling",
-    "scale-levels": "Schaalniveaus"
+    "scale-levels": "Schaalniveaus",
+    "biomolecules": "Biomoleculen",
+    "enzymes": "Enzymen",
+    "metabolism": "Stofwisseling",
+    "cellular-respiration": "Celademhaling",
+    "atp": "ATP en energie",
+    "fermentation": "Gisting",
+    "mendel": "Mendel",
+    "inheritance": "Erfelijkheidsregels",
+    "probability": "Kansrekening in de genetica",
+    "dna-structure": "Structuur van DNA",
+    "replication": "DNA-replicatie",
+    "molecular-biology": "Moleculaire biologie",
+    "gene-expression": "Genexpressie",
+    "protein-synthesis": "Eiwitsynthese",
+    "gene-regulation": "Genregulatie",
+    "natural-selection": "Natuurlijke selectie",
+    "variation": "Variatie",
+    "evidence-evolution": "Bewijs voor evolutie",
+    "population-genetics": "Populatiegenetica",
+    "speciation": "Soortvorming",
+    "hardy-weinberg": "Hardy-Weinberg",
+    "phylogeny": "Fylogenie",
+    "fossils": "Fossielen",
+    "origin-of-life": "Oorsprong van het leven",
+    "homeostasis": "Homeostase",
+    "feedback": "Terugkoppeling",
+    "body-systems": "Orgaanstelsels",
+    "nervous-system": "Zenuwstelsel",
+    "hormones": "Hormonen",
+    "signalling": "Celsignalering",
+    "circulation": "Bloedsomloop",
+    "gas-exchange": "Gaswisseling",
+    "immune-system": "Immuunsysteem",
+    "photosynthesis": "Fotosynthese",
+    "chloroplast": "Chloroplast",
+    "light-reactions": "Licht- en donkerreacties",
+    "plant-anatomy": "Bouw van planten",
+    "water-transport": "Watertransport",
+    "transpiration": "Transpiratie",
+    "plant-hormones": "Plantenhormonen",
+    "plant-reproduction": "Voortplanting van planten",
+    "development": "Ontwikkeling",
+    "bacteria": "Bacteriën",
+    "germ-theory": "Kiemtheorie",
+    "microbial-growth": "Groei van micro-organismen",
+    "viruses": "Virussen",
+    "epidemiology": "Epidemiologie",
+    "vaccination": "Vaccinatie",
+    "antibiotics": "Antibiotica",
+    "microbiome": "Microbioom",
+    "biotechnology": "Biotechnologie",
+    "populations": "Populaties",
+    "population-growth": "Populatiegroei",
+    "interactions": "Interacties tussen soorten",
+    "energy-flow": "Energiestroom",
+    "nutrient-cycles": "Kringlopen",
+    "food-webs": "Voedselwebben",
+    "biodiversity": "Biodiversiteit",
+    "conservation": "Natuurbehoud",
+    "climate-change": "Klimaatverandering"
   }
 }

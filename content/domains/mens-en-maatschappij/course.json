@@ -10,45 +10,61 @@
       "number": 1,
       "roman": "I",
       "title": "Psychologie",
-      "level": "fundamenten",
       "modules": [
-        1
+        1,
+        2,
+        3,
+        4
       ]
     },
     {
       "number": 2,
       "roman": "II",
       "title": "Sociologie",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        5,
+        6,
+        7
+      ]
     },
     {
       "number": 3,
       "roman": "III",
       "title": "Politiek en democratie",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        8,
+        9,
+        10
+      ]
     },
     {
       "number": 4,
       "roman": "IV",
       "title": "Recht en rechtsstaat",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        11,
+        12,
+        13
+      ]
     },
     {
       "number": 5,
       "roman": "V",
       "title": "Economie",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        14,
+        15,
+        16
+      ]
     },
     {
       "number": 6,
       "roman": "VI",
       "title": "Burgerschap",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        17,
+        18
+      ]
     }
   ],
   "topics": {
@@ -64,6 +80,39 @@
     "statistics-basics": "Basisstatistiek",
     "replication": "Replicatie en open wetenschap",
     "research-ethics": "Onderzoeksethiek",
-    "psych-history": "Geschiedenis van de psychologie"
+    "psych-history": "Geschiedenis van de psychologie",
+    "perception": "Waarneming",
+    "memory": "Geheugen",
+    "learning": "Leren en conditionering",
+    "development": "Ontwikkelingspsychologie",
+    "social-influence": "Sociale invloed",
+    "sociology-founders": "Grondleggers van de sociologie",
+    "inequality": "Sociale ongelijkheid",
+    "norms": "Normen en rollen",
+    "culture": "Cultuur",
+    "state-power": "Macht en de staat",
+    "political-theory": "Politieke theorie",
+    "concepts-politics": "Kernbegrippen van de politiek",
+    "democracy": "Democratie",
+    "electoral-systems": "Kiesstelsels",
+    "political-behaviour": "Politiek gedrag",
+    "rule-of-law": "Rechtsstaat",
+    "legal-reasoning": "Juridisch redeneren",
+    "criminal-law": "Strafrecht",
+    "punishment": "Straf en straftheorieën",
+    "human-rights": "Mensenrechten",
+    "international-law": "Internationaal recht",
+    "scarcity": "Schaarste",
+    "market": "Markt en prijsvorming",
+    "economic-models": "Economische modellen",
+    "decision-making": "Beslissen en kiezen",
+    "behavioural-economics": "Gedragseconomie",
+    "macroeconomics": "Macro-economie",
+    "economic-indicators": "Economische indicatoren",
+    "citizenship": "Burgerschap",
+    "identity": "Identiteit",
+    "social-trust": "Sociaal vertrouwen",
+    "participation": "Participatie",
+    "public-sphere": "Publieke ruimte"
   }
 }

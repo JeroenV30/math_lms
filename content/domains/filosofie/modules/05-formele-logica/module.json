@@ -1,0 +1,21 @@
+{
+  "id": 5,
+  "slug": "formele-logica",
+  "title": "Propositielogica en predicatenlogica",
+  "part": 2,
+  "status": "planned",
+  "historical_period": "Negentiende – twintigste eeuw",
+  "estimated_difficulty": 3,
+  "estimated_minutes": 180,
+  "prerequisites": [
+    4
+  ],
+  "topics": [
+    "propositional-logic",
+    "predicate-logic",
+    "validity-logic"
+  ],
+  "core_question": "Kun je redeneren volledig tot een rekenregel terugbrengen?",
+  "summary": "Waarheidstabellen, afleidingsregels en kwantoren, van Aristoteles' syllogismen tot Frege, en de grenzen van formalisering.",
+  "lessons": []
+}

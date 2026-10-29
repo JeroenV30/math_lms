@@ -1,0 +1,22 @@
+{
+  "id": 11,
+  "slug": "programmeren-en-datastructuren",
+  "title": "Programmeren: datastructuren en abstractie",
+  "part": 4,
+  "status": "planned",
+  "historical_period": "1950 – heden",
+  "estimated_difficulty": 3,
+  "estimated_minutes": 180,
+  "prerequisites": [
+    7,
+    10
+  ],
+  "topics": [
+    "programming",
+    "data-structures",
+    "abstraction"
+  ],
+  "core_question": "Hoe verdeel je een groot probleem zo dat het hanteerbaar blijft?",
+  "summary": "Variabelen, lussen, functies en recursie; lijsten, bomen en grafen, en het ontwerp van programma's in pseudocode en Python.",
+  "lessons": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": 10,
+  "slug": "algoritmen-en-complexiteit",
+  "title": "Algoritmen en complexiteit",
+  "part": 4,
+  "status": "planned",
+  "historical_period": "Oudheid – 20e eeuw",
+  "estimated_difficulty": 3,
+  "estimated_minutes": 180,
+  "prerequisites": [
+    7
+  ],
+  "topics": [
+    "algorithms",
+    "complexity",
+    "sorting-searching"
+  ],
+  "core_question": "Waarom is het ene algoritme voor hetzelfde probleem miljoenen keren sneller dan het andere?",
+  "summary": "Euclides en Al-Khwarizmi; zoeken en sorteren, orde van grootte, O-notatie en het verschil tussen efficiënte en onhaalbare problemen.",
+  "lessons": []
+}

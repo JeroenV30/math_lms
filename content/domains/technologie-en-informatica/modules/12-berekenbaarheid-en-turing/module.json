@@ -1,0 +1,23 @@
+{
+  "id": 12,
+  "slug": "berekenbaarheid-en-turing",
+  "title": "Berekenbaarheid: wat kan een computer wel en niet?",
+  "part": 4,
+  "status": "planned",
+  "historical_period": "1930 – heden",
+  "estimated_difficulty": 5,
+  "estimated_minutes": 180,
+  "prerequisites": [
+    8,
+    10,
+    11
+  ],
+  "topics": [
+    "computability",
+    "turing-machine",
+    "halting-problem"
+  ],
+  "core_question": "Zijn er problemen die geen enkele computer ooit kan oplossen?",
+  "summary": "Hilbert, Gödel, Turing en Church; de Turingmachine, het stopprobleem en de grens tussen berekenbaar en onberekenbaar.",
+  "lessons": []
+}

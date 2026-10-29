@@ -10,52 +10,68 @@
       "number": 1,
       "roman": "I",
       "title": "Wat is filosofie?",
-      "level": "fundamenten",
       "modules": [
-        1
+        1,
+        2,
+        3
       ]
     },
     {
       "number": 2,
       "roman": "II",
       "title": "Logica en argumentatie",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        4,
+        5
+      ]
     },
     {
       "number": 3,
       "roman": "III",
       "title": "Kennistheorie",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        6,
+        7,
+        8
+      ]
     },
     {
       "number": 4,
       "roman": "IV",
       "title": "Ethiek",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        9,
+        10,
+        11
+      ]
     },
     {
       "number": 5,
       "roman": "V",
       "title": "Metafysica",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        12,
+        13
+      ]
     },
     {
       "number": 6,
       "roman": "VI",
       "title": "Filosofie van de geest",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        14,
+        15
+      ]
     },
     {
       "number": 7,
       "roman": "VII",
       "title": "Politieke filosofie",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        16,
+        17,
+        18
+      ]
     }
   ],
   "topics": {
@@ -64,6 +80,44 @@
     "socratic-method": "Socratische methode",
     "philosophical-questions": "Filosofische vragen",
     "fallacies": "Drogredenen",
-    "thought-experiments": "Gedachte-experimenten"
+    "thought-experiments": "Gedachte-experimenten",
+    "presocratics": "Presocraten",
+    "metaphysics-classical": "Klassieke metafysica",
+    "medieval-philosophy": "Middeleeuwse filosofie",
+    "faith-reason": "Geloof en rede",
+    "validity-logic": "Geldigheid en logische vorm",
+    "propositional-logic": "Propositielogica",
+    "predicate-logic": "Predicatenlogica",
+    "epistemology": "Kennistheorie",
+    "skepticism": "Scepticisme",
+    "kant": "Kant",
+    "synthetic-a-priori": "Synthetisch a priori",
+    "philosophy-of-science": "Wetenschapsfilosofie",
+    "falsification": "Falsificatie",
+    "paradigms": "Paradigma's",
+    "virtue-ethics": "Deugdethiek",
+    "ethics": "Ethiek",
+    "deontology": "Plichtethiek",
+    "utilitarianism": "Utilisme",
+    "metaethics": "Metaethiek",
+    "applied-ethics": "Toegepaste ethiek",
+    "ontology": "Ontologie",
+    "time": "Tijd",
+    "causality": "Causaliteit",
+    "free-will": "Vrije wil",
+    "determinism": "Determinisme",
+    "mind-body": "Lichaam-geestprobleem",
+    "dualism": "Dualisme",
+    "physicalism": "Fysicalisme",
+    "consciousness": "Bewustzijn",
+    "personal-identity": "Persoonlijke identiteit",
+    "artificial-intelligence": "Kunstmatige intelligentie",
+    "social-contract": "Sociaal contract",
+    "political-obligation": "Politieke verplichting",
+    "justice": "Rechtvaardigheid",
+    "original-position": "De oorspronkelijke positie",
+    "liberty": "Vrijheid",
+    "power-critique": "Machtskritiek",
+    "recognition": "Erkenning"
   }
 }

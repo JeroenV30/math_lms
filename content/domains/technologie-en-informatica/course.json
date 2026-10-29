@@ -10,45 +10,61 @@
       "number": 1,
       "roman": "I",
       "title": "Gereedschap en machines",
-      "level": "fundamenten",
       "modules": [
-        1
+        1,
+        2,
+        3
       ]
     },
     {
       "number": 2,
       "roman": "II",
       "title": "Energie en techniek",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        4,
+        5,
+        6
+      ]
     },
     {
       "number": 3,
       "roman": "III",
       "title": "Hoe een computer werkt",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        7,
+        8,
+        9
+      ]
     },
     {
       "number": 4,
       "roman": "IV",
       "title": "Algoritmen en programmeren",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        10,
+        11,
+        12
+      ]
     },
     {
       "number": 5,
       "roman": "V",
       "title": "Netwerken en internet",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        13,
+        14,
+        15
+      ]
     },
     {
       "number": 6,
       "roman": "VI",
       "title": "Data en kunstmatige intelligentie",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        16,
+        17,
+        18
+      ]
     }
   ],
   "topics": {
@@ -58,6 +74,57 @@
     "simple-machines": "Eenvoudige machines",
     "work-energy": "Arbeid en energie",
     "gears": "Tandwielen en overbrenging",
-    "efficiency": "Rendement en wrijving"
+    "efficiency": "Rendement en wrijving",
+    "materials": "Materialen",
+    "stress-strain": "Spanning en rek",
+    "structures": "Constructies",
+    "control": "Regeltechniek",
+    "feedback-systems": "Systemen met terugkoppeling",
+    "design-process": "Ontwerpproces",
+    "heat": "Warmte",
+    "thermodynamics": "Thermodynamica",
+    "engines": "Warmtemachines",
+    "electricity": "Elektriciteit",
+    "magnetism": "Magnetisme",
+    "motors": "Motoren en generatoren",
+    "energy-supply": "Energievoorziening",
+    "sustainability": "Duurzaamheid",
+    "energy-storage": "Energieopslag",
+    "binary": "Binair rekenen",
+    "representation": "Representatie van gegevens",
+    "information": "Informatie",
+    "boolean-logic": "Booleaanse logica",
+    "logic-gates": "Logische poorten",
+    "circuits": "Schakelingen",
+    "cpu": "Processor",
+    "memory": "Geheugen",
+    "operating-systems": "Besturingssystemen",
+    "algorithms": "Algoritmen",
+    "complexity": "Complexiteit",
+    "sorting-searching": "Zoeken en sorteren",
+    "programming": "Programmeren",
+    "data-structures": "Datastructuren",
+    "abstraction": "Abstractie",
+    "computability": "Berekenbaarheid",
+    "turing-machine": "Turingmachine",
+    "halting-problem": "Stopprobleem",
+    "communication": "Communicatie",
+    "protocols": "Protocollen",
+    "packet-switching": "Pakketschakeling",
+    "internet": "Internet",
+    "web": "Het web",
+    "routing": "Routering",
+    "cryptography": "Cryptografie",
+    "security": "Beveiliging",
+    "privacy": "Privacy",
+    "data": "Data",
+    "databases": "Databases",
+    "data-quality": "Datakwaliteit",
+    "machine-learning": "Machine learning",
+    "neural-networks": "Neurale netwerken",
+    "training-data": "Trainingsdata",
+    "artificial-intelligence": "Kunstmatige intelligentie",
+    "ethics": "Ethiek van technologie",
+    "bias": "Vooringenomenheid in data"
   }
 }

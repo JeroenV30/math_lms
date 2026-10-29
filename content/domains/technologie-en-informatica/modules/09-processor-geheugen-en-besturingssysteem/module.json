@@ -1,0 +1,22 @@
+{
+  "id": 9,
+  "slug": "processor-geheugen-en-besturingssysteem",
+  "title": "De computer: processor, geheugen en besturingssysteem",
+  "part": 3,
+  "status": "planned",
+  "historical_period": "1940 – heden",
+  "estimated_difficulty": 4,
+  "estimated_minutes": 180,
+  "prerequisites": [
+    7,
+    8
+  ],
+  "topics": [
+    "cpu",
+    "memory",
+    "operating-systems"
+  ],
+  "core_question": "Wat gebeurt er tussen het indrukken van een toets en het verschijnen van een letter op het scherm?",
+  "summary": "Von Neumann-architectuur, instructiecyclus, geheugenhiërarchie en besturingssysteem; abstractielagen van transistor tot toepassing.",
+  "lessons": []
+}

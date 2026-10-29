@@ -1,0 +1,22 @@
+{
+  "id": 16,
+  "slug": "data-en-databases",
+  "title": "Data en databases",
+  "part": 6,
+  "status": "planned",
+  "historical_period": "1960 – heden",
+  "estimated_difficulty": 3,
+  "estimated_minutes": 180,
+  "prerequisites": [
+    7,
+    11
+  ],
+  "topics": [
+    "data",
+    "databases",
+    "data-quality"
+  ],
+  "core_question": "Hoe zet je ruwe gegevens om in betrouwbare kennis?",
+  "summary": "Van ponskaart tot relationele database (Codd); tabellen, zoekopdrachten, datakwaliteit, statistische valkuilen en de rol van metadata.",
+  "lessons": []
+}

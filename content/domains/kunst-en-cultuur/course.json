@@ -10,50 +10,124 @@
       "number": 1,
       "roman": "I",
       "title": "Kijken naar kunst",
-      "level": "fundamenten",
       "modules": [
-        1
+        1,
+        2,
+        3
       ]
     },
     {
       "number": 2,
       "roman": "II",
       "title": "Kunstgeschiedenis",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        4,
+        5,
+        6,
+        7
+      ]
     },
     {
       "number": 3,
       "roman": "III",
       "title": "Muziek",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        8,
+        9,
+        10,
+        11
+      ]
     },
     {
       "number": 4,
       "roman": "IV",
       "title": "Literatuur",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        12,
+        13,
+        14
+      ]
     },
     {
       "number": 5,
       "roman": "V",
       "title": "Theater en dans",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        15,
+        16,
+        17
+      ]
     },
     {
       "number": 6,
       "roman": "VI",
       "title": "Architectuur",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        18,
+        19,
+        20
+      ]
     }
   ],
   "topics": {
     "description": "Beschrijven",
     "interpretation": "Interpreteren",
-    "context": "Context"
+    "context": "Context",
+    "form-analysis": "Vormanalyse",
+    "colour": "Kleur",
+    "composition": "Compositie",
+    "iconography": "Iconografie",
+    "iconology": "Iconologie",
+    "symbolism": "Symboliek",
+    "ancient-art": "Kunst van de oudheid",
+    "canon": "Kanon",
+    "function-of-art": "Functie van kunst",
+    "medieval-art": "Middeleeuwse kunst",
+    "renaissance": "Renaissance",
+    "perspective": "Perspectief",
+    "baroque": "Barok",
+    "dutch-golden-age": "Gouden Eeuw",
+    "art-market": "Kunstmarkt",
+    "modernism": "Modernisme",
+    "avant-garde": "Avant-garde",
+    "contemporary-art": "Hedendaagse kunst",
+    "rhythm-melody-harmony": "Ritme, melodie en harmonie",
+    "musical-form": "Muzikale vorm",
+    "listening": "Luisteren",
+    "early-music": "Oude muziek",
+    "polyphony": "Meerstemmigheid",
+    "notation": "Notatie",
+    "classical-style": "Klassieke stijl",
+    "romanticism-music": "Romantische muziek",
+    "modern-music": "Moderne muziek",
+    "jazz": "Jazz",
+    "popular-music": "Popmuziek",
+    "world-music": "Wereldmuziek",
+    "narratology": "Verhaalanalyse",
+    "narrator": "Verteller en perspectief",
+    "plot": "Plot",
+    "poetry": "Poëzie",
+    "metre-and-rhyme": "Metrum en rijm",
+    "imagery": "Beeldspraak",
+    "literary-history": "Literatuurgeschiedenis",
+    "reception": "Receptie",
+    "greek-theatre": "Grieks theater",
+    "renaissance-drama": "Renaissancedrama",
+    "drama-analysis": "Toneelanalyse",
+    "modern-theatre": "Modern theater",
+    "realism-and-epic-theatre": "Realisme en episch theater",
+    "performance": "Voorstelling",
+    "dance": "Dans",
+    "film-language": "Filmtaal",
+    "moving-image": "Bewegend beeld",
+    "architecture-analysis": "Architectuuranalyse",
+    "space-and-function": "Ruimte en functie",
+    "structure": "Constructie",
+    "classical-architecture": "Klassieke architectuur",
+    "gothic": "Gotiek",
+    "renaissance-architecture": "Renaissancearchitectuur",
+    "modern-architecture": "Moderne architectuur",
+    "urban-planning": "Stedenbouw",
+    "sustainability": "Duurzaam bouwen"
   }
 }

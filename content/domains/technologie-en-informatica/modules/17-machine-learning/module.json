@@ -1,0 +1,23 @@
+{
+  "id": 17,
+  "slug": "machine-learning",
+  "title": "Machine learning",
+  "part": 6,
+  "status": "planned",
+  "historical_period": "1950 – heden",
+  "estimated_difficulty": 4,
+  "estimated_minutes": 180,
+  "prerequisites": [
+    10,
+    11,
+    16
+  ],
+  "topics": [
+    "machine-learning",
+    "neural-networks",
+    "training-data"
+  ],
+  "core_question": "Hoe kan een programma iets leren wat niemand het stap voor stap heeft voorgedaan?",
+  "summary": "Perceptron en neurale netwerken; training, overfitting en evaluatie met testdata, en het verschil tussen regels programmeren en patronen leren.",
+  "lessons": []
+}

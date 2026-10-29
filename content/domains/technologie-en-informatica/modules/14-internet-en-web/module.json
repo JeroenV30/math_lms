@@ -1,0 +1,22 @@
+{
+  "id": 14,
+  "slug": "internet-en-web",
+  "title": "Internet en web",
+  "part": 5,
+  "status": "planned",
+  "historical_period": "1969 – heden",
+  "estimated_difficulty": 3,
+  "estimated_minutes": 180,
+  "prerequisites": [
+    13,
+    9
+  ],
+  "topics": [
+    "internet",
+    "web",
+    "routing"
+  ],
+  "core_question": "Wat gebeurt er precies wanneer je een webadres intypt?",
+  "summary": "ARPANET, TCP/IP, DNS en HTTP; routering, clients en servers, en de ontwikkeling van de web-infrastructuur.",
+  "lessons": []
+}

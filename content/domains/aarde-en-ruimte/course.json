@@ -10,45 +10,60 @@
       "number": 1,
       "roman": "I",
       "title": "De aarde als planeet",
-      "level": "fundamenten",
       "modules": [
-        1
+        1,
+        2
       ]
     },
     {
       "number": 2,
       "roman": "II",
       "title": "Gesteenten en platentektoniek",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "number": 3,
       "roman": "III",
       "title": "Water, klimaat en weer",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        7,
+        8,
+        9
+      ]
     },
     {
       "number": 4,
       "roman": "IV",
       "title": "Het zonnestelsel",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        10,
+        11,
+        12
+      ]
     },
     {
       "number": 5,
       "roman": "V",
       "title": "Sterren en sterrenstelsels",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        13,
+        14,
+        15
+      ]
     },
     {
       "number": 6,
       "roman": "VI",
       "title": "Kosmologie",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        16,
+        17
+      ]
     }
   ],
   "topics": {
@@ -58,6 +73,49 @@
     "seasons": "Dag, nacht en seizoenen",
     "coordinates": "Breedte, lengte en tijdzones",
     "earth-interior": "Opbouw van de aarde",
-    "deep-time": "Diepe tijd en ouderdom"
+    "deep-time": "Diepe tijd en ouderdom",
+    "moon": "De maan",
+    "tides": "Getijden",
+    "calendar": "Kalender en tijdrekening",
+    "minerals": "Mineralen",
+    "rocks": "Gesteenten",
+    "rock-cycle": "Gesteentekringloop",
+    "stratigraphy": "Gelaagdheid en stratigrafie",
+    "fossils": "Fossielen",
+    "uniformitarianism": "Uniformitarisme",
+    "continental-drift": "Continentverschuiving",
+    "seafloor-spreading": "Zeebodemspreiding",
+    "plate-tectonics": "Platentektoniek",
+    "earthquakes": "Aardbevingen",
+    "volcanoes": "Vulkanen",
+    "mountain-building": "Gebergtevorming",
+    "water-cycle": "Kringloop van water",
+    "oceans": "Oceanen en zeestromen",
+    "atmosphere": "Atmosfeer",
+    "air-pressure": "Luchtdruk en wind",
+    "weather": "Weer",
+    "climate": "Klimaat",
+    "greenhouse-effect": "Broeikaseffect",
+    "ice-ages": "IJstijden",
+    "orbits": "Planeetbanen",
+    "kepler-laws": "Wetten van Kepler",
+    "heliocentrism": "Heliocentrisme",
+    "planets": "Planeten",
+    "craters": "Kraters",
+    "sun": "De zon",
+    "solar-system-formation": "Ontstaan van het zonnestelsel",
+    "radiometric-dating": "Radiometrische datering",
+    "parallax": "Parallax",
+    "stellar-distance": "Sterafstanden",
+    "stellar-spectra": "Sterspectra",
+    "hr-diagram": "Hertzsprung-Russelldiagram",
+    "stellar-evolution": "Sterevolutie",
+    "milky-way": "Melkweg",
+    "galaxies": "Sterrenstelsels",
+    "redshift": "Roodverschuiving",
+    "expanding-universe": "Uitdijend heelal",
+    "big-bang": "Oerknal",
+    "cosmic-background": "Kosmische achtergrondstraling",
+    "dark-matter": "Donkere materie"
   }
 }

@@ -10,59 +10,82 @@
       "number": 1,
       "roman": "I",
       "title": "Meten en eenheden",
-      "level": "fundamenten",
       "modules": [
-        1
+        1,
+        2
       ]
     },
     {
       "number": 2,
       "roman": "II",
       "title": "Beweging en krachten",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        3,
+        4,
+        5
+      ]
     },
     {
       "number": 3,
       "roman": "III",
       "title": "Energie en warmte",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        6,
+        7,
+        8
+      ]
     },
     {
       "number": 4,
       "roman": "IV",
       "title": "Materie, atomen en het periodiek systeem",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "number": 5,
       "roman": "V",
       "title": "Chemische reacties",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        13,
+        14,
+        15,
+        16
+      ]
     },
     {
       "number": 6,
       "roman": "VI",
       "title": "Elektriciteit en magnetisme",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        17,
+        18,
+        19
+      ]
     },
     {
       "number": 7,
       "roman": "VII",
       "title": "Licht en golven",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        20,
+        21,
+        22
+      ]
     },
     {
       "number": 8,
       "roman": "VIII",
       "title": "Moderne natuurkunde",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        23,
+        24,
+        25
+      ]
     }
   ],
   "topics": {
@@ -76,6 +99,84 @@
     "significant-figures": "Significante cijfers",
     "dimensional-analysis": "Dimensieanalyse",
     "estimation": "Schatten",
-    "density": "Dichtheid"
+    "density": "Dichtheid",
+    "models": "Modellen",
+    "graphs": "Grafieken",
+    "proportionality": "Evenredigheid",
+    "linear-fit": "Lineaire fit",
+    "kinematics": "Kinematica",
+    "velocity-acceleration": "Snelheid en versnelling",
+    "free-fall": "Vrije val",
+    "vectors": "Vectoren",
+    "force": "Kracht",
+    "newton-laws": "Wetten van Newton",
+    "friction": "Wrijving",
+    "mechanics-history": "Geschiedenis van de mechanica",
+    "gravitation": "Zwaartekracht",
+    "circular-motion": "Cirkelbeweging",
+    "work": "Arbeid",
+    "energy": "Energie",
+    "energy-conservation": "Energiebehoud",
+    "power": "Vermogen",
+    "momentum": "Impuls",
+    "temperature": "Temperatuur",
+    "heat": "Warmte",
+    "heat-capacity": "Warmtecapaciteit",
+    "phase-transitions": "Faseovergangen",
+    "kinetic-theory": "Kinetische gastheorie",
+    "gas-laws": "Gaswetten",
+    "thermodynamics": "Thermodynamica",
+    "entropy": "Entropie",
+    "heat-engines": "Warmtemachines",
+    "atomic-theory": "Atoomtheorie",
+    "mass-conservation": "Behoud van massa",
+    "atomic-structure": "Atoombouw",
+    "electron-configuration": "Elektronenconfiguratie",
+    "spectroscopy": "Spectroscopie",
+    "periodic-table": "Periodiek systeem",
+    "periodicity": "Periodiciteit",
+    "ionization-energy": "Ionisatie-energie",
+    "chemical-bonds": "Chemische bindingen",
+    "molecular-structure": "Molecuulstructuur",
+    "intermolecular-forces": "Intermoleculaire krachten",
+    "mole": "Het mol",
+    "stoichiometry": "Stoichiometrie",
+    "chemical-equations": "Reactievergelijkingen",
+    "solutions": "Oplossingen",
+    "acids-bases": "Zuren en basen",
+    "ph": "pH",
+    "reaction-rate": "Reactiesnelheid",
+    "catalysis": "Katalyse",
+    "chemical-equilibrium": "Chemisch evenwicht",
+    "le-chatelier": "Principe van Le Chatelier",
+    "redox": "Redoxreacties",
+    "electrochemistry": "Elektrochemie",
+    "chemical-thermodynamics": "Chemische thermodynamica",
+    "electric-charge": "Lading",
+    "electric-field": "Elektrisch veld",
+    "electric-potential": "Spanning en potentiaal",
+    "current-resistance": "Stroom en weerstand",
+    "circuits": "Schakelingen",
+    "magnetism": "Magnetisme",
+    "electromagnetic-induction": "Inductie",
+    "maxwell-equations": "Vergelijkingen van Maxwell",
+    "waves": "Golven",
+    "superposition": "Superpositie",
+    "sound": "Geluid",
+    "optics": "Optica",
+    "refraction": "Breking",
+    "interference": "Interferentie",
+    "diffraction": "Buiging",
+    "electromagnetic-spectrum": "Elektromagnetisch spectrum",
+    "speed-of-light": "Lichtsnelheid",
+    "special-relativity": "Speciale relativiteitstheorie",
+    "spacetime": "Ruimtetijd",
+    "quantum-origins": "Oorsprong van de kwantumtheorie",
+    "photoelectric-effect": "Foto-elektrisch effect",
+    "wave-particle-duality": "Golf-deeltjesdualiteit",
+    "quantum-mechanics": "Kwantummechanica",
+    "uncertainty-principle": "Onzekerheidsrelatie",
+    "nuclear-physics": "Kernfysica",
+    "radioactivity": "Radioactiviteit"
   }
 }

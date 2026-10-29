@@ -10,45 +10,63 @@
       "number": 1,
       "roman": "I",
       "title": "Schrift en alfabet",
-      "level": "fundamenten",
       "modules": [
-        1
+        1,
+        2,
+        3
       ]
     },
     {
       "number": 2,
       "roman": "II",
       "title": "Hoe taal werkt",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        4,
+        5,
+        6,
+        7
+      ]
     },
     {
       "number": 3,
       "roman": "III",
       "title": "Lezen en schrijven",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        8,
+        9,
+        10
+      ]
     },
     {
       "number": 4,
       "roman": "IV",
       "title": "Argumenteren en retorica",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        11,
+        12,
+        13
+      ]
     },
     {
       "number": 5,
       "roman": "V",
       "title": "Talen van de wereld",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        14,
+        15,
+        16,
+        17
+      ]
     },
     {
       "number": 6,
       "roman": "VI",
       "title": "Informatie en media",
-      "level": "fundamenten",
-      "modules": []
+      "modules": [
+        18,
+        19,
+        20
+      ]
     }
   ],
   "topics": {
@@ -56,6 +74,60 @@
     "language-and-writing": "Taal en schrift",
     "decipherment": "Ontcijfering van schriften",
     "spelling": "Spelling en uitspraak",
-    "alphabet-history": "Geschiedenis van het alfabet"
+    "alphabet-history": "Geschiedenis van het alfabet",
+    "chinese-script": "Het Chinese schrift",
+    "abugida-and-abjad": "Abugida's en abjads",
+    "language-standardisation": "Standaardisering van talen",
+    "orthography": "Orthografie",
+    "phonetics": "Fonetiek",
+    "phonology": "Fonologie",
+    "phoneme": "Het foneem",
+    "morphology": "Morfologie",
+    "word-formation": "Woordvorming",
+    "morpheme": "Het morfeem",
+    "syntax": "Syntaxis",
+    "constituents": "Constituenten en zinsstructuur",
+    "universal-grammar": "Universele grammatica",
+    "semantics": "Semantiek",
+    "pragmatics": "Pragmatiek",
+    "speech-acts": "Taalhandelingen",
+    "text-analysis": "Tekstanalyse",
+    "coherence": "Cohesie en coherentie",
+    "genre": "Genre",
+    "reading-process": "Het leesproces",
+    "literacy-history": "Geschiedenis van geletterdheid",
+    "education": "Onderwijs en taal",
+    "writing-process": "Het schrijfproces",
+    "audience": "Publiek en schrijfdoel",
+    "register": "Register",
+    "rhetoric": "Retorica",
+    "ethos-pathos-logos": "Ethos, pathos en logos",
+    "classical-oratory": "Klassieke redekunst",
+    "argumentation": "Argumentatie",
+    "fallacies": "Drogredenen",
+    "toulmin-model": "Het model van Toulmin",
+    "propaganda": "Propaganda",
+    "advertising": "Reclame",
+    "persuasion-research": "Onderzoek naar overtuiging",
+    "language-families": "Taalfamilies",
+    "comparative-method": "De vergelijkende methode",
+    "indo-european": "Indo-Europees",
+    "dutch-history": "Geschiedenis van het Nederlands",
+    "language-change": "Taalverandering",
+    "sociolinguistics": "Sociolinguïstiek",
+    "language-contact": "Taalcontact",
+    "dialects": "Dialecten",
+    "language-acquisition": "Taalverwerving",
+    "sign-languages": "Gebarentalen",
+    "language-endangerment": "Bedreigde talen",
+    "manuscripts": "Handschriften",
+    "printing-press": "De drukpers",
+    "media-history": "Mediageschiedenis",
+    "mass-media": "Massamedia",
+    "public-opinion": "Publieke opinie",
+    "framing": "Framing en agendasetting",
+    "information-theory": "Informatietheorie",
+    "digital-media": "Digitale media",
+    "misinformation": "Desinformatie"
   }
 }

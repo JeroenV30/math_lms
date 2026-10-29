@@ -1,0 +1,22 @@
+{
+  "id": 3,
+  "slug": "ontwerpen-en-regelsystemen",
+  "title": "Ontwerpen en regelen: systemen met terugkoppeling",
+  "part": 1,
+  "status": "planned",
+  "historical_period": "18e – 20e eeuw",
+  "estimated_difficulty": 3,
+  "estimated_minutes": 180,
+  "prerequisites": [
+    1,
+    2
+  ],
+  "topics": [
+    "control",
+    "feedback-systems",
+    "design-process"
+  ],
+  "core_question": "Hoe zorg je dat een systeem zichzelf bijstuurt zonder dat iemand ingrijpt?",
+  "summary": "Wattregelaar en thermostaat als voorbeeld; sensor, regelaar en actuator, stabiliteit en oscillatie, en de ontwerpcyclus van eis tot test.",
+  "lessons": []
+}
