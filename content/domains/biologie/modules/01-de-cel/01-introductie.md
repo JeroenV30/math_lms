@@ -30,7 +30,7 @@ Die drie uitspraken lijken vanzelfsprekend, maar ze waren dat niet. Eeuwenlang g
 
 Je begint met de vraag wat leven is en hoe biologen met schaalniveaus omgaan. Daarna volg je het verhaal van de microscoop, van Hooke en Van Leeuwenhoek tot de elektronenmicroscoop, en leer je grootte en vergroting berekenen. Vervolgens kijk je in de cel: het verschil tussen cellen zonder en met kern, de organellen en wat hun bouw verklaart, en het verschil tussen plant- en dierlijke cellen. Het celmembraan en het transport van stoffen, met diffusie en osmose, vormen het volgende deel. Dan volgt de celdeling, waarin de celtheorie haar slotstuk vindt. De zevende les gaat over de onderzoekers zelf: wie wat bewees, hoe zij hun tegenstanders overtuigden en wat je kunt leren van hun experimenten. De module eindigt met een samenvatting en een toets.
 
-Het niveau begint toegankelijk, bij vragen die je zonder voorkennis kunt beantwoorden, en eindigt op het niveau van de bovenbouw van het vwo en van een eerste jaar universiteit. Je gebruikt wat rekenwerk met eenheden, verhoudingen en machten van tien. Dat is geen rekenkundige uitweg: de grootte van een bacterie ten opzichte van een virus of een eicel bepaalt wat zij kunnen en wat niet, en dat is een belangrijk deel van de biologische verklaring.
+Het niveau begint toegankelijk, bij vragen die je zonder voorkennis kunt beantwoorden, en eindigt op het niveau van een eerste studiejaar aan de universiteit. Je gebruikt wat rekenwerk met eenheden, verhoudingen en machten van tien. Dat is geen rekenkundige uitweg: de grootte van een bacterie ten opzichte van een virus of een eicel bepaalt wat zij kunnen en wat niet, en dat is een belangrijk deel van de biologische verklaring.
 
 ## Reflectie
 

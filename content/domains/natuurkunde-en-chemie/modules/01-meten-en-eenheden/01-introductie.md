@@ -48,7 +48,7 @@ Van de Franse commissie naar jouw eigen keukenweegschaal loopt dus een rechte li
 
 Eerst maak je de taal helder: wat zijn grootheden en eenheden, en hoe is het SI opgebouwd? Dan oefen je het omrekenen met machten van tien en voorvoegsels, want in de natuurkunde loopt de schaal van de atoomkern tot het heelal, en je wilt daar zonder angst mee kunnen rekenen. Vervolgens kijk je naar meetonzekerheid en significante cijfers: de eerlijke manier om te zeggen hoe goed je een getal kent. Daarna leer je met eenheden te redeneren: een formule controleren zonder haar uit te rekenen, en een grootte schatten met niet meer dan wat je al weet. Ten slotte keer je terug naar de geschiedenis, nu met de nodige kennis: hoe de meter en de kilogram van een voorwerp in een kluis veranderden in afspraken over natuurconstanten.
 
-Het niveau loopt op. De eerste lessen vragen alleen dat je met getallen en eenheden zorgvuldig omgaat; de laatste vragen dat je een onderzoeksopzet kunt verdedigen, zoals je dat in de bovenbouw van het vwo of de eerste weken van een bachelor natuurkunde, chemie of techniek moet doen. Je hoeft niets van tevoren te weten behalve rekenen met breuken, decimale getallen en machten.
+Het niveau loopt op. De eerste lessen vragen alleen dat je met getallen en eenheden zorgvuldig omgaat; de laatste vragen dat je een onderzoeksopzet kunt verdedigen, zoals je dat in de eerste weken van een bachelor natuurkunde, chemie of techniek moet doen. Je hoeft niets van tevoren te weten behalve rekenen met breuken, decimale getallen en machten.
 
 Controleer met twee korte opdrachten of je het beeld van de commissie hebt opgepakt.
 

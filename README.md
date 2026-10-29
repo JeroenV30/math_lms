@@ -14,12 +14,12 @@ de geschiedenis van het wiskundige denken als leidraad. Gebouwd volgens
 | Onderdeel | Inhoud | Diepgang |
 |---|---|---|
 | Deel I – Fundamenten (modules 1–6) | 43 lessen, 216 oefeningen, 90 toetsvragen | uitgebreid |
-| Deel II – Basisschool bovenbouw (modules 7–12) | 47 lessen, 258 oefeningen, 90 toetsvragen | uitgebreid |
-| Deel III – VMBO / basis middelbaar (modules 13–18) | 48 lessen, 263 oefeningen, 90 toetsvragen | uitgebreid |
-| Deel IV – HAVO (modules 19–24) | 48 lessen, 266 oefeningen, 90 toetsvragen | uitgebreid |
-| Deel V – VWO (modules 25–30) | 48 lessen, 244 oefeningen, 90 toetsvragen | uitgebreid |
+| Deel II – Breuken, verhoudingen en meten (modules 7–12) | 47 lessen, 258 oefeningen, 90 toetsvragen | uitgebreid |
+| Deel III – Van rekenen naar algebra (modules 13–18) | 48 lessen, 263 oefeningen, 90 toetsvragen | uitgebreid |
+| Deel IV – Functies, driehoeken en kans (modules 19–24) | 48 lessen, 266 oefeningen, 90 toetsvragen | uitgebreid |
+| Deel V – Groei, verandering en analyse (modules 25–30) | 48 lessen, 244 oefeningen, 90 toetsvragen | uitgebreid |
 | Deel VI – Toegepaste wiskunde (modules 31–35) | 40 lessen, 190 oefeningen, 75 toetsvragen | uitgebreid |
-| Deel VII – HBO/WO statistiek (modules 36–42) | 56 lessen, 309 oefeningen, 105 toetsvragen | uitgebreid |
+| Deel VII – Statistiek (modules 36–42) | 56 lessen, 309 oefeningen, 105 toetsvragen | uitgebreid |
 | Historische tijdlijn | 60 gebeurtenissen | |
 | Wiskundigenbibliotheek | 23 profielen | |
 | Oefenengine | numeric, decimal, fraction, expression, coordinate, interval, multiple, text, choice, order (+ foutenanalyse) | |
