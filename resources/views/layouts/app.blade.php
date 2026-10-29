@@ -39,7 +39,7 @@
                     ['route' => 'practice.index', 'label' => 'Oefenen', 'match' => 'practice.*'],
                     ['route' => 'review.index', 'label' => 'Herhalen', 'match' => 'review.*', 'badge' => $reviewCount],
                     $course->timeline()->isNotEmpty() ? ['route' => 'history.index', 'label' => 'Tijdlijn', 'match' => 'history.*'] : null,
-                    $course->mathematicians()->isNotEmpty() ? ['route' => 'mathematicians.index', 'label' => $course->label('people'), 'match' => 'mathematicians.*'] : null,
+                    $course->people()->isNotEmpty() ? ['route' => 'people.index', 'label' => $course->label('people'), 'match' => 'people.*'] : null,
                     ['route' => 'progress.index', 'label' => 'Voortgang', 'match' => 'progress.*'],
                 ])),
                 'library' => array_values(array_filter([
@@ -50,6 +50,7 @@
         }
         $general = [
             ['route' => 'domains.index', 'label' => 'Kaart van kennis'],
+            ['route' => 'history.all', 'label' => 'Tijdlijn van alle domeinen'],
             ['route' => 'settings.edit', 'label' => 'Instellingen'],
         ];
         $isActive = fn (string $pattern) => collect(explode('|', $pattern))->contains(fn ($p) => request()->routeIs($p));

@@ -6,6 +6,19 @@
   "title": "Kaart van menselijke kennis",
   "subtitle": "Ontdekken · Begrijpen · Verbinden · Creëren",
   "intro": "Elk kennisdomein wordt een eigen leerlijn, opgebouwd volgens hetzelfde principe als de wiskundecursus: van het eenvoudigste begin tot academisch niveau, met de geschiedenis van het denken als leidraad. Wiskunde wordt als eerste volledig uitgewerkt; de andere domeinen volgen.",
+  "timeline": {
+    "title": "Alle domeinen door de eeuwen",
+    "intro": "De gebeurtenissen van alle kennisdomeinen op één tijdlijn. Zo zie je wat er tegelijk gebeurde: in de wiskunde, de natuurwetenschap, de kunst en de politiek."
+  },
+  "periods": [
+    { "title": "Prehistorie", "until": -3000 },
+    { "title": "Oudheid", "until": 500 },
+    { "title": "Middeleeuwen", "until": 1500 },
+    { "title": "Vroegmoderne tijd", "until": 1800 },
+    { "title": "Negentiende eeuw", "until": 1900 },
+    { "title": "Twintigste eeuw", "until": 2000 },
+    { "title": "Eenentwintigste eeuw" }
+  ],
   "domains": [
     {
       "id": "wiskunde",

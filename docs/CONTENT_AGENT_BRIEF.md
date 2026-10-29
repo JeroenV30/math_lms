@@ -63,6 +63,8 @@ een voorbeeldalinea.
   `{ "events": [...], "people": [...], "topics": { "sleutel": "Label" } }`.
   Je mag die id's al in je `module.json` gebruiken; tot ze zijn samengevoegd geeft `content:validate`
   daar alleen een waarschuwing over.
+- **Personen die ook in andere domeinen voorkomen** krijgen daar dezelfde id. Zoek eerst met
+  `grep -l '"id": "<id>"' content/domains/*/history/people.json`; de app koppelt de domeinen via die id.
 - Gebruik `$` alleen voor formules (KaTeX), nooit voor geld of als teken in lopende tekst.
 - Schrijf bestanden direct weg, les voor les, zodat werk niet verloren gaat bij een onderbreking.
 - Werk alleen in je eigen moduledirectory en je eigen afbeeldingsbestanden (`mNN-*`).

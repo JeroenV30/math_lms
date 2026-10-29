@@ -31,7 +31,7 @@ class ContentService
 
     private ?array $timeline = null;
 
-    private ?array $mathematicians = null;
+    private ?array $people = null;
 
     public function __construct(private readonly string $path) {}
 
@@ -79,7 +79,7 @@ class ContentService
     /**
      * Delen (I–VII) met hun modules.
      *
-     * @return Collection<int, array{number: int, roman: string, title: string, level: string, modules: Collection<int, Module>}>
+     * @return Collection<int, array{number: int, roman: string, title: string, modules: Collection<int, Module>}>
      */
     public function parts(): Collection
     {
@@ -224,19 +224,19 @@ class ContentService
         return collect($this->timeline)->sortBy('sort_year')->values();
     }
 
-    public function mathematicians(): Collection
+    /**
+     * Personen van de cursus (history/people.json), op volgorde van tijd.
+     */
+    public function people(): Collection
     {
-        // Personen van de cursus: history/people.json, of (wiskunde) history/mathematicians.json.
-        $this->mathematicians ??= $this->readOptionalJson($this->path.'/history/people.json')['people']
-            ?? $this->readOptionalJson($this->path.'/history/mathematicians.json')['mathematicians']
-            ?? [];
+        $this->people ??= $this->readOptionalJson($this->path.'/history/people.json')['people'] ?? [];
 
-        return collect($this->mathematicians)->sortBy('sort_year')->values();
+        return collect($this->people)->sortBy('sort_year')->values();
     }
 
-    public function getMathematician(string $id): ?array
+    public function person(string $id): ?array
     {
-        return $this->mathematicians()->firstWhere('id', $id);
+        return $this->people()->firstWhere('id', $id);
     }
 
     public function timelineEvent(string $id): ?array

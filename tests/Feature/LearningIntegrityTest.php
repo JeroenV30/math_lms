@@ -97,12 +97,12 @@ class LearningIntegrityTest extends TestCase
 
     public function test_a_growing_domain_shows_how_many_modules_are_ready(): void
     {
-        // Echte content: geschiedenis heeft een moduleplan en is half af.
+        // Echte content: geschiedenis is half af, biologie heeft een moduleplan en alleen module 1.
         $this->refreshApplication();
         $domains = app(DomainService::class);
 
         $this->assertMatchesRegularExpression('/^\d+ van \d+ modules$/', $domains->progressLabel($domains->find('geschiedenis')));
+        $this->assertMatchesRegularExpression('/^1 van \d+ modules$/', $domains->progressLabel($domains->find('biologie')));
         $this->assertNull($domains->progressLabel($domains->find('wiskunde')));
-        $this->assertNull($domains->progressLabel($domains->find('biologie')));
     }
 }

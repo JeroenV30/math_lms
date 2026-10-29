@@ -38,7 +38,7 @@ class PublishedLessonsTest extends TestCase
     {
         $pages = ['/', '/kennis/wiskunde/cursus', '/kennis/wiskunde/tijdlijn', '/kennis/wiskunde/personen', '/kennis/wiskunde/begrippen', '/kennis/wiskunde/formules', '/kennis/wiskunde', '/kennis/wiskunde/voortgang', '/kennis/wiskunde/oefenen'];
 
-        foreach (app(ContentService::class)->mathematicians() as $person) {
+        foreach (app(ContentService::class)->people() as $person) {
             $pages[] = '/kennis/wiskunde/personen/'.$person['id'];
         }
 

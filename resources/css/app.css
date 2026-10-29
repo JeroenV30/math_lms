@@ -670,8 +670,9 @@
         @apply relative border-l border-line-strong pl-8;
     }
 
+    /* Op de lijn van .timeline-rail: de li begint pas na diens pl-8 (2rem), het bolletje is 0,875rem breed. */
     .timeline-dot {
-        @apply absolute -left-[0.4375rem] mt-1.5 h-3.5 w-3.5 rounded-full border-2 border-history bg-paper;
+        @apply absolute -left-[2.4375rem] mt-1 h-3.5 w-3.5 rounded-full border-2 border-history bg-paper;
     }
 
     /* ---------- Voorlezen ---------- */

@@ -10,12 +10,12 @@ Hieronder het voorbeeld van wiskunde.
 
 ```
 content/
-├── domains.json                # alle kennisdomeinen (kaart, kleuren, status)
+├── domains.json                # alle kennisdomeinen (kaart, kleuren, status) en tijdvakken van /tijdlijn
 └── domains/wiskunde/
     ├── course.json             # delen, onderwerpen (topics) en cursusinfo
     ├── history/
     │   ├── timeline.json       # historische tijdlijn (/kennis/wiskunde/tijdlijn)
-    │   └── mathematicians.json # personen (/kennis/wiskunde/personen)
+    │   └── people.json         # personen (/kennis/wiskunde/personen)
     └── modules/
     └── 01-wat-is-een-getal/
         ├── module.json         # metadata, leerdoelen, begrippen, lessen
@@ -26,7 +26,7 @@ content/
         └── quiz.json           # hoofdstuktoets
 ```
 
-Afbeeldingen staan in `public/images/{history,mathematicians,diagrams,timelines}/`
+Afbeeldingen staan in `public/images/{history,diagrams,timelines,<domein>}/` (portretten van wiskundigen in `public/images/wiskunde/`)
 en worden in Markdown aangeroepen als `/images/diagrams/bestand.svg`.
 
 ---
@@ -54,7 +54,6 @@ domein verschilt (lesopbouw, oefentypen, bronnen), staat in `docs/domains/<domei
   "slug": "wat-is-een-getal",
   "title": "Wat is een getal?",
   "part": 1,
-  "level": "fundamenten",
   "status": "available",
   "historical_period": "Prehistorie",
   "estimated_difficulty": 1,
@@ -74,7 +73,7 @@ domein verschilt (lesopbouw, oefentypen, bronnen), staat in `docs/domains/<domei
     { "slug": "introductie", "title": "Acht schapen", "file": "01-introductie.md", "kind": "intro" }
   ],
   "timeline": ["ishango-been"],
-  "mathematicians": ["brahmagupta"]
+  "people": ["brahmagupta"]
 }
 ```
 
@@ -82,8 +81,9 @@ domein verschilt (lesopbouw, oefentypen, bronnen), staat in `docs/domains/<domei
 - `kind` per les: `intro`, `theory`, `history`, `practice`, `summary`.
 - `topics`: alleen sleutels uit `course.json → topics`.
 - `timeline` / `people`: id's uit `history/*.json` van de cursus; bekijk ze met
-  `php artisan content:ids <domein>`. Wiskunde gebruikt de oudere sleutel
-  `mathematicians`; beide werken.
+  `php artisan content:ids <domein>`. Gebruik voor een persoon die al in een ander
+  domein staat dezelfde id (bijv. `aristoteles`): daarmee koppelt de app de domeinen
+  aan elkaar (profielen en "Verwant in andere domeinen" bij een module).
 - `formulas` alleen waar het vak formules heeft.
 
 ### Vaste lesindeling (contentsjabloon)
@@ -356,8 +356,7 @@ Alle widgets met een voorbeelddirectief zijn te zien op `/dev/widgets` (alleen l
 }
 ```
 
-`content/domains/<domein>/history/people.json` (bij wiskunde heet dit bestand
-`mathematicians.json`, met de sleutel `mathematicians`; ook in tijdlijngebeurtenissen):
+`content/domains/<domein>/history/people.json`:
 
 ```json
 {

@@ -15,7 +15,6 @@ final readonly class Module
         public string $directory,
         public string $title,
         public int $part,
-        public string $level,
         public string $status,
         public ?string $historicalPeriod,
         public int $difficulty,
@@ -29,7 +28,7 @@ final readonly class Module
         public array $formulas,
         public Collection $lessons,
         public array $timeline,
-        public array $mathematicians,
+        public array $people,
     ) {}
 
     public static function fromArray(array $data, string $directory): self
@@ -42,7 +41,6 @@ final readonly class Module
             directory: $directory,
             title: $data['title'],
             part: (int) $data['part'],
-            level: $data['level'] ?? '',
             status: $data['status'] ?? 'planned',
             historicalPeriod: $data['historical_period'] ?? null,
             difficulty: (int) ($data['estimated_difficulty'] ?? 1),
@@ -58,7 +56,7 @@ final readonly class Module
                 ->values()
                 ->map(fn (array $lesson, int $i) => Lesson::fromArray($id, $i + 1, $lesson)),
             timeline: $data['timeline'] ?? [],
-            mathematicians: $data['people'] ?? $data['mathematicians'] ?? [],
+            people: $data['people'] ?? [],
         );
     }
 

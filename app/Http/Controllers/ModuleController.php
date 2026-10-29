@@ -3,13 +3,15 @@
 namespace App\Http\Controllers;
 
 use App\Models\QuizAttempt;
+use App\Services\ConnectionService;
 use App\Services\ContentService;
+use App\Services\CourseRegistry;
 use App\Services\ProgressService;
 use Illuminate\View\View;
 
 class ModuleController extends Controller
 {
-    public function show(string $module, ContentService $content, ProgressService $progress): View
+    public function show(string $module, ContentService $content, ProgressService $progress, ConnectionService $connections, CourseRegistry $courses): View
     {
         $module = $this->module($module);
         $exercises = $module->isAvailable() ? $content->exercises($module) : collect();
@@ -28,7 +30,8 @@ class ModuleController extends Controller
             'next' => $content->nextModule($module),
             'prerequisites' => collect($module->prerequisites)->map(fn ($id) => $content->getModule($id))->filter(),
             'events' => collect($module->timeline)->map(fn ($id) => $content->timelineEvent($id))->filter(),
-            'mathematicians' => collect($module->mathematicians)->map(fn ($id) => $content->getMathematician($id))->filter(),
+            'people' => collect($module->people)->map(fn ($id) => $content->person($id))->filter(),
+            'related' => $connections->relatedModules($module, $courses->currentId()),
             'content' => $content,
         ]);
     }

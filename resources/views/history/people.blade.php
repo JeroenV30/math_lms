@@ -7,13 +7,13 @@
     <x-page-header :eyebrow="$page['eyebrow']" :title="$page['title']" :intro="$page['intro']" eyebrow-class="text-history" />
 
     <div class="container-page mt-10">
-        @if ($mathematicians->isEmpty())
+        @if ($people->isEmpty())
             <p class="text-muted">De profielen worden nog geschreven.</p>
         @endif
         <ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            @foreach ($mathematicians as $person)
+            @foreach ($people as $person)
                 <li>
-                    <a href="{{ route('mathematicians.show', $person['id']) }}" class="card group flex h-full gap-4 p-5 transition-colors hover:border-history-line">
+                    <a href="{{ route('people.show', $person['id']) }}" class="card group flex h-full gap-4 p-5 transition-colors hover:border-history-line">
                         @if (! empty($person['image']))
                             <img src="{{ $person['image'] }}" alt="" class="h-16 w-14 shrink-0 rounded-md object-cover grayscale-[30%]" loading="lazy">
                         @else

@@ -56,7 +56,7 @@ class DomainTest extends TestCase
         $this->get('/kennis/wiskunde')
             ->assertOk()
             ->assertSee('aria-label="Menu Wiskunde"', false)
-            ->assertSee('href="'.route('mathematicians.index').'"', false)
+            ->assertSee('href="'.route('people.index').'"', false)
             ->assertSee('Zoeken in Wiskunde')
             ->assertSee('Formulebibliotheek');
 
@@ -64,7 +64,7 @@ class DomainTest extends TestCase
         $this->get('/kennis/biologie')
             ->assertOk()
             ->assertSee('aria-label="Menu Biologie"', false)
-            ->assertDontSee('href="'.route('mathematicians.index').'"', false)
+            ->assertDontSee('href="'.route('people.index').'"', false)
             ->assertDontSee('Zoeken in Biologie')
             ->assertSee('Zoeken in alle domeinen')
             ->assertDontSee('Formulebibliotheek')
@@ -117,8 +117,9 @@ class DomainTest extends TestCase
         $this->assertSame('building', $domains->stage($domains->find('geschiedenis')));
         $this->assertSame('planned', $domains->stage(['id' => 'x', 'status' => 'planned']));
 
-        // Kaart en zijbalk gebruiken hetzelfde label; elk domein heeft inmiddels een cursus.
-        $this->get('/')->assertOk()->assertSee('>in opbouw</span>', false)->assertSee('In opbouw')->assertDontSee('in voorbereiding');
+        // Kaart en zijbalk gebruiken hetzelfde label; elk domein heeft inmiddels een cursus met moduleplan,
+        // dus de zijbalk toont hoeveel modules klaar zijn.
+        $this->get('/')->assertOk()->assertSee('>in opbouw</span>', false)->assertSee('van 23 modules')->assertDontSee('in voorbereiding');
     }
 
     public function test_page_headers_share_one_breadcrumb_trail(): void

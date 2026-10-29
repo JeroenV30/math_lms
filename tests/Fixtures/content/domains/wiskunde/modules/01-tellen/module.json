@@ -3,7 +3,6 @@
   "slug": "tellen",
   "title": "Tellen",
   "part": 1,
-  "level": "fundamenten",
   "status": "available",
   "historical_period": "Prehistorie",
   "estimated_difficulty": 1,
@@ -20,5 +19,5 @@
     { "slug": "theorie", "title": "Vermenigvuldigen", "file": "02-theorie.md", "kind": "theory" }
   ],
   "timeline": ["ishango-been"],
-  "mathematicians": ["euclides"]
+  "people": ["euclides"]
 }

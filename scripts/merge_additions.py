@@ -59,11 +59,8 @@ def main() -> int:
 
     course = load(course_dir / 'course.json', {})
     timeline_path = course_dir / 'history' / 'timeline.json'
-    # Wiskunde gebruikt nog mathematicians.json; andere domeinen people.json.
-    people_path = course_dir / 'history' / 'mathematicians.json'
-    people_key = 'mathematicians'
-    if not people_path.exists():
-        people_path, people_key = course_dir / 'history' / 'people.json', 'people'
+    people_path = course_dir / 'history' / 'people.json'
+    people_key = 'people'
 
     timeline = load(timeline_path, {'events': []})
     people = load(people_path, {people_key: []})

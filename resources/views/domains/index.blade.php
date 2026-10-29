@@ -37,6 +37,11 @@
             </section>
         @endif
 
+        <p class="mb-4 flex flex-wrap items-baseline justify-between gap-2 text-sm">
+            <span class="text-ink-soft">Wat gebeurde er tegelijk in de wiskunde, de natuurwetenschap, de kunst en de politiek?</span>
+            <a href="{{ route('history.all') }}" class="link font-medium">Alle domeinen op één tijdlijn →</a>
+        </p>
+
         <ul class="grid gap-3 sm:grid-cols-2">
             @foreach ($domains as $domain)
                 <li>

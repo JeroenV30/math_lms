@@ -68,17 +68,17 @@ class ContentValidator
 
         $topics = array_keys($this->content->topics());
         $timeline = $this->content->timeline()->pluck('id')->all();
-        $people = $this->content->mathematicians()->pluck('id')->all();
+        $people = $this->content->people()->pluck('id')->all();
         $seenIds = [];
 
-        foreach (['course.json', 'history/timeline.json', 'history/people.json', 'history/mathematicians.json'] as $file) {
+        foreach (['course.json', 'history/timeline.json', 'history/people.json'] as $file) {
             $this->checkLanguageInJson($this->content->path().'/'.$file, $prefix.$file);
         }
 
         foreach ($this->content->timeline() as $event) {
             $where = "{$prefix}tijdlijn '".($event['id'] ?? '?')."'";
 
-            foreach ($event['people'] ?? $event['mathematicians'] ?? [] as $id) {
+            foreach ($event['people'] ?? [] as $id) {
                 $this->warnUnless(in_array($id, $people, true), "{$where}: persoon '{$id}' bestaat (nog) niet.");
             }
 
@@ -118,7 +118,7 @@ class ContentValidator
                 $this->warnUnless($timeline === [] || in_array($id, $moduleTimeline, true), "{$where}: tijdlijn-id '{$id}' bestaat (nog) niet.");
             }
 
-            foreach ($module->mathematicians as $id) {
+            foreach ($module->people as $id) {
                 $this->warnUnless($people === [] || in_array($id, $modulePeople, true), "{$where}: persoon '{$id}' bestaat (nog) niet.");
             }
 

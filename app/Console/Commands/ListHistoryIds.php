@@ -36,7 +36,7 @@ class ListHistoryIds extends Command
         $this->newLine();
         $this->line('| id | Naam | Leefde |');
         $this->line('|---|---|---|');
-        foreach ($content->mathematicians() as $person) {
+        foreach ($content->people() as $person) {
             $this->line(sprintf('| `%s` | %s | %s |', $person['id'], $person['name'] ?? '', $person['lived'] ?? ''));
         }
 

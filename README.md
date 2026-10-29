@@ -1,15 +1,32 @@
 # Kennis door de Eeuwen
 
-Een lokaal draaiende, interactieve leeromgeving voor meerdere kennisdomeinen.
-Het eerste en tot nu toe enige uitgewerkte domein is de cursus
-*Rekenen & Wiskunde*: die bouwt rekenen en wiskunde vanaf
-het absolute basisniveau opnieuw op tot statistiek op HBO/WO-niveau — met
-de geschiedenis van het wiskundige denken als leidraad. Gebouwd volgens
+Een lokaal draaiende, interactieve leeromgeving voor tien kennisdomeinen, van
+wiskunde en natuurkunde tot geschiedenis, filosofie en kunst. Elk domein is een
+eigen cursus die van een toegankelijk begin opbouwt tot het niveau van een eerste
+studiejaar, met de geschiedenis van het denken als leidraad. Het eerste volledig
+uitgewerkte domein is *Rekenen & Wiskunde*; Geschiedenis volgt. Gebouwd volgens
 `build_plan.docx`.
 
 **Kern:** begrijpen → toepassen → fouten maken → uitleg krijgen → opnieuw proberen → beheersen.
 
 ## Stand van zaken
+
+Elk domein heeft een moduleplan; uitgewerkte modules hebben lessen, oefeningen en een toets.
+
+| Domein | Modules uitgewerkt | Lessen | Oefeningen | Toetsvragen | Tijdlijn | Personen |
+|---|---|---|---|---|---|---|
+| Wiskunde | 42 van 42 | 330 | 1.746 | 630 | 60 | 23 |
+| Geschiedenis | 10 van 23 | 80 | 335 | 150 | 104 | 64 |
+| Natuurkunde & chemie | 1 van 25 | 8 | 39 | 15 | 10 | 5 |
+| Biologie | 1 van 21 | 8 | 37 | 15 | 16 | 14 |
+| Aarde & ruimte | 1 van 17 | 8 | 39 | 15 | 18 | 16 |
+| Mens & maatschappij | 1 van 18 | 8 | 36 | 15 | 9 | 7 |
+| Taal & communicatie | 1 van 20 | 8 | 37 | 15 | 12 | 7 |
+| Filosofie | 1 van 18 | 8 | 35 | 15 | 5 | 8 |
+| Technologie & informatica | 1 van 18 | 8 | 35 | 15 | 9 | 7 |
+| Kunst & cultuur | 1 van 20 | 8 | 34 | 15 | 7 | 3 |
+
+### Rekenen & Wiskunde
 
 | Onderdeel | Inhoud | Diepgang |
 |---|---|---|
@@ -21,7 +38,6 @@ de geschiedenis van het wiskundige denken als leidraad. Gebouwd volgens
 | Deel VI – Toegepaste wiskunde (modules 31–35) | 40 lessen, 190 oefeningen, 75 toetsvragen | uitgebreid |
 | Deel VII – Statistiek (modules 36–42) | 56 lessen, 309 oefeningen, 105 toetsvragen | uitgebreid |
 | Historische tijdlijn | 60 gebeurtenissen | |
-| Wiskundigenbibliotheek | 23 profielen | |
 | Oefenengine | numeric, decimal, fraction, expression, coordinate, interval, multiple, text, choice, order (+ foutenanalyse) | |
 | Voortgang, beheersing, spaced repetition | werkend; herhalingsinterval groeit mee, back-up via Instellingen | |
 
@@ -155,7 +171,7 @@ De engine-tests draaien op een kleine vaste testcursus (`tests/Fixtures/content`
 `/` kaart van kennis · `/kennis/{domein}` dashboard (of opzet van een domein in voorbereiding) ·
 `/kennis/{domein}/cursus` · `…/cursus/{module}` · `…/cursus/{module}/les/{les}` · `…/cursus/{module}/toets` ·
 `/kennis/{domein}/oefenen` · `…/herhalen` · `…/voortgang` · `…/tijdlijn` · `…/personen` · `…/begrippen` ·
-`…/formules` · `…/zoeken` · `/instellingen`. Oude adressen (`/course/…`, `/practice` …) verwijzen door naar wiskunde.
+`…/formules` · `…/zoeken` · `/tijdlijn` (alle domeinen) · `/zoeken` (alle domeinen) · `/instellingen`. Oude adressen (`/course/…`, `/practice` …) verwijzen door naar wiskunde.
 
 ## Bewust niet in versie 1
 
@@ -165,7 +181,6 @@ toegevoegd.
 
 ## Kennisdomeinen
 
-Deze cursus is het eerste domein van een bredere kaart van menselijke kennis.
 Links in de applicatie staat een navigatiebalk met alle domeinen (in te klappen
 tot monogrammen); `/` toont de kaart. De domeinen staan in `content/domains.json`
 (naam, kernwoorden, kleur, status en voorziene opbouw).
@@ -174,8 +189,15 @@ Elk domein is een eigen cursus in `content/domains/{domein}/` met dezelfde
 structuur (course.json, modules/, history/) en dezelfde engine: lessen,
 oefeningen, toetsen, beheersing en herhaling, met voortgang per cursus. Alle
 pagina's van een domein staan onder `/kennis/{domein}/…`. Wiskunde is volledig
-uitgewerkt; de andere negen domeinen hebben module 1 met een introductieles en
-groeien van daaruit (status *in opbouw*).
+uitgewerkt; de andere negen domeinen hebben een moduleplan in `course.json` en
+groeien module voor module (status *in opbouw*).
+
+De domeinen zijn met elkaar verbonden (`ConnectionService`). Een persoon die in
+meer domeinen voorkomt (zelfde id in `history/people.json`, bijv. Aristoteles),
+verwijst naar het profiel in de andere domeinen. Een module toont modules uit
+andere domeinen waarin dezelfde personen terugkomen. `/tijdlijn` zet de
+gebeurtenissen van alle domeinen op één tijdlijn, ingedeeld in de tijdvakken uit
+`content/domains.json` → `periods`.
 
 Per cursus regelt `course.json` ook de teksten die per vak verschillen: `labels`
 (bijv. *Wiskundigen*, *Historici*) en `pages` (koppen van tijdlijn, personen,

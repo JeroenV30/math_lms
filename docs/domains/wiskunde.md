@@ -15,7 +15,7 @@ Hoort bij `docs/CONTENT_AGENT_BRIEF.md`. Waar beide iets zeggen, geldt deze aanv
 - Antwoorden moeten eenduidig zijn. Vermeld bij decimalen hoe je moet afronden en zet `tolerance`.
 - Geld: `decimal` met unit "€".
 - In JSON backslashes verdubbelen.
-- `module.json` krijgt `formulas` (met usage/origin); personen staan bij wiskunde onder `mathematicians`.
+- `module.json` krijgt `formulas` (met usage/origin).
 
 ## Bronnen voor feiten
 

@@ -152,13 +152,13 @@ class SearchService
                 'excerpt' => isset($f['usage']) ? $this->markdown->plainText($f['usage']) : null,
                 'url' => $route('formulas').'#module-'.$f['module']->id,
             ]))
-            ->concat($content->mathematicians()->map(fn (array $p) => [
+            ->concat($content->people()->map(fn (array $p) => [
                 'kind' => 'person',
                 'label' => $content->label('person'),
                 'title' => $p['name'],
                 'text' => trim(($p['full_name'] ?? '').' '.($p['known_for'] ?? '')),
                 'excerpt' => $p['known_for'] ?? null,
-                'url' => $route('mathematicians.show', ['mathematician' => $p['id']]),
+                'url' => $route('people.show', ['person' => $p['id']]),
             ]))
             ->concat($content->timeline()->map(fn (array $e) => [
                 'kind' => 'timeline',

@@ -136,22 +136,39 @@
                 </div>
             @endif
 
-            @if ($events->isNotEmpty() || $mathematicians->isNotEmpty())
+            @if ($events->isNotEmpty() || $people->isNotEmpty())
                 <div class="card border-history-line bg-history-soft p-5">
                     <p class="eyebrow text-history">Op de tijdlijn</p>
                     <ul class="mt-3 space-y-2 text-sm">
                         @foreach ($events as $event)
-                            <li><a href="{{ route('history.index') }}#{{ $event['id'] }}" class="text-history-ink hover:underline"><span class="text-history tabular-nums">{{ $event['year_label'] }}</span> · {{ $event['title'] }}</a></li>
+                            <li><a href="{{ route('history.index') }}#{{ $event['id'] }}" class="text-history-ink hover:underline"><span class="text-history tabular-nums">{{ $event['year_label'] }}</span> · {!! $markdown->inline($event['title']) !!}</a></li>
                         @endforeach
                     </ul>
-                    @if ($mathematicians->isNotEmpty())
+                    @if ($people->isNotEmpty())
                         <p class="eyebrow mt-5 text-history">{{ $course->label('people') }}</p>
                         <ul class="mt-2 flex flex-wrap gap-2">
-                            @foreach ($mathematicians as $person)
-                                <li><a href="{{ route('mathematicians.show', $person['id']) }}" class="badge border-history-line bg-paper text-history hover:border-history">{{ $person['name'] }}</a></li>
+                            @foreach ($people as $person)
+                                <li><a href="{{ route('people.show', $person['id']) }}" class="badge border-history-line bg-paper text-history hover:border-history">{{ $person['name'] }}</a></li>
                             @endforeach
                         </ul>
                     @endif
+                </div>
+            @endif
+
+            @if ($related->isNotEmpty())
+                <div class="card p-5">
+                    <p class="eyebrow">Verwant in andere domeinen</p>
+                    <ul class="mt-3 space-y-3 text-sm">
+                        @foreach ($related as $item)
+                            <li>
+                                <a href="{{ route('module.show', ['domain' => $item['domain']['id'], 'module' => $item['module']->slug]) }}" class="flex items-start gap-2 link">
+                                    <x-domain-monogram :domain="$item['domain']" size="xs" class="mt-0.5" />
+                                    <span>{{ $item['domain']['name'] }}: {{ $item['module']->title }}</span>
+                                </a>
+                                <p class="mt-0.5 pl-7 text-xs text-muted">Via {{ implode(', ', $item['via']) }}</p>
+                            </li>
+                        @endforeach
+                    </ul>
                 </div>
             @endif
 

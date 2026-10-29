@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 // De kaart van menselijke kennis is de startpagina; elk domein heeft zijn eigen pagina's onder /kennis/{domein}.
 Route::get('/', [DomainController::class, 'index'])->name('domains.index');
 Route::get('/zoeken', [LibraryController::class, 'searchAll'])->name('search.all');
+Route::get('/tijdlijn', [HistoryController::class, 'all'])->name('history.all');
 
 Route::prefix('kennis/{domain}')->where(['domain' => '[a-z0-9-]+'])->group(function () {
     Route::middleware(ResolveDomain::class)->group(function () {
@@ -44,8 +45,8 @@ Route::prefix('kennis/{domain}')->where(['domain' => '[a-z0-9-]+'])->group(funct
         Route::get('/voortgang', [ProgressController::class, 'index'])->name('progress.index');
 
         Route::get('/tijdlijn', [HistoryController::class, 'index'])->name('history.index');
-        Route::get('/personen', [HistoryController::class, 'mathematicians'])->name('mathematicians.index');
-        Route::get('/personen/{mathematician}', [HistoryController::class, 'mathematician'])->name('mathematicians.show');
+        Route::get('/personen', [HistoryController::class, 'people'])->name('people.index');
+        Route::get('/personen/{person}', [HistoryController::class, 'person'])->name('people.show');
 
         Route::get('/begrippen', [LibraryController::class, 'glossary'])->name('glossary');
         Route::get('/formules', [LibraryController::class, 'formulas'])->name('formulas');
