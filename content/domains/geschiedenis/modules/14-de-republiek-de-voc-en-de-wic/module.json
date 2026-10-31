@@ -3,10 +3,10 @@
   "slug": "de-republiek-de-voc-en-de-wic",
   "title": "De Republiek, de VOC en de WIC",
   "part": 5,
-  "status": "planned",
+  "status": "available",
   "historical_period": "Ca. 1588 – 1795",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 200,
   "prerequisites": [
     1
   ],
@@ -17,5 +17,137 @@
   ],
   "core_question": "Hoe werd een kleine republiek een wereldmacht, en wie betaalde de prijs?",
   "summary": "De Gouden Eeuw van de Republiek, VOC en WIC, met de trans-Atlantische slavenhandel en het debat over herinnering.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een aandeelbewijs uit Enkhuizen",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "een-republiek-van-steden-en-kooplieden",
+      "title": "Een republiek van steden en kooplieden",
+      "file": "02-een-republiek-van-steden-en-kooplieden.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "de-voc-handel-en-geweld",
+      "title": "De VOC: handel en geweld",
+      "file": "03-de-voc-handel-en-geweld.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "de-wic-en-de-slavernij",
+      "title": "De WIC en de slavernij",
+      "file": "04-de-wic-en-de-slavernij.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "rampjaar-neergang-en-patriotten",
+      "title": "Rampjaar, neergang en patriotten",
+      "file": "05-rampjaar-neergang-en-patriotten.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum: wie droeg de kosten?",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen hoe het bestuur van de Republiek was ingericht en waarom een federatie van steden slagvaardig kon zijn.",
+    "Je kunt de economische bloei van Amsterdam verklaren uit stapelmarkt, moedernegotie, Wisselbank en migratie, en de aard van de tolerantie beoordelen.",
+    "Je kunt de oprichting en werking van de VOC verklaren met lange- en kortetermijnoorzaken, en de rol van geweld en Aziatische perspectieven beschrijven.",
+    "Je kunt de rol van de WIC in de slavenhandel sober en met de juiste mate van zekerheid in de getallen beschrijven, en het verzet van tot slaaf gemaakten noemen.",
+    "Je kunt het Rampjaar, de relatieve neergang en de kritiek van de patriotten in de 18e eeuw wegen als continuïteit en verandering.",
+    "Je kunt de standpunten van historici over de term Gouden Eeuw, de eerste moderne economie en de betekenis van de slavernij vergelijken.",
+    "Je kunt bronnen uit verschillende perspectieven naast elkaar leggen en een onderbouwde conclusie formuleren met de juiste mate van zekerheid."
+  ],
+  "glossary": [
+    {
+      "term": "Staten-Generaal",
+      "definition": "De vergadering in Den Haag van afgevaardigden van de gewesten van de Republiek; ze besloot over oorlog, vrede en buitenlands beleid, maar de gewesten bleven soeverein."
+    },
+    {
+      "term": "Stadhouder",
+      "definition": "Door de gewesten benoemde bevelhebber en bestuurder, meestal uit het huis van Oranje; geen koning."
+    },
+    {
+      "term": "Regent",
+      "definition": "Lid van de stedelijke bestuurselite van kooplieden en families die de vroedschap van een stad vormde."
+    },
+    {
+      "term": "Octrooi",
+      "definition": "Officiële vergunning met bijzondere rechten, zoals het handelsmonopolie en het recht om oorlog te voeren dat de VOC kreeg."
+    },
+    {
+      "term": "Stapelmarkt",
+      "definition": "Een plaats waar goederen uit vele streken worden aangevoerd, opgeslagen en doorverkocht, zoals Amsterdam."
+    },
+    {
+      "term": "Moedernegotie",
+      "definition": "De Hollandse handel op de Oostzee in graan en hout, het fundament van de Amsterdamse handel."
+    },
+    {
+      "term": "Wisselbank",
+      "definition": "De in 1609 opgerichte Amsterdamse bank die bankgeld uitgaf en zo de verwarring van vele munten wegnam."
+    },
+    {
+      "term": "Tot slaaf gemaakten",
+      "definition": "Zorgvuldige term voor mensen die door anderen tot slaaf werden gemaakt, in plaats van \"slaven\"."
+    },
+    {
+      "term": "Marrons",
+      "definition": "Mensen die uit de slavernij in Suriname vluchtten en in het binnenland eigen gemeenschappen vormden."
+    },
+    {
+      "term": "Rampjaar",
+      "definition": "Het jaar 1672, waarin de Republiek tegelijk door Frankrijk, Engeland, Münster en Keulen werd aangevallen."
+    },
+    {
+      "term": "Herinneringscultuur",
+      "definition": "De manier waarop een samenleving een verleden herdenkt en betwist, bijvoorbeeld met Keti Koti en excuses."
+    }
+  ],
+  "timeline": [
+    "voc-opgericht-1602",
+    "voc-aandeel-enkhuizen-1606",
+    "wisselbank-1609",
+    "twaalfjarig-bestand-1609",
+    "batavia-gesticht-1619",
+    "wic-opgericht-1621",
+    "banda-verovering-1621",
+    "elmina-veroverd-1637",
+    "deshima-1641",
+    "vrede-van-munster-1648",
+    "rampjaar-1672",
+    "vierde-engelse-oorlog-1780",
+    "tula-opstand-1795",
+    "de-vries-van-der-woude-1997",
+    "amsterdam-museum-gouden-eeuw-2019",
+    "brandon-bosma-slavernij-economie-2019",
+    "excuses-slavernijverleden-2022"
+  ],
+  "people": [
+    "jan-pieterszoon-coen",
+    "johan-de-witt",
+    "willem-iii",
+    "tula",
+    "jonathan-israel",
+    "de-vries-en-van-der-woude",
+    "brandon-en-bosma"
+  ]
 }

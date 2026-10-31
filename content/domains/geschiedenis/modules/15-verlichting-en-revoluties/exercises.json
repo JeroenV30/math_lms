@@ -1,0 +1,1190 @@
+{
+  "exercises": [
+    {
+      "id": "15-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "context": "Kant, *Beantwoording van de vraag: Was ist Aufklärung?* (Berlinische Monatsschrift, december 1784), vrij vertaald: verlichting is de uitweg van de mens uit zijn zelfverschuldigde onmondigheid.",
+      "question": "Wat bedoelt Kant met de 'selbstverschuldete Unmündigkeit' uit zijn essay van 1784?",
+      "choices": [
+        "Het onvermogen je eigen verstand te gebruiken zonder leiding van een ander, door gebrek aan moed en niet aan verstand",
+        "De wettelijke afhankelijkheid van onderdanen van een koning",
+        "Het gebrek aan scholing van het gewone volk",
+        "De dwang van een kerk die het denken verbiedt"
+      ],
+      "answer": "Het onvermogen je eigen verstand te gebruiken zonder leiding van een ander, door gebrek aan moed en niet aan verstand",
+      "hints": [
+        "Let op het woord 'zelfverschuldigd'.",
+        "Kant zegt dat het niet aan verstand ontbreekt."
+      ],
+      "solution": [
+        "Kant noemt de onmondigheid zelfverschuldigd omdat hij de oorzaak niet zoekt in gebrek aan verstand maar in gebrek aan moed en besluitvaardigheid.",
+        "Daarom past alleen het eerste antwoord."
+      ],
+      "feedback": [
+        {
+          "answer": "De wettelijke afhankelijkheid van onderdanen van een koning",
+          "message": "Kant heeft het over een denkhouding, niet over een wettelijke status. Iemand kan ook onder een vrije regering onmondig blijven."
+        },
+        {
+          "answer": "Het gebrek aan scholing van het gewone volk",
+          "message": "Kant benadrukt juist dat het niet aan verstand ontbreekt, maar aan moed."
+        },
+        {
+          "answer": "De dwang van een kerk die het denken verbiedt",
+          "message": "Kant noemt de onmondigheid zelfverschuldigd. Een kerk kan haar in stand houden, maar daar zit niet de kern van zijn betoog."
+        }
+      ],
+      "topics": [
+        "sources",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "15-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom konden boeken die in Frankrijk verboden waren vaak wel in de Republiek verschijnen?",
+      "choices": [
+        "De controle op drukwerk was er minder streng en minder centraal georganiseerd, en de handel leverde winst op",
+        "De Republiek steunde de Franse revolutionairen",
+        "Alle Nederlandse drukkers waren overtuigde Verlichtingsdenkers",
+        "Frankrijk gaf de Republiek toestemming voor deze uitgaven"
+      ],
+      "answer": "De controle op drukwerk was er minder streng en minder centraal georganiseerd, en de handel leverde winst op",
+      "hints": [
+        "Denk aan de motieven van uitgevers in Amsterdam.",
+        "Er was in de jaren 1750 nog geen revolutie."
+      ],
+      "solution": [
+        "De Republiek had geen centrale censuur zoals Frankrijk. Verboden boeken waren bovendien goed verkoopbaar.",
+        "Het motief van veel uitgevers was handel, geen revolutionaire gezindheid."
+      ],
+      "feedback": [
+        {
+          "answer": "De Republiek steunde de Franse revolutionairen",
+          "message": "Dat is anachronistisch: toen de eerste verboden boeken verschenen, bestond de Franse Revolutie nog niet. Het motief was vooral handelswinst."
+        },
+        {
+          "answer": "Alle Nederlandse drukkers waren overtuigde Verlichtingsdenkers",
+          "message": "Dat is een overschatting. Voor veel uitgevers was winst belangrijker dan overtuiging."
+        },
+        {
+          "answer": "Frankrijk gaf de Republiek toestemming voor deze uitgaven",
+          "message": "De boeken waren juist in Frankrijk verboden. Ze werden er illegaal ingevoerd."
+        }
+      ],
+      "topics": [
+        "modern",
+        "causation"
+      ]
+    },
+    {
+      "id": "15-003",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze teksten van de Verlichting in chronologische volgorde, de oudste eerst (de datum van verschijnen bepaalt de volgorde).",
+      "answer": [
+        "Locke publiceert de Two Treatises of Government (1690)",
+        "Montesquieu publiceert De l'esprit des lois (1748)",
+        "Het eerste deel van de Encyclopédie verschijnt (1751)",
+        "Rousseau publiceert Du contrat social (1762)",
+        "Kant schrijft Was ist Aufklärung? (1784)"
+      ],
+      "hints": [
+        "Locke schreef al aan het eind van de 17e eeuw.",
+        "Rousseau en Kant komen als laatste."
+      ],
+      "solution": [
+        "1690, 1748, 1751, 1762, 1784."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Montesquieu publiceert De l'esprit des lois (1748)",
+            "Locke publiceert de Two Treatises of Government (1690)",
+            "Het eerste deel van de Encyclopédie verschijnt (1751)",
+            "Rousseau publiceert Du contrat social (1762)",
+            "Kant schrijft Was ist Aufklärung? (1784)"
+          ],
+          "message": "Locke schreef meer dan zestig jaar vóór Montesquieu. De Engelse revolutie van 1688 ging aan beide vooraf."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "modern"
+      ]
+    },
+    {
+      "id": "15-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een leerling stelt: 'Kants essay uit 1784 bewijst dat de Verlichting tot de Franse Revolutie leidde.' Wat is het sterkste bezwaar?",
+      "choices": [
+        "Het essay pleit voor vrij debat binnen een bestaand gezag en roept niet op tot opstand, dus een verband met 1789 moet apart worden aangetoond",
+        "Een tekst uit 1784 kan niet als bron voor 1789 dienen",
+        "Een primaire bron geeft altijd de bedoeling van de schrijver weer, dus Kant wilde een revolutie",
+        "Kant was geen Verlichtingsdenker"
+      ],
+      "answer": "Het essay pleit voor vrij debat binnen een bestaand gezag en roept niet op tot opstand, dus een verband met 1789 moet apart worden aangetoond",
+      "hints": [
+        "Wat zegt Kant over gehoorzamen?",
+        "Dezelfde bron kan voor de ene vraag bruikbaar zijn en voor de andere niet."
+      ],
+      "solution": [
+        "Kant schrijft dat men mag redeneren maar moet gehoorzamen. Dat is geen revolutionair programma.",
+        "Een bron is bruikbaar voor een vraag als ze iets over dat onderwerp zegt. Dat het een primaire bron is, maakt haar niet automatisch bewijs voor alles."
+      ],
+      "feedback": [
+        {
+          "answer": "Een tekst uit 1784 kan niet als bron voor 1789 dienen",
+          "message": "Wel degelijk: ze laat zien wat er in 1784 gedacht en gelezen werd. De vraag is waarvoor ze bruikbaar is."
+        },
+        {
+          "answer": "Een primaire bron geeft altijd de bedoeling van de schrijver weer, dus Kant wilde een revolutie",
+          "message": "Primair betekent niet dat je er alles uit kunt halen. En Kant schrijft juist dat men moet gehoorzamen."
+        },
+        {
+          "answer": "Kant was geen Verlichtingsdenker",
+          "message": "Hij was een van de bekendste. Het bezwaar zit in het trekken van de verkeerde conclusie."
+        }
+      ],
+      "topics": [
+        "sources",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "15-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke omschrijving van de Verlichting past het best bij de les?",
+      "choices": [
+        "Een los netwerk van schrijvers, uitgevers en lezers met onderling verschillende opvattingen",
+        "Een georganiseerde partij met een gezamenlijk revolutionair programma",
+        "Een Franse beweging die buiten Frankrijk nauwelijks bekend was",
+        "Een beweging van de gewone bevolking tegen de adel"
+      ],
+      "answer": "Een los netwerk van schrijvers, uitgevers en lezers met onderling verschillende opvattingen",
+      "hints": [
+        "Denk aan Voltaire, Montesquieu en Rousseau: waren die het over alles eens?"
+      ],
+      "solution": [
+        "De Verlichting was een lange reeks gesprekken, geen partij en geen eenheid."
+      ],
+      "feedback": [
+        {
+          "answer": "Een georganiseerde partij met een gezamenlijk revolutionair programma",
+          "message": "De Verlichtingsdenkers hadden geen gezamenlijk programma en waren het vaak oneens."
+        },
+        {
+          "answer": "Een Franse beweging die buiten Frankrijk nauwelijks bekend was",
+          "message": "Locke, Kant en de uitgevers in de Republiek laten zien dat de Verlichting internationaal was."
+        },
+        {
+          "answer": "Een beweging van de gewone bevolking tegen de adel",
+          "message": "De Verlichting werd gedragen door een lezend publiek van edelen, burgers en geestelijken, niet door een volksbeweging."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "modern"
+      ]
+    },
+    {
+      "id": "15-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Het eerste deel van de Encyclopédie verscheen in 1751 en de laatste delen in 1772. Hoeveel jaar zit er tussen die twee jaartallen?",
+      "answer": 21,
+      "unit": "jaar",
+      "hints": [
+        "Trek de twee jaartallen van elkaar af."
+      ],
+      "solution": [
+        "1772 - 1751 = 21 jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 22,
+          "message": "Je hebt beide jaren meegeteld. Het verschil tussen twee jaartallen is 21."
+        },
+        {
+          "answer": 20,
+          "message": "Reken opnieuw: 1772 min 1751."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "15-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "context": "Olympe de Gouges, *Déclaration des droits de la femme et de la citoyenne* (1791), artikel 10, vrij vertaald: een vrouw heeft het recht het schavot te beklimmen; ze moet ook het recht hebben de spreekstoel te beklimmen.",
+      "question": "Wat laat dit fragment zien over de grenzen van de Verlichting?",
+      "choices": [
+        "De beginselen van vrijheid en gelijkheid konden anders worden toegepast dan de mannelijke auteurs en afgevaardigden bedoelden",
+        "In 1791 waren vrouwen in Frankrijk al volledig gelijk voor de wet",
+        "Olympe de Gouges wees de beginselen van de Verlichting af",
+        "De Verlichting bestond alleen in salons"
+      ],
+      "answer": "De beginselen van vrijheid en gelijkheid konden anders worden toegepast dan de mannelijke auteurs en afgevaardigden bedoelden",
+      "hints": [
+        "Waarom schrijft ze dit artikel op?",
+        "Denk aan wie niet in de tekst van 1789 voorkomt."
+      ],
+      "solution": [
+        "De Gouges neemt de vorm van de Verklaring van 1789 over om te laten zien dat vrouwen erin ontbreken.",
+        "Daaruit volgt dat dezelfde beginselen door anderen verder werden getrokken."
+      ],
+      "feedback": [
+        {
+          "answer": "In 1791 waren vrouwen in Frankrijk al volledig gelijk voor de wet",
+          "message": "Dat is anachronistisch en onjuist: ze eiste juist wat er nog niet was."
+        },
+        {
+          "answer": "Olympe de Gouges wees de beginselen van de Verlichting af",
+          "message": "Ze beriep zich er juist op en gebruikte ze als argument."
+        },
+        {
+          "answer": "De Verlichting bestond alleen in salons",
+          "message": "Salons waren één plek. Er waren ook tijdschriften, koffiehuizen, genootschappen en drukkerijen."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "modern"
+      ]
+    },
+    {
+      "id": "15-008",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Leg uit waarom de Verlichting beter als een netwerk dan als een school kan worden beschreven. Gebruik minstens twee voorbeelden.",
+      "answer": "Netwerk: mensen die elkaar vaak niet kenden, verspreid over Europa, verbonden door boeken, tijdschriften, salons en uitgevers; geen gedeeld programma; verschillende opvattingen (Voltaire, Montesquieu, Rousseau, Kant).",
+      "hints": [
+        "Waren Voltaire en Rousseau het eens?",
+        "Welke plaatsen en media verbonden hen?"
+      ],
+      "solution": [
+        "Een goed antwoord noemt dat de denkers het onderling oneens waren (Voltaire gaf de voorkeur aan een verlicht vorst, Rousseau sprak over de algemene wil, Montesquieu over scheiding van machten) en dat ze verbonden waren via plaatsen en media: salons, koffiehuizen, de Encyclopédie, uitgevers als Marc-Michel Rey in Amsterdam. Een school zou een gezamenlijke leer en leraren hebben."
+      ],
+      "topics": [
+        "modern",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "15-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "context": "Onafhankelijkheidsverklaring (4 juli 1776), vrij vertaald: wij houden deze waarheden voor vanzelfsprekend, dat alle mensen gelijk geschapen zijn. Verderop in de tekst klaagt het Congres dat de koning 'belastingen op ons legt zonder onze toestemming'.",
+      "question": "De Onafhankelijkheidsverklaring van 1776 bevat een algemeen beginsel en daarna een lange lijst klachten tegen de koning. Wat zegt die opbouw?",
+      "choices": [
+        "De opstellers rechtvaardigden hun besluit met zowel een algemeen beginsel als concrete grieven",
+        "De ideeën deden er voor de opstellers niet toe",
+        "De klachten zijn later toegevoegd door de Britse koning",
+        "De tekst was alleen voor de kolonisten zelf bedoeld"
+      ],
+      "answer": "De opstellers rechtvaardigden hun besluit met zowel een algemeen beginsel als concrete grieven",
+      "hints": [
+        "Denk aan het publiek in Europa dat de kolonisten wilden overtuigen."
+      ],
+      "solution": [
+        "De verklaring is opgebouwd als een juridisch betoog: beginsel, bewijs van schending en conclusie. Ideeën en omstandigheden komen er allebei in voor."
+      ],
+      "feedback": [
+        {
+          "answer": "De ideeën deden er voor de opstellers niet toe",
+          "message": "Het openingsbeginsel is juist de basis van het betoog."
+        },
+        {
+          "answer": "De klachten zijn later toegevoegd door de Britse koning",
+          "message": "De klachten zijn van de opstellers zelf. De koning is er het doelwit van."
+        },
+        {
+          "answer": "De tekst was alleen voor de kolonisten zelf bedoeld",
+          "message": "De tekst was ook bedoeld om buitenlandse mogendheden te overtuigen, in de eerste plaats Frankrijk."
+        }
+      ],
+      "topics": [
+        "sources",
+        "causation"
+      ]
+    },
+    {
+      "id": "15-010",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "De Stamp Act legt een belasting op gedrukte stukken (1765)",
+        "De Boston Tea Party (1773)",
+        "Het Congres neemt de Onafhankelijkheidsverklaring aan (1776)",
+        "Het beleg van Yorktown (1781)",
+        "De grondwet van de Verenigde Staten wordt ondertekend (1787)"
+      ],
+      "hints": [
+        "Begin bij het belastinggeschil.",
+        "De verklaring komt vóór het einde van de oorlog."
+      ],
+      "solution": [
+        "1765, 1773, 1776, 1781, 1787."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "De Boston Tea Party (1773)",
+            "De Stamp Act legt een belasting op gedrukte stukken (1765)",
+            "Het Congres neemt de Onafhankelijkheidsverklaring aan (1776)",
+            "Het beleg van Yorktown (1781)",
+            "De grondwet van de Verenigde Staten wordt ondertekend (1787)"
+          ],
+          "message": "De Stamp Act ging acht jaar vooraf aan de Boston Tea Party."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "modern"
+      ]
+    },
+    {
+      "id": "15-011",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Waarom erkende de Staten-Generaal op 19 april 1782 de Verenigde Staten?",
+      "choices": [
+        "Vooral uit handels- en oorlogsbelang: de Republiek lag sinds eind 1780 in oorlog met Groot-Brittannië en wilde zaken doen met de nieuwe staat",
+        "Omdat de Staten-Generaal de beginselen van de revolutie deelde",
+        "Omdat Frankrijk de Republiek in 1782 had veroverd",
+        "Omdat Groot-Brittannië erom had gevraagd"
+      ],
+      "answer": "Vooral uit handels- en oorlogsbelang: de Republiek lag sinds eind 1780 in oorlog met Groot-Brittannië en wilde zaken doen met de nieuwe staat",
+      "hints": [
+        "Welke oorlog speelde er in 1782 voor de Republiek?"
+      ],
+      "solution": [
+        "De erkenning kwam voort uit belangen. Dat sommige patriotten sympathie hadden voor de Amerikanen was daarnaast aanwezig, maar niet de reden van het besluit."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat de Staten-Generaal de beginselen van de revolutie deelde",
+          "message": "De Staten-Generaal was een conservatief bestuur van regenten. Het besluit werd genomen uit oorlogs- en handelsbelang."
+        },
+        {
+          "answer": "Omdat Frankrijk de Republiek in 1782 had veroverd",
+          "message": "Dat gebeurde pas in 1795. In 1782 was Frankrijk een bondgenoot van de Amerikanen."
+        },
+        {
+          "answer": "Omdat Groot-Brittannië erom had gevraagd",
+          "message": "Groot-Brittannië was juist de tegenstander van beide."
+        }
+      ],
+      "topics": [
+        "causation",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "15-012",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "De Onafhankelijkheidsverklaring dateert van 1776 en de grondwet van de Verenigde Staten werd ondertekend in 1787. Hoeveel jaar zit daartussen?",
+      "answer": 11,
+      "unit": "jaar",
+      "hints": [
+        "Trek 1776 af van 1787."
+      ],
+      "solution": [
+        "1787 - 1776 = 11 jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Reken nog eens na."
+        },
+        {
+          "answer": 12,
+          "message": "Reken nog eens na."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "15-013",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke uitspraak over de Onafhankelijkheidsverklaring van 1776 is onjuist of anachronistisch?",
+      "choices": [
+        "Met 'alle mensen zijn gelijk geschapen' bedoelden de opstellers dat ook tot slaaf gemaakten vrij moesten worden",
+        "De verklaring bevat een lijst klachten tegen koning George III",
+        "Het Congres schrapte uit het ontwerp een passage over de slavenhandel",
+        "In 1790 werden in de Verenigde Staten bijna 700.000 tot slaaf gemaakten geteld"
+      ],
+      "answer": "Met 'alle mensen zijn gelijk geschapen' bedoelden de opstellers dat ook tot slaaf gemaakten vrij moesten worden",
+      "hints": [
+        "Drie van de vier uitspraken zijn juist. Welke leest het heden terug in 1776?"
+      ],
+      "solution": [
+        "Jefferson was zelf eigenaar van tot slaaf gemaakten en het Congres schrapte een passage over slavenhandel. Het beginsel was algemeen geformuleerd, de toepassing niet."
+      ],
+      "feedback": [
+        {
+          "answer": "De verklaring bevat een lijst klachten tegen koning George III",
+          "message": "Dat is juist. Je zoekt de uitspraak die onjuist is."
+        },
+        {
+          "answer": "Het Congres schrapte uit het ontwerp een passage over de slavenhandel",
+          "message": "Dat is juist. Je zoekt de uitspraak die onjuist is."
+        },
+        {
+          "answer": "In 1790 werden in de Verenigde Staten bijna 700.000 tot slaaf gemaakten geteld",
+          "message": "Dat is juist. Je zoekt de uitspraak die onjuist is."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "15-014",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wegen ideeën of omstandigheden zwaarder bij het uitbreken van de Amerikaanse opstand in 1775? Beargumenteer, met minstens één omstandigheid en één idee.",
+      "answer": "Omstandigheden: schuld na de Zevenjarige Oorlog, belastingen zonder vertegenwoordiging, dwangmaatregelen. Ideeën: gezag op instemming (Locke), rechtvaardiging van de opstand. Conclusie: ideeën waren noodzakelijk als rechtvaardiging, maar zonder het belastinggeschil was er geen opstand.",
+      "hints": [
+        "Scheid lange en korte termijn.",
+        "Wat gebeurt er als je de belasting wegdenkt?"
+      ],
+      "solution": [
+        "Een goed antwoord noemt de Britse schuld en de belastingen als concrete aanleiding, wijst op het zelfbestuur van de kolonies als langetermijnfactor, en erkent dat de ideeën de taal en rechtvaardiging leverden. De conclusie moet beredeneerd en niet overdreven zeker zijn."
+      ],
+      "topics": [
+        "causation",
+        "modern"
+      ]
+    },
+    {
+      "id": "15-015",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze stappen op weg naar de Franse Revolutie van 1789 in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Notabelen weigeren het plan van Calonne (1787)",
+        "De koning kondigt de Staten-Generaal aan (augustus 1788)",
+        "De Staten-Generaal komen bijeen in Versailles (5 mei 1789)",
+        "De derde stand noemt zich Nationale Vergadering (17 juni 1789)",
+        "De Bastille valt (14 juli 1789)",
+        "De Verklaring van de rechten van de mens wordt aangenomen (26 augustus 1789)"
+      ],
+      "hints": [
+        "Begin bij de financiële crisis."
+      ],
+      "solution": [
+        "1787, 1788, 5 mei 1789, 17 juni 1789, 14 juli 1789, 26 augustus 1789."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "De koning kondigt de Staten-Generaal aan (augustus 1788)",
+            "Notabelen weigeren het plan van Calonne (1787)",
+            "De Staten-Generaal komen bijeen in Versailles (5 mei 1789)",
+            "De derde stand noemt zich Nationale Vergadering (17 juni 1789)",
+            "De Bastille valt (14 juli 1789)",
+            "De Verklaring van de rechten van de mens wordt aangenomen (26 augustus 1789)"
+          ],
+          "message": "De weigering van de notabelen in 1787 ging vooraf aan de aankondiging van 1788."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "modern"
+      ]
+    },
+    {
+      "id": "15-016",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Verklaring van de rechten van de mens en de burger (1789), artikel 3, vrij vertaald: het beginsel van alle soevereiniteit berust in wezen bij de natie.",
+      "question": "Tegen welk bestaand beginsel richt zich vooral deze zin uit de Verklaring van 1789?",
+      "choices": [
+        "Dat de koning zijn gezag ontleende aan God en traditie, en niet aan de natie",
+        "Dat de derde stand belasting moest betalen",
+        "Dat Frankrijk een republiek moest worden",
+        "Dat de geestelijkheid haar land moest afstaan"
+      ],
+      "answer": "Dat de koning zijn gezag ontleende aan God en traditie, en niet aan de natie",
+      "hints": [
+        "Wie krijgt volgens de zin het gezag?"
+      ],
+      "solution": [
+        "De zin legt de soevereiniteit bij de natie, en niet bij de koning of de standen."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat de derde stand belasting moest betalen",
+          "message": "Dat is een kwestie van belastingen. De zin gaat over de herkomst van gezag."
+        },
+        {
+          "answer": "Dat Frankrijk een republiek moest worden",
+          "message": "In 1789 en in de grondwet van 1791 bleef de koning. De republiek kwam pas in 1792."
+        },
+        {
+          "answer": "Dat de geestelijkheid haar land moest afstaan",
+          "message": "Dat is een apart besluit van later in 1789, geen onderdeel van deze zin."
+        }
+      ],
+      "topics": [
+        "sources",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "15-017",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een medeleerling zegt: 'De Franse Revolutie is veroorzaakt door de boeken van Voltaire en Rousseau.' Wat is het beste antwoord?",
+      "choices": [
+        "Dat is te eenzijdig: staatsschuld, oogst en politieke besluiten waren minstens zo nodig, en het effect van boeken is moeilijk aan te tonen",
+        "Dat klopt, want de Verklaring gebruikt de woorden 'algemene wil'",
+        "Dat klopt niet, want Voltaire en Rousseau waren in 1778 al overleden",
+        "Dat klopt niet, want de revolutie had alleen economische oorzaken"
+      ],
+      "answer": "Dat is te eenzijdig: staatsschuld, oogst en politieke besluiten waren minstens zo nodig, en het effect van boeken is moeilijk aan te tonen",
+      "hints": [
+        "Zoek het antwoord dat zowel monocausaal denken afwijst als ideeën serieus neemt."
+      ],
+      "solution": [
+        "Een overeenkomst tussen tekst en boek is nog geen bewijs van oorzaak. Daarnaast speelden meerdere factoren een noodzakelijke rol."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat klopt, want de Verklaring gebruikt de woorden 'algemene wil'",
+          "message": "Overeenkomst in woorden bewijst dat de afgevaardigden de ideeën kenden, niet dat die de revolutie veroorzaakten."
+        },
+        {
+          "answer": "Dat klopt niet, want Voltaire en Rousseau waren in 1778 al overleden",
+          "message": "Teksten blijven werken na de dood van hun schrijver. Dit bezwaar is niet steekhoudend."
+        },
+        {
+          "answer": "Dat klopt niet, want de revolutie had alleen economische oorzaken",
+          "message": "Dat is ook monocausaal. Ideeën speelden wel een rol als taal en rechtvaardiging."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "15-018",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom werden in 1789 de Staten-Generaal bijeengeroepen?",
+      "choices": [
+        "De kroon zag geen andere weg om de financiën te hervormen en nieuwe belastingen goedgekeurd te krijgen",
+        "Het volk had om een republiek gevraagd",
+        "De filosofen van de Encyclopédie hadden dat geëist",
+        "Minister Necker wilde een grondwet invoeren"
+      ],
+      "answer": "De kroon zag geen andere weg om de financiën te hervormen en nieuwe belastingen goedgekeurd te krijgen",
+      "hints": [
+        "Denk aan het lot van het plan van Calonne en Brienne."
+      ],
+      "solution": [
+        "Notabelen en Parlement blokkeerden de hervormingen. De Staten-Generaal moest de impasse doorbreken."
+      ],
+      "feedback": [
+        {
+          "answer": "Het volk had om een republiek gevraagd",
+          "message": "In 1789 vroeg vrijwel niemand om een republiek. Het ging om belastingen en vertegenwoordiging."
+        },
+        {
+          "answer": "De filosofen van de Encyclopédie hadden dat geëist",
+          "message": "De aanleiding was een financiële crisis, geen eis van filosofen."
+        },
+        {
+          "answer": "Minister Necker wilde een grondwet invoeren",
+          "message": "Een grondwet kwam pas in de loop van de revolutie."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "15-019",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De Staten-Generaal kwamen op 5 mei 1789 bijeen en de Bastille viel op 14 juli 1789. Hoeveel dagen zitten daartussen?",
+      "answer": 70,
+      "unit": "dagen",
+      "hints": [
+        "Tel de dagen in mei, juni en juli apart."
+      ],
+      "solution": [
+        "Van 5 mei tot 31 mei: 26 dagen. Juni: 30 dagen. Juli tot de 14e: 14 dagen. Samen 26 + 30 + 14 = 70."
+      ],
+      "feedback": [
+        {
+          "answer": 71,
+          "message": "Je hebt een dag te veel geteld, waarschijnlijk door zowel de start- als einddag mee te tellen."
+        },
+        {
+          "answer": 69,
+          "message": "Je hebt een dag te weinig geteld."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "15-020",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat laat de Code civil van 1804 vooral zien over de verhouding tussen revolutie en continuïteit?",
+      "choices": [
+        "Beginselen van 1789 als gelijkheid voor de wet bleven bestaan, terwijl de macht van gezinshoofd en staat werd versterkt",
+        "Een volledige terugkeer naar de oude standenmaatschappij",
+        "Een afwijzing van het eigendomsrecht",
+        "Een wet die alleen in Frankrijk zelf gold"
+      ],
+      "answer": "Beginselen van 1789 als gelijkheid voor de wet bleven bestaan, terwijl de macht van gezinshoofd en staat werd versterkt",
+      "hints": [
+        "Er bleef wat van de revolutie en er veranderde wat."
+      ],
+      "solution": [
+        "De Code civil legde gelijkheid voor de wet en eigendomsrecht vast en schafte feodale privileges af, maar versterkte de positie van de man in het gezin."
+      ],
+      "feedback": [
+        {
+          "answer": "Een volledige terugkeer naar de oude standenmaatschappij",
+          "message": "De feodale privileges bleven afgeschaft."
+        },
+        {
+          "answer": "Een afwijzing van het eigendomsrecht",
+          "message": "Eigendom was juist een kernpunt van de Code civil."
+        },
+        {
+          "answer": "Een wet die alleen in Frankrijk zelf gold",
+          "message": "Het wetboek werd ook ingevoerd in veroverde of verbonden gebieden, onder meer in Nederland in 1811."
+        }
+      ],
+      "topics": [
+        "continuity-change",
+        "modern"
+      ]
+    },
+    {
+      "id": "15-021",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Historici zoeken de oorzaak van de Terreur zowel in ideeën als in de noodtoestand van 1793. Welke verklaring houdt met beide rekening?",
+      "choices": [
+        "De Terreur ontstond onder druk van oorlog en burgeroorlog en werd gerechtvaardigd met beginselen van de revolutie",
+        "De Terreur was de uitkomst van alleen de ideeën van Rousseau",
+        "De Terreur was alleen een gevolg van de oorlog; ideeën speelden geen rol",
+        "De Terreur was de persoonlijke wraak van Robespierre"
+      ],
+      "answer": "De Terreur ontstond onder druk van oorlog en burgeroorlog en werd gerechtvaardigd met beginselen van de revolutie",
+      "hints": [
+        "Zoek het antwoord dat zowel omstandigheden als rechtvaardiging noemt."
+      ],
+      "solution": [
+        "Een verklaring die meerdere lagen combineert, is hier sterker dan een monocausale."
+      ],
+      "feedback": [
+        {
+          "answer": "De Terreur was de uitkomst van alleen de ideeën van Rousseau",
+          "message": "Dat is monocausaal. De oorlog en de burgeroorlog speelden mee."
+        },
+        {
+          "answer": "De Terreur was alleen een gevolg van de oorlog; ideeën speelden geen rol",
+          "message": "Ook dit is monocausaal. De rechtvaardiging verwees naar revolutionaire beginselen."
+        },
+        {
+          "answer": "De Terreur was de persoonlijke wraak van Robespierre",
+          "message": "Robespierre was één van de leidende figuren in een comité. Een verklaring uit één persoon is te beperkt."
+        }
+      ],
+      "topics": [
+        "causation",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "15-022",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Stel dat de oogst van 1788 normaal was geweest. Zou er dan in 1789 toch een revolutie zijn uitgebroken? Beargumenteer met de proef van het ontbrekende ingrediënt en geef aan hoe zeker je conclusie is.",
+      "answer": "Zonder misoogst waren de broodprijzen lager gebleven en had de volksmenigte minder woede gehad. De financiële crisis en de Staten-Generaal bleven bestaan. Waarschijnlijk dus nog een politieke crisis, maar met minder volksgeweld. Conclusie voorzichtig.",
+      "hints": [
+        "Welke onderdelen van de gebeurtenissen hangen af van de oogst?",
+        "Welke niet?"
+      ],
+      "solution": [
+        "Een sterk antwoord scheidt het politieke conflict (financiën, Staten-Generaal) van de volksbeweging (honger, Bastille). Het erkent dat zulke tegenfeitelijke redeneringen nooit bewezen zijn en formuleert de conclusie met voorzichtige woorden als 'waarschijnlijk'."
+      ],
+      "topics": [
+        "causation",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "15-023",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke uitspraak over de Haïtiaanse Revolutie doet recht aan het perspectief van de tot slaaf gemaakten?",
+      "choices": [
+        "Zij handelden zelf, met eigen organisatie en doelen, en gebruikten daarbij onder meer de taal van 1789",
+        "Zij kregen hun vrijheid geschonken door de Nationale Vergadering",
+        "Zij volgden uitsluitend de ideeën van Rousseau",
+        "De opstand was een bijzaak van de Franse Revolutie"
+      ],
+      "answer": "Zij handelden zelf, met eigen organisatie en doelen, en gebruikten daarbij onder meer de taal van 1789",
+      "hints": [
+        "Wie handelde er in augustus 1791?"
+      ],
+      "solution": [
+        "De opstand begon in 1791, de afschaffing door de Conventie volgde in 1794 en was mede een reactie op de opstand."
+      ],
+      "feedback": [
+        {
+          "answer": "Zij kregen hun vrijheid geschonken door de Nationale Vergadering",
+          "message": "De Nationale Vergadering liet de slavernij in 1789 bestaan. De afschaffing van 1794 volgde op de opstand."
+        },
+        {
+          "answer": "Zij volgden uitsluitend de ideeën van Rousseau",
+          "message": "Dat maakt van de tot slaaf gemaakten navolgers van Europese schrijvers en laat hun eigen ervaring en organisatie verdwijnen."
+        },
+        {
+          "answer": "De opstand was een bijzaak van de Franse Revolutie",
+          "message": "De Haïtiaanse Revolutie leidde tot een eigen staat en is een eigen revolutie."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "modern"
+      ]
+    },
+    {
+      "id": "15-024",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Grondwet van Saint-Domingue (1801), artikel 3, vrij vertaald: er kunnen in dit gebied geen slaven bestaan, de slavernij is er voor altijd afgeschaft, en alle mensen worden er vrij en Frans geboren, leven en sterven.",
+      "question": "Wat zegt dit artikel over de verhouding tussen de Franse beginselen en de bestuurders van Saint-Domingue?",
+      "choices": [
+        "Zij namen de universele taal van 1789 serieus en pasten die toe op slavernij",
+        "Zij verwierpen alles wat Frans was",
+        "Zij wilden de slavernij tijdelijk handhaven",
+        "Het artikel is letterlijk overgenomen uit de Franse grondwet"
+      ],
+      "answer": "Zij namen de universele taal van 1789 serieus en pasten die toe op slavernij",
+      "hints": [
+        "Wat zegt het artikel over slavernij, en over de nationaliteit van de vrije mensen?"
+      ],
+      "solution": [
+        "Het artikel schaft de slavernij af en noemt de vrije inwoners Frans. Het gebruikt dus de Franse beginselen in een situatie waar Parijs ze in 1789 niet op toepaste."
+      ],
+      "feedback": [
+        {
+          "answer": "Zij verwierpen alles wat Frans was",
+          "message": "Het artikel noemt alle inwoners juist Frans."
+        },
+        {
+          "answer": "Zij wilden de slavernij tijdelijk handhaven",
+          "message": "Het artikel zegt dat de slavernij voor altijd is afgeschaft."
+        },
+        {
+          "answer": "Het artikel is letterlijk overgenomen uit de Franse grondwet",
+          "message": "De Franse grondwet van 1791 bevatte zo'n bepaling niet."
+        }
+      ],
+      "topics": [
+        "sources",
+        "perspective"
+      ]
+    },
+    {
+      "id": "15-025",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze stappen in de Nederlandse staatsvorming in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Een Pruisisch leger herstelt de stadhouder (1787)",
+        "Franse troepen trekken de Republiek binnen en de Bataafse Republiek ontstaat (1795)",
+        "De Staatsregeling maakt Nederland een eenheidsstaat (1798)",
+        "Lodewijk Napoleon wordt koning van Holland (1806)",
+        "Napoleon lijft het koninkrijk in bij Frankrijk (1810)"
+      ],
+      "hints": [
+        "Begin bij het mislukken van de patriotten."
+      ],
+      "solution": [
+        "1787, 1795, 1798, 1806, 1810."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Franse troepen trekken de Republiek binnen en de Bataafse Republiek ontstaat (1795)",
+            "Een Pruisisch leger herstelt de stadhouder (1787)",
+            "De Staatsregeling maakt Nederland een eenheidsstaat (1798)",
+            "Lodewijk Napoleon wordt koning van Holland (1806)",
+            "Napoleon lijft het koninkrijk in bij Frankrijk (1810)"
+          ],
+          "message": "Het ingrijpen van Pruisen in 1787 kwam acht jaar vóór 1795."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "modern"
+      ]
+    },
+    {
+      "id": "15-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke factor verklaart het best dat de patriotten in 1795 slaagden en in 1787 niet?",
+      "choices": [
+        "In 1795 stond een Frans leger aan hun zijde, in 1787 greep een Pruisisch leger tegen hen in",
+        "In 1795 hadden de patriotten betere ideeën dan in 1787",
+        "In 1795 steunde de stadhouder de patriotten",
+        "In 1795 was er in de Republiek geen verzet meer tegen de revolutie"
+      ],
+      "answer": "In 1795 stond een Frans leger aan hun zijde, in 1787 greep een Pruisisch leger tegen hen in",
+      "hints": [
+        "De ideeën waren in beide jaren dezelfde. Wat was anders?"
+      ],
+      "solution": [
+        "Het verschil zit in de militaire situatie. Ideeën waren voorwaarde, maar niet beslissend."
+      ],
+      "feedback": [
+        {
+          "answer": "In 1795 hadden de patriotten betere ideeën dan in 1787",
+          "message": "De ideeën waren grotendeels dezelfde. Het verschil zat in de militaire steun."
+        },
+        {
+          "answer": "In 1795 steunde de stadhouder de patriotten",
+          "message": "Willem V vluchtte in 1795 naar Engeland."
+        },
+        {
+          "answer": "In 1795 was er in de Republiek geen verzet meer tegen de revolutie",
+          "message": "Er waren nog altijd Oranjegezinden. Het kon pas gelukken door het Franse leger."
+        }
+      ],
+      "topics": [
+        "causation",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "15-027",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Het Koninkrijk Holland werd in 1806 gesticht en in 1810 ingelijfd bij Frankrijk. Hoeveel jaar bestond het?",
+      "answer": 4,
+      "unit": "jaar",
+      "hints": [
+        "Trek 1806 af van 1810."
+      ],
+      "solution": [
+        "1810 - 1806 = 4 jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Het gaat om het verschil tussen twee jaartallen."
+        },
+        {
+          "answer": 3,
+          "message": "Reken nog eens na."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "15-028",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Je kunt de Bataafse Revolutie van 1795 een revolutie 'van binnenuit' of 'van buitenaf' noemen. Weeg de twee beschrijvingen en kom tot een onderbouwde conclusie.",
+      "answer": "Van binnenuit: patriotten met een eigen beweging sinds de jaren 1780, pamfletten, vrijkorpsen. Van buitenaf: het Franse leger, rivieren bevroren, 1787 had laten zien dat de patriotten zonder militaire steun faalden. Conclusie: beide nodig; zonder Frankrijk waarschijnlijk geen omwenteling in 1795.",
+      "hints": [
+        "Wie wilde het bestuur veranderen?",
+        "Wie kon het veranderen?"
+      ],
+      "solution": [
+        "Een goed antwoord noemt de patriotten en hun eigen geschiedenis (1781, 1787) en de beslissende Franse militaire steun in 1795. Het combineert die twee tot een weging en geeft aan hoe zeker de conclusie is."
+      ],
+      "topics": [
+        "causation",
+        "perspective"
+      ]
+    },
+    {
+      "id": "15-029",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat was het kernbezwaar van de Britse historicus Alfred Cobban tegen de marxistische interpretatie van de Franse Revolutie?",
+      "choices": [
+        "De afgevaardigden van de derde stand waren grotendeels juristen en ambtenaren en geen kapitalistische ondernemers, dus een klassenstrijd tegen de adel past slecht bij de bronnen",
+        "De revolutie had helemaal niet plaatsgevonden",
+        "Ideeën waren de enige oorzaak van de revolutie",
+        "Lefebvre en Soboul gebruikten geen archieven"
+      ],
+      "answer": "De afgevaardigden van de derde stand waren grotendeels juristen en ambtenaren en geen kapitalistische ondernemers, dus een klassenstrijd tegen de adel past slecht bij de bronnen",
+      "hints": [
+        "Cobban rekende na wie de afgevaardigden waren."
+      ],
+      "solution": [
+        "Cobban betwistte dat de burgerij een kapitalistische klasse was die tegenover de adel stond."
+      ],
+      "feedback": [
+        {
+          "answer": "De revolutie had helemaal niet plaatsgevonden",
+          "message": "Cobban betwistte de interpretatie, niet de gebeurtenis."
+        },
+        {
+          "answer": "Ideeën waren de enige oorzaak van de revolutie",
+          "message": "Cobban verving de sociale verklaring niet door een enkelvoudige verklaring met ideeën."
+        },
+        {
+          "answer": "Lefebvre en Soboul gebruikten geen archieven",
+          "message": "Beiden werkten uitgebreid in archieven. Het bezwaar ging over de interpretatie."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "15-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de verrassende bevinding van Robert Darnton over de verboden boeken van vóór 1789?",
+      "choices": [
+        "Naast filosofische werken was er veel vraag naar schotschriften, pornografische romans en roddel over het hof",
+        "De werken van Rousseau en Voltaire werden het meest gesmokkeld",
+        "Er werden nauwelijks verboden boeken gelezen",
+        "De boeken uit de Republiek bereikten Frankrijk niet"
+      ],
+      "answer": "Naast filosofische werken was er veel vraag naar schotschriften, pornografische romans en roddel over het hof",
+      "hints": [
+        "Darnton keek naar bestellijsten van een Zwitserse uitgeverij."
+      ],
+      "solution": [
+        "Darnton liet zien dat 'verboden' lectuur vaak scandaleus was en gezag ondermijnde, niet alleen filosofisch."
+      ],
+      "feedback": [
+        {
+          "answer": "De werken van Rousseau en Voltaire werden het meest gesmokkeld",
+          "message": "Juist niet: de klassieke Verlichtingsteksten waren niet de grootste verkopers."
+        },
+        {
+          "answer": "Er werden nauwelijks verboden boeken gelezen",
+          "message": "Er was juist een omvangrijke illegale handel."
+        },
+        {
+          "answer": "De boeken uit de Republiek bereikten Frankrijk niet",
+          "message": "Veel illegale boeken kwamen via drukkers buiten Frankrijk, onder meer in de Republiek en Zwitserland, het land binnen."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "sources"
+      ]
+    },
+    {
+      "id": "15-031",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom komen historici als Lefebvre, Cobban en Darnton tot verschillende verklaringen van de Franse Revolutie? Noem minstens twee redenen.",
+      "answer": "Ze stellen een andere vraag (welke groep won, klopt dat beeld, wat las men), gebruiken andere bronnen (sociale gegevens, beroepen, handelsarchieven), schrijven in een andere tijd en context, en leggen het zwaartepunt bij een ander soort oorzaak.",
+      "hints": [
+        "Denk aan: vraag, bronnen, tijd waarin ze schreven."
+      ],
+      "solution": [
+        "Een goed antwoord noemt het verschil in vraag en bronnen en eventueel de tijd waarin ze schreven. Het erkent dat de verklaringen elkaar deels aanvullen."
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "15-032",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Verklaring van de rechten van de mens en de burger (1789), artikel 1, vrij vertaald: mensen worden vrij en gelijk in rechten geboren en blijven dat; sociale onderscheidingen kunnen alleen op het algemeen nut worden gegrond.",
+      "question": "Wat zegt deze bron over wie als 'mens' en 'burger' wordt meegeteld, en wat zegt ze niet?",
+      "choices": [
+        "Ze noemt mensen vrij en gelijk in rechten, maar zegt niet uitdrukkelijk of vrouwen en tot slaaf gemaakten daaronder vallen",
+        "Ze schaft de slavernij af",
+        "Ze geeft vrouwen stemrecht",
+        "Ze noemt alleen de adel"
+      ],
+      "answer": "Ze noemt mensen vrij en gelijk in rechten, maar zegt niet uitdrukkelijk of vrouwen en tot slaaf gemaakten daaronder vallen",
+      "hints": [
+        "Lees alleen wat er staat."
+      ],
+      "solution": [
+        "De tekst is algemeen geformuleerd en laat de toepassing open."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze schaft de slavernij af",
+          "message": "De slavernij werd in de Franse koloniën pas in 1794 afgeschaft, door een ander besluit."
+        },
+        {
+          "answer": "Ze geeft vrouwen stemrecht",
+          "message": "Dat staat er niet. Vrouwen kregen in Frankrijk pas in 1944 stemrecht."
+        },
+        {
+          "answer": "Ze noemt alleen de adel",
+          "message": "Het artikel noemt mensen in het algemeen."
+        }
+      ],
+      "topics": [
+        "sources",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "15-033",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Olympe de Gouges, *Déclaration des droits de la femme et de la citoyenne* (1791), artikel 10, vrij vertaald: een vrouw heeft het recht het schavot te beklimmen; ze moet ook het recht hebben de spreekstoel te beklimmen, mits haar uitingen de bij wet gevestigde openbare orde niet verstoren.",
+      "question": "Wat doet Olympe de Gouges in dit fragment met de Verklaring van 1789?",
+      "choices": [
+        "Ze neemt de vorm van de Verklaring over en gebruikt die om een groep te noemen die erin ontbreekt",
+        "Ze wijst de Verklaring af als onbruikbaar",
+        "Ze schrijft de Verklaring voor de koningin om",
+        "Ze verklaart dat vrouwen al dezelfde rechten hadden"
+      ],
+      "answer": "Ze neemt de vorm van de Verklaring over en gebruikt die om een groep te noemen die erin ontbreekt",
+      "hints": [
+        "Let op hoe haar titel op die van 1789 lijkt."
+      ],
+      "solution": [
+        "Haar titel en opbouw volgen de Verklaring van 1789, maar de inhoud richt zich op vrouwen."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze wijst de Verklaring af als onbruikbaar",
+          "message": "Ze gebruikt haar juist als model."
+        },
+        {
+          "answer": "Ze schrijft de Verklaring voor de koningin om",
+          "message": "Ze draagt haar tekst op aan de koningin, maar schrijft een eigen verklaring."
+        },
+        {
+          "answer": "Ze verklaart dat vrouwen al dezelfde rechten hadden",
+          "message": "Ze eist iets wat vrouwen nog niet hadden."
+        }
+      ],
+      "topics": [
+        "sources",
+        "perspective"
+      ]
+    },
+    {
+      "id": "15-034",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "context": "Grondwet van Saint-Domingue (1801), artikel 3, vrij vertaald: er kunnen in dit gebied geen slaven bestaan, de slavernij is er voor altijd afgeschaft, en alle mensen worden er vrij en Frans geboren, leven en sterven.",
+      "question": "Hoe verhoudt dit artikel uit 1801 zich tot de Verklaring van 1789?",
+      "choices": [
+        "Het past hetzelfde beginsel toe op tot slaaf gemaakten, waar de Verklaring zwijgt, maar komt uit een andere situatie en van andere auteurs",
+        "Het bewijst dat de Nationale Vergadering de slavernij in 1789 afschafte",
+        "Het is de Franse tekst zelf",
+        "Het bewijst dat alle inwoners van Saint-Domingue het eens waren"
+      ],
+      "answer": "Het past hetzelfde beginsel toe op tot slaaf gemaakten, waar de Verklaring zwijgt, maar komt uit een andere situatie en van andere auteurs",
+      "hints": [
+        "Let op de herkomst: wie schreef dit en waar?"
+      ],
+      "solution": [
+        "Een vergelijking van bronnen begint bij herkomst en doel, en vraagt dan wat ze delen en waarin ze verschillen."
+      ],
+      "feedback": [
+        {
+          "answer": "Het bewijst dat de Nationale Vergadering de slavernij in 1789 afschafte",
+          "message": "De slavernij werd in 1794 door de Conventie afgeschaft."
+        },
+        {
+          "answer": "Het is de Franse tekst zelf",
+          "message": "Het is een grondwet van de kolonie, opgesteld onder leiding van Toussaint Louverture."
+        },
+        {
+          "answer": "Het bewijst dat alle inwoners van Saint-Domingue het eens waren",
+          "message": "Eén artikel bewijst niet wat de hele bevolking dacht."
+        }
+      ],
+      "topics": [
+        "sources",
+        "perspective"
+      ]
+    },
+    {
+      "id": "15-035",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Hoe universeel waren de beginselen van 1789 voor de mensen die zich erop beriepen? Gebruik de drie bronnen (Verklaring 1789, De Gouges 1791, grondwet Saint-Domingue 1801) en geef aan wat ze wel en niet bewijzen.",
+      "answer": "De bronnen tonen dat het beginsel 'vrij en gelijk' in korte tijd door verschillende groepen werd uitgebreid (vrouwen, tot slaaf gemaakten). Ze bewijzen niet wat de meeste mensen dachten, noch dat de uitbreiding algemeen werd aanvaard. Conclusie: het beginsel was algemeen geformuleerd en werd van onderaf en elders verder getrokken, met matige zekerheid.",
+      "hints": [
+        "Begin met de herkomst van elke bron.",
+        "Wat zeggen ze niet?"
+      ],
+      "solution": [
+        "Een sterk antwoord start met herkomst (wie, wanneer, voor wie), vergelijkt de drie teksten, noemt wat ze niet bewijzen (representativiteit) en eindigt met een voorzichtige conclusie."
+      ],
+      "topics": [
+        "sources",
+        "interpretation",
+        "perspective"
+      ]
+    }
+  ]
+}

@@ -9,6 +9,9 @@ Dit script voegt die samen en verwijdert daarna de additions.json.
 
 Bestaande id's worden niet overschreven: een dubbel id wordt gemeld en overgeslagen,
 behalve dat de lijst `modules` van een bestaand item wordt aangevuld.
+
+Daarna krijgt elke gebeurtenis en persoon waarnaar een module.json verwijst (timeline,
+people) die module in haar lijst `modules`, ook als er geen additions.json was.
 """
 
 import json
@@ -46,6 +49,21 @@ def merge_items(existing: list, new: list, kind: str, source: str) -> int:
     return added
 
 
+def link_modules(course_dir: Path, items: list, field: str, kind: str) -> bool:
+    """Zet elke module die naar een item verwijst in de lijst `modules` van dat item."""
+    by_id = {item['id']: item for item in items}
+    changed = False
+    for path in sorted(course_dir.glob('modules/*/module.json')):
+        module = load(path, {})
+        for item_id in module.get(field, []):
+            item = by_id.get(item_id)
+            if item is not None and module['id'] not in item.setdefault('modules', []):
+                item['modules'] = sorted(item['modules'] + [module['id']])
+                print(f'  {kind} {item_id}: module {module["id"]} toegevoegd')
+                changed = True
+    return changed
+
+
 def main() -> int:
     if len(sys.argv) < 2:
         print(__doc__)
@@ -78,8 +96,11 @@ def main() -> int:
                 topics += 1
         print(f'{source}: {events} gebeurtenissen, {persons} personen, {topics} onderwerpen')
 
-    if not files:
-        print('Geen additions.json gevonden.')
+    linked = link_modules(course_dir, timeline['events'], 'timeline', 'gebeurtenis')
+    linked = link_modules(course_dir, people[people_key], 'people', 'persoon') or linked
+
+    if not files and not linked:
+        print('Geen additions.json gevonden, en alle verwijzingen kloppen al.')
         return 0
 
     if dry_run:

@@ -1,0 +1,1066 @@
+{
+  "exercises": [
+    {
+      "id": "16-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Waarom is bevolkingsgroei op zichzelf een zwakke verklaring voor het begin van de industrialisatie in Engeland?",
+      "choices": [
+        "Omdat de bevolking van Engeland in de 18e eeuw juist kromp",
+        "Omdat de bevolking ook in veel andere landen groeide, dus ze verklaart niet wat Engeland onderscheidde",
+        "Omdat bevolkingsgroei geen enkele invloed heeft op een economie",
+        "Omdat historici bevolkingsgroei nooit als factor noemen"
+      ],
+      "answer": "Omdat de bevolking ook in veel andere landen groeide, dus ze verklaart niet wat Engeland onderscheidde",
+      "hints": [
+        "Een vergelijkende vraag zoekt iets dat Engeland onderscheidde van andere landen."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Omdat de bevolking ook in veel andere landen groeide, dus ze verklaart niet wat Engeland onderscheidde"
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat de bevolking van Engeland in de 18e eeuw juist kromp",
+          "message": "De Engelse bevolking groeide sterk, bijna verdrievoudigd tussen 1750 en 1850."
+        },
+        {
+          "answer": "Omdat bevolkingsgroei geen enkele invloed heeft op een economie",
+          "message": "Bevolkingsgroei levert wel arbeiders en vraag; het punt is dat zij niet onderscheidend is."
+        },
+        {
+          "answer": "Omdat historici bevolkingsgroei nooit als factor noemen",
+          "message": "Veel historici noemen haar wel, alleen niet als enige verklaring."
+        }
+      ]
+    },
+    {
+      "id": "16-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Volgens Robert Allen loonde mechanisatie in Engeland sneller dan elders. Waarom?",
+      "choices": [
+        "De Engelsen waren inventiever dan andere volkeren",
+        "De lonen waren laag, zodat er veel goedkope arbeiders waren",
+        "Arbeid was er duur en energie (steenkool) goedkoop, dus machines die arbeid bespaarden loonden",
+        "De staat betaalde de machines"
+      ],
+      "answer": "Arbeid was er duur en energie (steenkool) goedkoop, dus machines die arbeid bespaarden loonden",
+      "hints": [
+        "Vergelijk de kosten van arbeid en van energie in Engeland met die in Frankrijk of China."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Arbeid was er duur en energie (steenkool) goedkoop, dus machines die arbeid bespaarden loonden"
+      ],
+      "topics": [
+        "causation",
+        "historiography"
+      ],
+      "feedback": [
+        {
+          "answer": "De Engelsen waren inventiever dan andere volkeren",
+          "message": "Dat is geen verklaring van Allen; hij zoekt het in prijsverhoudingen, niet in aangeboren talent."
+        },
+        {
+          "answer": "De lonen waren laag, zodat er veel goedkope arbeiders waren",
+          "message": "Het tegenovergestelde: juist de hoge lonen maakten arbeidsbesparende machines aantrekkelijk."
+        },
+        {
+          "answer": "De staat betaalde de machines",
+          "message": "Allens argument gaat over kosten voor ondernemers, niet over staatssubsidies."
+        }
+      ]
+    },
+    {
+      "id": "16-003",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de redenering van Allen in de volgorde van oorzaak naar gevolg.",
+      "answer": [
+        "Hoge lonen en goedkope steenkool",
+        "Arbeidsbesparende machines die veel energie gebruiken worden winstgevend",
+        "Uitvinders en ondernemers ontwikkelen en gebruiken die machines",
+        "De industrie groeit en de machines verspreiden zich"
+      ],
+      "hints": [
+        "Begin bij de prijsverhoudingen: die geven de prikkel."
+      ],
+      "solution": [
+        "Prijsverhoudingen, dan winstgevendheid, dan uitvinden en toepassen, dan verspreiding."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Arbeidsbesparende machines die veel energie gebruiken worden winstgevend",
+            "Hoge lonen en goedkope steenkool",
+            "Uitvinders en ondernemers ontwikkelen en gebruiken die machines",
+            "De industrie groeit en de machines verspreiden zich"
+          ],
+          "message": "Bij Allen komen de prijzen eerst; de winstgevendheid volgt daaruit."
+        }
+      ]
+    },
+    {
+      "id": "16-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke vraag beantwoordt Joel Mokyr vooral in zijn verklaring van de industriële revolutie?",
+      "choices": [
+        "Waarom beschikte Groot-Brittannië over de kennis en vaardigheden om techniek steeds te verbeteren?",
+        "Waarom waren de lonen in Engeland hoger dan elders?",
+        "Waarom was steenkool in Engeland goedkoop?",
+        "Waarom was er in Engeland meer slavernij dan elders?"
+      ],
+      "answer": "Waarom beschikte Groot-Brittannië over de kennis en vaardigheden om techniek steeds te verbeteren?",
+      "hints": [
+        "Mokyr noemt de Royal Society, de Lunar Society en vakmensen."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Waarom beschikte Groot-Brittannië over de kennis en vaardigheden om techniek steeds te verbeteren?"
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Waarom waren de lonen in Engeland hoger dan elders?",
+          "message": "Dat is een vraag die vooral bij Allen hoort."
+        },
+        {
+          "answer": "Waarom was steenkool in Engeland goedkoop?",
+          "message": "Ook dat is een prijsvraag, geen kennisvraag."
+        },
+        {
+          "answer": "Waarom was er in Engeland meer slavernij dan elders?",
+          "message": "Slavernij speelt bij andere historici een rol, niet in Mokyrs kernverklaring."
+        }
+      ]
+    },
+    {
+      "id": "16-005",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De Republiek had rond 1700 veel kapitaal, handel en een goed werkend bestuur, maar industrialiseerde niet als eerste. Wat volgt daaruit voor de verklaring 'goede instituties'?",
+      "choices": [
+        "Dat de verklaring 'goede instituties' onjuist is en geen rol speelde",
+        "Goede instituties kunnen niet de enige verklaring zijn; er moet iets bij komen dat Engeland onderscheidde",
+        "Dat de Republiek eigenlijk wel als eerste industrialiseerde",
+        "Dat kapitaal en handel geen economische betekenis hebben"
+      ],
+      "answer": "Goede instituties kunnen niet de enige verklaring zijn; er moet iets bij komen dat Engeland onderscheidde",
+      "hints": [
+        "Een factor die ook elders aanwezig was, kan een verschil niet alleen verklaren."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Goede instituties kunnen niet de enige verklaring zijn; er moet iets bij komen dat Engeland onderscheidde"
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat de verklaring 'goede instituties' onjuist is en geen rol speelde",
+          "message": "Eén tegenvoorbeeld weerlegt niet dat een factor meewerkte; het laat zien dat zij niet voldoende is."
+        },
+        {
+          "answer": "Dat de Republiek eigenlijk wel als eerste industrialiseerde",
+          "message": "Dat klopt niet: ook in de Republiek kwam de industrialisatie pas laat."
+        },
+        {
+          "answer": "Dat kapitaal en handel geen economische betekenis hebben",
+          "message": "Kapitaal en handel hadden betekenis; het punt is dat zij niet volstonden."
+        }
+      ]
+    },
+    {
+      "id": "16-006",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Rekenvoorbeeld: stel dat de bevolking van Engeland in honderd jaar groeit van 6 miljoen naar 18 miljoen. Hoeveel duizend inwoners komen er gemiddeld per jaar bij?",
+      "answer": 120,
+      "hints": [
+        "Bereken eerst het verschil in miljoenen en deel dat door het aantal jaren."
+      ],
+      "solution": [
+        "18 − 6 = 12 miljoen erbij.",
+        "12 miljoen / 100 jaar = 0,12 miljoen per jaar = 120 duizend."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "unit": "duizend",
+      "feedback": [
+        {
+          "answer": 1200,
+          "message": "Je deelde 12 miljoen niet door 100 jaar, of verwarde duizenden met honderden duizenden."
+        }
+      ]
+    },
+    {
+      "id": "16-007",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Leg uit waarom steenkool wel een voorwaarde voor de Engelse industrialisatie kan zijn geweest, maar niet de volledige verklaring.",
+      "answer": "Kolen: noodzakelijk voor stoom en ijzer, maar ook elders aanwezig; zonder kennis, kapitaal en prikkels geen machines.",
+      "hints": [
+        "Vergelijk met landen die ook kolen hadden."
+      ],
+      "solution": [
+        "Kolen waren in Engeland goedkoop en dichtbij kust en rivier, wat energie goedkoop maakte (Allen). Maar kolen lagen ook in België, Duitsland en China; België industrialiseerde pas na Engeland en China niet vroeg. Dus kolen maakten het mogelijk en winstgevend, maar er waren ook kennis (Mokyr), kapitaal, markten en instituties nodig."
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "16-008",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Het schilderij Coalbrookdale by Night (1801) toont gloeiende ovens onder een rode nachthemel. Wat kun je er het beste mee onderzoeken?",
+      "choices": [
+        "Hoe industrie rond 1800 werd voorgesteld en waargenomen door een kunstenaar en zijn publiek",
+        "Hoeveel ijzer er in 1801 in Coalbrookdale werd geproduceerd",
+        "Hoe lang de arbeiders in Coalbrookdale werkten",
+        "Een nauwkeurige plattegrond van de ovens"
+      ],
+      "answer": "Hoe industrie rond 1800 werd voorgesteld en waargenomen door een kunstenaar en zijn publiek",
+      "hints": [
+        "Denk aan de herkomst: kunstenaar, tentoonstelling, publiek."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Hoe industrie rond 1800 werd voorgesteld en waargenomen door een kunstenaar en zijn publiek"
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Hoeveel ijzer er in 1801 in Coalbrookdale werd geproduceerd",
+          "message": "Een schilderij geeft geen productiecijfers; daarvoor heb je administratie nodig."
+        },
+        {
+          "answer": "Hoe lang de arbeiders in Coalbrookdale werkten",
+          "message": "De schilder toont geen arbeiders aan het werk; over werktijden zegt het doek niets."
+        },
+        {
+          "answer": "Een nauwkeurige plattegrond van de ovens",
+          "message": "De schilder maakte een beeld, geen topografische tekening."
+        }
+      ]
+    },
+    {
+      "id": "16-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom veranderde Arkwrights waterframe, anders dan de jenny van Hargreaves, ook de plaats van het werk?",
+      "choices": [
+        "Omdat ze zo groot was dat alleen een kerk haar kon herbergen",
+        "Ze had een krachtbron nodig en stond daarom in een molen bij water, niet in een woonhuis",
+        "Omdat de jenny helemaal geen invloed had op het werk",
+        "Omdat Arkwright zijn werknemers wilde controleren in de stad"
+      ],
+      "answer": "Ze had een krachtbron nodig en stond daarom in een molen bij water, niet in een woonhuis",
+      "hints": [
+        "Wat dreef de machine aan?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Ze had een krachtbron nodig en stond daarom in een molen bij water, niet in een woonhuis"
+      ],
+      "topics": [
+        "causation",
+        "modern"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat ze zo groot was dat alleen een kerk haar kon herbergen",
+          "message": "Er is geen sprake van kerken; het ging om een krachtbron (waterrad)."
+        },
+        {
+          "answer": "Omdat de jenny helemaal geen invloed had op het werk",
+          "message": "De jenny veranderde het werk wel, maar kon met de hand in een huis worden bediend."
+        },
+        {
+          "answer": "Omdat Arkwright zijn werknemers wilde controleren in de stad",
+          "message": "De reden was vooral technisch: de machine vroeg om waterkracht."
+        }
+      ]
+    },
+    {
+      "id": "16-010",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Newcomens stoommachine in een mijn",
+        "Watts octrooi op de aparte condensor",
+        "Arkwrights katoenmolen bij Cromford",
+        "Cromptons mule",
+        "Eerste stoomspoorlijn tussen Liverpool en Manchester"
+      ],
+      "hints": [
+        "Het octrooi van Watt en de molen van Cromford liggen twee jaar uit elkaar."
+      ],
+      "solution": [
+        "1712, 1769, 1771, 1779, 1830."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Watts octrooi op de aparte condensor",
+            "Newcomens stoommachine in een mijn",
+            "Arkwrights katoenmolen bij Cromford",
+            "Cromptons mule",
+            "Eerste stoomspoorlijn tussen Liverpool en Manchester"
+          ],
+          "message": "Newcomen bouwde zijn machine in 1712, ruim een halve eeuw vóór Watts octrooi (1769)."
+        }
+      ]
+    },
+    {
+      "id": "16-011",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke bewering over stoom en de fabrieken is het best onderbouwd?",
+      "choices": [
+        "Na 1769 draaiden alle fabrieken meteen op stoom",
+        "James Watt vond de eerste stoommachine uit",
+        "Stoom was alleen nuttig voor locomotieven",
+        "Stoom verspreidde zich geleidelijk; waterkracht bleef nog lang belangrijk"
+      ],
+      "answer": "Stoom verspreidde zich geleidelijk; waterkracht bleef nog lang belangrijk",
+      "hints": [
+        "Denk aan Newcomen en aan wat de les over water zegt."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Stoom verspreidde zich geleidelijk; waterkracht bleef nog lang belangrijk"
+      ],
+      "topics": [
+        "continuity-change"
+      ],
+      "feedback": [
+        {
+          "answer": "Na 1769 draaiden alle fabrieken meteen op stoom",
+          "message": "De verspreiding duurde decennia; water bleef lang in gebruik."
+        },
+        {
+          "answer": "James Watt vond de eerste stoommachine uit",
+          "message": "Newcomens machine uit 1712 was eerder; Watt verbeterde haar."
+        },
+        {
+          "answer": "Stoom was alleen nuttig voor locomotieven",
+          "message": "Stoom werd eerst in mijnen en later in molens en ijzerfabrieken gebruikt, vóór het spoor."
+        }
+      ]
+    },
+    {
+      "id": "16-012",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Hoeveel jaar zat er tussen het octrooi van Watt (1769) en de opening van de spoorlijn Liverpool-Manchester (1830)?",
+      "answer": 61,
+      "hints": [
+        "Trek 1769 van 1830 af."
+      ],
+      "solution": [
+        "1830 − 1769 = 61."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "unit": "jaar",
+      "feedback": [
+        {
+          "answer": 60,
+          "message": "Reken precies: 1830 min 1769 is 61."
+        }
+      ]
+    },
+    {
+      "id": "16-013",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom wordt Cromford (1771) een fabriek genoemd, terwijl een jenny in een woonhuis dat niet is?",
+      "choices": [
+        "Omdat Cromford groter was dan elk huis",
+        "Bij Cromford kwamen machines, krachtbron en arbeiders onder één dak en onder één gezag",
+        "Omdat in Cromford voor het eerst machines werden gebruikt",
+        "Omdat Cromford van de overheid was"
+      ],
+      "answer": "Bij Cromford kwamen machines, krachtbron en arbeiders onder één dak en onder één gezag",
+      "hints": [
+        "Wat veranderde er in de organisatie van het werk?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Bij Cromford kwamen machines, krachtbron en arbeiders onder één dak en onder één gezag"
+      ],
+      "topics": [
+        "causation",
+        "modern"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat Cromford groter was dan elk huis",
+          "message": "Het gaat niet om grootte alleen, maar om organisatie en gezag."
+        },
+        {
+          "answer": "Omdat in Cromford voor het eerst machines werden gebruikt",
+          "message": "Machines bestonden ook buiten de fabriek, zoals de jenny."
+        },
+        {
+          "answer": "Omdat Cromford van de overheid was",
+          "message": "Cromford was een particuliere onderneming van Arkwright."
+        }
+      ]
+    },
+    {
+      "id": "16-014",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een leerboek schrijft: 'In 1769 begon de industriële revolutie met Watts stoommachine.' Wat is de beste kritiek op deze zin?",
+      "choices": [
+        "Het jaartal 1769 is onjuist, want het octrooi is later verleend",
+        "De zin laat te weinig aandacht voor Nederland",
+        "De zin maakt van een geleidelijk proces met veel voorgangers en latere verbeteringen één gebeurtenis met één oorzaak",
+        "De zin is correct, want een uitvinding is altijd de oorzaak van een revolutie"
+      ],
+      "answer": "De zin maakt van een geleidelijk proces met veel voorgangers en latere verbeteringen één gebeurtenis met één oorzaak",
+      "hints": [
+        "Let op woorden als 'begon' en 'met'."
+      ],
+      "solution": [
+        "Het juiste antwoord is: De zin maakt van een geleidelijk proces met veel voorgangers en latere verbeteringen één gebeurtenis met één oorzaak"
+      ],
+      "topics": [
+        "causation",
+        "continuity-change"
+      ],
+      "context": "Leerboekzin: 'In 1769 begon de industriële revolutie met Watts stoommachine.'",
+      "feedback": [
+        {
+          "answer": "Het jaartal 1769 is onjuist, want het octrooi is later verleend",
+          "message": "Het octrooi is van 1769; het probleem is niet het jaartal maar de eenzijdige verklaring."
+        },
+        {
+          "answer": "De zin laat te weinig aandacht voor Nederland",
+          "message": "Nederland is hier niet de kwestie; het gaat om monocausaal denken."
+        },
+        {
+          "answer": "De zin is correct, want een uitvinding is altijd de oorzaak van een revolutie",
+          "message": "Dat is monocausaal: ook Newcomen, kolen, markten en kapitaal speelden een rol."
+        }
+      ]
+    },
+    {
+      "id": "16-015",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Rekenvoorbeeld: een spinner aan een wiel maakt één draad tegelijk. Een spinner aan een jenny met 24 spillen maakt evenveel garen per uur als 24 spinners aan wielen. Hoeveel spinners aan jenny's zijn nodig om evenveel garen te maken als 120 spinners aan wielen?",
+      "answer": 5,
+      "hints": [
+        "Deel 120 door het aantal wielen dat één jenny vervangt."
+      ],
+      "solution": [
+        "120 / 24 = 5."
+      ],
+      "topics": [
+        "continuity-change"
+      ],
+      "feedback": [
+        {
+          "answer": 24,
+          "message": "Dat is het aantal spillen. Deel 120 door 24."
+        }
+      ]
+    },
+    {
+      "id": "16-016",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 3,
+      "question": "Waarom is 'revolutie' een lastig woord als je kijkt naar de snelheid waarmee machines in gebruik kwamen?",
+      "answer": "Geleidelijke verspreiding, handwerk bleef, per sector verschillend.",
+      "hints": [
+        "Denk aan handwevers en aan de tijd die stoom nodig had."
+      ],
+      "solution": [
+        "Het woord 'revolutie' suggereert een snelle breuk. Maar waterkracht en handwerk bleven lang bestaan, handwevers waren in 1800 nog talrijk en de stoommachine verspreidde zich pas in decennia. Aan de andere kant waren de gevolgen na een eeuw wel ingrijpend. Het antwoord hangt dus af van het perspectief en de tijdschaal."
+      ],
+      "topics": [
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "16-017",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Engels beschrijft in 1845 de armste wijken van Manchester. Wat is de beste conclusie over de bruikbaarheid van zijn boek?",
+      "choices": [
+        "Het is volledig betrouwbaar, want hij was er zelf bij",
+        "Het is bruikbaar voor wat hij zag en vond, maar niet representatief voor alle arbeiders",
+        "Het is onbruikbaar, omdat hij de zoon van een fabrikant was",
+        "Het is onbruikbaar, omdat de Engelse vertaling pas in 1887 verscheen"
+      ],
+      "answer": "Het is bruikbaar voor wat hij zag en vond, maar niet representatief voor alle arbeiders",
+      "hints": [
+        "Wie, wanneer, voor wie, met welk doel?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Het is bruikbaar voor wat hij zag en vond, maar niet representatief voor alle arbeiders"
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Het is volledig betrouwbaar, want hij was er zelf bij",
+          "message": "Primair is niet automatisch betrouwbaar; Engels had ook een politiek doel en beschreef vooral de armste wijken."
+        },
+        {
+          "answer": "Het is onbruikbaar, omdat hij de zoon van een fabrikant was",
+          "message": "Zijn herkomst vraagt om kritisch lezen, maar maakt het boek niet onbruikbaar: zijn beschrijvingen komen overeen met officiële rapporten."
+        },
+        {
+          "answer": "Het is onbruikbaar, omdat de Engelse vertaling pas in 1887 verscheen",
+          "message": "Het boek verscheen in 1845 in het Duits; de vertaling is voor de bruikbaarheid van de beschrijving niet beslissend."
+        }
+      ]
+    },
+    {
+      "id": "16-018",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke bewering over de luddieten (1811-1816) is het beste onderbouwd?",
+      "choices": [
+        "Ze waren tegen elke vorm van techniek",
+        "Ze werden door de regering ondersteund",
+        "Veel acties richtten zich tegen werkgevers die afspraken over loon en vakmanschap omzeilden, niet tegen techniek als zodanig",
+        "Ze richtten zich uitsluitend tegen stoommachines"
+      ],
+      "answer": "Veel acties richtten zich tegen werkgevers die afspraken over loon en vakmanschap omzeilden, niet tegen techniek als zodanig",
+      "hints": [
+        "Waarom braken ze machines kapot in een tijd waarin vakbonden verboden waren?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Veel acties richtten zich tegen werkgevers die afspraken over loon en vakmanschap omzeilden, niet tegen techniek als zodanig"
+      ],
+      "topics": [
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Ze waren tegen elke vorm van techniek",
+          "message": "Dat is een latere karikatuur; de acties hadden vooral arbeidsvoorwaarden als doel."
+        },
+        {
+          "answer": "Ze werden door de regering ondersteund",
+          "message": "De regering zette soldaten in en verzwaarde de straffen."
+        },
+        {
+          "answer": "Ze richtten zich uitsluitend tegen stoommachines",
+          "message": "De acties betroffen vooral weef- en breimachines en de werkverhoudingen daaromheen."
+        }
+      ]
+    },
+    {
+      "id": "16-019",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Eerste Engelse wet over leerlingen in molens",
+        "De luddieten breken machines",
+        "De Engelse Factory Act",
+        "Engels publiceert zijn boek over de arbeidersklasse",
+        "Het Nederlandse Kinderwetje"
+      ],
+      "hints": [
+        "Het Kinderwetje komt ruim veertig jaar na de Factory Act."
+      ],
+      "solution": [
+        "1802, 1811-1816, 1833, 1845, 1874."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "De luddieten breken machines",
+            "Eerste Engelse wet over leerlingen in molens",
+            "De Engelse Factory Act",
+            "Engels publiceert zijn boek over de arbeidersklasse",
+            "Het Nederlandse Kinderwetje"
+          ],
+          "message": "De eerste wet over leerlingen dateert van 1802, vóór de luddieten (vanaf 1811)."
+        }
+      ]
+    },
+    {
+      "id": "16-020",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Rekenvoorbeeld op ruwe schattingen: Manchester telde in 1801 ongeveer 75.000 inwoners en in 1851 ongeveer 300.000. Hoeveel keer zo groot was de stad geworden?",
+      "answer": 4,
+      "hints": [
+        "Deel 300.000 door 75.000."
+      ],
+      "solution": [
+        "300.000 / 75.000 = 4."
+      ],
+      "topics": [
+        "continuity-change",
+        "modern"
+      ],
+      "unit": "keer",
+      "feedback": [
+        {
+          "answer": 225000,
+          "message": "Dat is het verschil. De vraag is naar de factor: deel."
+        }
+      ]
+    },
+    {
+      "id": "16-021",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Volgens Robert Allen steeg de productie per werker tussen 1780 en 1840 met 46 procent en het reële loon (reeks van Feinstein) met 12 procent. Hoeveel procentpunt verschillen deze twee groeicijfers?",
+      "answer": 34,
+      "hints": [
+        "Trek de twee percentages van elkaar af."
+      ],
+      "solution": [
+        "46 − 12 = 34 procentpunt."
+      ],
+      "topics": [
+        "historiography",
+        "causation"
+      ],
+      "unit": "procentpunt",
+      "feedback": [
+        {
+          "answer": 58,
+          "message": "Je hebt de percentages opgeteld. Trek ze van elkaar af."
+        }
+      ]
+    },
+    {
+      "id": "16-022",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Optimisten en pessimisten in het standard of living-debat komen tot verschillende uitkomsten. Wat is daarvoor de beste verklaring?",
+      "choices": [
+        "De ene groep historici liegt over de cijfers",
+        "De cijfers over lonen bestaan niet",
+        "Ze gebruiken verschillende soorten bronnen en kijken naar verschillende groepen en perioden",
+        "Alleen de pessimisten gebruiken bronnen"
+      ],
+      "answer": "Ze gebruiken verschillende soorten bronnen en kijken naar verschillende groepen en perioden",
+      "hints": [
+        "Denk aan Thompson (ervaringen) en Feinstein (gemiddelde lonen)."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Ze gebruiken verschillende soorten bronnen en kijken naar verschillende groepen en perioden"
+      ],
+      "topics": [
+        "historiography",
+        "interpretation",
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "De ene groep historici liegt over de cijfers",
+          "message": "Het gaat om verschillen in bronnen, reeksen en perspectief, niet om bedrog."
+        },
+        {
+          "answer": "De cijfers over lonen bestaan niet",
+          "message": "Er zijn gereconstrueerde loonreeksen, alleen verschillen die per auteur."
+        },
+        {
+          "answer": "Alleen de pessimisten gebruiken bronnen",
+          "message": "Beide kampen gebruiken bronnen, maar andere."
+        }
+      ]
+    },
+    {
+      "id": "16-023",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Rekenvoorbeeld: stel dat het reële loon in 60 jaar met 12 procent steeg, gelijkmatig verdeeld over de jaren. Bereken het gemiddelde jaarlijkse groeipercentage, afgerond op één decimaal.",
+      "answer": 0.2,
+      "hints": [
+        "Neem de 60e machtswortel van 1,12 en trek er 1 van af."
+      ],
+      "solution": [
+        "1,12^(1/60) ≈ 1,00189.",
+        "Dat is ongeveer 0,19 procent per jaar, afgerond 0,2."
+      ],
+      "topics": [
+        "continuity-change"
+      ],
+      "tolerance": 0.05,
+      "unit": "% per jaar"
+    },
+    {
+      "id": "16-024",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Leg uit waarom een stijgend gemiddeld reëel loon niet bewijst dat alle arbeiders er beter van werden.",
+      "answer": "Gemiddelden verbergen verliezers, zoals handwevers; loon zegt niets over werktijd, gezondheid, woonomstandigheden.",
+      "hints": [
+        "Denk aan handwevers en aan wat loon niet meet."
+      ],
+      "solution": [
+        "Een gemiddelde telt winnaars en verliezers samen. Handwevers verloren inkomen terwijl andere groepen winst maakten. Bovendien meet een reëel loon geen werktijd, gezondheid, woonomstandigheden en zelfstandigheid. Een stijgend gemiddelde sluit dus ellende voor bepaalde groepen of in bepaalde decennia niet uit."
+      ],
+      "topics": [
+        "perspective",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "16-025",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke verklaring voor de late Nederlandse industrialisatie gaat over energie?",
+      "choices": [
+        "Nederlanders hadden geen belangstelling voor handel",
+        "Nederland had weinig steenkool en kon lange tijd met turf voort",
+        "Het Cultuurstelsel maakte alle industrie overbodig",
+        "België nam alle steenkool mee in 1830"
+      ],
+      "answer": "Nederland had weinig steenkool en kon lange tijd met turf voort",
+      "hints": [
+        "Welke brandstof was er in Nederland en welke in Engeland?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Nederland had weinig steenkool en kon lange tijd met turf voort"
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Nederlanders hadden geen belangstelling voor handel",
+          "message": "Nederland was juist rijk geworden door handel; dat is een andere verklaring."
+        },
+        {
+          "answer": "Het Cultuurstelsel maakte alle industrie overbodig",
+          "message": "Het Cultuurstelsel wordt als financiële verklaring genoemd, niet als energieverklaring."
+        },
+        {
+          "answer": "België nam alle steenkool mee in 1830",
+          "message": "De afscheiding van België speelde een rol, maar die verklaring gaat over industriegebieden, niet over brandstof in het algemeen."
+        }
+      ]
+    },
+    {
+      "id": "16-026",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Hoeveel jaar zat er tussen de Engelse Factory Act (1833) en het Nederlandse Kinderwetje van Van Houten (1874)?",
+      "answer": 41,
+      "hints": [
+        "Trek 1833 van 1874 af."
+      ],
+      "solution": [
+        "1874 − 1833 = 41."
+      ],
+      "topics": [
+        "continuity-change",
+        "chronology"
+      ],
+      "unit": "jaar",
+      "feedback": [
+        {
+          "answer": 31,
+          "message": "Controleer je aftrekking: 1874 min 1833."
+        }
+      ]
+    },
+    {
+      "id": "16-027",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Het Kinderwetje van 1874 verbood kinderen onder de twaalf werk in fabrieken, maar landbouwarbeid bleef toegestaan en het toezicht was aanvankelijk zwak. Wat zegt dit over de werking van de wet?",
+      "choices": [
+        "De wet loste kinderarbeid in Nederland volledig op",
+        "De wet was strenger dan de Engelse Factory Act",
+        "De wet was alleen bedoeld voor landbouw",
+        "De wet was in omvang en uitvoering beperkt: een deel van het werk viel erbuiten en het toezicht kwam later"
+      ],
+      "answer": "De wet was in omvang en uitvoering beperkt: een deel van het werk viel erbuiten en het toezicht kwam later",
+      "hints": [
+        "Wat viel buiten de wet, en wanneer kwam het toezicht?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: De wet was in omvang en uitvoering beperkt: een deel van het werk viel erbuiten en het toezicht kwam later"
+      ],
+      "topics": [
+        "continuity-change"
+      ],
+      "feedback": [
+        {
+          "answer": "De wet loste kinderarbeid in Nederland volledig op",
+          "message": "Dat blijkt niet uit de gegevens: landbouw bleef buiten de wet en het toezicht ontbrak aanvankelijk."
+        },
+        {
+          "answer": "De wet was strenger dan de Engelse Factory Act",
+          "message": "De Nederlandse wet kwam ruim veertig jaar later en had zwak toezicht."
+        },
+        {
+          "answer": "De wet was alleen bedoeld voor landbouw",
+          "message": "De wet verbood juist werk in fabrieken en werkplaatsen; landbouw viel erbuiten."
+        }
+      ]
+    },
+    {
+      "id": "16-028",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de beste omschrijving van de stand van het debat over de stelling van Eric Williams dat de winsten uit slavernij de Britse industrialisatie financierden?",
+      "choices": [
+        "De winsten waren voor sommige regio's en bedrijven belangrijk, maar waarschijnlijk niet doorslaggevend voor de hele economie; de omvang is omstreden",
+        "De stelling is volledig bewezen en wordt niet meer betwist",
+        "De stelling is volledig weerlegd: slavernij speelde geen rol",
+        "Historici hebben de stelling nooit onderzocht"
+      ],
+      "answer": "De winsten waren voor sommige regio's en bedrijven belangrijk, maar waarschijnlijk niet doorslaggevend voor de hele economie; de omvang is omstreden",
+      "hints": [
+        "Zoek het midden: belangrijk voor sommigen, niet doorslaggevend voor het geheel."
+      ],
+      "solution": [
+        "Het juiste antwoord is: De winsten waren voor sommige regio's en bedrijven belangrijk, maar waarschijnlijk niet doorslaggevend voor de hele economie; de omvang is omstreden"
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "De stelling is volledig bewezen en wordt niet meer betwist",
+          "message": "Latere onderzoekers hebben de stelling juist sterk genuanceerd."
+        },
+        {
+          "answer": "De stelling is volledig weerlegd: slavernij speelde geen rol",
+          "message": "De katoenindustrie hing wel af van grondstof uit slavernij; alleen het gewicht is omstreden."
+        },
+        {
+          "answer": "Historici hebben de stelling nooit onderzocht",
+          "message": "Het is een lang en actief debat."
+        }
+      ]
+    },
+    {
+      "id": "16-029",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Vergelijk de verklaringen van Allen en Pomeranz voor de voorsprong van Engeland: wat hebben ze gemeen en waarin verschillen ze?",
+      "answer": "Gemeen: steenkool; verschil: Allen prijzen en lonen, Pomeranz koloniën en geografie en een vergelijking met China.",
+      "hints": [
+        "Zoek wat beiden over steenkool zeggen en waar ze van elkaar afwijken."
+      ],
+      "solution": [
+        "Beide noemen steenkool als essentieel. Allen legt de nadruk op de verhouding tussen lonen en energieprijzen, die machines in Engeland winstgevend maakte. Pomeranz vergelijkt Engeland met de Yangtze-delta en benadrukt dat steenkool dicht bij de industrie lag en dat de koloniën land (en dus voedsel, hout en katoen) leverden. Pomeranz verklaart minder uit Europese eigenschappen en meer uit geografie en wereldwijde verbanden. Beiden zijn bekritiseerd."
+      ],
+      "topics": [
+        "historiography",
+        "interpretation",
+        "causation"
+      ]
+    },
+    {
+      "id": "16-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een historicus schrijft: 'De industriële revolutie was geen revolutie: de totale factorproductiviteit groeide in 1760-1800 met slechts ongeveer 0,1 procent per jaar.' Welke tegenwerping is het sterkst?",
+      "choices": [
+        "Cijfers bewijzen nooit iets over het verleden",
+        "Het woord revolutie betekent altijd een snelle verandering",
+        "Een laag groeitempo sluit niet uit dat het cumulatieve resultaat over een of twee eeuwen ingrijpend was",
+        "Over deze periode bestaan helemaal geen cijfers"
+      ],
+      "answer": "Een laag groeitempo sluit niet uit dat het cumulatieve resultaat over een of twee eeuwen ingrijpend was",
+      "hints": [
+        "Wat levert een kleine groei op als hij lang genoeg doorgaat?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Een laag groeitempo sluit niet uit dat het cumulatieve resultaat over een of twee eeuwen ingrijpend was"
+      ],
+      "topics": [
+        "continuity-change",
+        "historiography",
+        "interpretation"
+      ],
+      "context": "Volgens de samenvatting van Antràs en Voth rekenen Crafts en Harley met een groei van de totale factorproductiviteit van ongeveer 0,1 procent per jaar in 1760-1800 en ongeveer 0,35 procent per jaar in 1800-1830.",
+      "feedback": [
+        {
+          "answer": "Cijfers bewijzen nooit iets over het verleden",
+          "message": "Cijfers zijn reconstructies maar wel bruikbaar; het punt is wat ze wel en niet laten zien."
+        },
+        {
+          "answer": "Het woord revolutie betekent altijd een snelle verandering",
+          "message": "Dat is precies de vraag: je kunt 'revolutie' ook definiëren naar het resultaat."
+        },
+        {
+          "answer": "Over deze periode bestaan helemaal geen cijfers",
+          "message": "Er bestaan reconstructies van Crafts en Harley, al worden ze betwist."
+        }
+      ]
+    },
+    {
+      "id": "16-031",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Kies: is 'industriële revolutie' een goede term? Verdedig je keuze in vijf tot acht zinnen met minstens twee argumenten uit de les.",
+      "answer": "Voor: ingrijpend resultaat; tegen: traag tempo; keuze hangt af van perspectief.",
+      "hints": [
+        "Denk aan Crafts en Harley en aan Hobsbawm en Thompson."
+      ],
+      "solution": [
+        "Een goed antwoord noemt bijvoorbeeld: (voor) de cumulatieve verandering was ingrijpend en voor arbeiders in Lancashire direct; (tegen) volgens Crafts en Harley was de groei van de productiviteit traag en bleef handwerk lang bestaan. Het antwoord erkent dat de keuze van de term een keuze van perspectief is, en geeft een eigen oordeel met een mate van zekerheid."
+      ],
+      "topics": [
+        "historiography",
+        "interpretation",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "16-032",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke onderzoeksvraag past het best bij het schilderij Coalbrookdale by Night (1801)?",
+      "choices": [
+        "Hoe werd industrie rond 1800 waargenomen en voorgesteld door een kunstenaar voor een kunstpubliek?",
+        "Hoeveel arbeiders werkten in 1801 in Coalbrookdale?",
+        "Wat was het gemiddelde loon van een ijzerwerker?",
+        "Hoe lang duurde de werkdag in de ovens?"
+      ],
+      "answer": "Hoe werd industrie rond 1800 waargenomen en voorgesteld door een kunstenaar voor een kunstpubliek?",
+      "hints": [
+        "Vraag je af waar de bron goed voor is."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Hoe werd industrie rond 1800 waargenomen en voorgesteld door een kunstenaar voor een kunstpubliek?"
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Hoeveel arbeiders werkten in 1801 in Coalbrookdale?",
+          "message": "Een schilderij geeft geen aantallen."
+        },
+        {
+          "answer": "Wat was het gemiddelde loon van een ijzerwerker?",
+          "message": "Daarvoor heb je loonlijsten nodig."
+        },
+        {
+          "answer": "Hoe lang duurde de werkdag in de ovens?",
+          "message": "Het schilderij zegt niets over werktijden."
+        }
+      ]
+    },
+    {
+      "id": "16-033",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Robert Allens vergelijking van de groei van productie per werker (46 procent) en reëel loon (12 procent) tussen 1780 en 1840 is een berekening achteraf. Wat kan zo'n berekening níét laten zien?",
+      "choices": [
+        "Hoe de productie per werker zich verhield tot het loon",
+        "Hoe individuele arbeiders hun leven ervoeren",
+        "Of lonen en productie langzaam of snel groeiden",
+        "Dat er in 1780-1840 sprake was van groei"
+      ],
+      "answer": "Hoe individuele arbeiders hun leven ervoeren",
+      "hints": [
+        "Een gemiddelde zegt niets over de beleving van individuen."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Hoe individuele arbeiders hun leven ervoeren"
+      ],
+      "topics": [
+        "sources",
+        "source-criticism",
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Hoe de productie per werker zich verhield tot het loon",
+          "message": "Dat is juist wat de berekening laat zien."
+        },
+        {
+          "answer": "Of lonen en productie langzaam of snel groeiden",
+          "message": "Het groeitempo is juist wat de cijfers laten zien."
+        },
+        {
+          "answer": "Dat er in 1780-1840 sprake was van groei",
+          "message": "De cijfers laten groei zien, alleen verschillend voor productie en loon."
+        }
+      ]
+    },
+    {
+      "id": "16-034",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Leg uit hoe je het schilderij, Engels' boek en Allens berekening zou combineren om te zeggen hoe de industrie rond 1800-1845 werd ervaren. Zeg erbij wat je daarmee nog niet weet.",
+      "answer": "Combineren: beeld, beschrijving, gemiddelde; grenzen: geen stem van arbeiders zelf, geen representatief beeld.",
+      "hints": [
+        "Zeg per bron wat ze kan en wat ze niet kan."
+      ],
+      "solution": [
+        "Het schilderij laat zien hoe de industrie werd waargenomen: indrukwekkend en onheilspellend. Engels geeft het perspectief van een kritische tijdgenoot over de armste wijken. Allens berekening laat zien dat de productie veel sneller groeide dan het reële loon. Samen geven ze een voorzichtig beeld: groei, ongelijk verdeeld, ervaren als wonder en bedreiging. Wat je niet weet: hoe gewone arbeiders het zelf zeiden, en hoe representatief de armste wijken waren."
+      ],
+      "topics": [
+        "sources",
+        "source-criticism",
+        "perspective"
+      ]
+    }
+  ]
+}

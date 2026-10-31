@@ -405,7 +405,8 @@
       "description": "Herodotus van Halicarnassus verzamelde verhalen op reizen en schreef ze op in een groot werk dat hij *Historiai* noemde: onderzoeken, navragen. Hij vertelt wat hem is verteld, ook waar hij het niet geloofde.\n\nDe Romeinse schrijver Cicero noemde hem de vader van de geschiedschrijving. Andere antieke schrijvers, zoals Plutarchus, vonden hem juist onbetrouwbaar.",
       "place": "Griekenland en Klein-Azië",
       "modules": [
-        1
+        1,
+        6
       ],
       "people": [
         "herodotus"
@@ -422,7 +423,8 @@
       "description": "Thucydides was zelf betrokken bij de oorlog tussen Athene en Sparta (431 – 404 v.Chr.) en werd na een militaire tegenslag verbannen. In zijn geschiedenis verklaart hij gebeurtenissen uit menselijk handelen, macht en belangen, en bespreekt hij hoe hij getuigenissen heeft vergeleken.\n\nZijn toespraken zijn herschreven en zijn werk heeft een eigen standpunt, zodat ook zijn tekst kritisch gelezen moet worden.",
       "place": "Athene",
       "modules": [
-        1
+        1,
+        6
       ],
       "people": [
         "thucydides"
@@ -574,7 +576,8 @@
       "description": "In vijftig jaar volgden vele keizers elkaar op. In 260 werd Valerianus door de Perzen gevangengenomen. Het rijk bleef bestaan en werd vanaf 284 onder Diocletianus hervormd.",
       "place": "Romeinse Rijk",
       "modules": [
-        7
+        7,
+        8
       ],
       "people": [],
       "image": null
@@ -1217,7 +1220,8 @@
       "description": "Op 2 juni 1122 bevestigt keizer Hendrik V in Utrecht het eerder door bisschop Godebald verleende privilege en verleent hij tolvrijheid aan wie de stad met een wal versterkt. De oorkonde wordt bewaard in Het Utrechts Archief.",
       "place": "Utrecht",
       "modules": [
-        10
+        10,
+        11
       ],
       "people": [],
       "image": null
@@ -1356,7 +1360,8 @@
       "description": "De hongersnood laat zien dat de groei rond 1300 tegen haar grenzen aanliep.",
       "place": "Noordwest-Europa",
       "modules": [
-        10
+        10,
+        11
       ],
       "people": [],
       "image": null
@@ -1809,7 +1814,8 @@
       "description": "De golf begon bij Steenvoorde, bereikte Antwerpen op 20 augustus en verspreidde zich door de Nederlanden. Oorzaken lagen in religieuze overtuiging, politieke spanning en economische crisis.",
       "place": "Steenvoorde, Antwerpen, Gent",
       "modules": [
-        2
+        2,
+        13
       ],
       "people": [],
       "image": null
@@ -2027,6 +2033,38 @@
       "image": null
     },
     {
+      "id": "voc-opgericht-1602",
+      "year_label": "20 maart 1602",
+      "sort_year": 1602,
+      "era": "Vroegmoderne tijd",
+      "title": "Oprichting van de VOC",
+      "summary": "De Staten-Generaal bundelen de voorcompagnieën in de Verenigde Oostindische Compagnie.",
+      "description": "De VOC kreeg een octrooi van 21 jaar met het alleenrecht op de handel tussen Kaap de Goede Hoop en de Straat van Magellan, en de bevoegdheid om verdragen te sluiten en oorlog te voeren.",
+      "place": "Republiek",
+      "modules": [
+        14
+      ],
+      "people": [
+        "jan-pieterszoon-coen"
+      ],
+      "image": null
+    },
+    {
+      "id": "voc-aandeel-enkhuizen-1606",
+      "year_label": "9 september 1606",
+      "sort_year": 1606,
+      "era": "Vroegmoderne tijd",
+      "title": "Het oudst bekende VOC-aandeel",
+      "summary": "Een aandeel van de kamer Enkhuizen op naam van Pieter Harmensz.",
+      "description": "Het stuk wordt bewaard in het Westfries Archief in Hoorn en kwam in 2010 aan het licht bij onderzoek van een student voor zijn scriptie.",
+      "place": "Enkhuizen",
+      "modules": [
+        14
+      ],
+      "people": [],
+      "image": null
+    },
+    {
       "id": "twaalfjarig-bestand-1609",
       "year_label": "9 april 1609",
       "sort_year": 1609,
@@ -2036,7 +2074,102 @@
       "description": "In de praktijk erkende Spanje de Republiek, maar nog niet formeel.",
       "place": "Antwerpen",
       "modules": [
-        13
+        13,
+        14
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "wisselbank-1609",
+      "year_label": "31 januari 1609",
+      "sort_year": 1609,
+      "era": "Vroegmoderne tijd",
+      "title": "De Amsterdamse Wisselbank",
+      "summary": "Amsterdam richt een bank op die stabiel bankgeld uitgeeft.",
+      "description": "In Amsterdam circuleerden honderden munten. De Wisselbank, gegarandeerd door de stad, gaf bankgeld uit en bestond tot 1819.",
+      "place": "Amsterdam",
+      "modules": [
+        14
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "batavia-gesticht-1619",
+      "year_label": "1619",
+      "sort_year": 1619,
+      "era": "Vroegmoderne tijd",
+      "title": "Batavia wordt gesticht",
+      "summary": "Coen sticht na de verovering van Jayakarta het centrum van de VOC in Azië.",
+      "description": "Batavia werd het bestuurlijke en commerciële hart van de Nederlandse aanwezigheid in Azië.",
+      "place": "Java",
+      "modules": [
+        14
+      ],
+      "people": [
+        "jan-pieterszoon-coen"
+      ],
+      "image": null
+    },
+    {
+      "id": "wic-opgericht-1621",
+      "year_label": "3 juni 1621",
+      "sort_year": 1621,
+      "era": "Vroegmoderne tijd",
+      "title": "Oprichting van de WIC",
+      "summary": "De Republiek geeft een compagnie het alleenrecht op West-Afrika en Amerika.",
+      "description": "De West-Indische Compagnie kreeg een octrooi van 24 jaar, bestond uit vijf kamers en werd bestuurd door de Heeren XIX.",
+      "place": "Republiek",
+      "modules": [
+        14
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "banda-verovering-1621",
+      "year_label": "1621",
+      "sort_year": 1621,
+      "era": "Vroegmoderne tijd",
+      "title": "De verovering van de Banda-eilanden",
+      "summary": "De VOC verovert de nootmuskaateilanden en breekt de Bandanese samenleving.",
+      "description": "Een groot deel van de bevolking werd gedood, verdreven of weggevoerd; over de aantallen bestaat onzekerheid. Tot slaaf gemaakten werkten daarna op de plantages.",
+      "place": "Banda-eilanden",
+      "modules": [
+        14
+      ],
+      "people": [
+        "jan-pieterszoon-coen"
+      ],
+      "image": null
+    },
+    {
+      "id": "elmina-veroverd-1637",
+      "year_label": "1637",
+      "sort_year": 1637,
+      "era": "Vroegmoderne tijd",
+      "title": "De WIC verovert Elmina",
+      "summary": "De WIC neemt het fort Elmina op de Goudkust van de Portugezen.",
+      "description": "Elmina werd het belangrijkste steunpunt van de WIC in West-Afrika.",
+      "place": "Elmina, Goudkust",
+      "modules": [
+        14
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "deshima-1641",
+      "year_label": "1641",
+      "sort_year": 1641,
+      "era": "Vroegmoderne tijd",
+      "title": "De VOC handelt vanaf Deshima",
+      "summary": "De Nederlandse handel in Japan wordt beperkt tot het eiland Deshima.",
+      "description": "Onder strenge Japanse controle bleef Deshima het Nederlandse handelspunt in Japan, en de Nederlanders waren daar lange tijd de enige Europeanen die mochten handelen.",
+      "place": "Nagasaki, Japan",
+      "modules": [
+        14
       ],
       "people": [],
       "image": null
@@ -2051,9 +2184,164 @@
       "description": "De vrede maakte een einde aan de Tachtigjarige Oorlog. De Schelde bleef gesloten voor de scheepvaart.",
       "place": "Münster",
       "modules": [
-        13
+        13,
+        14
       ],
       "people": [],
+      "image": null
+    },
+    {
+      "id": "rampjaar-1672",
+      "year_label": "1672",
+      "sort_year": 1672,
+      "era": "Vroegmoderne tijd",
+      "title": "Het Rampjaar",
+      "summary": "De Republiek wordt tegelijk aangevallen door Frankrijk, Engeland, Münster en Keulen.",
+      "description": "De Waterlinie hield de Fransen tegen. Op 20 augustus werden Johan en Cornelis de Witt vermoord en Willem III werd stadhouder van Holland.",
+      "place": "Republiek",
+      "modules": [
+        14
+      ],
+      "people": [
+        "johan-de-witt",
+        "willem-iii"
+      ],
+      "image": null
+    },
+    {
+      "id": "locke-two-treatises-1690",
+      "year_label": "1689 – 1690",
+      "sort_year": 1690,
+      "era": "Vroegmoderne tijd",
+      "title": "Locke publiceert de Two Treatises of Government",
+      "summary": "Locke betoogt dat regeringen hun gezag ontlenen aan de instemming van de bestuurden.",
+      "description": "De *Two Treatises of Government* verschenen eind 1689, met 1690 op de titelpagina, anoniem. Locke had een deel van het werk geschreven tijdens zijn ballingschap in de Republiek (1683 – 1689). Hij verdedigt natuurlijke rechten op leven, vrijheid en bezit.",
+      "place": "Londen",
+      "modules": [
+        15
+      ],
+      "people": [
+        "locke"
+      ],
+      "image": null
+    },
+    {
+      "id": "newcomen-stoommachine",
+      "year_label": "1712",
+      "sort_year": 1712,
+      "era": "Vroegmoderne tijd",
+      "title": "Newcomen bouwt een stoommachine",
+      "summary": "De eerste bruikbare zuigerstoommachine pompt water uit een mijn bij Dudley Castle.",
+      "description": "De machine van Thomas Newcomen gebruikte de luchtdruk om een zuiger omlaag te drukken nadat stoom was gecondenseerd. Ze was niet zuinig, maar loonde bij mijnen waar steenkool goedkoop was.",
+      "place": "Dudley, Engeland",
+      "modules": [
+        16
+      ],
+      "people": [
+        "thomas-newcomen"
+      ],
+      "image": null
+    },
+    {
+      "id": "voltaire-lettres-philosophiques-1734",
+      "year_label": "1734",
+      "sort_year": 1734,
+      "era": "Vroegmoderne tijd",
+      "title": "Voltaire: Lettres philosophiques",
+      "summary": "Voltaire stelt Engeland als voorbeeld van vrijheid en verdraagzaamheid tegenover het Franse bestel.",
+      "description": "De *Lettres philosophiques*, ook bekend als de *Lettres anglaises*, zijn gebaseerd op Voltaires verblijf in Engeland (1726 – 1728). In Frankrijk werd het boek veroordeeld.",
+      "place": "Rouen / Londen",
+      "modules": [
+        15
+      ],
+      "people": [
+        "voltaire"
+      ],
+      "image": null
+    },
+    {
+      "id": "montesquieu-esprit-des-lois-1748",
+      "year_label": "1748",
+      "sort_year": 1748,
+      "era": "Vroegmoderne tijd",
+      "title": "Montesquieu: De l'esprit des lois",
+      "summary": "Montesquieu vergelijkt bestuursvormen en verdedigt de scheiding van machten.",
+      "description": "*De l'esprit des lois* verscheen in 1748 anoniem in Genève. Montesquieu betoogde, mede aan de hand van Engeland, dat vrijheid het best wordt beschermd wanneer wetgevende, uitvoerende en rechterlijke macht gescheiden zijn.",
+      "place": "Genève",
+      "modules": [
+        15
+      ],
+      "people": [
+        "montesquieu"
+      ],
+      "image": null
+    },
+    {
+      "id": "encyclopedie-1751",
+      "year_label": "1751 – 1772",
+      "sort_year": 1751,
+      "era": "Vroegmoderne tijd",
+      "title": "De Encyclopédie van Diderot en d'Alembert",
+      "summary": "Een groot gemeenschappelijk project dat kennis en ambachten rationeel ordent.",
+      "description": "De *Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers* verscheen tussen 1751 en 1772 onder leiding van Denis Diderot en Jean le Rond d'Alembert. In 1759 werd het koninklijk privilege ingetrokken en veroordeelde de paus het werk, waarna de uitgave in stilte doorging.",
+      "place": "Parijs",
+      "modules": [
+        15
+      ],
+      "people": [
+        "denis-diderot"
+      ],
+      "image": null
+    },
+    {
+      "id": "rousseau-contrat-social-1762",
+      "year_label": "1762",
+      "sort_year": 1762,
+      "era": "Revoluties en industrialisatie",
+      "title": "Rousseau: Du contrat social",
+      "summary": "Rousseau stelt dat rechtmatig gezag berust op de gemeenschappelijke wil van de burgers.",
+      "description": "*Du contrat social* werd in 1762 uitgegeven door de Amsterdamse boekhandelaar Marc-Michel Rey. Het boek opent met de bekende zin dat de mens vrij wordt geboren en overal in ketens ligt.",
+      "place": "Amsterdam",
+      "modules": [
+        15
+      ],
+      "people": [
+        "rousseau"
+      ],
+      "image": null
+    },
+    {
+      "id": "watt-condensor",
+      "year_label": "1769",
+      "sort_year": 1769,
+      "era": "Revoluties en industrialisatie",
+      "title": "Watt krijgt octrooi op de aparte condensor",
+      "summary": "Een aparte condensor maakt de stoommachine veel zuiniger.",
+      "description": "James Watt liet de cilinder heet en koelde de stoom af in een apart vat. Volgens gangbare maar onderling uiteenlopende schattingen verbruikte de machine daardoor aanzienlijk minder kolen voor hetzelfde werk.",
+      "place": "Glasgow, Schotland",
+      "modules": [
+        16
+      ],
+      "people": [
+        "james-watt"
+      ],
+      "image": null
+    },
+    {
+      "id": "cromford-molen-1771",
+      "year_label": "1771",
+      "sort_year": 1771,
+      "era": "Revoluties en industrialisatie",
+      "title": "Arkwright bouwt de molen bij Cromford",
+      "summary": "Richard Arkwright laat in Derbyshire een door waterkracht aangedreven katoenspinnerij bouwen.",
+      "description": "Bij Cromford ontstond een van de eerste fabrieken: machines, waterkracht en arbeiders onder één dak en één gezag. Arkwright liet er ook huizen voor arbeiders bouwen.",
+      "place": "Cromford, Derbyshire",
+      "modules": [
+        16
+      ],
+      "people": [
+        "richard-arkwright"
+      ],
       "image": null
     },
     {
@@ -2074,6 +2362,380 @@
       "image": null
     },
     {
+      "id": "amerikaanse-onafhankelijkheidsverklaring-1776",
+      "year_label": "4 juli 1776",
+      "sort_year": 1776,
+      "era": "Revoluties en industrialisatie",
+      "title": "De Amerikaanse Onafhankelijkheidsverklaring",
+      "summary": "Het Congres verklaart de dertien kolonies onafhankelijk van Groot-Brittannië.",
+      "description": "Op 4 juli 1776 nam het Congres in Philadelphia de verklaring aan, met Thomas Jefferson als hoofdauteur. De tekst bestaat uit een algemeen beginsel en een lange lijst klachten tegen koning George III.",
+      "place": "Philadelphia",
+      "modules": [
+        15
+      ],
+      "people": [
+        "thomas-jefferson"
+      ],
+      "image": null
+    },
+    {
+      "id": "vierde-engelse-oorlog-1780",
+      "year_label": "1780 – 1784",
+      "sort_year": 1780,
+      "era": "Vroegmoderne tijd",
+      "title": "De Vierde Engelse Oorlog",
+      "summary": "Een oorlog met zware verliezen voor de handel en de VOC.",
+      "description": "De oorlog bracht de VOC in grote financiële problemen; in 1790 werd de Wisselbank insolvent.",
+      "place": "Atlantische en Indische Oceaan",
+      "modules": [
+        14
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "patriotten-aan-het-volk-1781",
+      "year_label": "1781",
+      "sort_year": 1781,
+      "era": "Revoluties en industrialisatie",
+      "title": "Aan het Volk van Nederland",
+      "summary": "Een anoniem pamflet roept de Nederlanders op tot verzet tegen het bewind van stadhouder Willem V.",
+      "description": "Het pamflet *Aan het Volk van Nederland* verscheen in 1781 anoniem en wordt toegeschreven aan Joan Derk van der Capellen tot den Pol. Het betoogt dat de macht bij het volk hoort.",
+      "place": "Republiek der Verenigde Nederlanden",
+      "modules": [
+        15
+      ],
+      "people": [
+        "joan-derk-van-der-capellen"
+      ],
+      "image": null
+    },
+    {
+      "id": "nederland-erkent-vs-1782",
+      "year_label": "19 april 1782",
+      "sort_year": 1782,
+      "era": "Revoluties en industrialisatie",
+      "title": "De Staten-Generaal erkennen de Verenigde Staten",
+      "summary": "John Adams wordt ontvangen als gezant van de Verenigde Staten.",
+      "description": "Op 19 april 1782 ontving de Staten-Generaal in Den Haag John Adams als gezant van de Verenigde Staten. De Republiek lag sinds eind 1780 in oorlog met Groot-Brittannië. In oktober 1782 volgde een handelsverdrag.",
+      "place": "Den Haag",
+      "modules": [
+        15
+      ],
+      "people": [
+        "john-adams"
+      ],
+      "image": null
+    },
+    {
+      "id": "kant-was-ist-aufklaerung-1784",
+      "year_label": "december 1784",
+      "sort_year": 1784,
+      "era": "Revoluties en industrialisatie",
+      "title": "Kant: Was ist Aufklärung?",
+      "summary": "Kant definieert verlichting als de uitweg uit zelfverschuldigde onmondigheid.",
+      "description": "Het essay verscheen in december 1784 in de *Berlinische Monatsschrift*. Kant roept op zijn eigen verstand te gebruiken, maar benadrukt ook dat men moet gehoorzamen.",
+      "place": "Berlijn / Königsberg",
+      "modules": [
+        15
+      ],
+      "people": [
+        "kant"
+      ],
+      "image": null
+    },
+    {
+      "id": "grondwet-vs-1787",
+      "year_label": "17 september 1787",
+      "sort_year": 1787,
+      "era": "Revoluties en industrialisatie",
+      "title": "De grondwet van de Verenigde Staten",
+      "summary": "De conventie van Philadelphia ondertekent een nieuwe grondwet met scheiding van machten.",
+      "description": "De conventie begon in de zomer van 1787 om het verbond van staten te herzien en schreef een geheel nieuwe grondwet. Na bekrachtiging door de staten werd die in 1789 van kracht. In 1791 volgden de eerste tien amendementen, de Bill of Rights.",
+      "place": "Philadelphia",
+      "modules": [
+        15
+      ],
+      "people": [
+        "thomas-jefferson"
+      ],
+      "image": null
+    },
+    {
+      "id": "pruisische-inval-1787",
+      "year_label": "september 1787",
+      "sort_year": 1787,
+      "era": "Revoluties en industrialisatie",
+      "title": "Pruisen herstelt de stadhouder",
+      "summary": "Een Pruisisch leger maakt een einde aan de patriottische beweging.",
+      "description": "Nadat patriotten in juni 1787 Wilhelmina van Pruisen, de vrouw van stadhouder Willem V, hadden aangehouden, stuurde haar broer Frederik Willem II in september een leger. Veel patriotten vluchtten naar Frankrijk.",
+      "place": "Republiek der Verenigde Nederlanden",
+      "modules": [
+        15
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "staten-generaal-1789",
+      "year_label": "5 mei 1789",
+      "sort_year": 1789,
+      "era": "Revoluties en industrialisatie",
+      "title": "De Staten-Generaal komen bijeen in Versailles",
+      "summary": "Voor het eerst sinds 1614 vergaderen de drie standen.",
+      "description": "De financiële crisis dwong de koning de Staten-Generaal bijeen te roepen. Meteen ontstond een conflict over de stemprocedure. Op 17 juni verklaarde de derde stand zich tot Nationale Vergadering.",
+      "place": "Versailles",
+      "modules": [
+        15
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "bastille-1789",
+      "year_label": "14 juli 1789",
+      "sort_year": 1789,
+      "era": "Revoluties en industrialisatie",
+      "title": "De val van de Bastille",
+      "summary": "Parijzenaars bestormen het stadsfort waarin zeven gevangenen zaten.",
+      "description": "De bestorming volgde op het ontslag van minister Necker en op de zoektocht naar wapens en buskruit. Ze werd een blijvend symbool van de val van het oude gezag.",
+      "place": "Parijs",
+      "modules": [
+        15
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "verklaring-rechten-mens-burger-1789",
+      "year_label": "26 augustus 1789",
+      "sort_year": 1789,
+      "era": "Revoluties en industrialisatie",
+      "title": "De Verklaring van de rechten van de mens en de burger",
+      "summary": "De Nationale Vergadering neemt een verklaring van zeventien artikelen aan.",
+      "description": "De verklaring werd vastgesteld in de zittingen van 20 tot en met 26 augustus 1789. Ze noemt mensen vrij en gelijk in rechten en legt de soevereiniteit bij de natie. Het schilderij van Le Barbier in het Musée Carnavalet geeft de tekst weer.",
+      "place": "Parijs",
+      "modules": [
+        15
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "haitiaanse-opstand-1791",
+      "year_label": "augustus 1791",
+      "sort_year": 1791,
+      "era": "Revoluties en industrialisatie",
+      "title": "De opstand van tot slaaf gemaakten in Saint-Domingue",
+      "summary": "Begin van de Haïtiaanse Revolutie in het noorden van de Franse kolonie.",
+      "description": "In augustus 1791 brak in het noorden van Saint-Domingue een grootschalige opstand uit van tot slaaf gemaakten. De strijd duurde tot 1804 en kende ingrepen van Frankrijk, Spanje en Groot-Brittannië.",
+      "place": "Saint-Domingue",
+      "modules": [
+        15
+      ],
+      "people": [
+        "toussaint-louverture"
+      ],
+      "image": null
+    },
+    {
+      "id": "terreur-1793-1794",
+      "year_label": "september 1793 – juli 1794",
+      "sort_year": 1793,
+      "era": "Revoluties en industrialisatie",
+      "title": "De Terreur",
+      "summary": "Een periode van uitzonderlijk geweld onder het Comité van Openbare Veiligheid.",
+      "description": "De Wet op de verdachten van september 1793 maakte op grote schaal arrestaties mogelijk. Naar schatting werden ruim zestienduizend mensen formeel ter dood gebracht. Op 27 juli 1794 werd Robespierre ten val gebracht.",
+      "place": "Frankrijk",
+      "modules": [
+        15
+      ],
+      "people": [
+        "robespierre"
+      ],
+      "image": null
+    },
+    {
+      "id": "tula-opstand-1795",
+      "year_label": "17 augustus 1795",
+      "sort_year": 1795,
+      "era": "Vroegmoderne tijd",
+      "title": "De opstand van Tula",
+      "summary": "Op Curaçao komen tot slaaf gemaakten onder leiding van Tula in opstand.",
+      "description": "De opstand werd neergeslagen; Tula werd op 3 oktober 1795 terechtgesteld. In 2023 rehabiliteerde de Nederlandse regering hem.",
+      "place": "Curaçao",
+      "modules": [
+        14
+      ],
+      "people": [
+        "tula"
+      ],
+      "image": null
+    },
+    {
+      "id": "bataafse-republiek-1795",
+      "year_label": "januari 1795",
+      "sort_year": 1795,
+      "era": "Revoluties en industrialisatie",
+      "title": "De Bataafse Republiek",
+      "summary": "Franse troepen en patriotten maken een einde aan het stadhouderlijk bestel.",
+      "description": "In januari 1795 trokken Franse troepen de Republiek binnen. Op 18 januari vluchtte Willem V naar Engeland. Op 31 januari werd een Verklaring van de rechten van de mens en de burger afgekondigd.",
+      "place": "Republiek der Verenigde Nederlanden",
+      "modules": [
+        15
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "staatsregeling-1798",
+      "year_label": "1 mei 1798",
+      "sort_year": 1798,
+      "era": "Revoluties en industrialisatie",
+      "title": "De Staatsregeling van 1798",
+      "summary": "De federatie van gewesten wordt een eenheidsstaat.",
+      "description": "Na een staatsgreep van de eenheidsgezinde partij in januari 1798 werd in het voorjaar een nieuwe Staatsregeling aangenomen. Ze voerde departementen in en maakte de Bataafse Republiek tot een eenheidsstaat.",
+      "place": "Den Haag",
+      "modules": [
+        15
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "napoleon-staatsgreep-1799",
+      "year_label": "9 november 1799",
+      "sort_year": 1799,
+      "era": "Revoluties en industrialisatie",
+      "title": "Napoleons staatsgreep van 18 brumaire",
+      "summary": "Napoleon Bonaparte grijpt de macht in Frankrijk.",
+      "description": "Na het bewind van het Directoire greep generaal Napoleon Bonaparte op 9 november 1799 de macht en werd eerste consul.",
+      "place": "Parijs",
+      "modules": [
+        15
+      ],
+      "people": [
+        "napoleon"
+      ],
+      "image": null
+    },
+    {
+      "id": "haiti-onafhankelijk-1804",
+      "year_label": "1 januari 1804",
+      "sort_year": 1804,
+      "era": "Revoluties en industrialisatie",
+      "title": "Haïti verklaart zich onafhankelijk",
+      "summary": "De eerste staat die voortkwam uit een opstand van tot slaaf gemaakten.",
+      "description": "Jean-Jacques Dessalines riep op 1 januari 1804 in Gonaïves de onafhankelijkheid uit en gaf het land de naam Haïti. Frankrijk erkende de onafhankelijkheid pas in 1825, tegen een zware schadeloosstelling.",
+      "place": "Gonaïves, Haïti",
+      "modules": [
+        15
+      ],
+      "people": [
+        "jean-jacques-dessalines"
+      ],
+      "image": null
+    },
+    {
+      "id": "code-civil-1804",
+      "year_label": "21 maart 1804",
+      "sort_year": 1804,
+      "era": "Revoluties en industrialisatie",
+      "title": "De Code civil",
+      "summary": "Een geordend wetboek legt gelijkheid voor de wet en eigendomsrecht vast.",
+      "description": "De *Code civil des Français* werd ook ingevoerd in veroverde en verbonden gebieden, in Nederland in 1811. Het versterkte de macht van de man in het gezin.",
+      "place": "Parijs",
+      "modules": [
+        15
+      ],
+      "people": [
+        "napoleon"
+      ],
+      "image": null
+    },
+    {
+      "id": "koninkrijk-holland-1806",
+      "year_label": "1806",
+      "sort_year": 1806,
+      "era": "Revoluties en industrialisatie",
+      "title": "Het Koninkrijk Holland",
+      "summary": "Napoleons broer Lodewijk wordt koning van Holland.",
+      "description": "In 1806 maakte Napoleon een einde aan de Bataafse Republiek en benoemde zijn broer Lodewijk Napoleon tot koning. De hoofdstad was Amsterdam.",
+      "place": "Amsterdam",
+      "modules": [
+        15
+      ],
+      "people": [
+        "lodewijk-napoleon"
+      ],
+      "image": null
+    },
+    {
+      "id": "inlijving-nederland-1810",
+      "year_label": "9 juli 1810",
+      "sort_year": 1810,
+      "era": "Revoluties en industrialisatie",
+      "title": "Nederland wordt ingelijfd bij Frankrijk",
+      "summary": "Napoleon lijft het Koninkrijk Holland in bij het Franse keizerrijk.",
+      "description": "Lodewijk Napoleon deed op 2 juli 1810 afstand van de troon. Op 9 juli 1810 volgde de inlijving bij decreet van Napoleon. Tot 1813 was Nederland een deel van Frankrijk.",
+      "place": "Parijs / Amsterdam",
+      "modules": [
+        15
+      ],
+      "people": [
+        "napoleon",
+        "lodewijk-napoleon"
+      ],
+      "image": null
+    },
+    {
+      "id": "luddieten-1811",
+      "year_label": "1811 – 1816",
+      "sort_year": 1811,
+      "era": "Revoluties en industrialisatie",
+      "title": "De luddieten",
+      "summary": "Arbeiders in Midlands en noorden van Engeland breken machines om werkgevers onder druk te zetten.",
+      "description": "De acties richtten zich vooral tegen werkgevers die afspraken over loon en vakmanschap omzeilden. De regering reageerde met soldaten en in 1812 met strengere straffen voor machineverwoesting.",
+      "place": "Engeland",
+      "modules": [
+        16
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "waterloo-1815",
+      "year_label": "18 juni 1815",
+      "sort_year": 1815,
+      "era": "Revoluties en industrialisatie",
+      "title": "De slag bij Waterloo",
+      "summary": "Napoleon wordt definitief verslagen.",
+      "description": "Na zijn terugkeer van Elba, de Honderd Dagen, werd Napoleon op 18 juni 1815 bij Waterloo verslagen en naar Sint-Helena verbannen.",
+      "place": "Waterloo, België",
+      "modules": [
+        15
+      ],
+      "people": [
+        "napoleon"
+      ],
+      "image": null
+    },
+    {
+      "id": "koninkrijk-der-nederlanden-1815",
+      "year_label": "16 maart 1815",
+      "sort_year": 1815,
+      "era": "Revoluties en industrialisatie",
+      "title": "Het Koninkrijk der Nederlanden",
+      "summary": "Willem I wordt koning van de Verenigde Nederlanden, inclusief de zuidelijke gewesten.",
+      "description": "Willem Frederik keerde in november 1813 terug uit Engeland, werd in december 1813 soeverein vorst en in 1815 koning Willem I.",
+      "place": "Den Haag",
+      "modules": [
+        15
+      ],
+      "people": [],
+      "image": null
+    },
+    {
       "id": "ranke-eerste-boek",
       "year_label": "1824",
       "sort_year": 1824,
@@ -2091,6 +2753,68 @@
       "image": null
     },
     {
+      "id": "liverpool-manchester-spoorlijn-1830",
+      "year_label": "15 september 1830",
+      "sort_year": 1830,
+      "era": "Revoluties en industrialisatie",
+      "title": "De spoorlijn Liverpool-Manchester",
+      "summary": "De eerste spoorlijn tussen twee grote steden met uitsluitend stoomlocomotieven en een dienstregeling.",
+      "description": "Op de openingsdag kwam het Lagerhuislid William Huskisson om het leven. De lijn werd snel een belangrijke verbinding voor katoen, goederen en passagiers.",
+      "place": "Liverpool en Manchester",
+      "modules": [
+        16
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "factory-act-1833",
+      "year_label": "1833",
+      "sort_year": 1833,
+      "era": "Revoluties en industrialisatie",
+      "title": "De Engelse Factory Act",
+      "summary": "De wet verbiedt arbeid van kinderen onder negen jaar in de meeste textielfabrieken en stelt inspecteurs aan.",
+      "description": "De wet beperkte ook de werktijd van oudere kinderen en jongeren. Het kleine aantal inspecteurs beperkte de werking, maar de staat greep voor het eerst structureel in op de arbeid in fabrieken.",
+      "place": "Engeland",
+      "modules": [
+        16
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "amsterdam-haarlem-spoorlijn-1839",
+      "year_label": "1839",
+      "sort_year": 1839,
+      "era": "Revoluties en industrialisatie",
+      "title": "De eerste Nederlandse spoorlijn",
+      "summary": "De lijn tussen Amsterdam en Haarlem opent als eerste spoorlijn van Nederland.",
+      "description": "De spoorlijn kwam veertien jaar na Stockton-Darlington en negen jaar na Liverpool-Manchester. De Nederlandse industrialisatie kwam pas na ongeveer 1860 echt op gang.",
+      "place": "Amsterdam en Haarlem",
+      "modules": [
+        16
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "engels-lage-1845",
+      "year_label": "1845",
+      "sort_year": 1845,
+      "era": "Revoluties en industrialisatie",
+      "title": "Engels: De toestand van de arbeidersklasse in Engeland",
+      "summary": "Friedrich Engels publiceert zijn beschrijving van de leefomstandigheden van arbeiders in Manchester.",
+      "description": "Engels schreef het boek na zijn verblijf in Manchester (1842-1844), op grond van eigen waarneming en officiële rapporten. Het verscheen in 1845 in Leipzig in het Duits en pas in 1887 in het Engels.",
+      "place": "Leipzig, over Manchester",
+      "modules": [
+        16
+      ],
+      "people": [
+        "friedrich-engels"
+      ],
+      "image": null
+    },
+    {
       "id": "afschaffing-slavernij-1863",
       "year_label": "1 juli 1863",
       "sort_year": 1863,
@@ -2100,9 +2824,27 @@
       "description": "Eigenaren ontvingen compensatie (in Suriname 300 gulden per tot slaaf gemaakte), de tot slaaf gemaakten niet. In Suriname bleven de bevrijden tot 1873 onder staatstoezicht.",
       "place": "Suriname en de Nederlandse Antillen",
       "modules": [
-        2
+        2,
+        15
       ],
       "people": [],
+      "image": null
+    },
+    {
+      "id": "kinderwetje-van-houten-1874",
+      "year_label": "1874",
+      "sort_year": 1874,
+      "era": "Revoluties en industrialisatie",
+      "title": "Het Kinderwetje van Van Houten",
+      "summary": "De Nederlandse wet verbiedt kinderen onder twaalf jaar te werken in fabrieken en werkplaatsen.",
+      "description": "De wet was beperkt: landbouwarbeid bleef toegestaan en het toezicht was in de eerste jaren zwak.",
+      "place": "Den Haag",
+      "modules": [
+        16
+      ],
+      "people": [
+        "samuel-van-houten"
+      ],
       "image": null
     },
     {
@@ -2120,6 +2862,38 @@
       "people": [
         "sanz-de-sautuola"
       ],
+      "image": null
+    },
+    {
+      "id": "toynbee-lectures-1884",
+      "year_label": "1884",
+      "sort_year": 1884,
+      "era": "Revoluties en industrialisatie",
+      "title": "Toynbee: Lectures on the Industrial Revolution",
+      "summary": "Postuum verschijnen de lezingen waarin Toynbee de term industriële revolutie gangbaar maakt.",
+      "description": "Arnold Toynbee hield de lezingen in Oxford in 1881-1882 en overleed in 1883. Hij zag in de jaren rond 1760 een scherpe breuk.",
+      "place": "Oxford",
+      "modules": [
+        16
+      ],
+      "people": [
+        "arnold-toynbee"
+      ],
+      "image": null
+    },
+    {
+      "id": "philips-eindhoven-1891",
+      "year_label": "1891",
+      "sort_year": 1891,
+      "era": "Revoluties en industrialisatie",
+      "title": "Philips begint in Eindhoven",
+      "summary": "Gerard Philips en zijn vader Frederik beginnen in Eindhoven een fabriek voor gloeilampen.",
+      "description": "Philips staat symbool voor de late Nederlandse industrialisatie en voor de overgang van textiel naar elektrotechniek.",
+      "place": "Eindhoven",
+      "modules": [
+        16
+      ],
+      "people": [],
       "image": null
     },
     {
@@ -2191,6 +2965,23 @@
       "image": null
     },
     {
+      "id": "james-black-jacobins-1938",
+      "year_label": "1938",
+      "sort_year": 1938,
+      "era": "Revoluties en industrialisatie",
+      "title": "C.L.R. James: The Black Jacobins",
+      "summary": "De Haïtiaanse Revolutie als eigen drijvende kracht in de wereldgeschiedenis.",
+      "description": "C.L.R. James schreef *The Black Jacobins* over Toussaint Louverture en de Haïtiaanse Revolutie.",
+      "place": "Londen",
+      "modules": [
+        15
+      ],
+      "people": [
+        "clr-james"
+      ],
+      "image": null
+    },
+    {
       "id": "bloch-feodale-samenleving-1939",
       "year_label": "1939 – 1940",
       "sort_year": 1939,
@@ -2204,6 +2995,23 @@
       ],
       "people": [
         "marc-bloch"
+      ],
+      "image": null
+    },
+    {
+      "id": "lefebvre-quatre-vingt-neuf-1939",
+      "year_label": "1939",
+      "sort_year": 1939,
+      "era": "Revoluties en industrialisatie",
+      "title": "Lefebvre: Quatre-vingt-neuf",
+      "summary": "De klassieke marxistische lezing van het begin van de Franse Revolutie.",
+      "description": "Georges Lefebvre beschrijft de revolutie van 1789 als een burgerlijke revolutie met bijdragen van stedelijke en agrarische bewegingen.",
+      "place": "Parijs",
+      "modules": [
+        15
+      ],
+      "people": [
+        "georges-lefebvre"
       ],
       "image": null
     },
@@ -2293,6 +3101,23 @@
       "image": null
     },
     {
+      "id": "cobban-myth-1954",
+      "year_label": "1954",
+      "sort_year": 1954,
+      "era": "Revoluties en industrialisatie",
+      "title": "Cobban: The Myth of the French Revolution",
+      "summary": "Een inaugurele rede die de sociale interpretatie van de Franse Revolutie aanvalt.",
+      "description": "Alfred Cobban hield in 1954 een inaugurele rede en werkte zijn kritiek in 1964 uit in *The Social Interpretation of the French Revolution*.",
+      "place": "Londen",
+      "modules": [
+        15
+      ],
+      "people": [
+        "alfred-cobban"
+      ],
+      "image": null
+    },
+    {
       "id": "deltawet-1957",
       "year_label": "5 november 1957",
       "sort_year": 1957,
@@ -2321,6 +3146,23 @@
       ],
       "people": [
         "wittfogel"
+      ],
+      "image": null
+    },
+    {
+      "id": "palmer-democratic-revolution-1959",
+      "year_label": "1959 – 1964",
+      "sort_year": 1959,
+      "era": "Revoluties en industrialisatie",
+      "title": "Palmer: The Age of the Democratic Revolution",
+      "summary": "De revoluties aan beide zijden van de Atlantische Oceaan als één golf.",
+      "description": "R.R. Palmer beschreef in twee delen (1959 en 1964) de revoluties van 1760 tot 1800 als delen van één democratische golf.",
+      "place": "Princeton",
+      "modules": [
+        15
+      ],
+      "people": [
+        "rr-palmer"
       ],
       "image": null
     },
@@ -2426,6 +3268,23 @@
       "image": null
     },
     {
+      "id": "furet-penser-revolution-1978",
+      "year_label": "1978",
+      "sort_year": 1978,
+      "era": "Revoluties en industrialisatie",
+      "title": "Furet: Penser la Révolution française",
+      "summary": "Furet benadrukt het politieke en ideologische karakter van de revolutie.",
+      "description": "François Furet verdedigde dat de Franse Revolutie vooral een politiek en ideologisch proces was en raakte in strijd met de marxistische school.",
+      "place": "Parijs",
+      "modules": [
+        15
+      ],
+      "people": [
+        "francois-furet"
+      ],
+      "image": null
+    },
+    {
       "id": "oosterscheldekering-1986",
       "year_label": "4 oktober 1986",
       "sort_year": 1986,
@@ -2526,6 +3385,40 @@
       "image": null
     },
     {
+      "id": "darnton-forbidden-best-sellers-1995",
+      "year_label": "1995",
+      "sort_year": 1995,
+      "era": "Revoluties en industrialisatie",
+      "title": "Darnton: The Forbidden Best-Sellers of Pre-Revolutionary France",
+      "summary": "Wat las men werkelijk vóór 1789?",
+      "description": "Robert Darnton gebruikte archieven van een Zwitserse uitgeverij om te laten zien dat naast filosofische werken veel schotschriften en pornografische romans werden besteld.",
+      "place": "Princeton",
+      "modules": [
+        15
+      ],
+      "people": [
+        "robert-darnton"
+      ],
+      "image": null
+    },
+    {
+      "id": "de-vries-van-der-woude-1997",
+      "year_label": "1997",
+      "sort_year": 1997,
+      "era": "Nederland in de wereld",
+      "title": "De Vries en Van der Woude: The First Modern Economy",
+      "summary": "Een invloedrijke studie van de Nederlandse economie van 1500 tot 1815.",
+      "description": "De auteurs betogen dat de Republiek vroeg kenmerken van een moderne economie had.",
+      "place": "Verenigde Staten, Nederland",
+      "modules": [
+        14
+      ],
+      "people": [
+        "de-vries-en-van-der-woude"
+      ],
+      "image": null
+    },
+    {
       "id": "hillenbrand-islamic-perspectives-1999",
       "year_label": "1999",
       "sort_year": 1999,
@@ -2556,6 +3449,40 @@
       ],
       "people": [
         "henk-van-nierop"
+      ],
+      "image": null
+    },
+    {
+      "id": "pomeranz-great-divergence-2000",
+      "year_label": "2000",
+      "sort_year": 2000,
+      "era": "Revoluties en industrialisatie",
+      "title": "Pomeranz: The Great Divergence",
+      "summary": "Kenneth Pomeranz verklaart het uiteenlopen van Europa en China uit steenkool en koloniale hulpbronnen.",
+      "description": "Hij vergelijkt Engeland met de delta van de Yangtze. Het boek maakte de term Great Divergence tot een standaardbegrip.",
+      "place": "Verenigde Staten",
+      "modules": [
+        16
+      ],
+      "people": [
+        "kenneth-pomeranz"
+      ],
+      "image": null
+    },
+    {
+      "id": "israel-radical-enlightenment-2001",
+      "year_label": "2001",
+      "sort_year": 2001,
+      "era": "Revoluties en industrialisatie",
+      "title": "Israel: Radical Enlightenment",
+      "summary": "De radicale Verlichting rond Spinoza als bron van moderne democratische ideeën.",
+      "description": "Jonathan Israel onderscheidt een radicale van een gematigde Verlichting en legt de wortels van de eerste in de Republiek van de late 17e eeuw.",
+      "place": "Princeton",
+      "modules": [
+        15
+      ],
+      "people": [
+        "jonathan-israel"
       ],
       "image": null
     },
@@ -2627,6 +3554,38 @@
       "image": null
     },
     {
+      "id": "amsterdam-museum-gouden-eeuw-2019",
+      "year_label": "september 2019",
+      "sort_year": 2019,
+      "era": "Nederland in de wereld",
+      "title": "Het Amsterdam Museum en de Gouden Eeuw",
+      "summary": "Het museum stopt met de term Gouden Eeuw; het Rijksmuseum houdt hem.",
+      "description": "Het besluit opende een debat over woordkeuze en perspectief in de omgang met de 17e eeuw.",
+      "place": "Amsterdam",
+      "modules": [
+        14
+      ],
+      "people": [],
+      "image": null
+    },
+    {
+      "id": "brandon-bosma-slavernij-economie-2019",
+      "year_label": "2019",
+      "sort_year": 2019,
+      "era": "Nederland in de wereld",
+      "title": "Brandon en Bosma over slavernij en de economie",
+      "summary": "Een berekening van het aandeel van de Atlantische slavernij in de Nederlandse economie in 1770.",
+      "description": "Ze schatten ongeveer 5,2 procent van het bbp van de Republiek en ongeveer 10 procent van dat van Holland. Pieter Emmer betwistte die weging en benadrukte de overige 95 procent.",
+      "place": "Nederland",
+      "modules": [
+        14
+      ],
+      "people": [
+        "brandon-en-bosma"
+      ],
+      "image": null
+    },
+    {
       "id": "limes-werelderfgoed-2021",
       "year_label": "27 juli 2021",
       "sort_year": 2021,
@@ -2639,6 +3598,23 @@
         7
       ],
       "people": [],
+      "image": null
+    },
+    {
+      "id": "excuses-slavernijverleden-2022",
+      "year_label": "19 december 2022",
+      "sort_year": 2022,
+      "era": "Nederland in de wereld",
+      "title": "Excuses voor het slavernijverleden",
+      "summary": "Premier Rutte biedt namens de regering excuses aan; de koning volgt op 1 juli 2023.",
+      "description": "In oktober 2023 rehabiliteerde de regering ook Tula. De herdenking Keti Koti op 1 juli verwijst naar de afschaffing in 1863.",
+      "place": "Den Haag",
+      "modules": [
+        14
+      ],
+      "people": [
+        "tula"
+      ],
       "image": null
     }
   ]

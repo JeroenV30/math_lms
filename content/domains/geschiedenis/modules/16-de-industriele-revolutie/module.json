@@ -3,19 +3,150 @@
   "slug": "de-industriele-revolutie",
   "title": "De industriële revolutie",
   "part": 6,
-  "status": "planned",
+  "status": "available",
   "historical_period": "Ca. 1760 – 1900",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 240,
   "prerequisites": [
     1
   ],
   "topics": [
     "modern",
     "causation",
-    "continuity-change"
+    "continuity-change",
+    "sources",
+    "historiography"
   ],
   "core_question": "Waarom begon de industrialisatie in Engeland, en wat deed ze met het dagelijks leven?",
   "summary": "Stoomkracht, fabrieken en spoorwegen, de sociale kwestie en de late industrialisatie van Nederland.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een nacht in Coalbrookdale",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "waarom-engeland",
+      "title": "Waarom Engeland?",
+      "file": "02-waarom-engeland.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "techniek-en-fabriek",
+      "title": "Machines, stoom en fabrieken",
+      "file": "03-techniek-en-fabriek.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "dagelijks-leven-en-sociale-kwestie",
+      "title": "Dagelijks leven en de sociale kwestie",
+      "file": "04-dagelijks-leven-en-sociale-kwestie.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "nederland-en-de-wereld",
+      "title": "Nederland en de wereld",
+      "file": "05-nederland-en-de-wereld.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum: drie bronnen, één vraag",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen waarom de vraag 'waarom Engeland?' een vergelijkende vraag is, en voorwaarden, prikkels en aanleidingen van elkaar scheiden.",
+    "Je kunt de verklaringen van Allen (lonen en energie) en Mokyr (kennis) beschrijven en tegen elkaar afwegen.",
+    "Je kunt het verschil tussen een machine en een fabriek uitleggen en de belangrijkste techniek van 1712 tot 1830 in chronologische volgorde plaatsen.",
+    "Je kunt de gevolgen voor het dagelijks leven (verstedelijking, fabrieksarbeid, kinderarbeid, Factory Act 1833) beschrijven vanuit verschillende perspectieven.",
+    "Je kunt uitleggen waarom het standard of living-debat tot verschillende uitkomsten leidt en wat reële-lonencijfers wel en niet laten zien.",
+    "Je kunt de late industrialisatie van Nederland verklaren en vergelijken met Engeland, en het verband met slavernij en de Indiase textielproductie schetsen.",
+    "Je kunt de rol van Toynbee, Crafts en Harley, Pomeranz, Hobsbawm en Thompson in het historische debat herkennen en de term 'industriële revolutie' kritisch beoordelen.",
+    "Je kunt een schilderij, een boek en een berekening als bronnen van verschillend soort naast elkaar leggen voor één onderzoeksvraag."
+  ],
+  "glossary": [
+    {
+      "term": "Industriële revolutie",
+      "definition": "Term voor de omwenteling in productie, techniek en samenleving die vanaf de 18e eeuw in Engeland begon; Toynbee maakte hem gangbaar."
+    },
+    {
+      "term": "Fabriek",
+      "definition": "Productieplaats waar machines, krachtbron en arbeiders onder één dak en onder één gezag staan, met vaste uren."
+    },
+    {
+      "term": "Huisnijverheid",
+      "definition": "Productie in het eigen huis, waarbij het gezin zelf zijn werktempo bepaalt."
+    },
+    {
+      "term": "Spinning jenny",
+      "definition": "Handbediende spinmachine van Hargreaves waarmee één spinner meerdere draden tegelijk spon."
+    },
+    {
+      "term": "Waterframe",
+      "definition": "Door water aangedreven spinmachine van Arkwright die sterke draad maakte en een molen vereiste."
+    },
+    {
+      "term": "Reëel loon",
+      "definition": "Loon gecorrigeerd voor prijzen: wat arbeiders ervoor konden kopen."
+    },
+    {
+      "term": "Engels' pause",
+      "definition": "Door Robert Allen gebruikte term voor de periode ruwweg 1790-1840 waarin de productie per werker sterk steeg maar de reële lonen nauwelijks."
+    },
+    {
+      "term": "Luddieten",
+      "definition": "Arbeiders die in 1811-1816 machines braken om werkgevers onder druk te zetten over loon en vakmanschap."
+    },
+    {
+      "term": "Sociale kwestie",
+      "definition": "Het geheel van maatschappelijke problemen door industrialisatie, zoals armoede, slechte woningen en kinderarbeid."
+    },
+    {
+      "term": "Great Divergence",
+      "definition": "Term van Pomeranz voor het uiteenlopen van de economische ontwikkeling van Europa en Azië vanaf de 18e eeuw."
+    }
+  ],
+  "timeline": [
+    "newcomen-stoommachine",
+    "watt-condensor",
+    "cromford-molen-1771",
+    "luddieten-1811",
+    "liverpool-manchester-spoorlijn-1830",
+    "factory-act-1833",
+    "amsterdam-haarlem-spoorlijn-1839",
+    "engels-lage-1845",
+    "kinderwetje-van-houten-1874",
+    "philips-eindhoven-1891",
+    "toynbee-lectures-1884",
+    "pomeranz-great-divergence-2000"
+  ],
+  "people": [
+    "thomas-newcomen",
+    "james-watt",
+    "richard-arkwright",
+    "friedrich-engels",
+    "arnold-toynbee",
+    "eric-williams",
+    "robert-allen",
+    "joel-mokyr",
+    "kenneth-pomeranz",
+    "samuel-van-houten",
+    "e-p-thompson",
+    "eric-hobsbawm"
+  ]
 }

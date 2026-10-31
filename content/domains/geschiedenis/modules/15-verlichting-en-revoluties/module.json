@@ -3,19 +3,187 @@
   "slug": "verlichting-en-revoluties",
   "title": "Verlichting en revoluties",
   "part": 6,
-  "status": "planned",
+  "status": "available",
   "historical_period": "Ca. 1680 – 1815",
-  "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_difficulty": 3,
+  "estimated_minutes": 210,
   "prerequisites": [
     1
   ],
   "topics": [
     "modern",
     "causation",
-    "contextualisation"
+    "contextualisation",
+    "perspective",
+    "historiography"
   ],
   "core_question": "Waren de revoluties het gevolg van nieuwe ideeën?",
   "summary": "De Verlichting, de Amerikaanse en Franse Revolutie, de Bataafse Republiek en de vraag hoe ideeën en omstandigheden samenwerken.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een schilderij met zeventien artikelen",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "de-verlichting-als-netwerk",
+      "title": "De Verlichting als netwerk",
+      "file": "02-de-verlichting-als-netwerk.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "de-amerikaanse-revolutie",
+      "title": "De Amerikaanse Revolutie",
+      "file": "03-de-amerikaanse-revolutie.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "de-franse-revolutie",
+      "title": "De Franse Revolutie",
+      "file": "04-de-franse-revolutie.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "haiti-en-de-bataafse-republiek",
+      "title": "Haïti en de Bataafse Republiek",
+      "file": "05-haiti-en-de-bataafse-republiek.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum: hoe universeel waren de beginselen?",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en toets",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen waarom de Verlichting een netwerk van mensen, teksten en plaatsen was en geen school, en welke grenzen dat gesprek had.",
+    "Je kunt de oorzaken van de Amerikaanse Revolutie op lange en korte termijn scheiden en de rol van ideeën en omstandigheden wegen.",
+    "Je kunt de oorzaken van de Franse Revolutie beschrijven, van financiën en oogst tot politiek en ideeën, en wegen met de proef van het ontbrekende ingrediënt.",
+    "Je kunt de Haïtiaanse Revolutie plaatsen als eigen revolutie met een eigen perspectief.",
+    "Je kunt de ontwikkeling van patriotten tot Koninkrijk der Nederlanden in volgorde zetten en verklaren waarom 1795 lukte en 1787 niet.",
+    "Je kunt interpretaties van historici vergelijken op vraag, bronnen en uitgangspunt, en een bronfragment lezen zonder er latere gebeurtenissen in terug te lezen."
+  ],
+  "glossary": [
+    {
+      "term": "Verlichting",
+      "definition": "Europese denkstroom van ca. 1680 tot 1800 die gezag, geloof en gewoonte aan de rede wilde toetsen."
+    },
+    {
+      "term": "Soevereiniteit",
+      "definition": "De hoogste gezagsmacht in een staat. In 1789 werd ze bij de natie gelegd in plaats van bij de koning."
+    },
+    {
+      "term": "Staten-Generaal",
+      "definition": "De vergadering van de drie standen in Frankrijk, in 1789 voor het eerst sinds 1614 bijeengeroepen."
+    },
+    {
+      "term": "Derde stand",
+      "definition": "In het Franse standenbestel iedereen die geen adel of geestelijke was, ruim 95 procent van de bevolking."
+    },
+    {
+      "term": "Terreur",
+      "definition": "De periode van september 1793 tot juli 1794 waarin Frankrijk met uitzonderlijk geweld werd bestuurd."
+    },
+    {
+      "term": "Patriotten",
+      "definition": "In de Republiek van de jaren 1780 de beweging van burgers tegen het gezag van stadhouder Willem V."
+    },
+    {
+      "term": "Staatsregeling",
+      "definition": "Naam van de grondwetten van de Bataafse Republiek, de eerste in modern-grondwettelijke zin in 1798."
+    },
+    {
+      "term": "Eenheidsstaat",
+      "definition": "Een staat met één centraal bestuur, in tegenstelling tot een federatie van zelfstandige gewesten."
+    },
+    {
+      "term": "Presentisme",
+      "definition": "Het verleden lezen vanuit wat wij nu belangrijk of vanzelfsprekend vinden."
+    },
+    {
+      "term": "Noodzakelijke voorwaarde",
+      "definition": "Een factor zonder welke het gevolg niet zou zijn opgetreden, maar die het gevolg niet alleen verklaart."
+    },
+    {
+      "term": "Revisionisme",
+      "definition": "Een richting in de geschiedschrijving die een gevestigde interpretatie herziet, hier de sociale verklaring van de Franse Revolutie."
+    },
+    {
+      "term": "Atlantische revoluties",
+      "definition": "De gedachte dat de revoluties aan beide zijden van de Atlantische Oceaan samen één golf vormden."
+    }
+  ],
+  "timeline": [
+    "locke-two-treatises-1690",
+    "voltaire-lettres-philosophiques-1734",
+    "montesquieu-esprit-des-lois-1748",
+    "encyclopedie-1751",
+    "rousseau-contrat-social-1762",
+    "amerikaanse-onafhankelijkheidsverklaring-1776",
+    "patriotten-aan-het-volk-1781",
+    "nederland-erkent-vs-1782",
+    "kant-was-ist-aufklaerung-1784",
+    "grondwet-vs-1787",
+    "pruisische-inval-1787",
+    "staten-generaal-1789",
+    "bastille-1789",
+    "verklaring-rechten-mens-burger-1789",
+    "haitiaanse-opstand-1791",
+    "terreur-1793-1794",
+    "bataafse-republiek-1795",
+    "staatsregeling-1798",
+    "napoleon-staatsgreep-1799",
+    "haiti-onafhankelijk-1804",
+    "code-civil-1804",
+    "koninkrijk-holland-1806",
+    "inlijving-nederland-1810",
+    "waterloo-1815",
+    "koninkrijk-der-nederlanden-1815",
+    "lefebvre-quatre-vingt-neuf-1939",
+    "james-black-jacobins-1938",
+    "cobban-myth-1954",
+    "palmer-democratic-revolution-1959",
+    "furet-penser-revolution-1978",
+    "darnton-forbidden-best-sellers-1995",
+    "israel-radical-enlightenment-2001",
+    "afschaffing-slavernij-1863"
+  ],
+  "people": [
+    "locke",
+    "montesquieu",
+    "voltaire",
+    "kant",
+    "denis-diderot",
+    "olympe-de-gouges",
+    "thomas-jefferson",
+    "john-adams",
+    "joan-derk-van-der-capellen",
+    "robespierre",
+    "napoleon",
+    "lodewijk-napoleon",
+    "toussaint-louverture",
+    "jean-jacques-dessalines",
+    "georges-lefebvre",
+    "alfred-cobban",
+    "francois-furet",
+    "robert-darnton",
+    "rr-palmer",
+    "clr-james",
+    "rousseau",
+    "jonathan-israel"
+  ]
 }

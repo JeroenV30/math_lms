@@ -1,0 +1,502 @@
+{
+  "title": "Hoofdstuktoets – Verlichting en revoluties",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "15-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Welke omschrijving van de Verlichting past het best bij het beeld dat historici nu van haar hebben?",
+      "choices": [
+        "Een netwerk van denkers, uitgevers en lezers met uiteenlopende opvattingen",
+        "Een politieke partij met een vast revolutionair programma",
+        "Een kerkelijke hervormingsbeweging",
+        "Een beweging die alleen in Parijs bestond"
+      ],
+      "answer": "Een netwerk van denkers, uitgevers en lezers met uiteenlopende opvattingen",
+      "hints": [],
+      "solution": [
+        "De Verlichting was een lange reeks gesprekken tussen mensen in heel Europa. Ze hadden geen gezamenlijk programma."
+      ],
+      "feedback": [
+        {
+          "answer": "Een politieke partij met een vast revolutionair programma",
+          "message": "De denkers waren het vaak oneens en hadden geen partijorganisatie."
+        },
+        {
+          "answer": "Een kerkelijke hervormingsbeweging",
+          "message": "Veel denkers stonden kritisch tegenover kerkelijk gezag, maar het was geen kerkelijke beweging."
+        },
+        {
+          "answer": "Een beweging die alleen in Parijs bestond",
+          "message": "Locke, Kant en uitgevers in de Republiek laten zien dat ze internationaal was."
+        }
+      ],
+      "topics": [
+        "modern",
+        "historiography"
+      ]
+    },
+    {
+      "id": "15-T02",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Zet deze teksten in de volgorde waarin ze verschenen, de oudste eerst.",
+      "answer": [
+        "Locke, Two Treatises of Government (1690)",
+        "Voltaire, Lettres philosophiques (1734)",
+        "Montesquieu, De l'esprit des lois (1748)",
+        "Rousseau, Du contrat social (1762)",
+        "Kant, Was ist Aufklärung? (1784)"
+      ],
+      "hints": [],
+      "solution": [
+        "1690, 1734, 1748, 1762, 1784."
+      ],
+      "topics": [
+        "chronology",
+        "modern"
+      ]
+    },
+    {
+      "id": "15-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "context": "Kant, *Beantwoording van de vraag: Was ist Aufklärung?* (Berlinische Monatsschrift, december 1784), vrij vertaald: verlichting is de uitweg van de mens uit zijn zelfverschuldigde onmondigheid.",
+      "question": "Wat kan een historicus met dit fragment wel aantonen?",
+      "choices": [
+        "Dat er in 1784 in Duitse tijdschriften openlijk over zelfstandig denken werd geschreven",
+        "Dat Kant de Franse Revolutie voorbereidde",
+        "Dat alle Europeanen in 1784 zo dachten",
+        "Dat Pruisen in 1784 een democratie was"
+      ],
+      "answer": "Dat er in 1784 in Duitse tijdschriften openlijk over zelfstandig denken werd geschreven",
+      "hints": [],
+      "solution": [
+        "Het fragment is een bewijs van een gedachte en een publiek in 1784. Een oorzakelijk verband met 1789 of de gedachte van alle Europeanen volgt er niet uit."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat Kant de Franse Revolutie voorbereidde",
+          "message": "Dat is een oorzakelijke bewering die dit fragment niet kan dragen."
+        },
+        {
+          "answer": "Dat alle Europeanen in 1784 zo dachten",
+          "message": "Een tekst van één auteur vertegenwoordigt niet alle Europeanen."
+        },
+        {
+          "answer": "Dat Pruisen in 1784 een democratie was",
+          "message": "Pruisen was een monarchie."
+        }
+      ],
+      "topics": [
+        "sources",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "15-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom maakten de Amerikaanse kolonisten in 1765 bezwaar tegen de Stamp Act?",
+      "choices": [
+        "Het Britse parlement legde de belasting op terwijl de kolonisten daarin geen afgevaardigden hadden",
+        "De belasting was hoger dan elke eerdere belasting in Europa",
+        "De kolonisten wilden onmiddellijk een eigen staat",
+        "De Stamp Act verbood de pers in de kolonies"
+      ],
+      "answer": "Het Britse parlement legde de belasting op terwijl de kolonisten daarin geen afgevaardigden hadden",
+      "hints": [],
+      "solution": [
+        "Het bezwaar was juridisch: belasting zonder vertegenwoordiging."
+      ],
+      "feedback": [
+        {
+          "answer": "De belasting was hoger dan elke eerdere belasting in Europa",
+          "message": "Het ging niet om de hoogte maar om het recht om haar op te leggen."
+        },
+        {
+          "answer": "De kolonisten wilden onmiddellijk een eigen staat",
+          "message": "In 1765 vroegen de meeste kolonisten nog om herstel van hun rechten binnen het Britse rijk."
+        },
+        {
+          "answer": "De Stamp Act verbood de pers in de kolonies",
+          "message": "Het was een belasting op gedrukte stukken, geen verbod."
+        }
+      ],
+      "topics": [
+        "causation",
+        "modern"
+      ]
+    },
+    {
+      "id": "15-T05",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Het Congres nam de Onafhankelijkheidsverklaring aan in 1776. In 1783 erkende Groot-Brittannië de onafhankelijkheid in de Vrede van Parijs. Hoeveel jaar zit daartussen?",
+      "answer": 7,
+      "unit": "jaar",
+      "hints": [],
+      "solution": [
+        "1783 - 1776 = 7 jaar."
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "15-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Onafhankelijkheidsverklaring (1776), vrij vertaald: onder de klachten tegen koning George III staat dat hij 'belastingen op ons legt zonder onze toestemming'.",
+      "question": "Wat is dit fragment voor de vraag naar de oorzaken van de Amerikaanse Revolutie?",
+      "choices": [
+        "Bewijs dat een concreet belastinggeschil in de eigen rechtvaardiging van de opstellers een centrale plaats had, naast het algemene beginsel",
+        "Bewijs dat de opstand alleen over geld ging",
+        "Bewijs dat de opstellers alle mensen vrij wilden maken",
+        "Bewijs dat de koning zelf de verklaring had geschreven"
+      ],
+      "answer": "Bewijs dat een concreet belastinggeschil in de eigen rechtvaardiging van de opstellers een centrale plaats had, naast het algemene beginsel",
+      "hints": [],
+      "solution": [
+        "Het fragment toont wat de opstellers zelf als grief noemden. Dat is geen bewijs van alle motieven, maar wel van hun rechtvaardiging."
+      ],
+      "feedback": [
+        {
+          "answer": "Bewijs dat de opstand alleen over geld ging",
+          "message": "Het fragment staat in een tekst die ook een algemeen beginsel noemt. Het bewijst niet dat het alleen om geld ging."
+        },
+        {
+          "answer": "Bewijs dat de opstellers alle mensen vrij wilden maken",
+          "message": "In de tekst blijkt dat niet, en veel opstellers hielden zelf tot slaaf gemaakten."
+        },
+        {
+          "answer": "Bewijs dat de koning zelf de verklaring had geschreven",
+          "message": "De verklaring is van het Congres, gericht tegen de koning."
+        }
+      ],
+      "topics": [
+        "sources",
+        "causation"
+      ]
+    },
+    {
+      "id": "15-T07",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen van de Franse crisis in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Calonne stelt een algemene grondbelasting voor (1786-1787)",
+        "Hagelslag en misoogst (zomer 1788)",
+        "De Staten-Generaal komen bijeen (5 mei 1789)",
+        "De Eed van de Kaatsbaan (20 juni 1789)",
+        "De Bastille valt (14 juli 1789)"
+      ],
+      "hints": [],
+      "solution": [
+        "1786-1787, zomer 1788, 5 mei 1789, 20 juni 1789, 14 juli 1789."
+      ],
+      "topics": [
+        "chronology",
+        "causation"
+      ]
+    },
+    {
+      "id": "15-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Verklaring van de rechten van de mens en de burger (1789), artikel 16, vrij vertaald: een samenleving waarin de waarborging van de rechten niet is verzekerd en de scheiding der machten niet is vastgelegd, heeft geen grondwet.",
+      "question": "Welke Verlichtingsdenker wordt in dit artikel herkenbaar weerspiegeld, en wat bewijst dat?",
+      "choices": [
+        "Montesquieu; het bewijst dat de opstellers zijn ideeën kenden, maar niet dat die de revolutie veroorzaakten",
+        "Locke; het bewijst dat zijn boek de revolutie veroorzaakte",
+        "Montesquieu; het bewijst dat zijn boek de revolutie veroorzaakte",
+        "Voltaire; het bewijst dat de revolutie een anti-kerkelijk karakter had"
+      ],
+      "answer": "Montesquieu; het bewijst dat de opstellers zijn ideeën kenden, maar niet dat die de revolutie veroorzaakten",
+      "hints": [],
+      "solution": [
+        "De scheiding der machten is het kenmerk van Montesquieu. Overeenkomst tussen tekst en denker bewijst kennis, geen oorzaak."
+      ],
+      "feedback": [
+        {
+          "answer": "Locke; het bewijst dat zijn boek de revolutie veroorzaakte",
+          "message": "De scheiding der machten is geen kenmerk van Locke maar van Montesquieu. En overeenkomst bewijst geen oorzaak."
+        },
+        {
+          "answer": "Montesquieu; het bewijst dat zijn boek de revolutie veroorzaakte",
+          "message": "Overeenkomst tussen tekst en denker bewijst kennis, geen oorzaak."
+        },
+        {
+          "answer": "Voltaire; het bewijst dat de revolutie een anti-kerkelijk karakter had",
+          "message": "Het fragment gaat over de scheiding van machten, niet over religie."
+        }
+      ],
+      "topics": [
+        "sources",
+        "causation"
+      ]
+    },
+    {
+      "id": "15-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat veranderde er in 1798 vooral in het bestuur van de Bataafse Republiek?",
+      "choices": [
+        "De federatie van gewesten werd een eenheidsstaat met een centraal bestuur",
+        "De stadhouder keerde terug",
+        "Nederland werd een koninkrijk",
+        "Nederland werd ingelijfd bij Frankrijk"
+      ],
+      "answer": "De federatie van gewesten werd een eenheidsstaat met een centraal bestuur",
+      "hints": [],
+      "solution": [
+        "De Staatsregeling van 1798 maakte een einde aan de federale gewesten. Het koninkrijk kwam in 1806 en de inlijving in 1810."
+      ],
+      "feedback": [
+        {
+          "answer": "De stadhouder keerde terug",
+          "message": "Willem V was in 1795 naar Engeland gevlucht. Zijn zoon keerde pas in 1813 terug."
+        },
+        {
+          "answer": "Nederland werd een koninkrijk",
+          "message": "Dat gebeurde in 1806."
+        },
+        {
+          "answer": "Nederland werd ingelijfd bij Frankrijk",
+          "message": "Dat gebeurde in 1810."
+        }
+      ],
+      "topics": [
+        "modern",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "15-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "context": "Grondwet van Saint-Domingue (1801), artikel 3, vrij vertaald: er kunnen in dit gebied geen slaven bestaan, de slavernij is er voor altijd afgeschaft, en alle mensen worden er vrij en Frans geboren, leven en sterven.",
+      "question": "Welke conclusie is op grond van alleen dit artikel te verantwoorden?",
+      "choices": [
+        "Dat het bestuur van de kolonie in 1801 de slavernij formeel verbood; over de praktijk of de opvattingen van de hele bevolking zegt het artikel niets",
+        "Dat de hele bevolking van de kolonie de slavernij had afgeschaft",
+        "Dat Frankrijk de onafhankelijkheid van de kolonie erkende",
+        "Dat Toussaint Louverture in 1801 de onafhankelijkheid uitriep"
+      ],
+      "answer": "Dat het bestuur van de kolonie in 1801 de slavernij formeel verbood; over de praktijk of de opvattingen van de hele bevolking zegt het artikel niets",
+      "hints": [],
+      "solution": [
+        "Een enkel artikel is bewijs voor wat een bestuur vastlegde, niet voor wat ieder dacht."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat de hele bevolking van de kolonie de slavernij had afgeschaft",
+          "message": "Een wettelijke bepaling zegt niets over wat iedereen deed of dacht."
+        },
+        {
+          "answer": "Dat Frankrijk de onafhankelijkheid van de kolonie erkende",
+          "message": "Frankrijk erkende de onafhankelijkheid pas in 1825."
+        },
+        {
+          "answer": "Dat Toussaint Louverture in 1801 de onafhankelijkheid uitriep",
+          "message": "De onafhankelijkheid werd op 1 januari 1804 door Dessalines uitgeroepen."
+        }
+      ],
+      "topics": [
+        "sources",
+        "perspective"
+      ]
+    },
+    {
+      "id": "15-T11",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke bewering past bij de marxistische interpretatie van Lefebvre en Soboul?",
+      "choices": [
+        "De revolutie was een strijd waarin een opkomende burgerij de feodale adel en haar privileges verdrong",
+        "De revolutie was vooral het werk van enkele Verlichtingsdenkers",
+        "De revolutie was een toevallig gevolg van een misoogst",
+        "De revolutie bestond vooral uit schotschriften en pornografie"
+      ],
+      "answer": "De revolutie was een strijd waarin een opkomende burgerij de feodale adel en haar privileges verdrong",
+      "hints": [],
+      "solution": [
+        "De marxistische lezing zoekt de oorzaak in klassenverhoudingen."
+      ],
+      "feedback": [
+        {
+          "answer": "De revolutie was vooral het werk van enkele Verlichtingsdenkers",
+          "message": "Dat is een ideeënverklaring, geen sociale."
+        },
+        {
+          "answer": "De revolutie was een toevallig gevolg van een misoogst",
+          "message": "Dat is een monocausale verklaring die Lefebvre en Soboul niet gaven."
+        },
+        {
+          "answer": "De revolutie bestond vooral uit schotschriften en pornografie",
+          "message": "Dat is een misverstand over Darnton."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "15-T12",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "context": "Naar Robert Darnton, *The Forbidden Best-Sellers of Pre-Revolutionary France* (1995), parafrase: in de bestellijsten van een Zwitserse uitgeverij stonden naast filosofische werken veel schotschriften en pornografische romans.",
+      "question": "Welke conclusie is op grond van dit gegeven te verantwoorden, en welke beperking geldt?",
+      "choices": [
+        "Er was veel vraag naar illegale lectuur die het gezag van het hof aantastte; de lijsten van één uitgever zeggen niet wat lezers ervan vonden of hoe representatief ze zijn",
+        "Alle Fransen lazen verboden boeken en werden daardoor revolutionair",
+        "De werken van Rousseau en Voltaire hadden nauwelijks lezers",
+        "Het verbod op boeken werkte volledig"
+      ],
+      "answer": "Er was veel vraag naar illegale lectuur die het gezag van het hof aantastte; de lijsten van één uitgever zeggen niet wat lezers ervan vonden of hoe representatief ze zijn",
+      "hints": [],
+      "solution": [
+        "Bestellijsten bewijzen vraag, niet effect."
+      ],
+      "feedback": [
+        {
+          "answer": "Alle Fransen lazen verboden boeken en werden daardoor revolutionair",
+          "message": "Dat is een veel te sterke generalisatie."
+        },
+        {
+          "answer": "De werken van Rousseau en Voltaire hadden nauwelijks lezers",
+          "message": "Het gegeven zegt dat ze niet de lijst aanvoerden, niet dat ze geen lezers hadden."
+        },
+        {
+          "answer": "Het verbod op boeken werkte volledig",
+          "message": "De handel bewijst het tegendeel."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "sources"
+      ]
+    },
+    {
+      "id": "15-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Welke kritiek wordt geuit op de visie van Jonathan Israel dat radicale denkers de revoluties vooral aandreven?",
+      "choices": [
+        "Hij maakt het gewicht van enkele radicale denkers te zwaar en kijkt te weinig naar de omstandigheden waarin hun teksten werden gelezen",
+        "Hij zou de Verlichting volledig ontkennen",
+        "Hij zou alleen aandacht hebben voor Franse denkers",
+        "Hij zou de revolutie uit de landbouwprijzen verklaren"
+      ],
+      "answer": "Hij maakt het gewicht van enkele radicale denkers te zwaar en kijkt te weinig naar de omstandigheden waarin hun teksten werden gelezen",
+      "hints": [],
+      "solution": [
+        "Israel kiest ideeën als hoofdoorzaak. De kritiek richt zich op dat zwaartepunt."
+      ],
+      "feedback": [
+        {
+          "answer": "Hij zou de Verlichting volledig ontkennen",
+          "message": "Israel benadrukt juist de Verlichting."
+        },
+        {
+          "answer": "Hij zou alleen aandacht hebben voor Franse denkers",
+          "message": "Israel legt de wortels juist in de Republiek en bij Spinoza."
+        },
+        {
+          "answer": "Hij zou de revolutie uit de landbouwprijzen verklaren",
+          "message": "Dat is het tegendeel van wat hij doet."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "15-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 5,
+      "question": "Een historicus stelt: 'Zonder de staatsschuld was de koning niet gedwongen de Staten-Generaal bijeen te roepen, dus de schuld is een noodzakelijke voorwaarde voor 1789.' Welke redeneervorm gebruikt hij?",
+      "choices": [
+        "De proef met het ontbrekende ingrediënt: hij denkt een factor weg om te zien of het gevolg blijft staan",
+        "Een bewijs uit een primaire bron",
+        "Een vergelijking van twee historici",
+        "Een argument van autoriteit"
+      ],
+      "answer": "De proef met het ontbrekende ingrediënt: hij denkt een factor weg om te zien of het gevolg blijft staan",
+      "hints": [],
+      "solution": [
+        "Hij denkt zich de schuld weg en kijkt wat er dan gebeurt. Dat is een tegenfeitelijke redenering."
+      ],
+      "feedback": [
+        {
+          "answer": "Een bewijs uit een primaire bron",
+          "message": "Hij citeert geen bron."
+        },
+        {
+          "answer": "Een vergelijking van twee historici",
+          "message": "Er is maar één historicus."
+        },
+        {
+          "answer": "Een argument van autoriteit",
+          "message": "Hij beroept zich niet op een autoriteit maar op een redenering."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "15-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 5,
+      "question": "Wat is de meest verantwoorde conclusie op de vraag of de revoluties het gevolg waren van nieuwe ideeën?",
+      "choices": [
+        "Ideeën waren een voorwaarde en een rechtvaardiging, maar niet toereikend zonder financiële, militaire en sociale omstandigheden; hoeveel gewicht ze krijgen blijft een kwestie van interpretatie",
+        "Ja, de revoluties volgden rechtstreeks uit de boeken van de Verlichting",
+        "Nee, ideeën speelden geen enkele rol",
+        "De vraag laat zich niet beantwoorden, want niemand weet iets van het verleden"
+      ],
+      "answer": "Ideeën waren een voorwaarde en een rechtvaardiging, maar niet toereikend zonder financiële, militaire en sociale omstandigheden; hoeveel gewicht ze krijgen blijft een kwestie van interpretatie",
+      "hints": [],
+      "solution": [
+        "Een verantwoorde conclusie weegt oorzaken en geeft de mate van zekerheid aan."
+      ],
+      "feedback": [
+        {
+          "answer": "Ja, de revoluties volgden rechtstreeks uit de boeken van de Verlichting",
+          "message": "Dat is monocausaal. Staatsschuld, oogst en oorlog speelden een noodzakelijke rol."
+        },
+        {
+          "answer": "Nee, ideeën speelden geen enkele rol",
+          "message": "Dat is de tegenovergestelde monocausale fout: ideeën leverden taal en rechtvaardiging."
+        },
+        {
+          "answer": "De vraag laat zich niet beantwoorden, want niemand weet iets van het verleden",
+          "message": "Geschiedenis kan wel degelijk onderbouwde, voorzichtige conclusies trekken."
+        }
+      ],
+      "topics": [
+        "causation",
+        "interpretation"
+      ]
+    }
+  ]
+}

@@ -121,7 +121,8 @@
         "Onderzoek en navraag als werkwijze"
       ],
       "modules": [
-        1
+        1,
+        6
       ],
       "timeline": [
         "herodotus-historien"
@@ -162,7 +163,8 @@
         "Kritische vergelijking van getuigen"
       ],
       "modules": [
-        1
+        1,
+        6
       ],
       "timeline": [
         "thucydides-peloponnesische-oorlog"
@@ -1529,6 +1531,130 @@
       "image": null
     },
     {
+      "id": "jan-pieterszoon-coen",
+      "name": "Coen",
+      "full_name": "Jan Pieterszoon Coen",
+      "lived": "1587 – 1629",
+      "sort_year": 1619,
+      "region": "Hoorn, Batavia",
+      "known_for": "Gouverneur-generaal van de VOC, stichter van Batavia en veroveraar van Banda.",
+      "bio": "Coen zette de VOC op een koers van geweld en monopolievorming. In 1619 stichtte hij Batavia en in 1621 werd Banda onder zijn leiding veroverd.",
+      "contributions": [
+        "Stichting van Batavia",
+        "Verovering van Banda"
+      ],
+      "modules": [
+        14
+      ],
+      "timeline": [
+        "batavia-gesticht-1619",
+        "banda-verovering-1621"
+      ],
+      "image": null
+    },
+    {
+      "id": "locke",
+      "name": "Locke",
+      "full_name": "John Locke",
+      "lived": "1632 – 1704",
+      "sort_year": 1632,
+      "region": "Engeland",
+      "known_for": "Politiek filosoof van natuurlijke rechten en regering bij instemming.",
+      "bio": "Locke schreef in zijn ballingschap in de Republiek (1683 – 1689) een groot deel van zijn belangrijkste werk. De *Two Treatises of Government* verschenen eind 1689, anoniem.",
+      "contributions": [
+        "Two Treatises of Government",
+        "Essay Concerning Human Understanding"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "locke-two-treatises-1690"
+      ],
+      "image": null
+    },
+    {
+      "id": "johan-de-witt",
+      "name": "De Witt",
+      "full_name": "Johan de Witt",
+      "lived": "1625 – 1672",
+      "sort_year": 1672,
+      "region": "Dordrecht, Holland",
+      "known_for": "Raadpensionaris van Holland in het eerste stadhouderloze tijdperk.",
+      "bio": "De Witt leidde de Hollandse politiek en werd in het Rampjaar 1672 samen met zijn broer Cornelis door een menigte vermoord.",
+      "contributions": [
+        "Leiding van de Hollandse politiek"
+      ],
+      "modules": [
+        14
+      ],
+      "timeline": [
+        "rampjaar-1672"
+      ],
+      "image": null
+    },
+    {
+      "id": "willem-iii",
+      "name": "Willem III",
+      "full_name": "Willem III van Oranje",
+      "lived": "1650 – 1702",
+      "sort_year": 1672,
+      "region": "Republiek, Engeland",
+      "known_for": "Stadhouder vanaf 1672.",
+      "bio": "Willem III werd in 1672 onder volksdruk stadhouder van Holland en leidde het verzet tegen Frankrijk.",
+      "contributions": [
+        "Stadhouder in het Rampjaar"
+      ],
+      "modules": [
+        14
+      ],
+      "timeline": [
+        "rampjaar-1672"
+      ],
+      "image": null
+    },
+    {
+      "id": "montesquieu",
+      "name": "Montesquieu",
+      "full_name": "Charles-Louis de Secondat, baron de Montesquieu",
+      "lived": "1689 – 1755",
+      "sort_year": 1689,
+      "region": "Frankrijk",
+      "known_for": "Verdedigde de scheiding van machten.",
+      "bio": "Montesquieu was edelman en rechter in Bordeaux en publiceerde in 1748 *De l'esprit des lois*.",
+      "contributions": [
+        "De l'esprit des lois"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "montesquieu-esprit-des-lois-1748"
+      ],
+      "image": null
+    },
+    {
+      "id": "voltaire",
+      "name": "Voltaire",
+      "full_name": "François-Marie Arouet, genaamd Voltaire",
+      "lived": "1694 – 1778",
+      "sort_year": 1694,
+      "region": "Frankrijk",
+      "known_for": "Schrijver en polemist tegen religieuze onverdraagzaamheid.",
+      "bio": "Voltaire schreef onder meer de *Lettres philosophiques* (1734) en streed in de zaak-Calas tegen onverdraagzaamheid.",
+      "contributions": [
+        "Lettres philosophiques",
+        "Traité sur la tolérance"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "voltaire-lettres-philosophiques-1734"
+      ],
+      "image": null
+    },
+    {
       "id": "rousseau",
       "name": "Rousseau",
       "full_name": "Jean-Jacques Rousseau",
@@ -1541,9 +1667,275 @@
         "Discours sur l'origine de l'inégalité (1755)"
       ],
       "modules": [
-        3
+        3,
+        15
       ],
       "timeline": [],
+      "image": null
+    },
+    {
+      "id": "thomas-newcomen",
+      "name": "Thomas Newcomen",
+      "full_name": "Thomas Newcomen",
+      "lived": "1664 – 1729",
+      "sort_year": 1712,
+      "region": "Dartmouth, Engeland",
+      "known_for": "De eerste bruikbare zuigerstoommachine.",
+      "bio": "Newcomen was smid en ijzerhandelaar. Zijn stoommachine pompte vanaf 1712 water uit mijnen.",
+      "contributions": [
+        "Atmosferische stoommachine"
+      ],
+      "modules": [
+        16
+      ],
+      "timeline": [
+        "newcomen-stoommachine"
+      ],
+      "image": null
+    },
+    {
+      "id": "denis-diderot",
+      "name": "Diderot",
+      "full_name": "Denis Diderot",
+      "lived": "1713 – 1784",
+      "sort_year": 1713,
+      "region": "Frankrijk",
+      "known_for": "Hoofdredacteur van de Encyclopédie.",
+      "bio": "Diderot leidde samen met d'Alembert de Encyclopédie (1751 – 1772).",
+      "contributions": [
+        "Encyclopédie"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "encyclopedie-1751"
+      ],
+      "image": null
+    },
+    {
+      "id": "kant",
+      "name": "Kant",
+      "full_name": "Immanuel Kant",
+      "lived": "1724 – 1804",
+      "sort_year": 1724,
+      "region": "Pruisen",
+      "known_for": "Schreef het essay Was ist Aufklärung? (1784).",
+      "bio": "Kant was hoogleraar in Königsberg. In 1784 definieerde hij verlichting als de uitweg uit zelfverschuldigde onmondigheid.",
+      "contributions": [
+        "Was ist Aufklärung?",
+        "Kritik der reinen Vernunft"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "kant-was-ist-aufklaerung-1784"
+      ],
+      "image": null
+    },
+    {
+      "id": "richard-arkwright",
+      "name": "Arkwright",
+      "full_name": "Richard Arkwright",
+      "lived": "1732 – 1792",
+      "sort_year": 1732,
+      "region": "Engeland",
+      "known_for": "Bouwde bij Cromford een door water aangedreven katoenspinnerij.",
+      "bio": "Richard Arkwright kreeg in 1769 octrooi op de waterframe en liet in 1771 bij Cromford een molen bouwen. Hij liet er ook huizen voor arbeiders bouwen.",
+      "contributions": [
+        "De waterframe",
+        "De molen bij Cromford"
+      ],
+      "modules": [
+        16
+      ],
+      "timeline": [
+        "cromford-molen-1771"
+      ],
+      "image": null
+    },
+    {
+      "id": "john-adams",
+      "name": "John Adams",
+      "full_name": "John Adams",
+      "lived": "1735 – 1826",
+      "sort_year": 1735,
+      "region": "Verenigde Staten",
+      "known_for": "Verwierf in 1782 de erkenning van de Verenigde Staten door de Republiek.",
+      "bio": "Adams werd in 1780 naar de Republiek gestuurd om erkenning en leningen te vragen. Later werd hij de tweede president.",
+      "contributions": [
+        "Erkenning door de Staten-Generaal (1782)"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "nederland-erkent-vs-1782"
+      ],
+      "image": null
+    },
+    {
+      "id": "joan-derk-van-der-capellen",
+      "name": "Van der Capellen tot den Pol",
+      "full_name": "Joan Derk van der Capellen tot den Pol",
+      "lived": "1741 – 1784",
+      "sort_year": 1741,
+      "region": "Republiek der Verenigde Nederlanden",
+      "known_for": "Patriotse politicus, aan wie het pamflet Aan het Volk van Nederland wordt toegeschreven.",
+      "bio": "Van der Capellen was een Overijsselse edelman en een van de leidende figuren van de patriotten.",
+      "contributions": [
+        "Aan het Volk van Nederland (1781)"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "patriotten-aan-het-volk-1781"
+      ],
+      "image": null
+    },
+    {
+      "id": "thomas-jefferson",
+      "name": "Jefferson",
+      "full_name": "Thomas Jefferson",
+      "lived": "1743 – 1826",
+      "sort_year": 1743,
+      "region": "Verenigde Staten",
+      "known_for": "Hoofdauteur van de Onafhankelijkheidsverklaring.",
+      "bio": "Jefferson was planter in Virginia en eigenaar van tot slaaf gemaakten. Hij schreef het ontwerp van de verklaring van 1776.",
+      "contributions": [
+        "Onafhankelijkheidsverklaring"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "amerikaanse-onafhankelijkheidsverklaring-1776"
+      ],
+      "image": null
+    },
+    {
+      "id": "toussaint-louverture",
+      "name": "Toussaint Louverture",
+      "full_name": "François-Dominique Toussaint Louverture",
+      "lived": "ca. 1743 – 1803",
+      "sort_year": 1743,
+      "region": "Saint-Domingue",
+      "known_for": "Leider van de Haïtiaanse Revolutie.",
+      "bio": "Toussaint was een voormalig tot slaaf gemaakte die opklom tot bevelhebber. In 1801 kreeg de kolonie onder zijn bestuur een eigen grondwet. Hij stierf op 7 april 1803 in het Fort de Joux.",
+      "contributions": [
+        "Grondwet van 1801"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "haitiaanse-opstand-1791",
+        "haiti-onafhankelijk-1804"
+      ],
+      "image": null
+    },
+    {
+      "id": "olympe-de-gouges",
+      "name": "Olympe de Gouges",
+      "full_name": "Marie Gouze, genaamd Olympe de Gouges",
+      "lived": "1748 – 1793",
+      "sort_year": 1748,
+      "region": "Frankrijk",
+      "known_for": "Schreef in 1791 de Verklaring van de rechten van de vrouw en de burgeres.",
+      "bio": "De Gouges was schrijfster en politiek activiste. Ze werd op 3 november 1793 terechtgesteld vanwege haar politieke geschriften.",
+      "contributions": [
+        "Déclaration des droits de la femme et de la citoyenne"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "robespierre",
+      "name": "Robespierre",
+      "full_name": "Maximilien de Robespierre",
+      "lived": "1758 – 1794",
+      "sort_year": 1758,
+      "region": "Frankrijk",
+      "known_for": "Leidende figuur in het Comité van Openbare Veiligheid tijdens de Terreur.",
+      "bio": "Robespierre was advocaat en afgevaardigde. Op 27 juli 1794 werd hij ten val gebracht en een dag later terechtgesteld.",
+      "contributions": [
+        "Comité van Openbare Veiligheid"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "terreur-1793-1794"
+      ],
+      "image": null
+    },
+    {
+      "id": "jean-jacques-dessalines",
+      "name": "Dessalines",
+      "full_name": "Jean-Jacques Dessalines",
+      "lived": "ca. 1758 – 1806",
+      "sort_year": 1758,
+      "region": "Saint-Domingue, Haïti",
+      "known_for": "Riep in 1804 de onafhankelijkheid van Haïti uit.",
+      "bio": "Dessalines was een legeraanvoerder die de Franse troepen versloeg en op 1 januari 1804 de onafhankelijkheid uitriep.",
+      "contributions": [
+        "Onafhankelijkheid van Haïti"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "haiti-onafhankelijk-1804"
+      ],
+      "image": null
+    },
+    {
+      "id": "napoleon",
+      "name": "Napoleon",
+      "full_name": "Napoleon Bonaparte",
+      "lived": "1769 – 1821",
+      "sort_year": 1769,
+      "region": "Frankrijk",
+      "known_for": "Greep in 1799 de macht en werd in 1804 keizer.",
+      "bio": "Napoleon vestigde een bewind dat de ordelijke kant van de revolutie behield. In 1815 werd hij bij Waterloo verslagen.",
+      "contributions": [
+        "Code civil",
+        "Staatsgreep van 1799"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "napoleon-staatsgreep-1799",
+        "code-civil-1804",
+        "waterloo-1815"
+      ],
+      "image": null
+    },
+    {
+      "id": "james-watt",
+      "name": "James Watt",
+      "full_name": "James Watt",
+      "lived": "1736 – 1819",
+      "sort_year": 1769,
+      "region": "Glasgow, Schotland",
+      "known_for": "De aparte condensor voor de stoommachine.",
+      "bio": "Watt was instrumentmaker. Zijn aparte condensor maakte de stoommachine veel zuiniger. De eenheid van vermogen, de watt, is naar hem genoemd.",
+      "contributions": [
+        "Aparte condensor",
+        "Pomp- en roterende stoommachines"
+      ],
+      "modules": [
+        16
+      ],
+      "timeline": [
+        "watt-condensor"
+      ],
       "image": null
     },
     {
@@ -1563,6 +1955,27 @@
       ],
       "timeline": [
         "gibbon-decline-and-fall-1776"
+      ],
+      "image": null
+    },
+    {
+      "id": "lodewijk-napoleon",
+      "name": "Lodewijk Napoleon",
+      "full_name": "Lodewijk Napoleon Bonaparte",
+      "lived": "1778 – 1846",
+      "sort_year": 1778,
+      "region": "Frankrijk, Holland",
+      "known_for": "Koning van Holland van 1806 tot 1810.",
+      "bio": "Lodewijk Napoleon was een broer van Napoleon. Hij trad in 1810 af, waarna Holland werd ingelijfd.",
+      "contributions": [
+        "Koninkrijk Holland"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "koninkrijk-holland-1806",
+        "inlijving-nederland-1810"
       ],
       "image": null
     },
@@ -1588,6 +2001,47 @@
       "image": null
     },
     {
+      "id": "tula",
+      "name": "Tula",
+      "full_name": "Tula",
+      "lived": "overleden 1795",
+      "sort_year": 1795,
+      "region": "Curaçao",
+      "known_for": "Leider van de opstand van tot slaaf gemaakten op Curaçao in 1795.",
+      "bio": "Tula leidde de opstand van augustus 1795 en werd op 3 oktober 1795 terechtgesteld. In 2023 rehabiliteerde de Nederlandse regering hem.",
+      "contributions": [
+        "Leiding van de opstand van 1795"
+      ],
+      "modules": [
+        14
+      ],
+      "timeline": [
+        "tula-opstand-1795",
+        "excuses-slavernijverleden-2022"
+      ],
+      "image": null
+    },
+    {
+      "id": "friedrich-engels",
+      "name": "Engels",
+      "full_name": "Friedrich Engels",
+      "lived": "1820 – 1895",
+      "sort_year": 1820,
+      "region": "Duitsland en Engeland",
+      "known_for": "Schreef in 1845 over de leefomstandigheden van arbeiders in Manchester.",
+      "bio": "Friedrich Engels was zoon van een Duitse textielfabrikant en verbleef van 1842 tot 1844 in Manchester. Zijn boek over de arbeidersklasse is een bron over de armste wijken van de stad.",
+      "contributions": [
+        "Die Lage der arbeitenden Klasse in England"
+      ],
+      "modules": [
+        16
+      ],
+      "timeline": [
+        "engels-lage-1845"
+      ],
+      "image": null
+    },
+    {
       "id": "sanz-de-sautuola",
       "name": "Sautuola",
       "full_name": "Marcelino Sanz de Sautuola",
@@ -1604,6 +2058,46 @@
       ],
       "timeline": [
         "altamira-ontdekking"
+      ],
+      "image": null
+    },
+    {
+      "id": "samuel-van-houten",
+      "name": "Van Houten",
+      "full_name": "Samuel van Houten",
+      "lived": "1837 – 1930",
+      "sort_year": 1837,
+      "region": "Nederland",
+      "known_for": "Diende in 1874 het Kinderwetje in.",
+      "bio": "Samuel van Houten was liberaal Kamerlid. Zijn Kinderwetje van 1874 verbood kinderen onder twaalf jaar het werk in fabrieken.",
+      "contributions": [
+        "Het Kinderwetje van 1874"
+      ],
+      "modules": [
+        16
+      ],
+      "timeline": [
+        "kinderwetje-van-houten-1874"
+      ],
+      "image": null
+    },
+    {
+      "id": "arnold-toynbee",
+      "name": "Toynbee",
+      "full_name": "Arnold Toynbee",
+      "lived": "1852 – 1883",
+      "sort_year": 1852,
+      "region": "Engeland",
+      "known_for": "Maakte de term industriële revolutie gangbaar.",
+      "bio": "De economisch historicus en sociaal hervormer Arnold Toynbee hield in 1881-1882 lezingen over de industriële revolutie, die in 1884 postuum verschenen.",
+      "contributions": [
+        "Lectures on the Industrial Revolution"
+      ],
+      "modules": [
+        16
+      ],
+      "timeline": [
+        "toynbee-lectures-1884"
       ],
       "image": null
     },
@@ -1677,7 +2171,9 @@
         "Debat over de Nederlandse geschiedenis"
       ],
       "modules": [
-        1
+        1,
+        2,
+        13
       ],
       "timeline": [],
       "image": null
@@ -1793,7 +2289,44 @@
         "Capitalism and Slavery (1944)"
       ],
       "modules": [
-        2
+        2,
+        16
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "eric-hobsbawm",
+      "name": "Hobsbawm",
+      "full_name": "Eric Hobsbawm",
+      "lived": "1917 – 2012",
+      "sort_year": 1917,
+      "region": "Engeland",
+      "known_for": "Schreef The Age of Revolution (1962).",
+      "bio": "Eric Hobsbawm beschreef de industriële en de Franse revolutie als dubbele revolutie en benadrukte de druk op de levensstandaard van arbeiders.",
+      "contributions": [
+        "The Age of Revolution"
+      ],
+      "modules": [
+        16
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "e-p-thompson",
+      "name": "Thompson",
+      "full_name": "Edward Palmer Thompson",
+      "lived": "1924 – 1993",
+      "sort_year": 1924,
+      "region": "Engeland",
+      "known_for": "Schreef The Making of the English Working Class (1963).",
+      "bio": "E.P. Thompson beschreef arbeiders als mensen die zichzelf als klasse maakten, met eigen tradities en protest.",
+      "contributions": [
+        "The Making of the English Working Class"
+      ],
+      "modules": [
+        16
       ],
       "timeline": [],
       "image": null
@@ -1812,7 +2345,8 @@
         "Man Makes Himself"
       ],
       "modules": [
-        4
+        4,
+        5
       ],
       "timeline": [
         "childe-neolithische-revolutie"
@@ -1901,6 +2435,82 @@
       "image": null
     },
     {
+      "id": "clr-james",
+      "name": "C.L.R. James",
+      "full_name": "Cyril Lionel Robert James",
+      "lived": "1901 – 1989",
+      "sort_year": 1938,
+      "region": "Trinidad, Verenigd Koninkrijk",
+      "known_for": "Schreef The Black Jacobins over de Haïtiaanse Revolutie.",
+      "bio": "James publiceerde *The Black Jacobins* in 1938.",
+      "contributions": [
+        "The Black Jacobins"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "james-black-jacobins-1938"
+      ],
+      "image": null
+    },
+    {
+      "id": "georges-lefebvre",
+      "name": "Lefebvre",
+      "full_name": "Georges Lefebvre",
+      "lived": "1874 – 1959",
+      "sort_year": 1939,
+      "region": "Frankrijk",
+      "known_for": "Historicus van de sociale interpretatie van de Franse Revolutie.",
+      "bio": "Lefebvre schreef *Quatre-vingt-neuf* (1939).",
+      "contributions": [
+        "Quatre-vingt-neuf"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "lefebvre-quatre-vingt-neuf-1939"
+      ],
+      "image": null
+    },
+    {
+      "id": "joel-mokyr",
+      "name": "Mokyr",
+      "full_name": "Joel Mokyr",
+      "lived": "geboren 1946",
+      "sort_year": 1946,
+      "region": "Verenigde Staten",
+      "known_for": "Legt de nadruk op kennis en de industriële Verlichting.",
+      "bio": "Joel Mokyr schreef in 2009 The Enlightened Economy en betoogt dat nuttige kennis de industrialisatie aandreef.",
+      "contributions": [
+        "The Enlightened Economy"
+      ],
+      "modules": [
+        16
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "robert-allen",
+      "name": "Allen",
+      "full_name": "Robert C. Allen",
+      "lived": "geboren 1947",
+      "sort_year": 1947,
+      "region": "Verenigde Staten",
+      "known_for": "Verklaart de industrialisatie uit hoge lonen en goedkope energie.",
+      "bio": "Robert Allen schreef in 2009 The British Industrial Revolution in Global Perspective en gebruikte de term Engels' pause.",
+      "contributions": [
+        "The British Industrial Revolution in Global Perspective"
+      ],
+      "modules": [
+        16
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
       "id": "michael-postan",
       "name": "Michael Postan",
       "full_name": "Michael Postan",
@@ -1937,6 +2547,66 @@
       ],
       "timeline": [
         "runciman-history-of-the-crusades-1951"
+      ],
+      "image": null
+    },
+    {
+      "id": "alfred-cobban",
+      "name": "Cobban",
+      "full_name": "Alfred Cobban",
+      "lived": "1901 – 1968",
+      "sort_year": 1954,
+      "region": "Verenigd Koninkrijk",
+      "known_for": "Revisionistisch historicus van de Franse Revolutie.",
+      "bio": "Cobban hield in 1954 de rede *The Myth of the French Revolution*.",
+      "contributions": [
+        "The Social Interpretation of the French Revolution"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "cobban-myth-1954"
+      ],
+      "image": null
+    },
+    {
+      "id": "kenneth-pomeranz",
+      "name": "Pomeranz",
+      "full_name": "Kenneth Pomeranz",
+      "lived": "geboren 1958",
+      "sort_year": 1958,
+      "region": "Verenigde Staten",
+      "known_for": "Schreef The Great Divergence (2000).",
+      "bio": "Kenneth Pomeranz vergelijkt Engeland en China en verklaart het verschil vooral uit steenkool en koloniale hulpbronnen.",
+      "contributions": [
+        "The Great Divergence"
+      ],
+      "modules": [
+        16
+      ],
+      "timeline": [
+        "pomeranz-great-divergence-2000"
+      ],
+      "image": null
+    },
+    {
+      "id": "rr-palmer",
+      "name": "Palmer",
+      "full_name": "Robert R. Palmer",
+      "lived": "1909 – 2002",
+      "sort_year": 1959,
+      "region": "Verenigde Staten",
+      "known_for": "Schreef over de Atlantische democratische revoluties.",
+      "bio": "Palmer publiceerde *The Age of the Democratic Revolution* (1959 en 1964).",
+      "contributions": [
+        "The Age of the Democratic Revolution"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "palmer-democratic-revolution-1959"
       ],
       "image": null
     },
@@ -2017,6 +2687,26 @@
       ],
       "timeline": [
         "parker-dutch-revolt-1977"
+      ],
+      "image": null
+    },
+    {
+      "id": "francois-furet",
+      "name": "Furet",
+      "full_name": "François Furet",
+      "lived": "1927 – 1997",
+      "sort_year": 1978,
+      "region": "Frankrijk",
+      "known_for": "Verdedigde het politieke en ideologische karakter van de revolutie.",
+      "bio": "Furet schreef *Penser la Révolution française* (1978).",
+      "contributions": [
+        "Penser la Révolution française"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "furet-penser-revolution-1978"
       ],
       "image": null
     },
@@ -2135,10 +2825,52 @@
         "The Dutch Republic (1995)"
       ],
       "modules": [
-        13
+        13,
+        14,
+        15
       ],
       "timeline": [
         "israel-dutch-republic-1995"
+      ],
+      "image": null
+    },
+    {
+      "id": "robert-darnton",
+      "name": "Darnton",
+      "full_name": "Robert Darnton",
+      "lived": "geboren 1939",
+      "sort_year": 1995,
+      "region": "Verenigde Staten",
+      "known_for": "Historicus van de boekgeschiedenis en de Verlichting.",
+      "bio": "Darnton schreef *The Forbidden Best-Sellers of Pre-Revolutionary France* (1995).",
+      "contributions": [
+        "The Forbidden Best-Sellers of Pre-Revolutionary France"
+      ],
+      "modules": [
+        15
+      ],
+      "timeline": [
+        "darnton-forbidden-best-sellers-1995"
+      ],
+      "image": null
+    },
+    {
+      "id": "de-vries-en-van-der-woude",
+      "name": "De Vries en Van der Woude",
+      "full_name": "Jan de Vries en Ad van der Woude",
+      "lived": "actief vanaf de jaren 1970",
+      "sort_year": 1997,
+      "region": "Verenigde Staten, Nederland",
+      "known_for": "Auteurs van The First Modern Economy (1997).",
+      "bio": "De twee economisch historici beschrijven de Nederlandse economie van 1500 tot 1815 als vroeg modern.",
+      "contributions": [
+        "The First Modern Economy"
+      ],
+      "modules": [
+        14
+      ],
+      "timeline": [
+        "de-vries-van-der-woude-1997"
       ],
       "image": null
     },
@@ -2239,6 +2971,26 @@
       ],
       "timeline": [
         "ward-perkins-heather-2005"
+      ],
+      "image": null
+    },
+    {
+      "id": "brandon-en-bosma",
+      "name": "Brandon en Bosma",
+      "full_name": "Pepijn Brandon en Ulbe Bosma",
+      "lived": "onderzoek gepubliceerd in 2019",
+      "sort_year": 2019,
+      "region": "Nederland",
+      "known_for": "Onderzoekers naar het economische belang van de slavernij voor de Republiek.",
+      "bio": "In 2019 schatten ze dat in 1770 ongeveer 5,2 procent van het bbp van de Republiek met Atlantische slavernij samenhing.",
+      "contributions": [
+        "Artikel in het Tijdschrift voor Sociale en Economische Geschiedenis (2019)"
+      ],
+      "modules": [
+        14
+      ],
+      "timeline": [
+        "brandon-bosma-slavernij-economie-2019"
       ],
       "image": null
     }

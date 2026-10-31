@@ -1,0 +1,503 @@
+{
+  "title": "Hoofdstuktoets – De industriële revolutie",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "16-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat onderscheidt een fabriek van het huisnijverheidssysteem?",
+      "choices": [
+        "Een fabriek gebruikt altijd stoom",
+        "Machines, krachtbron en arbeiders staan onder één dak en onder één gezag, met vaste uren",
+        "In een fabriek werken alleen kinderen",
+        "Een fabriek maakt alleen katoen"
+      ],
+      "answer": "Machines, krachtbron en arbeiders staan onder één dak en onder één gezag, met vaste uren",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Machines, krachtbron en arbeiders staan onder één dak en onder één gezag, met vaste uren"
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Een fabriek gebruikt altijd stoom",
+          "message": "Ook waterkracht werd gebruikt, bijvoorbeeld in Cromford."
+        },
+        {
+          "answer": "In een fabriek werken alleen kinderen",
+          "message": "Ook volwassenen werkten in fabrieken."
+        },
+        {
+          "answer": "Een fabriek maakt alleen katoen",
+          "message": "Fabrieken bestonden ook voor ijzer en andere producten."
+        }
+      ]
+    },
+    {
+      "id": "16-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "In welke periode begon volgens het gangbare beeld de industrialisatie in Engeland?",
+      "choices": [
+        "In de 16e eeuw",
+        "Rond 1900",
+        "In de tweede helft van de 18e eeuw",
+        "In de middeleeuwen"
+      ],
+      "answer": "In de tweede helft van de 18e eeuw",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: In de tweede helft van de 18e eeuw"
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": "In de 16e eeuw",
+          "message": "Dat is de tijd van de Reformatie en de ontdekkingsreizen."
+        },
+        {
+          "answer": "Rond 1900",
+          "message": "Rond 1900 was de industrialisatie al een eeuw aan de gang."
+        },
+        {
+          "answer": "In de middeleeuwen",
+          "message": "Industrialisatie met machines en fabrieken is een latere ontwikkeling."
+        }
+      ]
+    },
+    {
+      "id": "16-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een historicus gebruikt het schilderij Coalbrookdale by Night (1801) als bewijs dat arbeiders rond Coalbrookdale in 1801 onder verschrikkelijke omstandigheden werkten. Wat is de beste kritiek?",
+      "choices": [
+        "Het schilderij is onbetrouwbaar omdat het een schilderij is en geen foto",
+        "Het schilderij bewijst juist het tegendeel, dat de arbeiders het goed hadden",
+        "Het schilderij is te oud om als bron te dienen",
+        "Het schilderij toont de industrie vanuit de blik van een kunstenaar voor een kunstpubliek en zegt weinig over het leven van arbeiders"
+      ],
+      "answer": "Het schilderij toont de industrie vanuit de blik van een kunstenaar voor een kunstpubliek en zegt weinig over het leven van arbeiders",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Het schilderij toont de industrie vanuit de blik van een kunstenaar voor een kunstpubliek en zegt weinig over het leven van arbeiders"
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ],
+      "context": "Coalbrookdale by Night, Philip James de Loutherbourg, 1801: gloeiende ovens onder een rode nachthemel, geen arbeiders in beeld, getoond op de tentoonstelling van de Royal Academy.",
+      "feedback": [
+        {
+          "answer": "Het schilderij is onbetrouwbaar omdat het een schilderij is en geen foto",
+          "message": "Ook een schilderij is bruikbaar, mits je weet wat je ermee kunt onderzoeken."
+        },
+        {
+          "answer": "Het schilderij bewijst juist het tegendeel, dat de arbeiders het goed hadden",
+          "message": "Het zegt over de arbeidsomstandigheden niets, in beide richtingen."
+        },
+        {
+          "answer": "Het schilderij is te oud om als bron te dienen",
+          "message": "Ouderdom maakt een bron niet onbruikbaar."
+        }
+      ]
+    },
+    {
+      "id": "16-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is volgens Robert Allen de kern van de verklaring waarom de industrialisatie in Engeland begon?",
+      "choices": [
+        "Hoge lonen en goedkope energie maakten arbeidsbesparende, energieverbruikende machines winstgevend",
+        "Engelse uitvinders waren intelligenter dan hun buitenlandse collega's",
+        "De Engelse lonen waren laag en arbeid was overvloedig",
+        "Slavenhandel financierde alle machines"
+      ],
+      "answer": "Hoge lonen en goedkope energie maakten arbeidsbesparende, energieverbruikende machines winstgevend",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Hoge lonen en goedkope energie maakten arbeidsbesparende, energieverbruikende machines winstgevend"
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Engelse uitvinders waren intelligenter dan hun buitenlandse collega's",
+          "message": "Dat is geen argument van Allen."
+        },
+        {
+          "answer": "De Engelse lonen waren laag en arbeid was overvloedig",
+          "message": "Het is juist de combinatie van dure arbeid en goedkope energie."
+        },
+        {
+          "answer": "Slavenhandel financierde alle machines",
+          "message": "Dat is de stelling van Eric Williams, niet van Allen."
+        }
+      ]
+    },
+    {
+      "id": "16-T05",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Katoenmolen bij Cromford",
+        "Spoorlijn Liverpool-Manchester",
+        "Factory Act in Engeland",
+        "Spoorlijn Amsterdam-Haarlem",
+        "Engels publiceert Die Lage der arbeitenden Klasse in England"
+      ],
+      "hints": [],
+      "solution": [
+        "1771, 1830, 1833, 1839, 1845."
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "16-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een historicus citeert Engels' boek uit 1845 om te bewijzen dat 'alle Engelse arbeiders in 1845 in diepe ellende leefden'. Wat is de beste kritiek?",
+      "choices": [
+        "Het boek is onbruikbaar omdat Engels in Duitsland schreef",
+        "Het boek bewijst dat de lonen daalden",
+        "Het boek beschrijft bepaalde wijken in Manchester en brengt een politiek standpunt; het is niet representatief voor alle arbeiders",
+        "Het boek is waardeloos omdat het een politiek doel had"
+      ],
+      "answer": "Het boek beschrijft bepaalde wijken in Manchester en brengt een politiek standpunt; het is niet representatief voor alle arbeiders",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Het boek beschrijft bepaalde wijken in Manchester en brengt een politiek standpunt; het is niet representatief voor alle arbeiders"
+      ],
+      "topics": [
+        "sources",
+        "source-criticism",
+        "perspective"
+      ],
+      "context": "Engels, Die Lage der arbeitenden Klasse in England (1845): beschrijving van armoede, ziekte en slechte woningen in dichtbevolkte wijken van Manchester, gebaseerd op eigen waarneming en officiële rapporten.",
+      "feedback": [
+        {
+          "answer": "Het boek is onbruikbaar omdat Engels in Duitsland schreef",
+          "message": "Hij schreef na een verblijf in Manchester en gebruikte ook officiële rapporten."
+        },
+        {
+          "answer": "Het boek bewijst dat de lonen daalden",
+          "message": "Het gaat om beschrijvingen van leefomstandigheden, niet om een loonreeks."
+        },
+        {
+          "answer": "Het boek is waardeloos omdat het een politiek doel had",
+          "message": "Een politiek doel vraagt om kritisch lezen, maar het boek blijft een belangrijke bron."
+        }
+      ]
+    },
+    {
+      "id": "16-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Op welke vraag richt Joel Mokyr zich in zijn verklaring van de industrialisatie?",
+      "choices": [
+        "Waarom waren de lonen in Engeland hoog?",
+        "Waarom was de Republiek rijker dan Engeland?",
+        "Waarom werden fabrieken in Twente gebouwd?",
+        "Waarom waren in Groot-Brittannië de kennis en vaardigheden voor voortdurende technische verbetering aanwezig?"
+      ],
+      "answer": "Waarom waren in Groot-Brittannië de kennis en vaardigheden voor voortdurende technische verbetering aanwezig?",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Waarom waren in Groot-Brittannië de kennis en vaardigheden voor voortdurende technische verbetering aanwezig?"
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Waarom waren de lonen in Engeland hoog?",
+          "message": "Dit hoort vooral bij Allens verklaring."
+        },
+        {
+          "answer": "Waarom was de Republiek rijker dan Engeland?",
+          "message": "Dat is niet Mokyrs vraag."
+        },
+        {
+          "answer": "Waarom werden fabrieken in Twente gebouwd?",
+          "message": "Mokyr richt zich vooral op de Britse ontwikkeling."
+        }
+      ]
+    },
+    {
+      "id": "16-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de beste conclusie uit deze cijfers?",
+      "choices": [
+        "In die periode ging een groot deel van de groei niet naar de lonen van arbeiders",
+        "Arbeiders werden in absolute zin armer",
+        "De cijfers bewijzen dat de optimisten gelijk hebben",
+        "De cijfers zijn onbruikbaar omdat het schattingen zijn"
+      ],
+      "answer": "In die periode ging een groot deel van de groei niet naar de lonen van arbeiders",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: In die periode ging een groot deel van de groei niet naar de lonen van arbeiders"
+      ],
+      "topics": [
+        "historiography",
+        "interpretation",
+        "continuity-change"
+      ],
+      "context": "Volgens Robert Allen (2009) steeg in Groot-Brittannië tussen 1780 en 1840 de productie per werker met 46 procent (schatting van Crafts en Harley), terwijl het reële loon met 12 procent steeg (reeks van Feinstein). Latere herzieningen door Crafts (2020) geven andere uitkomsten.",
+      "feedback": [
+        {
+          "answer": "Arbeiders werden in absolute zin armer",
+          "message": "Het reële loon steeg met 12 procent volgens de reeks; relatief bleef het achter."
+        },
+        {
+          "answer": "De cijfers bewijzen dat de optimisten gelijk hebben",
+          "message": "De cijfers zijn betwist, en een stijging van 12 procent bewijst niet dat de levensstandaard sterk steeg."
+        },
+        {
+          "answer": "De cijfers zijn onbruikbaar omdat het schattingen zijn",
+          "message": "Schattingen zijn bruikbaar als je erbij zegt waarop ze steunen."
+        }
+      ]
+    },
+    {
+      "id": "16-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke bewering over de luddieten (1811-1816) is het beste onderbouwd?",
+      "choices": [
+        "Ze waren tegen alle techniek",
+        "Hun acties richtten zich vooral tegen werkgevers die afspraken over loon en vakmanschap omzeilden",
+        "Ze kregen steun van de regering",
+        "Ze waren vooral actief in Nederland"
+      ],
+      "answer": "Hun acties richtten zich vooral tegen werkgevers die afspraken over loon en vakmanschap omzeilden",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Hun acties richtten zich vooral tegen werkgevers die afspraken over loon en vakmanschap omzeilden"
+      ],
+      "topics": [
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Ze waren tegen alle techniek",
+          "message": "Dat is een latere karikatuur."
+        },
+        {
+          "answer": "Ze kregen steun van de regering",
+          "message": "De regering verzwaarde de straffen en zette soldaten in."
+        },
+        {
+          "answer": "Ze waren vooral actief in Nederland",
+          "message": "De luddieten waren actief in de Midlands en het noorden van Engeland."
+        }
+      ]
+    },
+    {
+      "id": "16-T10",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel jaar zat er tussen de opening van de spoorlijn Amsterdam-Haarlem (1839) en het Kinderwetje van Van Houten (1874)?",
+      "answer": 35,
+      "hints": [],
+      "solution": [
+        "1874 − 1839 = 35."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "unit": "jaar"
+    },
+    {
+      "id": "16-T11",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een leerling schrijft: 'Nederland industrialiseerde pas laat, omdat Nederlanders minder inventief waren.' Wat is de beste verbetering van deze redenering?",
+      "choices": [
+        "Zeggen dat de Nederlanders juist inventiever waren",
+        "Het jaartal 1860 vervangen door 1760",
+        "De vraag schrappen omdat een vergelijking niets bewijst",
+        "Zoek structurele verklaringen, zoals energie, handelsstructuur, watervervoer en de afscheiding van België, en vergelijk met Engeland"
+      ],
+      "answer": "Zoek structurele verklaringen, zoals energie, handelsstructuur, watervervoer en de afscheiding van België, en vergelijk met Engeland",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Zoek structurele verklaringen, zoals energie, handelsstructuur, watervervoer en de afscheiding van België, en vergelijk met Engeland"
+      ],
+      "topics": [
+        "causation"
+      ],
+      "context": "Leerlingstelling: 'Nederland industrialiseerde pas laat, omdat Nederlanders minder inventief waren.'",
+      "feedback": [
+        {
+          "answer": "Zeggen dat de Nederlanders juist inventiever waren",
+          "message": "Dat is evengoed een claim over aangeboren eigenschappen."
+        },
+        {
+          "answer": "Het jaartal 1860 vervangen door 1760",
+          "message": "Het gaat om de verklaring, niet om het jaartal."
+        },
+        {
+          "answer": "De vraag schrappen omdat een vergelijking niets bewijst",
+          "message": "Vergelijking is juist de manier om oorzaken te wegen, met voorzichtigheid."
+        }
+      ]
+    },
+    {
+      "id": "16-T12",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de stappen van een bronanalyse in logische volgorde, van eerste naar laatste.",
+      "answer": [
+        "Herkomst: wie maakte de bron, wanneer en voor wie",
+        "Context: de omstandigheden van die tijd",
+        "Wat zegt de bron wel en niet",
+        "Bruikbaarheid voor de onderzoeksvraag",
+        "Conclusie met de mate van zekerheid"
+      ],
+      "hints": [],
+      "solution": [
+        "Eerst de herkomst, dan de context, dan inhoud, bruikbaarheid en conclusie."
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "16-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een historicus wil onderzoeken hoe handwevers het verlies van hun inkomen en status ervoeren. Welk soort bron is daarvoor het meest geschikt?",
+      "choices": [
+        "Een reeks gemiddelde reële lonen van alle arbeiders",
+        "Brieven, pamfletten en verklaringen van handwevers zelf",
+        "Een schilderij van een hoogoven uit 1801",
+        "Een boek van een fabrikant over zijn winsten"
+      ],
+      "answer": "Brieven, pamfletten en verklaringen van handwevers zelf",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Brieven, pamfletten en verklaringen van handwevers zelf"
+      ],
+      "topics": [
+        "perspective",
+        "sources",
+        "source-criticism"
+      ],
+      "context": "Onderzoeksvraag: hoe ervoeren handwevers in Lancashire in de jaren 1800-1830 het verlies van inkomen en status?",
+      "feedback": [
+        {
+          "answer": "Een reeks gemiddelde reële lonen van alle arbeiders",
+          "message": "Een gemiddelde verbergt de ervaring van een groep als handwevers."
+        },
+        {
+          "answer": "Een schilderij van een hoogoven uit 1801",
+          "message": "Het zegt niets over handwevers."
+        },
+        {
+          "answer": "Een boek van een fabrikant over zijn winsten",
+          "message": "Dat geeft het perspectief van de werkgever, niet van de handwevers."
+        }
+      ]
+    },
+    {
+      "id": "16-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de kern van Kenneth Pomeranz' verklaring van de Great Divergence?",
+      "choices": [
+        "Europeanen hadden een superieure cultuur",
+        "De Chinese economie was in 1750 veel armer dan die van Engeland",
+        "Engeland had steenkool dicht bij de industrie en toegang tot hulpbronnen in de koloniën; China had dat niet",
+        "De Industriële Revolutie begon door de Verlichting"
+      ],
+      "answer": "Engeland had steenkool dicht bij de industrie en toegang tot hulpbronnen in de koloniën; China had dat niet",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Engeland had steenkool dicht bij de industrie en toegang tot hulpbronnen in de koloniën; China had dat niet"
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Europeanen hadden een superieure cultuur",
+          "message": "Pomeranz verklaart juist minder uit Europese eigenschappen."
+        },
+        {
+          "answer": "De Chinese economie was in 1750 veel armer dan die van Engeland",
+          "message": "Hij betoogde dat de levensstandaard in de Yangtze-delta rond 1750 vergelijkbaar was."
+        },
+        {
+          "answer": "De Industriële Revolutie begon door de Verlichting",
+          "message": "Dat is eerder Mokyrs nadruk."
+        }
+      ]
+    },
+    {
+      "id": "16-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Welke uitspraak over de term 'industriële revolutie' is het best verdedigbaar?",
+      "choices": [
+        "De term is onjuist, want de groei was in cijfers klein",
+        "De term is altijd juist, want er waren veel uitvindingen",
+        "De term is onbruikbaar omdat Toynbee hem bedacht",
+        "Het groeitempo was lager dan lang gedacht, maar de cumulatieve verandering was ingrijpend; of 'revolutie' past, hangt af van het perspectief"
+      ],
+      "answer": "Het groeitempo was lager dan lang gedacht, maar de cumulatieve verandering was ingrijpend; of 'revolutie' past, hangt af van het perspectief",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Het groeitempo was lager dan lang gedacht, maar de cumulatieve verandering was ingrijpend; of 'revolutie' past, hangt af van het perspectief"
+      ],
+      "topics": [
+        "historiography",
+        "interpretation",
+        "continuity-change"
+      ],
+      "context": "Crafts en Harley schatten de groei van de totale factorproductiviteit op ongeveer 0,1 procent per jaar in 1760-1800 en 0,35 procent per jaar in 1800-1830; Toynbee maakte de term in 1884 gangbaar.",
+      "feedback": [
+        {
+          "answer": "De term is onjuist, want de groei was in cijfers klein",
+          "message": "Cumulatief was de verandering groot; de term hangt af van wat je meet."
+        },
+        {
+          "answer": "De term is altijd juist, want er waren veel uitvindingen",
+          "message": "Uitvindingen verklaren niet het tempo; revisies van Crafts en Harley laten een geleidelijker beeld zien."
+        },
+        {
+          "answer": "De term is onbruikbaar omdat Toynbee hem bedacht",
+          "message": "Dat een term later is gemaakt, maakt hem niet onbruikbaar."
+        }
+      ]
+    }
+  ]
+}
