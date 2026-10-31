@@ -676,7 +676,7 @@
     {
       "type": "decimal",
       "difficulty": 2,
-      "question": "Dezelfde wachtrij: $P(X=1)=0{,}1$, $P(X=2)=0{,}3$, $P(X=3)=0{,}4$, $P(X=4)=0{,}2$. Bereken $P(2\\le X\\le4)$.",
+      "question": "Een wachtrij heeft $P(X=1)=0{,}1$, $P(X=2)=0{,}3$, $P(X=3)=0{,}4$ en $P(X=4)=0{,}2$. Bereken $P(2\\le X\\le4)$.",
       "answer": 0.9,
       "solution": [
         "$P(2\\le X\\le4)=1-P(X=1)=0{,}9$."

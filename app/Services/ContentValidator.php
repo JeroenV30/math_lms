@@ -31,6 +31,7 @@ class ContentValidator
         private readonly DomainService $domains,
         private readonly AnswerCheckerFactory $checkers,
         private readonly LanguageChecker $language,
+        private readonly DuplicateChecker $duplicates,
     ) {}
 
     /**
@@ -46,6 +47,8 @@ class ContentValidator
         foreach ($this->courses->ids() as $course) {
             $this->validateCourse($course);
         }
+
+        array_push($this->errors, ...$this->duplicates->check());
 
         return ['errors' => $this->errors, 'warnings' => $this->warnings];
     }
@@ -215,6 +218,7 @@ class ContentValidator
         $this->expect($exercise->isQuizQuestion || in_array($exercise->mode, self::MODES, true), "{$id}: onbekende mode '{$exercise->mode}'.");
         $this->expect($exercise->topics !== [], "{$id}: geen topics.");
         $this->expect($exercise->solution !== [], "{$id}: geen uitgewerkte oplossing.");
+        $this->expect(! ($exercise->isQuizQuestion && $exercise->leansOnLesson()), "{$id}: toetsvraag verwijst naar de les of een eerdere vraag; herkansingen mengen de vragen, dus noem de gegevens opnieuw.");
         $this->expect(! ($exercise->isQuizQuestion && $exercise->type === 'text'), "{$id}: open vragen (text) horen niet in een toets; die wordt automatisch gescoord.");
 
         foreach ($exercise->topics as $topic) {

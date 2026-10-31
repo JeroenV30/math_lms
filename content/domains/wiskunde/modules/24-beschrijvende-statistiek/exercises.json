@@ -313,7 +313,7 @@
     },
     {
       "id": "24-015",
-      "question": "Dezelfde populatie heeft μ = 5. Wat is de gekwadrateerde afwijking van de waarde 2?",
+      "question": "Een populatie bestaat uit de waarden 2, 4, 4, 4, 5, 5, 7 en 9, met gemiddelde μ = 5. Wat is de gekwadrateerde afwijking van de waarde 2, dus $(2-\\mu)^2$?",
       "answer": 9,
       "solution": [
         "(2 − 5)² = 9."
@@ -1105,7 +1105,7 @@
       "type": "decimal",
       "mode": "guided",
       "difficulty": 2,
-      "question": "Zelfde klas (gemiddelde 170 cm, standaardafwijking 8 cm). Bereken de z-score van een jongen van 158 cm.",
+      "question": "In een klas is de lengte van jongens gemiddeld 170 cm, met een standaardafwijking van 8 cm. Bereken de z-score van een jongen van 158 cm.",
       "hints": [
         "Het verschil kan negatief zijn."
       ],

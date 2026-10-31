@@ -291,8 +291,11 @@ Alleen de eerste poging bestaat uit deze vragen. Een herkansing trekt een nieuwe
 selectie uit de toetsvragen én de oefeningen van de module, zonder de vragen van
 de vorige poging (`QuizService::questions`). Schrijf oefeningen daarom zo dat ze
 los van de les te begrijpen zijn. Een oefening met "hierboven", "bovenstaande",
-"vorige opgave" of "in de widget" in de vraag of context komt niet in een herkansing,
-en een `text`-oefening ook niet.
+"vorige opgave", "in de widget", of die begint met "Dezelfde …", komt niet in een
+herkansing (`Exercise::leansOnLesson`); "hieronder" mag als de vraag een eigen
+`context` heeft. Een `text`-oefening komt er ook niet in. Voor toetsvragen is zo'n
+verwijzing een fout in `content:validate`, en een toetsvraag mag niet letterlijk
+gelijk zijn aan een oefening.
 
 ## 6. Widgets (interactieve visualisaties)
 
@@ -381,6 +384,13 @@ Alle widgets met een voorbeelddirectief zijn te zien op `/dev/widgets` (alleen l
 
 De validator waarschuwt als een tijdlijngebeurtenis naar een onbekende persoon of
 module verwijst. `php artisan content:ids <domein>` toont alle geldige id's.
+
+Een persoon of gebeurtenis die ook in een ander domein voorkomt, krijgt daar dezelfde
+id. Personen worden zo aan elkaar gekoppeld ("Ook in andere domeinen"), en een gedeelde
+gebeurtenis staat op de gezamenlijke tijdlijn (`/tijdlijn`) één keer, met beide domeinen.
+De validator keurt af wat op een dubbeling lijkt: twee id's voor een persoon met
+(bijna) dezelfde naam en overlappende levensjaren, of voor een gebeurtenis in hetzelfde
+jaar met (bijna) dezelfde titel, en één id voor twee verschillende dingen.
 
 Content-agents wijzigen deze gedeelde bestanden niet zelf: ze leveren nieuwe
 gebeurtenissen, personen en onderwerpen aan in `additions.json` in hun

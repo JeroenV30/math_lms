@@ -1038,7 +1038,7 @@
       "type": "numeric",
       "mode": "independent",
       "difficulty": 3,
-      "question": "De bal uit de vorige opgave, $s(t) = 30t - 5t^2$, komt na 6 seconden weer op de grond. Bereken zijn snelheid $v(6)$ op dat moment, in m/s, met teken.",
+      "question": "Een bal wordt recht omhoog gegooid. De hoogte (in meter) na $t$ seconden is $s(t) = 30t - 5t^2$. De bal komt na 6 seconden weer op de grond. Bereken zijn snelheid $v(6)$ op dat moment, in m/s, met teken.",
       "answer": -30,
       "hints": [
         "$v(t) = 30 - 10t$.",

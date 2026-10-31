@@ -49,7 +49,7 @@
     },
     {
       "id": "23-T04",
-      "question": "Dezelfde cijfers, herhaling verboden: hoeveel geordende codes?",
+      "question": "Twee cijfers worden gekozen uit {1, 2, 3, 4, 5}, zonder herhaling. Hoeveel geordende codes zijn er?",
       "answer": 20,
       "solution": [
         "5 × 4 = 20."
@@ -139,7 +139,7 @@
     },
     {
       "id": "23-T10",
-      "question": "Dezelfde zak, zonder terugleggen. Kans RR?",
+      "question": "Een zak bevat 2 rode en 3 blauwe ballen. Je trekt twee keer zonder terugleggen. Wat is de kans op twee rode ballen (RR)?",
       "answer": "1/10",
       "solution": [
         "(2/5)(1/4)."
@@ -153,11 +153,11 @@
       ]
     },
     {
-      "id": "23-T11",
-      "question": "Dezelfde zak, zonder terugleggen. Kans precies één rood?",
-      "answer": "3/5",
+      "id": "23-T16",
+      "question": "Een zak bevat 4 rode en 3 blauwe ballen. Je trekt twee keer zonder terugleggen. Wat is de kans op twee blauwe ballen (BB)?",
+      "answer": "1/7",
       "solution": [
-        "(2/5)(3/4)+(3/5)(2/4)=3/5."
+        "(3/7)(2/6)=1/7."
       ],
       "hints": [],
       "type": "fraction",

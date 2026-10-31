@@ -10,6 +10,10 @@ Dit bestand is de enige bron met projectinstructies; `CLAUDE.md` importeert het.
 - Na contentwijzigingen: `php artisan content:validate`, `php artisan test` en `node scripts/check-katex.mjs` (rendert alle formules met KaTeX, zonder browser).
   `content:validate` doet ook een taalcontrole (`app/Services/LanguageChecker.php`): dubbele woorden, losse HTML-entiteiten,
   spatie vóór een leesteken, ontbrekende spatie na een zin, dubbele spaties en oneven aanhalingstekens.
+  En een dubbelingencontrole (`app/Services/DuplicateChecker.php`): dezelfde persoon of gebeurtenis onder twee id's
+  (ook tussen domeinen: daar hoort het dezelfde id te zijn), één id voor twee verschillende dingen, identieke
+  vragen, dubbele begrippen/leerdoelen/verwijzingen in een module.json en letterlijk herhaalde alinea's.
+  Toetsvragen moeten los leesbaar zijn (geen "Dezelfde …", "hierboven", "vorige vraag"; `Exercise::leansOnLesson`).
   Dezelfde controles (plus JS- en Python-tests) draaien in GitHub Actions bij elke push (`.github/workflows/ci.yml`).
 - Antwoordtypen: numeric, decimal, fraction, expression, coordinate, interval, multiple, text, choice, order (zie docs/CONTENT_GUIDE.md §4). Checkers in app/Services/AnswerCheckers, geregistreerd in AnswerCheckerFactory.
 - Een nieuwe databasemigratie wordt bij `start.bat` automatisch uitgevoerd; anders `php artisan migrate`.

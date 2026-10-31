@@ -27,11 +27,11 @@ In het overzicht hieronder zie je de gebeurtenissen in volgorde. Ze zijn alle te
 | 529–534 | Het Corpus Iuris Civilis onder Justinianus |
 | 622 | Hidjra: begin van de islamitische jaartelling |
 | 711 | Arabisch-Berberse legers in Spanje |
-| 751 | Pippijn de Korte wordt koning van de Franken |
+| 751 | Pepijn de Korte wordt koning van de Franken |
 
 ## Vooruitblik
 
-In 751 nam Pippijn, de zoon van Karel Martel, met steun van de paus het koningschap over van de laatste Merovingen. Zijn zoon Karel werd in het jaar 800 in Rome door de paus tot keizer gekroond. Daarmee is het verhaal van deze module aan zijn grens gekomen. In module 9 zie je hoe Karel de Grote en zijn opvolgers voortbouwden op Romeinse en Frankische tradities en hoe de middeleeuwse wereld van kloosters, heren en boeren vorm kreeg.
+In 751 nam Pepijn, de zoon van Karel Martel, met steun van de paus het koningschap over van de laatste Merovingen. Zijn zoon Karel werd in het jaar 800 in Rome door de paus tot keizer gekroond. Daarmee is het verhaal van deze module aan zijn grens gekomen. In module 9 zie je hoe Karel de Grote en zijn opvolgers voortbouwden op Romeinse en Frankische tradities en hoe de middeleeuwse wereld van kloosters, heren en boeren vorm kreeg.
 
 ## Wat je nu kunt
 

@@ -21,9 +21,6 @@ use Random\Randomizer;
  */
 class QuizService
 {
-    /** Oefeningen die naar de les verwijzen, zijn zonder die les niet te maken. */
-    private const LESSON_BOUND = '/\b(hierboven|bovenstaande?|hieronder|vorige (opgave|oefening|vraag)|in de widget|in de les)\b/iu';
-
     public function __construct(
         private readonly ContentService $content,
         private readonly ExerciseService $exercises,
@@ -88,7 +85,7 @@ class QuizService
     private function fitsQuiz(Exercise $exercise): bool
     {
         return $exercise->type !== 'text'
-            && ! preg_match(self::LESSON_BOUND, $exercise->question.' '.$exercise->context);
+            && ! $exercise->leansOnLesson();
     }
 
     /**

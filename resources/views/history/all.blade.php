@@ -25,15 +25,18 @@
 
             @foreach ($periods as $period => $events)
                 <section class="mt-12 first:mt-0" aria-labelledby="period-{{ $loop->index }}"
-                         x-show="@js($events->pluck('domain.id')->unique()->values()).some(id => shows(id))">
+                         x-show="@js($events->flatMap(fn ($e) => array_column($e['domains'], 'id'))->unique()->values()).some(id => shows(id))">
                     <h2 id="period-{{ $loop->index }}" class="mb-6 font-sans text-xs font-semibold tracking-[0.16em] text-history uppercase">{{ $period }}</h2>
                     <ol class="timeline-rail space-y-7">
                         @foreach ($events as $event)
-                            <li class="relative" x-show="shows(@js($event['domain']['id']))">
+                            {{-- Een gebeurtenis die in meer domeinen staat, blijft zichtbaar zolang één daarvan aan staat. --}}
+                            <li class="relative" x-show="@js(array_column($event['domains'], 'id')).some(id => shows(id))">
                                 <span class="timeline-dot" style="border-color: {{ $event['domain']['color'] }}" aria-hidden="true"></span>
                                 <p class="flex flex-wrap items-baseline gap-x-2 text-sm">
                                     <span class="font-semibold text-history tabular-nums">{{ $event['year_label'] }}</span>
-                                    <span class="text-xs font-medium" style="color: {{ $event['domain']['color'] }}">{{ $event['domain']['name'] }}</span>
+                                    @foreach ($event['domains'] as $domain)
+                                        <a href="{{ route('history.index', ['domain' => $domain['id']]) }}#{{ $event['id'] }}" class="text-xs font-medium hover:underline" style="color: {{ $domain['color'] }}">{{ $domain['name'] }}</a>
+                                    @endforeach
                                 </p>
                                 <h3 class="mt-0.5 font-serif text-lg font-semibold text-ink">
                                     <a href="{{ route('history.index', ['domain' => $event['domain']['id']]) }}#{{ $event['id'] }}" class="hover:underline">{!! $markdown->inline($event['title']) !!}</a>

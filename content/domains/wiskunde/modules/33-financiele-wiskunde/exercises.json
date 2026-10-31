@@ -686,7 +686,7 @@
       "type": "multiple",
       "mode": "independent",
       "difficulty": 3,
-      "question": "Neem de hypotheek uit de vorige opgave: € 250.000, maandrente 0,3%, maandlast € 1.136,61. Splits de **eerste** maandlast in een rentedeel en een aflossingsdeel. Rond af op centen.",
+      "question": "Een annuïteitenhypotheek van € 250.000 heeft een maandrente van 0,3% en een bruto maandlast van € 1.136,61. Splits de **eerste** maandlast in een rentedeel en een aflossingsdeel. Rond af op centen.",
       "parts": [
         {
           "label": "rentedeel (€)",
@@ -719,7 +719,7 @@
       "type": "decimal",
       "mode": "independent",
       "difficulty": 3,
-      "question": "Dezelfde lening van € 250.000 (30 jaar, maandrente 0,3%) wordt nu als **lineaire** hypotheek afgesloten. Wat is de bruto maandlast in de eerste maand? Rond af op centen.",
+      "question": "Een lening van € 250.000 (30 jaar, maandrente 0,3%) wordt als lineaire hypotheek afgesloten. Wat is de bruto maandlast in de eerste maand? Rond af op centen.",
       "answer": 1444.44,
       "tolerance": 0.01,
       "unit": "€",
@@ -752,7 +752,7 @@
       "type": "decimal",
       "mode": "independent",
       "difficulty": 3,
-      "question": "Bij de lineaire hypotheek uit de vorige opgave (€ 250.000, 360 maanden, maandrente 0,3%): wat is de bruto maandlast in maand 121, dus direct na tien jaar? Rond af op centen.",
+      "question": "Een lineaire hypotheek van € 250.000 heeft 360 maanden looptijd en een maandrente van 0,3%. Wat is de bruto maandlast in maand 121, dus direct na tien jaar? Rond af op centen.",
       "answer": 1194.44,
       "tolerance": 0.01,
       "unit": "€",

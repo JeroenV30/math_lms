@@ -392,7 +392,7 @@
     },
     {
       "id": "23-019",
-      "question": "Dezelfde zak, zonder terugleggen. Kans RR?",
+      "question": "Een zak bevat 3 rode en 2 blauwe ballen. Je trekt twee keer zonder terugleggen. Wat is de kans op twee rode ballen (RR)?",
       "answer": "3/10",
       "solution": [
         "(3/5) × (2/4) = 3/10."
@@ -415,7 +415,7 @@
     },
     {
       "id": "23-020",
-      "question": "Dezelfde zak, zonder terugleggen. Kans BB?",
+      "question": "Een zak bevat 3 rode en 2 blauwe ballen. Je trekt twee keer zonder terugleggen. Wat is de kans op twee blauwe ballen (BB)?",
       "answer": "1/10",
       "solution": [
         "(2/5) × (1/4) = 1/10."
@@ -438,7 +438,7 @@
     },
     {
       "id": "23-021",
-      "question": "Dezelfde zak, zonder terugleggen. Kans precies één rood?",
+      "question": "Een zak bevat 3 rode en 2 blauwe ballen. Je trekt twee keer zonder terugleggen. Wat is de kans dat je precies één rode bal trekt?",
       "answer": "3/5",
       "solution": [
         "P(RB) + P(BR) = 3/10 + 3/10."
@@ -461,7 +461,7 @@
     },
     {
       "id": "23-022",
-      "question": "Dezelfde zak, met terugleggen en mengen. Kans precies één rood?",
+      "question": "Een zak bevat 3 rode en 2 blauwe ballen. Je trekt twee keer, met terugleggen en mengen. Wat is de kans dat je precies één rode bal trekt?",
       "answer": "12/25",
       "solution": [
         "(3/5)(2/5) + (2/5)(3/5) = 12/25."
@@ -530,7 +530,7 @@
     },
     {
       "id": "23-025",
-      "question": "Dezelfde situatie: een inzet van 80 wordt naar winstkansen verdeeld. Welk bedrag krijgt A?",
+      "question": "Twee spelers, A en B, spelen een eerlijk spel met onafhankelijke rondes. A heeft nog één winst nodig, B nog twee. Een inzet van 80 wordt verdeeld in verhouding tot de winstkansen van A en B. Welk bedrag krijgt A?",
       "answer": 60,
       "solution": [
         "80 × 3/4 = 60."

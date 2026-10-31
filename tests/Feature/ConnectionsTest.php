@@ -48,4 +48,16 @@ class ConnectionsTest extends TestCase
         $this->get('/tijdlijn')->assertOk()->assertSee('Oudheid')->assertSee('Geschiedenis')->assertSee('Biologie');
         $this->get('/')->assertSee('href="'.route('history.all').'"', false);
     }
+
+    public function test_an_event_shared_by_two_domains_appears_once(): void
+    {
+        $shared = app(ConnectionService::class)->timeline()->where('id', 'shang-orakelbotten');
+
+        $this->assertCount(1, $shared);
+        $this->assertSame(['geschiedenis', 'taal-en-communicatie'], array_column($shared->first()['domains'], 'id'));
+
+        $this->get('/tijdlijn')
+            ->assertOk()
+            ->assertSee('href="'.route('history.index', ['domain' => 'taal-en-communicatie']).'#shang-orakelbotten"', false);
+    }
 }

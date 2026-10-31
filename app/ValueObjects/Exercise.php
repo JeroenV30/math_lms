@@ -80,6 +80,19 @@ final readonly class Exercise
         };
     }
 
+    /**
+     * Leunt de vraag op de les of op een vorige vraag ("hierboven", "Dezelfde zak, …")? Dan is ze los,
+     * zoals in een herkansing die de vragen mengt, niet te maken. "Hieronder" mag als de vraag
+     * zelf een bronfragment of afbeelding heeft (context): dan wijst het daarheen.
+     */
+    public function leansOnLesson(): bool
+    {
+        $text = $this->question.' '.$this->context;
+
+        return (bool) preg_match('/^\s*(dezelfde|hetzelfde|zelfde)\b|\b(hierboven|bovenstaande?|vorige (opgave|oefening|vraag)|in de widget|in de les)\b/iu', $text)
+            || (trim((string) $this->context) === '' && preg_match('/\bhieronder\b/iu', $text));
+    }
+
     public function isMultiple(): bool
     {
         return $this->type === 'multiple';

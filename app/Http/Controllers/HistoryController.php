@@ -24,7 +24,7 @@ class HistoryController extends Controller
     public function all(ConnectionService $connections, DomainService $domains): View
     {
         $events = $connections->timeline();
-        $counts = $events->countBy(fn (array $event) => $event['domain']['id']);
+        $counts = $events->flatMap(fn (array $event) => array_column($event['domains'], 'id'))->countBy();
 
         return view('history.all', [
             'page' => $domains->overview()['timeline'] ?? [],

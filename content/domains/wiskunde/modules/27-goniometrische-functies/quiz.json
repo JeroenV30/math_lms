@@ -198,7 +198,7 @@
     },
     {
       "id": "27-T10",
-      "question": "Hetzelfde model: geef de periode.",
+      "question": "Gegeven is het model $y=4-2\\sin\\left(\\frac{\\pi t}{5}\\right)$. Geef de periode.",
       "answer": 10,
       "solution": [
         "$T=2\\pi/(\\pi/5)=10$."
@@ -219,7 +219,7 @@
     },
     {
       "id": "27-T11",
-      "question": "Hetzelfde model: geef het bereik.",
+      "question": "Gegeven is het model $y=4-2\\sin\\left(\\frac{\\pi t}{5}\\right)$. Geef het bereik.",
       "answer": "[2;6]",
       "solution": [
         "Evenwichtsstand 4, amplitude 2: bereik $[4-2;4+2]=[2;6]$."

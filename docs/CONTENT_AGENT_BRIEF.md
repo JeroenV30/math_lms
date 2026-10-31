@@ -65,6 +65,15 @@ een voorbeeldalinea.
   daar alleen een waarschuwing over.
 - **Personen die ook in andere domeinen voorkomen** krijgen daar dezelfde id. Zoek eerst met
   `grep -l '"id": "<id>"' content/domains/*/history/people.json`; de app koppelt de domeinen via die id.
+  Hetzelfde geldt voor een tijdlijngebeurtenis die al in een ander domein staat (grep in `timeline.json`):
+  gebruik die id, dan staat ze op de gezamenlijke tijdlijn één keer, bij beide domeinen.
+- **Geen dubbelingen.** `content:validate` keurt af: dezelfde persoon of gebeurtenis onder een tweede id,
+  een vraag die letterlijk al bestaat (ook een toetsvraag die gelijk is aan een oefening), een begrip of
+  leerdoel dat twee keer in module.json staat, en een alinea die letterlijk in een andere les staat
+  (een bronkader `:::history` of citaat `>` mag wel terugkomen).
+- **Toetsvragen staan op zichzelf.** Herkansingen mengen toetsvragen en oefeningen, dus begin nooit met
+  "Dezelfde …" en verwijs niet naar "hierboven" of "de vorige vraag": noem de gegevens opnieuw.
+  Een oefening die dat wel doet, mag in de les, maar komt dan niet in herkansingen.
 - Gebruik `$` alleen voor formules (KaTeX), nooit voor geld of als teken in lopende tekst.
 - Schrijf bestanden direct weg, les voor les, zodat werk niet verloren gaat bij een onderbreking.
 - Werk alleen in je eigen moduledirectory en je eigen afbeeldingsbestanden (`mNN-*`).

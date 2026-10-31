@@ -65,8 +65,9 @@ class ConnectionService
     }
 
     /**
-     * Alle tijdlijngebeurtenissen van alle domeinen, op volgorde van tijd, met hun domein
-     * en het tijdvak uit domains.json → periods.
+     * Alle tijdlijngebeurtenissen van alle domeinen, op volgorde van tijd, met het tijdvak
+     * uit domains.json → periods. Een gebeurtenis met dezelfde id in meer domeinen komt één keer
+     * voor: 'domains' noemt ze allemaal, 'domain' is het eerste (de tekst komt daarvandaan).
      *
      * @return Collection<int, array>
      */
@@ -78,6 +79,8 @@ class ConnectionService
                 'domain' => $this->domains->find($id),
                 'period' => $this->period((int) ($event['sort_year'] ?? 0)),
             ]))
+            ->groupBy('id')
+            ->map(fn (Collection $same) => [...$same->first(), 'domains' => $same->pluck('domain')->all()])
             ->sortBy('sort_year')
             ->values();
     }

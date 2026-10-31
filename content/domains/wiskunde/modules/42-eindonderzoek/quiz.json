@@ -234,7 +234,7 @@
     {
       "type": "decimal",
       "difficulty": 4,
-      "question": "Dezelfde dataset in gram wordt in kilogram omgerekend. Met welke factor verandert de regressiehelling bij dezelfde x-eenheid?",
+      "question": "Bij een regressielijn is de y-variabele in gram gemeten. Je rekent alle y-waarden om naar kilogram. Met welke factor verandert de regressiehelling bij dezelfde x-eenheid?",
       "answer": 0.001,
       "solution": [
         "Elke y-waarde wordt door 1000 gedeeld; de helling dus ook."

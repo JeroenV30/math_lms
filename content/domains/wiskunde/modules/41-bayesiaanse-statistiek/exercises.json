@@ -576,7 +576,7 @@
       "type": "fraction",
       "mode": "guided",
       "difficulty": 2,
-      "question": "Dezelfde groep: bereken $P(\\text{roker}\\mid\\text{hoest})$ als breuk.",
+      "question": "In een groep van 1000 mensen zijn 200 rokers, van wie er 50 hoesten; verder hoesten 80 van de 800 niet-rokers. Bereken de kans dat iemand die hoest een roker is, $P(\\text{roker}\\mid\\text{hoest})$, als breuk.",
       "answer": "5/13",
       "hints": [
         "Beperk je nu tot de kolom van de hoesters."
@@ -632,7 +632,7 @@
       "type": "fraction",
       "mode": "independent",
       "difficulty": 3,
-      "question": "Zie de vorige opgave: er zijn ongeveer 10 passende onschuldigen en de dader past ook. Hoe groot is de kans dat een willekeurige passende persoon de dader is (zonder ander bewijs)? Geef een breuk.",
+      "question": "Een DNA-profiel komt bij 1 op de 100 000 mensen voor. In een stad met 1 000 000 inwoners (de dader meegeteld) past het profiel dus bij ongeveer 10 onschuldige inwoners. De dader past ook op het profiel. Hoe groot is de kans dat een willekeurige passende persoon de dader is (zonder ander bewijs)? Geef een breuk.",
       "answer": "1/11",
       "hints": [
         "Tel alle passende mensen, ook de dader."
@@ -688,7 +688,7 @@
       "type": "fraction",
       "mode": "guided",
       "difficulty": 3,
-      "question": "Zelfde test en prevalentie. Geef de positief voorspellende waarde, $P(\\text{ziek}\\mid+)$, als breuk.",
+      "question": "Een test heeft sensitiviteit 90% en specificiteit 91%; de prevalentie is 1%. Geef de positief voorspellende waarde, $P(\\text{ziek}\\mid+)$, als breuk.",
       "answer": "10/109",
       "hints": [
         "Teken de kruistabel voor 10 000 mensen."
@@ -747,7 +747,7 @@
       "type": "decimal",
       "mode": "independent",
       "difficulty": 3,
-      "question": "Dezelfde test (sensitiviteit 90%, specificiteit 91%) wordt gebruikt in een groep met prevalentie 10%. Bereken de PPV op vier decimalen.",
+      "question": "Een test heeft sensitiviteit 90% en specificiteit 91%. De test wordt gebruikt in een groep met prevalentie 10%. Bereken de positief voorspellende waarde op vier decimalen.",
       "answer": 0.5263,
       "hints": [
         "Begin opnieuw met 1000 zieken en 9000 gezonden."

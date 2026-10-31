@@ -612,7 +612,7 @@
       "type": "numeric",
       "mode": "independent",
       "difficulty": 2,
-      "question": "Zelfde codering als hierboven (1 = dekkingsfout, 2 = non-respons, 3 = zelfselectie, 4 = overlevingsvertekening, 5 = vraagformulering). Een vragenlijst vraagt: 'Bent u het ook eens dat de onnodige belastingverhoging moet worden teruggedraaid?' Welk nummer past?",
+      "question": "Codeer vertekening: 1 = dekkingsfout (kader), 2 = non-respons, 3 = zelfselectie, 4 = overlevingsvertekening, 5 = vraagformulering. Een vragenlijst vraagt: 'Bent u het ook eens dat de onnodige belastingverhoging moet worden teruggedraaid?' Welk nummer past?",
       "answer": 5,
       "hints": [
         "Kijk naar de woorden in de vraag zelf."

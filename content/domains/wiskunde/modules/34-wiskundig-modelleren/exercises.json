@@ -605,7 +605,7 @@
       "type": "decimal",
       "mode": "independent",
       "difficulty": 3,
-      "question": "Hetzelfde medicijn: 1000 mg, halveringstijd 2 uur. Na hoeveel uur is er voor het eerst minder dan 100 mg over? Rond af op één decimaal.",
+      "question": "Een patiënt krijgt 1000 mg van een medicijn met een halveringstijd van 2 uur. Na hoeveel uur is er voor het eerst minder dan 100 mg over (volgens een exponentieel model)? Rond af op één decimaal.",
       "answer": 6.6,
       "tolerance": 0.05,
       "unit": "uur",

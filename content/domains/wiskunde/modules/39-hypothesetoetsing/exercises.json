@@ -678,7 +678,7 @@
     {
       "type": "fraction",
       "difficulty": 3,
-      "question": "Dezelfde uitkomst (9 keer kop in 10 worpen): geef de tweezijdige p-waarde door ook de even extreme uitkomsten aan de andere kant te tellen, als breuk.",
+      "question": "Een munt wordt tien keer geworpen en geeft negen keer kop. Geef de tweezijdige exacte p-waarde onder $H_0:p=0{,}5$ door ook de even extreme uitkomsten aan de andere kant te tellen, als breuk.",
       "answer": "11/512",
       "solution": [
         "Rechterstaart $11/1024$, linkerstaart (0 of 1 keer kop) ook $11/1024$.",
@@ -949,7 +949,7 @@
     {
       "type": "decimal",
       "difficulty": 3,
-      "question": "Zelfde situatie, maar nu $n=400$. Bereken de power bij $\\mu=101$. Gebruik $\\Phi(0{,}355)=0{,}6387$ en rond af op drie decimalen.",
+      "question": "Een rechtszijdige z-toets heeft $\\mu_0=100$, $\\sigma=10$, $n=400$ en $\\alpha=0{,}05$ (kritieke $z=1{,}645$). Bereken de power als het werkelijke gemiddelde 101 is. Gebruik $\\Phi(0{,}355)=0{,}6387$ en rond af op drie decimalen.",
       "answer": 0.639,
       "solution": [
         "Kritiek: $100+1{,}645\\cdot0{,}5=100{,}8225$.",

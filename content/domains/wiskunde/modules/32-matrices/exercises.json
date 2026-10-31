@@ -362,7 +362,7 @@
       "type": "numeric",
       "mode": "independent",
       "difficulty": 3,
-      "question": "Neem dezelfde matrices als in de vorige opgave met $AB$: $A = \\begin{pmatrix} 2 & 1 \\\\ 0 & 3 \\end{pmatrix}$ en $B = \\begin{pmatrix} 1 & 4 \\\\ 5 & -2 \\end{pmatrix}$. Bereken nu het element in rij 1, kolom 2 van $BA$ (let op de volgorde).",
+      "question": "Gegeven $A = \\begin{pmatrix} 2 & 1 \\\\ 0 & 3 \\end{pmatrix}$ en $B = \\begin{pmatrix} 1 & 4 \\\\ 5 & -2 \\end{pmatrix}$. Bereken het element in rij 1, kolom 2 van $BA$ (let op de volgorde).",
       "answer": 13,
       "hints": [
         "Bij $BA$ staat $B$ links: je neemt een rij van $B$ en een kolom van $A$.",
@@ -1086,7 +1086,7 @@
       "type": "numeric",
       "mode": "independent",
       "difficulty": 3,
-      "question": "Neem de energieleveranciers uit de vorige opgave (P houdt 90%, Q houdt 85%; samen 10.000 klanten). Bij welk aantal klanten van P is er evenwicht, zodat de aantallen van jaar tot jaar gelijk blijven?",
+      "question": "Twee energieleveranciers, P en Q, houden samen 10.000 klanten. Van de klanten van P blijft 90% bij P en stapt 10% over naar Q. Van de klanten van Q blijft 85% bij Q en stapt 15% over naar P. Bij welk aantal klanten van P is er evenwicht, zodat de aantallen van jaar tot jaar gelijk blijven?",
       "answer": 6000,
       "hints": [
         "In evenwicht stappen er per jaar evenveel klanten van P naar Q als van Q naar P: $0{,}1 \\cdot P = 0{,}15 \\cdot Q$.",
