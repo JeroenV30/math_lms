@@ -1,0 +1,1031 @@
+{
+  "exercises": [
+    {
+      "id": "21-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat was het Marshallplan van 1947?",
+      "choices": [
+        "Amerikaanse economische hulp aan West-Europese landen voor het herstel na de oorlog",
+        "Een militair bondgenootschap tussen de Verenigde Staten en West-Europa",
+        "Een Sovjetplan om Oost-Europa economisch te verbinden",
+        "Een verdrag over de verdeling van Duitsland in vier zones"
+      ],
+      "answer": "Amerikaanse economische hulp aan West-Europese landen voor het herstel na de oorlog",
+      "hints": [
+        "Het plan is genoemd naar de Amerikaanse minister van Buitenlandse Zaken George Marshall.",
+        "Denk aan wat West-Europa in 1947 het meest nodig had: een economische basis."
+      ],
+      "solution": [
+        "Het Marshallplan bestond uit Amerikaanse goederen en kredieten voor West-Europa. Het was geen militair bondgenootschap en ook geen Sovjetplan."
+      ],
+      "feedback": [
+        {
+          "answer": "Een militair bondgenootschap tussen de Verenigde Staten en West-Europa",
+          "message": "Dat is de NAVO (1949). Het Marshallplan was economisch: goederen en kredieten voor herstel."
+        },
+        {
+          "answer": "Een verdrag over de verdeling van Duitsland in vier zones",
+          "message": "De verdeling in zones werd afgesproken in Jalta en Potsdam in 1945, niet in het Marshallplan."
+        }
+      ],
+      "topics": [
+        "causation",
+        "twentieth-century"
+      ]
+    },
+    {
+      "id": "21-002",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Conferentie van Jalta",
+        "Churchills toespraak in Fulton",
+        "Trumandoctrine",
+        "Begin van de Berlijnse blokkade",
+        "Oprichting van de NAVO"
+      ],
+      "hints": [
+        "Jalta was in de laatste maanden van de oorlog.",
+        "De blokkade begon in de zomer van 1948, de NAVO in 1949."
+      ],
+      "solution": [
+        "Jalta (februari 1945), Fulton (maart 1946), Trumandoctrine (maart 1947), begin van de blokkade (juni 1948), NAVO (april 1949)."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Churchills toespraak in Fulton",
+            "Conferentie van Jalta",
+            "Trumandoctrine",
+            "Begin van de Berlijnse blokkade",
+            "Oprichting van de NAVO"
+          ],
+          "message": "Jalta vond plaats in februari 1945, vóór de toespraak van Churchill in maart 1946."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "twentieth-century"
+      ]
+    },
+    {
+      "id": "21-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "context": "Winston Churchill in Fulton, Missouri, 5 maart 1946 (vrij vertaald): \"Van Stettin aan de Oostzee tot Triëst aan de Adriatische Zee is er een IJzeren Gordijn over het continent neergedaald.\"",
+      "question": "Wat kun je uit alleen deze zin afleiden?",
+      "choices": [
+        "Dat Churchill in 1946 Europa voorstelde als in twee delen gesplitst",
+        "Dat de Sovjet-Unie Europa al met een muur had afgesloten",
+        "Dat de NAVO toen al bestond",
+        "Dat de Sovjet-Unie een nieuwe oorlog wilde beginnen"
+      ],
+      "answer": "Dat Churchill in 1946 Europa voorstelde als in twee delen gesplitst",
+      "hints": [
+        "Vraag je af wat er letterlijk staat en wat jij erbij denkt.",
+        "Een gordijn is een beeld, geen bewijs van plannen."
+      ],
+      "solution": [
+        "De zin beschrijft Europa als in tweeën gedeeld, in de woorden van Churchill. Ze bewijst geen Sovjetplannen en noemt geen bondgenootschap."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat de Sovjet-Unie Europa al met een muur had afgesloten",
+          "message": "Het \"gordijn\" is beeldspraak. De Berlijnse Muur werd pas in 1961 gebouwd."
+        },
+        {
+          "answer": "Dat de NAVO toen al bestond",
+          "message": "De NAVO werd in 1949 opgericht; de zin zegt daar niets over."
+        },
+        {
+          "answer": "Dat de Sovjet-Unie een nieuwe oorlog wilde beginnen",
+          "message": "De zin beschrijft een tweedeling, niet de bedoelingen van Stalin."
+        }
+      ],
+      "topics": [
+        "sources",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "21-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "De Berlijnse blokkade begon op 24 juni 1948 en eindigde op 12 mei 1949. Uit hoeveel dagen bestond de blokkade, als je de eerste dag niet meetelt?",
+      "answer": 322,
+      "unit": "dagen",
+      "hints": [
+        "Tel de resterende dagen van juni, dan de volle maanden juli tot en met april, en dan 12 dagen mei.",
+        "Februari 1949 had 28 dagen."
+      ],
+      "solution": [
+        "Juni: 6 dagen (24 juni tot 30 juni).",
+        "Juli tot en met april: 31 + 31 + 30 + 31 + 30 + 31 + 31 + 28 + 31 + 30 = 304 dagen.",
+        "Mei: 12 dagen.",
+        "Totaal: 6 + 304 + 12 = 322 dagen."
+      ],
+      "feedback": [
+        {
+          "answer": 323,
+          "message": "Je hebt de eerste dag meegeteld. Het verschil tussen twee data tel je zonder de beginsdag."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "causation"
+      ]
+    },
+    {
+      "id": "21-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Waarom wees de Sovjet-Unie in 1947 het Marshallplan af?",
+      "choices": [
+        "Moskou zag het als een middel om Amerikaanse invloed in Europa te vergroten en liet ook Oost-Europese landen weigeren",
+        "Het plan gold alleen voor landen die al lid waren van de NAVO",
+        "De Sovjet-Unie had geen hulp nodig omdat de oorlog haar nauwelijks had geraakt",
+        "De Verenigde Staten hadden de Sovjet-Unie niet uitgenodigd"
+      ],
+      "answer": "Moskou zag het als een middel om Amerikaanse invloed in Europa te vergroten en liet ook Oost-Europese landen weigeren",
+      "hints": [
+        "Denk aan de politieke betekenis van hulp, niet alleen aan geld.",
+        "Welke landen volgden Moskou in de weigering?"
+      ],
+      "solution": [
+        "De Sovjet-Unie zag het plan als een Amerikaans instrument voor invloed en weigerde, en dwong landen in haar invloedssfeer hetzelfde te doen."
+      ],
+      "feedback": [
+        {
+          "answer": "Het plan gold alleen voor landen die al lid waren van de NAVO",
+          "message": "De NAVO bestond nog niet; ze werd pas in 1949 opgericht."
+        },
+        {
+          "answer": "De Sovjet-Unie had geen hulp nodig omdat de oorlog haar nauwelijks had geraakt",
+          "message": "De Sovjet-Unie was zwaar getroffen door de oorlog. De weigering had politieke redenen."
+        },
+        {
+          "answer": "De Verenigde Staten hadden de Sovjet-Unie niet uitgenodigd",
+          "message": "De uitnodiging was er wel; Moskou sloeg haar af."
+        }
+      ],
+      "topics": [
+        "causation",
+        "perspective"
+      ]
+    },
+    {
+      "id": "21-006",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom heet de Koude Oorlog \"koud\"?",
+      "choices": [
+        "Omdat de supermachten elkaar niet rechtstreeks in een open oorlog bestreden",
+        "Omdat de strijd vooral in poolgebieden plaatsvond",
+        "Omdat er geen doden vielen",
+        "Omdat het conflict maar enkele jaren duurde"
+      ],
+      "answer": "Omdat de supermachten elkaar niet rechtstreeks in een open oorlog bestreden",
+      "hints": [
+        "Denk aan wie er tegen wie vocht in Korea en Vietnam."
+      ],
+      "solution": [
+        "\"Koud\" slaat op het ontbreken van een open oorlog tussen de Verenigde Staten en de Sovjet-Unie zelf."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat er geen doden vielen",
+          "message": "Er vielen veel doden, bijvoorbeeld in Korea en Vietnam. Het woord verwijst naar het ontbreken van een rechtstreekse oorlog tussen de supermachten."
+        },
+        {
+          "answer": "Omdat het conflict maar enkele jaren duurde",
+          "message": "De Koude Oorlog duurde ruim veertig jaar."
+        }
+      ],
+      "topics": [
+        "twentieth-century"
+      ]
+    },
+    {
+      "id": "21-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom kon de Veiligheidsraad in juni 1950 een militair optreden in Korea goedkeuren?",
+      "choices": [
+        "De Sovjet-Unie boycotte de vergaderingen en kon dus geen veto uitspreken",
+        "Alle vijf vaste leden stemden uit overtuiging voor",
+        "Er bestaat geen veto bij een aanval op een lid van de VN",
+        "De Verenigde Staten hadden zelf een meerderheid van twee derde"
+      ],
+      "answer": "De Sovjet-Unie boycotte de vergaderingen en kon dus geen veto uitspreken",
+      "hints": [
+        "Denk aan het vetorecht van de vijf vaste leden.",
+        "Wat gebeurt er met een veto als een lid niet aanwezig is?"
+      ],
+      "solution": [
+        "De Sovjet-Unie boycotte op dat moment de Veiligheidsraad, dus er kwam geen veto en het VN-optreden kon doorgaan."
+      ],
+      "feedback": [
+        {
+          "answer": "Alle vijf vaste leden stemden uit overtuiging voor",
+          "message": "De Sovjet-Unie was afwezig en stemde dus niet."
+        },
+        {
+          "answer": "Er bestaat geen veto bij een aanval op een lid van de VN",
+          "message": "Het veto geldt bij elk inhoudelijk besluit van de Veiligheidsraad."
+        }
+      ],
+      "topics": [
+        "causation",
+        "twentieth-century"
+      ]
+    },
+    {
+      "id": "21-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "context": "In oktober en november 1956 liet het Rode Leger een opstand in Hongarije neerslaan. De Verenigde Staten en hun bondgenoten gaven wel kritiek, maar stuurden geen troepen.",
+      "question": "Welke verklaring past het best bij de context van het Amerikaanse niet-ingrijpen?",
+      "choices": [
+        "Ingrijpen in de Sovjetinvloedssfeer kon een oorlog met een kernmacht betekenen",
+        "De Verenigde Staten steunden de Sovjetinvasie",
+        "Het Westen wist niets van de opstand",
+        "Hongarije was lid van het Warschaupact en dat verbood hulp van de NAVO"
+      ],
+      "answer": "Ingrijpen in de Sovjetinvloedssfeer kon een oorlog met een kernmacht betekenen",
+      "hints": [
+        "Wie had de kernwapens in 1956?"
+      ],
+      "solution": [
+        "Beide kampen hadden kernwapens. Een militair conflict over Hongarije kon uitlopen op een oorlog tussen kernmachten."
+      ],
+      "feedback": [
+        {
+          "answer": "De Verenigde Staten steunden de Sovjetinvasie",
+          "message": "Het Westen veroordeelde de invasie, maar greep niet in."
+        },
+        {
+          "answer": "Het Westen wist niets van de opstand",
+          "message": "De opstand kreeg veel aandacht in de westerse pers en bij de VN."
+        }
+      ],
+      "topics": [
+        "causation",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "21-009",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Bouw van de Berlijnse Muur",
+        "Cubacrisis",
+        "Inval van het Warschaupact in Tsjecho-Slowakije",
+        "Sovjetinvasie in Afghanistan",
+        "INF-verdrag"
+      ],
+      "hints": [
+        "Muur en Cuba liggen één jaar uit elkaar.",
+        "De Praagse Lente eindigde in 1968."
+      ],
+      "solution": [
+        "Muur (1961), Cuba (1962), Praag (1968), Afghanistan (1979), INF-verdrag (1987)."
+      ],
+      "topics": [
+        "chronology",
+        "twentieth-century"
+      ]
+    },
+    {
+      "id": "21-010",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de beste verklaring voor de omvang van de kruisraketprotesten in Nederland in de jaren 1981-1983?",
+      "choices": [
+        "Veel Nederlanders vreesden dat kernwapens op Nederlands grondgebied het land tot doelwit zouden maken en de wapenwedloop zouden aanwakkeren",
+        "De demonstranten waren voorstanders van de Sovjet-Unie",
+        "De Sovjet-Unie wilde zelf raketten in Nederland plaatsen",
+        "De regering wilde Nederland uit de NAVO laten treden"
+      ],
+      "answer": "Veel Nederlanders vreesden dat kernwapens op Nederlands grondgebied het land tot doelwit zouden maken en de wapenwedloop zouden aanwakkeren",
+      "hints": [
+        "Denk aan de motieven van mensen, niet aan een politiek etiket."
+      ],
+      "solution": [
+        "De protesten rustten op vrees voor kernwapens in eigen land en voor een nieuwe wapenwedloop; het waren uiteenlopende groepen die dat deelden."
+      ],
+      "feedback": [
+        {
+          "answer": "De demonstranten waren voorstanders van de Sovjet-Unie",
+          "message": "Dit is een eenzijdige stempel. De beweging bestond onder meer uit kerkgangers, vakbonden en partijen, met uiteenlopende motieven."
+        },
+        {
+          "answer": "De Sovjet-Unie wilde zelf raketten in Nederland plaatsen",
+          "message": "Het ging om Amerikaanse kruisraketten, volgens het NAVO-dubbelbesluit van 1979."
+        },
+        {
+          "answer": "De regering wilde Nederland uit de NAVO laten treden",
+          "message": "Het kabinet bleef binnen de NAVO."
+        }
+      ],
+      "topics": [
+        "causation",
+        "perspective"
+      ]
+    },
+    {
+      "id": "21-011",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De Berlijnse Muur werd op 13 augustus 1961 gebouwd en viel op 9 november 1989. Hoeveel hele jaren stond de Muur?",
+      "answer": 28,
+      "unit": "jaar",
+      "hints": [
+        "Trek 1961 af van 1989 en kijk of je een jaar moet corrigeren.",
+        "Op 13 augustus 1989 waren het 28 jaar."
+      ],
+      "solution": [
+        "13 augustus 1961 tot 13 augustus 1989 is precies 28 jaar.",
+        "Daarna nog bijna drie maanden tot 9 november, dus geen volledig 29e jaar.",
+        "Antwoord: 28 hele jaren."
+      ],
+      "feedback": [
+        {
+          "answer": 29,
+          "message": "Het 29e jaar was op 9 november 1989 nog niet vol; op 13 augustus 1990 zou dat zo zijn."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "21-012",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Leg uit waarom de afloop van de Cubacrisis geen bewijs is dat afschrikking altijd werkt.",
+      "answer": "Eén gunstige afloop is geen regel; toeval en geheime concessie speelden mee; bronnen laten zien dat het ook mis had kunnen gaan.",
+      "hints": [
+        "Denk aan het verschil tussen één geval en een algemene regel.",
+        "Welke rol speelden de geheime afspraak en toeval?"
+      ],
+      "solution": [
+        "Een enkel geval kan niet bewijzen dat iets altijd werkt. In 1962 hielpen voorzichtige keuzes, een geheime concessie (de raketten uit Turkije) en ook toeval; later bekende bronnen laten zien dat het op sommige momenten mis had kunnen gaan. Een algemene stelling over afschrikking vraagt om meer gevallen, ook mislukte."
+      ],
+      "topics": [
+        "causation",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "21-013",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Op welke datum viert Indonesië zijn onafhankelijkheid, en waarom?",
+      "choices": [
+        "Op 17 augustus, omdat Soekarno en Hatta in 1945 de onafhankelijkheid uitriepen",
+        "Op 27 december, omdat Nederland toen de soevereiniteit overdroeg",
+        "Op 10 november, de dag van de slag bij Soerabaja",
+        "Op 15 augustus, de dag van de Japanse capitulatie"
+      ],
+      "answer": "Op 17 augustus, omdat Soekarno en Hatta in 1945 de onafhankelijkheid uitriepen",
+      "hints": [
+        "Welke datum hoort bij de eigen uitroeping door de Indonesiërs?"
+      ],
+      "solution": [
+        "Indonesië viert 17 augustus, de dag van de proclamatie. De overdracht van 27 december 1949 geldt in Indonesië als erkenning."
+      ],
+      "feedback": [
+        {
+          "answer": "Op 27 december, omdat Nederland toen de soevereiniteit overdroeg",
+          "message": "Dat is de datum van de overdracht. Indonesië ziet die als erkenning van een onafhankelijkheid die al bestond."
+        },
+        {
+          "answer": "Op 10 november, de dag van de slag bij Soerabaja",
+          "message": "10 november is in Indonesië Heldendag, geen onafhankelijkheidsdag."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "chronology"
+      ]
+    },
+    {
+      "id": "21-014",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in de Indonesische onafhankelijkheidsoorlog in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Proclamatie van de onafhankelijkheid",
+        "Eerste politionele actie",
+        "Renville-akkoord",
+        "Tweede politionele actie",
+        "Soevereiniteitsoverdracht"
+      ],
+      "hints": [
+        "De twee acties liggen tussen augustus 1945 en december 1949.",
+        "Renville volgde op de eerste actie en ging vooraf aan de tweede."
+      ],
+      "solution": [
+        "Proclamatie (augustus 1945), eerste actie (juli 1947), Renville (januari 1948), tweede actie (december 1948), overdracht (december 1949)."
+      ],
+      "topics": [
+        "chronology",
+        "twentieth-century"
+      ]
+    },
+    {
+      "id": "21-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "In 1947 noemde de Nederlandse regering haar offensief in Indonesië een \"politionele actie\".",
+      "question": "Wat zegt de term \"politionele actie\" vooral over het standpunt van de Nederlandse regering?",
+      "choices": [
+        "Dat zij het gebied als eigen grondgebied zag, waar ze de orde herstelde, en niet als een oorlog met een andere staat",
+        "Dat zij de Republiek Indonesië als gelijkwaardige staat erkende",
+        "Dat er bij het offensief geen geweld werd gebruikt",
+        "Dat de Verenigde Naties het offensief hadden goedgekeurd"
+      ],
+      "answer": "Dat zij het gebied als eigen grondgebied zag, waar ze de orde herstelde, en niet als een oorlog met een andere staat",
+      "hints": [
+        "Wie voert in een \"politieactie\" normaal gesproken orde, en tegenover wie?"
+      ],
+      "solution": [
+        "Een politieactie is orde herstellen binnen eigen gebied. De term draagt dus het standpunt van de bestuurder."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat zij de Republiek Indonesië als gelijkwaardige staat erkende",
+          "message": "Dat is het tegenovergestelde: de term veronderstelt dat er geen staat tegenover Nederland stond."
+        },
+        {
+          "answer": "Dat de Verenigde Naties het offensief hadden goedgekeurd",
+          "message": "De Verenigde Naties riepen juist op tot een bestand."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "21-016",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Hoe verschilde de conclusie van het onderzoek van 2017-2022 van de Excessennota van 1969?",
+      "choices": [
+        "De nota sprak van losse excessen in een verder correct optreden; het onderzoek concludeerde dat het extreme geweld stelselmatig was en werd gedoogd",
+        "De nota concludeerde structureel geweld; het onderzoek sprak van losse excessen",
+        "Beide kwamen tot dezelfde conclusie, met andere bronnen",
+        "De nota ging over Indonesisch geweld, het onderzoek alleen over Nederlands geweld"
+      ],
+      "answer": "De nota sprak van losse excessen in een verder correct optreden; het onderzoek concludeerde dat het extreme geweld stelselmatig was en werd gedoogd",
+      "hints": [
+        "Welk woord kozen de makers van de nota voor het geweld?"
+      ],
+      "solution": [
+        "De Excessennota (1969) zag losse overtredingen; Over de grens (2022) zag stelselmatig extreem geweld, gedoogd door politieke, militaire en juridische autoriteiten."
+      ],
+      "feedback": [
+        {
+          "answer": "De nota concludeerde structureel geweld; het onderzoek sprak van losse excessen",
+          "message": "Dit is omgekeerd. De nota sprak van excessen; het onderzoek van 2022 van structureel geweld."
+        },
+        {
+          "answer": "De nota ging over Indonesisch geweld, het onderzoek alleen over Nederlands geweld",
+          "message": "De nota ging over Nederlands optreden. Het onderzoek van 2022 beschreef ook het geweld aan Indonesische kant."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "21-017",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel hele maanden zaten er tussen de proclamatie van 17 augustus 1945 en de soevereiniteitsoverdracht van 27 december 1949?",
+      "answer": 52,
+      "unit": "maanden",
+      "hints": [
+        "Reken eerst de jaren om naar maanden.",
+        "Van 17 augustus 1945 tot 17 augustus 1949 is 48 maanden."
+      ],
+      "solution": [
+        "17 augustus 1945 tot 17 augustus 1949: 4 jaar = 48 maanden.",
+        "17 augustus tot 17 december 1949: 4 maanden.",
+        "Dan nog 10 dagen tot 27 december, geen hele maand.",
+        "Totaal: 52 hele maanden."
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "21-018",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom is het verhaal van de Molukkers een eigen perspectief naast het Nederlandse en het Indonesische?",
+      "choices": [
+        "Zij hadden voor Nederland gediend, werden in 1950 uit het KNIL ontslagen en kwamen voor een verblijf dat tijdelijk leek maar blijvend werd",
+        "Zij streden aan Indonesische zijde en bleven in Indonesië",
+        "Zij waren Nederlandse dienstplichtigen die in 1946 naar Indië werden gestuurd",
+        "Zij hadden in 1949 de onafhankelijkheid van Indonesië uitgeroepen"
+      ],
+      "answer": "Zij hadden voor Nederland gediend, werden in 1950 uit het KNIL ontslagen en kwamen voor een verblijf dat tijdelijk leek maar blijvend werd",
+      "hints": [
+        "Bij welk leger dienden veel Molukkers?"
+      ],
+      "solution": [
+        "Molukse KNIL-soldaten dienden Nederland, werden na 1950 ontbonden en kwamen in 1951 met hun gezinnen naar Nederland, in de verwachting dat het tijdelijk zou zijn."
+      ],
+      "feedback": [
+        {
+          "answer": "Zij streden aan Indonesische zijde en bleven in Indonesië",
+          "message": "Veel Molukse soldaten dienden in het KNIL, aan Nederlandse zijde."
+        },
+        {
+          "answer": "Zij hadden in 1949 de onafhankelijkheid van Indonesië uitgeroepen",
+          "message": "Het was Soekarno die in 1945 de onafhankelijkheid uitriep. De Molukken riepen in 1950 de RMS uit."
+        }
+      ],
+      "topics": [
+        "perspective"
+      ]
+    },
+    {
+      "id": "21-019",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Zowel de term \"politionele acties\" als de term \"bersiap\" wordt in het debat bekritiseerd. Leg uit waarom, en wat dat zegt over de manier waarop je met zulke termen als historicus omgaat.",
+      "answer": "Beide termen dragen een standpunt: politionele acties veronderstelt eigen gebied; bersiap benadrukt geweld tegen Nederlanders en Indo-Europeanen en laat Indonesische motieven weg. Termen zijn zelf bronnen.",
+      "hints": [
+        "Wie bedacht elke term, en welk perspectief zit erin?",
+        "Wat laat elke term buiten beeld?"
+      ],
+      "solution": [
+        "\"Politionele acties\" is een regeringsterm uit 1947 en veronderstelt dat Nederland orde herstelde in eigen gebied; dat verhult dat er een oorlog tegen een zichzelf onafhankelijk noemende staat werd gevoerd. \"Bersiap\" benoemt het geweld van oktober 1945 en later vooral als geweld tegen Nederlanders, Indo-Europeanen en anderen, en laat de Indonesische aanleiding en motieven weg. Voor een historicus zijn zulke termen zelf bronnen: ze laten zien hoe betrokkenen de gebeurtenissen zagen. Voor een eigen beschrijving kies je een term die je kunt verantwoorden en je benoemt daarbij waarom."
+      ],
+      "topics": [
+        "perspective",
+        "source-criticism",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "21-020",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een medeleerling zegt: \"De dekolonisatie na 1945 is uitsluitend het gevolg van de Koude Oorlog.\" Wat is de beste reactie?",
+      "choices": [
+        "De stelling is te eenzijdig: nationale bewegingen en de verzwakking van Europa speelden ook een grote rol",
+        "Dat klopt, want beide supermachten dwongen de Europese landen hun koloniën op te geven",
+        "Dat klopt niet, want de Koude Oorlog speelde helemaal geen rol bij de dekolonisatie",
+        "Dat klopt, want alleen Congo werd onafhankelijk"
+      ],
+      "answer": "De stelling is te eenzijdig: nationale bewegingen en de verzwakking van Europa speelden ook een grote rol",
+      "hints": [
+        "Zoek meerdere oorzaken en let op lange en korte termijn."
+      ],
+      "solution": [
+        "Dekolonisatie had meerdere oorzaken: nationale bewegingen, de zwakte van Europa na de oorlog, en de Koude Oorlog. Een monocausale stelling klopt niet."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat klopt, want beide supermachten dwongen de Europese landen hun koloniën op te geven",
+          "message": "De supermachten hadden invloed, maar de nationale bewegingen bestonden al decennia en de Europese landen waren verzwakt door de oorlog. Eén oorzaak is te weinig."
+        },
+        {
+          "answer": "Dat klopt niet, want de Koude Oorlog speelde helemaal geen rol bij de dekolonisatie",
+          "message": "Dat is net zo eenzijdig. Het conflict beïnvloedde bijvoorbeeld de Amerikaanse druk op Nederland en de ontwikkelingen in Congo."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "21-021",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze onafhankelijkheidsdata in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Indonesië (soevereiniteitsoverdracht)",
+        "Ghana",
+        "Congo",
+        "Algerije",
+        "Suriname"
+      ],
+      "hints": [
+        "Ghana was de eerste in Afrika bezuiden de Sahara.",
+        "Het Afrikaanse jaar is 1960."
+      ],
+      "solution": [
+        "Indonesië (1949), Ghana (1957), Congo (1960), Algerije (1962), Suriname (1975)."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Indonesië (soevereiniteitsoverdracht)",
+            "Ghana",
+            "Algerije",
+            "Congo",
+            "Suriname"
+          ],
+          "message": "Congo werd in juni 1960 onafhankelijk, Algerije pas in juli 1962."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "21-022",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Nieuw-Guinea bleef na de soevereiniteitsoverdracht van 27 december 1949 nog onder Nederlands bestuur tot 1 oktober 1962, toen het aan een VN-bestuur overging. Hoeveel hele jaren was dat?",
+      "answer": 12,
+      "unit": "jaar",
+      "hints": [
+        "Trek de jaartallen van elkaar af en let op de maanden.",
+        "27 december 1961 is precies twaalf jaar na 27 december 1949."
+      ],
+      "solution": [
+        "27 december 1949 tot 27 december 1961: 12 jaar.",
+        "Tot 1 oktober 1962 komen daar nog negen maanden bij, geen volledig 13e jaar.",
+        "Antwoord: 12 hele jaren."
+      ],
+      "feedback": [
+        {
+          "answer": 13,
+          "message": "Het dertiende jaar was op 1 oktober 1962 nog niet vol; dat was pas op 27 december 1962."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "21-023",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat betekende \"niet-gebonden\" voor landen als India, Indonesië en Joegoslavië?",
+      "choices": [
+        "Dat een land geen deel wilde uitmaken van een van de militaire blokken",
+        "Dat een land geen contact had met de supermachten",
+        "Dat een land in elk conflict neutraal bleef",
+        "Dat een land uit de Verenigde Naties was getreden"
+      ],
+      "answer": "Dat een land geen deel wilde uitmaken van een van de militaire blokken",
+      "hints": [
+        "Denk aan NAVO en Warschaupact."
+      ],
+      "solution": [
+        "Niet-gebonden landen wilden geen lid worden van NAVO of Warschaupact, maar hadden wel standpunten en contacten."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat een land geen contact had met de supermachten",
+          "message": "Niet-gebonden landen onderhielden vaak wel contact, en ontvingen hulp van beide kanten."
+        },
+        {
+          "answer": "Dat een land in elk conflict neutraal bleef",
+          "message": "Het ging om het lidmaatschap van blokken, niet om politieke neutraliteit in elke kwestie."
+        }
+      ],
+      "topics": [
+        "contextualisation",
+        "twentieth-century"
+      ]
+    },
+    {
+      "id": "21-024",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Hoe past de Congocrisis van 1960-1961 het best in het beeld van een proxyoorlog?",
+      "choices": [
+        "Als een lokaal conflict over macht dat door de rivaliteit van beide blokken werd verscherpt",
+        "Als een rechtstreeks conflict tussen Amerikaanse en Sovjettroepen",
+        "Als een conflict dat uitsluitend door de Koude Oorlog werd veroorzaakt",
+        "Als een burgeroorlog zonder enige buitenlandse betrokkenheid"
+      ],
+      "answer": "Als een lokaal conflict over macht dat door de rivaliteit van beide blokken werd verscherpt",
+      "hints": [
+        "Zoek een antwoord waarin lokale en internationale oorzaken allebei voorkomen."
+      ],
+      "solution": [
+        "Congo had lokale tegenstellingen, die door de Koude Oorlog werden versterkt. Dat is het kenmerk van een proxyconflict."
+      ],
+      "feedback": [
+        {
+          "answer": "Als een rechtstreeks conflict tussen Amerikaanse en Sovjettroepen",
+          "message": "Beide supermachten grepen indirect in, via geld, hulp en politieke steun, niet met hun legers tegenover elkaar."
+        },
+        {
+          "answer": "Als een conflict dat uitsluitend door de Koude Oorlog werd veroorzaakt",
+          "message": "De oorzaken lagen ook in de overhaaste onafhankelijkheid en lokale tegenstellingen."
+        }
+      ],
+      "topics": [
+        "causation",
+        "twentieth-century"
+      ]
+    },
+    {
+      "id": "21-025",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Vergelijk de dekolonisatie van Indonesië met die van Algerije. Noem twee overeenkomsten en twee verschillen, en geef aan welk verschil volgens jou het zwaarst weegt.",
+      "answer": "Overeenkomsten: gewelddadig, koloniale macht probeerde gezag te herstellen, latere erkenning van geweld. Verschillen: kolonisten in Algerije, Algerije als Frans gebied, rol van de Koude Oorlog.",
+      "hints": [
+        "Denk aan de rol van kolonisten, de manier waarop het moederland het gebied zag, en het geweld.",
+        "Kies één verschil en onderbouw waarom het zwaar weegt."
+      ],
+      "solution": [
+        "Overeenkomsten: in beide gevallen probeerde het moederland met militaire middelen het gezag te herstellen, en beide oorlogen leidden tot grootschalig geweld en later tot debat over erkenning. Verschillen: Algerije gold officieel als deel van Frankrijk en telde ongeveer een miljoen Europese kolonisten, terwijl Indonesië een koloniaal gebied zonder grote kolonistenbevolking was; en Nederland zwichtte voor internationale druk, mede van de Verenigde Staten, terwijl de Franse crisis binnenlands escaleerde. Het zwaarste verschil is waarschijnlijk de kolonistenbevolking: ze maakte een compromis veel moeilijker. Elk gewogen antwoord met onderbouwing is goed."
+      ],
+      "topics": [
+        "causation",
+        "perspective",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "21-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een historicus betoogt dat het Amerikaanse streven naar open markten het buitenlandse beleid dreef en bijdroeg aan de Koude Oorlog. Bij welke stroming hoort dit het best?",
+      "choices": [
+        "Het revisionisme, zoals bij William Appleman Williams",
+        "Het orthodoxe verhaal, dat de oorzaak bij de Sovjet-Unie zoekt",
+        "Het post-revisionisme, omdat beide kanten misrekenden",
+        "Geen enkele stroming, want dit is geen interpretatie"
+      ],
+      "answer": "Het revisionisme, zoals bij William Appleman Williams",
+      "hints": [
+        "Welke stroming verschoof de aandacht naar Washington?"
+      ],
+      "solution": [
+        "Economische expansie als drijfveer is het kernargument van Williams en het revisionisme."
+      ],
+      "feedback": [
+        {
+          "answer": "Het orthodoxe verhaal, dat de oorzaak bij de Sovjet-Unie zoekt",
+          "message": "De orthodoxe lezing legt de verantwoordelijkheid juist bij Moskou."
+        },
+        {
+          "answer": "Het post-revisionisme, omdat beide kanten misrekenden",
+          "message": "Het post-revisionisme benadrukt wederzijds wantrouwen en misrekening; deze stelling legt het accent op Amerikaanse economische motieven."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "21-027",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom veranderde de visie van Gaddis in 1997 in vergelijking met zijn eerdere werk?",
+      "choices": [
+        "Na 1991 kwamen documenten uit Moskou en Oost-Europa beschikbaar, die het gewicht van Stalins rol vergrootten",
+        "Hij had nieuwe Amerikaanse regeringsdocumenten gevonden",
+        "Hij werd het eens met het revisionisme van Williams",
+        "De Koude Oorlog was voorbij en daarom mocht hij mildere conclusies trekken"
+      ],
+      "answer": "Na 1991 kwamen documenten uit Moskou en Oost-Europa beschikbaar, die het gewicht van Stalins rol vergrootten",
+      "hints": [
+        "Welke archieven gingen open na 1991?"
+      ],
+      "solution": [
+        "In We Now Know (1997) gebruikte Gaddis bronnen uit het voormalige Oostblok; volgens commentatoren leidde dat tot een meer traditionele opvatting."
+      ],
+      "feedback": [
+        {
+          "answer": "Hij had nieuwe Amerikaanse regeringsdocumenten gevonden",
+          "message": "De nieuwe bronnen kwamen uit het voormalige Oostblok."
+        },
+        {
+          "answer": "Hij werd het eens met het revisionisme van Williams",
+          "message": "Volgens commentatoren ging hij juist een meer traditionele richting uit."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "sources"
+      ]
+    },
+    {
+      "id": "21-028",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom is de term \"bersiap\" omstreden?",
+      "choices": [
+        "Omdat hij het geweld vooral benoemt als geweld tegen Nederlanders en Indo-Europeanen en de Indonesische context buiten beeld laat",
+        "Omdat er in die periode geen geweld plaatsvond",
+        "Omdat een Indonesisch woord niet in het Nederlands gebruikt mag worden",
+        "Omdat alle historici het erover eens zijn dat de term onjuist is"
+      ],
+      "answer": "Omdat hij het geweld vooral benoemt als geweld tegen Nederlanders en Indo-Europeanen en de Indonesische context buiten beeld laat",
+      "hints": [
+        "Wie is volgens de term het slachtoffer, en wie komt niet in beeld?"
+      ],
+      "solution": [
+        "De term richt zich op één groep slachtoffers en laat de Indonesische aanleiding en motieven weg; daarover wordt gediscussieerd."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat er in die periode geen geweld plaatsvond",
+          "message": "Er vond ernstig geweld plaats; de discussie gaat over de term."
+        },
+        {
+          "answer": "Omdat alle historici het erover eens zijn dat de term onjuist is",
+          "message": "Er is juist een debat: sommigen gebruiken de term om het leed te erkennen, anderen vinden hem te beperkt."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "21-029",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom is het voor het beoordelen van een historisch werk belangrijk te weten wanneer de historicus schreef? Geef een voorbeeld uit de geschiedschrijving van de Koude Oorlog of van Indonesië.",
+      "answer": "Vragen en bronnen veranderen met de tijd. Voorbeeld: revisionisme in de Vietnamtijd, Gaddis na 1991, Excessennota 1969 versus onderzoek 2022.",
+      "hints": [
+        "Denk aan beschikbare archieven en aan de gebeurtenissen van de tijd zelf."
+      ],
+      "solution": [
+        "Elke historicus schrijft vanuit vragen van zijn eigen tijd en met de bronnen die dan beschikbaar zijn. Het revisionisme ontstond in de tijd van de Vietnamoorlog, toen het Amerikaanse buitenlandse beleid ter discussie stond. Gaddis kon in 1997 gebruikmaken van archieven die voor 1991 gesloten waren. De Excessennota van 1969 kwam in ongeveer drie maanden tot stand op basis van archiefonderzoek, het onderzoek van 2017-2022 op jaren van archiefwerk."
+      ],
+      "topics": [
+        "historiography",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "21-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een interview uit 2016 waarin Rémy Limpach over zijn onderzoek naar de Indonesische onafhankelijkheidsoorlog praat. Wat is dat voor een onderzoek naar de jaren 1945-1949?",
+      "choices": [
+        "Een secundaire bron: een latere interpretatie op basis van andere bronnen",
+        "Een primaire bron, want het is een interview met een getuige",
+        "Een primaire bron, want het is recent",
+        "Geen bron, want het is een mening"
+      ],
+      "answer": "Een secundaire bron: een latere interpretatie op basis van andere bronnen",
+      "hints": [
+        "Was Limpach er zelf bij?"
+      ],
+      "solution": [
+        "Limpach is een latere onderzoeker. Zijn uitspraken zijn een interpretatie en dus een secundaire bron voor de jaren 1945-1949."
+      ],
+      "feedback": [
+        {
+          "answer": "Een primaire bron, want het is een interview met een getuige",
+          "message": "Limpach was geen getuige van de gebeurtenissen; hij interpreteert bronnen."
+        },
+        {
+          "answer": "Een primaire bron, want het is recent",
+          "message": "Of een bron primair is, hangt af van de tijd van de gebeurtenis, niet van hoe recent ze is."
+        }
+      ],
+      "topics": [
+        "sources"
+      ]
+    },
+    {
+      "id": "21-031",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Proclamatie van 17 augustus 1945 (vrij vertaald): \"Wij, het Indonesische volk, verklaren hierbij de onafhankelijkheid van Indonesië. Zaken die de overdracht van de macht en dergelijke betreffen, worden zorgvuldig en in zo kort mogelijke tijd geregeld.\"",
+      "question": "Wat blijkt uit de tweede zin van de proclamatie?",
+      "choices": [
+        "Dat de opstellers de overdracht van de macht nog als iets zagen dat geregeld moest worden",
+        "Dat Nederland de overdracht al had geregeld",
+        "Dat de opstellers een oorlog met Nederland aankondigden",
+        "Dat het Japanse bestuur de tekst had goedgekeurd"
+      ],
+      "answer": "Dat de opstellers de overdracht van de macht nog als iets zagen dat geregeld moest worden",
+      "hints": [
+        "Lees de tekst letterlijk en let op wat er niet staat."
+      ],
+      "solution": [
+        "De tweede zin zegt dat de overdracht van de macht \"zorgvuldig\" en \"in zo kort mogelijke tijd\" wordt geregeld; dat kondigt een nog te regelen proces aan."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat Nederland de overdracht al had geregeld",
+          "message": "Nederland wordt in de tekst niet genoemd."
+        },
+        {
+          "answer": "Dat de opstellers een oorlog met Nederland aankondigden",
+          "message": "De tekst kondigt geen oorlog aan."
+        },
+        {
+          "answer": "Dat het Japanse bestuur de tekst had goedgekeurd",
+          "message": "Daar staat niets over in de tekst. Wat een bron niet zegt, mag je er niet in lezen."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "21-032",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Foto van 27 december 1949, Burgerzaal van het Koninklijk Paleis in Amsterdam: rond een tafel met papieren en microfoons zitten mensen, op de achtergrond kijkt publiek toe. Fotograaf: Joop van Bilsen (Anefo), Nationaal Archief.",
+      "question": "Wat kun je met een Anefo-foto van de soevereiniteitsoverdracht in het Amsterdamse paleis wel en niet zeggen?",
+      "choices": [
+        "Ze toont hoe Nederland de plechtigheid vormgaf, maar niet wat Indonesiërs elders ervoeren",
+        "Ze bewijst dat Nederland en Indonesië gelijkwaardige partners waren",
+        "Ze bewijst dat de overdracht vrijwillig was",
+        "Ze is waardeloos, want een foto is altijd gemanipuleerd"
+      ],
+      "answer": "Ze toont hoe Nederland de plechtigheid vormgaf, maar niet wat Indonesiërs elders ervoeren",
+      "hints": [
+        "Wat staat er buiten beeld?"
+      ],
+      "solution": [
+        "Een foto toont wat voor de lens stond. De vormgeving van de plechtigheid is zichtbaar; de beleving van anderen en de achtergrond niet."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze bewijst dat Nederland en Indonesië gelijkwaardige partners waren",
+          "message": "Een foto toont de opstelling van het moment, niet de machtsverhouding of de gevoelens."
+        },
+        {
+          "answer": "Ze is waardeloos, want een foto is altijd gemanipuleerd",
+          "message": "Een foto is geen neutrale spiegel, maar wel bruikbaar als je weet wat ze wel en niet laat zien."
+        }
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "21-033",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Schrijf een onderbouwd antwoord van ongeveer tien zinnen op de vraag: wie had volgens betrokkenen tussen 1945 en 1949 het recht om over de toekomst van Indonesië te beslissen? Gebruik de proclamatie van 17 augustus 1945, de foto van 27 december 1949 en een uitspraak van een latere historicus, en sluit af met een conclusie waarin je aangeeft hoe zeker die is.",
+      "answer": "Nationalisten: het Indonesische volk; Nederland: het koninkrijk dat de overdracht regelde; latere historicus: oordeel over Nederlandse verantwoordelijkheid. Bronnen laten elk een deel zien.",
+      "hints": [
+        "Gebruik per bron herkomst, context, wat de bron wel en niet zegt.",
+        "Sluit af met de mate van zekerheid."
+      ],
+      "solution": [
+        "Een goed antwoord laat zien dat de proclamatie het Indonesische volk als beslisser neemt, dat de foto de Nederlandse vormgeving van de overdracht toont, en dat een latere historicus het Nederlandse beleid beoordeelt. Het benoemt wat elke bron niet laat zien, bijvoorbeeld de mening van de brede bevolking, en geeft een conclusie met een passende mate van zekerheid: hoog voor wat de bronnen zeggen, lager voor wat betrokkenen als geheel vonden."
+      ],
+      "topics": [
+        "sources",
+        "perspective",
+        "interpretation"
+      ]
+    }
+  ]
+}

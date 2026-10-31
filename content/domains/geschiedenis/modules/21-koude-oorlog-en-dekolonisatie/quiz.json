@@ -1,0 +1,441 @@
+{
+  "title": "Hoofdstuktoets – Koude Oorlog en dekolonisatie",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "21-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat is de kern van het Noord-Atlantisch Verdrag van 1949?",
+      "choices": [
+        "Een aanval op één lid wordt opgevat als een aanval op alle leden",
+        "Alle leden leveren hun kernwapens in bij de Verenigde Naties",
+        "Alle leden voeren een gezamenlijke economische politiek",
+        "De Sovjet-Unie wordt als lid toegelaten"
+      ],
+      "answer": "Een aanval op één lid wordt opgevat als een aanval op alle leden",
+      "solution": [
+        "Artikel 5 van het verdrag draait om wederzijdse bijstand: een aanval op één lid geldt als aanval op allen."
+      ],
+      "feedback": [
+        {
+          "answer": "Alle leden voeren een gezamenlijke economische politiek",
+          "message": "Dat hoort bij het Marshallplan en later de Europese samenwerking. De NAVO is een militair bondgenootschap."
+        }
+      ],
+      "topics": [
+        "causation",
+        "twentieth-century"
+      ]
+    },
+    {
+      "id": "21-T02",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Trumandoctrine",
+        "Toespraak van Marshall in Harvard",
+        "Begin van de Berlijnse blokkade",
+        "Oprichting van de NAVO",
+        "Oprichting van het Warschaupact"
+      ],
+      "hints": [
+        "Truman sprak in maart 1947, Marshall in juni 1947.",
+        "Het Warschaupact kwam pas in 1955."
+      ],
+      "solution": [
+        "Trumandoctrine (maart 1947), Marshall in Harvard (juni 1947), blokkade (juni 1948), NAVO (april 1949), Warschaupact (mei 1955)."
+      ],
+      "topics": [
+        "chronology",
+        "twentieth-century"
+      ]
+    },
+    {
+      "id": "21-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Winston Churchill, 5 maart 1946, Fulton (vrij vertaald): \"Van Stettin aan de Oostzee tot Triëst aan de Adriatische Zee is er een IJzeren Gordijn over het continent neergedaald.\"",
+      "question": "Wat is voor het gebruik van dit fragment als bron voor de Koude Oorlog het belangrijkste punt van bronkritiek?",
+      "choices": [
+        "Het is een toespraak van een oud-premier die een beeld wilde overbrengen, geen weergave van Sovjetplannen",
+        "Het is een primaire bron en dus altijd betrouwbaar",
+        "Het is vrij vertaald en daarom onbruikbaar",
+        "Het is te kort om iets te bewijzen en daarom geen bron"
+      ],
+      "answer": "Het is een toespraak van een oud-premier die een beeld wilde overbrengen, geen weergave van Sovjetplannen",
+      "solution": [
+        "Een toespraak is een primaire bron voor Churchills beeld van 1946. Ze zegt niets over de werkelijke plannen van Stalin; die moet je elders zoeken."
+      ],
+      "feedback": [
+        {
+          "answer": "Het is een primaire bron en dus altijd betrouwbaar",
+          "message": "Primair betekent dat de bron uit de tijd zelf stamt, niet dat ze waar of neutraal is."
+        },
+        {
+          "answer": "Het is te kort om iets te bewijzen en daarom geen bron",
+          "message": "Een kort fragment is wel een bron, maar je moet erop letten wat het wel en niet kan aantonen."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "sources"
+      ]
+    },
+    {
+      "id": "21-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is een proxyoorlog?",
+      "choices": [
+        "Een lokaal conflict waarin twee grote mogendheden elk een partij steunen zonder zelf rechtstreeks tegen elkaar te vechten",
+        "Een oorlog die door de Verenigde Naties wordt gevoerd",
+        "Een oorlog tussen twee buurlanden zonder inmenging van anderen",
+        "Een oorlog waarin kernwapens worden gebruikt"
+      ],
+      "answer": "Een lokaal conflict waarin twee grote mogendheden elk een partij steunen zonder zelf rechtstreeks tegen elkaar te vechten",
+      "solution": [
+        "Bij een proxyoorlog strijden lokale partijen die door grote mogendheden worden gesteund, zoals in Korea, Vietnam, Angola en Congo."
+      ],
+      "feedback": [
+        {
+          "answer": "Een oorlog tussen twee buurlanden zonder inmenging van anderen",
+          "message": "Het kenmerk van een proxyoorlog is juist de betrokkenheid van externe mogendheden."
+        }
+      ],
+      "topics": [
+        "contextualisation",
+        "twentieth-century"
+      ]
+    },
+    {
+      "id": "21-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Ondertekening van de proclamatie van 17 augustus 1945: \"Djakarta, hari 17 boelan 8 tahoen 05. Atas nama bangsa Indonesia, Soekarno/Hatta.\" (\"Atas nama bangsa Indonesia\" betekent \"In naam van het Indonesische volk\".)",
+      "question": "Op wiens gezag beriepen de ondertekenaars van de proclamatie zich volgens de ondertekening?",
+      "choices": [
+        "Op dat van het Indonesische volk",
+        "Op dat van de Japanse bezetter",
+        "Op dat van de Nederlandse koningin",
+        "Op dat van de Verenigde Naties"
+      ],
+      "answer": "Op dat van het Indonesische volk",
+      "solution": [
+        "De ondertekening \"Atas nama bangsa Indonesia\" betekent \"in naam van het Indonesische volk\". De Japanse jaartelling in de datum is alleen context."
+      ],
+      "feedback": [
+        {
+          "answer": "Op dat van de Japanse bezetter",
+          "message": "De Japanse jaartelling in de datum is context; de ondertekenaars spreken in naam van het volk."
+        }
+      ],
+      "topics": [
+        "sources",
+        "perspective"
+      ]
+    },
+    {
+      "id": "21-T06",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen uit de jaren 1945 tot 1949 in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Japanse capitulatie",
+        "Slag om Soerabaja",
+        "Begin van Operatie Product",
+        "Begin van Operatie Kraai",
+        "Ronde Tafelconferentie in Den Haag"
+      ],
+      "hints": [
+        "Operatie Product was in 1947, Operatie Kraai in december 1948.",
+        "De Ronde Tafelconferentie liep van augustus tot november 1949."
+      ],
+      "solution": [
+        "Capitulatie (augustus 1945), Soerabaja (november 1945), Product (juli 1947), Kraai (december 1948), Ronde Tafel (augustus-november 1949)."
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "21-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke bewering over het onderzoeksprogramma over Indonesië van 2017 tot 2022 klopt?",
+      "choices": [
+        "Het concludeerde dat Nederlands extreem geweld structureel was en beschreef ook geweld aan Indonesische kant",
+        "Het concludeerde dat er alleen Indonesisch geweld was geweest",
+        "Het sprak uitsluitend van losse excessen",
+        "Het werd door de Indonesische regering uitgevoerd"
+      ],
+      "answer": "Het concludeerde dat Nederlands extreem geweld structureel was en beschreef ook geweld aan Indonesische kant",
+      "solution": [
+        "Over de grens (2022) concludeerde dat het Nederlandse extreme geweld stelselmatig was en werd gedoogd, en beschreef ook het geweld van Indonesische kant."
+      ],
+      "feedback": [
+        {
+          "answer": "Het sprak uitsluitend van losse excessen",
+          "message": "Dat was de conclusie van de Excessennota in 1969, niet van het onderzoek van 2022."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "21-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Rémy Limpach in een interview met de NOS (2016): \"Ik kan geen harde cijfers geven, dat laten de bronnen simpelweg niet toe.\"",
+      "question": "Wat zegt dit fragment over de omgang van een historicus met onzekerheid?",
+      "choices": [
+        "Hij benoemt wat de bronnen niet toelaten in plaats van een getal te verzinnen",
+        "Hij verbergt dat het geweld heeft plaatsgevonden",
+        "Hij vindt getallen over slachtoffers onbelangrijk",
+        "Hij geeft toe dat zijn onderzoek is mislukt"
+      ],
+      "answer": "Hij benoemt wat de bronnen niet toelaten in plaats van een getal te verzinnen",
+      "solution": [
+        "Limpach zegt niet dat er geen geweld was, maar dat de bronnen geen harde cijfers toelaten. Eerlijk zijn over onzekerheid hoort bij het vak."
+      ],
+      "feedback": [
+        {
+          "answer": "Hij verbergt dat het geweld heeft plaatsgevonden",
+          "message": "Hij zegt juist dat het geweld structureel was; alleen over de aantallen is hij voorzichtig."
+        },
+        {
+          "answer": "Hij geeft toe dat zijn onderzoek is mislukt",
+          "message": "Eerlijkheid over de grenzen van de bronnen hoort bij goed onderzoek."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "21-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom verliep de dekolonisatie van Algerije gewelddadiger dan die van Ghana?",
+      "choices": [
+        "In Algerije woonden veel Europese kolonisten en Frankrijk beschouwde het gebied als deel van zichzelf",
+        "Ghana had geen eigen nationale beweging",
+        "Groot-Brittannië was in 1957 veel sterker dan Frankrijk in 1954",
+        "Algerije was onafhankelijk geworden zonder dat de Koude Oorlog een rol speelde"
+      ],
+      "answer": "In Algerije woonden veel Europese kolonisten en Frankrijk beschouwde het gebied als deel van zichzelf",
+      "solution": [
+        "In Algerije woonde ongeveer een miljoen Europese kolonisten en gold het gebied als Frans; dat maakte een compromis moeilijk. In Ghana was dat veel minder het geval."
+      ],
+      "feedback": [
+        {
+          "answer": "Ghana had geen eigen nationale beweging",
+          "message": "Ghana had onder Nkrumah juist een sterke nationale beweging."
+        },
+        {
+          "answer": "Groot-Brittannië was in 1957 veel sterker dan Frankrijk in 1954",
+          "message": "Dit verklaart het verschil niet; beide landen waren na de oorlog verzwakt."
+        }
+      ],
+      "topics": [
+        "causation",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "21-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "context": "Een historicus betoogt dat de Koude Oorlog vooral begrepen moet worden door te kijken naar de ingrepen van de supermachten in Azië, Afrika en Latijns-Amerika.",
+      "question": "Van welke historicus is dit een kernthese?",
+      "choices": [
+        "Odd Arne Westad",
+        "William Appleman Williams",
+        "Arthur Schlesinger Jr.",
+        "Rémy Limpach"
+      ],
+      "answer": "Odd Arne Westad",
+      "solution": [
+        "Odd Arne Westad schreef The Global Cold War (2005) en verlegde het accent naar de Derde Wereld."
+      ],
+      "feedback": [
+        {
+          "answer": "William Appleman Williams",
+          "message": "Williams legde het accent op Amerikaanse economische expansie."
+        },
+        {
+          "answer": "Rémy Limpach",
+          "message": "Limpach schreef over de Indonesische oorlog, niet over de wereldwijde Koude Oorlog."
+        }
+      ],
+      "topics": [
+        "historiography"
+      ]
+    },
+    {
+      "id": "21-T11",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze stappen uit de Cubacrisis in de goede volgorde, van oorzaak naar gevolg.",
+      "answer": [
+        "Amerikaanse verkenningsvliegtuigen fotograferen Sovjetraketten op Cuba",
+        "Kennedy kondigt een zeeblokkade van Cuba aan",
+        "Chroesjtsjov kondigt aan de raketten terug te halen",
+        "De Verenigde Staten trekken hun raketten uit Turkije terug"
+      ],
+      "hints": [
+        "De foto's waren de aanleiding voor de blokkade.",
+        "De Amerikaanse concessie over Turkije werd pas later zichtbaar."
+      ],
+      "solution": [
+        "Foto's (half oktober 1962), blokkade (22 oktober), aankondiging van Chroesjtsjov (28 oktober), terugtrekking uit Turkije (1963)."
+      ],
+      "topics": [
+        "causation",
+        "chronology"
+      ]
+    },
+    {
+      "id": "21-T12",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "context": "Een Nederlandse veteraan: \"Wij deden politiewerk in een land dat van ons was.\" Een Indonesische historicus: \"Dit was een militaire aanval op een staat die zichzelf al onafhankelijk had verklaard.\"",
+      "question": "Wat is de beste verklaring voor het verschil tussen deze twee uitspraken?",
+      "choices": [
+        "Ze nemen een verschillend uitgangspunt over wie het gebied bestuurde, dus kiezen ze andere woorden",
+        "Een van beide sprekers liegt",
+        "Ze hebben het over twee verschillende oorlogen",
+        "Het verschil is alleen een kwestie van vertaling"
+      ],
+      "answer": "Ze nemen een verschillend uitgangspunt over wie het gebied bestuurde, dus kiezen ze andere woorden",
+      "solution": [
+        "Wie het gebied als eigen grond ziet, spreekt van politiewerk; wie een bestaande staat aangevallen ziet, spreekt van agressie. Elk woord draagt een perspectief."
+      ],
+      "feedback": [
+        {
+          "answer": "Een van beide sprekers liegt",
+          "message": "Verschillende woorden betekenen niet dat iemand liegt. Ze laten verschillende perspectieven zien."
+        },
+        {
+          "answer": "Het verschil is alleen een kwestie van vertaling",
+          "message": "De verschillen zitten in het standpunt, niet in de taal."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "21-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een historicus verklaart de Koude Oorlog uitsluitend uit de persoonlijkheid van Stalin. Wat is het sterkste bezwaar?",
+      "choices": [
+        "Het is monocausaal: ideologie, veiligheid, economie en misrekeningen aan beide kanten kunnen ook een rol spelen",
+        "Een persoon kan nooit een oorzaak van historische ontwikkelingen zijn",
+        "Stalin leefde te kort om invloed te hebben",
+        "Alleen Amerikaanse bronnen zijn bruikbaar"
+      ],
+      "answer": "Het is monocausaal: ideologie, veiligheid, economie en misrekeningen aan beide kanten kunnen ook een rol spelen",
+      "solution": [
+        "Een verklaring uit één factor, hier een persoon, is monocausaal. Een goed antwoord weegt meerdere oorzaken."
+      ],
+      "feedback": [
+        {
+          "answer": "Een persoon kan nooit een oorzaak van historische ontwikkelingen zijn",
+          "message": "Personen kunnen wel degelijk een rol spelen; het bezwaar is dat het de enige verklaring zou zijn."
+        },
+        {
+          "answer": "Alleen Amerikaanse bronnen zijn bruikbaar",
+          "message": "Na 1991 kwamen juist ook Sovjetbronnen beschikbaar."
+        }
+      ],
+      "topics": [
+        "causation",
+        "historiography"
+      ]
+    },
+    {
+      "id": "21-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "context": "Volgens de organisatoren kwamen op 29 oktober 1983 ongeveer 550.000 mensen naar Den Haag om te demonstreren tegen kruisraketten; de politie noemde doorgaans lagere aantallen.",
+      "question": "Hoe ga je het best om met zulke aantallen?",
+      "choices": [
+        "Ze als schatting noemen, met de bron erbij, en laten zien dat organisatoren en politie andere belangen hebben",
+        "Het organisatorencijfer als feit overnemen",
+        "Het laagste cijfer kiezen, omdat de politie neutraal is",
+        "Het cijfer weglaten, want aantallen zijn onbetrouwbaar"
+      ],
+      "answer": "Ze als schatting noemen, met de bron erbij, en laten zien dat organisatoren en politie andere belangen hebben",
+      "solution": [
+        "Organisatoren en politie hebben elk eigen belangen bij hun cijfer. Een zorgvuldige schrijver noemt een schatting met bron en voorbehoud."
+      ],
+      "feedback": [
+        {
+          "answer": "Het organisatorencijfer als feit overnemen",
+          "message": "Organisatoren hebben belang bij een hoog aantal; neem hun cijfer niet zonder voorbehoud over."
+        },
+        {
+          "answer": "Het cijfer weglaten, want aantallen zijn onbetrouwbaar",
+          "message": "Een schatting met bron is wel nuttig; weglaten is niet nodig."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "sources"
+      ]
+    },
+    {
+      "id": "21-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "context": "Indonesië viert 17 augustus als onafhankelijkheidsdag. Nederland droeg op 27 december 1949 de soevereiniteit over; in 2023 erkende de Nederlandse regering 17 augustus 1945 als feitelijke onafhankelijkheidsdatum.",
+      "question": "Welke conclusie over het begin van een onafhankelijk Indonesië is het best onderbouwd?",
+      "choices": [
+        "Dat de datum afhangt van wie je het vraagt: Indonesië noemt 17 augustus 1945, Nederland vaak 27 december 1949",
+        "Dat 27 december 1949 de enige juiste datum is omdat daar een verdrag bij hoorde",
+        "Dat 17 augustus 1945 de enige juiste datum is omdat Nederland toen geen troepen had",
+        "Dat het begin niet te bepalen is en dat de vraag niet gesteld mag worden"
+      ],
+      "answer": "Dat de datum afhangt van wie je het vraagt: Indonesië noemt 17 augustus 1945, Nederland vaak 27 december 1949",
+      "solution": [
+        "De datum hangt af van het perspectief: voor Indonesiërs is 17 augustus 1945 het begin, voor Nederland was 27 december 1949 het juridische moment van overdracht."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat 27 december 1949 de enige juiste datum is omdat daar een verdrag bij hoorde",
+          "message": "Een verdrag geeft een juridisch moment, maar de proclamatie is voor Indonesiërs het begin."
+        },
+        {
+          "answer": "Dat het begin niet te bepalen is en dat de vraag niet gesteld mag worden",
+          "message": "De vraag is bruikbaar, zolang je erbij zegt welk perspectief bij welke datum hoort."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "contextualisation"
+      ]
+    }
+  ]
+}

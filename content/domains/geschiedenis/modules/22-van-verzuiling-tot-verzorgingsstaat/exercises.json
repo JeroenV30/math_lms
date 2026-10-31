@@ -1,0 +1,968 @@
+{
+  "exercises": [
+    {
+      "id": "22-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat betekent de eis van de confessionele partijen om financiële gelijkstelling van bijzonder en openbaar onderwijs?",
+      "choices": [
+        "De overheid betaalt bijzondere scholen op dezelfde wijze als openbare scholen",
+        "Alle scholen moeten dezelfde lesstof geven",
+        "Bijzondere scholen moeten openbaar worden",
+        "Ouders betalen voor openbare scholen hetzelfde schoolgeld als voor bijzondere"
+      ],
+      "answer": "De overheid betaalt bijzondere scholen op dezelfde wijze als openbare scholen",
+      "hints": [
+        "Het gaat om geld, niet om de inhoud van het onderwijs.",
+        "Denk aan de klacht dat gelovige ouders dubbel betaalden."
+      ],
+      "solution": [
+        "Voor de wet van 1917 betaalde de overheid de openbare school en moesten bijzondere scholen zichzelf bekostigen.",
+        "Gelijkstelling betekent: dezelfde bekostiging door de overheid."
+      ],
+      "feedback": [
+        {
+          "answer": "Bijzondere scholen moeten openbaar worden",
+          "message": "Het tegenovergestelde: de bijzondere scholen bleven bestaan, met eigen levensbeschouwing, maar kregen dezelfde financiering."
+        }
+      ],
+      "topics": [
+        "twentieth-century",
+        "sources"
+      ]
+    },
+    {
+      "id": "22-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke partij richtte Abraham Kuyper in 1879 op?",
+      "choices": [
+        "De Anti-Revolutionaire Partij (ARP)",
+        "De Sociaal-Democratische Arbeiderspartij (SDAP)",
+        "De Rooms-Katholieke Staatspartij",
+        "Het Christelijk Nationaal Vakverbond"
+      ],
+      "answer": "De Anti-Revolutionaire Partij (ARP)",
+      "hints": [
+        "Kuyper stond aan het hoofd van de orthodox-protestantse beweging."
+      ],
+      "solution": [
+        "Kuyper richtte in 1879 de ARP op. De SDAP kwam in 1894, de Rooms-Katholieke Staatspartij pas in de jaren twintig en het CNV in 1909."
+      ],
+      "feedback": [
+        {
+          "answer": "De Sociaal-Democratische Arbeiderspartij (SDAP)",
+          "message": "De SDAP is in 1894 opgericht, onder meer door Troelstra, en hoort bij de arbeidersbeweging."
+        }
+      ],
+      "topics": [
+        "twentieth-century",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "22-003",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Grondwet van 1848 met vrijheid van onderwijs",
+        "Kappeyne-wet en volkspetitie (1878)",
+        "Kuyper richt de ARP op (1879)",
+        "Pacificatie van 1917",
+        "Lager Onderwijswet van 1920"
+      ],
+      "hints": [
+        "Gebruik de jaartallen en let op: 1878 komt vóór 1879.",
+        "De Grondwet van 1848 is het oudste."
+      ],
+      "solution": [
+        "1848, 1878, 1879, 1917, 1920."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Grondwet van 1848 met vrijheid van onderwijs",
+            "Kuyper richt de ARP op (1879)",
+            "Kappeyne-wet en volkspetitie (1878)",
+            "Pacificatie van 1917",
+            "Lager Onderwijswet van 1920"
+          ],
+          "message": "De wet van 1878 is een jaar eerder dan de oprichting van de ARP in 1879."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "22-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een leerling schrijft: \"De schoolstrijd ging alleen om geld.\" Wat is de beste reactie?",
+      "choices": [
+        "Het ging ook om de vraag wie kinderen waarden mocht meegeven: de staat of de eigen gemeenschap",
+        "Dat klopt: godsdienst speelde geen rol",
+        "Het ging alleen om godsdienst, geld was bijzaak",
+        "De schoolstrijd ging over de leeftijd van het kiesrecht"
+      ],
+      "answer": "Het ging ook om de vraag wie kinderen waarden mocht meegeven: de staat of de eigen gemeenschap",
+      "hints": [
+        "Denk aan wat een school in 1880 voor ouders betekende."
+      ],
+      "solution": [
+        "Geld speelde mee (de gelijkstelling was een bekostigingskwestie), maar de strijd ging ook over levensbeschouwing en over wie de samenleving vormt."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat klopt: godsdienst speelde geen rol",
+          "message": "Godsdienst was juist de kern van de bezwaren tegen de neutrale school."
+        },
+        {
+          "answer": "Het ging alleen om godsdienst, geld was bijzaak",
+          "message": "Dat is te eenzijdig: de bekostiging was het concrete conflictpunt. Monocausale verklaringen missen het samenspel."
+        }
+      ],
+      "topics": [
+        "causation",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "22-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat bedoelde Kuyper vooral met \"soevereiniteit in eigen kring\"?",
+      "choices": [
+        "Dat elk levensgebied, zoals gezin, kerk en school, een eigen gezag heeft dat de staat niet mag overnemen",
+        "Dat elke burger zijn eigen wetten mag maken",
+        "Dat de staat alle kringen moet besturen",
+        "Dat alleen de kerk de school mag besturen"
+      ],
+      "answer": "Dat elk levensgebied, zoals gezin, kerk en school, een eigen gezag heeft dat de staat niet mag overnemen",
+      "hints": [
+        "Het woord \"kring\" staat voor een levensgebied."
+      ],
+      "solution": [
+        "De gedachte maakte een eigen school mogelijk, zonder dat dit als aanval op de staat hoefde te klinken."
+      ],
+      "context": "Vrij weergegeven uit Kuypers rede bij de opening van de Vrije Universiteit in 1880: elk levensgebied heeft een eigen gezag dat niet door de staat is verleend, en de staat mag dat gezag niet overnemen.",
+      "feedback": [
+        {
+          "answer": "Dat de staat alle kringen moet besturen",
+          "message": "Dat is het tegendeel van Kuypers gedachte: de staat heeft een eigen kring en geen gezag over de andere."
+        },
+        {
+          "answer": "Dat elke burger zijn eigen wetten mag maken",
+          "message": "Kuyper bedoelde geen individuele vrijheid, maar het gezag van gemeenschappen en instellingen."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "sources"
+      ]
+    },
+    {
+      "id": "22-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Hoeveel jaar zat er tussen de Grondwet van 1848 (vrijheid van onderwijs) en de Pacificatie van 1917 (financiële gelijkstelling)?",
+      "answer": 69,
+      "hints": [
+        "Trek het ene jaartal van het andere af."
+      ],
+      "solution": [
+        "1917 - 1848 = 69."
+      ],
+      "unit": "jaar",
+      "feedback": [
+        {
+          "answer": 68,
+          "message": "Controleer je aftrekking: 1917 min 1848 is 69, niet 68."
+        },
+        {
+          "answer": 70,
+          "message": "Controleer je aftrekking: 1917 min 1848 is 69, niet 70."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "22-007",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Leg uit waarom emancipatie van katholieken, gereformeerden en arbeiders in Nederland leidde tot eigen organisaties en niet tot opname in bestaande instellingen.",
+      "answer": "Bestaande instellingen (staat, openbare school, liberale partijen) golden als neutraal maar werden door de groepen ervaren als niet van hen. Emancipatie betekende hier ook een eigen zelfbeeld, leiders en organisaties opbouwen. Eigen scholen en bonden gaven bescherming en identiteit, en de schoolstrijd liet zien dat de staat de eigen organisaties niet financierde.",
+      "hints": [
+        "Denk aan de rol van de school, en aan wat \"neutraal\" voor gelovigen betekende."
+      ],
+      "solution": [
+        "Model: de groepen voelden zich buitengesloten door een neutraal ogende staat en liberale elite. Door eigen scholen, partijen, bonden en kranten op te bouwen creëerden ze een eigen plaats met eigen leiders en zelfbeeld. De vrijheid van onderwijs maakte dat mogelijk, de schoolstrijd liet zien dat financiering dat in de weg stond."
+      ],
+      "min_length": 60,
+      "topics": [
+        "perspective",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "22-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat hield de ruil van de Pacificatie van 1917 in?",
+      "choices": [
+        "Gelijke bekostiging van bijzonder onderwijs tegen algemeen mannenkiesrecht en evenredige vertegenwoordiging",
+        "Algemeen vrouwenkiesrecht tegen belastingverlaging",
+        "Afschaffing van de bijzondere scholen tegen kiesrecht voor arbeiders",
+        "Een koninklijke gunst tegen een nieuwe Grondwet"
+      ],
+      "answer": "Gelijke bekostiging van bijzonder onderwijs tegen algemeen mannenkiesrecht en evenredige vertegenwoordiging",
+      "hints": [
+        "Twee conflicten werden in één pakket opgelost."
+      ],
+      "solution": [
+        "De confessionelen kregen de gelijkstelling, liberalen en socialisten het algemeen mannenkiesrecht; evenredige vertegenwoordiging kwam erbij."
+      ],
+      "feedback": [
+        {
+          "answer": "Algemeen vrouwenkiesrecht tegen belastingverlaging",
+          "message": "Het actief vrouwenkiesrecht kwam pas in 1919, los van het pakket van 1917."
+        }
+      ],
+      "topics": [
+        "causation",
+        "twentieth-century"
+      ]
+    },
+    {
+      "id": "22-009",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Grondwetsherziening van 1917 (Pacificatie)",
+        "Actief vrouwenkiesrecht bij wet (1919)",
+        "Lager Onderwijswet (1920)",
+        "Eerste Kamerverkiezing met stemmende vrouwen (1922)"
+      ],
+      "hints": [
+        "Gebruik de jaartallen in de vraag en in les 3."
+      ],
+      "solution": [
+        "1917, 1919, 1920, 1922."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Grondwetsherziening van 1917 (Pacificatie)",
+            "Lager Onderwijswet (1920)",
+            "Actief vrouwenkiesrecht bij wet (1919)",
+            "Eerste Kamerverkiezing met stemmende vrouwen (1922)"
+          ],
+          "message": "Het vrouwenkiesrecht kwam in 1919, een jaar vóór de Lager Onderwijswet van 1920."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "22-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Hoeveel jaar zat er tussen de Pacificatie (1917) en de eerste Kamerverkiezing waarin vrouwen konden stemmen (1922)?",
+      "answer": 5,
+      "hints": [
+        "Trek 1917 af van 1922."
+      ],
+      "solution": [
+        "1922 - 1917 = 5."
+      ],
+      "unit": "jaar",
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Dat is de tijd tussen 1917 en 1919, toen het actief kiesrecht bij wet kwam. De eerste verkiezing was pas in 1922."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "22-011",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een omroepvereniging noemt in 1930 een hoog ledental. Wat mag je daaruit het best concluderen?",
+      "choices": [
+        "Er was een grote achterban, maar het zegt niet hoe afgeschermd die leden leefden",
+        "Alle leden luisterden uitsluitend naar deze omroep",
+        "De zuil was volledig gesloten",
+        "Het getal is onbetrouwbaar omdat het van de vereniging zelf komt"
+      ],
+      "answer": "Er was een grote achterban, maar het zegt niet hoe afgeschermd die leden leefden",
+      "hints": [
+        "Houd herkomst en wat de bron meet uit elkaar."
+      ],
+      "solution": [
+        "Het ledental is bruikbaar voor de omvang van de achterban, mits je weet hoe geteld is. Over luistergedrag en afscherming zegt het niets."
+      ],
+      "feedback": [
+        {
+          "answer": "Alle leden luisterden uitsluitend naar deze omroep",
+          "message": "Lidmaatschap is geen gedrag; dit is een onjuiste gevolgtrekking uit de bron."
+        },
+        {
+          "answer": "Het getal is onbetrouwbaar omdat het van de vereniging zelf komt",
+          "message": "Een bron met belang is niet automatisch onbetrouwbaar; je beoordeelt hoe ze telde en waarvoor ze bruikbaar is."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "sources"
+      ]
+    },
+    {
+      "id": "22-012",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat was volgens Lijphart de belangrijkste reden dat de Nederlandse democratie ondanks de zuilen stabiel bleef?",
+      "choices": [
+        "De leiders van de zuilen overlegden onderling en zochten compromissen",
+        "Alle burgers deelden dezelfde cultuur",
+        "De overheid legde de zuilen op",
+        "De zuilen waren te klein om te botsen"
+      ],
+      "answer": "De leiders van de zuilen overlegden onderling en zochten compromissen",
+      "hints": [
+        "Denk aan de term pacificatiedemocratie."
+      ],
+      "solution": [
+        "Lijphart wees op het overleg van elites, vaak achter gesloten deuren, als bron van stabiliteit."
+      ],
+      "context": "Parafrase van Lijphart (1968): een land met diepe tegenstellingen blijft stabiel als de leiders van de verschillende groepen met elkaar overleggen en compromissen sluiten.",
+      "feedback": [
+        {
+          "answer": "Alle burgers deelden dezelfde cultuur",
+          "message": "Het raadsel was juist dat de burgers in gescheiden gemeenschappen leefden."
+        },
+        {
+          "answer": "De overheid legde de zuilen op",
+          "message": "De zuilen groeiden uit eigen initiatief; de overheid stond ze later toe en ondersteunde ze."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "22-013",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom is de uitspraak \"vrouwen kregen in 1917 kiesrecht\" misleidend?",
+      "choices": [
+        "In 1917 kregen vrouwen alleen passief kiesrecht; het actief kiesrecht kwam in 1919",
+        "Vrouwen kregen al in 1848 kiesrecht",
+        "Vrouwen kregen pas in 1946 kiesrecht",
+        "In 1917 kregen vrouwen het recht om te stemmen maar niet om gekozen te worden"
+      ],
+      "answer": "In 1917 kregen vrouwen alleen passief kiesrecht; het actief kiesrecht kwam in 1919",
+      "hints": [
+        "Er zijn twee soorten kiesrecht."
+      ],
+      "solution": [
+        "Passief: je kunt gekozen worden (1917). Actief: je mag stemmen (1919)."
+      ],
+      "feedback": [
+        {
+          "answer": "In 1917 kregen vrouwen het recht om te stemmen maar niet om gekozen te worden",
+          "message": "Dat is omgekeerd: in 1917 kwam het passief kiesrecht, in 1919 het actief."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "22-014",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Leg uit waarom je verzuiling zowel als emancipatie als scheiding tussen groepen kunt beschrijven.",
+      "answer": "Als emancipatie: groepen die buiten de macht stonden, bouwden eigen organisaties en kregen invloed en zelfbewustzijn. Als scheiding: diezelfde organisaties scheidden de groepen van elkaar, zodat contact tussen de zuilen vooral via de elites verliep.",
+      "hints": [
+        "Denk aan zowel wat de organisaties voor de leden deden als aan wat ze voor de samenleving deden."
+      ],
+      "solution": [
+        "Model: de organisaties gaven katholieken, gereformeerden en arbeiders een stem en identiteit (emancipatie). Tegelijk leefden de groepen in eigen scholen, bonden en omroepen naast elkaar, zodat de verdeeldheid werd versterkt (scheiding). Het hangt van je vraag af welke kant je belicht."
+      ],
+      "min_length": 60,
+      "topics": [
+        "perspective",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "22-015",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze wetten in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Ongevallenwet (1901)",
+        "Noodwet Ouderdomsvoorziening (1947)",
+        "Algemene Ouderdomswet (1957)",
+        "Algemene Bijstandswet (1965)",
+        "WAO (1967)"
+      ],
+      "hints": [
+        "De jaartallen staan tussen haakjes."
+      ],
+      "solution": [
+        "1901, 1947, 1957, 1965, 1967."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Ongevallenwet (1901)",
+            "Noodwet Ouderdomsvoorziening (1947)",
+            "Algemene Ouderdomswet (1957)",
+            "WAO (1967)",
+            "Algemene Bijstandswet (1965)"
+          ],
+          "message": "De Bijstandswet kwam in 1965, twee jaar vóór de WAO van 1967."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "22-016",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat maakte de AOW van 1957 tot een volksverzekering?",
+      "choices": [
+        "Iedereen die in Nederland woonde bouwde recht op een uitkering vanaf 65 jaar, ongeacht beroep of zuil",
+        "Alleen arbeiders kregen een uitkering",
+        "De uitkering werd door de kerken betaald",
+        "De uitkering was alleen voor mensen in nood"
+      ],
+      "answer": "Iedereen die in Nederland woonde bouwde recht op een uitkering vanaf 65 jaar, ongeacht beroep of zuil",
+      "hints": [
+        "Volks betekent hier: voor het hele volk."
+      ],
+      "solution": [
+        "De AOW gold voor alle ingezetenen, betaald uit premies; dat is het verschil met eerdere regelingen voor bepaalde groepen of voor mensen in nood."
+      ],
+      "feedback": [
+        {
+          "answer": "De uitkering was alleen voor mensen in nood",
+          "message": "Dat past bij een noodregeling zoals de Noodwet van 1947; de AOW is juist een recht voor iedereen."
+        }
+      ],
+      "topics": [
+        "twentieth-century",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "22-017",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel jaar zat er tussen de Ongevallenwet van 1901 en de AOW van 1957?",
+      "answer": 56,
+      "hints": [
+        "Trek 1901 af van 1957."
+      ],
+      "solution": [
+        "1957 - 1901 = 56."
+      ],
+      "unit": "jaar",
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Dat is de tijd tussen de Noodwet (1947) en de AOW (1957). Gebruik 1901 als beginjaar."
+        },
+        {
+          "answer": 55,
+          "message": "Controleer je aftrekking: 1957 min 1901 is 56."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "22-018",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke uitspraak over het ontstaan van de verzorgingsstaat is het best onderbouwd?",
+      "choices": [
+        "Economische groei, politieke keuzes en gasbaten werkten samen",
+        "De verzorgingsstaat is het werk van Drees alleen",
+        "Het kwam uitsluitend door de aardgasvondst bij Slochteren",
+        "De verzorgingsstaat ontstond pas na 1980"
+      ],
+      "answer": "Economische groei, politieke keuzes en gasbaten werkten samen",
+      "hints": [
+        "Let op monocausale verklaringen."
+      ],
+      "solution": [
+        "Drees en anderen maakten politieke keuzes, groei en gasbaten maakten ze betaalbaar; een enkele oorzaak is te weinig."
+      ],
+      "feedback": [
+        {
+          "answer": "De verzorgingsstaat is het werk van Drees alleen",
+          "message": "Drees was invloedrijk, maar wetten kwamen tot stand in kabinetten, Kamer en door maatschappelijke druk."
+        },
+        {
+          "answer": "Het kwam uitsluitend door de aardgasvondst bij Slochteren",
+          "message": "De uitbreiding was al begonnen vóór 1959 (Noodwet 1947, AOW 1957)."
+        }
+      ],
+      "topics": [
+        "causation",
+        "contemporary"
+      ]
+    },
+    {
+      "id": "22-019",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat laat de naam \"Noodwet Ouderdomsvoorziening\" (1947) het best zien?",
+      "choices": [
+        "Dat de wetgever haar zag als antwoord op een noodtoestand en als tijdelijk",
+        "Dat de AOW al van meet af aan gepland was",
+        "Dat de wet alleen voor soldaten gold",
+        "Dat de wet door de kerken was geschreven"
+      ],
+      "answer": "Dat de wetgever haar zag als antwoord op een noodtoestand en als tijdelijk",
+      "hints": [
+        "Een naam is een bron over de bedoeling, niet over de uitkomst."
+      ],
+      "solution": [
+        "De naam zegt iets over de bedoeling; of er al een blijvend plan was, volgt er niet uit."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat de AOW al van meet af aan gepland was",
+          "message": "Dat kun je uit de naam niet afleiden; de latere AOW was een eigen wet met eigen principes."
+        }
+      ],
+      "topics": [
+        "sources",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "22-020",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat was de kern van de ruil in het Akkoord van Wassenaar (1982)?",
+      "choices": [
+        "Loonmatiging door de vakbonden tegen onder meer kortere arbeidstijd",
+        "Hogere lonen tegen langere werktijden",
+        "Invoering van de AOW tegen loonmatiging",
+        "Afschaffing van de WAO tegen werkgelegenheid"
+      ],
+      "answer": "Loonmatiging door de vakbonden tegen onder meer kortere arbeidstijd",
+      "hints": [
+        "Het ging om overleg tussen werkgevers en vakbonden."
+      ],
+      "solution": [
+        "De vakbonden aanvaardden loonmatiging, de werkgevers beloofden onder meer arbeidstijdverkorting."
+      ],
+      "feedback": [
+        {
+          "answer": "Hogere lonen tegen langere werktijden",
+          "message": "Dat is omgekeerd: het akkoord ging juist om loonmatiging."
+        }
+      ],
+      "topics": [
+        "twentieth-century",
+        "contemporary"
+      ]
+    },
+    {
+      "id": "22-021",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Weeg: was de uitbreiding van de verzorgingsstaat in de jaren zestig vooral een gevolg van economische groei of van politieke keuzes? Geef minstens twee argumenten.",
+      "answer": "Beide spelen mee. Groei en gasbaten maakten uitbreiding betaalbaar. Politieke keuzes (Bijstandswet, WAO) bepaalden de inhoud. Een afgewogen antwoord noemt ook hoe zeker je bent en welk bewijs je mist.",
+      "hints": [
+        "Denk aan voorwaarden en directe oorzaken."
+      ],
+      "solution": [
+        "Model: de groei en de gasbaten maakten uitbreiding mogelijk, maar zonder politieke keuzes (zoals de Bijstandswet van 1965 en de WAO van 1967) waren de wetten er niet gekomen. De groei is dus een voorwaarde, de keuzes de directe oorzaak. Zeker is dit niet, want ook de maatschappelijke druk en de ervaringen van de crisisjaren speelden mee."
+      ],
+      "min_length": 60,
+      "topics": [
+        "causation",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "22-022",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bij de Tweede Kamerverkiezingen van 1963 haalde de KVP 31,88 procent van de stemmen, de ARP 8,72 procent en de CHU 8,58 procent. Hoeveel procent haalden deze drie partijen samen?",
+      "answer": 49.18,
+      "hints": [
+        "Tel de drie percentages op."
+      ],
+      "solution": [
+        "31,88 + 8,72 + 8,58 = 49,18."
+      ],
+      "unit": "%",
+      "tolerance": 0.02,
+      "feedback": [
+        {
+          "answer": 40.6,
+          "message": "Je telt waarschijnlijk niet alle drie op. Tel KVP, ARP en CHU samen."
+        }
+      ],
+      "topics": [
+        "sources",
+        "contemporary"
+      ]
+    },
+    {
+      "id": "22-023",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In 1963 haalden KVP, ARP en CHU samen 49,18 procent van de stemmen. In 1972 haalden KVP (17,65 procent), ARP (8,84 procent) en CHU (4,79 procent) samen een lager aandeel. Hoeveel procentpunt lager lag het gezamenlijke aandeel in 1972 dan in 1963?",
+      "answer": 17.9,
+      "hints": [
+        "Tel eerst de drie percentages van 1972 op.",
+        "Trek die som af van 49,18."
+      ],
+      "solution": [
+        "17,65 + 8,84 + 4,79 = 31,28; 49,18 - 31,28 = 17,90."
+      ],
+      "unit": "procentpunt",
+      "tolerance": 0.06,
+      "feedback": [
+        {
+          "answer": 31.28,
+          "message": "Dat is het aandeel in 1972. De vraag is naar het verschil met 1963."
+        }
+      ],
+      "topics": [
+        "sources",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "22-024",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In de Tweede Kamer zitten 150 leden, dus een meerderheid is 76 zetels. In 1967 haalden KVP (42 zetels), ARP (15) en CHU (12) samen een aantal zetels. Hoeveel zetels te weinig voor een meerderheid hadden ze?",
+      "answer": 7,
+      "hints": [
+        "Tel 42, 15 en 12 op.",
+        "Trek de som af van 76."
+      ],
+      "solution": [
+        "42 + 15 + 12 = 69; 76 - 69 = 7."
+      ],
+      "unit": "zetels",
+      "feedback": [
+        {
+          "answer": 69,
+          "message": "Dat is hun aantal zetels. De vraag is naar het tekort tot 76."
+        }
+      ],
+      "topics": [
+        "sources",
+        "contemporary"
+      ]
+    },
+    {
+      "id": "22-025",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat was Provo, dat in 1965 in Amsterdam begon?",
+      "choices": [
+        "Een protestbeweging met provocerende acties zoals het witte-fietsenplan",
+        "Een nieuwe confessionele partij",
+        "Een studentenvakbond",
+        "Een omroepvereniging"
+      ],
+      "answer": "Een protestbeweging met provocerende acties zoals het witte-fietsenplan",
+      "hints": [
+        "Het woord komt van provoceren."
+      ],
+      "solution": [
+        "Provo ontstond in 1965 en viel in 1967 uiteen."
+      ],
+      "feedback": [
+        {
+          "answer": "Een nieuwe confessionele partij",
+          "message": "Provo was juist een beweging tegen gezag en gevestigde orde, geen partij met een geloofsbasis."
+        }
+      ],
+      "topics": [
+        "contemporary",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "22-026",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Provo begint in Amsterdam (1965)",
+        "Joke Smit publiceert \"Het onbehagen bij de vrouw\" (1967)",
+        "Studenten bezetten het Maagdenhuis (1969)",
+        "Het CDA wordt formeel opgericht (1980)"
+      ],
+      "hints": [
+        "Gebruik de jaartallen tussen haakjes."
+      ],
+      "solution": [
+        "1965, 1967, 1969, 1980."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Provo begint in Amsterdam (1965)",
+            "Studenten bezetten het Maagdenhuis (1969)",
+            "Joke Smit publiceert \"Het onbehagen bij de vrouw\" (1967)",
+            "Het CDA wordt formeel opgericht (1980)"
+          ],
+          "message": "Het essay van Joke Smit verscheen in 1967, vóór de Maagdenhuisbezetting van 1969."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "22-027",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat laat de reeks \"geen kerkelijke gezindte\" het best zien?",
+      "choices": [
+        "Het aandeel steeg in alle jaren, en per jaar sneller tussen 1960 en 1971 dan tussen 1930 en 1960",
+        "Het aandeel bleef gelijk tot 1960",
+        "Het aandeel daalde na 1960",
+        "Het aandeel verdubbelde tussen 1930 en 1960"
+      ],
+      "answer": "Het aandeel steeg in alle jaren, en per jaar sneller tussen 1960 en 1971 dan tussen 1930 en 1960",
+      "hints": [
+        "Bereken de stijging per jaar voor beide perioden."
+      ],
+      "solution": [
+        "1930-1960: 4 procentpunt in 30 jaar, ongeveer 0,13 per jaar. 1960-1971: 5 procentpunt in 11 jaar, ongeveer 0,45 per jaar."
+      ],
+      "context": "Aandeel van de bevolking van 18 jaar en ouder zonder kerkelijke gezindte (CBS, volkstellingen): 1930: ongeveer 14 procent; 1960: ongeveer 18 procent; 1971: ongeveer 23 procent.",
+      "feedback": [
+        {
+          "answer": "Het aandeel bleef gelijk tot 1960",
+          "message": "Het aandeel steeg ook al tussen 1930 en 1960, van 14 naar 18 procent."
+        },
+        {
+          "answer": "Het aandeel verdubbelde tussen 1930 en 1960",
+          "message": "Het aandeel steeg van 14 naar 18 procent, geen verdubbeling."
+        }
+      ],
+      "topics": [
+        "sources",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "22-028",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is volgens Stuurman een beter begrip van Lijpharts spelregels van de pacificatiedemocratie?",
+      "choices": [
+        "Als machtstechnieken die een bestaande bestuurlijke consensus in stand hielden",
+        "Als bewijs dat de elites altijd het algemeen belang dienden",
+        "Als uitvinding van latere historici zonder basis",
+        "Als een gevolg van het aardgas"
+      ],
+      "answer": "Als machtstechnieken die een bestaande bestuurlijke consensus in stand hielden",
+      "hints": [
+        "Stuurman was een criticus van het beeld van de redelijke bemiddelaar."
+      ],
+      "solution": [
+        "Stuurman zag de spelregels minder als wijs crisisbeheer en meer als manieren om bestaande machtsverhoudingen te handhaven."
+      ],
+      "context": "Parafrase van de kritiek van Stuurman (1983): de elites waren niet slechts verlichte crisisbeheersers, en de spelregels van Lijphart zijn realistischer te zien als machtstechnieken.",
+      "feedback": [
+        {
+          "answer": "Als bewijs dat de elites altijd het algemeen belang dienden",
+          "message": "Dat is juist het beeld waar Stuurman kritiek op had."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "22-029",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welk argument pleit voor een geleidelijk proces in plaats van een breuk in de jaren zestig?",
+      "choices": [
+        "Secularisatie en welvaart begonnen al decennia eerder",
+        "Provo begon in 1965",
+        "De Maagdenhuisbezetting vond plaats in 1969",
+        "Het CDA werd opgericht in 1980"
+      ],
+      "answer": "Secularisatie en welvaart begonnen al decennia eerder",
+      "hints": [
+        "Zoek het argument dat naar vóór 1960 wijst."
+      ],
+      "solution": [
+        "Als de krachten die de zuilen uitholden al lang werkten, past dat bij een proces. De andere opties zijn opvallende gebeurtenissen in de jaren zestig of later."
+      ],
+      "feedback": [
+        {
+          "answer": "Provo begon in 1965",
+          "message": "Dat is een gebeurtenis in de jaren zestig die eerder bij een breuk past."
+        }
+      ],
+      "topics": [
+        "continuity-change",
+        "historiography"
+      ]
+    },
+    {
+      "id": "22-030",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom is het moeilijk om de Nederlandse verzorgingsstaat in één van de drie typen van Esping-Andersen onder te brengen?",
+      "answer": "De AOW is een universele volksverzekering (sociaal-democratisch type), maar werkgevers, werknemers en de zuilen speelden een grote rol in de uitvoering (corporatistisch type). Nederland is daarom een mengvorm, of de indeling is te grof.",
+      "hints": [
+        "Denk aan wie de uitkering krijgt en wie haar uitvoert."
+      ],
+      "solution": [
+        "Model: de AOW is universeel, dat wijst naar het sociaal-democratische type. Maar organisaties van werkgevers en werknemers en de zuilen hadden een belangrijke rol in de uitvoering, en dat past bij het corporatistische type. Daarom noemt men Nederland vaak een mengvorm, en kun je je afvragen of drie categorieën wel genoeg zijn."
+      ],
+      "min_length": 60,
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "22-031",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je hebt drie bronnen over de jaren zestig: kerkelijkheidscijfers (CBS), verkiezingsuitslagen en een lijst van protestacties. Welke conclusie is het best onderbouwd?",
+      "choices": [
+        "Er veranderde in de jaren zestig iets in omvang en tempo, maar de bronnen bewijzen geen oorzakelijk verband of een volledige breuk",
+        "De bronnen bewijzen dat Provo de zuilen deed instorten",
+        "De bronnen bewijzen dat kerkverlating de enige oorzaak was van het verlies van de KVP",
+        "De bronnen laten niets zien"
+      ],
+      "answer": "Er veranderde in de jaren zestig iets in omvang en tempo, maar de bronnen bewijzen geen oorzakelijk verband of een volledige breuk",
+      "hints": [
+        "Zoek de voorzichtige conclusie."
+      ],
+      "solution": [
+        "Tellingen laten omvang zien, geen motieven; losse acties zijn niet representatief. Een voorzichtige conclusie past bij de bronnen."
+      ],
+      "context": "Bron A: aandeel zonder kerkelijke gezindte 14% (1930), 18% (1960), 23% (1971). Bron B: KVP, ARP en CHU samen 49,2% (1963) en 31,3% (1972). Bron C: Provo (1965), Maagdenhuis (1969).",
+      "feedback": [
+        {
+          "answer": "De bronnen bewijzen dat Provo de zuilen deed instorten",
+          "message": "Een gelijktijdig optreden bewijst geen oorzaak; Provo was een kleine beweging."
+        },
+        {
+          "answer": "De bronnen bewijzen dat kerkverlating de enige oorzaak was van het verlies van de KVP",
+          "message": "Monocausaal: de bronnen tonen een samenhang in de tijd, geen enkelvoudige oorzaak."
+        }
+      ],
+      "topics": [
+        "interpretation",
+        "causation"
+      ]
+    },
+    {
+      "id": "22-032",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 3,
+      "question": "Het aandeel zonder kerkelijke gezindte steeg van 14 procent (1930) naar 18 procent (1960) en naar 23 procent (1971). Hoeveel keer zo snel (in procentpunt per jaar) steeg het aandeel tussen 1960 en 1971 dan tussen 1930 en 1960? Rond af op een geheel getal.",
+      "answer": 3,
+      "hints": [
+        "Bereken eerst de stijging per jaar in beide perioden.",
+        "Deel de tweede door de eerste."
+      ],
+      "solution": [
+        "1930-1960: 4/30 ongeveer 0,133 per jaar. 1960-1971: 5/11 ongeveer 0,455 per jaar. 0,455 / 0,133 is ongeveer 3,4, afgerond 3."
+      ],
+      "unit": "keer",
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "0,455 gedeeld door 0,133 is ongeveer 3,4, afgerond op een geheel getal dus 3."
+        }
+      ],
+      "topics": [
+        "sources",
+        "continuity-change"
+      ]
+    },
+    {
+      "id": "22-033",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Schrijf in ongeveer tien zinnen een afgewogen antwoord op de vraag: was de ontzuiling rond 1965 een breuk of een proces dat al veel eerder begon? Gebruik de kerkelijkheidscijfers, de verkiezingsuitslagen en de protestacties, en geef aan hoe zeker je conclusie is.",
+      "answer": "Een goed antwoord noemt een argument voor een breuk (tempo, protest, verkiezingsverlies), een argument voor een proces (secularisatie en welvaart begonnen eerder), weegt de drie soorten bronnen en geeft aan wat je nog zou willen weten.",
+      "hints": [
+        "Gebruik het stappenplan: argument voor, argument tegen, weging, zekerheid."
+      ],
+      "solution": [
+        "Model: de cijfers laten een versnelling zien na 1960, en de verkiezingsuitslagen van 1963 tot 1972 een groot verlies voor de confessionele partijen; dat past bij een omslag. Tegelijk steeg het aandeel zonder kerk al van 1930 naar 1960, en welvaart en secularisatie werkten al langer, wat bij een proces past. Tellingen tonen omvang, niet motieven, en protestacties zijn niet representatief. Mijn conclusie: een geleidelijk proces dat in de jaren zestig versnelde; zeker is dit niet zonder onderzoek naar de motieven van kiezers."
+      ],
+      "min_length": 60,
+      "topics": [
+        "interpretation",
+        "continuity-change"
+      ]
+    }
+  ]
+}

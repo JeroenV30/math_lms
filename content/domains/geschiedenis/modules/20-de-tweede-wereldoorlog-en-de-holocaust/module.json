@@ -3,19 +3,171 @@
   "slug": "de-tweede-wereldoorlog-en-de-holocaust",
   "title": "De Tweede Wereldoorlog en de Holocaust",
   "part": 7,
-  "status": "planned",
+  "status": "available",
   "historical_period": "1939 – 1945",
-  "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_difficulty": 3,
+  "estimated_minutes": 240,
   "prerequisites": [
     1
   ],
   "topics": [
     "twentieth-century",
     "perspective",
-    "sources"
+    "sources",
+    "source-criticism",
+    "causation",
+    "historiography",
+    "contextualisation"
   ],
   "core_question": "Hoe kon de Holocaust gebeuren, en wat wisten mensen ervan?",
   "summary": "Oorlog in Europa en Azië, bezetting van Nederland, collaboratie en verzet, en de Holocaust aan de hand van getuigenissen en documenten.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een meisje in de deuropening van een wagon",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "de-oorlog-in-hoofdlijnen",
+      "title": "De oorlog in hoofdlijnen",
+      "file": "02-de-oorlog-in-hoofdlijnen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "nederland-bezet",
+      "title": "Nederland bezet",
+      "file": "03-nederland-bezet.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "van-vervolging-naar-massamoord",
+      "title": "Van vervolging naar massamoord",
+      "file": "04-van-vervolging-naar-massamoord.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "wat-wisten-mensen",
+      "title": "Wat wisten mensen?",
+      "file": "05-wat-wisten-mensen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt de hoofdlijn van de oorlog in Europa en Azië tussen 1939 en 1945 beschrijven, gebeurtenissen in volgorde zetten en uitleggen waarom het begin van de oorlog afhangt van het gekozen criterium.",
+    "Je kunt beschrijven hoe de bezetting van Nederland verliep: het civiele bestuur, de stapsgewijze uitsluiting van Joden, de Februaristaking, collaboratie en verzet.",
+    "Je kunt de Holocaust beschrijven als proces van vervolging naar massamoord, met de Einsatzgruppen, de Wannsee-conferentie en de rol van Westerbork, en getallen bij hun bron noemen.",
+    "Je kunt uitleggen wat mensen in 1942 en later konden weten en het verschil maken tussen beschikbare informatie, kennis, geloof en begrip.",
+    "Je kunt een bron als het Wannsee-protocol, een dagboekaantekening of een film beoordelen op herkomst, doel en wat ze niet zegt.",
+    "Je kunt de debatten van historici beschrijven en vergelijken: goed en fout tegenover grijs verleden, Browning tegenover Goldhagen, de Nederlandse paradox en de kritiek op Van der Boom."
+  ],
+  "glossary": [
+    {
+      "term": "Holocaust",
+      "definition": "De door de Duitse staat georganiseerde vervolging en moord op de Joden van Europa tussen 1933 en 1945; ook Sjoa genoemd."
+    },
+    {
+      "term": "Einsatzgruppen",
+      "definition": "Mobiele eenheden van SS en politie die vanaf juni 1941 in het bezette Oost-Europa mensen, vooral Joden, doodschoten."
+    },
+    {
+      "term": "Doorgangskamp",
+      "definition": "Een kamp waar mensen werden verzameld voor deportatie, zoals Westerbork; anders dan een vernietigingskamp."
+    },
+    {
+      "term": "Vernietigingskamp",
+      "definition": "Een kamp dat was ingericht om mensen na aankomst te doden, zoals Sobibor en Auschwitz-Birkenau."
+    },
+    {
+      "term": "Ariërverklaring",
+      "definition": "Verklaring waarin Nederlandse ambtenaren in 1940 moesten opgeven of ze Joodse grootouders hadden."
+    },
+    {
+      "term": "Joodse Raad",
+      "definition": "Joods bestuursorgaan dat in 1941 in Amsterdam werd ingesteld en door de bezetter als doorgeefluik werd gebruikt."
+    },
+    {
+      "term": "Collaboratie",
+      "definition": "Medewerking aan de bezetter, uiteenlopend van overtuigde aanhang tot het uitvoeren van opdrachten zonder politieke overtuiging."
+    },
+    {
+      "term": "Onderduiken",
+      "definition": "Zich verborgen houden om aan deportatie, arbeidsinzet of arrestatie te ontkomen."
+    },
+    {
+      "term": "Hongerwinter",
+      "definition": "De hongersnood in het westen van Nederland in de winter van 1944-1945."
+    },
+    {
+      "term": "Grijs verleden",
+      "definition": "De opvatting dat het gedrag van de meeste Nederlanders in de bezettingstijd zich niet laat indelen in goed en fout."
+    },
+    {
+      "term": "Romusha",
+      "definition": "Dwangarbeiders, vooral Indonesiërs, in de Japanse bezetting van Nederlands-Indië."
+    }
+  ],
+  "timeline": [
+    "nsb-opgericht-1931",
+    "hitler-kanselier-1933",
+    "neurenberger-wetten-1935",
+    "novemberpogrom-1938",
+    "duitse-inval-polen-1939",
+    "duitse-inval-nederland-1940",
+    "februaristaking-1941",
+    "operatie-barbarossa-1941",
+    "pearl-harbor-1941",
+    "japanse-bezetting-indie-1942-1945",
+    "wannsee-conferentie-1942",
+    "jodenster-1942",
+    "eerste-transport-westerbork-1942",
+    "stalingrad-1942-1943",
+    "d-day-1944",
+    "westerbork-film-1944",
+    "hongerwinter-1944-1945",
+    "capitulatie-duitsland-1945",
+    "hiroshima-nagasaki-1945",
+    "hilberg-destruction-1961",
+    "de-jong-koninkrijk-1969",
+    "blom-in-de-ban-1983",
+    "browning-ordinary-men-1992",
+    "goldhagen-willing-executioners-1996",
+    "griffioen-zeller-2011",
+    "van-der-boom-wij-weten-niets-2012"
+  ],
+  "people": [
+    "hitler",
+    "anton-mussert",
+    "arendt",
+    "seyss-inquart",
+    "reinhard-heydrich",
+    "anne-frank",
+    "etty-hillesum",
+    "jules-schelvis",
+    "raul-hilberg",
+    "loe-de-jong",
+    "hans-blom",
+    "christopher-browning",
+    "daniel-goldhagen",
+    "griffioen-en-zeller",
+    "bart-van-der-boom"
+  ]
 }

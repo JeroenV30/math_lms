@@ -2445,6 +2445,26 @@
       "image": null
     },
     {
+      "id": "churchill",
+      "name": "Winston Churchill",
+      "full_name": "Winston Leonard Spencer Churchill",
+      "lived": "1874 – 1965",
+      "sort_year": 1874,
+      "region": "Verenigd Koninkrijk",
+      "known_for": "Brits premier in de oorlog, die in 1946 over het IJzeren Gordijn sprak.",
+      "bio": "Churchill leidde Groot-Brittannië van 1940 tot 1945 en opnieuw van 1951 tot 1955. Na zijn verkiezingsnederlaag in 1945 hield hij in 1946 in Fulton zijn beroemde toespraak over het IJzeren Gordijn.",
+      "contributions": [
+        "Toespraak in Fulton (1946)"
+      ],
+      "modules": [
+        21
+      ],
+      "timeline": [
+        "fulton-ijzeren-gordijn-1946"
+      ],
+      "image": null
+    },
+    {
       "id": "kartini",
       "name": "Kartini",
       "full_name": "Raden Adjeng Kartini",
@@ -2461,6 +2481,50 @@
       ],
       "timeline": [
         "boedi-oetomo-1908"
+      ],
+      "image": null
+    },
+    {
+      "id": "abraham-kuyper",
+      "name": "Kuyper",
+      "full_name": "Abraham Kuyper",
+      "lived": "1837 – 1920",
+      "sort_year": 1879,
+      "region": "Nederland",
+      "known_for": "Oprichter van de ARP en de Vrije Universiteit.",
+      "bio": "Kuyper was predikant, journalist en politicus. Hij leidde de orthodox-protestantse beweging, richtte in 1879 de Anti-Revolutionaire Partij op en in 1880 de Vrije Universiteit, en formuleerde de gedachte van de soevereiniteit in eigen kring.",
+      "contributions": [
+        "De ARP",
+        "De Vrije Universiteit",
+        "Soevereiniteit in eigen kring"
+      ],
+      "modules": [
+        22
+      ],
+      "timeline": [
+        "kappeyne-schoolwet-1878",
+        "kuyper-arp-1879"
+      ],
+      "image": null
+    },
+    {
+      "id": "truman",
+      "name": "Harry S. Truman",
+      "full_name": "Harry S. Truman",
+      "lived": "1884 – 1972",
+      "sort_year": 1884,
+      "region": "Verenigde Staten",
+      "known_for": "Amerikaans president (1945-1953), naamgever van de Trumandoctrine.",
+      "bio": "Truman volgde in april 1945 Roosevelt op. Onder zijn bewind kwamen de Trumandoctrine, het Marshallplan, de luchtbrug naar Berlijn, de oprichting van de NAVO en de Koreaanse Oorlog.",
+      "contributions": [
+        "De Trumandoctrine",
+        "Oprichting van de NAVO"
+      ],
+      "modules": [
+        21
+      ],
+      "timeline": [
+        "trumandoctrine-1947"
       ],
       "image": null
     },
@@ -2506,6 +2570,48 @@
       "image": null
     },
     {
+      "id": "nehru",
+      "name": "Jawaharlal Nehru",
+      "full_name": "Jawaharlal Nehru",
+      "lived": "1889 – 1964",
+      "sort_year": 1889,
+      "region": "India",
+      "known_for": "Eerste premier van India en pleitbezorger van niet-gebondenheid.",
+      "bio": "Nehru leidde met Gandhi de Congrespartij en was van 1947 tot 1964 premier van India. Hij was een van de leidende figuren in Bandung en bij de niet-gebonden landen.",
+      "contributions": [
+        "Premier van India",
+        "Bandung 1955"
+      ],
+      "modules": [
+        21
+      ],
+      "timeline": [
+        "onafhankelijkheid-india-pakistan-1947",
+        "bandung-conferentie-1955"
+      ],
+      "image": null
+    },
+    {
+      "id": "hans-rothfels",
+      "name": "Rothfels",
+      "full_name": "Hans Rothfels",
+      "lived": "1891 – 1976",
+      "sort_year": 1891,
+      "region": "Duitsland",
+      "known_for": "Gaf het vak Zeitgeschichte in 1953 een programma.",
+      "bio": "Rothfels werd in 1934 vanwege zijn Joodse afkomst ontslagen, vluchtte en keerde na de oorlog terug naar Duitsland.",
+      "contributions": [
+        "Zeitgeschichte als Aufgabe (1953)"
+      ],
+      "modules": [
+        23
+      ],
+      "timeline": [
+        "rothfels-zeitgeschichte-1953"
+      ],
+      "image": null
+    },
+    {
       "id": "johan-van-veen",
       "name": "Van Veen",
       "full_name": "Johan van Veen",
@@ -2542,6 +2648,26 @@
       ],
       "timeline": [
         "aanslag-sarajevo-1914"
+      ],
+      "image": null
+    },
+    {
+      "id": "chroesjtsjov",
+      "name": "Nikita Chroesjtsjov",
+      "full_name": "Nikita Sergejevitsj Chroesjtsjov",
+      "lived": "1894 – 1971",
+      "sort_year": 1894,
+      "region": "Sovjet-Unie",
+      "known_for": "Sovjetleider ten tijde van de Cubacrisis.",
+      "bio": "Chroesjtsjov was van 1953 tot 1964 leider van de Sovjet-Unie. In 1962 plaatste hij raketten op Cuba en haalde ze na onderhandelingen weer terug.",
+      "contributions": [
+        "Cubacrisis (1962)"
+      ],
+      "modules": [
+        21
+      ],
+      "timeline": [
+        "cubacrisis-1962"
       ],
       "image": null
     },
@@ -2586,6 +2712,70 @@
       "image": null
     },
     {
+      "id": "soekarno",
+      "name": "Soekarno",
+      "full_name": "Soekarno",
+      "lived": "1901 – 1970",
+      "sort_year": 1901,
+      "region": "Indonesië",
+      "known_for": "Eerste president van Indonesië, die in 1945 samen met Hatta de onafhankelijkheid uitriep.",
+      "bio": "Soekarno was de leidende figuur van de Indonesische nationale beweging. Hij richtte in 1927 de Nationalistische Partij Indonesië op, werd door de koloniale overheid verbannen en kreeg onder de Japanse bezetting een platform. Op 17 augustus 1945 las hij met Hatta de proclamatie voor.\n\nAls eerste president van Indonesië was hij gastheer van de conferentie van Bandung (1955) en een van de initiatiefnemers van de niet-gebonden beweging.",
+      "contributions": [
+        "De proclamatie van 1945",
+        "Gastheer van Bandung 1955"
+      ],
+      "modules": [
+        21
+      ],
+      "timeline": [
+        "proclamatie-indonesie-1945",
+        "bandung-conferentie-1955"
+      ],
+      "image": null
+    },
+    {
+      "id": "hatta",
+      "name": "Mohammad Hatta",
+      "full_name": "Mohammad Hatta",
+      "lived": "1902 – 1980",
+      "sort_year": 1902,
+      "region": "Indonesië",
+      "known_for": "Medeoprichter van de Republiek Indonesië en eerste vicepresident.",
+      "bio": "Hatta studeerde in Rotterdam en werd actief in de Indonesische nationale beweging. Op 17 augustus 1945 ondertekende hij met Soekarno de proclamatie. In december 1949 vertegenwoordigde hij Indonesië bij de soevereiniteitsoverdracht in Amsterdam.",
+      "contributions": [
+        "Medeondertekenaar van de proclamatie",
+        "Delegatieleider bij de Ronde Tafelconferentie"
+      ],
+      "modules": [
+        21
+      ],
+      "timeline": [
+        "proclamatie-indonesie-1945",
+        "soevereiniteitsoverdracht-indonesie-1949"
+      ],
+      "image": null
+    },
+    {
+      "id": "deng-xiaoping",
+      "name": "Deng Xiaoping",
+      "full_name": "Deng Xiaoping",
+      "lived": "1904 – 1997",
+      "sort_year": 1904,
+      "region": "China",
+      "known_for": "Leider achter de Chinese economische hervormingen vanaf 1978.",
+      "bio": "Onder Deng begon in december 1978 de hervormingspolitiek die China opende voor markt en handel.",
+      "contributions": [
+        "Economische hervormingen vanaf 1978"
+      ],
+      "modules": [
+        23
+      ],
+      "timeline": [
+        "china-wto-2001"
+      ],
+      "image": null
+    },
+    {
       "id": "libby",
       "name": "Libby",
       "full_name": "Willard Libby",
@@ -2622,6 +2812,26 @@
       ],
       "timeline": [
         "fischer-griff-nach-der-weltmacht-1961"
+      ],
+      "image": null
+    },
+    {
+      "id": "nkrumah",
+      "name": "Kwame Nkrumah",
+      "full_name": "Kwame Nkrumah",
+      "lived": "1909 – 1972",
+      "sort_year": 1909,
+      "region": "Ghana",
+      "known_for": "Leider van de Ghanese onafhankelijkheid.",
+      "bio": "Nkrumah leidde de Goudkust naar onafhankelijkheid en was de eerste premier en later president van Ghana. Hij pleitte voor Afrikaanse eenheid.",
+      "contributions": [
+        "Onafhankelijkheid van Ghana (1957)"
+      ],
+      "modules": [
+        21
+      ],
+      "timeline": [
+        "ghana-onafhankelijk-1957"
       ],
       "image": null
     },
@@ -2676,9 +2886,70 @@
       ],
       "modules": [
         16,
-        19
+        19,
+        23
       ],
       "timeline": [],
+      "image": null
+    },
+    {
+      "id": "kennedy",
+      "name": "John F. Kennedy",
+      "full_name": "John Fitzgerald Kennedy",
+      "lived": "1917 – 1963",
+      "sort_year": 1917,
+      "region": "Verenigde Staten",
+      "known_for": "Amerikaans president ten tijde van de Cubacrisis.",
+      "bio": "Kennedy was president van 1961 tot zijn moord in 1963. In oktober 1962 koos hij tijdens de Cubacrisis voor een zeeblokkade en onderhandelingen.",
+      "contributions": [
+        "Cubacrisis (1962)"
+      ],
+      "modules": [
+        21
+      ],
+      "timeline": [
+        "cubacrisis-1962"
+      ],
+      "image": null
+    },
+    {
+      "id": "arthur-schlesinger",
+      "name": "Arthur Schlesinger Jr.",
+      "full_name": "Arthur Meier Schlesinger Jr.",
+      "lived": "1917 – 2007",
+      "sort_year": 1917,
+      "region": "Verenigde Staten",
+      "known_for": "Historicus die de traditionele Amerikaanse lezing van de Koude Oorlog vertolkte.",
+      "bio": "Schlesinger publiceerde in 1967 in Foreign Affairs een artikel over de oorsprong van de Koude Oorlog, waarin hij de verantwoordelijkheid vooral bij Sovjetbeleid zocht.",
+      "contributions": [
+        "Artikel in Foreign Affairs (1967)"
+      ],
+      "modules": [
+        21
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "aletta-jacobs",
+      "name": "Jacobs",
+      "full_name": "Aletta Jacobs",
+      "lived": "1854 – 1929",
+      "sort_year": 1917,
+      "region": "Nederland",
+      "known_for": "Eerste vrouwelijke arts en voorvechter van het vrouwenkiesrecht.",
+      "bio": "Jacobs was de eerste vrouw die in Nederland aan een universiteit studeerde en werd in 1879 arts. Ze was een van de leidende figuren van de beweging voor vrouwenkiesrecht.",
+      "contributions": [
+        "Eerste vrouwelijke arts",
+        "Vrouwenkiesrecht"
+      ],
+      "modules": [
+        22
+      ],
+      "timeline": [
+        "pacificatie-1917",
+        "vrouwenkiesrecht-1919"
+      ],
       "image": null
     },
     {
@@ -2719,6 +2990,26 @@
       ],
       "timeline": [
         "robinson-gallagher-1953"
+      ],
+      "image": null
+    },
+    {
+      "id": "william-appleman-williams",
+      "name": "William Appleman Williams",
+      "full_name": "William Appleman Williams",
+      "lived": "1921 – 1990",
+      "sort_year": 1921,
+      "region": "Verenigde Staten",
+      "known_for": "Historicus van het revisionistische verhaal over de Koude Oorlog.",
+      "bio": "Williams schreef in 1959 The Tragedy of American Diplomacy, waarin hij Amerikaanse economische expansie als drijfveer van het buitenlands beleid beschreef.",
+      "contributions": [
+        "The Tragedy of American Diplomacy"
+      ],
+      "modules": [
+        21
+      ],
+      "timeline": [
+        "williams-tragedy-1959"
       ],
       "image": null
     },
@@ -2804,6 +3095,47 @@
       "image": null
     },
     {
+      "id": "lumumba",
+      "name": "Patrice Lumumba",
+      "full_name": "Patrice Émery Lumumba",
+      "lived": "1925 – 1961",
+      "sort_year": 1925,
+      "region": "Congo",
+      "known_for": "Eerste premier van onafhankelijk Congo.",
+      "bio": "Lumumba werd in 1960 de eerste premier van Congo. Hij werd na een machtsstrijd in januari 1961 vermoord. Een Belgische parlementaire commissie concludeerde in 2001 dat Belgische ministers moreel verantwoordelijk waren.",
+      "contributions": [
+        "Eerste premier van Congo"
+      ],
+      "modules": [
+        21
+      ],
+      "timeline": [
+        "congo-onafhankelijk-1960"
+      ],
+      "image": null
+    },
+    {
+      "id": "huntington",
+      "name": "Huntington",
+      "full_name": "Samuel P. Huntington",
+      "lived": "1927 – 2008",
+      "sort_year": 1927,
+      "region": "Verenigde Staten",
+      "known_for": "Politicoloog van The Clash of Civilizations.",
+      "bio": "Huntington stelde in 1993 en 1996 dat conflicten na de Koude Oorlog vooral tussen culturele gemeenschappen zouden liggen.",
+      "contributions": [
+        "The Clash of Civilizations? (1993)",
+        "The Clash of Civilizations and the Remaking of World Order (1996)"
+      ],
+      "modules": [
+        23
+      ],
+      "timeline": [
+        "huntington-clash-1993"
+      ],
+      "image": null
+    },
+    {
       "id": "susan-reynolds",
       "name": "Reynolds",
       "full_name": "Susan Reynolds",
@@ -2837,11 +3169,32 @@
         "Grote Terreur"
       ],
       "modules": [
-        19
+        19,
+        21
       ],
       "timeline": [
         "holodomor-1932-1933",
         "grote-terreur-1936-1938"
+      ],
+      "image": null
+    },
+    {
+      "id": "guenter-schabowski",
+      "name": "Schabowski",
+      "full_name": "Günter Schabowski",
+      "lived": "1929 – 2015",
+      "sort_year": 1929,
+      "region": "Oost-Berlijn",
+      "known_for": "Lid van het Politbureau van de SED; maakte op 9 november 1989 de reisregeling bekend.",
+      "bio": "Schabowski was partijfunctionaris in de DDR. Op de persconferentie van 9 november 1989 las hij de nieuwe reisregeling voor, waarna de grens in Berlijn openging.",
+      "contributions": [
+        "Persconferentie van 9 november 1989"
+      ],
+      "modules": [
+        23
+      ],
+      "timeline": [
+        "val-berlijnse-muur-1989"
       ],
       "image": null
     },
@@ -2878,10 +3231,36 @@
         "NSB"
       ],
       "modules": [
-        19
+        19,
+        20
       ],
       "timeline": [
         "nsb-opgericht-1931"
+      ],
+      "image": null
+    },
+    {
+      "id": "michail-gorbatsjov",
+      "name": "Michail Gorbatsjov",
+      "full_name": "Michail Sergejevitsj Gorbatsjov",
+      "lived": "1931 – 2022",
+      "sort_year": 1931,
+      "region": "Sovjet-Unie",
+      "known_for": "Laatste leider van de Sovjet-Unie, onder wie de Koude Oorlog eindigde.",
+      "bio": "Gorbatsjov werd in 1985 secretaris-generaal van de Sovjet-communistische partij en voerde glasnost en perestrojka in. Hij sloot met Reagan het INF-verdrag, greep in 1989 niet militair in en stemde in met de Duitse hereniging.\n\nHij trad op 25 december 1991 af, toen de Sovjet-Unie werd ontbonden.",
+      "contributions": [
+        "Glasnost en perestrojka",
+        "INF-verdrag (1987)",
+        "Instemming met Duitse hereniging"
+      ],
+      "modules": [
+        21,
+        23
+      ],
+      "timeline": [
+        "duitse-hereniging-1990",
+        "einde-sovjet-unie-1991",
+        "inf-verdrag-1987"
       ],
       "image": null
     },
@@ -2898,7 +3277,8 @@
         "Nationaalsocialisme"
       ],
       "modules": [
-        19
+        19,
+        20
       ],
       "timeline": [
         "hitler-kanselier-1933",
@@ -3068,6 +3448,142 @@
       "image": null
     },
     {
+      "id": "seyss-inquart",
+      "name": "Seyss-Inquart",
+      "full_name": "Arthur Seyss-Inquart",
+      "lived": "1892 – 1946",
+      "sort_year": 1940,
+      "region": "Oostenrijk en Nederland",
+      "known_for": "Rijkscommissaris van het bezette Nederland.",
+      "bio": "Seyss-Inquart werd in mei 1940 Rijkscommissaris voor het bezette Nederlandse gebied en stond aan het hoofd van een civiel bestuur. Hij werd in 1946 in Neurenberg ter dood veroordeeld en geëxecuteerd.",
+      "contributions": [
+        "Civiel bestuur van bezet Nederland"
+      ],
+      "modules": [
+        20
+      ],
+      "timeline": [
+        "duitse-inval-nederland-1940"
+      ],
+      "image": null
+    },
+    {
+      "id": "john-lewis-gaddis",
+      "name": "John Lewis Gaddis",
+      "full_name": "John Lewis Gaddis",
+      "lived": "1941 –",
+      "sort_year": 1941,
+      "region": "Verenigde Staten",
+      "known_for": "Historicus van de Koude Oorlog, auteur van We Now Know.",
+      "bio": "Gaddis schreef in 1972 over de oorsprong van de Koude Oorlog, in 1983 over de post-revisionistische synthese en in 1997 We Now Know, waarin hij Sovjetbronnen gebruikte.",
+      "contributions": [
+        "We Now Know (1997)"
+      ],
+      "modules": [
+        21
+      ],
+      "timeline": [
+        "gaddis-we-now-know-1997"
+      ],
+      "image": null
+    },
+    {
+      "id": "reinhard-heydrich",
+      "name": "Heydrich",
+      "full_name": "Reinhard Heydrich",
+      "lived": "1904 – 1942",
+      "sort_year": 1942,
+      "region": "Duitsland",
+      "known_for": "Chef van het Reichssicherheitshauptamt en voorzitter van de Wannsee-conferentie.",
+      "bio": "Heydrich zat de Wannsee-conferentie van 20 januari 1942 voor. Hij overleed in juni 1942 aan de gevolgen van een aanslag in Praag.",
+      "contributions": [
+        "Wannsee-conferentie"
+      ],
+      "modules": [
+        20
+      ],
+      "timeline": [
+        "wannsee-conferentie-1942"
+      ],
+      "image": null
+    },
+    {
+      "id": "anne-frank",
+      "name": "Anne Frank",
+      "full_name": "Annelies Marie Frank",
+      "lived": "1929 – 1945",
+      "sort_year": 1942,
+      "region": "Frankfurt en Amsterdam",
+      "known_for": "Schreef een dagboek in onderduik in Amsterdam.",
+      "bio": "Anne Frank dook op 6 juli 1942 met haar familie onder in Amsterdam. Op 4 augustus 1944 werd het Achterhuis ontdekt. Zij werd gedeporteerd en overleed in het voorjaar van 1945 in Bergen-Belsen. Haar dagboek is een gelijktijdige bron over het leven in onderduik.",
+      "contributions": [
+        "Het dagboek van Anne Frank"
+      ],
+      "modules": [
+        20
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "etty-hillesum",
+      "name": "Hillesum",
+      "full_name": "Esther Hillesum",
+      "lived": "1914 – 1943",
+      "sort_year": 1942,
+      "region": "Amsterdam",
+      "known_for": "Schreef een dagboek en brieven over de vervolging en over Westerbork.",
+      "bio": "Etty Hillesum begon in 1941 met een dagboek, ging in augustus 1942 naar Westerbork en werd op 7 september 1943 naar Auschwitz gevoerd. Zij overleed daar op 30 november 1943.",
+      "contributions": [
+        "Dagboek en brieven uit Westerbork"
+      ],
+      "modules": [
+        20
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "jules-schelvis",
+      "name": "Schelvis",
+      "full_name": "Jules Schelvis",
+      "lived": "1921 – 2016",
+      "sort_year": 1943,
+      "region": "Amsterdam",
+      "known_for": "Een van de weinige overlevenden van Sobibor.",
+      "bio": "Schelvis werd in 1943 vanuit Westerbork naar Sobibor gedeporteerd. Hij werd voor dwangarbeid geselecteerd en schreef er na de oorlog over.",
+      "contributions": [
+        "Getuigenis over Sobibor"
+      ],
+      "modules": [
+        20
+      ],
+      "timeline": [
+        "eerste-transport-westerbork-1942"
+      ],
+      "image": null
+    },
+    {
+      "id": "hans-blom",
+      "name": "Blom",
+      "full_name": "Hans Blom",
+      "lived": "geboren 1943",
+      "sort_year": 1943,
+      "region": "Nederland",
+      "known_for": "Historicus van de bezettingstijd, bekend van In de ban van goed en fout.",
+      "bio": "Blom betoogde in 1983 dat de bezetting eerst zonder morele oordelen moet worden onderzocht, omdat een indeling in goed en fout de vragen bepaalt.",
+      "contributions": [
+        "In de ban van goed en fout"
+      ],
+      "modules": [
+        20
+      ],
+      "timeline": [
+        "blom-in-de-ban-1983"
+      ],
+      "image": null
+    },
+    {
       "id": "joel-mokyr",
       "name": "Mokyr",
       "full_name": "Joel Mokyr",
@@ -3101,6 +3617,67 @@
         16
       ],
       "timeline": [],
+      "image": null
+    },
+    {
+      "id": "willem-drees",
+      "name": "Drees",
+      "full_name": "Willem Drees",
+      "lived": "1886 – 1988",
+      "sort_year": 1947,
+      "region": "Nederland",
+      "known_for": "Sociaal-democraat en minister-president van 1948 tot 1958.",
+      "bio": "Drees was van 1945 tot 1948 minister van Sociale Zaken en van 1948 tot 1958 minister-president. Hij werd het gezicht van de naoorlogse sociale zekerheid.",
+      "contributions": [
+        "De Noodwet Ouderdomsvoorziening"
+      ],
+      "modules": [
+        22
+      ],
+      "timeline": [
+        "noodwet-ouderdomsvoorziening-1947",
+        "aow-1957"
+      ],
+      "image": null
+    },
+    {
+      "id": "tony-judt",
+      "name": "Judt",
+      "full_name": "Tony Judt",
+      "lived": "1948 – 2010",
+      "sort_year": 1948,
+      "region": "Verenigd Koninkrijk en Verenigde Staten",
+      "known_for": "Schrijver van Postwar: A History of Europe Since 1945.",
+      "bio": "Judt publiceerde in 2005 zijn overzicht van de Europese geschiedenis sinds 1945.",
+      "contributions": [
+        "Postwar (2005)"
+      ],
+      "modules": [
+        23
+      ],
+      "timeline": [
+        "judt-postwar-2005"
+      ],
+      "image": null
+    },
+    {
+      "id": "pim-fortuyn",
+      "name": "Fortuyn",
+      "full_name": "Pim Fortuyn",
+      "lived": "1948 – 2002",
+      "sort_year": 1948,
+      "region": "Nederland",
+      "known_for": "Politicus die in 2002 negen dagen voor de verkiezingen werd vermoord.",
+      "bio": "Fortuyn was in 2002 lijsttrekker van een eigen partij. Zijn moord op 6 mei 2002 gold als een schokkende gebeurtenis in de Nederlandse politiek.",
+      "contributions": [
+        "Lijst Pim Fortuyn"
+      ],
+      "modules": [
+        23
+      ],
+      "timeline": [
+        "fortuyn-moord-2002"
+      ],
       "image": null
     },
     {
@@ -3156,10 +3733,33 @@
         "The Origins of Totalitarianism"
       ],
       "modules": [
-        19
+        19,
+        20
       ],
       "timeline": [
         "arendt-origins-totalitarianism-1951"
+      ],
+      "image": null
+    },
+    {
+      "id": "fukuyama",
+      "name": "Fukuyama",
+      "full_name": "Francis Fukuyama",
+      "lived": "geboren 1952",
+      "sort_year": 1952,
+      "region": "Verenigde Staten",
+      "known_for": "Politicoloog van The End of History?",
+      "bio": "Fukuyama schreef in 1989 en 1992 dat het liberale model na de Koude Oorlog geen ideologische rivaal van formaat meer had.",
+      "contributions": [
+        "The End of History? (1989)",
+        "The End of History and the Last Man (1992)"
+      ],
+      "modules": [
+        23
+      ],
+      "timeline": [
+        "fukuyama-einde-geschiedenis-1989",
+        "huntington-clash-1993"
       ],
       "image": null
     },
@@ -3180,6 +3780,26 @@
       ],
       "timeline": [
         "cobban-myth-1954"
+      ],
+      "image": null
+    },
+    {
+      "id": "paul-scheffer",
+      "name": "Scheffer",
+      "full_name": "Paul Scheffer",
+      "lived": "geboren 1954",
+      "sort_year": 1954,
+      "region": "Nederland",
+      "known_for": "Auteur van Het multiculturele drama (2000).",
+      "bio": "Scheffer schreef in NRC Handelsblad een essay dat het integratiedebat in Nederland op gang bracht.",
+      "contributions": [
+        "Het multiculturele drama (2000)"
+      ],
+      "modules": [
+        23
+      ],
+      "timeline": [
+        "scheffer-multiculturele-drama-2000"
       ],
       "image": null
     },
@@ -3240,6 +3860,107 @@
       ],
       "timeline": [
         "clark-sleepwalkers-2012"
+      ],
+      "image": null
+    },
+    {
+      "id": "odd-arne-westad",
+      "name": "Odd Arne Westad",
+      "full_name": "Odd Arne Westad",
+      "lived": "1960 –",
+      "sort_year": 1960,
+      "region": "Noorwegen en de Verenigde Staten",
+      "known_for": "Historicus van de globale Koude Oorlog.",
+      "bio": "Westad schreef The Global Cold War (2005), waarin hij het zwaartepunt van Europa naar de Derde Wereld verlegde.",
+      "contributions": [
+        "The Global Cold War (2005)"
+      ],
+      "modules": [
+        21
+      ],
+      "timeline": [
+        "westad-global-cold-war-2005"
+      ],
+      "image": null
+    },
+    {
+      "id": "raul-hilberg",
+      "name": "Hilberg",
+      "full_name": "Raul Hilberg",
+      "lived": "1926 – 2007",
+      "sort_year": 1961,
+      "region": "Verenigde Staten",
+      "known_for": "Auteur van The Destruction of the European Jews.",
+      "bio": "Hilberg beschreef de Holocaust als een bureaucratisch proces met opeenvolgende stappen.",
+      "contributions": [
+        "The Destruction of the European Jews"
+      ],
+      "modules": [
+        20
+      ],
+      "timeline": [
+        "hilberg-destruction-1961"
+      ],
+      "image": null
+    },
+    {
+      "id": "arend-lijphart",
+      "name": "Lijphart",
+      "full_name": "Arend Lijphart",
+      "lived": "geboren 1936",
+      "sort_year": 1968,
+      "region": "Nederland en Verenigde Staten",
+      "known_for": "Politicoloog die de pacificatiedemocratie beschreef.",
+      "bio": "Lijphart verklaarde in The Politics of Accommodation (1968) de stabiliteit van de Nederlandse democratie uit het overleg tussen elites.",
+      "contributions": [
+        "The Politics of Accommodation"
+      ],
+      "modules": [
+        22
+      ],
+      "timeline": [
+        "lijphart-politics-of-accommodation-1968"
+      ],
+      "image": null
+    },
+    {
+      "id": "loe-de-jong",
+      "name": "De Jong",
+      "full_name": "Loe de Jong",
+      "lived": "1914 – 2005",
+      "sort_year": 1969,
+      "region": "Nederland",
+      "known_for": "Directeur van het RIOD en auteur van Het Koninkrijk der Nederlanden in de Tweede Wereldoorlog.",
+      "bio": "De Jong maakte de televisieserie De Bezetting en schreef een veertiendelig overzichtswerk, dat de bezettingstijd met een morele maatstaf van goed en fout ordent.",
+      "contributions": [
+        "Het Koninkrijk der Nederlanden in de Tweede Wereldoorlog"
+      ],
+      "modules": [
+        20,
+        21
+      ],
+      "timeline": [
+        "de-jong-koninkrijk-1969"
+      ],
+      "image": null
+    },
+    {
+      "id": "remy-limpach",
+      "name": "Rémy Limpach",
+      "full_name": "Rémy Limpach",
+      "lived": "1970 –",
+      "sort_year": 1970,
+      "region": "Nederland",
+      "known_for": "Historicus van het Nederlandse geweld in Indonesië.",
+      "bio": "Limpach publiceerde in 2016 De brandende kampongs van generaal Spoor, waarin hij het structurele karakter van het Nederlandse geweld in Indonesië aantoonde.",
+      "contributions": [
+        "De brandende kampongs van generaal Spoor (2016)"
+      ],
+      "modules": [
+        21
+      ],
+      "timeline": [
+        "limpach-brandende-kampongs-2016"
       ],
       "image": null
     },
@@ -3344,6 +4065,26 @@
       "image": null
     },
     {
+      "id": "ruud-lubbers",
+      "name": "Lubbers",
+      "full_name": "Ruud Lubbers",
+      "lived": "1939 – 2018",
+      "sort_year": 1982,
+      "region": "Nederland",
+      "known_for": "Minister-president van 1982 tot 1994.",
+      "bio": "Lubbers leidde van 1982 tot 1994 drie kabinetten. Kort na zijn aantreden kwam het Akkoord van Wassenaar tot stand.",
+      "contributions": [
+        "Kabinet-Lubbers I"
+      ],
+      "modules": [
+        22
+      ],
+      "timeline": [
+        "akkoord-van-wassenaar-1982"
+      ],
+      "image": null
+    },
+    {
       "id": "jonathan-riley-smith",
       "name": "Jonathan Riley-Smith",
       "full_name": "Jonathan Riley-Smith",
@@ -3381,6 +4122,26 @@
       ],
       "timeline": [
         "diamond-grootste-vergissing"
+      ],
+      "image": null
+    },
+    {
+      "id": "christopher-browning",
+      "name": "Browning",
+      "full_name": "Christopher Browning",
+      "lived": "geboren 1944",
+      "sort_year": 1992,
+      "region": "Verenigde Staten",
+      "known_for": "Auteur van Ordinary Men.",
+      "bio": "Browning onderzocht Reserve-Politiebataljon 101 en verklaarde het daderschap uit groepsdruk, gezagsgehoorzaamheid en gewenning.",
+      "contributions": [
+        "Ordinary Men"
+      ],
+      "modules": [
+        20
+      ],
+      "timeline": [
+        "browning-ordinary-men-1992"
       ],
       "image": null
     },
@@ -3502,6 +4263,26 @@
       ],
       "timeline": [
         "darnton-forbidden-best-sellers-1995"
+      ],
+      "image": null
+    },
+    {
+      "id": "daniel-goldhagen",
+      "name": "Goldhagen",
+      "full_name": "Daniel Goldhagen",
+      "lived": "geboren 1959",
+      "sort_year": 1996,
+      "region": "Verenigde Staten",
+      "known_for": "Auteur van Hitler's Willing Executioners.",
+      "bio": "Goldhagen verklaarde het daderschap uit een diepgeworteld Duits eliminatorisch antisemitisme, een stelling die door veel historici werd afgewezen.",
+      "contributions": [
+        "Hitler's Willing Executioners"
+      ],
+      "modules": [
+        20
+      ],
+      "timeline": [
+        "goldhagen-willing-executioners-1996"
       ],
       "image": null
     },
@@ -3658,6 +4439,46 @@
       ],
       "timeline": [
         "ward-perkins-heather-2005"
+      ],
+      "image": null
+    },
+    {
+      "id": "griffioen-en-zeller",
+      "name": "Griffioen en Zeller",
+      "full_name": "Pim Griffioen en Ron Zeller",
+      "lived": "publiceerden in 2011",
+      "sort_year": 2011,
+      "region": "Nederland",
+      "known_for": "Vergeleken de Jodenvervolging in Nederland, Frankrijk en België.",
+      "bio": "Griffioen en Zeller publiceerden in 2011 een vergelijkende studie over het hoge Nederlandse percentage vermoorde Joden.",
+      "contributions": [
+        "Jodenvervolging in Nederland, Frankrijk en België, 1940-1945"
+      ],
+      "modules": [
+        20
+      ],
+      "timeline": [
+        "griffioen-zeller-2011"
+      ],
+      "image": null
+    },
+    {
+      "id": "bart-van-der-boom",
+      "name": "Van der Boom",
+      "full_name": "Bart van der Boom",
+      "lived": "actief vanaf de jaren 2000",
+      "sort_year": 2012,
+      "region": "Nederland",
+      "known_for": "Auteur van Wij weten niets van hun lot.",
+      "bio": "Van der Boom onderzocht dagboeken van gewone Nederlanders en betoogde dat zij niet konden bevroeden dat de weggevoerde Joden stelselmatig werden vermoord. Zijn boek kreeg de Libris Geschiedenis Prijs en ook kritiek.",
+      "contributions": [
+        "Wij weten niets van hun lot"
+      ],
+      "modules": [
+        20
+      ],
+      "timeline": [
+        "van-der-boom-wij-weten-niets-2012"
       ],
       "image": null
     },

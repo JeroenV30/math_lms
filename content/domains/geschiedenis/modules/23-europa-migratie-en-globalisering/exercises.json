@@ -1,0 +1,903 @@
+{
+  "exercises": [
+    {
+      "id": "23-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Waarvoor is de opname van de persconferentie een primaire bron?",
+      "choices": [
+        "Voor wat Schabowski op 9 november 1989 zei",
+        "Voor de vraag waarom de DDR instortte",
+        "Voor wat Oost-Berlijners die avond dachten",
+        "Voor de besluiten van het Politbureau in oktober 1989"
+      ],
+      "answer": "Voor wat Schabowski op 9 november 1989 zei",
+      "hints": [
+        "Een bron is primair voor de vraag waarover ze rechtstreeks getuigt."
+      ],
+      "solution": [
+        "De opname legt vast wat hij zei, dus daarvoor is ze primair."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "context": "Fragment uit de persconferentie van Günter Schabowski, Oost-Berlijn, 9 november 1989 (vrij vertaald naar het fragment van de Bundesregierung): op de vraag vanaf wanneer de reisregeling gold, antwoordde hij dat het “voor zover ik weet … per direct, onmiddellijk” was.",
+      "feedback": [
+        {
+          "answer": "Voor de vraag waarom de DDR instortte",
+          "message": "Dat is een verklarende vraag over een lange periode. De opname is er maar één bouwsteen van."
+        },
+        {
+          "answer": "Voor wat Oost-Berlijners die avond dachten",
+          "message": "De opname laat de spreker horen, niet de menigte."
+        }
+      ]
+    },
+    {
+      "id": "23-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat maakt het schrijven over je eigen tijd anders dan het schrijven over de Griekse polis?",
+      "choices": [
+        "De afloop is nog niet bekend en een deel van de archieven is gesloten",
+        "Er zijn geen bronnen beschikbaar",
+        "De historicus is door zijn betrokkenheid per definitie onbetrouwbaar",
+        "Wie erbij was, hoeft geen bronnen te beoordelen"
+      ],
+      "answer": "De afloop is nog niet bekend en een deel van de archieven is gesloten",
+      "hints": [
+        "Denk aan wat je wel en niet weet over de gevolgen."
+      ],
+      "solution": [
+        "Afstand en toegang tot archieven zijn de kernproblemen."
+      ],
+      "topics": [
+        "historiography"
+      ],
+      "feedback": [
+        {
+          "answer": "Er zijn geen bronnen beschikbaar",
+          "message": "Er zijn vaak juist veel bronnen, soms te veel."
+        },
+        {
+          "answer": "De historicus is door zijn betrokkenheid per definitie onbetrouwbaar",
+          "message": "Betrokkenheid is een risico dat je benoemt en beperkt, geen reden om het onderwerp op te geven."
+        },
+        {
+          "answer": "Wie erbij was, hoeft geen bronnen te beoordelen",
+          "message": "Een getuige ziet maar een deel van de gebeurtenis, en ook herinneringen moet je toetsen."
+        }
+      ]
+    },
+    {
+      "id": "23-003",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Leg in twee of drie zinnen uit waarom het jaar 1989 voor de mensen die het meemaakten anders aanvoelde dan voor ons nu.",
+      "answer": "Zij wisten niet hoe het zou aflopen en vreesden bijvoorbeeld geweld zoals in Peking; wij kennen de afloop en zien daardoor een reeks die onvermijdelijk lijkt.",
+      "hints": [
+        "Wat wisten zij niet wat wij wel weten?"
+      ],
+      "solution": [
+        "Tijdgenoten hadden geen voorkennis. In juni 1989 sloeg de Chinese regering demonstraties met geweld neer, en veel waarnemers vreesden zoiets ook in Oost-Duitsland.",
+        "Wij kennen de afloop, waardoor 1989 achteraf als een logische reeks overkomt. Dat is een voorsprong die de mensen toen niet hadden."
+      ],
+      "topics": [
+        "perspective"
+      ]
+    },
+    {
+      "id": "23-004",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Val van de Berlijnse Muur",
+        "Duitse hereniging",
+        "Mislukte staatsgreep in Moskou",
+        "Gorbatsjov treedt af als president",
+        "Verdrag van Maastricht ondertekend"
+      ],
+      "hints": [
+        "Het aftreden van Gorbatsjov volgt op de staatsgreep."
+      ],
+      "solution": [
+        "Muur: 9 november 1989. Hereniging: 3 oktober 1990. Staatsgreep: augustus 1991. Aftreden Gorbatsjov: 25 december 1991. Maastricht: 7 februari 1992."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Val van de Berlijnse Muur",
+            "Duitse hereniging",
+            "Gorbatsjov treedt af als president",
+            "Mislukte staatsgreep in Moskou",
+            "Verdrag van Maastricht ondertekend"
+          ],
+          "message": "De staatsgreep was in augustus 1991, Gorbatsjovs aftreden op 25 december 1991."
+        }
+      ]
+    },
+    {
+      "id": "23-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke uitspraak over de val van de Muur is monocausaal en dus te simpel?",
+      "choices": [
+        "De Muur viel doordat Schabowski zich versprak, en meer valt daar niet over te zeggen",
+        "De directe aanleiding was een onduidelijke mededeling, maar die werkte alleen door de eerdere uitreisgolf",
+        "De opstelling van Moskou was een voorwaarde voor het verloop van de nacht",
+        "Zonder de demonstraties was er waarschijnlijk geen reisregeling gekomen"
+      ],
+      "answer": "De Muur viel doordat Schabowski zich versprak, en meer valt daar niet over te zeggen",
+      "hints": [
+        "Zoek de uitspraak die één oorzaak als enige verklaring aanwijst."
+      ],
+      "solution": [
+        "Een misverstand had alleen zulke gevolgen omdat er al druk, uittocht en Sovjet-terughoudendheid waren."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "De directe aanleiding was een onduidelijke mededeling, maar die werkte alleen door de eerdere uitreisgolf",
+          "message": "Deze uitspraak scheidt juist aanleiding en voorwaarde, en is dus niet monocausaal."
+        }
+      ]
+    },
+    {
+      "id": "23-006",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Voor welke vraag is een krantenbericht van de ochtend van 10 november 1989 over de val van de Muur het best bruikbaar?",
+      "choices": [
+        "Hoe de gebeurtenis zich in de eerste uren aandiende",
+        "Wat het Politbureau precies had besloten",
+        "Wat de gevolgen van de val van de Muur voor Europa waren",
+        "Hoeveel mensen er in totaal de grens overstaken"
+      ],
+      "answer": "Hoe de gebeurtenis zich in de eerste uren aandiende",
+      "hints": [
+        "Wat wist de verslaggever op dat moment?"
+      ],
+      "solution": [
+        "Een eerste bericht laat zien wat men toen wist en dacht, niet wat er later uit bleek."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "Wat het Politbureau precies had besloten",
+          "message": "Een krant had geen toegang tot de notulen van het Politbureau."
+        },
+        {
+          "answer": "Wat de gevolgen van de val van de Muur voor Europa waren",
+          "message": "De gevolgen waren ten tijde van het bericht nog niet te overzien."
+        }
+      ]
+    },
+    {
+      "id": "23-007",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "De Muur viel in de nacht van 9 op 10 november 1989 en de Duitse hereniging was op 3 oktober 1990. Hoeveel dagen zitten er tussen 9 november 1989 en 3 oktober 1990?",
+      "answer": 328,
+      "hints": [
+        "Tel de dagen per maand op, of reken terug vanaf 9 november 1990."
+      ],
+      "solution": [
+        "Van 9 november 1989 tot 9 november 1990 is 365 dagen. Trek daar de dagen van 3 oktober tot 9 november 1990 af, dat zijn 37 dagen: $365 - 37 = 328$."
+      ],
+      "topics": [
+        "contemporary"
+      ],
+      "unit": "dagen",
+      "feedback": [
+        {
+          "answer": 365,
+          "message": "Dat is een heel jaar. De hereniging was al op 3 oktober 1990, ruim een maand eerder."
+        }
+      ]
+    },
+    {
+      "id": "23-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat bedoelde Fukuyama met het “einde van de geschiedenis”?",
+      "choices": [
+        "Dat het liberale kapitalisme en de parlementaire democratie geen ideologische rivaal van formaat meer hadden",
+        "Dat er geen gebeurtenissen meer zouden plaatsvinden",
+        "Dat de Koude Oorlog nooit heeft bestaan",
+        "Dat het vak geschiedenis overbodig werd"
+      ],
+      "answer": "Dat het liberale kapitalisme en de parlementaire democratie geen ideologische rivaal van formaat meer hadden",
+      "hints": [
+        "Fukuyama dacht aan ideeën, niet aan dagelijkse gebeurtenissen."
+      ],
+      "solution": [
+        "Hij schreef in 1989 en 1992 dat ideologische rivalen ontbraken."
+      ],
+      "topics": [
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat er geen gebeurtenissen meer zouden plaatsvinden",
+          "message": "Dat is de verkorte versie uit het publieke debat. Fukuyama gebruikte “geschiedenis” in de zin van Hegel: de ontwikkeling van ideeën over hoe mensen zich organiseren."
+        }
+      ]
+    },
+    {
+      "id": "23-009",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Waarom kun je het essay van Fukuyama uit 1989 zowel als interpretatie als in de rol van bron gebruiken?",
+      "answer": "Als interpretatie omdat het een gedachtegang over de wereld na de Koude Oorlog is; als bron omdat het laat zien hoe een invloedrijke denker in 1989 de situatie zag, zonder de afloop te kennen.",
+      "hints": [
+        "Een tekst kan voor verschillende vragen een andere status hebben."
+      ],
+      "solution": [
+        "Het essay is een interpretatie: Fukuyama verklaart de ontwikkeling van zijn tijd.",
+        "Het is ook een bron: voor de vraag hoe intellectuelen in 1989 over de wereld dachten, is het een directe getuige."
+      ],
+      "topics": [
+        "historiography"
+      ]
+    },
+    {
+      "id": "23-010",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze stappen in de Europese eenwording in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Verdrag van Parijs (EGKS)",
+        "Verdrag van Rome (EEG)",
+        "Verdrag van Maastricht",
+        "Euromunten en -biljetten",
+        "Uitbreiding met tien landen"
+      ],
+      "hints": [
+        "De EGKS was de eerste gemeenschap."
+      ],
+      "solution": [
+        "EGKS 1951, EEG 1957, Maastricht 1992, munten 2002, uitbreiding mei 2004."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Verdrag van Rome (EEG)",
+            "Verdrag van Parijs (EGKS)",
+            "Verdrag van Maastricht",
+            "Euromunten en -biljetten",
+            "Uitbreiding met tien landen"
+          ],
+          "message": "Parijs (1951) komt vóór Rome (1957)."
+        }
+      ]
+    },
+    {
+      "id": "23-011",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bij de invoering van de euro (2002) was 1 euro 2,20371 gulden. Hoeveel gulden was € 50 waard? Rond af op twee decimalen.",
+      "answer": 110.19,
+      "hints": [
+        "Vermenigvuldig het bedrag in euro met de omrekenkoers."
+      ],
+      "solution": [
+        "$50 \\times 2{,}20371 = 110{,}1855$, afgerond 110,19 gulden."
+      ],
+      "topics": [
+        "contemporary"
+      ],
+      "unit": "gulden",
+      "tolerance": 0.01,
+      "feedback": [
+        {
+          "answer": 22.69,
+          "message": "Je hebt gedeeld door de koers; je moet vermenigvuldigen."
+        }
+      ]
+    },
+    {
+      "id": "23-012",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Wat kun je uit de uitslag van het Nederlandse referendum over de Europese grondwet wel afleiden?",
+      "choices": [
+        "Dat een meerderheid van de stemmers tegen het ontwerp stemde, maar niet waarom",
+        "Dat een meerderheid van de Nederlanders Europa afwees",
+        "Dat een meerderheid wilde dat Nederland de EU verliet",
+        "Dat alleen de kiezers van één partij tegen stemden"
+      ],
+      "answer": "Dat een meerderheid van de stemmers tegen het ontwerp stemde, maar niet waarom",
+      "hints": [
+        "Een stem zegt niet waarom iemand zo stemde."
+      ],
+      "solution": [
+        "De cijfers beschrijven de keuze, niet de motieven."
+      ],
+      "topics": [
+        "interpretation"
+      ],
+      "context": "Referendum van 1 juni 2005: 61,5 procent tegen, 38,5 procent voor, opkomst 63,3 procent.",
+      "feedback": [
+        {
+          "answer": "Dat een meerderheid van de Nederlanders Europa afwees",
+          "message": "De uitslag gaat over een specifiek ontwerp en over de stemmers, niet over alle Nederlanders of over Europa in het algemeen."
+        },
+        {
+          "answer": "Dat een meerderheid wilde dat Nederland de EU verliet",
+          "message": "Het referendum ging over de grondwet, niet over uittreding."
+        }
+      ]
+    },
+    {
+      "id": "23-013",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat gebeurde er na het verschijnen van het NIOD-rapport over Srebrenica in april 2002?",
+      "choices": [
+        "Het kabinet-Kok trad af",
+        "Het rapport werd ingetrokken",
+        "Nederland trok zich terug uit de VN",
+        "De Dutchbat-militairen werden strafrechtelijk vervolgd"
+      ],
+      "answer": "Het kabinet-Kok trad af",
+      "hints": [
+        "Het kabinet nam de politieke verantwoordelijkheid."
+      ],
+      "solution": [
+        "Het kabinet trad op 16 april 2002 af, zes dagen na het rapport."
+      ],
+      "topics": [
+        "historiography"
+      ],
+      "feedback": [
+        {
+          "answer": "Het rapport werd ingetrokken",
+          "message": "Het rapport bleef bestaan; het werd later aangevuld door andere bronnen en procedures."
+        }
+      ]
+    },
+    {
+      "id": "23-014",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Het NIOD-rapport over Srebrenica verscheen op 10 april 2002 en het kabinet-Kok trad op 16 april 2002 af. Hoeveel dagen zaten daartussen?",
+      "answer": 6,
+      "hints": [
+        "Beide data liggen in dezelfde maand."
+      ],
+      "solution": [
+        "$16 - 10 = 6$ dagen."
+      ],
+      "topics": [
+        "contemporary"
+      ],
+      "unit": "dagen",
+      "feedback": [
+        {
+          "answer": 26,
+          "message": "Je hebt de data opgeteld."
+        }
+      ]
+    },
+    {
+      "id": "23-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is het belangrijkste verschil tussen de komst van de Molukkers in 1951 en die van de gastarbeiders na 1964?",
+      "choices": [
+        "De Molukkers kwamen als voormalige KNIL-militairen met hun gezinnen, de gastarbeiders werden geworven voor werk",
+        "De Molukkers kwamen om werk, de gastarbeiders vluchtten voor oorlog",
+        "De Molukkers kwamen uit Suriname, de gastarbeiders uit Indonesië",
+        "Er was geen verschil: beide groepen kwamen als arbeidsmigranten"
+      ],
+      "answer": "De Molukkers kwamen als voormalige KNIL-militairen met hun gezinnen, de gastarbeiders werden geworven voor werk",
+      "hints": [
+        "Denk aan de reden van komst."
+      ],
+      "solution": [
+        "Dekolonisatie tegenover werving."
+      ],
+      "topics": [
+        "continuity-change"
+      ],
+      "feedback": [
+        {
+          "answer": "De Molukkers kwamen om werk, de gastarbeiders vluchtten voor oorlog",
+          "message": "Dit verwisselt de redenen: de gastarbeiders werden juist voor werk geworven."
+        },
+        {
+          "answer": "De Molukkers kwamen uit Suriname, de gastarbeiders uit Indonesië",
+          "message": "De Molukken liggen in het voormalige Nederlands-Indië, de gastarbeiders kwamen onder meer uit Turkije en Marokko."
+        }
+      ]
+    },
+    {
+      "id": "23-016",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen rond de migratie naar Nederland in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Molukkers komen naar Nederland",
+        "Wervingsakkoord met Turkije",
+        "Wervingsakkoord met Marokko",
+        "Officiële wervingsstop",
+        "Onafhankelijkheid van Suriname"
+      ],
+      "hints": [
+        "De wervingsstop komt vóór de onafhankelijkheid van Suriname."
+      ],
+      "solution": [
+        "1951; 1964; 1969; 1973; 25 november 1975."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Molukkers komen naar Nederland",
+            "Wervingsakkoord met Turkije",
+            "Wervingsakkoord met Marokko",
+            "Onafhankelijkheid van Suriname",
+            "Officiële wervingsstop"
+          ],
+          "message": "De wervingsstop was in 1973, de onafhankelijkheid van Suriname in 1975."
+        }
+      ]
+    },
+    {
+      "id": "23-017",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Leg uit waarom “tijdelijk” voor de Molukkers in 1951 voor de Nederlandse overheid en voor de Molukkers zelf iets anders kon betekenen.",
+      "answer": "Voor de overheid was het een praktische opvang in afwachting van een oplossing; voor de Molukkers was het de verwachting van terugkeer naar een eigen republiek. Doordat die terugkeer niet kwam, ontstond frustratie.",
+      "hints": [
+        "Vraag steeds: tijdelijk voor wie en tot wanneer?"
+      ],
+      "solution": [
+        "Het woord bleef hetzelfde, de verwachtingen verschilden: de overheid zocht een oplossing voor de opvang, de Molukkers dachten aan terugkeer naar een onafhankelijke republiek.",
+        "Toen dat niet gebeurde, werd het verblijf langdurig en groeide de teleurstelling, zeker bij de tweede generatie."
+      ],
+      "topics": [
+        "perspective"
+      ]
+    },
+    {
+      "id": "23-018",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Voor welke vraag is het woord “gastarbeider” een goede bron?",
+      "choices": [
+        "Wat Nederlandse overheid en werkgevers in de jaren zestig verwachtten",
+        "Wat de migranten zelf in 1964 verwachtten",
+        "Hoeveel mensen er in totaal bleven",
+        "Hoe lang de gemiddelde migrant in Nederland bleef"
+      ],
+      "answer": "Wat Nederlandse overheid en werkgevers in de jaren zestig verwachtten",
+      "hints": [
+        "Wie bedacht het woord?"
+      ],
+      "solution": [
+        "Een woord is een bron voor degene die het gebruikt."
+      ],
+      "topics": [
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Wat de migranten zelf in 1964 verwachtten",
+          "message": "Het woord werd bedacht door de ontvangende samenleving; de migranten zelf komen er niet in aan het woord."
+        },
+        {
+          "answer": "Hoeveel mensen er in totaal bleven",
+          "message": "Een woord zegt niets over aantallen."
+        }
+      ]
+    },
+    {
+      "id": "23-019",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Volgens het CBS kwamen tussen 1964 en 1973 ongeveer 225.000 migranten uit de wervingslanden naar Nederland. Hoeveel is dat gemiddeld per jaar, als je 1964 tot en met 1973 als tien jaar telt?",
+      "answer": 22500,
+      "hints": [
+        "Deel het totaal door het aantal jaren."
+      ],
+      "solution": [
+        "$225\\,000 / 10 = 22\\,500$ personen per jaar."
+      ],
+      "topics": [
+        "contemporary"
+      ],
+      "unit": "personen",
+      "feedback": [
+        {
+          "answer": 2250,
+          "message": "Je hebt een nul te weinig; 225.000 gedeeld door 10 is 22.500."
+        }
+      ]
+    },
+    {
+      "id": "23-020",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Hoe beschrijf je als historicus het debat over het essay “Het multiculturele drama” (2000) van Paul Scheffer het zorgvuldigst?",
+      "choices": [
+        "Door de argumenten en bronnen van voor- en tegenstanders weer te geven zonder zelf partij te kiezen",
+        "Door vast te stellen wie er volgens jouw huidige mening gelijk had",
+        "Door het essay buiten beschouwing te laten omdat het te recent is",
+        "Door alleen de argumenten van de tegenstanders te noemen"
+      ],
+      "answer": "Door de argumenten en bronnen van voor- en tegenstanders weer te geven zonder zelf partij te kiezen",
+      "hints": [
+        "Beschrijf het debat, beslis het niet."
+      ],
+      "solution": [
+        "Bij lopende politieke kwesties beschrijft de historicus de standpunten."
+      ],
+      "topics": [
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Door vast te stellen wie er volgens jouw huidige mening gelijk had",
+          "message": "Dat is presentisme gecombineerd met partijkeuze: je beoordeelt het verleden met je eigen standpunt van nu."
+        }
+      ]
+    },
+    {
+      "id": "23-021",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze stappen in de globalisering in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Eerste containerschip van McLean (Ideal X)",
+        "Economische hervormingen in China",
+        "Voorstel voor het World Wide Web bij CERN",
+        "Toetreding van China tot de WTO",
+        "Faillissement van Lehman Brothers"
+      ],
+      "hints": [
+        "De hervormingen in China vallen vóór het webvoorstel."
+      ],
+      "solution": [
+        "Ideal X: 1956. Hervormingen: december 1978. Webvoorstel: 1989. WTO: december 2001. Lehman: september 2008."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Eerste containerschip van McLean (Ideal X)",
+            "Voorstel voor het World Wide Web bij CERN",
+            "Economische hervormingen in China",
+            "Toetreding van China tot de WTO",
+            "Faillissement van Lehman Brothers"
+          ],
+          "message": "De Chinese hervormingen begonnen eind 1978, het webvoorstel was van 1989."
+        }
+      ]
+    },
+    {
+      "id": "23-022",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom is klimaatverandering een lastig onderwerp voor een afstandelijke geschiedschrijving?",
+      "choices": [
+        "Het proces loopt nog en de afloop is onbekend",
+        "Er bestaat geen wetenschappelijke kennis over",
+        "Historici mogen geen politieke onderwerpen behandelen",
+        "Het is geen mondiaal onderwerp"
+      ],
+      "answer": "Het proces loopt nog en de afloop is onbekend",
+      "hints": [
+        "Denk aan afstand."
+      ],
+      "solution": [
+        "Historici kunnen het ontstaan van het probleem beschrijven, maar niet de afloop."
+      ],
+      "topics": [
+        "contemporary"
+      ],
+      "feedback": [
+        {
+          "answer": "Er bestaat geen wetenschappelijke kennis over",
+          "message": "Er is veel kennis; het probleem is dat de historische uitkomst nog niet af is."
+        }
+      ]
+    },
+    {
+      "id": "23-023",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke uitspraak over oral history als bron is het meest zorgvuldig?",
+      "choices": [
+        "Ze levert bronnen op die nergens anders bestaan, maar herinneringen verschuiven en de interviewer stuurt",
+        "Ze is betrouwbaarder dan geschreven bronnen, omdat getuigen er zelf bij waren",
+        "Ze is onbruikbaar, omdat herinneringen altijd onjuist zijn",
+        "Ze is alleen geschikt voor onderwerpen uit de oudheid"
+      ],
+      "answer": "Ze levert bronnen op die nergens anders bestaan, maar herinneringen verschuiven en de interviewer stuurt",
+      "hints": [
+        "Bron én beperking."
+      ],
+      "solution": [
+        "Wie vertelt het, wanneer, aan wie en waarom?"
+      ],
+      "topics": [
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "Ze is betrouwbaarder dan geschreven bronnen, omdat getuigen er zelf bij waren",
+          "message": "Dit is het misverstand “primair is betrouwbaar”: een getuige ziet maar een deel en herinnert zich selectief."
+        },
+        {
+          "answer": "Ze is onbruikbaar, omdat herinneringen altijd onjuist zijn",
+          "message": "Herinneringen zijn niet waardeloos; je leest ze kritisch, zoals elke bron."
+        }
+      ]
+    },
+    {
+      "id": "23-024",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom noem je journalistiek “een eerste versie van de geschiedenis”?",
+      "choices": [
+        "Ze is onder tijdsdruk gemaakt door mensen die de afloop niet kenden, en geeft de ervaring van het moment weer",
+        "Ze is altijd waarheidsgetrouwer dan latere geschiedschrijving",
+        "Ze bevat nooit fouten omdat het nieuws is",
+        "Ze wordt door historici nooit gebruikt"
+      ],
+      "answer": "Ze is onder tijdsdruk gemaakt door mensen die de afloop niet kenden, en geeft de ervaring van het moment weer",
+      "hints": [
+        "De verslaggever kende de afloop niet."
+      ],
+      "solution": [
+        "Een eerste versie is bruikbaar voor het moment, niet als eindoordeel."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "Ze is altijd waarheidsgetrouwer dan latere geschiedschrijving",
+          "message": "Eerste berichten bevatten fouten die later worden hersteld."
+        }
+      ]
+    },
+    {
+      "id": "23-025",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Noem twee van de vijf problemen van recente geschiedenis (afstand, gesloten archieven, overvloed aan bronnen, betrokkenheid, onvoltooide gevolgen) en leg uit hoe je ze in een onderzoek naar de recente migratie naar Nederland zou aanpakken.",
+      "answer": "Bijvoorbeeld: bij betrokkenheid expliciet maken wat je eigen standpunt is en beide kampen in het debat horen; bij overvloed aan bronnen een duidelijke selectie maken en verantwoorden, aangevuld met interviews met migranten zelf.",
+      "hints": [
+        "Een maatregel is concreet: wat doe je, met welke bron?"
+      ],
+      "solution": [
+        "Kies twee problemen en geef per probleem een concrete maatregel.",
+        "Bij betrokkenheid: horen van alle kanten en eigen standpunt benoemen. Bij overvloed: selectiecriteria vooraf vastleggen en verantwoorden. Bij gesloten archieven: gebruik openbare bronnen en dien verzoeken in."
+      ],
+      "topics": [
+        "historiography",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "23-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is een historisch verstandige manier om de essays van Fukuyama (1989) en Huntington (1993) te gebruiken?",
+      "choices": [
+        "Als interpretaties van hun tijd en als bron voor hoe intellectuelen de wereld zagen, niet alleen als voorspellingen",
+        "Als bewijs dat een van beiden gelijk had",
+        "Als neutrale beschrijvingen van de feiten",
+        "Als overbodig, omdat ze te vroeg geschreven zijn"
+      ],
+      "answer": "Als interpretaties van hun tijd en als bron voor hoe intellectuelen de wereld zagen, niet alleen als voorspellingen",
+      "hints": [
+        "Voorspelling nakijken is één mogelijk gebruik."
+      ],
+      "solution": [
+        "Ze zijn zelf historische bronnen."
+      ],
+      "topics": [
+        "historiography"
+      ],
+      "feedback": [
+        {
+          "answer": "Als bewijs dat een van beiden gelijk had",
+          "message": "Dat veronderstelt dat je weet wat “gelijk hebben” betekent; ze doen verschillende soorten uitspraken."
+        },
+        {
+          "answer": "Als neutrale beschrijvingen van de feiten",
+          "message": "Beide zijn interpretaties met een eigen invalshoek."
+        }
+      ]
+    },
+    {
+      "id": "23-027",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom veranderde het beeld van de Koude Oorlog na 1991 in belangrijke mate?",
+      "choices": [
+        "Omdat archieven in Moskou en Oost-Europa toegankelijk werden",
+        "Omdat de Koude Oorlog korter bleek te zijn geweest",
+        "Omdat Fukuyama gelijk kreeg",
+        "Omdat westerse historici hun mening veranderden zonder nieuwe bronnen"
+      ],
+      "answer": "Omdat archieven in Moskou en Oost-Europa toegankelijk werden",
+      "hints": [
+        "Nieuwe bronnen veranderen interpretaties."
+      ],
+      "solution": [
+        "Boeken als We Now Know van Gaddis gebruikten de nieuwe stukken."
+      ],
+      "topics": [
+        "historiography"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat Fukuyama gelijk kreeg",
+          "message": "Het verband loopt via nieuwe bronnen, niet via één theorie."
+        }
+      ]
+    },
+    {
+      "id": "23-028",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Tony Judt publiceerde Postwar in 2005. Wat betekent dat voor een lezer die het boek nu gebruikt, en wat moet die lezer zelf doen?",
+      "answer": "Het overzicht houdt op bij 2005 en weerspiegelt de vragen van dat moment. De lezer moet nagaan wat er sindsdien is gebeurd en welke delen van het verhaal door nieuwe bronnen en vragen zijn bijgesteld.",
+      "hints": [
+        "Denk aan afstand en nieuwe bronnen."
+      ],
+      "solution": [
+        "Het boek is een bron én een interpretatie van 2005; het kent de latere gebeurtenissen niet.",
+        "De lezer vult het aan met latere literatuur en toetst de conclusies aan nieuwe bronnen."
+      ],
+      "topics": [
+        "historiography"
+      ]
+    },
+    {
+      "id": "23-029",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat kun je uit het fragment van Schabowski wel en niet afleiden?",
+      "choices": [
+        "Je weet wat hij zei, maar niet of hij wist dat de regeling pas de volgende dag zou ingaan",
+        "Je weet dat de Muur bewust werd opengesteld",
+        "Je weet dat hij het misverstand opzettelijk veroorzaakte",
+        "Je weet dat hij het besluit zelf had genomen"
+      ],
+      "answer": "Je weet wat hij zei, maar niet of hij wist dat de regeling pas de volgende dag zou ingaan",
+      "hints": [
+        "Een bron zegt wat er gezegd is, niet waarom."
+      ],
+      "solution": [
+        "Voor zijn kennis heb je notulen en getuigen nodig."
+      ],
+      "topics": [
+        "source-criticism"
+      ],
+      "context": "Fragment uit de persconferentie van Günter Schabowski, Oost-Berlijn, 9 november 1989 (vrij vertaald naar het fragment van de Bundesregierung): op de vraag vanaf wanneer de reisregeling gold, antwoordde hij dat het “voor zover ik weet … per direct, onmiddellijk” was.",
+      "feedback": [
+        {
+          "answer": "Je weet dat de Muur bewust werd opengesteld",
+          "message": "Het fragment laat een mededeling zien, niet een bewust besluit om de Muur te openen."
+        },
+        {
+          "answer": "Je weet dat hij het misverstand opzettelijk veroorzaakte",
+          "message": "Over zijn opzet zegt het fragment niets."
+        }
+      ]
+    },
+    {
+      "id": "23-030",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Bij het Brexit-referendum van 23 juni 2016 koos 51,9 procent voor vertrek en 48,1 procent voor blijven. Hoeveel procentpunten verschil is dat?",
+      "answer": 3.8,
+      "hints": [
+        "Trek de kleinste van de grootste af."
+      ],
+      "solution": [
+        "$51{,}9 - 48{,}1 = 3{,}8$ procentpunten."
+      ],
+      "topics": [
+        "contemporary"
+      ],
+      "unit": "procentpunten",
+      "tolerance": 0.01,
+      "feedback": [
+        {
+          "answer": 100,
+          "message": "Dat is de som van beide percentages."
+        }
+      ]
+    },
+    {
+      "id": "23-031",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Waarom kun je uit de uitslag van het referendum over de Europese grondwet in 2005 (61,5 procent tegen, opkomst 63,3 procent) niet afleiden dat “de Nederlanders” Europa afwezen?",
+      "answer": "De uitslag beschrijft wat de stemmers kozen over één ontwerp, niet waarom. Bijna 37 procent van de kiesgerechtigden stemde niet, en kiezers hadden verschillende redenen. Een conclusie over Europa in het algemeen gaat verder dan het cijfer.",
+      "hints": [
+        "Wat zegt een stem niet?"
+      ],
+      "solution": [
+        "Een cijfer beschrijft een keuze, niet het motief.",
+        "Kijk naar wie wel en niet stemde: 100 − 63,3 = 36,7 procent bleef thuis.",
+        "Het ging over één ontwerp, niet over Europa als geheel."
+      ],
+      "topics": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "23-032",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Kies één gebeurtenis uit de recente geschiedenis die in dit hoofdstuk voorkomt. Schrijf op wat je er zeker over kunt zeggen, wat alleen voorzichtig, en wat je nu nog niet kunt beantwoorden, met een reden.",
+      "answer": "Bijvoorbeeld voor Srebrenica: zeker is de val van de enclave op 11 juli 1995 en de moord op ruim 8.000 mannen en jongens; voorzichtig de verdeling van verantwoordelijkheid tussen betrokkenen; nog niet te beantwoorden wat nieuwe bronnen of procedures aan het beeld zullen veranderen.",
+      "hints": [
+        "Geef bij elk deel een reden."
+      ],
+      "solution": [
+        "Zeker: feiten met meerdere onafhankelijke bronnen.",
+        "Voorzichtig: interpretaties en verklaringen.",
+        "Niet te beantwoorden: wat afhangt van gesloten archieven of van toekomstige ontwikkelingen."
+      ],
+      "topics": [
+        "contemporary",
+        "interpretation"
+      ]
+    }
+  ]
+}

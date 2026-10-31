@@ -3,10 +3,10 @@
   "slug": "koude-oorlog-en-dekolonisatie",
   "title": "Koude Oorlog en dekolonisatie",
   "part": 7,
-  "status": "planned",
+  "status": "available",
   "historical_period": "1945 – 1991",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 210,
   "prerequisites": [
     1
   ],
@@ -17,5 +17,159 @@
   ],
   "core_question": "Hoe veranderde de wereldorde na 1945, en hoe werden koloniën onafhankelijk?",
   "summary": "De tweedeling van de wereld, de wapenwedloop, dekolonisatie in Azië en Afrika en de Indonesische onafhankelijkheidsoorlog.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Twee bronnen, vier jaar uit elkaar",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "het-ontstaan-van-de-koude-oorlog",
+      "title": "Het ontstaan van de Koude Oorlog",
+      "file": "02-het-ontstaan-van-de-koude-oorlog.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "wapenwedloop-en-crises",
+      "title": "Wapenwedloop, crises en het einde",
+      "file": "03-wapenwedloop-en-crises.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "indonesie-1945-1949",
+      "title": "Indonesië, 1945 tot 1949",
+      "file": "04-indonesie-1945-1949.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "dekolonisatie-en-koude-oorlog",
+      "title": "Dekolonisatie en Koude Oorlog verweven",
+      "file": "05-dekolonisatie-en-koude-oorlog.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum: wie besliste over Indonesië?",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt de stappen van het ontstaan van de Koude Oorlog tussen 1945 en 1955 in volgorde zetten en uitleggen hoe ze samenhangen.",
+    "Je kunt bij een crisis kortetermijn- en langetermijnoorzaken scheiden en wegen.",
+    "Je kunt uitleggen hoe wapenwedloop, crises en ontspanning elkaar tussen 1949 en 1991 afwisselden.",
+    "Je kunt de Indonesische onafhankelijkheidsoorlog beschrijven vanuit Nederlands, Indonesisch en Moluks perspectief.",
+    "Je kunt uitleggen hoe dekolonisatie en Koude Oorlog elkaar beïnvloedden, aan de hand van India, Ghana, Algerije, Congo en Suriname.",
+    "Je kunt orthodoxe, revisionistische en post-revisionistische verklaringen van de Koude Oorlog herkennen en plaatsen.",
+    "Je kunt bronnen over Indonesië analyseren op herkomst, context en bruikbaarheid en benoemen welke termen een standpunt dragen."
+  ],
+  "glossary": [
+    {
+      "term": "Koude Oorlog",
+      "definition": "De rivaliteit tussen de Verenigde Staten en de Sovjet-Unie van 1945 tot 1991, zonder een open oorlog tussen die twee."
+    },
+    {
+      "term": "Dekolonisatie",
+      "definition": "Het proces waarbij koloniën zelfstandige staten worden."
+    },
+    {
+      "term": "Containment",
+      "definition": "Indamming: het Amerikaanse beleid om de verdere uitbreiding van het communisme te stoppen."
+    },
+    {
+      "term": "Proxyoorlog",
+      "definition": "Een lokaal conflict waarin twee grote mogendheden elk een partij steunen, zonder rechtstreeks tegen elkaar te vechten."
+    },
+    {
+      "term": "Niet-gebonden landen",
+      "definition": "Landen die tijdens de Koude Oorlog geen lid wilden worden van een van de militaire blokken."
+    },
+    {
+      "term": "Politionele acties",
+      "definition": "De Nederlandse regeringsterm voor de twee grote militaire offensieven in Indonesië in 1947 en 1948."
+    },
+    {
+      "term": "Bersiap",
+      "definition": "Nederlandse term voor de periode van geweld in Indonesië vanaf oktober 1945, vooral tegen Nederlanders, Indo-Europeanen en anderen; de term is omstreden."
+    },
+    {
+      "term": "Soevereiniteitsoverdracht",
+      "definition": "De formele overdracht van de zeggenschap over een gebied, hier op 27 december 1949 aan Indonesië."
+    },
+    {
+      "term": "Revisionisme",
+      "definition": "In de geschiedschrijving van de Koude Oorlog: de stroming die ook de Amerikaanse rol en motieven als oorzaak zag."
+    },
+    {
+      "term": "Wapenwedloop",
+      "definition": "Het streven van staten om elkaar in wapens, vooral kernwapens, voor te blijven."
+    }
+  ],
+  "timeline": [
+    "fulton-ijzeren-gordijn-1946",
+    "trumandoctrine-1947",
+    "marshallplan-1947",
+    "onafhankelijkheid-india-pakistan-1947",
+    "proclamatie-indonesie-1945",
+    "eerste-politionele-actie-1947",
+    "tweede-politionele-actie-1948",
+    "berlijnse-blokkade-1948",
+    "navo-opgericht-1949",
+    "sovjet-atoombom-1949",
+    "soevereiniteitsoverdracht-indonesie-1949",
+    "koreaoorlog-1950",
+    "bandung-conferentie-1955",
+    "warschaupact-1955",
+    "hongaarse-opstand-1956",
+    "ghana-onafhankelijk-1957",
+    "congo-onafhankelijk-1960",
+    "berlijnse-muur-1961",
+    "cubacrisis-1962",
+    "nieuw-guinea-1962",
+    "algerije-onafhankelijk-1962",
+    "praagse-lente-1968",
+    "excessennota-1969",
+    "onafhankelijkheid-suriname-1975",
+    "kruisrakettendemonstratie-1983",
+    "inf-verdrag-1987",
+    "val-berlijnse-muur-1989",
+    "einde-sovjet-unie-1991",
+    "williams-tragedy-1959",
+    "gaddis-we-now-know-1997",
+    "westad-global-cold-war-2005",
+    "limpach-brandende-kampongs-2016",
+    "over-de-grens-2022"
+  ],
+  "people": [
+    "soekarno",
+    "hatta",
+    "churchill",
+    "truman",
+    "kennedy",
+    "chroesjtsjov",
+    "michail-gorbatsjov",
+    "nehru",
+    "nkrumah",
+    "lumumba",
+    "william-appleman-williams",
+    "arthur-schlesinger",
+    "john-lewis-gaddis",
+    "odd-arne-westad",
+    "remy-limpach",
+    "loe-de-jong",
+    "stalin"
+  ]
 }

@@ -1,0 +1,1024 @@
+{
+  "exercises": [
+    {
+      "id": "20-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke gebeurtenis was op 3 september 1939 voor Groot-Brittannië en Frankrijk aanleiding om Duitsland de oorlog te verklaren?",
+      "choices": [
+        "De Duitse inval in Polen op 1 september 1939",
+        "De Duitse inval in Nederland in mei 1940",
+        "De Japanse aanval op Pearl Harbor",
+        "De Duitse inval in de Sovjet-Unie"
+      ],
+      "answer": "De Duitse inval in Polen op 1 september 1939",
+      "hints": [
+        "Beide landen hadden Polen een garantie gegeven."
+      ],
+      "solution": [
+        "Op 1 september 1939 viel Duitsland Polen binnen; twee dagen later volgden de oorlogsverklaringen."
+      ],
+      "topics": [
+        "twentieth-century",
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": "De Duitse inval in Nederland in mei 1940",
+          "message": "Die inval kwam pas acht maanden later, in mei 1940."
+        },
+        {
+          "answer": "De Japanse aanval op Pearl Harbor",
+          "message": "Pearl Harbor was in december 1941, ruim twee jaar later."
+        }
+      ]
+    },
+    {
+      "id": "20-002",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Duitse inval in Polen",
+        "Duitse aanval op Nederland",
+        "Duitse inval in de Sovjet-Unie",
+        "Japanse aanval op Pearl Harbor",
+        "Landing in Normandië (D-Day)"
+      ],
+      "hints": [
+        "Pearl Harbor viel in december 1941, de inval in de Sovjet-Unie in juni van dat jaar."
+      ],
+      "solution": [
+        "Polen: 1 september 1939. Nederland: 10 mei 1940. Sovjet-Unie: 22 juni 1941. Pearl Harbor: 7 december 1941. D-Day: 6 juni 1944."
+      ],
+      "topics": [
+        "chronology",
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Duitse inval in Polen",
+            "Duitse aanval op Nederland",
+            "Japanse aanval op Pearl Harbor",
+            "Duitse inval in de Sovjet-Unie",
+            "Landing in Normandië (D-Day)"
+          ],
+          "message": "Operatie Barbarossa (juni 1941) ging vooraf aan Pearl Harbor (december 1941)."
+        }
+      ]
+    },
+    {
+      "id": "20-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Sommige historici laten de Tweede Wereldoorlog in 1937 beginnen, anderen in 1939 of 1941. Wat verklaart dat verschil het best?",
+      "choices": [
+        "Ze hanteren een ander criterium voor wat de wereldoorlog is: het Europese conflict, de oorlog in Azië of het samensmelten van beide",
+        "Sommigen hebben zich vergist in de datum van de Duitse inval in Polen",
+        "Alleen de datum van 1939 is op bronnen gebaseerd; de andere zijn verzonnen",
+        "Het gaat om verschillende oorlogen die niets met elkaar te maken hadden"
+      ],
+      "answer": "Ze hanteren een ander criterium voor wat de wereldoorlog is: het Europese conflict, de oorlog in Azië of het samensmelten van beide",
+      "hints": [
+        "Denk aan periodisering: elk beginpunt hoort bij een eigen definitie."
+      ],
+      "solution": [
+        "Periodiseren is een keuze op basis van een criterium. 1937 (China), 1939 (Europa) en 1941 (samensmelting) zijn alle drie verdedigbaar."
+      ],
+      "topics": [
+        "chronology",
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": "Alleen de datum van 1939 is op bronnen gebaseerd; de andere zijn verzonnen",
+          "message": "Alle drie de data berusten op bronnen. Ze verschillen in wat ze als begin van de 'wereldoorlog' tellen."
+        },
+        {
+          "answer": "Het gaat om verschillende oorlogen die niets met elkaar te maken hadden",
+          "message": "In december 1941 raakten de oorlogen in Europa en Azië juist met elkaar verbonden."
+        }
+      ]
+    },
+    {
+      "id": "20-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Japan bezette Java vanaf de capitulatie van het Nederlands-Indische leger op 8 maart 1942 tot de Japanse capitulatie in augustus 1945. Hoeveel hele maanden duurde dat ongeveer, van maart 1942 tot augustus 1945?",
+      "answer": 41,
+      "hints": [
+        "Tel eerst de hele jaren van maart 1942 tot maart 1945.",
+        "Tel daarna de maanden van maart tot augustus erbij."
+      ],
+      "solution": [
+        "Van maart 1942 tot maart 1945 is 36 maanden.",
+        "Van maart tot augustus is 5 maanden, dus samen 41 maanden."
+      ],
+      "topics": [
+        "twentieth-century"
+      ],
+      "unit": "maanden",
+      "feedback": [
+        {
+          "answer": 36,
+          "message": "Je telde alleen de drie hele jaren; de maanden van maart tot augustus 1945 komen erbij."
+        },
+        {
+          "answer": 42,
+          "message": "Je telde een maand te veel: van maart tot augustus zijn het 5 maanden."
+        }
+      ]
+    },
+    {
+      "id": "20-005",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat waren romusha in de Japanse bezetting van Nederlands-Indië?",
+      "choices": [
+        "Indonesiërs die als dwangarbeiders werden ingezet",
+        "Nederlandse krijgsgevangenen in een Japans kamp",
+        "Japanse soldaten die de lokale bevolking bestuurden",
+        "Indonesische nationalisten die door Japan werden bewapend"
+      ],
+      "answer": "Indonesiërs die als dwangarbeiders werden ingezet",
+      "hints": [
+        "Het woord betekent 'arbeider'."
+      ],
+      "solution": [
+        "Romusha waren dwangarbeiders, vooral Indonesiërs, die onder zware omstandigheden werkten."
+      ],
+      "topics": [
+        "twentieth-century",
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Nederlandse krijgsgevangenen in een Japans kamp",
+          "message": "Dat waren geïnterneerden en krijgsgevangenen; romusha waren vooral Indonesische arbeiders."
+        },
+        {
+          "answer": "Indonesische nationalisten die door Japan werden bewapend",
+          "message": "Dat is een andere groep: Japan steunde ook nationalistische organisaties, maar dat zijn geen romusha."
+        }
+      ]
+    },
+    {
+      "id": "20-006",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Leg uit waarom de oorlog in Europa en de oorlog in Azië pas in december 1941 samen als wereldoorlog worden gezien, terwijl ze eerder los van elkaar begonnen.",
+      "answer": "Het Europese conflict (vanaf 1939) en de oorlog in China (vanaf 1937) hadden aparte oorsprong. Door de Japanse aanval op Pearl Harbor en de Duitse oorlogsverklaring aan de Verenigde Staten (11 december 1941) raakten dezelfde grootmachten in beide oorlogen verwikkeld.",
+      "hints": [
+        "Noem eerst twee aparte oorsprongen.",
+        "Noem dan wat de gebeurtenissen van december 1941 veranderden."
+      ],
+      "solution": [
+        "Twee aparte conflicten met eigen oorsprong: Europa en China.",
+        "Pearl Harbor en de oorlogsverklaringen van december 1941 verbonden de bondgenootschappen.",
+        "Daardoor spreken we pas dan van één wereldoorlog."
+      ],
+      "topics": [
+        "twentieth-century",
+        "causation"
+      ]
+    },
+    {
+      "id": "20-007",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een leerling schrijft: 'Op 8 mei 1945 was de oorlog voorbij.' Waarom is dat voor Nederlands-Indië onjuist?",
+      "choices": [
+        "In Azië ging de oorlog door tot augustus en september 1945",
+        "Nederlands-Indië was al in 1944 bevrijd",
+        "Japan capituleerde al in april 1945",
+        "Nederlands-Indië deed niet mee aan de oorlog"
+      ],
+      "answer": "In Azië ging de oorlog door tot augustus en september 1945",
+      "hints": [
+        "Denk aan de atoombommen op Hiroshima en Nagasaki."
+      ],
+      "solution": [
+        "De Duitse capitulatie gold voor Europa. Japan capituleerde pas na de atoombommen, met de formele overgave op 2 september 1945."
+      ],
+      "topics": [
+        "twentieth-century",
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Nederlands-Indië was al in 1944 bevrijd",
+          "message": "De archipel bleef tot de Japanse capitulatie in 1945 bezet."
+        },
+        {
+          "answer": "Nederlands-Indië deed niet mee aan de oorlog",
+          "message": "Het werd begin 1942 door Japan aangevallen en bezet."
+        }
+      ]
+    },
+    {
+      "id": "20-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wie bestuurde Nederland tijdens de Duitse bezetting namens Hitler?",
+      "choices": [
+        "De Rijkscommissaris Arthur Seyss-Inquart, met een civiel bestuur",
+        "Een Duitse militaire gouverneur, zoals in België",
+        "Anton Mussert als regeringsleider",
+        "De Nederlandse regering in Londen"
+      ],
+      "answer": "De Rijkscommissaris Arthur Seyss-Inquart, met een civiel bestuur",
+      "hints": [
+        "Het verschil met België was dat het bestuur hier niet militair was."
+      ],
+      "solution": [
+        "Nederland kreeg een civiel bestuur onder de Rijkscommissaris Seyss-Inquart."
+      ],
+      "topics": [
+        "twentieth-century",
+        "contextualisation"
+      ],
+      "feedback": [
+        {
+          "answer": "Anton Mussert als regeringsleider",
+          "message": "Mussert kreeg in 1942 een titel, maar geen echte macht."
+        },
+        {
+          "answer": "Een Duitse militaire gouverneur, zoals in België",
+          "message": "In België was er militair bestuur; Nederland kreeg een civiel bestuur."
+        }
+      ]
+    },
+    {
+      "id": "20-009",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze maatregelen en gebeurtenissen in Nederland in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Ariërverklaring voor ambtenaren",
+        "Registratie van alle Joden",
+        "Februaristaking",
+        "Jodenster verplicht",
+        "Eerste transport vanuit Westerbork naar Auschwitz"
+      ],
+      "hints": [
+        "De Februaristaking was een reactie op de razzia's van februari 1941."
+      ],
+      "solution": [
+        "Oktober 1940, januari 1941, februari 1941, 3 mei 1942, 15 juli 1942."
+      ],
+      "topics": [
+        "chronology",
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Ariërverklaring voor ambtenaren",
+            "Februaristaking",
+            "Registratie van alle Joden",
+            "Jodenster verplicht",
+            "Eerste transport vanuit Westerbork naar Auschwitz"
+          ],
+          "message": "De registratie (januari 1941) ging vooraf aan de Februaristaking (februari 1941)."
+        }
+      ]
+    },
+    {
+      "id": "20-010",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom is de volgorde registratie, ster en deportatie voor historici een belangrijk gegeven?",
+      "choices": [
+        "Elke stap maakte de volgende gemakkelijker uitvoerbaar: wie geregistreerd en herkenbaar was, kon worden opgespoord",
+        "De volgorde was toeval en zegt niets over de bedoeling van de bezetter",
+        "De bezetter wilde de Joden eerst laten wennen aan het idee van deportatie",
+        "Alleen de laatste stap, de deportatie, was van belang"
+      ],
+      "answer": "Elke stap maakte de volgende gemakkelijker uitvoerbaar: wie geregistreerd en herkenbaar was, kon worden opgespoord",
+      "hints": [
+        "Denk aan wat een lijst met namen mogelijk maakt."
+      ],
+      "solution": [
+        "Registratie en herkenbaarheid maakten opsporing mogelijk; de stappen bouwden op elkaar voort."
+      ],
+      "topics": [
+        "twentieth-century",
+        "causation"
+      ],
+      "context": "Samenvatting (parafrase): in 1940 volgde ontslag, in januari 1941 registratie, in 1942 de Jodenster en daarna de deportaties.",
+      "feedback": [
+        {
+          "answer": "De volgorde was toeval en zegt niets over de bedoeling van de bezetter",
+          "message": "Het patroon van opeenvolgende stappen is in de literatuur juist een kernbevinding."
+        },
+        {
+          "answer": "Alleen de laatste stap, de deportatie, was van belang",
+          "message": "Zonder de eerdere stappen was de deportatie veel moeilijker geweest."
+        }
+      ]
+    },
+    {
+      "id": "20-011",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Volgens de gangbare schatting werden ongeveer 102.000 van de ongeveer 140.000 Joden in Nederland vermoord. Welk percentage is dat, afgerond op hele procenten?",
+      "answer": 73,
+      "hints": [
+        "Deel 102.000 door 140.000.",
+        "Vermenigvuldig het resultaat met 100."
+      ],
+      "solution": [
+        "102.000 / 140.000 = 0,7286.",
+        "Afgerond is dat 73 procent."
+      ],
+      "topics": [
+        "twentieth-century"
+      ],
+      "unit": "%",
+      "feedback": [
+        {
+          "answer": 75,
+          "message": "Dat is de ruwe aanduiding 'driekwart'; gevraagd is de afronding van de deling zelf."
+        },
+        {
+          "answer": 27,
+          "message": "Dat is het percentage dat niet werd vermoord."
+        }
+      ]
+    },
+    {
+      "id": "20-012",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waartegen was de Februaristaking van 25 en 26 februari 1941 vooral een protest?",
+      "choices": [
+        "Tegen de razzia's op Joodse mannen in Amsterdam",
+        "Tegen de verplichte arbeidsdienst in Duitsland",
+        "Tegen het inleveren van de radiotoestellen",
+        "Tegen het ontslag van Joodse hoogleraren in Leiden"
+      ],
+      "answer": "Tegen de razzia's op Joodse mannen in Amsterdam",
+      "hints": [
+        "De staking kwam een paar dagen na de razzia's."
+      ],
+      "solution": [
+        "De staking was een reactie op de razzia's in Amsterdam, waarbij Joodse mannen werden opgepakt."
+      ],
+      "topics": [
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": "Tegen de verplichte arbeidsdienst in Duitsland",
+          "message": "Dat was de aanleiding voor de aprilmeistakingen van 1943."
+        },
+        {
+          "answer": "Tegen het inleveren van de radiotoestellen",
+          "message": "Dat gebeurde pas in 1943."
+        },
+        {
+          "answer": "Tegen het ontslag van Joodse hoogleraren in Leiden",
+          "message": "Daartegen sprak Cleveringa in november 1940, maar dat was geen staking."
+        }
+      ]
+    },
+    {
+      "id": "20-013",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een leerling schrijft: 'De NSB had in 1941 ongeveer 100.000 leden, dus de meeste Nederlanders steunden de bezetter.' Wat is er mis met die redenering? Gebruik minstens twee argumenten.",
+      "answer": "Het aantal leden is een kleine minderheid van de bevolking van bijna negen miljoen. Lidmaatschap van de NSB is ook niet hetzelfde als steun voor de bezetter, en niet-lid zijn is niet hetzelfde als verzet. Dat de meerderheid zich aanpaste, zegt iets over gedrag, niet over overtuiging.",
+      "hints": [
+        "Vergelijk het ledental met de hele bevolking.",
+        "Denk aan het onderscheid tussen overtuiging en gedrag."
+      ],
+      "solution": [
+        "100.000 leden zijn ruim 1 procent van de bevolking.",
+        "Een conclusie over 'de meeste Nederlanders' vraagt andere bronnen dan het ledental van één partij."
+      ],
+      "topics": [
+        "twentieth-century",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "20-014",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je wilt vaststellen hoeveel mensen in januari 1941 als Jood werden geregistreerd. Welke bron is daarvoor het meest geschikt?",
+      "choices": [
+        "De registratiegegevens van de bezetter en het bevolkingsregister van die tijd",
+        "Een dagboek van een onderduiker",
+        "Een schoolboek uit 1990",
+        "Een filmfragment uit het kamp Westerbork"
+      ],
+      "answer": "De registratiegegevens van de bezetter en het bevolkingsregister van die tijd",
+      "hints": [
+        "Je zoekt een telling, geen indruk."
+      ],
+      "solution": [
+        "Voor een aantal heb je de administratie nodig die de telling maakte. Een dagboek geeft indrukken, geen totalen."
+      ],
+      "topics": [
+        "sources",
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": "Een dagboek van een onderduiker",
+          "message": "Een dagboek laat zien wat één persoon meemaakte, niet hoeveel mensen werden geregistreerd."
+        },
+        {
+          "answer": "Een schoolboek uit 1990",
+          "message": "Een schoolboek is een secundaire bron die zelf op de telling steunt."
+        }
+      ]
+    },
+    {
+      "id": "20-015",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat waren de Einsatzgruppen?",
+      "choices": [
+        "Mobiele eenheden van SS en politie die vanaf juni 1941 in het bezette Oost-Europa mensen, vooral Joden, doodschoten",
+        "Duitse onderzeeërflotilles die geallieerde schepen aanvielen",
+        "Nederlandse hulppolitie die onderduikers opspoorde",
+        "Het bestuur van de vernietigingskampen"
+      ],
+      "answer": "Mobiele eenheden van SS en politie die vanaf juni 1941 in het bezette Oost-Europa mensen, vooral Joden, doodschoten",
+      "hints": [
+        "Ze volgden het Duitse leger in de Sovjet-Unie."
+      ],
+      "solution": [
+        "De Einsatzgruppen volgden de Wehrmacht en vermoordden ter plekke burgers, vooral Joden."
+      ],
+      "topics": [
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": "Nederlandse hulppolitie die onderduikers opspoorde",
+          "message": "Dat beschrijft eerder groepen als de Henneicke-colonne."
+        },
+        {
+          "answer": "Het bestuur van de vernietigingskampen",
+          "message": "Dat was een andere organisatie binnen de SS."
+        }
+      ]
+    },
+    {
+      "id": "20-016",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Zet deze stappen van de moord op de Joden in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Begin van de massale executies door Einsatzgruppen",
+        "Begin van de moord met gas in Chełmno",
+        "Wannsee-conferentie",
+        "Eerste transport uit Westerbork naar Auschwitz",
+        "Transporten uit Westerbork naar Sobibor"
+      ],
+      "hints": [
+        "Chełmno begon in december 1941, de Wannsee-conferentie in januari 1942."
+      ],
+      "solution": [
+        "Juni 1941, december 1941, januari 1942, juli 1942, maart tot juli 1943."
+      ],
+      "topics": [
+        "chronology",
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Begin van de massale executies door Einsatzgruppen",
+            "Wannsee-conferentie",
+            "Begin van de moord met gas in Chełmno",
+            "Eerste transport uit Westerbork naar Auschwitz",
+            "Transporten uit Westerbork naar Sobibor"
+          ],
+          "message": "Chełmno (december 1941) ging vooraf aan de Wannsee-conferentie (januari 1942)."
+        }
+      ]
+    },
+    {
+      "id": "20-017",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Hoe leest een historicus het eufemistische taalgebruik in het Wannsee-protocol, waarin sprake is van 'evacuatie' en arbeid?",
+      "choices": [
+        "Naast ander bewijs, zoals de Einsatzgruppen-verslagen en de transporten, waaruit blijkt dat de eufemismen de moord verhulden",
+        "Letterlijk: het protocol bewijst dat het alleen om arbeid ging",
+        "Als bewijs dat er geen plan voor moord bestond omdat het woord ontbreekt",
+        "Als een vervalsing van na de oorlog"
+      ],
+      "answer": "Naast ander bewijs, zoals de Einsatzgruppen-verslagen en de transporten, waaruit blijkt dat de eufemismen de moord verhulden",
+      "hints": [
+        "Een bron lees je met andere bronnen."
+      ],
+      "solution": [
+        "Het ontbreken van het woord moord bewijst niet dat het niet bedoeld was. Samen met ander bewijs wordt duidelijk wat er werd bedoeld."
+      ],
+      "topics": [
+        "source-criticism",
+        "interpretation",
+        "twentieth-century"
+      ],
+      "context": "Fragment (vrij vertaald naar de Engelse vertaling van het Wannsee-protocol): 'Arbeidsgeschikte Joden zullen in grote kolonnes naar het oosten worden gebracht om aan wegen te werken.'",
+      "feedback": [
+        {
+          "answer": "Letterlijk: het protocol bewijst dat het alleen om arbeid ging",
+          "message": "Andere bronnen, zoals de verslagen van de Einsatzgruppen, laten zien dat de moord al was begonnen."
+        },
+        {
+          "answer": "Als bewijs dat er geen plan voor moord bestond omdat het woord ontbreekt",
+          "message": "Eufemisme was bij zulke documenten gebruikelijk; het ontbreken van een woord is geen bewijs."
+        },
+        {
+          "answer": "Als een vervalsing van na de oorlog",
+          "message": "Het protocol is een authentiek document dat in 1947 werd teruggevonden."
+        }
+      ]
+    },
+    {
+      "id": "20-018",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat was de functie van kamp Westerbork vanaf juli 1942?",
+      "choices": [
+        "Doorgangskamp: vanuit Westerbork werden mensen per trein naar vernietigingskampen en andere kampen gevoerd",
+        "Vernietigingskamp met gaskamers",
+        "Werkkamp voor Nederlandse verzetsmensen",
+        "Krijgsgevangenenkamp voor geallieerde soldaten"
+      ],
+      "answer": "Doorgangskamp: vanuit Westerbork werden mensen per trein naar vernietigingskampen en andere kampen gevoerd",
+      "hints": [
+        "Het woord 'Durchgangslager' geeft het antwoord."
+      ],
+      "solution": [
+        "Westerbork was een doorgangskamp; de moord vond elders plaats."
+      ],
+      "topics": [
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": "Vernietigingskamp met gaskamers",
+          "message": "In Westerbork zelf werd niet systematisch gedood; het was een doorgangskamp."
+        },
+        {
+          "answer": "Werkkamp voor Nederlandse verzetsmensen",
+          "message": "Het kamp was vooral voor Joden en Sinti en Roma, die vandaar werden weggevoerd."
+        }
+      ]
+    },
+    {
+      "id": "20-019",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Volgens Herinneringscentrum Kamp Westerbork werden 34.313 mensen naar Sobibor gedeporteerd, van wie er 18 terugkeerden. Hoeveel van hen kwamen om?",
+      "answer": 34295,
+      "hints": [
+        "Trek het aantal teruggekeerden af van het totaal."
+      ],
+      "solution": [
+        "34.313 - 18 = 34.295."
+      ],
+      "topics": [
+        "twentieth-century"
+      ],
+      "unit": "personen",
+      "feedback": [
+        {
+          "answer": 18,
+          "message": "Dat is het aantal overlevenden; gevraagd wordt hoeveel er omkwamen."
+        }
+      ]
+    },
+    {
+      "id": "20-020",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Het Wannsee-protocol noemt voor Nederland 160.800 Joden. De registratie van januari 1941 telde ongeveer 140.000 mensen die volgens de Duitse definitie als Jood golden. Hoe groot is het verschil tussen deze twee getallen?",
+      "answer": 20800,
+      "hints": [
+        "Trek het kleinste getal af van het grootste."
+      ],
+      "solution": [
+        "160.800 - 140.000 = 20.800. Het verschil is mogelijk deels te verklaren uit een verschil in definitie."
+      ],
+      "topics": [
+        "sources",
+        "twentieth-century"
+      ],
+      "unit": "personen",
+      "feedback": [
+        {
+          "answer": 300800,
+          "message": "Je hebt de getallen opgeteld in plaats van afgetrokken."
+        }
+      ]
+    },
+    {
+      "id": "20-021",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Leg uit waarom het Wannsee-protocol een bron is over de coördinatie van de moord op de Joden, maar niet het moment van het besluit aanwijst.",
+      "answer": "Het protocol is opgesteld in januari 1942, toen de Einsatzgruppen al maanden moordden en Chełmno al in werking was. Het regelt de medewerking van instanties en noemt aantallen en methoden in eufemistische taal. Het is dus een document uit een lopend proces, geen verslag van een eerste beslissing.",
+      "hints": [
+        "Vergelijk de datum van het protocol met die van de Einsatzgruppen."
+      ],
+      "solution": [
+        "Het protocol is een bewerkte samenvatting van een bijeenkomst over coördinatie.",
+        "Het besluit moet uit andere bronnen worden afgeleid."
+      ],
+      "topics": [
+        "source-criticism",
+        "interpretation",
+        "twentieth-century"
+      ]
+    },
+    {
+      "id": "20-022",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke uitspraak over de kennis van de Nederlandse bevolking in 1942 past het best bij de bronnen?",
+      "choices": [
+        "Berichten over massamoord waren beschikbaar, maar onvolledig, tegenstrijdig en voor velen moeilijk te geloven",
+        "Niemand kon iets over de moord weten omdat alle kranten verboden waren",
+        "Iedereen wist precies wat er in Auschwitz gebeurde",
+        "Berichten over de moord bestonden pas na de bevrijding"
+      ],
+      "answer": "Berichten over massamoord waren beschikbaar, maar onvolledig, tegenstrijdig en voor velen moeilijk te geloven",
+      "hints": [
+        "Denk aan de BBC, Radio Oranje en de geruststellende bezettersberichten."
+      ],
+      "solution": [
+        "Informatie was beschikbaar voor wie ernaar zocht; wat men ermee deed, verschilde."
+      ],
+      "topics": [
+        "perspective",
+        "sources",
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": "Niemand kon iets over de moord weten omdat alle kranten verboden waren",
+          "message": "Er waren buitenlandse zenders en enkele illegale bladen."
+        },
+        {
+          "answer": "Iedereen wist precies wat er in Auschwitz gebeurde",
+          "message": "De berichten waren onvolledig en de omvang was moeilijk te geloven."
+        }
+      ]
+    },
+    {
+      "id": "20-023",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat kun je uit deze aantekening afleiden over wat mensen in 1942 wisten?",
+      "choices": [
+        "Dat in een onderduikgezin met een radio in oktober 1942 informatie over vergassing binnenkwam; of heel Nederland dat wist, volgt er niet uit",
+        "Dat alle Nederlanders in oktober 1942 van vergassingen wisten",
+        "Dat de BBC nog niets over vergassing meldde",
+        "Dat de aantekening later is toegevoegd en dus onbruikbaar is"
+      ],
+      "answer": "Dat in een onderduikgezin met een radio in oktober 1942 informatie over vergassing binnenkwam; of heel Nederland dat wist, volgt er niet uit",
+      "hints": [
+        "Let op wie de schrijver is en wat ze niet zegt."
+      ],
+      "solution": [
+        "Eén dagboek geeft één perspectief. Het toont beschikbaarheid, niet algemene kennis."
+      ],
+      "topics": [
+        "sources",
+        "interpretation",
+        "twentieth-century"
+      ],
+      "context": "Parafrase van een aantekening van Anne Frank, 9 oktober 1942: de Engelse radio spreekt over vergassing.",
+      "feedback": [
+        {
+          "answer": "Dat alle Nederlanders in oktober 1942 van vergassingen wisten",
+          "message": "Eén dagboek is geen bewijs voor heel Nederland."
+        },
+        {
+          "answer": "Dat de BBC nog niets over vergassing meldde",
+          "message": "De aantekening zegt juist dat de Engelse radio erover sprak."
+        }
+      ]
+    },
+    {
+      "id": "20-024",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat was het gevolg van het inleveren van alle radiotoestellen in mei 1943?",
+      "choices": [
+        "De toegang tot buitenlandse berichten werd veel kleiner, al hielden sommigen een toestel verborgen",
+        "Alle Nederlanders konden vanaf toen vrij naar Londen luisteren",
+        "Radio Oranje werd door de bezetter overgenomen",
+        "Het verbod gold alleen voor Joden"
+      ],
+      "answer": "De toegang tot buitenlandse berichten werd veel kleiner, al hielden sommigen een toestel verborgen",
+      "hints": [
+        "Wie zijn radio inleverde, kon niet meer naar Londen luisteren."
+      ],
+      "solution": [
+        "De maatregel verkleinde de toegang tot buitenlands nieuws."
+      ],
+      "topics": [
+        "sources",
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": "Alle Nederlanders konden vanaf toen vrij naar Londen luisteren",
+          "message": "Het was juist een beperking."
+        },
+        {
+          "answer": "Het verbod gold alleen voor Joden",
+          "message": "De maatregel gold voor de hele bevolking; voor Joden golden eerder al aparte beperkingen."
+        }
+      ]
+    },
+    {
+      "id": "20-025",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen rond de Hongerwinter in volgorde van oorzaak naar gevolg, de oudste eerst.",
+      "answer": [
+        "Spoorwegstaking in september 1944",
+        "Duits embargo op voedseltransporten naar het westen",
+        "Strenge winter met honger in de grote steden",
+        "Voedseldroppings in april en mei 1945",
+        "Capitulatie van de Duitse troepen in Nederland"
+      ],
+      "hints": [
+        "De staking ging vooraf aan het embargo."
+      ],
+      "solution": [
+        "Staking (september 1944), embargo (herfst 1944), hongerwinter (winter 1944-1945), droppings (april-mei 1945), capitulatie (5 mei 1945)."
+      ],
+      "topics": [
+        "causation",
+        "chronology",
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Duits embargo op voedseltransporten naar het westen",
+            "Spoorwegstaking in september 1944",
+            "Strenge winter met honger in de grote steden",
+            "Voedseldroppings in april en mei 1945",
+            "Capitulatie van de Duitse troepen in Nederland"
+          ],
+          "message": "Het embargo was een reactie op de staking, niet andersom."
+        }
+      ]
+    },
+    {
+      "id": "20-026",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De familie Frank dook op 6 juli 1942 onder en werd op 4 augustus 1944 gearresteerd. Hoeveel hele maanden zaten ze ondergedoken? Een maand telt pas als hij vol is.",
+      "answer": 24,
+      "hints": [
+        "Tel de hele jaren van 6 juli 1942 tot 6 juli 1944.",
+        "Het stuk van 6 juli tot 4 augustus is korter dan een maand."
+      ],
+      "solution": [
+        "Van 6 juli 1942 tot 6 juli 1944 is 24 maanden.",
+        "Het restant tot 4 augustus is minder dan een volle maand."
+      ],
+      "topics": [
+        "twentieth-century"
+      ],
+      "unit": "maanden",
+      "feedback": [
+        {
+          "answer": 25,
+          "message": "Het restant van 6 juli tot 4 augustus 1944 is geen volle maand."
+        }
+      ]
+    },
+    {
+      "id": "20-027",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een tijdgenoot schrijft na de oorlog: 'Wij wisten er niets van.' Beschrijf hoe je als historicus onderzoekt of dat klopt, en hoe zeker je conclusie kan zijn.",
+      "answer": "Je onderscheidt wat beschikbaar was (BBC, Radio Oranje, illegale bladen, geruchten) van wat iemand wist, geloofde en begreep. Je zoekt gelijktijdige bronnen van mensen in een vergelijkbare positie (dagboeken, brieven) en vergelijkt ze met herinneringen achteraf, die door schaamte of vergeten gekleurd kunnen zijn. Conclusie: een gradatie, per persoon, plaats en tijdstip; algemene uitspraken voor heel Nederland zijn onzeker.",
+      "hints": [
+        "Maak onderscheid tussen beschikbaar, gehoord, geloofd en begrepen.",
+        "Gelijktijdige bronnen wegen anders dan herinneringen achteraf."
+      ],
+      "solution": [
+        "Kernpunten: onderscheid in soorten weten; gelijktijdige bronnen; herinneringen achteraf kritisch; een afgewogen conclusie per groep."
+      ],
+      "topics": [
+        "perspective",
+        "sources",
+        "source-criticism",
+        "twentieth-century"
+      ]
+    },
+    {
+      "id": "20-028",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat was het kernpunt van Hans Bloms oratie 'In de ban van goed en fout' (1983) tegenover het werk van Loe de Jong?",
+      "choices": [
+        "Dat de bezetting eerst zonder morele oordelen moet worden onderzocht, omdat een goed-fout-kader bepaalt welke vragen worden gesteld",
+        "Dat er in de bezettingstijd geen verzet had bestaan",
+        "Dat de Joodse Raad niets verkeerd had gedaan",
+        "Dat de oorlog in Nederland niet door Duitsland was begonnen"
+      ],
+      "answer": "Dat de bezetting eerst zonder morele oordelen moet worden onderzocht, omdat een goed-fout-kader bepaalt welke vragen worden gesteld",
+      "hints": [
+        "De term 'grijs verleden' gaat hierover."
+      ],
+      "solution": [
+        "Blom stelde dat een moreel schema bepaalt welke vragen worden gesteld, en pleitte ervoor de bezetting eerst zonder morele oordelen te onderzoeken."
+      ],
+      "topics": [
+        "historiography",
+        "interpretation",
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat er in de bezettingstijd geen verzet had bestaan",
+          "message": "Blom ontkende het verzet niet."
+        },
+        {
+          "answer": "Dat de Joodse Raad niets verkeerd had gedaan",
+          "message": "Daarover ging zijn oratie niet."
+        }
+      ]
+    },
+    {
+      "id": "20-029",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarin verschilden Christopher Browning (Ordinary Men, 1992) en Daniel Goldhagen (Hitler's Willing Executioners, 1996) vooral van mening over de daders?",
+      "choices": [
+        "Browning verklaarde het gedrag uit groepsdruk, gehoorzaamheid en gewenning; Goldhagen uit diepgeworteld Duits 'eliminatorisch antisemitisme'",
+        "Browning ontkende de moord; Goldhagen bewees die",
+        "Beiden schreven alleen over de Nederlandse daders",
+        "Browning gebruikte geen bronnen; Goldhagen alleen"
+      ],
+      "answer": "Browning verklaarde het gedrag uit groepsdruk, gehoorzaamheid en gewenning; Goldhagen uit diepgeworteld Duits 'eliminatorisch antisemitisme'",
+      "hints": [
+        "Beiden onderzochten dezelfde soort daders, maar kwamen tot een andere verklaring."
+      ],
+      "solution": [
+        "Browning wijst op situatiefactoren, Goldhagen op een specifieke ideologie."
+      ],
+      "topics": [
+        "historiography",
+        "causation",
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": "Browning ontkende de moord; Goldhagen bewees die",
+          "message": "Beide historici gaan uit van de Holocaust; ze verschillen in de verklaring van daderschap."
+        },
+        {
+          "answer": "Beiden schreven alleen over de Nederlandse daders",
+          "message": "Beide boeken gaan over Duitse daders, vooral in Polen."
+        }
+      ]
+    },
+    {
+      "id": "20-030",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Het Nederlandse percentage vermoorde Joden (ongeveer 75 procent) is hoger dan in België of Frankrijk. Beschrijf twee factoren die historici daarvoor noemen en leg uit waarom het hoge percentage op zichzelf niets zegt over de schuld van omstanders.",
+      "answer": "Genoemde factoren: het civiele bestuur met een goed bevolkingsregister, de ligging en het gebrek aan schuilplaatsen, en de geringe mogelijkheden om onder te duiken. Een percentage meet het resultaat van een samenstel van omstandigheden en Duitse politiek; het zegt niet hoe individuele omstanders handelden.",
+      "hints": [
+        "Denk aan registratie, bestuur en geografie.",
+        "Denk aan het verschil tussen een uitkomst en een persoonlijke verantwoordelijkheid."
+      ],
+      "solution": [
+        "Twee factoren uit de literatuur.",
+        "Een percentage is een uitkomst, geen oordeel over gedrag."
+      ],
+      "topics": [
+        "causation",
+        "historiography",
+        "twentieth-century"
+      ]
+    },
+    {
+      "id": "20-031",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je leest een fragment van het Wannsee-protocol. Wat is de eerste bronvraag die je moet stellen?",
+      "choices": [
+        "Wie heeft het opgesteld, wanneer en voor wie, en hoe is het bewaard",
+        "Of het document mooi geschreven is",
+        "Of de inhoud overeenkomt met wat je al dacht te weten",
+        "Hoeveel mensen het hebben gelezen"
+      ],
+      "answer": "Wie heeft het opgesteld, wanneer en voor wie, en hoe is het bewaard",
+      "hints": [
+        "Begin altijd met de herkomst."
+      ],
+      "solution": [
+        "Herkomst, tijd, publiek en overlevering bepalen hoe je de inhoud leest."
+      ],
+      "topics": [
+        "source-criticism",
+        "sources"
+      ],
+      "context": "Fragment (vrij vertaald naar een Engelse vertaling): 'Een groot deel zal ongetwijfeld op natuurlijke wijze wegvallen.'",
+      "feedback": [
+        {
+          "answer": "Of de inhoud overeenkomt met wat je al dacht te weten",
+          "message": "Dat is een valkuil: bevestiging van je verwachting is geen bronkritiek."
+        }
+      ]
+    },
+    {
+      "id": "20-032",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je wilt weten wat gewone, niet-ondergedoken Nederlanders in 1942 over de deportaties wisten. Je hebt het Wannsee-protocol, een dagboekaantekening van Anne Frank en de Westerbork-film. Welke bron voegt het meeste toe?",
+      "choices": [
+        "Gelijktijdige dagboeken of brieven van niet-Joodse Nederlanders die niet ondergedoken zaten",
+        "Een Duits rapport over de capaciteit van Westerbork",
+        "Een herdenkingsspeech uit 1995",
+        "Een tweede exemplaar van het Wannsee-protocol"
+      ],
+      "answer": "Gelijktijdige dagboeken of brieven van niet-Joodse Nederlanders die niet ondergedoken zaten",
+      "hints": [
+        "Welk perspectief ontbreekt in de drie bronnen?"
+      ],
+      "solution": [
+        "De drie bronnen geven het perspectief van dader, onderduiker en bewaker. Het perspectief van de gewone omstander ontbreekt."
+      ],
+      "topics": [
+        "sources",
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Een herdenkingsspeech uit 1995",
+          "message": "Een toespraak van later is geen gelijktijdige bron over 1942."
+        }
+      ]
+    },
+    {
+      "id": "20-033",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Kies een van de drie bronnen (Wannsee-protocol, dagboekaantekening van Anne Frank, Westerbork-film) en bedenk een vraag die je er niet mee kunt beantwoorden. Welke andere bron zou dat wel kunnen, en hoe zeker kan je conclusie dan zijn?",
+      "answer": "Bijvoorbeeld: het protocol kan niet laten zien wat de bevolking wist; daarvoor zijn dagboeken van omstanders of rapporten van de Nederlandse bestuursdiensten nodig. De zekerheid is beperkt tot de groep die de bron vertegenwoordigt.",
+      "hints": [
+        "Bedenk wat de maker van de bron niet kon of wilde laten zien."
+      ],
+      "solution": [
+        "Een goed antwoord noemt de beperking van de gekozen bron, een geschikte aanvullende bron, en de reikwijdte van de conclusie."
+      ],
+      "topics": [
+        "sources",
+        "source-criticism",
+        "twentieth-century"
+      ]
+    }
+  ]
+}

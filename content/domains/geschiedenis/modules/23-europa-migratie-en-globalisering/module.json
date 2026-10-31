@@ -3,19 +3,155 @@
   "slug": "europa-migratie-en-globalisering",
   "title": "Europa, migratie en globalisering na 1989",
   "part": 8,
-  "status": "planned",
+  "status": "available",
   "historical_period": "1989 – heden",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 240,
   "prerequisites": [
     1
   ],
   "topics": [
     "contemporary",
     "perspective",
-    "historiography"
+    "historiography",
+    "source-criticism",
+    "interpretation",
+    "sources",
+    "causation",
+    "chronology"
   ],
   "core_question": "Kun je geschiedenis schrijven over je eigen tijd?",
   "summary": "De val van de Muur, Europese eenwording, migratie naar Nederland en globalisering, en de vraag hoe historici met recente geschiedenis omgaan.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een persconferentie die niet zo bedoeld was",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "1989-tot-1991",
+      "title": "1989 tot 1991: de Muur, de Sovjet-Unie en een te vroege conclusie",
+      "file": "02-1989-tot-1991.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "europa-en-joegoslavie",
+      "title": "Europa en Joegoslavië",
+      "file": "03-europa-en-joegoslavie.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "migratie-naar-nederland",
+      "title": "Migratie naar Nederland",
+      "file": "04-migratie-naar-nederland.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "globalisering-en-recente-geschiedenis",
+      "title": "Globalisering en het schrijven over je eigen tijd",
+      "file": "05-globalisering-en-recente-geschiedenis.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen waarom de val van de Muur een samenspel was van een directe aanleiding en langetermijnoorzaken, en waarom een eerste interpretatie als die van Fukuyama zowel waardevol als beperkt is.",
+    "Je kunt de grote lijnen van de Europese eenwording tussen 1951 en 2020 in de juiste volgorde zetten en aangeven wat een referendumuitslag wel en niet zegt.",
+    "Je kunt beschrijven wat er bij Srebrenica gebeurde en hoe het NIOD-rapport en latere procedures zich tot elkaar verhouden.",
+    "Je kunt de migratiegolven naar Nederland onderscheiden en laten zien dat een woord als gastarbeider een verwachting verraadt.",
+    "Je kunt de vijf problemen van recente geschiedenis noemen en uitleggen hoe oral history en journalistiek als bron werken.",
+    "Je kunt interpretaties als die van Fukuyama, Huntington en Judt gebruiken als bron en als verhaal, en uitleggen waarom een eerste interpretatie verschuift.",
+    "Je kunt bij een uitspraak over een recente gebeurtenis aangeven wat zeker is, wat voorzichtig en wat nog niet te beantwoorden valt."
+  ],
+  "glossary": [
+    {
+      "term": "Zeitgeschichte",
+      "definition": "Duitse term voor de geschiedenis van de recente tijd, door Hans Rothfels in 1953 omschreven als de geschiedenis van de tijd van de mee-levenden."
+    },
+    {
+      "term": "Oral history",
+      "definition": "Onderzoeksmethode waarbij getuigen systematisch worden geïnterviewd en hun herinneringen als bron worden gebruikt."
+    },
+    {
+      "term": "Eerste versie van de geschiedenis",
+      "definition": "Uitdrukking voor de journalistiek: een bron die onder tijdsdruk en zonder kennis van de afloop is gemaakt."
+    },
+    {
+      "term": "Gesloten archief",
+      "definition": "Archief waarvan de stukken nog niet openbaar zijn; bij recente geschiedenis vaak het grootste hiaat."
+    },
+    {
+      "term": "Einde van de geschiedenis",
+      "definition": "Stelling van Francis Fukuyama dat het liberale kapitalisme en de parlementaire democratie na 1989 geen ideologische rivaal van formaat meer hadden."
+    },
+    {
+      "term": "Botsing der beschavingen",
+      "definition": "Stelling van Samuel Huntington dat conflicten na de Koude Oorlog vooral tussen grote culturele gemeenschappen zouden liggen."
+    },
+    {
+      "term": "Gastarbeider",
+      "definition": "Term uit de jaren zestig voor geworven arbeiders uit het buitenland, die een tijdelijk verblijf veronderstelde."
+    },
+    {
+      "term": "Wervingsakkoord",
+      "definition": "Overeenkomst tussen Nederland en een ander land over de werving van arbeidskrachten, zoals met Turkije (1964) en Marokko (1969)."
+    },
+    {
+      "term": "Presentisme",
+      "definition": "Het beoordelen van het verleden met de maatstaven en kennis van nu."
+    }
+  ],
+  "timeline": [
+    "rothfels-zeitgeschichte-1953",
+    "molukkers-naar-nederland-1951",
+    "wervingsakkoord-turkije-1964",
+    "onafhankelijkheid-suriname-1975",
+    "val-berlijnse-muur-1989",
+    "fukuyama-einde-geschiedenis-1989",
+    "duitse-hereniging-1990",
+    "einde-sovjet-unie-1991",
+    "maastricht-1992",
+    "huntington-clash-1993",
+    "srebrenica-1995",
+    "scheffer-multiculturele-drama-2000",
+    "china-wto-2001",
+    "niod-srebrenica-2002",
+    "fortuyn-moord-2002",
+    "euro",
+    "eu-uitbreiding-2004",
+    "grondwet-referendum-2005",
+    "judt-postwar-2005",
+    "financiele-crisis-2008",
+    "brexit-referendum-2016"
+  ],
+  "people": [
+    "guenter-schabowski",
+    "michail-gorbatsjov",
+    "fukuyama",
+    "huntington",
+    "tony-judt",
+    "hans-rothfels",
+    "paul-scheffer",
+    "pim-fortuyn",
+    "deng-xiaoping",
+    "eric-hobsbawm"
+  ]
 }

@@ -3,19 +3,158 @@
   "slug": "van-verzuiling-tot-verzorgingsstaat",
   "title": "Van verzuiling tot verzorgingsstaat",
   "part": 8,
-  "status": "planned",
+  "status": "available",
   "historical_period": "Ca. 1880 – 1990",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 240,
   "prerequisites": [
     1
   ],
   "topics": [
+    "twentieth-century",
     "contemporary",
     "continuity-change",
-    "contextualisation"
+    "contextualisation",
+    "sources",
+    "historiography",
+    "causation",
+    "perspective"
   ],
   "core_question": "Hoe veranderde de Nederlandse samenleving in de twintigste eeuw?",
   "summary": "Verzuiling en ontzuiling, de opbouw van de verzorgingsstaat, de jaren zestig en emancipatiebewegingen.",
-  "lessons": []
+  "learning_goals": [
+    "Je kunt uitleggen hoe de emancipatie van katholieken, gereformeerden en arbeiders leidde tot verzuiling.",
+    "Je kunt de Pacificatie van 1917 beschrijven als een ruil en de rol van het vrouwenkiesrecht daarin noemen.",
+    "Je kunt de ontwikkeling van armenzorg naar verzorgingsstaat schetsen en de oorzaken tegen elkaar afwegen.",
+    "Je kunt de ontzuiling en de jaren zestig beschrijven en met cijfers onderbouwen.",
+    "Je kunt de interpretaties van Lijphart, Stuurman, Blom, Kennedy en Esping-Andersen vergelijken.",
+    "Je kunt tellingen, wetten en grafieken als bron beoordelen en een conclusie met de juiste mate van zekerheid formuleren."
+  ],
+  "glossary": [
+    {
+      "term": "Emancipatie",
+      "definition": "Het proces waarin een groep die buiten de macht staat, haar eigen plaats in de samenleving opeist, met eigen organisaties en zelfbeeld."
+    },
+    {
+      "term": "Verzuiling",
+      "definition": "De indeling van de samenleving in gescheiden gemeenschappen met eigen organisaties, gebaseerd op geloof of levensbeschouwing."
+    },
+    {
+      "term": "Zuil",
+      "definition": "Het geheel van organisaties, zoals school, partij, vakbond en omroep, dat bij één groep hoort."
+    },
+    {
+      "term": "Schoolstrijd",
+      "definition": "Het conflict over de vraag of de overheid bijzonder onderwijs moest bekostigen, beslecht in 1917 en 1920."
+    },
+    {
+      "term": "Financiële gelijkstelling",
+      "definition": "Het beginsel dat de overheid bijzondere scholen op dezelfde wijze bekostigt als openbare scholen."
+    },
+    {
+      "term": "Pacificatie",
+      "definition": "Het compromis van 1917 dat de school- en kiesrechtstrijd in één pakket oploste."
+    },
+    {
+      "term": "Pacificatiedemocratie",
+      "definition": "Lijpharts begrip voor een democratie die stabiel blijft doordat de elites van gescheiden groepen compromissen sluiten."
+    },
+    {
+      "term": "Verzorgingsstaat",
+      "definition": "Een staat die via wetten en verzekeringen zorgt voor inkomen, zorg en bescherming van burgers."
+    },
+    {
+      "term": "Volksverzekering",
+      "definition": "Een verzekering voor alle ingezetenen, zoals de AOW, onafhankelijk van beroep of werkgever."
+    },
+    {
+      "term": "Ontzuiling",
+      "definition": "De afname van de binding tussen mensen en de organisaties van hun zuil, en daarmee van de zuilen zelf."
+    },
+    {
+      "term": "Secularisatie",
+      "definition": "De afname van de rol van kerk en geloof in het openbare en persoonlijke leven."
+    },
+    {
+      "term": "Democratisering",
+      "definition": "In de jaren zestig en zeventig de eis van meer inspraak in instellingen zoals universiteiten en bedrijven."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een compromis in de Grondwet",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "emancipatie-en-schoolstrijd",
+      "title": "Emancipatie en schoolstrijd",
+      "file": "02-emancipatie-en-schoolstrijd.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "pacificatie-en-zuilen",
+      "title": "Pacificatie en zuilen",
+      "file": "03-pacificatie-en-zuilen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "de-verzorgingsstaat",
+      "title": "De verzorgingsstaat",
+      "file": "04-de-verzorgingsstaat.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "ontzuiling-en-de-jaren-zestig",
+      "title": "Ontzuiling en de jaren zestig",
+      "file": "05-ontzuiling-en-de-jaren-zestig.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "kappeyne-schoolwet-1878",
+    "kuyper-arp-1879",
+    "ongevallenwet-1901",
+    "pacificatie-1917",
+    "vrouwenkiesrecht-1919",
+    "noodwet-ouderdomsvoorziening-1947",
+    "aow-1957",
+    "slochteren-aardgas-1959",
+    "provo-1965",
+    "bijstandswet-1965",
+    "wao-1967",
+    "lijphart-politics-of-accommodation-1968",
+    "maagdenhuisbezetting-1969",
+    "cda-1980",
+    "akkoord-van-wassenaar-1982",
+    "stuurman-verzuiling-1983",
+    "esping-andersen-three-worlds-1990",
+    "kennedy-nieuw-babylon-1995"
+  ],
+  "people": [
+    "abraham-kuyper",
+    "aletta-jacobs",
+    "willem-drees",
+    "arend-lijphart",
+    "ruud-lubbers"
+  ]
 }
