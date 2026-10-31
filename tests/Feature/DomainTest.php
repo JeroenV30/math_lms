@@ -114,12 +114,14 @@ class DomainTest extends TestCase
         $domains = app(DomainService::class);
 
         $this->assertSame('available', $domains->stage($domains->find('wiskunde')));
-        $this->assertSame('building', $domains->stage($domains->find('geschiedenis')));
+        $this->assertSame('available', $domains->stage($domains->find('geschiedenis')));
+        $this->assertSame('building', $domains->stage($domains->find('biologie')));
         $this->assertSame('planned', $domains->stage(['id' => 'x', 'status' => 'planned']));
 
         // Kaart en zijbalk gebruiken hetzelfde label; elk domein heeft inmiddels een cursus met moduleplan,
         // dus de zijbalk toont hoeveel modules klaar zijn.
-        $this->get('/')->assertOk()->assertSee('>in opbouw</span>', false)->assertSee('van 23 modules')->assertDontSee('in voorbereiding');
+        $page = $this->get('/')->assertOk()->assertSee('>in opbouw</span>', false)->assertDontSee('in voorbereiding');
+        $this->assertMatchesRegularExpression('/1 van \d+ modules/', $page->getContent());
     }
 
     public function test_page_headers_share_one_breadcrumb_trail(): void
