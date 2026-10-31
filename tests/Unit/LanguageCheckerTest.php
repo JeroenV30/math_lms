@@ -18,6 +18,7 @@ class LanguageCheckerTest extends TestCase
             'geen spatie na zin' => ['Dat klopt.Daarna tel je verder.', 'geen spatie na zin'],
             'dubbele spatie' => ['Tel de  schapen.', 'dubbele spatie'],
             'oneven aanhalingstekens' => ['Hij zei "acht en liep weg.', 'oneven aantal aanhalingstekens'],
+            'kapotte escape' => ["Dus \$3 / 7 \x07pprox 0{,}43\$.", 'onzichtbaar stuurteken'],
         ];
     }
 

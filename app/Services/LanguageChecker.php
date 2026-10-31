@@ -29,8 +29,14 @@ class LanguageChecker
      */
     public function check(string $text): array
     {
-        $plain = $this->plainText($text);
         $issues = [];
+
+        // Een onzichtbaar stuurteken is bijna altijd een kapotte escape ("\a" in "\approx" werd een belteken).
+        if (preg_match('/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/', $text, $m, PREG_OFFSET_CAPTURE)) {
+            $issues[] = 'onzichtbaar stuurteken (kapotte escape?): "'.$this->excerpt(preg_replace('/[\x00-\x1F\x7F]/', '?', $text), $m[0][1], 40).'"';
+        }
+
+        $plain = $this->plainText($text);
 
         foreach (preg_split('/\n\s*\n/', $plain) as $paragraph) {
             if (substr_count($paragraph, '"') % 2 === 1) {

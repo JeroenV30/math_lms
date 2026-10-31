@@ -62,6 +62,16 @@ class DuplicateCheckTest extends TestCase
         $this->assertMatches("/gebeurtenis-id 'euclides-elementen' betekent iets anders in wiskunde/");
     }
 
+    public function test_events_in_the_same_year_with_look_alike_titles_are_not_duplicates(): void
+    {
+        File::put($this->copy.'/domains/geschiedenis/history/timeline.json', json_encode(['events' => [
+            ['id' => 'aanslag-sarajevo-1914', 'year_label' => '1914', 'sort_year' => 1914, 'title' => 'De aanslag in Sarajevo', 'modules' => [1]],
+            ['id' => 'marne-1914', 'year_label' => '1914', 'sort_year' => 1914, 'title' => 'De slag bij de Marne', 'modules' => [1]],
+        ]]));
+
+        $this->assertSame([], $this->duplicates());
+    }
+
     public function test_an_identical_question_is_found(): void
     {
         $this->edit('domains/wiskunde/modules/01-tellen/exercises.json', function (array &$data) {

@@ -230,10 +230,20 @@ class DuplicateChecker
         return false;
     }
 
+    /**
+     * Zelfde jaar, een titel die erop lijkt én minstens één gedeeld inhoudswoord (vijf letters of meer):
+     * "De aanslag in Sarajevo" en "De slag bij de Marne" lijken letterlijk op elkaar, maar delen er geen.
+     */
     private function sameEvent(array $a, array $b): bool
     {
-        return (int) ($a['sort_year'] ?? 0) === (int) ($b['sort_year'] ?? 0)
-            && $this->similarity($a['title'] ?? '', $b['title'] ?? '') >= self::SIMILAR_TITLE;
+        if ((int) ($a['sort_year'] ?? 0) !== (int) ($b['sort_year'] ?? 0)
+            || $this->similarity($a['title'] ?? '', $b['title'] ?? '') < self::SIMILAR_TITLE) {
+            return false;
+        }
+
+        $words = fn (string $title) => array_filter(explode(' ', $this->ascii($title)), fn (string $w) => strlen($w) >= 5);
+
+        return array_intersect($words($a['title'] ?? ''), $words($b['title'] ?? '')) !== [];
     }
 
     /**
