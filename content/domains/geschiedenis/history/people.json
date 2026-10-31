@@ -758,6 +758,126 @@
       "image": null
     },
     {
+      "id": "hendrik-iv",
+      "name": "Hendrik IV",
+      "full_name": "Hendrik IV, koning en keizer",
+      "lived": "1050 - 1106",
+      "sort_year": 1056,
+      "region": "Duitse rijk",
+      "known_for": "Koning die in 1077 bij Canossa boete deed.",
+      "bio": "Hendrik IV werd als kind koning. Zijn strijd met Gregorius VII over de benoeming van bisschoppen markeert het begin van de Investituurstrijd.",
+      "contributions": [
+        "Investituurstrijd"
+      ],
+      "modules": [
+        11
+      ],
+      "timeline": [
+        "canossa-1077",
+        "concordaat-van-worms-1122"
+      ],
+      "image": null
+    },
+    {
+      "id": "gregorius-vii",
+      "name": "Gregorius VII",
+      "full_name": "Gregorius VII (Hildebrand)",
+      "lived": "ca. 1020 - 1085",
+      "sort_year": 1073,
+      "region": "Rome",
+      "known_for": "Paus die de kerk onafhankelijk wilde maken van wereldlijke heersers.",
+      "bio": "Hildebrand werd in 1073 tot paus gekozen. Hij werkte het programma van de kerkhervormers uit en kwam in conflict met Hendrik IV. Hij overleed in 1085 in ballingschap in Salerno.",
+      "contributions": [
+        "De Gregoriaanse hervorming",
+        "Ban over Hendrik IV"
+      ],
+      "modules": [
+        11
+      ],
+      "timeline": [
+        "dictatus-papae-1075",
+        "canossa-1077"
+      ],
+      "image": null
+    },
+    {
+      "id": "anna-komnene",
+      "name": "Anna Komnene",
+      "full_name": "Anna Komnene",
+      "lived": "1083 - ca. 1153",
+      "sort_year": 1083,
+      "region": "Constantinopel",
+      "known_for": "Byzantijnse prinses en schrijfster van de Alexias.",
+      "bio": "Anna Komnene, dochter van keizer Alexios I, schreef rond 1148 de Alexias, een verslag van het bewind van haar vader waarin ook de komst van de kruisvaarders voorkomt.",
+      "contributions": [
+        "De Alexias"
+      ],
+      "modules": [
+        11
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "urbanus-ii",
+      "name": "Urbanus II",
+      "full_name": "Urbanus II (Odo van Châtillon)",
+      "lived": "ca. 1042 - 1099",
+      "sort_year": 1088,
+      "region": "Rome",
+      "known_for": "Paus die in 1095 in Clermont opriep tot de eerste kruistocht.",
+      "bio": "Urbanus II was paus van 1088 tot 1099. Hij overleed in juli 1099, enkele weken na de val van Jeruzalem.",
+      "contributions": [
+        "Oproep van Clermont"
+      ],
+      "modules": [
+        11
+      ],
+      "timeline": [
+        "concilie-van-clermont-1095"
+      ],
+      "image": null
+    },
+    {
+      "id": "usama-ibn-munqidh",
+      "name": "Usama ibn Munqidh",
+      "full_name": "Usama ibn Munqidh",
+      "lived": "1095 - 1188",
+      "sort_year": 1095,
+      "region": "Sjaizar, Syrië",
+      "known_for": "Syrische emir en schrijver van memoires over zijn contacten met de Franken.",
+      "bio": "Usama ibn Munqidh was emir van Sjaizar en diplomaat. Hij schreef op hoge leeftijd een boek met herinneringen waarin hij de Franken beschrijft.",
+      "contributions": [
+        "Kitab al-I'tibar"
+      ],
+      "modules": [
+        11
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "saladin",
+      "name": "Saladin",
+      "full_name": "Saladin (Salah ad-Din)",
+      "lived": "ca. 1137 - 1193",
+      "sort_year": 1137,
+      "region": "Egypte en Syrië",
+      "known_for": "Sultan die Jeruzalem in 1187 heroverde.",
+      "bio": "Saladin verenigde Egypte en Syrië en versloeg in 1187 bij Hattin een kruisvaardersleger. Hij overleed in 1193.",
+      "contributions": [
+        "Slag bij Hattin",
+        "Herovering van Jeruzalem"
+      ],
+      "modules": [
+        11
+      ],
+      "timeline": [
+        "slag-bij-hattin-1187"
+      ],
+      "image": null
+    },
+    {
       "id": "floris-v",
       "name": "Floris V",
       "full_name": "Floris V, graaf van Holland",
@@ -775,6 +895,373 @@
       ],
       "timeline": [
         "floris-v-vermoord-1296"
+      ],
+      "image": null
+    },
+    {
+      "id": "gilles-li-muisis",
+      "name": "Gilles li Muisis",
+      "full_name": "Gilles li Muisis",
+      "lived": "ca. 1272 - 1352",
+      "sort_year": 1272,
+      "region": "Doornik",
+      "known_for": "Abt van Saint-Martin in Doornik en kroniekschrijver van de Zwarte Dood.",
+      "bio": "Gilles li Muisis was abt van het klooster Saint-Martin in Doornik. Zijn kroniek, met miniaturen van Pierart dou Tielt, beschrijft onder meer de pest van 1349.",
+      "contributions": [
+        "Kroniek van Doornik"
+      ],
+      "modules": [
+        11
+      ],
+      "timeline": [
+        "zwarte-dood-1347"
+      ],
+      "image": null
+    },
+    {
+      "id": "geert-grote",
+      "name": "Geert Grote",
+      "full_name": "Geert Grote",
+      "lived": "1340 - 1384",
+      "sort_year": 1340,
+      "region": "Deventer",
+      "known_for": "Grondlegger van de Moderne Devotie.",
+      "bio": "Geert Grote gaf zijn carrière op om als boeteprediker rond te trekken. Hij overleed in 1384, volgens de overlevering aan de pest.",
+      "contributions": [
+        "Moderne Devotie"
+      ],
+      "modules": [
+        11
+      ],
+      "timeline": [
+        "geert-grote-moderne-devotie"
+      ],
+      "image": null
+    },
+    {
+      "id": "zheng-he",
+      "name": "Zheng He",
+      "full_name": "Zheng He (Ma He)",
+      "lived": "ca. 1371 – ca. 1433",
+      "sort_year": 1405,
+      "region": "China",
+      "known_for": "Admiraal van de Chinese hofvloten naar de Indische Oceaan (1405 – 1433).",
+      "bio": "Zheng He was een moslim uit Yunnan die als jongen aan het hof kwam en eunuch werd. In opdracht van keizer Yongle leidde hij zeven expedities naar Zuidoost-Azië, India, de Perzische Golf en Oost-Afrika.\n\nDe omvang van zijn vloten en schepen is in de bronnen waarschijnlijk overdreven.",
+      "contributions": [
+        "Zeven expedities"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "zheng-he-expedities"
+      ],
+      "image": null
+    },
+    {
+      "id": "hendrik-de-zeevaarder",
+      "name": "Hendrik de Zeevaarder",
+      "full_name": "Hendrik de Zeevaarder",
+      "lived": "1394 – 1460",
+      "sort_year": 1415,
+      "region": "Portugal",
+      "known_for": "Beschermheer van Portugese expedities langs de Afrikaanse kust.",
+      "bio": "Prins Hendrik nam deel aan de verovering van Ceuta (1415) en financierde en organiseerde daarna expedities langs de West-Afrikaanse kust. De bijnaam 'de Zeevaarder' is van latere datum en misleidend, want hij voer zelf nauwelijks.",
+      "contributions": [
+        "Organisator van de expedities"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "ceuta-1415"
+      ],
+      "image": null
+    },
+    {
+      "id": "johannes-gutenberg",
+      "name": "Johannes Gutenberg",
+      "full_name": "Johannes Gensfleisch zur Laden zum Gutenberg",
+      "lived": "ca. 1400 - 1468",
+      "sort_year": 1455,
+      "region": "Mainz",
+      "known_for": "Drukte rond 1455 de 42-regelige Bijbel met losse letters.",
+      "bio": "Gutenberg ontwikkelde in Mainz een systeem om boeken in series te drukken. Over zijn leven is weinig zeker bekend.",
+      "contributions": [
+        "De 42-regelige Bijbel"
+      ],
+      "modules": [
+        13
+      ],
+      "timeline": [
+        "gutenberg-bijbel-1455"
+      ],
+      "image": null
+    },
+    {
+      "id": "bartolomeu-dias",
+      "name": "Bartolomeu Dias",
+      "full_name": "Bartolomeu Dias",
+      "lived": "ca. 1450 – 1500",
+      "sort_year": 1488,
+      "region": "Portugal",
+      "known_for": "Rondde in 1488 de zuidpunt van Afrika.",
+      "bio": "Dias was een Portugese zeevaarder die in opdracht van koning Johan II de zuidpunt van Afrika rondde. Hij kwam om bij een storm in 1500, tijdens de reis van Cabral.",
+      "contributions": [
+        "Ronding van de Kaap"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "dias-kaap-1488"
+      ],
+      "image": null
+    },
+    {
+      "id": "columbus",
+      "name": "Columbus",
+      "full_name": "Christoffel Columbus",
+      "lived": "1451 – 1506",
+      "sort_year": 1492,
+      "region": "Genua en Spanje",
+      "known_for": "Bereikte in 1492 in Spaanse dienst de Bahama's.",
+      "bio": "Columbus was een Genuese zeevaarder die de Spaanse kroon overtuigde van een westelijke route naar Azië. Zijn berekening van de omtrek van de aarde was te klein. Hij bleef geloven dat hij Azië had bereikt.",
+      "contributions": [
+        "Vier reizen naar Amerika"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "columbus-bahama-1492",
+        "verdrag-van-tordesillas-1494"
+      ],
+      "image": null
+    },
+    {
+      "id": "vasco-da-gama",
+      "name": "Vasco da Gama",
+      "full_name": "Vasco da Gama",
+      "lived": "ca. 1460 – 1524",
+      "sort_year": 1498,
+      "region": "Portugal",
+      "known_for": "Bereikte in 1498 Calicut over zee.",
+      "bio": "Da Gama vertrok in 1497 met vier schepen uit Lissabon, rondde de Kaap en bereikte op 20 mei 1498 Calicut. Hij keerde in 1499 terug met een winstgevende lading.",
+      "contributions": [
+        "Zeeroute naar India"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "da-gama-calicut-1498"
+      ],
+      "image": null
+    },
+    {
+      "id": "vespucci",
+      "name": "Vespucci",
+      "full_name": "Amerigo Vespucci",
+      "lived": "1454 – 1512",
+      "sort_year": 1500,
+      "region": "Florence en Spanje",
+      "known_for": "Naamgever van Amerika.",
+      "bio": "Vespucci was een Florentijnse zeevaarder wiens reisverslagen veel gelezen werden. Waldseemüller noemde het nieuwe land naar hem. Hoe betrouwbaar die verslagen zijn, is onderwerp van discussie.",
+      "contributions": [
+        "Reisverslagen"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "waldseemuller-kaart-1507"
+      ],
+      "image": null
+    },
+    {
+      "id": "waldseemuller",
+      "name": "Waldseemüller",
+      "full_name": "Martin Waldseemüller",
+      "lived": "ca. 1470 – 1520",
+      "sort_year": 1507,
+      "region": "Saint-Dié, Lotharingen",
+      "known_for": "Maakte de eerste wereldkaart met de naam America (1507).",
+      "bio": "Waldseemüller was een kaartenmaker in de kring van geleerden rond René II van Lotharingen. Hij nam de naam America op latere kaarten niet meer over.",
+      "contributions": [
+        "De wereldkaart van 1507"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "waldseemuller-kaart-1507"
+      ],
+      "image": null
+    },
+    {
+      "id": "erasmus",
+      "name": "Erasmus",
+      "full_name": "Desiderius Erasmus van Rotterdam",
+      "lived": "ca. 1466 - 1536",
+      "sort_year": 1516,
+      "region": "Rotterdam, Bazel",
+      "known_for": "Humanist; gaf het Griekse Nieuwe Testament uit.",
+      "bio": "Erasmus schreef in het Latijn en was in heel Europa beroemd. Hij bleef katholiek en pleitte voor hervorming en verdraagzaamheid.",
+      "contributions": [
+        "Lof der Zotheid (1511)",
+        "Novum Instrumentum (1516)"
+      ],
+      "modules": [
+        13
+      ],
+      "timeline": [
+        "erasmus-novum-instrumentum-1516"
+      ],
+      "image": null
+    },
+    {
+      "id": "luther",
+      "name": "Luther",
+      "full_name": "Maarten Luther",
+      "lived": "1483 - 1546",
+      "sort_year": 1517,
+      "region": "Wittenberg",
+      "known_for": "Stelde in 1517 de aflaat aan de orde en werd de aanstichter van de Reformatie.",
+      "bio": "Luther was hoogleraar in Wittenberg. Hij vertaalde het Nieuwe Testament in het Duits (1522).",
+      "contributions": [
+        "Stellingen (1517)",
+        "Duitse Bijbelvertaling"
+      ],
+      "modules": [
+        13
+      ],
+      "timeline": [
+        "luther-stellingen-1517",
+        "rijksdag-worms-1521"
+      ],
+      "image": null
+    },
+    {
+      "id": "magalhaes",
+      "name": "Magalhães",
+      "full_name": "Ferdinand Magalhães (Magellaan)",
+      "lived": "ca. 1480 – 1521",
+      "sort_year": 1519,
+      "region": "Portugal en Spanje",
+      "known_for": "Leidde de eerste omvaring van de aarde, tot zijn dood in 1521.",
+      "bio": "Magalhães, een Portugees in Spaanse dienst, vertrok in 1519 met vijf schepen en vond de zeestraat die zijn naam draagt. Hij sneuvelde in 1521 op Mactan.",
+      "contributions": [
+        "Ontdekking van de Straat van Magalhães"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "magalhaes-elcano-omvaring-1519"
+      ],
+      "image": null
+    },
+    {
+      "id": "cortes",
+      "name": "Cortés",
+      "full_name": "Hernán Cortés",
+      "lived": "1485 – 1547",
+      "sort_year": 1519,
+      "region": "Spanje en Nieuw-Spanje",
+      "known_for": "Leidde de Spaanse expeditie die het Azteekse rijk ten val bracht.",
+      "bio": "Cortés vertrok in 1519 zonder volledige toestemming uit Cuba en schreef brieven aan Karel V om zijn onderneming te rechtvaardigen. Hij was afhankelijk van inheemse bondgenoten en van tolken als Malintzin.",
+      "contributions": [
+        "Brieven aan Karel V"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "val-van-tenochtitlan-1521"
+      ],
+      "image": null
+    },
+    {
+      "id": "moctezuma-ii",
+      "name": "Moctezuma II",
+      "full_name": "Moctezuma II",
+      "lived": "ca. 1466 – 1520",
+      "sort_year": 1519,
+      "region": "Tenochtitlan",
+      "known_for": "Azteekse heerser tijdens de komst van Cortés.",
+      "bio": "Moctezuma ontving Cortés in november 1519 in Tenochtitlan en overleed in juni 1520, onder omstandigheden waarover de bronnen verschillen.",
+      "contributions": [
+        "Heerser van Tenochtitlan"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "val-van-tenochtitlan-1521"
+      ],
+      "image": null
+    },
+    {
+      "id": "karel-v",
+      "name": "Karel V",
+      "full_name": "Karel V van Habsburg",
+      "lived": "1500 - 1558",
+      "sort_year": 1520,
+      "region": "Gent, Brussel",
+      "known_for": "Heer van de Nederlanden, koning van Spanje, keizer.",
+      "bio": "Karel V werd in Gent geboren en regeerde over een samenstel van landen. Hij voerde een streng ketterbeleid.",
+      "contributions": [
+        "Pragmatieke Sanctie (1549)",
+        "Edict van Worms"
+      ],
+      "modules": [
+        13
+      ],
+      "timeline": [
+        "rijksdag-worms-1521",
+        "bloedplakkaat-1550",
+        "abdicatie-karel-v-1555"
+      ],
+      "image": null
+    },
+    {
+      "id": "cuauhtemoc",
+      "name": "Cuauhtémoc",
+      "full_name": "Cuauhtémoc",
+      "lived": "ca. 1495 – 1525",
+      "sort_year": 1521,
+      "region": "Tenochtitlan",
+      "known_for": "Laatste heerser van Tenochtitlan.",
+      "bio": "Cuauhtémoc werd na de dood van Cuitláhuac heerser en werd op 13 augustus 1521 gevangengenomen. Hij werd enkele jaren later door de Spanjaarden gedood.",
+      "contributions": [
+        "Verdediging van Tenochtitlan"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "val-van-tenochtitlan-1521"
+      ],
+      "image": null
+    },
+    {
+      "id": "elcano",
+      "name": "Elcano",
+      "full_name": "Juan Sebastián Elcano",
+      "lived": "ca. 1486 – 1526",
+      "sort_year": 1522,
+      "region": "Spanje",
+      "known_for": "Voltooide de eerste omvaring van de aarde (1522).",
+      "bio": "Elcano nam na de dood van Magalhães het bevel over de Victoria en keerde in september 1522 terug in Spanje.",
+      "contributions": [
+        "Eerste omvaring"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "magalhaes-elcano-omvaring-1519"
       ],
       "image": null
     },
@@ -799,6 +1286,210 @@
       "image": null
     },
     {
+      "id": "pizarro",
+      "name": "Pizarro",
+      "full_name": "Francisco Pizarro",
+      "lived": "ca. 1478 – 1541",
+      "sort_year": 1532,
+      "region": "Spanje en Peru",
+      "known_for": "Leidde de Spaanse verovering van het Inca-rijk.",
+      "bio": "Pizarro nam in 1532 in Cajamarca Atahualpa gevangen. Hij werd in 1541 in Lima vermoord door Spaanse rivalen.",
+      "contributions": [
+        "Verovering van Peru"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "cajamarca-1532"
+      ],
+      "image": null
+    },
+    {
+      "id": "atahualpa",
+      "name": "Atahualpa",
+      "full_name": "Atahualpa",
+      "lived": "ca. 1502 – 1533",
+      "sort_year": 1532,
+      "region": "Inca-rijk",
+      "known_for": "Inca-heerser, in 1532 gevangengenomen door Pizarro.",
+      "bio": "Atahualpa had een burgeroorlog gewonnen van zijn broer Huáscar. Hij werd in juli 1533 geëxecuteerd.",
+      "contributions": [
+        "Heerser van het Inca-rijk"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "cajamarca-1532"
+      ],
+      "image": null
+    },
+    {
+      "id": "calvijn",
+      "name": "Calvijn",
+      "full_name": "Jean Calvijn",
+      "lived": "1509 - 1564",
+      "sort_year": 1536,
+      "region": "Noyon, Genève",
+      "known_for": "Schreef de Institutie en bouwde de kerk van Genève op.",
+      "bio": "Calvijns kerkorganisatie, met kerkenraad, werd een model voor de calvinistische gemeenten in de Nederlanden.",
+      "contributions": [
+        "Institutie (1536-1559)"
+      ],
+      "modules": [
+        13
+      ],
+      "timeline": [
+        "calvijn-institutie-1536"
+      ],
+      "image": null
+    },
+    {
+      "id": "las-casas",
+      "name": "Las Casas",
+      "full_name": "Bartolomé de las Casas",
+      "lived": "1484 – 1566",
+      "sort_year": 1542,
+      "region": "Spanje en Nieuw-Spanje",
+      "known_for": "Dominicaan en criticus van de behandeling van de inheemse bevolking.",
+      "bio": "Las Casas was eerst zelf encomendero en werd Dominicaan. Zijn aanklacht uit 1542 werd in 1552 gedrukt en vertaald. Hij verdedigde de inheemse bevolking in Valladolid.",
+      "contributions": [
+        "Zeer beknopte verhandeling over de vernietiging van de Indiën"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "valladolid-debat-1550"
+      ],
+      "image": null
+    },
+    {
+      "id": "sepulveda",
+      "name": "Sepúlveda",
+      "full_name": "Juan Ginés de Sepúlveda",
+      "lived": "ca. 1490 – 1573",
+      "sort_year": 1550,
+      "region": "Spanje",
+      "known_for": "Geleerde die de verovering verdedigde in Valladolid.",
+      "bio": "Sepúlveda las Aristoteles en betoogde dat oorlog tegen sommige volken gerechtvaardigd kon zijn.",
+      "contributions": [
+        "Democrates secundus"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "valladolid-debat-1550"
+      ],
+      "image": null
+    },
+    {
+      "id": "bernardino-de-sahagun",
+      "name": "Sahagún",
+      "full_name": "Bernardino de Sahagún",
+      "lived": "ca. 1499 – 1590",
+      "sort_year": 1555,
+      "region": "Spanje en Nieuw-Spanje",
+      "known_for": "Franciscaan die met Nahua-medewerkers de Florentijnse Codex samenstelde.",
+      "bio": "Sahagún kwam in 1529 in Mexico aan en werkte met Nahua-studenten en -informanten aan een encyclopedie van de Nahua-wereld. Boek 12 beschrijft de verovering vanuit Nahua-perspectief.",
+      "contributions": [
+        "Florentijnse Codex"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "filips-ii",
+      "name": "Filips II",
+      "full_name": "Filips II van Spanje",
+      "lived": "1527 - 1598",
+      "sort_year": 1560,
+      "region": "Madrid",
+      "known_for": "Landsheer van de Nederlanden (1555-1581).",
+      "bio": "Filips II werd in Spanje opgevoed, verliet de Nederlanden in 1559 en regeerde via landvoogden.",
+      "contributions": [
+        "Ketterbeleid",
+        "Opdracht aan Alva"
+      ],
+      "modules": [
+        13
+      ],
+      "timeline": [
+        "abdicatie-karel-v-1555",
+        "plakkaat-van-verlatinghe-1581"
+      ],
+      "image": null
+    },
+    {
+      "id": "margaretha-van-parma",
+      "name": "Margaretha van Parma",
+      "full_name": "Margaretha van Parma",
+      "lived": "1522 - 1586",
+      "sort_year": 1566,
+      "region": "Brussel",
+      "known_for": "Landvoogdes van de Nederlanden (1559-1567).",
+      "bio": "Zij was een buitenechtelijke dochter van Karel V en regeerde namens Filips II.",
+      "contributions": [
+        "Moderatie (1566)"
+      ],
+      "modules": [
+        13
+      ],
+      "timeline": [
+        "smeekschrift-edelen-1566"
+      ],
+      "image": null
+    },
+    {
+      "id": "alva",
+      "name": "Alva",
+      "full_name": "Fernando Álvarez de Toledo, hertog van Alva",
+      "lived": "1507 - 1582",
+      "sort_year": 1567,
+      "region": "Spanje, Nederlanden",
+      "known_for": "Landvoogd; stelde de Raad van Beroerten in.",
+      "bio": "Alva kwam in 1567 met een leger naar de Nederlanden en voerde een hard bewind.",
+      "contributions": [
+        "Raad van Beroerten",
+        "Tiende penning"
+      ],
+      "modules": [
+        13
+      ],
+      "timeline": [
+        "alva-raad-van-beroerten-1567"
+      ],
+      "image": null
+    },
+    {
+      "id": "willem-van-oranje",
+      "name": "Willem van Oranje",
+      "full_name": "Willem I, prins van Oranje",
+      "lived": "1533 - 1584",
+      "sort_year": 1572,
+      "region": "Dillenburg, Delft",
+      "known_for": "Leider van de Opstand.",
+      "bio": "Oranje was een hoge edelman en stadhouder. Hij werd in 1584 in Delft vermoord.",
+      "contributions": [
+        "Apologie (1580)"
+      ],
+      "modules": [
+        13
+      ],
+      "timeline": [
+        "inname-den-briel-1572",
+        "pacificatie-van-gent-1576",
+        "plakkaat-van-verlatinghe-1581",
+        "moord-op-willem-van-oranje-1584"
+      ],
+      "image": null
+    },
+    {
       "id": "hobbes",
       "name": "Hobbes",
       "full_name": "Thomas Hobbes",
@@ -815,6 +1506,26 @@
         3
       ],
       "timeline": [],
+      "image": null
+    },
+    {
+      "id": "linschoten",
+      "name": "Linschoten",
+      "full_name": "Jan Huygen van Linschoten",
+      "lived": "1563 – 1611",
+      "sort_year": 1596,
+      "region": "Enkhuizen en Haarlem",
+      "known_for": "Auteur van het Itinerario (1596).",
+      "bio": "Linschoten werkte in Goa voor de aartsbisschop en publiceerde in 1596 in Amsterdam het Itinerario, met kaarten en vaaraanwijzingen.",
+      "contributions": [
+        "Itinerario"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "linschoten-itinerario-1596"
+      ],
       "image": null
     },
     {
@@ -910,6 +1621,24 @@
       ],
       "modules": [
         7
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "fruin",
+      "name": "Fruin",
+      "full_name": "Robert Jacobus Fruin",
+      "lived": "1823 - 1899",
+      "sort_year": 1861,
+      "region": "Leiden",
+      "known_for": "Leidse hoogleraar, voorstander van kritisch bronnenonderzoek.",
+      "bio": "Fruin schreef onder meer over de Tachtigjarige Oorlog en beïnvloedde de Nederlandse geschiedschrijving.",
+      "contributions": [
+        "Tien jaren uit den tachtigjarigen oorlog"
+      ],
+      "modules": [
+        13
       ],
       "timeline": [],
       "image": null
@@ -1172,6 +1901,46 @@
       "image": null
     },
     {
+      "id": "michael-postan",
+      "name": "Michael Postan",
+      "full_name": "Michael Postan",
+      "lived": "1899 - 1981",
+      "sort_year": 1950,
+      "region": "Groot-Brittannië",
+      "known_for": "Economisch historicus die de crisis van de veertiende eeuw malthusiaans verklaarde.",
+      "bio": "Postan benadrukte bevolkingsgroei en voedselschaarste als verklaring voor de late-middeleeuwse crisis.",
+      "contributions": [
+        "Malthusiaanse verklaring"
+      ],
+      "modules": [
+        11
+      ],
+      "timeline": [
+        "brenner-debat-1976"
+      ],
+      "image": null
+    },
+    {
+      "id": "steven-runciman",
+      "name": "Steven Runciman",
+      "full_name": "Steven Runciman",
+      "lived": "1903 - 2000",
+      "sort_year": 1951,
+      "region": "Groot-Brittannië",
+      "known_for": "Schrijver van de driedelige History of the Crusades.",
+      "bio": "Runciman schreef tussen 1951 en 1954 een invloedrijk overzicht van de kruistochten.",
+      "contributions": [
+        "History of the Crusades"
+      ],
+      "modules": [
+        11
+      ],
+      "timeline": [
+        "runciman-history-of-the-crusades-1951"
+      ],
+      "image": null
+    },
+    {
       "id": "peter-brown",
       "name": "Peter Brown",
       "full_name": "Peter Brown",
@@ -1188,6 +1957,86 @@
       ],
       "timeline": [
         "brown-late-antiquity-1971"
+      ],
+      "image": null
+    },
+    {
+      "id": "crosby",
+      "name": "Crosby",
+      "full_name": "Alfred W. Crosby",
+      "lived": "1931 – 2018",
+      "sort_year": 1972,
+      "region": "Verenigde Staten",
+      "known_for": "Bedenker van de term Columbian exchange.",
+      "bio": "Crosby publiceerde in 1972 The Columbian Exchange en in 1986 Ecological Imperialism.",
+      "contributions": [
+        "The Columbian Exchange"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "crosby-columbian-exchange-1972"
+      ],
+      "image": null
+    },
+    {
+      "id": "robert-brenner",
+      "name": "Robert Brenner",
+      "full_name": "Robert Brenner",
+      "lived": "geboren 1943",
+      "sort_year": 1976,
+      "region": "Verenigde Staten",
+      "known_for": "Historicus die de crisis verklaarde uit klassenverhoudingen.",
+      "bio": "Brenner publiceerde in 1976 een artikel dat het debat over de late middeleeuwen opende.",
+      "contributions": [
+        "Het Brenner-debat"
+      ],
+      "modules": [
+        11
+      ],
+      "timeline": [
+        "brenner-debat-1976"
+      ],
+      "image": null
+    },
+    {
+      "id": "geoffrey-parker",
+      "name": "Parker",
+      "full_name": "Geoffrey Parker",
+      "lived": "geboren 1943",
+      "sort_year": 1977,
+      "region": "Verenigd Koninkrijk, Verenigde Staten",
+      "known_for": "Historicus van de Spaanse oorlogvoering in de Nederlanden.",
+      "bio": "Parker schreef The Dutch Revolt (1977) en onderzocht financiën en het leger van Vlaanderen.",
+      "contributions": [
+        "The Dutch Revolt (1977)"
+      ],
+      "modules": [
+        13
+      ],
+      "timeline": [
+        "parker-dutch-revolt-1977"
+      ],
+      "image": null
+    },
+    {
+      "id": "jonathan-riley-smith",
+      "name": "Jonathan Riley-Smith",
+      "full_name": "Jonathan Riley-Smith",
+      "lived": "1938 - 2016",
+      "sort_year": 1986,
+      "region": "Groot-Brittannië",
+      "known_for": "Historicus die het religieuze karakter van de kruistochten benadrukte.",
+      "bio": "Riley-Smith bestudeerde schenkingsoorkonden van kruisvaarders en zag de kruistocht als een gewapende vorm van boetedoening.",
+      "contributions": [
+        "The First Crusade and the Idea of Crusading"
+      ],
+      "modules": [
+        11
+      ],
+      "timeline": [
+        "riley-smith-first-crusade-1986"
       ],
       "image": null
     },
@@ -1250,6 +2099,106 @@
       ],
       "timeline": [
         "gobekli-tepe"
+      ],
+      "image": null
+    },
+    {
+      "id": "flynn-en-giraldez",
+      "name": "Flynn en Giráldez",
+      "full_name": "Dennis Flynn en Arturo Giráldez",
+      "lived": "actief vanaf de jaren 1990",
+      "sort_year": 1995,
+      "region": "Verenigde Staten en Filipijnen",
+      "known_for": "Betoogden dat de wereldhandel in 1571 begon.",
+      "bio": "Flynn en Giráldez publiceerden in 1995 hun artikel over de oorsprong van de wereldhandel in 1571.",
+      "contributions": [
+        "Born with a Silver Spoon"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "flynn-giraldez-1995"
+      ],
+      "image": null
+    },
+    {
+      "id": "jonathan-israel",
+      "name": "Israel",
+      "full_name": "Jonathan Israel",
+      "lived": "geboren 1946",
+      "sort_year": 1995,
+      "region": "Verenigd Koninkrijk, Verenigde Staten",
+      "known_for": "Schreef The Dutch Republic (1995).",
+      "bio": "Israel benadrukt oude verschillen tussen noord en zuid.",
+      "contributions": [
+        "The Dutch Republic (1995)"
+      ],
+      "modules": [
+        13
+      ],
+      "timeline": [
+        "israel-dutch-republic-1995"
+      ],
+      "image": null
+    },
+    {
+      "id": "carole-hillenbrand",
+      "name": "Carole Hillenbrand",
+      "full_name": "Carole Hillenbrand",
+      "lived": "20e - 21e eeuw",
+      "sort_year": 1999,
+      "region": "Groot-Brittannië",
+      "known_for": "Historica van de islamitische perspectieven op de kruistochten.",
+      "bio": "Hillenbrand schreef in 1999 The Crusades: Islamic Perspectives, op basis van Arabische bronnen.",
+      "contributions": [
+        "The Crusades: Islamic Perspectives"
+      ],
+      "modules": [
+        11
+      ],
+      "timeline": [
+        "hillenbrand-islamic-perspectives-1999"
+      ],
+      "image": null
+    },
+    {
+      "id": "henk-van-nierop",
+      "name": "Van Nierop",
+      "full_name": "Henk van Nierop",
+      "lived": "geboren 1952",
+      "sort_year": 1999,
+      "region": "Amsterdam",
+      "known_for": "Historicus van de Opstand; onderzocht verdeeldheid en terreur in het Noorderkwartier.",
+      "bio": "Van Nierop schreef Het verraad van het Noorderkwartier (1999).",
+      "contributions": [
+        "Het verraad van het Noorderkwartier"
+      ],
+      "modules": [
+        13
+      ],
+      "timeline": [
+        "van-nierop-noorderkwartier-1999"
+      ],
+      "image": null
+    },
+    {
+      "id": "restall",
+      "name": "Restall",
+      "full_name": "Matthew Restall",
+      "lived": "actief vanaf de jaren 1990",
+      "sort_year": 2003,
+      "region": "Verenigde Staten",
+      "known_for": "Schrijver van Seven Myths of the Spanish Conquest (2003).",
+      "bio": "Restall betoogt dat het gangbare verhaal van de Spaanse verovering mythen bevat en legt de nadruk op inheemse bondgenoten.",
+      "contributions": [
+        "Seven Myths of the Spanish Conquest"
+      ],
+      "modules": [
+        12
+      ],
+      "timeline": [
+        "restall-seven-myths-2003"
       ],
       "image": null
     },

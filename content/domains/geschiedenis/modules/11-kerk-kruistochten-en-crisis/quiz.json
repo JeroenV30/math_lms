@@ -1,0 +1,404 @@
+{
+  "title": "Hoofdstuktoets - Kerk, kruistochten en crisis",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "11-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat is simonie?",
+      "choices": [
+        "Het innen van de tiende door de parochie",
+        "Het benoemen van bisschoppen door een koning",
+        "Het huwelijk van priesters",
+        "Het kopen en verkopen van kerkelijke ambten"
+      ],
+      "answer": "Het kopen en verkopen van kerkelijke ambten",
+      "hints": [
+        "Genoemd naar Simon de Tovenaar."
+      ],
+      "solution": [
+        "Simonie is de handel in kerkelijke ambten."
+      ],
+      "feedback": [
+        {
+          "answer": "Het benoemen van bisschoppen door een koning",
+          "message": "Dat is lekeninvestituur, een andere kwaal die hervormers bestreden."
+        }
+      ],
+      "topics": [
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "11-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom wordt het Concordaat van Worms (1122) een compromis genoemd?",
+      "choices": [
+        "Keizer en paus kregen allebei een deel: de kerk de geestelijke investituur, de keizer invloed en de wereldlijke rechten",
+        "De paus won volledig, de keizer deed afstand van alle invloed",
+        "De keizer won volledig, de paus erkende zijn gezag",
+        "Het loste niets op, omdat de strijd daarna in dezelfde vorm doorging"
+      ],
+      "answer": "Keizer en paus kregen allebei een deel: de kerk de geestelijke investituur, de keizer invloed en de wereldlijke rechten",
+      "hints": [],
+      "solution": [
+        "Ambt en wereldlijke rechten werden gescheiden."
+      ],
+      "feedback": [
+        {
+          "answer": "De paus won volledig, de keizer deed afstand van alle invloed",
+          "message": "De keizer behield invloed bij de verkiezing en verleende de wereldlijke rechten."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "causation"
+      ]
+    },
+    {
+      "id": "11-T03",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Hendrik IV doet boete bij Canossa (1077)",
+        "Oproep van Urbanus II in Clermont (1095)",
+        "Inname van Jeruzalem (1099)",
+        "Concordaat van Worms (1122)"
+      ],
+      "hints": [],
+      "solution": [
+        "1077, 1095, 1099, 1122."
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "11-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat kun je met deze bron wel concluderen?",
+      "choices": [
+        "Dat Fulcher de oproep van de paus zo weergaf dat hulp aan de oosterse christenen en vergeving van zonden centraal staan",
+        "Dat de kruistocht een economisch project was",
+        "Dat Jeruzalem het enige doel van de paus was",
+        "Dat de paus precies deze woorden uitsprak"
+      ],
+      "answer": "Dat Fulcher de oproep van de paus zo weergaf dat hulp aan de oosterse christenen en vergeving van zonden centraal staan",
+      "hints": [],
+      "solution": [
+        "Een verslag zegt iets over de schrijver en zijn weergave."
+      ],
+      "context": "Fulcher van Chartres (begonnen rond 1100): de paus zegt dat de broeders in het oosten dringend hulp nodig hebben en dat wie onderweg of in de strijd sterft, onmiddellijke vergeving van zonden krijgt (vrij vertaald).",
+      "feedback": [
+        {
+          "answer": "Dat de paus precies deze woorden uitsprak",
+          "message": "Dit is een latere weergave, geen letterlijke tekst."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "11-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Robert de Monnik schreef rond 1106-1107 dat de menigte riep dat God het wilde en noemde Jeruzalem de navel van de wereld. Waarom is deze versie minder geschikt om de bedoelingen van Urbanus II in 1095 vast te stellen?",
+      "choices": [
+        "Robert schreef na de verovering van Jeruzalem en kan de toespraak door die kennis hebben gekleurd",
+        "Robert schreef in het Arabisch",
+        "Robert was een tegenstander van de paus",
+        "Robert had zich vergist in het jaar van de toespraak"
+      ],
+      "answer": "Robert schreef na de verovering van Jeruzalem en kan de toespraak door die kennis hebben gekleurd",
+      "hints": [],
+      "solution": [
+        "Kennis achteraf kleurt een verslag."
+      ],
+      "feedback": [
+        {
+          "answer": "Robert was een tegenstander van de paus",
+          "message": "Daar wijst niets op. Het probleem is het tijdsverschil en de kennis achteraf."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "causation"
+      ]
+    },
+    {
+      "id": "11-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke uitspraak over de motieven van kruisvaarders is het best onderbouwd?",
+      "choices": [
+        "Over motieven is niets te zeggen",
+        "Motieven waren gemengd: religie speelde een grote rol, naast land, eer en avontuur, en de bronnen laten niet toe de verhouding precies te bepalen",
+        "Alleen religie speelde een rol",
+        "Alleen het zoeken naar land en buit speelde een rol"
+      ],
+      "answer": "Motieven waren gemengd: religie speelde een grote rol, naast land, eer en avontuur, en de bronnen laten niet toe de verhouding precies te bepalen",
+      "hints": [],
+      "solution": [
+        "Monocausaal denken vermijden."
+      ],
+      "feedback": [
+        {
+          "answer": "Alleen religie speelde een rol",
+          "message": "Dat is monocausaal. Ook land en aanzien trokken mensen aan."
+        },
+        {
+          "answer": "Over motieven is niets te zeggen",
+          "message": "Dat gaat te ver: schenkingen en kronieken zeggen er wel degelijk iets over."
+        }
+      ],
+      "topics": [
+        "causation",
+        "perspective"
+      ]
+    },
+    {
+      "id": "11-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een Hebreeuwse kroniek uit de twaalfde eeuw beschrijft de aanvallen op Joodse gemeenschappen in het Rijnland in 1096. Wat is een juiste beoordeling van deze bron?",
+      "choices": [
+        "Ze is waardeloos omdat ze later is geschreven",
+        "Ze geeft precies het aantal slachtoffers",
+        "Ze is volledig neutraal, omdat de schrijvers geen deel waren van de gebeurtenis",
+        "Ze geeft het perspectief van de slachtoffers, maar is later geschreven en dus niet neutraal"
+      ],
+      "answer": "Ze geeft het perspectief van de slachtoffers, maar is later geschreven en dus niet neutraal",
+      "hints": [],
+      "solution": [
+        "Perspectief en herkomst."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze is waardeloos omdat ze later is geschreven",
+          "message": "Latere bronnen zijn bruikbaar voor de vragen waarvoor ze geschikt zijn."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "11-T08",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet de aankomst van de Zwarte Dood in deze plaatsen in volgorde, de eerste eerst.",
+      "answer": [
+        "Messina (oktober 1347)",
+        "Marseille (november 1347)",
+        "Zuid-Engeland (juni 1348)",
+        "Doornik (1349)"
+      ],
+      "hints": [],
+      "solution": [
+        "1347, 1347, 1348, 1349."
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "11-T09",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel jaar zit er tussen het begin van de Grote Hongersnood (1315) en de aankomst van de pest in Messina (1347)?",
+      "answer": 32,
+      "hints": [],
+      "solution": [
+        "1347 min 1315 is 32."
+      ],
+      "unit": "jaar",
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "11-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat zegt dit fragment vooral over Anna Komnene?",
+      "choices": [
+        "Dat zij een moslim was",
+        "Dat zij zelf meeging met de kruisvaarders",
+        "Dat zij de komst van de Franken zag als een bedreigende volksverhuizing, vanuit het Byzantijnse hof geschreven",
+        "Dat zij de kruistocht steunde"
+      ],
+      "answer": "Dat zij de komst van de Franken zag als een bedreigende volksverhuizing, vanuit het Byzantijnse hof geschreven",
+      "hints": [],
+      "solution": [
+        "Let op positie en doel van de schrijver."
+      ],
+      "context": "Anna Komnene (ca. 1148): heel het Westen en alle barbarenstammen tussen de Adriatische Zee en de Zuilen van Herakles hadden zich in hun geheel naar Azië verplaatst (vrij vertaald naar de Engelse vertaling van Dawes, 1928).",
+      "feedback": [
+        {
+          "answer": "Dat zij de kruistocht steunde",
+          "message": "Het fragment drukt eerder schrik uit dan steun."
+        }
+      ],
+      "topics": [
+        "perspective"
+      ]
+    },
+    {
+      "id": "11-T11",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat was een gevolg van de grote sterfte van de Zwarte Dood voor de arbeidsmarkt?",
+      "choices": [
+        "De overheid schafte de lonen af",
+        "De lonen daalden omdat er minder werk was",
+        "Arbeid werd schaars, de lonen stegen en overheden probeerden dat met wetten tegen te gaan",
+        "Er veranderde niets"
+      ],
+      "answer": "Arbeid werd schaars, de lonen stegen en overheden probeerden dat met wetten tegen te gaan",
+      "hints": [],
+      "solution": [
+        "Minder mensen, minder arbeidskracht."
+      ],
+      "feedback": [
+        {
+          "answer": "De lonen daalden omdat er minder werk was",
+          "message": "Er was juist minder arbeidskracht, dus lonen stegen."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "11-T12",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Thomas Walsingham schreef dat John Ball in 1381 vroeg wie de edelman was toen Adam spitte en Eva spon. Wat kun je met zo'n bron doen?",
+      "choices": [
+        "Ze is onbruikbaar omdat Walsingham de opstand afkeurde",
+        "Ze bewijst dat de opstand een godsdienstoorlog was",
+        "Ze laat zien hoe een kroniekschrijver de ideeën van de opstandelingen voorstelde, maar of Ball dit zo zei, is niet zeker",
+        "Ze bewijst dat Ball die woorden zo uitsprak"
+      ],
+      "answer": "Ze laat zien hoe een kroniekschrijver de ideeën van de opstandelingen voorstelde, maar of Ball dit zo zei, is niet zeker",
+      "hints": [],
+      "solution": [
+        "Wie schrijft er, en voor wie?"
+      ],
+      "context": "Thomas Walsingham, kroniekschrijver in een Engelse abdij, legt John Ball deze vraag in de mond: 'Toen Adam spitte en Eva spon, wie was toen de edelman?' (vrij vertaald).",
+      "feedback": [
+        {
+          "answer": "Ze bewijst dat Ball die woorden zo uitsprak",
+          "message": "Het is een weergave door een vijandige kroniekschrijver, geen letterlijk bewijs."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "perspective"
+      ]
+    },
+    {
+      "id": "11-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat is het kernverschil tussen de verklaringen van Postan en Brenner voor de late-middeleeuwse crisis?",
+      "choices": [
+        "Postan benadrukt bevolking en voedsel, Brenner de verhoudingen tussen sociale klassen",
+        "Beiden gaven dezelfde verklaring",
+        "Postan benadrukt de rol van de kerk, Brenner de rol van de pest",
+        "Postan benadrukt klassenstrijd, Brenner bevolking"
+      ],
+      "answer": "Postan benadrukt bevolking en voedsel, Brenner de verhoudingen tussen sociale klassen",
+      "hints": [],
+      "solution": [
+        "Malthusiaans versus klassenverhoudingen."
+      ],
+      "feedback": [
+        {
+          "answer": "Postan benadrukt klassenstrijd, Brenner bevolking",
+          "message": "Dat is omgekeerd: Postan was malthusiaans, Brenner benadrukte klassenverhoudingen."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "causation"
+      ]
+    },
+    {
+      "id": "11-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een studie met pollen op 261 plaatsen suggereert dat de gevolgen van de pest per streek sterk verschilden. Een andere historicus houdt vast aan een algemene sterfte van ongeveer de helft. Hoe weeg je dat?",
+      "choices": [
+        "Beide gebruiken andere bronnen en methoden; je moet nagaan wat elk bron kan zeggen en een marge noemen",
+        "De nieuwste studie heeft altijd gelijk",
+        "Er kan niets uit worden geconcludeerd",
+        "De oudere schatting heeft altijd gelijk omdat ze meer gezag heeft"
+      ],
+      "answer": "Beide gebruiken andere bronnen en methoden; je moet nagaan wat elk bron kan zeggen en een marge noemen",
+      "hints": [],
+      "solution": [
+        "Methoden vergelijken, niet alleen uitkomsten."
+      ],
+      "context": "Een studie uit 2022 naar pollen op 261 plaatsen stelt dat de sterfte per streek sterk verschilde. John Aberth meent dat dit zijn schatting van ongeveer de helft van de Europeanen niet verandert.",
+      "feedback": [
+        {
+          "answer": "De nieuwste studie heeft altijd gelijk",
+          "message": "Nieuw is niet per se beter. Elke methode heeft beperkingen."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "sources"
+      ]
+    },
+    {
+      "id": "11-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat laat het Westers Schisma samen met de Moderne Devotie zien over de crisis van de veertiende eeuw?",
+      "choices": [
+        "Dat de kerk na 1417 geen rol meer speelde",
+        "Dat de kerk institutioneel verdeeld raakte, terwijl gelovigen tegelijk nieuwe, innerlijker vormen van vroomheid zochten",
+        "Dat er geen verband bestond tussen kerkelijke en maatschappelijke crisis",
+        "Dat de kerk haar macht verloor en het geloof verdween"
+      ],
+      "answer": "Dat de kerk institutioneel verdeeld raakte, terwijl gelovigen tegelijk nieuwe, innerlijker vormen van vroomheid zochten",
+      "hints": [],
+      "solution": [
+        "Crisis en vernieuwing tegelijk."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat de kerk haar macht verloor en het geloof verdween",
+          "message": "Het geloof verdween niet: het veranderde van vorm."
+        }
+      ],
+      "topics": [
+        "continuity-change",
+        "middle-ages"
+      ]
+    }
+  ]
+}

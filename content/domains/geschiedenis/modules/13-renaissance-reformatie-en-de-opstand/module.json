@@ -3,19 +3,152 @@
   "slug": "renaissance-reformatie-en-de-opstand",
   "title": "Renaissance, Reformatie en de Opstand",
   "part": 5,
-  "status": "planned",
+  "status": "available",
   "historical_period": "Ca. 1450 – 1648",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 210,
   "prerequisites": [
     1
   ],
   "topics": [
     "early-modern",
     "causation",
-    "sources"
+    "sources",
+    "perspective",
+    "historiography"
   ],
   "core_question": "Waarom kwamen de Nederlanden in opstand tegen hun vorst?",
   "summary": "Humanisme en boekdrukkunst, Luther en Calvijn, en de Nederlandse Opstand als samenspel van geloof, belasting en privileges.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een ets uit Keulen over een augustusdag in 1566",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "terug-naar-de-bronnen",
+      "title": "Terug naar de bronnen",
+      "file": "02-terug-naar-de-bronnen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "reformatie-en-calvinisme",
+      "title": "Reformatie en calvinisme",
+      "file": "03-reformatie-en-calvinisme.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "privileges-plakkaten-en-beeldenstorm",
+      "title": "Privileges, plakkaten en beeldenstorm",
+      "file": "04-privileges-plakkaten-en-beeldenstorm.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "van-opstand-tot-republiek",
+      "title": "Van opstand tot Republiek",
+      "file": "05-van-opstand-tot-republiek.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Opstand of burgeroorlog?",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Drie bronnen over verzet",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen hoe humanisme en boekdrukkunst de Reformatie mogelijk maakten, zonder de pers als enige oorzaak te zien.",
+    "Je kunt Luther, Calvijn en de dopers onderscheiden en verklaren waarom het calvinisme in de Nederlanden aansloeg.",
+    "Je kunt de belangrijkste gebeurtenissen van de Opstand (1555-1648) in de juiste volgorde zetten.",
+    "Je kunt geloof, belasting en privileges als oorzaken scheiden en wegen, en korte- en langetermijnoorzaken onderscheiden.",
+    "Je kunt een bron als de prent van Hogenberg of het Plakkaat van Verlatinghe analyseren op herkomst, doel en grenzen.",
+    "Je kunt de perspectieven van Filips II, Oranje en katholieken en calvinisten onderscheiden en de standpunten van Fruin, Geyl, Parker, Israel en Van Nierop weergeven."
+  ],
+  "glossary": [
+    {
+      "term": "Humanisme",
+      "definition": "Beweging van geleerden die teksten uit de oudheid en de oorspronkelijke bijbeltalen wilden lezen en kritisch onderzochten."
+    },
+    {
+      "term": "Reformatie",
+      "definition": "De 16e-eeuwse beweging die de westerse kerk splitste, begonnen met kritiek van Luther in 1517."
+    },
+    {
+      "term": "Privilege",
+      "definition": "Vastgelegd recht van een stad, gewest of stand, waaraan ook de landsheer gebonden was."
+    },
+    {
+      "term": "Plakkaat",
+      "definition": "Openbaar gemaakte wet of verordening van een landsheer."
+    },
+    {
+      "term": "Beeldenstorm",
+      "definition": "De golf van beeldenvernieling in kerken en kloosters in de zomer van 1566."
+    },
+    {
+      "term": "Geuzen",
+      "definition": "Scheldnaam die edelen in 1566 overnamen; later ook de watergeuzen."
+    },
+    {
+      "term": "Tiende penning",
+      "definition": "Door Alva beoogde blijvende belasting van tien procent op verkoop."
+    },
+    {
+      "term": "Staten-Generaal",
+      "definition": "Vergadering van afgevaardigden van de gewesten; in 1581 zegden zij Filips II de gehoorzaamheid op."
+    }
+  ],
+  "timeline": [
+    "beeldenstorm-1566",
+    "gutenberg-bijbel-1455",
+    "erasmus-novum-instrumentum-1516",
+    "luther-stellingen-1517",
+    "rijksdag-worms-1521",
+    "calvijn-institutie-1536",
+    "bloedplakkaat-1550",
+    "abdicatie-karel-v-1555",
+    "smeekschrift-edelen-1566",
+    "alva-raad-van-beroerten-1567",
+    "inname-den-briel-1572",
+    "pacificatie-van-gent-1576",
+    "unie-van-utrecht-1579",
+    "plakkaat-van-verlatinghe-1581",
+    "moord-op-willem-van-oranje-1584",
+    "val-van-antwerpen-1585",
+    "twaalfjarig-bestand-1609",
+    "vrede-van-munster-1648",
+    "geyl-revolt-1932",
+    "parker-dutch-revolt-1977",
+    "israel-dutch-republic-1995",
+    "van-nierop-noorderkwartier-1999"
+  ],
+  "people": [
+    "geyl",
+    "johannes-gutenberg",
+    "erasmus",
+    "luther",
+    "calvijn",
+    "karel-v",
+    "filips-ii",
+    "willem-van-oranje",
+    "margaretha-van-parma",
+    "alva",
+    "fruin",
+    "geoffrey-parker",
+    "jonathan-israel",
+    "henk-van-nierop"
+  ]
 }

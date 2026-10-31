@@ -1,0 +1,1115 @@
+{
+  "exercises": [
+    {
+      "id": "12-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Naar wie werd het werelddeel op de wereldkaart van Waldseemüller (1507) genoemd?",
+      "choices": [
+        "Amerigo Vespucci, wiens reisverslagen veel gelezen werden",
+        "Christoffel Columbus, die als eerste was aangekomen",
+        "Een inheems woord dat de bewoners zelf gebruikten",
+        "Koningin Isabella, de opdrachtgeefster van Columbus"
+      ],
+      "answer": "Amerigo Vespucci, wiens reisverslagen veel gelezen werden",
+      "hints": [
+        "Lees de titel van de kaart: welke naam staat daar naast Ptolemaeus?",
+        "Columbus dacht dat hij Azië had bereikt."
+      ],
+      "solution": [
+        "De kaart is gemaakt in Saint-Dié en noemt in haar titel Amerigo Vespucci.",
+        "Waldseemüller en zijn medewerkers gaven het nieuwe land een naam die was afgeleid van Amerigo."
+      ],
+      "feedback": [
+        {
+          "answer": "Christoffel Columbus, die als eerste was aangekomen",
+          "message": "Columbus was de eerste Europeaan die in 1492 de Bahama's bereikte, maar de kaartenmakers in Saint-Dié noemden het land naar Vespucci. Columbus dacht bovendien dat hij Azië had bereikt."
+        },
+        {
+          "answer": "Een inheems woord dat de bewoners zelf gebruikten",
+          "message": "De naam is Europees van oorsprong: een Latijnse vorm van de voornaam van Amerigo Vespucci."
+        }
+      ],
+      "topics": [
+        "early-modern",
+        "perspective"
+      ]
+    },
+    {
+      "id": "12-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat zegt de wereldkaart van Waldseemüller uit 1507 vooral?",
+      "choices": [
+        "Hoe Europese geleerden in 1507 de nieuwe landen zagen, op basis van verslagen van anderen",
+        "Hoe de bewoners van Amerika hun eigen land noemden en indeelden",
+        "Een ooggetuigenverslag van de ontdekking ter plaatse",
+        "Een officiële kaart van de Spaanse kroon"
+      ],
+      "answer": "Hoe Europese geleerden in 1507 de nieuwe landen zagen, op basis van verslagen van anderen",
+      "hints": [
+        "Waldseemüller werkte in Lotharingen. Was hij er zelf geweest?",
+        "Denk aan de vraag: wie maakte de kaart, en wie ontbreekt?"
+      ],
+      "solution": [
+        "Waldseemüller was nooit in Amerika geweest en baseerde zich op verslagen van anderen, onder wie Vespucci.",
+        "De kaart is dus een bron voor het Europese beeld van de nieuwe landen, niet voor het beeld van de bewoners."
+      ],
+      "feedback": [
+        {
+          "answer": "Een ooggetuigenverslag van de ontdekking ter plaatse",
+          "message": "Waldseemüller was er zelf niet bij. Hij verwerkte verslagen van anderen."
+        },
+        {
+          "answer": "Hoe de bewoners van Amerika hun eigen land noemden en indeelden",
+          "message": "De bewoners komen op de kaart niet zelf aan het woord."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "12-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat kenmerkte het handelsnetwerk rond de Indische Oceaan omstreeks 1400?",
+      "choices": [
+        "Een netwerk van havensteden met kooplieden uit veel streken, zonder één macht die het geheel beheerste",
+        "Een netwerk dat door Europese oorlogsvloten werd beheerst",
+        "Een Chinees monopolie dat andere kooplieden uitsloot",
+        "Een handel die uitsluitend over land liep"
+      ],
+      "answer": "Een netwerk van havensteden met kooplieden uit veel streken, zonder één macht die het geheel beheerste",
+      "hints": [
+        "Denk aan de moessonwinden en aan steden als Calicut, Kilwa en Malakka.",
+        "Europese schepen kwamen pas rond 1500."
+      ],
+      "solution": [
+        "De Indische Oceaan was een eeuwenoud netwerk van Arabische, Perzische, Indiase, Swahili-, Zuidoost-Aziatische en Chinese kooplieden.",
+        "Geen enkele macht controleerde het geheel. Dat maakte het later kwetsbaar voor gewapende Portugese schepen."
+      ],
+      "feedback": [
+        {
+          "answer": "Een netwerk dat door Europese oorlogsvloten werd beheerst",
+          "message": "Europese vloten kwamen er pas na 1498."
+        },
+        {
+          "answer": "Een Chinees monopolie dat andere kooplieden uitsloot",
+          "message": "Chinese schepen waren één van de deelnemers; ze hadden geen monopolie."
+        },
+        {
+          "answer": "Een handel die uitsluitend over land liep",
+          "message": "De moessonroutes over zee waren juist het hart van het netwerk."
+        }
+      ],
+      "topics": [
+        "early-modern",
+        "perspective"
+      ]
+    },
+    {
+      "id": "12-004",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Eerste tocht van Zheng He (1405)",
+        "Portugal verovert Ceuta (1415)",
+        "Einde van de zevende tocht van Zheng He (1433)",
+        "Mehmed II verovert Constantinopel (1453)",
+        "Columbus bereikt de Bahama's (1492)"
+      ],
+      "hints": [
+        "Let op: de reeks tochten van Zheng He loopt van 1405 tot 1433."
+      ],
+      "solution": [
+        "1405, 1415, 1433, 1453, 1492."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Portugal verovert Ceuta (1415)",
+            "Eerste tocht van Zheng He (1405)",
+            "Einde van de zevende tocht van Zheng He (1433)",
+            "Mehmed II verovert Constantinopel (1453)",
+            "Columbus bereikt de Bahama's (1492)"
+          ],
+          "message": "De eerste Chinese tocht (1405) was al tien jaar vóór de verovering van Ceuta begonnen."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "early-modern"
+      ]
+    },
+    {
+      "id": "12-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "De zeven expedities van Zheng He liepen van 1405 tot en met 1433. Hoeveel jaar zit er tussen het begin en het einde van die reeks?",
+      "answer": 28,
+      "hints": [
+        "Trek het beginjaar af van het eindjaar."
+      ],
+      "solution": [
+        "1433 − 1405 = 28 jaar."
+      ],
+      "unit": "jaar",
+      "feedback": [
+        {
+          "answer": 29,
+          "message": "Je hebt beide jaren meegeteld. Het verschil tussen twee jaartallen is het aantal jaren ertussen, dus eindjaar min beginjaar."
+        }
+      ],
+      "topics": [
+        "early-modern",
+        "chronology"
+      ]
+    },
+    {
+      "id": "12-006",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een medestudent schrijft: \"De Chinese tochten stopten omdat China zich afsloot van de wereld.\" Wat is de belangrijkste zwakte van die uitspraak?",
+      "choices": [
+        "Ze noemt één oorzaak en negeert dat Chinese kooplieden bleven varen en dat meerdere factoren meespeelden",
+        "Ze is onjuist omdat de tochten nooit zijn gestopt",
+        "Ze mag niet, want over de tochten bestaan geen bronnen",
+        "Ze is te kritisch op het Chinese hof"
+      ],
+      "answer": "Ze noemt één oorzaak en negeert dat Chinese kooplieden bleven varen en dat meerdere factoren meespeelden",
+      "hints": [
+        "Is het een monocausale of een multicausale verklaring?",
+        "Hielden de handel en de Chinese schippers op, of alleen de hofexpedities?"
+      ],
+      "solution": [
+        "De uitspraak is monocausaal en leest de uitkomst terug in de oorzaak.",
+        "De hofvloten hielden op, maar de Chinese handel op zee ging door. Er speelden meerdere factoren: de dood van Yongle, de verhuizing naar Peking, de noordgrens, de kosten en de strijd tussen hofgroepen."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze is onjuist omdat de tochten nooit zijn gestopt",
+          "message": "De hofgesponsorde expedities eindigden na 1433."
+        },
+        {
+          "answer": "Ze mag niet, want over de tochten bestaan geen bronnen",
+          "message": "Er zijn bronnen, ook al zijn ze dun en omstreden. Dat vraagt voorzichtigheid, geen stilzwijgen."
+        }
+      ],
+      "topics": [
+        "causation",
+        "early-modern"
+      ]
+    },
+    {
+      "id": "12-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom is de verklaring \"de Portugezen gingen de zee op omdat de Turken in 1453 de handelsweg afsloten\" te simpel?",
+      "choices": [
+        "De Portugese tochten begonnen al ver vóór 1453 en de specerijenhandel via Egypte liep door",
+        "De Turken bestonden in 1453 nog niet als staat",
+        "Het Ottomaanse Rijk handelde nooit met Europa",
+        "De Portugezen wilden geen specerijen"
+      ],
+      "answer": "De Portugese tochten begonnen al ver vóór 1453 en de specerijenhandel via Egypte liep door",
+      "hints": [
+        "Wanneer werd Ceuta veroverd, en wanneer Constantinopel?",
+        "Via welk land liep een belangrijke deel van de specerijenhandel?"
+      ],
+      "solution": [
+        "Ceuta werd in 1415 veroverd en de tochten langs de Afrikaanse kust begonnen daarna, dus ruim vóór 1453.",
+        "De specerijenhandel via Alexandrië bleef doorlopen. De verklaring verwart een bijkomende omstandigheid met de oorzaak."
+      ],
+      "feedback": [
+        {
+          "answer": "De Turken bestonden in 1453 nog niet als staat",
+          "message": "Het Ottomaanse Rijk bestond al sinds ca. 1300."
+        },
+        {
+          "answer": "Het Ottomaanse Rijk handelde nooit met Europa",
+          "message": "Venetië en Genua dreven veel handel met het Ottomaanse Rijk."
+        }
+      ],
+      "topics": [
+        "causation",
+        "early-modern"
+      ]
+    },
+    {
+      "id": "12-008",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Leg uit waarom het tribuutstelsel van het Azteekse rijk zowel een sterkte als een zwakte was. Schrijf ongeveer vijf zinnen.",
+      "answer": "Sterkte: rijkdom en voedsel in het centrum, een groot hinterland. Zwakte: wrok in onderworpen steden, die in 1519 bereid waren zich bij Cortés aan te sluiten.",
+      "min_length": 60,
+      "hints": [
+        "Denk aan wie het tribuut ontving en wie het betaalde.",
+        "Wat deden onderworpen steden toen er een alternatieve bondgenoot kwam?"
+      ],
+      "solution": [
+        "Het stelsel bracht goederen, voedsel en arbeid naar Tenochtitlan en maakte de stad rijk en machtig.",
+        "Tegelijk betaalden onderworpen steden tegen hun zin. Toen Cortés kwam, zagen veel van hen een kans om het tribuut kwijt te raken. Het rijk was dus geen eenheid, maar een mozaïek van afhankelijke steden."
+      ],
+      "topics": [
+        "causation",
+        "perspective"
+      ]
+    },
+    {
+      "id": "12-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat was de betekenis van Ceuta (1415) voor de Portugese expansie?",
+      "choices": [
+        "Een eerste buitenlandse verovering aan de Afrikaanse kust, bij een knooppunt van de goudhandel",
+        "De eerste Portugese vestiging in India",
+        "Het begin van de ontdekking van Amerika",
+        "De plek waar Hendrik de Zeevaarder zijn schepen liet bouwen"
+      ],
+      "answer": "Een eerste buitenlandse verovering aan de Afrikaanse kust, bij een knooppunt van de goudhandel",
+      "hints": [
+        "Waar ligt Ceuta?",
+        "Welke handel kwam daar samen?"
+      ],
+      "solution": [
+        "Ceuta, aan de Straat van Gibraltar, was een eindpunt van de karavaanhandel waarlangs West-Afrikaans goud naar de Middellandse Zee kwam.",
+        "De verovering was een eerste stap van de Portugese expansie in Noord-Afrika, ruim een halve eeuw vóór Dias."
+      ],
+      "feedback": [
+        {
+          "answer": "De eerste Portugese vestiging in India",
+          "message": "India werd pas na 1498 bereikt."
+        },
+        {
+          "answer": "Het begin van de ontdekking van Amerika",
+          "message": "Amerika werd pas in 1492 bereikt, door Columbus in Spaanse dienst."
+        }
+      ],
+      "topics": [
+        "early-modern"
+      ]
+    },
+    {
+      "id": "12-010",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Zet deze reizen en afspraken in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Dias rondt de zuidpunt van Afrika (1488)",
+        "Columbus bereikt de Bahama's (1492)",
+        "Verdrag van Tordesillas (1494)",
+        "Da Gama bereikt Calicut (1498)",
+        "Magalhães vertrekt met vijf schepen (1519)"
+      ],
+      "hints": [
+        "Het verdrag volgde op de reis van Columbus."
+      ],
+      "solution": [
+        "1488, 1492, 1494, 1498, 1519."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Columbus bereikt de Bahama's (1492)",
+            "Dias rondt de zuidpunt van Afrika (1488)",
+            "Verdrag van Tordesillas (1494)",
+            "Da Gama bereikt Calicut (1498)",
+            "Magalhães vertrekt met vijf schepen (1519)"
+          ],
+          "message": "Dias rondde de Kaap in 1488, vier jaar vóór Columbus' reis."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "early-modern"
+      ]
+    },
+    {
+      "id": "12-011",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is de belangrijkste beperking van dit fragment als bron voor het perspectief van de bewoners?",
+      "choices": [
+        "Het is overgeleverd via Las Casas en zegt niets over wat de Taíno zelf dachten",
+        "Het is onbetrouwbaar omdat Columbus liegt over de plaats van aankomst",
+        "Het is betrouwbaar omdat het een primaire bron is",
+        "Het is pas in 1506 geschreven"
+      ],
+      "answer": "Het is overgeleverd via Las Casas en zegt niets over wat de Taíno zelf dachten",
+      "hints": [
+        "Wie schreef het, en voor wie?",
+        "Komen de Taíno in het fragment zelf aan het woord?"
+      ],
+      "solution": [
+        "Het journaal is verloren en alleen bekend uit een uittreksel van Las Casas.",
+        "Het fragment toont wat Columbus van de bewoners verwachtte, niet hoe zij hem zagen. De beperking zit dus in de herkomst en in het perspectief."
+      ],
+      "context": "\"Ze moeten goede dienaren zijn en slim, want ik zie dat ze snel herhalen wat ik zeg, en ik geloof dat ze gemakkelijk christenen zullen worden.\" (Columbus, 12 oktober 1492, in het uittreksel van Las Casas; parafrase.)",
+      "feedback": [
+        {
+          "answer": "Het is betrouwbaar omdat het een primaire bron is",
+          "message": "Primair betekent niet automatisch betrouwbaar: de tekst is een bewerking en de schrijver heeft een eigen doel."
+        },
+        {
+          "answer": "Het is pas in 1506 geschreven",
+          "message": "1506 is het jaar van Columbus' dood. Het uittreksel is in de 16e eeuw door Las Casas gemaakt."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "perspective"
+      ]
+    },
+    {
+      "id": "12-012",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat regelde het Verdrag van Tordesillas (7 juni 1494)?",
+      "choices": [
+        "Een lijn 370 leguas ten westen van de Kaapverdische Eilanden: westelijk voor Spanje, oostelijk voor Portugal",
+        "Een verdeling van Amerika onder alle Europese landen",
+        "Een handelsverdrag tussen Spanje en de Azteken",
+        "De erkenning van Columbus als onderkoning van Azië"
+      ],
+      "answer": "Een lijn 370 leguas ten westen van de Kaapverdische Eilanden: westelijk voor Spanje, oostelijk voor Portugal",
+      "hints": [
+        "Wie sloten het verdrag?",
+        "Waarom kreeg Portugal later aanspraak op Brazilië?"
+      ],
+      "solution": [
+        "Spanje en Portugal sloten het verdrag onderling, zonder andere Europese staten.",
+        "Brazilië lag ten oosten van de lijn, dus kwam het aan Portugal toe."
+      ],
+      "feedback": [
+        {
+          "answer": "Een verdeling van Amerika onder alle Europese landen",
+          "message": "Alleen Spanje en Portugal waren partij; andere landen erkenden de verdeling niet."
+        }
+      ],
+      "topics": [
+        "early-modern"
+      ]
+    },
+    {
+      "id": "12-013",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een boek schrijft: \"Columbus ging op reis om het christendom te verbreiden.\" Wat is de beste reactie vanuit historisch denken?",
+      "choices": [
+        "Geloof speelde mee, maar naast handel, prestige en persoonlijke ambitie; één motief aanwijzen is te eenvoudig",
+        "Dat klopt: godsdienst was het enige motief",
+        "Dat klopt niet: geloof speelde in de 15e eeuw geen rol",
+        "Motieven zijn niet te onderzoeken, dus het doet er niet toe"
+      ],
+      "answer": "Geloof speelde mee, maar naast handel, prestige en persoonlijke ambitie; één motief aanwijzen is te eenvoudig",
+      "hints": [
+        "Welke motieven noemde de les nog meer?",
+        "Wat is het verschil tussen wat iemand zegt en wat hem dreef?"
+      ],
+      "solution": [
+        "Geloof was voor mensen uit die tijd tegelijk een reden en een rechtvaardiging.",
+        "Columbus eiste ook titels en een deel van de opbrengst. Wie één motief als het motief neemt, verwart wat iemand zegt met wat hem dreef."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat klopt: godsdienst was het enige motief",
+          "message": "Er speelden meerdere motieven: handel, goud, prestige en ambitie."
+        },
+        {
+          "answer": "Dat klopt niet: geloof speelde in de 15e eeuw geen rol",
+          "message": "Dat is presentistisch: voor mensen toen was geloof een zeer belangrijke drijfveer."
+        }
+      ],
+      "topics": [
+        "causation",
+        "early-modern"
+      ]
+    },
+    {
+      "id": "12-014",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel jaar zat er tussen de verovering van Ceuta (1415) en de reis van Dias rond de zuidpunt van Afrika (1488)?",
+      "answer": 73,
+      "hints": [
+        "Trek 1415 af van 1488."
+      ],
+      "solution": [
+        "1488 − 1415 = 73 jaar: de Portugese expansie langs de Afrikaanse kust was een proces van generaties."
+      ],
+      "unit": "jaar",
+      "feedback": [
+        {
+          "answer": 72,
+          "message": "Reken nog eens na: 1488 min 1415 is 73."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "early-modern"
+      ]
+    },
+    {
+      "id": "12-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bernal Díaz schreef zijn verslag over de verovering van Mexico rond 1568. Wat betekent dat voor het gebruik als bron voor 1519?",
+      "choices": [
+        "Hij schreef tientallen jaren later, uit herinnering en met een eigen doel; dus voorzichtig gebruiken",
+        "Hij was erbij, dus het verslag is volledig betrouwbaar",
+        "Het verslag is waardeloos omdat soldaten niet kunnen schrijven",
+        "Het verslag is pas na zijn dood geschreven"
+      ],
+      "answer": "Hij schreef tientallen jaren later, uit herinnering en met een eigen doel; dus voorzichtig gebruiken",
+      "hints": [
+        "Hoeveel jaar zit er tussen 1519 en 1568?",
+        "Wat wilde Bernal Díaz bereiken?"
+      ],
+      "solution": [
+        "Er zitten bijna vijftig jaar tussen de gebeurtenissen en het verslag.",
+        "Díaz wilde de rol van gewone soldaten tegenover de roem van Cortés benadrukken. Het verslag is waardevol maar niet neutraal."
+      ],
+      "context": "\"We zeiden dat het leek op de betoverde dingen uit het boek van Amadís, vanwege de grote torens, tempels en gebouwen die uit het water oprezen.\" (Bernal Díaz del Castillo, ca. 1568; vrij vertaald.)",
+      "feedback": [
+        {
+          "answer": "Hij was erbij, dus het verslag is volledig betrouwbaar",
+          "message": "Ooggetuige zijn maakt een bron niet automatisch betrouwbaar: herinnering en bedoeling spelen mee."
+        },
+        {
+          "answer": "Het verslag is waardeloos omdat soldaten niet kunnen schrijven",
+          "message": "Díaz schreef zelf, en zijn werk is een van de belangrijkste Spaanse bronnen."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "12-016",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat maakt de Florentijnse Codex (boek 12) een bijzondere bron over de verovering van Mexico?",
+      "choices": [
+        "Nahua-informanten en -studenten tekenden het in het Nahuatl op, maar onder leiding van een Spaanse monnik",
+        "Het is geschreven door Moctezuma zelf tijdens de verovering",
+        "Het is een Spaans soldatenverslag uit 1521",
+        "Het is een Spaanse vertaling van een Azteekse wet"
+      ],
+      "answer": "Nahua-informanten en -studenten tekenden het in het Nahuatl op, maar onder leiding van een Spaanse monnik",
+      "hints": [
+        "Wie was Bernardino de Sahagún?",
+        "Hoeveel tijd zit er tussen 1521 en de opschriften?"
+      ],
+      "solution": [
+        "Sahagún werkte met Nahua-studenten van het college van Tlatelolco en oudere informanten.",
+        "De tekst is dus inheems en tegelijk gevormd door een Spaanse opdrachtgever, en een halve eeuw later opgetekend."
+      ],
+      "feedback": [
+        {
+          "answer": "Het is geschreven door Moctezuma zelf tijdens de verovering",
+          "message": "Moctezuma overleed in 1520; de Codex is tientallen jaren later opgetekend."
+        },
+        {
+          "answer": "Het is een Spaans soldatenverslag uit 1521",
+          "message": "Dat zijn de brieven van Cortés en het werk van Bernal Díaz, niet de Codex."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "perspective"
+      ]
+    },
+    {
+      "id": "12-017",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Vergelijk een Spaanse bron (Cortés of Bernal Díaz) met de Nahua-bron uit de Florentijnse Codex. Noem één verschil in perspectief en één beperking van de Nahua-bron.",
+      "answer": "Verschil: de Spanjaarden beschrijven de stad vooral met verbazing en rechtvaardigen hun daden voor de kroon, de Nahua-bron laat de Spanjaarden zien als hebzuchtig. Beperking: de Nahua-tekst is een halve eeuw later opgetekend, onder Spaanse leiding en met kennis van de afloop.",
+      "min_length": 60,
+      "hints": [
+        "Wie schreef voor wie?",
+        "Wanneer is de Nahua-tekst opgetekend?"
+      ],
+      "solution": [
+        "Een goed antwoord noemt de herkomst (wie, wanneer, voor wie) en maakt duidelijk dat geen van de twee neutraal is.",
+        "Een eerlijke conclusie is dat de bronnen elkaar aanvullen, en dat elk een eigen perspectief en eigen beperkingen heeft."
+      ],
+      "topics": [
+        "source-criticism",
+        "perspective"
+      ]
+    },
+    {
+      "id": "12-018",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke verklaring van de val van Tenochtitlan (1521) wordt het best door de bronnen en het onderzoek gedragen?",
+      "choices": [
+        "Een samenspel van inheemse bondgenoten, epidemieën, verdeeldheid in het rijk en keuzes van betrokkenen",
+        "Alleen de Spaanse wapens en paarden",
+        "Alleen de pokkenepidemie",
+        "Alleen het geloof van de Azteken dat Cortés een god was"
+      ],
+      "answer": "Een samenspel van inheemse bondgenoten, epidemieën, verdeeldheid in het rijk en keuzes van betrokkenen",
+      "hints": [
+        "Zoek je een verklaring met één oorzaak of met meer?",
+        "Welke oorzaak had Cortés in 1520 nodig om weer aan te vallen?"
+      ],
+      "solution": [
+        "Geen enkele oorzaak is op zichzelf voldoende. Zonder bondgenoten had Cortés in 1520 de strijd waarschijnlijk niet kunnen hervatten.",
+        "De epidemie versnelde de val; de wapens waren nuttig maar niet beslissend; het verhaal van de 'witte god' is waarschijnlijk van na de verovering."
+      ],
+      "feedback": [
+        {
+          "answer": "Alleen de Spaanse wapens en paarden",
+          "message": "Dit is monocausaal. In de smalle straten van de stad was het wapenvoordeel beperkt, en de Spanjaarden werden in 1520 uit de stad verdreven."
+        },
+        {
+          "answer": "Alleen de pokkenepidemie",
+          "message": "De epidemie speelde een grote rol, maar bondgenoten en keuzes waren noodzakelijk."
+        },
+        {
+          "answer": "Alleen het geloof van de Azteken dat Cortés een god was",
+          "message": "Volgens veel onderzoekers is dit verhaal waarschijnlijk pas na de verovering ontstaan."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "12-019",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen rond de verovering van Mexico in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Cortés trekt Tenochtitlan binnen (november 1519)",
+        "De Spanjaarden worden uit de stad verdreven (Noche Triste, juni 1520)",
+        "Een pokkenepidemie treft Tenochtitlan (eind 1520)",
+        "Het beleg van de stad begint (mei 1521)",
+        "Tenochtitlan valt (13 augustus 1521)"
+      ],
+      "hints": [
+        "De epidemie kwam na de Noche Triste."
+      ],
+      "solution": [
+        "1519, juni 1520, eind 1520, mei 1521, 13 augustus 1521."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Cortés trekt Tenochtitlan binnen (november 1519)",
+            "Een pokkenepidemie treft Tenochtitlan (eind 1520)",
+            "De Spanjaarden worden uit de stad verdreven (Noche Triste, juni 1520)",
+            "Het beleg van de stad begint (mei 1521)",
+            "Tenochtitlan valt (13 augustus 1521)"
+          ],
+          "message": "De Noche Triste was in juni 1520, de epidemie volgde pas aan het eind van dat jaar."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "causation"
+      ]
+    },
+    {
+      "id": "12-020",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Pizarro nam Atahualpa in 1532 gevangen. Een neo-Inca-staat in Vilcabamba bleef bestaan tot 1572. Hoeveel jaar later was dat?",
+      "answer": 40,
+      "hints": [
+        "Trek 1532 af van 1572."
+      ],
+      "solution": [
+        "1572 − 1532 = 40 jaar. De verovering was dus geen gebeurtenis van enkele jaren."
+      ],
+      "unit": "jaar",
+      "feedback": [
+        {
+          "answer": 39,
+          "message": "Reken nog eens na: 1572 min 1532 is 40."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "early-modern"
+      ]
+    },
+    {
+      "id": "12-021",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom is \"ziekte\" alleen een onvolledige verklaring voor de bevolkingsdaling in Amerika na 1492?",
+      "choices": [
+        "Ziekte werkte samen met oorlog, dwangarbeid en hongersnood en werd daardoor dodelijker",
+        "De bevolking is nooit gedaald, het is een mythe",
+        "Ziekten bestonden al in Amerika en waren niet nieuw",
+        "Alleen geweld deed de bevolking dalen"
+      ],
+      "answer": "Ziekte werkte samen met oorlog, dwangarbeid en hongersnood en werd daardoor dodelijker",
+      "hints": [
+        "Verspreiden epidemieën zich in een rustige of een ontwrichte samenleving sneller?",
+        "Er zijn meerdere oorzaken genoemd in de les."
+      ],
+      "solution": [
+        "De ineenstorting had meerdere oorzaken: ziekten, oorlog, dwangarbeid, honger en het uiteenvallen van gemeenschappen.",
+        "Het is verleidelijk om 'de ziekten' als natuurlijke oorzaak aan te wijzen, maar epidemieën doden meer mensen wanneer er ook geweld en honger zijn."
+      ],
+      "feedback": [
+        {
+          "answer": "De bevolking is nooit gedaald, het is een mythe",
+          "message": "Over de omvang bestaat discussie, maar de daling zelf wordt breed aangenomen."
+        },
+        {
+          "answer": "Alleen geweld deed de bevolking dalen",
+          "message": "Ziekten waren volgens de meeste onderzoekers de belangrijkste factor."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "12-022",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat was de encomienda?",
+      "choices": [
+        "Een stelsel waarbij een Spanjaard tribuut en arbeid van een groep inheemse mensen mocht eisen, in ruil voor bescherming en onderricht in het geloof",
+        "Een Spaanse vloot die het zilver naar Europa bracht",
+        "Een verdrag tussen Spanje en Portugal",
+        "Een school voor Nahua-studenten in Tlatelolco"
+      ],
+      "answer": "Een stelsel waarbij een Spanjaard tribuut en arbeid van een groep inheemse mensen mocht eisen, in ruil voor bescherming en onderricht in het geloof",
+      "hints": [
+        "Het woord komt van het Spaanse encomendar: toevertrouwen."
+      ],
+      "solution": [
+        "De encomendero kreeg het recht op tribuut en arbeid. In de praktijk werd dat een middel tot uitbuiting, ondanks de bedoelde bescherming."
+      ],
+      "feedback": [
+        {
+          "answer": "Een Spaanse vloot die het zilver naar Europa bracht",
+          "message": "Dat was het zilvervloot-stelsel; de encomienda ging over arbeid en tribuut."
+        },
+        {
+          "answer": "Een school voor Nahua-studenten in Tlatelolco",
+          "message": "Dat was het college van Santa Cruz, waar Sahagún werkte."
+        }
+      ],
+      "topics": [
+        "early-modern"
+      ]
+    },
+    {
+      "id": "12-023",
+      "type": "choice",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Wat laat het debat van Valladolid (1550–1551) zien, en wat niet?",
+      "choices": [
+        "Dat er in de 16e eeuw zelf fundamentele kritiek bestond, maar niet dat het beleid daardoor veranderde",
+        "Dat iedereen in die tijd de verovering rechtvaardig vond",
+        "Dat de inheemse bevolking zelf aan het debat deelnam",
+        "Dat Spanje na het debat alle veroveringen staakte"
+      ],
+      "answer": "Dat er in de 16e eeuw zelf fundamentele kritiek bestond, maar niet dat het beleid daardoor veranderde",
+      "hints": [
+        "Wie voerden het woord?",
+        "Veranderde de praktijk merkbaar?"
+      ],
+      "solution": [
+        "Las Casas en Sepúlveda verdedigden tegengestelde standpunten voor Spaanse raadgevers; er kwam geen duidelijke einduitspraak.",
+        "Het debat laat zien dat 'iedereen dacht toen zo' een anachronisme is, maar bewijst niet dat het beleid veranderde."
+      ],
+      "context": "Karel V liet in 1550 de verdere veroveringen tijdelijk stilleggen en riep theologen en juristen bijeen in Valladolid. Bartolomé de las Casas verdedigde de rechten van de inheemse bevolking. Juan Ginés de Sepúlveda betoogde dat de oorlog tegen sommige volken gerechtvaardigd kon zijn. Beide partijen beweerden later gewonnen te hebben.",
+      "feedback": [
+        {
+          "answer": "Dat iedereen in die tijd de verovering rechtvaardig vond",
+          "message": "Dit is een anachronisme: Las Casas en anderen dachten daar al in de 16e eeuw anders over."
+        },
+        {
+          "answer": "Dat de inheemse bevolking zelf aan het debat deelnam",
+          "message": "Het debat werd gevoerd door Spanjaarden over de inheemse bevolking, niet met haar."
+        },
+        {
+          "answer": "Dat Spanje na het debat alle veroveringen staakte",
+          "message": "De veroveringen en de encomienda gingen in de praktijk door."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "12-024",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke twee gewassen kwamen via de Columbian exchange uit Amerika naar de Oude Wereld?",
+      "choices": [
+        "Maïs en aardappel",
+        "Tarwe en suikerriet",
+        "Rijst en katoen",
+        "Wijn en olijven"
+      ],
+      "answer": "Maïs en aardappel",
+      "hints": [
+        "Tarwe, suikerriet, paarden en runderen gingen juist naar Amerika."
+      ],
+      "solution": [
+        "Uit Amerika kwamen onder meer maïs, aardappel, cassave, tomaat, cacao en tabak.",
+        "Tarwe, suikerriet, paarden, runderen en varkens gingen de andere kant op."
+      ],
+      "feedback": [
+        {
+          "answer": "Tarwe en suikerriet",
+          "message": "Dit zijn Oudewereldgewassen die naar Amerika gingen."
+        }
+      ],
+      "topics": [
+        "early-modern"
+      ]
+    },
+    {
+      "id": "12-025",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet de stappen van de zilverstroom in volgorde, van de herkomst van het zilver tot het gevolg in China.",
+      "answer": [
+        "Zilver wordt gedolven bij Potosí",
+        "Het zilver gaat naar Acapulco",
+        "Het Manila-galjoen brengt het naar Manila",
+        "Chinese kooplieden krijgen zilver voor zijde en porselein",
+        "Zilver wordt in China een steeds gewoner betaalmiddel"
+      ],
+      "hints": [
+        "Begin bij de mijn en volg het zilver tot in China."
+      ],
+      "solution": [
+        "Potosí, Acapulco, Manila, Chinese kooplieden, zilver als betaalmiddel in China."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Zilver wordt gedolven bij Potosí",
+            "Het Manila-galjoen brengt het naar Manila",
+            "Het zilver gaat naar Acapulco",
+            "Chinese kooplieden krijgen zilver voor zijde en porselein",
+            "Zilver wordt in China een steeds gewoner betaalmiddel"
+          ],
+          "message": "Het galjoen voer van Acapulco naar Manila, dus Acapulco komt eerst."
+        }
+      ],
+      "topics": [
+        "causation",
+        "early-modern"
+      ]
+    },
+    {
+      "id": "12-026",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Leg uit waarom de groei van de trans-Atlantische slavenhandel in de 16e eeuw geen vanzelfsprekende uitkomst was. Schrijf ongeveer vijf zinnen.",
+      "answer": "Het was het gevolg van keuzes van kooplieden, vorsten en kolonisten, mede door de daling van de inheemse bevolking en de vraag naar arbeid op plantages. Afrikaanse vorsten en handelaren speelden een eigen rol. Het had anders kunnen lopen.",
+      "min_length": 60,
+      "hints": [
+        "Wie nam er beslissingen?",
+        "Welke rol speelde het verval van de inheemse bevolking?"
+      ],
+      "solution": [
+        "Een goed antwoord noemt de betrokken partijen (Europese kooplieden en vorsten, kolonisten, Afrikaanse handelaren) en legt uit dat het een reeks keuzes was.",
+        "Het gebruikt de term 'tot slaaf gemaakten' en vermijdt moraliserende taal."
+      ],
+      "topics": [
+        "causation",
+        "perspective"
+      ]
+    },
+    {
+      "id": "12-027",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom spreken veel historici liever van \"ontmoeting\" dan van \"ontdekking\", en wat is de kritiek op \"ontmoeting\"?",
+      "choices": [
+        "\"Ontdekking\" kiest het Europese perspectief; \"ontmoeting\" kan geweld en ongelijkheid verhullen",
+        "\"Ontmoeting\" is een bronwoord uit de 16e eeuw",
+        "\"Ontdekking\" is feitelijk onjuist omdat niemand Amerika bereikte",
+        "\"Ontmoeting\" benoemt het geweld het scherpst"
+      ],
+      "answer": "\"Ontdekking\" kiest het Europese perspectief; \"ontmoeting\" kan geweld en ongelijkheid verhullen",
+      "hints": [
+        "Voor wie was Amerika nieuw?",
+        "Klinkt \"ontmoeting\" als een gelijkwaardige gebeurtenis?"
+      ],
+      "solution": [
+        "Wie 'ontdekt' vertelt vanuit de eigen kant; mensen die er al woonden hoefden niet ontdekt te worden.",
+        "'Ontmoeting' klinkt neutraal, maar suggereert gelijkwaardigheid terwijl er geweld, ziekte en dwang waren. Elk woord kiest een perspectief."
+      ],
+      "feedback": [
+        {
+          "answer": "\"Ontmoeting\" benoemt het geweld het scherpst",
+          "message": "Dat doet eerder 'verovering'; 'ontmoeting' is juist het mildere woord."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "perspective"
+      ]
+    },
+    {
+      "id": "12-028",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom kozen Flynn en Giráldez het jaar 1571 als begin van de wereldhandel?",
+      "choices": [
+        "Toen werd Manila gesticht en ging Amerikaans zilver regelmatig naar China, waardoor drie continenten verbonden raakten",
+        "Toen bereikte Columbus de Bahama's",
+        "Toen sloten Spanje en Portugal het Verdrag van Tordesillas",
+        "Toen verscheen het Itinerario van Linschoten"
+      ],
+      "answer": "Toen werd Manila gesticht en ging Amerikaans zilver regelmatig naar China, waardoor drie continenten verbonden raakten",
+      "hints": [
+        "Welk product verbond Amerika, Europa en China?",
+        "Wat gebeurde er in 1571 in de Filipijnen?"
+      ],
+      "solution": [
+        "Voor Flynn en Giráldez was het blijvende verband tussen drie continenten door de zilverhandel het criterium.",
+        "Anderen kiezen een ander begin (de Mongoolse tijd of de 19e eeuw), omdat ze globalisering anders definiëren."
+      ],
+      "feedback": [
+        {
+          "answer": "Toen bereikte Columbus de Bahama's",
+          "message": "Dat was 1492; hun criterium was een blijvend handelsverband, niet het eerste contact."
+        },
+        {
+          "answer": "Toen verscheen het Itinerario van Linschoten",
+          "message": "Het Itinerario verscheen in 1596."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "early-modern"
+      ]
+    },
+    {
+      "id": "12-029",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat kun je uit dit fragment wel afleiden?",
+      "choices": [
+        "Hoe Nahua de Spanjaarden achteraf zagen: als mensen met een grote honger naar goud",
+        "Precies wat de Spanjaarden in 1519 deden en voelden",
+        "Dat de Spanjaarden geen belangstelling hadden voor goud",
+        "Dat Moctezuma geen geschenken gaf"
+      ],
+      "answer": "Hoe Nahua de Spanjaarden achteraf zagen: als mensen met een grote honger naar goud",
+      "hints": [
+        "Wie schreef dit op, en wanneer?",
+        "Beschrijft de tekst gedrag of een oordeel?"
+      ],
+      "solution": [
+        "De tekst is een halve eeuw later opgetekend, in het Nahuatl, onder leiding van Sahagún.",
+        "Hij laat een Nahua-oordeel over de Spanjaarden zien en bewijst niet precies wat de Spanjaarden dachten."
+      ],
+      "context": "De Spanjaarden grepen naar het goud van Moctezuma's geschenken \"als apen\". (Florentijnse Codex, boek 12, opgetekend in de tweede helft van de 16e eeuw; vrij vertaald naar de Engelse vertaling van James Lockhart, boek 12, hoofdstuk 12.)",
+      "feedback": [
+        {
+          "answer": "Precies wat de Spanjaarden in 1519 deden en voelden",
+          "message": "De tekst is een Nahua-typering achteraf, geen neutrale registratie."
+        },
+        {
+          "answer": "Dat de Spanjaarden geen belangstelling hadden voor goud",
+          "message": "Het tegendeel wordt gezegd."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "perspective"
+      ]
+    },
+    {
+      "id": "12-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom is dit fragment van Waldseemüller weinig geschikt om te weten wat de bewoners van Amerika dachten?",
+      "choices": [
+        "Waldseemüller was er nooit en schreef voor Europese geleerden; de bewoners komen er niet in voor",
+        "Omdat het in het Latijn is geschreven",
+        "Omdat het te lang geleden is geschreven",
+        "Omdat het door Columbus is geschreven"
+      ],
+      "answer": "Waldseemüller was er nooit en schreef voor Europese geleerden; de bewoners komen er niet in voor",
+      "hints": [
+        "Wie was de schrijver, en wie was zijn publiek?",
+        "Zou een Latijnse tekst automatisch ongeschikt zijn?"
+      ],
+      "solution": [
+        "De bron is geschreven door een Europese geleerde in Lotharingen, voor Europese lezers.",
+        "Over de bewoners zegt ze niets; ze is wel goed bruikbaar voor de vraag hoe Europese geleerden het nieuwe land een plaats gaven."
+      ],
+      "context": "\"Omdat Europa en Azië naar vrouwen zijn genoemd, zie ik niet in waarom iemand dit vierde deel niet naar zijn ontdekker Americus zou noemen: Amerige, het land van Americus, of America.\" (Cosmographiae introductio, 1507, toegeschreven aan Matthias Ringmann en Martin Waldseemüller; vrij vertaald.)",
+      "feedback": [
+        {
+          "answer": "Omdat het in het Latijn is geschreven",
+          "message": "De taal bepaalt de bruikbaarheid niet; de herkomst en het perspectief wel."
+        },
+        {
+          "answer": "Omdat het door Columbus is geschreven",
+          "message": "De tekst is toegeschreven aan Matthias Ringmann en Martin Waldseemüller; het boek noemt geen auteur."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "perspective"
+      ]
+    },
+    {
+      "id": "12-031",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze bronnen in de volgorde waarin ze zijn opgesteld, de oudste eerst.",
+      "answer": [
+        "Scheepsjournaal van Columbus (1492)",
+        "Cosmographiae introductio (1507)",
+        "Tweede brief van Cortés aan Karel V (1520)",
+        "Ware geschiedenis van Bernal Díaz (ca. 1568)",
+        "Herziene versie van boek 12 van de Florentijnse Codex (ca. 1585)"
+      ],
+      "hints": [
+        "Cortés schreef kort na de gebeurtenissen; Bernal Díaz decennia later."
+      ],
+      "solution": [
+        "1492, 1507, 1520, ca. 1568, ca. 1585."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Scheepsjournaal van Columbus (1492)",
+            "Cosmographiae introductio (1507)",
+            "Ware geschiedenis van Bernal Díaz (ca. 1568)",
+            "Tweede brief van Cortés aan Karel V (1520)",
+            "Herziene versie van boek 12 van de Florentijnse Codex (ca. 1585)"
+          ],
+          "message": "Cortés schreef in 1520, Bernal Díaz pas rond 1568."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "12-032",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Cortés beschrijft de markt van Tlatelolco enthousiast. Leg uit waarom je zijn getal (zestigduizend mensen per dag) voorzichtig moet gebruiken.",
+      "answer": "Cortés schreef aan de keizer en moest indruk maken en zijn onderneming rechtvaardigen. Het getal is waarschijnlijk afgerond of overdreven, en hij kon niet tellen. Wel laat het zien dat de stad de Spanjaarden sterk imponeerde.",
+      "min_length": 60,
+      "hints": [
+        "Voor wie schreef Cortés, en wat wilde hij bereiken?",
+        "Kon hij het aantal controleren?"
+      ],
+      "solution": [
+        "Een goed antwoord noemt de lezer (Karel V), het doel (zijn eigenmachtige onderneming rechtvaardigen) en dat het getal een schatting is.",
+        "Het fragment is wel bruikbaar voor de vraag hoe de Spanjaarden de stad zagen."
+      ],
+      "context": "\"Er is een plein, tweemaal zo groot als dat van Salamanca, waar dagelijks meer dan zestigduizend mensen kopen en verkopen.\" (Hernán Cortés, tweede brief aan Karel V, 1520, over de markt van Tlatelolco; vrij vertaald.)",
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "12-033",
+      "type": "choice",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een leerling schrijft: \"De Nahua-bron is betrouwbaarder dan de Spaanse, want ze komt van de overwonnenen.\" Wat is de zwakte van die redenering?",
+      "choices": [
+        "Ook de Nahua-bron is achteraf en onder Spaanse leiding opgetekend; een ander perspectief maakt een bron niet vanzelf betrouwbaarder",
+        "Nahua-bronnen bestaan niet",
+        "Spaanse bronnen zijn altijd betrouwbaarder",
+        "Een bron van overwonnenen mag je nooit gebruiken"
+      ],
+      "answer": "Ook de Nahua-bron is achteraf en onder Spaanse leiding opgetekend; een ander perspectief maakt een bron niet vanzelf betrouwbaarder",
+      "hints": [
+        "Wanneer en door wie is de Codex opgetekend?",
+        "Is perspectief hetzelfde als betrouwbaarheid?"
+      ],
+      "solution": [
+        "Perspectief en betrouwbaarheid zijn verschillende dingen. Elke bron moet getoetst worden op herkomst, tijd en doel.",
+        "De Codex is waardevol voor het Nahua-perspectief, maar gevormd door een Spaanse opdrachtgever en gebaseerd op herinnering."
+      ],
+      "feedback": [
+        {
+          "answer": "Spaanse bronnen zijn altijd betrouwbaarder",
+          "message": "Ook Spaanse bronnen hebben een perspectief en een doel."
+        },
+        {
+          "answer": "Nahua-bronnen bestaan niet",
+          "message": "De Florentijnse Codex is een Nahua-bron, ook al is hij onder Spaanse leiding gemaakt."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "perspective"
+      ]
+    },
+    {
+      "id": "12-034",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Beoordeel de uitspraak: \"De Spanjaarden veroverden Mexico dankzij betere wapens.\" Gebruik wat je weet over oorzaken en bronnen, en geef aan hoe zeker je conclusie is. Schrijf ongeveer acht zinnen.",
+      "answer": "De uitspraak is monocausaal. Wapens speelden een rol, maar bondgenoten uit Tlaxcala en andere steden, de pokkenepidemie, de verdeeldheid in het tribuutstelsel en keuzes van betrokkenen waren minstens zo belangrijk. De bronnen (Cortés, Bernal Díaz) benadrukken eigen verdienste; de Nahua-bron en modern onderzoek laten meer oorzaken zien. De conclusie is vrij zeker voor de bondgenoten en minder zeker voor het precieze gewicht van de epidemie.",
+      "min_length": 120,
+      "hints": [
+        "Scheid kortetermijn- en langetermijnoorzaken.",
+        "Wie schreef de Spaanse bronnen, en wat wilden ze bereiken?"
+      ],
+      "solution": [
+        "Een sterk antwoord noemt meerdere oorzaken, weegt ze, verwijst naar de herkomst van de bronnen en benoemt de mate van zekerheid.",
+        "Het ontkent niet dat wapens meespeelden, maar maakt ze niet de enige oorzaak."
+      ],
+      "topics": [
+        "causation",
+        "source-criticism"
+      ]
+    }
+  ]
+}

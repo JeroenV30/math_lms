@@ -1,0 +1,49 @@
+## Van een universiteitsstad naar een Rijksdag
+
+In 1517 was Maarten Luther hoogleraar bijbeluitleg aan de universiteit van het Saksische Wittenberg. Op 31 oktober van dat jaar stuurde hij een brief met stellingen naar aartsbisschop Albrecht van Mainz, waarin hij kritiek leverde op de aflaathandel. Een aflaat was in de praktijk een document waarmee gelovigen tegen betaling kwijtschelding kregen van tijdelijke straffen voor hun zonden. De campagne waartegen Luther zich keerde, hielp onder meer de bouw van de Sint-Pieter in Rome te financieren. Luthers stellingen waren in het Latijn en bedoeld voor een academisch debat. Of hij ze ook echt aan de deur van de Slotkerk in Wittenberg spijkerde, is onzeker: dat verhaal staat pas in latere beschrijvingen. Zeker is dat de stellingen binnen enkele weken in gedrukte vorm door Duitsland circuleerden, mede doordat ze werden vertaald en herdrukt.
+
+Luther wilde in eerste instantie een discussie, geen nieuwe kerk. Maar zijn kritiek liep door tot de vraag waarop gezag in de kerk berust. Zijn antwoord werd: op de Schrift alleen (*sola scriptura*), en de mens wordt gerechtvaardigd door geloof, niet door werken (*sola fide*). Dat ondermijnde de rol van de priester en van het kerkelijk gezag. In 1521 werd hij op de Rijksdag van Worms voor keizer Karel V geroepen, die toen eenentwintig was. Luther weigerde te herroepen tenzij hij met de Schrift of heldere redenen werd weerlegd. Zijn geweten, zei hij vrij vertaald, was gebonden aan Gods woord. Daarna werd hij met het Edict van Worms in de rijksban gedaan: iedereen mocht hem vervolgen en zijn geschriften waren verboden.
+
+:::example Luther in Worms: hoe betrouwbaar is een beroemd citaat?
+Vraag: sprak Luther in Worms de woorden "Hier sta ik, ik kan niet anders"?
+
+1. **Herkomst.** Het officiële verslag van de zitting is bewaard, en er zijn getuigenverslagen. De zin "Hier sta ik, ik kan niet anders" (*Hier stehe ich, ich kann nicht anders*) komt voor in een gedrukte versie van zijn toespraak die kort na de zitting verscheen, maar niet in de verslagen die direct na de zitting zijn opgetekend.
+2. **Context.** Er was veel belangstelling voor Luther, zijn aanhangers hadden belang bij een krachtig slot, en een gedrukte versie verspreidde zich snel.
+3. **Wat de bron zegt en niet zegt.** Alle bronnen zijn het erover eens dat Luther weigerde te herroepen en dat hij een beroep deed op Schrift en geweten. Of hij letterlijk deze slotzin zei, is niet te bewijzen.
+4. **Bruikbaarheid.** Voor de vraag "wat vond Luther?" zijn de verslagen van de zitting voldoende. Voor de vraag "hoe werd Luther herinnerd?" is de slotzin juist interessant, omdat ze laat zien hoe een beweging haar leider wilde zien.
+5. **Conclusie.** Waarschijnlijk is de slotzin later toegevoegd; zeker is dat Luther zijn standpunt weigerde in te trekken. Gebruik de zin als bewijs van herinnering, niet als woordelijk bewijs.
+:::
+
+{{ exercises: 13-008, 13-009, 13-010 }}
+
+## Dopers, Calvijn en de Nederlanden
+
+De Reformatie bleef niet bij Luther. In 1525 liet een groep in Zürich elkaar opnieuw dopen als volwassenen: zij vonden dat alleen een bewuste geloofskeuze telt. Zij werden *wederdopers* (dopers) genoemd en werden door katholieken en andere protestanten vervolgd. In 1534 en 1535 raakte de stad Münster in handen van een radicale groep onder leiding van onder anderen Jan van Leiden (Jan Beukelszoon), die er een koninkrijk probeerde te vestigen; het werd door troepen van de bisschop veroverd. Dit gewelddadige hoofdstuk bepaalde jarenlang het beeld van dopers, ook al bleef de grote meerderheid vreedzaam. Een van hen was de Fries Menno Simons, naar wie de mennonieten zijn genoemd. Onder Karel V behoorden dopers tot de zwaar vervolgde groepen in de Nederlanden.
+
+Jean Calvijn (1509-1564) was een Fransman uit Noyon, een humanistisch gevormde jurist. In 1536 verscheen in Bazel de eerste uitgave van zijn *Institutie van de christelijke godsdienst* (*Institutio Christianae Religionis*), een kort leerboek in het Latijn. Hij bleef het uitbreiden; de definitieve versie verscheen in 1559. Vanaf 1541 woonde hij, na een eerste mislukte poging, in Genève. Daar bouwde hij aan een kerk met een eigen organisatie: predikanten, ouderlingen en diakenen, en een kerkenraad (het *consistorie*) die toezicht hield op leer en leven. Een centraal thema in zijn leer was de predestinatie: God heeft sommigen voor het heil bestemd, ongeacht hun daden. Genève werd een toevluchtsoord voor Franse, Engelse en Nederlandse vluchtelingen, en een opleidingscentrum waar predikanten werden gevormd.
+
+In de Nederlanden bereikte het lutheranisme al vroeg de grote steden. De Augustijnen in Antwerpen stonden onder invloed van Luther. In 1523 werden twee van hen, Hendrik Voes en Johan van Esschen, in Brussel verbrand als eerste protestantse martelaren in de Nederlanden. Luther schreef er naar aanleiding daarvan een lied over, *Ein neues Lied wir heben an*. Karel V reageerde met plakkaten (wetten van de landsheer) die ketterij zwaar bestraften. In 1550 verscheen een bijzonder streng plakkaat, door protestanten later "bloedplakkaat" genoemd, waarin onder meer het bezit van verboden boeken en het geven van onderdak aan ketters met de dood werd bedreigd. Het aantal mensen dat onder Karel V wegens ketterij werd terechtgesteld, is niet exact bekend. Schattingen lopen uiteen; het cijfer van ongeveer duizend of meer is een grove schatting. Het lutheranisme verloor intussen terrein; het calvinisme won het.
+
+:::history Een belijdenis uit 1561
+In 1561 verscheen een belijdenis van het calvinistische geloof in de Nederlanden, opgesteld door de predikant Guido de Bres uit Bergen in Henegouwen. De Bres schreef haar in het Frans, voor de gemeenten in het zuiden, en richtte haar mede aan de overheid: de belijdenis moest laten zien dat de calvinisten geen oproerlingen waren. Later werd ze ook in het Nederlands vertaald en is zij als *Nederlandse Geloofsbelijdenis* een van de belijdenisgeschriften van de gereformeerde kerken geworden. De Bres werd in 1567 in Valenciennes opgehangen.
+:::
+
+## Waarom sloeg het calvinisme aan?
+
+Dat het calvinisme in de Nederlanden aansloeg, is geen vanzelfsprekendheid. In 1566 was het nog altijd een minderheid. Schattingen van het aandeel calvinisten lopen sterk uiteen; een grove schatting is enkele procenten van de bevolking, met grotere aandelen in sommige steden en streken. Toch had het een invloed die groter was dan zijn omvang. Daarvoor zijn meerdere verklaringen, die elkaar niet uitsluiten.
+
+De eerste verklaring is organisatie. Het calvinisme had een kerkstructuur die ook onder druk kon functioneren: kleine gemeenten met een kerkenraad, die contact hielden met Genève, Emden en andere vluchtplaatsen. Daardoor kon de beweging overleven toen predikanten werden gezocht. De tweede is vervolging zelf. Verhalen over martelaren, verzameld in boeken als de *Geschiedenisse der Martelaren* van Adriaen van Haemstede (1559), maakten indruk. Wie zag hoe mensen vrijwillig stierven voor hun geloof, vroeg zich af of hun zaak niet toch waar was, en velen vonden de straffen onevenredig. De derde is de sociale en economische omgeving. De steden in Vlaanderen en Brabant waren dichtbevolkt, geletterd en verbonden door handel, met netwerken die boeken en ideeën snel verspreidden. En de vierde is de kerk zelf. Veel gelovigen hadden kritiek op de rijkdom van abdijen en de moeilijk toegankelijke, Latijnse kerkdienst.
+
+Het is verleidelijk één van die factoren als dé reden aan te wijzen. Maar historici wijzen erop dat het calvinisme vooral groeide waar meerdere factoren samenkwamen: een stad met veel textielarbeiders in een crisis, een kerkelijk bestuur dat als corrupt gold, en een overheid die vervolging ongelijk toepaste. Daar was het calvinisme niet alleen een andere leer, maar ook een manier om een eigen gemeenschap te vormen.
+
+{{ exercises: 13-011, 13-012, 13-013 }}
+
+## De katholieke reactie
+
+De katholieke kerk liet de uitdaging niet onbeantwoord. Het Concilie van Trente (gehouden met onderbrekingen tussen 1545 en 1563) bevestigde de belangrijkste katholieke leerstellingen: de Vulgaat als gezaghebbende tekst, zeven sacramenten, en het belang van goede werken naast geloof. Het hervormde ook de kerk zelf: bisschoppen moesten in hun bisdom wonen, er kwamen seminaries voor priesters, en misbruiken rond aflaten werden aangepakt. De orde van de jezuïeten, in 1540 gesticht door Ignatius van Loyola, werd een belangrijk middel voor onderwijs en prediking. Historici gebruiken zowel de term *Contrareformatie* (de reactie op de protestanten) als *katholieke hervorming* (de interne vernieuwing), omdat beide aspecten aanwezig waren.
+
+Voor de Nederlanden had dit directe gevolgen. In 1559 liet paus Paulus IV op verzoek van Filips II het kerkelijke landschap herordenen: het bestaande stelsel, met weinig grote bisdommen waarvan sommige onder buitenlandse aartsbisschoppen vielen, werd vervangen door veertien nieuwe bisdommen onder drie aartsbisschoppen. Bisschoppen kregen meer macht om ketterij op te sporen. Maar het plan kwam in de ogen van veel Nederlanders niet alleen neer op een kerkelijke maatregel: de nieuwe bisschoppen werden betaald uit de inkomsten van oude abdijen, en de abten die in de Staten zaten, zouden daardoor invloed verliezen. De inquisitie en de kerkelijke vervolging kregen daardoor een politieke lading. Zo liepen geloof en bestuur door elkaar, en daarover gaat de volgende les.
+
+Daarbij gold dat de religieuze scheiding niet langs de latere landsgrens liep. Er waren calvinisten in Vlaanderen, Brabant en Henegouwen, en katholieken in Holland en Utrecht. De Vrede van Augsburg (1555) in het Duitse Rijk had gesteld dat de landsheer de godsdienst van zijn gebied bepaalde, maar die regeling gold niet voor de Nederlanden, die een bezit van de Spaanse tak van de Habsburgers waren.
+
+{{ exercises: 13-014 }}

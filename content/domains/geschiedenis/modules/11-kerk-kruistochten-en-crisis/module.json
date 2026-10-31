@@ -3,19 +3,156 @@
   "slug": "kerk-kruistochten-en-crisis",
   "title": "Kerk, kruistochten en crisis",
   "part": 4,
-  "status": "planned",
+  "status": "available",
   "historical_period": "Ca. 1050 – 1450",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 200,
   "prerequisites": [
     1
   ],
   "topics": [
     "middle-ages",
     "perspective",
-    "causation"
+    "causation",
+    "source-criticism",
+    "historiography",
+    "continuity-change"
   ],
   "core_question": "Hoe verklaren we de kruistochten en de crises van de late middeleeuwen?",
   "summary": "Macht van de kerk, kruistochten vanuit verschillende perspectieven, de pest en de crisis van de veertiende eeuw.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een put vol doden in Doornik",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "de-macht-van-de-kerk",
+      "title": "De macht van de kerk",
+      "file": "02-de-macht-van-de-kerk.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "de-oproep-van-clermont",
+      "title": "De oproep van Clermont en de eerste kruistocht",
+      "file": "03-de-oproep-van-clermont.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "honger-en-pest",
+      "title": "Honger en pest: de crisis begint",
+      "file": "04-honger-en-pest.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "oorlog-opstand-en-schisma",
+      "title": "Oorlog, opstand en schisma",
+      "file": "05-oorlog-opstand-en-schisma.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum: wie zegt wat over de kruisvaarders?",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen waarom de Investituurstrijd een strijd was over de verhouding tussen kerk en wereldlijk gezag, en hoe het Concordaat van Worms die oploste.",
+    "Je kunt de oproep van Urbanus II in Clermont analyseren aan de hand van meerdere, latere versies en verklaren waarom die verschillen.",
+    "Je kunt de motieven van kruisvaarders wegen en Latijnse, Joodse, Byzantijnse en islamitische perspectieven vergelijken.",
+    "Je kunt de crisis van de veertiende eeuw verklaren als samenspel van langetermijn- en kortetermijnoorzaken.",
+    "Je kunt uitleggen hoe historici over de kruistochten en de crisis hebben gedacht en waarom ze van mening verschillen.",
+    "Je kunt een bron beoordelen op herkomst, doel en bruikbaarheid, en je conclusie met de juiste mate van zekerheid formuleren."
+  ],
+  "glossary": [
+    {
+      "term": "Investituur",
+      "definition": "Het in zijn ambt bevestigen van een bisschop of abt, in de elfde eeuw met ring en staf."
+    },
+    {
+      "term": "Simonie",
+      "definition": "Het kopen en verkopen van kerkelijke ambten."
+    },
+    {
+      "term": "Ban",
+      "definition": "Een kerkelijke straf die iemand uit de kerkelijke gemeenschap uitsluit."
+    },
+    {
+      "term": "Aflaat",
+      "definition": "Kwijtschelding van de tijdelijke straf voor zonden, door de kerk verleend."
+    },
+    {
+      "term": "Kruistocht",
+      "definition": "Een door de paus gesteunde, als heilig beschouwde veldtocht, met aflaat voor deelnemers."
+    },
+    {
+      "term": "Flagellanten",
+      "definition": "Gelovigen die zich in het openbaar geselden als boetedoening."
+    },
+    {
+      "term": "Malthusiaanse crisis",
+      "definition": "Een crisis waarin de bevolking boven wat het land kan voeden uitgroeit."
+    },
+    {
+      "term": "Schisma",
+      "definition": "Een splitsing binnen de kerk, zoals in 1378 tussen twee pausen."
+    },
+    {
+      "term": "Moderne Devotie",
+      "definition": "Een innerlijke vroomheidsbeweging uit de Lage Landen, begonnen door Geert Grote."
+    }
+  ],
+  "timeline": [
+    "dictatus-papae-1075",
+    "canossa-1077",
+    "concilie-van-clermont-1095",
+    "pogroms-rijnland-1096",
+    "inname-jeruzalem-1099",
+    "concordaat-van-worms-1122",
+    "slag-bij-hattin-1187",
+    "vierde-lateraans-concilie-1215",
+    "honderdjarige-oorlog-1337",
+    "zwarte-dood-1347",
+    "jacquerie-1358",
+    "westers-schisma-1378",
+    "engelse-boerenopstand-1381",
+    "geert-grote-moderne-devotie",
+    "concilie-van-constance-1414",
+    "runciman-history-of-the-crusades-1951",
+    "brenner-debat-1976",
+    "riley-smith-first-crusade-1986",
+    "hillenbrand-islamic-perspectives-1999",
+    "pest-genoom-2011",
+    "grote-hongersnood-1315",
+    "stadsrecht-utrecht-1122"
+  ],
+  "people": [
+    "gregorius-vii",
+    "hendrik-iv",
+    "urbanus-ii",
+    "anna-komnene",
+    "usama-ibn-munqidh",
+    "saladin",
+    "gilles-li-muisis",
+    "geert-grote",
+    "steven-runciman",
+    "jonathan-riley-smith",
+    "carole-hillenbrand",
+    "michael-postan",
+    "robert-brenner"
+  ]
 }

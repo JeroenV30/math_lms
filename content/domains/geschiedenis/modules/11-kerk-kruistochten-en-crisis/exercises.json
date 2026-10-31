@@ -1,0 +1,962 @@
+{
+  "exercises": [
+    {
+      "id": "11-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat bedoelt men met lekeninvestituur in de elfde eeuw?",
+      "choices": [
+        "Het kiezen van een paus door de Romeinse bevolking",
+        "Het benoemen van een bisschop door een koning of keizer, met ring en staf als symbolen van het geestelijk ambt",
+        "Het inzamelen van de tiende door een parochie bij de boeren",
+        "Het verlenen van stadsrecht aan een stad door een bisschop"
+      ],
+      "answer": "Het benoemen van een bisschop door een koning of keizer, met ring en staf als symbolen van het geestelijk ambt",
+      "hints": [
+        "Denk aan wie bepaalt wie bisschop wordt.",
+        "Een leek is iemand die geen geestelijke is."
+      ],
+      "solution": [
+        "Bij lekeninvestituur bevestigt een wereldlijke heer (een leek) een bisschop in zijn ambt, met ring en staf.",
+        "Hervormers vonden dat alleen de kerk zelf dat mocht doen."
+      ],
+      "feedback": [
+        {
+          "answer": "Het kiezen van een paus door de Romeinse bevolking",
+          "message": "Dat is geen investituur. De verkiezing van een paus is een ander onderwerp (en komt in 1378 terug bij het schisma)."
+        }
+      ],
+      "topics": [
+        "middle-ages",
+        "causation"
+      ]
+    },
+    {
+      "id": "11-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke vraag over Canossa kan de brief van Gregorius VII goed beantwoorden?",
+      "choices": [
+        "Of Hendrik IV in de ban zou blijven tot zijn dood",
+        "Hoeveel soldaten Hendrik IV bij zich had?",
+        "Hoe wilde Gregorius dat de Duitse vorsten de gebeurtenis zagen?",
+        "Wat dacht Hendrik IV zelf over zijn boete?"
+      ],
+      "answer": "Hoe wilde Gregorius dat de Duitse vorsten de gebeurtenis zagen?",
+      "hints": [
+        "Voor wie schrijft Gregorius, en met welk doel?",
+        "Een bron laat vooral zien wat de schrijver wil dat de lezer denkt."
+      ],
+      "solution": [
+        "Gregorius schrijft aan Duitse vorsten om zijn optreden te rechtvaardigen.",
+        "De brief is dus goed voor zijn eigen voorstelling van zaken.",
+        "Over Hendriks eigen motieven zwijgt hij of kan hij alleen speculeren."
+      ],
+      "context": "Gregorius VII schrijft in januari 1077 aan de Duitse vorsten dat de koning drie dagen lang, zonder koninklijk vertoon, op blote voeten en in wollen kleren boete deed (vrij vertaald naar Registrum IV, 12).",
+      "feedback": [
+        {
+          "answer": "Wat dacht Hendrik IV zelf over zijn boete?",
+          "message": "Hendrik komt in deze brief niet zelf aan het woord. Een bron van de paus zegt iets over de paus."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "perspective"
+      ]
+    },
+    {
+      "id": "11-003",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de gebeurtenissen van de Investituurstrijd in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Dictatus papae (1075)",
+        "Ban over Hendrik IV (1076)",
+        "Boete van Hendrik IV bij Canossa (1077)",
+        "Hendrik IV laat zich in Rome tot keizer kronen (1084)",
+        "Concordaat van Worms (1122)"
+      ],
+      "hints": [
+        "De volgorde wordt bepaald door het jaartal tussen haakjes.",
+        "De ban kwam vóór Canossa: Hendrik zocht ontheffing."
+      ],
+      "solution": [
+        "1075, 1076, 1077, 1084, 1122."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Ban over Hendrik IV (1076)",
+            "Dictatus papae (1075)",
+            "Boete van Hendrik IV bij Canossa (1077)",
+            "Hendrik IV laat zich in Rome tot keizer kronen (1084)",
+            "Concordaat van Worms (1122)"
+          ],
+          "message": "Het Dictatus papae uit 1075 gaat aan de ban van 1076 vooraf."
+        }
+      ],
+      "topics": [
+        "chronology",
+        "causation"
+      ]
+    },
+    {
+      "id": "11-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat regelde het Concordaat van Worms (1122) over de benoeming van bisschoppen?",
+      "choices": [
+        "Bisschoppen werden voortaan door de bevolking van hun stad gekozen",
+        "De keizer gaf het recht op investituur met ring en staf op; hij behield wel invloed bij de verkiezing en gaf de wereldlijke rechten met de scepter",
+        "De paus kreeg het recht om alle wereldlijke rechten van bisschoppen te verlenen",
+        "De keizer behield het volledige recht om bisschoppen te benoemen"
+      ],
+      "answer": "De keizer gaf het recht op investituur met ring en staf op; hij behield wel invloed bij de verkiezing en gaf de wereldlijke rechten met de scepter",
+      "hints": [
+        "Het was een compromis: beide partijen kregen iets.",
+        "Ambt en wereldlijke rechten werden gescheiden."
+      ],
+      "solution": [
+        "De geestelijke kant (ring en staf) ging naar de kerk.",
+        "De keizer behield invloed bij de verkiezing en verleende de wereldlijke rechten met de scepter."
+      ],
+      "feedback": [
+        {
+          "answer": "De keizer behield het volledige recht om bisschoppen te benoemen",
+          "message": "Dat was juist het geschilpunt. De keizer deed afstand van het symbolisch geestelijke deel van de investituur."
+        }
+      ],
+      "topics": [
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "11-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Hoeveel jaar zit er tussen de boete van Hendrik IV bij Canossa (1077) en het Concordaat van Worms (1122)?",
+      "answer": 45,
+      "hints": [
+        "Trek het eerste jaartal van het tweede af."
+      ],
+      "solution": [
+        "1122 min 1077 is 45."
+      ],
+      "unit": "jaar",
+      "feedback": [
+        {
+          "answer": 55,
+          "message": "Controleer je aftrekking: 1122 min 1077."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "11-006",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Leg uit waarom het verstandig is om onderscheid te maken tussen wat kerkelijk recht voorschreef en wat in een dorp werkelijk gebeurde.",
+      "answer": "Normen laten zien wat gewenst was. Praktijkbronnen laten zien wat er gebeurde. Zonder die scheiding overschat je de macht van de kerk.",
+      "hints": [
+        "Denk aan het verschil tussen een wet en de naleving ervan."
+      ],
+      "solution": [
+        "Kerkelijke normen, zoals het celibaat van priesters of de plicht om te biechten, zeggen wat de kerk wilde. Wat dorpelingen en priesters deden, kan daarvan afwijken: getrouwde priesters bleven bestaan. Een historicus moet dus bronnen over de norm (concilieteksten, rechtsverzamelingen) onderscheiden van bronnen over de praktijk (rechtszaken, bezoekverslagen) en mag niet zonder meer van het een op het ander concluderen."
+      ],
+      "topics": [
+        "continuity-change",
+        "sources"
+      ]
+    },
+    {
+      "id": "11-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom verschillen de verslagen van de toespraak van Urbanus II in Clermont zo sterk?",
+      "choices": [
+        "Omdat alleen Fulcher de toespraak heeft gehoord, en de rest volledig is verzonnen",
+        "Omdat de verslagen zijn vervalst door latere kopiisten",
+        "Omdat Urbanus II in elke stad een andere toespraak hield",
+        "Ze zijn alle later geschreven, door mensen met eigen bedoelingen en met kennis van het verdere verloop van de kruistocht"
+      ],
+      "answer": "Ze zijn alle later geschreven, door mensen met eigen bedoelingen en met kennis van het verdere verloop van de kruistocht",
+      "hints": [
+        "Wanneer schreven de auteurs?",
+        "Wat wisten ze al toen ze schreven?"
+      ],
+      "solution": [
+        "Er is geen letterlijke tekst.",
+        "Auteurs als Robert de Monnik schreven na 1099 en lieten Jeruzalem zwaarder meewegen."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat alleen Fulcher de toespraak heeft gehoord, en de rest volledig is verzonnen",
+          "message": "Dat gaat te ver. Meer auteurs kunnen erbij zijn geweest of verslagen hebben gekregen. Wel zijn ze door de uitkomst beïnvloed."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "11-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke versie is het meest bruikbaar om te achterhalen wat Urbanus II in 1095 wilde?",
+      "choices": [
+        "Die van Fulcher van Chartres, omdat hij vermoedelijk aanwezig was en eerder schreef",
+        "Die van Guibert van Nogent, omdat hij het laatst schreef en dus het meeste wist",
+        "Die van Robert de Monnik, omdat zijn tekst het meest dramatisch is",
+        "Geen enkele, want bronnen die later zijn geschreven, zijn altijd onbruikbaar"
+      ],
+      "answer": "Die van Fulcher van Chartres, omdat hij vermoedelijk aanwezig was en eerder schreef",
+      "hints": [
+        "Dichter bij de gebeurtenis is vaak, maar niet altijd, beter.",
+        "Wat wist Robert in 1107 al over de afloop?"
+      ],
+      "solution": [
+        "Fulcher was waarschijnlijk in Clermont en schreef eerder dan de rest.",
+        "Ook zijn tekst is geen letterlijke weergave; hij is wel minder beïnvloed door de verovering van Jeruzalem."
+      ],
+      "feedback": [
+        {
+          "answer": "Die van Robert de Monnik, omdat zijn tekst het meest dramatisch is",
+          "message": "Een dramatisch verhaal is niet betrouwbaarder. Het kan juist wijzen op literaire bewerking."
+        },
+        {
+          "answer": "Geen enkele, want bronnen die later zijn geschreven, zijn altijd onbruikbaar",
+          "message": "Latere bronnen zijn niet waardeloos. Ze zijn bruikbaar voor de vraag waarvoor ze geschikt zijn, zoals wat men na 1099 over de kruistocht dacht."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "11-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Wat kun je uit de versie van Fulcher níét concluderen?",
+      "choices": [
+        "Dat Urbanus II in Clermont de verovering van Jeruzalem als doel noemde",
+        "Dat de paus opriep om de christenen in het oosten te helpen",
+        "Dat de paus vergeving van zonden beloofde aan wie onderweg sneuvelde",
+        "Dat de toespraak minstens enkele jaren later is opgeschreven"
+      ],
+      "answer": "Dat Urbanus II in Clermont de verovering van Jeruzalem als doel noemde",
+      "hints": [
+        "Wat staat er wél in het fragment?",
+        "Zoek de bewering die er niet in staat."
+      ],
+      "solution": [
+        "Fulcher noemt hulp aan de oosterse christenen en vergeving van zonden.",
+        "Jeruzalem als hoofddoel zit vooral in latere versies."
+      ],
+      "context": "Fulcher van Chartres (begonnen rond 1100): de paus zegt dat de broeders in het oosten dringend hulp nodig hebben, en dat wie onderweg of in de strijd sterft, onmiddellijk vergeving van zonden krijgt (vrij vertaald naar Thatcher en McNeal, 1905).",
+      "feedback": [
+        {
+          "answer": "Dat de paus vergeving van zonden beloofde aan wie onderweg sneuvelde",
+          "message": "Dit staat wél in Fulchers versie: onmiddellijke vergeving van zonden."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "11-010",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Veel kruisvaarders verpandden of verkochten land om de reis te betalen. Welke verklaring voor hun deelname wordt daardoor het minst waarschijnlijk als enige verklaring?",
+      "choices": [
+        "Dat zij vooral voor snel gewin gingen",
+        "Dat de aflaat voor hen belangrijk was",
+        "Dat de oproep van de paus gezag had",
+        "Dat zij mede uit religieuze overtuiging gingen"
+      ],
+      "answer": "Dat zij vooral voor snel gewin gingen",
+      "hints": [
+        "Wie veel uitgeeft en weinig kan verdienen, gaat niet alleen voor winst.",
+        "Kijk welke verklaring met de feiten botst."
+      ],
+      "solution": [
+        "Als de reis duur was en de opbrengst onzeker, is winst als enig motief weinig overtuigend.",
+        "Dat sluit niet uit dat sommigen, zoals Bohemund, wel land wonnen."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat zij mede uit religieuze overtuiging gingen",
+          "message": "Dit past juist bij het gegeven: wie veel opoffert, doet dat vaak uit overtuiging."
+        }
+      ],
+      "topics": [
+        "causation",
+        "perspective"
+      ]
+    },
+    {
+      "id": "11-011",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de gebeurtenissen rond de eerste kruistocht in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Gezanten van Alexios I vragen hulp in Piacenza (maart 1095)",
+        "Oproep van Urbanus II in Clermont (november 1095)",
+        "Vernietiging van de volkskruistocht bij Civetot (oktober 1096)",
+        "Inname van Antiochië (juni 1098)",
+        "Inname van Jeruzalem (15 juli 1099)"
+      ],
+      "hints": [
+        "Gebruik de maand en het jaar tussen haakjes."
+      ],
+      "solution": [
+        "Maart 1095, november 1095, oktober 1096, juni 1098, juli 1099."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Oproep van Urbanus II in Clermont (november 1095)",
+            "Gezanten van Alexios I vragen hulp in Piacenza (maart 1095)",
+            "Vernietiging van de volkskruistocht bij Civetot (oktober 1096)",
+            "Inname van Antiochië (juni 1098)",
+            "Inname van Jeruzalem (15 juli 1099)"
+          ],
+          "message": "De hulpvraag in Piacenza ging aan Clermont vooraf en vormt een van de oorzaken."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "11-012",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Wat voegen de Hebreeuwse kronieken over de vervolging van 1096 toe aan de Latijnse kronieken?",
+      "choices": [
+        "Het bewijs dat Urbanus II de vervolging beval",
+        "Een neutraal verslag, omdat ze door buitenstaanders zijn geschreven",
+        "Een nauwkeurig overzicht van het aantal slachtoffers",
+        "De stem van de slachtoffers zelf, waardoor de gebeurtenis ook van hun kant is te zien"
+      ],
+      "answer": "De stem van de slachtoffers zelf, waardoor de gebeurtenis ook van hun kant is te zien",
+      "hints": [
+        "Wie schreef de Hebreeuwse kronieken?",
+        "Een bron van de slachtoffers is niet per se neutraal."
+      ],
+      "solution": [
+        "De Hebreeuwse kronieken komen uit de Joodse gemeenschap.",
+        "Ze zijn later geschreven en niet neutraal, maar laten wel een perspectief zien dat in Latijnse bronnen ontbreekt."
+      ],
+      "feedback": [
+        {
+          "answer": "Het bewijs dat Urbanus II de vervolging beval",
+          "message": "Dat staat nergens. Kerkelijke leiders veroordeelden het geweld, en Urbanus had niet over de Joden gesproken."
+        },
+        {
+          "answer": "Een neutraal verslag, omdat ze door buitenstaanders zijn geschreven",
+          "message": "De kronieken zijn juist door de gemeenschap van de slachtoffers geschreven en dus niet neutraal."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "11-013",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "De oproep van Clermont was in november 1095, de inname van Jeruzalem in juli 1099. Hoeveel maanden zitten daartussen?",
+      "answer": 44,
+      "hints": [
+        "Reken eerst van november 1095 naar november 1098.",
+        "Tel dan de maanden tot juli 1099."
+      ],
+      "solution": [
+        "Van november 1095 tot november 1098 is 36 maanden.",
+        "Van november 1098 tot juli 1099 is 8 maanden.",
+        "36 plus 8 is 44."
+      ],
+      "unit": "maanden",
+      "feedback": [
+        {
+          "answer": 43,
+          "message": "Je telt waarschijnlijk één maand te weinig; reken in hele maanden vanaf november 1095."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "11-014",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Vergelijk hoe Anna Komnene en Usama ibn Munqidh de Franken beschrijven. Wat zegt dat over hun eigen positie?",
+      "answer": "Noem per schrijver de positie en het doel. Concludeer wat je ermee kunt (en niet kunt).",
+      "hints": [
+        "Wie schreven het, voor wie, en wat wilden ze bereiken?"
+      ],
+      "solution": [
+        "Anna Komnene ziet de Franken als een enorme, dreigende volksverhuizing die haar vader moet beheersen; zij schrijft ter verdediging van Alexios en haar blik is die van het Byzantijnse hof. Usama ziet hen als dieren met moed maar zonder verfijning; hij is een Syrische emir die hen van dichtbij kende en schrijft vanuit zijn eigen gevoel van culturele superioriteit. Beide laten vooral hun eigen perspectief zien, en dat maakt ze bruikbaar als bron voor hoe de Franken werden gezien, minder voor wat de Franken zelf wilden."
+      ],
+      "context": "Anna Komnene (ca. 1148): heel het Westen en alle barbarenstammen tussen de Adriatische Zee en de Zuilen van Herakles hadden zich in hun geheel naar Azië verplaatst. Usama ibn Munqidh (ca. 1183): de Franken zijn dieren met de deugden moed en vechtlust, maar verder niets (beide vrij vertaald).",
+      "topics": [
+        "perspective",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "11-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke beschrijving van de Grote Hongersnood (1315-1317) past het best bij een eerlijke oorzakenanalyse?",
+      "choices": [
+        "De hongersnood was een straf van God, zoals tijdgenoten zeiden, en daarmee verklaard",
+        "Overbevolking was de enige oorzaak en het weer deed er niet toe",
+        "Het slechte weer was de enige oorzaak",
+        "Slecht weer was de directe aanleiding, maar een dichtbevolkt landbouwsysteem zonder reserves maakte de gevolgen groot"
+      ],
+      "answer": "Slecht weer was de directe aanleiding, maar een dichtbevolkt landbouwsysteem zonder reserves maakte de gevolgen groot",
+      "hints": [
+        "Denk aan een korte- en een langetermijnoorzaak."
+      ],
+      "solution": [
+        "Weer is korte termijn; kwetsbaarheid is lange termijn."
+      ],
+      "feedback": [
+        {
+          "answer": "Het slechte weer was de enige oorzaak",
+          "message": "Dat is monocausaal denken. Zonder de kwetsbaarheid van het systeem waren de gevolgen minder groot geweest."
+        },
+        {
+          "answer": "Overbevolking was de enige oorzaak en het weer deed er niet toe",
+          "message": "Ook dit is monocausaal. De natte jaren 1315-1317 waren wel degelijk de aanleiding."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "11-016",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de plaatsen waar de Zwarte Dood volgens de bronnen aankwam in de volgorde van aankomst, de eerste eerst.",
+      "answer": [
+        "Messina (oktober 1347)",
+        "Marseille (november 1347)",
+        "Zuid-Engeland (juni 1348)",
+        "Straatsburg, pogrom (februari 1349)"
+      ],
+      "hints": [
+        "Gebruik de datums tussen haakjes."
+      ],
+      "solution": [
+        "Oktober 1347, november 1347, juni 1348, februari 1349."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Marseille (november 1347)",
+            "Messina (oktober 1347)",
+            "Zuid-Engeland (juni 1348)",
+            "Straatsburg, pogrom (februari 1349)"
+          ],
+          "message": "De ziekte kwam eerst op Sicilië aan en ging daarna naar het vasteland."
+        }
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "11-017",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel maanden zitten er tussen de aankomst van de pest in Messina (oktober 1347) en de verbranding van Joden in Straatsburg (februari 1349)? Tel in hele maanden van oktober 1347 tot februari 1349.",
+      "answer": 16,
+      "hints": [
+        "Van oktober 1347 tot oktober 1348 is 12 maanden."
+      ],
+      "solution": [
+        "12 maanden tot oktober 1348, plus 4 tot februari 1349 is 16."
+      ],
+      "unit": "maanden",
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "11-018",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een historicus schat de sterfte van de Zwarte Dood op ongeveer een derde, een ander op ongeveer 60 procent. Welke conclusie is het best onderbouwd?",
+      "choices": [
+        "De schattingen verschillen door bronnen en methoden, dus je moet een marge noemen in plaats van één getal",
+        "Eén van de twee heeft vast een fout gemaakt",
+        "Zulke getallen zijn onbruikbaar en moeten worden genegeerd",
+        "Het gemiddelde van beide is altijd het juiste getal"
+      ],
+      "answer": "De schattingen verschillen door bronnen en methoden, dus je moet een marge noemen in plaats van één getal",
+      "hints": [
+        "Voor 1347 bestond geen volkstelling."
+      ],
+      "solution": [
+        "Er is geen betrouwbare nulmeting.",
+        "Verschillende methoden geven verschillende uitkomsten."
+      ],
+      "feedback": [
+        {
+          "answer": "Het gemiddelde van beide is altijd het juiste getal",
+          "message": "Een gemiddelde van twee schattingen is zelf geen schatting. Het gaat om de bronnen erachter."
+        },
+        {
+          "answer": "Zulke getallen zijn onbruikbaar en moeten worden genegeerd",
+          "message": "Dat gaat te ver. De getallen zijn bruikbaar als marge, met de nodige voorzichtigheid."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "sources"
+      ]
+    },
+    {
+      "id": "11-019",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een denkbeeldige stad had vóór de pest 18.000 inwoners. Hoeveel meer inwoners zijn er omgekomen als de sterfte 60 procent was dan wanneer die een derde was?",
+      "answer": 4800,
+      "hints": [
+        "Bereken de sterfte voor beide percentages."
+      ],
+      "solution": [
+        "Een derde van 18.000 is 6.000.",
+        "60 procent van 18.000 is 10.800.",
+        "10.800 min 6.000 is 4.800."
+      ],
+      "unit": "inwoners",
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "11-020",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom werden in 1348-1349 op veel plaatsen Joden beschuldigd van het vergiftigen van putten?",
+      "choices": [
+        "Omdat Joden volgens medisch onderzoek de ziekte hadden verspreid",
+        "Mensen zochten bij een onbegrepen ramp een schuldige, en een afgezonderde minderheid was een makkelijk doelwit",
+        "Omdat de beschuldiging door historici later is bedacht en destijds nooit is geuit",
+        "Omdat de paus de Joden als schuldigen aanwees"
+      ],
+      "answer": "Mensen zochten bij een onbegrepen ramp een schuldige, en een afgezonderde minderheid was een makkelijk doelwit",
+      "hints": [
+        "Wat deed paus Clemens VI in juli 1348?"
+      ],
+      "solution": [
+        "De paus verklaarde de beschuldiging ongegrond.",
+        "Het patroon is dat van een zondebok."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat de paus de Joden als schuldigen aanwees",
+          "message": "Het tegendeel is waar: Clemens VI verklaarde de beschuldiging ongegrond en nam Joden in bescherming."
+        },
+        {
+          "answer": "Omdat Joden volgens medisch onderzoek de ziekte hadden verspreid",
+          "message": "Er was geen medisch bewijs. De beschuldiging werd vaak met foltering afgedwongen."
+        }
+      ],
+      "topics": [
+        "causation",
+        "perspective"
+      ]
+    },
+    {
+      "id": "11-021",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je wilt de miniatuur van Pierart dou Tielt gebruiken in een verhandeling over de pest in Doornik. Wat kun je ermee aantonen en wat niet?",
+      "answer": "Herkomst eerst. Dan: wat zegt ze, wat niet? Conclusie met de juiste mate van zekerheid.",
+      "hints": [
+        "Wie maakte haar, wanneer, voor wie?"
+      ],
+      "solution": [
+        "De miniatuur laat zien dat in Doornik, rond 1349, slachtoffers in massagraven werden begraven en dat een kloosterkroniek dit belangrijk genoeg vond om te illustreren; ze is enkele jaren na de gebeurtenis gemaakt voor een kloosterlijk publiek. Ze toont een geordende voorstelling, geen foto: hoeveel doden er waren, hoe de stad het organiseerde of hoe chaotisch het was, kun je er niet uit afleiden. Voor die vragen heb je aanvullende bronnen nodig, zoals de tekst van de kroniek of stadsrekeningen."
+      ],
+      "topics": [
+        "source-criticism",
+        "sources"
+      ],
+      "context": "Een miniatuur van Pierart dou Tielt (Doornik, ca. 1353) in de kroniek van Gilles li Muisis, abt van Saint-Martin, toont hoe Doornikers kisten met pestslachtoffers naar geopende graven dragen, tegen een gouden achtergrond."
+    },
+    {
+      "id": "11-022",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze schakels in de volgorde van oorzaak naar gevolg, zoals een historicus de opstand van 1381 zou verklaren.",
+      "answer": [
+        "De pest doodt een groot deel van de bevolking",
+        "Arbeid wordt schaars en lonen stijgen",
+        "De regering probeert de lonen met wetten te bevriezen (1349, 1351)",
+        "Hoofdbelastingen leiden tot verzet (1377-1381)",
+        "Opstand in Kent en Essex (juni 1381)"
+      ],
+      "hints": [
+        "Elke schakel volgt uit de vorige."
+      ],
+      "solution": [
+        "Pest, arbeidsschaarste, loonwetten, belasting, opstand."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "De pest doodt een groot deel van de bevolking",
+            "Arbeid wordt schaars en lonen stijgen",
+            "Hoofdbelastingen leiden tot verzet (1377-1381)",
+            "De regering probeert de lonen met wetten te bevriezen (1349, 1351)",
+            "Opstand in Kent en Essex (juni 1381)"
+          ],
+          "message": "De loonwetten komen eerder dan de hoofdbelastingen, en beide dragen bij aan de spanning."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "11-023",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom is voorzichtigheid nodig als je de Jacquerie van 1358 wilt beschrijven met de kroniek van Froissart?",
+      "choices": [
+        "Froissart schreef vanuit de adel, die de opstandelingen als wilde barbaren beschreef",
+        "Froissart schreef alleen over opstanden in Engeland",
+        "Bronnen over opstanden zijn altijd vervalst",
+        "Froissart is een tijdgenoot en dus altijd onbetrouwbaar"
+      ],
+      "answer": "Froissart schreef vanuit de adel, die de opstandelingen als wilde barbaren beschreef",
+      "hints": [
+        "Wie komt in de bron aan het woord?"
+      ],
+      "solution": [
+        "Zonder de stem van de boeren is het beeld eenzijdig.",
+        "Ook een bevooroordeelde bron is bruikbaar, voor de juiste vraag."
+      ],
+      "feedback": [
+        {
+          "answer": "Froissart is een tijdgenoot en dus altijd onbetrouwbaar",
+          "message": "Tijdgenoot zijn maakt een bron niet per se onbetrouwbaar of betrouwbaar. De positie van de schrijver telt."
+        }
+      ],
+      "topics": [
+        "source-criticism",
+        "perspective"
+      ]
+    },
+    {
+      "id": "11-024",
+      "type": "choice",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een leerling beweert: 'De Engelse boerenopstand van 1381 kwam door de Zwarte Dood.' Welke reactie is het best?",
+      "choices": [
+        "De pest schiep voorwaarden (arbeidsschaarste, loonconflicten), maar de hoofdbelasting en de oorlogskosten waren de directe aanleiding",
+        "Dat klopt volledig, want zonder pest geen opstanden",
+        "Dat klopt niet, want de pest was dertig jaar eerder",
+        "De opstand had niets met de pest te maken omdat alleen belastingen telden"
+      ],
+      "answer": "De pest schiep voorwaarden (arbeidsschaarste, loonconflicten), maar de hoofdbelasting en de oorlogskosten waren de directe aanleiding",
+      "hints": [
+        "Scheid korte- en langetermijnoorzaken."
+      ],
+      "solution": [
+        "Voorwaarde versus aanleiding.",
+        "Monocausaal denken vermijden."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat klopt volledig, want zonder pest geen opstanden",
+          "message": "Dat is monocausaal. Opstanden bestonden ook vóór de pest, en in 1381 was de belasting de directe aanleiding."
+        },
+        {
+          "answer": "Dat klopt niet, want de pest was dertig jaar eerder",
+          "message": "Een groot tijdsverschil sluit een verband niet uit. Gevolgen kunnen decennia doorwerken."
+        }
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "11-025",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Hoeveel jaar duurde de Honderdjarige Oorlog volgens de gangbare datering van 1337 tot 1453?",
+      "answer": 116,
+      "hints": [
+        "Trek 1337 af van 1453."
+      ],
+      "solution": [
+        "1453 min 1337 is 116."
+      ],
+      "unit": "jaar",
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "11-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat veroorzaakte het begin van het Westers Schisma in 1378?",
+      "choices": [
+        "Het concilie van Constance",
+        "Dezelfde kardinalen kozen eerst Urbanus VI en daarna, onder verwijzing naar de druk van de Romeinse menigte, ook Clemens VII",
+        "Een opstand van de Duitse keizer tegen de paus",
+        "Een pauselijk besluit om de kerk te splitsen"
+      ],
+      "answer": "Dezelfde kardinalen kozen eerst Urbanus VI en daarna, onder verwijzing naar de druk van de Romeinse menigte, ook Clemens VII",
+      "hints": [
+        "Hoeveel pausen waren er in 1378?"
+      ],
+      "solution": [
+        "Twee pausen, twee obediënties.",
+        "Constance beëindigde het schisma juist."
+      ],
+      "feedback": [
+        {
+          "answer": "Het concilie van Constance",
+          "message": "Constance (1414-1418) beëindigde het schisma, het veroorzaakte het niet."
+        }
+      ],
+      "topics": [
+        "causation",
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "11-027",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Beoordeel: was de Moderne Devotie vooral een teken van verval of van vernieuwing van de kerk in de late middeleeuwen? Betrek continuïteit en verandering.",
+      "answer": "Noem een argument voor verval. Noem een argument voor vernieuwing. Trek een voorzichtige conclusie.",
+      "hints": [
+        "Maak onderscheid tussen oorzaak (crisis) en gevolg (vernieuwing)."
+      ],
+      "solution": [
+        "Je kunt beide kanten laten zien. De beweging ontstond uit ontevredenheid met een verdeelde en verwereldlijkte kerk, wat op crisis wijst. Maar ze bracht ook vernieuwing: gemeenschappen als de Broeders en Zusters des Gemenen Levens, de kloostergemeenschap van Windesheim en werken als De navolging van Christus. Het is dus beter te spreken van een crisis die ook vernieuwing opriep. Er bleef continuïteit in het christelijk geloof, terwijl de vorm van vroomheid veranderde."
+      ],
+      "topics": [
+        "continuity-change",
+        "middle-ages"
+      ]
+    },
+    {
+      "id": "11-028",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is het belangrijkste verschil tussen de vraag van Runciman en die van Riley-Smith?",
+      "choices": [
+        "Runciman vroeg vooral naar de gevolgen (en schade), Riley-Smith naar de motieven van de deelnemers",
+        "Beide stelden dezelfde vraag maar kwamen op een ander antwoord",
+        "Runciman vroeg naar de motieven, Riley-Smith naar de gevolgen",
+        "Runciman gebruikte alleen Arabische bronnen"
+      ],
+      "answer": "Runciman vroeg vooral naar de gevolgen (en schade), Riley-Smith naar de motieven van de deelnemers",
+      "hints": [
+        "Denk aan: wat gebeurde er? Waarom gingen ze?"
+      ],
+      "solution": [
+        "Verschillende vragen leiden tot verschillende bronnen en antwoorden."
+      ],
+      "feedback": [
+        {
+          "answer": "Beide stelden dezelfde vraag maar kwamen op een ander antwoord",
+          "message": "Het verschil zit juist ook in de vraag. Dat is een kernles van historiografie."
+        },
+        {
+          "answer": "Runciman gebruikte alleen Arabische bronnen",
+          "message": "Runciman steunde vooral op Latijnse en Byzantijnse bronnen. Arabische bronnen kregen later meer aandacht, bijvoorbeeld bij Hillenbrand."
+        }
+      ],
+      "topics": [
+        "historiography",
+        "perspective"
+      ]
+    },
+    {
+      "id": "11-029",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Leg uit waarom Postan en Brenner de crisis van de late middeleeuwen verschillend verklaren, en hoe je zou kunnen beoordelen wat het beste past.",
+      "answer": "Noem het accent van elk. Noem een toets aan de bronnen.",
+      "hints": [
+        "Vat beide posities kort samen."
+      ],
+      "solution": [
+        "Postan legt de nadruk op bevolking en voedsel: rond 1300 was Europa overbevolkt, en de crisis herstelde het evenwicht. Brenner legt de nadruk op klassenverhoudingen: de uitkomst hing af van de macht van heren en boeren. Je kunt ze beoordelen door te kijken welke verklaring de regionale verschillen (bijvoorbeeld tussen Engeland en Frankrijk) verklaart, en of de bronnen (pacht, lonen, bevolkingscijfers) de ene of de andere lezing steunen. Mogelijk vullen ze elkaar aan."
+      ],
+      "topics": [
+        "historiography",
+        "causation"
+      ]
+    },
+    {
+      "id": "11-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is belangrijk om te weten voordat je de Alexias van Anna Komnene als bron gebruikt?",
+      "choices": [
+        "Dat zij zelf in Clermont aanwezig was",
+        "Dat zij schreef voor een Westers publiek",
+        "Dat zij als primaire bron altijd betrouwbaar is",
+        "Dat zij schreef om het beleid van haar vader Alexios I te verdedigen en dat zij pas decennia na de gebeurtenissen schreef"
+      ],
+      "answer": "Dat zij schreef om het beleid van haar vader Alexios I te verdedigen en dat zij pas decennia na de gebeurtenissen schreef",
+      "hints": [
+        "Herkomst: wie, wanneer, voor wie?"
+      ],
+      "solution": [
+        "Anna is een betrokkene met een eigen doel."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat zij als primaire bron altijd betrouwbaar is",
+          "message": "Primair betekent niet automatisch betrouwbaar. Een bron uit de tijd zelf kan sterk gekleurd zijn."
+        },
+        {
+          "answer": "Dat zij zelf in Clermont aanwezig was",
+          "message": "Anna was in Constantinopel en nog een kind toen de kruisvaarders kwamen."
+        }
+      ],
+      "topics": [
+        "source-criticism"
+      ],
+      "context": "Anna Komnene (1083-ca. 1153) schreef haar Alexias rond 1148 over het bewind van haar vader, keizer Alexios I Komnenos (1081-1118)."
+    },
+    {
+      "id": "11-031",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je legt de drie bronnen (Fulcher, Anna, Usama) naast elkaar. Welke conclusie is gerechtvaardigd?",
+      "choices": [
+        "Dat de Franken door iedereen als barbaren werden gezien",
+        "Dat de Franken door Latijnen, Byzantijnen en Syriërs verschillend werden gezien en dat elke bron iets over de schrijver zegt",
+        "Dat de bronnen elkaar tegenspreken en dus waardeloos zijn",
+        "Dat de kruisvaarders alleen voor religieuze redenen gingen"
+      ],
+      "answer": "Dat de Franken door Latijnen, Byzantijnen en Syriërs verschillend werden gezien en dat elke bron iets over de schrijver zegt",
+      "hints": [
+        "Welke bron zegt iets over de motieven?"
+      ],
+      "solution": [
+        "Fulcher: aflaat en hulp. Anna: dreiging. Usama: minachting.",
+        "Eén conclusie voor alle bronnen is te grof."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat de Franken door iedereen als barbaren werden gezien",
+          "message": "Fulcher is zelf een Fransman en ziet de kruisvaarders heel anders."
+        },
+        {
+          "answer": "Dat de bronnen elkaar tegenspreken en dus waardeloos zijn",
+          "message": "Verschillende perspectieven maken bronnen niet waardeloos. Ze beantwoorden verschillende vragen."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "source-criticism"
+      ],
+      "context": "Fulcher van Chartres (begonnen rond 1100): de paus zegt dat de broeders in het oosten dringend hulp nodig hebben en dat wie onderweg of in de strijd sterft, onmiddellijke vergeving van zonden krijgt. Anna Komnene (ca. 1148): heel het Westen en alle barbarenstammen tussen de Adriatische Zee en de Zuilen van Herakles hadden zich in hun geheel naar Azië verplaatst. Usama ibn Munqidh (ca. 1183): de Franken zijn dieren met de deugden moed en vechtlust, maar verder niets. (Alle drie vrij vertaald uit Engelse vertalingen.)"
+    },
+    {
+      "id": "11-032",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Usama vertelt de anekdote van de arts die een ridder liet kiezen tussen leven met één been of sterven met twee. Waarvoor is dit verhaal als bron het best te gebruiken?",
+      "choices": [
+        "Voor hoe Usama de Frankische geneeskunde en de Franken zag",
+        "Als bewijs dat Frankische artsen geen kennis hadden",
+        "Als neutraal overzicht van middeleeuwse geneeskunde",
+        "Als bewijs dat de ridder echt heeft bestaan"
+      ],
+      "answer": "Voor hoe Usama de Frankische geneeskunde en de Franken zag",
+      "hints": [
+        "Waarom vertelt Usama dit?"
+      ],
+      "solution": [
+        "Hij wil de Franken belachelijk maken.",
+        "De anekdote zegt meer over de verteller dan over de arts."
+      ],
+      "feedback": [
+        {
+          "answer": "Als bewijs dat Frankische artsen geen kennis hadden",
+          "message": "Eén anekdote van een vijandige schrijver bewijst dat niet."
+        }
+      ],
+      "topics": [
+        "perspective",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "11-033",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Beantwoord de onderzoeksvraag: wat zeggen de fragmenten van Fulcher, Anna en Usama over de redenen waarom de kruisvaarders naar het oosten trokken, en over hoe zij werden gezien? Noem per bron wat ze wel en niet kan zeggen en geef de mate van zekerheid aan.",
+      "answer": "Herkomst, context, wat wel en niet, bruikbaarheid, conclusie.",
+      "hints": [
+        "Begin met herkomst per bron.",
+        "Eindig met de mate van zekerheid."
+      ],
+      "solution": [
+        "Fulcher noemt hulp aan de oosterse christenen en aflaat, en dus religieuze motieven; hij schrijft zelf als geestelijke vanuit een Latijnse blik. Anna beschrijft de komst als een bedreigende volksverhuizing, maar zegt niets over motieven en wil haar vader verdedigen. Usama zegt niets over motieven en beoordeelt de Franken minachtend. Samen laten ze zien dat de motieven vooral uit Latijnse bronnen komen en dat de buitenstaanders vooral hun eigen perspectief laten zien. Redelijk zeker is dat religieuze motieven een rol speelden; hoe zwaar ze wogen, laat zich uit deze drie fragmenten niet vaststellen."
+      ],
+      "topics": [
+        "perspective",
+        "source-criticism",
+        "interpretation"
+      ],
+      "context": "Fulcher van Chartres (begonnen rond 1100): de paus zegt dat de broeders in het oosten dringend hulp nodig hebben en dat wie onderweg of in de strijd sterft, onmiddellijke vergeving van zonden krijgt. Anna Komnene (ca. 1148): heel het Westen en alle barbarenstammen tussen de Adriatische Zee en de Zuilen van Herakles hadden zich in hun geheel naar Azië verplaatst. Usama ibn Munqidh (ca. 1183): de Franken zijn dieren met de deugden moed en vechtlust, maar verder niets. (Alle drie vrij vertaald uit Engelse vertalingen.)"
+    }
+  ]
+}

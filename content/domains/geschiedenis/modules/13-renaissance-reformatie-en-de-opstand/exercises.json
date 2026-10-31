@@ -1,0 +1,1021 @@
+{
+  "exercises": [
+    {
+      "id": "13-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Hogenbergs ets van de Beeldenstorm is gedateerd tussen 1566 en 1570 en gemaakt in Keulen. Wat is de beste conclusie over de bruikbaarheid?",
+      "choices": [
+        "Ze is een betrouwbaar beeld van wat er precies gebeurde, omdat ze zo kort na 1566 is gemaakt",
+        "Ze is onbruikbaar, omdat de maker er niet bij was",
+        "Ze bewijst dat alleen calvinisten betrokken waren",
+        "Ze laat zien hoe de gebeurtenis kort na afloop werd voorgesteld, maar is geen foto van het moment zelf"
+      ],
+      "answer": "Ze laat zien hoe de gebeurtenis kort na afloop werd voorgesteld, maar is geen foto van het moment zelf",
+      "hints": [
+        "Denk aan wie de prent maakte, waar en voor wie."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Ze laat zien hoe de gebeurtenis kort na afloop werd voorgesteld, maar is geen foto van het moment zelf"
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Ze is een betrouwbaar beeld van wat er precies gebeurde, omdat ze zo kort na 1566 is gemaakt",
+          "message": "Dichtbij in de tijd betekent niet automatisch betrouwbaar. De maker ordende de gebeurtenis en zat in een andere stad."
+        },
+        {
+          "answer": "Ze is onbruikbaar, omdat de maker er niet bij was",
+          "message": "Ook een bron zonder ooggetuige is bruikbaar, als je weet wat je ermee kunt onderzoeken: hier de voorstelling van de gebeurtenis."
+        },
+        {
+          "answer": "Ze bewijst dat alleen calvinisten betrokken waren",
+          "message": "Het onderschrift beweert dat, maar dat is een interpretatie van de maker, geen bewijs."
+        }
+      ]
+    },
+    {
+      "id": "13-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Het onderschrift van de prent geeft de 'calvinistische religie' de schuld. Wat zegt dat vooral?",
+      "choices": [
+        "Dat de calvinistische kerkenraden de actie hadden georganiseerd",
+        "Wat er in 1566 zeker de oorzaak was",
+        "Dat Hogenberg zelf aan de beeldenstorm deelnam",
+        "Hoe de maker en zijn publiek de gebeurtenis wilden begrijpen"
+      ],
+      "answer": "Hoe de maker en zijn publiek de gebeurtenis wilden begrijpen",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Hoe de maker en zijn publiek de gebeurtenis wilden begrijpen"
+      ],
+      "topics": [
+        "sources",
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Wat er in 1566 zeker de oorzaak was",
+          "message": "Het onderschrift is zelf een verklaring. Een bron kun je niet gebruiken om haar eigen verklaring te bewijzen."
+        },
+        {
+          "answer": "Dat de calvinistische kerkenraden de actie hadden georganiseerd",
+          "message": "Dat staat er niet, en uit ander onderzoek blijkt dat veel predikanten zich van de beeldenstorm distantieerden."
+        }
+      ]
+    },
+    {
+      "id": "13-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat bedoelden humanisten met de leus *ad fontes*?",
+      "choices": [
+        "De boekdrukkunst gebruiken om kerkelijke teksten te verspreiden",
+        "Teksten lezen in de oorspronkelijke talen en beoordelen op taal en herkomst",
+        "Alle christelijke leer vervangen door de oudheid",
+        "De volkstaal invoeren in de kerk"
+      ],
+      "answer": "Teksten lezen in de oorspronkelijke talen en beoordelen op taal en herkomst",
+      "hints": [
+        "Letterlijk: 'naar de bronnen'."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Teksten lezen in de oorspronkelijke talen en beoordelen op taal en herkomst"
+      ],
+      "topics": [
+        "sources",
+        "early-modern"
+      ],
+      "feedback": [
+        {
+          "answer": "Alle christelijke leer vervangen door de oudheid",
+          "message": "Humanisten wilden het christendom niet vervangen; zij wilden de oorspronkelijke teksten lezen."
+        }
+      ]
+    },
+    {
+      "id": "13-004",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Valla toont de Constantijnse Schenking als vervalsing aan (1440)",
+        "Gutenberg drukt zijn Bijbel in Mainz (ca. 1455)",
+        "Lof der Zotheid verschijnt in Parijs (1511)",
+        "Erasmus' Griekse Nieuwe Testament verschijnt (1516)",
+        "Luthers stellingen over de aflaat (1517)"
+      ],
+      "hints": [
+        "Zoek bij elk item het jaartal en zet ze op volgorde."
+      ],
+      "solution": [
+        "Volgorde: Valla toont de Constantijnse Schenking als vervalsing aan (1440) - Gutenberg drukt zijn Bijbel in Mainz (ca. 1455) - Lof der Zotheid verschijnt in Parijs (1511) - Erasmus' Griekse Nieuwe Testament verschijnt (1516) - Luthers stellingen over de aflaat (1517)"
+      ],
+      "topics": [
+        "chronology",
+        "early-modern"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Gutenberg drukt zijn Bijbel in Mainz (ca. 1455)",
+            "Valla toont de Constantijnse Schenking als vervalsing aan (1440)",
+            "Lof der Zotheid verschijnt in Parijs (1511)",
+            "Erasmus' Griekse Nieuwe Testament verschijnt (1516)",
+            "Luthers stellingen over de aflaat (1517)"
+          ],
+          "message": "Valla schreef zijn betoog in 1440, vijftien jaar voor Gutenbergs Bijbel. Zijn tekst circuleerde eerst in handschrift."
+        }
+      ]
+    },
+    {
+      "id": "13-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Iemand zegt: 'De boekdrukkunst veroorzaakte de Reformatie.' Wat is de beste reactie?",
+      "choices": [
+        "Ze maakte snelle verspreiding mogelijk, maar de onvrede en de kritiek bestonden al",
+        "Dat klopt, zonder drukpers was er geen Reformatie geweest",
+        "Dat klopt niet, want Gutenberg was zelf katholiek",
+        "Dat klopt niet, de pers speelde geen rol"
+      ],
+      "answer": "Ze maakte snelle verspreiding mogelijk, maar de onvrede en de kritiek bestonden al",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Ze maakte snelle verspreiding mogelijk, maar de onvrede en de kritiek bestonden al"
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat klopt, zonder drukpers was er geen Reformatie geweest",
+          "message": "Dat is monocausaal. Eerdere critici als Hus bestonden zonder pers; de pers maakte het bereik veel groter."
+        },
+        {
+          "answer": "Dat klopt niet, de pers speelde geen rol",
+          "message": "De pers speelde wel een rol, als versneller van verspreiding."
+        }
+      ]
+    },
+    {
+      "id": "13-006",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Leg in je eigen woorden uit hoe de aanpak van Valla en die van Erasmus op elkaar lijken, en wat het kerkelijke gezag daarvan kon merken.",
+      "answer": "Beide onderzochten een tekst op taal en herkomst. Valla toonde een document als later aan, Erasmus legde de Vulgaat naast het Grieks en wees op verschillen (bijvoorbeeld bij 'doe boete'). Zo kon gezag dat op een tekst rustte ter discussie komen.",
+      "hints": [
+        "Denk aan Valla's argument over het Latijn en Erasmus' Mattheüs 3:2."
+      ],
+      "solution": [
+        "Valla: de Constantijnse Schenking is later geschreven dan beweerd. Erasmus: de Vulgaat wijkt op plaatsen af van het Grieks.",
+        "Beide gebruiken taalonderzoek als bronnenkritiek.",
+        "Als de tekst anders blijkt, kan het gezag dat erop rust wankelen."
+      ],
+      "min_length": 60,
+      "topics": [
+        "sources",
+        "source-criticism"
+      ]
+    },
+    {
+      "id": "13-007",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Hoeveel jaar zat er ongeveer tussen Gutenbergs Bijbel (ca. 1455) en Luthers stellingen (1517)?",
+      "answer": 62,
+      "unit": "jaar",
+      "hints": [
+        "Trek de jaartallen van elkaar af."
+      ],
+      "solution": [
+        "1517 - 1455 = 62"
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": 72,
+          "message": "Je hebt het verschil met 1445 berekend, maar Gutenbergs Bijbel is van ca. 1455."
+        }
+      ]
+    },
+    {
+      "id": "13-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Waar gingen Luthers stellingen van 1517 in de eerste plaats over?",
+      "choices": [
+        "De splitsing van de kerk in twee kerken",
+        "De aflaathandel en wat aflaten eigenlijk betekenden",
+        "De vertaling van de Bijbel in het Duits",
+        "Het afschaffen van de mis"
+      ],
+      "answer": "De aflaathandel en wat aflaten eigenlijk betekenden",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: De aflaathandel en wat aflaten eigenlijk betekenden"
+      ],
+      "topics": [
+        "early-modern"
+      ],
+      "feedback": [
+        {
+          "answer": "De splitsing van de kerk in twee kerken",
+          "message": "Luther wilde in 1517 een discussie, geen nieuwe kerk."
+        },
+        {
+          "answer": "De vertaling van de Bijbel in het Duits",
+          "message": "De vertaling volgde later, rond 1522 (Nieuwe Testament)."
+        }
+      ]
+    },
+    {
+      "id": "13-009",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Luthers stellingen (1517)",
+        "Luther voor de Rijksdag van Worms (1521)",
+        "Eerste volwassendoop in Zürich (1525)",
+        "Calvijns eerste Institutie verschijnt (1536)",
+        "Het Concilie van Trente begint (1545)"
+      ],
+      "hints": [
+        "Zoek bij elk item het jaartal en zet ze op volgorde."
+      ],
+      "solution": [
+        "Volgorde: Luthers stellingen (1517) - Luther voor de Rijksdag van Worms (1521) - Eerste volwassendoop in Zürich (1525) - Calvijns eerste Institutie verschijnt (1536) - Het Concilie van Trente begint (1545)"
+      ],
+      "topics": [
+        "chronology",
+        "early-modern"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Luther voor de Rijksdag van Worms (1521)",
+            "Luthers stellingen (1517)",
+            "Eerste volwassendoop in Zürich (1525)",
+            "Calvijns eerste Institutie verschijnt (1536)",
+            "Het Concilie van Trente begint (1545)"
+          ],
+          "message": "De stellingen (1517) komen vóór Worms (1521)."
+        }
+      ]
+    },
+    {
+      "id": "13-010",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "De zin 'Hier stehe ich' staat in een gedrukte versie van Luthers toespraak in Worms, maar niet in de verslagen die direct na de zitting zijn opgetekend. Wat is een voorzichtige conclusie?",
+      "choices": [
+        "Luther heeft de zin zeker niet gezegd, dus de hele toespraak is verzonnen",
+        "De zin is bewezen authentiek, omdat de gedrukte versie zo kort na de zitting verscheen",
+        "Het maakt niets uit, want een citaat hoeft niet kloppen",
+        "Waarschijnlijk is de zin later toegevoegd; zeker is dat Luther zijn standpunt weigerde in te trekken"
+      ],
+      "answer": "Waarschijnlijk is de zin later toegevoegd; zeker is dat Luther zijn standpunt weigerde in te trekken",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Waarschijnlijk is de zin later toegevoegd; zeker is dat Luther zijn standpunt weigerde in te trekken"
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Luther heeft de zin zeker niet gezegd, dus de hele toespraak is verzonnen",
+          "message": "Te sterk: dat de zin ontbreekt in vroege verslagen is geen bewijs dat de hele toespraak verzonnen is."
+        },
+        {
+          "answer": "De zin is bewezen authentiek, omdat de gedrukte versie zo kort na de zitting verscheen",
+          "message": "Primair betekent niet automatisch betrouwbaar; juist de vroegste verslagen missen de zin."
+        }
+      ]
+    },
+    {
+      "id": "13-011",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Waarom sloeg het calvinisme in de Nederlanden aan? Welk antwoord is het meest genuanceerd?",
+      "choices": [
+        "Doordat de katholieke kerk in de Nederlanden niet bestond",
+        "Uitsluitend doordat de koning het calvinisme steunde",
+        "Uitsluitend doordat de meeste Nederlanders de leer van de predestinatie aansprak",
+        "Door een combinatie van kerkorganisatie, vervolging die sympathie wekte, stedelijke netwerken en kritiek op de kerk"
+      ],
+      "answer": "Door een combinatie van kerkorganisatie, vervolging die sympathie wekte, stedelijke netwerken en kritiek op de kerk",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Door een combinatie van kerkorganisatie, vervolging die sympathie wekte, stedelijke netwerken en kritiek op de kerk"
+      ],
+      "topics": [
+        "causation",
+        "early-modern"
+      ],
+      "feedback": [
+        {
+          "answer": "Uitsluitend doordat de meeste Nederlanders de leer van de predestinatie aansprak",
+          "message": "Monocausaal, en het calvinisme was in 1566 nog een minderheid."
+        }
+      ]
+    },
+    {
+      "id": "13-012",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "In 1566 was het calvinisme nog een minderheid, toch had het groot politiek gewicht. Geef twee redenen.",
+      "answer": "Bijvoorbeeld: een kerkenraadsorganisatie die ook onder vervolging functioneerde; vervolging die sympathie bij niet-calvinisten wekte; de Beeldenstorm en hagepreken die zichtbaar maakten dat de overheid het gezag niet meer had.",
+      "hints": [
+        "Denk aan organisatie, vervolging en netwerken."
+      ],
+      "solution": [
+        "Organisatie en netwerken",
+        "Vervolging en de reactie daarop",
+        "Zichtbaarheid van hagepreken en beeldenstorm"
+      ],
+      "min_length": 60,
+      "topics": [
+        "early-modern",
+        "causation"
+      ]
+    },
+    {
+      "id": "13-013",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Calvijns Institutie verscheen voor het eerst in 1536 en in definitieve vorm in 1559. Hoeveel jaar werkte hij eraan?",
+      "answer": 23,
+      "unit": "jaar",
+      "hints": [
+        "Trek de jaartallen van elkaar af."
+      ],
+      "solution": [
+        "1559 - 1536 = 23"
+      ],
+      "topics": [
+        "chronology"
+      ]
+    },
+    {
+      "id": "13-014",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Welke bewering over de verdeling van geloof in de Nederlanden rond 1566 klopt?",
+      "choices": [
+        "Alle Nederlanders waren in 1566 katholiek of lutheraan",
+        "Het noorden was calvinistisch, het zuiden katholiek",
+        "De Vrede van Augsburg bepaalde de godsdienst in de Nederlanden",
+        "Er waren calvinisten in het zuiden en katholieken in het noorden; de latere landsgrens volgde de geloofsscheiding niet"
+      ],
+      "answer": "Er waren calvinisten in het zuiden en katholieken in het noorden; de latere landsgrens volgde de geloofsscheiding niet",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Er waren calvinisten in het zuiden en katholieken in het noorden; de latere landsgrens volgde de geloofsscheiding niet"
+      ],
+      "topics": [
+        "continuity-change",
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Het noorden was calvinistisch, het zuiden katholiek",
+          "message": "Dat is de uitkomst van de oorlog, niet de situatie rond 1566."
+        },
+        {
+          "answer": "De Vrede van Augsburg bepaalde de godsdienst in de Nederlanden",
+          "message": "Augsburg gold voor het Duitse Rijk, niet voor de Nederlanden."
+        }
+      ]
+    },
+    {
+      "id": "13-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat betekende de Blijde Inkomste van Brabant (1356) voor de verhouding tussen vorst en onderdanen?",
+      "choices": [
+        "Ze legde rechten vast en bepaalde dat onderdanen hun gehoorzaamheid konden opzeggen als de vorst zich niet aan het charter hield",
+        "Ze regelde de erfopvolging van Karel V",
+        "Ze stelde de Staten-Generaal in als regering van de Nederlanden",
+        "Ze gaf de hertog van Brabant het recht om ketters te vervolgen"
+      ],
+      "answer": "Ze legde rechten vast en bepaalde dat onderdanen hun gehoorzaamheid konden opzeggen als de vorst zich niet aan het charter hield",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Ze legde rechten vast en bepaalde dat onderdanen hun gehoorzaamheid konden opzeggen als de vorst zich niet aan het charter hield"
+      ],
+      "topics": [
+        "early-modern",
+        "contextualisation"
+      ],
+      "feedback": [
+        {
+          "answer": "Ze stelde de Staten-Generaal in als regering van de Nederlanden",
+          "message": "De Blijde Inkomste is een Brabants charter uit de middeleeuwen."
+        }
+      ]
+    },
+    {
+      "id": "13-016",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Brief uit Segovia over strikte uitvoering van de plakkaten (1565)",
+        "Smeekschrift der edelen (april 1566)",
+        "Begin van de Beeldenstorm bij Steenvoorde (10 augustus 1566)",
+        "Alva arriveert met een leger (1567)",
+        "Egmont en Hoorne worden onthoofd (1568)",
+        "Inname van Den Briel (1572)"
+      ],
+      "hints": [
+        "Zoek bij elk item het jaartal en zet ze op volgorde."
+      ],
+      "solution": [
+        "Volgorde: Brief uit Segovia over strikte uitvoering van de plakkaten (1565) - Smeekschrift der edelen (april 1566) - Begin van de Beeldenstorm bij Steenvoorde (10 augustus 1566) - Alva arriveert met een leger (1567) - Egmont en Hoorne worden onthoofd (1568) - Inname van Den Briel (1572)"
+      ],
+      "topics": [
+        "chronology",
+        "early-modern"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Smeekschrift der edelen (april 1566)",
+            "Brief uit Segovia over strikte uitvoering van de plakkaten (1565)",
+            "Begin van de Beeldenstorm bij Steenvoorde (10 augustus 1566)",
+            "Alva arriveert met een leger (1567)",
+            "Egmont en Hoorne worden onthoofd (1568)",
+            "Inname van Den Briel (1572)"
+          ],
+          "message": "De brief uit Segovia (1565) is van vóór het Smeekschrift."
+        }
+      ]
+    },
+    {
+      "id": "13-017",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Volgens een overlevering noemde Berlaymont de edelen 'gueux' ('bedelaars'), waarna zij de naam overnamen. Waarom is voorzichtigheid nodig?",
+      "choices": [
+        "Omdat een scheldnaam nooit een symbool kan worden",
+        "Omdat de naam 'geus' uit het Spaans komt",
+        "Omdat Berlaymont Frans sprak, kan het niet waar zijn",
+        "Het verhaal is pas later opgetekend, dus het is niet zeker dat het zo gebeurde, ook al werd de naam wel gebruikt"
+      ],
+      "answer": "Het verhaal is pas later opgetekend, dus het is niet zeker dat het zo gebeurde, ook al werd de naam wel gebruikt",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Het verhaal is pas later opgetekend, dus het is niet zeker dat het zo gebeurde, ook al werd de naam wel gebruikt"
+      ],
+      "topics": [
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat Berlaymont Frans sprak, kan het niet waar zijn",
+          "message": "Frans was de omgangstaal aan het hof; dat maakt het verhaal niet onwaar."
+        }
+      ]
+    },
+    {
+      "id": "13-018",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke bewering over de Beeldenstorm van 1566 is het best onderbouwd?",
+      "choices": [
+        "Alleen de calvinistische kerkenraden namen eraan deel",
+        "De Beeldenstorm werd georganiseerd door Willem van Oranje",
+        "De Beeldenstorm bleef beperkt tot Antwerpen",
+        "De menigte richtte zich op voorwerpen, niet op mensen, en veel gematigden keerden zich daarna van de beweging af"
+      ],
+      "answer": "De menigte richtte zich op voorwerpen, niet op mensen, en veel gematigden keerden zich daarna van de beweging af",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: De menigte richtte zich op voorwerpen, niet op mensen, en veel gematigden keerden zich daarna van de beweging af"
+      ],
+      "topics": [
+        "early-modern"
+      ],
+      "feedback": [
+        {
+          "answer": "De Beeldenstorm werd georganiseerd door Willem van Oranje",
+          "message": "Oranje was geen organisator; hij probeerde de orde te bewaren."
+        },
+        {
+          "answer": "De Beeldenstorm bleef beperkt tot Antwerpen",
+          "message": "Ze begon bij Steenvoorde en verspreidde zich door vele steden."
+        }
+      ]
+    },
+    {
+      "id": "13-019",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom was de tiende penning zo omstreden?",
+      "choices": [
+        "Ze werd door de Staten zelf voorgesteld",
+        "Ze gold alleen voor calvinisten",
+        "Ze was een kerkelijke belasting voor de bouw van bisdommen",
+        "Ze was een blijvende belasting op verkoop, buiten de Staten om, en dreigde de handel te treffen"
+      ],
+      "answer": "Ze was een blijvende belasting op verkoop, buiten de Staten om, en dreigde de handel te treffen",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Ze was een blijvende belasting op verkoop, buiten de Staten om, en dreigde de handel te treffen"
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Ze gold alleen voor calvinisten",
+          "message": "De belasting trof alle verkopers, ook katholieken; dat maakte het verzet breed."
+        }
+      ]
+    },
+    {
+      "id": "13-020",
+      "type": "choice",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een leerling stelt: 'De Opstand was in de eerste plaats een godsdienstoorlog, want de Beeldenstorm begon hem.' Welke reactie is het sterkst?",
+      "choices": [
+        "Dat klopt, belasting en privileges deden er niet toe",
+        "De Beeldenstorm was de oorzaak van de Opstand omdat ze eerder kwam dan Den Briel",
+        "Dat klopt niet, godsdienst speelde geen rol",
+        "Geloof was belangrijk voor 1566, maar voor de steun in 1572 telden belasting, bestuur en Alva's geweld mee; één factor verklaart het niet"
+      ],
+      "answer": "Geloof was belangrijk voor 1566, maar voor de steun in 1572 telden belasting, bestuur en Alva's geweld mee; één factor verklaart het niet",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Geloof was belangrijk voor 1566, maar voor de steun in 1572 telden belasting, bestuur en Alva's geweld mee; één factor verklaart het niet"
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat klopt, belasting en privileges deden er niet toe",
+          "message": "Monocausaal."
+        },
+        {
+          "answer": "De Beeldenstorm was de oorzaak van de Opstand omdat ze eerder kwam dan Den Briel",
+          "message": "Post hoc ergo propter hoc: volgorde in de tijd bewijst geen oorzaak."
+        }
+      ]
+    },
+    {
+      "id": "13-021",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat bepaalde de Pacificatie van Gent (1576)?",
+      "choices": [
+        "De afzetting van Filips II",
+        "De erkenning van het calvinisme in alle gewesten",
+        "Samenwerking van de gewesten tegen de muitende troepen en opschorting van de ketterplakkaten",
+        "De onafhankelijkheid van de Nederlanden"
+      ],
+      "answer": "Samenwerking van de gewesten tegen de muitende troepen en opschorting van de ketterplakkaten",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Samenwerking van de gewesten tegen de muitende troepen en opschorting van de ketterplakkaten"
+      ],
+      "topics": [
+        "early-modern"
+      ],
+      "feedback": [
+        {
+          "answer": "De afzetting van Filips II",
+          "message": "Dat gebeurde pas in 1581 met het Plakkaat van Verlatinghe."
+        }
+      ]
+    },
+    {
+      "id": "13-022",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Pacificatie van Gent (november 1576)",
+        "Unie van Atrecht (6 januari 1579)",
+        "Unie van Utrecht (23 januari 1579)",
+        "Plakkaat van Verlatinghe (1581)",
+        "Val van Antwerpen (1585)"
+      ],
+      "hints": [
+        "Zoek bij elk item het jaartal en zet ze op volgorde."
+      ],
+      "solution": [
+        "Volgorde: Pacificatie van Gent (november 1576) - Unie van Atrecht (6 januari 1579) - Unie van Utrecht (23 januari 1579) - Plakkaat van Verlatinghe (1581) - Val van Antwerpen (1585)"
+      ],
+      "topics": [
+        "chronology",
+        "early-modern"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Pacificatie van Gent (november 1576)",
+            "Unie van Utrecht (23 januari 1579)",
+            "Unie van Atrecht (6 januari 1579)",
+            "Plakkaat van Verlatinghe (1581)",
+            "Val van Antwerpen (1585)"
+          ],
+          "message": "Atrecht kwam zeventien dagen vóór Utrecht."
+        }
+      ]
+    },
+    {
+      "id": "13-023",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoeveel jaar zaten er tussen het Plakkaat van Verlatinghe (1581) en de Vrede van Münster (1648)?",
+      "answer": 67,
+      "unit": "jaar",
+      "hints": [
+        "Trek de jaartallen van elkaar af."
+      ],
+      "solution": [
+        "1648 - 1581 = 67"
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": 77,
+          "message": "Je hebt van 1571 afgetrokken, maar het Plakkaat is van 1581."
+        }
+      ]
+    },
+    {
+      "id": "13-024",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke vraag kun je met het Plakkaat van Verlatinghe het best beantwoorden?",
+      "choices": [
+        "Wat de Spaanse regering werkelijk van plan was",
+        "Wat de gewone bevolking van de Opstand vond",
+        "Hoe de Staten-Generaal in 1581 de afzetting van Filips II rechtvaardigden",
+        "Hoe groot de aanhang van het calvinisme was"
+      ],
+      "answer": "Hoe de Staten-Generaal in 1581 de afzetting van Filips II rechtvaardigden",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Hoe de Staten-Generaal in 1581 de afzetting van Filips II rechtvaardigden"
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ],
+      "context": "Vrij weergegeven (niet woordelijk) naar de moderne uitgave van M.E.H.N. Mout: een vorst heeft de plicht zijn onderdanen te beschermen. Probeert hij hen in plaats daarvan als slaven te onderdrukken, dan is hij geen vorst meer maar een tiran. (Plakkaat van Verlatinghe, Staten-Generaal, 26 juli 1581)",
+      "feedback": [
+        {
+          "answer": "Wat de gewone bevolking van de Opstand vond",
+          "message": "Het Plakkaat is geschreven door bestuurders; de bevolking spreekt er niet in."
+        },
+        {
+          "answer": "Wat de Spaanse regering werkelijk van plan was",
+          "message": "De tekst presenteert de beschuldigingen van de opstandelingen, niet de bedoelingen van Filips."
+        }
+      ]
+    },
+    {
+      "id": "13-025",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Hoe zag Filips II de Opstand, naar alle waarschijnlijkheid?",
+      "choices": [
+        "Als een bestuurlijke kwestie zonder religieuze kant",
+        "Als een legitiem verzet tegen tirannie",
+        "Als rebellie tegen een rechtmatige vorst, waarbij ketterij ook een zonde was die niet getolereerd kon worden",
+        "Als een strijd van Noord tegen Zuid"
+      ],
+      "answer": "Als rebellie tegen een rechtmatige vorst, waarbij ketterij ook een zonde was die niet getolereerd kon worden",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Als rebellie tegen een rechtmatige vorst, waarbij ketterij ook een zonde was die niet getolereerd kon worden"
+      ],
+      "topics": [
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Als een legitiem verzet tegen tirannie",
+          "message": "Dat is het perspectief van de opstandelingen."
+        }
+      ]
+    },
+    {
+      "id": "13-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom is 'calvinistisch noorden tegen katholiek zuiden' een misleidende beschrijving van de situatie in 1566?",
+      "choices": [
+        "Omdat de godsdienst in 1566 nog geen rol speelde",
+        "Omdat er in het zuiden geen protestanten bestonden",
+        "Het is de uitkomst van de oorlog; in 1566 waren er overal katholieken en calvinisten",
+        "Omdat het noorden lutheraans was"
+      ],
+      "answer": "Het is de uitkomst van de oorlog; in 1566 waren er overal katholieken en calvinisten",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Het is de uitkomst van de oorlog; in 1566 waren er overal katholieken en calvinisten"
+      ],
+      "topics": [
+        "perspective",
+        "continuity-change"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat er in het zuiden geen protestanten bestonden",
+          "message": "Juist in Vlaanderen en Brabant waren veel calvinisten, die later naar het noorden vertrokken."
+        }
+      ]
+    },
+    {
+      "id": "13-027",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarin verschillen Geyl en Israel vooral?",
+      "choices": [
+        "Of de Opstand wel heeft plaatsgevonden",
+        "Of de splitsing in noord en zuid toeval en militaire omstandigheden was, of dat ze diepe maatschappelijke en religieuze wortels had",
+        "Of Filips II tiran was",
+        "Of Willem van Oranje is vermoord"
+      ],
+      "answer": "Of de splitsing in noord en zuid toeval en militaire omstandigheden was, of dat ze diepe maatschappelijke en religieuze wortels had",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Of de splitsing in noord en zuid toeval en militaire omstandigheden was, of dat ze diepe maatschappelijke en religieuze wortels had"
+      ],
+      "topics": [
+        "historiography"
+      ],
+      "feedback": [
+        {
+          "answer": "Of Filips II tiran was",
+          "message": "Dat is geen kern van hun debat."
+        }
+      ]
+    },
+    {
+      "id": "13-028",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom wijzen sommige historici, zoals Van Nierop en Pollmann, op een burgeroorlog binnen de Nederlanden naast de opstand?",
+      "choices": [
+        "Omdat er buiten de Nederlanden geen oorlog was",
+        "Omdat de term 'opstand' pas in de 20e eeuw bestond",
+        "Omdat Filips II zelf de term gebruikte",
+        "Omdat mensen binnen de Nederlanden zelf verdeeld waren en ook katholieken aan de kant van de koning of van Oranje vochten"
+      ],
+      "answer": "Omdat mensen binnen de Nederlanden zelf verdeeld waren en ook katholieken aan de kant van de koning of van Oranje vochten",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Omdat mensen binnen de Nederlanden zelf verdeeld waren en ook katholieken aan de kant van de koning of van Oranje vochten"
+      ],
+      "topics": [
+        "historiography",
+        "perspective"
+      ]
+    },
+    {
+      "id": "13-029",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Parker wijst op geld en oorlogvoering, Geyl op rivieren, Israel op religie en maatschappij. Beantwoord ze niet dezelfde vraag? Leg uit welke vraag elk van hen vooral beantwoordt.",
+      "answer": "Parker beantwoordt vooral waarom de oorlog zo lang duurde en waarom Spanje hem niet won; Geyl en Israel antwoorden waarom de Nederlanden uiteenvielen in noord en zuid. Dat zijn andere vragen, dus de antwoorden spreken elkaar niet altijd tegen.",
+      "hints": [
+        "Let op de vraag die elke historicus stelt."
+      ],
+      "solution": [
+        "Parker: duur van de oorlog en Spaanse middelen.",
+        "Geyl en Israel: splitsing noord en zuid.",
+        "Verschillende vragen, verschillende antwoorden."
+      ],
+      "min_length": 60,
+      "topics": [
+        "historiography"
+      ]
+    },
+    {
+      "id": "13-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke vraag kun je met bron A (Hogenbergs prent) het beste onderzoeken?",
+      "choices": [
+        "Hoe de Beeldenstorm in Keulen, kort daarna, werd voorgesteld en verklaard",
+        "Of de Staten-Generaal de beeldenstorm veroordeelden",
+        "Wie de organisator van de Beeldenstorm was",
+        "Hoeveel kerken er werden geplunderd"
+      ],
+      "answer": "Hoe de Beeldenstorm in Keulen, kort daarna, werd voorgesteld en verklaard",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Hoe de Beeldenstorm in Keulen, kort daarna, werd voorgesteld en verklaard"
+      ],
+      "topics": [
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "Hoeveel kerken er werden geplunderd",
+          "message": "Een prent met één tafereel geeft geen aantallen."
+        }
+      ]
+    },
+    {
+      "id": "13-031",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat laat bron C (artikel over geloof in de Unie van Utrecht) zien over de Unie?",
+      "choices": [
+        "Dat alle gewesten calvinistisch werden",
+        "Dat Filips II de Unie goedkeurde",
+        "Dat de Unie het katholicisme verbood",
+        "Dat de Unie een regeling trof waarbij niemand om zijn geloof mocht worden vervolgd en elk gewest zelf de godsdienst regelde"
+      ],
+      "answer": "Dat de Unie een regeling trof waarbij niemand om zijn geloof mocht worden vervolgd en elk gewest zelf de godsdienst regelde",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Dat de Unie een regeling trof waarbij niemand om zijn geloof mocht worden vervolgd en elk gewest zelf de godsdienst regelde"
+      ],
+      "topics": [
+        "sources",
+        "contextualisation"
+      ],
+      "context": "Artikel over godsdienst in de Unie van Utrecht (1579): niemand mag om zijn godsdienst worden onderzocht of vervolgd; elk gewest regelt de godsdienst zelf.",
+      "feedback": [
+        {
+          "answer": "Dat de Unie het katholicisme verbood",
+          "message": "De bepaling zegt juist dat niemand om zijn geloof mocht worden nagejaagd."
+        }
+      ]
+    },
+    {
+      "id": "13-032",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is een belangrijk verschil in soort tussen bron A en bron B (het Plakkaat)?",
+      "choices": [
+        "A is een afbeelding van een kunstenaar uit het buitenland, B een openbare tekst van bestuurders met een politiek doel",
+        "A is een primaire en B een secundaire bron",
+        "A en B zijn van dezelfde maker",
+        "A is betrouwbaar en B niet"
+      ],
+      "answer": "A is een afbeelding van een kunstenaar uit het buitenland, B een openbare tekst van bestuurders met een politiek doel",
+      "hints": [
+        "Wat weet je over herkomst, doel en tijdstip van de bron of de gebeurtenis?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: A is een afbeelding van een kunstenaar uit het buitenland, B een openbare tekst van bestuurders met een politiek doel"
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "A is een primaire en B een secundaire bron",
+          "message": "Beide zijn primaire bronnen uit de tijd zelf."
+        },
+        {
+          "answer": "A is betrouwbaar en B niet",
+          "message": "Betrouwbaarheid hangt af van de vraag die je stelt; beide hebben een eigen bedoeling."
+        }
+      ]
+    },
+    {
+      "id": "13-033",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de bronnen in de volgorde van hun ontstaan, de oudste eerst.",
+      "answer": [
+        "Bron A: Hogenbergs prent (1566-1570)",
+        "Bron C: Unie van Utrecht (1579)",
+        "Bron B: Plakkaat van Verlatinghe (1581)"
+      ],
+      "hints": [
+        "Zoek bij elk item het jaartal en zet ze op volgorde."
+      ],
+      "solution": [
+        "Volgorde: Bron A: Hogenbergs prent (1566-1570) - Bron C: Unie van Utrecht (1579) - Bron B: Plakkaat van Verlatinghe (1581)"
+      ],
+      "topics": [
+        "chronology",
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Bron A: Hogenbergs prent (1566-1570)",
+            "Bron B: Plakkaat van Verlatinghe (1581)",
+            "Bron C: Unie van Utrecht (1579)"
+          ],
+          "message": "De Unie van Utrecht is van 1579, het Plakkaat van 1581."
+        }
+      ]
+    },
+    {
+      "id": "13-034",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Schrijf een antwoord van ongeveer vijftien regels op de stelling: 'Het Plakkaat van Verlatinghe is de beste bron voor de vraag waarom de Nederlanden in opstand kwamen, want het is een officieel document en dus betrouwbaar.'",
+      "answer": "Een goed antwoord: (1) het Plakkaat is een primaire bron en zegt veel over hoe bestuurders hun daad rechtvaardigden; (2) 'officieel' betekent niet 'neutraal': het is een betoog met een doel (de afzetting rechtvaardigen, ook voor het buitenland), uit 1581 en eenzijdig; (3) voor de vroege oorzaken (1566) zijn bronnen als de prent van Hogenberg en bronnen van gewone mensen of katholieken nodig.",
+      "hints": [
+        "Herkomst, doel, publiek, grenzen."
+      ],
+      "solution": [
+        "Wat klopt: het Plakkaat is een directe bron uit de tijd. Wat niet: het is een betoog met een doel.",
+        "Voeg een bron toe van een andere partij."
+      ],
+      "min_length": 60,
+      "topics": [
+        "sources",
+        "source-criticism",
+        "perspective"
+      ]
+    }
+  ]
+}

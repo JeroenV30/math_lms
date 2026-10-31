@@ -3,19 +3,154 @@
   "slug": "ontdekkingsreizen-en-eerste-globalisering",
   "title": "Ontdekkingsreizen en de eerste globalisering",
   "part": 5,
-  "status": "planned",
+  "status": "available",
   "historical_period": "Ca. 1400 – 1600",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 210,
   "prerequisites": [
     1
   ],
   "topics": [
     "early-modern",
     "perspective",
-    "causation"
+    "causation",
+    "source-criticism",
+    "historiography"
   ],
   "core_question": "Wie ontdekte wie, en wat waren de gevolgen?",
   "summary": "Portugese en Spaanse expedities, de verovering van Amerika en de eerste wereldwijde uitwisseling, vanuit Europese en niet-Europese bronnen.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een kaart met een naam erop",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "wereld-rond-1400",
+      "title": "De wereld rond 1400",
+      "file": "02-wereld-rond-1400.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "portugal-en-spanje",
+      "title": "Portugal, Spanje en de reizen",
+      "file": "03-portugal-en-spanje.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "verovering-van-amerika",
+      "title": "De verovering van Amerika",
+      "file": "04-verovering-van-amerika.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "gevolgen",
+      "title": "Gevolgen: bevolking, uitwisseling en zilver",
+      "file": "05-gevolgen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt de wereld rond 1400 beschrijven als meerdere samenhangende netwerken en uitleggen waarom Europa daarin niet het centrum was.",
+    "Je kunt de motieven van Portugal en Spanje voor de reizen benoemen en tegen elkaar afwegen zonder één motief als enige oorzaak te nemen.",
+    "Je kunt de val van het Azteekse rijk verklaren uit meerdere samenwerkende oorzaken.",
+    "Je kunt een Nahua-bron en een Spaanse bron vergelijken en per bron herkomst, doel en beperking benoemen.",
+    "Je kunt de gevolgen van 1492 (demografisch, biologisch, economisch, slavenhandel) onderscheiden en benoemen wie ze trof.",
+    "Je kunt interpretaties van historici over ontdekking, ontmoeting, de Zwarte Legende en het begin van de globalisering beschrijven en vergelijken."
+  ],
+  "glossary": [
+    {
+      "term": "Ontdekking",
+      "definition": "Een woord dat het Europese perspectief op de ontmoeting met Amerika centraal stelt; voor de bewoners was het land niet nieuw."
+    },
+    {
+      "term": "Karveel",
+      "definition": "Een wendbaar zeeschip met latijnse zeilen dat goed tegen de wind in kon kruisen, veel gebruikt bij de Portugese tochten."
+    },
+    {
+      "term": "Encomienda",
+      "definition": "Een Spaans stelsel waarbij een kolonist tribuut en arbeid van een groep inheemse mensen mocht eisen in ruil voor bescherming en onderricht."
+    },
+    {
+      "term": "Columbian exchange",
+      "definition": "De uitwisseling van gewassen, dieren en ziekten tussen de Oude en de Nieuwe Wereld na 1492, zo genoemd door Alfred Crosby."
+    },
+    {
+      "term": "Florentijnse Codex",
+      "definition": "Een encyclopedie van de Nahua-wereld die Sahagún met Nahua-medewerkers samenstelde; boek 12 beschrijft de verovering van Mexico."
+    },
+    {
+      "term": "Multicausaliteit",
+      "definition": "Het verklaren van een gebeurtenis uit meerdere samenwerkende oorzaken in plaats van uit één."
+    },
+    {
+      "term": "Zwarte Legende",
+      "definition": "De overdreven anti-Spaanse beeldvorming van vooral protestantse tegenstanders; ook een term die soms wordt gebruikt om terechte kritiek weg te wuiven."
+    },
+    {
+      "term": "Tot slaaf gemaakte",
+      "definition": "Een persoon die door anderen onder dwang als eigendom werd behandeld; de term benadrukt dat slavernij een toestand was die mensen werd opgelegd."
+    }
+  ],
+  "timeline": [
+    "zheng-he-expedities",
+    "ceuta-1415",
+    "dias-kaap-1488",
+    "columbus-bahama-1492",
+    "verdrag-van-tordesillas-1494",
+    "da-gama-calicut-1498",
+    "waldseemuller-kaart-1507",
+    "magalhaes-elcano-omvaring-1519",
+    "val-van-tenochtitlan-1521",
+    "cajamarca-1532",
+    "potosi-zilver-1545",
+    "valladolid-debat-1550",
+    "manila-galjoen-1571",
+    "linschoten-itinerario-1596",
+    "crosby-columbian-exchange-1972",
+    "flynn-giraldez-1995",
+    "restall-seven-myths-2003"
+  ],
+  "people": [
+    "zheng-he",
+    "hendrik-de-zeevaarder",
+    "bartolomeu-dias",
+    "columbus",
+    "vasco-da-gama",
+    "vespucci",
+    "waldseemuller",
+    "magalhaes",
+    "elcano",
+    "cortes",
+    "moctezuma-ii",
+    "cuauhtemoc",
+    "pizarro",
+    "atahualpa",
+    "las-casas",
+    "sepulveda",
+    "bernardino-de-sahagun",
+    "linschoten",
+    "crosby",
+    "flynn-en-giraldez",
+    "restall"
+  ]
 }
