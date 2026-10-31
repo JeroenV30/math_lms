@@ -22,6 +22,15 @@ tekstfragment staat er om gelezen en ontleed te worden. Het vak heeft niet op el
 antwoord; maak het verschil tussen "onopgelost" en "willekeurig" zichtbaar: sommige antwoorden zijn
 aantoonbaar sterker dan andere.
 
+## Onderwerpen (topics)
+
+Gebruik in `module.json`, oefeningen en toetsvragen alleen de zestien onderwerpen uit `course.json`;
+verzin geen nieuwe. Vaardigheden: `philosophical-questions`, `concepts`, `socratic-method`, `argument`,
+`fallacies`, `thought-experiments`, `logic`, `reading-texts`. Deelgebieden: `ancient-philosophy`,
+`medieval-philosophy`, `epistemology`, `philosophy-of-science`, `ethics`, `metaphysics`,
+`philosophy-of-mind`, `political-philosophy`. Geef elke oefening minstens één vaardigheid en, waar
+het past, het deelgebied van de module.
+
 ## Lesopbouw (7–8 lessen)
 
 | Les | `kind` | Inhoud |
