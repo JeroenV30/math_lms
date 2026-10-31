@@ -3,19 +3,153 @@
   "slug": "de-eerste-wereldoorlog",
   "title": "De Eerste Wereldoorlog",
   "part": 7,
-  "status": "planned",
+  "status": "available",
   "historical_period": "1914 – 1918",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 240,
   "prerequisites": [
     1
   ],
   "topics": [
     "twentieth-century",
     "causation",
-    "historiography"
+    "historiography",
+    "sources",
+    "interpretation"
   ],
   "core_question": "Wie of wat was verantwoordelijk voor de Eerste Wereldoorlog?",
   "summary": "Oorzaken en aanleiding, de loopgravenoorlog, het neutrale Nederland en het historiografische debat over schuld.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een jas met bloedvlekken",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "lange-termijn-oorzaken",
+      "title": "Een continent vol bondgenootschappen",
+      "file": "02-lange-termijn-oorzaken.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "julicrisis",
+      "title": "Zes weken in de zomer van 1914",
+      "file": "03-julicrisis.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "de-oorlog",
+      "title": "Van loopgraaf tot wereldoorlog",
+      "file": "04-de-oorlog.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "nederland-en-versailles",
+      "title": "Neutraal Nederland en Versailles",
+      "file": "05-nederland-en-versailles.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum: artikel 231",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt langetermijnoorzaken (allianties, vlootwedloop, imperialisme, Balkannationalisme, mobilisatieplannen) scheiden van de aanleiding en afwegen welk gewicht elke oorzaak krijgt.",
+    "Je kunt de julicrisis van 1914 in chronologische volgorde beschrijven en per hoofdstad uitleggen welke keuzes werden gemaakt.",
+    "Je kunt de loop van de oorlog schetsen, van de Marne tot de wapenstilstand, en uitleggen waarom ze een totale oorlog en een wereldoorlog werd.",
+    "Je kunt beschrijven hoe neutraal Nederland door de oorlog werd geraakt.",
+    "Je kunt uitleggen wat het Verdrag van Versailles bepaalde en hoe artikel 231 is gelezen.",
+    "Je kunt de interpretaties van Fischer, Clark en de revisionisten over de legerleiding naast elkaar leggen en zien welke vraag elk beantwoordt.",
+    "Je kunt twee of drie bronnen over 1914 of 1919 beoordelen op herkomst, context en bruikbaarheid en met de juiste mate van zekerheid een conclusie trekken."
+  ],
+  "glossary": [
+    {
+      "term": "Aanleiding",
+      "definition": "De gebeurtenis die een bestaande spanning of crisis direct in gang zet, zoals de moord in Sarajevo."
+    },
+    {
+      "term": "Langetermijnoorzaak",
+      "definition": "Een ontwikkeling van jaren of decennia die een gebeurtenis mogelijk of waarschijnlijker maakt zonder haar vast te leggen."
+    },
+    {
+      "term": "Entente",
+      "definition": "De samenwerking tussen Frankrijk, Groot-Brittannië en Rusland, in 1914 het blok tegenover Duitsland en Oostenrijk-Hongarije."
+    },
+    {
+      "term": "Blanco cheque",
+      "definition": "De Duitse toezegging van 5 en 6 juli 1914 om Oostenrijk-Hongarije te steunen in zijn optreden tegen Servië."
+    },
+    {
+      "term": "Schlieffenplan",
+      "definition": "Het Duitse oorlogsplan om eerst Frankrijk snel te verslaan via België en daarna het leger naar het oosten te sturen."
+    },
+    {
+      "term": "Totale oorlog",
+      "definition": "Een oorlog waarin een land zijn hele economie en bevolking inzet en burgers ook doelwit worden."
+    },
+    {
+      "term": "Neutraliteit",
+      "definition": "De status van een staat die niet deelneemt aan een oorlog en strijdende partijen gelijk behandelt, zoals Nederland in 1914-1918."
+    },
+    {
+      "term": "Artikel 231",
+      "definition": "De bepaling in het Verdrag van Versailles waarin Duitsland en zijn bondgenoten verantwoordelijk worden gehouden voor verlies en schade, grondslag voor herstelbetalingen."
+    },
+    {
+      "term": "Kriegsschuldlüge",
+      "definition": "De Duitse term voor de opvatting dat de beschuldiging van oorlogsschuld in het verdrag een leugen was."
+    },
+    {
+      "term": "Fischer-controverse",
+      "definition": "Het debat dat volgde op Fritz Fischers boek van 1961 over Duitse oorlogsdoelen en verantwoordelijkheid."
+    },
+    {
+      "term": "Revisionisme",
+      "definition": "Het herzien van een gevestigd beeld op grond van nieuw onderzoek, bijvoorbeeld over de kwaliteit van de Britse generaals."
+    }
+  ],
+  "timeline": [
+    "aanslag-sarajevo-1914",
+    "julicrisis-ultimatum-1914",
+    "duitse-inval-belgie-1914",
+    "marne-1914",
+    "belgische-vluchtelingen-1914",
+    "gasaanval-ieper-1915",
+    "armeense-genocide-1915",
+    "verdun-1916",
+    "somme-1916",
+    "passendale-1917",
+    "vs-oorlogsverklaring-1917",
+    "wapenstilstand-1918",
+    "keizer-naar-amerongen-1918",
+    "verdrag-van-versailles-1919",
+    "fischer-griff-nach-der-weltmacht-1961",
+    "clark-sleepwalkers-2012"
+  ],
+  "people": [
+    "frans-ferdinand",
+    "gavrilo-princip",
+    "wilhelm-ii",
+    "nicolaas-ii",
+    "woodrow-wilson",
+    "fritz-fischer",
+    "christopher-clark",
+    "john-roehl"
+  ]
 }

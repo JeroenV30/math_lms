@@ -1,0 +1,1161 @@
+{
+  "exercises": [
+    {
+      "id": "18-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Je hebt alleen de uniformjas van Frans Ferdinand met bloedvlekken uit het Heeresgeschichtliches Museum. Wat kun je er het best mee onderbouwen?",
+      "choices": [
+        "Dat Frans Ferdinand die dag in Sarajevo is aangevallen en dat de aanslag fysieke sporen naliet; waarom er oorlog kwam, zegt de jas niet",
+        "Dat de Eerste Wereldoorlog onvermijdelijk was, omdat de jas laat zien hoe gewelddadig Europa was",
+        "Dat Servië de oorlog wilde, omdat de jas het bewijs van een Servische aanval is",
+        "Niets, omdat voorwerpen geen historische bronnen zijn"
+      ],
+      "answer": "Dat Frans Ferdinand die dag in Sarajevo is aangevallen en dat de aanslag fysieke sporen naliet; waarom er oorlog kwam, zegt de jas niet",
+      "hints": [
+        "Vraag eerst wat het voorwerp zelf laat zien, en dan pas wat je er allemaal bij denkt."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Dat Frans Ferdinand die dag in Sarajevo is aangevallen en dat de aanslag fysieke sporen naliet; waarom er oorlog kwam, zegt de jas niet",
+        "Een voorwerp is een bron voor wat er materieel is gebeurd. Verklaringen en bedoelingen komen uit andere bronnen."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat Servië de oorlog wilde, omdat de jas het bewijs van een Servische aanval is",
+          "message": "De jas laat een aanslag zien, niet wie erachter zat of wat die persoon wilde. Daarvoor heb je andere bronnen nodig."
+        },
+        {
+          "answer": "Dat de Eerste Wereldoorlog onvermijdelijk was, omdat de jas laat zien hoe gewelddadig Europa was",
+          "message": "Eén voorwerp zegt niets over een heel continent, en 'onvermijdelijk' is een groot woord dat een voorwerp niet kan dragen."
+        },
+        {
+          "answer": "Niets, omdat voorwerpen geen historische bronnen zijn",
+          "message": "Voorwerpen zijn wel bronnen. Ze zeggen alleen minder dan sommige geschreven stukken."
+        }
+      ]
+    },
+    {
+      "id": "18-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is het verschil tussen de vraag 'wie was verantwoordelijk voor de oorlog?' en de vraag 'wat was verantwoordelijk voor de oorlog?'",
+      "choices": [
+        "De eerste vraag is wetenschappelijk, de tweede is een kwestie van mening",
+        "De eerste vraag gaat over de oorlog zelf, de tweede over de vrede",
+        "Er is geen verschil: beide vragen leiden tot hetzelfde antwoord",
+        "De eerste zoekt vooral naar beslissers en hun keuzes, de tweede vooral naar structuren en omstandigheden"
+      ],
+      "answer": "De eerste zoekt vooral naar beslissers en hun keuzes, de tweede vooral naar structuren en omstandigheden",
+      "hints": [
+        "Denk aan een rechter en aan een socioloog: wat zoeken zij?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: De eerste zoekt vooral naar beslissers en hun keuzes, de tweede vooral naar structuren en omstandigheden",
+        "'Wie' richt zich op handelen en keuzes, 'wat' op voorwaarden en structuren. Een goede redenering gebruikt beide."
+      ],
+      "topics": [
+        "causation",
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Er is geen verschil: beide vragen leiden tot hetzelfde antwoord",
+          "message": "Ze leiden juist tot andere verhalen: wie naar personen zoekt, leest andere bronnen dan wie naar structuren zoekt."
+        },
+        {
+          "answer": "De eerste vraag is wetenschappelijk, de tweede is een kwestie van mening",
+          "message": "Beide vragen zijn legitiem en kunnen met bronnen en argumenten worden onderzocht."
+        }
+      ]
+    },
+    {
+      "id": "18-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "In 1914 vormden Duitsland, Oostenrijk-Hongarije en Italië de Driebond. Wat gebeurde er met Italië bij het uitbreken van de oorlog?",
+      "choices": [
+        "Italië verklaarde in augustus 1914 de oorlog aan Groot-Brittannië",
+        "Italië verliet de Driebond al in 1900 en sloot zich aan bij Rusland",
+        "Italië viel Frankrijk aan, samen met Duitsland",
+        "Italië bleef neutraal en koos in 1915 de zijde van de tegenstanders van Duitsland"
+      ],
+      "answer": "Italië bleef neutraal en koos in 1915 de zijde van de tegenstanders van Duitsland",
+      "hints": [
+        "Een alliantie is niet altijd een garantie voor deelname."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Italië bleef neutraal en koos in 1915 de zijde van de tegenstanders van Duitsland",
+        "Dit laat zien dat allianties de kans op uitbreiding vergroten zonder de uitkomst vast te leggen."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Italië viel Frankrijk aan, samen met Duitsland",
+          "message": "Italië bleef in 1914 neutraal. Het verdrag verplichtte het niet tot deelname aan een aanvalsoorlog."
+        },
+        {
+          "answer": "Italië verliet de Driebond al in 1900 en sloot zich aan bij Rusland",
+          "message": "Italië bleef tot 1915 formeel in de Driebond en koos toen voor de Entente."
+        }
+      ]
+    },
+    {
+      "id": "18-004",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze afspraken tussen mogendheden in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Tweebond tussen Duitsland en Oostenrijk-Hongarije (1879)",
+        "Driebond met Italië (1882)",
+        "Frans-Russische alliantie (1894)",
+        "Entente cordiale tussen Frankrijk en Groot-Brittannië (1904)",
+        "Brits-Russische overeenkomst (1907)"
+      ],
+      "hints": [
+        "De Duitse blokvorming kwam eerst; de Britse aansluiting bij Frankrijk en Rusland het laatst."
+      ],
+      "solution": [
+        "De juiste volgorde is: Tweebond tussen Duitsland en Oostenrijk-Hongarije (1879); Driebond met Italië (1882); Frans-Russische alliantie (1894); Entente cordiale tussen Frankrijk en Groot-Brittannië (1904); Brits-Russische overeenkomst (1907).",
+        "Eerst bond Duitsland zich aan Oostenrijk, daarna kwam Frankrijk met Rusland, en pas daarna volgde Groot-Brittannië."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Driebond met Italië (1882)",
+            "Tweebond tussen Duitsland en Oostenrijk-Hongarije (1879)",
+            "Frans-Russische alliantie (1894)",
+            "Entente cordiale tussen Frankrijk en Groot-Brittannië (1904)",
+            "Brits-Russische overeenkomst (1907)"
+          ],
+          "message": "De Driebond (1882) is de uitbreiding van de Tweebond (1879) met Italië, dus later."
+        }
+      ]
+    },
+    {
+      "id": "18-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Het Duitse Keizerrijk werd uitgeroepen in 1871. Hoeveel jaar bestond het toen de Eerste Wereldoorlog in 1914 begon?",
+      "answer": 43,
+      "unit": "jaar",
+      "hints": [
+        "Trek het begin van het jaartal af van het eindjaar."
+      ],
+      "solution": [
+        "$1914 - 1871 = 43$"
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": 42,
+          "message": "Je telt een jaar te weinig: 1914 min 1871 is 43."
+        }
+      ]
+    },
+    {
+      "id": "18-006",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom is de Duitse slagvloot (vanaf 1898) vooral te zien als een langetermijnoorzaak en niet als aanleiding?",
+      "choices": [
+        "Omdat de vloot in juli 1914 niets deed",
+        "Omdat vloten nooit invloed hebben op oorlogen",
+        "Omdat de vlootbouw jaren liep voordat de crisis van 1914 begon en geen directe gebeurtenis was",
+        "Omdat een aanleiding altijd een persoon moet zijn"
+      ],
+      "answer": "Omdat de vlootbouw jaren liep voordat de crisis van 1914 begon en geen directe gebeurtenis was",
+      "hints": [
+        "Kijk naar de tijdschaal van het proces."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Omdat de vlootbouw jaren liep voordat de crisis van 1914 begon en geen directe gebeurtenis was",
+        "Een aanleiding is kortdurend en direct; de vlootwedloop was een proces van jaren."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat de vloot in juli 1914 niets deed",
+          "message": "Dat is niet het argument: ook als de vloot actief was geweest, bleef het een proces van jaren."
+        },
+        {
+          "answer": "Omdat een aanleiding altijd een persoon moet zijn",
+          "message": "Een aanleiding is een gebeurtenis, geen persoon. Het gaat om de tijdschaal."
+        }
+      ]
+    },
+    {
+      "id": "18-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is het belangrijkste gevolg van strakke mobilisatieplannen voor de ruimte voor diplomatie?",
+      "choices": [
+        "Mobilisatie was alleen mogelijk in oorlogstijd",
+        "Mobilisatie gaf altijd extra tijd om te onderhandelen",
+        "Wie begon te mobiliseren, liet de ander de tijd verliezen, waardoor wachten riskant leek en de ruimte voor onderhandelen kleiner werd",
+        "Mobilisatieplannen hadden geen invloed omdat generaals geen politiek bedreven"
+      ],
+      "answer": "Wie begon te mobiliseren, liet de ander de tijd verliezen, waardoor wachten riskant leek en de ruimte voor onderhandelen kleiner werd",
+      "hints": [
+        "Denk aan het Schlieffenplan: snelheid was essentieel."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Wie begon te mobiliseren, liet de ander de tijd verliezen, waardoor wachten riskant leek en de ruimte voor onderhandelen kleiner werd",
+        "Een mobilisatie was moeilijk terug te draaien. Daardoor werd ze een stap naar oorlog."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Mobilisatie gaf altijd extra tijd om te onderhandelen",
+          "message": "Juist niet: de plannen waren zo strak dat een vertraging als een militair nadeel werd gezien."
+        },
+        {
+          "answer": "Mobilisatieplannen hadden geen invloed omdat generaals geen politiek bedreven",
+          "message": "Generaals adviseerden hun regeringen wel degelijk, en hun draaiboeken beperkten de keuzes."
+        }
+      ]
+    },
+    {
+      "id": "18-008",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een leerling schrijft: 'Door allianties en wapenwedlopen moest er wel een oorlog komen.' Welke fout in historisch denken zit hier het duidelijkst in?",
+      "choices": [
+        "Presentisme: de leerling veroordeelt het verleden naar hedendaagse normen",
+        "Bronvervalsing: de leerling verzint bewijs",
+        "Anachronisme: de leerling gebruikt woorden die toen nog niet bestonden",
+        "Achteraf lezen: wat gebeurd is, wordt voorgesteld als onvermijdelijk (hindsight bias)"
+      ],
+      "answer": "Achteraf lezen: wat gebeurd is, wordt voorgesteld als onvermijdelijk (hindsight bias)",
+      "hints": [
+        "Welke woorden maken de uitspraak te sterk?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Achteraf lezen: wat gebeurd is, wordt voorgesteld als onvermijdelijk (hindsight bias)",
+        "'Moest wel' sluit alle alternatieven uit, terwijl bondgenootschappen vaak eerder werden getest zonder oorlog."
+      ],
+      "topics": [
+        "causation",
+        "contextualisation"
+      ],
+      "feedback": [
+        {
+          "answer": "Anachronisme: de leerling gebruikt woorden die toen nog niet bestonden",
+          "message": "Het gaat niet om woorden, maar om de redenering dat het onvermijdelijk was."
+        },
+        {
+          "answer": "Presentisme: de leerling veroordeelt het verleden naar hedendaagse normen",
+          "message": "Er is hier geen morele maatstaf van nu, wel een deterministische redenering achteraf."
+        }
+      ]
+    },
+    {
+      "id": "18-009",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Kies één langetermijnoorzaak van de Eerste Wereldoorlog (bijvoorbeeld allianties, de vlootwedloop of het Balkannationalisme). Leg in enkele zinnen uit hoe zij werkte en waarom zij niet voldoende is om de oorlog van 1914 te verklaren.",
+      "answer": "Een oorzaak met uitleg hoe zij werkte, en een beperking: ze maakte oorlog mogelijker maar niet onvermijdelijk; de aanleiding en de besluiten van 1914 ontbreken in de verklaring.",
+      "min_length": 60,
+      "hints": [
+        "Beschrijf eerst hoe de oorzaak werkte.",
+        "Vraag je dan: wat verklaart zij niet?"
+      ],
+      "solution": [
+        "Voorbeeld: De vlootwedloop maakte de verhouding tussen Duitsland en Groot-Brittannië vijandiger en maakte het waarschijnlijker dat Londen Frankrijk zou steunen. Maar de oorlog begon op het land, na een crisis tussen Oostenrijk-Hongarije, Servië en Rusland. De vloot verklaart dus waarom Groot-Brittannië meedeed, niet waarom het conflict ontstond. Daarvoor zijn de aanleiding en de beslissingen van juli 1914 nodig."
+      ],
+      "topics": [
+        "causation"
+      ]
+    },
+    {
+      "id": "18-010",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat bewijst de zogenoemde 'blanco cheque' van Duitsland aan Oostenrijk-Hongarije (5-6 juli 1914) met zekerheid?",
+      "choices": [
+        "Dat Berlijn bereid was het risico van een groter conflict te nemen om Oostenrijk te steunen",
+        "Dat Groot-Brittannië de oorlog steunde",
+        "Dat Oostenrijk-Hongarije de oorlog tegen Servië niet wilde",
+        "Dat Berlijn de oorlog met Rusland al had gepland"
+      ],
+      "answer": "Dat Berlijn bereid was het risico van een groter conflict te nemen om Oostenrijk te steunen",
+      "hints": [
+        "Risico nemen en doelbewust willen zijn twee verschillende dingen."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Dat Berlijn bereid was het risico van een groter conflict te nemen om Oostenrijk te steunen",
+        "De bron bewijst bereidheid tot risico. Of Berlijn de oorlog zelf wilde, is een open vraag in het debat."
+      ],
+      "topics": [
+        "causation",
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat Berlijn de oorlog met Rusland al had gepland",
+          "message": "Bereid zijn een risico te nemen is iets anders dan een oorlog willen of plannen."
+        },
+        {
+          "answer": "Dat Oostenrijk-Hongarije de oorlog tegen Servië niet wilde",
+          "message": "Niet juist: Wenen zocht Duitse steun omdat het van plan was hard op te treden."
+        }
+      ]
+    },
+    {
+      "id": "18-011",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Het Oostenrijkse ultimatum werd op 23 juli 1914 overhandigd en Groot-Brittannië verklaarde op 4 augustus 1914 de oorlog aan Duitsland. Hoeveel dagen liggen er tussen die twee data?",
+      "answer": 12,
+      "unit": "dagen",
+      "hints": [
+        "Juli heeft 31 dagen: tel de dagen tot het einde van juli en dan nog de dagen in augustus."
+      ],
+      "solution": [
+        "Van 23 tot 31 juli: 8 dagen",
+        "Van 31 juli tot 4 augustus: 4 dagen",
+        "$8 + 4 = 12$"
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": 11,
+          "message": "Je telt een dag te weinig. Van 23 juli tot 31 juli is 8 dagen en dan komen er nog 4 dagen bij."
+        },
+        {
+          "answer": 13,
+          "message": "Je telt een dag te veel: de begin- en einddag tel je maar één keer."
+        }
+      ]
+    },
+    {
+      "id": "18-012",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen van de julicrisis van 1914 in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Duitse steun aan Oostenrijk (blanco cheque)",
+        "Oostenrijks ultimatum aan Servië",
+        "Oostenrijk-Hongarije verklaart Servië de oorlog",
+        "Algemene mobilisatie in Rusland",
+        "Duitse inval in België en Britse oorlogsverklaring"
+      ],
+      "hints": [
+        "De blanco cheque kwam al in de eerste week van juli."
+      ],
+      "solution": [
+        "De juiste volgorde is: Duitse steun aan Oostenrijk (blanco cheque); Oostenrijks ultimatum aan Servië; Oostenrijk-Hongarije verklaart Servië de oorlog; Algemene mobilisatie in Rusland; Duitse inval in België en Britse oorlogsverklaring.",
+        "De volgorde: 6 juli, 23 juli, 28 juli, 30 juli en 4 augustus."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Oostenrijks ultimatum aan Servië",
+            "Duitse steun aan Oostenrijk (blanco cheque)",
+            "Oostenrijk-Hongarije verklaart Servië de oorlog",
+            "Algemene mobilisatie in Rusland",
+            "Duitse inval in België en Britse oorlogsverklaring"
+          ],
+          "message": "De blanco cheque (6 juli) kwam voor het ultimatum (23 juli): Wenen zocht eerst Duitse steun."
+        }
+      ]
+    },
+    {
+      "id": "18-013",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is voor het gebruik van dit telegram als bron het belangrijkste punt van bronkritiek?",
+      "context": "Nicolaas II aan Wilhelm II, 29 juli 1914: \"It would be right to give over the Austro-servian [sic] problem to the Hague conference.\" (naar het Duitse Witboek, zoals weergegeven op Wikipedia)",
+      "choices": [
+        "Het telegram is bewaard in een door de Duitse regering gekozen publicatie (het Witboek), dus er is een selectie gemaakt",
+        "Het is privé, dus onbetrouwbaar",
+        "Het is in het Engels geschreven, dus niet echt",
+        "Het is een primaire bron, dus altijd betrouwbaar"
+      ],
+      "answer": "Het telegram is bewaard in een door de Duitse regering gekozen publicatie (het Witboek), dus er is een selectie gemaakt",
+      "hints": [
+        "Wie bewaarde en publiceerde deze brieven, en met welk doel?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Het telegram is bewaard in een door de Duitse regering gekozen publicatie (het Witboek), dus er is een selectie gemaakt",
+        "Een bron kan echt zijn en toch een selectie. Dat is een kwestie van herkomst en doel."
+      ],
+      "topics": [
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Het is in het Engels geschreven, dus niet echt",
+          "message": "Neven schreven elkaar in het Engels; de taal zegt niets over echtheid."
+        },
+        {
+          "answer": "Het is privé, dus onbetrouwbaar",
+          "message": "Privé zegt niets over betrouwbaarheid; het zegt iets over bedoeling en publiek."
+        },
+        {
+          "answer": "Het is een primaire bron, dus altijd betrouwbaar",
+          "message": "Primair betekent: uit de tijd zelf. Dat maakt een bron niet automatisch volledig of betrouwbaar."
+        }
+      ]
+    },
+    {
+      "id": "18-014",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een leerling stelt: 'Duitsland begon de oorlog door België binnen te vallen, dus Duitsland had als enige schuld.' Wat is de beste reactie?",
+      "choices": [
+        "De inval in België is niet gebeurd",
+        "De inval was een besluit met grote gevolgen, maar de oorlog was al een Europese crisis geworden door eerdere besluiten van Wenen, Sint-Petersburg en anderen; één gebeurtenis is geen volledige verklaring",
+        "De leerling heeft ongelijk, want Duitsland deed niets",
+        "De leerling heeft gelijk, want wie het eerste schot lost, is altijd schuldig"
+      ],
+      "answer": "De inval was een besluit met grote gevolgen, maar de oorlog was al een Europese crisis geworden door eerdere besluiten van Wenen, Sint-Petersburg en anderen; één gebeurtenis is geen volledige verklaring",
+      "hints": [
+        "Een oorzakenketen heeft meer schakels dan de laatste."
+      ],
+      "solution": [
+        "Het juiste antwoord is: De inval was een besluit met grote gevolgen, maar de oorlog was al een Europese crisis geworden door eerdere besluiten van Wenen, Sint-Petersburg en anderen; één gebeurtenis is geen volledige verklaring",
+        "Monocausaal denken gaat voorbij aan de keten van beslissingen en context."
+      ],
+      "topics": [
+        "causation",
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "De leerling heeft gelijk, want wie het eerste schot lost, is altijd schuldig",
+          "message": "Wie begint, is niet automatisch de enige oorzaak; het gaat om de keten van beslissingen."
+        },
+        {
+          "answer": "De leerling heeft ongelijk, want Duitsland deed niets",
+          "message": "Duitsland nam wel degelijk belangrijke besluiten, zoals de blanco cheque en de inval in België."
+        }
+      ]
+    },
+    {
+      "id": "18-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom noemen we de moord in Sarajevo de aanleiding en niet de oorzaak van de oorlog?",
+      "choices": [
+        "Omdat Princip alleen handelde en niemand anders betrokken was",
+        "Omdat de moord pas na het begin van de oorlog plaatsvond",
+        "Omdat de moord de gebeurtenis was die de crisis in gang zette, terwijl de diepere voorwaarden al bestonden",
+        "Omdat de moord geen gevolgen had"
+      ],
+      "answer": "Omdat de moord de gebeurtenis was die de crisis in gang zette, terwijl de diepere voorwaarden al bestonden",
+      "hints": [
+        "Denk aan de brand en de lucifer."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Omdat de moord de gebeurtenis was die de crisis in gang zette, terwijl de diepere voorwaarden al bestonden",
+        "Een aanleiding zet iets in gang dat al klaarstaat."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat de moord geen gevolgen had",
+          "message": "De moord had enorme gevolgen; het verschil zit in de rol in de verklaring."
+        },
+        {
+          "answer": "Omdat Princip alleen handelde en niemand anders betrokken was",
+          "message": "Dit is niet het argument en is bovendien niet juist: er was een groep samenzweerders."
+        }
+      ]
+    },
+    {
+      "id": "18-016",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom bleek verdedigen in de loopgravenoorlog makkelijker dan aanvallen?",
+      "choices": [
+        "Omdat soldaten in loopgraven altijd beter getraind waren",
+        "Omdat er geen artillerie bestond",
+        "Omdat machinegeweren, prikkeldraad en artillerie een aanval over open terrein zeer verlieslatend maakten",
+        "Omdat aanvallers nooit voedsel hadden"
+      ],
+      "answer": "Omdat machinegeweren, prikkeldraad en artillerie een aanval over open terrein zeer verlieslatend maakten",
+      "hints": [
+        "Denk aan de wapens die een aanvaller moest trotseren."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Omdat machinegeweren, prikkeldraad en artillerie een aanval over open terrein zeer verlieslatend maakten",
+        "De technologie van 1914 gaf de verdediger een voordeel."
+      ],
+      "topics": [
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat soldaten in loopgraven altijd beter getraind waren",
+          "message": "Het ging niet om training, maar om wapens: een verdediger met een machinegeweer had een groot voordeel."
+        },
+        {
+          "answer": "Omdat er geen artillerie bestond",
+          "message": "Artillerie bestond wel, en was de grootste doder van de oorlog."
+        }
+      ]
+    },
+    {
+      "id": "18-017",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Lees de tijdlijn van de oorlog: de oorlog begon in augustus 1914 en de wapenstilstand ging in op 11 november 1918. Hoeveel maanden verstrijken er van augustus 1914 tot november 1918, geteld per kalendermaand?",
+      "answer": 51,
+      "unit": "maanden",
+      "hints": [
+        "Tel de jaren in maanden en tel het verschil in maanden erbij."
+      ],
+      "solution": [
+        "Van augustus 1914 tot augustus 1918 is 48 maanden",
+        "Van augustus tot november is 3 maanden",
+        "$48 + 3 = 51$"
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": 48,
+          "message": "Je telt alleen de volle jaren; er komen nog drie maanden bij (augustus tot november)."
+        }
+      ]
+    },
+    {
+      "id": "18-018",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen in volgorde van oorzaak naar gevolg zoals ze elkaar in de tijd opvolgden, de eerste eerst.",
+      "answer": [
+        "Britse zeeblokkade van Duitsland",
+        "Duitse duikboot brengt de Lusitania tot zinken (mei 1915)",
+        "Duitsland kondigt onbeperkte duikbootoorlog aan (februari 1917)",
+        "Het Zimmermann-telegram wordt openbaar (maart 1917)",
+        "De Verenigde Staten verklaren de oorlog (april 1917)"
+      ],
+      "hints": [
+        "Let op de jaartallen: de Lusitania komt vóór 1917."
+      ],
+      "solution": [
+        "De juiste volgorde is: Britse zeeblokkade van Duitsland; Duitse duikboot brengt de Lusitania tot zinken (mei 1915); Duitsland kondigt onbeperkte duikbootoorlog aan (februari 1917); Het Zimmermann-telegram wordt openbaar (maart 1917); De Verenigde Staten verklaren de oorlog (april 1917).",
+        "De volgorde loopt van 1914 (blokkade) via 1915 en begin 1917 naar de Amerikaanse oorlogsverklaring."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Britse zeeblokkade van Duitsland",
+            "Duitsland kondigt onbeperkte duikbootoorlog aan (februari 1917)",
+            "Duitse duikboot brengt de Lusitania tot zinken (mei 1915)",
+            "Het Zimmermann-telegram wordt openbaar (maart 1917)",
+            "De Verenigde Staten verklaren de oorlog (april 1917)"
+          ],
+          "message": "De Lusitania (1915) ging vóór de nieuwe duikbootoorlog van 1917 ten onder."
+        }
+      ]
+    },
+    {
+      "id": "18-019",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat bedoelen historici met het begrip 'totale oorlog' voor de Eerste Wereldoorlog?",
+      "choices": [
+        "Een oorlog die alleen op zee wordt gevoerd",
+        "Een oorlog waarin alle landen ter wereld meedoen",
+        "Een oorlog zonder regels of wetten",
+        "Een oorlog waarin het hele land, economie en burgers inbegrepen, wordt ingezet en burgers ook doelwit worden"
+      ],
+      "answer": "Een oorlog waarin het hele land, economie en burgers inbegrepen, wordt ingezet en burgers ook doelwit worden",
+      "hints": [
+        "Denk aan fabrieken, rantsoenen en blokkades."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Een oorlog waarin het hele land, economie en burgers inbegrepen, wordt ingezet en burgers ook doelwit worden",
+        "Totale oorlog betekent dat het front en het thuisfront niet meer te scheiden zijn."
+      ],
+      "topics": [
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": "Een oorlog waarin alle landen ter wereld meedoen",
+          "message": "'Totaal' gaat over de inzet van de samenleving, niet over het aantal deelnemers."
+        },
+        {
+          "answer": "Een oorlog zonder regels of wetten",
+          "message": "Er waren wel regels (Haagse conventies); het begrip gaat over de inzet van de hele samenleving."
+        }
+      ]
+    },
+    {
+      "id": "18-020",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Hoe ga je het best om met slachtofferaantallen voor de Armeense genocide in 1915?",
+      "choices": [
+        "Je noemt één exact getal, omdat historici het eens zijn",
+        "Je noemt ze als schatting, met het bereik en de onzekerheid, en vermeldt dat de schattingen uiteenlopen",
+        "Je neemt het laagste getal, om voorzichtig te zijn",
+        "Je noemt geen getallen, omdat die niet te weten zijn"
+      ],
+      "answer": "Je noemt ze als schatting, met het bereik en de onzekerheid, en vermeldt dat de schattingen uiteenlopen",
+      "hints": [
+        "Eerlijk zijn over zekerheid is een onderdeel van historisch argumenteren."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Je noemt ze als schatting, met het bereik en de onzekerheid, en vermeldt dat de schattingen uiteenlopen",
+        "Een schatting met bandbreedte en bron is eerlijker dan een schijnnauwkeurig getal."
+      ],
+      "topics": [
+        "interpretation",
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "Je noemt één exact getal, omdat historici het eens zijn",
+          "message": "Historici zijn het niet eens over één getal; er is een grote bandbreedte."
+        },
+        {
+          "answer": "Je noemt geen getallen, omdat die niet te weten zijn",
+          "message": "Er zijn wel schattingen en die zijn nuttig, mits je de onzekerheid vermeldt."
+        },
+        {
+          "answer": "Je neemt het laagste getal, om voorzichtig te zijn",
+          "message": "Voorzichtig is ook het hele bereik geven, niet kiezen voor het ene uiterste."
+        }
+      ]
+    },
+    {
+      "id": "18-021",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen uit 1917 en 1918 in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Val van de tsaar in Rusland (maart 1917)",
+        "Amerikaanse oorlogsverklaring (april 1917)",
+        "Vrede van Brest-Litovsk (3 maart 1918)",
+        "Duits lenteoffensief (21 maart 1918)",
+        "Wapenstilstand (11 november 1918)"
+      ],
+      "hints": [
+        "Beide gebeurtenissen van maart 1918: welke was eerder?"
+      ],
+      "solution": [
+        "De juiste volgorde is: Val van de tsaar in Rusland (maart 1917); Amerikaanse oorlogsverklaring (april 1917); Vrede van Brest-Litovsk (3 maart 1918); Duits lenteoffensief (21 maart 1918); Wapenstilstand (11 november 1918).",
+        "De Russische vrede (3 maart) maakte troepen vrij voor het offensief (21 maart)."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Val van de tsaar in Rusland (maart 1917)",
+            "Amerikaanse oorlogsverklaring (april 1917)",
+            "Duits lenteoffensief (21 maart 1918)",
+            "Vrede van Brest-Litovsk (3 maart 1918)",
+            "Wapenstilstand (11 november 1918)"
+          ],
+          "message": "Brest-Litovsk (3 maart) kwam voor het lenteoffensief (21 maart)."
+        }
+      ]
+    },
+    {
+      "id": "18-022",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom verschillen schattingen van het aantal Belgische vluchtelingen in Nederland in 1914 zo sterk (van 200.000 tot ruim een miljoen)?",
+      "choices": [
+        "Omdat veel Belgen snel terugkeerden en niet iedereen werd geregistreerd, waardoor het antwoord afhangt van het moment waarop wordt geteld",
+        "Omdat historici elkaar tegenspreken zonder reden",
+        "Omdat Belgen niet in Nederland aankwamen",
+        "Omdat er maar één bron is en die onduidelijk is"
+      ],
+      "answer": "Omdat veel Belgen snel terugkeerden en niet iedereen werd geregistreerd, waardoor het antwoord afhangt van het moment waarop wordt geteld",
+      "hints": [
+        "Wanneer telde je: in de herfst van 1914, of aan het eind van het jaar?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Omdat veel Belgen snel terugkeerden en niet iedereen werd geregistreerd, waardoor het antwoord afhangt van het moment waarop wordt geteld",
+        "Een aantal zonder tijdstip is een half antwoord."
+      ],
+      "topics": [
+        "sources",
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat er maar één bron is en die onduidelijk is",
+          "message": "Er zijn meerdere bronnen; het verschil zit in tijdstip en telling."
+        },
+        {
+          "answer": "Omdat historici elkaar tegenspreken zonder reden",
+          "message": "Het verschil heeft redenen: piek tegenover eindstand, geregistreerd tegenover niet geregistreerd."
+        }
+      ]
+    },
+    {
+      "id": "18-023",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom werden Belgische soldaten die in 1914 Nederland binnenkwamen, geïnterneerd?",
+      "choices": [
+        "Omdat de soldaten ziek waren",
+        "Omdat een neutrale staat strijdende partijen geen onderdak voor hun militairen mag bieden en dus geen troepen laat doortrekken",
+        "Omdat Nederland Duitsland wilde helpen",
+        "Omdat Nederland de oorlog aan België had verklaard"
+      ],
+      "answer": "Omdat een neutrale staat strijdende partijen geen onderdak voor hun militairen mag bieden en dus geen troepen laat doortrekken",
+      "hints": [
+        "Wat betekent neutraliteit voor militairen op je grondgebied?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Omdat een neutrale staat strijdende partijen geen onderdak voor hun militairen mag bieden en dus geen troepen laat doortrekken",
+        "Internering was een regel van neutraliteit, geen daad van vijandschap."
+      ],
+      "topics": [
+        "contextualisation",
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat Nederland de oorlog aan België had verklaard",
+          "message": "Nederland was neutraal en verklaarde niemand de oorlog."
+        },
+        {
+          "answer": "Omdat Nederland Duitsland wilde helpen",
+          "message": "Nederland behandelde Britse en Duitse militairen op dezelfde wijze: ook zij werden geïnterneerd."
+        }
+      ]
+    },
+    {
+      "id": "18-024",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke uitspraak over Nederlandse neutraliteit in 1914-1918 is het best onderbouwd?",
+      "choices": [
+        "Nederland was volledig geïsoleerd van de oorlog",
+        "Nederland werd in de oorlog nauwelijks geraakt",
+        "Nederland koos in 1916 de kant van Duitsland",
+        "Formeel neutraal, maar in de praktijk sterk geraakt door blokkade, vluchtelingen, schaarste en mobilisatie"
+      ],
+      "answer": "Formeel neutraal, maar in de praktijk sterk geraakt door blokkade, vluchtelingen, schaarste en mobilisatie",
+      "hints": [
+        "Zet 'formeel' tegenover 'praktisch'."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Formeel neutraal, maar in de praktijk sterk geraakt door blokkade, vluchtelingen, schaarste en mobilisatie",
+        "Neutraliteit is een juridische status; de gevolgen van de oorlog kunnen groot zijn voor wie neutraal is."
+      ],
+      "topics": [
+        "contextualisation",
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Nederland werd in de oorlog nauwelijks geraakt",
+          "message": "Schaarste, distributie, vluchtelingen en mobilisatie raakten het land wel degelijk."
+        },
+        {
+          "answer": "Nederland koos in 1916 de kant van Duitsland",
+          "message": "Nederland bleef neutraal en handelde onder Britse druk met beide kanten."
+        }
+      ]
+    },
+    {
+      "id": "18-025",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Leg uit hoe Nederland in de Eerste Wereldoorlog neutraal kon zijn en toch door de oorlog werd geraakt. Noem twee concrete voorbeelden.",
+      "answer": "Neutraal betekent niet deelnemen aan de strijd; toch kwamen er vluchtelingen, schaarste en distributie, mobilisatie en blokkade en handelsbeperkingen.",
+      "min_length": 60,
+      "hints": [
+        "Neutraal gaat over deelname aan de strijd.",
+        "Denk aan vluchtelingen en voedsel."
+      ],
+      "solution": [
+        "Neutraal betekent dat een staat niet deelneemt aan de strijd en geen partij kiest. Dat hield Nederland vol. Maar de oorlog werkte door: honderdduizenden Belgische vluchtelingen kwamen in 1914 binnen, en de Britse blokkade en de Duitse vraag naar voedsel zorgden voor schaarste, waarop de Distributiewet van 1916 volgde."
+      ],
+      "topics": [
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "18-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke bepaling hoorde bij het Verdrag van Versailles (1919)?",
+      "choices": [
+        "Het Duitse leger werd beperkt tot 100.000 man en Duitsland verloor zijn koloniën",
+        "Duitsland mocht zijn leger uitbreiden met steun van de Volkenbond",
+        "Duitsland kreeg Elzas-Lotharingen terug",
+        "Duitsland hoefde geen herstelbetalingen te doen"
+      ],
+      "answer": "Het Duitse leger werd beperkt tot 100.000 man en Duitsland verloor zijn koloniën",
+      "hints": [
+        "Denk aan de verliezen van Duitsland."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Het Duitse leger werd beperkt tot 100.000 man en Duitsland verloor zijn koloniën",
+        "De hoofdlijnen: gebiedsverlies, koloniën als mandaten, beperkt leger en herstelbetalingen."
+      ],
+      "topics": [
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": "Duitsland mocht zijn leger uitbreiden met steun van de Volkenbond",
+          "message": "Het leger werd juist beperkt, tot 100.000 man."
+        },
+        {
+          "answer": "Duitsland kreeg Elzas-Lotharingen terug",
+          "message": "Elzas-Lotharingen ging van Duitsland naar Frankrijk, dat het in 1871 had verloren."
+        },
+        {
+          "answer": "Duitsland hoefde geen herstelbetalingen te doen",
+          "message": "Het verdrag legde herstelbetalingen op; de hoogte werd later vastgesteld."
+        }
+      ]
+    },
+    {
+      "id": "18-027",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Hoe lazen veel Duitsers artikel 231 van het Verdrag van Versailles, en waarom is dat voor historici van belang?",
+      "choices": [
+        "Als een verwijzing naar de Volkenbond, zonder gevolgen",
+        "Als een gunstige regeling; daarom accepteerde iedereen het",
+        "Als een bepaling over grenzen, niet over verantwoordelijkheid",
+        "Als een schuldbekentenis; de lezing bepaalde de Duitse reactie, ook als de tekst formeel over aansprakelijkheid ging"
+      ],
+      "answer": "Als een schuldbekentenis; de lezing bepaalde de Duitse reactie, ook als de tekst formeel over aansprakelijkheid ging",
+      "hints": [
+        "Een tekst werkt door hoe ze wordt gelezen."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Als een schuldbekentenis; de lezing bepaalde de Duitse reactie, ook als de tekst formeel over aansprakelijkheid ging",
+        "De lezing in Duitsland (de Kriegsschuldlüge) werd politiek zeer belangrijk."
+      ],
+      "topics": [
+        "historiography",
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Als een gunstige regeling; daarom accepteerde iedereen het",
+          "message": "In Duitsland leidde het artikel juist tot verontwaardiging."
+        },
+        {
+          "answer": "Als een bepaling over grenzen, niet over verantwoordelijkheid",
+          "message": "Artikel 231 gaat over verantwoordelijkheid voor verlies en schade, niet over grenzen."
+        }
+      ]
+    },
+    {
+      "id": "18-028",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat staat er in dit citaat uit artikel 231 en wat staat er niet?",
+      "context": "\"The Allied and Associated Governments affirm and Germany accepts the responsibility of Germany and her allies for causing all the loss and damage [...] as a consequence of the war imposed upon them by the aggression of Germany and her allies.\" (artikel 231, Verdrag van Versailles, 1919)",
+      "choices": [
+        "Er staat dat alle landen even verantwoordelijk waren",
+        "Er staat dat Duitsland alle schuld heeft aan de oorlog en alle schade moet betalen",
+        "Er staat dat Duitsland en zijn bondgenoten verantwoordelijk zijn voor verlies en schade; het woord 'schuld' ontbreekt",
+        "Er staat dat Duitsland de oorlog is begonnen met een ultimatum"
+      ],
+      "answer": "Er staat dat Duitsland en zijn bondgenoten verantwoordelijk zijn voor verlies en schade; het woord 'schuld' ontbreekt",
+      "hints": [
+        "Lees het citaat letterlijk, woord voor woord."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Er staat dat Duitsland en zijn bondgenoten verantwoordelijk zijn voor verlies en schade; het woord 'schuld' ontbreekt",
+        "Verantwoordelijk voor schade is een andere formulering dan schuldig aan de oorlog."
+      ],
+      "topics": [
+        "sources",
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Er staat dat Duitsland alle schuld heeft aan de oorlog en alle schade moet betalen",
+          "message": "Het woord 'schuld' staat er niet; en artikel 232 beperkte de vergoeding tot schade aan burgers."
+        },
+        {
+          "answer": "Er staat dat alle landen even verantwoordelijk waren",
+          "message": "De tekst noemt alleen Duitsland en zijn bondgenoten."
+        }
+      ]
+    },
+    {
+      "id": "18-029",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Fischer gebruikt het Septemberprogramm van 1914 als bewijs voor Duitse ambities. Wat is het sterkste kritiekpunt van zijn tegenstanders?",
+      "context": "Het Septemberprogramm is een memorandum van rijkskanselier Bethmann Hollweg uit september 1914 over Duitse oorlogsdoelen na een verwachte overwinning.",
+      "choices": [
+        "Het document is in het Duits geschreven, dus niet bruikbaar",
+        "Het document gaat over Nederland",
+        "Het document is vervalst",
+        "Het document dateert van na het begin van de oorlog en zegt dus niet zonder meer iets over de motieven in juli 1914"
+      ],
+      "answer": "Het document dateert van na het begin van de oorlog en zegt dus niet zonder meer iets over de motieven in juli 1914",
+      "hints": [
+        "Kijk naar de datum van het document ten opzichte van de crisis."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Het document dateert van na het begin van de oorlog en zegt dus niet zonder meer iets over de motieven in juli 1914",
+        "Doelen die tijdens de oorlog zijn opgesteld, bewijzen niet automatisch de oorzaak van het begin."
+      ],
+      "topics": [
+        "historiography",
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Het document is vervalst",
+          "message": "Er is geen aanleiding om te denken dat het vervalst is; de discussie gaat over de interpretatie."
+        },
+        {
+          "answer": "Het document is in het Duits geschreven, dus niet bruikbaar",
+          "message": "Taal is geen bezwaar voor bruikbaarheid."
+        }
+      ]
+    },
+    {
+      "id": "18-030",
+      "type": "choice",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Fischer vroeg 'wat wilde Duitsland?', Clark vraagt 'hoe kon het misgaan?'. Welke consequentie heeft dat voor de bronnen en het verhaal dat ze kiezen?",
+      "choices": [
+        "Ze gebruiken precies dezelfde bronnen en trekken dezelfde conclusie",
+        "Fischer gebruikt alleen Franse bronnen, Clark alleen Duitse",
+        "Beide schrijven over de Tweede Wereldoorlog",
+        "Fischer zoekt bronnen over Duitse doelen en beleid en komt tot een verhaal over verantwoordelijkheid; Clark zoekt bronnen over beslissers in alle hoofdsteden en komt tot een verhaal over wederzijdse misrekening"
+      ],
+      "answer": "Fischer zoekt bronnen over Duitse doelen en beleid en komt tot een verhaal over verantwoordelijkheid; Clark zoekt bronnen over beslissers in alle hoofdsteden en komt tot een verhaal over wederzijdse misrekening",
+      "hints": [
+        "Een vraag bepaalt welke bronnen relevant lijken."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Fischer zoekt bronnen over Duitse doelen en beleid en komt tot een verhaal over verantwoordelijkheid; Clark zoekt bronnen over beslissers in alle hoofdsteden en komt tot een verhaal over wederzijdse misrekening",
+        "De vraag stuurt het onderzoek: een andere vraag levert een ander verhaal."
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Ze gebruiken precies dezelfde bronnen en trekken dezelfde conclusie",
+          "message": "Hun conclusies verschillen juist, mede doordat ze andere vragen stellen en andere bronnen centraal zetten."
+        },
+        {
+          "answer": "Fischer gebruikt alleen Franse bronnen, Clark alleen Duitse",
+          "message": "Fischer gebruikte vooral Duitse regeringsstukken."
+        }
+      ]
+    },
+    {
+      "id": "18-031",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is op grond van de tekst van de artikelen 231 en 232 de meest verantwoorde conclusie over wat Duitsland moest vergoeden?",
+      "context": "Artikel 232 volgt op artikel 231. Volgens het overzicht op Wikipedia erkennen de geallieerden daarin dat de middelen van Duitsland niet toereikend zijn, en verplicht Duitsland zich om te betalen: \"compensation for all damage done to the civilian population\".",
+      "choices": [
+        "Alle kosten van de oorlog van de geallieerden, ook militaire",
+        "Alleen de schade in België",
+        "Schade aan de burgerbevolking van de geallieerden, met als grondslag de verantwoordelijkheid van Duitsland en zijn bondgenoten voor die schade",
+        "Niets, want artikel 231 was alleen een verklaring"
+      ],
+      "answer": "Schade aan de burgerbevolking van de geallieerden, met als grondslag de verantwoordelijkheid van Duitsland en zijn bondgenoten voor die schade",
+      "hints": [
+        "Combineer wat artikel 231 zegt met wat artikel 232 beperkt."
+      ],
+      "solution": [
+        "Het juiste antwoord is: Schade aan de burgerbevolking van de geallieerden, met als grondslag de verantwoordelijkheid van Duitsland en zijn bondgenoten voor die schade",
+        "Artikel 231 geeft de grondslag, artikel 232 bakent af tot burgerschade."
+      ],
+      "topics": [
+        "sources",
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Alle kosten van de oorlog van de geallieerden, ook militaire",
+          "message": "Artikel 232 beperkte de vergoeding tot schade aan de burgerbevolking."
+        },
+        {
+          "answer": "Niets, want artikel 231 was alleen een verklaring",
+          "message": "Het artikel legde de grondslag voor betalingen; het was geen loutere verklaring."
+        },
+        {
+          "answer": "Alleen de schade in België",
+          "message": "Het ging om schade aan de burgers van de geallieerden, niet alleen in België."
+        }
+      ]
+    },
+    {
+      "id": "18-032",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Sally Marks schrijft dat artikel 231 'in fact makes no mention of war guilt'. Welk soort bron is dit, en wat betekent dat voor je gebruik?",
+      "context": "Sally Marks: artikel 231 \"was designed to lay a legal basis for reparations\" en \"in fact makes no mention of war guilt\" (zoals aangehaald op Wikipedia).",
+      "choices": [
+        "Een secundaire bron, een interpretatie van latere datum: bruikbaar als argument, maar het bewijst niet hoe het in 1919 werd gelezen",
+        "Een bron die alleen over Duitsland gaat",
+        "Een propagandabron, dus niet bruikbaar",
+        "Een primaire bron, dus bewijs voor wat in 1919 gebeurde"
+      ],
+      "answer": "Een secundaire bron, een interpretatie van latere datum: bruikbaar als argument, maar het bewijst niet hoe het in 1919 werd gelezen",
+      "hints": [
+        "Wanneer schreef Marks, en over welke tijd?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: Een secundaire bron, een interpretatie van latere datum: bruikbaar als argument, maar het bewijst niet hoe het in 1919 werd gelezen",
+        "Secundaire bronnen zijn argumenten; je weegt ze op onderbouwing, niet als ooggetuigen."
+      ],
+      "topics": [
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Een primaire bron, dus bewijs voor wat in 1919 gebeurde",
+          "message": "Marks schreef decennia later; haar tekst is een interpretatie, geen getuigenis uit 1919."
+        },
+        {
+          "answer": "Een propagandabron, dus niet bruikbaar",
+          "message": "Er is geen reden om het als propaganda te zien; het is een wetenschappelijke interpretatie."
+        }
+      ]
+    },
+    {
+      "id": "18-033",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Beantwoord de onderzoeksvraag: was artikel 231 een uitspraak over schuld? Gebruik de tekst van het artikel, artikel 232 en de interpretatie van Marks, en geef aan hoe zeker je conclusie is.",
+      "answer": "Antwoord: formeel een aansprakelijkheidsbepaling (verantwoordelijk voor verlies en schade, geen 'schuld'), beperkt door artikel 232 tot burgerschade; wel noemt de tekst agressie van Duitsland en bondgenoten, dus de Duitse lezing als schuldverklaring is begrijpelijk. Zekerheid: hoog over de tekst, gemiddeld over de bedoeling.",
+      "min_length": 60,
+      "hints": [
+        "Begin met wat de tekst letterlijk zegt.",
+        "Weeg dan de interpretatie van Marks en sluit af met de zekerheid."
+      ],
+      "solution": [
+        "Een sterk antwoord: Artikel 231 spreekt van verantwoordelijkheid voor verlies en schade en noemt het woord 'schuld' niet. Artikel 232 beperkt de vergoeding tot burgerschade, en Marks leest beide als juridische grondslag voor herstelbetalingen. Maar de tekst noemt wel de agressie van Duitsland en zijn bondgenoten als oorzaak van de oorlog, dus een lezing als schuldverklaring is begrijpelijk. Over de tekst ben ik vrij zeker; over de bedoeling van de opstellers minder, omdat Marks' tekst een latere interpretatie is."
+      ],
+      "topics": [
+        "sources",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "18-034",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Formuleer een eigen onderzoeksvraag over de verantwoordelijkheid voor de oorlog die je met twee bronnen uit deze module zou kunnen beantwoorden. Noem de twee bronnen, wat ze wel en niet laten zien, en je antwoord met de zekerheid ervan.",
+      "answer": "Een heldere vraag, twee bronnen, per bron wat wel en niet te zien is, en een conclusie met beperkte zekerheid.",
+      "min_length": 60,
+      "hints": [
+        "Kies twee bronnen die elkaar aanvullen.",
+        "Zeg per bron wat ze niet laat zien."
+      ],
+      "solution": [
+        "Voorbeeld: Vraag: wilde de tsaar in juli 1914 vrede? Bronnen: het telegram van 29 juli en de Russische mobilisatie van 30 juli. Het telegram laat zien dat de tsaar persoonlijk arbitrage voorstelde; het zegt niets over de besluiten van zijn regering. De mobilisatie laat zien dat Rusland militair doorzette, maar niet wat de tsaar wilde. Antwoord: de tsaar zocht op dat moment waarschijnlijk een uitweg, maar zijn regering handelde anders; zekerheid: gemiddeld."
+      ],
+      "topics": [
+        "sources",
+        "causation"
+      ]
+    },
+    {
+      "id": "18-035",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom is de uitdrukking 'lions led by donkeys' een slechte basis voor een oordeel over de Britse generaals?",
+      "choices": [
+        "Omdat de uitspraak alleen over de Tweede Wereldoorlog gaat",
+        "De oorsprong van de uitspraak is onzeker en ze is een beeld, geen analyse van wat generaals wisten en konden",
+        "Omdat de uitspraak bewezen uit een Duits document komt",
+        "Omdat Britse generaals geen fouten maakten"
+      ],
+      "answer": "De oorsprong van de uitspraak is onzeker en ze is een beeld, geen analyse van wat generaals wisten en konden",
+      "hints": [
+        "Wat weet je over de herkomst van de uitspraak?"
+      ],
+      "solution": [
+        "Het juiste antwoord is: De oorsprong van de uitspraak is onzeker en ze is een beeld, geen analyse van wat generaals wisten en konden",
+        "Een pakkende zin is geen bewijs; de beoordeling van generaals vraagt analyse van hun kennis en middelen."
+      ],
+      "topics": [
+        "historiography",
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat de uitspraak bewezen uit een Duits document komt",
+          "message": "Dat is niet bewezen: de bron die Alan Clark voor de uitspraak aanhaalde, is niet overtuigend aangetoond."
+        },
+        {
+          "answer": "Omdat Britse generaals geen fouten maakten",
+          "message": "Het gaat niet om een volledige vrijspraak, maar om de kwaliteit van de uitspraak als bewijs."
+        }
+      ]
+    }
+  ]
+}

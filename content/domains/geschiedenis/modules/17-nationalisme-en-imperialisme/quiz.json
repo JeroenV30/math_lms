@@ -1,0 +1,530 @@
+{
+  "title": "Hoofdstuktoets – Nationalisme en imperialisme",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "17-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Welke staatsman nodigde de mogendheden uit voor de Berlijnse Conferentie van 1884-1885?",
+      "choices": [
+        "Otto von Bismarck",
+        "Klemens von Metternich",
+        "Camillo Cavour",
+        "Johan Rudolf Thorbecke"
+      ],
+      "answer": "Otto von Bismarck",
+      "hints": [],
+      "solution": [
+        "Bismarck, de Duitse rijkskanselier, was gastheer van de conferentie."
+      ],
+      "topics": [
+        "modern"
+      ],
+      "feedback": [
+        {
+          "answer": "Klemens von Metternich",
+          "message": "Metternich was de Oostenrijkse minister van het Congres van Wenen, zeventig jaar eerder."
+        },
+        {
+          "answer": "Camillo Cavour",
+          "message": "Cavour was een Piëmontese staatsman, betrokken bij de Italiaanse eenwording."
+        },
+        {
+          "answer": "Johan Rudolf Thorbecke",
+          "message": "Thorbecke was de architect van de Nederlandse Grondwet van 1848."
+        }
+      ]
+    },
+    {
+      "id": "17-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke van deze uitspraken past bij Benedict Andersons gedachte dat naties \"verbeelde gemeenschappen\" zijn?",
+      "choices": [
+        "Gedeelde kranten, scholen en verhalen kunnen mensen die elkaar nooit ontmoeten het gevoel geven bij één natie te horen",
+        "Naties bestaan al sinds de prehistorie en groeien vanzelf",
+        "Een natie bestaat alleen als iedereen dezelfde afstamming heeft",
+        "Naties zijn onwerkelijk en hebben geen politieke gevolgen"
+      ],
+      "answer": "Gedeelde kranten, scholen en verhalen kunnen mensen die elkaar nooit ontmoeten het gevoel geven bij één natie te horen",
+      "hints": [],
+      "solution": [
+        "Anderson legt de nadruk op media en gedeelde voorstellingen, niet op afstamming."
+      ],
+      "topics": [
+        "historiography",
+        "modern"
+      ],
+      "feedback": [
+        {
+          "answer": "Naties bestaan al sinds de prehistorie en groeien vanzelf",
+          "message": "Anderson ziet naties als moderne producten."
+        },
+        {
+          "answer": "Een natie bestaat alleen als iedereen dezelfde afstamming heeft",
+          "message": "Dat is juist het beeld dat hij ter discussie stelt."
+        },
+        {
+          "answer": "Naties zijn onwerkelijk en hebben geen politieke gevolgen",
+          "message": "\"Verbeeld\" betekent niet \"onecht\": naties hebben grote gevolgen."
+        }
+      ]
+    },
+    {
+      "id": "17-T03",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Grondwet van Thorbecke",
+        "Eenheid van Italië",
+        "Duits keizerrijk uitgeroepen in Versailles",
+        "Berlijnse Conferentie"
+      ],
+      "hints": [],
+      "solution": [
+        "1848, 1861, 1871 en 1884-1885."
+      ],
+      "topics": [
+        "chronology",
+        "modern"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Eenheid van Italië",
+            "Grondwet van Thorbecke",
+            "Duits keizerrijk uitgeroepen in Versailles",
+            "Berlijnse Conferentie"
+          ],
+          "message": "De Grondwet van 1848 is ouder dan de Italiaanse eenheid van 1861."
+        }
+      ]
+    },
+    {
+      "id": "17-T04",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "In dit fragment worden twee aantallen genoemd. Hoeveel buffels méér dan personen?",
+      "context": "Multatuli, *Max Havelaar* (1860): de verteller zegt de namen te kunnen noemen van \"twee-en-dertig personen\" in één district, aan wie in één maand \"zes-en-dertig buffels\" zijn afgenomen ten behoeve van de regent.",
+      "answer": 4,
+      "unit": "buffels",
+      "hints": [],
+      "solution": [
+        "36 - 32 = 4. Het gaat om buffels die van 32 personen zijn afgenomen; sommigen verloren er dus meer dan één."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": 36,
+          "message": "Je gaf het aantal buffels in plaats van het verschil."
+        }
+      ]
+    },
+    {
+      "id": "17-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat was de kern van de Ethische Politiek die koningin Wilhelmina in 1901 aankondigde?",
+      "choices": [
+        "Nederland erkende een morele plicht jegens de bevolking van Indië, met onderwijs, irrigatie en emigratie, maar bleef bestuurder",
+        "Nederland trok zich uit Indië terug",
+        "Nederland voerde het Cultuurstelsel opnieuw in",
+        "Nederland verdeelde Indië met Groot-Brittannië"
+      ],
+      "answer": "Nederland erkende een morele plicht jegens de bevolking van Indië, met onderwijs, irrigatie en emigratie, maar bleef bestuurder",
+      "hints": [],
+      "solution": [
+        "De Ethische Politiek combineerde zorgplicht met voogdij; ze gaf geen zeggenschap aan Indonesiërs."
+      ],
+      "topics": [
+        "modern",
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Nederland trok zich uit Indië terug",
+          "message": "Het bestuur bleef tot 1942 en na 1945 tot 1949 in handen van Nederland."
+        },
+        {
+          "answer": "Nederland voerde het Cultuurstelsel opnieuw in",
+          "message": "Het Cultuurstelsel was rond 1870 grotendeels afgebouwd."
+        },
+        {
+          "answer": "Nederland verdeelde Indië met Groot-Brittannië",
+          "message": "Dat is niet wat de Ethische Politiek inhield."
+        }
+      ]
+    },
+    {
+      "id": "17-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke conclusie over de Congo-Vrijstaat is op basis van dit fragment het best onderbouwd?",
+      "context": "Vrij vertaald naar het rapport van de Britse consul Roger Casement (1904): bij het Mantumbameer zag hij een jongen van elf of twaalf jaar wiens rechterhand bij de pols was afgehakt.",
+      "choices": [
+        "Een ooggetuige (consul) rapporteert dat geweld en verminking voorkwamen; het fragment zegt niets over het totale aantal slachtoffers",
+        "Het fragment bewijst dat de bevolking van de Vrijstaat met de helft is afgenomen",
+        "Het fragment is onbetrouwbaar omdat de schrijver Brit was",
+        "Het fragment bewijst dat alle Europeanen in Afrika gewelddadig waren"
+      ],
+      "answer": "Een ooggetuige (consul) rapporteert dat geweld en verminking voorkwamen; het fragment zegt niets over het totale aantal slachtoffers",
+      "hints": [],
+      "solution": [
+        "Het fragment is een bewijs van geweld op een bepaalde plaats, niet van een totaalaantal."
+      ],
+      "topics": [
+        "source-criticism",
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "Het fragment bewijst dat de bevolking van de Vrijstaat met de helft is afgenomen",
+          "message": "Daarvoor zijn demografische schattingen nodig, en die zijn omstreden."
+        },
+        {
+          "answer": "Het fragment is onbetrouwbaar omdat de schrijver Brit was",
+          "message": "De herkomst vraagt om kritisch lezen, maar maakt het fragment niet waardeloos."
+        },
+        {
+          "answer": "Het fragment bewijst dat alle Europeanen in Afrika gewelddadig waren",
+          "message": "Het fragment gaat over een bepaald gebied en een bepaald bestuur."
+        }
+      ]
+    },
+    {
+      "id": "17-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat zegt dit fragment, in combinatie met de herkomst ervan, het meest over de bruikbaarheid als bron voor het Indonesische perspectief?",
+      "context": "Kartini aan een Nederlandse correspondente (12 januari 1900), later uitgegeven door Jacques Abendanon in *Door duisternis tot licht* (1911): zij schrijft dat de geschiedenis van Saïdjah en Adinda, bekend uit *Max Havelaar*, naar haar weten \"tot het verleden\" behoort.",
+      "choices": [
+        "Het is de stem van een Javaanse regentsdochter, maar overgeleverd in een selectie van een Nederlandse ambtenaar en geschreven vanuit de bestuurderskring",
+        "Het vertegenwoordigt het standpunt van alle Javanen",
+        "Het is waardeloos omdat het een privébrief is",
+        "Het is volledig neutraal omdat Kartini een vrouw was"
+      ],
+      "answer": "Het is de stem van een Javaanse regentsdochter, maar overgeleverd in een selectie van een Nederlandse ambtenaar en geschreven vanuit de bestuurderskring",
+      "hints": [],
+      "solution": [
+        "Het is een waardevolle Javaanse stem, maar niet de stem van de gewone dorpsbewoner, en met een selectie."
+      ],
+      "topics": [
+        "perspective",
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Het vertegenwoordigt het standpunt van alle Javanen",
+          "message": "Kartini sprak vanuit een bevoorrechte positie."
+        },
+        {
+          "answer": "Het is waardeloos omdat het een privébrief is",
+          "message": "Een brief is juist een rijke bron, mits je de herkomst meeweegt."
+        },
+        {
+          "answer": "Het is volledig neutraal omdat Kartini een vrouw was",
+          "message": "Sekse maakt een bron niet neutraal."
+        }
+      ]
+    },
+    {
+      "id": "17-T08",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen in de Indonesische archipel in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Begin van de Java-oorlog",
+        "Verschijning van *Max Havelaar*",
+        "Begin van de Atjeh-oorlog",
+        "Oprichting van Boedi Oetomo"
+      ],
+      "hints": [],
+      "solution": [
+        "1825, 1860, 1873 en 1908."
+      ],
+      "topics": [
+        "chronology",
+        "modern"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Verschijning van *Max Havelaar*",
+            "Begin van de Java-oorlog",
+            "Begin van de Atjeh-oorlog",
+            "Oprichting van Boedi Oetomo"
+          ],
+          "message": "De Java-oorlog begon in 1825, ruim dertig jaar voor *Max Havelaar*."
+        }
+      ]
+    },
+    {
+      "id": "17-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat voor soort argument voor expansie is de oproep in dit fragment?",
+      "context": "De Britse schrijver Rudyard Kipling riep in 1899 in zijn gedicht \"The White Man's Burden\" op om andere volken te \"verheffen\".",
+      "choices": [
+        "Een rechtvaardiging in termen van een beschavingsmissie, die ook economische en strategische motieven kon verhullen",
+        "Een strikt economisch motief",
+        "Een militair middel, zoals het machinegeweer",
+        "Een bewijs dat alle koloniale bestuurders het goed bedoelden"
+      ],
+      "answer": "Een rechtvaardiging in termen van een beschavingsmissie, die ook economische en strategische motieven kon verhullen",
+      "hints": [],
+      "solution": [
+        "Zo'n oproep is een rechtvaardiging; of het ook het werkelijke motief was, is een aparte vraag."
+      ],
+      "topics": [
+        "causation",
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Een strikt economisch motief",
+          "message": "Het argument is moreel van aard, geen winstberekening."
+        },
+        {
+          "answer": "Een militair middel, zoals het machinegeweer",
+          "message": "Een argument is geen middel."
+        },
+        {
+          "answer": "Een bewijs dat alle koloniale bestuurders het goed bedoelden",
+          "message": "Een rechtvaardiging zegt iets over wat men zei, niet over iedereens bedoelingen."
+        }
+      ]
+    },
+    {
+      "id": "17-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat betekende het staatstoezicht dat na de afschaffing van de slavernij in Suriname gold?",
+      "choices": [
+        "Voormalig tot slaaf gemaakten moesten tot 1873 jaarlijks een arbeidscontract met een werkgever sluiten",
+        "De eigenaren bleven tot 1873 eigenaar van hun voormalige slaven",
+        "De staat betaalde de voormalig tot slaaf gemaakten een vergoeding",
+        "De bevrijden kregen tot 1873 vrijstelling van arbeid"
+      ],
+      "answer": "Voormalig tot slaaf gemaakten moesten tot 1873 jaarlijks een arbeidscontract met een werkgever sluiten",
+      "hints": [],
+      "solution": [
+        "De wet gaf vrijheid, maar beperkte de vrijheid van arbeid tot 1873."
+      ],
+      "topics": [
+        "perspective",
+        "continuity-change"
+      ],
+      "feedback": [
+        {
+          "answer": "De eigenaren bleven tot 1873 eigenaar van hun voormalige slaven",
+          "message": "De slavernij was juridisch afgeschaft; het toezicht beperkte de arbeidsvrijheid."
+        },
+        {
+          "answer": "De staat betaalde de voormalig tot slaaf gemaakten een vergoeding",
+          "message": "De vergoeding ging naar de eigenaren."
+        },
+        {
+          "answer": "De bevrijden kregen tot 1873 vrijstelling van arbeid",
+          "message": "Er gold juist een verplichting tot contractarbeid."
+        }
+      ]
+    },
+    {
+      "id": "17-T11",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de beste kritiek op deze bewering van een leerling?",
+      "context": "Een leerling schrijft: \"Het boek *Max Havelaar* heeft in 1860 het Cultuurstelsel beëindigd.\"",
+      "choices": [
+        "Een causale claim die te sterk is: het stelsel werd pas rond 1870 afgebouwd en het boek was één van meerdere factoren in een bredere discussie",
+        "Het boek had geen enkele invloed op het debat",
+        "Het Cultuurstelsel bestond al vóór 1830",
+        "Het boek ging alleen over Suriname"
+      ],
+      "answer": "Een causale claim die te sterk is: het stelsel werd pas rond 1870 afgebouwd en het boek was één van meerdere factoren in een bredere discussie",
+      "hints": [],
+      "solution": [
+        "Het boek droeg bij aan het debat, maar andere oorzaken, waaronder liberale en economische, speelden mee."
+      ],
+      "topics": [
+        "causation",
+        "historiography"
+      ],
+      "feedback": [
+        {
+          "answer": "Het boek had geen enkele invloed op het debat",
+          "message": "Het boek veroorzaakte wel een felle discussie."
+        },
+        {
+          "answer": "Het Cultuurstelsel bestond al vóór 1830",
+          "message": "Het werd in 1830 ingevoerd."
+        },
+        {
+          "answer": "Het boek ging alleen over Suriname",
+          "message": "Het gaat over Lebak op Java."
+        }
+      ]
+    },
+    {
+      "id": "17-T12",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Welke verklaring past het best bij de bewering dat Groot-Brittannië Egypte in 1882 bezette om de route naar India te beveiligen?",
+      "context": "Een historicus schrijft: de Britse regering greep in 1882 in Egypte in omdat een militaire opstand het Suezkanaal en daarmee de verbinding met India bedreigde.",
+      "choices": [
+        "De strategische verklaring van Robinson en Gallagher",
+        "De kapitaalverklaring van Hobson en Lenin",
+        "De beeldvormingsverklaring van Said",
+        "De verbeelde-gemeenschapstheorie van Anderson"
+      ],
+      "answer": "De strategische verklaring van Robinson en Gallagher",
+      "hints": [],
+      "solution": [
+        "Het gaat om de veiligheid van de route naar India."
+      ],
+      "topics": [
+        "historiography",
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "De kapitaalverklaring van Hobson en Lenin",
+          "message": "Die verklaart imperialisme uit investeerders en kapitaalexport."
+        },
+        {
+          "answer": "De beeldvormingsverklaring van Said",
+          "message": "Said richt zich op de beelden van het Oosten."
+        },
+        {
+          "answer": "De verbeelde-gemeenschapstheorie van Anderson",
+          "message": "Die gaat over het ontstaan van naties."
+        }
+      ]
+    },
+    {
+      "id": "17-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat is de beste nuancering van deze bewering?",
+      "context": "Een tekst stelt: \"In Berlijn verdeelden de mogendheden in 1884-1885 Afrika aan één tafel.\"",
+      "choices": [
+        "De Slotakte stelde vooral spelregels vast, zoals vrijhandel en effectieve bezetting; de verdeling zelf gebeurde in de jaren daarna",
+        "Er is niets over Afrika besloten in Berlijn",
+        "Afrikaanse vorsten bepaalden mee waar de grenzen kwamen",
+        "De conferentie betrof alleen Oost-Afrika"
+      ],
+      "answer": "De Slotakte stelde vooral spelregels vast, zoals vrijhandel en effectieve bezetting; de verdeling zelf gebeurde in de jaren daarna",
+      "hints": [],
+      "solution": [
+        "Lees wat er in de Slotakte stond, niet alleen wat de beeldvorming zegt."
+      ],
+      "topics": [
+        "source-criticism",
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Er is niets over Afrika besloten in Berlijn",
+          "message": "Er werden wel afspraken gemaakt over het Congobekken en kustclaims."
+        },
+        {
+          "answer": "Afrikaanse vorsten bepaalden mee waar de grenzen kwamen",
+          "message": "Afrikaanse vertegenwoordigers waren niet aanwezig."
+        },
+        {
+          "answer": "De conferentie betrof alleen Oost-Afrika",
+          "message": "Ze ging vooral over West- en Midden-Afrika, het Congobekken."
+        }
+      ]
+    },
+    {
+      "id": "17-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Welk argument spreekt de bewering tegen dat het moderne imperialisme volledig te verklaren is uit kapitaalbelangen?",
+      "choices": [
+        "Veel kolonies leverden weinig op en de meeste Europese investeringen gingen elders naartoe, terwijl strategie en prestige duidelijk meespeelden",
+        "Kapitaalbelangen speelden geen enkele rol",
+        "Alle kolonies waren zeer winstgevend",
+        "Europeanen hadden geen interesse in grondstoffen"
+      ],
+      "answer": "Veel kolonies leverden weinig op en de meeste Europese investeringen gingen elders naartoe, terwijl strategie en prestige duidelijk meespeelden",
+      "hints": [],
+      "solution": [
+        "Denk aan de kritiek op Hobson en Lenin."
+      ],
+      "topics": [
+        "historiography",
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Kapitaalbelangen speelden geen enkele rol",
+          "message": "Ze speelden wel een rol, bijvoorbeeld bij rubber in Congo."
+        },
+        {
+          "answer": "Alle kolonies waren zeer winstgevend",
+          "message": "Veel kolonies kostten juist geld."
+        },
+        {
+          "answer": "Europeanen hadden geen interesse in grondstoffen",
+          "message": "Grondstoffen zoals rubber en koper waren een belangrijk motief."
+        }
+      ]
+    },
+    {
+      "id": "17-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 5,
+      "question": "Wat kenmerkt de aanpak van Henk Wesseling in *Verdeel en heers* (1991) van de verdeling van Afrika?",
+      "choices": [
+        "Hij legt de nadruk op een samenspel van economische, strategische en prestigeoverwegingen, en wijst een enkele oorzaak af",
+        "Hij verklaart het imperialisme uitsluitend uit kapitaal",
+        "Hij verklaart het imperialisme uitsluitend uit rassendenken",
+        "Hij ontkent dat Afrika is verdeeld"
+      ],
+      "answer": "Hij legt de nadruk op een samenspel van economische, strategische en prestigeoverwegingen, en wijst een enkele oorzaak af",
+      "hints": [],
+      "solution": [
+        "Wesseling's lijn is die van meerdere oorzaken."
+      ],
+      "topics": [
+        "historiography",
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Hij verklaart het imperialisme uitsluitend uit kapitaal",
+          "message": "Dat is de lijn van Hobson en Lenin."
+        },
+        {
+          "answer": "Hij verklaart het imperialisme uitsluitend uit rassendenken",
+          "message": "Wesseling wijst een enkele oorzaak juist af."
+        },
+        {
+          "answer": "Hij ontkent dat Afrika is verdeeld",
+          "message": "De deling van Afrika is het onderwerp van zijn boek."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "title": "Hoofdstuktoets – Crisis en totalitaire regimes",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "19-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Waarom werd het verdrag van Versailles (1919) in Duitsland breed als een *Diktat* ervaren?",
+      "choices": [
+        "Omdat het zonder echte onderhandeling werd opgelegd, met oorlogsschuld, gebiedsverlies en herstelbetalingen",
+        "Omdat Duitsland het verdrag zelf had opgesteld",
+        "Omdat het Duitsland alle koloniën liet houden",
+        "Omdat het verdrag door de Volkenbond werd afgewezen"
+      ],
+      "answer": "Omdat het zonder echte onderhandeling werd opgelegd, met oorlogsschuld, gebiedsverlies en herstelbetalingen",
+      "hints": [],
+      "solution": [
+        "Het verdrag werd opgelegd; Duitsland verloor gebied en moest betalen."
+      ],
+      "topics": [
+        "contextualisation"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat Duitsland het verdrag zelf had opgesteld",
+          "message": "Het verdrag werd Duitsland juist opgelegd."
+        }
+      ]
+    },
+    {
+      "id": "19-T02",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Verdrag van Versailles",
+        "Hyperinflatie in Duitsland",
+        "Beurskrach in New York",
+        "Hitler wordt kanselier",
+        "Novemberpogrom"
+      ],
+      "hints": [],
+      "solution": [
+        "1919; 1923; 1929; 1933; 1938."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Verdrag van Versailles",
+            "Beurskrach in New York",
+            "Hyperinflatie in Duitsland",
+            "Hitler wordt kanselier",
+            "Novemberpogrom"
+          ],
+          "message": "De hyperinflatie (1923) lag vóór de beurskrach (1929)."
+        }
+      ]
+    },
+    {
+      "id": "19-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is, gegeven dit fragment, de beste conclusie over de rol van de beurskrach?",
+      "choices": [
+        "De krach was een versneller van problemen die al bestonden, niet de enige oorzaak van politieke radicalisering",
+        "De krach veroorzaakte alle politieke problemen in Europa",
+        "De krach had alleen invloed in de Verenigde Staten",
+        "De krach was een gevolg van de opkomst van het fascisme"
+      ],
+      "answer": "De krach was een versneller van problemen die al bestonden, niet de enige oorzaak van politieke radicalisering",
+      "hints": [],
+      "solution": [
+        "Overproductie, schulden en een zwak bankwezen bestonden al; de krach zette een kettingreactie in gang."
+      ],
+      "topics": [
+        "causation",
+        "twentieth-century"
+      ],
+      "context": "Parafrase uit een leerboek: de beurskrach van oktober 1929 volgde op jaren van overproductie in de landbouw, een zwak bankwezen, schulden en handelsbarrières. Daarna trokken Amerikaanse banken hun leningen aan Europa terug.",
+      "feedback": [
+        {
+          "answer": "De krach veroorzaakte alle politieke problemen in Europa",
+          "message": "Dat is monocausaal; er waren al diepere problemen."
+        }
+      ]
+    },
+    {
+      "id": "19-T04",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De NSDAP won in mei 1928 12 zetels in de Rijksdag en in juli 1932 230 zetels. Hoeveel zetels meer waren dat in 1932?",
+      "answer": 218,
+      "hints": [],
+      "solution": [
+        "$230 - 12 = 218$ zetels."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "unit": "zetels",
+      "feedback": [
+        {
+          "answer": 242,
+          "message": "Je hebt de getallen opgeteld."
+        }
+      ]
+    },
+    {
+      "id": "19-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat toont het lot van de Grondwetgevende Vergadering in Rusland (verkiezingen november 1917, opgeheven januari 1918)?",
+      "choices": [
+        "Dat de bolsjewieken een uitslag niet accepteerden die hun macht bedreigde",
+        "Dat de bolsjewieken een ruime meerderheid van de stemmen haalden",
+        "Dat de tsaar het parlement heropende",
+        "Dat Rusland een parlementaire democratie werd"
+      ],
+      "answer": "Dat de bolsjewieken een uitslag niet accepteerden die hun macht bedreigde",
+      "hints": [],
+      "solution": [
+        "De bolsjewieken kregen ongeveer een kwart van de stemmen."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat de bolsjewieken een ruime meerderheid van de stemmen haalden",
+          "message": "Ze haalden ongeveer een kwart van de stemmen."
+        }
+      ]
+    },
+    {
+      "id": "19-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat laat deze parafrase zien over hoe de Machtigingswet de dictatuur mogelijk maakte?",
+      "choices": [
+        "Dat de dictatuur zich op een formeel legale procedure kon beroepen, hoewel het besluit onder druk viel",
+        "Dat de Rijksdag unaniem voor stemde",
+        "Dat de wet in strijd met de grondwet nooit kon worden aangenomen",
+        "Dat Hitler al voor 1933 dictator was"
+      ],
+      "answer": "Dat de dictatuur zich op een formeel legale procedure kon beroepen, hoewel het besluit onder druk viel",
+      "hints": [],
+      "solution": [
+        "444 tegen 94: een meerderheid, maar onder dwang."
+      ],
+      "topics": [
+        "causation",
+        "sources"
+      ],
+      "context": "Parafrase: op 23 maart 1933 nam de Rijksdag in de Kroll-Oper, met bewapende SA en SS in de zaal en zonder de gearresteerde of geweerde communisten, met 444 tegen 94 stemmen een wet aan die de regering toestond zelf wetten te maken, ook wetten die van de grondwet afweken.",
+      "feedback": [
+        {
+          "answer": "Dat de Rijksdag unaniem voor stemde",
+          "message": "De SPD stemde tegen: 94 stemmen tegen."
+        }
+      ]
+    },
+    {
+      "id": "19-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is, op grond van deze cijfers, de meest verdedigbare uitspraak over de NSB?",
+      "choices": [
+        "De NSB boekte in 1935 een opvallend succes maar bleef een kleine partij die in 1937 sterk terugviel",
+        "De NSB was in 1937 de grootste partij van Nederland",
+        "De NSB groeide tussen 1935 en 1937 verder",
+        "De NSB behaalde in 1935 een meerderheid"
+      ],
+      "answer": "De NSB boekte in 1935 een opvallend succes maar bleef een kleine partij die in 1937 sterk terugviel",
+      "hints": [],
+      "solution": [
+        "Vergelijk 7,9 met 4,2 procent."
+      ],
+      "topics": [
+        "sources",
+        "contextualisation"
+      ],
+      "context": "NSB: Provinciale Statenverkiezingen april 1935 circa 7,9 procent; Tweede Kamerverkiezingen 26 mei 1937 4,2 procent, goed voor vier zetels.",
+      "feedback": [
+        {
+          "answer": "De NSB groeide tussen 1935 en 1937 verder",
+          "message": "Het aandeel daalde van ongeveer 7,9 naar 4,2 procent."
+        }
+      ]
+    },
+    {
+      "id": "19-T08",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen in Rusland in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Aftreden van de tsaar",
+        "Machtsovername van de bolsjewieken in Petrograd",
+        "Opheffing van de Grondwetgevende Vergadering",
+        "Oprichting van de Sovjet-Unie",
+        "Dood van Lenin"
+      ],
+      "hints": [],
+      "solution": [
+        "Februari 1917; oktober 1917; januari 1918; 1922; januari 1924."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Aftreden van de tsaar",
+            "Machtsovername van de bolsjewieken in Petrograd",
+            "Opheffing van de Grondwetgevende Vergadering",
+            "Dood van Lenin",
+            "Oprichting van de Sovjet-Unie"
+          ],
+          "message": "De Sovjet-Unie werd in 1922 opgericht, vóór Lenins dood in 1924."
+        }
+      ]
+    },
+    {
+      "id": "19-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarover verschillen de twee posities in dit fragment van mening?",
+      "choices": [
+        "Over de bedoeling achter het beleid: gericht tegen Oekraïners als volk of tegen boerenverzet",
+        "Over het bestaan van de hongersnood",
+        "Over de vraag of Stalin leider was",
+        "Over het jaartal van de hongersnood"
+      ],
+      "answer": "Over de bedoeling achter het beleid: gericht tegen Oekraïners als volk of tegen boerenverzet",
+      "hints": [],
+      "solution": [
+        "Beide posities erkennen dat het beleid de hongersnood veroorzaakte."
+      ],
+      "topics": [
+        "interpretation",
+        "historiography"
+      ],
+      "context": "Historicus A: het beleid van 1932-1933 was gericht tegen Oekraïne als volk en daarom een genocide. Historicus B: het beleid veroorzaakte de hongersnood en trof Oekraïne zwaar omdat het een graanrijk gebied was, maar was niet gericht tegen Oekraïners als zodanig.",
+      "feedback": [
+        {
+          "answer": "Over het bestaan van de hongersnood",
+          "message": "Beide posities erkennen de hongersnood."
+        }
+      ]
+    },
+    {
+      "id": "19-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welk patroon uit 1922 keert in 1933 in Duitsland terug?",
+      "choices": [
+        "Een conservatieve elite benoemde de leider van een geweldadige beweging, in de verwachting hem te kunnen beheersen",
+        "Een staatsgreep door het leger",
+        "Een revolutie van onderop tegen de regering",
+        "Een volksraadpleging over de monarchie"
+      ],
+      "answer": "Een conservatieve elite benoemde de leider van een geweldadige beweging, in de verwachting hem te kunnen beheersen",
+      "hints": [],
+      "solution": [
+        "Koning Victor Emanuel III en Hindenburg."
+      ],
+      "topics": [
+        "causation",
+        "contextualisation"
+      ],
+      "context": "Parafrase: in oktober 1922 weigerde koning Victor Emanuel III het noodbesluit tegen de fascistische colonnes te tekenen en benoemde hij Mussolini tot minister-president. In januari 1933 benoemde rijkspresident Hindenburg Hitler tot kanselier van een kabinet met drie nationaalsocialisten.",
+      "feedback": [
+        {
+          "answer": "Een staatsgreep door het leger",
+          "message": "In beide gevallen was het een formele benoeming."
+        }
+      ]
+    },
+    {
+      "id": "19-T11",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat kun je uit dit affiche *wel* concluderen?",
+      "choices": [
+        "Wat de partij wilde dat kijkers voelden: nood en één redder",
+        "Dat de meeste Duitsers wanhopig waren",
+        "Dat Hitler een concreet plan voor de werkloosheid had",
+        "Dat het affiche door de overheid werd gemaakt"
+      ],
+      "answer": "Wat de partij wilde dat kijkers voelden: nood en één redder",
+      "hints": [],
+      "solution": [
+        "Een affiche toont de bedoeling van de maker."
+      ],
+      "topics": [
+        "source-criticism",
+        "sources"
+      ],
+      "context": "Beschrijving: een NSDAP-affiche uit 1932 van de propagandist Mjölnir toont een dicht opeengepakte menigte met grauwe, moede gezichten. Onderschrift: 'Onze laatste hoop: Hitler' (vrij vertaald).",
+      "feedback": [
+        {
+          "answer": "Dat de meeste Duitsers wanhopig waren",
+          "message": "Dat kun je uit een propagandabron niet afleiden; het toont wat de partij wilde laten zien."
+        }
+      ]
+    },
+    {
+      "id": "19-T12",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat is het verschil tussen de aanpak van Arendt en die van Friedrich en Brzezinski?",
+      "choices": [
+        "Arendt benadrukt ideologie en terreur als nieuw verschijnsel; Friedrich en Brzezinski geven een lijst van zes kenmerken van het systeem",
+        "Arendt gaf een lijst van zes kenmerken; Friedrich en Brzezinski schreven over ideologie",
+        "Beide ontkenden dat nazi-Duitsland totalitair was",
+        "Beide schreven alleen over Italië"
+      ],
+      "answer": "Arendt benadrukt ideologie en terreur als nieuw verschijnsel; Friedrich en Brzezinski geven een lijst van zes kenmerken van het systeem",
+      "hints": [],
+      "solution": [
+        "Arendt 1951, Friedrich en Brzezinski 1956."
+      ],
+      "topics": [
+        "historiography"
+      ],
+      "feedback": [
+        {
+          "answer": "Arendt gaf een lijst van zes kenmerken; Friedrich en Brzezinski schreven over ideologie",
+          "message": "Dit is omgekeerd: de lijst van zes kenmerken komt van Friedrich en Brzezinski."
+        }
+      ]
+    },
+    {
+      "id": "19-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Welke historische richting vertegenwoordigt het standpunt in deze samenvatting?",
+      "choices": [
+        "Een functionalist of structuralist, die het regime verklaart uit rivaliserende instanties",
+        "Een intentionalist, die alles uit Hitlers vooropgezette plan verklaart",
+        "Een aanhanger van de Sonderweg-these",
+        "Een revisionist over de Sovjet-Unie"
+      ],
+      "answer": "Een functionalist of structuralist, die het regime verklaart uit rivaliserende instanties",
+      "hints": [],
+      "solution": [
+        "Let op het woord 'wedijver'."
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ],
+      "context": "Samenvatting van een standpunt: 'De radicalisering van het regime verklaar ik minder uit een vooraf vastgesteld plan van Hitler dan uit de wedijver tussen partijorganisaties, ministeries en veiligheidsdiensten, die elk wilden bewijzen dat zij zijn wensen het best uitvoerden.'",
+      "feedback": [
+        {
+          "answer": "Een intentionalist, die alles uit Hitlers vooropgezette plan verklaart",
+          "message": "Het fragment legt juist de nadruk op wedijver en systeem, niet op een vast plan."
+        }
+      ]
+    },
+    {
+      "id": "19-T14",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Bij de Rijksdagverkiezingen van maart 1933 haalde de NSDAP 43,9 procent van de stemmen. Welk percentage van de stemmen ging naar andere partijen?",
+      "answer": 56.1,
+      "hints": [],
+      "solution": [
+        "$100 - 43{,}9 = 56{,}1$ procent."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "unit": "%",
+      "feedback": [
+        {
+          "answer": 43.9,
+          "message": "Dat is het aandeel van de NSDAP zelf. Je zoekt wat overblijft."
+        }
+      ]
+    },
+    {
+      "id": "19-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 5,
+      "question": "Wat is, gegeven deze twee bronnen, de beste bronkritische beoordeling?",
+      "choices": [
+        "Jones baseerde zich op eigen waarneming, Duranty was afhankelijk van de autoriteiten; controle met een derde type bron, zoals demografische gegevens en archieven, is nodig",
+        "Duranty is betrouwbaarder omdat hij in Moskou woonde",
+        "Beide verslagen zijn even betrouwbaar",
+        "Geen van beide bronnen is bruikbaar"
+      ],
+      "answer": "Jones baseerde zich op eigen waarneming, Duranty was afhankelijk van de autoriteiten; controle met een derde type bron, zoals demografische gegevens en archieven, is nodig",
+      "hints": [],
+      "solution": [
+        "Wie had welk belang?"
+      ],
+      "topics": [
+        "source-criticism",
+        "sources"
+      ],
+      "context": "Parafrase: in maart 1933 schreef de Britse journalist Gareth Jones na een reis door Oekraïne over hongersnood. De Moskou-correspondent Walter Duranty van The New York Times schreef in dezelfde weken dat er honger en ondervoeding waren, maar geen hongersnood in die zin.",
+      "feedback": [
+        {
+          "answer": "Duranty is betrouwbaarder omdat hij in Moskou woonde",
+          "message": "Wonen op een plek maakt een bron niet betrouwbaar; zijn toegang hing van de autoriteiten af."
+        }
+      ]
+    }
+  ]
+}

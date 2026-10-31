@@ -3,19 +3,163 @@
   "slug": "crisis-en-totalitaire-regimes",
   "title": "Crisis en totalitaire regimes",
   "part": 7,
-  "status": "planned",
+  "status": "available",
   "historical_period": "1918 – 1939",
   "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_minutes": 240,
   "prerequisites": [
     1
   ],
   "topics": [
     "twentieth-century",
     "contextualisation",
-    "sources"
+    "sources",
+    "source-criticism",
+    "causation",
+    "historiography"
   ],
   "core_question": "Hoe konden dictaturen ontstaan in landen met verkiezingen?",
-  "summary": "De crisis van de jaren dertig, communisme in de Sovjet-Unie, fascisme en nationaalsocialisme, en propaganda als bron.",
-  "lessons": []
+  "summary": "Hoe konden dictaturen ontstaan in landen met verkiezingen? De naoorlogse crisis, de Sovjet-Unie, het fascisme in Italië, de weg van Hitler naar de macht, de Nederlandse democratie, totalitarisme als begrip en propaganda als bron.",
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Onze laatste hoop",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "na-de-oorlog-en-de-crisis",
+      "title": "Na de oorlog en de crisis",
+      "file": "02-na-de-oorlog-en-de-crisis.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "sovjet-unie-en-italie",
+      "title": "De Sovjet-Unie en Italië",
+      "file": "03-sovjet-unie-en-italie.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "van-weimar-naar-het-derde-rijk",
+      "title": "Van Weimar naar het Derde Rijk",
+      "file": "04-van-weimar-naar-het-derde-rijk.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "nederland-totalitarisme-en-propaganda",
+      "title": "Nederland, totalitarisme en propaganda",
+      "file": "05-nederland-totalitarisme-en-propaganda.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen welke omstandigheden na 1918 (Versailles, hyperinflatie, beurskrach) democratieën kwetsbaar maakten, en waarom ze het ontstaan van dictaturen niet alleen verklaren.",
+    "Je kunt de stappen van 1933–1934 beschrijven waarlangs Hitler aan de macht kwam en uitleggen waarom ze legaal leken.",
+    "Je kunt het ontstaan van het regime van Stalin en dat van Mussolini beschrijven en het begrip fascisme gebruiken.",
+    "Je kunt verkiezingsuitslagen aflezen, vergelijken en gebruiken in een redenering.",
+    "Je kunt uitleggen waarom de Nederlandse democratie standhield en de NSB klein bleef, met de nodige voorzichtigheid.",
+    "Je kunt het begrip totalitarisme en de kritiek erop uitleggen.",
+    "Je kunt propaganda als bron beoordelen op herkomst, doel en controle met een tweede bron.",
+    "Je kunt interpretaties van historici (intentionalisten en functionalisten, Sonderweg, Paxton, Fitzpatrick) naast elkaar leggen."
+  ],
+  "glossary": [
+    {
+      "term": "Diktat",
+      "definition": "Duitse benaming voor het verdrag van Versailles: een opgelegde vrede zonder echte onderhandeling."
+    },
+    {
+      "term": "Hyperinflatie",
+      "definition": "Een geldontwaarding zo snel dat prijzen per dag stijgen, zoals in Duitsland in 1923."
+    },
+    {
+      "term": "Artikel 48",
+      "definition": "Bepaling in de Weimarse grondwet die de rijkspresident in noodsituaties toestond zonder de Rijksdag te regeren."
+    },
+    {
+      "term": "Collectivisatie",
+      "definition": "De gedwongen samenvoeging van boerenbedrijven tot staatsgestuurde collectieve bedrijven in de Sovjet-Unie vanaf 1929."
+    },
+    {
+      "term": "Holodomor",
+      "definition": "De hongersnood van 1932–1933 in Oekraïne, veroorzaakt en verergerd door Sovjetbeleid; of het genocide was, is omstreden."
+    },
+    {
+      "term": "Goelag",
+      "definition": "Het Sovjetstelsel van strafkampen en dwangarbeid."
+    },
+    {
+      "term": "Fascisme",
+      "definition": "Een politieke beweging die vernedering en verval benadrukt, eenheid en zuivering verheerlijkt en met geweld en met steun van elites naar de macht streeft."
+    },
+    {
+      "term": "Machtigingswet",
+      "definition": "Wet van 23 maart 1933 die de Duitse regering toestond zonder de Rijksdag wetten te maken."
+    },
+    {
+      "term": "Gleichschaltung",
+      "definition": "De gelijkschakeling van instellingen, bonden en partijen in Duitsland na 1933."
+    },
+    {
+      "term": "Totalitarisme",
+      "definition": "Begrip voor regimes die volledige controle over staat en samenleving nastreven; omstreden als wetenschappelijk model."
+    },
+    {
+      "term": "Propaganda",
+      "definition": "Gerichte beïnvloeding van de publieke opinie, een bron die vooral toont wat de maker wil dat mensen denken."
+    },
+    {
+      "term": "Verzuiling",
+      "definition": "De indeling van de Nederlandse samenleving in katholieke, protestantse en socialistische zuilen, met eigen organisaties."
+    },
+    {
+      "term": "Functionalisme",
+      "definition": "Historische richting die het nationaalsocialistische regime verklaart uit de structuur en wedijver van instanties, in tegenstelling tot het intentionalisme."
+    }
+  ],
+  "timeline": [
+    "verdrag-van-versailles-1919",
+    "hyperinflatie-1923",
+    "mars-op-rome-1922",
+    "beurskrach-1929",
+    "nsb-opgericht-1931",
+    "holodomor-1932-1933",
+    "hitler-kanselier-1933",
+    "machtigingswet-1933",
+    "neurenberger-wetten-1935",
+    "grote-terreur-1936-1938",
+    "novemberpogrom-1938",
+    "arendt-origins-totalitarianism-1951"
+  ],
+  "people": [
+    "keynes",
+    "lenin",
+    "stalin",
+    "mussolini",
+    "hitler",
+    "hindenburg",
+    "anton-mussert",
+    "arendt",
+    "ian-kershaw",
+    "robert-paxton",
+    "sheila-fitzpatrick",
+    "eric-hobsbawm"
+  ]
 }

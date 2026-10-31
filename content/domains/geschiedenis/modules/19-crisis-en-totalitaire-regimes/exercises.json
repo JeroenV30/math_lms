@@ -1,0 +1,972 @@
+{
+  "exercises": [
+    {
+      "id": "19-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Hoe werd artikel 231 van het verdrag van Versailles in Duitsland vooral opgevat?",
+      "choices": [
+        "Als een opgelegde erkenning van de schuld aan de oorlog, en daarmee als grondslag voor herstelbetalingen",
+        "Als een gunstig akkoord dat Duitsland tegen betaling zijn koloniën liet houden",
+        "Als een bepaling die het Duitse leger tot een miljoen man beperkte",
+        "Als een afspraak over de uitwisseling van krijgsgevangenen"
+      ],
+      "answer": "Als een opgelegde erkenning van de schuld aan de oorlog, en daarmee als grondslag voor herstelbetalingen",
+      "hints": [
+        "Denk aan het woord *Diktat*.",
+        "Het artikel werd de basis van de herstelbetalingen."
+      ],
+      "solution": [
+        "Artikel 231 werd in Duitsland gelezen als schulderkenning.",
+        "Dat gevoel van een opgelegde vrede werd politiek gebruikt tegen de republiek."
+      ],
+      "topics": [
+        "contextualisation",
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": "Als een gunstig akkoord dat Duitsland tegen betaling zijn koloniën liet houden",
+          "message": "Duitsland moest juist zijn koloniën afstaan."
+        },
+        {
+          "answer": "Als een bepaling die het Duitse leger tot een miljoen man beperkte",
+          "message": "Het leger werd beperkt tot 100.000 man, niet tot een miljoen."
+        }
+      ]
+    },
+    {
+      "id": "19-002",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Verdrag van Versailles getekend",
+        "Franse en Belgische bezetting van het Ruhrgebied",
+        "Invoering van de Rentenmark",
+        "Dawesplan",
+        "Beurskrach in New York"
+      ],
+      "hints": [
+        "Ruhrbezetting en Rentenmark liggen in hetzelfde jaar.",
+        "Het Dawesplan volgt op de stabilisatie."
+      ],
+      "solution": [
+        "Versailles: 1919. Ruhrbezetting: januari 1923. Rentenmark: november 1923. Dawesplan: 1924. Beurskrach: oktober 1929."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Verdrag van Versailles getekend",
+            "Invoering van de Rentenmark",
+            "Franse en Belgische bezetting van het Ruhrgebied",
+            "Dawesplan",
+            "Beurskrach in New York"
+          ],
+          "message": "De Rentenmark kwam pas in november 1923, ná de bezetting van januari 1923, als antwoord op de hyperinflatie."
+        }
+      ]
+    },
+    {
+      "id": "19-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom noemt de les artikel 48 van de Weimarse grondwet een gevaar voor de democratie?",
+      "choices": [
+        "Het gaf de rijkspresident de mogelijkheid in noodsituaties zonder de Rijksdag te regeren, en kon later de democratie omzeilen",
+        "Het verbood politieke partijen die tegen de grondwet waren",
+        "Het schafte het algemeen kiesrecht voor vrouwen af",
+        "Het gaf de Rijksdag het recht de rijkspresident af te zetten"
+      ],
+      "answer": "Het gaf de rijkspresident de mogelijkheid in noodsituaties zonder de Rijksdag te regeren, en kon later de democratie omzeilen",
+      "hints": [
+        "Het artikel was bedoeld als veiligheidsklep.",
+        "Brüning regeerde ermee."
+      ],
+      "solution": [
+        "Artikel 48 stond noodmaatregelen toe zonder instemming van de Rijksdag.",
+        "Onder Brüning en zijn opvolgers werd het een gewone manier van regeren."
+      ],
+      "topics": [
+        "contextualisation"
+      ],
+      "feedback": [
+        {
+          "answer": "Het schafte het algemeen kiesrecht voor vrouwen af",
+          "message": "Vrouwen kregen in 1919 juist kiesrecht, en dat bleef bestaan."
+        }
+      ]
+    },
+    {
+      "id": "19-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "In de uitgewerkte redenering over de beurskrach en de NSDAP: wat is de beste samenvatting van de conclusie?",
+      "choices": [
+        "De crisis was waarschijnlijk een versneller, maar geen voldoende oorzaak van de opkomst van de NSDAP",
+        "De beurskrach was de enige oorzaak van de opkomst van de NSDAP",
+        "De crisis speelde geen enkele rol bij het succes van de NSDAP",
+        "De NSDAP groeide alleen omdat het Youngplan werd aangenomen"
+      ],
+      "answer": "De crisis was waarschijnlijk een versneller, maar geen voldoende oorzaak van de opkomst van de NSDAP",
+      "hints": [
+        "Veel landen maakten dezelfde crisis mee zonder dictatuur."
+      ],
+      "solution": [
+        "Voorwaarden (nederlaag, zwakke legitimiteit) en aanleiding (crisis) werken samen.",
+        "Vergelijking met de VS en Nederland laat zien dat de crisis alleen niet genoeg was."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "De beurskrach was de enige oorzaak van de opkomst van de NSDAP",
+          "message": "Dat is monocausaal denken. De partij groeide ook door de verbittering over de nederlaag en de campagne tegen het Youngplan."
+        },
+        {
+          "answer": "De crisis speelde geen enkele rol bij het succes van de NSDAP",
+          "message": "Het aandeel steeg juist sterk na 1929, dus de crisis maakte kiezers ontvankelijk."
+        }
+      ]
+    },
+    {
+      "id": "19-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "De NSDAP won in mei 1928 12 zetels en in september 1930 107 zetels in de Rijksdag. Hoeveel zetels won de partij er tussen die twee verkiezingen bij?",
+      "answer": 95,
+      "hints": [
+        "Trek het kleinste getal af van het grootste."
+      ],
+      "solution": [
+        "$107 - 12 = 95$ zetels."
+      ],
+      "topics": [
+        "twentieth-century"
+      ],
+      "unit": "zetels",
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Dat is het aantal zetels in 1928. Je moet het verschil berekenen."
+        },
+        {
+          "answer": 119,
+          "message": "Je hebt de twee getallen opgeteld in plaats van afgetrokken."
+        }
+      ]
+    },
+    {
+      "id": "19-006",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Vergelijk kort de economische reactie van Nederland (Colijn) en de Verenigde Staten (Roosevelt) op de crisis van de jaren dertig. Wat valt je op als je bedenkt dat geen van beide landen een dictatuur kreeg?",
+      "answer": "Colijn hield vast aan de gouden standaard en bezuinigde, de gulden werd pas in 1936 gedevalueerd; Roosevelt koos voor overheidsingrijpen (New Deal). Verschillende beleidskeuzes leidden niet tot een dictatuur, dus economisch beleid alleen verklaart het politieke gevolg niet.",
+      "hints": [
+        "Noem eerst per land één maatregel.",
+        "Trek dan een conclusie over de rol van de crisis."
+      ],
+      "solution": [
+        "Nederland: vasthouden aan de gouden standaard, bezuinigen, steun en werkverschaffing, devaluatie in 1936. Verenigde Staten: de New Deal met werkprogramma's.",
+        "Beide landen kozen een ander beleid en bleven democratisch. Dat laat zien dat dezelfde crisis niet automatisch tot een dictatuur leidt en dat politieke instellingen en tradities ertoe doen."
+      ],
+      "topics": [
+        "causation",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "19-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat laat het opheffen van de Grondwetgevende Vergadering in januari 1918 zien over de bolsjewieken?",
+      "choices": [
+        "Dat ze bereid waren een verkiezingsuitslag naast zich neer te leggen als die hun macht bedreigde",
+        "Dat ze de verkiezingen van november 1917 met grote meerderheid hadden gewonnen",
+        "Dat de Voorlopige Regering de vergadering had opgeheven",
+        "Dat de tsaar zijn macht herstelde"
+      ],
+      "answer": "Dat ze bereid waren een verkiezingsuitslag naast zich neer te leggen als die hun macht bedreigde",
+      "hints": [
+        "Hoeveel procent haalden de bolsjewieken in november 1917?"
+      ],
+      "solution": [
+        "De bolsjewieken kregen ongeveer een kwart van de stemmen, de Sociaal-Revolutionairen ongeveer veertig procent.",
+        "De vergadering werd na één zitting uiteengejaagd."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat ze de verkiezingen van november 1917 met grote meerderheid hadden gewonnen",
+          "message": "Ze kregen ongeveer een kwart van de stemmen; de Sociaal-Revolutionairen kregen er meer."
+        }
+      ]
+    },
+    {
+      "id": "19-008",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Voor de Holodomor in Oekraïne noemen historici tegenwoordig doorgaans 3,5 tot 5 miljoen doden. Hoeveel miljoen scheelt de bovengrens met de ondergrens?",
+      "answer": 1.5,
+      "hints": [
+        "Trek de ondergrens af van de bovengrens."
+      ],
+      "solution": [
+        "$5 - 3{,}5 = 1{,}5$ miljoen."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "unit": "miljoen",
+      "feedback": [
+        {
+          "answer": 8.5,
+          "message": "Je hebt de grenzen opgeteld. Je zoekt het verschil."
+        },
+        {
+          "answer": 3.5,
+          "message": "Dat is de ondergrens zelf."
+        }
+      ]
+    },
+    {
+      "id": "19-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Waar draait het meningsverschil over het woord *genocide* bij de Holodomor vooral om?",
+      "choices": [
+        "Om de bedoeling: was Oekraïne als volk het doelwit, of trof het beleid vooral boeren en een graanrijk gebied?",
+        "Om de vraag of er überhaupt een hongersnood is geweest",
+        "Om de vraag of het beleid door de staat werd gevoerd",
+        "Om de datum van de collectivisatie"
+      ],
+      "answer": "Om de bedoeling: was Oekraïne als volk het doelwit, of trof het beleid vooral boeren en een graanrijk gebied?",
+      "hints": [
+        "Beide kampen erkennen dat de ramp door beleid ontstond."
+      ],
+      "solution": [
+        "Dat het beleid de ramp veroorzaakte, wordt breed erkend.",
+        "Het meningsverschil gaat over de intentie en over de definitie van het woord."
+      ],
+      "topics": [
+        "interpretation",
+        "historiography"
+      ],
+      "feedback": [
+        {
+          "answer": "Om de vraag of er überhaupt een hongersnood is geweest",
+          "message": "De hongersnood zelf wordt niet betwist, ook niet door wie het woord genocide afwijst."
+        },
+        {
+          "answer": "Om de vraag of het beleid door de staat werd gevoerd",
+          "message": "Dat wordt door beide kanten erkend."
+        }
+      ]
+    },
+    {
+      "id": "19-010",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in Italië in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Oprichting van de Fasci di Combattimento",
+        "Oprichting van de Partito Nazionale Fascista",
+        "Mars op Rome",
+        "Moord op Matteotti",
+        "Mussolini neemt in het parlement de verantwoordelijkheid op zich"
+      ],
+      "hints": [
+        "De Mars op Rome ligt in 1922."
+      ],
+      "solution": [
+        "1919 Fasci; 1921 partij; oktober 1922 Mars op Rome; juni 1924 Matteotti; 3 januari 1925 de toespraak."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Oprichting van de Fasci di Combattimento",
+            "Oprichting van de Partito Nazionale Fascista",
+            "Moord op Matteotti",
+            "Mars op Rome",
+            "Mussolini neemt in het parlement de verantwoordelijkheid op zich"
+          ],
+          "message": "De moord op Matteotti vond plaats in 1924, ná de Mars op Rome van 1922."
+        }
+      ]
+    },
+    {
+      "id": "19-011",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Wat bedoelt Robert Paxton, volgens de les, als hij zegt dat je fascisme moet begrijpen aan wat het *doet*?",
+      "choices": [
+        "Dat je moet kijken naar gedrag: mobiliseren, geweld gebruiken en samenwerken met conservatieve elites, niet naar een uitgewerkt programma",
+        "Dat je alleen de partijprogramma's van fascistische partijen hoeft te lezen",
+        "Dat fascisme alleen in Italië voorkwam",
+        "Dat fascisme een economisch stelsel is"
+      ],
+      "answer": "Dat je moet kijken naar gedrag: mobiliseren, geweld gebruiken en samenwerken met conservatieve elites, niet naar een uitgewerkt programma",
+      "hints": [
+        "Fascisme laat zich niet goed door een programma omschrijven."
+      ],
+      "solution": [
+        "Paxton kijkt naar gedrag en naar fasen.",
+        "Het programma was wisselend; wat de bewegingen deden, was vergelijkbaar."
+      ],
+      "topics": [
+        "interpretation",
+        "historiography"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat je alleen de partijprogramma's van fascistische partijen hoeft te lezen",
+          "message": "Het programma is juist een zwakke aanwijzing; het gedrag zegt meer."
+        }
+      ]
+    },
+    {
+      "id": "19-012",
+      "type": "text",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Vergelijk hoe de dictatuur ontstond in Italië (1922) en in Rusland (1917–1918). Noem één overeenkomst en één verschil.",
+      "answer": "Overeenkomst: in beide gevallen respecteerde een beweging de verkiezingsuitslag of het parlement niet verder dan nuttig was en gebruikte geweld. Verschil: in Rusland kwam de macht door een revolutie, in Italië door een benoeming van de koning onder druk van de fascistische dreiging.",
+      "hints": [
+        "Denk aan de rol van de koning in Italië.",
+        "Denk aan wat er met de Grondwetgevende Vergadering gebeurde."
+      ],
+      "solution": [
+        "Overeenkomst: geweld en de bereidheid parlementaire spelregels te omzeilen.",
+        "Verschil: in Rusland een revolutie tegen een bestaande regering, in Italië een benoeming door de koning en een conservatieve elite."
+      ],
+      "topics": [
+        "causation",
+        "contextualisation"
+      ]
+    },
+    {
+      "id": "19-013",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De NSDAP haalde in mei 1928 2,6 procent van de stemmen en in september 1930 18,3 procent. Hoeveel keer zo groot was het aandeel in 1930? Rond af op een geheel getal.",
+      "answer": 7,
+      "hints": [
+        "Deel 18,3 door 2,6."
+      ],
+      "solution": [
+        "$18{,}3 / 2{,}6 \\approx 7{,}0$, dus ongeveer zeven keer zo groot."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": 16,
+          "message": "Dat is het verschil in procentpunten (15,7) ongeveer; je moet delen, niet aftrekken."
+        },
+        {
+          "answer": 6,
+          "message": "Je hebt te ver naar beneden afgerond; 18,3 gedeeld door 2,6 is ongeveer 7,0."
+        }
+      ]
+    },
+    {
+      "id": "19-014",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bij de Rijksdagverkiezingen van juli 1932 haalde de NSDAP 230 zetels en in november 1932 196 zetels. Met hoeveel zetels daalde de partij?",
+      "answer": 34,
+      "hints": [
+        "Trek de nieuwste uitslag af van de oudste."
+      ],
+      "solution": [
+        "$230 - 196 = 34$ zetels."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "unit": "zetels",
+      "feedback": [
+        {
+          "answer": 426,
+          "message": "Je hebt de getallen opgeteld."
+        }
+      ]
+    },
+    {
+      "id": "19-015",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat laat onderzoek naar NSDAP-kiezers zien, zoals dat van Jürgen Falter?",
+      "choices": [
+        "Dat de partij kiezers uit veel groepen trok, onder wie protestanten, boeren, arbeiders en eerdere niet-stemmers, maar minder onder katholieken",
+        "Dat alleen werklozen op de partij stemden",
+        "Dat alleen de hoogste klassen op de partij stemden",
+        "Dat katholieken de grootste groep kiezers vormden"
+      ],
+      "answer": "Dat de partij kiezers uit veel groepen trok, onder wie protestanten, boeren, arbeiders en eerdere niet-stemmers, maar minder onder katholieken",
+      "hints": [
+        "De partij noemde zich een *Volkspartei*."
+      ],
+      "solution": [
+        "De achterban was breed, maar niet gelijkmatig verdeeld.",
+        "Katholieken en de vaste kiezers van SPD en KPD waren minder gevoelig."
+      ],
+      "topics": [
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat alleen werklozen op de partij stemden",
+          "message": "Dat is een te simpel beeld; ook veel andere groepen stemden op de partij."
+        },
+        {
+          "answer": "Dat katholieken de grootste groep kiezers vormden",
+          "message": "Katholieken waren juist ondervertegenwoordigd."
+        }
+      ]
+    },
+    {
+      "id": "19-016",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze stappen van 1933–1934 in de juiste volgorde, de eerste stap eerst.",
+      "answer": [
+        "Hitler wordt benoemd tot kanselier",
+        "Rijksdagbrand en noodverordening",
+        "Verkiezing van 5 maart",
+        "Machtigingswet",
+        "NSDAP wordt de enige toegestane partij",
+        "Hitler voegt president en kanselier samen"
+      ],
+      "hints": [
+        "De Machtigingswet volgt op de verkiezing.",
+        "Hindenburg overlijdt in augustus 1934."
+      ],
+      "solution": [
+        "30 januari; 27–28 februari; 5 maart; 23 maart; 14 juli 1933; 2 augustus 1934."
+      ],
+      "topics": [
+        "chronology",
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Hitler wordt benoemd tot kanselier",
+            "Verkiezing van 5 maart",
+            "Rijksdagbrand en noodverordening",
+            "Machtigingswet",
+            "NSDAP wordt de enige toegestane partij",
+            "Hitler voegt president en kanselier samen"
+          ],
+          "message": "De Rijksdagbrand (27 februari) vond plaats vóór de verkiezing van 5 maart."
+        }
+      ]
+    },
+    {
+      "id": "19-017",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Voor een grondwetswijziging was een tweederdemeerderheid van de aanwezige leden nodig. Bij de stemming over de Machtigingswet van 23 maart 1933 waren van de 647 Rijksdagleden er 109 afwezig. Hoeveel stemmen voor waren er minimaal nodig? Rond af naar boven.",
+      "answer": 359,
+      "hints": [
+        "Bereken eerst hoeveel leden aanwezig waren: $647 - 109$.",
+        "Bereken daarvan tweederde en rond af naar boven."
+      ],
+      "solution": [
+        "Aanwezig: $647 - 109 = 538$.",
+        "Tweederde van 538 is ongeveer $358{,}7$, dus minimaal 359 stemmen.",
+        "De uitslag was 444 stemmen voor, ruim meer dan genoeg."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "unit": "stemmen",
+      "feedback": [
+        {
+          "answer": 431,
+          "message": "Dat is tweederde van 647. Het gaat om tweederde van de *aanwezige* leden."
+        },
+        {
+          "answer": 358,
+          "message": "Naar boven afronden: 358 is net te weinig voor een tweederdemeerderheid."
+        }
+      ]
+    },
+    {
+      "id": "19-018",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom was het voor het regime belangrijk dat de Machtigingswet met een parlementaire meerderheid werd aangenomen?",
+      "choices": [
+        "Het gaf de nieuwe macht schijn van legaliteit, waardoor ambtenaren, rechters en kiezers konden blijven meewerken",
+        "Het maakte de nieuwe wet onomkeerbaar volgens de Weimarse grondwet",
+        "Het bewees dat de meerderheid van de Duitsers Hitler steunde",
+        "Het was een verplichting vanuit het verdrag van Versailles"
+      ],
+      "answer": "Het gaf de nieuwe macht schijn van legaliteit, waardoor ambtenaren, rechters en kiezers konden blijven meewerken",
+      "hints": [
+        "Denk aan degenen die moesten meewerken."
+      ],
+      "solution": [
+        "Wie wet en orde respecteert, kan een legaal tot stand gekomen regime moeilijker weigeren.",
+        "De stemming vond bovendien plaats onder druk van SA en SS."
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Het bewees dat de meerderheid van de Duitsers Hitler steunde",
+          "message": "De stemming vond plaats onder dwang, met afgevaardigden die gearresteerd of afwezig waren; ze zegt weinig over de publieke opinie."
+        }
+      ]
+    },
+    {
+      "id": "19-019",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Hoe werd in de aanvulling op de Neurenberger wetten van november 1935 bepaald wie als Joods gold?",
+      "choices": [
+        "Aan de hand van het godsdienstige lidmaatschap van de grootouders, niet van wat iemand zelf geloofde",
+        "Aan de hand van wat iemand zelf zei te geloven",
+        "Aan de hand van het beroep van iemand",
+        "Aan de hand van de woonplaats van iemand"
+      ],
+      "answer": "Aan de hand van het godsdienstige lidmaatschap van de grootouders, niet van wat iemand zelf geloofde",
+      "hints": [
+        "Het ging om afstamming."
+      ],
+      "solution": [
+        "De indeling berustte op de religie van de grootouders.",
+        "Eigen overtuiging deed er niet toe."
+      ],
+      "topics": [
+        "contextualisation"
+      ],
+      "feedback": [
+        {
+          "answer": "Aan de hand van wat iemand zelf zei te geloven",
+          "message": "Juist niet: eigen overtuiging was irrelevant."
+        }
+      ]
+    },
+    {
+      "id": "19-020",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Historici gebruiken liever *novemberpogrom* dan *Kristallnacht*. Leg uit waarom de keuze van een term iets zegt over hoe je een gebeurtenis interpreteert.",
+      "answer": "Kristallnacht verwijst naar het gebroken glas en kan de gebeurtenis kleiner doen lijken; novemberpogrom benoemt het geweld tegen mensen en de rol van de staat. Een term draagt een interpretatie en een toon met zich mee.",
+      "hints": [
+        "Wat benadrukt het woord *Kristall*?",
+        "Wat benadrukt het woord *pogrom*?"
+      ],
+      "solution": [
+        "Het woord Kristallnacht legt de nadruk op glas en eigendom, niet op de mensen die werden aangevallen en gearresteerd.",
+        "Pogrom benoemt een geweldsuitbarsting tegen een groep. Een term is dus nooit neutraal."
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "19-021",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De NSB kreeg bij de Statenverkiezingen van 1935 ongeveer 7,9 procent van de stemmen en bij de Tweede Kamerverkiezingen van 1937 ongeveer 4,2 procent. Met hoeveel procent daalde het aandeel relatief? Rond af op een geheel getal.",
+      "answer": 47,
+      "hints": [
+        "Bereken het verschil in procentpunten en deel dat door het oorspronkelijke aandeel."
+      ],
+      "solution": [
+        "Verschil: $7{,}9 - 4{,}2 = 3{,}7$ procentpunt.",
+        "$3{,}7 / 7{,}9 \\approx 0{,}468$, dus een relatieve daling van ongeveer 47 procent."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "unit": "%",
+      "feedback": [
+        {
+          "answer": 4,
+          "message": "Dat is het verschil in procentpunten (3,7), niet de relatieve daling."
+        },
+        {
+          "answer": 53,
+          "message": "Dat is het percentage dat overbleef (4,2 gedeeld door 7,9)."
+        },
+        {
+          "answer": 88,
+          "message": "Je hebt gedeeld door het nieuwe aandeel in plaats van door het oorspronkelijke aandeel."
+        }
+      ]
+    },
+    {
+      "id": "19-022",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke factor wordt in de les genoemd als verklaring voor het standhouden van de Nederlandse democratie?",
+      "choices": [
+        "De verzuiling, waardoor kiezers aan hun eigen zuil gebonden bleven",
+        "Het ontbreken van elke economische crisis",
+        "Het verbod op alle politieke partijen",
+        "De nederlaag in de Eerste Wereldoorlog"
+      ],
+      "answer": "De verzuiling, waardoor kiezers aan hun eigen zuil gebonden bleven",
+      "hints": [
+        "Denk aan katholieke, protestantse en socialistische zuilen."
+      ],
+      "solution": [
+        "De zuilen boden kiezers een eigen politieke thuisbasis.",
+        "De bisschoppen verboden in 1934 het NSB-lidmaatschap."
+      ],
+      "topics": [
+        "causation",
+        "contextualisation"
+      ],
+      "feedback": [
+        {
+          "answer": "Het ontbreken van elke economische crisis",
+          "message": "Nederland kende een zware crisis, met een hoogtepunt rond 1936."
+        },
+        {
+          "answer": "De nederlaag in de Eerste Wereldoorlog",
+          "message": "Nederland bleef neutraal; een nederlaag was er juist niet."
+        }
+      ]
+    },
+    {
+      "id": "19-023",
+      "type": "text",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom is voorzichtigheid geboden bij de verklaring dat de Nederlandse democratie standhield door onder meer de verzuiling? Gebruik het begrip 'verklaring achteraf'.",
+      "answer": "Achteraf lijkt de uitkomst onvermijdelijk, waardoor je factoren aanwijst die passen bij het resultaat. Je kunt niet controleren wat er zonder die factor zou zijn gebeurd, en andere landen met zuilen of een monarchie kregen wél een dictatuur. Daarom is het een plausibele maar geen bewezen verklaring.",
+      "hints": [
+        "Wat weet je pas achteraf?",
+        "Kun je het tegenovergestelde scenario toetsen?"
+      ],
+      "solution": [
+        "Wie de uitkomst kent, zoekt oorzaken die erbij passen.",
+        "Een vergelijking met andere landen helpt, maar bewijst het niet."
+      ],
+      "topics": [
+        "causation",
+        "historiography"
+      ]
+    },
+    {
+      "id": "19-024",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke regimes rekende Hannah Arendt in *The Origins of Totalitarianism* (1951) tot het totalitaire type?",
+      "choices": [
+        "Nazi-Duitsland en de Sovjet-Unie onder Stalin, maar niet het Italië van Mussolini",
+        "Alleen het Italië van Mussolini",
+        "Alle dictaturen van de twintigste eeuw zonder uitzondering",
+        "Alleen de Sovjet-Unie"
+      ],
+      "answer": "Nazi-Duitsland en de Sovjet-Unie onder Stalin, maar niet het Italië van Mussolini",
+      "hints": [
+        "Zij vond Italië geen volledig totalitair regime."
+      ],
+      "solution": [
+        "Arendt koos voor Duitsland en de Sovjet-Unie.",
+        "Italië noemde ze geen totalitair regime."
+      ],
+      "topics": [
+        "historiography"
+      ],
+      "feedback": [
+        {
+          "answer": "Alleen het Italië van Mussolini",
+          "message": "Italië viel juist buiten haar definitie, ook al ontstond het woord daar."
+        }
+      ]
+    },
+    {
+      "id": "19-025",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen en publicaties in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Toespraak van Willikens over 'de Führer tegemoet werken'",
+        "Arendt publiceert The Origins of Totalitarianism",
+        "Friedrich en Brzezinski publiceren hun model",
+        "Fitzpatrick publiceert Everyday Stalinism"
+      ],
+      "hints": [
+        "De toespraak is van 1934."
+      ],
+      "solution": [
+        "1934; 1951; 1956; 1999."
+      ],
+      "topics": [
+        "chronology",
+        "historiography"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Toespraak van Willikens over 'de Führer tegemoet werken'",
+            "Friedrich en Brzezinski publiceren hun model",
+            "Arendt publiceert The Origins of Totalitarianism",
+            "Fitzpatrick publiceert Everyday Stalinism"
+          ],
+          "message": "Arendt publiceerde in 1951, vijf jaar vóór het model van Friedrich en Brzezinski (1956)."
+        }
+      ]
+    },
+    {
+      "id": "19-026",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een partijaffiche uit 1932 toont een menigte moedeloze mensen onder de tekst 'Onze laatste hoop: Hitler'. Wat kun je met dit affiche *niet* vaststellen?",
+      "choices": [
+        "Hoeveel kiezers er daadwerkelijk door overtuigd raakten",
+        "Welk gevoel de maker wilde oproepen",
+        "Welke partij het affiche liet maken",
+        "In welk jaar het affiche verscheen"
+      ],
+      "answer": "Hoeveel kiezers er daadwerkelijk door overtuigd raakten",
+      "hints": [
+        "Een affiche toont de bedoeling, niet het effect."
+      ],
+      "solution": [
+        "Een propagandabron laat vooral zien wat de maker wil.",
+        "Het effect meet je met uitslagen of ander onderzoek."
+      ],
+      "topics": [
+        "sources",
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Welk gevoel de maker wilde oproepen",
+          "message": "Dat kun je juist wel uit het affiche afleiden."
+        }
+      ]
+    },
+    {
+      "id": "19-027",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom zijn de Sopade-berichten, verslagen over de stemming in Duitsland vanaf 1934, een bruikbare maar niet neutrale bron?",
+      "choices": [
+        "Ze zijn gemaakt door ballingen die tegenstander van het regime waren, en geven dus een gekleurd beeld",
+        "Ze zijn geschreven door het propagandaministerie",
+        "Ze zijn op bevel van Hitler opgesteld",
+        "Ze bevatten uitsluitend officiële cijfers"
+      ],
+      "answer": "Ze zijn gemaakt door ballingen die tegenstander van het regime waren, en geven dus een gekleurd beeld",
+      "hints": [
+        "Wie schreef ze, en met welk doel?"
+      ],
+      "solution": [
+        "De Sopade was de in ballingschap levende SPD.",
+        "Een bron van een tegenstander is bruikbaar naast bronnen van andere herkomst."
+      ],
+      "topics": [
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Ze zijn geschreven door het propagandaministerie",
+          "message": "Dat klopt niet: het waren verslagen van de SPD in ballingschap."
+        }
+      ]
+    },
+    {
+      "id": "19-028",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat bedoelt Ian Kershaw met *working towards the Führer*?",
+      "choices": [
+        "Dat functionarissen in het besef van Hitlers wensen handelden, zonder dat steeds een bevel nodig was",
+        "Dat Hitler elk besluit persoonlijk schriftelijk vastlegde",
+        "Dat het regime geen leider had",
+        "Dat alleen het leger Hitlers wil uitvoerde"
+      ],
+      "answer": "Dat functionarissen in het besef van Hitlers wensen handelden, zonder dat steeds een bevel nodig was",
+      "hints": [
+        "Het is een synthese tussen intentionalisme en functionalisme."
+      ],
+      "solution": [
+        "Kershaw baseerde dit op een toespraak van Willikens uit 1934.",
+        "De rol van Hitler blijft groot zonder één voorbedacht plan."
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat het regime geen leider had",
+          "message": "Kershaw benadrukt juist Hitlers centrale rol."
+        }
+      ]
+    },
+    {
+      "id": "19-029",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom bekritiseerden revisionisten zoals Sheila Fitzpatrick het totalitarisme-model voor de Sovjet-Unie?",
+      "choices": [
+        "Omdat het model de maatschappij en het dagelijks leven van gewone mensen buiten beeld liet",
+        "Omdat zij betwistten dat er in de Sovjet-Unie repressie was",
+        "Omdat zij vonden dat Stalin geen invloed had",
+        "Omdat de archieven na 1991 niet toegankelijk werden"
+      ],
+      "answer": "Omdat het model de maatschappij en het dagelijks leven van gewone mensen buiten beeld liet",
+      "hints": [
+        "Fitzpatrick onderzocht het dagelijks leven."
+      ],
+      "solution": [
+        "Revisionisten namen de maatschappij als vertrekpunt.",
+        "Ze ontkenden de repressie niet, maar wilden meer bekijken."
+      ],
+      "topics": [
+        "historiography",
+        "perspective"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat zij betwistten dat er in de Sovjet-Unie repressie was",
+          "message": "Dat deden zij niet; ze wilden ook kijken naar de maatschappij."
+        }
+      ]
+    },
+    {
+      "id": "19-030",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke vraag over een NSDAP-affiche uit 1932 kun je beantwoorden zonder een tweede bron?",
+      "choices": [
+        "Welke boodschap de maker wilde overbrengen",
+        "Hoeveel mensen er op de partij stemden vanwege het affiche",
+        "Hoe de gemiddelde Duitser over Hitler dacht",
+        "Hoeveel werklozen er waren"
+      ],
+      "answer": "Welke boodschap de maker wilde overbrengen",
+      "hints": [
+        "Een affiche toont de bedoeling van de maker."
+      ],
+      "solution": [
+        "De boodschap staat op het affiche.",
+        "Het effect en het publiek vergen andere bronnen."
+      ],
+      "topics": [
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Hoe de gemiddelde Duitser over Hitler dacht",
+          "message": "Dat kun je niet uit één propagandabron afleiden."
+        }
+      ]
+    },
+    {
+      "id": "19-031",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De NSDAP haalde in november 1932 33,1 procent van de stemmen en in maart 1933 43,9 procent. Hoeveel procentpunt steeg het aandeel?",
+      "answer": 10.8,
+      "hints": [
+        "Trek 33,1 af van 43,9."
+      ],
+      "solution": [
+        "$43{,}9 - 33{,}1 = 10{,}8$ procentpunt."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "unit": "procentpunt",
+      "feedback": [
+        {
+          "answer": 77,
+          "message": "Je hebt de getallen opgeteld; je zoekt het verschil."
+        }
+      ]
+    },
+    {
+      "id": "19-032",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Leg uit waarom je de verslagen van Gareth Jones en Walter Duranty over de hongersnood van 1933 niet als gelijkwaardig kunt behandelen. Gebruik herkomst, doel en controle met een tweede bron.",
+      "answer": "Jones baseerde zich op wat hij zelf zag; Duranty zat in Moskou, afhankelijk van de autoriteiten voor toegang tot het land. Het Sovjetregime had belang bij ontkenning. Controleer met demografische gegevens, partijbesluiten en getuigenissen, waaruit blijkt dat er een hongersnood was.",
+      "hints": [
+        "Wie had toegang tot het land en tot wie was hij afhankelijk?",
+        "Welke bronnen kunnen beide verslagen controleren?"
+      ],
+      "solution": [
+        "Herkomst: Jones reisde zelf, Duranty verbleef in Moskou en was afhankelijk van de autoriteiten.",
+        "Doel: het regime wilde de hongersnood ontkennen.",
+        "Controle: latere cijfers en archieven bevestigen een grote hongersnood."
+      ],
+      "topics": [
+        "source-criticism",
+        "sources"
+      ]
+    },
+    {
+      "id": "19-033",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Kies Duitsland, Italië of de Sovjet-Unie. Beschrijf in ongeveer zestig woorden drie stappen waarlangs een beweging of leider de macht verwierf of verstevigde, en zeg bij elke stap welk soort bron je zou gebruiken om dat te controleren.",
+      "answer": "Een voorbeeld voor Duitsland: de Rijksdagbrand en de noodverordening (controle met verordeningen en politiearchieven), de Machtigingswet (stemlijsten en het wetsartikel), de gelijkschakeling van vakbonden en partijen (wetsteksten en kranten van verschillend standpunt).",
+      "hints": [
+        "Kies drie stappen uit de les.",
+        "Noem per stap een bron en zeg waarom die betrouwbaar is."
+      ],
+      "solution": [
+        "Een goed antwoord noemt drie concrete stappen, bij elke stap een bron en een opmerking over de betrouwbaarheid."
+      ],
+      "topics": [
+        "causation",
+        "sources"
+      ]
+    }
+  ]
+}

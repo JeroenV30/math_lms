@@ -3,19 +3,165 @@
   "slug": "nationalisme-en-imperialisme",
   "title": "Nationalisme en imperialisme",
   "part": 6,
-  "status": "planned",
+  "status": "available",
   "historical_period": "Ca. 1815 – 1914",
-  "estimated_difficulty": 2,
-  "estimated_minutes": 180,
+  "estimated_difficulty": 3,
+  "estimated_minutes": 270,
   "prerequisites": [
     1
   ],
   "topics": [
     "modern",
     "perspective",
-    "sources"
+    "sources",
+    "causation",
+    "historiography",
+    "continuity-change"
   ],
   "core_question": "Hoe rechtvaardigden Europese staten hun koloniale expansie, en hoe werd dat ervaren?",
   "summary": "Natievorming, het moderne imperialisme in Afrika en Azië, en Nederlands-Indië vanuit koloniaal en Indonesisch perspectief.",
-  "lessons": []
+  "learning_goals": [
+    "Je kunt uitleggen hoe naties in de 19e eeuw tot stand kwamen en wat Anderson bedoelt met een verbeelde gemeenschap.",
+    "Je kunt motieven, middelen en rechtvaardigingen van het moderne imperialisme onderscheiden.",
+    "Je kunt de Berlijnse Conferentie, de Congo-Vrijstaat en Adwa beoordelen met bronnen en zonder te simplificeren.",
+    "Je kunt de belangrijkste stappen van Nederlands-Indië tussen 1825 en 1908 in volgorde zetten en verklaren.",
+    "Je kunt een koloniaal en een Indonesisch perspectief naast elkaar leggen en de herkomst van de bron meewegen.",
+    "Je kunt uitleggen wat de afschaffing van de slavernij in 1863 en het staatstoezicht betekenden.",
+    "Je kunt de verklaringen van Hobson, Robinson en Gallagher, Said en Wesseling vergelijken."
+  ],
+  "glossary": [
+    {
+      "term": "Nationalisme",
+      "definition": "De overtuiging dat een volk of natie recht heeft op een eigen staat en dat de eigen natie voorop staat."
+    },
+    {
+      "term": "Verbeelde gemeenschap",
+      "definition": "Andersons term voor een natie: mensen die elkaar nooit ontmoeten, maar zich toch tot dezelfde gemeenschap rekenen."
+    },
+    {
+      "term": "Imperialisme",
+      "definition": "Het streven van een staat om zijn gezag of invloed over andere gebieden uit te breiden, ook zonder formeel bestuur."
+    },
+    {
+      "term": "Kolonialisme",
+      "definition": "Het vestigen en besturen van een gebied door een vreemde staat, met kolonisten of ambtenaren."
+    },
+    {
+      "term": "Beschavingsmissie",
+      "definition": "De gedachte dat Europeanen een plicht hadden andere volken te \"verheffen\"; een rechtvaardiging van expansie."
+    },
+    {
+      "term": "Effectieve bezetting",
+      "definition": "Beginsel uit de Berlijnse Slotakte: een claim op een kust telde pas als de staat het gebied ook werkelijk bezette."
+    },
+    {
+      "term": "Cultuurstelsel",
+      "definition": "Stelsel (1830-1870) waarin Javaanse dorpen exportgewassen moesten telen voor de koloniale overheid."
+    },
+    {
+      "term": "Batig slot",
+      "definition": "Het overschot dat de koloniale begroting jaarlijks aan de Nederlandse schatkist afdroeg."
+    },
+    {
+      "term": "Ethische Politiek",
+      "definition": "Koloniaal beleid vanaf 1901 dat een morele plicht jegens de bevolking van Indië erkende, met onderwijs en irrigatie."
+    },
+    {
+      "term": "Staatstoezicht",
+      "definition": "De periode 1863-1873 waarin voormalig tot slaaf gemaakten in Suriname verplicht jaarlijks arbeidscontracten sloten."
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een tafel in de Wilhelmstrasse",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "natie-en-nationalisme",
+      "title": "Natie en nationalisme",
+      "file": "02-natie-en-nationalisme.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "modern-imperialisme",
+      "title": "Het moderne imperialisme",
+      "file": "03-modern-imperialisme.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "nederlands-indie",
+      "title": "Nederlands-Indië",
+      "file": "04-nederlands-indie.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "verzet-en-emancipatie",
+      "title": "Verzet, emancipatie en slavernij",
+      "file": "05-verzet-en-emancipatie.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "historici-in-debat",
+      "title": "Historici in debat",
+      "file": "06-historici-in-debat.md",
+      "kind": "history"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum: drie bronnen, één vraag",
+      "file": "07-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "08-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "timeline": [
+    "congres-van-wenen-1815",
+    "grondwet-thorbecke-1848",
+    "italie-eenheid-1861",
+    "duits-keizerrijk-1871",
+    "eerste-opiumoorlog-1839",
+    "opstand-india-1857",
+    "java-oorlog-1825",
+    "cultuurstelsel-1830",
+    "max-havelaar-1860",
+    "afschaffing-slavernij-1863",
+    "atjeh-oorlog-1873",
+    "berlijnse-conferentie-1884",
+    "adwa-1896",
+    "benin-expeditie-1897",
+    "ethische-politiek-1901",
+    "hobson-imperialism-1902",
+    "casement-rapport-1904",
+    "boedi-oetomo-1908",
+    "robinson-gallagher-1953",
+    "said-orientalism-1978",
+    "anderson-imagined-communities-1983",
+    "wesseling-verdeel-en-heers-1991",
+    "excuses-slavernijverleden-2022"
+  ],
+  "people": [
+    "thorbecke",
+    "bismarck",
+    "leopold-ii",
+    "roger-casement",
+    "menelik-ii",
+    "diponegoro",
+    "multatuli",
+    "kartini",
+    "van-heutsz",
+    "c-th-van-deventer",
+    "hobson",
+    "lenin",
+    "robinson-en-gallagher",
+    "edward-said",
+    "benedict-anderson",
+    "henk-wesseling"
+  ]
 }

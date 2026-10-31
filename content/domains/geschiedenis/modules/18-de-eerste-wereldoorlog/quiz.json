@@ -1,0 +1,476 @@
+{
+  "title": "Hoofdstuktoets – De Eerste Wereldoorlog",
+  "intro": "15 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "18-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat is in een oorzakenredenering een 'aanleiding'?",
+      "choices": [
+        "Het gevolg van een oorlog",
+        "Een structurele ontwikkeling die al tientallen jaren duurt",
+        "Het oordeel van historici achteraf",
+        "De gebeurtenis die een bestaande crisis of spanning direct in gang zet"
+      ],
+      "answer": "De gebeurtenis die een bestaande crisis of spanning direct in gang zet",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: De gebeurtenis die een bestaande crisis of spanning direct in gang zet"
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Een structurele ontwikkeling die al tientallen jaren duurt",
+          "message": "Dat is een langetermijnoorzaak, geen aanleiding."
+        },
+        {
+          "answer": "Het gevolg van een oorlog",
+          "message": "Een aanleiding gaat vooraf aan de oorlog, het is geen gevolg."
+        }
+      ]
+    },
+    {
+      "id": "18-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Welke twee mogendheden sloten in de jaren 1892 tot 1894 een militaire alliantie?",
+      "choices": [
+        "Frankrijk en Italië",
+        "Groot-Brittannië en Duitsland",
+        "Duitsland en Rusland",
+        "Frankrijk en Rusland"
+      ],
+      "answer": "Frankrijk en Rusland",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Frankrijk en Rusland"
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": "Duitsland en Rusland",
+          "message": "Duitsland liet in 1890 het verdrag met Rusland verlopen, wat Frankrijk de kans gaf."
+        },
+        {
+          "answer": "Groot-Brittannië en Duitsland",
+          "message": "Die twee kwamen in de vlootwedloop tegenover elkaar te staan."
+        }
+      ]
+    },
+    {
+      "id": "18-T03",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen uit de zomer van 1914 in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Moord op Frans Ferdinand in Sarajevo",
+        "Oostenrijks ultimatum aan Servië",
+        "Algemene mobilisatie in Rusland",
+        "Duitse oorlogsverklaring aan Rusland",
+        "Duitse inval in België"
+      ],
+      "hints": [],
+      "solution": [
+        "De juiste volgorde is: Moord op Frans Ferdinand in Sarajevo; Oostenrijks ultimatum aan Servië; Algemene mobilisatie in Rusland; Duitse oorlogsverklaring aan Rusland; Duitse inval in België."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Moord op Frans Ferdinand in Sarajevo",
+            "Oostenrijks ultimatum aan Servië",
+            "Duitse oorlogsverklaring aan Rusland",
+            "Algemene mobilisatie in Rusland",
+            "Duitse inval in België"
+          ],
+          "message": "Eerst mobiliseerde Rusland (30 juli), daarna verklaarde Duitsland de oorlog (1 augustus)."
+        }
+      ]
+    },
+    {
+      "id": "18-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat kun je uit dit fragment het best afleiden?",
+      "context": "Nicolaas II aan Wilhelm II, 29 juli 1914: \"It would be right to give over the Austro-servian [sic] problem to the Hague conference.\" (uit het Duitse Witboek, zoals weergegeven op Wikipedia)",
+      "choices": [
+        "Dat de tsaar op dat moment een vreedzame oplossing voorstelde, maar niet of zijn regering ook zo handelde",
+        "Dat Duitsland de oorlog wilde",
+        "Dat Rusland zeker niet zou mobiliseren",
+        "Dat het telegram vervalst is"
+      ],
+      "answer": "Dat de tsaar op dat moment een vreedzame oplossing voorstelde, maar niet of zijn regering ook zo handelde",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Dat de tsaar op dat moment een vreedzame oplossing voorstelde, maar niet of zijn regering ook zo handelde"
+      ],
+      "topics": [
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat Rusland zeker niet zou mobiliseren",
+          "message": "Een persoonlijk voorstel zegt niets over de besluiten van de regering; Rusland begon op 29 juli al met een gedeeltelijke mobilisatie."
+        },
+        {
+          "answer": "Dat Duitsland de oorlog wilde",
+          "message": "Dat staat niet in het fragment."
+        }
+      ]
+    },
+    {
+      "id": "18-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat werd bedoeld met de 'blanco cheque' van juli 1914?",
+      "choices": [
+        "De Duitse toezegging aan Oostenrijk-Hongarije om het te steunen in zijn optreden tegen Servië, ook bij een grotere oorlog",
+        "Een Servische belofte om zich aan het ultimatum te houden",
+        "Een Frans geldbedrag voor Rusland",
+        "Een Brits aanbod om te bemiddelen"
+      ],
+      "answer": "De Duitse toezegging aan Oostenrijk-Hongarije om het te steunen in zijn optreden tegen Servië, ook bij een grotere oorlog",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: De Duitse toezegging aan Oostenrijk-Hongarije om het te steunen in zijn optreden tegen Servië, ook bij een grotere oorlog"
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Een Frans geldbedrag voor Rusland",
+          "message": "De 'cheque' is beeldspraak voor een politieke toezegging, geen geld."
+        },
+        {
+          "answer": "Een Brits aanbod om te bemiddelen",
+          "message": "Het ging om Duitsland en Oostenrijk-Hongarije."
+        }
+      ]
+    },
+    {
+      "id": "18-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat was het gevolg van het Schlieffenplan voor de Duitse houding in de julicrisis?",
+      "choices": [
+        "Duitsland moest snel handelen tegen Frankrijk en deed dat via België, waardoor tijd en diplomatie onder druk kwamen",
+        "Duitsland kon rustig wachten, want het plan gaf veel tijd",
+        "Duitsland had geen plan voor het westen",
+        "Het plan voorzag in een aanval op Nederland"
+      ],
+      "answer": "Duitsland moest snel handelen tegen Frankrijk en deed dat via België, waardoor tijd en diplomatie onder druk kwamen",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Duitsland moest snel handelen tegen Frankrijk en deed dat via België, waardoor tijd en diplomatie onder druk kwamen"
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Duitsland kon rustig wachten, want het plan gaf veel tijd",
+          "message": "Het plan veronderstelde juist snelheid."
+        },
+        {
+          "answer": "Het plan voorzag in een aanval op Nederland",
+          "message": "Het plan liep via België, niet via Nederland."
+        }
+      ]
+    },
+    {
+      "id": "18-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welk soort bron is dit fragment, en wat betekent dat voor het gebruik ervan?",
+      "context": "Een historica schrijft dat artikel 231 van het Verdrag van Versailles \"was designed to lay a legal basis for reparations\" en \"in fact makes no mention of war guilt\".",
+      "choices": [
+        "Een secundaire bron: een interpretatie van latere datum, bruikbaar als argument maar geen getuigenis uit 1919",
+        "Een verdragstekst",
+        "Een primaire bron: bewijs van wat Duitsers in 1919 dachten",
+        "Een propagandabron van de geallieerden"
+      ],
+      "answer": "Een secundaire bron: een interpretatie van latere datum, bruikbaar als argument maar geen getuigenis uit 1919",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Een secundaire bron: een interpretatie van latere datum, bruikbaar als argument maar geen getuigenis uit 1919"
+      ],
+      "topics": [
+        "source-criticism"
+      ],
+      "feedback": [
+        {
+          "answer": "Een primaire bron: bewijs van wat Duitsers in 1919 dachten",
+          "message": "Het fragment is van een historica die later schreef."
+        },
+        {
+          "answer": "Een verdragstekst",
+          "message": "De verdragstekst zelf is het artikel; dit is commentaar erop."
+        }
+      ]
+    },
+    {
+      "id": "18-T08",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De moord in Sarajevo vond plaats op 28 juni 1914 en de oorlogsverklaring van Oostenrijk-Hongarije aan Servië op 28 juli 1914. Hoeveel dagen zitten daartussen?",
+      "answer": 30,
+      "unit": "dagen",
+      "hints": [],
+      "solution": [
+        "Juni heeft 30 dagen: van 28 juni tot 28 juli is een volle maand.",
+        "$30$ dagen."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": 31,
+          "message": "Juni heeft 30 dagen, niet 31."
+        }
+      ]
+    },
+    {
+      "id": "18-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat voor soort oorzaak is dit in een redenering over de oorlog van 1914?",
+      "context": "In 1911 stuurde Duitsland de kanonneerboot Panther naar Agadir in Marokko, wat een diplomatieke crisis met Frankrijk en Groot-Brittannië veroorzaakte.",
+      "choices": [
+        "Een gevolg van de oorlog",
+        "Een aanleiding: de gebeurtenis die de oorlog in gang zette",
+        "Een bijzaak zonder invloed",
+        "Een langetermijnoorzaak (structuur): de koloniale rivaliteit werkte door in de verhoudingen tussen mogendheden"
+      ],
+      "answer": "Een langetermijnoorzaak (structuur): de koloniale rivaliteit werkte door in de verhoudingen tussen mogendheden",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Een langetermijnoorzaak (structuur): de koloniale rivaliteit werkte door in de verhoudingen tussen mogendheden"
+      ],
+      "topics": [
+        "causation"
+      ],
+      "feedback": [
+        {
+          "answer": "Een aanleiding: de gebeurtenis die de oorlog in gang zette",
+          "message": "De crisis van 1911 lag drie jaar voor de oorlog en zette de oorlog niet direct in gang."
+        },
+        {
+          "answer": "Een gevolg van de oorlog",
+          "message": "De crisis ging vooraf aan de oorlog."
+        }
+      ]
+    },
+    {
+      "id": "18-T10",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen uit de oorlog in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Slag bij de Marne (september 1914)",
+        "Eerste grote gasaanval bij Ieper (april 1915)",
+        "Begin van de slag bij Verdun (februari 1916)",
+        "Amerikaanse oorlogsverklaring aan Duitsland (april 1917)",
+        "Wapenstilstand (november 1918)"
+      ],
+      "hints": [],
+      "solution": [
+        "De juiste volgorde is: Slag bij de Marne (september 1914); Eerste grote gasaanval bij Ieper (april 1915); Begin van de slag bij Verdun (februari 1916); Amerikaanse oorlogsverklaring aan Duitsland (april 1917); Wapenstilstand (november 1918)."
+      ],
+      "topics": [
+        "chronology"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Slag bij de Marne (september 1914)",
+            "Begin van de slag bij Verdun (februari 1916)",
+            "Eerste grote gasaanval bij Ieper (april 1915)",
+            "Amerikaanse oorlogsverklaring aan Duitsland (april 1917)",
+            "Wapenstilstand (november 1918)"
+          ],
+          "message": "De gasaanval bij Ieper (april 1915) kwam voor Verdun (februari 1916)."
+        }
+      ]
+    },
+    {
+      "id": "18-T11",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke bewering volgt rechtstreeks uit deze tekst?",
+      "context": "\"The Allied and Associated Governments affirm and Germany accepts the responsibility of Germany and her allies for causing all the loss and damage [...] as a consequence of the war imposed upon them by the aggression of Germany and her allies.\" (Verdrag van Versailles, artikel 231)",
+      "choices": [
+        "Alle landen zijn in gelijke mate verantwoordelijk",
+        "Duitsland mag niet meer over een leger beschikken",
+        "Duitsland en zijn bondgenoten worden verantwoordelijk gehouden voor verlies en schade; het woord 'schuld' komt niet voor",
+        "Duitsland moet alle oorlogskosten betalen, ook militaire"
+      ],
+      "answer": "Duitsland en zijn bondgenoten worden verantwoordelijk gehouden voor verlies en schade; het woord 'schuld' komt niet voor",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Duitsland en zijn bondgenoten worden verantwoordelijk gehouden voor verlies en schade; het woord 'schuld' komt niet voor"
+      ],
+      "topics": [
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "Duitsland moet alle oorlogskosten betalen, ook militaire",
+          "message": "De tekst spreekt over verlies en schade, niet over alle kosten."
+        },
+        {
+          "answer": "Duitsland mag niet meer over een leger beschikken",
+          "message": "Dat staat in andere bepalingen van het verdrag."
+        }
+      ]
+    },
+    {
+      "id": "18-T12",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke formulering over Nederland in de Eerste Wereldoorlog is het best onderbouwd?",
+      "choices": [
+        "Nederland ondervond geen gevolgen van de oorlog",
+        "Nederland nam in 1918 deel aan de laatste gevechten",
+        "Nederland had geen vluchtelingen omdat de grenzen gesloten waren",
+        "Nederland bleef formeel neutraal, mobiliseerde, nam Belgische vluchtelingen op en kende schaarste en distributie"
+      ],
+      "answer": "Nederland bleef formeel neutraal, mobiliseerde, nam Belgische vluchtelingen op en kende schaarste en distributie",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Nederland bleef formeel neutraal, mobiliseerde, nam Belgische vluchtelingen op en kende schaarste en distributie"
+      ],
+      "topics": [
+        "contextualisation",
+        "twentieth-century"
+      ],
+      "feedback": [
+        {
+          "answer": "Nederland nam in 1918 deel aan de laatste gevechten",
+          "message": "Nederland deed niet mee aan de gevechten."
+        },
+        {
+          "answer": "Nederland had geen vluchtelingen omdat de grenzen gesloten waren",
+          "message": "Naar schatting een miljoen Belgen trok in 1914 het land in; de meesten keerden terug."
+        }
+      ]
+    },
+    {
+      "id": "18-T13",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Welke vraag stelt historicus B vooral?",
+      "context": "Twee samengevatte standpunten. Historicus A: 'Duitsland nam in juli 1914 bewust het risico op een grote oorlog.' Historicus B: 'Beslissers in alle hoofdsteden schatten de gevolgen van hun besluiten verkeerd in.'",
+      "choices": [
+        "Hoeveel soldaten stierven er?",
+        "Wie droeg de schuld van de oorlog?",
+        "Wat waren de oorlogsdoelen van Duitsland in 1914?",
+        "Hoe kon het misgaan, doordat beslissers elkaars bedoelingen verkeerd inschatten?"
+      ],
+      "answer": "Hoe kon het misgaan, doordat beslissers elkaars bedoelingen verkeerd inschatten?",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Hoe kon het misgaan, doordat beslissers elkaars bedoelingen verkeerd inschatten?"
+      ],
+      "topics": [
+        "historiography",
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Wie droeg de schuld van de oorlog?",
+          "message": "Historicus A zoekt vooral naar bewuste keuzes; B naar het proces van misrekening."
+        },
+        {
+          "answer": "Wat waren de oorlogsdoelen van Duitsland in 1914?",
+          "message": "Dat is een vraag van een andere aard dan B stelt."
+        }
+      ]
+    },
+    {
+      "id": "18-T14",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat is het kernargument van de 'revisionisten' over de Britse legerleiding?",
+      "choices": [
+        "Dat de generaals in vier jaar moesten leren oorlog te voeren met nieuwe wapens en dat die leercurve leidde tot de successen van 1918",
+        "Dat de generaals geen fouten maakten",
+        "Dat de generaals de wapenstilstand voorkwamen",
+        "Dat de generaals de oorlog wilden verlengen"
+      ],
+      "answer": "Dat de generaals in vier jaar moesten leren oorlog te voeren met nieuwe wapens en dat die leercurve leidde tot de successen van 1918",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Dat de generaals in vier jaar moesten leren oorlog te voeren met nieuwe wapens en dat die leercurve leidde tot de successen van 1918"
+      ],
+      "topics": [
+        "historiography"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat de generaals geen fouten maakten",
+          "message": "Revisionisten ontkennen fouten niet; ze benadrukken een leerproces."
+        },
+        {
+          "answer": "Dat de generaals de oorlog wilden verlengen",
+          "message": "Dat is geen standpunt van de revisionisten."
+        }
+      ]
+    },
+    {
+      "id": "18-T15",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat is het zwakste punt van deze bewering?",
+      "context": "Een leerling schrijft: 'De Eerste Wereldoorlog was het gevolg van de allianties.'",
+      "choices": [
+        "Ze gebruikt het woord 'allianties'",
+        "Ze noemt de oorlog een oorlog",
+        "Ze is te lang",
+        "Ze is monocausaal: allianties vergrootten de kans op uitbreiding maar verklaren niet waarom de crisis ontstond of waarom partijen zo besloten"
+      ],
+      "answer": "Ze is monocausaal: allianties vergrootten de kans op uitbreiding maar verklaren niet waarom de crisis ontstond of waarom partijen zo besloten",
+      "hints": [],
+      "solution": [
+        "Het juiste antwoord is: Ze is monocausaal: allianties vergrootten de kans op uitbreiding maar verklaren niet waarom de crisis ontstond of waarom partijen zo besloten"
+      ],
+      "topics": [
+        "causation",
+        "interpretation"
+      ],
+      "feedback": [
+        {
+          "answer": "Ze gebruikt het woord 'allianties'",
+          "message": "Het woord is niet het probleem; de redenering is te eenzijdig."
+        },
+        {
+          "answer": "Ze noemt de oorlog een oorlog",
+          "message": "Dat is geen kritiekpunt."
+        }
+      ]
+    }
+  ]
+}
