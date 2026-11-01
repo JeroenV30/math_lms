@@ -74,7 +74,7 @@ class DomainTest extends TestCase
         $this->get('/')
             ->assertOk()
             ->assertDontSee('href="'.route('practice.index').'"', false)
-            ->assertSee('href="'.route('domains.index').'" class="flex shrink-0 items-center gap-2.5"', false);
+            ->assertSee('href="'.route('home').'" class="flex shrink-0 items-center gap-2.5"', false);
     }
 
     public function test_theme_is_set_before_render_and_can_be_switched(): void
@@ -91,11 +91,47 @@ class DomainTest extends TestCase
     {
         $this->useFixtureContent();
 
-        $this->get('/')
+        $this->get('/kaart')
             ->assertOk()
             ->assertSee('Kaart van menselijke kennis')
             ->assertSee('in voorbereiding')
-            ->assertSee('beschikbaar');
+            ->assertSee('beschikbaar')
+            // De kaart toont alleen kennisdomeinen; toepassingen staan op hun eigen pagina (wel in de zijbalk).
+            ->assertDontSee('De regeling voor speur- en ontwikkelingswerk.');
+    }
+
+    public function test_applications_are_listed_per_group(): void
+    {
+        $this->useFixtureContent();
+
+        $this->get('/toepassingen')
+            ->assertOk()
+            ->assertSeeInOrder(['Kruimelpad', 'Start', 'Toepassingen', 'SubCode', 'WBSO', 'Persoonlijk', 'Beleggen'], false)
+            ->assertDontSee('De testcursus.');
+
+        // De zijbalk zet de toepassingen per groep onder de kennisdomeinen.
+        $this->get('/kennis/wiskunde')
+            ->assertOk()
+            ->assertSeeInOrder(['aria-label="Domeinen"', 'Wiskunde', 'Biologie', 'SubCode', 'WBSO', 'Persoonlijk', 'Beleggen'], false);
+    }
+
+    public function test_personal_group_can_be_hidden(): void
+    {
+        $this->useFixtureContent();
+
+        $this->get('/instellingen')->assertOk()->assertSee('Persoonlijke toepassingen tonen');
+        $this->post('/instellingen', ['name' => 'Jeroen', 'show_personal' => '0'])->assertRedirect('/instellingen');
+
+        $this->get('/toepassingen')->assertOk()->assertSee('WBSO')->assertDontSee('Beleggen');
+        $this->get('/')->assertOk()->assertSee('1 toepassing')->assertDontSee('Beleggen');
+        $this->get('/kennis/wiskunde')->assertOk()->assertDontSee('Beleggen');
+
+        // Een directe link blijft werken, en de naam blijft bewaard.
+        $this->get('/kennis/beleggen')->assertOk()->assertSee('Waarom beleggen');
+        $this->assertSame('Jeroen', \App\Models\UserSetting::get('name'));
+
+        $this->post('/instellingen', ['name' => 'Jeroen', 'show_personal' => '1']);
+        $this->get('/toepassingen')->assertOk()->assertSee('Beleggen');
     }
 
     public function test_planned_domain_shows_its_planned_structure(): void
@@ -120,7 +156,7 @@ class DomainTest extends TestCase
 
         // Kaart en zijbalk gebruiken hetzelfde label; elk domein heeft inmiddels een cursus met moduleplan,
         // dus de zijbalk toont hoeveel modules klaar zijn.
-        $page = $this->get('/')->assertOk()->assertSee('>in opbouw</span>', false)->assertDontSee('in voorbereiding');
+        $page = $this->get('/kaart')->assertOk()->assertSee('>in opbouw</span>', false)->assertDontSee('in voorbereiding');
         $this->assertMatchesRegularExpression('/1 van \d+ modules/', $page->getContent());
     }
 
@@ -140,7 +176,12 @@ class DomainTest extends TestCase
         $this->get('/instellingen')
             ->assertOk()
             ->assertDontSee('aria-label="Menu Wiskunde"', false)
-            ->assertSeeInOrder(['Kruimelpad', 'Kaart van kennis', 'Instellingen'], false);
+            ->assertSeeInOrder(['Kruimelpad', 'Start', 'Instellingen'], false);
+
+        // Een toepassing begint bij de toepassingen, niet bij de kaart van kennis.
+        $this->get('/kennis/wbso')
+            ->assertOk()
+            ->assertSeeInOrder(['Kruimelpad', 'href="'.route('applications.index').'"', 'Toepassingen', '<h1'], false);
     }
 
     public function test_old_starter_lesson_address_needs_a_course(): void
@@ -162,11 +203,18 @@ class DomainTest extends TestCase
         $this->get('/kennis/biologie/cursus')->assertNotFound();
     }
 
-    public function test_map_is_the_start_page_and_old_addresses_redirect(): void
+    public function test_start_page_offers_both_entrances_and_old_addresses_redirect(): void
     {
         $this->useFixtureContent();
 
-        $this->get('/')->assertOk()->assertSee('Kaart van menselijke kennis');
+        $this->get('/')
+            ->assertOk()
+            ->assertSee('Wat wil je leren?')
+            ->assertSee('href="'.route('domains.index').'"', false)
+            ->assertSee('href="'.route('applications.index').'"', false)
+            ->assertSee('Kennis door de Eeuwen')
+            ->assertSee('3 domeinen, waarvan 2 met lessen')
+            ->assertSee('2 toepassingen');
 
         foreach ([
             '/kennis' => '/',
@@ -303,7 +351,7 @@ class DomainTest extends TestCase
     {
         $domains = app(DomainService::class)->all();
 
-        $this->assertCount(10, $domains);
+        $this->assertCount(14, $domains);
         $this->assertSame('wiskunde', $domains->first()['id']);
 
         foreach ($domains as $domain) {
@@ -317,8 +365,13 @@ class DomainTest extends TestCase
     public function test_every_real_domain_has_a_course_with_a_first_lesson(): void
     {
         $courses = app(CourseRegistry::class);
+        $domains = app(DomainService::class);
 
-        foreach (app(DomainService::class)->all() as $domain) {
+        foreach ($domains->all() as $domain) {
+            // Elk kennisdomein heeft een cursus; een toepassing pas zodra haar eerste module er is.
+            if ($domains->sectionOf($domain) !== 'kennis' && (! $courses->has($domain['id']) || $courses->for($domain['id'])->availableModules()->isEmpty())) {
+                continue;
+            }
             $this->assertTrue($courses->has($domain['id']), "{$domain['id']} heeft geen cursus.");
 
             $module = $courses->for($domain['id'])->getModule(1);

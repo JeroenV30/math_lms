@@ -2,6 +2,12 @@
 
 Leeromgeving met kennisdomeinen (`content/domains.json`); uitgewerkt is alleen het domein Wiskunde, de cursus *Rekenen & Wiskunde*.
 
+De startpagina (`/`) biedt twee ingangen, de secties in `domains.json`: de kaart van kennis (`/kaart`, sectie `kennis`)
+en de toepassingen (`/toepassingen`): korte praktische cursussen in de groepen SubCode (Economie, Bedrijven, WBSO)
+en Persoonlijk (Beleggen; te verbergen in de instellingen). Een toepassing is technisch een gewoon domein
+(`section`/`group` in domains.json, cursus in `content/domains/<id>/`, pagina's onder `/kennis/<id>`).
+Contentagents voor een toepassing krijgen ook `docs/domains/toepassingen.md` (kortere modules, peiljaar bij bedragen).
+
 Laravel 13 (PHP 8.4+) + SQLite + Blade/Alpine/Tailwind 4/KaTeX. Lokale leeromgeving volgens `build_plan.docx`.
 
 Dit bestand is de enige bron met projectinstructies; `CLAUDE.md` importeert het. Pas dus alleen `AGENTS.md` aan.

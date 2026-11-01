@@ -1,11 +1,20 @@
 {
   "app": { "name": "Testomgeving", "tagline": "Ontdekken · Begrijpen" },
-  "title": "Kaart van menselijke kennis",
-  "subtitle": "Testdomeinen",
-  "intro": "Drie domeinen voor de tests.",
+  "home": { "eyebrow": "Leeromgeving", "title": "Wat wil je leren?", "intro": "Kies een ingang." },
+  "sections": [
+    { "id": "kennis", "name": "Kennis door de Eeuwen", "crumb": "Kaart van kennis", "label": "Kennisdomeinen", "nouns": ["domein", "domeinen"], "eyebrow": "Testdomeinen", "title": "Kaart van menselijke kennis", "intro": "Drie domeinen voor de tests." },
+    { "id": "toepassingen", "name": "Toepassingen", "crumb": "Toepassingen", "label": "Toepassingen", "nouns": ["toepassing", "toepassingen"], "eyebrow": "Praktisch", "title": "Toepassingen", "intro": "Twee toepassingen voor de tests.",
+      "groups": [
+        { "id": "subcode", "name": "SubCode", "intro": "Regelingen en ondernemen." },
+        { "id": "persoonlijk", "name": "Persoonlijk", "intro": "Eigen leerlijnen.", "hideable": true }
+      ]
+    }
+  ],
   "domains": [
     { "id": "wiskunde", "name": "Wiskunde", "tagline": ["Getallen", "Structuren", "Logica"], "monogram": "π", "color": "#3b5bdb", "status": "available", "description": "De testcursus.", "planned_parts": [] },
     { "id": "geschiedenis", "name": "Geschiedenis", "tagline": ["Mensen", "Gebeurtenissen", "Verandering"], "monogram": "Ge", "color": "#9c6b30", "status": "available", "description": "De tweede testcursus.", "planned_parts": [] },
-    { "id": "biologie", "name": "Biologie", "tagline": ["Leven", "Organismen", "Ecosystemen"], "monogram": "Bi", "color": "#2f9e44", "status": "planned", "description": "Wat is leven?", "planned_parts": ["De cel", "Evolutie"] }
+    { "id": "biologie", "name": "Biologie", "tagline": ["Leven", "Organismen", "Ecosystemen"], "monogram": "Bi", "color": "#2f9e44", "status": "planned", "description": "Wat is leven?", "planned_parts": ["De cel", "Evolutie"] },
+    { "id": "wbso", "name": "WBSO", "section": "toepassingen", "group": "subcode", "tagline": ["Speur- en ontwikkelingswerk", "Aanvragen"], "monogram": "Wb", "color": "#d9480f", "status": "planned", "description": "De regeling voor speur- en ontwikkelingswerk.", "planned_parts": ["Wat de WBSO is"] },
+    { "id": "beleggen", "name": "Beleggen", "section": "toepassingen", "group": "persoonlijk", "tagline": ["Rendement", "Risico"], "monogram": "Be", "color": "#2b8a3e", "status": "planned", "description": "Waarom en hoe je belegt.", "planned_parts": ["Waarom beleggen"] }
   ]
 }

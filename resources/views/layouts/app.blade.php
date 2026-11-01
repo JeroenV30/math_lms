@@ -24,7 +24,7 @@
     @php
         // Welk kennisdomein is actief? Zie DomainService::activeId().
         $activeDomain = app(\App\Services\DomainService::class)->activeId();
-        $currentDomain = $activeDomain ? $knowledgeDomains->firstWhere('id', $activeDomain) : null;
+        $currentDomain = app(\App\Services\DomainService::class)->active();
 
         // Menu van het domein: een domein met een cursus krijgt de cursusonderdelen die de cursus heeft;
         // een domein in voorbereiding alleen de algemene onderdelen.
@@ -49,7 +49,9 @@
             ];
         }
         $general = [
+            ['route' => 'home', 'label' => 'Start'],
             ['route' => 'domains.index', 'label' => 'Kaart van kennis'],
+            ['route' => 'applications.index', 'label' => 'Toepassingen'],
             ['route' => 'history.all', 'label' => 'Tijdlijn van alle domeinen'],
             ['route' => 'settings.edit', 'label' => 'Instellingen'],
         ];
@@ -58,7 +60,7 @@
 
     <header class="sticky top-0 z-40 border-b border-line bg-paper/95 backdrop-blur" x-data="{ open: false }">
         <div class="flex h-16 w-full items-center gap-3 px-4 lg:px-5">
-            <a href="{{ route('domains.index') }}" class="flex shrink-0 items-center gap-2.5" title="{{ $site['name'] }}: kaart van kennis">
+            <a href="{{ route('home') }}" class="flex shrink-0 items-center gap-2.5" title="{{ $site['name'] }}: start">
                 <span class="flex h-8 w-8 items-center justify-center rounded-md bg-ink text-paper" aria-hidden="true">
                     <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10" cy="10" r="2.5"/><circle cx="10" cy="3" r="1.2"/><circle cx="16" cy="13.5" r="1.2"/><circle cx="4" cy="13.5" r="1.2"/><path d="M10 5.5v2M14.9 12.6l-2.7-1.4M5.1 12.6l2.7-1.4"/></svg>
                 </span>
@@ -184,7 +186,7 @@
                         </a>
                     @endforeach
                 @endif
-                <p class="eyebrow mt-4 px-3">Kennisdomeinen</p>
+                <p class="eyebrow mt-4 px-3">Domeinen en toepassingen</p>
                 <div class="grid grid-cols-2 gap-1">
                     @foreach ($knowledgeDomains as $item)
                         <a href="{{ route('domains.show', $item['id']) }}" class="flex items-center gap-2 rounded-md px-3 py-2 text-sm text-ink-soft hover:bg-mist">

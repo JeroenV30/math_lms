@@ -16,8 +16,11 @@ use App\Http\Middleware\ResolveDomain;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-// De kaart van menselijke kennis is de startpagina; elk domein heeft zijn eigen pagina's onder /kennis/{domein}.
-Route::get('/', [DomainController::class, 'index'])->name('domains.index');
+// De startpagina biedt twee ingangen: de kaart van kennis en de toepassingen (SubCode, Persoonlijk).
+// Elk domein, kennisdomein of toepassing, heeft zijn eigen pagina's onder /kennis/{domein}.
+Route::get('/', [DomainController::class, 'home'])->name('home');
+Route::get('/kaart', [DomainController::class, 'index'])->name('domains.index');
+Route::get('/toepassingen', [DomainController::class, 'applications'])->name('applications.index');
 Route::get('/zoeken', [LibraryController::class, 'searchAll'])->name('search.all');
 Route::get('/tijdlijn', [HistoryController::class, 'all'])->name('history.all');
 

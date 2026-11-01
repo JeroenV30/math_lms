@@ -48,10 +48,12 @@ class LibraryController extends Controller
     public function searchAll(Request $request, SearchService $search, DomainService $domains): View
     {
         $query = trim((string) $request->query('q', ''));
+        $visible = $domains->visible()->pluck('id')->all();
 
         return view('library.search', [
             'query' => $query,
-            'results' => $search->searchAll($query),
+            // Een verborgen groep (Persoonlijk) doet niet mee.
+            'results' => $search->searchAll($query)->filter(fn (array $result) => in_array($result['domain'], $visible, true))->values(),
             'page' => ['eyebrow' => 'Bibliotheek', 'title' => 'Zoeken in alle domeinen', 'placeholder' => 'Zoek in lessen, begrippen en personen van elk domein…'],
             'action' => route('search.all'),
             'domains' => $domains->all()->keyBy('id'),

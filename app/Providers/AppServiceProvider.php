@@ -32,7 +32,8 @@ class AppServiceProvider extends ServiceProvider
         View::composer('layouts.app', function ($view) {
             $view->with('site', app(DomainService::class)->app());
             $view->with('reviewCount', app(CourseRegistry::class)->currentId() ? app(ReviewService::class)->dueCount() : 0);
-            $view->with('knowledgeDomains', app(DomainService::class)->all());
+            // Zichtbare domeinen: een verborgen groep (Persoonlijk) staat niet in de navigatie.
+            $view->with('knowledgeDomains', app(DomainService::class)->visible());
         });
     }
 }

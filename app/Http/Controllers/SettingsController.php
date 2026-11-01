@@ -24,6 +24,8 @@ class SettingsController extends Controller
 
         return view('settings.edit', [
             'name' => UserSetting::get('name'),
+            'hideablePersonal' => $domains->hasHideableGroups(),
+            'hidePersonal' => (bool) UserSetting::get('hide_personal'),
             'courses' => collect($courses->ids())->map(fn (string $id) => [
                 'id' => $id,
                 'name' => $domains->find($id)['name'] ?? $id,
@@ -37,9 +39,14 @@ class SettingsController extends Controller
     {
         $validated = $request->validate([
             'name' => ['nullable', 'string', 'max:60'],
+            'show_personal' => ['nullable', 'boolean'],
         ]);
 
         UserSetting::put('name', $validated['name'] ?? null);
+        // Het formulier stuurt altijd show_personal mee (verborgen veld 0, vinkje 1).
+        if ($request->has('show_personal')) {
+            UserSetting::put('hide_personal', $request->boolean('show_personal') ? null : '1');
+        }
 
         return redirect()->route('settings.edit')->with('status', 'Instellingen opgeslagen.');
     }

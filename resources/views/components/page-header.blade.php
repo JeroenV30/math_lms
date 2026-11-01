@@ -4,7 +4,8 @@
     'intro' => null,
     // Tussenliggende niveaus onder het domein: [['label' => …, 'url' => … of null], …].
     'crumbs' => [],
-    // 'page': Kaart van kennis › domein › crumbs; 'domain': alleen Kaart van kennis; 'map': geen kruimelpad.
+    // 'page': sectie (Kaart van kennis of Toepassingen) › domein › crumbs; 'domain': alleen de sectie;
+    // 'home': alleen Start (kaart, toepassingen, instellingen); 'map': geen kruimelpad (startpagina).
     'level' => 'page',
     // false: het actieve domein (DomainService::active()); null: neutraal; array: dit domein.
     'domain' => false,
@@ -22,11 +23,16 @@
     $domain = $domain === false ? $domains->active() : $domain;
     $tint = $domain['color'] ?? null;
 
+    // Het kruimelpad begint bij het overzicht van de sectie: de kaart van kennis of de toepassingen.
+    $section = $domain ? $domains->sectionOf($domain) : 'kennis';
+    $root = ['label' => $domains->sectionLabel($section), 'url' => $domains->sectionUrl($section)];
+
     $trail = match ($level) {
         'map' => [],
-        'domain' => [['label' => 'Kaart van kennis', 'url' => route('domains.index')]],
+        'home' => [['label' => 'Start', 'url' => route('home')]],
+        'domain' => [$root],
         default => [
-            ['label' => 'Kaart van kennis', 'url' => route('domains.index')],
+            $root,
             ...($domain ? [['label' => $domain['name'], 'url' => $domains->url($domain)]] : []),
             ...$crumbs,
         ],

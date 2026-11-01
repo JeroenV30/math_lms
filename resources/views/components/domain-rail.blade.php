@@ -1,14 +1,22 @@
 @props(['domains', 'active' => null])
 
-{{-- Linker navigatie tussen kennisdomeinen. Smal (monogrammen) of uitgeklapt (namen); de keuze wordt onthouden. --}}
-@php $domainService = app(\App\Services\DomainService::class); @endphp
+{{-- Linker navigatie tussen domeinen: eerst de kennisdomeinen, dan de toepassingen per groep (SubCode, Persoonlijk).
+     Smal (monogrammen) of uitgeklapt (namen); de keuze wordt onthouden. --}}
+@php
+    $domainService = app(\App\Services\DomainService::class);
+    $ids = collect($domains)->pluck('id')->all();
+    $groups = $domainService->sections()->flatMap(fn (array $section) => $domainService->groups($section['id'])->map(fn (array $group) => [
+        'label' => $group['name'] ?? $section['label'] ?? $section['name'],
+        'domains' => $group['domains']->filter(fn (array $domain) => in_array($domain['id'], $ids, true)),
+    ]))->filter(fn (array $group) => $group['domains']->isNotEmpty())->values();
+@endphp
 <aside class="sticky top-16 hidden h-[calc(100vh-4rem)] shrink-0 border-r border-line bg-mist/40 transition-[width] duration-200 lg:flex lg:flex-col"
        :class="open ? 'w-60' : 'w-16'"
        x-data="{
            open: (() => { try { return localStorage.getItem('domain-rail') === 'open' } catch (e) { return false } })(),
            toggle() { this.open = ! this.open; try { localStorage.setItem('domain-rail', this.open ? 'open' : 'closed') } catch (e) {} },
        }"
-       aria-label="Kennisdomeinen">
+       aria-label="Domeinen">
     <div class="flex items-center justify-between px-3 pt-4 pb-2" :class="open ? '' : 'justify-center'">
         <a href="{{ route('domains.index') }}" class="eyebrow hover:text-ink" x-show="open" x-cloak>Kennisdomeinen</a>
         <button type="button" class="flex h-8 w-8 items-center justify-center rounded-md text-muted hover:bg-paper hover:text-ink"
@@ -17,36 +25,44 @@
         </button>
     </div>
 
-    <nav class="flex-1 space-y-0.5 overflow-y-auto px-2 pb-4">
-        @foreach ($domains as $domain)
-            @php
-                $isActive = $active === $domain['id'];
-                $planned = ! $domainService->isAvailable($domain);
-            @endphp
-            <a href="{{ route('domains.show', $domain['id']) }}"
-               title="{{ $domain['name'] }}{{ $planned ? ' — '.mb_strtolower($domainService->stageLabel($domain)).($domainService->progressLabel($domain) ? ', '.$domainService->progressLabel($domain) : '') : '' }}"
-               @class([
-                   'group flex items-center gap-3 rounded-lg px-2 py-2 transition-colors',
-                   'bg-paper shadow-sm ring-1 ring-line' => $isActive,
-                   'hover:bg-paper' => ! $isActive,
-               ])
-               @if ($isActive) aria-current="page" @endif>
-                <x-domain-monogram :domain="$domain" />
-                <span class="min-w-0" x-show="open" x-cloak>
-                    <span @class(['block truncate text-sm font-medium', 'text-ink' => ! $planned || $isActive, 'text-ink-soft' => $planned && ! $isActive])>{{ $domain['name'] }}</span>
-                    <span class="block truncate text-[0.7rem] text-muted">
-                        {{ $planned ? ($domainService->progressLabel($domain) ?? $domainService->stageLabel($domain)) : implode(' · ', $domain['tagline'] ?? []) }}
-                    </span>
-                </span>
-                <span class="sr-only" x-show="! open">{{ $domain['name'] }}</span>
-            </a>
+    <nav class="flex-1 overflow-y-auto px-2 pb-4">
+        @foreach ($groups as $group)
+            @if (! $loop->first)
+                <p class="mt-4 mb-1 truncate px-2 text-[0.7rem] font-semibold tracking-wide text-muted uppercase" x-show="open" x-cloak>{{ $group['label'] }}</p>
+                <hr class="mx-3 my-3 border-line" x-show="! open">
+            @endif
+            <div class="space-y-0.5">
+                @foreach ($group['domains'] as $domain)
+                    @php
+                        $isActive = $active === $domain['id'];
+                        $planned = ! $domainService->isAvailable($domain);
+                    @endphp
+                    <a href="{{ route('domains.show', $domain['id']) }}"
+                       title="{{ $domain['name'] }}{{ $planned ? ' — '.mb_strtolower($domainService->stageLabel($domain)).($domainService->progressLabel($domain) ? ', '.$domainService->progressLabel($domain) : '') : '' }}"
+                       @class([
+                           'group flex items-center gap-3 rounded-lg px-2 py-2 transition-colors',
+                           'bg-paper shadow-sm ring-1 ring-line' => $isActive,
+                           'hover:bg-paper' => ! $isActive,
+                       ])
+                       @if ($isActive) aria-current="page" @endif>
+                        <x-domain-monogram :domain="$domain" />
+                        <span class="min-w-0" x-show="open" x-cloak>
+                            <span @class(['block truncate text-sm font-medium', 'text-ink' => ! $planned || $isActive, 'text-ink-soft' => $planned && ! $isActive])>{{ $domain['name'] }}</span>
+                            <span class="block truncate text-[0.7rem] text-muted">
+                                {{ $planned ? ($domainService->progressLabel($domain) ?? $domainService->stageLabel($domain)) : implode(' · ', $domain['tagline'] ?? []) }}
+                            </span>
+                        </span>
+                        <span class="sr-only" x-show="! open">{{ $domain['name'] }}</span>
+                    </a>
+                @endforeach
+            </div>
         @endforeach
     </nav>
 
-    <a href="{{ route('domains.index') }}" class="m-2 flex items-center gap-3 rounded-lg px-2 py-2 text-muted hover:bg-paper hover:text-ink" title="Kaart van menselijke kennis">
+    <a href="{{ route('home') }}" class="m-2 flex items-center gap-3 rounded-lg px-2 py-2 text-muted hover:bg-paper hover:text-ink" title="Start: kennisdomeinen of toepassingen">
         <span class="flex h-8 w-8 shrink-0 items-center justify-center" aria-hidden="true">
             <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10" cy="10" r="2.5"/><circle cx="10" cy="3" r="1.2"/><circle cx="16" cy="13.5" r="1.2"/><circle cx="4" cy="13.5" r="1.2"/><path d="M10 5.5v2M14.9 12.6l-2.7-1.4M5.1 12.6l2.7-1.4"/></svg>
         </span>
-        <span class="text-sm" x-show="open" x-cloak>Kaart van kennis</span>
+        <span class="text-sm" x-show="open" x-cloak>Start</span>
     </a>
 </aside>

@@ -3,9 +3,46 @@
     "name": "Kennis door de Eeuwen",
     "tagline": "Ontdekken · Begrijpen · Verbinden"
   },
-  "title": "Kaart van menselijke kennis",
-  "subtitle": "Ontdekken · Begrijpen · Verbinden · Creëren",
-  "intro": "Elk kennisdomein wordt een eigen leerlijn, opgebouwd volgens hetzelfde principe als de wiskundecursus: van het eenvoudigste begin tot academisch niveau, met de geschiedenis van het denken als leidraad. Wiskunde en Geschiedenis zijn volledig uitgewerkt; de andere domeinen volgen.",
+  "home": {
+    "eyebrow": "Leeromgeving",
+    "title": "Wat wil je leren?",
+    "intro": "Kies een kennisdomein en volg de geschiedenis van het denken van het eenvoudigste begin tot academisch niveau, of ga direct naar een toepassing: korte, praktische cursussen over economie, ondernemen en regelingen."
+  },
+  "sections": [
+    {
+      "id": "kennis",
+      "name": "Kennis door de Eeuwen",
+      "crumb": "Kaart van kennis",
+      "label": "Kennisdomeinen",
+      "nouns": ["domein", "domeinen"],
+      "eyebrow": "Ontdekken · Begrijpen · Verbinden · Creëren",
+      "title": "Kaart van menselijke kennis",
+      "intro": "Elk kennisdomein wordt een eigen leerlijn, opgebouwd volgens hetzelfde principe als de wiskundecursus: van het eenvoudigste begin tot academisch niveau, met de geschiedenis van het denken als leidraad. Wiskunde en Geschiedenis zijn volledig uitgewerkt; de andere domeinen volgen."
+    },
+    {
+      "id": "toepassingen",
+      "name": "Toepassingen",
+      "crumb": "Toepassingen",
+      "label": "Toepassingen",
+      "nouns": ["toepassing", "toepassingen"],
+      "eyebrow": "Begrijpen · Toepassen · Beslissen",
+      "title": "Toepassingen",
+      "intro": "Korte, praktische cursussen over hoe de economie, bedrijven en regelingen werken. Dezelfde opbouw als de kennisdomeinen, met lessen, oefeningen, toetsen en herhaling, maar gericht op wat je in de praktijk nodig hebt.",
+      "groups": [
+        {
+          "id": "subcode",
+          "name": "SubCode",
+          "intro": "Wat je moet weten om subsidies en fiscale regelingen te begrijpen: hoe de economie werkt en waarom de overheid subsidieert, hoe een bedrijf in elkaar zit, en de regelingen zelf. Meer regelingen volgen."
+        },
+        {
+          "id": "persoonlijk",
+          "name": "Persoonlijk",
+          "intro": "Eigen leerlijnen, los van SubCode. Je kunt deze groep verbergen in de instellingen.",
+          "hideable": true
+        }
+      ]
+    }
+  ],
   "timeline": {
     "title": "Alle domeinen door de eeuwen",
     "intro": "De gebeurtenissen van alle kennisdomeinen op één tijdlijn. Zo zie je wat er tegelijk gebeurde: in de wiskunde, de natuurwetenschap, de kunst en de politiek."
@@ -119,6 +156,54 @@
       "status": "planned",
       "description": "Waarom maken mensen kunst en hoe lees je die? Van grotschilderingen via de Renaissance tot moderne kunst, muziek, literatuur, theater en architectuur.",
       "planned_parts": ["Kijken naar kunst", "Kunstgeschiedenis", "Muziek", "Literatuur", "Theater en dans", "Architectuur"]
+    },
+    {
+      "id": "economie",
+      "name": "Economie",
+      "section": "toepassingen",
+      "group": "subcode",
+      "tagline": ["Markten", "Overheid", "Subsidies"],
+      "monogram": "Ec",
+      "color": "#0b7285",
+      "status": "planned",
+      "description": "Hoe werkt een economie, wanneer schiet de markt tekort en waarom geeft de overheid subsidie? Van vraag en aanbod via marktfalen naar het Nederlandse subsidielandschap.",
+      "planned_parts": ["Hoe een economie werkt", "Overheid en marktfalen", "Subsidies: waarom en hoe", "Het Nederlandse subsidielandschap"]
+    },
+    {
+      "id": "bedrijven",
+      "name": "Bedrijven",
+      "section": "toepassingen",
+      "group": "subcode",
+      "tagline": ["Rechtsvormen", "DGA", "Personeel"],
+      "monogram": "Bd",
+      "color": "#5f3dc4",
+      "status": "planned",
+      "description": "Hoe een onderneming juridisch en financieel in elkaar zit: rechtsvormen en rechtspersonen, de bv en de DGA, de loonlijst en de cijfers van een bedrijf.",
+      "planned_parts": ["Ondernemingsvormen en rechtspersonen", "De bv en de DGA", "Personeel en de loonlijst", "De cijfers van een bedrijf"]
+    },
+    {
+      "id": "wbso",
+      "name": "WBSO",
+      "section": "toepassingen",
+      "group": "subcode",
+      "tagline": ["Speur- en ontwikkelingswerk", "Loonheffing", "Aanvragen"],
+      "monogram": "Wb",
+      "color": "#d9480f",
+      "status": "planned",
+      "description": "De fiscale regeling voor speur- en ontwikkelingswerk: wat telt als S&O, hoe je het voordeel berekent, en hoe aanvraag, administratie en controle verlopen.",
+      "planned_parts": ["Wat de WBSO is", "Wat telt als S&O", "Uren, kosten en het voordeel", "Aanvragen, administratie en controle"]
+    },
+    {
+      "id": "beleggen",
+      "name": "Beleggen",
+      "section": "toepassingen",
+      "group": "persoonlijk",
+      "tagline": ["Rendement", "Risico", "Spreiding"],
+      "monogram": "Be",
+      "color": "#2b8a3e",
+      "status": "planned",
+      "description": "Waarom en hoe je belegt: samengestelde rente, risico en rendement, beleggingsproducten, spreiding, gedrag, kosten en belasting.",
+      "planned_parts": ["Waarom beleggen", "Beleggingsproducten", "Spreiding en portefeuille", "Gedrag, kosten en belasting"]
     }
   ]
 }

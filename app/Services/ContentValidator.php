@@ -43,6 +43,7 @@ class ContentValidator
         $this->warnings = [];
 
         $this->checkLanguageInJson(config('course.content_path').'/domains.json', 'domains.json');
+        $this->validateSections();
 
         foreach ($this->courses->ids() as $course) {
             $this->validateCourse($course);
@@ -51,6 +52,35 @@ class ContentValidator
         array_push($this->errors, ...$this->duplicates->check());
 
         return ['errors' => $this->errors, 'warnings' => $this->warnings];
+    }
+
+    /**
+     * Elk domein hoort bij een bestaande sectie (kennis, toepassingen) en, als die sectie groepen heeft, bij een bestaande groep.
+     */
+    private function validateSections(): void
+    {
+        $sections = $this->domains->sections();
+        if ($sections->isEmpty()) {
+            return;
+        }
+
+        foreach ($this->domains->all() as $domain) {
+            $where = "domains.json · {$domain['id']}";
+            $section = $this->domains->sectionOf($domain);
+
+            if (! $sections->has($section)) {
+                $this->errors[] = "{$where}: onbekende sectie '{$section}'.";
+
+                continue;
+            }
+
+            $groups = array_column($sections[$section]['groups'] ?? [], 'id');
+            if ($groups !== []) {
+                $this->expect(in_array($domain['group'] ?? null, $groups, true), "{$where}: hoort bij geen (bekende) groep van sectie '{$section}'.");
+            } else {
+                $this->expect(! isset($domain['group']), "{$where}: sectie '{$section}' heeft geen groepen.");
+            }
+        }
     }
 
     /**

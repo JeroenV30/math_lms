@@ -1,7 +1,7 @@
 @extends('layouts.app', ['title' => 'Instellingen'])
 
 @section('content')
-    <x-page-header level="domain" eyebrow="Leeromgeving" title="Instellingen" />
+    <x-page-header level="home" eyebrow="Leeromgeving" title="Instellingen" />
 
     <div class="container-page mt-10 *:max-w-2xl">
         @if (session('status'))
@@ -14,6 +14,18 @@
             <p class="mt-1 text-sm text-muted">Gebruikt voor de begroeting op het dashboard.</p>
             <input id="name" name="name" type="text" value="{{ old('name', $name) }}" maxlength="60" class="input mt-3">
             @error('name') <p class="mt-2 text-sm text-danger">{{ $message }}</p> @enderror
+
+            @if ($hideablePersonal)
+                <input type="hidden" name="show_personal" value="0">
+                <label class="mt-6 flex items-start gap-3">
+                    <input type="checkbox" name="show_personal" value="1" @checked(! $hidePersonal) class="mt-1 accent-[var(--color-accent)]">
+                    <span>
+                        <span class="block text-sm font-semibold text-ink">Persoonlijke toepassingen tonen</span>
+                        <span class="mt-1 block text-sm text-muted">Zet dit uit om de groep Persoonlijk (zoals Beleggen) te verbergen in de navigatie, op de startpagina en in de zoekresultaten, bijvoorbeeld als je de leeromgeving aan iemand anders laat zien. Je voortgang blijft bewaard.</span>
+                    </span>
+                </label>
+            @endif
+
             <button class="btn btn-primary mt-4">Opslaan</button>
         </form>
 
