@@ -1,0 +1,316 @@
+{
+  "exercises": [
+    {
+      "id": "04-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke organisatie voert namens het Rijk veel subsidieregelingen en fiscale regelingen uit voor ondernemers, zoals de WBSO, EIA en MIA/Vamil?",
+      "choices": [
+        "De Rijksdienst voor Ondernemend Nederland (RVO)",
+        "Het Centraal Bureau voor de Statistiek (CBS)",
+        "Het Centraal Planbureau (CPB)",
+        "De Autoriteit Consument en Markt (ACM)"
+      ],
+      "answer": "De Rijksdienst voor Ondernemend Nederland (RVO)",
+      "hints": [
+        "Het is een agentschap van het ministerie van Economische Zaken dat aanvragen beoordeelt en verleent."
+      ],
+      "solution": [
+        "RVO is voor veel regelingen het loket: het ministerie bepaalt doel en voorwaarden, RVO voert uit."
+      ],
+      "feedback": [
+        {
+          "answer": "Het Centraal Planbureau (CPB)",
+          "message": "Het CPB analyseert beleidseffecten, bijvoorbeeld in evaluaties, maar verleent geen subsidies."
+        }
+      ],
+      "topics": [
+        "subsidy-landscape"
+      ]
+    },
+    {
+      "id": "04-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat doet een regionale ontwikkelingsmaatschappij (ROM), zoals BOM of LIOF, vooral?",
+      "choices": [
+        "Ze verstrekt kredieten, risicokapitaal en advies aan regionale bedrijven",
+        "Ze stelt de Europese staatssteunregels vast",
+        "Ze voert de belastingaangifte van bedrijven uit",
+        "Ze beoordeelt of subsidies zijn teruggevorderd"
+      ],
+      "answer": "Ze verstrekt kredieten, risicokapitaal en advies aan regionale bedrijven",
+      "hints": [
+        "ROM's vullen vooral een gat dat banken laten liggen."
+      ],
+      "solution": [
+        "ROM's verstrekken met publiek geld vooral financiering (leningen, deelnemingen) en advies, minder vaak een kostenvergoeding."
+      ],
+      "topics": [
+        "subsidy-landscape"
+      ]
+    },
+    {
+      "id": "04-003",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welk programma is direct beheerd door de Europese Commissie, zodat een bedrijf een voorstel indient dat concurreert met aanvragen uit heel Europa?",
+      "choices": [
+        "Horizon Europe",
+        "De regionale EFRO-programma's in Nederland",
+        "De WBSO",
+        "Een provinciale MIT-regeling"
+      ],
+      "answer": "Horizon Europe",
+      "hints": [
+        "Bij gedeeld beheer beslist een Nederlandse beheerautoriteit over de aanvraag."
+      ],
+      "solution": [
+        "Horizon Europe wordt direct door de Commissie of een uitvoeringsagentschap beheerd. EFRO is een fonds met gedeeld beheer: de regio verdeelt het geld."
+      ],
+      "feedback": [
+        {
+          "answer": "De regionale EFRO-programma's in Nederland",
+          "message": "EFRO-geld komt uit Brussel, maar de regionale beheerautoriteit in Nederland beslist over de aanvraag: gedeeld beheer."
+        }
+      ],
+      "topics": [
+        "subsidy-landscape"
+      ]
+    },
+    {
+      "id": "04-004",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een regeling heeft een budget dat kleiner is dan de som van alle aanvragen. Alle aanvragen binnen de openstelling worden beoordeeld en gerangschikt op criteria met gewichten; de hoogste scores krijgen het geld. Welke verdeelmethode is dit?",
+      "choices": [
+        "Een tender met rangschikking",
+        "Volgorde van binnenkomst",
+        "Een recht op de regeling zoals bij een fiscale regeling",
+        "Een garantie zonder budget"
+      ],
+      "answer": "Een tender met rangschikking",
+      "hints": [
+        "Wie het eerst komt, krijgt het eerst, speelt hier juist geen rol."
+      ],
+      "solution": [
+        "Bij een tender worden aanvragen binnen een periode gerangschikt op criteria. Bij volgorde van binnenkomst telt snelheid, bij een recht op de regeling telt alleen het voldoen aan de voorwaarden."
+      ],
+      "topics": [
+        "subsidy-landscape"
+      ]
+    },
+    {
+      "id": "04-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Artikel 107, lid 1 VWEU noemt voorwaarden waaraan een maatregel moet voldoen om staatssteun te zijn. Welke van de volgende is géén voorwaarde?",
+      "choices": [
+        "Het voordeel wordt uitgekeerd in contant geld",
+        "Er zijn staatsmiddelen mee gemoeid",
+        "Het voordeel is selectief",
+        "De mededinging en de handel tussen lidstaten kunnen worden beïnvloed"
+      ],
+      "answer": "Het voordeel wordt uitgekeerd in contant geld",
+      "hints": [
+        "Een belastingkorting of een garantie kan ook staatssteun zijn."
+      ],
+      "solution": [
+        "Staatssteun kan vele vormen hebben: een belastingvoordeel of garantie telt ook mee. De voorwaarden zijn staatsmiddelen, voordeel, selectiviteit en een mogelijk effect op mededinging en handel."
+      ],
+      "feedback": [
+        {
+          "answer": "Het voordeel is selectief",
+          "message": "Selectiviteit is wél een voorwaarde: een algemene maatregel voor alle bedrijven is geen staatssteun."
+        }
+      ],
+      "topics": [
+        "state-aid"
+      ]
+    },
+    {
+      "id": "04-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Het de-minimisplafond is € 300.000 per onderneming in een periode van drie jaar. Een bedrijf ontving in die periode eerder € 90.000 en € 60.000. Hoeveel euro de-minimisruimte heeft het nog?",
+      "answer": 150000,
+      "unit": "€",
+      "hints": [
+        "Tel de eerdere steun op en trek het totaal af van het plafond."
+      ],
+      "solution": [
+        "Eerder ontvangen: € 90.000 + € 60.000 = € 150.000.",
+        "Ruimte: € 300.000 − € 150.000 = € 150.000."
+      ],
+      "feedback": [
+        {
+          "answer": 210000,
+          "message": "Je hebt alleen de € 90.000 afgetrokken. Beide eerdere bedragen tellen mee."
+        }
+      ],
+      "topics": [
+        "state-aid"
+      ]
+    },
+    {
+      "id": "04-007",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Het de-minimisplafond is € 300.000 per drie jaar, voortschrijdend, gerekend vanaf de datum van het besluit tot toekenning. Een bedrijf ontving € 100.000 op 3 maart 2024 en € 80.000 op 1 juli 2025. Er wordt een nieuw besluit genomen op 15 maart 2027. Hoeveel euro de-minimissteun telt mee in de periode van drie jaar voor dat besluit?",
+      "answer": 80000,
+      "unit": "€",
+      "hints": [
+        "De periode loopt van 15 maart 2024 tot 15 maart 2027. Valt de steun van 3 maart 2024 erin?"
+      ],
+      "solution": [
+        "De periode begint op 15 maart 2024. De steun van 3 maart 2024 ligt daarvoor en telt niet mee.",
+        "Alleen de € 80.000 van 1 juli 2025 telt mee."
+      ],
+      "feedback": [
+        {
+          "answer": 180000,
+          "message": "De steun van 3 maart 2024 valt buiten de periode van drie jaar vóór 15 maart 2027: tel hem niet mee."
+        }
+      ],
+      "topics": [
+        "state-aid"
+      ]
+    },
+    {
+      "id": "04-008",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Het de-minimisplafond is € 300.000 per drie jaar. In de periode van drie jaar vóór een besluit telt € 80.000 aan eerdere de-minimissteun mee. Wat is het hoogste bedrag, in euro, dat in dit besluit nog als de-minimissteun kan worden verleend?",
+      "answer": 220000,
+      "unit": "€",
+      "hints": [
+        "Plafond min wat al meetelt."
+      ],
+      "solution": [
+        "€ 300.000 − € 80.000 = € 220.000."
+      ],
+      "topics": [
+        "state-aid"
+      ]
+    },
+    {
+      "id": "04-009",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Onder artikel 25 AGVV is de basissteunintensiteit voor experimentele ontwikkeling 25% van de subsidiabele kosten; voor een kleine onderneming mag die met 20 procentpunten worden verhoogd (tot ten hoogste 80%). Een kleine onderneming heeft € 400.000 aan subsidiabele kosten voor een project zonder samenwerking. Wat is de maximale steun in euro?",
+      "answer": 180000,
+      "unit": "€",
+      "hints": [
+        "Tel de percentages op: 25% + 20 procentpunt."
+      ],
+      "solution": [
+        "Steunintensiteit: 25% + 20% = 45%.",
+        "Maximale steun: 45% van € 400.000 = € 180.000."
+      ],
+      "feedback": [
+        {
+          "answer": 100000,
+          "message": "Dat is 25% van € 400.000, zonder de verhoging voor kleine ondernemingen."
+        }
+      ],
+      "topics": [
+        "state-aid"
+      ]
+    },
+    {
+      "id": "04-010",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de stappen van een subsidie volgens titel 4.2 Awb in de juiste volgorde, de eerste stap eerst.",
+      "answer": [
+        "Aanvraag",
+        "Verlening",
+        "Uitvoering van de activiteiten",
+        "Aanvraag tot vaststelling",
+        "Vaststelling"
+      ],
+      "hints": [
+        "De vaststelling volgt pas na de verantwoording van de activiteiten."
+      ],
+      "solution": [
+        "Aanvraag, verlening (maximum), uitvoering, aanvraag tot vaststelling met verantwoording, vaststelling (definitief bedrag). Terugvordering volgt zo nodig daarna."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Aanvraag",
+            "Verlening",
+            "Aanvraag tot vaststelling",
+            "Uitvoering van de activiteiten",
+            "Vaststelling"
+          ],
+          "message": "De verantwoording kan pas na de uitvoering: je kunt niet vaststellen wat je nog niet hebt gedaan."
+        }
+      ],
+      "topics": [
+        "subsidy-landscape"
+      ]
+    },
+    {
+      "id": "04-011",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een provincie verleent een subsidie van maximaal € 120.000 (50% van de begrote kosten van € 240.000) en betaalt een voorschot van € 96.000. De werkelijke subsidiabele kosten blijken € 180.000. De subsidie wordt vastgesteld op 50% van de werkelijke kosten. Hoeveel euro moet er worden teruggevorderd?",
+      "answer": 6000,
+      "unit": "€",
+      "hints": [
+        "Bereken eerst de vastgestelde subsidie en vergelijk die met het voorschot."
+      ],
+      "solution": [
+        "Vastgesteld: 50% van € 180.000 = € 90.000.",
+        "Voorschot: € 96.000. Te veel betaald: € 96.000 − € 90.000 = € 6.000."
+      ],
+      "feedback": [
+        {
+          "answer": 30000,
+          "message": "Dat is het verschil tussen de verlening (€ 120.000) en de vaststelling (€ 90.000). Maar terug te vorderen is alleen wat méér is betaald dan vastgesteld, en er is maar € 96.000 betaald."
+        }
+      ],
+      "topics": [
+        "subsidy-landscape"
+      ]
+    },
+    {
+      "id": "04-012",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een bedrijf ontving in de afgelopen drie jaar € 200.000 aan de-minimissteun. Het plafond is € 300.000 per drie jaar en het bedrijf vraagt € 120.000 aan onder een regeling die de-minimis toepast. Hoeveel euro van de gevraagde steun kan hoogstens worden verleend zonder dat het plafond wordt overschreden?",
+      "answer": 100000,
+      "unit": "€",
+      "hints": [
+        "Eerst de ruimte berekenen, dan vergelijken met het gevraagde bedrag."
+      ],
+      "solution": [
+        "Ruimte: € 300.000 − € 200.000 = € 100.000.",
+        "Gevraagd € 120.000 is meer dan de ruimte, dus maximaal € 100.000."
+      ],
+      "feedback": [
+        {
+          "answer": 120000,
+          "message": "Dat is het gevraagde bedrag. De de-minimisruimte is kleiner: € 300.000 − € 200.000."
+        }
+      ],
+      "topics": [
+        "state-aid",
+        "subsidy-landscape"
+      ]
+    }
+  ]
+}

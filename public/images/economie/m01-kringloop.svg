@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Georgia, serif" font-size="14">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3b5bdb"/></marker>
+<marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#1f2933"/></marker></defs>
+<rect x="20" y="150" width="150" height="70" rx="8" fill="#fff" stroke="#1f2933" stroke-width="2"/>
+<text x="95" y="190" text-anchor="middle" fill="#1f2933" font-weight="bold">Huishoudens</text>
+<rect x="470" y="150" width="150" height="70" rx="8" fill="#fff" stroke="#1f2933" stroke-width="2"/>
+<text x="545" y="190" text-anchor="middle" fill="#1f2933" font-weight="bold">Bedrijven</text>
+<rect x="245" y="300" width="150" height="60" rx="8" fill="#fff" stroke="#3b5bdb" stroke-width="2"/>
+<text x="320" y="336" text-anchor="middle" fill="#3b5bdb" font-weight="bold">Overheid</text>
+<rect x="245" y="20" width="150" height="50" rx="8" fill="#fff" stroke="#1f2933" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="320" y="50" text-anchor="middle" fill="#1f2933">Buitenland</text>
+<path d="M170 165 C300 110 380 110 470 165" fill="none" stroke="#3b5bdb" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="320" y="118" text-anchor="middle" fill="#3b5bdb" font-size="13">arbeid, kapitaal (productiefactoren)</text>
+<path d="M470 205 C380 260 300 260 170 205" fill="none" stroke="#1f2933" stroke-width="2.5" marker-end="url(#b)"/>
+<text x="320" y="258" text-anchor="middle" fill="#1f2933" font-size="13">loon, huur, rente, winst (inkomen)</text>
+<path d="M120 220 C140 280 200 320 245 328" fill="none" stroke="#3b5bdb" stroke-width="2" marker-end="url(#a)"/>
+<text x="40" y="300" fill="#3b5bdb" font-size="13">belastingen</text>
+<path d="M520 220 C500 280 440 320 395 328" fill="none" stroke="#3b5bdb" stroke-width="2" marker-end="url(#a)"/>
+<text x="500" y="300" fill="#3b5bdb" font-size="13">belastingen</text>
+<path d="M245 340 C160 360 40 330 60 222" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#b)"/>
+<text x="30" y="360" fill="#1f2933" font-size="12">uitkeringen, subsidies</text>
+<path d="M545 150 C545 60 450 45 395 45" fill="none" stroke="#1f2933" stroke-width="1.5" marker-end="url(#b)"/>
+<text x="470" y="30" fill="#1f2933" font-size="12">export</text>
+<path d="M245 45 C150 45 95 60 95 150" fill="none" stroke="#1f2933" stroke-width="1.5" marker-end="url(#b)"/>
+<text x="110" y="30" fill="#1f2933" font-size="12">import</text>
+</svg>

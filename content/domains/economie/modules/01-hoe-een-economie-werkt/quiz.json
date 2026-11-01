@@ -1,0 +1,180 @@
+{
+  "title": "Hoofdstuktoets – Hoe een economie werkt",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "01-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat bedoelen economen met schaarste?",
+      "choices": [
+        "De wensen zijn groter dan de beschikbare middelen, dus er moet gekozen worden",
+        "Een goed is zeldzaam en dus duur",
+        "Er is een tekort aan geld bij de overheid",
+        "Een goed is niet in voorraad bij winkels"
+      ],
+      "answer": "De wensen zijn groter dan de beschikbare middelen, dus er moet gekozen worden",
+      "hints": [],
+      "solution": ["Schaarste is de verhouding tussen wensen en beschikbare middelen. Ook goederen die niet zeldzaam zijn, zijn schaars als er meer van gewenst wordt dan er is."],
+      "feedback": [
+        { "answer": "Een goed is zeldzaam en dus duur", "message": "Schaarste gaat om de verhouding tussen wensen en middelen, niet om zeldzaamheid op zich." }
+      ],
+      "topics": ["scarcity"]
+    },
+    {
+      "id": "01-T02",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Een lab kan in een week 12 analyses doen of 4 metingen. Hoeveel analyses laat het lab liggen voor één meting?",
+      "answer": 3,
+      "hints": [],
+      "solution": ["12 analyses staan tegenover 4 metingen: 12 / 4 = 3 analyses per meting."],
+      "topics": ["scarcity"]
+    },
+    {
+      "id": "01-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een consultant wil zelf een rapport schrijven in 5 uur. Hij kan die uren ook aan een klant factureren tegen € 80 per uur. Het rapport laten schrijven door een stagiair kost € 250. Wat is, economisch gezien, de beste vergelijking?",
+      "choices": [
+        "De opportuniteitskosten van zelf schrijven (€ 400) tegen € 250 voor de stagiair",
+        "Alleen het uurloon dat de consultant krijgt, want uitbesteden kost direct geld",
+        "De uren zelf zijn gratis, dus zelf schrijven is altijd goedkoper",
+        "De som van € 400 en € 250"
+      ],
+      "answer": "De opportuniteitskosten van zelf schrijven (€ 400) tegen € 250 voor de stagiair",
+      "hints": [],
+      "solution": ["Zelf schrijven kost 5 × € 80 = € 400 aan gemiste omzet. Dat is meer dan € 250, dus uitbesteden is hier goedkoper."],
+      "feedback": [
+        { "answer": "De uren zelf zijn gratis, dus zelf schrijven is altijd goedkoper", "message": "Tijd is niet gratis: de uren hadden anders omzet opgeleverd." }
+      ],
+      "topics": ["scarcity"]
+    },
+    {
+      "id": "01-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De overheid geeft kopers van elektrische bestelwagens een subsidie. Wat gebeurt er in een vraag-en-aanbodmodel van de markt voor deze bestelwagens, bij een gewone stijgende aanbodcurve?",
+      "choices": [
+        "De vraagcurve schuift naar rechts: de prijs en de verhandelde hoeveelheid nemen toe",
+        "De aanbodcurve schuift naar links: de prijs stijgt en de hoeveelheid daalt",
+        "Er is een beweging langs de vraagcurve zonder verandering van de prijs",
+        "De prijs en de hoeveelheid dalen allebei"
+      ],
+      "answer": "De vraagcurve schuift naar rechts: de prijs en de verhandelde hoeveelheid nemen toe",
+      "hints": [],
+      "solution": ["Een subsidie voor kopers maakt het bij elke prijs aantrekkelijker om te kopen: de vraag schuift naar rechts. Langs een stijgende aanbodcurve nemen prijs en hoeveelheid dan toe."],
+      "feedback": [
+        { "answer": "De aanbodcurve schuift naar links: de prijs stijgt en de hoeveelheid daalt", "message": "Een subsidie voor kopers beïnvloedt de vraag, niet het aanbod, en vergroot de hoeveelheid." }
+      ],
+      "topics": ["supply-demand"]
+    },
+    {
+      "id": "01-T05",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De gevraagde hoeveelheid is $Q_v = 120 - 4P$ en de aangeboden hoeveelheid $Q_a = 20 + 6P$. Wat is de evenwichtsprijs?",
+      "answer": 10,
+      "hints": [],
+      "solution": ["$120 - 4P = 20 + 6P$", "$100 = 10P$, dus $P = 10$."],
+      "topics": ["supply-demand"]
+    },
+    {
+      "id": "01-T06",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De gevraagde hoeveelheid is $Q_v = 120 - 4P$ en de aangeboden hoeveelheid $Q_a = 20 + 6P$. Bij een prijs van 14 is er een overschot. Hoe groot is dat overschot (aangeboden min gevraagd)?",
+      "answer": 40,
+      "hints": [],
+      "solution": ["$Q_v = 120 - 56 = 64$", "$Q_a = 20 + 84 = 104$", "Overschot: $104 - 64 = 40$."],
+      "topics": ["supply-demand"]
+    },
+    {
+      "id": "01-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een aanbieder verhoogt zijn prijs met 4%, waarna de gevraagde hoeveelheid met 8% daalt. Wat geldt?",
+      "choices": [
+        "De elasticiteit is −2: de vraag is elastisch",
+        "De elasticiteit is −0,5: de vraag is inelastisch",
+        "De elasticiteit is 2: de vraag is inelastisch",
+        "De elasticiteit is −4: de vraag is inelastisch"
+      ],
+      "answer": "De elasticiteit is −2: de vraag is elastisch",
+      "hints": [],
+      "solution": ["$E = -8\\% / 4\\% = -2$. Omdat $|E| > 1$ is de vraag elastisch."],
+      "feedback": [
+        { "answer": "De elasticiteit is −0,5: de vraag is inelastisch", "message": "Je hebt de breuk omgedraaid: deel de verandering van de hoeveelheid door die van de prijs." }
+      ],
+      "topics": ["supply-demand"]
+    },
+    {
+      "id": "01-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "In de kringloop van de economie betalen huishoudens en bedrijven belasting. Waar gaat dat geld naartoe, en waar komt het via de overheid weer in de economie terecht?",
+      "choices": [
+        "Naar de overheid, die het uitgeeft aan onder meer uitkeringen, onderwijs en subsidies",
+        "Naar het buitenland, dat het als export teruggeeft",
+        "Naar de huishoudens, als loon van bedrijven",
+        "Het verdwijnt uit de kringloop"
+      ],
+      "answer": "Naar de overheid, die het uitgeeft aan onder meer uitkeringen, onderwijs en subsidies",
+      "hints": [],
+      "solution": ["Belasting stroomt naar de overheid, die het via bestedingen en overdrachten weer in de kringloop brengt."],
+      "feedback": [
+        { "answer": "Het verdwijnt uit de kringloop", "message": "De overheid geeft belastinggeld weer uit, onder meer aan subsidies, onderwijs en uitkeringen." }
+      ],
+      "topics": ["macro"]
+    },
+    {
+      "id": "01-T09",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een fictief land heeft een consumptie van 410, investeringen van 150, overheidsbestedingen van 180, een export van 500 en een import van 470 (alles in miljarden euro). Bereken het bbp in miljarden euro.",
+      "answer": 770,
+      "hints": [],
+      "solution": ["$\\text{bbp} = C + I + G + X - M = 410 + 150 + 180 + 500 - 470 = 770$."],
+      "feedback": [
+        { "answer": 1240, "message": "Je hebt de import opgeteld in plaats van afgetrokken." }
+      ],
+      "topics": ["macro"]
+    },
+    {
+      "id": "01-T10",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een overheid vergoedt bedrijven een deel van de kosten van ingekochte onderzoeksuren. Zet de redenering in de juiste volgorde, van oorzaak naar gevolg.",
+      "answer": [
+        "Een uur onderzoek wordt netto goedkoper voor bedrijven",
+        "Bedrijven vragen bij elk tarief meer onderzoeksuren",
+        "De vraagcurve schuift naar rechts",
+        "Het tarief en de verhandelde hoeveelheid stijgen"
+      ],
+      "hints": [],
+      "solution": ["Door de vergoeding is een uur netto goedkoper, waardoor bedrijven bij elk tarief meer willen kopen. De vraagcurve schuift naar rechts, en langs de stijgende aanbodcurve nemen tarief en hoeveelheid toe."],
+      "feedback": [
+        {
+          "answer": [
+            "De vraagcurve schuift naar rechts",
+            "Een uur onderzoek wordt netto goedkoper voor bedrijven",
+            "Bedrijven vragen bij elk tarief meer onderzoeksuren",
+            "Het tarief en de verhandelde hoeveelheid stijgen"
+          ],
+          "message": "De verschuiving van de curve is het gevolg van de lagere netto prijs en de grotere gevraagde hoeveelheid, niet de oorzaak."
+        }
+      ],
+      "topics": ["supply-demand", "markets"]
+    }
+  ]
+}

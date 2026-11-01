@@ -1,0 +1,204 @@
+{
+  "exercises": [
+    {
+      "id": "02-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een fabriek verkoopt een product met vraag $P = 100 - Q$ en marginale kosten $30 + Q$ (P in euro, Q in duizenden stuks). De uitstoot kost anderen € 20 per stuk. Hoeveel duizend stuks produceert de fabriek in de marktuitkomst?",
+      "answer": 35,
+      "unit": "duizend stuks",
+      "hints": ["Het bedrijf houdt alleen rekening met zijn eigen kosten.", "Los $100 - Q = 30 + Q$ op."],
+      "solution": ["$100 - Q = 30 + Q$", "$70 = 2Q$, dus $Q = 35$."],
+      "feedback": [
+        { "answer": 25, "message": "Dat is het maatschappelijk optimum, waarin de externe kosten van € 20 meetellen. Het bedrijf zelf houdt daar geen rekening mee." }
+      ],
+      "topics": ["externalities"]
+    },
+    {
+      "id": "02-002",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een fabriek verkoopt een product met vraag $P = 100 - Q$ en marginale kosten voor het bedrijf van $30 + Q$ (P in euro, Q in duizenden stuks). De uitstoot kost anderen € 20 per stuk. Hoeveel duizend stuks is maatschappelijk optimaal?",
+      "answer": 25,
+      "unit": "duizend stuks",
+      "hints": ["De maatschappelijke marginale kosten zijn de private kosten plus de externe kosten: $50 + Q$.", "Stel $100 - Q = 50 + Q$."],
+      "solution": ["Maatschappelijke marginale kosten: $30 + Q + 20 = 50 + Q$.", "$100 - Q = 50 + Q$, dus $Q = 25$.", "Een belasting van € 20 per stuk (gelijk aan de externe kosten) brengt het bedrijf zelf naar deze hoeveelheid."],
+      "feedback": [
+        { "answer": 35, "message": "Dat is de marktuitkomst zonder de externe kosten mee te rekenen." }
+      ],
+      "topics": ["externalities"]
+    },
+    {
+      "id": "02-003",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Op de markt voor onderzoek zijn de private marginale baten $90 - Q$ en de marginale kosten $10 + Q$ (in duizend euro per eenheid). Elke eenheid levert daarnaast 16 aan spillovers op, zodat de maatschappelijke baten $106 - Q$ zijn. De markt kiest $Q = 40$, het optimum is $Q = 48$. Hoe groot is het gemiste voordeel (de driehoek) in duizend euro?",
+      "answer": 64,
+      "unit": "duizend €",
+      "hints": ["De driehoek heeft als basis het verschil in hoeveelheid, 8.", "De hoogte is het verschil tussen maatschappelijke baten en kosten bij $Q = 40$."],
+      "solution": ["Bij $Q = 40$ zijn de maatschappelijke baten $106 - 40 = 66$ en de kosten $10 + 40 = 50$: een verschil van 16.", "Oppervlakte: ½ × 8 × 16 = 64 (duizend euro)."],
+      "feedback": [
+        { "answer": 128, "message": "Je hebt de factor ½ van de driehoek vergeten." }
+      ],
+      "topics": ["externalities", "public-goods"]
+    },
+    {
+      "id": "02-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een dijk beschermt alle inwoners van een gebied. Niemand kan worden uitgesloten van de bescherming en de bescherming van de één vermindert die van de ander niet. Wat voor goed is een dijk?",
+      "choices": ["Een zuiver publiek goed", "Een privaat goed", "Een clubgoed", "Een gemeenschappelijk goed"],
+      "answer": "Een zuiver publiek goed",
+      "hints": ["Kijk naar de twee eigenschappen: uitsluitbaar en rivaliserend."],
+      "solution": ["Niet-uitsluitbaar en niet-rivaliserend: een zuiver publiek goed."],
+      "feedback": [
+        { "answer": "Een clubgoed", "message": "Een clubgoed is wel uitsluitbaar (denk aan een abonnement). Bij een dijk kun je niemand buitensluiten." }
+      ],
+      "topics": ["public-goods"]
+    },
+    {
+      "id": "02-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een visbestand op open zee is niet uitsluitbaar, maar wel rivaliserend: wat de één vangt, kan een ander niet meer vangen. Welk probleem hoort daarbij?",
+      "choices": [
+        "Overbenutting, omdat ieder zijn eigen vangst maximaliseert",
+        "Onderproductie, omdat niemand het wil financieren",
+        "Marktmacht van één visser",
+        "Informatieasymmetrie tussen vissers en kopers"
+      ],
+      "answer": "Overbenutting, omdat ieder zijn eigen vangst maximaliseert",
+      "hints": ["Als het gebruik door de één ten koste van een ander gaat en niemand kan worden uitgesloten, wat gebeurt er dan met het bestand?"],
+      "solution": ["Een gemeenschappelijk goed (rivaliserend, niet uitsluitbaar) wordt overbenut: ieder houdt maar een deel van de schade aan het bestand voor eigen rekening."],
+      "feedback": [
+        { "answer": "Onderproductie, omdat niemand het wil financieren", "message": "Dat is het probleem van een zuiver publiek goed. Bij een rivaliserend goed is het gevaar vooral overbenutting." }
+      ],
+      "topics": ["public-goods"]
+    },
+    {
+      "id": "02-006",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een onderzoeksproject kost € 500.000, levert het bedrijf zelf € 350.000 op en levert aan andere bedrijven € 250.000 aan spillovers. Hoeveel euro subsidie is minimaal nodig om het project voor het bedrijf break-even te maken?",
+      "answer": 150000,
+      "unit": "€",
+      "hints": ["Vergelijk de private baten met de kosten."],
+      "solution": ["Het bedrijf verliest $500.000 - 350.000 = 150.000$.", "Een subsidie van € 150.000 maakt het project break-even. De samenleving wint: baten € 600.000 tegen kosten € 500.000."],
+      "feedback": [
+        { "answer": 250000, "message": "Dat is de grootte van de spillover. Om het project voor het bedrijf break-even te maken is alleen het private verlies nodig." }
+      ],
+      "topics": ["public-goods", "externalities"]
+    },
+    {
+      "id": "02-007",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een bank kan goede en slechte projecten van startende ondernemers niet van elkaar onderscheiden en vraagt daarom aan iedereen een hoge rente. Welke ondernemers haken dan het eerst af?",
+      "choices": [
+        "Die met goede projecten, omdat zij die rente onredelijk hoog vinden",
+        "Die met slechte projecten, omdat die toch niet slagen",
+        "Alle ondernemers even vaak",
+        "Geen enkele: de rente heeft geen effect op de vraag"
+      ],
+      "answer": "Die met goede projecten, omdat zij die rente onredelijk hoog vinden",
+      "hints": ["Denk aan het citroenenverhaal van Akerlof."],
+      "solution": ["Een hoge gemiddelde rente is voor goede projecten te duur, voor slechte projecten niet. De goede haken af: averechtse selectie."],
+      "feedback": [
+        { "answer": "Die met slechte projecten, omdat die toch niet slagen", "message": "Wie weet dat zijn project slecht is, heeft er juist baat bij dat de bank hem niet onderscheidt." }
+      ],
+      "topics": ["market-failure"]
+    },
+    {
+      "id": "02-008",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een monopolist beperkt zijn productie om een hogere prijs te vragen. Wat is het gevolg voor de samenleving?",
+      "choices": [
+        "Kopers die het goed meer waard vinden dan de kosten, kopen het niet: er gaat welvaart verloren",
+        "De samenleving wint, want de prijs is hoger",
+        "Er verandert niets, want de winst van de monopolist is precies het verlies van kopers",
+        "De productie neemt toe"
+      ],
+      "answer": "Kopers die het goed meer waard vinden dan de kosten, kopen het niet: er gaat welvaart verloren",
+      "hints": ["Wat gebeurt er met kopers die het goed net iets meer waard vinden dan het kost om het te maken?"],
+      "solution": ["De hogere prijs verplaatst geld van kopers naar de monopolist, en sluit bovendien kopers uit met een betalingsbereidheid boven de marginale kosten. Dat verlies is het welvaartsverlies."],
+      "feedback": [
+        { "answer": "Er verandert niets, want de winst van de monopolist is precies het verlies van kopers", "message": "Een deel is overdracht, maar daarnaast verdwijnen ruilen die voor beide partijen voordelig waren." }
+      ],
+      "topics": ["market-failure"]
+    },
+    {
+      "id": "02-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welk instrument past in beginsel bij een positief extern effect, zoals een kennisspillover?",
+      "choices": ["Een subsidie ter grootte van de spillover", "Een belasting ter grootte van de spillover", "Een verbod", "Niets, want de markt lost het zelf op"],
+      "answer": "Een subsidie ter grootte van de spillover",
+      "hints": ["Bij een negatief extern effect past een belasting. Wat is het spiegelbeeld?"],
+      "solution": ["Een subsidie brengt de private baten omhoog tot het maatschappelijke niveau, zodat het bedrijf meer onderzoek doet."],
+      "feedback": [
+        { "answer": "Een belasting ter grootte van de spillover", "message": "Een belasting maakt de activiteit duurder en verkleint de hoeveelheid. Bij een positief effect is er juist te weinig." }
+      ],
+      "topics": ["government", "externalities"]
+    },
+    {
+      "id": "02-010",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welk van de volgende voorbeelden is overheidsfalen?",
+      "choices": [
+        "Een regeling die vooral bedrijven helpt die toch al onderzoek deden, omdat de overheid dat niet kon zien",
+        "Een markt waarop een monopolist de prijs verhoogt",
+        "Een fabriek die uitstoot veroorzaakt zonder ervoor te betalen",
+        "Kopers van een tweedehands auto die de kwaliteit niet kennen"
+      ],
+      "answer": "Een regeling die vooral bedrijven helpt die toch al onderzoek deden, omdat de overheid dat niet kon zien",
+      "hints": ["Overheidsfalen is een tekortkoming van de ingreep zelf, niet van de markt."],
+      "solution": ["De overige drie zijn vormen van marktfalen. Het eerste voorbeeld laat zien hoe een ingreep door gebrek aan informatie zijn doel mist."],
+      "feedback": [
+        { "answer": "Een markt waarop een monopolist de prijs verhoogt", "message": "Dat is marktfalen (marktmacht), niet overheidsfalen." }
+      ],
+      "topics": ["government"]
+    },
+    {
+      "id": "02-011",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een project kost € 600.000, levert het bedrijf € 420.000 aan baten op en levert anderen € 330.000 aan spillovers. Hoeveel euro bedraagt het maatschappelijke saldo (alle baten min kosten)?",
+      "answer": 150000,
+      "unit": "€",
+      "hints": ["Tel de private baten en spillovers bij elkaar op."],
+      "solution": ["Totale baten: $420.000 + 330.000 = 750.000$.", "Saldo: $750.000 - 600.000 = 150.000$."],
+      "feedback": [
+        { "answer": -180000, "message": "Dat is het private saldo van het bedrijf. Het maatschappelijke saldo telt ook de spillovers mee." }
+      ],
+      "topics": ["externalities", "government"]
+    },
+    {
+      "id": "02-012",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een project kost € 600.000, levert het bedrijf € 420.000 aan baten op en levert anderen € 330.000 aan spillovers. Het bedrijf voert het project uit zodra het private saldo ten minste nul is. Welke subsidie in euro is minimaal nodig?",
+      "answer": 180000,
+      "unit": "€",
+      "hints": ["Het private saldo is baten min kosten."],
+      "solution": ["Privaat saldo: $420.000 - 600.000 = -180.000$.", "Een subsidie van € 180.000 maakt het saldo nul. Meer is niet nodig om het besluit om te draaien, en een subsidie van € 330.000 (de volledige spillover) zou meer zijn dan nodig."],
+      "feedback": [
+        { "answer": 330000, "message": "Dat is de spillover. De subsidie hoeft alleen het private verlies te dekken, hier € 180.000." }
+      ],
+      "topics": ["government", "externalities"]
+    }
+  ]
+}

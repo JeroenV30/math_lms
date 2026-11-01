@@ -3,9 +3,9 @@
   "slug": "overheid-en-marktfalen",
   "title": "Overheid en marktfalen",
   "part": 1,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 100,
   "prerequisites": [
     1
   ],
@@ -17,5 +17,84 @@
   ],
   "core_question": "Wanneer leidt de markt niet tot de beste uitkomst, en wat kan de overheid daaraan doen?",
   "summary": "Externe effecten, publieke goederen, kennisspillovers, informatieproblemen en de instrumenten van de overheid: regels, belasting en subsidie.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een artikel uit 1962",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "externe-effecten-en-publieke-goederen",
+      "title": "Externe effecten en publieke goederen",
+      "file": "02-externe-effecten-en-publieke-goederen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "kennis-informatie-en-marktmacht",
+      "title": "Kennis, informatie en marktmacht",
+      "file": "03-kennis-informatie-en-marktmacht.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "instrumenten-en-casus",
+      "title": "Instrumenten, overheidsfalen en een casus",
+      "file": "04-instrumenten-en-casus.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt marktfalen beschrijven en de vier hoofdvormen onderscheiden.",
+    "Je kunt negatieve en positieve externe effecten in een model uitrekenen en het maatschappelijk optimum bepalen.",
+    "Je kunt uitleggen waarom kennis spillovers heeft en waarom bedrijven daardoor te weinig onderzoek doen.",
+    "Je kunt publieke goederen herkennen aan niet-uitsluitbaarheid en niet-rivaliteit.",
+    "Je kunt informatieasymmetrie en marktmacht uitleggen als oorzaak van marktfalen.",
+    "Je kunt de instrumenten van de overheid (regels, belasting, subsidie, publieke levering) koppelen aan een probleem en overheidsfalen benoemen."
+  ],
+  "glossary": [
+    {
+      "term": "Marktfalen",
+      "definition": "Een situatie waarin de markt een uitkomst levert die voor de samenleving niet de beste is."
+    },
+    {
+      "term": "Extern effect",
+      "definition": "Een kost of baat van een activiteit die terechtkomt bij een derde, zonder dat daar in de prijs rekening mee wordt gehouden."
+    },
+    {
+      "term": "Pigou-belasting",
+      "definition": "Een belasting ter grootte van de externe kosten, zodat de veroorzaker ze meeweegt."
+    },
+    {
+      "term": "Kennisspillover",
+      "definition": "Het voordeel dat anderen hebben van kennis die een bedrijf heeft ontwikkeld."
+    },
+    {
+      "term": "Publiek goed",
+      "definition": "Een goed dat niet-uitsluitbaar en niet-rivaliserend is."
+    },
+    {
+      "term": "Free-rider",
+      "definition": "Iemand die profiteert van een goed zonder eraan bij te dragen."
+    },
+    {
+      "term": "Informatieasymmetrie",
+      "definition": "Een situatie waarin de ene partij meer weet dan de andere."
+    },
+    {
+      "term": "Marktmacht",
+      "definition": "De mogelijkheid van een aanbieder om de prijs te beïnvloeden."
+    },
+    {
+      "term": "Overheidsfalen",
+      "definition": "Het tekortschieten van een overheidsingreep, door gebrek aan informatie, lobby of uitvoeringskosten."
+    }
+  ],
+  "timeline": [],
+  "people": []
 }

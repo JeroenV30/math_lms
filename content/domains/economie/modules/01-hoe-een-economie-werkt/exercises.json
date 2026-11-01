@@ -1,0 +1,188 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat zijn de opportuniteitskosten van een keuze?",
+      "choices": [
+        "De waarde van het beste alternatief dat je daardoor laat liggen",
+        "Alle uitgaven die je voor de keuze hebt gedaan",
+        "De som van de waarde van alle alternatieven",
+        "Alleen de kosten die op de factuur staan"
+      ],
+      "answer": "De waarde van het beste alternatief dat je daardoor laat liggen",
+      "hints": ["Denk aan wat je anders had gedaan met dezelfde tijd of hetzelfde geld."],
+      "solution": ["Opportuniteitskosten zijn de waarde van het beste alternatief dat je laat liggen, niet van alle alternatieven samen en niet alleen de zichtbare uitgaven."],
+      "feedback": [
+        { "answer": "De som van de waarde van alle alternatieven", "message": "Je kunt maar één alternatief kiezen: telt alleen het beste alternatief mee." },
+        { "answer": "Alle uitgaven die je voor de keuze hebt gedaan", "message": "Gemaakte uitgaven die niet meer terug te krijgen zijn, zijn sunk costs en horen niet bij de opportuniteitskosten van een nieuwe keuze." }
+      ],
+      "topics": ["scarcity"]
+    },
+    {
+      "id": "01-002",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een adviseur kan een dag van 8 uur besteden aan het schrijven van een eigen kennisartikel, of diezelfde dag werken voor een klant tegen € 90 per uur. Hoeveel euro zijn de opportuniteitskosten van het schrijven van het artikel?",
+      "answer": 720,
+      "unit": "€",
+      "hints": ["Het beste alternatief is het werk voor de klant.", "Vermenigvuldig het aantal uren met het uurtarief."],
+      "solution": ["Het beste alternatief is klantwerk: 8 uur × € 90.", "8 × 90 = 720, dus de opportuniteitskosten zijn € 720."],
+      "feedback": [
+        { "answer": 90, "message": "Dat is het uurtarief. Het artikel kost een hele dag van 8 uur." }
+      ],
+      "topics": ["scarcity"]
+    },
+    {
+      "id": "01-003",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bedrijf X kan per week 10 rapporten schrijven of 5 prototypes bouwen. Hoeveel rapporten laat X liggen voor het bouwen van één prototype?",
+      "answer": 2,
+      "hints": ["Deel het aantal rapporten door het aantal prototypes."],
+      "solution": ["Een week besteed aan prototypes levert 5 prototypes in plaats van 10 rapporten.", "Per prototype gaan 10 / 5 = 2 rapporten verloren."],
+      "topics": ["scarcity", "markets"]
+    },
+    {
+      "id": "01-004",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bedrijf X kan per week 10 rapporten schrijven of 5 prototypes bouwen. Bedrijf Y kan per week 4 rapporten schrijven of 4 prototypes bouwen. Wie heeft comparatief voordeel in het bouwen van prototypes?",
+      "choices": ["Bedrijf Y", "Bedrijf X", "Geen van beide", "Allebei evenveel"],
+      "answer": "Bedrijf Y",
+      "hints": ["Bereken voor elk bedrijf hoeveel rapporten één prototype kost."],
+      "solution": ["Voor X kost één prototype 10 / 5 = 2 rapporten.", "Voor Y kost één prototype 4 / 4 = 1 rapport.", "Y laat minder liggen en heeft dus comparatief voordeel in prototypes, ook al is X in absolute zin productiever."],
+      "feedback": [
+        { "answer": "Bedrijf X", "message": "X produceert in absolute aantallen meer, maar het gaat om wat het bedrijf moet laten liggen. Dat is voor X meer (2 rapporten) dan voor Y (1 rapport)." }
+      ],
+      "topics": ["scarcity", "markets"]
+    },
+    {
+      "id": "01-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Op een markt is de gevraagde hoeveelheid $Q_v = 90 - 3P$ en de aangeboden hoeveelheid $Q_a = 10 + 5P$. Wat is de evenwichtsprijs P?",
+      "answer": 10,
+      "hints": ["Evenwicht: $Q_v = Q_a$.", "Los $90 - 3P = 10 + 5P$ op."],
+      "solution": ["$90 - 3P = 10 + 5P$", "$80 = 8P$", "$P = 10$"],
+      "feedback": [
+        { "answer": 60, "message": "Dat is de evenwichtshoeveelheid ($90 - 30$). Er werd naar de prijs gevraagd." }
+      ],
+      "topics": ["supply-demand"]
+    },
+    {
+      "id": "01-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Op een markt is de gevraagde hoeveelheid $Q_v = 90 - 3P$ en de aangeboden hoeveelheid $Q_a = 10 + 5P$. Wat is de evenwichtshoeveelheid?",
+      "answer": 60,
+      "hints": ["Bereken eerst de evenwichtsprijs en vul die in."],
+      "solution": ["$90 - 3P = 10 + 5P$ geeft $P = 10$.", "$Q = 90 - 3 \\cdot 10 = 60$. Controle met het aanbod: $10 + 5 \\cdot 10 = 60$."],
+      "topics": ["supply-demand"]
+    },
+    {
+      "id": "01-007",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Op een markt is de gevraagde hoeveelheid $Q_v = 90 - 3P$ en de aangeboden hoeveelheid $Q_a = 10 + 5P$. De prijs ligt vast op 8. Hoeveel bedraagt het tekort (gevraagd min aangeboden hoeveelheid)?",
+      "answer": 16,
+      "hints": ["Bereken $Q_v$ en $Q_a$ bij $P = 8$."],
+      "solution": ["$Q_v = 90 - 24 = 66$", "$Q_a = 10 + 40 = 50$", "Tekort: $66 - 50 = 16$."],
+      "feedback": [
+        { "answer": -16, "message": "Je hebt het verschil de andere kant op genomen. Bij een prijs onder het evenwicht is de vraag groter dan het aanbod: dat is een tekort, geen overschot." }
+      ],
+      "topics": ["supply-demand"]
+    },
+    {
+      "id": "01-008",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een prijs stijgt met 10% en de gevraagde hoeveelheid daalt daardoor met 5%. Wat is de prijselasticiteit van de vraag? Geef een getal met teken, bijvoorbeeld −0,3.",
+      "answer": -0.5,
+      "tolerance": 0.0001,
+      "hints": ["Deel de procentuele verandering van de hoeveelheid door die van de prijs.", "De hoeveelheid daalt: let op het teken."],
+      "solution": ["$E = -5\\% / 10\\% = -0{,}5$.", "Omdat $|E| < 1$ is de vraag inelastisch."],
+      "feedback": [
+        { "answer": 0.5, "message": "De grootte klopt, maar de hoeveelheid daalt terwijl de prijs stijgt: de elasticiteit is dus negatief." },
+        { "answer": -2, "message": "Je hebt de breuk omgedraaid: het is de verandering van de hoeveelheid gedeeld door die van de prijs." }
+      ],
+      "topics": ["supply-demand"]
+    },
+    {
+      "id": "01-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "In de kringloop van de economie: welke stroom gaat van bedrijven naar huishoudens?",
+      "choices": [
+        "Inkomen (loon, huur, rente, winst)",
+        "Arbeid en kapitaal",
+        "Consumptieve bestedingen",
+        "Belastingen"
+      ],
+      "answer": "Inkomen (loon, huur, rente, winst)",
+      "hints": ["Wat krijgt een huishouden van een bedrijf voor het aanbieden van arbeid?"],
+      "solution": ["Huishoudens leveren arbeid en kapitaal aan bedrijven en ontvangen daarvoor inkomen. Hun bestedingen gaan de andere kant op."],
+      "feedback": [
+        { "answer": "Consumptieve bestedingen", "message": "Consumptie is geld dat van huishoudens naar bedrijven gaat, in ruil voor goederen en diensten." },
+        { "answer": "Arbeid en kapitaal", "message": "Arbeid en kapitaal gaan van huishoudens naar bedrijven; de stroom terug is het inkomen." }
+      ],
+      "topics": ["macro"]
+    },
+    {
+      "id": "01-010",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "In een fictief land is de consumptie 300, de investering 120, de overheidsbesteding 140, de export 260 en de import 240 (alles in miljarden euro). Bereken het bbp in miljarden euro.",
+      "answer": 580,
+      "unit": "mld €",
+      "hints": ["$\\text{bbp} = C + I + G + X - M$."],
+      "solution": ["$300 + 120 + 140 + 260 - 240 = 580$."],
+      "feedback": [
+        { "answer": 820, "message": "Je hebt de import niet afgetrokken. Import is besteding aan buitenlandse productie en telt niet mee in het binnenlands product." }
+      ],
+      "topics": ["macro"]
+    },
+    {
+      "id": "01-011",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Op de markt voor onderzoeksuren is de vraag van bedrijven $Q_v = 200 - 2P$ en het aanbod $Q_a = 20 + P$ (P is het uurtarief in euro). De overheid vergoedt bedrijven € 12 per ingekocht uur, zodat de vraag wordt $Q_v = 224 - 2P$. Wat wordt het evenwichtstarief dat onderzoekers ontvangen, in euro?",
+      "answer": 68,
+      "unit": "€",
+      "hints": ["Stel $224 - 2P = 20 + P$."],
+      "solution": ["$224 - 2P = 20 + P$", "$204 = 3P$, dus $P = 68$."],
+      "feedback": [
+        { "answer": 60, "message": "Dat is het tarief zonder subsidie. Met de subsidie schuift de vraag naar rechts, dus het tarief stijgt." },
+        { "answer": 56, "message": "Dat is het netto bedrag dat bedrijven betalen (68 min de subsidie van 12). Gevraagd wordt het tarief dat onderzoekers ontvangen." }
+      ],
+      "topics": ["supply-demand", "markets"]
+    },
+    {
+      "id": "01-012",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Op de markt voor onderzoeksuren is de vraag van bedrijven zonder subsidie $Q_v = 200 - 2P$ en het aanbod $Q_a = 20 + P$. Met een vergoeding van € 12 per uur wordt de vraag $Q_v = 224 - 2P$. Met hoeveel uur per week neemt de verhandelde hoeveelheid toe door de subsidie?",
+      "answer": 8,
+      "unit": "uur",
+      "hints": ["Bereken de hoeveelheid zonder subsidie (P = 60) en met subsidie (P = 68)."],
+      "solution": ["Zonder subsidie: $P = 60$ en $Q = 20 + 60 = 80$.", "Met subsidie: $P = 68$ en $Q = 20 + 68 = 88$.", "De toename is $88 - 80 = 8$ uur per week."],
+      "feedback": [
+        { "answer": 12, "message": "Dat is de subsidie per uur, niet de hoeveelheid. Vergelijk de evenwichtshoeveelheid vóór en na de subsidie." }
+      ],
+      "topics": ["supply-demand", "markets"]
+    }
+  ]
+}

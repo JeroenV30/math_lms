@@ -3,9 +3,9 @@
   "slug": "het-nederlandse-subsidielandschap",
   "title": "Het Nederlandse subsidielandschap",
   "part": 2,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 100,
   "prerequisites": [
     3
   ],
@@ -16,5 +16,85 @@
   ],
   "core_question": "Wie verstrekt in Nederland subsidies, voor wat, en binnen welke regels?",
   "summary": "Rijk en RVO, provincies en regio, Europese programma's, fiscale regelingen en de Europese staatssteunregels (AGVV, de-minimis).",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een formulier met één vraag over drie jaar",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "wie-verstrekt-wat",
+      "title": "Wie verstrekt wat",
+      "file": "02-wie-verstrekt-wat.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "staatssteun",
+      "title": "Staatssteun: verbod, uitzonderingen en de-minimis",
+      "file": "03-staatssteun.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casus-van-aanvraag-tot-vaststelling",
+      "title": "Casus: een subsidie van aanvraag tot vaststelling",
+      "file": "04-casus-van-aanvraag-tot-vaststelling.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen welk niveau (Rijk, provincie en regio, EU, fiscaal) welke steun verstrekt en wie het loket is.",
+    "Je kunt de manieren onderscheiden waarop een beperkt subsidiebudget wordt verdeeld.",
+    "Je kunt toetsen of een maatregel staatssteun is volgens artikel 107 VWEU en welke route openstaat.",
+    "Je kunt de ruimte onder het de-minimisplafond van een bedrijf berekenen en een steunintensiteit uit de AGVV toepassen.",
+    "Je kunt de stappen verlening, vaststelling en terugvordering uit de Awb beschrijven en doorrekenen."
+  ],
+  "glossary": [
+    {
+      "term": "RVO",
+      "definition": "Rijksdienst voor Ondernemend Nederland: uitvoeringsorganisatie van het Rijk voor veel subsidie- en fiscale regelingen."
+    },
+    {
+      "term": "ROM",
+      "definition": "Regionale ontwikkelingsmaatschappij die met publiek geld kredieten, risicokapitaal en advies verstrekt aan regionale bedrijven."
+    },
+    {
+      "term": "Gedeeld beheer",
+      "definition": "Werkwijze waarbij de Commissie het kader en budget van een EU-fonds vaststelt, maar lidstaat en regio het geld verdelen (bijvoorbeeld EFRO)."
+    },
+    {
+      "term": "Staatssteun",
+      "definition": "Selectief voordeel uit staatsmiddelen dat de mededinging en de handel tussen lidstaten kan beïnvloeden (art. 107 lid 1 VWEU)."
+    },
+    {
+      "term": "AGVV",
+      "definition": "Algemene groepsvrijstellingsverordening: beschrijft categorieën steun die zonder voorafgaande aanmelding verenigbaar zijn met de interne markt."
+    },
+    {
+      "term": "De-minimissteun",
+      "definition": "Zeer kleine steun, voor een onderneming maximaal € 300.000 per drie jaar (stand 2026), die niet als staatssteun geldt."
+    },
+    {
+      "term": "Steunintensiteit",
+      "definition": "Het percentage van de subsidiabele kosten dat als steun mag worden gegeven."
+    },
+    {
+      "term": "Verlening",
+      "definition": "Beschikking waarmee een bestuursorgaan een maximumbedrag subsidie toekent."
+    },
+    {
+      "term": "Vaststelling",
+      "definition": "Beschikking waarmee het definitieve subsidiebedrag wordt bepaald na verantwoording van de activiteiten."
+    },
+    {
+      "term": "Terugvordering",
+      "definition": "Het terugvragen van te veel betaalde subsidie, in beginsel binnen vijf jaar na de vaststelling."
+    }
+  ]
 }

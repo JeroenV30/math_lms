@@ -1,0 +1,220 @@
+{
+  "exercises": [
+    {
+      "id": "03-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "In welke situatie is een subsidie economisch het best te rechtvaardigen?",
+      "choices": [
+        "Een activiteit levert de samenleving baten op die de uitvoerder zelf niet ontvangt",
+        "Een bedrijf heeft last van hogere inkoopprijzen",
+        "Een sector zegt het zonder steun moeilijk te hebben",
+        "Een product wordt in het buitenland goedkoper geproduceerd"
+      ],
+      "answer": "Een activiteit levert de samenleving baten op die de uitvoerder zelf niet ontvangt",
+      "hints": ["Denk aan kennisspillovers: wie profiteert er van onderzoek, en wie betaalt ervoor?"],
+      "solution": ["Bij een positief extern effect zijn de maatschappelijke baten groter dan de private baten, zodat de markt te weinig levert. Een subsidie gelijk aan de externe baat corrigeert dat."],
+      "feedback": [
+        { "answer": "Een bedrijf heeft last van hogere inkoopprijzen", "message": "Een hogere prijs is een gewoon prijssignaal. Er is geen marktfalen, dus geen economisch argument voor steun." },
+        { "answer": "Een sector zegt het zonder steun moeilijk te hebben", "message": "Dat is een belang, geen marktfalen. De vraag is welk falen van de markt de subsidie oplost." }
+      ],
+      "topics": ["market-failure", "subsidy-design"]
+    },
+    {
+      "id": "03-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een subsidie per uur onderzoek is gelijk aan de externe baat per uur onderzoek. Wat gebeurt er met de welvaart als de overheid de subsidie verdubbelt?",
+      "choices": [
+        "Er wordt meer gedaan dan maatschappelijk wenselijk, en dat kost welvaart",
+        "De welvaart stijgt verder, want er wordt meer onderzoek gedaan",
+        "De welvaart verandert niet, want de subsidie is alleen een overdracht",
+        "De welvaart daalt niet, maar de prijs voor de afnemer stijgt"
+      ],
+      "answer": "Er wordt meer gedaan dan maatschappelijk wenselijk, en dat kost welvaart",
+      "hints": ["Vergelijk de maatschappelijke baat van het laatste uur met de kosten ervan."],
+      "solution": ["Bij een subsidie gelijk aan de externe baat is het gedrag optimaal. Een hogere subsidie lokt uren uit waarvan de maatschappelijke baat lager is dan de kosten. Dat is een welvaartsverlies (deadweight loss)."],
+      "feedback": [
+        { "answer": "De welvaart stijgt verder, want er wordt meer onderzoek gedaan", "message": "Meer is niet beter: bij het optimum is de marginale maatschappelijke baat gelijk aan de marginale kosten. Daarboven kosten extra uren meer dan ze opleveren." }
+      ],
+      "topics": ["subsidy-design", "market-failure"]
+    },
+    {
+      "id": "03-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een bank durft een risicovol innovatiekrediet niet te verstrekken omdat ze de kans op verlies te groot vindt. Welke vorm van overheidssteun sluit het best aan op dat probleem?",
+      "choices": [
+        "Een garantie die een deel van het verliesrisico van de bank overneemt",
+        "Een directe subsidie voor alle bedrijven in de sector",
+        "Een aanbesteding van een product dat het bedrijf niet maakt",
+        "Een belastingverlaging voor winstgevende bedrijven"
+      ],
+      "answer": "Een garantie die een deel van het verliesrisico van de bank overneemt",
+      "hints": ["Waar zit het falen: in de kosten van het project, of in het risico dat de financier loopt?"],
+      "solution": ["Het probleem is het risico voor de financier. Een garantie neemt dat risico gedeeltelijk weg; er vloeit pas geld als het misgaat."],
+      "feedback": [
+        { "answer": "Een belastingverlaging voor winstgevende bedrijven", "message": "Een startend bedrijf maakt vaak nog geen winst en heeft dus niets aan een winstafhankelijke korting." }
+      ],
+      "topics": ["subsidy-design"]
+    },
+    {
+      "id": "03-004",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke vorm van steun heeft als kenmerk dat de overheid de kosten pas achteraf kent, omdat ze meelopen met het aantal bedrijven dat aan de voorwaarden voldoet?",
+      "choices": [
+        "Een fiscale regeling zonder plafond",
+        "Een directe subsidie met een subsidieplafond",
+        "Een aanbesteding van één prototype",
+        "Een lening met vaste omvang"
+      ],
+      "answer": "Een fiscale regeling zonder plafond",
+      "hints": ["Bij welke vorm bepaalt de overheid vooraf het totaalbedrag, en bij welke niet?"],
+      "solution": ["Bij een fiscale regeling heeft ieder bedrijf dat aan de voorwaarden voldoet er recht op. De totale kosten zijn dus pas achteraf bekend."],
+      "topics": ["subsidy-design"]
+    },
+    {
+      "id": "03-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "In een markt voor onderzoeksuren is de vraag $Q_v = 100 - P$ en het aanbod $Q_a = 2P - 20$, met $Q$ in duizenden uren en $P$ in euro per uur. Wat is de evenwichtsprijs in euro per uur?",
+      "answer": 40,
+      "unit": "€",
+      "hints": ["Stel vraag en aanbod gelijk: $100 - P = 2P - 20$."],
+      "solution": ["$100 - P = 2P - 20$", "$120 = 3P$, dus $P = 40$."],
+      "feedback": [
+        { "answer": 60, "message": "60 is de evenwichtshoeveelheid (in duizenden uren), niet de prijs." }
+      ],
+      "topics": ["supply-demand", "subsidy-effects"]
+    },
+    {
+      "id": "03-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "In een markt is de vraag $Q_v = 100 - P$ en het aanbod $Q_a = 2P - 20$ ($Q$ in duizenden uren, $P$ in euro per uur). De overheid geeft de afnemers een subsidie van € 15 per uur. De afnemer betaalt dan $P - 15$. Wat is de nieuwe evenwichtshoeveelheid, in duizenden uren?",
+      "answer": 70,
+      "hints": ["De nieuwe vraagfunctie is $Q_v = 100 - (P - 15) = 115 - P$.", "Stel $115 - P = 2P - 20$ en bereken $P$, daarna $Q$."],
+      "solution": ["$115 - P = 2P - 20$, dus $3P = 135$ en $P = 45$.", "$Q = 2 \\times 45 - 20 = 70$."],
+      "feedback": [
+        { "answer": 45, "message": "45 is de prijs die de aanbieder ontvangt. Gevraagd is de hoeveelheid: vul de prijs in het aanbod of de vraag in." },
+        { "answer": 10, "message": "10 is de toename van de hoeveelheid, niet de nieuwe hoeveelheid. Zonder subsidie was die 60." }
+      ],
+      "topics": ["subsidy-effects", "supply-demand"]
+    },
+    {
+      "id": "03-007",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een subsidie van € 15 per uur onderzoek wordt betaald voor 70.000 uren, de hoeveelheid die na de subsidie wordt afgenomen. Hoeveel euro kost de subsidie de overheid?",
+      "answer": 1050000,
+      "unit": "€",
+      "hints": ["De overheid betaalt voor alle uren die worden afgenomen, niet alleen voor de extra uren."],
+      "solution": ["$15 \\times 70.000 = 1.050.000$ euro."],
+      "feedback": [
+        { "answer": 150000, "message": "Dat is € 15 maal alleen de extra 10.000 uren. De subsidie wordt echter ook uitbetaald voor de uren die toch al werden gedaan." },
+        { "answer": 900000, "message": "Dat is € 15 maal de oorspronkelijke 60.000 uren. De extra 10.000 uren worden ook gesubsidieerd." }
+      ],
+      "topics": ["subsidy-effects"]
+    },
+    {
+      "id": "03-008",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een subsidie van € 15 per uur kost de overheid in totaal € 1.050.000 en zorgt voor 10.000 extra uren onderzoek. Hoeveel euro kost de overheid elk extra uur gemiddeld?",
+      "answer": 105,
+      "unit": "€",
+      "hints": ["Deel de totale kosten door het aantal extra uren."],
+      "solution": ["$1.050.000 / 10.000 = 105$ euro per extra uur, ruim zeven keer het subsidiebedrag per uur."],
+      "feedback": [
+        { "answer": 15, "message": "Dat is het subsidiebedrag per uur. Het gaat om de kosten per extra uur: alle betaalde subsidie gedeeld door alleen de extra uren." }
+      ],
+      "topics": ["subsidy-effects"]
+    },
+    {
+      "id": "03-009",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een regeling vergoedt 40% van de loonkosten van onderzoekers. Er zijn weinig onderzoekers beschikbaar, en bedrijven zonder subsidie concurreren om dezelfde mensen. Wat is verdringing in deze situatie?",
+      "choices": [
+        "Het extra onderzoek bij ontvangers gaat deels ten koste van onderzoek bij bedrijven zonder subsidie, doordat de lonen stijgen",
+        "Ontvangers doen het onderzoek ook zonder subsidie",
+        "De overheid betaalt zowel de subsidie als de administratieve kosten",
+        "Bedrijven verplaatsen hun onderzoek naar het buitenland"
+      ],
+      "answer": "Het extra onderzoek bij ontvangers gaat deels ten koste van onderzoek bij bedrijven zonder subsidie, doordat de lonen stijgen",
+      "hints": ["Verdringing gaat over een neveneffect op anderen, niet over het gedrag van de ontvanger zelf."],
+      "solution": ["Door de subsidie stijgt de vraag naar schaarse onderzoekers, en dus hun loon. Bedrijven zonder subsidie gaan minder doen. Het nettoeffect is kleiner dan het effect bij de ontvangers."],
+      "feedback": [
+        { "answer": "Ontvangers doen het onderzoek ook zonder subsidie", "message": "Dat is meeliftgedrag (deadweight), een ander verschijnsel. Verdringing betreft het effect op anderen." }
+      ],
+      "topics": ["subsidy-effects"]
+    },
+    {
+      "id": "03-010",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet de stappen van een goede beleidsevaluatie in de logische volgorde, de eerste stap eerst.",
+      "answer": [
+        "Een meetbaar doel en resultaat vastleggen",
+        "De uitgangssituatie van ontvangers en een vergelijkingsgroep meten",
+        "De regeling laten lopen",
+        "De ontwikkeling van beide groepen vergelijken",
+        "Conclusies trekken over bijsturing of afschaffing"
+      ],
+      "hints": ["Zonder meting vooraf kun je achteraf geen verschil vaststellen."],
+      "solution": ["Eerst het doel, dan de nulmeting, dan de uitvoering, dan de vergelijking, en pas dan conclusies."],
+      "feedback": [
+        { "answer": [
+          "De regeling laten lopen",
+          "Een meetbaar doel en resultaat vastleggen",
+          "De uitgangssituatie van ontvangers en een vergelijkingsgroep meten",
+          "De ontwikkeling van beide groepen vergelijken",
+          "Conclusies trekken over bijsturing of afschaffing"
+        ], "message": "Een evaluatie die pas na afloop begint, mist de nulmeting en het doel. Die horen vóór de uitvoering te liggen." }
+      ],
+      "topics": ["subsidy-effects"]
+    },
+    {
+      "id": "03-011",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een regeling betaalt aan 40 projecten elk € 30.000. Volgens een enquête zouden 10 projecten zonder subsidie niet zijn gestart, 20 projecten in halve omvang zijn doorgegaan en 10 projecten volledig zijn doorgegaan. Neem aan dat een kleiner project voor de helft additioneel is. Hoeveel euro kost de regeling per extra projectequivalent?",
+      "answer": 60000,
+      "unit": "€",
+      "hints": ["Tel eerst de additionele projectequivalenten: volledig additioneel plus de helft van de halve projecten.", "Deel daarna de totale subsidie door dat aantal."],
+      "solution": ["Additionele equivalenten: $10 + 20 \\times 0{,}5 = 20$.", "Totale subsidie: $40 \\times 30.000 = 1.200.000$.", "Per extra projectequivalent: $1.200.000 / 20 = 60.000$ euro."],
+      "feedback": [
+        { "answer": 30000, "message": "Dat is de subsidie per gehonoreerd project. Deel de totale kosten door het aantal additionele projectequivalenten (20), niet door alle 40 projecten." }
+      ],
+      "topics": ["subsidy-effects"]
+    },
+    {
+      "id": "03-012",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 5,
+      "question": "Een provincie betaalt € 40.000 per project. In de eerste ronde zijn 50 projecten gehonoreerd: 20 volledig additioneel, 10 voor de helft additioneel en 20 volledig meeliftend. In de volgende ronde weet de provincie de helft van de volledig meeliftende projecten niet te honoreren, terwijl de overige 40 projecten dezelfde additionaliteit hebben. Hoeveel euro kost de regeling dan per extra projectequivalent?",
+      "answer": 64000,
+      "unit": "€",
+      "hints": ["Het aantal additionele equivalenten blijft gelijk aan dat van de eerste ronde. Wat verandert er in de kosten?"],
+      "solution": ["Additionele equivalenten: $20 + 10 \\times 0{,}5 = 25$, ongewijzigd.", "Kosten: $40 \\times 40.000 = 1.600.000$ euro.", "Per extra projectequivalent: $1.600.000 / 25 = 64.000$ euro, tegen € 80.000 in de eerste ronde."],
+      "feedback": [
+        { "answer": 80000, "message": "Dat zijn de kosten in de eerste ronde, met alle 50 projecten. In de nieuwe ronde vallen 10 meeliftende projecten weg, en dus ook hun kosten." },
+        { "answer": 40000, "message": "Dat is de subsidie per project. Deel de totale kosten (€ 1.600.000) door de 25 additionele equivalenten." }
+      ],
+      "topics": ["subsidy-effects", "subsidy-design"]
+    }
+  ]
+}

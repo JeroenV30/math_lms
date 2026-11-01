@@ -3,9 +3,9 @@
   "slug": "subsidies-waarom-en-hoe",
   "title": "Subsidies: waarom en hoe",
   "part": 2,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 100,
   "prerequisites": [
     2
   ],
@@ -16,5 +16,89 @@
   ],
   "core_question": "Wanneer is een subsidie een goed idee, en hoe weet je of ze werkt?",
   "summary": "De rechtvaardiging van subsidies, vormen (directe subsidie, fiscale regeling, krediet, garantie), additionaliteit, deadweight en evaluatie.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een uur onderzoek dat toch al gebeurde",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "waarom-en-vormen",
+      "title": "Waarom subsidiëren, en in welke vorm?",
+      "file": "02-waarom-en-vormen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "effect-en-evaluatie",
+      "title": "Wat een subsidie doet, en hoe je dat meet",
+      "file": "03-effect-en-evaluatie.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casus-innovatieregeling",
+      "title": "Casus: de provincie en het innovatieproject",
+      "file": "04-casus-innovatieregeling.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen wanneer een subsidie economisch te rechtvaardigen is en wanneer niet.",
+    "Je kunt de vormen van overheidssteun onderscheiden: directe subsidie, fiscale regeling, lening, garantie en aanbesteding.",
+    "Je kunt het effect van een subsidie in een vraag-en-aanbodmodel berekenen: prijs, hoeveelheid, kosten en verdeling van het voordeel.",
+    "Je kunt additionaliteit, meeliftgedrag en de kosten per extra eenheid berekenen en interpreteren.",
+    "Je kunt beschrijven hoe een subsidie wordt geëvalueerd en waarom het tegenfeitelijke scenario daarbij centraal staat."
+  ],
+  "glossary": [
+    {
+      "term": "Subsidie",
+      "definition": "Overheidssteun die de kosten of risico's van een activiteit voor de ontvanger verlaagt."
+    },
+    {
+      "term": "Additionaliteit",
+      "definition": "Het deel van de activiteit dat er zonder de subsidie niet zou zijn geweest."
+    },
+    {
+      "term": "Meeliftgedrag (deadweight)",
+      "definition": "Steun aan activiteiten die ook zonder subsidie zouden plaatsvinden."
+    },
+    {
+      "term": "Deadweight loss",
+      "definition": "Het welvaartsverlies dat ontstaat wanneer een subsidie groter is dan de externe baat."
+    },
+    {
+      "term": "Verdringing",
+      "definition": "Het effect dat extra activiteit bij ontvangers ten koste gaat van activiteit bij anderen, bijvoorbeeld doordat schaarse productiemiddelen duurder worden."
+    },
+    {
+      "term": "Belastinguitgave",
+      "definition": "Een korting in een belasting die de schatkist misloopt; economisch gelijk aan een subsidie."
+    },
+    {
+      "term": "Garantie",
+      "definition": "Steun waarbij de overheid een deel van het verliesrisico van een financier overneemt."
+    },
+    {
+      "term": "Tegenfeitelijk scenario",
+      "definition": "Wat er zonder het beleid zou zijn gebeurd; het vergelijkingspunt van elke evaluatie."
+    },
+    {
+      "term": "Pigou-subsidie",
+      "definition": "Een subsidie gelijk aan de externe baat per eenheid, die een positief extern effect corrigeert."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Kosten per extra eenheid",
+      "latex": "\\frac{\\text{totale subsidie}}{\\text{additionele eenheden}}",
+      "usage": "Maakt zichtbaar hoeveel de overheid betaalt voor elke eenheid die door de subsidie echt extra ontstaat.",
+      "origin": "Standaardmaat in beleidsevaluatie"
+    }
+  ]
 }

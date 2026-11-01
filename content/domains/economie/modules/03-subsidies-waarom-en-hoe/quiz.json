@@ -1,0 +1,109 @@
+{
+  "title": "Hoofdstuktoets – Subsidies: waarom en hoe",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "03-T01",
+      "type": "choice",
+      "difficulty": 1,
+      "question": "Wat doet een subsidie economisch gezien in de eerste plaats?",
+      "choices": ["Ze verlaagt de prijs van een activiteit voor de ontvanger", "Ze verhoogt de belasting op een activiteit", "Ze verbiedt een activiteit", "Ze vervangt de markt door een planeconomie"],
+      "answer": "Ze verlaagt de prijs van een activiteit voor de ontvanger",
+      "solution": ["Een subsidie maakt een activiteit voor de ontvanger goedkoper, waardoor die er naar verwachting meer van doet."],
+      "topics": ["subsidy-design"]
+    },
+    {
+      "id": "03-T02",
+      "type": "choice",
+      "difficulty": 1,
+      "question": "Waarom investeren private bedrijven volgens Kenneth Arrow te weinig in kennis?",
+      "choices": ["Kennis is moeilijk exclusief te houden, dus een deel van de baat gaat naar anderen", "Kennis is altijd te duur om te produceren", "Bedrijven weten niet hoe ze onderzoek moeten doen", "Onderzoek levert nooit winst op"],
+      "answer": "Kennis is moeilijk exclusief te houden, dus een deel van de baat gaat naar anderen",
+      "solution": ["Kennis heeft kenmerken van een publiek goed: ze verspreidt zich. De private baat is kleiner dan de maatschappelijke baat, dus de markt levert te weinig."],
+      "topics": ["market-failure"]
+    },
+    {
+      "id": "03-T03",
+      "type": "choice",
+      "difficulty": 2,
+      "question": "Een overheid wil dat bedrijven in kleine mkb-ondernemingen op grote schaal meer onderzoeksuren inzetten, tegen lage uitvoeringskosten. Welke vorm past daar het best bij?",
+      "choices": ["Een fiscale regeling die een deel van de loonkosten vergoedt", "Een afzonderlijke inhoudelijke beoordeling van elk project", "Een aanbesteding van één prototype", "Een garantie voor één bank"],
+      "answer": "Een fiscale regeling die een deel van de loonkosten vergoedt",
+      "solution": ["Een fiscale regeling is breed toegankelijk en heeft weinig selectiekosten vooraf. Een directe subsidie met inhoudelijke toets past bij kostbare, unieke projecten."],
+      "topics": ["subsidy-design"]
+    },
+    {
+      "id": "03-T04",
+      "type": "numeric",
+      "difficulty": 2,
+      "question": "De vraag naar een product is $Q_v = 80 - P$ en het aanbod is $Q_a = P - 10$. Wat is de evenwichtsprijs in euro?",
+      "answer": 45,
+      "unit": "€",
+      "solution": ["$80 - P = P - 10$, dus $2P = 90$ en $P = 45$."],
+      "topics": ["supply-demand"]
+    },
+    {
+      "id": "03-T05",
+      "type": "numeric",
+      "difficulty": 3,
+      "question": "De vraag naar een product is $Q_v = 80 - P$ en het aanbod is $Q_a = P - 10$. De overheid geeft de afnemers een subsidie van € 10 per eenheid, zodat de afnemer $P - 10$ betaalt. Wat is de nieuwe evenwichtshoeveelheid?",
+      "answer": 40,
+      "solution": ["De vraag wordt $Q_v = 80 - (P - 10) = 90 - P$.", "$90 - P = P - 10$, dus $P = 50$ en $Q = 50 - 10 = 40$."],
+      "feedback": [{ "answer": 35, "message": "35 is de oorspronkelijke hoeveelheid ($P = 45$ geeft $Q = 35$). Reken met de verschoven vraagfunctie." }],
+      "topics": ["subsidy-effects"]
+    },
+    {
+      "id": "03-T06",
+      "type": "choice",
+      "difficulty": 3,
+      "question": "Een subsidie van € 10 per eenheid verhoogt de prijs die de aanbieder ontvangt van € 45 naar € 50, en verlaagt de prijs die de afnemer betaalt van € 45 naar € 40. Wie profiteert van de subsidie, en hoeveel?",
+      "choices": ["De afnemer € 5 en de aanbieder € 5 per eenheid", "Alleen de afnemer, want hij ontvangt de subsidie", "Alleen de aanbieder, want zijn prijs stijgt", "De overheid, want zij betaalt"],
+      "answer": "De afnemer € 5 en de aanbieder € 5 per eenheid",
+      "solution": ["De afnemer betaalt € 5 minder (45 naar 40), de aanbieder ontvangt € 5 meer (45 naar 50). Samen € 10, het subsidiebedrag."],
+      "feedback": [{ "answer": "Alleen de afnemer, want hij ontvangt de subsidie", "message": "Wie de subsidie formeel ontvangt, bepaalt niet wie profiteert. Ook de aanbieder krijgt een hogere prijs." }],
+      "topics": ["subsidy-effects"]
+    },
+    {
+      "id": "03-T07",
+      "type": "numeric",
+      "difficulty": 3,
+      "question": "Een subsidie van € 20 per eenheid leidt tot een afname van 150 eenheden, waar dat zonder subsidie 120 eenheden was geweest. Hoeveel eenheden zijn deadweight (meeliftgedrag), uitgaande van de aanname dat de eerste 120 eenheden toch al werden afgenomen?",
+      "answer": 120,
+      "solution": ["De subsidie wordt betaald voor alle 150 eenheden. Het deel dat toch al werd gedaan, is 120 eenheden. De additionaliteit is 30 eenheden."],
+      "feedback": [{ "answer": 30, "message": "30 is de additionaliteit (het extra deel). Gevraagd is het meeliftdeel: wat toch al werd afgenomen." }],
+      "topics": ["subsidy-effects"]
+    },
+    {
+      "id": "03-T08",
+      "type": "numeric",
+      "difficulty": 4,
+      "question": "Een regeling betaalt € 25.000 aan elk van 60 projecten. In totaal zijn 30 projectequivalenten additioneel. Hoeveel euro kost de regeling per extra projectequivalent?",
+      "answer": 50000,
+      "unit": "€",
+      "solution": ["Totale kosten: $60 \\times 25.000 = 1.500.000$ euro.", "Per extra projectequivalent: $1.500.000 / 30 = 50.000$ euro."],
+      "feedback": [{ "answer": 25000, "message": "Dat is de subsidie per project. Deel de totale kosten door het aantal additionele equivalenten (30)." }],
+      "topics": ["subsidy-effects"]
+    },
+    {
+      "id": "03-T09",
+      "type": "choice",
+      "difficulty": 4,
+      "question": "Een evaluator vraagt ontvangers van een subsidie of ze hun project zonder subsidie ook hadden uitgevoerd. Wat is het belangrijkste bezwaar tegen alleen deze methode?",
+      "choices": ["Ontvangers hebben er belang bij de subsidie als noodzakelijk voor te stellen, zodat de additionaliteit vaak wordt overschat", "Ontvangers weten niets over hun eigen project", "De vraag is te kort om iets te meten", "De methode meet de kosten van de overheid niet"],
+      "answer": "Ontvangers hebben er belang bij de subsidie als noodzakelijk voor te stellen, zodat de additionaliteit vaak wordt overschat",
+      "solution": ["Zelfrapportage is gevoelig voor eigenbelang. Een vergelijkingsgroep of een drempel in de regeling geeft een betrouwbaarder beeld van het tegenfeitelijke scenario."],
+      "topics": ["subsidy-effects"]
+    },
+    {
+      "id": "03-T10",
+      "type": "choice",
+      "difficulty": 4,
+      "question": "Een regeling heeft een additionaliteit van 40%: van het uitgekeerde bedrag leidt 40% tot extra activiteit. De overheid wil de kosten per extra eenheid verlagen. Welke maatregel is daar het meest op gericht?",
+      "choices": ["Voorwaarden stellen die laten zien dat een project zonder steun niet of kleiner zou doorgaan", "Het subsidiepercentage voor alle aanvragers verhogen", "De regeling bij meer bedrijven bekendmaken zonder voorwaarden", "De uitkering sneller laten verlopen"],
+      "answer": "Voorwaarden stellen die laten zien dat een project zonder steun niet of kleiner zou doorgaan",
+      "solution": ["Om de kosten per extra eenheid te verlagen moet het meeliftdeel kleiner worden. Een voorwaarde dat het project nog niet is gestart, of een toets op financieringsbehoefte, richt de steun op projecten die zonder steun niet doorgaan."],
+      "feedback": [{ "answer": "Het subsidiepercentage voor alle aanvragers verhogen", "message": "Een hoger percentage vergroot ook het bedrag dat naar meeliftende projecten gaat, en maakt elke extra eenheid dus duurder." }],
+      "topics": ["subsidy-design", "subsidy-effects"]
+    }
+  ]
+}

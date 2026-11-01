@@ -3,9 +3,9 @@
   "slug": "hoe-een-economie-werkt",
   "title": "Hoe een economie werkt",
   "part": 1,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 100,
   "prerequisites": [],
   "topics": [
     "scarcity",
@@ -15,5 +15,98 @@
   ],
   "core_question": "Hoe komt een prijs tot stand, en waarom produceert een economie wat ze produceert?",
   "summary": "Schaarste en opportuniteitskosten, markten, vraag en aanbod, prijsvorming en de kringloop van huishoudens, bedrijven en overheid.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een jaarcijfer en een vraag",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "schaarste-en-ruil",
+      "title": "Schaarste, keuze en ruil",
+      "file": "02-schaarste-en-ruil.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "markten-vraag-en-aanbod",
+      "title": "Markten, vraag en aanbod",
+      "file": "03-markten-vraag-en-aanbod.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "kringloop-en-casus",
+      "title": "Kringloop, bbp en een casus",
+      "file": "04-kringloop-en-casus.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt schaarste en opportuniteitskosten uitleggen en uitrekenen.",
+    "Je kunt met opportuniteitskosten uitleggen waarom specialisatie en ruil loonend zijn (comparatief voordeel).",
+    "Je kunt een evenwichtsprijs en -hoeveelheid bepalen uit een vraag- en aanbodfunctie en het effect van een verschuiving beschrijven.",
+    "Je kunt de prijselasticiteit van de vraag berekenen en interpreteren.",
+    "Je kunt de kringloop van huishoudens, bedrijven, overheid en buitenland beschrijven en het bbp uit de bestedingen berekenen.",
+    "Je kunt in een eenvoudig model uitleggen wat een subsidie op onderzoek met prijs en hoeveelheid doet."
+  ],
+  "glossary": [
+    {
+      "term": "Schaarste",
+      "definition": "De situatie dat wensen groter zijn dan de beschikbare middelen, zodat er gekozen moet worden."
+    },
+    {
+      "term": "Opportuniteitskosten",
+      "definition": "De waarde van het beste alternatief dat je laat liggen door een bepaalde keuze."
+    },
+    {
+      "term": "Comparatief voordeel",
+      "definition": "Het voordeel van wie iets tegen lagere opportuniteitskosten kan maken dan een ander."
+    },
+    {
+      "term": "Vraagcurve",
+      "definition": "De lijn die bij elke prijs de gevraagde hoeveelheid aangeeft; ze daalt meestal."
+    },
+    {
+      "term": "Aanbodcurve",
+      "definition": "De lijn die bij elke prijs de aangeboden hoeveelheid aangeeft; ze stijgt meestal."
+    },
+    {
+      "term": "Evenwichtsprijs",
+      "definition": "De prijs waarbij de gevraagde en de aangeboden hoeveelheid gelijk zijn."
+    },
+    {
+      "term": "Prijselasticiteit van de vraag",
+      "definition": "De procentuele verandering van de gevraagde hoeveelheid gedeeld door de procentuele verandering van de prijs."
+    },
+    {
+      "term": "Bruto binnenlands product (bbp)",
+      "definition": "De waarde van alle goederen en diensten die in een jaar binnen een land worden geproduceerd."
+    },
+    {
+      "term": "Kringloop",
+      "definition": "Het schema van stromen van goederen, diensten en inkomens tussen huishoudens, bedrijven, overheid en buitenland."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Bbp via bestedingen",
+      "latex": "\text{bbp} = C + I + G + X - M",
+      "usage": "De omvang van de economie als som van consumptie, investeringen, overheidsbestedingen en het saldo van export en import.",
+      "origin": "Nationale rekeningen"
+    },
+    {
+      "name": "Prijselasticiteit",
+      "latex": "E = \\frac{\\%\\Delta Q}{\\%\\Delta P}",
+      "usage": "Hoe sterk de hoeveelheid reageert op een prijsverandering.",
+      "origin": "Alfred Marshall, ca. 1890"
+    }
+  ],
+  "timeline": [],
+  "people": []
 }

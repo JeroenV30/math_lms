@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="sans-serif" font-size="13">
+  <rect width="640" height="420" fill="#ffffff"/>
+  <g stroke="#1f2933" stroke-width="1.5" fill="none">
+    <line x1="60" y1="360" x2="600" y2="360"/>
+    <line x1="60" y1="360" x2="60" y2="20"/>
+  </g>
+  <text x="600" y="385" text-anchor="end" fill="#1f2933">Hoeveelheid (duizend uren)</text>
+  <text x="66" y="30" fill="#1f2933">Prijs (€ per uur)</text>
+  <!-- vraag D: P = 100 - Q -->
+  <line x1="60" y1="60" x2="560" y2="360" stroke="#1f2933" stroke-width="2.5"/>
+  <text x="470" y="262" fill="#1f2933">Vraag</text>
+  <!-- verschoven vraag D': P = 115 - Q -->
+  <line x1="60" y1="15" x2="560" y2="315" stroke="#3b5bdb" stroke-width="2.5"/>
+  <text x="470" y="228" fill="#3b5bdb">Vraag + subsidie</text>
+  <!-- aanbod S: P = (Q+20)/2 -->
+  <line x1="60" y1="330" x2="560" y2="180" stroke="#1f2933" stroke-width="2.5"/>
+  <text x="500" y="167" fill="#1f2933">Aanbod</text>
+  <!-- evenwichten -->
+  <g stroke="#1f2933" stroke-width="1" stroke-dasharray="4 4" fill="none">
+    <line x1="60" y1="240" x2="360" y2="240"/>
+    <line x1="360" y1="240" x2="360" y2="360"/>
+  </g>
+  <g stroke="#3b5bdb" stroke-width="1" stroke-dasharray="4 4" fill="none">
+    <line x1="60" y1="225" x2="410" y2="225"/>
+    <line x1="410" y1="225" x2="410" y2="360"/>
+    <line x1="60" y1="270" x2="410" y2="270"/>
+  </g>
+  <circle cx="360" cy="240" r="5" fill="#1f2933"/>
+  <circle cx="410" cy="225" r="5" fill="#3b5bdb"/>
+  <circle cx="410" cy="270" r="5" fill="#3b5bdb"/>
+  <text x="54" y="244" text-anchor="end" fill="#1f2933">40</text>
+  <text x="54" y="229" text-anchor="end" fill="#3b5bdb">45</text>
+  <text x="54" y="274" text-anchor="end" fill="#3b5bdb">30</text>
+  <text x="360" y="378" text-anchor="middle" fill="#1f2933">60</text>
+  <text x="410" y="378" text-anchor="middle" fill="#3b5bdb">70</text>
+  <text x="130" y="305" fill="#3b5bdb">Afnemer betaalt € 30</text>
+  <text x="130" y="205" fill="#3b5bdb">Aanbieder ontvangt € 45</text>
+  <text x="236" y="150" fill="#1f2933">Subsidie € 15 per uur</text>
+  <text x="236" y="168" fill="#1f2933">Kosten: 15 × 70 = 1.050 (duizend euro)</text>
+</svg>

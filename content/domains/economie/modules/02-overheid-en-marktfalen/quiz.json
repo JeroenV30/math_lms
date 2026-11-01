@@ -1,0 +1,183 @@
+{
+  "title": "Hoofdstuktoets – Overheid en marktfalen",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "02-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat betekent marktfalen?",
+      "choices": [
+        "De markt levert een uitkomst die voor de samenleving niet de beste is",
+        "De markt levert helemaal niets meer",
+        "De prijzen zijn te laag voor de producenten",
+        "De overheid heeft de markt verboden"
+      ],
+      "answer": "De markt levert een uitkomst die voor de samenleving niet de beste is",
+      "hints": [],
+      "solution": ["Bij marktfalen werkt de markt wel, maar de uitkomst is maatschappelijk niet de beste, bijvoorbeeld door externe effecten."],
+      "feedback": [
+        { "answer": "De markt levert helemaal niets meer", "message": "Marktfalen betekent niet dat er geen markt meer is, maar dat de uitkomst niet maatschappelijk optimaal is." }
+      ],
+      "topics": ["market-failure"]
+    },
+    {
+      "id": "02-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Een kaasboer laat zijn koeien grazen, en de geur hindert omwonenden die er niets voor krijgen. Wat voor effect is dit?",
+      "choices": ["Een negatief extern effect", "Een positief extern effect", "Een publiek goed", "Marktmacht"],
+      "answer": "Een negatief extern effect",
+      "hints": [],
+      "solution": ["De kosten komen terecht bij derden die er niet voor worden gecompenseerd: een negatief extern effect."],
+      "feedback": [
+        { "answer": "Een positief extern effect", "message": "De omwonenden hebben er schade van, geen voordeel." }
+      ],
+      "topics": ["externalities"]
+    },
+    {
+      "id": "02-T03",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een producent heeft vraag $P = 60 - Q$ en marginale kosten van $10 + Q$. Hoeveel eenheden produceert hij als hij alleen op zijn eigen kosten let?",
+      "answer": 25,
+      "hints": [],
+      "solution": ["$60 - Q = 10 + Q$, dus $2Q = 50$ en $Q = 25$."],
+      "topics": ["externalities"]
+    },
+    {
+      "id": "02-T04",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een producent heeft vraag $P = 60 - Q$ en marginale kosten van $10 + Q$. Elke eenheid veroorzaakt bovendien € 10 aan schade bij anderen. Hoeveel eenheden zijn maatschappelijk optimaal?",
+      "answer": 20,
+      "hints": [],
+      "solution": ["De maatschappelijke marginale kosten zijn $20 + Q$.", "$60 - Q = 20 + Q$, dus $Q = 20$."],
+      "feedback": [
+        { "answer": 25, "message": "Dat is de hoeveelheid zonder de schade mee te tellen." }
+      ],
+      "topics": ["externalities"]
+    },
+    {
+      "id": "02-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een streamingdienst is alleen toegankelijk met een abonnement. Het kijken door een extra abonnee vermindert het kijkplezier van anderen niet. Wat voor soort goed is dit?",
+      "choices": ["Een clubgoed", "Een zuiver publiek goed", "Een gemeenschappelijk goed", "Een privaat goed"],
+      "answer": "Een clubgoed",
+      "hints": [],
+      "solution": ["Uitsluitbaar (abonnement) en niet-rivaliserend: een clubgoed."],
+      "feedback": [
+        { "answer": "Een zuiver publiek goed", "message": "Een publiek goed is niet uitsluitbaar. Hier kan de aanbieder niet-abonnees wel buitensluiten." }
+      ],
+      "topics": ["public-goods"]
+    },
+    {
+      "id": "02-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom levert een markt te weinig van een zuiver publiek goed?",
+      "choices": [
+        "Omdat niemand kan worden uitgesloten, loont het om mee te liften zonder te betalen",
+        "Omdat de productiekosten altijd te hoog zijn",
+        "Omdat kopers het goed niet willen hebben",
+        "Omdat de overheid de prijs vaststelt"
+      ],
+      "answer": "Omdat niemand kan worden uitgesloten, loont het om mee te liften zonder te betalen",
+      "hints": [],
+      "solution": ["Het free-rider-probleem: wie niet kan worden uitgesloten, heeft geen reden te betalen, dus wordt het niet gefinancierd."],
+      "feedback": [
+        { "answer": "Omdat kopers het goed niet willen hebben", "message": "Mensen hechten juist wel waarde aan bijvoorbeeld veiligheid. Het probleem is het innen van betaling." }
+      ],
+      "topics": ["public-goods"]
+    },
+    {
+      "id": "02-T07",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een onderzoeksproject kost € 800.000, levert het bedrijf zelf € 500.000 aan baten op en levert anderen € 400.000 aan spillovers. Hoeveel euro subsidie maakt het project minimaal break-even voor het bedrijf?",
+      "answer": 300000,
+      "unit": "€",
+      "hints": [],
+      "solution": ["Privaat saldo: $500.000 - 800.000 = -300.000$. Een subsidie van € 300.000 maakt het saldo nul."],
+      "feedback": [
+        { "answer": 400000, "message": "Dat is de spillover. De subsidie hoeft alleen het private verlies van € 300.000 te dekken." }
+      ],
+      "topics": ["public-goods", "government"]
+    },
+    {
+      "id": "02-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Kopers kunnen de kwaliteit van tweedehandsproducten niet beoordelen en bieden daarom een gemiddelde prijs. Wat gebeurt er volgens Akerlof met het aanbod?",
+      "choices": [
+        "Verkopers van goede producten trekken zich terug, waardoor de gemiddelde kwaliteit daalt",
+        "Verkopers van slechte producten trekken zich terug",
+        "De prijs stijgt tot alle producten verkocht zijn",
+        "Er verandert niets"
+      ],
+      "answer": "Verkopers van goede producten trekken zich terug, waardoor de gemiddelde kwaliteit daalt",
+      "hints": [],
+      "solution": ["Goede verkopers vinden de gemiddelde prijs te laag en trekken zich terug. De gemiddelde kwaliteit daalt, en dus ook de bereidheid van kopers om te betalen."],
+      "feedback": [
+        { "answer": "Verkopers van slechte producten trekken zich terug", "message": "Juist zij profiteren van een gemiddelde prijs en blijven." }
+      ],
+      "topics": ["market-failure"]
+    },
+    {
+      "id": "02-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke uitspraak over overheidsingrijpen is het meest juist?",
+      "choices": [
+        "Een marktfalen is een noodzakelijke maar geen voldoende reden: ook de overheid kan falen en ingrijpen kost iets",
+        "Als er een marktfalen is, verbetert ingrijpen altijd de uitkomst",
+        "De overheid heeft altijd meer informatie dan bedrijven",
+        "Ingrijpen is nooit nodig, want markten corrigeren zichzelf"
+      ],
+      "answer": "Een marktfalen is een noodzakelijke maar geen voldoende reden: ook de overheid kan falen en ingrijpen kost iets",
+      "hints": [],
+      "solution": ["Ingrijpen heeft uitvoeringskosten en kan zijn doel missen door gebrek aan informatie of door lobby."],
+      "feedback": [
+        { "answer": "Als er een marktfalen is, verbetert ingrijpen altijd de uitkomst", "message": "Overheidsfalen bestaat: een ingreep kan duurder zijn dan de winst, of zijn doel missen." }
+      ],
+      "topics": ["government"]
+    },
+    {
+      "id": "02-T10",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Zet de economische redenering achter een onderzoekssubsidie in de juiste volgorde, van oorzaak naar gevolg.",
+      "answer": [
+        "Onderzoek levert kennis op waar ook anderen van profiteren",
+        "Het bedrijf houdt maar een deel van de baten",
+        "Het bedrijf doet minder onderzoek dan maatschappelijk optimaal is",
+        "Een subsidie verhoogt de private baten richting het maatschappelijke niveau"
+      ],
+      "hints": [],
+      "solution": ["Kennisspillovers leiden ertoe dat het bedrijf maar een deel van de baten ziet. Daardoor doet het te weinig onderzoek, en een subsidie corrigeert dat verschil."],
+      "feedback": [
+        {
+          "answer": [
+            "Het bedrijf houdt maar een deel van de baten",
+            "Onderzoek levert kennis op waar ook anderen van profiteren",
+            "Het bedrijf doet minder onderzoek dan maatschappelijk optimaal is",
+            "Een subsidie verhoogt de private baten richting het maatschappelijke niveau"
+          ],
+          "message": "Het bedrijf houdt maar een deel van de baten omdat anderen meeprofiteren: de spillover komt eerst."
+        }
+      ],
+      "topics": ["externalities", "public-goods"]
+    }
+  ]
+}

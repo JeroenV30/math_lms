@@ -1,0 +1,203 @@
+{
+  "title": "Hoofdstuktoets – Het Nederlandse subsidielandschap",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "04-T01",
+      "type": "choice",
+      "difficulty": 1,
+      "question": "Wie bepaalt bij een regeling van het Rijk het doel en de voorwaarden, en wie voert ze meestal uit?",
+      "choices": [
+        "Het ministerie bepaalt, een uitvoeringsorganisatie zoals RVO voert uit",
+        "RVO bepaalt, het ministerie voert uit",
+        "De Europese Commissie bepaalt, de gemeente voert uit",
+        "De Belastingdienst bepaalt, het CBS voert uit"
+      ],
+      "answer": "Het ministerie bepaalt, een uitvoeringsorganisatie zoals RVO voert uit",
+      "solution": [
+        "De beleidsmaker kiest doel en voorwaarden, het loket (vaak RVO) beoordeelt en betaalt uit."
+      ],
+      "topics": [
+        "subsidy-landscape"
+      ]
+    },
+    {
+      "id": "04-T02",
+      "type": "choice",
+      "difficulty": 1,
+      "question": "Welke van deze regelingen is een fiscale regeling?",
+      "choices": [
+        "De WBSO",
+        "Horizon Europe",
+        "Een garantie van een ROM",
+        "Een aanbesteding door een ministerie"
+      ],
+      "answer": "De WBSO",
+      "solution": [
+        "De WBSO verlaagt de afdracht van loonheffing voor loonkosten van onderzoek en ontwikkeling: het belastingvoordeel is de steun."
+      ],
+      "topics": [
+        "subsidy-landscape"
+      ]
+    },
+    {
+      "id": "04-T03",
+      "type": "choice",
+      "difficulty": 2,
+      "question": "Een regeling voor kleine bedrijven verdeelt een beperkt budget op volgorde van binnenkomst. Wat is de logische consequentie voor een aanvrager?",
+      "choices": [
+        "Een aanvraag moet klaarliggen zodra de regeling openstaat",
+        "De kwaliteit van het plan telt zwaarder dan het tijdstip",
+        "Alle aanvragen krijgen in gelijke delen geld",
+        "De aanvraag kan pas na afloop worden ingediend"
+      ],
+      "answer": "Een aanvraag moet klaarliggen zodra de regeling openstaat",
+      "solution": [
+        "Bij volgorde van binnenkomst krijgt de eerste die aan de voorwaarden voldoet het geld, tot het budget op is."
+      ],
+      "topics": [
+        "subsidy-landscape"
+      ]
+    },
+    {
+      "id": "04-T04",
+      "type": "choice",
+      "difficulty": 2,
+      "question": "Een gemeente verlaagt voor alle bedrijven in de gemeente de lokale heffing met 5%. Waarom is dit waarschijnlijk geen staatssteun?",
+      "choices": [
+        "Het voordeel is niet selectief: het geldt voor alle bedrijven",
+        "Er zijn geen staatsmiddelen mee gemoeid",
+        "Een heffing kan nooit staatssteun zijn",
+        "De handel tussen lidstaten kan nooit worden beïnvloed"
+      ],
+      "answer": "Het voordeel is niet selectief: het geldt voor alle bedrijven",
+      "solution": [
+        "Staatssteun is selectief: het begunstigt bepaalde ondernemingen of sectoren. Een algemene maatregel voor iedereen voldoet daar niet aan."
+      ],
+      "topics": [
+        "state-aid"
+      ]
+    },
+    {
+      "id": "04-T05",
+      "type": "choice",
+      "difficulty": 2,
+      "question": "Wat is de functie van de verordening voor de-minimissteun?",
+      "choices": [
+        "Zeer kleine steun geldt niet als staatssteun in de zin van artikel 107, mits het plafond niet wordt overschreden",
+        "Ze verbiedt iedere steun aan het mkb",
+        "Ze verplicht de Commissie elke steun vooraf goed te keuren",
+        "Ze regelt de terugvordering van subsidies in Nederland"
+      ],
+      "answer": "Zeer kleine steun geldt niet als staatssteun in de zin van artikel 107, mits het plafond niet wordt overschreden",
+      "solution": [
+        "De de-minimisregel neemt zeer kleine steun uit het verbod: ze wordt geacht de mededinging niet merkbaar te verstoren."
+      ],
+      "topics": [
+        "state-aid"
+      ]
+    },
+    {
+      "id": "04-T06",
+      "type": "numeric",
+      "difficulty": 3,
+      "question": "Het de-minimisplafond is € 300.000 per onderneming per drie jaar. In de periode van drie jaar vóór een besluit telt € 110.000 plus € 75.000 aan eerdere de-minimissteun mee. Hoeveel euro kan het bedrijf in dat besluit nog maximaal ontvangen?",
+      "answer": 115000,
+      "unit": "€",
+      "solution": [
+        "Eerder: € 110.000 + € 75.000 = € 185.000.",
+        "Ruimte: € 300.000 − € 185.000 = € 115.000."
+      ],
+      "topics": [
+        "state-aid"
+      ]
+    },
+    {
+      "id": "04-T07",
+      "type": "numeric",
+      "difficulty": 3,
+      "question": "Onder artikel 25 AGVV is de basissteunintensiteit voor industrieel onderzoek 50% van de subsidiabele kosten; voor een middelgrote onderneming mag die met 10 procentpunten worden verhoogd (tot ten hoogste 80%). Een middelgrote onderneming heeft € 500.000 aan subsidiabele kosten voor een project zonder samenwerking. Wat is de maximale steun in euro?",
+      "answer": 300000,
+      "unit": "€",
+      "solution": [
+        "Intensiteit: 50% + 10% = 60%.",
+        "Steun: 60% van € 500.000 = € 300.000."
+      ],
+      "feedback": [
+        {
+          "answer": 250000,
+          "message": "Dat is 50% van € 500.000, zonder de verhoging voor een middelgrote onderneming."
+        }
+      ],
+      "topics": [
+        "state-aid"
+      ]
+    },
+    {
+      "id": "04-T08",
+      "type": "choice",
+      "difficulty": 3,
+      "question": "Een bedrijf ontving op 10 maart 2024 een steunbesluit van € 100.000. Op welke datum van een volgend besluit telt dat bedrag voor het de-minimisplafond van drie jaar niet meer mee?",
+      "choices": [
+        "Vanaf 11 maart 2027",
+        "Vanaf 1 januari 2027",
+        "Vanaf 31 december 2027",
+        "Het blijft altijd meetellen"
+      ],
+      "answer": "Vanaf 11 maart 2027",
+      "solution": [
+        "Het plafond is voortschrijdend over drie jaar, gerekend vanaf de datum van het besluit. Een besluit op 11 maart 2027 kijkt terug tot 11 maart 2024; het besluit van 10 maart 2024 ligt daarvoor."
+      ],
+      "feedback": [
+        {
+          "answer": "Vanaf 1 januari 2027",
+          "message": "De periode volgt de datum van het besluit, niet het kalenderjaar."
+        }
+      ],
+      "topics": [
+        "state-aid"
+      ]
+    },
+    {
+      "id": "04-T09",
+      "type": "numeric",
+      "difficulty": 4,
+      "question": "Een subsidie van maximaal € 200.000 (50% van begrote kosten van € 400.000) is verleend, met een voorschot van 80%. De werkelijke subsidiabele kosten blijken € 350.000, en de subsidie wordt vastgesteld op 50% daarvan. Hoeveel euro moet de ontvanger bij de vaststelling nog terugbetalen?",
+      "answer": 0,
+      "unit": "€",
+      "solution": [
+        "Voorschot: 80% van € 200.000 = € 160.000.",
+        "Vastgesteld: 50% van € 350.000 = € 175.000.",
+        "Dat is meer dan het voorschot: er is niets te veel betaald, en de ontvanger krijgt nog € 15.000."
+      ],
+      "feedback": [
+        {
+          "answer": 25000,
+          "message": "Dat is het verschil tussen verlening en vaststelling (€ 200.000 − € 175.000). Terugvordering gaat over wat méér is betaald dan vastgesteld, en er is slechts € 160.000 betaald."
+        }
+      ],
+      "topics": [
+        "subsidy-landscape"
+      ]
+    },
+    {
+      "id": "04-T10",
+      "type": "choice",
+      "difficulty": 4,
+      "question": "Een provincie stelt een subsidie vast op een bedrag waarna blijkt dat de ontvanger onjuiste gegevens heeft verstrekt. Volgens de regels van titel 4.2 Awb geldt voor de bevoegdheid om te veel betaalde subsidie terug te vorderen in beginsel welke termijn?",
+      "choices": [
+        "Vijf jaar, gerekend vanaf de vaststelling",
+        "Eén jaar na de verlening",
+        "Dertien weken na de aanvraag",
+        "Er is geen termijn"
+      ],
+      "answer": "Vijf jaar, gerekend vanaf de vaststelling",
+      "solution": [
+        "Artikel 4:57 Awb begrenst de terugvorderingsbevoegdheid in de tijd tot in beginsel vijf jaar na de vaststelling."
+      ],
+      "topics": [
+        "subsidy-landscape"
+      ]
+    }
+  ]
+}
