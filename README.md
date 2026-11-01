@@ -1,11 +1,15 @@
-# Kennis door de Eeuwen
+# Het Leerhuis
 
-Een lokaal draaiende, interactieve leeromgeving voor tien kennisdomeinen, van
-wiskunde en natuurkunde tot geschiedenis, filosofie en kunst. Elk domein is een
-eigen cursus die van een toegankelijk begin opbouwt tot het niveau van een eerste
-studiejaar, met de geschiedenis van het denken als leidraad. Het eerste volledig
-uitgewerkte domein is *Rekenen & Wiskunde*; Geschiedenis volgt. Gebouwd volgens
-`build_plan.docx`.
+Een lokaal draaiende, interactieve leeromgeving met twee ingangen.
+
+- **Kennis door de Eeuwen**: tien kennisdomeinen, van wiskunde en natuurkunde tot
+  geschiedenis, filosofie en kunst. Elk domein is een eigen cursus die van een
+  toegankelijk begin opbouwt tot het niveau van een eerste studiejaar, met de
+  geschiedenis van het denken als leidraad. Wiskunde en Geschiedenis zijn volledig uitgewerkt.
+- **Toepassingen**: korte, praktische cursussen. Groep SubCode: Economie, Bedrijven en
+  WBSO; groep Persoonlijk: Beleggen (te verbergen in de instellingen).
+
+Gebouwd volgens `build_plan.docx`.
 
 **Kern:** begrijpen → toepassen → fouten maken → uitleg krijgen → opnieuw proberen → beheersen.
 

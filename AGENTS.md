@@ -1,6 +1,6 @@
-# Kennis door de Eeuwen
+# Het Leerhuis
 
-Leeromgeving met kennisdomeinen (`content/domains.json`); uitgewerkt is alleen het domein Wiskunde, de cursus *Rekenen & Wiskunde*.
+Leeromgeving met kennisdomeinen (sectie *Kennis door de Eeuwen*) en toepassingen (`content/domains.json`); uitgewerkt is alleen het domein Wiskunde, de cursus *Rekenen & Wiskunde*.
 
 De startpagina (`/`) biedt twee ingangen, de secties in `domains.json`: de kaart van kennis (`/kaart`, sectie `kennis`)
 en de toepassingen (`/toepassingen`): korte praktische cursussen in de groepen SubCode (Economie, Bedrijven, WBSO)

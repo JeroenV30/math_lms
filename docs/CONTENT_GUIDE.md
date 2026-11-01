@@ -1,4 +1,4 @@
-# Contentgids – Kennis door de Eeuwen
+# Contentgids – Het Leerhuis
 
 Alle cursusinhoud staat in `content/`. De applicatie leest deze bestanden; er staat
 geen lesstof in controllers, Blade of JavaScript. Nieuwe lessen of oefeningen

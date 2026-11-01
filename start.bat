@@ -1,6 +1,6 @@
 @echo off
 setlocal
-title Rekenen en Wiskunde - lokale applicatie
+title Het Leerhuis - lokale applicatie
 cd /d "%~dp0"
 
 where php >nul 2>&1

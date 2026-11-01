@@ -1,6 +1,6 @@
 # Opdracht voor content-agents (compact)
 
-Je schrijft of breidt één module uit van één cursus (kennisdomein) in Kennis door de Eeuwen
+Je schrijft of breidt één module uit van één cursus (kennisdomein) in Het Leerhuis
 (C:\Projects\math_lms). De coördinator noemt het domein (`<domein>`, bijv. `geschiedenis`) en de module.
 
 Lees ALLEEN:
