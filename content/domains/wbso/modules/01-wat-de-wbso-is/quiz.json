@@ -1,0 +1,225 @@
+{
+  "title": "Hoofdstuktoets – Wat de WBSO is",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'. Tarieven staan in de vraag.",
+  "questions": [
+    {
+      "id": "01-T01",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat is kennisspillover?",
+      "choices": [
+        "Een deel van de opbrengst van nieuwe kennis komt terecht bij partijen die er niet voor betaald hebben",
+        "Het verloren gaan van kennis als werknemers vertrekken",
+        "Het verplicht delen van octrooien",
+        "Een belastingvoordeel voor kennisinstellingen"
+      ],
+      "answer": "Een deel van de opbrengst van nieuwe kennis komt terecht bij partijen die er niet voor betaald hebben",
+      "hints": [],
+      "solution": [
+        "Spillover betekent overloop van baten naar anderen."
+      ],
+      "topics": [
+        "wbso-purpose"
+      ]
+    },
+    {
+      "id": "01-T02",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke partij beoordeelt de WBSO-aanvraag en geeft de S&O-verklaring af, namens het ministerie van Economische Zaken?",
+      "choices": [
+        "RVO",
+        "De Belastingdienst",
+        "De Kamer van Koophandel",
+        "Het CBS"
+      ],
+      "answer": "RVO",
+      "hints": [],
+      "solution": [
+        "RVO voert de regeling uit; de Belastingdienst verwerkt het voordeel."
+      ],
+      "topics": [
+        "wbso-parties"
+      ]
+    },
+    {
+      "id": "01-T03",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke vorm van voordeel is bedoeld voor een zelfstandige zonder personeel?",
+      "choices": [
+        "S&O-aftrek in de inkomstenbelasting",
+        "Vermindering van de af te dragen loonheffing",
+        "Een contante subsidie bij de aanvraag",
+        "Vrijstelling van de loonaangifte"
+      ],
+      "answer": "S&O-aftrek in de inkomstenbelasting",
+      "hints": [],
+      "solution": [
+        "Een zelfstandige zonder personeel heeft geen loonheffing; hij krijgt een aftrek."
+      ],
+      "topics": [
+        "wbso-parties"
+      ]
+    },
+    {
+      "id": "01-T04",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een bedrijf heeft een project al afgerond en wil nu WBSO aanvragen voor de gemaakte uren. Wat is juist?",
+      "choices": [
+        "Dat kan niet: aanvragen is alleen mogelijk voor werk dat nog moet gebeuren of nog loopt",
+        "Dat kan, mits binnen een jaar",
+        "Dat kan, als een adviseur de aanvraag indient",
+        "Dat kan als het project mislukt is"
+      ],
+      "answer": "Dat kan niet: aanvragen is alleen mogelijk voor werk dat nog moet gebeuren of nog loopt",
+      "hints": [],
+      "solution": [
+        "De regeling stimuleert toekomstig werk."
+      ],
+      "topics": [
+        "wbso-purpose"
+      ]
+    },
+    {
+      "id": "01-T05",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een werkgever heeft een S&O-grondslag van € 250.000. Stel dat het percentage van de eerste schijf 36% is en de grens van de eerste schijf € 300.000. Hoe groot is het voordeel in hele euro's?",
+      "answer": 90000,
+      "hints": [],
+      "solution": [
+        "De hele grondslag ligt in de eerste schijf: $0{,}36 \\times 250.000 = 90.000$."
+      ],
+      "topics": [
+        "wbso-calculation"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 40000,
+          "message": "Je gebruikte een ander percentage. Gebruik 36% over de hele grondslag, die onder de grens blijft."
+        }
+      ]
+    },
+    {
+      "id": "01-T06",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een werkgever heeft een S&O-grondslag van € 600.000. Het percentage van de eerste schijf is 36%, de grens € 400.000 en het percentage van de tweede schijf 16%. Bereken het voordeel in hele euro's.",
+      "answer": 176000,
+      "hints": [],
+      "solution": [
+        "Eerste schijf: $0{,}36 \\times 400.000 = 144.000$.",
+        "Tweede schijf: $0{,}16 \\times 200.000 = 32.000$.",
+        "Totaal: € 176.000."
+      ],
+      "topics": [
+        "wbso-calculation"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 216000,
+          "message": "Je rekende alles tegen 36%. Boven de grens geldt een lager percentage."
+        }
+      ]
+    },
+    {
+      "id": "01-T07",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Subsidie A gaat naar een bedrijf dat het project ook zonder steun had gedaan; subsidie B naar een bedrijf dat het project zonder steun had laten liggen. Welke uitspraak is juist?",
+      "choices": [
+        "Bij B is de additionaliteit hoog, bij A is sprake van een meeneemeffect",
+        "Bij A is de additionaliteit hoog",
+        "Bij beide is de additionaliteit gelijk",
+        "Additionaliteit gaat alleen over de hoogte van de steun"
+      ],
+      "answer": "Bij B is de additionaliteit hoog, bij A is sprake van een meeneemeffect",
+      "hints": [],
+      "solution": [
+        "Additionaliteit: extra werk door de steun. Meeneemeffect: steun voor werk dat toch gebeurt."
+      ],
+      "topics": [
+        "wbso-purpose"
+      ]
+    },
+    {
+      "id": "01-T08",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Waarom kiest de WBSO voor objectieve voorwaarden in plaats van per project te toetsen of het zonder steun zou doorgaan?",
+      "choices": [
+        "Omdat niemand kan vaststellen wat een ondernemer zonder steun zou hebben gedaan",
+        "Omdat de overheid geen controle wil",
+        "Omdat RVO te weinig medewerkers heeft",
+        "Omdat het Europese recht dat verbiedt"
+      ],
+      "answer": "Omdat niemand kan vaststellen wat een ondernemer zonder steun zou hebben gedaan",
+      "hints": [],
+      "solution": [
+        "Een tegenfeitelijke vraag is niet te toetsen."
+      ],
+      "topics": [
+        "wbso-purpose"
+      ]
+    },
+    {
+      "id": "01-T09",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een starter heeft 2.000 S&O-uren tegen een S&O-uurloon van € 50 en € 30.000 aan overige S&O-kosten. Stel dat het starterspercentage van de eerste schijf 50% is en de grondslag onder de grens van de eerste schijf blijft. Bereken het voordeel in hele euro's.",
+      "answer": 65000,
+      "hints": [],
+      "solution": [
+        "Loonkosten: $2.000 \\times 50 = 100.000$.",
+        "Grondslag: $100.000 + 30.000 = 130.000$.",
+        "Voordeel: $0{,}5 \\times 130.000 = 65.000$."
+      ],
+      "topics": [
+        "wbso-calculation"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 50000,
+          "message": "Je nam alleen de loonkosten. De overige kosten horen ook in de grondslag."
+        }
+      ]
+    },
+    {
+      "id": "01-T10",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 4,
+      "question": "Een werkgever heeft een S&O-grondslag van € 500.000 en past een tarief van 36% toe op de eerste € 400.000 en 16% op de rest. Hoeveel procent van de grondslag is het voordeel gemiddeld? Antwoord als percentage met één decimaal.",
+      "answer": 32.0,
+      "hints": [],
+      "solution": [
+        "Voordeel: $144.000 + 16.000 = 160.000$.",
+        "Gemiddeld percentage: $160.000 / 500.000 = 32\\%$."
+      ],
+      "topics": [
+        "wbso-calculation"
+      ],
+      "unit": "%",
+      "feedback": [
+        {
+          "answer": 36,
+          "message": "Dat is het percentage van de eerste schijf, niet het gemiddelde over de hele grondslag."
+        }
+      ]
+    }
+  ]
+}

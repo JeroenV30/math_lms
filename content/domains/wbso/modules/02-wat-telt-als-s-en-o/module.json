@@ -3,7 +3,7 @@
   "slug": "wat-telt-als-s-en-o",
   "title": "Wat telt als S&O",
   "part": 1,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
   "estimated_minutes": 90,
   "prerequisites": [
@@ -16,5 +16,78 @@
   ],
   "core_question": "Wanneer is ontwikkelwerk technisch nieuw genoeg om als speur- en ontwikkelingswerk te tellen?",
   "summary": "Technisch-wetenschappelijk onderzoek, ontwikkeling van technisch nieuwe producten, processen en programmatuur, technische knelpunten, en wat er niet onder valt.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een begrippenlijst van RVO",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "ontwikkelingsprojecten",
+      "title": "Ontwikkelingsprojecten",
+      "file": "02-ontwikkelingsprojecten.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "programmatuur-en-onderzoek",
+      "title": "Programmatuur en onderzoek",
+      "file": "03-programmatuur-en-onderzoek.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casus-twee-bedrijven",
+      "title": "Casus: twee bedrijven",
+      "file": "04-casus-twee-bedrijven.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt de definitie van S&O in de WBSO weergeven en de kernwoorden daarvan uitleggen.",
+    "Je kunt een technisch knelpunt herkennen en nieuw onderscheiden van technisch nieuw.",
+    "Je kunt bepalen tot waar een ontwikkelingsproject loopt, met het werkingsprincipe en het prototype met of zonder gebruikerswaarde.",
+    "Je kunt bij programmatuur beoordelen wat technisch nieuw is en wat toepassen of implementeren van bestaande technologie is.",
+    "Je kunt technisch-wetenschappelijk onderzoek onderscheiden van vaststellen, testen en optimaliseren.",
+    "Je kunt een project in onderdelen knippen en per onderdeel de S&O-uren afbakenen."
+  ],
+  "glossary": [
+    {
+      "term": "Technisch knelpunt",
+      "definition": "Een technisch probleem dat je met je eigen kennis en algemeen beschikbare technologie niet kunt oplossen."
+    },
+    {
+      "term": "Technisch nieuw",
+      "definition": "Voor de aanvrager nieuw in technische zin: een principe of oplossing die niet algemeen bekend of beschikbaar is."
+    },
+    {
+      "term": "Ontwikkelingsproject",
+      "definition": "Een S&O-project gericht op technisch nieuwe (onderdelen van) producten, productieprocessen of programmatuur."
+    },
+    {
+      "term": "Werkingsprincipe",
+      "definition": "Het technische principe waarop een oplossing werkt; als het is aangetoond, eindigt het S&O."
+    },
+    {
+      "term": "Prototype met gebruikerswaarde",
+      "definition": "Een prototype dat commerciële betekenis heeft of als bedrijfsmiddel kan worden ingezet; de bouwuren tellen niet mee."
+    },
+    {
+      "term": "Programmatuur",
+      "definition": "Het niet-fysieke, logische deelsysteem van een informatiesysteem, vastgelegd in een formele programmeertaal."
+    },
+    {
+      "term": "Technisch-wetenschappelijk onderzoek (TWO)",
+      "definition": "Technisch, systematisch onderzoek dat een verschijnsel verklaart en nieuwe kennis oplevert."
+    },
+    {
+      "term": "Engineering",
+      "definition": "Ontwerpen en bouwen op basis van bestaande en bewezen technieken; geen S&O."
+    }
+  ]
 }

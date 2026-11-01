@@ -1,0 +1,181 @@
+{
+  "title": "Hoofdstuktoets – Aanvragen, administratie en controle",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'. Regels en percentages staan in de vragen zelf.",
+  "questions": [
+    {
+      "id": "04-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Waarom tellen uren van vóór de aanvraagperiode niet mee voor de WBSO?",
+      "choices": [
+        "De regeling wil vooraf een plan beoordelen en vergoedt geen werk dat al is gedaan",
+        "RVO kan uren van vroeger niet controleren, ook niet met administratie",
+        "De WBSO geldt alleen voor werk dat in december begint"
+      ],
+      "answer": "De regeling wil vooraf een plan beoordelen en vergoedt geen werk dat al is gedaan",
+      "hints": [],
+      "solution": ["De WBSO werkt met een vooraf beoordeeld plan; wat voor de aanvraagperiode is uitgevoerd, valt erbuiten."],
+      "feedback": [
+        { "answer": "RVO kan uren van vroeger niet controleren, ook niet met administratie", "message": "Het is een bewuste regeling-keuze, geen controleprobleem: de beoordeling vooraf is het doel." }
+      ],
+      "topics": ["wbso-application"]
+    },
+    {
+      "id": "04-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Een werkgever kan tot en met de laatste dag van een maand aanvragen; de periode begint op de eerste dag van de maand daarna. Wanneer begint de periode bij een aanvraag op 9 september?",
+      "choices": ["1 oktober", "9 september", "1 september"],
+      "answer": "1 oktober",
+      "hints": [],
+      "solution": ["De periode begint op de eerste van de maand na de aanvraagmaand: 1 oktober."],
+      "feedback": [
+        { "answer": "9 september", "message": "Voor werkgevers begint de periode niet op de indieningsdatum." }
+      ],
+      "topics": ["wbso-application"]
+    },
+    {
+      "id": "04-T03",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een werkgever dient op 5 februari een aanvraag in. De periode begint op de eerste dag van de volgende maand en loopt tot en met 31 december. Hoeveel maanden duurt de aanvraagperiode?",
+      "answer": 10,
+      "unit": "maanden",
+      "hints": [],
+      "solution": ["De periode begint op 1 maart; maart tot en met december zijn 10 maanden."],
+      "feedback": [
+        { "answer": 11, "message": "Je telde ook februari mee, maar de periode begint op 1 maart." }
+      ],
+      "topics": ["wbso-application"]
+    },
+    {
+      "id": "04-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke zin is het beste voorbeeld van een technisch knelpunt in een projectomschrijving?",
+      "choices": [
+        "Boven 2 m/s verliest het klemsysteem door resonantie de grip en het bedrijf weet niet hoe de demping moet worden ontworpen",
+        "Onze concurrent heeft een sneller product en wij willen dat inhalen",
+        "De klant eist een kortere levertijd"
+      ],
+      "answer": "Boven 2 m/s verliest het klemsysteem door resonantie de grip en het bedrijf weet niet hoe de demping moet worden ontworpen",
+      "hints": [],
+      "solution": ["Een knelpunt noemt een technisch mechanisme en wat het bedrijf nog niet kan; de andere zinnen zijn commercieel."],
+      "feedback": [
+        { "answer": "Onze concurrent heeft een sneller product en wij willen dat inhalen", "message": "Dat is een marktmotief. De beoordeling vraagt om een technisch probleem." }
+      ],
+      "topics": ["wbso-application"]
+    },
+    {
+      "id": "04-T05",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze stappen van een WBSO-aanvraag voor een werkgever in de juiste volgorde, de eerste stap eerst.",
+      "answer": [
+        "Het technische knelpunt per project beschrijven",
+        "De aanvraag indienen",
+        "Uren en technische voortgang vastleggen tijdens het werk",
+        "De gerealiseerde uren melden",
+        "Een eventuele controle van RVO doorstaan"
+      ],
+      "hints": [],
+      "solution": ["Eerst voorbereiden, dan aanvragen, dan uitvoeren en vastleggen, na afloop melden, en daarna kan controle volgen."],
+      "feedback": [
+        { "answer": ["De aanvraag indienen", "Het technische knelpunt per project beschrijven", "Uren en technische voortgang vastleggen tijdens het werk", "De gerealiseerde uren melden", "Een eventuele controle van RVO doorstaan"], "message": "Het knelpunt beschrijf je als onderdeel van de aanvraag, dus voordat je indient." }
+      ],
+      "topics": ["wbso-application", "wbso-administration"]
+    },
+    {
+      "id": "04-T06",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Twee ontwikkelaars werken 40 weken aan een goedgekeurd S&O-project. De eerste besteedt gemiddeld 20 uur per week aan het project, de tweede 30 uur per week. Hoeveel S&O-uren zijn dat samen?",
+      "answer": 2000,
+      "unit": "uur",
+      "hints": [],
+      "solution": ["Eerste: $20 \\times 40 = 800$. Tweede: $30 \\times 40 = 1.200$. Samen 2.000 uur."],
+      "feedback": [
+        { "answer": 1000, "message": "Je telde slechts 20 uur per week voor beide ontwikkelaars of vergat de tweede." }
+      ],
+      "topics": ["wbso-administration"]
+    },
+    {
+      "id": "04-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat hoort bij de technische voortgang in een goede WBSO-administratie?",
+      "choices": [
+        "Testrapporten, ontwerpversies en berekeningen die laten zien wat er is onderzocht",
+        "Alleen de salarisstroken van de ontwikkelaars",
+        "Het bedrijfsplan met de verwachte omzet"
+      ],
+      "answer": "Testrapporten, ontwerpversies en berekeningen die laten zien wat er is onderzocht",
+      "hints": [],
+      "solution": ["De technische voortgang toont dat het knelpunt werkelijk is onderzocht; salarisstroken en bedrijfsplannen doen dat niet."],
+      "feedback": [
+        { "answer": "Alleen de salarisstroken van de ontwikkelaars", "message": "Salarisstroken bewijzen loon, niet dat het werk S&O was." }
+      ],
+      "topics": ["wbso-administration"]
+    },
+    {
+      "id": "04-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bedrijf ontdekt bij het opstellen van de mededeling dat het minder S&O-uren heeft gerealiseerd dan in de aanvraag stond. Wat is het gevolg?",
+      "choices": [
+        "Het voordeel wordt lager en de te veel verrekende afdrachtvermindering moet worden terugbetaald",
+        "Er verandert niets, omdat de verklaring vooraf is afgegeven",
+        "Het bedrijf krijgt automatisch een hoger voordeel"
+      ],
+      "answer": "Het voordeel wordt lager en de te veel verrekende afdrachtvermindering moet worden terugbetaald",
+      "hints": [],
+      "solution": ["Bij minder uren volgt een gedeeltelijke correctie; de te veel verrekende vermindering wordt via de loonaangifte teruggegeven."],
+      "feedback": [
+        { "answer": "Er verandert niets, omdat de verklaring vooraf is afgegeven", "message": "De verklaring is gebaseerd op een schatting; de mededeling toetst de werkelijkheid." }
+      ],
+      "topics": ["wbso-administration"]
+    },
+    {
+      "id": "04-T09",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een bedrijf paste de afdrachtvermindering toe op basis van 3.000 S&O-uren, maar realiseerde er 2.600. Het S&O-uurloon is € 50 en het percentage 36% (alleen loonkosten, grondslag binnen de eerste schijf). Hoeveel euro is het voordeel lager?",
+      "answer": 7200,
+      "unit": "€",
+      "hints": [],
+      "solution": ["Verschil in uren: 400. Loonkosten: $400 \\times 50 = 20.000$.", "Voordeel: $0{,}36 \\times 20.000 = 7.200$."],
+      "feedback": [
+        { "answer": 20000, "message": "Dat is het verschil in grondslag, niet in voordeel." }
+      ],
+      "topics": ["wbso-administration", "wbso-calculation"]
+    },
+    {
+      "id": "04-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom is een goed opgezette WBSO-administratie ook nuttig voor de innovatiebox?",
+      "choices": [
+        "De S&O-verklaring en projectstukken laten zien dat het immateriële activum met S&O-werk is ontwikkeld",
+        "De innovatiebox rekent met dezelfde uren als de WBSO, dus de uren hoeven niet te worden vastgelegd",
+        "De innovatiebox is een onderdeel van de WBSO-aanvraag"
+      ],
+      "answer": "De S&O-verklaring en projectstukken laten zien dat het immateriële activum met S&O-werk is ontwikkeld",
+      "hints": [],
+      "solution": ["De S&O-verklaring kan voor de innovatiebox bewijs leveren, en de projectstukken ondersteunen dat het activum zelf is ontwikkeld."],
+      "feedback": [
+        { "answer": "De innovatiebox is een onderdeel van de WBSO-aanvraag", "message": "De innovatiebox is een aparte vennootschapsbelastingregeling; de WBSO-stukken kunnen er wel bewijs voor leveren." }
+      ],
+      "topics": ["wbso-administration"]
+    }
+  ]
+}

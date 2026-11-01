@@ -1,0 +1,258 @@
+{
+  "title": "Hoofdstuktoets – De cijfers van een bedrijf",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'. Tarieven en grensbedragen staan in de vragen.",
+  "questions": [
+    {
+      "id": "04-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat is het verschil tussen een balans en een winst-en-verliesrekening?",
+      "answer": "De balans is een momentopname van bezittingen en financiering; de W&V beschrijft het resultaat over een periode",
+      "choices": [
+        "De balans toont alleen de schulden, de W&V alleen de bezittingen",
+        "De balans is een momentopname van bezittingen en financiering; de W&V beschrijft het resultaat over een periode",
+        "De balans is voor de Belastingdienst, de W&V voor de KvK"
+      ],
+      "hints": [],
+      "solution": [
+        "De balans geldt voor één datum, de W&V voor een heel boekjaar."
+      ],
+      "feedback": [
+        {
+          "answer": "De balans toont alleen de schulden, de W&V alleen de bezittingen",
+          "message": "De balans toont beide: bezittingen (activa) en financiering (passiva)."
+        },
+        {
+          "answer": "De balans is voor de Belastingdienst, de W&V voor de KvK",
+          "message": "Beide maken deel uit van dezelfde jaarrekening en dienen meer doelen."
+        }
+      ],
+      "topics": [
+        "financial-statements"
+      ]
+    },
+    {
+      "id": "04-T02",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Een bv heeft € 700.000 aan activa, een langlopende lening van € 200.000 en kortlopende schulden van € 150.000. Hoe groot is het eigen vermogen? Antwoord in hele euro's.",
+      "answer": 350000,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "Vreemd vermogen: $200.000 + 150.000 = 350.000$",
+        "Eigen vermogen: $700.000 - 350.000 = 350.000$"
+      ],
+      "feedback": [
+        {
+          "answer": 500000,
+          "message": "Je hebt alleen de lening of alleen de kortlopende schulden afgetrokken. Trek al het vreemd vermogen af."
+        }
+      ],
+      "topics": [
+        "financial-statements"
+      ]
+    },
+    {
+      "id": "04-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een bedrijf maakt een nettowinst, maar zijn liquide middelen nemen toch af. Welke verklaring past hierbij?",
+      "answer": "Het bedrijf heeft in dat jaar veel geïnvesteerd en voorraden en debiteuren zijn gegroeid",
+      "choices": [
+        "De winst is te hoog berekend door de Belastingdienst",
+        "Het bedrijf heeft in dat jaar veel geïnvesteerd en voorraden en debiteuren zijn gegroeid",
+        "Afschrijvingen verlagen altijd de liquide middelen"
+      ],
+      "hints": [],
+      "solution": [
+        "Winst is niet hetzelfde als kasstroom: investeringen en werkkapitaal kosten geld zonder de winst te verlagen."
+      ],
+      "feedback": [
+        {
+          "answer": "De winst is te hoog berekend door de Belastingdienst",
+          "message": "De winst en de liquide middelen meten verschillende dingen; er is geen fout nodig om het verschil te verklaren."
+        }
+      ],
+      "topics": [
+        "financial-statements"
+      ]
+    },
+    {
+      "id": "04-T04",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een bv heeft een resultaat vóór belasting van € 120.000. De vennootschapsbelasting is 19% (alles in de eerste schijf). Wat is het nettoresultaat? Antwoord in hele euro's.",
+      "answer": 97200,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "Vpb: $0{,}19 \\times 120.000 = 22.800$",
+        "Nettoresultaat: $120.000 - 22.800 = 97.200$"
+      ],
+      "feedback": [
+        {
+          "answer": 22800,
+          "message": "Dat is de belasting. Het nettoresultaat is wat daarna overblijft."
+        }
+      ],
+      "topics": [
+        "corporate-tax"
+      ]
+    },
+    {
+      "id": "04-T05",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een bedrijf heeft een eigen vermogen van € 90.000 en een totaal vermogen van € 360.000. Wat is de solvabiliteit? Antwoord als percentage, op één decimaal.",
+      "answer": 25,
+      "tolerance": 0.1,
+      "unit": "%",
+      "hints": [],
+      "solution": [
+        "$90.000 / 360.000 = 0{,}25$, dus 25%"
+      ],
+      "feedback": [
+        {
+          "answer": 33.3,
+          "message": "Je hebt het eigen vermogen gedeeld door het vreemd vermogen (€ 270.000). De solvabiliteit deelt door het totaal vermogen."
+        }
+      ],
+      "topics": [
+        "financial-statements"
+      ]
+    },
+    {
+      "id": "04-T06",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bedrijf heeft liquide middelen van € 30.000, debiteuren van € 50.000, voorraden van € 70.000 en kortlopende schulden van € 100.000. Wat is de quick ratio? Antwoord op twee decimalen.",
+      "answer": 0.8,
+      "tolerance": 0.005,
+      "hints": [],
+      "solution": [
+        "Quick ratio: liquide middelen plus debiteuren, gedeeld door de kortlopende schulden.",
+        "$(30.000 + 50.000) / 100.000 = 0{,}80$"
+      ],
+      "feedback": [
+        {
+          "answer": 1.5,
+          "message": "Je hebt de voorraden meegeteld; dat is de current ratio. De quick ratio laat voorraden buiten beschouwing."
+        }
+      ],
+      "topics": [
+        "financial-statements"
+      ]
+    },
+    {
+      "id": "04-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Stel dat een onderneming in de klasse klein valt als ze aan twee van deze drie criteria voldoet: balanstotaal tot € 7,5 miljoen, netto-omzet tot € 15 miljoen, minder dan 50 werknemers. En micro als ze twee van deze drie haalt: balanstotaal tot € 450.000, netto-omzet tot € 900.000, minder dan 10 werknemers. Een bv heeft een balanstotaal van € 2 miljoen, een netto-omzet van € 3 miljoen en 20 werknemers (in twee opeenvolgende jaren). In welke klasse valt ze?",
+      "answer": "Klein",
+      "choices": [
+        "Micro",
+        "Klein",
+        "Middelgroot"
+      ],
+      "hints": [],
+      "solution": [
+        "Het balanstotaal en de omzet zijn te hoog voor micro, en de werknemers ook; voor klein voldoet ze aan alle drie."
+      ],
+      "feedback": [
+        {
+          "answer": "Micro",
+          "message": "Ze haalt geen enkel van de drie micro-criteria: balans, omzet en werknemers liggen er alle drie boven."
+        }
+      ],
+      "topics": [
+        "financial-statements"
+      ]
+    },
+    {
+      "id": "04-T08",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Stel dat de vennootschapsbelasting 19% is over de eerste € 200.000 aan winst en 25,8% over het meerdere. Een bv heeft een belastbare winst van € 300.000. Hoeveel vennootschapsbelasting is verschuldigd? Antwoord in hele euro's.",
+      "answer": 63800,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "Eerste schijf: $0{,}19 \\times 200.000 = 38.000$",
+        "Tweede schijf: $0{,}258 \\times 100.000 = 25.800$",
+        "Samen: $63.800$"
+      ],
+      "feedback": [
+        {
+          "answer": 77400,
+          "message": "Je hebt 25,8% over de hele winst berekend. Het hoge tarief geldt alleen over het deel boven € 200.000."
+        }
+      ],
+      "topics": [
+        "corporate-tax"
+      ]
+    },
+    {
+      "id": "04-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een ondernemer heeft in een kwartaal € 9.450 aan btw in rekening gebracht bij klanten en € 12.600 aan btw betaald op inkopen (voorbelasting, allemaal aftrekbaar). Wat is het gevolg in zijn btw-aangifte?",
+      "answer": "Hij krijgt € 3.150 terug van de Belastingdienst",
+      "choices": [
+        "Hij moet € 3.150 afdragen",
+        "Hij krijgt € 3.150 terug van de Belastingdienst",
+        "Hij moet € 22.050 afdragen"
+      ],
+      "hints": [],
+      "solution": [
+        "De voorbelasting is groter dan de verschuldigde btw; het verschil krijgt hij terug."
+      ],
+      "feedback": [
+        {
+          "answer": "Hij moet € 3.150 afdragen",
+          "message": "Je bent het teken vergeten: de voorbelasting is hoger dan de btw die hij in rekening bracht, dus er is een teruggaaf."
+        },
+        {
+          "answer": "Hij moet € 22.050 afdragen",
+          "message": "Je hebt beide bedragen opgeteld. De voorbelasting wordt afgetrokken van de verschuldigde btw."
+        }
+      ],
+      "topics": [
+        "vat"
+      ]
+    },
+    {
+      "id": "04-T10",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een winkel koopt goederen in voor € 400 exclusief btw en verkoopt ze voor € 700 exclusief btw. Over beide bedragen is 21% btw verschuldigd. Hoeveel btw draagt de winkel hierover af aan de Belastingdienst? Antwoord in hele euro's.",
+      "answer": 63,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "Btw op verkoop: $0{,}21 \\times 700 = 147$",
+        "Voorbelasting: $0{,}21 \\times 400 = 84$",
+        "Afdracht: $147 - 84 = 63$, ofwel 21% over de toegevoegde waarde van € 300"
+      ],
+      "feedback": [
+        {
+          "answer": 147,
+          "message": "Dat is de btw op de verkoop. De voorbelasting op de inkoop moet er nog van af."
+        }
+      ],
+      "topics": [
+        "vat"
+      ]
+    }
+  ]
+}

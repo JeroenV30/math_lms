@@ -1,0 +1,377 @@
+{
+  "exercises": [
+    {
+      "id": "02-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welk orgaan van een bv benoemt en ontslaat de bestuurder?",
+      "choices": [
+        "De algemene vergadering van aandeelhouders",
+        "De Kamer van Koophandel",
+        "Het bestuur zelf",
+        "De Belastingdienst"
+      ],
+      "answer": "De algemene vergadering van aandeelhouders",
+      "hints": [
+        "Wie staat boven het bestuur?"
+      ],
+      "solution": [
+        "De algemene vergadering (AV) benoemt en ontslaat de bestuurders, stelt de jaarrekening vast en besluit over de winstbestemming."
+      ],
+      "topics": [
+        "bv",
+        "dga"
+      ],
+      "feedback": [
+        {
+          "answer": "Het bestuur zelf",
+          "message": "Het bestuur leidt de bv, maar de AV benoemt en ontslaat de bestuurders."
+        }
+      ]
+    },
+    {
+      "id": "02-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een werkmaatschappij-bv keert dividend uit aan haar enige aandeelhouder, een holding-bv met 100% van de aandelen. Wat geldt in de regel voor de vennootschapsbelasting bij de holding over dat dividend?",
+      "choices": [
+        "Het dividend is vrijgesteld (deelnemingsvrijstelling)",
+        "Het dividend wordt belast met 19%",
+        "Het dividend wordt belast in box 2",
+        "Het dividend wordt belast in box 1"
+      ],
+      "answer": "Het dividend is vrijgesteld (deelnemingsvrijstelling)",
+      "hints": [
+        "Dezelfde winst zou anders twee keer worden belast."
+      ],
+      "solution": [
+        "Bij een belang van minimaal 5% geldt in de regel de deelnemingsvrijstelling: dividend van de dochter is bij de holding niet belast."
+      ],
+      "topics": [
+        "holding",
+        "bv"
+      ],
+      "feedback": [
+        {
+          "answer": "Het dividend wordt belast in box 2",
+          "message": "Box 2 geldt voor de natuurlijke persoon, niet voor een bv. Pas als de holding aan de persoon uitkeert, speelt box 2."
+        }
+      ]
+    },
+    {
+      "id": "02-003",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Voor de deelnemingsvrijstelling geldt (globaal) een belang van ten minste 5% in de dochter. Een bv bezit 3% van de aandelen van een andere bv. Geldt de deelnemingsvrijstelling voor dat dividend?",
+      "choices": [
+        "Nee, het belang is lager dan 5%",
+        "Ja, elk belang geeft recht op de vrijstelling",
+        "Ja, als de andere bv winst maakt",
+        "Alleen als de eigenaar ook bestuurder is"
+      ],
+      "answer": "Nee, het belang is lager dan 5%",
+      "hints": [
+        "Vergelijk het percentage met de grens."
+      ],
+      "solution": [
+        "3% is lager dan 5%. De deelnemingsvrijstelling vraagt een belang van minimaal 5%."
+      ],
+      "topics": [
+        "holding",
+        "bv"
+      ],
+      "feedback": [
+        {
+          "answer": "Ja, elk belang geeft recht op de vrijstelling",
+          "message": "De vrijstelling is gekoppeld aan een minimumbelang van 5%."
+        }
+      ]
+    },
+    {
+      "id": "02-004",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de stappen van een dividenduitkering in de logische volgorde, de eerste stap eerst.",
+      "answer": [
+        "De AV stelt de jaarrekening vast",
+        "De AV besluit de winst uit te keren",
+        "Het bestuur keurt de uitkering goed na de uitkeringstoets",
+        "De bv betaalt het dividend en houdt dividendbelasting in",
+        "De aandeelhouder verrekent de dividendbelasting in zijn aangifte box 2"
+      ],
+      "hints": [
+        "Eerst moet er een winst zijn vastgesteld, en pas daarna kan er worden uitgekeerd."
+      ],
+      "solution": [
+        "De winst volgt uit de vastgestelde jaarrekening.",
+        "De AV beslist over de bestemming van de winst.",
+        "Het bestuur toetst of de bv haar schulden kan blijven betalen.",
+        "De bv betaalt uit en houdt 15% dividendbelasting in.",
+        "De aandeelhouder verrekent die in zijn aangifte."
+      ],
+      "topics": [
+        "bv",
+        "dga"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "De AV besluit de winst uit te keren",
+            "De AV stelt de jaarrekening vast",
+            "Het bestuur keurt de uitkering goed na de uitkeringstoets",
+            "De bv betaalt het dividend en houdt dividendbelasting in",
+            "De aandeelhouder verrekent de dividendbelasting in zijn aangifte box 2"
+          ],
+          "message": "Er moet eerst een vastgestelde winst zijn voordat de AV kan besluiten die uit te keren."
+        }
+      ]
+    },
+    {
+      "id": "02-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een DGA-bv kent drie maatstaven voor het gebruikelijk loon: het loon uit de meest vergelijkbare functie is € 63.000, de meestverdienende werknemer van de bv verdient € 71.000, en het normbedrag is € 58.000. Het gebruikelijk loon is het hoogste van de drie. Hoeveel is het? (Hele euro's.)",
+      "answer": 71000,
+      "hints": [
+        "Zet de drie bedragen naast elkaar.",
+        "Neem het hoogste."
+      ],
+      "solution": [
+        "De drie bedragen zijn € 63.000, € 71.000 en € 58.000.",
+        "Het hoogste is € 71.000."
+      ],
+      "topics": [
+        "dga"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 63000,
+          "message": "Dat is het loon uit de vergelijkbare functie. Het gebruikelijk loon is het hoogste van de drie maatstaven, en de meestverdienende werknemer verdient meer."
+        },
+        {
+          "answer": 58000,
+          "message": "Het normbedrag is alleen de ondergrens. Hier is een van de andere maatstaven hoger."
+        }
+      ]
+    },
+    {
+      "id": "02-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een bv heeft een belastbare winst van € 250.000. Voor de vennootschapsbelasting geldt 19% over de eerste € 200.000 en 25,8% over het meerdere. Hoeveel vennootschapsbelasting is verschuldigd? (Hele euro's.)",
+      "answer": 50900,
+      "hints": [
+        "Splits de winst in twee delen.",
+        "Eerste deel: € 200.000. Tweede deel: het restant."
+      ],
+      "solution": [
+        "19% × € 200.000 = € 38.000.",
+        "25,8% × € 50.000 = € 12.900.",
+        "Samen € 50.900."
+      ],
+      "topics": [
+        "corporate-tax",
+        "bv"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 64500,
+          "message": "Dat is 25,8% over de volledige € 250.000. De eerste € 200.000 is belast tegen 19%."
+        },
+        {
+          "answer": 47500,
+          "message": "Dat is 19% over de volledige winst. Over het deel boven € 200.000 geldt 25,8%."
+        }
+      ]
+    },
+    {
+      "id": "02-007",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een DGA ontvangt € 50.000 dividend. In box 2 geldt 24,5% over de eerste € 68.843 en 31% daarboven (geen fiscaal partner). Hoeveel box 2-belasting is verschuldigd? (Hele euro's.)",
+      "answer": 12250,
+      "hints": [
+        "Valt het dividend volledig in de eerste schijf?"
+      ],
+      "solution": [
+        "€ 50.000 is minder dan € 68.843, dus alles valt in de eerste schijf.",
+        "24,5% × € 50.000 = € 12.250."
+      ],
+      "topics": [
+        "dga"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 15500,
+          "message": "Dat is 31% over alles. Het eerste deel tot € 68.843 wordt tegen 24,5% belast."
+        }
+      ]
+    },
+    {
+      "id": "02-008",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een DGA ontvangt € 90.000 dividend. In box 2 geldt 24,5% over de eerste € 68.843 en 31% daarboven (geen fiscaal partner). Hoeveel box 2-belasting is verschuldigd? Rond af op hele euro's.",
+      "answer": 23425,
+      "hints": [
+        "Splits het dividend bij € 68.843.",
+        "Bereken beide delen apart."
+      ],
+      "solution": [
+        "24,5% × € 68.843 = € 16.866,54.",
+        "Meerdere: € 90.000 − € 68.843 = € 21.157; 31% daarvan = € 6.558,67.",
+        "Samen € 23.425,21, afgerond € 23.425."
+      ],
+      "topics": [
+        "dga"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 22050,
+          "message": "Dat is 24,5% over het hele dividend. Over het deel boven € 68.843 geldt 31%."
+        },
+        {
+          "answer": 27900,
+          "message": "Dat is 31% over het hele dividend. Alleen het deel boven € 68.843 valt in de hogere schijf."
+        }
+      ]
+    },
+    {
+      "id": "02-009",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bv heeft € 200.000 winst vóór vennootschapsbelasting en keert alles wat na belasting overblijft als dividend uit aan haar enige aandeelhouder, een natuurlijk persoon. Gebruik deze tarieven: vennootschapsbelasting 19% over de eerste € 200.000 en 25,8% daarboven; box 2: 24,5% over de eerste € 68.843 dividend en 31% daarboven (per persoon, geen fiscaal partner). Hoeveel belasting is er in totaal betaald (vennootschapsbelasting plus box 2)? Rond af op hele euro's.",
+      "answer": 83745,
+      "hints": [
+        "Bereken eerst de vennootschapsbelasting over € 200.000.",
+        "Het resterende bedrag is het dividend.",
+        "Splits het dividend bij € 68.843."
+      ],
+      "solution": [
+        "Vennootschapsbelasting: 19% × € 200.000 = € 38.000.",
+        "Dividend: € 200.000 − € 38.000 = € 162.000.",
+        "Box 2: 24,5% × € 68.843 = € 16.866,54 en 31% × € 93.157 = € 28.878,67, samen € 45.745,21.",
+        "Totaal: € 38.000 + € 45.745 = € 83.745."
+      ],
+      "topics": [
+        "corporate-tax",
+        "dga"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 38000,
+          "message": "Dat is alleen de vennootschapsbelasting. Er komt nog box 2-belasting over het dividend bij."
+        },
+        {
+          "answer": 45745,
+          "message": "Dat is alleen de box 2-belasting. De vennootschapsbelasting komt erbij."
+        }
+      ]
+    },
+    {
+      "id": "02-010",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is voor de bv het fiscale verschil tussen € 50.000 loon aan de DGA betalen en € 50.000 dividend uitkeren?",
+      "choices": [
+        "Loon is aftrekbaar van de winst, dividend niet",
+        "Dividend is aftrekbaar van de winst, loon niet",
+        "Beide zijn aftrekbaar",
+        "Geen van beide is aftrekbaar"
+      ],
+      "answer": "Loon is aftrekbaar van de winst, dividend niet",
+      "hints": [
+        "Waarover betaalt de bv vennootschapsbelasting?"
+      ],
+      "solution": [
+        "Loon is een kostenpost en verlaagt de winst. Dividend is een uitdeling uit de winst na belasting en verlaagt de belastbare winst niet."
+      ],
+      "topics": [
+        "dga"
+      ],
+      "feedback": [
+        {
+          "answer": "Dividend is aftrekbaar van de winst, loon niet",
+          "message": "Het is andersom: loon is een bedrijfskost, dividend komt uit de winst die al is belast."
+        }
+      ]
+    },
+    {
+      "id": "02-011",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bv heeft € 40.000 aan liquide middelen en € 70.000 aan schulden die binnen enkele maanden opeisbaar zijn. De aandeelhouder wil € 20.000 dividend. Wat zou het bestuur moeten doen?",
+      "choices": [
+        "De uitkering niet goedkeuren, want de bv kan daarna haar schulden niet blijven betalen",
+        "De uitkering goedkeuren, want de AV heeft het besloten",
+        "De uitkering goedkeuren als de bv winst heeft gemaakt",
+        "De uitkering goedkeuren en dividendbelasting inhouden"
+      ],
+      "answer": "De uitkering niet goedkeuren, want de bv kan daarna haar schulden niet blijven betalen",
+      "hints": [
+        "Wat zegt de uitkeringstoets?"
+      ],
+      "solution": [
+        "Na de uitkering rest € 20.000, dat is minder dan de opeisbare schulden van € 70.000. De uitkeringstoets (art. 2:216 BW) wordt dan niet gehaald, en bestuurders die dat wisten of konden voorzien kunnen aansprakelijk zijn."
+      ],
+      "topics": [
+        "bv",
+        "dga"
+      ],
+      "feedback": [
+        {
+          "answer": "De uitkering goedkeuren, want de AV heeft het besloten",
+          "message": "Ook na een AV-besluit moet het bestuur toetsen of de bv na de uitkering haar schulden kan blijven voldoen."
+        }
+      ]
+    },
+    {
+      "id": "02-012",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bv-eigenaar heeft een winst van € 130.000 vóór aftrek van haar eigen loon. Ze betaalt zichzelf € 58.000 loon en keert daarna de volledige winst na vennootschapsbelasting uit als dividend. Vennootschapsbelasting is 19% over de winst na loon. Hoeveel dividend kan ze uitkeren? (Hele euro's.)",
+      "answer": 58320,
+      "hints": [
+        "Bereken eerst de winst na loon.",
+        "Trek daar de vennootschapsbelasting vanaf."
+      ],
+      "solution": [
+        "Winst na loon: € 130.000 − € 58.000 = € 72.000.",
+        "Vennootschapsbelasting: 19% × € 72.000 = € 13.680.",
+        "Dividend: € 72.000 − € 13.680 = € 58.320."
+      ],
+      "topics": [
+        "dga",
+        "corporate-tax"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 72000,
+          "message": "Dat is de winst na loon, vóór vennootschapsbelasting. Die belasting moet er nog af."
+        },
+        {
+          "answer": 105300,
+          "message": "Dat zou zijn als het loon niet van de winst werd afgetrokken. Loon is aftrekbaar."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "exercises": [
+    {
+      "id": "04-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Voor een werkgever geldt: je kunt aanvragen tot en met de laatste dag van een maand, en de aanvraagperiode begint op de eerste dag van de maand daarna. Een werkgever wil dat de periode ingaat op 1 maart (een jaar zonder schrikkeldag). Wat is de uiterste aanvraagdatum?",
+      "choices": ["28 februari", "1 maart", "31 maart"],
+      "answer": "28 februari",
+      "hints": ["De periode begint op de eerste dag van de maand ná de aanvraagmaand."],
+      "solution": ["Een periode die op 1 maart begint, hoort bij een aanvraag in februari. De laatste dag daarvan is 28 februari."],
+      "feedback": [
+        { "answer": "1 maart", "message": "Een aanvraag op 1 maart valt in maart; de periode begint dan pas op 1 april." },
+        { "answer": "31 maart", "message": "Een aanvraag op 31 maart geeft een periode die op 1 april begint." }
+      ],
+      "topics": ["wbso-application"]
+    },
+    {
+      "id": "04-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Volgens de kalender van RVO geldt voor werkgevers (stand 2026): aanvragen voor een start op 1 januari kan uiterlijk op 20 december. Een bedrijf wil op 1 januari 2027 beginnen. Wat is de uiterste datum?",
+      "choices": ["20 december 2026", "31 december 2026", "1 januari 2027"],
+      "answer": "20 december 2026",
+      "hints": ["Voor 1 januari geldt een uitzondering op de regel 'laatste dag van de maand'."],
+      "solution": ["Voor een start op 1 januari moet de aanvraag uiterlijk op 20 december binnen zijn, dus op 20 december 2026."],
+      "feedback": [
+        { "answer": "31 december 2026", "message": "Dat zou de gewone regel zijn; voor een start op 1 januari is de uiterste datum al 20 december." }
+      ],
+      "topics": ["wbso-application"]
+    },
+    {
+      "id": "04-003",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een werkgever dient op 14 mei een WBSO-aanvraag in. Volgens de regel dat de aanvraagperiode begint op de eerste dag van de maand na de aanvraagmaand, wanneer gaat de aanvraagperiode in?",
+      "choices": ["1 juni", "14 mei", "1 mei"],
+      "answer": "1 juni",
+      "hints": [],
+      "solution": ["De periode begint op de eerste dag van de maand na de aanvraagmaand: 1 juni."],
+      "feedback": [
+        { "answer": "14 mei", "message": "Voor werkgevers begint de periode niet op de indieningsdatum; dat geldt voor zelfstandigen." }
+      ],
+      "topics": ["wbso-application"]
+    },
+    {
+      "id": "04-004",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een werkgever dient op 20 maart een aanvraag in. De periode begint op de eerste dag van de volgende maand en loopt tot en met 31 december. Uit hoeveel maanden bestaat de aanvraagperiode?",
+      "answer": 9,
+      "unit": "maanden",
+      "hints": ["Tel de maanden april tot en met december."],
+      "solution": ["April, mei, juni, juli, augustus, september, oktober, november en december: 9 maanden."],
+      "feedback": [
+        { "answer": 10, "message": "Je telde ook maart mee, maar de periode begint pas op 1 april." }
+      ],
+      "topics": ["wbso-application"]
+    },
+    {
+      "id": "04-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke zin beschrijft een technisch knelpunt, en niet slechts een wens van het bedrijf?",
+      "choices": [
+        "Bij snel laden warmt de cel lokaal op en het bedrijf weet niet hoe het laadprofiel moet worden gestuurd om veroudering van de elektrode te voorkomen",
+        "Klanten willen dat ons product tien procent sneller laadt",
+        "We willen een betere marktpositie in het segment van elektrische fietsen"
+      ],
+      "answer": "Bij snel laden warmt de cel lokaal op en het bedrijf weet niet hoe het laadprofiel moet worden gestuurd om veroudering van de elektrode te voorkomen",
+      "hints": ["Een knelpunt beschrijft een technisch mechanisme dat nog niet begrepen of beheerst wordt."],
+      "solution": ["Alleen de eerste zin noemt een technisch mechanisme (lokale oververhitting) en wat het bedrijf nog niet weet. De andere twee zijn commerciële wensen."],
+      "feedback": [
+        { "answer": "Klanten willen dat ons product tien procent sneller laadt", "message": "Dit is een marktwens. Het zegt niet welk technisch probleem de oplossing in de weg staat." }
+      ],
+      "topics": ["wbso-application"]
+    },
+    {
+      "id": "04-006",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de fasen van de WBSO-cyclus voor een werkgever in volgorde, van het eerste tot het laatste.",
+      "answer": [
+        "Aanvraag indienen bij RVO",
+        "S&O-verklaring ontvangen",
+        "Project uitvoeren en uren vastleggen",
+        "Gerealiseerde uren melden uiterlijk 31 maart",
+        "Eventuele controle door RVO"
+      ],
+      "hints": ["Uren melden kan pas als het jaar voorbij is."],
+      "solution": ["Eerst de aanvraag, dan de verklaring, dan uitvoering en administratie, na afloop van het jaar de mededeling, en daarna kan RVO controleren."],
+      "feedback": [
+        { "answer": ["Aanvraag indienen bij RVO", "Project uitvoeren en uren vastleggen", "S&O-verklaring ontvangen", "Gerealiseerde uren melden uiterlijk 31 maart", "Eventuele controle door RVO"], "message": "De uren worden uitgevoerd binnen de aanvraagperiode, nadat de verklaring is afgegeven op basis van de aanvraag." }
+      ],
+      "topics": ["wbso-application", "wbso-administration"]
+    },
+    {
+      "id": "04-007",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke urenregistratie heeft bij een controle door RVO de meeste bewijskracht?",
+      "choices": [
+        "Wekelijks bijgehouden uren per medewerker en per project, met een korte toelichting op het werk",
+        "Een jaaroverzicht dat de projectleider in januari uit agenda's heeft gereconstrueerd",
+        "Een schatting van het totaal aantal uren door de directie"
+      ],
+      "answer": "Wekelijks bijgehouden uren per medewerker en per project, met een korte toelichting op het werk",
+      "hints": [],
+      "solution": ["Een tijdig bijgehouden registratie per medewerker en project met toelichting laat elk uur onderbouwen. Een reconstructie of schatting is veel zwakker."],
+      "feedback": [
+        { "answer": "Een jaaroverzicht dat de projectleider in januari uit agenda's heeft gereconstrueerd", "message": "Een reconstructie achteraf kan hetzelfde totaal hebben, maar is lastig te verdedigen bij vragen over individuele weken." }
+      ],
+      "topics": ["wbso-administration"]
+    },
+    {
+      "id": "04-008",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een ontwikkelaar werkt 38 uur per week, waarvan gemiddeld 24 uur aan een goedgekeurd S&O-project. Over 46 werkweken in het jaar, hoeveel S&O-uren zijn dat in totaal?",
+      "answer": 1104,
+      "unit": "uur",
+      "hints": ["Alleen de uren aan het S&O-project tellen, dus niet de 38 uur."],
+      "solution": ["$24 \\times 46 = 1.104$ S&O-uren."],
+      "feedback": [
+        { "answer": 1748, "message": "Je rekende met alle 38 uur per week. Alleen de uren aan het S&O-project tellen." }
+      ],
+      "topics": ["wbso-administration"]
+    },
+    {
+      "id": "04-009",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Een werkgever heeft in 2025 WBSO gebruikt. Uiterlijk wanneer moet de werkgever de gerealiseerde S&O-uren over 2025 melden bij RVO (stand RVO-kalender)?",
+      "choices": ["31 maart 2026", "31 december 2025", "30 september 2026"],
+      "answer": "31 maart 2026",
+      "hints": [],
+      "solution": ["De mededeling over het afgelopen jaar volgt uiterlijk op 31 maart van het jaar erna."],
+      "feedback": [
+        { "answer": "30 september 2026", "message": "Dit is de laatste aanvraagdatum voor het laatste kwartaal van 2026, geen mededelingsdatum." }
+      ],
+      "topics": ["wbso-administration"]
+    },
+    {
+      "id": "04-010",
+      "type": "text",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Schrijf een projectomschrijving van minstens vijf zinnen voor een technisch ontwikkelproject naar keuze. Beschrijf het technische knelpunt, waarom bestaande oplossingen niet volstaan en de aanpak.",
+      "answer": "Een goede omschrijving noemt een technisch mechanisme dat het bedrijf niet beheerst (het knelpunt), legt uit waarom bestaande oplossingen niet volstaan, en beschrijft een aanpak met experimenten of ontwerpkeuzes.",
+      "min_length": 150,
+      "hints": ["Begin bij het mechanisme, niet bij de marktwens."],
+      "solution": ["Een sterke omschrijving noemt het knelpunt als technisch mechanisme (bijvoorbeeld resonantie, oververhitting, instabiliteit), zegt wat bestaande oplossingen niet kunnen en waarom, en beschrijft een testplan of ontwerpaanpak waarmee het bedrijf het knelpunt wil oplossen."],
+      "topics": ["wbso-application"]
+    },
+    {
+      "id": "04-011",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bedrijf heeft de afdrachtvermindering toegepast op basis van 2.400 goedgekeurde S&O-uren, maar heeft achteraf 1.900 uur gerealiseerd. Bereken met alleen loonkosten (S&O-uurloon € 40, percentage 36%, grondslag binnen de eerste schijf) hoeveel euro het voordeel lager uitvalt dan in de aanvraag was berekend.",
+      "answer": 7200,
+      "unit": "€",
+      "hints": ["Het verschil in uren is $2.400 - 1.900 = 500$."],
+      "solution": ["Verschil in loonkosten: $500 \\times 40 = 20.000$.", "Verschil in voordeel: $0{,}36 \\times 20.000 = 7.200$."],
+      "feedback": [
+        { "answer": 20000, "message": "Dit is het verschil in grondslag. Het voordeel is 36% daarvan." }      ],
+      "topics": ["wbso-administration", "wbso-calculation"]
+    },
+    {
+      "id": "04-012",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Hoe hangt de WBSO-administratie samen met de innovatiebox?",
+      "choices": [
+        "Een S&O-verklaring kan als bewijs dienen dat een immaterieel activum met S&O-werk is ontwikkeld",
+        "De innovatiebox vervangt de WBSO zodra een bedrijf winst maakt",
+        "De innovatiebox is alleen voor bedrijven die geen WBSO hebben aangevraagd"
+      ],
+      "answer": "Een S&O-verklaring kan als bewijs dienen dat een immaterieel activum met S&O-werk is ontwikkeld",
+      "hints": [],
+      "solution": ["De S&O-verklaring en de administratie bewijzen dat het activum zelf is ontwikkeld, wat voor de innovatiebox relevant is."],
+      "feedback": [
+        { "answer": "De innovatiebox vervangt de WBSO zodra een bedrijf winst maakt", "message": "De twee regelingen sluiten elkaar niet uit; de WBSO werkt op loonkosten, de innovatiebox op winst." }
+      ],
+      "topics": ["wbso-administration"]
+    }
+  ]
+}

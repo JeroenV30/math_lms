@@ -3,9 +3,9 @@
   "slug": "uren-kosten-en-het-voordeel",
   "title": "Uren, kosten en het voordeel",
   "part": 2,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 100,
   "prerequisites": [
     2
   ],
@@ -16,5 +16,34 @@
   ],
   "core_question": "Hoe reken je uit hoeveel een WBSO-aanvraag een bedrijf oplevert?",
   "summary": "S&O-uren en het S&O-uurloon, het forfait of de werkelijke kosten en uitgaven, de schijven en percentages, en de berekening van het voordeel.",
-  "lessons": []
+  "learning_goals": [
+    "Je kunt uitleggen wat een S&O-uur is en waarom het S&O-uurloon geen weergave is van het werkelijke salaris.",
+    "Je kunt de S&O-loonkosten berekenen uit uren en S&O-uurloon.",
+    "Je kunt de kosten en uitgaven bepalen met het forfait en met werkelijke bedragen, en beide met elkaar vergelijken.",
+    "Je kunt het WBSO-voordeel berekenen met twee schijven, ook voor starters.",
+    "Je kunt het startersvoordeel en de S&O-aftrek voor zelfstandigen op hoofdlijnen onderscheiden."
+  ],
+  "glossary": [
+    { "term": "S&O-uur", "definition": "Een uur dat een medewerker aantoonbaar besteedt aan een goedgekeurd S&O-project." },
+    { "term": "S&O-uurloon", "definition": "Het uurbedrag waarmee de S&O-loonkosten worden berekend; in 2026 forfaitair € 29 tenzij een eerder WBSO-jaar een eigen uurloon oplevert." },
+    { "term": "S&O-loonkosten", "definition": "Het aantal S&O-uren maal het S&O-uurloon." },
+    { "term": "Kosten en uitgaven", "definition": "Overige kosten van een S&O-project, zoals materiaal, afschrijving en werk door derden." },
+    { "term": "Forfait", "definition": "Een vast bedrag per S&O-uur voor kosten en uitgaven, zodat je die niet hoeft bij te houden (2026: € 10 per uur tot 1.800 uur, € 4 daarboven)." },
+    { "term": "S&O-grondslag", "definition": "De som van de S&O-loonkosten en de kosten en uitgaven; het bedrag waarover het percentage wordt berekend." },
+    { "term": "Eerste en tweede schijf", "definition": "Het deel van de grondslag tot de schijfgrens (36%, starters 50%) en het deel daarboven (16%), stand 2026." },
+    { "term": "Starter", "definition": "Een ondernemer die voldoet aan de starterseisen van de WBSO en daarom 50% in plaats van 36% krijgt over de eerste schijf." },
+    { "term": "S&O-aftrek", "definition": "Het bedrag dat een zelfstandige zonder personeel van de winst aftrekt in plaats van een afdrachtvermindering." }
+  ],
+  "formulas": [
+    { "name": "WBSO-voordeel", "latex": "V = p_1 \\cdot \\min(G, g) + p_2 \\cdot \\max(G - g, 0)", "usage": "G is de S&O-grondslag, g de schijfgrens, p1 en p2 de percentages van de eerste en tweede schijf.", "origin": "Opbouw van de afdrachtvermindering volgens RVO (stand 2026)." }
+  ],
+  "lessons": [
+    { "slug": "introductie", "title": "Een rekenvoorbeeld van RVO", "file": "01-introductie.md", "kind": "intro" },
+    { "slug": "uren-uurloon-en-kosten", "title": "Uren, uurloon en kosten", "file": "02-uren-uurloon-en-kosten.md", "kind": "theory" },
+    { "slug": "schijven-en-percentages", "title": "Schijven en percentages", "file": "03-schijven-en-percentages.md", "kind": "theory" },
+    { "slug": "casus-nova-robotica", "title": "Casus: Nova Robotica", "file": "04-casus-nova-robotica.md", "kind": "practice" },
+    { "slug": "samenvatting", "title": "Samenvatting", "file": "05-samenvatting.md", "kind": "summary" }
+  ],
+  "timeline": [],
+  "people": []
 }

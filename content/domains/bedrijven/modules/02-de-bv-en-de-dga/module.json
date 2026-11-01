@@ -3,9 +3,9 @@
   "slug": "de-bv-en-de-dga",
   "title": "De bv en de DGA",
   "part": 1,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 110,
   "prerequisites": [
     1
   ],
@@ -16,5 +16,95 @@
   ],
   "core_question": "Hoe haalt een directeur-grootaandeelhouder geld uit de eigen bv, en wat kost dat aan belasting?",
   "summary": "Aandeelhouder en bestuurder, de holdingstructuur, gebruikelijk loon, dividend en box 2, en bestuurdersaansprakelijkheid.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een wetsartikel over je eigen salaris",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "rollen-en-holding",
+      "title": "Rollen, organen en de holding",
+      "file": "02-rollen-en-holding.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "loon-en-dividend",
+      "title": "Loon, dividend en box 2",
+      "file": "03-loon-en-dividend.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "aansprakelijkheid-en-casus",
+      "title": "Aansprakelijkheid en casus: Ilse bouwt een holding",
+      "file": "04-aansprakelijkheid-en-casus.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt de rollen van aandeelhouder, bestuurder en algemene vergadering onderscheiden.",
+    "Je kunt een holdingstructuur lezen en de deelnemingsvrijstelling globaal uitleggen.",
+    "Je kunt het gebruikelijk loon van een DGA bepalen.",
+    "Je kunt de belasting op winst die als dividend wordt uitgekeerd (vennootschapsbelasting plus box 2) doorrekenen en vergelijken met loon.",
+    "Je kunt uitleggen wanneer een bestuurder persoonlijk aansprakelijk kan zijn, onder andere bij een dividenduitkering."
+  ],
+  "glossary": [
+    {
+      "term": "Directeur-grootaandeelhouder (DGA)",
+      "definition": "Bestuurder van een bv die ten minste 5% van de aandelen bezit, meestal veel meer."
+    },
+    {
+      "term": "Algemene vergadering (AV)",
+      "definition": "Orgaan van de aandeelhouders; benoemt het bestuur, stelt de jaarrekening vast en bestemt de winst."
+    },
+    {
+      "term": "Holding",
+      "definition": "Bv die de aandelen houdt in een of meer andere bv's."
+    },
+    {
+      "term": "Werkmaatschappij",
+      "definition": "De bv waarin het eigenlijke bedrijf wordt gedreven."
+    },
+    {
+      "term": "Deelnemingsvrijstelling",
+      "definition": "Dividend en verkoopwinst van een deelneming (minimaal 5%) zijn bij de moeder in de regel vrijgesteld van vennootschapsbelasting."
+    },
+    {
+      "term": "Gebruikelijk loon",
+      "definition": "Minimumloon van een DGA: het hoogste van het loon uit een vergelijkbare functie, van de best verdienende werknemer en een normbedrag."
+    },
+    {
+      "term": "Dividend",
+      "definition": "Uitkering uit de winst aan de aandeelhouder; niet aftrekbaar voor de bv."
+    },
+    {
+      "term": "Box 2",
+      "definition": "Heffing over inkomen uit aanmerkelijk belang, zoals dividend en verkoopwinst van aandelen."
+    },
+    {
+      "term": "Aanmerkelijk belang",
+      "definition": "Een belang van ten minste 5% van de aandelen in een bv."
+    },
+    {
+      "term": "Uitkeringstoets",
+      "definition": "Toets van het bestuur of de bv na een uitkering haar opeisbare schulden kan blijven betalen."
+    },
+    {
+      "term": "Vennootschapsbelasting",
+      "definition": "Belasting over de winst van een bv; in 2026 19% tot € 200.000 en 25,8% daarboven."
+    },
+    {
+      "term": "Bestuurdersaansprakelijkheid",
+      "definition": "Persoonlijke aansprakelijkheid van een bestuurder bij onbehoorlijk bestuur."
+    }
+  ],
+  "timeline": [],
+  "people": []
 }

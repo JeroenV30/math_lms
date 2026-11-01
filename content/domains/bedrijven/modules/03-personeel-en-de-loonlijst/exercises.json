@@ -1,0 +1,351 @@
+{
+  "exercises": [
+    {
+      "id": "03-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welk element onderscheidt een arbeidsovereenkomst van een opdracht aan een zelfstandige?",
+      "answer": "Een gezagsverhouding: de werkgever mag aanwijzingen geven over de uitvoering van het werk",
+      "choices": [
+        "Dat er een schriftelijk contract is",
+        "Dat er een vergoeding wordt betaald",
+        "Een gezagsverhouding: de werkgever mag aanwijzingen geven over de uitvoering van het werk",
+        "Dat de arbeid persoonlijk wordt verricht"
+      ],
+      "hints": [
+        "Denk aan wie bepaalt hoe, wanneer en waar het werk wordt gedaan."
+      ],
+      "solution": [
+        "Loon en persoonlijke arbeid komen ook bij sommige opdrachten voor; de gezagsverhouding is het onderscheidende element."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat er een schriftelijk contract is",
+          "message": "Een arbeidsovereenkomst kan ook mondeling bestaan, en een opdracht kan op papier staan. Het gaat om de werkelijke verhouding."
+        },
+        {
+          "answer": "Dat er een vergoeding wordt betaald",
+          "message": "Ook een opdrachtgever betaalt een vergoeding. Het onderscheid ligt in het gezag."
+        },
+        {
+          "answer": "Dat de arbeid persoonlijk wordt verricht",
+          "message": "Persoonlijke arbeid hoort bij een arbeidsovereenkomst, maar ook een zelfstandige verricht vaak persoonlijk werk. Het onderscheidende element is het gezag."
+        }
+      ],
+      "topics": [
+        "employment"
+      ]
+    },
+    {
+      "id": "03-002",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een werknemer verdient € 2.800 per maand, exclusief vakantiegeld. Het vakantiegeld is 8% van het jaarloon (twaalf maanden). Hoeveel vakantiegeld ontvangt de werknemer per jaar? Antwoord in hele euro's.",
+      "answer": 2688,
+      "unit": "€",
+      "hints": [
+        "Bereken eerst het jaarloon exclusief vakantiegeld."
+      ],
+      "solution": [
+        "$12 \\times 2.800 = 33.600$",
+        "$0{,}08 \\times 33.600 = 2.688$"
+      ],
+      "feedback": [
+        {
+          "answer": 224,
+          "message": "Dat is 8% van één maandloon. Het vakantiegeld is 8% van het loon over het hele jaar."
+        }
+      ],
+      "topics": [
+        "employment",
+        "payroll"
+      ]
+    },
+    {
+      "id": "03-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Volgens de ketenregeling mag een werkgever maximaal drie contracten voor bepaalde tijd achter elkaar sluiten, met samen niet meer dan drie jaar; een tussenpoos van meer dan zes maanden onderbreekt de keten. Een werkgever sluit achtereenvolgens drie contracten van elk een jaar. Wat ontstaat er als hij daarna een nieuw contract aanbiedt zonder tussenpoos?",
+      "answer": "Een contract voor onbepaalde tijd",
+      "choices": [
+        "Weer een contract voor bepaalde tijd van een jaar",
+        "Een contract voor onbepaalde tijd",
+        "Een proeftijdcontract van twee maanden"
+      ],
+      "hints": [
+        "Tel de jaren op en vergelijk met de grens."
+      ],
+      "solution": [
+        "De drie contracten vormen samen drie jaar: de grens is bereikt.",
+        "Een volgend contract zonder tussenpoos is dus voor onbepaalde tijd."
+      ],
+      "feedback": [
+        {
+          "answer": "Weer een contract voor bepaalde tijd van een jaar",
+          "message": "De grens van drie contracten en drie jaar is bereikt; een vierde contract kan geen contract voor bepaalde tijd meer zijn."
+        }
+      ],
+      "topics": [
+        "employment"
+      ]
+    },
+    {
+      "id": "03-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een werknemer heeft een brutoloon van € 42.000 per jaar. De pensioenregeling heeft een franchise van € 17.000; de werknemer betaalt 6% pensioenpremie over het loon boven de franchise. Wat is het loon voor de loonheffingen? Antwoord in hele euro's.",
+      "answer": 40500,
+      "unit": "€",
+      "hints": [
+        "Bereken eerst de pensioengrondslag: brutoloon min franchise."
+      ],
+      "solution": [
+        "Grondslag: $42.000 - 17.000 = 25.000$",
+        "Pensioenpremie werknemer: $0{,}06 \\times 25.000 = 1.500$",
+        "Loon voor de loonheffingen: $42.000 - 1.500 = 40.500$"
+      ],
+      "feedback": [
+        {
+          "answer": 42000,
+          "message": "Je hebt de pensioenpremie vergeten af te trekken. Die wordt vóór de loonheffing van het brutoloon afgetrokken."
+        },
+        {
+          "answer": 39480,
+          "message": "Je hebt 6% over het hele brutoloon berekend. De premie geldt alleen over het deel boven de franchise."
+        }
+      ],
+      "topics": [
+        "payroll"
+      ]
+    },
+    {
+      "id": "03-005",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Stel dat het loon voor de loonheffingen € 30.000 per jaar is en het tarief in de eerste schijf 35,75% (dit loon valt volledig in die schijf). Hoeveel loonheffing is er vóór de heffingskortingen verschuldigd? Antwoord in euro's, op twee decimalen.",
+      "answer": 10725,
+      "tolerance": 0.5,
+      "unit": "€",
+      "hints": [
+        "Vermenigvuldig het loon met het tarief."
+      ],
+      "solution": [
+        "$0{,}3575 \\times 30.000 = 10.725$"
+      ],
+      "feedback": [
+        {
+          "answer": 8280,
+          "message": "Dat is 27,60% van het loon: alleen het deel premie volksverzekeringen. Het totale tarief in de eerste schijf is 35,75%."
+        }
+      ],
+      "topics": [
+        "payroll"
+      ]
+    },
+    {
+      "id": "03-006",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Stel dat de algemene heffingskorting maximaal € 3.115 is, en vanaf een inkomen van € 29.736 afloopt met 6,398% van het inkomen boven die grens. Hoe groot is de algemene heffingskorting bij een loon voor de loonheffingen van € 34.000? Antwoord in hele euro's (afgerond).",
+      "answer": 2842,
+      "tolerance": 1,
+      "unit": "€",
+      "hints": [
+        "Het deel boven € 29.736 is het bedrag waarover de korting afloopt."
+      ],
+      "solution": [
+        "Meerdere: $34.000 - 29.736 = 4.264$",
+        "Afbouw: $0{,}06398 \\times 4.264 = 272{,}8$",
+        "Korting: $3.115 - 272{,}8 = 2.842$"
+      ],
+      "feedback": [
+        {
+          "answer": 3115,
+          "message": "Dat is het maximum. Omdat het loon boven € 29.736 ligt, is de korting al aan het afbouwen."
+        },
+        {
+          "answer": 273,
+          "message": "Dat is de afbouw, niet de korting. Trek de afbouw af van het maximum."
+        }
+      ],
+      "topics": [
+        "payroll"
+      ]
+    },
+    {
+      "id": "03-007",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een werknemer heeft een loon voor de loonheffingen van € 32.000 per jaar. De heffing vóór kortingen is € 11.440. De algemene heffingskorting is € 2.900 en de arbeidskorting is € 5.500. Bereken de af te dragen loonheffing en het nettoloon per jaar (hele euro's).",
+      "parts": [
+        {
+          "label": "Loonheffing",
+          "answer": 3040,
+          "type": "numeric"
+        },
+        {
+          "label": "Nettoloon per jaar",
+          "answer": 28960,
+          "type": "numeric"
+        }
+      ],
+      "hints": [
+        "Trek beide kortingen af van de heffing vóór kortingen."
+      ],
+      "solution": [
+        "Loonheffing: $11.440 - 2.900 - 5.500 = 3.040$",
+        "Nettoloon: $32.000 - 3.040 = 28.960$"
+      ],
+      "topics": [
+        "payroll"
+      ]
+    },
+    {
+      "id": "03-008",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de stappen van brutoloon naar nettoloon in de juiste volgorde, van het begin van de berekening tot het eind.",
+      "answer": [
+        "Brutoloon",
+        "Pensioenpremie werknemer eraf: loon voor de loonheffingen",
+        "Loonheffing vóór kortingen berekenen volgens de schijven",
+        "Heffingskortingen aftrekken: af te dragen loonheffing",
+        "Loonheffing van het loon aftrekken: nettoloon"
+      ],
+      "hints": [
+        "Eerst het loon, dan de heffing, dan de kortingen."
+      ],
+      "solution": [
+        "De pensioenpremie gaat af vóór de heffing, de kortingen gaan af van de heffing, niet van het loon."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Brutoloon",
+            "Loonheffing vóór kortingen berekenen volgens de schijven",
+            "Pensioenpremie werknemer eraf: loon voor de loonheffingen",
+            "Heffingskortingen aftrekken: af te dragen loonheffing",
+            "Loonheffing van het loon aftrekken: nettoloon"
+          ],
+          "message": "De pensioenpremie wordt afgetrokken vóórdat de heffing wordt berekend: de heffing is een percentage van het loon na pensioenaftrek."
+        }
+      ],
+      "topics": [
+        "payroll"
+      ]
+    },
+    {
+      "id": "03-009",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Stel dat de werkgever over het premieloon betaalt: WW 2,74%, Aof 6,27%, Whk 1,52% en Zvw-werkgeversheffing 6,10%. Het premieloon is € 40.000 en blijft onder het maximum. Hoeveel bedragen de premies samen? Antwoord in euro's, op twee decimalen.",
+      "answer": 6652,
+      "tolerance": 0.5,
+      "unit": "€",
+      "hints": [
+        "Tel eerst de percentages op."
+      ],
+      "solution": [
+        "Samen: $2{,}74 + 6{,}27 + 1{,}52 + 6{,}10 = 16{,}63\\%$",
+        "$0{,}1663 \\times 40.000 = 6.652$"
+      ],
+      "feedback": [
+        {
+          "answer": 4000,
+          "message": "Dat is 10% van het loon. Tel de vier percentages op en reken met het totaal."
+        }
+      ],
+      "topics": [
+        "employer-costs"
+      ]
+    },
+    {
+      "id": "03-010",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een werkgever betaalt een brutoloon van € 48.000. De werkgeverspremies (WW, Aof, Whk, Zvw) bedragen samen € 7.600 en de pensioenpremie van de werkgever is € 4.340. Wat zijn de totale loonkosten per jaar? Antwoord in hele euro's.",
+      "answer": 59940,
+      "unit": "€",
+      "hints": [
+        "Loonkosten zijn het brutoloon plus alles wat alleen de werkgever extra betaalt."
+      ],
+      "solution": [
+        "$48.000 + 7.600 + 4.340 = 59.940$"
+      ],
+      "feedback": [
+        {
+          "answer": 55600,
+          "message": "Je bent de pensioenpremie van de werkgever vergeten. Die hoort ook bij de loonkosten."
+        }
+      ],
+      "topics": [
+        "employer-costs"
+      ]
+    },
+    {
+      "id": "03-011",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Stel dat de werkgeversheffing Zvw 6,10% is, berekend over het premieloon tot een maximum van € 79.409 per jaar. Het premieloon van een werknemer is € 90.000. Hoeveel Zvw-werkgeversheffing betaalt de werkgever over dit jaar? Antwoord in euro's, afgerond op hele euro's.",
+      "answer": 4844,
+      "tolerance": 1,
+      "unit": "€",
+      "hints": [
+        "Welk bedrag telt maximaal mee?"
+      ],
+      "solution": [
+        "Grondslag: het maximum € 79.409",
+        "$0{,}061 \\times 79.409 = 4.843{,}95$, afgerond € 4.844"
+      ],
+      "feedback": [
+        {
+          "answer": 5490,
+          "message": "Je hebt over het hele premieloon van € 90.000 gerekend. Boven het maximum premieloon wordt geen premie meer berekend."
+        }
+      ],
+      "topics": [
+        "employer-costs"
+      ]
+    },
+    {
+      "id": "03-012",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een werknemer heeft een brutoloon van € 40.000 per jaar. Pensioenregeling: franchise € 17.000; werknemer betaalt 6% en werkgever 12% over het loon boven de franchise. De werkgever betaalt premies (WW, Aof, Whk en Zvw samen) van 16,63% over het loon voor de loonheffingen. Wat zijn de totale loonkosten per jaar? Antwoord in euro's, afgerond op hele euro's.",
+      "answer": 49183,
+      "tolerance": 1,
+      "unit": "€",
+      "hints": [
+        "Bereken eerst de pensioengrondslag en het loon voor de loonheffingen."
+      ],
+      "solution": [
+        "Grondslag: $40.000 - 17.000 = 23.000$",
+        "Pensioen werknemer: $0{,}06 \\times 23.000 = 1.380$; loon voor de loonheffingen: $38.620$",
+        "Premies: $0{,}1663 \\times 38.620 = 6.422{,}5$",
+        "Pensioen werkgever: $0{,}12 \\times 23.000 = 2.760$",
+        "Loonkosten: $40.000 + 6.422{,}5 + 2.760 = 49.182{,}5$"
+      ],
+      "feedback": [
+        {
+          "answer": 49660,
+          "message": "Je hebt de premies over het brutoloon van € 40.000 berekend. In dit model rekent het premieloon na aftrek van de werknemerspensioenpremie."
+        }
+      ],
+      "topics": [
+        "employer-costs"
+      ]
+    }
+  ]
+}

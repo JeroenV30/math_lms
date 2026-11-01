@@ -1,0 +1,275 @@
+{
+  "title": "Hoofdstuktoets – De bv en de DGA",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "02-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Welk orgaan van een bv stelt de jaarrekening vast en besluit over de bestemming van de winst?",
+      "choices": [
+        "De algemene vergadering van aandeelhouders",
+        "Het bestuur",
+        "De KvK",
+        "De notaris"
+      ],
+      "answer": "De algemene vergadering van aandeelhouders",
+      "hints": [
+        "Het orgaan van de eigenaars."
+      ],
+      "solution": [
+        "De AV stelt de jaarrekening vast en bestemt de winst."
+      ],
+      "topics": [
+        "bv",
+        "dga"
+      ]
+    },
+    {
+      "id": "02-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Een DGA is in zijn eigen bv tegelijk...",
+      "choices": [
+        "aandeelhouder, bestuurder en vaak werknemer",
+        "alleen aandeelhouder",
+        "alleen werknemer",
+        "commissaris en notaris"
+      ],
+      "answer": "aandeelhouder, bestuurder en vaak werknemer",
+      "hints": [
+        "DGA = directeur-grootaandeelhouder."
+      ],
+      "solution": [
+        "De DGA combineert drie rollen, die juridisch en fiscaal gescheiden blijven."
+      ],
+      "topics": [
+        "bv",
+        "dga"
+      ]
+    },
+    {
+      "id": "02-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom bestaat de deelnemingsvrijstelling?",
+      "choices": [
+        "Om te voorkomen dat dezelfde winst bij een dochter en bij de holding dubbel wordt belast",
+        "Om dividend aan natuurlijke personen te vrijstellen",
+        "Om de werkgeverslasten te verlagen",
+        "Om loon aftrekbaar te maken"
+      ],
+      "answer": "Om te voorkomen dat dezelfde winst bij een dochter en bij de holding dubbel wordt belast",
+      "hints": [
+        "De dochter betaalt al vennootschapsbelasting over haar winst."
+      ],
+      "solution": [
+        "De winst is al belast bij de dochter. Dividend aan de holding wordt daarom in de regel niet opnieuw belast."
+      ],
+      "topics": [
+        "holding",
+        "bv"
+      ],
+      "feedback": [
+        {
+          "answer": "Om dividend aan natuurlijke personen te vrijstellen",
+          "message": "Natuurlijke personen betalen over dividend box 2. De vrijstelling geldt voor vennootschapsbelasting bij de holding."
+        }
+      ]
+    },
+    {
+      "id": "02-T04",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Voor een DGA gelden drie maatstaven voor het gebruikelijk loon: vergelijkbare functie € 45.000, meestverdienende werknemer € 55.000, normbedrag € 58.000. Hoeveel is het gebruikelijk loon? (Hele euro's.)",
+      "answer": 58000,
+      "hints": [
+        "Neem het hoogste van de drie."
+      ],
+      "solution": [
+        "Het hoogste van € 45.000, € 55.000 en € 58.000 is € 58.000."
+      ],
+      "topics": [
+        "dga"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 55000,
+          "message": "Dat is het loon van de meestverdienende werknemer, maar het normbedrag is hoger."
+        }
+      ]
+    },
+    {
+      "id": "02-T05",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een bv heeft € 150.000 belastbare winst. Voor de vennootschapsbelasting geldt 19% over de eerste € 200.000 en 25,8% daarboven. Hoeveel is verschuldigd? (Hele euro's.)",
+      "answer": 28500,
+      "hints": [
+        "Valt de winst volledig in de eerste schijf?"
+      ],
+      "solution": [
+        "€ 150.000 is minder dan € 200.000: 19% × € 150.000 = € 28.500."
+      ],
+      "topics": [
+        "corporate-tax"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 38700,
+          "message": "Dat is 25,8% over de hele winst. Tot € 200.000 geldt 19%."
+        }
+      ]
+    },
+    {
+      "id": "02-T06",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een DGA ontvangt € 60.000 dividend. In box 2 geldt 24,5% over de eerste € 68.843 en 31% daarboven. Hoeveel box 2-belasting is verschuldigd? (Hele euro's.)",
+      "answer": 14700,
+      "hints": [
+        "Valt het dividend volledig in de eerste schijf?"
+      ],
+      "solution": [
+        "€ 60.000 is minder dan € 68.843: 24,5% × € 60.000 = € 14.700."
+      ],
+      "topics": [
+        "dga"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 18600,
+          "message": "Dat is 31% over alles. Tot € 68.843 geldt 24,5%."
+        }
+      ]
+    },
+    {
+      "id": "02-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is het verschil tussen loon en dividend voor de vennootschapsbelasting van de bv?",
+      "choices": [
+        "Loon verlaagt de winst van de bv, dividend niet",
+        "Dividend verlaagt de winst van de bv, loon niet",
+        "Beide verlagen de winst",
+        "Geen van beide verlaagt de winst"
+      ],
+      "answer": "Loon verlaagt de winst van de bv, dividend niet",
+      "hints": [
+        "Loon is een bedrijfskost."
+      ],
+      "solution": [
+        "Loon is aftrekbaar. Dividend is een uitkering uit de winst na belasting."
+      ],
+      "topics": [
+        "dga"
+      ],
+      "feedback": [
+        {
+          "answer": "Dividend verlaagt de winst van de bv, loon niet",
+          "message": "Het is andersom."
+        }
+      ]
+    },
+    {
+      "id": "02-T08",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een DGA ontvangt € 78.843 dividend. In box 2 geldt 24,5% over de eerste € 68.843 en 31% daarboven (geen fiscaal partner). Hoeveel box 2-belasting is verschuldigd? Rond af op hele euro's.",
+      "answer": 19967,
+      "hints": [
+        "Splits het dividend bij € 68.843.",
+        "Het meerdere is € 10.000."
+      ],
+      "solution": [
+        "24,5% × € 68.843 = € 16.866,54.",
+        "31% × € 10.000 = € 3.100.",
+        "Samen € 19.966,54, afgerond € 19.967."
+      ],
+      "topics": [
+        "dga"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 19317,
+          "message": "Dat is 24,5% over het hele dividend. Daarboven geldt 31%."
+        }
+      ]
+    },
+    {
+      "id": "02-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Het bestuur van een bv keurt een dividenduitkering goed terwijl het kon voorzien dat de bv daarna haar opeisbare schulden niet kan betalen. De bv gaat later failliet. Wat is een mogelijk gevolg?",
+      "choices": [
+        "De bestuurders kunnen hoofdelijk aansprakelijk zijn voor het tekort dat door de uitkering is ontstaan",
+        "De bestuurders zijn nooit aansprakelijk, want de bv is een rechtspersoon",
+        "Alleen de notaris is aansprakelijk",
+        "De dividendbelasting vervalt"
+      ],
+      "answer": "De bestuurders kunnen hoofdelijk aansprakelijk zijn voor het tekort dat door de uitkering is ontstaan",
+      "hints": [
+        "Denk aan de uitkeringstoets in artikel 2:216 BW."
+      ],
+      "solution": [
+        "Bestuurders die de uitkering goedkeurden terwijl ze wisten of konden voorzien dat de bv haar schulden niet zou kunnen betalen, kunnen hoofdelijk aansprakelijk zijn."
+      ],
+      "topics": [
+        "bv",
+        "dga"
+      ],
+      "feedback": [
+        {
+          "answer": "De bestuurders zijn nooit aansprakelijk, want de bv is een rechtspersoon",
+          "message": "De beperkte aansprakelijkheid beschermt aandeelhouders, maar een bestuurder kan bij onbehoorlijk bestuur of een onverantwoorde uitkering persoonlijk aansprakelijk zijn."
+        }
+      ]
+    },
+    {
+      "id": "02-T10",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een bv heeft € 120.000 winst vóór vennootschapsbelasting en keert alles wat na belasting overblijft als dividend uit aan haar enige aandeelhouder, een natuurlijk persoon. Vennootschapsbelasting: 19% over de eerste € 200.000. Box 2: 24,5% over de eerste € 68.843 en 31% daarboven. Hoeveel belasting is er in totaal betaald (vennootschapsbelasting plus box 2)? Rond af op hele euro's.",
+      "answer": 48457,
+      "hints": [
+        "Vennootschapsbelasting eerst, dan het dividend.",
+        "Splits het dividend bij € 68.843."
+      ],
+      "solution": [
+        "Vennootschapsbelasting: 19% × € 120.000 = € 22.800.",
+        "Dividend: € 120.000 − € 22.800 = € 97.200.",
+        "Box 2: 24,5% × € 68.843 = € 16.866,54; 31% × € 28.357 = € 8.790,67; samen € 25.657,21.",
+        "Totaal: € 22.800 + € 25.657 = € 48.457."
+      ],
+      "topics": [
+        "corporate-tax",
+        "dga"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 25657,
+          "message": "Dat is alleen de box 2-belasting. De vennootschapsbelasting komt erbij."
+        },
+        {
+          "answer": 22800,
+          "message": "Dat is alleen de vennootschapsbelasting. Box 2 over het dividend komt erbij."
+        }
+      ]
+    }
+  ]
+}

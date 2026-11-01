@@ -3,9 +3,9 @@
   "slug": "de-cijfers-van-een-bedrijf",
   "title": "De cijfers van een bedrijf",
   "part": 2,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 110,
   "prerequisites": [
     3
   ],
@@ -15,6 +15,105 @@
     "vat"
   ],
   "core_question": "Wat vertellen een balans en een winst-en-verliesrekening over de gezondheid van een bedrijf?",
-  "summary": "Balans, winst-en-verliesrekening en kasstroom, de jaarrekening en de deponering, vennootschapsbelasting en btw.",
-  "lessons": []
+  "summary": "Balans, winst-en-verliesrekening en kasstroom, kengetallen, de jaarrekening en de deponering, vennootschapsbelasting en btw.",
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een jaarrekening van een fictief fietsatelier",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "de-jaarrekening",
+      "title": "De jaarrekening: balans, winst en kasstroom",
+      "file": "02-de-jaarrekening.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "kengetallen-vennootschapsbelasting-en-btw",
+      "title": "Kengetallen, vennootschapsbelasting en btw",
+      "file": "03-kengetallen-vennootschapsbelasting-en-btw.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casus-tuinman-hoveniers",
+      "title": "Casus: de jaarrekening van Tuinman Hoveniers",
+      "file": "04-casus-studio-tuinman.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt een eenvoudige balans en winst-en-verliesrekening lezen en de onderdelen uitleggen.",
+    "Je kunt uitleggen waarom winst en kasstroom van elkaar verschillen.",
+    "Je kunt solvabiliteit, liquiditeit en rentabiliteit berekenen en interpreteren.",
+    "Je weet wat er bij de KvK wordt gedeponeerd, wanneer en hoe de grootteklasse dat bepaalt.",
+    "Je kunt de vennootschapsbelasting over een gegeven winst berekenen.",
+    "Je kunt het btw-systeem uitleggen en de af te dragen btw berekenen."
+  ],
+  "glossary": [
+    {
+      "term": "Balans",
+      "definition": "Overzicht op één datum van de bezittingen (activa) en de financiering daarvan (passiva)."
+    },
+    {
+      "term": "Activa",
+      "definition": "De bezittingen van een bedrijf, verdeeld in vaste en vlottende activa."
+    },
+    {
+      "term": "Eigen vermogen",
+      "definition": "Het deel van het vermogen dat van de aandeelhouders is: activa min alle schulden."
+    },
+    {
+      "term": "Vreemd vermogen",
+      "definition": "Schulden aan derden, zoals een banklening, crediteuren en te betalen belastingen."
+    },
+    {
+      "term": "Winst-en-verliesrekening",
+      "definition": "Overzicht van opbrengsten, kosten en resultaat over een boekjaar."
+    },
+    {
+      "term": "Afschrijving",
+      "definition": "Verdeling van de aanschafprijs van een duurzaam bedrijfsmiddel over zijn gebruiksduur."
+    },
+    {
+      "term": "Kasstroom",
+      "definition": "Het geld dat daadwerkelijk in en uit een bedrijf gaat, uitgesplitst naar operationeel, investeren en financieren."
+    },
+    {
+      "term": "Solvabiliteit",
+      "definition": "Eigen vermogen als deel van het totale vermogen; maat voor financiële zelfstandigheid."
+    },
+    {
+      "term": "Liquiditeit",
+      "definition": "Het vermogen om kortlopende schulden op tijd te betalen, gemeten met de current ratio en de quick ratio."
+    },
+    {
+      "term": "Rentabiliteit",
+      "definition": "Winst als deel van het ingezette vermogen."
+    },
+    {
+      "term": "Deponeren",
+      "definition": "Het inleveren van de jaarrekening bij de Kamer van Koophandel, waar ze openbaar wordt."
+    },
+    {
+      "term": "Vennootschapsbelasting",
+      "definition": "Belasting over de winst van rechtspersonen zoals de bv."
+    },
+    {
+      "term": "Btw",
+      "definition": "Belasting op consumptie die ondernemers innen: verschuldigde btw min voorbelasting wordt afgedragen."
+    },
+    {
+      "term": "Voorbelasting",
+      "definition": "De btw die een ondernemer op zijn inkopen heeft betaald en kan aftrekken."
+    }
+  ],
+  "timeline": [],
+  "people": []
 }

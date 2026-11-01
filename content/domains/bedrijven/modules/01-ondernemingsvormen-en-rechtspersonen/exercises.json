@@ -1,0 +1,390 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke van deze vormen is een rechtspersoon?",
+      "choices": [
+        "Vennootschap onder firma",
+        "Maatschap",
+        "Besloten vennootschap",
+        "Commanditaire vennootschap"
+      ],
+      "answer": "Besloten vennootschap",
+      "hints": [
+        "Een rechtspersoon kan zelf contracten sluiten en schulden hebben, los van de mensen erachter."
+      ],
+      "solution": [
+        "De bv is een rechtspersoon. Eenmanszaak, maatschap, vof en cv zijn dat niet."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "feedback": [
+        {
+          "answer": "Vennootschap onder firma",
+          "message": "De vof heeft een eigen naam en afgescheiden vermogen, maar is geen rechtspersoon: de vennoten zijn hoofdelijk aansprakelijk."
+        }
+      ]
+    },
+    {
+      "id": "01-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een vof heeft een schuld die ze zelf niet kan betalen. Wat mag de schuldeiser doen?",
+      "choices": [
+        "Alleen de vof aanspreken, want zij is de contractpartij",
+        "Het volledige restant bij één vennoot opeisen",
+        "Alleen een vennoot aanspreken voor zijn eigen deel",
+        "Niets, want de schuld vervalt bij onvermogen"
+      ],
+      "answer": "Het volledige restant bij één vennoot opeisen",
+      "hints": [
+        "Denk aan het woord hoofdelijk."
+      ],
+      "solution": [
+        "Vennoten van een vof zijn hoofdelijk aansprakelijk: extern voor het geheel. Onderling verrekenen zij daarna."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "feedback": [
+        {
+          "answer": "Alleen een vennoot aanspreken voor zijn eigen deel",
+          "message": "Dat zou gelden als iedere vennoot alleen voor een deel aansprakelijk was. Bij een vof is dat extern niet zo; het onderlinge deel speelt alleen tussen de vennoten."
+        }
+      ]
+    },
+    {
+      "id": "01-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wanneer is een commanditaire vennoot van een cv niet aansprakelijk boven zijn inleg?",
+      "choices": [
+        "Als hij zich niet met beheer en vertegenwoordiging bemoeit",
+        "Als hij meer dan de helft van het kapitaal inbrengt",
+        "Als de cv een notariële akte heeft",
+        "Altijd, ook als hij het bedrijf feitelijk leidt"
+      ],
+      "answer": "Als hij zich niet met beheer en vertegenwoordiging bemoeit",
+      "hints": [
+        "De commanditaire vennoot is de stille financier."
+      ],
+      "solution": [
+        "De beperkte aansprakelijkheid van de commanditair hangt samen met zijn afstand tot het beheer. Doet hij toch beheerhandelingen, dan kan hij alsnog aansprakelijk worden."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "feedback": [
+        {
+          "answer": "Altijd, ook als hij het bedrijf feitelijk leidt",
+          "message": "Juist dan kan de beperking vervallen: wie het beheer voert, loopt hetzelfde risico als een beherende vennoot."
+        }
+      ]
+    },
+    {
+      "id": "01-004",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een vof met drie vennoten heeft een schuld van € 150.000. Het vermogen van de vof is € 60.000. De schuldeiser verhaalt eerst op dat vermogen en vordert daarna het restant van één van de vennoten. Hoeveel euro kan hij van die ene vennoot vorderen? (Hele euro's.)",
+      "answer": 90000,
+      "hints": [
+        "Eerst het vermogen van de vof, dan het restant.",
+        "Hoofdelijk betekent: het geheel, niet een derde."
+      ],
+      "solution": [
+        "Restant: € 150.000 − € 60.000 = € 90.000.",
+        "Hoofdelijk aansprakelijk, dus het volle restant van € 90.000 kan bij één vennoot worden opgeëist."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 30000,
+          "message": "Dat is een derde van het restant. Dat is het deel dat de vennoot intern hoort te dragen. Extern mag de schuldeiser het geheel vorderen."
+        },
+        {
+          "answer": 50000,
+          "message": "Dat is een derde van de totale schuld. Eerst trek je het vermogen van de vof af, en hoofdelijk betekent het volle restant."
+        }
+      ]
+    },
+    {
+      "id": "01-005",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Twee architecten willen samen een praktijk voeren als vrij beroep, zonder rechtspersoon. Welke vorm past het best bij die opzet?",
+      "choices": [
+        "Maatschap",
+        "Stichting",
+        "Coöperatie",
+        "Nv"
+      ],
+      "answer": "Maatschap",
+      "hints": [
+        "Denk aan een samenwerking van vrije beroepen."
+      ],
+      "solution": [
+        "De maatschap is de gebruikelijke vorm voor een samenwerking van vrije beroepsbeoefenaars zonder rechtspersoon."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "feedback": [
+        {
+          "answer": "Stichting",
+          "message": "Een stichting heeft geen eigenaars of winstoogmerk. Een architectenpraktijk is een commerciële samenwerking."
+        }
+      ]
+    },
+    {
+      "id": "01-006",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Een eenmanszaak heeft een schuld die hoger is dan het bedrijfsvermogen. Wat is het gevolg voor de eigenaar?",
+      "choices": [
+        "Ook het privévermogen kan worden aangesproken",
+        "Het bedrijf heeft een eigen vermogen dat de schuld afdekt",
+        "De schuld vervalt na een jaar",
+        "Alleen het bedrijfsvermogen kan worden aangesproken"
+      ],
+      "answer": "Ook het privévermogen kan worden aangesproken",
+      "hints": [
+        "Is er een scheiding tussen zaak en privé?"
+      ],
+      "solution": [
+        "Bij een eenmanszaak is er geen aparte rechtspersoon: de eigenaar is zelf de schuldenaar, met zijn totale vermogen."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "feedback": [
+        {
+          "answer": "Alleen het bedrijfsvermogen kan worden aangesproken",
+          "message": "Dat is het kenmerk van een rechtspersoon met beperkte aansprakelijkheid. Bij een eenmanszaak is er geen scheiding."
+        }
+      ]
+    },
+    {
+      "id": "01-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat onderscheidt een stichting van een vereniging?",
+      "choices": [
+        "De stichting heeft geen leden, de vereniging wel",
+        "De stichting mag wel winst uitkeren, de vereniging niet",
+        "De stichting is geen rechtspersoon",
+        "De vereniging heeft aandelen"
+      ],
+      "answer": "De stichting heeft geen leden, de vereniging wel",
+      "hints": [
+        "Wie heeft de hoogste macht in een vereniging?"
+      ],
+      "solution": [
+        "Een vereniging heeft leden die samen de hoogste macht hebben in de algemene ledenvergadering. Een stichting heeft een bestuur en een vermogen met een doel, zonder leden."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "feedback": [
+        {
+          "answer": "De stichting mag wel winst uitkeren, de vereniging niet",
+          "message": "Beide vormen delen in beginsel geen winst uit; bij een stichting is een uitkering aan oprichters of bestuurders zelfs uitgesloten."
+        }
+      ]
+    },
+    {
+      "id": "01-008",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke bewering over de bv en de nv klopt (stand 2026)?",
+      "choices": [
+        "Een bv heeft geen wettelijk minimumkapitaal, een nv wel",
+        "Een bv heeft een minimumkapitaal van € 45.000",
+        "Een nv is geen rechtspersoon",
+        "Aandelen van een bv zijn altijd vrij overdraagbaar"
+      ],
+      "answer": "Een bv heeft geen wettelijk minimumkapitaal, een nv wel",
+      "hints": [
+        "Het kapitaalvereiste voor de bv verviel in 2012."
+      ],
+      "solution": [
+        "Sinds de flex-bv (1 oktober 2012) is er geen minimumkapitaal voor de bv. Voor de nv geldt € 45.000. Bij een bv zijn aandelen meestal niet vrij overdraagbaar."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "feedback": [
+        {
+          "answer": "Een bv heeft een minimumkapitaal van € 45.000",
+          "message": "Dat bedrag geldt voor de nv. De bv heeft sinds 2012 geen minimumkapitaal."
+        }
+      ]
+    },
+    {
+      "id": "01-009",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de stappen bij het oprichten van een bv in de logische volgorde, de eerste stap eerst.",
+      "answer": [
+        "De oprichters leggen naam, aandeelhouders, bestuurder en kapitaal vast",
+        "De notaris passeert de oprichtingsakte",
+        "De bv wordt ingeschreven in het handelsregister van de KvK",
+        "De Belastingdienst stuurt de belastingnummers"
+      ],
+      "hints": [
+        "Wat moet er vaststaan voordat de notaris de akte kan opstellen?"
+      ],
+      "solution": [
+        "Eerst bepalen de oprichters de inhoud van de statuten.",
+        "Daarna volgt de akte bij de notaris.",
+        "De notaris meldt de bv aan voor inschrijving.",
+        "Na inschrijving krijgt de bv haar belastingnummers."
+      ],
+      "topics": [
+        "legal-entities"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "De notaris passeert de oprichtingsakte",
+            "De oprichters leggen naam, aandeelhouders, bestuurder en kapitaal vast",
+            "De bv wordt ingeschreven in het handelsregister van de KvK",
+            "De Belastingdienst stuurt de belastingnummers"
+          ],
+          "message": "De notaris kan pas een akte opstellen als de inhoud (naam, bestuurder, aandeelhouders) vaststaat."
+        }
+      ]
+    },
+    {
+      "id": "01-010",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Voor de mkb-klasse gelden deze grenzen: klein = minder dan 50 fte en omzet of balanstotaal hooguit € 10 miljoen; middelgroot = minder dan 250 fte en omzet hooguit € 50 miljoen of balanstotaal hooguit € 43 miljoen. Een zelfstandige bv heeft 120 fte, een omzet van € 30 miljoen en een balanstotaal van € 45 miljoen. In welke klasse valt ze?",
+      "choices": [
+        "Klein",
+        "Middelgroot",
+        "Groot",
+        "Micro"
+      ],
+      "answer": "Middelgroot",
+      "hints": [
+        "Controleer eerst het aantal medewerkers en dan omzet of balanstotaal.",
+        "Voor middelgroot is één van de twee financiële criteria genoeg."
+      ],
+      "solution": [
+        "120 fte is minder dan 250.",
+        "De omzet van € 30 miljoen blijft onder € 50 miljoen, ook al is het balanstotaal van € 45 miljoen te hoog: één criterium is genoeg.",
+        "De bv is dus middelgroot."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "feedback": [
+        {
+          "answer": "Groot",
+          "message": "Het balanstotaal is te hoog, maar de omzet voldoet. Voor de klasse middelgroot hoeft maar één financieel criterium te kloppen."
+        }
+      ]
+    },
+    {
+      "id": "01-011",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bv heeft een schuld van € 80.000 en een vermogen van € 20.000. De bank heeft een deel van de schuld verstrekt met een persoonlijke borgstelling van de aandeelhouder tot € 25.000. Er is geen sprake van onbehoorlijk bestuur. Wat is het maximale bedrag dat de aandeelhouder privé kan kwijtraken door deze schuld? (Hele euro's.)",
+      "answer": 25000,
+      "hints": [
+        "De aandeelhouder is niet aansprakelijk voor de schulden van de bv.",
+        "Een borgstelling is een persoonlijke, aparte verplichting."
+      ],
+      "solution": [
+        "Zonder borgstelling zou het risico beperkt zijn tot zijn inbreng.",
+        "Door de borg heeft hij zich persoonlijk verbonden tot € 25.000: dat is zijn maximale extra risico."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 60000,
+          "message": "Dat is het tekort van de bv (€ 80.000 − € 20.000). De aandeelhouder is daarvoor niet aansprakelijk, behalve voor zijn borg."
+        },
+        {
+          "answer": 0,
+          "message": "Zonder borgstelling klopt dat, maar de aandeelhouder heeft zich hier persoonlijk verbonden."
+        }
+      ]
+    },
+    {
+      "id": "01-012",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een uittreksel van een cv vermeldt: beherende vennoot is een bv; commanditaire vennoten zijn twee natuurlijke personen. De bv heeft één aandeelhouder-bestuurder. Wie is voor de schulden van de cv volledig aansprakelijk?",
+      "choices": [
+        "De bv als beherende vennoot",
+        "De aandeelhouder-bestuurder persoonlijk, altijd",
+        "De twee commanditaire vennoten, voor het geheel",
+        "Niemand, want een cv is een rechtspersoon"
+      ],
+      "answer": "De bv als beherende vennoot",
+      "hints": [
+        "Wie is de beherende vennoot en wat voor soort partij is dat?"
+      ],
+      "solution": [
+        "De beherende vennoot is volledig aansprakelijk; dat is hier de bv. Haar aandeelhouder is niet persoonlijk aansprakelijk, behalve bij een borgstelling of onbehoorlijk bestuur."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "feedback": [
+        {
+          "answer": "De aandeelhouder-bestuurder persoonlijk, altijd",
+          "message": "De aandeelhouder is niet persoonlijk aansprakelijk voor de schulden van de bv. Dat verandert alleen bij borgstelling of onbehoorlijk bestuur."
+        },
+        {
+          "answer": "Niemand, want een cv is een rechtspersoon",
+          "message": "De cv is geen rechtspersoon. De beherende vennoot is volledig aansprakelijk."
+        }
+      ]
+    }
+  ]
+}

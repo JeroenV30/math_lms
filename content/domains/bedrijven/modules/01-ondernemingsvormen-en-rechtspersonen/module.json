@@ -3,9 +3,9 @@
   "slug": "ondernemingsvormen-en-rechtspersonen",
   "title": "Ondernemingsvormen en rechtspersonen",
   "part": 1,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 100,
   "prerequisites": [],
   "topics": [
     "legal-forms",
@@ -14,5 +14,95 @@
   ],
   "core_question": "Waarom kiest de ene ondernemer voor een eenmanszaak en de andere voor een bv?",
   "summary": "Eenmanszaak, vof, maatschap en cv tegenover rechtspersonen als bv, nv, stichting, vereniging en coöperatie; aansprakelijkheid en inschrijving bij de KvK.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een uittreksel van één pagina",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "personenondernemingen",
+      "title": "Eenmanszaak, maatschap, vof en cv",
+      "file": "02-personenondernemingen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "rechtspersonen",
+      "title": "Rechtspersonen, oprichting en het uittreksel",
+      "file": "03-rechtspersonen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casus-kwartslag",
+      "title": "Casus: Mira en Daan beginnen een bedrijf",
+      "file": "04-casus-kwartslag.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt rechtsvormen met en zonder rechtspersoonlijkheid onderscheiden.",
+    "Je kunt de aansprakelijkheid van eenmanszaak, vof, maatschap, cv en bv uitleggen en doorrekenen.",
+    "Je kunt de verschillen tussen bv, nv, stichting, vereniging en coöperatie benoemen.",
+    "Je kunt een KvK-uittreksel lezen: KvK-nummer, RSIN, bestuurder en bevoegdheid.",
+    "Je kunt de stappen van oprichting beschrijven en de mkb-klasse van een onderneming bepalen."
+  ],
+  "glossary": [
+    {
+      "term": "Rechtspersoon",
+      "definition": "Organisatie die zelf drager is van rechten en plichten, los van de mensen erachter."
+    },
+    {
+      "term": "Eenmanszaak",
+      "definition": "Onderneming van één persoon zonder aparte rechtspersoon; onbeperkt aansprakelijk."
+    },
+    {
+      "term": "Hoofdelijke aansprakelijkheid",
+      "definition": "Elke vennoot kan voor het geheel worden aangesproken; onderling wordt verrekend."
+    },
+    {
+      "term": "Vennootschap onder firma (vof)",
+      "definition": "Samenwerking onder een gemeenschappelijke naam; vennoten zijn hoofdelijk aansprakelijk."
+    },
+    {
+      "term": "Commanditaire vennootschap (cv)",
+      "definition": "Vof met beherende vennoten (volledig aansprakelijk) en commanditaire vennoten (aansprakelijk tot hun inleg)."
+    },
+    {
+      "term": "Maatschap",
+      "definition": "Samenwerking van twee of meer personen, vooral bij vrije beroepen."
+    },
+    {
+      "term": "Besloten vennootschap (bv)",
+      "definition": "Rechtspersoon met aandelen op naam en beperkte aansprakelijkheid van de aandeelhouders."
+    },
+    {
+      "term": "Statuten",
+      "definition": "De regels van een rechtspersoon, vastgelegd in de notariële akte."
+    },
+    {
+      "term": "Handelsregister",
+      "definition": "Openbaar register van de KvK met onder andere rechtsvorm, bestuurders en bevoegdheid."
+    },
+    {
+      "term": "RSIN",
+      "definition": "Fiscaal nummer van een rechtspersoon of samenwerkingsverband (negen cijfers)."
+    },
+    {
+      "term": "Borgstelling",
+      "definition": "Persoonlijke verplichting om een schuld van een ander over te nemen als die niet betaalt."
+    },
+    {
+      "term": "Mkb-definitie",
+      "definition": "Indeling naar medewerkers, omzet en balanstotaal volgens aanbeveling 2003/361/EG."
+    }
+  ],
+  "timeline": [],
+  "people": []
 }

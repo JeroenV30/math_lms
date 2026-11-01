@@ -1,0 +1,305 @@
+{
+  "title": "Hoofdstuktoets – Ondernemingsvormen en rechtspersonen",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "01-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat is het kenmerk van een rechtspersoon?",
+      "choices": [
+        "De organisatie is zelf drager van rechten en plichten, los van de mensen erachter",
+        "De eigenaar is hoofdelijk aansprakelijk",
+        "Er is geen administratie nodig",
+        "De organisatie heeft altijd aandelen"
+      ],
+      "answer": "De organisatie is zelf drager van rechten en plichten, los van de mensen erachter",
+      "hints": [
+        "Denk aan wie het contract sluit."
+      ],
+      "solution": [
+        "Een rechtspersoon kan zelf eigendommen hebben, contracten sluiten en schulden hebben."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ]
+    },
+    {
+      "id": "01-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Een schilder werkt alleen, ingeschreven bij de KvK zonder verdere constructie. Welke rechtsvorm heeft hij?",
+      "choices": [
+        "Eenmanszaak",
+        "Bv",
+        "Stichting",
+        "Coöperatie"
+      ],
+      "answer": "Eenmanszaak",
+      "hints": [
+        "Er is geen rechtspersoon opgericht."
+      ],
+      "solution": [
+        "Een ondernemer die alleen werkt zonder rechtspersoon drijft een eenmanszaak."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ]
+    },
+    {
+      "id": "01-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Drie vennoten van een vof zijn hoofdelijk aansprakelijk. Wat betekent dat voor een schuldeiser?",
+      "choices": [
+        "Hij mag het volledige verschuldigde bedrag bij één vennoot opeisen",
+        "Hij mag van elke vennoot hooguit een derde vorderen",
+        "Hij moet eerst alle vennoten aanklagen",
+        "Hij kan alleen de vof zelf aanspreken"
+      ],
+      "answer": "Hij mag het volledige verschuldigde bedrag bij één vennoot opeisen",
+      "hints": [
+        "Hoofdelijk betekent: het geheel."
+      ],
+      "solution": [
+        "Extern is ieder hoofdelijk aansprakelijk voor het geheel; onderling wordt later verrekend."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "feedback": [
+        {
+          "answer": "Hij mag van elke vennoot hooguit een derde vorderen",
+          "message": "Het onderlinge aandeel geldt alleen tussen de vennoten, niet naar de schuldeiser toe."
+        }
+      ]
+    },
+    {
+      "id": "01-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke vorm gebruik je voor een organisatie met een doel en een vermogen, maar zonder leden of aandeelhouders?",
+      "choices": [
+        "Stichting",
+        "Vereniging",
+        "Vof",
+        "Nv"
+      ],
+      "answer": "Stichting",
+      "hints": [
+        "Een vereniging heeft juist leden."
+      ],
+      "solution": [
+        "De stichting heeft een bestuur en een vermogen met een doel, zonder leden."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "feedback": [
+        {
+          "answer": "Vereniging",
+          "message": "Een vereniging heeft leden en een algemene ledenvergadering."
+        }
+      ]
+    },
+    {
+      "id": "01-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wie legt als commanditaire vennoot geld in een cv, zonder zich met het beheer te bemoeien, is aansprakelijk voor schulden van de cv...",
+      "choices": [
+        "tot het bedrag van zijn inleg",
+        "voor het geheel, net als een beherende vennoot",
+        "helemaal niet, ook niet voor zijn inleg",
+        "alleen als hij bestuurder van een bv is"
+      ],
+      "answer": "tot het bedrag van zijn inleg",
+      "hints": [
+        "Hij is de stille financier."
+      ],
+      "solution": [
+        "De commanditair riskeert zijn inleg, mits hij geen beheer voert."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "feedback": [
+        {
+          "answer": "voor het geheel, net als een beherende vennoot",
+          "message": "Dat geldt voor de beherende vennoot. De commanditair is beperkt aansprakelijk zolang hij zich afzijdig houdt van het beheer."
+        }
+      ]
+    },
+    {
+      "id": "01-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bv-aandeelhouder tekent een persoonlijke borgstelling voor een banklening van € 40.000. De bv gaat failliet en kan de lening niet terugbetalen. Wat is het gevolg?",
+      "choices": [
+        "De bank kan de borg van € 40.000 bij de aandeelhouder privé opeisen",
+        "De aandeelhouder is niet aansprakelijk, want de bv is een rechtspersoon",
+        "De lening vervalt omdat de bv failliet is",
+        "De bank kan alleen de notaris aanspreken"
+      ],
+      "answer": "De bank kan de borg van € 40.000 bij de aandeelhouder privé opeisen",
+      "hints": [
+        "Een borgstelling is een aparte persoonlijke verplichting."
+      ],
+      "solution": [
+        "Door de borgstelling heeft de aandeelhouder zich persoonlijk verbonden, ook al is de bv een rechtspersoon."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "feedback": [
+        {
+          "answer": "De aandeelhouder is niet aansprakelijk, want de bv is een rechtspersoon",
+          "message": "Normaal klopt dat, maar met een borgstelling is de aandeelhouder persoonlijk gebonden."
+        }
+      ]
+    },
+    {
+      "id": "01-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een KvK-uittreksel van een bv vermeldt twee bestuurders met de bevoegdheid gezamenlijk bevoegd. Wat betekent dat voor een contract namens de bv?",
+      "choices": [
+        "De handtekeningen van beide bestuurders zijn nodig",
+        "Elke bestuurder kan de bv afzonderlijk binden",
+        "Alleen de aandeelhouder mag tekenen",
+        "Het contract is altijd ongeldig"
+      ],
+      "answer": "De handtekeningen van beide bestuurders zijn nodig",
+      "hints": [
+        "Gezamenlijk is het tegenovergestelde van zelfstandig."
+      ],
+      "solution": [
+        "Bij gezamenlijke bevoegdheid moeten de bestuurders samen optreden."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "feedback": [
+        {
+          "answer": "Elke bestuurder kan de bv afzonderlijk binden",
+          "message": "Dat is alleen/zelfstandig bevoegd."
+        }
+      ]
+    },
+    {
+      "id": "01-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Voor de mkb-klasse gelden deze grenzen: micro = minder dan 10 fte en omzet of balanstotaal hooguit € 2 miljoen; klein = minder dan 50 fte en omzet of balanstotaal hooguit € 10 miljoen. Een zelfstandige onderneming heeft 8 fte, een omzet van € 1,5 miljoen en een balanstotaal van € 3 miljoen. In welke klasse valt ze?",
+      "choices": [
+        "Micro",
+        "Klein",
+        "Middelgroot",
+        "Groot"
+      ],
+      "answer": "Micro",
+      "hints": [
+        "Voor de financiële grens is één criterium genoeg."
+      ],
+      "solution": [
+        "8 fte is minder dan 10. De omzet (€ 1,5 miljoen) blijft onder € 2 miljoen, en één criterium is genoeg: micro."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "feedback": [
+        {
+          "answer": "Klein",
+          "message": "Het balanstotaal is te hoog voor micro, maar de omzet voldoet. Eén criterium is genoeg."
+        }
+      ]
+    },
+    {
+      "id": "01-T09",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een vof met vier vennoten heeft een schuld van € 200.000 en een vermogen van € 80.000. De schuldeiser verhaalt eerst op het vermogen van de vof en vordert dan het restant van één vennoot. Hoeveel euro kan hij van die vennoot vorderen? (Hele euro's.)",
+      "answer": 120000,
+      "hints": [
+        "Trek eerst het vermogen van de vof af.",
+        "Hoofdelijk: het volle restant."
+      ],
+      "solution": [
+        "Restant: € 200.000 − € 80.000 = € 120.000.",
+        "Hoofdelijk, dus het hele restant kan bij één vennoot."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 30000,
+          "message": "Dat is een vierde van het restant. Dat is het onderlinge aandeel, niet wat de schuldeiser mag vorderen."
+        },
+        {
+          "answer": 50000,
+          "message": "Dat is een vierde van de totale schuld. Trek eerst het vermogen af en neem dan het volle restant."
+        }
+      ]
+    },
+    {
+      "id": "01-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Twee ondernemers willen een bedrijf starten en een externe investeerder aantrekken die een belang wil kopen zonder aansprakelijk te worden voor schulden. Welke vorm past het best?",
+      "choices": [
+        "Bv met aandelen die de investeerder kan kopen",
+        "Eenmanszaak van de grootste inbrenger",
+        "Vof met drie vennoten",
+        "Maatschap"
+      ],
+      "answer": "Bv met aandelen die de investeerder kan kopen",
+      "hints": [
+        "Welke vorm kent overdraagbare aandelen en beperkte aansprakelijkheid?"
+      ],
+      "solution": [
+        "Een bv heeft aandelen en beperkte aansprakelijkheid van de aandeelhouders, zodat een investeerder kan instappen zonder persoonlijk te garanderen."
+      ],
+      "topics": [
+        "legal-forms",
+        "legal-entities",
+        "liability"
+      ],
+      "feedback": [
+        {
+          "answer": "Vof met drie vennoten",
+          "message": "Bij een vof is een investeerder hoofdelijk aansprakelijk. Dat is het tegendeel van wat hij wil."
+        }
+      ]
+    }
+  ]
+}

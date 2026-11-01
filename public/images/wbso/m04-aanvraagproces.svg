@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" font-family="Arial, Helvetica, sans-serif" font-size="13">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1f2933"/></marker></defs>
+  <rect width="760" height="330" fill="#ffffff"/>
+  <text x="380" y="24" text-anchor="middle" font-size="16" font-weight="bold" fill="#1f2933">De WBSO-cyclus van aanvraag tot controle</text>
+  <g stroke="#1f2933" stroke-width="1.5" fill="#dbe4ff">
+    <rect x="20" y="60" width="150" height="70"/><rect x="205" y="60" width="150" height="70"/>
+    <rect x="390" y="60" width="150" height="70"/><rect x="575" y="60" width="150" height="70"/>
+    <rect x="20" y="210" width="150" height="70" fill="#ffffff" stroke="#3b5bdb" stroke-width="2"/>
+    <rect x="205" y="210" width="150" height="70" fill="#ffffff" stroke="#3b5bdb" stroke-width="2"/>
+    <rect x="390" y="210" width="150" height="70" fill="#f1e3cf"/><rect x="575" y="210" width="150" height="70" fill="#f1e3cf"/>
+  </g>
+  <g fill="#1f2933" text-anchor="middle">
+    <text x="95" y="88" font-weight="bold">1. Voorbereiden</text><text x="95" y="106">projecten afbakenen,</text><text x="95" y="122">knelpunten beschrijven</text>
+    <text x="280" y="88" font-weight="bold">2. Aanvragen</text><text x="280" y="106">uiterlijk laatste dag</text><text x="280" y="122">van de maand ervoor</text>
+    <text x="465" y="88" font-weight="bold">3. S&amp;O-verklaring</text><text x="465" y="106">RVO beoordeelt en</text><text x="465" y="122">geeft de verklaring</text>
+    <text x="650" y="88" font-weight="bold">4. Uitvoeren</text><text x="650" y="106">werken, uren en</text><text x="650" y="122">voortgang vastleggen</text>
+    <text x="95" y="238" font-weight="bold">5. Afdracht verminderen</text><text x="95" y="256">via de loonaangifte</text><text x="95" y="272">(werkgevers)</text>
+    <text x="280" y="238" font-weight="bold">6. Mededeling</text><text x="280" y="256">gerealiseerde uren,</text><text x="280" y="272">uiterlijk 31 maart</text>
+    <text x="465" y="238" font-weight="bold">7. Controle</text><text x="465" y="256">RVO kan toetsen of</text><text x="465" y="272">de praktijk klopt</text>
+    <text x="650" y="238" font-weight="bold">8. Correctie</text><text x="650" y="256">bij afwijking: minder</text><text x="650" y="272">voordeel, soms boete</text>
+  </g>
+  <g stroke="#1f2933" stroke-width="1.5" fill="none" marker-end="url(#a)">
+    <line x1="170" y1="95" x2="203" y2="95"/><line x1="355" y1="95" x2="388" y2="95"/><line x1="540" y1="95" x2="573" y2="95"/>
+    <path d="M650 130 L650 170 L95 170 L95 208"/>
+    <line x1="170" y1="245" x2="203" y2="245"/><line x1="355" y1="245" x2="388" y2="245"/><line x1="540" y1="245" x2="573" y2="245"/>
+  </g>
+  <text x="380" y="190" text-anchor="middle" fill="#3b5bdb" font-size="12">tijdens het jaar</text>
+  <text x="380" y="312" text-anchor="middle" fill="#9c6b30" font-size="12">na afloop van het jaar</text>
+</svg>

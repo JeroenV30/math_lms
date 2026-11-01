@@ -1,0 +1,229 @@
+{
+  "title": "Hoofdstuktoets – Wat telt als S&O",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "02-T01",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welk woord uit de definitie van S&O maakt dat 'nieuw voor de markt' niet genoeg is?",
+      "choices": [
+        "Technisch nieuw",
+        "Fysiek",
+        "Systematisch",
+        "Lidstaat"
+      ],
+      "answer": "Technisch nieuw",
+      "hints": [],
+      "solution": [
+        "Het gaat om technische nieuwheid, niet om marktnieuwheid."
+      ],
+      "topics": [
+        "rd-definition"
+      ]
+    },
+    {
+      "id": "02-T02",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een bedrijf ontwerpt een gebouwinstallatie volledig met bestaande en bewezen technieken. Wat is dit?",
+      "choices": [
+        "Engineering, geen S&O",
+        "Een ontwikkelingsproject",
+        "Technisch-wetenschappelijk onderzoek",
+        "Een prototype met gebruikerswaarde"
+      ],
+      "answer": "Engineering, geen S&O",
+      "hints": [],
+      "solution": [
+        "Bestaande en bewezen technieken toepassen is engineering."
+      ],
+      "topics": [
+        "technical-development"
+      ]
+    },
+    {
+      "id": "02-T03",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wanneer eindigt een ontwikkelingsproject volgens de WBSO?",
+      "choices": [
+        "Zodra het werkingsprincipe is aangetoond",
+        "Zodra het product wordt verkocht",
+        "Zodra de productie op volle toeren draait",
+        "Na twaalf maanden"
+      ],
+      "answer": "Zodra het werkingsprincipe is aangetoond",
+      "hints": [],
+      "solution": [
+        "Daarna is het geen S&O meer."
+      ],
+      "topics": [
+        "technical-development"
+      ]
+    },
+    {
+      "id": "02-T04",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een prototype dat een bedrijf na afloop verkoopt aan een klant heeft:",
+      "choices": [
+        "gebruikerswaarde, dus de bouwuren tellen niet mee",
+        "geen gebruikerswaarde, dus de bouwuren tellen mee",
+        "altijd gebruikerswaarde, ook als het wordt vernietigd",
+        "alleen waarde als het groot is"
+      ],
+      "answer": "gebruikerswaarde, dus de bouwuren tellen niet mee",
+      "hints": [],
+      "solution": [
+        "Verkoopbaar of inzetbaar als bedrijfsmiddel betekent gebruikerswaarde."
+      ],
+      "topics": [
+        "technical-development"
+      ]
+    },
+    {
+      "id": "02-T05",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een softwarebedrijf past een bestaande machine-learningbibliotheek toe om een model te trainen en bouwt dat in een app. Het ontwikkelt zelf geen nieuw technisch principe. Wat is de beste beoordeling?",
+      "choices": [
+        "Geen technisch nieuwe programmatuur: het is toepassen van bestaande technologie",
+        "Wel S&O, want machine learning is nieuw",
+        "Wel S&O, want de app is nieuw",
+        "Wel S&O, want er wordt data verwerkt"
+      ],
+      "answer": "Geen technisch nieuwe programmatuur: het is toepassen van bestaande technologie",
+      "hints": [],
+      "solution": [
+        "Zoek het eigen technische knelpunt dat het bedrijf zelf oplost."
+      ],
+      "topics": [
+        "technical-development"
+      ]
+    },
+    {
+      "id": "02-T06",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een bedrijf ontwikkelt een nieuw algoritme dat een snelheidsprobleem oplost dat bestaande methoden niet aankunnen, en legt het vast in een programmeertaal. Wat is de beste beoordeling?",
+      "choices": [
+        "Dit kan technisch nieuwe programmatuur zijn, mits het knelpunt en de technische nieuwheid zijn onderbouwd",
+        "Dit is nooit S&O, want software is geen techniek",
+        "Dit is altijd S&O",
+        "Dit is alleen S&O als het ook wordt verkocht"
+      ],
+      "answer": "Dit kan technisch nieuwe programmatuur zijn, mits het knelpunt en de technische nieuwheid zijn onderbouwd",
+      "hints": [],
+      "solution": [
+        "Er is een technisch knelpunt en de oplossing wordt zelf ontwikkeld."
+      ],
+      "topics": [
+        "technical-development"
+      ]
+    },
+    {
+      "id": "02-T07",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Welke van deze onderzoeksvragen past bij technisch-wetenschappelijk onderzoek?",
+      "choices": [
+        "Waarom verschilt de hittetolerantie van micro-organismen in een saus per soort?",
+        "Welke saus verkoopt het best?",
+        "Hoe tevreden zijn klanten over de smaak?",
+        "Welke verpakking heeft de beste prijs?"
+      ],
+      "answer": "Waarom verschilt de hittetolerantie van micro-organismen in een saus per soort?",
+      "hints": [],
+      "solution": [
+        "TWO is technisch en verklarend; economisch of sociaal onderzoek telt niet."
+      ],
+      "topics": [
+        "technical-research"
+      ]
+    },
+    {
+      "id": "02-T08",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een bedrijf voert een reeks proeven (design of experiments) uit om de omstandigheden van productafwijkingen in kaart te brengen. Het zoekt niet naar een verklaring. Is dit TWO?",
+      "choices": [
+        "Nee, het stelt vast maar verklaart niet",
+        "Ja, want er is een proefopzet",
+        "Ja, want er zijn metingen",
+        "Ja, want het onderzoek is planmatig"
+      ],
+      "answer": "Nee, het stelt vast maar verklaart niet",
+      "hints": [],
+      "solution": [
+        "Kijk of er een verklaring voor het verschijnsel wordt gezocht."
+      ],
+      "topics": [
+        "technical-research"
+      ]
+    },
+    {
+      "id": "02-T09",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 4,
+      "question": "Een ontwikkelaar werkt een maand 160 uur. Hij besteedt 100 uur aan een technisch knelpunt in een bestaand systeem dat hij zelf oplost, 40 uur aan het bouwen van schermen met bekende technieken en 20 uur aan onderhoud. Hoeveel uur kan hoogstens als S&O worden opgevoerd?",
+      "choices": [
+        "100 uur",
+        "160 uur",
+        "140 uur",
+        "60 uur"
+      ],
+      "answer": "100 uur",
+      "hints": [],
+      "solution": [
+        "Alleen de uren voor het technische knelpunt tellen.",
+        "Schermen met bekende technieken en onderhoud zijn geen S&O."
+      ],
+      "topics": [
+        "technical-development"
+      ],
+      "feedback": [
+        {
+          "answer": "160 uur",
+          "message": "Je telt alle uren. Bouwwerk met bekende technieken en onderhoud tellen niet mee."
+        }
+      ]
+    },
+    {
+      "id": "02-T10",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 4,
+      "question": "Een bedrijf bouwt een prototype (500 uur) dat het na het aantonen van het principe sloopt, en daarna een eerste machine (900 uur) die het aan een klant verkoopt. Hoeveel uur is hoogstens S&O?",
+      "choices": [
+        "500 uur",
+        "1.400 uur",
+        "900 uur",
+        "0 uur"
+      ],
+      "answer": "500 uur",
+      "hints": [],
+      "solution": [
+        "Het prototype heeft geen gebruikerswaarde, de verkochte machine wel."
+      ],
+      "topics": [
+        "technical-development"
+      ],
+      "feedback": [
+        {
+          "answer": "1.400 uur",
+          "message": "De verkochte machine heeft gebruikerswaarde. Die uren tellen niet mee."
+        }
+      ]
+    }
+  ]
+}

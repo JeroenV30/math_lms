@@ -1,0 +1,323 @@
+{
+  "exercises": [
+    {
+      "id": "02-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een waterbedrijf ontwerpt een zuiveringsinstallatie volledig op basis van bestaande en bewezen technieken. Telt dit als S&O?",
+      "choices": [
+        "Nee, dit is engineering met bestaande technieken",
+        "Ja, want het product is groot en duur",
+        "Ja, want de installatie is nieuw voor de klant",
+        "Alleen als de installatie in Nederland staat"
+      ],
+      "answer": "Nee, dit is engineering met bestaande technieken",
+      "hints": [
+        "Zoek het technische knelpunt: wat moet er worden uitgevonden?"
+      ],
+      "solution": [
+        "Bestaande en bewezen technieken toepassen heet engineering.",
+        "Er is geen technisch nieuw werkingsprincipe, dus geen S&O."
+      ],
+      "topics": [
+        "rd-definition",
+        "technical-development"
+      ],
+      "feedback": [
+        {
+          "answer": "Ja, want de installatie is nieuw voor de klant",
+          "message": "Nieuw voor de klant is niet technisch nieuw voor de ontwikkelaar. Het gaat om een technisch knelpunt dat je zelf oplost."
+        }
+      ]
+    },
+    {
+      "id": "02-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een bedrijf ontwikkelt een technisch nieuw onderdeel van een grotere machine. Welk deel valt onder S&O?",
+      "choices": [
+        "Alleen de ontwikkeling van dat onderdeel, tot het werkingsprincipe is aangetoond",
+        "De ontwikkeling en bouw van de hele machine",
+        "Niets, want de machine als geheel is niet nieuw",
+        "Alleen de verkoop van het onderdeel"
+      ],
+      "answer": "Alleen de ontwikkeling van dat onderdeel, tot het werkingsprincipe is aangetoond",
+      "hints": [
+        "De S&O eindigt bij het aantonen van het werkingsprincipe."
+      ],
+      "solution": [
+        "Het technisch nieuwe onderdeel is S&O.",
+        "Ontwerp, bouw en inpassing van de rest zijn dat niet."
+      ],
+      "topics": [
+        "technical-development"
+      ],
+      "feedback": [
+        {
+          "answer": "De ontwikkeling en bouw van de hele machine",
+          "message": "De rest van de machine bevat geen technisch knelpunt. Alleen het nieuwe onderdeel telt, tot het werkingsprincipe is aangetoond."
+        }
+      ]
+    },
+    {
+      "id": "02-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat betekent 'technisch nieuw' voor de WBSO?",
+      "choices": [
+        "Een oplossing die voor de aanvrager technisch nieuw is: niet algemeen bekend of beschikbaar en met een eigen technisch knelpunt",
+        "Een product dat de klant nog niet kent",
+        "Een product dat in de hele wereld nog niet bestaat",
+        "Een product dat een nieuw uiterlijk heeft"
+      ],
+      "answer": "Een oplossing die voor de aanvrager technisch nieuw is: niet algemeen bekend of beschikbaar en met een eigen technisch knelpunt",
+      "hints": [
+        "Het gaat om de techniek, niet om de markt."
+      ],
+      "solution": [
+        "Technisch nieuw is relatief aan de aanvrager en betreft het technische principe.",
+        "Marktnieuwheid of uiterlijk telt niet."
+      ],
+      "topics": [
+        "rd-definition"
+      ],
+      "feedback": [
+        {
+          "answer": "Een product dat de klant nog niet kent",
+          "message": "Dat is marktnieuwheid. Het gaat om een technisch knelpunt en een technisch nieuw principe."
+        }
+      ]
+    },
+    {
+      "id": "02-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een geneesmiddelenproducent bouwt een prototype van een sorteermachine uit goedkoop staal om het principe te testen en vernietigt het daarna. Tellen de bouwuren mee?",
+      "choices": [
+        "Ja, het is een prototype zonder gebruikerswaarde",
+        "Nee, prototypes tellen nooit mee",
+        "Nee, want het is een machine voor productie",
+        "Alleen als het prototype wordt verkocht"
+      ],
+      "answer": "Ja, het is een prototype zonder gebruikerswaarde",
+      "hints": [
+        "Wat gebeurt er met het prototype? Heeft het commerciële betekenis?"
+      ],
+      "solution": [
+        "Het prototype wordt vernietigd en niet ingezet als bedrijfsmiddel.",
+        "Het heeft dus geen gebruikerswaarde en de uren tellen mee."
+      ],
+      "topics": [
+        "technical-development"
+      ],
+      "feedback": [
+        {
+          "answer": "Alleen als het prototype wordt verkocht",
+          "message": "Verkoop betekent juist gebruikerswaarde, en dan tellen de uren niet mee."
+        }
+      ]
+    },
+    {
+      "id": "02-005",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze fasen van een machineontwikkeling in tijdsvolgorde, de eerste fase eerst. Welke fase valt als laatste buiten S&O?",
+      "answer": [
+        "Technisch knelpunt vaststellen",
+        "Oplossingsrichtingen onderzoeken",
+        "Prototype bouwen en werkingsprincipe aantonen",
+        "Definitieve machine bouwen en leveren"
+      ],
+      "hints": [
+        "De S&O eindigt als het werkingsprincipe is aangetoond."
+      ],
+      "solution": [
+        "Eerst het knelpunt, dan oplossingsrichtingen, dan het prototype waarmee het principe wordt aangetoond. Daarna volgt de definitieve machine; dat is geen S&O meer."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Oplossingsrichtingen onderzoeken",
+            "Technisch knelpunt vaststellen",
+            "Prototype bouwen en werkingsprincipe aantonen",
+            "Definitieve machine bouwen en leveren"
+          ],
+          "message": "Je zoekt oplossingen voordat het knelpunt is vastgesteld. Begin met het probleem."
+        }
+      ],
+      "topics": [
+        "technical-development"
+      ]
+    },
+    {
+      "id": "02-006",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een ICT-bedrijf moet zich voor een project een nieuwe ontwikkelomgeving eigen maken. Het is de eerste keer dat het bedrijf ermee werkt. Is die leerfase S&O?",
+      "choices": [
+        "Nee, het zich eigen maken van bestaande technieken is opleiding",
+        "Ja, want het is nieuw voor het bedrijf",
+        "Ja, want het kost veel uren",
+        "Alleen als het bedrijf een prototype bouwt"
+      ],
+      "answer": "Nee, het zich eigen maken van bestaande technieken is opleiding",
+      "hints": [
+        "Nieuw voor het bedrijf is niet hetzelfde als technisch nieuw."
+      ],
+      "solution": [
+        "Het gaat om bestaande technieken die het bedrijf nog moet leren.",
+        "Er is geen technisch knelpunt dat het zelf oplost."
+      ],
+      "topics": [
+        "rd-definition"
+      ],
+      "feedback": [
+        {
+          "answer": "Ja, want het is nieuw voor het bedrijf",
+          "message": "Eerste gebruik van bestaande technieken maakt een project niet tot S&O."
+        }
+      ]
+    },
+    {
+      "id": "02-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een bedrijf bouwt een webwinkel door een standaardpakket in te richten en te koppelen aan een betaaldienst met beschikbare API's. Is dit S&O?",
+      "choices": [
+        "Nee, het is toepassen en implementeren van bestaande technologie",
+        "Ja, want software is altijd S&O",
+        "Ja, want de klant heeft nog geen webwinkel",
+        "Ja, als het meer dan 100 uur kost"
+      ],
+      "answer": "Nee, het is toepassen en implementeren van bestaande technologie",
+      "hints": [
+        "Is er een informatietechnologisch knelpunt dat het bedrijf zelf oplost?"
+      ],
+      "solution": [
+        "Het gaat om configureren en koppelen met beschikbare technologie.",
+        "Dat is geen technisch nieuwe programmatuur."
+      ],
+      "topics": [
+        "technical-development"
+      ],
+      "feedback": [
+        {
+          "answer": "Ja, want software is altijd S&O",
+          "message": "Software is niet altijd S&O. Er moet een technisch nieuw principe zijn."
+        }
+      ]
+    },
+    {
+      "id": "02-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een ontwikkelaar beschrijft op papier een nieuw algoritme voor routeplanning, zonder het te programmeren. Is dat S&O?",
+      "choices": [
+        "Nee, alleen het beschrijven van een algoritme valt er niet onder; het moet in een formele programmeertaal zijn vastgelegd",
+        "Ja, want het algoritme is nieuw",
+        "Ja, want het is wiskunde",
+        "Nee, want routeplanning is geen techniek"
+      ],
+      "answer": "Nee, alleen het beschrijven van een algoritme valt er niet onder; het moet in een formele programmeertaal zijn vastgelegd",
+      "hints": [
+        "Kijk naar de definitie van programmatuur."
+      ],
+      "solution": [
+        "Programmatuur is vastgelegd in een formele programmeertaal.",
+        "Het beschrijven of formuleren van een algoritme valt niet onder S&O."
+      ],
+      "topics": [
+        "technical-development"
+      ]
+    },
+    {
+      "id": "02-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een bedrijf voert verschillende proeven uit om te zien welke instelling de minste uitval geeft, en kiest de beste instelling. Het zoekt niet naar het waarom. Is dit technisch-wetenschappelijk onderzoek?",
+      "choices": [
+        "Nee, het stelt vast en optimaliseert, maar verklaart niet",
+        "Ja, want er zijn proeven gedaan",
+        "Ja, want het vindt de beste instelling",
+        "Ja, als er een rapport wordt geschreven"
+      ],
+      "answer": "Nee, het stelt vast en optimaliseert, maar verklaart niet",
+      "hints": [
+        "Wil het bedrijf weten dat het werkt, of waarom het werkt?"
+      ],
+      "solution": [
+        "TWO moet een verschijnsel verklaren.",
+        "Verbanden en optimale instellingen vinden is vaststellen, geen verklaren."
+      ],
+      "topics": [
+        "technical-research"
+      ],
+      "feedback": [
+        {
+          "answer": "Ja, want er zijn proeven gedaan",
+          "message": "Proeven zijn geen onderzoek in WBSO-zin als ze alleen vaststellen. Het onderzoek moet een verklaring zoeken."
+        }
+      ]
+    },
+    {
+      "id": "02-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een ontwikkelaar werkt in een maand 120 uur aan een project: 70 uur aan een technisch nieuwe heuristiek, 30 uur aan een beheerscherm en 20 uur aan een koppeling met bekende technieken. Alleen de heuristiek is S&O. Hoeveel S&O-uren zijn dit?",
+      "answer": 70,
+      "hints": [
+        "Tel alleen de uren die bij het technische knelpunt horen."
+      ],
+      "solution": [
+        "De heuristiek is S&O: 70 uur.",
+        "Beheerscherm en koppeling zijn bouwwerk met bekende technieken: 50 uur, niet meegerekend."
+      ],
+      "topics": [
+        "rd-definition",
+        "technical-development"
+      ],
+      "unit": "uur",
+      "feedback": [
+        {
+          "answer": 120,
+          "message": "Dat zijn alle uren. Het beheerscherm en de koppeling lossen geen technisch knelpunt op."
+        }
+      ]
+    },
+    {
+      "id": "02-011",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 3,
+      "question": "Een machinebouwer ontwikkelt een nieuwe verpakkingsmachine met een technisch nieuw vouwprincipe. Hij bouwt eerst een prototype (800 uur) dat na het aantonen van het principe wordt gesloopt. Daarna bouwt hij een eerste machine voor een klant (1.200 uur), die wordt geleverd. Hoeveel uur komt in aanmerking als S&O-uren?",
+      "answer": 800,
+      "hints": [
+        "Wat is het verschil in gebruikerswaarde tussen beide bouwfasen?"
+      ],
+      "solution": [
+        "Het prototype is gesloopt en heeft geen gebruikerswaarde: 800 uur tellen mee.",
+        "De geleverde machine heeft gebruikerswaarde en het werkingsprincipe was al aangetoond: 1.200 uur tellen niet mee."
+      ],
+      "topics": [
+        "technical-development"
+      ],
+      "unit": "uur",
+      "feedback": [
+        {
+          "answer": 2000,
+          "message": "Je telt de levering ook mee. Die machine heeft gebruikerswaarde, dus die uren vallen buiten S&O."
+        }
+      ]
+    }
+  ]
+}

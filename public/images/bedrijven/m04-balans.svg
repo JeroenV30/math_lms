@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="system-ui, sans-serif" font-size="14">
+<rect width="800" height="400" fill="#ffffff"/>
+<text x="400" y="26" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2933">Balans van Fietsatelier Reijnders bv per 31 december 2025 (fictief, in euro's)</text>
+<text x="195" y="44" text-anchor="middle" font-weight="600" fill="#1f2933">Activa: waar zit het geld in?</text>
+<text x="605" y="44" text-anchor="middle" font-weight="600" fill="#1f2933">Passiva: waar komt het geld vandaan?</text>
+<g stroke="#1f2933" stroke-width="1.5">
+<rect x="60" y="50" width="270" height="128.6" fill="#dbe4ff"/>
+<rect x="60" y="178.6" width="270" height="51.4" fill="#edf2ff"/>
+<rect x="60" y="230" width="270" height="38.6" fill="#edf2ff"/>
+<rect x="60" y="268.6" width="270" height="81.4" fill="#edf2ff"/>
+<rect x="470" y="50" width="270" height="180" fill="#f1e6d6"/>
+<rect x="470" y="230" width="270" height="51.4" fill="#f8f1e7"/>
+<rect x="470" y="281.4" width="270" height="68.6" fill="#f8f1e7"/>
+</g>
+<g fill="#1f2933" text-anchor="middle">
+<text x="195" y="118">Vaste activa</text><text x="195" y="136">Inventaris en machines 150.000</text>
+<text x="195" y="209">Voorraden 60.000</text>
+<text x="195" y="254">Debiteuren 45.000</text>
+<text x="195" y="314">Liquide middelen 95.000</text>
+<text x="605" y="136">Eigen vermogen 210.000</text>
+<text x="605" y="260">Lening bank (lang) 60.000</text>
+<text x="605" y="312">Kortlopende schulden 80.000</text>
+</g>
+<text x="195" y="372" text-anchor="middle" font-weight="600" fill="#3b5bdb">Totaal 350.000</text>
+<text x="605" y="372" text-anchor="middle" font-weight="600" fill="#3b5bdb">Totaal 350.000</text>
+<text x="400" y="200" text-anchor="middle" font-size="26" font-weight="700" fill="#3b5bdb">=</text>
+<text x="400" y="392" text-anchor="middle" fill="#1f2933">Activa = eigen vermogen + vreemd vermogen</text>
+</svg>

@@ -3,7 +3,7 @@
   "slug": "aanvragen-administratie-en-controle",
   "title": "Aanvragen, administratie en controle",
   "part": 2,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
   "estimated_minutes": 90,
   "prerequisites": [
@@ -15,5 +15,31 @@
   ],
   "core_question": "Wat moet een bedrijf vastleggen om een WBSO-aanvraag ook achteraf te kunnen verantwoorden?",
   "summary": "Aanvraagmomenten en -periodes, een goede projectomschrijving, de projectadministratie, de mededeling van gerealiseerde uren, controle door RVO en de samenhang met de innovatiebox.",
-  "lessons": []
+  "learning_goals": [
+    "Je kunt de aanvraagperiode van een werkgever bepalen bij een gegeven indieningsdatum.",
+    "Je kunt een technisch knelpunt onderscheiden van een commerciële wens en een projectomschrijving opbouwen.",
+    "Je kunt de onderdelen van een goede projectadministratie benoemen: urenregistratie, technische voortgang en bewijsstukken.",
+    "Je kunt de mededeling van gerealiseerde uren in de WBSO-cyclus plaatsen.",
+    "Je kunt uitleggen wat een controle, correctie en boete inhouden en de omvang van een correctie berekenen.",
+    "Je kunt de samenhang tussen WBSO-administratie en de innovatiebox uitleggen."
+  ],
+  "glossary": [
+    { "term": "Aanvraagperiode", "definition": "De periode waarvoor de S&O-verklaring geldt; bij werkgevers begint ze op de eerste dag van de maand na de aanvraag en loopt ze tot en met 31 december." },
+    { "term": "S&O-verklaring", "definition": "De beschikking van RVO met de goedgekeurde projecten, uren en kosten waarop de afdrachtvermindering is gebaseerd." },
+    { "term": "Technisch knelpunt", "definition": "Een technisch probleem dat het bedrijf met bestaande kennis niet kan oplossen en dat het project onderzoekt." },
+    { "term": "Projectomschrijving", "definition": "De beschrijving per project van doel, technisch knelpunt, bestaande oplossingen en aanpak." },
+    { "term": "Projectadministratie", "definition": "De vastlegging van S&O-uren, technische voortgang en eventuele kosten, als bewijs voor de uitvoering." },
+    { "term": "Mededeling", "definition": "De melding in het portaal van RVO van de gerealiseerde S&O-uren en kosten, uiterlijk 31 maart van het volgende jaar." },
+    { "term": "Correctie", "definition": "Aanpassing van de S&O-verklaring en terugbetaling van te veel verrekende afdrachtvermindering bij minder gerealiseerde uren of onjuiste opgave." },
+    { "term": "Innovatiebox", "definition": "Een verlaagd vennootschapsbelastingtarief over winst uit zelf ontwikkelde immateriële activa; volgens de geraadpleegde bronnen is een S&O-verklaring van RVO voor het bijbehorende S&O-werk een voorwaarde." }
+  ],
+  "lessons": [
+    { "slug": "introductie", "title": "De WBSO-kalender van RVO", "file": "01-introductie.md", "kind": "intro" },
+    { "slug": "aanvragen-en-projectomschrijving", "title": "Aanvragen en projectomschrijving", "file": "02-aanvragen-en-projectomschrijving.md", "kind": "theory" },
+    { "slug": "administratie-mededeling-en-controle", "title": "Administratie, mededeling en controle", "file": "03-administratie-mededeling-en-controle.md", "kind": "theory" },
+    { "slug": "casus-aanvraag-en-verantwoording", "title": "Casus: aanvraag en verantwoording", "file": "04-casus-aanvraag-en-verantwoording.md", "kind": "practice" },
+    { "slug": "samenvatting", "title": "Samenvatting", "file": "05-samenvatting.md", "kind": "summary" }
+  ],
+  "timeline": [],
+  "people": []
 }

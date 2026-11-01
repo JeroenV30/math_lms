@@ -1,0 +1,164 @@
+{
+  "title": "Hoofdstuktoets – Uren, kosten en het voordeel",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'. Tarieven en grensbedragen staan in de vragen zelf.",
+  "questions": [
+    {
+      "id": "03-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat is een S&O-uur in de WBSO?",
+      "choices": [
+        "Een uur dat een medewerker aantoonbaar besteedt aan een goedgekeurd S&O-project",
+        "Elk uur dat een medewerker in een bedrijf met een S&O-verklaring werkt",
+        "Een uur waarvoor het bedrijf een factuur van een derde ontvangt"
+      ],
+      "answer": "Een uur dat een medewerker aantoonbaar besteedt aan een goedgekeurd S&O-project",
+      "hints": [],
+      "solution": ["Alleen uren die aantoonbaar aan het goedgekeurde project zijn besteed, tellen mee; andere uren van dezelfde medewerker niet."],
+      "feedback": [
+        { "answer": "Elk uur dat een medewerker in een bedrijf met een S&O-verklaring werkt", "message": "De verklaring geldt voor het project, niet voor alle uren van het bedrijf." }
+      ],
+      "topics": ["rd-hours"]
+    },
+    {
+      "id": "03-T02",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Een bedrijf maakt 800 S&O-uren en heeft een S&O-uurloon van € 55. Hoe hoog zijn de S&O-loonkosten in hele euro's?",
+      "answer": 44000,
+      "unit": "€",
+      "hints": [],
+      "solution": ["$800 \\times 55 = 44.000$."],
+      "topics": ["rd-hours", "rd-costs"]
+    },
+    {
+      "id": "03-T03",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Het forfait voor kosten en uitgaven is € 10 per S&O-uur voor de eerste 1.800 uur en € 4 per uur voor alle uren daarboven. Een bedrijf maakt 2.500 S&O-uren. Hoe hoog is het forfait in hele euro's?",
+      "answer": 20800,
+      "unit": "€",
+      "hints": [],
+      "solution": ["$1.800 \\times 10 = 18.000$ en $700 \\times 4 = 2.800$.", "Samen € 20.800."],
+      "feedback": [
+        { "answer": 25000, "message": "Je rekende alle uren tegen € 10. Boven 1.800 uur geldt € 4 per uur." }
+      ],
+      "topics": ["rd-costs"]
+    },
+    {
+      "id": "03-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een bedrijf heeft een S&O-grondslag boven de grens van de eerste schijf. Hoe wordt het deel boven die grens in de WBSO behandeld?",
+      "choices": [
+        "Over dat deel geldt een lager percentage dan over de eerste schijf",
+        "Dat deel telt niet mee voor het voordeel",
+        "Over dat deel geldt hetzelfde percentage als over de eerste schijf"
+      ],
+      "answer": "Over dat deel geldt een lager percentage dan over de eerste schijf",
+      "hints": [],
+      "solution": ["Het deel boven de schijfgrens telt wel mee, maar tegen het lagere percentage van de tweede schijf (16% in 2026)."],
+      "feedback": [
+        { "answer": "Dat deel telt niet mee voor het voordeel", "message": "Het deel boven de grens krijgt een lager percentage; het vervalt niet." }
+      ],
+      "topics": ["wbso-calculation"]
+    },
+    {
+      "id": "03-T05",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een bedrijf heeft een S&O-grondslag van € 90.000. Het percentage van de eerste schijf is 36% en de grens van die schijf ligt veel hoger. Hoe hoog is het voordeel in euro's, op twee decimalen?",
+      "answer": 32400,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [],
+      "solution": ["$0{,}36 \\times 90.000 = 32.400$."],
+      "topics": ["wbso-calculation"]
+    },
+    {
+      "id": "03-T06",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een startend bedrijf maakt 1.200 S&O-uren met een S&O-uurloon van € 35 en gebruikt het forfait voor kosten en uitgaven van € 10 per S&O-uur (tot 1.800 uur). Voor starters is het percentage van de eerste schijf 50%; de schijfgrens ligt ruim boven de grondslag. Hoe hoog is het voordeel, in euro's op twee decimalen?",
+      "answer": 27000,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [],
+      "solution": ["Loonkosten: $1.200 \\times 35 = 42.000$. Forfait: $1.200 \\times 10 = 12.000$.", "Grondslag: € 54.000. Voordeel: $0{,}5 \\times 54.000 = 27.000$."],
+      "feedback": [
+        { "answer": 21000, "message": "Je nam 50% van alleen de loonkosten. Het forfait hoort bij de grondslag." }
+      ],
+      "topics": ["wbso-calculation", "rd-costs"]
+    },
+    {
+      "id": "03-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bedrijf maakt 1.000 S&O-uren. Het forfait voor kosten en uitgaven is € 10 per uur. Het bedrijf heeft in werkelijkheid € 15.000 aan kosten en uitgaven die het goed kan onderbouwen. Wat is het gevolg van het opgeven van de werkelijke kosten in plaats van het forfait?",
+      "choices": [
+        "De grondslag is € 5.000 hoger",
+        "De grondslag is € 5.000 lager",
+        "De grondslag verandert niet"
+      ],
+      "answer": "De grondslag is € 5.000 hoger",
+      "hints": [],
+      "solution": ["Het forfait is $1.000 \\times 10 = 10.000$; werkelijk is € 15.000. Het verschil is € 5.000 hogere grondslag."],
+      "feedback": [
+        { "answer": "De grondslag is € 5.000 lager", "message": "Controleer welk bedrag hoger is: € 15.000 werkelijke kosten tegen € 10.000 forfait." }
+      ],
+      "topics": ["rd-costs"]
+    },
+    {
+      "id": "03-T08",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De S&O-grondslag van een bedrijf is € 520.000. Het percentage is 36% over de grondslag tot € 400.000 en 16% over het deel daarboven. Hoe hoog is het voordeel in euro's, op twee decimalen?",
+      "answer": 163200,
+      "tolerance": 0.01,
+      "unit": "€",
+      "hints": [],
+      "solution": ["Eerste schijf: $0{,}36 \\times 400.000 = 144.000$.", "Tweede schijf: $0{,}16 \\times 120.000 = 19.200$.", "Samen € 163.200."],
+      "feedback": [
+        { "answer": 187200, "message": "Je rekende alles tegen 36%. Het deel boven € 400.000 krijgt 16%." }
+      ],
+      "topics": ["wbso-calculation"]
+    },
+    {
+      "id": "03-T09",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een bedrijf maakt 3.000 S&O-uren met een S&O-uurloon van € 50. De werkelijke kosten en uitgaven zijn € 40.000; het forfait is € 10 per uur voor de eerste 1.800 uur en € 4 per uur daarboven. Het percentage is 36% en de grens van de eerste schijf (€ 400.000) wordt niet bereikt. Bereken het voordeel in hele euro's met werkelijke kosten en met het forfait.",
+      "parts": [
+        { "label": "Voordeel met werkelijke kosten (€)", "answer": 68400, "type": "numeric" },
+        { "label": "Voordeel met het forfait (€)", "answer": 62208, "type": "numeric" }
+      ],
+      "hints": [],
+      "solution": ["Loonkosten: $3.000 \\times 50 = 150.000$.", "Werkelijk: grondslag $190.000$, voordeel $0{,}36 \\times 190.000 = 68.400$.", "Forfait: $18.000 + 1.200 \\times 4 = 22.800$, grondslag $172.800$, voordeel $62.208$."],
+      "topics": ["wbso-calculation", "rd-costs"]
+    },
+    {
+      "id": "03-T10",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een bedrijf maakt 2.400 S&O-uren. Het forfait voor kosten en uitgaven is € 10 per uur voor de eerste 1.800 uur en € 4 per uur daarboven. De werkelijke kosten en uitgaven zijn € 23.000. Het percentage is 36% en de grondslag blijft in de eerste schijf. Hoeveel euro hoger is het voordeel met werkelijke kosten dan met het forfait?",
+      "answer": 936,
+      "unit": "€",
+      "hints": [],
+      "solution": ["Forfait: $1.800 \\times 10 + 600 \\times 4 = 20.400$.", "Verschil in grondslag: $23.000 - 20.400 = 2.600$.", "Verschil in voordeel: $0{,}36 \\times 2.600 = 936$."],
+      "feedback": [
+        { "answer": 2600, "message": "Dat is het verschil in grondslag. Het voordeel is 36% daarvan." }
+      ],
+      "topics": ["wbso-calculation", "rd-costs"]
+    }
+  ]
+}

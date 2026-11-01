@@ -3,9 +3,9 @@
   "slug": "personeel-en-de-loonlijst",
   "title": "Personeel en de loonlijst",
   "part": 2,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 100,
   "prerequisites": [
     2
   ],
@@ -16,5 +16,91 @@
   ],
   "core_question": "Wat kost een werknemer een bedrijf, en waarom is dat zoveel meer dan het nettoloon?",
   "summary": "De arbeidsovereenkomst, van brutoloon naar nettoloon, loonheffingen, werkgeverslasten en de loonaangifte.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een loonstrook van een fictieve werknemer",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "de-arbeidsovereenkomst",
+      "title": "De arbeidsovereenkomst",
+      "file": "02-de-arbeidsovereenkomst.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "van-bruto-naar-netto-en-loonkosten",
+      "title": "Van bruto naar netto, en naar loonkosten",
+      "file": "03-van-bruto-naar-netto-en-loonkosten.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casus-studio-brandt",
+      "title": "Casus: een nieuwe ontwikkelaar bij Studio Brandt",
+      "file": "04-casus-studio-brandt.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen wat een arbeidsovereenkomst is en waarin die verschilt van een opdracht aan een zelfstandige.",
+    "Je kunt de onderdelen van een loonstrook benoemen.",
+    "Je kunt met gegeven tarieven en heffingskortingen van brutoloon naar nettoloon rekenen.",
+    "Je kunt de werkgeverslasten benoemen en de totale loonkosten van een werknemer berekenen.",
+    "Je kunt uitleggen hoe de loonaangifte werkt en waarom het maximum premieloon de lasten begrenst."
+  ],
+  "glossary": [
+    {
+      "term": "Brutoloon",
+      "definition": "Het loon vóór inhouding van pensioenpremie en loonheffingen."
+    },
+    {
+      "term": "Nettoloon",
+      "definition": "Het bedrag dat na alle inhoudingen aan de werknemer wordt uitbetaald."
+    },
+    {
+      "term": "Loonkosten",
+      "definition": "Het brutoloon plus alle premies en pensioenbijdragen die de werkgever bovenop het loon betaalt."
+    },
+    {
+      "term": "Gezagsverhouding",
+      "definition": "De verhouding waarin de werkgever aanwijzingen mag geven over de uitvoering van het werk; kenmerk van een arbeidsovereenkomst."
+    },
+    {
+      "term": "Ketenregeling",
+      "definition": "Wettelijke beperking van het aantal opeenvolgende contracten voor bepaalde tijd (maximaal drie, samen maximaal drie jaar)."
+    },
+    {
+      "term": "Loonheffingen",
+      "definition": "Samenvattende term voor loonbelasting en premie volksverzekeringen, die de werkgever inhoudt en afdraagt."
+    },
+    {
+      "term": "Heffingskorting",
+      "definition": "Een bedrag dat de berekende loonheffing verlaagt, zoals de algemene heffingskorting en de arbeidskorting."
+    },
+    {
+      "term": "Premieloon",
+      "definition": "Het loon waarover de werkgever de premies werknemersverzekeringen en de Zvw-heffing berekent, tot het maximum premieloon."
+    },
+    {
+      "term": "Werkgeversheffing Zvw",
+      "definition": "Inkomensafhankelijke bijdrage voor de zorgverzekering die de werkgever over het loon betaalt."
+    },
+    {
+      "term": "Loonaangifte",
+      "definition": "De periodieke aangifte van loon en ingehouden loonheffingen door de werkgever aan de Belastingdienst."
+    },
+    {
+      "term": "Polisadministratie",
+      "definition": "Het register van het UWV met loon- en arbeidsgegevens, waarop uitkeringen worden gebaseerd."
+    }
+  ],
+  "timeline": [],
+  "people": []
 }

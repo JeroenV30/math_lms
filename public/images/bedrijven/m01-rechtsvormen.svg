@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="760" height="420" fill="#ffffff"/>
+  <rect x="300" y="14" width="160" height="40" rx="6" fill="#ffffff" stroke="#1f2933" stroke-width="2"/>
+  <text x="380" y="39" text-anchor="middle" fill="#1f2933" font-weight="bold">Samenwerkingsvorm</text>
+  <path d="M380 54 V76 M190 76 H570 M190 76 V96 M570 76 V96" fill="none" stroke="#1f2933" stroke-width="2"/>
+  <rect x="50" y="96" width="280" height="48" rx="6" fill="#eef2ff" stroke="#3b5bdb" stroke-width="2"/>
+  <text x="190" y="116" text-anchor="middle" fill="#1f2933" font-weight="bold">Geen rechtspersoon</text>
+  <text x="190" y="135" text-anchor="middle" fill="#1f2933" font-size="12">Ondernemer(s) zelf aansprakelijk</text>
+  <rect x="430" y="96" width="280" height="48" rx="6" fill="#eef2ff" stroke="#3b5bdb" stroke-width="2"/>
+  <text x="570" y="116" text-anchor="middle" fill="#1f2933" font-weight="bold">Rechtspersoon</text>
+  <text x="570" y="135" text-anchor="middle" fill="#1f2933" font-size="12">Eigen vermogen, eigen schulden</text>
+  <g fill="#ffffff" stroke="#1f2933" stroke-width="1.5">
+    <rect x="20" y="190" width="150" height="56" rx="5"/>
+    <rect x="180" y="190" width="150" height="56" rx="5"/>
+    <rect x="20" y="262" width="150" height="56" rx="5"/>
+    <rect x="180" y="262" width="150" height="56" rx="5"/>
+    <rect x="400" y="190" width="100" height="56" rx="5"/>
+    <rect x="510" y="190" width="100" height="56" rx="5"/>
+    <rect x="620" y="190" width="100" height="56" rx="5"/>
+    <rect x="455" y="262" width="100" height="56" rx="5"/>
+    <rect x="565" y="262" width="100" height="56" rx="5"/>
+  </g>
+  <path d="M190 144 V166 M95 166 H255 M95 166 V190 M255 166 V190 M95 166 V262 M255 166 V262 M570 144 V166 M450 166 H670 M450 166 V190 M560 166 V190 M670 166 V190 M510 166 V262 M620 166 V262" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+  <g fill="#1f2933" text-anchor="middle" font-size="13">
+    <text x="95" y="213" font-weight="bold">Eenmanszaak</text><text x="95" y="232" font-size="11">één eigenaar</text>
+    <text x="255" y="213" font-weight="bold">Vof</text><text x="255" y="232" font-size="11">hoofdelijk aansprakelijk</text>
+    <text x="95" y="285" font-weight="bold">Maatschap</text><text x="95" y="304" font-size="11">vooral vrije beroepen</text>
+    <text x="255" y="285" font-weight="bold">Cv</text><text x="255" y="304" font-size="11">beherend + commanditair</text>
+    <text x="450" y="213" font-weight="bold">Bv</text><text x="450" y="232" font-size="11">aandelen</text>
+    <text x="560" y="213" font-weight="bold">Nv</text><text x="560" y="232" font-size="11">aandelen, groter</text>
+    <text x="670" y="213" font-weight="bold">Coöperatie</text><text x="670" y="232" font-size="11">leden</text>
+    <text x="505" y="285" font-weight="bold">Vereniging</text><text x="505" y="304" font-size="11">leden, ideëel</text>
+    <text x="615" y="285" font-weight="bold">Stichting</text><text x="615" y="304" font-size="11">geen leden</text>
+  </g>
+  <text x="380" y="360" text-anchor="middle" fill="#1f2933" font-size="12">Een eenmanszaak, vof, maatschap en cv hebben een eigen naam en vermogen, maar geen rechtspersoonlijkheid.</text>
+  <text x="380" y="380" text-anchor="middle" fill="#1f2933" font-size="12">Bij een rechtspersoon staat de onderneming zelf als schuldenaar in het contract.</text>
+</svg>

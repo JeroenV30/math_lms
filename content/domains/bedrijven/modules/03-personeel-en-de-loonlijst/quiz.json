@@ -1,0 +1,247 @@
+{
+  "title": "Hoofdstuktoets – Personeel en de loonlijst",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'. Tarieven en grensbedragen staan in de vragen.",
+  "questions": [
+    {
+      "id": "03-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Een bedrijf huurt een grafisch ontwerper in als zzp'er, maar zij werkt vijf dagen per week op kantoor, op vaste uren en onder leiding van de teamleider. Wat is het risico voor het bedrijf?",
+      "answer": "Er is mogelijk een gezagsverhouding, waardoor de Belastingdienst loonheffingen kan naheffen",
+      "choices": [
+        "Het bedrijf moet dan btw over de facturen betalen",
+        "Er is mogelijk een gezagsverhouding, waardoor de Belastingdienst loonheffingen kan naheffen",
+        "Er is geen risico, want de ontwerper heeft zelf een factuur gestuurd"
+      ],
+      "hints": [],
+      "solution": [
+        "Vaste uren en leiding wijzen op een gezagsverhouding. Dan is de overeenkomst in werkelijkheid een arbeidsovereenkomst."
+      ],
+      "feedback": [
+        {
+          "answer": "Het bedrijf moet dan btw over de facturen betalen",
+          "message": "De btw staat los van de vraag of iemand werknemer is. Het risico zit in de loonheffingen."
+        },
+        {
+          "answer": "Er is geen risico, want de ontwerper heeft zelf een factuur gestuurd",
+          "message": "Niet de naam of de factuur maar de werkelijke samenwerking bepaalt of er sprake is van een arbeidsovereenkomst."
+        }
+      ],
+      "topics": [
+        "employment"
+      ]
+    },
+    {
+      "id": "03-T02",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Een werknemer verdient € 2.500 per maand, exclusief vakantiegeld. Het vakantiegeld is 8% van het jaarloon. Hoeveel is dat per jaar? Antwoord in hele euro's.",
+      "answer": 2400,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "$12 \\times 2.500 = 30.000$",
+        "$0{,}08 \\times 30.000 = 2.400$"
+      ],
+      "topics": [
+        "employment"
+      ]
+    },
+    {
+      "id": "03-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke van deze posten wordt niet ingehouden op het loon van de werknemer, maar is wel een loonkost voor de werkgever?",
+      "answer": "De Aof-premie",
+      "choices": [
+        "De loonheffing",
+        "De pensioenpremie van de werknemer",
+        "De Aof-premie",
+        "De algemene heffingskorting"
+      ],
+      "hints": [],
+      "solution": [
+        "De Aof-premie wordt door de werkgever betaald over het premieloon; ze staat niet als inhouding op de strook."
+      ],
+      "feedback": [
+        {
+          "answer": "De loonheffing",
+          "message": "De loonheffing wordt juist op het loon van de werknemer ingehouden."
+        },
+        {
+          "answer": "De pensioenpremie van de werknemer",
+          "message": "Die wordt van het brutoloon ingehouden."
+        }
+      ],
+      "topics": [
+        "employer-costs"
+      ]
+    },
+    {
+      "id": "03-T04",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een werknemer heeft een brutoloon van € 30.000. De pensioenregeling heeft een franchise van € 12.000 en de werknemer betaalt 5% over het loon boven de franchise. Wat is het loon voor de loonheffingen? Antwoord in hele euro's.",
+      "answer": 29100,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "Grondslag $30.000 - 12.000 = 18.000$",
+        "Premie $0{,}05 \\times 18.000 = 900$",
+        "$30.000 - 900 = 29.100$"
+      ],
+      "feedback": [
+        {
+          "answer": 28500,
+          "message": "Je hebt 5% over het hele brutoloon berekend. De premie geldt alleen over het loon boven de franchise."
+        }
+      ],
+      "topics": [
+        "payroll"
+      ]
+    },
+    {
+      "id": "03-T05",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een werknemer heeft een loon voor de loonheffingen van € 25.000. Het tarief is 35,75% (volledig in de eerste schijf), de algemene heffingskorting is € 3.115 en de arbeidskorting is € 4.900. Wat is het nettoloon per jaar? Antwoord in euro's, op twee decimalen.",
+      "answer": 24077.5,
+      "tolerance": 0.5,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "Heffing vóór kortingen: $0{,}3575 \\times 25.000 = 8.937{,}50$",
+        "Loonheffing: $8.937{,}50 - 3.115 - 4.900 = 922{,}50$",
+        "Nettoloon: $25.000 - 922{,}50 = 24.077{,}50$"
+      ],
+      "feedback": [
+        {
+          "answer": 16062.5,
+          "message": "Je hebt de heffing vóór kortingen afgetrokken en de kortingen vergeten. De kortingen verlagen de heffing."
+        }
+      ],
+      "topics": [
+        "payroll"
+      ]
+    },
+    {
+      "id": "03-T06",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De werkgeversheffing Zvw is 6,10% van het premieloon (tot het maximum, dat hier niet wordt bereikt). Het premieloon is € 60.000. Hoeveel bedraagt de heffing per jaar? Antwoord in hele euro's.",
+      "answer": 3660,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "$0{,}061 \\times 60.000 = 3.660$"
+      ],
+      "topics": [
+        "employer-costs"
+      ]
+    },
+    {
+      "id": "03-T07",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Stel dat de hoge WW-premie 7,74% is en wordt berekend over het premieloon tot een maximum van € 79.409 per jaar. Een werknemer heeft een premieloon van € 120.000. Hoeveel WW-premie betaalt de werkgever? Antwoord in euro's, op twee decimalen.",
+      "answer": 6146.26,
+      "tolerance": 1,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "Het maximum begrenst de grondslag: € 79.409.",
+        "$0{,}0774 \\times 79.409 = 6.146{,}26$"
+      ],
+      "feedback": [
+        {
+          "answer": 9288,
+          "message": "Je hebt over het hele premieloon gerekend. Boven het maximum wordt geen premie berekend."
+        }
+      ],
+      "topics": [
+        "employer-costs"
+      ]
+    },
+    {
+      "id": "03-T08",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een werknemer ontvangt een nettoloon van € 27.000 per jaar; de totale loonkosten voor de werkgever zijn € 40.000. Welk percentage van de loonkosten is het nettoloon? Antwoord in procenten, op één decimaal.",
+      "answer": 67.5,
+      "tolerance": 0.1,
+      "hints": [],
+      "solution": [
+        "$27.000 / 40.000 = 0{,}675$, dus 67,5%"
+      ],
+      "feedback": [
+        {
+          "answer": 32.5,
+          "message": "Dat is het deel dat niet het nettoloon is. De vraag is naar het nettoloon als aandeel."
+        }
+      ],
+      "topics": [
+        "employer-costs"
+      ]
+    },
+    {
+      "id": "03-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een werkgever heeft een loontijdvak van een maand. Wanneer moeten de loonaangifte en de betaling van de loonheffingen over dat tijdvak in de regel uiterlijk zijn gedaan?",
+      "answer": "Uiterlijk aan het einde van de maand die volgt op het tijdvak",
+      "choices": [
+        "Op de dag van uitbetaling van het loon",
+        "Uiterlijk aan het einde van de maand die volgt op het tijdvak",
+        "Eén keer per jaar, bij de aangifte inkomstenbelasting"
+      ],
+      "hints": [],
+      "solution": [
+        "De werkgever heeft tot het einde van de volgende maand de tijd."
+      ],
+      "feedback": [
+        {
+          "answer": "Op de dag van uitbetaling van het loon",
+          "message": "De aangifte volgt na het tijdvak; de werkgever heeft tot het einde van de volgende maand."
+        }
+      ],
+      "topics": [
+        "payroll"
+      ]
+    },
+    {
+      "id": "03-T10",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een werknemer heeft een brutoloon van € 30.000. Pensioenregeling: franchise € 10.000; werknemer 5% en werkgever 10% over het loon boven de franchise. De werkgever betaalt premies van 16% over het loon voor de loonheffingen. Wat zijn de totale loonkosten per jaar? Antwoord in hele euro's.",
+      "answer": 36640,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "Grondslag: $30.000 - 10.000 = 20.000$",
+        "Pensioen werknemer $1.000$; loon voor de loonheffingen $29.000$",
+        "Premies: $0{,}16 \\times 29.000 = 4.640$",
+        "Pensioen werkgever: $0{,}10 \\times 20.000 = 2.000$",
+        "$30.000 + 4.640 + 2.000 = 36.640$"
+      ],
+      "feedback": [
+        {
+          "answer": 37200,
+          "message": "Je hebt de premies over € 30.000 berekend; het premieloon is het loon na aftrek van de werknemerspensioenpremie."
+        }
+      ],
+      "topics": [
+        "employer-costs"
+      ]
+    }
+  ]
+}

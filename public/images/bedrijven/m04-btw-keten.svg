@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="system-ui, sans-serif" font-size="13">
+<rect width="800" height="300" fill="#ffffff"/>
+<text x="400" y="24" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2933">Btw in een keten: elke schakel draagt alleen af over zijn eigen toegevoegde waarde (21%)</text>
+<defs><marker id="p" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#1f2933"/></marker></defs>
+<g stroke="#1f2933" stroke-width="1.5" fill="#edf2ff">
+<rect x="20" y="60" width="160" height="130" rx="6"/>
+<rect x="225" y="60" width="160" height="130" rx="6"/>
+<rect x="430" y="60" width="160" height="130" rx="6"/>
+<rect x="635" y="60" width="145" height="130" rx="6" fill="#f1e6d6"/>
+</g>
+<g stroke="#1f2933" stroke-width="1.5" fill="none" marker-end="url(#p)">
+<path d="M180 125 H221"/><path d="M385 125 H426"/><path d="M590 125 H631"/>
+</g>
+<g fill="#1f2933" text-anchor="middle">
+<text x="100" y="82" font-weight="600">Houtleverancier</text>
+<text x="100" y="106">verkoopt voor 100</text><text x="100" y="124">btw in rekening: 21</text><text x="100" y="142">voorbelasting: 0</text>
+<text x="100" y="170" fill="#3b5bdb" font-weight="600">afdracht: 21</text>
+<text x="305" y="82" font-weight="600">Fietsmaker</text>
+<text x="305" y="106">verkoopt voor 300</text><text x="305" y="124">btw in rekening: 63</text><text x="305" y="142">voorbelasting: 21</text>
+<text x="305" y="170" fill="#3b5bdb" font-weight="600">afdracht: 42</text>
+<text x="510" y="82" font-weight="600">Fietswinkel</text>
+<text x="510" y="106">verkoopt voor 500</text><text x="510" y="124">btw in rekening: 105</text><text x="510" y="142">voorbelasting: 63</text>
+<text x="510" y="170" fill="#3b5bdb" font-weight="600">afdracht: 42</text>
+<text x="707" y="82" font-weight="600">Consument</text>
+<text x="707" y="106">betaalt 605</text><text x="707" y="124">(500 + 105 btw)</text><text x="707" y="142">geen aftrek</text>
+<text x="707" y="170" fill="#9c6b30" font-weight="600">draagt 105 btw</text>
+</g>
+<text x="400" y="230" text-anchor="middle" fill="#1f2933">Totaal afgedragen: 21 + 42 + 42 = 105, precies 21% van de eindprijs exclusief btw (500).</text>
+<text x="400" y="252" text-anchor="middle" fill="#1f2933">Bedragen in euro's, fictief voorbeeld; de btw is voor de ondernemers een doorlopende post, de consument draagt haar.</text>
+</svg>

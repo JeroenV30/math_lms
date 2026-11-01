@@ -3,7 +3,7 @@
   "slug": "wat-de-wbso-is",
   "title": "Wat de WBSO is",
   "part": 1,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
   "estimated_minutes": 90,
   "prerequisites": [],
@@ -13,5 +13,90 @@
   ],
   "core_question": "Waarom steunt de overheid speur- en ontwikkelingswerk via de loonheffing, en wie komt ervoor in aanmerking?",
   "summary": "Het doel van de regeling, de S&O-verklaring, de vermindering van de loonheffing voor werkgevers en de S&O-aftrek voor ondernemers in de inkomstenbelasting.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een pagina van RVO",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "waarom-de-regeling",
+      "title": "Waarom de overheid S&O steunt",
+      "file": "02-waarom-de-regeling.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "partijen-en-voordeel",
+      "title": "Partijen en voordeel",
+      "file": "03-partijen-en-voordeel.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casus-brouwer-aandrijftechniek",
+      "title": "Casus: Brouwer Aandrijftechniek",
+      "file": "04-casus-brouwer-aandrijftechniek.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen waarom de overheid S&O stimuleert, met kennisspillovers en onzekerheid als reden.",
+    "Je kunt het begrip additionaliteit uitleggen en het onderscheiden van het meeneemeffect.",
+    "Je kunt de rol van de aanvrager, RVO en de Belastingdienst beschrijven en de plaats van de S&O-verklaring aangeven.",
+    "Je kunt het verschil benoemen tussen de vermindering van de loonheffing voor werkgevers en de S&O-aftrek voor zelfstandigen.",
+    "Je kunt met gegeven parameters het voordeel van een werkgever berekenen, ook met twee schijven en een starterspercentage.",
+    "Je kunt in een eerste gesprek beoordelen of een ondernemer aan de basisvoorwaarden voldoet."
+  ],
+  "glossary": [
+    {
+      "term": "S&O",
+      "definition": "Speur- en ontwikkelingswerk: in het Engels research & development (R&D), in de WBSO wettelijk afgebakend."
+    },
+    {
+      "term": "WBSO",
+      "definition": "Wet bevordering speur- en ontwikkelingswerk: de naam van de regeling die S&O via belastingvoordeel steunt."
+    },
+    {
+      "term": "WVA",
+      "definition": "Wet vermindering afdracht loonbelasting en premie voor de volksverzekeringen: de wet waarin de afdrachtvermindering en de S&O-verklaring zijn geregeld."
+    },
+    {
+      "term": "RVO",
+      "definition": "Rijksdienst voor Ondernemend Nederland: de uitvoerder die WBSO-aanvragen beoordeelt."
+    },
+    {
+      "term": "S&O-verklaring",
+      "definition": "Het document van RVO waarmee een werkgever de afdracht van loonheffing mag verminderen."
+    },
+    {
+      "term": "Kennisspillover",
+      "definition": "Het overlopen van de opbrengst van kennis naar partijen die er niet voor hebben betaald."
+    },
+    {
+      "term": "Additionaliteit",
+      "definition": "Het deel van het S&O-werk dat dankzij de steun is gedaan en anders niet was gedaan."
+    },
+    {
+      "term": "Meeneemeffect",
+      "definition": "Steun voor werk dat het bedrijf ook zonder steun had gedaan."
+    },
+    {
+      "term": "S&O-grondslag",
+      "definition": "De som van S&O-loonkosten, overige kosten en uitgaven waarover het percentage wordt berekend."
+    },
+    {
+      "term": "S&O-aftrek",
+      "definition": "Een vast bedrag dat een zelfstandige met S&O van zijn winst mag aftrekken."
+    },
+    {
+      "term": "Starter",
+      "definition": "Een ondernemer die nog weinig gebruik van de regeling heeft gemaakt en recht heeft op een hoger percentage of aanvullende aftrek."
+    }
+  ]
 }

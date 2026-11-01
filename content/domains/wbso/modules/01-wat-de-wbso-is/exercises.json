@@ -1,0 +1,280 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Waarom wordt er volgens de economische redenering zonder overheidssteun te weinig S&O gedaan?",
+      "choices": [
+        "Een deel van de opbrengst van kennis komt bij anderen terecht, dus het eigen rendement is lager dan het maatschappelijke rendement",
+        "S&O is altijd verliesgevend voor bedrijven",
+        "Bedrijven weten niet hoe ze onderzoek moeten doen",
+        "Onderzoek is verboden zonder vergunning"
+      ],
+      "answer": "Een deel van de opbrengst van kennis komt bij anderen terecht, dus het eigen rendement is lager dan het maatschappelijke rendement",
+      "hints": [
+        "Denk aan het begrip kennisspillover."
+      ],
+      "solution": [
+        "Anderen kunnen kennis nabouwen of gebruiken zonder de kosten te dragen.",
+        "Het eigen rendement van de ontwikkelaar is daardoor lager dan het rendement voor de samenleving, dus er wordt te weinig onderzocht."
+      ],
+      "topics": [
+        "wbso-purpose"
+      ],
+      "feedback": [
+        {
+          "answer": "S&O is altijd verliesgevend voor bedrijven",
+          "message": "Veel S&O is winstgevend. Het probleem is dat niet alle opbrengst bij de ontwikkelaar blijft."
+        }
+      ]
+    },
+    {
+      "id": "01-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een bedrijf had een ontwikkelproject sowieso gestart en krijgt nu een steunbijdrage. Welk begrip past hierbij?",
+      "choices": [
+        "Meeneemeffect",
+        "Additionaliteit",
+        "Kennisspillover",
+        "Urencriterium"
+      ],
+      "answer": "Meeneemeffect",
+      "hints": [
+        "De steun heeft niets veranderd aan wat het bedrijf deed."
+      ],
+      "solution": [
+        "Steun voor werk dat toch al gedaan zou worden, heet meeneemeffect.",
+        "Additionaliteit is het omgekeerde: extra werk dat dankzij de steun is gedaan."
+      ],
+      "topics": [
+        "wbso-purpose"
+      ],
+      "feedback": [
+        {
+          "answer": "Additionaliteit",
+          "message": "Additionaliteit betekent juist dat het werk door de steun extra is gedaan. Hier verandert er niets."
+        }
+      ]
+    },
+    {
+      "id": "01-003",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een S&O-uur heeft een grondslag van € 100 en het percentage van de eerste schijf is 36%. Hoeveel kost dat uur het bedrijf netto na aftrek van het voordeel? Antwoord in hele euro's.",
+      "answer": 64,
+      "hints": [
+        "Bereken eerst het voordeel: 36% van € 100."
+      ],
+      "solution": [
+        "Voordeel: $0{,}36 \\times 100 = 36$ euro.",
+        "Netto kosten: $100 - 36 = 64$ euro."
+      ],
+      "topics": [
+        "wbso-purpose"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 36,
+          "message": "€ 36 is het voordeel zelf. Trek dat af van € 100 voor de nettokosten."
+        }
+      ]
+    },
+    {
+      "id": "01-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom kan een aanvraag voor de WBSO alleen betrekking hebben op werk dat nog moet gebeuren of nog loopt?",
+      "choices": [
+        "De regeling wil werk stimuleren, niet werk belonen dat al is afgerond",
+        "RVO heeft geen tijd om oude aanvragen te lezen",
+        "Achteraf aanvragen is te duur voor de Belastingdienst",
+        "Het is een willekeurige regel zonder reden"
+      ],
+      "answer": "De regeling wil werk stimuleren, niet werk belonen dat al is afgerond",
+      "hints": [
+        "Denk aan het doel: extra S&O."
+      ],
+      "solution": [
+        "Een stimulans werkt alleen als de ondernemer hem kent voordat hij beslist.",
+        "Werk dat al is gedaan, kan niet meer worden beïnvloed."
+      ],
+      "topics": [
+        "wbso-purpose"
+      ]
+    },
+    {
+      "id": "01-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een werkgever heeft een S&O-grondslag van € 500.000. Stel dat het percentage van de eerste schijf 36% is, de grens van de eerste schijf € 400.000 en het percentage van de tweede schijf 16%. Bereken het voordeel in hele euro's.",
+      "answer": 160000,
+      "hints": [
+        "Splits de grondslag in twee delen: tot en boven de grens.",
+        "Over € 400.000 geldt 36%, over de rest 16%."
+      ],
+      "solution": [
+        "Eerste schijf: $0{,}36 \\times 400.000 = 144.000$.",
+        "Tweede schijf: $0{,}16 \\times 100.000 = 16.000$.",
+        "Totaal: € 160.000."
+      ],
+      "topics": [
+        "wbso-parties",
+        "wbso-calculation"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 180000,
+          "message": "Je hebt de hele grondslag tegen 36% berekend. Boven de grens geldt 16%."
+        }
+      ]
+    },
+    {
+      "id": "01-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een starter heeft een S&O-grondslag van € 100.000. Stel dat het percentage van de eerste schijf voor starters 50% is en de grens van de eerste schijf hoger dan € 100.000 ligt. Hoe groot is het voordeel in hele euro's?",
+      "answer": 50000,
+      "hints": [
+        "De hele grondslag valt in de eerste schijf."
+      ],
+      "solution": [
+        "$0{,}50 \\times 100.000 = 50.000$ euro."
+      ],
+      "topics": [
+        "wbso-parties"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 36000,
+          "message": "Je gebruikte 36%. Voor starters is het percentage van de eerste schijf hoger."
+        }
+      ]
+    },
+    {
+      "id": "01-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een zelfstandige zonder personeel besteedde dit jaar 1.300 uur aan zijn onderneming, waarvan 450 uur aan S&O. Stel dat het urencriterium 1.225 uur voor de onderneming en 500 uur aan S&O vraagt. Voldoet hij?",
+      "choices": [
+        "Nee, hij haalt de 500 S&O-uren niet",
+        "Ja, want hij haalt de 1.225 uur",
+        "Ja, want 450 uur is genoeg als er iets is gedaan",
+        "Nee, want zelfstandigen komen nooit in aanmerking"
+      ],
+      "answer": "Nee, hij haalt de 500 S&O-uren niet",
+      "hints": [
+        "Beide voorwaarden gelden tegelijk."
+      ],
+      "solution": [
+        "Totaal 1.300 uur is genoeg (minimaal 1.225).",
+        "S&O-uren 450 is minder dan 500, dus hij voldoet niet."
+      ],
+      "topics": [
+        "wbso-parties"
+      ],
+      "feedback": [
+        {
+          "answer": "Ja, want hij haalt de 1.225 uur",
+          "message": "Het urencriterium heeft twee delen. Ook het aantal S&O-uren moet worden gehaald."
+        }
+      ]
+    },
+    {
+      "id": "01-008",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de stappen van de WBSO in de volgorde waarin ze voor een werkgever plaatsvinden, de eerste stap eerst.",
+      "answer": [
+        "Aanvraag indienen bij RVO",
+        "S&O-verklaring ontvangen",
+        "S&O-werk uitvoeren en uren bijhouden",
+        "Voordeel verrekenen in de loonaangifte"
+      ],
+      "hints": [
+        "Aanvragen kan alleen voor werk dat nog moet beginnen of loopt."
+      ],
+      "solution": [
+        "Eerst de aanvraag, dan de verklaring, dan het werk met urenregistratie, en tot slot de verrekening in de loonaangifte."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "S&O-werk uitvoeren en uren bijhouden",
+            "Aanvraag indienen bij RVO",
+            "S&O-verklaring ontvangen",
+            "Voordeel verrekenen in de loonaangifte"
+          ],
+          "message": "Je zet het werk vóór de aanvraag. Achteraf aanvragen kan niet."
+        }
+      ],
+      "topics": [
+        "wbso-parties"
+      ]
+    },
+    {
+      "id": "01-009",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een bedrijf heeft 3.600 S&O-uren tegen een S&O-uurloon van € 45 en € 40.000 aan overige S&O-kosten. Het percentage van de eerste schijf is 36%; de grondslag blijft onder de grens van de eerste schijf. Bereken het voordeel in hele euro's.",
+      "answer": 72720,
+      "hints": [
+        "Bereken eerst de loonkosten, tel de kosten erbij op."
+      ],
+      "solution": [
+        "Loonkosten: $3.600 \\times 45 = 162.000$.",
+        "Grondslag: $162.000 + 40.000 = 202.000$.",
+        "Voordeel: $0{,}36 \\times 202.000 = 72.720$."
+      ],
+      "topics": [
+        "wbso-calculation"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 58320,
+          "message": "Je rekende alleen over de loonkosten. De overige kosten horen ook in de grondslag."
+        }
+      ]
+    },
+    {
+      "id": "01-010",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 3,
+      "question": "Een werkgever heeft een S&O-grondslag van € 450.000. Het percentage van de eerste schijf is 36%, de grens van de eerste schijf is € 391.020 en het percentage van de tweede schijf is 16%. Bereken het voordeel in euro's, op twee decimalen nauwkeurig.",
+      "answer": 150204.0,
+      "hints": [
+        "Bereken de grondslag boven de grens: 450.000 − 391.020."
+      ],
+      "solution": [
+        "Eerste schijf: $0{,}36 \\times 391.020 = 140.767{,}20$.",
+        "Tweede schijf: $0{,}16 \\times 58.980 = 9.436{,}80$.",
+        "Totaal: € 150.204,00. Alles tegen 36% zou € 162.000 zijn geweest."
+      ],
+      "topics": [
+        "wbso-calculation"
+      ],
+      "unit": "€",
+      "feedback": [
+        {
+          "answer": 162000,
+          "message": "Dat is alles tegen 36%. Het deel boven € 391.020 krijgt maar 16%."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "exercises": [
+    {
+      "id": "04-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een bv heeft een banklening die over vijf jaar wordt afgelost. Aan welke kant van de balans en onder welk hoofdonderdeel staat deze lening?",
+      "answer": "Passiva, onder vreemd vermogen",
+      "choices": [
+        "Activa, onder vlottende activa",
+        "Passiva, onder eigen vermogen",
+        "Passiva, onder vreemd vermogen",
+        "Winst-en-verliesrekening, onder rentelasten"
+      ],
+      "hints": [
+        "De balans laat links zien wat het bedrijf bezit en rechts hoe dat is gefinancierd."
+      ],
+      "solution": [
+        "Een lening is geld van een schuldeiser: financiering, dus passiva.",
+        "Het is geen eigen vermogen, want het is niet van de aandeelhouders."
+      ],
+      "feedback": [
+        {
+          "answer": "Activa, onder vlottende activa",
+          "message": "Een lening is geen bezit maar een schuld. Het geleende geld zelf staat wel onder activa, bijvoorbeeld als liquide middelen."
+        },
+        {
+          "answer": "Passiva, onder eigen vermogen",
+          "message": "Eigen vermogen is het geld van de aandeelhouders. Een lening van de bank is vreemd vermogen."
+        }
+      ],
+      "topics": [
+        "financial-statements"
+      ]
+    },
+    {
+      "id": "04-002",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een bv heeft € 500.000 aan activa. Het vreemd vermogen bestaat uit een banklening van € 180.000 en kortlopende schulden van € 140.000. Hoe groot is het eigen vermogen? Antwoord in hele euro's.",
+      "answer": 180000,
+      "unit": "€",
+      "hints": [
+        "Het eigen vermogen is de restpost."
+      ],
+      "solution": [
+        "Vreemd vermogen: $180.000 + 140.000 = 320.000$",
+        "Eigen vermogen: $500.000 - 320.000 = 180.000$"
+      ],
+      "feedback": [
+        {
+          "answer": 320000,
+          "message": "Dat is het vreemd vermogen. Het eigen vermogen is wat overblijft als je dat van de activa aftrekt."
+        }
+      ],
+      "topics": [
+        "financial-statements"
+      ]
+    },
+    {
+      "id": "04-003",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de onderdelen van een winst-en-verliesrekening in de volgorde waarin ze van boven naar beneden worden berekend.",
+      "answer": [
+        "Netto-omzet",
+        "Brutomarge",
+        "Bedrijfsresultaat",
+        "Resultaat vóór belasting",
+        "Nettoresultaat"
+      ],
+      "hints": [
+        "Begin bij wat is verkocht en eindig bij wat de aandeelhouders overhouden."
+      ],
+      "solution": [
+        "De omzet min inkoopwaarde geeft de brutomarge; min bedrijfskosten het bedrijfsresultaat; min rente het resultaat vóór belasting; min vpb het nettoresultaat."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Netto-omzet",
+            "Brutomarge",
+            "Resultaat vóór belasting",
+            "Bedrijfsresultaat",
+            "Nettoresultaat"
+          ],
+          "message": "De rente gaat pas af ná het bedrijfsresultaat: het bedrijfsresultaat is het resultaat vóór financiering."
+        }
+      ],
+      "topics": [
+        "financial-statements"
+      ]
+    },
+    {
+      "id": "04-004",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een bedrijf heeft een netto-omzet van € 600.000, een inkoopwaarde van de omzet van € 360.000, personeelskosten van € 120.000, afschrijvingen van € 20.000 en overige bedrijfskosten van € 40.000. Wat is het bedrijfsresultaat? Antwoord in hele euro's.",
+      "answer": 60000,
+      "unit": "€",
+      "hints": [
+        "Begin met de brutomarge."
+      ],
+      "solution": [
+        "Brutomarge: $600.000 - 360.000 = 240.000$",
+        "Bedrijfskosten: $120.000 + 20.000 + 40.000 = 180.000$",
+        "Bedrijfsresultaat: $240.000 - 180.000 = 60.000$"
+      ],
+      "feedback": [
+        {
+          "answer": 240000,
+          "message": "Dat is de brutomarge. De bedrijfskosten moeten er nog van af."
+        }
+      ],
+      "topics": [
+        "financial-statements"
+      ]
+    },
+    {
+      "id": "04-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom wordt de afschrijving bij het kasstroomoverzicht bij het nettoresultaat opgeteld?",
+      "answer": "Omdat afschrijving een kostenpost is waar geen uitgave tegenover staat",
+      "choices": [
+        "Omdat afschrijving extra winst oplevert",
+        "Omdat afschrijving een kostenpost is waar geen uitgave tegenover staat",
+        "Omdat afschrijving een belasting is die later wordt terugbetaald"
+      ],
+      "hints": [
+        "Is er in het jaar geld uitgegeven aan de afschrijving?"
+      ],
+      "solution": [
+        "Afschrijving verdeelt de aanschafprijs over de gebruiksduur; het geld is al eerder betaald.",
+        "In het kasstroomoverzicht telt alleen wat in en uit gaat, dus de kostenpost wordt teruggedraaid."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat afschrijving extra winst oplevert",
+          "message": "Afschrijving verlaagt juist de winst. Voor de kasstroom wordt ze teruggedraaid omdat er geen geld uitgaat."
+        }
+      ],
+      "topics": [
+        "financial-statements"
+      ]
+    },
+    {
+      "id": "04-006",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een bv sluit haar boekjaar af op 31 december 2025. Wat is in ieder geval de uiterste termijn waarbinnen de jaarrekening bij de KvK moet zijn gedeponeerd, volgens de KvK?",
+      "answer": "Binnen twaalf maanden na afloop van het boekjaar",
+      "choices": [
+        "Binnen één maand na afloop van het boekjaar",
+        "Binnen twaalf maanden na afloop van het boekjaar",
+        "Binnen vijf jaar na afloop van het boekjaar"
+      ],
+      "hints": [],
+      "solution": [
+        "De wet noemt acht dagen na vaststelling, maar de KvK hanteert daarnaast een uiterste grens."
+      ],
+      "feedback": [
+        {
+          "answer": "Binnen één maand na afloop van het boekjaar",
+          "message": "Zo snel hoeft het niet: de uiterste grens is twaalf maanden na afloop van het boekjaar."
+        }
+      ],
+      "topics": [
+        "financial-statements"
+      ]
+    },
+    {
+      "id": "04-007",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een bedrijf heeft een eigen vermogen van € 180.000 en een totaal vermogen van € 450.000. Wat is de solvabiliteit? Antwoord als percentage, op één decimaal.",
+      "answer": 40,
+      "tolerance": 0.1,
+      "unit": "%",
+      "hints": [
+        "Solvabiliteit = eigen vermogen gedeeld door totaal vermogen."
+      ],
+      "solution": [
+        "$180.000 / 450.000 = 0{,}40$, dus 40%"
+      ],
+      "feedback": [
+        {
+          "answer": 66.7,
+          "message": "Je hebt het eigen vermogen gedeeld door het vreemd vermogen (€ 270.000). De solvabiliteit deelt door het totaal vermogen."
+        }
+      ],
+      "topics": [
+        "financial-statements"
+      ]
+    },
+    {
+      "id": "04-008",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bedrijf heeft vlottende activa van € 200.000 en kortlopende schulden van € 160.000. Wat is de current ratio? Antwoord op twee decimalen.",
+      "answer": 1.25,
+      "tolerance": 0.005,
+      "hints": [
+        "Deel de vlottende activa door de kortlopende schulden."
+      ],
+      "solution": [
+        "$200.000 / 160.000 = 1{,}25$"
+      ],
+      "feedback": [
+        {
+          "answer": 0.8,
+          "message": "Je hebt de breuk omgedraaid. De vlottende activa staan boven de streep."
+        }
+      ],
+      "topics": [
+        "financial-statements"
+      ]
+    },
+    {
+      "id": "04-009",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Stel dat het vpb-tarief 19% is over het eerste € 200.000 aan winst. Een bv heeft een belastbare winst van € 150.000. Hoeveel vennootschapsbelasting is verschuldigd? Antwoord in hele euro's.",
+      "answer": 28500,
+      "unit": "€",
+      "hints": [
+        "De hele winst valt in de eerste schijf."
+      ],
+      "solution": [
+        "$0{,}19 \\times 150.000 = 28.500$"
+      ],
+      "feedback": [
+        {
+          "answer": 38700,
+          "message": "Je hebt het hoge tarief van 25,8% gebruikt. Deze winst blijft onder € 200.000."
+        }
+      ],
+      "topics": [
+        "corporate-tax"
+      ]
+    },
+    {
+      "id": "04-010",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Stel dat het vpb-tarief 19% is over de eerste € 200.000 aan winst en 25,8% over het meerdere. Een bv heeft een belastbare winst van € 260.000. Hoeveel vennootschapsbelasting is verschuldigd? Antwoord in hele euro's.",
+      "answer": 53480,
+      "unit": "€",
+      "hints": [
+        "Splits de winst in twee schijven."
+      ],
+      "solution": [
+        "Eerste schijf: $0{,}19 \\times 200.000 = 38.000$",
+        "Tweede schijf: $0{,}258 \\times 60.000 = 15.480$",
+        "Samen: $38.000 + 15.480 = 53.480$"
+      ],
+      "feedback": [
+        {
+          "answer": 67080,
+          "message": "Je hebt 25,8% over de hele winst berekend. Het hoge tarief geldt alleen over het deel boven € 200.000."
+        },
+        {
+          "answer": 49400,
+          "message": "Je hebt 19% over de hele winst berekend. Het deel boven € 200.000 wordt tegen 25,8% belast."
+        }
+      ],
+      "topics": [
+        "corporate-tax"
+      ]
+    },
+    {
+      "id": "04-011",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een ondernemer verkoopt in een kwartaal voor € 80.000 exclusief btw en koopt voor € 30.000 exclusief btw in; over beide is 21% btw verschuldigd. Hoeveel btw moet hij aan de Belastingdienst afdragen? Antwoord in hele euro's.",
+      "answer": 10500,
+      "unit": "€",
+      "hints": [
+        "Afdracht = verschuldigde btw min voorbelasting."
+      ],
+      "solution": [
+        "Verschuldigd: $0{,}21 \\times 80.000 = 16.800$",
+        "Voorbelasting: $0{,}21 \\times 30.000 = 6.300$",
+        "Afdracht: $16.800 - 6.300 = 10.500$"
+      ],
+      "feedback": [
+        {
+          "answer": 16800,
+          "message": "Je bent de voorbelasting vergeten af te trekken."
+        },
+        {
+          "answer": 23100,
+          "message": "Je hebt de voorbelasting opgeteld in plaats van afgetrokken."
+        }
+      ],
+      "topics": [
+        "vat"
+      ]
+    },
+    {
+      "id": "04-012",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 3,
+      "question": "Een hoveniersbedrijf heeft een netto-omzet van € 800.000, een inkoopwaarde van de omzet van € 440.000, personeelskosten van € 200.000, afschrijvingen van € 30.000, overige bedrijfskosten van € 70.000 en rentelasten van € 10.000. De vennootschapsbelasting is 19% van het resultaat vóór belasting (alles in de eerste schijf). Wat is het nettoresultaat? Antwoord in hele euro's.",
+      "answer": 40500,
+      "unit": "€",
+      "hints": [
+        "Bereken stap voor stap: brutomarge, bedrijfsresultaat, resultaat vóór belasting."
+      ],
+      "solution": [
+        "Brutomarge: $800.000 - 440.000 = 360.000$",
+        "Bedrijfsresultaat: $360.000 - 200.000 - 30.000 - 70.000 = 60.000$",
+        "Resultaat vóór belasting: $60.000 - 10.000 = 50.000$",
+        "Vpb: $0{,}19 \\times 50.000 = 9.500$",
+        "Nettoresultaat: $50.000 - 9.500 = 40.500$"
+      ],
+      "feedback": [
+        {
+          "answer": 50000,
+          "message": "Dat is het resultaat vóór belasting. De vennootschapsbelasting moet er nog van af."
+        },
+        {
+          "answer": 60000,
+          "message": "Dat is het bedrijfsresultaat. Rente en vennootschapsbelasting moeten er nog van af."
+        }
+      ],
+      "topics": [
+        "corporate-tax"
+      ]
+    }
+  ]
+}

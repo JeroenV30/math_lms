@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect width="760" height="440" fill="#ffffff"/>
+  <rect x="290" y="12" width="180" height="46" rx="6" fill="#ffffff" stroke="#1f2933" stroke-width="2"/>
+  <text x="380" y="40" text-anchor="middle" fill="#1f2933" font-weight="bold">DGA (privé)</text>
+  <path d="M380 58 V108" stroke="#3b5bdb" stroke-width="2.5" fill="none"/>
+  <text x="392" y="88" fill="#3b5bdb" font-size="12">100% aandelen · dividend (box 2)</text>
+  <rect x="270" y="108" width="220" height="56" rx="6" fill="#eef2ff" stroke="#3b5bdb" stroke-width="2"/>
+  <text x="380" y="132" text-anchor="middle" fill="#1f2933" font-weight="bold">Holding-bv</text>
+  <text x="380" y="151" text-anchor="middle" fill="#1f2933" font-size="12">beheer, vermogen, aandelen</text>
+  <path d="M380 164 V198 M150 198 H610 M150 198 V228 M380 198 V228 M610 198 V228" stroke="#1f2933" stroke-width="2" fill="none"/>
+  <text x="392" y="190" fill="#1f2933" font-size="12">aandelen (deelnemingsvrijstelling)</text>
+  <g fill="#ffffff" stroke="#1f2933" stroke-width="2">
+    <rect x="50" y="228" width="200" height="56" rx="6"/>
+    <rect x="280" y="228" width="200" height="56" rx="6"/>
+    <rect x="510" y="228" width="200" height="56" rx="6"/>
+  </g>
+  <g fill="#1f2933" text-anchor="middle">
+    <text x="150" y="252" font-weight="bold">Werkmaatschappij-bv</text><text x="150" y="271" font-size="12">de eigenlijke onderneming</text>
+    <text x="380" y="252" font-weight="bold">Vastgoed-bv</text><text x="380" y="271" font-size="12">pand dat wordt verhuurd</text>
+    <text x="610" y="252" font-weight="bold">Dochter-bv</text><text x="610" y="271" font-size="12">tweede activiteit of risico</text>
+  </g>
+  <path d="M150 284 V330 H330" stroke="#3b5bdb" stroke-width="2" fill="none" stroke-dasharray="6 4"/>
+  <rect x="330" y="310" width="200" height="40" rx="6" fill="#ffffff" stroke="#3b5bdb" stroke-width="2"/>
+  <text x="430" y="335" text-anchor="middle" fill="#1f2933">Dividend omhoog naar holding</text>
+  <text x="380" y="392" text-anchor="middle" fill="#1f2933" font-size="12">Een schuld van de werkmaatschappij komt in beginsel niet bij de holding of de DGA terecht,</text>
+  <text x="380" y="412" text-anchor="middle" fill="#1f2933" font-size="12">tenzij er een borgstelling, een garantie of bestuurdersaansprakelijkheid is.</text>
+</svg>
