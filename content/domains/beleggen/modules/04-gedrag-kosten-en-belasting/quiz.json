@@ -1,0 +1,242 @@
+{
+  "title": "Hoofdstuktoets – Gedrag, kosten en belasting",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "04-T01",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een belegger verkoopt zijn beleggingen na een koersdaling van 25%, uit angst voor verdere verliezen, en koopt pas terug nadat de koersen weer zijn gestegen. Welke denkfout speelt hier vooral?",
+      "choices": [
+        "Verliesaversie, gecombineerd met een poging tot market timing",
+        "Overmoed over het eigen vermogen om de beurs te volgen, zonder enige angst",
+        "Schijnspreiding",
+        "Inflatie-illusie"
+      ],
+      "answer": "Verliesaversie, gecombineerd met een poging tot market timing",
+      "hints": [],
+      "solution": [
+        "Het verlies voelt zwaar (verliesaversie), en het verkopen en later terugkopen is een vorm van market timing: je moet twee keer gelijk hebben."
+      ],
+      "topics": [
+        "behaviour"
+      ]
+    },
+    {
+      "id": "04-T02",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een belegging daalt 20% in waarde. Hoeveel procent moet ze daarna stijgen om weer op de beginwaarde uit te komen? Rond af op twee decimalen (zonder procentteken).",
+      "answer": 25,
+      "tolerance": 0.01,
+      "hints": [],
+      "solution": [
+        "Na de daling is de waarde 80% van het begin: $1/0{,}8 = 1{,}25$, dus een stijging van 25%."
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Een stijging van 20% op 80 geeft 96. De stijging wordt berekend over een kleinere waarde."
+        }
+      ],
+      "unit": "%",
+      "topics": [
+        "behaviour"
+      ]
+    },
+    {
+      "id": "04-T03",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat meet Morningstar in het rapport Mind the Gap?",
+      "choices": [
+        "Het verschil tussen het rendement van fondsen en het gemiddelde rendement van de beleggers in die fondsen, rekening houdend met wanneer zij geld in- en uitlegden",
+        "Het verschil tussen het rendement van aandelen en obligaties",
+        "Het verschil in kosten tussen actieve en passieve fondsen",
+        "Het verschil tussen Amerikaanse en Europese beurzen"
+      ],
+      "answer": "Het verschil tussen het rendement van fondsen en het gemiddelde rendement van de beleggers in die fondsen, rekening houdend met wanneer zij geld in- en uitlegden",
+      "hints": [],
+      "solution": [
+        "De gap is het verschil tussen het tijdgewogen rendement van het fonds en het geldgewogen rendement van de beleggers."
+      ],
+      "topics": [
+        "behaviour"
+      ]
+    },
+    {
+      "id": "04-T04",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een fonds levert in jaar 1 +10% en in jaar 2 −10%. Een belegger legt aan het begin van jaar 1 € 1.000 in en aan het begin van jaar 2 nog € 1.000. Hoeveel euro is zijn belegging na jaar 2 waard? Geef een geheel getal.",
+      "answer": 1890,
+      "hints": [],
+      "solution": [
+        "Na jaar 1: $1.000 \\cdot 1{,}10 = 1.100$; na bijstorten 2.100.",
+        "Na jaar 2: $2.100 \\cdot 0{,}90 = 1.890$."
+      ],
+      "feedback": [
+        {
+          "answer": 2000,
+          "message": "Dat is het totaal van de inleg. Houd rekening met +10% in jaar 1 voor de eerste inleg en −10% in jaar 2 voor het hele bedrag."
+        }
+      ],
+      "unit": "€",
+      "topics": [
+        "behaviour"
+      ]
+    },
+    {
+      "id": "04-T05",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je legt eenmalig € 10.000 in en laat het 25 jaar staan. Het bruto rendement is 5% per jaar en de jaarlijkse kosten zijn 0,5%, dus het netto rendement is 4,5%. Hoeveel is het na 25 jaar? Rond af op twee decimalen.",
+      "answer": 30054.34,
+      "tolerance": 0.5,
+      "hints": [],
+      "solution": [
+        "$10.000 \\cdot 1{,}045^{25} \\approx 30.054{,}34$. Zonder kosten was het $10.000 \\cdot 1{,}05^{25} \\approx 33.863{,}55$."
+      ],
+      "feedback": [
+        {
+          "answer": 33863.55,
+          "message": "Dat is het bedrag zonder kosten. Reken met het netto rendement van 4,5%."
+        }
+      ],
+      "unit": "€",
+      "topics": [
+        "costs",
+        "compound-interest"
+      ]
+    },
+    {
+      "id": "04-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is het kenmerk van het huidige box 3-stelsel (stand 2026)?",
+      "choices": [
+        "Er wordt belasting geheven over een forfaitair rendement, tenzij je met tegenbewijs een lager werkelijk rendement aantoont",
+        "Er wordt alleen belasting geheven over de werkelijk behaalde koerswinst",
+        "Er wordt alleen belasting geheven bij verkoop van beleggingen",
+        "Box 3 is afgeschaft"
+      ],
+      "answer": "Er wordt belasting geheven over een forfaitair rendement, tenzij je met tegenbewijs een lager werkelijk rendement aantoont",
+      "hints": [],
+      "solution": [
+        "Het huidige stelsel belast een aangenomen rendement per categorie bezittingen. Een lager werkelijk rendement kun je via de tegenbewijsregeling aantonen."
+      ],
+      "topics": [
+        "tax"
+      ]
+    },
+    {
+      "id": "04-T07",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Stel dat voor box 3 het volgende geldt: een forfaitair rendement van 6,00% op beleggingen, een heffingsvrij vermogen van € 59.357, een tarief van 36%, en dat het belaste voordeel gelijk is aan het forfaitaire rendement vermenigvuldigd met (vermogen − heffingsvrij vermogen) / vermogen. Je hebt op 1 januari € 150.000 aan beleggingen, geen spaargeld en geen schulden. Hoeveel box 3-belasting betaal je? Rond af op twee decimalen.",
+      "answer": 1957.89,
+      "tolerance": 0.02,
+      "hints": [],
+      "solution": [
+        "Forfaitair voordeel: $0{,}06 \\cdot 150.000 = 9.000$.",
+        "Belast voordeel: $9.000 \\cdot 90.643/150.000 = 5.438{,}58$.",
+        "Belasting: $0{,}36 \\cdot 5.438{,}58 \\approx 1.957{,}89$."
+      ],
+      "feedback": [
+        {
+          "answer": 3240,
+          "message": "Dat is 36% van het hele forfaitaire rendement van € 9.000. Je bent vergeten het heffingsvrije vermogen te verwerken."
+        }
+      ],
+      "unit": "€",
+      "topics": [
+        "tax"
+      ]
+    },
+    {
+      "id": "04-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "De Tweede Kamer heeft een wetsvoorstel over box 3 aangenomen. Voordat de Eerste Kamer stemt, wil het kabinet het voorstel nog op een paar punten veranderen en kondigt daarvoor een novelle aan. Wat is een novelle, en waarom is die hier nodig?",
+      "choices": [
+        "Een apart wetsvoorstel dat het door de Tweede Kamer aangenomen voorstel wijzigt, omdat de Eerste Kamer het voorstel niet zelf kan wijzigen",
+        "Een amendement dat de Eerste Kamer zelf indient om het voorstel te wijzigen",
+        "Een uitspraak van de Hoge Raad die het voorstel buiten werking stelt",
+        "De definitieve stemming in de Eerste Kamer, waarna het voorstel wet is"
+      ],
+      "answer": "Een apart wetsvoorstel dat het door de Tweede Kamer aangenomen voorstel wijzigt, omdat de Eerste Kamer het voorstel niet zelf kan wijzigen",
+      "hints": [],
+      "solution": [
+        "De Eerste Kamer kan een wetsvoorstel alleen aannemen of verwerpen; zij heeft geen recht van amendement.",
+        "Wil het kabinet een al door de Tweede Kamer aangenomen voorstel nog veranderen, dan dient het een apart wijzigingsvoorstel in: een novelle. Die gaat eerst langs de Raad van State en de Tweede Kamer, en daarna behandelt de Eerste Kamer beide voorstellen."
+      ],
+      "topics": [
+        "tax"
+      ],
+      "feedback": [
+        {
+          "answer": "Een amendement dat de Eerste Kamer zelf indient om het voorstel te wijzigen",
+          "message": "De Eerste Kamer heeft geen recht van amendement: zij kan alleen aannemen of verwerpen. Daarom is een novelle nodig."
+        }
+      ]
+    },
+    {
+      "id": "04-T09",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een bv maakt € 20.000 winst op haar beleggingen. De vennootschapsbelasting is 19%, en de rest wordt geheel als dividend uitgekeerd, waarover 24,5% box 2-belasting wordt betaald. Hoeveel euro houdt de eigenaar over? Geef een geheel getal (afgerond).",
+      "answer": 12231,
+      "hints": [],
+      "solution": [
+        "Na vpb: $20.000 \\cdot 0{,}81 = 16.200$.",
+        "Na box 2: $16.200 \\cdot 0{,}755 = 12.231$."
+      ],
+      "feedback": [
+        {
+          "answer": 16200,
+          "message": "Dat is het bedrag na vennootschapsbelasting. Bij uitkering volgt nog box 2-belasting."
+        }
+      ],
+      "unit": "€",
+      "topics": [
+        "tax"
+      ]
+    },
+    {
+      "id": "04-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke uitspraak over beleggen via een bv, voor een eigenaar met een aanmerkelijk belang, klopt?",
+      "choices": [
+        "De bv betaalt vennootschapsbelasting over haar winst, en de eigenaar betaalt box 2-belasting pas bij uitkering of verkoop van aandelen",
+        "Het geld in de bv valt in box 3 van de eigenaar",
+        "Er is geen belasting zolang het geld in de bv blijft",
+        "De bv betaalt geen belasting, alleen de eigenaar"
+      ],
+      "answer": "De bv betaalt vennootschapsbelasting over haar winst, en de eigenaar betaalt box 2-belasting pas bij uitkering of verkoop van aandelen",
+      "hints": [],
+      "solution": [
+        "Er zijn twee heffingen: vpb in de bv en box 2 bij uitkering aan de eigenaar. Het vermogen in de bv telt niet mee in box 3."
+      ],
+      "feedback": [
+        {
+          "answer": "Er is geen belasting zolang het geld in de bv blijft",
+          "message": "De bv betaalt wel vennootschapsbelasting over haar winst. Alleen de box 2-heffing is uitgesteld."
+        }
+      ],
+      "topics": [
+        "tax"
+      ]
+    }
+  ]
+}

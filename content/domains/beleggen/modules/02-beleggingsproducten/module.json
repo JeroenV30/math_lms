@@ -3,7 +3,7 @@
   "slug": "beleggingsproducten",
   "title": "Beleggingsproducten",
   "part": 1,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
   "estimated_minutes": 90,
   "prerequisites": [
@@ -17,5 +17,107 @@
   ],
   "core_question": "Wat koop je eigenlijk als je een aandeel, een obligatie of een indexfonds koopt?",
   "summary": "Aandelen, obligaties, beleggingsfondsen en ETF's, hoe hun rendement ontstaat, en wat ze kosten.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een essentiële-informatiedocument lezen",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "aandelen-en-obligaties",
+      "title": "Aandelen en obligaties",
+      "file": "02-aandelen-en-obligaties.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "fondsen-etfs-en-kosten",
+      "title": "Fondsen, ETF's en kosten",
+      "file": "03-fondsen-etfs-en-kosten.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casus-kosten",
+      "title": "Casus: twee indexfondsen vergelijken",
+      "file": "04-casus-kosten.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en toets",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen wat je bezit bij een aandeel, een obligatie en een beleggingsfonds, en hoe de positie van een aandeelhouder verschilt van die van een obligatiehouder.",
+    "Je kunt het dividendrendement, het totaalrendement en de koers-winstverhouding van een aandeel berekenen en interpreteren.",
+    "Je kunt de koers van een obligatie bij een gegeven marktrente berekenen, het omgekeerde verband tussen marktrente en koers uitleggen, en renterisico van kredietrisico onderscheiden.",
+    "Je kunt uitleggen wat een indexfonds en een ETF zijn, en het verschil tussen fysieke en synthetische replicatie en tussen accumulerende en uitkerende fondsen.",
+    "Je kunt TER, transactiekosten en spread onderscheiden en het effect van jaarlijkse kosten over een lange periode doorrekenen."
+  ],
+  "glossary": [
+    {
+      "term": "Aandeel",
+      "definition": "Een deel van het eigen vermogen van een onderneming; de aandeelhouder is mede-eigenaar, zonder garantie op dividend of terugbetaling."
+    },
+    {
+      "term": "Dividend",
+      "definition": "Het deel van de winst dat een onderneming aan haar aandeelhouders uitkeert."
+    },
+    {
+      "term": "Koers-winstverhouding",
+      "definition": "De koers van een aandeel gedeeld door de winst per aandeel (K/W of P/E)."
+    },
+    {
+      "term": "Obligatie",
+      "definition": "Een schuldbewijs: de uitgever leent geld, betaalt periodiek een coupon en lost op de einddatum de nominale waarde af."
+    },
+    {
+      "term": "Coupon",
+      "definition": "De vaste rente die een obligatie per jaar betaalt, als percentage van de nominale waarde."
+    },
+    {
+      "term": "Renterisico",
+      "definition": "Het risico dat de koers van een obligatie daalt doordat de marktrente stijgt."
+    },
+    {
+      "term": "Kredietrisico",
+      "definition": "Het risico dat een uitgever de rente of aflossing niet of niet op tijd betaalt."
+    },
+    {
+      "term": "Indexfonds",
+      "definition": "Een beleggingsfonds dat volgens een vaste regel een index volgt, zonder zelf beleggingen te selecteren."
+    },
+    {
+      "term": "ETF",
+      "definition": "Een beleggingsfonds dat op de beurs wordt verhandeld, meestal een indexfonds."
+    },
+    {
+      "term": "Replicatie",
+      "definition": "De manier waarop een fonds een index volgt: fysiek (de onderliggende beleggingen kopen) of synthetisch (via een ruilcontract met een bank)."
+    },
+    {
+      "term": "TER",
+      "definition": "Total expense ratio: de jaarlijkse lopende kosten van een fonds als percentage van het belegde vermogen."
+    },
+    {
+      "term": "Spread",
+      "definition": "Het verschil tussen de laatkoers (waartegen je koopt) en de biedkoers (waartegen je verkoopt)."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Totaalrendement van een aandeel",
+      "latex": "r = \\frac{(K_1 - K_0) + D}{K_0}",
+      "usage": "Rendement over een periode uit begin- en eindkoers $K_0$ en $K_1$ en het ontvangen dividend $D$.",
+      "origin": "Koerswinst en dividend opgeteld, gedeeld door de beginkoers."
+    },
+    {
+      "name": "Koers van een obligatie",
+      "latex": "\\text{koers} = \\sum_{t=1}^{n} \\frac{C}{(1+y)^t} + \\frac{N}{(1+y)^n}",
+      "usage": "Koers bij marktrente $y$, coupon $C$, nominale waarde $N$ en $n$ jaar looptijd.",
+      "origin": "De contante waarde van alle toekomstige betalingen."
+    }
+  ]
 }

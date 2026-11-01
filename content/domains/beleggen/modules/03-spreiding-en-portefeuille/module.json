@@ -3,9 +3,9 @@
   "slug": "spreiding-en-portefeuille",
   "title": "Spreiding en portefeuille",
   "part": 2,
-  "status": "planned",
-  "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "status": "available",
+  "estimated_difficulty": 3,
+  "estimated_minutes": 100,
   "prerequisites": [
     2
   ],
@@ -16,5 +16,40 @@
   ],
   "core_question": "Waarom verlaagt spreiding het risico zonder dat het verwachte rendement evenredig daalt?",
   "summary": "Diversificatie, de verdeling over beleggingscategorieën, herbalanceren, en passief tegenover actief beleggen.",
-  "lessons": []
+  "learning_goals": [
+    "Je kunt specifiek risico en marktrisico onderscheiden en uitleggen waarom spreiding alleen het eerste wegneemt.",
+    "Je kunt het verwachte rendement en het risico van een portefeuille van twee beleggingen berekenen en uitleggen welke rol de correlatie speelt.",
+    "Je kunt een verdeling over beleggingscategorieën motiveren aan de hand van beleggingshorizon, draagkracht en volgorderisico.",
+    "Je kunt een portefeuille herbalanceren, door te verkopen en bij te kopen of met nieuwe inleg.",
+    "Je kunt het rekenkundige argument van Sharpe uitleggen en SPIVA-cijfers over actief en passief beleggen voorzichtig lezen."
+  ],
+  "glossary": [
+    { "term": "Specifiek risico", "definition": "Risico dat bij één bedrijf of sector hoort en door spreiding grotendeels uitmiddelt." },
+    { "term": "Marktrisico", "definition": "Risico dat vrijwel alle beleggingen in een markt tegelijk treft en door spreiding binnen die markt niet verdwijnt." },
+    { "term": "Correlatie", "definition": "Maat tussen −1 en 1 voor hoe gelijk twee beleggingen bewegen." },
+    { "term": "Efficiënte rand", "definition": "De verzameling portefeuilles die voor elk risiconiveau het hoogste haalbare verwachte rendement geeft." },
+    { "term": "Schijnspreiding", "definition": "Veel producten bezitten die grotendeels dezelfde onderliggende beleggingen hebben, zodat de spreiding minder is dan ze lijkt." },
+    { "term": "Asset allocation", "definition": "De verdeling van een portefeuille over beleggingscategorieën zoals aandelen en obligaties." },
+    { "term": "Beleggingshorizon", "definition": "De periode tot het moment waarop je het belegde geld nodig hebt." },
+    { "term": "Volgorderisico", "definition": "Het risico dat een daling vlak voor het moment waarop je het geld nodig hebt, je dwingt tegen lage koersen te verkopen." },
+    { "term": "Herbalanceren", "definition": "De oorspronkelijke verdeling herstellen door te verkopen wat te groot is geworden en te kopen wat te klein is geworden." },
+    { "term": "Actief en passief beleggen", "definition": "Actief: proberen een benchmark te verslaan. Passief: een index volgen en het marktrendement min kosten halen." }
+  ],
+  "formulas": [
+    {
+      "name": "Risico van een portefeuille van twee beleggingen",
+      "latex": "\\sigma_p^2 = w_1^2\\sigma_1^2 + w_2^2\\sigma_2^2 + 2\\,w_1 w_2\\,\\rho\\,\\sigma_1\\sigma_2",
+      "usage": "Berekent de standaarddeviatie van een portefeuille uit gewichten, standaarddeviaties en correlatie.",
+      "origin": "Markowitz, Portfolio Selection (1952)"
+    }
+  ],
+  "lessons": [
+    { "slug": "introductie", "title": "Een artikel uit 1952", "file": "01-introductie.md", "kind": "intro" },
+    { "slug": "spreiding-en-correlatie", "title": "Spreiding en correlatie", "file": "02-spreiding-en-correlatie.md", "kind": "theory" },
+    { "slug": "verdeling-herbalanceren-actief-passief", "title": "Verdeling, herbalanceren en actief tegenover passief", "file": "03-verdeling-herbalanceren-actief-passief.md", "kind": "theory" },
+    { "slug": "casus-portefeuille-onderhouden", "title": "Casus: een portefeuille onderhouden", "file": "04-casus-portefeuille-onderhouden.md", "kind": "practice" },
+    { "slug": "samenvatting", "title": "Samenvatting en toets", "file": "05-samenvatting.md", "kind": "summary" }
+  ],
+  "timeline": [],
+  "people": []
 }

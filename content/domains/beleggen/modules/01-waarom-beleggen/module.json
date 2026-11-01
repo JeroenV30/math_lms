@@ -3,9 +3,9 @@
   "slug": "waarom-beleggen",
   "title": "Waarom beleggen",
   "part": 1,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "estimated_minutes": 100,
   "prerequisites": [],
   "topics": [
     "compound-interest",
@@ -14,5 +14,91 @@
   ],
   "core_question": "Waarom groeit geld op een spaarrekening vaak niet echt, en wat levert beleggen op lange termijn op?",
   "summary": "Rente en samengestelde rente, inflatie en koopkracht, het verband tussen risico en rendement, en de rol van de beleggingshorizon.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een jaarcijfer van het CBS",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "rente-en-inflatie",
+      "title": "Samengestelde rente en inflatie",
+      "file": "02-rente-en-inflatie.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "risico-en-rendement",
+      "title": "Risico, rendement en tijd",
+      "file": "03-risico-en-rendement.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casus-sanne",
+      "title": "Casus: een reserve voor over 25 jaar",
+      "file": "04-casus-sanne.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en toets",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt het eindbedrag van een bedrag met samengestelde rente berekenen met $K_n = K_0 (1+r)^n$ en uitleggen waarom tijd zwaarder weegt dan het bedrag.",
+    "Je kunt het gemiddelde jaarlijkse rendement bepalen uit een begin- en eindbedrag en de verdubbelingstijd schatten met de regel van 72.",
+    "Je kunt de koopkracht van een bedrag na inflatie berekenen en nominaal van reëel rendement onderscheiden.",
+    "Je kunt de risicopremie uitleggen en aan de hand van historische cijfers (met bron en periode) kritisch interpreteren.",
+    "Je begrijpt waarom het eindresultaat van schommelende rendementen uit het product van groeifactoren volgt, en hoe de beleggingshorizon bepaalt hoeveel schommelingen je kunt dragen."
+  ],
+  "glossary": [
+    {
+      "term": "Samengestelde rente",
+      "definition": "Rente die wordt berekend over het kapitaal inclusief eerder behaalde rente, zodat rente zelf weer rente oplevert."
+    },
+    {
+      "term": "Groeifactor",
+      "definition": "Het getal $1 + r$ waarmee een bedrag in één periode wordt vermenigvuldigd bij een rendement $r$."
+    },
+    {
+      "term": "Inflatie",
+      "definition": "De gemiddelde stijging van het algemene prijsniveau, in Nederland gemeten door het CBS met de consumentenprijsindex."
+    },
+    {
+      "term": "Nominaal rendement",
+      "definition": "Het rendement in euro's, zonder correctie voor inflatie."
+    },
+    {
+      "term": "Reëel rendement",
+      "definition": "Het rendement gecorrigeerd voor inflatie: de groei van de koopkracht."
+    },
+    {
+      "term": "Risicopremie",
+      "definition": "Het extra rendement dat een risicovolle belegging oplevert of wordt verwacht boven dat van een vrijwel risicovrije belegging."
+    },
+    {
+      "term": "Volatiliteit",
+      "definition": "De mate waarin rendementen schommelen, meestal gemeten als de standaarddeviatie van de jaarrendementen."
+    },
+    {
+      "term": "Beleggingshorizon",
+      "definition": "De tijd tussen nu en het moment waarop je het belegde geld nodig hebt."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Samengestelde rente",
+      "latex": "K_n = K_0 \\cdot (1 + r)^n",
+      "usage": "Eindbedrag na $n$ jaar bij rendement $r$ per jaar.",
+      "origin": "Herhaald vermenigvuldigen met de groeifactor $1 + r$."
+    },
+    {
+      "name": "Reëel rendement",
+      "latex": "r_{\\text{reëel}} = \\frac{1 + r_{\\text{nominaal}}}{1 + i} - 1",
+      "usage": "Groei van de koopkracht bij nominaal rendement en inflatie $i$.",
+      "origin": "Quotiënt van de groeifactoren van kapitaal en prijzen."
+    }
+  ]
 }

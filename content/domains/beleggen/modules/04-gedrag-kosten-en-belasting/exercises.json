@@ -1,0 +1,289 @@
+{
+  "exercises": [
+    {
+      "id": "04-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat betekent verliesaversie voor een belegger?",
+      "choices": [
+        "Een verlies voelt zwaarder dan een even grote winst, wat tot verkopen na een daling kan leiden",
+        "Een belegger loopt bewust risico om verliezen te vermijden",
+        "Een winst voelt zwaarder dan een even groot verlies",
+        "Een belegger heeft nooit last van emoties bij koersdalingen"
+      ],
+      "answer": "Een verlies voelt zwaarder dan een even grote winst, wat tot verkopen na een daling kan leiden",
+      "hints": ["Denk aan de bevinding van Kahneman en Tversky: verliezen wegen ongeveer twee keer zo zwaar."],
+      "solution": ["Verliesaversie is de neiging om verliezen zwaarder te wegen dan winsten van dezelfde grootte. Dat maakt verkopen na een daling aantrekkelijk, juist als de koersen laag zijn."],
+      "feedback": [
+        {
+          "answer": "Een winst voelt zwaarder dan een even groot verlies",
+          "message": "Het is andersom: het verlies weegt zwaarder."
+        }
+      ],
+      "topics": ["behaviour"]
+    },
+    {
+      "id": "04-002",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een belegging daalt 30% in waarde. Hoeveel procent moet ze daarna stijgen om weer op de beginwaarde uit te komen? Rond af op twee decimalen (zonder procentteken).",
+      "answer": 42.86,
+      "tolerance": 0.01,
+      "hints": [
+        "Na de daling is de waarde 70% van het begin.",
+        "Je zoekt de factor $x$ met $0{,}7 \\cdot x = 1$."
+      ],
+      "solution": [
+        "$x = 1/0{,}7 \\approx 1{,}4286$",
+        "De stijging is dus ongeveer 42,86%."
+      ],
+      "feedback": [
+        {
+          "answer": 30,
+          "message": "Een stijging van 30% op 70 geeft 91, niet 100. De stijging is berekend over een kleinere waarde."
+        }
+      ],
+      "unit": "%",
+      "topics": ["behaviour"]
+    },
+    {
+      "id": "04-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom is market timing moeilijk vol te houden voor een belegger?",
+      "choices": [
+        "Je moet twee keer het goede moment kiezen: het verkopen en het terugkomen",
+        "Het is bij wet verboden",
+        "Je betaalt over koerswinst altijd het hoogste tarief",
+        "Beurzen zijn alleen op vaste dagen open"
+      ],
+      "answer": "Je moet twee keer het goede moment kiezen: het verkopen en het terugkomen",
+      "hints": ["Wat gebeurt er als je wel op tijd verkoopt, maar te laat terugkomt?"],
+      "solution": ["Wie na een daling verkoopt, moet ook het goede moment vinden om terug te komen. Misser je het herstel, dan lijd je het verlies zonder de winst."],
+      "topics": ["behaviour"]
+    },
+    {
+      "id": "04-004",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een fonds levert in jaar 1 +30% en in jaar 2 −20%. Een belegger legt aan het begin van jaar 1 € 1.000 in en aan het begin van jaar 2 nog € 2.000. Hoeveel euro is zijn belegging aan het eind van jaar 2 waard? Geef een geheel getal.",
+      "answer": 2640,
+      "hints": [
+        "Na jaar 1 is de eerste inleg € 1.300 waard.",
+        "In jaar 2 is € 3.300 belegd."
+      ],
+      "solution": [
+        "Na jaar 1: $1.000 \\cdot 1{,}30 = 1.300$; na bijstorten: $1.300 + 2.000 = 3.300$.",
+        "Na jaar 2: $3.300 \\cdot 0{,}80 = 2.640$.",
+        "Hij heeft € 3.000 ingelegd, dus € 360 verlies, terwijl het fonds zelf over twee jaar 4% steeg."
+      ],
+      "feedback": [
+        {
+          "answer": 1040,
+          "message": "Dat is de waarde als hij alleen de eerste € 1.000 had ingelegd (+4% over twee jaar). Je bent de bijstorting vergeten."
+        }
+      ],
+      "unit": "€",
+      "topics": ["behaviour"]
+    },
+    {
+      "id": "04-005",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je legt eenmalig € 20.000 in en laat het dertig jaar staan. Het bruto rendement is 6% per jaar en de jaarlijkse kosten zijn 1% (reken met een netto rendement van 5%). Hoeveel is het na dertig jaar? Rond af op twee decimalen.",
+      "answer": 86438.85,
+      "tolerance": 0.5,
+      "hints": [
+        "Gebruik $K_n = K_0 (1+r)^n$ met $r = 0{,}05$.",
+        "$1{,}05^{30} \\approx 4{,}3219$."
+      ],
+      "solution": [
+        "$20.000 \\cdot 1{,}05^{30} \\approx 20.000 \\cdot 4{,}3219 \\approx 86.438{,}85$",
+        "Zonder kosten was het $20.000 \\cdot 1{,}06^{30} \\approx 114.869{,}82$."
+      ],
+      "feedback": [
+        {
+          "answer": 114869.82,
+          "message": "Dat is het bedrag zonder kosten, tegen 6% per jaar. Hier moet je met het netto rendement van 5% rekenen."
+        }
+      ],
+      "unit": "€",
+      "topics": ["costs", "compound-interest"]
+    },
+    {
+      "id": "04-006",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom is het kostenpercentage van een beleggingsfonds een bijzondere factor vergeleken met het rendement?",
+      "choices": [
+        "De kosten ken je vooraf en gaan elk jaar af, het rendement is onzeker",
+        "Kosten hebben geen invloed op het eindbedrag, alleen op het jaarlijkse rendement",
+        "Kosten dalen automatisch in jaren met een laag rendement",
+        "Kosten zijn voor alle fondsen gelijk"
+      ],
+      "answer": "De kosten ken je vooraf en gaan elk jaar af, het rendement is onzeker",
+      "hints": ["Denk aan het verschil tussen iets zekers en iets onzekers."],
+      "solution": ["Het rendement kan hoog of laag zijn. De kosten gaan elk jaar af, ook in een slecht jaar, en werken over de jaren door als samengestelde rente."],
+      "feedback": [
+        {
+          "answer": "Kosten hebben geen invloed op het eindbedrag, alleen op het jaarlijkse rendement",
+          "message": "Een lager jaarlijks rendement geeft over de jaren een veel lager eindbedrag: over dertig jaar loopt dat flink op."
+        }
+      ],
+      "topics": ["costs"]
+    },
+    {
+      "id": "04-007",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Stel dat voor box 3 het volgende geldt: een forfaitair rendement van 6,00% op beleggingen, een heffingsvrij vermogen van € 59.357, een tarief van 36%, en dat het belaste voordeel gelijk is aan het forfaitaire rendement vermenigvuldigd met (vermogen − heffingsvrij vermogen) / vermogen. Je hebt op 1 januari € 100.000 aan beleggingen, geen spaargeld en geen schulden. Hoeveel box 3-belasting betaal je? Rond af op twee decimalen.",
+      "answer": 877.89,
+      "tolerance": 0.02,
+      "hints": [
+        "Het forfaitaire rendement is $0{,}06 \\cdot 100.000 = 6.000$.",
+        "Het deel boven het heffingsvrije vermogen is $40.643/100.000$."
+      ],
+      "solution": [
+        "Forfaitair voordeel: 6.000.",
+        "Belast voordeel: $6.000 \\cdot 0{,}40643 = 2.438{,}58$.",
+        "Belasting: $0{,}36 \\cdot 2.438{,}58 \\approx 877{,}89$."
+      ],
+      "feedback": [
+        {
+          "answer": 2160,
+          "message": "Dat is 36% van het hele forfaitaire rendement van € 6.000. Je bent vergeten het heffingsvrije vermogen te verwerken."
+        }
+      ],
+      "unit": "€",
+      "topics": ["tax"]
+    },
+    {
+      "id": "04-008",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In het huidige box 3-stelsel is het forfaitaire rendement op beleggingen 6,00% en het tarief 36%. Je werkelijke rendement over een jaar was 1%. Wat kun je doen?",
+      "choices": [
+        "Een beroep doen op de tegenbewijsregeling en aantonen dat je werkelijke rendement lager was",
+        "Niets: het forfait is dwingend en niet te betwisten",
+        "Het forfait laten vervallen voor alle belastingplichtigen",
+        "Het tarief van 36% naar 0% laten brengen"
+      ],
+      "answer": "Een beroep doen op de tegenbewijsregeling en aantonen dat je werkelijke rendement lager was",
+      "hints": ["Er bestaat een regeling voor wie minder verdiende dan het forfait."],
+      "solution": ["Met de tegenbewijsregeling betaal je belasting over het lagere werkelijke rendement in plaats van over het forfait. Dat geldt volgens de Belastingdienst ook in 2026."],
+      "feedback": [
+        {
+          "answer": "Niets: het forfait is dwingend en niet te betwisten",
+          "message": "Dat gold vroeger, maar sinds de uitspraken van de Hoge Raad kun je aantonen dat je werkelijke rendement lager was."
+        }
+      ],
+      "topics": ["tax"]
+    },
+    {
+      "id": "04-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een wetsvoorstel dat box 3 per 2028 op werkelijk rendement wil baseren is op 12 februari 2026 aangenomen door de Tweede Kamer. De Eerste Kamer heeft er (stand 1 november 2026) nog niet over gestemd. Wat is een juiste conclusie?",
+      "choices": [
+        "Het is nog geen wet: het voorstel kan door de Eerste Kamer nog worden aangenomen, gewijzigd of verworpen",
+        "Het is al wet, want de Tweede Kamer heeft ermee ingestemd",
+        "Het is definitief verworpen",
+        "Het geldt al sinds 1 januari 2026"
+      ],
+      "answer": "Het is nog geen wet: het voorstel kan door de Eerste Kamer nog worden aangenomen, gewijzigd of verworpen",
+      "hints": ["Een wetsvoorstel moet door beide Kamers worden aangenomen."],
+      "solution": ["Een wetsvoorstel wordt pas wet als de Tweede én de Eerste Kamer het aannemen. Tot die tijd geldt het huidige stelsel."],
+      "feedback": [
+        {
+          "answer": "Het is al wet, want de Tweede Kamer heeft ermee ingestemd",
+          "message": "Ook de Eerste Kamer moet instemmen. Pas daarna is het een wet."
+        }
+      ],
+      "topics": ["tax"]
+    },
+    {
+      "id": "04-010",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een bv maakt € 10.000 winst op haar beleggingen. Neem aan dat de vennootschapsbelasting 19% is en dat de rest geheel als dividend aan de eigenaar wordt uitgekeerd, waarover 24,5% box 2-belasting wordt betaald. Hoeveel euro houdt de eigenaar over? Rond af op twee decimalen.",
+      "answer": 6115.5,
+      "tolerance": 0.02,
+      "hints": [
+        "Na de vennootschapsbelasting houdt de bv $10.000 \\cdot 0{,}81$ over.",
+        "Over het dividend betaalt de eigenaar $24{,}5\\%$."
+      ],
+      "solution": [
+        "Na vpb: $10.000 \\cdot 0{,}81 = 8.100$.",
+        "Box 2: $8.100 \\cdot 0{,}245 = 1.984{,}50$.",
+        "De eigenaar houdt $8.100 - 1.984{,}50 = 6.115{,}50$ over."
+      ],
+      "feedback": [
+        {
+          "answer": 8100,
+          "message": "Dat is het bedrag na vennootschapsbelasting. Bij uitkering komt daar nog de box 2-belasting bij."
+        }
+      ],
+      "unit": "€",
+      "topics": ["tax"]
+    },
+    {
+      "id": "04-011",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bv belegt overtollig geld. Wanneer wordt de eigenaar (met een aanmerkelijk belang) over deze beleggingsopbrengst belast in box 2?",
+      "choices": [
+        "Pas wanneer de bv dividend uitkeert of de eigenaar zijn aandelen verkoopt",
+        "Elk jaar over de opbrengst, ook als die in de bv blijft",
+        "Nooit, want de bv betaalt al vennootschapsbelasting",
+        "Alleen bij een verlies van de bv"
+      ],
+      "answer": "Pas wanneer de bv dividend uitkeert of de eigenaar zijn aandelen verkoopt",
+      "hints": ["De eigenaar is belast over wat hij privé ontvangt."],
+      "solution": ["De bv betaalt vennootschapsbelasting over haar winst. Box 2-belasting volgt pas bij uitkering of verkoop van de aandelen: de privéheffing wordt dus uitgesteld."],
+      "feedback": [
+        {
+          "answer": "Nooit, want de bv betaalt al vennootschapsbelasting",
+          "message": "Er zijn twee heffingen: vpb in de bv en box 2 bij uitkering aan de eigenaar."
+        }
+      ],
+      "topics": ["tax"]
+    },
+    {
+      "id": "04-012",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Je legt dertig jaar lang aan het einde van elk jaar € 3.600 in. Fonds A heeft een netto rendement van 5,8% per jaar, fonds B van 4,5%. Gebruik $K = P \\cdot \\frac{(1+r)^n - 1}{r}$. Hoeveel euro meer heb je na dertig jaar bij fonds A? Rond af op hele euro's.",
+      "answer": 55162,
+      "tolerance": 5,
+      "hints": [
+        "Bereken $K$ voor beide rendementen apart en trek ze af.",
+        "$1{,}058^{30} \\approx 5{,}4271$ en $1{,}045^{30} \\approx 3{,}7453$."
+      ],
+      "solution": [
+        "Fonds A: $3.600 \\cdot (1{,}058^{30}-1)/0{,}058 \\approx 274.787$.",
+        "Fonds B: $3.600 \\cdot (1{,}045^{30}-1)/0{,}045 \\approx 219.625$.",
+        "Verschil: ongeveer € 55.162."
+      ],
+      "feedback": [
+        {
+          "answer": 274787,
+          "message": "Dat is het eindbedrag van fonds A alleen. Je moet het verschil met fonds B berekenen."
+        }
+      ],
+      "unit": "€",
+      "topics": ["costs", "compound-interest"]
+    }
+  ]
+}

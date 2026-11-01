@@ -1,0 +1,222 @@
+{
+  "title": "Hoofdstuktoets – Waarom beleggen",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "01-T01",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat is het verschil tussen enkelvoudige en samengestelde rente?",
+      "choices": [
+        "Bij enkelvoudige rente krijg je rente over het oorspronkelijke bedrag, bij samengestelde rente ook over eerder ontvangen rente",
+        "Bij enkelvoudige rente is de rente hoger",
+        "Bij samengestelde rente wordt de rente per maand uitbetaald",
+        "Er is geen verschil bij een looptijd langer dan vijf jaar"
+      ],
+      "answer": "Bij enkelvoudige rente krijg je rente over het oorspronkelijke bedrag, bij samengestelde rente ook over eerder ontvangen rente",
+      "hints": [],
+      "solution": [
+        "Bij samengestelde rente wordt eerder ontvangen rente aan het kapitaal toegevoegd en levert zij zelf rente op."
+      ],
+      "topics": [
+        "compound-interest"
+      ]
+    },
+    {
+      "id": "01-T02",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Je zet € 8.000 weg tegen 3% samengestelde rente per jaar. Hoeveel is het na 15 jaar? Rond af op twee decimalen.",
+      "answer": 12463.74,
+      "tolerance": 0.01,
+      "hints": [],
+      "solution": [
+        "$8000 \\cdot 1{,}03^{15} \\approx 8000 \\cdot 1{,}557967 \\approx 12463{,}74$"
+      ],
+      "topics": [
+        "compound-interest"
+      ],
+      "unit": "€"
+    },
+    {
+      "id": "01-T03",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Volgens de regel van 72 verdubbelt een bedrag bij 4% rente per jaar ongeveer na hoeveel jaar?",
+      "answer": 18,
+      "hints": [],
+      "solution": [
+        "$72/4 = 18$ jaar."
+      ],
+      "unit": "jaar",
+      "topics": [
+        "compound-interest"
+      ]
+    },
+    {
+      "id": "01-T04",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bij een inflatie van 3% per jaar: hoeveel is € 2.000 over 20 jaar waard in koopkracht van nu? Rond af op twee decimalen.",
+      "answer": 1107.35,
+      "tolerance": 0.01,
+      "hints": [],
+      "solution": [
+        "$2000 / 1{,}03^{20} \\approx 2000 / 1{,}80611 \\approx 1107{,}35$"
+      ],
+      "topics": [
+        "inflation"
+      ],
+      "unit": "€"
+    },
+    {
+      "id": "01-T05",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een belegging levert 6% nominaal per jaar op bij 2% inflatie. Bereken het reële rendement met de exacte formule, in procenten afgerond op twee decimalen (zonder het procentteken).",
+      "answer": 3.92,
+      "tolerance": 0.006,
+      "hints": [],
+      "solution": [
+        "$1{,}06/1{,}02 - 1 \\approx 0{,}039216$, dus 3,92%."
+      ],
+      "topics": [
+        "inflation"
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "01-T06",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is de risicopremie van aandelen?",
+      "choices": [
+        "Het extra rendement dat beleggers in aandelen verwachten of hebben behaald boven dat van een vrijwel risicovrije belegging",
+        "De kosten die een bank rekent voor het kopen van aandelen",
+        "De garantie dat aandelen meer opleveren dan sparen",
+        "De winst die een bedrijf per aandeel uitkeert"
+      ],
+      "answer": "Het extra rendement dat beleggers in aandelen verwachten of hebben behaald boven dat van een vrijwel risicovrije belegging",
+      "hints": [],
+      "solution": [
+        "De risicopremie is de vergoeding voor het dragen van schommelingen: het verschil tussen het rendement op aandelen en op vrijwel risicovrij staatspapier of sparen."
+      ],
+      "topics": [
+        "risk-return"
+      ],
+      "feedback": [
+        {
+          "answer": "De garantie dat aandelen meer opleveren dan sparen",
+          "message": "Een premie is een gemiddelde of verwachting, geen garantie."
+        }
+      ]
+    },
+    {
+      "id": "01-T07",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een belegging van € 6.000 groeit in 12 jaar naar € 9.000. Welk constant jaarlijks rendement hoort daarbij? Geef het percentage afgerond op twee decimalen (zonder het procentteken).",
+      "answer": 3.44,
+      "tolerance": 0.006,
+      "hints": [],
+      "solution": [
+        "$r = 1{,}5^{1/12} - 1 \\approx 0{,}034366$, dus 3,44%."
+      ],
+      "topics": [
+        "compound-interest"
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "01-T08",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een belegger heeft in jaar 1 een rendement van +50% en in jaar 2 een rendement van −50%. Wat is het gevolg voor zijn vermogen over twee jaar?",
+      "choices": [
+        "Het vermogen is 25% lager dan aan het begin",
+        "Het vermogen is gelijk gebleven",
+        "Het vermogen is 50% lager dan aan het begin",
+        "Het vermogen is 25% hoger dan aan het begin"
+      ],
+      "answer": "Het vermogen is 25% lager dan aan het begin",
+      "hints": [
+        "Vermenigvuldig de groeifactoren $1{,}5$ en $0{,}5$."
+      ],
+      "solution": [
+        "$1{,}5 \\cdot 0{,}5 = 0{,}75$: het vermogen is 25% lager."
+      ],
+      "topics": [
+        "risk-return"
+      ],
+      "feedback": [
+        {
+          "answer": "Het vermogen is gelijk gebleven",
+          "message": "Dat volgt uit het gemiddelde van de rendementen. Het eindresultaat volgt uit het product van de groeifactoren."
+        }
+      ]
+    },
+    {
+      "id": "01-T09",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een ondernemer heeft over twee jaar € 30.000 nodig voor een verbouwing. Wat is, volgens de logica van de beleggingshorizon, het belangrijkste bezwaar tegen het beleggen van dit geld in aandelen?",
+      "choices": [
+        "Een daling vlak voor het moment van opname laat weinig tijd om te herstellen",
+        "Aandelen leveren nooit meer op dan sparen",
+        "Beleggen is wettelijk verboden voor korte looptijden",
+        "Aandelen hebben geen inflatiebescherming nodig"
+      ],
+      "answer": "Een daling vlak voor het moment van opname laat weinig tijd om te herstellen",
+      "hints": [
+        "Denk aan het verband tussen horizon en schommelingen."
+      ],
+      "solution": [
+        "Bij een korte horizon kan een koersdaling niet worden uitgezeten; de kans op een verlies is over korte perioden groot."
+      ],
+      "topics": [
+        "risk-return"
+      ],
+      "feedback": [
+        {
+          "answer": "Aandelen leveren nooit meer op dan sparen",
+          "message": "Op lange termijn hebben aandelen historisch meer opgeleverd; het bezwaar is de korte horizon."
+        }
+      ]
+    },
+    {
+      "id": "01-T10",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 4,
+      "question": "Een belegger legt € 5.000 weg tegen 5% nominaal rendement per jaar gedurende 10 jaar. De inflatie is 2% per jaar. Hoeveel is het eindbedrag waard in koopkracht van nu? Rond af op twee decimalen.",
+      "answer": 6681.3,
+      "tolerance": 0.02,
+      "hints": [
+        "Gebruik het reële rendement of deel door de groeifactor van de prijzen."
+      ],
+      "solution": [
+        "$5000 \\cdot (1{,}05/1{,}02)^{10} \\approx 5000 \\cdot 1{,}33626 \\approx 6681{,}30$"
+      ],
+      "topics": [
+        "inflation",
+        "compound-interest"
+      ],
+      "feedback": [
+        {
+          "answer": 8144.47,
+          "message": "Dit is het nominale eindbedrag. Gevraagd is de koopkracht in euro's van nu, dus deel door $1{,}02^{10}$."
+        }
+      ],
+      "unit": "€"
+    }
+  ]
+}

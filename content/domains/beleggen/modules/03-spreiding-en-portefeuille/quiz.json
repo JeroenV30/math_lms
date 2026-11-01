@@ -1,0 +1,220 @@
+{
+  "title": "Hoofdstuktoets – Spreiding en portefeuille",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "03-T01",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke gebeurtenis is een voorbeeld van specifiek risico, dat je door spreiding grotendeels kunt wegnemen?",
+      "choices": [
+        "Een fraudezaak bij één bedrijf waarin je belegt",
+        "Een diepe recessie in de hele economie",
+        "Een plotselinge stijging van de rente voor alle obligaties",
+        "Een financiële crisis die alle beurzen raakt"
+      ],
+      "answer": "Een fraudezaak bij één bedrijf waarin je belegt",
+      "hints": [],
+      "solution": ["Een fraudezaak treft één bedrijf. De andere gebeurtenissen raken (bijna) de hele markt: dat is marktrisico."],
+      "topics": ["diversification"]
+    },
+    {
+      "id": "03-T02",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Twee beleggingen hebben allebei een standaarddeviatie van 15% en een onderlinge correlatie van 1. Je verdeelt je geld half-half. Wat is de standaarddeviatie van de portefeuille, in procenten (geheel getal, zonder procentteken)?",
+      "answer": 15,
+      "hints": [],
+      "solution": [
+        "$\\sigma_p^2 = 0{,}25 \\cdot 0{,}0225 + 0{,}25 \\cdot 0{,}0225 + 2 \\cdot 0{,}25 \\cdot 1 \\cdot 0{,}0225 = 0{,}0225$",
+        "$\\sigma_p = 0{,}15$: bij een correlatie van 1 haalt spreiden geen risico weg."
+      ],
+      "feedback": [
+        {
+          "answer": 7.5,
+          "message": "Je hebt de standaarddeviatie gehalveerd. Bij een correlatie van 1 bewegen de beleggingen volmaakt gelijk op en blijft het risico gelijk aan dat van de onderdelen."
+        }
+      ],
+      "topics": ["diversification"]
+    },
+    {
+      "id": "03-T03",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een portefeuille bestaat voor 70% uit een belegging met een verwacht rendement van 8% per jaar en voor 30% uit een belegging met een verwacht rendement van 3% per jaar. Wat is het verwachte rendement van de portefeuille, in procenten (zonder procentteken)?",
+      "answer": 6.5,
+      "tolerance": 0.001,
+      "hints": [],
+      "solution": ["Het verwachte rendement is een gewogen gemiddelde: $0{,}7 \\cdot 8\\% + 0{,}3 \\cdot 3\\% = 5{,}6\\% + 0{,}9\\% = 6{,}5\\%$."],
+      "feedback": [
+        {
+          "answer": 5.5,
+          "message": "Dat is het ongewogen gemiddelde van 8% en 3%. Weeg de rendementen met 0,7 en 0,3."
+        }
+      ],
+      "topics": ["diversification", "risk-return"]
+    },
+    {
+      "id": "03-T04",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Twee beleggingen hebben hetzelfde verwachte rendement en dezelfde standaarddeviatie. Bij welke correlatie levert half-half beleggen het laagste portefeuillerisico op?",
+      "choices": [
+        "Een correlatie van 0",
+        "Een correlatie van 1",
+        "Een correlatie van 0,5",
+        "De correlatie maakt voor het risico niets uit"
+      ],
+      "answer": "Een correlatie van 0",
+      "hints": [],
+      "solution": ["Hoe lager de correlatie, hoe kleiner de laatste term in de formule en dus hoe lager het risico. Van deze keuzes is 0 de laagste."],
+      "feedback": [
+        {
+          "answer": "De correlatie maakt voor het risico niets uit",
+          "message": "De correlatie zit in de formule voor het portefeuillerisico. Ze beïnvloedt het risico, niet het verwachte rendement."
+        }
+      ],
+      "topics": ["diversification"]
+    },
+    {
+      "id": "03-T05",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Waarom hoort geld dat over een jaar nodig is meestal in een rustiger verdeling dan geld dat pas over dertig jaar nodig is?",
+      "choices": [
+        "Bij een korte horizon is er geen tijd om een flinke koersdaling te laten herstellen (volgorderisico)",
+        "Bij een lange horizon zijn aandelen gegarandeerd winstgevend",
+        "Voor korte doelen bestaan geen beleggingsfondsen",
+        "Bij een lange horizon vervalt het marktrisico"
+      ],
+      "answer": "Bij een korte horizon is er geen tijd om een flinke koersdaling te laten herstellen (volgorderisico)",
+      "hints": [],
+      "solution": ["Een daling vlak voor het moment waarop je het geld nodig hebt, dwingt tot verkopen tegen lage koersen. Over een lange periode is er tijd om te herstellen, al is dat geen garantie."],
+      "feedback": [
+        {
+          "answer": "Bij een lange horizon zijn aandelen gegarandeerd winstgevend",
+          "message": "Een lange horizon geeft meer kans op herstel, maar nooit een garantie."
+        }
+      ],
+      "topics": ["asset-allocation"]
+    },
+    {
+      "id": "03-T06",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een portefeuille van € 140.000 is verdeeld in 60% aandelen (€ 84.000) en 40% obligaties (€ 56.000). Na een jaar zijn de aandelen 10% gedaald en de obligaties 5% gestegen. Je wilt terug naar 60/40 door alleen te herschikken. Voor hoeveel euro koop je aandelen bij (en verkoop je obligaties)? Geef een geheel getal.",
+      "answer": 5040,
+      "hints": [],
+      "solution": [
+        "Aandelen: $84.000 \\cdot 0{,}90 = 75.600$. Obligaties: $56.000 \\cdot 1{,}05 = 58.800$. Totaal: 134.400.",
+        "Doel voor aandelen: $0{,}60 \\cdot 134.400 = 80.640$.",
+        "Bijkopen: $80.640 - 75.600 = 5.040$."
+      ],
+      "feedback": [
+        {
+          "answer": 8400,
+          "message": "Dat is de koersdaling van de aandelen. Het doel is 60% van het nieuwe totaal van € 134.400."
+        }
+      ],
+      "unit": "€",
+      "topics": ["asset-allocation"]
+    },
+    {
+      "id": "03-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de belangrijkste reden om een portefeuille periodiek te herbalanceren?",
+      "choices": [
+        "Het risiconiveau blijft dicht bij wat je koos, ook als de ene categorie harder stijgt dan de andere",
+        "Het verhoogt in elke periode het rendement",
+        "Het voorkomt dat je ooit een verlies lijdt",
+        "Het verlaagt de transactiekosten"
+      ],
+      "answer": "Het risiconiveau blijft dicht bij wat je koos, ook als de ene categorie harder stijgt dan de andere",
+      "hints": [],
+      "solution": ["Herbalanceren is vooral een instrument voor risico. Het rendement kan hoger of lager uitvallen, en transacties kosten juist geld."],
+      "feedback": [
+        {
+          "answer": "Het verhoogt in elke periode het rendement",
+          "message": "In een markt die lang in dezelfde richting beweegt, verlaagt herbalanceren het rendement juist iets."
+        }
+      ],
+      "topics": ["asset-allocation"]
+    },
+    {
+      "id": "03-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Uit een SPIVA-rapport blijkt dat over tien jaar 85% van de actieve aandelenfondsen in een categorie achterbleef bij de passende index, na kosten. Welke conclusie is op grond van dit cijfer verantwoord?",
+      "choices": [
+        "De meeste actieve fondsen bleven achter, maar een minderheid versloeg de index",
+        "Geen enkel actief fonds kan de index verslaan",
+        "Het achterblijven is bewezen toeval",
+        "Actieve fondsen zijn altijd duurder dan de winst die ze maken"
+      ],
+      "answer": "De meeste actieve fondsen bleven achter, maar een minderheid versloeg de index",
+      "hints": [],
+      "solution": ["Het cijfer zegt dat 85% achterbleef, dus 15% niet. Het zegt niets over toeval of over alle perioden en categorieën."],
+      "feedback": [
+        {
+          "answer": "Geen enkel actief fonds kan de index verslaan",
+          "message": "Een minderheid (hier 15%) deed dat wel over deze periode. Het gaat om de meerderheid, niet om alle fondsen."
+        }
+      ],
+      "topics": ["costs", "diversification"]
+    },
+    {
+      "id": "03-T09",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Belegging A heeft een standaarddeviatie van 20%, belegging B van 10%, en de correlatie is 0,5. Je verdeelt je geld half-half. Wat is de standaarddeviatie van de portefeuille, in procenten, afgerond op twee decimalen (zonder procentteken)?",
+      "answer": 13.23,
+      "tolerance": 0.01,
+      "hints": [],
+      "solution": [
+        "$\\sigma_p^2 = 0{,}25 \\cdot 0{,}04 + 0{,}25 \\cdot 0{,}01 + 2 \\cdot 0{,}25 \\cdot 0{,}5 \\cdot 0{,}02$",
+        "$= 0{,}01 + 0{,}0025 + 0{,}005 = 0{,}0175$",
+        "$\\sigma_p = \\sqrt{0{,}0175} \\approx 0{,}1323$, dus 13,23%."
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Dat is het gewogen gemiddelde van de standaarddeviaties. Het risico van een portefeuille is lager, tenzij de correlatie 1 is."
+        }
+      ],
+      "topics": ["diversification"]
+    },
+    {
+      "id": "03-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "In een financiële crisis stijgt de correlatie tussen veel soorten beleggingen tegelijk sterk. Wat is het gevolg voor een belegger die denkt goed gespreid te zijn?",
+      "choices": [
+        "Spreiding beschermt dan minder dan op grond van de gewone correlaties te verwachten was, maar blijft het risico verkleinen",
+        "Spreiding werkt niet meer en is dus nutteloos",
+        "Het verwachte rendement van de portefeuille stijgt",
+        "Het specifieke risico neemt toe tot het marktrisico"
+      ],
+      "answer": "Spreiding beschermt dan minder dan op grond van de gewone correlaties te verwachten was, maar blijft het risico verkleinen",
+      "hints": [],
+      "solution": ["Een hogere correlatie betekent minder uitmiddeling. Spreiding verkleint het risico, maar elimineert het niet en werkt in een crisis zwakker."],
+      "feedback": [
+        {
+          "answer": "Spreiding werkt niet meer en is dus nutteloos",
+          "message": "Zolang de correlatie onder 1 blijft, verkleint spreiding het risico nog steeds, al minder."
+        }
+      ],
+      "topics": ["diversification", "risk-return"]
+    }
+  ]
+}

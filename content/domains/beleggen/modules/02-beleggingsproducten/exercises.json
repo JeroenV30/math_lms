@@ -1,0 +1,212 @@
+{
+  "exercises": [
+    {
+      "id": "02-001",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een aandeel staat op € 40 en keert dit jaar € 1,00 dividend per aandeel uit. Hoeveel procent is het dividendrendement? Geef het percentage zonder procentteken.",
+      "answer": 2.5,
+      "tolerance": 0.01,
+      "hints": ["Deel het dividend door de koers."],
+      "solution": ["$1/40 = 0{,}025$", "Het dividendrendement is 2,5%."],
+      "topics": ["stocks"],
+      "feedback": [
+        { "answer": 40, "message": "Dat is de koers zelf. Het dividendrendement is het dividend gedeeld door de koers: $1/40$." }
+      ]
+    },
+    {
+      "id": "02-002",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een aandeel heeft een koers van € 36 en een winst per aandeel van € 2,25 over het laatste jaar. Wat is de koers-winstverhouding (K/W)?",
+      "answer": 16,
+      "hints": ["De K/W is de koers gedeeld door de winst per aandeel."],
+      "solution": ["$36/2{,}25 = 16$", "Je betaalt zestien keer de jaarwinst."],
+      "topics": ["stocks"],
+      "feedback": [
+        { "answer": 6, "message": "Dat is het winstrendement als percentage (afgerond), de omgekeerde verhouding. De K/W is koers gedeeld door winst, niet winst gedeeld door koers." }
+      ]
+    },
+    {
+      "id": "02-003",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je koopt een aandeel voor € 50. Een jaar later staat de koers op € 53 en heb je € 1,50 dividend ontvangen. Wat is het totaalrendement over dat jaar in procenten? Geef het getal zonder procentteken.",
+      "answer": 9,
+      "tolerance": 0.01,
+      "hints": ["Tel koerswinst en dividend op en deel door de beginkoers."],
+      "solution": ["Koerswinst: $53 - 50 = 3$", "Totaal: $(3 + 1{,}5)/50 = 0{,}09$, dus 9%."],
+      "topics": ["stocks"],
+      "feedback": [
+        { "answer": 6, "message": "Dit is alleen de koerswinst ($3/50$). Het dividend hoort er ook bij." }
+      ]
+    },
+    {
+      "id": "02-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat bezit je als je een aandeel van een onderneming koopt?",
+      "choices": [
+        "Een deel van het eigen vermogen van de onderneming, zonder garantie op dividend of terugbetaling",
+        "Een lening aan de onderneming met een vaste rente en een aflossing op een vaste datum",
+        "Een recht op terugbetaling van je inleg door de onderneming op elk moment",
+        "Een garantie op een jaarlijks dividend"
+      ],
+      "answer": "Een deel van het eigen vermogen van de onderneming, zonder garantie op dividend of terugbetaling",
+      "hints": [],
+      "solution": ["Een aandeel is mede-eigendom. Je krijgt een deel van de winst als het bedrijf uitkeert, en je kunt eruit door te verkopen aan een andere belegger."],
+      "topics": ["stocks"],
+      "feedback": [
+        { "answer": "Een lening aan de onderneming met een vaste rente en een aflossing op een vaste datum", "message": "Dat beschrijft een obligatie. Een aandeelhouder is eigenaar, geen schuldeiser." }
+      ]
+    },
+    {
+      "id": "02-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een obligatie heeft een nominale waarde van € 2.000 en een couponrente van 2,5% per jaar. Hoeveel euro coupon ontvang je per jaar?",
+      "answer": 50,
+      "unit": "€",
+      "hints": ["De couponrente is een percentage van de nominale waarde."],
+      "solution": ["$2000 \\cdot 0{,}025 = 50$"],
+      "topics": ["bonds"],
+      "feedback": [
+        { "answer": 500, "message": "Je hebt 25% in plaats van 2,5% genomen. Reken met $0{,}025$." }
+      ]
+    },
+    {
+      "id": "02-006",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een obligatie heeft een nominale waarde van € 1.000, een couponrente van 3% (€ 30 per jaar) en een resterende looptijd van 5 jaar. De marktrente voor vergelijkbare obligaties is 5%. Wat is de koers van de obligatie? Rond af op twee decimalen.",
+      "answer": 913.41,
+      "tolerance": 0.02,
+      "unit": "€",
+      "hints": [
+        "Verdisconteer elke coupon en de aflossing met de groeifactor $1{,}05$.",
+        "De aflossing is $1000/1{,}05^5 \\approx 783{,}53$.",
+        "De coupons samen zijn ongeveer € 129,88 waard."
+      ],
+      "solution": [
+        "Coupons: $30/1{,}05 + 30/1{,}05^2 + 30/1{,}05^3 + 30/1{,}05^4 + 30/1{,}05^5 \\approx 129{,}88$",
+        "Aflossing: $1000/1{,}05^5 \\approx 783{,}53$",
+        "Koers: $129{,}88 + 783{,}53 \\approx 913{,}41$"
+      ],
+      "topics": ["bonds"],
+      "feedback": [
+        { "answer": 900, "message": "Dit is een lineaire schatting (2 procentpunt over 5 jaar over € 1.000). De koers is de contante waarde van alle betalingen, dus de berekening is iets anders." },
+        { "answer": 1000, "message": "Dat zou de koers zijn als de marktrente gelijk was aan de coupon (3%). Hier is de marktrente hoger, dus de koers lager." }
+      ]
+    },
+    {
+      "id": "02-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "De marktrente daalt. Wat gebeurt er, bij verder gelijke omstandigheden, met de koers van een bestaande obligatie met een vaste coupon?",
+      "choices": [
+        "De koers stijgt, omdat de vaste coupon aantrekkelijker is dan die van nieuwe obligaties",
+        "De koers daalt, omdat het rendement van obligaties lager is geworden",
+        "De koers verandert niet, omdat de coupon vast is",
+        "De koers stijgt alleen bij obligaties met een korte looptijd"
+      ],
+      "answer": "De koers stijgt, omdat de vaste coupon aantrekkelijker is dan die van nieuwe obligaties",
+      "hints": ["Vergelijk de oude coupon met wat een nieuwe obligatie nu betaalt."],
+      "solution": ["Bij een lagere marktrente is de vaste coupon van de bestaande obligatie relatief hoog. Kopers willen daarvoor een hogere prijs betalen."],
+      "topics": ["bonds"],
+      "feedback": [
+        { "answer": "De koers verandert niet, omdat de coupon vast is", "message": "De coupon is vast, maar de koers niet: die weerspiegelt wat de coupon waard is bij de huidige marktrente." }
+      ]
+    },
+    {
+      "id": "02-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is kredietrisico bij een obligatie?",
+      "choices": [
+        "Het risico dat de uitgever de rente of aflossing niet of niet op tijd betaalt",
+        "Het risico dat de koers daalt doordat de marktrente stijgt",
+        "Het risico dat de inflatie hoger uitvalt dan de coupon",
+        "Het risico dat je de obligatie niet kunt verkopen aan de beurs"
+      ],
+      "answer": "Het risico dat de uitgever de rente of aflossing niet of niet op tijd betaalt",
+      "hints": [],
+      "solution": ["Kredietrisico is het risico op wanbetaling door de uitgever. Het verschilt van renterisico, het risico op koersverlies door een stijgende marktrente."],
+      "topics": ["bonds"],
+      "feedback": [
+        { "answer": "Het risico dat de koers daalt doordat de marktrente stijgt", "message": "Dat is renterisico. Kredietrisico gaat over de vraag of de uitgever kan betalen." }
+      ]
+    },
+    {
+      "id": "02-009",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een fonds heeft een TER van 0,25% per jaar. Je hebt € 20.000 in dat fonds. Hoeveel euro aan lopende kosten wordt er ongeveer per jaar verrekend?",
+      "answer": 50,
+      "unit": "€",
+      "hints": ["De TER is een percentage van het belegde vermogen."],
+      "solution": ["$20000 \\cdot 0{,}0025 = 50$"],
+      "topics": ["costs"],
+      "feedback": [
+        { "answer": 500, "message": "Je hebt 2,5% genomen. 0,25% is $0{,}0025$." }
+      ]
+    },
+    {
+      "id": "02-010",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een ETF heeft een biedkoers van € 49,90 en een laatkoers van € 50,10. De middenkoers is € 50,00. Hoeveel procent van de middenkoers is de spread? Geef het getal zonder procentteken.",
+      "answer": 0.4,
+      "tolerance": 0.001,
+      "hints": ["Bereken eerst het verschil tussen laat- en biedkoers."],
+      "solution": ["Spread: $50{,}10 - 49{,}90 = 0{,}20$", "$0{,}20/50 = 0{,}004$, dus 0,4%."],
+      "topics": ["costs"],
+      "feedback": [
+        { "answer": 0.2, "message": "Dat is de spread in euro's. Deel door de middenkoers (€ 50) om een percentage te krijgen." }
+      ]
+    },
+    {
+      "id": "02-011",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je belegt € 10.000 voor 30 jaar in een fonds met een bruto rendement van 6% per jaar en een TER van 1,5%. Neem aan dat het jaarlijkse rendement na kosten 4,5% is. Wat is de waarde na 30 jaar? Rond af op hele euro's.",
+      "answer": 37453,
+      "tolerance": 1,
+      "unit": "€",
+      "hints": ["Gebruik $K_n = K_0 \\cdot (1+r)^n$ met $r = 0{,}045$.", "$1{,}045^{30} \\approx 3{,}7453$"],
+      "solution": ["$10000 \\cdot 1{,}045^{30} \\approx 10000 \\cdot 3{,}7453 \\approx 37453$"],
+      "topics": ["costs", "compound-interest"],
+      "feedback": [
+        { "answer": 57435, "message": "Dat is de waarde zonder kosten (6% per jaar). Reken met het rendement na kosten van 4,5%." }
+      ]
+    },
+    {
+      "id": "02-012",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Mila belegt € 15.000 voor 25 jaar tegen 6% bruto per jaar. Zonder kosten groeit dat naar € 64.378, bij een fonds met 1,5% kosten per jaar (netto 4,5%) naar € 45.082. Welk percentage van de bruto winst gaat bij dit dure fonds op aan kosten? Rond af op een heel getal, zonder procentteken.",
+      "answer": 39,
+      "hints": ["Bruto winst: eindbedrag zonder kosten min de inleg.", "Kosten: eindbedrag zonder kosten min eindbedrag met kosten."],
+      "solution": [
+        "Bruto winst: $64378 - 15000 = 49378$",
+        "Kosten: $64378 - 45082 = 19296$",
+        "$19296/49378 \\approx 0{,}39$, dus ongeveer 39%."
+      ],
+      "topics": ["costs"],
+      "feedback": [
+        { "answer": 30, "message": "Je deelt de kosten waarschijnlijk door het eindbedrag zonder kosten ($19296/64378 \\approx 30\\%$). Vergelijk de kosten met de winst, niet met het eindbedrag." }
+      ]
+    }
+  ]
+}

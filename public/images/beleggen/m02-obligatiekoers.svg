@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Arial, sans-serif" font-size="13">
+<title>Koers van een obligatie met 3% coupon bij verschillende marktrentes</title>
+<rect width="640" height="380" fill="#ffffff"/>
+<line x1="70" y1="320.0" x2="600" y2="320.0" stroke="#d9dee3"/><text x="62" y="324.0" text-anchor="end" fill="#1f2933">700</text>
+<line x1="70" y1="275.0" x2="600" y2="275.0" stroke="#d9dee3"/><text x="62" y="279.0" text-anchor="end" fill="#1f2933">800</text>
+<line x1="70" y1="230.0" x2="600" y2="230.0" stroke="#d9dee3"/><text x="62" y="234.0" text-anchor="end" fill="#1f2933">900</text>
+<line x1="70" y1="185.0" x2="600" y2="185.0" stroke="#d9dee3"/><text x="62" y="189.0" text-anchor="end" fill="#1f2933">1000</text>
+<line x1="70" y1="140.0" x2="600" y2="140.0" stroke="#d9dee3"/><text x="62" y="144.0" text-anchor="end" fill="#1f2933">1100</text>
+<line x1="70" y1="95.0" x2="600" y2="95.0" stroke="#d9dee3"/><text x="62" y="99.0" text-anchor="end" fill="#1f2933">1200</text>
+<line x1="70" y1="50.0" x2="600" y2="50.0" stroke="#d9dee3"/><text x="62" y="54.0" text-anchor="end" fill="#1f2933">1300</text>
+<line x1="70.0" y1="320" x2="70.0" y2="325" stroke="#1f2933"/><text x="70.0" y="342" text-anchor="middle" fill="#1f2933">1%</text>
+<line x1="158.3" y1="320" x2="158.3" y2="325" stroke="#1f2933"/><text x="158.3" y="342" text-anchor="middle" fill="#1f2933">2%</text>
+<line x1="246.7" y1="320" x2="246.7" y2="325" stroke="#1f2933"/><text x="246.7" y="342" text-anchor="middle" fill="#1f2933">3%</text>
+<line x1="335.0" y1="320" x2="335.0" y2="325" stroke="#1f2933"/><text x="335.0" y="342" text-anchor="middle" fill="#1f2933">4%</text>
+<line x1="423.3" y1="320" x2="423.3" y2="325" stroke="#1f2933"/><text x="423.3" y="342" text-anchor="middle" fill="#1f2933">5%</text>
+<line x1="511.7" y1="320" x2="511.7" y2="325" stroke="#1f2933"/><text x="511.7" y="342" text-anchor="middle" fill="#1f2933">6%</text>
+<line x1="600.0" y1="320" x2="600.0" y2="325" stroke="#1f2933"/><text x="600.0" y="342" text-anchor="middle" fill="#1f2933">7%</text>
+<line x1="70" y1="320" x2="600" y2="320" stroke="#1f2933" stroke-width="1.5"/><line x1="70" y1="50" x2="70" y2="320" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="70" y1="185.0" x2="600" y2="185.0" stroke="#1f2933" stroke-dasharray="5 4"/><text x="78" y="179.0" fill="#1f2933" font-size="12">nominale waarde 1000</text>
+<polyline fill="none" stroke="#3b5bdb" stroke-width="3" points="70.0,141.3 92.1,147.1 114.2,152.7 136.2,158.3 158.3,163.8 180.4,169.2 202.5,174.5 224.6,179.8 246.7,185.0 268.8,190.1 290.8,195.2 312.9,200.1 335.0,205.0 357.1,209.9 379.2,214.6 401.2,219.3 423.3,224.0 445.4,228.5 467.5,233.0 489.6,237.5 511.7,241.9 533.8,246.2 555.8,250.5 577.9,254.7 600.0,258.8"/>
+<polyline fill="none" stroke="#9c6b30" stroke-width="3" points="70.0,22.6 92.1,46.4 114.2,69.1 136.2,90.8 158.3,111.4 180.4,131.1 202.5,149.9 224.6,167.9 246.7,185.0 268.8,201.4 290.8,217.0 312.9,231.9 335.0,246.2 357.1,259.8 379.2,272.8 401.2,285.3 423.3,297.2 445.4,308.5 467.5,319.4 489.6,329.9 511.7,339.8 533.8,349.4 555.8,358.5 577.9,367.3 600.0,375.7"/>
+<circle cx="423.3" cy="224.0" r="5" fill="#3b5bdb"/><text x="431.3" y="216.0" fill="#3b5bdb" font-size="12">913 (5 jaar)</text>
+<circle cx="423.3" cy="297.2" r="5" fill="#9c6b30"/><text x="431.3" y="313.2" fill="#9c6b30" font-size="12">751 (20 jaar)</text>
+<text x="500" y="75" fill="#3b5bdb" font-weight="bold">looptijd 5 jaar</text><text x="150" y="75" fill="#9c6b30" font-weight="bold">looptijd 20 jaar</text>
+<text x="335" y="362" text-anchor="middle" fill="#1f2933">marktrente (rendement op vergelijkbare nieuwe obligaties)</text>
+<text transform="translate(20 185) rotate(-90)" text-anchor="middle" fill="#1f2933">koers per 1000 nominaal (euro)</text>
+</svg>

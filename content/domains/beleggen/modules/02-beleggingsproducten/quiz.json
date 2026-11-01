@@ -1,0 +1,172 @@
+{
+  "title": "Hoofdstuktoets – Beleggingsproducten",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "02-T01",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat is een obligatie?",
+      "choices": [
+        "Een schuldbewijs: de uitgever leent geld en betaalt coupon en lost op de einddatum af",
+        "Een bewijs van mede-eigendom van de uitgever, met recht op een deel van de winst",
+        "Een fonds dat uitsluitend in aandelen belegt",
+        "Een contract waarbij de uitgever het rendement van een index garandeert"
+      ],
+      "answer": "Een schuldbewijs: de uitgever leent geld en betaalt coupon en lost op de einddatum af",
+      "hints": [],
+      "solution": ["Een obligatie is een lening aan een uitgever. De obligatiehouder is schuldeiser; dat onderscheidt hem van de aandeelhouder, die eigenaar is."],
+      "topics": ["bonds"],
+      "feedback": [
+        { "answer": "Een bewijs van mede-eigendom van de uitgever, met recht op een deel van de winst", "message": "Dat beschrijft een aandeel." }
+      ]
+    },
+    {
+      "id": "02-T02",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een aandeel heeft een koers van € 80 en keert € 2,40 dividend per aandeel uit. Wat is het dividendrendement in procenten? Geef het getal zonder procentteken.",
+      "answer": 3,
+      "tolerance": 0.01,
+      "hints": [],
+      "solution": ["$2{,}40/80 = 0{,}03$, dus 3%."],
+      "topics": ["stocks"]
+    },
+    {
+      "id": "02-T03",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een aandeel heeft een koers van € 90 en een winst per aandeel van € 6. Wat is de koers-winstverhouding?",
+      "answer": 15,
+      "hints": [],
+      "solution": ["$90/6 = 15$"],
+      "topics": ["stocks"]
+    },
+    {
+      "id": "02-T04",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "De marktrente stijgt van 3% naar 5%. Twee bestaande obligaties hebben dezelfde coupon van 3% en dezelfde uitgever. De ene heeft nog 2 jaar looptijd, de andere nog 20 jaar. Welke zegt het sterkst in koers?",
+      "choices": [
+        "De obligatie met 20 jaar looptijd, omdat je langer aan de lage coupon vastzit",
+        "De obligatie met 2 jaar looptijd, omdat die het eerst wordt afgelost",
+        "Beide evenveel, omdat de coupon gelijk is",
+        "Geen van beide, want de uitgever blijft betalen"
+      ],
+      "answer": "De obligatie met 20 jaar looptijd, omdat je langer aan de lage coupon vastzit",
+      "hints": [],
+      "solution": ["Hoe langer de looptijd, hoe langer de lage coupon blijft lopen terwijl nieuwe obligaties meer betalen, dus hoe sterker de koersdaling."],
+      "topics": ["bonds"],
+      "feedback": [
+        { "answer": "Geen van beide, want de uitgever blijft betalen", "message": "De betalingen blijven gelijk, maar hun waarde bij een hogere marktrente daalt, en daarmee de koers." }
+      ]
+    },
+    {
+      "id": "02-T05",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je koopt een aandeel voor € 20. Een jaar later is de koers € 19 en heb je € 1,20 dividend ontvangen. Wat is het totaalrendement over dat jaar in procenten? Geef het getal zonder procentteken.",
+      "answer": 1,
+      "tolerance": 0.01,
+      "hints": [],
+      "solution": ["Koersresultaat: $19 - 20 = -1$", "Totaal: $(-1 + 1{,}2)/20 = 0{,}01$, dus 1%."],
+      "topics": ["stocks"],
+      "feedback": [
+        { "answer": -5, "message": "Dat is alleen het koersresultaat ($-1/20$). Het ontvangen dividend telt ook mee." },
+        { "answer": 6, "message": "Dat is alleen het dividendrendement ($1{,}20/20$). Het koersverlies telt ook mee." }
+      ]
+    },
+    {
+      "id": "02-T06",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is het specifieke extra risico van een ETF met synthetische replicatie ten opzichte van een ETF met fysieke replicatie?",
+      "choices": [
+        "Tegenpartijrisico: de bank met wie het ruilcontract is gesloten kan haar verplichting niet nakomen",
+        "Het fonds mag geen dividend uitkeren",
+        "De ETF kan niet op de beurs worden verhandeld",
+        "De ETF heeft altijd hogere lopende kosten"
+      ],
+      "answer": "Tegenpartijrisico: de bank met wie het ruilcontract is gesloten kan haar verplichting niet nakomen",
+      "hints": [],
+      "solution": ["Bij synthetische replicatie koopt het fonds de onderliggende beleggingen niet zelf maar gebruikt het een swap met een bank. Daardoor komt er tegenpartijrisico bij."],
+      "topics": ["funds"]
+    },
+    {
+      "id": "02-T07",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is het verschil tussen een accumulerend en een uitkerend fonds?",
+      "choices": [
+        "Een accumulerend fonds herbelegt het ontvangen dividend, een uitkerend fonds keert het uit aan de beleggers",
+        "Een accumulerend fonds belegt alleen in aandelen, een uitkerend fonds alleen in obligaties",
+        "Een accumulerend fonds rekent geen kosten, een uitkerend fonds wel",
+        "Een accumulerend fonds volgt een index, een uitkerend fonds niet"
+      ],
+      "answer": "Een accumulerend fonds herbelegt het ontvangen dividend, een uitkerend fonds keert het uit aan de beleggers",
+      "hints": [],
+      "solution": ["Het verschil zit in wat er met het dividend gebeurt. Het bruto totaalrendement is in beide gevallen koerswinst plus dividend."],
+      "topics": ["funds"]
+    },
+    {
+      "id": "02-T08",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een obligatie heeft een nominale waarde van € 1.000, een couponrente van 3% en nog 2 jaar looptijd. De marktrente is 5%. Wat is de koers? Rond af op twee decimalen.",
+      "answer": 962.81,
+      "tolerance": 0.02,
+      "unit": "€",
+      "hints": [],
+      "solution": [
+        "Coupons en aflossing: $30/1{,}05 + 1030/1{,}05^2$",
+        "$\\approx 28{,}57 + 934{,}24 = 962{,}81$"
+      ],
+      "topics": ["bonds"],
+      "feedback": [
+        { "answer": 1000, "message": "Dat zou de koers zijn bij een marktrente gelijk aan de coupon (3%). Bij 5% is de koers lager." }
+      ]
+    },
+    {
+      "id": "02-T09",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Je belegt € 8.000 voor 20 jaar in een fonds met een bruto rendement van 7% per jaar en een TER van 0,6%. Neem aan dat het rendement na kosten 6,4% per jaar is. Wat is de waarde na 20 jaar? Rond af op hele euro's.",
+      "answer": 27664,
+      "tolerance": 1,
+      "unit": "€",
+      "hints": [],
+      "solution": ["$8000 \\cdot 1{,}064^{20} \\approx 8000 \\cdot 3{,}4581 \\approx 27664$"],
+      "topics": ["costs", "compound-interest"],
+      "feedback": [
+        { "answer": 30957, "message": "Dat is de waarde bij 7% zonder kosten. Reken met het rendement na kosten van 6,4%." }
+      ]
+    },
+    {
+      "id": "02-T10",
+      "type": "numeric",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Je belegt € 10.000 voor 25 jaar tegen een bruto rendement van 5% per jaar. Bij kosten van 1,2% per jaar is het rendement na kosten 3,8% per jaar. Welk percentage van de bruto winst gaat op aan kosten? Rond af op een heel getal, zonder procentteken.",
+      "answer": 35,
+      "hints": [],
+      "solution": [
+        "Zonder kosten: $10000 \\cdot 1{,}05^{25} \\approx 33864$, winst 23864.",
+        "Met kosten: $10000 \\cdot 1{,}038^{25} \\approx 25406$.",
+        "Kosten: $33864 - 25406 \\approx 8458$, en $8458/23864 \\approx 0{,}354$, dus ongeveer 35%."
+      ],
+      "topics": ["costs", "compound-interest"],
+      "feedback": [
+        { "answer": 25, "message": "Dat is de kosten gedeeld door het eindbedrag zonder kosten ($8458/33864$). Vergelijk de kosten met de bruto winst." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "exercises": [
+    {
+      "id": "03-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een belegger zet al haar geld in aandelen van één bedrijf. Welk risico neemt ze weg door daarnaast in negenentwintig andere bedrijven in verschillende sectoren te beleggen?",
+      "choices": [
+        "Een groot deel van het specifieke risico, het risico van één bedrijf",
+        "Al het risico, ook het marktrisico",
+        "Alleen het marktrisico",
+        "Geen enkel risico, want het verwachte rendement daalt even hard"
+      ],
+      "answer": "Een groot deel van het specifieke risico, het risico van één bedrijf",
+      "hints": ["Denk aan wat uitmiddelt als je veel bedrijven bezit: een tegenvaller bij één bedrijf of een recessie?"],
+      "solution": [
+        "Specifiek risico (een mislukt product, een fraudezaak) treft één bedrijf en middelt uit over meerdere bedrijven.",
+        "Marktrisico (een recessie, een renteschok) treft vrijwel alle bedrijven en blijft dus bestaan."
+      ],
+      "feedback": [
+        {
+          "answer": "Al het risico, ook het marktrisico",
+          "message": "Een recessie raakt bijna alle bedrijven tegelijk. Dat marktrisico verdwijnt niet door spreiding binnen één markt."
+        }
+      ],
+      "topics": ["diversification"]
+    },
+    {
+      "id": "03-002",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Twee beleggingen hebben allebei een standaarddeviatie van 20% per jaar en een onderlinge correlatie van 0. Je verdeelt je geld half-half. Wat is de standaarddeviatie van de portefeuille, in procenten, afgerond op twee decimalen (zonder procentteken)?",
+      "answer": 14.14,
+      "tolerance": 0.01,
+      "hints": [
+        "Bij $\\rho = 0$ valt de laatste term van de formule weg.",
+        "$\\sigma_p^2 = 0{,}5^2 \\cdot 0{,}20^2 + 0{,}5^2 \\cdot 0{,}20^2$."
+      ],
+      "solution": [
+        "$\\sigma_p^2 = 0{,}25 \\cdot 0{,}04 + 0{,}25 \\cdot 0{,}04 = 0{,}02$",
+        "$\\sigma_p = \\sqrt{0{,}02} \\approx 0{,}1414$, dus 14,14%."
+      ],
+      "feedback": [
+        {
+          "answer": 20,
+          "message": "Dat zou gelden bij een correlatie van 1. Bij een correlatie van 0 is de portefeuille rustiger dan de onderdelen."
+        },
+        {
+          "answer": 10,
+          "message": "Je hebt het gemiddelde van $\\sigma_p^2$ genomen zonder de wortel te trekken, of de standaarddeviaties gehalveerd. Bereken $\\sqrt{0{,}02}$."
+        }
+      ],
+      "topics": ["diversification", "risk-return"]
+    },
+    {
+      "id": "03-003",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Twee beleggingen hebben allebei een standaarddeviatie van 20% en een correlatie van 0,5. Je verdeelt je geld half-half. Wat is de standaarddeviatie van de portefeuille, in procenten, afgerond op twee decimalen (zonder procentteken)?",
+      "answer": 17.32,
+      "tolerance": 0.01,
+      "hints": [
+        "Gebruik $\\sigma_p^2 = w_1^2\\sigma_1^2 + w_2^2\\sigma_2^2 + 2w_1w_2\\rho\\sigma_1\\sigma_2$.",
+        "De laatste term is $2 \\cdot 0{,}25 \\cdot 0{,}5 \\cdot 0{,}04$."
+      ],
+      "solution": [
+        "$\\sigma_p^2 = 0{,}01 + 0{,}01 + 0{,}01 = 0{,}03$",
+        "$\\sigma_p = \\sqrt{0{,}03} \\approx 0{,}1732$, dus 17,32%."
+      ],
+      "feedback": [
+        {
+          "answer": 14.14,
+          "message": "Dat is de uitkomst bij een correlatie van 0. Hier is de correlatie 0,5, dus de laatste term telt mee."
+        }
+      ],
+      "topics": ["diversification"]
+    },
+    {
+      "id": "03-004",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Belegging A heeft een standaarddeviatie van 20%, belegging B van 10%, en de correlatie is 0,3. Je verdeelt je geld half-half. Wat is de standaarddeviatie van de portefeuille, in procenten, afgerond op twee decimalen (zonder procentteken)?",
+      "answer": 12.45,
+      "tolerance": 0.01,
+      "hints": [
+        "Let op: de twee standaarddeviaties verschillen nu.",
+        "De laatste term is $2 \\cdot 0{,}5 \\cdot 0{,}5 \\cdot 0{,}3 \\cdot 0{,}20 \\cdot 0{,}10$."
+      ],
+      "solution": [
+        "$\\sigma_p^2 = 0{,}25 \\cdot 0{,}04 + 0{,}25 \\cdot 0{,}01 + 2 \\cdot 0{,}25 \\cdot 0{,}3 \\cdot 0{,}02$",
+        "$= 0{,}01 + 0{,}0025 + 0{,}003 = 0{,}0155$",
+        "$\\sigma_p = \\sqrt{0{,}0155} \\approx 0{,}1245$, dus 12,45%."
+      ],
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Dat is het gewogen gemiddelde van 20% en 10%. Dat geldt voor het verwachte rendement, niet voor het risico: daarvoor hoort de correlatie in de formule."
+        }
+      ],
+      "topics": ["diversification", "risk-return"]
+    },
+    {
+      "id": "03-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een portefeuille ligt onder de efficiënte rand van Markowitz. Wat betekent dat?",
+      "choices": [
+        "Met dezelfde beleggingen is hetzelfde verwachte rendement te halen met minder risico, of meer rendement met hetzelfde risico",
+        "De portefeuille heeft geen enkel risico",
+        "De portefeuille is zeker gespreid over alle categorieën",
+        "Het verwachte rendement is negatief"
+      ],
+      "answer": "Met dezelfde beleggingen is hetzelfde verwachte rendement te halen met minder risico, of meer rendement met hetzelfde risico",
+      "hints": ["De efficiënte rand geeft voor elk risiconiveau het hoogste haalbare verwachte rendement."],
+      "solution": [
+        "Een portefeuille onder de rand is niet efficiënt: een andere combinatie van dezelfde beleggingen doet het beter op rendement, risico of beide."
+      ],
+      "topics": ["diversification", "risk-return"]
+    },
+    {
+      "id": "03-006",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Iemand bezit vijf beleggingsfondsen en denkt dat ze daarom goed gespreid is. Alle vijf fondsen bezitten grotendeels dezelfde grote Amerikaanse technologiebedrijven. Wat is hier aan de hand?",
+      "choices": [
+        "Schijnspreiding: het aantal fondsen zegt weinig, het gaat om wat erin zit",
+        "Perfecte spreiding, want er zijn vijf producten",
+        "Te veel spreiding, waardoor de kosten stijgen",
+        "Marktrisico, dat door meer fondsen te kopen verdwijnt"
+      ],
+      "answer": "Schijnspreiding: het aantal fondsen zegt weinig, het gaat om wat erin zit",
+      "hints": ["Kijk naar de onderliggende bezittingen, niet naar het aantal producten."],
+      "solution": [
+        "Fondsen met grotendeels dezelfde bedrijven bewegen bijna gelijk op (hoge correlatie). Het risico daalt dan nauwelijks."
+      ],
+      "feedback": [
+        {
+          "answer": "Perfecte spreiding, want er zijn vijf producten",
+          "message": "Het aantal producten is geen maat voor spreiding. Fondsen met dezelfde bezittingen hebben een correlatie dicht bij 1."
+        }
+      ],
+      "topics": ["diversification"]
+    },
+    {
+      "id": "03-007",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Je spaart voor een aanbetaling op een huis die je over twee jaar nodig hebt. Waarom past dit geld meestal slecht in een portefeuille met vrijwel alleen aandelen?",
+      "choices": [
+        "Een flinke koersdaling vlak voor je het geld nodig hebt, kan niet meer herstellen: volgorderisico",
+        "Aandelen leveren op korte termijn altijd negatief rendement op",
+        "Aandelen mag je maximaal twee jaar bezitten",
+        "Bij een korte horizon verdwijnt het marktrisico"
+      ],
+      "answer": "Een flinke koersdaling vlak voor je het geld nodig hebt, kan niet meer herstellen: volgorderisico",
+      "hints": ["Denk aan wat er gebeurt als je moet verkopen terwijl de koersen laag staan."],
+      "solution": [
+        "Over een korte periode kunnen aandelen sterk dalen en is er geen tijd om te herstellen. Je verkoopt dan tegen een lage koers: dat is volgorderisico."
+      ],
+      "feedback": [
+        {
+          "answer": "Aandelen leveren op korte termijn altijd negatief rendement op",
+          "message": "Zo is het niet: over korte perioden is het rendement onzeker, niet per se negatief. Dat onzekere is het probleem als je het geld op een vaste datum nodig hebt."
+        }
+      ],
+      "topics": ["asset-allocation"]
+    },
+    {
+      "id": "03-008",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een portefeuille van € 50.000 is verdeeld in 60% aandelen (€ 30.000) en 40% obligaties (€ 20.000). Na een jaar zijn de aandelen 10% gestegen en de obligaties gelijk gebleven. Voor welk bedrag in euro's moet je aandelen verkopen (en obligaties kopen) om weer op 60/40 te komen? Geef een geheel getal.",
+      "answer": 1200,
+      "hints": [
+        "Bereken eerst de nieuwe waarde van beide delen en het totaal.",
+        "Het doel voor aandelen is 60% van het nieuwe totaal."
+      ],
+      "solution": [
+        "Aandelen: $30.000 \\cdot 1{,}10 = 33.000$; obligaties blijven 20.000; totaal 53.000.",
+        "Doel voor aandelen: $0{,}60 \\cdot 53.000 = 31.800$.",
+        "Te verkopen: $33.000 - 31.800 = 1.200$."
+      ],
+      "feedback": [
+        {
+          "answer": 3000,
+          "message": "Dat is de koerswinst op de aandelen. Het doel is echter 60% van het nieuwe totaal (€ 53.000), niet het oude bedrag van € 30.000."
+        }
+      ],
+      "unit": "€",
+      "topics": ["asset-allocation"]
+    },
+    {
+      "id": "03-009",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een portefeuille bestaat uit € 54.000 aan aandelen en € 24.000 aan obligaties. Het doel is 60% aandelen en 40% obligaties. Je verkoopt niets en stort alleen bij in obligaties. Hoeveel euro moet je bijstorten om precies op 60/40 uit te komen? Geef een geheel getal.",
+      "answer": 12000,
+      "hints": [
+        "De aandelen blijven € 54.000 en moeten 60% van het nieuwe totaal worden.",
+        "Totaal = 54.000 / 0,60."
+      ],
+      "solution": [
+        "Nieuw totaal: $54.000 / 0{,}60 = 90.000$.",
+        "Nu is er $54.000 + 24.000 = 78.000$, dus bijstorten: $90.000 - 78.000 = 12.000$.",
+        "Controle: obligaties worden 36.000, en dat is 40% van 90.000."
+      ],
+      "feedback": [
+        {
+          "answer": 36000,
+          "message": "Dat is het gewenste bedrag in obligaties na bijstorten. Je moet bijstorten wat daarvan nog ontbreekt: € 36.000 − € 24.000."
+        }
+      ],
+      "unit": "€",
+      "topics": ["asset-allocation"]
+    },
+    {
+      "id": "03-010",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Alle beleggers samen bezitten de hele markt. Wat volgt daar volgens het rekenkundige argument van Sharpe uit voor het gemiddelde rendement van alle actieve beleggers samen, na kosten?",
+      "choices": [
+        "Het ligt onder het marktrendement, met precies het kostenverschil met passief",
+        "Het ligt boven het marktrendement, omdat actieve beleggers beter informeren",
+        "Het is gelijk aan het marktrendement, ook na kosten",
+        "Daar valt niets over te zeggen zonder de namen van de beheerders"
+      ],
+      "answer": "Het ligt onder het marktrendement, met precies het kostenverschil met passief",
+      "hints": ["Vóór kosten halen passieve en actieve beleggers samen precies het marktrendement."],
+      "solution": [
+        "Passieve beleggers halen het marktrendement. Alle beleggers samen ook. Dus halen actieve beleggers samen eveneens het marktrendement, vóór kosten.",
+        "Na kosten ligt hun gemiddelde lager, met het verschil in kosten."
+      ],
+      "feedback": [
+        {
+          "answer": "Het is gelijk aan het marktrendement, ook na kosten",
+          "message": "Dat geldt vóór kosten. Actieve beleggers betalen gemiddeld meer kosten, dus na kosten ligt hun gemiddelde lager."
+        }
+      ],
+      "topics": ["diversification", "costs"]
+    },
+    {
+      "id": "03-011",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een portefeuille bestaat uit € 72.000 aan aandelen en € 28.000 aan obligaties. Het doel is 60% aandelen en 40% obligaties. Je verkoopt niets en stort alleen bij in obligaties. Hoeveel euro moet je bijstorten? Geef een geheel getal.",
+      "answer": 20000,
+      "hints": [
+        "Het totaal moet worden: aandelen gedeeld door 0,60.",
+        "Trek daarvan de huidige € 100.000 af."
+      ],
+      "solution": [
+        "Nieuw totaal: $72.000 / 0{,}60 = 120.000$.",
+        "Bijstorten: $120.000 - 100.000 = 20.000$.",
+        "Controle: obligaties worden 48.000, en dat is 40% van 120.000."
+      ],
+      "feedback": [
+        {
+          "answer": 48000,
+          "message": "Dat is het gewenste bedrag in obligaties na het bijstorten. Je moet bijstorten wat daarvan nog ontbreekt: € 48.000 − € 28.000."
+        }
+      ],
+      "unit": "€",
+      "topics": ["asset-allocation"]
+    },
+    {
+      "id": "03-012",
+      "type": "decimal",
+      "mode": "challenge",
+      "difficulty": 4,
+      "question": "Een portefeuille bestaat voor 70% uit aandelen (standaarddeviatie 18%) en voor 30% uit obligaties (standaarddeviatie 6%); de correlatie is 0,2. Wat is de standaarddeviatie van de portefeuille, in procenten, afgerond op twee decimalen (zonder procentteken)?",
+      "answer": 13.08,
+      "tolerance": 0.01,
+      "hints": [
+        "Gebruik $w_1 = 0{,}7$, $w_2 = 0{,}3$, $\\sigma_1 = 0{,}18$, $\\sigma_2 = 0{,}06$, $\\rho = 0{,}2$.",
+        "De laatste term is $2 \\cdot 0{,}7 \\cdot 0{,}3 \\cdot 0{,}2 \\cdot 0{,}18 \\cdot 0{,}06$."
+      ],
+      "solution": [
+        "$\\sigma_p^2 = 0{,}49 \\cdot 0{,}0324 + 0{,}09 \\cdot 0{,}0036 + 0{,}0009072$",
+        "$= 0{,}015876 + 0{,}000324 + 0{,}0009072 = 0{,}0171072$",
+        "$\\sigma_p = \\sqrt{0{,}0171072} \\approx 0{,}1308$, dus 13,08%."
+      ],
+      "feedback": [
+        {
+          "answer": 14.4,
+          "message": "Dat is het gewogen gemiddelde van de standaarddeviaties (0,7 · 18 + 0,3 · 6). Door de correlatie van 0,2 ligt het risico lager."
+        }
+      ],
+      "topics": ["diversification", "asset-allocation"]
+    }
+  ]
+}

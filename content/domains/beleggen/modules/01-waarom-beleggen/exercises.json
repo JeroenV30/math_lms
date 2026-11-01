@@ -1,0 +1,338 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Je zet € 5.000 weg tegen 4% samengestelde rente per jaar. Hoeveel is het na 10 jaar? Rond af op twee decimalen.",
+      "answer": 7401.22,
+      "tolerance": 0.01,
+      "hints": [
+        "Gebruik $K_n = K_0 \\cdot (1+r)^n$.",
+        "De groeifactor is $1{,}04$."
+      ],
+      "solution": [
+        "$5000 \\cdot 1{,}04^{10}$",
+        "$= 5000 \\cdot 1{,}480244 \\approx 7401{,}22$"
+      ],
+      "topics": [
+        "compound-interest"
+      ],
+      "feedback": [
+        {
+          "answer": 7000,
+          "message": "Dat is het bedrag bij enkelvoudige rente (€ 200 per jaar). Bij samengestelde rente krijg je ook rente over de rente."
+        },
+        {
+          "answer": 7200,
+          "message": "Dat is $5000 \\cdot (1 + 10 \\cdot 0{,}044)$. Bereken $1{,}04^{10}$ in plaats van de rente op te tellen."
+        }
+      ],
+      "unit": "€"
+    },
+    {
+      "id": "01-002",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een bedrag groeit 25 jaar lang met 3% per jaar. Met welke factor is het in die tijd vermenigvuldigd? Rond af op drie decimalen.",
+      "answer": 2.094,
+      "tolerance": 0.0006,
+      "hints": [
+        "Bereken $1{,}03^{25}$."
+      ],
+      "solution": [
+        "$1{,}03^{25} \\approx 2{,}0938$",
+        "Afgerond op drie decimalen: $2{,}094$."
+      ],
+      "topics": [
+        "compound-interest"
+      ],
+      "feedback": [
+        {
+          "answer": 1.75,
+          "message": "Dat is $1 + 25 \\cdot 0{,}03$, de groei bij enkelvoudige rente. Gebruik de macht $1{,}03^{25}$."
+        }
+      ]
+    },
+    {
+      "id": "01-003",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een bedrag van € 10.000 groeit in 20 jaar met een constant jaarlijks rendement naar € 20.000. Hoeveel procent per jaar is dat rendement? Geef het percentage afgerond op twee decimalen (zonder het procentteken).",
+      "answer": 3.53,
+      "tolerance": 0.006,
+      "hints": [
+        "Gebruik $r = (K_n/K_0)^{1/n} - 1$.",
+        "Bereken $2^{1/20}$, bijvoorbeeld als $2^{0{,}05}$."
+      ],
+      "solution": [
+        "$K_n/K_0 = 2$",
+        "$r = 2^{1/20} - 1 \\approx 0{,}03526$",
+        "Dat is ongeveer 3,53% per jaar."
+      ],
+      "topics": [
+        "compound-interest"
+      ],
+      "feedback": [
+        {
+          "answer": 5,
+          "message": "Je deelt 100% door 20 jaar, maar dat negeert rente over rente. Gebruik de twintigste machtswortel van 2."
+        },
+        {
+          "answer": 3.6,
+          "message": "Dat is de uitkomst van de regel van 72 ($72/20$), een benadering. De exacte berekening geeft 3,53%."
+        }
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "01-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Volgens de regel van 72 verdubbelt een bedrag bij 6% rente per jaar ongeveer na hoeveel jaar?",
+      "answer": 12,
+      "hints": [
+        "Deel 72 door het rentepercentage."
+      ],
+      "solution": [
+        "$72/6 = 12$ jaar."
+      ],
+      "feedback": [
+        {
+          "answer": 17,
+          "message": "Dat is 100 gedeeld door 6. De regel van 72 deelt 72 door het percentage."
+        }
+      ],
+      "unit": "jaar",
+      "topics": [
+        "compound-interest"
+      ]
+    },
+    {
+      "id": "01-005",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je begint met € 2.000 en stort aan het einde van elk jaar € 1.000 bij. De rente is 5% per jaar. Hoeveel heb je direct na de storting aan het einde van jaar 3? Rond af op twee decimalen.",
+      "answer": 5467.75,
+      "tolerance": 0.01,
+      "hints": [
+        "Bereken het saldo jaar voor jaar: saldo maal $1{,}05$, plus € 1.000."
+      ],
+      "solution": [
+        "Jaar 1: $2000 \\cdot 1{,}05 + 1000 = 3100$",
+        "Jaar 2: $3100 \\cdot 1{,}05 + 1000 = 4255$",
+        "Jaar 3: $4255 \\cdot 1{,}05 + 1000 = 5467{,}75$"
+      ],
+      "topics": [
+        "compound-interest"
+      ],
+      "feedback": [
+        {
+          "answer": 5000,
+          "message": "Dat is alleen de inleg (€ 2.000 plus drie keer € 1.000). De rente is er nog niet bij."
+        }
+      ],
+      "unit": "€"
+    },
+    {
+      "id": "01-006",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "De inflatie bedraagt 2,5% per jaar. Hoeveel is € 1.000 over 10 jaar waard in koopkracht van nu? Rond af op twee decimalen.",
+      "answer": 781.2,
+      "tolerance": 0.01,
+      "hints": [
+        "Deel door de groeifactor van de prijzen: $1{,}025^{10}$."
+      ],
+      "solution": [
+        "$1{,}025^{10} \\approx 1{,}28008$",
+        "$1000 / 1{,}28008 \\approx 781{,}20$"
+      ],
+      "topics": [
+        "compound-interest"
+      ],
+      "feedback": [
+        {
+          "answer": 750,
+          "message": "Je trekt 10 keer 2,5% van € 1.000 af. Maar elk jaar werkt de inflatie op het kleinere bedrag door; deel door $1{,}025^{10}$."
+        },
+        {
+          "answer": 1280.08,
+          "message": "Dit is het bedrag dat je over 10 jaar nodig hebt om dezelfde goederen te kopen. Gevraagd is de waarde van € 1.000 dan, dus delen in plaats van vermenigvuldigen."
+        }
+      ],
+      "unit": "€"
+    },
+    {
+      "id": "01-007",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een rekening geeft 5% rente per jaar terwijl de inflatie 3% is. Bereken het reële rendement met de exacte formule, in procenten afgerond op twee decimalen (zonder het procentteken).",
+      "answer": 1.94,
+      "tolerance": 0.006,
+      "hints": [
+        "Gebruik $1{,}05/1{,}03 - 1$."
+      ],
+      "solution": [
+        "$1{,}05/1{,}03 \\approx 1{,}019417$",
+        "Het reële rendement is ongeveer 1,94%."
+      ],
+      "topics": [
+        "compound-interest"
+      ],
+      "feedback": [
+        {
+          "answer": 2,
+          "message": "Dat is de benadering $5 - 3$. De exacte formule geeft 1,94%."
+        }
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "01-008",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een rekening geeft 3,2% rente op jaarbasis terwijl de inflatie 10,0% is. Wat is het reële rendement in procenten, afgerond op twee decimalen? Gebruik een minteken bij verlies.",
+      "answer": -6.18,
+      "tolerance": 0.006,
+      "hints": [
+        "Gebruik $1{,}032/1{,}10 - 1$."
+      ],
+      "solution": [
+        "$1{,}032/1{,}10 \\approx 0{,}93818$",
+        "Het reële rendement is ongeveer $-6{,}18\\%$."
+      ],
+      "topics": [
+        "compound-interest"
+      ],
+      "feedback": [
+        {
+          "answer": -6.8,
+          "message": "Dat is de benadering $3{,}2 - 10{,}0$. Bij zo'n hoge inflatie is de exacte formule beter."
+        },
+        {
+          "answer": 6.18,
+          "message": "Let op het teken: de koopkracht daalt, dus het reële rendement is negatief."
+        }
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "01-009",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Je belegt € 10.000. In jaar 1 stijgt de waarde met 20%, in jaar 2 daalt ze met 20%. Hoeveel euro is de waarde na twee jaar?",
+      "answer": 9600,
+      "hints": [
+        "Vermenigvuldig met $1{,}20$ en daarna met $0{,}80$."
+      ],
+      "solution": [
+        "$10000 \\cdot 1{,}20 = 12000$",
+        "$12000 \\cdot 0{,}80 = 9600$"
+      ],
+      "feedback": [
+        {
+          "answer": 10000,
+          "message": "Je middelt de rendementen (+20% en −20% is gemiddeld 0%). De tweede verandering werkt op het hogere bedrag van € 12.000."
+        }
+      ],
+      "unit": "€",
+      "topics": [
+        "risk-return"
+      ]
+    },
+    {
+      "id": "01-010",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Het reële jaarrendement van aandelen was over een lange periode 5,2% en dat van kortlopend staatspapier 0,5%. Hoeveel procentpunt is de risicopremie (aandelen min staatspapier)? Geef één decimaal.",
+      "answer": 4.7,
+      "tolerance": 0.05,
+      "hints": [
+        "De premie is het verschil tussen de twee rendementen."
+      ],
+      "solution": [
+        "$5{,}2 - 0{,}5 = 4{,}7$ procentpunt."
+      ],
+      "topics": [
+        "risk-return"
+      ],
+      "feedback": [
+        {
+          "answer": 5.7,
+          "message": "Je telt op in plaats van af te trekken."
+        }
+      ]
+    },
+    {
+      "id": "01-011",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom is een historisch gemiddelde risicopremie van aandelen geen garantie voor de toekomst?",
+      "choices": [
+        "Omdat de premie in de toekomst altijd lager zal zijn",
+        "Omdat het een gemiddelde is over perioden die sterk verschillen, en het toekomstige rendement onzeker blijft",
+        "Omdat de cijfers van onderzoekers altijd onbetrouwbaar zijn",
+        "Omdat de premie alleen bestaat in een enkel land"
+      ],
+      "answer": "Omdat het een gemiddelde is over perioden die sterk verschillen, en het toekomstige rendement onzeker blijft",
+      "hints": [
+        "Denk aan wat een gemiddelde over een eeuw verbergt."
+      ],
+      "solution": [
+        "Een gemiddelde over 125 jaar verbergt perioden van grote winst en groot verlies. Je weet niet in welke periode je belegt, en de toekomstige premie kan hoger of lager uitvallen."
+      ],
+      "topics": [
+        "risk-return"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat de premie in de toekomst altijd lager zal zijn",
+          "message": "Er is geen reden om aan te nemen dat de premie altijd lager wordt; ze is onzeker, niet noodzakelijk lager."
+        },
+        {
+          "answer": "Omdat de cijfers van onderzoekers altijd onbetrouwbaar zijn",
+          "message": "De cijfers zijn zorgvuldig gereconstrueerd, al zijn er voorbehouden zoals overlevingsbias. Het punt is dat het verleden geen garantie is."
+        }
+      ]
+    },
+    {
+      "id": "01-012",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Sanne zet € 20.000 weg voor 25 jaar tegen 5% nominaal rendement per jaar. De inflatie is 2,5% per jaar. Hoeveel is het eindbedrag waard in koopkracht van nu? Rond af op hele euro's.",
+      "answer": 36531,
+      "tolerance": 2,
+      "hints": [
+        "Het reële rendement is $1{,}05/1{,}025 - 1$. Je kunt ook het nominale eindbedrag delen door $1{,}025^{25}$."
+      ],
+      "solution": [
+        "$20000 \\cdot 1{,}05^{25} \\approx 67727$",
+        "$1{,}025^{25} \\approx 1{,}8539$",
+        "$67727 / 1{,}8539 \\approx 36531$"
+      ],
+      "topics": [
+        "compound-interest"
+      ],
+      "feedback": [
+        {
+          "answer": 67727,
+          "message": "Dit is het nominale eindbedrag. Gevraagd is de koopkracht in euro's van nu: deel door $1{,}025^{25}$."
+        }
+      ],
+      "unit": "€"
+    }
+  ]
+}

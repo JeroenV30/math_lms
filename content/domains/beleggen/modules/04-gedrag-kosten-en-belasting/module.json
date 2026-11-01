@@ -3,9 +3,9 @@
   "slug": "gedrag-kosten-en-belasting",
   "title": "Gedrag, kosten en belasting",
   "part": 2,
-  "status": "planned",
-  "estimated_difficulty": 2,
-  "estimated_minutes": 90,
+  "status": "available",
+  "estimated_difficulty": 3,
+  "estimated_minutes": 100,
   "prerequisites": [
     3
   ],
@@ -15,6 +15,42 @@
     "tax"
   ],
   "core_question": "Waarom halen beleggers gemiddeld een lager rendement dan de fondsen waarin ze beleggen?",
-  "summary": "Denkfouten van beleggers, het effect van kosten over lange tijd, box 3 en beleggen via een bv.",
-  "lessons": []
+  "summary": "Denkfouten van beleggers, het effect van kosten over lange tijd, box 3 (huidig stelsel en voorgestelde overgang) en beleggen via een bv.",
+  "learning_goals": [
+    "Je kunt verliesaversie, overmoed, kuddegedrag en market timing herkennen en uitleggen hoe ze rendement kosten.",
+    "Je kunt de behavior gap uitleggen en narekenen met het verschil tussen tijdgewogen en geldgewogen rendement.",
+    "Je kunt met samengestelde rente berekenen hoeveel kosten over dertig jaar uitmaken.",
+    "Je kunt de box 3-heffing over 2026 berekenen en de tegenbewijsregeling uitleggen.",
+    "Je kunt onderscheiden wat bij de overgang naar belasting op werkelijk rendement al wet is en wat nog voorstel is.",
+    "Je kunt op hoofdlijnen beschrijven hoe vennootschapsbelasting en box 2 samenwerken bij beleggen via een bv."
+  ],
+  "glossary": [
+    { "term": "Verliesaversie", "definition": "De neiging om een verlies zwaarder te laten wegen dan een winst van dezelfde omvang." },
+    { "term": "Overmoed", "definition": "Het overschatten van je eigen kennis of voorspellend vermogen, wat tot te veel handelen leidt." },
+    { "term": "Kuddegedrag", "definition": "Doen wat anderen doen: kopen als iedereen koopt en verkopen als iedereen verkoopt." },
+    { "term": "Market timing", "definition": "Proberen vóór een daling uit en vóór een stijging weer in de markt te stappen." },
+    { "term": "Behavior gap", "definition": "Het verschil tussen het rendement van een fonds en het gemiddelde rendement van de beleggers erin." },
+    { "term": "Tijdgewogen en geldgewogen rendement", "definition": "Tijdgewogen: het rendement van één euro die er de hele periode in zit. Geldgewogen: het rendement waarin telt wanneer hoeveel geld erin zat." },
+    { "term": "Forfaitair rendement", "definition": "Het door de overheid vastgestelde rendement waarover in box 3 belasting wordt geheven, los van wat je werkelijk verdiende." },
+    { "term": "Tegenbewijsregeling", "definition": "Regeling waarmee je kunt aantonen dat je werkelijke rendement in box 3 lager was dan het forfaitaire rendement." },
+    { "term": "Vennootschapsbelasting", "definition": "Belasting die een bv betaalt over haar winst." },
+    { "term": "Box 2", "definition": "Het deel van de inkomstenbelasting voor inkomsten uit een aanmerkelijk belang, zoals dividend uit je eigen bv." }
+  ],
+  "formulas": [
+    {
+      "name": "Eindbedrag met samengestelde rente",
+      "latex": "K_n = K_0 (1+r)^n",
+      "usage": "Het eindbedrag na $n$ jaar bij een netto rendement $r$; gebruik het om het effect van kosten door te rekenen.",
+      "origin": "Module 1"
+    }
+  ],
+  "lessons": [
+    { "slug": "introductie", "title": "Een rapport over het verschil tussen een fonds en zijn beleggers", "file": "01-introductie.md", "kind": "intro" },
+    { "slug": "denkfouten-en-behavior-gap", "title": "Denkfouten en de behavior gap", "file": "02-denkfouten-en-behavior-gap.md", "kind": "theory" },
+    { "slug": "kosten-en-box-3", "title": "Kosten over dertig jaar en box 3 in 2026", "file": "03-kosten-en-box-3.md", "kind": "theory" },
+    { "slug": "casus-box-3-straks-en-bv", "title": "Casus: box 3 straks en beleggen via een bv", "file": "04-casus-box-3-straks-en-bv.md", "kind": "practice" },
+    { "slug": "samenvatting", "title": "Samenvatting en toets", "file": "05-samenvatting.md", "kind": "summary" }
+  ],
+  "timeline": [],
+  "people": []
 }
