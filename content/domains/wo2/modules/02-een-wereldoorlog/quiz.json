@@ -1,0 +1,212 @@
+{
+  "title": "Hoofdstuktoets – Een wereldoorlog",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "02-T01",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke route koos de Duitse hoofdmacht in mei 1940 bij de aanval op Frankrijk?",
+      "choices": [
+        "Door de Ardennen en over de Maas bij Sedan",
+        "Langs de kust via Calais",
+        "Door de Alpen vanuit Italië",
+        "Over de Rijn bij Straatsburg"
+      ],
+      "answer": "Door de Ardennen en over de Maas bij Sedan",
+      "hints": [],
+      "solution": [
+        "Het plan van Von Manstein, de \"sikkelsnede\", stak bij Sedan de Maas over."
+      ],
+      "topics": [
+        "military-history"
+      ]
+    },
+    {
+      "id": "02-T02",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Duitse inval in Polen",
+        "Capitulatie van Frankrijk",
+        "Slag om Engeland",
+        "Operatie Barbarossa"
+      ],
+      "hints": [],
+      "solution": [
+        "Polen (1 september 1939), Frankrijk (22 juni 1940), Slag om Engeland (juli–oktober 1940), Barbarossa (22 juni 1941)."
+      ],
+      "topics": [
+        "military-history"
+      ]
+    },
+    {
+      "id": "02-T03",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat gaf de RAF in 1940 een belangrijk voordeel in de Slag om Engeland?",
+      "choices": [
+        "Een radarnetwerk met centrale aansturing van de jagers",
+        "Een veel groter aantal bommenwerpers",
+        "Steun van de Amerikaanse luchtmacht",
+        "Het bezit van basissen in Frankrijk"
+      ],
+      "answer": "Een radarnetwerk met centrale aansturing van de jagers",
+      "hints": [],
+      "solution": [
+        "Chain Home en het commandosysteem lieten de jagers gericht inzetten."
+      ],
+      "topics": [
+        "military-history"
+      ]
+    },
+    {
+      "id": "02-T04",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Van de ongeveer 91.000 Duitse krijgsgevangenen van Stalingrad keerden naar schatting 5.500 later terug. Welk percentage van de gevangenen was dat? Rond af op één decimaal.",
+      "answer": 6.0,
+      "tolerance": 0.05,
+      "hints": [],
+      "solution": [
+        "$5\\,500 / 91\\,000 \\approx 0{,}060$, dus 6,0%."
+      ],
+      "topics": [
+        "military-history"
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "02-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat veranderde er in december 1941 aan de aard van de oorlog?",
+      "choices": [
+        "Door Pearl Harbor en Hitlers oorlogsverklaring aan de Verenigde Staten werden de oorlogen in Europa en Azië één wereldoorlog",
+        "De Sovjet-Unie sloot een bondgenootschap met Japan",
+        "Groot-Brittannië verliet de oorlog",
+        "Frankrijk trad weer in de oorlog"
+      ],
+      "answer": "Door Pearl Harbor en Hitlers oorlogsverklaring aan de Verenigde Staten werden de oorlogen in Europa en Azië één wereldoorlog",
+      "hints": [],
+      "solution": [
+        "Pearl Harbor (7 december) en de Duitse oorlogsverklaring (11 december) verbonden de strijdtonelen."
+      ],
+      "topics": [
+        "military-history"
+      ]
+    },
+    {
+      "id": "02-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat was het belang van de Slag bij Midway (juni 1942)?",
+      "choices": [
+        "Japan verloor vier vliegdekschepen en het initiatief in de Pacific",
+        "Japan nam Hawaï in",
+        "De Verenigde Staten gaven de strijd om de Pacific op",
+        "De Sovjet-Unie trad toe tot de oorlog tegen Japan"
+      ],
+      "answer": "Japan verloor vier vliegdekschepen en het initiatief in de Pacific",
+      "hints": [],
+      "solution": [
+        "Midway brak de Japanse vliegdekschepenmacht."
+      ],
+      "topics": [
+        "military-history"
+      ]
+    },
+    {
+      "id": "02-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Wat is de kern van Overy's verklaring in Why the Allies Won?",
+      "choices": [
+        "De Geallieerden wonnen door middelen én door betere organisatie en politieke keuzes, niet door getalsmatige overmacht alleen",
+        "De Geallieerden hadden simpelweg meer soldaten",
+        "Alleen de atoombom besliste de oorlog",
+        "Duitsland verloor door verraad in de legerleiding"
+      ],
+      "answer": "De Geallieerden wonnen door middelen én door betere organisatie en politieke keuzes, niet door getalsmatige overmacht alleen",
+      "hints": [],
+      "solution": [
+        "Overy combineert productie, organisatie en strategische keuzes."
+      ],
+      "topics": [
+        "war-economy"
+      ]
+    },
+    {
+      "id": "02-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat was Lend-Lease?",
+      "choices": [
+        "Het Amerikaanse programma waarmee wapens en voorraden werden geleverd aan landen die tegen de As streden",
+        "Een Brits-Duits handelsverdrag",
+        "Een Sovjetplan om fabrieken te verplaatsen",
+        "Een Japans programma voor grondstoffen"
+      ],
+      "answer": "Het Amerikaanse programma waarmee wapens en voorraden werden geleverd aan landen die tegen de As streden",
+      "hints": [],
+      "solution": [
+        "De Lend-Lease Act dateert van 11 maart 1941."
+      ],
+      "topics": [
+        "war-economy"
+      ]
+    },
+    {
+      "id": "02-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Het aantal doden van het bombardement op Dresden (13–15 februari 1945) werd lange tijd veel hoger geschat dan het huidige historische onderzoek aangeeft. Wat is een goede manier om met zo'n verschil om te gaan?",
+      "choices": [
+        "Noem het meest recente onderzoek (ongeveer 25.000), de marge en de bron, en vermeld dat oudere schattingen hoger lagen",
+        "Kies het hoogste getal als het zekerste",
+        "Laat het getal weg omdat het niet te weten is",
+        "Gebruik het getal uit de propaganda van die tijd"
+      ],
+      "answer": "Noem het meest recente onderzoek (ongeveer 25.000), de marge en de bron, en vermeld dat oudere schattingen hoger lagen",
+      "hints": [],
+      "solution": [
+        "Cijfers die door propaganda werden opgeblazen, corrigeert onderzoek later."
+      ],
+      "topics": [
+        "war-economy",
+        "sources"
+      ]
+    },
+    {
+      "id": "02-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Waarom is een keizerlijke toespraak als die van 15 augustus 1945 niet zonder meer het antwoord op de vraag waarom Japan capituleerde?",
+      "choices": [
+        "Een toespraak toont hoe de maker het einde presenteert; wat hij niet noemt, kan even belangrijk zijn, en andere bronnen moeten worden gewogen",
+        "Omdat de toespraak nooit is uitgezonden",
+        "Omdat de keizer geen invloed had",
+        "Omdat de toespraak in het Engels was"
+      ],
+      "answer": "Een toespraak toont hoe de maker het einde presenteert; wat hij niet noemt, kan even belangrijk zijn, en andere bronnen moeten worden gewogen",
+      "hints": [],
+      "solution": [
+        "Een bron is een handeling met een doel."
+      ],
+      "topics": [
+        "sources"
+      ]
+    }
+  ]
+}

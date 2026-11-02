@@ -1,0 +1,39 @@
+# Vervolging, Indië en bevrijding
+
+## De Jodenvervolging in Nederland
+
+Voor de oorlog woonden in Nederland ongeveer 140.000 mensen die de bezetter als Jood beschouwde, onder wie naar schatting 25.000 Joden met een buitenlandse nationaliteit of zonder nationaliteit (waaronder gevluchte Duitse Joden). De uitsluiting verliep in stappen, die elk afzonderlijk administratief klonken. In oktober 1940 volgde de Ariërverklaring voor ambtenaren. In januari 1941 werd iedereen met één Joodse grootouder verplicht zich te laten registreren; de bezetter had daarmee een bestand. In februari 1941 werd de Joodse Raad van Amsterdam opgericht onder leiding van Abraham Asscher en David Cohen, een orgaan dat de bevelen aan de Joodse bevolking doorgaf. In 1941 en 1942 volgden verboden: openbare gelegenheden, scholen, beroepen, verkeer. Op 3 mei 1942 werd de Jodenster verplicht.
+
+Op 15 juli 1942 vertrok de eerste trein met Joden uit Westerbork naar Auschwitz; Westerbork, dat in 1939 door de Nederlandse regering voor Duits-Joodse vluchtelingen was gebouwd, was sinds juli 1942 een Duits beheerd doorgangskamp. Tot september 1944 vertrokken er bijna honderd treinen. In totaal werden uit Nederland ruim 100.000 Joden gedeporteerd (volgens het NIOD ongeveer 107.000), van wie ongeveer 5.000 terugkeerden; daarmee kwam ongeveer driekwart van de Joodse bevolking om. Naar Sobibor gingen tussen maart en juli 1943 34.313 mensen, van wie er 18 de oorlog overleefden; naar Auschwitz ongeveer 60.000 tot 65.000. De cijfers zijn afgeleid van transportlijsten en bevolkingsregisters; de marge is klein bij de totalen en groter bij de bestemmingen van afzonderlijke groepen.
+
+:::example Hoe hoog was het percentage?
+Neem de afgeronde cijfers: 107.000 gedeporteerden, ongeveer 5.000 teruggekeerden, uit een bevolking van 140.000. Omgekomen zijn dan $107\,000 - 5\,000 = 102\,000$ van de gedeporteerden. Als aandeel van de Joodse bevolking: $102\,000 / 140\,000 \approx 0{,}73$, dus ongeveer 73%; met een iets andere noemer (de schattingen van de totale Joodse bevolking lopen uiteen van 140.000 tot 160.000) kom je op 64 tot 73%. Het tweede getal is het vermoorde aandeel van de gedeporteerden: $102\,000 / 107\,000 \approx 95\%$. De vergelijking met buurlanden (ongeveer 40% in België en ongeveer 25% in Frankrijk, volgens gangbare schattingen) maakt het Nederlandse cijfer opvallend. Dat is de aanleiding voor het debat in de volgende paragraaf.
+:::
+
+{{ exercises: 03-005, 03-006 }}
+
+## Waarom was het percentage zo hoog?
+
+Het hoge Nederlandse percentage is een van de meest besproken vragen uit de oorlogsgeschiedenis. Historici noemen verschillende factoren en wegen ze verschillend. Eén verklaring is het bestuur: de Nederlandse bevolkingsregistratie was zeer volledig, en het Nederlandse apparaat bleef functioneren, zodat registratie en arrestaties efficiënt konden verlopen. Een tweede is de Duitse organisatie: onder een civiel bestuur had de SS onder Rauter direct controle over de politie, terwijl in België een militair bestuur de Joodse politiek vertraagde en Frankrijk een eigen regering had die Franse Joodse burgers (anders dan buitenlandse Joden) deels spaarde. Een derde is geografie en samenleving: een dichtbevolkt, plat land zonder bergen en bossen waar je kon onderduiken, en een bevolking die sterk verzuild was en minder contact had over de zuilen heen. Een vierde is de rol van de Joodse Raad, waarover Jacques Presser in *Ondergang* (1965) en latere onderzoekers discussiëren: gaf ze mensen vertrouwen dat deportatie "tewerkstelling" betekende?
+
+Marnix Croes en Peter Tammes, *Gif laten wij niet voortbestaan* (2004), onderzochten regionale verschillen en vonden grote verschillen tussen steden en dorpen. Griffioen en Zeller (2011) vergeleken Nederland, België en Frankrijk en legden de nadruk op de Duitse bezettingsstructuur en de bestuurlijke omstandigheden. Bart van der Boom stelde in *Wij weten niets van hun lot* (2012) dat Nederlanders weinig wisten van het lot dat deportatie betekende, en kreeg kritiek op zijn nadruk op onwetendheid. Een eenduidig antwoord is er niet; de meeste historici noemen een combinatie. Waar je het ook mee eens bent, het debat laat zien dat een percentage geen verklaring is: het is een vraag.
+
+:::question
+Als je een verklaring zoekt voor het hoge deportatiepercentage, welk soort bewijs zou je willen hebben om de ene factor (bestuur, SS-controle, geografie, wat men wist) zwaarder te laten wegen dan de andere? Kun je zulke factoren in een enkel land eigenlijk wel van elkaar scheiden?
+:::
+
+## Nederlands-Indië
+
+In Nederlands-Indië begon de oorlog voor de Nederlanders later en ging de bezetting anders. Na de Japanse aanvallen in december 1941 viel het Japanse leger in januari 1942 Nederlands-Indië aan, versloeg de geallieerde vloot in de Javazee (27 februari) en dwong op 8 en 9 maart 1942 bij Kalijati de capitulatie van het KNIL af. De Japanse bezetting duurde tot augustus 1945. De Nederlandse bestuurders en militairen werden geïnterneerd. Ongeveer 100.000 Nederlandse en andere Europese burgers kwamen in kampen terecht, met honger en ziekte als gevolg; naar schatting overleed ongeveer 13% (de marge is enkele duizenden). Van de krijgsgevangenen werd een deel ingezet op de Birma-spoorweg: ruim 60.000 geallieerde gevangenen werkten samen met naar schatting 180.000 tot 250.000 Aziatische dwangarbeiders aan een lijn van 415 kilometer; ongeveer 12.000 geallieerde gevangenen en een veel groter aantal Aziatische arbeiders (naar schatting ongeveer 90.000) overleden.
+
+De Indonesische bevolking leed op andere manieren. De Japanners begonnen met de belofte van bevrijding van de Europese koloniale overheersing, waarmee ze veel Indonesiërs voor zich innamen. Maar de bezetting gaf ook honger, uitputting en gedwongen arbeid: de *romusha*, arbeiders die voor Japanse projecten op Java en daarbuiten werden ingezet. De schattingen van het aantal romusha lopen uiteen van enkele honderdduizenden tot enkele miljoenen, en het aantal slachtoffers is niet precies vast te stellen. Daarnaast moesten duizenden Indonesische en Aziatische vrouwen werken in militaire bordelen; voor veel van hen was dit gedwongen. Op 17 augustus 1945, twee dagen na de Japanse capitulatie, riepen Soekarno en Hatta de Indonesische onafhankelijkheid uit. Dat leidde tot een nieuwe oorlog, die in module 21 van Geschiedenis wordt behandeld.
+
+{{ exercises: 03-007 }}
+
+## De Hongerwinter en de bevrijding
+
+Na de geallieerde landing in Normandië kwam het zuiden van Nederland in september 1944 in zicht van de bevrijding ("Dolle Dinsdag", 5 september, toen veel NSB'ers naar het oosten vluchtten). Operatie Market Garden mislukte bij Arnhem, en het noorden en westen bleven bezet. Op 17 september riep de Nederlandse regering in Londen de spoorwegen tot staking op, om de Duitse troepenverplaatsingen te hinderen. De Duitsers beantwoordden dit met een embargo op voedseltransport naar het westen. Daarbij kwam een strenge winter, waarin het kanalenstelsel bevroor. In de grote steden daalde de voedselvoorziening in de winter van 1944–1945 tot ver onder het hongerniveau; in het voorjaar van 1945 bedroeg de officiële rantsoenering in sommige weken ongeveer 400 tot 500 kilocalorieën per dag. De sterfte, vooral onder mannen en ouderen, bedroeg naar schatting 18.000 tot 22.000 mensen (het cijfer van 22.000 gaat terug op Loe de Jong). Mensen trokken naar het platteland om voedsel te vinden ("hongertochten") en stookten meubels.
+
+Op 5 mei 1945 capituleerden de Duitse troepen in Nederland in Wageningen, tegenover de Canadese generaal Foulkes. Eerder, vanaf 29 april, hadden de geallieerden na onderhandelingen met Seyss-Inquart voedsel uit vliegtuigen laten dalen boven West-Nederland (operaties Manna en Chowhound). De bevrijding bracht een complex nasleep: de terugkeer van overlevenden, de berechting van collaborateurs (module 4) en het herstel van een ontwricht land.
+
+{{ exercises: 03-008, 03-009 }}

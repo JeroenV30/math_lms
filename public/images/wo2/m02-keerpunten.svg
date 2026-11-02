@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" font-family="Georgia, serif" font-size="12">
+  <rect width="900" height="380" fill="#ffffff"/>
+  <text x="450" y="24" text-anchor="middle" font-size="16" fill="#1f2933">Keerpunten van de oorlog, 1939–1945</text>
+  <!-- as: 1939 begin x=60; 1945 eind x=840; 130 px per jaar -->
+  <line x1="40" y1="190" x2="860" y2="190" stroke="#1f2933" stroke-width="2"/>
+  <g stroke="#1f2933"><line x1="60" y1="184" x2="60" y2="196"/><line x1="190" y1="184" x2="190" y2="196"/><line x1="320" y1="184" x2="320" y2="196"/><line x1="450" y1="184" x2="450" y2="196"/><line x1="580" y1="184" x2="580" y2="196"/><line x1="710" y1="184" x2="710" y2="196"/><line x1="840" y1="184" x2="840" y2="196"/></g>
+  <g fill="#1f2933" font-size="11" text-anchor="middle"><text x="60" y="210">1939</text><text x="190" y="210">1940</text><text x="320" y="210">1941</text><text x="450" y="210">1942</text><text x="580" y="210">1943</text><text x="710" y="210">1944</text><text x="840" y="210">1945</text></g>
+  <text x="46" y="60" fill="#3b5bdb" font-size="13">Europa en Atlantische Oceaan</text>
+  <text x="46" y="340" fill="#9c6b30" font-size="13">Azië en de Pacific</text>
+  <!-- Europa (boven) -->
+  <g stroke="#3b5bdb" stroke-width="1"><line x1="108" y1="186" x2="108" y2="140"/><line x1="203" y1="186" x2="203" y2="90"/><line x1="320" y1="186" x2="320" y2="140"/><line x1="442" y1="186" x2="442" y2="90"/><line x1="567" y1="186" x2="567" y2="140"/><line x1="595" y1="186" x2="595" y2="90"/><line x1="701" y1="186" x2="701" y2="140"/><line x1="823" y1="186" x2="823" y2="90"/></g>
+  <g fill="#3b5bdb"><circle cx="108" cy="190" r="4"/><circle cx="203" cy="190" r="4"/><circle cx="320" cy="190" r="4"/><circle cx="442" cy="190" r="4"/><circle cx="567" cy="190" r="4"/><circle cx="595" cy="190" r="4"/><circle cx="701" cy="190" r="4"/><circle cx="823" cy="190" r="4"/></g>
+  <g fill="#1f2933" text-anchor="middle">
+    <text x="108" y="130">Inval Polen</text><text x="108" y="118" font-size="10">sept. 1939</text>
+    <text x="203" y="80">Val van Frankrijk</text><text x="203" y="68" font-size="10">mei–juni 1940</text>
+    <text x="320" y="130">Barbarossa</text><text x="320" y="118" font-size="10">22 juni 1941</text>
+    <text x="442" y="80">El Alamein, Torch</text><text x="442" y="68" font-size="10">okt.–nov. 1942</text>
+    <text x="540" y="130">Stalingrad</text><text x="540" y="118" font-size="10">feb. 1943</text>
+    <text x="640" y="80">Koersk</text><text x="640" y="68" font-size="10">juli 1943</text>
+    <text x="701" y="130" dx="22">D-Day</text><text x="701" y="118" font-size="10" dx="22">6 juni 1944</text>
+    <text x="790" y="80">Capitulatie</text><text x="790" y="68" font-size="10">mei 1945</text>
+  </g>
+  <!-- Azië (onder) -->
+  <g stroke="#9c6b30" stroke-width="1"><line x1="320" y1="194" x2="320" y2="250"/><line x1="450" y1="194" x2="450" y2="290"/><line x1="810" y1="194" x2="810" y2="250"/></g>
+  <g fill="#9c6b30"><circle cx="320" cy="190" r="4"/><circle cx="450" cy="190" r="4"/><circle cx="810" cy="190" r="4"/></g>
+  <g fill="#1f2933" text-anchor="middle">
+    <text x="320" y="268">Pearl Harbor</text><text x="320" y="282" font-size="10">7 dec. 1941</text>
+    <text x="450" y="308">Midway</text><text x="450" y="322" font-size="10">juni 1942</text>
+    <text x="810" y="268">Hiroshima, Nagasaki</text><text x="810" y="282" font-size="10">aug. 1945</text>
+  </g>
+  <text x="40" y="366" font-size="11" fill="#1f2933">Eigen schema, ter oriëntatie; posities op de tijdas zijn bij benadering.</text>
+</svg>

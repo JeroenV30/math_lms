@@ -1,0 +1,367 @@
+{
+  "exercises": [
+    {
+      "id": "02-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is het meest juiste over de term \"Blitzkrieg\" voor de Duitse veldtochten van 1939–1940?",
+      "choices": [
+        "De term werd door journalisten populair; als officiële Duitse doctrine bestond hij niet",
+        "Het was de officiële naam van het Duitse oorlogsplan van 1939",
+        "Het was een Britse term voor de Slag om Engeland",
+        "Het was de codenaam van Operatie Barbarossa"
+      ],
+      "answer": "De term werd door journalisten populair; als officiële Duitse doctrine bestond hij niet",
+      "hints": [
+        "Denk aan het onderscheid tussen een label en een plan."
+      ],
+      "solution": [
+        "Het succes kwam uit operationele vaardigheid en snelle beslissingen; de term werd later gebruikt om het te beschrijven."
+      ],
+      "topics": [
+        "military-history"
+      ],
+      "feedback": [
+        {
+          "answer": "Het was de officiële naam van het Duitse oorlogsplan van 1939",
+          "message": "Een vooraf uitgewerkt, onfeilbaar \"Blitzkrieg-plan\" bestond niet; de term is een latere beschrijving."
+        }
+      ]
+    },
+    {
+      "id": "02-002",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Op 10 mei 1940 hadden de geallieerden ongeveer evenveel of meer tanks dan Duitsland. Wat verklaart dan vooral de snelle Duitse overwinning op Frankrijk?",
+      "choices": [
+        "Betere organisatie en een aanvalsrichting door de Ardennen die de Fransen niet verwachtten",
+        "Een veel groter Duits tankenleger",
+        "Het uitblijven van enige Britse hulp",
+        "De Franse capitulatie voordat er gevochten was"
+      ],
+      "answer": "Betere organisatie en een aanvalsrichting door de Ardennen die de Fransen niet verwachtten",
+      "hints": [
+        "Kijk naar de aantallen: ongeveer 2.400 Duitse tegenover ongeveer 3.400 geallieerde tanks."
+      ],
+      "solution": [
+        "Duitsland concentreerde zijn pantsers, gebruikte radio en koos een onverwachte route; materiële overmacht was er niet."
+      ],
+      "topics": [
+        "military-history"
+      ],
+      "feedback": [
+        {
+          "answer": "Een veel groter Duits tankenleger",
+          "message": "De Duitsers hadden juist minder tanks dan de geallieerden. De doorslag lag in organisatie en route."
+        }
+      ]
+    },
+    {
+      "id": "02-003",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Van de ongeveer 5,7 miljoen Sovjetkrijgsgevangenen die Duitsland nam, kwamen volgens de meeste historici ongeveer 3,3 miljoen om. Welk percentage was dat? Rond af op een heel getal.",
+      "answer": 58,
+      "hints": [
+        "Deel 3,3 door 5,7."
+      ],
+      "solution": [
+        "$3{,}3 / 5{,}7 \\approx 0{,}58$, dus ongeveer 58%."
+      ],
+      "topics": [
+        "military-history"
+      ],
+      "unit": "%",
+      "feedback": [
+        {
+          "answer": 33,
+          "message": "Je hebt alleen de teller genomen (3,3). Deel 3,3 door 5,7 en reken om naar procenten."
+        },
+        {
+          "answer": 57,
+          "message": "3,3 gedeeld door 5,7 is 0,5789..., afgerond 58%."
+        }
+      ]
+    },
+    {
+      "id": "02-004",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom noemen historici de oorlog tegen de Sovjet-Unie vanaf 1941 een vernietigingsoorlog?",
+      "choices": [
+        "Omdat de oorlog ideologisch en raciaal werd gevoerd, met bevelen die moord op commissarissen en op krijgsgevangenen en burgers insloten",
+        "Omdat er vooral met zware bommen werd gevochten",
+        "Omdat de Sovjet-Unie als eerste chemische wapens inzette",
+        "Omdat beide partijen het Verdrag van Genève volledig naleefden"
+      ],
+      "answer": "Omdat de oorlog ideologisch en raciaal werd gevoerd, met bevelen die moord op commissarissen en op krijgsgevangenen en burgers insloten",
+      "hints": [
+        "Denk aan het commissarisbevel en aan de behandeling van krijgsgevangenen."
+      ],
+      "solution": [
+        "Het commissarisbevel, de honger onder krijgsgevangenen en het beleg van Leningrad laten zien dat het om meer ging dan militaire doelen."
+      ],
+      "topics": [
+        "military-history"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat beide partijen het Verdrag van Genève volledig naleefden",
+          "message": "Het Duitse optreden was juist een grove schending van de oorlogsregels."
+        }
+      ]
+    },
+    {
+      "id": "02-005",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Lend-Lease Act",
+        "Amerikaans olie-embargo tegen Japan",
+        "Aanval op Pearl Harbor",
+        "Hitler verklaart de Verenigde Staten de oorlog"
+      ],
+      "hints": [
+        "Lend-Lease werd in maart 1941 ondertekend."
+      ],
+      "solution": [
+        "Lend-Lease (maart 1941), olie-embargo (augustus 1941), Pearl Harbor (7 december 1941), oorlogsverklaring van Hitler (11 december 1941)."
+      ],
+      "topics": [
+        "military-history"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Amerikaans olie-embargo tegen Japan",
+            "Lend-Lease Act",
+            "Aanval op Pearl Harbor",
+            "Hitler verklaart de Verenigde Staten de oorlog"
+          ],
+          "message": "De Lend-Lease Act dateert van maart 1941, het olie-embargo van augustus 1941."
+        }
+      ]
+    },
+    {
+      "id": "02-006",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom geldt de Slag bij Midway (juni 1942) als keerpunt in de oorlog in de Pacific?",
+      "choices": [
+        "Japan verloor vier vliegdekschepen en veel ervaren vliegers en kon de Amerikaanse industrie niet bijbenen",
+        "Japan veroverde Hawaï",
+        "De Verenigde Staten verloren al hun vliegdekschepen",
+        "Japan bezette Australië"
+      ],
+      "answer": "Japan verloor vier vliegdekschepen en veel ervaren vliegers en kon de Amerikaanse industrie niet bijbenen",
+      "hints": [
+        "Denk aan de verliezen, niet aan veroveringen."
+      ],
+      "solution": [
+        "Japan verloor Akagi, Kaga, Sōryū en Hiryū tegenover één Amerikaans schip, de Yorktown."
+      ],
+      "topics": [
+        "military-history"
+      ],
+      "feedback": [
+        {
+          "answer": "De Verenigde Staten verloren al hun vliegdekschepen",
+          "message": "De VS verloren alleen de Yorktown; het waren de Japanners die vier schepen verloren."
+        }
+      ]
+    },
+    {
+      "id": "02-007",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Slag bij Midway",
+        "Capitulatie bij Stalingrad",
+        "Slag bij Koersk",
+        "D-Day in Normandië",
+        "Atoombommen op Hiroshima en Nagasaki"
+      ],
+      "hints": [
+        "Midway: juni 1942."
+      ],
+      "solution": [
+        "Midway (juni 1942), Stalingrad (februari 1943), Koersk (juli 1943), D-Day (juni 1944), Hiroshima en Nagasaki (augustus 1945)."
+      ],
+      "topics": [
+        "military-history"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Capitulatie bij Stalingrad",
+            "Slag bij Midway",
+            "Slag bij Koersk",
+            "D-Day in Normandië",
+            "Atoombommen op Hiroshima en Nagasaki"
+          ],
+          "message": "Midway vond plaats in juni 1942, voor de capitulatie bij Stalingrad in februari 1943."
+        }
+      ]
+    },
+    {
+      "id": "02-008",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In 1944 bouwden de Verenigde Staten ongeveer 96.000, de Sovjet-Unie ongeveer 40.000 en het Verenigd Koninkrijk ongeveer 28.000 militaire vliegtuigen. Duitsland bouwde ongeveer 40.000 en Japan ongeveer 28.000. Hoeveel keer zoveel vliegtuigen bouwden de drie geallieerde landen samen als Duitsland en Japan samen? Rond af op één decimaal.",
+      "answer": 2.4,
+      "tolerance": 0.05,
+      "hints": [
+        "Tel eerst beide groepen op.",
+        "Deel daarna de som van de Geallieerden door de som van de As."
+      ],
+      "solution": [
+        "Geallieerden: $96\\,000 + 40\\,000 + 28\\,000 = 164\\,000$. As: $40\\,000 + 28\\,000 = 68\\,000$.",
+        "$164\\,000 / 68\\,000 \\approx 2{,}4$."
+      ],
+      "topics": [
+        "war-economy"
+      ],
+      "feedback": [
+        {
+          "answer": 1.8,
+          "message": "Je hebt de Sovjet-Unie niet meegeteld. Neem de drie geallieerde landen samen."
+        },
+        {
+          "answer": 0.4,
+          "message": "Je hebt de verhouding omgekeerd: deel het geallieerde totaal door het totaal van de As."
+        }
+      ]
+    },
+    {
+      "id": "02-009",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Het aantal doden van de atoombom op Hiroshima wordt in de literatuur verschillend genoemd (onmiddellijk ongeveer 70.000 tot 80.000, tegen het einde van 1945 90.000 tot 140.000). Wat is de beste manier om dit getal te gebruiken?",
+      "choices": [
+        "Noem de marge en het moment waarop is geteld, en geef de bron",
+        "Kies het hoogste getal omdat dat het meest recht doet aan het leed",
+        "Kies het laagste getal omdat dat het zekerst is",
+        "Noem het gemiddelde zonder verdere uitleg"
+      ],
+      "answer": "Noem de marge en het moment waarop is geteld, en geef de bron",
+      "hints": [
+        "Het verschil komt deels voort uit de telperiode en de afbakening."
+      ],
+      "solution": [
+        "Een getal zonder bron en marge geeft schijnzekerheid. De bandbreedte komt uit verschillen in telperiode, registratie en stralingsslachtoffers."
+      ],
+      "topics": [
+        "war-economy",
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "Noem het gemiddelde zonder verdere uitleg",
+          "message": "Een gemiddelde verbergt juist de marge en de telperiode waar het om gaat."
+        }
+      ]
+    },
+    {
+      "id": "02-010",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Eisenhower schreef voor D-Day een briefje voor het geval de landing zou mislukken, waarin hij de verantwoordelijkheid op zich nam. Waarvoor is deze bron vooral geschikt?",
+      "choices": [
+        "Voor inzicht in de onzekerheid vóór de landing en Eisenhowers opvatting van verantwoordelijkheid",
+        "Als bewijs dat de landing op D-Day mislukte",
+        "Als verslag van de Duitse verdediging bij Normandië",
+        "Als bewijs dat de invasie al was afgeblazen"
+      ],
+      "answer": "Voor inzicht in de onzekerheid vóór de landing en Eisenhowers opvatting van verantwoordelijkheid",
+      "hints": [
+        "De landing slaagde; wat zegt het briefje dan wél?"
+      ],
+      "solution": [
+        "Het briefje is een privé-document dat nooit werd gebruikt; het zegt iets over de beslissingssituatie, niet over het verloop."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "Als bewijs dat de landing op D-Day mislukte",
+          "message": "De landing slaagde; het briefje was een voorbereid noodscenario."
+        }
+      ]
+    },
+    {
+      "id": "02-011",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een zaal in het Berlijnse Sportpaleis was zorgvuldig uitgenodigd om Goebbels in februari 1943 te horen en riep na elke vraag \"ja\". Wat kun je met deze bron wel en niet?",
+      "choices": [
+        "Ze zegt veel over de wil van het regime om te mobiliseren, maar weinig over de werkelijke publieke opinie",
+        "Ze toont dat het hele Duitse volk de totale oorlog wilde",
+        "Ze is onbruikbaar omdat ze propaganda is",
+        "Ze bewijst dat de Duitsers de oorlog al verloren zagen"
+      ],
+      "answer": "Ze zegt veel over de wil van het regime om te mobiliseren, maar weinig over de werkelijke publieke opinie",
+      "hints": [
+        "Dezelfde bron kan voor de ene vraag bruikbaar zijn en voor de andere niet."
+      ],
+      "solution": [
+        "Propaganda is een bron over de maker en zijn doelen; het geregisseerde publiek maakt haar nauwelijks bruikbaar over publieke opinie."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "Ze is onbruikbaar omdat ze propaganda is",
+          "message": "Propaganda is juist informatief over de wensen en methoden van de maker."
+        },
+        {
+          "answer": "Ze toont dat het hele Duitse volk de totale oorlog wilde",
+          "message": "Het publiek was zorgvuldig geselecteerd, dus het zegt weinig over het hele volk."
+        }
+      ]
+    },
+    {
+      "id": "02-012",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In de capitulatietoespraak van 15 augustus 1945 noemde keizer Hirohito de \"nieuwe en zeer wrede bom\" maar niet de Sovjetoorlogsverklaring, en hij sprak niet van \"capitulatie\". Wat is de beste conclusie?",
+      "choices": [
+        "De tekst toont hoe de keizer het einde wilde presenteren; wat ontbreekt, is even informatief als wat er staat",
+        "De tekst bewijst dat alleen de atoombom Japan tot capitulatie bracht",
+        "De tekst bewijst dat de Sovjetoorlogsverklaring geen rol speelde",
+        "De tekst is waardeloos omdat de keizer niet spontaan sprak"
+      ],
+      "answer": "De tekst toont hoe de keizer het einde wilde presenteren; wat ontbreekt, is even informatief als wat er staat",
+      "hints": [
+        "Let op wat er niet staat."
+      ],
+      "solution": [
+        "Een bron vormt een gebeurtenis; de keuzes in de tekst zijn onderdeel van wat je onderzoekt."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "De tekst bewijst dat alleen de atoombom Japan tot capitulatie bracht",
+          "message": "De toespraak is één bron en kiest wat ze noemt; andere bronnen en factoren moeten worden gewogen."
+        }
+      ]
+    }
+  ]
+}

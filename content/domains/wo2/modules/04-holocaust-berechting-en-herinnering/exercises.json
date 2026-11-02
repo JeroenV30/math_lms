@@ -1,0 +1,332 @@
+{
+  "exercises": [
+    {
+      "id": "04-001",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze stappen van Hilbergs beschrijving van de vervolging in volgorde, van eerste tot laatste stap.",
+      "answer": [
+        "Definitie van wie als Jood geldt",
+        "Onteigening en uitsluiting",
+        "Concentratie in getto's en kampen",
+        "Vernietiging"
+      ],
+      "hints": [
+        "Eerst moet worden bepaald wie het doelwit is."
+      ],
+      "solution": [
+        "Definitie, onteigening, concentratie, vernietiging: elke stap bouwt voort op de vorige."
+      ],
+      "topics": [
+        "holocaust"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Onteigening en uitsluiting",
+            "Definitie van wie als Jood geldt",
+            "Concentratie in getto's en kampen",
+            "Vernietiging"
+          ],
+          "message": "Pas na de definitie van wie Jood was, kon men mensen gericht onteigenen."
+        }
+      ]
+    },
+    {
+      "id": "04-002",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In Auschwitz kwamen volgens het Holocaust Memorial Museum ongeveer 1,1 miljoen mensen om, onder wie ongeveer 960.000 Joden. Welk percentage van de doden was Joods? Rond af op één decimaal.",
+      "answer": 87.3,
+      "tolerance": 0.06,
+      "hints": [
+        "Deel 960.000 door 1.100.000."
+      ],
+      "solution": [
+        "$960\\,000 / 1\\,100\\,000 \\approx 0{,}873$, dus 87,3%."
+      ],
+      "topics": [
+        "holocaust"
+      ],
+      "unit": "%",
+      "feedback": [
+        {
+          "answer": 96,
+          "message": "Je hebt 960.000 gedeeld door 1.000.000. Het totaal is 1,1 miljoen."
+        }
+      ]
+    },
+    {
+      "id": "04-003",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat was een belangrijk gegeven in Brownings onderzoek naar Reserve-Politiebataljon 101 in Józefów (juli 1942)?",
+      "choices": [
+        "De commandant liet mannen toe zich terug te trekken, en 10 tot 20 procent deed dat; de meesten schoten uit groepsdruk, gehoorzaamheid en gewenning",
+        "Alle mannen waren overtuigde nazi's die zich vrijwillig meldden",
+        "Niemand mocht weigeren op straffe van de dood",
+        "Het bataljon bestond uit SS-elitetroepen"
+      ],
+      "answer": "De commandant liet mannen toe zich terug te trekken, en 10 tot 20 procent deed dat; de meesten schoten uit groepsdruk, gehoorzaamheid en gewenning",
+      "hints": [
+        "Het gaat om gewone mannen van middelbare leeftijd."
+      ],
+      "solution": [
+        "Browning verklaarde het gedrag uit situatie en groepsdruk, niet uit bijzondere haat."
+      ],
+      "topics": [
+        "holocaust"
+      ],
+      "feedback": [
+        {
+          "answer": "Niemand mocht weigeren op straffe van de dood",
+          "message": "Browning vond dat men zich kon terugtrekken zonder zware straf; dat maakt de keuze van de meesten om door te gaan juist zo opmerkelijk."
+        }
+      ]
+    },
+    {
+      "id": "04-004",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom vinden historici Hilbergs driedeling (daders, omstanders, slachtoffers) bruikbaar maar beperkt?",
+      "choices": [
+        "Ze verlegt de aandacht naar de handelingen van gewone mensen, maar mensen konden in de loop van de tijd van groep wisselen",
+        "Ze bewijst dat er geen omstanders waren",
+        "Ze is onbruikbaar omdat het om drie even grote groepen gaat",
+        "Ze is onbruikbaar omdat ze alleen voor Duitsland geldt"
+      ],
+      "answer": "Ze verlegt de aandacht naar de handelingen van gewone mensen, maar mensen konden in de loop van de tijd van groep wisselen",
+      "hints": [
+        "Denk aan iemand die eerst omstander was en later hielp of profiteerde."
+      ],
+      "solution": [
+        "Een indeling is een hulpmiddel; ze laat gradaties en veranderingen soms weg."
+      ],
+      "topics": [
+        "holocaust"
+      ]
+    },
+    {
+      "id": "04-005",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat was in Neurenberg het bijzondere aan het principe dat een individu verantwoordelijk is ook als hij op bevel handelde?",
+      "choices": [
+        "Het werd een grondslag van het volkenrecht: gehoorzaamheid aan een bevel is geen volledige verdediging",
+        "Het bepaalde dat alleen leiders verantwoordelijk waren",
+        "Het bepaalde dat bevelen altijd strafbaar zijn",
+        "Het was al eeuwen in elk land wet"
+      ],
+      "answer": "Het werd een grondslag van het volkenrecht: gehoorzaamheid aan een bevel is geen volledige verdediging",
+      "hints": [
+        "Denk aan de verdediging \"ik deed wat mij werd bevolen\"."
+      ],
+      "solution": [
+        "Het Neurenberg-principe maakt individuele verantwoordelijkheid mogelijk, ook binnen een hiërarchie."
+      ],
+      "topics": [
+        "justice"
+      ],
+      "feedback": [
+        {
+          "answer": "Het bepaalde dat bevelen altijd strafbaar zijn",
+          "message": "Het principe sluit gehoorzaamheid als verdediging niet uit, maar maakt ze niet volledig; de moraliteit van de keuze telt mee."
+        }
+      ]
+    },
+    {
+      "id": "04-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "In Neurenberg werden 22 hoofdverdachten berecht: twaalf kregen de doodstraf en drie werden vrijgesproken. Hoeveel verdachten kregen een gevangenisstraf?",
+      "answer": 7,
+      "hints": [
+        "Trek de doodvonnissen en de vrijspraken af van het totaal."
+      ],
+      "solution": [
+        "$22 - 12 - 3 = 7$."
+      ],
+      "topics": [
+        "justice"
+      ],
+      "feedback": [
+        {
+          "answer": 10,
+          "message": "Je hebt alleen de doodvonnissen afgetrokken. Trek ook de vrijspraken af."
+        },
+        {
+          "answer": 19,
+          "message": "Je hebt alleen de vrijspraken afgetrokken. Trek ook de doodvonnissen af."
+        }
+      ]
+    },
+    {
+      "id": "04-007",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke kritiek hoorde je op de Nederlandse bijzondere rechtspleging, volgens historici?",
+      "choices": [
+        "Dat de nadruk lag op landverraad en medewerking aan de vijand, en minder op de vervolging van een bevolkingsgroep",
+        "Dat er geen enkele verdachte werd berecht",
+        "Dat alleen Joodse verdachten werden gestraft",
+        "Dat de rechtspleging pas in 1960 begon"
+      ],
+      "answer": "Dat de nadruk lag op landverraad en medewerking aan de vijand, en minder op de vervolging van een bevolkingsgroep",
+      "hints": [
+        "Denk aan de vraag of het stelsel recht deed aan de slachtoffers."
+      ],
+      "solution": [
+        "Het stelsel was in 1943 in Londen voorbereid en richtte zich vooral op landverraad en verzet."
+      ],
+      "topics": [
+        "justice"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat er geen enkele verdachte werd berecht",
+          "message": "Naar schatting 120.000 tot ruim 150.000 mensen werden aangehouden of geïnterneerd."
+        }
+      ]
+    },
+    {
+      "id": "04-008",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat laat de ontwikkeling van de Nederlandse herinneringscultuur na 1945 zien?",
+      "choices": [
+        "Een herdenking die eerst vooral op verzet en militaire slachtoffers gericht was, kreeg later meer plaats voor de Joodse slachtoffers",
+        "Een herdenking die direct in 1945 de Joodse slachtoffers centraal stelde",
+        "Een herdenking die in de jaren vijftig stopte",
+        "Een herdenking die alleen in Indië plaatsvond"
+      ],
+      "answer": "Een herdenking die eerst vooral op verzet en militaire slachtoffers gericht was, kreeg later meer plaats voor de Joodse slachtoffers",
+      "hints": [
+        "Denk aan het Nationaal Monument (1956) en het Namenmonument (2021)."
+      ],
+      "solution": [
+        "De accenten verschoven in de loop van de decennia."
+      ],
+      "topics": [
+        "memory"
+      ]
+    },
+    {
+      "id": "04-009",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Het Jäger-rapport (1 december 1941) telt per actie het aantal gedode mannen, vrouwen en kinderen. Waarvoor is dit daderdocument vooral geschikt?",
+      "choices": [
+        "Voor het vaststellen van plaats, tijd en omvang van moorden, maar niet voor de ervaring van de slachtoffers",
+        "Voor het beschrijven van wat de slachtoffers dachten",
+        "Voor het bewijzen dat de moorden nooit hebben plaatsgevonden",
+        "Voor het vaststellen van het aantal overlevenden"
+      ],
+      "answer": "Voor het vaststellen van plaats, tijd en omvang van moorden, maar niet voor de ervaring van de slachtoffers",
+      "hints": [
+        "Een daderrapport zegt iets over de maker en de omvang, niet over de slachtoffers."
+      ],
+      "solution": [
+        "Het rapport legt de moord administratief vast; de slachtoffers komen alleen als getal voor."
+      ],
+      "topics": [
+        "sources",
+        "holocaust"
+      ],
+      "feedback": [
+        {
+          "answer": "Voor het bewijzen dat de moorden nooit hebben plaatsgevonden",
+          "message": "Het rapport is juist een bewijs van de moorden, in de eigen woorden van de dader."
+        }
+      ]
+    },
+    {
+      "id": "04-010",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Van Het Achterhuis bestaan meerdere versies (a, b en c). Wat volgt daaruit voor een historicus?",
+      "choices": [
+        "Dat hij moet nagaan welke versie hij gebruikt, en dat de kritische uitgave de verschillen zichtbaar maakt",
+        "Dat het dagboek vals is",
+        "Dat alleen de laatste versie telt",
+        "Dat de eerste uitgave identiek is aan het origineel"
+      ],
+      "answer": "Dat hij moet nagaan welke versie hij gebruikt, en dat de kritische uitgave de verschillen zichtbaar maakt",
+      "hints": [
+        "Een bron bestaat vaak in meer dan één vorm."
+      ],
+      "solution": [
+        "Anne herschreef zelf delen, en Otto Frank liet in 1947 enkele passages weg. Het onderzoek stelde de echtheid vast."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat het dagboek vals is",
+          "message": "Onderzoek, onder meer van het Rijksinstituut voor Oorlogsdocumentatie, heeft de echtheid vastgesteld."
+        }
+      ]
+    },
+    {
+      "id": "04-011",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Jules Schelvis schreef zijn getuigenis over Sobibór tientallen jaren later. Hoe gebruikt een historicus zo'n bron?",
+      "choices": [
+        "Als bron voor ervaring en betekenis, met controle van details aan de hand van andere bronnen",
+        "Alleen voor feiten, zonder controle",
+        "Niet, omdat geheugen altijd onbetrouwbaar is",
+        "Alleen als de getuige nog leeft"
+      ],
+      "answer": "Als bron voor ervaring en betekenis, met controle van details aan de hand van andere bronnen",
+      "hints": [
+        "Een bron kan voor sommige vragen sterk zijn en voor andere zwak."
+      ],
+      "solution": [
+        "Getuigenissen combineren een uniek perspectief met de beperkingen van het geheugen."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "Niet, omdat geheugen altijd onbetrouwbaar is",
+          "message": "Getuigenissen zijn onmisbaar voor ervaring en betekenis; de details controleer je."
+        }
+      ]
+    },
+    {
+      "id": "04-012",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze herinneringsmomenten in chronologische volgorde, het oudste eerst.",
+      "answer": [
+        "Het Achterhuis verschijnt",
+        "Nationaal Monument op de Dam geopend",
+        "Hollandsche Schouwburg wordt gedenkplaats",
+        "Nationaal Holocaust Namenmonument geopend"
+      ],
+      "hints": [
+        "Het Achterhuis verscheen in 1947."
+      ],
+      "solution": [
+        "1947, 1956, 1962, 2021."
+      ],
+      "topics": [
+        "memory"
+      ]
+    }
+  ]
+}

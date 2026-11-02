@@ -1,0 +1,224 @@
+{
+  "title": "Hoofdstuktoets – Op weg naar oorlog",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "01-T01",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welk land ratificeerde het Verdrag van Versailles niet en trad ook niet toe tot de Volkenbond?",
+      "choices": [
+        "De Verenigde Staten",
+        "Frankrijk",
+        "Groot-Brittannië",
+        "Italië"
+      ],
+      "answer": "De Verenigde Staten",
+      "hints": [],
+      "solution": [
+        "Het Amerikaanse Congres verwierp het verdrag."
+      ],
+      "topics": [
+        "interwar"
+      ],
+      "feedback": [
+        {
+          "answer": "Groot-Brittannië",
+          "message": "Groot-Brittannië ratificeerde het verdrag en was lid van de Volkenbond."
+        }
+      ]
+    },
+    {
+      "id": "01-T02",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "In juli 1932 behaalde de NSDAP bij de Reichstagsverkiezingen haar hoogste uitslag in vrije verkiezingen. Welk percentage van de stemmen was dat? Geef het antwoord in één decimaal.",
+      "answer": 37.3,
+      "tolerance": 0.05,
+      "hints": [],
+      "solution": [
+        "De NSDAP kreeg in juli 1932 37,3% van de stemmen; in november 1932 33,1%."
+      ],
+      "topics": [
+        "causes-of-war"
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "01-T03",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze stappen van de nazistische machtsovername in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Hitler wordt kanselier",
+        "Brand in de Reichstag",
+        "Machtigingswet",
+        "Nacht van de lange messen"
+      ],
+      "hints": [],
+      "solution": [
+        "30 januari 1933, 27 februari 1933, 23 maart 1933, 30 juni 1934."
+      ],
+      "topics": [
+        "causes-of-war"
+      ]
+    },
+    {
+      "id": "01-T04",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom is het onjuist te zeggen dat Hitler in 1933 \"de verkiezingen won\" en daarmee aan de macht kwam?",
+      "choices": [
+        "De NSDAP kreeg nooit een meerderheid; Hitler werd benoemd door Hindenburg in een coalitiekabinet",
+        "De verkiezingen van 1933 werden niet gehouden",
+        "Hitler werd gekozen door de Volkenbond",
+        "De NSDAP was in 1932 de kleinste partij"
+      ],
+      "answer": "De NSDAP kreeg nooit een meerderheid; Hitler werd benoemd door Hindenburg in een coalitiekabinet",
+      "hints": [],
+      "solution": [
+        "De partij werd in 1932 de grootste maar haalde nooit een meerderheid; Hitler werd op 30 januari 1933 benoemd."
+      ],
+      "topics": [
+        "causes-of-war"
+      ]
+    },
+    {
+      "id": "01-T05",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat regelden de Neurenberger wetten van 15 september 1935?",
+      "choices": [
+        "Joden verloren het Duitse staatsburgerschap en huwelijken met niet-Joden werden verboden",
+        "De algemene dienstplicht werd ingevoerd",
+        "Alle politieke partijen behalve de NSDAP werden verboden",
+        "Duitsland verliet de Volkenbond"
+      ],
+      "answer": "Joden verloren het Duitse staatsburgerschap en huwelijken met niet-Joden werden verboden",
+      "hints": [],
+      "solution": [
+        "De dienstplicht kwam in maart 1935 en het verbod van partijen in 1933."
+      ],
+      "topics": [
+        "causes-of-war"
+      ],
+      "feedback": [
+        {
+          "answer": "De algemene dienstplicht werd ingevoerd",
+          "message": "De dienstplicht werd in maart 1935 ingevoerd, een andere maatregel dan de Neurenberger wetten."
+        }
+      ]
+    },
+    {
+      "id": "01-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom zeggen historici dat het antwoord op de vraag \"wanneer begon de Tweede Wereldoorlog?\" afhangt van het criterium?",
+      "choices": [
+        "In Azië begon de oorlog tussen Japan en China in 1931 of 1937, in Europa in 1939",
+        "Omdat Versailles de oorlog al in 1919 aankondigde",
+        "Omdat de Verenigde Staten pas in 1939 meededen",
+        "Omdat de oorlog in 1939 in Azië begon en in 1941 in Europa"
+      ],
+      "answer": "In Azië begon de oorlog tussen Japan en China in 1931 of 1937, in Europa in 1939",
+      "hints": [],
+      "solution": [
+        "Japan viel Mantsjoerije binnen in 1931 en begon in 1937 een totale oorlog met China; in Europa begon de oorlog in 1939."
+      ],
+      "topics": [
+        "causes-of-war"
+      ]
+    },
+    {
+      "id": "01-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke partij was bij de conferentie van München in september 1938 niet uitgenodigd, hoewel het over haar grondgebied ging?",
+      "choices": [
+        "Tsjechoslowakije",
+        "Italië",
+        "Frankrijk",
+        "Groot-Brittannië"
+      ],
+      "answer": "Tsjechoslowakije",
+      "hints": [],
+      "solution": [
+        "Chamberlain, Daladier, Mussolini en Hitler beslisten zonder Tsjechoslowaakse vertegenwoordiger over het Sudetenland."
+      ],
+      "topics": [
+        "causes-of-war"
+      ]
+    },
+    {
+      "id": "01-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat was de inhoud van het geheime protocol bij het Molotov-Ribbentroppact van 23 augustus 1939?",
+      "choices": [
+        "De verdeling van Oost-Europa in Duitse en Sovjet-invloedssferen",
+        "Een Brits-Sovjetbondgenootschap tegen Duitsland",
+        "Een Duitse garantie voor de onafhankelijkheid van Polen",
+        "Een gezamenlijke aanval op Frankrijk"
+      ],
+      "answer": "De verdeling van Oost-Europa in Duitse en Sovjet-invloedssferen",
+      "hints": [],
+      "solution": [
+        "Het protocol verdeelde onder meer Polen en de Baltische staten in invloedssferen; Moskou ontkende het bestaan tot 1989."
+      ],
+      "topics": [
+        "causes-of-war"
+      ]
+    },
+    {
+      "id": "01-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Waarin verschilt de lezing van de intentionalisten van die van A.J.P. Taylor?",
+      "choices": [
+        "De intentionalisten zien een samenhangend programma van Hitler, Taylor een opportunist die kansen greep",
+        "De intentionalisten geven de Sovjet-Unie de schuld, Taylor Duitsland",
+        "Taylor ontkende dat de oorlog in 1939 begon",
+        "De intentionalisten ontkennen dat Mein Kampf bestond"
+      ],
+      "answer": "De intentionalisten zien een samenhangend programma van Hitler, Taylor een opportunist die kansen greep",
+      "hints": [],
+      "solution": [
+        "Dat is de kern van het debat: programma tegenover kans."
+      ],
+      "topics": [
+        "causes-of-war",
+        "sources"
+      ]
+    },
+    {
+      "id": "01-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een historicus ontdekt dat een notulist een verslag vijf dagen na een vergadering uit zijn hoofd opstelde en dat de spreker het nooit las. Wat volgt daaruit voor het gebruik van het verslag?",
+      "choices": [
+        "Gebruik het voorzichtig: sterk voor de strekking, zwak voor details, en controleer het met andere bronnen",
+        "Gebruik het niet, want het is een secundaire bron",
+        "Neem alle jaartallen over omdat de notulist erbij was",
+        "Het is betrouwbaarder dan een bron van de spreker zelf"
+      ],
+      "answer": "Gebruik het voorzichtig: sterk voor de strekking, zwak voor details, en controleer het met andere bronnen",
+      "hints": [],
+      "solution": [
+        "Een notulist die dichtbij was, geeft de strekking vaak goed weer, maar details en jaartallen vragen controle."
+      ],
+      "topics": [
+        "sources"
+      ]
+    }
+  ]
+}

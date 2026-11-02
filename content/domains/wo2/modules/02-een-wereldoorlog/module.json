@@ -3,7 +3,7 @@
   "slug": "een-wereldoorlog",
   "title": "Een wereldoorlog",
   "part": 1,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 3,
   "estimated_minutes": 110,
   "prerequisites": [
@@ -16,5 +16,107 @@
   ],
   "core_question": "Hoe kon Duitsland eerst zo snel winnen en de oorlog toch verliezen?",
   "summary": "De Duitse veldtochten van 1939–1940, de Slag om Engeland, Barbarossa en de vernietigingsoorlog in het oosten, Pearl Harbor en de oorlog in de Pacific, Stalingrad en Midway, de oorlogseconomie, D-Day, de bombardementsoorlog en het einde in Europa en Azië.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een tabel met vliegtuigen",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "de-duitse-successen-en-de-uitbreiding",
+      "title": "De Duitse successen en de uitbreiding van de oorlog (1939–1941)",
+      "file": "02-de-duitse-successen-en-de-uitbreiding.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "keerpunten-economie-en-einde",
+      "title": "Keerpunten, oorlogseconomie en het einde (1942–1945)",
+      "file": "03-keerpunten-economie-en-einde.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum: drie teksten over een oorlog die werd beslist",
+      "file": "04-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt de hoofdlijn van de oorlog in Europa en Azië tussen 1939 en 1945 beschrijven en de keerpunten in chronologische volgorde zetten.",
+    "Je kunt uitleggen waarom Duitsland in 1939–1941 zo snel won zonder materiële overmacht, en waarom dat succes geen blijvend voordeel gaf.",
+    "Je kunt de vernietigingsoorlog in het oosten beschrijven en cijfers erover met bron en marge noemen.",
+    "Je kunt de oorlog in de Pacific verklaren vanuit Pearl Harbor, Midway en de Amerikaanse industriële capaciteit.",
+    "Je kunt Overy's verklaring van de geallieerde overwinning weergeven en productiecijfers met een marge lezen.",
+    "Je kunt D-Day, de bombardementsoorlog en de atoombommen plaatsen en het debat over de Japanse capitulatie beschrijven.",
+    "Je kunt een bron als een toespraak of een staatsverklaring beoordelen op herkomst, doel, leemtes en handeling."
+  ],
+  "glossary": [
+    {
+      "term": "Blitzkrieg",
+      "definition": "Bliksemoorlog: populaire naam voor de snelle Duitse veldtochten van 1939–1941; als officiële doctrine bestond de term niet."
+    },
+    {
+      "term": "Sikkelsnede",
+      "definition": "Het Duitse plan van 1940 om met pantsers door de Ardennen naar de Kanaalkust te trekken."
+    },
+    {
+      "term": "Vernietigingsoorlog",
+      "definition": "Oorlog die ideologisch en raciaal wordt gevoerd, met moord op burgers en krijgsgevangenen, zoals de Duitse oorlog in de Sovjet-Unie."
+    },
+    {
+      "term": "Lend-Lease",
+      "definition": "Het Amerikaanse programma (1941) voor het leveren van wapens en voorraden aan bondgenoten."
+    },
+    {
+      "term": "Area bombing",
+      "definition": "Het bombarderen van hele stadsgebieden in plaats van afzonderlijke doelen, vooral door de Britse luchtmacht."
+    },
+    {
+      "term": "Operatie Bagration",
+      "definition": "Het Sovjetoffensief van juni 1944 dat Legergroep Centrum grotendeels vernietigde."
+    },
+    {
+      "term": "Oorlogseconomie",
+      "definition": "De omschakeling van een economie op de productie van oorlogsmateriaal en het mobiliseren van arbeid en grondstoffen."
+    },
+    {
+      "term": "Marge",
+      "definition": "De bandbreedte waarbinnen een historisch cijfer ligt, doordat bronnen en telmethoden verschillen."
+    }
+  ],
+  "timeline": [
+    "operatie-barbarossa-1941",
+    "pearl-harbor-1941",
+    "stalingrad-1942-1943",
+    "d-day-1944",
+    "capitulatie-duitsland-1945",
+    "hiroshima-nagasaki-1945",
+    "val-van-frankrijk-1940",
+    "slag-om-engeland-1940",
+    "lend-lease-1941",
+    "midway-1942",
+    "koersk-1943",
+    "overy-why-allies-won-1995",
+    "duitse-inval-polen-1939"
+  ],
+  "people": [
+    "churchill",
+    "franklin-roosevelt",
+    "dwight-eisenhower",
+    "isoroku-yamamoto",
+    "erich-von-manstein",
+    "albert-speer",
+    "joseph-goebbels",
+    "richard-overy",
+    "hitler",
+    "stalin",
+    "hirohito"
+  ]
 }

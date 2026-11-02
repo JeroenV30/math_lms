@@ -1,0 +1,306 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Waarvoor diende artikel 231 van het Verdrag van Versailles volgens de opstellers in de eerste plaats?",
+      "choices": [
+        "Als juridische grondslag voor de verplichting van Duitsland om schade te vergoeden",
+        "Als bepaling die Duitsland de toegang tot de Volkenbond ontzegde",
+        "Als besluit om de Duitse keizer te berechten",
+        "Als regeling van de nieuwe oostgrens van Duitsland"
+      ],
+      "answer": "Als juridische grondslag voor de verplichting van Duitsland om schade te vergoeden",
+      "hints": [
+        "Het artikel staat in het deel over herstelbetalingen."
+      ],
+      "solution": [
+        "Artikel 231 stelde dat Duitsland en zijn bondgenoten verantwoordelijk waren voor de schade, als basis voor de herstelbetalingen. In Duitsland werd het gelezen als morele veroordeling."
+      ],
+      "topics": [
+        "interwar",
+        "causes-of-war"
+      ],
+      "feedback": [
+        {
+          "answer": "Als besluit om de Duitse keizer te berechten",
+          "message": "De berechting van de keizer stond in een ander artikel; artikel 231 gaat over de verantwoordelijkheid voor schade en dus over herstelbetalingen."
+        }
+      ]
+    },
+    {
+      "id": "01-002",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Bezetting van het Ruhrgebied",
+        "Dawesplan",
+        "Verdrag van Locarno",
+        "Beurskrach in New York"
+      ],
+      "hints": [
+        "Denk aan de hyperinflatie van 1923 als gevolg van de Ruhrbezetting."
+      ],
+      "solution": [
+        "Ruhrbezetting (januari 1923), Dawesplan (1924), Locarno (1925), beurskrach (oktober 1929)."
+      ],
+      "topics": [
+        "interwar"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Dawesplan",
+            "Bezetting van het Ruhrgebied",
+            "Verdrag van Locarno",
+            "Beurskrach in New York"
+          ],
+          "message": "Het Dawesplan was juist een reactie op de crisis rond de Ruhrbezetting van 1923."
+        }
+      ]
+    },
+    {
+      "id": "01-003",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Bij de stemming over de Machtigingswet in maart 1933 brachten 535 afgevaardigden hun stem uit. Voor een wijziging van de grondwet was een tweederde meerderheid van de uitgebrachte stemmen nodig. Wat is het minimale aantal voorstemmen? Rond af naar boven op een heel getal.",
+      "answer": 357,
+      "hints": [
+        "Bereken $\\tfrac{2}{3} \\times 535$.",
+        "Het resultaat is geen geheel getal; je hebt een geheel aantal stemmen nodig."
+      ],
+      "solution": [
+        "$\\tfrac{2}{3} \\times 535 \\approx 356{,}7$.",
+        "Je hebt dus minstens 357 stemmen nodig."
+      ],
+      "topics": [
+        "causes-of-war"
+      ],
+      "feedback": [
+        {
+          "answer": 356,
+          "message": "Met 356 stemmen haal je nog net geen tweederde ($356{,}7$). Rond naar boven af."
+        },
+        {
+          "answer": 441,
+          "message": "Dat is het werkelijke aantal voorstemmen, niet het minimum."
+        }
+      ]
+    },
+    {
+      "id": "01-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "In welk jaar bezette Japan Mantsjoerije, het begin van de Japanse expansie op het Aziatische vasteland?",
+      "answer": 1931,
+      "hints": [
+        "Het Moekden-incident was in september."
+      ],
+      "solution": [
+        "Op 18 september 1931 werd een explosie op de spoorlijn bij Moekden aangegrepen voor de bezetting van Mantsjoerije."
+      ],
+      "topics": [
+        "causes-of-war"
+      ],
+      "feedback": [
+        {
+          "answer": 1937,
+          "message": "1937 is het jaar van de totale oorlog met China (Marco Polo-brug). Mantsjoerije werd al in 1931 bezet."
+        }
+      ]
+    },
+    {
+      "id": "01-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat toonde de Italiaanse verovering van Abessinië (1935–1936) aan?",
+      "choices": [
+        "Dat de Volkenbond een vastberaden grote mogendheid niet kon stoppen",
+        "Dat Italië militair te zwak was voor koloniale oorlogen",
+        "Dat de Verenigde Staten zich actief met Afrika bemoeiden",
+        "Dat sancties altijd werken als er olie onder valt"
+      ],
+      "answer": "Dat de Volkenbond een vastberaden grote mogendheid niet kon stoppen",
+      "hints": [
+        "Denk aan de zwakke sancties."
+      ],
+      "solution": [
+        "De sancties lieten olie buiten schot en Italië veroverde het land toch. Het gezag van de collectieve veiligheid leed er zwaar onder."
+      ],
+      "topics": [
+        "causes-of-war",
+        "interwar"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat sancties altijd werken als er olie onder valt",
+          "message": "Juist omdat olie niet onder de sancties viel, bleef Italië in staat de oorlog te voeren."
+        }
+      ]
+    },
+    {
+      "id": "01-006",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat was de kern van de stelling van A.J.P. Taylor over de oorsprong van de oorlog van 1939?",
+      "choices": [
+        "Hitler was vooral een opportunist die kansen greep, geen uitvoerder van een vast plan",
+        "Hitler voerde stap voor stap een plan uit Mein Kampf uit",
+        "De oorlog was het enige gevolg van het Molotov-Ribbentroppact",
+        "Alleen Sovjet-Rusland droeg schuld aan de oorlog"
+      ],
+      "answer": "Hitler was vooral een opportunist die kansen greep, geen uitvoerder van een vast plan",
+      "hints": [
+        "Taylor schreef in 1961 en kreeg veel kritiek van de intentionalisten."
+      ],
+      "solution": [
+        "Taylor zag een opportunist die inspeelde op fouten van anderen. De intentionalisten zagen juist een vast programma."
+      ],
+      "topics": [
+        "causes-of-war",
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "Hitler voerde stap voor stap een plan uit Mein Kampf uit",
+          "message": "Dat is de intentionalistische lezing, waartegen Taylor zich juist verzette."
+        }
+      ]
+    },
+    {
+      "id": "01-007",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Het Hossbach-protocol is een verslag van een bijeenkomst op 5 november 1937, vijf dagen later opgesteld door kolonel Hossbach en nooit door Hitler gezien. Wat is de beste conclusie over deze bron?",
+      "choices": [
+        "Ze is bruikbaar voor Hitlers denkbeelden, maar ze bewijst op zichzelf geen draaiboek voor de oorlog",
+        "Ze is waardeloos omdat ze uit de tweede hand komt",
+        "Ze bewijst letterlijk dat de oorlog in 1943 zou beginnen",
+        "Ze is betrouwbaar omdat Hitler haar zelf heeft goedgekeurd"
+      ],
+      "answer": "Ze is bruikbaar voor Hitlers denkbeelden, maar ze bewijst op zichzelf geen draaiboek voor de oorlog",
+      "hints": [
+        "Weeg herkomst, doel en leemtes."
+      ],
+      "solution": [
+        "Een notulist kan details verkeerd weergeven, maar de strekking past bij andere bronnen. Het verslag noemt Polen niet en het verloop was anders."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "Ze is waardeloos omdat ze uit de tweede hand komt",
+          "message": "Een bron uit de tweede hand is niet waardeloos; ze is alleen voorzichtiger te gebruiken."
+        },
+        {
+          "answer": "Ze is betrouwbaar omdat Hitler haar zelf heeft goedgekeurd",
+          "message": "Hitler heeft de notulen juist niet gezien of goedgekeurd."
+        }
+      ]
+    },
+    {
+      "id": "01-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Chamberlain en Hitler ondertekenden op 30 september 1938 een korte verklaring over hun wens nooit meer oorlog te voeren. Wat was de functie van dit papier voor Chamberlain?",
+      "choices": [
+        "Hij kon de Britse publieke opinie laten zien dat hij de vrede had behouden",
+        "Het was een bindend defensieverdrag",
+        "Het gaf Groot-Brittannië recht op Duitse grondstoffen",
+        "Het verplichtte Hitler tot het ontruimen van het Sudetenland"
+      ],
+      "answer": "Hij kon de Britse publieke opinie laten zien dat hij de vrede had behouden",
+      "hints": [
+        "Het was een verklaring van bedoelingen."
+      ],
+      "solution": [
+        "De verklaring was niet bindend; ze diende vooral als symbool van vrede voor het thuisfront."
+      ],
+      "topics": [
+        "sources",
+        "causes-of-war"
+      ],
+      "feedback": [
+        {
+          "answer": "Het was een bindend defensieverdrag",
+          "message": "Het was een verklaring van bedoelingen zonder verplichtingen."
+        }
+      ]
+    },
+    {
+      "id": "01-009",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Van Hitlers toespraak op de Obersalzberg (22 augustus 1939) bestaan meerdere optekeningen die onderling verschillen. Wat doe je als historicus als eerste?",
+      "choices": [
+        "De versies vergelijken en nagaan wie elke versie opschreef en wanneer",
+        "De uitgebreidste versie kiezen",
+        "De kortste versie kiezen omdat die minder fouten bevat",
+        "De toespraak als bron negeren"
+      ],
+      "answer": "De versies vergelijken en nagaan wie elke versie opschreef en wanneer",
+      "hints": [
+        "Je werkt met een overlevering, niet met een enkele tekst."
+      ],
+      "solution": [
+        "Je vergelijkt de versies, kijkt wat in alle voorkomt en weegt de rest naar nabijheid en motief van de opschrijver."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "De uitgebreidste versie kiezen",
+          "message": "Een uitgebreide tekst is niet per se betrouwbaarder; ze kan latere toevoegingen bevatten."
+        }
+      ]
+    },
+    {
+      "id": "01-010",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Duitse troepen bezetten het Rijnland",
+        "Anschluss van Oostenrijk",
+        "Conferentie van München",
+        "Molotov-Ribbentroppact",
+        "Duitse inval in Polen"
+      ],
+      "hints": [
+        "Rijnland: 1936; Anschluss: maart 1938."
+      ],
+      "solution": [
+        "Rijnland (maart 1936), Anschluss (maart 1938), München (september 1938), pact (23 augustus 1939), inval Polen (1 september 1939)."
+      ],
+      "topics": [
+        "causes-of-war"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Anschluss van Oostenrijk",
+            "Duitse troepen bezetten het Rijnland",
+            "Conferentie van München",
+            "Molotov-Ribbentroppact",
+            "Duitse inval in Polen"
+          ],
+          "message": "De bezetting van het Rijnland (1936) ging vooraf aan de Anschluss (1938)."
+        }
+      ]
+    }
+  ]
+}

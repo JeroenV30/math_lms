@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" font-family="Georgia, serif" font-size="14">
+  <rect width="760" height="320" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" fill="#1f2933">Militaire vliegtuigen per land in 1944 (afgerond)</text>
+  <line x1="170" y1="50" x2="170" y2="270" stroke="#1f2933" stroke-width="1.5"/>
+  <line x1="170" y1="270" x2="690" y2="270" stroke="#1f2933" stroke-width="1.5"/>
+  <!-- schaal: 100000 = 500 px -> 1000 = 5 px -->
+  <g stroke="#1f2933" stroke-width="0.5" opacity="0.3">
+    <line x1="270" y1="50" x2="270" y2="270"/><line x1="370" y1="50" x2="370" y2="270"/><line x1="470" y1="50" x2="470" y2="270"/><line x1="570" y1="50" x2="570" y2="270"/><line x1="670" y1="50" x2="670" y2="270"/>
+  </g>
+  <g fill="#1f2933" font-size="12" text-anchor="middle">
+    <text x="170" y="288">0</text><text x="270" y="288">20.000</text><text x="370" y="288">40.000</text><text x="470" y="288">60.000</text><text x="570" y="288">80.000</text><text x="670" y="288">100.000</text>
+  </g>
+  <g fill="#1f2933" text-anchor="end">
+    <text x="160" y="76">Verenigde Staten</text><text x="160" y="124">Sovjet-Unie</text><text x="160" y="172">Duitsland</text><text x="160" y="220">Verenigd Koninkrijk</text><text x="160" y="258" dy="-2" opacity="0">.</text>
+  </g>
+  <rect x="170" y="56" width="480" height="30" fill="#3b5bdb"/>
+  <rect x="170" y="104" width="200" height="30" fill="#3b5bdb"/>
+  <rect x="170" y="152" width="200" height="30" fill="#9c6b30"/>
+  <rect x="170" y="200" width="140" height="30" fill="#3b5bdb"/>
+  <rect x="170" y="240" width="140" height="22" fill="#9c6b30"/>
+  <g fill="#1f2933" font-size="12">
+    <text x="656" y="76">96.000</text><text x="376" y="124">40.000</text><text x="376" y="172">40.000</text><text x="316" y="220">28.000</text><text x="316" y="256">28.000</text>
+  </g>
+  <text x="160" y="256" text-anchor="end" fill="#1f2933">Japan</text>
+  <text x="170" y="308" font-size="11" fill="#1f2933">Blauw: Geallieerden. Bruin: de As. Bron: Harrison (red.), The Economics of World War II (1998); eigen grafiek.</text>
+</svg>

@@ -1,0 +1,355 @@
+{
+  "exercises": [
+    {
+      "id": "03-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom is het bezettingsbestuur van Nederland in 1940 een \"dubbel gezag\" genoemd?",
+      "choices": [
+        "Een civiel bestuur onder Seyss-Inquart werd gecombineerd met een SS- en politielijn onder Rauter, die aan Himmler rapporteerde",
+        "Nederland werd verdeeld in een Duits en een Italiaans deel",
+        "De Nederlandse regering in Londen bestuurde naast de Duitsers het land",
+        "Er waren twee Reichskommissars"
+      ],
+      "answer": "Een civiel bestuur onder Seyss-Inquart werd gecombineerd met een SS- en politielijn onder Rauter, die aan Himmler rapporteerde",
+      "hints": [
+        "Denk aan het schema met twee lijnen."
+      ],
+      "solution": [
+        "Seyss-Inquart leidde het civiele bestuur en liet het Nederlandse apparaat grotendeels bestaan; Rauter leidde SS en politie."
+      ],
+      "topics": [
+        "occupation"
+      ],
+      "feedback": [
+        {
+          "answer": "De Nederlandse regering in Londen bestuurde naast de Duitsers het land",
+          "message": "De regering in Londen had geen bestuur over het bezette land, ze zat in ballingschap."
+        }
+      ]
+    },
+    {
+      "id": "03-002",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke redenering gebruiken historici met de \"ethiek van het kleinste kwaad\" bij Nederlandse ambtenaren in 1940?",
+      "choices": [
+        "Elke stap afzonderlijk leek een redelijke keuze om erger te voorkomen, maar de stappen samen werkten de uitsluiting in de hand",
+        "Alle ambtenaren steunden het nazisme",
+        "Ambtenaren hadden geen enkele keuze",
+        "Ambtenaren die aanbleven waren altijd verzetsmensen"
+      ],
+      "answer": "Elke stap afzonderlijk leek een redelijke keuze om erger te voorkomen, maar de stappen samen werkten de uitsluiting in de hand",
+      "hints": [
+        "Het gaat om de optelsom van kleine stappen."
+      ],
+      "solution": [
+        "Het aanblijven kon erger voorkomen, maar legitimeerde ook het bewind en de uitvoering van maatregelen tegen Joodse collega's."
+      ],
+      "topics": [
+        "occupation",
+        "collaboration-resistance"
+      ],
+      "feedback": [
+        {
+          "answer": "Ambtenaren hadden geen enkele keuze",
+          "message": "Ze hadden een keuze, al waren alle opties duur: aftreden, saboteren of uitvoeren."
+        }
+      ]
+    },
+    {
+      "id": "03-003",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat was de kern van Hans Bloms kritiek op de indeling in \"goed\" en \"fout\" voor de bezettingstijd?",
+      "choices": [
+        "Dat de meeste Nederlanders zich in een grijs gebied tussen die twee bewogen, waardoor de indeling te grof is",
+        "Dat er geen verzet bestond",
+        "Dat alle Nederlanders collaboreerden",
+        "Dat de bezetting niet echt heeft plaatsgevonden"
+      ],
+      "answer": "Dat de meeste Nederlanders zich in een grijs gebied tussen die twee bewogen, waardoor de indeling te grof is",
+      "hints": [
+        "De term \"grijs verleden\" komt uit dit debat."
+      ],
+      "solution": [
+        "Blom wees op het grote gebied van aanpassing tussen collaboratie en verzet. Critici merkten op dat voor de vervolgden de keuze niet grijs was."
+      ],
+      "topics": [
+        "collaboration-resistance"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat er geen verzet bestond",
+          "message": "Blom ontkende het verzet niet; hij vond de tweedeling te grof."
+        }
+      ]
+    },
+    {
+      "id": "03-004",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze stappen in de uitsluiting van de Joden in Nederland in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Ariërverklaring voor ambtenaren",
+        "Registratieplicht voor Joden",
+        "Oprichting van de Joodse Raad",
+        "Februaristaking",
+        "Jodenster verplicht"
+      ],
+      "hints": [
+        "De Februaristaking volgde op de razzia's van 22–23 februari 1941."
+      ],
+      "solution": [
+        "Ariërverklaring (oktober 1940), registratie (januari 1941), Joodse Raad (12 februari 1941), staking (25–26 februari 1941), Jodenster (3 mei 1942)."
+      ],
+      "topics": [
+        "holocaust",
+        "occupation"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Ariërverklaring voor ambtenaren",
+            "Registratieplicht voor Joden",
+            "Februaristaking",
+            "Oprichting van de Joodse Raad",
+            "Jodenster verplicht"
+          ],
+          "message": "De Joodse Raad werd opgericht (12 februari) vóór de razzia's en de staking van eind februari 1941."
+        }
+      ]
+    },
+    {
+      "id": "03-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Uit Nederland werden naar schatting ongeveer 107.000 Joden gedeporteerd, van wie ongeveer 5.000 terugkeerden. Hoeveel gedeporteerden kwamen om?",
+      "answer": 102000,
+      "hints": [
+        "Trek het aantal teruggekeerden af van het aantal gedeporteerden."
+      ],
+      "solution": [
+        "$107\\,000 - 5\\,000 = 102\\,000$."
+      ],
+      "topics": [
+        "holocaust"
+      ],
+      "feedback": [
+        {
+          "answer": 5000,
+          "message": "Dat is het aantal teruggekeerden. Je zoekt het aantal omgekomen gedeporteerden."
+        },
+        {
+          "answer": 112000,
+          "message": "Je hebt de getallen opgeteld. Trek het aantal teruggekeerden af."
+        }
+      ]
+    },
+    {
+      "id": "03-006",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Neem aan dat de Joodse bevolking van Nederland 140.000 personen telde en dat 102.000 van hen omkwamen. Welk percentage van de Joodse bevolking was dat? Rond af op één decimaal.",
+      "answer": 72.9,
+      "tolerance": 0.05,
+      "hints": [
+        "Deel 102.000 door 140.000 en reken om naar procenten."
+      ],
+      "solution": [
+        "$102\\,000 / 140\\,000 \\approx 0{,}729$, dus 72,9%."
+      ],
+      "topics": [
+        "holocaust"
+      ],
+      "unit": "%",
+      "feedback": [
+        {
+          "answer": 95.3,
+          "message": "Dat is het aandeel van de gedeporteerden dat omkwam (102.000 van 107.000). Hier gaat het om de hele Joodse bevolking van 140.000."
+        }
+      ]
+    },
+    {
+      "id": "03-007",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Aan de Birma-spoorweg werkten ruim 60.000 geallieerde krijgsgevangenen, van wie ongeveer 12.000 omkwamen. Welk percentage was dat? Rond af op een heel getal.",
+      "answer": 20,
+      "hints": [
+        "Deel 12.000 door 60.000."
+      ],
+      "solution": [
+        "$12\\,000 / 60\\,000 = 0{,}20$, dus 20%."
+      ],
+      "topics": [
+        "dutch-east-indies"
+      ],
+      "unit": "%",
+      "feedback": [
+        {
+          "answer": 12,
+          "message": "Dat is het aantal duizendtallen, niet het percentage. Deel door 60.000 en vermenigvuldig met 100."
+        }
+      ]
+    },
+    {
+      "id": "03-008",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke factoren veroorzaakten samen de Hongerwinter van 1944–1945 in het westen van Nederland?",
+      "choices": [
+        "Het Duitse embargo op voedseltransport naar het westen na de spoorwegstaking, een strenge winter en het bevroren kanalenstelsel",
+        "Een mislukte oogst door droogte in 1944",
+        "Een geallieerde blokkade van de Nederlandse havens",
+        "Alleen het bombardement van Rotterdam"
+      ],
+      "answer": "Het Duitse embargo op voedseltransport naar het westen na de spoorwegstaking, een strenge winter en het bevroren kanalenstelsel",
+      "hints": [
+        "Denk aan de gevolgen van de spoorwegstaking van september 1944."
+      ],
+      "solution": [
+        "Bevroren vaarwegen en het embargo sneden het westen af van voedsel; het was een combinatie van factoren."
+      ],
+      "topics": [
+        "occupation"
+      ],
+      "feedback": [
+        {
+          "answer": "Een geallieerde blokkade van de Nederlandse havens",
+          "message": "De Duitse bezetter legde het embargo op voedseltransport op, niet de geallieerden."
+        }
+      ]
+    },
+    {
+      "id": "03-009",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen van 1944–1945 in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Dolle Dinsdag",
+        "Spoorwegstaking",
+        "Duits embargo op voedseltransport naar het westen",
+        "Duitse capitulatie in Nederland bij Wageningen"
+      ],
+      "hints": [
+        "Dolle Dinsdag was 5 september 1944."
+      ],
+      "solution": [
+        "Dolle Dinsdag (5 september 1944), spoorwegstaking (17 september 1944), embargo (oktober 1944), Wageningen (5 mei 1945)."
+      ],
+      "topics": [
+        "occupation"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Spoorwegstaking",
+            "Dolle Dinsdag",
+            "Duits embargo op voedseltransport naar het westen",
+            "Duitse capitulatie in Nederland bij Wageningen"
+          ],
+          "message": "Dolle Dinsdag (5 september) viel vóór de spoorwegstaking (17 september)."
+        }
+      ]
+    },
+    {
+      "id": "03-010",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Het Joodsche Weekblad verscheen onder Duits toezicht. Wat volgt daaruit voor het gebruik als bron?",
+      "choices": [
+        "Ze is bruikbaar voor wat Joodse Nederlanders moesten weten en doen, maar niet voor de Duitse plannen met de gedeporteerden",
+        "Ze is waardeloos, want alles is gecensureerd",
+        "Ze bevat vrije informatie over de vernietigingskampen",
+        "Ze is vooral een bron van Joodse tegenstanders van de Joodse Raad"
+      ],
+      "answer": "Ze is bruikbaar voor wat Joodse Nederlanders moesten weten en doen, maar niet voor de Duitse plannen met de gedeporteerden",
+      "hints": [
+        "Een bron onder censuur kan bruikbaar zijn voor sommige vragen."
+      ],
+      "solution": [
+        "Juist door de censuur laat ze zien wat de bezetter wilde dat de lezers wisten."
+      ],
+      "topics": [
+        "sources",
+        "holocaust"
+      ],
+      "feedback": [
+        {
+          "answer": "Ze is waardeloos, want alles is gecensureerd",
+          "message": "Een gecensureerde bron zegt veel over de opgelegde regels en de handelingsruimte van de redactie."
+        }
+      ]
+    },
+    {
+      "id": "03-011",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bericht over hetzelfde bombardement staat in een legale krant onder Duits toezicht en in een illegale krant. Hoe kom je tot de betrouwbaarste conclusie over de feiten?",
+      "choices": [
+        "Door te kijken wat beide kranten, ondanks hun tegengestelde doel, hetzelfde melden",
+        "Door altijd de illegale krant te geloven",
+        "Door altijd de legale krant te geloven",
+        "Door het langste bericht te kiezen"
+      ],
+      "answer": "Door te kijken wat beide kranten, ondanks hun tegengestelde doel, hetzelfde melden",
+      "hints": [
+        "Waar twee tegengestelde bronnen overeenkomen, is de kans op juistheid groter."
+      ],
+      "solution": [
+        "De verschillen vertellen iets over de makers, de overeenkomsten het meest over de gebeurtenis."
+      ],
+      "topics": [
+        "sources"
+      ],
+      "feedback": [
+        {
+          "answer": "Door altijd de illegale krant te geloven",
+          "message": "Een illegale krant wilde hoop wekken en kon onbevestigd nieuws overnemen."
+        }
+      ]
+    },
+    {
+      "id": "03-012",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Loe de Jongs televisieserie De Bezetting (1960–1965) is voor de bezettingstijd een secundaire bron. Voor welke andere vraag is ze een primaire bron?",
+      "choices": [
+        "Voor de vraag hoe Nederland in de jaren zestig zijn oorlog wilde herinneren",
+        "Voor de vraag hoeveel Joden in 1942 werden gedeporteerd",
+        "Voor de vraag wat Seyss-Inquart wilde",
+        "Voor de vraag waar de Februaristaking begon"
+      ],
+      "answer": "Voor de vraag hoe Nederland in de jaren zestig zijn oorlog wilde herinneren",
+      "hints": [
+        "Een bron is primair of secundair afhankelijk van je vraag."
+      ],
+      "solution": [
+        "De serie zegt over de oorlog zelf iets uit de tweede hand, maar over de herinneringscultuur van de jaren zestig is ze een directe bron."
+      ],
+      "topics": [
+        "sources",
+        "memory"
+      ],
+      "feedback": [
+        {
+          "answer": "Voor de vraag hoeveel Joden in 1942 werden gedeporteerd",
+          "message": "Daarvoor zijn transportlijsten en registers de primaire bronnen; de serie is daarover een latere weergave."
+        }
+      ]
+    }
+  ]
+}

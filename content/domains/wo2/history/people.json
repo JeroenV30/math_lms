@@ -1,0 +1,658 @@
+{
+  "people": [
+    {
+      "id": "woodrow-wilson",
+      "name": "Woodrow Wilson",
+      "full_name": "Woodrow Wilson",
+      "lived": "1856 – 1924",
+      "sort_year": 1856,
+      "region": "Verenigde Staten",
+      "known_for": "Amerikaans president tijdens de oorlog en bij Versailles; pleitte voor de Volkenbond.",
+      "bio": "Wilson leidde de Verenigde Staten in 1917 de oorlog in en formuleerde in 1918 veertien punten voor een vrede. De Amerikaanse senaat verwierp het verdrag.",
+      "contributions": [
+        "Veertien punten",
+        "Volkenbond"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "verdrag-van-versailles-1919"
+      ],
+      "image": null
+    },
+    {
+      "id": "churchill",
+      "name": "Winston Churchill",
+      "full_name": "Winston Leonard Spencer Churchill",
+      "lived": "1874 – 1965",
+      "sort_year": 1874,
+      "region": "Verenigd Koninkrijk",
+      "known_for": "Brits premier in de oorlog, die in 1946 over het IJzeren Gordijn sprak.",
+      "bio": "Churchill leidde Groot-Brittannië van 1940 tot 1945 en opnieuw van 1951 tot 1955. Na zijn verkiezingsnederlaag in 1945 hield hij in 1946 in Fulton zijn beroemde toespraak over het IJzeren Gordijn.",
+      "contributions": [
+        "Toespraak in Fulton (1946)"
+      ],
+      "modules": [
+        2
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "wilhelmina",
+      "name": "Wilhelmina",
+      "full_name": "Wilhelmina Helena Pauline Maria van Oranje-Nassau",
+      "lived": "1880 – 1962",
+      "sort_year": 1890,
+      "region": "Nederland",
+      "known_for": "Koningin der Nederlanden van 1890 tot 1948, in de oorlog in ballingschap in Londen.",
+      "bio": "Wilhelmina vertrok op 13 mei 1940 naar Londen en sprak via Radio Oranje de bezette bevolking toe. Ze trad in 1948 af ten gunste van haar dochter Juliana.",
+      "contributions": [
+        "Radio Oranje",
+        "Leiderschap in ballingschap"
+      ],
+      "modules": [
+        3
+      ],
+      "timeline": [
+        "spoorwegstaking-1944"
+      ],
+      "image": null
+    },
+    {
+      "id": "mussolini",
+      "name": "Mussolini",
+      "full_name": "Benito Mussolini",
+      "lived": "1883 – 1945",
+      "sort_year": 1922,
+      "region": "Italië",
+      "known_for": "Oprichter van het fascisme en leider van Italië vanaf 1922.",
+      "bio": "Mussolini richtte in 1919 de Fasci di Combattimento op en werd in 1922 minister-president. Vanaf 1925 bouwde hij een dictatuur op.",
+      "contributions": [
+        "Fascisme",
+        "Mars op Rome"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "hindenburg",
+      "name": "Hindenburg",
+      "full_name": "Paul von Hindenburg",
+      "lived": "1847 – 1934",
+      "sort_year": 1925,
+      "region": "Duitsland",
+      "known_for": "Rijkspresident van Duitsland van 1925 tot 1934.",
+      "bio": "Hindenburg benoemde Hitler op 30 januari 1933 tot kanselier. Hij overleed op 2 augustus 1934.",
+      "contributions": [
+        "Benoeming van Hitler"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "hitler-kanselier-1933"
+      ],
+      "image": null
+    },
+    {
+      "id": "hirohito",
+      "name": "Hirohito",
+      "full_name": "Hirohito, keizer Showa",
+      "lived": "1901 – 1989",
+      "sort_year": 1926,
+      "region": "Japan",
+      "known_for": "Keizer van Japan van 1926 tot 1989, het staatshoofd tijdens de oorlog in Azië.",
+      "bio": "Hirohito was formeel de bron van gezag van het Japanse leger. Historici debatteren over zijn precieze aandeel in de besluitvorming. In augustus 1945 greep hij in om de capitulatie te bewerkstelligen; hij bleef na de oorlog keizer.",
+      "contributions": [
+        "Keizer van Japan",
+        "Capitulatieaankondiging van augustus 1945"
+      ],
+      "modules": [
+        1,
+        2
+      ],
+      "timeline": [
+        "mantsjoerije-incident-1931",
+        "japan-china-oorlog-1937"
+      ],
+      "image": null
+    },
+    {
+      "id": "stalin",
+      "name": "Stalin",
+      "full_name": "Jozef Stalin",
+      "lived": "1878 – 1953",
+      "sort_year": 1929,
+      "region": "Sovjet-Unie",
+      "known_for": "Sovjetleider tijdens de collectivisatie en de Grote Terreur.",
+      "bio": "Stalin werd in 1922 secretaris-generaal van de partij en won na Lenins dood de machtsstrijd. Hij voerde collectivisatie en terreur door.",
+      "contributions": [
+        "Collectivisatie",
+        "Grote Terreur"
+      ],
+      "modules": [
+        1,
+        2
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "anton-mussert",
+      "name": "Mussert",
+      "full_name": "Anton Adriaan Mussert",
+      "lived": "1894 – 1946",
+      "sort_year": 1931,
+      "region": "Nederland",
+      "known_for": "Leider van de NSB.",
+      "bio": "Mussert was ingenieur bij Rijkswaterstaat en leidde de NSB vanaf de oprichting in 1931.",
+      "contributions": [
+        "NSB"
+      ],
+      "modules": [
+        3
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "hitler",
+      "name": "Hitler",
+      "full_name": "Adolf Hitler",
+      "lived": "1889 – 1945",
+      "sort_year": 1933,
+      "region": "Duitsland",
+      "known_for": "Leider van de NSDAP en kanselier vanaf 1933.",
+      "bio": "Hitler werd op 30 januari 1933 kanselier en bouwde in anderhalf jaar een dictatuur op. Over zijn rol in het regime verschillen historici.",
+      "contributions": [
+        "Nationaalsocialisme"
+      ],
+      "modules": [
+        1,
+        2
+      ],
+      "timeline": [
+        "hitler-kanselier-1933"
+      ],
+      "image": null
+    },
+    {
+      "id": "franklin-roosevelt",
+      "name": "Roosevelt",
+      "full_name": "Franklin Delano Roosevelt",
+      "lived": "1882 – 1945",
+      "sort_year": 1933,
+      "region": "Verenigde Staten",
+      "known_for": "President van de Verenigde Staten van 1933 tot 1945, die het land door de crisis en de oorlog leidde.",
+      "bio": "Roosevelt steunde Groot-Brittannië en later de Sovjet-Unie met Lend-Lease voordat de VS zelf in de oorlog kwamen. Na Pearl Harbor stuurde hij op een oorlog tegen Duitsland en Japan tegelijk. Hij overleed op 12 april 1945, kort voor de Duitse capitulatie.",
+      "contributions": [
+        "Lend-Lease",
+        "Atlantisch Handvest"
+      ],
+      "modules": [
+        2
+      ],
+      "timeline": [
+        "lend-lease-1941"
+      ],
+      "image": null
+    },
+    {
+      "id": "joseph-goebbels",
+      "name": "Goebbels",
+      "full_name": "Joseph Goebbels",
+      "lived": "1897 – 1945",
+      "sort_year": 1933,
+      "region": "Duitsland",
+      "known_for": "Minister van Propaganda van nazi-Duitsland.",
+      "bio": "Goebbels hield op 18 februari 1943 de Sportpaleisrede over de totale oorlog. Hij pleegde op 1 mei 1945 zelfmoord in Berlijn.",
+      "contributions": [
+        "Propaganda",
+        "Sportpaleisrede"
+      ],
+      "modules": [
+        2
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "heinrich-himmler",
+      "name": "Himmler",
+      "full_name": "Heinrich Himmler",
+      "lived": "1900 – 1945",
+      "sort_year": 1936,
+      "region": "Duitsland",
+      "known_for": "Reichsführer-SS en een van de hoofdverantwoordelijken voor de Holocaust.",
+      "bio": "Himmler leidde de SS en de politie en organiseerde de vernietigingskampen. In 1943 sprak hij in Posen openlijk over het uitroeien van de Joden. Hij pleegde in mei 1945 zelfmoord in Britse gevangenschap.",
+      "contributions": [
+        "Leider van de SS"
+      ],
+      "modules": [
+        4
+      ],
+      "timeline": [
+        "posen-toespraak-1943"
+      ],
+      "image": null
+    },
+    {
+      "id": "neville-chamberlain",
+      "name": "Chamberlain",
+      "full_name": "Arthur Neville Chamberlain",
+      "lived": "1869 – 1940",
+      "sort_year": 1937,
+      "region": "Verenigd Koninkrijk",
+      "known_for": "Britse premier (1937–1940) en de bekendste vertegenwoordiger van het appeasement.",
+      "bio": "Chamberlain probeerde via onderhandelingen een nieuwe oorlog te voorkomen en bereikte in München een akkoord over het Sudetenland. Na de bezetting van Praag in maart 1939 koos hij voor een garantie aan Polen. Hij trad in mei 1940 af ten gunste van Churchill.",
+      "contributions": [
+        "Appeasement",
+        "Akkoord van München"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "conferentie-van-muenchen-1938"
+      ],
+      "image": null
+    },
+    {
+      "id": "erich-von-manstein",
+      "name": "Von Manstein",
+      "full_name": "Erich von Manstein",
+      "lived": "1887 – 1973",
+      "sort_year": 1940,
+      "region": "Duitsland",
+      "known_for": "Duits veldmaarschalk, bedenker van het plan voor de aanval op Frankrijk in 1940.",
+      "bio": "Von Manstein ontwierp de sikkelsnede door de Ardennen en leidde later legers aan het oostfront. In 1949 werd hij in Hamburg veroordeeld voor oorlogsmisdaden.",
+      "contributions": [
+        "Sikkelsnede"
+      ],
+      "modules": [
+        2
+      ],
+      "timeline": [
+        "val-van-frankrijk-1940",
+        "koersk-1943"
+      ],
+      "image": null
+    },
+    {
+      "id": "seyss-inquart",
+      "name": "Seyss-Inquart",
+      "full_name": "Arthur Seyss-Inquart",
+      "lived": "1892 – 1946",
+      "sort_year": 1940,
+      "region": "Oostenrijk en Nederland",
+      "known_for": "Rijkscommissaris van het bezette Nederland.",
+      "bio": "Seyss-Inquart werd in mei 1940 Rijkscommissaris voor het bezette Nederlandse gebied en stond aan het hoofd van een civiel bestuur. Hij werd in 1946 in Neurenberg ter dood veroordeeld en geëxecuteerd.",
+      "contributions": [
+        "Civiel bestuur van bezet Nederland"
+      ],
+      "modules": [
+        3
+      ],
+      "timeline": [
+        "duitse-inval-nederland-1940"
+      ],
+      "image": null
+    },
+    {
+      "id": "hanns-albin-rauter",
+      "name": "Rauter",
+      "full_name": "Hanns Albin Rauter",
+      "lived": "1895 – 1949",
+      "sort_year": 1940,
+      "region": "Oostenrijk",
+      "known_for": "Höherer SS- und Polizeiführer in bezet Nederland.",
+      "bio": "Rauter leidde SS en politie in Nederland en was verantwoordelijk voor de deportaties en vergeldingsmaatregelen. Na de oorlog werd hij berecht en in 1949 geëxecuteerd.",
+      "contributions": [
+        "SS en politie in Nederland"
+      ],
+      "modules": [
+        3
+      ],
+      "timeline": [
+        "reichskommissariaat-1940"
+      ],
+      "image": null
+    },
+    {
+      "id": "henri-winkelman",
+      "name": "Winkelman",
+      "full_name": "Henri Gerard Winkelman",
+      "lived": "1876 – 1952",
+      "sort_year": 1940,
+      "region": "Nederland",
+      "known_for": "Opperbevelhebber van de Nederlandse land- en zeemacht in mei 1940.",
+      "bio": "Winkelman gaf op 14 mei 1940, na het bombardement op Rotterdam, het bevel de strijd te staken.",
+      "contributions": [
+        "Capitulatie van mei 1940"
+      ],
+      "modules": [
+        3
+      ],
+      "timeline": [
+        "bombardement-rotterdam-1940"
+      ],
+      "image": null
+    },
+    {
+      "id": "isoroku-yamamoto",
+      "name": "Yamamoto",
+      "full_name": "Isoroku Yamamoto",
+      "lived": "1884 – 1943",
+      "sort_year": 1941,
+      "region": "Japan",
+      "known_for": "Japanse admiraal, bedenker van de aanval op Pearl Harbor.",
+      "bio": "Yamamoto waarschuwde dat Japan de Verenigde Staten slechts korte tijd het hoofd kon bieden. Na Midway verloor Japan het initiatief. Hij kwam in april 1943 om toen zijn vliegtuig werd neergeschoten.",
+      "contributions": [
+        "Aanval op Pearl Harbor"
+      ],
+      "modules": [
+        2
+      ],
+      "timeline": [
+        "pearl-harbor-1941",
+        "midway-1942"
+      ],
+      "image": null
+    },
+    {
+      "id": "david-cohen",
+      "name": "Cohen",
+      "full_name": "David Cohen",
+      "lived": "1882 – 1967",
+      "sort_year": 1941,
+      "region": "Nederland",
+      "known_for": "Hoogleraar en voorzitter van de Joodse Raad in Amsterdam, samen met Abraham Asscher.",
+      "bio": "Cohen en Asscher werden in 1941 door de bezetter aangesteld; hun rol in de oorlog is na de oorlog onderwerp van onderzoek en kritiek geweest. Na de oorlog werd zijn rol onderzocht door een Joodse eerraad (1947).",
+      "contributions": [
+        "Joodse Raad"
+      ],
+      "modules": [
+        3
+      ],
+      "timeline": [
+        "joodse-raad-1941"
+      ],
+      "image": null
+    },
+    {
+      "id": "albert-speer",
+      "name": "Speer",
+      "full_name": "Albert Speer",
+      "lived": "1905 – 1981",
+      "sort_year": 1942,
+      "region": "Duitsland",
+      "known_for": "Duits architect en vanaf februari 1942 minister van Bewapening.",
+      "bio": "Speer verhoogde de Duitse wapenproductie vanaf 1942, mede door de inzet van dwangarbeiders. In Neurenberg werd hij veroordeeld tot twintig jaar gevangenisstraf.",
+      "contributions": [
+        "Bewapeningsminister"
+      ],
+      "modules": [
+        2
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "anne-frank",
+      "name": "Anne Frank",
+      "full_name": "Annelies Marie Frank",
+      "lived": "1929 – 1945",
+      "sort_year": 1942,
+      "region": "Frankfurt en Amsterdam",
+      "known_for": "Schreef een dagboek in onderduik in Amsterdam.",
+      "bio": "Anne Frank dook op 6 juli 1942 met haar familie onder in Amsterdam. Op 4 augustus 1944 werd het Achterhuis ontdekt. Zij werd gedeporteerd en overleed in het voorjaar van 1945 in Bergen-Belsen. Haar dagboek is een gelijktijdige bron over het leven in onderduik.",
+      "contributions": [
+        "Het dagboek van Anne Frank"
+      ],
+      "modules": [
+        4
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "reinhard-heydrich",
+      "name": "Heydrich",
+      "full_name": "Reinhard Heydrich",
+      "lived": "1904 – 1942",
+      "sort_year": 1942,
+      "region": "Duitsland",
+      "known_for": "Chef van het Reichssicherheitshauptamt en voorzitter van de Wannsee-conferentie.",
+      "bio": "Heydrich zat de Wannsee-conferentie van 20 januari 1942 voor. Hij overleed in juni 1942 aan de gevolgen van een aanslag in Praag.",
+      "contributions": [
+        "Wannsee-conferentie"
+      ],
+      "modules": [
+        4
+      ],
+      "timeline": [
+        "wannsee-conferentie-1942"
+      ],
+      "image": null
+    },
+    {
+      "id": "adolf-eichmann",
+      "name": "Eichmann",
+      "full_name": "Adolf Eichmann",
+      "lived": "1906 – 1962",
+      "sort_year": 1942,
+      "region": "Duitsland",
+      "known_for": "SS-functionaris die het vervoer van Joden naar de vernietigingskampen organiseerde.",
+      "bio": "Eichmann stelde het verslag van de Wannsee-conferentie op. Hij werd in 1960 in Argentinië opgespoord, in Israël berecht en in 1962 geëxecuteerd.",
+      "contributions": [
+        "Organisator van de deportaties"
+      ],
+      "modules": [
+        4
+      ],
+      "timeline": [
+        "wannsee-conferentie-1942"
+      ],
+      "image": null
+    },
+    {
+      "id": "hans-blom",
+      "name": "Blom",
+      "full_name": "Hans Blom",
+      "lived": "geboren 1943",
+      "sort_year": 1943,
+      "region": "Nederland",
+      "known_for": "Historicus van de bezettingstijd, bekend van In de ban van goed en fout.",
+      "bio": "Blom betoogde in 1983 dat de bezetting eerst zonder morele oordelen moet worden onderzocht, omdat een indeling in goed en fout de vragen bepaalt.",
+      "contributions": [
+        "In de ban van goed en fout"
+      ],
+      "modules": [
+        3
+      ],
+      "timeline": [
+        "blom-in-de-ban-1983"
+      ],
+      "image": null
+    },
+    {
+      "id": "jules-schelvis",
+      "name": "Schelvis",
+      "full_name": "Jules Schelvis",
+      "lived": "1921 – 2016",
+      "sort_year": 1943,
+      "region": "Amsterdam",
+      "known_for": "Een van de weinige overlevenden van Sobibor.",
+      "bio": "Schelvis werd in 1943 vanuit Westerbork naar Sobibor gedeporteerd. Hij werd voor dwangarbeid geselecteerd en schreef er na de oorlog over.",
+      "contributions": [
+        "Getuigenis over Sobibor"
+      ],
+      "modules": [
+        4
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "dwight-eisenhower",
+      "name": "Eisenhower",
+      "full_name": "Dwight David Eisenhower",
+      "lived": "1890 – 1969",
+      "sort_year": 1944,
+      "region": "Verenigde Staten",
+      "known_for": "Opperbevelhebber van de geallieerde expeditiemacht tijdens de landing in Normandië.",
+      "bio": "Eisenhower leidde Operatie Overlord en schreef vooraf een briefje voor het geval de landing zou mislukken. Hij werd later president van de Verenigde Staten (1953–1961).",
+      "contributions": [
+        "Opperbevelhebber bij D-Day"
+      ],
+      "modules": [
+        2
+      ],
+      "timeline": [
+        "d-day-1944"
+      ],
+      "image": null
+    },
+    {
+      "id": "otto-frank",
+      "name": "Otto Frank",
+      "full_name": "Otto Heinrich Frank",
+      "lived": "1889 – 1980",
+      "sort_year": 1947,
+      "region": "Nederland",
+      "known_for": "Vader van Anne Frank en enige overlevende van het gezin uit het Achterhuis.",
+      "bio": "Otto Frank kreeg na de oorlog de dagboeken van zijn dochter in handen, stelde een eerste uitgave samen en liet ze in 1947 publiceren.",
+      "contributions": [
+        "Uitgave van Het Achterhuis"
+      ],
+      "modules": [
+        4
+      ],
+      "timeline": [
+        "achterhuis-1947"
+      ],
+      "image": null
+    },
+    {
+      "id": "a-j-p-taylor",
+      "name": "Taylor",
+      "full_name": "Alan John Percivale Taylor",
+      "lived": "1906 – 1990",
+      "sort_year": 1961,
+      "region": "Verenigd Koninkrijk",
+      "known_for": "Britse historicus die in 1961 een omstreden herinterpretatie van de oorsprong van de oorlog schreef.",
+      "bio": "Taylor was een veelgelezen en veelgehoorde historicus. In The Origins of the Second World War beschreef hij Hitler als opportunist, en de oorlog als gevolg van misrekeningen. Het boek leidde tot een lang debat.",
+      "contributions": [
+        "The Origins of the Second World War"
+      ],
+      "modules": [
+        1
+      ],
+      "timeline": [
+        "taylor-origins-1961"
+      ],
+      "image": null
+    },
+    {
+      "id": "raul-hilberg",
+      "name": "Hilberg",
+      "full_name": "Raul Hilberg",
+      "lived": "1926 – 2007",
+      "sort_year": 1961,
+      "region": "Verenigde Staten",
+      "known_for": "Auteur van The Destruction of the European Jews.",
+      "bio": "Hilberg beschreef de Holocaust als een bureaucratisch proces met opeenvolgende stappen.",
+      "contributions": [
+        "The Destruction of the European Jews"
+      ],
+      "modules": [
+        4
+      ],
+      "timeline": [
+        "hilberg-destruction-1961"
+      ],
+      "image": null
+    },
+    {
+      "id": "jacques-presser",
+      "name": "Presser",
+      "full_name": "Jacques Presser",
+      "lived": "1899 – 1970",
+      "sort_year": 1965,
+      "region": "Nederland",
+      "known_for": "Historicus en schrijver van Ondergang, de geschiedenis van de vervolging van de Nederlandse Joden.",
+      "bio": "Presser, zelf Joods en overlevende, publiceerde in 1965 Ondergang, een vroege en invloedrijke studie van de Jodenvervolging in Nederland op verzoek van het Rijksinstituut voor Oorlogsdocumentatie.",
+      "contributions": [
+        "Ondergang (1965)"
+      ],
+      "modules": [
+        3
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "loe-de-jong",
+      "name": "De Jong",
+      "full_name": "Loe de Jong",
+      "lived": "1914 – 2005",
+      "sort_year": 1969,
+      "region": "Nederland",
+      "known_for": "Directeur van het RIOD en auteur van Het Koninkrijk der Nederlanden in de Tweede Wereldoorlog.",
+      "bio": "De Jong maakte de televisieserie De Bezetting en schreef een veertiendelig overzichtswerk, dat de bezettingstijd met een morele maatstaf van goed en fout ordent.",
+      "contributions": [
+        "Het Koninkrijk der Nederlanden in de Tweede Wereldoorlog"
+      ],
+      "modules": [
+        3
+      ],
+      "timeline": [],
+      "image": null
+    },
+    {
+      "id": "christopher-browning",
+      "name": "Browning",
+      "full_name": "Christopher Browning",
+      "lived": "geboren 1944",
+      "sort_year": 1992,
+      "region": "Verenigde Staten",
+      "known_for": "Auteur van Ordinary Men.",
+      "bio": "Browning onderzocht Reserve-Politiebataljon 101 en verklaarde het daderschap uit groepsdruk, gezagsgehoorzaamheid en gewenning.",
+      "contributions": [
+        "Ordinary Men"
+      ],
+      "modules": [
+        4
+      ],
+      "timeline": [
+        "browning-ordinary-men-1992"
+      ],
+      "image": null
+    },
+    {
+      "id": "richard-overy",
+      "name": "Overy",
+      "full_name": "Richard Overy",
+      "lived": "geboren 1947",
+      "sort_year": 1995,
+      "region": "Verenigd Koninkrijk",
+      "known_for": "Britse historicus van de oorlogseconomie en de oorlog.",
+      "bio": "Overy schreef onder meer Why the Allies Won (1995) en The Bombing War (2013), en bracht de economische kant van de oorlog in het centrum van het debat.",
+      "contributions": [
+        "Why the Allies Won"
+      ],
+      "modules": [
+        2
+      ],
+      "timeline": [
+        "overy-why-allies-won-1995"
+      ],
+      "image": null
+    }
+  ]
+}

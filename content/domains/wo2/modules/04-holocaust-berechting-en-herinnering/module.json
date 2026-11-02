@@ -3,7 +3,7 @@
   "slug": "holocaust-berechting-en-herinnering",
   "title": "Holocaust, berechting en herinnering",
   "part": 2,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 3,
   "estimated_minutes": 110,
   "prerequisites": [
@@ -18,5 +18,102 @@
   ],
   "core_question": "Hoe werd uitsluiting massamoord, en hoe gingen samenlevingen daarna om met schuld en herinnering?",
   "summary": "Van uitsluiting naar genocide (Einsatzgruppen, Wannsee, vernietigingskampen), daders, omstanders en slachtoffers, de bevrijding van de kampen, de processen van Neurenberg en Tokio, de bijzondere rechtspleging in Nederland, en de herinneringscultuur van 4 en 5 mei.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een toespraak in Posen",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "van-uitsluiting-naar-genocide",
+      "title": "Van uitsluiting naar genocide",
+      "file": "02-van-uitsluiting-naar-genocide.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "berechting-terugkeer-en-herinnering",
+      "title": "Berechting, terugkeer en herinnering",
+      "file": "03-berechting-terugkeer-en-herinnering.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum: daderrapport, dagboek en getuigenis",
+      "file": "04-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt het proces van uitsluiting naar genocide beschrijven (Einsatzgruppen, Wannsee, vernietigingskampen, Auschwitz) en cijfers met bron en marge noemen.",
+    "Je kunt de rol van daders, omstanders en slachtoffers onderscheiden en Hilbergs driedeling en het debat tussen Browning en Goldhagen weergeven.",
+    "Je kunt de bevrijding van de kampen en de processen van Neurenberg en Tokio beschrijven en beoordelen.",
+    "Je kunt de Nederlandse bijzondere rechtspleging en de ontvangst van overlevenden beschrijven.",
+    "Je kunt uitleggen hoe de herinneringscultuur in Nederland veranderde (4 en 5 mei, Het Achterhuis, monumenten, 15 augustus).",
+    "Je kunt een daderrapport, een dagboek en een getuigenis vergelijken op herkomst, doel, leemtes en handeling."
+  ],
+  "glossary": [
+    {
+      "term": "Einsatzgruppen",
+      "definition": "Mobiele eenheden van SS en politie die vanaf juni 1941 in het bezette oosten mensen, vooral Joden, doodschoten."
+    },
+    {
+      "term": "Eindoplossing",
+      "definition": "Nazistische omschrijving van de georganiseerde moord op de Joden van Europa."
+    },
+    {
+      "term": "Vernietigingskamp",
+      "definition": "Een kamp dat was ingericht om mensen na aankomst te doden, zoals Sobibór en Auschwitz-Birkenau."
+    },
+    {
+      "term": "Omstander",
+      "definition": "Iemand die ziet of weet wat er gebeurt en wegkijkt, helpt of profiteert, in Hilbergs driedeling naast daders en slachtoffers."
+    },
+    {
+      "term": "Neurenberg-principe",
+      "definition": "Het beginsel dat een individu strafrechtelijk verantwoordelijk is voor misdrijven tegen het volkenrecht, ook als hij op bevel handelde."
+    },
+    {
+      "term": "Bijzondere rechtspleging",
+      "definition": "Het Nederlandse stelsel van tribunalen en gerechtshoven voor het berechten van collaboratie en oorlogsmisdrijven na 1945."
+    },
+    {
+      "term": "Herinneringscultuur",
+      "definition": "De manier waarop een samenleving een verleden herdenkt, vertelt en betekenis geeft."
+    },
+    {
+      "term": "Triangulatie",
+      "definition": "Het naast elkaar leggen van bronnen met verschillend perspectief om een gebeurtenis te controleren."
+    }
+  ],
+  "timeline": [
+    "wannsee-conferentie-1942",
+    "hilberg-destruction-1961",
+    "browning-ordinary-men-1992",
+    "babi-jar-1941",
+    "posen-toespraak-1943",
+    "bevrijding-auschwitz-1945",
+    "neurenberg-proces-1945-1946",
+    "tokio-tribunaal-1946-1948",
+    "bijzondere-rechtspleging-1945",
+    "achterhuis-1947",
+    "nationaal-monument-dam-1956",
+    "namenmonument-2021"
+  ],
+  "people": [
+    "anne-frank",
+    "jules-schelvis",
+    "raul-hilberg",
+    "christopher-browning",
+    "reinhard-heydrich",
+    "heinrich-himmler",
+    "adolf-eichmann",
+    "otto-frank"
+  ]
 }

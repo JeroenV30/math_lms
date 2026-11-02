@@ -3,7 +3,7 @@
   "slug": "nederland-en-indie-in-oorlog",
   "title": "Nederland en Indië in oorlog",
   "part": 2,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 3,
   "estimated_minutes": 110,
   "prerequisites": [
@@ -17,5 +17,103 @@
   ],
   "core_question": "Welke keuzes hadden Nederlanders onder de bezetting, en wat bepaalde die keuzes?",
   "summary": "De meidagen van 1940 en Rotterdam, het Duitse burgerlijk bestuur, aanpassing, collaboratie en verzet, de Februaristaking, de Jodenvervolging in Nederland, de Japanse bezetting van Nederlands-Indië, de Hongerwinter en de bevrijding.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een pamflet in februari 1941",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "bezetting-aanpassing-en-verzet",
+      "title": "Bezetting, aanpassing en verzet",
+      "file": "02-bezetting-aanpassing-en-verzet.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "vervolging-indie-en-bevrijding",
+      "title": "Vervolging, Indië en bevrijding",
+      "file": "03-vervolging-indie-en-bevrijding.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum: kranten uit een bezet land",
+      "file": "04-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt de meidagen van 1940 en de opbouw van het bezettingsbestuur (civiele lijn en SS-lijn) beschrijven.",
+    "Je kunt de keuzeruimte van ambtenaren en burgers onderscheiden en het debat tussen goed en fout en het grijze verleden weergeven.",
+    "Je kunt beschrijven hoe verzet verliep (Februaristaking, illegale pers, onderduik, LO en KP) en hoe collaboratie vorm kreeg.",
+    "Je kunt de stappen in de Jodenvervolging in Nederland noemen, het deportatiepercentage uitrekenen en de verklaringen in het debat weergeven.",
+    "Je kunt de Japanse bezetting van Nederlands-Indië en de Hongerwinter beschrijven, met cijfers en hun marge.",
+    "Je kunt een legale, een illegale en een naoorlogse bron vergelijken op herkomst, doel en leemtes."
+  ],
+  "glossary": [
+    {
+      "term": "Reichskommissar",
+      "definition": "De Duitse bestuurder van een bezet gebied met civiel bestuur; in Nederland Arthur Seyss-Inquart."
+    },
+    {
+      "term": "Secretarissen-generaal",
+      "definition": "De hoogste Nederlandse ambtenaren, die in 1940 de departementen leidden onder Duits toezicht."
+    },
+    {
+      "term": "NSB",
+      "definition": "Nationaal-Socialistische Beweging, de Nederlandse nationaalsocialistische partij onder Anton Mussert."
+    },
+    {
+      "term": "Februaristaking",
+      "definition": "De staking van 25–26 februari 1941 in Amsterdam en omgeving tegen de vervolging van Joodse Nederlanders."
+    },
+    {
+      "term": "LO en KP",
+      "definition": "De Landelijke Organisatie voor hulp aan onderduikers en de Landelijke Knokploegen, die onderduikers hielpen en gewapende acties uitvoerden."
+    },
+    {
+      "term": "Joodse Raad",
+      "definition": "Joods bestuursorgaan dat in 1941 in Amsterdam werd ingesteld en door de bezetter als doorgeefluik werd gebruikt."
+    },
+    {
+      "term": "Birma-spoorweg",
+      "definition": "Spoorlijn van 415 kilometer, aangelegd in 1942–1943 door geallieerde krijgsgevangenen en Aziatische dwangarbeiders."
+    },
+    {
+      "term": "Hongerwinter",
+      "definition": "De hongersnood in het westen van Nederland in de winter van 1944–1945."
+    }
+  ],
+  "timeline": [
+    "duitse-inval-nederland-1940",
+    "februaristaking-1941",
+    "eerste-transport-westerbork-1942",
+    "japanse-bezetting-indie-1942-1945",
+    "hongerwinter-1944-1945",
+    "blom-in-de-ban-1983",
+    "bombardement-rotterdam-1940",
+    "reichskommissariaat-1940",
+    "joodse-raad-1941",
+    "kalijati-capitulatie-1942",
+    "spoorwegstaking-1944",
+    "wageningen-capitulatie-1945"
+  ],
+  "people": [
+    "seyss-inquart",
+    "anton-mussert",
+    "loe-de-jong",
+    "hans-blom",
+    "wilhelmina",
+    "hanns-albin-rauter",
+    "david-cohen",
+    "jacques-presser",
+    "henri-winkelman"
+  ]
 }

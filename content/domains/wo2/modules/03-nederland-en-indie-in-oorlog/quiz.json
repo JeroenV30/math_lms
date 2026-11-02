@@ -1,0 +1,217 @@
+{
+  "title": "Hoofdstuktoets – Nederland en Indië in oorlog",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "03-T01",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wie werd in mei 1940 aangesteld als Reichskommissar voor de bezette Nederlandse gebieden?",
+      "choices": [
+        "Arthur Seyss-Inquart",
+        "Anton Mussert",
+        "Hanns Albin Rauter",
+        "Heinrich Himmler"
+      ],
+      "answer": "Arthur Seyss-Inquart",
+      "hints": [],
+      "solution": [
+        "Seyss-Inquart was een Oostenrijker die op 29 mei 1940 zijn functie aanvaardde."
+      ],
+      "topics": [
+        "occupation"
+      ],
+      "feedback": [
+        {
+          "answer": "Anton Mussert",
+          "message": "Mussert was de leider van de NSB en kreeg geen werkelijke macht."
+        }
+      ]
+    },
+    {
+      "id": "03-T02",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Duitse aanval op Nederland",
+        "Bombardement op Rotterdam",
+        "Oprichting van de Nederlandsche Unie",
+        "Februaristaking"
+      ],
+      "hints": [],
+      "solution": [
+        "10 mei 1940, 14 mei 1940, juli 1940, 25–26 februari 1941."
+      ],
+      "topics": [
+        "occupation"
+      ]
+    },
+    {
+      "id": "03-T03",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat was de Nederlandsche Unie?",
+      "choices": [
+        "Een beweging voor nationale eenheid uit 1940, die de bezetter in december 1941 verbood",
+        "Een illegale verzetskrant",
+        "De naam van de Joodse Raad",
+        "Een Nederlandse eenheid van de Waffen-SS"
+      ],
+      "answer": "Een beweging voor nationale eenheid uit 1940, die de bezetter in december 1941 verbood",
+      "hints": [],
+      "solution": [
+        "De Unie telde op haar hoogtepunt ongeveer 800.000 leden."
+      ],
+      "topics": [
+        "collaboration-resistance"
+      ]
+    },
+    {
+      "id": "03-T04",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Naar Sobibor werden uit Nederland 34.313 mensen gedeporteerd, van wie er 18 de oorlog overleefden. Welk percentage kwam om? Rond af op één decimaal.",
+      "answer": 99.9,
+      "tolerance": 0.06,
+      "hints": [],
+      "solution": [
+        "$(34\\,313 - 18) / 34\\,313 \\approx 0{,}9995$, dus 99,9% (afgerond op één decimaal 99,9%)."
+      ],
+      "topics": [
+        "holocaust"
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "03-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke bewering over het hoge deportatiepercentage van Nederlandse Joden (ongeveer driekwart, tegenover ongeveer 40% in België en 25% in Frankrijk) is het meest in lijn met het onderzoek?",
+      "choices": [
+        "Historici wegen meerdere factoren, zoals bestuur, SS-controle, geografie en wat men wist, en kennen geen enkele verklaring",
+        "Het komt alleen door de Nederlandse bevolkingsregistratie",
+        "Het komt alleen doordat Nederlanders antisemitischer waren dan Belgen",
+        "Het is slechts een rekenfout"
+      ],
+      "answer": "Historici wegen meerdere factoren, zoals bestuur, SS-controle, geografie en wat men wist, en kennen geen enkele verklaring",
+      "hints": [],
+      "solution": [
+        "Een eenduidig antwoord is er niet; de meeste historici noemen een combinatie."
+      ],
+      "topics": [
+        "holocaust"
+      ]
+    },
+    {
+      "id": "03-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom is de Februaristaking van 1941 bijzonder?",
+      "choices": [
+        "Het is de enige massale staking tegen de Jodenvervolging in bezet Europa",
+        "Het was de eerste staking van de Hongerwinter",
+        "De staking was gericht tegen de NSB",
+        "De staking werd door de Duitsers toegestaan"
+      ],
+      "answer": "Het is de enige massale staking tegen de Jodenvervolging in bezet Europa",
+      "hints": [],
+      "solution": [
+        "Ze volgde op de razzia's van 22 en 23 februari in Amsterdam."
+      ],
+      "topics": [
+        "collaboration-resistance"
+      ]
+    },
+    {
+      "id": "03-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat bedoelt men met het \"grijze verleden\" van Hans Blom?",
+      "choices": [
+        "Dat het gedrag van de meeste Nederlanders onder de bezetting zich niet in goed en fout laat indelen",
+        "Dat de oorlog vooral in de herfst plaatsvond",
+        "Dat de Nederlandse regering zich grijs had gekleed",
+        "Dat alle verzetsmensen collaboreerden"
+      ],
+      "answer": "Dat het gedrag van de meeste Nederlanders onder de bezetting zich niet in goed en fout laat indelen",
+      "hints": [],
+      "solution": [
+        "Blom stelde dit tegenover de tweedeling van Loe de Jong."
+      ],
+      "topics": [
+        "collaboration-resistance"
+      ]
+    },
+    {
+      "id": "03-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat zijn romusha?",
+      "choices": [
+        "Dwangarbeiders, vooral Indonesiërs, in de Japanse bezetting",
+        "Japanse officieren in Nederlands-Indië",
+        "Nederlandse krijgsgevangenen op Java",
+        "Leden van het KNIL"
+      ],
+      "answer": "Dwangarbeiders, vooral Indonesiërs, in de Japanse bezetting",
+      "hints": [],
+      "solution": [
+        "Het aantal slachtoffers is niet precies vast te stellen."
+      ],
+      "topics": [
+        "dutch-east-indies"
+      ]
+    },
+    {
+      "id": "03-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat veroorzaakte vooral dat het westen van Nederland in 1944–1945 honger leed?",
+      "choices": [
+        "Een Duits embargo op voedseltransport na de spoorwegstaking, gecombineerd met een strenge winter",
+        "Het mislukken van de oogst in heel Europa",
+        "De bevrijding van het zuiden die het westen afsneed van voedsel",
+        "Een Britse blokkade"
+      ],
+      "answer": "Een Duits embargo op voedseltransport na de spoorwegstaking, gecombineerd met een strenge winter",
+      "hints": [],
+      "solution": [
+        "Het was een combinatie van politieke maatregel en weer."
+      ],
+      "topics": [
+        "occupation"
+      ]
+    },
+    {
+      "id": "03-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een historicus gebruikt het Joodsche Weekblad (1941–1943) als bron. Wat is de juiste omschrijving van wat de bron wel en niet vertelt?",
+      "choices": [
+        "Ze toont wat de Joodse Raad onder Duits toezicht kon melden en wat Joodse lezers moesten weten, maar zegt weinig over het lot van de gedeporteerden",
+        "Ze toont het volledige lot van de gedeporteerden",
+        "Ze is een illegale krant van het verzet",
+        "Ze is waardeloos omdat de Joodse Raad bestond"
+      ],
+      "answer": "Ze toont wat de Joodse Raad onder Duits toezicht kon melden en wat Joodse lezers moesten weten, maar zegt weinig over het lot van de gedeporteerden",
+      "hints": [],
+      "solution": [
+        "Een bron geldt per vraag."
+      ],
+      "topics": [
+        "sources"
+      ]
+    }
+  ]
+}

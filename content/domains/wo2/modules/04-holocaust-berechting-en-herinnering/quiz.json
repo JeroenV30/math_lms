@@ -1,0 +1,212 @@
+{
+  "title": "Hoofdstuktoets – Holocaust, berechting en herinnering",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "04-T01",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat is een Einsatzgruppe?",
+      "choices": [
+        "Een mobiele eenheid van SS en politie die vanaf juni 1941 in het bezette oosten mensen, vooral Joden, doodschoot",
+        "Een vernietigingskamp",
+        "Een Joods bestuursorgaan",
+        "Een Nederlandse verzetsgroep"
+      ],
+      "answer": "Een mobiele eenheid van SS en politie die vanaf juni 1941 in het bezette oosten mensen, vooral Joden, doodschoot",
+      "hints": [],
+      "solution": [
+        "De Einsatzgruppen volgden de legers na het begin van Operatie Barbarossa."
+      ],
+      "topics": [
+        "holocaust"
+      ]
+    },
+    {
+      "id": "04-T02",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Neurenberger wetten",
+        "Novemberpogrom",
+        "Babi Jar",
+        "Wannsee-conferentie"
+      ],
+      "hints": [],
+      "solution": [
+        "1935, 1938, 29–30 september 1941, 20 januari 1942."
+      ],
+      "topics": [
+        "holocaust"
+      ]
+    },
+    {
+      "id": "04-T03",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is het Wannsee-protocol?",
+      "choices": [
+        "Het verslag van een bijeenkomst op 20 januari 1942 waarin de medewerking van ministeries aan de \"eindoplossing\" werd geregeld",
+        "Het besluit van Hitler om de Joden te doden",
+        "Een lijst van slachtoffers in Auschwitz",
+        "Een verdrag tussen Duitsland en de Sovjet-Unie"
+      ],
+      "answer": "Het verslag van een bijeenkomst op 20 januari 1942 waarin de medewerking van ministeries aan de \"eindoplossing\" werd geregeld",
+      "hints": [],
+      "solution": [
+        "Het protocol is geen besluit maar een bijeenkomst om de medewerking te regelen."
+      ],
+      "topics": [
+        "holocaust"
+      ]
+    },
+    {
+      "id": "04-T04",
+      "type": "decimal",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In Auschwitz kwamen volgens het Holocaust Memorial Museum ongeveer 1,1 miljoen mensen om. Van de Reinhard-kampen Bełżec, Sobibór en Treblinka noemt men samen ruim 1,5 miljoen doden. Hoeveel keer zoveel doden waren er in de Reinhard-kampen dan in Auschwitz? Rond af op één decimaal, met 1,5 miljoen als aanname.",
+      "answer": 1.4,
+      "tolerance": 0.05,
+      "hints": [],
+      "solution": [
+        "$1{,}5 / 1{,}1 \\approx 1{,}36$, afgerond 1,4."
+      ],
+      "topics": [
+        "holocaust"
+      ]
+    },
+    {
+      "id": "04-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat wil de uitdrukking \"ongeveer zes miljoen\" voor het aantal Joodse slachtoffers van de Holocaust zeggen?",
+      "choices": [
+        "Een afgeronde som van schattingen per land, met een marge van enkele honderdduizenden",
+        "Een exacte telling per persoon",
+        "Een propagandagetal",
+        "Het aantal slachtoffers van Auschwitz alleen"
+      ],
+      "answer": "Een afgeronde som van schattingen per land, met een marge van enkele honderdduizenden",
+      "hints": [],
+      "solution": [
+        "Cijfers voor afzonderlijke landen en kampen zijn vaak nauwkeuriger dan het totaal."
+      ],
+      "topics": [
+        "holocaust",
+        "sources"
+      ]
+    },
+    {
+      "id": "04-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de kern van Hilbergs driedeling?",
+      "choices": [
+        "De Holocaust beschrijven langs daders, omstanders en slachtoffers",
+        "De oorlog verdelen in drie fasen",
+        "De Joden verdelen in drie groepen",
+        "Nederland verdelen in drie zuilen"
+      ],
+      "answer": "De Holocaust beschrijven langs daders, omstanders en slachtoffers",
+      "hints": [],
+      "solution": [
+        "De titel is Perpetrators, Victims, Bystanders (1992)."
+      ],
+      "topics": [
+        "holocaust"
+      ]
+    },
+    {
+      "id": "04-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat was Neurenberg niet?",
+      "choices": [
+        "Een proces dat uitsluitend over de Holocaust ging",
+        "Een proces met een aanklacht over een agressieoorlog",
+        "Een proces waarin ook documenten uit eigen archieven van de Duitsers werden gebruikt",
+        "Een proces waarin sommige verdachten werden vrijgesproken"
+      ],
+      "answer": "Een proces dat uitsluitend over de Holocaust ging",
+      "hints": [],
+      "solution": [
+        "De aanklacht richtte zich zwaar op de agressieoorlog; er waren ook oorlogsmisdrijven en misdrijven tegen de menselijkheid."
+      ],
+      "topics": [
+        "justice"
+      ]
+    },
+    {
+      "id": "04-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke leider werd in Tokio niet vervolgd?",
+      "choices": [
+        "Keizer Hirohito",
+        "Hideki Tojo",
+        "Alle Japanse premiers",
+        "Alle Japanse generaals"
+      ],
+      "answer": "Keizer Hirohito",
+      "hints": [],
+      "solution": [
+        "De Amerikaanse bezettingsleiding koos ervoor om de stabiliteit te bewaren."
+      ],
+      "topics": [
+        "justice"
+      ]
+    },
+    {
+      "id": "04-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Welke bewering over de ontvangst van overlevenden in Nederland is het meest in lijn met het onderzoek?",
+      "choices": [
+        "Van de ongeveer 107.000 gedeporteerde Joden keerden ongeveer 5.000 terug, en veel van hen voelden zich niet gehoord",
+        "Alle overlevenden werden met open armen ontvangen",
+        "Er keerde niemand terug",
+        "De Nederlandse overheid betaalde meteen alles terug"
+      ],
+      "answer": "Van de ongeveer 107.000 gedeporteerde Joden keerden ongeveer 5.000 terug, en veel van hen voelden zich niet gehoord",
+      "hints": [],
+      "solution": [
+        "Het beeld is niet eenvormig: er was ook hulp."
+      ],
+      "topics": [
+        "memory",
+        "holocaust"
+      ]
+    },
+    {
+      "id": "04-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een historicus gebruikt een daderrapport, een dagboek en een getuigenis uit 1993 naast elkaar. Waarom?",
+      "choices": [
+        "Omdat elke bron een ander perspectief geeft en elk andere leemtes heeft, die ze wederzijds aanvullen en controleren",
+        "Omdat één bron altijd genoeg is",
+        "Omdat het dagboek altijd het meest betrouwbaar is",
+        "Omdat daderdocumenten altijd liegen"
+      ],
+      "answer": "Omdat elke bron een ander perspectief geeft en elk andere leemtes heeft, die ze wederzijds aanvullen en controleren",
+      "hints": [],
+      "solution": [
+        "Triangulatie: bronnen naast elkaar leggen."
+      ],
+      "topics": [
+        "sources"
+      ]
+    }
+  ]
+}

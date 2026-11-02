@@ -3,7 +3,7 @@
   "slug": "op-weg-naar-oorlog",
   "title": "Op weg naar oorlog",
   "part": 1,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
   "estimated_minutes": 100,
   "prerequisites": [],
@@ -14,5 +14,102 @@
   ],
   "core_question": "Waarom brak twintig jaar na 'de oorlog die alle oorlogen moest beëindigen' opnieuw een wereldoorlog uit?",
   "summary": "De vrede van Versailles, de crisis van de jaren dertig, de nazistaat, het Japanse expansionisme in Azië, de appeasementpolitiek en München, het Molotov-Ribbentroppact, en het debat over de oorzaken.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een artikel in een vredesverdrag",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "van-versailles-naar-de-crisis",
+      "title": "Van Versailles naar de crisis",
+      "file": "02-van-versailles-naar-de-crisis.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "nazistaat-expansie-en-appeasement",
+      "title": "De nazistaat, de expansie en het appeasement",
+      "file": "03-nazistaat-expansie-en-appeasement.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "bronnenpracticum",
+      "title": "Bronnenpracticum: drie documenten uit 1937–1939",
+      "file": "04-bronnenpracticum.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen hoe het Verdrag van Versailles, de hyperinflatie en de wereldcrisis bijdroegen aan de instabiliteit van het interbellum.",
+    "Je kunt beschrijven hoe Hitler in 1933–1934 aan de macht kwam en een dictatuur vestigde, en uitleggen dat de NSDAP nooit een meerderheid kreeg.",
+    "Je kunt de Italiaanse en Japanse expansie plaatsen en uitleggen waarom het begin van de oorlog afhangt van het gekozen criterium.",
+    "Je kunt appeasement, München en het Molotov-Ribbentroppact uitleggen vanuit de motieven en de kennis van de betrokkenen.",
+    "Je kunt het debat tussen Taylor en de intentionalisten weergeven.",
+    "Je kunt een bron beoordelen op herkomst, doel en leemtes, bijvoorbeeld het Hossbach-protocol."
+  ],
+  "glossary": [
+    {
+      "term": "Artikel 231",
+      "definition": "Artikel van het Verdrag van Versailles waarin Duitsland en zijn bondgenoten verantwoordelijk werden gehouden voor de schade; grondslag van de herstelbetalingen."
+    },
+    {
+      "term": "Gleichschaltung",
+      "definition": "Het gelijkschakelen van staat, partijen, organisaties en pers aan de nationaalsocialistische macht in 1933–1934."
+    },
+    {
+      "term": "Lebensraum",
+      "definition": "Leefruimte: het nazistische streven naar verovering van gebied in Oost-Europa voor het Duitse volk."
+    },
+    {
+      "term": "Appeasement",
+      "definition": "De Britse en Franse politiek om agressie te voorkomen door redelijk geachte eisen in te willigen."
+    },
+    {
+      "term": "Anschluss",
+      "definition": "De inlijving van Oostenrijk bij Duitsland in maart 1938."
+    },
+    {
+      "term": "Intentionalisme",
+      "definition": "De opvatting dat Hitler vanaf het begin een vast programma van oorlog en vernietiging volgde."
+    },
+    {
+      "term": "Hossbach-protocol",
+      "definition": "Verslag van Hitlers bijeenkomst met de legerleiding op 5 november 1937, door kolonel Hossbach opgesteld."
+    },
+    {
+      "term": "Volkenbond",
+      "definition": "Internationale organisatie uit 1920 voor collectieve veiligheid, zonder de Verenigde Staten en zonder eigen middelen om besluiten af te dwingen."
+    }
+  ],
+  "timeline": [
+    "verdrag-van-versailles-1919",
+    "beurskrach-1929",
+    "hitler-kanselier-1933",
+    "neurenberger-wetten-1935",
+    "novemberpogrom-1938",
+    "duitse-inval-polen-1939",
+    "mantsjoerije-incident-1931",
+    "rijnland-bezetting-1936",
+    "japan-china-oorlog-1937",
+    "conferentie-van-muenchen-1938",
+    "molotov-ribbentroppact-1939",
+    "taylor-origins-1961"
+  ],
+  "people": [
+    "hitler",
+    "mussolini",
+    "stalin",
+    "woodrow-wilson",
+    "hindenburg",
+    "neville-chamberlain",
+    "hirohito",
+    "a-j-p-taylor"
+  ]
 }

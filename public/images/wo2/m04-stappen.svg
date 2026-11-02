@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" font-family="Georgia, serif" font-size="14">
+  <rect width="900" height="300" fill="#ffffff"/>
+  <text x="450" y="28" text-anchor="middle" font-size="16" fill="#1f2933">Van uitsluiting naar genocide: stappen, 1933–1945</text>
+  <g fill="#ffffff" stroke="#1f2933" stroke-width="1.5">
+    <rect x="30" y="60" width="190" height="120"/><rect x="250" y="60" width="190" height="120"/><rect x="470" y="60" width="190" height="120"/><rect x="690" y="60" width="190" height="120"/>
+  </g>
+  <rect x="690" y="60" width="190" height="120" fill="none" stroke="#9c6b30" stroke-width="3"/>
+  <g stroke="#3b5bdb" stroke-width="2" fill="#3b5bdb">
+    <line x1="220" y1="120" x2="244" y2="120"/><polygon points="250,120 241,115 241,125"/>
+    <line x1="440" y1="120" x2="464" y2="120"/><polygon points="470,120 461,115 461,125"/>
+    <line x1="660" y1="120" x2="684" y2="120"/><polygon points="690,120 681,115 681,125"/>
+  </g>
+  <g fill="#1f2933" text-anchor="middle">
+    <text x="125" y="90" font-weight="bold">Definitie</text><text x="125" y="115" font-size="12">Boycot 1933,</text><text x="125" y="133" font-size="12">Neurenberger wetten</text><text x="125" y="151" font-size="12">1935</text>
+    <text x="345" y="90" font-weight="bold">Onteigening</text><text x="345" y="115" font-size="12">Uitsluiting uit beroepen,</text><text x="345" y="133" font-size="12">pogrom 1938,</text><text x="345" y="151" font-size="12">registratie</text>
+    <text x="565" y="90" font-weight="bold">Concentratie</text><text x="565" y="115" font-size="12">Getto's vanaf 1939,</text><text x="565" y="133" font-size="12">Jodenster,</text><text x="565" y="151" font-size="12">doorgangskampen</text>
+    <text x="785" y="90" font-weight="bold">Vernietiging</text><text x="785" y="115" font-size="12">Einsatzgruppen 1941,</text><text x="785" y="133" font-size="12">vernietigingskampen</text><text x="785" y="151" font-size="12">1941–1945</text>
+  </g>
+  <line x1="30" y1="215" x2="880" y2="215" stroke="#1f2933" stroke-width="1.5"/>
+  <g fill="#1f2933" font-size="12" text-anchor="middle">
+    <text x="30" y="235">1933</text><text x="355" y="235">1938</text><text x="580" y="235">1941</text><text x="880" y="235">1945</text>
+  </g>
+  <g stroke="#1f2933"><line x1="30" y1="210" x2="30" y2="220"/><line x1="355" y1="210" x2="355" y2="220"/><line x1="580" y1="210" x2="580" y2="220"/><line x1="880" y1="210" x2="880" y2="220"/></g>
+  <text x="30" y="276" font-size="11" fill="#1f2933">Naar Hilberg, The Destruction of the European Jews (1961); eigen vereenvoudigd schema. De stappen overlappen elkaar in de tijd.</text>
+</svg>
