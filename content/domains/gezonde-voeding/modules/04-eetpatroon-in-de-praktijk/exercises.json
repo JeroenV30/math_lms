@@ -1,0 +1,280 @@
+{
+  "exercises": [
+    {
+      "id": "04-001",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Iemand weegt 85 kg en is 1,80 m lang. Bereken de BMI met gewicht gedeeld door lengte in het kwadraat. Rond af op één decimaal.",
+      "answer": 26.2,
+      "tolerance": 0.06,
+      "hints": [
+        "Kwadrateer eerst de lengte in meters."
+      ],
+      "solution": [
+        "$1{,}80^2 = 3{,}24$.",
+        "$85 / 3{,}24 \\approx 26{,}2$."
+      ],
+      "topics": [
+        "body-weight"
+      ],
+      "feedback": [
+        {
+          "answer": 47.2,
+          "message": "Je deelde door de lengte, niet door het kwadraat van de lengte. Gebruik $1{,}80^2 = 3{,}24$."
+        }
+      ]
+    },
+    {
+      "id": "04-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Volgens de indeling van de WHO: in welke klasse valt een volwassene met een BMI van 27?",
+      "choices": [
+        "Overgewicht",
+        "Normaal gewicht",
+        "Obesitas",
+        "Ondergewicht"
+      ],
+      "answer": "Overgewicht",
+      "hints": [],
+      "solution": [
+        "De WHO noemt een BMI van 25 tot 30 overgewicht."
+      ],
+      "topics": [
+        "body-weight"
+      ],
+      "feedback": [
+        {
+          "answer": "Obesitas",
+          "message": "Obesitas begint bij een BMI van 30."
+        }
+      ]
+    },
+    {
+      "id": "04-003",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een vrouw heeft een BMI van 24 en een buikomvang van 90 cm. Verhoogd is bij vrouwen vanaf 80 cm en sterk verhoogd vanaf 88 cm. Wat is de beste conclusie?",
+      "choices": [
+        "De buikomvang is sterk verhoogd, ondanks een normale BMI",
+        "Alles is normaal, want de BMI is normaal",
+        "Alleen de BMI telt",
+        "De buikomvang is niet verhoogd"
+      ],
+      "answer": "De buikomvang is sterk verhoogd, ondanks een normale BMI",
+      "hints": [],
+      "solution": [
+        "90 cm ligt boven 88 cm. De BMI onderschat hier het risico, omdat ze niets zegt over de plek van het vet."
+      ],
+      "topics": [
+        "body-weight"
+      ]
+    },
+    {
+      "id": "04-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Iemand wil 5 kg vet verliezen. Reken met 7.700 kcal per kg en een dagelijks tekort van 500 kcal. Hoeveel weken duurt dat?",
+      "answer": 11,
+      "hints": [
+        "Reken eerst het tekort per week uit."
+      ],
+      "solution": [
+        "$5 \\times 7700 = 38500$ kcal.",
+        "Per week: $7 \\times 500 = 3500$ kcal.",
+        "$38500 / 3500 = 11$ weken."
+      ],
+      "topics": [
+        "body-weight",
+        "diets"
+      ],
+      "unit": "weken",
+      "feedback": [
+        {
+          "answer": 77,
+          "message": "Je deelde door het tekort per dag. De vraag gaat over het tekort per week: 3.500 kcal."
+        }
+      ]
+    },
+    {
+      "id": "04-005",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom vlakt gewichtsverlies bij een gelijk energietekort na verloop van tijd af?",
+      "choices": [
+        "Het lichaam verbruikt minder en de eetlust stijgt, waardoor het tekort kleiner wordt",
+        "De wet van behoud van energie geldt dan niet meer",
+        "Vet wordt na enkele maanden niet meer verbrand",
+        "Het tekort groeit juist"
+      ],
+      "answer": "Het lichaam verbruikt minder en de eetlust stijgt, waardoor het tekort kleiner wordt",
+      "hints": [],
+      "solution": [
+        "Een lichter lichaam verbruikt minder en het lichaam past verbruik en eetlust aan. Het energietekort wordt daardoor kleiner."
+      ],
+      "topics": [
+        "body-weight",
+        "diets"
+      ],
+      "feedback": [
+        {
+          "answer": "De wet van behoud van energie geldt dan niet meer",
+          "message": "De energiebalans blijft gelden; het lichaam past inname en verbruik aan."
+        }
+      ]
+    },
+    {
+      "id": "04-006",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "In de DIETFITS-studie werden ruim 600 volwassenen met overgewicht willekeurig toegewezen aan een gezond vetarm of een gezond koolhydraatarm dieet. Wat was na twaalf maanden de uitkomst?",
+      "choices": [
+        "Het gemiddelde gewichtsverlies was in beide groepen vergelijkbaar",
+        "Het koolhydraatarme dieet gaf tweemaal zoveel gewichtsverlies",
+        "Het vetarme dieet gaf geen gewichtsverlies",
+        "Niemand verloor gewicht"
+      ],
+      "answer": "Het gemiddelde gewichtsverlies was in beide groepen vergelijkbaar",
+      "hints": [],
+      "solution": [
+        "Het gemiddelde verschil tussen de diëten was klein; de verschillen tussen personen binnen elke groep waren groot."
+      ],
+      "topics": [
+        "diets"
+      ]
+    },
+    {
+      "id": "04-007",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat laat gerandomiseerd onderzoek tot nu toe zien over periodiek vasten, vergeleken met een gewone beperking van de energie-inname?",
+      "choices": [
+        "Gemiddeld ongeveer hetzelfde gewichtsverlies bij hetzelfde tekort",
+        "Veel meer gewichtsverlies",
+        "Altijd gewichtstoename",
+        "Een aangetoonde bescherming tegen hartziekte"
+      ],
+      "answer": "Gemiddeld ongeveer hetzelfde gewichtsverlies bij hetzelfde tekort",
+      "hints": [],
+      "solution": [
+        "Het energietekort lijkt te bepalen hoeveel iemand afvalt; of periodiek vasten een eigen gezondheidsvoordeel heeft is niet aangetoond."
+      ],
+      "topics": [
+        "diets"
+      ]
+    },
+    {
+      "id": "04-008",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "De aanbevolen hoeveelheid eiwit voor een gezonde volwassene is ongeveer 0,8 gram per kilogram lichaamsgewicht per dag. Hoeveel gram eiwit is dat voor iemand van 75 kg?",
+      "answer": 60,
+      "hints": [],
+      "solution": [
+        "$0{,}8 \\times 75 = 60$ gram per dag."
+      ],
+      "topics": [
+        "macronutrients",
+        "diets"
+      ],
+      "unit": "g"
+    },
+    {
+      "id": "04-009",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een krachtsporter van 70 kg streeft naar 1,6 gram eiwit per kilogram per dag. Hoeveel gram eiwit is dat per dag?",
+      "answer": 112,
+      "hints": [],
+      "solution": [
+        "$1{,}6 \\times 70 = 112$ gram per dag."
+      ],
+      "topics": [
+        "macronutrients",
+        "diets"
+      ],
+      "unit": "g",
+      "feedback": [
+        {
+          "answer": 56,
+          "message": "Dat is de aanbevolen hoeveelheid van 0,8 gram per kilogram. De sporter streeft naar 1,6 gram per kilogram."
+        }
+      ]
+    },
+    {
+      "id": "04-010",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat staat vast over ultrabewerkt voedsel (NOVA-groep 4), en wat niet?",
+      "choices": [
+        "Een hoge inname gaat samen met een slechter eetpatroon en meer risico, maar of de bewerking zelf de oorzaak is, is niet vastgesteld",
+        "Het veroorzaakt aantoonbaar kanker",
+        "Het is aantoonbaar volledig onschadelijk",
+        "Alleen frisdrank valt erin"
+      ],
+      "answer": "Een hoge inname gaat samen met een slechter eetpatroon en meer risico, maar of de bewerking zelf de oorzaak is, is niet vastgesteld",
+      "hints": [],
+      "solution": [
+        "Observationeel onderzoek laat een verband zien en een kleine gecontroleerde studie liet meer eten zien, maar de bewerking is moeilijk los te maken van de samenstelling."
+      ],
+      "topics": [
+        "diets"
+      ],
+      "feedback": [
+        {
+          "answer": "Het veroorzaakt aantoonbaar kanker",
+          "message": "Observationeel onderzoek toont een verband; dat is geen bewijs van oorzaak."
+        }
+      ]
+    },
+    {
+      "id": "04-011",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Sven eet vijf avonden per week 100 gram vlees. Hij vervangt twee van die avonden door een maaltijd met peulvruchten. Hoeveel gram vlees eet hij daarna per week via de avondmaaltijd?",
+      "answer": 300,
+      "hints": [],
+      "solution": [
+        "Hij houdt $5 - 2 = 3$ vleesavonden over.",
+        "$3 \\times 100 = 300$ gram per week."
+      ],
+      "topics": [
+        "meal-planning"
+      ],
+      "unit": "g",
+      "feedback": [
+        {
+          "answer": 200,
+          "message": "Dat is het vlees dat hij laat vervallen. De vraag is hoeveel hij overhoudt."
+        }
+      ]
+    },
+    {
+      "id": "04-012",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Het advies is gemiddeld 250 gram peulvruchten per week (stand 2026). Sven kookt twee maaltijden per week met peulvruchten. Hoeveel gram peulvruchten moet elke maaltijd bevatten om op 250 gram per week uit te komen?",
+      "answer": 125,
+      "hints": [],
+      "solution": [
+        "$250 / 2 = 125$ gram per maaltijd."
+      ],
+      "topics": [
+        "meal-planning"
+      ],
+      "unit": "g"
+    }
+  ]
+}

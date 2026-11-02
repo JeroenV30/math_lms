@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img" aria-label="Bewijspiramide met zes lagen, van meta-analyse bovenaan tot dierproeven en mechanistisch onderzoek onderaan">
+<rect width="640" height="340" fill="#ffffff"/>
+<g font-family="sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" stroke="#1f2933" stroke-width="1.5">
+<path d="M320 30 L350 30 L370 70 L270 70 L290 30 Z" fill="#3b5bdb" stroke="#1f2933"/>
+<text x="320" y="55" fill="#ffffff" stroke="none" font-weight="bold">Meta-analyse</text>
+<path d="M270 70 L370 70 L395 110 L245 110 Z" fill="#748ffc"/>
+<text x="320" y="95" stroke="none" font-weight="bold">Gerandomiseerd onderzoek</text>
+<path d="M245 110 L395 110 L420 150 L220 150 Z" fill="#bac8ff"/>
+<text x="320" y="135" stroke="none">Cohortonderzoek</text>
+<path d="M220 150 L420 150 L445 190 L195 190 Z" fill="#dbe4ff"/>
+<text x="320" y="175" stroke="none">Patiënt-controleonderzoek</text>
+<path d="M195 190 L445 190 L470 230 L170 230 Z" fill="#edf2ff"/>
+<text x="320" y="215" stroke="none">Dwarsdoorsnede-onderzoek</text>
+<path d="M170 230 L470 230 L495 270 L145 270 Z" fill="#f8f9fa"/>
+<text x="320" y="255" stroke="none">Dierproeven, mechanismen</text>
+<text x="320" y="305" stroke="none" fill="#3b5bdb">Hoe hoger, hoe sterker het bewijs voor oorzaak en gevolg, mits goed uitgevoerd.</text>
+<text x="320" y="324" stroke="none">Een meta-analyse is zo goed als de studies waaruit ze bestaat.</text>
+</g>
+</svg>

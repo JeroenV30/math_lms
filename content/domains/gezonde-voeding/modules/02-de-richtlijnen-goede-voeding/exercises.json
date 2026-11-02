@@ -1,0 +1,287 @@
+{
+  "exercises": [
+    {
+      "id": "02-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke van deze uitkomsten hoort bij de eindpunten waarmee de Gezondheidsraad voor de richtlijnen van 2015 de relatie tussen voeding en gezondheid beoordeelde?",
+      "choices": [
+        "Hart- en vaatziekten",
+        "Het aantal gekochte maaltijden per week",
+        "De smaakvoorkeur van deelnemers",
+        "Het aantal boodschappen per maand"
+      ],
+      "answer": "Hart- en vaatziekten",
+      "hints": [],
+      "solution": [
+        "De commissie begon bij gezondheidsuitkomsten, zoals hart- en vaatziekten, diabetes type 2, bepaalde kankers en sterfte, en zocht per voedingsmiddel naar het verband daarmee."
+      ],
+      "topics": [
+        "dietary-guidelines"
+      ]
+    },
+    {
+      "id": "02-002",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet de stappen in de keten van bewijs naar bord in volgorde, van eerst naar laatst.",
+      "answer": [
+        "Wetenschappelijk onderzoek",
+        "Systematische beoordeling door de Gezondheidsraad",
+        "Richtlijnen goede voeding",
+        "Vertaling in de Schijf van Vijf door het Voedingscentrum",
+        "Jouw eigen eetpatroon"
+      ],
+      "hints": [],
+      "solution": [
+        "Onderzoek wordt beoordeeld, de beoordeling leidt tot richtlijnen, het Voedingscentrum vertaalt die naar de Schijf van Vijf, en die wordt toegepast in het eetpatroon."
+      ],
+      "topics": [
+        "dietary-guidelines",
+        "food-groups"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Wetenschappelijk onderzoek",
+            "Richtlijnen goede voeding",
+            "Systematische beoordeling door de Gezondheidsraad",
+            "Vertaling in de Schijf van Vijf door het Voedingscentrum",
+            "Jouw eigen eetpatroon"
+          ],
+          "message": "De beoordeling van het bewijs komt voor de richtlijn: een richtlijn is het resultaat van die beoordeling."
+        }
+      ]
+    },
+    {
+      "id": "02-003",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat betekent de bewijsgraad overtuigend in de werkwijze van de Gezondheidsraad?",
+      "choices": [
+        "Er is veel consistent onderzoek van goede kwaliteit en een verklarend mechanisme",
+        "Er is slechts één groot onderzoek",
+        "Er is alleen onderzoek bij dieren",
+        "Het verband is waarschijnlijk, maar de richting is onduidelijk"
+      ],
+      "answer": "Er is veel consistent onderzoek van goede kwaliteit en een verklarend mechanisme",
+      "hints": [],
+      "solution": [
+        "Overtuigend is de hoogste graad: consistent onderzoek, bij voorkeur ook gerandomiseerd, en een aannemelijk mechanisme."
+      ],
+      "topics": [
+        "dietary-guidelines"
+      ],
+      "feedback": [
+        {
+          "answer": "Er is slechts één groot onderzoek",
+          "message": "Eén onderzoek, hoe groot ook, levert zelden een overtuigend bewijs: de commissie zoekt consistentie tussen meerdere onderzoeken."
+        }
+      ]
+    },
+    {
+      "id": "02-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Mark eet gemiddeld 120 gram groente per dag. De richtlijn is minstens 200 gram per dag. Hoeveel procent van de richtlijn haalt hij?",
+      "answer": 60,
+      "hints": [],
+      "solution": [
+        "$120 / 200 = 0{,}6$, dus 60%."
+      ],
+      "topics": [
+        "dietary-guidelines",
+        "food-groups"
+      ],
+      "unit": "%",
+      "feedback": [
+        {
+          "answer": 80,
+          "message": "Dit is het tekort in gram. De vraag gaat over het percentage van de richtlijn dat hij haalt."
+        }
+      ]
+    },
+    {
+      "id": "02-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "De richtlijn voor zout is hooguit 6 gram per dag. Iemand eet gemiddeld 9 gram zout per dag. Hoeveel procent meer is dat dan de richtlijn?",
+      "answer": 50,
+      "hints": [
+        "Deel het verschil door de richtlijn, niet door de inname."
+      ],
+      "solution": [
+        "Het verschil is $9 - 6 = 3$ gram.",
+        "$3 / 6 = 0{,}5$, dus 50% meer."
+      ],
+      "topics": [
+        "dietary-guidelines"
+      ],
+      "unit": "%",
+      "feedback": [
+        {
+          "answer": 33,
+          "message": "Je deelde het verschil door de inname (9 gram). Het percentage meer is ten opzichte van de richtlijn van 6 gram."
+        }
+      ]
+    },
+    {
+      "id": "02-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "De richtlijn voor rood vlees is hooguit 300 gram per week. Iemand eet vier porties van 90 gram per week. Hoeveel gram zit hij boven de richtlijn?",
+      "answer": 60,
+      "hints": [],
+      "solution": [
+        "$4 \\times 90 = 360$ gram per week.",
+        "$360 - 300 = 60$ gram boven de richtlijn."
+      ],
+      "topics": [
+        "dietary-guidelines"
+      ],
+      "unit": "g",
+      "feedback": [
+        {
+          "answer": 360,
+          "message": "Dit is zijn totale inname. De vraag is hoeveel hij boven de richtlijn zit."
+        }
+      ]
+    },
+    {
+      "id": "02-007",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat adviseerde de Gezondheidsraad in 2015 over alcohol?",
+      "choices": [
+        "Liever geen alcohol, en anders hooguit één glas per dag",
+        "Twee glazen per dag zijn gezond voor het hart",
+        "Alleen rode wijn is veilig",
+        "Er is geen advies mogelijk"
+      ],
+      "answer": "Liever geen alcohol, en anders hooguit één glas per dag",
+      "hints": [],
+      "solution": [
+        "De Gezondheidsraad adviseerde liever geen alcohol en, als je het toch drinkt, niet meer dan één glas per dag."
+      ],
+      "topics": [
+        "dietary-guidelines"
+      ],
+      "feedback": [
+        {
+          "answer": "Twee glazen per dag zijn gezond voor het hart",
+          "message": "Een eerder aangenomen beschermend effect houdt bij beter onderzoek geen stand; het risico op kanker neemt toe met de hoeveelheid."
+        }
+      ]
+    },
+    {
+      "id": "02-008",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Op een etiket staat 2,4 gram natrium per dag in totaal. Reken om naar gram zout met $\\text{zout} = \\text{natrium} \\times 2{,}5$.",
+      "answer": 6,
+      "tolerance": 0.01,
+      "hints": [],
+      "solution": [
+        "$2{,}4 \\times 2{,}5 = 6$ gram zout."
+      ],
+      "topics": [
+        "food-labels",
+        "dietary-guidelines"
+      ],
+      "unit": "g"
+    },
+    {
+      "id": "02-009",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom formuleren de Richtlijnen goede voeding hun adviezen in voedingsmiddelen en patronen en niet in losse voedingsstoffen?",
+      "choices": [
+        "Mensen eten voedingsmiddelen, en effecten van losse stoffen laten zich slecht isoleren",
+        "Voedingsstoffen hebben geen effect op de gezondheid",
+        "Losse stoffen zijn altijd schadelijk",
+        "Dat is goedkoper om te onderzoeken"
+      ],
+      "answer": "Mensen eten voedingsmiddelen, en effecten van losse stoffen laten zich slecht isoleren",
+      "hints": [],
+      "solution": [
+        "Het patroon als geheel telt: wie meer van het ene eet, eet minder van iets anders, en het effect komt uit het pakket van stoffen."
+      ],
+      "topics": [
+        "dietary-patterns"
+      ],
+      "feedback": [
+        {
+          "answer": "Voedingsstoffen hebben geen effect op de gezondheid",
+          "message": "Voedingsstoffen hebben wel effect; het gaat erom dat dat effect in onderzoek moeilijk los te maken is van het geheel van de voeding."
+        }
+      ]
+    },
+    {
+      "id": "02-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "De richtlijn voor volkorenproducten is minstens 90 gram per dag. Mark eet gemiddeld 65 gram per dag. Hoeveel gram tekort is dat?",
+      "answer": 25,
+      "hints": [],
+      "solution": [
+        "$90 - 65 = 25$ gram per dag."
+      ],
+      "topics": [
+        "dietary-guidelines",
+        "food-groups"
+      ],
+      "unit": "g"
+    },
+    {
+      "id": "02-011",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Volgens de vernieuwde Schijf van Vijf (stand 2026) is het advies gemiddeld 250 gram bereide peulvruchten per week. Hoeveel gram is dat gemiddeld per dag? Rond af op één decimaal.",
+      "answer": 35.7,
+      "tolerance": 0.06,
+      "hints": [],
+      "solution": [
+        "$250 / 7 \\approx 35{,}7$ gram per dag."
+      ],
+      "topics": [
+        "dietary-patterns",
+        "food-groups"
+      ],
+      "unit": "g"
+    },
+    {
+      "id": "02-012",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "De richtlijn voor alcohol is liever niet, en anders hooguit één glas per dag. Mark drinkt 14 glazen per week. Hoeveel glazen per week zit hij boven de bovengrens van één glas per dag?",
+      "answer": 7,
+      "hints": [],
+      "solution": [
+        "De bovengrens is $7 \\times 1 = 7$ glazen per week.",
+        "$14 - 7 = 7$ glazen boven de bovengrens."
+      ],
+      "topics": [
+        "dietary-guidelines"
+      ],
+      "unit": "glazen",
+      "feedback": [
+        {
+          "answer": 14,
+          "message": "Dit is zijn totale gebruik. Trek de bovengrens van 7 glazen per week af."
+        }
+      ]
+    }
+  ]
+}

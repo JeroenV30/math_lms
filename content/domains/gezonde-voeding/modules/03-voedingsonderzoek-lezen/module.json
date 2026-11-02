@@ -3,7 +3,7 @@
   "slug": "voedingsonderzoek-lezen",
   "title": "Voedingsonderzoek lezen",
   "part": 2,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 3,
   "estimated_minutes": 100,
   "prerequisites": [
@@ -16,5 +16,93 @@
   ],
   "core_question": "Hoe beoordeel je of een bewering over voeding en gezondheid klopt?",
   "summary": "Cohortonderzoek, gerandomiseerd onderzoek en meta-analyses, verband en oorzaak, relatief en absoluut risico, vertekening en financiering, het etiket en de voedingswaardetabel, voedingsclaims volgens de Europese regels, en supplementen.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een kop uit The Lancet Oncology",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "onderzoek-en-risico",
+      "title": "Onderzoek en risico lezen",
+      "file": "02-onderzoek-en-risico.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "etiket-claims-supplementen",
+      "title": "Etiket, claims en supplementen",
+      "file": "03-etiket-claims-supplementen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casus-krantenkop",
+      "title": "Casus: een krantenkop onder de loep",
+      "file": "04-casus-krantenkop.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en toets",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen waarom voedingsonderzoek moeilijk is en cohortonderzoek, gerandomiseerd onderzoek en meta-analyse onderscheiden naar kracht van het bewijs.",
+    "Je kunt een verband van een oorzaak onderscheiden en verstorende factoren, omgekeerde oorzaak, vertekening en financiering herkennen.",
+    "Je kunt een relatief risico omrekenen naar een absoluut risico en een aantal extra gevallen per duizend mensen.",
+    "Je kunt een etiket lezen: ingrediëntenlijst, voedingswaardetabel per 100 gram en percentage van de referentie-inname, en de Nutri-Score plaatsen.",
+    "Je kunt voedings- en gezondheidsclaims beoordelen volgens de Europese regels en uitleggen voor welke groepen de Gezondheidsraad supplementen adviseert."
+  ],
+  "glossary": [
+    {
+      "term": "Cohortonderzoek",
+      "definition": "Onderzoek waarin een groep mensen in de tijd wordt gevolgd om te zien wie een bepaalde uitkomst krijgt."
+    },
+    {
+      "term": "Gerandomiseerd onderzoek",
+      "definition": "Onderzoek waarin deelnemers willekeurig worden toegewezen aan een interventie of een controlegroep."
+    },
+    {
+      "term": "Meta-analyse",
+      "definition": "Statistische samenvoeging van de resultaten van meerdere onderzoeken volgens een vooraf vastgelegde zoekstrategie."
+    },
+    {
+      "term": "Verstorende factor",
+      "definition": "Een factor die zowel met de blootstelling als met de uitkomst samenhangt en daardoor een verband kan vervalsen."
+    },
+    {
+      "term": "Relatief risico",
+      "definition": "De verhouding tussen het risico bij blootstelling en het risico zonder blootstelling."
+    },
+    {
+      "term": "Absoluut risico",
+      "definition": "Het risico zelf, uitgedrukt in procenten of in gevallen per honderd of duizend mensen."
+    },
+    {
+      "term": "Referentie-inname",
+      "definition": "Een rekenwaarde voor een gemiddelde volwassene waarmee op etiketten producten worden vergeleken."
+    },
+    {
+      "term": "Nutri-Score",
+      "definition": "Een vijfletterig logo van A tot E dat de voedingskundige samenstelling van producten onderling vergelijkt; in Nederland vrijwillig."
+    },
+    {
+      "term": "Voedingsclaim",
+      "definition": "Een bewering over de samenstelling van een product, zoals vetarm of bron van vezels."
+    },
+    {
+      "term": "Gezondheidsclaim",
+      "definition": "Een bewering over een effect van een voedingsmiddel op het lichaam, toegestaan alleen als ze op de Europese lijst staat."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Relatief risico",
+      "latex": "\\text{RR} = \\frac{\\text{risico bij blootstelling}}{\\text{risico zonder blootstelling}}",
+      "usage": "Geeft aan hoeveel keer groter het risico is; 1,2 betekent 20% hoger.",
+      "origin": "Epidemiologie."
+    }
+  ]
 }

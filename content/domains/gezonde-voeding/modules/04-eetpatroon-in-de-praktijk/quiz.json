@@ -1,0 +1,204 @@
+{
+  "title": "Hoofdstuktoets – Eetpatroon in de praktijk",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "04-T01",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Iemand weegt 70 kg en is 1,75 m lang. Bereken de BMI, gewicht gedeeld door lengte in het kwadraat. Rond af op één decimaal.",
+      "answer": 22.9,
+      "tolerance": 0.06,
+      "hints": [],
+      "solution": [
+        "$1{,}75^2 = 3{,}0625$.",
+        "$70 / 3{,}0625 \\approx 22{,}9$."
+      ],
+      "topics": [
+        "body-weight"
+      ]
+    },
+    {
+      "id": "04-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is een beperking van de BMI voor een individu?",
+      "choices": [
+        "Ze maakt geen onderscheid tussen spiermassa en vet en zegt niets over de plek van het vet",
+        "Ze is te moeilijk te berekenen",
+        "Ze vereist een bloedtest",
+        "Ze geldt alleen voor kinderen"
+      ],
+      "answer": "Ze maakt geen onderscheid tussen spiermassa en vet en zegt niets over de plek van het vet",
+      "hints": [],
+      "solution": [
+        "De BMI is een grove maat; buikomvang vult haar aan."
+      ],
+      "topics": [
+        "body-weight"
+      ]
+    },
+    {
+      "id": "04-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom is de buikomvang een nuttige aanvulling op de BMI?",
+      "choices": [
+        "Vet in de buikholte is ongunstiger voor de stofwisseling dan vet onder de huid",
+        "Omdat de buik de enige plek is waar vet zit",
+        "Omdat ze nauwkeuriger is dan een bloedtest",
+        "Omdat de BMI nooit klopt"
+      ],
+      "answer": "Vet in de buikholte is ongunstiger voor de stofwisseling dan vet onder de huid",
+      "hints": [],
+      "solution": [
+        "De buikomvang laat zien of het vet vooral rond de organen zit."
+      ],
+      "topics": [
+        "body-weight"
+      ]
+    },
+    {
+      "id": "04-T04",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Iemand heeft een dagelijks energietekort van 600 kcal gedurende 77 dagen. Reken met 7.700 kcal per kg vet. Hoeveel kg vet is dat naar de rekenregel?",
+      "answer": 6,
+      "hints": [],
+      "solution": [
+        "$600 \\times 77 = 46200$ kcal.",
+        "$46200 / 7700 = 6$ kg."
+      ],
+      "topics": [
+        "body-weight"
+      ],
+      "unit": "kg"
+    },
+    {
+      "id": "04-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom werken strikte diëten op lange termijn vaak niet?",
+      "choices": [
+        "Het lichaam past verbruik en eetlust aan, en strikte regels zijn moeilijk vol te houden",
+        "Omdat ze nooit een energietekort geven",
+        "Omdat afvallen onmogelijk is",
+        "Omdat ze altijd gevaarlijk zijn"
+      ],
+      "answer": "Het lichaam past verbruik en eetlust aan, en strikte regels zijn moeilijk vol te houden",
+      "hints": [],
+      "solution": [
+        "Naleving is bepalend voor de uitkomst; biologische aanpassing werkt tegen."
+      ],
+      "topics": [
+        "diets"
+      ]
+    },
+    {
+      "id": "04-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een gerandomiseerde studie vergeleek een gezond koolhydraatarm dieet met een gezond vetarm dieet over twaalf maanden. Wat was de uitkomst?",
+      "choices": [
+        "Gemiddeld een vergelijkbaar gewichtsverlies, met grote verschillen tussen personen",
+        "Koolhydraatarm won duidelijk",
+        "Vetarm won duidelijk",
+        "Er was geen gewichtsverlies"
+      ],
+      "answer": "Gemiddeld een vergelijkbaar gewichtsverlies, met grote verschillen tussen personen",
+      "hints": [],
+      "solution": [
+        "Zo luidde de uitkomst van de DIETFITS-studie."
+      ],
+      "topics": [
+        "diets"
+      ]
+    },
+    {
+      "id": "04-T07",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "De aanbevolen hoeveelheid eiwit is ongeveer 0,8 gram per kilogram per dag. Hoeveel gram is dat voor iemand van 80 kg?",
+      "answer": 64,
+      "hints": [],
+      "solution": [
+        "$0{,}8 \\times 80 = 64$ gram."
+      ],
+      "topics": [
+        "macronutrients"
+      ],
+      "unit": "g"
+    },
+    {
+      "id": "04-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is voor periodiek vasten het sterkst onderbouwd?",
+      "choices": [
+        "Het geeft gemiddeld hetzelfde gewichtsverlies als een gelijk energietekort op een andere manier",
+        "Het is veiliger dan elk ander dieet",
+        "Het geneest diabetes",
+        "Het verhoogt de stofwisseling blijvend"
+      ],
+      "answer": "Het geeft gemiddeld hetzelfde gewichtsverlies als een gelijk energietekort op een andere manier",
+      "hints": [],
+      "solution": [
+        "Het energietekort lijkt bepalend; een eigen gezondheidsvoordeel is niet aangetoond."
+      ],
+      "topics": [
+        "diets"
+      ]
+    },
+    {
+      "id": "04-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom wordt het mediterrane patroon het best onderbouwd genoemd?",
+      "choices": [
+        "Het is gerandomiseerd onderzocht op harde uitkomsten en sluit aan bij de richtlijnen",
+        "Omdat het volledig zonder vet is",
+        "Omdat het alleen uit vis bestaat",
+        "Omdat het het goedkoopste patroon is"
+      ],
+      "answer": "Het is gerandomiseerd onderzocht op harde uitkomsten en sluit aan bij de richtlijnen",
+      "hints": [],
+      "solution": [
+        "In PREDIMED hadden mediterrane groepen ongeveer 30% minder hart- en vaatziekten dan de controle."
+      ],
+      "topics": [
+        "diets",
+        "dietary-patterns"
+      ]
+    },
+    {
+      "id": "04-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bericht beweert dat ultrabewerkte voeding bewezen de oorzaak van ziekte is. Welke reactie past het best bij wat bekend is?",
+      "choices": [
+        "Het verband is gevonden, maar of de bewerking zelf of de samenstelling de oorzaak is, is niet vastgesteld",
+        "Het is volledig bewezen",
+        "Het verband bestaat niet",
+        "Alle producten met een etiket zijn ultrabewerkt"
+      ],
+      "answer": "Het verband is gevonden, maar of de bewerking zelf of de samenstelling de oorzaak is, is niet vastgesteld",
+      "hints": [],
+      "solution": [
+        "Dit past bij de beperkingen van observationeel onderzoek en de discussie over de breedte van de NOVA-categorie."
+      ],
+      "topics": [
+        "diets"
+      ]
+    }
+  ]
+}

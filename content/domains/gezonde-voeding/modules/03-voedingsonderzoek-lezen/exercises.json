@@ -1,0 +1,278 @@
+{
+  "exercises": [
+    {
+      "id": "03-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Waarom is een gerandomiseerd onderzoek sterker dan een cohortonderzoek om oorzaak en gevolg aan te tonen?",
+      "choices": [
+        "Door de willekeurige toewijzing zijn de groepen gemiddeld gelijk, behalve in de interventie",
+        "Omdat het altijd langer duurt",
+        "Omdat de deelnemers hun eetgedrag zelf mogen kiezen",
+        "Omdat er minder deelnemers nodig zijn"
+      ],
+      "answer": "Door de willekeurige toewijzing zijn de groepen gemiddeld gelijk, behalve in de interventie",
+      "hints": [],
+      "solution": [
+        "Randomisatie verdeelt ook niet-gemeten factoren gemiddeld gelijk over de groepen. Daardoor kan een verschil in uitkomst aan de interventie worden toegeschreven."
+      ],
+      "topics": [
+        "nutrition-research"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat de deelnemers hun eetgedrag zelf mogen kiezen",
+          "message": "Dat is juist kenmerkend voor een cohortonderzoek, waar eetgedrag niet wordt toegewezen en groepen dus ook anders kunnen zijn."
+        }
+      ]
+    },
+    {
+      "id": "03-002",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Mensen die dagelijks noten eten, krijgen in een cohortonderzoek minder vaak hart- en vaatziekten. Wat is een verstorende factor die dit verband kan verklaren?",
+      "choices": [
+        "Noten-eters bewegen gemiddeld meer en roken minder",
+        "Noten bevatten vet",
+        "De vragenlijst had veel vragen",
+        "Het onderzoek duurde tien jaar"
+      ],
+      "answer": "Noten-eters bewegen gemiddeld meer en roken minder",
+      "hints": [],
+      "solution": [
+        "Een verstorende factor hangt samen met zowel de blootstelling als de uitkomst. Beweging en niet-roken kunnen zowel samenhangen met noten eten als met een lager hartrisico."
+      ],
+      "topics": [
+        "nutrition-research"
+      ]
+    },
+    {
+      "id": "03-003",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "In een onderzoek is het risico op een ziekte 6% bij mensen die product X eten en 5% bij mensen die het niet eten. Hoeveel procent hoger is het risico bij X (het relatief risico min 1, in procenten)?",
+      "answer": 20,
+      "hints": [],
+      "solution": [
+        "$\\text{RR} = 6 / 5 = 1{,}2$.",
+        "Dat is 20% hoger."
+      ],
+      "topics": [
+        "risk"
+      ],
+      "unit": "%",
+      "feedback": [
+        {
+          "answer": 1,
+          "message": "Dat is het absolute verschil in procentpunten. Het relatieve verschil is $6/5 - 1 = 0{,}2$, dus 20%."
+        }
+      ]
+    },
+    {
+      "id": "03-004",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Het basisrisico op een ziekte is 5%. Product X verhoogt het relatieve risico met 18%. Wat is het risico met X in procenten? Geef het antwoord met één decimaal.",
+      "answer": 5.9,
+      "tolerance": 0.05,
+      "hints": [],
+      "solution": [
+        "$5\\% \\times 1{,}18 = 5{,}9\\%$."
+      ],
+      "topics": [
+        "risk"
+      ],
+      "unit": "%",
+      "feedback": [
+        {
+          "answer": 23,
+          "message": "Je hebt 18 bij 5 opgeteld. Het gaat om 18% van de 5%, niet 18 procentpunten."
+        }
+      ]
+    },
+    {
+      "id": "03-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Het basisrisico op een ziekte is 5% en met product X is het 5,9%. Hoeveel extra gevallen zijn er per 1.000 mensen?",
+      "answer": 9,
+      "hints": [],
+      "solution": [
+        "Het verschil is $5{,}9\\% - 5\\% = 0{,}9$ procentpunt.",
+        "Per 1.000 mensen: $0{,}009 \\times 1000 = 9$."
+      ],
+      "topics": [
+        "risk"
+      ],
+      "unit": "gevallen",
+      "feedback": [
+        {
+          "answer": 18,
+          "message": "Dit is het relatieve percentage. Reken het absolute verschil: 0,9 procentpunt van 1.000 mensen."
+        }
+      ]
+    },
+    {
+      "id": "03-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "In een tien jaar durend onderzoek krijgt 2,6% van de mensen met veel gezoete drank een hartziekte en 2,0% van de mensen met weinig gezoete drank. Hoeveel mensen moeten tien jaar lang veel drinken voor één extra geval? Dit is 1 gedeeld door het absolute risicoverschil. Rond af op een geheel getal.",
+      "answer": 167,
+      "hints": [
+        "Reken met 0,006 en deel 1 daardoor."
+      ],
+      "solution": [
+        "Het absolute verschil is $2{,}6\\% - 2{,}0\\% = 0{,}6$ procentpunt, dus $0{,}006$.",
+        "$1 / 0{,}006 \\approx 166{,}7$, afgerond 167 mensen."
+      ],
+      "topics": [
+        "risk"
+      ],
+      "unit": "mensen",
+      "feedback": [
+        {
+          "answer": 30,
+          "message": "Dit is het relatieve verschil in procenten. De vraag is naar het omgekeerde van het absolute verschil."
+        }
+      ]
+    },
+    {
+      "id": "03-007",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is een beperking van een meta-analyse van cohortonderzoeken?",
+      "choices": [
+        "Ze is zo goed als de studies waaruit ze bestaat, en verstorende factoren verdwijnen niet",
+        "Ze telt maar één onderzoek",
+        "Ze is altijd gerandomiseerd",
+        "Ze is niet te publiceren"
+      ],
+      "answer": "Ze is zo goed als de studies waaruit ze bestaat, en verstorende factoren verdwijnen niet",
+      "hints": [],
+      "solution": [
+        "Het samenvoegen van veel matige studies met dezelfde verstorende factoren levert een nauwkeuriger schatting op van een verband, maar niet noodzakelijk van een oorzaak."
+      ],
+      "topics": [
+        "nutrition-research"
+      ]
+    },
+    {
+      "id": "03-008",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een onderzoek naar de gezondheidseffecten van een product is betaald door de producent. Wat is de verstandigste conclusie?",
+      "choices": [
+        "Kijk of de opzet vooraf is vastgelegd en of onafhankelijk onderzoek hetzelfde laat zien",
+        "Het onderzoek is daarom onjuist",
+        "Het onderzoek is daarom zeker juist",
+        "Financiering speelt nooit een rol"
+      ],
+      "answer": "Kijk of de opzet vooraf is vastgelegd en of onafhankelijk onderzoek hetzelfde laat zien",
+      "hints": [],
+      "solution": [
+        "Gefinancierd onderzoek laat gemiddeld vaker gunstige uitkomsten voor de financier zien, maar is niet per se onjuist. Een vooraf vastgelegde opzet en bevestiging door anderen wegen zwaarder."
+      ],
+      "topics": [
+        "nutrition-research"
+      ],
+      "feedback": [
+        {
+          "answer": "Het onderzoek is daarom onjuist",
+          "message": "Financiering is een reden om kritischer te kijken, niet om onderzoek zonder meer af te wijzen."
+        }
+      ]
+    },
+    {
+      "id": "03-009",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een product bevat 12 gram vet per 100 gram. Hoeveel gram vet zit in een portie van 30 gram? Geef het antwoord met één decimaal.",
+      "answer": 3.6,
+      "tolerance": 0.05,
+      "hints": [],
+      "solution": [
+        "$12 \\times 30 / 100 = 3{,}6$ gram."
+      ],
+      "topics": [
+        "food-labels"
+      ],
+      "unit": "g"
+    },
+    {
+      "id": "03-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een soep bevat 0,9 gram zout per 100 gram. Een portie is 300 gram. De referentie-inname voor zout is 6 gram per dag. Hoeveel procent van de referentie-inname levert een portie?",
+      "answer": 45,
+      "hints": [
+        "Reken eerst de hoeveelheid zout per portie uit."
+      ],
+      "solution": [
+        "Zout per portie: $0{,}9 \\times 3 = 2{,}7$ gram.",
+        "$2{,}7 / 6 = 0{,}45$, dus 45%."
+      ],
+      "topics": [
+        "food-labels"
+      ],
+      "unit": "%",
+      "feedback": [
+        {
+          "answer": 15,
+          "message": "Je hebt het zout per 100 gram genomen: $0{,}9/6 = 15\\%$. Een portie is 300 gram."
+        }
+      ]
+    },
+    {
+      "id": "03-011",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Voor de claim bron van vezels is minstens 3 gram vezels per 100 gram vereist. Een product bevat 2,4 gram vezels per 100 gram. Mag het deze claim voeren?",
+      "choices": [
+        "Nee, want 2,4 gram ligt onder de drempel van 3 gram per 100 gram",
+        "Ja, want de claim is gezond",
+        "Ja, als de portie groot is",
+        "Ja, als er ook fruit in zit"
+      ],
+      "answer": "Nee, want 2,4 gram ligt onder de drempel van 3 gram per 100 gram",
+      "hints": [],
+      "solution": [
+        "De drempel geldt per 100 gram. Omdat 2,4 kleiner is dan 3, voldoet het product niet."
+      ],
+      "topics": [
+        "food-labels"
+      ]
+    },
+    {
+      "id": "03-012",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Voor welke groep adviseert de Gezondheidsraad een foliumzuursupplement van 400 microgram per dag?",
+      "choices": [
+        "Vrouwen met een kinderwens en tot en met de achtste week van de zwangerschap",
+        "Alle volwassenen",
+        "Alle mannen boven de 50",
+        "Alleen mensen die vlees eten"
+      ],
+      "answer": "Vrouwen met een kinderwens en tot en met de achtste week van de zwangerschap",
+      "hints": [],
+      "solution": [
+        "Foliumzuur verlaagt het risico op een neurale buisdefect bij het kind en wordt daarom aanbevolen rond de conceptie en in het begin van de zwangerschap."
+      ],
+      "topics": [
+        "food-labels"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" role="img" aria-label="Schema van de energiebalans: energie-inname links, energieverbruik rechts opgebouwd uit ruststofwisseling, vertering en activiteit">
+<rect width="640" height="330" fill="#ffffff"/>
+<g font-family="sans-serif" font-size="14" fill="#1f2933">
+<text x="320" y="28" text-anchor="middle" font-weight="bold" font-size="16">Energiebalans (voorbeeld, kcal per dag)</text>
+<line x1="320" y1="60" x2="320" y2="250" stroke="#1f2933" stroke-width="2"/>
+<path d="M150 250 L490 250" stroke="#1f2933" stroke-width="3"/>
+<path d="M320 250 L320 270 M300 270 L340 270" stroke="#1f2933" stroke-width="3"/>
+<rect x="60" y="100" width="140" height="150" fill="#dbe4ff" stroke="#3b5bdb" stroke-width="2"/>
+<text x="130" y="165" text-anchor="middle" font-weight="bold">Inname</text>
+<text x="130" y="188" text-anchor="middle">eiwit, koolhydraten,</text>
+<text x="130" y="206" text-anchor="middle">vet, alcohol</text>
+<text x="130" y="228" text-anchor="middle" fill="#3b5bdb" font-weight="bold">2.768</text>
+<rect x="440" y="62" width="150" height="82" fill="#dbe4ff" stroke="#3b5bdb" stroke-width="2"/>
+<text x="515" y="85" text-anchor="middle" font-weight="bold">Activiteit</text><text x="515" y="105" text-anchor="middle">bewegen, sporten</text><text x="515" y="128" text-anchor="middle" fill="#3b5bdb" font-weight="bold">±760</text>
+<rect x="440" y="144" width="150" height="40" fill="#edf2ff" stroke="#3b5bdb" stroke-width="2"/>
+<text x="515" y="169" text-anchor="middle">Vertering ±280</text>
+<rect x="440" y="184" width="150" height="66" fill="#bac8ff" stroke="#3b5bdb" stroke-width="2"/>
+<text x="515" y="208" text-anchor="middle" font-weight="bold">Ruststofwisseling</text><text x="515" y="230" text-anchor="middle" fill="#1f2933" font-weight="bold">1.730</text>
+<text x="320" y="300" text-anchor="middle">Inname = verbruik: gewicht blijft gelijk. Inname groter: overschot. Kleiner: tekort.</text>
+</g>
+</svg>

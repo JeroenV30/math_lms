@@ -3,7 +3,7 @@
   "slug": "wat-je-lichaam-nodig-heeft",
   "title": "Wat je lichaam nodig heeft",
   "part": 1,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
   "estimated_minutes": 90,
   "prerequisites": [],
@@ -14,5 +14,89 @@
   ],
   "core_question": "Wat doet je lichaam met wat je eet?",
   "summary": "Energie en energiebalans (ruststofwisseling en activiteit), koolhydraten, vetten, eiwitten en alcohol met hun energiewaarde, vezels, vitamines en mineralen, water, en de voedingsnormen van de Gezondheidsraad.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een voedingswaardetabel",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "energie",
+      "title": "Energie en energiebalans",
+      "file": "02-energie.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "voedingsstoffen",
+      "title": "Voedingsstoffen en voedingsnormen",
+      "file": "03-voedingsstoffen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casus-lena",
+      "title": "Casus: de energiebalans van Lena",
+      "file": "04-casus-lena.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en toets",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt kilocalorieën en kilojoules omrekenen en de energie in een product of dagmenu berekenen uit koolhydraten, eiwit, vet en alcohol.",
+    "Je kunt de ruststofwisseling en de dagelijkse energiebehoefte schatten en uitleggen wat de energiebalans wel en niet zegt.",
+    "Je kunt de rol van koolhydraten, vezels, eiwitten en vetten beschrijven en uitleggen wat essentiële aminozuren en vetzuren zijn.",
+    "Je kunt met voorbeelden uitleggen waarom vitamines, mineralen en water nodig zijn en dat zowel een tekort als een overmaat schadelijk kan zijn.",
+    "Je kunt de voedingsnormen van de Gezondheidsraad (gemiddelde behoefte, aanbevolen hoeveelheid, adequate inname, aanvaardbare bovengrens) uit elkaar houden en toepassen."
+  ],
+  "glossary": [
+    {
+      "term": "Kilocalorie",
+      "definition": "Eenheid van energie, gelijk aan 4,184 kilojoule; in het dagelijks taalgebruik calorie genoemd."
+    },
+    {
+      "term": "Energiebalans",
+      "definition": "Het verschil tussen de energie-inname en het energieverbruik; bepaalt de verandering in lichaamsvoorraden."
+    },
+    {
+      "term": "Ruststofwisseling",
+      "definition": "De energie die het lichaam in rust nodig heeft om in leven te blijven; het grootste deel van het dagverbruik."
+    },
+    {
+      "term": "PAL",
+      "definition": "Physical activity level: de factor waarmee de ruststofwisseling wordt vermenigvuldigd om het dagverbruik te schatten."
+    },
+    {
+      "term": "Essentieel",
+      "definition": "Een stof die het lichaam niet of onvoldoende zelf kan maken en dus uit voeding moet komen."
+    },
+    {
+      "term": "Vezels",
+      "definition": "Koolhydraten die het lichaam niet zelf kan verteren, uit onder meer volkoren graan, groente, fruit en peulvruchten."
+    },
+    {
+      "term": "Gemiddelde behoefte",
+      "definition": "De inname die voldoende is voor de helft van een groep gezonde mensen."
+    },
+    {
+      "term": "Aanbevolen hoeveelheid",
+      "definition": "De inname die voldoende is voor ongeveer 97,5% van een groep gezonde mensen."
+    },
+    {
+      "term": "Aanvaardbare bovengrens",
+      "definition": "De hoogste dagelijkse inname waarbij naar verwachting geen schadelijke effecten optreden."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Ruststofwisseling (Mifflin en St Jeor)",
+      "latex": "10w + 6{,}25h - 5a + s",
+      "usage": "Geschatte ruststofwisseling in kcal per dag; $s = +5$ voor mannen en $-161$ voor vrouwen.",
+      "origin": "Mifflin en St Jeor, 1990."
+    }
+  ]
 }

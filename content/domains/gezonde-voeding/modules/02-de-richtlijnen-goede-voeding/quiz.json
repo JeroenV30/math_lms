@@ -1,0 +1,219 @@
+{
+  "title": "Hoofdstuktoets – De Richtlijnen goede voeding",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "02-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat is de beste omschrijving van een eindpunt in voedingsonderzoek?",
+      "choices": [
+        "Een gezondheidsuitkomst, zoals een hart- en vaatziekte, waarop de relatie met voeding wordt beoordeeld",
+        "Het einde van een maaltijd",
+        "De laatste dag van een studie",
+        "De hoeveelheid die iemand maximaal mag eten"
+      ],
+      "answer": "Een gezondheidsuitkomst, zoals een hart- en vaatziekte, waarop de relatie met voeding wordt beoordeeld",
+      "hints": [],
+      "solution": [
+        "De commissie kiest eerst gezondheidsuitkomsten (eindpunten) en zoekt dan het bewijs voor het verband met voeding."
+      ],
+      "topics": [
+        "dietary-guidelines"
+      ]
+    },
+    {
+      "id": "02-T02",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "De richtlijn is minstens 200 gram fruit per dag. Iemand eet gemiddeld 150 gram fruit per dag. Hoeveel procent van de richtlijn haalt hij?",
+      "answer": 75,
+      "hints": [],
+      "solution": [
+        "$150 / 200 = 0{,}75$, dus 75%."
+      ],
+      "topics": [
+        "dietary-guidelines"
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "02-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een product is volgens het IARC van de WHO ingedeeld in groep 1, kankerverwekkend voor mensen. Wat zegt die indeling?",
+      "choices": [
+        "Hoe zeker het bewijs is dat het kanker kan veroorzaken, niet hoe groot het risico per portie is",
+        "Dat het risico even groot is als van roken",
+        "Dat één portie altijd kanker veroorzaakt",
+        "Dat de stof verboden is"
+      ],
+      "answer": "Hoe zeker het bewijs is dat het kanker kan veroorzaken, niet hoe groot het risico per portie is",
+      "hints": [],
+      "solution": [
+        "Een indeling in groep 1 gaat over de zekerheid van het bewijs. Bewerkt vlees staat in dezelfde groep als roken, maar het risico per portie is veel kleiner."
+      ],
+      "topics": [
+        "dietary-guidelines",
+        "risk"
+      ],
+      "feedback": [
+        {
+          "answer": "Dat het risico even groot is als van roken",
+          "message": "De klasse zegt iets over de zekerheid van het bewijs, niet over de grootte van het risico."
+        }
+      ]
+    },
+    {
+      "id": "02-T04",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een product bevat 3,2 gram natrium. Hoeveel gram zout is dat, met $\\text{zout} = \\text{natrium} \\times 2{,}5$?",
+      "answer": 8,
+      "tolerance": 0.01,
+      "hints": [],
+      "solution": [
+        "$3{,}2 \\times 2{,}5 = 8$ gram zout."
+      ],
+      "topics": [
+        "food-labels",
+        "dietary-guidelines"
+      ],
+      "unit": "g"
+    },
+    {
+      "id": "02-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke uitspraak past bij het denken in voedingspatronen?",
+      "choices": [
+        "Het eetpatroon als geheel bepaalt het effect, omdat wat je meer eet ten koste gaat van iets anders",
+        "Eén superfood bepaalt de gezondheid",
+        "Alleen de hoeveelheid vet telt",
+        "Een patroon is alleen relevant bij ziekte"
+      ],
+      "answer": "Het eetpatroon als geheel bepaalt het effect, omdat wat je meer eet ten koste gaat van iets anders",
+      "hints": [],
+      "solution": [
+        "Effecten van losse stoffen laten zich moeilijk isoleren; in onderzoek zijn patronen met veel plantaardige producten steeds gunstiger."
+      ],
+      "topics": [
+        "dietary-patterns"
+      ]
+    },
+    {
+      "id": "02-T06",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "De richtlijn voor rood vlees is hooguit 300 gram per week. Iemand eet per week drie porties van 125 gram. Hoeveel gram zit hij boven de richtlijn?",
+      "answer": 75,
+      "hints": [],
+      "solution": [
+        "$3 \\times 125 = 375$ gram.",
+        "$375 - 300 = 75$ gram boven de richtlijn."
+      ],
+      "topics": [
+        "dietary-guidelines"
+      ],
+      "unit": "g"
+    },
+    {
+      "id": "02-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is de rol van de Schijf van Vijf ten opzichte van de Richtlijnen goede voeding?",
+      "choices": [
+        "Het Voedingscentrum vertaalt de richtlijnen naar een praktisch hulpmiddel met voedingsmiddelen en hoeveelheden",
+        "De Schijf van Vijf wordt opgesteld door de Gezondheidsraad",
+        "De Schijf van Vijf is een wettelijke verplichting voor producenten",
+        "De Schijf van Vijf vervangt de richtlijnen"
+      ],
+      "answer": "Het Voedingscentrum vertaalt de richtlijnen naar een praktisch hulpmiddel met voedingsmiddelen en hoeveelheden",
+      "hints": [],
+      "solution": [
+        "De Gezondheidsraad stelt de richtlijnen op, het Voedingscentrum vertaalt ze naar de Schijf van Vijf."
+      ],
+      "topics": [
+        "food-groups"
+      ]
+    },
+    {
+      "id": "02-T08",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Het advies is gemiddeld 250 gram peulvruchten per week. Iemand eet twee porties van 60 gram per week. Hoeveel gram is dat minder dan het advies?",
+      "answer": 130,
+      "hints": [],
+      "solution": [
+        "$2 \\times 60 = 120$ gram.",
+        "$250 - 120 = 130$ gram per week te weinig."
+      ],
+      "topics": [
+        "dietary-patterns"
+      ],
+      "unit": "g"
+    },
+    {
+      "id": "02-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarmee vervang je verzadigd vet het best om het risico op hart- en vaatziekten te verlagen?",
+      "choices": [
+        "Vervangen door onverzadigd vet, zoals in noten en vloeibare oliën",
+        "Vervangen door geraffineerde koolhydraten",
+        "Vervangen door suikerhoudende dranken",
+        "Het vet gewoon weglaten, zonder iets voor in de plaats"
+      ],
+      "answer": "Vervangen door onverzadigd vet, zoals in noten en vloeibare oliën",
+      "hints": [],
+      "solution": [
+        "Het gaat om vervangen: onverzadigd vet verlaagt het LDL-cholesterol, geraffineerde koolhydraten niet."
+      ],
+      "topics": [
+        "dietary-guidelines"
+      ],
+      "feedback": [
+        {
+          "answer": "Vervangen door geraffineerde koolhydraten",
+          "message": "Dan boek je die winst niet; wat voor in de plaats komt, bepaalt het effect."
+        }
+      ]
+    },
+    {
+      "id": "02-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom kan een richtlijn na een aantal jaren worden herzien, zoals in december 2025 voor eiwitbronnen?",
+      "choices": [
+        "Er is nieuw onderzoek en de afweging, ook van duurzaamheid, kan veranderen",
+        "Omdat de oude richtlijn bewezen onjuist was",
+        "Omdat het Voedingscentrum dat verplicht",
+        "Omdat de gemeten inname is gedaald"
+      ],
+      "answer": "Er is nieuw onderzoek en de afweging, ook van duurzaamheid, kan veranderen",
+      "hints": [],
+      "solution": [
+        "Een richtlijn is een afweging op een bepaald moment tussen bewijs, veiligheid en haalbaarheid. Nieuw onderzoek en andere overwegingen kunnen die afweging verschuiven."
+      ],
+      "topics": [
+        "dietary-guidelines"
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat de oude richtlijn bewezen onjuist was",
+          "message": "Een herziening wil niet zeggen dat de oude richtlijn fout was: er is meer onderzoek en een nieuwe afweging."
+        }
+      ]
+    }
+  ]
+}

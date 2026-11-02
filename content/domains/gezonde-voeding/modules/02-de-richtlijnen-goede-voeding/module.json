@@ -3,7 +3,7 @@
   "slug": "de-richtlijnen-goede-voeding",
   "title": "De Richtlijnen goede voeding",
   "part": 1,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
   "estimated_minutes": 90,
   "prerequisites": [
@@ -16,5 +16,77 @@
   ],
   "core_question": "Waarop berust het advies om meer groente en peulvruchten en minder rood en bewerkt vlees te eten?",
   "summary": "De Richtlijnen goede voeding van de Gezondheidsraad (2015) en hoe ze tot stand kwamen, de Schijf van Vijf, voedingspatronen in plaats van losse stoffen, zout, suiker, verzadigd vet, bewerkt vlees en alcohol, en de verschuiving naar meer plantaardig.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een advies van de Gezondheidsraad",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "totstandkoming",
+      "title": "Hoe een richtlijn tot stand komt",
+      "file": "02-totstandkoming.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "schijf-en-stoffen",
+      "title": "De Schijf van Vijf en de lastige stoffen",
+      "file": "03-schijf-en-stoffen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casus-mark",
+      "title": "Casus: het eetpatroon van Mark",
+      "file": "04-casus-mark.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en toets",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen hoe de Gezondheidsraad tot een richtlijn komt: eindpunten, systematische beoordeling en bewijsgraad.",
+    "Je kunt de belangrijkste Richtlijnen goede voeding met hun getallen noemen en je eigen inname daarmee vergelijken in grammen en procenten.",
+    "Je kunt het verschil tussen denken in voedingspatronen en in losse stoffen uitleggen en de Schijf van Vijf plaatsen als vertaling van de richtlijnen.",
+    "Je kunt de adviezen over zout, toegevoegde suiker, verzadigd vet, rood en bewerkt vlees en alcohol onderbouwen en het beeld van onzekerheid weergeven.",
+    "Je kunt de verschuiving naar een meer plantaardig voedingspatroon en de herziening van de richtlijnen vanaf 2025 toelichten."
+  ],
+  "glossary": [
+    {
+      "term": "Eindpunt",
+      "definition": "Een gezondheidsuitkomst, zoals hart- en vaatziekten of diabetes type 2, waarop het verband met voeding wordt beoordeeld."
+    },
+    {
+      "term": "Bewijsgraad",
+      "definition": "De mate van zekerheid van een verband: overtuigend, waarschijnlijk, suggestief of onvoldoende."
+    },
+    {
+      "term": "Voedingspatroon",
+      "definition": "Het geheel van wat iemand gewoonlijk eet, als eenheid van analyse in plaats van losse voedingsstoffen."
+    },
+    {
+      "term": "Richtlijnen goede voeding",
+      "definition": "Het advies van de Gezondheidsraad (2015, herzien vanaf 2025) over voedingsmiddelen en patronen die gezondheid bevorderen."
+    },
+    {
+      "term": "Schijf van Vijf",
+      "definition": "De praktische vertaling van de richtlijnen door het Voedingscentrum, voor het laatst vernieuwd in april 2026."
+    },
+    {
+      "term": "Bewerkt vlees",
+      "definition": "Vlees dat is gerookt, gezouten, gepekeld of anderszins bewerkt, zoals worst, spek en ham."
+    },
+    {
+      "term": "Toegevoegde suiker",
+      "definition": "Suiker die tijdens de bereiding of aan tafel wordt toegevoegd, in tegenstelling tot suiker die van nature in fruit of melk zit."
+    },
+    {
+      "term": "Verzadigd vet",
+      "definition": "Vet dat vooral in boter, kaas, vet vlees en tropische oliën zit en het LDL-cholesterol verhoogt."
+    }
+  ]
 }

@@ -1,0 +1,210 @@
+{
+  "title": "Hoofdstuktoets – Voedingsonderzoek lezen",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "03-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat is het kenmerk van een gerandomiseerd onderzoek?",
+      "choices": [
+        "Deelnemers worden willekeurig toegewezen aan een interventie of controlegroep",
+        "Onderzoekers volgen alleen mensen die al ziek zijn",
+        "Er is geen controlegroep",
+        "Alleen dieren worden onderzocht"
+      ],
+      "answer": "Deelnemers worden willekeurig toegewezen aan een interventie of controlegroep",
+      "hints": [],
+      "solution": [
+        "Willekeurige toewijzing maakt de groepen gemiddeld gelijk en is de sterkste methode voor oorzaak en gevolg."
+      ],
+      "topics": [
+        "nutrition-research"
+      ]
+    },
+    {
+      "id": "03-T02",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Het risico op een ziekte is 5% zonder en 8% met product Y. Hoeveel procent hoger is het risico met Y, uitgedrukt als relatief risico min 1?",
+      "answer": 60,
+      "hints": [],
+      "solution": [
+        "$8/5 = 1{,}6$, dus 60% hoger."
+      ],
+      "topics": [
+        "risk"
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "03-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat betekent het gezonde-gebruikerseffect?",
+      "choices": [
+        "Mensen die een supplement gebruiken leven vaak ook anders, wat een gunstig verband kan veroorzaken zonder dat het supplement werkt",
+        "Gebruikers van supplementen zijn altijd gezonder door het supplement",
+        "Gezonde mensen mogen geen supplementen gebruiken",
+        "Supplementen werken altijd"
+      ],
+      "answer": "Mensen die een supplement gebruiken leven vaak ook anders, wat een gunstig verband kan veroorzaken zonder dat het supplement werkt",
+      "hints": [],
+      "solution": [
+        "Een verstorende factor, de leefstijl van gebruikers, kan een verband verklaren dat in een gerandomiseerd onderzoek verdwijnt."
+      ],
+      "topics": [
+        "nutrition-research"
+      ]
+    },
+    {
+      "id": "03-T04",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Het basisrisico is 2% en product Z verhoogt het relatieve risico met 50%. Wat is het risico met Z in procenten? Geef het antwoord met één decimaal.",
+      "answer": 3.0,
+      "tolerance": 0.05,
+      "hints": [],
+      "solution": [
+        "$2\\% \\times 1{,}5 = 3{,}0\\%$."
+      ],
+      "topics": [
+        "risk"
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "03-T05",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Het basisrisico is 2% en product Z verhoogt het relatieve risico met 50%. Hoeveel extra gevallen zijn dat per 1.000 mensen?",
+      "answer": 10,
+      "hints": [],
+      "solution": [
+        "Het risico met Z is 3%, dus het verschil is 1 procentpunt.",
+        "Per 1.000 mensen: $0{,}01 \\times 1000 = 10$."
+      ],
+      "topics": [
+        "risk"
+      ],
+      "unit": "gevallen"
+    },
+    {
+      "id": "03-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "In welke volgorde staan de ingrediënten op een voorverpakt product?",
+      "choices": [
+        "In aflopende volgorde van gewicht",
+        "In alfabetische volgorde",
+        "In willekeurige volgorde",
+        "Van klein naar groot gewicht"
+      ],
+      "answer": "In aflopende volgorde van gewicht",
+      "hints": [],
+      "solution": [
+        "Wat vooraan staat, zit er het meest in."
+      ],
+      "topics": [
+        "food-labels"
+      ]
+    },
+    {
+      "id": "03-T07",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een product bevat 1,5 gram zout per 100 gram. De referentie-inname voor zout is 6 gram per dag. Hoeveel procent van de referentie-inname bevat 100 gram?",
+      "answer": 25,
+      "hints": [],
+      "solution": [
+        "$1{,}5 / 6 = 0{,}25$, dus 25%."
+      ],
+      "topics": [
+        "food-labels"
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "03-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is de status van de Nutri-Score in Nederland?",
+      "choices": [
+        "Sinds 2024 een officieel aangewezen, vrijwillig voedselkeuzelogo",
+        "Sinds 2024 verplicht op alle producten",
+        "Nog niet toegestaan",
+        "Alleen voor dranken"
+      ],
+      "answer": "Sinds 2024 een officieel aangewezen, vrijwillig voedselkeuzelogo",
+      "hints": [],
+      "solution": [
+        "Het gebruik is een vrijwillige keuze van levensmiddelenbedrijven; een verplicht Europees logo is vertraagd."
+      ],
+      "topics": [
+        "food-labels"
+      ],
+      "feedback": [
+        {
+          "answer": "Sinds 2024 verplicht op alle producten",
+          "message": "Het gebruik is vrijwillig; een verplichting zou Europees moeten worden geregeld."
+        }
+      ]
+    },
+    {
+      "id": "03-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een verpakking noemt een gezondheidsclaim. Wat is de hoofdregel in de Europese verordening?",
+      "choices": [
+        "De claim moet op de Europese lijst van toegelaten claims staan en aan de voorwaarden voldoen",
+        "Elke claim is toegestaan zolang hij waar klinkt",
+        "Alleen claims over genezing zijn toegestaan",
+        "Claims zijn verboden"
+      ],
+      "answer": "De claim moet op de Europese lijst van toegelaten claims staan en aan de voorwaarden voldoen",
+      "hints": [],
+      "solution": [
+        "Gezondheidsclaims worden door EFSA beoordeeld en door de Europese Commissie toegelaten. Claims over genezing van ziekte zijn voor voedingsmiddelen verboden."
+      ],
+      "topics": [
+        "food-labels"
+      ],
+      "feedback": [
+        {
+          "answer": "Alleen claims over genezing zijn toegestaan",
+          "message": "Claims over het voorkomen of genezen van een ziekte zijn voor voedingsmiddelen juist verboden."
+        }
+      ]
+    },
+    {
+      "id": "03-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is de belangrijkste reden om een relatief risico altijd samen met het absolute risico te lezen?",
+      "choices": [
+        "Een grote relatieve stijging op een klein basisrisico geeft slechts een kleine absolute stijging",
+        "Het absolute risico is altijd groter",
+        "Relatieve risico's zijn nooit correct",
+        "Het absolute risico is alleen voor artsen"
+      ],
+      "answer": "Een grote relatieve stijging op een klein basisrisico geeft slechts een kleine absolute stijging",
+      "hints": [],
+      "solution": [
+        "Het uitgangsrisico bepaalt wat een relatieve stijging in de praktijk betekent."
+      ],
+      "topics": [
+        "risk"
+      ]
+    }
+  ]
+}

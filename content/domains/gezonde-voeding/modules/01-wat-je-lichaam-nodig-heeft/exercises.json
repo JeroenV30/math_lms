@@ -1,0 +1,298 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een volwassene heeft per dag 2.000 kcal nodig. Reken om naar kilojoule met $1\\ \\text{kcal} = 4{,}184\\ \\text{kJ}$. Rond af op een geheel getal.",
+      "answer": 8368,
+      "hints": [
+        "Vermenigvuldig met 4,184."
+      ],
+      "solution": [
+        "$2000 \\times 4{,}184 = 8368$ kJ."
+      ],
+      "topics": [
+        "energy"
+      ],
+      "unit": "kJ",
+      "feedback": [
+        {
+          "answer": 8400,
+          "message": "Dat is de afgeronde referentie-inname op het etiket. Reken zelf met 4,184: $2000 \\times 4{,}184 = 8368$."
+        }
+      ]
+    },
+    {
+      "id": "01-002",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een product bevat per 100 gram 12 g eiwit, 55 g koolhydraten en 8 g vet. Hoeveel kcal energie bevat 100 gram? Reken met 4 kcal per gram eiwit en koolhydraten en 9 kcal per gram vet.",
+      "answer": 340,
+      "hints": [
+        "Reken elke stof apart uit en tel op."
+      ],
+      "solution": [
+        "$12 \\times 4 = 48$, $55 \\times 4 = 220$, $8 \\times 9 = 72$.",
+        "$48 + 220 + 72 = 340$ kcal."
+      ],
+      "topics": [
+        "energy",
+        "macronutrients"
+      ],
+      "unit": "kcal",
+      "feedback": [
+        {
+          "answer": 300,
+          "message": "Je rekende vet met 4 kcal per gram. Vet levert 9 kcal per gram."
+        },
+        {
+          "answer": 75,
+          "message": "Dit is het aantal grammen. Vermenigvuldig elke hoeveelheid met haar energiewaarde per gram."
+        }
+      ]
+    },
+    {
+      "id": "01-003",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een glas wijn bevat 10 gram alcohol. Alcohol levert 7 kcal per gram. Hoeveel kcal levert een glas?",
+      "answer": 70,
+      "hints": [],
+      "solution": [
+        "$10 \\times 7 = 70$ kcal."
+      ],
+      "topics": [
+        "energy",
+        "macronutrients"
+      ],
+      "unit": "kcal",
+      "feedback": [
+        {
+          "answer": 40,
+          "message": "Je rekende met 4 kcal per gram. Alcohol levert 7 kcal per gram, meer dan koolhydraten of eiwit."
+        },
+        {
+          "answer": 90,
+          "message": "Je rekende met 9 kcal per gram, de waarde van vet. Voor alcohol is het 7."
+        }
+      ]
+    },
+    {
+      "id": "01-004",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een man van 40 jaar, 80 kg en 180 cm. Bereken zijn ruststofwisseling met de formule voor mannen: $10w + 6{,}25h - 5a + 5$, met gewicht $w$ in kg, lengte $h$ in cm en leeftijd $a$ in jaren. Geef het antwoord in kcal per dag.",
+      "answer": 1730,
+      "hints": [
+        "Werk de vier termen apart uit."
+      ],
+      "solution": [
+        "$10 \\times 80 = 800$; $6{,}25 \\times 180 = 1125$; $5 \\times 40 = 200$.",
+        "$800 + 1125 - 200 + 5 = 1730$ kcal."
+      ],
+      "topics": [
+        "energy"
+      ],
+      "unit": "kcal",
+      "feedback": [
+        {
+          "answer": 1725,
+          "message": "Je hebt de laatste term $+5$ weggelaten. Voor mannen is die term $+5$, voor vrouwen $-161$."
+        }
+      ]
+    },
+    {
+      "id": "01-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "De ruststofwisseling van een man is 1.730 kcal per dag. Zijn activiteitsfactor (PAL) is 1,6. Hoeveel kcal verbruikt hij per dag in totaal? Rond af op een geheel getal.",
+      "answer": 2768,
+      "hints": [],
+      "solution": [
+        "$1730 \\times 1{,}6 = 2768$ kcal."
+      ],
+      "topics": [
+        "energy"
+      ],
+      "unit": "kcal",
+      "feedback": [
+        {
+          "answer": 1730,
+          "message": "Dit is alleen de ruststofwisseling. Vermenigvuldig met de activiteitsfactor voor het totaalverbruik."
+        }
+      ]
+    },
+    {
+      "id": "01-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Iemand eet gemiddeld 2.400 kcal per dag en verbruikt 2.600 kcal per dag. Hoeveel kcal tekort ontstaat er per week? Geef het tekort als positief getal.",
+      "answer": 1400,
+      "hints": [],
+      "solution": [
+        "Per dag is het tekort $2600 - 2400 = 200$ kcal.",
+        "Per week: $7 \\times 200 = 1400$ kcal."
+      ],
+      "topics": [
+        "energy"
+      ],
+      "unit": "kcal",
+      "feedback": [
+        {
+          "answer": 200,
+          "message": "Dit is het tekort per dag. De vraag gaat over een week: vermenigvuldig met 7."
+        }
+      ]
+    },
+    {
+      "id": "01-007",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Het advies voor vezels is 30 gram per dag. Iemand eet gemiddeld 21 gram per dag. Hoeveel procent van het advies is dat?",
+      "answer": 70,
+      "hints": [
+        "Deel de inname door het advies."
+      ],
+      "solution": [
+        "$21 / 30 = 0{,}7$, dus 70%."
+      ],
+      "topics": [
+        "macronutrients"
+      ],
+      "unit": "%"
+    },
+    {
+      "id": "01-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Waarom is linolzuur een essentieel vetzuur?",
+      "choices": [
+        "Het lichaam kan het niet zelf maken en moet het via voeding binnenkrijgen",
+        "Het bevat meer energie dan alle andere vetzuren",
+        "Het is het enige onverzadigde vetzuur",
+        "Het is nodig, maar komt alleen in dierlijke producten voor"
+      ],
+      "answer": "Het lichaam kan het niet zelf maken en moet het via voeding binnenkrijgen",
+      "hints": [],
+      "solution": [
+        "Essentieel betekent dat het lichaam de stof niet of onvoldoende zelf kan maken. Linolzuur komt vooral in plantaardige oliën, noten en zaden voor."
+      ],
+      "topics": [
+        "macronutrients"
+      ],
+      "feedback": [
+        {
+          "answer": "Het bevat meer energie dan alle andere vetzuren",
+          "message": "Alle vetten leveren ongeveer 9 kcal per gram; essentieel gaat over wat het lichaam zelf niet kan maken."
+        },
+        {
+          "answer": "Het is nodig, maar komt alleen in dierlijke producten voor",
+          "message": "Linolzuur zit juist vooral in plantaardige oliën, noten en zaden."
+        }
+      ]
+    },
+    {
+      "id": "01-009",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Zet deze voedingsnormen van de Gezondheidsraad voor een bepaalde stof in volgorde van klein naar groot, dus de laagste hoeveelheid eerst.",
+      "answer": [
+        "Gemiddelde behoefte",
+        "Aanbevolen hoeveelheid",
+        "Aanvaardbare bovengrens"
+      ],
+      "hints": [],
+      "solution": [
+        "De gemiddelde behoefte is voldoende voor de helft van de groep, de aanbevolen hoeveelheid voor ongeveer 97,5%, en de aanvaardbare bovengrens is de hoogste inname zonder verwachte schade."
+      ],
+      "topics": [
+        "micronutrients"
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Aanbevolen hoeveelheid",
+            "Gemiddelde behoefte",
+            "Aanvaardbare bovengrens"
+          ],
+          "message": "De aanbevolen hoeveelheid ligt boven de gemiddelde behoefte: ze bevat een veiligheidsmarge voor bijna iedereen in de groep."
+        }
+      ]
+    },
+    {
+      "id": "01-010",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Lena eet per dag 80 g eiwit, 260 g koolhydraten, 75 g vet en 10 g alcohol. Bereken haar energie-inname per dag in kcal, met 4 kcal per gram eiwit en koolhydraten, 9 kcal per gram vet en 7 kcal per gram alcohol.",
+      "answer": 2105,
+      "hints": [],
+      "solution": [
+        "$80 \\times 4 = 320$; $260 \\times 4 = 1040$; $75 \\times 9 = 675$; $10 \\times 7 = 70$.",
+        "$320 + 1040 + 675 + 70 = 2105$ kcal."
+      ],
+      "topics": [
+        "energy",
+        "macronutrients"
+      ],
+      "unit": "kcal",
+      "feedback": [
+        {
+          "answer": 1730,
+          "message": "Je hebt het vet met 4 in plaats van 9 kcal per gram gerekend. Controleer de factor per stof."
+        }
+      ]
+    },
+    {
+      "id": "01-011",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Een vrouw van 35 jaar, 168 cm en 68 kg heeft een ruststofwisseling van $10w + 6{,}25h - 5a - 161$ kcal per dag. Haar PAL is 1,5. Bereken haar geschatte dagverbruik in kcal, afgerond op een geheel getal.",
+      "answer": 2091,
+      "hints": [
+        "Bereken eerst de ruststofwisseling."
+      ],
+      "solution": [
+        "Ruststofwisseling: $680 + 1050 - 175 - 161 = 1394$ kcal.",
+        "Dagverbruik: $1394 \\times 1{,}5 = 2091$ kcal."
+      ],
+      "topics": [
+        "energy"
+      ],
+      "unit": "kcal",
+      "feedback": [
+        {
+          "answer": 1394,
+          "message": "Dit is alleen de ruststofwisseling. Vermenigvuldig met de PAL van 1,5."
+        }
+      ]
+    },
+    {
+      "id": "01-012",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Lena eet gemiddeld 2.105 kcal per dag en verbruikt volgens de schatting 2.091 kcal per dag. Wat is het verschil per dag, inname min verbruik, in kcal?",
+      "answer": 14,
+      "hints": [],
+      "solution": [
+        "$2105 - 2091 = 14$ kcal per dag: een overschot dat kleiner is dan de onzekerheid van beide schattingen."
+      ],
+      "topics": [
+        "energy"
+      ],
+      "unit": "kcal"
+    }
+  ]
+}

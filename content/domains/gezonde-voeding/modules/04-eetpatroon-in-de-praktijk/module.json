@@ -3,7 +3,7 @@
   "slug": "eetpatroon-in-de-praktijk",
   "title": "Eetpatroon in de praktijk",
   "part": 2,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
   "estimated_minutes": 90,
   "prerequisites": [
@@ -17,5 +17,89 @@
   ],
   "core_question": "Hoe vertaal je kennis over voeding naar wat je elke dag eet?",
   "summary": "Lichaamsgewicht (BMI en buikomvang en hun beperkingen), afvallen en de energiebalans, diëten zoals koolhydraatarm, periodiek vasten en mediterraan in het licht van onderzoek, eiwit bij sport en ouder worden, ultrabewerkt voedsel, en een uitgewerkt weekmenu.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een tabel van de Wereldgezondheidsorganisatie",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "gewicht-en-afvallen",
+      "title": "Lichaamsgewicht en afvallen",
+      "file": "02-gewicht-en-afvallen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "dieten-eiwit-bewerkt",
+      "title": "Diëten, eiwit en ultrabewerkt voedsel",
+      "file": "03-dieten-eiwit-bewerkt.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casus-weekmenu",
+      "title": "Casus: een weekmenu beoordelen",
+      "file": "04-casus-weekmenu.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en toets",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt BMI en buikomvang berekenen en beoordelen, en hun beperkingen benoemen.",
+    "Je kunt met de energiebalans de duur van gewichtsverlies schatten en uitleggen waarom afvallen in de praktijk langzamer gaat dan de rekenregel voorspelt.",
+    "Je kunt koolhydraatarm, periodiek vasten en het mediterrane patroon bespreken in het licht van gerandomiseerd onderzoek.",
+    "Je kunt de eiwitbehoefte schatten voor een volwassene, een sporter en een oudere en de discussie over ultrabewerkt voedsel weergeven.",
+    "Je kunt een weekmenu beoordelen met de Schijf van Vijf en kleine, haalbare verbeteringen voorstellen."
+  ],
+  "glossary": [
+    {
+      "term": "Body mass index",
+      "definition": "Gewicht in kilogram gedeeld door de lengte in meters in het kwadraat; een grove maat voor gewicht naar lengte."
+    },
+    {
+      "term": "Buikomvang",
+      "definition": "De omtrek van de taille; een maat voor buikvet, dat ongunstiger is dan vet onder de huid."
+    },
+    {
+      "term": "Energietekort",
+      "definition": "Een situatie waarin de inname lager is dan het verbruik, waardoor lichaamsvoorraden afnemen."
+    },
+    {
+      "term": "Adaptatie",
+      "definition": "De aanpassing van verbruik en eetlust van het lichaam aan gewichtsverlies, waardoor het tekort kleiner wordt."
+    },
+    {
+      "term": "Koolhydraatarm dieet",
+      "definition": "Een eetpatroon met sterk beperkte koolhydraten, meestal minder dan 100 tot 130 gram per dag."
+    },
+    {
+      "term": "Periodiek vasten",
+      "definition": "Het afwisselen van eten en vasten, bijvoorbeeld 16 uur vasten en 8 uur eten."
+    },
+    {
+      "term": "Mediterraan patroon",
+      "definition": "Een patroon met veel groente, fruit, peulvruchten, noten, volkoren, vis en olijfolie en weinig rood en bewerkt vlees."
+    },
+    {
+      "term": "NOVA",
+      "definition": "Een indeling van voedsel in vier groepen naar de mate van industriële bewerking; groep 4 is ultrabewerkt."
+    },
+    {
+      "term": "Sarcopenie",
+      "definition": "Het verlies van spiermassa en spierkracht op oudere leeftijd."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Body mass index",
+      "latex": "\\text{BMI} = \\frac{\\text{gewicht in kg}}{(\\text{lengte in m})^2}",
+      "usage": "Verhouding van gewicht tot lengte; WHO-grenzen 18,5, 25 en 30.",
+      "origin": "Adolphe Quetelet, 1832."
+    }
+  ]
 }

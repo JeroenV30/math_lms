@@ -1,0 +1,215 @@
+{
+  "title": "Hoofdstuktoets – Wat je lichaam nodig heeft",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "01-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Hoeveel kcal energie levert 1 gram vet ongeveer?",
+      "choices": [
+        "9 kcal",
+        "4 kcal",
+        "7 kcal",
+        "2 kcal"
+      ],
+      "answer": "9 kcal",
+      "hints": [],
+      "solution": [
+        "Vet levert 9 kcal per gram; koolhydraten en eiwit 4, alcohol 7."
+      ],
+      "topics": [
+        "energy",
+        "macronutrients"
+      ],
+      "feedback": [
+        {
+          "answer": "4 kcal",
+          "message": "Dat is de waarde voor koolhydraten en eiwit, niet voor vet."
+        }
+      ]
+    },
+    {
+      "id": "01-T02",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een volwassene gebruikt 2.500 kcal per dag. Hoeveel kJ is dat, met $1\\ \\text{kcal} = 4{,}184\\ \\text{kJ}$?",
+      "answer": 10460,
+      "hints": [],
+      "solution": [
+        "$2500 \\times 4{,}184 = 10460$ kJ."
+      ],
+      "topics": [
+        "energy"
+      ],
+      "unit": "kJ"
+    },
+    {
+      "id": "01-T03",
+      "type": "decimal",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een product bevat per 100 gram 10 g eiwit, 40 g koolhydraten en 5 g vet. Eiwit en koolhydraten leveren 4 kcal per gram, vet 9 kcal per gram. Hoeveel kcal levert een portie van 150 gram? Geef het antwoord met één decimaal.",
+      "answer": 367.5,
+      "tolerance": 0.1,
+      "hints": [],
+      "solution": [
+        "Per 100 g: $40 + 160 + 45 = 245$ kcal.",
+        "Per 150 g: $245 \\times 1{,}5 = 367{,}5$ kcal."
+      ],
+      "topics": [
+        "energy",
+        "macronutrients"
+      ],
+      "unit": "kcal"
+    },
+    {
+      "id": "01-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat is de ruststofwisseling?",
+      "choices": [
+        "De energie die het lichaam in rust nodig heeft om in leven te blijven",
+        "De energie die nodig is om te sporten",
+        "Het aantal kcal in een maaltijd",
+        "De energie die overblijft na het eten"
+      ],
+      "answer": "De energie die het lichaam in rust nodig heeft om in leven te blijven",
+      "hints": [],
+      "solution": [
+        "De ruststofwisseling dekt hartslag, ademhaling, hersenen en lichaamstemperatuur; ze is het grootste deel van het dagverbruik."
+      ],
+      "topics": [
+        "energy"
+      ]
+    },
+    {
+      "id": "01-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke uitspraak over essentiële stoffen klopt?",
+      "choices": [
+        "Het lichaam kan ze niet of onvoldoende zelf maken, dus ze moeten uit voeding komen",
+        "Ze leveren altijd veel energie",
+        "Ze komen alleen in dierlijke producten voor",
+        "Ze zijn alleen nodig voor kinderen"
+      ],
+      "answer": "Het lichaam kan ze niet of onvoldoende zelf maken, dus ze moeten uit voeding komen",
+      "hints": [],
+      "solution": [
+        "Essentieel gaat over wat het lichaam zelf niet kan maken, zoals negen aminozuren en twee vetzuren."
+      ],
+      "topics": [
+        "macronutrients",
+        "micronutrients"
+      ]
+    },
+    {
+      "id": "01-T06",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een man van 30 jaar, 70 kg en 180 cm. Bereken zijn ruststofwisseling met $10w + 6{,}25h - 5a + 5$ (gewicht in kg, lengte in cm, leeftijd in jaren), in kcal per dag.",
+      "answer": 1680,
+      "hints": [],
+      "solution": [
+        "$700 + 1125 - 150 + 5 = 1680$ kcal."
+      ],
+      "topics": [
+        "energy"
+      ],
+      "unit": "kcal"
+    },
+    {
+      "id": "01-T07",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een man heeft een ruststofwisseling van 1.680 kcal per dag en een activiteitsfactor (PAL) van 1,5. Hoeveel kcal is zijn geschatte totale dagverbruik?",
+      "answer": 2520,
+      "hints": [],
+      "solution": [
+        "$1680 \\times 1{,}5 = 2520$ kcal."
+      ],
+      "topics": [
+        "energy"
+      ],
+      "unit": "kcal"
+    },
+    {
+      "id": "01-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat betekent de aanbevolen hoeveelheid van een voedingsstof volgens de Gezondheidsraad?",
+      "choices": [
+        "De inname die voldoende is voor ongeveer 97,5% van een groep gezonde mensen",
+        "De inname die voldoende is voor precies de helft van de groep",
+        "De hoogste inname zonder schadelijke effecten",
+        "Het minimum waaronder altijd een tekort ontstaat"
+      ],
+      "answer": "De inname die voldoende is voor ongeveer 97,5% van een groep gezonde mensen",
+      "hints": [],
+      "solution": [
+        "De aanbevolen hoeveelheid ligt boven de gemiddelde behoefte en heeft een veiligheidsmarge. Wie eronder zit, heeft niet per se een tekort."
+      ],
+      "topics": [
+        "micronutrients"
+      ],
+      "feedback": [
+        {
+          "answer": "De inname die voldoende is voor precies de helft van de groep",
+          "message": "Dat is de gemiddelde behoefte, niet de aanbevolen hoeveelheid."
+        }
+      ]
+    },
+    {
+      "id": "01-T09",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Iemand eet gemiddeld 2.300 kcal per dag en verbruikt gemiddeld 2.150 kcal per dag. Hoeveel kcal overschot is dat in 30 dagen?",
+      "answer": 4500,
+      "hints": [],
+      "solution": [
+        "Per dag $2300 - 2150 = 150$ kcal.",
+        "In 30 dagen: $30 \\times 150 = 4500$ kcal."
+      ],
+      "topics": [
+        "energy"
+      ],
+      "unit": "kcal"
+    },
+    {
+      "id": "01-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke uitspraak over vitamines klopt?",
+      "choices": [
+        "Vetoplosbare vitamines worden opgeslagen, waardoor overmaat mogelijk is",
+        "Vitamines leveren evenveel energie als koolhydraten",
+        "Een hogere inname dan de aanbevolen hoeveelheid is altijd beter",
+        "Alle vitamines kan het lichaam zelf maken"
+      ],
+      "answer": "Vetoplosbare vitamines worden opgeslagen, waardoor overmaat mogelijk is",
+      "hints": [],
+      "solution": [
+        "Vitamine A, D, E en K worden in het lichaam opgeslagen; een inname ver boven de bovengrens kan schadelijk zijn."
+      ],
+      "topics": [
+        "micronutrients"
+      ],
+      "feedback": [
+        {
+          "answer": "Vitamines leveren evenveel energie als koolhydraten",
+          "message": "Vitamines leveren geen energie."
+        }
+      ]
+    }
+  ]
+}
