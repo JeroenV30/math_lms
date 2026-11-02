@@ -1,51 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" font-family="Georgia, serif" font-size="13">
   <rect width="900" height="340" fill="#ffffff"/>
   <text x="450" y="26" text-anchor="middle" font-size="16" fill="#1f2933">Van Versailles tot de inval in Polen, 1919–1939</text>
-  <line x1="40" y1="170" x2="860" y2="170" stroke="#1f2933" stroke-width="2"/>
-  <!-- tick marks every 2 years: 1919 -> x=60 ; 41 px per year -->
+  <line x1="30" y1="170" x2="890" y2="170" stroke="#1f2933" stroke-width="2"/>
+  <!-- tickmarks every 2 years: x = 50 + (jaar - 1919) * 40 ; 1939 = 850 -->
   <g stroke="#1f2933" stroke-width="1">
-    <line x1="60" y1="164" x2="60" y2="176"/><line x1="142" y1="164" x2="142" y2="176"/><line x1="224" y1="164" x2="224" y2="176"/>
-    <line x1="306" y1="164" x2="306" y2="176"/><line x1="388" y1="164" x2="388" y2="176"/><line x1="470" y1="164" x2="470" y2="176"/>
-    <line x1="552" y1="164" x2="552" y2="176"/><line x1="634" y1="164" x2="634" y2="176"/><line x1="716" y1="164" x2="716" y2="176"/>
-    <line x1="798" y1="164" x2="798" y2="176"/>
+    <line x1="50" y1="164" x2="50" y2="176"/><line x1="130" y1="164" x2="130" y2="176"/><line x1="210" y1="164" x2="210" y2="176"/>
+    <line x1="290" y1="164" x2="290" y2="176"/><line x1="370" y1="164" x2="370" y2="176"/><line x1="450" y1="164" x2="450" y2="176"/>
+    <line x1="530" y1="164" x2="530" y2="176"/><line x1="610" y1="164" x2="610" y2="176"/><line x1="690" y1="164" x2="690" y2="176"/>
+    <line x1="770" y1="164" x2="770" y2="176"/><line x1="850" y1="164" x2="850" y2="176"/>
   </g>
   <g font-size="11" fill="#1f2933" text-anchor="middle">
-    <text x="60" y="192">1919</text><text x="142" y="192">1921</text><text x="224" y="192">1923</text><text x="306" y="192">1925</text>
-    <text x="388" y="192">1927</text><text x="470" y="192">1929</text><text x="552" y="192">1931</text><text x="634" y="192">1933</text>
-    <text x="716" y="192">1935</text><text x="798" y="192">1937</text>
+    <text x="50" y="192">1919</text><text x="130" y="192">1921</text><text x="210" y="192">1923</text><text x="290" y="192">1925</text>
+    <text x="370" y="192">1927</text><text x="450" y="192">1929</text><text x="530" y="192">1931</text><text x="610" y="192">1933</text>
+    <text x="690" y="192">1935</text><text x="770" y="192">1937</text><text x="850" y="192">1939</text>
   </g>
-  <rect x="470" y="198" width="164" height="8" fill="#9c6b30" opacity="0.35"/>
-  <text x="552" y="222" text-anchor="middle" font-size="11" fill="#9c6b30">wereldcrisis</text>
+  <rect x="450" y="198" width="160" height="8" fill="#9c6b30" opacity="0.35"/>
+  <text x="452" y="222" text-anchor="start" font-size="11" fill="#9c6b30">wereldcrisis</text>
   <!-- above: Europe (blue) -->
   <g fill="#3b5bdb" stroke="#3b5bdb" stroke-width="1">
-    <circle cx="60" cy="170" r="5"/><circle cx="224" cy="170" r="5"/><circle cx="470" cy="170" r="5"/><circle cx="634" cy="170" r="5"/>
-    <circle cx="749" cy="170" r="5"/><circle cx="822" cy="170" r="5"/><circle cx="822" cy="170" r="5"/>
+    <circle cx="70" cy="170" r="5"/><circle cx="211" cy="170" r="5"/><circle cx="482" cy="170" r="5"/>
+    <circle cx="613" cy="170" r="5"/><circle cx="718" cy="170" r="5"/><circle cx="840" cy="170" r="5"/>
+    <circle cx="876" cy="170" r="5"/>
   </g>
   <g stroke="#3b5bdb" stroke-width="1">
-    <line x1="60" y1="165" x2="60" y2="120"/><line x1="224" y1="165" x2="224" y2="80"/><line x1="470" y1="165" x2="470" y2="120"/>
-    <line x1="634" y1="165" x2="634" y2="80"/><line x1="749" y1="165" x2="749" y2="120"/><line x1="822" y1="165" x2="822" y2="60"/>
+    <line x1="70" y1="165" x2="70" y2="120"/><line x1="211" y1="165" x2="211" y2="80"/><line x1="482" y1="165" x2="482" y2="120"/>
+    <line x1="613" y1="165" x2="613" y2="80"/><line x1="718" y1="165" x2="718" y2="120"/><line x1="840" y1="165" x2="840" y2="54"/>
+    <line x1="876" y1="175" x2="876" y2="298"/>
   </g>
   <g fill="#1f2933" font-size="12" text-anchor="middle">
-    <text x="60" y="108">Versailles</text><text x="60" y="94" font-size="10">28 juni 1919</text>
-    <text x="224" y="68">Ruhrbezetting,</text><text x="224" y="54">hyperinflatie</text>
-    <text x="470" y="108">Beurskrach</text><text x="470" y="94" font-size="10">okt. 1929</text>
-    <text x="634" y="68">Hitler kanselier</text><text x="634" y="54" font-size="10">30 jan. 1933</text>
-    <text x="749" y="108">Neurenberger</text><text x="749" y="94">wetten 1935</text>
-    <text x="822" y="42" text-anchor="end">München 1938</text>
+    <text x="70" y="108">Versailles</text><text x="70" y="94" font-size="10">28 juni 1919</text>
+    <text x="211" y="68">Ruhrbezetting</text><text x="211" y="54">hyperinflatie</text>
+    <text x="482" y="108">Beurskrach</text><text x="482" y="94" font-size="10">okt. 1929</text>
+    <text x="613" y="68">Hitler kanselier</text><text x="613" y="54" font-size="10">30 jan. 1933</text>
+    <text x="718" y="108">Neurenberger</text><text x="718" y="94">wetten 1935</text>
+    <text x="840" y="44">München 1938</text>
   </g>
   <!-- below: Azie/Italie (brown) -->
   <g stroke="#9c6b30" fill="#9c6b30">
-    <circle cx="552" cy="170" r="5"/><circle cx="798" cy="170" r="5"/>
-    <line x1="552" y1="175" x2="552" y2="260"/><line x1="798" y1="175" x2="798" y2="260"/>
+    <circle cx="558" cy="170" r="5"/><circle cx="791" cy="170" r="5"/>
+    <line x1="558" y1="175" x2="558" y2="260"/><line x1="791" y1="175" x2="791" y2="260"/>
   </g>
   <g fill="#1f2933" font-size="12" text-anchor="middle">
-    <text x="552" y="276">Mantsjoerije</text><text x="552" y="290" font-size="10">sept. 1931</text>
-    <text x="798" y="276">Japan valt China aan</text><text x="798" y="290" font-size="10">juli 1937</text>
+    <text x="558" y="276">Mantsjoerije</text><text x="558" y="290" font-size="10">sept. 1931</text>
+    <text x="791" y="276">Japan valt China aan</text><text x="791" y="290" font-size="10">juli 1937</text>
   </g>
-  <!-- 1938-39 -->
-  <g fill="#3b5bdb"><circle cx="839" cy="170" r="5"/><circle cx="860" cy="170" r="5"/></g>
+  <!-- 1939: Molotov-Ribbentrop en inval Polen (blauw, label rechtsonder) -->
   <g font-size="11" fill="#1f2933" text-anchor="end">
-    <text x="868" y="130">Molotov-Ribbentrop 23 aug.,</text><text x="868" y="144">inval Polen 1 sept. 1939</text>
+    <text x="884" y="306">Molotov-Ribbentrop 23 aug.,</text><text x="884" y="320">inval Polen 1 sept. 1939</text>
   </g>
   <text x="40" y="326" font-size="11" fill="#1f2933">Blauw: Europa. Bruin: Azië en economische crisis. Eigen schema.</text>
 </svg>
