@@ -351,7 +351,7 @@ class DomainTest extends TestCase
     {
         $domains = app(DomainService::class)->all();
 
-        $this->assertCount(14, $domains);
+        $this->assertCount(18, $domains);
         $this->assertSame('wiskunde', $domains->first()['id']);
 
         foreach ($domains as $domain) {
