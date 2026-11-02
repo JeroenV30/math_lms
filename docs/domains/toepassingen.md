@@ -1,4 +1,4 @@
-# Aanvulling: toepassingen (Economie, Bedrijven, WBSO, Beleggen)
+# Aanvulling: toepassingen (alle cursussen in de sectie Toepassingen)
 
 Hoort bij `docs/CONTENT_AGENT_BRIEF.md` en gaat daar vóór. Daarnaast heeft elke toepassing een eigen
 korte aanvulling (`docs/domains/<id>.md`) met het moduleplan en de bronnen; die gaat weer vóór dit bestand.

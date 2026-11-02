@@ -3,8 +3,9 @@
 Leeromgeving met kennisdomeinen (sectie *Kennis door de Eeuwen*) en toepassingen (`content/domains.json`); uitgewerkt is alleen het domein Wiskunde, de cursus *Rekenen & Wiskunde*.
 
 De startpagina (`/`) biedt twee ingangen, de secties in `domains.json`: de kaart van kennis (`/kaart`, sectie `kennis`)
-en de toepassingen (`/toepassingen`): korte praktische cursussen in de groepen SubCode (Economie, Bedrijven, WBSO)
-en Persoonlijk (Beleggen; te verbergen in de instellingen). Een toepassing is technisch een gewoon domein
+en de toepassingen (`/toepassingen`): korte praktische cursussen in de groepen SubCode (Economie, Bedrijven, WBSO, Innovatie)
+en Persoonlijk (Beleggen, Gezonde voeding, Filmhistorie, De Tweede Wereldoorlog; te verbergen in de instellingen).
+Filmhistorie en WO2 zijn geschiedeniscursussen: wél tijdlijn en personen, met id's die gelijk zijn aan Geschiedenis. Een toepassing is technisch een gewoon domein
 (`section`/`group` in domains.json, cursus in `content/domains/<id>/`, pagina's onder `/kennis/<id>`).
 Contentagents voor een toepassing krijgen ook `docs/domains/toepassingen.md` (kortere modules, peiljaar bij bedragen).
 

@@ -6,7 +6,7 @@
   "home": {
     "eyebrow": "Leeromgeving",
     "title": "Wat wil je leren?",
-    "intro": "Kies een kennisdomein en volg de geschiedenis van het denken van het eenvoudigste begin tot academisch niveau, of ga direct naar een toepassing: korte, praktische cursussen over economie, ondernemen en regelingen."
+    "intro": "Kies een kennisdomein en volg de geschiedenis van het denken van het eenvoudigste begin tot academisch niveau, of ga direct naar een toepassing: korte cursussen voor je werk (economie, ondernemen, innovatie en regelingen) en voor jezelf."
   },
   "sections": [
     {
@@ -27,12 +27,12 @@
       "nouns": ["toepassing", "toepassingen"],
       "eyebrow": "Begrijpen · Toepassen · Beslissen",
       "title": "Toepassingen",
-      "intro": "Korte, praktische cursussen over hoe de economie, bedrijven en regelingen werken. Dezelfde opbouw als de kennisdomeinen, met lessen, oefeningen, toetsen en herhaling, maar gericht op wat je in de praktijk nodig hebt.",
+      "intro": "Korte cursussen voor je werk en voor jezelf: hoe de economie, bedrijven, innovatie en regelingen werken, en persoonlijke onderwerpen als beleggen, voeding, film en de Tweede Wereldoorlog. Dezelfde opbouw als de kennisdomeinen, met lessen, oefeningen, toetsen en herhaling, maar gericht op wat je in de praktijk nodig hebt.",
       "groups": [
         {
           "id": "subcode",
           "name": "SubCode",
-          "intro": "Wat je moet weten om subsidies en fiscale regelingen te begrijpen: hoe de economie werkt en waarom de overheid subsidieert, hoe een bedrijf in elkaar zit, en de regelingen zelf. Meer regelingen volgen."
+          "intro": "Wat je moet weten om subsidies en fiscale regelingen te begrijpen: hoe de economie werkt en waarom de overheid subsidieert, hoe een bedrijf in elkaar zit, hoe het innovatiebeleid werkt, en de regelingen zelf. Meer regelingen volgen."
         },
         {
           "id": "persoonlijk",
@@ -194,6 +194,18 @@
       "planned_parts": ["Wat de WBSO is", "Wat telt als S&O", "Uren, kosten en het voordeel", "Aanvragen, administratie en controle"]
     },
     {
+      "id": "innovatie",
+      "name": "Innovatie",
+      "section": "toepassingen",
+      "group": "subcode",
+      "tagline": ["Missies", "KIA's", "Instrumenten"],
+      "monogram": "In",
+      "color": "#e67700",
+      "status": "planned",
+      "description": "Wat innovatie is, hoe de overheid er via missies en Kennis- en Innovatieagenda's (KIA's) richting aan geeft, welk instrument bij welke fase past, en hoe je een innovatieproject overtuigend beschrijft.",
+      "planned_parts": ["Wat innovatie is", "Missiegedreven innovatiebeleid", "Instrumenten van idee tot markt", "Een innovatieproject beschrijven"]
+    },
+    {
       "id": "beleggen",
       "name": "Beleggen",
       "section": "toepassingen",
@@ -204,6 +216,42 @@
       "status": "available",
       "description": "Waarom en hoe je belegt: samengestelde rente, risico en rendement, beleggingsproducten, spreiding, gedrag, kosten en belasting.",
       "planned_parts": ["Waarom beleggen", "Beleggingsproducten", "Spreiding en portefeuille", "Gedrag, kosten en belasting"]
+    },
+    {
+      "id": "gezonde-voeding",
+      "name": "Gezonde voeding",
+      "section": "toepassingen",
+      "group": "persoonlijk",
+      "tagline": ["Voedingsstoffen", "Richtlijnen", "Onderzoek"],
+      "monogram": "Gv",
+      "color": "#66a80f",
+      "status": "planned",
+      "description": "Wat je lichaam met voeding doet, waarop de Richtlijnen goede voeding en de Schijf van Vijf berusten, hoe je voedingsonderzoek en etiketten kritisch leest, en hoe je dat vertaalt naar je eigen eetpatroon.",
+      "planned_parts": ["Wat je lichaam nodig heeft", "De Richtlijnen goede voeding", "Voedingsonderzoek lezen", "Eetpatroon in de praktijk"]
+    },
+    {
+      "id": "filmhistorie",
+      "name": "Filmhistorie",
+      "section": "toepassingen",
+      "group": "persoonlijk",
+      "tagline": ["Beeld", "Montage", "Stromingen"],
+      "monogram": "Fh",
+      "color": "#a61e4d",
+      "status": "planned",
+      "description": "De geschiedenis van de film, van de eerste vertoningen in 1895 via het klassieke Hollywood en de nieuwe golven tot digitale film en streaming, met de filmtaal om films zelf te leren lezen.",
+      "planned_parts": ["Bewegend beeld en de stomme film", "Het klassieke Hollywood", "Nieuwe golven en auteurs", "Van video tot streaming"]
+    },
+    {
+      "id": "wo2",
+      "name": "De Tweede Wereldoorlog",
+      "section": "toepassingen",
+      "group": "persoonlijk",
+      "tagline": ["Oorlog", "Bezetting", "Herinnering"],
+      "monogram": "W2",
+      "color": "#5c6b3a",
+      "status": "planned",
+      "description": "Een verdieping op de Geschiedenismodule over de Tweede Wereldoorlog: de weg naar oorlog, het verloop in Europa en Azië, Nederland en Indië onder bezetting, en de Holocaust, de berechting en de herinnering.",
+      "planned_parts": ["Op weg naar oorlog", "Een wereldoorlog", "Nederland en Indië in oorlog", "Holocaust, berechting en herinnering"]
     }
   ]
 }
