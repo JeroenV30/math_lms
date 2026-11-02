@@ -3,7 +3,7 @@
   "slug": "instrumenten-van-idee-tot-markt",
   "title": "Instrumenten van idee tot markt",
   "part": 2,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 3,
   "estimated_minutes": 100,
   "prerequisites": [
@@ -17,5 +17,99 @@
   ],
   "core_question": "Welk instrument past bij welke fase en welk soort innovatieproject?",
   "summary": "Fiscale en directe instrumenten naast elkaar: WBSO en innovatiebox, de MIT-regeling, de PPS-toeslag, het Innovatiekrediet, Eurostars en de EIC Accelerator, demonstratieregelingen; kiezen naar fase, vorm en samenwerking, en stapelen binnen de staatssteunregels.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Eén regeling, vijf vragen",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "fiscaal-en-nationale-subsidies",
+      "title": "WBSO, innovatiebox, MIT en PPS-toeslag",
+      "file": "02-fiscaal-en-nationale-subsidies.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "krediet-europa-en-kiezen",
+      "title": "Krediet, Europa, demonstratie en kiezen",
+      "file": "03-krediet-europa-en-kiezen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casus-nordlicht-accus",
+      "title": "Casus: Nordlicht Accu's",
+      "file": "04-casus-nordlicht-accus.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt een innovatie-instrument beschrijven aan de hand van fase, doelgroep, omvang, vorm en voorwaarden.",
+    "Je kunt de rol van de WBSO en de innovatiebox in het traject van een innovatie uitleggen.",
+    "Je kunt het bedrag van een MIT-subsidie of een Innovatiekrediet berekenen uit de parameters van een regeling.",
+    "Je kunt Eurostars, de EIC-instrumenten, de PPS-toeslag en demonstratieregelingen als DEI+ onderscheiden.",
+    "Je kunt een route langs instrumenten kiezen naar fase, omvang, samenwerking en timing, en uitleggen waar stapelen zijn grens vindt."
+  ],
+  "glossary": [
+    {
+      "term": "WBSO",
+      "definition": "Fiscale regeling die de af te dragen loonheffing verlaagt in verhouding tot de kosten van technisch onderzoek en ontwikkeling."
+    },
+    {
+      "term": "Innovatiebox",
+      "definition": "Lager effectief belastingtarief op winst uit een zelf ontwikkeld immaterieel activum (9% in 2026)."
+    },
+    {
+      "term": "MIT-regeling",
+      "definition": "Regeling voor mkb-innovatie met onder meer haalbaarheidsprojecten en R&D-samenwerkingsprojecten, uitgevoerd door RVO."
+    },
+    {
+      "term": "Haalbaarheidsproject",
+      "definition": "Klein project om de technische en economische haalbaarheid van een innovatie te onderzoeken vóór ontwikkeling."
+    },
+    {
+      "term": "R&D-samenwerkingsproject",
+      "definition": "Project van minimaal twee samenwerkende mkb-bedrijven voor industrieel onderzoek en experimentele ontwikkeling."
+    },
+    {
+      "term": "Tenderprincipe",
+      "definition": "Aanvragen worden gerangschikt op score en de hoogste krijgen het geld tot het budget op is."
+    },
+    {
+      "term": "PPS-toeslag",
+      "definition": "Een toeslag van de overheid op private bijdragen aan onderzoek bij kennisinstellingen in een samenwerkingsverband."
+    },
+    {
+      "term": "Innovatiekrediet",
+      "definition": "Lening voor kostbare, technisch of klinisch risicovolle ontwikkeling; bij succes terug te betalen, bij falen geheel of gedeeltelijk kwijtgescholden."
+    },
+    {
+      "term": "Eurostars",
+      "definition": "Programma voor internationale samenwerking van onderzoekende mkb-bedrijven met een internationale en een nationale aanvraag."
+    },
+    {
+      "term": "EIC Accelerator",
+      "definition": "Europees instrument voor mkb en startups die een ontwikkelde technologie willen opschalen, met subsidie en eventueel eigen vermogen."
+    },
+    {
+      "term": "Steunintensiteit",
+      "definition": "Het maximale aandeel van de subsidiabele kosten dat uit steun mag bestaan volgens de staatssteunregels."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Subsidie als percentage met grenzen",
+      "latex": "S = \\min\\left(\\max\\left(p \\cdot K,\\ S_{\\min}\\right),\\ S_{\\max}\\right)",
+      "usage": "K zijn de subsidiabele kosten, p het subsidiepercentage, S_min en S_max de ondergrens en bovengrens van de regeling.",
+      "origin": "Opbouw van MIT-subsidies volgens RVO (stand 2026)."
+    }
+  ],
+  "timeline": [],
+  "people": []
 }

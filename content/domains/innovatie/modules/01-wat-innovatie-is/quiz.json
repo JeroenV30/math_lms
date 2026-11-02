@@ -1,0 +1,182 @@
+{
+  "title": "Hoofdstuktoets – Wat innovatie is",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "01-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat is het verschil tussen een uitvinding en een innovatie?",
+      "choices": [
+        "Een innovatie is in gebruik genomen of beschikbaar gesteld, een uitvinding is alleen een nieuw idee of prototype",
+        "Een uitvinding is altijd radicaal, een innovatie altijd incrementeel",
+        "Een innovatie moet een octrooi hebben, een uitvinding niet"
+      ],
+      "answer": "Een innovatie is in gebruik genomen of beschikbaar gesteld, een uitvinding is alleen een nieuw idee of prototype",
+      "hints": [],
+      "solution": ["Schumpeter en de Oslo Manual leggen het accent op het in gebruik nemen of beschikbaar stellen. Een octrooi of de mate van vernieuwing zegt daar niets over."],
+      "feedback": [
+        { "answer": "Een innovatie moet een octrooi hebben, een uitvinding niet", "message": "Een octrooi beschermt een uitvinding. Het is geen voorwaarde voor een innovatie." }
+      ],
+      "topics": ["innovation-concept"]
+    },
+    {
+      "id": "01-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Een webwinkel voert voor het eerst een eigen magazijnrobot in om bestellingen sneller te verwerken. Wat voor innovatie is dat volgens de Oslo Manual 2018?",
+      "choices": [
+        "Een bedrijfsprocesinnovatie",
+        "Een productinnovatie",
+        "Geen innovatie, want de robot bestond al"
+      ],
+      "answer": "Een bedrijfsprocesinnovatie",
+      "hints": [],
+      "solution": ["De webwinkel verandert hoe ze werkt (distributie en logistiek). Nieuw voor de onderneming volstaat voor de Oslo Manual."],
+      "feedback": [
+        { "answer": "Geen innovatie, want de robot bestond al", "message": "In de Oslo Manual is nieuw voor de onderneming voldoende." }
+      ],
+      "topics": ["innovation-types"]
+    },
+    {
+      "id": "01-T03",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Een technologie is gevalideerd in het laboratorium en het concept is experimenteel bewezen. Een demonstratie in een relevante omgeving ontbreekt nog. Op welk TRL (schaal 1 tot 9, Europese Commissie) staat de technologie?",
+      "answer": 4,
+      "hints": [],
+      "solution": ["Validatie in het lab is TRL 4. Validatie of demonstratie in een relevante omgeving is TRL 5 of 6."],
+      "feedback": [
+        { "answer": 3, "message": "TRL 3 is het experimentele bewijs van het concept. Hier is de technologie al in het lab gevalideerd, dus een niveau verder." }
+      ],
+      "topics": ["trl"]
+    },
+    {
+      "id": "01-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een producent verbetert zijn bestaande wasmachine zodat die 4% minder water gebruikt. Hoe typeer je deze innovatie het best?",
+      "choices": [
+        "Incrementeel, want het is een kleine verbetering van een bestaand product",
+        "Radicaal, want elke verbetering van het milieu is radicaal",
+        "Geen innovatie, want de wasmachine bestond al"
+      ],
+      "answer": "Incrementeel, want het is een kleine verbetering van een bestaand product",
+      "hints": [],
+      "solution": ["Een kleine stap op bestaande techniek is incrementeel. Een verbeterd product kan wel een innovatie zijn, namelijk een productinnovatie."],
+      "topics": ["innovation-types"]
+    },
+    {
+      "id": "01-T05",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een project kost € 2.000.000. Het bedrijf verwacht er zelf € 1.500.000 aan op te brengen. Andere bedrijven profiteren van de kennis voor € 900.000, zonder erover te betalen. Hoe groot is het netto maatschappelijk voordeel in hele euro's (opbrengst voor het bedrijf plus voordeel voor anderen min kosten)?",
+      "answer": 400000,
+      "unit": "€",
+      "hints": [],
+      "solution": ["$1.500.000 + 900.000 - 2.000.000 = 400.000$.", "Het bedrijf alleen zou verlies maken (€ 500.000) en het project dus laten liggen."],
+      "feedback": [
+        { "answer": -500000, "message": "Je telde alleen de opbrengst voor het bedrijf zelf. De spillover van € 900.000 hoort bij het maatschappelijk voordeel." }
+      ],
+      "topics": ["innovation-system"]
+    },
+    {
+      "id": "01-T06",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke reden verklaart het best waarom bedrijven zonder overheidsingrijpen minder in onderzoek investeren dan voor de samenleving optimaal is?",
+      "choices": [
+        "Een deel van de opbrengst van kennis vloeit naar anderen (spillovers), terwijl de kosten en het risico bij de investeerder blijven",
+        "Bedrijven vinden onderzoek altijd minder interessant dan marketing",
+        "Onderzoek levert nooit iets op"
+      ],
+      "answer": "Een deel van de opbrengst van kennis vloeit naar anderen (spillovers), terwijl de kosten en het risico bij de investeerder blijven",
+      "hints": [],
+      "solution": ["De uitvinder kan maar een deel van de opbrengst toeëigenen, het resultaat is onzeker en de opbrengst komt laat. Daardoor investeren bedrijven minder dan wenselijk."],
+      "topics": ["innovation-system", "innovation-concept"]
+    },
+    {
+      "id": "01-T07",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze stadia van een technologie in de volgorde van de TRL-schaal, van laag naar hoog.",
+      "answer": [
+        "Concept op papier geformuleerd",
+        "Experimenteel bewijs van het concept",
+        "Gevalideerd in het laboratorium",
+        "Gedemonstreerd in een relevante omgeving",
+        "Prototype in een operationele omgeving",
+        "Systeem compleet en gekwalificeerd"
+      ],
+      "hints": [],
+      "solution": ["TRL 2, 3, 4, 6, 7 en 8, in deze volgorde."],
+      "feedback": [
+        {
+          "answer": [
+            "Concept op papier geformuleerd",
+            "Experimenteel bewijs van het concept",
+            "Gevalideerd in het laboratorium",
+            "Gedemonstreerd in een relevante omgeving",
+            "Systeem compleet en gekwalificeerd",
+            "Prototype in een operationele omgeving"
+          ],
+          "message": "Een prototype in een operationele omgeving (TRL 7) komt vóór de kwalificatie van het complete systeem (TRL 8)."
+        }
+      ],
+      "topics": ["trl"]
+    },
+    {
+      "id": "01-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een universitaire groep ontwikkelt een nieuw materiaal en bewijst het in het lab (TRL 3 tot 4). Waarom is het voor deze groep vaak lastig om zelf het vervolg tot TRL 7 gefinancierd te krijgen?",
+      "choices": [
+        "Het werk is te toegepast voor wetenschapsfinanciering en te onzeker en kapitaalintensief voor commerciële investeerders",
+        "Universiteiten mogen geen samenwerking met bedrijven aangaan",
+        "Het materiaal is door het lab al te oud"
+      ],
+      "answer": "Het werk is te toegepast voor wetenschapsfinanciering en te onzeker en kapitaalintensief voor commerciële investeerders",
+      "hints": [],
+      "solution": ["Dit is de valley of death: de tussenfase heeft geen vanzelfsprekende financier. Samenwerking met een bedrijf en een regeling voor samenwerking helpen die kloof te overbruggen."],
+      "topics": ["trl", "innovation-system"]
+    },
+    {
+      "id": "01-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een overheid financiert een onderzoeksgroep, een bedrijf bouwt een product en een kennisinstelling leidt de technici op. Wat laat dit samenspel zien volgens het triple helix-model?",
+      "choices": [
+        "Dat innovatie voortkomt uit de wisselwerking tussen bedrijven, kennisinstellingen en overheid",
+        "Dat alleen bedrijven kunnen innoveren",
+        "Dat de overheid de enige partij is die innovatie kan sturen"
+      ],
+      "answer": "Dat innovatie voortkomt uit de wisselwerking tussen bedrijven, kennisinstellingen en overheid",
+      "hints": [],
+      "solution": ["Het model benadrukt dat de drie partijen elkaar aanvullen. Daarom belonen veel regelingen samenwerking."],
+      "topics": ["innovation-system"]
+    },
+    {
+      "id": "01-T10",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een mkb-bedrijf heeft een nieuwe, draadloze meetunit ontworpen en op papier uitgewerkt. De bijbehorende sensor is al gedemonstreerd in een bouwput, dus een relevante omgeving. Geef het TRL (schaal 1 tot 9) van elk onderdeel.",
+      "parts": [
+        { "label": "De uitleesunit, alleen als concept op papier geformuleerd", "answer": 2, "type": "numeric" },
+        { "label": "De sensor, gedemonstreerd in een relevante omgeving", "answer": 6, "type": "numeric" }
+      ],
+      "hints": [],
+      "solution": ["Een concept zonder experiment is TRL 2; een demonstratie in een relevante omgeving is TRL 6. Het is zinvol het TRL per onderdeel te noemen, omdat een systeem zelden overal even ver is."],
+      "topics": ["trl", "innovation-types"]
+    }
+  ]
+}

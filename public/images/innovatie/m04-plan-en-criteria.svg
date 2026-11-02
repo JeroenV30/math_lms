@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Arial, Helvetica, sans-serif" font-size="13">
+  <rect width="720" height="330" fill="#ffffff"/>
+  <text x="360" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#1f2933">Onderdelen van het plan en de criteria waarop ze scoren</text>
+  <g stroke="#1f2933" stroke-width="1.5">
+    <rect x="40" y="48" width="300" height="34" fill="#dbe4ff"/>
+    <rect x="40" y="90" width="300" height="34" fill="#dbe4ff"/>
+    <rect x="40" y="132" width="300" height="34" fill="#dbe4ff"/>
+    <rect x="40" y="174" width="300" height="34" fill="#dbe4ff"/>
+    <rect x="40" y="216" width="300" height="34" fill="#dbe4ff"/>
+    <rect x="40" y="258" width="300" height="34" fill="#dbe4ff"/>
+    <rect x="440" y="62" width="240" height="44" fill="#f1e3cf"/>
+    <rect x="440" y="130" width="240" height="44" fill="#f1e3cf"/>
+    <rect x="440" y="198" width="240" height="44" fill="#f1e3cf"/>
+    <rect x="440" y="258" width="240" height="44" fill="#f1e3cf"/>
+  </g>
+  <g fill="#1f2933">
+    <text x="52" y="70">1 Probleem met omvang</text>
+    <text x="52" y="112">2 Stand van de techniek</text>
+    <text x="52" y="154">3 Innovatieve stap</text>
+    <text x="52" y="196">4 Technische risico's</text>
+    <text x="52" y="238">5 Werkpakketten, mijlpalen, consortium</text>
+    <text x="52" y="280">6 Begroting, impact en valorisatie</text>
+    <text x="452" y="82" font-weight="bold">Vernieuwing</text><text x="452" y="98">stap 2, 3 en 4</text>
+    <text x="452" y="150" font-weight="bold">Kwaliteit samenwerking</text><text x="452" y="166">stap 5</text>
+    <text x="452" y="218" font-weight="bold">Economische waarde</text><text x="452" y="234">stap 1 en 6</text>
+    <text x="452" y="278" font-weight="bold">Positieve impact</text><text x="452" y="294">stap 6, aansluiting missie</text>
+  </g>
+  <g stroke="#3b5bdb" stroke-width="1.5" fill="none">
+    <path d="M340 106 L440 84"/><path d="M340 148 L440 90"/><path d="M340 190 L440 96"/>
+    <path d="M340 233 L440 152"/><path d="M340 65 L440 212"/><path d="M340 275 L440 224"/><path d="M340 280 L440 280"/>
+  </g>
+</svg>

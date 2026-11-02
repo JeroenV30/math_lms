@@ -1,0 +1,177 @@
+{
+  "title": "Hoofdstuktoets – Een innovatieproject beschrijven",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'. Percentages en grensbedragen staan in de vragen zelf.",
+  "questions": [
+    {
+      "id": "04-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Een beoordelaar scoort een aanvraag op criteria zoals vernieuwing, economische waarde, kwaliteit van de samenwerking en impact. Wat betekent dat voor de manier waarop je de aanvraag opbouwt?",
+      "choices": [
+        "Elk criterium krijgt een duidelijke plek in de tekst en elke bewering een bewijs",
+        "De aanvraag hoeft alleen over de techniek te gaan",
+        "De aanvraag moet zo lang mogelijk zijn"
+      ],
+      "answer": "Elk criterium krijgt een duidelijke plek in de tekst en elke bewering een bewijs",
+      "hints": [],
+      "solution": ["Een beoordelaar scoort wat hij in de tekst kan vinden. Daarom moet elk criterium een herkenbare plek hebben."],
+      "topics": ["assessment-criteria"]
+    },
+    {
+      "id": "04-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat is een technisch risico in een projectplan?",
+      "choices": [
+        "Een onzekerheid over of het technische doel wordt gehaald, met kans, gevolg en een aanpak",
+        "Een fout in de spelling van het plan",
+        "Het risico dat de subsidie wordt verlaagd"
+      ],
+      "answer": "Een onzekerheid over of het technische doel wordt gehaald, met kans, gevolg en een aanpak",
+      "hints": [],
+      "solution": ["Een technisch risico betreft het onderzoek zelf. Een goede beschrijving noemt de kans, het gevolg en de mitigatie."],
+      "topics": ["project-proposal"]
+    },
+    {
+      "id": "04-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een plan schrijft: 'Er zijn geen concurrenten voor onze technologie.' Hoe leest een beoordelaar dat doorgaans?",
+      "choices": [
+        "Als een teken dat de schrijver de stand van de techniek niet heeft onderzocht",
+        "Als bewijs van een grote vernieuwing",
+        "Als een goede reden om extra punten te geven"
+      ],
+      "answer": "Als een teken dat de schrijver de stand van de techniek niet heeft onderzocht",
+      "hints": [],
+      "solution": ["Zulke beweringen zijn zelden waar. Beter is te noemen welke benaderingen bestaan en waar ze tekortschieten."],
+      "topics": ["project-proposal", "assessment-criteria"]
+    },
+    {
+      "id": "04-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is een mijlpaal in een projectplan?",
+      "choices": [
+        "Een controleerbaar moment waarop een meetbaar resultaat is behaald of niet",
+        "Een feest na afloop van het project",
+        "Een schatting van de totale kosten"
+      ],
+      "answer": "Een controleerbaar moment waarop een meetbaar resultaat is behaald of niet",
+      "hints": [],
+      "solution": ["Een mijlpaal moet je kunnen aanwijzen: het resultaat is bereikt of niet. Een go/no-go-moment is een mijlpaal waarbij het consortium over het vervolg beslist."],
+      "topics": ["project-proposal"]
+    },
+    {
+      "id": "04-T05",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een regeling vergoedt 35% van de subsidiabele kosten. Alleen kosten van mkb-bedrijven zijn subsidiabel. Een project heeft totale kosten van € 800.000, waarvan € 650.000 bij mkb-bedrijven en € 150.000 bij een kennisinstelling. Hoe hoog is de subsidie in hele euro's?",
+      "answer": 227500,
+      "unit": "€",
+      "hints": [],
+      "solution": ["$0{,}35 \\times 650.000 = 227.500$"],
+      "feedback": [
+        { "answer": 280000, "message": "Je rekende met alle projectkosten. De kosten van de kennisinstelling zijn niet subsidiabel." }
+      ],
+      "topics": ["consortium", "project-proposal"]
+    },
+    {
+      "id": "04-T06",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een samenwerkingsregeling bepaalt dat één deelnemer maximaal 70% van de projectkosten mag dragen. In een project van € 640.000 neemt partner A € 470.000 voor zijn rekening. Met hoeveel euro overschrijdt A de grens, in hele euro's?",
+      "answer": 22000,
+      "unit": "€",
+      "hints": [],
+      "solution": ["De grens is $0{,}70 \\times 640.000 = 448.000$.", "A draagt $470.000 - 448.000 = 22.000$ te veel."],
+      "feedback": [
+        { "answer": 448000, "message": "Dat is de grens zelf. Gevraagd wordt hoeveel A daarboven zit." }
+      ],
+      "topics": ["consortium"]
+    },
+    {
+      "id": "04-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke impactformulering is het geloofwaardigst?",
+      "choices": [
+        "Bij 400 telers die elk € 6.000 per jaar besparen en een verwachte penetratie van 10% na drie jaar bedraagt de besparing € 240.000 per jaar (aannames: zie bijlage)",
+        "Het product zal een enorme omzet opleveren op de wereldmarkt van 30 miljard",
+        "De landbouw wordt hierdoor duurzamer"
+      ],
+      "answer": "Bij 400 telers die elk € 6.000 per jaar besparen en een verwachte penetratie van 10% na drie jaar bedraagt de besparing € 240.000 per jaar (aannames: zie bijlage)",
+      "hints": [],
+      "solution": ["Een bottom-upberekening met aannames laat zich toetsen. $400 \\times 6.000 \\times 0{,}10 = 240.000$. De andere twee zijn labels of een te grote top-downschatting."],
+      "topics": ["project-proposal", "assessment-criteria"]
+    },
+    {
+      "id": "04-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een consortium heeft drie bedrijven die precies hetzelfde doen. Hoe scoort dat waarschijnlijk op het criterium kwaliteit van de samenwerking, en waarom?",
+      "choices": [
+        "Laag: de partners vullen elkaar niet aan, waardoor niet duidelijk is waarom ze samenwerken",
+        "Hoog: hoe meer gelijke partners, hoe sterker het consortium",
+        "Het criterium kijkt niet naar de aanvulling tussen partners"
+      ],
+      "answer": "Laag: de partners vullen elkaar niet aan, waardoor niet duidelijk is waarom ze samenwerken",
+      "hints": [],
+      "solution": ["Een sterk consortium combineert complementaire kennis. Een partner met een dubbele rol heeft geen wezenlijke inbreng."],
+      "topics": ["consortium", "assessment-criteria"]
+    },
+    {
+      "id": "04-T09",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een regeling beoordeelt vier criteria van elk maximaal 25 punten. Een project dat aansluit bij een prioritaire missie krijgt het criterium impact verdubbeld. Aanvraag X scoort 20, 20, 20 en 10 punten (impact als laatste), aanvraag Y scoort 18, 18, 18 en 15. Met hoeveel punten verschilt X van Y na verdubbeling van impact (positief als X hoger is, negatief als Y hoger is)?",
+      "answer": -4,
+      "hints": [],
+      "solution": ["X: $20 + 20 + 20 + 2 \\times 10 = 80$.", "Y: $18 + 18 + 18 + 2 \\times 15 = 84$.", "Verschil $80 - 84 = -4$."],
+      "feedback": [
+        { "answer": 4, "message": "Let op het teken: Y heeft de hoogste score, dus het verschil van X ten opzichte van Y is negatief." }
+      ],
+      "topics": ["assessment-criteria"]
+    },
+    {
+      "id": "04-T10",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Zet deze zes onderdelen in de volgorde waarin ze logisch in een projectplan worden opgebouwd, van probleem naar resultaat.",
+      "answer": [
+        "Probleem met een omvang",
+        "Stand van de techniek",
+        "Innovatieve stap",
+        "Technische risico's",
+        "Werkpakketten en mijlpalen",
+        "Impact en valorisatie"
+      ],
+      "hints": [],
+      "solution": ["Eerst het probleem en wat er bestaat, dan wat nieuw is en wat misgaat, dan hoe je het uitvoert en tot slot wat het oplevert."],
+      "feedback": [
+        {
+          "answer": [
+            "Probleem met een omvang",
+            "Stand van de techniek",
+            "Innovatieve stap",
+            "Werkpakketten en mijlpalen",
+            "Technische risico's",
+            "Impact en valorisatie"
+          ],
+          "message": "De risico's horen bij de innovatieve stap en bepalen mede hoe je de werkpakketten en go/no-go-momenten inricht, dus ze komen vóór de werkpakketten."
+        }
+      ],
+      "topics": ["project-proposal"]
+    }
+  ]
+}

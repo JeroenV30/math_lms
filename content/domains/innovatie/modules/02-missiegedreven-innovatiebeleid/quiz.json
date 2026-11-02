@@ -1,0 +1,177 @@
+{
+  "title": "Hoofdstuktoets – Missiegedreven innovatiebeleid",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'. Bedragen en regels staan in de vragen zelf.",
+  "questions": [
+    {
+      "id": "02-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat betekent 'missiegedreven' in het Nederlandse innovatiebeleid?",
+      "choices": [
+        "Het beleid begint bij een maatschappelijke opgave met een doel en jaartal en vraagt daarna welke innovaties daarvoor nodig zijn",
+        "Het beleid wijst innovatiegeld toe aan de sectoren die het meest hebben geïnvesteerd",
+        "Het beleid laat alle keuzes over aan individuele bedrijven"
+      ],
+      "answer": "Het beleid begint bij een maatschappelijke opgave met een doel en jaartal en vraagt daarna welke innovaties daarvoor nodig zijn",
+      "hints": [],
+      "solution": ["Een missie is een opgave met een meetbaar doel, bijvoorbeeld een klimaatneutraal Nederland in 2050. Het beleid redeneert vanuit het doel."],
+      "topics": ["missions", "innovation-policy"]
+    },
+    {
+      "id": "02-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat gebeurde er volgens RVO met de topsectoren per 1 januari 2026?",
+      "choices": [
+        "Ze zijn stopgezet; een industriebeleid voor zes markten volgt, naast het missiegedreven beleid",
+        "Ze zijn uitgebreid van tien naar twintig sectoren",
+        "Ze zijn vervangen door één enkele TKI"
+      ],
+      "answer": "Ze zijn stopgezet; een industriebeleid voor zes markten volgt, naast het missiegedreven beleid",
+      "hints": [],
+      "solution": ["RVO meldt dat de topsectoren per 1 januari 2026 zijn stopgezet en dat het kabinet een industriebeleid met zes markten start."],
+      "topics": ["innovation-policy"]
+    },
+    {
+      "id": "02-T03",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is de juiste verhouding tussen een missie, een Kennis- en Innovatieagenda en een regeling?",
+      "choices": [
+        "De missie geeft de richting, de agenda werkt uit welk onderzoek nodig is, en de regeling betaalt de projecten",
+        "De missie betaalt de projecten, de agenda geeft de richting en de regeling werkt het onderzoek uit",
+        "De regeling bepaalt de missie, en de agenda is de aanvraag"
+      ],
+      "answer": "De missie geeft de richting, de agenda werkt uit welk onderzoek nodig is, en de regeling betaalt de projecten",
+      "hints": [],
+      "solution": ["Missies en agenda's zijn kaders. Het geld loopt via regelingen, die in hun beoordeling naar die kaders verwijzen."],
+      "topics": ["kia", "missions"]
+    },
+    {
+      "id": "02-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een ondernemer zegt: 'Wij hebben een KIA-subsidie aangevraagd.' Wat is hier mis mee?",
+      "choices": [
+        "Een KIA is een agenda en geen regeling; je vraagt subsidie aan bij een regeling die naar de KIA kan verwijzen",
+        "Er bestaan geen KIA's meer",
+        "Een KIA is alleen voor kennisinstellingen bedoeld"
+      ],
+      "answer": "Een KIA is een agenda en geen regeling; je vraagt subsidie aan bij een regeling die naar de KIA kan verwijzen",
+      "hints": [],
+      "solution": ["Een KIA geeft inhoudelijke richting. Subsidie vraag je aan bij een regeling, zoals de MIT."],
+      "topics": ["kia"]
+    },
+    {
+      "id": "02-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke taak hoort bij NWO en welke bij RVO?",
+      "choices": [
+        "NWO financiert wetenschappelijk onderzoek aan kennisinstellingen; RVO voert ondernemersregelingen uit",
+        "NWO voert ondernemersregelingen uit; RVO financiert wetenschappelijk onderzoek",
+        "Beide organisaties voeren precies dezelfde regelingen uit"
+      ],
+      "answer": "NWO financiert wetenschappelijk onderzoek aan kennisinstellingen; RVO voert ondernemersregelingen uit",
+      "hints": [],
+      "solution": ["NWO richt zich op wetenschappelijk onderzoek, RVO op regelingen voor ondernemers zoals de MIT en de WBSO."],
+      "topics": ["innovation-policy"]
+    },
+    {
+      "id": "02-T06",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een regeling beoordeelt aanvragen op vier criteria van elk maximaal 25 punten. Bij aansluiting op een prioritaire missie telt het criterium impact dubbel. Een aanvraag scoort 22 op vernieuwing, 18 op economische waarde, 20 op kwaliteit samenwerking en 10 op impact. Hoeveel punten heeft ze na verdubbeling van impact in totaal?",
+      "answer": 80,
+      "hints": [],
+      "solution": ["$22 + 18 + 20 + 2 \\times 10 = 80$."],
+      "feedback": [
+        { "answer": 70, "message": "Dat is de som zonder verdubbeling van impact." }
+      ],
+      "topics": ["assessment-criteria", "missions"]
+    },
+    {
+      "id": "02-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bedrijf beschrijft de aansluiting bij het beleid zo: 'Ons project past bij de energietransitie.' Wat ontbreekt er volgens de lessen om dit overtuigend te maken?",
+      "choices": [
+        "De deelmissie, de technologie of agenda, een meetbare bijdrage en het mechanisme waarmee het project die bijdrage levert",
+        "Een verwijzing naar het aantal medewerkers van het bedrijf",
+        "Een lijst van alle missies van de overheid"
+      ],
+      "answer": "De deelmissie, de technologie of agenda, een meetbare bijdrage en het mechanisme waarmee het project die bijdrage levert",
+      "hints": [],
+      "solution": ["Een label is geen argument. Een beoordelaar wil een specifiek doel, een bijdrage die te meten is en een uitleg van hoe die tot stand komt."],
+      "topics": ["missions", "project-proposal"]
+    },
+    {
+      "id": "02-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een project ontwikkelt een sensor met fotonica. De regeling kent punten toe voor aansluiting bij een NTS-sleuteltechnologie. Waarom zou het project mogelijk twee soorten aansluiting kunnen hebben, bij een missie en bij een technologie?",
+      "choices": [
+        "Een missie noemt de maatschappelijke opgave en een sleuteltechnologie de breed toepasbare technologie; een project kan beide dienen",
+        "Missies en technologieën sluiten elkaar altijd uit",
+        "Een technologie is een andere naam voor een sector"
+      ],
+      "answer": "Een missie noemt de maatschappelijke opgave en een sleuteltechnologie de breed toepasbare technologie; een project kan beide dienen",
+      "hints": [],
+      "solution": ["De missie zegt welk probleem, de technologie waarmee. Een sensor voor zorg of water kan bij beide horen."],
+      "topics": ["key-technologies", "missions"]
+    },
+    {
+      "id": "02-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is Horizon Europe?",
+      "choices": [
+        "Het Europese kaderprogramma voor onderzoek en innovatie (2021 tot en met 2027) waarvoor je rechtstreeks in concurrentie met heel Europa aanvraagt",
+        "Een Nederlandse regeling die RVO uitvoert voor het mkb",
+        "Een agenda van de Nederlandse topsectoren"
+      ],
+      "answer": "Het Europese kaderprogramma voor onderzoek en innovatie (2021 tot en met 2027) waarvoor je rechtstreeks in concurrentie met heel Europa aanvraagt",
+      "hints": [],
+      "solution": ["Horizon Europe is een Europees programma met eigen pijlers en missies, dat naast Nederlandse regelingen bestaat."],
+      "topics": ["innovation-policy", "missions"]
+    },
+    {
+      "id": "02-T10",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Zet deze ontwikkelingen in het Nederlandse innovatiebeleid op volgorde van oud naar nieuw.",
+      "answer": [
+        "Selectie van topsectoren met een eigen agenda (2011)",
+        "Missiegedreven topsectoren- en innovatiebeleid (2019)",
+        "Kennis- en Innovatieconvenant 2024-2027 (eind 2023)",
+        "Nationale Technologiestrategie (januari 2024)",
+        "Topsectoren stopgezet en industriebeleid (2026)"
+      ],
+      "hints": [],
+      "solution": ["2011, 2019, eind 2023, januari 2024 en 2026."],
+      "feedback": [
+        {
+          "answer": [
+            "Selectie van topsectoren met een eigen agenda (2011)",
+            "Missiegedreven topsectoren- en innovatiebeleid (2019)",
+            "Nationale Technologiestrategie (januari 2024)",
+            "Kennis- en Innovatieconvenant 2024-2027 (eind 2023)",
+            "Topsectoren stopgezet en industriebeleid (2026)"
+          ],
+          "message": "Het convenant werd eind 2023 gesloten, de Nationale Technologiestrategie volgde in januari 2024."
+        }
+      ],
+      "topics": ["innovation-policy"]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "exercises": [
+    {
+      "id": "03-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Reken met de aanname dat een haalbaarheidsproject 35% van de subsidiabele kosten vergoedt, met een maximum van € 20.000. De subsidiabele kosten zijn € 45.000. Hoe hoog is de subsidie in hele euro's?",
+      "answer": 15750,
+      "unit": "€",
+      "hints": ["Bereken eerst 35% van de kosten en vergelijk het met het maximum."],
+      "solution": ["$0{,}35 \\times 45.000 = 15.750$", "Dat is lager dan het maximum van € 20.000, dus de subsidie is € 15.750."],
+      "feedback": [
+        { "answer": 20000, "message": "Het maximum is een bovengrens, geen vast bedrag. Hier ligt 35% van de kosten eronder." }
+      ],
+      "topics": ["innovation-instruments"]
+    },
+    {
+      "id": "03-002",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Bij een regeling voor R&D-samenwerking is de subsidie 35% van de subsidiabele kosten. Een project met subsidiabele kosten boven € 571.428 is een groot project en krijgt een subsidie tussen € 200.000 en € 350.000. Een project heeft subsidiabele kosten van € 700.000. Hoe hoog is de subsidie in hele euro's?",
+      "answer": 245000,
+      "unit": "€",
+      "hints": ["Bereken 35% en controleer of het resultaat binnen de grenzen valt."],
+      "solution": ["$0{,}35 \\times 700.000 = 245.000$", "Dat ligt tussen € 200.000 en € 350.000, dus de subsidie is € 245.000."],
+      "feedback": [
+        { "answer": 200000, "message": "€ 200.000 is de ondergrens voor grote projecten. Dit project komt boven die grens uit." }
+      ],
+      "topics": ["innovation-instruments"]
+    },
+    {
+      "id": "03-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is het mechanisme van de PPS-toeslag?",
+      "choices": [
+        "Een private partij draagt bij aan onderzoek bij een kennisinstelling en de overheid geeft daar een toeslag bovenop",
+        "De overheid betaalt het hele onderzoek zonder bijdrage van bedrijven",
+        "Een bedrijf krijgt een lening die alleen bij succes wordt terugbetaald"
+      ],
+      "answer": "Een private partij draagt bij aan onderzoek bij een kennisinstelling en de overheid geeft daar een toeslag bovenop",
+      "hints": [],
+      "solution": ["De PPS-toeslag koppelt private bijdragen aan publieke steun. Bedrijven investeren meer in onderzoek, omdat een deel wordt aangevuld."],
+      "feedback": [
+        { "answer": "Een bedrijf krijgt een lening die alleen bij succes wordt terugbetaald", "message": "Dat beschrijft een krediet, zoals het Innovatiekrediet." }
+      ],
+      "topics": ["innovation-instruments"]
+    },
+    {
+      "id": "03-004",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 3,
+      "question": "Zet deze instrumenten in de volgorde van de fase waarin ze vooral worden ingezet, van vroeg (laag TRL) naar laat (marktintroductie en winst).",
+      "answer": [
+        "Haalbaarheidsproject (MIT)",
+        "R&D-samenwerkingsproject (MIT)",
+        "Demonstratieregeling (zoals DEI+)",
+        "Innovatiekrediet voor het opschalen",
+        "Innovatiebox op de winst uit de innovatie"
+      ],
+      "hints": ["Haalbaarheid komt voor ontwikkeling, en de belasting op winst komt als laatste."],
+      "solution": ["Eerst de haalbaarheid onderzoeken, dan ontwikkelen in samenwerking, dan demonstreren, dan opschalen met een krediet en tot slot de winst belasten tegen een lager tarief."],
+      "feedback": [
+        {
+          "answer": [
+            "Haalbaarheidsproject (MIT)",
+            "R&D-samenwerkingsproject (MIT)",
+            "Innovatiekrediet voor het opschalen",
+            "Demonstratieregeling (zoals DEI+)",
+            "Innovatiebox op de winst uit de innovatie"
+          ],
+          "message": "Een demonstratie in de praktijk komt vóór het opschalen met een krediet."
+        }
+      ],
+      "topics": ["funding-fit", "trl"]
+    },
+    {
+      "id": "03-005",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een groot bedrijf voert samen met een partner een technisch ontwikkelproject uit met totale kosten van € 6.000.000. Een krediet beslaat in dat geval maximaal 40% van de kosten (zonder samenwerking 25%). Het maximum per technisch project is € 10.000.000. Hoe hoog kan het krediet zijn, in hele euro's?",
+      "answer": 2400000,
+      "unit": "€",
+      "hints": ["Er is samenwerking, dus welk percentage hoort erbij?"],
+      "solution": ["$0{,}40 \\times 6.000.000 = 2.400.000$", "Dat is lager dan het maximum van € 10.000.000."],
+      "feedback": [
+        { "answer": 1500000, "message": "Je rekende met 25%, het percentage zonder samenwerking. Hier is wel samenwerking." }
+      ],
+      "topics": ["innovation-instruments"]
+    },
+    {
+      "id": "03-006",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Volgens de staatssteunregels is de basisintensiteit voor industrieel onderzoek 50%. Voor een middelgrote onderneming komt daar 10 procentpunten bij en voor effectieve samenwerking nog eens 15 procentpunten (maximum 80%). Een middelgroot bedrijf voert in samenwerking industrieel onderzoek uit met subsidiabele kosten van € 800.000. Hoeveel steun mag er in totaal maximaal op die kosten komen, in hele euro's?",
+      "answer": 600000,
+      "unit": "€",
+      "hints": ["Tel de percentages op en vergelijk met het maximum van 80%."],
+      "solution": ["$50\\% + 10\\% + 15\\% = 75\\%$, en dat is onder de 80%.", "$0{,}75 \\times 800.000 = 600.000$"],
+      "feedback": [
+        { "answer": 400000, "message": "Je gebruikte alleen de basisintensiteit van 50%. De opslagen voor mkb en samenwerking tellen mee." }
+      ],
+      "topics": ["funding-fit", "innovation-instruments"]
+    },
+    {
+      "id": "03-007",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bedrijf ontvangt voor dezelfde subsidiabele kosten steun uit twee regelingen. Wat is de hoofdregel voor het stapelen van steun?",
+      "choices": [
+        "De totale steun op dezelfde kosten mag niet boven de maximale steunintensiteit uitkomen",
+        "Stapelen is nooit toegestaan",
+        "Stapelen is altijd toegestaan, ook boven de maximale steunintensiteit"
+      ],
+      "answer": "De totale steun op dezelfde kosten mag niet boven de maximale steunintensiteit uitkomen",
+      "hints": [],
+      "solution": ["Stapelen mag, maar de som van de steun op dezelfde kosten moet binnen de staatssteunregels blijven."],
+      "feedback": [
+        { "answer": "Stapelen is nooit toegestaan", "message": "Combineren is mogelijk, binnen de grens van de maximale steunintensiteit en de regels van de regeling zelf." }
+      ],
+      "topics": ["funding-fit"]
+    },
+    {
+      "id": "03-008",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een bedrijf (geen starter) heeft een S&O-grondslag van € 250.000. De eerste schijf, tot € 391.020, geeft 36% voordeel. Hoe hoog is het WBSO-voordeel in hele euro's?",
+      "answer": 90000,
+      "unit": "€",
+      "hints": ["De grondslag blijft onder de schijfgrens, dus alleen het eerste percentage telt."],
+      "solution": ["$0{,}36 \\times 250.000 = 90.000$"],
+      "feedback": [
+        { "answer": 40000, "message": "Je rekende met 16%, het percentage voor de tweede schijf. De grondslag blijft onder de schijfgrens." }
+      ],
+      "topics": ["innovation-instruments"]
+    },
+    {
+      "id": "03-009",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wanneer speelt de innovatiebox een rol in het traject van een innovatie?",
+      "choices": [
+        "Wanneer de innovatie winst oplevert: een lager belastingtarief op de winst uit een zelf ontwikkeld immaterieel activum",
+        "Tijdens het onderzoek: als vergoeding van de loonkosten",
+        "Voor de eerste haalbaarheidsstudie, als subsidie"
+      ],
+      "answer": "Wanneer de innovatie winst oplevert: een lager belastingtarief op de winst uit een zelf ontwikkeld immaterieel activum",
+      "hints": [],
+      "solution": ["De innovatiebox verlaagt de belasting op de opbrengst. De kosten van onderzoek worden bijvoorbeeld via de WBSO verlaagd."],
+      "feedback": [
+        { "answer": "Tijdens het onderzoek: als vergoeding van de loonkosten", "message": "Dat is de WBSO. De innovatiebox werkt op de winst, jaren later." }
+      ],
+      "topics": ["innovation-instruments"]
+    },
+    {
+      "id": "03-010",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een Nederlands mkb-bedrijf wil met twee partners in Duitsland en Spanje een nieuw product ontwikkelen. Welk instrument past bij een internationaal mkb-samenwerkingsproject?",
+      "choices": [
+        "Eurostars, met eerst een internationale en daarna een nationale aanvraag",
+        "Het Innovatiekrediet, dat alleen voor internationale projecten is",
+        "De innovatiebox"
+      ],
+      "answer": "Eurostars, met eerst een internationale en daarna een nationale aanvraag",
+      "hints": [],
+      "solution": ["Eurostars is bedoeld voor internationale samenwerking van mkb-bedrijven die onderzoek en ontwikkeling doen. Het Innovatiekrediet en de innovatiebox zijn geen samenwerkingsinstrumenten."],
+      "topics": ["innovation-instruments", "funding-fit"]
+    },
+    {
+      "id": "03-011",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een startup heeft een medisch hulpmiddel op TRL 7 en zoekt financiering om internationaal te schalen. De technologie is bewezen, het is geen vroeg onderzoek. Welk Europees instrument past het best?",
+      "choices": [
+        "De EIC Accelerator, voor mkb en startups met een ontwikkelde technologie die willen schalen",
+        "De EIC Pathfinder, voor vroeg visionair onderzoek",
+        "Een MIT-haalbaarheidsproject, voor een eerste haalbaarheidsstudie"
+      ],
+      "answer": "De EIC Accelerator, voor mkb en startups met een ontwikkelde technologie die willen schalen",
+      "hints": [],
+      "solution": ["De Accelerator richt zich op ruwweg TRL 6 tot 8. De Pathfinder is voor vroeg onderzoek, de haalbaarheidsstudie voor een eerste verkenning."],
+      "feedback": [
+        { "answer": "De EIC Pathfinder, voor vroeg visionair onderzoek", "message": "De Pathfinder financiert technologie in een vroeg stadium. TRL 7 is veel verder." }
+      ],
+      "topics": ["funding-fit", "trl"]
+    },
+    {
+      "id": "03-012",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat is het belangrijkste verschil tussen een subsidie en een krediet zoals het Innovatiekrediet?",
+      "choices": [
+        "Een krediet betaal je bij succes terug, een subsidie niet",
+        "Een krediet hoeft nooit te worden terugbetaald",
+        "Een subsidie moet altijd met rente worden terugbetaald"
+      ],
+      "answer": "Een krediet betaal je bij succes terug, een subsidie niet",
+      "hints": [],
+      "solution": ["Bij een krediet deelt de overheid in het risico: bij succes betaal je terug, bij technisch falen wordt het volgens de regeling geheel of gedeeltelijk kwijtgescholden. Een subsidie hoef je niet terug te betalen als je aan de voorwaarden voldoet."],
+      "topics": ["innovation-instruments"]
+    }
+  ]
+}

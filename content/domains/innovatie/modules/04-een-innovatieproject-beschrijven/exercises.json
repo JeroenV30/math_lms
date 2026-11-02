@@ -1,0 +1,194 @@
+{
+  "exercises": [
+    {
+      "id": "04-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Waarom hoort in een projectplan een paragraaf over de stand van de techniek?",
+      "choices": [
+        "Om aan te tonen waarom iets nieuw is: nieuw is alleen betekenisvol ten opzichte van wat al bestaat",
+        "Om de concurrentie te beschuldigen van slechte producten",
+        "Omdat de regeling een lengte van minimaal tien pagina's eist"
+      ],
+      "answer": "Om aan te tonen waarom iets nieuw is: nieuw is alleen betekenisvol ten opzichte van wat al bestaat",
+      "hints": ["Nieuw ten opzichte van wat?"],
+      "solution": ["Vernieuwing toon je aan door te laten zien wat er al is en waarom dat het probleem niet oplost."],
+      "topics": ["project-proposal", "assessment-criteria"]
+    },
+    {
+      "id": "04-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke formulering van de innovatieve stap is het sterkst?",
+      "choices": [
+        "Wij ontwikkelen een algoritme dat de resterende houdbaarheid van een pallet voorspelt met een afwijking van minder dan twee dagen",
+        "Wij ontwikkelen een app die houdbaarheid toont",
+        "Wij maken het product beter dan dat van de concurrent"
+      ],
+      "answer": "Wij ontwikkelen een algoritme dat de resterende houdbaarheid van een pallet voorspelt met een afwijking van minder dan twee dagen",
+      "hints": ["Zoek de formulering die specifiek, meetbaar en onzeker is."],
+      "solution": ["De eerste noemt een technisch doel met een meetbare nauwkeurigheid, waarvan het onzeker is of het lukt. De andere zijn te vaag."],
+      "feedback": [
+        { "answer": "Wij ontwikkelen een app die houdbaarheid toont", "message": "Een app is een product, geen onderzoeksdoel. Het zegt niet wat technisch nieuw of onzeker is." }
+      ],
+      "topics": ["project-proposal"]
+    },
+    {
+      "id": "04-003",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet de onderdelen van een projectplan in een logische volgorde, van het begin van het betoog naar de uitvoering.",
+      "answer": [
+        "Het probleem met een omvang",
+        "De stand van de techniek",
+        "De innovatieve stap",
+        "De technische risico's en hoe je ze aanpakt",
+        "Werkpakketten, mijlpalen en go/no-go-momenten"
+      ],
+      "hints": ["Eerst waarom, dan wat er al is, dan wat nieuw is, dan wat misgaat en tot slot hoe je het uitvoert."],
+      "solution": ["Een plan begint bij het probleem, laat zien wat er bestaat, beschrijft de innovatieve stap, benoemt de risico's en werkt het werk uit in pakketten en mijlpalen."],
+      "feedback": [
+        {
+          "answer": [
+            "Het probleem met een omvang",
+            "De innovatieve stap",
+            "De stand van de techniek",
+            "De technische risico's en hoe je ze aanpakt",
+            "Werkpakketten, mijlpalen en go/no-go-momenten"
+          ],
+          "message": "De vernieuwing kan pas worden beoordeeld als de lezer weet wat er al bestaat, dus de stand van de techniek komt eerst."
+        }
+      ],
+      "topics": ["project-proposal"]
+    },
+    {
+      "id": "04-004",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Wat maakt een go/no-go-moment in een projectplan bruikbaar?",
+      "choices": [
+        "Een vooraf vastgesteld criterium en een besluitvormer: bij een resultaat onder een bepaalde grens wordt het project aangepast of gestopt",
+        "Een vage afspraak om later te overleggen als het slecht gaat",
+        "De afspraak dat het project in elk geval doorgaat"
+      ],
+      "answer": "Een vooraf vastgesteld criterium en een besluitvormer: bij een resultaat onder een bepaalde grens wordt het project aangepast of gestopt",
+      "hints": [],
+      "solution": ["Een go/no-go laat zien dat het consortium het technische risico serieus neemt. Daarvoor is een meetbaar criterium nodig."],
+      "topics": ["project-proposal"]
+    },
+    {
+      "id": "04-005",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bij een samenwerkingsregeling mag één deelnemer maximaal 70% van de projectkosten dragen. Een project heeft totale kosten van € 500.000. Wat is het maximale bedrag voor één deelnemer, in hele euro's?",
+      "answer": 350000,
+      "unit": "€",
+      "hints": ["Bereken 70% van de totale kosten."],
+      "solution": ["$0{,}70 \\times 500.000 = 350.000$"],
+      "feedback": [
+        { "answer": 150000, "message": "Je berekende 30%. De grens is dat één partij maximaal 70% van de kosten draagt." }
+      ],
+      "topics": ["consortium"]
+    },
+    {
+      "id": "04-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een consortium heeft projectkosten van € 540.000: mkb-bedrijf A € 300.000, mkb-bedrijf B € 120.000 en een kennisinstelling € 120.000. De subsidie is 35% van de subsidiabele kosten, en alleen de kosten van mkb-bedrijven zijn subsidiabel. Hoe hoog is de subsidie in hele euro's?",
+      "answer": 147000,
+      "unit": "€",
+      "hints": ["Tel alleen de kosten van de mkb-bedrijven op."],
+      "solution": ["Subsidiabele kosten: $300.000 + 120.000 = 420.000$.", "$0{,}35 \\times 420.000 = 147.000$"],
+      "feedback": [
+        { "answer": 189000, "message": "Je rekende met alle projectkosten van € 540.000. De kosten van de kennisinstelling zijn niet subsidiabel." }
+      ],
+      "topics": ["consortium", "project-proposal"]
+    },
+    {
+      "id": "04-007",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een regeling beoordeelt vier criteria van elk maximaal 25 punten. Bij aansluiting op een prioritaire missie telt het criterium impact dubbel. Een aanvraag scoort 21 op vernieuwing, 17 op economische waarde, 19 op kwaliteit samenwerking en 14 op impact. Hoeveel punten heeft ze na verdubbeling van impact?",
+      "answer": 85,
+      "hints": [],
+      "solution": ["$21 + 17 + 19 + 2 \\times 14 = 85$"],
+      "feedback": [
+        { "answer": 71, "message": "Dat is de som zonder verdubbeling van impact." }
+      ],
+      "topics": ["assessment-criteria"]
+    },
+    {
+      "id": "04-008",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De beoordelaar vraagt: 'Kan dit team het project uitvoeren?' In welke onderdelen van het plan vind je het antwoord?",
+      "choices": [
+        "In het consortium, de werkpakketten, de mijlpalen en de begroting",
+        "Alleen in de samenvatting",
+        "In de stand van de techniek"
+      ],
+      "answer": "In het consortium, de werkpakketten, de mijlpalen en de begroting",
+      "hints": [],
+      "solution": ["Het vermogen om uit te voeren blijkt uit wie wat doet, wanneer en met welk geld."],
+      "topics": ["assessment-criteria", "consortium"]
+    },
+    {
+      "id": "04-009",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een consortium heeft totale projectkosten van € 600.000, alle subsidiabel. De subsidie is 35% van de subsidiabele kosten, en één deelnemer mag maximaal 70% van de kosten dragen. Geef in hele euro's de subsidie, de eigen bijdrage van het consortium en het maximale bedrag voor één deelnemer.",
+      "parts": [
+        { "label": "Subsidie", "answer": 210000, "type": "numeric" },
+        { "label": "Eigen bijdrage", "answer": 390000, "type": "numeric" },
+        { "label": "Maximaal bedrag voor één deelnemer", "answer": 420000, "type": "numeric" }
+      ],
+      "hints": ["De eigen bijdrage is de totale kosten min de subsidie."],
+      "solution": ["$0{,}35 \\times 600.000 = 210.000$", "$600.000 - 210.000 = 390.000$", "$0{,}70 \\times 600.000 = 420.000$"],
+      "topics": ["consortium", "project-proposal"]
+    },
+    {
+      "id": "04-010",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke van deze fouten in een aanvraag komt het vaakst voor en schaadt de scores op meerdere criteria?",
+      "choices": [
+        "Beweringen zonder bewijs: 'innovatief' en 'grote markt' zonder vergelijking of getal",
+        "Een te gedetailleerde begroting",
+        "Te veel werkpakketten met een duidelijke deliverable"
+      ],
+      "answer": "Beweringen zonder bewijs: 'innovatief' en 'grote markt' zonder vergelijking of getal",
+      "hints": [],
+      "solution": ["Beweringen zonder bewijs kan een beoordelaar niet scoren, dus ze leveren geen punten op."],
+      "topics": ["assessment-criteria", "project-proposal"]
+    },
+    {
+      "id": "04-011",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke risicoparagraaf is het sterkst?",
+      "choices": [
+        "De herkenning haalt in het veld mogelijk niet de beoogde 95% (kans gemiddeld, gevolg schade aan het gewas); aanpak: training met data uit drie seizoensperioden en een go/no-go in maand 10 bij minder dan 90%",
+        "Er zijn geen technische risico's; het project verloopt volgens plan",
+        "Het project kan mislukken, maar dat is dan pech"
+      ],
+      "answer": "De herkenning haalt in het veld mogelijk niet de beoogde 95% (kans gemiddeld, gevolg schade aan het gewas); aanpak: training met data uit drie seizoensperioden en een go/no-go in maand 10 bij minder dan 90%",
+      "hints": ["Een sterke risicoparagraaf noemt kans, gevolg en aanpak."],
+      "solution": ["De eerste noemt het risico, de kans, het gevolg en de mitigatie met een criterium. De andere twee ontkennen of omarmen het risico zonder aanpak."],
+      "feedback": [
+        { "answer": "Er zijn geen technische risico's; het project verloopt volgens plan", "message": "Een project zonder technisch risico is geen onderzoek en ontwikkeling, en leest als onbetrouwbaar." }
+      ],
+      "topics": ["project-proposal"]
+    }
+  ]
+}

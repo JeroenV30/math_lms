@@ -3,7 +3,7 @@
   "slug": "een-innovatieproject-beschrijven",
   "title": "Een innovatieproject beschrijven",
   "part": 2,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 3,
   "estimated_minutes": 110,
   "prerequisites": [
@@ -16,5 +16,87 @@
   ],
   "core_question": "Hoe overtuig je een beoordelaar dat een project vernieuwend, haalbaar en van belang is?",
   "summary": "Probleem en stand van de techniek, de innovatieve stap en de technische risico's, aansluiting bij een missie of KIA, werkpakketten en mijlpalen, consortium en rolverdeling, begroting en cofinanciering, impact; beoordelingscriteria en een uitgewerkte casus.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Vier criteria van elk 25 punten",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "bouwstenen-van-een-projectplan",
+      "title": "Bouwstenen van een projectplan",
+      "file": "02-bouwstenen-van-een-projectplan.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "consortium-begroting-en-beoordeling",
+      "title": "Consortium, begroting, impact en beoordeling",
+      "file": "03-consortium-begroting-en-beoordeling.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casus-onkruidcamera",
+      "title": "Casus: een consortium schrijft een aanvraag",
+      "file": "04-casus-onkruidcamera.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt de opbouw van een projectplan beschrijven en elke vraag van de beoordelaar aan een onderdeel koppelen.",
+    "Je kunt een probleem, de stand van de techniek, een innovatieve stap en de technische risico's concreet en toetsbaar formuleren.",
+    "Je kunt werkpakketten, mijlpalen en go/no-go-momenten opzetten.",
+    "Je kunt een consortium, begroting en cofinanciering narekenen en de regel voor het maximale aandeel van één partner toepassen.",
+    "Je kunt impact en valorisatie bottom-up onderbouwen en zwakke passages herkennen en verbeteren."
+  ],
+  "glossary": [
+    {
+      "term": "Stand van de techniek",
+      "definition": "Wat er al bestaat aan oplossingen, publicaties en octrooien, als vergelijkingspunt voor de vernieuwing."
+    },
+    {
+      "term": "Innovatieve stap",
+      "definition": "Het specifieke, meetbare en onzekere technische doel dat het project nastreeft."
+    },
+    {
+      "term": "Technisch risico",
+      "definition": "Een onzekerheid of het technische doel wordt gehaald, beschreven met kans, gevolg en aanpak."
+    },
+    {
+      "term": "Mitigatie",
+      "definition": "De maatregel waarmee je de kans of het gevolg van een risico verkleint."
+    },
+    {
+      "term": "Werkpakket",
+      "definition": "Een afgebakend deel van het werk met een doel, trekker, activiteiten, resultaten en omvang."
+    },
+    {
+      "term": "Mijlpaal",
+      "definition": "Een controleerbaar moment waarop een meetbaar resultaat is behaald of niet."
+    },
+    {
+      "term": "Go/no-go-moment",
+      "definition": "Een mijlpaal waarop het consortium met een vooraf bepaald criterium beslist over doorgaan, aanpassen of stoppen."
+    },
+    {
+      "term": "Cofinanciering",
+      "definition": "Het deel van de kosten dat de partijen zelf of met andere middelen financieren naast de subsidie."
+    },
+    {
+      "term": "Valorisatie",
+      "definition": "Het omzetten van kennis en resultaten in waarde voor gebruikers en markt."
+    },
+    {
+      "term": "Bottom-upschatting",
+      "definition": "Een marktschatting die opbouwt uit aantallen klanten, prijs en verwachte penetratie, in plaats van uit een totaalmarkt."
+    }
+  ],
+  "timeline": [],
+  "people": []
 }

@@ -3,7 +3,7 @@
   "slug": "missiegedreven-innovatiebeleid",
   "title": "Missiegedreven innovatiebeleid",
   "part": 1,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
   "estimated_minutes": 100,
   "prerequisites": [
@@ -17,5 +17,87 @@
   ],
   "core_question": "Hoe bepaalt de Nederlandse overheid aan welke innovatie publiek geld wordt besteed?",
   "summary": "Van het topsectorenbeleid naar het missiegedreven topsectoren- en innovatiebeleid, maatschappelijke thema's en missies, de Kennis- en Innovatieagenda's (KIA's) en het Kennis- en Innovatieconvenant, sleuteltechnologieën en de Nationale Technologiestrategie, en de Europese laag.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een beleidspagina die in 2026 is veranderd",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "van-topsectoren-naar-missies",
+      "title": "Van topsectoren naar missies",
+      "file": "02-van-topsectoren-naar-missies.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "kia-convenant-en-europa",
+      "title": "KIA's, convenant, technologiestrategie en Europa",
+      "file": "03-kia-convenant-en-europa.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casus-aansluiting-bij-een-missie",
+      "title": "Casus: Hydrex Membranen",
+      "file": "04-casus-aansluiting-bij-een-missie.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt het topsectorenbeleid en het missiegedreven beleid vergelijken en uitleggen wat er per 1 januari 2026 veranderde.",
+    "Je kunt uitleggen wat een missie, een Kennis- en Innovatieagenda, het Kennis- en Innovatieconvenant en de Nationale Technologiestrategie zijn en hoe ze zich tot elkaar verhouden.",
+    "Je kunt de rol van RVO, NWO, TNO en de TKI's in het stelsel benoemen.",
+    "Je kunt in een aanvraag aantonen dat een project bij een missie of KIA aansluit, met een meetbare bijdrage en zonder te overclaimen.",
+    "Je kunt de Europese laag (Horizon Europe en zijn missies) plaatsen naast het nationale beleid."
+  ],
+  "glossary": [
+    {
+      "term": "Topsectorenbeleid",
+      "definition": "Het beleid van 2011 tot en met 2025 dat sectoren selecteerde en per sector een agenda liet opstellen door bedrijven, kennisinstellingen en overheid."
+    },
+    {
+      "term": "TKI",
+      "definition": "Topconsortium voor Kennis en Innovatie: organisatie waarin bedrijven en kennisinstellingen onderzoek bundelen."
+    },
+    {
+      "term": "Gouden driehoek",
+      "definition": "De samenwerking van bedrijfsleven, kennisinstellingen en overheid (de triple helix)."
+    },
+    {
+      "term": "Missie",
+      "definition": "Een maatschappelijke opgave met een concreet doel en een jaartal, zoals een klimaatneutraal Nederland in 2050."
+    },
+    {
+      "term": "Kennis- en Innovatieagenda (KIA)",
+      "definition": "Een agenda die uitwerkt welk onderzoek en welke innovatie nodig zijn voor een missie of technologie; geen subsidieregeling."
+    },
+    {
+      "term": "Kennis- en Innovatieconvenant (KIC)",
+      "definition": "De afspraak tussen bedrijfsleven, kennisinstellingen en overheden over gezamenlijke investeringen in de missies, geldig voor 2024 tot en met 2027."
+    },
+    {
+      "term": "Nationale Technologiestrategie (NTS)",
+      "definition": "Kabinetsstrategie van januari 2024 met tien sleuteltechnologieën waarop gerichter wordt ingezet."
+    },
+    {
+      "term": "Sleuteltechnologie",
+      "definition": "Een breed toepasbare technologie, zoals kunstmatige intelligentie, fotonica of kwantumtechnologie."
+    },
+    {
+      "term": "PPS-toeslag",
+      "definition": "Een extra overheidsbijdrage bovenop de private bijdrage aan onderzoek bij kennisinstellingen in publiek-private samenwerking."
+    },
+    {
+      "term": "Horizon Europe",
+      "definition": "Het Europese kaderprogramma voor onderzoek en innovatie voor 2021 tot en met 2027."
+    }
+  ],
+  "timeline": [],
+  "people": []
 }

@@ -1,0 +1,226 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een bedrijf ontwikkelt een nieuw type batterij, bouwt een werkend prototype en vraagt een octrooi aan. Het prototype is nooit verkocht of in een product gebruikt. Wat is het volgens de definitie van de Oslo Manual (OESO/Eurostat, 2018)?",
+      "choices": [
+        "Een uitvinding, maar nog geen innovatie",
+        "Een productinnovatie, want het product is nieuw",
+        "Een bedrijfsprocesinnovatie, want het bedrijf heeft iets nieuws ontwikkeld"
+      ],
+      "answer": "Een uitvinding, maar nog geen innovatie",
+      "hints": ["Zoek in de definitie het woord dat over gebruik of beschikbaar stellen gaat."],
+      "solution": ["Een innovatie moet beschikbaar zijn gesteld aan gebruikers (product) of in gebruik zijn genomen (proces). Een prototype in een la of lab voldoet daar nog niet aan."],
+      "feedback": [
+        { "answer": "Een productinnovatie, want het product is nieuw", "message": "Nieuw zijn is niet genoeg: het product moet ook op de markt of bij gebruikers beschikbaar zijn gesteld." }
+      ],
+      "topics": ["innovation-concept"]
+    },
+    {
+      "id": "01-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een drukkerij voert voor het eerst een systeem in dat de productieplanning van alle persen automatisch optimaliseert. Wat voor soort innovatie is dit volgens de Oslo Manual 2018?",
+      "choices": [
+        "Een bedrijfsprocesinnovatie",
+        "Een productinnovatie",
+        "Een radicale productinnovatie"
+      ],
+      "answer": "Een bedrijfsprocesinnovatie",
+      "hints": ["Verandert er iets aan wat de drukkerij verkoopt, of aan hoe ze werkt?"],
+      "solution": ["De planning is een manier van werken binnen het bedrijf, niet het product dat de klant koopt. Het is dus een bedrijfsprocesinnovatie (productie of administratie en beheer)."],
+      "feedback": [
+        { "answer": "Een productinnovatie", "message": "De klant krijgt niet iets anders; het bedrijf werkt anders. Dat is een proces." }
+      ],
+      "topics": ["innovation-types"]
+    },
+    {
+      "id": "01-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een fabrikant van kaas lanceert een nieuwe kaassoort met een volledig andere rijpingsmethode, en verkoopt die aan supermarkten. Wat is correct?",
+      "choices": [
+        "Het is een productinnovatie, en de rijpingsmethode is daarnaast een bedrijfsprocesinnovatie",
+        "Het is alleen een bedrijfsprocesinnovatie, want de rijpingsmethode is nieuw",
+        "Het is alleen een productinnovatie, want een proces kan nooit een innovatie zijn"
+      ],
+      "answer": "Het is een productinnovatie, en de rijpingsmethode is daarnaast een bedrijfsprocesinnovatie",
+      "hints": ["Een innovatie kan beide kanten hebben: wat je verkoopt en hoe je het maakt."],
+      "solution": ["De nieuwe kaassoort is een nieuw product. De nieuwe rijpingsmethode is een nieuw productieproces. Het handboek staat toe dat een innovatie beide kenmerken heeft (een combinatie)."],
+      "feedback": [
+        { "answer": "Het is alleen een productinnovatie, want een proces kan nooit een innovatie zijn", "message": "Ook een bedrijfsproces kan een innovatie zijn: dat is de tweede hoofdsoort in de Oslo Manual 2018." }
+      ],
+      "topics": ["innovation-types"]
+    },
+    {
+      "id": "01-004",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke van deze voorbeelden is het duidelijkst een radicale innovatie, en niet een incrementele?",
+      "choices": [
+        "Een elektrisch voertuig dat voor het eerst een volledig nieuw soort aandrijving in een bestaande markt brengt",
+        "Een koelkast met 3% lager energiegebruik dan het vorige model",
+        "Een app die een bestaande reisplanner een nieuwe kleurstelling geeft"
+      ],
+      "answer": "Een elektrisch voertuig dat voor het eerst een volledig nieuw soort aandrijving in een bestaande markt brengt",
+      "hints": ["Radicaal betekent een breuk met de bestaande aanpak, niet een kleine verbetering."],
+      "solution": ["Een volledig andere aandrijving breekt met de bestaande techniek. De andere twee zijn kleine verbeteringen van iets bestaands."],
+      "feedback": [
+        { "answer": "Een koelkast met 3% lager energiegebruik dan het vorige model", "message": "Dat is een kleine stap vooruit op bestaande techniek: incrementeel." }
+      ],
+      "topics": ["innovation-types"]
+    },
+    {
+      "id": "01-005",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze stadia van technologische rijpheid in de volgorde van de TRL-schaal, van laag naar hoog.",
+      "answer": [
+        "Basisprincipes waargenomen",
+        "Experimenteel bewijs van het concept",
+        "Technologie gevalideerd in het laboratorium",
+        "Technologie gedemonstreerd in een relevante omgeving",
+        "Werkend systeem bewezen in een operationele omgeving"
+      ],
+      "hints": ["Denk aan de weg van idee naar bewezen product: eerst principe, dan lab, dan buitenlab, dan praktijk."],
+      "solution": ["TRL 1 is de waarneming van de basisprincipes, TRL 3 het experimentele bewijs, TRL 4 de validatie in het lab, TRL 6 de demonstratie in een relevante omgeving en TRL 9 het bewezen systeem."],
+      "feedback": [
+        {
+          "answer": [
+            "Basisprincipes waargenomen",
+            "Technologie gevalideerd in het laboratorium",
+            "Experimenteel bewijs van het concept",
+            "Technologie gedemonstreerd in een relevante omgeving",
+            "Werkend systeem bewezen in een operationele omgeving"
+          ],
+          "message": "Eerst moet het concept experimenteel zijn bewezen (TRL 3), daarna pas wordt de technologie in het lab gevalideerd (TRL 4)."
+        }
+      ],
+      "topics": ["trl"]
+    },
+    {
+      "id": "01-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "In de TRL-schaal van de Europese Commissie loopt de schaal van 1 tot 9. Een prototype is gevalideerd in het laboratorium, maar nog niet in een relevante omgeving. Op welk TRL staat de technologie?",
+      "answer": 4,
+      "hints": ["Zoek in de tabel van de les het niveau 'gevalideerd in het laboratorium'."],
+      "solution": ["Validatie in het laboratorium is TRL 4. Validatie in een relevante omgeving is TRL 5."],
+      "feedback": [
+        { "answer": 5, "message": "TRL 5 vraagt validatie in een relevante omgeving buiten het lab. Dat is hier juist nog niet gebeurd." }
+      ],
+      "topics": ["trl"]
+    },
+    {
+      "id": "01-007",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een bedrijf overweegt een onderzoeksproject van € 1.500.000. Het bedrijf zelf verwacht er een opbrengst van € 1.200.000 uit te halen. Daarnaast levert het project kennis op waar andere bedrijven voordeel van hebben ter waarde van € 600.000, zonder dat het bedrijf daarvoor betaald wordt. Hoe groot is het netto maatschappelijk voordeel in hele euro's (opbrengst voor het bedrijf plus voordeel voor anderen min de kosten)?",
+      "answer": 300000,
+      "unit": "€",
+      "hints": ["Tel de opbrengst voor het bedrijf en het voordeel voor anderen bij elkaar op en trek de kosten af."],
+      "solution": ["$1.200.000 + 600.000 - 1.500.000 = 300.000$", "Het netto maatschappelijk voordeel is € 300.000."],
+      "feedback": [
+        { "answer": -300000, "message": "Je rekende alleen met de opbrengst voor het bedrijf zelf. Het bedrijf verliest dan € 300.000 en laat het project dus liggen, terwijl de samenleving er per saldo op vooruit zou gaan." }
+      ],
+      "topics": ["innovation-system"]
+    },
+    {
+      "id": "01-008",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Waarom is het gebied tussen ongeveer TRL 4 en TRL 7 voor veel technologieën moeilijk te financieren (de 'valley of death')?",
+      "choices": [
+        "Het onderzoek is te toegepast voor wetenschapsfinanciering, maar nog te onzeker voor commerciële investeerders",
+        "Technologie in dit gebied is altijd technisch onmogelijk",
+        "In dit gebied bestaan geen regelingen van de overheid"
+      ],
+      "answer": "Het onderzoek is te toegepast voor wetenschapsfinanciering, maar nog te onzeker voor commerciële investeerders",
+      "hints": ["Wie betaalt vóór TRL 4, en wie betaalt na TRL 7?"],
+      "solution": ["Vóór TRL 4 betaalt vooral publiek onderzoeksgeld, na TRL 7 vooral de markt. Daartussen kost het veel en is het resultaat nog onzeker, zodat beide financiers aarzelen."],
+      "feedback": [
+        { "answer": "In dit gebied bestaan geen regelingen van de overheid", "message": "Er zijn juist veel regelingen voor dit gebied, omdat de markt het gat niet zelf vult. Het probleem is dat de commerciële financiering ontbreekt." }
+      ],
+      "topics": ["trl", "innovation-concept"]
+    },
+    {
+      "id": "01-009",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een universiteit, een machinebouwer en het ministerie van Economische Zaken werken samen aan een nieuw productieproces. Welke rol hoort bij welke partij in het triple helix-model?",
+      "choices": [
+        "Universiteit: kennis en opleiding; machinebouwer: producten en toepassing; ministerie: kaders en financiering",
+        "Universiteit: financiering; machinebouwer: onderzoek; ministerie: producten",
+        "Universiteit: producten; machinebouwer: kaders; ministerie: kennis"
+      ],
+      "answer": "Universiteit: kennis en opleiding; machinebouwer: producten en toepassing; ministerie: kaders en financiering",
+      "hints": ["Wie maakt kennis, wie maakt producten, wie stelt regels?"],
+      "solution": ["In de triple helix ontwikkelen kennisinstellingen kennis en leiden ze mensen op, maken bedrijven producten en diensten en geeft de overheid kaders en financiering."],
+      "topics": ["innovation-system"]
+    },
+    {
+      "id": "01-010",
+      "type": "multiple",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Geef voor elke omschrijving het TRL op de schaal van 1 tot 9 van de Europese Commissie.",
+      "parts": [
+        { "label": "Het technologieconcept is op papier geformuleerd, maar er is nog geen experiment gedaan", "answer": 2, "type": "numeric" },
+        { "label": "Een prototype van het complete systeem is gedemonstreerd in een operationele omgeving", "answer": 7, "type": "numeric" },
+        { "label": "Het systeem werkt aantoonbaar in dagelijks gebruik door klanten", "answer": 9, "type": "numeric" }
+      ],
+      "hints": ["Gebruik de tabel in de les en let op de woorden formuleren, demonstreren in een operationele omgeving en bewezen."],
+      "solution": ["Formuleren van het concept is TRL 2. Een prototype in een operationele omgeving is TRL 7. Een systeem dat in dagelijks gebruik is bewezen is TRL 9."],
+      "topics": ["trl"]
+    },
+    {
+      "id": "01-011",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een bakkerij begint met de verkoop van een broodsoort die concurrenten al jaren verkopen, maar die zij zelf nog nooit maakten. Is dit een innovatie volgens de Oslo Manual 2018?",
+      "choices": [
+        "Ja, een productinnovatie: nieuw voor de onderneming volstaat",
+        "Nee, want de soort bestaat al bij concurrenten",
+        "Nee, want alleen uitvindingen met een octrooi zijn innovaties"
+      ],
+      "answer": "Ja, een productinnovatie: nieuw voor de onderneming volstaat",
+      "hints": ["Nieuw ten opzichte van wat? Kijk naar de definitie van de onderneming als maatstaf."],
+      "solution": ["De Oslo Manual meet vernieuwing ten opzichte van de eigen eerdere producten van de onderneming. Voor een statistiek is dit dus een innovatie. Voor een subsidie voor onderzoek is het niet voldoende, want daar wordt gevraagd of het nieuw is voor de stand van de techniek."],
+      "feedback": [
+        { "answer": "Nee, want de soort bestaat al bij concurrenten", "message": "In de statistiek telt nieuw voor de onderneming. Voor een subsidieregeling kan de maatstaf strenger zijn, maar dat is een andere vraag." }
+      ],
+      "topics": ["innovation-concept", "innovation-types"]
+    },
+    {
+      "id": "01-012",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bakkerij voert een bestaand en bij andere bakkerijen gebruikt online bestelsysteem in. Waarom komt dit project normaal gesproken niet in aanmerking voor een regeling die onderzoek en ontwikkeling vergoedt?",
+      "choices": [
+        "Er is geen technische onzekerheid die overwonnen moet worden: het is toepassing van bestaande techniek",
+        "Een bestelsysteem is een product en geen proces",
+        "Bakkerijen mogen geen subsidie krijgen"
+      ],
+      "answer": "Er is geen technische onzekerheid die overwonnen moet worden: het is toepassing van bestaande techniek",
+      "hints": ["Wat moet er onderzocht of ontwikkeld worden voordat het systeem werkt?"],
+      "solution": ["Onderzoeksregelingen vergoeden het overwinnen van technische onzekerheid. Het invoeren van een bestaand pakket is toepassing van bestaande kennis, hoe nuttig ook voor de bakkerij."],
+      "feedback": [
+        { "answer": "Een bestelsysteem is een product en geen proces", "message": "Voor de bakkerij is het een bedrijfsproces (verkoop en logistiek), en dat is ook een soort innovatie. De reden voor afwijzing is een andere." }
+      ],
+      "topics": ["innovation-concept", "innovation-types"]
+    }
+  ]
+}

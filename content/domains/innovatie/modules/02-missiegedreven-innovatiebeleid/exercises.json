@@ -1,0 +1,202 @@
+{
+  "exercises": [
+    {
+      "id": "02-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat is het belangrijkste verschil tussen het topsectorenbeleid (vanaf 2011) en het missiegedreven beleid (vanaf 2019)?",
+      "choices": [
+        "Het topsectorenbeleid vertrekt bij sectoren waar Nederland sterk in is, het missiegedreven beleid bij maatschappelijke opgaven met een doel en een jaartal",
+        "Het topsectorenbeleid financiert alleen kennisinstellingen, het missiegedreven beleid alleen bedrijven",
+        "Het topsectorenbeleid heeft geen agenda's, het missiegedreven beleid wel"
+      ],
+      "answer": "Het topsectorenbeleid vertrekt bij sectoren waar Nederland sterk in is, het missiegedreven beleid bij maatschappelijke opgaven met een doel en een jaartal",
+      "hints": ["De ene benadering vraagt waar je goed in bent, de andere welk probleem moet worden opgelost."],
+      "solution": ["Het sectorenbeleid vertrok vanuit bestaande sterktes. Het missiegedreven beleid vertrekt vanuit een opgave met een meetbaar doel, zoals een klimaatneutraal Nederland in 2050."],
+      "feedback": [
+        { "answer": "Het topsectorenbeleid heeft geen agenda's, het missiegedreven beleid wel", "message": "Elke topsector had juist een eigen agenda. Het verschil zit in het vertrekpunt, niet in het bestaan van agenda's." }
+      ],
+      "topics": ["innovation-policy", "missions"]
+    },
+    {
+      "id": "02-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom kan een missie meerdere sectoren raken, terwijl dat bij het sectorenbeleid lastiger was?",
+      "choices": [
+        "Een missie is gedefinieerd door een opgave, zoals klimaatneutraliteit, en die vraagt bijdragen van bedrijven uit vele sectoren",
+        "Een missie is een andere naam voor een sector",
+        "Een missie richt zich alleen op startende bedrijven"
+      ],
+      "answer": "Een missie is gedefinieerd door een opgave, zoals klimaatneutraliteit, en die vraagt bijdragen van bedrijven uit vele sectoren",
+      "hints": ["Aan welke sector zou je de energietransitie toewijzen?"],
+      "solution": ["De energietransitie raakt chemie, bouw, landbouw en transport. Een opgave is niet beperkt tot een sector."],
+      "topics": ["missions"]
+    },
+    {
+      "id": "02-003",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze stappen in de volgorde waarin richting naar uitvoering gaat, van de hoogste laag naar de laagste.",
+      "answer": [
+        "Een missie met een doel en een jaartal",
+        "Een Kennis- en Innovatieagenda die het benodigde onderzoek uitwerkt",
+        "Een regeling die projecten betaalt en naar de agenda verwijst",
+        "Een innovatieproject van een mkb-bedrijf met partners"
+      ],
+      "hints": ["De missie bepaalt de richting, het project voert uit."],
+      "solution": ["Missie, agenda, regeling, project. De missie en de agenda zijn kaders, de regeling is de weg naar het geld en het project is wat er wordt gedaan."],
+      "feedback": [
+        {
+          "answer": [
+            "Een missie met een doel en een jaartal",
+            "Een regeling die projecten betaalt en naar de agenda verwijst",
+            "Een Kennis- en Innovatieagenda die het benodigde onderzoek uitwerkt",
+            "Een innovatieproject van een mkb-bedrijf met partners"
+          ],
+          "message": "De regeling verwijst naar de agenda, niet andersom: eerst werken de partijen in de agenda uit welk onderzoek nodig is."
+        }
+      ],
+      "topics": ["innovation-policy", "kia"]
+    },
+    {
+      "id": "02-004",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Wat is een Kennis- en Innovatieagenda (KIA)?",
+      "choices": [
+        "Een agenda waarin bedrijfsleven, kennisinstellingen en overheid uitwerken welk onderzoek en welke innovatie een missie of technologie nodig heeft",
+        "Een subsidiepot waaruit bedrijven rechtstreeks geld kunnen aanvragen",
+        "Een lijst met bedrijven die een subsidie hebben gekregen"
+      ],
+      "answer": "Een agenda waarin bedrijfsleven, kennisinstellingen en overheid uitwerken welk onderzoek en welke innovatie een missie of technologie nodig heeft",
+      "hints": [],
+      "solution": ["Een KIA is een kader dat regelingen en programma's inhoudelijk richt. Je kunt er zelf geen geld mee aanvragen."],
+      "feedback": [
+        { "answer": "Een subsidiepot waaruit bedrijven rechtstreeks geld kunnen aanvragen", "message": "Dat is een regeling. Een KIA is een kader waarnaar regelingen verwijzen." }
+      ],
+      "topics": ["kia"]
+    },
+    {
+      "id": "02-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Volgens RVO (stand 28 oktober 2026) zijn de topsectoren per 1 januari 2026 stopgezet. Wat betekent dat voor een verwijzing in een aanvraag naar bijvoorbeeld 'topsector HTSM'?",
+      "choices": [
+        "De verwijzing is achterhaald: controleer naar welke missies, KIA's of technologieën de regeling in dat jaar verwijst",
+        "De verwijzing is verplicht en wordt altijd extra beloond",
+        "De verwijzing is nog altijd de enige manier om aansluiting aan te tonen"
+      ],
+      "answer": "De verwijzing is achterhaald: controleer naar welke missies, KIA's of technologieën de regeling in dat jaar verwijst",
+      "hints": [],
+      "solution": ["Het topsectorenbeleid is afgerond. Regelingen verwijzen in 2026 naar prioritaire missies en NTS-technologieën. Controleer elk jaar de actuele verwijzingen."],
+      "topics": ["innovation-policy"]
+    },
+    {
+      "id": "02-006",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een regeling beoordeelt aanvragen op vier criteria van elk maximaal 25 punten. Projecten die aansluiten bij een prioritaire missie krijgen een verdubbeling van het criterium maatschappelijke impact (maximaal 50 in plaats van 25 punten). Hoeveel punten kan een aanvraag dan maximaal halen?",
+      "answer": 125,
+      "hints": ["Drie criteria van maximaal 25 punten, en één van maximaal 50."],
+      "solution": ["$3 \\times 25 + 50 = 125$"],
+      "feedback": [
+        { "answer": 100, "message": "Dat is het maximum zonder verdubbeling. Het criterium impact telt nu dubbel, dus 25 extra punten." }
+      ],
+      "topics": ["assessment-criteria", "missions"]
+    },
+    {
+      "id": "02-007",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een regeling beoordeelt vier criteria van elk maximaal 25 punten: vernieuwing, economische waarde, kwaliteit samenwerking en maatschappelijke impact. Een project dat bij een prioritaire missie hoort, krijgt het criterium impact verdubbeld (de behaalde punten tellen dubbel). Een aanvraag scoort 20 voor vernieuwing, 15 voor economische waarde, 18 voor kwaliteit samenwerking en 12 voor impact. Hoeveel punten heeft ze na verdubbeling in totaal?",
+      "answer": 77,
+      "hints": ["Alleen de punten voor impact worden verdubbeld."],
+      "solution": ["Zonder verdubbeling: $20 + 15 + 18 + 12 = 65$.", "Met verdubbeling van impact: $20 + 15 + 18 + 2 \\times 12 = 77$."],
+      "feedback": [
+        { "answer": 65, "message": "Dat is de score zonder verdubbeling van het impactcriterium." }
+      ],
+      "topics": ["assessment-criteria"]
+    },
+    {
+      "id": "02-008",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke zin over aansluiting bij het beleid is het sterkst in een aanvraag?",
+      "choices": [
+        "Het project draagt bij aan de missie circulaire economie door per jaar naar verwachting 80% van 120.000 m³ warm afvalwater te hergebruiken",
+        "Ons project sluit aan bij alle missies van de overheid",
+        "Ons project is innovatief en duurzaam en past dus bij het beleid"
+      ],
+      "answer": "Het project draagt bij aan de missie circulaire economie door per jaar naar verwachting 80% van 120.000 m³ warm afvalwater te hergebruiken",
+      "hints": ["Zoek de zin die een specifieke missie én een meetbare bijdrage noemt."],
+      "solution": ["De eerste zin noemt een missie, een meetbare bijdrage en een voorbehoud. De andere zijn labels zonder bewijs."],
+      "feedback": [
+        { "answer": "Ons project sluit aan bij alle missies van de overheid", "message": "Aansluiting bij alle missies is bijna zeker niet geloofwaardig en geeft de beoordelaar niets om te toetsen." }
+      ],
+      "topics": ["project-proposal", "missions"]
+    },
+    {
+      "id": "02-009",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een mkb-bedrijf ontwikkelt een betere kassenbouwmachine. De regeling geeft extra punten voor aansluiting bij de NTS-technologie fotonica, maar het project gebruikt geen fotonica. Wat is verstandig?",
+      "choices": [
+        "Geen aansluiting claimen die er niet is en de aanvraag beoordelen op de overige criteria, of een andere regeling zoeken",
+        "Fotonica noemen in de aanvraag om punten te krijgen",
+        "De aanvraag intrekken, want zonder die punten is elke aanvraag kansloos"
+      ],
+      "answer": "Geen aansluiting claimen die er niet is en de aanvraag beoordelen op de overige criteria, of een andere regeling zoeken",
+      "hints": [],
+      "solution": ["Een koppeling die niet klopt, schaadt de geloofwaardigheid van de hele aanvraag en kan tot afwijzing leiden. Zonder extra punten kan een aanvraag nog steeds goed scoren."],
+      "feedback": [
+        { "answer": "Fotonica noemen in de aanvraag om punten te krijgen", "message": "Een beoordelaar controleert de koppeling. Een claim zonder inhoud kost meer dan ze oplevert." }
+      ],
+      "topics": ["missions", "key-technologies"]
+    },
+    {
+      "id": "02-010",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Welke organisatie voert de meeste ondernemersregelingen voor het ministerie van Economische Zaken uit, zoals de MIT, de WBSO en het Innovatiekrediet?",
+      "choices": [
+        "RVO, de Rijksdienst voor Ondernemend Nederland",
+        "NWO, de Nederlandse Organisatie voor Wetenschappelijk Onderzoek",
+        "TNO, de Nederlandse organisatie voor toegepast natuurwetenschappelijk onderzoek"
+      ],
+      "answer": "RVO, de Rijksdienst voor Ondernemend Nederland",
+      "hints": [],
+      "solution": ["RVO voert de ondernemersregelingen uit. NWO financiert vooral wetenschappelijk onderzoek en TNO doet zelf toegepast onderzoek."],
+      "feedback": [
+        { "answer": "NWO, de Nederlandse Organisatie voor Wetenschappelijk Onderzoek", "message": "NWO financiert onderzoek aan kennisinstellingen. Ondernemers vragen hun regelingen aan bij RVO." }
+      ],
+      "topics": ["innovation-policy"]
+    },
+    {
+      "id": "02-011",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "De Nationale Technologiestrategie (januari 2024) stelt tien sleuteltechnologieën centraal. Wat is een juiste uitspraak over de agenda's die daarbij horen?",
+      "choices": [
+        "De agenda's sturen bestaande middelen en regelingen; ze zijn zelf geen subsidiepot",
+        "Elke agenda heeft een eigen vast budget waaruit je kunt aanvragen",
+        "De agenda's gelden alleen voor kennisinstellingen, niet voor bedrijven"
+      ],
+      "answer": "De agenda's sturen bestaande middelen en regelingen; ze zijn zelf geen subsidiepot",
+      "hints": [],
+      "solution": ["De agenda's geven richting. Aan de agenda's is volgens de Kamerstukken geen eigen budget gekoppeld; het geld komt uit bestaande regelingen."],
+      "topics": ["key-technologies", "kia"]
+    }
+  ]
+}

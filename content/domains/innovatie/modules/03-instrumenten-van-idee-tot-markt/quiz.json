@@ -1,0 +1,165 @@
+{
+  "title": "Hoofdstuktoets – Instrumenten van idee tot markt",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'. Percentages en grensbedragen staan in de vragen zelf.",
+  "questions": [
+    {
+      "id": "03-T01",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Op welke drie dimensies kun je innovatie-instrumenten het best ordenen?",
+      "choices": [
+        "Fase (TRL), vorm (fiscaal, subsidie, krediet, Europees) en samenwerking",
+        "Kleur, grootte en postcode van de aanvrager",
+        "Alleen de hoogte van het budget"
+      ],
+      "answer": "Fase (TRL), vorm (fiscaal, subsidie, krediet, Europees) en samenwerking",
+      "hints": [],
+      "solution": ["Fase, vorm en samenwerking bepalen samen welk instrument bij een project past."],
+      "topics": ["funding-fit"]
+    },
+    {
+      "id": "03-T02",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 1,
+      "question": "Welk fiscaal instrument verlaagt de belasting op de winst uit een zelf ontwikkeld immaterieel activum, en wanneer speelt het een rol?",
+      "choices": [
+        "De innovatiebox, wanneer de innovatie winst oplevert",
+        "De WBSO, tijdens het onderzoek",
+        "De PPS-toeslag, bij de aanvraag van onderzoek"
+      ],
+      "answer": "De innovatiebox, wanneer de innovatie winst oplevert",
+      "hints": [],
+      "solution": ["De innovatiebox werkt aan het eind van het traject, op de winst. De WBSO verlaagt de kosten tijdens het onderzoek."],
+      "topics": ["innovation-instruments"]
+    },
+    {
+      "id": "03-T03",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Reken met de aanname dat een haalbaarheidsproject 35% van de subsidiabele kosten vergoedt, met een maximum van € 20.000. De subsidiabele kosten zijn € 70.000. Hoe hoog is de subsidie in hele euro's?",
+      "answer": 20000,
+      "unit": "€",
+      "hints": [],
+      "solution": ["$0{,}35 \\times 70.000 = 24.500$. Dat is hoger dan het maximum, dus de subsidie is € 20.000."],
+      "feedback": [
+        { "answer": 24500, "message": "Je vergat het maximum van € 20.000 toe te passen." }
+      ],
+      "topics": ["innovation-instruments"]
+    },
+    {
+      "id": "03-T04",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Bij een R&D-samenwerkingsproject is de subsidie 35% van de subsidiabele kosten. Een klein project (subsidiabele kosten tot € 571.428) krijgt tussen € 50.000 en € 200.000. Een project heeft subsidiabele kosten van € 400.000. Hoe hoog is de subsidie in hele euro's?",
+      "answer": 140000,
+      "unit": "€",
+      "hints": [],
+      "solution": ["$0{,}35 \\times 400.000 = 140.000$, tussen € 50.000 en € 200.000."],
+      "feedback": [
+        { "answer": 200000, "message": "€ 200.000 is de bovengrens voor kleine projecten, geen vast bedrag." }
+      ],
+      "topics": ["innovation-instruments"]
+    },
+    {
+      "id": "03-T05",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 2,
+      "question": "Een mkb-bedrijf wil een technisch risicovolle ontwikkeling van € 3.000.000 uitvoeren en heeft daarvoor te weinig eigen middelen. Welke eigenschap maakt het Innovatiekrediet hier aantrekkelijk?",
+      "choices": [
+        "Bij succes betaal je terug, bij technisch falen wordt het volgens de regeling geheel of gedeeltelijk kwijtgescholden, zodat de overheid risico meedraagt",
+        "Het krediet hoeft nooit te worden terugbetaald",
+        "Het krediet is alleen bedoeld voor onderzoek op TRL 1"
+      ],
+      "answer": "Bij succes betaal je terug, bij technisch falen wordt het volgens de regeling geheel of gedeeltelijk kwijtgescholden, zodat de overheid risico meedraagt",
+      "hints": [],
+      "solution": ["Een krediet verdeelt het risico tussen bedrijf en overheid. Het is bedoeld voor kostbare ontwikkeling, niet voor vroeg onderzoek."],
+      "topics": ["innovation-instruments"]
+    },
+    {
+      "id": "03-T06",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een klein bedrijf voert alleen (zonder samenwerking) een technisch ontwikkelproject uit met totale kosten van € 3.000.000. Het krediet is maximaal 45% van de kosten voor een klein bedrijf zonder samenwerking (50% met samenwerking), met een maximum van € 10.000.000. Hoe hoog is het maximale krediet in hele euro's?",
+      "answer": 1350000,
+      "unit": "€",
+      "hints": [],
+      "solution": ["$0{,}45 \\times 3.000.000 = 1.350.000$."],
+      "feedback": [
+        { "answer": 1500000, "message": "Je rekende met 50%, het percentage met samenwerking. Dit bedrijf werkt alleen." }
+      ],
+      "topics": ["innovation-instruments"]
+    },
+    {
+      "id": "03-T07",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een Nederlands mkb-bedrijf werkt met een Zweeds en een Italiaans bedrijf aan een product en zoekt een instrument voor internationale mkb-samenwerking. Wat is de procedure bij Eurostars?",
+      "choices": [
+        "Eerst een internationale aanvraag via het Eureka-netwerk, en bij goedkeuring een nationale aanvraag bij RVO",
+        "Alleen een nationale aanvraag bij RVO, zonder internationaal voorstel",
+        "Een directe aanvraag bij het ministerie van Financiën"
+      ],
+      "answer": "Eerst een internationale aanvraag via het Eureka-netwerk, en bij goedkeuring een nationale aanvraag bij RVO",
+      "hints": [],
+      "solution": ["Eurostars heeft twee stappen: het internationale voorstel en daarna de nationale subsidieaanvraag voor de Nederlandse deelnemers."],
+      "topics": ["innovation-instruments"]
+    },
+    {
+      "id": "03-T08",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een bedrijf met een technologie op TRL 3 wil een eerste verkenning laten uitvoeren naar de technische en economische haalbaarheid. Welk instrument past het best?",
+      "choices": [
+        "Een MIT-haalbaarheidsproject, in omvang klein en voorafgaand aan een ontwikkelproject",
+        "De EIC Accelerator, voor schalende bedrijven",
+        "Het Innovatiekrediet voor € 10 miljoen"
+      ],
+      "answer": "Een MIT-haalbaarheidsproject, in omvang klein en voorafgaand aan een ontwikkelproject",
+      "hints": [],
+      "solution": ["Bij TRL 3 en een verkenning van haalbaarheid past een klein, vroeg instrument. De Accelerator en het krediet zijn voor latere en veel grotere fasen."],
+      "topics": ["funding-fit", "trl"]
+    },
+    {
+      "id": "03-T09",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "De basisintensiteit voor experimentele ontwikkeling is 25%. Voor een kleine onderneming komt daar 20 procentpunten bij en voor effectieve samenwerking 15 procentpunten (maximum 80%). Een klein bedrijf voert in samenwerking experimentele ontwikkeling uit met subsidiabele kosten van € 500.000. Hoeveel steun mag er in totaal maximaal op die kosten komen, in hele euro's?",
+      "answer": 300000,
+      "unit": "€",
+      "hints": [],
+      "solution": ["$25\\% + 20\\% + 15\\% = 60\\%$, onder de 80%.", "$0{,}60 \\times 500.000 = 300.000$"],
+      "feedback": [
+        { "answer": 125000, "message": "Je gebruikte alleen de basisintensiteit van 25%. De opslagen voor mkb en samenwerking tellen mee." }
+      ],
+      "topics": ["funding-fit"]
+    },
+    {
+      "id": "03-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 4,
+      "question": "Een adviseur stelt een financieringsroute op: haalbaarheidsproject, dan R&D-samenwerking, dan demonstratie, dan krediet voor opschaling. Wat is het belangrijkste voordeel van dit als keten presenteren?",
+      "choices": [
+        "Elke stap levert het bewijs of de gegevens die de volgende aanvraag sterker maken, en de timing van de openstellingen wordt zichtbaar",
+        "De regelingen mogen dan onbeperkt worden gestapeld",
+        "Het project hoeft dan niet meer aan beoordelingscriteria te voldoen"
+      ],
+      "answer": "Elke stap levert het bewijs of de gegevens die de volgende aanvraag sterker maken, en de timing van de openstellingen wordt zichtbaar",
+      "hints": [],
+      "solution": ["Een keten maakt het verband tussen de fasen zichtbaar. Staatssteungrenzen en beoordelingscriteria blijven gelden."],
+      "feedback": [
+        { "answer": "De regelingen mogen dan onbeperkt worden gestapeld", "message": "Stapelen kent altijd een grens in de maximale steunintensiteit." }
+      ],
+      "topics": ["funding-fit", "innovation-instruments"]
+    }
+  ]
+}

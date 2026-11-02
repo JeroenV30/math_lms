@@ -3,7 +3,7 @@
   "slug": "wat-innovatie-is",
   "title": "Wat innovatie is",
   "part": 1,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
   "estimated_minutes": 90,
   "prerequisites": [],
@@ -15,5 +15,87 @@
   ],
   "core_question": "Wanneer is iets nieuws een innovatie, en waarom komt innovatie niet vanzelf tot stand?",
   "summary": "Uitvinding en innovatie, soorten innovatie volgens het Oslo Manual, incrementeel en radicaal, de technology readiness levels, de kloof tussen onderzoek en markt, en het innovatiesysteem van bedrijven, kennisinstellingen en overheid.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "De definitie van innovatie in de Oslo Manual",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "uitvinding-en-innovatie",
+      "title": "Uitvinding, innovatie en soorten innovatie",
+      "file": "02-uitvinding-en-innovatie.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "trl-en-innovatiesysteem",
+      "title": "TRL, de kloof en het innovatiesysteem",
+      "file": "03-trl-en-innovatiesysteem.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "casus-lumina-glasvezelsensoren",
+      "title": "Casus: drie projectideeën",
+      "file": "04-casus-lumina-glasvezelsensoren.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen waarom een uitvinding pas een innovatie is als ze in gebruik is genomen, en waarom nieuw altijd nieuw ten opzichte van iets is.",
+    "Je kunt product- en bedrijfsprocesinnovatie volgens de Oslo Manual onderscheiden en een innovatie als incrementeel of radicaal typeren.",
+    "Je kunt een project of onderdeel van een systeem op de TRL-schaal plaatsen en de kloof tussen onderzoek en markt uitleggen.",
+    "Je kunt uitleggen waarom bedrijven zonder ingrijpen te weinig innoveren (kennisspillovers, onzekerheid, lange termijn).",
+    "Je kunt de rollen van bedrijven, kennisinstellingen en overheid in het innovatiesysteem (triple helix) benoemen."
+  ],
+  "glossary": [
+    {
+      "term": "Uitvinding",
+      "definition": "Een nieuw idee of werkend prototype, nog niet noodzakelijk in gebruik genomen."
+    },
+    {
+      "term": "Innovatie",
+      "definition": "Een nieuw of verbeterd product of bedrijfsproces dat significant verschilt van het eerdere en beschikbaar is gesteld of in gebruik is genomen (Oslo Manual 2018)."
+    },
+    {
+      "term": "Productinnovatie",
+      "definition": "Een nieuw of verbeterd goed of nieuwe of verbeterde dienst die op de markt is gebracht."
+    },
+    {
+      "term": "Bedrijfsprocesinnovatie",
+      "definition": "Een nieuw of verbeterd bedrijfsproces, zoals productie, logistiek of administratie, dat in gebruik is genomen."
+    },
+    {
+      "term": "Incrementele en radicale innovatie",
+      "definition": "Kleine verbetering van iets bestaands tegenover een breuk met de bestaande aanpak."
+    },
+    {
+      "term": "TRL",
+      "definition": "Technology readiness level: schaal van 1 (basisprincipes waargenomen) tot 9 (systeem bewezen in de operationele omgeving)."
+    },
+    {
+      "term": "Valley of death",
+      "definition": "De fase tussen ongeveer TRL 4 en 7 waarin onderzoeksfinanciering ophoudt en commerciële financiering nog aarzelt."
+    },
+    {
+      "term": "Kennisspillover",
+      "definition": "Het overvloeien van kennis naar anderen dan degene die haar ontwikkelde."
+    },
+    {
+      "term": "Innovatiesysteem",
+      "definition": "De partijen en relaties (bedrijven, kennisinstellingen, overheid, onderwijs) waarbinnen innovatie ontstaat."
+    },
+    {
+      "term": "Triple helix",
+      "definition": "Model waarin bedrijven, kennisinstellingen en overheid samenwerken; in Nederland de gouden driehoek."
+    }
+  ],
+  "timeline": [],
+  "people": []
 }

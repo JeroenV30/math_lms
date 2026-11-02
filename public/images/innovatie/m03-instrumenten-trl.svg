@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Arial, Helvetica, sans-serif" font-size="12">
+  <rect width="720" height="360" fill="#ffffff"/>
+  <text x="360" y="24" text-anchor="middle" font-size="16" font-weight="bold" fill="#1f2933">Innovatie-instrumenten langs de TRL-schaal (stand 2026)</text>
+  <g stroke="#1f2933" stroke-width="1" fill="none">
+    <path d="M60 300 L680 300"/>
+  </g>
+  <g fill="#1f2933" text-anchor="middle" font-weight="bold">
+    <text x="90" y="318">1</text><text x="160" y="318">2</text><text x="230" y="318">3</text><text x="300" y="318">4</text>
+    <text x="370" y="318">5</text><text x="440" y="318">6</text><text x="510" y="318">7</text><text x="580" y="318">8</text><text x="650" y="318">9</text>
+  </g>
+  <text x="60" y="340" fill="#1f2933">onderzoek</text>
+  <text x="300" y="340" fill="#1f2933">ontwikkeling en demonstratie</text>
+  <text x="560" y="340" fill="#1f2933">marktintroductie</text>
+  <g stroke="#1f2933" stroke-width="1.5">
+    <rect x="60" y="44" width="620" height="28" fill="#f1e3cf"/>
+    <rect x="195" y="82" width="140" height="28" fill="#dbe4ff"/>
+    <rect x="265" y="120" width="210" height="28" fill="#dbe4ff"/>
+    <rect x="265" y="158" width="210" height="28" fill="#dbe4ff"/>
+    <rect x="335" y="196" width="280" height="28" fill="#dbe4ff"/>
+    <rect x="125" y="234" width="130" height="28" fill="#dbe4ff"/>
+    <rect x="405" y="234" width="210" height="28" fill="#dbe4ff"/>
+    <rect x="545" y="270" width="135" height="22" fill="#f1e3cf"/>
+  </g>
+  <g fill="#1f2933">
+    <text x="70" y="63">WBSO (fiscaal, loonkosten van technische R&amp;D, alle fasen)</text>
+    <text x="203" y="101">MIT haalbaarheid</text>
+    <text x="273" y="139">MIT R&amp;D-samenwerking</text>
+    <text x="273" y="177">Eurostars (internationaal)</text>
+    <text x="343" y="215">Innovatiekrediet en demonstratieregelingen</text>
+    <text x="133" y="253">EIC Pathfinder</text>
+    <text x="413" y="253">EIC Accelerator</text>
+    <text x="553" y="286">innovatiebox (winst)</text>
+  </g>
+  <text x="700" y="296" text-anchor="end" fill="#3b5bdb" font-size="11">globale TRL-bereiken</text>
+</svg>
