@@ -241,6 +241,11 @@ class DuplicateChecker
             return false;
         }
 
+        // Gelijke titels zijn dezelfde gebeurtenis, ook als geen woord lang genoeg is ("D-Day").
+        if ($this->ascii($a['title'] ?? '') === $this->ascii($b['title'] ?? '')) {
+            return true;
+        }
+
         $words = fn (string $title) => array_filter(explode(' ', $this->ascii($title)), fn (string $w) => strlen($w) >= 5);
 
         return array_intersect($words($a['title'] ?? ''), $words($b['title'] ?? '')) !== [];

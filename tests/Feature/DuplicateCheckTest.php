@@ -62,6 +62,17 @@ class DuplicateCheckTest extends TestCase
         $this->assertMatches("/gebeurtenis-id 'euclides-elementen' betekent iets anders in wiskunde/");
     }
 
+    public function test_a_shared_event_with_only_short_words_in_its_title_keeps_its_id(): void
+    {
+        $dday = ['id' => 'd-day-1944', 'year_label' => '6 juni 1944', 'sort_year' => 1944, 'title' => 'D-Day', 'modules' => [1]];
+        File::put($this->copy.'/domains/geschiedenis/history/timeline.json', json_encode(['events' => [$dday]]));
+        $this->edit('domains/wiskunde/history/timeline.json', function (array &$data) use ($dday) {
+            $data['events'][] = $dday;
+        });
+
+        $this->assertSame([], $this->duplicates());
+    }
+
     public function test_events_in_the_same_year_with_look_alike_titles_are_not_duplicates(): void
     {
         File::put($this->copy.'/domains/geschiedenis/history/timeline.json', json_encode(['events' => [
