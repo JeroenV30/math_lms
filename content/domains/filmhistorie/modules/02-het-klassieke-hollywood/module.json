@@ -3,9 +3,9 @@
   "slug": "het-klassieke-hollywood",
   "title": "Het klassieke Hollywood",
   "part": 1,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
-  "estimated_minutes": 100,
+  "estimated_minutes": 110,
   "prerequisites": [
     1
   ],
@@ -17,5 +17,110 @@
   ],
   "core_question": "Waarom zien zoveel films er sinds de jaren dertig in de kern hetzelfde uit?",
   "summary": "De komst van het geluid, het studio- en sterrensysteem, genres als western, film noir en musical, de klassieke continuïteitsmontage en de 180-gradenregel, de Hays Code, Citizen Kane, en daarbuiten het Italiaanse neorealisme en de Japanse film.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een liedje en een paar zinnen",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "geluid-studio-en-genre",
+      "title": "Geluid, studio en genre",
+      "file": "02-geluid-studio-en-genre.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "continuiteit-en-alternatieven",
+      "title": "Continuïteit en haar alternatieven",
+      "file": "03-continuiteit-en-alternatieven.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "practicum-citizen-kane",
+      "title": "Filmanalysepracticum: Citizen Kane",
+      "file": "04-practicum-citizen-kane.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en toets",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen hoe het geluid in 1927 de film binnenkwam (Vitaphone en Movietone) en wat dat voor de camera en de vorm betekende.",
+    "Je kunt het studiosysteem beschrijven: de Big Five, verticale integratie, blokverhuur en het sterrensysteem.",
+    "Je kunt genres als western, gangsterfilm, musical en film noir herkennen aan hun conventies en de rol van de Production Code uitleggen.",
+    "Je kunt de klassieke continuïteitsmontage (establishing shot, shot/tegenshot, eyeline match, match on action) en de 180-gradenregel toepassen op een scène.",
+    "Je kunt in Citizen Kane diepe scherpte en lange opnamen herkennen en uitleggen wat ze toevoegen aan de betekenis.",
+    "Je kunt het Italiaanse neorealisme en de Japanse film van Kurosawa en Ozu plaatsen als alternatieven voor het Hollywoodmodel."
+  ],
+  "glossary": [
+    {
+      "term": "Vitaphone",
+      "definition": "Het geluidssysteem van Warner Bros. waarbij grammofoonplaten synchroon met de projector draaiden."
+    },
+    {
+      "term": "Movietone",
+      "definition": "Het systeem van Fox waarbij het geluid als lichtspoor op de filmstrook zelf staat; het werd de norm."
+    },
+    {
+      "term": "Verticale integratie",
+      "definition": "De combinatie van productie, distributie en vertoning (eigen bioscopen) in één maatschappij."
+    },
+    {
+      "term": "Blokverhuur",
+      "definition": "Het verkopen van films in pakketten, waarbij een bioscoop ook minder goede films moest afnemen."
+    },
+    {
+      "term": "Genre",
+      "definition": "Een groep films met gedeelde conventies in held, setting, conflict en beelden."
+    },
+    {
+      "term": "Production Code",
+      "definition": "De zelfcensuur van de Amerikaanse filmindustrie (1930), sinds 1934 strikt toegepast en in 1968 vervangen door een kijkwijzer."
+    },
+    {
+      "term": "Establishing shot",
+      "definition": "Een overzichtsshot aan het begin van een scène dat de plaats en de personen toont."
+    },
+    {
+      "term": "Shot/tegenshot",
+      "definition": "Wisselen tussen opnamen van twee personen die met elkaar praten."
+    },
+    {
+      "term": "180-gradenregel",
+      "definition": "De regel dat de camera aan één kant van de denkbeeldige as tussen de personen blijft, zodat links en rechts kloppen."
+    },
+    {
+      "term": "Diepe scherpte",
+      "definition": "Een beeld waarin voorgrond, middenplan en achtergrond tegelijk scherp zijn."
+    },
+    {
+      "term": "Neorealisme",
+      "definition": "Italiaanse stroming na 1945 met opnamen op locatie, niet-professionele spelers en alledaagse onderwerpen."
+    }
+  ],
+  "timeline": [
+    "jazz-singer-1927",
+    "hays-code-strikt-1934",
+    "stagecoach-1939",
+    "citizen-kane-1941",
+    "double-indemnity-1944",
+    "roma-citta-aperta-1945",
+    "rashomon-1950",
+    "tokyo-story-1953"
+  ],
+  "people": [
+    "will-hays",
+    "john-ford",
+    "orson-welles",
+    "gregg-toland",
+    "billy-wilder",
+    "roberto-rossellini",
+    "akira-kurosawa",
+    "yasujiro-ozu"
+  ]
 }

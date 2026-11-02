@@ -1,0 +1,343 @@
+{
+  "exercises": [
+    {
+      "id": "01-001",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een Lumière-film duurt 50 seconden en wordt gedraaid met 16 beeldjes per seconde. Uit hoeveel beeldjes bestaat de film?",
+      "answer": 800,
+      "hints": [
+        "Aantal beeldjes = duur maal snelheid."
+      ],
+      "solution": [
+        "$50 \\times 16 = 800$ beeldjes."
+      ],
+      "feedback": [
+        {
+          "answer": 50,
+          "message": "Dat is de duur in seconden. Vermenigvuldig met het aantal beeldjes per seconde."
+        },
+        {
+          "answer": 3,
+          "message": "Je hebt gedeeld in plaats van vermenigvuldigd."
+        }
+      ],
+      "topics": [
+        "film-technology"
+      ]
+    },
+    {
+      "id": "01-002",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een stomme film van 1.440 beeldjes is opgenomen met 16 beeldjes per seconde. Hoeveel seconden duurt hij als hij met diezelfde snelheid wordt vertoond?",
+      "answer": 90,
+      "hints": [
+        "Duur = aantal beeldjes gedeeld door de snelheid."
+      ],
+      "solution": [
+        "$1440 / 16 = 90$ seconden."
+      ],
+      "feedback": [
+        {
+          "answer": 60,
+          "message": "Dat is de duur bij 24 beeldjes per seconde. Hier is de snelheid 16."
+        },
+        {
+          "answer": 23040,
+          "message": "Je hebt vermenigvuldigd; deel het aantal beeldjes door de snelheid."
+        }
+      ],
+      "topics": [
+        "film-technology"
+      ],
+      "unit": "s"
+    },
+    {
+      "id": "01-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat was een belangrijk verschil tussen de kinetoscoop van Edison en de cinématographe van de Lumières?",
+      "choices": [
+        "De kinetoscoop gebruikte kleurenfilm en de cinématographe zwart-wit",
+        "De cinématographe kon alleen in een studio filmen, de kinetoscoop overal",
+        "De kinetoscoop was een projector en de cinématographe een kijkkast",
+        "De kinetoscoop liet één kijker tegelijk door een kijkgat kijken; de cinématographe projecteerde op een scherm voor een zaal"
+      ],
+      "answer": "De kinetoscoop liet één kijker tegelijk door een kijkgat kijken; de cinématographe projecteerde op een scherm voor een zaal",
+      "hints": [],
+      "solution": [
+        "De kinetoscoop was een kijkkast voor één persoon; de cinématographe nam op, kopieerde en projecteerde, en was draagbaar."
+      ],
+      "feedback": [
+        {
+          "answer": "De cinématographe kon alleen in een studio filmen, de kinetoscoop overal",
+          "message": "Het is andersom: de Black Maria was Edisons studio, terwijl de cinématographe licht genoeg was om mee te nemen."
+        },
+        {
+          "answer": "De kinetoscoop was een projector en de cinématographe een kijkkast",
+          "message": "Het is andersom: Edisons kast was voor één kijker, de Lumières projecteerden voor een zaal."
+        }
+      ],
+      "topics": [
+        "film-technology"
+      ]
+    },
+    {
+      "id": "01-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Hoe ga je het best om met het verhaal dat het publiek in 1896 in paniek vluchtte voor de trein in *L'Arrivée d'un train en gare de La Ciotat*?",
+      "choices": [
+        "Als vaststaand feit: veel mensen renden de zaal uit",
+        "Als een legende: er is geen betrouwbaar getuigenis uit die tijd, het verhaal is later verteld",
+        "Als bewijs dat het publiek geen onderscheid kon maken tussen film en foto",
+        "Als een bewuste leugen van de Lumières om reclame te maken"
+      ],
+      "answer": "Als een legende: er is geen betrouwbaar getuigenis uit die tijd, het verhaal is later verteld",
+      "hints": [],
+      "solution": [
+        "Er zijn geen tijdgenootgetuigenissen van de paniek. Het verhaal duikt later op en is waarschijnlijk een samenvatting van de diepe indruk die de film maakte."
+      ],
+      "feedback": [
+        {
+          "answer": "Als vaststaand feit: veel mensen renden de zaal uit",
+          "message": "Daarvoor ontbreekt een betrouwbare bron uit 1896."
+        },
+        {
+          "answer": "Als een bewuste leugen van de Lumières om reclame te maken",
+          "message": "Dat is evenmin aangetoond; het verhaal is later ontstaan."
+        }
+      ],
+      "topics": [
+        "silent-film"
+      ]
+    },
+    {
+      "id": "01-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Hoe ontstaat het effect dat een persoon in een Méliès-film plotseling verdwijnt?",
+      "choices": [
+        "De camera wordt gestopt, het beeld wordt aangepast en daarna wordt doorgefilmd (substitutiemontage)",
+        "Er wordt een tweede camera ingezet",
+        "De acteur loopt achter een spiegel weg",
+        "De film wordt achteraf bijgeknipt in een andere volgorde"
+      ],
+      "answer": "De camera wordt gestopt, het beeld wordt aangepast en daarna wordt doorgefilmd (substitutiemontage)",
+      "hints": [],
+      "solution": [
+        "Méliès stopte de camera, liet een persoon of voorwerp weghalen of vervangen en filmde door. In de vertoning lijkt het één doorlopend beeld."
+      ],
+      "feedback": [
+        {
+          "answer": "De film wordt achteraf bijgeknipt in een andere volgorde",
+          "message": "Het gaat om stoppen en weer doorfilmen met een verandering in het beeld, niet om een andere volgorde."
+        }
+      ],
+      "topics": [
+        "editing"
+      ]
+    },
+    {
+      "id": "01-006",
+      "type": "order",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Muybridge fotografeert een galopperend paard",
+        "Opening van de eerste kinetoscoopzaal in New York",
+        "Eerste betaalde vertoning van de Lumières in Parijs",
+        "Méliès maakt Le Voyage dans la Lune",
+        "Griffith maakt The Birth of a Nation"
+      ],
+      "hints": [],
+      "solution": [
+        "Volgorde: 1878, 1894, 1895, 1902, 1915."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Muybridge fotografeert een galopperend paard",
+            "Eerste betaalde vertoning van de Lumières in Parijs",
+            "Opening van de eerste kinetoscoopzaal in New York",
+            "Méliès maakt Le Voyage dans la Lune",
+            "Griffith maakt The Birth of a Nation"
+          ],
+          "message": "De kinetoscoopzaal (april 1894) kwam vóór de Lumière-vertoning (december 1895)."
+        }
+      ],
+      "topics": [
+        "silent-film"
+      ]
+    },
+    {
+      "id": "01-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een scène wisselt af tussen een bedreigd gezin in een huis en de redders die onderweg zijn, en de shots worden naarmate de scène vordert korter. Hoe heet dit principe?",
+      "choices": [
+        "Een tussentitel",
+        "Een tableau in één opname",
+        "Een jump cut",
+        "Parallelmontage met oplopend tempo"
+      ],
+      "answer": "Parallelmontage met oplopend tempo",
+      "hints": [],
+      "solution": [
+        "Het wisselen tussen gelijktijdige gebeurtenissen heet parallelmontage; door het inkorten van de shots stijgt de gevoelde snelheid."
+      ],
+      "feedback": [
+        {
+          "answer": "Een tableau in één opname",
+          "message": "Een tableau is één toneelbeeld zonder wissel van plaats of shotgrootte."
+        }
+      ],
+      "topics": [
+        "editing"
+      ]
+    },
+    {
+      "id": "01-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een shot toont alleen de ogen van een personage, vlak voor het kader. Welke shotgrootte is dat?",
+      "choices": [
+        "Close-up",
+        "Medium shot",
+        "Totaal",
+        "Extreme close-up"
+      ],
+      "answer": "Extreme close-up",
+      "hints": [],
+      "solution": [
+        "Een close-up toont het hoofd en de schouders; als alleen de ogen in beeld zijn, is het een extreme close-up."
+      ],
+      "feedback": [
+        {
+          "answer": "Close-up",
+          "message": "In een close-up zie je nog het hele gezicht of hoofd en schouders; hier is het kader nog dichterbij."
+        }
+      ],
+      "topics": [
+        "film-language"
+      ]
+    },
+    {
+      "id": "01-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat houdt het Koelesjov-effect in?",
+      "choices": [
+        "De betekenis van een shot wordt mede bepaald door de shots ervoor en erna",
+        "Een close-up is altijd emotioneler dan een totaalshot",
+        "Acteurs moeten hun emotie zichtbaar spelen",
+        "Twee shots van dezelfde plaats moeten dezelfde belichting hebben"
+      ],
+      "answer": "De betekenis van een shot wordt mede bepaald door de shots ervoor en erna",
+      "hints": [],
+      "solution": [
+        "Koelesjov liet zien (in de vorm waarin het verhaal wordt verteld) dat een neutraal gezicht anders wordt gelezen na een bord soep dan na een kist."
+      ],
+      "feedback": [
+        {
+          "answer": "Een close-up is altijd emotioneler dan een totaalshot",
+          "message": "Het effect gaat over de volgorde van shots, niet over de shotgrootte."
+        }
+      ],
+      "topics": [
+        "editing"
+      ]
+    },
+    {
+      "id": "01-010",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Drie shots tonen een slapende, een ontwakende en een opstaande stenen leeuw, vlak na een kanonschot van het schip. Wat noemde Eisenstein dit type montage?",
+      "choices": [
+        "Continuïteitsmontage: de shots vormen één ruimte",
+        "Metrische montage: de lengte van de shots bepaalt het effect",
+        "Substitutiemontage: de camera wordt stilgezet",
+        "Intellectuele montage: de kijker concludeert iets dat in geen enkel shot afzonderlijk staat"
+      ],
+      "answer": "Intellectuele montage: de kijker concludeert iets dat in geen enkel shot afzonderlijk staat",
+      "hints": [],
+      "solution": [
+        "De drie leeuwen zijn verschillende beelden die samen één idee opleveren: de steen komt in opstand."
+      ],
+      "feedback": [
+        {
+          "answer": "Metrische montage: de lengte van de shots bepaalt het effect",
+          "message": "Metrische montage gaat over de lengte; hier komt een idee voort uit de combinatie."
+        }
+      ],
+      "topics": [
+        "editing"
+      ]
+    },
+    {
+      "id": "01-011",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom is de trap van Odessa in *Bronenosets Potjomkin* geen betrouwbaar bewijs van wat er in 1905 gebeurde?",
+      "choices": [
+        "De film is pas in 1945 gemaakt",
+        "De scène is in 1905 gefilmd maar achteraf bewerkt",
+        "Eisenstein was zelf soldaat in Odessa",
+        "De scène is verzonnen: zo'n bloedbad op de trap is niet aangetoond"
+      ],
+      "answer": "De scène is verzonnen: zo'n bloedbad op de trap is niet aangetoond",
+      "hints": [],
+      "solution": [
+        "De film is in 1925 gemaakt. De scène is een symbolisch bouwwerk; in 1905 was er geweld in Odessa, maar niet op deze manier op de trap."
+      ],
+      "feedback": [
+        {
+          "answer": "De film is pas in 1945 gemaakt",
+          "message": "De film dateert van 1925, voor de herdenking van de revolutie van 1905."
+        }
+      ],
+      "topics": [
+        "silent-film"
+      ]
+    },
+    {
+      "id": "01-012",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke kenmerken heeft het Duitse expressionisme in de film, bijvoorbeeld in *Das Cabinet des Dr. Caligari*?",
+      "choices": [
+        "Lange opnamen met de camera in de hand",
+        "Snelle montage van korte beelden zonder decor",
+        "Opnamen op locatie met niet-professionele acteurs",
+        "Beschilderde, vervormde decors en sterke licht-donkercontrasten die een innerlijke toestand uitdrukken"
+      ],
+      "answer": "Beschilderde, vervormde decors en sterke licht-donkercontrasten die een innerlijke toestand uitdrukken",
+      "hints": [],
+      "solution": [
+        "Het expressionisme drukt een gemoedstoestand uit met vervormde decors en schaduw, niet met een echte omgeving."
+      ],
+      "feedback": [
+        {
+          "answer": "Opnamen op locatie met niet-professionele acteurs",
+          "message": "Dat is eerder kenmerkend voor het Italiaanse neorealisme (module 2)."
+        }
+      ],
+      "topics": [
+        "silent-film"
+      ]
+    }
+  ]
+}

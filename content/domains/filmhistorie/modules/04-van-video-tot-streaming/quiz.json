@@ -1,0 +1,217 @@
+{
+  "title": "Hoofdstuktoets – Van video tot streaming",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "04-T01",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke uitwerking had de uitspraak van het Hooggerechtshof in 1984 over de videorecorder op de filmindustrie?",
+      "choices": [
+        "Films mochten niet meer thuis worden bekeken",
+        "De filmindustrie stortte in",
+        "Video werd een belangrijke nieuwe inkomstenbron naast de bioscoop",
+        "De bioscopen werden verboden"
+      ],
+      "answer": "Video werd een belangrijke nieuwe inkomstenbron naast de bioscoop",
+      "hints": [],
+      "solution": [
+        "Videoverhuur en -verkoop werden voor studio's een groot deel van de inkomsten."
+      ],
+      "topics": [
+        "streaming"
+      ]
+    },
+    {
+      "id": "04-T02",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat is een festival als Sundance of Rotterdam voor een kleine onafhankelijke maker?",
+      "choices": [
+        "Een wedstrijd waarvoor je betaald wordt per kijker",
+        "Een school voor filmmakers",
+        "Een verplichte keuring door de overheid",
+        "Een kans om gezien, besproken en verkocht te worden zonder grote distributeur"
+      ],
+      "answer": "Een kans om gezien, besproken en verkocht te worden zonder grote distributeur",
+      "hints": [],
+      "solution": [
+        "Festivals vormen een eigen verspreidingsweg voor films buiten de studio's."
+      ],
+      "topics": [
+        "world-cinema"
+      ]
+    },
+    {
+      "id": "04-T03",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waaruit bestond de eerste stap van computers in de film, zoals in de module beschreven?",
+      "choices": [
+        "Digitale projectie in alle bioscopen",
+        "Streaming via internet",
+        "Het verbod op cameramensen",
+        "Computeranimatie (Toy Story) en digitale effecten in gefilmde beelden (Jurassic Park)"
+      ],
+      "answer": "Computeranimatie (Toy Story) en digitale effecten in gefilmde beelden (Jurassic Park)",
+      "hints": [],
+      "solution": [
+        "Daarna volgden digitale opname en vertoning, en streaming."
+      ],
+      "topics": [
+        "digital-film"
+      ]
+    },
+    {
+      "id": "04-T04",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is het verschil tussen een echte lange take en een gesimuleerde lange take, zoals in *Birdman* (2014)?",
+      "choices": [
+        "Een echte lange take bestaat uit meerdere kleine shots",
+        "Een gesimuleerde lange take heeft geen camera",
+        "Er is geen verschil",
+        "Bij een gesimuleerde lange take worden meerdere opnamen met verborgen sneden aan elkaar gezet"
+      ],
+      "answer": "Bij een gesimuleerde lange take worden meerdere opnamen met verborgen sneden aan elkaar gezet",
+      "hints": [],
+      "solution": [
+        "Russian Ark (2002) is één opname van 96 minuten; Birdman wekt die indruk met verborgen sneden."
+      ],
+      "topics": [
+        "digital-film"
+      ]
+    },
+    {
+      "id": "04-T05",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke combinatie van film en prijs klopt?",
+      "choices": [
+        "Close-Up: Oscar voor beste buitenlandse film in 1990",
+        "Roma: Gouden Palm in Cannes in 2018",
+        "Turks fruit: Oscar voor beste film in 1974",
+        "Parasite: Gouden Palm in Cannes in 2019 en vier Oscars in 2020"
+      ],
+      "answer": "Parasite: Gouden Palm in Cannes in 2019 en vier Oscars in 2020",
+      "hints": [],
+      "solution": [
+        "Roma won de Gouden Leeuw in Venetië, niet de Gouden Palm."
+      ],
+      "topics": [
+        "world-cinema"
+      ]
+    },
+    {
+      "id": "04-T06",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Hoe lees je in een scène dat de ruimte over klasse of macht gaat?",
+      "choices": [
+        "Door de aftiteling te lezen",
+        "Door te letten op hoogte, opstelling, licht en richting van de blik, zoals bij de huizen in Parasite",
+        "Door te kijken naar de titel van de film",
+        "Door te tellen hoeveel dialoog er is"
+      ],
+      "answer": "Door te letten op hoogte, opstelling, licht en richting van de blik, zoals bij de huizen in Parasite",
+      "hints": [],
+      "solution": [
+        "Mise-en-scène draagt betekenis zonder dat iemand het hardop zegt."
+      ],
+      "topics": [
+        "film-language"
+      ]
+    },
+    {
+      "id": "04-T07",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke Nederlandse film werd een groot publieksucces en kwam in 1973 uit onder regie van Paul Verhoeven?",
+      "choices": [
+        "Karakter",
+        "Glas",
+        "Turks fruit",
+        "Fanfare"
+      ],
+      "answer": "Turks fruit",
+      "hints": [],
+      "solution": [
+        "Fanfare en Glas zijn van Haanstra (1958); Karakter van Mike van Diem (1997)."
+      ],
+      "topics": [
+        "dutch-film"
+      ]
+    },
+    {
+      "id": "04-T08",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een film van 5.760 seconden wordt vertoond. Hoeveel minuten duurt hij?",
+      "answer": 96,
+      "hints": [],
+      "solution": [
+        "$5760 / 60 = 96$ minuten."
+      ],
+      "topics": [
+        "digital-film"
+      ],
+      "unit": "min"
+    },
+    {
+      "id": "04-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke verandering bracht streaming volgens de les met zich mee?",
+      "choices": [
+        "Een terugkeer van de blokverhuur",
+        "Een verbod op films met ondertitels",
+        "Nieuwe verspreiding (altijd beschikbaar maar ook weer weg), vooraf betalen door diensten en discussie over de grens van het begrip film",
+        "Het verdwijnen van de regisseur"
+      ],
+      "answer": "Nieuwe verspreiding (altijd beschikbaar maar ook weer weg), vooraf betalen door diensten en discussie over de grens van het begrip film",
+      "hints": [],
+      "solution": [
+        "Streaming verandert verspreiding, financiering en de grens van het begrip film."
+      ],
+      "topics": [
+        "streaming"
+      ]
+    },
+    {
+      "id": "04-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom keert de vraag \"wat is een film?\" in de laatste module terug naar het begin van de cursus?",
+      "choices": [
+        "Omdat streaming de eerste Lumière-film nabootst",
+        "Omdat films nu weer stom zijn",
+        "Omdat de film is begonnen als gemeenschappelijke ervaring in een zaal en nu vaak alleen op een scherm wordt gekeken",
+        "Omdat de bioscoop volledig verdwenen is"
+      ],
+      "answer": "Omdat de film is begonnen als gemeenschappelijke ervaring in een zaal en nu vaak alleen op een scherm wordt gekeken",
+      "hints": [],
+      "solution": [
+        "De Lumières lieten betalend publiek samen kijken; nu is de zaal niet meer vanzelfsprekend."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat de bioscoop volledig verdwenen is",
+          "message": "De bioscoop bestaat nog; het gaat om het veranderende kijkgedrag."
+        }
+      ],
+      "topics": [
+        "streaming"
+      ]
+    }
+  ]
+}

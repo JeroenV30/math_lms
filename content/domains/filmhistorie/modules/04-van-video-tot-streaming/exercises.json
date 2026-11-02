@@ -1,0 +1,325 @@
+{
+  "exercises": [
+    {
+      "id": "04-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat besliste het Amerikaanse Hooggerechtshof in 1984 in de zaak *Sony v. Universal* (de Betamax-zaak)?",
+      "choices": [
+        "Dat films alleen in de bioscoop mochten worden getoond",
+        "Dat het opnemen van een televisie-uitzending om later thuis te kijken geen inbreuk op het auteursrecht is",
+        "Dat studio's geen films mochten verhuren",
+        "Dat videorecorders verboden werden"
+      ],
+      "answer": "Dat het opnemen van een televisie-uitzending om later thuis te kijken geen inbreuk op het auteursrecht is",
+      "hints": [],
+      "solution": [
+        "Met 5 tegen 4 stemmen oordeelde het Hof dat het thuis opnemen voor later kijken was toegestaan. Video werd daardoor een nieuwe inkomstenbron."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat videorecorders verboden werden",
+          "message": "Het Hof oordeelde juist dat de recorder toegestaan was."
+        }
+      ],
+      "topics": [
+        "streaming"
+      ]
+    },
+    {
+      "id": "04-002",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat is de kern van Dogme 95?",
+      "choices": [
+        "Een Hollywoodstandaard voor kleurenfilm",
+        "Een manifest met tien regels voor films met lichte apparatuur op locatie, zonder meegebracht decor of belichting",
+        "Een reeks studiotechnieken voor speciale effecten",
+        "Een regel dat films maximaal 60 minuten mogen duren"
+      ],
+      "answer": "Een manifest met tien regels voor films met lichte apparatuur op locatie, zonder meegebracht decor of belichting",
+      "hints": [],
+      "solution": [
+        "De Deense regisseurs Von Trier en Vinterberg presenteerden in 1995 een gelofte van kuisheid. Festen (1998) was de eerste film onder die regels."
+      ],
+      "feedback": [
+        {
+          "answer": "Een reeks studiotechnieken voor speciale effecten",
+          "message": "Dogme 95 was juist een beperking tot het eenvoudigste: handcamera, locatie, geen effecten."
+        }
+      ],
+      "topics": [
+        "digital-film"
+      ]
+    },
+    {
+      "id": "04-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat is *Toy Story* (1995) in de filmgeschiedenis?",
+      "choices": [
+        "De eerste lange speelfilm die geheel met de computer werd geanimeerd",
+        "De eerste film die op locatie werd opgenomen",
+        "De eerste film in kleur",
+        "De eerste film met geluid"
+      ],
+      "answer": "De eerste lange speelfilm die geheel met de computer werd geanimeerd",
+      "hints": [],
+      "solution": [
+        "Toy Story werd door Pixar gemaakt (regie John Lasseter) en door Disney gedistribueerd."
+      ],
+      "feedback": [
+        {
+          "answer": "De eerste film in kleur",
+          "message": "Kleurenfilm bestond al lang; Toy Story was de eerste volledig computergeanimeerde lange film."
+        }
+      ],
+      "topics": [
+        "digital-film"
+      ]
+    },
+    {
+      "id": "04-004",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat maakte de lange opname van 96 minuten in *Russian Ark* (2002) technisch mogelijk?",
+      "choices": [
+        "Dat de opname digitaal op een harde schijf werd opgeslagen in plaats van op filmrollen van ongeveer elf minuten",
+        "Dat er geen camera nodig was",
+        "Dat de film in een studio werd nagemaakt",
+        "Dat er veel kleine sneden werden verborgen"
+      ],
+      "answer": "Dat de opname digitaal op een harde schijf werd opgeslagen in plaats van op filmrollen van ongeveer elf minuten",
+      "hints": [],
+      "solution": [
+        "Een 35 mm-rol loopt ongeveer elf minuten; digitale opslag kan een veel langere opname vastleggen."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat er veel kleine sneden werden verborgen",
+          "message": "Dat is de techniek van een gesimuleerde lange take, zoals in Birdman; Russian Ark is één echte opname."
+        }
+      ],
+      "topics": [
+        "digital-film"
+      ]
+    },
+    {
+      "id": "04-005",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat is het bijzondere van *Parasite* (2019) in de geschiedenis van de Oscars?",
+      "choices": [
+        "Het was de eerste animatiefilm die won",
+        "Het was de eerste Nederlandse film die won",
+        "Het was de eerste niet-Engelstalige film die de Oscar voor beste film won",
+        "Het was de eerste stomme film die won"
+      ],
+      "answer": "Het was de eerste niet-Engelstalige film die de Oscar voor beste film won",
+      "hints": [],
+      "solution": [
+        "Parasite won in 2020 vier Oscars, waaronder die voor beste film en beste regie."
+      ],
+      "topics": [
+        "world-cinema"
+      ]
+    },
+    {
+      "id": "04-006",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke film van Abbas Kiarostami won in 1997 de Gouden Palm in Cannes?",
+      "choices": [
+        "In the Mood for Love",
+        "Close-Up",
+        "Taste of Cherry",
+        "A Separation"
+      ],
+      "answer": "Taste of Cherry",
+      "hints": [],
+      "solution": [
+        "Close-Up is een eerdere film van Kiarostami uit 1990; A Separation is van Farhadi; In the Mood for Love van Wong Kar-wai."
+      ],
+      "topics": [
+        "world-cinema"
+      ]
+    },
+    {
+      "id": "04-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke Nederlandse film won in 1960 een Oscar voor de beste korte documentaire?",
+      "choices": [
+        "Turks fruit van Paul Verhoeven",
+        "Karakter van Mike van Diem",
+        "Glas van Bert Haanstra",
+        "Antonia van Marleen Gorris"
+      ],
+      "answer": "Glas van Bert Haanstra",
+      "hints": [],
+      "solution": [
+        "Glas (1958) kreeg in 1960 een Oscar. Antonia (Oscar in 1996) en Karakter (1998) wonnen in de categorie buitenlandstalige film."
+      ],
+      "feedback": [
+        {
+          "answer": "Antonia van Marleen Gorris",
+          "message": "Antonia won een Oscar voor de beste buitenlandstalige film, in 1996."
+        }
+      ],
+      "topics": [
+        "dutch-film"
+      ]
+    },
+    {
+      "id": "04-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom zorgde *Roma* (2018) voor discussie over de vraag wat een film is?",
+      "choices": [
+        "Omdat de film door Netflix werd gemaakt en nauwelijks in de bioscoop draaide, maar wel grote filmprijzen won",
+        "Omdat de film geen regisseur had",
+        "Omdat de film geen geluid had",
+        "Omdat de film in 3D was opgenomen"
+      ],
+      "answer": "Omdat de film door Netflix werd gemaakt en nauwelijks in de bioscoop draaide, maar wel grote filmprijzen won",
+      "hints": [],
+      "solution": [
+        "Roma won de Gouden Leeuw in Venetië en een Oscar voor beste regie. Festivals en de Academy bleven bioscooprelease als voorwaarde stellen."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat de film geen geluid had",
+          "message": "Roma heeft geluid; de discussie ging over de verspreiding."
+        }
+      ],
+      "topics": [
+        "streaming"
+      ]
+    },
+    {
+      "id": "04-009",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "Betamax-uitspraak van het Hooggerechtshof",
+        "Dogme 95-manifest",
+        "Toy Story",
+        "Eerste streaming van Netflix",
+        "Parasite wint de Oscar voor beste film"
+      ],
+      "hints": [],
+      "solution": [
+        "1984, 1995 (maart), 1995 (november), 2007, 2020."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "Betamax-uitspraak van het Hooggerechtshof",
+            "Toy Story",
+            "Dogme 95-manifest",
+            "Eerste streaming van Netflix",
+            "Parasite wint de Oscar voor beste film"
+          ],
+          "message": "Het Dogme-manifest dateert van maart 1995, Toy Story van november 1995."
+        }
+      ],
+      "topics": [
+        "streaming"
+      ]
+    },
+    {
+      "id": "04-010",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "In *Parasite* wonen de Kims in een kelderwoning en de Parks in een huis op een heuvel. Wat laat de film daarmee zien, zonder dialoog?",
+      "choices": [
+        "Dat de Parks bang zijn voor water",
+        "Dat de film in de zomer speelt",
+        "Dat de Kims graag buiten wonen",
+        "Hoogte in de ruimte als beeld van klasse: wie hoog woont, staat boven wie laag woont"
+      ],
+      "answer": "Hoogte in de ruimte als beeld van klasse: wie hoog woont, staat boven wie laag woont",
+      "hints": [],
+      "solution": [
+        "De ruimte vertelt het verhaal: de afdaling in de regennacht herhaalt het onderscheid tussen boven en beneden in beweging."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat de Kims graag buiten wonen",
+          "message": "Een kelderwoning staat in de film voor lage positie, niet voor een voorkeur."
+        }
+      ],
+      "topics": [
+        "film-language"
+      ]
+    },
+    {
+      "id": "04-011",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat bedoel je met mise-en-scène?",
+      "choices": [
+        "De volgorde van de tussentitels",
+        "Uitsluitend de montage van de shots",
+        "Alles wat in het kader staat en is gekozen: ruimte, decor, licht, kleding en opstelling van de personen",
+        "Het geluid van de film"
+      ],
+      "answer": "Alles wat in het kader staat en is gekozen: ruimte, decor, licht, kleding en opstelling van de personen",
+      "hints": [],
+      "solution": [
+        "Mise-en-scène gaat over wat voor de camera staat, niet over wat er achteraf mee gebeurt."
+      ],
+      "feedback": [
+        {
+          "answer": "Uitsluitend de montage van de shots",
+          "message": "Montage gaat over de volgorde van shots; mise-en-scène over de inhoud van het kader."
+        }
+      ],
+      "topics": [
+        "film-language"
+      ]
+    },
+    {
+      "id": "04-012",
+      "type": "numeric",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Een digitale film bevat in totaal 108.000 beeldjes en wordt met 24 beeldjes per seconde vertoond. Hoeveel minuten duurt hij?",
+      "answer": 75,
+      "hints": [
+        "Bereken eerst het aantal seconden: $108000 / 24$.",
+        "Deel het aantal seconden door 60."
+      ],
+      "solution": [
+        "$108000 / 24 = 4500$ seconden.",
+        "$4500 / 60 = 75$ minuten."
+      ],
+      "feedback": [
+        {
+          "answer": 4500,
+          "message": "Dat is de duur in seconden. De vraag is naar minuten."
+        },
+        {
+          "answer": 1800,
+          "message": "Je hebt gedeeld door 60 in plaats van door 24 en daarna door 60."
+        }
+      ],
+      "topics": [
+        "digital-film"
+      ],
+      "unit": "min"
+    }
+  ]
+}

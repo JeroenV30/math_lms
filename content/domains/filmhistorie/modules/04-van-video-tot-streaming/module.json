@@ -3,9 +3,9 @@
   "slug": "van-video-tot-streaming",
   "title": "Van video tot streaming",
   "part": 2,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 3,
-  "estimated_minutes": 100,
+  "estimated_minutes": 110,
   "prerequisites": [
     3
   ],
@@ -17,5 +17,107 @@
   ],
   "core_question": "Hoe veranderen digitale techniek en streaming wat een film is en hoe we kijken?",
   "summary": "Video en de huiskamer, onafhankelijke film en festivals, digitale camera's en computeranimatie, wereldcinema (Hongkong, Iran, Zuid-Korea), de Nederlandse film van Haanstra en Verhoeven tot nu, en streamingdiensten.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een gelofte van kuisheid",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "video-festivals-en-digitaal",
+      "title": "Video, festivals en digitale beelden",
+      "file": "02-video-festivals-en-digitaal.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "wereldcinema-nederland-en-streaming",
+      "title": "Wereldcinema, de Nederlandse film en streaming",
+      "file": "03-wereldcinema-nederland-en-streaming.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "practicum-parasite",
+      "title": "Filmanalysepracticum: de afdaling in Parasite",
+      "file": "04-practicum-parasite.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en toets",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen hoe video (Betamax-uitspraak 1984) en dvd de manier van filmkijken en de economie van de film veranderden.",
+    "Je kunt de rol van onafhankelijke film en festivals (Sundance, Cannes, Rotterdam) beschrijven.",
+    "Je kunt de stappen van digitale beeldvorming (Toy Story, digitale effecten, digitale opname, lange take) benoemen en het manifest Dogme 95 plaatsen.",
+    "Je kunt de film van Hongkong, Iran en Zuid-Korea en de Nederlandse film (Haanstra, Verhoeven, Oscars) kenmerken.",
+    "Je kunt beschrijven hoe streaming verspreiding, financiering en het begrip film verandert.",
+    "Je kunt een scène lezen op mise-en-scène, met hoogte en ruimte als betekenisdrager."
+  ],
+  "glossary": [
+    {
+      "term": "Videorecorder",
+      "definition": "Een apparaat om televisie op te nemen en films af te spelen, vanaf 1975 (Betamax) en 1976 (VHS) op de markt."
+    },
+    {
+      "term": "Onafhankelijke film",
+      "definition": "Film gemaakt buiten de grote maatschappijen, vaak met een klein budget en via festivals verspreid."
+    },
+    {
+      "term": "Festival",
+      "definition": "Een evenement waar films worden vertoond, besproken en verkocht, zoals Cannes, Sundance en Rotterdam."
+    },
+    {
+      "term": "Computeranimatie",
+      "definition": "Animatie waarbij elk beeld door een computer wordt berekend, voor het eerst in een lange film met Toy Story (1995)."
+    },
+    {
+      "term": "Digitale cinema",
+      "definition": "Film die digitaal wordt opgenomen, bewerkt en vertoond in plaats van op celluloid."
+    },
+    {
+      "term": "Lange take",
+      "definition": "Een shot dat ongewoon lang doorloopt zonder snede."
+    },
+    {
+      "term": "Dogme 95",
+      "definition": "Manifest van Von Trier en Vinterberg (1995) met tien regels voor films met lichte camera op locatie, zonder meegebracht decor of belichting."
+    },
+    {
+      "term": "Wereldcinema",
+      "definition": "Film uit landen buiten de Hollywoodtraditie, met eigen stijlen en kringlopen."
+    },
+    {
+      "term": "Streaming",
+      "definition": "Het via internet bekijken van films en series zonder een fysieke drager."
+    },
+    {
+      "term": "Mise-en-scène",
+      "definition": "Alles wat in het kader staat en gekozen is: ruimte, decor, licht, kleding en opstelling van de personen."
+    }
+  ],
+  "timeline": [
+    "iffr-oprichting-1972",
+    "haanstra-glas-oscar-1960",
+    "turks-fruit-1973",
+    "sundance-instituut-1981",
+    "betamax-zaak-1984",
+    "dogme-95-gelofte-1995",
+    "toy-story-1995",
+    "antonia-oscar-1996",
+    "netflix-streaming-2007",
+    "parasite-oscars-2020"
+  ],
+  "people": [
+    "bert-haanstra",
+    "paul-verhoeven",
+    "lars-von-trier",
+    "john-lasseter",
+    "abbas-kiarostami",
+    "bong-joon-ho",
+    "marleen-gorris"
+  ]
 }

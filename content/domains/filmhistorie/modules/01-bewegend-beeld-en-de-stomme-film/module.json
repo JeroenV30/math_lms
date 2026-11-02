@@ -3,9 +3,9 @@
   "slug": "bewegend-beeld-en-de-stomme-film",
   "title": "Bewegend beeld en de stomme film",
   "part": 1,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 2,
-  "estimated_minutes": 100,
+  "estimated_minutes": 115,
   "prerequisites": [],
   "topics": [
     "film-language",
@@ -15,5 +15,107 @@
   ],
   "core_question": "Hoe werd een technische attractie in dertig jaar een kunstvorm met een eigen taal?",
   "summary": "Voorlopers (Muybridge, Edison), de gebroeders Lumière en Méliès, de ontdekking van montage en filmtaal (Griffith, Koelesjov, Eisenstein), het Duitse expressionisme, de slapstick van Chaplin en Keaton, en de basisbegrippen shot, kader en montage.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een fabriekspoort in Lyon",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "voorlopers-en-eerste-vertoningen",
+      "title": "Van paardenrace tot Grand Café",
+      "file": "02-voorlopers-en-de-eerste-vertoningen.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "trucage-vertelling-en-montage",
+      "title": "Trucage, vertelling en montage",
+      "file": "03-trucage-vertelling-en-montage.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "practicum-trap-van-odessa",
+      "title": "Filmanalysepracticum: de trap van Odessa",
+      "file": "04-practicum-trap-van-odessa.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en toets",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen hoe Muybridge, Edison en Dickson en de Lumières beweging opnamen en vertoonden, en waarom 28 december 1895 als begin van de bioscoop geldt.",
+    "Je kunt het verschil benoemen tussen het cinema of attractions (Méliès, de vroege film) en de vertelmontage van Griffith.",
+    "Je kunt de begrippen kader, shot, shotgrootte, montage en tussentitel gebruiken om een fragment te beschrijven.",
+    "Je kunt het Koelesjov-effect en Eisensteins intellectuele montage uitleggen en in een scène herkennen.",
+    "Je kunt een korte scène shot voor shot lezen op shotgrootte, hoek, beweging, duur en montage.",
+    "Je kunt de kenmerken van het Duitse expressionisme en de slapstick van Chaplin en Keaton benoemen."
+  ],
+  "glossary": [
+    {
+      "term": "Kader",
+      "definition": "Het rechthoekige beeld zoals het door de randen wordt begrensd; wat erbinnen valt, ziet de kijker."
+    },
+    {
+      "term": "Shot",
+      "definition": "De ononderbroken opname tussen twee sneden."
+    },
+    {
+      "term": "Shotgrootte",
+      "definition": "Hoeveel van een persoon of ruimte in het kader staat, van grote totaal tot extreme close-up."
+    },
+    {
+      "term": "Montage",
+      "definition": "Het kiezen, ordenen en aan elkaar zetten van shots tot een scène of film."
+    },
+    {
+      "term": "Parallelmontage",
+      "definition": "Montage die afwisselt tussen twee gelijktijdige gebeurtenissen op verschillende plaatsen."
+    },
+    {
+      "term": "Tussentitel",
+      "definition": "Een tekst die tussen twee shots van een stomme film wordt getoond, voor dialoog of uitleg."
+    },
+    {
+      "term": "Cinema of attractions",
+      "definition": "Term van Gunning en Gaudreault voor de vroege film, die vooral wilde tonen en verbazen in plaats van een verhaal te vertellen."
+    },
+    {
+      "term": "Koelesjov-effect",
+      "definition": "Het verschijnsel dat de betekenis van een shot mede wordt bepaald door de shots ervoor en erna."
+    },
+    {
+      "term": "Expressionisme",
+      "definition": "Stroming die de innerlijke wereld toont met vervormde decors en sterke licht-donkercontrasten."
+    },
+    {
+      "term": "Slapstick",
+      "definition": "Komedie die draait op lichamelijke stunts, valpartijen en achtervolgingen."
+    }
+  ],
+  "timeline": [
+    "muybridge-paard-in-beweging-1878",
+    "edison-kinetoscoopzaal-1894",
+    "lumiere-eerste-vertoning-1895",
+    "melies-voyage-dans-la-lune-1902",
+    "griffith-birth-of-a-nation-1915",
+    "koelesjov-experiment-1920",
+    "caligari-1920",
+    "potemkin-1925",
+    "chaplin-gold-rush-1925"
+  ],
+  "people": [
+    "eadweard-muybridge",
+    "thomas-edison",
+    "louis-lumiere",
+    "georges-melies",
+    "d-w-griffith",
+    "lev-koelesjov",
+    "sergej-eisenstein",
+    "charlie-chaplin"
+  ]
 }

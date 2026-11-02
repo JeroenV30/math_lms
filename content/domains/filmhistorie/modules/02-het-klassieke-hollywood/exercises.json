@@ -1,0 +1,332 @@
+{
+  "exercises": [
+    {
+      "id": "02-001",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat was het bijzondere aan *The Jazz Singer* (1927)?",
+      "choices": [
+        "Het was een volledig gesproken speelfilm van twee uur",
+        "Het was een bijna stomme film waarin liedjes en een paar zinnen gesynchroniseerd klonken, met het Vitaphone-systeem",
+        "Het was de eerste film die met geluid op het filmstrookje zelf werd opgenomen",
+        "Het was de eerste film ooit met kleur en geluid"
+      ],
+      "answer": "Het was een bijna stomme film waarin liedjes en een paar zinnen gesynchroniseerd klonken, met het Vitaphone-systeem",
+      "hints": [],
+      "solution": [
+        "De Jazz Singer had vooral muziek en slechts enkele gesproken momenten; het geluid kwam van grammofoonplaten (Vitaphone). De eerste vrijwel geheel gesproken speelfilm was *Lights of New York* (1928)."
+      ],
+      "feedback": [
+        {
+          "answer": "Het was een volledig gesproken speelfilm van twee uur",
+          "message": "Dat is later: *Lights of New York* (1928) was de eerste vrijwel volledig gesproken speelfilm."
+        },
+        {
+          "answer": "Het was de eerste film die met geluid op het filmstrookje zelf werd opgenomen",
+          "message": "Dat is het Movietone-systeem van Fox; Warner gebruikte voor The Jazz Singer grammofoonplaten."
+        }
+      ],
+      "topics": [
+        "sound-film"
+      ]
+    },
+    {
+      "id": "02-002",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een scène duurt 20 seconden. Hoeveel beeldjes bevat ze bij de geluidsnorm van 24 beeldjes per seconde?",
+      "answer": 480,
+      "hints": [
+        "Duur maal snelheid."
+      ],
+      "solution": [
+        "$20 \\times 24 = 480$ beeldjes."
+      ],
+      "feedback": [
+        {
+          "answer": 320,
+          "message": "Dat is de uitkomst bij 16 beeldjes per seconde, de snelheid van de stomme film. Hier is de norm 24."
+        },
+        {
+          "answer": 44,
+          "message": "Je hebt opgeteld in plaats van vermenigvuldigd."
+        }
+      ],
+      "topics": [
+        "sound-film"
+      ]
+    },
+    {
+      "id": "02-003",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat betekent het dat de grote Hollywoodmaatschappijen \"verticaal geïntegreerd\" waren?",
+      "choices": [
+        "Ze maakten films uitsluitend in één genre",
+        "Ze beheersten productie, distributie en vertoning (eigen bioscopen)",
+        "Ze maakten alleen films in hoge gebouwen",
+        "Ze werkten samen met overheidsinstanties voor censuur"
+      ],
+      "answer": "Ze beheersten productie, distributie en vertoning (eigen bioscopen)",
+      "hints": [],
+      "solution": [
+        "Verticaal wil zeggen: alle schakelen tussen maker en kijker in één hand, dus ook de bioscopen."
+      ],
+      "feedback": [
+        {
+          "answer": "Ze werkten samen met overheidsinstanties voor censuur",
+          "message": "De Production Code was zelfcensuur van de sector zelf, en staat los van de organisatiestructuur."
+        }
+      ],
+      "topics": [
+        "studio-system"
+      ]
+    },
+    {
+      "id": "02-004",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een film vertelt de opkomst en val van een misdadiger in een grote stad en eindigt dat hij door de politie wordt neergeschoten. Tot welk genre hoort deze film het meest?",
+      "choices": [
+        "Gangsterfilm",
+        "Musical",
+        "Screwball-komedie",
+        "Western"
+      ],
+      "answer": "Gangsterfilm",
+      "hints": [],
+      "solution": [
+        "De opkomst en val van een misdadiger in de stad is het basismodel van de gangsterfilm, bijvoorbeeld *Little Caesar* (1931). Dat hij doodgaat past ook bij de Production Code: misdaad mag niet lonen."
+      ],
+      "feedback": [
+        {
+          "answer": "Western",
+          "message": "Een western speelt in het Amerikaanse Westen en draait om wet en wetteloosheid."
+        }
+      ],
+      "topics": [
+        "genre"
+      ]
+    },
+    {
+      "id": "02-005",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze gebeurtenissen in chronologische volgorde, de oudste eerst.",
+      "answer": [
+        "The Jazz Singer",
+        "De Production Code wordt aangenomen",
+        "De Production Code Administration gaat strikt toezien",
+        "Stagecoach",
+        "Citizen Kane"
+      ],
+      "hints": [],
+      "solution": [
+        "1927, 1930, 1934, 1939, 1941."
+      ],
+      "feedback": [
+        {
+          "answer": [
+            "The Jazz Singer",
+            "De Production Code wordt aangenomen",
+            "De Production Code Administration gaat strikt toezien",
+            "Citizen Kane",
+            "Stagecoach"
+          ],
+          "message": "Stagecoach is van 1939, Citizen Kane van 1941."
+        }
+      ],
+      "topics": [
+        "studio-system"
+      ]
+    },
+    {
+      "id": "02-006",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is de 180-gradenregel?",
+      "choices": [
+        "De camera blijft aan één kant van de denkbeeldige lijn tussen de personen, zodat links en rechts in de shots kloppen",
+        "De camera mag nooit meer dan 180 graden draaien in één shot",
+        "Elke scène mag maximaal 180 seconden duren",
+        "Elke scène moet uit minstens twee shots van 180 beeldjes bestaan"
+      ],
+      "answer": "De camera blijft aan één kant van de denkbeeldige lijn tussen de personen, zodat links en rechts in de shots kloppen",
+      "hints": [],
+      "solution": [
+        "De as loopt tussen de personen. Blijft de camera aan één kant, dan blijft A links en B rechts."
+      ],
+      "feedback": [
+        {
+          "answer": "Elke scène mag maximaal 180 seconden duren",
+          "message": "Het gaat om de plaats van de camera ten opzichte van de personen, niet om duur."
+        }
+      ],
+      "topics": [
+        "continuity-editing"
+      ]
+    },
+    {
+      "id": "02-007",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Twee personen praten. In shot 1 staat A links en B rechts. In shot 2 staat de camera aan de andere kant van de as. Wat ziet de kijker?",
+      "choices": [
+        "Niets bijzonders: de kijker merkt het niet",
+        "A en B lijken van plaats te wisselen, en de kijker raakt de oriëntatie even kwijt",
+        "De scène lijkt nu in een andere stad te spelen",
+        "A en B lijken sneller te praten"
+      ],
+      "answer": "A en B lijken van plaats te wisselen, en de kijker raakt de oriëntatie even kwijt",
+      "hints": [],
+      "solution": [
+        "Het oversteken van de as keert links en rechts om, en daarmee de kijkrichting van de personen."
+      ],
+      "feedback": [
+        {
+          "answer": "Niets bijzonders: de kijker merkt het niet",
+          "message": "Juist het oversteken van de as valt op: de personen lijken te wisselen."
+        }
+      ],
+      "topics": [
+        "continuity-editing"
+      ]
+    },
+    {
+      "id": "02-008",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Bij een eyeline match kijkt een personage in shot 1 naar rechts buiten beeld. Wat volgt in shot 2?",
+      "choices": [
+        "Het object waar het personage naar kijkt, met de richting van het personage uit shot 1 als kijkrichting",
+        "Altijd een totaalshot van de hele ruimte",
+        "Een shot van een willekeurig ander personage",
+        "Een tussentitel met de tekst van de gedachte"
+      ],
+      "answer": "Het object waar het personage naar kijkt, met de richting van het personage uit shot 1 als kijkrichting",
+      "hints": [],
+      "solution": [
+        "Shot 2 toont wat het personage ziet; de richting van de blik legt de plaats ervan in de ruimte vast."
+      ],
+      "topics": [
+        "continuity-editing"
+      ]
+    },
+    {
+      "id": "02-009",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarmee onderscheidt het Italiaanse neorealisme (zoals *Ladri di biciclette*) zich van het Hollywoodstudiomodel?",
+      "choices": [
+        "Het gebruik van tussentitels",
+        "Opnamen op locatie in straten, vaak met niet-professionele spelers en een bescheiden verhaal",
+        "Een vaste genreformule met een gelukkige afloop",
+        "Dure studiodecors en grote sterren"
+      ],
+      "answer": "Opnamen op locatie in straten, vaak met niet-professionele spelers en een bescheiden verhaal",
+      "hints": [],
+      "solution": [
+        "Het neorealisme ging op straat met gewone mensen. Het verhaal ging over alledaagse problemen, zoals een man die zijn fiets nodig heeft om werk te houden."
+      ],
+      "feedback": [
+        {
+          "answer": "Dure studiodecors en grote sterren",
+          "message": "Dat is juist kenmerkend voor Hollywood; het neorealisme koos locatie en gewone mensen."
+        }
+      ],
+      "topics": [
+        "world-cinema"
+      ]
+    },
+    {
+      "id": "02-010",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is het kenmerk van *Rashomon* (1950) van Kurosawa?",
+      "choices": [
+        "Het is een musical over een samoerai",
+        "Het is de eerste Japanse geluidsfilm",
+        "Het is een stomme film met tussentitels",
+        "Dezelfde gebeurtenis wordt door meerdere getuigen verteld, met verschillende versies"
+      ],
+      "answer": "Dezelfde gebeurtenis wordt door meerdere getuigen verteld, met verschillende versies",
+      "hints": [],
+      "solution": [
+        "Rashomon toont vier tegenstrijdige verhalen over één voorval. Het won in 1951 de Gouden Leeuw in Venetië."
+      ],
+      "feedback": [
+        {
+          "answer": "Het is de eerste Japanse geluidsfilm",
+          "message": "De Japanse geluidsfilm is veel ouder; Rashomon werd om zijn vertelwijze beroemd."
+        }
+      ],
+      "topics": [
+        "world-cinema"
+      ]
+    },
+    {
+      "id": "02-011",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat bedoel je met diepe scherpte (deep focus) in *Citizen Kane*?",
+      "choices": [
+        "Voorgrond, middenplan en achtergrond zijn tegelijk scherp in beeld",
+        "De camera zoomt in op een detail",
+        "Alleen de achtergrond is scherp",
+        "Het beeld is erg donker"
+      ],
+      "answer": "Voorgrond, middenplan en achtergrond zijn tegelijk scherp in beeld",
+      "hints": [],
+      "solution": [
+        "Met een klein diafragma en veel licht bleven alle afstanden scherp, zodat Welles in één kader meerdere lagen van handeling kon tonen."
+      ],
+      "feedback": [
+        {
+          "answer": "Alleen de achtergrond is scherp",
+          "message": "Bij diepe scherpte zijn álle afstanden scherp, niet alleen de achtergrond."
+        }
+      ],
+      "topics": [
+        "film-language"
+      ]
+    },
+    {
+      "id": "02-012",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "In de scène van het contract in *Citizen Kane* speelt de jonge Charles op de achtergrond buiten het raam, terwijl binnen over hem wordt beslist. Wat laat die opstelling in één shot zien?",
+      "choices": [
+        "Dat het buiten sneeuwt",
+        "Dat het kind geen stem heeft in de beslissing over zijn eigen leven, in hetzelfde beeld als de beslissers",
+        "Dat de film niet wordt gemonteerd",
+        "Dat de ouders niet van hun kind houden"
+      ],
+      "answer": "Dat het kind geen stem heeft in de beslissing over zijn eigen leven, in hetzelfde beeld als de beslissers",
+      "hints": [],
+      "solution": [
+        "De compositie laat de beslissing en degene over wie beslist wordt tegelijk zien. Dat is wat een shot/tegenshot niet tegelijk kan."
+      ],
+      "feedback": [
+        {
+          "answer": "Dat de ouders niet van hun kind houden",
+          "message": "Dat is een interpretatie die uit het beeld zelf niet volgt; het beeld laat zien dat hij erbuiten staat."
+        }
+      ],
+      "topics": [
+        "film-language"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Arial, sans-serif" font-size="14">
+<title>Plattegrond van de 180-gradenregel: twee personen, de as en camerastandpunten</title>
+<rect width="640" height="380" fill="#ffffff"/>
+<rect x="20" y="20" width="600" height="168" fill="#fbf3e8"/>
+<text x="320" y="42" text-anchor="middle" fill="#9c6b30" font-weight="bold">Verboden zijde: hier steekt de camera de as over</text>
+<line x1="60" y1="188" x2="580" y2="188" stroke="#1f2933" stroke-width="2.5" stroke-dasharray="9 6"/>
+<text x="580" y="178" text-anchor="end" fill="#1f2933" font-size="12">de as</text>
+<circle cx="220" cy="188" r="20" fill="#3b5bdb"/>
+<text x="220" y="194" text-anchor="middle" fill="#ffffff" font-weight="bold">A</text>
+<circle cx="420" cy="188" r="20" fill="#3b5bdb"/>
+<text x="420" y="194" text-anchor="middle" fill="#ffffff" font-weight="bold">B</text>
+<g fill="#1f2933" stroke="#1f2933">
+<polygon points="320,260 304,296 336,296"/>
+<polygon points="170,300 154,336 186,336" transform="rotate(35 170 318)"/>
+<polygon points="470,300 454,336 486,336" transform="rotate(-35 470 318)"/>
+</g>
+<g font-size="12" fill="#1f2933">
+<text x="320" y="320" text-anchor="middle">1 totaal</text>
+<text x="132" y="330" text-anchor="end">2 over de schouder van A</text>
+<text x="508" y="330">3 over de schouder van B</text>
+</g>
+<g stroke="#3b5bdb" stroke-width="1.5" fill="none"><line x1="170" y1="304" x2="214" y2="206"/><line x1="470" y1="304" x2="426" y2="206"/><line x1="320" y1="262" x2="226" y2="206"/><line x1="320" y1="262" x2="414" y2="206"/></g>
+<text x="320" y="364" text-anchor="middle" fill="#1f2933" font-size="12">Alle camera's staan aan dezelfde kant van de as: A blijft links in beeld, B rechts.</text>
+</svg>

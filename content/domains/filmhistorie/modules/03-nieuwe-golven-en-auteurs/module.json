@@ -3,9 +3,9 @@
   "slug": "nieuwe-golven-en-auteurs",
   "title": "Nieuwe golven en auteurs",
   "part": 2,
-  "status": "planned",
+  "status": "available",
   "estimated_difficulty": 3,
-  "estimated_minutes": 100,
+  "estimated_minutes": 110,
   "prerequisites": [
     2
   ],
@@ -16,5 +16,108 @@
   ],
   "core_question": "Wat betekent het dat een regisseur de 'auteur' van een film is?",
   "summary": "De auteurstheorie van de Cahiers du cinéma, de Nouvelle Vague (Truffaut, Godard), Europese auteurs (Bergman, Fellini, Antonioni), het einde van het studiosysteem, New Hollywood, en de geboorte van de blockbuster met Jaws en Star Wars.",
-  "lessons": []
+  "lessons": [
+    {
+      "slug": "introductie",
+      "title": "Een autorit met sprongen",
+      "file": "01-introductie.md",
+      "kind": "intro"
+    },
+    {
+      "slug": "cahiers-en-nouvelle-vague",
+      "title": "De auteurstheorie en de Nouvelle Vague",
+      "file": "02-cahiers-en-nouvelle-vague.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "new-hollywood-en-blockbuster",
+      "title": "Het einde van het studiosysteem, New Hollywood en de blockbuster",
+      "file": "03-new-hollywood-en-blockbuster.md",
+      "kind": "theory"
+    },
+    {
+      "slug": "practicum-de-doop",
+      "title": "Filmanalysepracticum: de doop in The Godfather",
+      "file": "04-practicum-de-doop.md",
+      "kind": "practice"
+    },
+    {
+      "slug": "samenvatting",
+      "title": "Samenvatting en toets",
+      "file": "05-samenvatting.md",
+      "kind": "summary"
+    }
+  ],
+  "learning_goals": [
+    "Je kunt uitleggen wat de politique des auteurs en de auteurstheorie inhouden, wie ze formuleerden (Bazin, Truffaut, Sarris) en welke bezwaren erbij horen.",
+    "Je kunt de Nouvelle Vague plaatsen en kenmerken noemen: lichte apparatuur, opnamen op locatie, zichtbare montage en de jump cut.",
+    "Je kunt de Europese auteursfilm van Bergman, Fellini en Antonioni onderscheiden van het studiomodel.",
+    "Je kunt verklaren waarom het studiosysteem na 1948 uiteenviel (Paramount-uitspraak, televisie) en wat New Hollywood kenmerkte.",
+    "Je kunt de blockbuster (Jaws, Star Wars) beschrijven als een nieuw bedrijfsmodel.",
+    "Je kunt een scène lezen op montage en geluid, het tempo van een montage uitrekenen en een regisseur herkennen aan een patroon in zijn keuzes."
+  ],
+  "glossary": [
+    {
+      "term": "Auteur",
+      "definition": "De regisseur gezien als maker van een film, met een herkenbare persoonlijke stijl en terugkerende thema's."
+    },
+    {
+      "term": "Politique des auteurs",
+      "definition": "De opvatting van de Cahiers-critici in de jaren vijftig dat de regisseur de eigenlijke maker van een film is."
+    },
+    {
+      "term": "Nouvelle Vague",
+      "definition": "De Franse stroming van rond 1959 van jonge regisseurs, vaak oud-critici, met lichte apparatuur en persoonlijke films."
+    },
+    {
+      "term": "Jump cut",
+      "definition": "Een snede binnen dezelfde opstelling waarin een stuk tijd ontbreekt, zodat het beeld zichtbaar springt."
+    },
+    {
+      "term": "Freeze frame",
+      "definition": "Een stilgezet beeld, bijvoorbeeld aan het eind van een film."
+    },
+    {
+      "term": "Arthouse",
+      "definition": "Films die een persoonlijke, vaak ambigue stijl nastreven en buiten het gangbare genremodel vallen."
+    },
+    {
+      "term": "New Hollywood",
+      "definition": "De Amerikaanse stroming van ongeveer 1967 tot 1980 met regisseurs die veel creatieve vrijheid kregen en genres een persoonlijke, ambivalente toon gaven."
+    },
+    {
+      "term": "Blockbuster",
+      "definition": "Een film die als groot evenement met brede release en een grote campagne veel kijkers in korte tijd trekt."
+    },
+    {
+      "term": "Kijkwijzer",
+      "definition": "Een systeem van leeftijdscategorieën dat in 1968 in de VS de Production Code verving."
+    },
+    {
+      "term": "Kruismontage",
+      "definition": "Montage die afwisselt tussen twee gelijktijdige gebeurtenissen; ook parallelmontage genoemd."
+    }
+  ],
+  "timeline": [
+    "paramount-zaak-1948",
+    "cahiers-du-cinema-1951",
+    "truffaut-artikel-1954",
+    "quatre-cents-coups-1959",
+    "a-bout-de-souffle-1960",
+    "bonnie-and-clyde-1967",
+    "kijkwijzer-mpaa-1968",
+    "godfather-1972",
+    "jaws-1975",
+    "star-wars-1977"
+  ],
+  "people": [
+    "andre-bazin",
+    "francois-truffaut",
+    "jean-luc-godard",
+    "ingmar-bergman",
+    "federico-fellini",
+    "francis-ford-coppola",
+    "steven-spielberg",
+    "george-lucas"
+  ]
 }

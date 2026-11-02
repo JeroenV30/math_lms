@@ -1,0 +1,216 @@
+{
+  "title": "Hoofdstuktoets – Het klassieke Hollywood",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "02-T01",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welk systeem gebruikte Warner voor de geluidssynchronisatie in *The Jazz Singer*?",
+      "choices": [
+        "Een opgenomen tussentitel",
+        "Vitaphone, met grammofoonplaten die synchroon met de projector draaiden",
+        "Een orkest in de bioscoop",
+        "Movietone, met een lichtspoor op de film"
+      ],
+      "answer": "Vitaphone, met grammofoonplaten die synchroon met de projector draaiden",
+      "hints": [],
+      "solution": [
+        "Vitaphone was sound-on-disc. Het concurrerende Movietone van Fox (geluid op de filmstrook) werd uiteindelijk de norm."
+      ],
+      "topics": [
+        "sound-film"
+      ]
+    },
+    {
+      "id": "02-T02",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Een scène bevat 360 beeldjes en wordt afgespeeld met 24 beeldjes per seconde. Hoeveel seconden duurt de scène?",
+      "answer": 15,
+      "hints": [],
+      "solution": [
+        "$360 / 24 = 15$ seconden."
+      ],
+      "topics": [
+        "sound-film"
+      ],
+      "unit": "s"
+    },
+    {
+      "id": "02-T03",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke maatschappijen vormden samen de \"Big Five\" van Hollywood?",
+      "choices": [
+        "Paramount, Universal, Columbia, Netflix en HBO",
+        "Universal, Columbia, United Artists, Disney en Pixar",
+        "Paramount, Loew's/MGM, Fox, Warner Bros. en RKO",
+        "Alleen MGM en Warner Bros."
+      ],
+      "answer": "Paramount, Loew's/MGM, Fox, Warner Bros. en RKO",
+      "hints": [],
+      "solution": [
+        "De Big Five waren de verticaal geïntegreerde maatschappijen met eigen bioscopen."
+      ],
+      "topics": [
+        "studio-system"
+      ]
+    },
+    {
+      "id": "02-T04",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat was het effect van blokverhuur (block booking) in het studiosysteem?",
+      "choices": [
+        "De studio liet films alleen aan het publiek in blokken zien",
+        "Alle bioscopen draaiden op dezelfde dag dezelfde film",
+        "Een bioscoopexploitant moest een pakket films afnemen om de goede films te krijgen",
+        "Elke bioscoop kon vrij kiezen welke film hij draaide"
+      ],
+      "answer": "Een bioscoopexploitant moest een pakket films afnemen om de goede films te krijgen",
+      "hints": [],
+      "solution": [
+        "Studio's verkochten films in pakketten, zodat ze vooraf op afzet konden rekenen."
+      ],
+      "topics": [
+        "studio-system"
+      ]
+    },
+    {
+      "id": "02-T05",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat bepaalde de Production Code (sinds 1934 strikt toegepast) onder meer?",
+      "choices": [
+        "Dat acteurs geen contracten mochten hebben",
+        "Dat alle films in kleur moesten zijn",
+        "Dat misdaad niet beloond mocht worden en dat bepaalde thema's niet in beeld mochten komen",
+        "Dat elke film een tussentitel moest hebben"
+      ],
+      "answer": "Dat misdaad niet beloond mocht worden en dat bepaalde thema's niet in beeld mochten komen",
+      "hints": [],
+      "solution": [
+        "De code stuurde zowel de inhoud als de vorm, omdat suggestie nodig werd."
+      ],
+      "topics": [
+        "studio-system"
+      ]
+    },
+    {
+      "id": "02-T06",
+      "type": "order",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Zet deze shots van een gesprek in de volgorde van het klassieke continuïteitsmodel: van overzicht naar detail.",
+      "answer": [
+        "Establishing shot van de kamer",
+        "Medium shot van beide personen",
+        "Close-up van de spreker",
+        "Close-up van de luisteraar"
+      ],
+      "hints": [],
+      "solution": [
+        "Van totaal naar medium shot naar close-ups, waarna in shot/tegenshot tussen beide personen wordt gewisseld."
+      ],
+      "topics": [
+        "continuity-editing"
+      ]
+    },
+    {
+      "id": "02-T07",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "In een gesprek tussen twee personen kijkt A in een shot naar rechts. Hoe moet B in het volgende shot worden gefilmd om de continuïteit te bewaren?",
+      "choices": [
+        "B staat met de rug naar de camera",
+        "B kijkt ook naar rechts",
+        "B kijkt naar links, met de camera aan dezelfde kant van de as",
+        "B kijkt recht in de lens, vanaf de andere kant van de as"
+      ],
+      "answer": "B kijkt naar links, met de camera aan dezelfde kant van de as",
+      "hints": [],
+      "solution": [
+        "Beide personen kijken naar elkaar; dat vergt tegengestelde kijkrichtingen met de camera aan één kant van de as."
+      ],
+      "topics": [
+        "continuity-editing"
+      ]
+    },
+    {
+      "id": "02-T08",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom is *Citizen Kane* (1941) filmhistorisch belangrijk?",
+      "choices": [
+        "Door de combinatie van diepe scherpte, lange opnamen, lage camerahoeken en een verhaal dat uit meerdere perspectieven wordt verteld",
+        "Omdat het de Production Code afschafte",
+        "Omdat het de eerste geluidsfilm was",
+        "Omdat het de eerste film was die kleur gebruikte"
+      ],
+      "answer": "Door de combinatie van diepe scherpte, lange opnamen, lage camerahoeken en een verhaal dat uit meerdere perspectieven wordt verteld",
+      "hints": [],
+      "solution": [
+        "De film vond niet alle technieken uit, maar bracht ze samen tot een nieuwe stijl."
+      ],
+      "topics": [
+        "film-language"
+      ]
+    },
+    {
+      "id": "02-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Wat is het kenmerkende beeld van Ozu's *Tokyo monogatari* (1953)?",
+      "choices": [
+        "Een lage camera ter hoogte van een zittend persoon en een eigen ruimtelijk systeem zonder de 180-gradenregel",
+        "Dromen met trucage en dubbelopnamen",
+        "Een snelle montage met veel jump cuts",
+        "Diepe scherpte met een zwevende camera"
+      ],
+      "answer": "Een lage camera ter hoogte van een zittend persoon en een eigen ruimtelijk systeem zonder de 180-gradenregel",
+      "hints": [],
+      "solution": [
+        "Het zogeheten tatami-shot vormt het handelsmerk van Ozu."
+      ],
+      "topics": [
+        "world-cinema"
+      ]
+    },
+    {
+      "id": "02-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Waarom is het te verklaren dat veel films uit de jaren dertig in de kern op elkaar lijken?",
+      "choices": [
+        "Omdat alle regisseurs dezelfde opleiding volgden",
+        "Omdat er maar één filmcamera bestond",
+        "Omdat de overheid de plot voorschreef",
+        "Omdat een kleine groep maatschappijen films als industrieel product maakte met vaste genres, sterren en montageregels"
+      ],
+      "answer": "Omdat een kleine groep maatschappijen films als industrieel product maakte met vaste genres, sterren en montageregels",
+      "hints": [],
+      "solution": [
+        "Het studiosysteem en de continuïteitsmontage maakten het stijlmodel bijna standaard."
+      ],
+      "feedback": [
+        {
+          "answer": "Omdat de overheid de plot voorschreef",
+          "message": "De Hays Code was zelfcensuur van de sector en schreef geen plot voor, maar beperkte wat getoond mocht worden."
+        }
+      ],
+      "topics": [
+        "studio-system"
+      ]
+    }
+  ]
+}

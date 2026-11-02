@@ -1,0 +1,211 @@
+{
+  "title": "Hoofdstuktoets – Nieuwe golven en auteurs",
+  "intro": "10 vragen. Je hebt 70% nodig om de module af te ronden, 85% voor 'beheerst'.",
+  "questions": [
+    {
+      "id": "03-T01",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wie richtte in 1951 samen met anderen *Cahiers du cinéma* op en gold als intellectuele leidsman van het blad?",
+      "choices": [
+        "Jean-Luc Godard",
+        "André Bazin",
+        "Federico Fellini",
+        "Andrew Sarris"
+      ],
+      "answer": "André Bazin",
+      "hints": [],
+      "solution": [
+        "Bazin verdedigde een film die de werkelijkheid respecteert; hij overleed in 1958."
+      ],
+      "topics": [
+        "auteur-theory"
+      ]
+    },
+    {
+      "id": "03-T02",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Wat is de kern van de auteurstheorie?",
+      "choices": [
+        "Elke film heeft precies één auteur die alles zelf doet",
+        "Films hebben geen maker maar alleen een producent",
+        "De regisseur kan, ook binnen een industrieel systeem, de maker van een film zijn, herkenbaar aan een persoonlijke stijl",
+        "De scenarioschrijver is altijd de enige maker"
+      ],
+      "answer": "De regisseur kan, ook binnen een industrieel systeem, de maker van een film zijn, herkenbaar aan een persoonlijke stijl",
+      "hints": [],
+      "solution": [
+        "Het is een manier om films te lezen, met bezwaren: film is teamwerk."
+      ],
+      "topics": [
+        "auteur-theory"
+      ]
+    },
+    {
+      "id": "03-T03",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 1,
+      "question": "Welke film van Godard gebruikte de jump cut als stijlmiddel?",
+      "choices": [
+        "Persona (1966)",
+        "Les quatre cents coups (1959)",
+        "La dolce vita (1960)",
+        "À bout de souffle (1960)"
+      ],
+      "answer": "À bout de souffle (1960)",
+      "hints": [],
+      "solution": [
+        "Les quatre cents coups is van Truffaut, Persona van Bergman, La dolce vita van Fellini."
+      ],
+      "topics": [
+        "new-wave"
+      ]
+    },
+    {
+      "id": "03-T04",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Waarom is de jump cut in de klassieke continuïteitsmontage een fout, maar bij Godard een keuze?",
+      "choices": [
+        "Omdat de klassieke film nooit sneed",
+        "Omdat klassieke montage onzichtbaar wil zijn, terwijl Godard de montage zichtbaar maakt als stijl",
+        "Omdat de camera bij Godard stil stond",
+        "Omdat Godard geen montage gebruikte"
+      ],
+      "answer": "Omdat klassieke montage onzichtbaar wil zijn, terwijl Godard de montage zichtbaar maakt als stijl",
+      "hints": [],
+      "solution": [
+        "De continuïteitsmontage verbergt de sneden; de Nouvelle Vague laat ze zien."
+      ],
+      "topics": [
+        "new-wave"
+      ]
+    },
+    {
+      "id": "03-T05",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Welke twee oorzaken worden meestal genoemd voor het uiteenvallen van het Amerikaanse studiosysteem na 1948?",
+      "choices": [
+        "De uitvinding van kleur en geluid",
+        "De Eerste Wereldoorlog en de Hays Code",
+        "De Paramount-uitspraak en de opkomst van de televisie",
+        "De komst van streaming en de dvd"
+      ],
+      "answer": "De Paramount-uitspraak en de opkomst van de televisie",
+      "hints": [],
+      "solution": [
+        "De uitspraak maakte een einde aan de vaste afzet; de televisie nam kijkers weg."
+      ],
+      "topics": [
+        "studio-system"
+      ]
+    },
+    {
+      "id": "03-T06",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is een kenmerk van *The Godfather* (1972) als New Hollywood-film?",
+      "choices": [
+        "Een klassiek genre (de gangsterfilm) met een tragische, ambivalente toon en een persoonlijke regiestijl",
+        "Een documentaire zonder acteurs",
+        "Een stomme film met tussentitels",
+        "Een musical met zang en dans"
+      ],
+      "answer": "Een klassiek genre (de gangsterfilm) met een tragische, ambivalente toon en een persoonlijke regiestijl",
+      "hints": [],
+      "solution": [
+        "De combinatie van genre en auteursblik is kenmerkend voor New Hollywood."
+      ],
+      "topics": [
+        "new-hollywood"
+      ]
+    },
+    {
+      "id": "03-T07",
+      "type": "numeric",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Een scène van 180 seconden bestaat uit 45 shots. Wat is de gemiddelde duur van een shot in seconden?",
+      "answer": 4,
+      "hints": [],
+      "solution": [
+        "$180 / 45 = 4$ seconden."
+      ],
+      "topics": [
+        "editing"
+      ],
+      "unit": "s"
+    },
+    {
+      "id": "03-T08",
+      "type": "choice",
+      "mode": "guided",
+      "difficulty": 2,
+      "question": "Wat is parallelmontage, zoals Griffith en Coppola die gebruiken?",
+      "choices": [
+        "Afwisselen tussen twee gelijktijdige gebeurtenissen op verschillende plaatsen",
+        "Het weglaten van geluid",
+        "Het achter elkaar tonen van dezelfde scène vanuit drie hoeken",
+        "Het bevriezen van een beeld"
+      ],
+      "answer": "Afwisselen tussen twee gelijktijdige gebeurtenissen op verschillende plaatsen",
+      "hints": [],
+      "solution": [
+        "Het geeft spanning en kan, zoals bij de doop in The Godfather, een extra betekenis leggen tussen de twee lijnen."
+      ],
+      "topics": [
+        "editing"
+      ]
+    },
+    {
+      "id": "03-T09",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Welke ontwikkeling kenmerkt de blockbuster na *Jaws* (1975) en *Star Wars* (1977)?",
+      "choices": [
+        "Het verdwijnen van speciale effecten",
+        "Een groot evenement met brede release, grote marketing en merchandise, waarbij het project belangrijker werd dan de regisseur",
+        "Het einde van de sterrencultus",
+        "Het terugkeren van de blokverhuur"
+      ],
+      "answer": "Een groot evenement met brede release, grote marketing en merchandise, waarbij het project belangrijker werd dan de regisseur",
+      "hints": [],
+      "solution": [
+        "De film als merk bepaalt de strategie van de industrie."
+      ],
+      "topics": [
+        "new-hollywood"
+      ]
+    },
+    {
+      "id": "03-T10",
+      "type": "choice",
+      "mode": "independent",
+      "difficulty": 3,
+      "question": "Hoe kun je een regisseur herkennen aan zijn stijl, zoals in de lessen beschreven?",
+      "choices": [
+        "Door te tellen hoeveel acteurs er optreden",
+        "Door te letten op een patroon in onderwerp, kader, montage en geluid, en op steeds terugkerende afwijkingen van de normale regels",
+        "Door alleen naar het genre te kijken",
+        "Door alleen naar de titel te kijken"
+      ],
+      "answer": "Door te letten op een patroon in onderwerp, kader, montage en geluid, en op steeds terugkerende afwijkingen van de normale regels",
+      "hints": [],
+      "solution": [
+        "Eén overeenkomend kenmerk, bijvoorbeeld het genre, bewijst nog geen auteursstijl."
+      ],
+      "topics": [
+        "auteur-theory"
+      ]
+    }
+  ]
+}
